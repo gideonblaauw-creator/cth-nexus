@@ -1,1 +1,106 @@
-PLACEHOLDER
+{
+  "slug": "bio-analytics",
+  "name": "bio·analytics",
+  "website": "#",
+  "badge_en": "Biodiversity Analytics — Bio Monitoring",
+  "badge_es": "Biodiversity Analytics — Monitoreo Biológico",
+  "hero_image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1200&q=80",
+  "hero_sub_en": "Decoding the language of biodiversity",
+  "hero_sub_es": "Decodificando el lenguaje de la biodiversidad",
+  "pitch_en": "Continuous, traceable biodiversity monitoring via subscription — USD $1,000 per sensor per year.",
+  "pitch_es": "Monitoreo continuo y trazable de biodiversidad por suscripción — USD $1.000 por sensor al año.",
+  "cta_btn_en": "Visit us! (deck)",
+  "cta_btn_es": "¡Visítanos! (deck)",
+  "cta_pitch_en": "Make biodiversity conservation profitable — continuous monitoring, not a snapshot.",
+  "cta_pitch_es": "Hacer rentable la conservación de biodiversidad — monitoreo continuo, no una instantánea.",
+  "ribbon": [
+    {"val": "$1,000", "lab_en": "Per Sensor / Year", "lab_es": "Por Sensor / Año", "sub_en": "Subscription", "sub_es": "Suscripción"},
+    {"val": "$12.5M", "lab_en": "TAM", "lab_es": "TAM", "sub_en": "Deck figure", "sub_es": "Cifra del deck"},
+    {"val": "$5M", "lab_en": "SAM", "lab_es": "SAM", "sub_en": "Deck figure", "sub_es": "Cifra del deck"},
+    {"val": "$300K", "lab_en": "SOM", "lab_es": "SOM", "sub_en": "Deck figure", "sub_es": "Cifra del deck"}
+  ],
+  "problem_stats": [
+    [{"num": "$4,375", "lab_en": "Traditional 1 ha/yr", "lab_es": "Tradicional 1 ha/año"}, {"num": "$1,000", "lab_en": "bio·analytics sensor/yr", "lab_es": "Sensor bio·analytics/año"}],
+    [{"num": "8", "lab_en": "Sensors / customer", "lab_es": "Sensores / cliente"}, {"num": "12", "lab_en": "Customers Y3", "lab_es": "Clientes Año 3"}]
+  ],
+  "sections": [
+    {
+      "num": 1, "type": "split", "overlay": "rgba(12,73,138,.93)",
+      "title_en": "The Deal", "title_es": "El Trato",
+      "head_en": "Bio monitoring subscription for B2B, NGOs, energy &amp; real estate",
+      "head_es": "Suscripción de monitoreo biológico para B2B, ONG, energía e inmobiliario",
+      "body_en": "AI platform for continuous, non-invasive biodiversity monitoring. Customers discovered in Czech Republic, USA, Papua New Guinea, Mexico, Costa Rica and Colombia.",
+      "body_es": "Plataforma IA para monitoreo continuo y no invasivo de biodiversidad. Clientes descubiertos en República Checa, EE.UU., Papua Nueva Guinea, México, Costa Rica y Colombia.",
+      "bg": "https://images.unsplash.com/photo-1511497584788-876760111969?w=1200&q=80"
+    },
+    {
+      "num": 2, "type": "solution", "overlay": "rgba(102,147,72,.91)",
+      "title_en": "Product Platform", "title_es": "Plataforma de Producto",
+      "steps": [
+        {"icon": "🦋", "label_en": "Detect", "label_es": "Detectar", "text_en": "Insect detection with expert validation.", "text_es": "Detección de insectos con validación experta."},
+        {"icon": "📡", "label_en": "Monitor", "label_es": "Monitorear", "text_en": "Continuous, traceable, scalable monitoring.", "text_es": "Monitoreo continuo, trazable y escalable."},
+        {"icon": "📊", "label_en": "Report", "label_es": "Reportar", "text_en": "Intuitive data reporting — bio·indicators reflect ecosystem health.", "text_es": "Reportes intuitivos — bio·indicadores reflejan salud del ecosistema."},
+        {"icon": "🌍", "label_en": "Scale", "label_es": "Escalar", "text_en": "2030 ~120 paying customers in Colombia (deck).", "text_es": "2030 ~120 clientes pagadores en Colombia (deck)."}
+      ],
+      "bg": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1200&q=80"
+    },
+    {
+      "num": 3, "type": "chart", "overlay": "rgba(12,73,138,.93)",
+      "title_en": "Financials — Year 3", "title_es": "Finanzas — Año 3",
+      "bars": [
+        {"val": "$16K", "label": "Rev/Cust", "height": 45},
+        {"val": "$8K", "label": "Net/Price/Yr", "height": 30},
+        {"val": "$7.3K", "label": "EBITDA/Cust", "height": 35},
+        {"val": "$43.8K", "label": "EBITDA Y3", "height": 55},
+        {"val": "1.2%", "label": "Market Share", "height": 20, "proj": true}
+      ],
+      "note_en": "CAC $1.5K · Cost/customer $8.7K · Cost deliver $7.2K · Economic lifetime 2 years · Potential customers 1,000",
+      "note_es": "CAC $1.5K · Costo/cliente $8.7K · Costo entrega $7.2K · Vida económica 2 años · Clientes potenciales 1.000",
+      "bg": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80",
+      "accent_after": true
+    },
+    {
+      "num": 4, "type": "table", "overlay": "rgba(102,147,72,.91)",
+      "title_en": "Customer Value vs Traditional", "title_es": "Valor vs Monitoreo Tradicional",
+      "headers": [["Aspect", "Aspecto"], ["Traditional monitoring", "Monitoreo tradicional"], ["bio·analytics", "bio·analytics"]],
+      "rows": [
+        [["Price 1 ha/yr", "Precio 1 ha/año"], ["USD $4,375*", "USD $4.375*"], ["USD $1,000", "USD $1.000"]],
+        [["Capture", "Captura"], ["Animal capture", "Captura de animales"], ["No animal capture", "Sin captura de animales"]],
+        [["Visits", "Visitas"], ["More field visits", "Más visitas de campo"], ["Fewer field visits", "Menos visitas de campo"]],
+        [["Data", "Datos"], ["Snapshot", "Instantánea"], ["Continuous monitoring", "Monitoreo continuo"]]
+      ],
+      "bg": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&q=80"
+    },
+    {
+      "num": 5, "type": "impact", "overlay": "rgba(12,73,138,.93)",
+      "title_en": "Climate Impact", "title_es": "Impacto Climático",
+      "cards": [
+        {"icon": "🌲", "title_en": "Carbon Uptake", "title_es": "Captura de Carbono", "text_en": "2,285 tCO₂/year estimated annual carbon uptake in hectares under monitoring.", "text_es": "2.285 tCO₂/año captura estimada en hectáreas bajo monitoreo."},
+        {"icon": "📏", "title_en": "Hectares", "title_es": "Hectáreas", "text_en": "24,567 hectares under biodiversity monitoring with $10M*.", "text_es": "24.567 hectáreas bajo monitoreo de biodiversidad con $10M*."},
+        {"icon": "🌡️", "title_en": "Thermometer", "title_es": "Termómetro", "text_en": "bio·analytics as biodiversity health thermometer.", "text_es": "bio·analytics como termómetro de salud de biodiversidad."},
+        {"icon": "👥", "title_en": "Social Impact", "title_es": "Impacto Social", "text_en": "Green jobs · Community data sovereignty.", "text_es": "Empleos verdes · Soberanía de datos comunitaria."}
+      ],
+      "table": {
+        "headers": [["Metric", "Métrica"], ["Traditional", "Tradicional"], ["bio·analytics", "bio·analytics"]],
+        "rows": [
+          [["Hectares monitored", "Ha monitoreadas"], ["10,000", "10.000"], ["24,567", "24.567"]],
+          [["tCO₂/year", "tCO₂/año"], ["5,613", "5.613"], ["2,285", "2.285"]]
+        ]
+      },
+      "bg": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1200&q=80"
+    },
+    {
+      "num": 6, "type": "team", "overlay": "rgba(102,147,72,.91)",
+      "title_en": "Dream &amp; Team", "title_es": "Sueño y Equipo",
+      "members": [
+        {"name": "Diego Gómez Morales", "initials": "DG", "role_en": "CEO — Biologist", "role_es": "CEO — Biólogo", "bio_en": "Make biodiversity conservation profitable worldwide.", "bio_es": "Hacer rentable la conservación de biodiversidad mundialmente."},
+        {"name": "Sofía Medellín Becerra", "initials": "SM", "role_en": "CPO — Biologist", "role_es": "CPO — Bióloga", "bio_en": "Product leadership.", "bio_es": "Liderazgo de producto."},
+        {"name": "Natalia Ramirez Ortiz", "initials": "NR", "role_en": "Biodiversity Analyst", "role_es": "Analista Biodiversidad", "bio_en": "Biologist.", "bio_es": "Bióloga."},
+        {"name": "Daniel Gómez Morales", "initials": "DM", "role_en": "GIS Analyst — Geographer", "role_es": "Analista GIS — Geógrafo", "bio_en": "Spatial analysis.", "bio_es": "Análisis espacial."}
+      ],
+      "dream_en": "Position Colombia as global biodiversity services hub. Website URL: [PENDIENTE]. CT taxonomy: [PENDIENTE].",
+      "dream_es": "Posicionar Colombia como hub global de servicios de biodiversidad. URL web: [PENDIENTE]. Taxonomía CT: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&q=80"
+    }
+  ]
+}
