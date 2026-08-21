@@ -163,7 +163,7 @@ def deck_section(d: dict, slug: str) -> str:
         iframe = (
             f'<div class="deck-frame-wrap">'
             f'<iframe class="deck-frame" src="{embed}" title="{d["name"]} pitch deck" '
-            f)loading="lazy" allow="autoplay" referrerpolicy="no-referrer-when-downgrade"></iframe>'
+            f'loading="lazy" allow="autoplay" referrerpolicy="no-referrer-when-downgrade"></iframe>'
             f"</div>"
         )
     fallback = (
@@ -177,7 +177,7 @@ def deck_section(d: dict, slug: str) -> str:
         f'<div class="sec-ov" style="background:rgba(12,73,138,.30);"></div>'
         f'<div class="sec-header"><div class="sec-num">ðŸ“„</div>'
         f'<div class="sec-title">{bi("Pitch Deck", "Pitch Deck")}</div><div class="sec-rule"></div></div>'
-        f'<div class="deck-note">{bi(‰Õ±°µÍ¥é”‘•¬ÁÉ•Ù¥•Ü‰•±½Ü¸9Õµ‰•ÉÃ on this profile match the deck only.", "Vista previa del deck a tamaÃ±o completo. Los nÃºmeros en este perfil provienen solo del deck.")}</div>'
+        f'<div class="deck-note">{bi("Full-size deck preview below. Numbers on this profile match the deck only.", "Vista previa del deck a tamaÃ±o completo. Los nÃºmeros en este perfil provienen solo del deck.")}</div>'
         f'<div class="deck-wrap"><div class="deck-panel">{iframe}{fallback}</div>'
         f'<div class="deck-actions">'
         f'<a class="cta-link" href="{view}" target="_blank" rel="noopener">{bi("Open deck in Google Drive", "Abrir deck en Google Drive")}</a>'
@@ -227,6 +227,132 @@ def build_page(d: dict) -> str:
                 f'<div class="split-h">{bi(sec["head_en"], sec["head_es"])}</div>'
                 f'<div class="body-text">{bi(sec["body_en"], sec["body_es"])}</div></div></div>'
                 f'<div class="split-panel"><div class="split-frost split-frost-stats">'
-                eø­íÍÑ…ÑÍõíÍ•Œ¹•Ð ‰•áÑÉ…}¡Ñµ°ˆ°ˆˆ¥ôð½‘¥Øøð½‘¥Øøð½‘¥Øøœ(€€€€€€€€€€€€¤(€€€€€€€•±¥˜Í•l‰ÑåÁ”‰t€ôô€‰Í½±ÕÑ¥½¸ˆè(€€€€€€€€€€€¥¹¹•È€ôÍ½±}É¥¡Í•l‰ÍÑ•ÁÌ‰t¤(€€€€€€€•±¥˜Í•l‰ÑåÁ”‰t€ôô€‰¡…ÉÐˆè(€€€€€€€€€€€¥¹¹•È€ô‰…É}¡…ÉÐ¡Í•l‰‰…ÉÌ‰t¤(€€€€€€€€€€€¥˜Í•Œ¹•Ð ‰¹½Ñ•}•¸ˆ¤è(€€€€€€€€€€€€€€€¥¹¹•È€¬ô˜œñ‘¥Ø±…ÍÌô‰™É½ÍÐµ¹½Ñ”ˆùí‰¤¡Í•l‰¹½Ñ•}•¸‰t°Í•l‰¹½Ñ•}•Ì‰t¥ôð½‘¥Øøœ(€€€€€€€•±¥˜Í•l‰ÑåÁ”‰t€ôô€‰Ñ…‰±”ˆè(€€€€€€€€€€€¥¹¹•È€ôÑ…‰±”¡Í•l‰¡•…‘•ÉÌ‰t°Í•l‰É½ÝÌ‰t¤(€€€€€€€•±¥˜Í•l‰ÑåÁ”‰t€ôô€‰Í±¥‘•ÉÌˆè(€€€€€€€€€€€¥¹¹•È€ôÍ±¥‘•ÉÌ¡Í•l‰Í±¥‘•ÉÌ‰t¤(€€€€€€€•±¥˜Í•l‰ÑåÁ”‰t€ôô€‰¥µÁ…Ðˆè(€€€€€€€€€€€¥¹¹•È€ô¥µÁ…Ñ}É¥¡Í•l‰…É‘Ì‰t¤(€€€€€€€€€€€¥˜Í•Œ¹•Ð ‰Ñ…‰±”ˆ¤è(€€€€€€€€€€€€€€€Ð€ôÍ•l‰Ñ…‰±”‰t(€€€€€€€€€€€€€€€¥¹¹•È€¬ôÑ…‰±”¡Ñl‰¡•…‘•ÉÌ‰t°Ñl‰É½ÝÌ‰t¤(€€€€€€€•±¥˜Í•l‰ÑåÁ”‰t€ôô€‰Ñ•…´ˆè(€€€€€€€€€€€¥¹¹•È€ôÑ•…µ}É¥¡Í•l‰µ•µ‰•ÉÌ‰t°Í±Õœ¤(€€€€€€€€€€€¥˜Í•Œ¹•Ð ‰‘É•…µ}•¸ˆ¤è(€€€€€€€€€€€€€€€¥¹¹•È€¬ô˜œñ‘¥Ø±…ÍÌô‰™É½ÍÐµ¹½Ñ”ˆùí‰¤¡Í•l‰‘É•…µ}•¸‰t°Í•l‰‘É•…µ}•Ì‰t¥ôð½‘¥Øøœ(€€€€€€€•±¥˜Í•l‰ÑåÁ”‰t€ôô€‰¡Ñµ°ˆè(€€€€€€€€€€€¥¹¹•È€ôÍ•l‰¡Ñµ°‰t((€€€€€€€Í•Ñ¥½¹Í}¡Ñµ°€¬ô€ (€€€€€€€€€€€˜œñ‘¥Ø±…ÍÌô‰Í•ŒˆÍÑå±”ô‰Á½Í¥Ñ¥½¸éÉ•±…Ñ¥Ù”ìˆøœ(€€€€€€€€€€€˜œñ‘¥Ø±…ÍÌô‰Í•Œµ‰œˆÍÑå±”ô‰‰…­É½Õ¹µ¥µ…”éÕÉ°¡pí‰õpœ¤ìˆøð½‘¥Øøœ(€€€€€€€€€€€˜œñ‘¥Ø±…ÍÌô‰Í•Œµ½ØˆÍÑå±”ô‰‰…­É½Õ¹éí½Ùôìˆøð½‘¥Øøœ(€€€€€€€€€€€˜œñ‘¥Ø±…ÍÌô‰Í•Œµ¡•…‘•Èˆøñ‘¥Ø±…ÍÌô‰Í•Œµ¹Õ´ˆùí¹Õ´èÀÉ‘ôð½‘¥Øøœ(€€€€€€€€€€€˜œñ‘¥Ø±…ÍÌô‰Í•ŒµÑ¥Ñ±”ˆùí‰¤¡Ñ¥Ñ±•}•¸°Ñ¥Ñ±•}•Ì¥ôð½‘¥Øøñ‘¥Ø±…ÍÌô‰Í•ŒµÉÕ±”ˆøð½‘¥Øøð½‘¥Øøœ(€€€€€€€€€€€˜í¥¹¹•Éôð½‘¥Øøœ(€€€€€€€€¤(€€€€€€€¥˜Í•Œ¹•Ð ‰…•¹Ñ}…™Ñ•Èˆ¤è(€€€€€€€€€€€Í•Ñ¥½¹Í}¡Ñµ°€¬ô€œñ‘¥Ø±…ÍÌô‰…•¹Ðµ‰…Èˆøð½‘¥Øøœ((€€€‘•¬€ô¹•Ð ‰‘•­}Á‘˜ˆ¤½Èíô(€€€‘•­}±¥¹¬€ô€ˆˆ(€€€¥˜‘•¬¹•Ð ‰Ù¥•Ý}ÕÉ°ˆ¤½È‘•¬¹•Ð ‰‘É¥Ù•}¥ˆ¤è(€€€€€€€Ù¥•Ü€ô‘•¬¹•Ð ‰Ù¥•Ý}ÕÉ°ˆ¤½È˜‰¡ÑÑÁÌè¼½‘É¥Ù”¹½½±”¹½´½™¥±”½½í‘•­l‘É¥Ù•}¥uô½Ù¥•Üˆ(€€€€€€€‘•­}±¥¹¬€ô˜œñ„±…ÍÌô‰Ñ„µ±¥¹¬ˆ¡É•˜ô‰íÙ¥•ÝôˆÑ…É•Ðô‰}‰±…¹¬ˆÉ•°ô‰¹½½Á•¹•Èˆùí‰¤ ‰A¥Ñ ‘•¬€¡A¤ˆ°€‰A¥Ñ ‘•¬€¡A¤ˆ¥ôð½„øœ((€€€É•ÑÕÉ¸˜ˆˆˆð…=QeA¡Ñµ°ø(ñ¡Ñµ°±…¹œô‰•¸ˆø(ñ¡•…ø(ñµ•Ñ„¡…ÉÍ•Ðô‰UQ´àˆø(ñµ•Ñ„¹…µ”ô‰Ù¥•ÝÁ½ÉÐˆ½¹Ñ•¹Ðô‰Ý¥‘Ñ õ‘•Ù¥”µÝ¥‘Ñ °¥¹¥Ñ¥…°µÍ…±”ôÄˆø(ñÑ¥Ñ±”ùí‘l‰¹…µ”‰uôƒŠP±•…¹Ñ•¡!UMÑ…ÉÑÕÀAÉ½™¥±”ð½Ñ¥Ñ±”ø(ñ±¥¹¬É•°ô‰¥½¸ˆ¡É•˜ô‰¡ÑÑÁÌè¼½±•…¹Ñ•¡¡Õˆ¹¹•Ð½™…Ù¥½¸¹¥¼ˆø(ñ±¥¹¬¡É•˜ô‰¡ÑÑÁÌè¼½™½¹ÑÌ¹½½±•…Á¥Ì¹½´½ÍÌÈý™…µ¥±äõ=Á•¸­M…¹ÌéÝ¡Ñ ÐÀÀìØÀÀìÜÀÀìàÀÀ™™…µ¥±äõAP­M…¹ÌéÝ¡Ñ ÐÀÀìÜÀÀ™‘¥ÍÁ±…äõÍÝ…ÀˆÉ•°ô‰ÍÑå±•Í¡••Ðˆø(ñÍÑå±”ø)íÍÍô(ð½ÍÑå±”ø(ð½¡•…ø(ñ‰½‘äø(ñ‘¥Ø±…ÍÌô‰Í¥Ñ”µ‰É…¹ˆøñÍÁ…¸±…ÍÌô‰‰É…¹µÑ•áÐˆù±•…¹Ñ• ñ•´ù!Uð½•´øð½ÍÁ…¸øð½‘¥Øø(ñ‘¥Ø±…ÍÌô‰±…¹œµÑ½±”ˆø(€€ñ‰ÕÑÑ½¸±…ÍÌô‰±ˆ…Ñ¥Ù”ˆ½¹±¥¬ô‰‘½Õµ•¹Ð¹‘½Õµ•¹Ñ±•µ•¹Ð¹±…¹œô•¸œíÑ¡¥Ì¹±…ÍÍ1¥ÍÐ¹…‘ …Ñ¥Ù”œ¤íÑ¡¥Ì¹¹•áÑ±•µ•¹ÑM¥‰±¥¹œ¹±…ÍÍ1¥ÍÐ¹É•µ½Ù” …Ñ¥Ù”œ¤ìˆù8ð½‰ÕÑÑ½¸ø(€€ñ‰ÕÑÑ½¸±…ÍÌô‰±ˆˆ½¹±¥¬ô‰‘½Õµ•¹Ð¹‘½Õµ•¹Ñ±•µ•¹Ð¹±…¹œô•ÌœíÑ¡¥Ì¹±…ÍÍ1¥ÍÐ¹…‘ …Ñ¥Ù”œ¤íÑ¡¥Ì¹ÁÉ•Ù¥½ÕÍ±•µ•¹ÑM¥‰±¥¹œ¹±…ÍÍ1¥ÍÐ¹É•µ½Ù” …Ñ¥Ù”œ¤ìˆùLð½‰ÕÑÑ½¸ø(ð½‘¥Øø((ñ‘¥Ø±…ÍÌô‰Í•Œ¡•É¼ˆø(€€ñ¥µœ±…ÍÌô‰¡•É¼µ¥µœˆÍÉŒô‰í…ÍÍ•Ñ}ÕÉ°¡‘l‰¡•É½}¥µ…”‰t°Í±Õœ¥ôˆ…±Ðô‰í‘l‰¹…µ”‰uôˆ±½…‘¥¹œô‰±…éäˆø(€€ñ‘¥Ø±…ÍÌô‰¡•É¼µ½Øˆøð½‘¥Øø(€€ñ‘¥Ø±…ÍÌô‰¡•É¼µ‰…‘”ˆøñ‘¥Ø±…ÍÌô‰Á¥±°ˆÍÑå±”ô‰‰…­É½Õ¹éÉ‰„ À°À°À°¸ÐÔ¤í½±½ÈéÙ…È ´µ±œ¤ìˆùí‰¤¡‘l‰‰…‘•}•¸‰t°‘l‰‰…‘•}•Ì‰t¥ôð½‘¥Øøð½‘¥Øø(€€ñ‘¥Ø±…ÍÌô‰¡•É¼µ¥¸ˆø(€€€€ñ‘¥Ø±…ÍÌô‰¡•É¼µ¹…µ”ˆùí‘l‰¹…µ”‰uôð½‘¥Øø(€€€€ñ‘¥Ø±…ÍÌô‰¡•É¼µÍÕˆˆùí‰¤¡‘l‰¡•É½}ÍÕ‰}•¸‰t°‘l‰¡•É½}ÍÕ‰}•Ì‰t¥ôð½‘¥Øø(€€€€ñ‘¥Ø±…ÍÌô‰¡•É¼µÁ¥Ñ ˆùí‰¤¡‘l‰Á¥Ñ¡}•¸‰t°‘l‰Á¥Ñ¡}•Ì‰t¥ôð½‘¥Øø(€€ð½‘¥Øø(€€ñ‘¥Ø±…ÍÌô‰¡•É¼µÑ…±¥¹”ˆù%¹ÍÁ¥É„¸Óé„¸QÉ…¹Í™½Éµ„¸ð½‘¥Øø(ð½‘¥Øø((ñ‘¥Ø±…ÍÌô‰É¥‰‰½¸ˆÍÑå±”ô‰‰…­É½Õ¹éÉ‰„ ÄÈ°ÜÌ°ÄÌà°¸äÔ¤ìˆùíÉ¥‰‰½¹ôð½‘¥Øø()í‘•­}Í•Ñ¥½¸¡°Í±Õœ¥ô()íÍ•Ñ¥½¹Í}¡Ñµ±ô((ñ‘¥Ø±…ÍÌô‰Í•ŒˆÍÑå±”ô‰Á½Í¥Ñ¥½¸éÉ•±…Ñ¥Ù”ìˆø(€€ñ‘¥Ø±…ÍÌô‰Í•Œµ‰œˆÍÑå±”ô‰‰…­É½Õ¹µ¥µ…”éÕÉ° í…ÍÍ•Ñ}ÕÉ° ˆ¸½…ÍÍ•ÑÌ½‰œµÑ„¹©Áœˆ°Í±Õœ¥ôœ¤ìˆøð½‘¥Øø(€€ñ‘¥Ø±…ÍÌô‰Í•Œµ½ØˆÍÑå±”ô‰‰…­É½Õ¹éÉ‰„ ÄÈ°ÜÌ°ÄÌà°¸ÌÀ¤ìˆøð½‘¥Øø(€€ñ‘¥Ø±…ÍÌô‰Ñ„ˆø(€€€€ñ‘¥Ø±…ÍÌô‰Á¥±°ˆÍÑå±”ô‰‰…­É½Õ¹éÉ‰„ ÄÔÜ°ÄäÔ°ÄÌÈ°¸ÄÈ¤í‰½É‘•ÈèÅÁàÍ½±¥É‰„ ÄÔÜ°ÄäÔ°ÄÌÈ°¸È¤í½±½ÈéÙ…È ´µ±œ¤íµ…É¥¸µ‰½ÑÑ½´èÄÙÁàìˆùí‰¤¡‘l‰‰…‘•}•¸‰t°‘l‰‰…‘•}•Ì‰t¥ôð½‘¥Øø(€€€€ñ‘¥Ø±…ÍÌô‰Ñ„µ¹…µ”ˆùí‘l‰¹…µ”‰uôð½‘¥Øø(€€€€ñ‘¥Ø±…ÍÌô‰Ñ„µÁ¥Ñ ˆùí‰¤¡‘l‰Ñ…}Á¥Ñ¡}•¸‰t°‘l‰Ñ…}Á¥Ñ¡}•Ì‰t¥ôð½‘¥Øø(€€€€ñ„±…ÍÌô‰Ñ„µ‰Ñ¸ˆ¡É•˜ô‰í¹•Ð ‰Ý•‰Í¥Ñ”ˆ°ˆŒˆ¥ôˆùí‰¤¡¹•Ð ‰Ñ…}‰Ñ¹}•¸ˆ°‰Y¥Í¥ÐÝ•‰Í¥Ñ”ˆ¤°¹•Ð ‰Ñ…}‰Ñ¹}•Ìˆ°‰Y¥Í¥Ñ…ÈÍ¥Ñ¥¼ˆ¤¥ôð½„ø(€€€€ñ‘¥Ø±…ÍÌô‰Ñ„µ±¥¹­Ìˆø(€€€€€€ñ„±…ÍÌô‰Ñ„µ±¥¹¬ˆ¡É•˜ô‰¡ÑÑÁÌè¼½¹•áÕÌ¹±•…¹Ñ•¡¡Õˆ¹¹•Ð½Ì½íÍ±Õôˆùí‰¤ ‰9•áÕÌAÉ½™¥±”ˆ°€‰A•É™¥°9•áÕÌˆ¥ôð½„ø(€€€€€€ñ„±…ÍÌô‰Ñ„µ±¥¹¬ˆ¡É•˜ô‰¡ÑÑÁÌè¼½¹•áÕÌ¹±•…¹Ñ•¡¡Õˆ¹¹•Ð½À½ÍÑ…ÉÑÕÀµÁ½ÉÑ™½±¥¼ˆùí‰¤ ˆÄÔÜMÑ…ÉÑÕÁÌˆ°€ˆÄÔÜMÑ…ÉÑÕÁÌˆ¥ôð½„ø(€€€€€í‘•­}±¥¹­ô(€€€€ð½‘¥Øø(€€€€ñ‘¥Ø±…ÍÌô‰Ñ„µ‰É…¹ˆøñ‘¥Ø±…ÍÌô‰Ñœˆù%¹ÍÁ¥É„¸Óé„¸QÉ…¹Í™½Éµ„¸ð½‘¥Øøñ‘¥Ø±…ÍÌô‰±œÈˆù±•…¹Ñ• ñ•´ÍÑå±”ô‰½±½ÈéÙ…È ´µ±œ¤í™½¹ÐµÍÑå±”é¹½Éµ…°ìˆù!Uð½•´øð½‘¥Øøð½‘¥Øø(€€€€ñ‘¥Ø±…ÍÌô‰Ñ„µÁ½ÉÐˆùí‰¤ ‰±•…¹Ñ•¡!UÁ½ÉÑ™½±¥¼ÁÉ½™¥±”ƒ
-Ü1…Ñ¥¸µ•É¥„ˆ°€‰A•É™¥°Á½ÉÑ…™½±¥¼±•…¹Ñ•¡!Uƒ
-Ü·‘É¥„1…Ñ¥¹„ˆ¥ôð½‘¥Øø(€€ð½‘¥Øø(ð½‘¥Øø(ñ‘¥Ø±…ÍÌô‰…•¹Ðµ‰…Èˆøð½‘¥Øø(ð½‰½‘äø(ð½¡Ñµ°øˆˆˆ(()‘•˜µ…¥¸ ¤€´ø9½¹”è(€€€=UQ}IA<¹µ­‘¥È¡Á…É•¹ÑÌõQÉÕ”°•á¥ÍÑ}½¬õQÉÕ”¤(€€€=UQ}I!%Y¹µ­‘¥È¡Á…É•¹ÑÌõQÉÕ”°•á¥ÍÑ}½¬õQÉÕ”¤(€€€½¹±ä€ôÍåÌ¹…ÉÙlÄét¥˜±•¸¡ÍåÌ¹…ÉØ¤€ø€Ä•±Í”9½¹”(€€€™½È©Í½¹}Á…Ñ ¥¸Í½ÉÑ•¡Q}%H¹±½ˆ ˆ¨¹©Í½¸ˆ¤¤è(€€€€€€€‘…Ñ„€ô©Í½¸¹±½…‘Ì¡©Í½¹}Á…Ñ ¹É•…‘}Ñ•áÐ ¤¤(€€€€€€€Í±Õœ€ô‘…Ñ…l‰Í±Õœ‰t(€€€€€€€¥˜½¹±ä…¹Í±Õœ¹½Ð¥¸½¹±äè(€€€€€€€€€€€½¹Ñ¥¹Õ”(€€€€€€€¡Ñµ°€ô‰Õ¥±‘}Á…”¡‘…Ñ„¤(€€€€€€€Á‘™}ÍÉ}¹…µ”€ô€¡‘…Ñ„¹•Ð ‰‘•­}Á‘˜ˆ¤½Èíô¤¹•Ð ‰Í½ÕÉ•}™¥±”ˆ¤(€€€€€€€µ•‘¥…}ÍÉŒ€ô=UQ}5%€¼Í±Õœ(€€€€€€€™½È‰…Í”¥¸€¡=UQ}IA<€¼Í±Õœ°=UQ}I!%Y€¼Í±Õœ¤è(€€€€€€€€€€€‰…Í”¹µ­‘¥È¡Á…É•¹ÑÌõQÉÕ”°•á¥ÍÑ}½¬õQÉÕ”¤(€€€€€€€€€€€€¡‰…Í”€¼€‰¥¹‘•à¹¡Ñµ°ˆ¤¹ÝÉ¥Ñ•}Ñ•áÐ¡¡Ñµ°¤(€€€€€€€€€€€¥˜µ•‘¥…}ÍÉŒ¹¥Í}‘¥È ¤è(€€€€€€€€€€€€€€€‘•ÍÑ}…ÍÍ•ÑÌ€ô‰…Í”€¼€‰…ÍÍ•ÑÌˆ(€€€€€€€€€€€€€€€¥˜‘•ÍÑ}…ÍÍ•ÑÌ¹•á¥ÍÑÌ ¤è(€€€€€€€€€€€€€€€€€€€Í¡ÕÑ¥°¹ÉµÑÉ•”¡‘•ÍÑ}…ÍÍ•ÑÌ¤(€€€€€€€€€€€€€€€Í¡ÕÑ¥°¹½ÁåÑÉ•”¡µ•‘¥…}ÍÉŒ°‘•ÍÑ}…ÍÍ•ÑÌ°‘¥ÉÍ}•á¥ÍÑ}½¬õ…±Í”¤(€€€€€€€€€€€¥˜Á‘™}ÍÉ}¹…µ”è(€€€€€€€€€€€€€€€ÍÉ}Á‘˜€ô-}M=UI€¼Á‘™}ÍÉ}¹…µ”(€€€€€€€€€€€€€€€¥˜ÍÉ}Á‘˜¹¥Í}™¥±” ¤è(€€€€€€€€€€€€€€€€€€€Í¡ÕÑ¥°¹½ÁäÈ¡ÍÉ}Á‘˜°‰…Í”€¼€‰‘•¬¹Á‘˜ˆ¤(€€€€€€€ÁÉ¥¹Ð¡˜‰	Õ¥±ÐíÍ±Õôˆ¤(()¥˜}}¹…µ•}|€ôô€‰}}µ…¥¹}|ˆè(€€€µ…¥¸ ¤(
+                f'{stats}{sec.get("extra_html","")}</div></div></div>'
+            )
+        elif sec["type"] == "solution":
+            inner = sol_grid(sec["steps"])
+        elif sec["type"] == "chart":
+            inner = bar_chart(sec["bars"])
+            if sec.get("note_en"):
+                inner += f'<div class="frost-note">{bi(sec["note_en"], sec["note_es"])}</div>'
+        elif sec["type"] == "table":
+            inner = table(sec["headers"], sec["rows"])
+        elif sec["type"] == "sliders":
+            inner = sliders(sec["sliders"])
+        elif sec["type"] == "impact":
+            inner = impact_grid(sec["cards"])
+            if sec.get("table"):
+                t = sec["table"]
+                inner += table(t["headers"], t["rows"])
+        elif sec["type"] == "team":
+            inner = team_grid(sec["members"], slug)
+            if sec.get("dream_en"):
+                inner += f'<div class="frost-note">{bi(sec["dream_en"], sec["dream_es"])}</div>'
+        elif sec["type"] == "html":
+            inner = sec["html"]
+
+        sections_html += (
+            f'<div class="sec" style="position:relative;">'
+            f'<div class="sec-bg" style="background-image:url(\'{bg}\');"></div>'
+            f'<div class="sec-ov" style="background:{ov};"></div>'
+            f'<div class="sec-header"><div class="sec-num">{num:02d}</div>'
+            f'<div class="sec-title">{bi(title_en, title_es)}</div><div class="sec-rule"></div></div>'
+            f'{inner}</div>'
+        )
+        if sec.get("accent_after"):
+            sections_html += '<div class="accent-bar"></div>'
+
+    deck = d.get("deck_pdf") or {}
+    deck_link = ""
+    if deck.get("view_url") or deck.get("drive_id"):
+        view = deck.get("view_url") or f"https://drive.google.com/file/d/{deck['drive_id']}/view"
+        deck_link = f'<a class="cta-link" href="{view}" target="_blank" rel="noopener">{bi("Pitch deck (PDF)", "Pitch deck (PDF)")}</a>'
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{d["name"]} â€” CleantechHUB Startup Profile</title>
+<link rel="icon" href="https://cleantechhub.net/favicon.ico">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+<style>
+{css}
+</style>
+</head>
+<body>
+<div class="site-brand"><span class="brand-text">Cleantech<em>HUB</em></span></div>
+<div class="lang-toggle">
+  <button class="lb active" onclick="document.documentElement.lang='en';this.classList.add('active');this.nextElementSibling.classList.remove('active');">EN</button>
+  <button class="lb" onclick="document.documentElement.lang='es';this.classList.add('active');this.previousElementSibling.classList.remove('active');">ES</button>
+</div>
+
+<div class="sec hero">
+  <img class="hero-img" src="{asset_url(d["hero_image"], slug)}" alt="{d["name"]}" loading="lazy">
+  <div class="hero-ov"></div>
+  <div class="hero-badge"><div class="pill" style="background:rgba(0,0,0,.45);color:var(--lg);">{bi(d["badge_en"], d["badge_es"])}</div></div>
+  <div class="hero-in">
+    <div class="hero-name">{d["name"]}</div>
+    <div class="hero-sub">{bi(d["hero_sub_en"], d["hero_sub_es"])}</div>
+    <div class="hero-pitch">{bi(d["pitch_en"], d["pitch_es"])}</div>
+  </div>
+  <div class="hero-tagline">Inspira. ActÃºa. Transforma.</div>
+</div>
+
+<div class="ribbon" style="background:rgba(12,73,138,.95);">{ribbon}</div>
+
+{deck_section(d, slug)}
+
+{sections_html}
+
+<div class="sec" style="position:relative;">
+  <div class="sec-bg" style="background-image:url('{asset_url("./assets/bg-cta.jpg", slug)}');"></div>
+  <div class="sec-ov" style="background:rgba(12,73,138,.30);"></div>
+  <div class="cta">
+    <div class="pill" style="background:rgba(157,195,132,.12);border:1px solid rgba(157,195,132,.2);color:var(--lg);margin-bottom:16px;">{bi(d["badge_en"], d["badge_es"])}</div>
+    <div class="cta-name">{d["name"]}</div>
+    <div class="cta-pitch">{bi(d["cta_pitch_en"], d["cta_pitch_es"])}</div>
+    <a class="cta-btn" href="{d.get("website","#")}">{bi(d.get("cta_btn_en","Visit website"), d.get("cta_btn_es","Visitar sitio"))}</a>
+    <div class="cta-links">
+      <a class="cta-link" href="https://nexus.cleantechhub.net/s/{slug}">{bi("Nexus Profile", "Perfil Nexus")}</a>
+      <a class="cta-link" href="https://nexus.cleantechhub.net/p/startup-portfolio">{bi("157 Startups", "157 Startups")}</a>
+      {deck_link}
+    </div>
+    <div class="cta-brand"><div class="tg">Inspira. ActÃºa. Transforma.</div><div class="lg2">Cleantech<em style="color:var(--lg);font-style:normal;">HUB</em></div></div>
+    <div class="cta-port">{bi("CleantechHUB portfolio profile Â· Latin America", "Perfil portafolio CleantechHUB Â· AmÃ©rica Latina")}</div>
+  </div>
+</div>
+<div class="accent-bar"></div>
+</body>
+</html>"""
+
+
+def main() -> None:
+    OUT_REPO.mkdir(parents=True, exist_ok=True)
+    OUT_ARCHIVE.mkdir(parents=True, exist_ok=True)
+    only = sys.argv[1:] if len(sys.argv) > 1 else None
+    for json_path in sorted(DATA_DIR.glob("*.json")):
+        data = json.loads(json_path.read_text())
+        slug = data["slug"]
+        if only and slug not in only:
+            continue
+        html = build_page(data)
+        pdf_src_name = (data.get("deck_pdf") or {}).get("source_file")
+        media_src = OUT_MEDIA / slug
+        for base in (OUT_REPO / slug, OUT_ARCHIVE / slug):
+            base.mkdir(parents=True, exist_ok=True)
+            (base / "index.html").write_text(html)
+            if media_src.is_dir():
+                dest_assets = base / "assets"
+                if dest_assets.exists():
+                    shutil.rmtree(dest_assets)
+                shutil.copytree(media_src, dest_assets, dirs_exist_ok=False)
+            if pdf_src_name:
+                src_pdf = DECK_SOURCE / pdf_src_name
+                if src_pdf.is_file():
+                    shutil.copy2(src_pdf, base / "deck.pdf")
+        print(f"Built {slug}")
+
+
+if __name__ == "__main__":
+    main()
