@@ -1,0 +1,25 @@
+{
+  "slug": "communitylab",
+  "name": "CommunityLab",
+  "website": "https://communitylab.co",
+  "badge_en": "Waste-to-Resource SaaS + Sensors",
+  "badge_es": "SaaS Residuo-a-Recurso + Sensores",
+  "hero_image": "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=1200&q=80",
+  "hero_sub_en": "communitylab.co &middot; Del Residuo al Recurso",
+  "hero_sub_es": "communitylab.co &middot; Del Residuo al Recurso",
+  "pitch_en": "SICircular platform: software + sensor/camera kits help food factories and restaurant chains measure waste and convert it into verified circular economy value.",
+  "pitch_es": "Plataforma SICircular: software + kits de sensores y cámaras ayudan a fábricas de alimentos y cadenas de restaurantes a medir residuos y convertirlos en valor de economía circular verificado.",
+  "cta_pitch_en": "Make corporate circularity profitable — 100% investment recovered in 6 months (deck claim).",
+  "cta_pitch_es": "Hacer rentable la circularidad corporativa — 100% de inversión recuperada en 6 meses (afirmación del deck).",
+  "ribbon": [
+    {"val": "$12K", "lab_en": "Subscription / Year", "lab_es": "Suscripción / Año", "sub_en": "SaaS + sensors", "sub_es": "SaaS + sensores"},
+    {"val": "5%", "lab_en": "Success Fee", "lab_es": "Tarifa de Éxito", "sub_en": "Audited valorization", "sub_es": "Valorización auditada"},
+    {"val": "420", "lab_en": "SOM Companies", "lab_es": "Empresas SOM", "sub_en": "Beachhead", "sub_es": "Beachhead"},
+    {"val": "60", "lab_en": "Clients Year 3", "lab_es": "Clientes Año 3", "sub_en": "14.3% SOM share", "sub_es": "14.3% cuota SOM"}
+  ],
+  "problem_stats": [
+    [{"num": "41", "lab_en": "Interviews CO+MX", "lab_es": "Entrevistas CO+MX"}, {"num": "36 mo", "lab_en": "Field validation", "lab_es": "Validación campo"}],
+    [{"num": "30%", "lab_en": "Waste reduction", "lab_es": "Reducción residuos"}, {"num": "70%", "lab_en": "Compliance rate", "lab_es": "Cumplimiento normativo"}]
+  ],
+  "sections": []
+}
