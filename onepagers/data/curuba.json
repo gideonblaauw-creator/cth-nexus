@@ -1,0 +1,106 @@
+{
+  "slug": "curuba",
+  "name": "Curuba",
+  "website": "https://curuba.tech",
+  "badge_en": "WhatsApp Advisory &amp; Traceability",
+  "badge_es": "Asesoría y Trazabilidad vía WhatsApp",
+  "hero_image": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1200&q=80",
+  "hero_sub_en": "curuba.tech &middot; Agrifood supply chains",
+  "hero_sub_es": "curuba.tech &middot; Cadenas agroalimentarias",
+  "pitch_en": "WhatsApp-based agronomic assistance, traceability and compliance for farmers in agrifood supply chains — real experts sign off every recommendation.",
+  "pitch_es": "Asistencia agronómica, trazabilidad y cumplimiento vía WhatsApp para agricultores en cadenas agroalimentarias — un experto real valida cada recomendación.",
+  "cta_pitch_en": "Scale trusted agronomic intelligence from 150 to 750 farms per agronomist — one WhatsApp conversation at a time.",
+  "cta_pitch_es": "Escala inteligencia agronómica confiable de 150 a 750 fincas por agrónomo — una conversación de WhatsApp a la vez.",
+  "ribbon": [
+    {"val": "$50", "lab_en": "Per Ha / month", "lab_es": "Por Ha / mes", "sub_en": "First 5 Ha", "sub_es": "Primeras 5 Ha"},
+    {"val": "$18", "lab_en": "After 5 Ha", "lab_es": "Después 5 Ha", "sub_en": "Per Ha / month", "sub_es": "Por Ha / mes"},
+    {"val": "3&times;", "lab_en": "More Production", "lab_es": "Más Producción", "sub_en": "Customer value", "sub_es": "Valor al cliente"},
+    {"val": "6", "lab_en": "Beachhead Crops", "lab_es": "Cultivos foco", "sub_en": "Cacao, coffee, avocado+", "sub_es": "Cacao, café, aguacate+"}
+  ],
+  "problem_stats": [
+    [{"num": "1:10,000", "lab_en": "Expert : farmer ratio", "lab_es": "Ratio experto : agricultor"}, {"num": "1.4%", "lab_en": "Fedepanela registered", "lab_es": "Fedepanela registrados"}],
+    [{"num": "$30M", "lab_en": "Saved per drought", "lab_es": "Ahorro por sequía"}, {"num": "$140K", "lab_en": "Saved per container", "lab_es": "Ahorro por contenedor"}]
+  ],
+  "sections": [
+    {
+      "num": 1, "type": "split", "overlay": "rgba(12,73,138,.93)",
+      "title_en": "The Problem", "title_es": "El Problema",
+      "head_en": "Experts cannot scale; data stays on paper",
+      "head_es": "Los expertos no escalan; los datos quedan en papel",
+      "body_en": "Agronomists are expensive to scale, AI bots lack trust and literacy assumptions, and compliance data rarely becomes usable intelligence. At Fedepanela: 350,000 producers, only 5,000 registered (1.4%).",
+      "body_es": "Los agrónomos son caros de escalar, los bots de IA carecen de confianza, y los datos de cumplimiento rara vez se vuelven inteligencia usable. En Fedepanela: 350.000 productores, solo 5.000 registrados (1.4%).",
+      "bg": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&q=80"
+    },
+    {
+      "num": 2, "type": "solution", "overlay": "rgba(102,147,72,.91)",
+      "title_en": "The Solution", "title_es": "La Solución",
+      "steps": [
+        {"icon": "💬", "label_en": "WhatsApp", "label_es": "WhatsApp", "text_en": "Technical assistance via WhatsApp — adoption, image and voice.", "text_es": "Asistencia técnica vía WhatsApp — adopción, imagen y voz."},
+        {"icon": "🤖", "label_en": "AI Platform", "label_es": "Plataforma IA", "text_en": "AI-driven decision support with human sign-off on every recommendation.", "text_es": "Soporte de decisiones con IA y validación humana en cada recomendación."},
+        {"icon": "📊", "label_en": "Dashboards", "label_es": "Tableros", "text_en": "Traceability dashboards — crop metrics, real time, export grade.", "text_es": "Tableros de trazabilidad — métricas de cultivo, tiempo real, grado exportación."},
+        {"icon": "📈", "label_en": "Scale", "label_es": "Escala", "text_en": "150 farms per agronomist today → 750 with 5&times; scale.", "text_es": "150 fincas por agrónomo hoy → 750 con escala 5&times;."}
+      ],
+      "bg": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1200&q=80"
+    },
+    {
+      "num": 3, "type": "sliders", "overlay": "rgba(12,73,138,.93)",
+      "title_en": "Pricing Model", "title_es": "Modelo de Precios",
+      "sliders": [
+        {"label_en": "Monthly fee — first 5 hectares", "label_es": "Tarifa mensual — primeras 5 hectáreas", "min": 50, "max": 50, "step": 1, "prefix": "$", "suffix": " / Ha / month", "hint_en": "Deck: $50/Ha/month for first 5 Ha", "hint_es": "Deck: $50/Ha/mes primeras 5 Ha"},
+        {"label_en": "Monthly fee — after 5 hectares", "label_es": "Tarifa mensual — después de 5 hectáreas", "min": 18, "max": 18, "step": 1, "prefix": "$", "suffix": " / Ha / month", "hint_en": "Deck: $18/Ha after first 5 Ha", "hint_es": "Deck: $18/Ha después de 5 Ha"}
+      ],
+      "bg": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80"
+    },
+    {
+      "num": 4, "type": "chart", "overlay": "rgba(102,147,72,.92)",
+      "title_en": "Market &amp; Financials", "title_es": "Mercado y Finanzas",
+      "bars": [
+        {"val": "$62M", "label": "Market Size", "height": 40},
+        {"val": "$29.3K", "label": "EBITDA/Cust Y3", "height": 55},
+        {"val": "$146K", "label": "EBITDA/Cust", "height": 75},
+        {"val": "$585K", "label": "EBITDA Y3", "height": 90},
+        {"val": "250", "label": "Beachhead Cust.", "height": 60}
+      ],
+      "note_en": "Beachhead: 6 crops (cacao, coffee, avocado, banana, sugar cane, blueberry). Year-3 beachhead customers: 250. Customers shown: 20. TAM/SAM/SOM crop breakdown: [PENDIENTE] numeric labels on slide.",
+      "note_es": "Beachhead: 6 cultivos (cacao, café, aguacate, banano, caña, arándano). Clientes beachhead año 3: 250. Clientes mostrados: 20. Desglose TAM/SAM/SOM: [PENDIENTE] etiquetas numéricas en slide.",
+      "bg": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80",
+      "accent_after": true
+    },
+    {
+      "num": 5, "type": "table", "overlay": "rgba(12,73,138,.93)",
+      "title_en": "Customer Value Comparison", "title_es": "Comparación de Valor",
+      "headers": [["Metric", "Métrica"], ["Agronomist alone", "Solo agrónomo"], ["AI Bot alone", "Solo bot IA"], ["CurubaTech", "CurubaTech"]],
+      "rows": [
+        [["Scale", "Escala"], ["Expensive", "Caro de escalar"], ["Cheap but impersonal", "Barato pero impersonal"], ["Answers farmers trust", "Respuestas confiables"]],
+        [["Data", "Datos"], ["Paper records", "Datos en papel"], ["Data, not decisions", "Datos, no decisiones"], ["Trackable per plot", "Registro por parcela"]],
+        [["Compliance", "Cumplimiento"], ["Useless for compliance", "Inútil para cumplimiento"], ["Assumes tech literacy", "Asume alfabetización digital"], ["Scale without hiring", "Escala sin contratar"]]
+      ],
+      "bg": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&q=80"
+    },
+    {
+      "num": 6, "type": "impact", "overlay": "rgba(102,147,72,.91)",
+      "title_en": "Climate Impact", "title_es": "Impacto Climático",
+      "cards": [
+        {"icon": "🌿", "title_en": "CO₂ Avoided", "title_es": "CO₂ Evitado", "text_en": "6,720 tons CO₂ avoided yearly by 2030 on 24,000 hectares.", "text_es": "6.720 toneladas CO₂ evitadas anualmente para 2030 en 24.000 hectáreas."},
+        {"icon": "🧪", "title_en": "Agrochemicals", "title_es": "Agroquímicos", "text_en": "150 tons agrochemicals avoided.", "text_es": "150 toneladas de agroquímicos evitados."},
+        {"icon": "🌾", "title_en": "Food Harvested", "title_es": "Alimento Cosechado", "text_en": "120K more food harvested (tons). 40% women farmers.", "text_es": "120K toneladas más de alimento cosechado. 40% mujeres agricultoras."},
+        {"icon": "🎯", "title_en": "2035 Goal", "title_es": "Meta 2035", "text_en": "100,000 resilient farmers by 2035.", "text_es": "100.000 agricultores resilientes para 2035."}
+      ],
+      "bg": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1200&q=80"
+    },
+    {
+      "num": 7, "type": "team", "overlay": "rgba(12,73,138,.93)",
+      "title_en": "The Team", "title_es": "El Equipo",
+      "members": [
+        {"name": "Paula Aponte", "initials": "PA", "role_en": "CEO", "role_es": "CEO", "bio_en": "Leading CurubaTech.", "bio_es": "Lidera CurubaTech."},
+        {"name": "Andrés Rodríguez", "initials": "AR", "role_en": "CTO", "role_es": "CTO", "bio_en": "Technology leadership.", "bio_es": "Liderazgo tecnológico."},
+        {"name": "David González", "initials": "DG", "role_en": "CSO", "role_es": "CSO", "bio_en": "Strategy.", "bio_es": "Estrategia."},
+        {"name": "Cesar Aponte", "initials": "CA", "role_en": "CMO — Clients &amp; Support", "role_es": "CMO — Clientes y Soporte", "bio_en": "Commercial &amp; support.", "bio_es": "Comercial y soporte."},
+        {"name": "Diana Núñez", "initials": "DN", "role_en": "Agro Expert", "role_es": "Experta Agro", "bio_en": "Agronomic expertise.", "bio_es": "Experiencia agronómica."}
+      ],
+      "dream_en": "Fedepanela pilot: $42.5K, 2026 Q3–Q4. CT taxonomy code: [PENDIENTE]. Founded date / HQ: [PENDIENTE].",
+      "dream_es": "Piloto Fedepanela: $42.5K, 2026 Q3–Q4. Código taxonomía CT: [PENDIENTE]. Fundación / sede: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&q=80"
+    }
+  ]
+}
