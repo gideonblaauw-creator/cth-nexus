@@ -1,0 +1,98 @@
+{
+  "slug": "terra-io",
+  "name": "TERRA IO",
+  "website": "#",
+  "badge_en": "Soil Intelligence, Anywhere",
+  "badge_es": "Inteligencia de Suelo, en Cualquier Lugar",
+  "hero_image": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1200&q=80",
+  "hero_sub_en": "Agro-climatic intelligence for the Global South &middot; Beachhead Jalisco",
+  "hero_sub_es": "Inteligencia agroclimática para el Sur Global &middot; Beachhead Jalisco",
+  "pitch_en": "Agricultural intelligence nodes that anticipate risks, regenerate territories and improve productivity — soil readings, offline AI, satellite context.",
+  "pitch_es": "Nodos de inteligencia agrícola que anticipan riesgos, regeneran territorios y mejoran productividad — lecturas de suelo, IA offline, contexto satelital.",
+  "cta_btn_en": "Learn more (deck link)",
+  "cta_btn_es": "Conoce más (link del deck)",
+  "cta_pitch_en": "10,000 active producers in 3 years — every producer decides with information.",
+  "cta_pitch_es": "10.000 productores activos en 3 años — cada productor decide con información.",
+  "ribbon": [
+    {"val": "$9.8B", "lab_en": "Total Market", "lab_es": "Mercado Total", "sub_en": "Deck 2035+", "sub_es": "Deck 2035+"},
+    {"val": "$516M", "lab_en": "LATAM Available", "lab_es": "Disponible LATAM", "sub_en": "Deck figure", "sub_es": "Cifra del deck"},
+    {"val": "$2.0M", "lab_en": "Reachable", "lab_es": "Alcanzable", "sub_en": "Deck figure", "sub_es": "Cifra del deck"},
+    {"val": "45", "lab_en": "Producers Interviewed", "lab_es": "Productores entrevistados", "sub_en": "Customer discovery", "sub_es": "Descubrimiento cliente"}
+  ],
+  "problem_stats": [
+    [{"num": "7K+", "lab_en": "Producers in 6 years", "lab_es": "Productores en 6 años"}, {"num": "58", "lab_en": "Workshops", "lab_es": "Talleres"}],
+    [{"num": "2", "lab_en": "Countries", "lab_es": "Países"}, {"num": "9 yr", "lab_en": "Team experience", "lab_es": "Experiencia equipo"}]
+  ],
+  "sections": [
+    {
+      "num": 1, "type": "split", "overlay": "rgba(12,73,138,.93)",
+      "title_en": "The Offer", "title_es": "La Oferta",
+      "head_en": "One system — three revenue streams",
+      "head_es": "Un sistema — tres fuentes de ingreso",
+      "body_en": "Enter via cooperatives, deliver value to producers, scale with institutions. Device/hub processes soil readings; app + offline AI; satellite + historical context.",
+      "body_es": "Entrar vía cooperativas, entregar valor a productores, escalar con instituciones. Dispositivo/hub procesa lecturas de suelo; app + IA offline; satélite + históricos.",
+      "bg": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&q=80"
+    },
+    {
+      "num": 2, "type": "sliders", "overlay": "rgba(102,147,72,.91)",
+      "title_en": "Pricing Tiers (Deck)", "title_es": "Niveles de Precio (Deck)",
+      "sliders": [
+        {"label_en": "Producers — USD / month", "label_es": "Productores — USD / mes", "min": 35, "max": 50, "step": 1, "prefix": "USD $", "suffix": " / month", "hint_en": "Deck: USD 35–50/month · Recommendations & alerts", "hint_es": "Deck: USD 35–50/mes · Recomendaciones y alertas"},
+        {"label_en": "Cooperatives — USD / month", "label_es": "Cooperativas — USD / mes", "min": 225, "max": 340, "step": 5, "prefix": "USD $", "suffix": " / month", "hint_en": "Deck: USD 225–340/month · Shared devices, up to 50 plots · Beachhead 2026", "hint_es": "Deck: USD 225–340/mes · Dispositivos compartidos, hasta 50 parcelas · Beachhead 2026"},
+        {"label_en": "Institutions — USD / year", "label_es": "Instituciones — USD / año", "min": 1000, "max": 20000, "step": 500, "prefix": "USD $", "suffix": " / year", "hint_en": "Deck: USD 1k–20k/year · Reports, API, dashboards", "hint_es": "Deck: USD 1k–20k/año · Reportes, API, tableros"}
+      ],
+      "bg": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80",
+      "accent_after": true
+    },
+    {
+      "num": 3, "type": "table", "overlay": "rgba(12,73,138,.93)",
+      "title_en": "Value Proposition — Avocado Haas (Deck)", "title_es": "Propuesta de Valor — Aguacate Haas (Deck)",
+      "headers": [["Segment", "Segmento"], ["Current Cost", "Costo Actual"], ["With TERRA IO", "Con TERRA IO"], ["Savings", "Ahorro"]],
+      "rows": [
+        [["Small producer 2–5 ha", "Pequeño 2–5 ha"], ["USD $6.5k", "USD $6.5k"], ["USD $5.0k", "USD $5.0k"], ["USD $1.5k/yr · 3.5x ROI", "USD $1.5k/año · 3.5x ROI"]],
+        [["Medium up to 150 ha", "Mediano hasta 150 ha"], ["USD $146.6k", "USD $146.6k"], ["USD $106k", "USD $106k"], ["USD $40k/yr · 10.9x ROI", "USD $40k/año · 10.9x ROI"]]
+      ],
+      "bg": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80"
+    },
+    {
+      "num": 4, "type": "chart", "overlay": "rgba(102,147,72,.91)",
+      "title_en": "Financials — Year 3 &amp; 5", "title_es": "Finanzas — Año 3 y 5",
+      "bars": [
+        {"val": "140", "label": "Contracts", "height": 45},
+        {"val": "$8.2k", "label": "Avg Ticket", "height": 35},
+        {"val": "$120k", "label": "EBITDA Y3", "height": 40},
+        {"val": "$1.51M", "label": "Rev Y3", "height": 75},
+        {"val": "$3.25M", "label": "Rev Y5*", "height": 90, "proj": true}
+      ],
+      "note_en": "24% institutional revenue mix · Year 5* indicative 2030–2031 scenario · 140 active contracts · Colombia + Mexico team",
+      "note_es": "24% mix ingresos institucionales · Año 5* escenario indicativo 2030–2031 · 140 contratos activos · Equipo Colombia + México",
+      "bg": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&q=80",
+      "accent_after": true
+    },
+    {
+      "num": 5, "type": "impact", "overlay": "rgba(12,73,138,.93)",
+      "title_en": "Climate Impact — Year 3 Scale", "title_es": "Impacto Climático — Escala Año 3",
+      "cards": [
+        {"icon": "💧", "title_en": "Water Conserved", "title_es": "Agua Conservada", "text_en": "7.9 Mm³/year potentially conserved (12,600 Ha effective adoption).", "text_es": "7.9 Mm³/año potencialmente conservados (12.600 Ha adopción efectiva)."},
+        {"icon": "🌱", "title_en": "N₂O Avoided", "title_es": "N₂O Evitado", "text_en": "1.21 ktCO₂e/year direct emissions potentially avoided.", "text_es": "1.21 ktCO₂e/año emisiones directas potencialmente evitadas."},
+        {"icon": "📈", "title_en": "SROI", "title_es": "SROI", "text_en": "5x–21x per USD invested.", "text_es": "5x–21x por USD invertido."},
+        {"icon": "👨‍🌾", "title_en": "Co-benefits", "title_es": "Co-beneficios", "text_en": "Savings stay with producers · Local green technical jobs.", "text_es": "Ahorro permanece con productores · Empleo técnico verde local."}
+      ],
+      "bg": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1200&q=80"
+    },
+    {
+      "num": 6, "type": "team", "overlay": "rgba(102,147,72,.91)",
+      "title_en": "Founder Team", "title_es": "Equipo Fundador",
+      "members": [
+        {"name": "David Mastrascusa", "initials": "DM", "role_en": "Co-founder &amp; CEO", "role_es": "Cofundador &amp; CEO", "bio_en": "Product · Field · Strategy.", "bio_es": "Producto · Campo · Estrategia."},
+        {"name": "Nora Torres", "initials": "NT", "role_en": "Co-founder &amp; CRO", "role_es": "Cofundadora &amp; CRO", "bio_en": "Market · Sustainability · Alliances.", "bio_es": "Mercado · Sostenibilidad · Alianzas."},
+        {"name": "Adriana Buelvas", "initials": "AB", "role_en": "CTO", "role_es": "CTO", "bio_en": "Platform · Data · AI.", "bio_es": "Plataforma · Datos · IA."},
+        {"name": "Natalia Navarrete", "initials": "NN", "role_en": "CFO", "role_es": "CFO", "bio_en": "Finance · Control · Investment.", "bio_es": "Finanzas · Control · Inversión."},
+        {"name": "Camilo Nauffal", "initials": "CN", "role_en": "Tech Lead", "role_es": "Tech Lead", "bio_en": "Software · Sensors · Remote sensing.", "bio_es": "Software · Sensores · Teledetección."}
+      ],
+      "dream_en": "Scale beachhead in field with replicable commercial route. Website: [PENDIENTE]. CT taxonomy: [PENDIENTE]. IP protection in process.",
+      "dream_es": "Escalar beachhead en campo con ruta comercial replicable. Web: [PENDIENTE]. Taxonomía CT: [PENDIENTE]. Protección intelectual en proceso.",
+      "bg": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&q=80"
+    }
+  ]
+}

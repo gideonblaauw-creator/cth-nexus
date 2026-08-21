@@ -1,0 +1,98 @@
+{
+  "slug": "green-t",
+  "name": "Green Textile Solutions",
+  "website": "#",
+  "badge_en": "Circular Economy for Textile &amp; Plastic Waste",
+  "badge_es": "Economía Circular para Residuos Textiles y Plásticos",
+  "hero_image": "https://images.unsplash.com/photo-1532629345422-7515f3d4bb82?w=1200&q=80",
+  "hero_sub_en": "Green-T &middot; TREXIL recycled resins",
+  "hero_sub_es": "Green-T &middot; Resinas recicladas TREXIL",
+  "pitch_en": "Transform textile and plastic waste into high-performance 100% recycled resins for injection and industrial transformation — real circular economy for industry.",
+  "pitch_es": "Transformamos residuos textiles y plásticos en resinas 100% recicladas de alto desempeño para inyección y transformación industrial — economía circular real para la industria.",
+  "cta_btn_en": "Contact (deck QR)",
+  "cta_btn_es": "Contacto (QR del deck)",
+  "cta_pitch_en": "TREXIL: polypropylene substitute at 2,500 pesos/kg — -79% GHG vs virgin PET.",
+  "cta_pitch_es": "TREXIL: sustituto de polipropileno a 2.500 pesos/kg — -79% GEI vs PET virgen.",
+  "ribbon": [
+    {"val": "2,500", "lab_en": "Pesos / kg", "lab_es": "Pesos / kg", "sub_en": "TREXIL price", "sub_es": "Precio TREXIL"},
+    {"val": "-79%", "lab_en": "GHG Emissions", "lab_es": "Emisiones GEI", "sub_en": "vs virgin PET", "sub_es": "vs PET virgen"},
+    {"val": "62.5", "lab_en": "Tons / Month", "lab_es": "Toneladas / Mes", "sub_en": "Avg per company", "sub_es": "Promedio por empresa"},
+    {"val": "70%", "lab_en": "Purchase Intent", "lab_es": "Intención Compra", "sub_en": "Recycled resin", "sub_es": "Resina reciclada"}
+  ],
+  "problem_stats": [
+    [{"num": "7%", "lab_en": "Use recycled today", "lab_es": "Usan reciclado hoy"}, {"num": "20", "lab_en": "Companies interviewed", "lab_es": "Empresas entrevistadas"}],
+    [{"num": "$533.59B", "lab_en": "TAM Global", "lab_es": "TAM Global"}, {"num": "$5.2B", "lab_en": "SOM Colombia", "lab_es": "SOM Colombia"}]
+  ],
+  "sections": [
+    {
+      "num": 1, "type": "split", "overlay": "rgba(12,73,138,.93)",
+      "title_en": "Value Proposition", "title_es": "Propuesta de Valor",
+      "head_en": "100% recycled resins replace virgin ABS, PP, Bakelite and PET",
+      "head_es": "Resinas 100% recicladas reemplazan ABS, PP, Baquelita y PET vírgenes",
+      "body_en": "B2B model. Validated applications: institutional furniture, sustainable murals/branding, retail hangers, technical parts. Partners referenced: Avianca, gef COLOMBIA.",
+      "body_es": "Modelo B2B. Aplicaciones validadas: mobiliario institucional, murales/branding sostenible, perchas retail, piezas técnicas. Aliados referenciados: Avianca, gef COLOMBIA.",
+      "bg": "https://images.unsplash.com/photo-1532629345422-7515f3d4bb82?w=1200&q=80"
+    },
+    {
+      "num": 2, "type": "solution", "overlay": "rgba(102,147,72,.91)",
+      "title_en": "Circular Process", "title_es": "Proceso Circular",
+      "steps": [
+        {"icon": "👕", "label_en": "Textile Waste", "label_es": "Residuo Textil", "text_en": "Polyester textile waste and plastics as input.", "text_es": "Residuos textiles de poliéster y plásticos como insumo."},
+        {"icon": "⚙️", "label_en": "Extrusion", "label_es": "Extrusión", "text_en": "Extrusion to recycled pellets — multiple colors.", "text_es": "Extrusión a pellets reciclados — múltiples colores."},
+        {"icon": "🏭", "label_en": "Transform", "label_es": "Transformar", "text_en": "Injection and industrial transformation.", "text_es": "Inyección y transformación industrial."},
+        {"icon": "📦", "label_en": "Final Product", "label_es": "Producto Final", "text_en": "Hangers, furniture, technical parts.", "text_es": "Perchas, mobiliario, piezas técnicas."}
+      ],
+      "bg": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=1200&q=80"
+    },
+    {
+      "num": 3, "type": "chart", "overlay": "rgba(12,73,138,.93)",
+      "title_en": "Financials — Trexil Product", "title_es": "Finanzas — Producto Trexil",
+      "bars": [
+        {"val": "$10,629", "label": "Net Price", "height": 75},
+        {"val": "$6,765", "label": "Cost/Product", "height": 50},
+        {"val": "$3,864", "label": "Profit/Product", "height": 35},
+        {"val": "$376K", "label": "Profit/Year", "height": 90},
+        {"val": "30%", "label": "Market Share", "height": 55}
+      ],
+      "note_en": "Market 250 (Medellín) · 75 customers · 98 products/year · 1.3 products/customer/year. Market share growth subject to production capacity.",
+      "note_es": "Mercado 250 (Medellín) · 75 clientes · 98 productos/año · 1.3 productos/cliente/año. Crecimiento cuota sujeto a capacidad de producción.",
+      "bg": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80",
+      "accent_after": true
+    },
+    {
+      "num": 4, "type": "table", "overlay": "rgba(102,147,72,.91)",
+      "title_en": "Product Benefits", "title_es": "Beneficios del Producto",
+      "headers": [["Benefit", "Beneficio"], ["Value", "Valor"], ["Detail", "Detalle"]],
+      "rows": [
+        [["Productivity", "Productividad"], ["+10% to +20%", "+10% a +20%"], ["More homogeneous material", "Material más homogéneo"]],
+        [["Compliance", "Cumplimiento"], ["NTC 6632", "NTC 6632"], ["Law 2232 of 2022", "Ley 2232 de 2022"]],
+        [["GHG", "GEI"], ["-79%", "-79%"], ["2.15 vs 0.45 kg CO₂e/kg", "2.15 vs 0.45 kg CO₂e/kg"]],
+        [["Production scale", "Escala producción"], ["5.514M kg", "5.514M kg"], ["Cumulative 2025–2029", "Acumulado 2025–2029"]]
+      ],
+      "bg": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200&q=80"
+    },
+    {
+      "num": 5, "type": "impact", "overlay": "rgba(12,73,138,.93)",
+      "title_en": "Climate Impact 2025–2029", "title_es": "Impacto Climático 2025–2029",
+      "cards": [
+        {"icon": "🌍", "title_en": "CO₂ Avoided", "title_es": "CO₂ Evitado", "text_en": "9,374 tCO₂e avoided cumulative by 2029 (11,855 baseline → 2,481 with GTS).", "text_es": "9.374 tCO₂e evitadas acumuladas para 2029 (11.855 línea base → 2.481 con GTS)."},
+        {"icon": "📊", "title_en": "Present Progress", "title_es": "Progreso Actual", "text_en": "1,264.8 tCO₂e avoided to date from 744,000 kg rPET sold (2025–Jun 2026).", "text_es": "1.264,8 tCO₂e evitadas a la fecha de 744.000 kg rPET vendidos (2025–Jun 2026)."},
+        {"icon": "🏭", "title_en": "Future Scale", "title_es": "Escala Futura", "text_en": "Up to 1.92M kg/year production scale target 2029.", "text_es": "Hasta 1.92M kg/año escala de producción meta 2029."},
+        {"icon": "🎯", "title_en": "2032 Dream", "title_es": "Sueño 2032", "text_en": "10,860 tons waste prevented · $50M valuation · 18,462 tCO₂e avoided.", "text_es": "10.860 ton residuos evitados · valuación $50M · 18.462 tCO₂e evitadas."}
+      ],
+      "bg": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1200&q=80"
+    },
+    {
+      "num": 6, "type": "team", "overlay": "rgba(102,147,72,.91)",
+      "title_en": "Team &amp; Dream", "title_es": "Equipo y Sueño",
+      "members": [
+        {"name": "Jorge Velásquez", "initials": "JV", "role_en": "CEO", "role_es": "CEO", "bio_en": "+30 years finance and business growth.", "bio_es": "+30 años en finanzas y crecimiento empresarial."},
+        {"name": "Johan David Moreno", "initials": "JM", "role_en": "COO / Co-founder", "role_es": "COO / Cofundador", "bio_en": "Materials engineer, 20 years industrial operations.", "bio_es": "Ingeniero en materiales, 20 años operación industrial."},
+        {"name": "Mauricio Velasquez Sierra", "initials": "MV", "role_en": "CSO / Co-founder", "role_es": "CSO / Cofundador", "bio_en": "+3 years circular economy experience.", "bio_es": "+3 años experiencia en economía circular."}
+      ],
+      "dream_en": "Expand across Latin America by 2032. Website URL: [PENDIENTE]. CT taxonomy: [PENDIENTE]. SAM LATAM $26.25B (116,000 companies global TAM).",
+      "dream_es": "Expandir por Latinoamérica para 2032. URL web: [PENDIENTE]. Taxonomía CT: [PENDIENTE]. SAM LATAM $26.25B (116.000 empresas TAM global).",
+      "bg": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&q=80"
+    }
+  ]
+}

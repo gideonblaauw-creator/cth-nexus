@@ -1,0 +1,97 @@
+{
+  "slug": "communitylab",
+  "name": "CommunityLab",
+  "website": "https://communitylab.co",
+  "badge_en": "Waste-to-Resource SaaS + Sensors",
+  "badge_es": "SaaS Residuo-a-Recurso + Sensores",
+  "hero_image": "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=1200&q=80",
+  "hero_sub_en": "communitylab.co &middot; Del Residuo al Recurso",
+  "hero_sub_es": "communitylab.co &middot; Del Residuo al Recurso",
+  "pitch_en": "SICircular platform: software + sensor/camera kits help food factories and restaurant chains measure waste and convert it into verified circular economy value.",
+  "pitch_es": "Plataforma SICircular: software + kits de sensores y cámaras ayudan a fábricas de alimentos y cadenas de restaurantes a medir residuos y convertirlos en valor de economía circular verificado.",
+  "cta_pitch_en": "Make corporate circularity profitable — 100% investment recovered in 6 months (deck claim).",
+  "cta_pitch_es": "Hacer rentable la circularidad corporativa — 100% de inversión recuperada en 6 meses (afirmación del deck).",
+  "ribbon": [
+    {"val": "$12K", "lab_en": "Subscription / Year", "lab_es": "Suscripción / Año", "sub_en": "SaaS + sensors", "sub_es": "SaaS + sensores"},
+    {"val": "5%", "lab_en": "Success Fee", "lab_es": "Tarifa de Éxito", "sub_en": "Audited valorization", "sub_es": "Valorización auditada"},
+    {"val": "420", "lab_en": "SOM Companies", "lab_es": "Empresas SOM", "sub_en": "Beachhead", "sub_es": "Beachhead"},
+    {"val": "60", "lab_en": "Clients Year 3", "lab_es": "Clientes Año 3", "sub_en": "14.3% SOM share", "sub_es": "14.3% cuota SOM"}
+  ],
+  "problem_stats": [
+    [{"num": "41", "lab_en": "Interviews CO+MX", "lab_es": "Entrevistas CO+MX"}, {"num": "36 mo", "lab_en": "Field validation", "lab_es": "Validación campo"}],
+    [{"num": "30%", "lab_en": "Waste reduction", "lab_es": "Reducción residuos"}, {"num": "70%", "lab_en": "Compliance rate", "lab_es": "Cumplimiento normativo"}]
+  ],
+  "sections": [
+    {
+      "num": 1, "type": "split", "overlay": "rgba(12,73,138,.93)",
+      "title_en": "The Deal", "title_es": "El Trato",
+      "head_en": "Hidden economic value in industrial waste flows",
+      "head_es": "Valor económico oculto en flujos de residuos industriales",
+      "body_en": "B2B for food industry and restaurant chains with own plants (200–800 employees). Colombia &amp; Mexico. $12,000 USD/year + 5% audited valorization fee.",
+      "body_es": "B2B para industria de alimentos y cadenas de restaurantes con planta propia (200–800 empleados). Colombia y México. $12.000 USD/año + 5% valorización auditada.",
+      "bg": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=1200&q=80"
+    },
+    {
+      "num": 2, "type": "solution", "overlay": "rgba(102,147,72,.91)",
+      "title_en": "SICircular Product", "title_es": "Producto SICircular",
+      "steps": [
+        {"icon": "📏", "label_en": "Measure", "label_es": "Medir", "text_en": "Quantify waste, impacts, costs and environmental benefits.", "text_es": "Cuantificar residuos, impactos, costos y beneficios ambientales."},
+        {"icon": "🔗", "label_en": "Trace", "label_es": "Trazar", "text_en": "Trace each material flow with auditable data.", "text_es": "Trazar cada flujo de materiales con datos auditables."},
+        {"icon": "🔄", "label_en": "Connect", "label_es": "Conectar", "text_en": "Industrial symbiosis opportunities and circular business.", "text_es": "Oportunidades de simbiosis industrial y negocios circulares."},
+        {"icon": "✅", "label_en": "Comply", "label_es": "Cumplir", "text_en": "Circular economy law compliance — Mexico indicators aligned.", "text_es": "Cumplimiento ley Economía Circular — indicadores México alineados."}
+      ],
+      "bg": "https://images.unsplash.com/photo-1454165804608-c3d57bc86b40?w=1200&q=80"
+    },
+    {
+      "num": 3, "type": "chart", "overlay": "rgba(12,73,138,.93)",
+      "title_en": "Market Sizing", "title_es": "Dimensionamiento de Mercado",
+      "bars": [
+        {"val": "70", "label": "Nicho 2026", "height": 25},
+        {"val": "420", "label": "SOM", "height": 55},
+        {"val": "1,630", "label": "SAM", "height": 75},
+        {"val": "4,200", "label": "TAM", "height": 90},
+        {"val": "60", "label": "Clients Y3", "height": 45}
+      ],
+      "note_en": "Revenue ranges: 2026 $0.84M–$1.98M · 2027 $5.04M–$11.86M · ~2030 $19.56M–$46.03M · 2033+ $50.40M–$118.60M",
+      "note_es": "Rangos ingreso: 2026 $0.84M–$1.98M · 2027 $5.04M–$11.86M · ~2030 $19.56M–$46.03M · 2033+ $50.40M–$118.60M",
+      "bg": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80",
+      "accent_after": true
+    },
+    {
+      "num": 4, "type": "table", "overlay": "rgba(102,147,72,.91)",
+      "title_en": "Value Proposition Numbers", "title_es": "Números de Propuesta de Valor",
+      "headers": [["Benefit", "Beneficio"], ["Value", "Valor"], ["Detail", "Detalle"]],
+      "rows": [
+        [["ROI", "Retorno"], ["6 months", "6 meses"], ["100% investment recovered (deck)", "100% inversión recuperada (deck)"]],
+        [["Waste analytics", "Analítica residuos"], ["$324,760/yr", "$324.760/año"], ["30% material waste reduction", "30% reducción desperdicio materiales"]],
+        [["Landfill savings", "Ahorro vertederos"], ["$85,000/yr", "$85.000/año"], ["Deck figure", "Cifra del deck"]],
+        [["Compliance", "Cumplimiento"], ["70%", "70%"], ["Circular economy regulatory", "Normativo economía circular"]]
+      ],
+      "bg": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1200&q=80"
+    },
+    {
+      "num": 5, "type": "impact", "overlay": "rgba(12,73,138,.93)",
+      "title_en": "Climate Impact", "title_es": "Impacto Climático",
+      "cards": [
+        {"icon": "🛢️", "title_en": "Oil Avoided", "title_es": "Petróleo Evitado", "text_en": "100 food processing plants: avoid 77,000+ barrels oil/year; 5-year potential -277 KtCO₂eq.", "text_es": "100 plantas alimentos: evitar 77.000+ barriles petróleo/año; potencial 5 años -277 KtCO₂eq."},
+        {"icon": "♻️", "title_en": "Formalized Managers", "title_es": "Gestores Formalizados", "text_en": "Enable 49 formalized waste managers.", "text_es": "Habilitar 49 gestores formalizados."},
+        {"icon": "💚", "title_en": "SROI", "title_es": "SROI", "text_en": "Residuos con propósito — SROI USD 5 (deck).", "text_es": "Residuos con propósito — SROI USD 5 (deck)."},
+        {"icon": "🏭", "title_en": "Circular Network", "title_es": "Red Circular", "text_en": "Industrial waste transformed into economic resources.", "text_es": "Residuos industriales transformados en recursos económicos."}
+      ],
+      "bg": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1200&q=80"
+    },
+    {
+      "num": 6, "type": "team", "overlay": "rgba(102,147,72,.91)",
+      "title_en": "Dream &amp; Team", "title_es": "Sueño y Equipo",
+      "members": [
+        {"name": "Beatriz Eugenia Correa Pérez", "initials": "BC", "role_en": "General Manager — Founder", "role_es": "Gerente — Fundadora", "bio_en": "22+ years tech &amp; innovation. Founded CommunityLab 2012.", "bio_es": "22+ años tecnología e innovación. Fundó CommunityLab 2012."},
+        {"name": "Manuela Cardenas", "initials": "MC", "role_en": "Environmental Lead", "role_es": "Líder Ambiental", "bio_en": "9 years — circular economy KPIs.", "bio_es": "9 años — KPIs economía circular."},
+        {"name": "Alfredo José Roldán Piedrahita", "initials": "AR", "role_en": "Innovation Lead — Co-founder", "role_es": "Líder Innovación — Cofundador", "bio_en": "39 years tech &amp; R&amp;D.", "bio_es": "39 años tecnología e I+D."},
+        {"name": "Felipe Hernandez", "initials": "FH", "role_en": "Mentor CLP2026", "role_es": "Mentor CLP2026", "bio_en": "Frugal Studio · Impact entrepreneur.", "bio_es": "Frugal Studio · Emprendedor de impacto."}
+      ],
+      "dream_en": "Year-3 EBITDA $354,240 · Gross margin 49.2% · LTV $1,800 · CAC $6,096. Success fee Year-3 upside $1,694,250 not yet validated. CT taxonomy: [PENDIENTE].",
+      "dream_es": "EBITDA Año 3 $354.240 · Margen bruto 49.2% · LTV $1.800 · CAC $6.096. Upside tarifa éxito Año 3 $1.694.250 aún no validado. Taxonomía CT: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&q=80"
+    }
+  ]
+}
