@@ -44,7 +44,7 @@ Copy and track progress for every startup update:
 | bio-analytics | `onepagers/data/bio-analytics.json` | https://nexus.cleantechhub.net/s/bio-analytics |
 | cacelio | `onepagers/data/cacelio.json` | https://nexus.cleantechhub.net/s/cacelio |
 
-**Curuba** is the design reference (self-hosted PDF + local assets). Other five use Unsplash URLs in JSON; add `deck_pdf` when decks are ready.
+All six pilots use **local assets** (`./assets/…`), self-hosted **deck PDF**, and team photos — not Unsplash placeholders. Rebuild assets from deck PDFs with `skills/nexus-onepager/scripts/setup_startup_media.py {slug}`.
 
 ---
 
@@ -238,5 +238,7 @@ Verify each Unsplash pick before shipping. Document choices in JSON `bg` fields.
 | `onepagers/template/styles.css` | Design system |
 | `onepagers/data/curuba.json` | Pilot JSON (deck + LATAM images + local assets) |
 | `scripts/build_onepagers.py` | Generator |
-| `skills/nexus-onepager/scripts/prepare_github_payload.py` | Composio commit payload helper |
+| `skills/nexus-onepager/scripts/setup_startup_media.py` | Extract deck backgrounds + team photos into `onepagers/media/{slug}/` |
+| `skills/nexus-onepager/scripts/prepare_github_payload.py` | Composio commit payload helper (text files) |
+| `skills/nexus-onepager/scripts/prepare_slug_commit.py` | Composio payload with base64 media batches |
 | `/opt/nexus-onepagers/coffee-kreis/index.html` | Legacy live template |
