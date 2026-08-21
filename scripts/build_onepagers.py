@@ -225,7 +225,7 @@ def build_page(d: dict) -> str:
 
 <div class="sec" style="position:relative;">
   <div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1504541331459-5288e5d49ee3?w=1200&q=80');"></div>
-  <div class="sec-ov" style="background:radial-gradient(ellipse at 50% 40%,rgba(12,73,138,.8),rgba(5,30,56,.96));"></div>
+  <div class="sec-ov" style="background:radial-gradient(ellipse at 50% 40%,rgba(12,73,138,.8),rgba(12,73,138,.96));"></div>
   <div class="cta">
     <div class="pill" style="background:rgba(157,195,132,.12);border:1px solid rgba(157,195,132,.2);color:var(--lg);margin-bottom:16px;">{bi(d["badge_en"], d["badge_es"])}</div>
     <div class="cta-name">{d["name"]}</div>
