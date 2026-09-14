@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CleantechHUB Datathon — Participant Portal</title>
+<link rel="stylesheet" href="portal.css">
+</head>
+<body>
+
+<!-- reusable svg symbols -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-bolt" viewBox="0 0 24 24"><path fill="currentColor" d="M13 2 4 14h6l-1 8 9-12h-6z"/></symbol>
+  <symbol id="i-drop" viewBox="0 0 24 24"><path fill="currentColor" d="M12 3s6 6.6 6 11a6 6 0 1 1-12 0c0-4.4 6-11 6-11z"/></symbol>
+  <symbol id="i-db" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="6" rx="7" ry="3"/><path d="M5 6v12c0 1.66 3.13 3 7 3s7-1.34 7-3V6"/><path d="M5 12c0 1.66 3.13 3 7 3s7-1.34 7-3"/></g></symbol>
+  <symbol id="i-cpu" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M1 9h3M1 15h3M20 9h3M20 15h3"/></g></symbol>
+  <symbol id="i-target" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.4" fill="currentColor"/></g></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></g></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M20 6 9 17l-5-5"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" d="M18 6 6 18M6 6l12 12"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></g></symbol>
+  <symbol id="i-up" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16V4M7 9l5-5 5 5"/><path d="M5 20h14"/></g></symbol>
+  <symbol id="i-wave" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M2 9c2.5-3 4.5-3 7 0s4.5 3 7 0 4.5-3 6 0"/><path d="M2 15c2.5-3 4.5-3 7 0s4.5 3 7 0 4.5-3 6 0"/></g></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M4 5h16v11H9l-5 4z"/></symbol>
+  <symbol id="i-doc" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2h8l4 4v16H6z"/><path d="M14 2v4h4M9 13h6M9 17h6"/></g></symbol>
+  <symbol id="i-slack" viewBox="0 0 24 24"><g fill="currentColor"><circle cx="7" cy="12" r="2"/><circle cx="17" cy="12" r="2"/><circle cx="12" cy="7" r="2"/><circle cx="12" cy="17" r="2"/></g></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></g></symbol>
+  <symbol id="i-flag" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M5 21V4h13l-2.5 4L18 12H5"/></g></symbol>
+</svg>
+
+<!-- NAV -->
+<nav>
+  <div class="brand">
+    <span class="logomark"><svg><use href="#i-drop"></use></svg></span>
+    <span class="wordmark">Cleantech<b>HUB</b><span class="x">·</span><span class="sub">Datathon</span></span>
+  </div>
+  <div class="navlinks">
+    <button class="navlink active" data-tab="welcome">Inicio</button>
+    <button class="navlink" data-tab="compute">Compute</button>
+    <button class="navlink" data-tab="api">LLM API</button>
+    <button class="navlink" data-tab="submit">Submit</button>
+    <button class="navlink" data-tab="leaderboard">Leaderboard</button>
+  </div>
+  <div class="navright">
+    <span class="team-badge"><span class="dot"></span>SolarPulse · #<span id="teamRank">8</span></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <canvas id="net"></canvas>
+  <div class="hero-shade"></div>
+  <div class="hero-inner">
+    <div>
+      <div class="eyebrow"><span class="dot"></span>Sprint en vivo · Hora 00 → 48</div>
+      <h1>48h Climate Data Sprint
+        <span class="es"><i>Inspira.</i> <i class="a">Actúa.</i> <i class="t">Transforma.</i></span>
+      </h1>
+      <p>Datos reales de clima y energía de toda Latinoamérica. Build the model, surface the pattern, and tell the story that moves policy.</p>
+      <div class="hero-cta">
+        <button class="btn btn-white" data-tab="compute"><svg><use href="#i-bolt"></use></svg>Launch notebook</button>
+        <button class="btn btn-ghost" data-tab="submit">Submit solution</button>
+      </div>
+    </div>
+    <div class="flowchain">
+      <div class="fnode"><span class="ic"><svg><use href="#i-db"></use></svg></span><div><div class="v">10,000</div><div class="l">Datos → records</div></div></div>
+      <div class="flowlink"></div>
+      <div class="fnode"><span class="ic"><svg><use href="#i-bolt"></use></svg></span><div><div class="v">T4 · $<span id="heroBudget">20</span></div><div class="l">Modelos → compute + LLM</div></div></div>
+      <div class="flowlink"></div>
+      <div class="fnode"><span class="ic"><svg><use href="#i-target"></use></svg></span><div><div class="v" id="heroClock">47:58:12</div><div class="l">Impacto → deadline</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- PHASE -->
+<div class="phase">
+  <div class="pstep"><span class="pdot done"><svg><use href="#i-check"></use></svg></span><div><div class="pname">Kickoff</div><div class="psub">Datos liberados</div></div></div>
+  <div class="parrow"></div>
+  <div class="pstep"><span class="pdot active"><svg><use href="#i-bolt"></use></svg></span><div><div class="pname">Sprint</div><div class="psub">Activo ahora</div></div></div>
+  <div class="parrow"></div>
+  <div class="pstep"><span class="pdot"><svg><use href="#i-flag"></use></svg></span><div><div class="pname">Pitch &amp; Judge</div><div class="psub">Hora 48</div></div></div>
+  <div class="parrow"></div>
+  <div class="pstep"><span class="pdot"><svg><use href="#i-target"></use></svg></span><div><div class="pname">Climate Impact</div><div class="psub">Insights → acción</div></div></div>
+</div>
+
+<main>
+  <div class="content">
+
+    <!-- WELCOME -->
+    <section class="panel-x active" id="p-welcome">
+      <div class="card">
+        <div class="card-head"><span class="ico"><svg><use href="#i-drop"></use></svg></span><h2>Bienvenidos, Team SolarPulse</h2><span class="pill pill-cyan">Rank #8 / 50</span></div>
+        <div class="card-body">
+          <div class="cred-grid">
+            <div class="cred"><div class="cred-l">JupyterHub URL</div><div class="cred-v"><span>p3x9k.proxy.runpod.net</span><button class="copy" data-copy="https://p3x9k.proxy.runpod.net"><svg><use href="#i-copy"></use></svg>Copy</button></div></div>
+            <div class="cred"><div class="cred-l">OpenRouter Key</div><div class="cred-v"><span>sk-or-v1-a8f3…d92e</span><button class="copy" data-copy="sk-or-v1-a8f3c7b2e1d4f9a0c5b8e3d92e"><svg><use href="#i-copy"></use></svg>Copy</button></div></div>
+          </div>
+          <div class="cred"><div class="cred-l">Dataset · HuggingFace</div><div class="cred-v"><span>cleantechhub/datathon-2025</span><button class="copy" data-copy="cleantechhub/datathon-2025"><svg><use href="#i-copy"></use></svg>Copy</button></div></div>
+          <hr class="rule">
+          <div class="section-label"><svg style="width:14px;height:14px;color:var(--forest)"><use href="#i-target"></use></svg>Task brief</div>
+          <p class="brief">Se les entrega un dataset de <strong>10,000 registros de consumo energético</strong> de municipios de Latinoamérica — variables climáticas, datos demográficos y de política. Predigan el <strong>potencial de reducción de CO₂</strong> (kg/año) alcanzable mediante transiciones a energía renovable.<br><br>
+          <strong>Métrica:</strong> R² — más alto es mejor. &nbsp;<strong>Formato:</strong> CSV con columnas <code class="inl">id, prediction</code>. &nbsp;<strong>Límite:</strong> 10 envíos por día.</p>
+          <div style="display:flex;gap:10px;margin-top:20px;flex-wrap:wrap">
+            <button class="btn btn-primary" data-tab="compute"><svg><use href="#i-cpu"></use></svg>Open JupyterHub</button>
+            <button class="btn btn-green" data-tab="submit"><svg><use href="#i-up"></use></svg>Submit solution</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPUTE -->
+    <section class="panel-x" id="p-compute">
+      <div class="card">
+        <div class="card-head"><span class="ico"><svg><use href="#i-cpu"></use></svg></span><h2>Your GPU Notebook</h2><span class="pill pill-green"><span class="dot"></span>Online</span></div>
+        <div class="card-body">
+          <div class="codewin">
+            <div class="codebar"><span class="cdot" style="background:#FF5F57"></span><span class="cdot" style="background:#FFBD2E"></span><span class="cdot" style="background:#28CA41"></span><span class="meta">JupyterLab 4.1 · Python 3.11 · CUDA 12.1</span></div>
+<pre><span class="c"># Quick start — run this in your first cell</span>
+<span class="k">import</span> os, datasets, pandas <span class="k">as</span> pd
+
+ds = datasets.<span class="f">load_dataset</span>(<span class="s">"cleantechhub/datathon-2025"</span>)
+df_train = ds[<span class="s">"train"</span>].<span class="f">to_pandas</span>()
+df_test  = ds[<span class="s">"test"</span>].<span class="f">to_pandas</span>()
+
+<span class="k">import</span> torch
+<span class="f">print</span>(<span class="s">f"GPU: {torch.cuda.get_device_name(0)}"</span>)</pre>
+          </div>
+          <div class="specs">
+            <div class="spec"><div class="v">T4</div><div class="l">GPU model</div></div>
+            <div class="spec"><div class="v">16 GB</div><div class="l">VRAM</div></div>
+            <div class="spec"><div class="v">100 GB</div><div class="l">SSD storage</div></div>
+          </div>
+          <a class="btn btn-primary" style="width:100%;justify-content:center" href="https://p3x9k.proxy.runpod.net" target="_blank" rel="noopener"><svg><use href="#i-bolt"></use></svg>Open JupyterLab in new tab</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- API -->
+    <section class="panel-x" id="p-api">
+      <div class="card">
+        <div class="card-head"><span class="ico green"><svg><use href="#i-chat"></use></svg></span><h2>LLM API · OpenRouter</h2><span class="pill pill-gold">Cap $20.00</span></div>
+        <div class="card-body">
+          <div class="cred" style="margin-bottom:16px"><div class="cred-l">Your API key · hard cap $20.00</div><div class="cred-v"><span>sk-or-v1-a8f3c7b2e1d4f9a0c5b8e3d92e</span><button class="copy" data-copy="sk-or-v1-a8f3c7b2e1d4f9a0c5b8e3d92e"><svg><use href="#i-copy"></use></svg>Copy</button></div></div>
+          <div class="codewin">
+            <div class="codebar"><span class="cdot" style="background:#FF5F57"></span><span class="cdot" style="background:#FFBD2E"></span><span class="cdot" style="background:#28CA41"></span><span class="meta">example.py</span></div>
+<pre><span class="k">from</span> openai <span class="k">import</span> OpenAI
+client = <span class="f">OpenAI</span>(api_key=<span class="s">"sk-or-v1-…"</span>, base_url=<span class="s">"https://openrouter.ai/api/v1"</span>)
+resp = client.chat.completions.<span class="f">create</span>(
+    model=<span class="s">"anthropic/claude-3-5-sonnet"</span>,
+    messages=[{<span class="s">"role"</span>:<span class="s">"user"</span>, <span class="s">"content"</span>: <span class="s">f"CO₂ potential: {row}"</span>}])</pre>
+          </div>
+          <div style="display:flex;align-items:center;gap:12px;background:var(--bg);border:1px solid var(--line);border-radius:var(--r-sm);padding:13px 15px;margin-bottom:18px;flex-wrap:wrap">
+            <div style="flex:1;min-width:180px"><div style="font-weight:700;color:var(--ink);font-size:13.5px">Probar el API en vivo</div><div style="font-size:12px;color:var(--muted)">Sends one sample row to claude-3-5-sonnet and draws down your budget.</div></div>
+            <button class="btn btn-green" id="testApi"><svg><use href="#i-bolt"></use></svg>Test API call</button>
+          </div>
+          <table class="mtbl">
+            <thead><tr><th>Model</th><th>In / 1M</th><th>Out / 1M</th><th>Best for</th></tr></thead>
+            <tbody>
+              <tr><td>claude-3-5-sonnet</td><td>$3.00</td><td>$15.00</td><td>Analysis, reasoning</td></tr>
+              <tr><td>gpt-4o</td><td>$2.50</td><td>$10.00</td><td>Code, structured output</td></tr>
+              <tr><td>gemini-pro-1.5</td><td>$1.25</td><td>$5.00</td><td>Long context</td></tr>
+              <tr><td>llama-3.1-70b</td><td>$0.88</td><td>$0.88</td><td>Fast, budget</td></tr>
+              <tr><td>mistral-large</td><td>$2.00</td><td>$6.00</td><td>Multilingual</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- SUBMIT -->
+    <section class="panel-x" id="p-submit">
+      <div class="card">
+        <div class="card-head"><span class="ico"><svg><use href="#i-up"></use></svg></span><h2>Submit Your Solution</h2><span class="pill pill-gold" id="subsPill">8 / 10 today</span></div>
+        <div class="card-body">
+          <p class="brief" style="margin-bottom:16px">Upload predictions as CSV with columns <code class="inl">id, prediction</code>. Scoring runs automatically on a held-out set via Modal — results land on the leaderboard in ~3 min.</p>
+
+          <input type="file" id="fileInput" accept=".csv,text/csv" hidden>
+          <div class="drop" id="drop">
+            <div class="upico"><svg><use href="#i-up"></use></svg></div>
+            <h3>Drop your CSV here or click to browse</h3>
+            <p>Max 50 MB · columns [id, prediction]</p>
+          </div>
+
+          <div id="fileArea"></div>
+
+          <button class="btn btn-green" id="submitBtn" style="width:100%;justify-content:center;margin-top:14px" disabled><svg><use href="#i-up"></use></svg>Submit for scoring</button>
+
+          <div id="subProg" style="display:none;margin-top:16px">
+            <div style="background:rgba(102,147,72,.1);border:1px solid rgba(102,147,72,.4);border-radius:var(--r-sm);padding:15px">
+              <div style="display:flex;align-items:center;gap:9px;margin-bottom:9px"><span class="dot"></span><strong style="color:var(--forest)">Scoring on Modal T4…</strong></div>
+              <div class="track"><i class="fill-green" id="pbar"></i></div>
+              <div class="mono" style="font-size:11.5px;color:var(--muted);margin-top:7px" id="progMeta">est. ~2 min 45 sec</div>
+            </div>
+          </div>
+
+          <div id="subRes" style="display:none;margin-top:16px"></div>
+
+          <hr class="rule">
+          <div class="section-label"><svg style="width:14px;height:14px;color:var(--forest)"><use href="#i-clock"></use></svg>Submission history</div>
+          <table>
+            <thead><tr><th>#</th><th>Time</th><th>Score (R²)</th><th>Status</th></tr></thead>
+            <tbody id="histBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- LEADERBOARD -->
+    <section class="panel-x" id="p-leaderboard">
+      <div class="card">
+        <div class="card-head"><span class="ico sky"><svg><use href="#i-flag"></use></svg></span><h2>Live Leaderboard</h2><span class="pill pill-green"><span class="dot"></span>Updates 3 min</span></div>
+        <div class="card-body" style="padding:14px 8px 8px">
+          <div class="lb-controls">
+            <input class="lb-search" id="lbSearch" placeholder="Buscar equipo…">
+            <span class="pill pill-blue" id="yourRankChip">You · #8</span>
+          </div>
+          <table>
+            <thead><tr><th>#</th><th>Team</th><th>Score (R²)</th><th>Subs</th></tr></thead>
+            <tbody id="lb"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="sb">
+      <div class="sb-t"><span class="ico-sm" style="background:var(--cyan);color:var(--blue)"><svg><use href="#i-clock"></use></svg></span>Time remaining</div>
+      <div class="clock-big" id="sbClock">47:58:12</div>
+      <div class="clock-sub">until submission deadline</div>
+      <div class="track" style="margin-top:14px"><i class="fill-blue" id="timeBar"></i></div>
+    </div>
+
+    <div class="sb">
+      <div class="sb-t"><span class="ico-sm" style="background:var(--sky);color:#fff"><svg><use href="#i-drop"></use></svg></span>Token budget</div>
+      <div class="flowgauge"><div class="liquid" id="budgetLiquid" style="height:0"></div><div class="lbl"><div class="v" id="budgetVal">$18.34</div><div class="s" id="budgetSub">of $20.00 · 92% left</div></div></div>
+      <div class="usage-list" id="usageList"></div>
+    </div>
+
+    <div class="sb">
+      <div class="sb-t"><span class="ico-sm" style="background:var(--blue);color:#fff"><svg><use href="#i-cpu"></use></svg></span>Your GPU · T4</div>
+      <div class="meter"><div class="meter-lbl"><span>GPU util</span><b id="gpuUtilLbl">34%</b></div><div class="track"><i class="fill-blue" id="gpuBar"></i></div></div>
+      <div class="meter"><div class="meter-lbl"><span>VRAM</span><b id="vramLbl">5.2 / 16 GB</b></div><div class="track"><i class="fill-green" id="vramBar"></i></div></div>
+    </div>
+
+    <div class="sb">
+      <div class="sb-t"><span class="ico-sm" style="background:var(--forest);color:#fff"><svg><use href="#i-db"></use></svg></span>Dataset</div>
+      <div class="ds-row"><span>name</span><span>datathon-2025</span></div>
+      <div class="ds-row"><span>rows</span><span>10,000</span></div>
+      <div class="ds-row"><span>split</span><span>8K / 2K</span></div>
+      <div class="ds-row"><span>features</span><span>47 cols</span></div>
+      <div class="ds-row"><span>target</span><span>co2_reduction_kg</span></div>
+    </div>
+
+    <div class="sb">
+      <div class="sb-t"><span class="ico-sm" style="background:var(--cyan);color:var(--blue)"><svg><use href="#i-wave"></use></svg></span>Support</div>
+      <div class="sup">
+        <div class="linkrow"><svg><use href="#i-slack"></use></svg><a href="#">#datathon-support</a> en Slack</div>
+        <div class="linkrow"><svg><use href="#i-mail"></use></svg><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="2541445144514d4a4b65464940444b5140464d4d50470b4b4051">[email&#160;protected]</a></div>
+        <div class="linkrow"><svg><use href="#i-doc"></use></svg><a href="#">Task documentation</a></div>
+      </div>
+      <span class="reset-link" id="resetState">Reset demo state</span>
+    </div>
+  </aside>
+</main>
+
+<div class="toast" id="toast"></div>
+
+<script src="portal.js"></script>
+</body>
+</html>
