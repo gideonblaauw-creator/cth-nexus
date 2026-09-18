@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>REPORTI — CleantechHUB Startup Profile</title>
+<link rel="icon" href="https://cleantechhub.net/favicon.ico">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--db:#0C498A;--cy:#B2EEFA;--lg:#9DC384;--fo:#669348;--sk:#69B5FA;--page:#fff;--ov:0.30;--panel:rgba(12,73,138,.94);--panel-border:rgba(255,255,255,.48);}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{font-family:'Open Sans','PT Sans',sans-serif;background:var(--page);color:var(--db);max-width:1080px;margin:0 auto;}
+[lang="es"] .en{display:none;} [lang="en"] .es{display:none;}
+
+.site-brand{position:fixed;top:12px;left:50%;transform:translateX(-50%);width:100%;max-width:1080px;padding:0 48px;z-index:99;pointer-events:none;}
+.site-brand .brand-text{pointer-events:auto;display:inline-block;font-size:13px;font-weight:800;letter-spacing:.4px;color:#fff;text-shadow:0 2px 10px rgba(0,0,0,.6);}
+.site-brand .brand-text em{color:var(--lg);font-style:normal;}
+
+.lang-toggle{position:fixed;top:12px;right:12px;z-index:100;display:flex;border-radius:5px;overflow:hidden;box-shadow:0 4px 16px rgba(0,0,0,.35);}
+.lb{padding:6px 14px;font-size:10px;font-weight:700;border:none;cursor:pointer;font-family:'Open Sans',sans-serif;transition:all .2s;}
+.lb.active{background:var(--db);color:#fff;}.lb:not(.active){background:#fff;color:var(--db);}
+
+.sec{position:relative;overflow:hidden;}
+.sec-bg{position:absolute;inset:0;background-size:cover;background-position:center;z-index:0;}
+.sec-ov{position:absolute;inset:0;z-index:1;}
+.sec-header{display:flex;align-items:center;gap:14px;padding:28px 48px 16px;position:relative;z-index:2;}
+.sec-num{font-size:11px;font-weight:800;color:var(--db);background:var(--lg);width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;box-shadow:0 2px 8px rgba(0,0,0,.35);}
+.sec-title{font-size:18px;font-weight:800;letter-spacing:-.3px;color:#fff;text-shadow:0 2px 14px rgba(0,0,0,.75);}
+.sec-rule{height:1px;background:linear-gradient(90deg,rgba(255,255,255,.55),rgba(255,255,255,0));flex:1;margin-left:8px;}
+.accent-bar{height:3px;background:linear-gradient(90deg,var(--db) 20%,var(--fo) 20% 40%,var(--lg) 40% 60%,var(--sk) 60% 80%,var(--cy) 80%);}
+.pill{display:inline-block;padding:5px 12px;border-radius:4px;font-size:9px;font-weight:700;letter-spacing:1px;text-transform:uppercase;}
+
+.hero{height:420px;position:relative;}
+.hero-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;}
+.hero-ov{position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,73,138,.12) 0%,rgba(12,73,138,.30) 55%,rgba(12,73,138,.48) 100%);z-index:1;}
+.hero-in{position:relative;z-index:2;height:100%;display:flex;flex-direction:column;justify-content:flex-end;padding:0 48px 36px;}
+.hero-badge{position:absolute;top:56px;left:48px;z-index:3;}
+.hero-name{font-size:56px;font-weight:800;line-height:1;color:#fff;text-shadow:0 4px 24px rgba(0,0,0,.55);}
+.hero-sub{font-size:14px;font-weight:700;color:#e8ffd4;margin-top:8px;text-shadow:0 2px 10px rgba(0,0,0,.5);}
+.hero-pitch{font-size:14px;line-height:1.6;color:#fff;margin-top:14px;max-width:540px;text-shadow:0 2px 12px rgba(0,0,0,.55);}
+.hero-tagline{font-size:10px;font-style:italic;color:#e8ffd4;opacity:.9;position:absolute;bottom:36px;right:48px;text-shadow:0 2px 8px rgba(0,0,0,.5);}
+
+.ribbon{display:grid;grid-template-columns:repeat(4,1fr);}
+.ribbon-cell{padding:22px 24px;text-align:center;border-right:1px solid rgba(255,255,255,.12);}
+.ribbon-cell:last-child{border-right:none;}
+.rc-val{font-size:28px;font-weight:800;line-height:1;color:#fff;}
+.rc-lab{font-size:9px;font-weight:700;color:#e8ffd4;letter-spacing:.6px;text-transform:uppercase;margin-top:4px;}
+.rc-sub{font-size:9px;color:rgba(255,255,255,.75);margin-top:2px;}
+
+.split{display:grid;grid-template-columns:1fr 1fr;align-items:stretch;}
+.split-panel{position:relative;overflow:hidden;padding:36px 40px;display:flex;flex-direction:column;}
+.split-h{font-size:22px;font-weight:800;line-height:1.2;margin-bottom:12px;color:#fff;}
+.body-text{font-size:13px;line-height:1.65;color:rgba(255,255,255,.95);}
+
+.frost-panel,.stat-card,.sol-card,.slider-item,.imp-card,.team-card,.comp-tbl,.mini-chart,.split-frost,.deck-panel,.frost-note{background:var(--panel);backdrop-filter:blur(12px) saturate(1.35);-webkit-backdrop-filter:blur(12px) saturate(1.35);border:1px solid var(--panel-border);box-shadow:0 8px 32px rgba(0,0,0,.42);}
+
+.stat-row{display:flex;gap:10px;margin-top:14px;}
+.stat-card{flex:1;border-radius:8px;padding:14px;text-align:center;}
+.sc-num{font-size:26px;font-weight:800;color:#e8ffd4;line-height:1;}
+.sc-lab{font-size:9px;font-weight:700;color:rgba(255,255,255,.9);margin-top:3px;line-height:1.3;}
+
+.sol-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;padding:0 48px 32px;position:relative;z-index:2;}
+.sol-card{border-radius:8px;padding:22px 18px;text-align:center;}
+.sol-step{font-size:9px;font-weight:800;color:var(--db);background:var(--lg);width:22px;height:22px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;margin-bottom:8px;box-shadow:0 2px 6px rgba(0,0,0,.3);}
+.sol-icon{font-size:24px;margin-bottom:6px;}
+.sol-label{font-size:10px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#e8ffd4;margin-bottom:6px;}
+.sol-text{font-size:11px;line-height:1.5;color:rgba(255,255,255,.92);}
+
+.comp-wrap{padding:14px 48px 28px;position:relative;z-index:2;}
+.comp-tbl{width:100%;border-collapse:collapse;font-size:11px;border-radius:8px;overflow:hidden;}
+.comp-tbl th{text-align:left;font-size:9px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:#e8ffd4;padding:10px 18px;border-bottom:1px solid rgba(255,255,255,.25);}
+.comp-tbl td{padding:8px 18px;border-bottom:1px solid rgba(255,255,255,.12);font-weight:600;color:rgba(255,255,255,.88);}
+.comp-tbl .hl{color:#e8ffd4;font-weight:800;}
+
+.rev-chart{display:flex;align-items:flex-end;gap:14px;height:110px;padding:18px 48px 10px;position:relative;z-index:2;}
+.rev-col{display:flex;flex-direction:column;align-items:center;flex:1;gap:3px;}
+.rev-bar{width:100%;border-radius:5px 5px 0 0;min-height:4px;}
+.rev-bar.actual{background:linear-gradient(180deg,var(--sk),var(--db));box-shadow:0 2px 8px rgba(0,0,0,.3);}
+.rev-bar.proj{background:rgba(105,181,250,.25);border:2px dashed rgba(255,255,255,.55);}
+.rev-label{font-size:10px;font-weight:700;color:rgba(255,255,255,.85);text-shadow:0 1px 6px rgba(0,0,0,.5);}
+.rev-val{font-size:10px;font-weight:800;color:#e8ffd4;text-shadow:0 1px 6px rgba(0,0,0,.5);}
+
+.slider-wrap{padding:0 48px 28px;position:relative;z-index:2;}
+.slider-item{border-radius:8px;padding:18px 20px;margin-bottom:12px;}
+.sl-label{font-size:9px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#e8ffd4;margin-bottom:8px;}
+.sl-val{font-size:22px;font-weight:800;color:#fff;margin-bottom:8px;}
+.sl-range{width:100%;accent-color:var(--lg);height:8px;cursor:pointer;}
+.sl-range:disabled{opacity:.55;cursor:default;}
+.sl-hint{font-size:9px;color:rgba(255,255,255,.8);margin-top:6px;}
+
+.impact-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;padding:0 48px 12px;position:relative;z-index:2;}
+.imp-card{border-radius:8px;padding:22px 20px;display:flex;gap:14px;align-items:flex-start;}
+.imp-icon{font-size:22px;flex-shrink:0;}
+.imp-title{font-size:10px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:#e8ffd4;margin-bottom:4px;}
+.imp-text{font-size:12px;line-height:1.5;color:rgba(255,255,255,.92);}
+
+.team-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;padding:0 48px 28px;position:relative;z-index:2;}
+.team-card{border-radius:8px;padding:24px 20px;text-align:center;}
+.tp-photo{width:72px;height:72px;border-radius:50%;object-fit:cover;margin:0 auto 10px;display:block;border:2px solid rgba(255,255,255,.55);box-shadow:0 4px 14px rgba(0,0,0,.4);}
+.tp-avatar{width:52px;height:52px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:800;margin:0 auto 10px;box-shadow:0 3px 10px rgba(0,0,0,.35);}
+.tp-name{font-size:14px;font-weight:700;color:#fff;}
+.tp-role{font-size:10px;font-weight:600;color:#e8ffd4;margin-top:3px;}
+.tp-bio{font-size:11px;color:rgba(255,255,255,.85);line-height:1.5;margin-top:8px;}
+.tp-link{display:inline-block;margin-top:10px;font-size:9px;font-weight:700;color:#e8ffd4;text-decoration:none;border-bottom:1px solid rgba(232,255,212,.5);}
+
+.frost-note{margin:0 48px 20px;padding:14px 18px;border-radius:8px;font-size:11px;line-height:1.55;color:rgba(255,255,255,.92);position:relative;z-index:2;}
+
+.cta{text-align:center;padding:44px 48px;position:relative;z-index:2;}
+.cta-name{font-size:44px;font-weight:800;color:#fff;text-shadow:0 3px 16px rgba(0,0,0,.55);}
+.cta-pitch{font-size:14px;line-height:1.6;max-width:560px;margin:12px auto 0;color:rgba(255,255,255,.92);text-shadow:0 2px 10px rgba(0,0,0,.45);}
+.cta-btn{display:inline-block;background:linear-gradient(180deg,#d4f5b8 0%,var(--lg) 100%);color:#053a6e;font-size:14px;font-weight:800;padding:14px 36px;border-radius:6px;text-decoration:none;margin-top:20px;border:2px solid #fff;box-shadow:0 6px 22px rgba(0,0,0,.45);}
+.cta-links{display:flex;gap:10px;justify-content:center;margin-top:16px;flex-wrap:wrap;}
+.cta-link{font-size:10px;font-weight:700;color:#fff;text-decoration:none;padding:8px 16px;background:var(--panel);border:1px solid var(--panel-border);border-radius:6px;box-shadow:0 4px 16px rgba(0,0,0,.35);}
+.cta-brand{margin-top:24px;}
+.cta-brand .tg{font-size:12px;font-style:italic;color:#e8ffd4;opacity:.95;}
+.cta-brand .lg2{font-size:14px;font-weight:800;margin-top:4px;color:#fff;}
+.cta-port{font-size:9px;color:rgba(255,255,255,.8);margin-top:10px;}
+
+.mini-chart{display:flex;align-items:flex-end;gap:6px;height:50px;border-radius:8px;padding:8px 10px 4px;margin-top:14px;}
+.split-frost{padding:24px 28px;border-radius:8px;flex:1;display:flex;flex-direction:column;justify-content:center;min-height:100%;}
+.split-frost-stats{gap:8px;justify-content:center;}
+.split-frost-stats .stat-row{flex:1;align-items:stretch;margin-top:0;}
+.split-frost-stats .stat-row+.stat-row{margin-top:8px;}
+.split-frost-stats .stat-card{background:transparent;border:none;box-shadow:none;display:flex;flex-direction:column;justify-content:center;}
+
+.deck-wrap{padding:0 48px 32px;position:relative;z-index:2;}
+.deck-panel{padding:16px;border-radius:8px;}
+.deck-frame-wrap{width:100%;border-radius:6px;overflow:hidden;background:#fff;box-shadow:0 14px 40px rgba(0,0,0,.5);line-height:0;}
+.deck-frame{width:100%;height:2560px;border:0;display:block;background:#fff;min-height:720px;}
+.deck-fallback{margin-top:12px;font-size:10px;color:rgba(255,255,255,.85);text-align:center;text-shadow:0 1px 8px rgba(0,0,0,.5);}
+.deck-fallback a{color:#e8ffd4;font-weight:700;}
+.deck-actions{display:flex;gap:10px;justify-content:center;margin-top:14px;flex-wrap:wrap;}
+.deck-note{padding:0 48px 8px;font-size:10px;color:rgba(255,255,255,.9);text-align:center;position:relative;z-index:2;text-shadow:0 1px 8px rgba(0,0,0,.5);}
+
+.mini-col{display:flex;flex-direction:column;align-items:center;flex:1;gap:1px;}
+.mini-val{font-size:8px;font-weight:700;color:rgba(255,255,255,.85);}
+.mini-val.hl{color:#e8ffd4;}
+.mini-bar{width:100%;border-radius:3px 3px 0 0;background:linear-gradient(180deg,var(--sk),#0a3d6e);}
+.mini-bar.hl{background:linear-gradient(180deg,var(--lg),var(--fo));}
+.mini-lab{font-size:7px;font-weight:700;color:rgba(255,255,255,.8);}
+
+</style>
+</head>
+<body>
+<div class="site-brand"><span class="brand-text">Cleantech<em>HUB</em></span></div>
+<div class="lang-toggle">
+  <button class="lb active" onclick="document.documentElement.lang='en';this.classList.add('active');this.nextElementSibling.classList.remove('active');">EN</button>
+  <button class="lb" onclick="document.documentElement.lang='es';this.classList.add('active');this.previousElementSibling.classList.remove('active');">ES</button>
+</div>
+
+<div class="sec hero">
+  <img class="hero-img" src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80" alt="REPORTI" loading="lazy">
+  <div class="hero-ov"></div>
+  <div class="hero-badge"><div class="pill" style="background:rgba(0,0,0,.45);color:var(--lg);"><span class="en">Efficiency &middot; CLP26 Colombia</span><span class="es">Efficiency &middot; CLP26 Colombia</span></div></div>
+  <div class="hero-in">
+    <div class="hero-name">REPORTI</div>
+    <div class="hero-sub"><span class="en">[PENDIENTE] &middot; Colombia &middot; Efficiency &middot; Stage: Ideation &middot; CT-XS-004</span><span class="es">[PENDIENTE] &middot; Colombia &middot; Efficiency &middot; Etapa: Ideation &middot; CT-XS-004</span></div>
+    <div class="hero-pitch"><span class="en">Reporti is an AI-powered SaaS solution designed to help green SMEs bridge the gap between finance and sustainability by turning data into ESG decisions. It will connect companies with experts and generate reports that support informed decision-making.</span><span class="es">Reporti is an AI-powered SaaS solution designed to help green SMEs bridge the gap between finance and sustainability by turning data into ESG decisions. It will connect companies with experts and generate reports that support informed decision-making.</span></div>
+  </div>
+  <div class="hero-tagline">Inspira. Actúa. Transforma.</div>
+</div>
+
+<div class="ribbon" style="background:rgba(12,73,138,.95);"><div class="ribbon-cell"><div class="rc-val">Ideation</div><div class="rc-lab"><span class="en">Stage</span><span class="es">Etapa</span></div><div class="rc-sub"><span class="en">CLP26 CO</span><span class="es">CLP26 CO</span></div></div><div class="ribbon-cell"><div class="rc-val">Efficiency</div><div class="rc-lab"><span class="en">Category</span><span class="es">Categoría</span></div><div class="rc-sub"><span class="en">Cleantech</span><span class="es">Cleantech</span></div></div><div class="ribbon-cell"><div class="rc-val">CT-XS-004</div><div class="rc-lab"><span class="en">CT Taxonomy</span><span class="es">Taxonomía CT</span></div><div class="rc-sub"><span class="en">CTH</span><span class="es">CTH</span></div></div><div class="ribbon-cell"><div class="rc-val">2</div><div class="rc-lab"><span class="en">Team</span><span class="es">Equipo</span></div><div class="rc-sub"><span class="en">Application</span><span class="es">Aplicación</span></div></div></div>
+
+
+
+<div class="sec" style="position:relative;"><div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80');"></div><div class="sec-ov" style="background:rgba(12,73,138,.30);"></div><div class="sec-header"><div class="sec-num">01</div><div class="sec-title"><span class="en">The Problem</span><span class="es">El Problema</span></div><div class="sec-rule"></div></div><div class="split" style="position:relative;z-index:2;"><div class="split-panel"><div class="split-frost"><div class="split-h"><span class="en">Reporti addresses the lack of tools available to SMEs for integrating sustainability into their…</span><span class="es">Reporti addresses the lack of tools available to SMEs for integrating sustainability into their…</span></div><div class="body-text"><span class="en">Reporti addresses the lack of tools available to SMEs for integrating sustainability into their financial decisions. This limits climate action and access to green financing, hindering the transition toward more sustainable business models.</span><span class="es">Reporti addresses the lack of tools available to SMEs for integrating sustainability into their financial decisions. This limits climate action and access to green financing, hindering the transition toward more sustainable business models.</span></div></div></div><div class="split-panel"><div class="split-frost split-frost-stats"><div class="stat-row" style="margin-top:0;"><div class="stat-card"><div class="sc-num">CLP</div><div class="sc-lab"><span class="en">2026 Colombia</span><span class="es">2026 Colombia</span></div></div><div class="stat-card"><div class="sc-num">CTH</div><div class="sc-lab"><span class="en">Accelerator</span><span class="es">Acelerador</span></div></div></div><div class="stat-row"><div class="stat-card"><div class="sc-num">[P]</div><div class="sc-lab"><span class="en">Metrics pending</span><span class="es">Métricas pendientes</span></div></div><div class="stat-card"><div class="sc-num">CO</div><div class="sc-lab"><span class="en">Colombia</span><span class="es">Colombia</span></div></div></div></div></div></div></div><div class="sec" style="position:relative;"><div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1470071459604-3b5ec3a8fe05?w=1200&q=80');"></div><div class="sec-ov" style="background:rgba(102,147,72,.30);"></div><div class="sec-header"><div class="sec-num">02</div><div class="sec-title"><span class="en">How REPORTI Works</span><span class="es">Cómo Funciona REPORTI</span></div><div class="sec-rule"></div></div><div class="sol-grid"><div class="sol-card"><div class="sol-step">1</div><div class="sol-icon">🎯</div><div class="sol-label"><span class="en">Focus</span><span class="es">Enfoque</span></div><div class="sol-text"><span class="en">We hope that Reporti will use AI to analyze business data to generate ESG assessments and reports, while experts validate and guide decision-making. This will…</span><span class="es">We hope that Reporti will use AI to analyze business data to generate ESG assessments and reports, while experts validate and guide decision-making. This will…</span></div></div><div class="sol-card"><div class="sol-step">2</div><div class="sol-icon">⚙️</div><div class="sol-label"><span class="en">Model</span><span class="es">Modelo</span></div><div class="sol-text"><span class="en">Reporti will generate revenue through SaaS subscriptions for small and medium-sized businesses, commissions for…</span><span class="es">Reporti will generate revenue through SaaS subscriptions for small and medium-sized businesses, commissions for…</span></div></div><div class="sol-card"><div class="sol-step">3</div><div class="sol-icon">🌎</div><div class="sol-label"><span class="en">Market</span><span class="es">Mercado</span></div><div class="sol-text"><span class="en">SMEs interested in sustainability, along with sustainability experts and auditors, who seek to integrate financial and…</span><span class="es">SMEs interested in sustainability, along with sustainability experts and auditors, who seek to integrate financial and…</span></div></div><div class="sol-card"><div class="sol-step">4</div><div class="sol-icon">📈</div><div class="sol-label"><span class="en">Traction</span><span class="es">Tracción</span></div><div class="sol-text"><span class="en">According to the IFRS Foundation, more than 70% of companies have not yet integrated financial and sustainability…</span><span class="es">According to the IFRS Foundation, more than 70% of companies have not yet integrated financial and sustainability…</span></div></div></div></div><div class="sec" style="position:relative;"><div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80');"></div><div class="sec-ov" style="background:rgba(12,73,138,.30);"></div><div class="sec-header"><div class="sec-num">03</div><div class="sec-title"><span class="en">Business Snapshot</span><span class="es">Resumen del Negocio</span></div><div class="sec-rule"></div></div><div class="comp-wrap"><table class="comp-tbl"><thead><tr><th><span class="en">Dimension</span><span class="es">Dimensión</span></th><th><span class="en">Detail (EN)</span><span class="es">Detalle</span></th><th><span class="en">Status</span><span class="es">Estado</span></th></tr></thead><tbody><tr><td><span class="en">Category</span><span class="es">Categoría</span></td><td><span class="en">Efficiency</span><span class="es">Efficiency</span></td><td class="hl"><span class="en">CLP26</span><span class="es">CLP26</span></td></tr><tr><td><span class="en">Stage</span><span class="es">Etapa</span></td><td><span class="en">Ideation</span><span class="es">Ideation</span></td><td class="hl"><span class="en">Application</span><span class="es">Aplicación</span></td></tr><tr><td><span class="en">CT Taxonomy</span><span class="es">Taxonomía CT</span></td><td><span class="en">CT-XS-004</span><span class="es">CT-XS-004</span></td><td class="hl"><span class="en">CTH</span><span class="es">CTH</span></td></tr></tbody></table></div></div><div class="sec" style="position:relative;"><div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80');"></div><div class="sec-ov" style="background:rgba(102,147,72,.30);"></div><div class="sec-header"><div class="sec-num">04</div><div class="sec-title"><span class="en">Climate &amp; Impact</span><span class="es">Clima e Impacto</span></div><div class="sec-rule"></div></div><div class="impact-grid"><div class="imp-card"><div class="imp-icon">🌱</div><div><div class="imp-title"><span class="en">Climate focus</span><span class="es">Enfoque climático</span></div><div class="imp-text"><span class="en">Reporti addresses the lack of tools available to SMEs for integrating sustainability into their financial decisions. This limits climate action and access to green financing,…</span><span class="es">Reporti addresses the lack of tools available to SMEs for integrating sustainability into their financial decisions. This limits climate action and access to green financing,…</span></div></div></div><div class="imp-card"><div class="imp-icon">💡</div><div><div class="imp-title"><span class="en">Solution</span><span class="es">Solución</span></div><div class="imp-text"><span class="en">We hope that Reporti will use AI to analyze business data to generate ESG assessments and reports, while experts validate and guide decision-making. This will enable SMEs to…</span><span class="es">We hope that Reporti will use AI to analyze business data to generate ESG assessments and reports, while experts validate and guide decision-making. This will enable SMEs to…</span></div></div></div><div class="imp-card"><div class="imp-icon">🤝</div><div><div class="imp-title"><span class="en">CLP 2026</span><span class="es">CLP 2026</span></div><div class="imp-text"><span class="en">ClimateLaunchpad Colombia 2026 bootcamp cohort — CleantechHUB accelerator knowledge transfer.</span><span class="es">Cohorte bootcamp ClimateLaunchpad Colombia 2026 — transferencia de conocimiento acelerador CleantechHUB.</span></div></div></div><div class="imp-card"><div class="imp-icon">📋</div><div><div class="imp-title"><span class="en">External support</span><span class="es">Apoyo externo</span></div><div class="imp-text"><span class="en">Reporti received support from the CleantechHUB Colombia incubation program in 2024, strengthening its climate and business focus. In addition, it has benefited from guidance…</span><span class="es">Reporti received support from the CleantechHUB Colombia incubation program in 2024, strengthening its climate and business focus. In addition, it has benefited from guidance…</span></div></div></div></div></div><div class="sec" style="position:relative;"><div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80');"></div><div class="sec-ov" style="background:rgba(12,73,138,.30);"></div><div class="sec-header"><div class="sec-num">05</div><div class="sec-title"><span class="en">Leadership</span><span class="es">Liderazgo</span></div><div class="sec-rule"></div></div><div class="team-grid"><div class="team-card"><div class="tp-avatar" style="background:linear-gradient(135deg,var(--fo),var(--lg));">OV</div><div class="tp-name">OSCAR VEGA</div><div class="tp-role"><span class="en">Founder &middot; CLP26 Colombia</span><span class="es">Fundador(a) &middot; CLP26 Colombia</span></div><div class="tp-bio"><span class="en">I am a certified public accountant specializing in management control, with over 13 years of experience in statutory auditing and financial consulting, helping small and medium-sized enterprises (SMEs) implement IFRS…</span><span class="es">I am a certified public accountant specializing in management control, with over 13 years of experience in statutory auditing and financial consulting, helping small and medium-sized enterprises (SMEs) implement IFRS…</span></div></div></div><div class="frost-note"><span class="en">CT taxonomy: CT-XS-004. CLP 2026 Colombia bootcamp cohort — CleantechHUB accelerator. Pitch deck: [PENDIENTE]. Revenue / ARR: [PENDIENTE].</span><span class="es">Taxonomía CT: CT-XS-004. Cohorte bootcamp CLP 2026 Colombia — acelerador CleantechHUB. Pitch deck: [PENDIENTE]. Ingresos / ARR: [PENDIENTE].</span></div></div>
+
+<div class="sec" style="position:relative;">
+  <div class="sec-bg" style="background-image:url('/s/reporti/assets/bg-cta.jpg');"></div>
+  <div class="sec-ov" style="background:rgba(12,73,138,.30);"></div>
+  <div class="cta">
+    <div class="pill" style="background:rgba(157,195,132,.12);border:1px solid rgba(157,195,132,.2);color:var(--lg);margin-bottom:16px;"><span class="en">Efficiency &middot; CLP26 Colombia</span><span class="es">Efficiency &middot; CLP26 Colombia</span></div>
+    <div class="cta-name">REPORTI</div>
+    <div class="cta-pitch"><span class="en">We hope that Reporti will use AI to analyze business data to generate ESG assessments and reports, while experts validate and guide decision-making. This will enable SMEs to implement real…</span><span class="es">We hope that Reporti will use AI to analyze business data to generate ESG assessments and reports, while experts validate and guide decision-making. This will enable SMEs to implement real…</span></div>
+    <a class="cta-btn" href="#"><span class="en">CleantechHUB</span><span class="es">CleantechHUB</span></a>
+    <div class="cta-links">
+      <a class="cta-link" href="https://nexus.cleantechhub.net/s/reporti"><span class="en">Nexus Profile</span><span class="es">Perfil Nexus</span></a>
+      <a class="cta-link" href="https://nexus.cleantechhub.net/p/startup-portfolio"><span class="en">157 Startups</span><span class="es">157 Startups</span></a>
+      
+    </div>
+    <div class="cta-brand"><div class="tg">Inspira. Actúa. Transforma.</div><div class="lg2">Cleantech<em style="color:var(--lg);font-style:normal;">HUB</em></div></div>
+    <div class="cta-port"><span class="en">CleantechHUB portfolio profile · Latin America</span><span class="es">Perfil portafolio CleantechHUB · América Latina</span></div>
+  </div>
+</div>
+<div class="accent-bar"></div>
+</body>
+</html>
