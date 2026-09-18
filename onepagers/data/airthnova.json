@@ -1,0 +1,248 @@
+{
+  "slug": "airthnova",
+  "name": "AirthNova",
+  "website": "https://linktr.ee/airthnova",
+  "badge_en": "Air & Environment &middot; CLP26 Colombia",
+  "badge_es": "Air & Environment &middot; CLP26 Colombia",
+  "hero_image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=1200&q=80",
+  "hero_sub_en": "linktr.ee/airthnova &middot; Colombia &middot; Air & Environment &middot; Stage: Ideation &middot; CT-XS-004",
+  "hero_sub_es": "linktr.ee/airthnova &middot; Colombia &middot; Air & Environment &middot; Etapa: Ideation &middot; CT-XS-004",
+  "pitch_en": "AirthNova is an environmental consulting firm that helps organizations measure, reduce, and manage their carbon footprint, mitigate environmental risks, and implement sustainable strategies, as well as effectively report on their progress.",
+  "pitch_es": "AirthNova is an environmental consulting firm that helps organizations measure, reduce, and manage their carbon footprint, mitigate environmental risks, and implement sustainable strategies, as well as effectively report on their progress.",
+  "cta_pitch_en": "AirthNova offers consulting services to measure, reduce, and manage carbon footprints. We implement strategies, mitigate risks, and provide guidance on sustainability reporting, helping companies…",
+  "cta_pitch_es": "AirthNova offers consulting services to measure, reduce, and manage carbon footprints. We implement strategies, mitigate risks, and provide guidance on sustainability reporting, helping companies…",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "ribbon": [
+    {
+      "val": "Ideation",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLP26 CO",
+      "sub_es": "CLP26 CO"
+    },
+    {
+      "val": "Air & Enviro",
+      "lab_en": "Category",
+      "lab_es": "Categoría",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "CT-XS-004",
+      "lab_en": "CT Taxonomy",
+      "lab_es": "Taxonomía CT",
+      "sub_en": "CTH",
+      "sub_es": "CTH"
+    },
+    {
+      "val": "2",
+      "lab_en": "Team",
+      "lab_es": "Equipo",
+      "sub_en": "Application",
+      "sub_es": "Aplicación"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLP",
+        "lab_en": "2026 Colombia",
+        "lab_es": "2026 Colombia"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Accelerator",
+        "lab_es": "Acelerador"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "Metrics pending",
+        "lab_es": "Métricas pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "AirthNova addresses the lack of carbon footprint measurement and management in companies. This is…",
+      "head_es": "AirthNova addresses the lack of carbon footprint measurement and management in companies. This is…",
+      "body_en": "AirthNova addresses the lack of carbon footprint measurement and management in companies. This is crucial because without data or strategies, emissions cannot be reduced and climate goals cannot be met, thereby exacerbating climate change.",
+      "body_es": "AirthNova addresses the lack of carbon footprint measurement and management in companies. This is crucial because without data or strategies, emissions cannot be reduced and climate goals cannot be met, thereby exacerbating climate change.",
+      "bg": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "How AirthNova Works",
+      "title_es": "Cómo Funciona AirthNova",
+      "steps": [
+        {
+          "icon": "🎯",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "AirthNova offers consulting services to measure, reduce, and manage carbon footprints. We implement strategies, mitigate risks, and provide guidance on…",
+          "text_es": "AirthNova offers consulting services to measure, reduce, and manage carbon footprints. We implement strategies, mitigate risks, and provide guidance on…"
+        },
+        {
+          "icon": "⚙️",
+          "label_en": "Model",
+          "label_es": "Modelo",
+          "text_en": "We generate revenue through environmental consulting (carbon footprint measurement, strategy development,…",
+          "text_es": "We generate revenue through environmental consulting (carbon footprint measurement, strategy development,…"
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Our target market consists of companies across various sectors that seek to reduce their carbon footprint, manage…",
+          "text_es": "Our target market consists of companies across various sectors that seek to reduce their carbon footprint, manage…"
+        },
+        {
+          "icon": "📈",
+          "label_en": "Traction",
+          "label_es": "Tracción",
+          "text_en": "There is a demand for stricter environmental regulations, pressure from investors and customers, and a need for…",
+          "text_es": "There is a demand for stricter environmental regulations, pressure from investors and customers, and a need for…"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "table",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Business Snapshot",
+      "title_es": "Resumen del Negocio",
+      "headers": [
+        [
+          "Dimension",
+          "Dimensión"
+        ],
+        [
+          "Detail (EN)",
+          "Detalle"
+        ],
+        [
+          "Status",
+          "Estado"
+        ]
+      ],
+      "rows": [
+        [
+          [
+            "Category",
+            "Categoría"
+          ],
+          [
+            "Air & Environment",
+            "Air & Environment"
+          ],
+          [
+            "CLP26",
+            "CLP26"
+          ]
+        ],
+        [
+          [
+            "Stage",
+            "Etapa"
+          ],
+          [
+            "Ideation",
+            "Ideation"
+          ],
+          [
+            "Application",
+            "Aplicación"
+          ]
+        ],
+        [
+          [
+            "CT Taxonomy",
+            "Taxonomía CT"
+          ],
+          [
+            "CT-XS-004",
+            "CT-XS-004"
+          ],
+          [
+            "CTH",
+            "CTH"
+          ]
+        ]
+      ],
+      "bg": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Climate &amp; Impact",
+      "title_es": "Clima e Impacto",
+      "cards": [
+        {
+          "icon": "🌱",
+          "title_en": "Climate focus",
+          "title_es": "Enfoque climático",
+          "text_en": "AirthNova addresses the lack of carbon footprint measurement and management in companies. This is crucial because without data or strategies, emissions cannot be reduced and…",
+          "text_es": "AirthNova addresses the lack of carbon footprint measurement and management in companies. This is crucial because without data or strategies, emissions cannot be reduced and…"
+        },
+        {
+          "icon": "💡",
+          "title_en": "Solution",
+          "title_es": "Solución",
+          "text_en": "AirthNova offers consulting services to measure, reduce, and manage carbon footprints. We implement strategies, mitigate risks, and provide guidance on sustainability reporting,…",
+          "text_es": "AirthNova offers consulting services to measure, reduce, and manage carbon footprints. We implement strategies, mitigate risks, and provide guidance on sustainability reporting,…"
+        },
+        {
+          "icon": "🤝",
+          "title_en": "CLP 2026",
+          "title_es": "CLP 2026",
+          "text_en": "ClimateLaunchpad Colombia 2026 bootcamp cohort — CleantechHUB accelerator knowledge transfer.",
+          "text_es": "Cohorte bootcamp ClimateLaunchpad Colombia 2026 — transferencia de conocimiento acelerador CleantechHUB."
+        },
+        {
+          "icon": "📋",
+          "title_en": "External support",
+          "title_es": "Apoyo externo",
+          "text_en": "We have received academic support through certificate programs and guidance from professors, who have helped us design our business model, structure our value proposition, and…",
+          "text_es": "We have received academic support through certificate programs and guidance from professors, who have helped us design our business model, structure our value proposition, and…"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=1200&q=80"
+    },
+    {
+      "num": 5,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Juan Angel",
+          "role_en": "Founder &middot; CLP26 Colombia",
+          "role_es": "Fundador(a) &middot; CLP26 Colombia",
+          "bio_en": "We offer training in business administration, with a focus on strategy, business models, and sustainability. In addition, we have received academic support that has guided the development and structuring of AirthNova.",
+          "bio_es": "We offer training in business administration, with a focus on strategy, business models, and sustainability. In addition, we have received academic support that has guided the development and structuring of AirthNova.",
+          "initials": "JA"
+        }
+      ],
+      "dream_en": "CT taxonomy: CT-XS-004. CLP 2026 Colombia bootcamp cohort — CleantechHUB accelerator. Pitch deck: [PENDIENTE]. Revenue / ARR: [PENDIENTE].",
+      "dream_es": "Taxonomía CT: CT-XS-004. Cohorte bootcamp CLP 2026 Colombia — acelerador CleantechHUB. Pitch deck: [PENDIENTE]. Ingresos / ARR: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80"
+    }
+  ]
+}

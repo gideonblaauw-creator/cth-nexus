@@ -1,0 +1,248 @@
+{
+  "slug": "agrolider",
+  "name": "AGROLIDER",
+  "website": "#",
+  "badge_en": "Food & Agriculture &middot; CLP26 Colombia",
+  "badge_es": "Food & Agriculture &middot; CLP26 Colombia",
+  "hero_image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&q=80",
+  "hero_sub_en": "[PENDIENTE] &middot; Colombia &middot; Food & Agriculture &middot; Stage: Prototype &middot; CT-IC-005",
+  "hero_sub_es": "[PENDIENTE] &middot; Colombia &middot; Food & Agriculture &middot; Etapa: Prototype &middot; CT-IC-005",
+  "pitch_en": "Agrolider is an efficiency ecosystem where users can monitor their crops in real time and remotely through drones that receive bioclimatic information to use prediction algorithms.",
+  "pitch_es": "Agrolider is an efficiency ecosystem where users can monitor their crops in real time and remotely through drones that receive bioclimatic information to use prediction algorithms.",
+  "cta_pitch_en": "The ecosystem have agricultural drones that collect information in real time. Artificial intelligence is trained and analyzes data with neural networks and issues reports periodically to give…",
+  "cta_pitch_es": "The ecosystem have agricultural drones that collect information in real time. Artificial intelligence is trained and analyzes data with neural networks and issues reports periodically to give…",
+  "cta_btn_en": "CleantechHUB",
+  "cta_btn_es": "CleantechHUB",
+  "ribbon": [
+    {
+      "val": "Prototype",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLP26 CO",
+      "sub_es": "CLP26 CO"
+    },
+    {
+      "val": "Food & Agric",
+      "lab_en": "Category",
+      "lab_es": "Categoría",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "CT-IC-005",
+      "lab_en": "CT Taxonomy",
+      "lab_es": "Taxonomía CT",
+      "sub_en": "CTH",
+      "sub_es": "CTH"
+    },
+    {
+      "val": "2",
+      "lab_en": "Team",
+      "lab_es": "Equipo",
+      "sub_en": "Application",
+      "sub_es": "Aplicación"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLP",
+        "lab_en": "2026 Colombia",
+        "lab_es": "2026 Colombia"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Accelerator",
+        "lab_es": "Acelerador"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "Metrics pending",
+        "lab_es": "Métricas pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Today, agriculture faces a critical challenge: low productivity and constant crop losses. It…",
+      "head_es": "Today, agriculture faces a critical challenge: low productivity and constant crop losses. It…",
+      "body_en": "Today, agriculture faces a critical challenge: low productivity and constant crop losses. It suffers from shortages of inputs, high purchase costs, logistical problems, and limited access to technology.",
+      "body_es": "Today, agriculture faces a critical challenge: low productivity and constant crop losses. It suffers from shortages of inputs, high purchase costs, logistical problems, and limited access to technology.",
+      "bg": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "How AGROLIDER Works",
+      "title_es": "Cómo Funciona AGROLIDER",
+      "steps": [
+        {
+          "icon": "🎯",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "The ecosystem have agricultural drones that collect information in real time. Artificial intelligence is trained and analyzes data with neural networks and…",
+          "text_es": "The ecosystem have agricultural drones that collect information in real time. Artificial intelligence is trained and analyzes data with neural networks and…"
+        },
+        {
+          "icon": "⚙️",
+          "label_en": "Model",
+          "label_es": "Modelo",
+          "text_en": "We manufacture and rent agricultural drones, offering farmers both the equipment. We collect, manage, and analyze…",
+          "text_es": "We manufacture and rent agricultural drones, offering farmers both the equipment. We collect, manage, and analyze…"
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Potato producers located in Boyacá Colombia",
+          "text_es": "Potato producers located in Boyacá Colombia"
+        },
+        {
+          "icon": "📈",
+          "label_en": "Traction",
+          "label_es": "Tracción",
+          "text_en": "More than 100,000 potato producers, 30,000 are affiliated with FEDEPAPA, the main association of potato producers in…",
+          "text_es": "More than 100,000 potato producers, 30,000 are affiliated with FEDEPAPA, the main association of potato producers in…"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "table",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Business Snapshot",
+      "title_es": "Resumen del Negocio",
+      "headers": [
+        [
+          "Dimension",
+          "Dimensión"
+        ],
+        [
+          "Detail (EN)",
+          "Detalle"
+        ],
+        [
+          "Status",
+          "Estado"
+        ]
+      ],
+      "rows": [
+        [
+          [
+            "Category",
+            "Categoría"
+          ],
+          [
+            "Food & Agriculture",
+            "Food & Agriculture"
+          ],
+          [
+            "CLP26",
+            "CLP26"
+          ]
+        ],
+        [
+          [
+            "Stage",
+            "Etapa"
+          ],
+          [
+            "Prototype",
+            "Prototype"
+          ],
+          [
+            "Application",
+            "Aplicación"
+          ]
+        ],
+        [
+          [
+            "CT Taxonomy",
+            "Taxonomía CT"
+          ],
+          [
+            "CT-IC-005",
+            "CT-IC-005"
+          ],
+          [
+            "CTH",
+            "CTH"
+          ]
+        ]
+      ],
+      "bg": "https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Climate &amp; Impact",
+      "title_es": "Clima e Impacto",
+      "cards": [
+        {
+          "icon": "🌱",
+          "title_en": "Climate focus",
+          "title_es": "Enfoque climático",
+          "text_en": "Today, agriculture faces a critical challenge: low productivity and constant crop losses. It suffers from shortages of inputs, high purchase costs, logistical problems, and…",
+          "text_es": "Today, agriculture faces a critical challenge: low productivity and constant crop losses. It suffers from shortages of inputs, high purchase costs, logistical problems, and…"
+        },
+        {
+          "icon": "💡",
+          "title_en": "Solution",
+          "title_es": "Solución",
+          "text_en": "The ecosystem have agricultural drones that collect information in real time. Artificial intelligence is trained and analyzes data with neural networks and issues reports…",
+          "text_es": "The ecosystem have agricultural drones that collect information in real time. Artificial intelligence is trained and analyzes data with neural networks and issues reports…"
+        },
+        {
+          "icon": "🤝",
+          "title_en": "CLP 2026",
+          "title_es": "CLP 2026",
+          "text_en": "ClimateLaunchpad Colombia 2026 bootcamp cohort — CleantechHUB accelerator knowledge transfer.",
+          "text_es": "Cohorte bootcamp ClimateLaunchpad Colombia 2026 — transferencia de conocimiento acelerador CleantechHUB."
+        },
+        {
+          "icon": "📋",
+          "title_en": "External support",
+          "title_es": "Apoyo externo",
+          "text_en": "Externado University of Colombia support us with networks of contacts and funding at the academic level.",
+          "text_es": "Externado University of Colombia support us with networks of contacts and funding at the academic level."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80"
+    },
+    {
+      "num": 5,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Derly Camargo Guerrero",
+          "role_en": "Founder &middot; CLP26 Colombia",
+          "role_es": "Fundador(a) &middot; CLP26 Colombia",
+          "bio_en": "We have a record in developing prototypes of agricultural robots.",
+          "bio_es": "We have a record in developing prototypes of agricultural robots.",
+          "initials": "DC"
+        }
+      ],
+      "dream_en": "CT taxonomy: CT-IC-005. CLP 2026 Colombia bootcamp cohort — CleantechHUB accelerator. Pitch deck: [PENDIENTE]. Revenue / ARR: [PENDIENTE].",
+      "dream_es": "Taxonomía CT: CT-IC-005. Cohorte bootcamp CLP 2026 Colombia — acelerador CleantechHUB. Pitch deck: [PENDIENTE]. Ingresos / ARR: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80"
+    }
+  ]
+}

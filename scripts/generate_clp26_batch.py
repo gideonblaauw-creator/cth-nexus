@@ -324,7 +324,7 @@ def build_page(slug: str, rec: dict) -> dict:
                         "text_es": esc(revenue),
                     },
                     {
-                        "icon": "🌍",
+                        "icon": "🌎",
                         "label_en": "Market",
                         "label_es": "Mercado",
                         "text_en": esc(target),
