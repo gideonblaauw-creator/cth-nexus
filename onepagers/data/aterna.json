@@ -1,0 +1,248 @@
+{
+  "slug": "aterna",
+  "name": "Aterna",
+  "website": "#",
+  "badge_en": "Food & Agriculture &middot; CLP26 Colombia",
+  "badge_es": "Food & Agriculture &middot; CLP26 Colombia",
+  "hero_image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&q=80",
+  "hero_sub_en": "[PENDIENTE] &middot; Colombia &middot; Food & Agriculture &middot; Stage: Ideation &middot; CT-AF-012",
+  "hero_sub_es": "[PENDIENTE] &middot; Colombia &middot; Food & Agriculture &middot; Etapa: Ideation &middot; CT-AF-012",
+  "pitch_en": "Packaging with a biodegradable, eco-friendly coating that preserves the roses.",
+  "pitch_es": "Packaging with a biodegradable, eco-friendly coating that preserves the roses.",
+  "cta_pitch_en": "Biodegradable packaging with a coating that dissolves upon contact with water and releases substances that help roses stay fresh longer",
+  "cta_pitch_es": "Biodegradable packaging with a coating that dissolves upon contact with water and releases substances that help roses stay fresh longer",
+  "cta_btn_en": "CleantechHUB",
+  "cta_btn_es": "CleantechHUB",
+  "ribbon": [
+    {
+      "val": "Ideation",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLP26 CO",
+      "sub_es": "CLP26 CO"
+    },
+    {
+      "val": "Food & Agric",
+      "lab_en": "Category",
+      "lab_es": "Categoría",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "CT-AF-012",
+      "lab_en": "CT Taxonomy",
+      "lab_es": "Taxonomía CT",
+      "sub_en": "CTH",
+      "sub_es": "CTH"
+    },
+    {
+      "val": "5",
+      "lab_en": "Team",
+      "lab_es": "Equipo",
+      "sub_en": "Application",
+      "sub_es": "Aplicación"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLP",
+        "lab_en": "2026 Colombia",
+        "lab_es": "2026 Colombia"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Accelerator",
+        "lab_es": "Acelerador"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "Metrics pending",
+        "lab_es": "Métricas pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "The use of single-use plastics, which causes pollution and cannot be recycled or properly disposed…",
+      "head_es": "The use of single-use plastics, which causes pollution and cannot be recycled or properly disposed…",
+      "body_en": "The use of single-use plastics, which causes pollution and cannot be recycled or properly disposed of.",
+      "body_es": "The use of single-use plastics, which causes pollution and cannot be recycled or properly disposed of.",
+      "bg": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "How Aterna Works",
+      "title_es": "Cómo Funciona Aterna",
+      "steps": [
+        {
+          "icon": "🎯",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Biodegradable packaging with a coating that dissolves upon contact with water and releases substances that help roses stay fresh longer",
+          "text_es": "Biodegradable packaging with a coating that dissolves upon contact with water and releases substances that help roses stay fresh longer"
+        },
+        {
+          "icon": "⚙️",
+          "label_en": "Model",
+          "label_es": "Modelo",
+          "text_en": "With the sale of our product",
+          "text_es": "With the sale of our product"
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Flower industry",
+          "text_es": "Flower industry"
+        },
+        {
+          "icon": "📈",
+          "label_en": "Traction",
+          "label_es": "Tracción",
+          "text_en": "Because this issue causes losses in the flower-growing sector, particularly in the rose industry",
+          "text_es": "Because this issue causes losses in the flower-growing sector, particularly in the rose industry"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1470071459604-3b5ec3a8fe05?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "table",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Business Snapshot",
+      "title_es": "Resumen del Negocio",
+      "headers": [
+        [
+          "Dimension",
+          "Dimensión"
+        ],
+        [
+          "Detail (EN)",
+          "Detalle"
+        ],
+        [
+          "Status",
+          "Estado"
+        ]
+      ],
+      "rows": [
+        [
+          [
+            "Category",
+            "Categoría"
+          ],
+          [
+            "Food & Agriculture",
+            "Food & Agriculture"
+          ],
+          [
+            "CLP26",
+            "CLP26"
+          ]
+        ],
+        [
+          [
+            "Stage",
+            "Etapa"
+          ],
+          [
+            "Ideation",
+            "Ideation"
+          ],
+          [
+            "Application",
+            "Aplicación"
+          ]
+        ],
+        [
+          [
+            "CT Taxonomy",
+            "Taxonomía CT"
+          ],
+          [
+            "CT-AF-012",
+            "CT-AF-012"
+          ],
+          [
+            "CTH",
+            "CTH"
+          ]
+        ]
+      ],
+      "bg": "https://images.unsplash.com/photo-1625246333195-78d9c090ad85?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Climate &amp; Impact",
+      "title_es": "Clima e Impacto",
+      "cards": [
+        {
+          "icon": "🌱",
+          "title_en": "Climate focus",
+          "title_es": "Enfoque climático",
+          "text_en": "The use of single-use plastics, which causes pollution and cannot be recycled or properly disposed of.",
+          "text_es": "The use of single-use plastics, which causes pollution and cannot be recycled or properly disposed of."
+        },
+        {
+          "icon": "💡",
+          "title_en": "Solution",
+          "title_es": "Solución",
+          "text_en": "Biodegradable packaging with a coating that dissolves upon contact with water and releases substances that help roses stay fresh longer",
+          "text_es": "Biodegradable packaging with a coating that dissolves upon contact with water and releases substances that help roses stay fresh longer"
+        },
+        {
+          "icon": "🤝",
+          "title_en": "CLP 2026",
+          "title_es": "CLP 2026",
+          "text_en": "ClimateLaunchpad Colombia 2026 bootcamp cohort — CleantechHUB accelerator knowledge transfer.",
+          "text_es": "Cohorte bootcamp ClimateLaunchpad Colombia 2026 — transferencia de conocimiento acelerador CleantechHUB."
+        },
+        {
+          "icon": "📋",
+          "title_en": "External support",
+          "title_es": "Apoyo externo",
+          "text_en": "We have not received any external support",
+          "text_es": "We have not received any external support"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&q=80"
+    },
+    {
+      "num": 5,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Jennifer Pérez Romero",
+          "role_en": "Founder &middot; CLP26 Colombia",
+          "role_es": "Fundador(a) &middot; CLP26 Colombia",
+          "bio_en": "We have someone with expertise in the flower industry, and as lawyers, we also have a deep understanding of the legal sector",
+          "bio_es": "We have someone with expertise in the flower industry, and as lawyers, we also have a deep understanding of the legal sector",
+          "initials": "JP"
+        }
+      ],
+      "dream_en": "CT taxonomy: CT-AF-012. CLP 2026 Colombia bootcamp cohort — CleantechHUB accelerator. Pitch deck: [PENDIENTE]. Revenue / ARR: [PENDIENTE].",
+      "dream_es": "Taxonomía CT: CT-AF-012. Cohorte bootcamp CLP 2026 Colombia — acelerador CleantechHUB. Pitch deck: [PENDIENTE]. Ingresos / ARR: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80"
+    }
+  ]
+}
