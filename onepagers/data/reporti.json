@@ -1,0 +1,248 @@
+{
+  "slug": "reporti",
+  "name": "REPORTI",
+  "website": "#",
+  "badge_en": "Efficiency &middot; CLP26 Colombia",
+  "badge_es": "Efficiency &middot; CLP26 Colombia",
+  "hero_image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
+  "hero_sub_en": "[PENDIENTE] &middot; Colombia &middot; Efficiency &middot; Stage: Ideation &middot; CT-XS-004",
+  "hero_sub_es": "[PENDIENTE] &middot; Colombia &middot; Efficiency &middot; Etapa: Ideation &middot; CT-XS-004",
+  "pitch_en": "Reporti is an AI-powered SaaS solution designed to help green SMEs bridge the gap between finance and sustainability by turning data into ESG decisions. It will connect companies with experts and generate reports that support informed decision-making.",
+  "pitch_es": "Reporti is an AI-powered SaaS solution designed to help green SMEs bridge the gap between finance and sustainability by turning data into ESG decisions. It will connect companies with experts and generate reports that support informed decision-making.",
+  "cta_pitch_en": "We hope that Reporti will use AI to analyze business data to generate ESG assessments and reports, while experts validate and guide decision-making. This will enable SMEs to implement real…",
+  "cta_pitch_es": "We hope that Reporti will use AI to analyze business data to generate ESG assessments and reports, while experts validate and guide decision-making. This will enable SMEs to implement real…",
+  "cta_btn_en": "CleantechHUB",
+  "cta_btn_es": "CleantechHUB",
+  "ribbon": [
+    {
+      "val": "Ideation",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLP26 CO",
+      "sub_es": "CLP26 CO"
+    },
+    {
+      "val": "Efficiency",
+      "lab_en": "Category",
+      "lab_es": "Categoría",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "CT-XS-004",
+      "lab_en": "CT Taxonomy",
+      "lab_es": "Taxonomía CT",
+      "sub_en": "CTH",
+      "sub_es": "CTH"
+    },
+    {
+      "val": "2",
+      "lab_en": "Team",
+      "lab_es": "Equipo",
+      "sub_en": "Application",
+      "sub_es": "Aplicación"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLP",
+        "lab_en": "2026 Colombia",
+        "lab_es": "2026 Colombia"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Accelerator",
+        "lab_es": "Acelerador"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "Metrics pending",
+        "lab_es": "Métricas pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Reporti addresses the lack of tools available to SMEs for integrating sustainability into their…",
+      "head_es": "Reporti addresses the lack of tools available to SMEs for integrating sustainability into their…",
+      "body_en": "Reporti addresses the lack of tools available to SMEs for integrating sustainability into their financial decisions. This limits climate action and access to green financing, hindering the transition toward more sustainable business models.",
+      "body_es": "Reporti addresses the lack of tools available to SMEs for integrating sustainability into their financial decisions. This limits climate action and access to green financing, hindering the transition toward more sustainable business models.",
+      "bg": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "How REPORTI Works",
+      "title_es": "Cómo Funciona REPORTI",
+      "steps": [
+        {
+          "icon": "🎯",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "We hope that Reporti will use AI to analyze business data to generate ESG assessments and reports, while experts validate and guide decision-making. This will…",
+          "text_es": "We hope that Reporti will use AI to analyze business data to generate ESG assessments and reports, while experts validate and guide decision-making. This will…"
+        },
+        {
+          "icon": "⚙️",
+          "label_en": "Model",
+          "label_es": "Modelo",
+          "text_en": "Reporti will generate revenue through SaaS subscriptions for small and medium-sized businesses, commissions for…",
+          "text_es": "Reporti will generate revenue through SaaS subscriptions for small and medium-sized businesses, commissions for…"
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "SMEs interested in sustainability, along with sustainability experts and auditors, who seek to integrate financial and…",
+          "text_es": "SMEs interested in sustainability, along with sustainability experts and auditors, who seek to integrate financial and…"
+        },
+        {
+          "icon": "📈",
+          "label_en": "Traction",
+          "label_es": "Tracción",
+          "text_en": "According to the IFRS Foundation, more than 70% of companies have not yet integrated financial and sustainability…",
+          "text_es": "According to the IFRS Foundation, more than 70% of companies have not yet integrated financial and sustainability…"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "table",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Business Snapshot",
+      "title_es": "Resumen del Negocio",
+      "headers": [
+        [
+          "Dimension",
+          "Dimensión"
+        ],
+        [
+          "Detail (EN)",
+          "Detalle"
+        ],
+        [
+          "Status",
+          "Estado"
+        ]
+      ],
+      "rows": [
+        [
+          [
+            "Category",
+            "Categoría"
+          ],
+          [
+            "Efficiency",
+            "Efficiency"
+          ],
+          [
+            "CLP26",
+            "CLP26"
+          ]
+        ],
+        [
+          [
+            "Stage",
+            "Etapa"
+          ],
+          [
+            "Ideation",
+            "Ideation"
+          ],
+          [
+            "Application",
+            "Aplicación"
+          ]
+        ],
+        [
+          [
+            "CT Taxonomy",
+            "Taxonomía CT"
+          ],
+          [
+            "CT-XS-004",
+            "CT-XS-004"
+          ],
+          [
+            "CTH",
+            "CTH"
+          ]
+        ]
+      ],
+      "bg": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Climate &amp; Impact",
+      "title_es": "Clima e Impacto",
+      "cards": [
+        {
+          "icon": "🌱",
+          "title_en": "Climate focus",
+          "title_es": "Enfoque climático",
+          "text_en": "Reporti addresses the lack of tools available to SMEs for integrating sustainability into their financial decisions. This limits climate action and access to green financing,…",
+          "text_es": "Reporti addresses the lack of tools available to SMEs for integrating sustainability into their financial decisions. This limits climate action and access to green financing,…"
+        },
+        {
+          "icon": "💡",
+          "title_en": "Solution",
+          "title_es": "Solución",
+          "text_en": "We hope that Reporti will use AI to analyze business data to generate ESG assessments and reports, while experts validate and guide decision-making. This will enable SMEs to…",
+          "text_es": "We hope that Reporti will use AI to analyze business data to generate ESG assessments and reports, while experts validate and guide decision-making. This will enable SMEs to…"
+        },
+        {
+          "icon": "🤝",
+          "title_en": "CLP 2026",
+          "title_es": "CLP 2026",
+          "text_en": "ClimateLaunchpad Colombia 2026 bootcamp cohort — CleantechHUB accelerator knowledge transfer.",
+          "text_es": "Cohorte bootcamp ClimateLaunchpad Colombia 2026 — transferencia de conocimiento acelerador CleantechHUB."
+        },
+        {
+          "icon": "📋",
+          "title_en": "External support",
+          "title_es": "Apoyo externo",
+          "text_en": "Reporti received support from the CleantechHUB Colombia incubation program in 2024, strengthening its climate and business focus. In addition, it has benefited from guidance…",
+          "text_es": "Reporti received support from the CleantechHUB Colombia incubation program in 2024, strengthening its climate and business focus. In addition, it has benefited from guidance…"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80"
+    },
+    {
+      "num": 5,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "OSCAR VEGA",
+          "role_en": "Founder &middot; CLP26 Colombia",
+          "role_es": "Fundador(a) &middot; CLP26 Colombia",
+          "bio_en": "I am a certified public accountant specializing in management control, with over 13 years of experience in statutory auditing and financial consulting, helping small and medium-sized enterprises (SMEs) implement IFRS…",
+          "bio_es": "I am a certified public accountant specializing in management control, with over 13 years of experience in statutory auditing and financial consulting, helping small and medium-sized enterprises (SMEs) implement IFRS…",
+          "initials": "OV"
+        }
+      ],
+      "dream_en": "CT taxonomy: CT-XS-004. CLP 2026 Colombia bootcamp cohort — CleantechHUB accelerator. Pitch deck: [PENDIENTE]. Revenue / ARR: [PENDIENTE].",
+      "dream_es": "Taxonomía CT: CT-XS-004. Cohorte bootcamp CLP 2026 Colombia — acelerador CleantechHUB. Pitch deck: [PENDIENTE]. Ingresos / ARR: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80"
+    }
+  ]
+}

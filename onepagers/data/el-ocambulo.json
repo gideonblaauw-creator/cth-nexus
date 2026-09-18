@@ -1,0 +1,248 @@
+{
+  "slug": "el-ocambulo",
+  "name": "El Ocámbulo",
+  "website": "#",
+  "badge_en": "Food & Agriculture &middot; CLP26 Colombia",
+  "badge_es": "Food & Agriculture &middot; CLP26 Colombia",
+  "hero_image": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=1200&q=80",
+  "hero_sub_en": "[PENDIENTE] &middot; Colombia &middot; Food & Agriculture &middot; Stage: Launched &middot; CT-AF-010",
+  "hero_sub_es": "[PENDIENTE] &middot; Colombia &middot; Food & Agriculture &middot; Etapa: Launched &middot; CT-AF-010",
+  "pitch_en": "We grow mushrooms in urban spaces using recycled organic waste. Our model creates sustainable protein, reduces waste, and connects small producers through a circular economy ecosystem.",
+  "pitch_es": "We grow mushrooms in urban spaces using recycled organic waste. Our model creates sustainable protein, reduces waste, and connects small producers through a circular economy ecosystem.",
+  "cta_pitch_en": "We transform urban organic waste into sustainable protein through oyster mushroom cultivation. Our model reduces waste, produces local food, and connects small producers in a circular economy system.",
+  "cta_pitch_es": "We transform urban organic waste into sustainable protein through oyster mushroom cultivation. Our model reduces waste, produces local food, and connects small producers in a circular economy system.",
+  "cta_btn_en": "CleantechHUB",
+  "cta_btn_es": "CleantechHUB",
+  "ribbon": [
+    {
+      "val": "Launched",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLP26 CO",
+      "sub_es": "CLP26 CO"
+    },
+    {
+      "val": "Food & Agric",
+      "lab_en": "Category",
+      "lab_es": "Categoría",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "CT-AF-010",
+      "lab_en": "CT Taxonomy",
+      "lab_es": "Taxonomía CT",
+      "sub_en": "CTH",
+      "sub_es": "CTH"
+    },
+    {
+      "val": "3",
+      "lab_en": "Team",
+      "lab_es": "Equipo",
+      "sub_en": "Application",
+      "sub_es": "Aplicación"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLP",
+        "lab_en": "2026 Colombia",
+        "lab_es": "2026 Colombia"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Accelerator",
+        "lab_es": "Acelerador"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "Metrics pending",
+        "lab_es": "Métricas pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Organic waste in cities generates emissions and pollution, while food systems rely on high-impact…",
+      "head_es": "Organic waste in cities generates emissions and pollution, while food systems rely on high-impact…",
+      "body_en": "Organic waste in cities generates emissions and pollution, while food systems rely on high-impact protein sources. This creates unnecessary environmental damage and inefficient use of resources.",
+      "body_es": "Organic waste in cities generates emissions and pollution, while food systems rely on high-impact protein sources. This creates unnecessary environmental damage and inefficient use of resources.",
+      "bg": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "How El Ocámbulo Works",
+      "title_es": "Cómo Funciona El Ocámbulo",
+      "steps": [
+        {
+          "icon": "🎯",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "We transform urban organic waste into sustainable protein through oyster mushroom cultivation. Our model reduces waste, produces local food, and connects…",
+          "text_es": "We transform urban organic waste into sustainable protein through oyster mushroom cultivation. Our model reduces waste, produces local food, and connects…"
+        },
+        {
+          "icon": "⚙️",
+          "label_en": "Model",
+          "label_es": "Modelo",
+          "text_en": "We generate revenue by selling fresh oyster mushrooms directly to consumers and businesses, and by building a…",
+          "text_es": "We generate revenue by selling fresh oyster mushrooms directly to consumers and businesses, and by building a…"
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Urban consumers and restaurants seeking sustainable, healthy food, and small-scale producers looking for better market…",
+          "text_es": "Urban consumers and restaurants seeking sustainable, healthy food, and small-scale producers looking for better market…"
+        },
+        {
+          "icon": "📈",
+          "label_en": "Traction",
+          "label_es": "Tracción",
+          "text_en": "We have already sold our product to local stores, distributors, and direct consumers, validating demand through…",
+          "text_es": "We have already sold our product to local stores, distributors, and direct consumers, validating demand through…"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "table",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Business Snapshot",
+      "title_es": "Resumen del Negocio",
+      "headers": [
+        [
+          "Dimension",
+          "Dimensión"
+        ],
+        [
+          "Detail (EN)",
+          "Detalle"
+        ],
+        [
+          "Status",
+          "Estado"
+        ]
+      ],
+      "rows": [
+        [
+          [
+            "Category",
+            "Categoría"
+          ],
+          [
+            "Food & Agriculture",
+            "Food & Agriculture"
+          ],
+          [
+            "CLP26",
+            "CLP26"
+          ]
+        ],
+        [
+          [
+            "Stage",
+            "Etapa"
+          ],
+          [
+            "Launched",
+            "Launched"
+          ],
+          [
+            "Application",
+            "Aplicación"
+          ]
+        ],
+        [
+          [
+            "CT Taxonomy",
+            "Taxonomía CT"
+          ],
+          [
+            "CT-AF-010",
+            "CT-AF-010"
+          ],
+          [
+            "CTH",
+            "CTH"
+          ]
+        ]
+      ],
+      "bg": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Climate &amp; Impact",
+      "title_es": "Clima e Impacto",
+      "cards": [
+        {
+          "icon": "🌱",
+          "title_en": "Climate focus",
+          "title_es": "Enfoque climático",
+          "text_en": "Organic waste in cities generates emissions and pollution, while food systems rely on high-impact protein sources. This creates unnecessary environmental damage and inefficient…",
+          "text_es": "Organic waste in cities generates emissions and pollution, while food systems rely on high-impact protein sources. This creates unnecessary environmental damage and inefficient…"
+        },
+        {
+          "icon": "💡",
+          "title_en": "Solution",
+          "title_es": "Solución",
+          "text_en": "We transform urban organic waste into sustainable protein through oyster mushroom cultivation. Our model reduces waste, produces local food, and connects small producers in a…",
+          "text_es": "We transform urban organic waste into sustainable protein through oyster mushroom cultivation. Our model reduces waste, produces local food, and connects small producers in a…"
+        },
+        {
+          "icon": "🤝",
+          "title_en": "CLP 2026",
+          "title_es": "CLP 2026",
+          "text_en": "ClimateLaunchpad Colombia 2026 bootcamp cohort — CleantechHUB accelerator knowledge transfer.",
+          "text_es": "Cohorte bootcamp ClimateLaunchpad Colombia 2026 — transferencia de conocimiento acelerador CleantechHUB."
+        },
+        {
+          "icon": "📋",
+          "title_en": "External support",
+          "title_es": "Apoyo externo",
+          "text_en": "We have built partnerships with local producers and distributors, and have validated our product in the market through direct sales and customer feedback.",
+          "text_es": "We have built partnerships with local producers and distributors, and have validated our product in the market through direct sales and customer feedback."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80"
+    },
+    {
+      "num": 5,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Samuel Pérez Moreno",
+          "role_en": "Founder &middot; CLP26 Colombia",
+          "role_es": "Fundador(a) &middot; CLP26 Colombia",
+          "bio_en": "Background in horticulture production, and entrepreneurship. Experience in mushroom cultivation, market validation, and be entrepreneur.",
+          "bio_es": "Background in horticulture production, and entrepreneurship. Experience in mushroom cultivation, market validation, and be entrepreneur.",
+          "initials": "SP"
+        }
+      ],
+      "dream_en": "CT taxonomy: CT-AF-010. CLP 2026 Colombia bootcamp cohort — CleantechHUB accelerator. Pitch deck: [PENDIENTE]. Revenue / ARR: [PENDIENTE].",
+      "dream_es": "Taxonomía CT: CT-AF-010. Cohorte bootcamp CLP 2026 Colombia — acelerador CleantechHUB. Pitch deck: [PENDIENTE]. Ingresos / ARR: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80"
+    }
+  ]
+}

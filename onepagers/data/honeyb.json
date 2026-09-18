@@ -1,0 +1,248 @@
+{
+  "slug": "honeyb",
+  "name": "HoneyB",
+  "website": "#",
+  "badge_en": "Clean Industry &middot; CLP26 Colombia",
+  "badge_es": "Clean Industry &middot; CLP26 Colombia",
+  "hero_image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=1200&q=80",
+  "hero_sub_en": "[PENDIENTE] &middot; Colombia &middot; Clean Industry &middot; Stage: Ideation &middot; CT-AF-009",
+  "hero_sub_es": "[PENDIENTE] &middot; Colombia &middot; Clean Industry &middot; Etapa: Ideation &middot; CT-AF-009",
+  "pitch_en": "HoneyB is an impact startup that creates innovative honey-based products, combining reforestation and pollination to regenerate ecosystems. Each product turns consumption into environmental and social impact in partnership with local communities.",
+  "pitch_es": "HoneyB is an impact startup that creates innovative honey-based products, combining reforestation and pollination to regenerate ecosystems. Each product turns consumption into environmental and social impact in partnership with local communities.",
+  "cta_pitch_en": "We develop honey-based solid shampoo that replaces plastics and chemicals while promoting pollination and reforestation. We work with partner communities and measure CO₂ emissions avoided,…",
+  "cta_pitch_es": "We develop honey-based solid shampoo that replaces plastics and chemicals while promoting pollination and reforestation. We work with partner communities and measure CO₂ emissions avoided,…",
+  "cta_btn_en": "CleantechHUB",
+  "cta_btn_es": "CleantechHUB",
+  "ribbon": [
+    {
+      "val": "Ideation",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLP26 CO",
+      "sub_es": "CLP26 CO"
+    },
+    {
+      "val": "Clean Indust",
+      "lab_en": "Category",
+      "lab_es": "Categoría",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "CT-AF-009",
+      "lab_en": "CT Taxonomy",
+      "lab_es": "Taxonomía CT",
+      "sub_en": "CTH",
+      "sub_es": "CTH"
+    },
+    {
+      "val": "5",
+      "lab_en": "Team",
+      "lab_es": "Equipo",
+      "sub_en": "Application",
+      "sub_es": "Aplicación"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLP",
+        "lab_en": "2026 Colombia",
+        "lab_es": "2026 Colombia"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Accelerator",
+        "lab_es": "Acelerador"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "Metrics pending",
+        "lab_es": "Métricas pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "We address biodiversity loss caused by the decline in pollinators and deforestation, as well as…",
+      "head_es": "We address biodiversity loss caused by the decline in pollinators and deforestation, as well as…",
+      "body_en": "We address biodiversity loss caused by the decline in pollinators and deforestation, as well as pollution from plastics and chemicals (endocrine disruptors). This is critical because it affects CO₂, human health, and the resilience of ecosystems",
+      "body_es": "We address biodiversity loss caused by the decline in pollinators and deforestation, as well as pollution from plastics and chemicals (endocrine disruptors). This is critical because it affects CO₂, human health, and the resilience of ecosystems",
+      "bg": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "How HoneyB Works",
+      "title_es": "Cómo Funciona HoneyB",
+      "steps": [
+        {
+          "icon": "🎯",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "We develop honey-based solid shampoo that replaces plastics and chemicals while promoting pollination and reforestation. We work with partner communities and…",
+          "text_es": "We develop honey-based solid shampoo that replaces plastics and chemicals while promoting pollination and reforestation. We work with partner communities and…"
+        },
+        {
+          "icon": "⚙️",
+          "label_en": "Model",
+          "label_es": "Modelo",
+          "text_en": "We would generate revenue by selling solid shampoo, primarily to the hospitality sector (B2B) and retail. In the…",
+          "text_es": "We would generate revenue by selling solid shampoo, primarily to the hospitality sector (B2B) and retail. In the…"
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Our target market is the hospitality industry (B2B) and environmentally conscious consumers (B2C) who are looking for…",
+          "text_es": "Our target market is the hospitality industry (B2B) and environmentally conscious consumers (B2C) who are looking for…"
+        },
+        {
+          "icon": "📈",
+          "label_en": "Traction",
+          "label_es": "Tracción",
+          "text_en": "We validate demand through market research, pilot programs, and sales to consumers and hotels, with a presence in over…",
+          "text_es": "We validate demand through market research, pilot programs, and sales to consumers and hotels, with a presence in over…"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "table",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Business Snapshot",
+      "title_es": "Resumen del Negocio",
+      "headers": [
+        [
+          "Dimension",
+          "Dimensión"
+        ],
+        [
+          "Detail (EN)",
+          "Detalle"
+        ],
+        [
+          "Status",
+          "Estado"
+        ]
+      ],
+      "rows": [
+        [
+          [
+            "Category",
+            "Categoría"
+          ],
+          [
+            "Clean Industry",
+            "Clean Industry"
+          ],
+          [
+            "CLP26",
+            "CLP26"
+          ]
+        ],
+        [
+          [
+            "Stage",
+            "Etapa"
+          ],
+          [
+            "Ideation",
+            "Ideation"
+          ],
+          [
+            "Application",
+            "Aplicación"
+          ]
+        ],
+        [
+          [
+            "CT Taxonomy",
+            "Taxonomía CT"
+          ],
+          [
+            "CT-AF-009",
+            "CT-AF-009"
+          ],
+          [
+            "CTH",
+            "CTH"
+          ]
+        ]
+      ],
+      "bg": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Climate &amp; Impact",
+      "title_es": "Clima e Impacto",
+      "cards": [
+        {
+          "icon": "🌱",
+          "title_en": "Climate focus",
+          "title_es": "Enfoque climático",
+          "text_en": "We address biodiversity loss caused by the decline in pollinators and deforestation, as well as pollution from plastics and chemicals (endocrine disruptors). This is critical…",
+          "text_es": "We address biodiversity loss caused by the decline in pollinators and deforestation, as well as pollution from plastics and chemicals (endocrine disruptors). This is critical…"
+        },
+        {
+          "icon": "💡",
+          "title_en": "Solution",
+          "title_es": "Solución",
+          "text_en": "We develop honey-based solid shampoo that replaces plastics and chemicals while promoting pollination and reforestation. We work with partner communities and measure CO₂…",
+          "text_es": "We develop honey-based solid shampoo that replaces plastics and chemicals while promoting pollination and reforestation. We work with partner communities and measure CO₂…"
+        },
+        {
+          "icon": "🤝",
+          "title_en": "CLP 2026",
+          "title_es": "CLP 2026",
+          "text_en": "ClimateLaunchpad Colombia 2026 bootcamp cohort — CleantechHUB accelerator knowledge transfer.",
+          "text_es": "Cohorte bootcamp ClimateLaunchpad Colombia 2026 — transferencia de conocimiento acelerador CleantechHUB."
+        },
+        {
+          "icon": "📋",
+          "title_en": "External support",
+          "title_es": "Apoyo externo",
+          "text_en": "We have grown through bootstrapping, with a grant from UNESCO–Nestlé. We participated in the Venture Building Sprint with Catalist and in training and mentoring programs at the…",
+          "text_es": "We have grown through bootstrapping, with a grant from UNESCO–Nestlé. We participated in the Venture Building Sprint with Catalist and in training and mentoring programs at the…"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&q=80"
+    },
+    {
+      "num": 5,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Carlos Santiago Cavanzo Sánchez",
+          "role_en": "Founder &middot; CLP26 Colombia",
+          "role_es": "Fundador(a) &middot; CLP26 Colombia",
+          "bio_en": "An entrepreneur with over 10 years of experience building impactful solutions. I have expertise in product development and pivoting, market validation, B2B/B2C sales, and scaling. I have worked with communities in 22…",
+          "bio_es": "An entrepreneur with over 10 years of experience building impactful solutions. I have expertise in product development and pivoting, market validation, B2B/B2C sales, and scaling. I have worked with communities in 22…",
+          "initials": "CS"
+        }
+      ],
+      "dream_en": "CT taxonomy: CT-AF-009. CLP 2026 Colombia bootcamp cohort — CleantechHUB accelerator. Pitch deck: [PENDIENTE]. Revenue / ARR: [PENDIENTE].",
+      "dream_es": "Taxonomía CT: CT-AF-009. Cohorte bootcamp CLP 2026 Colombia — acelerador CleantechHUB. Pitch deck: [PENDIENTE]. Ingresos / ARR: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80"
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "slug": "nextgen-nutrition",
+  "name": "NextGen Nutrition",
+  "website": "https://petfly.co",
+  "badge_en": "Food & Agriculture &middot; CLP26 Colombia",
+  "badge_es": "Food & Agriculture &middot; CLP26 Colombia",
+  "hero_image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=1200&q=80",
+  "hero_sub_en": "petfly.co &middot; Colombia &middot; Food & Agriculture &middot; Stage: Launched &middot; CT-AF-012",
+  "hero_sub_es": "petfly.co &middot; Colombia &middot; Food & Agriculture &middot; Etapa: Launched &middot; CT-AF-012",
+  "pitch_en": "NextGen Nutrition is a circular biotech turning food waste and insect proteins into low-carbon functional ingredients for animal nutrition. Through PetFly, we develop hypoallergenic, meat-free supplements for sensitive dogs.",
+  "pitch_es": "NextGen Nutrition is a circular biotech turning food waste and insect proteins into low-carbon functional ingredients for animal nutrition. Through PetFly, we develop hypoallergenic, meat-free supplements for sensitive dogs.",
+  "cta_pitch_en": "We transform revalorized food waste and insect proteins into functional, low-carbon pet nutrition. PetFly validates this through vet-grade supplements for sensitive dogs, while we use clinical data…",
+  "cta_pitch_es": "We transform revalorized food waste and insect proteins into functional, low-carbon pet nutrition. PetFly validates this through vet-grade supplements for sensitive dogs, while we use clinical data…",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "ribbon": [
+    {
+      "val": "Launched",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLP26 CO",
+      "sub_es": "CLP26 CO"
+    },
+    {
+      "val": "Food & Agric",
+      "lab_en": "Category",
+      "lab_es": "Categoría",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "CT-AF-012",
+      "lab_en": "CT Taxonomy",
+      "lab_es": "Taxonomía CT",
+      "sub_en": "CTH",
+      "sub_es": "CTH"
+    },
+    {
+      "val": "4",
+      "lab_en": "Team",
+      "lab_es": "Equipo",
+      "sub_en": "Application",
+      "sub_es": "Aplicación"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLP",
+        "lab_en": "2026 Colombia",
+        "lab_es": "2026 Colombia"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Accelerator",
+        "lab_es": "Acelerador"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "Metrics pending",
+        "lab_es": "Métricas pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Pet food is a hidden climate bomb ready to explode. Dogs and cats consume ~25% of global meat and…",
+      "head_es": "Pet food is a hidden climate bomb ready to explode. Dogs and cats consume ~25% of global meat and…",
+      "body_en": "Pet food is a hidden climate bomb ready to explode. Dogs and cats consume ~25% of global meat and fish, depending heavily livestock, driving methane, deforestation, and water depletion. Meanwhile, LATAM wastes over 4 tons of food every second.",
+      "body_es": "Pet food is a hidden climate bomb ready to explode. Dogs and cats consume ~25% of global meat and fish, depending heavily livestock, driving methane, deforestation, and water depletion. Meanwhile, LATAM wastes over 4 tons of food every second.",
+      "bg": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "How NextGen Nutrition Works",
+      "title_es": "Cómo Funciona NextGen Nutrition",
+      "steps": [
+        {
+          "icon": "🎯",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "We transform revalorized food waste and insect proteins into functional, low-carbon pet nutrition. PetFly validates this through vet-grade supplements for…",
+          "text_es": "We transform revalorized food waste and insect proteins into functional, low-carbon pet nutrition. PetFly validates this through vet-grade supplements for…"
+        },
+        {
+          "icon": "⚙️",
+          "label_en": "Model",
+          "label_es": "Modelo",
+          "text_en": "We monetize through B2B2C, B2B and D2C channels, selling supplements through vets, retailers and direct sales at ~USD…",
+          "text_es": "We monetize through B2B2C, B2B and D2C channels, selling supplements through vets, retailers and direct sales at ~USD…"
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Our beachhead market is sensitive and allergic dogs, representing ~20% of all dogs. We target pet parents through vets…",
+          "text_es": "Our beachhead market is sensitive and allergic dogs, representing ~20% of all dogs. We target pet parents through vets…"
+        },
+        {
+          "icon": "📈",
+          "label_en": "Traction",
+          "label_es": "Tracción",
+          "text_en": "We reached ~$3K monthly sales in under 5 months, entering 40+ veterinary clinics and specialty retailers across…",
+          "text_es": "We reached ~$3K monthly sales in under 5 months, entering 40+ veterinary clinics and specialty retailers across…"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "table",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Business Snapshot",
+      "title_es": "Resumen del Negocio",
+      "headers": [
+        [
+          "Dimension",
+          "Dimensión"
+        ],
+        [
+          "Detail (EN)",
+          "Detalle"
+        ],
+        [
+          "Status",
+          "Estado"
+        ]
+      ],
+      "rows": [
+        [
+          [
+            "Category",
+            "Categoría"
+          ],
+          [
+            "Food & Agriculture",
+            "Food & Agriculture"
+          ],
+          [
+            "CLP26",
+            "CLP26"
+          ]
+        ],
+        [
+          [
+            "Stage",
+            "Etapa"
+          ],
+          [
+            "Launched",
+            "Launched"
+          ],
+          [
+            "Application",
+            "Aplicación"
+          ]
+        ],
+        [
+          [
+            "CT Taxonomy",
+            "Taxonomía CT"
+          ],
+          [
+            "CT-AF-012",
+            "CT-AF-012"
+          ],
+          [
+            "CTH",
+            "CTH"
+          ]
+        ]
+      ],
+      "bg": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Climate &amp; Impact",
+      "title_es": "Clima e Impacto",
+      "cards": [
+        {
+          "icon": "🌱",
+          "title_en": "Climate focus",
+          "title_es": "Enfoque climático",
+          "text_en": "Pet food is a hidden climate bomb ready to explode. Dogs and cats consume ~25% of global meat and fish, depending heavily livestock, driving methane, deforestation, and water…",
+          "text_es": "Pet food is a hidden climate bomb ready to explode. Dogs and cats consume ~25% of global meat and fish, depending heavily livestock, driving methane, deforestation, and water…"
+        },
+        {
+          "icon": "💡",
+          "title_en": "Solution",
+          "title_es": "Solución",
+          "text_en": "We transform revalorized food waste and insect proteins into functional, low-carbon pet nutrition. PetFly validates this through vet-grade supplements for sensitive dogs, while…",
+          "text_es": "We transform revalorized food waste and insect proteins into functional, low-carbon pet nutrition. PetFly validates this through vet-grade supplements for sensitive dogs, while…"
+        },
+        {
+          "icon": "🤝",
+          "title_en": "CLP 2026",
+          "title_es": "CLP 2026",
+          "text_en": "ClimateLaunchpad Colombia 2026 bootcamp cohort — CleantechHUB accelerator knowledge transfer.",
+          "text_es": "Cohorte bootcamp ClimateLaunchpad Colombia 2026 — transferencia de conocimiento acelerador CleantechHUB."
+        },
+        {
+          "icon": "📋",
+          "title_en": "External support",
+          "title_es": "Apoyo externo",
+          "text_en": "We secured $65K+ USD in non-dilutive funding through Climate KIC CATAL1.5°C (GCF, GIZ, Tec de Monterrey), Five One Labs, Fondo Emprender, Impact Hub and top startup competitions…",
+          "text_es": "We secured $65K+ USD in non-dilutive funding through Climate KIC CATAL1.5°C (GCF, GIZ, Tec de Monterrey), Five One Labs, Fondo Emprender, Impact Hub and top startup competitions…"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&q=80"
+    },
+    {
+      "num": 5,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Alfonso Serje",
+          "role_en": "Founder &middot; CLP26 Colombia",
+          "role_es": "Fundador(a) &middot; CLP26 Colombia",
+          "bio_en": "Our team combines 28+ years across FMCG innovation, circular biotech, veterinary nutrition, microbiology, and climate-tech operations. We bring experience across Europe, North America, and LATAM, plus validation from…",
+          "bio_es": "Our team combines 28+ years across FMCG innovation, circular biotech, veterinary nutrition, microbiology, and climate-tech operations. We bring experience across Europe, North America, and LATAM, plus validation from…",
+          "initials": "AS"
+        }
+      ],
+      "dream_en": "CT taxonomy: CT-AF-012. CLP 2026 Colombia bootcamp cohort — CleantechHUB accelerator. Pitch deck: [PENDIENTE]. Revenue / ARR: [PENDIENTE].",
+      "dream_es": "Taxonomía CT: CT-AF-012. Cohorte bootcamp CLP 2026 Colombia — acelerador CleantechHUB. Pitch deck: [PENDIENTE]. Ingresos / ARR: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80"
+    }
+  ]
+}

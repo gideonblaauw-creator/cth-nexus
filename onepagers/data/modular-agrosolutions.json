@@ -1,0 +1,248 @@
+{
+  "slug": "modular-agrosolutions",
+  "name": "Modular Agrosolutions",
+  "website": "https://modtech.site/modularagrosolutions",
+  "badge_en": "Food & Agriculture &middot; CLP26 Colombia",
+  "badge_es": "Food & Agriculture &middot; CLP26 Colombia",
+  "hero_image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&q=80",
+  "hero_sub_en": "modtech.site/modularagrosolutions &middot; Colombia &middot; Food & Agriculture &middot; Stage: Prototype &middot; CT-IC-005",
+  "hero_sub_es": "modtech.site/modularagrosolutions &middot; Colombia &middot; Food & Agriculture &middot; Etapa: Prototype &middot; CT-IC-005",
+  "pitch_en": "A climate intelligence infrastructure that integrates satellite imagery and on-site technical tracking to optimize crop yields and ensure sustainability standards in areas with limited connectivity.",
+  "pitch_es": "A climate intelligence infrastructure that integrates satellite imagery and on-site technical tracking to optimize crop yields and ensure sustainability standards in areas with limited connectivity.",
+  "cta_pitch_en": "We offer a platform that links satellite alerts with on-the-ground validation via NFC/RFID, using an &quot;offline-first&quot; approach. Our AI generates predictive alerts and automates operational routes in…",
+  "cta_pitch_es": "We offer a platform that links satellite alerts with on-the-ground validation via NFC/RFID, using an &quot;offline-first&quot; approach. Our AI generates predictive alerts and automates operational routes in…",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "ribbon": [
+    {
+      "val": "Prototype",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLP26 CO",
+      "sub_es": "CLP26 CO"
+    },
+    {
+      "val": "Food & Agric",
+      "lab_en": "Category",
+      "lab_es": "Categoría",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "CT-IC-005",
+      "lab_en": "CT Taxonomy",
+      "lab_es": "Taxonomía CT",
+      "sub_en": "CTH",
+      "sub_es": "CTH"
+    },
+    {
+      "val": "5",
+      "lab_en": "Team",
+      "lab_es": "Equipo",
+      "sub_en": "Application",
+      "sub_es": "Aplicación"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLP",
+        "lab_en": "2026 Colombia",
+        "lab_es": "2026 Colombia"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Accelerator",
+        "lab_es": "Acelerador"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "Metrics pending",
+        "lab_es": "Métricas pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "We address the lack of verifiable data regarding climate risks and the challenge of interpreting…",
+      "head_es": "We address the lack of verifiable data regarding climate risks and the challenge of interpreting…",
+      "body_en": "We address the lack of verifiable data regarding climate risks and the challenge of interpreting satellite alerts in the field. In areas with poor connectivity, this prevents timely responses and leads to reactive decisions in the field and critical losses.",
+      "body_es": "We address the lack of verifiable data regarding climate risks and the challenge of interpreting satellite alerts in the field. In areas with poor connectivity, this prevents timely responses and leads to reactive decisions in the field and critical losses.",
+      "bg": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "How Modular Agrosolutions Works",
+      "title_es": "Cómo Funciona Modular Agrosolutions",
+      "steps": [
+        {
+          "icon": "🎯",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "We offer a platform that links satellite alerts with on-the-ground validation via NFC/RFID, using an &quot;offline-first&quot; approach. Our AI generates predictive…",
+          "text_es": "We offer a platform that links satellite alerts with on-the-ground validation via NFC/RFID, using an &quot;offline-first&quot; approach. Our AI generates predictive…"
+        },
+        {
+          "icon": "⚙️",
+          "label_en": "Model",
+          "label_es": "Modelo",
+          "text_en": "We generate revenue through an annual subscription-based B2B SaaS &amp; DaaS model, the sale of enabling hardware…",
+          "text_es": "We generate revenue through an annual subscription-based B2B SaaS &amp; DaaS model, the sale of enabling hardware…"
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Our target market consists of agricultural project management and oversight firms in Colombia, Mexico, Chile,…",
+          "text_es": "Our target market consists of agricultural project management and oversight firms in Colombia, Mexico, Chile,…"
+        },
+        {
+          "icon": "📈",
+          "label_en": "Traction",
+          "label_es": "Tracción",
+          "text_en": "We have validated the market demand with three pilot projects accepted in Colombia and the support of Startuplab01 and…",
+          "text_es": "We have validated the market demand with three pilot projects accepted in Colombia and the support of Startuplab01 and…"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "table",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Business Snapshot",
+      "title_es": "Resumen del Negocio",
+      "headers": [
+        [
+          "Dimension",
+          "Dimensión"
+        ],
+        [
+          "Detail (EN)",
+          "Detalle"
+        ],
+        [
+          "Status",
+          "Estado"
+        ]
+      ],
+      "rows": [
+        [
+          [
+            "Category",
+            "Categoría"
+          ],
+          [
+            "Food & Agriculture",
+            "Food & Agriculture"
+          ],
+          [
+            "CLP26",
+            "CLP26"
+          ]
+        ],
+        [
+          [
+            "Stage",
+            "Etapa"
+          ],
+          [
+            "Prototype",
+            "Prototype"
+          ],
+          [
+            "Application",
+            "Aplicación"
+          ]
+        ],
+        [
+          [
+            "CT Taxonomy",
+            "Taxonomía CT"
+          ],
+          [
+            "CT-IC-005",
+            "CT-IC-005"
+          ],
+          [
+            "CTH",
+            "CTH"
+          ]
+        ]
+      ],
+      "bg": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Climate &amp; Impact",
+      "title_es": "Clima e Impacto",
+      "cards": [
+        {
+          "icon": "🌱",
+          "title_en": "Climate focus",
+          "title_es": "Enfoque climático",
+          "text_en": "We address the lack of verifiable data regarding climate risks and the challenge of interpreting satellite alerts in the field. In areas with poor connectivity, this prevents…",
+          "text_es": "We address the lack of verifiable data regarding climate risks and the challenge of interpreting satellite alerts in the field. In areas with poor connectivity, this prevents…"
+        },
+        {
+          "icon": "💡",
+          "title_en": "Solution",
+          "title_es": "Solución",
+          "text_en": "We offer a platform that links satellite alerts with on-the-ground validation via NFC/RFID, using an &quot;offline-first&quot; approach. Our AI generates predictive alerts and automates…",
+          "text_es": "We offer a platform that links satellite alerts with on-the-ground validation via NFC/RFID, using an &quot;offline-first&quot; approach. Our AI generates predictive alerts and automates…"
+        },
+        {
+          "icon": "🤝",
+          "title_en": "CLP 2026",
+          "title_es": "CLP 2026",
+          "text_en": "ClimateLaunchpad Colombia 2026 bootcamp cohort — CleantechHUB accelerator knowledge transfer.",
+          "text_es": "Cohorte bootcamp ClimateLaunchpad Colombia 2026 — transferencia de conocimiento acelerador CleantechHUB."
+        },
+        {
+          "icon": "📋",
+          "title_en": "External support",
+          "title_es": "Apoyo externo",
+          "text_en": "We filed a patent application for our technology through the PAI program (CO). We were selected for the startuplab01 &amp; hello tomorrow residency (CL) and have secured three pilot…",
+          "text_es": "We filed a patent application for our technology through the PAI program (CO). We were selected for the startuplab01 &amp; hello tomorrow residency (CL) and have secured three pilot…"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80"
+    },
+    {
+      "num": 5,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Cristian Alberto Contreras Caselles",
+          "role_en": "Founder &middot; CLP26 Colombia",
+          "role_es": "Fundador(a) &middot; CLP26 Colombia",
+          "bio_en": "I bring more than 7 years of experience in agricultural and technology project management. I am proficient in Python and JavaScript development, applying data analytics to inform strategic decisions in operational…",
+          "bio_es": "I bring more than 7 years of experience in agricultural and technology project management. I am proficient in Python and JavaScript development, applying data analytics to inform strategic decisions in operational…",
+          "initials": "CA"
+        }
+      ],
+      "dream_en": "CT taxonomy: CT-IC-005. CLP 2026 Colombia bootcamp cohort — CleantechHUB accelerator. Pitch deck: [PENDIENTE]. Revenue / ARR: [PENDIENTE].",
+      "dream_es": "Taxonomía CT: CT-IC-005. Cohorte bootcamp CLP 2026 Colombia — acelerador CleantechHUB. Pitch deck: [PENDIENTE]. Ingresos / ARR: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80"
+    }
+  ]
+}

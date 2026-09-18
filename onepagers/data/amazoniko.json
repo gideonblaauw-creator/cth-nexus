@@ -1,0 +1,219 @@
+{
+  "slug": "amazoniko",
+  "name": "Amazóniko",
+  "website": "https://www.amazoniko.com/",
+  "badge_en": "Circular Recovery OS &middot; Door-to-Door Recycling",
+  "badge_es": "OS de Recuperación Circular &middot; Reciclaje Puerta a Puerta",
+  "hero_image": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80",
+  "hero_sub_en": "amazoniko.com &middot; Bogotá, Colombia &middot; Stage: Launched",
+  "hero_sub_es": "amazoniko.com &middot; Bogotá, Colombia &middot; Etapa: Lanzado",
+  "pitch_en": "Circular recovery OS connecting households, waste pickers (recuperadores), and companies — learn to separate, schedule collection, trace materials, and earn rewards while closing the loop.",
+  "pitch_es": "OS de recuperación circular que conecta hogares, recuperadores y empresas — aprender a separar, agendar recolección, trazar materiales y ganar beneficios mientras se cierra el ciclo.",
+  "cta_pitch_en": "When waste is separated well, value returns to everyone in the chain — homes, pickers, and brands with sustainability commitments.",
+  "cta_pitch_es": "Cuando los residuos se separan bien, el valor vuelve a todos en la cadena — hogares, recuperadores y marcas con compromisos de sostenibilidad.",
+  "ribbon": [
+    {
+      "val": "+14.5K",
+      "lab_en": "Households",
+      "lab_es": "Viviendas",
+      "sub_en": "Committed (site)",
+      "sub_es": "Comprometidas (sitio)"
+    },
+    {
+      "val": "+250K",
+      "lab_en": "Pickups",
+      "lab_es": "Recolecciones",
+      "sub_en": "Completed (site)",
+      "sub_es": "Realizadas (sitio)"
+    },
+    {
+      "val": "+5K tn",
+      "lab_en": "Material Collected",
+      "lab_es": "Material Recolectado",
+      "sub_en": "Site metric",
+      "sub_es": "Métrica del sitio"
+    },
+    {
+      "val": "+60",
+      "lab_en": "Allied Pickers",
+      "lab_es": "Recicladores Aliados",
+      "sub_en": "Site metric",
+      "sub_es": "Métrica del sitio"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "9R",
+        "lab_en": "Circular framework",
+        "lab_es": "Marco circular"
+      },
+      {
+        "num": "3",
+        "lab_en": "Stakeholder lanes",
+        "lab_es": "Segmentos clave"
+      }
+    ],
+    [
+      {
+        "num": "+8.9M",
+        "lab_en": "kg CO₂ avoided",
+        "lab_es": "kg CO₂ evitados"
+      },
+      {
+        "num": "+7M",
+        "lab_en": "kWh saved",
+        "lab_es": "kWh ahorrados"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Waste is not only the residue — it is everything lost with it",
+      "head_es": "El problema no es solo el residuo — es todo lo que se pierde con él",
+      "body_en": "When materials are not separated, routed, or traced correctly, value disappears for households, pickers, and companies. Good separation is the first step for everything else to work.",
+      "body_es": "Cuando los materiales no se separan, enrutan o trazan bien, el valor desaparece para hogares, recuperadores y empresas. Separar bien es el primer paso para que todo lo demás funcione.",
+      "bg": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Circular Recovery OS",
+      "title_es": "OS de Recuperación Circular",
+      "steps": [
+        {
+          "icon": "📚",
+          "label_en": "Learn",
+          "label_es": "Aprender",
+          "text_en": "Help people and organizations understand what to do with waste so separation is achievable.",
+          "text_es": "Ayudar a personas y organizaciones a entender qué hacer con sus residuos para que separar sí sea posible."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Connect",
+          "label_es": "Conectar",
+          "text_en": "Coordinate collection, management, and traceability so materials reach those who can recover them.",
+          "text_es": "Articular recolección, gestión y trazabilidad para que los residuos lleguen a quienes pueden aprovecharlos."
+        },
+        {
+          "icon": "♻️",
+          "label_en": "Transform",
+          "label_es": "Transformar",
+          "text_en": "Return value as benefits, income, relationships, and measurable impact across the chain.",
+          "text_es": "Devolver valor en beneficios, ingresos, vínculo e impacto real en toda la cadena."
+        },
+        {
+          "icon": "🏠",
+          "label_en": "Operate",
+          "label_es": "Operar",
+          "text_en": "Homes schedule pickup; pickers get optimized routes; companies get culture, compliance, and reporting.",
+          "text_es": "Hogares agendan recolección; recuperadores tienen rutas optimizadas; empresas obtienen cultura, cumplimiento y reporte."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "table",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Who It Serves",
+      "title_es": "A Quién Sirve",
+      "headers": [
+        ["Segment", "Segmento"],
+        ["Value", "Valor"],
+        ["How", "Cómo"]
+      ],
+      "rows": [
+        [
+          ["Homes", "Hogares"],
+          ["Points & discounts", "Puntos y descuentos"],
+          ["Scheduled door-to-door collection", "Recolección programada a domicilio"]
+        ],
+        [
+          ["Pickers", "Recuperadores"],
+          ["Stable income", "Ingresos estables"],
+          ["Optimized routes + training", "Rutas optimizadas + capacitación"]
+        ],
+        [
+          ["Companies", "Empresas"],
+          ["Compliance & reporting", "Cumplimiento y reporte"],
+          ["Culture, standards, traceability", "Cultura, estándares, trazabilidad"]
+        ]
+      ],
+      "bg": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact & Operations",
+      "title_es": "Impacto y Operación",
+      "cards": [
+        {
+          "icon": "🏙️",
+          "title_en": "Coverage",
+          "title_es": "Cobertura",
+          "text_en": "Door-to-door recycling operating in Bogotá, Colombia (site). Expansion cities discussed publicly: Medellín, Cali, Barranquilla, Pasto [PENDIENTE] launch dates.",
+          "text_es": "Reciclaje puerta a puerta operando en Bogotá, Colombia (sitio). Ciudades de expansión mencionadas públicamente: Medellín, Cali, Barranquilla, Pasto [PENDIENTE] fechas de lanzamiento."
+        },
+        {
+          "icon": "🌍",
+          "title_en": "Climate",
+          "title_es": "Clima",
+          "text_en": "+8.9M kg CO₂ not emitted and +7M kWh saved — metrics published on amazoniko.com.",
+          "text_es": "+8,9M kg CO₂ no emitidos y +7M kWh ahorrados — métricas publicadas en amazoniko.com."
+        },
+        {
+          "icon": "📊",
+          "title_en": "Traceability",
+          "title_es": "Trazabilidad",
+          "text_en": "Collection feedback, material routing, and corporate sustainability reporting for plastic-neutral, zero-waste, and carbon-neutral commitments.",
+          "text_es": "Retroalimentación de recolección, enrutamiento de material y reporte de sostenibilidad corporativa para compromisos plástico neutro, cero basura y carbono neutro."
+        },
+        {
+          "icon": "🎓",
+          "title_en": "CLP 2026",
+          "title_es": "CLP 2026",
+          "text_en": "ClimateLaunchpad Colombia 2026 bootcamp cohort — CleantechHUB accelerator knowledge transfer.",
+          "text_es": "Cohorte bootcamp ClimateLaunchpad Colombia 2026 — transferencia de conocimiento acelerador CleantechHUB."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1200&q=80"
+    },
+    {
+      "num": 5,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Catalina Arias Agudelo",
+          "role_en": "Chief Sustainability Officer &amp; Partner",
+          "role_es": "Directora de Sostenibilidad y Socia",
+          "bio_en": "Female C-level. Leads circular-economy and ESG strategy at Amazóniko; 20+ years in socio-environmental projects (public LinkedIn).",
+          "bio_es": "C-level femenina. Lidera estrategia de economía circular y ESG en Amazóniko; 20+ años en proyectos socioambientales (LinkedIn público).",
+          "initials": "CA",
+          "linkedin": "https://www.linkedin.com/in/catalina-arias-agudelo-24122324"
+        },
+        {
+          "name": "Daniel Rodríguez",
+          "role_en": "Founder",
+          "role_es": "Fundador",
+          "bio_en": "Founded Amazóniko (2017). Public interviews describe collaborative recycling platform origins in Bogotá.",
+          "bio_es": "Fundó Amazóniko (2017). Entrevistas públicas describen los orígenes de la plataforma de reciclaje colaborativo en Bogotá.",
+          "initials": "DR"
+        }
+      ],
+      "dream_en": "CT taxonomy: CT-IC-003 (Climate Analytics &amp; AI). Founded 2017 · HQ Bogotá. Pitch deck on profile: [PENDIENTE]. Revenue / unit economics: [PENDIENTE].",
+      "dream_es": "Taxonomía CT: CT-IC-003 (Analítica Climática e IA). Fundada 2017 · Sede Bogotá. Pitch deck en perfil: [PENDIENTE]. Ingresos / unit economics: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80"
+    }
+  ]
+}
