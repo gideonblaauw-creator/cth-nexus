@@ -1,0 +1,248 @@
+{
+  "slug": "sie-waka",
+  "name": "SIÉ WAKA",
+  "website": "https://siewakaplatform.streamlit.app/",
+  "badge_en": "Water &middot; CLP26 Colombia",
+  "badge_es": "Water &middot; CLP26 Colombia",
+  "hero_image": "https://images.unsplash.com/photo-1432453979717-755d69830972?w=1200&q=80",
+  "hero_sub_en": "siewakaplatform.streamlit.app &middot; Colombia &middot; Water &middot; Stage: Public Beta &middot; CT-WW-003",
+  "hero_sub_es": "siewakaplatform.streamlit.app &middot; Colombia &middot; Water &middot; Etapa: Public Beta &middot; CT-WW-003",
+  "pitch_en": "It is a decentralized, community-driven platform for water quality monitoring combining IoT sensors, open data, and citizen science. We empower communities and governments with real-time, evidence-based data to improve water governance and accountability.",
+  "pitch_es": "It is a decentralized, community-driven platform for water quality monitoring combining IoT sensors, open data, and citizen science. We empower communities and governments with real-time, evidence-based data to improve water governance and accountability.",
+  "cta_pitch_en": "Sié waka is a hybrid platform combining low-cost IoT sensors, a mobile app, and community protocols. Citizens collect and upload water quality data to a cloud dashboard, enabling real-time alerts,…",
+  "cta_pitch_es": "Sié waka is a hybrid platform combining low-cost IoT sensors, a mobile app, and community protocols. Citizens collect and upload water quality data to a cloud dashboard, enabling real-time alerts,…",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "ribbon": [
+    {
+      "val": "Public Bet",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLP26 CO",
+      "sub_es": "CLP26 CO"
+    },
+    {
+      "val": "Water",
+      "lab_en": "Category",
+      "lab_es": "Categoría",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "CT-WW-003",
+      "lab_en": "CT Taxonomy",
+      "lab_es": "Taxonomía CT",
+      "sub_en": "CTH",
+      "sub_es": "CTH"
+    },
+    {
+      "val": "5",
+      "lab_en": "Team",
+      "lab_es": "Equipo",
+      "sub_en": "Application",
+      "sub_es": "Aplicación"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLP",
+        "lab_en": "2026 Colombia",
+        "lab_es": "2026 Colombia"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Accelerator",
+        "lab_es": "Acelerador"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "Metrics pending",
+        "lab_es": "Métricas pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Water scarcity and contamination are worsening due to climate change, yet monitoring data in…",
+      "head_es": "Water scarcity and contamination are worsening due to climate change, yet monitoring data in…",
+      "body_en": "Water scarcity and contamination are worsening due to climate change, yet monitoring data in vulnerable communities is scarce, unreliable, and opaque. Without real-time data, communities and governments cannot make informed water management decisions.",
+      "body_es": "Water scarcity and contamination are worsening due to climate change, yet monitoring data in vulnerable communities is scarce, unreliable, and opaque. Without real-time data, communities and governments cannot make informed water management decisions.",
+      "bg": "https://images.unsplash.com/photo-1432453979717-755d69830972?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "How SIÉ WAKA Works",
+      "title_es": "Cómo Funciona SIÉ WAKA",
+      "steps": [
+        {
+          "icon": "🎯",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Sié waka is a hybrid platform combining low-cost IoT sensors, a mobile app, and community protocols. Citizens collect and upload water quality data to a cloud…",
+          "text_es": "Sié waka is a hybrid platform combining low-cost IoT sensors, a mobile app, and community protocols. Citizens collect and upload water quality data to a cloud…"
+        },
+        {
+          "icon": "⚙️",
+          "label_en": "Model",
+          "label_es": "Modelo",
+          "text_en": "Revenue streams include: (1) B2G/B2B consulting services (ESR, water governance, monitoring plans); (2) SaaS licensing…",
+          "text_es": "Revenue streams include: (1) B2G/B2B consulting services (ESR, water governance, monitoring plans); (2) SaaS licensing…"
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Primary: rural and peri-urban communities with limited water monitoring capacity in Latin America (Colombia, Mexico).…",
+          "text_es": "Primary: rural and peri-urban communities with limited water monitoring capacity in Latin America (Colombia, Mexico).…"
+        },
+        {
+          "icon": "📈",
+          "label_en": "Traction",
+          "label_es": "Tracción",
+          "text_en": "Validated through pilots in 4 cities (Bogotá, Cali, Villavicencio, Monterrey), 23 community activities, 250+ people…",
+          "text_es": "Validated through pilots in 4 cities (Bogotá, Cali, Villavicencio, Monterrey), 23 community activities, 250+ people…"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "table",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Business Snapshot",
+      "title_es": "Resumen del Negocio",
+      "headers": [
+        [
+          "Dimension",
+          "Dimensión"
+        ],
+        [
+          "Detail (EN)",
+          "Detalle"
+        ],
+        [
+          "Status",
+          "Estado"
+        ]
+      ],
+      "rows": [
+        [
+          [
+            "Category",
+            "Categoría"
+          ],
+          [
+            "Water",
+            "Water"
+          ],
+          [
+            "CLP26",
+            "CLP26"
+          ]
+        ],
+        [
+          [
+            "Stage",
+            "Etapa"
+          ],
+          [
+            "Public Beta",
+            "Public Beta"
+          ],
+          [
+            "Application",
+            "Aplicación"
+          ]
+        ],
+        [
+          [
+            "CT Taxonomy",
+            "Taxonomía CT"
+          ],
+          [
+            "CT-WW-003",
+            "CT-WW-003"
+          ],
+          [
+            "CTH",
+            "CTH"
+          ]
+        ]
+      ],
+      "bg": "https://images.unsplash.com/photo-1432453979717-755d69830972?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Climate &amp; Impact",
+      "title_es": "Clima e Impacto",
+      "cards": [
+        {
+          "icon": "🌱",
+          "title_en": "Climate focus",
+          "title_es": "Enfoque climático",
+          "text_en": "Water scarcity and contamination are worsening due to climate change, yet monitoring data in vulnerable communities is scarce, unreliable, and opaque. Without real-time data,…",
+          "text_es": "Water scarcity and contamination are worsening due to climate change, yet monitoring data in vulnerable communities is scarce, unreliable, and opaque. Without real-time data,…"
+        },
+        {
+          "icon": "💡",
+          "title_en": "Solution",
+          "title_es": "Solución",
+          "text_en": "Sié waka is a hybrid platform combining low-cost IoT sensors, a mobile app, and community protocols. Citizens collect and upload water quality data to a cloud dashboard, enabling…",
+          "text_es": "Sié waka is a hybrid platform combining low-cost IoT sensors, a mobile app, and community protocols. Citizens collect and upload water quality data to a cloud dashboard, enabling…"
+        },
+        {
+          "icon": "🤝",
+          "title_en": "CLP 2026",
+          "title_es": "CLP 2026",
+          "text_en": "ClimateLaunchpad Colombia 2026 bootcamp cohort — CleantechHUB accelerator knowledge transfer.",
+          "text_es": "Cohorte bootcamp ClimateLaunchpad Colombia 2026 — transferencia de conocimiento acelerador CleantechHUB."
+        },
+        {
+          "icon": "📋",
+          "title_en": "External support",
+          "title_es": "Apoyo externo",
+          "text_en": "Funded by CIVICHOUSE (2022), Hackcorruption Colombia (2023), and Young Water Solutions (2024). Supported by Lab NL, Neotropical Cuencas, Alkali+SOSAC, TECHO Colombia, and Red…",
+          "text_es": "Funded by CIVICHOUSE (2022), Hackcorruption Colombia (2023), and Young Water Solutions (2024). Supported by Lab NL, Neotropical Cuencas, Alkali+SOSAC, TECHO Colombia, and Red…"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1432453979717-755d69830972?w=1200&q=80"
+    },
+    {
+      "num": 5,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "JUAN FELIPE PINTO CASTELBLANCO",
+          "role_en": "Founder &middot; CLP26 Colombia",
+          "role_es": "Fundador(a) &middot; CLP26 Colombia",
+          "bio_en": "Team includes a political scientist (smart cities), environmental engineer (MBA, HSEQ auditor), mechatronics engineer (nuclear applications), PhD environmental engineer (ITESM water researcher), and a…",
+          "bio_es": "Team includes a political scientist (smart cities), environmental engineer (MBA, HSEQ auditor), mechatronics engineer (nuclear applications), PhD environmental engineer (ITESM water researcher), and a…",
+          "initials": "JF"
+        }
+      ],
+      "dream_en": "CT taxonomy: CT-WW-003. CLP 2026 Colombia bootcamp cohort — CleantechHUB accelerator. Pitch deck: [PENDIENTE]. Revenue / ARR: [PENDIENTE].",
+      "dream_es": "Taxonomía CT: CT-WW-003. Cohorte bootcamp CLP 2026 Colombia — acelerador CleantechHUB. Pitch deck: [PENDIENTE]. Ingresos / ARR: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80"
+    }
+  ]
+}
