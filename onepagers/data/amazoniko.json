@@ -1,1 +1,17 @@
-PLACEHOLDER
+{
+  "slug": "amazoniko",
+  "name": "Amazóniko",
+  "website": "https://www.amazoniko.com/",
+  "badge_en": "Circular Recovery OS &middot; Door-to-Door Recycling",
+  "badge_es": "OS de Recuperación Circular &middot; Reciclaje Puerta a Puerta",
+  "hero_image": "https://images.unsplash.com/photo-1532996122724-e3c031a396bf?w=1200&q=80",
+  "hero_sub_en": "amazoniko.com &middot; Bogotá, Colombia &middot; Stage: Launched",
+  "hero_sub_es": "amazoniko.com &middot; Bogotá, Colombia &middot; Etapa: Lanzado",
+  "pitch_en": "Circular recovery OS connecting households, waste pickers (recuperadores), and companies — learn to separate, schedule collection, trace materials, and earn rewards while closing the loop.",
+  "pitch_es": "OS de recuperación circular que conecta hogares, recuperadores y empresas — aprender a separar, agendar recolección, trazar materiales y ganar beneficios mientras se cierra el ciclo.",
+  "cta_pitch_en": "When waste is separated well, value returns to everyone in the chain — homes, pickers, and brands with sustainability commitments.",
+  "cta_pitch_es": "Cuando los residuos se separan bien, el valor vuelve a todos en la cadena — hogares, recuperadores y marcas con compromisos de sostenibilidad.",
+  "ribbon": [{"val": "+14.5K", "lab_en": "Households", "lab_es": "Viviendas", "sub_en": "Committed (site)", "sub_es": "Comprometidas (sitio)"}, {"val": "+250K", "lab_en": "Pickups", "lab_es": "Recolecciones", "sub_en": "Completed (site)", "sub_es": "Realizadas (sitio)"}, {"val": "+5K tn", "lab_en": "Material Collected", "lab_es": "Material Recolectado", "sub_en": "Site metric", "sub_es": "Métrica del sitio"}, {"val": "+60", "lab_en": "Allied Pickers", "lab_es": "Recicladores Aliados", "sub_en": "Site metric", "sub_es": "Métrica del sitio"}],
+  "problem_stats": [[{"num": "9R", "lab_en": "Circular framework", "lab_es": "Marco circular"}, {"num": "3", "lab_en": "Stakeholder lanes", "lab_es": "Segmentos clave"}], [{"num": "+8.9M", "lab_en": "kg CO₂ avoided", "lab_es": "kg CO₂ evitados"}, {"num": "+7M", "lab_en": "kWh saved", "lab_es": "kWh ahorrados"}]],
+  "sections": []
+}
