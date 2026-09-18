@@ -1,0 +1,248 @@
+{
+  "slug": "kuo",
+  "name": "KUO",
+  "website": "#",
+  "badge_en": "Air & Environment &middot; CLP26 Colombia",
+  "badge_es": "Air & Environment &middot; CLP26 Colombia",
+  "hero_image": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80",
+  "hero_sub_en": "[PENDIENTE] &middot; Colombia &middot; Air & Environment &middot; Stage: Prototype &middot; CT-WA-003",
+  "hero_sub_es": "[PENDIENTE] &middot; Colombia &middot; Air & Environment &middot; Etapa: Prototype &middot; CT-WA-003",
+  "pitch_en": "SIGR is an AI-powered smart waste bin that automatically classifies recyclable, organic, and non-recyclable waste using computer vision, reducing misclassification by 30%+ and enabling circular economy models in urban institutions.",
+  "pitch_es": "SIGR is an AI-powered smart waste bin that automatically classifies recyclable, organic, and non-recyclable waste using computer vision, reducing misclassification by 30%+ and enabling circular economy models in urban institutions.",
+  "cta_pitch_en": "SIGR combines computer vision and embedded AI to automatically identify and sort waste into 4 categories in real time, including a 'possibly recyclable' compartment. It reduces human error, improves…",
+  "cta_pitch_es": "SIGR combines computer vision and embedded AI to automatically identify and sort waste into 4 categories in real time, including a 'possibly recyclable' compartment. It reduces human error, improves…",
+  "cta_btn_en": "CleantechHUB",
+  "cta_btn_es": "CleantechHUB",
+  "ribbon": [
+    {
+      "val": "Prototype",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLP26 CO",
+      "sub_es": "CLP26 CO"
+    },
+    {
+      "val": "Air & Enviro",
+      "lab_en": "Category",
+      "lab_es": "Categoría",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "CT-WA-003",
+      "lab_en": "CT Taxonomy",
+      "lab_es": "Taxonomía CT",
+      "sub_en": "CTH",
+      "sub_es": "CTH"
+    },
+    {
+      "val": "3",
+      "lab_en": "Team",
+      "lab_es": "Equipo",
+      "sub_en": "Application",
+      "sub_es": "Aplicación"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLP",
+        "lab_en": "2026 Colombia",
+        "lab_es": "2026 Colombia"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Accelerator",
+        "lab_es": "Acelerador"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "Metrics pending",
+        "lab_es": "Métricas pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Only 43% of Bogotá's 4M annual waste tons are recycled, though 70%+ is recyclable. Poor source…",
+      "head_es": "Only 43% of Bogotá's 4M annual waste tons are recycled, though 70%+ is recyclable. Poor source…",
+      "body_en": "Only 43% of Bogotá's 4M annual waste tons are recycled, though 70%+ is recyclable. Poor source separation is the main cause. SIGR automates classification using AI, directly reducing landfill overflow and greenhouse gas emissions.",
+      "body_es": "Only 43% of Bogotá's 4M annual waste tons are recycled, though 70%+ is recyclable. Poor source separation is the main cause. SIGR automates classification using AI, directly reducing landfill overflow and greenhouse gas emissions.",
+      "bg": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "How KUO Works",
+      "title_es": "Cómo Funciona KUO",
+      "steps": [
+        {
+          "icon": "🎯",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "SIGR combines computer vision and embedded AI to automatically identify and sort waste into 4 categories in real time, including a 'possibly recyclable'…",
+          "text_es": "SIGR combines computer vision and embedded AI to automatically identify and sort waste into 4 categories in real time, including a 'possibly recyclable'…"
+        },
+        {
+          "icon": "⚙️",
+          "label_en": "Model",
+          "label_es": "Modelo",
+          "text_en": "Revenue from device sales ($3-8M COP/unit), monthly SaaS dashboard subscriptions ($200-500K COP), and…",
+          "text_es": "Revenue from device sales ($3-8M COP/unit), monthly SaaS dashboard subscriptions ($200-500K COP), and…"
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Universities, schools, shopping centers, and public institutions in Colombian and Latin American cities that generate…",
+          "text_es": "Universities, schools, shopping centers, and public institutions in Colombian and Latin American cities that generate…"
+        },
+        {
+          "icon": "📈",
+          "label_en": "Traction",
+          "label_es": "Tracción",
+          "text_en": "Interviews with facility managers at universities and malls confirm willingness to pay for automated waste solutions.…",
+          "text_es": "Interviews with facility managers at universities and malls confirm willingness to pay for automated waste solutions.…"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "table",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Business Snapshot",
+      "title_es": "Resumen del Negocio",
+      "headers": [
+        [
+          "Dimension",
+          "Dimensión"
+        ],
+        [
+          "Detail (EN)",
+          "Detalle"
+        ],
+        [
+          "Status",
+          "Estado"
+        ]
+      ],
+      "rows": [
+        [
+          [
+            "Category",
+            "Categoría"
+          ],
+          [
+            "Air & Environment",
+            "Air & Environment"
+          ],
+          [
+            "CLP26",
+            "CLP26"
+          ]
+        ],
+        [
+          [
+            "Stage",
+            "Etapa"
+          ],
+          [
+            "Prototype",
+            "Prototype"
+          ],
+          [
+            "Application",
+            "Aplicación"
+          ]
+        ],
+        [
+          [
+            "CT Taxonomy",
+            "Taxonomía CT"
+          ],
+          [
+            "CT-WA-003",
+            "CT-WA-003"
+          ],
+          [
+            "CTH",
+            "CTH"
+          ]
+        ]
+      ],
+      "bg": "https://images.unsplash.com/photo-1532996122724-e3c031a396bf?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Climate &amp; Impact",
+      "title_es": "Clima e Impacto",
+      "cards": [
+        {
+          "icon": "🌱",
+          "title_en": "Climate focus",
+          "title_es": "Enfoque climático",
+          "text_en": "Only 43% of Bogotá's 4M annual waste tons are recycled, though 70%+ is recyclable. Poor source separation is the main cause. SIGR automates classification using AI, directly…",
+          "text_es": "Only 43% of Bogotá's 4M annual waste tons are recycled, though 70%+ is recyclable. Poor source separation is the main cause. SIGR automates classification using AI, directly…"
+        },
+        {
+          "icon": "💡",
+          "title_en": "Solution",
+          "title_es": "Solución",
+          "text_en": "SIGR combines computer vision and embedded AI to automatically identify and sort waste into 4 categories in real time, including a 'possibly recyclable' compartment. It reduces…",
+          "text_es": "SIGR combines computer vision and embedded AI to automatically identify and sort waste into 4 categories in real time, including a 'possibly recyclable' compartment. It reduces…"
+        },
+        {
+          "icon": "🤝",
+          "title_en": "CLP 2026",
+          "title_es": "CLP 2026",
+          "text_en": "ClimateLaunchpad Colombia 2026 bootcamp cohort — CleantechHUB accelerator knowledge transfer.",
+          "text_es": "Cohorte bootcamp ClimateLaunchpad Colombia 2026 — transferencia de conocimiento acelerador CleantechHUB."
+        },
+        {
+          "icon": "📋",
+          "title_en": "External support",
+          "title_es": "Apoyo externo",
+          "text_en": "SIGR was developed at Universidad El Bosque (Bogotá), with academic validation, institutional backing, and an active application for $2.000 million COP in research funding from…",
+          "text_es": "SIGR was developed at Universidad El Bosque (Bogotá), with academic validation, institutional backing, and an active application for $2.000 million COP in research funding from…"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80"
+    },
+    {
+      "num": 5,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Samuel Hoyos",
+          "role_en": "Founder &middot; CLP26 Colombia",
+          "role_es": "Fundador(a) &middot; CLP26 Colombia",
+          "bio_en": "Three 7th-semester Computer Science students and AI research group directors at Universidad El Bosque. Combined expertise in AI development, project management, and environmental impact. Built and validated SIGR…",
+          "bio_es": "Three 7th-semester Computer Science students and AI research group directors at Universidad El Bosque. Combined expertise in AI development, project management, and environmental impact. Built and validated SIGR…",
+          "initials": "SH"
+        }
+      ],
+      "dream_en": "CT taxonomy: CT-WA-003. CLP 2026 Colombia bootcamp cohort — CleantechHUB accelerator. Pitch deck: [PENDIENTE]. Revenue / ARR: [PENDIENTE].",
+      "dream_es": "Taxonomía CT: CT-WA-003. Cohorte bootcamp CLP 2026 Colombia — acelerador CleantechHUB. Pitch deck: [PENDIENTE]. Ingresos / ARR: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80"
+    }
+  ]
+}
