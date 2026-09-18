@@ -1,0 +1,211 @@
+{
+  "slug": "e-wai",
+  "name": "e.WAI",
+  "website": "https://e-ray.lat/e-wai/",
+  "badge_en": "Water-Quality AI Reports &amp; Compliance",
+  "badge_es": "Reportes IA de Calidad del Agua y Cumplimiento",
+  "hero_image": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=1200&q=80",
+  "hero_sub_en": "e-ray.lat/e-wai &middot; Medellín, Colombia &middot; Stage: Public Beta",
+  "hero_sub_es": "e-ray.lat/e-wai &middot; Medellín, Colombia &middot; Etapa: Beta Pública",
+  "pitch_en": "AI platform that consolidates lab results, sensors, and environmental reports into one place — generating compliance reports in minutes instead of manual copy-paste workflows.",
+  "pitch_es": "Plataforma de IA que consolida resultados de laboratorio, sensores e informes ambientales en un solo lugar — generando reportes de cumplimiento en minutos en lugar de procesos manuales.",
+  "cta_pitch_en": "Stop losing hours copying data — automate ingestion, validation, and audit-ready water-quality reporting.",
+  "cta_pitch_es": "Deja de perder horas copiando datos — automatiza ingesta, validación y reportes de calidad del agua listos para auditoría.",
+  "ribbon": [
+    {
+      "val": "AI",
+      "lab_en": "Smart Processing",
+      "lab_es": "Procesamiento IA",
+      "sub_en": "Organize & validate",
+      "sub_es": "Organiza y valida"
+    },
+    {
+      "val": "Multi",
+      "lab_en": "Data Sources",
+      "lab_es": "Fuentes de Datos",
+      "sub_en": "Excel, PDF, CSV, APIs",
+      "sub_es": "Excel, PDF, CSV, APIs"
+    },
+    {
+      "val": "Min",
+      "lab_en": "Report Time",
+      "lab_es": "Tiempo de Reporte",
+      "sub_en": "Minutes vs days (site)",
+      "sub_es": "Minutos vs días (sitio)"
+    },
+    {
+      "val": "ICA",
+      "lab_en": "Templates",
+      "lab_es": "Plantillas",
+      "sub_en": "ANLA, CARs, ICA, SUI",
+      "sub_es": "ANLA, CARs, ICA, SUI"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "Manual",
+        "lab_en": "Legacy workflows",
+        "lab_es": "Flujos manuales"
+      },
+      {
+        "num": "Audit",
+        "lab_en": "Compliance risk",
+        "lab_es": "Riesgo normativo"
+      }
+    ],
+    [
+      {
+        "num": "Hist.",
+        "lab_en": "Unused records",
+        "lab_es": "Registros ociosos"
+      },
+      {
+        "num": "Multi",
+        "lab_en": "Source formats",
+        "lab_es": "Formatos fuente"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "The analysis is not the bottleneck — everything before it is",
+      "head_es": "El análisis no es el cuello de botella — lo es todo lo anterior",
+      "body_en": "Environmental teams lose hours copying lab results and sensor data. Manual steps create errors, delay compliance reports, and leave historical records unused.",
+      "body_es": "Los equipos ambientales pierden horas copiando resultados de laboratorio y datos de sensores. Los pasos manuales generan errores, retrasan reportes de cumplimiento y dejan registros históricos sin usar.",
+      "bg": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "How e.WAI Works",
+      "title_es": "Cómo Funciona e.WAI",
+      "steps": [
+        {
+          "icon": "📥",
+          "label_en": "Ingest",
+          "label_es": "Ingesta",
+          "text_en": "Load files from Excel, PDF, CSV, dataloggers, databases, and APIs.",
+          "text_es": "Carga archivos desde Excel, PDF, CSV, dataloggers, bases de datos y APIs."
+        },
+        {
+          "icon": "🤖",
+          "label_en": "Process",
+          "label_es": "Procesar",
+          "text_en": "AI organizes, validates quality, detects errors, and standardizes units.",
+          "text_es": "La IA organiza, valida calidad, detecta errores y estandariza unidades."
+        },
+        {
+          "icon": "📊",
+          "label_en": "Visualize",
+          "label_es": "Visualizar",
+          "text_en": "Interactive dashboards, alerts, and trend analysis across monitoring points.",
+          "text_es": "Paneles interactivos, alertas y análisis de tendencias entre puntos de monitoreo."
+        },
+        {
+          "icon": "📄",
+          "label_en": "Report",
+          "label_es": "Reportar",
+          "text_en": "Auto-generate ICA, ANLA, CAR, and SUI templates — export PDF, Word, Excel with full traceability.",
+          "text_es": "Genera plantillas ICA, ANLA, CAR y SUI — exporta PDF, Word, Excel con trazabilidad completa."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "table",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Use Cases",
+      "title_es": "Casos de Uso",
+      "headers": [
+        ["Use case", "Caso de uso"],
+        ["What it solves", "Qué resuelve"],
+        ["Output", "Salida"]
+      ],
+      "rows": [
+        [
+          ["Environmental consulting", "Consultoría ambiental"],
+          ["ICA 4A, 4B, licensing reports", "Reportes ICA 4A, 4B, licenciamiento"],
+          ["Consolidated lab + field data", "Datos de laboratorio y campo consolidados"]
+        ],
+        [
+          ["Water quality management", "Gestión calidad del agua"],
+          ["Compare periods & monitoring points", "Comparar periodos y puntos de monitoreo"],
+          ["Export-ready annexes", "Anexos listos para exportar"]
+        ],
+        [
+          ["Air & other variables", "Aire y otras variables"],
+          ["Standardized environmental measurements", "Mediciones ambientales estandarizadas"],
+          ["Periodic compliance reports", "Informes periódicos de cumplimiento"]
+        ]
+      ],
+      "bg": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Platform Capabilities",
+      "title_es": "Capacidades de la Plataforma",
+      "cards": [
+        {
+          "icon": "🔍",
+          "title_en": "Explainable AI",
+          "title_es": "IA Explicable",
+          "text_en": "Natural-language queries, correlations, and scenario analysis from historical and current data.",
+          "text_es": "Consultas en lenguaje natural, correlaciones y análisis de escenarios con datos históricos y actuales."
+        },
+        {
+          "icon": "📜",
+          "title_en": "Smart Regulation Repo",
+          "title_es": "Repositorio Normativo",
+          "text_en": "Updated environmental norms for real-time validation and audit history.",
+          "text_es": "Normas ambientales actualizadas para validación en tiempo real e historial para auditorías."
+        },
+        {
+          "icon": "🔔",
+          "title_en": "Alerts",
+          "title_es": "Alertas",
+          "text_en": "Immediate notifications via email, web panel, or WhatsApp when thresholds are exceeded.",
+          "text_es": "Notificaciones inmediatas vía correo, panel web o WhatsApp cuando se superan umbrales."
+        },
+        {
+          "icon": "🌊",
+          "title_en": "e.Ray LATAM Context",
+          "title_es": "Contexto e.Ray LATAM",
+          "text_en": "Product of e.Ray LATAM S.A.S. (Medellín) — complements WAMO monitoring and SWIM project experience in Colombia.",
+          "text_es": "Producto de e.Ray LATAM S.A.S. (Medellín) — complementa monitoreo WAMO y experiencia del proyecto SWIM en Colombia."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=1200&q=80"
+    },
+    {
+      "num": 5,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Valentina Llano Lopez",
+          "role_en": "Founder signal &middot; Interim CTO (e.Ray)",
+          "role_es": "Señal fundadora &middot; CTO Interina (e.Ray)",
+          "bio_en": "Public LinkedIn profile lists Interim CTO at e.Ray Europa GmbH; active in e.WAI product communications. Female C-level gender: confirmed (public).",
+          "bio_es": "Perfil LinkedIn público lista CTO Interina en e.Ray Europa GmbH; activa en comunicaciones del producto e.WAI. Género C-level femenino: confirmado (público).",
+          "initials": "VL",
+          "linkedin": "https://www.linkedin.com/in/valentina-llano-lopez-a45960323"
+        }
+      ],
+      "dream_en": "CT taxonomy: CT-WW-003 (Watershed &amp; Ecosystem Management). Parent: e.Ray LATAM S.A.S., Calle 39C #73-7, Medellín. CLP 2026 Colombia bootcamp cohort. Pricing / ARR: [PENDIENTE]. Pitch deck: [PENDIENTE].",
+      "dream_es": "Taxonomía CT: CT-WW-003 (Gestión de Cuencas y Ecosistemas). Matriz: e.Ray LATAM S.A.S., Calle 39C #73-7, Medellín. Cohorte bootcamp CLP 2026 Colombia. Precios / ARR: [PENDIENTE]. Pitch deck: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80"
+    }
+  ]
+}
