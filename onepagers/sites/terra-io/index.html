@@ -1,1 +1,189 @@
-PLACEHOLDER_TEST
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TERRA IO — CleantechHUB Startup Profile</title>
+<link rel="icon" href="https://cleantechhub.net/favicon.ico">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--db:#0C498A;--cy:#B2EEFA;--lg:#9DC384;--fo:#669348;--sk:#69B5FA;--page:#fff;--ov:0.30;--panel:rgba(12,73,138,.94);--panel-border:rgba(255,255,255,.48);}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{font-family:'Open Sans','PT Sans',sans-serif;background:var(--page);color:var(--db);max-width:1080px;margin:0 auto;}
+[lang="es"] .en{display:none;} [lang="en"] .es{display:none;}
+
+.site-brand{position:fixed;top:12px;left:50%;transform:translateX(-50%);width:100%;max-width:1080px;padding:0 48px;z-index:99;pointer-events:none;}
+.site-brand .brand-text{pointer-events:auto;display:inline-block;font-size:13px;font-weight:800;letter-spacing:.4px;color:#fff;text-shadow:0 2px 10px rgba(0,0,0,.6);}
+.site-brand .brand-text em{color:var(--lg);font-style:normal;}
+
+.lang-toggle{position:fixed;top:12px;right:12px;z-index:100;display:flex;border-radius:5px;overflow:hidden;box-shadow:0 4px 16px rgba(0,0,0,.35);}
+.lb{padding:6px 14px;font-size:10px;font-weight:700;border:none;cursor:pointer;font-family:'Open Sans',sans-serif;transition:all .2s;}
+.lb.active{background:var(--db);color:#fff;}.lb:not(.active){background:#fff;color:var(--db);}
+
+.sec{position:relative;overflow:hidden;}
+.sec-bg{position:absolute;inset:0;background-size:cover;background-position:center;z-index:0;}
+.sec-ov{position:absolute;inset:0;z-index:1;}
+.sec-header{display:flex;align-items:center;gap:14px;padding:28px 48px 16px;position:relative;z-index:2;}
+.sec-num{font-size:11px;font-weight:800;color:var(--db);background:var(--lg);width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;box-shadow:0 2px 8px rgba(0,0,0,.35);}
+.sec-title{font-size:18px;font-weight:800;letter-spacing:-.3px;color:#fff;text-shadow:0 2px 14px rgba(0,0,0,.75);}
+.sec-rule{height:1px;background:linear-gradient(90deg,rgba(255,255,255,.55),rgba(255,255,255,0));flex:1;margin-left:8px;}
+.accent-bar{height:3px;background:linear-gradient(90deg,var(--db) 20%,var(--fo) 20% 40%,var(--lg) 40% 60%,var(--sk) 60% 80%,var(--cy) 80%);}
+.pill{display:inline-block;padding:5px 12px;border-radius:4px;font-size:9px;font-weight:700;letter-spacing:1px;text-transform:uppercase;}
+
+.hero{height:420px;position:relative;}
+.hero-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;}
+.hero-ov{position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,73,138,.12) 0%,rgba(12,73,138,.30) 55%,rgba(12,73,138,.48) 100%);z-index:1;}
+.hero-in{position:relative;z-index:2;height:100%;display:flex;flex-direction:column;justify-content:flex-end;padding:0 48px 36px;}
+.hero-badge{position:absolute;top:56px;left:48px;z-index:3;}
+.hero-name{font-size:56px;font-weight:800;line-height:1;color:#fff;text-shadow:0 4px 24px rgba(0,0,0,.55);}
+.hero-sub{font-size:14px;font-weight:700;color:#e8ffd4;margin-top:8px;text-shadow:0 2px 10px rgba(0,0,0,.5);}
+.hero-pitch{font-size:14px;line-height:1.6;color:#fff;margin-top:14px;max-width:540px;text-shadow:0 2px 12px rgba(0,0,0,.55);}
+.hero-tagline{font-size:10px;font-style:italic;color:#e8ffd4;opacity:.9;position:absolute;bottom:36px;right:48px;text-shadow:0 2px 8px rgba(0,0,0,.5);}
+
+.ribbon{display:grid;grid-template-columns:repeat(4,1fr);}
+.ribbon-cell{padding:22px 24px;text-align:center;border-right:1px solid rgba(255,255,255,.12);}
+.ribbon-cell:last-child{border-right:none;}
+.rc-val{font-size:28px;font-weight:800;line-height:1;color:#fff;}
+.rc-lab{font-size:9px;font-weight:700;color:#e8ffd4;letter-spacing:.6px;text-transform:uppercase;margin-top:4px;}
+.rc-sub{font-size:9px;color:rgba(255,255,255,.75);margin-top:2px;}
+
+.split{display:grid;grid-template-columns:1fr 1fr;align-items:stretch;}
+.split-panel{position:relative;overflow:hidden;padding:36px 40px;display:flex;flex-direction:column;}
+.split-h{font-size:22px;font-weight:800;line-height:1.2;margin-bottom:12px;color:#fff;}
+.body-text{font-size:13px;line-height:1.65;color:rgba(255,255,255,.95);}
+
+.frost-panel,.stat-card,.sol-card,.slider-item,.imp-card,.team-card,.comp-tbl,.mini-chart,.split-frost,.deck-panel,.frost-note{background:var(--panel);backdrop-filter:blur(12px) saturate(1.35);-webkit-backdrop-filter:blur(12px) saturate(1.35);border:1px solid var(--panel-border);box-shadow:0 8px 32px rgba(0,0,0,.42);}
+
+.stat-row{display:flex;gap:10px;margin-top:14px;}
+.stat-card{flex:1;border-radius:8px;padding:14px;text-align:center;}
+.sc-num{font-size:26px;font-weight:800;color:#e8ffd4;line-height:1;}
+.sc-lab{font-size:9px;font-weight:700;color:rgba(255,255,255,.9);margin-top:3px;line-height:1.3;}
+
+.sol-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;padding:0 48px 32px;position:relative;z-index:2;}
+.sol-card{border-radius:8px;padding:22px 18px;text-align:center;}
+.sol-step{font-size:9px;font-weight:800;color:var(--db);background:var(--lg);width:22px;height:22px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;margin-bottom:8px;box-shadow:0 2px 6px rgba(0,0,0,.3);}
+.sol-icon{font-size:24px;margin-bottom:6px;}
+.sol-label{font-size:10px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#e8ffd4;margin-bottom:6px;}
+.sol-text{font-size:11px;line-height:1.5;color:rgba(255,255,255,.92);}
+
+.comp-wrap{padding:14px 48px 28px;position:relative;z-index:2;}
+.comp-tbl{width:100%;border-collapse:collapse;font-size:11px;border-radius:8px;overflow:hidden;}
+.comp-tbl th{text-align:left;font-size:9px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:#e8ffd4;padding:10px 18px;border-bottom:1px solid rgba(255,255,255,.25);}
+.comp-tbl td{padding:8px 18px;border-bottom:1px solid rgba(255,255,255,.12);font-weight:600;color:rgba(255,255,255,.88);}
+.comp-tbl .hl{color:#e8ffd4;font-weight:800;}
+
+.rev-chart{display:flex;align-items:flex-end;gap:14px;height:110px;padding:18px 48px 10px;position:relative;z-index:2;}
+.rev-col{display:flex;flex-direction:column;align-items:center;flex:1;gap:3px;}
+.rev-bar{width:100%;border-radius:5px 5px 0 0;min-height:4px;}
+.rev-bar.actual{background:linear-gradient(180deg,var(--sk),var(--db));box-shadow:0 2px 8px rgba(0,0,0,.3);}
+.rev-bar.proj{background:rgba(105,181,250,.25);border:2px dashed rgba(255,255,255,.55);}
+.rev-label{font-size:10px;font-weight:700;color:rgba(255,255,255,.85);text-shadow:0 1px 6px rgba(0,0,0,.5);}
+.rev-val{font-size:10px;font-weight:800;color:#e8ffd4;text-shadow:0 1px 6px rgba(0,0,0,.5);}
+
+.slider-wrap{padding:0 48px 28px;position:relative;z-index:2;}
+.slider-item{border-radius:8px;padding:18px 20px;margin-bottom:12px;}
+.sl-label{font-size:9px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#e8ffd4;margin-bottom:8px;}
+.sl-val{font-size:22px;font-weight:800;color:#fff;margin-bottom:8px;}
+.sl-range{width:100%;accent-color:var(--lg);height:8px;cursor:pointer;}
+.sl-range:disabled{opacity:.55;cursor:default;}
+.sl-hint{font-size:9px;color:rgba(255,255,255,.8);margin-top:6px;}
+
+.impact-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;padding:0 48px 12px;position:relative;z-index:2;}
+.imp-card{border-radius:8px;padding:22px 20px;display:flex;gap:14px;align-items:flex-start;}
+.imp-icon{font-size:22px;flex-shrink:0;}
+.imp-title{font-size:10px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:#e8ffd4;margin-bottom:4px;}
+.imp-text{font-size:12px;line-height:1.5;color:rgba(255,255,255,.92);}
+
+.team-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;padding:0 48px 28px;position:relative;z-index:2;}
+.team-card{border-radius:8px;padding:24px 20px;text-align:center;}
+.tp-photo{width:72px;height:72px;border-radius:50%;object-fit:cover;margin:0 auto 10px;display:block;border:2px solid rgba(255,255,255,.55);box-shadow:0 4px 14px rgba(0,0,0,.4);}
+.tp-avatar{width:52px;height:52px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:800;margin:0 auto 10px;box-shadow:0 3px 10px rgba(0,0,0,.35);}
+.tp-name{font-size:14px;font-weight:700;color:#fff;}
+.tp-role{font-size:10px;font-weight:600;color:#e8ffd4;margin-top:3px;}
+.tp-bio{font-size:11px;color:rgba(255,255,255,.85);line-height:1.5;margin-top:8px;}
+.tp-link{display:inline-block;margin-top:10px;font-size:9px;font-weight:700;color:#e8ffd4;text-decoration:none;border-bottom:1px solid rgba(232,255,212,.5);}
+
+.frost-note{margin:0 48px 20px;padding:14px 18px;border-radius:8px;font-size:11px;line-height:1.55;color:rgba(255,255,255,.92);position:relative;z-index:2;}
+
+.cta{text-align:center;padding:44px 48px;position:relative;z-index:2;}
+.cta-name{font-size:44px;font-weight:800;color:#fff;text-shadow:0 3px 16px rgba(0,0,0,.55);}
+.cta-pitch{font-size:14px;line-height:1.6;max-width:560px;margin:12px auto 0;color:rgba(255,255,255,.92);text-shadow:0 2px 10px rgba(0,0,0,.45);}
+.cta-btn{display:inline-block;background:linear-gradient(180deg,#d4f5b8 0%,var(--lg) 100%);color:#053a6e;font-size:14px;font-weight:800;padding:14px 36px;border-radius:6px;text-decoration:none;margin-top:20px;border:2px solid #fff;box-shadow:0 6px 22px rgba(0,0,0,.45);}
+.cta-links{display:flex;gap:10px;justify-content:center;margin-top:16px;flex-wrap:wrap;}
+.cta-link{font-size:10px;font-weight:700;color:#fff;text-decoration:none;padding:8px 16px;background:var(--panel);border:1px solid var(--panel-border);border-radius:6px;box-shadow:0 4px 16px rgba(0,0,0,.35);}
+.cta-brand{margin-top:24px;}
+.cta-brand .tg{font-size:12px;font-style:italic;color:#e8ffd4;opacity:.95;}
+.cta-brand .lg2{font-size:14px;font-weight:800;margin-top:4px;color:#fff;}
+.cta-port{font-size:9px;color:rgba(255,255,255,.8);margin-top:10px;}
+
+.mini-chart{display:flex;align-items:flex-end;gap:6px;height:50px;border-radius:8px;padding:8px 10px 4px;margin-top:14px;}
+.split-frost{padding:24px 28px;border-radius:8px;flex:1;display:flex;flex-direction:column;justify-content:center;min-height:100%;}
+.split-frost-stats{gap:8px;justify-content:center;}
+.split-frost-stats .stat-row{flex:1;align-items:stretch;margin-top:0;}
+.split-frost-stats .stat-row+.stat-row{margin-top:8px;}
+.split-frost-stats .stat-card{background:transparent;border:none;box-shadow:none;display:flex;flex-direction:column;justify-content:center;}
+
+.deck-wrap{padding:0 48px 32px;position:relative;z-index:2;}
+.deck-panel{padding:16px;border-radius:8px;}
+.deck-frame-wrap{width:100%;border-radius:6px;overflow:hidden;background:#fff;box-shadow:0 14px 40px rgba(0,0,0,.5);line-height:0;}
+.deck-frame{width:100%;height:2560px;border:0;display:block;background:#fff;min-height:720px;}
+.deck-fallback{margin-top:12px;font-size:10px;color:rgba(255,255,255,.85);text-align:center;text-shadow:0 1px 8px rgba(0,0,0,.5);}
+.deck-fallback a{color:#e8ffd4;font-weight:700;}
+.deck-actions{display:flex;gap:10px;justify-content:center;margin-top:14px;flex-wrap:wrap;}
+.deck-note{padding:0 48px 8px;font-size:10px;color:rgba(255,255,255,.9);text-align:center;position:relative;z-index:2;text-shadow:0 1px 8px rgba(0,0,0,.5);}
+
+.mini-col{display:flex;flex-direction:column;align-items:center;flex:1;gap:1px;}
+.mini-val{font-size:8px;font-weight:700;color:rgba(255,255,255,.85);}
+.mini-val.hl{color:#e8ffd4;}
+.mini-bar{width:100%;border-radius:3px 3px 0 0;background:linear-gradient(180deg,var(--sk),#0a3d6e);}
+.mini-bar.hl{background:linear-gradient(180deg,var(--lg),var(--fo));}
+.mini-lab{font-size:7px;font-weight:700;color:rgba(255,255,255,.8);}
+
+</style>
+</head>
+<body>
+<div class="site-brand"><span class="brand-text">Cleantech<em>HUB</em></span></div>
+<div class="lang-toggle">
+  <button class="lb active" onclick="document.documentElement.lang='en';this.classList.add('active');this.nextElementSibling.classList.remove('active');">EN</button>
+  <button class="lb" onclick="document.documentElement.lang='es';this.classList.add('active');this.previousElementSibling.classList.remove('active');">ES</button>
+</div>
+
+<div class="sec hero">
+  <img class="hero-img" src="/s/terra-io/assets/hero.jpg" alt="TERRA IO" loading="lazy">
+  <div class="hero-ov"></div>
+  <div class="hero-badge"><div class="pill" style="background:rgba(0,0,0,.45);color:var(--lg);"><span class="en">Soil Intelligence, Anywhere</span><span class="es">Inteligencia de Suelo, en Cualquier Lugar</span></div></div>
+  <div class="hero-in">
+    <div class="hero-name">TERRA IO</div>
+    <div class="hero-sub"><span class="en">Agro-climatic intelligence for the Global South &middot; Beachhead Jalisco</span><span class="es">Inteligencia agroclimática para el Sur Global &middot; Beachhead Jalisco</span></div>
+    <div class="hero-pitch"><span class="en">Agricultural intelligence nodes that anticipate risks, regenerate territories and improve productivity — soil readings, offline AI, satellite context.</span><span class="es">Nodos de inteligencia agrícola que anticipan riesgos, regeneran territorios y mejoran productividad — lecturas de suelo, IA offline, contexto satelital.</span></div>
+  </div>
+  <div class="hero-tagline">Inspira. Actúa. Transforma.</div>
+</div>
+
+<div class="ribbon" style="background:rgba(12,73,138,.95);"><div class="ribbon-cell"><div class="rc-val">$9.8B</div><div class="rc-lab"><span class="en">Total Market</span><span class="es">Mercado Total</span></div><div class="rc-sub"><span class="en">Deck 2035+</span><span class="es">Deck 2035+</span></div></div><div class="ribbon-cell"><div class="rc-val">$516M</div><div class="rc-lab"><span class="en">LATAM Available</span><span class="es">Disponible LATAM</span></div><div class="rc-sub"><span class="en">Deck figure</span><span class="es">Cifra del deck</span></div></div><div class="ribbon-cell"><div class="rc-val">$2.0M</div><div class="rc-lab"><span class="en">Reachable</span><span class="es">Alcanzable</span></div><div class="rc-sub"><span class="en">Deck figure</span><span class="es">Cifra del deck</span></div></div><div class="ribbon-cell"><div class="rc-val">45</div><div class="rc-lab"><span class="en">Producers Interviewed</span><span class="es">Productores entrevistados</span></div><div class="rc-sub"><span class="en">Customer discovery</span><span class="es">Descubrimiento cliente</span></div></div></div>
+
+<div class="sec" style="position:relative;"><div class="sec-bg" style="background-image:url('/s/terra-io/assets/bg-deck.jpg');"></div><div class="sec-ov" style="background:rgba(12,73,138,.30);"></div><div class="sec-header"><div class="sec-num">📄</div><div class="sec-title"><span class="en">Pitch Deck</span><span class="es">Pitch Deck</span></div><div class="sec-rule"></div></div><div class="deck-note"><span class="en">Full-size deck preview below. Numbers on this profile match the deck only.</span><span class="es">Vista previa del deck a tamaño completo. Los números en este perfil provienen solo del deck.</span></div><div class="deck-wrap"><div class="deck-panel"><div class="deck-frame-wrap"><embed class="deck-frame" src="/s/terra-io/deck.pdf#view=FitH&toolbar=1" type="application/pdf" title="TERRA IO pitch deck"></div><div class="deck-fallback"><span class="en">Deck not loading?</span><span class="es">¿No carga el deck?</span> <a href="/s/terra-io/deck.pdf" target="_blank" rel="noopener"><span class="en">Open PDF</span><span class="es">Abrir PDF</span></a></div></div><div class="deck-actions"><a class="cta-link" href="/s/terra-io/deck.pdf" target="_blank" rel="noopener"><span class="en">Open PDF</span><span class="es">Abrir PDF</span></a><a class="cta-link" href="/s/terra-io/deck.pdf" target="_blank" rel="noopener"><span class="en">Download PDF</span><span class="es">Descargar PDF</span></a></div></div></div><div class="accent-bar"></div>
+
+<div class="sec" style="position:relative;"><div class="sec-bg" style="background-image:url('/s/terra-io/assets/bg-problem.jpg');"></div><div class="sec-ov" style="background:rgba(12,73,138,.30);"></div><div class="sec-header"><div class="sec-num">01</div><div class="sec-title"><span class="en">The Offer</span><span class="es">La Oferta</span></div><div class="sec-rule"></div></div><div class="split" style="position:relative;z-index:2;"><div class="split-panel"><div class="split-frost"><div class="split-h"><span class="en">One system — three revenue streams</span><span class="es">Un sistema — tres fuentes de ingreso</span></div><div class="body-text"><span class="en">Enter via cooperatives, deliver value to producers, scale with institutions. Device/hub processes soil readings; app + offline AI; satellite + historical context.</span><span class="es">Entrar vía cooperativas, entregar valor a productores, escalar con instituciones. Dispositivo/hub procesa lecturas de suelo; app + IA offline; satélite + históricos.</span></div></div></div><div class="split-panel"><div class="split-frost split-frost-stats"><div class="stat-row" style="margin-top:0;"><div class="stat-card"><div class="sc-num">7K+</div><div class="sc-lab"><span class="en">Producers in 6 years</span><span class="es">Productores en 6 años</span></div></div><div class="stat-card"><div class="sc-num">58</div><div class="sc-lab"><span class="en">Workshops</span><span class="es">Talleres</span></div></div></div><div class="stat-row"><div class="stat-card"><div class="sc-num">2</div><div class="sc-lab"><span class="en">Countries</span><span class="es">Países</span></div></div><div class="stat-card"><div class="sc-num">9 yr</div><div class="sc-lab"><span class="en">Team experience</span><span class="es">Experiencia equipo</span></div></div></div></div></div></div></div><div class="sec" style="position:relative;"><div class="sec-bg" style="background-image:url('/s/terra-io/assets/bg-pricing.jpg');"></div><div class="sec-ov" style="background:rgba(102,147,72,.30);"></div><div class="sec-header"><div class="sec-num">02</div><div class="sec-title"><span class="en">Pricing Tiers (Deck)</span><span class="es">Niveles de Precio (Deck)</span></div><div class="sec-rule"></div></div><div class="slider-wrap"><div class="slider-item"><div class="sl-label"><span class="en">Producers — USD / month</span><span class="es">Productores — USD / mes</span></div><div class="sl-val" id="sl0-out">USD $35 / month</div><input class="sl-range" type="range" id="sl0" min="35" max="50" step="1" value="35" data-prefix="USD $" data-suffix=" / month" oninput="document.getElementById('sl0-out').textContent=this.dataset.prefix+this.value+this.dataset.suffix"><div class="sl-hint"><span class="en">Deck: USD 35–50/month · Recommendations & alerts</span><span class="es">Deck: USD 35–50/mes · Recomendaciones y alertas</span></div></div><div class="slider-item"><div class="sl-label"><span class="en">Cooperatives — USD / month</span><span class="es">Cooperativas — USD / mes</span></div><div class="sl-val" id="sl1-out">USD $225 / month</div><input class="sl-range" type="range" id="sl1" min="225" max="340" step="5" value="225" data-prefix="USD $" data-suffix=" / month" oninput="document.getElementById('sl1-out').textContent=this.dataset.prefix+this.value+this.dataset.suffix"><div class="sl-hint"><span class="en">Deck: USD 225–340/month · Shared devices, up to 50 plots · Beachhead 2026</span><span class="es">Deck: USD 225–340/mes · Dispositivos compartidos, hasta 50 parcelas · Beachhead 2026</span></div></div><div class="slider-item"><div class="sl-label"><span class="en">Institutions — USD / year</span><span class="es">Instituciones — USD / año</span></div><div class="sl-val" id="sl2-out">USD $1000 / year</div><input class="sl-range" type="range" id="sl2" min="1000" max="20000" step="500" value="1000" data-prefix="USD $" data-suffix=" / year" oninput="document.getElementById('sl2-out').textContent=this.dataset.prefix+this.value+this.dataset.suffix"><div class="sl-hint"><span class="en">Deck: USD 1k–20k/year · Reports, API, dashboards</span><span class="es">Deck: USD 1k–20k/año · Reportes, API, tableros</span></div></div></div></div><div class="accent-bar"></div><div class="sec" style="position:relative;"><div class="sec-bg" style="background-image:url('/s/terra-io/assets/bg-table.jpg');"></div><div class="sec-ov" style="background:rgba(12,73,138,.30);"></div><div class="sec-header"><div class="sec-num">03</div><div class="sec-title"><span class="en">Value Proposition — Avocado Haas (Deck)</span><span class="es">Propuesta de Valor — Aguacate Haas (Deck)</span></div><div class="sec-rule"></div></div><div class="comp-wrap"><table class="comp-tbl"><thead><tr><th><span class="en">Segment</span><span class="es">Segmento</span></th><th><span class="en">Current Cost</span><span class="es">Costo Actual</span></th><th><span class="en">With TERRA IO</span><span class="es">Con TERRA IO</span></th><th><span class="en">Savings</span><span class="es">Ahorro</span></th></tr></thead><tbody><tr><td><span class="en">Small producer 2–5 ha</span><span class="es">Pequeño 2–5 ha</span></td><td><span class="en">USD $6.5k</span><span class="es">USD $6.5k</span></td><td><span class="en">USD $5.0k</span><span class="es">USD $5.0k</span></td><td class="hl"><span class="en">USD $1.5k/yr · 3.5x ROI</span><span class="es">USD $1.5k/año · 3.5x ROI</span></td></tr><tr><td><span class="en">Medium up to 150 ha</span><span class="es">Mediano hasta 150 ha</span></td><td><span class="en">USD $146.6k</span><span class="es">USD $146.6k</span></td><td><span class="en">USD $106k</span><span class="es">USD $106k</span></td><td class="hl"><span class="en">USD $40k/yr · 10.9x ROI</span><span class="es">USD $40k/año · 10.9x ROI</span></td></tr></tbody></table></div></div><div class="sec" style="position:relative;"><div class="sec-bg" style="background-image:url('/s/terra-io/assets/bg-market.jpg');"></div><div class="sec-ov" style="background:rgba(102,147,72,.30);"></div><div class="sec-header"><div class="sec-num">04</div><div class="sec-title"><span class="en">Financials — Year 3 &amp; 5</span><span class="es">Finanzas — Año 3 y 5</span></div><div class="sec-rule"></div></div><div class="rev-chart"><div class="rev-col"><div class="rev-val">140</div><div class="rev-bar actual" style="height:45px;"></div><div class="rev-label">Contracts</div></div><div class="rev-col"><div class="rev-val">$8.2k</div><div class="rev-bar actual" style="height:35px;"></div><div class="rev-label">Avg Ticket</div></div><div class="rev-col"><div class="rev-val">$120k</div><div class="rev-bar actual" style="height:40px;"></div><div class="rev-label">EBITDA Y3</div></div><div class="rev-col"><div class="rev-val">$1.51M</div><div class="rev-bar actual" style="height:75px;"></div><div class="rev-label">Rev Y3</div></div><div class="rev-col"><div class="rev-val">$3.25M</div><div class="rev-bar proj" style="height:90px;"></div><div class="rev-label">Rev Y5*</div></div></div><div class="frost-note"><span class="en">24% institutional revenue mix · Year 5* indicative 2030–2031 scenario · 140 active contracts · Colombia + Mexico team</span><span class="es">24% mix ingresos institucionales · Año 5* escenario indicativo 2030–2031 · 140 contratos activos · Equipo Colombia + México</span></div></div><div class="accent-bar"></div><div class="sec" style="position:relative;"><div class="sec-bg" style="background-image:url('/s/terra-io/assets/bg-impact.jpg');"></div><div class="sec-ov" style="background:rgba(12,73,138,.30);"></div><div class="sec-header"><div class="sec-num">05</div><div class="sec-title"><span class="en">Climate Impact — Year 3 Scale</span><span class="es">Impacto Climático — Escala Año 3</span></div><div class="sec-rule"></div></div><div class="impact-grid"><div class="imp-card"><div class="imp-icon">💧</div><div><div class="imp-title"><span class="en">Water Conserved</span><span class="es">Agua Conservada</span></div><div class="imp-text"><span class="en">7.9 Mm³/year potentially conserved (12,600 Ha effective adoption).</span><span class="es">7.9 Mm³/año potencialmente conservados (12.600 Ha adopción efectiva).</span></div></div></div><div class="imp-card"><div class="imp-icon">🌱</div><div><div class="imp-title"><span class="en">N₂O Avoided</span><span class="es">N₂O Evitado</span></div><div class="imp-text"><span class="en">1.21 ktCO₂e/year direct emissions potentially avoided.</span><span class="es">1.21 ktCO₂e/año emisiones directas potencialmente evitadas.</span></div></div></div><div class="imp-card"><div class="imp-icon">📈</div><div><div class="imp-title"><span class="en">SROI</span><span class="es">SROI</span></div><div class="imp-text"><span class="en">5x–21x per USD invested.</span><span class="es">5x–21x por USD invertido.</span></div></div></div><div class="imp-card"><div class="imp-icon">👨‍🌾</div><div><div class="imp-title"><span class="en">Co-benefits</span><span class="es">Co-beneficios</span></div><div class="imp-text"><span class="en">Savings stay with producers · Local green technical jobs.</span><span class="es">Ahorro permanece con productores · Empleo técnico verde local.</span></div></div></div></div></div><div class="sec" style="position:relative;"><div class="sec-bg" style="background-image:url('/s/terra-io/assets/bg-team.jpg');"></div><div class="sec-ov" style="background:rgba(102,147,72,.30);"></div><div class="sec-header"><div class="sec-num">06</div><div class="sec-title"><span class="en">Founder Team</span><span class="es">Equipo Fundador</span></div><div class="sec-rule"></div></div><div class="team-grid"><div class="team-card"><img class="tp-photo" src="/s/terra-io/assets/team/david.jpg" alt="David Mastrascusa" loading="lazy"><div class="tp-name">David Mastrascusa</div><div class="tp-role"><span class="en">Co-founder &amp; CEO</span><span class="es">Cofundador &amp; CEO</span></div><div class="tp-bio"><span class="en">Product · Field · Strategy.</span><span class="es">Producto · Campo · Estrategia.</span></div></div><div class="team-card"><img class="tp-photo" src="/s/terra-io/assets/team/nora.jpg" alt="Nora Torres" loading="lazy"><div class="tp-name">Nora Torres</div><div class="tp-role"><span class="en">Co-founder &amp; CRO</span><span class="es">Cofundadora &amp; CRO</span></div><div class="tp-bio"><span class="en">Market · Sustainability · Alliances.</span><span class="es">Mercado · Sostenibilidad · Alianzas.</span></div></div><div class="team-card"><img class="tp-photo" src="/s/terra-io/assets/team/adriana.jpg" alt="Adriana Buelvas" loading="lazy"><div class="tp-name">Adriana Buelvas</div><div class="tp-role"><span class="en">CTO</span><span class="es">CTO</span></div><div class="tp-bio"><span class="en">Platform · Data · AI.</span><span class="es">Plataforma · Datos · IA.</span></div></div><div class="team-card"><img class="tp-photo" src="/s/terra-io/assets/team/natalia.jpg" alt="Natalia Navarrete" loading="lazy"><div class="tp-name">Natalia Navarrete</div><div class="tp-role"><span class="en">CFO</span><span class="es">CFO</span></div><div class="tp-bio"><span class="en">Finance · Control · Investment.</span><span class="es">Finanzas · Control · Inversión.</span></div></div><div class="team-card"><img class="tp-photo" src="/s/terra-io/assets/team/camilo.jpg" alt="Camilo Nauffal" loading="lazy"><div class="tp-name">Camilo Nauffal</div><div class="tp-role"><span class="en">Tech Lead</span><span class="es">Tech Lead</span></div><div class="tp-bio"><span class="en">Software · Sensors · Remote sensing.</span><span class="es">Software · Sensores · Teledetección.</span></div></div></div><div class="frost-note"><span class="en">Scale beachhead in field with replicable commercial route. Website: [PENDIENTE]. CT taxonomy: [PENDIENTE]. IP protection in process.</span><span class="es">Escalar beachhead en campo con ruta comercial replicable. Web: [PENDIENTE]. Taxonomía CT: [PENDIENTE]. Protección intelectual en proceso.</span></div></div>
+
+<div class="sec" style="position:relative;">
+  <div class="sec-bg" style="background-image:url('/s/terra-io/assets/bg-cta.jpg');"></div>
+  <div class="sec-ov" style="background:rgba(12,73,138,.30);"></div>
+  <div class="cta">
+    <div class="pill" style="background:rgba(157,195,132,.12);border:1px solid rgba(157,195,132,.2);color:var(--lg);margin-bottom:16px;"><span class="en">Soil Intelligence, Anywhere</span><span class="es">Inteligencia de Suelo, en Cualquier Lugar</span></div>
+    <div class="cta-name">TERRA IO</div>
+    <div class="cta-pitch"><span class="en">10,000 active producers in 3 years — every producer decides with information.</span><span class="es">10.000 productores activos en 3 años — cada productor decide con información.</span></div>
+    <a class="cta-btn" href="#"><span class="en">Learn more (deck link)</span><span class="es">Conoce más (link del deck)</span></a>
+    <div class="cta-links">
+      <a class="cta-link" href="https://nexus.cleantechhub.net/s/terra-io"><span class="en">Nexus Profile</span><span class="es">Perfil Nexus</span></a>
+      <a class="cta-link" href="https://nexus.cleantechhub.net/p/startup-portfolio"><span class="en">157 Startups</span><span class="es">157 Startups</span></a>
+      <a class="cta-link" href="/s/terra-io/deck.pdf" target="_blank" rel="noopener"><span class="en">Pitch deck (PDF)</span><span class="es">Pitch deck (PDF)</span></a>
+    </div>
+    <div class="cta-brand"><div class="tg">Inspira. Actúa. Transforma.</div><div class="lg2">Cleantech<em style="color:var(--lg);font-style:normal;">HUB</em></div></div>
+    <div class="cta-port"><span class="en">CleantechHUB portfolio profile · Latin America</span><span class="es">Perfil portafolio CleantechHUB · América Latina</span></div>
+  </div>
+</div>
+<div class="accent-bar"></div>
+</body>
+</html>
