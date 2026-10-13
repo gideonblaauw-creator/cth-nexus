@@ -30,7 +30,7 @@ Founder:
 
 ## Elevator Pitch
 
-ECO-BLOQUE 40/35/25 turns coastal and agricultural waste into commercial biomass blocks for industry: **40%** fibre, **35%** coconut fibre, **25%** sargassum (deck composition labels). Tagline from deck: *«Transformando las crisis costeras y agrícolas en energía térmica industrial.»* Blocks are positioned at roughly **25,000–30,000 BTU** for partial substitution of fossil fuels in thermal processes.
+ECO-BLOQUE **40/35/25** turns coastal and agricultural waste into commercial biomass blocks for industry. Deck composition: **35%** coconut fibre, **25%** sargassum, plus **40%** and bamboo fibre called out in the deck mix. Tagline: *«Transformando las crises costeras y agrícolas en energía térmica industrial.»* Blocks are positioned at roughly **25,000–30,000 BTU** for partial substitution of fossil fuels in thermal processes.
 
 ## Climate Problem
 
