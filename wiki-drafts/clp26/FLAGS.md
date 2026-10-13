@@ -11,6 +11,7 @@
 | wayra-watt | `WEBSITE_UPDATE` | Wiki showed no website; deck has wayrawatt.com |
 | windlever | `TAXONOMY_WIKI_VS_DECK` | wiki=CT-EN-006, deck/proposed=CT-IC-005 |
 | windlever | `POSITIONING_SHIFT` | Deck emphasizes agro-export monitoring + soil/env data subscription; wiki text is wind micro-power only — body updated from deck excerpts |
+| windlever | `CATEGORY_VS_CT1` | Existing page slug/category **Clean Energy** retained; ct1 **CT-IC-005** is ag/data — confirm BookStack category with HITL |
 | yakusmart | `TAXONOMY_WIKI_VS_DECK` | wiki=CT-WW-002, deck/proposed=CT-WW-004 |
 | yakusmart | `CLIMATE_IMPACT_EMPTY` | No usable climate-impact excerpt in brief `copy_draft` |
 
