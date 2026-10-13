@@ -8,6 +8,8 @@ Lane A home for Nexus startup one-pagers served at `https://nexus.cleantechhub.n
 - `onepagers/data/{slug}.json` — deck-faithful content per startup
 - `scripts/build_onepagers.py` — JSON → HTML builder
 - `onepagers/sites/{slug}/index.html` — built output (also mirrored to Archive drafts)
+- `pages/startup-portfolio/index.html` — Epic/portfolio grid (`/p/startup-portfolio`)
+- `nexus-assets/epic-angels-shareable.json` — shareable startup list for the Epic Angels view
 
 ## Build
 
