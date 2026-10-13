@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Startup Portfolio — Nexus by CleantechHUB</title>
+<meta name="description" content="Explore 157 cleantech startups across 8 programs — CleantechHUB's 8-year portfolio of circular economy, bioeconomy, and energy transition ventures in Latin America.">
+<meta property="og:title" content="Startup Portfolio — Nexus by CleantechHUB">
+<meta property="og:description" content="157 cleantech startups across 8 programs. Filter by theme, stage, and program. Bilingual EN/ES.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://nexus.cleantechhub.net/p/startup-portfolio">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='12' fill='%230C498A'/><text y='.9em' font-size='60' x='20'>🌱</text></svg>">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/nexus-assets/nexus-brand.css?v=2">
+<style>
+:root {
+  color-scheme:light;
+  --deep-blue:#0C498A;--cyan:#B2EEFA;--light-green:#9DC384;--forest:#669348;--sky:#69B5FA;
+  --white:#FFFFFF;--color-bg:#EEF6FF;--color-text:#1A2332;--color-mid:#475569;--color-muted:#94A3B8;--color-border:#D1E3F8;
+  --c21:#3B82F6;--c22:#8B5CF6;--c23:#06B6D4;--c24:#F59E0B;--c25:#10B981;--clp:#EF4444;--clp20:#F97316;--clp25:#EC4899;
+  --ce:#0891B2;--ce-bg:#ECFEFF;--bio:#16A34A;--bio-bg:#F0FDF4;--en:#D97706;--en-bg:#FFFBEB;
+  --ps:#94A3B8;--ps-bg:#F1F5F9;--s:#3B82F6;--s-bg:#EFF6FF;--psa:#8B5CF6;--psa-bg:#F5F3FF;--sa:#F59E0B;--sa-bg:#FFFBEB;--sb:#EF4444;--sb-bg:#FEF2F2;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Open Sans','PT Sans',sans-serif;background:var(--color-bg);color:var(--color-text);font-size:13px}
+
+.header{background:var(--deep-blue);color:#fff;padding:24px 20px 0}
+.header-row{display:flex;align-items:center;gap:10px;margin-bottom:3px}
+.dot{width:9px;height:9px;background:var(--light-green);border-radius:50%;flex-shrink:0}
+.header h1{font-size:20px;font-weight:800;letter-spacing:-.4px;flex:1}
+.lang-toggle{display:flex;border-radius:8px;overflow:hidden;border:1.5px solid rgba(255,255,255,.2);flex-shrink:0}
+.lang-btn{padding:4px 10px;font-size:11px;font-weight:700;cursor:pointer;background:transparent;color:rgba(255,255,255,.5);border:none;transition:all .15s;letter-spacing:.4px;font-family:'Open Sans','PT Sans',sans-serif}
+.lang-btn.active{background:var(--light-green);color:#fff}
+.header-sub{font-size:11px;color:rgba(178,238,250,.6);padding-left:19px;padding-bottom:16px}
+
+.stats{display:flex;background:rgba(0,0,0,.15);border-bottom:1px solid rgba(178,238,250,.12);border-top:1px solid rgba(178,238,250,.12)}
+.stat{flex:1;padding:10px 12px;text-align:center;border-right:1px solid rgba(178,238,250,.12)}
+.stat:last-child{border-right:none}
+.stat-n{font-size:20px;font-weight:800;color:var(--light-green);line-height:1}
+.stat-l{font-size:10px;color:rgba(178,238,250,.55);text-transform:uppercase;letter-spacing:.4px;margin-top:1px}
+
+.controls{padding:10px 14px;background:#fff;border-bottom:1px solid var(--color-border);display:flex;flex-direction:column;gap:8px}
+.search-wrap{position:relative}
+.search-wrap input{width:100%;padding:8px 12px 8px 34px;border:1.5px solid var(--color-border);border-radius:8px;font-size:13px;outline:none;color:var(--color-text);background:var(--color-bg)}
+.search-wrap input:focus{border-color:var(--deep-blue);background:#fff}
+.si{position:absolute;left:10px;top:50%;transform:translateY(-50%);color:var(--color-muted);font-size:13px;pointer-events:none}
+.filter-row{display:flex;gap:5px;flex-wrap:wrap;align-items:center}
+.fl{font-size:10px;color:var(--color-muted);font-weight:700;text-transform:uppercase;letter-spacing:.4px;margin-right:2px;white-space:nowrap}
+.fb{padding:3px 9px;border-radius:20px;border:1.5px solid var(--color-border);background:#fff;font-size:10px;font-weight:700;cursor:pointer;transition:all .13s;color:var(--color-mid);white-space:nowrap}
+.fb:hover{border-color:var(--deep-blue);color:var(--deep-blue)}
+.fb.active{border-color:transparent!important;color:#fff!important}
+.fb[data-p="CLAC21"].active{background:var(--c21)}.fb[data-p="CLAC22"].active{background:var(--c22)}
+.fb[data-p="CLAC23"].active{background:var(--c23)}.fb[data-p="CLAC24"].active{background:var(--c24)}
+.fb[data-p="CLAC25"].active{background:var(--c25)}.fb[data-p="CLP"].active{background:var(--clp)}
+.fb[data-p="CLP20"].active{background:var(--clp20)}.fb[data-p="CLP25"].active{background:var(--clp25)}
+.fb[data-p="ALL"].active,.fb[data-t="ALL"].active,.fb[data-s="ALL"].active{background:var(--deep-blue)}
+.fb[data-t="CE"].active{background:var(--ce)}.fb[data-t="BIO"].active{background:var(--bio)}.fb[data-t="EN"].active{background:var(--en)}
+.fb[data-s="Pre-Seed"].active{background:var(--ps)}.fb[data-s="Seed"].active{background:var(--s)}
+.fb[data-s="Pre-Series A"].active{background:var(--psa)}.fb[data-s="Series A"].active{background:var(--sa)}.fb[data-s="Series B+"].active{background:var(--sb)}
+.tog{padding:3px 9px;border-radius:6px;border:1.5px solid var(--color-border);background:#fff;font-size:10px;font-weight:700;cursor:pointer;color:var(--color-mid);transition:all .13s;margin-left:auto}
+.tog.active{background:#EBF5E0;border-color:var(--forest);color:var(--forest)}
+
+.grid-wrap{padding:12px 12px 28px}
+.ri{font-size:11px;color:var(--color-muted);padding:0 2px 8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:11px}
+
+.card{background:var(--white);border:1.5px solid var(--color-border);border-radius:11px;padding:13px 13px 11px;display:flex;flex-direction:column;gap:7px;transition:all .16s;position:relative;overflow:hidden}
+.card:hover{border-color:var(--light-green);box-shadow:0 4px 18px rgba(157,195,132,.18);transform:translateY(-1px)}
+.card.nw{opacity:.55}.card.nw:hover{border-color:var(--color-border);box-shadow:none;transform:none;opacity:.65}
+.cb{position:absolute;top:0;left:0;right:0;height:3px}
+.ct{display:flex;align-items:flex-start;justify-content:space-between;gap:6px;margin-top:5px}
+.cn{font-size:12.5px;font-weight:700;line-height:1.3;flex:1;color:var(--color-text)}
+.cf{font-size:15px;flex-shrink:0}
+.cd{font-size:11px;line-height:1.5;color:var(--color-mid);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.cbot{display:flex;align-items:center;gap:4px;flex-wrap:wrap;margin-top:2px}
+.badge{display:inline-block;padding:2px 7px;border-radius:20px;font-size:9.5px;font-weight:700;letter-spacing:.2px;white-space:nowrap}
+.bp-CLAC21{background:#EFF6FF;color:var(--c21)}.bp-CLAC22{background:#F5F3FF;color:var(--c22)}
+.bp-CLAC23{background:#ECFEFF;color:var(--c23)}.bp-CLAC24{background:#FFFBEB;color:var(--c24)}
+.bp-CLAC25{background:#ECFDF5;color:var(--c25)}.bp-CLP{background:#FEF2F2;color:var(--clp)}
+.bp-CLP20{background:#FFF7ED;color:var(--clp20)}.bp-CLP25{background:#FDF2F8;color:var(--clp25)}
+.bt-CE{background:var(--ce-bg);color:var(--ce)}.bt-BIO{background:var(--bio-bg);color:var(--bio)}.bt-EN{background:var(--en-bg);color:var(--en)}
+.bs-PS{background:var(--ps-bg);color:var(--ps)}.bs-S{background:var(--s-bg);color:var(--s)}
+.bs-PSA{background:var(--psa-bg);color:var(--psa)}.bs-SA{background:var(--sa-bg);color:var(--sa)}.bs-SBP{background:var(--sb-bg);color:var(--sb)}
+.site-btn{display:inline-flex;align-items:center;gap:3px;padding:4px 8px;background:var(--forest);color:#fff;border-radius:6px;text-decoration:none;font-size:9.5px;font-weight:700;transition:background .13s;margin-left:auto;flex-shrink:0}
+.site-btn:hover{background:var(--deep-blue)}
+.site-btn svg{width:8px;height:8px}
+.ns{font-size:10px;color:var(--color-muted);font-style:italic;margin-left:auto}
+.empty{text-align:center;padding:40px 20px;color:var(--color-muted)}
+.bar-CLAC21{background:var(--c21)}.bar-CLAC22{background:var(--c22)}.bar-CLAC23{background:var(--c23)}
+.bar-CLAC24{background:var(--c24)}.bar-CLAC25{background:var(--c25)}.bar-CLP{background:var(--clp)}
+.bar-CLP20{background:var(--clp20)}.bar-CLP25{background:var(--clp25)}
+
+.footer{background:var(--deep-blue);color:rgba(178,238,250,.4);padding:16px 20px;text-align:center;font-size:11px;letter-spacing:.2px;border-top:1px solid rgba(178,238,250,.08)}
+.footer a{color:var(--light-green);text-decoration:none;font-weight:600}
+.footer a:hover{color:var(--forest);text-decoration:underline}
+
+/* ── CT taxonomy badge colours by sector ────────────────────────── */
+.bt-ct{font-size:0.68rem;text-decoration:none;cursor:pointer}
+.bt-ct-af{background:#2d6a4f;color:#fff}
+.bt-ct-en{background:#1565c0;color:#fff}
+.bt-ct-wa{background:#e65100;color:#fff}
+.bt-ct-ic{background:#6a1b9a;color:#fff}
+.bt-ct-xs{background:#00695c;color:#fff}
+.bt-ct-tr{background:#283593;color:#fff}
+.bt-ct-in{background:#4e342e;color:#fff}
+.bt-ct-bu{background:#558b2f;color:#fff}
+.bt-ct-ww{background:#0277bd;color:#fff}
+.bt-ct-ex{background:#37474f;color:#fff}
+/* ── CT Detail Modal ─────────────────────────────────────────────── */
+.ct-modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.55);display:flex;align-items:center;justify-content:center;z-index:1000;padding:1rem}
+.ct-modal-box{background:#fff;border-radius:12px;padding:1.5rem;max-width:480px;width:100%;position:relative;box-shadow:0 8px 40px rgba(0,0,0,0.25)}
+.ct-modal-close{position:absolute;top:0.75rem;right:0.75rem;background:none;border:none;font-size:1.2rem;cursor:pointer;color:#666;line-height:1}
+.ct-modal-header{display:flex;align-items:center;gap:0.5rem;margin-bottom:0.5rem}
+.ct-modal-flag{font-size:1.5rem}
+.ct-modal-name{font-size:1.1rem;font-weight:700;margin:0}
+.ct-modal-meta{display:flex;gap:0.4rem;margin-bottom:0.75rem;flex-wrap:wrap}
+.ct-modal-desc{font-size:0.88rem;color:#444;margin-bottom:1rem;line-height:1.5}
+.ct-modal-node{margin-bottom:0.6rem}
+.ct-modal-node-label{display:block;font-size:0.72rem;color:#888;text-transform:uppercase;letter-spacing:0.04em;margin-bottom:0.25rem}
+.ct-modal-footer{margin-top:1rem}
+.ct-modal-attribution{margin-top:0.75rem;color:#999}
+.ct-modal-no-site{font-size:0.8rem;color:#aaa}
+.fb[data-epic="1"].active{background:#7c3aed}
+.epic-badge{display:inline-block;padding:2px 7px;border-radius:20px;font-size:9.5px;font-weight:700;background:#ede9fe;color:#5b21b6;border:1px solid #c4b5fd}
+.nexus-btn{display:inline-flex;align-items:center;gap:3px;padding:4px 8px;background:#0C498A;color:#fff;border-radius:6px;text-decoration:none;font-size:9.5px;font-weight:700;transition:background .13s;flex-shrink:0}
+.nexus-btn:hover{background:#669348}
+.cbot .onepager-btn{margin-left:auto}
+.cbot .onepager-btn + .site-btn{margin-left:8px}
+.ct-modal-footer .onepager-btn{margin-left:8px}
+.yt-frame{position:relative;width:100%;aspect-ratio:16/9;margin:0.35rem 0 0.85rem;border-radius:8px;overflow:hidden;background:#000}
+.yt-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.epic-stat{font-size:11px;color:#5b21b6;background:#f5f3ff;border:1px solid #ddd6fe;border-radius:999px;padding:2px 10px;font-weight:700}
+.fb[data-imd="1"].active{background:#c2410c}
+.imd-badge{display:inline-block;padding:2px 7px;border-radius:20px;font-size:9.5px;font-weight:700;background:#ffedd5;color:#9a3412;border:1px solid #fdba74}
+.imd-stat{font-size:11px;color:#9a3412;background:#fff7ed;border:1px solid #fed7aa;border-radius:999px;padding:2px 10px;font-weight:700}
+
+</style>
+</head>
+<body data-nexus-page="startups">
+<div class="header">
+  <div class="header-row">
+    <div class="dot"></div>
+    <h1>Nexus — Startup Portfolio</h1>
+    <div class="lang-toggle">
+      <button class="lang-btn active" id="btn-en" onclick="setLang('EN')">EN</button>
+      <button class="lang-btn" id="btn-es" onclick="setLang('ES')">ES</button>
+    </div>
+  </div>
+  <div class="header-sub" id="subtitle"></div>
+</div>
+<div class="stats">
+  <div class="stat"><div class="stat-n" id="st-total">—</div><div class="stat-l" id="lbl-total">Total</div></div>
+  <div class="stat"><div class="stat-n" id="st-web">—</div><div class="stat-l" id="lbl-web">With Website</div></div>
+  <div class="stat"><div class="stat-n" id="st-show">—</div><div class="stat-l" id="lbl-show">Showing</div></div>
+  <div class="stat"><div class="stat-n">8</div><div class="stat-l" id="lbl-prog">Programs</div></div>
+</div>
+<div class="controls">
+  <div class="filter-row filter-pills-row">
+    <span class="fl" id="lbl-fepic">Special:</span>
+    <button class="fb" id="epic-tog" data-epic="1" onclick="toggleEpic()">Epic Angels</button>
+    <span class="epic-stat" id="epic-stat" style="display:none">18 APC-shareable</span>
+    <button class="fb" id="imd-tog" data-imd="1" onclick="toggleImd()">IMD · Perú · CTH programs</button>
+    <span class="imd-stat" id="imd-stat" style="display:none">16 shareable</span>
+    <a href="https://www.epicangelnetwork.com/" target="_blank" rel="noopener" style="font-size:10px;color:#7c3aed;text-decoration:none;margin-left:4px">epicangelnetwork.com ↗</a>
+  </div>
+
+  <div class="search-wrap"><span class="si">&#128269;</span><input type="text" id="q" oninput="render()"></div>
+  <div class="filter-row filter-pills-row">
+    <span class="fl" id="lbl-frog"></span>
+    <button class="fb active" data-p="ALL" onclick="setF('prog','ALL')">All / Todo</button>
+    <button class="fb" data-p="CLAC21" onclick="setF('prog','CLAC21')">CLAC'21</button>
+    <button class="fb" data-p="CLAC22" onclick="setF('prog','CLAC22')">CLAC'22</button>
+    <button class="fb" data-p="CLAC23" onclick="setF('prog','CLAC23')">CLAC'23</button>
+    <button class="fb" data-p="CLAC24" onclick="setF('prog','CLAC24')">CLAC'24</button>
+    <button class="fb" data-p="CLAC25" onclick="setF('prog','CLAC25')">CLAC'25</button>
+    <button class="fb" data-p="CLP" onclick="setF('prog','CLP')">CLP</button>
+    <button class="fb" data-p="CLP20" onclick="setF('prog','CLP20')">CLP'20</button>
+    <button class="fb" data-p="CLP25" onclick="setF('prog','CLP25')">CLP'25</button>
+    <button class="tog active" id="web-tog" onclick="toggleWeb()"></button>
+  </div>
+  <div class="filter-row filter-pills-row">
+    <span class="fl" id="lbl-ftheme"></span>
+    <button class="fb active" data-t="ALL" onclick="setF('theme','ALL')" id="fb-tall">All / Todo</button>
+    <button class="fb" data-t="CE" onclick="setF('theme','CE')" id="fb-ce"></button>
+    <button class="fb" data-t="BIO" onclick="setF('theme','BIO')" id="fb-bio"></button>
+    <button class="fb" data-t="EN" onclick="setF('theme','EN')" id="fb-en"></button>
+    <span class="fl" id="lbl-fstage" style="margin-left:8px"></span>
+    <button class="fb active" data-s="ALL" onclick="setF('stage','ALL')" id="fb-sall">All / Todo</button>
+    <button class="fb" data-s="Pre-Seed" onclick="setF('stage','Pre-Seed')">Pre-Seed</button>
+    <button class="fb" data-s="Seed" onclick="setF('stage','Seed')">Seed</button>
+    <button class="fb" data-s="Pre-Series A" onclick="setF('stage','Pre-Series A')" id="fb-psa"></button>
+    <button class="fb" data-s="Series A" onclick="setF('stage','Series A')" id="fb-sa"></button>
+    <button class="fb" data-s="Series B+" onclick="setF('stage','Series B+')" id="fb-sb"></button>
+  </div>
+</div>
+<div class="grid-wrap"><div class="ri" id="ri"></div><div class="grid" id="grid"></div></div>
+
+<footer class="footer">
+  <a href="https://cleantechhub.net">CleantechHUB</a> · Nexus Startup Portfolio · 2018–2026
+</footer>
+
+<script>
+const FLAGS={CO:'\u{1F1E8}\u{1F1F4}',MX:'\u{1F1F2}\u{1F1FD}',CL:'\u{1F1E8}\u{1F1F1}',PE:'\u{1F1F5}\u{1F1EA}',ES:'\u{1F1EA}\u{1F1F8}',PA:'\u{1F1F5}\u{1F1E6}',GT:'\u{1F1EC}\u{1F1F9}',CR:'\u{1F1E8}\u{1F1F7}',SV:'\u{1F1F8}\u{1F1FB}',INT:'\u{1F30D}'};
+
+const UI={
+  EN:{subtitle:'CleantechHUB · 8-year portfolio · 102 startups with live websites',web:'With Website',show:'Showing',prog:'Programs',search:'Search by startup name…',fProg:'Program:',fTheme:'Theme:',fStage:'Stage:',webOnly:'\u{1F310} Web only',ce:'♻️ Circular',bio:'\u{1F33F} Bioeconomy',en:'⚡ Energy',psa:'Pre-A',sa:'Series A',sb:'Series B+',visit:'Visit',noSite:'No site yet',shown:(n)=>`${n} startup${n===1?'':'s'} shown`,noMatch:'No startups match your filters.',tShort:{CE:'Circular',BIO:'Bioeconomy',EN:'Energy'},sShort:{'Pre-Seed':'Pre-Seed','Seed':'Seed','Pre-Series A':'Pre-A','Series A':'Ser. A','Series B+':'Ser. B+'}},
+  ES:{subtitle:'CleantechHUB · Portafolio de 8 años · 102 startups con sitio web',web:'Con Sitio Web',show:'Mostrando',prog:'Programas',search:'Buscar por nombre…',fProg:'Programa:',fTheme:'Tema:',fStage:'Etapa:',webOnly:'\u{1F310} Solo con web',ce:'♻️ Circular',bio:'\u{1F33F} Bioeconomía',en:'⚡ Energía',psa:'Pre-A',sa:'Serie A',sb:'Serie B+',visit:'Visitar',noSite:'Sin sitio web',shown:(n)=>`${n} startup${n===1?'':'s'} mostrada${n===1?'':'s'}`,noMatch:'Ninguna startup coincide con los filtros.',tShort:{CE:'Circular',BIO:'Bioeconomía',EN:'Energía'},sShort:{'Pre-Seed':'Pre-Seed','Seed':'Seed','Pre-Series A':'Pre-A','Series A':'Ser. A','Series B+':'Ser. B+'}}
+};
+
+const CT_LABELS={"CT-AF-001":"Sustainable Coffee","CT-AF-002":"Cacao Value Chain","CT-AF-003":"Cattle & Livestock","CT-AF-004":"Silvopastoral Systems","CT-AF-005":"Reforestation / REDD+","CT-AF-006":"Agroforestry","CT-AF-007":"Precision Agri Data","CT-AF-008":"Soil Carbon & MRV","CT-AF-009":"Bioeconomy & NbS","CT-AF-010":"Organic & Regenerative Ag","CT-AF-011":"Forest Fire Prevention","CT-AF-012":"Blue Carbon & Mangroves","CT-BU-001":"Sustainable Construction","CT-BU-002":"Building Retrofit","CT-BU-003":"Low-Carbon Housing","CT-BU-004":"Urban Resilience","CT-BU-005":"Green Roofs & Infrastructure","CT-EN-001":"Solar PV","CT-EN-002":"Wind Energy","CT-EN-003":"Small Hydro","CT-EN-004":"Energy Storage","CT-EN-005":"Demand Response","CT-EN-006":"Distributed Generation","CT-EN-007":"Energy Efficiency Buildings","CT-EN-008":"Energy Efficiency Industrial","CT-EN-009":"Green Hydrogen","CT-EN-010":"Biomass & Biogas","CT-IC-001":"Satellite & Deforestation Monitoring","CT-IC-002":"AI-Powered MRV","CT-IC-003":"Supply Chain Traceability","CT-IC-004":"Climate Data Platforms","CT-IC-005":"Precision Ag & Smart Grid","CT-IC-006":"Climate Finance Tech","CT-IN-001":"Industrial Energy Efficiency","CT-IN-002":"Green Hydrogen Industrial","CT-IN-003":"Circular Economy & Clean Mfg","CT-IN-004":"Industrial Symbiosis","CT-IN-005":"Industrial Water Efficiency","CT-TR-001":"Electric Vehicles","CT-TR-002":"Public Transit Electrification","CT-TR-003":"Freight Decarbonisation","CT-TR-004":"Sustainable Aviation","CT-TR-005":"Active Mobility","CT-WA-001":"Waste-to-Energy & Biogas","CT-WA-002":"Organic Waste & Composting","CT-WA-003":"Recycling & Materials Recovery","CT-WA-004":"Extended Producer Responsibility","CT-WW-001":"Water Access & Treatment","CT-WW-002":"Wastewater & Industrial Water","CT-WW-003":"Watershed Conservation","CT-WW-004":"Water Efficiency & Circular Use","CT-XS-001":"Carbon Markets & Credits","CT-XS-002":"MRV Platforms","CT-XS-003":"Green Finance","CT-XS-004":"Climate Risk & Disclosure","CT-XS-005":"NDC Tracking","CT-XS-006":"Green Insurance","CT-XS-007":"Blended Finance","CT-XS-008":"Climate Governance & Behaviour","CT-EX-038":"Sustainable Textiles (Wood/Fibre)"};
+const CT_WIKI_BASE="https://wiki.cleantechhub.net/search?term=";
+const STAGE_LABELS={'Pre-Seed':'Pre-Seed','Seed':'Seed','Pre-Series A':'Pre-A','Series A':'Ser. A','Series B+':'Ser. B+'};
+function ctBadge(nodeId){if(!nodeId||!CT_LABELS[nodeId])return"";const sector=nodeId.split("-")[1];const label=CT_LABELS[nodeId];const url=CT_WIKI_BASE+encodeURIComponent(nodeId);return'<a class="badge bt-ct bt-ct-'+sector.toLowerCase()+'" href="'+url+'" target="_blank" rel="noopener" title="LATAM Cleantech Taxonomy: '+nodeId+'" onclick="event.stopPropagation()">'+nodeId+' \u00B7 '+label+'</a>';}
+function youtubePlayer(url){if(!url)return '';var id='';try{var u=new URL(url);if(u.hostname==='youtu.be')id=u.pathname.replace(/^\//,'').split('/')[0];else if(/(^|\.)youtube\.com$/.test(u.hostname)||u.hostname.endsWith('youtube-nocookie.com')){if(u.pathname.indexOf('/embed/')===0)id=u.pathname.split('/')[2]||'';else id=u.searchParams.get('v')||'';}}catch(e){id='';}if(!id)return '';return '<div class="ct-modal-youtube"><span class="ct-modal-node-label">YouTube pitch</span><div class="yt-frame"><iframe src="https://www.youtube.com/embed/'+id+'" title="YouTube pitch" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>';}
+function openCTModal(cardEl){if(event.target.closest('a'))return;const s=JSON.parse(decodeURIComponent(cardEl.dataset.startup));const wikiLink=s.ct1?'<a href="'+CT_WIKI_BASE+encodeURIComponent(s.ct1)+'" target="_blank" rel="noopener">View in Taxonomy Wiki \u2192</a>':'';const ct1Block=s.ct1?'<div class="ct-modal-node"><span class="ct-modal-node-label">Primary CT Node</span><a class="badge bt-ct bt-ct-'+s.ct1.split("-")[1].toLowerCase()+'" href="'+CT_WIKI_BASE+encodeURIComponent(s.ct1)+'" target="_blank" rel="noopener">'+s.ct1+' \u00B7 '+(CT_LABELS[s.ct1]||s.ct1)+'</a></div>':'';const ct2Block=s.ct2?'<div class="ct-modal-node"><span class="ct-modal-node-label">Secondary CT Node</span><a class="badge bt-ct bt-ct-'+s.ct2.split("-")[1].toLowerCase()+'" href="'+CT_WIKI_BASE+encodeURIComponent(s.ct2)+'" target="_blank" rel="noopener">'+s.ct2+' \u00B7 '+(CT_LABELS[s.ct2]||s.ct2)+'</a></div>':'';const website=s.w?'<a href="https://'+s.w+'" target="_blank" rel="noopener" class="site-btn">Visit Website</a>':'<span class="ct-modal-no-site">No website listed</span>';const onepagerLink=s.onepager?'<a class="site-btn onepager-btn" href="/s/'+s.onepager+'">One-pager</a>':'';const yt=youtubePlayer(s.youtube);document.getElementById('ct-modal-content').innerHTML='<div class="ct-modal-header"><span class="ct-modal-flag">'+s.c+'</span><h2 class="ct-modal-name">'+s.n+'</h2></div><div class="ct-modal-meta"><span class="badge bp-'+s.p+'">'+s.p+'</span><span class="badge bs-'+({"Pre-Seed":"PS","Seed":"S","Pre-Series A":"PSA","Series A":"SA","Series B+":"SBP"}[s.st]||"PS")+'">'+(STAGE_LABELS[s.st]||s.st)+'</span></div><p class="ct-modal-desc">'+(s.d||'No description available.')+'</p>'+ct1Block+ct2Block+yt+'<div class="ct-modal-footer">'+website+onepagerLink+'</div><div class="ct-modal-attribution"><small>CT nodes from the <a href="https://wiki.cleantechhub.net" target="_blank">LATAM Cleantech Taxonomy</a> \u00B7 CleantechHUB 2026</small></div>';document.getElementById('ct-modal').style.display='flex';}
+function closeCTModal(e){if(e.target.id==='ct-modal')document.getElementById('ct-modal').style.display='none';}
+document.addEventListener('keydown',function(e){if(e.key==='Escape')document.getElementById('ct-modal').style.display='none';});
+
+const S=[
+{n:"ACKADIA",p:"CLAC21",c:"CO",w:"ackadia.life",t:"BIO",st:"Seed",d:"Data-driven agritech using bioreactors and IoT sensors to transform organic farm waste into compost, improving soil health for Colombian smallholder farmers.",ds:"Empresa agritech impulsada por datos que usa biorreactores y sensores IoT para transformar residuos orgánicos de fincas en compost, mejorando la salud del suelo para pequeños agricultores colombianos.",ct1:"CT-AF-010",ct2:"CT-WA-002"},
+{n:"AIR 4U",p:"CLAC21",c:"CO",w:"air4u.co",t:"CE",st:"Seed",d:"Manufactures ozone-based air purifiers eliminating 99.99% of microbiological load in homes, offices, and food plants without filters or chemicals.",ds:"Fabrica purificadores de aire basados en ozono que eliminan el 99,99% de la carga microbiológica en hogares, oficinas y plantas de alimentos, sin filtros ni químicos.",ct1:"CT-IN-001"},
+{n:"C-NEUTRAL SAS",p:"CLAC21",c:"CO",w:"c-neutral.co",t:"EN",st:"Pre-Series A",d:"End-to-end carbon management platform helping companies measure footprints, design decarbonization roadmaps, and access verified carbon credit portfolios.",ds:"Plataforma integral de gestión de carbono que ayuda a empresas a medir su huella, diseñar hojas de ruta de descarbonización y acceder a portafolios de créditos de carbono verificados.",ct1:"CT-XS-001",ct2:"CT-IC-002"},
+{n:"CARBON BOX",p:"CLAC21",c:"CO",w:"kimsa.co",t:"EN",st:"Seed",d:"Digitizes carbon measurement and traceability for companies, reducing time and cost of tracking reduction goals while connecting businesses to Colombian offset projects.",ds:"Digitaliza la medición y trazabilidad de carbono para empresas, reduciendo tiempo y costos en el seguimiento de metas y conectando negocios con proyectos de compensación colombianos.",ct1:"CT-IC-002",ct2:"CT-XS-001"},
+{n:"DINNOVA",p:"CLAC21",c:"CO",w:"dinnova.co",t:"EN",st:"Seed",d:"Develops modular solar-powered refrigeration maintaining cold chain integrity off-grid, serving rural food producers with low-global-warming refrigerants.",ds:"Desarrolla sistemas de refrigeración modulares impulsados por energía solar que mantienen la cadena de frío fuera de la red, sirviendo a productores rurales con refrigerantes de bajo impacto climático.",ct1:"CT-EN-001"},
+{n:"SIEMBRA VERTICAL",p:"CLAC21",c:"CO",w:"siembravertical.com",t:"BIO",st:"Seed",d:"Modular hydroponic greenhouses for smallholder and urban growers enabling year-round crops with 80% less water and 5× higher yields.",ds:"Invernaderos hidropónicos modulares para agricultores rurales y urbanos que permiten cultivos todo el año con 80% menos agua y rendimientos 5 veces mayores.",ct1:"CT-AF-010"},
+{n:"SUNNY APP",p:"CLAC21",c:"CO",w:"sunnyapp.com",t:"EN",st:"Pre-Series A",d:"Solar installation and SaaS platform for residential, commercial, and industrial PV systems, with automated panel-cleaning robotics and tools for solar installers.",ds:"Plataforma de instalación solar y SaaS para sistemas fotovoltaicos residenciales, comerciales e industriales, con robótica de limpieza automatizada y herramientas para instaladores solares.",ct1:"CT-EN-001",ct2:"CT-IC-005"},
+{n:"TAVI TECHNOLOGY",p:"CLAC21",c:"CO",w:"tavitechnology.com.co",t:"EN",st:"Seed",d:"Designs and manufactures unconventional energy generators enabling sustainable self-generation for urban and rural Colombian communities, with a local innovation patent.",ds:"Diseña y fabrica generadores de energía no convencionales que permiten la autogeneración sostenible para comunidades urbanas y rurales colombianas, con patente de innovación local.",ct1:"CT-EN-002"},
+{n:"VALORABLE",p:"CLAC21",c:"CO",w:"valorable.com",t:"CE",st:"Seed",d:"E-commerce marketplace for verified sustainable products sourced 98% from local women entrepreneurs, using eco-compliance seals to connect conscious consumers with circular goods.",ds:"Marketplace de comercio electrónico de productos sostenibles verificados, abastecidos en un 98% de emprendedoras locales, con sellos de eco-cumplimiento para conectar consumidores conscientes con bienes circulares.",ct1:"CT-XS-008",ct2:"CT-WA-003"},
+{n:"ZHANA SOLUTIONS",p:"CLAC21",c:"CO",w:"zhanasolutions.com",t:"CE",st:"Pre-Series A",d:"Deploys electrochemical grease traps removing 99% of oils from industrial kitchen wastewater and converting recovered grease into biodiesel feedstock.",ds:"Despliega trampas de grasa electroquímicas que eliminan el 99% de aceites de aguas residuales industriales y convierten la grasa recuperada en materia prima para biodiésel.",ct1:"CT-WW-002",ct2:"CT-WA-001"},
+{n:"BILOGICAL VEHÍCULOS ELÉCTRICOS",p:"CLAC22",c:"CO",w:"biologica.com.co",t:"EN",st:"Seed",d:"Commercializes electric motorcycles and provides post-sale maintenance, reducing urban transport carbon footprints for individual and commercial riders in Bogotá.",ds:"Comercializa motocicletas eléctricas y brinda mantenimiento posventa, reduciendo la huella de carbono del transporte urbano para conductores individuales y comerciales en Bogotá.",ct1:"CT-TR-001"},
+{n:"BIO360 JARDINES VERTICALES",p:"CLAC22",c:"CO",w:null,t:"BIO",st:"Pre-Seed",d:"Design studio creating modular living walls and vertical gardens using sustainable and bio-based systems, offering urban green infrastructure for buildings and public spaces.",ds:"Estudio de diseño que crea muros vivos modulares y jardines verticales con sistemas biosustentables, ofreciendo infraestructura verde urbana para edificios y espacios públicos."},
+{n:"BIOAREA",p:"CLAC22",c:"CO",w:"bioarea.co",t:"CE",st:"Seed",d:"Sustainable construction and interior design studio using alternative building methods and recycled materials to reduce the footprint of residential and commercial projects.",ds:"Estudio de diseño y construcción sostenible que usa métodos alternativos y materiales reciclados para reducir la huella ambiental de proyectos residenciales y comerciales.",ct1:"CT-BU-001"},
+{n:"BIOEUTECTICS",p:"CLAC22",c:"CO",w:"bioeutectics.com",t:"BIO",st:"Seed",d:"Produces bio-based natural deep eutectic solvents (NADES) as non-toxic, biodegradable alternatives to petrochemical solvents for food, pharma, and personal care.",ds:"Produce solventes eutécticos naturales (NADES) de base biológica como alternativas no tóxicas y biodegradables a los solventes petroquímicos para alimentación, farmacia y cuidado personal.",ct1:"CT-IN-003"},
+{n:"BIOMASA",p:"CLAC22",c:"CO",w:null,t:"EN",st:"Pre-Seed",d:"Valorizes industrial organic residues as biomass fuels, supporting Colombia's transition away from fossil fuels in industrial heat and power applications.",ds:"Valoriza residuos orgánicos industriales como combustibles de biomasa, apoyando la transición de Colombia hacia fuentes alternativas de calor y energía industrial."},
+{n:"BLOOMSPAL NETWORK",p:"CLAC22",c:"CO",w:"bloomspal.com",t:"BIO",st:"Pre-Series A",d:"AI-powered supply chain platform enabling Latin American agri-food and flower brands to access global markets through end-to-end logistics, compliance, and commercial execution.",ds:"Plataforma de cadena de suministro con IA que permite a marcas latinoamericanas de agro-alimentos y flores acceder a mercados globales con logística, cumplimiento y ejecución comercial integrados.",ct1:"CT-IC-003",ct2:"CT-AF-007"},
+{n:"CALOJABONES",p:"CLAC22",c:"CO",w:"calojabones.com.co",t:"CE",st:"Pre-Seed",d:"Collects used cooking oil from restaurants and households and transforms it into biodegradable, chemical-free cleaning soaps, preventing water pollution at source.",ds:"Recolecta aceite de cocina usado de restaurantes y hogares y lo transforma artesanalmente en jabones de limpieza biodegradables y libres de químicos, previniendo la contaminación del agua.",ct1:"CT-WA-001"},
+{n:"CICLORGÁNICOS (BIO ABONOS GAIA)",p:"CLAC22",c:"CO",w:"ciclorganicos.com",t:"BIO",st:"Seed",d:"Collects 200 tonnes of organic residues monthly from food industry, composting them into certified biofertilizers with traceable waste reduction data.",ds:"Recolecta 200 toneladas mensuales de residuos orgánicos de la industria alimentaria y los compostan en biofertilizantes certificados con datos trazables de reducción de residuos.",ct1:"CT-WA-002",ct2:"CT-AF-010"},
+{n:"COMPOST BALADÍ SAS",p:"CLAC22",c:"CO",w:null,t:"BIO",st:"Pre-Seed",d:"Converts organic waste into natural fertilizer through community partnerships, providing composting solutions for urban and peri-urban areas in Colombia.",ds:"Convierte residuos orgánicos en fertilizante natural a través de alianzas comunitarias, ofreciendo soluciones de compostaje para zonas urbanas y periurbanas de Colombia."},
+{n:"DEXON SOFTWARE SAS BIC",p:"CLAC22",c:"CO",w:"dexonsoftware.com",t:"EN",st:"Pre-Series A",d:"SaaS BPM platform digitizing complex processes for large organizations in energy, healthcare, and government — 10× faster implementation than legacy tools.",ds:"Plataforma SaaS BPM que digitaliza procesos complejos para grandes organizaciones en energía, salud y gobierno — implementación 10× más rápida que las herramientas tradicionales.",ct1:"CT-IC-005"},
+{n:"DISERVICOL",p:"CLAC22",c:"CO",w:null,t:"CE",st:"Pre-Seed",d:"Environmental and waste management services company supporting sustainable waste collection, treatment, and disposal for businesses and municipalities across Colombia.",ds:"Empresa de servicios ambientales y gestión de residuos que apoya la recolección, tratamiento y disposición sostenible de residuos para empresas y municipios en Colombia."},
+{n:"DREEM BIO",p:"CLAC22",c:"CO",w:"dreembio.com",t:"BIO",st:"Seed",d:"Develops scientifically validated plant-based extracts and cosmeceuticals from endemic Colombian biodiversity, targeting cancer adjuvant therapies and dermal protection.",ds:"Desarrolla extractos fitoterapeúticos y cosmecéuticos de base vegetal científicamente validados a partir de la biodiversidad endémica colombiana, con aplicaciones en terapias oncológicas adyuvantes.",ct1:"CT-AF-009"},
+{n:"GLASST INNOVATION COMPANY",p:"CLAC22",c:"CO",w:"glasst.co",t:"CE",st:"Pre-Series A",d:"Materials startup developing sustainable construction coatings and peelable films (UNPAINT) replacing plastics and reducing chemical waste across four LATAM countries.",ds:"Startup de materiales que desarrolla recubrimientos de construcción sostenibles y películas desprendibles (UNPAINT) que reemplazan plásticos y reducen residuos químicos en cuatro países de LATAM.",ct1:"CT-BU-001"},
+{n:"GRUPO VOLTEM SAS",p:"CLAC22",c:"CO",w:null,t:"CE",st:"Pre-Seed",d:"Develops and distributes eco-friendly cleaning and personal care products with sustainable formulations and responsible production practices in Colombia.",ds:"Desarrolla y distribuye productos de limpieza y cuidado personal ecológicos con formulaciones sostenibles y prácticas de producción responsables en Colombia."},
+{n:"HELIOSAVE CLEAN ENERGY",p:"CLAC22",c:"CO",w:"heliosave.com",t:"EN",st:"Seed",d:"Provides solar panel installation and financing for homes and businesses, helping clients reduce electricity bills through accessible clean solar energy generation.",ds:"Brinda instalación y financiamiento de paneles solares para hogares y empresas, ayudando a clientes a reducir su factura eléctrica mediante generación de energía solar accesible.",ct1:"CT-EN-001"},
+{n:"ILIKKO",p:"CLAC22",c:"CO",w:null,t:"CE",st:"Pre-Seed",d:"Colombian cleantech startup developing sustainable products targeting the circular economy, selected for the CLAC22 accelerator to scale early-stage environmental innovation.",ds:"Startup colombiana de cleantech que desarrolla productos sostenibles orientados a la economía circular, seleccionada para el acelerador CLAC22 para escalar la innovación ambiental."},
+{n:"ISD INGENIERÍA Y SERVICIOS",p:"CLAC22",c:"CO",w:"isd.co.com",t:"EN",st:"Pre-Seed",d:"Engineering startup delivering technical services in renewable energy and clean technology, supporting industrial clients with sustainable infrastructure development.",ds:"Startup de ingeniería que ofrece servicios técnicos en energías renovables y tecnología limpia, apoyando a clientes industriales en el desarrollo de infraestructura sostenible.",ct1:"CT-EN-001"},
+{n:"LABGAE",p:"CLAC22",c:"CO",w:null,t:"BIO",st:"Pre-Seed",d:"Grows Chlorella vulgaris and microalgae for bioremediation of contaminated water and as sustainable bioinput for agriculture, supported by SENA Tecnoparque.",ds:"Cultiva Chlorella vulgaris y microalgas para la biorremediación de agua contaminada y como bioinsumo sostenible para la agricultura, apoyada por el Tecnoparque del SENA."},
+{n:"MAGMACOL",p:"CLAC22",c:"CO",w:null,t:"CE",st:"Pre-Seed",d:"Leverages volcanic and geological materials to develop innovative sustainable solutions within Colombia's growing climate innovation ecosystem.",ds:"Aprovecha materiales volcánicos y geológicos para desarrollar soluciones sostenibles innovadoras dentro del ecosistema colombiano de innovación climática."},
+{n:"MONTE JAZMÍN",p:"CLAC22",c:"CO",w:"montejazmin.com",t:"BIO",st:"Pre-Seed",d:"Three-generation agroecological coffee farm offering specialty coffee and regenerative agritourism, with civil society nature reserve certification in Pereira.",ds:"Finca cafetera agroecológica multigeneracional que ofrece café especialidad y agroturismo regenerativo, con certificación de reserva natural de la sociedad civil en Pereira.",ct1:"CT-AF-001"},
+{n:"NATOURE",p:"CLAC22",c:"CO",w:null,t:"BIO",st:"Pre-Seed",d:"Digital ecotourism platform connecting travelers with indigenous and community-led nature experiences, channeling tour revenues to conservation communities across Latin America.",ds:"Plataforma digital de ecoturismo que conecta viajeros con experiencias de naturaleza lideradas por comunidades indígenas, canalizando ingresos a comunidades de conservación en América Latina."},
+{n:"NUEVAS TECNOLOGÍAS FISICOQUÍMICAS",p:"CLAC22",c:"CO",w:"nuevastecnologias.com.co",t:"CE",st:"Seed",d:"Develops nanostructured, rinse-free cleaning products using patented hyperdegradation chemistry that significantly reduces water consumption across industrial and consumer applications.",ds:"Desarrolla productos de limpieza nanoestructurados sin enjuague con química de hiperdegradación patentada, reduciendo significativamente el consumo de agua en aplicaciones industriales y domésticas.",ct1:"CT-WA-004"},
+{n:"O2RESERVE",p:"CLAC22",c:"CO",w:"o2reserve.com",t:"EN",st:"Pre-Seed",d:"Develops nature-based carbon and biodiversity conservation projects generating verified credits, helping companies offset their ecological footprint while funding ecosystem protection.",ds:"Desarrolla proyectos de conservación de carbono y biodiversidad basados en la naturaleza que generan créditos verificados, ayudando a empresas a compensar su huella ecológica.",ct1:"CT-XS-001",ct2:"CT-AF-005"},
+{n:"PLÁSTICOS FEMIA",p:"CLAC22",c:"CO",w:null,t:"CE",st:"Seed",d:"Produces pelletized recycled plastics from post-consumer PET and polymer waste, supplying manufacturers with circular raw materials as a sustainable input.",ds:"Produce plásticos reciclados peletizados a partir de PET post-consumo y residuos poliméricos, suministrando materias primas circulares al sector manufacturero."},
+{n:"PRODUCTOS MARINOS INNOVADORES",p:"CLAC22",c:"CO",w:null,t:"BIO",st:"Pre-Seed",d:"Develops value-added products from marine and aquaculture resources, applying biotechnology to reduce waste and increase profitability in Colombia's blue food sector.",ds:"Desarrolla productos de valor agregado de recursos marinos y acuícolas, aplicando biotecnología para reducir residuos y aumentar la rentabilidad del sector azul alimentario en Colombia."},
+{n:"PROINCALZA",p:"CLAC22",c:"CO",w:"proincalza.com.co",t:"CE",st:"Pre-Seed",d:"Works with industrial mineral by-products to develop value-added applications, promoting circular use of calcareous and inorganic materials within supply chains.",ds:"Trabaja con subproductos minerales industriales para desarrollar aplicaciones de valor agregado, promoviendo el uso circular de materiales calcáreos e inorgánicos en cadenas de suministro.",ct1:"CT-IN-004"},
+{n:"PROPLANET SAS",p:"CLAC22",c:"CO",w:"proplanet.com.co",t:"CE",st:"Seed",d:"Medellín pioneer in Tetra Pak recycling, separating post-consumer cartons into cardboard pulp and plastic components, partnering with 10,000+ waste pickers.",ds:"Pionera en Medellín en el reciclaje de Tetra Pak, separando envases post-consumo en pulpa de cartón y componentes plásticos, en alianza con más de 10.000 recicladores.",ct1:"CT-WA-003"},
+{n:"SANOLIVAR",p:"CLAC22",c:"CO",w:null,t:"EN",st:"Pre-Seed",d:"IoT and digital transformation startup optimizing resource use and operational efficiency for businesses through smart technology solutions across Colombian sectors.",ds:"Startup de IoT y transformación digital que optimiza el uso de recursos y la eficiencia operativa para empresas mediante soluciones de tecnología inteligente en sectores colombianos."},
+{n:"SEOS ENERGY SAS BIC",p:"CLAC22",c:"CO",w:"seosenergy.co",t:"EN",st:"Seed",d:"Fintech-cleantech platform providing up to 100% solar installation financing with real-time energy monitoring and a digital end-to-end customer journey across Colombia.",ds:"Plataforma fintech-cleantech que financia hasta el 100% de instalaciones solares con monitoreo de energía en tiempo real y un viaje digital de extremo a extremo para el cliente.",ct1:"CT-XS-003",ct2:"CT-EN-001"},
+{n:"SIMBIOTIC SAS",p:"CLAC22",c:"CO",w:"redsimbiotic.com",t:"CE",st:"Seed",d:"Sustainability consultancy connecting businesses with certified waste networks, and developing a platform for regenerative tourism destination management in Colombia.",ds:"Consultora de sostenibilidad que conecta empresas con redes certificadas de gestión de residuos, y desarrolla una plataforma para la gestión de destinos de turismo regenerativo.",ct1:"CT-WA-003",ct2:"CT-IC-003"},
+{n:"SUNCOLOMBIA SAS",p:"CLAC22",c:"CO",w:"suncolombia.co",t:"EN",st:"Series B+",d:"Deploys off-grid and on-grid solar systems for rural communities, schools, and telecom towers across Colombia, scaling from $50K to $15M in revenue.",ds:"Despliega sistemas solares fuera y dentro de la red para comunidades rurales, escuelas y torres de telecomunicaciones en Colombia, escalando de $50K a $15M en ingresos.",ct1:"CT-EN-001"},
+{n:"TOBO Y COMPAÑÍA SAS BIC",p:"CLAC22",c:"CO",w:"tobo.com.co",t:"EN",st:"Seed",d:"Provides wind-powered and solar water pumping mills for Orinoquía farms, replacing diesel pumps and mitigating CO₂ across 2,000+ Colombian farms.",ds:"Provee molinos de bombeo de agua eólicos y solares para fincas de la Orinoquía, reemplazando motobombas diésel y mitigando CO₂ en más de 2.000 fincas colombianas.",ct1:"CT-EN-002",ct2:"CT-WW-002"},
+{n:"VALOPES",p:"CLAC22",c:"CO",w:"valopes.com",t:"CE",st:"Seed",d:"Cloud-based waste traceability platform helping companies in Colombia, Chile, and Mexico digitize waste streams and automate regulatory compliance reporting.",ds:"Plataforma de trazabilidad de residuos en la nube que ayuda a empresas en Colombia, Chile y México a digitalizar flujos de residuos y automatizar reportes de cumplimiento regulatorio.",ct1:"CT-IC-003",ct2:"CT-WA-003"},
+{n:"WERO SAS",p:"CLAC22",c:"CO",w:"wero.com.co",t:"CE",st:"Seed",d:"Creates end-to-end industrial and post-consumer waste utilization chains, integrating vulnerable communities as suppliers and partnering with Coca-Cola FEMSA and Tetra Pak.",ds:"Crea cadenas de valorización de residuos industriales y post-consumo, integrando comunidades vulnerables como proveedoras y aliándose con Coca-Cola FEMSA y Tetra Pak.",ct1:"CT-WA-003",ct2:"CT-IN-004"},
+{n:"YDEAS TEAM SAS",p:"CLAC22",c:"CO",w:null,t:"CE",st:"Pre-Seed",d:"Develops technology-based solutions addressing environmental and climate challenges, participating in the CLAC22 accelerator to scale sustainable impact in Colombia.",ds:"Desarrolla soluciones tecnológicas para abordar desafíos ambientales y climáticos, participando en el acelerador CLAC22 para escalar el impacto sostenible en Colombia."},
+{n:"+COMPOST MENOS BASURA",p:"CLAC23",c:"CO",w:null,t:"CE",st:"Seed",d:"Organic waste collection service picking up household and commercial food scraps weekly, transforming them into natural compost for rural agroecological communities.",ds:"Servicio de recolección de residuos orgánicos que recoge desperdicios semanalmente de hogares y comercios, transformándolos en compost natural para comunidades agroecológicas rurales."},
+{n:"3LUPZ",p:"CLAC23",c:"CO",w:"3lupz.com",t:"CE",st:"Pre-Seed",d:"Decentralizes circular economy participation by connecting communities through networks enabling resource sharing and waste recovery at local scale.",ds:"Descentraliza la participación en la economía circular conectando comunidades a través de redes de mercado que facilitan el intercambio de recursos y la recuperación de residuos.",ct1:"CT-WA-003",ct2:"CT-IC-003"},
+{n:"ARQUITECTURA MODERNA AMBIENTAL",p:"CLAC23",c:"CO",w:"amaesp.com.co",t:"CE",st:"Seed",d:"Cali environmental services company providing material recovery, organic waste recycling, and water and energy optimization for industries under a circular economy model.",ds:"Empresa de servicios ambientales de Cali que ofrece recuperación de materiales, reciclaje de residuos orgánicos, y optimización de agua y energía bajo un modelo de economía circular.",ct1:"CT-WA-003",ct2:"CT-WW-001"},
+{n:"BASÍLISCO",p:"CLAC23",c:"CO",w:"basilisco.world",t:"BIO",st:"Pre-Seed",d:"Colombian startup developing bio-based or nature-based solutions for agriculture or environmental management, selected for the CLAC 2023 cohort.",ds:"Startup colombiana que desarrolla soluciones bio-basadas o basadas en la naturaleza para la agricultura o la gestión ambiental, seleccionada para el cohorte CLAC 2023.",ct1:"CT-AF-009"},
+{n:"BIO NATURAL SOLUTIONS",p:"CLAC23",c:"CO",w:"bionatsolutions.com",t:"BIO",st:"Seed",d:"Converts agro-industrial organic waste into chemical-free agricultural protection products, helping farmers reduce synthetic agrochemicals and close the productive cycle.",ds:"Convierte residuos orgánicos agroindustriales en productos de protección agrícola libres de químicos, ayudando a agricultores a reducir agroquímicos sintéticos y cerrar el ciclo productivo.",ct1:"CT-AF-010"},
+{n:"BIOGAR",p:"CLAC23",c:"CO",w:"biogar.co",t:"CE",st:"Seed",d:"B Corp producing up to 99% biodegradable, plant-derived household cleaning products to replace chemical-laden alternatives for sustainable home and personal care.",ds:"B Corp que produce productos de limpieza doméstica hasta 99% biodegradables y de origen vegetal, reemplazando alternativas cargadas de químicos para el cuidado personal y del hogar.",ct1:"CT-WA-004"},
+{n:"COMPOSTPACK",p:"CLAC23",c:"CO",w:"compostpack.com",t:"CE",st:"Seed",d:"Manufactures certified compostable bioplastic packaging that decomposes without microplastics, offering a circular packaging alternative for the Colombian food and retail industry.",ds:"Fabrica empaques bioplásticos compostables certificados que se descomponen sin microplásticos, ofreciendo una alternativa circular de embalaje para la industria colombiana.",ct1:"CT-WA-004",ct2:"CT-IN-003"},
+{n:"ECO APPS",p:"CLAC23",c:"CO",w:"ecoapps.com.co",t:"EN",st:"Pre-Seed",d:"SaaS platform (Uflou) gamifying sustainable mobility, letting employees log bike or EV trips to measure emissions reduced and earn rewards.",ds:"Plataforma SaaS (Uflou) que gamifica la movilidad sostenible en organizaciones, permitiendo a empleados registrar viajes en bicicleta o vehículo eléctrico para medir emisiones y ganar recompensas.",ct1:"CT-TR-005",ct2:"CT-IC-005"},
+{n:"ECO POOP",p:"CLAC23",c:"CO",w:"ecopoop.co",t:"CE",st:"Seed",d:"Collects urban pet excrement twice weekly, converting it into organic fertilizer and upcycling plastic bags into cladding materials using biotechnology.",ds:"Recolecta heces de mascotas en edificios urbanos dos veces por semana, convirtiéndolas en abono orgánico y reciclando las bolsas plásticas en materiales de revestimiento mediante biotecnología.",ct1:"CT-WA-002"},
+{n:"ENTOPRO",p:"CLAC23",c:"CO",w:"entopro.com.co",t:"BIO",st:"Seed",d:"UNAL spin-off designing Black Soldier Fly systems to convert organic waste into high-protein animal feed and biofertilizers, advancing insect-based bioeconomy.",ds:"Spin-off de la UNAL que diseña sistemas de Mosca Soldado Negro para convertir residuos orgánicos en alimento proteico animal y biofertilizantes, avanzando la bioeconomía de insectos.",ct1:"CT-WA-002",ct2:"CT-AF-010"},
+{n:"FLUVIA",p:"CLAC23",c:"CO",w:"fluvia.co",t:"BIO",st:"Pre-Seed",d:"Uses fluorescent tracer technology and a proprietary app to provide real-time hydrological data — flow rates and velocities — for water resource management.",ds:"Usa tecnología de trazadores fluorescentes y una app propia para proporcionar datos hidrológicos en tiempo real — caudales y velocidades — para la gestión de recursos hídricos.",ct1:"CT-WW-003",ct2:"CT-IC-004"},
+{n:"GEO GRAFISMOS",p:"CLAC23",c:"CO",w:"geografismos.co",t:"CE",st:"Pre-Seed",d:"Applies geospatial visualization and mapping to environmental communication, helping organizations understand and act on territorial and ecological data.",ds:"Aplica visualización geoespacial y cartografía a la comunicación ambiental, ayudando a organizaciones a comprender y actuar sobre datos territoriales y ecológicos.",ct1:"CT-IC-001"},
+{n:"GREEN LEAF",p:"CLAC23",c:"CO",w:"greenleafcolombia.com",t:"BIO",st:"Seed",d:"B2B cannabis cultivation company producing non-psychoactive cannabis flower under government license for sustainable, community-supported processing and export markets.",ds:"Empresa B2B de cultivo de cannabis no psicoactivo bajo licencia gubernamental, orientada a procesamiento sostenible con apoyo comunitario y futuros mercados de exportación.",ct1:"CT-AF-010"},
+{n:"GRUPO NATURAL ANDINO",p:"CLAC23",c:"CO",w:"gna.com.co",t:"CE",st:"Seed",d:"Collects vegetable, fruit, and pruning organic waste from urban sources via special routes, converting it into quality compost returned to agricultural land.",ds:"Recolecta residuos orgánicos vegetales, frutales y de poda de fuentes urbanas en rutas especiales, convirtiéndolos en compost de calidad que retorna a la tierra agrícola.",ct1:"CT-WA-002"},
+{n:"KIGUI",p:"CLAC23",c:"MX",w:"kigui.mx",t:"CE",st:"Seed",d:"Food-waste reduction app connecting consumers with near-expiry products at up to 60% discount in supermarkets, preventing disposal and associated CO₂ emissions.",ds:"App mexicana de reducción de desperdicio alimentario que conecta consumidores con productos próximos a vencer con hasta 60% de descuento en supermercados, evitando emisiones de CO₂.",ct1:"CT-WA-002"},
+{n:"NOVATIO",p:"CLAC23",c:"CO",w:"novatio.com.co",t:"EN",st:"Seed",d:"Social enterprise designing and building biodigesters for rural farming families, converting organic waste into biogas energy and biofertilizer while displacing wood fuel.",ds:"Empresa social que diseña y construye biodigestores para familias campesinas, convirtiendo residuos orgánicos en energía de biogás y biofertilizante, desplazando el uso de leña.",ct1:"CT-WA-001",ct2:"CT-EN-010"},
+{n:"O&C SAS",p:"CLAC23",c:"CO",w:null,t:"CE",st:"Pre-Seed",d:"Environmental services company offering waste management and sustainability consulting to industrial and commercial clients seeking circular economy compliance.",ds:"Empresa de servicios ambientales que ofrece gestión de residuos y consultoría de sostenibilidad a clientes industriales y comerciales en busca de cumplimiento de economía circular."},
+{n:"O3 SMART CITIES",p:"CLAC23",c:"CO",w:"o3smartcities.com.co",t:"EN",st:"Seed",d:"Accelerates Colombia's energy transition by deploying renewable systems, carbon footprint management, and potable water generation for industries and rural communities.",ds:"Acelera la transición energética en Colombia desplegando sistemas renovables, gestión de huella de carbono y generación de agua potable para industrias y comunidades rurales.",ct1:"CT-EN-001",ct2:"CT-XS-001"},
+{n:"PUREST FUELS",p:"CLAC23",c:"CO",w:null,t:"EN",st:"Pre-Seed",d:"Develops hydrogen injection systems for diesel engines using surplus energy and water to produce low-emission hydrogen, reducing CO₂ and fuel consumption.",ds:"Desarrolla sistemas de inyección de hidrógeno para motores diésel que usan energía excedente y agua para producir hidrógeno de bajas emisiones, reduciendo CO₂ y consumo de combustible."},
+{n:"REEMADE",p:"CLAC23",c:"CO",w:"reemade.com.co",t:"CE",st:"Seed",d:"Upcycling design brand transforming industrial textile, plastic, tire, and agricultural waste into premium furniture and accessories using craft techniques and community artisans.",ds:"Marca de diseño upcycling que transforma residuos industriales textiles, plásticos, llantas y agrícolas en muebles y accesorios premium usando técnicas artesanales y artesanos comunitarios.",ct1:"CT-WA-003",ct2:"CT-IN-004"},
+{n:"SOLUCIONES AMBIENTALES INTEGRALES SAS",p:"CLAC23",c:"CO",w:null,t:"CE",st:"Pre-Seed",d:"Environmental consulting and services firm delivering integrated waste management, environmental assessment, and sustainability solutions to industrial and institutional clients.",ds:"Consultora ambiental que ofrece gestión integral de residuos, evaluación ambiental y soluciones de sostenibilidad a clientes industriales e institucionales en Colombia."},
+{n:"USALO APP",p:"CLAC23",c:"CO",w:"usalo.com.co",t:"CE",st:"Pre-Seed",d:"Collaborative economy platform enabling peer-to-peer rental of objects and experiences, extending product lifecycles and reducing consumption-driven waste through sharing.",ds:"Plataforma de economía colaborativa que permite el alquiler peer-to-peer de objetos y experiencias, extendiendo el ciclo de vida de los productos y reduciendo residuos por consumo.",ct1:"CT-XS-008"},
+{n:"XICLO",p:"CLAC23",c:"CO",w:"xiclo.app",t:"CE",st:"Seed",d:"Replaces single-use packaging with a reusable container ecosystem for restaurants and events, tracked via app and collected for washing and reuse over 1,000 cycles.",ds:"Reemplaza los empaques desechables con un ecosistema de envases reutilizables para restaurantes y eventos, rastreados por app y recolectados para lavado y reutilización más de 1.000 veces.",ct1:"CT-WA-004"},
+{n:"ALFE ASEO SAS",p:"CLAC24",c:"CO",w:null,t:"CE",st:"Pre-Seed",d:"Delivers concentrated cleaning products in refillable, reusable containers to households and companies, eliminating single-use plastic packaging at point of use.",ds:"Entrega productos de limpieza concentrados en envases recargables y reutilizables a hogares y empresas, eliminando el empaque plástico desechable en el punto de uso."},
+{n:"ARABIDOPSIS",p:"CLAC24",c:"CO",w:null,t:"BIO",st:"Pre-Seed",d:"Colombian biotech startup developing bio-based agricultural inputs or biotechnology solutions to improve crop productivity and sustainability for smallholder farmers.",ds:"Startup colombiana de biotecnología que desarrolla bioinsumos agrícolas o soluciones biotecnológicas para mejorar la productividad y sostenibilidad de pequeños agricultores."},
+{n:"ECO BIOSIS",p:"CLAC24",c:"CO",w:"ecobiosis.com",t:"CE",st:"Seed",d:"Converts vinasse and distillery effluents into BioDispersis, a natural dispersant reintegrated into industrial supply chains, achieving zero-waste production.",ds:"Convierte vinaza y efluentes de destilerías en BioDispersis, un dispersante natural reintegrado en cadenas de suministro industriales, logrando una producción de residuo cero.",ct1:"CT-WA-001",ct2:"CT-IN-004"},
+{n:"FIRE WORK WEAR SAS",p:"CLAC24",c:"CO",w:"fireworkwear.com",t:"EN",st:"Seed",d:"Manufactures certified flame-resistant and arc-flash PPE for energy, mining, and industrial sectors under NFPA and NTC standards in Colombia.",ds:"Fabrica y suministra equipos de protección personal certificados contra llamas y arcos eléctricos para los sectores de energía, minería e industria bajo estándares NFPA y NTC.",ct1:"CT-IN-001"},
+{n:"GESCOL SAS BIC",p:"CLAC24",c:"CO",w:"gescol.com",t:"CE",st:"Seed",d:"Upcycles post-industrial footwear polymer waste — primarily discarded safety boot soles — into thermal and acoustic insulation panels for the construction sector.",ds:"Recicla residuos poliméricos post-industriales de calzado — principalmente suelas de botas de seguridad — convirtiéndolos en paneles de aislamiento térmico y acústico para la construcción.",ct1:"CT-WA-003",ct2:"CT-IN-004"},
+{n:"HABITAT A VIBE COMPANY SAS",p:"CLAC24",c:"CO",w:null,t:"CE",st:"Seed",d:"Urban mining company recovering plastics from electrical and electronic waste, converting them into raw materials while generating employment for recyclers in low-income communities.",ds:"Empresa de minería urbana que recupera plásticos de residuos eléctricos y electrónicos, convirtiéndolos en materias primas mientras genera empleo para recicladores en comunidades vulnerables."},
+{n:"HUNTER TECNOLOGÍA",p:"CLAC24",c:"CO",w:"hunter.tec.co",t:"CE",st:"Seed",d:"Collects, refurbishes, and redistributes unsold consumer electronics across Latin America, extending device lifespans and reducing e-waste and CO₂ emissions.",ds:"Recolecta, reacondiciona y redistribuye electrónica de consumo devuelta en América Latina, extendiendo la vida útil de los dispositivos y reduciendo residuos electrónicos y CO₂.",ct1:"CT-WA-003"},
+{n:"LINKO WORKERS SAS",p:"CLAC24",c:"CO",w:null,t:"CE",st:"Pre-Seed",d:"Manufactures and commercializes industrial cleaning and disinfection products for institutional and household clients in southern Colombia.",ds:"Fabrica y comercializa productos de limpieza y desinfección industrial para clientes institucionales y domésticos en el sur de Colombia."},
+{n:"MOT COLOMBIA",p:"CLAC24",c:"CO",w:"motcolombia.com",t:"BIO",st:"Pre-Seed",d:"Colombian affiliate of Matter of Trust, collecting human hair from barbershops to produce AgroPelo — a bio-based material for water retention and environmental remediation.",ds:"Filial colombiana de Matter of Trust que recolecta cabello humano de peluquerías para producir AgroPelo — un material bio-basado para retención de agua y remediación ambiental.",ct1:"CT-WA-002",ct2:"CT-AF-010"},
+{n:"MUBON",p:"CLAC24",c:"CO",w:"mubon.co",t:"EN",st:"Seed",d:"Manufactures locally-made EV chargers and a smart management platform for shared charging in residential and commercial spaces, expanding electric mobility infrastructure.",ds:"Fabrica cargadores para vehículos eléctricos de producción local y una plataforma de gestión inteligente para carga compartida en espacios residenciales y comerciales.",ct1:"CT-TR-001",ct2:"CT-IC-005"},
+{n:"PARSONS KINETICS",p:"CLAC24",c:"CO",w:"parsonskinetics.com",t:"EN",st:"Seed",d:"Develops biomimetic low-wind-speed turbines inspired by Amazonian tree seeds, enabling distributed renewable energy for rural and off-grid communities in Colombia.",ds:"Desarrolla turbinas de baja velocidad del viento inspiradas en semillas de árboles amazónicos, habilitando energía renovable distribuida para comunidades rurales y aisladas en Colombia.",ct1:"CT-EN-002"},
+{n:"PLANTA DE TECNOLOGÍA AMBIENTAL",p:"CLAC24",c:"CO",w:null,t:"CE",st:"Pre-Seed",d:"Environmental technology company applying advanced processes to treat and valorize organic and industrial waste, converting residues into products for agricultural and industrial use.",ds:"Empresa de tecnología ambiental que aplica procesos avanzados para tratar y valorizar residuos orgánicos e industriales, convirtiéndolos en productos aprovechables para uso agrícola e industrial."},
+{n:"PLÁSTICOS AMBIENTALES SAS",p:"CLAC24",c:"CO",w:null,t:"CE",st:"Seed",d:"Provides certified recycled plastic raw materials and sustainable packaging solutions, enabling businesses to comply with Colombia's circular economy and packaging regulations.",ds:"Ofrece materias primas de plástico reciclado certificado y soluciones de embalaje sostenible, permitiendo a empresas cumplir con la regulación colombiana de economía circular."},
+{n:"PLEIA",p:"CLAC24",c:"CO",w:"pleia.co",t:"BIO",st:"Seed",d:"B Corp pioneering biotechnology-based pet funeral services, transforming pet remains into nutrient-rich compost and planting trees at reforestation centers across Colombia.",ds:"B Corp pionera en servicios funerarios para mascotas basados en biotecnología, transformando los restos en compost rico en nutrientes y plantando árboles en centros de reforestación.",ct1:"CT-WA-002",ct2:"CT-AF-009"},
+{n:"RENOVE.IO",p:"CLAC24",c:"CO",w:null,t:"CE",st:"Pre-Seed",d:"Enables refurbishment, reuse, and redistribution of electronic and technological devices, reducing e-waste and promoting circular economy for consumer technology in Colombia.",ds:"Facilita el reacondicionamiento, reutilización y redistribución de dispositivos electrónicos, reduciendo residuos electrónicos y promoviendo la economía circular para la tecnología de consumo."},
+{n:"RESET",p:"CLAC24",c:"CO",w:"resetcolombia.co",t:"CE",st:"Pre-Seed",d:"Produces concentrated tablet-based eco-friendly cleaning products that dissolve in water, eliminating single-use plastic bottles for multipurpose, disinfectant, and glass cleaning.",ds:"Produce productos de limpieza ecológicos concentrados en tabletas que se disuelven en agua, eliminando botellas plásticas desechables para uso multipropósito, desinfección y limpieza de vidrio.",ct1:"CT-WA-004"},
+{n:"AGROTECH",p:"CLAC25",c:"CO",w:null,t:"BIO",st:"Pre-Seed",d:"Agritech startup applying digital tools and precision agriculture to improve productivity and sustainability for Colombian smallholder farmers.",ds:"Startup agritech que aplica herramientas digitales y agricultura de precisión para mejorar la productividad y sostenibilidad de los pequeños agricultores colombianos."},
+{n:"ALIMENPROC SAS",p:"CLAC25",c:"CO",w:null,t:"BIO",st:"Pre-Seed",d:"Food processing company transforming fresh fruit into pulps, nectars, and juices for institutional and industrial clients, integrating Colombian agricultural value chains.",ds:"Empresa de procesamiento de alimentos que transforma fruta fresca en pulpas, néctares y jugos para clientes institucionales e industriales, integrando cadenas de valor agrícolas colombianas."},
+{n:"BARUK COMPANY",p:"CLAC25",c:"CO",w:null,t:"BIO",st:"Pre-Seed",d:"Builds energy self-sufficient bioclimatic smart greenhouses for food sovereignty and seed preservation in remote and vulnerable communities across Latin America.",ds:"Construye invernaderos inteligentes bioclimáticos autosuficientes energéticamente para la soberanía alimentaria y la preservación de semillas en comunidades remotas de América Latina."},
+{n:"BATX SAS",p:"CLAC25",c:"CO",w:"batx.co",t:"EN",st:"Seed",d:"Transforms discarded EV and device batteries into second-life energy storage systems, offering Energy-as-a-Service 30–40% cheaper than market alternatives in Colombia.",ds:"Transforma baterías desechadas de vehículos eléctricos y dispositivos en sistemas de almacenamiento de segunda vida, ofreciendo Energía como Servicio un 30-40% más barata que el mercado.",ct1:"CT-EN-004"},
+{n:"BIKEU",p:"CLAC25",c:"CO",w:"bikeu.com.co",t:"EN",st:"Pre-Seed",d:"Platform connecting urban cyclists with on-demand bike mechanic and messenger services, promoting cycling as a sustainable urban mobility solution in Colombia.",ds:"Plataforma que conecta ciclistas urbanos con servicios de mecánica y mensajería en bicicleta a demanda, promoviendo el ciclismo como solución de movilidad urbana sostenible en Colombia.",ct1:"CT-TR-005"},
+{n:"CAREY LEONES",p:"CLAC25",c:"CO",w:"careyleones.com",t:"BIO",st:"Pre-Seed",d:"Nature-oriented startup developing conservation-linked sustainable products or services for environmental markets across Colombia.",ds:"Startup orientada a la naturaleza que desarrolla productos o servicios sostenibles vinculados a la conservación para mercados ambientales en Colombia.",ct1:"CT-AF-005"},
+{n:"CLAUDIA OSORIO ARTE Y VIDRIO",p:"CLAC25",c:"CO",w:null,t:"CE",st:"Pre-Seed",d:"Artisan studio upcycling glass through Tiffany, vitrofusion, and stained-glass techniques, turning waste glass into handcrafted decorative and artistic products.",ds:"Estudio artesanal que upcycla vidrio mediante técnicas Tiffany, vitrofusión y vitral, convirtiendo vidrio de desecho en productos decorativos y artísticos hechos a mano."},
+{n:"CULTIVO GLOBAL SAS",p:"CLAC25",c:"CO",w:null,t:"BIO",st:"Pre-Seed",d:"Agritech company developing scalable cultivation systems applying technology to optimize crop yields and supply chains for local and global food markets.",ds:"Empresa agritech que desarrolla sistemas de cultivo escalables aplicando tecnología para optimizar rendimientos de cultivos y cadenas de suministro para mercados alimentarios locales y globales."},
+{n:"DETERQUIN SAS",p:"CLAC25",c:"CO",w:"deterquin.com",t:"CE",st:"Seed",d:"Manufactures eco-friendly ultraconcentrated detergents and starch-based adhesives for industrial laundry and hospitality, reducing plastic waste through an Eco Pacs format.",ds:"Fabrica detergentes ultraconcentrados eco-amigables y adhesivos de almidón para lavandería industrial y hostelería, reduciendo residuos plásticos a través del formato Eco Pacs.",ct1:"CT-WA-004"},
+{n:"ECO INDUSTRIA SAS",p:"CLAC25",c:"CO",w:"ecoindustriasas.com",t:"CE",st:"Seed",d:"Licensed waste manager specializing in collection, dismantling, and circular recovery of electrical, electronic, and hazardous waste for Colombian businesses.",ds:"Gestor de residuos licenciado especializado en recolección, desensamble y recuperación circular de residuos eléctricos, electrónicos y peligrosos para empresas colombianas.",ct1:"CT-WA-003"},
+{n:"ECOBOT",p:"CLAC25",c:"CO",w:"ecobot.com.co",t:"CE",st:"Seed",d:"Operates reverse vending machines accepting plastic bottles and Tetra Pak, rewarding users with discount coupons while channeling materials to recycler associations.",ds:"Opera máquinas de depósito inverso que aceptan botellas plásticas y Tetra Pak, recompensando a usuarios con cupones de descuento y canalizando materiales a asociaciones de recicladores.",ct1:"CT-WA-003"},
+{n:"ECOSUEÑOS CAQUETÁ",p:"CLAC25",c:"CO",w:null,t:"BIO",st:"Pre-Seed",d:"Community-based bioeconomy initiative developing sustainable livelihoods in Caquetá Amazon through biodiversity conservation, agroforestry, and nature-based productive systems.",ds:"Iniciativa de bioeconomía comunitaria que desarrolla medios de vida sostenibles en el Amazonas caqueteño a través de la conservación de la biodiversidad y sistemas agroforestales."},
+{n:"ECOVOLT SAS",p:"CLAC25",c:"CO",w:"ecovoltco.com.co",t:"EN",st:"Pre-Seed",d:"Designs, sells, and installs photovoltaic solar systems and solar pumping solutions for residential and commercial clients across Colombia.",ds:"Diseña, vende e instala sistemas solares fotovoltaicos y de bombeo solar para clientes residenciales y comerciales en todo Colombia.",ct1:"CT-EN-001"},
+{n:"EMBERGY SAS",p:"CLAC25",c:"CO",w:null,t:"CE",st:"Pre-Seed",d:"Focused on materials recovery and waste valorization, connecting industrial waste streams to circular recovery processes in the Bogotá metropolitan area.",ds:"Enfocada en la recuperación de materiales y valorización de residuos, conectando flujos de residuos industriales con procesos de recuperación circular en el área metropolitana de Bogotá."},
+{n:"FUNDACIÓN PLANETA AZUL CARIBE",p:"CLAC25",c:"CO",w:null,t:"BIO",st:"Pre-Seed",d:"Cartagena non-profit conducting scientific fieldwork to protect Caribbean coastal ecosystems, freshwater resources, and marine biodiversity through conservation.",ds:"ONG de Cartagena que realiza trabajo de campo científico para proteger ecosistemas costeros del Caribe, recursos de agua dulce y biodiversidad marina mediante conservación comunitaria."},
+{n:"GALAXY PACK SAS",p:"CLAC25",c:"CO",w:"galaxypack.co",t:"CE",st:"Seed",d:"Designs and manufactures reusable pallet covers replacing single-use stretch plastic wrap, eliminating industrial packaging waste for logistics clients across the Americas.",ds:"Diseña y fabrica cobertores de palés reutilizables que reemplazan el plástico stretch desechable, eliminando residuos de embalaje industrial para clientes logísticos en las Américas.",ct1:"CT-WA-004"},
+{n:"GESTAR INGENIERÍA SAS",p:"CLAC25",c:"CO",w:null,t:"CE",st:"Pre-Seed",d:"Environmental engineering firm providing waste treatment, environmental management consulting, and technical services to industries seeking sustainability and compliance.",ds:"Firma de ingeniería ambiental que brinda tratamiento de residuos, consultoría de gestión ambiental y servicios técnicos a industrias que buscan sostenibilidad y cumplimiento normativo."},
+{n:"GRIIN ENERGY SAS",p:"CLAC25",c:"CO",w:"griin.com.co",t:"EN",st:"Pre-Seed",d:"Provides integrated solar energy financing and engineering for Latin American businesses, combining innovative financial models with technical project management.",ds:"Proporciona financiamiento e ingeniería solar integrada para empresas latinoamericanas, combinando modelos financieros innovadores con gestión técnica de proyectos.",ct1:"CT-EN-001",ct2:"CT-XS-003"},
+{n:"IMS MAYORISTA",p:"CLAC25",c:"CO",w:"imsmayorista.com",t:"EN",st:"Seed",d:"Wholesale distributor of solar energy equipment and networking technology, supplying integrators with solar panels, security systems, and fiber optic solutions.",ds:"Distribuidor mayorista de equipos de energía solar y tecnología de redes, suministrando a integradores paneles solares, sistemas de seguridad y soluciones de fibra óptica.",ct1:"CT-EN-001"},
+{n:"LAZOS.GO",p:"CLAC25",c:"CO",w:null,t:"EN",st:"Pre-Seed",d:"Builds digital connections between communities and sustainable mobility or green economic opportunities, linking local actors to cleantech resources and networks.",ds:"Crea conexiones digitales entre comunidades y oportunidades de movilidad sostenible o economía verde, vinculando actores locales a recursos y redes de cleantech."},
+{n:"MÁS COMPOST",p:"CLAC25",c:"CO",w:"mascompost.org",t:"CE",st:"Seed",d:"B Corp certified service collecting household organic waste weekly and returning compost to Bogotá families, diverting over 110 tonnes from landfill monthly.",ds:"Servicio certificado B Corp que recolecta residuos orgánicos domésticos semanalmente y devuelve compost a familias bogotanas, desviando más de 110 toneladas mensuales del vertedero.",ct1:"CT-WA-002"},
+{n:"MOVILTRONICS SAS",p:"CLAC25",c:"CO",w:"moviltronics.com",t:"EN",st:"Pre-Seed",d:"Retailer and importer of electric motorcycles, e-bikes, solar components, and electronic parts for makers and EV conversion projects across Colombia.",ds:"Minorista e importador de motocicletas eléctricas, e-bikes, componentes solares y partes electrónicas para makers y proyectos de conversión EV en Colombia.",ct1:"CT-TR-001",ct2:"CT-EN-001"},
+{n:"PACACEITE SAS",p:"CLAC25",c:"CO",w:null,t:"BIO",st:"Pre-Seed",d:"Develops sustainable bio-based products from vegetable oil or biomass inputs, targeting agricultural value chain transformation and bioenergy solutions in Colombia.",ds:"Desarrolla productos bio-basados sostenibles a partir de aceites vegetales o biomasa, orientados a la transformación de cadenas de valor agrícolas y soluciones de bioenergía en Colombia."},
+{n:"PAOLA SOLAR INSIGHTS",p:"CLAC25",c:"CO",w:"paolasolarinsights.com",t:"EN",st:"Pre-Seed",d:"Solar energy consultancy providing market analysis, technical education, and strategic communication for businesses and communities transitioning to solar in Colombia.",ds:"Consultora de energía solar que ofrece análisis de mercado, educación técnica y comunicación estratégica para empresas y comunidades que transicionan a la energía solar en Colombia.",ct1:"CT-EN-001"},
+{n:"PLASFACOL",p:"CLAC25",c:"CO",w:null,t:"CE",st:"Pre-Seed",d:"Manufactures or recycles plastic materials, developing circular solutions for plastic waste recovery and transformation into reusable industrial inputs.",ds:"Fabrica o recicla materiales plásticos, desarrollando soluciones circulares para la recuperación y transformación de residuos plásticos en insumos industriales reutilizables."},
+{n:"POLICY MAKERS AI",p:"CLAC25",c:"CO",w:null,t:"EN",st:"Pre-Seed",d:"AI-powered platform supporting climate and sustainability policy design for governments, transforming complex environmental data into actionable insights for decision-makers.",ds:"Plataforma impulsada por IA que apoya el diseño de políticas climáticas y de sostenibilidad para gobiernos, transformando datos ambientales complejos en información accionable para tomadores de decisiones."},
+{n:"SELVAMAR",p:"CLAC25",c:"CO",w:"selvamar.com",t:"BIO",st:"Pre-Seed",d:"Harnesses biodiversity from forest and marine ecosystems to develop sustainable bio-based products or conservation-linked economic models in Colombia.",ds:"Aprovecha la biodiversidad de ecosistemas forestales y marinos para desarrollar productos bio-basados sostenibles o modelos económicos vinculados a la conservación en Colombia.",ct1:"CT-AF-009"},
+{n:"SLOW",p:"CLAC25",c:"CO",w:null,t:"CE",st:"Pre-Seed",d:"Circular fashion platform collecting and recycling post-consumer textile waste, connecting fashion industry, consumers, and recyclers to prevent garments from reaching landfill.",ds:"Plataforma de moda circular que recolecta y recicla residuos textiles post-consumo, conectando la industria de la moda, consumidores y recicladores para evitar que las prendas lleguen al vertedero."},
+{n:"TECNOLOGÍAS ECOLÓGICAS ECOTEC SAS",p:"CLAC25",c:"CO",w:"ecotecsas.com",t:"CE",st:"Pre-Seed",d:"Yumbo company specializing in treatment and recovery of battery waste, accumulators, and electrical/electronic waste with an environmental license for hazardous materials.",ds:"Empresa de Yumbo especializada en tratamiento y recuperación de residuos de baterías, acumuladores y aparatos eléctricos y electrónicos, con licencia ambiental para materiales peligrosos.",ct1:"CT-WA-003"},
+{n:"GREEN RUNNERS",p:"CLP",c:"CO",w:"green-runners.com",t:"CE",st:"Seed",d:"Community-led platform helping runners and race organizers reduce the environmental footprint of running events by addressing travel emissions, gear, and single-use plastics.",ds:"Plataforma comunitaria que ayuda a corredores y organizadores de carreras a reducir la huella ambiental de eventos deportivos, abordando emisiones de transporte, equipos y plásticos desechables.",ct1:"CT-XS-008"},
+{n:"CHISPA ACCIÓN SOCIAL",p:"CLP",c:"CO",w:"chis.pa",t:"EN",st:"Seed",d:"Deploys low-cost air quality sensor networks in Cali and mobilizes community volunteers to monitor pollution and drive local environmental policy action.",ds:"Despliega redes de sensores de calidad del aire de bajo costo en Cali y moviliza voluntarios comunitarios para monitorear la contaminación y promover acción de política ambiental local.",ct1:"CT-IC-004"},
+{n:"TWO GLASS",p:"CLP",c:"CO",w:"twoglass.co",t:"CE",st:"Seed",d:"Transforms recycled glass bottles into eco-friendly home products, supporting informal recyclers and reducing waste while preventing adulterated alcohol misuse.",ds:"Transforma botellas de vidrio reciclado en productos ecológicos para el hogar, apoyando a recicladores informales y reduciendo residuos mientras previene el uso de alcohol adulterado.",ct1:"CT-WA-003"},
+{n:"SINCARBONO",p:"CLP",c:"CO",w:"sincarbono.io",t:"EN",st:"Seed",d:"B2B SaaS platform enabling Latin American companies to measure, manage, and reduce corporate carbon footprints across scopes 1, 2, and 3 using GHG Protocol methodology.",ds:"Plataforma SaaS B2B que permite a empresas latinoamericanas medir, gestionar y reducir sus huellas de carbono corporativas bajo la metodología del Protocolo GHG en los alcances 1, 2 y 3.",ct1:"CT-XS-001",ct2:"CT-IC-002"},
+{n:"RIVIO",p:"CLP",c:"CO",w:"rivio.com",t:"EN",st:"Seed",d:"Latin American cleantech startup operating in the water or energy access space, serving underserved communities as a ClimateLaunchpad participant.",ds:"Startup latinoamericana de cleantech que opera en el espacio de acceso al agua o la energía, atendiendo a comunidades desatendidas como participante de ClimateLaunchpad.",ct1:"CT-WW-001",ct2:"CT-EN-001"},
+{n:"NATUPIN",p:"CLP",c:"CO",w:"natupin.bio",t:"BIO",st:"Pre-Seed",d:"Raises awareness of native species and biodiversity through merchandise and digital content, connecting consumers with Colombia's natural heritage to promote conservation.",ds:"Crea conciencia sobre especies nativas y biodiversidad a través de merchandising y contenido digital, conectando a consumidores con el patrimonio natural de Colombia para promover la conservación.",ct1:"CT-AF-009"},
+{n:"MULLBLUE",p:"CLP",c:"MX",w:"mullblue.mx",t:"CE",st:"Seed",d:"Mexican cleantech startup developing circular economy or waste management solutions to reduce environmental impact in industrial or consumer sectors.",ds:"Startup mexicana de cleantech que desarrolla soluciones de economía circular o gestión de residuos para reducir el impacto ambiental en sectores industriales y de consumo.",ct1:"CT-WA-003"},
+{n:"I CAN JUMP",p:"CLP",c:"CO",w:"f6s.com/company/i-can-jump",t:"EN",st:"Pre-Seed",d:"Early-stage Colombian cleantech startup focused on clean energy access solutions for homes or communities, participating in ClimateLaunchpad Colombia.",ds:"Startup colombiana de cleantech en etapa temprana enfocada en soluciones de acceso a energía limpia para hogares o comunidades, participante de ClimateLaunchpad Colombia.",ct1:"CT-EN-001"},
+{n:"HEOX",p:"CLP",c:"ES",w:"heox.es",t:"EN",st:"Seed",d:"Spanish cleantech startup developing hydrogen or clean energy technology to accelerate the energy transition in industrial or mobility sectors.",ds:"Startup española de cleantech que desarrolla tecnología de hidrógeno o energía limpia para acelerar la transición energética en sectores industriales o de movilidad.",ct1:"CT-EN-009"},
+{n:"ECO IDEAS",p:"CLP",c:"PA",w:"ecoideaspa.com",t:"CE",st:"Pre-Seed",d:"Panamanian sustainability consultancy providing circular economy education, training programs, and sustainable practice adoption support to SMEs.",ds:"Consultora panameña de sostenibilidad que ofrece educación en economía circular, programas de formación y apoyo en la adopción de prácticas sostenibles para pymes.",ct1:"CT-XS-008"},
+{n:"BIOMIMESIS COLOMBIA",p:"CLP",c:"CO",w:"biomimicrycolombia.org",t:"BIO",st:"Pre-Seed",d:"Applies biomimicry principles to design nature-inspired solutions, offering consulting, education, and product innovation that emulates ecological processes.",ds:"Aplica principios de biomimesis para diseñar soluciones inspiradas en la naturaleza, ofreciendo consultoría, educación e innovación de productos que emulan procesos ecológicos.",ct1:"CT-AF-009"},
+{n:"BARAKAH",p:"CLP",c:"CO",w:"barakah.com.co",t:"BIO",st:"Pre-Seed",d:"Offers bio-based or nature-inspired agricultural and food products improving smallholder livelihoods while reducing environmental degradation in Colombia.",ds:"Ofrece productos agrícolas y alimentarios bio-basados o inspirados en la naturaleza que mejoran los medios de vida de pequeños agricultores mientras reducen la degradación ambiental.",ct1:"CT-AF-009"},
+{n:"AGROTRUST",p:"CLP",c:"CL",w:"agrotrust.cl",t:"BIO",st:"Seed",d:"Distributes Swiss-developed bioactivation products improving soil biodiversity, crop quality, and farm productivity while reducing synthetic inputs for Chilean farmers.",ds:"Distribuye productos suizos de bioactivación que mejoran la biodiversidad del suelo, la calidad de los cultivos y la productividad agrícola, reduciendo insumos sintéticos para agricultores chilenos.",ct1:"CT-AF-010"},
+{n:"AGROMETERS",p:"CLP",c:"CO",w:"agrometers.com",t:"BIO",st:"Seed",d:"Develops handheld spectrometer crop diagnostic devices giving farmers real-time plant nutrient insights to optimize fertilizer use and improve yields.",ds:"Desarrolla dispositivos portátiles de diagnóstico de cultivos con espectrómetro que brindan a agricultores información de nutrientes de plantas en tiempo real para optimizar el uso de fertilizantes.",ct1:"CT-IC-005"},
+{n:"ZIRCULAR",p:"CLP",c:"CO",w:"zioning.com",t:"EN",st:"Seed",d:"Provides IIoT and machine learning tools to help industrial clients transition to renewable energy and reduce CO₂ emissions through Industry 4.0 approaches.",ds:"Proporciona herramientas IIoT y de aprendizaje automático para ayudar a clientes industriales a transicionar a energías renovables y reducir CO₂ con enfoques de Industria 4.0.",ct1:"CT-IC-005",ct2:"CT-IN-001"},
+{n:"SCEM-ECO",p:"CLP",c:"CL",w:"scem-eco.com",t:"CE",st:"Seed",d:"Develops biotechnology-based biodegradable cleaning and hygiene products that are environmentally safe for food, hospitality, healthcare, and industrial sectors.",ds:"Desarrolla productos de limpieza e higiene biodegradables de base biotecnológica que son ambientalmente seguros para los sectores de alimentos, hostelería, salud e industria.",ct1:"CT-WA-004"},
+{n:"GREENDEX",p:"CLP",c:"MX",w:"greendex.earth",t:"CE",st:"Pre-Seed",d:"Sustainability scoring platform and app grading companies on environmental and social governance practices, helping consumers make informed purchasing decisions.",ds:"Plataforma y app de puntuación de sostenibilidad que califica a empresas en prácticas ambientales y sociales, ayudando a consumidores a tomar decisiones de compra informadas.",ct1:"CT-XS-004"},
+{n:"CARBONBOX",p:"CLP",c:"CO",w:"carbonbox.app",t:"EN",st:"Pre-Seed",d:"SaaS platform automating corporate carbon footprint measurement, reduction scenario planning, and offset management for businesses and events across Latin America.",ds:"Plataforma SaaS que automatiza la medición de la huella de carbono corporativa, la planificación de reducción y la gestión de compensaciones para empresas y eventos en América Latina.",ct1:"CT-XS-001",ct2:"CT-IC-002"},
+{n:"WEIA",p:"CLP",c:"CO",w:"weia.com.co",t:"BIO",st:"Seed",d:"Fintech-agtech startup offering supply chain financing and blockchain traceability for smallholder farmers, enabling input purchases at planting and repayment post-harvest.",ds:"Startup fintech-agtech que ofrece financiamiento de cadena de suministro y trazabilidad blockchain para pequeños agricultores, permitiendo compras de insumos al inicio y pago tras la cosecha.",ct1:"CT-IC-003",ct2:"CT-AF-001"},
+{n:"BIOAMBIENTAR",p:"CLP",c:"CO",w:"bioambientar.com",t:"CE",st:"Seed",d:"Accelerates organic waste composting from six months to ten days using plant extracts, selling home composting kits and training rural women through community programs.",ds:"Acelera el compostaje de residuos orgánicos de seis meses a diez días mediante extractos vegetales, vendiendo kits de compostaje y formando a mujeres rurales en programas comunitarios.",ct1:"CT-WA-002"},
+{n:"OASIS GROUP",p:"CLP",c:"CO",w:"oasisgroup.online",t:"EN",st:"Seed",d:"Medellín startup promoting electric mobility through innovative charging infrastructure and technology for cleaner urban and peri-urban transportation.",ds:"Startup de Medellín que promueve la movilidad eléctrica a través de infraestructura de carga innovadora y tecnología para transporte más limpio en zonas urbanas y periurbanas.",ct1:"CT-TR-001"},
+{n:"APICULTORES Y RESCATISTAS",p:"CLP",c:"CO",w:"apicultoresyrescatistas.com",t:"BIO",st:"Pre-Seed",d:"Provides professional bee rescue and wasp relocation services to energy, education, and residential sectors while operating an experimental apiary for rescued colonies.",ds:"Ofrece servicios profesionales de rescate de abejas y reubicación de avispas para sectores de energía, educación y residencial, y opera un apiario experimental para colonias rescatadas.",ct1:"CT-AF-009"},
+{n:"NEO FIBERS SAC",p:"CLP",c:"PE",w:"neofibers.pe",t:"BIO",st:"Seed",d:"Amazonian fashiontech developing sustainable luxury textile products — yarns, fabrics, and ready-to-wear — sourced from Peruvian Amazon biodiversity for global markets.",ds:"Empresa amazónica de moda sostenible que desarrolla productos textiles de lujo — hilos, telas y confecciones — de la biodiversidad del Amazonas peruano para mercados globales.",ct1:"CT-AF-009",ct2:"CT-EX-038"},
+{n:"ZERO WASTE CENTROAMÉRICA",p:"CLP",c:"CR",w:"zerowaste.today",t:"CE",st:"Seed",d:"Provides construction debris recycling and organic waste composting, enabling construction projects to recover and reuse materials toward zero-waste certification.",ds:"Provee reciclaje de escombros de construcción y compostaje de residuos orgánicos, permitiendo a proyectos recuperar y reutilizar materiales hacia la certificación de cero residuos.",ct1:"CT-WA-003"},
+{n:"ISTMO VERDE SA",p:"CLP",c:"GT",w:null,t:"EN",st:"Seed",d:"Guatemala's first company developing forest-sector carbon compensation projects, enabling businesses to offset footprints through verified local reforestation and conservation.",ds:"Primera empresa guatemalteca que desarrolla proyectos de compensación de emisiones en el sector forestal, permitiendo a empresas compensar su huella mediante reforestación verificada local."},
+{n:"ECO DOMO",p:"CLP20",c:"MX",w:"domoworldaxm.com",t:"CE",st:"Seed",d:"Builds ecological geodesic dome housing using recovered plastic and renewable energy, offering sustainable affordable housing with circular material recovery.",ds:"Construye viviendas geodésicas ecológicas usando plástico recuperado y energía renovable, ofreciendo soluciones de vivienda asequible sostenible con recuperación circular de materiales.",ct1:"CT-BU-003"},
+{n:"VIRTUALEL",p:"CLP20",c:"CO",w:null,t:"EN",st:"Seed",d:"Colombian cleantech startup from the 2020 CLP cohort focused on virtual energy solutions or digital tools for electricity management and renewable energy access.",ds:"Startup colombiana de cleantech del cohorte CLP 2020 enfocada en soluciones de energía virtual o herramientas digitales para la gestión de electricidad y acceso a energías renovables."},
+{n:"FRUITABLE",p:"CLP20",c:"CO",w:null,t:"BIO",st:"Seed",d:"Upcycles surplus or discarded fruit into value-added food products, reducing agricultural waste and creating revenue opportunities for Colombian farmers and processors.",ds:"Transforma frutas excedentes o descartadas en productos alimentarios de valor agregado, reduciendo residuos agrícolas y creando oportunidades de ingresos para agricultores y procesadores colombianos."},
+{n:"AGRONIELSEN",p:"CLP20",c:"CO",w:null,t:"BIO",st:"Seed",d:"Applies data analytics or sensing technology to help farmers monitor crops, improve yields, and make evidence-based decisions for sustainable agriculture.",ds:"Aplica análisis de datos o tecnología de sensores para ayudar a agricultores a monitorear cultivos, mejorar rendimientos y tomar decisiones basadas en evidencia para una agricultura sostenible."},
+{n:"BIOFADI",p:"CLP20",c:"CO",w:null,t:"BIO",st:"Seed",d:"Develops biofertilizer or bio-based agricultural inputs improving soil health and crop performance while reducing dependence on synthetic chemicals.",ds:"Desarrolla biofertilizantes e insumos agrícolas de base biológica que mejoran la salud del suelo y el rendimiento de cultivos mientras reducen la dependencia de químicos sintéticos."},
+{n:"CONEXA SOLUCIONES",p:"CLP20",c:"CO",w:null,t:"EN",st:"Seed",d:"Provides IoT-based energy monitoring and efficiency solutions for industrial and commercial clients, enabling real-time consumption data and operational cost reduction.",ds:"Provee soluciones IoT de monitoreo y eficiencia energética para clientes industriales y comerciales, habilitando datos de consumo en tiempo real y reducción de costos operativos."},
+{n:"CROPEXPERT",p:"CLP20",c:"CO",w:null,t:"BIO",st:"Seed",d:"Precision agriculture software and advisory helping farmers optimize inputs, monitor plant health, and improve yields through data-driven crop management.",ds:"Software y asesoría de agricultura de precisión que ayuda a agricultores a optimizar insumos, monitorear la salud de los cultivos y mejorar rendimientos mediante gestión basada en datos."},
+{n:"COOLEST FINS",p:"CLP20",c:"CO",w:null,t:"EN",st:"Seed",d:"Colombian cleantech startup from the 2020 CLP cohort developing solutions in clean energy, ocean resources, or sustainable materials.",ds:"Startup colombiana de cleantech del cohorte CLP 2020 que desarrolla soluciones en energía limpia, recursos oceánicos o materiales sostenibles."},
+{n:"TECDE INC",p:"CLP25",c:"CO",w:"tecde.ai",t:"BIO",st:"Seed",d:"Uses computer vision and AI edge computing to estimate harvest weight and quality in real time, providing traceability and reducing losses in agro-industrial supply chains.",ds:"Usa visión computacional e IA de borde para estimar el peso y calidad de la cosecha en tiempo real, brindando trazabilidad y reduciendo pérdidas en cadenas agroindustriales.",ct1:"CT-IC-005"},
+{n:"LA VERANERA",p:"CLP25",c:"CO",w:"veraneraorganica.com",t:"BIO",st:"Pre-Seed",d:"Family farm producing and commercializing certified-organic specialty coffee through regenerative agriculture practices in the Coffee Cultural Landscape of Quindío.",ds:"Finca familiar que produce y comercializa café especialidad orgánico certificado mediante prácticas de agricultura regenerativa en el Paisaje Cultural Cafetero de Quindío.",ct1:"CT-AF-001"},
+{n:"COLOMBIA POR NATURALEZA",p:"CLP25",c:"CO",w:null,t:"BIO",st:"Pre-Seed",d:"Promotes nature-based solutions or biodiversity conservation through eco-tourism, environmental education, or sustainable land-use models in Colombia.",ds:"Promueve soluciones basadas en la naturaleza o la conservación de la biodiversidad a través del ecoturismo, la educación ambiental o modelos sostenibles de uso del suelo en Colombia."},
+{n:"SÚPER CHIGÜI",p:"CLP25",c:"CO",w:null,t:"BIO",st:"Pre-Seed",d:"Develops bio-based or sustainable products using native Amazonian or Andean species, targeting food, cosmetics, or materials innovation markets in Colombia.",ds:"Desarrolla productos bio-basados o sostenibles a partir de especies nativas amazónicas o andinas, orientados a mercados de innovación en alimentos, cosméticos o materiales en Colombia."},
+{n:"BIOFER",p:"CLP25",c:"CO",w:null,t:"BIO",st:"Pre-Seed",d:"Produces bio-based fertilizer inputs from organic or agricultural waste streams, providing affordable sustainable alternatives to synthetic fertilizers for Colombian farmers.",ds:"Produce insumos fertilizantes bio-basados de flujos de residuos orgánicos o agrícolas, brindando alternativas sostenibles y asequibles a los fertilizantes sintéticos para agricultores colombianos."},
+{n:"MELIPAPP",p:"CLP25",c:"CO",w:null,t:"BIO",st:"Pre-Seed",d:"Digital platform supporting stingless bee (meliponiculture) farmers with hive management, production tracking, and market access tools.",ds:"Plataforma digital que apoya a los productores de abejas nativas sin aguijón (meliponicultura) con gestión de colmenas, seguimiento de producción y herramientas de acceso al mercado."},
+{n:"HYDROFORGE",p:"CLP25",c:"CO",w:null,t:"EN",st:"Pre-Seed",d:"Develops clean hydrogen production or water-energy nexus technology to provide renewable energy solutions for industrial or off-grid community applications.",ds:"Desarrolla tecnología de producción de hidrógeno limpio o del nexo agua-energía para brindar soluciones de energía renovable a aplicaciones industriales o comunitarias aisladas."},
+{n:"PLASTIFUEL",p:"CLP25",c:"CO",w:null,t:"CE",st:"Pre-Seed",d:"Converts plastic waste into fuel through pyrolysis or thermochemical processes, addressing plastic pollution while generating a circular energy resource.",ds:"Convierte residuos plásticos en combustible mediante procesos de pirólisis o termoquímicos, abordando la contaminación plástica mientras genera un recurso energético circular."},
+{n:"HIDROBANK",p:"CLP25",c:"CO",w:null,t:"BIO",st:"Pre-Seed",d:"Creates a water banking or credit system to help farmers, communities, and municipalities manage, trade, and conserve freshwater resources sustainably.",ds:"Crea un sistema de banco de agua o créditos hídricos para ayudar a agricultores, comunidades y municipios a gestionar, intercambiar y conservar los recursos de agua dulce de forma sostenible."},
+{n:"SEMILLATEK",p:"CLP25",c:"CO",w:null,t:"BIO",st:"Pre-Seed",d:"Agritech startup improving seed selection, storage, germination, or distribution for smallholder farmers, supporting food security and crop biodiversity.",ds:"Startup agritech que mejora la selección, almacenamiento, germinación o distribución de semillas para pequeños agricultores, apoyando la seguridad alimentaria y la biodiversidad de cultivos."}
+];
+
+
+const EPIC_SLUG_LEGACY={
+  'o3-smart-cities':'O3 SMART CITIES','green-leaf':'GREEN LEAF','bio-natural-solutions':'BIO NATURAL SOLUTIONS',
+  'basilisco':'BASÍLISCO','reemade':'REEMADE','xiclo':'XICLO','ecopoop':'ECO POOP',
+  'seos-energy':'SEOS ENERGY SAS BIC','bioambientar':'BIOAMBIENTAR','biogar':'BIOGAR','gescol':'GESCOL SAS BIC'
+};
+let epicOnly=new URLSearchParams(location.search).get('epic')==='1';
+let imdOnly=new URLSearchParams(location.search).get('imd_pe')==='1';
+if(epicOnly&&imdOnly){imdOnly=false;}
+let EPIC_CARDS=[];
+let IMD_CARDS=[];
+
+function normalizeProgram(p){
+  if(!p) return 'CLP';
+  if(p==='CLP26') return 'CLP';
+  if(p==='GIZ Growth Services') return 'CLP';
+  if(p==='CLAC23'||p==='CLAC22'||p==='CLAC24'||p==='CLAC25'||p==='CLAC21'||p==='CLP'||p==='CLP20'||p==='CLP25') return p;
+  return 'CLP';
+}
+function normalizeStage(st){
+  if(!st||st==='[PENDIENTE]'||st==='Launched') return st==='Launched'?'Seed':(st||'Seed');
+  if(st==='Private Beta') return 'Pre-Seed';
+  if(st==='Public Beta') return 'Pre-Series A';
+  return st;
+}
+function legacyForSlug(slug,name){
+  const key=EPIC_SLUG_LEGACY[slug];
+  if(key) return S.find(s=>s.n===key);
+  return S.find(s=>s.n.toUpperCase()===String(name||'').toUpperCase());
+}
+function epicToCard(e){
+  const legacy=legacyForSlug(e.slug,e.name);
+  const desc=e.desc_en||legacy?.d||(`${e.name} — CleantechHUB portfolio startup.`);
+  const descEs=e.desc_es||legacy?.ds||desc;
+  return {
+    slug:e.slug,n:e.name,p:normalizeProgram(e.program),c:e.country||'CO',w:e.website,
+    t:e.theme||legacy?.t||'CE',st:normalizeStage(e.stage)||legacy?.st||'Seed',
+    d:desc,ds:descEs,ct1:e.ct1||legacy?.ct1||'',ct2:legacy?.ct2||'',founder:e.founder,epic:true,
+    youtube:e.youtube||'',onepager:e.onepager||''
+  };
+}
+function imdToCard(e){
+  const desc=e.desc_en||(`${e.name} — Peru CTH program alumni.`);
+  const descEs=e.desc_es||desc;
+  return {
+    slug:e.slug,n:e.name,p:normalizeProgram(e.program),c:e.country||'PE',w:e.website,
+    t:e.theme||'BIO',st:normalizeStage(e.stage)||'Seed',
+    d:desc,ds:descEs,ct1:e.ct1||'',ct2:'',founder:e.founder,imd:true,
+    nexusPath:e.nexus_path||'',youtube:e.youtube||'',onepager:e.onepager||''
+  };
+}
+async function loadEpicCards(){
+  try{
+    const res=await fetch('/nexus-assets/epic-angels-shareable.json?v=20260924-imd-sync');
+    const data=await res.json();
+    EPIC_CARDS=(data.startups||[]).map(epicToCard);
+  }catch(err){console.error('Epic list load failed',err);EPIC_CARDS=[];}
+  if(epicOnly){
+    document.getElementById('epic-tog')?.classList.add('active');
+    document.getElementById('epic-stat')?.style.setProperty('display','inline-block');
+    webOnly=false;
+    document.getElementById('web-tog')?.classList.remove('active');
+  }
+  render();
+}
+async function loadImdCards(){
+  try{
+    const res=await fetch('/nexus-assets/imd-peru-shareable.json?v=20260924-imd16');
+    const data=await res.json();
+    IMD_CARDS=(data.startups||[]).map(imdToCard);
+  }catch(err){console.error('IMD Peru list load failed',err);IMD_CARDS=[];}
+  if(imdOnly){
+    document.getElementById('imd-tog')?.classList.add('active');
+    document.getElementById('imd-stat')?.style.setProperty('display','inline-block');
+    webOnly=false;
+    document.getElementById('web-tog')?.classList.remove('active');
+  }
+  render();
+}
+function syncSpecialQuery(){
+  const next=new URLSearchParams(location.search);
+  if(epicOnly){next.set('epic','1');next.delete('imd_pe');imdOnly=false;}
+  else next.delete('epic');
+  if(imdOnly){next.set('imd_pe','1');next.delete('epic');epicOnly=false;}
+  else next.delete('imd_pe');
+  const qs=next.toString();
+  history.replaceState(null,'',location.pathname+(qs?('?'+qs):''));
+}
+function toggleEpic(){
+  epicOnly=!epicOnly;
+  if(epicOnly) imdOnly=false;
+  syncSpecialQuery();
+  document.getElementById('epic-tog')?.classList.toggle('active',epicOnly);
+  document.getElementById('epic-stat')?.style.setProperty('display',epicOnly?'inline-block':'none');
+  document.getElementById('imd-tog')?.classList.toggle('active',imdOnly);
+  document.getElementById('imd-stat')?.style.setProperty('display',imdOnly?'inline-block':'none');
+  if(epicOnly){webOnly=false;document.getElementById('web-tog')?.classList.remove('active');}
+  render();
+}
+function toggleImd(){
+  imdOnly=!imdOnly;
+  if(imdOnly) epicOnly=false;
+  syncSpecialQuery();
+  document.getElementById('imd-tog')?.classList.toggle('active',imdOnly);
+  document.getElementById('imd-stat')?.style.setProperty('display',imdOnly?'inline-block':'none');
+  document.getElementById('epic-tog')?.classList.toggle('active',epicOnly);
+  document.getElementById('epic-stat')?.style.setProperty('display',epicOnly?'inline-block':'none');
+  if(imdOnly){webOnly=false;document.getElementById('web-tog')?.classList.remove('active');}
+  render();
+}
+
+let fProg='ALL',fTheme='ALL',fStage='ALL',webOnly=true,lang='EN';
+
+function setLang(l){
+  lang=l;
+  document.getElementById('btn-en').classList.toggle('active',l==='EN');
+  document.getElementById('btn-es').classList.toggle('active',l==='ES');
+  applyUI();loadEpicCards();loadImdCards();
+}
+
+function applyUI(){
+  const t=UI[lang];
+  document.getElementById('subtitle').textContent=t.subtitle;
+  document.getElementById('lbl-web').textContent=t.web;
+  document.getElementById('lbl-show').textContent=t.show;
+  document.getElementById('lbl-prog').textContent=t.prog;
+  document.getElementById('q').placeholder=t.search;
+  document.getElementById('lbl-frog').textContent=t.fProg;
+  document.getElementById('lbl-ftheme').textContent=t.fTheme;
+  document.getElementById('lbl-fstage').textContent=t.fStage;
+  document.getElementById('web-tog').textContent=t.webOnly;
+  document.getElementById('fb-ce').textContent=t.ce;
+  document.getElementById('fb-bio').textContent=t.bio;
+  document.getElementById('fb-en').textContent=t.en;
+  document.getElementById('fb-psa').textContent=t.psa;
+  document.getElementById('fb-sa').textContent=t.sa;
+  document.getElementById('fb-sb').textContent=t.sb;
+  document.getElementById('lbl-total').textContent='Total';
+}
+
+function setF(dim,val){
+  if(dim==='prog'){fProg=val;document.querySelectorAll('[data-p]').forEach(b=>b.classList.toggle('active',b.dataset.p===val));}
+  if(dim==='theme'){fTheme=val;document.querySelectorAll('[data-t]').forEach(b=>b.classList.toggle('active',b.dataset.t===val));}
+  if(dim==='stage'){fStage=val;document.querySelectorAll('[data-s]').forEach(b=>b.classList.toggle('active',b.dataset.s===val));}
+  render();
+}
+
+function renderCard(s,t){
+  const flag=FLAGS[s.c]||'\u{1F30D}';
+  const hasW=!!s.w;
+  const desc=lang==='ES'?s.ds:s.d;
+  const webBtn=hasW
+    ?'<a class="site-btn" href="https://'+s.w+'" target="_blank" rel="noopener" onclick="event.stopPropagation()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg> '+t.visit+'</a>'
+    :'<span class="ns">'+t.noSite+'</span>';
+  const nexusHref=s.nexusPath||(s.slug?'/s/'+s.slug:'');
+  const nexusBtn=nexusHref?'<a class="nexus-btn" href="'+nexusHref+'" onclick="event.stopPropagation()">Nexus ↗</a>':'';
+  const onepagerBtn=s.onepager?'<a class="nexus-btn onepager-btn" href="/s/'+s.onepager+'" onclick="event.stopPropagation()">One-pager</a>':'';
+  const epicBadge=s.epic?'<span class="epic-badge">Epic Angels</span>':'';
+  const imdBadge=s.imd?'<span class="imd-badge">IMD · Perú</span>':'';
+  const stk={'Pre-Seed':'PS','Seed':'S','Pre-Series A':'PSA','Series A':'SA','Series B+':'SBP'}[s.st]||'PS';
+  const ctBadges=(s.ct1?ctBadge(s.ct1):'')+(s.ct2?ctBadge(s.ct2):'');
+  const modalData=encodeURIComponent(JSON.stringify({n:s.n,p:s.p,c:FLAGS[s.c]||'\u{1F30D}',w:s.w,t:s.t,st:s.st,d:lang==='ES'?s.ds:s.d,ct1:s.ct1||'',ct2:s.ct2||'',youtube:s.youtube||'',onepager:s.onepager||''}));
+  return '<div class="card '+(hasW?'':'nw')+'" data-startup="'+modalData+'" onclick="openCTModal(this)"><div class="cb bar-'+s.p+'"></div><div class="ct"><div class="cn">'+s.n+'</div><div class="cf">'+flag+'</div></div><div class="cd">'+desc+'</div><div class="cbot">'+epicBadge+imdBadge+'<span class="badge bp-'+s.p+'">'+s.p+'</span><span class="badge bt-'+s.t+'">'+t.tShort[s.t]+'</span><span class="badge bs-'+stk+'">'+t.sShort[s.st]+'</span>'+ctBadges+nexusBtn+onepagerBtn+webBtn+'</div></div>';
+}
+
+function toggleWeb(){webOnly=!webOnly;document.getElementById('web-tog').classList.toggle('active',webOnly);render();}
+
+function render(){
+  const t=UI[lang];
+  const q=document.getElementById('q').value.trim().toLowerCase();
+  if(epicOnly){
+    let list=EPIC_CARDS.slice();
+    if(q) list=list.filter(s=>s.n.toLowerCase().includes(q)||(s.founder||'').toLowerCase().includes(q));
+    document.getElementById('st-total').textContent=EPIC_CARDS.length||18;
+    document.getElementById('st-web').textContent=EPIC_CARDS.length||18;
+    document.getElementById('st-show').textContent=list.length;
+    document.getElementById('ri').textContent=list.length?(`${list.length}/18 Epic Angels · verified site`):'';
+    const grid=document.getElementById('grid');
+    if(!list.length){grid.innerHTML='<div class="empty">'+t.noMatch+'</div>';return;}
+    grid.innerHTML=list.map(s=>renderCard(s,t)).join('');
+    return;
+  }
+  if(imdOnly){
+    let list=IMD_CARDS.slice();
+    if(q) list=list.filter(s=>s.n.toLowerCase().includes(q)||(s.founder||'').toLowerCase().includes(q));
+    const total=IMD_CARDS.length||16;
+    document.getElementById('st-total').textContent=total;
+    document.getElementById('st-web').textContent=list.filter(s=>s.w).length;
+    document.getElementById('st-show').textContent=list.length;
+    document.getElementById('ri').textContent=list.length?(`${list.length}/${total} IMD · Perú · CTH programs`):'';
+    const grid=document.getElementById('grid');
+    if(!list.length){grid.innerHTML='<div class="empty">'+t.noMatch+'</div>';return;}
+    grid.innerHTML=list.map(s=>renderCard(s,t)).join('');
+    return;
+  }
+  let list=S;
+  if(fProg!=='ALL') list=list.filter(s=>s.p===fProg);
+  if(fTheme!=='ALL') list=list.filter(s=>s.t===fTheme);
+  if(fStage!=='ALL') list=list.filter(s=>s.st===fStage);
+  if(webOnly) list=list.filter(s=>s.w);
+  if(q) list=list.filter(s=>s.n.toLowerCase().includes(q));
+  list=[...list].sort((a,b)=>{if(!!a.w===!!b.w)return a.n.localeCompare(b.n);return a.w?-1:1;});
+
+  document.getElementById('st-total').textContent=S.length;
+  document.getElementById('st-web').textContent=S.filter(s=>s.w).length;
+  document.getElementById('st-show').textContent=list.length;
+  document.getElementById('ri').textContent=list.length?t.shown(list.length):'';
+
+  const grid=document.getElementById('grid');
+  if(!list.length){grid.innerHTML='<div class="empty">'+t.noMatch+'</div>';return;}
+
+  grid.innerHTML=list.map(s=>renderCard(s,t)).join('');
+}
+
+applyUI();loadEpicCards();loadImdCards();
+</script>
+<script src="/nexus-assets/nexus-nav.js?v=3"></script>
+
+<div id="ct-modal" class="ct-modal-overlay" style="display:none" onclick="closeCTModal(event)">
+  <div class="ct-modal-box">
+    <button class="ct-modal-close" onclick="document.getElementById('ct-modal').style.display='none'">&#10005;</button>
+    <div id="ct-modal-content"></div>
+  </div>
+</div>
+</body>
+</html>

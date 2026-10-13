@@ -140,6 +140,39 @@ def team_grid(members: list[dict], slug: str) -> str:
     return f'<div class="team-grid">{"".join(cards)}</div>'
 
 
+def youtube_id(url: str) -> str:
+    from urllib.parse import urlparse, parse_qs
+
+    raw = (url or "").strip()
+    if not raw:
+        return ""
+    if "://" not in raw and "/" not in raw:
+        return raw
+    parsed = urlparse(raw)
+    host = parsed.netloc.lower()
+    if host.endswith("youtu.be"):
+        return parsed.path.strip("/").split("/")[0]
+    if host.endswith("youtube.com") or host.endswith("youtube-nocookie.com"):
+        if parsed.path.startswith("/embed/"):
+            parts = parsed.path.split("/")
+            return parts[2] if len(parts) > 2 else ""
+        return parse_qs(parsed.query).get("v", [""])[0]
+    return ""
+
+
+def youtube_section(d: dict) -> str:
+    """Embedded player only when youtube is a non-empty URL or id."""
+    vid = youtube_id(d.get("youtube") or "")
+    if not vid:
+        return ""
+    return (
+        '<div class="deck-wrap"><div class="yt-pitch"><div class="yt-pitch-frame">'
+        f'<iframe src="https://www.youtube.com/embed/{vid}" title="YouTube pitch" '
+        'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" '
+        'allowfullscreen></iframe></div></div></div>'
+    )
+
+
 def deck_section(d: dict, slug: str) -> str:
     deck = d.get("deck_pdf")
     if not deck:
@@ -151,18 +184,50 @@ def deck_section(d: dict, slug: str) -> str:
     )
     local_pdf = deck.get("pdf_path") or f"/s/{slug}/deck.pdf"
     bg = asset_url(deck.get("bg", "./assets/bg-deck.jpg"), slug)
+    single = bool(deck.get("single_slide"))
+    pages = int(deck.get("pages") or 0)
+    frame_cls = "deck-frame"
+    wrap_cls = "deck-frame-wrap"
+    panel_cls = "deck-panel"
+    outer_cls = "deck-wrap"
+    pdf_hash = "#view=FitH&toolbar=1"
+    pager = ""
+    if single:
+        frame_cls = "deck-frame"
+        wrap_cls = "deck-frame-wrap"
+        panel_cls = "deck-panel deck-slide"
+        outer_cls = "deck-wrap deck-slide-wrap"
+        pdf_hash = "#page=1&view=Fit&toolbar=1&navpanes=0"
+        if pages > 1 and local_pdf:
+            pager = (
+                f'<div class="deck-pager" data-pdf="{local_pdf}" data-pages="{pages}">'
+                f'<button type="button" class="deck-page-btn" data-dir="-1">Prev</button>'
+                f'<span class="deck-page-label">1 / {pages}</span>'
+                f'<button type="button" class="deck-page-btn" data-dir="1">Next</button>'
+                f"</div>"
+                "<script>(function(){var root=document.currentScript.previousElementSibling;"
+                "if(!root)return;var frame=root.parentElement.querySelector('.deck-frame');"
+                "var label=root.querySelector('.deck-page-label');var total=+root.dataset.pages||1;var page=1;"
+                "function show(n){page=Math.max(1,Math.min(total,n));"
+                "if(frame)frame.src=root.dataset.pdf+'#page='+page+'&view=Fit&toolbar=1&navpanes=0';"
+                "if(label)label.textContent=page+' / '+total;"
+                "root.querySelectorAll('.deck-page-btn').forEach(function(b){var dir=+b.dataset.dir;"
+                "b.disabled=dir<0?page<=1:page>=total;});}"
+                "root.addEventListener('click',function(e){var b=e.target.closest('.deck-page-btn');"
+                "if(!b||b.disabled)return;show(page+(+b.dataset.dir||0));});show(1);})();</script>"
+            )
     iframe = ""
     if local_pdf:
         iframe = (
-            f'<div class="deck-frame-wrap">'
-            f'<embed class="deck-frame" src="{local_pdf}#view=FitH&toolbar=1" '
+            f'<div class="{wrap_cls}">'
+            f'<embed class="{frame_cls}" src="{local_pdf}{pdf_hash}" '
             f'type="application/pdf" title="{d["name"]} pitch deck">'
             f"</div>"
         )
     elif embed:
         iframe = (
-            f'<div class="deck-frame-wrap">'
-            f'<iframe class="deck-frame" src="{embed}" title="{d["name"]} pitch deck" '
+            f'<div class="{wrap_cls}">'
+            f'<iframe class="{frame_cls}" src="{embed}" title="{d["name"]} pitch deck" '
             f'loading="lazy" allow="autoplay" referrerpolicy="no-referrer-when-downgrade"></iframe>'
             f"</div>"
         )
@@ -178,7 +243,7 @@ def deck_section(d: dict, slug: str) -> str:
         f'<div class="sec-header"><div class="sec-num">📄</div>'
         f'<div class="sec-title">{bi("Pitch Deck", "Pitch Deck")}</div><div class="sec-rule"></div></div>'
         f'<div class="deck-note">{bi("Full-size deck preview below. Numbers on this profile match the deck only.", "Vista previa del deck a tamaño completo. Los números en este perfil provienen solo del deck.")}</div>'
-        f'<div class="deck-wrap"><div class="deck-panel">{iframe}{fallback}</div>'
+        f'<div class="{outer_cls}"><div class="{panel_cls}">{iframe}{pager}{fallback}</div>'
         f'<div class="deck-actions">'
         f'<a class="cta-link" href="{view}" target="_blank" rel="noopener">{bi("Open deck in Google Drive", "Abrir deck en Google Drive")}</a>'
         f'<a class="cta-link" href="{local_pdf}" target="_blank" rel="noopener">{bi("Download PDF", "Descargar PDF")}</a>'
@@ -300,6 +365,8 @@ def build_page(d: dict) -> str:
 </div>
 
 <div class="ribbon" style="background:rgba(12,73,138,.95);">{ribbon}</div>
+
+{youtube_section(d)}
 
 {deck_section(d, slug)}
 
