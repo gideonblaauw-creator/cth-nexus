@@ -113,6 +113,35 @@ def impact_grid(cards: list[dict]) -> str:
     return f'<div class="impact-grid">{"".join(items)}</div>'
 
 
+def founders_section(sec: dict, slug: str) -> str:
+    """Empty founders block (HITL) — hidden until LinkedIn data is added."""
+    members = sec.get("members") or []
+    if members:
+        return team_grid(members, slug) + (
+            f'<div class="frost-note">{bi(sec.get("dream_en", ""), sec.get("dream_es", ""))}</div>'
+            if sec.get("dream_en")
+            else ""
+        )
+    bg = asset_url(sec.get("bg", "./assets/bg-team.jpg"), slug)
+    placeholder = (
+        f'<div class="sec" hidden style="position:relative;">'
+        f'<div class="sec-bg" style="background-image:url(\'{bg}\');"></div>'
+        f'<div class="sec-ov" style="background:rgba(12,73,138,.30);"></div>'
+        f'<div class="sec-header"><div class="sec-num">{sec.get("num", 7):02d}</div>'
+        f'<div class="sec-title">{bi(sec.get("title_en", "Founders"), sec.get("title_es", "Fundadores"))}</div>'
+        f'<div class="sec-rule"></div></div>'
+        f'<div class="team-grid">'
+        f'<div class="team-card"><div class="tp-name">[Name]</div>'
+        f'<div class="tp-role">{bi("[Role]", "[Rol]")}</div>'
+        f'<a class="tp-link" href="#">{bi("LinkedIn", "LinkedIn")}</a></div>'
+        f"</div></div>"
+    )
+    note = ""
+    if sec.get("dream_en"):
+        note = f'<div class="frost-note">{bi(sec["dream_en"], sec["dream_es"])}</div>'
+    return placeholder + note
+
+
 def team_grid(members: list[dict], slug: str) -> str:
     cards = []
     for m in members:
@@ -161,15 +190,25 @@ def youtube_id(url: str) -> str:
 
 
 def youtube_section(d: dict) -> str:
-    """Embedded player only when youtube is a non-empty URL or id."""
+    """Pitch video: visible embed only when URL/id set; otherwise hidden placeholder (HITL)."""
     vid = youtube_id(d.get("youtube") or "")
-    if not vid:
-        return ""
+    if vid:
+        inner = (
+            f'<iframe src="https://www.youtube.com/embed/{vid}" title="YouTube pitch" '
+            'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" '
+            'allowfullscreen></iframe>'
+        )
+        hidden = ""
+    else:
+        inner = '<iframe src="" title="YouTube pitch"></iframe>'
+        hidden = " hidden"
     return (
-        '<div class="deck-wrap"><div class="yt-pitch"><div class="yt-pitch-frame">'
-        f'<iframe src="https://www.youtube.com/embed/{vid}" title="YouTube pitch" '
-        'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" '
-        'allowfullscreen></iframe></div></div></div>'
+        f'<div class="sec"{hidden} style="position:relative;">'
+        f'<div class="sec-ov" style="background:rgba(12,73,138,.30);"></div>'
+        f'<div class="sec-header"><div class="sec-num">▶</div>'
+        f'<div class="sec-title">{bi("Pitch Video", "Video pitch")}</div><div class="sec-rule"></div></div>'
+        f'<div class="deck-wrap"><div class="yt-pitch"><div class="yt-pitch-frame">{inner}</div></div></div>'
+        f"</div>"
     )
 
 
@@ -182,59 +221,92 @@ def deck_section(d: dict, slug: str) -> str:
     embed = deck.get("embed_url") or (
         f"https://drive.google.com/file/d/{drive_id}/preview" if drive_id else ""
     )
-    local_pdf = deck.get("pdf_path") or f"/s/{slug}/deck.pdf"
+    local_pdf = deck.get("pdf_path") or ""
     bg = asset_url(deck.get("bg", "./assets/bg-deck.jpg"), slug)
-    single = bool(deck.get("single_slide"))
+    slide_images = bool(deck.get("slide_images"))
     pages = int(deck.get("pages") or 0)
-    frame_cls = "deck-frame"
-    wrap_cls = "deck-frame-wrap"
-    panel_cls = "deck-panel"
-    outer_cls = "deck-wrap"
-    pdf_hash = "#view=FitH&toolbar=1"
+    panel_cls = "deck-panel deck-slide"
+    outer_cls = "deck-wrap deck-slide-wrap"
     pager = ""
-    if single:
+    slide_base = f"/s/{slug}/slides/s"
+    if slide_images and pages > 0:
+        iframe = (
+            f'<div class="deck-frame-wrap">'
+            f'<img class="deck-frame deck-img" src="{slide_base}-1.jpg" alt="{d["name"]} pitch deck slide" loading="lazy">'
+            f"</div>"
+        )
+        pager = (
+            f'<div class="deck-pager" data-slide-base="{slide_base}" data-pages="{pages}">'
+            f'<button type="button" class="deck-page-btn" data-dir="-1">Prev</button>'
+            f'<span class="deck-page-label">1 / {pages}</span>'
+            f'<button type="button" class="deck-page-btn" data-dir="1">Next</button>'
+            f"</div>"
+            "<script>(function(){var root=document.currentScript.previousElementSibling;"
+            "if(!root)return;var img=root.parentElement.querySelector('.deck-img');"
+            "var label=root.querySelector('.deck-page-label');var base=root.dataset.slideBase||'';"
+            "var total=+root.dataset.pages||1;var page=1;"
+            "function show(n){page=Math.max(1,Math.min(total,n));"
+            "if(img&&base)img.src=base+'-'+page+'.jpg';"
+            "if(label)label.textContent=page+' / '+total;"
+            "root.querySelectorAll('.deck-page-btn').forEach(function(b){var dir=+b.dataset.dir;"
+            "b.disabled=dir<0?page<=1:page>=total;});}"
+            "root.addEventListener('click',function(e){var b=e.target.closest('.deck-page-btn');"
+            "if(!b||b.disabled)return;show(page+(+b.dataset.dir||0));});show(1);})();</script>"
+        )
+    else:
+        single = bool(deck.get("single_slide"))
         frame_cls = "deck-frame"
         wrap_cls = "deck-frame-wrap"
-        panel_cls = "deck-panel deck-slide"
-        outer_cls = "deck-wrap deck-slide-wrap"
-        pdf_hash = "#page=1&view=Fit&toolbar=1&navpanes=0"
-        if pages > 1 and local_pdf:
-            pager = (
-                f'<div class="deck-pager" data-pdf="{local_pdf}" data-pages="{pages}">'
-                f'<button type="button" class="deck-page-btn" data-dir="-1">Prev</button>'
-                f'<span class="deck-page-label">1 / {pages}</span>'
-                f'<button type="button" class="deck-page-btn" data-dir="1">Next</button>'
+        panel_cls = "deck-panel"
+        outer_cls = "deck-wrap"
+        pdf_hash = "#view=FitH&toolbar=1"
+        if single:
+            panel_cls = "deck-panel deck-slide"
+            outer_cls = "deck-wrap deck-slide-wrap"
+            pdf_hash = "#page=1&view=Fit&toolbar=1&navpanes=0"
+            if pages > 1 and local_pdf:
+                pager = (
+                    f'<div class="deck-pager" data-pdf="{local_pdf}" data-pages="{pages}">'
+                    f'<button type="button" class="deck-page-btn" data-dir="-1">Prev</button>'
+                    f'<span class="deck-page-label">1 / {pages}</span>'
+                    f'<button type="button" class="deck-page-btn" data-dir="1">Next</button>'
+                    f"</div>"
+                    "<script>(function(){var root=document.currentScript.previousElementSibling;"
+                    "if(!root)return;var frame=root.parentElement.querySelector('.deck-frame');"
+                    "var label=root.querySelector('.deck-page-label');var total=+root.dataset.pages||1;var page=1;"
+                    "function show(n){page=Math.max(1,Math.min(total,n));"
+                    "if(frame)frame.src=root.dataset.pdf+'#page='+page+'&view=Fit&toolbar=1&navpanes=0';"
+                    "if(label)label.textContent=page+' / '+total;"
+                    "root.querySelectorAll('.deck-page-btn').forEach(function(b){var dir=+b.dataset.dir;"
+                    "b.disabled=dir<0?page<=1:page>=total;});}"
+                    "root.addEventListener('click',function(e){var b=e.target.closest('.deck-page-btn');"
+                    "if(!b||b.disabled)return;show(page+(+b.dataset.dir||0));});show(1);})();</script>"
+                )
+        iframe = ""
+        if local_pdf:
+            iframe = (
+                f'<div class="{wrap_cls}">'
+                f'<embed class="{frame_cls}" src="{local_pdf}{pdf_hash}" '
+                f'type="application/pdf" title="{d["name"]} pitch deck">'
                 f"</div>"
-                "<script>(function(){var root=document.currentScript.previousElementSibling;"
-                "if(!root)return;var frame=root.parentElement.querySelector('.deck-frame');"
-                "var label=root.querySelector('.deck-page-label');var total=+root.dataset.pages||1;var page=1;"
-                "function show(n){page=Math.max(1,Math.min(total,n));"
-                "if(frame)frame.src=root.dataset.pdf+'#page='+page+'&view=Fit&toolbar=1&navpanes=0';"
-                "if(label)label.textContent=page+' / '+total;"
-                "root.querySelectorAll('.deck-page-btn').forEach(function(b){var dir=+b.dataset.dir;"
-                "b.disabled=dir<0?page<=1:page>=total;});}"
-                "root.addEventListener('click',function(e){var b=e.target.closest('.deck-page-btn');"
-                "if(!b||b.disabled)return;show(page+(+b.dataset.dir||0));});show(1);})();</script>"
             )
-    iframe = ""
-    if local_pdf:
-        iframe = (
-            f'<div class="{wrap_cls}">'
-            f'<embed class="{frame_cls}" src="{local_pdf}{pdf_hash}" '
-            f'type="application/pdf" title="{d["name"]} pitch deck">'
-            f"</div>"
-        )
-    elif embed:
-        iframe = (
-            f'<div class="{wrap_cls}">'
-            f'<iframe class="{frame_cls}" src="{embed}" title="{d["name"]} pitch deck" '
-            f'loading="lazy" allow="autoplay" referrerpolicy="no-referrer-when-downgrade"></iframe>'
-            f"</div>"
-        )
+        elif embed:
+            iframe = (
+                f'<div class="{wrap_cls}">'
+                f'<iframe class="{frame_cls}" src="{embed}" title="{d["name"]} pitch deck" '
+                f'loading="lazy" allow="autoplay" referrerpolicy="no-referrer-when-downgrade"></iframe>'
+                f"</div>"
+            )
+    open_pdf = view or local_pdf
     fallback = (
         f'<div class="deck-fallback">{bi("Deck not loading?", "¿No carga el deck?")} '
-        f'<a href="{local_pdf}" target="_blank" rel="noopener">{bi("Open PDF", "Abrir PDF")}</a> · '
+        f'<a href="{open_pdf}" target="_blank" rel="noopener">{bi("Open PDF", "Abrir PDF")}</a> · '
         f'<a href="{view}" target="_blank" rel="noopener">{bi("Google Drive", "Google Drive")}</a></div>'
+    )
+    download_link = (
+        f'<a class="cta-link" href="{local_pdf}" target="_blank" rel="noopener">{bi("Download PDF", "Descargar PDF")}</a>'
+        if local_pdf and not slide_images
+        else ""
     )
     return (
         f'<div class="sec" style="position:relative;">'
@@ -246,7 +318,7 @@ def deck_section(d: dict, slug: str) -> str:
         f'<div class="{outer_cls}"><div class="{panel_cls}">{iframe}{pager}{fallback}</div>'
         f'<div class="deck-actions">'
         f'<a class="cta-link" href="{view}" target="_blank" rel="noopener">{bi("Open deck in Google Drive", "Abrir deck en Google Drive")}</a>'
-        f'<a class="cta-link" href="{local_pdf}" target="_blank" rel="noopener">{bi("Download PDF", "Descargar PDF")}</a>'
+        f"{download_link}"
         f"</div></div></div><div class=\"accent-bar\"></div>"
     )
 
@@ -310,9 +382,7 @@ def build_page(d: dict) -> str:
                 t = sec["table"]
                 inner += table(t["headers"], t["rows"])
         elif sec["type"] == "team":
-            inner = team_grid(sec["members"], slug)
-            if sec.get("dream_en"):
-                inner += f'<div class="frost-note">{bi(sec["dream_en"], sec["dream_es"])}</div>'
+            inner = founders_section(sec, slug)
         elif sec["type"] == "html":
             inner = sec["html"]
 
@@ -396,7 +466,11 @@ def build_page(d: dict) -> str:
 
 def main() -> None:
     OUT_REPO.mkdir(parents=True, exist_ok=True)
-    OUT_ARCHIVE.mkdir(parents=True, exist_ok=True)
+    archive_ok = True
+    try:
+        OUT_ARCHIVE.mkdir(parents=True, exist_ok=True)
+    except OSError:
+        archive_ok = False
     only = sys.argv[1:] if len(sys.argv) > 1 else None
     for json_path in sorted(DATA_DIR.glob("*.json")):
         data = json.loads(json_path.read_text())
@@ -406,7 +480,10 @@ def main() -> None:
         html = build_page(data)
         pdf_src_name = (data.get("deck_pdf") or {}).get("source_file")
         media_src = OUT_MEDIA / slug
-        for base in (OUT_REPO / slug, OUT_ARCHIVE / slug):
+        bases = [OUT_REPO / slug]
+        if archive_ok:
+            bases.append(OUT_ARCHIVE / slug)
+        for base in bases:
             base.mkdir(parents=True, exist_ok=True)
             (base / "index.html").write_text(html)
             if media_src.is_dir():
@@ -418,6 +495,12 @@ def main() -> None:
                 src_pdf = DECK_SOURCE / pdf_src_name
                 if src_pdf.is_file():
                     shutil.copy2(src_pdf, base / "deck.pdf")
+            slides_src = OUT_REPO / slug / "slides"
+            dest_slides = base / "slides"
+            if slides_src.is_dir() and slides_src.resolve() != dest_slides.resolve():
+                if dest_slides.exists():
+                    shutil.rmtree(dest_slides)
+                shutil.copytree(slides_src, dest_slides)
         print(f"Built {slug}")
 
 

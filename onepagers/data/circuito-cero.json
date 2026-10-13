@@ -1,0 +1,179 @@
+{
+  "slug": "circuito-cero",
+  "name": "Circuito Cero",
+  "website": "",
+  "youtube": "",
+  "badge_en": "Circular glass logistics network",
+  "badge_es": "Red logística circular de vidrio",
+  "hero_image": "./assets/hero.jpg",
+  "hero_sub_en": "CT-WA-003 · Recycling &amp; Materials Recovery · Cartagena, Colombia",
+  "hero_sub_es": "CT-WA-003 · Reciclaje y recuperación de materiales · Cartagena, Colombia",
+  "pitch_en": "We connect the glass chain: we transform an ignored waste into industrial raw material of high purity.",
+  "pitch_es": "Conectamos la cadena del vidrio: transformamos un residuo ignorado en materia prima industrial de alta pureza.",
+  "cta_btn_en": "CleantechHUB profile",
+  "cta_btn_es": "Perfil CleantechHUB",
+  "cta_pitch_en": "Circular logistics network — from the Caribbean to industry.",
+  "cta_pitch_es": "Red de logística circular — del Caribe a la industria.",
+  "ribbon": [
+    {
+      "val": "75k",
+      "lab_en": "Tons deficit/yr",
+      "lab_es": "Déficit ton/año",
+      "sub_en": "Deck (Colombia glass)",
+      "sub_es": "Deck (vidrio Colombia)"
+    },
+    {
+      "val": "$19M",
+      "lab_en": "TAM/year",
+      "lab_es": "TAM/año",
+      "sub_en": "560M bottles/yr",
+      "sub_es": "560M botellas/año"
+    },
+    {
+      "val": "200k",
+      "lab_en": "Tons/year",
+      "lab_es": "Ton/año",
+      "sub_en": "Market figure (deck)",
+      "sub_es": "Cifra mercado (deck)"
+    },
+    {
+      "val": "Ideation",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLP26",
+      "sub_es": "CLP26"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "75k",
+        "lab_en": "Tons/year deficit",
+        "lab_es": "Déficit ton/año"
+      },
+      {
+        "num": "560M",
+        "lab_en": "Bottles/year",
+        "lab_es": "Botellas/año"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Glass packaging recovery gap for industrial supply &amp; HORECA",
+      "head_es": "Brecha de recuperación de envases de vidrio para industria y HORECA",
+      "body_en": "Colombia faces a deficit of about 75k tons/year in glass supply (deck). Target market: glass packaging recovery for industrial supply and HORECA.",
+      "body_es": "Colombia enfrenta un déficit de cerca de 75 mil ton/año en suministro de vidrio (deck). Mercado objetivo: recuperación de envases de vidrio para industria y HORECA.",
+      "bg": "./assets/bg-problem.jpg"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "overlay": "rgba(102,147,72,.30)",
+      "steps": [
+        {
+          "icon": "♻️",
+          "label_en": "Collect",
+          "label_es": "Recolectar",
+          "text_en": "Connect glass waste streams.",
+          "text_es": "Conectar flujos de residuo de vidrio."
+        },
+        {
+          "icon": "🚚",
+          "label_en": "Logistics",
+          "label_es": "Logística",
+          "text_en": "Circular logistics network (Cartagena).",
+          "text_es": "Red logística circular (Cartagena)."
+        },
+        {
+          "icon": "🏭",
+          "label_en": "Process",
+          "label_es": "Procesar",
+          "text_en": "High-purity industrial raw material.",
+          "text_es": "Materia prima industrial de alta pureza."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Supply",
+          "label_es": "Suministro",
+          "text_en": "Link Caribbean recovery to industry.",
+          "text_es": "Enlazar recuperación del Caribe con industria."
+        }
+      ],
+      "bg": "./assets/bg-solution.jpg"
+    },
+    {
+      "num": 3,
+      "type": "chart",
+      "title_en": "Market",
+      "title_es": "Mercado",
+      "bars": [
+        {
+          "val": "$19M",
+          "label": "TAM/yr",
+          "height": 90
+        },
+        {
+          "val": "560M",
+          "label": "Bottles",
+          "height": 75
+        },
+        {
+          "val": "200k",
+          "label": "Ton/yr",
+          "height": 60
+        }
+      ],
+      "note_en": "Deck: 560 million bottles/year; USD $19M / 200,000 ton/year market framing.",
+      "note_es": "Deck: 560 millones botellas/año; marco de mercado USD $19M / 200.000 ton/año.",
+      "accent_after": true,
+      "bg": "./assets/bg-market.jpg"
+    },
+    {
+      "num": 4,
+      "type": "impact",
+      "title_en": "Climate Impact",
+      "title_es": "Impacto Climático",
+      "cards": [
+        {
+          "icon": "🌍",
+          "title_en": "Circular supply",
+          "title_es": "Suministro circular",
+          "text_en": "Transform ignored glass waste into industrial feedstock.",
+          "text_es": "Transformar residuo de vidrio ignorado en insumo industrial."
+        },
+        {
+          "icon": "♻️",
+          "title_en": "Recovery",
+          "title_es": "Recuperación",
+          "text_en": "Glass chain connection — logistics intelligence.",
+          "text_es": "Conexión cadena del vidrio — logística inteligente."
+        }
+      ],
+      "bg": "./assets/bg-impact.jpg"
+    },
+    {
+      "num": 5,
+      "type": "team",
+      "title_en": "Founders",
+      "title_es": "Fundadores",
+      "members": [],
+      "dream_en": "CT-WA-003. Founders pending LinkedIn (HITL).",
+      "dream_es": "CT-WA-003. Fundadores pendientes LinkedIn (HITL).",
+      "bg": "./assets/bg-team.jpg"
+    }
+  ],
+  "deck_pdf": {
+    "drive_id": "13mR0c4dkDRq1TVYAo8e0N1vgfo_EyFru",
+    "view_url": "https://drive.google.com/file/d/13mR0c4dkDRq1TVYAo8e0N1vgfo_EyFru/view",
+    "slide_images": true,
+    "pages": 9,
+    "bg": "./assets/bg-deck.jpg"
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "slug": "climatik",
+  "name": "CLIMATIK Climate Transition Platform",
+  "website": "",
+  "youtube": "",
+  "badge_en": "Climate intelligence for manufacturers",
+  "badge_es": "Inteligencia climática para manufactureras",
+  "hero_image": "./assets/hero.jpg",
+  "hero_sub_en": "CT-XS-004 · Climate Risk &amp; Disclosure · CT-XS-003 · Green Finance",
+  "hero_sub_es": "CT-XS-004 · Riesgo climático y divulgación · CT-XS-003 · Finanzas verdes",
+  "pitch_en": "We connect climate language with financial language to accelerate transition — climate-intelligence SaaS for manufacturers without changing ERP.",
+  "pitch_es": "Conectamos el lenguaje climático con el financiero para acelerar la transición — SaaS de inteligencia climática para manufactureras sin cambiar ERP.",
+  "cta_btn_en": "CleantechHUB profile",
+  "cta_btn_es": "Perfil CleantechHUB",
+  "cta_pitch_en": "Private capital will not move without reliable climate information.",
+  "cta_pitch_es": "El capital privado no se moverá sin información climática fiable.",
+  "ribbon": [
+    {
+      "val": "$13,286",
+      "lab_en": "Avg SaaS / yr",
+      "lab_es": "SaaS prom / año",
+      "sub_en": "Deck",
+      "sub_es": "Deck"
+    },
+    {
+      "val": "SaaS",
+      "lab_en": "Model",
+      "lab_es": "Modelo",
+      "sub_en": "Annual subscription",
+      "sub_es": "Suscripción anual"
+    },
+    {
+      "val": "Mfg",
+      "lab_en": "Segment",
+      "lab_es": "Segmento",
+      "sub_en": "Manufacturers",
+      "sub_es": "Manufactureras"
+    },
+    {
+      "val": "Private Beta",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLP26",
+      "sub_es": "CLP26"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "Scope 1–2",
+        "lab_en": "GHG footprint data",
+        "lab_es": "Datos huella GEI"
+      },
+      {
+        "num": "ERP",
+        "lab_en": "Native integration",
+        "lab_es": "Integración nativa"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "title_en": "The Deal",
+      "title_es": "El Trato",
+      "head_en": "Climate KPIs and decisions based on existing operational data",
+      "head_es": "KPIs climáticos y decisiones basadas en datos operacionales existentes",
+      "body_en": "Annual SaaS subscription (~$13,286 USD/year weighted average in deck). Connects climate and financial language for manufacturers.",
+      "body_es": "Suscripción SaaS anual (~$13.286 USD/año promedio ponderado en deck). Conecta lenguaje climático y financiero para manufactureras.",
+      "bg": "./assets/bg-problem.jpg"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "title_en": "Platform",
+      "title_es": "Plataforma",
+      "overlay": "rgba(102,147,72,.30)",
+      "steps": [
+        {
+          "icon": "🔌",
+          "label_en": "Connect",
+          "label_es": "Conectar",
+          "text_en": "Native SAP B1 / Dynamics 365 integration — no ERP change.",
+          "text_es": "Integración nativa SAP B1 / Dynamics 365 — sin cambiar ERP."
+        },
+        {
+          "icon": "📊",
+          "label_en": "Calculate",
+          "label_es": "Calcular",
+          "text_en": "GHG Protocol scope 1–2, PCAF, local emission factors.",
+          "text_es": "GHG Protocol alcance 1–2, PCAF, factores locales."
+        },
+        {
+          "icon": "🏦",
+          "label_en": "Finance",
+          "label_es": "Finanzas",
+          "text_en": "ESG confidence for banks and investors.",
+          "text_es": "Confianza ESG para bancos e inversionistas."
+        },
+        {
+          "icon": "⚡",
+          "label_en": "Operate",
+          "label_es": "Operar",
+          "text_en": "Lower cost and operational risk vs consultants.",
+          "text_es": "Menor costo y riesgo operativo vs consultores."
+        }
+      ],
+      "bg": "./assets/bg-solution.jpg"
+    },
+    {
+      "num": 3,
+      "type": "chart",
+      "title_en": "Pricing",
+      "title_es": "Precios",
+      "bars": [
+        {
+          "val": "$13,286",
+          "label": "SaaS/yr",
+          "height": 90
+        },
+        {
+          "val": "GHG",
+          "label": "Protocol",
+          "height": 55
+        },
+        {
+          "val": "ESG",
+          "label": "Outputs",
+          "height": 70
+        }
+      ],
+      "note_en": "Deck: weighted average subscription; auditable local emission data.",
+      "note_es": "Deck: suscripción promedio ponderada; datos de emisión locales auditables.",
+      "accent_after": true,
+      "bg": "./assets/bg-market.jpg"
+    },
+    {
+      "num": 4,
+      "type": "impact",
+      "title_en": "Climate Impact",
+      "title_es": "Impacto Climático",
+      "cards": [
+        {
+          "icon": "🏭",
+          "title_en": "Manufacturing transition",
+          "title_es": "Transición industrial",
+          "text_en": "Climate intelligence outputs tied to operational quality &amp; energy indicators.",
+          "text_es": "Salidas de inteligencia climática ligadas a indicadores de calidad y energía."
+        }
+      ],
+      "bg": "./assets/bg-impact.jpg"
+    },
+    {
+      "num": 5,
+      "type": "team",
+      "title_en": "Founders",
+      "title_es": "Fundadores",
+      "members": [],
+      "dream_en": "CT-XS-004 · CT-XS-003 (deck; wiki CT-AF-010 — taxonomy review). Founders pending LinkedIn (HITL).",
+      "dream_es": "CT-XS-004 · CT-XS-003 (deck; wiki CT-AF-010 — revisión taxonomía). Fundadores pendientes LinkedIn (HITL).",
+      "bg": "./assets/bg-team.jpg"
+    }
+  ],
+  "deck_pdf": {
+    "drive_id": "1ne50os0mNJRMjC6bBTGeBLwu1Ubj3Hu7",
+    "view_url": "https://drive.google.com/file/d/1ne50os0mNJRMjC6bBTGeBLwu1Ubj3Hu7/view",
+    "slide_images": true,
+    "pages": 10,
+    "bg": "./assets/bg-deck.jpg"
+  }
+}
