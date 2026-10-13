@@ -21,6 +21,11 @@ CLP26 slice one-pagers (metadata + single-slide deck viewer):
 python3 scripts/build_clp26_slice_onepagers.py
 ```
 
+Startup portfolio grid (`/p/startup-portfolio`):
+
+- `pages/p/startup-portfolio/index.html` — portfolio UI (includes One-pager buttons)
+- `nexus-assets/clp26-semi-shareable.json` — CLP26 semi cards merged into the main grid
+
 Outputs to `onepagers/sites/{slug}/index.html` and `/opt/claude-files/Projects/Nexus/startup-pages-draft-2026-08-20/{slug}/index.html`.
 
 ## Caddy (production — Gideon approval required)
