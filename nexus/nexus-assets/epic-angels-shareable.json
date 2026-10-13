@@ -1,7 +1,7 @@
 {
   "version": "2026-09-21",
   "source": "Google Sheet HITL share list (1U8yrvZbwiKbv4B6QT_ngwq8mcTTkCFa2YGDPM-X9eLY)",
-  "count": 18,
+  "count": 21,
   "startups": [
     {"slug": "curuba", "name": "CurubaTech", "country": "CO", "website": "curuba.tech", "program": "CLP26", "theme": "BIO", "stage": "Private Beta", "ct1": "CT-IC-005", "founder": "Paula Aponte", "youtube": "", "onepager": "curuba"},
     {"slug": "amazoniko", "name": "Amazóniko", "country": "CO", "website": "www.amazoniko.com", "program": "CLP26", "theme": "CE", "stage": "Seed", "ct1": "CT-IC-003", "founder": "Catalina Arias Agudelo"},
@@ -20,6 +20,9 @@
     {"slug": "biogar", "name": "Biogar", "country": "CO", "website": "biogar.co", "program": "CLAC23", "theme": "CE", "stage": "Seed", "ct1": "CT-WA-004", "founder": "Maria del Mar Pizarro"},
     {"slug": "gescol", "name": "Gescol SAS BIC", "country": "CO", "website": "www.gescol.com.co", "program": "CLAC24", "theme": "CE", "stage": "Seed", "ct1": "CT-WA-003", "founder": "Neylla Marcela Avila Florez"},
     {"slug": "matter-of-trust", "name": "Matter of Trust", "country": "CO", "website": "matteroftrust.org", "program": "CLP", "theme": "CE", "stage": "Pre-Seed", "ct1": "CT-WA-002", "founder": "Jimena Villegas"},
-    {"slug": "cirkula", "name": "Cirkula", "country": "PE", "country_note": "Peru + Ecuador ops", "website": "cirkula.co", "program": "GIZ Growth Services", "theme": "BIO", "stage": "Seed", "founder": "Michelle Gomberoff", "shareable": true, "desc_en": "App rescuing surplus food from restaurants and stores at reduced prices — transparent listings (no surprise packs), operating in Lima and Quito.", "desc_es": "App que rescata excedentes de restaurantes y tiendas a precios reducidos — listados transparentes (sin packs sorpresa), operando en Lima y Quito."}
+    {"slug": "cirkula", "name": "Cirkula", "country": "PE", "country_note": "Peru + Ecuador ops", "website": "cirkula.co", "program": "GIZ Growth Services", "theme": "BIO", "stage": "Seed", "founder": "Michelle Gomberoff", "shareable": true, "desc_en": "App rescuing surplus food from restaurants and stores at reduced prices — transparent listings (no surprise packs), operating in Lima and Quito.", "desc_es": "App que rescata excedentes de restaurantes y tiendas a precios reducidos — listados transparentes (sin packs sorpresa), operando en Lima y Quito."},
+    {"slug": "wayra-watt", "name": "Wayra Watt", "country": "PE", "website": "wayrawatt.com", "program": "CLP26", "theme": "EN", "stage": "Sketches", "ct1": "CT-EN-002", "ct2": "CT-WA-003", "founder": "", "youtube": "", "onepager": "wayra-watt"},
+    {"slug": "windlever", "name": "WindLever", "country": "PE", "website": "", "program": "CLP26", "theme": "BIO", "stage": "Prototype", "ct1": "CT-IC-005", "ct2": "CT-EN-002", "founder": "", "youtube": "", "onepager": "windlever"},
+    {"slug": "yakusmart", "name": "YakuSmart", "country": "PE", "website": "yakusmart.io", "program": "CLP26", "theme": "WW", "stage": "Launched", "ct1": "CT-WW-004", "ct2": "CT-IC-005", "founder": "", "youtube": "", "onepager": "yakusmart"}
   ]
 }
