@@ -1,0 +1,25 @@
+{
+  "version": "2026-09-21",
+  "source": "Google Sheet HITL share list (1U8yrvZbwiKbv4B6QT_ngwq8mcTTkCFa2YGDPM-X9eLY)",
+  "count": 18,
+  "startups": [
+    {"slug": "curuba", "name": "CurubaTech", "country": "CO", "website": "curuba.tech", "program": "CLP26", "theme": "BIO", "stage": "Private Beta", "ct1": "CT-IC-005", "founder": "Paula Aponte"},
+    {"slug": "amazoniko", "name": "Amazóniko", "country": "CO", "website": "www.amazoniko.com", "program": "CLP26", "theme": "CE", "stage": "Seed", "ct1": "CT-IC-003", "founder": "Catalina Arias Agudelo"},
+    {"slug": "e-wai", "name": "e.WAI", "country": "CO", "website": "e-ray.lat/e-wai", "program": "CLP26", "theme": "CE", "stage": "Pre-Series A", "ct1": "CT-WW-003", "founder": "Valentina Llano Lopez"},
+    {"slug": "chumchum", "name": "ChumChum", "country": "MX", "website": "chumchum.mx", "program": "CLP", "theme": "BIO", "stage": "Seed", "founder": "Verónica Macías Díaz"},
+    {"slug": "o3-smart-cities", "name": "O3 Smart Cities", "country": "CO", "website": "o3smartcities.com.co", "program": "CLAC23", "theme": "EN", "stage": "Seed", "ct1": "CT-EN-001", "founder": "Alexa Oviedo"},
+    {"slug": "green-leaf", "name": "Green Leaf", "country": "CO", "website": "www.greenleaf-naturalfibers.com", "program": "CLAC23", "theme": "BIO", "stage": "Seed", "ct1": "CT-AF-010", "founder": "Silvia Castellanos"},
+    {"slug": "bio-natural-solutions", "name": "Bio Natural Solutions", "country": "CO", "website": "bionatsolutions.com", "program": "CLAC23", "theme": "BIO", "stage": "Seed", "ct1": "CT-AF-010", "founder": "Ximena Adriazola Du Pont"},
+    {"slug": "communitylab", "name": "CommunityLab", "country": "CO", "website": "communitylab.co", "program": "CLP26", "theme": "CE", "stage": "Seed", "founder": "Beatriz Eugenia Correa Pérez"},
+    {"slug": "basilisco", "name": "Basilisco", "country": "CO", "website": "basilisco.world", "program": "CLAC23", "theme": "BIO", "stage": "Pre-Seed", "ct1": "CT-AF-009", "founder": "Ines Quiñones"},
+    {"slug": "reemade", "name": "Reemade", "country": "CO", "website": "reemade.com.co", "program": "CLAC23", "theme": "CE", "stage": "Seed", "ct1": "CT-WA-003", "founder": "Ximena Vélez Robledo"},
+    {"slug": "xiclo", "name": "Xiclo", "country": "CO", "website": "xiclo.app", "program": "CLAC23", "theme": "CE", "stage": "Seed", "ct1": "CT-WA-004", "founder": "Ana María Villegas"},
+    {"slug": "ecopoop", "name": "EcoPoop", "country": "CO", "website": "ecopoop.co", "program": "CLAC23", "theme": "CE", "stage": "Seed", "ct1": "CT-WA-002", "founder": "Adriana Bedoya"},
+    {"slug": "seos-energy", "name": "SEOS Energy", "country": "CO", "website": "seosenergy.co", "program": "CLAC22", "theme": "EN", "stage": "Seed", "ct1": "CT-XS-003", "founder": "Nadia Pfeiffer"},
+    {"slug": "bioambientar", "name": "BioAmbientar", "country": "CO", "website": "bioambientar.com", "program": "CLP", "theme": "CE", "stage": "Seed", "ct1": "CT-WA-002", "founder": "Diana Martinez"},
+    {"slug": "biogar", "name": "Biogar", "country": "CO", "website": "biogar.co", "program": "CLAC23", "theme": "CE", "stage": "Seed", "ct1": "CT-WA-004", "founder": "Maria del Mar Pizarro"},
+    {"slug": "gescol", "name": "Gescol SAS BIC", "country": "CO", "website": "www.gescol.com.co", "program": "CLAC24", "theme": "CE", "stage": "Seed", "ct1": "CT-WA-003", "founder": "Neylla Marcela Avila Florez"},
+    {"slug": "matter-of-trust", "name": "Matter of Trust", "country": "CO", "website": "matteroftrust.org", "program": "CLP", "theme": "CE", "stage": "Pre-Seed", "ct1": "CT-WA-002", "founder": "Jimena Villegas"},
+    {"slug": "cirkula", "name": "Cirkula", "country": "PE", "country_note": "Peru + Ecuador ops", "website": "cirkula.co", "program": "GIZ Growth Services", "theme": "BIO", "stage": "Seed", "founder": "Michelle Gomberoff", "shareable": true, "desc_en": "App rescuing surplus food from restaurants and stores at reduced prices — transparent listings (no surprise packs), operating in Lima and Quito.", "desc_es": "App que rescata excedentes de restaurantes y tiendas a precios reducidos — listados transparentes (sin packs sorpresa), operando en Lima y Quito."}
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "startups": [
+    {
+      "slug": "agrismart",
+      "name": "Agrismart",
+      "country": "SV",
+      "website": "",
+      "program": "CLP26",
+      "stage": "national",
+      "theme": "",
+      "ct1": "",
+      "desc_en": "Agrismart develops technological solutions to optimize agriculture through automation, sensors, and data analytics. We help farmers improve resource use, reduce losses, and increase productivity in a sustainable way.",
+      "desc_es": "Agrismart develops technological solutions to optimize agriculture through automation, sensors, and data analytics. We help farmers improve resource use, reduce losses, and increase productivity in a sustainable way."
+    },
+    {
+      "slug": "fazzty",
+      "name": "Fazzty",
+      "country": "CR",
+      "website": "",
+      "program": "CLP26",
+      "stage": "national",
+      "theme": "",
+      "ct1": "",
+      "desc_en": "Plataforma de micromovilidad Net Zero que facilita el acceso a bicicletas eléctricas mediante un modelo circular de trabajo y propiedad.",
+      "desc_es": "Plataforma de micromovilidad Net Zero que facilita el acceso a bicicletas eléctricas mediante un modelo circular de trabajo y propiedad."
+    },
+    {
+      "slug": "finca-aguilas-verdes",
+      "name": "Finca ganadera Águilas verdes",
+      "country": "CR",
+      "website": "",
+      "program": "CLP26",
+      "stage": "national",
+      "theme": "",
+      "ct1": "",
+      "desc_en": "Finca ganadera regenerativa que contribuye a mitigar el cambio climático mediante un modelo de economía circular.",
+      "desc_es": "Finca ganadera regenerativa que contribuye a mitigar el cambio climático mediante un modelo de economía circular."
+    }
+  ]
+}
