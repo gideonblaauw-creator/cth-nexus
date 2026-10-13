@@ -1,7 +1,7 @@
 {
   "version": "2026-09-21",
   "source": "Google Sheet HITL share list (1U8yrvZbwiKbv4B6QT_ngwq8mcTTkCFa2YGDPM-X9eLY)",
-  "count": 18,
+  "count": 23,
   "startups": [
     {"slug": "curuba", "name": "CurubaTech", "country": "CO", "website": "curuba.tech", "program": "CLP26", "theme": "BIO", "stage": "Private Beta", "ct1": "CT-IC-005", "founder": "Paula Aponte", "youtube": "", "onepager": "curuba"},
     {"slug": "amazoniko", "name": "Amazóniko", "country": "CO", "website": "www.amazoniko.com", "program": "CLP26", "theme": "CE", "stage": "Seed", "ct1": "CT-IC-003", "founder": "Catalina Arias Agudelo"},
@@ -20,6 +20,11 @@
     {"slug": "biogar", "name": "Biogar", "country": "CO", "website": "biogar.co", "program": "CLAC23", "theme": "CE", "stage": "Seed", "ct1": "CT-WA-004", "founder": "Maria del Mar Pizarro"},
     {"slug": "gescol", "name": "Gescol SAS BIC", "country": "CO", "website": "www.gescol.com.co", "program": "CLAC24", "theme": "CE", "stage": "Seed", "ct1": "CT-WA-003", "founder": "Neylla Marcela Avila Florez"},
     {"slug": "matter-of-trust", "name": "Matter of Trust", "country": "CO", "website": "matteroftrust.org", "program": "CLP", "theme": "CE", "stage": "Pre-Seed", "ct1": "CT-WA-002", "founder": "Jimena Villegas"},
-    {"slug": "cirkula", "name": "Cirkula", "country": "PE", "country_note": "Peru + Ecuador ops", "website": "cirkula.co", "program": "GIZ Growth Services", "theme": "BIO", "stage": "Seed", "founder": "Michelle Gomberoff", "shareable": true, "desc_en": "App rescuing surplus food from restaurants and stores at reduced prices — transparent listings (no surprise packs), operating in Lima and Quito.", "desc_es": "App que rescata excedentes de restaurantes y tiendas a precios reducidos — listados transparentes (sin packs sorpresa), operando en Lima y Quito."}
+    {"slug": "cirkula", "name": "Cirkula", "country": "PE", "country_note": "Peru + Ecuador ops", "website": "cirkula.co", "program": "GIZ Growth Services", "theme": "BIO", "stage": "Seed", "founder": "Michelle Gomberoff", "shareable": true, "desc_en": "App rescuing surplus food from restaurants and stores at reduced prices — transparent listings (no surprise packs), operating in Lima and Quito.", "desc_es": "App que rescata excedentes de restaurantes y tiendas a precios reducidos — listados transparentes (sin packs sorpresa), operando en Lima y Quito."},
+    {"slug": "planta-comunitaria-wpc", "name": "Planta Comunitaria WPC", "country": "CO", "website": "", "program": "CLP26", "theme": "CE", "stage": "Prototype", "ct1": "CT-WA-003", "ct2": "CT-BU-001", "founder": "", "youtube": "", "onepager": "planta-comunitaria-wpc"},
+    {"slug": "proyecto-impacto-ambiental", "name": "Proyecto emprendedor con impacto ambiental", "country": "CO", "website": "", "program": "CLP26", "theme": "EN", "stage": "Private Beta", "ct1": "CT-EN-010", "ct2": "CT-WA-002", "founder": "", "youtube": "", "onepager": "proyecto-impacto-ambiental"},
+    {"slug": "sie-waka", "name": "SIÉ WAKA", "country": "CO", "website": "", "program": "CLP26", "theme": "WW", "stage": "Public Beta", "ct1": "CT-WW-001", "ct2": "CT-IC-001", "founder": "", "youtube": "", "onepager": "sie-waka"},
+    {"slug": "terra-io", "name": "Terra IO", "country": "CO", "website": "", "program": "CLP26", "theme": "BIO", "stage": "Private Beta", "ct1": "CT-IC-005", "ct2": "CT-AF-007", "founder": "", "youtube": "", "onepager": "terra-io"},
+    {"slug": "sekpos", "name": "SEKPOS", "country": "CO", "website": "", "program": "CLP26", "theme": "", "stage": "Private Beta", "ct1": "", "founder": "", "youtube": "", "draft": true, "flags": ["NO_DECK", "TAXONOMY_UNKNOWN"]}
   ]
 }
