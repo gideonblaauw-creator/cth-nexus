@@ -1,0 +1,7 @@
+id,name,is_company,company_type,website,country_id,industry_id,category_id,comment,vat,street,city,email,phone
+__import__.clp26_agrivoltaic_dragon_fruit,AgriVoltaic Dragón fruit,True,company,,base.sv,,,"NO DECK in Drive — company description not available from a pitch deck. Taxonomy pending (source table: UNASSIGNED; wiki-only hint CT-AF-007 not imported as ct1).",,,,,
+__import__.clp26_drainalert,DrainAlert,True,company,,base.sv,,,"NO DECK in Drive — company description not available from a pitch deck. Taxonomy pending (source table: UNASSIGNED; wiki-only hint CT-BU-004 not imported as ct1).",,,,,
+__import__.clp26_nutri_fruits,Nutri Fruits,True,company,,base.sv,,,"NO DECK in Drive — company description not available from a pitch deck. Taxonomy pending (source table: UNASSIGNED; wiki-only hint CT-AF-009 not imported as ct1).",,,,,
+__import__.clp26_ecolandia,Ecolandia,True,company,,base.sv,,,"NO DECK in Drive — company description not available from a pitch deck. Taxonomy pending (source table: UNASSIGNED; wiki-only hint CT-AF-012 not imported as ct1).",,,,,
+__import__.clp26_karbonloop,KarbonLoop,True,company,,,,,"NO DECK in Drive — company description not available from a pitch deck. Taxonomy pending (source table: UNASSIGNED). Not found in Moodle export folders or Idea Browser; country unknown.",,,,,
+__import__.clp26_agrosintex,Agrosintex,True,company,,,,,"NO DECK in Drive — company description not available from a pitch deck. Taxonomy pending (source table: UNASSIGNED). Not found in Moodle export folders or Idea Browser; country unknown.",,,,,
