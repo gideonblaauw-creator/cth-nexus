@@ -84,7 +84,7 @@
       "num": 6, "type": "team", "overlay": "rgba(102,147,72,.91)",
       "title_en": "Founder Team", "title_es": "Equipo Fundador",
       "members": [
-        {"name": "David Mastrascusa", "initials": "DM", "role_en": "Co-founder &amp; CEO", "role_es": "Cofundador &amp; CEO", "bio_en": "Product · Field · Strategy.", "bio_es": "Producto · Campo · Estrategia."},
+        {"name": "David Mastrascusa", "initials": "DM", "role_en": "Co-founder &amp; CEO", "role_es": "Cofundador &amp; CEO", "bio_en": "Product · Field · Strategy.", "bio_es": "Producto · Campo · Estrategia.", "linkedin": "https://www.linkedin.com/in/dmastras"},
         {"name": "Nora Torres", "initials": "NT", "role_en": "Co-founder &amp; CRO", "role_es": "Cofundadora &amp; CRO", "bio_en": "Market · Sustainability · Alliances.", "bio_es": "Mercado · Sostenibilidad · Alianzas."},
         {"name": "Adriana Buelvas", "initials": "AB", "role_en": "CTO", "role_es": "CTO", "bio_en": "Platform · Data · AI.", "bio_es": "Plataforma · Datos · IA."},
         {"name": "Natalia Navarrete", "initials": "NN", "role_en": "CFO", "role_es": "CFO", "bio_en": "Finance · Control · Investment.", "bio_es": "Finanzas · Control · Inversión."},
