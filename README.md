@@ -15,6 +15,12 @@ Lane A home for Nexus startup one-pagers served at `https://nexus.cleantechhub.n
 python3 scripts/build_onepagers.py
 ```
 
+CLP26 slice one-pagers (metadata + single-slide deck viewer):
+
+```bash
+python3 scripts/build_clp26_slice_onepagers.py
+```
+
 Outputs to `onepagers/sites/{slug}/index.html` and `/opt/claude-files/Projects/Nexus/startup-pages-draft-2026-08-20/{slug}/index.html`.
 
 ## Caddy (production — Gideon approval required)
