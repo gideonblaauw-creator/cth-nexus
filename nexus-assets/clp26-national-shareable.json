@@ -1,0 +1,37 @@
+{
+  "version": "2026-10-13",
+  "source": "CLP26 national slice JSON (ecolandia, crysalia-studio, gmoves)",
+  "count": 3,
+  "startups": [
+    {
+      "slug": "ecolandia",
+      "name": "Ecolandia",
+      "country": "SV",
+      "website": null,
+      "program": "CLP26",
+      "stage": "national",
+      "desc_en": "a local platform for regenerative and value-added production designed to reduce agricultural waste, replace imported food, and deliver fresh, washed, and ready-to-use products to restaurants and urban households.",
+      "desc_es": "a local platform for regenerative and value-added production designed to reduce agricultural waste, replace imported food, and deliver fresh, washed, and ready-to-use products to restaurants and urban households."
+    },
+    {
+      "slug": "crysalia-studio",
+      "name": "Crysalia Studio",
+      "country": "GT",
+      "website": null,
+      "program": "CLP26",
+      "stage": "national",
+      "desc_en": "Crea decoración de alta gama a partir de materiales reutilizados, combinando diseño, sostenibilidad y economía circular.",
+      "desc_es": "Crea decoración de alta gama a partir de materiales reutilizados, combinando diseño, sostenibilidad y economía circular."
+    },
+    {
+      "slug": "gmoves",
+      "name": "GMOVES",
+      "country": "GT",
+      "website": null,
+      "program": "CLP26",
+      "stage": "national",
+      "desc_en": "Transforma madera de café en mezcladores biodegradables, impulsando la economía circular y el empleo rural",
+      "desc_es": "Transforma madera de café en mezcladores biodegradables, impulsando la economía circular y el empleo rural"
+    }
+  ]
+}

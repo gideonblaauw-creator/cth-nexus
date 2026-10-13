@@ -1,0 +1,54 @@
+{
+ "name": {
+  "value": "Crysalia Studio",
+  "source": "build_data.py / Seguimiento"
+ },
+ "country": {
+  "value": "GT",
+  "source": "build_data.py"
+ },
+ "stage": {
+  "value": "national",
+  "source": "build_data.py"
+ },
+ "short_description_es": {
+  "value": "Crea decoración de alta gama a partir de materiales reutilizados, combinando diseño, sostenibilidad y economía circular.",
+  "source": "Seguimiento_CLP_2026 (Descripción)"
+ },
+ "pitch_video_drive": {
+  "value": null,
+  "source": "Drive pitch folder (build_data PITCH)"
+ },
+ "youtube_pitch_url": {
+  "value": "",
+  "source": "empty slot – uploads on hold pending Gideon go-ahead"
+ },
+ "founder_linkedin": {
+  "value": null,
+  "source": ""
+ },
+ "website": {
+  "value": null,
+  "source": ""
+ },
+ "taxonomy_link": {
+  "value": null,
+  "source": ""
+ },
+ "nexus_profile_url": {
+  "value": null,
+  "source": ""
+ },
+ "deck": {
+  "value": "/workspace/climate-kic/onepagers/decks/crysalia-studio.pdf",
+  "source": "Drive file 150BxTeTHV8BnZNTliBr4BN_Cy9KwdAAf"
+ },
+ "missing_fields": [
+  "pitch_video_drive",
+  "founder_linkedin",
+  "website",
+  "taxonomy_link",
+  "nexus_profile_url"
+ ],
+ "slug": "crysalia-studio"
+}
