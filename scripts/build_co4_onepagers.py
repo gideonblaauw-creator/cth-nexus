@@ -13,6 +13,12 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SITES = ROOT / "onepagers" / "sites"
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from epic_allowlist import is_epic_slug  # noqa: E402
+
+CLP26_SHAREABLE = ROOT / "nexus" / "nexus-assets" / "clp26-national-shareable.json"
+EPIC_SHAREABLE = ROOT / "nexus" / "nexus-assets" / "epic-angels-shareable.json"
+
 STARTUPS = [
     {
         "slug": "green-textile-solutions",
@@ -483,11 +489,30 @@ body{{font-family:'Open Sans','PT Sans',sans-serif;background:var(--page);color:
 """
 
 
-def update_shareable_json(slide_counts: dict[str, int]) -> None:
-    path = ROOT / "nexus" / "nexus-assets" / "epic-angels-shareable.json"
-    data = json.loads(path.read_text(encoding="utf-8"))
-    startups = data["startups"]
+def _upsert_shareable(path: Path, entries: list[dict], source_note: str) -> None:
+    if path.is_file():
+        data = json.loads(path.read_text(encoding="utf-8"))
+        startups = data.get("startups") or []
+    else:
+        data = {"version": "2026-10-14", "source": source_note, "startups": []}
+        startups = []
     by_slug = {s["slug"]: i for i, s in enumerate(startups)}
+    for entry in entries:
+        slug = entry["slug"]
+        if slug in by_slug:
+            startups[by_slug[slug]] = entry
+        else:
+            startups.append(entry)
+    data["startups"] = startups
+    data["count"] = len(startups)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+
+def update_shareable_json(slide_counts: dict[str, int]) -> None:
+    """CLP26 imports go to clp26-national-shareable.json; never append non-Epic rows to Epic list."""
+    clp26_entries: list[dict] = []
+    epic_entries: list[dict] = []
 
     for s in STARTUPS:
         entry = {
@@ -508,14 +533,23 @@ def update_shareable_json(slide_counts: dict[str, int]) -> None:
         flags = s.get("flags") or []
         if flags:
             entry["flags"] = flags
-        if s["slug"] in by_slug:
-            startups[by_slug[s["slug"]]] = entry
+        if is_epic_slug(s["slug"]):
+            epic_entries.append(entry)
         else:
-            startups.append(entry)
+            clp26_entries.append(entry)
 
-    data["startups"] = startups
-    data["count"] = len(startups)
-    path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    if clp26_entries:
+        _upsert_shareable(
+            CLP26_SHAREABLE,
+            clp26_entries,
+            "CLP26 Nexus card imports (not Epic Angels)",
+        )
+    if epic_entries:
+        _upsert_shareable(
+            EPIC_SHAREABLE,
+            epic_entries,
+            "Google Sheet HITL share list (Epic Angels allowlist only)",
+        )
 
 
 def main() -> int:
