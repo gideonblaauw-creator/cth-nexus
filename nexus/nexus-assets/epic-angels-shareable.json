@@ -1,7 +1,7 @@
 {
   "version": "2026-09-21",
   "source": "Google Sheet HITL share list (1U8yrvZbwiKbv4B6QT_ngwq8mcTTkCFa2YGDPM-X9eLY)",
-  "count": 59,
+  "count": 63,
   "startups": [
     {
       "slug": "curuba",
@@ -777,6 +777,62 @@
         "NO_DECK",
         "TAXONOMY_UNKNOWN"
       ]
+    },
+    {
+      "slug": "q-mind",
+      "name": "Q-Mind",
+      "country": "SV",
+      "website": "gmail.com",
+      "program": "CLP26",
+      "theme": "EN",
+      "stage": "Private Beta",
+      "ct1": "CT-EN-001",
+      "ct2": "CT-IC-004",
+      "founder": "",
+      "youtube": "",
+      "onepager": "q-mind"
+    },
+    {
+      "slug": "crysalia-studio",
+      "name": "Crysalia Studio",
+      "country": "GT",
+      "website": "",
+      "program": "CLP26",
+      "theme": "CE",
+      "stage": "Public Beta",
+      "ct1": "CT-IN-003",
+      "ct2": "CT-WA-003",
+      "founder": "",
+      "youtube": "",
+      "onepager": "crysalia-studio"
+    },
+    {
+      "slug": "finca-aguilas-verdes",
+      "name": "Águilas Verdes",
+      "country": "CR",
+      "website": "",
+      "program": "CLP26",
+      "theme": "BIO",
+      "stage": "Launched",
+      "ct1": "CT-AF-004",
+      "ct2": "CT-AF-003",
+      "founder": "",
+      "youtube": "",
+      "onepager": "finca-aguilas-verdes"
+    },
+    {
+      "slug": "pina-kakaw",
+      "name": "Piña and Kakaw",
+      "country": "GT",
+      "website": "",
+      "program": "CLP26",
+      "theme": "CE",
+      "stage": "Pre-orders",
+      "ct1": "CT-EX-038",
+      "ct2": "CT-AF-009",
+      "founder": "",
+      "youtube": "",
+      "onepager": "pina-kakaw"
     }
   ]
 }
