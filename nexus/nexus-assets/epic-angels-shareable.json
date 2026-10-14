@@ -1,7 +1,7 @@
 {
   "version": "2026-09-21",
   "source": "Google Sheet HITL share list (1U8yrvZbwiKbv4B6QT_ngwq8mcTTkCFa2YGDPM-X9eLY)",
-  "count": 50,
+  "count": 54,
   "startups": [
     {
       "slug": "curuba",
@@ -20,12 +20,18 @@
       "slug": "amazoniko",
       "name": "Amazóniko",
       "country": "CO",
-      "website": "www.amazoniko.com",
+      "website": "",
       "program": "CLP26",
       "theme": "CE",
-      "stage": "Seed",
-      "ct1": "CT-IC-003",
-      "founder": "Catalina Arias Agudelo"
+      "stage": "Launched",
+      "ct1": "CT-WA-003",
+      "ct2": "CT-IC-003",
+      "founder": "",
+      "youtube": "",
+      "onepager": "amazoniko",
+      "flags": [
+        "existing card ct1 CT-IC-003; deck suggests CT-WA-003"
+      ]
     },
     {
       "slug": "e-wai",
@@ -648,6 +654,62 @@
       "youtube": "",
       "onepager": "nextgen-nutrition",
       "ct2": "CT-WA-002"
+    },
+    {
+      "slug": "agrodata-connect",
+      "name": "AgroData Connect",
+      "country": "CO",
+      "website": "",
+      "program": "CLP26",
+      "theme": "BIO",
+      "stage": "Ideation",
+      "ct1": "CT-IC-005",
+      "ct2": "CT-AF-007",
+      "founder": "",
+      "youtube": "",
+      "onepager": "agrodata-connect"
+    },
+    {
+      "slug": "agrolider",
+      "name": "AGROLIDER",
+      "country": "CO",
+      "website": "",
+      "program": "CLP26",
+      "theme": "BIO",
+      "stage": "Prototype",
+      "ct1": "CT-AF-007",
+      "ct2": "CT-IC-005",
+      "founder": "",
+      "youtube": "",
+      "onepager": "agrolider"
+    },
+    {
+      "slug": "airthnova",
+      "name": "AirthNova",
+      "country": "CO",
+      "website": "",
+      "program": "CLP26",
+      "theme": "CE",
+      "stage": "Ideation",
+      "ct1": "CT-XS-004",
+      "ct2": "CT-EN-007",
+      "founder": "",
+      "youtube": "",
+      "onepager": "airthnova"
+    },
+    {
+      "slug": "artexlab",
+      "name": "ArtexLab",
+      "country": "CO",
+      "website": "",
+      "program": "CLP26",
+      "theme": "CE",
+      "stage": "Ideation",
+      "ct1": "CT-WA-003",
+      "ct2": "CT-IN-003",
+      "founder": "",
+      "youtube": "",
+      "onepager": "artexlab"
     }
   ]
 }
