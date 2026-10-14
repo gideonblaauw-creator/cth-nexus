@@ -1,7 +1,7 @@
 {
   "version": "2026-09-21",
   "source": "Google Sheet HITL share list (1U8yrvZbwiKbv4B6QT_ngwq8mcTTkCFa2YGDPM-X9eLY)",
-  "count": 38,
+  "count": 41,
   "startups": [
     {
       "slug": "curuba",
@@ -480,6 +480,48 @@
       "flags": [
         "NO_WIKI_PAGE"
       ]
+    },
+    {
+      "slug": "wayra-watt",
+      "name": "Wayra Watt",
+      "country": "PE",
+      "website": "wayrawatt.com",
+      "program": "CLP26",
+      "theme": "EN",
+      "stage": "Sketches",
+      "ct1": "CT-EN-002",
+      "ct2": "CT-WA-003",
+      "founder": "",
+      "youtube": "",
+      "onepager": "wayra-watt"
+    },
+    {
+      "slug": "windlever",
+      "name": "WindLever",
+      "country": "PE",
+      "website": "",
+      "program": "CLP26",
+      "theme": "BIO",
+      "stage": "Prototype",
+      "ct1": "CT-IC-005",
+      "ct2": "CT-EN-002",
+      "founder": "",
+      "youtube": "",
+      "onepager": "windlever"
+    },
+    {
+      "slug": "yakusmart",
+      "name": "YakuSmart",
+      "country": "PE",
+      "website": "yakusmart.io",
+      "program": "CLP26",
+      "theme": "WW",
+      "stage": "Launched",
+      "ct1": "CT-WW-004",
+      "ct2": "CT-IC-005",
+      "founder": "",
+      "youtube": "",
+      "onepager": "yakusmart"
     }
   ]
 }
