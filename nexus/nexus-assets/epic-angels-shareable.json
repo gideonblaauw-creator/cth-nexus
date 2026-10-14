@@ -1,7 +1,7 @@
 {
   "version": "2026-09-21",
   "source": "Google Sheet HITL share list (1U8yrvZbwiKbv4B6QT_ngwq8mcTTkCFa2YGDPM-X9eLY)",
-  "count": 26,
+  "count": 30,
   "startups": [
     {
       "slug": "curuba",
@@ -310,6 +310,61 @@
       "onepager": "fazzty",
       "desc_en": "E-bike work-to-own micromobility for delivery riders — fixed weekly tiers starting in Costa Rica.",
       "desc_es": "Micromovilidad e-bike trabajo-a-propiedad para repartidores — niveles semanales fijos desde Costa Rica."
+    },
+    {
+      "slug": "gmoves",
+      "name": "GMOVES",
+      "country": "GT",
+      "website": "",
+      "program": "CLP26",
+      "theme": "CE",
+      "stage": "Prototype",
+      "ct1": "CT-WA-003",
+      "ct2": "CT-AF-001",
+      "founder": "",
+      "youtube": "",
+      "onepager": "gmoves"
+    },
+    {
+      "slug": "ingenicrop",
+      "name": "Ingenicrop",
+      "country": "GT",
+      "website": "",
+      "program": "CLP26",
+      "theme": "BIO",
+      "stage": "Public Beta",
+      "ct1": "CT-AF-007",
+      "ct2": "CT-IC-005",
+      "founder": "",
+      "youtube": "",
+      "onepager": "ingenicrop"
+    },
+    {
+      "slug": "nrk",
+      "name": "NRK",
+      "country": "GT",
+      "website": "",
+      "program": "CLP26",
+      "theme": "CE",
+      "stage": "Launched",
+      "ct1": "CT-EX-038",
+      "ct2": "CT-WA-003",
+      "founder": "",
+      "youtube": "",
+      "onepager": "nrk"
+    },
+    {
+      "slug": "plastic-free-planet",
+      "name": "Plastic Free Planet",
+      "country": "CR",
+      "website": "",
+      "program": "CLP26",
+      "theme": "CE",
+      "stage": "Private Beta",
+      "ct1": "CT-WA-003",
+      "founder": "",
+      "youtube": "",
+      "onepager": "plastic-free-planet"
     }
   ]
 }
