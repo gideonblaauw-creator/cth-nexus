@@ -1,7 +1,7 @@
 {
   "version": "2026-09-21",
   "source": "Google Sheet HITL share list (1U8yrvZbwiKbv4B6QT_ngwq8mcTTkCFa2YGDPM-X9eLY)",
-  "count": 34,
+  "count": 38,
   "startups": [
     {
       "slug": "curuba",
@@ -420,6 +420,66 @@
       "founder": "",
       "youtube": "",
       "onepager": "smartdrive"
+    },
+    {
+      "slug": "kallpa-greenz-leaders",
+      "name": "Kallpa Greenz Leaders",
+      "country": "PE",
+      "website": "",
+      "program": "CLP26",
+      "theme": "BIO",
+      "stage": "Launched",
+      "founder": "",
+      "youtube": "",
+      "onepager": "kallpa-greenz-leaders",
+      "flags": [
+        "LOW_CONFIDENCE_TAXONOMY"
+      ]
+    },
+    {
+      "slug": "nanohumi",
+      "name": "NanoHumi",
+      "country": "PE",
+      "website": "",
+      "program": "CLP26",
+      "theme": "BIO",
+      "stage": "Private Beta",
+      "ct1": "CT-AF-010",
+      "ct2": "CT-AF-008",
+      "founder": "",
+      "youtube": "",
+      "onepager": "nanohumi"
+    },
+    {
+      "slug": "pezconfiable",
+      "name": "PezConfiable",
+      "country": "PE",
+      "website": "",
+      "program": "CLP26",
+      "theme": "BIO",
+      "stage": "Private Beta",
+      "ct1": "CT-IC-003",
+      "ct2": "CT-AF-012",
+      "founder": "",
+      "youtube": "",
+      "onepager": "pezconfiable"
+    },
+    {
+      "slug": "vigia",
+      "name": "VIGÍA (ex MUCHIK)",
+      "country": "PE",
+      "website": "",
+      "program": "CLP26",
+      "theme": "WW",
+      "stage": "",
+      "ct1": "CT-WW-001",
+      "ct2": "CT-IC-004",
+      "founder": "",
+      "youtube": "",
+      "onepager": "vigia",
+      "flags": [
+        "NO_WIKI_PAGE"
+      ]
     }
   ]
 }
