@@ -1,7 +1,7 @@
 {
   "version": "2026-09-21",
   "source": "Google Sheet HITL share list (1U8yrvZbwiKbv4B6QT_ngwq8mcTTkCFa2YGDPM-X9eLY)",
-  "count": 54,
+  "count": 59,
   "startups": [
     {
       "slug": "curuba",
@@ -20,18 +20,12 @@
       "slug": "amazoniko",
       "name": "Amazóniko",
       "country": "CO",
-      "website": "",
+      "website": "www.amazoniko.com",
       "program": "CLP26",
       "theme": "CE",
-      "stage": "Launched",
-      "ct1": "CT-WA-003",
-      "ct2": "CT-IC-003",
-      "founder": "",
-      "youtube": "",
-      "onepager": "amazoniko",
-      "flags": [
-        "existing card ct1 CT-IC-003; deck suggests CT-WA-003"
-      ]
+      "stage": "Seed",
+      "ct1": "CT-IC-003",
+      "founder": "Catalina Arias Agudelo"
     },
     {
       "slug": "e-wai",
@@ -710,6 +704,79 @@
       "founder": "",
       "youtube": "",
       "onepager": "artexlab"
+    },
+    {
+      "slug": "planta-comunitaria-wpc",
+      "name": "Planta Comunitaria WPC",
+      "country": "CO",
+      "website": "",
+      "program": "CLP26",
+      "theme": "CE",
+      "stage": "Prototype",
+      "ct1": "CT-WA-003",
+      "ct2": "CT-BU-001",
+      "founder": "",
+      "youtube": "",
+      "onepager": "planta-comunitaria-wpc"
+    },
+    {
+      "slug": "proyecto-impacto-ambiental",
+      "name": "Proyecto emprendedor con impacto ambiental",
+      "country": "CO",
+      "website": "",
+      "program": "CLP26",
+      "theme": "EN",
+      "stage": "Private Beta",
+      "ct1": "CT-EN-010",
+      "ct2": "CT-WA-002",
+      "founder": "",
+      "youtube": "",
+      "onepager": "proyecto-impacto-ambiental"
+    },
+    {
+      "slug": "sie-waka",
+      "name": "SIÉ WAKA",
+      "country": "CO",
+      "website": "",
+      "program": "CLP26",
+      "theme": "WW",
+      "stage": "Public Beta",
+      "ct1": "CT-WW-001",
+      "ct2": "CT-IC-001",
+      "founder": "",
+      "youtube": "",
+      "onepager": "sie-waka"
+    },
+    {
+      "slug": "terra-io",
+      "name": "Terra IO",
+      "country": "CO",
+      "website": "",
+      "program": "CLP26",
+      "theme": "BIO",
+      "stage": "Private Beta",
+      "ct1": "CT-IC-005",
+      "ct2": "CT-AF-007",
+      "founder": "",
+      "youtube": "",
+      "onepager": "terra-io"
+    },
+    {
+      "slug": "sekpos",
+      "name": "SEKPOS",
+      "country": "CO",
+      "website": "",
+      "program": "CLP26",
+      "theme": "",
+      "stage": "Private Beta",
+      "ct1": "",
+      "founder": "",
+      "youtube": "",
+      "draft": true,
+      "flags": [
+        "NO_DECK",
+        "TAXONOMY_UNKNOWN"
+      ]
     }
   ]
 }
