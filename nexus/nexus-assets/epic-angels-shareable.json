@@ -1,7 +1,7 @@
 {
   "version": "2026-09-21",
   "source": "Google Sheet HITL share list (1U8yrvZbwiKbv4B6QT_ngwq8mcTTkCFa2YGDPM-X9eLY)",
-  "count": 68,
+  "count": 71,
   "startups": [
     {
       "slug": "curuba",
@@ -31,12 +31,15 @@
       "slug": "e-wai",
       "name": "e.WAI",
       "country": "CO",
-      "website": "e-ray.lat/e-wai",
+      "website": "",
       "program": "CLP26",
-      "theme": "CE",
-      "stage": "Pre-Series A",
+      "theme": "WW",
+      "stage": "Public Beta",
       "ct1": "CT-WW-003",
-      "founder": "Valentina Llano Lopez"
+      "ct2": "CT-IC-004",
+      "founder": "",
+      "youtube": "",
+      "onepager": "e-wai"
     },
     {
       "slug": "chumchum",
@@ -83,13 +86,17 @@
     },
     {
       "slug": "communitylab",
-      "name": "CommunityLab",
+      "name": "communitylab S.A.S",
       "country": "CO",
       "website": "communitylab.co",
       "program": "CLP26",
       "theme": "CE",
-      "stage": "Seed",
-      "founder": "Beatriz Eugenia Correa Pérez"
+      "stage": "Launched",
+      "ct1": "CT-IN-004",
+      "ct2": "CT-WA-003",
+      "founder": "",
+      "youtube": "",
+      "onepager": "communitylab"
     },
     {
       "slug": "basilisco",
@@ -901,6 +908,48 @@
       "founder": "",
       "youtube": "",
       "onepager": "climatik"
+    },
+    {
+      "slug": "construyendo-redes-de-paz",
+      "name": "Construyendo Redes de Paz",
+      "country": "CO",
+      "website": "",
+      "program": "CLP26",
+      "theme": "BIO",
+      "stage": "Prototype",
+      "ct1": "CT-AF-002",
+      "ct2": "CT-IC-003",
+      "founder": "",
+      "youtube": "",
+      "onepager": "construyendo-redes-de-paz"
+    },
+    {
+      "slug": "dantium",
+      "name": "DANTIUM",
+      "country": "CO",
+      "website": "",
+      "program": "CLP26",
+      "theme": "CE",
+      "stage": "Prototype",
+      "ct1": "CT-WA-003",
+      "ct2": "CT-EN-006",
+      "founder": "",
+      "youtube": "",
+      "onepager": "dantium"
+    },
+    {
+      "slug": "el-ocambulo",
+      "name": "El Ocámbulo",
+      "country": "CO",
+      "website": "",
+      "program": "CLP26",
+      "theme": "BIO",
+      "stage": "Launched",
+      "ct1": "CT-AF-009",
+      "ct2": "CT-WA-002",
+      "founder": "",
+      "youtube": "",
+      "onepager": "el-ocambulo"
     }
   ]
 }
