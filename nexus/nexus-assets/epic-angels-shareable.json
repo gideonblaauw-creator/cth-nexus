@@ -1,7 +1,7 @@
 {
   "version": "2026-09-21",
   "source": "Google Sheet HITL share list (1U8yrvZbwiKbv4B6QT_ngwq8mcTTkCFa2YGDPM-X9eLY)",
-  "count": 30,
+  "count": 34,
   "startups": [
     {
       "slug": "curuba",
@@ -365,6 +365,61 @@
       "founder": "",
       "youtube": "",
       "onepager": "plastic-free-planet"
+    },
+    {
+      "slug": "siloe-garden",
+      "name": "Siloe Garden Eco Sanctuary",
+      "country": "CR",
+      "website": "",
+      "program": "CLP26",
+      "theme": "BIO",
+      "stage": "Launched",
+      "ct1": "CT-AF-009",
+      "ct2": "CT-AF-005",
+      "founder": "",
+      "youtube": "",
+      "onepager": "siloe-garden"
+    },
+    {
+      "slug": "agrismart",
+      "name": "Agrismart",
+      "country": "SV",
+      "website": "agrismartsv.com",
+      "program": "CLP26",
+      "theme": "BIO",
+      "stage": "Prototype",
+      "ct1": "CT-IC-005",
+      "ct2": "CT-WW-004",
+      "founder": "",
+      "youtube": "",
+      "onepager": "agrismart"
+    },
+    {
+      "slug": "nutrichar",
+      "name": "NUTRICHAR",
+      "country": "SV",
+      "website": "",
+      "program": "CLP26",
+      "theme": "BIO",
+      "stage": "Ideation",
+      "ct1": "CT-AF-010",
+      "ct2": "CT-AF-008",
+      "founder": "",
+      "youtube": "",
+      "onepager": "nutrichar"
+    },
+    {
+      "slug": "smartdrive",
+      "name": "SMARTDRIVE",
+      "country": "SV",
+      "website": "",
+      "program": "CLP26",
+      "theme": "TR",
+      "stage": "Launched",
+      "ct1": "CT-TR-001",
+      "founder": "",
+      "youtube": "",
+      "onepager": "smartdrive"
     }
   ]
 }
