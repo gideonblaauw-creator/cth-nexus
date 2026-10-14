@@ -1,7 +1,7 @@
 {
   "version": "2026-09-21",
   "source": "Google Sheet HITL share list (1U8yrvZbwiKbv4B6QT_ngwq8mcTTkCFa2YGDPM-X9eLY)",
-  "count": 45,
+  "count": 50,
   "startups": [
     {
       "slug": "curuba",
@@ -579,6 +579,75 @@
       "flags": [
         "LOW_CONFIDENCE_TAXONOMY"
       ]
+    },
+    {
+      "slug": "green-textile-solutions",
+      "name": "Green Textile Solutions",
+      "country": "CO",
+      "website": "",
+      "program": "CLP26",
+      "theme": "CE",
+      "stage": "Launched",
+      "ct1": "CT-WA-003",
+      "founder": "",
+      "youtube": "",
+      "onepager": "green-textile-solutions",
+      "ct2": "CT-IN-003"
+    },
+    {
+      "slug": "honeyb",
+      "name": "HoneyB",
+      "country": "CO",
+      "website": "",
+      "program": "CLP26",
+      "theme": "CE",
+      "stage": "Ideation",
+      "ct1": "CT-IN-003",
+      "founder": "",
+      "youtube": "",
+      "onepager": "honeyb"
+    },
+    {
+      "slug": "kuo",
+      "name": "KUO (SIGR)",
+      "country": "CO",
+      "website": "gmail.com",
+      "program": "CLP26",
+      "theme": "CE",
+      "stage": "Prototype",
+      "ct1": "CT-WA-003",
+      "founder": "",
+      "youtube": "",
+      "onepager": "kuo",
+      "ct2": "CT-IC-004"
+    },
+    {
+      "slug": "modular-agrosolutions",
+      "name": "Modular Agrosolutions",
+      "country": "CO",
+      "website": "MODTECH.SITE/MA",
+      "program": "CLP26",
+      "theme": "BIO",
+      "stage": "Prototype",
+      "ct1": "CT-IC-003",
+      "founder": "",
+      "youtube": "",
+      "onepager": "modular-agrosolutions",
+      "ct2": "CT-AF-007"
+    },
+    {
+      "slug": "nextgen-nutrition",
+      "name": "NextGen Nutrition (Petfly)",
+      "country": "CO",
+      "website": "",
+      "program": "CLP26",
+      "theme": "BIO",
+      "stage": "Launched",
+      "ct1": "CT-AF-009",
+      "founder": "",
+      "youtube": "",
+      "onepager": "nextgen-nutrition",
+      "ct2": "CT-WA-002"
     }
   ]
 }
