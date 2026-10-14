@@ -1,7 +1,7 @@
 {
   "version": "2026-09-21",
   "source": "Google Sheet HITL share list (1U8yrvZbwiKbv4B6QT_ngwq8mcTTkCFa2YGDPM-X9eLY)",
-  "count": 63,
+  "count": 68,
   "startups": [
     {
       "slug": "curuba",
@@ -833,6 +833,74 @@
       "founder": "",
       "youtube": "",
       "onepager": "pina-kakaw"
+    },
+    {
+      "slug": "bio-analytics",
+      "name": "bio.analytics",
+      "country": "CO",
+      "website": "",
+      "program": "CLP26",
+      "theme": "BIO",
+      "stage": "Launched",
+      "ct1": "CT-IC-001",
+      "ct2": "CT-AF-009",
+      "founder": "",
+      "youtube": "",
+      "onepager": "bio-analytics"
+    },
+    {
+      "slug": "cacelio",
+      "name": "Cacelio",
+      "country": "CO",
+      "website": "",
+      "program": "CLP26",
+      "theme": "CE",
+      "stage": "Prototype",
+      "ct1": "CT-IN-003",
+      "ct2": "CT-AF-009",
+      "founder": "",
+      "youtube": "",
+      "onepager": "cacelio"
+    },
+    {
+      "slug": "circuito-cero",
+      "name": "Circuito Cero",
+      "country": "CO",
+      "website": "",
+      "program": "CLP26",
+      "theme": "CE",
+      "stage": "Ideation",
+      "ct1": "CT-WA-003",
+      "founder": "",
+      "youtube": "",
+      "onepager": "circuito-cero"
+    },
+    {
+      "slug": "clean-sim",
+      "name": "Clean Sim (by IMIC)",
+      "country": "CO",
+      "website": "lectureseries.tech",
+      "program": "CLP26",
+      "theme": "CE",
+      "stage": "Sketches",
+      "ct1": "CT-WA-003",
+      "founder": "",
+      "youtube": "",
+      "onepager": "clean-sim"
+    },
+    {
+      "slug": "climatik",
+      "name": "CLIMATIK Climate Transition Platform",
+      "country": "CO",
+      "website": "",
+      "program": "CLP26",
+      "theme": "CE",
+      "stage": "Private Beta",
+      "ct1": "CT-XS-004",
+      "ct2": "CT-XS-003",
+      "founder": "",
+      "youtube": "",
+      "onepager": "climatik"
     }
   ]
 }

@@ -1,12 +1,12 @@
 {
   "slug": "cacelio",
   "name": "Cacelio",
-  "website": "mailto:cacelio.col@gmail.com",
+  "website": "",
   "badge_en": "Mycelium Interior Wall Panels",
   "badge_es": "Paneles de Pared de Micelio",
   "hero_image": "./assets/hero.jpg",
-  "hero_sub_en": "Mystic Mycology Colombia &middot; Coffee waste biomaterials",
-  "hero_sub_es": "Mystic Mycology Colombia &middot; Biomateriales de residuo cafetero",
+  "hero_sub_en": "CT-IN-003 · Circular Economy &amp; Clean Mfg · Colombia",
+  "hero_sub_es": "CT-IN-003 · Economía circular y manufactura limpia · Colombia",
   "pitch_en": "Biofabricated mycelium interior wall panels from Colombian coffee industry waste — USD 155/m² for architects and design professionals.",
   "pitch_es": "Paneles de revestimiento de pared de micelio biofabricados con residuos de la industria cafetera colombiana — USD 155/m² para arquitectos y diseñadores.",
   "cta_pitch_en": "When a space feels alive again, people connect with nature — acoustic absorption meets circular identity.",
@@ -278,37 +278,20 @@
       "num": 6,
       "type": "team",
       "overlay": "rgba(102,147,72,.30)",
-      "title_en": "Founder's Dream &amp; Team",
-      "title_es": "Sueño del Fundador y Equipo",
-      "members": [
-        {
-          "name": "David Sánchez Nielsen",
-          "role_en": "CEO — Architect",
-          "role_es": "CEO — Arquitecto",
-          "bio_en": "Biomaterials · Biomimetic design.",
-          "bio_es": "Biomateriales · Diseño biomimético.",
-          "photo": "./assets/team/david.jpg"
-        },
-        {
-          "name": "Sebastian Camilo Acosta",
-          "role_en": "COO — Social worker &amp; coffee farmer",
-          "role_es": "COO — Trabajador social y caficultor",
-          "bio_en": "Operations &amp; territory.",
-          "bio_es": "Operaciones y territorio.",
-          "photo": "./assets/team/sebastian.jpg"
-        }
-      ],
-      "dream_en": "2030: Latin America biomaterials leader. Partners: ExpoSuma, Micelio lab. CT taxonomy: [PENDIENTE]. Website: [PENDIENTE] (email only on deck).",
-      "dream_es": "2030: líder LATAM en biomateriales. Aliados: ExpoSuma, laboratorio Micelio. Taxonomía CT: [PENDIENTE]. Web: [PENDIENTE] (solo email en deck).",
+      "title_en": "Founders",
+      "title_es": "Fundadores",
+      "members": [],
+      "dream_en": "CT-IN-003 · CT-AF-009. Founders pending LinkedIn (HITL).",
+      "dream_es": "CT-IN-003 · CT-AF-009. Fundadores pendientes LinkedIn (HITL).",
       "bg": "./assets/bg-team.jpg"
     }
   ],
   "deck_pdf": {
-    "drive_id": "10kg4_s7_y-hAZcdZR2AHPd47sm5kToNx",
-    "view_url": "https://drive.google.com/file/d/10kg4_s7_y-hAZcdZR2AHPd47sm5kToNx/view",
-    "embed_url": "https://drive.google.com/file/d/10kg4_s7_y-hAZcdZR2AHPd47sm5kToNx/preview",
-    "pdf_path": "/s/cacelio/deck.pdf",
-    "source_file": "Cacelio.pdf",
+    "drive_id": "1Kxf1u-ujggXtD5XOohLAL7RrsKBt3jru",
+    "view_url": "https://drive.google.com/file/d/1Kxf1u-ujggXtD5XOohLAL7RrsKBt3jru/view",
+    "slide_images": true,
+    "pages": 10,
     "bg": "./assets/bg-deck.jpg"
-  }
+  },
+  "youtube": ""
 }

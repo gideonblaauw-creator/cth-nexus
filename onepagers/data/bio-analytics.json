@@ -1,12 +1,12 @@
 {
   "slug": "bio-analytics",
   "name": "bio·analytics",
-  "website": "#",
+  "website": "",
   "badge_en": "Biodiversity Analytics — Bio Monitoring",
   "badge_es": "Biodiversity Analytics — Monitoreo Biológico",
   "hero_image": "./assets/hero.jpg",
-  "hero_sub_en": "Decoding the language of biodiversity",
-  "hero_sub_es": "Decodificando el lenguaje de la biodiversidad",
+  "hero_sub_en": "CT-IC-001 · Satellite &amp; Deforestation Monitoring · Colombia",
+  "hero_sub_es": "CT-IC-001 · Monitoreo satelital y deforestación · Colombia",
   "pitch_en": "Continuous, traceable biodiversity monitoring via subscription — USD $1,000 per sensor per year.",
   "pitch_es": "Monitoreo continuo y trazable de biodiversidad por suscripción — USD $1.000 por sensor al año.",
   "cta_btn_en": "Visit us! (deck)",
@@ -327,53 +327,20 @@
       "num": 6,
       "type": "team",
       "overlay": "rgba(102,147,72,.30)",
-      "title_en": "Dream &amp; Team",
-      "title_es": "Sueño y Equipo",
-      "members": [
-        {
-          "name": "Diego Gómez Morales",
-          "role_en": "CEO — Biologist",
-          "role_es": "CEO — Biólogo",
-          "bio_en": "Make biodiversity conservation profitable worldwide.",
-          "bio_es": "Hacer rentable la conservación de biodiversidad mundialmente.",
-          "photo": "./assets/team/diego.jpg"
-        },
-        {
-          "name": "Sofía Medellín Becerra",
-          "role_en": "CPO — Biologist",
-          "role_es": "CPO — Bióloga",
-          "bio_en": "Product leadership.",
-          "bio_es": "Liderazgo de producto.",
-          "photo": "./assets/team/sof.jpg"
-        },
-        {
-          "name": "Natalia Ramirez Ortiz",
-          "role_en": "Biodiversity Analyst",
-          "role_es": "Analista Biodiversidad",
-          "bio_en": "Biologist.",
-          "bio_es": "Bióloga.",
-          "photo": "./assets/team/natalia.jpg"
-        },
-        {
-          "name": "Daniel Gómez Morales",
-          "role_en": "GIS Analyst — Geographer",
-          "role_es": "Analista GIS — Geógrafo",
-          "bio_en": "Spatial analysis.",
-          "bio_es": "Análisis espacial.",
-          "photo": "./assets/team/daniel.jpg"
-        }
-      ],
-      "dream_en": "Position Colombia as global biodiversity services hub. Website URL: [PENDIENTE]. CT taxonomy: [PENDIENTE].",
-      "dream_es": "Posicionar Colombia como hub global de servicios de biodiversidad. URL web: [PENDIENTE]. Taxonomía CT: [PENDIENTE].",
+      "title_en": "Founders",
+      "title_es": "Fundadores",
+      "members": [],
+      "dream_en": "CT-IC-001 · CT-AF-009. Founders pending LinkedIn (HITL).",
+      "dream_es": "CT-IC-001 · CT-AF-009. Fundadores pendientes LinkedIn (HITL).",
       "bg": "./assets/bg-team.jpg"
     }
   ],
   "deck_pdf": {
-    "drive_id": "1Y0_NkNeJpGddCrXNT0quidcFe34E9Pa2",
-    "view_url": "https://drive.google.com/file/d/1Y0_NkNeJpGddCrXNT0quidcFe34E9Pa2/view",
-    "embed_url": "https://drive.google.com/file/d/1Y0_NkNeJpGddCrXNT0quidcFe34E9Pa2/preview",
-    "pdf_path": "/s/bio-analytics/deck.pdf",
-    "source_file": "Bio-analytics.pdf",
+    "drive_id": "1k4kHdNFXCNiJBgpgDpDRA9WGJk2tD9DV",
+    "view_url": "https://drive.google.com/file/d/1k4kHdNFXCNiJBgpgDpDRA9WGJk2tD9DV/view",
+    "slide_images": true,
+    "pages": 9,
     "bg": "./assets/bg-deck.jpg"
-  }
+  },
+  "youtube": ""
 }

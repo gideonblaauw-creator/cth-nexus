@@ -126,6 +126,7 @@ body{font-family:'Open Sans','PT Sans',sans-serif;background:var(--page);color:v
 .deck-slide{width:min(100%,640px);margin-left:auto;margin-right:auto;}
 .deck-slide .deck-frame-wrap{position:relative;width:100%;aspect-ratio:16/9;height:auto;overflow:hidden;}
 .deck-slide .deck-frame{position:absolute;inset:0;width:100%;height:100%;min-height:0;}
+.deck-slide .deck-img{position:relative;width:100%;height:auto;display:block;object-fit:contain;background:#fff;}
 .deck-pager{display:flex;align-items:center;justify-content:center;gap:10px;margin-top:10px;}
 .deck-page-btn{font-family:'Open Sans',sans-serif;font-size:10px;font-weight:700;color:#fff;background:rgba(0,0,0,.35);border:1px solid rgba(255,255,255,.35);border-radius:4px;padding:5px 12px;cursor:pointer;}
 .deck-page-btn:disabled{opacity:.4;cursor:default;}
