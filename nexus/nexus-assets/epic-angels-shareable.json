@@ -1,7 +1,7 @@
 {
   "version": "2026-09-21",
   "source": "Google Sheet HITL share list (1U8yrvZbwiKbv4B6QT_ngwq8mcTTkCFa2YGDPM-X9eLY)",
-  "count": 41,
+  "count": 45,
   "startups": [
     {
       "slug": "curuba",
@@ -522,6 +522,63 @@
       "founder": "",
       "youtube": "",
       "onepager": "yakusmart"
+    },
+    {
+      "slug": "agrolens",
+      "name": "AgroLens",
+      "country": "PE",
+      "website": "",
+      "program": "CLP26",
+      "theme": "BIO",
+      "stage": "Private Beta",
+      "ct1": "CT-AF-007",
+      "ct2": "CT-IC-005",
+      "founder": "",
+      "youtube": "",
+      "onepager": "agrolens"
+    },
+    {
+      "slug": "andean-biofactories",
+      "name": "Andean Biofactories",
+      "country": "PE",
+      "website": "",
+      "program": "CLP26",
+      "theme": "BIO",
+      "stage": "Sketches",
+      "ct1": "CT-AF-010",
+      "ct2": "CT-AF-009",
+      "founder": "",
+      "youtube": "",
+      "onepager": "andean-biofactories"
+    },
+    {
+      "slug": "fivra",
+      "name": "FIVRA",
+      "country": "PE",
+      "website": "",
+      "program": "CLP26",
+      "theme": "CE",
+      "stage": "Public Beta",
+      "ct1": "CT-IN-003",
+      "founder": "",
+      "youtube": "",
+      "onepager": "fivra"
+    },
+    {
+      "slug": "hardtech",
+      "name": "HardTech",
+      "country": "PE",
+      "website": "",
+      "program": "CLP26",
+      "theme": "EN",
+      "stage": "Prototype",
+      "ct1": "",
+      "founder": "",
+      "youtube": "",
+      "onepager": "hardtech",
+      "flags": [
+        "LOW_CONFIDENCE_TAXONOMY"
+      ]
     }
   ]
 }
