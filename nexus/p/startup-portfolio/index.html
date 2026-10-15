@@ -376,11 +376,19 @@ const S=[
 ];
 
 
+const EPIC_ALLOWLIST_SLUGS=new Set([
+  'curuba','amazoniko','e-wai','chumchum','o3-smart-cities','green-leaf','bio-natural-solutions',
+  'communitylab','basilisco','reemade','xiclo','ecopoop','seos-energy','bioambientar','biogar',
+  'gescol','matter-of-trust','cirkula'
+]);
 const EPIC_SLUG_LEGACY={
   'o3-smart-cities':'O3 SMART CITIES','green-leaf':'GREEN LEAF','bio-natural-solutions':'BIO NATURAL SOLUTIONS',
   'basilisco':'BASÍLISCO','reemade':'REEMADE','xiclo':'XICLO','ecopoop':'ECO POOP',
   'seos-energy':'SEOS ENERGY SAS BIC','bioambientar':'BIOAMBIENTAR','biogar':'BIOGAR','gescol':'GESCOL SAS BIC'
 };
+function filterEpicAllowlist(cards){
+  return cards.filter(s=>EPIC_ALLOWLIST_SLUGS.has(s.slug));
+}
 let epicOnly=new URLSearchParams(location.search).get('epic')==='1';
 let imdOnly=new URLSearchParams(location.search).get('imd_pe')==='1';
 if(epicOnly&&imdOnly){imdOnly=false;}
@@ -428,9 +436,9 @@ function imdToCard(e){
 }
 async function loadEpicCards(){
   try{
-    const res=await fetch('/nexus-assets/epic-angels-shareable.json?v=20260924-imd-sync');
+    const res=await fetch('/nexus-assets/epic-angels-shareable.json?v=20261014-epic18');
     const data=await res.json();
-    EPIC_CARDS=(data.startups||[]).map(epicToCard);
+    EPIC_CARDS=filterEpicAllowlist((data.startups||[]).map(epicToCard));
   }catch(err){console.error('Epic list load failed',err);EPIC_CARDS=[];}
   if(epicOnly){
     document.getElementById('epic-tog')?.classList.add('active');
