@@ -1,0 +1,47 @@
+{
+  "Santiago Quiñones": {
+    "image_url": "https://www.fundacioncarolina.es/wp-content/uploads/2024/08/Santiago-Quinones.png",
+    "page_url": "https://www.fundacioncarolina.es/santiago-quinones/",
+    "note": "Fundación Carolina bio: Santiago Quiñones, Directivo APC Colombia (matches CLP26 APC / gestión de demanda context)."
+  },
+  "Felipe Hernández": {
+    "image_url": "https://static.wixstatic.com/media/c3d2ab_5b29a09b9563488bbefc62e91f33b4ae%7Emv2.png/v1/fit/w_800,h_800,al_c/c3d2ab_5b29a09b9563488bbefc62e91f33b4ae%7Emv2.png",
+    "page_url": "https://www.frugalstudio.design/felipe-hernandez",
+    "note": "Frugal Studio founder page for Felipe Hernandez; CLP26 roster: Fractional CPO, Frugal Studio."
+  },
+  "Felipe González": {
+    "image_url": "https://cms.catalist-initiative.eco/assets/1.png",
+    "page_url": "https://catalist-initiative.eco/news/building-a-better-planet-insights-from-tec-de-monterreys-felipe-gonzalez-rosas",
+    "note": "CATAL1.5°T news article names Felipe González Rosas as Climate Entrepreneurship Director, Tec de Monterrey; hero alt text references Felipe presenting (LinkedIn slug felipe-gonzalez-rosas)."
+  },
+  "Diego Martínez de Velasco": {
+    "image_url": "https://techla.pro/wp-content/uploads/2025/06/DIEGO.jpg",
+    "page_url": "https://techla.pro/2025/06/11/diego-martinez-de-velasco-se-suma-a-promotora-social-mexico-como-gerente-de-estrategia-e-innovacion/",
+    "note": "Techla press note headline and schema.org image caption: Diego Martínez de Velasco, Gerente de Estrategia e Innovación at Promotora Social México."
+  },
+  "Lucía Medina Capacoila": {
+    "image_url": "https://mentors.vc4a.com/wp-content/uploads/2022/03/Lucia-500x500.jpg",
+    "page_url": "https://mentors.vc4a.com/profiles/lucia-medina-capacoila/?lang=es",
+    "note": "VC4A mentor profile (schema.org Person image); social entrepreneurship / innovation mentor background."
+  },
+  "Gloria Bazán Narváez": {
+    "image_url": "https://res.cloudinary.com/torre-technologies-co/image/upload/v0/origin/starrgate/users/profile_c352a9d2266c9c079b23b9dd3a65002f28597e02.jpg",
+    "page_url": "https://torre.ai/gbazann",
+    "note": "Torre.ai public profile (JSON-LD Person): Gloria Bazan Narvaez; Msc. Social Innovation / IT service management."
+  },
+  "Martin Dolan": {
+    "image_url": "https://0.academia-photos.com/14815182/9544710/10632705/s200_martin.dolan.jpg_oh_d21bd4dbe74eaab1badae8a547c415b3_oe_5634c262___gda___1442676723_258e5a189ebe1663332c197d6dfa57c3",
+    "page_url": "https://oxfordbrookes.academia.edu/MartinDolan",
+    "note": "Oxford Brookes Academia.edu profile for Martin Dolan; portrait served from academia-photos.com (profile HTML may be Cloudflare-gated)."
+  },
+  "Sebastián Bustamante": {
+    "image_url": "https://static.wixstatic.com/media/37e47d_4f96e10423d4467c9666ac07ca1ad00e~mv2.jpg/v1/crop/x_724,y_0,w_6552,h_10000/fill/w_380,h_580,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_8996.jpg",
+    "page_url": "https://medellin.impacthub.net/talento-humano-empresarial",
+    "note": "Impact Hub Medellín team page lists Sebastián Bustamante, Co-fundador with adjacent portrait (IMG_8996); CLP26 roster: Climate-KIC Entrepreneurship Programme Manager."
+  },
+  "Ana María Parra García": {
+    "image_url": "https://landing.kawak.net/hs-fs/hubfs/anamparra-1.png?width=386&name=anamparra-1.png",
+    "page_url": "https://landing.kawak.net/ana-maria-parra-experta-innovacion-transformacion",
+    "note": "Kawak expert landing: Ana María Parra (innovación y transformación); matches CLP26 mentor Ana María Parra García (LinkedIn ana-maria-parra-pm)."
+  }
+}
