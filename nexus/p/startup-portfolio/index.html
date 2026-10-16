@@ -163,7 +163,7 @@ body{font-family:'Open Sans','PT Sans',sans-serif;background:var(--color-bg);col
     <span class="epic-stat" id="epic-stat" style="display:none">18 APC-shareable</span>
     <button class="fb" id="imd-tog" data-imd="1" onclick="toggleImd()">IMD · Perú · CTH programs</button>
     <span class="imd-stat" id="imd-stat" style="display:none">16 shareable</span>
-    <button class="fb" id="clp-tog" data-clp="1" onclick="toggleClp()">CLP26 · CleanTech Latam Pitch</button>
+    <button class="fb" id="clp-tog" data-clp="1" onclick="toggleClp()">CLP26 · ClimateLaunchpad 2026</button>
     <span class="clp-stat" id="clp-stat" style="display:none">53 CLP26</span>
     <a href="https://www.epicangelnetwork.com/" target="_blank" rel="noopener" style="font-size:10px;color:#7c3aed;text-decoration:none;margin-left:4px">epicangelnetwork.com ↗</a>
   </div>
@@ -612,7 +612,7 @@ function render(){
     document.getElementById('st-total').textContent=total;
     document.getElementById('st-web').textContent=list.filter(s=>s.w).length;
     document.getElementById('st-show').textContent=list.length;
-    document.getElementById('ri').textContent=list.length?(`${list.length}/${total} CLP26 · CleanTech Latam Pitch`):'';
+    document.getElementById('ri').textContent=list.length?(`${list.length}/${total} CLP26 · ClimateLaunchpad 2026`):'';
     const grid=document.getElementById('grid');
     if(!list.length){grid.innerHTML='<div class="empty">'+t.noMatch+'</div>';return;}
     grid.innerHTML=list.map(s=>renderCard(s,t)).join('');
