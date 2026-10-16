@@ -5,6 +5,10 @@ Reads data/clp26/nexus_roster_additions.json, backs up targets, then appends
 new MENTORS entries to mentor-directory index.html and rows to
 CTH_Master_Mentors.xlsx. Skips duplicates (by id, normalized name, or LinkedIn URL).
 
+The live index.html uses a JavaScript object-literal array (unquoted keys), not JSON.
+Existing array text is left byte-for-byte unchanged; new objects are appended before
+the closing ``]`` in the same style.
+
 Requires: pip install openpyxl
 
 Default VPS paths (override with flags):
@@ -28,7 +32,12 @@ DEFAULT_ADDITIONS = ROOT / "data/clp26/nexus_roster_additions.json"
 DEFAULT_HTML = Path("/opt/cth-nexus/static/mentor-directory/index.html")
 DEFAULT_XLSX = Path("/opt/cth-nexus/data/CTH_Master_Mentors.xlsx")
 
-MENTORS_MARKER = re.compile(r"(const\s+MENTORS\s*=\s*)", re.MULTILINE)
+MENTORS_MARKER = re.compile(r"const\s+MENTORS\s*=\s*\[", re.MULTILINE)
+
+# Tolerant scans of JS object literals inside the MENTORS array body.
+_RE_ID = re.compile(r'\bid\s*:\s*"((?:\\.|[^"\\])*)"')
+_RE_NAME = re.compile(r'\bname\s*:\s*"((?:\\.|[^"\\])*)"')
+_RE_LINKEDIN = re.compile(r'\blinkedin\s*:\s*"((?:\\.|[^"\\])*)"')
 
 
 def norm_name(name: str) -> str:
@@ -45,6 +54,45 @@ def norm_linkedin(url: str | None) -> str:
     u = re.sub(r"^https?://", "", u)
     u = u.rstrip("/")
     return u
+
+
+def js_unquote(s: str) -> str:
+    out: list[str] = []
+    i = 0
+    while i < len(s):
+        if s[i] == "\\" and i + 1 < len(s):
+            nxt = s[i + 1]
+            if nxt == "n":
+                out.append("\n")
+            elif nxt == "r":
+                out.append("\r")
+            elif nxt in ('"', "\\"):
+                out.append(nxt)
+            else:
+                out.append(nxt)
+            i += 2
+        else:
+            out.append(s[i])
+            i += 1
+    return "".join(out)
+
+
+def js_quote(s: str) -> str:
+    """Double-quoted JS string literal (unquoted object keys)."""
+    out: list[str] = ['"']
+    for ch in s:
+        if ch == "\\":
+            out.append("\\\\")
+        elif ch == '"':
+            out.append('\\"')
+        elif ch == "\n":
+            out.append("\\n")
+        elif ch == "\r":
+            out.append("\\r")
+        else:
+            out.append(ch)
+    out.append('"')
+    return "".join(out)
 
 
 def load_additions(path: Path) -> list[dict]:
@@ -77,66 +125,76 @@ def backup_file(path: Path) -> Path:
     return dest
 
 
-def extract_mentors_array(html: str) -> tuple[int, int, list[dict]]:
+def find_mentors_array_bounds(html: str) -> tuple[int, int]:
+    """Return (index of '[', index of matching ']') for the MENTORS array."""
     m = MENTORS_MARKER.search(html)
     if not m:
-        raise ValueError("Could not find `const MENTORS =` in index.html")
-    start = m.end()
-    if start >= len(html) or html[start] != "[":
-        raise ValueError("Expected '[' after MENTORS =")
+        raise ValueError("Could not find `const MENTORS = [` in index.html")
+    start = m.end() - 1  # points at '['
     depth = 0
     i = start
+    in_string: str | None = None
+    escape = False
     while i < len(html):
         ch = html[i]
+        if in_string:
+            if escape:
+                escape = False
+            elif ch == "\\":
+                escape = True
+            elif ch == in_string:
+                in_string = None
+            i += 1
+            continue
+        if ch in ('"', "'"):
+            in_string = ch
+            i += 1
+            continue
         if ch == "[":
             depth += 1
         elif ch == "]":
             depth -= 1
             if depth == 0:
-                array_text = html[start : i + 1]
-                mentors = json.loads(array_text)
-                return start, i + 1, mentors
+                return start, i
         i += 1
     raise ValueError("Unclosed MENTORS array in index.html")
 
 
-def mentor_for_html(entry: dict) -> dict:
-    out: dict = {
-        "id": entry["id"],
-        "name": entry["name"],
-        "role": entry.get("role") or "",
-        "company": entry.get("company") or entry.get("organisation") or "",
-        "expertise": entry.get("expertise") or "",
-        "programs": list(entry.get("programs") or ["CLP26"]),
-        "status": entry.get("status") or "Active",
-        "confidence": entry.get("confidence") or "probable",
-        "desc": entry.get("desc") or "",
+def parse_mentors_array_body(array_body: str) -> tuple[set[str], set[str], set[str]]:
+    """Extract id / name / linkedin keys from existing JS object literals."""
+    ids = {js_unquote(m.group(1)) for m in _RE_ID.finditer(array_body)}
+    names = {norm_name(js_unquote(m.group(1))) for m in _RE_NAME.finditer(array_body)}
+    links = {
+        norm_linkedin(js_unquote(m.group(1)))
+        for m in _RE_LINKEDIN.finditer(array_body)
+        if m.group(1).strip()
     }
-    li = entry.get("linkedin") or entry.get("linkedin_url")
-    if li:
-        out["linkedin"] = li
-    return out
-
-
-def existing_html_keys(mentors: list[dict]) -> tuple[set[str], set[str], set[str]]:
-    ids: set[str] = set()
-    names: set[str] = set()
-    links: set[str] = set()
-    for m in mentors:
-        if m.get("id"):
-            ids.add(m["id"])
-        if m.get("name"):
-            names.add(norm_name(m["name"]))
-        if m.get("linkedin"):
-            links.add(norm_linkedin(m["linkedin"]))
     return ids, names, links
+
+
+def format_mentor_object_js(entry: dict) -> str:
+    """Single mentor object in live Nexus style: {id:"…",name:"…",linkedin:"…",desc:"…"}."""
+    li = (entry.get("linkedin_url") or entry.get("linkedin") or "").strip()
+    desc = entry.get("desc") or ""
+    parts = [
+        f"id:{js_quote(entry['id'])}",
+        f"name:{js_quote(entry['name'])}",
+        f"linkedin:{js_quote(li)}",
+        f"desc:{js_quote(desc)}",
+    ]
+    photo = (entry.get("photo") or "").strip()
+    if photo:
+        parts.append(f"photo:{js_quote(photo)}")
+    return "{" + ",".join(parts) + "}"
 
 
 def merge_html(html_path: Path, additions: list[dict], dry_run: bool) -> tuple[int, int]:
     html = html_path.read_text(encoding="utf-8")
-    start, end, mentors = extract_mentors_array(html)
-    ids, names, links = existing_html_keys(mentors)
+    open_bracket, close_bracket = find_mentors_array_bounds(html)
+    array_body = html[open_bracket + 1 : close_bracket]
+    ids, names, links = parse_mentors_array_body(array_body)
 
+    to_append: list[str] = []
     added = 0
     skipped = 0
     for entry in additions:
@@ -149,8 +207,7 @@ def merge_html(html_path: Path, additions: list[dict], dry_run: bool) -> tuple[i
         if mid in ids or name_k in names or (link_k and link_k in links):
             skipped += 1
             continue
-        obj = mentor_for_html(entry)
-        mentors.append(obj)
+        to_append.append(format_mentor_object_js(entry))
         ids.add(mid)
         names.add(name_k)
         if link_k:
@@ -158,9 +215,11 @@ def merge_html(html_path: Path, additions: list[dict], dry_run: bool) -> tuple[i
         added += 1
 
     if added and not dry_run:
-        new_array = json.dumps(mentors, ensure_ascii=False, indent=2)
-        new_html = html[:start] + new_array + html[end:]
-        html_path.write_text(new_html, encoding="utf-8")
+        prefix = html[:close_bracket]
+        suffix = html[close_bracket:]
+        needs_comma = bool(array_body.strip())
+        insert = ("," if needs_comma else "") + ",".join(to_append)
+        html_path.write_text(prefix + insert + suffix, encoding="utf-8")
 
     return added, skipped
 
