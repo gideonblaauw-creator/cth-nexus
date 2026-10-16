@@ -5,9 +5,12 @@
     "people_sources_path": "climate-kic/clp26-story/site/data/people.json",
     "highest_existing_nexus_id": "M076",
     "first_new_id": "M077",
-    "count_new": 65,
+    "count_new": 51,
     "count_already_on_nexus": 8,
-    "dedupe": "normalized full name; merged mentor+jury lists"
+    "dedupe": "normalized full name; merged mentor+jury lists",
+    "last_new_id": "M127",
+    "excluded_no_linkedin": 14,
+    "policy": "Gideon: no LinkedIn URL => not added to Nexus roster package"
   },
   "already_on_nexus": [
     {
@@ -175,26 +178,6 @@
     },
     {
       "id": "M082",
-      "name": "Andrés Ortega",
-      "role": "",
-      "company": "Team CEE+",
-      "organisation": "Team CEE+",
-      "country": "Central America Mini-final · 25 Aug 2026",
-      "expertise": "",
-      "programs": [
-        "CLP26"
-      ],
-      "clp26_roles": [
-        "jury"
-      ],
-      "status": "Active",
-      "linkedin_url": null,
-      "confidence": "probable",
-      "desc": "",
-      "email": ""
-    },
-    {
-      "id": "M083",
       "name": "Bernardo Joseph Trujillo León",
       "role": "",
       "company": "",
@@ -215,27 +198,7 @@
       "linkedin": "http://linkedin.com/in/bernardo-joseph-4813561a9"
     },
     {
-      "id": "M084",
-      "name": "Camila Hernández Lozada",
-      "role": "",
-      "company": "",
-      "organisation": "",
-      "country": "Colombia National Final · 20 Aug 2026",
-      "expertise": "",
-      "programs": [
-        "CLP26"
-      ],
-      "clp26_roles": [
-        "jury"
-      ],
-      "status": "Active",
-      "linkedin_url": null,
-      "confidence": "probable",
-      "desc": "",
-      "email": ""
-    },
-    {
-      "id": "M085",
+      "id": "M083",
       "name": "Carlos Arango Ucros",
       "role": "",
       "company": "",
@@ -256,7 +219,7 @@
       "linkedin": "https://www.linkedin.com/in/carlosarangoucros"
     },
     {
-      "id": "M086",
+      "id": "M084",
       "name": "Cinthya Sandoval Cuéllar",
       "role": "",
       "company": "",
@@ -277,7 +240,7 @@
       "linkedin": "https://www.linkedin.com/in/cinthya-sandoval-48903770/"
     },
     {
-      "id": "M087",
+      "id": "M085",
       "name": "Daniel Alpaca",
       "role": "",
       "company": "",
@@ -298,7 +261,7 @@
       "linkedin": "www.linkedin.com/in/danielalpaca"
     },
     {
-      "id": "M088",
+      "id": "M086",
       "name": "Daniel Swift",
       "role": "Ingeniero Especializado",
       "company": "Banco de la Republica",
@@ -319,7 +282,7 @@
       "linkedin": "https://www.linkedin.com/in/danielswiftpub/"
     },
     {
-      "id": "M089",
+      "id": "M087",
       "name": "Diana Castrillón Gómez",
       "role": "",
       "company": "",
@@ -340,67 +303,7 @@
       "linkedin": "https://www.linkedin.com/in/dianacastrillongomez/"
     },
     {
-      "id": "M090",
-      "name": "Diana María Quimbay",
-      "role": "",
-      "company": "",
-      "organisation": "",
-      "country": "Colombia National Final · 20 Aug 2026",
-      "expertise": "",
-      "programs": [
-        "CLP26"
-      ],
-      "clp26_roles": [
-        "jury"
-      ],
-      "status": "Active",
-      "linkedin_url": null,
-      "confidence": "probable",
-      "desc": "",
-      "email": ""
-    },
-    {
-      "id": "M091",
-      "name": "Diego Martínez de Velasco",
-      "role": "",
-      "company": "",
-      "organisation": "",
-      "country": "Central America Mini-final · 25 Aug 2026",
-      "expertise": "",
-      "programs": [
-        "CLP26"
-      ],
-      "clp26_roles": [
-        "jury"
-      ],
-      "status": "Active",
-      "linkedin_url": null,
-      "confidence": "probable",
-      "desc": "",
-      "email": ""
-    },
-    {
-      "id": "M092",
-      "name": "Eddie Ajalcriña",
-      "role": "",
-      "company": "redesignlab",
-      "organisation": "redesignlab",
-      "country": "Americas Regional Final · 4 Sep 2026",
-      "expertise": "",
-      "programs": [
-        "CLP26"
-      ],
-      "clp26_roles": [
-        "jury"
-      ],
-      "status": "Active",
-      "linkedin_url": null,
-      "confidence": "probable",
-      "desc": "",
-      "email": ""
-    },
-    {
-      "id": "M093",
+      "id": "M088",
       "name": "Erwin Navarrete",
       "role": "",
       "company": "",
@@ -421,7 +324,7 @@
       "linkedin": "https://www.linkedin.com/in/erwin-navarrete-b43283240/"
     },
     {
-      "id": "M094",
+      "id": "M089",
       "name": "Estela Ugalde",
       "role": "",
       "company": "",
@@ -442,47 +345,7 @@
       "linkedin": "https://www.linkedin.com/in/estela-ugalde-74447268/"
     },
     {
-      "id": "M095",
-      "name": "Federico Espinosa",
-      "role": "",
-      "company": "Universidad Veritas (CR)",
-      "organisation": "Universidad Veritas (CR)",
-      "country": "Central America Mini-final · 25 Aug 2026",
-      "expertise": "",
-      "programs": [
-        "CLP26"
-      ],
-      "clp26_roles": [
-        "jury"
-      ],
-      "status": "Active",
-      "linkedin_url": null,
-      "confidence": "probable",
-      "desc": "",
-      "email": ""
-    },
-    {
-      "id": "M096",
-      "name": "Felipe González",
-      "role": "",
-      "company": "",
-      "organisation": "",
-      "country": "Colombia National Final · 20 Aug 2026",
-      "expertise": "",
-      "programs": [
-        "CLP26"
-      ],
-      "clp26_roles": [
-        "jury"
-      ],
-      "status": "Active",
-      "linkedin_url": null,
-      "confidence": "probable",
-      "desc": "",
-      "email": ""
-    },
-    {
-      "id": "M097",
+      "id": "M090",
       "name": "Felipe Hernández",
       "role": "",
       "company": "",
@@ -504,7 +367,7 @@
       "linkedin": "https://www.linkedin.com/in/fhvdesign/"
     },
     {
-      "id": "M098",
+      "id": "M091",
       "name": "Fernando Torres",
       "role": "",
       "company": "",
@@ -525,27 +388,7 @@
       "linkedin": "www.linkedin.com/in/fitorresg/"
     },
     {
-      "id": "M099",
-      "name": "Flora Drozak",
-      "role": "",
-      "company": "",
-      "organisation": "",
-      "country": "Americas Regional Final · 4 Sep 2026",
-      "expertise": "",
-      "programs": [
-        "CLP26"
-      ],
-      "clp26_roles": [
-        "jury"
-      ],
-      "status": "Active",
-      "linkedin_url": null,
-      "confidence": "probable",
-      "desc": "",
-      "email": ""
-    },
-    {
-      "id": "M100",
+      "id": "M092",
       "name": "Gabriela Tenaz",
       "role": "",
       "company": "",
@@ -566,7 +409,7 @@
       "linkedin": "https://www.linkedin.com/in/gabriela-t%C3%A9naz-2914a6127/"
     },
     {
-      "id": "M101",
+      "id": "M093",
       "name": "Genoveva Martínez",
       "role": "",
       "company": "",
@@ -587,7 +430,7 @@
       "linkedin": "https://www.linkedin.com/in/genoveva-martínez-a4ab33196?utm_source=share_via&utm_content=profile&utm_medium=member_android"
     },
     {
-      "id": "M102",
+      "id": "M094",
       "name": "Gloria Bazán Narváez",
       "role": "",
       "company": "",
@@ -608,7 +451,7 @@
       "linkedin": "https://www.linkedin.com/in/gloria-bazan-narvaez-06581b55/"
     },
     {
-      "id": "M103",
+      "id": "M095",
       "name": "Guillermo Nariño",
       "role": "",
       "company": "",
@@ -629,7 +472,7 @@
       "linkedin": "https://www.linkedin.com/in/guillermo-nari%C3%B1o/?"
     },
     {
-      "id": "M104",
+      "id": "M096",
       "name": "Guisela Carbajal Romero",
       "role": "",
       "company": "",
@@ -650,7 +493,7 @@
       "linkedin": "https://www.linkedin.com/in/guisela-carbajal/"
     },
     {
-      "id": "M105",
+      "id": "M097",
       "name": "Gustavo García",
       "role": "",
       "company": "",
@@ -671,7 +514,7 @@
       "linkedin": "https://www.linkedin.com/in/gustavo-garcia-navas/"
     },
     {
-      "id": "M106",
+      "id": "M098",
       "name": "Heraldo Escobar",
       "role": "",
       "company": "",
@@ -692,27 +535,7 @@
       "linkedin": "www.linkedin.com/in/heraldo-escobar-72163934"
     },
     {
-      "id": "M107",
-      "name": "Héctor Vinicio España González",
-      "role": "",
-      "company": "",
-      "organisation": "",
-      "country": "Central America Mini-final · 25 Aug 2026",
-      "expertise": "",
-      "programs": [
-        "CLP26"
-      ],
-      "clp26_roles": [
-        "jury"
-      ],
-      "status": "Active",
-      "linkedin_url": null,
-      "confidence": "probable",
-      "desc": "",
-      "email": ""
-    },
-    {
-      "id": "M108",
+      "id": "M099",
       "name": "Jhosseli García",
       "role": "",
       "company": "",
@@ -733,27 +556,7 @@
       "linkedin": "www.linkedin.com/in/jhosseligarcia/"
     },
     {
-      "id": "M109",
-      "name": "Johana Figueroa",
-      "role": "",
-      "company": "",
-      "organisation": "",
-      "country": "Americas Regional Final · 4 Sep 2026",
-      "expertise": "",
-      "programs": [
-        "CLP26"
-      ],
-      "clp26_roles": [
-        "jury"
-      ],
-      "status": "Active",
-      "linkedin_url": null,
-      "confidence": "probable",
-      "desc": "",
-      "email": ""
-    },
-    {
-      "id": "M110",
+      "id": "M100",
       "name": "Jorge Montenegro",
       "role": "",
       "company": "",
@@ -774,7 +577,7 @@
       "linkedin": "https://www.linkedin.com/in/jorge-fer-monte"
     },
     {
-      "id": "M111",
+      "id": "M101",
       "name": "José Soto",
       "role": "",
       "company": "",
@@ -795,7 +598,7 @@
       "linkedin": "www.linkedin.com/in/jose-carlos-soto-mujica-9a9987396"
     },
     {
-      "id": "M112",
+      "id": "M102",
       "name": "Juan Diego Loarca",
       "role": "",
       "company": "",
@@ -816,7 +619,7 @@
       "linkedin": "https://www.linkedin.com/in/juan-diego-loarca?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     },
     {
-      "id": "M113",
+      "id": "M103",
       "name": "Juan Sebastián Villamizar",
       "role": "",
       "company": "",
@@ -837,7 +640,7 @@
       "linkedin": "https://www.linkedin.com/in/sebastian-villamizar-diaz-b17818114"
     },
     {
-      "id": "M114",
+      "id": "M104",
       "name": "Julián Martínez",
       "role": "",
       "company": "",
@@ -858,7 +661,7 @@
       "linkedin": "https://www.linkedin.com/in/julianmartineza/"
     },
     {
-      "id": "M115",
+      "id": "M105",
       "name": "Karol M. Garzón",
       "role": "",
       "company": "",
@@ -879,7 +682,7 @@
       "linkedin": "https://www.linkedin.com/in/karol-melissa-garz%C3%B3n-cabrera-5516a6382/"
     },
     {
-      "id": "M116",
+      "id": "M106",
       "name": "Lina Ospina",
       "role": "Líder de Alianzas",
       "company": "Corporación Interactuar",
@@ -900,7 +703,7 @@
       "linkedin": "https://www.linkedin.com/in/lina-ospina-mosquera/"
     },
     {
-      "id": "M117",
+      "id": "M107",
       "name": "Lucía Medina Capacoila",
       "role": "",
       "company": "",
@@ -921,27 +724,7 @@
       "linkedin": "https://www.linkedin.com/in/luciamedinacapacoila/"
     },
     {
-      "id": "M118",
-      "name": "Luis Miguel Mateus",
-      "role": "",
-      "company": "",
-      "organisation": "",
-      "country": "Colombia National Final · 20 Aug 2026",
-      "expertise": "",
-      "programs": [
-        "CLP26"
-      ],
-      "clp26_roles": [
-        "jury"
-      ],
-      "status": "Active",
-      "linkedin_url": null,
-      "confidence": "probable",
-      "desc": "",
-      "email": ""
-    },
-    {
-      "id": "M119",
+      "id": "M108",
       "name": "Maité Marroquín",
       "role": "",
       "company": "",
@@ -962,7 +745,7 @@
       "linkedin": "https://www.linkedin.com/in/mait%C3%A9-marroqu%C3%ADn-76370918b/"
     },
     {
-      "id": "M120",
+      "id": "M109",
       "name": "Mariana Revilla Llaca",
       "role": "Gerente de Sustentabilidad",
       "company": "Grupo Restaurantero Gigante",
@@ -983,7 +766,7 @@
       "linkedin": "https://www.linkedin.com/in/ACoAACJO8qYByt8d8R8InDQGReuHjGlBkUq2xZA"
     },
     {
-      "id": "M121",
+      "id": "M110",
       "name": "Mario Reichert",
       "role": "",
       "company": "",
@@ -1004,7 +787,7 @@
       "linkedin": "https://www.linkedin.com/in/mario-reichert-netzero-esg-gri-sas-niifs1-s2sbti-waterstewardship-ehs-safety-sustainability-sbti-wcm?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
     },
     {
-      "id": "M122",
+      "id": "M111",
       "name": "Mario Rojas",
       "role": "Red de metores y Docente",
       "company": "Uniandinos",
@@ -1026,7 +809,7 @@
       "linkedin": "https://www.linkedin.com/in/mario-fernando-rojas-suarez-49328770/"
     },
     {
-      "id": "M123",
+      "id": "M112",
       "name": "Marisa Arias",
       "role": "",
       "company": "",
@@ -1047,7 +830,7 @@
       "linkedin": "www.linkedin.com/in/marisaariaspicon/"
     },
     {
-      "id": "M124",
+      "id": "M113",
       "name": "Martha Zeledón",
       "role": "",
       "company": "",
@@ -1068,7 +851,7 @@
       "linkedin": "https://www.linkedin.com/in/martha-yadira-zeled%C3%B3n-2419b024/"
     },
     {
-      "id": "M125",
+      "id": "M114",
       "name": "Martin Dolan",
       "role": "",
       "company": "",
@@ -1089,7 +872,7 @@
       "linkedin": "https://www.linkedin.com/in/martin-dolan/"
     },
     {
-      "id": "M126",
+      "id": "M115",
       "name": "Marvin Luna",
       "role": "",
       "company": "",
@@ -1110,7 +893,7 @@
       "linkedin": "linkedin.com/in/marvinlunagt"
     },
     {
-      "id": "M127",
+      "id": "M116",
       "name": "María Isabel Cruz López",
       "role": "",
       "company": "",
@@ -1131,7 +914,7 @@
       "linkedin": "https://www.linkedin.com/in/maria-isabel-cruz-lopez"
     },
     {
-      "id": "M128",
+      "id": "M117",
       "name": "María Juliana Pérez Vasco",
       "role": "",
       "company": "",
@@ -1152,7 +935,7 @@
       "linkedin": "https://www.linkedin.com/in/maria-juliana-perez-vasco-19587843"
     },
     {
-      "id": "M129",
+      "id": "M118",
       "name": "Mónica O’Connor",
       "role": "",
       "company": "",
@@ -1173,7 +956,7 @@
       "linkedin": "www.linkedin.com/in/manuel-c%C3%A1rdenas-iberico-0225a216/"
     },
     {
-      "id": "M130",
+      "id": "M119",
       "name": "Osvaldo Ruiz",
       "role": "",
       "company": "",
@@ -1194,7 +977,7 @@
       "linkedin": "https://www.linkedin.com/in/osvaldo-ruiz-calder%C3%B3n-1b9699136/"
     },
     {
-      "id": "M131",
+      "id": "M120",
       "name": "Paola Andrea Sánchez Gutiérrez",
       "role": "",
       "company": "",
@@ -1215,7 +998,7 @@
       "linkedin": "https://www.linkedin.com/in/paolasolarinsights/"
     },
     {
-      "id": "M132",
+      "id": "M121",
       "name": "Patricia Carrasquilla Cortés",
       "role": "",
       "company": "",
@@ -1236,7 +1019,7 @@
       "linkedin": "https://www.linkedin.com/in/patriciacarrasquillac"
     },
     {
-      "id": "M133",
+      "id": "M122",
       "name": "Patricia Melgar",
       "role": "",
       "company": "",
@@ -1257,7 +1040,7 @@
       "linkedin": "www.linkedin.com/in/patricia-melgar-71360228/"
     },
     {
-      "id": "M134",
+      "id": "M123",
       "name": "Patricia Vidal",
       "role": "",
       "company": "",
@@ -1278,7 +1061,7 @@
       "linkedin": "www.linkedin.com/in/patricia-vidal-izaguirre"
     },
     {
-      "id": "M135",
+      "id": "M124",
       "name": "Raúl Campos",
       "role": "",
       "company": "",
@@ -1299,7 +1082,7 @@
       "linkedin": "www.linkedin.com/in/raulcamposrosas/"
     },
     {
-      "id": "M136",
+      "id": "M125",
       "name": "Santiago Aristizábal",
       "role": "",
       "company": "",
@@ -1320,7 +1103,7 @@
       "linkedin": "https://www.linkedin.com/in/santiago-aristiz%C3%A1bal-molina-04681657/"
     },
     {
-      "id": "M137",
+      "id": "M126",
       "name": "Santiago Cruz",
       "role": "",
       "company": "",
@@ -1342,47 +1125,7 @@
       "linkedin": "https://www.linkedin.com/in/santiagocruzgonzalez"
     },
     {
-      "id": "M138",
-      "name": "Santiago Quiñones",
-      "role": "",
-      "company": "",
-      "organisation": "",
-      "country": "Colombia National Final · 20 Aug 2026",
-      "expertise": "",
-      "programs": [
-        "CLP26"
-      ],
-      "clp26_roles": [
-        "jury"
-      ],
-      "status": "Active",
-      "linkedin_url": null,
-      "confidence": "probable",
-      "desc": "",
-      "email": ""
-    },
-    {
-      "id": "M139",
-      "name": "Sebastián Bustamante",
-      "role": "",
-      "company": "Climate-KIC",
-      "organisation": "Climate-KIC",
-      "country": "Americas Regional Final · 4 Sep 2026",
-      "expertise": "",
-      "programs": [
-        "CLP26"
-      ],
-      "clp26_roles": [
-        "jury"
-      ],
-      "status": "Active",
-      "linkedin_url": null,
-      "confidence": "probable",
-      "desc": "",
-      "email": ""
-    },
-    {
-      "id": "M140",
+      "id": "M127",
       "name": "Sebastián Martínez Pérez",
       "role": "",
       "company": "",
@@ -1401,26 +1144,6 @@
       "desc": "",
       "email": "sebasmperez@gmail.com",
       "linkedin": "https://www.linkedin.com/in/sebasmperez/"
-    },
-    {
-      "id": "M141",
-      "name": "Silvia López Giraldo",
-      "role": "",
-      "company": "",
-      "organisation": "",
-      "country": "Costa Rica",
-      "expertise": "",
-      "programs": [
-        "CLP26"
-      ],
-      "clp26_roles": [
-        "mentor"
-      ],
-      "status": "Active",
-      "linkedin_url": null,
-      "confidence": "probable",
-      "desc": "",
-      "email": "cempresarial11@gmail.com"
     }
   ]
 }

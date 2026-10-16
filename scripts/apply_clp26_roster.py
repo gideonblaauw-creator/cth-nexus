@@ -49,7 +49,25 @@ def norm_linkedin(url: str | None) -> str:
 
 def load_additions(path: Path) -> list[dict]:
     data = json.loads(path.read_text(encoding="utf-8"))
-    return list(data.get("additions") or [])
+    additions = list(data.get("additions") or [])
+    validate_additions(additions)
+    return additions
+
+
+def validate_additions(additions: list[dict]) -> None:
+    """Reject roster entries with no linkedin_url (Nexus policy)."""
+    missing = [
+        f"{e.get('id') or '?'} ({e.get('name') or 'unknown'})"
+        for e in additions
+        if not (e.get("linkedin_url") or "").strip()
+    ]
+    if missing:
+        print(
+            "Refusing to apply: every entry must have linkedin_url. Missing:\n  "
+            + "\n  ".join(missing),
+            file=sys.stderr,
+        )
+        raise SystemExit(2)
 
 
 def backup_file(path: Path) -> Path:
@@ -122,6 +140,9 @@ def merge_html(html_path: Path, additions: list[dict], dry_run: bool) -> tuple[i
     added = 0
     skipped = 0
     for entry in additions:
+        if not (entry.get("linkedin_url") or "").strip():
+            skipped += 1
+            continue
         mid = entry.get("id")
         name_k = norm_name(entry.get("name", ""))
         link_k = norm_linkedin(entry.get("linkedin") or entry.get("linkedin_url"))
@@ -176,6 +197,9 @@ def merge_xlsx(xlsx_path: Path, additions: list[dict], dry_run: bool) -> tuple[i
     roles_note = lambda e: ", ".join(e.get("clp26_roles") or [])
 
     for entry in additions:
+        if not (entry.get("linkedin_url") or "").strip():
+            skipped += 1
+            continue
         mid = entry.get("id")
         name_k = norm_name(entry.get("name", ""))
         if mid in existing_ids or name_k in existing_names:
