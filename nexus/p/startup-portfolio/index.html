@@ -131,6 +131,8 @@ body{font-family:'Open Sans','PT Sans',sans-serif;background:var(--color-bg);col
 .yt-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 .epic-stat{font-size:11px;color:#5b21b6;background:#f5f3ff;border:1px solid #ddd6fe;border-radius:999px;padding:2px 10px;font-weight:700}
 .fb[data-imd="1"].active{background:#c2410c}
+.fb[data-clp="1"].active{background:#0f766e}
+.clp-stat{font-size:11px;color:#115e59;background:#f0fdfa;border:1px solid #99f6e4;border-radius:999px;padding:2px 10px;font-weight:700}
 .imd-badge{display:inline-block;padding:2px 7px;border-radius:20px;font-size:9.5px;font-weight:700;background:#ffedd5;color:#9a3412;border:1px solid #fdba74}
 .imd-stat{font-size:11px;color:#9a3412;background:#fff7ed;border:1px solid #fed7aa;border-radius:999px;padding:2px 10px;font-weight:700}
 
@@ -161,6 +163,8 @@ body{font-family:'Open Sans','PT Sans',sans-serif;background:var(--color-bg);col
     <span class="epic-stat" id="epic-stat" style="display:none">18 APC-shareable</span>
     <button class="fb" id="imd-tog" data-imd="1" onclick="toggleImd()">IMD · Perú · CTH programs</button>
     <span class="imd-stat" id="imd-stat" style="display:none">16 shareable</span>
+    <button class="fb" id="clp-tog" data-clp="1" onclick="toggleClp()">CLP26 · CleanTech Latam Pitch</button>
+    <span class="clp-stat" id="clp-stat" style="display:none">53 CLP26</span>
     <a href="https://www.epicangelnetwork.com/" target="_blank" rel="noopener" style="font-size:10px;color:#7c3aed;text-decoration:none;margin-left:4px">epicangelnetwork.com ↗</a>
   </div>
 
@@ -391,8 +395,11 @@ function filterEpicAllowlist(cards){
 }
 let epicOnly=new URLSearchParams(location.search).get('epic')==='1';
 let imdOnly=new URLSearchParams(location.search).get('imd_pe')==='1';
+let clpOnly=new URLSearchParams(location.search).get('clp26')==='1';
 if(epicOnly&&imdOnly){imdOnly=false;}
+if(clpOnly&&(epicOnly||imdOnly)){clpOnly=false;}
 let EPIC_CARDS=[];
+let CLP_CARDS=[];
 let IMD_CARDS=[];
 
 function normalizeProgram(p){
@@ -462,19 +469,52 @@ async function loadImdCards(){
   }
   render();
 }
+async function loadClpCards(){
+  try{
+    const res=await fetch('/nexus-assets/clp26-national-shareable.json?v=20261016-clp26');
+    const data=await res.json();
+    CLP_CARDS=(data.startups||[]).map(e=>Object.assign(epicToCard(e),{epic:false,clp:true}));
+  }catch(err){console.error('CLP26 list load failed',err);CLP_CARDS=[];}
+  if(clpOnly){
+    document.getElementById('clp-tog')?.classList.add('active');
+    const st=document.getElementById('clp-stat');if(st){st.textContent=CLP_CARDS.length+' CLP26';st.style.setProperty('display','inline-block');}
+    webOnly=false;
+    document.getElementById('web-tog')?.classList.remove('active');
+  }
+  render();
+}
+function syncClpUI(){
+  document.getElementById('clp-tog')?.classList.toggle('active',clpOnly);
+  const st=document.getElementById('clp-stat');if(st){st.textContent=(CLP_CARDS.length||53)+' CLP26';st.style.setProperty('display',clpOnly?'inline-block':'none');}
+}
+function toggleClp(){
+  clpOnly=!clpOnly;
+  if(clpOnly){epicOnly=false;imdOnly=false;}
+  syncSpecialQuery();
+  syncClpUI();
+  document.getElementById('epic-tog')?.classList.toggle('active',epicOnly);
+  document.getElementById('epic-stat')?.style.setProperty('display',epicOnly?'inline-block':'none');
+  document.getElementById('imd-tog')?.classList.toggle('active',imdOnly);
+  document.getElementById('imd-stat')?.style.setProperty('display',imdOnly?'inline-block':'none');
+  if(clpOnly){webOnly=false;document.getElementById('web-tog')?.classList.remove('active');}
+  render();
+}
 function syncSpecialQuery(){
   const next=new URLSearchParams(location.search);
   if(epicOnly){next.set('epic','1');next.delete('imd_pe');imdOnly=false;}
   else next.delete('epic');
   if(imdOnly){next.set('imd_pe','1');next.delete('epic');epicOnly=false;}
   else next.delete('imd_pe');
+  if(epicOnly||imdOnly) clpOnly=false;
+  if(clpOnly){next.set('clp26','1');next.delete('epic');next.delete('imd_pe');}
+  else next.delete('clp26');
   const qs=next.toString();
   history.replaceState(null,'',location.pathname+(qs?('?'+qs):''));
 }
 function toggleEpic(){
   epicOnly=!epicOnly;
   if(epicOnly) imdOnly=false;
-  syncSpecialQuery();
+  syncSpecialQuery();syncClpUI();
   document.getElementById('epic-tog')?.classList.toggle('active',epicOnly);
   document.getElementById('epic-stat')?.style.setProperty('display',epicOnly?'inline-block':'none');
   document.getElementById('imd-tog')?.classList.toggle('active',imdOnly);
@@ -485,7 +525,7 @@ function toggleEpic(){
 function toggleImd(){
   imdOnly=!imdOnly;
   if(imdOnly) epicOnly=false;
-  syncSpecialQuery();
+  syncSpecialQuery();syncClpUI();
   document.getElementById('imd-tog')?.classList.toggle('active',imdOnly);
   document.getElementById('imd-stat')?.style.setProperty('display',imdOnly?'inline-block':'none');
   document.getElementById('epic-tog')?.classList.toggle('active',epicOnly);
@@ -500,7 +540,7 @@ function setLang(l){
   lang=l;
   document.getElementById('btn-en').classList.toggle('active',l==='EN');
   document.getElementById('btn-es').classList.toggle('active',l==='ES');
-  applyUI();loadEpicCards();loadImdCards();
+  applyUI();loadEpicCards();loadImdCards();loadClpCards();
 }
 
 function applyUI(){
@@ -559,7 +599,20 @@ function render(){
     document.getElementById('st-total').textContent=EPIC_CARDS.length||18;
     document.getElementById('st-web').textContent=EPIC_CARDS.length||18;
     document.getElementById('st-show').textContent=list.length;
-    document.getElementById('ri').textContent=list.length?(`${list.length}/18 Epic Angels · verified site`):'';
+    document.getElementById('ri').textContent=list.length?(`${list.length}/${EPIC_CARDS.length||18} Epic Angels · verified site`):'';
+    const grid=document.getElementById('grid');
+    if(!list.length){grid.innerHTML='<div class="empty">'+t.noMatch+'</div>';return;}
+    grid.innerHTML=list.map(s=>renderCard(s,t)).join('');
+    return;
+  }
+  if(clpOnly){
+    let list=CLP_CARDS.slice();
+    if(q) list=list.filter(s=>s.n.toLowerCase().includes(q)||(s.founder||'').toLowerCase().includes(q));
+    const total=CLP_CARDS.length;
+    document.getElementById('st-total').textContent=total;
+    document.getElementById('st-web').textContent=list.filter(s=>s.w).length;
+    document.getElementById('st-show').textContent=list.length;
+    document.getElementById('ri').textContent=list.length?(`${list.length}/${total} CLP26 · CleanTech Latam Pitch`):'';
     const grid=document.getElementById('grid');
     if(!list.length){grid.innerHTML='<div class="empty">'+t.noMatch+'</div>';return;}
     grid.innerHTML=list.map(s=>renderCard(s,t)).join('');
@@ -597,7 +650,7 @@ function render(){
   grid.innerHTML=list.map(s=>renderCard(s,t)).join('');
 }
 
-applyUI();loadEpicCards();loadImdCards();
+applyUI();loadEpicCards();loadImdCards();loadClpCards();
 </script>
 <script src="/nexus-assets/nexus-nav.js?v=3"></script>
 
