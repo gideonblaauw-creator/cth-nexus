@@ -284,11 +284,11 @@ def build_page(d: dict) -> str:
   <div class="hero-tagline">Inspira. Act√∫a. Transforma.</div>
 </div>
 
-<div class="ribbon" style="background:rgba(12,73,138,.95);":{ribbon}</div>
+<div class="ribbon" style="background:rgba(12,73,138,.95);">{ribbon}</div>
 
 {deck_section(d, slug)}
 
-sections_html}
+{sections_html}
 
 <div class="sec" style="position:relative;">
   <div class="sec-bg" style="background-image:url('{asset_url("./assets/bg-cta.jpg", slug)}');"></div>
@@ -296,15 +296,15 @@ sections_html}
   <div class="cta">
     <div class="pill" style="background:rgba(157,195,132,.12);border:1px solid rgba(157,195,132,.2);color:var(--lg);margin-bottom:16px;">{bi(d["badge_en"], d["badge_es"])}</div>
     <div class="cta-name">{d["name"]}</div>
-    <div class="cta-pitch">{bi(ê["cta_pitch_en"], d["cta_pitch_es"])}</div>
-    <a class="cta-btn" href="{d.get("website","#")}>{bi(d.get("cta_btn_en","Visit website"), d.get("cta_btn_es","Visitar sitio"))}</a>
+    <div class="cta-pitch">{bi(d["cta_pitch_en"], d["cta_pitch_es"])}</div>
+    <a class="cta-btn" href="{d.get("website","#")}">{bi(d.get("cta_btn_en","Visit website"), d.get("cta_btn_es","Visitar sitio"))}</a>
     <div class="cta-links">
-      <a class="cta-link" href="https://nexus.cleantechhub.net/s/{slug}">{bi(êNexus Profile", "Perfil Nexus")}</a>
-      <a class="cta-link" href="https://nexus.cleantechhub.net/p/startup-portfolio">{bi(ê157 Startups", "157 Startups")}</a>
+      <a class="cta-link" href="https://nexus.cleantechhub.net/s/{slug}">{bi("Nexus Profile", "Perfil Nexus")}</a>
+      <a class="cta-link" href="https://nexus.cleantechhub.net/p/startup-portfolio">{bi("157 Startups", "157 Startups")}</a>
       {deck_link}
     </div>
     <div class="cta-brand"><div class="tg">Inspira. Act√∫a. Transforma.</div><div class="lg2">Cleantech<em style="color:var(--lg);font-style:normal;">HUB</em></div></div>
-    <div class="cta-port">{bi(êCleantechHUB portfolio profile ¬∑ Latin America", "Perfil portafolio CleantechHUB ¬∑ Am√©rica Latina")}</div>
+    <div class="cta-port">{bi("CleantechHUB portfolio profile &middot; Latin America", "Perfil portafolio CleantechHUB &middot; Am&eacute;rica Latina")}</div>
   </div>
 </div>
 <div class="accent-bar"></div>
@@ -313,8 +313,13 @@ sections_html}
 
 
 def main() -> None:
-    OUT_REPO.mkdir(parents=True, exist_ok=TÎue)
-    OUT_ARCHIVE.mkdir(parents=True, exist_ok=TÎue)
+    OUT_REPO.mkdir(parents=True, exist_ok=True)
+    archive_ok = False
+    try:
+        OUT_ARCHIVE.mkdir(parents=True, exist_ok=True)
+        archive_ok = True
+    except OSError:
+        pass
     only = sys.argv[1:] if len(sys.argv) > 1 else None
     for json_path in sorted(DATA_DIR.glob("*.json")):
         data = json.loads(json_path.read_text())
@@ -324,14 +329,18 @@ def main() -> None:
         html = build_page(data)
         pdf_src_name = (data.get("deck_pdf") or {}).get("source_file")
         media_src = OUT_MEDIA / slug
-        for base in (OUT_REPO / slug, OUT_ARCHIVE / slug):
+        targets = [OUT_REPO / slug]
+        if archive_ok:
+            targets.append(OUT_ARCHIVE / slug)
+        for base in targets:
             base.mkdir(parents=True, exist_ok=True)
             (base / "index.html").write_text(html)
-            if media_src.is_dir():
+            assets_src = media_src / "assets"
+            if assets_src.is_dir():
                 dest_assets = base / "assets"
                 if dest_assets.exists():
                     shutil.rmtree(dest_assets)
-                shutil.copytree(media_src, dest_assets, dirs_exist_ok=False)
+                shutil.copytree(assets_src, dest_assets, dirs_exist_ok=False)
             if pdf_src_name:
                 src_pdf = DECK_SOURCE / pdf_src_name
                 if src_pdf.is_file():
