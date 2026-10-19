@@ -1,0 +1,248 @@
+{
+  "slug": "planta-comunitaria-wpc",
+  "name": "Planta Comunitaria WPC",
+  "website": "https://www.facebook.com/ejeambientequindio/",
+  "badge_en": "Air & Environment &middot; CLP26 Colombia",
+  "badge_es": "Air & Environment &middot; CLP26 Colombia",
+  "hero_image": "https://images.unsplash.com/photo-1532996122724-e3c031a396bf?w=1200&q=80",
+  "hero_sub_en": "www.facebook.com/ejeambientequindio &middot; Colombia &middot; Air & Environment &middot; Stage: Prototype &middot; CT-BU-001",
+  "hero_sub_es": "www.facebook.com/ejeambientequindio &middot; Colombia &middot; Air & Environment &middot; Etapa: Prototype &middot; CT-BU-001",
+  "pitch_en": "The Eje Ambiente Q. Association is launching a community-based plant in Circasia that converts plastic waste into WPC. We transform 36 tons of plastic annually into durable products, replacing natural wood and supporting professional recyclers.",
+  "pitch_es": "The Eje Ambiente Q. Association is launching a community-based plant in Circasia that converts plastic waste into WPC. We transform 36 tons of plastic annually into durable products, replacing natural wood and supporting professional recyclers.",
+  "cta_pitch_en": "We operate a community-based facility in Circasia that transforms 36 tons of plastic waste (PET, HDPE, PP) into wood-plastic composite (WPC) each year. Through grinding, pelletizing, and extrusion,…",
+  "cta_pitch_es": "We operate a community-based facility in Circasia that transforms 36 tons of plastic waste (PET, HDPE, PP) into wood-plastic composite (WPC) each year. Through grinding, pelletizing, and extrusion,…",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "ribbon": [
+    {
+      "val": "Prototype",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLP26 CO",
+      "sub_es": "CLP26 CO"
+    },
+    {
+      "val": "Air & Enviro",
+      "lab_en": "Category",
+      "lab_es": "Categoría",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "CT-BU-001",
+      "lab_en": "CT Taxonomy",
+      "lab_es": "Taxonomía CT",
+      "sub_en": "CTH",
+      "sub_es": "CTH"
+    },
+    {
+      "val": "6",
+      "lab_en": "Team",
+      "lab_es": "Equipo",
+      "sub_en": "Application",
+      "sub_es": "Aplicación"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLP",
+        "lab_en": "2026 Colombia",
+        "lab_es": "2026 Colombia"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Accelerator",
+        "lab_es": "Acelerador"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "Metrics pending",
+        "lab_es": "Métricas pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "We address post-consumer plastic pollution and deforestation. In Colombia, much of the plastic…",
+      "head_es": "We address post-consumer plastic pollution and deforestation. In Colombia, much of the plastic…",
+      "body_en": "We address post-consumer plastic pollution and deforestation. In Colombia, much of the plastic ends up in landfills or the environment, generating GHG emissions and increasing the use of natural wood in the Coffee Cultural Landscape. It is key to",
+      "body_es": "We address post-consumer plastic pollution and deforestation. In Colombia, much of the plastic ends up in landfills or the environment, generating GHG emissions and increasing the use of natural wood in the Coffee Cultural Landscape. It is key to",
+      "bg": "https://images.unsplash.com/photo-1532996122724-e3c031a396bf?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "How Planta Comunitaria WPC Works",
+      "title_es": "Cómo Funciona Planta Comunitaria WPC",
+      "steps": [
+        {
+          "icon": "🎯",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "We operate a community-based facility in Circasia that transforms 36 tons of plastic waste (PET, HDPE, PP) into wood-plastic composite (WPC) each year.…",
+          "text_es": "We operate a community-based facility in Circasia that transforms 36 tons of plastic waste (PET, HDPE, PP) into wood-plastic composite (WPC) each year.…"
+        },
+        {
+          "icon": "⚙️",
+          "label_en": "Model",
+          "label_es": "Modelo",
+          "text_en": "We already generate revenue by selling recycled materials, but we could produce WPC products, planks, posts, etc., at…",
+          "text_es": "We already generate revenue by selling recycled materials, but we could produce WPC products, planks, posts, etc., at…"
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Municipalities in the Coffee Region for street furniture and parks; the agricultural sector for posts and fences; and…",
+          "text_es": "Municipalities in the Coffee Region for street furniture and parks; the agricultural sector for posts and fences; and…"
+        },
+        {
+          "icon": "📈",
+          "label_en": "Traction",
+          "label_es": "Tracción",
+          "text_en": "There is demand because we are already recovering 3 tons of plastic per month, and the WPC market is growing in…",
+          "text_es": "There is demand because we are already recovering 3 tons of plastic per month, and the WPC market is growing in…"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1470071459604-3b5ec3a8fe05?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "table",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Business Snapshot",
+      "title_es": "Resumen del Negocio",
+      "headers": [
+        [
+          "Dimension",
+          "Dimensión"
+        ],
+        [
+          "Detail (EN)",
+          "Detalle"
+        ],
+        [
+          "Status",
+          "Estado"
+        ]
+      ],
+      "rows": [
+        [
+          [
+            "Category",
+            "Categoría"
+          ],
+          [
+            "Air & Environment",
+            "Air & Environment"
+          ],
+          [
+            "CLP26",
+            "CLP26"
+          ]
+        ],
+        [
+          [
+            "Stage",
+            "Etapa"
+          ],
+          [
+            "Prototype",
+            "Prototype"
+          ],
+          [
+            "Application",
+            "Aplicación"
+          ]
+        ],
+        [
+          [
+            "CT Taxonomy",
+            "Taxonomía CT"
+          ],
+          [
+            "CT-BU-001",
+            "CT-BU-001"
+          ],
+          [
+            "CTH",
+            "CTH"
+          ]
+        ]
+      ],
+      "bg": "https://images.unsplash.com/photo-1532996122724-e3c031a396bf?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Climate &amp; Impact",
+      "title_es": "Clima e Impacto",
+      "cards": [
+        {
+          "icon": "🌱",
+          "title_en": "Climate focus",
+          "title_es": "Enfoque climático",
+          "text_en": "We address post-consumer plastic pollution and deforestation. In Colombia, much of the plastic ends up in landfills or the environment, generating GHG emissions and increasing…",
+          "text_es": "We address post-consumer plastic pollution and deforestation. In Colombia, much of the plastic ends up in landfills or the environment, generating GHG emissions and increasing…"
+        },
+        {
+          "icon": "💡",
+          "title_en": "Solution",
+          "title_es": "Solución",
+          "text_en": "We operate a community-based facility in Circasia that transforms 36 tons of plastic waste (PET, HDPE, PP) into wood-plastic composite (WPC) each year. Through grinding,…",
+          "text_es": "We operate a community-based facility in Circasia that transforms 36 tons of plastic waste (PET, HDPE, PP) into wood-plastic composite (WPC) each year. Through grinding,…"
+        },
+        {
+          "icon": "🤝",
+          "title_en": "CLP 2026",
+          "title_es": "CLP 2026",
+          "text_en": "ClimateLaunchpad Colombia 2026 bootcamp cohort — CleantechHUB accelerator knowledge transfer.",
+          "text_es": "Cohorte bootcamp ClimateLaunchpad Colombia 2026 — transferencia de conocimiento acelerador CleantechHUB."
+        },
+        {
+          "icon": "📋",
+          "title_en": "External support",
+          "title_es": "Apoyo externo",
+          "text_en": "Legal support from the AVISPAS organization Super Servicios Domiciliarios, to be recognized as professional recycling service providers Circasia City Hall NGOs that assisted in…",
+          "text_es": "Legal support from the AVISPAS organization Super Servicios Domiciliarios, to be recognized as professional recycling service providers Circasia City Hall NGOs that assisted in…"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80"
+    },
+    {
+      "num": 5,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Juan Guillermo Velásquez Valencia",
+          "role_en": "Founder &middot; CLP26 Colombia",
+          "role_es": "Fundador(a) &middot; CLP26 Colombia",
+          "bio_en": "I bring to this role my background as a lawyer, a specialist, and a master’s degree holder in law, with a certificate in environmental law. I have helped establish other waste pickers’ associations, worked at the…",
+          "bio_es": "I bring to this role my background as a lawyer, a specialist, and a master’s degree holder in law, with a certificate in environmental law. I have helped establish other waste pickers’ associations, worked at the…",
+          "initials": "JG"
+        }
+      ],
+      "dream_en": "CT taxonomy: CT-BU-001. CLP 2026 Colombia bootcamp cohort — CleantechHUB accelerator. Pitch deck: [PENDIENTE]. Revenue / ARR: [PENDIENTE].",
+      "dream_es": "Taxonomía CT: CT-BU-001. Cohorte bootcamp CLP 2026 Colombia — acelerador CleantechHUB. Pitch deck: [PENDIENTE]. Ingresos / ARR: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80"
+    }
+  ]
+}

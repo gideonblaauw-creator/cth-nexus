@@ -7,126 +7,152 @@
 <link rel="icon" href="https://cleantechhub.net/favicon.ico">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
 <style>
-:root{--db:#0C498A;--cy:#B2EEFA;--lg:#9DC384;--fo:#669348;--sk:#69B5FA;--page:#fff;}
+:root{--db:#0C498A;--cy:#B2EEFA;--lg:#9DC384;--fo:#669348;--sk:#69B5FA;--page:#fff;--ov:0.30;--panel:rgba(12,73,138,.94);--panel-border:rgba(255,255,255,.48);}
 *{margin:0;padding:0;box-sizing:border-box;}
 html{scroll-behavior:smooth;}
 body{font-family:'Open Sans','PT Sans',sans-serif;background:var(--page);color:var(--db);max-width:1080px;margin:0 auto;}
 [lang="es"] .en{display:none;} [lang="en"] .es{display:none;}
 
-.lang-toggle{position:fixed;top:12px;right:12px;z-index:100;display:flex;border-radius:5px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.35);}
+.site-brand{position:fixed;top:12px;left:50%;transform:translateX(-50%);width:100%;max-width:1080px;padding:0 48px;z-index:99;pointer-events:none;}
+.site-brand .brand-text{pointer-events:auto;display:inline-block;font-size:13px;font-weight:800;letter-spacing:.4px;color:#fff;text-shadow:0 2px 10px rgba(0,0,0,.6);}
+.site-brand .brand-text em{color:var(--lg);font-style:normal;}
+
+.lang-toggle{position:fixed;top:12px;right:12px;z-index:100;display:flex;border-radius:5px;overflow:hidden;box-shadow:0 4px 16px rgba(0,0,0,.35);}
 .lb{padding:6px 14px;font-size:10px;font-weight:700;border:none;cursor:pointer;font-family:'Open Sans',sans-serif;transition:all .2s;}
-.lb.active{background:var(--db);color:#fff;}.lb:not(.active){background:rgba(255,255,255,.92);color:var(--db);}
+.lb.active{background:var(--db);color:#fff;}.lb:not(.active){background:#fff;color:var(--db);}
 
 .sec{position:relative;overflow:hidden;}
 .sec-bg{position:absolute;inset:0;background-size:cover;background-position:center;z-index:0;}
 .sec-ov{position:absolute;inset:0;z-index:1;}
 .sec-header{display:flex;align-items:center;gap:14px;padding:28px 48px 16px;position:relative;z-index:2;}
-.sec-num{font-size:11px;font-weight:800;color:var(--db);background:var(--lg);width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
-.sec-title{font-size:18px;font-weight:800;letter-spacing:-.3px;}
-.sec-rule{height:1px;background:linear-gradient(90deg,rgba(157,195,132,.4),rgba(157,195,132,0));flex:1;margin-left:8px;}
+.sec-num{font-size:11px;font-weight:800;color:var(--db);background:var(--lg);width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;box-shadow:0 2px 8px rgba(0,0,0,.35);}
+.sec-title{font-size:18px;font-weight:800;letter-spacing:-.3px;color:#fff;text-shadow:0 2px 14px rgba(0,0,0,.75);}
+.sec-rule{height:1px;background:linear-gradient(90deg,rgba(255,255,255,.55),rgba(255,255,255,0));flex:1;margin-left:8px;}
 .accent-bar{height:3px;background:linear-gradient(90deg,var(--db) 20%,var(--fo) 20% 40%,var(--lg) 40% 60%,var(--sk) 60% 80%,var(--cy) 80%);}
-.pill{display:inline-block;padding:5px 12px;border-radius:4px;font-size:9px;font-weight:700;letter-spacing:1px;text-transform:uppercase;backdrop-filter:blur(8px);}
+.pill{display:inline-block;padding:5px 12px;border-radius:4px;font-size:9px;font-weight:700;letter-spacing:1px;text-transform:uppercase;}
 
 .hero{height:420px;position:relative;}
 .hero-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;}
-.hero-ov{position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,73,138,.08) 0%,rgba(12,73,138,.6) 45%,rgba(12,73,138,.97) 100%);z-index:1;}
+.hero-ov{position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,73,138,.12) 0%,rgba(12,73,138,.30) 55%,rgba(12,73,138,.48) 100%);z-index:1;}
 .hero-in{position:relative;z-index:2;height:100%;display:flex;flex-direction:column;justify-content:flex-end;padding:0 48px 36px;}
-.hero-badge{position:absolute;top:20px;left:48px;z-index:3;}
-.hero-logo{position:absolute;top:20px;right:48px;z-index:3;font-size:12px;font-weight:800;letter-spacing:.5px;}
-.hero-name{font-size:56px;font-weight:800;line-height:1;text-shadow:0 4px 20px rgba(0,0,0,.4);}
-.hero-sub{font-size:14px;font-weight:600;color:var(--lg);margin-top:8px;}
-.hero-pitch{font-size:14px;line-height:1.6;color:rgba(255,255,255,.75);margin-top:14px;max-width:540px;}
-.hero-tagline{font-size:10px;font-style:italic;color:var(--lg);opacity:.65;position:absolute;bottom:36px;right:48px;}
+.hero-badge{position:absolute;top:56px;left:48px;z-index:3;}
+.hero-name{font-size:56px;font-weight:800;line-height:1;color:#fff;text-shadow:0 4px 24px rgba(0,0,0,.55);}
+.hero-sub{font-size:14px;font-weight:700;color:#e8ffd4;margin-top:8px;text-shadow:0 2px 10px rgba(0,0,0,.5);}
+.hero-pitch{font-size:14px;line-height:1.6;color:#fff;margin-top:14px;max-width:540px;text-shadow:0 2px 12px rgba(0,0,0,.55);}
+.hero-tagline{font-size:10px;font-style:italic;color:#e8ffd4;opacity:.9;position:absolute;bottom:36px;right:48px;text-shadow:0 2px 8px rgba(0,0,0,.5);}
 
 .ribbon{display:grid;grid-template-columns:repeat(4,1fr);}
-.ribbon-cell{padding:22px 24px;text-align:center;border-right:1px solid rgba(255,255,255,.06);}
+.ribbon-cell{padding:22px 24px;text-align:center;border-right:1px solid rgba(255,255,255,.12);}
 .ribbon-cell:last-child{border-right:none;}
-.rc-val{font-size:28px;font-weight:800;line-height:1;}
-.rc-lab{font-size:9px;font-weight:700;color:var(--lg);letter-spacing:.6px;text-transform:uppercase;margin-top:4px;}
-.rc-sub{font-size:9px;color:rgba(255,255,255,.3);margin-top:2px;}
+.rc-val{font-size:28px;font-weight:800;line-height:1;color:#fff;}
+.rc-lab{font-size:9px;font-weight:700;color:#e8ffd4;letter-spacing:.6px;text-transform:uppercase;margin-top:4px;}
+.rc-sub{font-size:9px;color:rgba(255,255,255,.75);margin-top:2px;}
 
-.split{display:grid;grid-template-columns:1fr 1fr;}
-.split-panel{position:relative;overflow:hidden;padding:36px 40px;}
-.split-h{font-size:22px;font-weight:800;line-height:1.2;margin-bottom:12px;}
-.body-text{font-size:13px;line-height:1.6;color:rgba(255,255,255,.8);}
+.split{display:grid;grid-template-columns:1fr 1fr;align-items:stretch;}
+.split-panel{position:relative;overflow:hidden;padding:36px 40px;display:flex;flex-direction:column;}
+.split-h{font-size:22px;font-weight:800;line-height:1.2;margin-bottom:12px;color:#fff;}
+.body-text{font-size:13px;line-height:1.65;color:rgba(255,255,255,.95);}
+
+.frost-panel,.stat-card,.sol-card,.slider-item,.imp-card,.team-card,.comp-tbl,.mini-chart,.split-frost,.deck-panel,.frost-note{background:var(--panel);backdrop-filter:blur(12px) saturate(1.35);-webkit-backdrop-filter:blur(12px) saturate(1.35);border:1px solid var(--panel-border);box-shadow:0 8px 32px rgba(0,0,0,.42);}
+
 .stat-row{display:flex;gap:10px;margin-top:14px;}
-.stat-card{flex:1;background:rgba(0,0,0,.3);backdrop-filter:blur(4px);border:1px solid rgba(255,255,255,.06);border-radius:6px;padding:14px;text-align:center;}
-.sc-num{font-size:26px;font-weight:800;color:var(--lg);line-height:1;}
-.sc-lab{font-size:9px;font-weight:600;color:rgba(255,255,255,.5);margin-top:3px;line-height:1.3;}
+.stat-card{flex:1;border-radius:8px;padding:14px;text-align:center;}
+.sc-num{font-size:26px;font-weight:800;color:#e8ffd4;line-height:1;}
+.sc-lab{font-size:9px;font-weight:700;color:rgba(255,255,255,.9);margin-top:3px;line-height:1.3;}
 
 .sol-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;padding:0 48px 32px;position:relative;z-index:2;}
-.sol-card{background:rgba(255,255,255,.07);backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.08);border-radius:8px;padding:22px 18px;text-align:center;}
-.sol-step{font-size:9px;font-weight:800;color:var(--db);background:var(--lg);width:22px;height:22px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;margin-bottom:8px;}
+.sol-card{border-radius:8px;padding:22px 18px;text-align:center;}
+.sol-step{font-size:9px;font-weight:800;color:var(--db);background:var(--lg);width:22px;height:22px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;margin-bottom:8px;box-shadow:0 2px 6px rgba(0,0,0,.3);}
 .sol-icon{font-size:24px;margin-bottom:6px;}
-.sol-label{font-size:10px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--lg);margin-bottom:6px;}
-.sol-text{font-size:11px;line-height:1.5;color:rgba(255,255,255,.7);}
+.sol-label{font-size:10px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#e8ffd4;margin-bottom:6px;}
+.sol-text{font-size:11px;line-height:1.5;color:rgba(255,255,255,.92);}
 
 .comp-wrap{padding:14px 48px 28px;position:relative;z-index:2;}
-.comp-tbl{width:100%;border-collapse:collapse;font-size:11px;background:rgba(0,0,0,.15);border-radius:8px;overflow:hidden;}
-.comp-tbl th{text-align:left;font-size:9px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:var(--lg);padding:10px 18px;border-bottom:1px solid rgba(255,255,255,.06);}
-.comp-tbl td{padding:8px 18px;border-bottom:1px solid rgba(255,255,255,.03);font-weight:600;color:rgba(255,255,255,.55);}
-.comp-tbl .hl{color:var(--lg);font-weight:700;}
+.comp-tbl{width:100%;border-collapse:collapse;font-size:11px;border-radius:8px;overflow:hidden;}
+.comp-tbl th{text-align:left;font-size:9px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:#e8ffd4;padding:10px 18px;border-bottom:1px solid rgba(255,255,255,.25);}
+.comp-tbl td{padding:8px 18px;border-bottom:1px solid rgba(255,255,255,.12);font-weight:600;color:rgba(255,255,255,.88);}
+.comp-tbl .hl{color:#e8ffd4;font-weight:800;}
 
 .rev-chart{display:flex;align-items:flex-end;gap:14px;height:110px;padding:18px 48px 10px;position:relative;z-index:2;}
 .rev-col{display:flex;flex-direction:column;align-items:center;flex:1;gap:3px;}
 .rev-bar{width:100%;border-radius:5px 5px 0 0;min-height:4px;}
-.rev-bar.actual{background:linear-gradient(180deg,var(--sk),var(--db));}
-.rev-bar.proj{background:rgba(105,181,250,.12);border:2px dashed rgba(105,181,250,.35);}
-.rev-label{font-size:10px;font-weight:700;color:rgba(255,255,255,.4);}
-.rev-val{font-size:10px;font-weight:800;color:var(--lg);}
+.rev-bar.actual{background:linear-gradient(180deg,var(--sk),var(--db));box-shadow:0 2px 8px rgba(0,0,0,.3);}
+.rev-bar.proj{background:rgba(105,181,250,.25);border:2px dashed rgba(255,255,255,.55);}
+.rev-label{font-size:10px;font-weight:700;color:rgba(255,255,255,.85);text-shadow:0 1px 6px rgba(0,0,0,.5);}
+.rev-val{font-size:10px;font-weight:800;color:#e8ffd4;text-shadow:0 1px 6px rgba(0,0,0,.5);}
 
 .slider-wrap{padding:0 48px 28px;position:relative;z-index:2;}
-.slider-item{background:rgba(0,0,0,.2);border:1px solid rgba(255,255,255,.06);border-radius:8px;padding:18px 20px;margin-bottom:12px;}
-.sl-label{font-size:9px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--lg);margin-bottom:8px;}
-.sl-val{font-size:22px;font-weight:800;color:var(--sk);margin-bottom:8px;}
-.sl-range{width:100%;accent-color:var(--lg);height:6px;}
-.sl-hint{font-size:9px;color:rgba(255,255,255,.4);margin-top:6px;}
+.slider-item{border-radius:8px;padding:18px 20px;margin-bottom:12px;}
+.sl-label{font-size:9px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#e8ffd4;margin-bottom:8px;}
+.sl-val{font-size:22px;font-weight:800;color:#fff;margin-bottom:8px;}
+.sl-range{width:100%;accent-color:var(--lg);height:8px;cursor:pointer;}
+.sl-range:disabled{opacity:.55;cursor:default;}
+.sl-hint{font-size:9px;color:rgba(255,255,255,.8);margin-top:6px;}
 
 .impact-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;padding:0 48px 12px;position:relative;z-index:2;}
-.imp-card{background:rgba(255,255,255,.06);backdrop-filter:blur(4px);border:1px solid rgba(255,255,255,.06);border-radius:8px;padding:22px 20px;display:flex;gap:14px;align-items:flex-start;}
+.imp-card{border-radius:8px;padding:22px 20px;display:flex;gap:14px;align-items:flex-start;}
 .imp-icon{font-size:22px;flex-shrink:0;}
-.imp-title{font-size:10px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:var(--lg);margin-bottom:4px;}
-.imp-text{font-size:12px;line-height:1.5;color:rgba(255,255,255,.65);}
+.imp-title{font-size:10px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:#e8ffd4;margin-bottom:4px;}
+.imp-text{font-size:12px;line-height:1.5;color:rgba(255,255,255,.92);}
 
 .team-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;padding:0 48px 28px;position:relative;z-index:2;}
-.team-card{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.06);border-radius:8px;padding:24px 20px;text-align:center;}
-.tp-avatar{width:52px;height:52px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:800;margin:0 auto 10px;}
-.tp-name{font-size:14px;font-weight:700;}
-.tp-role{font-size:10px;font-weight:600;color:var(--lg);margin-top:3px;}
-.tp-bio{font-size:11px;color:rgba(255,255,255,.45);line-height:1.5;margin-top:8px;}
+.team-card{border-radius:8px;padding:24px 20px;text-align:center;}
+.tp-photo{width:72px;height:72px;border-radius:50%;object-fit:cover;margin:0 auto 10px;display:block;border:2px solid rgba(255,255,255,.55);box-shadow:0 4px 14px rgba(0,0,0,.4);}
+.tp-avatar{width:52px;height:52px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:800;margin:0 auto 10px;box-shadow:0 3px 10px rgba(0,0,0,.35);}
+.tp-name{font-size:14px;font-weight:700;color:#fff;}
+.tp-role{font-size:10px;font-weight:600;color:#e8ffd4;margin-top:3px;}
+.tp-bio{font-size:11px;color:rgba(255,255,255,.85);line-height:1.5;margin-top:8px;}
+.tp-link{display:inline-block;margin-top:10px;font-size:9px;font-weight:700;color:#e8ffd4;text-decoration:none;border-bottom:1px solid rgba(232,255,212,.5);}
+
+.frost-note{margin:0 48px 20px;padding:14px 18px;border-radius:8px;font-size:11px;line-height:1.55;color:rgba(255,255,255,.92);position:relative;z-index:2;}
 
 .cta{text-align:center;padding:44px 48px;position:relative;z-index:2;}
-.cta-name{font-size:44px;font-weight:800;}
-.cta-pitch{font-size:14px;line-height:1.6;max-width:560px;margin:12px auto 0;color:rgba(255,255,255,.6);}
-.cta-btn{display:inline-block;background:var(--lg);color:var(--db);font-size:14px;font-weight:700;padding:12px 32px;border-radius:6px;text-decoration:none;margin-top:20px;}
-.cta-links{display:flex;gap:12px;justify-content:center;margin-top:16px;flex-wrap:wrap;}
-.cta-link{font-size:10px;font-weight:600;color:var(--sk);text-decoration:none;padding:5px 12px;background:rgba(0,0,0,.3);border:1px solid rgba(255,255,255,.06);border-radius:4px;}
+.cta-name{font-size:44px;font-weight:800;color:#fff;text-shadow:0 3px 16px rgba(0,0,0,.55);}
+.cta-pitch{font-size:14px;line-height:1.6;max-width:560px;margin:12px auto 0;color:rgba(255,255,255,.92);text-shadow:0 2px 10px rgba(0,0,0,.45);}
+.cta-btn{display:inline-block;background:linear-gradient(180deg,#d4f5b8 0%,var(--lg) 100%);color:#053a6e;font-size:14px;font-weight:800;padding:14px 36px;border-radius:6px;text-decoration:none;margin-top:20px;border:2px solid #fff;box-shadow:0 6px 22px rgba(0,0,0,.45);}
+.cta-links{display:flex;gap:10px;justify-content:center;margin-top:16px;flex-wrap:wrap;}
+.cta-link{font-size:10px;font-weight:700;color:#fff;text-decoration:none;padding:8px 16px;background:var(--panel);border:1px solid var(--panel-border);border-radius:6px;box-shadow:0 4px 16px rgba(0,0,0,.35);}
 .cta-brand{margin-top:24px;}
-.cta-brand .tg{font-size:12px;font-style:italic;color:var(--lg);opacity:.65;}
-.cta-brand .lg2{font-size:14px;font-weight:800;margin-top:4px;}
-.cta-port{font-size:9px;color:rgba(255,255,255,.25);margin-top:10px;}
+.cta-brand .tg{font-size:12px;font-style:italic;color:#e8ffd4;opacity:.95;}
+.cta-brand .lg2{font-size:14px;font-weight:800;margin-top:4px;color:#fff;}
+.cta-port{font-size:9px;color:rgba(255,255,255,.8);margin-top:10px;}
 
-.mini-chart{display:flex;align-items:flex-end;gap:6px;height:50px;background:rgba(0,0,0,.2);border-radius:6px;padding:8px 10px 4px;margin-top:14px;}
+.mini-chart{display:flex;align-items:flex-end;gap:6px;height:50px;border-radius:8px;padding:8px 10px 4px;margin-top:14px;}
+.split-frost{padding:24px 28px;border-radius:8px;flex:1;display:flex;flex-direction:column;justify-content:center;min-height:100%;}
+.split-frost-stats{gap:8px;justify-content:center;}
+.split-frost-stats .stat-row{flex:1;align-items:stretch;margin-top:0;}
+.split-frost-stats .stat-row+.stat-row{margin-top:8px;}
+.split-frost-stats .stat-card{background:transparent;border:none;box-shadow:none;display:flex;flex-direction:column;justify-content:center;}
+
+.deck-wrap{padding:0 48px 32px;position:relative;z-index:2;}
+.deck-panel{padding:16px;border-radius:8px;}
+.deck-frame-wrap{width:100%;border-radius:6px;overflow:hidden;background:#fff;box-shadow:0 14px 40px rgba(0,0,0,.5);line-height:0;}
+.deck-frame{width:100%;height:2560px;border:0;display:block;background:#fff;min-height:720px;}
+.deck-fallback{margin-top:12px;font-size:10px;color:rgba(255,255,255,.85);text-align:center;text-shadow:0 1px 8px rgba(0,0,0,.5);}
+.deck-fallback a{color:#e8ffd4;font-weight:700;}
+.deck-actions{display:flex;gap:10px;justify-content:center;margin-top:14px;flex-wrap:wrap;}
+.deck-note{padding:0 48px 8px;font-size:10px;color:rgba(255,255,255,.9);text-align:center;position:relative;z-index:2;text-shadow:0 1px 8px rgba(0,0,0,.5);}
+
 .mini-col{display:flex;flex-direction:column;align-items:center;flex:1;gap:1px;}
-.mini-val{font-size:8px;font-weight:700;color:rgba(255,255,255,.4);}
-.mini-val.hl{color:var(--lg);}
+.mini-val{font-size:8px;font-weight:700;color:rgba(255,255,255,.85);}
+.mini-val.hl{color:#e8ffd4;}
 .mini-bar{width:100%;border-radius:3px 3px 0 0;background:linear-gradient(180deg,var(--sk),#0a3d6e);}
 .mini-bar.hl{background:linear-gradient(180deg,var(--lg),var(--fo));}
-.mini-lab{font-size:7px;font-weight:700;color:rgba(255,255,255,.35);}
+.mini-lab{font-size:7px;font-weight:700;color:rgba(255,255,255,.8);}
 
 </style>
 </head>
 <body>
+<div class="site-brand"><span class="brand-text">Cleantech<em>HUB</em></span></div>
 <div class="lang-toggle">
   <button class="lb active" onclick="document.documentElement.lang='en';this.classList.add('active');this.nextElementSibling.classList.remove('active');">EN</button>
   <button class="lb" onclick="document.documentElement.lang='es';this.classList.add('active');this.previousElementSibling.classList.remove('active');">ES</button>
 </div>
 
 <div class="sec hero">
-  <img class="hero-img" src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=1200&q=80" alt="CommunityLab" loading="lazy">
+  <img class="hero-img" src="/s/communitylab/assets/hero.jpg" alt="CommunityLab" loading="lazy">
   <div class="hero-ov"></div>
   <div class="hero-badge"><div class="pill" style="background:rgba(0,0,0,.45);color:var(--lg);"><span class="en">Waste-to-Resource SaaS + Sensors</span><span class="es">SaaS Residuo-a-Recurso + Sensores</span></div></div>
-  <div class="hero-logo">CleantechHUB</div>
   <div class="hero-in">
     <div class="hero-name">CommunityLab</div>
     <div class="hero-sub"><span class="en">communitylab.co &middot; Del Residuo al Recurso</span><span class="es">communitylab.co &middot; Del Residuo al Recurso</span></div>
@@ -137,22 +163,25 @@ body{font-family:'Open Sans','PT Sans',sans-serif;background:var(--page);color:v
 
 <div class="ribbon" style="background:rgba(12,73,138,.95);"><div class="ribbon-cell"><div class="rc-val">$12K</div><div class="rc-lab"><span class="en">Subscription / Year</span><span class="es">Suscripción / Año</span></div><div class="rc-sub"><span class="en">SaaS + sensors</span><span class="es">SaaS + sensores</span></div></div><div class="ribbon-cell"><div class="rc-val">5%</div><div class="rc-lab"><span class="en">Success Fee</span><span class="es">Tarifa de Éxito</span></div><div class="rc-sub"><span class="en">Audited valorization</span><span class="es">Valorización auditada</span></div></div><div class="ribbon-cell"><div class="rc-val">420</div><div class="rc-lab"><span class="en">SOM Companies</span><span class="es">Empresas SOM</span></div><div class="rc-sub"><span class="en">Beachhead</span><span class="es">Beachhead</span></div></div><div class="ribbon-cell"><div class="rc-val">60</div><div class="rc-lab"><span class="en">Clients Year 3</span><span class="es">Clientes Año 3</span></div><div class="rc-sub"><span class="en">14.3% SOM share</span><span class="es">14.3% cuota SOM</span></div></div></div>
 
-<div class="sec" style="position:relative;"><div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=1200&q=80');"></div><div class="sec-ov" style="background:rgba(12,73,138,.93);"></div><div class="sec-header"><div class="sec-num">01</div><div class="sec-title"><span class="en">The Deal</span><span class="es">El Trato</span></div><div class="sec-rule"></div></div><div class="split" style="position:relative;z-index:2;"><div class="split-panel"><div class="split-h"><span class="en">Hidden economic value in industrial waste flows</span><span class="es">Valor económico oculto en flujos de residuos industriales</span></div><div class="body-text"><span class="en">B2B for food industry and restaurant chains with own plants (200–800 employees). Colombia &amp; Mexico. $12,000 USD/year + 5% audited valorization fee.</span><span class="es">B2B para industria de alimentos y cadenas de restaurantes con planta propia (200–800 empleados). Colombia y México. $12.000 USD/año + 5% valorización auditada.</span></div></div><div class="split-panel"><div class="stat-row" style="margin-top:0;"><div class="stat-card"><div class="sc-num">41</div><div class="sc-lab"><span class="en">Interviews CO+MX</span><span class="es">Entrevistas CO+MX</span></div></div><div class="stat-card"><div class="sc-num">36 mo</div><div class="sc-lab"><span class="en">Field validation</span><span class="es">Validación campo</span></div></div></div><div class="stat-row"><div class="stat-card"><div class="sc-num">30%</div><div class="sc-lab"><span class="en">Waste reduction</span><span class="es">Reducción residuos</span></div></div><div class="stat-card"><div class="sc-num">70%</div><div class="sc-lab"><span class="en">Compliance rate</span><span class="es">Cumplimiento normativo</span></div></div></div></div></div></div><div class="sec" style="position:relative;"><div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1454165804608-c3d57bc86b40?w=1200&q=80');"></div><div class="sec-ov" style="background:rgba(102,147,72,.91);"></div><div class="sec-header"><div class="sec-num">02</div><div class="sec-title"><span class="en">SICircular Product</span><span class="es">Producto SICircular</span></div><div class="sec-rule"></div></div><div class="sol-grid"><div class="sol-card"><div class="sol-step">1</div><div class="sol-icon">📏</div><div class="sol-label"><span class="en">Measure</span><span class="es">Medir</span></div><div class="sol-text"><span class="en">Quantify waste, impacts, costs and environmental benefits.</span><span class="es">Cuantificar residuos, impactos, costos y beneficios ambientales.</span></div></div><div class="sol-card"><div class="sol-step">2</div><div class="sol-icon">🔗</div><div class="sol-label"><span class="en">Trace</span><span class="es">Trazar</span></div><div class="sol-text"><span class="en">Trace each material flow with auditable data.</span><span class="es">Trazar cada flujo de materiales con datos auditables.</span></div></div><div class="sol-card"><div class="sol-step">3</div><div class="sol-icon">🔄</div><div class="sol-label"><span class="en">Connect</span><span class="es">Conectar</span></div><div class="sol-text"><span class="en">Industrial symbiosis opportunities and circular business.</span><span class="es">Oportunidades de simbiosis industrial y negocios circulares.</span></div></div><div class="sol-card"><div class="sol-step">4</div><div class="sol-icon">✅</div><div class="sol-label"><span class="en">Comply</span><span class="es">Cumplir</span></div><div class="sol-text"><span class="en">Circular economy law compliance — Mexico indicators aligned.</span><span class="es">Cumplimiento ley Economía Circular — indicadores México alineados.</span></div></div></div></div><div class="sec" style="position:relative;"><div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80');"></div><div class="sec-ov" style="background:rgba(12,73,138,.93);"></div><div class="sec-header"><div class="sec-num">03</div><div class="sec-title"><span class="en">Market Sizing</span><span class="es">Dimensionamiento de Mercado</span></div><div class="sec-rule"></div></div><div class="rev-chart"><div class="rev-col"><div class="rev-val">70</div><div class="rev-bar actual" style="height:25px;"></div><div class="rev-label">Nicho 2026</div></div><div class="rev-col"><div class="rev-val">420</div><div class="rev-bar actual" style="height:55px;"></div><div class="rev-label">SOM</div></div><div class="rev-col"><div class="rev-val">1,630</div><div class="rev-bar actual" style="height:75px;"></div><div class="rev-label">SAM</div></div><div class="rev-col"><div class="rev-val">4,200</div><div class="rev-bar actual" style="height:90px;"></div><div class="rev-label">TAM</div></div><div class="rev-col"><div class="rev-val">60</div><div class="rev-bar actual" style="height:45px;"></div><div class="rev-label">Clients Y3</div></div></div><div style="padding:0 48px 20px;font-size:10px;color:rgba(255,255,255,.45);"><span class="en">Revenue ranges: 2026 $0.84M–$1.98M · 2027 $5.04M–$11.86M · ~2030 $19.56M–$46.03M · 2033+ $50.40M–$118.60M</span><span class="es">Rangos ingreso: 2026 $0.84M–$1.98M · 2027 $5.04M–$11.86M · ~2030 $19.56M–$46.03M · 2033+ $50.40M–$118.60M</span></div></div><div class="accent-bar"></div><div class="sec" style="position:relative;"><div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1200&q=80');"></div><div class="sec-ov" style="background:rgba(102,147,72,.91);"></div><div class="sec-header"><div class="sec-num">04</div><div class="sec-title"><span class="en">Value Proposition Numbers</span><span class="es">Números de Propuesta de Valor</span></div><div class="sec-rule"></div></div><div class="comp-wrap"><table class="comp-tbl"><thead><tr><th><span class="en">Benefit</span><span class="es">Beneficio</span></th><th><span class="en">Value</span><span class="es">Valor</span></th><th><span class="en">Detail</span><span class="es">Detalle</span></th></tr></thead><tbody><tr><td><span class="en">ROI</span><span class="es">Retorno</span></td><td><span class="en">6 months</span><span class="es">6 meses</span></td><td class="hl"><span class="en">100% investment recovered (deck)</span><span class="es">100% inversión recuperada (deck)</span></td></tr><tr><td><span class="en">Waste analytics</span><span class="es">Analítica residuos</span></td><td><span class="en">$324,760/yr</span><span class="es">$324.760/año</span></td><td class="hl"><span class="en">30% material waste reduction</span><span class="es">30% reducción desperdicio materiales</span></td></tr><tr><td><span class="en">Landfill savings</span><span class="es">Ahorro vertederos</span></td><td><span class="en">$85,000/yr</span><span class="es">$85.000/año</span></td><td class="hl"><span class="en">Deck figure</span><span class="es">Cifra del deck</span></td></tr><tr><td><span class="en">Compliance</span><span class="es">Cumplimiento</span></td><td><span class="en">70%</span><span class="es">70%</span></td><td class="hl"><span class="en">Circular economy regulatory</span><span class="es">Normativo economía circular</span></td></tr></tbody></table></div></div><div class="sec" style="position:relative;"><div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1200&q=80');"></div><div class="sec-ov" style="background:rgba(12,73,138,.93);"></div><div class="sec-header"><div class="sec-num">05</div><div class="sec-title"><span class="en">Climate Impact</span><span class="es">Impacto Climático</span></div><div class="sec-rule"></div></div><div class="impact-grid"><div class="imp-card"><div class="imp-icon">🛢️</div><div><div class="imp-title"><span class="en">Oil Avoided</span><span class="es">Petróleo Evitado</span></div><div class="imp-text"><span class="en">100 food processing plants: avoid 77,000+ barrels oil/year; 5-year potential -277 KtCO₂eq.</span><span class="es">100 plantas alimentos: evitar 77.000+ barriles petróleo/año; potencial 5 años -277 KtCO₂eq.</span></div></div></div><div class="imp-card"><div class="imp-icon">♻️</div><div><div class="imp-title"><span class="en">Formalized Managers</span><span class="es">Gestores Formalizados</span></div><div class="imp-text"><span class="en">Enable 49 formalized waste managers.</span><span class="es">Habilitar 49 gestores formalizados.</span></div></div></div><div class="imp-card"><div class="imp-icon">💚</div><div><div class="imp-title"><span class="en">SROI</span><span class="es">SROI</span></div><div class="imp-text"><span class="en">Residuos con propósito — SROI USD 5 (deck).</span><span class="es">Residuos con propósito — SROI USD 5 (deck).</span></div></div></div><div class="imp-card"><div class="imp-icon">🏭</div><div><div class="imp-title"><span class="en">Circular Network</span><span class="es">Red Circular</span></div><div class="imp-text"><span class="en">Industrial waste transformed into economic resources.</span><span class="es">Residuos industriales transformados en recursos económicos.</span></div></div></div></div></div><div class="sec" style="position:relative;"><div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&q=80');"></div><div class="sec-ov" style="background:rgba(102,147,72,.91);"></div><div class="sec-header"><div class="sec-num">06</div><div class="sec-title"><span class="en">Dream &amp; Team</span><span class="es">Sueño y Equipo</span></div><div class="sec-rule"></div></div><div class="team-grid"><div class="team-card"><div class="tp-avatar" style="background:linear-gradient(135deg,var(--fo),var(--lg));">BC</div><div class="tp-name">Beatriz Eugenia Correa Pérez</div><div class="tp-role"><span class="en">General Manager — Founder</span><span class="es">Gerente — Fundadora</span></div><div class="tp-bio"><span class="en">22+ years tech &amp; innovation. Founded CommunityLab 2012.</span><span class="es">22+ años tecnología e innovación. Fundó CommunityLab 2012.</span></div></div><div class="team-card"><div class="tp-avatar" style="background:linear-gradient(135deg,var(--fo),var(--lg));">MC</div><div class="tp-name">Manuela Cardenas</div><div class="tp-role"><span class="en">Environmental Lead</span><span class="es">Líder Ambiental</span></div><div class="tp-bio"><span class="en">9 years — circular economy KPIs.</span><span class="es">9 años — KPIs economía circular.</span></div></div><div class="team-card"><div class="tp-avatar" style="background:linear-gradient(135deg,var(--fo),var(--lg));">AR</div><div class="tp-name">Alfredo José Roldán Piedrahita</div><div class="tp-role"><span class="en">Innovation Lead — Co-founder</span><span class="es">Líder Innovación — Cofundador</span></div><div class="tp-bio"><span class="en">39 years tech &amp; R&amp;D.</span><span class="es">39 años tecnología e I+D.</span></div></div><div class="team-card"><div class="tp-avatar" style="background:linear-gradient(135deg,var(--fo),var(--lg));">FH</div><div class="tp-name">Felipe Hernandez</div><div class="tp-role"><span class="en">Mentor CLP2026</span><span class="es">Mentor CLP2026</span></div><div class="tp-bio"><span class="en">Frugal Studio · Impact entrepreneur.</span><span class="es">Frugal Studio · Emprendedor de impacto.</span></div></div></div><div style="padding:0 48px 28px;font-size:12px;line-height:1.6;color:rgba(255,255,255,.55);"><span class="en">Year-3 EBITDA $354,240 · Gross margin 49.2% · LTV $1,800 · CAC $6,096. Success fee Year-3 upside $1,694,250 not yet validated. CT taxonomy: [PENDIENTE].</span><span class="es">EBITDA Año 3 $354.240 · Margen bruto 49.2% · LTV $1.800 · CAC $6.096. Upside tarifa éxito Año 3 $1.694.250 aún no validado. Taxonomía CT: [PENDIENTE].</span></div></div>
+<div class="sec" style="position:relative;"><div class="sec-bg" style="background-image:url('/s/communitylab/assets/bg-deck.jpg');"></div><div class="sec-ov" style="background:rgba(12,73,138,.30);"></div><div class="sec-header"><div class="sec-num">📄</div><div class="sec-title"><span class="en">Pitch Deck</span><span class="es">Pitch Deck</span></div><div class="sec-rule"></div></div><div class="deck-note"><span class="en">Full-size deck preview below. Numbers on this profile match the deck only.</span><span class="es">Vista previa del deck a tamaño completo. Los números en este perfil provienen solo del deck.</span></div><div class="deck-wrap"><div class="deck-panel"><div class="deck-frame-wrap"><embed class="deck-frame" src="/s/communitylab/deck.pdf#view=FitH&toolbar=1" type="application/pdf" title="CommunityLab pitch deck"></div><div class="deck-fallback"><span class="en">Deck not loading?</span><span class="es">¿No carga el deck?</span> <a href="/s/communitylab/deck.pdf" target="_blank" rel="noopener"><span class="en">Open PDF</span><span class="es">Abrir PDF</span></a></div></div><div class="deck-actions"><a class="cta-link" href="/s/communitylab/deck.pdf" target="_blank" rel="noopener"><span class="en">Open PDF</span><span class="es">Abrir PDF</span></a><a class="cta-link" href="/s/communitylab/deck.pdf" target="_blank" rel="noopener"><span class="en">Download PDF</span><span class="es">Descargar PDF</span></a></div></div></div><div class="accent-bar"></div>
+
+<div class="sec" style="position:relative;"><div class="sec-bg" style="background-image:url('/s/communitylab/assets/bg-problem.jpg');"></div><div class="sec-ov" style="background:rgba(12,73,138,.30);"></div><div class="sec-header"><div class="sec-num">01</div><div class="sec-title"><span class="en">The Deal</span><span class="es">El Trato</span></div><div class="sec-rule"></div></div><div class="split" style="position:relative;z-index:2;"><div class="split-panel"><div class="split-frost"><div class="split-h"><span class="en">Hidden economic value in industrial waste flows</span><span class="es">Valor económico oculto en flujos de residuos industriales</span></div><div class="body-text"><span class="en">B2B for food industry and restaurant chains with own plants (200–800 employees). Colombia &amp; Mexico. $12,000 USD/year + 5% audited valorization fee.</span><span class="es">B2B para industria de alimentos y cadenas de restaurantes con planta propia (200–800 empleados). Colombia y México. $12.000 USD/año + 5% valorización auditada.</span></div></div></div><div class="split-panel"><div class="split-frost split-frost-stats"><div class="stat-row" style="margin-top:0;"><div class="stat-card"><div class="sc-num">41</div><div class="sc-lab"><span class="en">Interviews CO+MX</span><span class="es">Entrevistas CO+MX</span></div></div><div class="stat-card"><div class="sc-num">36 mo</div><div class="sc-lab"><span class="en">Field validation</span><span class="es">Validación campo</span></div></div></div><div class="stat-row"><div class="stat-card"><div class="sc-num">30%</div><div class="sc-lab"><span class="en">Waste reduction</span><span class="es">Reducción residuos</span></div></div><div class="stat-card"><div class="sc-num">70%</div><div class="sc-lab"><span class="en">Compliance rate</span><span class="es">Cumplimiento normativo</span></div></div></div></div></div></div></div><div class="sec" style="position:relative;"><div class="sec-bg" style="background-image:url('/s/communitylab/assets/bg-solution.jpg');"></div><div class="sec-ov" style="background:rgba(102,147,72,.30);"></div><div class="sec-header"><div class="sec-num">02</div><div class="sec-title"><span class="en">SICircular Product</span><span class="es">Producto SICircular</span></div><div class="sec-rule"></div></div><div class="sol-grid"><div class="sol-card"><div class="sol-step">1</div><div class="sol-icon">📏</div><div class="sol-label"><span class="en">Measure</span><span class="es">Medir</span></div><div class="sol-text"><span class="en">Quantify waste, impacts, costs and environmental benefits.</span><span class="es">Cuantificar residuos, impactos, costos y beneficios ambientales.</span></div></div><div class="sol-card"><div class="sol-step">2</div><div class="sol-icon">🔗</div><div class="sol-label"><span class="en">Trace</span><span class="es">Trazar</span></div><div class="sol-text"><span class="en">Trace each material flow with auditable data.</span><span class="es">Trazar cada flujo de materiales con datos auditables.</span></div></div><div class="sol-card"><div class="sol-step">3</div><div class="sol-icon">🔄</div><div class="sol-label"><span class="en">Connect</span><span class="es">Conectar</span></div><div class="sol-text"><span class="en">Industrial symbiosis opportunities and circular business.</span><span class="es">Oportunidades de simbiosis industrial y negocios circulares.</span></div></div><div class="sol-card"><div class="sol-step">4</div><div class="sol-icon">✅</div><div class="sol-label"><span class="en">Comply</span><span class="es">Cumplir</span></div><div class="sol-text"><span class="en">Circular economy law compliance — Mexico indicators aligned.</span><span class="es">Cumplimiento ley Economía Circular — indicadores México alineados.</span></div></div></div></div><div class="sec" style="position:relative;"><div class="sec-bg" style="background-image:url('/s/communitylab/assets/bg-market.jpg');"></div><div class="sec-ov" style="background:rgba(12,73,138,.30);"></div><div class="sec-header"><div class="sec-num">03</div><div class="sec-title"><span class="en">Market Sizing</span><span class="es">Dimensionamiento de Mercado</span></div><div class="sec-rule"></div></div><div class="rev-chart"><div class="rev-col"><div class="rev-val">70</div><div class="rev-bar actual" style="height:25px;"></div><div class="rev-label">Nicho 2026</div></div><div class="rev-col"><div class="rev-val">420</div><div class="rev-bar actual" style="height:55px;"></div><div class="rev-label">SOM</div></div><div class="rev-col"><div class="rev-val">1,630</div><div class="rev-bar actual" style="height:75px;"></div><div class="rev-label">SAM</div></div><div class="rev-col"><div class="rev-val">4,200</div><div class="rev-bar actual" style="height:90px;"></div><div class="rev-label">TAM</div></div><div class="rev-col"><div class="rev-val">60</div><div class="rev-bar actual" style="height:45px;"></div><div class="rev-label">Clients Y3</div></div></div><div class="frost-note"><span class="en">Revenue ranges: 2026 $0.84M–$1.98M · 2027 $5.04M–$11.86M · ~2030 $19.56M–$46.03M · 2033+ $50.40M–$118.60M</span><span class="es">Rangos ingreso: 2026 $0.84M–$1.98M · 2027 $5.04M–$11.86M · ~2030 $19.56M–$46.03M · 2033+ $50.40M–$118.60M</span></div></div><div class="accent-bar"></div><div class="sec" style="position:relative;"><div class="sec-bg" style="background-image:url('/s/communitylab/assets/bg-table.jpg');"></div><div class="sec-ov" style="background:rgba(102,147,72,.30);"></div><div class="sec-header"><div class="sec-num">04</div><div class="sec-title"><span class="en">Value Proposition Numbers</span><span class="es">Números de Propuesta de Valor</span></div><div class="sec-rule"></div></div><div class="comp-wrap"><table class="comp-tbl"><thead><tr><th><span class="en">Benefit</span><span class="es">Beneficio</span></th><th><span class="en">Value</span><span class="es">Valor</span></th><th><span class="en">Detail</span><span class="es">Detalle</span></th></tr></thead><tbody><tr><td><span class="en">ROI</span><span class="es">Retorno</span></td><td><span class="en">6 months</span><span class="es">6 meses</span></td><td class="hl"><span class="en">100% investment recovered (deck)</span><span class="es">100% inversión recuperada (deck)</span></td></tr><tr><td><span class="en">Waste analytics</span><span class="es">Analítica residuos</span></td><td><span class="en">$324,760/yr</span><span class="es">$324.760/año</span></td><td class="hl"><span class="en">30% material waste reduction</span><span class="es">30% reducción desperdicio materiales</span></td></tr><tr><td><span class="en">Landfill savings</span><span class="es">Ahorro vertederos</span></td><td><span class="en">$85,000/yr</span><span class="es">$85.000/año</span></td><td class="hl"><span class="en">Deck figure</span><span class="es">Cifra del deck</span></td></tr><tr><td><span class="en">Compliance</span><span class="es">Cumplimiento</span></td><td><span class="en">70%</span><span class="es">70%</span></td><td class="hl"><span class="en">Circular economy regulatory</span><span class="es">Normativo economía circular</span></td></tr></tbody></table></div></div><div class="sec" style="position:relative;"><div class="sec-bg" style="background-image:url('/s/communitylab/assets/bg-impact.jpg');"></div><div class="sec-ov" style="background:rgba(12,73,138,.30);"></div><div class="sec-header"><div class="sec-num">05</div><div class="sec-title"><span class="en">Climate Impact</span><span class="es">Impacto Climático</span></div><div class="sec-rule"></div></div><div class="impact-grid"><div class="imp-card"><div class="imp-icon">🛢️</div><div><div class="imp-title"><span class="en">Oil Avoided</span><span class="es">Petróleo Evitado</span></div><div class="imp-text"><span class="en">100 food processing plants: avoid 77,000+ barrels oil/year; 5-year potential -277 KtCO₂eq.</span><span class="es">100 plantas alimentos: evitar 77.000+ barriles petróleo/año; potencial 5 años -277 KtCO₂eq.</span></div></div></div><div class="imp-card"><div class="imp-icon">♻️</div><div><div class="imp-title"><span class="en">Formalized Managers</span><span class="es">Gestores Formalizados</span></div><div class="imp-text"><span class="en">Enable 49 formalized waste managers.</span><span class="es">Habilitar 49 gestores formalizados.</span></div></div></div><div class="imp-card"><div class="imp-icon">💚</div><div><div class="imp-title"><span class="en">SROI</span><span class="es">SROI</span></div><div class="imp-text"><span class="en">Residuos con propósito — SROI USD 5 (deck).</span><span class="es">Residuos con propósito — SROI USD 5 (deck).</span></div></div></div><div class="imp-card"><div class="imp-icon">🏭</div><div><div class="imp-title"><span class="en">Circular Network</span><span class="es">Red Circular</span></div><div class="imp-text"><span class="en">Industrial waste transformed into economic resources.</span><span class="es">Residuos industriales transformados en recursos económicos.</span></div></div></div></div></div><div class="sec" style="position:relative;"><div class="sec-bg" style="background-image:url('/s/communitylab/assets/bg-team.jpg');"></div><div class="sec-ov" style="background:rgba(102,147,72,.30);"></div><div class="sec-header"><div class="sec-num">06</div><div class="sec-title"><span class="en">Dream &amp; Team</span><span class="es">Sueño y Equipo</span></div><div class="sec-rule"></div></div><div class="team-grid"><div class="team-card"><img class="tp-photo" src="/s/communitylab/assets/team/beatriz.jpg" alt="Beatriz Eugenia Correa Pérez" loading="lazy"><div class="tp-name">Beatriz Eugenia Correa Pérez</div><div class="tp-role"><span class="en">General Manager — Founder</span><span class="es">Gerente — Fundadora</span></div><div class="tp-bio"><span class="en">22+ years tech &amp; innovation. Founded CommunityLab 2012.</span><span class="es">22+ años tecnología e innovación. Fundó CommunityLab 2012.</span></div></div><div class="team-card"><img class="tp-photo" src="/s/communitylab/assets/team/manuela.jpg" alt="Manuela Cardenas" loading="lazy"><div class="tp-name">Manuela Cardenas</div><div class="tp-role"><span class="en">Environmental Lead</span><span class="es">Líder Ambiental</span></div><div class="tp-bio"><span class="en">9 years — circular economy KPIs.</span><span class="es">9 años — KPIs economía circular.</span></div></div><div class="team-card"><img class="tp-photo" src="/s/communitylab/assets/team/alfredo.jpg" alt="Alfredo José Roldán Piedrahita" loading="lazy"><div class="tp-name">Alfredo José Roldán Piedrahita</div><div class="tp-role"><span class="en">Innovation Lead — Co-founder</span><span class="es">Líder Innovación — Cofundador</span></div><div class="tp-bio"><span class="en">39 years tech &amp; R&amp;D.</span><span class="es">39 años tecnología e I+D.</span></div></div><div class="team-card"><img class="tp-photo" src="/s/communitylab/assets/team/felipe.jpg" alt="Felipe Hernandez" loading="lazy"><div class="tp-name">Felipe Hernandez</div><div class="tp-role"><span class="en">Mentor CLP2026</span><span class="es">Mentor CLP2026</span></div><div class="tp-bio"><span class="en">Frugal Studio · Impact entrepreneur.</span><span class="es">Frugal Studio · Emprendedor de impacto.</span></div></div></div><div class="frost-note"><span class="en">Year-3 EBITDA $354,240 · Gross margin 49.2% · LTV $1,800 · CAC $6,096. Success fee Year-3 upside $1,694,250 not yet validated. CT taxonomy: [PENDIENTE].</span><span class="es">EBITDA Año 3 $354.240 · Margen bruto 49.2% · LTV $1.800 · CAC $6.096. Upside tarifa éxito Año 3 $1.694.250 aún no validado. Taxonomía CT: [PENDIENTE].</span></div></div>
 
 <div class="sec" style="position:relative;">
-  <div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1504541331459-5288e5d49ee3?w=1200&q=80');"></div>
-  <div class="sec-ov" style="background:radial-gradient(ellipse at 50% 40%,rgba(12,73,138,.8),rgba(12,73,138,.96));"></div>
+  <div class="sec-bg" style="background-image:url('/s/communitylab/assets/bg-cta.jpg');"></div>
+  <div class="sec-ov" style="background:rgba(12,73,138,.30);"></div>
   <div class="cta">
     <div class="pill" style="background:rgba(157,195,132,.12);border:1px solid rgba(157,195,132,.2);color:var(--lg);margin-bottom:16px;"><span class="en">Waste-to-Resource SaaS + Sensors</span><span class="es">SaaS Residuo-a-Recurso + Sensores</span></div>
     <div class="cta-name">CommunityLab</div>
     <div class="cta-pitch"><span class="en">Make corporate circularity profitable — 100% investment recovered in 6 months (deck claim).</span><span class="es">Hacer rentable la circularidad corporativa — 100% de inversión recuperada en 6 meses (afirmación del deck).</span></div>
     <a class="cta-btn" href="https://communitylab.co"><span class="en">Visit website</span><span class="es">Visitar sitio</span></a>
     <div class="cta-links">
-      <a class="cta-link" href="https://nexus.cleantechhub.net/s/communitylab"><span class="en">Nexus Profile (draft)</span><span class="es">Perfil Nexus (borrador)</span></a>
+      <a class="cta-link" href="https://nexus.cleantechhub.net/s/communitylab"><span class="en">Nexus Profile</span><span class="es">Perfil Nexus</span></a>
       <a class="cta-link" href="https://nexus.cleantechhub.net/p/startup-portfolio"><span class="en">157 Startups</span><span class="es">157 Startups</span></a>
+      <a class="cta-link" href="/s/communitylab/deck.pdf" target="_blank" rel="noopener"><span class="en">Pitch deck (PDF)</span><span class="es">Pitch deck (PDF)</span></a>
     </div>
-    <div class="cta-brand"><div class="tg">Inspira. Actúa. Transforma.</div><div class="lg2">CleantechHUB</div></div>
-    <div class="cta-port"><span class="en">Draft preview — not deployed to /opt/nexus-onepagers</span><span class="es">Vista previa borrador — no desplegado en /opt/nexus-onepagers</span></div>
+    <div class="cta-brand"><div class="tg">Inspira. Actúa. Transforma.</div><div class="lg2">Cleantech<em style="color:var(--lg);font-style:normal;">HUB</em></div></div>
+    <div class="cta-port"><span class="en">CleantechHUB portfolio profile · Latin America</span><span class="es">Perfil portafolio CleantechHUB · América Latina</span></div>
   </div>
 </div>
 <div class="accent-bar"></div>
