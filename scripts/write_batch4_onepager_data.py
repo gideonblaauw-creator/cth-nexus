@@ -205,25 +205,25 @@ PAGES = [
         dream_en="Program: CleantechHUB Acceleration. City (HQ): Guadalajara area [public LinkedIn]. Verified KPIs: [PENDIENTE]. Pitch deck: [PENDIENTE].",
         dream_es="Programa: Aceleración CleantechHUB. Ciudad (HQ): área Guadalajara [LinkedIn público]. KPIs verificados: [PENDIENTE]. Pitch deck: [PENDIENTE].",
         problem_bg="https://images.unsplash.com/photo-1542838132-92c53300491e?w=1200&q=80",
-        solution_bg="https://images.unsplash.com/photo-1601493700633-866a8a0a4b4c?w=1200&q=80",
-        impact_bg="https://images.unsplash.com/photo-1560493676-2b0e20a0eae2?w=1200&q=80",
-        team_bg="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=1200&q=80",
-        cta_bg="https://images.unsplash.com/photo-1511690743690-d985d126e174?w=1200&q=80",
+        solution_bg="https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=1200&q=80",
+        impact_bg="https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=1200&q=80",
+        team_bg="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1200&q=80",
+        cta_bg="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200&q=80",
         image_credits_en=(
             "Hero: product photo, <a href=\"https://alaterra.com.mx\" rel=\"noopener\" target=\"_blank\">alaterra.com.mx</a>. "
-            "Sec.1 Unsplash <a href=\"https://unsplash.com/photos/1542838132-92c53300491e\" rel=\"noopener\" target=\"_blank\">food market produce</a>. "
-            "Sec.2 Unsplash <a href=\"https://unsplash.com/photos/1601493700633-866a8a0a4b4c\" rel=\"noopener\" target=\"_blank\">dried fruit snacks</a>. "
-            "Sec.3 Unsplash <a href=\"https://unsplash.com/photos/1560493676-2b0e20a0eae2\" rel=\"noopener\" target=\"_blank\">fruit orchard</a>. "
-            "Sec.4 Unsplash <a href=\"https://unsplash.com/photos/1573496359142-b8d87734a5a2\" rel=\"noopener\" target=\"_blank\">team collaboration</a>. "
-            "CTA Unsplash <a href=\"https://unsplash.com/photos/1511690743690-d985d126e174\" rel=\"noopener\" target=\"_blank\">healthy meal prep</a>."
+            "Sec.1 Unsplash <a href=\"https://unsplash.com/photos/92c53300491e\" rel=\"noopener\" target=\"_blank\">market produce</a>. "
+            "Sec.2 Unsplash <a href=\"https://unsplash.com/photos/31db52582fe9\" rel=\"noopener\" target=\"_blank\">fresh vegetables</a>. "
+            "Sec.3 Unsplash <a href=\"https://unsplash.com/photos/fa280b87c399\" rel=\"noopener\" target=\"_blank\">farm harvest</a>. "
+            "Sec.4 Unsplash <a href=\"https://unsplash.com/photos/a57141f2eefd\" rel=\"noopener\" target=\"_blank\">salad prep</a>. "
+            "CTA Unsplash <a href=\"https://unsplash.com/photos/0877df9cc836\" rel=\"noopener\" target=\"_blank\">shared meal</a>."
         ),
         image_credits_es=(
             "Hero: foto de producto, <a href=\"https://alaterra.com.mx\" rel=\"noopener\" target=\"_blank\">alaterra.com.mx</a>. "
-            "Sec.1 Unsplash <a href=\"https://unsplash.com/photos/1542838132-92c53300491e\" rel=\"noopener\" target=\"_blank\">mercado de frutas</a>. "
-            "Sec.2 Unsplash <a href=\"https://unsplash.com/photos/1601493700633-866a8a0a4b4c\" rel=\"noopener\" target=\"_blank\">snacks de fruta deshidratada</a>. "
-            "Sec.3 Unsplash <a href=\"https://unsplash.com/photos/1560493676-2b0e20a0eae2\" rel=\"noopener\" target=\"_blank\">huerto frutal</a>. "
-            "Sec.4 Unsplash <a href=\"https://unsplash.com/photos/1573496359142-b8d87734a5a2\" rel=\"noopener\" target=\"_blank\">equipo colaborando</a>. "
-            "CTA Unsplash <a href=\"https://unsplash.com/photos/1511690743690-d985d126e174\" rel=\"noopener\" target=\"_blank\">comida saludable</a>."
+            "Sec.1 Unsplash <a href=\"https://unsplash.com/photos/92c53300491e\" rel=\"noopener\" target=\"_blank\">mercado de frutas</a>. "
+            "Sec.2 Unsplash <a href=\"https://unsplash.com/photos/31db52582fe9\" rel=\"noopener\" target=\"_blank\">vegetales frescos</a>. "
+            "Sec.3 Unsplash <a href=\"https://unsplash.com/photos/fa280b87c399\" rel=\"noopener\" target=\"_blank\">cosecha en finca</a>. "
+            "Sec.4 Unsplash <a href=\"https://unsplash.com/photos/a57141f2eefd\" rel=\"noopener\" target=\"_blank\">preparación de ensalada</a>. "
+            "CTA Unsplash <a href=\"https://unsplash.com/photos/0877df9cc836\" rel=\"noopener\" target=\"_blank\">comida compartida</a>."
         ),
     ),
     portfolio_page(
