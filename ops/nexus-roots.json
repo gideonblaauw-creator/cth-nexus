@@ -37,7 +37,7 @@
       "name": "cth-static",
       "repo_path": "site/cth-static",
       "live_path": "/opt/cth-nexus/static",
-      "routes": ["/mentor-directory*"]
+      "routes": ["/mentor-directory*", "/hubs*"]
     }
   ],
   "reverse_proxy_apps": [
