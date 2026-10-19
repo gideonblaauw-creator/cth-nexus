@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CleantechHUB Nexus — Inicio</title>
+  <meta name="description" content="Plataforma interna CleantechHUB — Startups, Mentores, Inversores y Funders en un solo lugar.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='12' fill='%230C498A'/><text y='.9em' font-size='60' x='20'>🌱</text></svg>">
+  <link rel="stylesheet" href="/nexus-assets/nexus-brand.css?v=2">
+  <style>
+    /* ── Hero ── */
+    .home-hero {
+      background: var(--deep-blue);
+      padding: 40px 28px 0;
+      position: relative;
+      overflow: hidden;
+    }
+    .home-hero::before {
+      content: '';
+      position: absolute;
+      top: -60px; right: -60px;
+      width: 300px; height: 300px;
+      background: radial-gradient(circle, rgba(105,181,250,.15) 0%, transparent 70%);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+    .hero-greeting {
+      font-size: 11px; font-weight: 700;
+      color: var(--sky);
+      letter-spacing: 1.2px; text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+    .hero-title {
+      font-size: 32px; font-weight: 800;
+      color: var(--white);
+      line-height: 1.15; letter-spacing: -.5px;
+      margin-bottom: 8px;
+    }
+    .hero-title em { color: var(--cyan); font-style: normal; }
+    .hero-tagline {
+      font-size: 12px;
+      color: rgba(178,238,250,.65);
+      font-style: italic; letter-spacing: .3px;
+      margin-bottom: 28px;
+    }
+    .hero-stats {
+      display: flex; gap: 0;
+      border-top: 1px solid rgba(178,238,250,.15);
+      margin: 0 -28px; padding: 0 28px;
+    }
+    .hstat {
+      flex: 1; padding: 18px 0;
+      text-align: center;
+      border-right: 1px solid rgba(178,238,250,.1);
+    }
+    .hstat:last-child { border-right: none; }
+    .hstat-n { font-size: 28px; font-weight: 800; color: var(--light-green); line-height: 1; }
+    .hstat-l { font-size: 9px; color: rgba(178,238,250,.55); text-transform: uppercase; letter-spacing: .6px; margin-top: 3px; }
+
+    /* ── Body ── */
+    .home-body { padding: 28px 24px 60px; max-width: 960px; margin: 0 auto; }
+    .section-label {
+      font-size: 10px; font-weight: 800;
+      color: var(--deep-blue);
+      text-transform: uppercase; letter-spacing: 1.2px;
+      margin-bottom: 16px;
+      display: flex; align-items: center; gap: 10px;
+    }
+    .section-label::after { content: ''; flex: 1; height: 1px; background: var(--color-border); }
+
+    /* ── Module cards ── */
+    .module-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; margin-bottom: 32px; }
+    .module-card {
+      background: var(--white);
+      border: 1.5px solid var(--color-border);
+      border-radius: var(--radius);
+      padding: 20px 18px 16px;
+      text-decoration: none; color: inherit;
+      display: block;
+      transition: all .18s;
+      position: relative; overflow: hidden;
+    }
+    .module-card::before {
+      content: ''; position: absolute;
+      top: 0; left: 0; right: 0; height: 3px;
+    }
+    .mc-startups::before  { background: var(--light-green); }
+    .mc-mentors::before   { background: var(--sky); }
+    .mc-investors::before { background: var(--deep-blue); }
+    .mc-funders::before   { background: var(--forest); }
+    .module-card:hover { border-color: var(--sky); box-shadow: var(--shadow-hover); transform: translateY(-2px); }
+    .mc-icon { font-size: 24px; margin-bottom: 10px; }
+    .mc-title { font-size: 15px; font-weight: 800; color: var(--deep-blue); margin-bottom: 4px; }
+    .mc-sub { font-size: 11px; color: var(--color-mid); line-height: 1.55; }
+    .mc-count {
+      display: inline-block; margin-top: 12px;
+      font-size: 10px; font-weight: 700;
+      padding: 2px 10px; border-radius: 20px;
+      background: var(--color-bg); color: var(--deep-blue);
+    }
+
+    /* ── Activity ── */
+    .activity-list { display: flex; flex-direction: column; gap: 10px; }
+    .activity-item {
+      background: var(--white);
+      border: 1.5px solid var(--color-border);
+      border-radius: var(--radius-sm);
+      padding: 12px 16px;
+      display: flex; align-items: center; gap: 14px;
+    }
+    .act-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+    .act-text { flex: 1; font-size: 11px; color: var(--color-mid); line-height: 1.45; }
+    .act-text strong { color: var(--color-text); }
+    .act-time { font-size: 10px; color: #94A3B8; white-space: nowrap; }
+
+    /* ── Role badge ── */
+    .role-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      font-size: 10px; font-weight: 700;
+      background: rgba(178,238,250,.15);
+      border: 1px solid rgba(178,238,250,.25);
+      color: var(--cyan);
+      padding: 3px 10px; border-radius: 20px;
+      margin-bottom: 12px;
+    }
+    .role-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--light-green); }
+  </style>
+  <style>
+  /* ── Home page mobile overrides ── */
+  @media (max-width: 600px) {
+    /* Hero */
+    .home-hero { padding: 24px 16px 0; }
+
+    .hero-title {
+      font-size: 22px;
+      letter-spacing: -.3px;
+    }
+    /* Remove the <br> effect — let it reflow */
+    .hero-title br { display: none; }
+
+    .hero-tagline { font-size: 11px; margin-bottom: 20px; }
+
+    /* Stats: 4-col → 2×2 grid */
+    .hero-stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin: 0 -16px;
+      padding: 0 16px;
+    }
+    .hstat {
+      padding: 14px 0;
+      border-right: 1px solid rgba(178,238,250,.1);
+      border-bottom: 1px solid rgba(178,238,250,.1);
+    }
+    .hstat:nth-child(2), .hstat:nth-child(4) { border-right: none; }
+    .hstat:nth-child(3), .hstat:nth-child(4) { border-bottom: none; }
+    .hstat-n { font-size: 22px; }
+
+    /* Module grid: 2-col → 1-col */
+    .module-grid {
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+
+    /* Body padding */
+    .home-body { padding: 18px 16px 48px; }
+
+    /* Section label */
+    .section-label { font-size: 9px; }
+
+    /* Activity items */
+    .activity-item { padding: 10px 12px; gap: 10px; }
+    .act-text { font-size: 10px; }
+    .act-time { font-size: 9px; }
+  }
+  </style>
+</head>
+<body data-nexus-page="home">
+
+  <div class="home-hero">
+    <div class="role-badge"><div class="role-dot"></div>CTH Team · Vista interna</div>
+    <div class="hero-greeting">Bienvenido de vuelta, Gideon</div>
+    <div class="hero-title">Nexus — <em>Tu ecosistema</em><br>cleantech, en un lugar.</div>
+    <div class="hero-tagline">Inspira. Actúa. Transforma.</div>
+    <div class="hero-stats">
+      <div class="hstat"><div class="hstat-n" id="stat-startups">—</div><div class="hstat-l">Startups</div></div>
+      <div class="hstat"><div class="hstat-n" id="stat-mentors">—</div><div class="hstat-l">Mentores</div></div>
+      <div class="hstat"><div class="hstat-n" id="stat-investors">—</div><div class="hstat-l">Inversores</div></div>
+      <div class="hstat"><div class="hstat-n" id="stat-funders">—</div><div class="hstat-l">Funders</div></div>
+    </div>
+  </div>
+
+  <div class="home-body">
+    <div class="section-label">Explorar plataforma</div>
+    <div class="module-grid">
+      <a class="module-card mc-startups" href="/p/startup-portfolio">
+        <div class="mc-icon">🌱</div>
+        <div class="mc-title">Startups</div>
+        <div class="mc-sub">Portfolio completo — 8 programas, economía circular, bioeconomía y transición energética.</div>
+        <div class="mc-count" id="card-startups">— startups activas</div>
+      </a>
+      <a class="module-card mc-mentors" href="/mentor-directory">
+        <div class="mc-icon">👥</div>
+        <div class="mc-title">Mentores</div>
+        <div class="mc-sub">Red de expertos en impacto, finanzas, ventas, legal y operaciones.</div>
+        <div class="mc-count" id="card-mentors">— mentores</div>
+      </a>
+      <a class="module-card mc-investors" href="/investors">
+        <div class="mc-icon">💹</div>
+        <div class="mc-title">Inversores</div>
+        <div class="mc-sub">Pipeline de inversores ángel, VCs y family offices activos en LATAM cleantech.</div>
+        <div class="mc-count" id="card-investors">— inversores</div>
+      </a>
+      <a class="module-card mc-funders" href="/p/funders">
+        <div class="mc-icon">🏛️</div>
+        <div class="mc-title">Funders</div>
+        <div class="mc-sub">Organismos multilaterales, fondos climáticos y alianzas estratégicas de CTH.</div>
+        <div class="mc-count" id="card-funders">— organizaciones</div>
+      </a>
+    </div>
+
+    <div class="section-label">Actividad reciente</div>
+    <div class="activity-list">
+      <div class="activity-item">
+        <div class="act-dot" style="background:var(--light-green)"></div>
+        <div class="act-text"><strong>EcoPack Colombia</strong> actualizó su stage a Seed — verificar perfil de inversores compatible</div>
+        <div class="act-time">hace 2h</div>
+      </div>
+      <div class="activity-item">
+        <div class="act-dot" style="background:var(--sky)"></div>
+        <div class="act-text"><strong>Adriana Morales</strong> se unió como mentora — área de Finanzas de Impacto</div>
+        <div class="act-time">ayer</div>
+      </div>
+      <div class="activity-item">
+        <div class="act-dot" style="background:var(--forest)"></div>
+        <div class="act-text"><strong>DGGF Netherlands</strong> marcado como High Fit para EcoPack y BioFunghi</div>
+        <div class="act-time">hace 3 días</div>
+      </div>
+      <div class="activity-item">
+        <div class="act-dot" style="background:var(--deep-blue)"></div>
+        <div class="act-text"><strong>CLAC25 Batch</strong> — 12 nuevas startups incorporadas al portfolio</div>
+        <div class="act-time">hace 1 sem</div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="nexus-footer">
+    CleantechHUB Nexus · <a href="https://nexus.cleantechhub.net">nexus.cleantechhub.net</a> · Plataforma interna CTH Team
+  </footer>
+
+  <script src="/nexus-assets/nexus-nav.js?v=3"></script>
+  <script>
+  /* ── Dynamic stats — fetches real counts from each data source ── */
+  (function() {
+    function set(id, n) {
+      var el = document.getElementById(id);
+      if (el) el.textContent = n;
+    }
+
+    /* Investors — live from JSON */
+    fetch('/investors/data/investors.json')
+      .then(function(r) { return r.json(); })
+      .then(function(d) {
+        var inv = Array.isArray(d) ? d : (d.investors || []);
+        set('stat-investors', inv.length);
+        set('card-investors', inv.length + ' inversores');
+      })
+      .catch(function() {});
+
+    /* Startups — count entries in the portfolio page inline data */
+    fetch('/p/startup-portfolio')
+      .then(function(r) { return r.text(); })
+      .then(function(html) {
+        var m = html.match(/\{n:"/g);
+        if (m) {
+          set('stat-startups', m.length);
+          set('card-startups', m.length + ' startups activas');
+        }
+      })
+      .catch(function() {});
+
+    /* Mentors — count entries in the mentor directory inline data */
+    fetch('/mentor-directory')
+      .then(function(r) { return r.text(); })
+      .then(function(html) {
+        var m = html.match(/name:\s*"/g);
+        if (m) {
+          set('stat-mentors', m.length);
+          set('card-mentors', m.length + ' mentores');
+        }
+      })
+      .catch(function() {});
+
+    /* Funders — count from funders page inline data */
+    fetch('/p/funders')
+      .then(function(r) { return r.text(); })
+      .then(function(html) {
+        /* The funders page stores its data URL and fetches investor JSON.
+           Count unique funder organizations from the page's rendered filter options,
+           or fall back to a fetch of the same investor JSON with quality gate. */
+        return fetch('/investors/data/investors.json');
+      })
+      .then(function(r) { return r.json(); })
+      .then(function(d) {
+        var inv = Array.isArray(d) ? d : (d.investors || []);
+        /* Apply same quality gate as funders page: must have website + description */
+        var qualified = inv.filter(function(i) {
+          return i.website && i.description && i.description.split(/\s+/).length >= 20;
+        });
+        set('stat-funders', qualified.length);
+        set('card-funders', qualified.length + ' organizaciones');
+      })
+      .catch(function() {});
+  })();
+  </script>
+</body>
+</html>
