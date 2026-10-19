@@ -1,0 +1,1279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CleantechHUB — Startup Portfolio Application</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --deep-blue:    #0C498A;
+      --light-cyan:   #B2EEFA;
+      --light-green:  #9DC384;
+      --forest-green: #669348;
+      --sky-blue:     #69B5FA;
+      --white:        #FFFFFF;
+      --text-dark:    #1a1a2e;
+      --bg:           #f0fbff;
+      --border:       #cde8f7;
+      --error:        #c0392b;
+      --success:      #27ae60;
+      --radius:       10px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Open Sans', 'PT Sans', sans-serif;
+      background: var(--bg);
+      color: var(--text-dark);
+      min-height: 100vh;
+    }
+
+    /* ── Header ── */
+    .header {
+      background: var(--deep-blue);
+      padding: 36px 40px 30px;
+      position: relative;
+      overflow: hidden;
+    }
+    .header::before {
+      content: '';
+      position: absolute;
+      top: -60px; right: -60px;
+      width: 260px; height: 260px;
+      background: var(--sky-blue);
+      border-radius: 50%;
+      opacity: 0.10;
+    }
+    .header::after {
+      content: '';
+      position: absolute;
+      bottom: -40px; left: 30%;
+      width: 180px; height: 180px;
+      background: var(--light-green);
+      border-radius: 50%;
+      opacity: 0.08;
+    }
+    .header-inner {
+      max-width: 780px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 1;
+    }
+    .logo-wordmark {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--light-cyan);
+      letter-spacing: -0.5px;
+      margin-bottom: 4px;
+    }
+    .logo-wordmark span { color: var(--light-green); }
+    .logo-tagline {
+      font-size: 10px;
+      color: var(--sky-blue);
+      letter-spacing: 1.8px;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    .header-title {
+      font-size: 30px;
+      font-weight: 700;
+      color: var(--white);
+      line-height: 1.2;
+      margin-bottom: 10px;
+    }
+    .header-subtitle {
+      font-size: 14px;
+      color: var(--light-cyan);
+      line-height: 1.7;
+      max-width: 600px;
+    }
+
+    /* ── Progress bar ── */
+    .progress-wrap {
+      background: var(--white);
+      border-bottom: 2px solid var(--light-cyan);
+      padding: 16px 40px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 12px rgba(12,73,138,.08);
+    }
+    .progress-inner {
+      max-width: 780px;
+      margin: 0 auto;
+    }
+    .progress-steps {
+      display: flex;
+      gap: 0;
+      align-items: center;
+    }
+    .step-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex: 1;
+    }
+    .step-item:not(:last-child)::after {
+      content: '';
+      flex: 1;
+      height: 2px;
+      background: var(--border);
+      margin: 0 8px;
+    }
+    .step-item.active:not(:last-child)::after,
+    .step-item.done:not(:last-child)::after {
+      background: var(--light-green);
+    }
+    .step-dot {
+      width: 28px; height: 28px;
+      border-radius: 50%;
+      background: var(--border);
+      color: #999;
+      font-size: 12px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      transition: all .2s;
+    }
+    .step-item.active .step-dot {
+      background: var(--deep-blue);
+      color: var(--white);
+    }
+    .step-item.done .step-dot {
+      background: var(--forest-green);
+      color: var(--white);
+    }
+    .step-label {
+      font-size: 11px;
+      font-weight: 600;
+      color: #aaa;
+      white-space: nowrap;
+    }
+    .step-item.active .step-label { color: var(--deep-blue); }
+    .step-item.done .step-label { color: var(--forest-green); }
+
+    /* ── Form wrapper ── */
+    .form-wrap {
+      max-width: 780px;
+      margin: 36px auto 60px;
+      padding: 0 40px;
+    }
+
+    /* ── Section ── */
+    .form-section {
+      display: none;
+    }
+    .form-section.active {
+      display: block;
+    }
+    .section-header {
+      margin-bottom: 28px;
+    }
+    .section-label {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: var(--forest-green);
+      margin-bottom: 6px;
+    }
+    .section-title {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--deep-blue);
+      margin-bottom: 8px;
+    }
+    .section-desc {
+      font-size: 13px;
+      color: #555;
+      line-height: 1.65;
+    }
+
+    /* ── Card ── */
+    .form-card {
+      background: var(--white);
+      border-radius: var(--radius);
+      padding: 28px 32px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 14px rgba(12,73,138,.07);
+      border: 1px solid var(--border);
+    }
+    .card-section-title {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--deep-blue);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid var(--light-cyan);
+    }
+
+    /* ── Field ── */
+    .field {
+      margin-bottom: 22px;
+    }
+    .field:last-child { margin-bottom: 0; }
+    .field-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+    label {
+      display: block;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--deep-blue);
+      margin-bottom: 6px;
+    }
+    label .req {
+      color: var(--forest-green);
+      margin-left: 2px;
+    }
+    label .opt {
+      font-weight: 400;
+      color: #aaa;
+      font-size: 11px;
+      margin-left: 4px;
+    }
+    .field-hint {
+      font-size: 11px;
+      color: #888;
+      margin-top: 5px;
+      line-height: 1.5;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="url"],
+    input[type="number"],
+    select,
+    textarea {
+      width: 100%;
+      padding: 10px 14px;
+      border: 1.5px solid var(--border);
+      border-radius: 7px;
+      font-family: inherit;
+      font-size: 14px;
+      color: var(--text-dark);
+      background: #fafeff;
+      outline: none;
+      transition: border-color .2s, box-shadow .2s;
+      -webkit-appearance: none;
+    }
+    input:focus, select:focus, textarea:focus {
+      border-color: var(--sky-blue);
+      box-shadow: 0 0 0 3px rgba(105,181,250,.18);
+      background: var(--white);
+    }
+    input.error, select.error, textarea.error {
+      border-color: var(--error);
+      box-shadow: 0 0 0 3px rgba(192,57,43,.1);
+    }
+    textarea { resize: vertical; min-height: 100px; }
+    select {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%230C498A' stroke-width='1.8' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 14px center;
+      padding-right: 36px;
+    }
+
+    /* ── Logo upload ── */
+    .logo-upload-area {
+      border: 2px dashed var(--border);
+      border-radius: var(--radius);
+      padding: 28px 20px;
+      text-align: center;
+      cursor: pointer;
+      transition: border-color .2s, background .2s;
+      background: #fafeff;
+      position: relative;
+    }
+    .logo-upload-area:hover,
+    .logo-upload-area.dragover {
+      border-color: var(--sky-blue);
+      background: #f0f9ff;
+    }
+    .logo-upload-area input[type="file"] {
+      position: absolute;
+      inset: 0;
+      opacity: 0;
+      cursor: pointer;
+      width: 100%;
+      height: 100%;
+    }
+    .upload-icon { font-size: 32px; margin-bottom: 8px; }
+    .upload-text {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--deep-blue);
+    }
+    .upload-subtext {
+      font-size: 11px;
+      color: #aaa;
+      margin-top: 4px;
+    }
+    .logo-preview {
+      display: none;
+      align-items: center;
+      gap: 16px;
+      padding: 12px 16px;
+      background: #edf9ff;
+      border-radius: 8px;
+      border: 1.5px solid var(--light-cyan);
+    }
+    .logo-preview.visible { display: flex; }
+    .logo-preview img {
+      width: 56px; height: 56px;
+      object-fit: contain;
+      border-radius: 8px;
+      background: white;
+      border: 1px solid var(--border);
+    }
+    .logo-preview-name {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--deep-blue);
+      flex: 1;
+    }
+    .logo-remove {
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: #aaa;
+      font-size: 18px;
+      line-height: 1;
+      transition: color .2s;
+    }
+    .logo-remove:hover { color: var(--error); }
+
+    /* ── Checkbox grid ── */
+    .checkbox-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 10px;
+    }
+    .checkbox-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 14px;
+      border: 1.5px solid var(--border);
+      border-radius: 8px;
+      cursor: pointer;
+      transition: border-color .2s, background .2s;
+      user-select: none;
+    }
+    .checkbox-item:hover { border-color: var(--sky-blue); background: #f4faff; }
+    .checkbox-item input[type="checkbox"] {
+      width: 16px; height: 16px;
+      accent-color: var(--deep-blue);
+      flex-shrink: 0;
+      cursor: pointer;
+    }
+    .checkbox-item span {
+      font-size: 13px;
+      color: var(--text-dark);
+      font-weight: 600;
+    }
+    .checkbox-item.checked {
+      border-color: var(--forest-green);
+      background: #edf7ea;
+    }
+    .checkbox-item.checked span { color: var(--forest-green); }
+
+    /* ── Radio pills ── */
+    .radio-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .radio-pill {
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      border: 1.5px solid var(--border);
+      background: #fafeff;
+      color: #666;
+      transition: all .18s;
+      user-select: none;
+    }
+    .radio-pill:hover { border-color: var(--sky-blue); color: var(--deep-blue); }
+    .radio-pill.selected {
+      background: var(--deep-blue);
+      border-color: var(--deep-blue);
+      color: var(--white);
+    }
+    .radio-pill input { display: none; }
+
+    /* ── Char counter ── */
+    .char-counter {
+      text-align: right;
+      font-size: 11px;
+      color: #aaa;
+      margin-top: 4px;
+    }
+    .char-counter.warn { color: #e67e22; }
+    .char-counter.over { color: var(--error); }
+
+    /* ── Navigation ── */
+    .form-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 28px;
+      padding-top: 20px;
+      border-top: 2px solid var(--light-cyan);
+    }
+    .btn {
+      padding: 12px 28px;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 700;
+      font-family: inherit;
+      cursor: pointer;
+      border: none;
+      transition: opacity .2s, transform .1s;
+    }
+    .btn:hover { opacity: .88; }
+    .btn:active { transform: scale(.98); }
+    .btn-primary {
+      background: var(--deep-blue);
+      color: var(--white);
+    }
+    .btn-secondary {
+      background: var(--light-cyan);
+      color: var(--deep-blue);
+    }
+    .btn-ghost {
+      background: none;
+      color: #aaa;
+      padding-left: 0;
+    }
+    .btn-ghost:hover { color: var(--deep-blue); opacity: 1; }
+    .btn-submit {
+      background: var(--forest-green);
+      color: var(--white);
+      font-size: 15px;
+      padding: 14px 36px;
+    }
+
+    /* ── Review section ── */
+    .review-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+    .review-item {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+    .review-label {
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--deep-blue);
+      opacity: .55;
+      font-weight: 700;
+    }
+    .review-value {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text-dark);
+    }
+    .review-desc {
+      font-size: 13px;
+      line-height: 1.65;
+      color: #444;
+      grid-column: 1/-1;
+    }
+    .edit-link {
+      font-size: 12px;
+      color: var(--sky-blue);
+      cursor: pointer;
+      font-weight: 600;
+      text-decoration: underline;
+      margin-left: 8px;
+    }
+
+    /* ── Success screen ── */
+    .success-screen {
+      display: none;
+      text-align: center;
+      padding: 60px 40px;
+    }
+    .success-screen.visible { display: block; }
+    .success-icon {
+      width: 80px; height: 80px;
+      background: var(--light-green);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 36px;
+      margin: 0 auto 24px;
+    }
+    .success-title {
+      font-size: 26px;
+      font-weight: 700;
+      color: var(--deep-blue);
+      margin-bottom: 12px;
+    }
+    .success-desc {
+      font-size: 15px;
+      color: #555;
+      line-height: 1.7;
+      max-width: 480px;
+      margin: 0 auto 28px;
+    }
+
+    /* ── Validation message ── */
+    .field-error {
+      font-size: 11px;
+      color: var(--error);
+      margin-top: 5px;
+      font-weight: 600;
+      display: none;
+    }
+    .field-error.visible { display: block; }
+
+    /* ── Info box ── */
+    .info-box {
+      background: #e8f5fe;
+      border: 1.5px solid var(--sky-blue);
+      border-radius: 8px;
+      padding: 14px 18px;
+      font-size: 13px;
+      color: var(--deep-blue);
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    .info-box strong { font-weight: 700; }
+
+    @media (max-width: 640px) {
+      .header, .progress-wrap, .form-wrap { padding-left: 20px; padding-right: 20px; }
+      .form-card { padding: 20px; }
+      .field-row { grid-template-columns: 1fr; }
+      .review-grid { grid-template-columns: 1fr; }
+      .header-title { font-size: 22px; }
+      .step-label { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── Header ── -->
+<header class="header">
+  <div class="header-inner">
+    <div class="logo-wordmark">Cleantech<span>HUB</span></div>
+    <div class="logo-tagline">Inspira · Actúa · Transforma</div>
+    <div class="header-title">Join Our Startup Portfolio</div>
+    <div class="header-subtitle">
+      Tell us about your startup so we can feature it on the CleantechHUB Community Dashboard —
+      connecting you with investors, partners, and the wider cleantech ecosystem.
+    </div>
+  </div>
+</header>
+
+<!-- ── Progress ── -->
+<div class="progress-wrap">
+  <div class="progress-inner">
+    <div class="progress-steps" id="progressSteps">
+      <div class="step-item active" data-step="1">
+        <div class="step-dot">1</div>
+        <div class="step-label">Basics</div>
+      </div>
+      <div class="step-item" data-step="2">
+        <div class="step-dot">2</div>
+        <div class="step-label">Classification</div>
+      </div>
+      <div class="step-item" data-step="3">
+        <div class="step-dot">3</div>
+        <div class="step-label">Your Story</div>
+      </div>
+      <div class="step-item" data-step="4">
+        <div class="step-dot">4</div>
+        <div class="step-label">Contact</div>
+      </div>
+      <div class="step-item" data-step="5">
+        <div class="step-dot">5</div>
+        <div class="step-label">Review</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ── Main form ── -->
+<div class="form-wrap" id="mainForm">
+
+  <!-- STEP 1: Basics -->
+  <div class="form-section active" id="step1">
+    <div class="section-header">
+      <div class="section-label">Step 1 of 4</div>
+      <div class="section-title">Company Basics</div>
+      <div class="section-desc">Let's start with the fundamentals — your name, location, and website.</div>
+    </div>
+
+    <div class="form-card">
+      <div class="card-section-title">Identity</div>
+
+      <div class="field">
+        <label for="companyName">Company Name <span class="req">*</span></label>
+        <input type="text" id="companyName" placeholder="e.g. Novatio" />
+        <div class="field-error" id="err-companyName">Please enter your company name.</div>
+      </div>
+
+      <div class="field">
+        <label>Company Logo <span class="opt">(optional)</span></label>
+        <div class="logo-upload-area" id="logoDropzone">
+          <input type="file" id="logoFile" accept="image/png,image/jpeg,image/svg+xml,image/webp" />
+          <div class="upload-icon">🖼️</div>
+          <div class="upload-text">Drop your logo here or click to browse</div>
+          <div class="upload-subtext">PNG, JPG, or SVG · Max 5 MB · Square format preferred</div>
+        </div>
+        <div class="logo-preview" id="logoPreview">
+          <img id="logoPreviewImg" src="" alt="Logo preview" />
+          <div class="logo-preview-name" id="logoPreviewName"></div>
+          <button type="button" class="logo-remove" id="logoRemove" title="Remove">✕</button>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="website">Website URL <span class="opt">(optional)</span></label>
+        <input type="url" id="website" placeholder="https://yourcompany.com" />
+        <div class="field-hint">Include https:// — this will link directly from your portfolio card.</div>
+      </div>
+    </div>
+
+    <div class="form-card">
+      <div class="card-section-title">Location</div>
+
+      <div class="field-row">
+        <div class="field">
+          <label for="country">Country <span class="req">*</span></label>
+          <select id="country">
+            <option value="">Select country…</option>
+            <option>Argentina</option>
+            <option>Bolivia</option>
+            <option>Brazil</option>
+            <option>Chile</option>
+            <option>Colombia</option>
+            <option>Costa Rica</option>
+            <option>Ecuador</option>
+            <option>El Salvador</option>
+            <option>Guatemala</option>
+            <option>Honduras</option>
+            <option>Mexico</option>
+            <option>Morocco</option>
+            <option>Netherlands</option>
+            <option>Panama</option>
+            <option>Paraguay</option>
+            <option>Peru</option>
+            <option>Spain</option>
+            <option>Uruguay</option>
+            <option>Venezuela</option>
+            <option>Other</option>
+          </select>
+          <div class="field-error" id="err-country">Please select a country.</div>
+        </div>
+        <div class="field">
+          <label for="city">City <span class="opt">(optional)</span></label>
+          <input type="text" id="city" placeholder="e.g. Bogotá" />
+        </div>
+      </div>
+
+      <div class="field-row">
+        <div class="field">
+          <label for="foundedYear">Year Founded <span class="opt">(optional)</span></label>
+          <input type="number" id="foundedYear" placeholder="e.g. 2021" min="1990" max="2026" />
+        </div>
+        <div class="field">
+          <label for="teamSize">Team Size <span class="opt">(optional)</span></label>
+          <select id="teamSize">
+            <option value="">Select…</option>
+            <option>1–5</option>
+            <option>6–15</option>
+            <option>16–30</option>
+            <option>31–50</option>
+            <option>51–100</option>
+            <option>100+</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-nav">
+      <div></div>
+      <button class="btn btn-primary" onclick="goTo(2)">Next: Classification →</button>
+    </div>
+  </div>
+
+  <!-- STEP 2: Classification -->
+  <div class="form-section" id="step2">
+    <div class="section-header">
+      <div class="section-label">Step 2 of 4</div>
+      <div class="section-title">Classification</div>
+      <div class="section-desc">Help us categorise your startup so visitors can filter and find you.</div>
+    </div>
+
+    <div class="form-card">
+      <div class="card-section-title">Sector</div>
+      <div class="field">
+        <label>Primary Sector <span class="req">*</span></label>
+        <div class="radio-pills" id="sectorPills">
+          <label class="radio-pill"><input type="radio" name="sector" value="Agri &amp; land use" /><span>🌱 Agri &amp; land use</span></label>
+          <label class="radio-pill"><input type="radio" name="sector" value="Agritech" /><span>🧬 Agritech</span></label>
+          <label class="radio-pill"><input type="radio" name="sector" value="Energy" /><span>⚡ Energy</span></label>
+          <label class="radio-pill"><input type="radio" name="sector" value="Transport" /><span>🚲 Transport</span></label>
+          <label class="radio-pill"><input type="radio" name="sector" value="Waste &amp; circular economy" /><span>♻️ Waste &amp; circular economy</span></label>
+          <label class="radio-pill"><input type="radio" name="sector" value="Water" /><span>💧 Water</span></label>
+          <label class="radio-pill"><input type="radio" name="sector" value="Construction" /><span>🏗️ Construction</span></label>
+          <label class="radio-pill"><input type="radio" name="sector" value="Consumer" /><span>🛍️ Consumer</span></label>
+          <label class="radio-pill"><input type="radio" name="sector" value="Fintech / Climate Finance" /><span>💰 Fintech / Climate Finance</span></label>
+          <label class="radio-pill"><input type="radio" name="sector" value="Other" /><span>🔧 Other</span></label>
+        </div>
+        <div class="field-error" id="err-sector">Please select a sector.</div>
+      </div>
+    </div>
+
+    <div class="form-card">
+      <div class="card-section-title">Stage &amp; Programme</div>
+
+      <div class="field">
+        <label>Startup Stage <span class="req">*</span></label>
+        <div class="radio-pills" id="stagePills">
+          <label class="radio-pill"><input type="radio" name="stage" value="Idea / Pre-seed" /><span>💡 Idea / Pre-seed</span></label>
+          <label class="radio-pill"><input type="radio" name="stage" value="Seed Stage" /><span>🌱 Seed Stage</span></label>
+          <label class="radio-pill"><input type="radio" name="stage" value="Early Stage" /><span>🚀 Early Stage</span></label>
+          <label class="radio-pill"><input type="radio" name="stage" value="Pre-Series A" /><span>📈 Pre-Series A</span></label>
+          <label class="radio-pill"><input type="radio" name="stage" value="Series A" /><span>Series A</span></label>
+          <label class="radio-pill"><input type="radio" name="stage" value="Series B" /><span>Series B</span></label>
+          <label class="radio-pill"><input type="radio" name="stage" value="Series B+" /><span>Series B+</span></label>
+        </div>
+        <div class="field-error" id="err-stage">Please select a stage.</div>
+      </div>
+
+      <div class="field">
+        <label for="programme">CleantechHUB Programme <span class="opt">(optional)</span></label>
+        <select id="programme">
+          <option value="">Not applicable / I'm not sure</option>
+          <option>CLP21</option>
+          <option>CLP22</option>
+          <option>CLP23</option>
+          <option>CLP24</option>
+          <option>CLP25</option>
+          <option>CLP26</option>
+          <option>CLAC22</option>
+          <option>CLAC23</option>
+          <option>CLAC24</option>
+          <option>Ideación</option>
+          <option>Incubación</option>
+          <option>Aceleración</option>
+          <option>Other programme</option>
+        </select>
+        <div class="field-hint">Which CleantechHUB programme did your startup participate in, if any?</div>
+      </div>
+    </div>
+
+    <div class="form-card">
+      <div class="card-section-title">SDGs Addressed <span style="font-weight:400;text-transform:none;letter-spacing:0;font-size:12px;color:#aaa;">(optional — select all that apply)</span></div>
+      <div class="checkbox-grid" id="sdgGrid">
+        <label class="checkbox-item"><input type="checkbox" value="SDG 2 Zero Hunger" /><span>🌾 SDG 2 — Zero Hunger</span></label>
+        <label class="checkbox-item"><input type="checkbox" value="SDG 6 Clean Water" /><span>💧 SDG 6 — Clean Water</span></label>
+        <label class="checkbox-item"><input type="checkbox" value="SDG 7 Affordable Energy" /><span>⚡ SDG 7 — Affordable Energy</span></label>
+        <label class="checkbox-item"><input type="checkbox" value="SDG 9 Industry &amp; Innovation" /><span>🏭 SDG 9 — Industry &amp; Innovation</span></label>
+        <label class="checkbox-item"><input type="checkbox" value="SDG 11 Sustainable Cities" /><span>🏙️ SDG 11 — Sustainable Cities</span></label>
+        <label class="checkbox-item"><input type="checkbox" value="SDG 12 Responsible Consumption" /><span>♻️ SDG 12 — Responsible Consumption</span></label>
+        <label class="checkbox-item"><input type="checkbox" value="SDG 13 Climate Action" /><span>🌍 SDG 13 — Climate Action</span></label>
+        <label class="checkbox-item"><input type="checkbox" value="SDG 14 Life Below Water" /><span>🐟 SDG 14 — Life Below Water</span></label>
+        <label class="checkbox-item"><input type="checkbox" value="SDG 15 Life on Land" /><span>🌳 SDG 15 — Life on Land</span></label>
+      </div>
+    </div>
+
+    <div class="form-nav">
+      <button class="btn btn-ghost" onclick="goTo(1)">← Back</button>
+      <button class="btn btn-primary" onclick="goTo(3)">Next: Your Story →</button>
+    </div>
+  </div>
+
+  <!-- STEP 3: Story -->
+  <div class="form-section" id="step3">
+    <div class="section-header">
+      <div class="section-label">Step 3 of 4</div>
+      <div class="section-title">Your Story</div>
+      <div class="section-desc">This is what investors and partners read first. Make it clear and compelling.</div>
+    </div>
+
+    <div class="form-card">
+      <div class="card-section-title">Description</div>
+
+      <div class="field">
+        <label for="tagline">One-liner / Tagline <span class="opt">(optional)</span></label>
+        <input type="text" id="tagline" placeholder="e.g. Turning organic waste into renewable energy for agro-industry" maxlength="120" />
+        <div class="char-counter" id="taglineCount">0 / 120</div>
+        <div class="field-hint">A punchy sentence that captures what you do. Shown on your portfolio card.</div>
+      </div>
+
+      <div class="field">
+        <label for="about">About Your Startup <span class="req">*</span></label>
+        <textarea id="about" rows="5" placeholder="Describe your startup — what problem you solve, how you solve it, and why it matters for a cleaner future…" maxlength="600"></textarea>
+        <div class="char-counter" id="aboutCount">0 / 600</div>
+        <div class="field-hint">2–4 sentences. This appears in the detail view of your portfolio card.</div>
+        <div class="field-error" id="err-about">Please tell us about your startup (minimum 50 characters).</div>
+      </div>
+    </div>
+
+    <div class="form-card">
+      <div class="card-section-title">Traction &amp; Impact <span style="font-weight:400;text-transform:none;letter-spacing:0;font-size:12px;color:#aaa;">(optional)</span></div>
+
+      <div class="field">
+        <label for="traction">Key Metrics / Traction</label>
+        <textarea id="traction" rows="3" placeholder="e.g. 50+ clients, $200k ARR, 10,000 tonnes of CO₂ avoided, operating in 3 countries…" maxlength="300"></textarea>
+        <div class="char-counter" id="tractionCount">0 / 300</div>
+        <div class="field-hint">Numbers speak louder than words. What's your best proof point?</div>
+      </div>
+
+      <div class="field">
+        <label for="fundingNeeds">Current Funding Needs</label>
+        <select id="fundingNeeds">
+          <option value="">Prefer not to say</option>
+          <option>Not currently fundraising</option>
+          <option>Raising under $100k</option>
+          <option>Raising $100k–$500k</option>
+          <option>Raising $500k–$1M</option>
+          <option>Raising $1M–$3M</option>
+          <option>Raising $3M–$10M</option>
+          <option>Raising $10M+</option>
+        </select>
+        <div class="field-hint">This helps us connect you with the right investors in our network.</div>
+      </div>
+    </div>
+
+    <div class="form-card">
+      <div class="card-section-title">Social &amp; Links <span style="font-weight:400;text-transform:none;letter-spacing:0;font-size:12px;color:#aaa;">(optional)</span></div>
+
+      <div class="field-row">
+        <div class="field">
+          <label for="linkedinCompany">LinkedIn Company Page</label>
+          <input type="url" id="linkedinCompany" placeholder="https://linkedin.com/company/…" />
+        </div>
+        <div class="field">
+          <label for="instagram">Instagram</label>
+          <input type="url" id="instagram" placeholder="https://instagram.com/…" />
+        </div>
+      </div>
+    </div>
+
+    <div class="form-nav">
+      <button class="btn btn-ghost" onclick="goTo(2)">← Back</button>
+      <button class="btn btn-primary" onclick="goTo(4)">Next: Contact →</button>
+    </div>
+  </div>
+
+  <!-- STEP 4: Contact -->
+  <div class="form-section" id="step4">
+    <div class="section-header">
+      <div class="section-label">Step 4 of 4</div>
+      <div class="section-title">Contact Information</div>
+      <div class="section-desc">Who should we reach out to? This will not be displayed publicly.</div>
+    </div>
+
+    <div class="info-box">
+      <strong>Privacy note:</strong> Your contact details are only shared internally with the CleantechHUB team.
+      Investors and partners connect via CleantechHUB — we'll never share your email publicly.
+    </div>
+
+    <div class="form-card">
+      <div class="card-section-title">Primary Contact</div>
+
+      <div class="field-row">
+        <div class="field">
+          <label for="contactName">Full Name <span class="req">*</span></label>
+          <input type="text" id="contactName" placeholder="e.g. María García" />
+          <div class="field-error" id="err-contactName">Please enter a contact name.</div>
+        </div>
+        <div class="field">
+          <label for="contactRole">Role / Title <span class="opt">(optional)</span></label>
+          <input type="text" id="contactRole" placeholder="e.g. Co-Founder &amp; CEO" />
+        </div>
+      </div>
+
+      <div class="field-row">
+        <div class="field">
+          <label for="contactEmail">Email Address <span class="req">*</span></label>
+          <input type="email" id="contactEmail" placeholder="you@yourcompany.com" />
+          <div class="field-error" id="err-contactEmail">Please enter a valid email address.</div>
+        </div>
+        <div class="field">
+          <label for="contactLinkedin">LinkedIn Profile <span class="opt">(optional)</span></label>
+          <input type="url" id="contactLinkedin" placeholder="https://linkedin.com/in/…" />
+        </div>
+      </div>
+    </div>
+
+    <div class="form-card">
+      <div class="card-section-title">Additional Notes <span style="font-weight:400;text-transform:none;letter-spacing:0;font-size:12px;color:#aaa;">(optional)</span></div>
+      <div class="field">
+        <label for="notes">Anything else you'd like us to know?</label>
+        <textarea id="notes" rows="3" placeholder="e.g. We're attending GreenBiz in June and would love a meeting. Or: We've partnered with X and would like that mentioned…" maxlength="400"></textarea>
+        <div class="char-counter" id="notesCount">0 / 400</div>
+      </div>
+    </div>
+
+    <div class="form-nav">
+      <button class="btn btn-ghost" onclick="goTo(3)">← Back</button>
+      <button class="btn btn-primary" onclick="goTo(5)">Review My Submission →</button>
+    </div>
+  </div>
+
+  <!-- STEP 5: Review -->
+  <div class="form-section" id="step5">
+    <div class="section-header">
+      <div class="section-label">Final Step</div>
+      <div class="section-title">Review &amp; Submit</div>
+      <div class="section-desc">Check everything looks right before we send your application to the CleantechHUB team.</div>
+    </div>
+
+    <div class="form-card">
+      <div class="card-section-title">Company <span class="edit-link" onclick="goTo(1)">Edit</span></div>
+      <div class="review-grid" id="reviewBasics"></div>
+    </div>
+
+    <div class="form-card">
+      <div class="card-section-title">Classification <span class="edit-link" onclick="goTo(2)">Edit</span></div>
+      <div class="review-grid" id="reviewClassification"></div>
+    </div>
+
+    <div class="form-card">
+      <div class="card-section-title">Story <span class="edit-link" onclick="goTo(3)">Edit</span></div>
+      <div class="review-grid" id="reviewStory"></div>
+    </div>
+
+    <div class="form-card">
+      <div class="card-section-title">Contact <span class="edit-link" onclick="goTo(4)">Edit</span></div>
+      <div class="review-grid" id="reviewContact"></div>
+    </div>
+
+    <div class="form-card" style="background:#edf7ea;border-color:var(--light-green);">
+      <div style="display:flex;align-items:flex-start;gap:14px;">
+        <div style="font-size:24px;flex-shrink:0;">✅</div>
+        <div>
+          <div style="font-weight:700;color:var(--deep-blue);margin-bottom:6px;">Ready to submit?</div>
+          <div style="font-size:13px;color:#555;line-height:1.65;">
+            By submitting, you confirm that the information above is accurate and you consent to CleantechHUB
+            featuring your startup on our Community Portfolio Dashboard. We'll review your application and
+            be in touch within 3–5 business days.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-nav">
+      <button class="btn btn-ghost" onclick="goTo(4)">← Back</button>
+      <button class="btn btn-submit" onclick="submitForm()">🚀 Submit Application</button>
+    </div>
+  </div>
+
+</div>
+
+<!-- ── Success ── -->
+<div class="form-wrap">
+  <div class="success-screen" id="successScreen">
+    <div class="success-icon">🌱</div>
+    <div class="success-title">Application received!</div>
+    <div class="success-desc">
+      Thank you for applying to the CleantechHUB Community Portfolio. Our team will review
+      your submission and reach out within 3–5 business days. We're excited to feature your
+      startup and connect you with our network.
+    </div>
+    <a href="https://cleantechhub.net/" class="btn btn-primary" style="display:inline-flex;align-items:center;gap:8px;text-decoration:none;">
+      🌍 Visit CleantechHUB
+    </a>
+  </div>
+</div>
+
+<script>
+// ── State ─────────────────────────────────────────────────────────────────────
+let currentStep = 1;
+const totalSteps = 4;
+
+// ── Navigation ────────────────────────────────────────────────────────────────
+function goTo(step) {
+  if (step > currentStep && !validateStep(currentStep)) return;
+
+  document.getElementById(`step${currentStep}`).classList.remove('active');
+  currentStep = step;
+  document.getElementById(`step${currentStep}`).classList.add('active');
+
+  // Update progress dots
+  document.querySelectorAll('.step-item').forEach(el => {
+    const s = parseInt(el.dataset.step);
+    el.classList.remove('active', 'done');
+    if (s === step) el.classList.add('active');
+    else if (s < step) el.classList.add('done');
+  });
+
+  // Populate review on step 5
+  if (step === 5) populateReview();
+
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// ── Validation ────────────────────────────────────────────────────────────────
+function showError(fieldId, errId, show) {
+  const f = document.getElementById(fieldId);
+  const e = document.getElementById(errId);
+  if (!f || !e) return;
+  if (show) { f.classList.add('error'); e.classList.add('visible'); }
+  else       { f.classList.remove('error'); e.classList.remove('visible'); }
+}
+
+function validateStep(step) {
+  let ok = true;
+
+  if (step === 1) {
+    const name = document.getElementById('companyName').value.trim();
+    showError('companyName', 'err-companyName', !name);
+    if (!name) ok = false;
+
+    const country = document.getElementById('country').value;
+    showError('country', 'err-country', !country);
+    if (!country) ok = false;
+  }
+
+  if (step === 2) {
+    const sector = document.querySelector('input[name="sector"]:checked');
+    const errSector = document.getElementById('err-sector');
+    if (!sector) { errSector.classList.add('visible'); ok = false; }
+    else { errSector.classList.remove('visible'); }
+
+    const stage = document.querySelector('input[name="stage"]:checked');
+    const errStage = document.getElementById('err-stage');
+    if (!stage) { errStage.classList.add('visible'); ok = false; }
+    else { errStage.classList.remove('visible'); }
+  }
+
+  if (step === 3) {
+    const about = document.getElementById('about').value.trim();
+    showError('about', 'err-about', about.length < 50);
+    if (about.length < 50) ok = false;
+  }
+
+  if (step === 4) {
+    const name = document.getElementById('contactName').value.trim();
+    showError('contactName', 'err-contactName', !name);
+    if (!name) ok = false;
+
+    const email = document.getElementById('contactEmail').value.trim();
+    const emailOk = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+    showError('contactEmail', 'err-contactEmail', !emailOk);
+    if (!emailOk) ok = false;
+  }
+
+  return ok;
+}
+
+// ── Radio pills ───────────────────────────────────────────────────────────────
+document.querySelectorAll('.radio-pill input[type="radio"]').forEach(radio => {
+  radio.addEventListener('change', () => {
+    document.querySelectorAll(`.radio-pill input[name="${radio.name}"]`).forEach(r => {
+      r.closest('.radio-pill').classList.toggle('selected', r.checked);
+    });
+  });
+});
+
+// ── Checkbox items ────────────────────────────────────────────────────────────
+document.querySelectorAll('.checkbox-item input[type="checkbox"]').forEach(cb => {
+  cb.addEventListener('change', () => {
+    cb.closest('.checkbox-item').classList.toggle('checked', cb.checked);
+  });
+});
+
+// ── Char counters ─────────────────────────────────────────────────────────────
+function setupCounter(inputId, counterId, max) {
+  const el = document.getElementById(inputId);
+  const counter = document.getElementById(counterId);
+  if (!el || !counter) return;
+  el.addEventListener('input', () => {
+    const len = el.value.length;
+    counter.textContent = `${len} / ${max}`;
+    counter.classList.toggle('warn', len > max * 0.85 && len <= max);
+    counter.classList.toggle('over', len > max);
+  });
+}
+setupCounter('tagline', 'taglineCount', 120);
+setupCounter('about', 'aboutCount', 600);
+setupCounter('traction', 'tractionCount', 300);
+setupCounter('notes', 'notesCount', 400);
+
+// ── Logo upload ───────────────────────────────────────────────────────────────
+const logoFile = document.getElementById('logoFile');
+const logoDropzone = document.getElementById('logoDropzone');
+const logoPreview = document.getElementById('logoPreview');
+const logoPreviewImg = document.getElementById('logoPreviewImg');
+const logoPreviewName = document.getElementById('logoPreviewName');
+const logoRemove = document.getElementById('logoRemove');
+
+logoFile.addEventListener('change', handleLogoFile);
+
+['dragenter','dragover'].forEach(e => {
+  logoDropzone.addEventListener(e, ev => { ev.preventDefault(); logoDropzone.classList.add('dragover'); });
+});
+['dragleave','drop'].forEach(e => {
+  logoDropzone.addEventListener(e, ev => {
+    ev.preventDefault();
+    logoDropzone.classList.remove('dragover');
+    if (e === 'drop' && ev.dataTransfer.files[0]) {
+      logoFile.files = ev.dataTransfer.files;
+      handleLogoFile();
+    }
+  });
+});
+
+function handleLogoFile() {
+  const file = logoFile.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = e => {
+    logoPreviewImg.src = e.target.result;
+    logoPreviewName.textContent = file.name;
+    logoDropzone.style.display = 'none';
+    logoPreview.classList.add('visible');
+  };
+  reader.readAsDataURL(file);
+}
+
+logoRemove.addEventListener('click', () => {
+  logoFile.value = '';
+  logoPreview.classList.remove('visible');
+  logoDropzone.style.display = '';
+  logoPreviewImg.src = '';
+});
+
+// ── Review population ─────────────────────────────────────────────────────────
+function val(id) { const el = document.getElementById(id); return el ? el.value.trim() : ''; }
+
+function renderReviewItems(containerId, items) {
+  const el = document.getElementById(containerId);
+  if (!el) return;
+  el.innerHTML = items.map(([label, value]) => {
+    if (!value) return '';
+    const isFullWidth = label === 'About' || label === 'Traction' || label === 'Notes';
+    return `<div class="review-item${isFullWidth ? ' review-desc' : ''}">
+      <div class="review-label">${label}</div>
+      <div class="${isFullWidth ? 'modal-desc' : 'review-value'}">${value || '—'}</div>
+    </div>`;
+  }).filter(Boolean).join('');
+}
+
+function populateReview() {
+  const sector = document.querySelector('input[name="sector"]:checked');
+  const stage  = document.querySelector('input[name="stage"]:checked');
+  const sdgs   = [...document.querySelectorAll('#sdgGrid input:checked')].map(c => c.value).join(', ');
+
+  renderReviewItems('reviewBasics', [
+    ['Company Name', val('companyName')],
+    ['Website', val('website')],
+    ['Country', val('country')],
+    ['City', val('city')],
+    ['Founded', val('foundedYear')],
+    ['Team Size', val('teamSize')],
+  ]);
+
+  renderReviewItems('reviewClassification', [
+    ['Sector', sector ? sector.value : '—'],
+    ['Stage', stage ? stage.value : '—'],
+    ['Programme', val('programme')],
+    ['SDGs', sdgs || 'Not specified'],
+  ]);
+
+  renderReviewItems('reviewStory', [
+    ['Tagline', val('tagline')],
+    ['About', val('about')],
+    ['Traction', val('traction')],
+    ['Funding Needs', val('fundingNeeds')],
+    ['LinkedIn Company', val('linkedinCompany')],
+    ['Instagram', val('instagram')],
+  ]);
+
+  renderReviewItems('reviewContact', [
+    ['Contact Name', val('contactName')],
+    ['Role', val('contactRole')],
+    ['Email', val('contactEmail')],
+    ['LinkedIn Profile', val('contactLinkedin')],
+    ['Notes', val('notes')],
+  ]);
+}
+
+// ── Submit ────────────────────────────────────────────────────────────────────
+// Paste your deployed Apps Script Web App URL below (see startup-form-apps-script.js for instructions)
+const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxXKRxollGJ0pWQNBdy8bI9ePRUFgZ8IX8f_L0I1NwjbPGtVPE4LssiUCbrPGO9Wmms7g/exec';
+
+async function submitForm() {
+  const btn = document.querySelector('.btn-submit');
+  btn.textContent = '⏳ Sending…';
+  btn.disabled = true;
+
+  // Gather all form values
+  const sector   = document.querySelector('input[name="sector"]:checked');
+  const stage    = document.querySelector('input[name="stage"]:checked');
+  const sdgs     = [...document.querySelectorAll('#sdgGrid input:checked')].map(c => c.value).join(', ');
+
+  const payload = {
+    companyName:     val('companyName'),
+    website:         val('website'),
+    country:         val('country'),
+    city:            val('city'),
+    foundedYear:     val('foundedYear'),
+    teamSize:        val('teamSize'),
+    sector:          sector ? sector.value : '',
+    stage:           stage  ? stage.value  : '',
+    programme:       val('programme'),
+    sdgs:            sdgs,
+    tagline:         val('tagline'),
+    about:           val('about'),
+    traction:        val('traction'),
+    fundingNeeds:    val('fundingNeeds'),
+    linkedinCompany: val('linkedinCompany'),
+    instagram:       val('instagram'),
+    contactName:     val('contactName'),
+    contactRole:     val('contactRole'),
+    contactEmail:    val('contactEmail'),
+    contactLinkedin: val('contactLinkedin'),
+    notes:           val('notes'),
+  };
+
+  try {
+    // Apps Script requires no-cors mode; it always returns opaque response
+    await fetch(APPS_SCRIPT_URL, {
+      method: 'POST',
+      mode: 'no-cors',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+
+    // Show success (fetch with no-cors returns opaque — we assume success if no throw)
+    showSuccess();
+
+  } catch (err) {
+    btn.textContent = '🚀 Submit Application';
+    btn.disabled = false;
+    alert('Something went wrong sending your application. Please try again or email us directly at gideon.blaauw@cleantechhub.net');
+    console.error(err);
+  }
+}
+
+function showSuccess() {
+  document.getElementById('mainForm').style.display = 'none';
+  document.getElementById('successScreen').classList.add('visible');
+  document.querySelector('.progress-wrap').style.display = 'none';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
+</body>
+</html>
