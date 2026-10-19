@@ -83,6 +83,13 @@ nexus.cleantechhub.net {
 		file_server
 		try_files {path} {path}/index.html
 	}
+	# REIN Hubs (static at /opt/cth-nexus/static/hubs)
+	handle /hubs* {
+		header Cache-Control "no-cache, must-revalidate"
+		root * /opt/cth-nexus/static
+		file_server
+		try_files {path} {path}/index.html
+	}
 	redir /p/mentors /mentor-directory 301
 	# Idea Browser (Next.js app embedded as HumHub widget)
 	handle /ideas* {
