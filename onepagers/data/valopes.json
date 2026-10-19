@@ -4,8 +4,8 @@
   "website": "https://www.valopes.com",
   "badge_en": "Circular &middot; CLAC22 &middot; Acceleration",
   "badge_es": "Circular &middot; CLAC22 &middot; Acceleration",
-  "hero_image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
-  "cta_bg": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&q=80",
+  "hero_image": "https://images.unsplash.com/photo-1556761175?w=1200&q=80",
+  "cta_bg": "https://images.unsplash.com/photo-1610813673314-1a6a2a2649ea?w=1200&q=80",
   "hero_sub_en": "valopes.com &middot; Colombia &middot; Bogota &middot; Circular Economy &middot; Stage: Seed",
   "hero_sub_es": "valopes.com &middot; Colombia &middot; Bogota &middot; Economia Circular &middot; Etapa: Seed",
   "pitch_en": "Cloud-based waste traceability platform helping companies in Colombia, Chile, and Mexico digitize waste streams and automate regulatory compliance reporting.",
@@ -81,7 +81,7 @@
       "head_es": "Operadores industriales luchan por centralizar datos de agua, energia, residuos y emisiones para cumplimiento y decisiones operativas.",
       "body_en": "Industrial operators struggle to centralize water, energy, waste, and emissions data for compliance and operational decisions.",
       "body_es": "Operadores industriales luchan por centralizar datos de agua, energia, residuos y emisiones para cumplimiento y decisiones operativas.",
-      "bg": "https://images.unsplash.com/photo-1532996122724-e3c031a396bf?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1586528116311?w=1200&q=80"
     },
     {
       "num": 2,
@@ -112,7 +112,7 @@
           "text_es": "Colombia, Chile y Mexico; sitio publico: valopes.com. Presencia: Bogota."
         }
       ],
-      "bg": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1565793298595?w=1200&q=80"
     },
     {
       "num": 3,
@@ -159,5 +159,7 @@
       "dream_es": "Programa: CLAC22 + Acceleration CTH. Ciudad: Bogota. KPIs verificados en perfil: [PENDIENTE]. Creditos imagen: Fotos de seccion: Unsplash (datos industriales, residuos, sostenibilidad).",
       "bg": "https://images.unsplash.com/photo-1556761175-b413da4d2af6?w=1200&q=80"
     }
-  ]
+  ],
+  "image_credits_en": " Replacement photo: Unsplash — CHUTTERSNAP. Section photo: Unsplash — Unsplash contributor. Section photo: Unsplash — Unsplash contributor. Replacement photo: Unsplash — Unsplash contributor.",
+  "image_credits_es": " Foto de reemplazo: Unsplash — CHUTTERSNAP. Foto de sección: Unsplash — Unsplash contributor. Foto de sección: Unsplash — Unsplash contributor. Foto de reemplazo: Unsplash — Unsplash contributor."
 }

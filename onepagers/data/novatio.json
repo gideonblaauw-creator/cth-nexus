@@ -13,7 +13,7 @@
   "cta_pitch_es": "Proyectos de metanización integrales: diseño, construcción, operación y cumplimiento para valorización de residuos orgánicos.",
   "cta_btn_en": "Visit website",
   "cta_btn_es": "Visitar sitio",
-  "cta_bg": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80",
+  "cta_bg": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=1200&q=80",
   "ribbon": [
     {
       "val": "CO",
@@ -168,5 +168,7 @@
       "dream_es": "Cifras de impacto en reportes BIC: no duplicadas aquí sin verificación de deck. Pitch deck: [PENDIENTE]. Image credits — Hero: novatio.com.co — Energía que transforma (project photo); §01: novatio.com.co — oil-palm effluent / biogas context; §02: novatio.com.co — swine farming biodigester application; §03: novatio.com.co — community impact programs; §04: novatio.com.co — cross-sector project mirror; CTA: Unsplash (photo-1460925895917) — business / project analytics.",
       "bg": "https://novatio.com.co/wp-content/uploads/2022/08/espejo-otros-sectores.jpg"
     }
-  ]
+  ],
+  "image_credits_en": " Replacement photo: Unsplash — Unsplash contributor.",
+  "image_credits_es": " Foto de reemplazo: Unsplash — Unsplash contributor."
 }

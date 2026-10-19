@@ -22,7 +22,7 @@
       "sub_es": "Ecuador"
     },
     {
-      "val": "PENDIENTE",
+      "val": "[PENDIENTE",
       "lab_en": "Stage",
       "lab_es": "Etapa",
       "sub_en": "Accel 2024",
@@ -80,7 +80,7 @@
       "head_es": "Los residuos agrícolas y forestales a menudo se queman o se degradan liberando emisiones, mientras comunidades rurales carecen de calor limpio y vías de remoción de carbono duraderas.",
       "body_en": "Agricultural and forestry residues are often burned or left to decay, releasing emissions while rural communities lack clean process heat and durable carbon removal pathways.",
       "body_es": "Los residuos agrícolas y forestales a menudo se queman o se degradan liberando emisiones, mientras comunidades rurales carecen de calor limpio y vías de remoción de carbono duraderas.",
-      "bg": "https://www.atmosfair.de/wp-content/uploads/pflanzenkohle-ecuador-1-1024x788.jpg"
+      "bg": "https://nina.energy/wp-content/uploads/2026/07/Captura-de-pantalla-2025-11-19-161104.png"
     },
     {
       "num": 2,
@@ -111,7 +111,7 @@
           "text_es": "Con base en Ecuador (operaciones Quito / Cotopaxi). Sitio público: nina.energy."
         }
       ],
-      "bg": "https://nina.energy/wp-content/uploads/2026/09/equipo-de-planta.webp"
+      "bg": "https://images.unsplash.com/photo-1470071459604-3b5ec3a8fe05?w=1200&q=80"
     },
     {
       "num": 3,
@@ -135,7 +135,7 @@
           "text_es": "Biomasa y Biogás (taxonomía pendiente sync)"
         }
       ],
-      "bg": "https://www.atmosfair.de/wp-content/uploads/pflanzenkohle-ecuador-3-1024x683.jpg"
+      "bg": "https://images.unsplash.com/photo-1470071459604-3b5ec3a8fe05?w=1200&q=80"
     },
     {
       "num": 4,
@@ -165,8 +165,9 @@
       ],
       "dream_en": "Program: CleantechHUB 2024 Acceleration. City HQ: Quito [PENDIENTE formal sync]. CT taxonomy: [PENDIENTE]. Verified KPIs: [PENDIENTE].",
       "dream_es": "Programa: Aceleración CleantechHUB 2024. Ciudad sede: Quito [PENDIENTE sync formal]. Taxonomía CT: [PENDIENTE]. KPIs verificados: [PENDIENTE].",
-      "bg": "https://nina.energy/wp-content/uploads/2026/07/Empowerment.webp"
+      "bg": "https://images.unsplash.com/photo-1488190211105-38b0de8150a3?w=1200&q=80"
     }
   ],
-  "cta_bg": "https://images.unsplash.com/photo-1625246333195-78d9c090ad85?w=1200&q=80"
+  "image_credits_en": " Section photo: Unsplash — Unsplash contributor.",
+  "image_credits_es": " Foto de sección: Unsplash — Unsplash contributor."
 }

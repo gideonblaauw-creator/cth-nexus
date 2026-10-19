@@ -4,7 +4,7 @@
   "website": "https://nuevastecnologias.com.co/",
   "badge_en": "Waterless Cleaning &middot; CLAC22",
   "badge_es": "Limpieza sin Agua &middot; CLAC22",
-  "hero_image": "https://nuevastecnologias.com.co/wp-content/uploads/2021/09/limpieza-sin-agua-factor-de-eficiencia-y-econ.jpg",
+  "hero_image": "https://images.unsplash.com/photo-1548839140-5a941f234e64?w=1200&q=80",
   "hero_sub_en": "nuevastecnologias.com.co &middot; Colombia &middot; Bogotá &middot; Circular Economy &middot; Stage: Seed",
   "hero_sub_es": "nuevastecnologias.com.co &middot; Colombia &middot; Bogotá &middot; Economía Circular &middot; Etapa: Seed",
   "pitch_en": "Develops nanostructured, rinse-free cleaning products using patented hyperdegradation chemistry that significantly reduces water consumption across industrial and consumer applications.",
@@ -80,7 +80,7 @@
       "head_es": "Los procesos de limpieza industrial y doméstica consumen grandes volúmenes de agua y generan efluentes contaminados, mientras las industrias enfrentan presión por reducir impacto ambiental.",
       "body_en": "Industrial and consumer cleaning processes consume large volumes of water and generate contaminated effluents, while industries face pressure to reduce environmental impact.",
       "body_es": "Los procesos de limpieza industrial y doméstica consumen grandes volúmenes de agua y generan efluentes contaminados, mientras las industrias enfrentan presión por reducir impacto ambiental.",
-      "bg": "https://nuevastecnologias.com.co/wp-content/uploads/2021/09/importancia-de-las-operaciones-en-limpieza-li.jpg"
+      "bg": "https://images.unsplash.com/photo-1548839140-5a941f234e64?w=1200&q=80"
     },
     {
       "num": 2,
@@ -111,7 +111,7 @@
           "text_es": "Con base en Bogotá, Colombia. Sitio público: nuevastecnologias.com.co."
         }
       ],
-      "bg": "https://nuevastecnologias.com.co/wp-content/uploads/2022/05/Experiencia-en-ExpoBIC-2022-2.png"
+      "bg": "https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?w=1200&q=80"
     },
     {
       "num": 3,
@@ -135,7 +135,7 @@
           "text_es": "CT-WA-004 · Responsabilidad Extendida del Productor"
         }
       ],
-      "bg": "https://nuevastecnologias.com.co/wp-content/uploads/2022/09/13.png"
+      "bg": "https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?w=1200&q=80"
     },
     {
       "num": 4,
@@ -156,8 +156,9 @@
       ],
       "dream_en": "Program: CLAC22 · Acceleration. Legal form: SAS BIC. Verified KPIs: [PENDIENTE]. Pitch deck on profile: [PENDIENTE].",
       "dream_es": "Programa: CLAC22 · Aceleración. Forma jurídica: SAS BIC. KPIs verificados: [PENDIENTE]. Pitch deck en perfil: [PENDIENTE].",
-      "bg": "https://images.unsplash.com/photo-1414488185695-8a134cb87690?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1511927071968-6c06b314579a?w=1200&q=80"
     }
   ],
-  "cta_bg": "https://images.unsplash.com/photo-1548839140-5a941f234e64?w=1200&q=80"
+  "image_credits_en": " Section photo: Unsplash — Unsplash contributor. Section photo: Unsplash — Unsplash contributor. Section photo: Unsplash — Unsplash contributor.",
+  "image_credits_es": " Foto de sección: Unsplash — Unsplash contributor. Foto de sección: Unsplash — Unsplash contributor. Foto de sección: Unsplash — Unsplash contributor."
 }

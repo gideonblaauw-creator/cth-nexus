@@ -78,7 +78,7 @@
       "head_es": "Los equipos industriales carecen de capacitaci&oacute;n escalable y pr&aacute;ctica ligada a procesos reales de producci&oacute;n y calidad.",
       "body_en": "Organizations struggle to translate training into measurable productivity gains, especially for technical and operational roles across Latin America.",
       "body_es": "Las organizaciones luchan por traducir la capacitaci&oacute;n en ganancias de productividad medibles, especialmente en roles t&eacute;cnicos y operativos en Latinoam&eacute;rica.",
-      "bg": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1460925895917?w=1200&q=80"
     },
     {
       "num": 2,
@@ -175,8 +175,8 @@
           "linkedin": "https://www.linkedin.com/in/marco-vilchis"
         }
       ],
-      "dream_en": "CT taxonomy: [PENDIENTE]. City/HQ detail: [PENDIENTE]. Verified KPIs: [PENDIENTE]. Image credits: hero: Unsplash — Christopher Gower (online learning / laptop); section_01_problem: Unsplash — Campaign Creators (workplace collaboration); section_02_solution: Unsplash — Alexis Brown (team learning); section_03_impact: Unsplash — Element5 Digital (education materials); section_04_leadership: Unsplash — Christina @ wocintechchat.com (team); cta: Unsplash — Thought Catalog (remote learning desk)",
-      "dream_es": "Taxonom&iacute;a CT: [PENDIENTE]. Ciudad/sede: [PENDIENTE]. KPIs verificados: [PENDIENTE]. Créditos de imagen: hero: Unsplash — Christopher Gower (online learning / laptop); section_01_problem: Unsplash — Campaign Creators (workplace collaboration); section_02_solution: Unsplash — Alexis Brown (team learning); section_03_impact: Unsplash — Element5 Digital (education materials); section_04_leadership: Unsplash — Christina @ wocintechchat.com (team); cta: Unsplash — Thought Catalog (remote learning desk)",
+      "dream_en": "CT taxonomy: [PENDIENTE]. City/HQ detail: [PENDIENTE]. Verified KPIs: [PENDIENTE]. Image credits: hero: Unsplash — Christopher Gower (online learning / laptop); section_01_problem: Unsplash — Campaign Creators (workplace collaboration); section_02_solution: Unsplash — Alexis Brown (team learning); section_03_impact: Unsplash — Element5 Digital (education materials); section_04_leadership: Unsplash — Christina @ wocintechchat.com (team); cta: Unsplash — Thought Catalog (remote learning desk) Image credits: hero: Unsplash — Christopher Gower (online learning / laptop); section_01_problem: Unsplash — Campaign Creators (workplace collaboration); section_02_solution: Unsplash — Alexis Brown (team learning); section_03_impact: Unsplash — Element5 Digital (education materials); section_04_leadership: Unsplash — Christina @ wocintechchat.com (team); cta: Unsplash — Thought Catalog (remote learning desk)",
+      "dream_es": "Taxonom&iacute;a CT: [PENDIENTE]. Ciudad/sede: [PENDIENTE]. KPIs verificados: [PENDIENTE]. Créditos de imagen: hero: Unsplash — Christopher Gower (online learning / laptop); section_01_problem: Unsplash — Campaign Creators (workplace collaboration); section_02_solution: Unsplash — Alexis Brown (team learning); section_03_impact: Unsplash — Element5 Digital (education materials); section_04_leadership: Unsplash — Christina @ wocintechchat.com (team); cta: Unsplash — Thought Catalog (remote learning desk) Créditos de imagen: hero: Unsplash — Christopher Gower (online learning / laptop); section_01_problem: Unsplash — Campaign Creators (workplace collaboration); section_02_solution: Unsplash — Alexis Brown (team learning); section_03_impact: Unsplash — Element5 Digital (education materials); section_04_leadership: Unsplash — Christina @ wocintechchat.com (team); cta: Unsplash — Thought Catalog (remote learning desk)",
       "bg": "https://images.unsplash.com/photo-1573167243312-0368182c8f49?w=1200&q=80"
     }
   ],
@@ -188,5 +188,7 @@
     "section_03_impact": "Unsplash — Element5 Digital (education materials)",
     "section_04_leadership": "Unsplash — Christina @ wocintechchat.com (team)",
     "cta": "Unsplash — Thought Catalog (remote learning desk)"
-  }
+  },
+  "image_credits_en": " Section photo: Unsplash — Unsplash contributor.",
+  "image_credits_es": " Foto de sección: Unsplash — Unsplash contributor."
 }

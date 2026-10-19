@@ -323,8 +323,12 @@ def main() -> None:
     only = sys.argv[1:] if len(sys.argv) > 1 else None
     for json_path in sorted(DATA_DIR.glob("*.json")):
         data = json.loads(json_path.read_text())
-        slug = data["slug"]
+        slug = data.get("slug")
+        if not slug:
+            continue
         if only and slug not in only:
+            continue
+        if "sections" not in data:
             continue
         html = build_page(data)
         pdf_src_name = (data.get("deck_pdf") or {}).get("source_file")
@@ -343,7 +347,11 @@ def main() -> None:
                 dest_assets = base / "assets"
                 if dest_assets.exists():
                     shutil.rmtree(dest_assets)
-                shutil.copytree(media_src, dest_assets, dirs_exist_ok=False)
+                inner = media_src / "assets"
+                if inner.is_dir():
+                    shutil.copytree(inner, dest_assets, dirs_exist_ok=False)
+                else:
+                    shutil.copytree(media_src, dest_assets, dirs_exist_ok=False)
             if pdf_src_name:
                 src_pdf = DECK_SOURCE / pdf_src_name
                 if src_pdf.is_file():

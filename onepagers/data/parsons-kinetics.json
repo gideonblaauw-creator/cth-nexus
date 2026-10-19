@@ -80,7 +80,7 @@
       "head_es": "Las turbinas eólicas pequeñas convencionales rinden poco a velocidades moderadas (4–7 m/s), dejando a la mayoría de sitios industriales y rurales sin generación eólica distribuida viable.",
       "body_en": "Conventional small wind turbines underperform at moderate wind speeds (4–7 m/s), leaving most industrial and rural sites without viable distributed wind generation.",
       "body_es": "Las turbinas eólicas pequeñas convencionales rinden poco a velocidades moderadas (4–7 m/s), dejando a la mayoría de sitios industriales y rurales sin generación eólica distribuida viable.",
-      "bg": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1466611653911-950815379e64?w=1200&q=80"
     },
     {
       "num": 2,
@@ -111,7 +111,7 @@
           "text_es": "Con base en Colombia. Sitio público: parsonskinetics.com."
         }
       ],
-      "bg": "https://images.unsplash.com/photo-1532601228822-81f4c2d80a70?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200&q=80"
     },
     {
       "num": 3,
@@ -135,7 +135,7 @@
           "text_es": "CT-EN-002 · Energía Eólica"
         }
       ],
-      "bg": "https://images.unsplash.com/photo-1494947667167-47d25882a46e?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200&q=80"
     },
     {
       "num": 4,
@@ -164,8 +164,9 @@
       ],
       "dream_en": "Program: CLAC24 · Acceleration. City: [PENDIENTE]. Verified KPIs: [PENDIENTE] (public marketing claims on website not copied). Pitch deck: [PENDIENTE].",
       "dream_es": "Programa: CLAC24 · Aceleración. Ciudad: [PENDIENTE]. KPIs verificados: [PENDIENTE] (cifras de marketing del sitio no copiadas). Pitch deck: [PENDIENTE].",
-      "bg": "https://images.unsplash.com/photo-1518437705982-4649c2d4e0c3?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=1200&q=80"
     }
   ],
-  "cta_bg": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1200&q=80"
+  "image_credits_en": " Section photo: Unsplash — Unsplash contributor. Section photo: Unsplash — Unsplash contributor. Section photo: Unsplash — Unsplash contributor.",
+  "image_credits_es": " Foto de sección: Unsplash — Unsplash contributor. Foto de sección: Unsplash — Unsplash contributor. Foto de sección: Unsplash — Unsplash contributor."
 }

@@ -4,7 +4,7 @@
   "website": "https://oasisgroup.online/",
   "badge_en": "Electric Mobility &middot; CLP",
   "badge_es": "Movilidad Eléctrica &middot; CLP",
-  "hero_image": "https://oasisgroup.online/wp-content/uploads/2025/07/Imagenes-WebVertical_Mesa-de-trabajo-1-07.jpg",
+  "hero_image": "https://oasisgroup.online/wp-content/uploads/2025/06/Formulario-Nuevos-Usuarios-02.jpg",
   "hero_sub_en": "oasisgroup.online &middot; Colombia &middot; Medellín &middot; Energy &middot; Stage: Seed",
   "hero_sub_es": "oasisgroup.online &middot; Colombia &middot; Medellín &middot; Energía &middot; Etapa: Seed",
   "pitch_en": "Medellín startup promoting electric mobility through innovative charging infrastructure and technology for cleaner urban and peri-urban transportation.",
@@ -111,7 +111,7 @@
           "text_es": "Con base en Medellín, Colombia. Sitio público: oasisgroup.online."
         }
       ],
-      "bg": "https://oasisgroup.online/wp-content/uploads/2026/01/3-01-2.jpg"
+      "bg": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&q=80"
     },
     {
       "num": 3,
@@ -135,7 +135,7 @@
           "text_es": "CT-TR-001 · Vehículos Eléctricos"
         }
       ],
-      "bg": "https://images.unsplash.com/photo-1593941707882-a5bba14938bc?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&q=80"
     },
     {
       "num": 4,
@@ -165,8 +165,9 @@
       ],
       "dream_en": "Program: CLP · Acceleration (sheet). Verified KPIs: [PENDIENTE]. Pitch deck on profile: [PENDIENTE].",
       "dream_es": "Programa: CLP · Aceleración (sheet). KPIs verificados: [PENDIENTE]. Pitch deck en perfil: [PENDIENTE].",
-      "bg": "https://images.unsplash.com/photo-1619642756324-2d4aa2c39736?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80"
     }
   ],
-  "cta_bg": "https://oasisgroup.online/wp-content/uploads/2025/07/ImganesOasisConnect_Mesa-de-trabajo-1-03.png"
+  "image_credits_en": " Section photo: Unsplash — Unsplash contributor. Section photo: Unsplash — Unsplash contributor. Section photo: Unsplash — Unsplash contributor.",
+  "image_credits_es": " Foto de sección: Unsplash — Unsplash contributor. Foto de sección: Unsplash — Unsplash contributor. Foto de sección: Unsplash — Unsplash contributor."
 }

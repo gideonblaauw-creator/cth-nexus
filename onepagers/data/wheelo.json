@@ -4,8 +4,8 @@
   "website": "#",
   "badge_en": "Cleantech Ecosystem &middot; Acceleration",
   "badge_es": "Ecosistema Cleantech &middot; Acceleration",
-  "hero_image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&q=80",
-  "cta_bg": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80",
+  "hero_image": "https://images.unsplash.com/photo-1593941707882-a5bba14938bc?w=1200&q=80",
+  "cta_bg": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=1200&q=80",
   "hero_sub_en": "[PENDIENTE] &middot; Colombia &middot; Medellin &middot; Cleantech &middot; Stage: [PENDIENTE]",
   "hero_sub_es": "[PENDIENTE] &middot; Colombia &middot; Medellin &middot; Cleantech &middot; Etapa: [PENDIENTE]",
   "pitch_en": "Sustainability cloud platform mapping and segmenting CleanTech, ClimateTech, and DeepTech startups across circular economy, mobility, and green energy themes.",
@@ -81,7 +81,7 @@
       "head_es": "Fundadores, corporativos e inversionistas carecen de un mapa estructurado de startups climaticas y segmentos en America Latina.",
       "body_en": "Founders, corporates, and investors lack a structured map of climate startups and segments across Latin America.",
       "body_es": "Fundadores, corporativos e inversionistas carecen de un mapa estructurado de startups climaticas y segmentos en America Latina.",
-      "bg": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1504384308090?w=1200&q=80"
     },
     {
       "num": 2,
@@ -112,7 +112,7 @@
           "text_es": "Con base en Medellin, Antioquia. Sitio web publico verificado: [PENDIENTE]."
         }
       ],
-      "bg": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1625246333195-78d9c090ad85?w=1200&q=80"
     },
     {
       "num": 3,
@@ -159,5 +159,7 @@
       "dream_es": "Programa: Acceleration CTH. Ciudad: Medellin. Sitio web: [PENDIENTE]. Taxonomia CT: [PENDIENTE]. KPIs verificados: [PENDIENTE]. Creditos imagen: Fotos de seccion: Unsplash (ecosistema cleantech / negocio verde). Sitio web verificado: [PENDIENTE].",
       "bg": "https://images.unsplash.com/photo-1600880292203-75762f0790e8?w=1200&q=80"
     }
-  ]
+  ],
+  "image_credits_en": " Replacement photo: Unsplash — Kaleidico. Replacement photo: Unsplash — Unsplash contributor. Section photo: Unsplash — Unsplash contributor. Section photo: Unsplash — Unsplash contributor.",
+  "image_credits_es": " Foto de reemplazo: Unsplash — Kaleidico. Foto de reemplazo: Unsplash — Unsplash contributor. Foto de sección: Unsplash — Unsplash contributor. Foto de sección: Unsplash — Unsplash contributor."
 }

@@ -4,7 +4,7 @@
   "website": "https://mubon.co/",
   "badge_en": "Electric Mobility &middot; CLAC24 &middot; Growth + Acceleration",
   "badge_es": "Movilidad eléctrica &middot; CLAC24 &middot; Growth + Aceleración",
-  "hero_image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=1200&q=80",
+  "hero_image": "https://images.unsplash.com/photo-1573164713714?w=1200&q=80",
   "hero_sub_en": "mubon.co &middot; Cali, Colombia &middot; Seed &middot; CT-TR-001 &middot; CT-IC-005",
   "hero_sub_es": "mubon.co &middot; Cali, Colombia &middot; Seed &middot; CT-TR-001 &middot; CT-IC-005",
   "pitch_en": "Colombian-made EV charging hardware and smart management platform for shared charging in residential and commercial spaces — expanding electric mobility infrastructure.",
@@ -112,7 +112,7 @@
           "text_es": "Proyectos llave en mano para empresas, retail y aliados estratégicos en Colombia y región."
         }
       ],
-      "bg": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1486406146928?w=1200&q=80"
     },
     {
       "num": 3,
@@ -168,5 +168,7 @@
       "dream_es": "Nodo CT secundario: CT-IC-005. Métricas de terceros (p. ej. posts sociales): no listadas como KPIs verificados. Pitch deck: [PENDIENTE]. Image credits — Hero: Unsplash (photo-1542601906990) — clean air / urban mobility context; §01: Unsplash (photo-1470071459604) — mountain road infrastructure; §02: Unsplash (photo-1551288049) — analytics dashboard (smart platform); §03: Unsplash (photo-1518770660439) — technology / circuits; §04: Unsplash (photo-1521791136064) — partnership / deployment; CTA: Unsplash (photo-1529156069898) — team collaboration.",
       "bg": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80"
     }
-  ]
+  ],
+  "image_credits_en": " Replacement photo: Unsplash — Unsplash contributor. Section photo: Unsplash — Unsplash contributor.",
+  "image_credits_es": " Foto de reemplazo: Unsplash — Unsplash contributor. Foto de sección: Unsplash — Unsplash contributor."
 }

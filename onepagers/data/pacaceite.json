@@ -4,7 +4,7 @@
   "website": "#",
   "badge_en": "Circular Bio-waste &middot; CLAC25",
   "badge_es": "Residuos Circulares &middot; CLAC25",
-  "hero_image": "https://images.unsplash.com/photo-1615819905686-2a6476a0b1c5?w=1200&q=80",
+  "hero_image": "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=1200&q=80",
   "hero_sub_en": "Fundación, Magdalena &middot; Colombia &middot; Bioeconomy &middot; Stage: Pre-Seed",
   "hero_sub_es": "Fundación, Magdalena &middot; Colombia &middot; Bioeconomía &middot; Etapa: Pre-Seed",
   "pitch_en": "Develops sustainable bio-based products from vegetable oil or biomass inputs, targeting agricultural value chain transformation and bioenergy solutions in Colombia.",
@@ -80,7 +80,7 @@
       "head_es": "El aceite de cocina usado y flujos de residuos orgánicos relacionados a menudo se disponen inadecuadamente, contaminando suelos y agua mientras se pierde valor circular.",
       "body_en": "Used cooking oil and related organic waste streams are often disposed of improperly, contaminating soils and water while losing circular value.",
       "body_es": "El aceite de cocina usado y flujos de residuos orgánicos relacionados a menudo se disponen inadecuadamente, contaminando suelos y agua mientras se pierde valor circular.",
-      "bg": "https://images.unsplash.com/photo-1532996122724-e3c031a396bf?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=1200&q=80"
     },
     {
       "num": 2,
@@ -111,7 +111,7 @@
           "text_es": "Con base en Fundación, Magdalena, Colombia. Sitio web verificado: [PENDIENTE]."
         }
       ],
-      "bg": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1560807707-8cc77767d783?w=1200&q=80"
     },
     {
       "num": 3,
@@ -135,7 +135,7 @@
           "text_es": "Valorización circular de aceite de cocina (nodo CT pendiente sync)"
         }
       ],
-      "bg": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1560807707-8cc77767d783?w=1200&q=80"
     },
     {
       "num": 4,
@@ -156,8 +156,9 @@
       ],
       "dream_en": "Program: CLAC25 · Acceleration. CT taxonomy: [PENDIENTE]. Verified website: [PENDIENTE]. Verified KPIs: [PENDIENTE].",
       "dream_es": "Programa: CLAC25 · Aceleración. Taxonomía CT: [PENDIENTE]. Sitio web verificado: [PENDIENTE]. KPIs verificados: [PENDIENTE].",
-      "bg": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1200&q=80"
     }
   ],
-  "cta_bg": "https://images.unsplash.com/photo-1618477388954-7852f725647a?w=1200&q=80"
+  "image_credits_en": " Section photo: Unsplash — Unsplash contributor. Section photo: Unsplash — Unsplash contributor. Section photo: Unsplash — Unsplash contributor. Replacement photo: Unsplash — Unsplash contributor. Section photo: Unsplash — Unsplash contributor.",
+  "image_credits_es": " Foto de sección: Unsplash — Unsplash contributor. Foto de sección: Unsplash — Unsplash contributor. Foto de sección: Unsplash — Unsplash contributor. Foto de reemplazo: Unsplash — Unsplash contributor. Foto de sección: Unsplash — Unsplash contributor."
 }

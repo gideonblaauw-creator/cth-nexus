@@ -4,7 +4,7 @@
   "website": "https://gna.com.co",
   "badge_en": "Organic Waste &amp; Compost &middot; CLAC23",
   "badge_es": "Residuos Org&aacute;nicos y Compost &middot; CLAC23",
-  "hero_image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1200&q=80",
+  "hero_image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1200&q=80",
   "hero_sub_en": "gna.com.co &middot; Floridablanca, Colombia &middot; Circular Economy &middot; Stage: Seed",
   "hero_sub_es": "gna.com.co &middot; Floridablanca, Colombia &middot; Econom&iacute;a Circular &middot; Etapa: Seed",
   "pitch_en": "Collects vegetable, fruit, and pruning organic waste from urban sources via special routes, converting it into quality compost returned to agricultural land.",
@@ -135,7 +135,7 @@
           "text_es": "CT-WA-002 &middot; Residuos org&aacute;nicos y compost"
         }
       ],
-      "bg": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1508514177221?w=1200&q=80"
     },
     {
       "num": 4,
@@ -167,6 +167,6 @@
     }
   ],
   "cta_bg": "https://images.unsplash.com/photo-1466692478222-5f3b0e4b6c3a?w=1200&q=80",
-  "image_credits_en": "All photos: Unsplash — Hero: Markus Spiske (photo-1416879595882). Problem: Jilbert Ebrahimi (photo-1532996122724). Solution: Noah Buscher (photo-1595278069443). Impact: Zoe Schaeffer (photo-1625246333195). Leadership: Tim Mossholder (photo-1574944983790). CTA: Kyle Glenn (photo-1466692478222). Public copy: gna.com.co.",
-  "image_credits_es": "Todas las fotos: Unsplash — Hero: Markus Spiske (photo-1416879595882). Problema: Jilbert Ebrahimi (photo-1532996122724). Soluci&oacute;n: Noah Buscher (photo-1595278069443). Impacto: Zoe Schaeffer (photo-1625246333195). Liderazgo: Tim Mossholder (photo-1574944983790). CTA: Kyle Glenn (photo-1466692478222). Texto p&uacute;blico: gna.com.co."
+  "image_credits_en": "All photos: Unsplash — Hero: Markus Spiske (photo-1416879595882). Problem: Jilbert Ebrahimi (photo-1532996122724). Solution: Noah Buscher (photo-1595278069443). Impact: Zoe Schaeffer (photo-1625246333195). Leadership: Tim Mossholder (photo-1574944983790). CTA: Kyle Glenn (photo-1466692478222). Public copy: gna.com.co. Replacement photo: Unsplash — Brooke Cagle. Section photo: Unsplash — Unsplash contributor.",
+  "image_credits_es": "Todas las fotos: Unsplash — Hero: Markus Spiske (photo-1416879595882). Problema: Jilbert Ebrahimi (photo-1532996122724). Soluci&oacute;n: Noah Buscher (photo-1595278069443). Impacto: Zoe Schaeffer (photo-1625246333195). Liderazgo: Tim Mossholder (photo-1574944983790). CTA: Kyle Glenn (photo-1466692478222). Texto p&uacute;blico: gna.com.co. Foto de reemplazo: Unsplash — Brooke Cagle. Foto de sección: Unsplash — Unsplash contributor."
 }

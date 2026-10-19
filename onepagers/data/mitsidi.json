@@ -166,9 +166,9 @@
           "linkedin": "https://www.linkedin.com/in/gabriel-frasson"
         }
       ],
-      "dream_en": "Secondary CT nodes: [PENDIENTE]. Verified KPIs: [PENDIENTE]. Image credits: hero: Mitsidi public CMS (mitPeople-1.jpg) — mitsidi.com; section_01_problem: Mitsidi public CMS (servicos.jpg) — mitsidi.com; section_02_solution: Mitsidi public CMS (solucoesMod.jpg) — mitsidi.com; section_03_impact: Mitsidi public site (/images/mitPeople.jpg); section_04_leadership: Unsplash — Appolinary Kalishnikova (transmission lines / energy); cta: Mitsidi public CMS (banner_expandir_corrigido.png) — Expandir event",
-      "dream_es": "Nodos CT secundarios: [PENDIENTE]. KPIs verificados: [PENDIENTE]. Créditos de imagen: hero: Mitsidi public CMS (mitPeople-1.jpg) — mitsidi.com; section_01_problem: Mitsidi public CMS (servicos.jpg) — mitsidi.com; section_02_solution: Mitsidi public CMS (solucoesMod.jpg) — mitsidi.com; section_03_impact: Mitsidi public site (/images/mitPeople.jpg); section_04_leadership: Unsplash — Appolinary Kalishnikova (transmission lines / energy); cta: Mitsidi public CMS (banner_expandir_corrigido.png) — Expandir event",
-      "bg": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1200&q=80"
+      "dream_en": "Secondary CT nodes: [PENDIENTE]. Verified KPIs: [PENDIENTE]. Image credits: hero: Mitsidi public CMS (mitPeople-1.jpg) — mitsidi.com; section_01_problem: Mitsidi public CMS (servicos.jpg) — mitsidi.com; section_02_solution: Mitsidi public CMS (solucoesMod.jpg) — mitsidi.com; section_03_impact: Mitsidi public site (/images/mitPeople.jpg); section_04_leadership: Unsplash — Appolinary Kalishnikova (transmission lines / energy); cta: Mitsidi public CMS (banner_expandir_corrigido.png) — Expandir event Image credits: hero: Mitsidi public CMS (mitPeople-1.jpg) — mitsidi.com; section_01_problem: Mitsidi public CMS (servicos.jpg) — mitsidi.com; section_02_solution: Mitsidi public CMS (solucoesMod.jpg) — mitsidi.com; section_03_impact: Mitsidi public site (/images/mitPeople.jpg); section_04_leadership: Unsplash — Appolinary Kalishnikova (transmission lines / energy); cta: Mitsidi public CMS (banner_expandir_corrigido.png) — Expandir event",
+      "dream_es": "Nodos CT secundarios: [PENDIENTE]. KPIs verificados: [PENDIENTE]. Créditos de imagen: hero: Mitsidi public CMS (mitPeople-1.jpg) — mitsidi.com; section_01_problem: Mitsidi public CMS (servicos.jpg) — mitsidi.com; section_02_solution: Mitsidi public CMS (solucoesMod.jpg) — mitsidi.com; section_03_impact: Mitsidi public site (/images/mitPeople.jpg); section_04_leadership: Unsplash — Appolinary Kalishnikova (transmission lines / energy); cta: Mitsidi public CMS (banner_expandir_corrigido.png) — Expandir event Créditos de imagen: hero: Mitsidi public CMS (mitPeople-1.jpg) — mitsidi.com; section_01_problem: Mitsidi public CMS (servicos.jpg) — mitsidi.com; section_02_solution: Mitsidi public CMS (solucoesMod.jpg) — mitsidi.com; section_03_impact: Mitsidi public site (/images/mitPeople.jpg); section_04_leadership: Unsplash — Appolinary Kalishnikova (transmission lines / energy); cta: Mitsidi public CMS (banner_expandir_corrigido.png) — Expandir event",
+      "bg": "https://images.unsplash.com/photo-1503327327322-56f962d3fc57-1920?w=1200&q=80"
     }
   ],
   "cta_image": "https://api-cms.mitsidi.com/media/banner_expandir_corrigido.png",
@@ -179,5 +179,7 @@
     "section_03_impact": "Mitsidi public site (/images/mitPeople.jpg)",
     "section_04_leadership": "Unsplash — Appolinary Kalishnikova (transmission lines / energy)",
     "cta": "Mitsidi public CMS (banner_expandir_corrigido.png) — Expandir event"
-  }
+  },
+  "image_credits_en": " Section photo: Unsplash — Unsplash contributor.",
+  "image_credits_es": " Foto de sección: Unsplash — Unsplash contributor."
 }

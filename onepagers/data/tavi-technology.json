@@ -136,7 +136,7 @@
           "text_es": "CT-EN-002 &middot; Energia Eolica"
         }
       ],
-      "bg": "https://images.unsplash.com/photo-1466611653911-950815379e64?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=1200&q=80"
     },
     {
       "num": 4,
@@ -158,5 +158,7 @@
       "dream_es": "Programa: CLAC21 + Acceleration CTH. Ciudad: Cali. LinkedIn fundador: [PENDIENTE]. KPIs verificados: [PENDIENTE]. Creditos imagen: Hero/problema/equipo: taviinnova.com (Tavi Innova, marca publica relacionada). Otras secciones: Unsplash (renovables).",
       "bg": "https://taviinnova.com/wp-content/uploads/2026/01/Gerente-1.png"
     }
-  ]
+  ],
+  "image_credits_en": " Section photo: Unsplash — Unsplash contributor.",
+  "image_credits_es": " Foto de sección: Unsplash — Unsplash contributor."
 }

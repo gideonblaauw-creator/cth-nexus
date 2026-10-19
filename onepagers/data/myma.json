@@ -109,7 +109,7 @@
           "text_es": "Guatemala City and national industrial clients (public company profiles)."
         }
       ],
-      "bg": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1497436072904?w=1200&q=80"
     },
     {
       "num": 3,
@@ -174,8 +174,8 @@
           "bio_es": "CEO referenciado en comunicaciones p&uacute;blicas de MYMA."
         }
       ],
-      "dream_en": "CT taxonomy: [PENDIENTE]. Julio Garc&iacute;a public LinkedIn URL: [PENDIENTE]. Verified KPIs: [PENDIENTE]. Image credits: hero: Unsplash — Vladislav Klapin (urban green / environmental context); section_01_problem: Unsplash — Johannes Plenio (forest / ecosystem); section_02_solution: Unsplash — ThisIsEngineering (environmental engineering); section_03_impact: Unsplash — Matthew Smith (water / watershed); section_04_leadership: Unsplash — Karsten Würth (sustainability / nature stewardship); cta: Unsplash — Liam Briese (air / atmosphere monitoring context)",
-      "dream_es": "Taxonom&iacute;a CT: [PENDIENTE]. URL p&uacute;blica de LinkedIn de Julio Garc&iacute;a: [PENDIENTE]. KPIs verificados: [PENDIENTE]. Créditos de imagen: hero: Unsplash — Vladislav Klapin (urban green / environmental context); section_01_problem: Unsplash — Johannes Plenio (forest / ecosystem); section_02_solution: Unsplash — ThisIsEngineering (environmental engineering); section_03_impact: Unsplash — Matthew Smith (water / watershed); section_04_leadership: Unsplash — Karsten Würth (sustainability / nature stewardship); cta: Unsplash — Liam Briese (air / atmosphere monitoring context)",
+      "dream_en": "CT taxonomy: [PENDIENTE]. Julio Garc&iacute;a public LinkedIn URL: [PENDIENTE]. Verified KPIs: [PENDIENTE]. Image credits: hero: Unsplash — Vladislav Klapin (urban green / environmental context); section_01_problem: Unsplash — Johannes Plenio (forest / ecosystem); section_02_solution: Unsplash — ThisIsEngineering (environmental engineering); section_03_impact: Unsplash — Matthew Smith (water / watershed); section_04_leadership: Unsplash — Karsten Würth (sustainability / nature stewardship); cta: Unsplash — Liam Briese (air / atmosphere monitoring context) Image credits: hero: Unsplash — Vladislav Klapin (urban green / environmental context); section_01_problem: Unsplash — Johannes Plenio (forest / ecosystem); section_02_solution: Unsplash — ThisIsEngineering (environmental engineering); section_03_impact: Unsplash — Matthew Smith (water / watershed); section_04_leadership: Unsplash — Karsten Würth (sustainability / nature stewardship); cta: Unsplash — Liam Briese (air / atmosphere monitoring context)",
+      "dream_es": "Taxonom&iacute;a CT: [PENDIENTE]. URL p&uacute;blica de LinkedIn de Julio Garc&iacute;a: [PENDIENTE]. KPIs verificados: [PENDIENTE]. Créditos de imagen: hero: Unsplash — Vladislav Klapin (urban green / environmental context); section_01_problem: Unsplash — Johannes Plenio (forest / ecosystem); section_02_solution: Unsplash — ThisIsEngineering (environmental engineering); section_03_impact: Unsplash — Matthew Smith (water / watershed); section_04_leadership: Unsplash — Karsten Würth (sustainability / nature stewardship); cta: Unsplash — Liam Briese (air / atmosphere monitoring context) Créditos de imagen: hero: Unsplash — Vladislav Klapin (urban green / environmental context); section_01_problem: Unsplash — Johannes Plenio (forest / ecosystem); section_02_solution: Unsplash — ThisIsEngineering (environmental engineering); section_03_impact: Unsplash — Matthew Smith (water / watershed); section_04_leadership: Unsplash — Karsten Würth (sustainability / nature stewardship); cta: Unsplash — Liam Briese (air / atmosphere monitoring context)",
       "bg": "https://images.unsplash.com/photo-1611273424745-0320e97a5a7e?w=1200&q=80"
     }
   ],
@@ -187,5 +187,7 @@
     "section_03_impact": "Unsplash — Matthew Smith (water / watershed)",
     "section_04_leadership": "Unsplash — Karsten Würth (sustainability / nature stewardship)",
     "cta": "Unsplash — Liam Briese (air / atmosphere monitoring context)"
-  }
+  },
+  "image_credits_en": " Section photo: Unsplash — Unsplash contributor.",
+  "image_credits_es": " Foto de sección: Unsplash — Unsplash contributor."
 }

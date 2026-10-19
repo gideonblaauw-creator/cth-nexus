@@ -112,7 +112,7 @@
           "text_es": "Entregar resinas recicladas y empaques para cadenas circulares conformes."
         }
       ],
-      "bg": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1559305610?w=1200&q=80"
     },
     {
       "num": 3,
@@ -165,7 +165,9 @@
       ],
       "dream_en": "Formal CT taxonomy node on portfolio card: [PENDIENTE]. Production capacity claims on website: not listed as verified KPIs. Pitch deck: [PENDIENTE]. Image credits — Hero: plasticosambientales.com — post-consumer recycled plastic product; §01: Unsplash (photo-1532996122724) — plastic materials handling; §02: Unsplash (photo-1581092160607) — industrial processing; §03: Unsplash (photo-1504307651254) — construction / materials site; §04: Unsplash (photo-1522071820081) — team planning; CTA: Unsplash (photo-1501339847302) — workspace / operations.",
       "dream_es": "Nodo CT formal en tarjeta portafolio: [PENDIENTE]. Claims de capacidad en web: no listados como KPIs verificados. Pitch deck: [PENDIENTE]. Image credits — Hero: plasticosambientales.com — post-consumer recycled plastic product; §01: Unsplash (photo-1532996122724) — plastic materials handling; §02: Unsplash (photo-1581092160607) — industrial processing; §03: Unsplash (photo-1504307651254) — construction / materials site; §04: Unsplash (photo-1522071820081) — team planning; CTA: Unsplash (photo-1501339847302) — workspace / operations.",
-      "bg": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1432453979717-755d69830972?w=1200&q=80"
     }
-  ]
+  ],
+  "image_credits_en": " Section photo: Unsplash — Unsplash contributor. Section photo: Unsplash — Unsplash contributor.",
+  "image_credits_es": " Foto de sección: Unsplash — Unsplash contributor. Foto de sección: Unsplash — Unsplash contributor."
 }
