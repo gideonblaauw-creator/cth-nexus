@@ -97,6 +97,10 @@ body{font-family:'Open Sans','PT Sans',sans-serif;background:var(--page);color:v
 .cta-brand .lg2{font-size:14px;font-weight:800;margin-top:4px;}
 .cta-port{font-size:9px;color:rgba(255,255,255,.25);margin-top:10px;}
 
+.photo-credits{padding:10px 48px 18px;font-size:9px;line-height:1.55;color:rgba(255,255,255,.45);background:rgba(12,73,138,.92);position:relative;z-index:2;}
+.photo-credits a{color:var(--sk);text-decoration:none;font-weight:600;}
+.photo-credits a:hover{text-decoration:underline;}
+
 .mini-chart{display:flex;align-items:flex-end;gap:6px;height:50px;background:rgba(0,0,0,.2);border-radius:6px;padding:8px 10px 4px;margin-top:14px;}
 .mini-col{display:flex;flex-direction:column;align-items:center;flex:1;gap:1px;}
 .mini-val{font-size:8px;font-weight:700;color:rgba(255,255,255,.4);}

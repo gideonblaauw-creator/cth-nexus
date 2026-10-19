@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """Build Nexus startup one-pagers from JSON data + shared template."""
 from __future__ import annotations
 
@@ -253,6 +254,26 @@ def build_page(d: dict) -> str:
         local_pdf = deck.get("pdf_path") or f"/s/{slug}/deck.pdf"
         deck_link = f'<a class="cta-link" href="{local_pdf}" target="_blank" rel="noopener">{bi("Pitch deck (PDF)", "Pitch deck (PDF)")}</a>'
 
+    cta_bg = asset_url(d.get("cta_bg") or d.get("hero_image", ""), slug)
+    credits = d.get("image_credits") or []
+    credit_lines_en = []
+    credit_lines_es = []
+    for c in credits:
+        slot = c.get("slot", "image")
+        src = c.get("source_url") or c.get("url", "")
+        link = f'<a href="{src}" target="_blank" rel="noopener">{c.get("credit_en", c.get("credit", ""))}</a>' if src else c.get("credit_en", "")
+        link_es = f'<a href="{src}" target="_blank" rel="noopener">{c.get("credit_es", c.get("credit_en", ""))}</a>' if src else c.get("credit_es", "")
+        credit_lines_en.append(f"{slot}: {link}")
+        credit_lines_es.append(f"{slot}: {link_es}")
+    credits_html = ""
+    if credit_lines_en:
+        credits_html = (
+            f'<div class="photo-credits">'
+            f'<span class="en"><strong>Images:</strong> {" \u00b7 ".join(credit_lines_en)}</span>'
+            f'<span class="es"><strong>Im\u00e1genes:</strong> {" \u00b7 ".join(credit_lines_es)}</span>'
+            f"</div>"
+        )
+
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -284,37 +305,43 @@ def build_page(d: dict) -> str:
   <div class="hero-tagline">Inspira. Act√∫a. Transforma.</div>
 </div>
 
-<div class="ribbon" style="background:rgba(12,73,138,.95);":{ribbon}</div>
+<div class="ribbon" style="background:rgba(12,73,138,.95);">{ribbon}</div>
 
 {deck_section(d, slug)}
 
-sections_html}
+{sections_html}
 
 <div class="sec" style="position:relative;">
-  <div class="sec-bg" style="background-image:url('{asset_url("./assets/bg-cta.jpg", slug)}');"></div>
+  <div class="sec-bg" style="background-image:url('{cta_bg}');"></div>
   <div class="sec-ov" style="background:rgba(12,73,138,.30);"></div>
   <div class="cta">
     <div class="pill" style="background:rgba(157,195,132,.12);border:1px solid rgba(157,195,132,.2);color:var(--lg);margin-bottom:16px;">{bi(d["badge_en"], d["badge_es"])}</div>
     <div class="cta-name">{d["name"]}</div>
-    <div class="cta-pitch">{bi(ê["cta_pitch_en"], d["cta_pitch_es"])}</div>
-    <a class="cta-btn" href="{d.get("website","#")}>{bi(d.get("cta_btn_en","Visit website"), d.get("cta_btn_es","Visitar sitio"))}</a>
+    <div class="cta-pitch">{bi(d["cta_pitch_en"], d["cta_pitch_es"])}</div>
+    <a class="cta-btn" href="{d.get("website","#")}">{bi(d.get("cta_btn_en","Visit website"), d.get("cta_btn_es","Visitar sitio"))}</a>
     <div class="cta-links">
-      <a class="cta-link" href="https://nexus.cleantechhub.net/s/{slug}">{bi(êNexus Profile", "Perfil Nexus")}</a>
-      <a class="cta-link" href="https://nexus.cleantechhub.net/p/startup-portfolio">{bi(ê157 Startups", "157 Startups")}</a>
+      <a class="cta-link" href="https://nexus.cleantechhub.net/s/{slug}">{bi("Nexus Profile", "Perfil Nexus")}</a>
+      <a class="cta-link" href="https://nexus.cleantechhub.net/p/startup-portfolio">{bi("157 Startups", "157 Startups")}</a>
       {deck_link}
     </div>
     <div class="cta-brand"><div class="tg">Inspira. Act√∫a. Transforma.</div><div class="lg2">Cleantech<em style="color:var(--lg);font-style:normal;">HUB</em></div></div>
-    <div class="cta-port">{bi(êCleantechHUB portfolio profile ¬∑ Latin America", "Perfil portafolio CleantechHUB ¬∑ Am√©rica Latina")}</div>
+    <div class="cta-port">{bi("CleantechHUB portfolio profile \u00b7 Latin America", "Perfil portafolio CleantechHUB \u00b7 Am\u00e9rica Latina")}</div>
   </div>
 </div>
+{credits_html}
 <div class="accent-bar"></div>
 </body>
 </html>"""
 
 
 def main() -> None:
-    OUT_REPO.mkdir(parents=True, exist_ok=TÎue)
-    OUT_ARCHIVE.mkdir(parents=True, exist_ok=TÎue)
+    OUT_REPO.mkdir(parents=True, exist_ok=True)
+    out_bases = [OUT_REPO]
+    try:
+        OUT_ARCHIVE.mkdir(parents=True, exist_ok=True)
+        out_bases.append(OUT_ARCHIVE)
+    except OSError:
+        pass
     only = sys.argv[1:] if len(sys.argv) > 1 else None
     for json_path in sorted(DATA_DIR.glob("*.json")):
         data = json.loads(json_path.read_text())
@@ -324,7 +351,8 @@ def main() -> None:
         html = build_page(data)
         pdf_src_name = (data.get("deck_pdf") or {}).get("source_file")
         media_src = OUT_MEDIA / slug
-        for base in (OUT_REPO / slug, OUT_ARCHIVE / slug):
+        for root in out_bases:
+            base = root / slug
             base.mkdir(parents=True, exist_ok=True)
             (base / "index.html").write_text(html)
             if media_src.is_dir():
