@@ -1,0 +1,172 @@
+{
+  "slug": "oasis-group",
+  "name": "Oasis Group",
+  "website": "https://oasisgroup.online/",
+  "badge_en": "Electric Mobility &middot; CLP",
+  "badge_es": "Movilidad Eléctrica &middot; CLP",
+  "hero_image": "https://oasisgroup.online/wp-content/uploads/2025/07/Imagenes-WebVertical_Mesa-de-trabajo-1-07.jpg",
+  "hero_sub_en": "oasisgroup.online &middot; Colombia &middot; Medellín &middot; Energy &middot; Stage: Seed",
+  "hero_sub_es": "oasisgroup.online &middot; Colombia &middot; Medellín &middot; Energía &middot; Etapa: Seed",
+  "pitch_en": "Medellín startup promoting electric mobility through innovative charging infrastructure and technology for cleaner urban and peri-urban transportation.",
+  "pitch_es": "Startup de Medellín que promueve la movilidad eléctrica a través de infraestructura de carga innovadora y tecnología para transporte más limpio en zonas urbanas y periurbanas.",
+  "cta_pitch_en": "Medellín startup promoting electric mobility through innovative charging infrastructure and technology for cleaner urban and peri-urban transportation.",
+  "cta_pitch_es": "Startup de Medellín que promueve la movilidad eléctrica a través de infraestructura de carga innovadora y tecnología para transporte más limpio en zonas urbanas y periurbanas.",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "ribbon": [
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    },
+    {
+      "val": "Seed",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLP",
+      "sub_es": "CLP"
+    },
+    {
+      "val": "Energy",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Métricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLP",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Accelerator",
+        "lab_es": "Acelerador"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Limited public charging and high home-installation costs slow adoption of electric vehicles and sustainable urban mobility in Colombian cities.",
+      "head_es": "La escasez de carga pública y los altos costos de instalación residencial frenan la adopción de vehículos eléctricos y la movilidad urbana sostenible en ciudades colombianas.",
+      "body_en": "Limited public charging and high home-installation costs slow adoption of electric vehicles and sustainable urban mobility in Colombian cities.",
+      "body_es": "La escasez de carga pública y los altos costos de instalación residencial frenan la adopción de vehículos eléctricos y la movilidad urbana sostenible en ciudades colombianas.",
+      "bg": "https://oasisgroup.online/wp-content/uploads/2025/06/Formulario-Nuevos-Usuarios-02.jpg"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "🎯",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Network of EV charging stations and mobility infrastructure (including residential and strategic urban sites) with disruptive sponsorship-based models.",
+          "text_es": "Red de estaciones de carga para vehículos eléctricos e infraestructura de movilidad (incluyendo sitios residenciales y urbanos estratégicos) con modelos disruptivos de patrocinio."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "Oasis Group — CLP cohort (CleantechHUB) · Portafolio Acceleration sheet.",
+          "text_es": "Oasis Group — cohorte CLP (CleantechHUB) · hoja Portafolio Acceleration."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Based in Medellín, Colombia. Public site: oasisgroup.online.",
+          "text_es": "Con base en Medellín, Colombia. Sitio público: oasisgroup.online."
+        }
+      ],
+      "bg": "https://oasisgroup.online/wp-content/uploads/2026/01/3-01-2.jpg"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact & Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Wiki source",
+          "title_es": "Fuente Wiki",
+          "text_en": "Profile synced from BookStack Startup Portfolio + Odoo (SoT).",
+          "text_es": "Perfil sincronizado desde BookStack Startup Portfolio + Odoo (SoT)."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomía",
+          "text_en": "CT-TR-001 · Electric Vehicles",
+          "text_es": "CT-TR-001 · Vehículos Eléctricos"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1593941707882-a5bba14938bc?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Ricardo Cardona Díaz",
+          "initials": "RC",
+          "role_en": "Co-founder &middot; CLP",
+          "role_es": "Cofundador &middot; CLP",
+          "bio_en": "Public-facing role: Co-founder (former CEO). Source: Oasis Group public press / LinkedIn.",
+          "bio_es": "Rol público: Cofundador (ex CEO). Fuente: prensa pública Oasis Group / LinkedIn.",
+          "linkedin": "https://www.linkedin.com/in/ricardocd"
+        },
+        {
+          "name": "Juan Felipe Ocampo",
+          "initials": "JO",
+          "role_en": "Co-founder &middot; CLP",
+          "role_es": "Cofundador &middot; CLP",
+          "bio_en": "Public-facing role: Co-founder &amp; strategic lead. Source: Oasis Group public press / LinkedIn.",
+          "bio_es": "Rol público: Cofundador y líder estratégico. Fuente: prensa pública Oasis Group / LinkedIn.",
+          "linkedin": "https://www.linkedin.com/in/juan-felipe-ocampo-54714b65"
+        }
+      ],
+      "dream_en": "Program: CLP · Acceleration (sheet). Verified KPIs: [PENDIENTE]. Pitch deck on profile: [PENDIENTE].",
+      "dream_es": "Programa: CLP · Aceleración (sheet). KPIs verificados: [PENDIENTE]. Pitch deck en perfil: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1619642756324-2d4aa2c39736?w=1200&q=80"
+    }
+  ],
+  "cta_bg": "https://oasisgroup.online/wp-content/uploads/2025/07/ImganesOasisConnect_Mesa-de-trabajo-1-03.png"
+}

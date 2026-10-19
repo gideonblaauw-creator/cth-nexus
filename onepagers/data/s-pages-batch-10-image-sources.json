@@ -1,0 +1,132 @@
+{
+  "nina-energy": {
+    "hero": {
+      "url": "https://nina.energy/wp-content/uploads/2026/07/Captura-de-pantalla-2025-11-19-161104.png",
+      "source": "nina.energy (public website)"
+    },
+    "section_01_problem": {
+      "url": "https://www.atmosfair.de/wp-content/uploads/pflanzenkohle-ecuador-1-1024x788.jpg",
+      "source": "atmosfair.de press photo — Nina Energy Cotopaxi pyrolysis plant partnership (Nov 2025)"
+    },
+    "section_02_solution": {
+      "url": "https://nina.energy/wp-content/uploads/2026/09/equipo-de-planta.webp",
+      "source": "nina.energy (public website — plant team)"
+    },
+    "section_03_impact": {
+      "url": "https://www.atmosfair.de/wp-content/uploads/pflanzenkohle-ecuador-3-1024x683.jpg",
+      "source": "atmosfair.de press photo — biochar production Ecuador"
+    },
+    "section_04_leadership": {
+      "url": "https://nina.energy/wp-content/uploads/2026/07/Empowerment.webp",
+      "source": "nina.energy (public website)"
+    },
+    "section_cta": {
+      "url": "https://images.unsplash.com/photo-1625246333195-78d9c090ad85?w=1200&q=80",
+      "source": "Unsplash — Zoe Schaeffer (agricultural fields / biomass context)"
+    }
+  },
+  "nuevas-tecnologias-fisicoquimicas": {
+    "hero": {
+      "url": "https://nuevastecnologias.com.co/wp-content/uploads/2021/09/limpieza-sin-agua-factor-de-eficiencia-y-econ.jpg",
+      "source": "nuevastecnologias.com.co (public website)"
+    },
+    "section_01_problem": {
+      "url": "https://nuevastecnologias.com.co/wp-content/uploads/2021/09/importancia-de-las-operaciones-en-limpieza-li.jpg",
+      "source": "nuevastecnologias.com.co (public website)"
+    },
+    "section_02_solution": {
+      "url": "https://nuevastecnologias.com.co/wp-content/uploads/2022/05/Experiencia-en-ExpoBIC-2022-2.png",
+      "source": "nuevastecnologias.com.co (public website — ExpoBIC)"
+    },
+    "section_03_impact": {
+      "url": "https://nuevastecnologias.com.co/wp-content/uploads/2022/09/13.png",
+      "source": "nuevastecnologias.com.co (public website)"
+    },
+    "section_04_leadership": {
+      "url": "https://images.unsplash.com/photo-1414488185695-8a134cb87690?w=1200&q=80",
+      "source": "Unsplash — Sharon McCutcheon (water / conservation context)"
+    },
+    "section_cta": {
+      "url": "https://images.unsplash.com/photo-1548839140-5a941f234e64?w=1200&q=80",
+      "source": "Unsplash — Jacek Dylag (water on leaf)"
+    }
+  },
+  "oasis-group": {
+    "hero": {
+      "url": "https://oasisgroup.online/wp-content/uploads/2025/07/Imagenes-WebVertical_Mesa-de-trabajo-1-07.jpg",
+      "source": "oasisgroup.online (public website)"
+    },
+    "section_01_problem": {
+      "url": "https://oasisgroup.online/wp-content/uploads/2025/06/Formulario-Nuevos-Usuarios-02.jpg",
+      "source": "oasisgroup.online (public website — charging network)"
+    },
+    "section_02_solution": {
+      "url": "https://oasisgroup.online/wp-content/uploads/2026/01/3-01-2.jpg",
+      "source": "oasisgroup.online (public website)"
+    },
+    "section_03_impact": {
+      "url": "https://images.unsplash.com/photo-1593941707882-a5bba14938bc?w=1200&q=80",
+      "source": "Unsplash — Erik Mclean (electric vehicle charging)"
+    },
+    "section_04_leadership": {
+      "url": "https://images.unsplash.com/photo-1619642756324-2d4aa2c39736?w=1200&q=80",
+      "source": "Unsplash — Michael Fousert (EV at charge point)"
+    },
+    "section_cta": {
+      "url": "https://oasisgroup.online/wp-content/uploads/2025/07/ImganesOasisConnect_Mesa-de-trabajo-1-03.png",
+      "source": "oasisgroup.online (public website — Oasis Connect)"
+    }
+  },
+  "pacaceite": {
+    "hero": {
+      "url": "https://images.unsplash.com/photo-1615819905686-2a6476a0b1c5?w=1200&q=80",
+      "source": "Unsplash — Louis Hansel (used cooking oil / food service waste context)"
+    },
+    "section_01_problem": {
+      "url": "https://images.unsplash.com/photo-1532996122724-e3c031a396bf?w=1200&q=80",
+      "source": "Unsplash — Sigmund (recycling / circular economy)"
+    },
+    "section_02_solution": {
+      "url": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200&q=80",
+      "source": "Unsplash — Jon Tyson (waste collection context)"
+    },
+    "section_03_impact": {
+      "url": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200&q=80",
+      "source": "Unsplash — Naja Bertolt Jensen (industrial sanitation)"
+    },
+    "section_04_leadership": {
+      "url": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=1200&q=80",
+      "source": "Unsplash — Marcin Jozwiak (circular materials)"
+    },
+    "section_cta": {
+      "url": "https://images.unsplash.com/photo-1618477388954-7852f725647a?w=1200&q=80",
+      "source": "Unsplash — Towfiqu barbhuiya (bio-based products / lab context)"
+    }
+  },
+  "parsons-kinetics": {
+    "hero": {
+      "url": "https://images.unsplash.com/photo-1466611653911-950815379e64?w=1200&q=80",
+      "source": "Unsplash — J.M. (wind energy landscape)"
+    },
+    "section_01_problem": {
+      "url": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1200&q=80",
+      "source": "Unsplash — Matthew Henry (wind turbines)"
+    },
+    "section_02_solution": {
+      "url": "https://images.unsplash.com/photo-1532601228822-81f4c2d80a70?w=1200&q=80",
+      "source": "Unsplash — American Public Power Association (distributed wind / grid)"
+    },
+    "section_03_impact": {
+      "url": "https://images.unsplash.com/photo-1494947667167-47d25882a46e?w=1200&q=80",
+      "source": "Unsplash — Karsten Würth (wind farm aerial)"
+    },
+    "section_04_leadership": {
+      "url": "https://images.unsplash.com/photo-1518437705982-4649c2d4e0c3?w=1200&q=80",
+      "source": "Unsplash — Appolinary Kalashnikova (rural Colombia energy access context)"
+    },
+    "section_cta": {
+      "url": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1200&q=80",
+      "source": "Unsplash — Appolinary Kalashnikova (renewable energy sky)"
+    }
+  }
+}

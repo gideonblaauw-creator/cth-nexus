@@ -253,6 +253,8 @@ def build_page(d: dict) -> str:
         local_pdf = deck.get("pdf_path") or f"/s/{slug}/deck.pdf"
         deck_link = f'<a class="cta-link" href="{local_pdf}" target="_blank" rel="noopener">{bi("Pitch deck (PDF)", "Pitch deck (PDF)")}</a>'
 
+    cta_bg = d.get("cta_bg") or "./assets/bg-cta.jpg"
+
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -275,7 +277,7 @@ def build_page(d: dict) -> str:
 <div class="sec hero">
   <img class="hero-img" src="{asset_url(d["hero_image"], slug)}" alt="{d["name"]}" loading="lazy">
   <div class="hero-ov"></div>
-  <div class="hero-badge"><div class="pill" style="background:rgba(0,0,0,.45);coor:var(--lg);">{bi(d["badge_en"], d["badge_es"])}</div></div>
+  <div class="hero-badge"><div class="pill" style="background:rgba(0,0,0,.45);color:var(--lg);">{bi(d["badge_en"], d["badge_es"])}</div></div>
   <div class="hero-in">
     <div class="hero-name">{d["name"]}</div>
     <div class="hero-sub">{bi(d["hero_sub_en"], d["hero_sub_es"])}</div>
@@ -284,27 +286,27 @@ def build_page(d: dict) -> str:
   <div class="hero-tagline">Inspira. Act√∫a. Transforma.</div>
 </div>
 
-<div class="ribbon" style="background:rgba(12,73,138,.95);":{ribbon}</div>
+<div class="ribbon" style="background:rgba(12,73,138,.95);">{ribbon}</div>
 
 {deck_section(d, slug)}
 
-sections_html}
+{sections_html}
 
 <div class="sec" style="position:relative;">
-  <div class="sec-bg" style="background-image:url('{asset_url("./assets/bg-cta.jpg", slug)}');"></div>
+  <div class="sec-bg" style="background-image:url('{asset_url(cta_bg, slug)}');"></div>
   <div class="sec-ov" style="background:rgba(12,73,138,.30);"></div>
   <div class="cta">
     <div class="pill" style="background:rgba(157,195,132,.12);border:1px solid rgba(157,195,132,.2);color:var(--lg);margin-bottom:16px;">{bi(d["badge_en"], d["badge_es"])}</div>
     <div class="cta-name">{d["name"]}</div>
-    <div class="cta-pitch">{bi(ê["cta_pitch_en"], d["cta_pitch_es"])}</div>
-    <a class="cta-btn" href="{d.get("website","#")}>{bi(d.get("cta_btn_en","Visit website"), d.get("cta_btn_es","Visitar sitio"))}</a>
+    <div class="cta-pitch">{bi(d["cta_pitch_en"], d["cta_pitch_es"])}</div>
+    <a class="cta-btn" href="{d.get("website","#")}">{bi(d.get("cta_btn_en","Visit website"), d.get("cta_btn_es","Visitar sitio"))}</a>
     <div class="cta-links">
-      <a class="cta-link" href="https://nexus.cleantechhub.net/s/{slug}">{bi(êNexus Profile", "Perfil Nexus")}</a>
-      <a class="cta-link" href="https://nexus.cleantechhub.net/p/startup-portfolio">{bi(ê157 Startups", "157 Startups")}</a>
+      <a class="cta-link" href="https://nexus.cleantechhub.net/s/{slug}">{bi("Nexus Profile", "Perfil Nexus")}</a>
+      <a class="cta-link" href="https://nexus.cleantechhub.net/p/startup-portfolio">{bi("157 Startups", "157 Startups")}</a>
       {deck_link}
     </div>
     <div class="cta-brand"><div class="tg">Inspira. Act√∫a. Transforma.</div><div class="lg2">Cleantech<em style="color:var(--lg);font-style:normal;">HUB</em></div></div>
-    <div class="cta-port">{bi(êCleantechHUB portfolio profile ¬∑ Latin America", "Perfil portafolio CleantechHUB ¬∑ Am√©rica Latina")}</div>
+    <div class="cta-port">{bi("CleantechHUB portfolio profile &middot; Latin America", "Perfil portafolio CleantechHUB &middot; Am&eacute;rica Latina")}</div>
   </div>
 </div>
 <div class="accent-bar"></div>
@@ -313,18 +315,25 @@ sections_html}
 
 
 def main() -> None:
-    OUT_REPO.mkdir(parents=True, exist_ok=TÎue)
-    OUT_ARCHIVE.mkdir(parents=True, exist_ok=TÎue)
+    OUT_REPO.mkdir(parents=True, exist_ok=True)
     only = sys.argv[1:] if len(sys.argv) > 1 else None
     for json_path in sorted(DATA_DIR.glob("*.json")):
         data = json.loads(json_path.read_text())
-        slug = data["slug"]
+        slug = data.get("slug")
+        if not slug:
+            continue
         if only and slug not in only:
             continue
         html = build_page(data)
         pdf_src_name = (data.get("deck_pdf") or {}).get("source_file")
         media_src = OUT_MEDIA / slug
-        for base in (OUT_REPO / slug, OUT_ARCHIVE / slug):
+        targets = [OUT_REPO / slug]
+        try:
+            OUT_ARCHIVE.mkdir(parents=True, exist_ok=True)
+            targets.append(OUT_ARCHIVE / slug)
+        except OSError:
+            pass
+        for base in targets:
             base.mkdir(parents=True, exist_ok=True)
             (base / "index.html").write_text(html)
             if media_src.is_dir():
