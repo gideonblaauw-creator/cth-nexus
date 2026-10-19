@@ -1,0 +1,154 @@
+{
+  "date": "2026-10-19",
+  "branch": "feat/cards-batch-10-12",
+  "startups": [
+    {
+      "slug": "nina-energy",
+      "odoo_company_id": null,
+      "odoo_status": "skipped",
+      "wiki_url": "https://wiki.cleantechhub.net/books/startup-portfolio/page/nina-energy",
+      "wiki_status": "new/draft",
+      "card_status": "committed (feat/cards-batch-10-12)",
+      "pendiente": [
+        "ct_taxonomy"
+      ]
+    },
+    {
+      "slug": "nuevas-tecnologias-fisicoquimicas",
+      "odoo_company_id": null,
+      "odoo_status": "skipped",
+      "wiki_url": "https://wiki.cleantechhub.net/books/startup-portfolio/page/nuevas-tecnologias-fisicoquimicas",
+      "wiki_status": "existing/published",
+      "card_status": "committed (feat/cards-batch-10-12)",
+      "pendiente": []
+    },
+    {
+      "slug": "oasis-group",
+      "odoo_company_id": null,
+      "odoo_status": "skipped",
+      "wiki_url": "https://wiki.cleantechhub.net/books/startup-portfolio/page/oasis-group",
+      "wiki_status": "existing/published",
+      "card_status": "committed (feat/cards-batch-10-12)",
+      "pendiente": []
+    },
+    {
+      "slug": "pacaceite",
+      "odoo_company_id": null,
+      "odoo_status": "skipped",
+      "wiki_url": "https://wiki.cleantechhub.net/books/startup-portfolio/page/pacaceite-sas",
+      "wiki_status": "new/draft",
+      "card_status": "committed (feat/cards-batch-10-12)",
+      "pendiente": [
+        "ct_taxonomy",
+        "website"
+      ]
+    },
+    {
+      "slug": "parsons-kinetics",
+      "odoo_company_id": null,
+      "odoo_status": "skipped",
+      "wiki_url": "https://wiki.cleantechhub.net/books/startup-portfolio/page/parsons-kinetics",
+      "wiki_status": "existing/published",
+      "card_status": "committed (feat/cards-batch-10-12)",
+      "pendiente": [
+        "linkedin:Camilo Bayona, PhD"
+      ]
+    },
+    {
+      "slug": "plasfacol",
+      "odoo_company_id": null,
+      "odoo_status": "skipped",
+      "wiki_url": "https://wiki.cleantechhub.net/books/startup-portfolio/page/plasfacol",
+      "wiki_status": "new/draft",
+      "card_status": "committed (feat/cards-batch-10-12)",
+      "pendiente": [
+        "ct_taxonomy",
+        "linkedin:Jeison Rodriguez"
+      ]
+    },
+    {
+      "slug": "pleia",
+      "odoo_company_id": null,
+      "odoo_status": "skipped",
+      "wiki_url": "https://wiki.cleantechhub.net/books/startup-portfolio/page/pleia",
+      "wiki_status": "existing/published",
+      "card_status": "committed (feat/cards-batch-10-12)",
+      "pendiente": []
+    },
+    {
+      "slug": "purest-fuels",
+      "odoo_company_id": null,
+      "odoo_status": "skipped",
+      "wiki_url": "https://wiki.cleantechhub.net/books/startup-portfolio/page/purest-fuels",
+      "wiki_status": "new/draft",
+      "card_status": "committed (feat/cards-batch-10-12)",
+      "pendiente": [
+        "ct_taxonomy"
+      ]
+    },
+    {
+      "slug": "kelab",
+      "odoo_company_id": null,
+      "odoo_status": "skipped",
+      "wiki_url": "https://wiki.cleantechhub.net/books/startup-portfolio/page/rr-kelab",
+      "wiki_status": "new/draft",
+      "card_status": "committed (feat/cards-batch-10-12)",
+      "pendiente": [
+        "stage",
+        "ct_taxonomy"
+      ]
+    },
+    {
+      "slug": "simbiotic",
+      "odoo_company_id": null,
+      "odoo_status": "skipped",
+      "wiki_url": "https://wiki.cleantechhub.net/books/startup-portfolio/page/simbiotic-sas",
+      "wiki_status": "existing/published",
+      "card_status": "committed (feat/cards-batch-10-12)",
+      "pendiente": []
+    },
+    {
+      "slug": "tavi-technology",
+      "odoo_company_id": null,
+      "odoo_status": "skipped",
+      "wiki_url": "https://wiki.cleantechhub.net/books/startup-portfolio/page/tavi-technology",
+      "wiki_status": "existing/published",
+      "card_status": "committed (feat/cards-batch-10-12)",
+      "pendiente": [
+        "linkedin:Alonso Landazury Sanclemente"
+      ]
+    },
+    {
+      "slug": "tr-global-group",
+      "odoo_company_id": null,
+      "odoo_status": "skipped",
+      "wiki_url": "https://wiki.cleantechhub.net/books/startup-portfolio/page/tr-global-group",
+      "wiki_status": "new/draft",
+      "card_status": "committed (feat/cards-batch-10-12)",
+      "pendiente": []
+    },
+    {
+      "slug": "valopes",
+      "odoo_company_id": null,
+      "odoo_status": "skipped",
+      "wiki_url": "https://wiki.cleantechhub.net/books/startup-portfolio/page/valopes-air-environment",
+      "wiki_status": "existing/published",
+      "card_status": "committed (feat/cards-batch-10-12)",
+      "pendiente": []
+    },
+    {
+      "slug": "wheelo",
+      "odoo_company_id": null,
+      "odoo_status": "skipped",
+      "wiki_url": "https://wiki.cleantechhub.net/books/startup-portfolio/page/wheelo-air-environment",
+      "wiki_status": "existing/published",
+      "card_status": "committed (feat/cards-batch-10-12)",
+      "pendiente": [
+        "website"
+      ]
+    }
+  ],
+  "blockers": [
+    "Odoo unavailable: <ProtocolError for services.cleantechhub.net/xmlrpc/2/common: 502 Bad Gateway>"
+  ]
+}

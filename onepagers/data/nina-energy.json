@@ -1,0 +1,172 @@
+{
+  "slug": "nina-energy",
+  "name": "Nina Energy",
+  "website": "https://nina.energy/",
+  "badge_en": "Bioenergy &amp; Carbon Removal &middot; CTH Acceleration 2024",
+  "badge_es": "Bioenergía y Remoción de Carbono &middot; Aceleración CTH 2024",
+  "hero_image": "https://nina.energy/wp-content/uploads/2026/07/Captura-de-pantalla-2025-11-19-161104.png",
+  "hero_sub_en": "nina.energy &middot; Ecuador &middot; Cotopaxi &middot; Bioenergy &middot; Stage: [PENDIENTE]",
+  "hero_sub_es": "nina.energy &middot; Ecuador &middot; Cotopaxi &middot; Bioenergía &middot; Etapa: [PENDIENTE]",
+  "pitch_en": "Ecuadorian pyrolysis and biomass technology converting agroforestry residues into verified carbon removal (biochar) and clean thermal energy — designed and manufactured locally.",
+  "pitch_es": "Tecnología ecuatoriana de pirólisis y biomasa que convierte residuos agroforestales en remoción de carbono verificada (biochar) y energía térmica limpia — diseñada y fabricada localmente.",
+  "cta_pitch_en": "Ecuadorian pyrolysis and biomass technology converting agroforestry residues into verified carbon removal (biochar) and clean thermal energy — designed and manufactured locally.",
+  "cta_pitch_es": "Tecnología ecuatoriana de pirólisis y biomasa que convierte residuos agroforestales en remoción de carbono verificada (biochar) y energía térmica limpia — diseñada y fabricada localmente.",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "ribbon": [
+    {
+      "val": "EC",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Ecuador",
+      "sub_es": "Ecuador"
+    },
+    {
+      "val": "PENDIENTE",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "Accel 2024",
+      "sub_es": "Accel 2024"
+    },
+    {
+      "val": "Bioenergy",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Métricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "Accel 2024",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Accelerator",
+        "lab_es": "Acelerador"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "EC",
+        "lab_en": "Ecuador",
+        "lab_es": "Ecuador"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Agricultural and forestry residues are often burned or left to decay, releasing emissions while rural communities lack clean process heat and durable carbon removal pathways.",
+      "head_es": "Los residuos agrícolas y forestales a menudo se queman o se degradan liberando emisiones, mientras comunidades rurales carecen de calor limpio y vías de remoción de carbono duraderas.",
+      "body_en": "Agricultural and forestry residues are often burned or left to decay, releasing emissions while rural communities lack clean process heat and durable carbon removal pathways.",
+      "body_es": "Los residuos agrícolas y forestales a menudo se queman o se degradan liberando emisiones, mientras comunidades rurales carecen de calor limpio y vías de remoción de carbono duraderas.",
+      "bg": "https://www.atmosfair.de/wp-content/uploads/pflanzenkohle-ecuador-1-1024x788.jpg"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "🎯",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Continuous pyrolysis reactors and biomass energy systems that produce certified biochar and thermal energy from residual biomass.",
+          "text_es": "Reactores de pirólisis continua y sistemas de energía de biomasa que producen biochar certificado y energía térmica a partir de biomasa residual."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "Nina Energy — CleantechHUB 2024 Acceleration Program (Portafolio CTH).",
+          "text_es": "Nina Energy — Programa de Aceleración CleantechHUB 2024 (Portafolio CTH)."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Based in Ecuador (Quito / Cotopaxi operations). Public site: nina.energy.",
+          "text_es": "Con base en Ecuador (operaciones Quito / Cotopaxi). Sitio público: nina.energy."
+        }
+      ],
+      "bg": "https://nina.energy/wp-content/uploads/2026/09/equipo-de-planta.webp"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact & Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Wiki source",
+          "title_es": "Fuente Wiki",
+          "text_en": "Profile synced from BookStack Startup Portfolio + Odoo (SoT).",
+          "text_es": "Perfil sincronizado desde BookStack Startup Portfolio + Odoo (SoT)."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomía",
+          "text_en": "Biomass &amp; Biogas (taxonomy pending sync)",
+          "text_es": "Biomasa y Biogás (taxonomía pendiente sync)"
+        }
+      ],
+      "bg": "https://www.atmosfair.de/wp-content/uploads/pflanzenkohle-ecuador-3-1024x683.jpg"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Andrés Novillo",
+          "initials": "AN",
+          "role_en": "Co-founder &amp; CEO",
+          "role_es": "Cofundador y CEO",
+          "bio_en": "Public-facing role: Co-founder &amp; CEO. Source: nina.energy team page.",
+          "bio_es": "Rol público: Cofundador y CEO. Fuente: página de equipo nina.energy.",
+          "linkedin": "https://www.linkedin.com/in/andres-novillo"
+        },
+        {
+          "name": "Mario A. Heredia Salgado, PhD",
+          "initials": "MH",
+          "role_en": "Co-founder &amp; Scientific Leader",
+          "role_es": "Cofundador y Líder Científico",
+          "bio_en": "Public-facing role: Co-founder &amp; Scientific Leader. Source: nina.energy team page.",
+          "bio_es": "Rol público: Cofundador y Líder Científico. Fuente: página de equipo nina.energy.",
+          "linkedin": "https://www.linkedin.com/in/mario-heredia-biomass"
+        }
+      ],
+      "dream_en": "Program: CleantechHUB 2024 Acceleration. City HQ: Quito [PENDIENTE formal sync]. CT taxonomy: [PENDIENTE]. Verified KPIs: [PENDIENTE].",
+      "dream_es": "Programa: Aceleración CleantechHUB 2024. Ciudad sede: Quito [PENDIENTE sync formal]. Taxonomía CT: [PENDIENTE]. KPIs verificados: [PENDIENTE].",
+      "bg": "https://nina.energy/wp-content/uploads/2026/07/Empowerment.webp"
+    }
+  ],
+  "cta_bg": "https://images.unsplash.com/photo-1625246333195-78d9c090ad85?w=1200&q=80"
+}

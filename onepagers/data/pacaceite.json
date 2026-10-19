@@ -1,0 +1,163 @@
+{
+  "slug": "pacaceite",
+  "name": "Pacaceite SAS",
+  "website": "#",
+  "badge_en": "Circular Bio-waste &middot; CLAC25",
+  "badge_es": "Residuos Circulares &middot; CLAC25",
+  "hero_image": "https://images.unsplash.com/photo-1615819905686-2a6476a0b1c5?w=1200&q=80",
+  "hero_sub_en": "Fundación, Magdalena &middot; Colombia &middot; Bioeconomy &middot; Stage: Pre-Seed",
+  "hero_sub_es": "Fundación, Magdalena &middot; Colombia &middot; Bioeconomía &middot; Etapa: Pre-Seed",
+  "pitch_en": "Develops sustainable bio-based products from vegetable oil or biomass inputs, targeting agricultural value chain transformation and bioenergy solutions in Colombia.",
+  "pitch_es": "Desarrolla productos bio-basados sostenibles a partir de aceites vegetales o biomasa, orientados a la transformación de cadenas de valor agrícolas y soluciones de bioenergía en Colombia.",
+  "cta_pitch_en": "Develops sustainable bio-based products from vegetable oil or biomass inputs, targeting agricultural value chain transformation and bioenergy solutions in Colombia.",
+  "cta_pitch_es": "Desarrolla productos bio-basados sostenibles a partir de aceites vegetales o biomasa, orientados a la transformación de cadenas de valor agrícolas y soluciones de bioenergía en Colombia.",
+  "cta_btn_en": "CleantechHUB",
+  "cta_btn_es": "CleantechHUB",
+  "ribbon": [
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    },
+    {
+      "val": "Pre-Seed",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLAC25",
+      "sub_es": "CLAC25"
+    },
+    {
+      "val": "Bioeconomy",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Métricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLAC25",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Accelerator",
+        "lab_es": "Acelerador"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Used cooking oil and related organic waste streams are often disposed of improperly, contaminating soils and water while losing circular value.",
+      "head_es": "El aceite de cocina usado y flujos de residuos orgánicos relacionados a menudo se disponen inadecuadamente, contaminando suelos y agua mientras se pierde valor circular.",
+      "body_en": "Used cooking oil and related organic waste streams are often disposed of improperly, contaminating soils and water while losing circular value.",
+      "body_es": "El aceite de cocina usado y flujos de residuos orgánicos relacionados a menudo se disponen inadecuadamente, contaminando suelos y agua mientras se pierde valor circular.",
+      "bg": "https://images.unsplash.com/photo-1532996122724-e3c031a396bf?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "🎯",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Collection and transformation of used cooking oil and non-hazardous waste into circular products and environmental sanitation services.",
+          "text_es": "Recolección y transformación de aceite de cocina usado y residuos no peligrosos en productos circulares y servicios de saneamiento ambiental."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "Pacaceite SAS — CLAC25 (CleantechHUB Colombia ClimAccelerator).",
+          "text_es": "Pacaceite SAS — CLAC25 (CleantechHUB Colombia ClimAccelerator)."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Based in Fundación, Magdalena, Colombia. Verified website: [PENDIENTE].",
+          "text_es": "Con base en Fundación, Magdalena, Colombia. Sitio web verificado: [PENDIENTE]."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact & Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Wiki source",
+          "title_es": "Fuente Wiki",
+          "text_en": "Profile synced from BookStack Startup Portfolio + Odoo (SoT).",
+          "text_es": "Perfil sincronizado desde BookStack Startup Portfolio + Odoo (SoT)."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomía",
+          "text_en": "Used cooking oil circular recovery (CT node pending sync)",
+          "text_es": "Valorización circular de aceite de cocina (nodo CT pendiente sync)"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Angie Juliana Peñaloza García",
+          "initials": "AP",
+          "role_en": "Founder &middot; CLAC25",
+          "role_es": "Fundadora &middot; CLAC25",
+          "bio_en": "Public-facing role: Founder, Pacaceite SAS. Source: public company registry / LinkedIn.",
+          "bio_es": "Rol público: Fundadora, Pacaceite SAS. Fuente: registro público / LinkedIn.",
+          "linkedin": "https://www.linkedin.com/in/angie-juliana-pe%C3%B1aloza-garcia-496174144"
+        }
+      ],
+      "dream_en": "Program: CLAC25 · Acceleration. CT taxonomy: [PENDIENTE]. Verified website: [PENDIENTE]. Verified KPIs: [PENDIENTE].",
+      "dream_es": "Programa: CLAC25 · Aceleración. Taxonomía CT: [PENDIENTE]. Sitio web verificado: [PENDIENTE]. KPIs verificados: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=1200&q=80"
+    }
+  ],
+  "cta_bg": "https://images.unsplash.com/photo-1618477388954-7852f725647a?w=1200&q=80"
+}

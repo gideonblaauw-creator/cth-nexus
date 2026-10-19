@@ -1,0 +1,163 @@
+{
+  "slug": "wheelo",
+  "name": "Wheelo",
+  "website": "#",
+  "badge_en": "Cleantech Ecosystem &middot; Acceleration",
+  "badge_es": "Ecosistema Cleantech &middot; Acceleration",
+  "hero_image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&q=80",
+  "cta_bg": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80",
+  "hero_sub_en": "[PENDIENTE] &middot; Colombia &middot; Medellin &middot; Cleantech &middot; Stage: [PENDIENTE]",
+  "hero_sub_es": "[PENDIENTE] &middot; Colombia &middot; Medellin &middot; Cleantech &middot; Etapa: [PENDIENTE]",
+  "pitch_en": "Sustainability cloud platform mapping and segmenting CleanTech, ClimateTech, and DeepTech startups across circular economy, mobility, and green energy themes.",
+  "pitch_es": "Plataforma cloud de sostenibilidad que mapea y segmenta startups CleanTech, ClimateTech y DeepTech en economia circular, movilidad y energia verde.",
+  "cta_pitch_en": "Mapping the cleantech startup ecosystem to accelerate climate innovation discovery.",
+  "cta_pitch_es": "Mapeo del ecosistema de startups cleantech para acelerar el descubrimiento de innovacion climatica.",
+  "cta_btn_en": "CleantechHUB",
+  "cta_btn_es": "CleantechHUB",
+  "ribbon": [
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "Pais",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "Accel.",
+      "sub_es": "Accel."
+    },
+    {
+      "val": "Circular",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Metricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "Accel.",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Hub",
+        "lab_es": "Hub"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Founders, corporates, and investors lack a structured map of climate startups and segments across Latin America.",
+      "head_es": "Fundadores, corporativos e inversionistas carecen de un mapa estructurado de startups climaticas y segmentos en America Latina.",
+      "body_en": "Founders, corporates, and investors lack a structured map of climate startups and segments across Latin America.",
+      "body_es": "Fundadores, corporativos e inversionistas carecen de un mapa estructurado de startups climaticas y segmentos en America Latina.",
+      "bg": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solucion",
+      "steps": [
+        {
+          "icon": "🌱",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Wheelo (#SaveInGreen) builds a sustainability cloud to discover, categorize, and connect cleantech ventures.",
+          "text_es": "Wheelo (#SaveInGreen) construye una nube de sostenibilidad para descubrir, categorizar y conectar ventures cleantech."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "Wheelo — CTH Acceleration (Portafolio CTH).",
+          "text_es": "Wheelo — Acceleration CTH (Portafolio CTH)."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Based in Medellin, Antioquia. Verified public website: [PENDIENTE].",
+          "text_es": "Con base en Medellin, Antioquia. Sitio web publico verificado: [PENDIENTE]."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact &amp; Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Portfolio source",
+          "title_es": "Fuente portafolio",
+          "text_en": "Profile synced from CleantechHUB Startup Portfolio card and public web sources (Portafolio CTH / Acceleration).",
+          "text_es": "Perfil sincronizado desde tarjeta Startup Portfolio CleantechHUB y fuentes web publicas (Portafolio CTH / Acceleration)."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomia",
+          "text_en": "CT taxonomy: [PENDIENTE]",
+          "text_es": "Taxonomia CT: [PENDIENTE]"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1497436073146-47bd4214358c?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Mario Alejandro Muneton Durango",
+          "role_en": "Co-founder &amp; CEO &middot; Wheelo",
+          "role_es": "Cofundador y CEO &middot; Wheelo",
+          "bio_en": "Public-facing CEO role. Source: LinkedIn company profile and founder LinkedIn.",
+          "bio_es": "Rol publico de CEO. Fuente: perfil LinkedIn de la empresa y fundador.",
+          "initials": "MA",
+          "linkedin": "https://www.linkedin.com/in/mario-alejandro-mu%C3%B1et%C3%B3n-durango-93b3511b4"
+        }
+      ],
+      "dream_en": "Program: CTH Acceleration. City: Medellin. Website: [PENDIENTE]. CT taxonomy: [PENDIENTE]. Verified KPIs: [PENDIENTE]. Image credits: All section photos: Unsplash (cleantech ecosystem / green business). Verified website: [PENDIENTE].",
+      "dream_es": "Programa: Acceleration CTH. Ciudad: Medellin. Sitio web: [PENDIENTE]. Taxonomia CT: [PENDIENTE]. KPIs verificados: [PENDIENTE]. Creditos imagen: Fotos de seccion: Unsplash (ecosistema cleantech / negocio verde). Sitio web verificado: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1600880292203-75762f0790e8?w=1200&q=80"
+    }
+  ]
+}
