@@ -1,0 +1,163 @@
+{
+  "slug": "tr-global-group",
+  "name": "TR Global Group",
+  "website": "https://www.slowreciclaje.com",
+  "badge_en": "Textile Circularity &middot; Acceleration",
+  "badge_es": "Circularidad Textil &middot; Acceleration",
+  "hero_image": "https://www.slowreciclaje.com/cdn/shop/files/Banner_SEO.png",
+  "cta_bg": "https://www.slowreciclaje.com/cdn/shop/files/MOBILIARIO_72311884-2e6a-4bbb-8da3-7fe47c004300.jpg",
+  "hero_sub_en": "slowreciclaje.com &middot; Colombia &middot; Medellin &middot; Circular Economy &middot; Stage: [PENDIENTE]",
+  "hero_sub_es": "slowreciclaje.com &middot; Colombia &middot; Medellin &middot; Economia Circular &middot; Etapa: [PENDIENTE]",
+  "pitch_en": "Operates SLOW, collecting and transforming post-consumer and post-industrial textile waste into reusable materials for fashion, furniture, and design.",
+  "pitch_es": "Opera SLOW, recolectando y transformando residuos textiles posconsumo e industriales en materiales reutilizables para moda, mobiliario y diseno.",
+  "cta_pitch_en": "Regenerative textile materials with traceability for architecture and design projects.",
+  "cta_pitch_es": "Materiales textiles regenerativos con trazabilidad para proyectos de arquitectura y diseno.",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "ribbon": [
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "Pais",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "Accel.",
+      "sub_es": "Accel."
+    },
+    {
+      "val": "Circular",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Metricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "Accel.",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Hub",
+        "lab_es": "Hub"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Textile waste from production and post-consumer streams often ends in landfill instead of productive reuse loops.",
+      "head_es": "Residuos textiles de produccion y posconsumo a menudo terminan en relleno en lugar de bucles productivos de reutilizacion.",
+      "body_en": "Textile waste from production and post-consumer streams often ends in landfill instead of productive reuse loops.",
+      "body_es": "Residuos textiles de produccion y posconsumo a menudo terminan en relleno en lugar de bucles productivos de reutilizacion.",
+      "bg": "https://www.slowreciclaje.com/cdn/shop/files/BANDEJAIRREGULAR.jpg"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solucion",
+      "steps": [
+        {
+          "icon": "🌱",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "SLOW service: collection, sorting, traceability, and material products for architecture, interiors, and brands.",
+          "text_es": "Servicio SLOW: recoleccion, clasificacion, trazabilidad y productos de material para arquitectura, interiores y marcas."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "TR GLOBAL GROUP SAS — CTH Acceleration (Portafolio CTH) and REIN Hubs ecosystem.",
+          "text_es": "TR GLOBAL GROUP SAS — Acceleration CTH (Portafolio CTH) y ecosistema REIN Hubs."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Medellin, Colombia. Public brand site: slowreciclaje.com.",
+          "text_es": "Medellin, Colombia. Sitio publico de marca: slowreciclaje.com."
+        }
+      ],
+      "bg": "https://www.slowreciclaje.com/cdn/shop/files/florero_Botanic_editorial.jpg"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact &amp; Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Portfolio source",
+          "title_es": "Fuente portafolio",
+          "text_en": "Profile synced from CleantechHUB Startup Portfolio card and public web sources (Portafolio CTH / Acceleration).",
+          "text_es": "Perfil sincronizado desde tarjeta Startup Portfolio CleantechHUB y fuentes web publicas (Portafolio CTH / Acceleration)."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomia",
+          "text_en": "CT-WA-003 &middot; Recycling &amp; Materials Recovery; textile circularity (CT-EX-038 candidate)",
+          "text_es": "CT-WA-003 &middot; Reciclaje y valorizacion; circularidad textil (candidato CT-EX-038)"
+        }
+      ],
+      "bg": "https://www.slowreciclaje.com/cdn/shop/files/MesadeCentroOrigenNegra.jpg"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Vanessa Baez Morales",
+          "role_en": "CEO &amp; Co-founder &middot; SLOW / TR Global Group",
+          "role_es": "CEO y Cofundadora &middot; SLOW / TR Global Group",
+          "bio_en": "Public-facing CEO role for SLOW textile recovery. Source: slowreciclaje.com, REIN Hubs press, LinkedIn.",
+          "bio_es": "Rol publico de CEO de recuperacion textil SLOW. Fuente: slowreciclaje.com, prensa REIN Hubs, LinkedIn.",
+          "initials": "VB",
+          "linkedin": "https://www.linkedin.com/in/vanessa-baez-morales"
+        }
+      ],
+      "dream_en": "Program: CTH Acceleration + REIN Hubs. City: Medellin. Stage on card: [PENDIENTE]. Verified KPIs: [PENDIENTE]. Image credits: All product/brand photos: slowreciclaje.com (SLOW / TR Global Group).",
+      "dream_es": "Programa: Acceleration CTH + REIN Hubs. Ciudad: Medellin. Etapa en tarjeta: [PENDIENTE]. KPIs verificados: [PENDIENTE]. Creditos imagen: Fotos producto/marca: slowreciclaje.com (SLOW / TR Global Group).",
+      "bg": "https://www.slowreciclaje.com/cdn/shop/files/Florero_liso_regenerativo_foto_editorial_blanca.jpg"
+    }
+  ]
+}
