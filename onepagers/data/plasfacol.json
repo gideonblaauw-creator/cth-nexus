@@ -4,7 +4,7 @@
   "website": "https://eco-tienda-plasfacol.venndelo.com",
   "badge_en": "Circular Economy &middot; CLAC25",
   "badge_es": "Economía circular &middot; CLAC25",
-  "hero_image": "https://images.unsplash.com/photo-1611280048847-d352f4e42d3e?w=1200&q=80",
+  "hero_image": "./assets/hero.jpg",
   "hero_sub_en": "eco-tienda-plasfacol.venndelo.com &middot; Colombia &middot; Cali &middot; Circular Economy &middot; Stage: Pre-Seed &middot; [PENDIENTE]",
   "hero_sub_es": "eco-tienda-plasfacol.venndelo.com &middot; Colombia &middot; Cali &middot; Economía circular &middot; Etapa: Pre-Seed &middot; [PENDIENTE]",
   "pitch_en": "Manufactures or recycles plastic materials, developing circular solutions for plastic waste recovery and transformation into reusable industrial inputs.",
@@ -80,7 +80,9 @@
       "head_es": "Los residuos plásticos de electrodomésticos, electrónica y empaques carecen de rutas circulares de recuperación, aumentando la presión sobre rellenos y la pérdida de valor material en Colombia.",
       "body_en": "Plastic waste from appliances, electronics, and packaging lacks circular recovery paths, driving landfill pressure and lost material value in Colombia.",
       "body_es": "Los residuos plásticos de electrodomésticos, electrónica y empaques carecen de rutas circulares de recuperación, aumentando la presión sobre rellenos y la pérdida de valor material en Colombia.",
-      "bg": "https://images.unsplash.com/photo-1611280048847-d352f4e42d3e?w=1200&q=80"
+      "bg": "./assets/bg-problem.jpg",
+      "bg_credit_en": "Photo: Ricardo Gomez Angel / Unsplash",
+      "bg_credit_es": "Foto: Ricardo Gomez Angel / Unsplash"
     },
     {
       "num": 2,
@@ -111,7 +113,9 @@
           "text_es": "Con base en Colombia (Cali). Sitio público: eco-tienda-plasfacol.venndelo.com."
         }
       ],
-      "bg": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80"
+      "bg": "./assets/bg-solution.jpg",
+      "bg_credit_en": "Photo: Nick Fewings / Unsplash",
+      "bg_credit_es": "Foto: Nick Fewings / Unsplash"
     },
     {
       "num": 3,
@@ -135,7 +139,9 @@
           "text_es": "[PENDIENTE]"
         }
       ],
-      "bg": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1200&q=80"
+      "bg": "./assets/bg-impact.jpg",
+      "bg_credit_en": "Photo: Plasfacol product — recycled-plastic hanger (venndelo.com)",
+      "bg_credit_es": "Foto: Producto Plasfacol — gancho plástico reciclado (venndelo.com)"
     },
     {
       "num": 4,
@@ -155,7 +161,14 @@
       ],
       "dream_en": "Program: CLAC25. CT taxonomy: [P]. Verified KPIs: [PENDIENTE].",
       "dream_es": "Programa: CLAC25. Taxonomía CT: [P]. KPIs verificados: [PENDIENTE].",
-      "bg": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80"
+      "bg": "./assets/bg-team.jpg",
+      "bg_credit_en": "Photo: ThisIsEngineering / Unsplash",
+      "bg_credit_es": "Foto: ThisIsEngineering / Unsplash"
     }
-  ]
+  ],
+  "hero_credit_en": "Photo: Plasfacol storefront (eco-tienda-plasfacol.venndelo.com)",
+  "hero_credit_es": "Foto: Tienda Plasfacol (eco-tienda-plasfacol.venndelo.com)",
+  "cta_bg": "./assets/bg-cta.jpg",
+  "cta_bg_credit_en": "Photo: Zdeněk Macháček / Unsplash",
+  "cta_bg_credit_es": "Foto: Zdeněk Macháček / Unsplash"
 }

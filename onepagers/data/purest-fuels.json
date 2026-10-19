@@ -4,7 +4,7 @@
   "website": "https://purestfuels.com",
   "badge_en": "Energy &middot; CLAC23",
   "badge_es": "Energía &middot; CLAC23",
-  "hero_image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1200&q=80",
+  "hero_image": "./assets/hero.jpg",
   "hero_sub_en": "purestfuels.com &middot; Colombia &middot; Cali &middot; Energy &middot; Stage: Pre-Seed &middot; [PENDIENTE]",
   "hero_sub_es": "purestfuels.com &middot; Colombia &middot; Cali &middot; Energía &middot; Etapa: Pre-Seed &middot; [PENDIENTE]",
   "pitch_en": "Develops hydrogen injection systems for diesel engines using surplus energy and water to produce low-emission hydrogen, reducing CO₂ and fuel consumption.",
@@ -80,7 +80,9 @@
       "head_es": "Los motores diésel y gasolina siguen siendo fuentes importantes de desperdicio de combustible, emisiones de CO₂ y contaminación del aire en aplicaciones industriales, de transporte y marinas en América Latina.",
       "body_en": "Diesel and gasoline engines remain major sources of fuel waste, CO₂ emissions, and air pollution across industrial, transport, and marine applications in Latin America.",
       "body_es": "Los motores diésel y gasolina siguen siendo fuentes importantes de desperdicio de combustible, emisiones de CO₂ y contaminación del aire en aplicaciones industriales, de transporte y marinas en América Latina.",
-      "bg": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1200&q=80"
+      "bg": "./assets/bg-problem.jpg",
+      "bg_credit_en": "Photo: Scott Webb / Unsplash",
+      "bg_credit_es": "Foto: Scott Webb / Unsplash"
     },
     {
       "num": 2,
@@ -111,7 +113,9 @@
           "text_es": "Con base en Colombia (Cali). Sitio público: purestfuels.com."
         }
       ],
-      "bg": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80"
+      "bg": "./assets/bg-solution.jpg",
+      "bg_credit_en": "Photo: Luke Chesser / Unsplash",
+      "bg_credit_es": "Foto: Luke Chesser / Unsplash"
     },
     {
       "num": 3,
@@ -135,7 +139,9 @@
           "text_es": "[PENDIENTE]"
         }
       ],
-      "bg": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1200&q=80"
+      "bg": "./assets/bg-impact.jpg",
+      "bg_credit_en": "Photo: Matt Hardy / Unsplash",
+      "bg_credit_es": "Foto: Matt Hardy / Unsplash"
     },
     {
       "num": 4,
@@ -165,7 +171,14 @@
       ],
       "dream_en": "Program: CLAC23. CT taxonomy: [P]. Verified KPIs: [PENDIENTE].",
       "dream_es": "Programa: CLAC23. Taxonomía CT: [P]. KPIs verificados: [PENDIENTE].",
-      "bg": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80"
+      "bg": "./assets/bg-team.jpg",
+      "bg_credit_en": "Photo: Markus Spiske / Unsplash",
+      "bg_credit_es": "Foto: Markus Spiske / Unsplash"
     }
-  ]
+  ],
+  "hero_credit_en": "Photo: Appolinary Kalashnikova / Unsplash",
+  "hero_credit_es": "Foto: Appolinary Kalashnikova / Unsplash",
+  "cta_bg": "./assets/bg-cta.jpg",
+  "cta_bg_credit_en": "Photo: Science in HD / Unsplash",
+  "cta_bg_credit_es": "Foto: Science in HD / Unsplash"
 }

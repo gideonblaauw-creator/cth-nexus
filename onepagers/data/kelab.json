@@ -4,7 +4,7 @@
   "website": "https://kelab.com.co",
   "badge_en": "Circular Economy &middot; Acceleration",
   "badge_es": "Economía circular &middot; Acceleration",
-  "hero_image": "https://images.unsplash.com/photo-1532996122724-e3c031a396bf?w=1200&q=80",
+  "hero_image": "./assets/hero.jpg",
   "hero_sub_en": "kelab.com.co &middot; Colombia &middot; Bogotá &middot; Circular Economy &middot; Stage: [PENDIENTE] &middot; [PENDIENTE]",
   "hero_sub_es": "kelab.com.co &middot; Colombia &middot; Bogotá &middot; Economía circular &middot; Etapa: [PENDIENTE] &middot; [PENDIENTE]",
   "pitch_en": "Environmental consultancy delivering circular-economy strategy, packaging-waste compliance (Clean Pack), and the Co-Workers Cloud digital marketplace for recoverable materials.",
@@ -80,7 +80,9 @@
       "head_es": "Las industrias en Colombia enfrentan permisos ambientales complejos, obligaciones de envases y empaques y mercados fragmentados para materiales aprovechables.",
       "body_en": "Industries in Colombia face complex environmental permitting, packaging-waste obligations, and fragmented markets for recoverable materials.",
       "body_es": "Las industrias en Colombia enfrentan permisos ambientales complejos, obligaciones de envases y empaques y mercados fragmentados para materiales aprovechables.",
-      "bg": "https://images.unsplash.com/photo-1532996122724-e3c031a396bf?w=1200&q=80"
+      "bg": "./assets/bg-problem.jpg",
+      "bg_credit_en": "Photo: National Cancer Institute / Unsplash",
+      "bg_credit_es": "Foto: National Cancer Institute / Unsplash"
     },
     {
       "num": 2,
@@ -111,7 +113,9 @@
           "text_es": "Con base en Colombia (Bogotá). Sitio público: kelab.com.co."
         }
       ],
-      "bg": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80"
+      "bg": "./assets/bg-solution.jpg",
+      "bg_credit_en": "Photo: Nathan Dumlao / Unsplash",
+      "bg_credit_es": "Foto: Nathan Dumlao / Unsplash"
     },
     {
       "num": 3,
@@ -135,7 +139,9 @@
           "text_es": "[PENDIENTE]"
         }
       ],
-      "bg": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1200&q=80"
+      "bg": "./assets/bg-impact.jpg",
+      "bg_credit_en": "Photo: Mockup Graphics / Unsplash",
+      "bg_credit_es": "Foto: Mockup Graphics / Unsplash"
     },
     {
       "num": 4,
@@ -156,7 +162,14 @@
       ],
       "dream_en": "Program: Acceleration. CT taxonomy: [P]. Verified KPIs: [PENDIENTE].",
       "dream_es": "Programa: Acceleration. Taxonomía CT: [P]. KPIs verificados: [PENDIENTE].",
-      "bg": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80"
+      "bg": "./assets/bg-team.jpg",
+      "bg_credit_en": "Photo: Austin Distel / Unsplash",
+      "bg_credit_es": "Foto: Austin Distel / Unsplash"
     }
-  ]
+  ],
+  "hero_credit_en": "Photo: Elevate / Unsplash",
+  "hero_credit_es": "Foto: Elevate / Unsplash",
+  "cta_bg": "./assets/bg-cta.jpg",
+  "cta_bg_credit_en": "Photo: Priscilla Du Preez / Unsplash",
+  "cta_bg_credit_es": "Foto: Priscilla Du Preez / Unsplash"
 }

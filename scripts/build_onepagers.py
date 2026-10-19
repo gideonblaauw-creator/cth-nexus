@@ -236,13 +236,18 @@ def build_page(d: dict) -> str:
         elif sec["type"] == "html":
             inner = sec["html"]
 
+        sec_credit = ""
+        if sec.get("bg_credit_en"):
+            sec_credit = (
+                f'<div class="img-credit">{bi(sec["bg_credit_en"], sec["bg_credit_es"])}</div>'
+            )
         sections_html += (
             f'<div class="sec" style="position:relative;">'
             f'<div class="sec-bg" style="background-image:url(\'{bg}\');"></div>'
             f'<div class="sec-ov" style="background:{ov};"></div>'
             f'<div class="sec-header"><div class="sec-num">{num:02d}</div>'
             f'<div class="sec-title">{bi(title_en, title_es)}</div><div class="sec-rule"></div></div>'
-            f'{inner}</div>'
+            f'{inner}{sec_credit}</div>'
         )
         if sec.get("accent_after"):
             sections_html += '<div class="accent-bar"></div>'
@@ -252,6 +257,18 @@ def build_page(d: dict) -> str:
     if deck:
         local_pdf = deck.get("pdf_path") or f"/s/{slug}/deck.pdf"
         deck_link = f'<a class="cta-link" href="{local_pdf}" target="_blank" rel="noopener">{bi("Pitch deck (PDF)", "Pitch deck (PDF)")}</a>'
+
+    hero_credit = ""
+    if d.get("hero_credit_en"):
+        hero_credit = (
+            f'<div class="hero-credit">{bi(d["hero_credit_en"], d["hero_credit_es"])}</div>'
+        )
+    cta_bg = asset_url(d.get("cta_bg", "./assets/bg-cta.jpg"), slug)
+    cta_credit = ""
+    if d.get("cta_bg_credit_en"):
+        cta_credit = (
+            f'<div class="img-credit cta-credit">{bi(d["cta_bg_credit_en"], d["cta_bg_credit_es"])}</div>'
+        )
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -281,7 +298,8 @@ def build_page(d: dict) -> str:
     <div class="hero-sub">{bi(d["hero_sub_en"], d["hero_sub_es"])}</div>
     <div class="hero-pitch">{bi(d["pitch_en"], d["pitch_es"])}</div>
   </div>
-  <div class="hero-tagline">Inspira. Actúa. Transforma.</div>
+  <div class="hero-tagline">Inspira. Act�a. Transforma.</div>
+  {hero_credit}
 </div>
 
 <div class="ribbon" style="background:rgba(12,73,138,.95);">{ribbon}</div>
@@ -291,8 +309,9 @@ def build_page(d: dict) -> str:
 {sections_html}
 
 <div class="sec" style="position:relative;">
-  <div class="sec-bg" style="background-image:url('{asset_url("./assets/bg-cta.jpg", slug)}');"></div>
+  <div class="sec-bg" style="background-image:url('{cta_bg}');"></div>
   <div class="sec-ov" style="background:rgba(12,73,138,.30);"></div>
+  {cta_credit}
   <div class="cta">
     <div class="pill" style="background:rgba(157,195,132,.12);border:1px solid rgba(157,195,132,.2);color:var(--lg);margin-bottom:16px;">{bi(d["badge_en"], d["badge_es"])}</div>
     <div class="cta-name">{d["name"]}</div>
@@ -328,15 +347,17 @@ def main() -> None:
             continue
         html = build_page(data)
         pdf_src_name = (data.get("deck_pdf") or {}).get("source_file")
-        media_src = OUT_MEDIA / slug
+        assets_src = OUT_MEDIA / slug / "assets"
+        if not assets_src.is_dir():
+            assets_src = OUT_MEDIA / slug
         for base in (d / slug for d in out_dirs):
             base.mkdir(parents=True, exist_ok=True)
             (base / "index.html").write_text(html)
-            if media_src.is_dir():
+            if assets_src.is_dir():
                 dest_assets = base / "assets"
                 if dest_assets.exists():
                     shutil.rmtree(dest_assets)
-                shutil.copytree(media_src, dest_assets, dirs_exist_ok=False)
+                shutil.copytree(assets_src, dest_assets, dirs_exist_ok=False)
             if pdf_src_name:
                 src_pdf = DECK_SOURCE / pdf_src_name
                 if src_pdf.is_file():

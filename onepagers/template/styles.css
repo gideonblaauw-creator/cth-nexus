@@ -28,6 +28,9 @@ body{font-family:'Open Sans','PT Sans',sans-serif;background:var(--page);color:v
 .hero-sub{font-size:14px;font-weight:600;color:var(--lg);margin-top:8px;}
 .hero-pitch{font-size:14px;line-height:1.6;color:rgba(255,255,255,.75);margin-top:14px;max-width:540px;}
 .hero-tagline{font-size:10px;font-style:italic;color:var(--lg);opacity:.65;position:absolute;bottom:36px;right:48px;}
+.hero-credit{position:absolute;bottom:10px;left:48px;z-index:3;font-size:8px;font-weight:600;color:rgba(255,255,255,.78);max-width:420px;line-height:1.35;text-shadow:0 1px 6px rgba(0,0,0,.55);}
+.img-credit{margin:0 48px 14px;padding:8px 12px;border-radius:6px;font-size:8px;font-weight:600;color:rgba(255,255,255,.85);line-height:1.35;position:relative;z-index:2;background:rgba(12,73,138,.55);border:1px solid rgba(255,255,255,.22);}
+.cta-credit{position:absolute;bottom:12px;left:48px;right:48px;margin:0;z-index:2;}
 
 .ribbon{display:grid;grid-template-columns:repeat(4,1fr);}
 .ribbon-cell{padding:22px 24px;text-align:center;border-right:1px solid rgba(255,255,255,.06);}

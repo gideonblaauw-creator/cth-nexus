@@ -4,7 +4,7 @@
   "website": "https://redsimbiotic.com",
   "badge_en": "Circular Economy &middot; CLAC22",
   "badge_es": "Economía circular &middot; CLAC22",
-  "hero_image": "https://images.unsplash.com/photo-1532996122724-e3c031a396bf?w=1200&q=80",
+  "hero_image": "./assets/hero.jpg",
   "hero_sub_en": "redsimbiotic.com &middot; Colombia &middot; Chía &middot; Circular Economy &middot; Stage: Seed &middot; CT-WA-003",
   "hero_sub_es": "redsimbiotic.com &middot; Colombia &middot; Chía &middot; Economía circular &middot; Etapa: Seed &middot; CT-WA-003",
   "pitch_en": "Sustainability consultancy connecting businesses with certified waste networks, and developing a platform for regenerative tourism destination management in Colombia.",
@@ -80,7 +80,9 @@
       "head_es": "Las empresas y destinos turísticos carecen de herramientas integradas para gestionar residuos responsablemente y medir desempeño de sostenibilidad en cadenas de valor.",
       "body_en": "Companies and tourism destinations lack integrated tools to manage waste responsibly and measure sustainability performance across value chains.",
       "body_es": "Las empresas y destinos turísticos carecen de herramientas integradas para gestionar residuos responsablemente y medir desempeño de sostenibilidad en cadenas de valor.",
-      "bg": "https://images.unsplash.com/photo-1532996122724-e3c031a396bf?w=1200&q=80"
+      "bg": "./assets/bg-problem.jpg",
+      "bg_credit_en": "Photo: Simbiotic (redsimbiotic.com)",
+      "bg_credit_es": "Foto: Simbiotic (redsimbiotic.com)"
     },
     {
       "num": 2,
@@ -111,7 +113,9 @@
           "text_es": "Con base en Colombia (Chía). Sitio público: redsimbiotic.com."
         }
       ],
-      "bg": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80"
+      "bg": "./assets/bg-solution.jpg",
+      "bg_credit_en": "Photo: Simbiotic team (redsimbiotic.com)",
+      "bg_credit_es": "Foto: Equipo Simbiotic (redsimbiotic.com)"
     },
     {
       "num": 3,
@@ -135,7 +139,9 @@
           "text_es": "Recycling & Materials Recovery · Supply Chain Traceability"
         }
       ],
-      "bg": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1200&q=80"
+      "bg": "./assets/bg-impact.jpg",
+      "bg_credit_en": "Photo: Simbiotic — ADN Sostenible (redsimbiotic.com)",
+      "bg_credit_es": "Foto: Simbiotic — ADN Sostenible (redsimbiotic.com)"
     },
     {
       "num": 4,
@@ -165,7 +171,14 @@
       ],
       "dream_en": "Program: CLAC22. CT taxonomy: CT-WA-003. Verified KPIs: [PENDIENTE].",
       "dream_es": "Programa: CLAC22. Taxonomía CT: CT-WA-003. KPIs verificados: [PENDIENTE].",
-      "bg": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80"
+      "bg": "./assets/bg-team.jpg",
+      "bg_credit_en": "Photo: Christina @ wocintechchat.com / Unsplash",
+      "bg_credit_es": "Foto: Christina @ wocintechchat.com / Unsplash"
     }
-  ]
+  ],
+  "hero_credit_en": "Photo: Simbiotic — Triply sustainable tourism (redsimbiotic.com)",
+  "hero_credit_es": "Foto: Simbiotic — turismo sostenible Triply (redsimbiotic.com)",
+  "cta_bg": "./assets/bg-cta.jpg",
+  "cta_bg_credit_en": "Photo: Zbynek Burival / Unsplash",
+  "cta_bg_credit_es": "Foto: Zbynek Burival / Unsplash"
 }
