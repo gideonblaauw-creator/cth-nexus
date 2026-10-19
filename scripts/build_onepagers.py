@@ -291,7 +291,7 @@ def build_page(d: dict) -> str:
 {sections_html}
 
 <div class="sec" style="position:relative;">
-  <div class="sec-bg" style="background-image:url('{asset_url("./assets/bg-cta.jpg", slug)}');"></div>
+  <div class="sec-bg" style="background-image:url('{asset_url(d.get("cta_bg") or "./assets/bg-cta.jpg", slug)}');"></div>
   <div class="sec-ov" style="background:rgba(12,73,138,.30);"></div>
   <div class="cta">
     <div class="pill" style="background:rgba(157,195,132,.12);border:1px solid rgba(157,195,132,.2);color:var(--lg);margin-bottom:16px;">{bi(d["badge_en"], d["badge_es"])}</div>
@@ -305,6 +305,7 @@ def build_page(d: dict) -> str:
     </div>
     <div class="cta-brand"><div class="tg">Inspira. Act\u00faa. Transforma.</div><div class="lg2">Cleantech<em style="color:var(--lg);font-style:normal;">HUB</em></div></div>
     <div class="cta-port">{bi("CleantechHUB portfolio profile \u00b7 Latin America", "Perfil portafolio CleantechHUB \u00b7 Am\u00e9rica Latina")}</div>
+    {f'<div class="cta-port" style="margin-top:10px;opacity:.85;font-size:9px;line-height:1.45;">{bi(d.get("image_credits_en",""), d.get("image_credits_es",""))}</div>' if d.get("image_credits_en") else ""}
   </div>
 </div>
 <div class="accent-bar"></div>

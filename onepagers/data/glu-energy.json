@@ -4,7 +4,7 @@
   "website": "https://www.glu-energy.com",
   "badge_en": "Distributed Clean Energy &middot; Acceleration",
   "badge_es": "Energ&iacute;a Limpia Distribuida &middot; Acceleration",
-  "hero_image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1200&q=80",
+  "hero_image": "https://www.glu-energy.com/uploads/glu_energy_ecosystem.png",
   "hero_sub_en": "glu-energy.com &middot; Bogot&aacute;, Colombia &middot; Clean Energy &middot; Stage: [PENDIENTE]",
   "hero_sub_es": "glu-energy.com &middot; Bogot&aacute;, Colombia &middot; Energ&iacute;a Limpia &middot; Etapa: [PENDIENTE]",
   "pitch_en": "Builds energy communities, virtual power plants, and mini solar farms—integrating solar, storage, software, and edge nodes for affordable housing and distributed clean power.",
@@ -80,7 +80,7 @@
       "head_es": "Edificios y comunidades en Am&eacute;rica Latina necesitan electricidad m&aacute;s limpia, asequible y flexible—sin depender solo de generaci&oacute;n f&oacute;sil centralizada.",
       "body_en": "Latin American buildings and communities need cleaner, more affordable, and more flexible electricity—without relying solely on centralized fossil generation.",
       "body_es": "Edificios y comunidades en Am&eacute;rica Latina necesitan electricidad m&aacute;s limpia, asequible y flexible—sin depender solo de generaci&oacute;n f&oacute;sil centralizada.",
-      "bg": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1200&q=80"
+      "bg": "https://www.glu-energy.com/uploads/Picture26.jpg"
     },
     {
       "num": 2,
@@ -111,7 +111,7 @@
           "text_es": "Entidad en Colombia (Bogot&aacute;). Sitios p&uacute;blicos: glu-energy.com; LinkedIn empresa Glu Energy S.A.S. E.S.P."
         }
       ],
-      "bg": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80"
+      "bg": "https://www.glu-energy.com/uploads/Picture27.png"
     },
     {
       "num": 3,
@@ -135,7 +135,7 @@
           "text_es": "[PENDIENTE] &middot; Solar distribuido y comunidades energ&eacute;ticas"
         }
       ],
-      "bg": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1497436072904-37f7849041de?w=1200&q=80"
     },
     {
       "num": 4,
@@ -165,7 +165,10 @@
       ],
       "dream_en": "CT taxonomy: [PENDIENTE]. Verified KPIs: [PENDIENTE] (public marketing figures on glu-energy.com not copied—regional pipeline metrics). Pitch deck: [PENDIENTE].",
       "dream_es": "Taxonom&iacute;a CT: [PENDIENTE]. KPIs verificados: [PENDIENTE] (cifras de marketing en glu-energy.com no copiadas). Pitch deck: [PENDIENTE].",
-      "bg": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1518455027359-763f1d6f9667?w=1200&q=80"
     }
-  ]
+  ],
+  "cta_bg": "https://images.unsplash.com/photo-1559305610-1f977d2bf25f?w=1200&q=80",
+  "image_credits_en": "Hero, Problem, Solution: glu-energy.com. Impact/Unsplash: Andreas G&uuml;ckl (photo-1497436072904). Leadership/Unsplash: American Public Power Association (photo-1518455027359). CTA/Unsplash: Zane Lee (photo-1559305610).",
+  "image_credits_es": "Hero, Problema, Soluci&oacute;n: glu-energy.com. Impacto/Unsplash: Andreas G&uuml;ckl (photo-1497436072904). Liderazgo/Unsplash: American Public Power Association (photo-1518455027359). CTA/Unsplash: Zane Lee (photo-1559305610)."
 }

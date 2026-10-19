@@ -80,7 +80,7 @@
       "head_es": "Los residuos org&aacute;nicos urbanos a menudo terminan en rellenos, perdiendo nutrientes y generando metano en lugar de devolver biomasa a los suelos.",
       "body_en": "Organic waste from cities is often landfilled, losing nutrients and driving methane emissions instead of returning biomass to soils.",
       "body_es": "Los residuos org&aacute;nicos urbanos a menudo terminan en rellenos, perdiendo nutrientes y generando metano en lugar de devolver biomasa a los suelos.",
-      "bg": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1532996122724-e3c031a396bf?w=1200&q=80"
     },
     {
       "num": 2,
@@ -111,7 +111,7 @@
           "text_es": "&Aacute;rea metropolitana Floridablanca / Bucaramanga, Colombia. Sitio p&uacute;blico: gna.com.co."
         }
       ],
-      "bg": "https://images.unsplash.com/photo-1532996122724-e3c031a396bf?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1595278069443-2792a57bd1f8?w=1200&q=80"
     },
     {
       "num": 3,
@@ -135,7 +135,7 @@
           "text_es": "CT-WA-002 &middot; Residuos org&aacute;nicos y compost"
         }
       ],
-      "bg": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1200&q=80"
     },
     {
       "num": 4,
@@ -163,7 +163,10 @@
       ],
       "dream_en": "Program: CLAC23 Acceleration. Pitch deck on profile: [PENDIENTE]. Verified KPIs: [PENDIENTE].",
       "dream_es": "Programa: Aceleraci&oacute;n CLAC23. Pitch deck en perfil: [PENDIENTE]. KPIs verificados: [PENDIENTE].",
-      "bg": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1574944983790-729784346989?w=1200&q=80"
     }
-  ]
+  ],
+  "cta_bg": "https://images.unsplash.com/photo-1466692478222-5f3b0e4b6c3a?w=1200&q=80",
+  "image_credits_en": "All photos: Unsplash — Hero: Markus Spiske (photo-1416879595882). Problem: Jilbert Ebrahimi (photo-1532996122724). Solution: Noah Buscher (photo-1595278069443). Impact: Zoe Schaeffer (photo-1625246333195). Leadership: Tim Mossholder (photo-1574944983790). CTA: Kyle Glenn (photo-1466692478222). Public copy: gna.com.co.",
+  "image_credits_es": "Todas las fotos: Unsplash — Hero: Markus Spiske (photo-1416879595882). Problema: Jilbert Ebrahimi (photo-1532996122724). Soluci&oacute;n: Noah Buscher (photo-1595278069443). Impacto: Zoe Schaeffer (photo-1625246333195). Liderazgo: Tim Mossholder (photo-1574944983790). CTA: Kyle Glenn (photo-1466692478222). Texto p&uacute;blico: gna.com.co."
 }

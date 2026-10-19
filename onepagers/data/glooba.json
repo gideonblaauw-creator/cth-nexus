@@ -80,7 +80,7 @@
       "head_es": "Las empresas enfrentan dificultades para encontrar proveedores sostenibles confiables y coordinar cumplimiento ambiental, eficiencia y proyectos de sostenibilidad en m&uacute;ltiples sedes.",
       "body_en": "Companies struggle to find reliable sustainable suppliers and coordinate environmental compliance, efficiency, and sustainability projects across sites.",
       "body_es": "Las empresas enfrentan dificultades para encontrar proveedores sostenibles confiables y coordinar cumplimiento ambiental, eficiencia y proyectos de sostenibilidad en m&uacute;ltiples sedes.",
-      "bg": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1486406146928-c627a92ad1ab?w=1200&q=80"
     },
     {
       "num": 2,
@@ -111,7 +111,7 @@
           "text_es": "Con base en Chile. Sitio p&uacute;blico: glooba.cl."
         }
       ],
-      "bg": "https://images.unsplash.com/photo-1470071459604-3b5ec3a8fe05?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=1200&q=80"
     },
     {
       "num": 3,
@@ -135,7 +135,7 @@
           "text_es": "[PENDIENTE] &middot; Servicios de sostenibilidad corporativa"
         }
       ],
-      "bg": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80"
     },
     {
       "num": 4,
@@ -156,7 +156,10 @@
       ],
       "dream_en": "CT taxonomy: [PENDIENTE]. Stage: [PENDIENTE]. Pitch deck on profile: [PENDIENTE]. Verified KPIs: [PENDIENTE].",
       "dream_es": "Taxonom&iacute;a CT: [PENDIENTE]. Etapa: [PENDIENTE]. Pitch deck en perfil: [PENDIENTE]. KPIs verificados: [PENDIENTE].",
-      "bg": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&q=80"
     }
-  ]
+  ],
+  "cta_bg": "https://images.unsplash.com/photo-1504384308090-c894fdcc538b?w=1200&q=80",
+  "image_credits_en": "All photos: Unsplash — Hero: Campaign Creators (photo-1454165804606). Problem: Victor (photo-1486406146928). Solution: Kaleidico (photo-1556761175). Impact: Carlos Muza (photo-1460925895917). Leadership: Headway (photo-1522071820081). CTA: Marcos Paulo Prado (photo-1504384308090).",
+  "image_credits_es": "Todas las fotos: Unsplash — Hero: Campaign Creators (photo-1454165804606). Problema: Victor (photo-1486406146928). Soluci&oacute;n: Kaleidico (photo-1556761175). Impacto: Carlos Muza (photo-1460925895917). Liderazgo: Headway (photo-1522071820081). CTA: Marcos Paulo Prado (photo-1504384308090)."
 }

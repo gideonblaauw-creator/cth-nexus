@@ -4,7 +4,7 @@
   "website": "https://galaxypack.co",
   "badge_en": "Reusable Packaging &middot; CLAC25",
   "badge_es": "Empaque Reutilizable &middot; CLAC25",
-  "hero_image": "https://images.unsplash.com/photo-1607083206869-4c7d0814d1f7?w=1200&q=80",
+  "hero_image": "https://galaxypack.co/wp-content/uploads/2025/06/portada-banner.jpg",
   "hero_sub_en": "galaxypack.co &middot; Bogot&aacute;, Colombia &middot; Circular Economy &middot; Stage: Seed",
   "hero_sub_es": "galaxypack.co &middot; Bogot&aacute;, Colombia &middot; Econom&iacute;a Circular &middot; Etapa: Seed",
   "pitch_en": "Designs and manufactures reusable pallet covers replacing single-use stretch plastic wrap, eliminating industrial packaging waste for logistics clients across the Americas.",
@@ -80,7 +80,7 @@
       "head_es": "El pl&aacute;stico stretch de un solo uso para embalar pal&eacute;s genera residuos, costos crecientes y presi&oacute;n regulatoria en la log&iacute;stica industrial en Colombia y las Am&eacute;ricas.",
       "body_en": "Single-use stretch film for pallet wrapping creates plastic waste, rising costs, and regulatory pressure on industrial logistics in Colombia and the Americas.",
       "body_es": "El pl&aacute;stico stretch de un solo uso para embalar pal&eacute;s genera residuos, costos crecientes y presi&oacute;n regulatoria en la log&iacute;stica industrial en Colombia y las Am&eacute;ricas.",
-      "bg": "https://images.unsplash.com/photo-1607083206869-4c7d0814d1f7?w=1200&q=80"
+      "bg": "https://galaxypack.co/wp-content/uploads/2024/04/banner-inicio-2-fondo-2.png"
     },
     {
       "num": 2,
@@ -111,7 +111,7 @@
           "text_es": "Con base en Bogot&aacute;, Colombia. Sitio p&uacute;blico: galaxypack.co."
         }
       ],
-      "bg": "https://images.unsplash.com/photo-1532996122724-e3c031a396bf?w=1200&q=80"
+      "bg": "https://galaxypack.co/wp-content/uploads/2025/06/banner-cubrepallets.png"
     },
     {
       "num": 3,
@@ -135,7 +135,7 @@
           "text_es": "CT-WA-004 &middot; Empaque de residuos y reutilizaci&oacute;n"
         }
       ],
-      "bg": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1586528116311-aedba830c192?w=1200&q=80"
     },
     {
       "num": 4,
@@ -156,7 +156,10 @@
       ],
       "dream_en": "Program: CLAC25 Acceleration. City: Bogot&aacute; [PENDIENTE finer detail]. Pitch deck on profile: [PENDIENTE]. Verified KPIs: [PENDIENTE].",
       "dream_es": "Programa: Aceleraci&oacute;n CLAC25. Ciudad: Bogot&aacute; [PENDIENTE detalle]. Pitch deck en perfil: [PENDIENTE]. KPIs verificados: [PENDIENTE].",
-      "bg": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1573164713714-d95e43605808?w=1200&q=80"
     }
-  ]
+  ],
+  "cta_bg": "https://images.unsplash.com/photo-1565793298595-6ec666cafd36?w=1200&q=80",
+  "image_credits_en": "Hero, Problem, Solution: galaxypack.co. Impact/Unsplash: CHUTTERSNAP (photo-1586528116311). Leadership/Unsplash: Campaign Creators (photo-1573164713714). CTA/Unsplash: CHUTTERSNAP (photo-1565793298595).",
+  "image_credits_es": "Hero, Problema, Soluci&oacute;n: galaxypack.co. Impacto/Unsplash: CHUTTERSNAP (photo-1586528116311). Liderazgo/Unsplash: Campaign Creators (photo-1573164713714). CTA/Unsplash: CHUTTERSNAP (photo-1565793298595)."
 }

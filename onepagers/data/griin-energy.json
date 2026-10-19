@@ -4,7 +4,7 @@
   "website": "https://griin.com.co",
   "badge_en": "Solar Finance &middot; CLAC25",
   "badge_es": "Financiamiento Solar &middot; CLAC25",
-  "hero_image": "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=1200&q=80",
+  "hero_image": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,h=1783,fit=crop/YZ98J1jo3RcxaO7x/img_5777-Yyv0vZeXM0T4Jypq.PNG",
   "hero_sub_en": "griin.com.co &middot; Barranquilla, Colombia &middot; Clean Energy &middot; Stage: Pre-Seed",
   "hero_sub_es": "griin.com.co &middot; Barranquilla, Colombia &middot; Energ&iacute;a Limpia &middot; Etapa: Pre-Seed",
   "pitch_en": "Provides integrated solar energy financing and engineering for Latin American businesses, combining innovative financial models with technical project management.",
@@ -80,7 +80,7 @@
       "head_es": "Muchas empresas en Am&eacute;rica Latina enfrentan altos costos de energ&iacute;a y barreras de capital inicial para autoconsumo solar.",
       "body_en": "Many companies in Latin America face high energy costs and barriers to upfront capital for solar self-generation.",
       "body_es": "Muchas empresas en Am&eacute;rica Latina enfrentan altos costos de energ&iacute;a y barreras de capital inicial para autoconsumo solar.",
-      "bg": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1200&q=80"
+      "bg": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1200,fit=crop,q=95/YZ98J1jo3RcxaO7x/griin-oportunidad-bodega-indal-2-YD0l2RXMP2IZnvJz.png"
     },
     {
       "num": 2,
@@ -111,7 +111,7 @@
           "text_es": "Con base en Barranquilla, Colombia. Sitio p&uacute;blico: griin.com.co."
         }
       ],
-      "bg": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80"
+      "bg": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1200,fit=crop/YZ98J1jo3RcxaO7x/el-poder-solar-al-alcance-de-todos-YZ98J1OqNQhWXVJj.png"
     },
     {
       "num": 3,
@@ -135,7 +135,7 @@
           "text_es": "CT-EN-001 &middot; CT-XS-003 &middot; Financiamiento y servicios solares"
         }
       ],
-      "bg": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=1200&q=80"
     },
     {
       "num": 4,
@@ -165,7 +165,10 @@
       ],
       "dream_en": "Program: CLAC25 Acceleration. Pitch deck on profile: [PENDIENTE]. Verified KPIs: [PENDIENTE] (site impact claims not copied as verified KPIs).",
       "dream_es": "Programa: Aceleraci&oacute;n CLAC25. Pitch deck en perfil: [PENDIENTE]. KPIs verificados: [PENDIENTE] (afirmaciones de impacto del sitio no copiadas como KPIs).",
-      "bg": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1200&q=80"
     }
-  ]
+  ],
+  "cta_bg": "https://images.unsplash.com/photo-1592839752740-1c271a7e3499?w=1200&q=80",
+  "image_credits_en": "Hero, Problem, Solution: griin.com.co (Zyrosite CDN). Impact/Unsplash: Andreas G&uuml;ckl (photo-1508514177221). Leadership/Unsplash: Matthew Henry (photo-1473341304170). CTA/Unsplash: American Public Power Association (photo-1592839752740).",
+  "image_credits_es": "Hero, Problema, Soluci&oacute;n: griin.com.co (CDN Zyrosite). Impacto/Unsplash: Andreas G&uuml;ckl (photo-1508514177221). Liderazgo/Unsplash: Matthew Henry (photo-1473341304170). CTA/Unsplash: American Public Power Association (photo-1592839752740)."
 }
