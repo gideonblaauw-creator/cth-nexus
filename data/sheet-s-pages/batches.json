@@ -1,0 +1,613 @@
+[
+ [
+  {
+   "tab": "Top StartUps",
+   "startup": "b-Kapz",
+   "country": "Argentina",
+   "program": "Acceleration",
+   "status": "MISSING",
+   "matched_slug": "",
+   "notes": ""
+  },
+  {
+   "tab": "Top StartUps",
+   "startup": "Elastic Energy",
+   "country": "Colombia",
+   "program": "",
+   "status": "MISSING",
+   "matched_slug": "",
+   "notes": ""
+  },
+  {
+   "tab": "Top StartUps",
+   "startup": "Mubon",
+   "country": "Colombia",
+   "program": "Growth, Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"MUBON\" (CLAC24); no /s/ page"
+  },
+  {
+   "tab": "Top StartUps",
+   "startup": "Novatio",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"NOVATIO\" (CLAC23); no /s/ page"
+  },
+  {
+   "tab": "Top StartUps",
+   "startup": "Plasticos Ambientales",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"PLÁSTICOS AMBIENTALES SAS\" (CLAC24); no /s/ page"
+  }
+ ],
+ [
+  {
+   "tab": "Top StartUps",
+   "startup": "Sunco Energy",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "MISSING",
+   "matched_slug": "",
+   "notes": "SAME AS existing portfolio card SUNCOLOMBIA SAS (CLAC22), confirmed by Gideon; build /s/ page from that card"
+  },
+  {
+   "tab": "Top StartUps",
+   "startup": "WËIA",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"WEIA\" (CLP); no /s/ page"
+  },
+  {
+   "tab": "Top StartUps",
+   "startup": "Zhana",
+   "country": "",
+   "program": "",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"ZHANA SOLUTIONS\" (CLAC21); no /s/ page"
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "AInwater",
+   "country": "Chile",
+   "program": "Acceleration",
+   "status": "MISSING",
+   "matched_slug": "",
+   "notes": ""
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "Air4U",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"AIR 4U\" (CLAC21); no /s/ page"
+  }
+ ],
+ [
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "Alfe Aseo SAS",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"ALFE ASEO SAS\" (CLAC24); no /s/ page"
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "BARUK COMPANY",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"BARUK COMPANY\" (CLAC25); no /s/ page"
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "Bioárea S.A.S.",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"BIOAREA\" (CLAC22); no /s/ page"
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "BNS Perú y BNS Colombia",
+   "country": "Perú y Colombia",
+   "program": "Acceleration",
+   "status": "MISSING",
+   "matched_slug": "",
+   "notes": " | likely same as Bio Natural Solutions (live /s/); verify, and if same then skip and alias"
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "Calo Jabones SAS",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"CALOJABONES\" (CLAC22); no /s/ page"
+  }
+ ],
+ [
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "Cero Huella SAS (Greenify)",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "MISSING",
+   "matched_slug": "",
+   "notes": ""
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "CI. HÁBITAT A VIBE COMPANY SAS",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"HABITAT A VIBE COMPANY SAS\" (CLAC24); no /s/ page"
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "ciclorganicos",
+   "country": "colombia",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"CICLORGÁNICOS (BIO ABONOS GAIA)\" (CLAC22); no /s/ page"
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "Ciclorgánicos",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"CICLORGÁNICOS (BIO ABONOS GAIA)\" (CLAC22); no /s/ page"
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "Cobox Logistic",
+   "country": "Perú",
+   "program": "Acceleration",
+   "status": "MISSING",
+   "matched_slug": "",
+   "notes": ""
+  }
+ ],
+ [
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "Come ala terra",
+   "country": "México",
+   "program": "Acceleration",
+   "status": "MISSING",
+   "matched_slug": "",
+   "notes": ""
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "COMPOSTPACK SAS",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"COMPOSTPACK\" (CLAC23); no /s/ page"
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "CR Tejas",
+   "country": "Costa Rica",
+   "program": "Acceleration",
+   "status": "MISSING",
+   "matched_slug": "",
+   "notes": ""
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "Deposito Global Recycling SAS",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "MISSING",
+   "matched_slug": "",
+   "notes": ""
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "Deterquin",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"DETERQUIN SAS\" (CLAC25); no /s/ page"
+  }
+ ],
+ [
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "Dexon Software SAS BIC",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"DEXON SOFTWARE SAS BIC\" (CLAC22); no /s/ page"
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "Eco Biosis",
+   "country": "Mexico",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"ECO BIOSIS\" (CLAC24); no /s/ page"
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "Eco industria SAS",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"ECO INDUSTRIA SAS\" (CLAC25); no /s/ page"
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "Embergy",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"EMBERGY SAS\" (CLAC25); no /s/ page"
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "Fluvia S.A.S.",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"FLUVIA\" (CLAC23); no /s/ page"
+  }
+ ],
+ [
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "Galaxy Pack SAS",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"GALAXY PACK SAS\" (CLAC25); no /s/ page"
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "Glooba SpA",
+   "country": "Chile",
+   "program": "Acceleration",
+   "status": "MISSING",
+   "matched_slug": "",
+   "notes": ""
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "Glu Energy S.A.S. E.S.P.",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "MISSING",
+   "matched_slug": "",
+   "notes": ""
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "Griin Energy",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"GRIIN ENERGY SAS\" (CLAC25); no /s/ page"
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "grupo natural andino sas esp",
+   "country": "colombia",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"GRUPO NATURAL ANDINO\" (CLAC23); no /s/ page"
+  }
+ ],
+ [
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "https://greendex.earth/",
+   "country": "México",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"GREENDEX\" (CLP); no /s/ page"
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "Hunter Tecnología",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"HUNTER TECNOLOGÍA\" (CLAC24); no /s/ page"
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "I can Jump",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"I CAN JUMP\" (CLP); no /s/ page"
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "ILIKKO SAS (Vamos Miti Miti)",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"ILIKKO\" (CLAC22); no /s/ page"
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "Ingeniería Servicios y Desarrollos SAS",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "MISSING",
+   "matched_slug": "",
+   "notes": ""
+  }
+ ],
+ [
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "Istmo Verde, S.A.",
+   "country": "Guatemala",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"ISTMO VERDE SA\" (CLP); no /s/ page"
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "Kigüi",
+   "country": "Argentina",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"KIGUI\" (CLAC23); no /s/ page"
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "KIMSA - Clima, Conservación y Desarrollo SAS",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "IN_REPO_NOT_LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card (w: kimsa.co) in branch cursor/clp26-bookstack-ca1 nexus/p/startup-portfolio/index.html; not on live portfolio"
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "Kleantab",
+   "country": "Costa Rica",
+   "program": "Acceleration",
+   "status": "MISSING",
+   "matched_slug": "",
+   "notes": ""
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "LInko Workers SAS",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"LINKO WORKERS SAS\" (CLAC24); no /s/ page"
+  }
+ ],
+ [
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "MayuGo",
+   "country": "Perú",
+   "program": "Acceleration",
+   "status": "MISSING",
+   "matched_slug": "",
+   "notes": ""
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "Mitsidi",
+   "country": "Brasil",
+   "program": "Acceleration",
+   "status": "MISSING",
+   "matched_slug": "",
+   "notes": ""
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "Monte Jazmín",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"MONTE JAZMÍN\" (CLAC22); no /s/ page"
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "Moviltronics",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"MOVILTRONICS SAS\" (CLAC25); no /s/ page"
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "MYMA Servicios Ambientales",
+   "country": "Guatemala",
+   "program": "Acceleration",
+   "status": "MISSING",
+   "matched_slug": "",
+   "notes": ""
+  }
+ ],
+ [
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "Nina Energy",
+   "country": "Ecuador",
+   "program": "Acceleration",
+   "status": "MISSING",
+   "matched_slug": "",
+   "notes": ""
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "NUEVAS TECNOLOGIAS FISICOQUIMICAS SAS BIC",
+   "country": "COLOMBIA",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"NUEVAS TECNOLOGÍAS FISICOQUÍMICAS\" (CLAC22); no /s/ page"
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "Oasis Group",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"OASIS GROUP\" (CLP); no /s/ page"
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "Pacaceite",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"PACACEITE SAS\" (CLAC25); no /s/ page"
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "Parsons Kinetics",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"PARSONS KINETICS\" (CLAC24); no /s/ page"
+  }
+ ],
+ [
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "Plasfacol",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"PLASFACOL\" (CLAC25); no /s/ page"
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "PLEIA",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"PLEIA\" (CLAC24); no /s/ page"
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "POWER HHO SUROCCIDENTE SAS (PUREST FUELS)",
+   "country": "COLOMBIA",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"PUREST FUELS\" (CLAC23); no /s/ page"
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "R&R KELAB SAS",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "MISSING",
+   "matched_slug": "",
+   "notes": ""
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "Simbiotic",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"SIMBIOTIC SAS\" (CLAC22); no /s/ page"
+  }
+ ],
+ [
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "SunColombia",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "SAME AS existing portfolio card SUNCOLOMBIA SAS (CLAC22), confirmed by Gideon; build /s/ page from that card"
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "TAVI TECHNOLOGY",
+   "country": "colombia",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"TAVI TECHNOLOGY\" (CLAC21); no /s/ page"
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "TR GLOBAL GROUP SAS",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "MISSING",
+   "matched_slug": "",
+   "notes": ""
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "Valopes",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "LIVE",
+   "matched_slug": "",
+   "notes": "portfolio card only as \"VALOPES\" (CLAC22); no /s/ page"
+  },
+  {
+   "tab": "Portafolio Acceleration",
+   "startup": "Wheelo",
+   "country": "Colombia",
+   "program": "Acceleration",
+   "status": "MISSING",
+   "matched_slug": "",
+   "notes": ""
+  }
+ ]
+]

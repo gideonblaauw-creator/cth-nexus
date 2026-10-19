@@ -1,0 +1,183 @@
+{
+  "slug": "monte-jazmin",
+  "name": "MONTE JAZMÍN",
+  "website": "https://montejazmin.com/",
+  "badge_en": "Agroecological Coffee &amp; Agritourism &middot; CLAC22",
+  "badge_es": "Caf&eacute; Agroecol&oacute;gico y Agroturismo &middot; CLAC22",
+  "hero_image": "https://montejazmin.com/wp-content/uploads/2021/07/monte-jazmin.jpg",
+  "hero_sub_en": "montejazmin.com &middot; Colombia &middot; Pereira &middot; Stage: Pre-Seed &middot; CT-AF-001",
+  "hero_sub_es": "montejazmin.com &middot; Colombia &middot; Pereira &middot; Etapa: Pre-Seed &middot; CT-AF-001",
+  "pitch_en": "Three-generation agroecological coffee farm and nature reserve offering specialty coffee, regenerative agritourism, and seed-to-cup experiences near Pereira.",
+  "pitch_es": "Finca cafetera agroecol&oacute;gica multigeneracional y reserva natural que ofrece caf&eacute; especialidad, agroturismo regenerativo y experiencias de grano a taza cerca de Pereira.",
+  "cta_pitch_en": "CleantechHUB CLAC22 portfolio card &mdash; civil-society nature reserve certification and rural lodging.",
+  "cta_pitch_es": "Tarjeta de portafolio CLAC22 CleantechHUB &mdash; certificaci&oacute;n de reserva natural de la sociedad civil y alojamiento rural.",
+  "ribbon": [
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "Pa&iacute;s",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    },
+    {
+      "val": "Pre-Seed",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLAC22",
+      "sub_es": "CLAC22"
+    },
+    {
+      "val": "Bio",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "M&eacute;tricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLAC22",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Hub",
+        "lab_es": "Hub"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Coffee landscapes need models that combine livelihoods, biodiversity conservation, and authentic visitor experiences.",
+      "head_es": "Los paisajes cafeteros necesitan modelos que combinen medios de vida, conservaci&oacute;n de biodiversidad y experiencias aut&eacute;nticas para visitantes.",
+      "body_en": "Traditional farms rarely connect specialty production, ecotourism, and protected-area stewardship in one regenerative operating model.",
+      "body_es": "Las fincas tradicionales rara vez conectan producci&oacute;n de especialidad, ecoturismo y custodia de &aacute;reas protegidas en un modelo regenerativo integrado.",
+      "bg": "https://montejazmin.com/wp-content/uploads/2021/07/cabana-1280x853.jpg"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Soluci&oacute;n",
+      "steps": [
+        {
+          "icon": "🌱",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Agroecological coffee, rural lodging, guided coffee journeys, and nature-based tourism in Pereira.",
+          "text_es": "Agroecological coffee, rural lodging, guided coffee journeys, and nature-based tourism in Pereira."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "MONTE JAZM&Iacute;N &mdash; CLAC22 (CleantechHUB portfolio card).",
+          "text_es": "MONTE JAZM&Iacute;N &mdash; CLAC22 (CleantechHUB portfolio card)."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Vereda Pital de Combia, Pereira. Public site: montejazmin.com.",
+          "text_es": "Vereda Pital de Combia, Pereira. Public site: montejazmin.com."
+        }
+      ],
+      "bg": "https://montejazmin.com/wp-content/uploads/2021/07/coringa.jpg"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact &amp; Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Portfolio",
+          "title_es": "Portafolio",
+          "text_en": "Nexus startup portfolio card: specialty coffee, regenerative agritourism, civil-society nature reserve certification.",
+          "text_es": "Nexus startup portfolio card: specialty coffee, regenerative agritourism, civil-society nature reserve certification."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonom&iacute;a",
+          "text_en": "Primary CT node CT-AF-001 (Sustainable Agriculture &amp; Food Systems).",
+          "text_es": "Primary CT node CT-AF-001 (Sustainable Agriculture &amp; Food Systems)."
+        },
+        {
+          "icon": "🤝",
+          "title_en": "Location",
+          "title_es": "Ubicaci&oacute;n",
+          "text_en": "Pereira, Risaralda &mdash; near coffee cultural landscape and protected areas (public press).",
+          "text_es": "Pereira, Risaralda &mdash; near coffee cultural landscape and protected areas (public press)."
+        },
+        {
+          "icon": "📈",
+          "title_en": "KPIs",
+          "title_es": "KPIs",
+          "text_en": "Verified financial/impact KPIs: [PENDIENTE].",
+          "text_es": "Verified financial/impact KPIs: [PENDIENTE]."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1442512595332-4457cc699a65?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Germ&aacute;n Toro Zuluaga",
+          "initials": "GT",
+          "role_en": "Manager &amp; Owner &middot; CLAC22",
+          "role_es": "Gerente y Propietario &middot; CLAC22",
+          "bio_en": "Leads Monte Jazm&iacute;n SAS and the farm&rsquo;s agroecological coffee and tourism offering.",
+          "bio_es": "Lidera Monte Jazm&iacute;n SAS y la oferta de caf&eacute; agroecol&oacute;gico y turismo de la finca.",
+          "linkedin": "https://www.linkedin.com/in/germ%C3%A1n-toro-zuluaga-19865558"
+        }
+      ],
+      "dream_en": "Program: CLAC22 / Acceleration. Additional founders: [PENDIENTE]. Verified KPIs: [PENDIENTE]. Image credits: hero: Monte Jazmín verified website (monte-jazmin.jpg); section_01_problem: Monte Jazmín verified website (cabana.jpg — rural lodging); section_02_solution: Monte Jazmín verified website (coringa.jpg — farm/coffee); section_03_impact: Unsplash — Nathan Dumlao (coffee harvest); section_04_leadership: Unsplash — Rodrigo Flores (coffee plantation); cta: Unsplash — Nathan Dumlao (specialty coffee cup)",
+      "dream_es": "Programa: CLAC22 / Acceleration. Otros fundadores: [PENDIENTE]. KPIs verificados: [PENDIENTE]. Créditos de imagen: hero: Monte Jazmín verified website (monte-jazmin.jpg); section_01_problem: Monte Jazmín verified website (cabana.jpg — rural lodging); section_02_solution: Monte Jazmín verified website (coringa.jpg — farm/coffee); section_03_impact: Unsplash — Nathan Dumlao (coffee harvest); section_04_leadership: Unsplash — Rodrigo Flores (coffee plantation); cta: Unsplash — Nathan Dumlao (specialty coffee cup)",
+      "bg": "https://images.unsplash.com/photo-1464220885542-480007334a45?w=1200&q=80"
+    }
+  ],
+  "cta_image": "https://images.unsplash.com/photo-1511927071968-6c06b314579a?w=1200&q=80",
+  "image_sources": {
+    "hero": "Monte Jazmín verified website (monte-jazmin.jpg)",
+    "section_01_problem": "Monte Jazmín verified website (cabana.jpg — rural lodging)",
+    "section_02_solution": "Monte Jazmín verified website (coringa.jpg — farm/coffee)",
+    "section_03_impact": "Unsplash — Nathan Dumlao (coffee harvest)",
+    "section_04_leadership": "Unsplash — Rodrigo Flores (coffee plantation)",
+    "cta": "Unsplash — Nathan Dumlao (specialty coffee cup)"
+  }
+}

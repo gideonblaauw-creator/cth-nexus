@@ -140,21 +140,101 @@ def team_grid(members: list[dict], slug: str) -> str:
     return f'<div class="team-grid">{"".join(cards)}</div>'
 
 
+def youtube_id(url: str) -> str:
+    from urllib.parse import urlparse, parse_qs
+
+    raw = (url or "").strip()
+    if not raw:
+        return ""
+    if "://" not in raw and "/" not in raw:
+        return raw
+    parsed = urlparse(raw)
+    host = parsed.netloc.lower()
+    if host.endswith("youtu.be"):
+        return parsed.path.strip("/").split("/")[0]
+    if host.endswith("youtube.com") or host.endswith("youtube-nocookie.com"):
+        if parsed.path.startswith("/embed/"):
+            parts = parsed.path.split("/")
+            return parts[2] if len(parts) > 2 else ""
+        return parse_qs(parsed.query).get("v", [""])[0]
+    return ""
+
+
+def youtube_section(d: dict) -> str:
+    """Embedded player only when youtube is a non-empty URL or id."""
+    vid = youtube_id(d.get("youtube") or "")
+    if not vid:
+        return ""
+    return (
+        '<div class="deck-wrap"><div class="yt-pitch"><div class="yt-pitch-frame">'
+        f'<iframe src="https://www.youtube.com/embed/{vid}" title="YouTube pitch" '
+        'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" '
+        'allowfullscreen></iframe></div></div></div>'
+    )
+
+
 def deck_section(d: dict, slug: str) -> str:
     deck = d.get("deck_pdf")
     if not deck:
         return ""
+    drive_id = deck.get("drive_id")
+    view = deck.get("view_url") or (f"https://drive.google.com/file/d/{drive_id}/view" if drive_id else "")
+    embed = deck.get("embed_url") or (
+        f"https://drive.google.com/file/d/{drive_id}/preview" if drive_id else ""
+    )
     local_pdf = deck.get("pdf_path") or f"/s/{slug}/deck.pdf"
     bg = asset_url(deck.get("bg", "./assets/bg-deck.jpg"), slug)
-    iframe = (
-        f'<div class="deck-frame-wrap">'
-        f'<embed class="deck-frame" src="{local_pdf}#view=FitH&toolbar=1" '
-        f'type="application/pdf" title="{d["name"]} pitch deck">'
-        f"</div>"
-    )
+    single = bool(deck.get("single_slide"))
+    pages = int(deck.get("pages") or 0)
+    frame_cls = "deck-frame"
+    wrap_cls = "deck-frame-wrap"
+    panel_cls = "deck-panel"
+    outer_cls = "deck-wrap"
+    pdf_hash = "#view=FitH&toolbar=1"
+    pager = ""
+    if single:
+        frame_cls = "deck-frame"
+        wrap_cls = "deck-frame-wrap"
+        panel_cls = "deck-panel deck-slide"
+        outer_cls = "deck-wrap deck-slide-wrap"
+        pdf_hash = "#page=1&view=Fit&toolbar=1&navpanes=0"
+        if pages > 1 and local_pdf:
+            pager = (
+                f'<div class="deck-pager" data-pdf="{local_pdf}" data-pages="{pages}">'
+                f'<button type="button" class="deck-page-btn" data-dir="-1">Prev</button>'
+                f'<span class="deck-page-label">1 / {pages}</span>'
+                f'<button type="button" class="deck-page-btn" data-dir="1">Next</button>'
+                f"</div>"
+                "<script>(function(){var root=document.currentScript.previousElementSibling;"
+                "if(!root)return;var frame=root.parentElement.querySelector('.deck-frame');"
+                "var label=root.querySelector('.deck-page-label');var total=+root.dataset.pages||1;var page=1;"
+                "function show(n){page=Math.max(1,Math.min(total,n));"
+                "if(frame)frame.src=root.dataset.pdf+'#page='+page+'&view=Fit&toolbar=1&navpanes=0';"
+                "if(label)label.textContent=page+' / '+total;"
+                "root.querySelectorAll('.deck-page-btn').forEach(function(b){var dir=+b.dataset.dir;"
+                "b.disabled=dir<0?page<=1:page>=total;});}"
+                "root.addEventListener('click',function(e){var b=e.target.closest('.deck-page-btn');"
+                "if(!b||b.disabled)return;show(page+(+b.dataset.dir||0));});show(1);})();</script>"
+            )
+    iframe = ""
+    if local_pdf:
+        iframe = (
+            f'<div class="{wrap_cls}">'
+            f'<embed class="{frame_cls}" src="{local_pdf}{pdf_hash}" '
+            f'type="application/pdf" title="{d["name"]} pitch deck">'
+            f"</div>"
+        )
+    elif embed:
+        iframe = (
+            f'<div class="{wrap_cls}">'
+            f'<iframe class="{frame_cls}" src="{embed}" title="{d["name"]} pitch deck" '
+            f'loading="lazy" allow="autoplay" referrerpolicy="no-referrer-when-downgrade"></iframe>'
+            f"</div>"
+        )
     fallback = (
         f'<div class="deck-fallback">{bi("Deck not loading?", "¿No carga el deck?")} '
-        f'<a href="{local_pdf}" target="_blank" rel="noopener">{bi("Open PDF", "Abrir PDF")}</a></div>'
+        f'<a href="{local_pdf}" target="_blank" rel="noopener">{bi("Open PDF", "Abrir PDF")}</a> · '
+        f'<a href="{view}" target="_blank" rel="noopener">{bi("Google Drive", "Google Drive")}</a></div>'
     )
     return (
         f'<div class="sec" style="position:relative;">'
@@ -163,9 +243,9 @@ def deck_section(d: dict, slug: str) -> str:
         f'<div class="sec-header"><div class="sec-num">📄</div>'
         f'<div class="sec-title">{bi("Pitch Deck", "Pitch Deck")}</div><div class="sec-rule"></div></div>'
         f'<div class="deck-note">{bi("Full-size deck preview below. Numbers on this profile match the deck only.", "Vista previa del deck a tamaño completo. Los números en este perfil provienen solo del deck.")}</div>'
-        f'<div class="deck-wrap"><div class="deck-panel">{iframe}{fallback}</div>'
+        f'<div class="{outer_cls}"><div class="{panel_cls}">{iframe}{pager}{fallback}</div>'
         f'<div class="deck-actions">'
-        f'<a class="cta-link" href="{local_pdf}" target="_blank" rel="noopener">{bi("Open PDF", "Abrir PDF")}</a>'
+        f'<a class="cta-link" href="{view}" target="_blank" rel="noopener">{bi("Open deck in Google Drive", "Abrir deck en Google Drive")}</a>'
         f'<a class="cta-link" href="{local_pdf}" target="_blank" rel="noopener">{bi("Download PDF", "Descargar PDF")}</a>'
         f"</div></div></div><div class=\"accent-bar\"></div>"
     )
@@ -249,9 +329,14 @@ def build_page(d: dict) -> str:
 
     deck = d.get("deck_pdf") or {}
     deck_link = ""
-    if deck:
-        local_pdf = deck.get("pdf_path") or f"/s/{slug}/deck.pdf"
-        deck_link = f'<a class="cta-link" href="{local_pdf}" target="_blank" rel="noopener">{bi("Pitch deck (PDF)", "Pitch deck (PDF)")}</a>'
+    if deck.get("view_url") or deck.get("drive_id"):
+        view = deck.get("view_url") or f"https://drive.google.com/file/d/{deck['drive_id']}/view"
+        deck_link = f'<a class="cta-link" href="{view}" target="_blank" rel="noopener">{bi("Pitch deck (PDF)", "Pitch deck (PDF)")}</a>'
+
+    cta_bg = asset_url(
+        d.get("cta_image") or d.get("hero_image", ""),
+        slug,
+    )
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -275,7 +360,7 @@ def build_page(d: dict) -> str:
 <div class="sec hero">
   <img class="hero-img" src="{asset_url(d["hero_image"], slug)}" alt="{d["name"]}" loading="lazy">
   <div class="hero-ov"></div>
-  <div class="hero-badge"><div class="pill" style="background:rgba(0,0,0,.45);coor:var(--lg);">{bi(d["badge_en"], d["badge_es"])}</div></div>
+  <div class="hero-badge"><div class="pill" style="background:rgba(0,0,0,.45);color:var(--lg);">{bi(d["badge_en"], d["badge_es"])}</div></div>
   <div class="hero-in">
     <div class="hero-name">{d["name"]}</div>
     <div class="hero-sub">{bi(d["hero_sub_en"], d["hero_sub_es"])}</div>
@@ -284,27 +369,29 @@ def build_page(d: dict) -> str:
   <div class="hero-tagline">Inspira. Actúa. Transforma.</div>
 </div>
 
-<div class="ribbon" style="background:rgba(12,73,138,.95);":{ribbon}</div>
+<div class="ribbon" style="background:rgba(12,73,138,.95);">{ribbon}</div>
+
+{youtube_section(d)}
 
 {deck_section(d, slug)}
 
-sections_html}
+{sections_html}
 
 <div class="sec" style="position:relative;">
-  <div class="sec-bg" style="background-image:url('{asset_url("./assets/bg-cta.jpg", slug)}');"></div>
+  <div class="sec-bg" style="background-image:url('{cta_bg}');"></div>
   <div class="sec-ov" style="background:rgba(12,73,138,.30);"></div>
   <div class="cta">
     <div class="pill" style="background:rgba(157,195,132,.12);border:1px solid rgba(157,195,132,.2);color:var(--lg);margin-bottom:16px;">{bi(d["badge_en"], d["badge_es"])}</div>
     <div class="cta-name">{d["name"]}</div>
-    <div class="cta-pitch">{bi(�["cta_pitch_en"], d["cta_pitch_es"])}</div>
-    <a class="cta-btn" href="{d.get("website","#")}>{bi(d.get("cta_btn_en","Visit website"), d.get("cta_btn_es","Visitar sitio"))}</a>
+    <div class="cta-pitch">{bi(d["cta_pitch_en"], d["cta_pitch_es"])}</div>
+    <a class="cta-btn" href="{d.get("website","#")}">{bi(d.get("cta_btn_en","Visit website"), d.get("cta_btn_es","Visitar sitio"))}</a>
     <div class="cta-links">
-      <a class="cta-link" href="https://nexus.cleantechhub.net/s/{slug}">{bi(�Nexus Profile", "Perfil Nexus")}</a>
-      <a class="cta-link" href="https://nexus.cleantechhub.net/p/startup-portfolio">{bi(�157 Startups", "157 Startups")}</a>
+      <a class="cta-link" href="https://nexus.cleantechhub.net/s/{slug}">{bi("Nexus Profile", "Perfil Nexus")}</a>
+      <a class="cta-link" href="https://nexus.cleantechhub.net/p/startup-portfolio">{bi("157 Startups", "157 Startups")}</a>
       {deck_link}
     </div>
     <div class="cta-brand"><div class="tg">Inspira. Actúa. Transforma.</div><div class="lg2">Cleantech<em style="color:var(--lg);font-style:normal;">HUB</em></div></div>
-    <div class="cta-port">{bi(�CleantechHUB portfolio profile · Latin America", "Perfil portafolio CleantechHUB · América Latina")}</div>
+    <div class="cta-port">{bi("CleantechHUB portfolio profile · Latin America", "Perfil portafolio CleantechHUB · América Latina")}</div>
   </div>
 </div>
 <div class="accent-bar"></div>
@@ -313,8 +400,11 @@ sections_html}
 
 
 def main() -> None:
-    OUT_REPO.mkdir(parents=True, exist_ok=T�ue)
-    OUT_ARCHIVE.mkdir(parents=True, exist_ok=T�ue)
+    OUT_REPO.mkdir(parents=True, exist_ok=True)
+    try:
+        OUT_ARCHIVE.mkdir(parents=True, exist_ok=True)
+    except OSError:
+        pass
     only = sys.argv[1:] if len(sys.argv) > 1 else None
     for json_path in sorted(DATA_DIR.glob("*.json")):
         data = json.loads(json_path.read_text())
@@ -324,7 +414,10 @@ def main() -> None:
         html = build_page(data)
         pdf_src_name = (data.get("deck_pdf") or {}).get("source_file")
         media_src = OUT_MEDIA / slug
-        for base in (OUT_REPO / slug, OUT_ARCHIVE / slug):
+        targets = [OUT_REPO / slug]
+        if OUT_ARCHIVE.exists():
+            targets.append(OUT_ARCHIVE / slug)
+        for base in targets:
             base.mkdir(parents=True, exist_ok=True)
             (base / "index.html").write_text(html)
             if media_src.is_dir():

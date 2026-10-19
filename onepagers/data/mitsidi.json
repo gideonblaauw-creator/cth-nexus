@@ -1,0 +1,183 @@
+{
+  "slug": "mitsidi",
+  "name": "Mitsidi",
+  "website": "https://www.mitsidi.com/en",
+  "badge_en": "Energy Efficiency &amp; Decarbonization &middot; Acceleration",
+  "badge_es": "Eficiencia Energ&eacute;tica y Descarbonizaci&oacute;n &middot; Acceleration",
+  "hero_image": "https://api-cms.mitsidi.com/media/mitPeople-1.jpg",
+  "hero_sub_en": "mitsidi.com &middot; Brasil &middot; S&atilde;o Paulo &middot; Stage: [PENDIENTE] &middot; CT-EN-001",
+  "hero_sub_es": "mitsidi.com &middot; Brasil &middot; S&atilde;o Paulo &middot; Etapa: [PENDIENTE] &middot; CT-EN-001",
+  "pitch_en": "Research, consulting, training, and digital solutions for energy efficiency, decarbonization, and just energy transition across buildings, industry, and public policy.",
+  "pitch_es": "Investigaci&oacute;n, consultor&iacute;a, formaci&oacute;n y soluciones digitales para eficiencia energ&eacute;tica, descarbonizaci&oacute;n y transici&oacute;n energ&eacute;tica justa en edificios, industria y pol&iacute;tica p&uacute;blica.",
+  "cta_pitch_en": "Certified B Corp focused on operational intelligence for energy performance and emissions reduction.",
+  "cta_pitch_es": "B Corp certificada enfocada en inteligencia operacional para desempe&ntilde;o energ&eacute;tico y reducci&oacute;n de emisiones.",
+  "ribbon": [
+    {
+      "val": "BR",
+      "lab_en": "Country",
+      "lab_es": "Pa&iacute;s",
+      "sub_en": "Brasil",
+      "sub_es": "Brasil"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "Acceleration",
+      "sub_es": "Acceleration"
+    },
+    {
+      "val": "Energy",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "M&eacute;tricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "Accel.",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Hub",
+        "lab_es": "Hub"
+      }
+    ],
+    [
+      {
+        "num": "2014",
+        "lab_en": "Founded",
+        "lab_es": "Fundaci&oacute;n"
+      },
+      {
+        "num": "BR",
+        "lab_en": "Brasil",
+        "lab_es": "Brasil"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Energy-intensive assets lack actionable intelligence to cut costs, emissions, and compliance risk.",
+      "head_es": "Los activos intensivos en energ&iacute;a carecen de inteligencia accionable para reducir costos, emisiones y riesgo de cumplimiento.",
+      "body_en": "Companies and cities need scalable diagnostics, ESG-aligned consulting, and technology-based tools to drive just energy transition outcomes.",
+      "body_es": "Empresas y ciudades necesitan diagn&acute;sticos escalables, consultor&iacute;a alineada a ESG y herramientas tecnol&oacute;gicas para impulsar una transici&oacute;n energ&eacute;tica justa.",
+      "bg": "https://api-cms.mitsidi.com/media/servicos.jpg"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Soluci&oacute;n",
+      "steps": [
+        {
+          "icon": "🌱",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Energy efficiency, decarbonization, and ESG consulting plus training and digital solutions.",
+          "text_es": "Energy efficiency, decarbonization, and ESG consulting plus training and digital solutions."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "Mitsidi &mdash; CleantechHUB Portafolio Acceleration (Brasil).",
+          "text_es": "Mitsidi &mdash; CleantechHUB Portafolio Acceleration (Brasil)."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Headquarters in S&atilde;o Paulo with presence in Brazil and Canada (public site).",
+          "text_es": "Headquarters in S&atilde;o Paulo with presence in Brazil and Canada (public site)."
+        }
+      ],
+      "bg": "https://api-cms.mitsidi.com/media/solucoesMod.jpg"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact &amp; Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "B Corp",
+          "title_es": "B Corp",
+          "text_en": "Public history describes Mitsidi as a Certified B Corp and UN Global Compact signatory.",
+          "text_es": "Public history describes Mitsidi as a Certified B Corp and UN Global Compact signatory."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Services",
+          "title_es": "Servicios",
+          "text_en": "Consulting, courses, and technology-based products for energy and environmental performance.",
+          "text_es": "Consulting, courses, and technology-based products for energy and environmental performance."
+        },
+        {
+          "icon": "🤝",
+          "title_en": "Acceleration",
+          "title_es": "Acceleration",
+          "text_en": "Listed in CleantechHUB Portafolio Acceleration batch (Gideon sheet).",
+          "text_es": "Listed in CleantechHUB Portafolio Acceleration batch (Gideon sheet)."
+        },
+        {
+          "icon": "📈",
+          "title_en": "KPIs",
+          "title_es": "KPIs",
+          "text_en": "Client/project count KPIs on profile: [PENDIENTE].",
+          "text_es": "Client/project count KPIs on profile: [PENDIENTE]."
+        }
+      ],
+      "bg": "https://www.mitsidi.com/images/mitPeople.jpg"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Gabriel Frasson",
+          "initials": "GF",
+          "role_en": "CEO &middot; Acceleration",
+          "role_es": "CEO &middot; Acceleration",
+          "bio_en": "CEO leading Mitsidi expansion in energy transition consulting and solutions.",
+          "bio_es": "CEO que lidera la expansi&oacute;n de Mitsidi en consultor&iacute;a y soluciones de transici&oacute;n energ&eacute;tica.",
+          "linkedin": "https://www.linkedin.com/in/gabriel-frasson"
+        }
+      ],
+      "dream_en": "Secondary CT nodes: [PENDIENTE]. Verified KPIs: [PENDIENTE]. Image credits: hero: Mitsidi public CMS (mitPeople-1.jpg) — mitsidi.com; section_01_problem: Mitsidi public CMS (servicos.jpg) — mitsidi.com; section_02_solution: Mitsidi public CMS (solucoesMod.jpg) — mitsidi.com; section_03_impact: Mitsidi public site (/images/mitPeople.jpg); section_04_leadership: Unsplash — Appolinary Kalishnikova (transmission lines / energy); cta: Mitsidi public CMS (banner_expandir_corrigido.png) — Expandir event",
+      "dream_es": "Nodos CT secundarios: [PENDIENTE]. KPIs verificados: [PENDIENTE]. Créditos de imagen: hero: Mitsidi public CMS (mitPeople-1.jpg) — mitsidi.com; section_01_problem: Mitsidi public CMS (servicos.jpg) — mitsidi.com; section_02_solution: Mitsidi public CMS (solucoesMod.jpg) — mitsidi.com; section_03_impact: Mitsidi public site (/images/mitPeople.jpg); section_04_leadership: Unsplash — Appolinary Kalishnikova (transmission lines / energy); cta: Mitsidi public CMS (banner_expandir_corrigido.png) — Expandir event",
+      "bg": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1200&q=80"
+    }
+  ],
+  "cta_image": "https://api-cms.mitsidi.com/media/banner_expandir_corrigido.png",
+  "image_sources": {
+    "hero": "Mitsidi public CMS (mitPeople-1.jpg) — mitsidi.com",
+    "section_01_problem": "Mitsidi public CMS (servicos.jpg) — mitsidi.com",
+    "section_02_solution": "Mitsidi public CMS (solucoesMod.jpg) — mitsidi.com",
+    "section_03_impact": "Mitsidi public site (/images/mitPeople.jpg)",
+    "section_04_leadership": "Unsplash — Appolinary Kalishnikova (transmission lines / energy)",
+    "cta": "Mitsidi public CMS (banner_expandir_corrigido.png) — Expandir event"
+  }
+}
