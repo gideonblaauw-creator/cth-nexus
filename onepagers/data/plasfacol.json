@@ -1,0 +1,161 @@
+{
+  "slug": "plasfacol",
+  "name": "Plasfacol",
+  "website": "https://eco-tienda-plasfacol.venndelo.com",
+  "badge_en": "Circular Economy &middot; CLAC25",
+  "badge_es": "Economía circular &middot; CLAC25",
+  "hero_image": "https://images.unsplash.com/photo-1611280048847-d352f4e42d3e?w=1200&q=80",
+  "hero_sub_en": "eco-tienda-plasfacol.venndelo.com &middot; Colombia &middot; Cali &middot; Circular Economy &middot; Stage: Pre-Seed &middot; [PENDIENTE]",
+  "hero_sub_es": "eco-tienda-plasfacol.venndelo.com &middot; Colombia &middot; Cali &middot; Economía circular &middot; Etapa: Pre-Seed &middot; [PENDIENTE]",
+  "pitch_en": "Manufactures or recycles plastic materials, developing circular solutions for plastic waste recovery and transformation into reusable industrial inputs.",
+  "pitch_es": "Fabrica o recicla materiales plásticos, desarrollando soluciones circulares para la recuperación y transformación de residuos plásticos en insumos industriales reutilizables.",
+  "cta_pitch_en": "Plasfacol repurposes plastic waste from air conditioners, TVs, and bottle caps into functional products for large-format digital printing and household use.",
+  "cta_pitch_es": "Plasfacol reutiliza residuos plásticos de aires acondicionados, televisores y tapas de botellas en productos funcionales para impresión digital a gran formato y uso en el hogar.",
+  "cta_btn_en": "eco-tienda-plasfacol.venndelo.com",
+  "cta_btn_es": "eco-tienda-plasfacol.venndelo.com",
+  "ribbon": [
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    },
+    {
+      "val": "Pre-Seed",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLAC25",
+      "sub_es": "CLAC25"
+    },
+    {
+      "val": "Circular",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Métricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLAC25",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Hub",
+        "lab_es": "Hub"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Plastic waste from appliances, electronics, and packaging lacks circular recovery paths, driving landfill pressure and lost material value in Colombia.",
+      "head_es": "Los residuos plásticos de electrodomésticos, electrónica y empaques carecen de rutas circulares de recuperación, aumentando la presión sobre rellenos y la pérdida de valor material en Colombia.",
+      "body_en": "Plastic waste from appliances, electronics, and packaging lacks circular recovery paths, driving landfill pressure and lost material value in Colombia.",
+      "body_es": "Los residuos plásticos de electrodomésticos, electrónica y empaques carecen de rutas circulares de recuperación, aumentando la presión sobre rellenos y la pérdida de valor material en Colombia.",
+      "bg": "https://images.unsplash.com/photo-1611280048847-d352f4e42d3e?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "🌱",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Plasfacol repurposes plastic waste from air conditioners, TVs, and bottle caps into functional products for large-format digital printing and household use.",
+          "text_es": "Plasfacol reutiliza residuos plásticos de aires acondicionados, televisores y tapas de botellas en productos funcionales para impresión digital a gran formato y uso en el hogar."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "Plasfacol — CLAC25 (CleantechHUB).",
+          "text_es": "Plasfacol — CLAC25 (CleantechHUB)."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Based in Colombia (Cali). Public site: eco-tienda-plasfacol.venndelo.com.",
+          "text_es": "Con base en Colombia (Cali). Sitio público: eco-tienda-plasfacol.venndelo.com."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact &amp; Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Wiki source",
+          "title_es": "Fuente Wiki",
+          "text_en": "Profile synced from BookStack Startup Portfolio + Odoo (SoT).",
+          "text_es": "Perfil sincronizado desde BookStack Startup Portfolio + Odoo (SoT)."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomía",
+          "text_en": "[PENDIENTE]",
+          "text_es": "[PENDIENTE]"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Jeison Rodriguez",
+          "role_en": "Founder &middot; CLAC25",
+          "role_es": "Fundador &middot; CLAC25",
+          "bio_en": "Public-facing founder of Plasfacol (Cali). Source: public community introduction.",
+          "bio_es": "Fundador público de Plasfacol (Cali). Fuente: presentación pública en comunidad.",
+          "initials": "JR"
+        }
+      ],
+      "dream_en": "Program: CLAC25. CT taxonomy: [P]. Verified KPIs: [PENDIENTE].",
+      "dream_es": "Programa: CLAC25. Taxonomía CT: [P]. KPIs verificados: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80"
+    }
+  ]
+}

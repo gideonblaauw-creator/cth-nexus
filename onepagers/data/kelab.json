@@ -1,0 +1,162 @@
+{
+  "slug": "kelab",
+  "name": "R&amp;R Kelab",
+  "website": "https://kelab.com.co",
+  "badge_en": "Circular Economy &middot; Acceleration",
+  "badge_es": "Economía circular &middot; Acceleration",
+  "hero_image": "https://images.unsplash.com/photo-1532996122724-e3c031a396bf?w=1200&q=80",
+  "hero_sub_en": "kelab.com.co &middot; Colombia &middot; Bogotá &middot; Circular Economy &middot; Stage: [PENDIENTE] &middot; [PENDIENTE]",
+  "hero_sub_es": "kelab.com.co &middot; Colombia &middot; Bogotá &middot; Economía circular &middot; Etapa: [PENDIENTE] &middot; [PENDIENTE]",
+  "pitch_en": "Environmental consultancy delivering circular-economy strategy, packaging-waste compliance (Clean Pack), and the Co-Workers Cloud digital marketplace for recoverable materials.",
+  "pitch_es": "Consultoría ambiental que ofrece estrategia de economía circular, cumplimiento en envases y empaques (Clean Pack) y el marketplace digital Co-Workers Cloud para materiales aprovechables.",
+  "cta_pitch_en": "R&amp;R Kelab integrates regulatory consulting, collective packaging plans, and Co-Workers Cloud to connect waste generators, recyclers, and services in one circular platform.",
+  "cta_pitch_es": "R&amp;R Kelab integra consultoría regulatoria, planes colectivos de envases y Co-Workers Cloud para conectar generadores, recicladores y servicios en una plataforma circular.",
+  "cta_btn_en": "kelab.com.co",
+  "cta_btn_es": "kelab.com.co",
+  "ribbon": [
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    },
+    {
+      "val": "[PENDIENTE]",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "Acceleration",
+      "sub_es": "Acceleration"
+    },
+    {
+      "val": "Circular",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Métricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "Acceleration",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Hub",
+        "lab_es": "Hub"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Industries in Colombia face complex environmental permitting, packaging-waste obligations, and fragmented markets for recoverable materials.",
+      "head_es": "Las industrias en Colombia enfrentan permisos ambientales complejos, obligaciones de envases y empaques y mercados fragmentados para materiales aprovechables.",
+      "body_en": "Industries in Colombia face complex environmental permitting, packaging-waste obligations, and fragmented markets for recoverable materials.",
+      "body_es": "Las industrias en Colombia enfrentan permisos ambientales complejos, obligaciones de envases y empaques y mercados fragmentados para materiales aprovechables.",
+      "bg": "https://images.unsplash.com/photo-1532996122724-e3c031a396bf?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "🌱",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "R&amp;R Kelab integrates regulatory consulting, collective packaging plans, and Co-Workers Cloud to connect waste generators, recyclers, and services in one circular platform.",
+          "text_es": "R&amp;R Kelab integra consultoría regulatoria, planes colectivos de envases y Co-Workers Cloud para conectar generadores, recicladores y servicios en una plataforma circular."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "R&amp;R Kelab — Acceleration (CleantechHUB).",
+          "text_es": "R&amp;R Kelab — Acceleration (CleantechHUB)."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Based in Colombia (Bogotá). Public site: kelab.com.co.",
+          "text_es": "Con base en Colombia (Bogotá). Sitio público: kelab.com.co."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact &amp; Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Wiki source",
+          "title_es": "Fuente Wiki",
+          "text_en": "Profile synced from BookStack Startup Portfolio + Odoo (SoT).",
+          "text_es": "Perfil sincronizado desde BookStack Startup Portfolio + Odoo (SoT)."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomía",
+          "text_en": "[PENDIENTE]",
+          "text_es": "[PENDIENTE]"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Mario Antonio Ruiz-Vargas",
+          "role_en": "CEO &amp; Founder &middot; CleantechHUB Acceleration",
+          "role_es": "CEO y Fundador &middot; Aceleración CleantechHUB",
+          "bio_en": "Founder and general manager of R&amp;R Kelab S.A.S. Public LinkedIn profile.",
+          "bio_es": "Fundador y gerente general de R&amp;R Kelab S.A.S. Perfil público en LinkedIn.",
+          "initials": "MR",
+          "linkedin": "https://www.linkedin.com/in/phd-c-mario-antonio-ruiz-vargas-b494aa33"
+        }
+      ],
+      "dream_en": "Program: Acceleration. CT taxonomy: [P]. Verified KPIs: [PENDIENTE].",
+      "dream_es": "Programa: Acceleration. Taxonomía CT: [P]. KPIs verificados: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80"
+    }
+  ]
+}
