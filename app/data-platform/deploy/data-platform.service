@@ -1,0 +1,17 @@
+[Unit]
+Description=CTH Data Platform (data.cleantechhub.net)
+After=network.target
+Requires=caddy.service
+
+[Service]
+Type=exec
+User=www-data
+WorkingDirectory=/opt/data-platform
+ExecStart=/opt/data-platform/venv/bin/uvicorn app.main:app --host 127.0.0.1 --port 8010
+Restart=always
+RestartSec=5
+Environment=DATA_PLATFORM_ENV=production
+EnvironmentFile=/opt/data-platform/.env
+
+[Install]
+WantedBy=multi-user.target
