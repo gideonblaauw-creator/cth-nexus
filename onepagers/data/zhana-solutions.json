@@ -1,0 +1,130 @@
+{
+  "template": "portfolio",
+  "slug": "zhana-solutions",
+  "name": "ZhanaSolutions",
+  "website": "https://zhanasolutions.com/",
+  "badge_en": "Water &amp; Circular &middot; CLAC21",
+  "badge_es": "Agua y Circular &middot; CLAC21",
+  "hero_image": "https://zhanasolutions.com/wp-content/uploads/2025/03/Frame-225_11zon-scaled.webp",
+  "hero_sub_en": "zhanasolutions.com &middot; Bogotá &middot; Colombia &middot; Circular Economy &middot; Stage: Pre-Series A &middot; CT-WW-002",
+  "hero_sub_es": "zhanasolutions.com &middot; Bogotá &middot; Colombia &middot; Economía Circular &middot; Etapa: Pre-Series A &middot; CT-WW-002",
+  "pitch_en": "Deploys electrochemical grease traps removing oils from industrial kitchen wastewater and converting recovered grease into circular-economy feedstock.",
+  "pitch_es": "Despliega trampas de grasa electroquímicas que eliminan aceites de aguas residuales industriales y convierten la grasa recuperada en materia prima de economía circular.",
+  "cta_pitch_en": "G-TRAP and circular services for HORECA and industrial kitchens — less water contamination, recovered fats for downstream energy uses.",
+  "cta_pitch_es": "G-TRAP y servicios circulares para cocinas HORECA e industriales — menos contaminación del agua, grasas recuperadas para usos energéticos.",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "ribbon": [
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    },
+    {
+      "val": "Pre-A",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLAC21",
+      "sub_es": "CLAC21"
+    },
+    {
+      "val": "Circular",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Métricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "portfolio": {
+    "stat_program": "CLAC21",
+    "stat_program_lab_en": "Program",
+    "stat_program_lab_es": "Programa",
+    "country_code": "CO",
+    "country_name_en": "Colombia",
+    "country_name_es": "Colombia",
+    "bg_problem": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1200&q=80",
+    "bg_solution": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=1200&q=80",
+    "bg_impact": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1200&q=80",
+    "bg_team": "https://zhanasolutions.com/wp-content/uploads/2025/04/Group-2-1-300x300.webp",
+    "bg_cta": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80",
+    "image_credits": {
+      "en": "Hero + Sec. 04 brand: zhanasolutions.com. Sec. 01: Unsplash / ThisIsEngineering (industrial lab). Sec. 02: Unsplash / ThisIsEngineering (engineering workspace). Sec. 03: Unsplash / Casey Horner (forest river). CTA: Unsplash / Austin Distel (urban food service).",
+      "es": "Hero + marca Sec. 04: zhanasolutions.com. Sec. 01: Unsplash / ThisIsEngineering (laboratorio). Sec. 02: Unsplash / ThisIsEngineering (ingeniería). Sec. 03: Unsplash / Casey Horner (río). CTA: Unsplash / Austin Distel (servicio de alimentos)."
+    },
+    "problem_head_en": "Industrial kitchen wastewater carries fats and oils that contaminate rivers and treatment systems.",
+    "problem_head_es": "Las aguas residuales de cocinas industriales arrastran grasas y aceites que contaminan ríos y sistemas de tratamiento.",
+    "problem_body_en": "Restaurants, hotels, and food-service operators need practical grease management that meets environmental rules without slowing operations.",
+    "problem_body_es": "Restaurantes, hoteles y operadores de servicio de alimentos necesitan gestión de grasas práctica que cumpla normas ambientales sin frenar operaciones.",
+    "solution_steps": [
+      {
+        "icon": "💧",
+        "label_en": "Focus",
+        "label_es": "Enfoque",
+        "text_en": "Automatic grease separation (G-TRAP) and collection services for industrial kitchens, with circular recovery of brown grease.",
+        "text_es": "Separación automática de grasas (G-TRAP) y servicios de recolección para cocinas industriales, con recuperación circular de grasas."
+      },
+      {
+        "icon": "🔗",
+        "label_en": "Program",
+        "label_es": "Programa",
+        "text_en": "ZhanaSolutions — CLAC21 CleantechHUB alumni (portfolio card ZHANA SOLUTIONS).",
+        "text_es": "ZhanaSolutions — alumni CLAC21 CleantechHUB (tarjeta ZHANA SOLUTIONS)."
+      },
+      {
+        "icon": "🌎",
+        "label_en": "Market",
+        "label_es": "Mercado",
+        "text_en": "Based in Bogotá, Colombia; national coverage. Public site: zhanasolutions.com.",
+        "text_es": "Con base en Bogotá, Colombia; cobertura nacional. Sitio: zhanasolutions.com."
+      }
+    ],
+    "source_en": "CleantechHUB portfolio card (ZHANA SOLUTIONS) + zhanasolutions.com.",
+    "source_es": "Tarjeta portafolio CleantechHUB (ZHANA SOLUTIONS) + zhanasolutions.com.",
+    "taxonomy_en": "CT-WW-002 · Wastewater Treatment · CT-WA-001 · Water Access",
+    "taxonomy_es": "CT-WW-002 · Tratamiento aguas residuales · CT-WA-001 · Acceso al agua",
+    "location_en": "City: Bogotá · Country: Colombia",
+    "location_es": "Ciudad: Bogotá · País: Colombia",
+    "program_detail_en": "CleantechHUB Acceleration · CLAC21 cohort.",
+    "program_detail_es": "Aceleración CleantechHUB · cohorte CLAC21.",
+    "team": [
+      {
+        "name": "Francisco Vivas Ramos",
+        "role_en": "CEO &amp; Co-founder &middot; CLAC21",
+        "role_es": "CEO y Cofundador &middot; CLAC21",
+        "bio_en": "CEO listed on zhanasolutions.com team page.",
+        "bio_es": "CEO en página de equipo zhanasolutions.com.",
+        "initials": "FV",
+        "linkedin": "https://www.linkedin.com/in/francisco-vivas-ramos"
+      },
+      {
+        "name": "Javier Andrés de Castro Rodríguez",
+        "role_en": "CTO &amp; Co-founder &middot; CLAC21",
+        "role_es": "CTO y Cofundador &middot; CLAC21",
+        "bio_en": "CTO · electrochemical water treatment. Source: zhanasolutions.com, LinkedIn.",
+        "bio_es": "CTO · tratamiento electroquímico de agua. Fuente: zhanasolutions.com, LinkedIn.",
+        "initials": "JC",
+        "linkedin": "https://www.linkedin.com/in/javieradecastro"
+      },
+      {
+        "name": "Andrés Galindo",
+        "role_en": "Co-founder &middot; Business Development &middot; CLAC21",
+        "role_es": "Cofundador &middot; Desarrollo de negocio &middot; CLAC21",
+        "bio_en": "CBDO on zhanasolutions.com. Source: LinkedIn.",
+        "bio_es": "CBDO en zhanasolutions.com. Fuente: LinkedIn.",
+        "initials": "AG",
+        "linkedin": "https://www.linkedin.com/in/andresgalindothebuilder"
+      }
+    ],
+    "footer_note_en": "Program: CLAC21. Portfolio card cites 99% oil removal — not repeated here without deck verification. Pitch deck: [PENDIENTE]. Verified KPIs: [PENDIENTE].",
+    "footer_note_es": "Programa: CLAC21. Tarjeta cita 99% remoción de aceites — no repetido aquí sin verificación de deck. Pitch deck: [PENDIENTE]. KPIs verificados: [PENDIENTE]."
+  }
+}

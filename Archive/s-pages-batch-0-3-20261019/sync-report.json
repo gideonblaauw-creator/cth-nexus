@@ -1,0 +1,230 @@
+{
+  "date": "2026-10-19",
+  "branch": "feat/cards-batch-0-3",
+  "source_branches": {
+    "feat/s-pages-batch-0": "2e305a90d355636e039e426e292848d27721f33c",
+    "feat/s-pages-batch-1": "758e6c329fe12f427bc2992e1e470fca4e95fa76",
+    "feat/s-pages-batch-2": "5fdd21137610f83a8acdde99bded41048856aefb",
+    "feat/s-pages-batch-3-ff1c": "80ca55c6ec854dbbd7b24ed6549acb73ab08a82e"
+  },
+  "startups": [
+    {
+      "slug": "b-kapz",
+      "source_ref": "feat/s-pages-batch-0",
+      "source_sha": "2e305a90d355636e039e426e292848d27721f33c",
+      "odoo_company_id": null,
+      "odoo_status": "skipped (502/unavailable)",
+      "wiki_path": "ops/wiki-drafts/b-kapz.md",
+      "wiki_status": "existing/unchanged",
+      "card_status": "pending cards cmd",
+      "pendiente": []
+    },
+    {
+      "slug": "elastic-energy",
+      "source_ref": "feat/s-pages-batch-0",
+      "source_sha": "2e305a90d355636e039e426e292848d27721f33c",
+      "odoo_company_id": null,
+      "odoo_status": "skipped (502/unavailable)",
+      "wiki_path": "ops/wiki-drafts/elastic-energy.md",
+      "wiki_status": "existing/unchanged",
+      "card_status": "pending cards cmd",
+      "pendiente": [
+        "stage",
+        "ct_taxonomy"
+      ]
+    },
+    {
+      "slug": "mubon",
+      "source_ref": "feat/s-pages-batch-0",
+      "source_sha": "2e305a90d355636e039e426e292848d27721f33c",
+      "odoo_company_id": null,
+      "odoo_status": "skipped (502/unavailable)",
+      "wiki_path": "ops/wiki-drafts/mubon.md",
+      "wiki_status": "existing/unchanged",
+      "card_status": "pending cards cmd",
+      "pendiente": []
+    },
+    {
+      "slug": "novatio",
+      "source_ref": "feat/s-pages-batch-0",
+      "source_sha": "2e305a90d355636e039e426e292848d27721f33c",
+      "odoo_company_id": null,
+      "odoo_status": "skipped (502/unavailable)",
+      "wiki_path": "ops/wiki-drafts/novatio.md",
+      "wiki_status": "existing/unchanged",
+      "card_status": "pending cards cmd",
+      "pendiente": []
+    },
+    {
+      "slug": "plasticos-ambientales",
+      "source_ref": "feat/s-pages-batch-0",
+      "source_sha": "2e305a90d355636e039e426e292848d27721f33c",
+      "odoo_company_id": null,
+      "odoo_status": "skipped (502/unavailable)",
+      "wiki_path": "ops/wiki-drafts/plasticos-ambientales.md",
+      "wiki_status": "existing/updated",
+      "card_status": "pending cards cmd",
+      "pendiente": [
+        "ct_taxonomy",
+        "linkedin:[PENDIENTE]"
+      ]
+    },
+    {
+      "slug": "ainwater",
+      "source_ref": "feat/s-pages-batch-1",
+      "source_sha": "758e6c329fe12f427bc2992e1e470fca4e95fa76",
+      "odoo_company_id": null,
+      "odoo_status": "skipped (502/unavailable)",
+      "wiki_path": "ops/wiki-drafts/ainwater.md",
+      "wiki_status": "existing/unchanged",
+      "card_status": "pending cards cmd",
+      "pendiente": [
+        "stage",
+        "ct_taxonomy"
+      ]
+    },
+    {
+      "slug": "air4u",
+      "source_ref": "feat/s-pages-batch-1",
+      "source_sha": "758e6c329fe12f427bc2992e1e470fca4e95fa76",
+      "odoo_company_id": null,
+      "odoo_status": "skipped (502/unavailable)",
+      "wiki_path": "ops/wiki-drafts/air4u.md",
+      "wiki_status": "existing/unchanged",
+      "card_status": "pending cards cmd",
+      "pendiente": []
+    },
+    {
+      "slug": "suncolombia",
+      "source_ref": "feat/s-pages-batch-1",
+      "source_sha": "758e6c329fe12f427bc2992e1e470fca4e95fa76",
+      "odoo_company_id": null,
+      "odoo_status": "skipped (502/unavailable)",
+      "wiki_path": "ops/wiki-drafts/suncolombia.md",
+      "wiki_status": "existing/unchanged",
+      "card_status": "pending cards cmd",
+      "pendiente": []
+    },
+    {
+      "slug": "weia",
+      "source_ref": "feat/s-pages-batch-1",
+      "source_sha": "758e6c329fe12f427bc2992e1e470fca4e95fa76",
+      "odoo_company_id": null,
+      "odoo_status": "skipped (502/unavailable)",
+      "wiki_path": "ops/wiki-drafts/weia.md",
+      "wiki_status": "existing/unchanged",
+      "card_status": "pending cards cmd",
+      "pendiente": []
+    },
+    {
+      "slug": "zhana-solutions",
+      "source_ref": "feat/s-pages-batch-1",
+      "source_sha": "758e6c329fe12f427bc2992e1e470fca4e95fa76",
+      "odoo_company_id": null,
+      "odoo_status": "skipped (502/unavailable)",
+      "wiki_path": "ops/wiki-drafts/zhana-solutions.md",
+      "wiki_status": "existing/unchanged",
+      "card_status": "pending cards cmd",
+      "pendiente": []
+    },
+    {
+      "slug": "alfe-aseo-sas",
+      "source_ref": "feat/s-pages-batch-2",
+      "source_sha": "5fdd21137610f83a8acdde99bded41048856aefb",
+      "odoo_company_id": null,
+      "odoo_status": "skipped (502/unavailable)",
+      "wiki_path": "ops/wiki-drafts/alfe-aseo-sas.md",
+      "wiki_status": "existing/unchanged",
+      "card_status": "pending cards cmd",
+      "pendiente": [
+        "linkedin:Alicia Guerra"
+      ]
+    },
+    {
+      "slug": "baruk-company",
+      "source_ref": "feat/s-pages-batch-2",
+      "source_sha": "5fdd21137610f83a8acdde99bded41048856aefb",
+      "odoo_company_id": null,
+      "odoo_status": "skipped (502/unavailable)",
+      "wiki_path": "ops/wiki-drafts/baruk-company.md",
+      "wiki_status": "existing/unchanged",
+      "card_status": "pending cards cmd",
+      "pendiente": [
+        "website"
+      ]
+    },
+    {
+      "slug": "bioarea",
+      "source_ref": "feat/s-pages-batch-2",
+      "source_sha": "5fdd21137610f83a8acdde99bded41048856aefb",
+      "odoo_company_id": null,
+      "odoo_status": "skipped (502/unavailable)",
+      "wiki_path": "ops/wiki-drafts/bioarea.md",
+      "wiki_status": "existing/unchanged",
+      "card_status": "pending cards cmd",
+      "pendiente": []
+    },
+    {
+      "slug": "calojabones",
+      "source_ref": "feat/s-pages-batch-2",
+      "source_sha": "5fdd21137610f83a8acdde99bded41048856aefb",
+      "odoo_company_id": null,
+      "odoo_status": "skipped (502/unavailable)",
+      "wiki_path": "ops/wiki-drafts/calojabones.md",
+      "wiki_status": "existing/unchanged",
+      "card_status": "pending cards cmd",
+      "pendiente": []
+    },
+    {
+      "slug": "ciclorganicos",
+      "source_ref": "feat/s-pages-batch-3-ff1c",
+      "source_sha": "80ca55c6ec854dbbd7b24ed6549acb73ab08a82e",
+      "odoo_company_id": null,
+      "odoo_status": "skipped (502/unavailable)",
+      "wiki_path": "ops/wiki-drafts/ciclorganicos.md",
+      "wiki_status": "existing/unchanged",
+      "card_status": "pending cards cmd",
+      "pendiente": []
+    },
+    {
+      "slug": "cobox-logistic",
+      "source_ref": "feat/s-pages-batch-3-ff1c",
+      "source_sha": "80ca55c6ec854dbbd7b24ed6549acb73ab08a82e",
+      "odoo_company_id": null,
+      "odoo_status": "skipped (502/unavailable)",
+      "wiki_path": "ops/wiki-drafts/cobox-logistic.md",
+      "wiki_status": "existing/unchanged",
+      "card_status": "pending cards cmd",
+      "pendiente": [
+        "linkedin:Max Elias Figueroa Huaman"
+      ]
+    },
+    {
+      "slug": "greenify",
+      "source_ref": "feat/s-pages-batch-3-ff1c",
+      "source_sha": "80ca55c6ec854dbbd7b24ed6549acb73ab08a82e",
+      "odoo_company_id": null,
+      "odoo_status": "skipped (502/unavailable)",
+      "wiki_path": "ops/wiki-drafts/greenify.md",
+      "wiki_status": "existing/unchanged",
+      "card_status": "pending cards cmd",
+      "pendiente": []
+    },
+    {
+      "slug": "habitat-a-vibe-company",
+      "source_ref": "feat/s-pages-batch-3-ff1c",
+      "source_sha": "80ca55c6ec854dbbd7b24ed6549acb73ab08a82e",
+      "odoo_company_id": null,
+      "odoo_status": "skipped (502/unavailable)",
+      "wiki_path": "ops/wiki-drafts/habitat-a-vibe-company.md",
+      "wiki_status": "existing/unchanged",
+      "card_status": "pending cards cmd",
+      "pendiente": []
+    }
+  ],
+  "blockers": [
+    "Odoo unavailable (https://services.cleantechhub.net): <ProtocolError for services.cleantechhub.net/xmlrpc/2/common: 502 Bad Gateway>"
+  ],
+  "wiki_delivery": "ops/wiki-drafts/<slug>.md (local HITL; BookStack API not used)",
+  "odoo": "skipped: Odoo unavailable (https://services.cleantechhub.net): <ProtocolError for services.cleantechhub.net/xmlrpc/2/common: 502 Bad Gateway>"
+}
