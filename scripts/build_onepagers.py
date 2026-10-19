@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """Build Nexus startup one-pagers from JSON data + shared template."""
 from __future__ import annotations
 
@@ -95,7 +96,7 @@ def sol_grid(steps: list[dict]) -> str:
     for n, s in enumerate(steps, 1):
         cards.append(
             f'<div class="sol-card"><div class="sol-step">{n}</div>'
-            f'<div class="sol-icon">{s.get("icon","●")}</div>'
+            f'<div class="sol-icon">{s.get("icon", "?")}</div>'
             f'<div class="sol-label">{bi(s["label_en"], s["label_es"])}</div>'
             f'<div class="sol-text">{bi(s["text_en"], s["text_es"])}</div></div>'
         )
@@ -106,7 +107,7 @@ def impact_grid(cards: list[dict]) -> str:
     items = []
     for c in cards:
         items.append(
-            f'<div class="imp-card"><div class="imp-icon">{c.get("icon","●")}</div>'
+            f'<div class="imp-card"><div class="imp-icon">{c.get("icon", "?")}</div>'
             f'<div><div class="imp-title">{bi(c["title_en"], c["title_es"])}</div>'
             f'<div class="imp-text">{bi(c["text_en"], c["text_es"])}</div></div></div>'
         )
@@ -135,9 +136,34 @@ def team_grid(members: list[dict], slug: str) -> str:
             f'<div class="team-card">{avatar}'
             f'<div class="tp-name">{m["name"]}</div>'
             f'<div class="tp-role">{bi(m["role_en"], m["role_es"])}</div>'
-            f'<div class="tp-bio">{bi(m.get("bio_en",""), m.get("bio_es",""))}</div>{link}</div>'
+            f'<div class="tp-bio">{bi(m.get("bio_en", ""), m.get("bio_es", ""))}</div>{link}</div>'
         )
     return f'<div class="team-grid">{"".join(cards)}</div>'
+
+
+def image_credits_block(d: dict) -> str:
+    credits = d.get("image_credits")
+    if not credits:
+        return ""
+    rows = []
+    for c in credits:
+        link = c.get("link", "")
+        text_en = c["credit_en"]
+        text_es = c["credit_es"]
+        if link:
+            inner = (
+                f'<a href="{link}" target="_blank" rel="noopener">{bi(text_en, text_es)}</a>'
+            )
+        else:
+            inner = bi(text_en, text_es)
+        rows.append(
+            f'<li><span class="ic-slot">{bi(c["slot_en"], c["slot_es"])}</span> {inner}</li>'
+        )
+    return (
+        f'<div class="img-credits">'
+        f'<div class="img-credits-title">{bi("Image sources", "Fuentes de imagen")}</div>'
+        f'<ul class="img-credits-list">{"".join(rows)}</ul></div>'
+    )
 
 
 def deck_section(d: dict, slug: str) -> str:
@@ -153,16 +179,16 @@ def deck_section(d: dict, slug: str) -> str:
         f"</div>"
     )
     fallback = (
-        f'<div class="deck-fallback">{bi("Deck not loading?", "¿No carga el deck?")} '
+        f'<div class="deck-fallback">{bi("Deck not loading?", "No carga el deck?")} '
         f'<a href="{local_pdf}" target="_blank" rel="noopener">{bi("Open PDF", "Abrir PDF")}</a></div>'
     )
     return (
         f'<div class="sec" style="position:relative;">'
         f'<div class="sec-bg" style="background-image:url(\'{bg}\');"></div>'
         f'<div class="sec-ov" style="background:rgba(12,73,138,.30);"></div>'
-        f'<div class="sec-header"><div class="sec-num">📄</div>'
+        f'<div class="sec-header"><div class="sec-num">PDF</div>'
         f'<div class="sec-title">{bi("Pitch Deck", "Pitch Deck")}</div><div class="sec-rule"></div></div>'
-        f'<div class="deck-note">{bi("Full-size deck preview below. Numbers on this profile match the deck only.", "Vista previa del deck a tamaño completo. Los números en este perfil provienen solo del deck.")}</div>'
+        f'<div class="deck-note">{bi("Full-size deck preview below. Numbers on this profile match the deck only.", "Vista previa del deck a tamano completo. Los numeros en este perfil provienen solo del deck.")}</div>'
         f'<div class="deck-wrap"><div class="deck-panel">{iframe}{fallback}</div>'
         f'<div class="deck-actions">'
         f'<a class="cta-link" href="{local_pdf}" target="_blank" rel="noopener">{bi("Open PDF", "Abrir PDF")}</a>'
@@ -171,14 +197,13 @@ def deck_section(d: dict, slug: str) -> str:
     )
 
 
-
 def build_page(d: dict) -> str:
     css = TEMPLATE_CSS.read_text()
     slug = d["slug"]
     ribbon = "".join(
         f'<div class="ribbon-cell"><div class="rc-val">{k["val"]}</div>'
         f'<div class="rc-lab">{bi(k["lab_en"], k["lab_es"])}</div>'
-        f'<div class="rc-sub">{bi(k.get("sub_en",""), k.get("sub_es",""))}</div></div>'
+        f'<div class="rc-sub">{bi(k.get("sub_en", ""), k.get("sub_es", ""))}</div></div>'
         for k in d["ribbon"]
     )
 
@@ -212,7 +237,7 @@ def build_page(d: dict) -> str:
                 f'<div class="split-h">{bi(sec["head_en"], sec["head_es"])}</div>'
                 f'<div class="body-text">{bi(sec["body_en"], sec["body_es"])}</div></div></div>'
                 f'<div class="split-panel"><div class="split-frost split-frost-stats">'
-                f'{stats}{sec.get("extra_html","")}</div></div></div>'
+                f'{stats}{sec.get("extra_html", "")}</div></div></div>'
             )
         elif sec["type"] == "solution":
             inner = sol_grid(sec["steps"])
@@ -242,7 +267,7 @@ def build_page(d: dict) -> str:
             f'<div class="sec-ov" style="background:{ov};"></div>'
             f'<div class="sec-header"><div class="sec-num">{num:02d}</div>'
             f'<div class="sec-title">{bi(title_en, title_es)}</div><div class="sec-rule"></div></div>'
-            f'{inner}</div>'
+            f"{inner}</div>"
         )
         if sec.get("accent_after"):
             sections_html += '<div class="accent-bar"></div>'
@@ -251,14 +276,24 @@ def build_page(d: dict) -> str:
     deck_link = ""
     if deck:
         local_pdf = deck.get("pdf_path") or f"/s/{slug}/deck.pdf"
-        deck_link = f'<a class="cta-link" href="{local_pdf}" target="_blank" rel="noopener">{bi("Pitch deck (PDF)", "Pitch deck (PDF)")}</a>'
+        deck_link = (
+            f'<a class="cta-link" href="{local_pdf}" target="_blank" rel="noopener">'
+            f'{bi("Pitch deck (PDF)", "Pitch deck (PDF)")}</a>'
+        )
+
+    cta_port_en = d.get(
+        "cta_port_en", "CleantechHUB portfolio profile - Latin America"
+    )
+    cta_port_es = d.get(
+        "cta_port_es", "Perfil portafolio CleantechHUB - America Latina"
+    )
 
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{d["name"]} — CleantechHUB Startup Profile</title>
+<title>{d["name"]} - CleantechHUB Startup Profile</title>
 <link rel="icon" href="https://cleantechhub.net/favicon.ico">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
 <style>
@@ -275,46 +310,52 @@ def build_page(d: dict) -> str:
 <div class="sec hero">
   <img class="hero-img" src="{asset_url(d["hero_image"], slug)}" alt="{d["name"]}" loading="lazy">
   <div class="hero-ov"></div>
-  <div class="hero-badge"><div class="pill" style="background:rgba(0,0,0,.45);coor:var(--lg);">{bi(d["badge_en"], d["badge_es"])}</div></div>
+  <div class="hero-badge"><div class="pill" style="background:rgba(0,0,0,.45);color:var(--lg);">{bi(d["badge_en"], d["badge_es"])}</div></div>
   <div class="hero-in">
     <div class="hero-name">{d["name"]}</div>
     <div class="hero-sub">{bi(d["hero_sub_en"], d["hero_sub_es"])}</div>
     <div class="hero-pitch">{bi(d["pitch_en"], d["pitch_es"])}</div>
   </div>
-  <div class="hero-tagline">Inspira. Actúa. Transforma.</div>
+  <div class="hero-tagline">Inspira. Actua. Transforma.</div>
 </div>
 
-<div class="ribbon" style="background:rgba(12,73,138,.95);":{ribbon}</div>
+<div class="ribbon" style="background:rgba(12,73,138,.95);">{ribbon}</div>
 
 {deck_section(d, slug)}
 
-sections_html}
+{sections_html}
 
 <div class="sec" style="position:relative;">
-  <div class="sec-bg" style="background-image:url('{asset_url("./assets/bg-cta.jpg", slug)}');"></div>
+  <div class="sec-bg" style="background-image:url('{asset_url(d.get("cta_bg", "./assets/bg-cta.jpg"), slug)}');"></div>
   <div class="sec-ov" style="background:rgba(12,73,138,.30);"></div>
   <div class="cta">
     <div class="pill" style="background:rgba(157,195,132,.12);border:1px solid rgba(157,195,132,.2);color:var(--lg);margin-bottom:16px;">{bi(d["badge_en"], d["badge_es"])}</div>
     <div class="cta-name">{d["name"]}</div>
-    <div class="cta-pitch">{bi(�["cta_pitch_en"], d["cta_pitch_es"])}</div>
-    <a class="cta-btn" href="{d.get("website","#")}>{bi(d.get("cta_btn_en","Visit website"), d.get("cta_btn_es","Visitar sitio"))}</a>
+    <div class="cta-pitch">{bi(d["cta_pitch_en"], d["cta_pitch_es"])}</div>
+    <a class="cta-btn" href="{d.get("website", "#")}">{bi(d.get("cta_btn_en", "Visit website"), d.get("cta_btn_es", "Visitar sitio"))}</a>
     <div class="cta-links">
-      <a class="cta-link" href="https://nexus.cleantechhub.net/s/{slug}">{bi(�Nexus Profile", "Perfil Nexus")}</a>
-      <a class="cta-link" href="https://nexus.cleantechhub.net/p/startup-portfolio">{bi(�157 Startups", "157 Startups")}</a>
+      <a class="cta-link" href="https://nexus.cleantechhub.net/s/{slug}">{bi("Nexus Profile", "Perfil Nexus")}</a>
+      <a class="cta-link" href="https://nexus.cleantechhub.net/p/startup-portfolio">{bi("157 Startups", "157 Startups")}</a>
       {deck_link}
     </div>
-    <div class="cta-brand"><div class="tg">Inspira. Actúa. Transforma.</div><div class="lg2">Cleantech<em style="color:var(--lg);font-style:normal;">HUB</em></div></div>
-    <div class="cta-port">{bi(�CleantechHUB portfolio profile · Latin America", "Perfil portafolio CleantechHUB · América Latina")}</div>
+    <div class="cta-brand"><div class="tg">Inspira. Actua. Transforma.</div><div class="lg2">Cleantech<em style="color:var(--lg);font-style:normal;">HUB</em></div></div>
+    <div class="cta-port">{bi(cta_port_en, cta_port_es)}</div>
   </div>
 </div>
 <div class="accent-bar"></div>
+{image_credits_block(d)}
 </body>
 </html>"""
 
 
 def main() -> None:
-    OUT_REPO.mkdir(parents=True, exist_ok=T�ue)
-    OUT_ARCHIVE.mkdir(parents=True, exist_ok=T�ue)
+    OUT_REPO.mkdir(parents=True, exist_ok=True)
+    archive_targets = [OUT_REPO]
+    try:
+        OUT_ARCHIVE.mkdir(parents=True, exist_ok=True)
+        archive_targets.append(OUT_ARCHIVE)
+    except OSError:
+        pass
     only = sys.argv[1:] if len(sys.argv) > 1 else None
     for json_path in sorted(DATA_DIR.glob("*.json")):
         data = json.loads(json_path.read_text())
@@ -324,7 +365,7 @@ def main() -> None:
         html = build_page(data)
         pdf_src_name = (data.get("deck_pdf") or {}).get("source_file")
         media_src = OUT_MEDIA / slug
-        for base in (OUT_REPO / slug, OUT_ARCHIVE / slug):
+        for base in [t / slug for t in archive_targets]:
             base.mkdir(parents=True, exist_ok=True)
             (base / "index.html").write_text(html)
             if media_src.is_dir():
