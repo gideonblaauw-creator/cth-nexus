@@ -50,6 +50,18 @@ nexus.cleantechhub.net {
 		rewrite * /funders.html
 		file_server
 	}
+
+	handle /ecosystem* {
+		forward_auth 127.0.0.1:5050 {
+			uri /nexus-auth/check?next=/ecosystem/
+			copy_headers Cookie
+		}
+		root * /opt/cth-nexus/static/ecosystem
+		uri strip_prefix /ecosystem
+		try_files {path} /index.html
+		file_server
+	}
+
 	handle /p/startup-portfolio {
 		header Cache-Control "no-cache, must-revalidate"
 		root * /var/www/nexus

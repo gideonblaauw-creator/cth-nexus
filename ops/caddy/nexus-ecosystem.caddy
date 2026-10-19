@@ -1,0 +1,10 @@
+	handle /ecosystem* {
+		forward_auth 127.0.0.1:5050 {
+			uri /nexus-auth/check?next=/ecosystem/
+			copy_headers Cookie
+		}
+		root * /opt/cth-nexus/static/ecosystem
+		uri strip_prefix /ecosystem
+		try_files {path} /index.html
+		file_server
+	}

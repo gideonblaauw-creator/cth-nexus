@@ -126,7 +126,7 @@ def auth_check():
         return jsonify({"error": "authentication_required"}), 401
 
     nxt = _safe_next_path(
-        request.headers.get("X-Forwarded-Uri") or request.args.get("next")
+        request.args.get("next") or request.headers.get("X-Nexus-Next") or request.headers.get("X-Forwarded-Uri")
     )
     return redirect(f"/nexus-auth/?next={quote(nxt)}"), 302
 
