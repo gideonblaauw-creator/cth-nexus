@@ -28,6 +28,21 @@ Startup portfolio grid (`/p/startup-portfolio`):
 
 Outputs to `onepagers/sites/{slug}/index.html` and `/opt/claude-files/Projects/Nexus/startup-pages-draft-2026-08-20/{slug}/index.html`.
 
+### CLP26 Peru slice one-pagers
+
+Slice JSON lives in `onepagers/data/clp26-slices/{slug}.json`; deck PDFs in `onepagers/decks/{slug}.pdf`.
+
+```bash
+python3 scripts/build_clp26_slice_onepagers.py
+```
+
+Writes `onepagers/sites/{slug}/index.html` and `onepagers/sites/{slug}/deck.pdf` (served at `/s/{slug}` and `/s/{slug}/deck.pdf`).
+
+Portfolio grid + IMD Peru card data (deploy separately to Nexus):
+
+- `pages/p/startup-portfolio.html` — portfolio page with **One-pager** buttons on cards and detail modal
+- `nexus-assets/imd-peru-shareable.json` — CLP26 Peru card fields for YakuSmart, VIGIA, PezConfiable (slice-driven)
+
 ## Caddy (production — Gideon approval required)
 
 Live pages are served from `/opt/nexus-onepagers/{slug}/index.html` via:
