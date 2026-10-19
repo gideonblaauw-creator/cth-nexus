@@ -1,0 +1,164 @@
+{
+  "slug": "deposito-global-recycling",
+  "name": "Deposito Global Recycling",
+  "website": "#",
+  "badge_en": "Circular Economy &middot; CleantechHUB Acceleration",
+  "badge_es": "Economía circular &middot; Aceleración CleantechHUB",
+  "hero_image": "https://images.unsplash.com/photo-1605810230434-3341a1193435?w=1200&q=80",
+  "hero_sub_en": "[PENDIENTE] &middot; Colombia &middot; Cali &middot; Stage: [PENDIENTE] &middot; CT: [PENDIENTE]",
+  "hero_sub_es": "[PENDIENTE] &middot; Colombia &middot; Cali &middot; Etapa: [PENDIENTE] &middot; CT: [PENDIENTE]",
+  "pitch_en": "Colombian company Deposito Global Recycling S.A.S. (Cali) listed in CleantechHUB Acceleration portfolio — cleantech positioning pending public verification.",
+  "pitch_es": "Empresa colombiana Deposito Global Recycling S.A.S. (Cali) en portafolio Aceleración CleantechHUB — posicionamiento cleantech pendiente de verificación pública.",
+  "cta_pitch_en": "Legal entity registered in Cali, Valle del Cauca; public website and climate solution narrative: [PENDIENTE].",
+  "cta_pitch_es": "Persona jurídica registrada en Cali, Valle del Cauca; sitio web y narrativa climática pública: [PENDIENTE].",
+  "cta_btn_en": "CleantechHUB",
+  "cta_btn_es": "CleantechHUB",
+  "cta_bg": "https://images.unsplash.com/photo-1611284447374-40f2c1a89c45?w=1200&q=80",
+  "image_credits_en": "All Unsplash (recycling / materials trade context; no verified company website). Hero <a href=\"https://unsplash.com/photos/3341a1193435\" rel=\"noopener\" target=\"_blank\">recycling facility</a>. Sec.1 <a href=\"https://unsplash.com/photos/4fe1e0532c8b\" rel=\"noopener\" target=\"_blank\">plastic bottles</a>. Sec.2 <a href=\"https://unsplash.com/photos/fcd25c85cd64\" rel=\"noopener\" target=\"_blank\">sorting line</a>. Sec.3 <a href=\"https://unsplash.com/photos/6d7dc2924b5c\" rel=\"noopener\" target=\"_blank\">forest stewardship</a>. Sec.4 <a href=\"https://unsplash.com/photos/0b29ce79f1a6\" rel=\"noopener\" target=\"_blank\">warehouse</a>. CTA <a href=\"https://unsplash.com/photos/40f2c1a89c45\" rel=\"noopener\" target=\"_blank\">scrap materials</a>.",
+  "image_credits_es": "Todo Unsplash (contexto reciclaje/comercio de materiales; sin sitio verificado de la empresa). Hero <a href=\"https://unsplash.com/photos/3341a1193435\" rel=\"noopener\" target=\"_blank\">planta de reciclaje</a>. Sec.1 <a href=\"https://unsplash.com/photos/4fe1e0532c8b\" rel=\"noopener\" target=\"_blank\">botellas plásticas</a>. Sec.2 <a href=\"https://unsplash.com/photos/fcd25c85cd64\" rel=\"noopener\" target=\"_blank\">línea de clasificación</a>. Sec.3 <a href=\"https://unsplash.com/photos/6d7dc2924b5c\" rel=\"noopener\" target=\"_blank\">bosque</a>. Sec.4 <a href=\"https://unsplash.com/photos/0b29ce79f1a6\" rel=\"noopener\" target=\"_blank\">bodega</a>. CTA <a href=\"https://unsplash.com/photos/40f2c1a89c45\" rel=\"noopener\" target=\"_blank\">materiales reciclables</a>.",
+  "ribbon": [
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CTH Accel.",
+      "sub_es": "Acel. CTH"
+    },
+    {
+      "val": "CE",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Assumed",
+      "sub_es": "Supuesto"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "CT Taxonomy",
+      "lab_es": "Taxonomía CT",
+      "sub_en": "Pending",
+      "sub_es": "Pendiente"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CTH",
+        "lab_en": "Acceleration",
+        "lab_es": "Aceleración"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Hub",
+        "lab_es": "Hub"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "[PENDIENTE] — No verified public materials describing the environmental problem Deposito Global Recycling addresses.",
+      "head_es": "[PENDIENTE] — Sin materiales públicos verificados que describan el problema ambiental que aborda Deposito Global Recycling.",
+      "body_en": "Registry data lists retail of hardware/paint/glass (Cali); alignment with recycling/circular operations requires CTH confirmation — not asserted here.",
+      "body_es": "Datos registrales listan comercio de ferretería/pintura/vidrio (Cali); alineación con reciclaje/circularidad requiere confirmación CTH — no se afirma aquí.",
+      "bg": "https://images.unsplash.com/photo-1618477387244-4fe1e0532c8b?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "♻️",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "[PENDIENTE] — Solution description not available from verified public marketing or CTH wiki.",
+          "text_es": "[PENDIENTE] — Descripción de la solución no disponible en marketing público verificado ni wiki CTH."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "Deposito Global Recycling SAS — CleantechHUB Acceleration sheet entry.",
+          "text_es": "Deposito Global Recycling SAS — entrada hoja Aceleración CleantechHUB."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Cali, Valle del Cauca, Colombia (registry). Website: [PENDIENTE].",
+          "text_es": "Cali, Valle del Cauca, Colombia (registro). Sitio web: [PENDIENTE]."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact &amp; Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Registry source",
+          "title_es": "Fuente registral",
+          "text_en": "Active SAS registration in Cali (public business directories); activity code: retail hardware/paint/glass — interpret with care.",
+          "text_es": "Matrícula SAS activa en Cali (directorios públicos); código de actividad: comercio ferretería/pintura/vidrio — interpretar con cautela."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomía",
+          "text_en": "CT taxonomy: [PENDIENTE]. Not listed on public Nexus portfolio grid.",
+          "text_es": "Taxonomía CT: [PENDIENTE]. No listada en la grilla pública del portafolio Nexus."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1466611336591-6d7dc2924b5c?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "[PENDIENTE]",
+          "role_en": "Leadership &middot; Deposito Global Recycling",
+          "role_es": "Liderazgo &middot; Deposito Global Recycling",
+          "bio_en": "Legal representatives / founders not identified from public-safe sources.",
+          "bio_es": "Representantes legales / fundadores no identificados en fuentes públicas seguras.",
+          "initials": "?"
+        }
+      ],
+      "dream_en": "Program: CleantechHUB Acceleration. City: Cali (registry). KPIs, website, founders: [PENDIENTE].",
+      "dream_es": "Programa: Aceleración CleantechHUB. Ciudad: Cali (registro). KPIs, sitio web, fundadores: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1586528116311-0b29ce79f1a6?w=1200&q=80"
+    }
+  ]
+}

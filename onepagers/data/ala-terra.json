@@ -1,0 +1,173 @@
+{
+  "slug": "ala-terra",
+  "name": "¡Ala Terra!",
+  "website": "https://alaterra.com.mx",
+  "badge_en": "Food systems &middot; CleantechHUB Acceleration",
+  "badge_es": "Sistemas alimentarios &middot; Aceleración CleantechHUB",
+  "hero_image": "https://assets.cdn.filesafe.space/RIkiXtFxRLDEnKoJeszB/media/6ac919e9bbad531ac8581ef8.png",
+  "hero_sub_en": "alaterra.com.mx &middot; Mexico &middot; Guadalajara &middot; Food systems &middot; Stage: [PENDIENTE] &middot; CT-WA-003",
+  "hero_sub_es": "alaterra.com.mx &middot; México &middot; Guadalajara &middot; Sistemas alimentarios &middot; Etapa: [PENDIENTE] &middot; CT-WA-003",
+  "pitch_en": "Rescues local surplus fruit into 100% fruit + chile snacks with no added sugar and no warning labels — school-friendly, reducing food waste.",
+  "pitch_es": "Rescata fruta local excedente en snacks 100% fruta + chilito, sin azúcar añadida y sin sellos — aptos para escuelas, reduciendo desperdicio alimentario.",
+  "cta_pitch_en": "Healthy, label-free fruit snacks that turn rescued produce into shelf-stable products aligned with Mexico's Vida Saludable norms.",
+  "cta_pitch_es": "Snacks saludables sin sellos que convierten fruta rescatada en productos de anaquel, alineados con la normativa Vida Saludable en México.",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "cta_bg": "https://images.unsplash.com/photo-1511690743690-d985d126e174?w=1200&q=80",
+  "image_credits_en": "Hero: product photo, <a href=\"https://alaterra.com.mx\" rel=\"noopener\" target=\"_blank\">alaterra.com.mx</a>. Sec.1 Unsplash <a href=\"https://unsplash.com/photos/1542838132-92c53300491e\" rel=\"noopener\" target=\"_blank\">food market produce</a>. Sec.2 Unsplash <a href=\"https://unsplash.com/photos/1601493700633-866a8a0a4b4c\" rel=\"noopener\" target=\"_blank\">dried fruit snacks</a>. Sec.3 Unsplash <a href=\"https://unsplash.com/photos/1560493676-2b0e20a0eae2\" rel=\"noopener\" target=\"_blank\">fruit orchard</a>. Sec.4 Unsplash <a href=\"https://unsplash.com/photos/1573496359142-b8d87734a5a2\" rel=\"noopener\" target=\"_blank\">team collaboration</a>. CTA Unsplash <a href=\"https://unsplash.com/photos/1511690743690-d985d126e174\" rel=\"noopener\" target=\"_blank\">healthy meal prep</a>.",
+  "image_credits_es": "Hero: foto de producto, <a href=\"https://alaterra.com.mx\" rel=\"noopener\" target=\"_blank\">alaterra.com.mx</a>. Sec.1 Unsplash <a href=\"https://unsplash.com/photos/1542838132-92c53300491e\" rel=\"noopener\" target=\"_blank\">mercado de frutas</a>. Sec.2 Unsplash <a href=\"https://unsplash.com/photos/1601493700633-866a8a0a4b4c\" rel=\"noopener\" target=\"_blank\">snacks de fruta deshidratada</a>. Sec.3 Unsplash <a href=\"https://unsplash.com/photos/1560493676-2b0e20a0eae2\" rel=\"noopener\" target=\"_blank\">huerto frutal</a>. Sec.4 Unsplash <a href=\"https://unsplash.com/photos/1573496359142-b8d87734a5a2\" rel=\"noopener\" target=\"_blank\">equipo colaborando</a>. CTA Unsplash <a href=\"https://unsplash.com/photos/1511690743690-d985d126e174\" rel=\"noopener\" target=\"_blank\">comida saludable</a>.",
+  "ribbon": [
+    {
+      "val": "MX",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Mexico",
+      "sub_es": "México"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CTH Accel.",
+      "sub_es": "Acel. CTH"
+    },
+    {
+      "val": "Food",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "CT-WA-003",
+      "lab_en": "CT Taxonomy",
+      "lab_es": "Taxonomía CT",
+      "sub_en": "CTH",
+      "sub_es": "CTH"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CTH",
+        "lab_en": "Acceleration",
+        "lab_es": "Aceleración"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Hub",
+        "lab_es": "Hub"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "MX",
+        "lab_en": "Mexico",
+        "lab_es": "México"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Cosmetic standards and supply chains leave edible fruit unsold, adding to food waste and lost value for growers.",
+      "head_es": "Los estándares estéticos y las cadenas de suministro dejan fruta comestible sin vender, aumentando el desperdicio y la pérdida de valor para productores.",
+      "body_en": "¡Ala Terra! addresses food waste from fruit that does not meet conventional market appearance, while offering healthier snack options for families and schools.",
+      "body_es": "¡Ala Terra! aborda el desperdicio de fruta que no cumple estándares estéticos del mercado, mientras ofrece opciones de snack más saludables para familias y escuelas.",
+      "bg": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "🍍",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Rescue local fruit (e.g. mango, pineapple, banana) and process it into 100% fruit strips with chile — no added sugar.",
+          "text_es": "Rescata fruta local (p. ej. mango, piña, plátano) y la procesa en tiras 100% fruta con chilito — sin azúcar añadida."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "¡Ala Terra! — CleantechHUB Acceleration portfolio (Portafolio CTH).",
+          "text_es": "¡Ala Terra! — portafolio Aceleración CleantechHUB (Portafolio CTH)."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Based in Mexico (Jalisco). Public site: alaterra.com.mx.",
+          "text_es": "Con base en México (Jalisco). Sitio público: alaterra.com.mx."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1601493700633-866a8a0a4b4c?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact &amp; Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Wiki / portfolio source",
+          "title_es": "Fuente portafolio",
+          "text_en": "Profile aligned with CleantechHUB Acceleration sheet entry &ldquo;Come ala terra&rdquo; and public brand ¡Ala Terra!.",
+          "text_es": "Perfil alineado con la entrada &ldquo;Come ala terra&rdquo; del Portafolio Aceleración CTH y la marca pública ¡Ala Terra!."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomía",
+          "text_en": "Food waste &amp; rescued produce &middot; CT-WA-003 (pending full CTH validation).",
+          "text_es": "Desperdicio alimentario y fruta rescatada &middot; CT-WA-003 (validación CTH completa pendiente)."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1560493676-2b0e20a0eae2?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Ana Cristina Dorantes",
+          "role_en": "CEO &amp; Co-founder &middot; ¡Ala Terra!",
+          "role_es": "CEO y cofundadora &middot; ¡Ala Terra!",
+          "bio_en": "Public-facing founder/CEO of ¡Ala Terra! and CEO of FOODLAB (Mexico). Source: company site + LinkedIn.",
+          "bio_es": "Fundadora/CEO pública de ¡Ala Terra! y CEO de FOODLAB (México). Fuente: sitio de la empresa + LinkedIn.",
+          "initials": "AD",
+          "linkedin": "https://www.linkedin.com/in/ana-cristina-dorantes-27502148"
+        },
+        {
+          "name": "[PENDIENTE]",
+          "role_en": "Co-founder &middot; ¡Ala Terra!",
+          "role_es": "Cofundador(a) &middot; ¡Ala Terra!",
+          "bio_en": "Site references &ldquo;fundadoras&rdquo; (plural); second named co-founder not verified from public sources.",
+          "bio_es": "El sitio menciona &ldquo;fundadoras&rdquo; (plural); segunda cofundadora nombrada no verificada en fuentes públicas.",
+          "initials": "?"
+        }
+      ],
+      "dream_en": "Program: CleantechHUB Acceleration. City (HQ): Guadalajara area [public LinkedIn]. Verified KPIs: [PENDIENTE]. Pitch deck: [PENDIENTE].",
+      "dream_es": "Programa: Aceleración CleantechHUB. Ciudad (HQ): área Guadalajara [LinkedIn público]. KPIs verificados: [PENDIENTE]. Pitch deck: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=1200&q=80"
+    }
+  ]
+}

@@ -95,7 +95,7 @@ def sol_grid(steps: list[dict]) -> str:
     for n, s in enumerate(steps, 1):
         cards.append(
             f'<div class="sol-card"><div class="sol-step">{n}</div>'
-            f'<div class="sol-icon">{s.get("icon","●")}</div>'
+            f'<div class="sol-icon">{s.get("icon","Ã¢ÂÂ")}</div>'
             f'<div class="sol-label">{bi(s["label_en"], s["label_es"])}</div>'
             f'<div class="sol-text">{bi(s["text_en"], s["text_es"])}</div></div>'
         )
@@ -106,7 +106,7 @@ def impact_grid(cards: list[dict]) -> str:
     items = []
     for c in cards:
         items.append(
-            f'<div class="imp-card"><div class="imp-icon">{c.get("icon","●")}</div>'
+            f'<div class="imp-card"><div class="imp-icon">{c.get("icon","Ã¢ÂÂ")}</div>'
             f'<div><div class="imp-title">{bi(c["title_en"], c["title_es"])}</div>'
             f'<div class="imp-text">{bi(c["text_en"], c["text_es"])}</div></div></div>'
         )
@@ -153,16 +153,16 @@ def deck_section(d: dict, slug: str) -> str:
         f"</div>"
     )
     fallback = (
-        f'<div class="deck-fallback">{bi("Deck not loading?", "¿No carga el deck?")} '
+        f'<div class="deck-fallback">{bi("Deck not loading?", "ÃÂ¿No carga el deck?")} '
         f'<a href="{local_pdf}" target="_blank" rel="noopener">{bi("Open PDF", "Abrir PDF")}</a></div>'
     )
     return (
         f'<div class="sec" style="position:relative;">'
         f'<div class="sec-bg" style="background-image:url(\'{bg}\');"></div>'
         f'<div class="sec-ov" style="background:rgba(12,73,138,.30);"></div>'
-        f'<div class="sec-header"><div class="sec-num">📄</div>'
+        f'<div class="sec-header"><div class="sec-num">Ã°ÂÂÂ</div>'
         f'<div class="sec-title">{bi("Pitch Deck", "Pitch Deck")}</div><div class="sec-rule"></div></div>'
-        f'<div class="deck-note">{bi("Full-size deck preview below. Numbers on this profile match the deck only.", "Vista previa del deck a tamaño completo. Los números en este perfil provienen solo del deck.")}</div>'
+        f'<div class="deck-note">{bi("Full-size deck preview below. Numbers on this profile match the deck only.", "Vista previa del deck a tamaÃÂ±o completo. Los nÃÂºmeros en este perfil provienen solo del deck.")}</div>'
         f'<div class="deck-wrap"><div class="deck-panel">{iframe}{fallback}</div>'
         f'<div class="deck-actions">'
         f'<a class="cta-link" href="{local_pdf}" target="_blank" rel="noopener">{bi("Open PDF", "Abrir PDF")}</a>'
@@ -253,6 +253,13 @@ def build_page(d: dict) -> str:
         local_pdf = deck.get("pdf_path") or f"/s/{slug}/deck.pdf"
         deck_link = f'<a class="cta-link" href="{local_pdf}" target="_blank" rel="noopener">{bi("Pitch deck (PDF)", "Pitch deck (PDF)")}</a>'
 
+    cta_bg = asset_url(d.get("cta_bg", "./assets/bg-cta.jpg"), slug)
+    credits = ""
+    if d.get("image_credits_en") or d.get("image_credits_es"):
+        credits = (
+            f'<div class="img-credits">{bi(d.get("image_credits_en", ""), d.get("image_credits_es", ""))}</div>'
+        )
+
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -275,7 +282,7 @@ def build_page(d: dict) -> str:
 <div class="sec hero">
   <img class="hero-img" src="{asset_url(d["hero_image"], slug)}" alt="{d["name"]}" loading="lazy">
   <div class="hero-ov"></div>
-  <div class="hero-badge"><div class="pill" style="background:rgba(0,0,0,.45);coor:var(--lg);">{bi(d["badge_en"], d["badge_es"])}</div></div>
+  <div class="hero-badge"><div class="pill" style="background:rgba(0,0,0,.45);color:var(--lg);">{bi(d["badge_en"], d["badge_es"])}</div></div>
   <div class="hero-in">
     <div class="hero-name">{d["name"]}</div>
     <div class="hero-sub">{bi(d["hero_sub_en"], d["hero_sub_es"])}</div>
@@ -284,27 +291,28 @@ def build_page(d: dict) -> str:
   <div class="hero-tagline">Inspira. Actúa. Transforma.</div>
 </div>
 
-<div class="ribbon" style="background:rgba(12,73,138,.95);":{ribbon}</div>
+<div class="ribbon" style="background:rgba(12,73,138,.95);">{ribbon}</div>
 
 {deck_section(d, slug)}
 
-sections_html}
+{sections_html}
 
 <div class="sec" style="position:relative;">
-  <div class="sec-bg" style="background-image:url('{asset_url("./assets/bg-cta.jpg", slug)}');"></div>
+  <div class="sec-bg" style="background-image:url('{cta_bg}');"></div>
   <div class="sec-ov" style="background:rgba(12,73,138,.30);"></div>
   <div class="cta">
     <div class="pill" style="background:rgba(157,195,132,.12);border:1px solid rgba(157,195,132,.2);color:var(--lg);margin-bottom:16px;">{bi(d["badge_en"], d["badge_es"])}</div>
     <div class="cta-name">{d["name"]}</div>
-    <div class="cta-pitch">{bi(�["cta_pitch_en"], d["cta_pitch_es"])}</div>
-    <a class="cta-btn" href="{d.get("website","#")}>{bi(d.get("cta_btn_en","Visit website"), d.get("cta_btn_es","Visitar sitio"))}</a>
+    <div class="cta-pitch">{bi(d["cta_pitch_en"], d["cta_pitch_es"])}</div>
+    <a class="cta-btn" href="{d.get("website","#")}">{bi(d.get("cta_btn_en","Visit website"), d.get("cta_btn_es","Visitar sitio"))}</a>
     <div class="cta-links">
-      <a class="cta-link" href="https://nexus.cleantechhub.net/s/{slug}">{bi(�Nexus Profile", "Perfil Nexus")}</a>
-      <a class="cta-link" href="https://nexus.cleantechhub.net/p/startup-portfolio">{bi(�157 Startups", "157 Startups")}</a>
+      <a class="cta-link" href="https://nexus.cleantechhub.net/s/{slug}">{bi("Nexus Profile", "Perfil Nexus")}</a>
+      <a class="cta-link" href="https://nexus.cleantechhub.net/p/startup-portfolio">{bi("157 Startups", "157 Startups")}</a>
       {deck_link}
     </div>
     <div class="cta-brand"><div class="tg">Inspira. Actúa. Transforma.</div><div class="lg2">Cleantech<em style="color:var(--lg);font-style:normal;">HUB</em></div></div>
-    <div class="cta-port">{bi(�CleantechHUB portfolio profile · Latin America", "Perfil portafolio CleantechHUB · América Latina")}</div>
+    <div class="cta-port">{bi("CleantechHUB portfolio profile · Latin America", "Perfil portafolio CleantechHUB · América Latina")}</div>
+    {credits}
   </div>
 </div>
 <div class="accent-bar"></div>
@@ -313,8 +321,8 @@ sections_html}
 
 
 def main() -> None:
-    OUT_REPO.mkdir(parents=True, exist_ok=T�ue)
-    OUT_ARCHIVE.mkdir(parents=True, exist_ok=T�ue)
+    OUT_REPO.mkdir(parents=True, exist_ok=True)
+    OUT_ARCHIVE.mkdir(parents=True, exist_ok=True)
     only = sys.argv[1:] if len(sys.argv) > 1 else None
     for json_path in sorted(DATA_DIR.glob("*.json")):
         data = json.loads(json_path.read_text())
