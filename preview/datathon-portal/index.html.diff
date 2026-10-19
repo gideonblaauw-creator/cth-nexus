@@ -1,0 +1,26 @@
+--- "/opt/claude-files/Projects/CTH - Climate_Data_Platform/datathon-vercel-cta-2026-09-14/source/index.html"	2026-09-14 21:56:40.662769476 +0000
++++ "/opt/claude-files/Projects/CTH - Climate_Data_Platform/datathon-vercel-cta-2026-09-14/preview/index.html"	2026-09-14 21:56:53.138919068 +0000
+@@ -86,6 +86,23 @@
+ <main>
+   <div class="content">
+ 
++    <!-- CEE / CCB Energy Cluster demo CTA → Marlene deck on Vercel (outbound only) -->
++    <section class="cee-demo-tile" aria-label="Clúster Energía Datathon demo">
++      <div class="cee-demo-inner">
++        <div class="cee-demo-copy">
++          <span class="pill pill-gold"><span class="dot"></span>CCB Energy Cluster · 17 Sep 2026</span>
++          <h2>Clúster Energía · Datathon demo</h2>
++          <p class="cee-demo-lead">Recorrido Academy CleantechHUB / CEE Externado: <strong>del diagnóstico al tablero en vivo</strong>. Demo interactiva para el evento CCB Energy Cluster (Luma).</p>
++          <p class="cee-demo-en"><em>From assessment report to live dashboard — Marlene / CEE datathon walkthrough (hosted on Vercel).</em></p>
++        </div>
++        <a class="btn btn-primary cee-demo-btn" href="https://marlene-datathon-cth.vercel.app/" target="_blank" rel="noopener noreferrer">
++          <svg aria-hidden="true"><use href="#i-bolt"></use></svg>
++          Abrir demo en vivo
++          <span class="cee-demo-ext" aria-hidden="true">↗</span>
++        </a>
++      </div>
++    </section>
++
+     <!-- WELCOME -->
+     <section class="panel-x active" id="p-welcome">
+       <div class="card">

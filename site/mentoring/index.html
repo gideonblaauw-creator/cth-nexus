@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CleantechHUB — CLP26 Mentoring Platform</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Titillium+Web:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/mentoring/static/style.css">
+</head>
+<body>
+
+<nav>
+  <div class="logo-block" onclick="go('home')">
+    <div class="logo-wordmark">Cleantech<span>HUB</span></div>
+    <div class="logo-tagline">Inspira. Actúa. Transforma.</div>
+  </div>
+  <div class="nav-links">
+    <a id="nav-startups" onclick="go('listing')">Startups</a>
+    <a id="nav-mentors" onclick="go('mentors')">Mentors</a>
+    <a onclick="go('home')">My Sessions</a>
+    <a class="btn-nav-cta" onclick="go('register')">Offer Mentoring</a>
+  </div>
+</nav>
+
+<!-- SCREEN 1 — HOME -->
+<div class="screen" id="screen-home">
+  <div class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <h1>Connect. Mentor. <span class="accent">Transform.</span></h1>
+        <p>La cohorte ClimateLaunchpad 2026 ya está aquí. Mentora a los founders cleantech seleccionados en Colombia, Perú, Guatemala, Costa Rica y El Salvador — a través de los 8 módulos del programa.</p>
+        <div class="hero-actions">
+          <a class="btn-primary" onclick="go('listing')">Conoce la cohorte CLP26</a>
+          <a class="btn-secondary" onclick="go('register')">Regístrate como mentor</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <img src="https://placehold.co/560x360/0C498A/B2EEFA?text=CLP26+Cohort" alt="CLP26 cohort">
+      </div>
+    </div>
+  </div>
+
+  <div class="stats-strip">
+    <div class="container">
+      <div class="stat"><div class="num">313</div><div class="lbl">aplicaciones CLP26</div></div>
+      <div class="stat"><div class="num">25</div><div class="lbl">startups seleccionadas</div></div>
+      <div class="stat"><div class="num">8</div><div class="lbl">sesiones de mentoría c/u</div></div>
+      <div class="stat"><div class="num">5</div><div class="lbl">países · REIN Hubs</div></div>
+    </div>
+  </div>
+
+  <section>
+    <div class="container">
+      <div class="section-label">Buscan mentores</div>
+      <h2 class="section-title">Startups CLP26 buscando mentores</h2>
+      <div class="startup-grid" id="home-startups">
+        <div class="loading-state">Cargando startups...</div>
+      </div>
+      <div style="text-align:center; margin-top: 28px;">
+        <a class="btn-primary" onclick="go('listing')">Ver toda la cohorte</a>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- SCREEN 2 — LISTING -->
+<div class="screen" id="screen-listing">
+  <div class="listing-header">
+    <div class="container">
+      <div class="section-label">Cohorte CLP26 · Seleccionadas</div>
+      <h1>Startups CLP26 buscando mentores</h1>
+      <p>Startups seleccionadas para ClimateLaunchpad 2026, entregado a través de los 5 REIN Hubs. Perfiles sincronizados desde Nexus y el Idea Browser.</p>
+      <div class="filter-bar">
+        <span class="filter-label">País:</span>
+        <button class="filter-tag on" data-country="all" onclick="setCountry(this)">Todos</button>
+        <button class="filter-tag" data-country="Colombia" onclick="setCountry(this)">🇨🇴 Colombia</button>
+        <button class="filter-tag" data-country="Peru" onclick="setCountry(this)">🇵🇪 Perú</button>
+        <button class="filter-tag" data-country="Guatemala" onclick="setCountry(this)">🇬🇹 Guatemala</button>
+        <button class="filter-tag" data-country="Costa Rica" onclick="setCountry(this)">🇨🇷 Costa Rica</button>
+        <button class="filter-tag" data-country="El Salvador" onclick="setCountry(this)">🇸🇻 El Salvador</button>
+        <span class="filter-label" style="margin-left:12px;">Sesión que necesita mentor:</span>
+        <select class="filter-select" id="module-select" onchange="renderListing()">
+          <option value="all">Los 8 módulos</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <section style="padding-top: 18px;">
+    <div class="container">
+      <div class="results-count" id="results-count"></div>
+      <div class="startup-grid" id="listing-grid"></div>
+      <div class="empty-state" id="empty-state">Ninguna startup coincide con estos filtros. Nuevos perfiles se sincronizan desde Nexus cada semana.</div>
+    </div>
+  </section>
+</div>
+
+<!-- SCREEN 3 — DETAIL -->
+<div class="screen" id="screen-detail">
+  <div class="detail-hero">
+    <div class="container">
+      <a class="back-link" onclick="go('listing')">← Volver a la cohorte</a>
+      <h1 id="d-name"></h1>
+      <div class="tagline" id="d-tagline"></div>
+      <div class="detail-meta">
+        <span class="meta-pill green" id="d-sector"></span>
+        <span class="meta-pill" id="d-country"></span>
+        <span class="meta-pill" id="d-stage"></span>
+        <a class="wiki-link" id="d-wiki" href="#" target="_blank" rel="noopener">Perfil completo en el Wiki ↗</a>
+      </div>
+    </div>
+  </div>
+  <section>
+    <div class="container detail-cols">
+      <div class="about-block">
+        <div class="section-label">Conoce la startup</div>
+        <h2 class="section-title">About</h2>
+        <div id="d-about"></div>
+      </div>
+      <div class="side-card">
+        <h2>Las 8 sesiones CLP26</h2>
+        <p class="meta" style="margin-bottom:14px;">Calendario desde Google Calendar · Tarea por módulo desde el Wiki CLP26 (BookStack)</p>
+        <div class="session-list" id="d-sessions"></div>
+      </div>
+    </div>
+  </section>
+  <section class="mentor-section">
+    <div class="container">
+      <div class="section-label">Tu match</div>
+      <h2 class="section-title">Mentores asignados</h2>
+      <div class="mentor-grid" id="d-mentors"></div>
+    </div>
+  </section>
+</div>
+
+<!-- SCREEN 4 — MENTORS DIRECTORY -->
+<div class="screen" id="screen-mentors">
+  <div class="listing-header">
+    <div class="container">
+      <div class="section-label">Voluntarios corporativos</div>
+      <h1>Mentors</h1>
+      <p>Mentores activos de nuestros aliados corporativos, con su experiencia mapeada a los 8 módulos del workbook CLP26.</p>
+    </div>
+  </div>
+  <section>
+    <div class="container">
+      <div class="mentor-grid three" id="mentors-grid"></div>
+      <div style="text-align:center; margin-top: 32px;">
+        <a class="btn-primary" onclick="go('register')">Únete como mentor</a>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- SCREEN 5 — REGISTER -->
+<div class="screen" id="screen-register">
+  <section>
+    <div class="container register-wrap">
+      <div class="section-label">Offer Mentoring</div>
+      <h1 class="section-title">Regístrate como mentor CLP26</h1>
+      <div class="register-card" id="register-card">
+        <div id="register-error" style="display:none;background:#ff4444;color:white;padding:12px;border-radius:6px;margin-bottom:16px;font-size:14px;"></div>
+        <div class="form-row"><label>Nombre completo *</label><input type="text" id="reg-name" placeholder="Tu nombre"></div>
+        <div class="form-row"><label>Email corporativo *</label><input type="email" id="reg-email" placeholder="nombre@empresa.com"></div>
+        <div class="form-row"><label>Empresa *</label><input type="text" id="reg-company" placeholder="Nombre de tu empresa"></div>
+        <div class="form-row"><label>Cargo / función</label><input type="text" id="reg-role" placeholder="Ej: Director de Innovación"></div>
+        <div class="form-row"><label>WhatsApp (opcional)</label><input type="tel" id="reg-whatsapp" placeholder="+57 300 000 0000"></div>
+        <div class="form-row"><label>LinkedIn (opcional)</label><input type="text" id="reg-linkedin" placeholder="https://linkedin.com/in/..."></div>
+        <div class="form-row"><label>Módulos en los que puedes mentorar *</label>
+          <div class="module-checks" id="module-checks"></div>
+        </div>
+        <div class="form-row"><label>Disponibilidad</label>
+          <select id="reg-availability"><option value="1 sesión / mes">1 sesión / mes</option><option value="2 sesiones / mes">2 sesiones / mes</option><option value="1 sesión / semana">1 sesión / semana</option></select>
+        </div>
+        <label class="consent"><input type="checkbox" id="reg-consent"> Acepto compartir mi información de contacto con las startups que seleccione y el tratamiento de mis datos personales según la política de privacidad de CleantechHUB (Habeas Data — Ley 1581 de 2012).</label>
+        <button class="btn-primary" style="width:100%;" onclick="submitRegistration()" id="reg-submit">Enviar registro</button>
+        <p class="erp-note">Tu registro se sincroniza con el ERP de CleantechHUB (Odoo) y queda pendiente de aprobación por el hub manager de tu país.</p>
+      </div>
+      <div class="confirm-box" id="confirm-box">
+        ✓ ¡Gracias por ofrecer tu tiempo! Tu registro fue enviado al ERP y está <strong>pendiente de aprobación</strong>. Te contactaremos por email para activar tu perfil de mentor.
+        <div style="margin-top:16px;"><a class="btn-primary" onclick="go('listing')">Explora la cohorte mientras tanto</a></div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<footer>
+  <div class="foot-mark">CleantechHUB</div>
+  Inspira. Actúa. Transforma. · Organizado por CleantechHUB · Con el apoyo de REIN Hubs by Pvblic Foundation y Climate-KIC
+</footer>
+
+<script src="/mentoring/static/app.js"></script>
+</body>
+</html>
