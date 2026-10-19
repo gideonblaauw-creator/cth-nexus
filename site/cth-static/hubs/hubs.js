@@ -1,0 +1,1 @@
+FILE:/tmp/single_commits/004_batch_detail_assets_4.json
