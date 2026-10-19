@@ -1,0 +1,16 @@
+{
+  "owner": "gideonblaauw-creator",
+  "repo": "cth-nexus",
+  "branch": "snap/part-47",
+  "message": "Snapshot: live Nexus roots 2026-10-19 (part 19/49)",
+  "encoding": "utf-8",
+  "total_bytes": 865330,
+  "chunks": [
+    {
+      "chunk_file": "micro_00047_chunk000.bin",
+      "target_path": "site/investors/data/investors.json",
+      "byte_offset": 0,
+      "byte_length": 865330
+    }
+  ]
+}
