@@ -95,7 +95,7 @@ def sol_grid(steps: list[dict]) -> str:
     for n, s in enumerate(steps, 1):
         cards.append(
             f'<div class="sol-card"><div class="sol-step">{n}</div>'
-            f'<div class="sol-icon">{s.get("icon","●")}</div>'
+            f'<div class="sol-icon">{s.get("icon","â")}</div>'
             f'<div class="sol-label">{bi(s["label_en"], s["label_es"])}</div>'
             f'<div class="sol-text">{bi(s["text_en"], s["text_es"])}</div></div>'
         )
@@ -106,7 +106,7 @@ def impact_grid(cards: list[dict]) -> str:
     items = []
     for c in cards:
         items.append(
-            f'<div class="imp-card"><div class="imp-icon">{c.get("icon","●")}</div>'
+            f'<div class="imp-card"><div class="imp-icon">{c.get("icon","â")}</div>'
             f'<div><div class="imp-title">{bi(c["title_en"], c["title_es"])}</div>'
             f'<div class="imp-text">{bi(c["text_en"], c["text_es"])}</div></div></div>'
         )
@@ -160,7 +160,7 @@ def deck_section(d: dict, slug: str) -> str:
         f'<div class="sec" style="position:relative;">'
         f'<div class="sec-bg" style="background-image:url(\'{bg}\');"></div>'
         f'<div class="sec-ov" style="background:rgba(12,73,138,.30);"></div>'
-        f'<div class="sec-header"><div class="sec-num">📄</div>'
+        f'<div class="sec-header"><div class="sec-num">ð</div>'
         f'<div class="sec-title">{bi("Pitch Deck", "Pitch Deck")}</div><div class="sec-rule"></div></div>'
         f'<div class="deck-note">{bi("Full-size deck preview below. Numbers on this profile match the deck only.", "Vista previa del deck a tamaño completo. Los números en este perfil provienen solo del deck.")}</div>'
         f'<div class="deck-wrap"><div class="deck-panel">{iframe}{fallback}</div>'
@@ -253,12 +253,15 @@ def build_page(d: dict) -> str:
         local_pdf = deck.get("pdf_path") or f"/s/{slug}/deck.pdf"
         deck_link = f'<a class="cta-link" href="{local_pdf}" target="_blank" rel="noopener">{bi("Pitch deck (PDF)", "Pitch deck (PDF)")}</a>'
 
+    cta_bg = d.get("cta_bg") or "./assets/bg-cta.jpg"
+    cta_bg_url = asset_url(cta_bg, slug)
+
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{d["name"]} — CleantechHUB Startup Profile</title>
+<title>{d["name"]} ? CleantechHUB Startup Profile</title>
 <link rel="icon" href="https://cleantechhub.net/favicon.ico">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
 <style>
@@ -275,7 +278,7 @@ def build_page(d: dict) -> str:
 <div class="sec hero">
   <img class="hero-img" src="{asset_url(d["hero_image"], slug)}" alt="{d["name"]}" loading="lazy">
   <div class="hero-ov"></div>
-  <div class="hero-badge"><div class="pill" style="background:rgba(0,0,0,.45);coor:var(--lg);">{bi(d["badge_en"], d["badge_es"])}</div></div>
+  <div class="hero-badge"><div class="pill" style="background:rgba(0,0,0,.45);color:var(--lg);">{bi(d["badge_en"], d["badge_es"])}</div></div>
   <div class="hero-in">
     <div class="hero-name">{d["name"]}</div>
     <div class="hero-sub">{bi(d["hero_sub_en"], d["hero_sub_es"])}</div>
@@ -284,27 +287,27 @@ def build_page(d: dict) -> str:
   <div class="hero-tagline">Inspira. Actúa. Transforma.</div>
 </div>
 
-<div class="ribbon" style="background:rgba(12,73,138,.95);":{ribbon}</div>
+<div class="ribbon" style="background:rgba(12,73,138,.95);">{ribbon}</div>
 
 {deck_section(d, slug)}
 
-sections_html}
+{sections_html}
 
 <div class="sec" style="position:relative;">
-  <div class="sec-bg" style="background-image:url('{asset_url("./assets/bg-cta.jpg", slug)}');"></div>
+  <div class="sec-bg" style="background-image:url('{cta_bg_url}');"></div>
   <div class="sec-ov" style="background:rgba(12,73,138,.30);"></div>
   <div class="cta">
     <div class="pill" style="background:rgba(157,195,132,.12);border:1px solid rgba(157,195,132,.2);color:var(--lg);margin-bottom:16px;">{bi(d["badge_en"], d["badge_es"])}</div>
     <div class="cta-name">{d["name"]}</div>
-    <div class="cta-pitch">{bi(�["cta_pitch_en"], d["cta_pitch_es"])}</div>
-    <a class="cta-btn" href="{d.get("website","#")}>{bi(d.get("cta_btn_en","Visit website"), d.get("cta_btn_es","Visitar sitio"))}</a>
+    <div class="cta-pitch">{bi(d["cta_pitch_en"], d["cta_pitch_es"])}</div>
+    <a class="cta-btn" href="{d.get("website","#")}">{bi(d.get("cta_btn_en","Visit website"), d.get("cta_btn_es","Visitar sitio"))}</a>
     <div class="cta-links">
-      <a class="cta-link" href="https://nexus.cleantechhub.net/s/{slug}">{bi(�Nexus Profile", "Perfil Nexus")}</a>
-      <a class="cta-link" href="https://nexus.cleantechhub.net/p/startup-portfolio">{bi(�157 Startups", "157 Startups")}</a>
+      <a class="cta-link" href="https://nexus.cleantechhub.net/s/{slug}">{bi("Nexus Profile", "Perfil Nexus")}</a>
+      <a class="cta-link" href="https://nexus.cleantechhub.net/p/startup-portfolio">{bi("157 Startups", "157 Startups")}</a>
       {deck_link}
     </div>
     <div class="cta-brand"><div class="tg">Inspira. Actúa. Transforma.</div><div class="lg2">Cleantech<em style="color:var(--lg);font-style:normal;">HUB</em></div></div>
-    <div class="cta-port">{bi(�CleantechHUB portfolio profile · Latin America", "Perfil portafolio CleantechHUB · América Latina")}</div>
+    <div class="cta-port">{bi("CleantechHUB portfolio profile · Latin America", "Perfil portafolio CleantechHUB · América Latina")}</div>
   </div>
 </div>
 <div class="accent-bar"></div>
@@ -313,8 +316,13 @@ sections_html}
 
 
 def main() -> None:
-    OUT_REPO.mkdir(parents=True, exist_ok=T�ue)
-    OUT_ARCHIVE.mkdir(parents=True, exist_ok=T�ue)
+    OUT_REPO.mkdir(parents=True, exist_ok=True)
+    archive_bases: list[Path] = []
+    try:
+        OUT_ARCHIVE.mkdir(parents=True, exist_ok=True)
+        archive_bases = [OUT_ARCHIVE]
+    except OSError:
+        pass
     only = sys.argv[1:] if len(sys.argv) > 1 else None
     for json_path in sorted(DATA_DIR.glob("*.json")):
         data = json.loads(json_path.read_text())
@@ -324,7 +332,7 @@ def main() -> None:
         html = build_page(data)
         pdf_src_name = (data.get("deck_pdf") or {}).get("source_file")
         media_src = OUT_MEDIA / slug
-        for base in (OUT_REPO / slug, OUT_ARCHIVE / slug):
+        for base in [OUT_REPO / slug, *[a / slug for a in archive_bases]]:
             base.mkdir(parents=True, exist_ok=True)
             (base / "index.html").write_text(html)
             if media_src.is_dir():
