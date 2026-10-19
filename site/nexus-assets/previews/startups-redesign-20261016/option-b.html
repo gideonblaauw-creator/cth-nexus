@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Option B — Sidebar facets (preview)</title>
+<link rel="stylesheet" href="preview-base.css">
+<style>
+.layout{display:grid;grid-template-columns:260px 1fr;min-height:calc(100vh - 120px)}
+@media(max-width:900px){.layout{grid-template-columns:1fr}.sidebar{order:2;border-top:1px solid var(--border)}}
+.sidebar{background:#fff;border-right:1px solid var(--border);padding:14px;position:sticky;top:0;align-self:start;max-height:100vh;overflow:auto}
+.main-col{min-width:0}
+.topbar{padding:12px 16px;background:#fff;border-bottom:1px solid var(--border);display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.special-pills{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px;padding-bottom:12px;border-bottom:1px solid var(--border)}
+</style>
+</head>
+<body>
+<div class="preview-banner"><strong>Design preview B</strong> — Left sidebar facets + active filter chips · <a href="/p/startup-portfolio">Live page</a></div>
+<header class="page-head">
+  <h1>Nexus — Startup Portfolio</h1>
+  <p>Option B: persistent facet sidebar (CT sector, country, stage, program)</p>
+</header>
+<div class="stats">
+  <div class="stat"><div class="stat-n" id="st-total">—</div><div class="stat-l">Total</div></div>
+  <div class="stat"><div class="stat-n" id="st-show">—</div><div class="stat-l">Showing</div></div>
+</div>
+<div class="layout">
+  <aside class="sidebar">
+    <div class="special-pills" id="special-pills">
+      <button type="button" class="facet on" data-special="none">Portfolio</button>
+      <button type="button" class="facet" data-special="epic">Epic</button>
+      <button type="button" class="facet" data-special="imd">IMD PE</button>
+      <button type="button" class="facet" data-special="clp26">CLP26</button>
+    </div>
+    <div class="facet-title">CT taxonomy sector</div><div class="facet-group" id="fac-ct"></div>
+    <div class="facet-title">Country</div><div class="facet-group" id="fac-country"></div>
+    <div class="facet-title">Stage</div><div class="facet-group" id="fac-stage"></div>
+    <div class="facet-title">Program</div><div class="facet-group" id="fac-prog"></div>
+    <div class="facet-title">Theme</div><div class="facet-group" id="fac-theme"></div>
+    <label style="display:flex;align-items:center;gap:8px;margin-top:14px;font-size:11px;font-weight:700;color:var(--mid)">
+      <input type="checkbox" id="web-only"> Web only
+    </label>
+    <button type="button" class="btn" style="margin-top:12px;width:100%" id="clear-filters">Reset facets</button>
+  </aside>
+  <div class="main-col">
+    <div class="topbar">
+      <div class="search-wrap"><span>🔍</span><input type="search" id="q" placeholder="Search name or founder…"></div>
+    </div>
+    <div style="padding:8px 16px;background:#fafcff;border-bottom:1px solid var(--border)">
+      <div class="chips" id="chips"></div>
+    </div>
+    <div class="grid-wrap">
+      <div class="result-line" id="ri"></div>
+      <div class="grid" id="grid"></div>
+    </div>
+  </div>
+</div>
+<footer class="footer">CleantechHUB · Redesign preview · 2026-10-16</footer>
+
+<script src="preview-engine.js"></script>
+<script>
+const NP = NexusPreview;
+const qEl = document.getElementById('q');
+
+function wireFacetContainer(id, dim) {
+  document.getElementById(id).onclick = (e) => {
+    const b = e.target.closest('.facet'); if (!b || !b.dataset.val) return;
+    const st = NP.state;
+    if (dim==='prog') NP.toggleSet(st.fProg, b.dataset.val);
+    if (dim==='theme') NP.toggleSet(st.fTheme, b.dataset.val);
+    if (dim==='stage') NP.toggleSet(st.fStage, b.dataset.val);
+    if (dim==='country') NP.toggleSet(st.fCountry, b.dataset.val);
+    if (dim==='ct') NP.toggleSet(st.fCtSector, b.dataset.val);
+    buildFacets(); paint();
+  };
+}
+
+function buildFacets() {
+  const st = NP.state;
+  document.getElementById('fac-prog').innerHTML = NP.PROGRAMS.map(p =>
+    `<button type="button" class="facet ${st.fProg.has(p)?'on':''}" data-val="${p}">${p}</button>`).join('');
+  document.getElementById('fac-theme').innerHTML = NP.THEMES.map(t =>
+    `<button type="button" class="facet ${st.fTheme.has(t.id)?'on':''}" data-val="${t.id}">${t.label}</button>`).join('');
+  document.getElementById('fac-stage').innerHTML = NP.STAGES.map(s =>
+    `<button type="button" class="facet ${st.fStage.has(s)?'on':''}" data-val="${s}">${s}</button>`).join('');
+  const countries = [...new Set(st.S.map(x => x.c))].sort();
+  document.getElementById('fac-country').innerHTML = countries.map(c =>
+    `<button type="button" class="facet ${st.fCountry.has(c)?'on':''}" data-val="${c}">${NP.COUNTRY_LABEL[c]||c}</button>`).join('');
+  document.getElementById('fac-ct').innerHTML = NP.CT_SECTORS.map(s =>
+    `<button type="button" class="facet ${st.fCtSector.has(s.id)?'on':''}" data-val="${s.id}" title="${s.label}">${s.id}</button>`).join('');
+  document.querySelectorAll('#special-pills .facet').forEach(btn => {
+    const m = btn.dataset.special;
+    const on = (m==='epic'&&st.epicOnly)||(m==='imd'&&st.imdOnly)||(m==='clp26'&&st.clpOnly)||(m==='none'&&!st.epicOnly&&!st.imdOnly&&!st.clpOnly);
+    btn.classList.toggle('on', on);
+  });
+  document.getElementById('web-only').checked = NP.webOnly;
+}
+
+['fac-prog','fac-theme','fac-stage','fac-country','fac-ct'].forEach((id,i)=>{
+  wireFacetContainer(id, ['prog','theme','stage','country','ct'][i]);
+});
+
+document.getElementById('special-pills').onclick = (e) => {
+  const b = e.target.closest('[data-special]'); if (!b) return;
+  NP.setSpecialMode(b.dataset.special==='none'?'none':b.dataset.special);
+  if (NP.state.epicOnly||NP.state.imdOnly||NP.state.clpOnly) NP.webOnly = false;
+  buildFacets(); paint();
+};
+document.getElementById('web-only').onchange = (e) => { NP.webOnly = e.target.checked; paint(); };
+document.getElementById('clear-filters').onclick = () => { NP.clearStandardFilters(); NP.setSpecialMode('none'); NP.webOnly = true; buildFacets(); paint(); };
+
+function paintChips() {
+  const el = document.getElementById('chips');
+  const chips = NP.activeChips();
+  el.innerHTML = chips.length ? chips.map((c,i)=>`<span class="chip">${c.label}<button type="button" data-i="${i}">×</button></span>`).join('') : '<span class="muted">Select facets on the left — selections appear here as chips</span>';
+  el.querySelectorAll('button').forEach(btn => {
+    btn.onclick = () => { NP.removeChip(chips[+btn.dataset.i]); buildFacets(); paint(); };
+  });
+}
+
+function paint() {
+  const { list, total } = NP.getFiltered(qEl.value.trim());
+  document.getElementById('st-total').textContent = total;
+  document.getElementById('st-show').textContent = list.length;
+  document.getElementById('ri').textContent = list.length ? `${list.length} startups` : '';
+  document.getElementById('grid').innerHTML = list.length ? list.map(NP.renderCard).join('') : '<div class="empty">No startups match.</div>';
+  paintChips();
+}
+
+qEl.oninput = paint;
+
+NP.loadAll().then(() => {
+  if (NP.state.epicOnly || NP.state.imdOnly || NP.state.clpOnly) NP.webOnly = false;
+  buildFacets(); paint();
+});
+</script>
+</body>
+</html>
