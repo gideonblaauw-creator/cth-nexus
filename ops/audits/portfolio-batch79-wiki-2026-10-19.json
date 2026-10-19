@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-19",
+  "book_id": 1694,
+  "wiki": [
+    {
+      "slug": "istmo-verde",
+      "page_id": 3029,
+      "action": "created_draft",
+      "url": "https://wiki.cleantechhub.net/books/startup-portfolio/page/istmo-verde"
+    },
+    {
+      "slug": "kigui",
+      "page_id": 1784,
+      "action": "updated_draft",
+      "url": "https://wiki.cleantechhub.net/books/startup-portfolio/page/kigui"
+    },
+    {
+      "slug": "kimsa",
+      "page_id": 1804,
+      "action": "updated_draft",
+      "url": "https://wiki.cleantechhub.net/books/startup-portfolio/page/carbon-box"
+    },
+    {
+      "slug": "kleantab",
+      "page_id": 3030,
+      "action": "created_draft",
+      "url": "https://wiki.cleantechhub.net/books/startup-portfolio/page/kleantab"
+    },
+    {
+      "slug": "linko-workers",
+      "page_id": 3031,
+      "action": "created_draft",
+      "url": "https://wiki.cleantechhub.net/books/startup-portfolio/page/linko-workers"
+    },
+    {
+      "slug": "mayugo",
+      "page_id": 3032,
+      "action": "created_draft",
+      "url": "https://wiki.cleantechhub.net/books/startup-portfolio/page/mayugo"
+    },
+    {
+      "slug": "mitsidi",
+      "page_id": 3033,
+      "action": "created_draft",
+      "url": "https://wiki.cleantechhub.net/books/startup-portfolio/page/mitsidi"
+    },
+    {
+      "slug": "monte-jazmin",
+      "page_id": 1845,
+      "action": "updated_draft",
+      "url": "https://wiki.cleantechhub.net/books/startup-portfolio/page/monte-jazmin"
+    },
+    {
+      "slug": "moviltronics",
+      "page_id": 1813,
+      "action": "updated_draft",
+      "url": "https://wiki.cleantechhub.net/books/startup-portfolio/page/moviltronics-sas"
+    },
+    {
+      "slug": "myma",
+      "page_id": 3034,
+      "action": "created_draft",
+      "url": "https://wiki.cleantechhub.net/books/startup-portfolio/page/myma-servicios-ambientales"
+    }
+  ]
+}
