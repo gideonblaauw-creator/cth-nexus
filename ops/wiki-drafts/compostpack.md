@@ -1,23 +1,17 @@
 ---
-{
-  "status": "draft-file-only",
-  "bookstack_publish": false,
-  "nexus_slug": "compostpack",
-  "source_branch": "feat/s-pages-batch-4-9a1a",
-  "source_sha": "a91df06",
-  "batch": "batch4",
-  "country": "CO",
-  "program": "Circular Economy",
-  "stage": "Seed",
-  "ct_primary": "CT-WA-004",
-  "tags": {
-    "type": "startup-profile",
-    "nexus_slug": "compostpack",
-    "source": "nexus-s-pages-batch",
-    "ct_primary": "CT-WA-004",
-    "founder": "Freddy Carrión Rivas"
-  }
-}
+status: draft-file-only
+bookstack_publish: false
+nexus_slug: compostpack
+source_branch: feat/s-pages-batch-4-9a1a
+source_sha: a91df06
+batch: batch4
+country: CO
+program: Circular Economy
+stage: Seed
+ct_primary: CT-WA-004
+tag_type: startup-profile
+tag_source: nexus-s-pages-batch
+tag_founder: Freddy Carrión Rivas
 ---
 
 # COMPOSTPACK

@@ -1,22 +1,17 @@
 ---
-{
-  "status": "draft-file-only",
-  "bookstack_publish": false,
-  "nexus_slug": "griin-energy",
-  "source_branch": "feat/s-pages-batch-6",
-  "source_sha": "5803c86",
-  "batch": "batch6",
-  "country": "CO",
-  "program": "Solar Finance",
-  "stage": "Pre-Seed",
-  "ct_primary": "[PENDIENTE]",
-  "tags": {
-    "type": "startup-profile",
-    "nexus_slug": "griin-energy",
-    "source": "nexus-s-pages-batch",
-    "founder": "Valentina Salazar Choperena"
-  }
-}
+status: draft-file-only
+bookstack_publish: false
+nexus_slug: griin-energy
+source_branch: feat/s-pages-batch-6
+source_sha: 5803c86
+batch: batch6
+country: CO
+program: Solar Finance
+stage: Pre-Seed
+ct_primary: [PENDIENTE]
+tag_type: startup-profile
+tag_source: nexus-s-pages-batch
+tag_founder: Valentina Salazar Choperena
 ---
 
 # Griin Energy

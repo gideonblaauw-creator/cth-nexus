@@ -1,22 +1,17 @@
 ---
-{
-  "status": "draft-file-only",
-  "bookstack_publish": false,
-  "nexus_slug": "glu-energy",
-  "source_branch": "feat/s-pages-batch-6",
-  "source_sha": "5803c86",
-  "batch": "batch6",
-  "country": "CO",
-  "program": "Distributed Clean Energy",
-  "stage": "[PENDIENTE]",
-  "ct_primary": "[PENDIENTE]",
-  "tags": {
-    "type": "startup-profile",
-    "nexus_slug": "glu-energy",
-    "source": "nexus-s-pages-batch",
-    "founder": "Wilmer Lemus Laiton"
-  }
-}
+status: draft-file-only
+bookstack_publish: false
+nexus_slug: glu-energy
+source_branch: feat/s-pages-batch-6
+source_sha: 5803c86
+batch: batch6
+country: CO
+program: Distributed Clean Energy
+stage: [PENDIENTE]
+ct_primary: [PENDIENTE]
+tag_type: startup-profile
+tag_source: nexus-s-pages-batch
+tag_founder: Wilmer Lemus Laiton
 ---
 
 # Glu Energy

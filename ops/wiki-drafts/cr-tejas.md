@@ -1,21 +1,17 @@
 ---
-{
-  "status": "draft-file-only",
-  "bookstack_publish": false,
-  "nexus_slug": "cr-tejas",
-  "source_branch": "feat/s-pages-batch-4-9a1a",
-  "source_sha": "a91df06",
-  "batch": "batch4",
-  "country": "CR",
-  "program": "Sustainable construction",
-  "stage": "[PENDIENTE]",
-  "ct_primary": "[PENDIENTE]",
-  "tags": {
-    "type": "startup-profile",
-    "nexus_slug": "cr-tejas",
-    "source": "nexus-s-pages-batch"
-  }
-}
+status: draft-file-only
+bookstack_publish: false
+nexus_slug: cr-tejas
+source_branch: feat/s-pages-batch-4-9a1a
+source_sha: a91df06
+batch: batch4
+country: CR
+program: Sustainable construction
+stage: [PENDIENTE]
+ct_primary: [PENDIENTE]
+tag_type: startup-profile
+tag_source: nexus-s-pages-batch
+tag_founder: [PENDIENTE]
 ---
 
 # CR Tejas

@@ -1,23 +1,17 @@
 ---
-{
-  "status": "draft-file-only",
-  "bookstack_publish": false,
-  "nexus_slug": "dexon-software-sas-bic",
-  "source_branch": "feat/s-pages-batch-5",
-  "source_sha": "82b5da4",
-  "batch": "batch5",
-  "country": "CO",
-  "program": "Energy",
-  "stage": "Pre-Series A",
-  "ct_primary": "CT-IC-005",
-  "tags": {
-    "type": "startup-profile",
-    "nexus_slug": "dexon-software-sas-bic",
-    "source": "nexus-s-pages-batch",
-    "ct_primary": "CT-IC-005",
-    "founder": "Luis B. Chicaiza"
-  }
-}
+status: draft-file-only
+bookstack_publish: false
+nexus_slug: dexon-software-sas-bic
+source_branch: feat/s-pages-batch-5
+source_sha: 82b5da4
+batch: batch5
+country: CO
+program: Energy
+stage: Pre-Series A
+ct_primary: CT-IC-005
+tag_type: startup-profile
+tag_source: nexus-s-pages-batch
+tag_founder: Luis B. Chicaiza
 ---
 
 # Dexon Software

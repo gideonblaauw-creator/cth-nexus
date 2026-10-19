@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Batches 10–12 — Odoo → Wiki → Nexus portfolio cards (HITL drafts).
+"""Batches 10–12 — Odoo → Wiki drafts → Nexus portfolio cards (HITL).
 
-Reads sourced fields from onepagers/data/{slug}.json (from feat/s-pages-batch-*).
-Skips suncolombia (owned by batch 0–3). No founder email. LinkedIn on contacts when sourced.
+Wiki content is written to ops/wiki-drafts/<slug>.md (BookStack API is not used;
+draft:true publishes live). Reads onepagers/data/{slug}.json from s-pages batches.
+Skips suncolombia (owned by batch 0–3). No founder email.
 
   python3 scripts/batch_10_12_complete_dbs.py sync
   python3 scripts/batch_10_12_complete_dbs.py cards
@@ -19,13 +20,11 @@ import xmlrpc.client
 from datetime import date
 from pathlib import Path
 
-import requests
-
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "onepagers" / "data"
 PORTFOLIO_HTML = ROOT / "pages" / "p" / "startup-portfolio" / "index.html"
 ARCHIVE = ROOT / "Archive" / "s-pages-batch-10-12-20261019"
-BOOK_ENV = Path("/opt/idea-browser/.env")
+WIKI_DRAFTS = ROOT / "ops" / "wiki-drafts"
 ODOO_ENV = Path("/opt/cth-nexus/.env")
 
 BOOK_STARTUP_PORTFOLIO = 1694
@@ -313,88 +312,40 @@ class Odoo:
         return {"company_id": company_id, "founder_ids": founder_ids, "status": status}
 
 
-class BookStack:
-    def __init__(self) -> None:
-        env = load_env(BOOK_ENV)
-        self.base = env["BOOKSTACK_URL"].rstrip("/")
-        self.headers = {
-            "Authorization": f"Token {env['BOOKSTACK_TOKEN_ID']}:{env['BOOKSTACK_TOKEN_SECRET']}",
-            "Content-Type": "application/json",
-        }
-
-    def search_page(self, name: str) -> dict | None:
-        r = requests.get(
-            f"{self.base}/api/search",
-            headers=self.headers,
-            params={"query": name, "count": 20},
-            timeout=60,
+def merge_wiki_draft(existing: str, spec: dict, founder: str) -> str:
+    """Fill blank / PENDIENTE fields in an existing draft; leave other content intact."""
+    md = existing
+    if "[PENDIENTE]" in md and spec.get("taxonomy") and spec["taxonomy"] != "[PENDIENTE]":
+        md = re.sub(
+            r"(\| CT Taxonomy \| )\[PENDIENTE\]",
+            rf"\1{spec['taxonomy']}",
+            md,
+            count=1,
         )
-        r.raise_for_status()
-        target = norm_name(name)
-        for item in r.json().get("data") or []:
-            if item.get("type") != "page":
-                continue
-            if norm_name(item.get("name", "")) == target or target in norm_name(item.get("name", "")):
-                return item
-        return None
+    site = spec.get("website") or "[PENDIENTE]"
+    if "| Website | [PENDIENTE]" in md and site != "[PENDIENTE]":
+        md = re.sub(r"(\| Website \| )\[PENDIENTE\]", rf"\1{site}", md, count=1)
+    if not re.search(r"\*\*Founder:\*\*", md):
+        md = inject_founder_meta(md, founder)
+    elif "**Founder:** [PENDIENTE]" in md and founder != "[PENDIENTE]":
+        md = re.sub(r"\*\*Founder:\*\*\s*\[PENDIENTE\]", f"**Founder:** {founder}", md, count=1)
+    return md
 
-    def get_page(self, page_id: int) -> dict:
-        r = requests.get(f"{self.base}/api/pages/{page_id}", headers=self.headers, timeout=60)
-        r.raise_for_status()
-        return r.json()
 
-    def create_page(self, payload: dict) -> dict:
-        r = requests.post(f"{self.base}/api/pages", headers=self.headers, json=payload, timeout=60)
-        r.raise_for_status()
-        return r.json()
-
-    def put_page(self, page_id: int, payload: dict) -> dict:
-        r = requests.put(
-            f"{self.base}/api/pages/{page_id}", headers=self.headers, json=payload, timeout=60
-        )
-        r.raise_for_status()
-        return r.json()
-
-    def page_url(self, page: dict) -> str:
-        book_slug = BOOK_SLUGS.get(page.get("book_id"), "startup-portfolio")
-        return f"{self.base}/books/{book_slug}/page/{page.get('slug', page['id'])}"
-
-    def sync_startup(self, s: dict, founder: str) -> tuple[str, str, str]:
-        existing = self.search_page(s["display_name"])
-        md_new = portfolio_markdown(s, founder)
-        if existing:
-            page_id = existing["id"]
-            page = self.get_page(page_id)
-            md = page.get("markdown") or ""
-            if not re.search(r"\*\*Founder:\*\*", md):
-                md = inject_founder_meta(md, founder)
-            else:
-                md = inject_founder_meta(md, founder)
-            if "[PENDIENTE]" in md and "[PENDIENTE]" not in md_new:
-                pass
-            payload = {
-                "book_id": page["book_id"],
-                "chapter_id": page["chapter_id"],
-                "name": page["name"],
-                "markdown": md,
-            }
-            if page.get("draft"):
-                payload["draft"] = True
-            self.put_page(page_id, payload)
-            page = self.get_page(page_id)
-            return "existing", self.page_url(page), "draft" if page.get("draft") else "published"
-
-        created = self.create_page(
-            {
-                "book_id": BOOK_STARTUP_PORTFOLIO,
-                "chapter_id": chapter_for_theme(s["theme"]),
-                "name": s["display_name"].upper(),
-                "markdown": md_new,
-                "draft": True,
-            }
-        )
-        page = self.get_page(created["id"])
-        return "new", self.page_url(page), "draft"
+def write_wiki_draft(spec: dict, founder: str) -> tuple[str, str, str]:
+    """Write HITL wiki markdown under ops/wiki-drafts/. Returns status, rel path, draft."""
+    WIKI_DRAFTS.mkdir(parents=True, exist_ok=True)
+    path = WIKI_DRAFTS / f"{spec['slug']}.md"
+    rel = f"ops/wiki-drafts/{spec['slug']}.md"
+    md_new = portfolio_markdown(spec, founder)
+    if path.exists():
+        merged = merge_wiki_draft(path.read_text(), spec, founder)
+        if merged != path.read_text():
+            path.write_text(merged)
+            return "existing", rel, "updated"
+        return "existing", rel, "unchanged"
+    path.write_text(md_new)
+    return "new", rel, "draft"
 
 
 def merge_portfolio_entry(line: str, spec: dict) -> str:
@@ -476,20 +427,34 @@ def cmd_cards() -> int:
     return 0
 
 
+def probe_odoo() -> tuple[Odoo | None, str | None]:
+    env = load_env(ODOO_ENV)
+    url = env.get("ODOO_URL") or env.get("ODOO_BASE_URL", "")
+    if not url:
+        return None, "Odoo env missing ODOO_URL"
+    try:
+        common = xmlrpc.client.ServerProxy(f"{url}/xmlrpc/2/common", allow_none=True)
+        common.version()
+    except Exception as e:
+        return None, f"Odoo unavailable ({url}): {e}"
+    try:
+        return Odoo(), None
+    except Exception as e:
+        return None, f"Odoo auth failed: {e}"
+
+
 def cmd_sync() -> int:
     report: dict = {
         "date": date.today().isoformat(),
         "branch": "feat/cards-batch-10-12",
         "startups": [],
         "blockers": [],
+        "wiki_delivery": "ops/wiki-drafts/<slug>.md (local HITL; BookStack API not used)",
     }
-    odoo: Odoo | None = None
-    try:
-        odoo = Odoo()
-    except Exception as e:
-        report["blockers"].append(f"Odoo unavailable: {e}")
+    odoo, odoo_err = probe_odoo()
+    if odoo_err:
+        report["blockers"].append(odoo_err)
 
-    bs = BookStack()
     for slug in ALL_SLUGS:
         spec = load_json_spec(slug)
         row = {
@@ -521,12 +486,12 @@ def cmd_sync() -> int:
                 report["blockers"].append(f"Odoo {slug}: {e}")
 
         try:
-            wstat, url, pub = bs.sync_startup(spec, spec["founder_line"])
-            row["wiki_url"] = url
+            wstat, rel_path, pub = write_wiki_draft(spec, spec["founder_line"])
+            row["wiki_url"] = rel_path
             row["wiki_status"] = f"{wstat}/{pub}"
         except Exception as e:
             row["wiki_status"] = f"error: {e}"
-            report["blockers"].append(f"Wiki {slug}: {e}")
+            report["blockers"].append(f"Wiki draft {slug}: {e}")
 
         report["startups"].append(row)
 

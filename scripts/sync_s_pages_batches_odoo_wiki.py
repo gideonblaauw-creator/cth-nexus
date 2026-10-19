@@ -2,7 +2,7 @@
 """Prepare batch 4–6 startup records: file-based Wiki drafts + optional Odoo (when up).
 
 Wiki: writes ops/wiki-drafts/<slug>.md only (never calls BookStack — draft API still publishes live).
-Odoo: skipped by default (--attempt-odoo to try XML-RPC when services.cleantechhub.net is healthy).
+Odoo: skipped by default (--attempt-odoo to probe XML-RPC when services.cleantechhub.net is healthy).
 
 Reads onepager JSON from GitHub refs. Sourced facts only; unknowns marked [PENDIENTE].
 """
@@ -72,6 +72,7 @@ def strip_html(s: str) -> str:
     if not s:
         return ""
     s = re.sub(r"&middot;", " · ", s)
+    s = re.sub(r"&amp;", "&", s)
     s = re.sub(r"&[^;]+;", "", s)
     return unescape(re.sub(r"<[^>]+>", "", s))
 
@@ -280,19 +281,17 @@ def write_wiki_draft(rec: dict) -> dict:
     WIKI_DRAFTS.mkdir(parents=True, exist_ok=True)
     path = WIKI_DRAFTS / f"{rec['slug']}.md"
     content = render_wiki_draft(rec)
-    if path.exists():
-        existing = path.read_text(encoding="utf-8")
-        if existing.strip() == content.strip():
-            return {"path": str(path.relative_to(ROOT)), "action": "unchanged"}
+    if path.exists() and path.read_text(encoding="utf-8").strip() == content.strip():
+        return {"path": str(path.relative_to(ROOT)), "action": "unchanged"}
     path.write_text(content, encoding="utf-8")
     return {"path": str(path.relative_to(ROOT)), "action": "written"}
 
 
-def sync_odoo(rec: dict) -> dict:
-    return {"status": "skipped", "reason": "Odoo XML-RPC unavailable (502); run with --attempt-odoo when services are up"}
+def odoo_row() -> dict:
+    return {"status": "skipped", "reason": "Odoo XML-RPC 502 — not attempted"}
 
 
-def attempt_odoo(rec: dict) -> dict:
+def attempt_odoo() -> dict:
     env = load_env(ODOO_ENV)
     if not env.get("ODOO_URL"):
         return {"status": "skipped", "error": "ODOO_URL missing"}
@@ -307,12 +306,12 @@ def attempt_odoo(rec: dict) -> dict:
         return {"status": "error", "error": str(e)}
     if not uid:
         return {"status": "error", "error": "auth failed"}
-    return {"status": "ok", "note": "Odoo reachable; full upsert not implemented in file-only mode"}
+    return {"status": "ok", "note": "reachable; upsert disabled in file-only mode"}
 
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--attempt-odoo", action="store_true", help="Probe Odoo auth only")
+    parser.add_argument("--attempt-odoo", action="store_true")
     parser.add_argument("--report", type=Path, default=Path("/tmp/s-pages-batch-4-6-sync-report.json"))
     args = parser.parse_args()
 
@@ -327,19 +326,12 @@ def main() -> int:
                 "sha": sha,
                 "pendiente": rec["pendiente"],
                 "wiki_draft": write_wiki_draft(rec),
+                "odoo": attempt_odoo() if args.attempt_odoo else odoo_row(),
             }
-            if args.attempt_odoo:
-                row["odoo"] = attempt_odoo(rec)
-            else:
-                row["odoo"] = sync_odoo(rec)
             report.append(row)
 
     args.report.write_text(json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8")
     print(args.report)
-    print(json.dumps({
-        "slugs": len(report),
-        "wiki_written": sum(1 for r in report if r["wiki_draft"].get("action") == "written"),
-    }, indent=2))
     return 0
 
 

@@ -1,22 +1,17 @@
 ---
-{
-  "status": "draft-file-only",
-  "bookstack_publish": false,
-  "nexus_slug": "grupo-natural-andino",
-  "source_branch": "feat/s-pages-batch-6",
-  "source_sha": "5803c86",
-  "batch": "batch6",
-  "country": "CO",
-  "program": "Organic Waste  Compost",
-  "stage": "Seed",
-  "ct_primary": "[PENDIENTE]",
-  "tags": {
-    "type": "startup-profile",
-    "nexus_slug": "grupo-natural-andino",
-    "source": "nexus-s-pages-batch",
-    "founder": "Erika Viviana Mejía Guerrero"
-  }
-}
+status: draft-file-only
+bookstack_publish: false
+nexus_slug: grupo-natural-andino
+source_branch: feat/s-pages-batch-6
+source_sha: 5803c86
+batch: batch6
+country: CO
+program: Organic Waste  Compost
+stage: Seed
+ct_primary: [PENDIENTE]
+tag_type: startup-profile
+tag_source: nexus-s-pages-batch
+tag_founder: Erika Viviana Mejía Guerrero
 ---
 
 # Grupo Natural Andino

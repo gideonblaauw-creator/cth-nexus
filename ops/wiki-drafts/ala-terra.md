@@ -1,23 +1,17 @@
 ---
-{
-  "status": "draft-file-only",
-  "bookstack_publish": false,
-  "nexus_slug": "ala-terra",
-  "source_branch": "feat/s-pages-batch-4-9a1a",
-  "source_sha": "a91df06",
-  "batch": "batch4",
-  "country": "MX",
-  "program": "Food systems",
-  "stage": "[PENDIENTE]",
-  "ct_primary": "CT-WA-003",
-  "tags": {
-    "type": "startup-profile",
-    "nexus_slug": "ala-terra",
-    "source": "nexus-s-pages-batch",
-    "ct_primary": "CT-WA-003",
-    "founder": "Ana Cristina Dorantes"
-  }
-}
+status: draft-file-only
+bookstack_publish: false
+nexus_slug: ala-terra
+source_branch: feat/s-pages-batch-4-9a1a
+source_sha: a91df06
+batch: batch4
+country: MX
+program: Food systems
+stage: [PENDIENTE]
+ct_primary: CT-WA-003
+tag_type: startup-profile
+tag_source: nexus-s-pages-batch
+tag_founder: Ana Cristina Dorantes
 ---
 
 # ¡Ala Terra!

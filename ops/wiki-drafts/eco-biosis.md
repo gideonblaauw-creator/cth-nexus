@@ -1,23 +1,17 @@
 ---
-{
-  "status": "draft-file-only",
-  "bookstack_publish": false,
-  "nexus_slug": "eco-biosis",
-  "source_branch": "feat/s-pages-batch-5",
-  "source_sha": "82b5da4",
-  "batch": "batch5",
-  "country": "CO",
-  "program": "Circular Economy",
-  "stage": "Seed",
-  "ct_primary": "CT-WA-001",
-  "tags": {
-    "type": "startup-profile",
-    "nexus_slug": "eco-biosis",
-    "source": "nexus-s-pages-batch",
-    "ct_primary": "CT-WA-001",
-    "founder": "Eduardo Creixell"
-  }
-}
+status: draft-file-only
+bookstack_publish: false
+nexus_slug: eco-biosis
+source_branch: feat/s-pages-batch-5
+source_sha: 82b5da4
+batch: batch5
+country: CO
+program: Circular Economy
+stage: Seed
+ct_primary: CT-WA-001
+tag_type: startup-profile
+tag_source: nexus-s-pages-batch
+tag_founder: Eduardo Creixell
 ---
 
 # Eco Biosis

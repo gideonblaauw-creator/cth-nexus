@@ -1,22 +1,17 @@
 ---
-{
-  "status": "draft-file-only",
-  "bookstack_publish": false,
-  "nexus_slug": "galaxy-pack",
-  "source_branch": "feat/s-pages-batch-6",
-  "source_sha": "5803c86",
-  "batch": "batch6",
-  "country": "CO",
-  "program": "Reusable Packaging",
-  "stage": "Seed",
-  "ct_primary": "[PENDIENTE]",
-  "tags": {
-    "type": "startup-profile",
-    "nexus_slug": "galaxy-pack",
-    "source": "nexus-s-pages-batch",
-    "founder": "Andrés Humberto Mora"
-  }
-}
+status: draft-file-only
+bookstack_publish: false
+nexus_slug: galaxy-pack
+source_branch: feat/s-pages-batch-6
+source_sha: 5803c86
+batch: batch6
+country: CO
+program: Reusable Packaging
+stage: Seed
+ct_primary: [PENDIENTE]
+tag_type: startup-profile
+tag_source: nexus-s-pages-batch
+tag_founder: Andrés Humberto Mora
 ---
 
 # Galaxy Pack

@@ -1,21 +1,17 @@
 ---
-{
-  "status": "draft-file-only",
-  "bookstack_publish": false,
-  "nexus_slug": "deposito-global-recycling",
-  "source_branch": "feat/s-pages-batch-4-9a1a",
-  "source_sha": "a91df06",
-  "batch": "batch4",
-  "country": "CO",
-  "program": "Circular Economy",
-  "stage": "[PENDIENTE]",
-  "ct_primary": "[PENDIENTE]",
-  "tags": {
-    "type": "startup-profile",
-    "nexus_slug": "deposito-global-recycling",
-    "source": "nexus-s-pages-batch"
-  }
-}
+status: draft-file-only
+bookstack_publish: false
+nexus_slug: deposito-global-recycling
+source_branch: feat/s-pages-batch-4-9a1a
+source_sha: a91df06
+batch: batch4
+country: CO
+program: Circular Economy
+stage: [PENDIENTE]
+ct_primary: [PENDIENTE]
+tag_type: startup-profile
+tag_source: nexus-s-pages-batch
+tag_founder: [PENDIENTE]
 ---
 
 # Deposito Global Recycling

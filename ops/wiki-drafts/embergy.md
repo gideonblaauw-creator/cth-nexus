@@ -1,22 +1,17 @@
 ---
-{
-  "status": "draft-file-only",
-  "bookstack_publish": false,
-  "nexus_slug": "embergy",
-  "source_branch": "feat/s-pages-batch-5",
-  "source_sha": "82b5da4",
-  "batch": "batch5",
-  "country": "CO",
-  "program": "Circular Economy",
-  "stage": "Pre-Seed",
-  "ct_primary": "[PENDIENTE]",
-  "tags": {
-    "type": "startup-profile",
-    "nexus_slug": "embergy",
-    "source": "nexus-s-pages-batch",
-    "founder": "Alejandro Nuñez"
-  }
-}
+status: draft-file-only
+bookstack_publish: false
+nexus_slug: embergy
+source_branch: feat/s-pages-batch-5
+source_sha: 82b5da4
+batch: batch5
+country: CO
+program: Circular Economy
+stage: Pre-Seed
+ct_primary: [PENDIENTE]
+tag_type: startup-profile
+tag_source: nexus-s-pages-batch
+tag_founder: Alejandro Nuñez
 ---
 
 # Embergy

@@ -1,23 +1,17 @@
 ---
-{
-  "status": "draft-file-only",
-  "bookstack_publish": false,
-  "nexus_slug": "eco-industria",
-  "source_branch": "feat/s-pages-batch-5",
-  "source_sha": "82b5da4",
-  "batch": "batch5",
-  "country": "CO",
-  "program": "Circular Economy",
-  "stage": "Seed",
-  "ct_primary": "CT-WA-003",
-  "tags": {
-    "type": "startup-profile",
-    "nexus_slug": "eco-industria",
-    "source": "nexus-s-pages-batch",
-    "ct_primary": "CT-WA-003",
-    "founder": "Leonardo Rodriguez"
-  }
-}
+status: draft-file-only
+bookstack_publish: false
+nexus_slug: eco-industria
+source_branch: feat/s-pages-batch-5
+source_sha: 82b5da4
+batch: batch5
+country: CO
+program: Circular Economy
+stage: Seed
+ct_primary: CT-WA-003
+tag_type: startup-profile
+tag_source: nexus-s-pages-batch
+tag_founder: Leonardo Rodriguez
 ---
 
 # Eco Industria

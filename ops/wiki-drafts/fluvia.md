@@ -1,23 +1,17 @@
 ---
-{
-  "status": "draft-file-only",
-  "bookstack_publish": false,
-  "nexus_slug": "fluvia",
-  "source_branch": "feat/s-pages-batch-5",
-  "source_sha": "82b5da4",
-  "batch": "batch5",
-  "country": "CO",
-  "program": "Bioeconomy",
-  "stage": "Pre-Seed",
-  "ct_primary": "CT-WW-003",
-  "tags": {
-    "type": "startup-profile",
-    "nexus_slug": "fluvia",
-    "source": "nexus-s-pages-batch",
-    "ct_primary": "CT-WW-003",
-    "founder": "Julian Ramos Santos"
-  }
-}
+status: draft-file-only
+bookstack_publish: false
+nexus_slug: fluvia
+source_branch: feat/s-pages-batch-5
+source_sha: 82b5da4
+batch: batch5
+country: CO
+program: Bioeconomy
+stage: Pre-Seed
+ct_primary: CT-WW-003
+tag_type: startup-profile
+tag_source: nexus-s-pages-batch
+tag_founder: Julian Ramos Santos
 ---
 
 # Fluvia
