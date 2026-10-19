@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """Build Nexus startup one-pagers from JSON data + shared template."""
 from __future__ import annotations
 
@@ -95,7 +96,7 @@ def sol_grid(steps: list[dict]) -> str:
     for n, s in enumerate(steps, 1):
         cards.append(
             f'<div class="sol-card"><div class="sol-step">{n}</div>'
-            f'<div class="sol-icon">{s.get("icon","●")}</div>'
+            f'<div class="sol-icon">{s.get("icon","Ã¢ÂÂ")}</div>'
             f'<div class="sol-label">{bi(s["label_en"], s["label_es"])}</div>'
             f'<div class="sol-text">{bi(s["text_en"], s["text_es"])}</div></div>'
         )
@@ -106,7 +107,7 @@ def impact_grid(cards: list[dict]) -> str:
     items = []
     for c in cards:
         items.append(
-            f'<div class="imp-card"><div class="imp-icon">{c.get("icon","●")}</div>'
+            f'<div class="imp-card"><div class="imp-icon">{c.get("icon","Ã¢ÂÂ")}</div>'
             f'<div><div class="imp-title">{bi(c["title_en"], c["title_es"])}</div>'
             f'<div class="imp-text">{bi(c["text_en"], c["text_es"])}</div></div></div>'
         )
@@ -140,36 +141,295 @@ def team_grid(members: list[dict], slug: str) -> str:
     return f'<div class="team-grid">{"".join(cards)}</div>'
 
 
+def youtube_id(url: str) -> str:
+    from urllib.parse import urlparse, parse_qs
+
+    raw = (url or "").strip()
+    if not raw:
+        return ""
+    if "://" not in raw and "/" not in raw:
+        return raw
+    parsed = urlparse(raw)
+    host = parsed.netloc.lower()
+    if host.endswith("youtu.be"):
+        return parsed.path.strip("/").split("/")[0]
+    if host.endswith("youtube.com") or host.endswith("youtube-nocookie.com"):
+        if parsed.path.startswith("/embed/"):
+            parts = parsed.path.split("/")
+            return parts[2] if len(parts) > 2 else ""
+        return parse_qs(parsed.query).get("v", [""])[0]
+    return ""
+
+
+def youtube_section(d: dict) -> str:
+    """Embedded player only when youtube is a non-empty URL or id."""
+    vid = youtube_id(d.get("youtube") or "")
+    if not vid:
+        return ""
+    return (
+        '<div class="deck-wrap"><div class="yt-pitch"><div class="yt-pitch-frame">'
+        f'<iframe src="https://www.youtube.com/embed/{vid}" title="YouTube pitch" '
+        'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" '
+        'allowfullscreen></iframe></div></div></div>'
+    )
+
+
 def deck_section(d: dict, slug: str) -> str:
     deck = d.get("deck_pdf")
     if not deck:
         return ""
+    drive_id = deck.get("drive_id")
+    view = deck.get("view_url") or (f"https://drive.google.com/file/d/{drive_id}/view" if drive_id else "")
+    embed = deck.get("embed_url") or (
+        f"https://drive.google.com/file/d/{drive_id}/preview" if drive_id else ""
+    )
     local_pdf = deck.get("pdf_path") or f"/s/{slug}/deck.pdf"
     bg = asset_url(deck.get("bg", "./assets/bg-deck.jpg"), slug)
-    iframe = (
-        f'<div class="deck-frame-wrap">'
-        f'<embed class="deck-frame" src="{local_pdf}#view=FitH&toolbar=1" '
-        f'type="application/pdf" title="{d["name"]} pitch deck">'
-        f"</div>"
-    )
+    single = bool(deck.get("single_slide"))
+    pages = int(deck.get("pages") or 0)
+    frame_cls = "deck-frame"
+    wrap_cls = "deck-frame-wrap"
+    panel_cls = "deck-panel"
+    outer_cls = "deck-wrap"
+    pdf_hash = "#view=FitH&toolbar=1"
+    pager = ""
+    if single:
+        frame_cls = "deck-frame"
+        wrap_cls = "deck-frame-wrap"
+        panel_cls = "deck-panel deck-slide"
+        outer_cls = "deck-wrap deck-slide-wrap"
+        pdf_hash = "#page=1&view=Fit&toolbar=1&navpanes=0"
+        if pages > 1 and local_pdf:
+            pager = (
+                f'<div class="deck-pager" data-pdf="{local_pdf}" data-pages="{pages}">'
+                f'<button type="button" class="deck-page-btn" data-dir="-1">Prev</button>'
+                f'<span class="deck-page-label">1 / {pages}</span>'
+                f'<button type="button" class="deck-page-btn" data-dir="1">Next</button>'
+                f"</div>"
+                "<script>(function(){var root=document.currentScript.previousElementSibling;"
+                "if(!root)return;var frame=root.parentElement.querySelector('.deck-frame');"
+                "var label=root.querySelector('.deck-page-label');var total=+root.dataset.pages||1;var page=1;"
+                "function show(n){page=Math.max(1,Math.min(total,n));"
+                "if(frame)frame.src=root.dataset.pdf+'#page='+page+'&view=Fit&toolbar=1&navpanes=0';"
+                "if(label)label.textContent=page+' / '+total;"
+                "root.querySelectorAll('.deck-page-btn').forEach(function(b){var dir=+b.dataset.dir;"
+                "b.disabled=dir<0?page<=1:page>=total;});}"
+                "root.addEventListener('click',function(e){var b=e.target.closest('.deck-page-btn');"
+                "if(!b||b.disabled)return;show(page+(+b.dataset.dir||0));});show(1);})();</script>"
+            )
+    iframe = ""
+    if local_pdf:
+        iframe = (
+            f'<div class="{wrap_cls}">'
+            f'<embed class="{frame_cls}" src="{local_pdf}{pdf_hash}" '
+            f'type="application/pdf" title="{d["name"]} pitch deck">'
+            f"</div>"
+        )
+    elif embed:
+        iframe = (
+            f'<div class="{wrap_cls}">'
+            f'<iframe class="{frame_cls}" src="{embed}" title="{d["name"]} pitch deck" '
+            f'loading="lazy" allow="autoplay" referrerpolicy="no-referrer-when-downgrade"></iframe>'
+            f"</div>"
+        )
     fallback = (
-        f'<div class="deck-fallback">{bi("Deck not loading?", "¿No carga el deck?")} '
-        f'<a href="{local_pdf}" target="_blank" rel="noopener">{bi("Open PDF", "Abrir PDF")}</a></div>'
+        f'<div class="deck-fallback">{bi("Deck not loading?", "ÃÂ¿No carga el deck?")} '
+        f'<a href="{local_pdf}" target="_blank" rel="noopener">{bi("Open PDF", "Abrir PDF")}</a> Ã· '
+        f'<a href="{view}" target="_blank" rel="noopener">{bi("Google Drive", "Google Drive")}</a></div>'
     )
     return (
         f'<div class="sec" style="position:relative;">'
         f'<div class="sec-bg" style="background-image:url(\'{bg}\');"></div>'
         f'<div class="sec-ov" style="background:rgba(12,73,138,.30);"></div>'
-        f'<div class="sec-header"><div class="sec-num">📄</div>'
+        f'<div class="sec-header"><div class="sec-num">Ã°ÂÂÂ</div>'
         f'<div class="sec-title">{bi("Pitch Deck", "Pitch Deck")}</div><div class="sec-rule"></div></div>'
-        f'<div class="deck-note">{bi("Full-size deck preview below. Numbers on this profile match the deck only.", "Vista previa del deck a tamaño completo. Los números en este perfil provienen solo del deck.")}</div>'
-        f'<div class="deck-wrap"><div class="deck-panel">{iframe}{fallback}</div>'
+        f'<div class="deck-note">{bi("Full-size deck preview below. Numbers on this profile match the deck only.", "Vista previa del deck a tamaÃÂ±o completo. Los nÃÂºmeros en este perfil provienen solo del deck.")}</div>'
+        f'<div class="{outer_cls}"><div class="{panel_cls}">{iframe}{pager}{fallback}</div>'
         f'<div class="deck-actions">'
-        f'<a class="cta-link" href="{local_pdf}" target="_blank" rel="noopener">{bi("Open PDF", "Abrir PDF")}</a>'
+        f'<a class="cta-link" href="{view}" target="_blank" rel="noopener">{bi("Open deck in Google Drive", "Abrir deck en Google Drive")}</a>'
         f'<a class="cta-link" href="{local_pdf}" target="_blank" rel="noopener">{bi("Download PDF", "Descargar PDF")}</a>'
         f"</div></div></div><div class=\"accent-bar\"></div>"
     )
 
+
+
+def portfolio_ribbon_cells(d: dict) -> str:
+    cells = []
+    for k in d["ribbon"]:
+        cells.append(
+            f'<div class="ribbon-cell"><div class="rc-val">{k["val"]}</div>'
+            f'<div class="rc-lab">{bi(k["lab_en"], k["lab_es"])}</div>'
+            f'<div class="rc-sub">{bi(k.get("sub_en", ""), k.get("sub_es", ""))}</div></div>'
+        )
+    return "".join(cells)
+
+
+def portfolio_sol_step(n: int, icon: str, label_en: str, label_es: str, text_en: str, text_es: str) -> str:
+    return (
+        f'<div class="sol-card"><div class="sol-step">{n}</div><div class="sol-icon">{icon}</div>'
+        f'<div class="sol-label">{bi(label_en, label_es)}</div>'
+        f'<div class="sol-text">{bi(text_en, text_es)}</div></div>'
+    )
+
+
+def build_portfolio_page(d: dict) -> str:
+    """Startup portfolio profile (/s/) ? matches live cirkula / xiclo layout."""
+    css = TEMPLATE_CSS.read_text()
+    slug = d["slug"]
+    ribbon = portfolio_ribbon_cells(d)
+    p = d["portfolio"]
+
+    stats_prog = p.get("stat_program", "CTH")
+    stats_prog_lab_en = p.get("stat_program_lab_en", "Program")
+    stats_prog_lab_es = p.get("stat_program_lab_es", "Programa")
+    stats_hub_en = p.get("stat_hub_en", "CTH")
+    stats_hub_es = p.get("stat_hub_es", "CTH")
+    stats_hub_lab_en = p.get("stat_hub_lab_en", "Hub")
+    stats_hub_lab_es = p.get("stat_hub_lab_es", "Hub")
+    cc = p.get("country_code", "CO")
+
+    problem_block = (
+        f'<div class="sec" style="position:relative;">'
+        f'<div class="sec-bg" style="background-image:url(\'{asset_url(p["bg_problem"], slug)}\');"></div>'
+        f'<div class="sec-ov" style="background:rgba(12,73,138,.30);"></div>'
+        f'<div class="sec-header"><div class="sec-num">01</div>'
+        f'<div class="sec-title">{bi("The Problem", "El Problema")}</div><div class="sec-rule"></div></div>'
+        f'<div class="split" style="position:relative;z-index:2;">'
+        f'<div class="split-panel"><div class="split-frost">'
+        f'<div class="split-h">{bi(p["problem_head_en"], p["problem_head_es"])}</div>'
+        f'<div class="body-text">{bi(p["problem_body_en"], p["problem_body_es"])}</div>'
+        f"</div></div>"
+        f'<div class="split-panel"><div class="split-frost split-frost-stats">'
+        f'<div class="stat-row" style="margin-top:0;">'
+        f'<div class="stat-card"><div class="sc-num">{stats_prog}</div>'
+        f'<div class="sc-lab">{bi(stats_prog_lab_en, stats_prog_lab_es)}</div></div>'
+        f'<div class="stat-card"><div class="sc-num">{stats_hub_en}</div>'
+        f'<div class="sc-lab">{bi(stats_hub_lab_en, stats_hub_lab_es)}</div></div>'
+        f"</div>"
+        f'<div class="stat-row">'
+        f'<div class="stat-card"><div class="sc-num">[P]</div>'
+        f'<div class="sc-lab">{bi("KPIs pending", "KPIs pendientes")}</div></div>'
+        f'<div class="stat-card"><div class="sc-num">{cc}</div>'
+        f'<div class="sc-lab">{bi(p["country_name_en"], p["country_name_es"])}</div></div>'
+        f"</div></div></div></div></div>"
+    )
+
+    sol = "".join(
+        portfolio_sol_step(i + 1, s["icon"], s["label_en"], s["label_es"], s["text_en"], s["text_es"])
+        for i, s in enumerate(p["solution_steps"])
+    )
+    solution_block = (
+        f'<div class="sec" style="position:relative;">'
+        f'<div class="sec-bg" style="background-image:url(\'{asset_url(p["bg_solution"], slug)}\');"></div>'
+        f'<div class="sec-ov" style="background:rgba(102,147,72,.30);"></div>'
+        f'<div class="sec-header"><div class="sec-num">02</div>'
+        f'<div class="sec-title">{bi("The Solution", "La SoluciÃ³n")}</div><div class="sec-rule"></div></div>'
+        f'<div class="sol-grid">{sol}</div></div>'
+    )
+
+    impact_block = (
+        f'<div class="sec" style="position:relative;">'
+        f'<div class="sec-bg" style="background-image:url(\'{asset_url(p["bg_impact"], slug)}\');"></div>'
+        f'<div class="sec-ov" style="background:rgba(102,147,72,.30);"></div>'
+        f'<div class="sec-header"><div class="sec-num">03</div>'
+        f'<div class="sec-title">{bi("Impact &amp; Program", "Impacto y Programa")}</div><div class="sec-rule"></div></div>'
+        f'<div class="impact-grid">'
+        f'<div class="imp-card"><div class="imp-icon">??</div><div>'
+        f'<div class="imp-title">{bi("Portfolio source", "Fuente portafolio")}</div>'
+        f'<div class="imp-text">{bi(p["source_en"], p["source_es"])}</div></div></div>'
+        f'<div class="imp-card"><div class="imp-icon">??</div><div>'
+        f'<div class="imp-title">{bi("Taxonomy", "TaxonomÃ­a")}</div>'
+        f'<div class="imp-text">{bi(p["taxonomy_en"], p["taxonomy_es"])}</div></div></div>'
+        f'<div class="imp-card"><div class="imp-icon">??</div><div>'
+        f'<div class="imp-title">{bi("Location", "UbicaciÃ³n")}</div>'
+        f'<div class="imp-text">{bi(p["location_en"], p["location_es"])}</div></div></div>'
+        f'<div class="imp-card"><div class="imp-icon">??</div><div>'
+        f'<div class="imp-title">{bi("Program", "Programa")}</div>'
+        f'<div class="imp-text">{bi(p["program_detail_en"], p["program_detail_es"])}</div></div></div>'
+        f"</div></div>"
+    )
+
+    team_cards = team_grid(p["team"], slug)
+    leadership_block = (
+        f'<div class="sec" style="position:relative;">'
+        f'<div class="sec-bg" style="background-image:url(\'{asset_url(p["bg_team"], slug)}\');"></div>'
+        f'<div class="sec-ov" style="background:rgba(12,73,138,.30);"></div>'
+        f'<div class="sec-header"><div class="sec-num">04</div>'
+        f'<div class="sec-title">{bi("Leadership", "Liderazgo")}</div><div class="sec-rule"></div></div>'
+        f"{team_cards}"
+        f'<div class="frost-note">{bi(p["footer_note_en"], p["footer_note_es"])}</div>'
+        f"</div>"
+    )
+
+    website = d.get("website") or "#"
+    cta_btn_en = d.get("cta_btn_en") or ("Visit website" if website != "#" else "CleantechHUB")
+    cta_btn_es = d.get("cta_btn_es") or ("Visitar sitio" if website != "#" else "CleantechHUB")
+
+    credits = p.get("image_credits") or {}
+    credit_block = ""
+    if credits.get("en") or credits.get("es"):
+        credit_block = (
+            f'<div class="img-credit">{bi(credits.get("en", ""), credits.get("es", ""))}</div>'
+        )
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{d["name"]} — CleantechHUB Startup Profile</title>
+<link rel="icon" href="https://cleantechhub.net/favicon.ico">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+<style>
+{css}
+</style>
+</head>
+<body>
+<div class="site-brand"><span class="brand-text">Cleantech<em>HUB</em></span></div>
+<div class="lang-toggle">
+  <button class="lb active" onclick="document.documentElement.lang='en';this.classList.add('active');this.nextElementSibling.classList.remove('active');">EN</button>
+  <button class="lb" onclick="document.documentElement.lang='es';this.classList.add('active');this.previousElementSibling.classList.remove('active');">ES</button>
+</div>
+
+<div class="sec hero">
+  <img class="hero-img" src="{asset_url(d["hero_image"], slug)}" alt="{d["name"]}" loading="lazy">
+  <div class="hero-ov"></div>
+  <div class="hero-badge"><div class="pill" style="background:rgba(0,0,0,.45);color:var(--lg);">{bi(d["badge_en"], d["badge_es"])}</div></div>
+  <div class="hero-in">
+    <div class="hero-name">{d["name"]}</div>
+    <div class="hero-sub">{bi(d["hero_sub_en"], d["hero_sub_es"])}</div>
+    <div class="hero-pitch">{bi(d["pitch_en"], d["pitch_es"])}</div>
+  </div>
+  <div class="hero-tagline">Inspira. Actúa. Transforma.</div>
+</div>
+
+<div class="ribbon" style="background:rgba(12,73,138,.95);">{ribbon}</div>
+
+{problem_block}
+{solution_block}
+{impact_block}
+{leadership_block}
+
+<div class="sec" style="position:relative;">
+  <div class="sec-bg" style="background-image:url('{asset_url(p.get("bg_cta", p["bg_impact"]), slug)}');"></div>
+  <div class="sec-ov" style="background:rgba(12,73,138,.30);"></div>
+  <div class="cta">
+    <div class="pill" style="background:rgba(157,195,132,.12);border:1px solid rgba(157,195,132,.2);color:var(--lg);margin-bottom:16px;">{bi(d["badge_en"], d["badge_es"])}</div>
+    <div class="cta-name">{d["name"]}</div>
+    <div class="cta-pitch">{bi(d.get("cta_pitch_en", d["pitch_en"]), d.get("cta_pitch_es", d["pitch_es"]))}</div>
+    <a class="cta-btn" href="{website}">{bi(cta_btn_en, cta_btn_es)}</a>
+    <div class="cta-links">
+      <a class="cta-link" href="https://nexus.cleantechhub.net/s/{slug}">{bi("Nexus Profile", "Perfil Nexus")}</a>
+      <a class="cta-link" href="https://nexus.cleantechhub.net/p/startup-portfolio">{bi("157 Startups", "157 Startups")}</a>
+    </div>
+    <div class="cta-brand"><div class="tg">Inspira. Actúa. Transforma.</div><div class="lg2">Cleantech<em style="color:var(--lg);font-style:normal;">HUB</em></div></div>
+    <div class="cta-port">{bi("CleantechHUB portfolio profile · Latin America", "Perfil portafolio CleantechHUB · América Latina")}</div>
+    {credit_block}
+  </div>
+</div>
+<div class="accent-bar"></div>
+</body>
+</html>"""
 
 
 def build_page(d: dict) -> str:
@@ -249,16 +509,16 @@ def build_page(d: dict) -> str:
 
     deck = d.get("deck_pdf") or {}
     deck_link = ""
-    if deck:
-        local_pdf = deck.get("pdf_path") or f"/s/{slug}/deck.pdf"
-        deck_link = f'<a class="cta-link" href="{local_pdf}" target="_blank" rel="noopener">{bi("Pitch deck (PDF)", "Pitch deck (PDF)")}</a>'
+    if deck.get("view_url") or deck.get("drive_id"):
+        view = deck.get("view_url") or f"https://drive.google.com/file/d/{deck['drive_id']}/view"
+        deck_link = f'<a class="cta-link" href="{view}" target="_blank" rel="noopener">{bi("Pitch deck (PDF)", "Pitch deck (PDF)")}</a>'
 
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{d["name"]} — CleantechHUB Startup Profile</title>
+<title>{d["name"]} Ã¢ÂÂ CleantechHUB Startup Profile</title>
 <link rel="icon" href="https://cleantechhub.net/favicon.ico">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
 <style>
@@ -275,7 +535,7 @@ def build_page(d: dict) -> str:
 <div class="sec hero">
   <img class="hero-img" src="{asset_url(d["hero_image"], slug)}" alt="{d["name"]}" loading="lazy">
   <div class="hero-ov"></div>
-  <div class="hero-badge"><div class="pill" style="background:rgba(0,0,0,.45);coor:var(--lg);">{bi(d["badge_en"], d["badge_es"])}</div></div>
+  <div class="hero-badge"><div class="pill" style="background:rgba(0,0,0,.45);color:var(--lg);">{bi(d["badge_en"], d["badge_es"])}</div></div>
   <div class="hero-in">
     <div class="hero-name">{d["name"]}</div>
     <div class="hero-sub">{bi(d["hero_sub_en"], d["hero_sub_es"])}</div>
@@ -284,11 +544,13 @@ def build_page(d: dict) -> str:
   <div class="hero-tagline">Inspira. Actúa. Transforma.</div>
 </div>
 
-<div class="ribbon" style="background:rgba(12,73,138,.95);":{ribbon}</div>
+<div class="ribbon" style="background:rgba(12,73,138,.95);">{ribbon}</div>
+
+{youtube_section(d)}
 
 {deck_section(d, slug)}
 
-sections_html}
+{sections_html}
 
 <div class="sec" style="position:relative;">
   <div class="sec-bg" style="background-image:url('{asset_url("./assets/bg-cta.jpg", slug)}');"></div>
@@ -296,15 +558,15 @@ sections_html}
   <div class="cta">
     <div class="pill" style="background:rgba(157,195,132,.12);border:1px solid rgba(157,195,132,.2);color:var(--lg);margin-bottom:16px;">{bi(d["badge_en"], d["badge_es"])}</div>
     <div class="cta-name">{d["name"]}</div>
-    <div class="cta-pitch">{bi(�["cta_pitch_en"], d["cta_pitch_es"])}</div>
-    <a class="cta-btn" href="{d.get("website","#")}>{bi(d.get("cta_btn_en","Visit website"), d.get("cta_btn_es","Visitar sitio"))}</a>
+    <div class="cta-pitch">{bi(d["cta_pitch_en"], d["cta_pitch_es"])}</div>
+    <a class="cta-btn" href="{d.get("website","#")}">{bi(d.get("cta_btn_en","Visit website"), d.get("cta_btn_es","Visitar sitio"))}</a>
     <div class="cta-links">
-      <a class="cta-link" href="https://nexus.cleantechhub.net/s/{slug}">{bi(�Nexus Profile", "Perfil Nexus")}</a>
-      <a class="cta-link" href="https://nexus.cleantechhub.net/p/startup-portfolio">{bi(�157 Startups", "157 Startups")}</a>
+      <a class="cta-link" href="https://nexus.cleantechhub.net/s/{slug}">{bi("Nexus Profile", "Perfil Nexus")}</a>
+      <a class="cta-link" href="https://nexus.cleantechhub.net/p/startup-portfolio">{bi("157 Startups", "157 Startups")}</a>
       {deck_link}
     </div>
     <div class="cta-brand"><div class="tg">Inspira. Actúa. Transforma.</div><div class="lg2">Cleantech<em style="color:var(--lg);font-style:normal;">HUB</em></div></div>
-    <div class="cta-port">{bi(�CleantechHUB portfolio profile · Latin America", "Perfil portafolio CleantechHUB · América Latina")}</div>
+    <div class="cta-port">{bi("CleantechHUB portfolio profile · Latin America", "Perfil portafolio CleantechHUB · América Latina")}</div>
   </div>
 </div>
 <div class="accent-bar"></div>
@@ -313,18 +575,29 @@ sections_html}
 
 
 def main() -> None:
-    OUT_REPO.mkdir(parents=True, exist_ok=T�ue)
-    OUT_ARCHIVE.mkdir(parents=True, exist_ok=T�ue)
+    OUT_REPO.mkdir(parents=True, exist_ok=True)
+    archive_ok = False
+    try:
+        OUT_ARCHIVE.mkdir(parents=True, exist_ok=True)
+        archive_ok = True
+    except OSError:
+        pass
     only = sys.argv[1:] if len(sys.argv) > 1 else None
     for json_path in sorted(DATA_DIR.glob("*.json")):
         data = json.loads(json_path.read_text())
         slug = data["slug"]
         if only and slug not in only:
             continue
-        html = build_page(data)
+        if data.get("template") == "portfolio":
+            html = build_portfolio_page(data)
+        else:
+            html = build_page(data)
         pdf_src_name = (data.get("deck_pdf") or {}).get("source_file")
         media_src = OUT_MEDIA / slug
-        for base in (OUT_REPO / slug, OUT_ARCHIVE / slug):
+        targets = [OUT_REPO / slug]
+        if archive_ok:
+            targets.append(OUT_ARCHIVE / slug)
+        for base in targets:
             base.mkdir(parents=True, exist_ok=True)
             (base / "index.html").write_text(html)
             if media_src.is_dir():

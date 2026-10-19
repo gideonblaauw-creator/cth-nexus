@@ -1,0 +1,106 @@
+{
+  "template": "portfolio",
+  "slug": "weia",
+  "name": "WËIA",
+  "website": "https://www.weia.com.co/",
+  "badge_en": "Agtech Fintech &middot; CLP",
+  "badge_es": "Fintech Agtech &middot; CLP",
+  "hero_image": "https://static.wixstatic.com/media/b5d05d_855868e229774c88bedfd2339a49f367~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,usm_0.66_1.00_0.01/b5d05d_855868e229774c88bedfd2339a49f367~mv2.jpg",
+  "hero_sub_en": "weia.com.co &middot; Bogotá &middot; Colombia &middot; Bioeconomy &middot; Stage: Seed &middot; CT-IC-003",
+  "hero_sub_es": "weia.com.co &middot; Bogotá &middot; Colombia &middot; Bioeconomía &middot; Etapa: Seed &middot; CT-IC-003",
+  "pitch_en": "Fintech-agtech startup offering supply chain financing and blockchain traceability for smallholder farmers, enabling input purchases at planting and repayment post-harvest.",
+  "pitch_es": "Startup fintech-agtech que ofrece financiamiento de cadena de suministro y trazabilidad blockchain para pequeños agricultores, permitiendo compras de insumos al inicio y pago tras la cosecha.",
+  "cta_pitch_en": "Farm Now, Pay Later — working-capital financing tied to harvest cycles for agricultural supply chains.",
+  "cta_pitch_es": "Siembra Ahora, Paga Después — financiamiento de capital de trabajo ligado a ciclos de cosecha para cadenas agroalimentarias.",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "ribbon": [
+    {"val": "CO", "lab_en": "Country", "lab_es": "País", "sub_en": "Colombia", "sub_es": "Colombia"},
+    {"val": "Seed", "lab_en": "Stage", "lab_es": "Etapa", "sub_en": "CLP", "sub_es": "CLP"},
+    {"val": "Bio", "lab_en": "Sector", "lab_es": "Sector", "sub_en": "Cleantech", "sub_es": "Cleantech"},
+    {"val": "[P]", "lab_en": "Metrics", "lab_es": "Métricas", "sub_en": "[PENDIENTE]", "sub_es": "[PENDIENTE]"}
+  ],
+  "portfolio": {
+    "stat_program": "CLP",
+    "stat_program_lab_en": "Program",
+    "stat_program_lab_es": "Programa",
+    "country_code": "CO",
+    "country_name_en": "Colombia",
+    "country_name_es": "Colombia",
+    "bg_problem": "https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=1200&q=80",
+    "bg_solution": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1200&q=80",
+    "bg_impact": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&q=80",
+    "bg_team": "https://static.wixstatic.com/media/b5d05d_64020dfa01004bba912d55ab143f4f9e~mv2.png/v1/crop/x_0,y_0,w_1481,h_1871/fill/w_1200,h_800,al_c,q_90,usm_0.66_1.00_0.01/b5d05d_64020dfa01004bba912d55ab143f4f9e~mv2.png",
+    "bg_cta": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
+    "image_credits": {
+      "en": "Hero + Sec. 04: weia.com.co (Wix media). Sec. 01: Unsplash / Nathan Dumlao (coffee landscape). Sec. 02: Unsplash / Markus Spiske (greenhouse). Sec. 03: Unsplash / Zbynek Burival (farmland). CTA: Unsplash / Luke Chesser (analytics dashboard).",
+      "es": "Hero + Sec. 04: weia.com.co (medios Wix). Sec. 01: Unsplash / Nathan Dumlao (café). Sec. 02: Unsplash / Markus Spiske (invernadero). Sec. 03: Unsplash / Zbynek Burival (campo). CTA: Unsplash / Luke Chesser (panel analítico)."
+    },
+    "problem_head_en": "Smallholder farmers lack timely working capital to buy inputs at planting.",
+    "problem_head_es": "Pequeños agricultores carecen de capital de trabajo oportuno para comprar insumos al sembrar.",
+    "problem_body_en": "Without liquidity at the start of the season, farmers and first-mile suppliers face volatility, supply gaps, and limited visibility in food supply chains.",
+    "problem_body_es": "Sin liquidez al inicio del ciclo, agricultores y proveedores de primera milla enfrentan volatilidad, brechas de abastecimiento y poca visibilidad en cadenas agroalimentarias.",
+    "solution_steps": [
+      {
+        "icon": "🌱",
+        "label_en": "Focus",
+        "label_es": "Enfoque",
+        "text_en": "Supply-chain financing so farmers buy seeds, fertilizers, and inputs at planting and repay when the harvest is sold.",
+        "text_es": "Financiamiento de cadena de suministro para que agricultores compren insumos al sembrar y paguen cuando venden la cosecha."
+      },
+      {
+        "icon": "🔗",
+        "label_en": "Program",
+        "label_es": "Programa",
+        "text_en": "WËIA — ClimateLaunchpad (CLP) cohort · CleantechHUB portfolio.",
+        "text_es": "WËIA — cohorte ClimateLaunchpad (CLP) · portafolio CleantechHUB."
+      },
+      {
+        "icon": "🌎",
+        "label_en": "Market",
+        "label_es": "Mercado",
+        "text_en": "Based in Bogotá, Colombia. Public site: weia.com.co.",
+        "text_es": "Con base en Bogotá, Colombia. Sitio público: weia.com.co."
+      }
+    ],
+    "source_en": "CleantechHUB portfolio card (WEIA) + public website weia.com.co.",
+    "source_es": "Tarjeta portafolio CleantechHUB (WEIA) + sitio público weia.com.co.",
+    "taxonomy_en": "CT-IC-003 · Supply Chain Finance · CT-AF-001 · Sustainable Coffee",
+    "taxonomy_es": "CT-IC-003 · Financiamiento cadena de suministro · CT-AF-001 · Café sostenible",
+    "location_en": "City: Bogotá · Country: Colombia",
+    "location_es": "Ciudad: Bogotá · País: Colombia",
+    "program_detail_en": "CleantechHUB · CLP cohort · Acceleration track (Portafolio CTH sheet).",
+    "program_detail_es": "CleantechHUB · cohorte CLP · track Aceleración (hoja Portafolio CTH).",
+    "team": [
+      {
+        "name": "Jairo Andrés Burgos",
+        "role_en": "Co-Founder &amp; CEO &middot; CLP",
+        "role_es": "Cofundador y CEO &middot; CLP",
+        "bio_en": "CEO &amp; co-founder. Source: weia.com.co, LinkedIn company page.",
+        "bio_es": "CEO y cofundador. Fuente: weia.com.co, página LinkedIn de la empresa.",
+        "initials": "JB",
+        "linkedin": "https://www.linkedin.com/in/jairoandresburgos"
+      },
+      {
+        "name": "Arturo Harker Roa",
+        "role_en": "Co-Founder &middot; Chief Economist &amp; Data Officer",
+        "role_es": "Cofundador &middot; Economista jefe y director de datos",
+        "bio_en": "Co-founder. Source: LinkedIn, Tracxn company profile.",
+        "bio_es": "Cofundador. Fuente: LinkedIn, perfil Tracxn.",
+        "initials": "AH",
+        "linkedin": "https://www.linkedin.com/in/arturo-harker-roa-b736974"
+      },
+      {
+        "name": "Roberto Urbina",
+        "role_en": "Co-Founder &middot; Chief Innovation Officer",
+        "role_es": "Cofundador &middot; Director de innovación",
+        "bio_en": "Co-founder. Source: LinkedIn company page.",
+        "bio_es": "Cofundador. Fuente: página LinkedIn de la empresa.",
+        "initials": "RU",
+        "linkedin": "https://www.linkedin.com/in/roberto-urbina-b0bb166b"
+      }
+    ],
+    "footer_note_en": "Program: CLP. Additional co-founders: Alfonso Leyva, Javier Pérez Burgos (public sources). Pitch deck: [PENDIENTE]. Verified KPIs: [PENDIENTE].",
+    "footer_note_es": "Programa: CLP. Otros cofundadores: Alfonso Leyva, Javier Pérez Burgos (fuentes públicas). Pitch deck: [PENDIENTE]. KPIs verificados: [PENDIENTE]."
+  }
+}

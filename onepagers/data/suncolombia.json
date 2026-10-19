@@ -1,0 +1,100 @@
+{
+  "template": "portfolio",
+  "slug": "suncolombia",
+  "name": "SunColombia",
+  "website": "https://www.suncolombia.co/",
+  "badge_en": "Solar Energy &middot; CLAC22",
+  "badge_es": "Energía Solar &middot; CLAC22",
+  "hero_image": "https://cdn.forbes.co/2023/05/Sun-Colombia-1280x720-1.jpg",
+  "hero_sub_en": "suncolombia.co &middot; Bogotá &middot; Colombia &middot; Energy &middot; Stage: Series B+ &middot; CT-EN-001",
+  "hero_sub_es": "suncolombia.co &middot; Bogotá &middot; Colombia &middot; Energía &middot; Etapa: Series B+ &middot; CT-EN-001",
+  "pitch_en": "Deploys off-grid and on-grid solar systems for rural communities, schools, and telecom towers across Colombia.",
+  "pitch_es": "Despliega sistemas solares fuera y dentro de la red para comunidades rurales, escuelas y torres de telecomunicaciones en Colombia.",
+  "cta_pitch_en": "Hybrid solar and storage solutions for communities and enterprises that need reliable clean power beyond the grid.",
+  "cta_pitch_es": "Soluciones solares híbridas con almacenamiento para comunidades y empresas que necesitan energía limpia confiable fuera de la red.",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "ribbon": [
+    {"val": "CO", "lab_en": "Country", "lab_es": "País", "sub_en": "Colombia", "sub_es": "Colombia"},
+    {"val": "Ser. B+", "lab_en": "Stage", "lab_es": "Etapa", "sub_en": "CLAC22", "sub_es": "CLAC22"},
+    {"val": "Energy", "lab_en": "Sector", "lab_es": "Sector", "sub_en": "Cleantech", "sub_es": "Cleantech"},
+    {"val": "[P]", "lab_en": "Metrics", "lab_es": "Métricas", "sub_en": "[PENDIENTE]", "sub_es": "[PENDIENTE]"}
+  ],
+  "portfolio": {
+    "stat_program": "CLAC22",
+    "stat_program_lab_en": "Program",
+    "stat_program_lab_es": "Programa",
+    "stat_hub_en": "CTH",
+    "stat_hub_lab_en": "Hub",
+    "stat_hub_lab_es": "Hub",
+    "country_code": "CO",
+    "country_name_en": "Colombia",
+    "country_name_es": "Colombia",
+    "bg_problem": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=1200&q=80",
+    "bg_solution": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1200&q=80",
+    "bg_impact": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1200&q=80",
+    "bg_team": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80",
+    "bg_cta": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80",
+    "image_credits": {
+      "en": "Hero: Forbes Colombia (SunColombia feature, May 2023). Sec. 01: Unsplash / Johannes Plenio (forest landscape). Sec. 02: Unsplash / American Public Power Association (solar field). Sec. 03: Unsplash / Appolinary Kalashnikova (power lines). Sec. 04: Unsplash / Perry Grone (team outdoors). CTA: Unsplash / Carlos Muza (energy analytics).",
+      "es": "Hero: Forbes Colombia (reportaje SunColombia, may 2023). Sec. 01: Unsplash / Johannes Plenio (bosque). Sec. 02: Unsplash / American Public Power Association (campo solar). Sec. 03: Unsplash / Appolinary Kalashnikova (red eléctrica). Sec. 04: Unsplash / Perry Grone (equipo). CTA: Unsplash / Carlos Muza (analítica energética)."
+    },
+    "problem_head_en": "Remote and off-grid areas still lack reliable electricity for essential services.",
+    "problem_head_es": "Zonas remotas y no interconectadas aún carecen de electricidad confiable para servicios esenciales.",
+    "problem_body_en": "Schools, rural communities, and telecom infrastructure in Colombia often operate without stable grid power, limiting education, connectivity, and basic services.",
+    "problem_body_es": "Escuelas, comunidades rurales e infraestructura de telecomunicaciones en Colombia a menudo operan sin red eléctrica estable, limitando educación, conectividad y servicios básicos.",
+    "solution_steps": [
+      {
+        "icon": "⚡",
+        "label_en": "Focus",
+        "label_es": "Enfoque",
+        "text_en": "Design, finance, and deploy off-grid and on-grid solar systems — including solar classrooms and water solutions — for hard-to-reach territories.",
+        "text_es": "Diseñar, financiar e implementar sistemas solares fuera y dentro de la red — incluidas aulas solares y soluciones de agua — en territorios de difícil acceso."
+      },
+      {
+        "icon": "🔗",
+        "label_en": "Program",
+        "label_es": "Programa",
+        "text_en": "SunColombia — CLAC22 CleantechHUB acceleration alumni (portfolio card SUNCOLOMBIA SAS).",
+        "text_es": "SunColombia — alumni de aceleración CLAC22 CleantechHUB (tarjeta portafolio SUNCOLOMBIA SAS)."
+      },
+      {
+        "icon": "🌎",
+        "label_en": "Market",
+        "label_es": "Mercado",
+        "text_en": "Based in Bogotá, Colombia. Public site: suncolombia.co.",
+        "text_es": "Con base en Bogotá, Colombia. Sitio público: suncolombia.co."
+      }
+    ],
+    "source_en": "CleantechHUB startup portfolio card (SUNCOLOMBIA SAS) + public website suncolombia.co.",
+    "source_es": "Tarjeta portafolio CleantechHUB (SUNCOLOMBIA SAS) + sitio público suncolombia.co.",
+    "taxonomy_en": "CT-EN-001 · Solar PV",
+    "taxonomy_es": "CT-EN-001 · Solar fotovoltaico",
+    "location_en": "City: Bogotá · Country: Colombia",
+    "location_es": "Ciudad: Bogotá · País: Colombia",
+    "program_detail_en": "CleantechHUB Acceleration · CLAC22 cohort.",
+    "program_detail_es": "Aceleración CleantechHUB · cohorte CLAC22.",
+    "team": [
+      {
+        "name": "Juan Diego Gómez",
+        "role_en": "Co-founder &amp; CEO &middot; CLAC22",
+        "role_es": "Cofundador y CEO &middot; CLAC22",
+        "bio_en": "Public-facing CEO role. Source: Forbes Colombia, suncolombia.co, LinkedIn.",
+        "bio_es": "Rol público de CEO. Fuente: Forbes Colombia, suncolombia.co, LinkedIn.",
+        "initials": "JG",
+        "linkedin": "https://www.linkedin.com/in/juan-diego-gomez-10270518"
+      },
+      {
+        "name": "Mauricio Hoyos Holguín",
+        "role_en": "Co-founder &middot; Board &middot; CLAC22",
+        "role_es": "Cofundador &middot; Junta directiva &middot; CLAC22",
+        "bio_en": "Co-founder and board president (SunColombia). Source: Forbes Colombia, LinkedIn.",
+        "bio_es": "Cofundador y presidente de junta (SunColombia). Fuente: Forbes Colombia, LinkedIn.",
+        "initials": "MH",
+        "linkedin": "https://www.linkedin.com/in/mauriciohoyosholguin"
+      }
+    ],
+    "footer_note_en": "Program: CLAC22 · Acceleration. Pitch deck on profile: [PENDIENTE]. Verified KPIs: [PENDIENTE].",
+    "footer_note_es": "Programa: CLAC22 · Aceleración. Pitch deck en perfil: [PENDIENTE]. KPIs verificados: [PENDIENTE]."
+  }
+}
