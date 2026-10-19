@@ -1,0 +1,248 @@
+{
+  "slug": "circuito-cero",
+  "name": "Circuito cero",
+  "website": "#",
+  "badge_en": "Air & Environment &middot; CLP26 Colombia",
+  "badge_es": "Air & Environment &middot; CLP26 Colombia",
+  "hero_image": "https://images.unsplash.com/photo-1532996122724-e3c031a396bf?w=1200&q=80",
+  "hero_sub_en": "[PENDIENTE] &middot; Colombia &middot; Air & Environment &middot; Stage: Ideation &middot; CT-WA-003",
+  "hero_sub_es": "[PENDIENTE] &middot; Colombia &middot; Air & Environment &middot; Etapa: Ideation &middot; CT-WA-003",
+  "pitch_en": "Circuito Cero manages waste to turn it into resources, by involving recyclers and closing the loop, thereby reducing emissions and helping to mitigate climate change.",
+  "pitch_es": "Circuito Cero manages waste to turn it into resources, by involving recyclers and closing the loop, thereby reducing emissions and helping to mitigate climate change.",
+  "cta_pitch_en": "Circuito Cero implements waste sorting, classification, and recovery, involving waste pickers and preventing waste from being sent to landfills, thereby reducing emissions and turning waste into…",
+  "cta_pitch_es": "Circuito Cero implements waste sorting, classification, and recovery, involving waste pickers and preventing waste from being sent to landfills, thereby reducing emissions and turning waste into…",
+  "cta_btn_en": "CleantechHUB",
+  "cta_btn_es": "CleantechHUB",
+  "ribbon": [
+    {
+      "val": "Ideation",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLP26 CO",
+      "sub_es": "CLP26 CO"
+    },
+    {
+      "val": "Air & Enviro",
+      "lab_en": "Category",
+      "lab_es": "Categoría",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "CT-WA-003",
+      "lab_en": "CT Taxonomy",
+      "lab_es": "Taxonomía CT",
+      "sub_en": "CTH",
+      "sub_es": "CTH"
+    },
+    {
+      "val": "1",
+      "lab_en": "Team",
+      "lab_es": "Equipo",
+      "sub_en": "Application",
+      "sub_es": "Aplicación"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLP",
+        "lab_en": "2026 Colombia",
+        "lab_es": "2026 Colombia"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Accelerator",
+        "lab_es": "Acelerador"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "Metrics pending",
+        "lab_es": "Métricas pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Circuito Cero addresses GHG emissions caused by poor waste management (methane from landfills and…",
+      "head_es": "Circuito Cero addresses GHG emissions caused by poor waste management (methane from landfills and…",
+      "body_en": "Circuito Cero addresses GHG emissions caused by poor waste management (methane from landfills and open burning). It is essential because it reduces pollution, recycles materials, and directly contributes to mitigating climate change.",
+      "body_es": "Circuito Cero addresses GHG emissions caused by poor waste management (methane from landfills and open burning). It is essential because it reduces pollution, recycles materials, and directly contributes to mitigating climate change.",
+      "bg": "https://images.unsplash.com/photo-1532996122724-e3c031a396bf?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "How Circuito cero Works",
+      "title_es": "Cómo Funciona Circuito cero",
+      "steps": [
+        {
+          "icon": "🎯",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Circuito Cero implements waste sorting, classification, and recovery, involving waste pickers and preventing waste from being sent to landfills, thereby…",
+          "text_es": "Circuito Cero implements waste sorting, classification, and recovery, involving waste pickers and preventing waste from being sent to landfills, thereby…"
+        },
+        {
+          "icon": "⚙️",
+          "label_en": "Model",
+          "label_es": "Modelo",
+          "text_en": "I will generate revenue by selling recovered recyclable materials, providing collection and management services to…",
+          "text_es": "I will generate revenue by selling recovered recyclable materials, providing collection and management services to…"
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "My target market consists primarily of bottling companies that require recycled glass as a raw material; I supply them…",
+          "text_es": "My target market consists primarily of bottling companies that require recycled glass as a raw material; I supply them…"
+        },
+        {
+          "icon": "📈",
+          "label_en": "Traction",
+          "label_es": "Tracción",
+          "text_en": "There is demand because bottling companies need recycled glass to reduce costs and their carbon footprint;…",
+          "text_es": "There is demand because bottling companies need recycled glass to reduce costs and their carbon footprint;…"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "table",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Business Snapshot",
+      "title_es": "Resumen del Negocio",
+      "headers": [
+        [
+          "Dimension",
+          "Dimensión"
+        ],
+        [
+          "Detail (EN)",
+          "Detalle"
+        ],
+        [
+          "Status",
+          "Estado"
+        ]
+      ],
+      "rows": [
+        [
+          [
+            "Category",
+            "Categoría"
+          ],
+          [
+            "Air & Environment",
+            "Air & Environment"
+          ],
+          [
+            "CLP26",
+            "CLP26"
+          ]
+        ],
+        [
+          [
+            "Stage",
+            "Etapa"
+          ],
+          [
+            "Ideation",
+            "Ideation"
+          ],
+          [
+            "Application",
+            "Aplicación"
+          ]
+        ],
+        [
+          [
+            "CT Taxonomy",
+            "Taxonomía CT"
+          ],
+          [
+            "CT-WA-003",
+            "CT-WA-003"
+          ],
+          [
+            "CTH",
+            "CTH"
+          ]
+        ]
+      ],
+      "bg": "https://images.unsplash.com/photo-1532996122724-e3c031a396bf?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Climate &amp; Impact",
+      "title_es": "Clima e Impacto",
+      "cards": [
+        {
+          "icon": "🌱",
+          "title_en": "Climate focus",
+          "title_es": "Enfoque climático",
+          "text_en": "Circuito Cero addresses GHG emissions caused by poor waste management (methane from landfills and open burning). It is essential because it reduces pollution, recycles materials,…",
+          "text_es": "Circuito Cero addresses GHG emissions caused by poor waste management (methane from landfills and open burning). It is essential because it reduces pollution, recycles materials,…"
+        },
+        {
+          "icon": "💡",
+          "title_en": "Solution",
+          "title_es": "Solución",
+          "text_en": "Circuito Cero implements waste sorting, classification, and recovery, involving waste pickers and preventing waste from being sent to landfills, thereby reducing emissions and…",
+          "text_es": "Circuito Cero implements waste sorting, classification, and recovery, involving waste pickers and preventing waste from being sent to landfills, thereby reducing emissions and…"
+        },
+        {
+          "icon": "🤝",
+          "title_en": "CLP 2026",
+          "title_es": "CLP 2026",
+          "text_en": "ClimateLaunchpad Colombia 2026 bootcamp cohort — CleantechHUB accelerator knowledge transfer.",
+          "text_es": "Cohorte bootcamp ClimateLaunchpad Colombia 2026 — transferencia de conocimiento acelerador CleantechHUB."
+        },
+        {
+          "icon": "📋",
+          "title_en": "External support",
+          "title_es": "Apoyo externo",
+          "text_en": "I have received academic and technical training in environmental management and waste management, which has helped Circuito Cero grow, although I do not yet have any external…",
+          "text_es": "I have received academic and technical training in environmental management and waste management, which has helped Circuito Cero grow, although I do not yet have any external…"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=1200&q=80"
+    },
+    {
+      "num": 5,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "María José Díaz García",
+          "role_en": "Founder &middot; CLP26 Colombia",
+          "role_es": "Fundador(a) &middot; CLP26 Colombia",
+          "bio_en": "I bring expertise in environmental management, waste management, and the circular economy, along with experience in operating recycling centers and collaborating with recyclers to recover and repurpose materials.",
+          "bio_es": "I bring expertise in environmental management, waste management, and the circular economy, along with experience in operating recycling centers and collaborating with recyclers to recover and repurpose materials.",
+          "initials": "MJ"
+        }
+      ],
+      "dream_en": "CT taxonomy: CT-WA-003. CLP 2026 Colombia bootcamp cohort — CleantechHUB accelerator. Pitch deck: [PENDIENTE]. Revenue / ARR: [PENDIENTE].",
+      "dream_es": "Taxonomía CT: CT-WA-003. Cohorte bootcamp CLP 2026 Colombia — acelerador CleantechHUB. Pitch deck: [PENDIENTE]. Ingresos / ARR: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80"
+    }
+  ]
+}
