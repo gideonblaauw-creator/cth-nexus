@@ -7,12 +7,16 @@ Lane A home for Nexus startup one-pagers served at `https://nexus.cleantechhub.n
 - `onepagers/template/styles.css` — shared CTH design system
 - `onepagers/data/{slug}.json` — deck-faithful content per startup
 - `scripts/build_onepagers.py` — JSON → HTML builder
+- `scripts/build_clp26_slice_onepagers.py` — CLP26 slice JSON → `/s/{slug}` one-pagers
 - `onepagers/sites/{slug}/index.html` — built output (also mirrored to Archive drafts)
+- `pages/p/startup-portfolio/index.html` — portfolio grid (loads `nexus-assets/clp26-national-shareable.json`)
+- `nexus-assets/clp26-national-shareable.json` — CLP26 national startup cards for the portfolio
 
 ## Build
 
 ```bash
 python3 scripts/build_onepagers.py
+python3 scripts/build_clp26_slice_onepagers.py
 ```
 
 CLP26 slice one-pagers (metadata + single-slide deck viewer):
