@@ -1,0 +1,81 @@
+{
+  "domain": "nexus.cleantechhub.net",
+  "caddyfile": "ops/Caddyfile",
+  "snapshot_date": "2026-10-19",
+  "static_roots": [
+    {
+      "name": "nexus-www",
+      "repo_path": "site/nexus-www",
+      "live_path": "/var/www/nexus",
+      "routes": ["/registration/*", "/p/home", "/p/funders", "/p/startup-portfolio", "/p/ideas"]
+    },
+    {
+      "name": "nexus-assets",
+      "repo_path": "site/nexus-assets",
+      "live_path": "/var/www/nexus-assets",
+      "routes": ["/nexus-assets/*"]
+    },
+    {
+      "name": "seo-static",
+      "repo_path": "site/seo-static",
+      "live_path": "/var/www/seo-static",
+      "routes": ["/robots.txt (nexus_robots.txt rewrite)"]
+    },
+    {
+      "name": "onepagers",
+      "repo_path": "site/onepagers",
+      "live_path": "/opt/nexus-onepagers",
+      "routes": ["/s/*"]
+    },
+    {
+      "name": "investors",
+      "repo_path": "site/investors",
+      "live_path": "/opt/nexus-investors/dist",
+      "routes": ["/investors*"]
+    },
+    {
+      "name": "cth-static",
+      "repo_path": "site/cth-static",
+      "live_path": "/opt/cth-nexus/static",
+      "routes": ["/mentor-directory*"]
+    }
+  ],
+  "reverse_proxy_apps": [
+    {
+      "name": "cth-nexus",
+      "repo_path": "app/cth-nexus",
+      "live_path": "/opt/cth-nexus",
+      "port": 5050,
+      "routes": ["/nexus-auth*", "/mentoring/*", "/mentor-api/*"]
+    },
+    {
+      "name": "nexus-ideas",
+      "repo_path": "app/nexus-ideas",
+      "live_path": "/opt/nexus-idea-browser",
+      "port": 3010,
+      "routes": ["/ideas*"]
+    },
+    {
+      "name": "data-platform",
+      "repo_path": "app/data-platform",
+      "live_path": "/opt/data-platform",
+      "port": 8011,
+      "routes": ["/data/*"]
+    },
+    {
+      "name": "humhub",
+      "repo_path": "app/humhub",
+      "live_path": "/opt/nexus/humhub",
+      "port": 8080,
+      "routes": ["catch-all reverse_proxy (HumHub / social; container babo on :8080)"]
+    }
+  ],
+  "redirects_only": [
+    {"route": "/mubon*", "target": "https://evaluations.cleantechhub.net{uri}"},
+    {"route": "/", "target": "/p/home"}
+  ],
+  "notes": [
+    "Live /p/ideas serves idea-browser.html from nexus-www; /ideas* is the Next.js app on :3010.",
+    "Repo also contains onepagers/ from merged PRs; site/onepagers is the live filesystem mirror at /opt/nexus-onepagers."
+  ]
+}
