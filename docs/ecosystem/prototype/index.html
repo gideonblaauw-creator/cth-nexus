@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nexus Ecosystem Graph — Prototype</title>
+  <meta name="robots" content="noindex,nofollow" />
+  <style>
+    :root {
+      --cth-deep: #0C498A;
+      --cth-cyan: #B2EEFA;
+      --cth-green: #669348;
+      --rein-orange: #E87722;
+      --rein-navy: #1B2A4A;
+      --bg: #f4f9fc;
+      --panel: #fff;
+      --muted: #5a7088;
+      --border: #cde8f7;
+    }
+    [data-brand="rein"] {
+      --accent: var(--rein-orange);
+      --head: var(--rein-navy);
+    }
+    [data-brand="cth"] {
+      --accent: var(--cth-deep);
+      --head: var(--cth-deep);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Open Sans", system-ui, sans-serif;
+      background: var(--bg);
+      color: #1a1a2e;
+    }
+    header {
+      background: linear-gradient(135deg, var(--head), #164a7a);
+      color: #fff;
+      padding: 16px 20px 12px;
+    }
+    header h1 { margin: 0 0 4px; font-size: 1.25rem; }
+    header p { margin: 0; font-size: 0.8rem; opacity: 0.9; }
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+      padding: 10px 16px;
+      background: var(--panel);
+      border-bottom: 1px solid var(--border);
+    }
+    .pill { display: inline-flex; border-radius: 999px; overflow: hidden; border: 1px solid var(--border); }
+    .pill button {
+      border: 0; background: transparent; padding: 6px 12px; font-size: 12px; cursor: pointer;
+    }
+    .pill button.active { background: var(--accent); color: #fff; font-weight: 700; }
+    input[type="search"], select {
+      padding: 7px 10px; border-radius: 8px; border: 1px solid var(--border); font-size: 13px;
+    }
+    label { font-size: 11px; color: var(--muted); display: flex; flex-direction: column; gap: 2px; }
+    .layout {
+      display: grid;
+      grid-template-columns: 1fr 320px;
+      gap: 0;
+      min-height: calc(100vh - 140px);
+    }
+    @media (max-width: 900px) {
+      .layout { grid-template-columns: 1fr; }
+    }
+    #graph-wrap, #map-wrap {
+      position: relative;
+      min-height: 480px;
+      background: #eef6fb;
+    }
+    #graph { width: 100%; height: 100%; min-height: 480px; }
+    #map-svg { width: 100%; height: 100%; min-height: 480px; display: none; }
+    .hidden { display: none !important; }
+    aside {
+      background: var(--panel);
+      border-left: 1px solid var(--border);
+      padding: 14px;
+      overflow: auto;
+      font-size: 13px;
+    }
+    aside h2 { margin: 0 0 8px; font-size: 14px; color: var(--head); }
+    .stat { font-size: 11px; color: var(--muted); margin-bottom: 10px; }
+    .chip-row { display: flex; flex-wrap: wrap; gap: 4px; margin: 8px 0; }
+    .chip {
+      font-size: 10px; padding: 3px 8px; border-radius: 999px; border: 1px solid var(--border);
+      background: #f8fcff; cursor: pointer;
+    }
+    .chip.on { background: var(--accent); color: #fff; border-color: var(--accent); }
+    .detail a { color: var(--accent); }
+    .path-box { margin-top: 10px; padding: 8px; background: #f0f7ff; border-radius: 8px; font-size: 12px; }
+    .legend { font-size: 10px; color: var(--muted); margin-top: 12px; line-height: 1.5; }
+    @media (prefers-reduced-motion: reduce) {
+      .note-motion { display: block; color: #166534; font-size: 11px; }
+    }
+    .note-motion { display: none; }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/graphology/0.25.4/graphology.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/2.4.0/sigma.min.js"></script>
+</head>
+<body data-brand="cth">
+  <header>
+    <h1 id="title">Mapa de relaciones — prototipo Nexus</h1>
+    <p id="subtitle">Datos reales: actors.json + relations.json (Canva REIN/CTH). Staff-only en producción.</p>
+  </header>
+  <div class="toolbar" role="toolbar" aria-label="Controles">
+    <div class="pill" aria-label="Marca">
+      <button type="button" data-brand-btn="cth" class="active">CTH</button>
+      <button type="button" data-brand-btn="rein">REIN</button>
+    </div>
+    <div class="pill" aria-label="Idioma">
+      <button type="button" data-lang-btn="es" class="active">ES</button>
+      <button type="button" data-lang-btn="en">EN</button>
+    </div>
+    <button type="button" id="view-graph" class="chip on">Graph</button>
+    <button type="button" id="view-map" class="chip">Geo LATAM</button>
+    <input type="search" id="search" placeholder="Buscar actor…" aria-label="Buscar" />
+    <label>Ego depth
+      <select id="ego-depth"><option value="0">Off</option><option value="1">1</option><option value="2" selected>2</option><option value="3">3</option></select>
+    </label>
+    <label>Path A<input type="search" id="path-a" placeholder="id or name" /></label>
+    <label>Path B<input type="search" id="path-b" placeholder="id or name" /></label>
+    <button type="button" id="path-go" class="chip">Path</button>
+    <p class="note-motion">Reduced motion: layout estático aplicado.</p>
+  </div>
+  <div class="layout">
+    <div>
+      <div id="graph-wrap"><div id="graph" role="application" aria-label="Grafo de actores"></div></div>
+      <div id="map-wrap" class="hidden">
+        <svg id="map-svg" viewBox="0 0 520 420" role="img" aria-label="Mapa LATAM">
+          <rect width="520" height="420" fill="#eef6fb"/>
+          <path data-cc="SV" fill="#9dc384" opacity=".35" d="M120,175 L155,168 L162,205 L125,212 Z"/>
+          <path data-cc="CO" fill="#69b5fa" opacity=".35" d="M155,210 L220,185 L235,260 L170,280 Z"/>
+          <path data-cc="PE" fill="#b2eefa" opacity=".45" d="M175,265 L255,250 L270,360 L190,375 Z"/>
+          <text x="128" y="195" font-size="11">SV</text>
+          <text x="175" y="245" font-size="11">CO</text>
+          <text x="205" y="320" font-size="11">PE</text>
+          <g id="map-nodes"></g>
+        </svg>
+      </div>
+    </div>
+    <aside aria-live="polite">
+      <h2 id="aside-title">Detalle</h2>
+      <div class="stat" id="stats">—</div>
+      <div id="detail" class="detail">Clic en un nodo para explorar conexiones.</div>
+      <div class="chip-row" id="country-chips"></div>
+      <div class="chip-row" id="type-chips"></div>
+      <div id="path-out" class="path-box hidden"></div>
+      <p class="legend" id="legend"></p>
+    </aside>
+  </div>
+  <script>
+(function () {
+  'use strict';
+  const graphology = window.graphology;
+  const Graph = graphology.Graph;
+  const Sigma = window.Sigma;
+
+  const CC = { Peru: 'PE', 'El Salvador': 'SV', Colombia: 'CO' };
+  const CC_CENTER = { PE: [230, 310], SV: [140, 190], CO: [195, 235] };
+  const CAT_COLOR = {
+    startup: '#e87722', accelerator: '#669348', funder: '#0c498a', government: '#6b4c9a',
+    academia: '#2a9d8f', corporate: '#457b9d', international: '#f4a261', finance: '#264653',
+    ngo_foundation: '#e76f51', chamber: '#8d99ae', media: '#bc6c25', default: '#5a7088'
+  };
+  const EDGE_COLOR = {
+    incubated: '#e87722', hosts: '#669348', partner: '#0c498a', partners-with: '#0c498a',
+    cofunds: '#264653', 'runs_program': '#6b4c9a', works_on_challenge: '#2a9d8f', default: '#999'
+  };
+
+  const I18N = {
+    es: {
+      title: 'Mapa de relaciones — prototipo Nexus',
+      sub: 'Datos reales: actors.json + relations.json (Canva REIN/CTH).',
+      detail: 'Clic en un nodo para explorar conexiones.',
+      stats: (n, e, v) => `${v} nodos visibles · ${n} actores · ${e} relaciones`,
+      pathNone: 'Sin ruta en el subgrafo visible.',
+      path: (len, names) => `Ruta (${len}): ${names.join(' → ')}`,
+      relations: 'Relaciones',
+      degree: 'Grado',
+    },
+    en: {
+      title: 'Relationship map — Nexus prototype',
+      sub: 'Live data: actors.json + relations.json (Canva REIN/CTH).',
+      detail: 'Click a node to explore connections.',
+      stats: (n, e, v) => `${v} visible nodes · ${n} actors · ${e} relations`,
+      pathNone: 'No path in visible subgraph.',
+      path: (len, names) => `Path (${len}): ${names.join(' → ')}`,
+      relations: 'Relations',
+      degree: 'Degree',
+    }
+  };
+
+  let lang = 'es';
+  let brand = 'cth';
+  let actors = [];
+  let relations = [];
+  let graph = new Graph({ multi: false, type: 'directed' });
+  let sigma = null;
+  let selected = null;
+  let filters = { countries: new Set(['PE', 'SV', 'CO']), types: new Set() };
+  let reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  const t = () => I18N[lang];
+
+  function slugify(s) {
+    return (s || '').toLowerCase().normalize('NFD').replace(/\p{Diacritic}/gu, '').replace(/[^a-z0-9]+/g, '-');
+  }
+
+  function actorByQuery(q) {
+    if (!q) return null;
+    const qq = q.trim().toLowerCase();
+    return actors.find(a => a.id === qq || a.name.toLowerCase() === qq || a.name.toLowerCase().includes(qq));
+  }
+
+  function buildGraphology() {
+    graph.clear();
+    const visible = new Set();
+    actors.forEach((a, i) => {
+      const cc = CC[a.country] || 'XX';
+      if (!filters.countries.has(cc)) return;
+      if (filters.types.size && !filters.types.has(a.category)) return;
+      visible.add(a.id);
+    });
+    relations.forEach(r => {
+      if (visible.has(r.source) && visible.has(r.target)) {
+        visible.add(r.source);
+        visible.add(r.target);
+      }
+    });
+    const egoDepth = parseInt(document.getElementById('ego-depth').value, 10);
+    if (selected && egoDepth > 0) {
+      const keep = new Set([selected]);
+      for (let d = 0; d < egoDepth; d++) {
+        relations.forEach(r => {
+          if (keep.has(r.source)) keep.add(r.target);
+          if (keep.has(r.target)) keep.add(r.source);
+        });
+      }
+      visible.forEach(id => { if (!keep.has(id)) visible.delete(id); });
+    }
+    const deg = new Map();
+    relations.forEach(r => {
+      if (!visible.has(r.source) || !visible.has(r.target)) return;
+      deg.set(r.source, (deg.get(r.source) || 0) + 1);
+      deg.set(r.target, (deg.get(r.target) || 0) + 1);
+    });
+    let idx = 0;
+    actors.forEach(a => {
+      if (!visible.has(a.id)) return;
+      const cc = CC[a.country] || 'PE';
+      const c = CC_CENTER[cc] || [260, 200];
+      const angle = (idx++ / visible.size) * Math.PI * 2;
+      const r = 40 + (deg.get(a.id) || 0) * 8;
+      graph.addNode(a.id, {
+        label: a.name.length > 28 ? a.name.slice(0, 26) + '…' : a.name,
+        size: Math.max(4, Math.min(18, 4 + (deg.get(a.id) || 0) * 1.2)),
+        color: CAT_COLOR[a.category] || CAT_COLOR.default,
+        x: reducedMotion ? c[0] + Math.cos(angle) * r : (Math.random() - 0.5) * 200 + c[0],
+        y: reducedMotion ? c[1] + Math.sin(angle) * r : (Math.random() - 0.5) * 200 + c[1],
+        category: a.category,
+        country: cc,
+      });
+    });
+    relations.forEach((r, i) => {
+      if (!graph.hasNode(r.source) || !graph.hasNode(r.target)) return;
+      const key = r.source + '->' + r.target + ':' + r.type;
+      if (graph.hasEdge(key)) return;
+      try {
+        graph.addEdge(r.source, r.target, {
+          key,
+          label: r.type,
+          size: 1,
+          color: EDGE_COLOR[r.type] || EDGE_COLOR.default,
+          type: r.type,
+        });
+      } catch (e) { /* parallel edge */ }
+    });
+    return visible.size;
+  }
+
+  function refreshSigma() {
+    const vis = buildGraphology();
+    document.getElementById('stats').textContent = t().stats(actors.length, relations.length, vis);
+    if (sigma) sigma.kill();
+    sigma = new Sigma(graph, document.getElementById('graph'), {
+      renderEdgeLabels: false,
+      labelRenderedSizeThreshold: 6,
+      defaultEdgeType: 'arrow',
+      edgeProgramClasses: { arrow: window.Sigma?.EdgeCurveProgram || undefined },
+    });
+    sigma.on('clickNode', ({ node }) => {
+      selected = node;
+      showDetail(node);
+      refreshSigma();
+    });
+    sigma.on('clickStage', () => {
+      selected = null;
+      document.getElementById('detail').textContent = t().detail;
+      refreshSigma();
+    });
+    renderMapNodes();
+  }
+
+  function showDetail(nodeId) {
+    const a = actors.find(x => x.id === nodeId);
+    if (!a) return;
+    const rels = relations.filter(r => r.source === nodeId || r.target === nodeId);
+    const cc = CC[a.country] || a.country;
+    let html = `<strong>${a.name}</strong><br><span style="color:var(--muted)">${a.category} · ${cc}</span>`;
+    if (a.website) html += `<br><a href="${a.website}" target="_blank" rel="noopener">Website</a>`;
+    if (a.page) html += `<br><a href="${a.page}">Nexus</a>`;
+    html += `<br>${t().degree}: ${rels.length}`;
+    html += `<ul style="margin:8px 0;padding-left:18px;font-size:11px">`;
+    rels.slice(0, 12).forEach(r => {
+      const other = r.source === nodeId ? r.target : r.source;
+      const o = actors.find(x => x.id === other);
+      html += `<li><em>${r.type}</em> → ${o ? o.name : other}</li>`;
+    });
+    if (rels.length > 12) html += `<li>…+${rels.length - 12}</li>`;
+    html += '</ul>';
+    document.getElementById('detail').innerHTML = html;
+  }
+
+  function bfsPath(aId, bId) {
+    if (aId === bId) return [aId];
+    const adj = new Map();
+    relations.forEach(r => {
+      if (!graph.hasNode(r.source) || !graph.hasNode(r.target)) return;
+      if (!adj.has(r.source)) adj.set(r.source, []);
+      if (!adj.has(r.target)) adj.set(r.target, []);
+      adj.get(r.source).push(r.target);
+      adj.get(r.target).push(r.source);
+    });
+    const q = [aId];
+    const prev = new Map([[aId, null]]);
+    while (q.length) {
+      const u = q.shift();
+      for (const v of adj.get(u) || []) {
+        if (prev.has(v)) continue;
+        prev.set(v, u);
+        if (v === bId) {
+          const path = [];
+          for (let x = bId; x; x = prev.get(x)) path.unshift(x);
+          return path;
+        }
+        q.push(v);
+      }
+    }
+    return null;
+  }
+
+  function runPath() {
+    const a = actorByQuery(document.getElementById('path-a').value);
+    const b = actorByQuery(document.getElementById('path-b').value);
+    const out = document.getElementById('path-out');
+    out.classList.remove('hidden');
+    if (!a || !b) {
+      out.textContent = 'Select valid A and B.';
+      return;
+    }
+    selected = null;
+    refreshSigma();
+    const path = bfsPath(a.id, b.id);
+    if (!path) {
+      out.textContent = t().pathNone;
+      return;
+    }
+    const names = path.map(id => (actors.find(x => x.id === id) || {}).name || id);
+    out.textContent = t().path(path.length - 1, names);
+    selected = a.id;
+    document.getElementById('ego-depth').value = '3';
+    refreshSigma();
+  }
+
+  function renderMapNodes() {
+    const g = document.getElementById('map-nodes');
+    g.innerHTML = '';
+    graph.forEachNode((id, attr) => {
+      const cc = attr.country;
+      const base = CC_CENTER[cc] || [260, 200];
+      const n = graph.degree(id);
+      const cx = base[0] + (Math.random() - 0.5) * 30;
+      const cy = base[1] + (Math.random() - 0.5) * 30;
+      const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+      circle.setAttribute('cx', cx);
+      circle.setAttribute('cy', cy);
+      circle.setAttribute('r', Math.min(8, 3 + n * 0.4));
+      circle.setAttribute('fill', attr.color);
+      circle.setAttribute('opacity', '0.85');
+      circle.setAttribute('data-id', id);
+      g.appendChild(circle);
+    });
+  }
+
+  function initFilters() {
+    const types = [...new Set(actors.map(a => a.category))].sort();
+    filters.types = new Set(types);
+    const tc = document.getElementById('type-chips');
+    tc.innerHTML = '';
+    types.forEach(ty => {
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'chip on';
+      b.textContent = ty;
+      b.addEventListener('click', () => {
+        b.classList.toggle('on');
+        if (b.classList.contains('on')) filters.types.add(ty); else filters.types.delete(ty);
+        refreshSigma();
+      });
+      tc.appendChild(b);
+    });
+    const cc = document.getElementById('country-chips');
+    ['PE', 'SV', 'CO'].forEach(code => {
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'chip on';
+      b.textContent = code;
+      b.addEventListener('click', () => {
+        b.classList.toggle('on');
+        if (b.classList.contains('on')) filters.countries.add(code); else filters.countries.delete(code);
+        refreshSigma();
+      });
+      cc.appendChild(b);
+    });
+  }
+
+  function applyI18n() {
+    document.getElementById('title').textContent = t().title;
+    document.getElementById('subtitle').textContent = t().sub;
+    document.documentElement.lang = lang;
+  }
+
+  document.querySelectorAll('[data-brand-btn]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      brand = btn.dataset.brandBtn;
+      document.body.dataset.brand = brand;
+      document.querySelectorAll('[data-brand-btn]').forEach(b => b.classList.toggle('active', b.dataset.brandBtn === brand));
+    });
+  });
+  document.querySelectorAll('[data-lang-btn]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      lang = btn.dataset.langBtn;
+      document.querySelectorAll('[data-lang-btn]').forEach(b => b.classList.toggle('active', b.dataset.langBtn === lang));
+      applyI18n();
+    });
+  });
+  document.getElementById('search').addEventListener('keydown', e => {
+    if (e.key === 'Enter') {
+      const a = actorByQuery(e.target.value);
+      if (a) { selected = a.id; showDetail(a.id); refreshSigma(); }
+    }
+  });
+  document.getElementById('ego-depth').addEventListener('change', refreshSigma);
+  document.getElementById('path-go').addEventListener('click', runPath);
+  document.getElementById('view-graph').addEventListener('click', () => {
+    document.getElementById('graph-wrap').classList.remove('hidden');
+    document.getElementById('map-wrap').classList.add('hidden');
+    document.getElementById('view-graph').classList.add('on');
+    document.getElementById('view-map').classList.remove('on');
+  });
+  document.getElementById('view-map').addEventListener('click', () => {
+    document.getElementById('graph-wrap').classList.add('hidden');
+    document.getElementById('map-wrap').classList.remove('hidden');
+    document.getElementById('view-map').classList.add('on');
+    document.getElementById('view-graph').classList.remove('on');
+    renderMapNodes();
+  });
+
+  Promise.all([
+    fetch('data/actors.json').then(r => r.json()),
+    fetch('data/relations.json').then(r => r.json()),
+  ]).then(([a, r]) => {
+    actors = a;
+    relations = r;
+    initFilters();
+    applyI18n();
+    document.getElementById('legend').textContent =
+      'Prototype: sigma.js + graphology. Doble-filtro país/tipo, ego depth, BFS path. Producción: staff gate + build_graph.';
+    refreshSigma();
+  }).catch(err => {
+    document.getElementById('detail').textContent = 'Load error: serve via HTTP (file:// blocks fetch). ' + err;
+  });
+})();
+  </script>
+</body>
+</html>
