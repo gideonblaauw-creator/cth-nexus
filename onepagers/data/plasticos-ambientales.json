@@ -1,0 +1,171 @@
+{
+  "slug": "plasticos-ambientales",
+  "name": "Plásticos Ambientales",
+  "website": "https://plasticosambientales.com/",
+  "badge_en": "Circular Plastics &middot; CLAC24 &middot; Acceleration",
+  "badge_es": "Plásticos circulares &middot; CLAC24 &middot; Aceleración",
+  "hero_image": "https://plasticosambientales.com/wp-content/uploads/2023/08/Plastico_Reciclado_Postconsumo_2.png",
+  "hero_sub_en": "plasticosambientales.com &middot; Sabaneta, Colombia &middot; Seed &middot; CT taxonomy: [PENDIENTE]",
+  "hero_sub_es": "plasticosambientales.com &middot; Sabaneta, Colombia &middot; Seed &middot; Taxonomía CT: [PENDIENTE]",
+  "pitch_en": "Certified recycled plastic raw materials and sustainable packaging — helping businesses close the loop and comply with Colombia's circular economy regulations.",
+  "pitch_es": "Materias primas plásticas recicladas certificadas y empaques sostenibles — ayudando a empresas a cerrar el ciclo y cumplir regulación colombiana de economía circular.",
+  "cta_pitch_en": "Capture post-consumer plastics and supply recycled packaging with audited, traceable processes (NTC 6632:2022 certified).",
+  "cta_pitch_es": "Capturar plásticos post-consumo y suministrar empaques reciclados con procesos auditados y trazables (certificación NTC 6632:2022).",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "cta_bg": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1200&q=80",
+  "ribbon": [
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    },
+    {
+      "val": "Seed",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLAC24",
+      "sub_es": "CLAC24"
+    },
+    {
+      "val": "CE",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Circular econ.",
+      "sub_es": "Econ. circular"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Métricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLAC24",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Acceleration",
+        "lab_es": "Aceleración"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "Sabaneta",
+        "lab_en": "City",
+        "lab_es": "Ciudad"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Packaging and plastic waste streams need verified recycling and compliant circular inputs.",
+      "head_es": "Los flujos de empaques y residuos plásticos requieren reciclaje verificado e insumos circulares conformes.",
+      "body_en": "Brands face regulatory pressure on packaging and plastic recovery while needing reliable, certified recycled materials — especially in flexible and post-consumer streams.",
+      "body_es": "Las marcas enfrentan presión regulatoria sobre empaques y recuperación de plásticos mientras necesitan materiales reciclados confiables y certificados — especialmente en flexibles y post-consumo.",
+      "bg": "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "♻️",
+          "label_en": "Recover",
+          "label_es": "Recuperar",
+          "text_en": "Formal collection and processing of post-consumer and industrial plastic waste.",
+          "text_es": "Recolección y procesamiento formal de residuos plásticos post-consumo e industriales."
+        },
+        {
+          "icon": "🏭",
+          "label_en": "Transform",
+          "label_es": "Transformar",
+          "text_en": "Pelletizing and quality control under NTC 6632:2022 certified processes (company site).",
+          "text_es": "Peletizado y control de calidad bajo procesos certificados NTC 6632:2022 (sitio empresa)."
+        },
+        {
+          "icon": "📦",
+          "label_en": "Supply",
+          "label_es": "Suministrar",
+          "text_en": "Deliver recycled resins and packaging solutions for compliant circular supply chains.",
+          "text_es": "Entregar resinas recicladas y empaques para cadenas circulares conformes."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact &amp; Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Portfolio source",
+          "title_es": "Fuente portafolio",
+          "text_en": "Nexus card PLÁSTICOS AMBIENTALES SAS (CLAC24) — circular packaging / recycled resins.",
+          "text_es": "Tarjeta Nexus PLÁSTICOS AMBIENTALES SAS (CLAC24) — empaques circulares / resinas recicladas."
+        },
+        {
+          "icon": "✅",
+          "title_en": "Certification",
+          "title_es": "Certificación",
+          "text_en": "Public site states certification under NTC 6632:2022 for recycling and production processes.",
+          "text_es": "Sitio público indica certificación NTC 6632:2022 para procesos de reciclaje y producción."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "[PENDIENTE]",
+          "initials": "PA",
+          "role_en": "Founder / CEO",
+          "role_es": "Fundador / CEO",
+          "bio_en": "Founder name not verified on public site or portfolio card — [PENDIENTE].",
+          "bio_es": "Nombre de fundador no verificado en sitio público ni tarjeta portafolio — [PENDIENTE]."
+        },
+        {
+          "name": "Sandra Martínez",
+          "initials": "SM",
+          "role_en": "Administrative Director (public role)",
+          "role_es": "Directora administrativa (rol público)",
+          "bio_en": "Listed as administrative director on public LinkedIn profile; not labeled as founder.",
+          "bio_es": "Figura como directora administrativa en perfil LinkedIn público; no indicada como fundadora.",
+          "linkedin": "https://www.linkedin.com/in/sandra-mart%C3%ADnez-ba9357104"
+        }
+      ],
+      "dream_en": "Formal CT taxonomy node on portfolio card: [PENDIENTE]. Production capacity claims on website: not listed as verified KPIs. Pitch deck: [PENDIENTE]. Image credits — Hero: plasticosambientales.com — post-consumer recycled plastic product; §01: Unsplash (photo-1532996122724) — plastic materials handling; §02: Unsplash (photo-1581092160607) — industrial processing; §03: Unsplash (photo-1504307651254) — construction / materials site; §04: Unsplash (photo-1522071820081) — team planning; CTA: Unsplash (photo-1501339847302) — workspace / operations.",
+      "dream_es": "Nodo CT formal en tarjeta portafolio: [PENDIENTE]. Claims de capacidad en web: no listados como KPIs verificados. Pitch deck: [PENDIENTE]. Image credits — Hero: plasticosambientales.com — post-consumer recycled plastic product; §01: Unsplash (photo-1532996122724) — plastic materials handling; §02: Unsplash (photo-1581092160607) — industrial processing; §03: Unsplash (photo-1504307651254) — construction / materials site; §04: Unsplash (photo-1522071820081) — team planning; CTA: Unsplash (photo-1501339847302) — workspace / operations.",
+      "bg": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&q=80"
+    }
+  ]
+}

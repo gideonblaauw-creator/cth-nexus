@@ -1,0 +1,165 @@
+{
+  "slug": "glooba",
+  "name": "Glooba",
+  "website": "https://glooba.cl",
+  "badge_en": "Sustainability Services &middot; Acceleration",
+  "badge_es": "Servicios de Sostenibilidad &middot; Acceleration",
+  "hero_image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&q=80",
+  "hero_sub_en": "glooba.cl &middot; Talca, Chile &middot; Sustainability &middot; Stage: [PENDIENTE]",
+  "hero_sub_es": "glooba.cl &middot; Talca, Chile &middot; Sostenibilidad &middot; Etapa: [PENDIENTE]",
+  "pitch_en": "B2B platform that centralizes corporate environmental management, publishes service requirements, and matches companies with qualified sustainable suppliers.",
+  "pitch_es": "Plataforma B2B que centraliza la gesti&oacute;n ambiental corporativa, publica requerimientos de servicios y conecta empresas con proveedores sostenibles calificados.",
+  "cta_pitch_en": "Centralize environmental management and connect with qualified sustainable service providers.",
+  "cta_pitch_es": "Centraliza la gesti&oacute;n ambiental y con&eacute;ctate con proveedores de servicios sostenibles calificados.",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "ribbon": [
+    {
+      "val": "CL",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Chile",
+      "sub_es": "Chile"
+    },
+    {
+      "val": "[PENDIENTE",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "Acceleration",
+      "sub_es": "Acceleration"
+    },
+    {
+      "val": "Services",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Métricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "Acceleration",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Accelerator",
+        "lab_es": "Acelerador"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "CL",
+        "lab_en": "Chile",
+        "lab_es": "Chile"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Companies struggle to find reliable sustainable suppliers and coordinate environmental compliance, efficiency, and sustainability projects across sites.",
+      "head_es": "Las empresas enfrentan dificultades para encontrar proveedores sostenibles confiables y coordinar cumplimiento ambiental, eficiencia y proyectos de sostenibilidad en m&uacute;ltiples sedes.",
+      "body_en": "Companies struggle to find reliable sustainable suppliers and coordinate environmental compliance, efficiency, and sustainability projects across sites.",
+      "body_es": "Las empresas enfrentan dificultades para encontrar proveedores sostenibles confiables y coordinar cumplimiento ambiental, eficiencia y proyectos de sostenibilidad en m&uacute;ltiples sedes.",
+      "bg": "https://images.unsplash.com/photo-1486406146928-c627a92ad1ab?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "🎯",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Matchmaking and service management for operational efficiency, environmental compliance, and sustainability initiatives.",
+          "text_es": "Matchmaking y gesti&oacute;n de servicios para eficiencia operacional, cumplimiento ambiental e iniciativas de sostenibilidad."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "Glooba SpA — CleantechHUB Portafolio Acceleration (CTH).",
+          "text_es": "Glooba SpA — Aceleraci&oacute;n Portafolio CleantechHUB (CTH)."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Based in Chile. Public site: glooba.cl.",
+          "text_es": "Con base en Chile. Sitio p&uacute;blico: glooba.cl."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact &amp; Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Portfolio source",
+          "title_es": "Fuente portafolio",
+          "text_en": "Public website glooba.cl; CleantechHUB sheet batch (Portafolio Acceleration). No portfolio card slug on Nexus yet.",
+          "text_es": "Sitio p&uacute;blico glooba.cl; lote sheet CleantechHUB (Portafolio Acceleration). A&uacute;n sin tarjeta de portafolio en Nexus."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomía",
+          "text_en": "[PENDIENTE] &middot; Corporate sustainability services",
+          "text_es": "[PENDIENTE] &middot; Servicios de sostenibilidad corporativa"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Javier Alvarado San Feliú",
+          "initials": "JA",
+          "role_en": "Co-founder &amp; Executive Lead",
+          "role_es": "Cofundador y L&iacute;der Ejecutivo",
+          "bio_en": "Public-facing co-founder (Glooba). Source: glooba.cl and public LinkedIn profile.",
+          "bio_es": "Cofundador p&uacute;blico (Glooba). Fuente: glooba.cl y perfil p&uacute;blico de LinkedIn.",
+          "linkedin": "https://www.linkedin.com/in/javier-alvarado-san-feli%C3%BA"
+        }
+      ],
+      "dream_en": "CT taxonomy: [PENDIENTE]. Stage: [PENDIENTE]. Pitch deck on profile: [PENDIENTE]. Verified KPIs: [PENDIENTE].",
+      "dream_es": "Taxonom&iacute;a CT: [PENDIENTE]. Etapa: [PENDIENTE]. Pitch deck en perfil: [PENDIENTE]. KPIs verificados: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&q=80"
+    }
+  ],
+  "cta_bg": "https://images.unsplash.com/photo-1504384308090-c894fdcc538b?w=1200&q=80",
+  "image_credits_en": "All photos: Unsplash — Hero: Campaign Creators (photo-1454165804606). Problem: Victor (photo-1486406146928). Solution: Kaleidico (photo-1556761175). Impact: Carlos Muza (photo-1460925895917). Leadership: Headway (photo-1522071820081). CTA: Marcos Paulo Prado (photo-1504384308090).",
+  "image_credits_es": "Todas las fotos: Unsplash — Hero: Campaign Creators (photo-1454165804606). Problema: Victor (photo-1486406146928). Soluci&oacute;n: Kaleidico (photo-1556761175). Impacto: Carlos Muza (photo-1460925895917). Liderazgo: Headway (photo-1522071820081). CTA: Marcos Paulo Prado (photo-1504384308090)."
+}

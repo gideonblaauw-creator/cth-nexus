@@ -1,0 +1,174 @@
+{
+  "slug": "deterquin",
+  "name": "DETERQUIN",
+  "website": "https://deterquin.com",
+  "badge_en": "Circular Economy &middot; CLAC25",
+  "badge_es": "Economía circular &middot; CLAC25",
+  "hero_image": "https://deterquin.com/sites/default/files/soluciones/slider-principal-pagina-web-FINAL-11-12-23.jpg",
+  "hero_sub_en": "deterquin.com &middot; Colombia &middot; Cali &middot; Circular economy &middot; Stage: Seed &middot; CT-WA-004",
+  "hero_sub_es": "deterquin.com &middot; Colombia &middot; Cali &middot; Economía circular &middot; Etapa: Seed &middot; CT-WA-004",
+  "pitch_en": "Eco-friendly ultraconcentrated detergents and starch-based adhesives for industrial laundry and hospitality, cutting plastic via Eco Pacs format.",
+  "pitch_es": "Detergentes ultraconcentrados eco-amigables y adhesivos a base de almidón para lavandería industrial y hostelería, reduciendo plástico con formato Eco Pacs.",
+  "cta_pitch_en": "360° cleaning and laundry programs with concentrated chemistry, technical support, and sustainability positioning for institutional clients.",
+  "cta_pitch_es": "Programas 360° de limpieza y lavandería con química concentrada, soporte técnico y enfoque de sostenibilidad para clientes institucionales.",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "cta_bg": "https://deterquin.com/sites/default/files/home/home-procesamiento-de-alimentos-y-bebidas-2.jpg",
+  "image_credits_en": "Hero–CTA: marketing photos, <a href=\"https://deterquin.com\" rel=\"noopener\" target=\"_blank\">deterquin.com</a> (home slider, professional cleaning, Eco Pacs, eco adhesives, laundry, food-processing lines).",
+  "image_credits_es": "Hero–CTA: fotos de marketing, <a href=\"https://deterquin.com\" rel=\"noopener\" target=\"_blank\">deterquin.com</a> (slider principal, limpieza profesional, Eco Pacs, eco-amigables, lavandería, alimentos y bebidas).",
+  "ribbon": [
+    {
+      "val": "Seed",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLAC25",
+      "sub_es": "CLAC25"
+    },
+    {
+      "val": "CE",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Circular",
+      "sub_es": "Circular"
+    },
+    {
+      "val": "CT-WA-004",
+      "lab_en": "CT Taxonomy",
+      "lab_es": "Taxonomía CT",
+      "sub_en": "CTH",
+      "sub_es": "CTH"
+    },
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLAC25",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Hub",
+        "lab_es": "Hub"
+      }
+    ],
+    [
+      {
+        "num": "50k",
+        "lab_en": "kg plastic avoided (site)",
+        "lab_es": "kg plástico evitado (web)"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Industrial cleaning and laundry rely on bulky plastic packaging and concentrated chemicals with high water-shipping footprint.",
+      "head_es": "La limpieza y lavandería industrial dependen de empaques plásticos voluminosos y químicos concentrados con alta huella logística de agua.",
+      "body_en": "DETERQUIN develops ultraconcentrated, eco-friendly detergents and starch-based adhesives, including Eco Pacs designed to reduce plastic waste in professional cleaning.",
+      "body_es": "DETERQUIN desarrolla detergentes ultraconcentrados eco-amigables y adhesivos a base de almidón, incluido Eco Pacs para reducir residuos plásticos en limpieza profesional.",
+      "bg": "https://deterquin.com/sites/default/files/home/deterquin-limpieza-profesional-home-1.jpg"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "🧴",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Ultraconcentrated detergents, professional cleaning programs, and starch-based eco adhesives for industry.",
+          "text_es": "Detergentes ultraconcentrados, programas de limpieza profesional y adhesivos eco a base de almidón para industria."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "DETERQUIN SAS — CLAC25 CleantechHUB portfolio.",
+          "text_es": "DETERQUIN SAS — portafolio CLAC25 CleantechHUB."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Based in Cali, Colombia. Public site: deterquin.com.",
+          "text_es": "Con base en Cali, Colombia. Sitio público: deterquin.com."
+        }
+      ],
+      "bg": "https://deterquin.com/sites/default/files/imagenes/slider-principal-pagina-web-eco-pacs--hogar-linea-hogar.jpg"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact &amp; Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Wiki source",
+          "title_es": "Fuente Wiki",
+          "text_en": "Profile synced from BookStack Startup Portfolio + public website.",
+          "text_es": "Perfil sincronizado desde BookStack Startup Portfolio + sitio web público."
+        },
+        {
+          "icon": "📊",
+          "title_en": "Reported impact (website)",
+          "title_es": "Impacto reportado (web)",
+          "text_en": "Public site cites 50,000 kg less plastic, 694,000 fewer plastic bottles, and 101,000 kg less CO₂ (not independently audited here).",
+          "text_es": "El sitio público cita 50.000 kg menos de plástico, 694.000 botellas menos y 101.000 kg menos de CO₂ (sin auditoría independiente aquí)."
+        }
+      ],
+      "bg": "https://deterquin.com/sites/default/files/soluciones/eco-amigables.jpg"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Gonzalo Andrés Duque González",
+          "role_en": "Operations &amp; R&amp;D Manager &middot; DETERQUIN",
+          "role_es": "Gerente Operaciones e I+D &middot; DETERQUIN",
+          "bio_en": "Leads operations and R&amp;D at family-owned Deterquin; founder of Eco Pacs spin-off. Source: LinkedIn + public profiles.",
+          "bio_es": "Lidera operaciones e I+D en Deterquin familiar; fundador del spin-off Eco Pacs. Fuente: LinkedIn + perfiles públicos.",
+          "initials": "GD",
+          "linkedin": "https://www.linkedin.com/in/gonzalo-andr%C3%A9s-duque-gonzalez-7b311b36"
+        },
+        {
+          "name": "Lina Maria Duque Gonzalez",
+          "role_en": "Commercial General Manager &middot; DETERQUIN",
+          "role_es": "Gerente General Comercial &middot; DETERQUIN",
+          "bio_en": "Commercial general manager at Deterquin (family company, Cali). Source: LinkedIn.",
+          "bio_es": "Gerente general comercial en Deterquin (empresa familiar, Cali). Fuente: LinkedIn.",
+          "initials": "LD",
+          "linkedin": "https://www.linkedin.com/in/lina-maria-duque-gonzalez-51b01757"
+        }
+      ],
+      "dream_en": "Program: CLAC25. HQ: Cali (public site). ISO 9001 cited on third-party directory — [PENDIENTE] primary-source link. Pitch deck: [PENDIENTE].",
+      "dream_es": "Programa: CLAC25. HQ: Cali (sitio público). ISO 9001 citada en directorio tercero — enlace fuente primaria [PENDIENTE]. Pitch deck: [PENDIENTE].",
+      "bg": "https://deterquin.com/sites/default/files/soluciones/lavanderia-y-cuidado-textil.jpg"
+    }
+  ]
+}

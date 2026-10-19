@@ -1,0 +1,172 @@
+{
+  "slug": "kimsa",
+  "name": "KIMSA",
+  "website": "https://kimsa.co/",
+  "badge_en": "Carbon MRV · CLAC21 · Acceleration",
+  "badge_es": "MRV de Carbono · CLAC21 · Acceleration",
+  "hero_sub_en": "kimsa.co · Colombia · Bogotá · Energy · Stage: Seed",
+  "hero_sub_es": "kimsa.co · Colombia · Bogotá · Energía · Etapa: Seed",
+  "pitch_en": "Digitizes carbon measurement and traceability for companies, reducing time and cost of tracking reduction goals while connecting businesses to Colombian offset projects.",
+  "pitch_es": "Digitaliza la medición y trazabilidad de carbono para empresas, reduciendo tiempo y costos en el seguimiento de metas y conectando negocios con proyectos de compensación colombianos.",
+  "cta_pitch_en": "Climate consulting and CarbonBox SaaS for corporate carbon footprints and decarbonization.",
+  "cta_pitch_es": "Consultoría climática y SaaS CarbonBox para huella de carbono corporativa y descarbonización.",
+  "ribbon": [
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    },
+    {
+      "val": "Seed",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLAC21",
+      "sub_es": "CLAC21"
+    },
+    {
+      "val": "Energy",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Métricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLAC21",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Hub",
+        "lab_es": "Hub"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Most companies lack affordable, repeatable tools to measure and manage carbon footprints.",
+      "head_es": "La mayoría de empresas carece de herramientas accesibles y repetibles para medir y gestionar su huella de carbono.",
+      "body_en": "Digitizes carbon measurement and traceability for companies, reducing time and cost of tracking reduction goals while connecting businesses to Colombian offset projects.",
+      "body_es": "Digitaliza la medición y trazabilidad de carbono para empresas, reduciendo tiempo y costos en el seguimiento de metas y conectando negocios con proyectos de compensación colombianos.",
+      "bg": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "🌱",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "KIMSA — Clima, Conservación y Desarrollo SAS: climate consulting plus CarbonBox digital MRV.",
+          "text_es": "KIMSA — Clima, Conservación y Desarrollo SAS: consultoría climática más MRV digital CarbonBox."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "Portfolio card: CARBON BOX · CLAC21 · CleantechHUB Acceleration.",
+          "text_es": "Tarjeta portafolio: CARBON BOX · CLAC21 · Acceleration CleantechHUB."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Based in Bogotá, Colombia. Public site: kimsa.co.",
+          "text_es": "Con base en Bogotá, Colombia. Sitio público: kimsa.co."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1611273426858-450d7456a79a?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact & Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Wiki source",
+          "title_es": "Fuente Wiki",
+          "text_en": "Profile synced from BookStack Startup Portfolio + Odoo (SoT). CleantechHUB Acceleration cohort (Portafolio CTH).",
+          "text_es": "Perfil sincronizado desde BookStack Startup Portfolio + Odoo (SoT). Cohorte Acceleration CleantechHUB (Portafolio CTH)."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomía",
+          "text_en": "CT-IC-002 · AI-Powered MRV · CT-XS-001 · Carbon Markets & Credits",
+          "text_es": "CT-IC-002 · MRV con IA · CT-XS-001 · Mercados y Créditos de Carbono"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1451187580459-43490279bf0d?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Angela Viviana Bohórquez L",
+          "initials": "VB",
+          "role_en": "Co-founder · KIMSA / CarbonBox",
+          "role_es": "Cofundadora · KIMSA / CarbonBox",
+          "bio_en": "Co-founder and technical director, KIMSA; co-founder CarbonBox (public LinkedIn).",
+          "bio_es": "Cofundadora y directora técnica, KIMSA; cofundadora CarbonBox (LinkedIn público).",
+          "linkedin": "https://www.linkedin.com/in/viviana-boh%C3%B3rquez-l/"
+        },
+        {
+          "name": "Carlos Felipe Torres Triana",
+          "initials": "CT",
+          "role_en": "Co-founder · CarbonBox / Clima Soluciones",
+          "role_es": "Cofundador · CarbonBox / Clima Soluciones",
+          "bio_en": "Co-founder CarbonBox; CEO Clima Soluciones SAS (public LinkedIn).",
+          "bio_es": "Cofundador CarbonBox; CEO Clima Soluciones SAS (LinkedIn público).",
+          "linkedin": "https://www.linkedin.com/in/carlos-felipe-torres-triana-5864431a5/"
+        }
+      ],
+      "dream_en": "Program: CLAC21 + Acceleration. Verified KPIs: [PENDIENTE]. Pitch deck: [PENDIENTE].",
+      "dream_es": "Programa: CLAC21 + Acceleration. KPIs verificados: [PENDIENTE]. Pitch deck: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80"
+    }
+  ],
+  "hero_image": "https://static.wixstatic.com/media/9d6db3_0f8867f1f73c49b791b94ce91bfd59c6%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/9d6db3_0f8867f1f73c49b791b94ce91bfd59c6%7Emv2.jpg",
+  "cta_bg": "https://images.unsplash.com/photo-1497435334941-8f4e114e509e?w=1200&q=80",
+  "image_credits_en": "Image credits (kimsa):\n· Hero: KIMSA verified website (kimsa.co)\n· §01 Problem: Unsplash / Appolinary Kalashnikova\n· §02 Solution: Unsplash / Li-An Lim\n· §03 Impact: Unsplash / NASA\n· §04 Leadership: Unsplash / Luke Chesser\n· CTA: Unsplash / Johannes Plenio",
+  "image_credits_es": "Créditos de imagen (kimsa):\n· Hero: Sitio verificado KIMSA (kimsa.co)\n· §01 Problem: Unsplash / Appolinary Kalashnikova\n· §02 Solution: Unsplash / Li-An Lim\n· §03 Impact: Unsplash / NASA\n· §04 Leadership: Unsplash / Luke Chesser\n· CTA: Unsplash / Johannes Plenio"
+}

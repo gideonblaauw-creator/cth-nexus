@@ -1,0 +1,183 @@
+{
+  "slug": "moviltronics",
+  "name": "MOVILTRONICS SAS",
+  "website": "https://moviltronics.com/",
+  "badge_en": "Electric Mobility &amp; Clean Energy Retail &middot; CLAC25",
+  "badge_es": "Movilidad El&eacute;ctrica y Energ&iacute;a Limpia &middot; CLAC25",
+  "hero_image": "https://moviltronics.com/cdn/shop/files/M30062_0000_4.jpg",
+  "hero_sub_en": "moviltronics.com &middot; Colombia &middot; Bogot&aacute; &middot; Stage: Pre-Seed &middot; CT-TR-001",
+  "hero_sub_es": "moviltronics.com &middot; Colombia &middot; Bogot&aacute; &middot; Etapa: Pre-Seed &middot; CT-TR-001",
+  "pitch_en": "Importer and retailer of electric motorcycles, e-bikes, solar components, and electronic parts for makers and EV conversion projects across Colombia.",
+  "pitch_es": "Importador y minorista de motocicletas el&eacute;ctricas, e-bikes, componentes solares y partes electr&oacute;nicas para makers y proyectos de conversi&oacute;n EV en Colombia.",
+  "cta_pitch_en": "CleantechHUB CLAC25 portfolio card &mdash; enabling accessible electric mobility and renewable components.",
+  "cta_pitch_es": "Tarjeta de portafolio CLAC25 CleantechHUB &mdash; habilitando movilidad el&eacute;ctrica accesible y componentes renovables.",
+  "ribbon": [
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "Pa&iacute;s",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    },
+    {
+      "val": "Pre-Seed",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLAC25",
+      "sub_es": "CLAC25"
+    },
+    {
+      "val": "Energy",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "M&eacute;tricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLAC25",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Hub",
+        "lab_es": "Hub"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Colombian consumers and makers lack accessible supply chains for electric mobility and solar components.",
+      "head_es": "Consumidores y makers en Colombia carecen de cadenas de suministro accesibles para movilidad el&eacute;ctrica y componentes solares.",
+      "body_en": "Fragmented imports, financing gaps, and limited local parts availability slow EV adoption and DIY clean-energy projects.",
+      "body_es": "Importaciones fragmentadas, brechas de financiamiento y disponibilidad limitada de repuestos locales frenan la adopci&oacute;n de EV y proyectos de energ&iacute;a limpia.",
+      "bg": "https://moviltronics.com/cdn/shop/files/J50001_0000_2.jpg"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Soluci&oacute;n",
+      "steps": [
+        {
+          "icon": "🌱",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Retail and import of e-motorcycles, e-bikes, batteries, chargers, motors, and solar equipment.",
+          "text_es": "Retail and import of e-motorcycles, e-bikes, batteries, chargers, motors, and solar equipment."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "MOVILTRONICS SAS &mdash; CLAC25 (CleantechHUB portfolio card).",
+          "text_es": "MOVILTRONICS SAS &mdash; CLAC25 (CleantechHUB portfolio card)."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Based in Bogot&aacute;, Colombia. Public site: moviltronics.com.",
+          "text_es": "Based in Bogot&aacute;, Colombia. Public site: moviltronics.com."
+        }
+      ],
+      "bg": "https://moviltronics.com/cdn/shop/files/M80015_0000_5.jpg"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact &amp; Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Portfolio",
+          "title_es": "Portafolio",
+          "text_en": "Nexus card: electric mobility retailer/importer for makers and EV conversions.",
+          "text_es": "Nexus card: electric mobility retailer/importer for makers and EV conversions."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonom&iacute;a",
+          "text_en": "CT-TR-001 (Sustainable Transport) and CT-EN-001 (Energy Generation &amp; Distribution).",
+          "text_es": "CT-TR-001 (Sustainable Transport) and CT-EN-001 (Energy Generation &amp; Distribution)."
+        },
+        {
+          "icon": "🤝",
+          "title_en": "Offer",
+          "title_es": "Oferta",
+          "text_en": "National shipping, product financing, and secure payments (public storefront).",
+          "text_es": "National shipping, product financing, and secure payments (public storefront)."
+        },
+        {
+          "icon": "📈",
+          "title_en": "KPIs",
+          "title_es": "KPIs",
+          "text_en": "Verified sales/units KPIs: [PENDIENTE].",
+          "text_es": "Verified sales/units KPIs: [PENDIENTE]."
+        }
+      ],
+      "bg": "https://moviltronics.com/cdn/shop/files/preview_images/29ce2302cc434f189362586f789d94d9.thumbnail.0000000000.jpg?v=1762372955&width=1200"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Henry Mauricio Vargas Murcia",
+          "initials": "HV",
+          "role_en": "Founder &amp; General Manager &middot; CLAC25",
+          "role_es": "Fundador y Director General &middot; CLAC25",
+          "bio_en": "Founder leading Moviltronics since 2007 in electric mobility and electronics distribution.",
+          "bio_es": "Fundador que lidera Moviltronics desde 2007 en movilidad el&eacute;ctrica y distribuci&oacute;n de electr&oacute;nica.",
+          "linkedin": "https://www.linkedin.com/in/henry-mauricio-vargas-murcia"
+        }
+      ],
+      "dream_en": "Secondary CT: CT-EN-001. Program: CLAC25 / Acceleration. Verified KPIs: [PENDIENTE]. Image credits: hero: Moviltronics verified storefront CDN (electric mobility product); section_01_problem: Moviltronics verified storefront CDN (J50001 product photo); section_02_solution: Moviltronics verified storefront CDN (M80015 product photo); section_03_impact: Moviltronics verified storefront CDN (mobility category preview); section_04_leadership: Moviltronics verified storefront CDN (M30062 product photo); cta: Moviltronics verified storefront CDN (store preview image)",
+      "dream_es": "CT secundario: CT-EN-001. Programa: CLAC25 / Acceleration. KPIs verificados: [PENDIENTE]. Créditos de imagen: hero: Moviltronics verified storefront CDN (electric mobility product); section_01_problem: Moviltronics verified storefront CDN (J50001 product photo); section_02_solution: Moviltronics verified storefront CDN (M80015 product photo); section_03_impact: Moviltronics verified storefront CDN (mobility category preview); section_04_leadership: Moviltronics verified storefront CDN (M30062 product photo); cta: Moviltronics verified storefront CDN (store preview image)",
+      "bg": "https://moviltronics.com/cdn/shop/files/M30062_0001_3.jpg"
+    }
+  ],
+  "cta_image": "https://moviltronics.com/cdn/shop/files/preview_images/b45aa806dcef4a71935e63b54d0be778.thumbnail.0000000000.jpg?v=1762376159&width=1200",
+  "image_sources": {
+    "hero": "Moviltronics verified storefront CDN (electric mobility product)",
+    "section_01_problem": "Moviltronics verified storefront CDN (J50001 product photo)",
+    "section_02_solution": "Moviltronics verified storefront CDN (M80015 product photo)",
+    "section_03_impact": "Moviltronics verified storefront CDN (mobility category preview)",
+    "section_04_leadership": "Moviltronics verified storefront CDN (M30062 product photo)",
+    "cta": "Moviltronics verified storefront CDN (store preview image)"
+  }
+}

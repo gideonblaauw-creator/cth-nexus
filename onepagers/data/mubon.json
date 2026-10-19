@@ -1,0 +1,172 @@
+{
+  "slug": "mubon",
+  "name": "MubOn",
+  "website": "https://mubon.co/",
+  "badge_en": "Electric Mobility &middot; CLAC24 &middot; Growth + Acceleration",
+  "badge_es": "Movilidad eléctrica &middot; CLAC24 &middot; Growth + Aceleración",
+  "hero_image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=1200&q=80",
+  "hero_sub_en": "mubon.co &middot; Cali, Colombia &middot; Seed &middot; CT-TR-001 &middot; CT-IC-005",
+  "hero_sub_es": "mubon.co &middot; Cali, Colombia &middot; Seed &middot; CT-TR-001 &middot; CT-IC-005",
+  "pitch_en": "Colombian-made EV charging hardware and smart management platform for shared charging in residential and commercial spaces — expanding electric mobility infrastructure.",
+  "pitch_es": "Hardware de carga VE hecho en Colombia y plataforma inteligente para carga compartida en espacios residenciales y comerciales — expandiendo infraestructura de movilidad eléctrica.",
+  "cta_pitch_en": "Design, install, and operate reliable charging networks with locally manufactured stations and software.",
+  "cta_pitch_es": "Diseñar, instalar y operar redes de carga confiables con estaciones fabricadas localmente y software de gestión.",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "cta_bg": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80",
+  "ribbon": [
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    },
+    {
+      "val": "Seed",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLAC24",
+      "sub_es": "CLAC24"
+    },
+    {
+      "val": "CT-TR",
+      "lab_en": "Taxonomy",
+      "lab_es": "Taxonomía",
+      "sub_en": "CT-TR-001",
+      "sub_es": "CT-TR-001"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Métricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLAC24",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Growth + Acc.",
+        "lab_es": "Growth + Acel."
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "Cali",
+        "lab_en": "City",
+        "lab_es": "Ciudad"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Electric vehicle adoption needs dependable, scalable charging where people live, work, and travel.",
+      "head_es": "La adopción de vehículos eléctricos requiere carga confiable y escalable donde las personas viven, trabajan y se desplazan.",
+      "body_en": "Fragmented charging experiences and infrastructure gaps slow EV uptake. Fleet, dealership, and property operators need integrated hardware, operations, and payment-ready management.",
+      "body_es": "Experiencias de carga fragmentadas y brechas de infraestructura frenan la adopción de VE. Flotas, concesionarios y operadores inmobiliarios necesitan hardware integrado, operación y gestión lista para pagos.",
+      "bg": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "⚡",
+          "label_en": "Manufacture",
+          "label_es": "Fabricar",
+          "text_en": "Locally made EV chargers including fast and ultra-fast stations (portfolio card summary).",
+          "text_es": "Cargadores VE de producción local, incluyendo estaciones rápidas y ultrarrápidas (resumen tarjeta portafolio)."
+        },
+        {
+          "icon": "📱",
+          "label_en": "Manage",
+          "label_es": "Gestionar",
+          "text_en": "Software platform for shared charging, user access, and operational control.",
+          "text_es": "Plataforma software para carga compartida, acceso de usuarios y control operativo."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Deploy",
+          "label_es": "Desplegar",
+          "text_en": "Turn-key projects for companies, retail, and strategic partners across Colombia and region.",
+          "text_es": "Proyectos llave en mano para empresas, retail y aliados estratégicos en Colombia y región."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact &amp; Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Wiki / portfolio",
+          "title_es": "Wiki / portafolio",
+          "text_en": "Profile aligned with Nexus startup portfolio card MUBON (CLAC24) — CleantechHUB LATAM taxonomy nodes CT-TR-001 and CT-IC-005.",
+          "text_es": "Perfil alineado con tarjeta MUBON (CLAC24) — nodos CT-TR-001 y CT-IC-005 taxonomía LATAM CleantechHUB."
+        },
+        {
+          "icon": "🔌",
+          "title_en": "Mobility impact",
+          "title_es": "Impacto movilidad",
+          "text_en": "Enables lower-emission transport by expanding accessible charging infrastructure.",
+          "text_es": "Habilita transporte de menores emisiones al expandir infraestructura de carga accesible."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Nelson David Padilla H",
+          "initials": "NP",
+          "role_en": "Founder &amp; CEO",
+          "role_es": "Fundador y CEO",
+          "bio_en": "Founder leading MubOn electric mobility infrastructure. Source: public LinkedIn profile.",
+          "bio_es": "Fundador al frente de la infraestructura de movilidad eléctrica MubOn. Fuente: perfil LinkedIn público.",
+          "linkedin": "https://www.linkedin.com/in/phndavid"
+        },
+        {
+          "name": "Juan Sebastian Torres Nieto",
+          "initials": "JT",
+          "role_en": "Co-founder &amp; Commercial lead",
+          "role_es": "Cofundador y líder comercial",
+          "bio_en": "Co-founder referenced in CleantechHUB public spotlight post (Dec 2025).",
+          "bio_es": "Cofundador referenciado en spotlight público CleantechHUB (dic 2025).",
+          "linkedin": "https://www.linkedin.com/in/juan-sebastian-torres-nieto-a5917614b"
+        }
+      ],
+      "dream_en": "Secondary CT node: CT-IC-005. Third-party growth metrics (e.g. social posts): not listed as verified KPIs. Pitch deck: [PENDIENTE]. Image credits — Hero: Unsplash (photo-1542601906990) — clean air / urban mobility context; §01: Unsplash (photo-1470071459604) — mountain road infrastructure; §02: Unsplash (photo-1551288049) — analytics dashboard (smart platform); §03: Unsplash (photo-1518770660439) — technology / circuits; §04: Unsplash (photo-1521791136064) — partnership / deployment; CTA: Unsplash (photo-1529156069898) — team collaboration.",
+      "dream_es": "Nodo CT secundario: CT-IC-005. Métricas de terceros (p. ej. posts sociales): no listadas como KPIs verificados. Pitch deck: [PENDIENTE]. Image credits — Hero: Unsplash (photo-1542601906990) — clean air / urban mobility context; §01: Unsplash (photo-1470071459604) — mountain road infrastructure; §02: Unsplash (photo-1551288049) — analytics dashboard (smart platform); §03: Unsplash (photo-1518770660439) — technology / circuits; §04: Unsplash (photo-1521791136064) — partnership / deployment; CTA: Unsplash (photo-1529156069898) — team collaboration.",
+      "bg": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80"
+    }
+  ]
+}

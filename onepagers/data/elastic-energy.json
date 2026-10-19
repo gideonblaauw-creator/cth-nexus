@@ -1,0 +1,172 @@
+{
+  "slug": "elastic-energy",
+  "name": "Elastic Energy",
+  "website": "https://elasticenergy.co/",
+  "badge_en": "Clean Energy Storage &middot; CleantechHUB Top StartUps",
+  "badge_es": "Almacenamiento de energía limpia &middot; Top StartUps CleantechHUB",
+  "hero_image": "https://framerusercontent.com/images/igNXB7ftfNaHqTcfuSwEw6H2bO4.png?width=2186&height=1324",
+  "hero_sub_en": "elasticenergy.co &middot; Bogotá, Colombia &middot; Energy storage &middot; Stage: [PENDIENTE] &middot; CT taxonomy: [PENDIENTE]",
+  "hero_sub_es": "elasticenergy.co &middot; Bogotá, Colombia &middot; Almacenamiento de energía &middot; Etapa: [PENDIENTE] &middot; Taxonomía CT: [PENDIENTE]",
+  "pitch_en": "Mechanical energy storage using natural tree-sap rubber elastic bands — mineral-free alternative designed for off-grid communities paired with solar generation.",
+  "pitch_es": "Almacenamiento mecánico de energía con bandas elásticas de caucho natural de savia arbórea — alternativa sin minerales diseñada para comunidades off-grid con generación solar.",
+  "cta_pitch_en": "Store renewable electricity with bio-based elastic storage — safer, longer-lasting cycles without lithium chemistry.",
+  "cta_pitch_es": "Almacenar electricidad renovable con almacenamiento elástico bio-basado — ciclos más duraderos sin química de litio.",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "cta_bg": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=80",
+  "ribbon": [
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    },
+    {
+      "val": "Storage",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Clean energy",
+      "sub_es": "Energía limpia"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Métricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CTH",
+        "lab_en": "Top StartUps",
+        "lab_es": "Top StartUps"
+      },
+      {
+        "num": "SAS",
+        "lab_en": "Entity CO",
+        "lab_es": "Entidad CO"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "BOG",
+        "lab_en": "Bogotá",
+        "lab_es": "Bogotá"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Billions lack reliable electricity while grid-scale storage relies on minerals and chemical batteries.",
+      "head_es": "Miles de millones carecen de electricidad confiable mientras el almacenamiento a escala depende de minerales y baterías químicas.",
+      "body_en": "Intermittent renewables need storage; conventional batteries raise cost, safety, and supply-chain concerns. Rural off-grid communities need clean power overnight after solar generation.",
+      "body_es": "Las renovables intermitentes requieren almacenamiento; las baterías convencionales elevan costo, riesgo y dependencia de minerales. Comunidades rurales off-grid necesitan energía limpia nocturna tras generación solar.",
+      "bg": "https://framerusercontent.com/images/0Djozuq5MuH9xNWt7gw7lrO8.png?width=1732&height=1936"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "☀️",
+          "label_en": "Charge",
+          "label_es": "Cargar",
+          "text_en": "Renewable sources (e.g. solar) power a motor that stretches elastic bands wound on a core.",
+          "text_es": "Fuentes renovables (p. ej. solar) accionan un motor que estira bandas elásticas en un núcleo."
+        },
+        {
+          "icon": "🌳",
+          "label_en": "Store",
+          "label_es": "Almacenar",
+          "text_en": "Natural tree-sap rubber stores mechanical energy without lithium or thermal runaway risk.",
+          "text_es": "Caucho natural de savia almacena energía mecánica sin litio ni riesgo de thermal runaway."
+        },
+        {
+          "icon": "⚡",
+          "label_en": "Discharge",
+          "label_es": "Descargar",
+          "text_en": "When demand rises, bands unwind and drive a generator for usable electricity.",
+          "text_es": "Ante demanda, las bandas se desenrollan y accionan un generador para electricidad usable."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact &amp; Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "🌍",
+          "title_en": "Off-grid focus",
+          "title_es": "Enfoque off-grid",
+          "text_en": "Designed for rural communities without traditional grid infrastructure, paired with solar (public site narrative).",
+          "text_es": "Diseñado para comunidades rurales sin red tradicional, combinado con solar (narrativa del sitio público)."
+        },
+        {
+          "icon": "🏆",
+          "title_en": "Recognition",
+          "title_es": "Reconocimientos",
+          "text_en": "Colombia eAwards 2025 national winner (NTT DATA Foundation) — public press release; no audited KPIs on profile.",
+          "text_es": "Ganador nacional eAwards Colombia 2025 (Fundación NTT DATA) — comunicado público; sin KPIs auditados en perfil."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Samuel Bendek",
+          "initials": "SB",
+          "role_en": "Co-founder &amp; CEO",
+          "role_es": "Cofundador y CEO",
+          "bio_en": "Leads Elastic Energy development. Source: elasticenergy.co team page.",
+          "bio_es": "Lidera el desarrollo de Elastic Energy. Fuente: web elasticenergy.co.",
+          "linkedin": "https://www.linkedin.com/in/ceo-elastic-energy"
+        },
+        {
+          "name": "Juliana Bendek",
+          "initials": "JB",
+          "role_en": "Co-founder &amp; COO",
+          "role_es": "Cofundadora y COO",
+          "bio_en": "Operations and growth. Source: elasticenergy.co team page.",
+          "bio_es": "Operaciones y crecimiento. Fuente: web elasticenergy.co.",
+          "linkedin": "https://www.linkedin.com/in/juliana-bendek"
+        }
+      ],
+      "dream_en": "Program/cohort on CTH sheet: [PENDIENTE detail]. Marketing claims on website (e.g. cycle life, cost vs batteries) not copied as verified KPIs. Pitch deck: [PENDIENTE]. Image credits — Hero: elasticenergy.co — tree-sap storage product render; §01: elasticenergy.co — elastic storage hardware visual; §02: Unsplash (photo-1451187580459) — energy / earth from space; §03: Unsplash (photo-1441974231531) — forest canopy; §04: Unsplash (photo-1518977676601) — solar panels; CTA: Unsplash (photo-1497366216548) — sustainable workspace.",
+      "dream_es": "Programa/cohorte en hoja CTH: [PENDIENTE detalle]. Claims de marketing en web no copiados como KPIs verificados. Pitch deck: [PENDIENTE]. Image credits — Hero: elasticenergy.co — tree-sap storage product render; §01: elasticenergy.co — elastic storage hardware visual; §02: Unsplash (photo-1451187580459) — energy / earth from space; §03: Unsplash (photo-1441974231531) — forest canopy; §04: Unsplash (photo-1518977676601) — solar panels; CTA: Unsplash (photo-1497366216548) — sustainable workspace.",
+      "bg": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=1200&q=80"
+    }
+  ]
+}

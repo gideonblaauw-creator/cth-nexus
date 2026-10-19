@@ -1,0 +1,174 @@
+{
+  "slug": "glu-energy",
+  "name": "Glu Energy",
+  "website": "https://www.glu-energy.com",
+  "badge_en": "Distributed Clean Energy &middot; Acceleration",
+  "badge_es": "Energ&iacute;a Limpia Distribuida &middot; Acceleration",
+  "hero_image": "https://www.glu-energy.com/uploads/glu_energy_ecosystem.png",
+  "hero_sub_en": "glu-energy.com &middot; Bogot&aacute;, Colombia &middot; Clean Energy &middot; Stage: [PENDIENTE]",
+  "hero_sub_es": "glu-energy.com &middot; Bogot&aacute;, Colombia &middot; Energ&iacute;a Limpia &middot; Etapa: [PENDIENTE]",
+  "pitch_en": "Builds energy communities, virtual power plants, and mini solar farms—integrating solar, storage, software, and edge nodes for affordable housing and distributed clean power.",
+  "pitch_es": "Desarrolla comunidades energ&eacute;ticas, centrales el&eacute;ctricas virtuales y minigranjas solares—integrando solar, almacenamiento, software y nodos de borde para vivienda asequible y energ&iacute;a limpia distribuida.",
+  "cta_pitch_en": "Energy communities and virtual power plants that embed clean generation in buildings and developments.",
+  "cta_pitch_es": "Comunidades energ&eacute;ticas y centrales virtuales que integran generaci&oacute;n limpia en edificios y desarrollos.",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "ribbon": [
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    },
+    {
+      "val": "[PENDIENTE",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "Acceleration",
+      "sub_es": "Acceleration"
+    },
+    {
+      "val": "Energy",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Métricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "Acceleration",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Accelerator",
+        "lab_es": "Acelerador"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Latin American buildings and communities need cleaner, more affordable, and more flexible electricity—without relying solely on centralized fossil generation.",
+      "head_es": "Edificios y comunidades en Am&eacute;rica Latina necesitan electricidad m&aacute;s limpia, asequible y flexible—sin depender solo de generaci&oacute;n f&oacute;sil centralizada.",
+      "body_en": "Latin American buildings and communities need cleaner, more affordable, and more flexible electricity—without relying solely on centralized fossil generation.",
+      "body_es": "Edificios y comunidades en Am&eacute;rica Latina necesitan electricidad m&aacute;s limpia, asequible y flexible—sin depender solo de generaci&oacute;n f&oacute;sil centralizada.",
+      "bg": "https://www.glu-energy.com/uploads/Picture26.jpg"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "🎯",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "On-site solar, batteries, and digital energy networks for energy communities and virtual power plants.",
+          "text_es": "Solar en sitio, bater&iacute;as y redes energ&eacute;ticas digitales para comunidades energ&eacute;ticas y centrales el&eacute;ctricas virtuales."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "Glu Energy S.A.S. E.S.P. — CleantechHUB Portafolio Acceleration (CTH).",
+          "text_es": "Glu Energy S.A.S. E.S.P. — Aceleraci&oacute;n Portafolio CleantechHUB (CTH)."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Colombia entity (Bogot&aacute;). Public sites: glu-energy.com; LinkedIn company Glu Energy S.A.S. E.S.P.",
+          "text_es": "Entidad en Colombia (Bogot&aacute;). Sitios p&uacute;blicos: glu-energy.com; LinkedIn empresa Glu Energy S.A.S. E.S.P."
+        }
+      ],
+      "bg": "https://www.glu-energy.com/uploads/Picture27.png"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact &amp; Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Portfolio source",
+          "title_es": "Fuente portafolio",
+          "text_en": "Public company materials (glu-energy.com, LinkedIn Glu Energy S.A.S. E.S.P.) and CleantechHUB acceleration sheet.",
+          "text_es": "Materiales p&uacute;blicos de la empresa (glu-energy.com, LinkedIn Glu Energy S.A.S. E.S.P.) y sheet de aceleraci&oacute;n CleantechHUB."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomía",
+          "text_en": "[PENDIENTE] &middot; Distributed solar &amp; energy communities",
+          "text_es": "[PENDIENTE] &middot; Solar distribuido y comunidades energ&eacute;ticas"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1497436072904-37f7849041de?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Wilmer Lemus Laiton",
+          "initials": "WL",
+          "role_en": "Co-founder &amp; Managing Director (Glu Colombia)",
+          "role_es": "Cofundador y Director General (Glu Colombia)",
+          "bio_en": "Co-founder listed on public Glu team pages and LinkedIn.",
+          "bio_es": "Cofundador listado en p&aacute;ginas p&uacute;blicas del equipo Glu y LinkedIn.",
+          "linkedin": "https://www.linkedin.com/in/wilmer-lemus-laiton"
+        },
+        {
+          "name": "Juan Camilo Martínez Turmequé",
+          "initials": "JM",
+          "role_en": "Co-founder (Glu Colombia)",
+          "role_es": "Cofundador (Glu Colombia)",
+          "bio_en": "Co-founder listed on public Glu team pages; associated with Glu Energy public posts.",
+          "bio_es": "Cofundador listado en p&aacute;ginas p&uacute;blicas del equipo Glu; asociado a publicaciones p&uacute;blicas de Glu Energy.",
+          "linkedin": "https://www.linkedin.com/in/juancmartinezt"
+        }
+      ],
+      "dream_en": "CT taxonomy: [PENDIENTE]. Verified KPIs: [PENDIENTE] (public marketing figures on glu-energy.com not copied—regional pipeline metrics). Pitch deck: [PENDIENTE].",
+      "dream_es": "Taxonom&iacute;a CT: [PENDIENTE]. KPIs verificados: [PENDIENTE] (cifras de marketing en glu-energy.com no copiadas). Pitch deck: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1518455027359-763f1d6f9667?w=1200&q=80"
+    }
+  ],
+  "cta_bg": "https://images.unsplash.com/photo-1559305610-1f977d2bf25f?w=1200&q=80",
+  "image_credits_en": "Hero, Problem, Solution: glu-energy.com. Impact/Unsplash: Andreas G&uuml;ckl (photo-1497436072904). Leadership/Unsplash: American Public Power Association (photo-1518455027359). CTA/Unsplash: Zane Lee (photo-1559305610).",
+  "image_credits_es": "Hero, Problema, Soluci&oacute;n: glu-energy.com. Impacto/Unsplash: Andreas G&uuml;ckl (photo-1497436072904). Liderazgo/Unsplash: American Public Power Association (photo-1518455027359). CTA/Unsplash: Zane Lee (photo-1559305610)."
+}

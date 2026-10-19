@@ -1,0 +1,163 @@
+{
+  "slug": "istmo-verde",
+  "name": "Istmo Verde",
+  "website": "https://www.istmoverde.com/",
+  "badge_en": "Forest Carbon · CLP · Acceleration",
+  "badge_es": "Carbono Forestal · CLP · Acceleration",
+  "hero_sub_en": "istmoverde.com · Guatemala · Cobán · Energy · Stage: Seed",
+  "hero_sub_es": "istmoverde.com · Guatemala · Cobán · Energía · Etapa: Seed",
+  "pitch_en": "Guatemala's first company developing forest-sector carbon compensation projects, enabling businesses to offset footprints through verified local reforestation and conservation.",
+  "pitch_es": "Primera empresa guatemalteca que desarrolla proyectos de compensación de emisiones en el sector forestal, permitiendo a empresas compensar su huella mediante reforestación y conservación verificadas.",
+  "cta_pitch_en": "Forest-sector carbon compensation and conservation projects for businesses in Guatemala and Central America.",
+  "cta_pitch_es": "Proyectos de compensación de carbono y conservación forestal para empresas en Guatemala y Centroamérica.",
+  "ribbon": [
+    {
+      "val": "GT",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Guatemala",
+      "sub_es": "Guatemala"
+    },
+    {
+      "val": "Seed",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLP",
+      "sub_es": "CLP"
+    },
+    {
+      "val": "Energy",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Métricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLP",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Hub",
+        "lab_es": "Hub"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "GT",
+        "lab_en": "Guatemala",
+        "lab_es": "Guatemala"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Companies need credible, local forest-based pathways to compensate emissions.",
+      "head_es": "Las empresas necesitan vías locales y creíbles de compensación basadas en el sector forestal.",
+      "body_en": "Guatemala's first company developing forest-sector carbon compensation projects, enabling businesses to offset footprints through verified local reforestation and conservation.",
+      "body_es": "Primera empresa guatemalteca que desarrolla proyectos de compensación de emisiones en el sector forestal, permitiendo a empresas compensar su huella mediante reforestación verificada local.",
+      "bg": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "🌱",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Develop, verify, and commercialize forest carbon and conservation projects for voluntary carbon markets.",
+          "text_es": "Desarrollar, verificar y comercializar proyectos forestales de carbono y conservación para mercados voluntarios."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "Istmo Verde, S.A. — ClimateLaunchpad (CLP) · CleantechHUB Acceleration.",
+          "text_es": "Istmo Verde, S.A. — ClimateLaunchpad (CLP) · Acceleration CleantechHUB."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Based in Cobán, Alta Verapaz, Guatemala. Public site: istmoverde.com.",
+          "text_es": "Con base en Cobán, Alta Verapaz, Guatemala. Sitio público: istmoverde.com."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1542601906990-9c710a1061dd?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact & Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Wiki source",
+          "title_es": "Fuente Wiki",
+          "text_en": "Profile synced from BookStack Startup Portfolio + Odoo (SoT). CleantechHUB Acceleration cohort (Portafolio CTH).",
+          "text_es": "Perfil sincronizado desde BookStack Startup Portfolio + Odoo (SoT). Cohorte Acceleration CleantechHUB (Portafolio CTH)."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomía",
+          "text_en": "[PENDIENTE] — forest carbon / compensation (CT node not on portfolio card)",
+          "text_es": "[PENDIENTE] — carbono forestal / compensación (nodo CT no en tarjeta de portafolio)"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1448375241506-7899e3828c0f?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Iván E. Barrientos Stubbs",
+          "initials": "IB",
+          "role_en": "Country Manager · Istmo Verde, S.A.",
+          "role_es": "Gerente de País · Istmo Verde, S.A.",
+          "bio_en": "Leads carbon project development for Istmo Verde (public LinkedIn role). Additional founders: [PENDIENTE].",
+          "bio_es": "Lidera desarrollo de proyectos de carbono en Istmo Verde (rol público en LinkedIn). Otros fundadores: [PENDIENTE].",
+          "linkedin": "https://www.linkedin.com/in/iv%C3%A1n-e-barrientos-stubbs-96a23688/"
+        }
+      ],
+      "dream_en": "Program: CLP + CleantechHUB Acceleration. City: Cobán. Verified KPIs: [PENDIENTE]. Pitch deck on profile: [PENDIENTE].",
+      "dream_es": "Programa: CLP + Acceleration CleantechHUB. Ciudad: Cobán. KPIs verificados: [PENDIENTE]. Pitch deck en perfil: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&q=80"
+    }
+  ],
+  "hero_image": "https://lirp.cdn-website.com/317bfb1d/dms3rep/multi/opt/photo-1503327327322-56f962d3fc57-1920w.jpg",
+  "cta_bg": "https://images.unsplash.com/photo-1518173941573-c443e494106a?w=1200&q=80",
+  "image_credits_en": "Image credits (istmo-verde):\n· Hero: Istmo Verde website (istmoverde.com)\n· §01 Problem: Unsplash / Lukasz Szmigiel\n· §02 Solution: Unsplash / Matt Artz\n· §03 Impact: Unsplash / Lucas Sankey\n· §04 Leadership: Unsplash / Hans Reniers\n· CTA: Unsplash / Lucas Sankey",
+  "image_credits_es": "Créditos de imagen (istmo-verde):\n· Hero: Sitio web Istmo Verde (istmoverde.com)\n· §01 Problem: Unsplash / Lukasz Szmigiel\n· §02 Solution: Unsplash / Matt Artz\n· §03 Impact: Unsplash / Lucas Sankey\n· §04 Leadership: Unsplash / Hans Reniers\n· CTA: Unsplash / Lucas Sankey"
+}

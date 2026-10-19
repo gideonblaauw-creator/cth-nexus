@@ -1,0 +1,213 @@
+{
+  "slug": "alfe-aseo-sas",
+  "name": "ALFE ASEO SAS",
+  "website": "https://alfeaseo.com",
+  "badge_en": "Circular Economy &middot; CTH Acceleration",
+  "badge_es": "Economía Circular &middot; Aceleración CTH",
+  "hero_image": "https://alfeaseo.com/wp-content/uploads/2026/05/Tarro-reutilizable-con-Pasaporte-Digital-Alfe-4.png",
+  "hero_sub_en": "alfeaseo.com &middot; Colombia &middot; Barrancabermeja &amp; Bogotá &middot; Stage: Pre-Seed",
+  "hero_sub_es": "alfeaseo.com &middot; Colombia &middot; Barrancabermeja y Bogotá &middot; Etapa: Pre-Seed",
+  "pitch_en": "Delivers concentrated cleaning products in refillable, reusable containers to households and companies, eliminating single-use plastic packaging at point of use.",
+  "pitch_es": "Entrega productos de limpieza concentrados en envases recargables y reutilizables a hogares y empresas, eliminando el empaque plástico desechable en el punto de uso.",
+  "cta_pitch_en": "Delivers concentrated cleaning products in refillable, reusable containers to households and companies, eliminating single-use plastic packaging at point of use.",
+  "cta_pitch_es": "Entrega productos de limpieza concentrados en envases recargables y reutilizables a hogares y empresas, eliminando el empaque plástico desechable en el punto de uso.",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "ribbon": [
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    },
+    {
+      "val": "Pre-Seed",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLAC24",
+      "sub_es": "CLAC24"
+    },
+    {
+      "val": "Circular",
+      "lab_en": "Theme",
+      "lab_es": "Tema",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[PENDIENTE]",
+      "lab_en": "CT Taxonomy",
+      "lab_es": "Taxonomía CT",
+      "sub_en": "CTH",
+      "sub_es": "CTH"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLAC",
+        "lab_en": "Acceleration",
+        "lab_es": "Aceleración"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Accelerator",
+        "lab_es": "Acelerador"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Single-use plastic packaging in everyday cleaning products.",
+      "head_es": "Empaque plástico de un solo uso en productos de limpieza cotidianos.",
+      "body_en": "Households and companies rely on disposable plastic bottles for detergents and disinfectants, generating avoidable waste. ALFE addresses this with concentrated formulas and a refill model that keeps packaging in use.",
+      "body_es": "Hogares y empresas dependen de botellas plásticas desechables para detergentes y desinfectantes, generando residuos evitables. ALFE aborda esto con fórmulas concentradas y un modelo de recarga que mantiene los envases en uso.",
+      "bg": "https://images.unsplash.com/photo-1621619087653-83077a577e0a?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "♻️",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Concentrated cleaning and disinfection products sold through reusable containers and refills.",
+          "text_es": "Productos de limpieza y desinfección concentrados vendidos en envases reutilizables y recargas."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "ALFE ASEO SAS — CLAC 2024 · CleantechHUB Acceleration portfolio.",
+          "text_es": "ALFE ASEO SAS — CLAC 2024 · Portafolio Aceleración CleantechHUB."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Based in Colombia (Barrancabermeja & Bogotá). Verified site: alfeaseo.com.",
+          "text_es": "Con base en Colombia (Barrancabermeja y Bogotá). Sitio verificado: alfeaseo.com."
+        }
+      ],
+      "bg": "https://alfeaseo.com/wp-content/uploads/2026/05/Pasaporte-digital-Tarro-760x1024.jpg"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact & Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Portfolio source",
+          "title_es": "Fuente portafolio",
+          "text_en": "Profile synced from CleantechHUB Startup Portfolio card (Portafolio CTH / Acceleration).",
+          "text_es": "Perfil sincronizado desde la tarjeta del Startup Portfolio CleantechHUB (Portafolio CTH / Acceleration)."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomía",
+          "text_en": "Circular economy · Refillable cleaning products · CT node: [PENDIENTE] on portfolio card.",
+          "text_es": "Economía circular · Productos de limpieza recargables · Nodo CT: [PENDIENTE] en tarjeta de portafolio."
+        }
+      ],
+      "bg": "https://alfeaseo.com/wp-content/uploads/2026/05/Pasaporte-digital-3-1.jpg"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Héctor Andrés Polanco Guerra",
+          "role_en": "CEO & Co-founder",
+          "role_es": "CEO y Cofundador",
+          "bio_en": "Public-facing executive leadership at Alfe Aseo SAS. Source: company site and public LinkedIn profile.",
+          "bio_es": "Liderazgo ejecutivo público en Alfe Aseo SAS. Fuente: sitio de la empresa y perfil público de LinkedIn.",
+          "linkedin": "https://www.linkedin.com/in/h%C3%A9ctor-andr%C3%A9s-polanco-guerra-23705b1a3"
+        },
+        {
+          "name": "Alicia Guerra",
+          "role_en": "Co-founder",
+          "role_es": "Cofundadora",
+          "bio_en": "Original family co-founder referenced on Alfe Aseo public materials. Public LinkedIn URL: [PENDIENTE].",
+          "bio_es": "Cofundadora familiar original referenciada en materiales públicos de Alfe Aseo. URL pública de LinkedIn: [PENDIENTE]."
+        }
+      ],
+      "dream_en": "Program: CTH Acceleration (CLAC24). City: Barrancabermeja & Bogotá. Pitch deck on profile: [PENDIENTE]. Verified KPIs: [PENDIENTE].",
+      "dream_es": "Programa: Aceleración CTH (CLAC24). Ciudad: Barrancabermeja y Bogotá. Pitch deck en perfil: [PENDIENTE]. KPIs verificados: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1581578731546-35a1a4560d0c?w=1200&q=80"
+    }
+  ],
+  "cta_bg": "https://images.unsplash.com/photo-1585421514287-efb74e3441ba?w=1200&q=80",
+  "image_credits": [
+    {
+      "slot_en": "Hero",
+      "slot_es": "Hero",
+      "credit_en": "Source: alfeaseo.com — reusable refill container (ALFE ASEO SAS).",
+      "credit_es": "Fuente: alfeaseo.com — envase recargable reutilizable (ALFE ASEO SAS).",
+      "link": "https://alfeaseo.com/"
+    },
+    {
+      "slot_en": "01 Problem",
+      "slot_es": "01 Problema",
+      "credit_en": "Photo: Tanvi Malik on Unsplash — plastic packaging waste.",
+      "credit_es": "Foto: Tanvi Malik en Unsplash — residuos de empaque plástico.",
+      "link": "https://unsplash.com/photos/83077a577e0a"
+    },
+    {
+      "slot_en": "02 Solution",
+      "slot_es": "02 Solución",
+      "credit_en": "Source: alfeaseo.com — digital passport refill jar.",
+      "credit_es": "Fuente: alfeaseo.com — tarro de recarga con pasaporte digital.",
+      "link": "https://alfeaseo.com/"
+    },
+    {
+      "slot_en": "03 Impact",
+      "slot_es": "03 Impacto",
+      "credit_en": "Source: alfeaseo.com — refill program photography.",
+      "credit_es": "Fuente: alfeaseo.com — fotografía del programa de recarga.",
+      "link": "https://alfeaseo.com/"
+    },
+    {
+      "slot_en": "04 Leadership",
+      "slot_es": "04 Liderazgo",
+      "credit_en": "Photo: National Cancer Institute on Unsplash — institutional cleaning context.",
+      "credit_es": "Foto: National Cancer Institute en Unsplash — contexto de limpieza institucional.",
+      "link": "https://unsplash.com/photos/35a1a4560d0c"
+    },
+    {
+      "slot_en": "CTA",
+      "slot_es": "CTA",
+      "credit_en": "Photo: Daian Gan on Unsplash — cleaning products.",
+      "credit_es": "Foto: Daian Gan en Unsplash — productos de limpieza.",
+      "link": "https://unsplash.com/photos/efb74e3441ba"
+    }
+  ]
+}

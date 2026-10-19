@@ -1,0 +1,158 @@
+{
+  "slug": "ciclorganicos",
+  "name": "Ciclorgánicos",
+  "website": "https://www.ciclorganicos.com",
+  "badge_en": "Organic Waste &middot; Compost &middot; CLAC22",
+  "badge_es": "Residuos Orgánicos &middot; Compost &middot; CLAC22",
+  "hero_image": "./assets/hero.webp",
+  "hero_sub_en": "www.ciclorganicos.com &middot; Colombia &middot; Medellín / Caldas &middot; Bio &amp; Agriculture &middot; Stage: Seed",
+  "hero_sub_es": "www.ciclorganicos.com &middot; Colombia &middot; Medellín / Caldas &middot; Bio y Agricultura &middot; Etapa: Seed",
+  "pitch_en": "Collects organic residues from the food industry and composts them into certified biofertilizers with traceable waste-reduction data.",
+  "pitch_es": "Recolecta residuos orgánicos de la industria alimentaria y los composta en biofertilizantes certificados con datos trazables de reducción de residuos.",
+  "cta_pitch_en": "Close the loop on organic waste — from food industry residues to certified compost and GAIA soil improvers.",
+  "cta_pitch_es": "Cierre el ciclo de residuos orgánicos — de la industria alimentaria al compost certificado y mejoradores GAIA.",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "ribbon": [
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    },
+    {
+      "val": "Seed",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLAC22 · Acceleration",
+      "sub_es": "CLAC22 · Acceleration"
+    },
+    {
+      "val": "BIO",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Bio & Agriculture",
+      "sub_es": "Bio y Agricultura"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Métricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Organic waste from food industry and cities generates methane and lost nutrients when sent to landfill instead of regenerative soil inputs.",
+      "head_es": "Los residuos orgánicos de la industria alimentaria y las ciudades generan metano y pierden nutrientes cuando van a relleno en lugar de insumos regenerativos para el suelo.",
+      "body_en": "Organic waste from food industry and cities generates methane and lost nutrients when sent to landfill instead of regenerative soil inputs.",
+      "body_es": "Los residuos orgánicos de la industria alimentaria y las ciudades generan metano y pierden nutrientes cuando van a relleno en lugar de insumos regenerativos para el suelo.",
+      "bg": "./assets/problem.jpg"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "🎯",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Collection, mechanical composting, and certified soil improvers (Bio Abonos GAIA S.A.S. BIC — Ciclorgánicos).",
+          "text_es": "Recolección, compostaje con volteo mecánico y mejoradores de suelo certificados (Bio Abonos GAIA S.A.S. BIC — Ciclorgánicos)."
+        },
+        {
+          "icon": "📋",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "Ciclorgánicos — CLAC22 · Acceleration (CleantechHUB).",
+          "text_es": "Ciclorgánicos — CLAC22 · Acceleration (CleantechHUB)."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Based in Antioquia, Colombia. Public site: ciclorganicos.com. Portfolio notes ~200 tonnes/month collected (CleantechHUB card).",
+          "text_es": "Con base en Antioquia, Colombia. Sitio público: ciclorganicos.com. Tarjeta CleantechHUB: ~200 toneladas/mes recolectadas."
+        }
+      ],
+      "bg": "./assets/solution.jpg"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact &amp; Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📚",
+          "title_en": "Wiki source",
+          "title_es": "Fuente Wiki",
+          "text_en": "Profile synced from BookStack Startup Portfolio + public web sources (Acceleration cohort).",
+          "text_es": "Perfil sincronizado desde BookStack Startup Portfolio + fuentes web públicas (cohorte Acceleration)."
+        },
+        {
+          "icon": "🏷️",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomía",
+          "text_en": "CT-WA-002 · Organic Waste &amp; Composting; CT-AF-010 · Organic &amp; Regenerative Ag.",
+          "text_es": "CT-WA-002 · Residuos orgánicos y compostaje; CT-AF-010 · Ag orgánica y regenerativa."
+        }
+      ],
+      "bg": "./assets/impact.jpg"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Jaime Alberto Escobar",
+          "role_en": "General Manager &middot; Ciclorgánicos / Bio Abonos GAIA",
+          "role_es": "Gerente General &middot; Ciclorgánicos / Bio Abonos GAIA",
+          "bio_en": "Public-facing role: General Manager at Ciclorgánicos (LinkedIn). Leads organic waste valorization and compost operations.",
+          "bio_es": "Rol público: Gerente General en Ciclorgánicos (LinkedIn). Lidera valorización de residuos orgánicos y operaciones de compostaje.",
+          "linkedin": "https://www.linkedin.com/in/jaime-alberto-e-7684b6162",
+          "initials": "JE"
+        }
+      ],
+      "dream_en": "Program: CLAC22 · Acceleration. City: Medellín / Caldas. Pitch deck on profile: [PENDIENTE]. Verified KPIs: [PENDIENTE].",
+      "dream_es": "Programa: CLAC22 · Acceleration. Ciudad: Medellín / Caldas. Pitch deck en perfil: [PENDIENTE]. KPIs verificados: [PENDIENTE].",
+      "bg": "./assets/team.jpg"
+    }
+  ],
+  "image_credits": {
+    "hero": "ciclorganicos.com — /img/hero-compost.webp",
+    "problem": "Unsplash — Zoe Schaeffer (agriculture / food supply)",
+    "solution": "Unsplash — Geran de Klerk (farmland / soil inputs)",
+    "impact": "Unsplash — Carlos Muza (agricultural productivity / data)",
+    "team": "Unsplash — ThisIsEngineering (composting / industrial biology)",
+    "cta": "Unsplash — Ben Duchac (community / field team)"
+  }
+}

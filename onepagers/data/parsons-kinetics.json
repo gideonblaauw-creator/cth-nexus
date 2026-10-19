@@ -1,0 +1,171 @@
+{
+  "slug": "parsons-kinetics",
+  "name": "Parsons Kinetics",
+  "website": "https://parsonskinetics.com/",
+  "badge_en": "Distributed Wind &middot; CLAC24",
+  "badge_es": "Viento Distribuido &middot; CLAC24",
+  "hero_image": "https://images.unsplash.com/photo-1466611653911-950815379e64?w=1200&q=80",
+  "hero_sub_en": "parsonskinetics.com &middot; Colombia &middot; Energy &middot; Stage: Seed &middot; CT-EN-002",
+  "hero_sub_es": "parsonskinetics.com &middot; Colombia &middot; Energía &middot; Etapa: Seed &middot; CT-EN-002",
+  "pitch_en": "Develops biomimetic low-wind-speed turbines inspired by Amazonian tree seeds, enabling distributed renewable energy for rural and off-grid communities in Colombia.",
+  "pitch_es": "Desarrolla turbinas de baja velocidad del viento inspiradas en semillas de árboles amazónicos, habilitando energía renovable distribuida para comunidades rurales y aisladas en Colombia.",
+  "cta_pitch_en": "Develops biomimetic low-wind-speed turbines inspired by Amazonian tree seeds, enabling distributed renewable energy for rural and off-grid communities in Colombia.",
+  "cta_pitch_es": "Desarrolla turbinas de baja velocidad del viento inspiradas en semillas de árboles amazónicos, habilitando energía renovable distribuida para comunidades rurales y aisladas en Colombia.",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "ribbon": [
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    },
+    {
+      "val": "Seed",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLAC24",
+      "sub_es": "CLAC24"
+    },
+    {
+      "val": "Energy",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Métricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLAC24",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Accelerator",
+        "lab_es": "Acelerador"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Conventional small wind turbines underperform at moderate wind speeds (4–7 m/s), leaving most industrial and rural sites without viable distributed wind generation.",
+      "head_es": "Las turbinas eólicas pequeñas convencionales rinden poco a velocidades moderadas (4–7 m/s), dejando a la mayoría de sitios industriales y rurales sin generación eólica distribuida viable.",
+      "body_en": "Conventional small wind turbines underperform at moderate wind speeds (4–7 m/s), leaving most industrial and rural sites without viable distributed wind generation.",
+      "body_es": "Las turbinas eólicas pequeñas convencionales rinden poco a velocidades moderadas (4–7 m/s), dejando a la mayoría de sitios industriales y rurales sin generación eólica distribuida viable.",
+      "bg": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "🎯",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Bioseed bio-inspired axial turbines and distributed-wind deployment models (including behind-the-meter industrial use).",
+          "text_es": "Turbinas axiales Bioseed bio-inspiradas y modelos de despliegue de viento distribuido (incluyendo uso industrial behind-the-meter)."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "Parsons Kinetics — CLAC24 (CleantechHUB Colombia ClimAccelerator).",
+          "text_es": "Parsons Kinetics — CLAC24 (CleantechHUB Colombia ClimAccelerator)."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Based in Colombia. Public site: parsonskinetics.com.",
+          "text_es": "Con base en Colombia. Sitio público: parsonskinetics.com."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1532601228822-81f4c2d80a70?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact & Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Wiki source",
+          "title_es": "Fuente Wiki",
+          "text_en": "Profile synced from BookStack Startup Portfolio + Odoo (SoT).",
+          "text_es": "Perfil sincronizado desde BookStack Startup Portfolio + Odoo (SoT)."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomía",
+          "text_en": "CT-EN-002 · Wind Energy",
+          "text_es": "CT-EN-002 · Energía Eólica"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1494947667167-47d25882a46e?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Jonathan Rojas",
+          "initials": "JR",
+          "role_en": "CEO &amp; Co-founder &middot; CLAC24",
+          "role_es": "CEO y Cofundador &middot; CLAC24",
+          "bio_en": "Public-facing role: CEO &amp; Co-founder. Source: parsonskinetics.com team page.",
+          "bio_es": "Rol público: CEO y Cofundador. Fuente: página de equipo parsonskinetics.com.",
+          "linkedin": "https://www.linkedin.com/in/jonathanrojasb"
+        },
+        {
+          "name": "Camilo Bayona, PhD",
+          "initials": "CB",
+          "role_en": "CTO &amp; Co-founder &middot; CLAC24",
+          "role_es": "CTO y Cofundador &middot; CLAC24",
+          "bio_en": "Public-facing role: CTO &amp; Co-founder. Source: parsonskinetics.com team page. LinkedIn: [PENDIENTE] (no verified public profile located).",
+          "bio_es": "Rol público: CTO y Cofundador. Fuente: página de equipo parsonskinetics.com. LinkedIn: [PENDIENTE] (sin perfil público verificado)."
+        }
+      ],
+      "dream_en": "Program: CLAC24 · Acceleration. City: [PENDIENTE]. Verified KPIs: [PENDIENTE] (public marketing claims on website not copied). Pitch deck: [PENDIENTE].",
+      "dream_es": "Programa: CLAC24 · Aceleración. Ciudad: [PENDIENTE]. KPIs verificados: [PENDIENTE] (cifras de marketing del sitio no copiadas). Pitch deck: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1518437705982-4649c2d4e0c3?w=1200&q=80"
+    }
+  ],
+  "cta_bg": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1200&q=80"
+}
