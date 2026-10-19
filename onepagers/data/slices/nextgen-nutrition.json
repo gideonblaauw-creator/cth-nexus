@@ -1,0 +1,52 @@
+{
+ "name": {
+  "value": "NextGen Nutrition (Petfly)",
+  "source": "build_data.py / Seguimiento"
+ },
+ "country": {
+  "value": "CO",
+  "source": "build_data.py"
+ },
+ "stage": {
+  "value": "national",
+  "source": "build_data.py"
+ },
+ "short_description_es": {
+  "value": "Biotecnología que transforma desperdicios de alimentos en ingredientes de bajo carbono para nutrición animal.",
+  "source": "Seguimiento_CLP_2026 (Descripción)"
+ },
+ "pitch_video_drive": {
+  "value": "https://drive.google.com/file/d/1uOriVXG_YQHAcZ8u40LoQbHwJuPAzSv1/view",
+  "source": "Drive pitch folder (build_data PITCH)"
+ },
+ "youtube_pitch_url": {
+  "value": "",
+  "source": "empty slot – uploads on hold pending Gideon go-ahead"
+ },
+ "founder_linkedin": {
+  "value": null,
+  "source": ""
+ },
+ "website": {
+  "value": null,
+  "source": ""
+ },
+ "taxonomy_link": {
+  "value": null,
+  "source": ""
+ },
+ "nexus_profile_url": {
+  "value": "https://nexus.cleantechhub.net/s/nextgen-nutrition",
+  "source": "live Nexus"
+ },
+ "deck": {
+  "value": "/workspace/climate-kic/onepagers/decks/nextgen-nutrition.pdf",
+  "source": "Drive file 1xtJEOklpgJ9SVcZT0ro8iwU_b9nNkg8R"
+ },
+ "missing_fields": [
+  "founder_linkedin",
+  "website",
+  "taxonomy_link"
+ ],
+ "slug": "nextgen-nutrition"
+}
