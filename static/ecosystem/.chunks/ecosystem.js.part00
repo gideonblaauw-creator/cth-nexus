@@ -1,0 +1,66 @@
+/* Nexus LATAM Ecosystem — static data explorer */
+(function () {
+  'use strict';
+
+  const COUNTRY_META = {
+    PE: { key: 'Peru', flag: '🇵🇪', empty: false },
+    SV: { key: 'El Salvador', flag: '🇸🇻', empty: false },
+    CO: { key: 'Colombia', flag: '🇨🇴', empty: false },
+    GT: { key: 'Guatemala', flag: '🇬🇹', empty: true },
+    CR: { key: 'Costa Rica', flag: '🇨🇷', empty: true },
+  };
+
+  const CATEGORY_KEYS = [
+    'government', 'accelerator', 'international', 'funder', 'ngo_foundation',
+    'academia', 'corporate', 'finance', 'chamber', 'startup', 'media',
+  ];
+
+  const SECTOR_MAP = {
+    corporate: 'private', startup: 'private', finance: 'private', chamber: 'private', accelerator: 'private',
+    government: 'gov',
+    ngo_foundation: 'civil', academia: 'civil', media: 'civil',
+    international: 'intl',
+  };
+
+  const I18N = {
+    ES: {
+      title: 'Mapa del ecosistema LATAM',
+      sub: 'Actores de Perú, El Salvador y Colombia extraídos de mapas Canva REIN/CTH. Guatemala y Costa Rica: mapeo en preparación.',
+      actors: 'Actores', relations: 'Relaciones', countries: 'Países',
+      map: 'Mapa interactivo', clickCountry: 'Clic en un país para enfocar',
+      emptyMap: 'Mapeo en preparación — aún no hay actores georreferenciados para este país.',
+      filters: 'Filtros', search: 'Buscar organización…',
+      minRel: 'Mín. relaciones', allCountries: 'Todos',
+      sectors: { private: 'Privado', gov: 'Gobierno', civil: 'Sociedad Civil y Academia', intl: 'Internacional' },
+      cats: {
+        government: 'Gobierno', accelerator: 'Aceleradoras', international: 'Internacional',
+        funder: 'Fondos', ngo_foundation: 'ONG', academia: 'Academia', corporate: 'Corporativos',
+        finance: 'Finanzas', chamber: 'Cámaras', startup: 'Startups', media: 'Medios',
+      },
+      chartCat: 'Actores por categoría', chartCompare: 'Comparación por país',
+      network: 'Red de relaciones', noResults: 'Sin resultados con estos filtros.',
+      website: 'Sitio web', websitePending: 'Sitio PENDIENTE',
+      linkedin: 'LinkedIn', linkedinPending: 'LinkedIn PENDIENTE',
+      nexusCard: 'Ficha Nexus', nexusPending: 'Ficha Nexus pendiente',
+      relationsN: 'relaciones',
+    },
+    EN: {
+      title: 'LATAM ecosystem map',
+      sub: 'Actors from Peru, El Salvador, and Colombia (Canva actor maps). Guatemala and Costa Rica: mapping in progress.',
+      actors: 'Actors', relations: 'Relations', countries: 'Countries',
+      map: 'Interactive map', clickCountry: 'Click a country to focus',
+      emptyMap: 'Mapping in progress — no georeferenced actors for this country yet.',
+      filters: 'Filters', search: 'Search organization…',
+      minRel: 'Min. relations', allCountries: 'All',
+      sectors: { private: 'Private', gov: 'Government', civil: 'Civil Society & Academia', intl: 'International' },
+      cats: {
+        government: 'Government', accelerator: 'Accelerators', international: 'International',
+        funder: 'Funders', ngo_foundation: 'NGOs', academia: 'Academia', corporate: 'Corporates',
+        finance: 'Finance', chamber: 'Chambers', startup: 'Startups', media: 'Media',
+      },
+      chartCat: 'Actors by category', chartCompare: 'Country comparison',
+      network: 'Relations network', noResults: 'No results with these filters.',
+      website: 'Website', websitePending: 'Website PENDING',
+      linkedin: 'LinkedIn', linkedinPending: 'LinkedIn PENDING',
+      nexusCard: 'Nexus profile', nexusPending: 'Nexus profile pending',
+      relati
