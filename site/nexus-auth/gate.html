@@ -1,1 +1,266 @@
-test
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CleantechHUB Nexus — Acceso</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --deep-blue: #0C498A;
+      --light-cyan: #B2EEFA;
+      --light-green: #9DC384;
+      --forest-green: #669348;
+      --sky-blue: #69B5FA;
+      --white: #fff;
+      --text: #1a1a2e;
+      --border: #cde8f7;
+      --error: #c0392b;
+      --ok: #166534;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background: linear-gradient(160deg, var(--light-cyan) 0%, #eef9ff 45%, #fff 100%);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+    .card {
+      width: 100%;
+      max-width: 440px;
+      background: var(--white);
+      border-radius: 16px;
+      box-shadow: 0 12px 40px rgba(12,73,138,.14);
+      overflow: hidden;
+      border: 1px solid var(--border);
+    }
+    .head {
+      background: var(--deep-blue);
+      padding: 28px 28px 22px;
+      position: relative;
+    }
+    .head::after {
+      content: '';
+      position: absolute;
+      right: -30px; top: -30px;
+      width: 120px; height: 120px;
+      border-radius: 50%;
+      background: rgba(105,181,250,.18);
+    }
+    .brand { font-size: 20px; font-weight: 800; color: var(--light-cyan); letter-spacing: -.3px; }
+    .brand em { color: var(--light-green); font-style: normal; }
+    .pill {
+      display: inline-block;
+      margin-top: 8px;
+      font-size: 9px;
+      font-weight: 800;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+      color: var(--light-cyan);
+      border: 1px solid rgba(178,238,250,.35);
+      border-radius: 4px;
+      padding: 2px 7px;
+    }
+    .title { margin-top: 14px; font-size: 22px; font-weight: 800; color: var(--white); line-height: 1.2; }
+    .subtitle { margin-top: 8px; font-size: 13px; color: rgba(178,238,250,.85); line-height: 1.55; }
+    .body { padding: 24px 28px 28px; }
+    label { display: block; font-size: 11px; font-weight: 700; color: var(--deep-blue); margin: 0 0 6px; text-transform: uppercase; letter-spacing: .6px; }
+    .field { margin-bottom: 14px; }
+    input {
+      width: 100%;
+      border: 1.5px solid var(--border);
+      border-radius: 8px;
+      padding: 11px 12px;
+      font: inherit;
+      font-size: 14px;
+      outline: none;
+    }
+    input:focus { border-color: var(--sky-blue); box-shadow: 0 0 0 3px rgba(105,181,250,.18); }
+    .btn {
+      width: 100%;
+      border: none;
+      border-radius: 8px;
+      padding: 12px;
+      font: inherit;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: opacity .15s;
+    }
+    .btn:hover { opacity: .9; }
+    .btn-primary { background: var(--forest-green); color: var(--white); }
+    .btn-secondary { background: transparent; color: var(--deep-blue); border: 1.5px solid var(--border); margin-top: 10px; }
+    .msg { margin-top: 12px; font-size: 13px; line-height: 1.45; min-height: 18px; }
+    .msg.error { color: var(--error); }
+    .msg.ok { color: var(--ok); }
+    .why {
+      margin-top: 18px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+      font-size: 12px;
+      color: #456;
+      line-height: 1.55;
+    }
+    .why strong { color: var(--deep-blue); }
+    .lang { display: flex; justify-content: flex-end; gap: 6px; margin-bottom: 10px; }
+    .lang button {
+      border: none; background: transparent; color: var(--deep-blue);
+      font: inherit; font-size: 11px; font-weight: 700; cursor: pointer; opacity: .55;
+    }
+    .lang button.active { opacity: 1; text-decoration: underline; }
+    .hidden { display: none; }
+    .lock { margin-right: 4px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="head">
+      <div class="brand">Cleantech<em>HUB</em></div>
+      <div class="pill">Nexus</div>
+      <h1 class="title"><span class="lock">🔒</span> <span data-i18n="title">Acceso al directorio</span></h1>
+      <p class="subtitle" data-i18n="subtitle">Solo personal CleantechHUB (@cleantechhub.net) puede acceder a Inversores y Funders.</p>
+    </div>
+    <div class="body">
+      <div class="lang">
+        <button type="button" class="active" data-lang="es">ES</button>
+        <button type="button" data-lang="en">EN</button>
+      </div>
+
+      <form id="login-form">
+        <div class="field">
+          <label data-i18n="email">Correo</label>
+          <input type="email" name="email" required autocomplete="email" />
+        </div>
+        <div class="field">
+          <label data-i18n="password">Contraseña</label>
+          <input type="password" name="password" required autocomplete="current-password" minlength="8" />
+        </div>
+        <button class="btn btn-primary" type="submit" data-i18n="login_btn">Entrar</button>
+        <button class="btn btn-secondary" type="button" id="magic-login" data-i18n="magic_btn">Enviar enlace mágico</button>
+      </form>
+
+      <div id="msg" class="msg"></div>
+
+      <div class="why">
+        <strong data-i18n="why_title">¿Por qué registrarse?</strong>
+        <span data-i18n="why_body">Protegemos datos de contacto de inversores y financiadores. El resto de Nexus sigue público.</span>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const params = new URLSearchParams(location.search);
+    const nextPath = params.get('next') || '/investors';
+    const msg = document.getElementById('msg');
+    const loginForm = document.getElementById('login-form');
+
+    const I18N = {
+      es: {
+        title: 'Acceso al directorio',
+        subtitle: 'Solo personal CleantechHUB (@cleantechhub.net) puede acceder a Inversores y Funders.',
+        email: 'Correo @cleantechhub.net',
+        password: 'Contraseña',
+        login_btn: 'Entrar',
+        magic_btn: 'Enviar enlace mágico',
+        why_title: 'Acceso staff',
+        why_body: 'Inversores y Funders son internos. Usa tu correo @cleantechhub.net (inicio de sesión o enlace mágico). Inicio, Ideas, Startups y Mentores siguen públicos.',
+        staff_email_required: 'Solo correos @cleantechhub.net pueden acceder.',
+        registration_disabled: 'El registro público está desactivado. Usa inicio de sesión o enlace mágico.',
+        magic_sent: 'Revisa tu correo — enlace válido 20 min.',
+        login_ok: 'Acceso concedido. Redirigiendo…',
+        generic_err: 'No se pudo completar. Intenta de nuevo.'
+      },
+      en: {
+        title: 'Directory access',
+        subtitle: 'CleantechHUB staff only (@cleantechhub.net) can access Investors and Funders.',
+        email: '@cleantechhub.net email',
+        password: 'Password',
+        login_btn: 'Sign in',
+        magic_btn: 'Send magic link',
+        why_title: 'Staff access',
+        why_body: 'Investors and Funders are internal. Use your @cleantechhub.net email (sign in or magic link). Home, Ideas, Startups, and Mentors stay public.',
+        staff_email_required: 'Only @cleantechhub.net emails can access this area.',
+        registration_disabled: 'Public registration is disabled. Use sign in or magic link.',
+        magic_sent: 'Check your email — link valid 20 min.',
+        login_ok: 'Access granted. Redirecting…',
+        generic_err: 'Could not complete. Please try again.'
+      }
+    };
+
+    let lang = 'es';
+
+    function t(key) {
+      return (I18N[lang] && I18N[lang][key]) || I18N.es[key] || key;
+    }
+
+    function applyLang() {
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (I18N[lang][key]) el.textContent = I18N[lang][key];
+      });
+      document.querySelectorAll('.lang button').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.lang === lang);
+      });
+    }
+
+    document.querySelectorAll('.lang button').forEach(btn => {
+      btn.addEventListener('click', () => { lang = btn.dataset.lang; applyLang(); });
+    });
+
+    function showMsg(text, kind) {
+      msg.textContent = text;
+      msg.className = 'msg ' + (kind || '');
+    }
+
+    async function postJson(url, body) {
+      const res = await fetch(url, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body),
+        credentials: 'same-origin'
+      });
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok) throw new Error(t(data.error) || data.error || t('generic_err'));
+      return data;
+    }
+
+    loginForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const fd = new FormData(loginForm);
+      try {
+        await postJson('/nexus-auth/api/login', {
+          email: fd.get('email'),
+          password: fd.get('password')
+        });
+        showMsg(t('login_ok'), 'ok');
+        location.href = nextPath;
+      } catch (err) {
+        showMsg(err.message || t('generic_err'), 'error');
+      }
+    });
+
+    document.getElementById('magic-login').addEventListener('click', async () => {
+      const fd = new FormData(loginForm);
+      try {
+        await postJson('/nexus-auth/api/magic-link', {
+          email: fd.get('email'),
+          next: nextPath
+        });
+        showMsg(t('magic_sent'), 'ok');
+      } catch (err) {
+        showMsg(err.message || t('generic_err'), 'error');
+      }
+    });
+
+    if (params.get('error')) {
+      showMsg(t('generic_err'), 'error');
+    }
+
+    applyLang();
+  </script>
+</body>
+</html>
