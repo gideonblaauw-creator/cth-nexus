@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
-"""Sync Nexus /s/ batch slugs → Odoo (org + founder contacts) and BookStack wiki (draft).
+"""Prepare batch 4–6 startup records: file-based Wiki drafts + optional Odoo (when up).
 
-Reads onepager JSON from GitHub refs (batch 4–6). Idempotent: skips filled fields.
+Wiki: writes ops/wiki-drafts/<slug>.md only (never calls BookStack — draft API still publishes live).
+Odoo: skipped by default (--attempt-odoo to probe XML-RPC when services.cleantechhub.net is healthy).
+
+Reads onepager JSON from GitHub refs. Sourced facts only; unknowns marked [PENDIENTE].
 """
 from __future__ import annotations
 
+import argparse
 import json
 import re
 import sys
@@ -14,13 +18,10 @@ from pathlib import Path
 from urllib.parse import urlparse
 from urllib.request import urlopen
 
-import requests
-
 OWNER, REPO = "gideonblaauw-creator", "cth-nexus"
-BOOK_ID = 1694
-CHAPTER_BY_THEME = {"CE": 1751, "BIO": 1752, "EN": 1753}
+ROOT = Path(__file__).resolve().parents[1]
+WIKI_DRAFTS = ROOT / "ops" / "wiki-drafts"
 ODOO_ENV = Path("/opt/odoo-mcp/.env")
-BOOK_ENV = Path("/opt/idea-browser/.env")
 
 BATCHES: dict[str, tuple[str, str, list[str]]] = {
     "batch4": ("a91df06", "feat/s-pages-batch-4-9a1a", [
@@ -42,6 +43,9 @@ CT_LABELS = {
     "CT-WA-001": "Waste-to-Energy & Biogas",
     "CT-WA-002": "Organic Waste & Composting",
     "CT-EN-001": "Solar PV",
+    "CT-IN-003": "Circular Economy & Clean Mfg",
+    "CT-IN-004": "Industrial Symbiosis",
+    "CT-XS-003": "Green Finance",
 }
 
 
@@ -68,6 +72,7 @@ def strip_html(s: str) -> str:
     if not s:
         return ""
     s = re.sub(r"&middot;", " · ", s)
+    s = re.sub(r"&amp;", "&", s)
     s = re.sub(r"&[^;]+;", "", s)
     return unescape(re.sub(r"<[^>]+>", "", s))
 
@@ -120,7 +125,7 @@ def stage_from_data(d: dict) -> str:
             if v.startswith("[P"):
                 return "[PENDIENTE]"
             return v
-    return "[PENDIENTE"
+    return "[PENDIENTE]"
 
 
 def website_url(d: dict) -> str | None:
@@ -136,8 +141,8 @@ def website_host(d: dict) -> str | None:
     url = website_url(d)
     if not url:
         return None
-    host = urlparse(url).netloc or urlparse(f"https://{url}").path
-    return host.replace("www.", "")
+    host = urlparse(url).netloc
+    return host.replace("www.", "") if host else None
 
 
 def founders_from_data(d: dict) -> list[dict]:
@@ -174,6 +179,8 @@ def parse_record(slug: str, ref: str, branch: str, sha: str, batch: str) -> dict
         pend.append("founder")
     elif any(not f.get("linkedin") for f in founders):
         pend.append("founder_linkedin")
+    badge = strip_html(d.get("badge_en", ""))
+    program = badge.split("·")[0].strip() if badge else "[PENDIENTE]"
     return {
         "batch": batch,
         "branch": branch,
@@ -182,7 +189,7 @@ def parse_record(slug: str, ref: str, branch: str, sha: str, batch: str) -> dict
         "name": d.get("name") or slug,
         "website": website_host(d),
         "website_url": website_url(d),
-        "program": strip_html(d.get("badge_en", "")).split("·")[0].strip(),
+        "program": program,
         "country": country_code(d),
         "theme": theme_from_data(d),
         "stage": stage,
@@ -191,56 +198,7 @@ def parse_record(slug: str, ref: str, branch: str, sha: str, batch: str) -> dict
         "pitch_es": strip_html(d.get("pitch_es", "")),
         "founders": founders,
         "pendiente": pend,
-        "_raw": d,
     }
-
-
-class BookStack:
-    def __init__(self) -> None:
-        env = load_env(BOOK_ENV)
-        self.base = env["BOOKSTACK_URL"].rstrip("/")
-        self.headers = {
-            "Authorization": f"Token {env['BOOKSTACK_TOKEN_ID']}:{env['BOOKSTACK_TOKEN_SECRET']}",
-            "Content-Type": "application/json",
-        }
-
-    def get(self, path: str, **params):
-        r = requests.get(f"{self.base}/api{path}", headers=self.headers, params=params, timeout=60)
-        r.raise_for_status()
-        return r.json()
-
-    def put(self, path: str, payload: dict):
-        r = requests.put(f"{self.base}/api{path}", headers=self.headers, json=payload, timeout=60)
-        r.raise_for_status()
-        return r.json()
-
-    def post(self, path: str, payload: dict):
-        r = requests.post(f"{self.base}/api{path}", headers=self.headers, json=payload, timeout=60)
-        r.raise_for_status()
-        return r.json()
-
-    def find_page(self, name: str, slug: str) -> dict | None:
-        for q in (f'{{tags:nexus_slug={slug}}}', f'"{name}" {{type:page}}', slug):
-            data = self.get("/search", query=q, count=15)
-            for item in data.get("data", []):
-                if item.get("type") != "page":
-                    continue
-                page = self.get(f"/pages/{item['id']}")
-                tags = {t["name"]: t.get("value") for t in page.get("tags", [])}
-                if tags.get("nexus_slug") == slug:
-                    return page
-                if item.get("name", "").lower() == name.lower():
-                    return page
-                if slug.replace("-", " ") in item.get("name", "").lower():
-                    return page
-        return None
-
-    def merge_tags(self, tags: list[dict], updates: dict[str, str]) -> list[dict]:
-        by_name = {t["name"]: t for t in tags}
-        for k, v in updates.items():
-            if v:
-                by_name[k] = {"name": k, "value": v}
-        return list(by_name.values())
 
 
 def ct_display(code: str) -> str:
@@ -250,46 +208,49 @@ def ct_display(code: str) -> str:
     return f"{code} · {label}"
 
 
-def ensure_founders_md(md: str, founders: list[dict]) -> str:
-    if "## Founder" in md or "## Founders" in md:
-        return md
-    if not founders:
-        block = "## Founders\n\n[PENDIENTE]\n"
-    else:
-        lines = ["## Founders", ""]
-        for f in founders:
-            li = f.get("linkedin")
-            if li:
-                lines.append(f"- **{f['name']}** — {f.get('role') or 'Founder'} · [LinkedIn]({li})")
-            else:
-                lines.append(f"- **{f['name']}** — {f.get('role') or 'Founder'} · LinkedIn: [PENDIENTE]")
-        lines.append("")
-        block = "\n".join(lines)
-    if md.strip():
-        return md.rstrip() + "\n\n---\n\n" + block
-    return block
-
-
-def patch_ct_snapshot(md: str, ct_code: str) -> str:
-    if not ct_code:
-        return md
-    disp = ct_display(ct_code)
-    if "| CT Taxonomy |" not in md:
-        return md
-    if re.search(r"\| CT Taxonomy \| \[PENDIENTE\]", md):
-        return re.sub(r"\| CT Taxonomy \| \[PENDIENTE\] \|", f"| CT Taxonomy | {disp} |", md, count=1)
-    if re.search(r"\| CT Taxonomy \| — \|", md):
-        return re.sub(r"\| CT Taxonomy \| — \|", f"| CT Taxonomy | {disp} |", md, count=1)
-    return md
-
-
-def render_new_page(rec: dict) -> str:
+def render_wiki_draft(rec: dict) -> str:
     host = rec.get("website")
     web = f"[{host}]({rec['website_url']})" if host else "—"
     stage = rec["stage"] if rec["stage"] != "[PENDIENTE]" else "[PENDIENTE]"
     theme_map = {"CE": "Circular Economy", "BIO": "Bioeconomy", "EN": "Energy Transition"}
     sector = theme_map.get(rec["theme"], "Circular Economy")
-    md = f"""# {rec['name']}
+    founder_lines: list[str] = []
+    if rec.get("founders"):
+        for f in rec["founders"]:
+            li = f.get("linkedin")
+            role = f.get("role") or "Founder"
+            if li:
+                founder_lines.append(f"- **{f['name']}** — {role} · [LinkedIn]({li})")
+            else:
+                founder_lines.append(f"- **{f['name']}** — {role} · LinkedIn: [PENDIENTE]")
+    else:
+        founder_lines.append("[PENDIENTE]")
+
+    founder_tag = rec["founders"][0]["name"] if rec.get("founders") else "[PENDIENTE]"
+    ct_primary = rec.get("ct1") or "[PENDIENTE]"
+    fm = f"""status: draft-file-only
+bookstack_publish: false
+nexus_slug: {rec['slug']}
+source_branch: {rec['branch']}
+source_sha: {rec['sha']}
+batch: {rec['batch']}
+country: {rec['country']}
+program: {rec.get('program') or '[PENDIENTE]'}
+stage: {stage}
+ct_primary: {ct_primary}
+tag_type: startup-profile
+tag_source: nexus-s-pages-batch
+tag_founder: {founder_tag}"""
+    founders_block = "\n".join(founder_lines)
+    pitch_es = rec.get("pitch_es") or "[PENDIENTE]"
+
+    return f"""---
+{fm}
+---
+
+# {rec['name']}
+
+> HITL: paste into BookStack Startup Portfolio book after review. Do not auto-import.
 
 ## Snapshot
 | Field | Value |
@@ -302,68 +263,35 @@ def render_new_page(rec: dict) -> str:
 | CT Taxonomy | {ct_display(rec.get('ct1') or '')} |
 | Nexus one-pager | [nexus.cleantechhub.net/s/{rec['slug']}](https://nexus.cleantechhub.net/s/{rec['slug']}) |
 
-## Description
+## Description (EN)
 {rec.get('pitch_en') or '[PENDIENTE]'}
 
+## Description (ES)
+{pitch_es}
+
+## Founders
+{founders_block}
+
+## Source
+- JSON: `onepagers/data/{rec['slug']}.json` @ `{rec['sha']}` ({rec['branch']})
 """
-    return ensure_founders_md(md, rec.get("founders") or [])
 
 
-def sync_wiki(bs: BookStack, rec: dict) -> dict:
-    existing = bs.find_page(rec["name"], rec["slug"])
-    chapter_id = CHAPTER_BY_THEME.get(rec["theme"], 1751)
-    ct_code = rec.get("ct1") or ""
-    founder0 = (rec.get("founders") or [{}])[0].get("name") if rec.get("founders") else ""
-    tag_updates = {
-        "type": "startup-profile",
-        "nexus_slug": rec["slug"],
-        "source": "nexus-s-pages-batch",
-        "country": rec["country"],
-        "stage": rec["stage"] if rec["stage"] != "[PENDIENTE]" else "pending",
-    }
-    if ct_code:
-        tag_updates["ct_primary"] = ct_code
-    if founder0:
-        tag_updates["founder"] = founder0
-
-    if existing:
-        md = existing.get("markdown") or ""
-        md = patch_ct_snapshot(md, ct_code)
-        md = ensure_founders_md(md, rec.get("founders") or [])
-        tags = bs.merge_tags(existing.get("tags", []), tag_updates)
-        payload = {
-            "book_id": existing["book_id"],
-            "chapter_id": existing.get("chapter_id") or chapter_id,
-            "name": existing["name"],
-            "markdown": md,
-            "tags": tags,
-            "draft": True,
-        }
-        bs.put(f"/pages/{existing['id']}", payload)
-        slug_path = existing.get("slug") or ""
-        url = f"{bs.base}/books/startup-portfolio/page/{slug_path}" if slug_path else f"{bs.base}/books/startup-portfolio"
-        return {"wiki_id": existing["id"], "wiki_url": url, "action": "updated_draft", "status": "existing"}
-
-    md = render_new_page(rec)
-    tags = [{"name": k, "value": v} for k, v in tag_updates.items() if v]
-    created = bs.post("/pages", {
-        "book_id": BOOK_ID,
-        "chapter_id": chapter_id,
-        "name": rec["name"],
-        "markdown": md,
-        "tags": tags,
-        "draft": True,
-    })
-    slug_path = created.get("slug") or ""
-    url = f"{bs.base}/books/startup-portfolio/page/{slug_path}"
-    return {"wiki_id": created["id"], "wiki_url": url, "action": "created_draft", "status": "new"}
+def write_wiki_draft(rec: dict) -> dict:
+    WIKI_DRAFTS.mkdir(parents=True, exist_ok=True)
+    path = WIKI_DRAFTS / f"{rec['slug']}.md"
+    content = render_wiki_draft(rec)
+    if path.exists() and path.read_text(encoding="utf-8").strip() == content.strip():
+        return {"path": str(path.relative_to(ROOT)), "action": "unchanged"}
+    path.write_text(content, encoding="utf-8")
+    return {"path": str(path.relative_to(ROOT)), "action": "written"}
 
 
-def odoo_exec(models, db, uid, pwd, model, method, *args, **kwargs):
-    return models.execute_kw(db, uid, pwd, model, method, list(args), kwargs)
+def odoo_row() -> dict:
+    return {"status": "skipped", "reason": "Odoo XML-RPC 502 — not attempted"}
 
 
-def sync_odoo(rec: dict) -> dict:
+def attempt_odoo() -> dict:
     env = load_env(ODOO_ENV)
     if not env.get("ODOO_URL"):
         return {"status": "skipped", "error": "ODOO_URL missing"}
@@ -378,65 +306,15 @@ def sync_odoo(rec: dict) -> dict:
         return {"status": "error", "error": str(e)}
     if not uid:
         return {"status": "error", "error": "auth failed"}
-
-    models = xmlrpc.client.ServerProxy(f"{url}/xmlrpc/2/object", allow_none=True)
-    name = rec["name"]
-    domain = [
-        "&",
-        "|",
-        ("name", "ilike", name),
-        ("x_startup_name", "ilike", rec["slug"]),
-        ("is_company", "=", True),
-    ]
-    existing = odoo_exec(models, db, uid, pwd, "res.partner", "search_read", [domain], {
-        "fields": ["id", "name", "website", "comment", "x_startup_name"],
-        "limit": 5,
-    })
-    values: dict = {"is_company": True, "active": True}
-    if rec.get("website_url"):
-        values["website"] = rec["website_url"]
-    if rec.get("slug"):
-        values["x_startup_name"] = rec["slug"]
-
-    partner_id: int | None = None
-    action = "existing"
-    if existing:
-        partner_id = existing[0]["id"]
-        write_vals = {}
-        if rec.get("website_url") and not (existing[0].get("website") or "").strip():
-            write_vals["website"] = rec["website_url"]
-        if rec.get("slug") and not (existing[0].get("x_startup_name") or "").strip():
-            write_vals["x_startup_name"] = rec["slug"]
-        if write_vals:
-            odoo_exec(models, db, uid, pwd, "res.partner", "write", [[partner_id], write_vals])
-            action = "updated_blanks"
-    else:
-        values["name"] = name
-        partner_id = odoo_exec(models, db, uid, pwd, "res.partner", "create", [values])
-        action = "created_draft"
-
-    founder_ids: list[int] = []
-    for f in rec.get("founders") or []:
-        if not f.get("linkedin"):
-            continue
-        fd = [("name", "=", f["name"]), ("is_company", "=", False)]
-        fex = odoo_exec(models, db, uid, pwd, "res.partner", "search_read", [fd], {
-            "fields": ["id", "website"], "limit": 1,
-        })
-        fvals = {"name": f["name"], "is_company": False, "website": f["linkedin"], "active": True}
-        if fex:
-            fid = fex[0]["id"]
-            if not (fex[0].get("website") or "").strip():
-                odoo_exec(models, db, uid, pwd, "res.partner", "write", [[fid], {"website": f["linkedin"]}])
-        else:
-            fid = odoo_exec(models, db, uid, pwd, "res.partner", "create", [fvals])
-        founder_ids.append(fid)
-
-    return {"status": "ok", "odoo_id": partner_id, "action": action, "founder_contacts": founder_ids}
+    return {"status": "ok", "note": "reachable; upsert disabled in file-only mode"}
 
 
 def main() -> int:
-    bs = BookStack()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--attempt-odoo", action="store_true")
+    parser.add_argument("--report", type=Path, default=Path("/tmp/s-pages-batch-4-6-sync-report.json"))
+    args = parser.parse_args()
+
     report: list[dict] = []
     for batch, (sha, branch, slugs) in BATCHES.items():
         for slug in slugs:
@@ -447,18 +325,13 @@ def main() -> int:
                 "branch": branch,
                 "sha": sha,
                 "pendiente": rec["pendiente"],
+                "wiki_draft": write_wiki_draft(rec),
+                "odoo": attempt_odoo() if args.attempt_odoo else odoo_row(),
             }
-            row["odoo"] = sync_odoo(rec)
-            try:
-                row["wiki"] = sync_wiki(bs, rec)
-            except Exception as e:
-                row["wiki"] = {"status": "error", "error": str(e)}
             report.append(row)
 
-    out = Path("/tmp/s-pages-batch-4-6-sync-report.json")
-    out.write_text(json.dumps(report, indent=2, ensure_ascii=False))
-    print(out)
-    print(json.dumps({"slugs": len(report), "odoo_ok": sum(1 for r in report if r["odoo"].get("status") == "ok")}, indent=2))
+    args.report.write_text(json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8")
+    print(args.report)
     return 0
 
 
