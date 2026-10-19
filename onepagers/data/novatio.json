@@ -1,0 +1,172 @@
+{
+  "slug": "novatio",
+  "name": "Novatio",
+  "website": "https://novatio.com.co/",
+  "badge_en": "Biogas &amp; Biodigesters &middot; CLAC23 &middot; Acceleration",
+  "badge_es": "Biogás y biodigestores &middot; CLAC23 &middot; Aceleración",
+  "hero_image": "https://novatio.com.co/wp-content/uploads/2022/08/Energia-que-transforma-1024x768.jpg",
+  "hero_sub_en": "novatio.com.co &middot; Cali, Colombia &middot; Seed &middot; CT-WA-001 &middot; CT-EN-010",
+  "hero_sub_es": "novatio.com.co &middot; Cali, Colombia &middot; Seed &middot; CT-WA-001 &middot; CT-EN-010",
+  "pitch_en": "Social enterprise engineering biodigesters and biogas plants that turn organic waste into clean energy and biofertilizer for rural families and agribusiness.",
+  "pitch_es": "Empresa social de ingeniería en biodigestores y plantas de biogás que convierten residuos orgánicos en energía limpia y biofertilizante para familias rurales y agroindustria.",
+  "cta_pitch_en": "End-to-end methanization projects: design, construction, operation, and compliance for organic waste valorization.",
+  "cta_pitch_es": "Proyectos de metanización integrales: diseño, construcción, operación y cumplimiento para valorización de residuos orgánicos.",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "cta_bg": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80",
+  "ribbon": [
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    },
+    {
+      "val": "Seed",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLAC23",
+      "sub_es": "CLAC23"
+    },
+    {
+      "val": "CT-WA",
+      "lab_en": "Taxonomy",
+      "lab_es": "Taxonomía",
+      "sub_en": "CT-WA-001",
+      "sub_es": "CT-WA-001"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Métricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLAC23",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "BIC",
+        "lab_en": "Novatio SAS BIC",
+        "lab_es": "Novatio SAS BIC"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "Cali",
+        "lab_en": "City",
+        "lab_es": "Ciudad"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Organic waste and wood fuel use drive emissions and health risks in rural Colombia.",
+      "head_es": "Residuos orgánicos y uso de leña generan emisiones y riesgos de salud en zonas rurales de Colombia.",
+      "body_en": "Farming families and processors lack affordable systems to capture methane from organic waste and displace firewood for cooking — missing energy and fertilizer value.",
+      "body_es": "Familias campesinas y procesadores carecen de sistemas accesibles para capturar metano de residuos orgánicos y reemplazar leña para cocción — perdiendo valor energético y fertilizante.",
+      "bg": "https://novatio.com.co/wp-content/uploads/2022/08/Palma-aceitera.jpg"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "♻️",
+          "label_en": "Digest",
+          "label_es": "Digestionar",
+          "text_en": "Design and build tubular biodigesters for farms and industrial biogas plants for agro processors.",
+          "text_es": "Diseño y construcción de biodigestores tubulares para fincas y plantas de biogás industriales."
+        },
+        {
+          "icon": "🔥",
+          "label_en": "Energize",
+          "label_es": "Energizar",
+          "text_en": "Convert organic waste into biogas for heat/electricity and displace wood fuel.",
+          "text_es": "Convertir residuos orgánicos en biogás para calor/electricidad y desplazar leña."
+        },
+        {
+          "icon": "🌱",
+          "label_en": "Fertilize",
+          "label_es": "Fertilizar",
+          "text_en": "Produce biofertilizer co-products and support permits, O&amp;M, and impact reporting.",
+          "text_es": "Producir biofertilizantes y apoyar permisos, O&amp;M e informes de impacto."
+        }
+      ],
+      "bg": "https://novatio.com.co/wp-content/uploads/2022/08/Porcicultura.jpg"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact &amp; Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Portfolio source",
+          "title_es": "Fuente portafolio",
+          "text_en": "Nexus card NOVATIO (CLAC23) — CT-WA-001 primary, CT-EN-010 secondary.",
+          "text_es": "Tarjeta Nexus NOVATIO (CLAC23) — CT-WA-001 primario, CT-EN-010 secundario."
+        },
+        {
+          "icon": "🤝",
+          "title_en": "Triple impact",
+          "title_es": "Triple impacto",
+          "text_en": "Benefit corporation (BIC) model integrating environmental, social, and economic outcomes (company site).",
+          "text_es": "Modelo BIC integrando resultados ambientales, sociales y económicos (sitio empresa)."
+        }
+      ],
+      "bg": "https://novatio.com.co/wp-content/uploads/2022/08/Programas-de-impacto.jpg"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Arnaud Godet",
+          "initials": "AG",
+          "role_en": "Co-founder &amp; CEO",
+          "role_es": "Cofundador y gerente general",
+          "bio_en": "Environmental engineer leading Novatio engineering and biogas projects. Source: novatio.com.co / LinkedIn.",
+          "bio_es": "Ingeniero ambiental al frente de proyectos de biogás Novatio. Fuente: novatio.com.co / LinkedIn.",
+          "linkedin": "https://www.linkedin.com/in/arnaud-godet-3995a326"
+        },
+        {
+          "name": "Quentin Bulcourt",
+          "initials": "QB",
+          "role_en": "Co-founder &amp; Commercial manager",
+          "role_es": "Cofundador y gerente comercial",
+          "bio_en": "Commercial lead for biogas and biomethane projects across LATAM. Source: novatio.com.co / LinkedIn.",
+          "bio_es": "Líder comercial de proyectos de biogás y biometano en LATAM. Fuente: novatio.com.co / LinkedIn.",
+          "linkedin": "https://www.linkedin.com/in/quentin-bulcourt-6643345b"
+        }
+      ],
+      "dream_en": "Impact figures in BIC reports: not duplicated here without deck verification. Pitch deck: [PENDIENTE]. Image credits — Hero: novatio.com.co — Energía que transforma (project photo); §01: novatio.com.co — oil-palm effluent / biogas context; §02: novatio.com.co — swine farming biodigester application; §03: novatio.com.co — community impact programs; §04: novatio.com.co — cross-sector project mirror; CTA: Unsplash (photo-1460925895917) — business / project analytics.",
+      "dream_es": "Cifras de impacto en reportes BIC: no duplicadas aquí sin verificación de deck. Pitch deck: [PENDIENTE]. Image credits — Hero: novatio.com.co — Energía que transforma (project photo); §01: novatio.com.co — oil-palm effluent / biogas context; §02: novatio.com.co — swine farming biodigester application; §03: novatio.com.co — community impact programs; §04: novatio.com.co — cross-sector project mirror; CTA: Unsplash (photo-1460925895917) — business / project analytics.",
+      "bg": "https://novatio.com.co/wp-content/uploads/2022/08/espejo-otros-sectores.jpg"
+    }
+  ]
+}
