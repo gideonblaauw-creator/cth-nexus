@@ -1,0 +1,934 @@
+[
+  {
+    "startup": "ARCONS CONTAINERS",
+    "ct_taxonomy": "CT-BU-001"
+  },
+  {
+    "startup": "Abonos GuanaVerde",
+    "ct_taxonomy": "CT-WA-002"
+  },
+  {
+    "startup": "Agroecológica Alvarez",
+    "ct_taxonomy": "CT-AF-005"
+  },
+  {
+    "startup": "Agrosenser, Sistema de precisión Agrícola e inteligencia Satelital",
+    "ct_taxonomy": "CT-AF-007"
+  },
+  {
+    "startup": "AmbiciOsas",
+    "ct_taxonomy": "CT-WA-003"
+  },
+  {
+    "startup": "Arusha Ungalishe",
+    "ct_taxonomy": "CT-AF-010"
+  },
+  {
+    "startup": "Association for the Recycling of Plastic and Palm (ARPP)",
+    "ct_taxonomy": "CT-WA-003"
+  },
+  {
+    "startup": "BioPack",
+    "ct_taxonomy": "CT-WA-002"
+  },
+  {
+    "startup": "BioResin",
+    "ct_taxonomy": "CT-IN-004"
+  },
+  {
+    "startup": "Biogrow CR",
+    "ct_taxonomy": "CT-WA-002"
+  },
+  {
+    "startup": "Bioware Costa Rica",
+    "ct_taxonomy": "CT-WA-002"
+  },
+  {
+    "startup": "Clean Speed",
+    "ct_taxonomy": "CT-TR-004"
+  },
+  {
+    "startup": "Cursos de Huertas Urbanas Orgánicas",
+    "ct_taxonomy": "CT-AF-012"
+  },
+  {
+    "startup": "Destino Crucero Carbono",
+    "ct_taxonomy": "CT-WW-003"
+  },
+  {
+    "startup": "Diana López-ecojoyas",
+    "ct_taxonomy": "CT-IN-004"
+  },
+  {
+    "startup": "ECONEXUS",
+    "ct_taxonomy": "CT-AF-012"
+  },
+  {
+    "startup": "EcoGranja Lodge",
+    "ct_taxonomy": "CT-AF-004"
+  },
+  {
+    "startup": "Ecoaldeas  frutales",
+    "ct_taxonomy": "CT-BU-003"
+  },
+  {
+    "startup": "Ecomuna",
+    "ct_taxonomy": "CT-XS-004"
+  },
+  {
+    "startup": "Eutecnia Biotech",
+    "ct_taxonomy": "CT-AF-009"
+  },
+  {
+    "startup": "Fauna Latina",
+    "ct_taxonomy": "CT-AF-005"
+  },
+  {
+    "startup": "Fazzty",
+    "ct_taxonomy": "CT-TR-001"
+  },
+  {
+    "startup": "Finca Gavilán, agroecología y turismo",
+    "ct_taxonomy": "CT-AF-012"
+  },
+  {
+    "startup": "Finca ganadera Águilas verdes",
+    "ct_taxonomy": "CT-AF-004"
+  },
+  {
+    "startup": "Ganadería GUME",
+    "ct_taxonomy": "CT-AF-004"
+  },
+  {
+    "startup": "Gla-pla eco Rwanda",
+    "ct_taxonomy": "CT-WA-003"
+  },
+  {
+    "startup": "Green regeneration",
+    "ct_taxonomy": "CT-AF-005"
+  },
+  {
+    "startup": "GreenHooves Community Enterprise",
+    "ct_taxonomy": "CT-AF-004"
+  },
+  {
+    "startup": "Greener Fuel Costa Rica",
+    "ct_taxonomy": "CT-IN-004"
+  },
+  {
+    "startup": "Guardianes de Perros",
+    "ct_taxonomy": "CT-XS-008"
+  },
+  {
+    "startup": "Hogar Ecológico Ingeniería",
+    "ct_taxonomy": "CT-BU-001"
+  },
+  {
+    "startup": "Huertas Urbanas Orgánicas",
+    "ct_taxonomy": "CT-AF-012"
+  },
+  {
+    "startup": "ImPAQ™ World - Wheels to Fit Your Life",
+    "ct_taxonomy": "CT-TR-001"
+  },
+  {
+    "startup": "Interpreto",
+    "ct_taxonomy": "CT-XS-008"
+  },
+  {
+    "startup": "Kalwak",
+    "ct_taxonomy": "CT-AF-012"
+  },
+  {
+    "startup": "Los Hijos del Monte CR",
+    "ct_taxonomy": "CT-AF-003"
+  },
+  {
+    "startup": "Manantial Ecotours",
+    "ct_taxonomy": "CT-AF-005"
+  },
+  {
+    "startup": "Mystic Mountain Project",
+    "ct_taxonomy": "CT-AF-010"
+  },
+  {
+    "startup": "Nortico Cacao Farm",
+    "ct_taxonomy": "CT-AF-003"
+  },
+  {
+    "startup": "ONCA",
+    "ct_taxonomy": "CT-WA-003"
+  },
+  {
+    "startup": "Oyster SeaFarm S.A.",
+    "ct_taxonomy": "CT-AF-006"
+  },
+  {
+    "startup": "Perdomoarts",
+    "ct_taxonomy": "CT-WA-003"
+  },
+  {
+    "startup": "Plant one three to save the world",
+    "ct_taxonomy": "CT-AF-005"
+  },
+  {
+    "startup": "Plastic Free Planet",
+    "ct_taxonomy": "CT-WA-003"
+  },
+  {
+    "startup": "Protección de bosques",
+    "ct_taxonomy": "CT-AF-005"
+  },
+  {
+    "startup": "Providencia Regenera",
+    "ct_taxonomy": "CT-AF-012"
+  },
+  {
+    "startup": "Puentes aéreos para paso seguro de animales sobre carretera",
+    "ct_taxonomy": "CT-BU-005"
+  },
+  {
+    "startup": "Red Colaborativa Ubuntu",
+    "ct_taxonomy": "CT-AF-012"
+  },
+  {
+    "startup": "SABÓ by vanessa",
+    "ct_taxonomy": "CT-AF-012"
+  },
+  {
+    "startup": "Sandra's Craft",
+    "ct_taxonomy": "CT-WA-003"
+  },
+  {
+    "startup": "Secret EcoBliss - Cicular Coconut Platform",
+    "ct_taxonomy": "CT-WA-001"
+  },
+  {
+    "startup": "Sempiternal Honey",
+    "ct_taxonomy": "CT-AF-012"
+  },
+  {
+    "startup": "Siloe Garden",
+    "ct_taxonomy": "CT-AF-008"
+  },
+  {
+    "startup": "Solano Forest Reserve",
+    "ct_taxonomy": "CT-AF-005"
+  },
+  {
+    "startup": "Soluciones Ecológicas Mundo Verde",
+    "ct_taxonomy": "CT-WA-002"
+  },
+  {
+    "startup": "Targua Naturals",
+    "ct_taxonomy": "CT-AF-009"
+  },
+  {
+    "startup": "Tengo la idea de crear una guía a nivel nacional para la correcta gestión de residuos aprovechables, junto con estrategias de apoyo al artesano creando productos desde los desechos creando un",
+    "ct_taxonomy": "CT-WA-003"
+  },
+  {
+    "startup": "The Living Garden at El Escobón",
+    "ct_taxonomy": "CT-AF-004"
+  },
+  {
+    "startup": "ToyCycles",
+    "ct_taxonomy": "CT-WA-003"
+  },
+  {
+    "startup": "VIBRA+",
+    "ct_taxonomy": "CT-WA-003"
+  },
+  {
+    "startup": "ViaPsico",
+    "ct_taxonomy": "CT-BU-004"
+  },
+  {
+    "startup": "Zero Waste Technology",
+    "ct_taxonomy": "CT-WA-002"
+  },
+  {
+    "startup": "auto-sustainable farming school",
+    "ct_taxonomy": "CT-AF-012"
+  },
+  {
+    "startup": "“GypsySoul transforms discarded materials into intentional pieces and ritual objects. Through our Spotify transmissions, we expand this world into sound—creating a sensory universe that recon",
+    "ct_taxonomy": "CT-WA-003"
+  },
+  {
+    "startup": "321solsv",
+    "ct_taxonomy": "CT-EN-001"
+  },
+  {
+    "startup": "Acromantion aerodinamics",
+    "ct_taxonomy": "CT-TR-001"
+  },
+  {
+    "startup": "Adaptacion de las descargas de lavadoras de uso domestico para reuso",
+    "ct_taxonomy": "CT-WW-002"
+  },
+  {
+    "startup": "AgriVoltaic Dragón fruit",
+    "ct_taxonomy": "CT-AF-007"
+  },
+  {
+    "startup": "Agrilpa",
+    "ct_taxonomy": "CT-AF-002"
+  },
+  {
+    "startup": "Agrismart",
+    "ct_taxonomy": "CT-AF-007"
+  },
+  {
+    "startup": "AgroHotel Solidario Suchitoto.",
+    "ct_taxonomy": "CT-AF-012"
+  },
+  {
+    "startup": "Alyvia International",
+    "ct_taxonomy": "CT-XS-005"
+  },
+  {
+    "startup": "Apicola chilin de argueta",
+    "ct_taxonomy": "CT-AF-012"
+  },
+  {
+    "startup": "BioHotel Néctar",
+    "ct_taxonomy": "CT-AF-003"
+  },
+  {
+    "startup": "DrainAlert",
+    "ct_taxonomy": "CT-BU-004"
+  },
+  {
+    "startup": "EEM TECH",
+    "ct_taxonomy": "CT-EN-001"
+  },
+  {
+    "startup": "Ecoarteturias",
+    "ct_taxonomy": "CT-IN-004"
+  },
+  {
+    "startup": "Ecolandia",
+    "ct_taxonomy": "CT-AF-012"
+  },
+  {
+    "startup": "El Huerto de Dios",
+    "ct_taxonomy": "CT-AF-012"
+  },
+  {
+    "startup": "Estratego Global Consulting",
+    "ct_taxonomy": "CT-WW-002"
+  },
+  {
+    "startup": "Eva Manzana",
+    "ct_taxonomy": "CT-WA-003"
+  },
+  {
+    "startup": "Fundacion FUNDAVIMIES DE EL SALVADOR. CREADORES DE: LAMP - PWAL ABISAL -OS- ES-NAVAS-1. ES UN INSTRUMENTO CREADO PARA SALVAR VIDAS ABISALMENTE Y EN SU DEFECTO RESCATAR CUERPOS EN CUALQUIER PA",
+    "ct_taxonomy": "CT-XS-004"
+  },
+  {
+    "startup": "Guardianes del Bosque by Mamapán",
+    "ct_taxonomy": "CT-WA-003"
+  },
+  {
+    "startup": "Huertos y talleres para empresas",
+    "ct_taxonomy": "CT-AF-012"
+  },
+  {
+    "startup": "Hydro Clean Pro",
+    "ct_taxonomy": "CT-IN-001"
+  },
+  {
+    "startup": "LEVA",
+    "ct_taxonomy": "CT-WA-003"
+  },
+  {
+    "startup": "ManglArte",
+    "ct_taxonomy": "CT-AF-005"
+  },
+  {
+    "startup": "Mano de Oro: Women in Coffee",
+    "ct_taxonomy": "CT-AF-001"
+  },
+  {
+    "startup": "Mayazul",
+    "ct_taxonomy": "CT-IN-004"
+  },
+  {
+    "startup": "Mister NONI",
+    "ct_taxonomy": "CT-AF-012"
+  },
+  {
+    "startup": "Moskem Trade In Suits & Sewcialabs",
+    "ct_taxonomy": "CT-IN-004"
+  },
+  {
+    "startup": "NUTRICHAR",
+    "ct_taxonomy": "CT-AF-012"
+  },
+  {
+    "startup": "Nutri Fruits",
+    "ct_taxonomy": "CT-AF-009"
+  },
+  {
+    "startup": "Organixos",
+    "ct_taxonomy": "CT-AF-012"
+  },
+  {
+    "startup": "PRODIFAUNA",
+    "ct_taxonomy": "CT-AF-010"
+  },
+  {
+    "startup": "Plastic River Barrier",
+    "ct_taxonomy": "CT-WA-003"
+  },
+  {
+    "startup": "Plastiklab",
+    "ct_taxonomy": "CT-IN-004"
+  },
+  {
+    "startup": "Q-Mind",
+    "ct_taxonomy": "CT-EN-001"
+  },
+  {
+    "startup": "REGENERA",
+    "ct_taxonomy": "CT-AF-005"
+  },
+  {
+    "startup": "RedRock Engineering",
+    "ct_taxonomy": "CT-WW-001"
+  },
+  {
+    "startup": "SELCA (Soluciones Empresariales de Centroamerica)",
+    "ct_taxonomy": "CT-IN-004"
+  },
+  {
+    "startup": "SMARTDRIVE",
+    "ct_taxonomy": "CT-TR-001"
+  },
+  {
+    "startup": "SustainSource",
+    "ct_taxonomy": "CT-IN-004"
+  },
+  {
+    "startup": "TRIADA EV",
+    "ct_taxonomy": "CT-TR-001"
+  },
+  {
+    "startup": "VOSCREAS",
+    "ct_taxonomy": "CT-AF-009"
+  },
+  {
+    "startup": "Venta de productos melissa",
+    "ct_taxonomy": "CT-AF-012"
+  },
+  {
+    "startup": "Abrobots",
+    "ct_taxonomy": "CT-AF-012"
+  },
+  {
+    "startup": "Aura cell",
+    "ct_taxonomy": "CT-EN-007"
+  },
+  {
+    "startup": "Autogenerado",
+    "ct_taxonomy": "CT-IN-004"
+  },
+  {
+    "startup": "Azahara usamos economía circular energía eólica solar ganamos el premio a la sostenibilidad envase de pulpa de maíz ya estamos en mercado ahora este años queremos guías para crecimiento nesec",
+    "ct_taxonomy": "CT-IN-004"
+  },
+  {
+    "startup": "BioHogar",
+    "ct_taxonomy": "CT-EN-007"
+  },
+  {
+    "startup": "CASA RAÍZ In contexts where housing often develops informally, we propose a return to essentials: a home rooted in place, connected to its environment, its people, and their real possibilitie",
+    "ct_taxonomy": "CT-BU-003"
+  },
+  {
+    "startup": "Canek.live",
+    "ct_taxonomy": "CT-AF-005"
+  },
+  {
+    "startup": "Creación de un sistema de prevención Salud y Seguridad Ocupacional y Cambio Climático en especial en procesos que afecten la productividad por olas de Calor en los trabajadores",
+    "ct_taxonomy": "CT-AF-010"
+  },
+  {
+    "startup": "Cristal Coffee Guatemala",
+    "ct_taxonomy": "CT-AF-001"
+  },
+  {
+    "startup": "Crysalia Studio",
+    "ct_taxonomy": "CT-IN-004"
+  },
+  {
+    "startup": "Easy house",
+    "ct_taxonomy": "CT-IN-003"
+  },
+  {
+    "startup": "Ebisa Soluciones Ecológicas",
+    "ct_taxonomy": "CT-AF-009"
+  },
+  {
+    "startup": "Ecomaquila",
+    "ct_taxonomy": "CT-IN-004"
+  },
+  {
+    "startup": "FUDESOL",
+    "ct_taxonomy": "CT-AF-012"
+  },
+  {
+    "startup": "GMOVES",
+    "ct_taxonomy": "CT-AF-009"
+  },
+  {
+    "startup": "Green Mama Compost",
+    "ct_taxonomy": "CT-WA-002"
+  },
+  {
+    "startup": "Guatepalm",
+    "ct_taxonomy": "CT-IN-004"
+  },
+  {
+    "startup": "Ingenicrop",
+    "ct_taxonomy": "CT-AF-007"
+  },
+  {
+    "startup": "La Glorietta",
+    "ct_taxonomy": "CT-AF-001"
+  },
+  {
+    "startup": "Multiagro Solar",
+    "ct_taxonomy": "CT-EN-001"
+  },
+  {
+    "startup": "Mythika",
+    "ct_taxonomy": "CT-WA-003"
+  },
+  {
+    "startup": "NRK",
+    "ct_taxonomy": "CT-IN-004"
+  },
+  {
+    "startup": "Nodus",
+    "ct_taxonomy": "CT-WA-003"
+  },
+  {
+    "startup": "Pina&Kakaw",
+    "ct_taxonomy": "CT-AF-009"
+  },
+  {
+    "startup": "Puro Sebo GT",
+    "ct_taxonomy": "CT-IN-004"
+  },
+  {
+    "startup": "RESI DUO",
+    "ct_taxonomy": "CT-WA-003"
+  },
+  {
+    "startup": "Regeneración de suelos agrícolas en el municipio de chimaltenango",
+    "ct_taxonomy": "CT-AF-012"
+  },
+  {
+    "startup": "Regenerative livestock farming",
+    "ct_taxonomy": "CT-AF-004"
+  },
+  {
+    "startup": "Save Motagua River",
+    "ct_taxonomy": "CT-WA-003"
+  },
+  {
+    "startup": "Sinsal",
+    "ct_taxonomy": "CT-WW-001"
+  },
+  {
+    "startup": "UR Sustainability",
+    "ct_taxonomy": "CT-IC-002"
+  },
+  {
+    "startup": "ZUMA",
+    "ct_taxonomy": "CT-AF-009"
+  },
+  {
+    "startup": "AGROPESCADORES",
+    "ct_taxonomy": "CT-AF-012"
+  },
+  {
+    "startup": "AMARUM LABS SAC BIC",
+    "ct_taxonomy": "CT-AF-009"
+  },
+  {
+    "startup": "AQUAHUERTO",
+    "ct_taxonomy": "CT-AF-007"
+  },
+  {
+    "startup": "Agrilux",
+    "ct_taxonomy": "CT-AF-007"
+  },
+  {
+    "startup": "Agro Pacífic Global Services SAC",
+    "ct_taxonomy": "CT-AF-012"
+  },
+  {
+    "startup": "AgroLens",
+    "ct_taxonomy": "CT-AF-007"
+  },
+  {
+    "startup": "BIO ACUANDES",
+    "ct_taxonomy": "CT-WW-001"
+  },
+  {
+    "startup": "BIOMATERIALS HOPE",
+    "ct_taxonomy": "CT-IN-004"
+  },
+  {
+    "startup": "BRIXSAN LIMPIEZA Y SEGURIDAD",
+    "ct_taxonomy": "CT-WW-001"
+  },
+  {
+    "startup": "Bio abono y escarabajos sostenibles",
+    "ct_taxonomy": "CT-AF-009"
+  },
+  {
+    "startup": "Bio huertos agro ecológicos con intervención de suelos nutriéndolos con composición de residuos de nuestra propia alimentación, una línea circular sin desperdicio y al alcance.",
+    "ct_taxonomy": "CT-AF-012"
+  },
+  {
+    "startup": "BioPectinGrow",
+    "ct_taxonomy": "CT-AF-012"
+  },
+  {
+    "startup": "Biolab- Entusiastas de la Bioconstrucción",
+    "ct_taxonomy": "CT-BU-001"
+  },
+  {
+    "startup": "Biosumaq",
+    "ct_taxonomy": "CT-WA-002"
+  },
+  {
+    "startup": "Build your House",
+    "ct_taxonomy": "CT-BU-003"
+  },
+  {
+    "startup": "CIBS Pucallpa",
+    "ct_taxonomy": "CT-IN-004"
+  },
+  {
+    "startup": "Café Circular",
+    "ct_taxonomy": "CT-WA-002"
+  },
+  {
+    "startup": "CertMatch",
+    "ct_taxonomy": "CT-BU-001"
+  },
+  {
+    "startup": "Chacras integrales",
+    "ct_taxonomy": "CT-AF-012"
+  },
+  {
+    "startup": "Circular Amazon",
+    "ct_taxonomy": "CT-IN-004"
+  },
+  {
+    "startup": "Cocina Biótica",
+    "ct_taxonomy": "CT-AF-012"
+  },
+  {
+    "startup": "DRAGOSENSE",
+    "ct_taxonomy": "CT-AF-009"
+  },
+  {
+    "startup": "Desafío Ambiente",
+    "ct_taxonomy": "CT-IN-004"
+  },
+  {
+    "startup": "Duna Verde Piura",
+    "ct_taxonomy": "CT-AF-010"
+  },
+  {
+    "startup": "ECOOL",
+    "ct_taxonomy": "CT-IN-004"
+  },
+  {
+    "startup": "ECOWAVE SRL",
+    "ct_taxonomy": "CT-XS-002"
+  },
+  {
+    "startup": "ENCO",
+    "ct_taxonomy": "CT-EN-006"
+  },
+  {
+    "startup": "EcoLact",
+    "ct_taxonomy": "CT-IN-004"
+  },
+  {
+    "startup": "EcoMango Stabilized Paste",
+    "ct_taxonomy": "CT-AF-009"
+  },
+  {
+    "startup": "EcoPeque",
+    "ct_taxonomy": "CT-TR-003"
+  },
+  {
+    "startup": "Ecoaldea Eutopía – Planta Regenerativa de Bioinsumos",
+    "ct_taxonomy": "CT-AF-012"
+  },
+  {
+    "startup": "Ecoladrillos",
+    "ct_taxonomy": "CT-IN-003"
+  },
+  {
+    "startup": "Ecosonus",
+    "ct_taxonomy": "CT-IC-002"
+  },
+  {
+    "startup": "EsBueno",
+    "ct_taxonomy": "CT-WA-003"
+  },
+  {
+    "startup": "FIVRA",
+    "ct_taxonomy": "CT-IN-005"
+  },
+  {
+    "startup": "Freeze drying of local fruits, leaves and herbs for nutricional use",
+    "ct_taxonomy": "CT-AF-009"
+  },
+  {
+    "startup": "Fungiboro Peru",
+    "ct_taxonomy": "CT-WA-002"
+  },
+  {
+    "startup": "GREEN CORE",
+    "ct_taxonomy": "CT-WA-003"
+  },
+  {
+    "startup": "GridSense",
+    "ct_taxonomy": "CT-EN-006"
+  },
+  {
+    "startup": "Huerta cagr",
+    "ct_taxonomy": "CT-AF-001"
+  },
+  {
+    "startup": "Huerto Urbano Perú – Hogares Urbanos Productivos",
+    "ct_taxonomy": "CT-WA-002"
+  },
+  {
+    "startup": "HydroSmart Climate Solutions",
+    "ct_taxonomy": "CT-WW-002"
+  },
+  {
+    "startup": "Inka Green SAC",
+    "ct_taxonomy": "CT-AF-012"
+  },
+  {
+    "startup": "Jardín Botánico: Naturaleza que educa, florece y asombra.",
+    "ct_taxonomy": "CT-AF-005"
+  },
+  {
+    "startup": "KAYNA",
+    "ct_taxonomy": "CT-AF-010"
+  },
+  {
+    "startup": "KEKIN  ENERGY",
+    "ct_taxonomy": "CT-WA-001"
+  },
+  {
+    "startup": "Kallpa Greenz Leaders",
+    "ct_taxonomy": "CT-AF-010"
+  },
+  {
+    "startup": "Kôm",
+    "ct_taxonomy": "CT-WA-002"
+  },
+  {
+    "startup": "K’OSÑIMANU, es una palabra en quechua que significa el humo del Manu por sus montañas nuvosas",
+    "ct_taxonomy": "CT-AF-005"
+  },
+  {
+    "startup": "LECOQ",
+    "ct_taxonomy": "CT-AF-001"
+  },
+  {
+    "startup": "La reutilización de los desechos orgánicos generados en el mercado de frutas y verduras",
+    "ct_taxonomy": "CT-WA-002"
+  },
+  {
+    "startup": "Laboratorio Azul",
+    "ct_taxonomy": "CT-AF-009"
+  },
+  {
+    "startup": "Laboratorio TODO MEJOR",
+    "ct_taxonomy": "CT-IN-005"
+  },
+  {
+    "startup": "Llareq Dibujos",
+    "ct_taxonomy": "CT-WA-003"
+  },
+  {
+    "startup": "Luna y junio",
+    "ct_taxonomy": "CT-WA-003"
+  },
+  {
+    "startup": "METAVIS",
+    "ct_taxonomy": "CT-IC-004"
+  },
+  {
+    "startup": "MONZON GREEN GOLD",
+    "ct_taxonomy": "CT-AF-003"
+  },
+  {
+    "startup": "MUCHIK",
+    "ct_taxonomy": "CT-WW-001"
+  },
+  {
+    "startup": "Magdalenas Arcoiris",
+    "ct_taxonomy": "CT-IN-005"
+  },
+  {
+    "startup": "Marca Zoe Grados",
+    "ct_taxonomy": "CT-IN-004"
+  },
+  {
+    "startup": "Moon Group",
+    "ct_taxonomy": "CT-EN-007"
+  },
+  {
+    "startup": "Morpho",
+    "ct_taxonomy": "CT-WA-003"
+  },
+  {
+    "startup": "NATURALEANDO",
+    "ct_taxonomy": "CT-WA-002"
+  },
+  {
+    "startup": "Nano-Humi",
+    "ct_taxonomy": "CT-AF-012"
+  },
+  {
+    "startup": "Nutre Sana",
+    "ct_taxonomy": "CT-AF-012"
+  },
+  {
+    "startup": "OLEA",
+    "ct_taxonomy": "CT-WA-003"
+  },
+  {
+    "startup": "PIROSA",
+    "ct_taxonomy": "CT-WA-001"
+  },
+  {
+    "startup": "Pariachi Garden",
+    "ct_taxonomy": "CT-BU-005"
+  },
+  {
+    "startup": "PezConfiable",
+    "ct_taxonomy": "CT-AF-006"
+  },
+  {
+    "startup": "PredictaMAR",
+    "ct_taxonomy": "CT-AF-006"
+  },
+  {
+    "startup": "Processing of single crystal silicon carbide for semiconductor material and chips applications",
+    "ct_taxonomy": "CT-IN-003"
+  },
+  {
+    "startup": "Pueblos libres de contaminación ambiental",
+    "ct_taxonomy": "CT-WA-002"
+  },
+  {
+    "startup": "PyroGreen Solutions",
+    "ct_taxonomy": "CT-IN-004"
+  },
+  {
+    "startup": "QAYTU",
+    "ct_taxonomy": "CT-WA-003"
+  },
+  {
+    "startup": "QUYA",
+    "ct_taxonomy": "CT-AF-009"
+  },
+  {
+    "startup": "Qaya Cuero De Pescado Peruano",
+    "ct_taxonomy": "CT-IN-004"
+  },
+  {
+    "startup": "Reciclap",
+    "ct_taxonomy": "CT-WA-003"
+  },
+  {
+    "startup": "Remar",
+    "ct_taxonomy": "CT-WA-003"
+  },
+  {
+    "startup": "SAMAY ANDINA",
+    "ct_taxonomy": "CT-IN-004"
+  },
+  {
+    "startup": "SMC",
+    "ct_taxonomy": "CT-EN-004"
+  },
+  {
+    "startup": "SimRed",
+    "ct_taxonomy": "CT-IN-004"
+  },
+  {
+    "startup": "Sr topo",
+    "ct_taxonomy": "CT-IN-004"
+  },
+  {
+    "startup": "TRAZA360.COM",
+    "ct_taxonomy": "CT-WA-003"
+  },
+  {
+    "startup": "Toda",
+    "ct_taxonomy": "CT-AF-001"
+  },
+  {
+    "startup": "Vera Ciclos",
+    "ct_taxonomy": "CT-WA-003"
+  },
+  {
+    "startup": "Vuelve Pet - Vida después de la vida",
+    "ct_taxonomy": "CT-WA-002"
+  },
+  {
+    "startup": "Wayra Watt",
+    "ct_taxonomy": "CT-EN-002"
+  },
+  {
+    "startup": "WindLever",
+    "ct_taxonomy": "CT-EN-006"
+  },
+  {
+    "startup": "YakuSmart",
+    "ct_taxonomy": "CT-WW-002"
+  },
+  {
+    "startup": "andean biofactorie",
+    "ct_taxonomy": "CT-AF-007"
+  },
+  {
+    "startup": "aulas abiertas",
+    "ct_taxonomy": "CT-BU-004"
+  },
+  {
+    "startup": "ecoefelita",
+    "ct_taxonomy": "CT-EN-001"
+  },
+  {
+    "startup": "more kind nature",
+    "ct_taxonomy": "CT-IN-004"
+  },
+  {
+    "startup": "qumir sunqu",
+    "ct_taxonomy": "CT-AF-012"
+  },
+  {
+    "startup": "NUTRICHAR",
+    "ct_taxonomy": "CT-AF-012"
+  }
+]
