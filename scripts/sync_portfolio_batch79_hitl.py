@@ -1,11 +1,7 @@
 #!/usr/bin/env python3
-"""HITL sync: BookStack Startup Portfolio (book 1694) for /s/ batch 8–9 slugs.
+"""DEPRECATED — do not run (BookStack API ignores draft and publishes live).
 
-Reads onepager JSON from feat/s-pages-batch-8/9. Creates missing wiki pages as draft;
-updates only blank founder / CT taxonomy fields on existing pages; sets draft=True.
-Writes audit JSON under ops/audits/.
-
-Odoo is handled separately (blocked if services.cleantechhub.net returns 502).
+Use scripts/generate_ops_wiki_drafts.py → ops/wiki-drafts/<slug>.md instead.
 """
 from __future__ import annotations
 
