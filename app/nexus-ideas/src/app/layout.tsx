@@ -15,11 +15,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap"
           rel="stylesheet"
         />
-        <link rel="stylesheet" href="/nexus-assets/nexus-brand.css?v=3" />
+        <link rel="stylesheet" href="/nexus-assets/nexus-brand.css" />
       </head>
       <body className="font-sans antialiased" data-nexus-page="ideas">
         {children}
-        <script src="/nexus-assets/nexus-nav.js?v=4" defer />
+        <script src="/nexus-assets/nexus-nav.js" defer />
       </body>
     </html>
   );
