@@ -14,10 +14,16 @@ window.NexusGuide = (function () {
       num: 2,
       title: 'Policy',
       titleEs: '2 · Política pública',
-      blurb: 'Regulación y programas de gobierno.',
+      blurb: 'Instrumentos (CPD, CCLW, NDC, taxonomía) · issues_policy (verificado) · addresses_challenge (sugerido).',
       types: [
-        'regulates_layer', 'runs_program', 'oversees', 'runs_initiative', 'created', 'participates',
-        'issues', 'implements', 'enables', 'finances', 'benefits', 'eligible',
+        'regulates_layer',
+        'runs_program',
+        'oversees',
+        'runs_initiative',
+        'created',
+        'participates',
+        'issues_policy',
+        'addresses_challenge',
       ],
     },
     {
@@ -108,16 +114,19 @@ window.NexusGuide = (function () {
           total += 1;
           return;
         }
-        const policyEdge =
-          ch.id === 'policy' &&
-          (isPolicyId(r.source) || isPolicyId(r.target) || ch.types.includes(r.type));
+        if (!ch.types.includes(r.type)) return;
         if (ch.id === 'policy') {
-          if (!policyEdge) return;
+          if (r.type === 'addresses_challenge') {
+            typeCounts[r.type] = (typeCounts[r.type] || 0) + 1;
+            total += 1;
+            return;
+          }
           if (isChallengeId(r.source) || isChallengeId(r.target)) return;
-        } else {
-          if (!ch.types.includes(r.type)) return;
-          if (isChallengeId(r.source) || isChallengeId(r.target)) return;
+          typeCounts[r.type] = (typeCounts[r.type] || 0) + 1;
+          total += 1;
+          return;
         }
+        if (isChallengeId(r.source) || isChallengeId(r.target)) return;
         typeCounts[r.type] = (typeCounts[r.type] || 0) + 1;
         total += 1;
       });
@@ -255,9 +264,10 @@ window.NexusGuide = (function () {
     }
     if (ch.id === 'policy') {
       return relations.filter((r) => {
-        if (isChallengeId(r.source) && isChallengeId(r.target)) return false;
+        if (!ch.types.includes(r.type)) return false;
+        if (r.type === 'addresses_challenge') return true;
         if (isPolicyId(r.source) || isPolicyId(r.target)) return true;
-        return ch.types.includes(r.type) && !isChallengeId(r.source) && !isChallengeId(r.target);
+        return !isChallengeId(r.source) && !isChallengeId(r.target);
       });
     }
     return relations.filter(
