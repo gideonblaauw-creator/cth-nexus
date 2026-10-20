@@ -4,7 +4,7 @@
   "website": "https://www.amazoniko.com/",
   "badge_en": "Circular Recovery OS &middot; Door-to-Door Recycling",
   "badge_es": "OS de Recuperación Circular &middot; Reciclaje Puerta a Puerta",
-  "hero_image": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80",
+  "hero_image": "https://images.unsplash.com/photo-1532996122724-e3c031a396bf?w=1200&q=80",
   "hero_sub_en": "amazoniko.com &middot; Bogotá, Colombia &middot; Stage: Launched",
   "hero_sub_es": "amazoniko.com &middot; Bogotá, Colombia &middot; Etapa: Lanzado",
   "pitch_en": "Circular recovery OS connecting households, waste pickers (recuperadores), and companies — learn to separate, schedule collection, trace materials, and earn rewards while closing the loop.",
@@ -78,7 +78,7 @@
       "head_es": "El problema no es solo el residuo — es todo lo que se pierde con él",
       "body_en": "When materials are not separated, routed, or traced correctly, value disappears for households, pickers, and companies. Good separation is the first step for everything else to work.",
       "body_es": "Cuando los materiales no se separan, enrutan o trazan bien, el valor desaparece para hogares, recuperadores y empresas. Separar bien es el primer paso para que todo lo demás funcione.",
-      "bg": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1611273426055-42c0128027fa?w=1200&q=80"
     },
     {
       "num": 2,
@@ -106,7 +106,7 @@
           "label_en": "Transform",
           "label_es": "Transformar",
           "text_en": "Return value as benefits, income, relationships, and measurable impact across the chain.",
-          "text_es": "Devolver valor en beneficios, ingresos, vínculo e impacto real en toda la cadena."
+          "text_es": "Devolver valor en beneficiol, ingresos, vínculo e impacto real en toda la cadena."
         },
         {
           "icon": "🏠",

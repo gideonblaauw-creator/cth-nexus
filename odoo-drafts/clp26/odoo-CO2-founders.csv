@@ -1,0 +1,8 @@
+id,name,parent_id/id,function,email,phone,website,comment
+__import__.clp26_circuito_cero_founder,TBD (LinkedIn),__import__.clp26_circuito_cero,,,,,Founder data to be sourced from LinkedIn only
+__import__.clp26_clean_sim_founder,TBD (LinkedIn),__import__.clp26_clean_sim,,,,,Founder data to be sourced from LinkedIn only
+__import__.clp26_climatik_founder,TBD (LinkedIn),__import__.clp26_climatik,,,,,Founder data to be sourced from LinkedIn only
+__import__.clp26_communitylab_founder,TBD (LinkedIn),__import__.clp26_communitylab,,,,,Founder data to be sourced from LinkedIn only
+__import__.clp26_construyendo_redes_de_paz_founder,TBD (LinkedIn),__import__.clp26_construyendo_redes_de_paz,,,,,Founder data to be sourced from LinkedIn only
+__import__.clp26_dantium_founder,TBD (LinkedIn),__import__.clp26_dantium,,,,,Founder data to be sourced from LinkedIn only
+__import__.clp26_e_wai_founder,TBD (LinkedIn),__import__.clp26_e_wai,,,,,Founder data to be sourced from LinkedIn only

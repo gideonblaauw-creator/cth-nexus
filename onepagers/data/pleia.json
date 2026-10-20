@@ -1,0 +1,186 @@
+{
+  "slug": "pleia",
+  "name": "PLEIA",
+  "website": "https://pleia.co",
+  "badge_en": "Bioeconomy &middot; CLAC24",
+  "badge_es": "Bioeconomía &middot; CLAC24",
+  "hero_image": "./assets/hero.jpg",
+  "hero_sub_en": "pleia.co &middot; Colombia &middot; Medellín &middot; Bioeconomy &middot; Stage: Seed &middot; CT-WA-002",
+  "hero_sub_es": "pleia.co &middot; Colombia &middot; Medellín &middot; Bioeconomía &middot; Etapa: Seed &middot; CT-WA-002",
+  "pitch_en": "B Corp pioneering biotechnology-based pet funeral services, transforming pet remains into nutrient-rich compost and planting trees at reforestation centers across Colombia.",
+  "pitch_es": "B Corp pionera en servicios funerarios para mascotas basados en biotecnología, transformando los restos en compost rico en nutrientes y plantando árboles en centros de reforestación.",
+  "cta_pitch_en": "PLEIA offers natural pet farewells through biotechnology-based composting, returning nutrients to soil and memorial gardens across Medellín and Bogotá.",
+  "cta_pitch_es": "PLEIA ofrece despedidas naturales para mascotas mediante compostaje biotecnológico, devolviendo nutrientes al suelo y jardines conmemorativos en Medellín y Bogotá.",
+  "cta_btn_en": "pleia.co",
+  "cta_btn_es": "pleia.co",
+  "ribbon": [
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    },
+    {
+      "val": "Seed",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLAC24",
+      "sub_es": "CLAC24"
+    },
+    {
+      "val": "Bio",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Métricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLAC24",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Hub",
+        "lab_es": "Hub"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Traditional pet disposal (cremation or burial) generates emissions, contamination risks, or legal barriers, limiting sustainable end-of-life options for companion animals.",
+      "head_es": "La disposición tradicional de mascotas (cremación o entierro) genera emisiones, riesgos de contaminación o barreras legales, limitando opciones sostenibles al final de su vida.",
+      "body_en": "Traditional pet disposal (cremation or burial) generates emissions, contamination risks, or legal barriers, limiting sustainable end-of-life options for companion animals.",
+      "body_es": "La disposición tradicional de mascotas (cremación o entierro) genera emisiones, riesgos de contaminación o barreras legales, limitando opciones sostenibles al final de su vida.",
+      "bg": "./assets/bg-problem.jpg",
+      "bg_credit_en": "Photo: Alvan Nee / Unsplash",
+      "bg_credit_es": "Foto: Alvan Nee / Unsplash"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "🌱",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "PLEIA offers natural pet farewells through biotechnology-based composting, returning nutrients to soil and memorial gardens across Medellín and Bogotá.",
+          "text_es": "PLEIA ofrece despedidas naturales para mascotas mediante compostaje biotecnológico, devolviendo nutrientes al suelo y jardines conmemorativos en Medellín y Bogotá."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "PLEIA — CLAC24 (CleantechHUB).",
+          "text_es": "PLEIA — CLAC24 (CleantechHUB)."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Based in Colombia (Medellín). Public site: pleia.co.",
+          "text_es": "Con base en Colombia (Medellín). Sitio público: pleia.co."
+        }
+      ],
+      "bg": "./assets/bg-solution.png",
+      "bg_credit_en": "Photo: PLEIA — memorial plant service (pleia.co)",
+      "bg_credit_es": "Foto: PLEIA — servicio planta conmemorativa (pleia.co)"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact &amp; Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Wiki source",
+          "title_es": "Fuente Wiki",
+          "text_en": "Profile synced from BookStack Startup Portfolio + Odoo (SoT).",
+          "text_es": "Perfil sincronizado desde BookStack Startup Portfolio + Odoo (SoT)."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomía",
+          "text_en": "Organic Waste & Composting · Bioeconomy & NbS",
+          "text_es": "Organic Waste & Composting · Bioeconomy & NbS"
+        }
+      ],
+      "bg": "./assets/bg-impact.jpg",
+      "bg_credit_en": "Photo: PLEIA — Jardín de la Vida (pleia.co)",
+      "bg_credit_es": "Foto: PLEIA — Jardín de la Vida (pleia.co)"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Melissa Naranjo Hoyos",
+          "role_en": "CEO &amp; Founder &middot; CLAC24",
+          "role_es": "CEO y Fundadora &middot; CLAC24",
+          "bio_en": "Veterinarian and CEO of PLEIA. Public LinkedIn profile.",
+          "bio_es": "Médica veterinaria y CEO de PLEIA. Perfil público en LinkedIn.",
+          "initials": "MN",
+          "linkedin": "https://www.linkedin.com/in/melissa-naranjo-hoyos-43a239202"
+        },
+        {
+          "name": "Daniel Correa Jaramillo",
+          "role_en": "Chief Growth Officer &middot; CLAC24",
+          "role_es": "Chief Growth Officer &middot; CLAC24",
+          "bio_en": "Co-founder and growth lead at PLEIA. Public LinkedIn profile.",
+          "bio_es": "Cofundador y líder de crecimiento en PLEIA. Perfil público en LinkedIn.",
+          "initials": "DC",
+          "linkedin": "https://www.linkedin.com/in/daniel-correa-jaramillo-3304a5168"
+        }
+      ],
+      "dream_en": "Program: CLAC24. CT taxonomy: CT-WA-002. Verified KPIs: [PENDIENTE].",
+      "dream_es": "Programa: CLAC24. Taxonomía CT: CT-WA-002. KPIs verificados: [PENDIENTE].",
+      "bg": "./assets/bg-team.jpg",
+      "bg_credit_en": "Photo: Bruno Emmanuelle / Unsplash",
+      "bg_credit_es": "Foto: Bruno Emmanuelle / Unsplash"
+    }
+  ],
+  "hero_credit_en": "Photo: PLEIA (pleia.co)",
+  "hero_credit_es": "Foto: PLEIA (pleia.co)",
+  "cta_bg": "./assets/bg-cta.jpg",
+  "cta_bg_credit_en": "Photo: Zosia Szopka / Unsplash",
+  "cta_bg_credit_es": "Foto: Zosia Szopka / Unsplash",
+  "image_credits_en": " Unique section asset: Unsplash — Unsplash contributor.",
+  "image_credits_es": " Activo único: Unsplash — Unsplash contributor."
+}

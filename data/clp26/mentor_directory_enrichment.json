@@ -1,0 +1,512 @@
+{
+  "M077": {
+    "name": "Alaide Díaz",
+    "role": "",
+    "company": "",
+    "expertise": "Negocios y Estrategia",
+    "desc": "Mentor/a en CLP26 (Guatemala); acompaña a Aura cell.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M078": {
+    "name": "Alejandra Sierralta",
+    "role": "",
+    "company": "",
+    "expertise": "Negocios y Estrategia",
+    "desc": "Mentor/a en CLP26 (Perú); acompaña a PezConfiable.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M079": {
+    "name": "Alex Kudzuma",
+    "role": "",
+    "company": "",
+    "expertise": "Negocios y Estrategia",
+    "desc": "Mentor/a en CLP26 (Perú); acompaña a Wayra Watt.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M080": {
+    "name": "Ana María Parra García",
+    "role": "Estrategia de financiamiento y crecimiento",
+    "company": "Fedepalma / consultoría independiente",
+    "expertise": "Finanzas e Inversión",
+    "desc": "MBA con más de 15 años estructurando proyectos y levantando capital institucional en Colombia; ha movilizado millones de dólares en fondos públicos, privados y cooperación. Mentora CLP26 en finanzas, bancabilidad y escalamiento de startups cleantech.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M081": {
+    "name": "Andrés Felipe Páez",
+    "role": "",
+    "company": "",
+    "expertise": "Impacto y Sostenibilidad",
+    "desc": "Mentor/a en CLP26 (Colombia); acompaña a CLIMATIK Climate Transition Platform.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M082": {
+    "name": "Bernardo Joseph Trujillo León",
+    "role": "",
+    "company": "",
+    "expertise": "Negocios y Estrategia",
+    "desc": "Mentor/a en CLP26 (Colombia); acompaña a Planta Comunitaria WPC y SEKPOS.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M083": {
+    "name": "Carlos Arango Ucros",
+    "role": "",
+    "company": "",
+    "expertise": "Impacto y Sostenibilidad",
+    "desc": "Mentor/a en CLP26 (Colombia); acompaña a AgroData Connect.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M084": {
+    "name": "Cinthya Sandoval Cuéllar",
+    "role": "",
+    "company": "",
+    "expertise": "Negocios y Estrategia",
+    "desc": "Mentor/a en CLP26 (Guatemala); acompaña a Crysalia Studio.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M085": {
+    "name": "Daniel Alpaca",
+    "role": "",
+    "company": "",
+    "expertise": "Negocios y Estrategia",
+    "desc": "Mentor/a en CLP26 (Perú); acompaña a VIGIA (ex MUCHIK).",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M086": {
+    "name": "Daniel Swift",
+    "role": "Consultor en innovación y sostenibilidad",
+    "company": "",
+    "expertise": "Negocios y Estrategia",
+    "desc": "Mentor CLP26 en Colombia; acompaña a startups del cohorte en estrategia, validación y preparación para mercado.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M087": {
+    "name": "Diana Castrillón Gómez",
+    "role": "",
+    "company": "",
+    "expertise": "Operaciones y Tecnología",
+    "desc": "Mentor/a en CLP26 (Colombia); acompaña a bio.analytics.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M088": {
+    "name": "Erwin Navarrete",
+    "role": "",
+    "company": "",
+    "expertise": "Negocios y Estrategia",
+    "desc": "Mentor/a en CLP26 (Colombia); acompaña a Uniqua SAS BIC..",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M089": {
+    "name": "Estela Ugalde",
+    "role": "",
+    "company": "",
+    "expertise": "Negocios y Estrategia",
+    "desc": "Mentor/a en CLP26 (Costa Rica); acompaña a AmbiciOsas.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M090": {
+    "name": "Felipe Hernández",
+    "role": "",
+    "company": "",
+    "expertise": "Operaciones y Tecnología",
+    "desc": "Mentor/a en CLP26 (Colombia); acompaña a communitylab s.a.s.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M091": {
+    "name": "Fernando Torres",
+    "role": "",
+    "company": "",
+    "expertise": "Negocios y Estrategia",
+    "desc": "Mentor/a en CLP26 (Perú); acompaña a Ecosonus.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M092": {
+    "name": "Gabriela Tenaz",
+    "role": "",
+    "company": "",
+    "expertise": "Negocios y Estrategia",
+    "desc": "Mentor/a en CLP26 (Costa Rica); acompaña a Finca ganadera Águilas verdes.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M093": {
+    "name": "Genoveva Martínez",
+    "role": "",
+    "company": "",
+    "expertise": "Negocios y Estrategia",
+    "desc": "Mentor/a en CLP26 (Guatemala); acompaña a Pina&Kakaw.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M094": {
+    "name": "Gloria Bazán Narváez",
+    "role": "",
+    "company": "",
+    "expertise": "Impacto y Sostenibilidad",
+    "desc": "Mentor/a en CLP26 (Colombia); acompaña a Clean Sim (by IMIC).",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M095": {
+    "name": "Guillermo Nariño",
+    "role": "",
+    "company": "",
+    "expertise": "Negocios y Estrategia",
+    "desc": "Mentor/a en CLP26 (Colombia); acompaña a Amazóniko.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M096": {
+    "name": "Guisela Carbajal Romero",
+    "role": "",
+    "company": "",
+    "expertise": "Negocios y Estrategia",
+    "desc": "Mentor/a en CLP26 (Costa Rica); acompaña a Ecomuna.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M097": {
+    "name": "Gustavo García",
+    "role": "",
+    "company": "",
+    "expertise": "Impacto y Sostenibilidad",
+    "desc": "Mentor/a en CLP26 (Colombia); acompaña a Green Textile Solutions y Modular Agrosolutions.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M098": {
+    "name": "Heraldo Escobar",
+    "role": "",
+    "company": "",
+    "expertise": "Negocios y Estrategia",
+    "desc": "Mentor/a en CLP26 (Guatemala); acompaña a Regenerative livestock farming.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M099": {
+    "name": "Jhosseli García",
+    "role": "",
+    "company": "",
+    "expertise": "Impacto y Sostenibilidad",
+    "desc": "Mentor/a en CLP26 (Perú); acompaña a AgroLens.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M100": {
+    "name": "Jorge Montenegro",
+    "role": "",
+    "company": "",
+    "expertise": "Negocios y Estrategia",
+    "desc": "Mentor/a en CLP26 (Costa Rica); acompaña a Siloe Garden · Eco Sanctuary.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M101": {
+    "name": "José Soto",
+    "role": "",
+    "company": "",
+    "expertise": "Negocios y Estrategia",
+    "desc": "Mentor/a en CLP26 (Perú); acompaña a NanoHumi.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M102": {
+    "name": "Juan Diego Loarca",
+    "role": "",
+    "company": "",
+    "expertise": "Negocios y Estrategia",
+    "desc": "Mentor/a en CLP26 (Guatemala); acompaña a Autogenerado.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M103": {
+    "name": "Juan Sebastián Villamizar",
+    "role": "",
+    "company": "",
+    "expertise": "Impacto y Sostenibilidad",
+    "desc": "Mentor/a en CLP26 (Colombia); acompaña a Proyecto emprendedor con impacto ambiental..",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M104": {
+    "name": "Julián Martínez",
+    "role": "",
+    "company": "",
+    "expertise": "Negocios y Estrategia",
+    "desc": "Mentor/a en CLP26 (Guatemala); acompaña a ZUMA.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M105": {
+    "name": "Karol M. Garzón",
+    "role": "",
+    "company": "",
+    "expertise": "Negocios y Estrategia",
+    "desc": "Mentor/a en CLP26 (Colombia); acompaña a El Ocámbulo.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M106": {
+    "name": "Lina Ospina",
+    "role": "Consultora en energía y sostenibilidad",
+    "company": "",
+    "expertise": "Impacto y Sostenibilidad",
+    "desc": "Profesional colombiana en transición energética y sostenibilidad empresarial. Mentora CLP26 en impacto climático, modelos de negocio verdes y articulación con mercados.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M107": {
+    "name": "Lucía Medina Capacoila",
+    "role": "",
+    "company": "",
+    "expertise": "Negocios y Estrategia",
+    "desc": "Mentor/a en CLP26 (Colombia); acompaña a Cacelio.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M108": {
+    "name": "Maité Marroquín",
+    "role": "",
+    "company": "",
+    "expertise": "Negocios y Estrategia",
+    "desc": "Mentor/a en CLP26 (Guatemala); acompaña a NRK.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M109": {
+    "name": "Mariana Revilla Llaca",
+    "role": "Consultora en desarrollo de negocios",
+    "company": "",
+    "expertise": "Negocios y Estrategia",
+    "desc": "Mentora CLP26 en Colombia; apoya a startups del cohorte en estrategia comercial, crecimiento y preparación para inversión.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M110": {
+    "name": "Mario Reichert",
+    "role": "",
+    "company": "",
+    "expertise": "Negocios y Estrategia",
+    "desc": "Mentor/a en CLP26 (Guatemala); acompaña a GMOVES.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M111": {
+    "name": "Mario Rojas",
+    "role": "",
+    "company": "",
+    "expertise": "Impacto y Sostenibilidad",
+    "desc": "Mentor/a en CLP26 (Costa Rica); acompaña a Agrosenser.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M112": {
+    "name": "Marisa Arias",
+    "role": "",
+    "company": "",
+    "expertise": "Negocios y Estrategia",
+    "desc": "Mentor/a en CLP26 (Perú); acompaña a Kallpa Greenz Leaders.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M113": {
+    "name": "Martha Zeledón",
+    "role": "",
+    "company": "",
+    "expertise": "Impacto y Sostenibilidad",
+    "desc": "Mentor/a en CLP26 (Colombia); acompaña a AGROLIDER.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M114": {
+    "name": "Martin Dolan",
+    "role": "",
+    "company": "",
+    "expertise": "Negocios y Estrategia",
+    "desc": "Mentor/a en CLP26 (Colombia); acompaña a CurubaTech y e.WAI.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M115": {
+    "name": "Marvin Luna",
+    "role": "",
+    "company": "",
+    "expertise": "Negocios y Estrategia",
+    "desc": "Mentor/a en CLP26 (Guatemala); acompaña a Ingenicrop.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M116": {
+    "name": "María Isabel Cruz López",
+    "role": "",
+    "company": "",
+    "expertise": "Negocios y Estrategia",
+    "desc": "Mentor/a en CLP26 (Colombia); acompaña a Construyendo Redes de Paz.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M117": {
+    "name": "María Juliana Pérez Vasco",
+    "role": "",
+    "company": "",
+    "expertise": "Ventas y Mercadeo",
+    "desc": "Mentor/a en CLP26 (Colombia); acompaña a KUO (Producto: SIGR).",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M118": {
+    "name": "Mónica O’Connor",
+    "role": "",
+    "company": "",
+    "expertise": "Negocios y Estrategia",
+    "desc": "Mentor/a en CLP26 (Perú); acompaña a Andean Biofactories.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M119": {
+    "name": "Osvaldo Ruiz",
+    "role": "",
+    "company": "",
+    "expertise": "Negocios y Estrategia",
+    "desc": "Mentor/a en CLP26 (Costa Rica); acompaña a Plastic Free Planet.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M120": {
+    "name": "Paola Andrea Sánchez Gutiérrez",
+    "role": "",
+    "company": "",
+    "expertise": "Operaciones y Tecnología",
+    "desc": "Mentor/a en CLP26 (Colombia); acompaña a AirthNova.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M121": {
+    "name": "Patricia Carrasquilla Cortés",
+    "role": "",
+    "company": "",
+    "expertise": "Negocios y Estrategia",
+    "desc": "Mentor/a en CLP26 (Colombia); acompaña a SIÉ WAKA.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M122": {
+    "name": "Patricia Melgar",
+    "role": "",
+    "company": "",
+    "expertise": "Negocios y Estrategia",
+    "desc": "Mentor/a en CLP26 (Perú); acompaña a FIVRA.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M123": {
+    "name": "Patricia Vidal",
+    "role": "",
+    "company": "",
+    "expertise": "Operaciones y Tecnología",
+    "desc": "Mentor/a en CLP26 (Perú); acompaña a WindLever.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M124": {
+    "name": "Raúl Campos",
+    "role": "",
+    "company": "",
+    "expertise": "Negocios y Estrategia",
+    "desc": "Mentor/a en CLP26 (Perú); acompaña a PIROSA.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M125": {
+    "name": "Santiago Aristizábal",
+    "role": "",
+    "company": "",
+    "expertise": "Negocios y Estrategia",
+    "desc": "Mentor/a en CLP26 (Colombia); acompaña a DANTIUM.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M126": {
+    "name": "Santiago Cruz",
+    "role": "",
+    "company": "",
+    "expertise": "Negocios y Estrategia",
+    "desc": "Mentor/a en CLP26 (Colombia); acompaña a TERRA IO.",
+    "programs": [
+      "CLP26"
+    ]
+  },
+  "M127": {
+    "name": "Sebastián Martínez Pérez",
+    "role": "",
+    "company": "",
+    "expertise": "Negocios y Estrategia",
+    "desc": "Mentor/a en CLP26 (Colombia); acompaña a NextGen Nutrition (Petfly).",
+    "programs": [
+      "CLP26"
+    ]
+  }
+}

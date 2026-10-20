@@ -1,0 +1,193 @@
+{
+  "slug": "myma",
+  "name": "MYMA Servicios Ambientales",
+  "website": "https://www.mymagt.com/",
+  "badge_en": "Environmental Consulting &amp; Compliance &middot; Acceleration",
+  "badge_es": "Consultor&iacute;a Ambiental y Cumplimiento &middot; Acceleration",
+  "hero_image": "https://images.unsplash.com/photo-1542601906990-b4d66bb7bdd9?w=1200&q=80",
+  "hero_sub_en": "mymagt.com &middot; Guatemala &middot; Guatemala City &middot; Stage: [PENDIENTE] &middot; CT: [PENDIENTE]",
+  "hero_sub_es": "mymagt.com &middot; Guatemala &middot; Ciudad de Guatemala &middot; Etapa: [PENDIENTE] &middot; CT: [PENDIENTE]",
+  "pitch_en": "Environmental audits, impact studies, wastewater assessments, monitoring, and management plans helping Guatemalan companies stay compliant and competitive.",
+  "pitch_es": "Auditor&iacute;as ambientales, estudios de impacto, evaluaciones de aguas residuales, monitoreos y planes de gesti&oacute;n que ayudan a empresas guatemaltecas a cumplir normativa y ser m&aacute;s competitivas.",
+  "cta_pitch_en": "Founded 2017 &mdash; licensed environmental consulting firm (public directories).",
+  "cta_pitch_es": "Fundada en 2017 &mdash; firma consultora ambiental licenciada (directorios p&uacute;blicos).",
+  "ribbon": [
+    {
+      "val": "GT",
+      "lab_en": "Country",
+      "lab_es": "Pa&iacute;s",
+      "sub_en": "Guatemala",
+      "sub_es": "Guatemala"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "Acceleration",
+      "sub_es": "Acceleration"
+    },
+    {
+      "val": "Env.",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "M&eacute;tricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "Accel.",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Hub",
+        "lab_es": "Hub"
+      }
+    ],
+    [
+      {
+        "num": "2017",
+        "lab_en": "Founded",
+        "lab_es": "Fundaci&oacute;n"
+      },
+      {
+        "num": "GT",
+        "lab_en": "Guatemala",
+        "lab_es": "Guatemala"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Industrial operators face complex environmental rules, monitoring obligations, and reputational risk without in-house expertise.",
+      "head_es": "Los operadores industriales enfrentan normativa ambiental compleja, obligaciones de monitoreo y riesgo reputacional sin expertise interno.",
+      "body_en": "Companies need trusted consultants for EIA categories, wastewater studies, solid-waste plans, and ongoing environmental management.",
+      "body_es": "Las empresas necesitan consultores confiables para categor&iacute;as de EIA, estudios de aguas residuales, planes de residuos s&oacute;lidos y gesti&oacute;n ambiental continua.",
+      "bg": "https://images.unsplash.com/photo-156916313939-4ac43dd3f8b8?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Soluci&oacute;n",
+      "steps": [
+        {
+          "icon": "🌱",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Environmental consulting: audits, impact studies, monitoring, sustainability reporting, and management plans.",
+          "text_es": "Environmental consulting: audits, impact studies, monitoring, sustainability reporting, and management plans."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "MYMA Servicios Ambientales &mdash; CleantechHUB Portafolio Acceleration (Guatemala).",
+          "text_es": "MYMA Servicios Ambientales &mdash; CleantechHUB Portafolio Acceleration (Guatemala)."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Guatemala City and national industrial clients (public company profiles).",
+          "text_es": "Guatemala City and national industrial clients (public company profiles)."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1497436072904?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact &amp; Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Services",
+          "title_es": "Servicios",
+          "text_en": "EIA/diagnostics (categories A&ndash;C), wastewater studies, environmental management and waste plans (public LinkedIn/website).",
+          "text_es": "EIA/diagnostics (categories A&ndash;C), wastewater studies, environmental management and waste plans (public LinkedIn/website)."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Licenses",
+          "title_es": "Licencias",
+          "text_en": "ConnectAmericas lists consultant and auditor environmental licenses (public profile).",
+          "text_es": "ConnectAmericas lists consultant and auditor environmental licenses (public profile)."
+        },
+        {
+          "icon": "🤝",
+          "title_en": "Acceleration",
+          "title_es": "Acceleration",
+          "text_en": "Listed in CleantechHUB Portafolio Acceleration batch (Gideon sheet).",
+          "text_es": "Listed in CleantechHUB Portafolio Acceleration batch (Gideon sheet)."
+        },
+        {
+          "icon": "📈",
+          "title_en": "KPIs",
+          "title_es": "KPIs",
+          "text_en": "Verified client count/revenue KPIs: [PENDIENTE].",
+          "text_es": "Verified client count/revenue KPIs: [PENDIENTE]."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1416871960315-e1f36b8fcf59?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Mar&iacute;a Jos&eacute; Garc&iacute;a Canet",
+          "initials": "MJ",
+          "role_en": "Founder &amp; Environmental Director &middot; Acceleration",
+          "role_es": "Fundadora y Directora Ambiental &middot; Acceleration",
+          "bio_en": "Environmental engineer leading MYMA consulting and compliance services since 2017.",
+          "bio_es": "Ingeniera ambiental que lidera servicios de consultor&iacute;a y cumplimiento de MYMA desde 2017.",
+          "linkedin": "https://www.linkedin.com/in/mar%C3%ADa-jos%C3%A9-garc%C3%ADa-canet-66a715141"
+        },
+        {
+          "name": "Julio Garc&iacute;a",
+          "initials": "JG",
+          "role_en": "CEO &middot; Acceleration",
+          "role_es": "CEO &middot; Acceleration",
+          "bio_en": "CEO referenced in public MYMA company communications.",
+          "bio_es": "CEO referenciado en comunicaciones p&uacute;blicas de MYMA."
+        }
+      ],
+      "dream_en": "CT taxonomy: [PENDIENTE]. Julio Garc&iacute;a public LinkedIn URL: [PENDIENTE]. Verified KPIs: [PENDIENTE]. Image credits: hero: Unsplash — Vladislav Klapin (urban green / environmental context); section_01_problem: Unsplash — Johannes Plenio (forest / ecosystem); section_02_solution: Unsplash — ThisIsEngineering (environmental engineering); section_03_impact: Unsplash — Matthew Smith (water / watershed); section_04_leadership: Unsplash — Karsten Würth (sustainability / nature stewardship); cta: Unsplash — Liam Briese (air / atmosphere monitoring context) Image credits: hero: Unsplash — Vladislav Klapin (urban green / environmental context); section_01_problem: Unsplash — Johannes Plenio (forest / ecosystem); section_02_solution: Unsplash — ThisIsEngineering (environmental engineering); section_03_impact: Unsplash — Matthew Smith (water / watershed); section_04_leadership: Unsplash — Karsten Würth (sustainability / nature stewardship); cta: Unsplash — Liam Briese (air / atmosphere monitoring context)",
+      "dream_es": "Taxonom&iacute;a CT: [PENDIENTE]. URL p&uacute;blica de LinkedIn de Julio Garc&iacute;a: [PENDIENTE]. KPIs verificados: [PENDIENTE]. Créditos de imagen: hero: Unsplash — Vladislav Klapin (urban green / environmental context); section_01_problem: Unsplash — Johannes Plenio (forest / ecosystem); section_02_solution: Unsplash — ThisIsEngineering (environmental engineering); section_03_impact: Unsplash — Matthew Smith (water / watershed); section_04_leadership: Unsplash — Karsten Würth (sustainability / nature stewardship); cta: Unsplash — Liam Briese (air / atmosphere monitoring context) Créditos de imagen: hero: Unsplash — Vladislav Klapin (urban green / environmental context); section_01_problem: Unsplash — Johannes Plenio (forest / ecosystem); section_02_solution: Unsplash — ThisIsEngineering (environmental engineering); section_03_impact: Unsplash — Matthew Smith (water / watershed); section_04_leadership: Unsplash — Karsten Würth (sustainability / nature stewardship); cta: Unsplash — Liam Briese (air / atmosphere monitoring context)",
+      "bg": "https://images.unsplash.com/photo-1611273424745-0320e97a5a7e?w=1200&q=80"
+    }
+  ],
+  "cta_image": "https://images.unsplash.com/photo-1532996122724-e3c031a396bf?w=1200&q=80",
+  "image_sources": {
+    "hero": "Unsplash — Vladislav Klapin (urban green / environmental context)",
+    "section_01_problem": "Unsplash — Johannes Plenio (forest / ecosystem)",
+    "section_02_solution": "Unsplash — ThisIsEngineering (environmental engineering)",
+    "section_03_impact": "Unsplash — Matthew Smith (water / watershed)",
+    "section_04_leadership": "Unsplash — Karsten Würth (sustainability / nature stewardship)",
+    "cta": "Unsplash — Liam Briese (air / atmosphere monitoring context)"
+  },
+  "image_credits_en": " Section photo: Unsplash — Unsplash contributor.",
+  "image_credits_es": " Foto de sección: Unsplash — Unsplash contributor."
+}

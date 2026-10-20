@@ -1,0 +1,172 @@
+{
+  "slug": "grupo-natural-andino",
+  "name": "Grupo Natural Andino",
+  "website": "https://gna.com.co",
+  "badge_en": "Organic Waste &amp; Compost &middot; CLAC23",
+  "badge_es": "Residuos Org&aacute;nicos y Compost &middot; CLAC23",
+  "hero_image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1200&q=80",
+  "hero_sub_en": "gna.com.co &middot; Floridablanca, Colombia &middot; Circular Economy &middot; Stage: Seed",
+  "hero_sub_es": "gna.com.co &middot; Floridablanca, Colombia &middot; Econom&iacute;a Circular &middot; Etapa: Seed",
+  "pitch_en": "Collects vegetable, fruit, and pruning organic waste from urban sources via special routes, converting it into quality compost returned to agricultural land.",
+  "pitch_es": "Recolecta residuos org&aacute;nicos vegetales, frutales y de poda de fuentes urbanas en rutas especiales, convirti&eacute;ndolos en compost de calidad que retorna a la tierra agr&iacute;cola.",
+  "cta_pitch_en": "Close the loop on urban organic waste with collection routes and quality compost for agriculture.",
+  "cta_pitch_es": "Cierra el ciclo de residuos org&aacute;nicos urbanos con rutas de recolecci&oacute;n y compost de calidad para agricultura.",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "ribbon": [
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    },
+    {
+      "val": "Seed",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLAC23",
+      "sub_es": "CLAC23"
+    },
+    {
+      "val": "Circular",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Métricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLAC23",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Accelerator",
+        "lab_es": "Acelerador"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Organic waste from cities is often landfilled, losing nutrients and driving methane emissions instead of returning biomass to soils.",
+      "head_es": "Los residuos org&aacute;nicos urbanos a menudo terminan en rellenos, perdiendo nutrientes y generando metano en lugar de devolver biomasa a los suelos.",
+      "body_en": "Organic waste from cities is often landfilled, losing nutrients and driving methane emissions instead of returning biomass to soils.",
+      "body_es": "Los residuos org&aacute;nicos urbanos a menudo terminan en rellenos, perdiendo nutrientes y generando metano en lugar de devolver biomasa a los suelos.",
+      "bg": "https://images.unsplash.com/photo-1532996122724-e3c031a396bf?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "🎯",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Special organic-waste collection routes, composting, and soil amendments for agriculture in Santander.",
+          "text_es": "Rutas especiales de recolecci&oacute;n de org&aacute;nicos, compostaje y enmiendas de suelo para agricultura en Santander."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "Grupo Natural Andino — CleantechHUB Acceleration (CLAC23 cohort).",
+          "text_es": "Grupo Natural Andino — Aceleraci&oacute;n CleantechHUB (cohorte CLAC23)."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Floridablanca / Bucaramanga metropolitan area, Colombia. Public site: gna.com.co.",
+          "text_es": "&Aacute;rea metropolitana Floridablanca / Bucaramanga, Colombia. Sitio p&uacute;blico: gna.com.co."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1595278069443-2792a57bd1f8?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact &amp; Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Portfolio source",
+          "title_es": "Fuente portafolio",
+          "text_en": "CleantechHUB Wiki (CLAC 2023) + Startup Portfolio card + public website gna.com.co.",
+          "text_es": "Wiki CleantechHUB (CLAC 2023) + tarjeta Portafolio + sitio p&uacute;blico gna.com.co."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomía",
+          "text_en": "CT-WA-002 &middot; Organic waste &amp; compost",
+          "text_es": "CT-WA-002 &middot; Residuos org&aacute;nicos y compost"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1508514177221?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Erika Viviana Mejía Guerrero",
+          "initials": "EM",
+          "role_en": "Legal representative &amp; Co-founder",
+          "role_es": "Representante legal y Cofundadora",
+          "bio_en": "Listed founder on CleantechHUB Wiki. Public personal LinkedIn: [PENDIENTE].",
+          "bio_es": "Fundadora listada en Wiki CleantechHUB. LinkedIn personal p&uacute;blico: [PENDIENTE]."
+        },
+        {
+          "name": "Paula Carolina Orosco",
+          "initials": "PO",
+          "role_en": "Co-founder",
+          "role_es": "Cofundadora",
+          "bio_en": "Listed founder on CleantechHUB Wiki. Public personal LinkedIn: [PENDIENTE].",
+          "bio_es": "Fundadora listada en Wiki CleantechHUB. LinkedIn personal p&uacute;blico: [PENDIENTE]."
+        }
+      ],
+      "dream_en": "Program: CLAC23 Acceleration. Pitch deck on profile: [PENDIENTE]. Verified KPIs: [PENDIENTE].",
+      "dream_es": "Programa: Aceleraci&oacute;n CLAC23. Pitch deck en perfil: [PENDIENTE]. KPIs verificados: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1574944983790-729784346989?w=1200&q=80"
+    }
+  ],
+  "cta_bg": "https://images.unsplash.com/photo-1466692478222-5f3b0e4b6c3a?w=1200&q=80",
+  "image_credits_en": "All photos: Unsplash — Hero: Markus Spiske (photo-1416879595882). Problem: Jilbert Ebrahimi (photo-1532996122724). Solution: Noah Buscher (photo-1595278069443). Impact: Zoe Schaeffer (photo-1625246333195). Leadership: Tim Mossholder (photo-1574944983790). CTA: Kyle Glenn (photo-1466692478222). Public copy: gna.com.co. Replacement photo: Unsplash — Brooke Cagle. Section photo: Unsplash — Unsplash contributor.",
+  "image_credits_es": "Todas las fotos: Unsplash — Hero: Markus Spiske (photo-1416879595882). Problema: Jilbert Ebrahimi (photo-1532996122724). Soluci&oacute;n: Noah Buscher (photo-1595278069443). Impacto: Zoe Schaeffer (photo-1625246333195). Liderazgo: Tim Mossholder (photo-1574944983790). CTA: Kyle Glenn (photo-1466692478222). Texto p&uacute;blico: gna.com.co. Foto de reemplazo: Unsplash — Brooke Cagle. Foto de sección: Unsplash — Unsplash contributor."
+}

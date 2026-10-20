@@ -1,0 +1,172 @@
+{
+  "slug": "i-can-jump",
+  "name": "I Can Jump",
+  "website": "https://icanjump.com",
+  "badge_en": "Seaweed Packaging &middot; CLP &middot; Acceleration",
+  "badge_es": "Empaque de algas &middot; CLP &middot; Acceleration",
+  "hero_image": "https://images.unsplash.com/photo-1583212292454-1c622636db6a?w=1200&q=80",
+  "cta_bg": "https://images.unsplash.com/photo-1558768645-f871108f63ab?w=1200&q=80",
+  "hero_sub_en": "icanjump.com &middot; Colombia &middot; Bucaramanga &middot; Circular Economy &middot; Stage: Pre-Seed",
+  "hero_sub_es": "icanjump.com &middot; Colombia &middot; Bucaramanga &middot; Economía Circular &middot; Etapa: Pre-Seed",
+  "pitch_en": "Develops seaweed-based biodegradable packaging designed to replace conventional plastics while supporting marine ecosystem restoration.",
+  "pitch_es": "Desarrolla empaques biodegradables a base de algas marinas para reemplazar plásticos convencionales y apoyar la restauración de ecosistemas marinos.",
+  "cta_pitch_en": "Eco-friendly packaging from seaweed — biodegradable, marine-friendly, and aligned with circular economy goals.",
+  "cta_pitch_es": "Empaque eco-amigable a base de algas — biodegradable, amigable con el mar y alineado con economía circular.",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "ribbon": [
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    },
+    {
+      "val": "Pre-Seed",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLP",
+      "sub_es": "CLP"
+    },
+    {
+      "val": "Circular",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Métricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLP",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Hub",
+        "lab_es": "Hub"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Single-use plastics pollute oceans and persist for decades in food and retail packaging.",
+      "head_es": "Los plásticos de un solo uso contaminan océanos y persisten décadas en empaques de alimentos y retail.",
+      "body_en": "Brands need drop-in materials with plastic-like performance that biodegrade safely and reduce marine harm.",
+      "body_es": "Las marcas necesitan materiales sustitutos con desempeño similar al plástico que biodegraden de forma segura y reduzcan daño marino.",
+      "bg": "https://images.unsplash.com/photo-1621451537844-67287486f9d2?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "🌱",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Seaweed-based packaging R&amp;D and product development (ClimateLaunchpad 2023 finalist).",
+          "text_es": "I+D y desarrollo de empaques a base de algas (finalista ClimateLaunchpad 2023)."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "I Can Jump — ClimateLaunchpad Colombia 2023 and CleantechHUB Acceleration portfolio.",
+          "text_es": "I Can Jump — ClimateLaunchpad Colombia 2023 y portafolio Acceleration de CleantechHUB."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Based in Bucaramanga, Colombia. Public site: icanjump.com.",
+          "text_es": "Con base en Bucaramanga, Colombia. Sitio público: icanjump.com."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1599643478518-a784e687607f?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact &amp; Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Wiki source",
+          "title_es": "Fuente Wiki",
+          "text_en": "Profile synced from BookStack Startup Portfolio + Odoo (SoT).",
+          "text_es": "Perfil sincronizado desde BookStack Startup Portfolio + Odoo (SoT)."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomía",
+          "text_en": "CT-EN-001 &middot; Solar PV",
+          "text_es": "CT-EN-001 &middot; Solar PV"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1558618047-3c8c76ca79d0?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Daniel Hoyos",
+          "role_en": "CEO &amp; Co-founder &middot; CLP",
+          "role_es": "CEO y Cofundador &middot; CLP",
+          "bio_en": "CEO &amp; co-founder (ClimateLaunchpad team page). Leads product and venture building for seaweed packaging.",
+          "bio_es": "CEO y cofundador (página ClimateLaunchpad). Lidera producto y emprendimiento en empaques de algas.",
+          "initials": "DH",
+          "linkedin": "https://www.linkedin.com/in/dahoyos"
+        },
+        {
+          "name": "Gladys Rozo",
+          "role_en": "Head of Research &amp; Innovation &middot; Co-founder",
+          "role_es": "Jefe de I+D e Innovación &middot; Cofundadora",
+          "bio_en": "Co-founder and research lead (ClimateLaunchpad team page).",
+          "bio_es": "Cofundadora y liderazgo de investigación (página ClimateLaunchpad).",
+          "initials": "GR",
+          "linkedin": "https://www.linkedin.com/in/gladys-rozo-b5176240"
+        }
+      ],
+      "dream_en": "Program: CLP + Acceleration. Revenue / customers KPIs: [PENDIENTE]. Pitch deck on profile: [PENDIENTE]. Image credits — Hero: Unsplash (Wolfgang Hasselmann); Sec 01: Unsplash (Nick Fewings); Sec 02: Unsplash (Kateryna Hliznitsova); Sec 03: Unsplash (Brian Yurasits); Sec 04: Unsplash (National Cancer Institute); CTA: Unsplash (Micheile Henderson).",
+      "dream_es": "Programa: CLP + Acceleration. KPIs de ingresos / clientes: [PENDIENTE]. Pitch deck en perfil: [PENDIENTE]. Créditos de imagen — Hero: Unsplash (Wolfgang Hasselmann); Sec 01: Unsplash (Nick Fewings); Sec 02: Unsplash (Kateryna Hliznitsova); Sec 03: Unsplash (Brian Yurasits); Sec 04: Unsplash (National Cancer Institute); CTA: Unsplash (Micheile Henderson).",
+      "bg": "https://images.unsplash.com/photo-1576086213569-790a57d22531?w=1200&q=80"
+    }
+  ]
+}

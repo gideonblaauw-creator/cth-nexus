@@ -1,0 +1,94 @@
+groundColor: 'rgba(12,73,138,.75)' }],
+      },
+      options: {
+        responsive: true,
+        plugins: { legend: { display: false } },
+        scales: { x: { ticks: { font: { size: 9 }, maxRotation: 45 } }, y: { beginAtZero: true, ticks: { precision: 0 } } },
+      },
+    });
+
+    const countryOrder = ['Peru', 'El Salvador', 'Colombia', 'Guatemala', 'Costa Rica'];
+    const countryCounts = countryOrder.map((c) => list.filter((a) => a.country === c).length);
+    const mappedCounts = countryOrder.map((c) => actors.filter((a) => a.country === c).length);
+
+    if (chartCompare) chartCompare.destroy();
+    chartCompare = new Chart($('#chart-compare'), {
+      type: 'bar',
+      data: {
+        labels: countryOrder,
+        datasets: [
+          { label: lang === 'ES' ? 'Filtrados' : 'Filtered', data: countryCounts, backgroundColor: 'rgba(102,147,72,.85)' },
+          { label: lang === 'ES' ? 'Total mapeado' : 'Mapped total', data: mappedCounts, backgroundColor: 'rgba(105,181,250,.55)' },
+        ],
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        scales: { x: { beginAtZero: true, ticks: { precision: 0 } } },
+      },
+    });
+  }
+
+  function renderNetwork(list) {
+    const ids = new Set(list.map((a) => a.id));
+    const edges = relations.filter((r) => ids.has(r.source) && ids.has(r.target));
+    const nodes = list.map((a) => ({
+      id: a.id,
+      label: a.name.length > 22 ? `${a.name.slice(0, 20)}…` : a.name,
+      title: a.name,
+      group: a.category,
+    }));
+
+    const container = document.getElementById('network-graph');
+    if (network) {
+      network.setData({ nodes: new vis.DataSet(nodes), edges: new vis.DataSet(edges.map((e) => ({ from: e.source, to: e.target, title: e.type || '' }))) });
+      return;
+    }
+    network = new vis.Network(container, {
+      nodes: new vis.DataSet(nodes),
+      edges: new vis.DataSet(edges.map((e) => ({ from: e.source, to: e.target, arrows: 'to', color: { color: '#94A3B8' } }))),
+    }, {
+      physics: { stabilization: true, barnesHut: { gravitationalConstant: -8000 } },
+      interaction: { hover: true },
+    });
+  }
+
+  function setCountry(cc) {
+    activeCountry = activeCountry === cc ? null : cc;
+    document.querySelectorAll('.map-country').forEach((el) => {
+      el.classList.toggle('active', el.dataset.cc === activeCountry);
+    });
+    const meta = activeCountry ? COUNTRY_META[activeCountry] : null;
+    const emptyMsg = $('#map-empty-msg');
+    if (meta && meta.empty) {
+      emptyMsg.textContent = t().emptyMap;
+      emptyMsg.classList.add('visible');
+    } else {
+      emptyMsg.classList.remove('visible');
+    }
+    render();
+  }
+
+  function bindMap() {
+    document.querySelectorAll('.map-country').forEach((el) => {
+      el.addEventListener('click', () => setCountry(el.dataset.cc));
+    });
+  }
+
+  function buildFilterChips() {
+    const tr = t();
+    const catRow = $('#cat-chips');
+    catRow.innerHTML = CATEGORY_KEYS.map((k) =>
+      `<button type="button" class="chip cat ${activeCategories.has(k) ? 'on' : ''}" data-cat="${k}">${esc(tr.cats[k])}</button>`
+    ).join('');
+    catRow.querySelectorAll('.chip').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const k = btn.dataset.cat;
+        if (activeCategories.has(k)) activeCategories.delete(k); else activeCategories.add(k);
+        btn.classList.toggle('on');
+        render();
+      });
+    });
+
+    const secRow = $('#sector-chips');
+    secRow.innerHTML = Object.keys(tr.se

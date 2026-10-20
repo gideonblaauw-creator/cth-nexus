@@ -1,0 +1,7 @@
+id,name,parent_id/id,function,email,phone,website,comment
+__import__.clp26_agrolens_founder,TBD (LinkedIn),__import__.clp26_agrolens,,,,,Founder data to be sourced from LinkedIn only
+__import__.clp26_andean_biofactories_founder,TBD (LinkedIn),__import__.clp26_andean_biofactories,,,,,Founder data to be sourced from LinkedIn only
+__import__.clp26_fivra_founder,TBD (LinkedIn),__import__.clp26_fivra,,,,,Founder data to be sourced from LinkedIn only
+__import__.clp26_hardtech_founder,TBD (LinkedIn),__import__.clp26_hardtech,,,,,Founder data to be sourced from LinkedIn only
+__import__.clp26_kallpa_greenz_leaders_founder,TBD (LinkedIn),__import__.clp26_kallpa_greenz_leaders,,,,,Founder data to be sourced from LinkedIn only
+__import__.clp26_nanohumi_founder,TBD (LinkedIn),__import__.clp26_nanohumi,,,,,Founder data to be sourced from LinkedIn only

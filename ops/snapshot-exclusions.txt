@@ -1,0 +1,27 @@
+app/babo/ (reverse_proxy 127.0.0.1:8080 Docker babo/channel-layer; no source tree on VPS)
+app/cth-nexus/api/data/ (runtime data dir)
+app/cth-nexus/docs/data/ (runtime data dir)
+pattern: *.bak
+pattern: *.bak-*
+pattern: *.db
+pattern: *.key
+pattern: *.p12
+pattern: *.pem
+pattern: *.pfx
+pattern: *.sqlite
+pattern: *.sqlite3
+pattern: *secret*
+pattern: *~*
+pattern: .env
+pattern: .env.*
+pattern: .git/
+pattern: .next/
+pattern: .venv/
+pattern: __pycache__/
+pattern: backups/
+pattern: credentials*
+pattern: graphify-out/
+pattern: id_rsa*
+pattern: logs/
+pattern: node_modules/
+pattern: venv/

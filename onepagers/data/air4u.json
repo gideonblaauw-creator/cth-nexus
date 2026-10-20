@@ -1,0 +1,88 @@
+{
+  "template": "portfolio",
+  "slug": "air4u",
+  "name": "Air4U",
+  "website": "https://air4u.co/",
+  "badge_en": "Indoor Air Quality &middot; CLAC21",
+  "badge_es": "Calidad de Aire Interior &middot; CLAC21",
+  "hero_image": "https://air4u.co/wp-content/uploads/2025/11/Banners_Web-05-scaled.jpg",
+  "hero_sub_en": "air4u.co &middot; Bogotá &middot; Colombia &middot; Circular Economy &middot; Stage: Seed &middot; CT-IN-001",
+  "hero_sub_es": "air4u.co &middot; Bogotá &middot; Colombia &middot; Economía Circular &middot; Etapa: Seed &middot; CT-IN-001",
+  "pitch_en": "Manufactures ozone-based air purifiers eliminating microbiological load in homes, offices, and food plants without filters or chemicals.",
+  "pitch_es": "Fabrica purificadores de aire basados en ozono que eliminan la carga microbiológica en hogares, oficinas y plantas de alimentos, sin filtros ni químicos.",
+  "cta_pitch_en": "Colombian-made ozone air purifiers for homes, businesses, and industrial hygiene — legacy brand Airlife Ozono renewed as Air4U.",
+  "cta_pitch_es": "Purificadores de ozono hechos en Colombia para hogares, empresas e higiene industrial — legado Airlife Ozono renovado como Air4U.",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "ribbon": [
+    {"val": "CO", "lab_en": "Country", "lab_es": "País", "sub_en": "Colombia", "sub_es": "Colombia"},
+    {"val": "Seed", "lab_en": "Stage", "lab_es": "Etapa", "sub_en": "CLAC21", "sub_es": "CLAC21"},
+    {"val": "Circular", "lab_en": "Sector", "lab_es": "Sector", "sub_en": "Cleantech", "sub_es": "Cleantech"},
+    {"val": "[P]", "lab_en": "Metrics", "lab_es": "Métricas", "sub_en": "[PENDIENTE]", "sub_es": "[PENDIENTE]"}
+  ],
+  "portfolio": {
+    "stat_program": "CLAC21",
+    "stat_program_lab_en": "Program",
+    "stat_program_lab_es": "Programa",
+    "country_code": "CO",
+    "country_name_en": "Colombia",
+    "country_name_es": "Colombia",
+    "bg_problem": "https://air4u.co/wp-content/uploads/2023/03/Office.jpg",
+    "bg_solution": "https://air4u.co/wp-content/uploads/2023/03/Purificador-de-aire01.jpg",
+    "bg_impact": "https://air4u.co/wp-content/uploads/2023/08/PHOTO-2023-04-20-14-34-24.jpg",
+    "bg_team": "https://air4u.co/wp-content/uploads/2023/04/Air4uhome-1536x1029.png",
+    "bg_cta": "https://air4u.co/wp-content/uploads/2023/04/Opcion-3-scaled.jpg",
+    "image_credits": {
+      "en": "All sections: air4u.co (product, office, and campaign photography hosted on the public site).",
+      "es": "Todas las secciones: air4u.co (fotografía de producto, oficina y campañas en el sitio público)."
+    },
+    "problem_head_en": "Indoor air in homes, workplaces, and food facilities carries microbes, odors, and contaminants.",
+    "problem_head_es": "El aire interior en hogares, lugares de trabajo y plantas de alimentos arrastra microbios, olores y contaminantes.",
+    "problem_body_en": "Traditional filtration and chemicals are not always enough for deep disinfection in sensitive environments such as food production and healthcare-related spaces.",
+    "problem_body_es": "La filtración tradicional y los químicos no siempre bastan para desinfección profunda en entornos sensibles como producción de alimentos.",
+    "solution_steps": [
+      {
+        "icon": "🌬️",
+        "label_en": "Focus",
+        "label_es": "Enfoque",
+        "text_en": "Manufacture and install Colombian ozone generators that purify, deodorize, and disinfect indoor air for homes, commerce, and industry.",
+        "text_es": "Fabricar e instalar generadores de ozono colombianos que purifican, desodorizan y desinfectan el aire interior para hogares, comercio e industria."
+      },
+      {
+        "icon": "🔗",
+        "label_en": "Program",
+        "label_es": "Programa",
+        "text_en": "Air4U — CLAC21 · ClimateLaunchpad Colombia (CleantechHUB portfolio card AIR 4U).",
+        "text_es": "Air4U — CLAC21 · ClimateLaunchpad Colombia (tarjeta AIR 4U)."
+      },
+      {
+        "icon": "🌎",
+        "label_en": "Market",
+        "label_es": "Mercado",
+        "text_en": "Based in Bogotá, Colombia. Public site: air4u.co.",
+        "text_es": "Con base en Bogotá, Colombia. Sitio: air4u.co."
+      }
+    ],
+    "source_en": "CleantechHUB portfolio card (AIR 4U) + air4u.co (technology description).",
+    "source_es": "Tarjeta portafolio (AIR 4U) + air4u.co (descripción tecnológica).",
+    "taxonomy_en": "CT-IN-001 · Industrial Efficiency",
+    "taxonomy_es": "CT-IN-001 · Eficiencia industrial",
+    "location_en": "City: Bogotá · Country: Colombia",
+    "location_es": "Ciudad: Bogotá · País: Colombia",
+    "program_detail_en": "CleantechHUB Acceleration · CLAC21 cohort.",
+    "program_detail_es": "Aceleración CleantechHUB · cohorte CLAC21.",
+    "team": [
+      {
+        "name": "Miguel Ángel Rozo",
+        "role_en": "Founder &amp; CEO &middot; CLAC21",
+        "role_es": "Fundador y CEO &middot; CLAC21",
+        "bio_en": "Founder &amp; CEO. Source: air4u.co, LinkedIn company page.",
+        "bio_es": "Fundador y CEO. Fuente: air4u.co, LinkedIn.",
+        "initials": "MR",
+        "linkedin": "https://www.linkedin.com/in/miguel-rozo"
+      }
+    ],
+    "footer_note_en": "Program: CLAC21. air4u.co cites up to 99.99% microorganism reduction — marketing claim; verified KPIs on profile: [PENDIENTE]. Pitch deck: [PENDIENTE].",
+    "footer_note_es": "Programa: CLAC21. air4u.co cita hasta 99,99% reducción de microorganismos — claim comercial; KPIs verificados: [PENDIENTE]. Pitch deck: [PENDIENTE]."
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "slug": "calojabones",
+  "name": "CALOJABONES",
+  "website": "https://calojabones.com.co",
+  "badge_en": "CT-WA-001 &middot; Circular Cleaning",
+  "badge_es": "CT-WA-001 &middot; Limpieza Circular",
+  "hero_image": "https://somostorna.com/wp-content/uploads/2023/10/DSC_0173-2-2.jpg",
+  "hero_sub_en": "calojabones.com.co &middot; Colombia &middot; La Calera &middot; Stage: Pre-Seed &middot; CT-WA-001",
+  "hero_sub_es": "calojabones.com.co &middot; Colombia &middot; La Calera &middot; Etapa: Pre-Seed &middot; CT-WA-001",
+  "pitch_en": "Collects used cooking oil from restaurants and households and transforms it into biodegradable, chemical-free cleaning soaps, preventing water pollution at source.",
+  "pitch_es": "Recolecta aceite de cocina usado de restaurantes y hogares y lo transforma artesanalmente en jabones de limpieza biodegradables y libres de químicos, previniendo la contaminación del agua.",
+  "cta_pitch_en": "Collects used cooking oil from restaurants and households and transforms it into biodegradable, chemical-free cleaning soaps, preventing water pollution at source.",
+  "cta_pitch_es": "Recolecta aceite de cocina usado de restaurantes y hogares y lo transforma artesanalmente en jabones de limpieza biodegradables y libres de químicos, previniendo la contaminación del agua.",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "ribbon": [
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    },
+    {
+      "val": "Pre-Seed",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLAC22",
+      "sub_es": "CLAC22"
+    },
+    {
+      "val": "CT-WA-001",
+      "lab_en": "CT Taxonomy",
+      "lab_es": "Taxonomía CT",
+      "sub_en": "Waste & water",
+      "sub_es": "Residuos y agua"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Métricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLAC",
+        "lab_en": "Acceleration",
+        "lab_es": "Aceleración"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Accelerator",
+        "lab_es": "Acelerador"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Used cooking oil contaminates urban water systems when disposed improperly.",
+      "head_es": "El aceite de cocina usado contamina los sistemas de agua urbana cuando se dispone incorrectamente.",
+      "body_en": "Restaurants and households generate used cooking oil (UCO) that often ends up in drains and ecosystems. Calo Jabones collects UCO locally and converts it into biodegradable cleaning products.",
+      "body_es": "Restaurantes y hogares generan aceite de cocina usado (ACU) que a menudo termina en drenajes y ecosistemas. Calo Jabones recolecta ACU localmente y lo convierte en productos de limpieza biodegradables.",
+      "bg": "https://images.unsplash.com/photo-1550946843-6037f2de3a96?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "♻️",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Local collection of used cooking oil and transformation into biodegradable soaps and cleaning products.",
+          "text_es": "Recolección local de aceite de cocina usado y transformación en jabones y productos de limpieza biodegradables."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "CALOJABONES — CLAC 2022 · CleantechHUB Acceleration portfolio.",
+          "text_es": "CALOJABONES — CLAC 2022 · Portafolio Aceleración CleantechHUB."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Based in La Calera, Cundinamarca. Verified site: calojabones.com.co.",
+          "text_es": "Con base en La Calera, Cundinamarca. Sitio verificado: calojabones.com.co."
+        }
+      ],
+      "bg": "https://somostorna.com/wp-content/uploads/2023/10/jabon-liquido-empresas.jpg"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact & Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Portfolio source",
+          "title_es": "Fuente portafolio",
+          "text_en": "Profile synced from CleantechHUB Startup Portfolio card (Portafolio CTH / Acceleration).",
+          "text_es": "Perfil sincronizado desde la tarjeta del Startup Portfolio CleantechHUB (Portafolio CTH / Acceleration)."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomía",
+          "text_en": "CT-WA-001 · Waste-to-Energy & Biogas (portfolio mapping) · Circular UCO valorization.",
+          "text_es": "CT-WA-001 · Residuos a energía y biogás (mapeo portafolio) · Valorización circular de ACU."
+        }
+      ],
+      "bg": "https://somostorna.com/wp-content/uploads/2023/10/hogar-productos-sostenibles.jpg"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Daniela Carvajal Molina",
+          "role_en": "Founder & General Manager",
+          "role_es": "Fundadora y Gerente General",
+          "bio_en": "Founder of Calo Jabones SAS (now also operating as Torna). Source: CleantechHUB Wiki and public LinkedIn profile.",
+          "bio_es": "Fundadora de Calo Jabones SAS (también opera como Torna). Fuente: Wiki CleantechHUB y perfil público de LinkedIn.",
+          "linkedin": "https://www.linkedin.com/in/daniela-carvajal-molina-9b981023a"
+        },
+        {
+          "name": "Juan Sebastián Sánchez",
+          "role_en": "Co-founder · Operations",
+          "role_es": "Cofundador · Operaciones",
+          "bio_en": "Co-creator and operations lead (Calo Jabones / Torna). Source: public LinkedIn profile and company materials.",
+          "bio_es": "Co-creador y líder de operaciones (Calo Jabones / Torna). Fuente: perfil público de LinkedIn y materiales de la empresa.",
+          "linkedin": "https://www.linkedin.com/in/juan-sebasti%C3%A1n-s%C3%A1nchez-064514269"
+        }
+      ],
+      "dream_en": "Program: CTH Acceleration (CLAC22). City: La Calera, Cundinamarca. Pitch deck: [PENDIENTE]. Verified KPIs: [PENDIENTE].",
+      "dream_es": "Programa: Aceleración CTH (CLAC22). Ciudad: La Calera, Cundinamarca. Pitch deck: [PENDIENTE]. KPIs verificados: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200&q=80"
+    }
+  ],
+  "cta_bg": "https://images.unsplash.com/photo-1611270629569-7a308123172c?w=1200&q=80",
+  "image_credits": [
+    {
+      "slot_en": "Hero",
+      "slot_es": "Hero",
+      "credit_en": "Source: somostorna.com — Calo Jabones / Torna production (verified public brand site).",
+      "credit_es": "Fuente: somostorna.com — producción Calo Jabones / Torna (sitio público verificado).",
+      "link": "https://somostorna.com/nosotros/"
+    },
+    {
+      "slot_en": "01 Problem",
+      "slot_es": "01 Problema",
+      "credit_en": "Photo: CHUTTERSNAP on Unsplash — used cooking oil / kitchen waste context.",
+      "credit_es": "Foto: CHUTTERSNAP en Unsplash — aceite de cocina usado / residuo de cocina.",
+      "link": "https://unsplash.com/photos/6037f2de3a96"
+    },
+    {
+      "slot_en": "02 Solution",
+      "slot_es": "02 Solución",
+      "credit_en": "Source: somostorna.com — industrial biodegradable cleaning line.",
+      "credit_es": "Fuente: somostorna.com — línea de limpieza biodegradable industrial.",
+      "link": "https://somostorna.com/"
+    },
+    {
+      "slot_en": "03 Impact",
+      "slot_es": "03 Impacto",
+      "credit_en": "Source: somostorna.com — household sustainable cleaning products.",
+      "credit_es": "Fuente: somostorna.com — productos de limpieza sostenibles para hogar.",
+      "link": "https://somostorna.com/"
+    },
+    {
+      "slot_en": "04 Leadership",
+      "slot_es": "04 Liderazgo",
+      "credit_en": "Photo: Kate Trifo on Unsplash — collaborative team / community work.",
+      "credit_es": "Foto: Kate Trifo en Unsplash — equipo colaborativo / trabajo comunitario.",
+      "link": "https://unsplash.com/photos/1cb2f99b2d8b"
+    },
+    {
+      "slot_en": "CTA",
+      "slot_es": "CTA",
+      "credit_en": "Photo: Curology on Unsplash — natural soap bars.",
+      "credit_es": "Foto: Curology en Unsplash — jabones naturales en barra.",
+      "link": "https://unsplash.com/photos/7a308123172c"
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   "website": "https://e-ray.lat/e-wai/",
   "badge_en": "Water-Quality AI Reports &amp; Compliance",
   "badge_es": "Reportes IA de Calidad del Agua y Cumplimiento",
-  "hero_image": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=1200&q=80",
+  "hero_image": "https://images.unsplash.com/photo-1432453979717-755d69830972?w=1200&q=80",
   "hero_sub_en": "e-ray.lat/e-wai &middot; Medellín, Colombia &middot; Stage: Public Beta",
   "hero_sub_es": "e-ray.lat/e-wai &middot; Medellín, Colombia &middot; Etapa: Beta Pública",
   "pitch_en": "AI platform that consolidates lab results, sensors, and environmental reports into one place — generating compliance reports in minutes instead of manual copy-paste workflows.",
@@ -146,7 +146,7 @@
           ["Periodic compliance reports", "Informes periódicos de cumplimiento"]
         ]
       ],
-      "bg": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1470071459604-3b5ec3a8fe05?w=1200&q=80"
     },
     {
       "num": 4,

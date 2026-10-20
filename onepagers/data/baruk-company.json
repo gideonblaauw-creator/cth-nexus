@@ -1,0 +1,206 @@
+{
+  "slug": "baruk-company",
+  "name": "BARUK COMPANY",
+  "website": "#",
+  "badge_en": "Bioeconomy &middot; CTH Acceleration",
+  "badge_es": "Bioeconomía &middot; Aceleración CTH",
+  "hero_image": "https://images.unsplash.com/photo-1592982539628-fe2face54773?w=1200&q=80",
+  "hero_sub_en": "Colombia &middot; Bogotá &middot; Stage: Pre-Seed &middot; Website: [PENDIENTE]",
+  "hero_sub_es": "Colombia &middot; Bogotá &middot; Etapa: Pre-Seed &middot; Sitio web: [PENDIENTE]",
+  "pitch_en": "Builds energy self-sufficient bioclimatic smart greenhouses for food sovereignty and seed preservation in remote and vulnerable communities across Latin America.",
+  "pitch_es": "Construye invernaderos inteligentes bioclimáticos autosuficientes energéticamente para la soberanía alimentaria y la preservación de semillas en comunidades remotas de América Latina.",
+  "cta_pitch_en": "Builds energy self-sufficient bioclimatic smart greenhouses for food sovereignty and seed preservation in remote and vulnerable communities across Latin America.",
+  "cta_pitch_es": "Construye invernaderos inteligentes bioclimáticos autosuficientes energéticamente para la soberanía alimentaria y la preservación de semillas en comunidades remotas de América Latina.",
+  "cta_btn_en": "CleantechHUB portfolio",
+  "cta_btn_es": "Portafolio CleantechHUB",
+  "ribbon": [
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    },
+    {
+      "val": "Pre-Seed",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLAC25",
+      "sub_es": "CLAC25"
+    },
+    {
+      "val": "Bio",
+      "lab_en": "Theme",
+      "lab_es": "Tema",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[PENDIENTE]",
+      "lab_en": "CT Taxonomy",
+      "lab_es": "Taxonomía CT",
+      "sub_en": "CTH",
+      "sub_es": "CTH"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLAC",
+        "lab_en": "Acceleration",
+        "lab_es": "Aceleración"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Accelerator",
+        "lab_es": "Acelerador"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Food insecurity and limited year-round production in vulnerable territories.",
+      "head_es": "Inseguridad alimentaria y producción limitada todo el año en territorios vulnerables.",
+      "body_en": "Remote and vulnerable communities need resilient, low-carbon food production and seed preservation without relying on conventional energy grids. BARUK COMPANY develops bioclimatic greenhouse infrastructure for food sovereignty.",
+      "body_es": "Comunidades remotas y vulnerables necesitan producción de alimentos resiliente y baja en carbono y preservación de semillas sin depender de redes energéticas convencionales. BARUK COMPANY desarrolla infraestructura de invernaderos bioclimáticos para la soberanía alimentaria.",
+      "bg": "https://images.unsplash.com/photo-1488525099488-039e66364da9?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "🌱",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Energy self-sufficient bioclimatic smart greenhouses for food production and ancestral seed protection.",
+          "text_es": "Invernaderos inteligentes bioclimáticos autosuficientes para producción de alimentos y protección de semillas ancestrales."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "BARUK COMPANY — CLAC 2025 · CleantechHUB Acceleration portfolio.",
+          "text_es": "BARUK COMPANY — CLAC 2025 · Portafolio Aceleración CleantechHUB."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Based in Colombia (Bogotá). Verified public website on portfolio card: [PENDIENTE].",
+          "text_es": "Con base en Colombia (Bogotá). Sitio web público verificado en tarjeta de portafolio: [PENDIENTE]."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1530836360253-9b8a5c35990d?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact & Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Portfolio source",
+          "title_es": "Fuente portafolio",
+          "text_en": "Profile synced from CleantechHUB Startup Portfolio card (Portafolio CTH / Acceleration).",
+          "text_es": "Perfil sincronizado desde la tarjeta del Startup Portfolio CleantechHUB (Portafolio CTH / Acceleration)."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomía",
+          "text_en": "Bioeconomy · Bioclimatic agriculture infrastructure · CT node: [PENDIENTE] on portfolio card.",
+          "text_es": "Bioeconomía · Infraestructura agrícola bioclimática · Nodo CT: [PENDIENTE] en tarjeta de portafolio."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1605812860429-6028325c4de0?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Allan E. Figueredo",
+          "role_en": "Founder & CEO",
+          "role_es": "Fundador y CEO",
+          "bio_en": "Public-facing founder role (BARUK COMPANY bioclimatik). Source: public LinkedIn profile and press references.",
+          "bio_es": "Rol de fundador público (BARUK COMPANY bioclimatik). Fuente: perfil público de LinkedIn y referencias de prensa.",
+          "linkedin": "https://www.linkedin.com/in/allan-e-figueredo-a882061a1"
+        }
+      ],
+      "dream_en": "Program: CTH Acceleration (CLAC25). City: Bogotá. Verified website: [PENDIENTE]. Pitch deck: [PENDIENTE]. Verified KPIs: [PENDIENTE].",
+      "dream_es": "Programa: Aceleración CTH (CLAC25). Ciudad: Bogotá. Sitio web verificado: [PENDIENTE]. Pitch deck: [PENDIENTE]. KPIs verificados: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1466769199480-121684569904?w=1200&q=80"
+    }
+  ],
+  "cta_bg": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1200&q=80",
+  "image_credits": [
+    {
+      "slot_en": "Hero",
+      "slot_es": "Hero",
+      "credit_en": "Photo: Markus Spiske on Unsplash — greenhouse agriculture.",
+      "credit_es": "Foto: Markus Spiske en Unsplash — agricultura en invernadero.",
+      "link": "https://unsplash.com/photos/fe2face54773"
+    },
+    {
+      "slot_en": "01 Problem",
+      "slot_es": "01 Problema",
+      "credit_en": "Photo: Luke Michael on Unsplash — food access / rural fields.",
+      "credit_es": "Foto: Luke Michael en Unsplash — acceso a alimentos / campos rurales.",
+      "link": "https://unsplash.com/photos/039e66364da9"
+    },
+    {
+      "slot_en": "02 Solution",
+      "slot_es": "02 Solución",
+      "credit_en": "Photo: Jonathan Kemper on Unsplash — controlled greenhouse growing.",
+      "credit_es": "Foto: Jonathan Kemper en Unsplash — cultivo en invernadero controlado.",
+      "link": "https://unsplash.com/photos/9b8a5c35990d"
+    },
+    {
+      "slot_en": "03 Impact",
+      "slot_es": "03 Impacto",
+      "credit_en": "Photo: CDC on Unsplash — seeds / food security symbolism.",
+      "credit_es": "Foto: CDC en Unsplash — semillas / simbolismo de seguridad alimentaria.",
+      "link": "https://unsplash.com/photos/6028325c4de0"
+    },
+    {
+      "slot_en": "04 Leadership",
+      "slot_es": "04 Liderazgo",
+      "credit_en": "Photo: Zach Vessels on Unsplash — community agriculture.",
+      "credit_es": "Foto: Zach Vessels en Unsplash — agricultura comunitaria.",
+      "link": "https://unsplash.com/photos/121684569904"
+    },
+    {
+      "slot_en": "CTA",
+      "slot_es": "CTA",
+      "credit_en": "Photo: American Public Power Association on Unsplash — solar energy for agri-infrastructure.",
+      "credit_es": "Foto: American Public Power Association en Unsplash — energía solar para infraestructura agrícola.",
+      "link": "https://unsplash.com/photos/2e959784a276"
+    }
+  ]
+}

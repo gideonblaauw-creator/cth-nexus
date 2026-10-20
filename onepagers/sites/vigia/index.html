@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VIGIA (ex MUCHIK) — CLP26 CleantechHUB</title>
+<link rel="icon" href="https://cleantechhub.net/favicon.ico">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--db:#0C498A;--cy:#B2EEFA;--lg:#9DC384;--fo:#669348;--sk:#69B5FA;--page:#fff;--ov:0.30;--panel:rgba(12,73,138,.94);--panel-border:rgba(255,255,255,.48);}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{font-family:'Open Sans','PT Sans',sans-serif;background:var(--page);color:var(--db);max-width:1080px;margin:0 auto;}
+[lang="es"] .en{display:none;} [lang="en"] .es{display:none;}
+
+.site-brand{position:fixed;top:12px;left:50%;transform:translateX(-50%);width:100%;max-width:1080px;padding:0 48px;z-index:99;pointer-events:none;}
+.site-brand .brand-text{pointer-events:auto;display:inline-block;font-size:13px;font-weight:800;letter-spacing:.4px;color:#fff;text-shadow:0 2px 10px rgba(0,0,0,.6);}
+.site-brand .brand-text em{color:var(--lg);font-style:normal;}
+
+.lang-toggle{position:fixed;top:12px;right:12px;z-index:100;display:flex;border-radius:5px;overflow:hidden;box-shadow:0 4px 16px rgba(0,0,0,.35);}
+.lb{padding:6px 14px;font-size:10px;font-weight:700;border:none;cursor:pointer;font-family:'Open Sans',sans-serif;transition:all .2s;}
+.lb.active{background:var(--db);color:#fff;}.lb:not(.active){background:#fff;color:var(--db);}
+
+.sec{position:relative;overflow:hidden;}
+.sec-bg{position:absolute;inset:0;background-size:cover;background-position:center;z-index:0;}
+.sec-ov{position:absolute;inset:0;z-index:1;}
+.sec-header{display:flex;align-items:center;gap:14px;padding:28px 48px 16px;position:relative;z-index:2;}
+.sec-num{font-size:11px;font-weight:800;color:var(--db);background:var(--lg);width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;box-shadow:0 2px 8px rgba(0,0,0,.35);}
+.sec-title{font-size:18px;font-weight:800;letter-spacing:-.3px;color:#fff;text-shadow:0 2px 14px rgba(0,0,0,.75);}
+.sec-rule{height:1px;background:linear-gradient(90deg,rgba(255,255,255,.55),rgba(255,255,255,0));flex:1;margin-left:8px;}
+.accent-bar{height:3px;background:linear-gradient(90deg,var(--db) 20%,var(--fo) 20% 40%,var(--lg) 40% 60%,var(--sk) 60% 80%,var(--cy) 80%);}
+.pill{display:inline-block;padding:5px 12px;border-radius:4px;font-size:9px;font-weight:700;letter-spacing:1px;text-transform:uppercase;}
+
+.hero{min-height:320px;position:relative;}
+.hero-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;}
+.hero-ov{position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,73,138,.12) 0%,rgba(12,73,138,.30) 55%,rgba(12,73,138,.48) 100%);z-index:1;}
+.hero-in{position:relative;z-index:2;padding:88px 48px 36px;}
+.hero-badge{margin-bottom:12px;}
+.hero-name{font-size:48px;font-weight:800;line-height:1;color:#fff;text-shadow:0 4px 24px rgba(0,0,0,.55);}
+.hero-sub{font-size:13px;font-weight:700;color:#e8ffd4;margin-top:8px;text-shadow:0 2px 10px rgba(0,0,0,.5);}
+.hero-pitch{font-size:14px;line-height:1.65;color:#fff;margin-top:14px;max-width:640px;text-shadow:0 2px 12px rgba(0,0,0,.55);}
+.hero-tagline{font-size:10px;font-style:italic;color:#e8ffd4;opacity:.9;padding:0 48px 24px;position:relative;z-index:2;text-align:right;text-shadow:0 2px 8px rgba(0,0,0,.5);}
+
+.meta-wrap{padding:0 48px 32px;position:relative;z-index:2;}
+.meta-panel{background:var(--panel);backdrop-filter:blur(12px) saturate(1.35);-webkit-backdrop-filter:blur(12px) saturate(1.35);border:1px solid var(--panel-border);box-shadow:0 8px 32px rgba(0,0,0,.42);border-radius:8px;padding:22px 26px;}
+.meta-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px 28px;}
+.meta-item{display:flex;flex-direction:column;gap:4px;}
+.meta-lab{font-size:9px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:#e8ffd4;}
+.meta-val{font-size:13px;font-weight:600;color:#fff;line-height:1.45;}
+.meta-val a{color:#e8ffd4;text-decoration:none;border-bottom:1px solid rgba(232,255,212,.45);}
+.meta-val a:hover{color:#fff;}
+.slot-empty{font-size:12px;font-weight:600;color:rgba(255,255,255,.45);font-style:italic;}
+
+.deck-wrap{padding:0 48px 32px;position:relative;z-index:2;}
+.deck-panel{background:var(--panel);backdrop-filter:blur(12px);border:1px solid var(--panel-border);border-radius:8px;padding:16px;box-shadow:0 8px 32px rgba(0,0,0,.42);}
+.deck-canvas-wrap{width:100%;border-radius:6px;overflow:hidden;background:#fff;box-shadow:0 14px 40px rgba(0,0,0,.5);min-height:280px;display:flex;align-items:center;justify-content:center;}
+.deck-canvas{display:block;width:100%;height:auto;}
+.deck-nav{display:flex;align-items:center;justify-content:center;gap:14px;margin-top:14px;flex-wrap:wrap;}
+.deck-nav button{font-size:11px;font-weight:700;padding:8px 16px;border-radius:6px;border:1px solid var(--panel-border);background:rgba(0,0,0,.25);color:#fff;cursor:pointer;font-family:inherit;}
+.deck-nav button:disabled{opacity:.4;cursor:not-allowed;}
+.deck-page-label{font-size:11px;font-weight:700;color:rgba(255,255,255,.9);}
+.deck-actions{display:flex;gap:10px;justify-content:center;margin-top:14px;flex-wrap:wrap;}
+.deck-note{padding:0 48px 8px;font-size:10px;color:rgba(255,255,255,.9);text-align:center;position:relative;z-index:2;text-shadow:0 1px 8px rgba(0,0,0,.5);}
+
+.video-wrap{padding:0 48px 32px;position:relative;z-index:2;}
+.video-panel{background:var(--panel);border:1px solid var(--panel-border);border-radius:8px;padding:16px;box-shadow:0 8px 32px rgba(0,0,0,.42);}
+.video-frame{width:100%;aspect-ratio:16/9;border:0;border-radius:6px;background:#000;}
+
+.cta{text-align:center;padding:44px 48px;position:relative;z-index:2;}
+.cta-links{display:flex;gap:10px;justify-content:center;margin-top:8px;flex-wrap:wrap;}
+.cta-link{font-size:10px;font-weight:700;color:#fff;text-decoration:none;padding:8px 16px;background:var(--panel);border:1px solid var(--panel-border);border-radius:6px;box-shadow:0 4px 16px rgba(0,0,0,.35);}
+.cta-brand{margin-top:24px;}
+.cta-brand .tg{font-size:12px;font-style:italic;color:#e8ffd4;opacity:.95;}
+.cta-brand .lg2{font-size:14px;font-weight:800;margin-top:4px;color:#fff;}
+.cta-port{font-size:9px;color:rgba(255,255,255,.8);margin-top:10px;}
+
+@media(max-width:720px){.meta-grid{grid-template-columns:1fr;}.hero-name{font-size:36px;}}
+
+</style>
+</head>
+<body>
+<div class="site-brand"><span class="brand-text">Cleantech<em>HUB</em></span></div>
+<div class="lang-toggle">
+  <button class="lb" onclick="document.documentElement.lang='en';this.classList.add('active');this.nextElementSibling.classList.remove('active');">EN</button>
+  <button class="lb active" onclick="document.documentElement.lang='es';this.classList.add('active');this.previousElementSibling.classList.remove('active');">ES</button>
+</div>
+
+<div class="sec hero">
+  <img class="hero-img" src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1200&q=80" alt="VIGIA (ex MUCHIK)" loading="lazy">
+  <div class="hero-ov"></div>
+  <div class="hero-in">
+    <div class="hero-badge"><div class="pill" style="background:rgba(0,0,0,.45);color:var(--lg);"><span class="en">CLP26 Peru cohort</span><span class="es">Cohorte CLP26 Perú</span></div></div>
+    <div class="hero-name">VIGIA (ex MUCHIK)</div>
+    <div class="hero-sub"><span class="en">CLP26 · Peru · semi</span><span class="es">CLP26 · Perú · semi</span></div>
+    <div class="hero-pitch"><span class="en">Plataforma de biovigilancia ambiental que usa metagenómica y bioinformática para monitorear genes de resistencia antimicrobiana en agua y sedimentos de ecosistemas acuáticos.</span><span class="es">Plataforma de biovigilancia ambiental que usa metagenómica y bioinformática para monitorear genes de resistencia antimicrobiana en agua y sedimentos de ecosistemas acuáticos.</span></div>
+  </div>
+  <div class="hero-tagline">Inspira. Actúa. Transforma.</div>
+</div>
+
+<div class="sec" style="position:relative;">
+  <div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1200&q=80');"></div>
+  <div class="sec-ov" style="background:rgba(12,73,138,.30);"></div>
+  <div class="sec-header"><div class="sec-num">i</div><div class="sec-title"><span class="en">Startup profile</span><span class="es">Perfil startup</span></div><div class="sec-rule"></div></div>
+  <div class="meta-wrap"><div class="meta-panel"><div class="meta-grid">
+    <div class="meta-item"><div class="meta-lab"><span class="en">Name</span><span class="es">Nombre</span></div><div class="meta-val">VIGIA (ex MUCHIK)</div></div>
+    <div class="meta-item"><div class="meta-lab"><span class="en">Founder LinkedIn</span><span class="es">LinkedIn fundador</span></div><div class="meta-val"><span class="slot-empty"><span class="en">[empty]</span><span class="es">[vacío]</span></span></div></div>
+    <div class="meta-item"><div class="meta-lab"><span class="en">Website</span><span class="es">Sitio web</span></div><div class="meta-val"><span class="slot-empty"><span class="en">[empty]</span><span class="es">[vacío]</span></span></div></div>
+    <div class="meta-item"><div class="meta-lab"><span class="en">CT taxonomy</span><span class="es">Taxonomía CT</span></div><div class="meta-val"><span class="slot-empty"><span class="en">[empty]</span><span class="es">[vacío]</span></span></div></div>
+    <div class="meta-item" style="grid-column:1/-1;"><div class="meta-lab"><span class="en">Short description</span><span class="es">Descripción breve</span></div><div class="meta-val">Plataforma de biovigilancia ambiental que usa metagenómica y bioinformática para monitorear genes de resistencia antimicrobiana en agua y sedimentos de ecosistemas acuáticos.</div></div>
+  </div></div></div>
+</div>
+<div class="accent-bar"></div>
+
+<div class="sec" style="position:relative;">
+  <div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80');"></div>
+  <div class="sec-ov" style="background:rgba(12,73,138,.30);"></div>
+  <div class="sec-header"><div class="sec-num">📄</div><div class="sec-title"><span class="en">Pitch deck</span><span class="es">Pitch deck</span></div><div class="sec-rule"></div></div>
+  <div class="deck-note"><span class="en">One slide at a time — use arrows to browse the deck.</span><span class="es">Una diapositiva a la vez — use las flechas para recorrer el deck.</span></div>
+  <div class="deck-wrap"><div class="deck-panel">
+    <div class="deck-canvas-wrap"><canvas id="deck-canvas" class="deck-canvas"></canvas></div>
+    <div class="deck-nav">
+      <button type="button" id="deck-prev" aria-label="Previous slide"><span class="en">← Previous</span><span class="es">← Anterior</span></button>
+      <span class="deck-page-label" id="deck-page-label">—</span>
+      <button type="button" id="deck-next" aria-label="Next slide"><span class="en">Next →</span><span class="es">Siguiente →</span></button>
+    </div>
+    <div class="deck-actions">
+      <a class="cta-link" href="/s/vigia/deck.pdf" target="_blank" rel="noopener"><span class="en">Open PDF</span><span class="es">Abrir PDF</span></a>
+      <a class="cta-link" href="/s/vigia/deck.pdf" download><span class="en">Download PDF</span><span class="es">Descargar PDF</span></a>
+    </div>
+  </div></div>
+</div>
+<div class="accent-bar"></div>
+
+
+<div class="sec" style="position:relative;">
+  <div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1504541331459-5288e5d49ee3?w=1200&q=80');"></div>
+  <div class="sec-ov" style="background:rgba(12,73,138,.30);"></div>
+  <div class="cta">
+    <div class="cta-links">
+      <span class="cta-link" style="opacity:.55;cursor:default;"><span class="en">Nexus profile</span><span class="es">Perfil Nexus</span>: <span class="slot-empty"><span class="en">[empty]</span><span class="es">[vacío]</span></span></span>
+      <a class="cta-link" href="https://nexus.cleantechhub.net/s/vigia"><span class="en">One-pager</span><span class="es">One-pager</span></a>
+      <a class="cta-link" href="/s/vigia/deck.pdf" target="_blank" rel="noopener"><span class="en">Deck (PDF)</span><span class="es">Deck (PDF)</span></a>
+    </div>
+    <div class="cta-brand"><div class="tg">Inspira. Actúa. Transforma.</div><div class="lg2">Cleantech<em style="color:var(--lg);font-style:normal;">HUB</em></div></div>
+    <div class="cta-port"><span class="en">Draft — not deployed to /opt/nexus-onepagers</span><span class="es">Borrador — no desplegado en /opt/nexus-onepagers</span></div>
+  </div>
+</div>
+<div class="accent-bar"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script>
+(function() {
+  var pdfUrl = "/s/vigia/deck.pdf";
+  var canvas = document.getElementById("deck-canvas");
+  var label = document.getElementById("deck-page-label");
+  var prev = document.getElementById("deck-prev");
+  var next = document.getElementById("deck-next");
+  var pdfDoc = null;
+  var pageNum = 1;
+  var pageRendering = false;
+  var pageNumPending = null;
+
+  if (!window["pdfjsLib"]) {
+    label.textContent = "PDF.js unavailable";
+    return;
+  }
+  pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
+
+  function renderPage(num) {
+    pageRendering = true;
+    pdfDoc.getPage(num).then(function(page) {
+      var viewport = page.getViewport({ scale: 1.5 });
+      canvas.height = viewport.height;
+      canvas.width = viewport.width;
+      return page.render({ canvasContext: canvas.getContext("2d"), viewport: viewport }).promise;
+    }).then(function() {
+      pageRendering = false;
+      label.textContent = num + " / " + pdfDoc.numPages;
+      prev.disabled = num <= 1;
+      next.disabled = num >= pdfDoc.numPages;
+      if (pageNumPending !== null) {
+        renderPage(pageNumPending);
+        pageNumPending = null;
+      }
+    });
+  }
+
+  function queueRenderPage(num) {
+    if (pageRendering) {
+      pageNumPending = num;
+    } else {
+      renderPage(num);
+    }
+  }
+
+  prev.addEventListener("click", function() {
+    if (pageNum <= 1) return;
+    pageNum--;
+    queueRenderPage(pageNum);
+  });
+  next.addEventListener("click", function() {
+    if (!pdfDoc || pageNum >= pdfDoc.numPages) return;
+    pageNum++;
+    queueRenderPage(pageNum);
+  });
+
+  pdfjsLib.getDocument(pdfUrl).promise.then(function(doc) {
+    pdfDoc = doc;
+    renderPage(pageNum);
+  }).catch(function() {
+    label.textContent = "Deck load failed";
+  });
+})();
+</script>
+</body>
+</html>

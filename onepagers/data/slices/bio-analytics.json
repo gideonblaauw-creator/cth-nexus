@@ -1,0 +1,52 @@
+{
+ "name": {
+  "value": "bio.analytics",
+  "source": "build_data.py / Seguimiento"
+ },
+ "country": {
+  "value": "CO",
+  "source": "build_data.py"
+ },
+ "stage": {
+  "value": "semi",
+  "source": "build_data.py"
+ },
+ "short_description_es": {
+  "value": "Monitoreo de biodiversidad no invasivo mediante bioacústica y sensores ambientales, generando métricas de salud con IA.",
+  "source": "Seguimiento_CLP_2026 (Descripción)"
+ },
+ "pitch_video_drive": {
+  "value": "https://drive.google.com/file/d/163cF49C8UYJc29g2EvLk5qqWja3gH1qo/view",
+  "source": "Drive pitch folder (build_data PITCH)"
+ },
+ "youtube_pitch_url": {
+  "value": "",
+  "source": "empty slot – uploads on hold pending Gideon go-ahead"
+ },
+ "founder_linkedin": {
+  "value": null,
+  "source": ""
+ },
+ "website": {
+  "value": null,
+  "source": ""
+ },
+ "taxonomy_link": {
+  "value": null,
+  "source": ""
+ },
+ "nexus_profile_url": {
+  "value": "https://nexus.cleantechhub.net/s/bio-analytics",
+  "source": "live Nexus"
+ },
+ "deck": {
+  "value": "/workspace/climate-kic/onepagers/decks/bio-analytics.pdf",
+  "source": "Drive file 1k4kHdNFXCNiJBgpgDpDRA9WGJk2tD9DV"
+ },
+ "missing_fields": [
+  "founder_linkedin",
+  "website",
+  "taxonomy_link"
+ ],
+ "slug": "bio-analytics"
+}

@@ -1,0 +1,5 @@
+id,name,parent_id/id,function,email,phone,website,comment
+__import__.clp26_proyecto_impacto_ambiental_founder,TBD (LinkedIn),__import__.clp26_proyecto_impacto_ambiental,,,,,Founder data to be sourced from LinkedIn only
+__import__.clp26_sie_waka_founder,TBD (LinkedIn),__import__.clp26_sie_waka,,,,,Founder data to be sourced from LinkedIn only
+__import__.clp26_terra_io_founder,TBD (LinkedIn),__import__.clp26_terra_io,,,,,Founder data to be sourced from LinkedIn only
+__import__.clp26_sekpos_founder,TBD (LinkedIn),__import__.clp26_sekpos,,,,,Founder data to be sourced from LinkedIn only

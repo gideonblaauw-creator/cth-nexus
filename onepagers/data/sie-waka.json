@@ -4,7 +4,7 @@
   "website": "https://siewakaplatform.streamlit.app/",
   "badge_en": "Water &middot; CLP26 Colombia",
   "badge_es": "Water &middot; CLP26 Colombia",
-  "hero_image": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=1200&q=80",
+  "hero_image": "https://images.unsplash.com/photo-1432453979717-755d69830972?w=1200&q=80",
   "hero_sub_en": "siewakaplatform.streamlit.app &middot; Colombia &middot; Water &middot; Stage: Public Beta &middot; CT-WW-003",
   "hero_sub_es": "siewakaplatform.streamlit.app &middot; Colombia &middot; Water &middot; Etapa: Public Beta &middot; CT-WW-003",
   "pitch_en": "It is a decentralized, community-driven platform for water quality monitoring combining IoT sensors, open data, and citizen science. We empower communities and governments with real-time, evidence-based data to improve water governance and accountability.",
@@ -80,7 +80,7 @@
       "head_es": "Water scarcity and contamination are worsening due to climate change, yet monitoring data in…",
       "body_en": "Water scarcity and contamination are worsening due to climate change, yet monitoring data in vulnerable communities is scarce, unreliable, and opaque. Without real-time data, communities and governments cannot make informed water management decisions.",
       "body_es": "Water scarcity and contamination are worsening due to climate change, yet monitoring data in vulnerable communities is scarce, unreliable, and opaque. Without real-time data, communities and governments cannot make informed water management decisions.",
-      "bg": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1432453979717-755d69830972?w=1200&q=80"
     },
     {
       "num": 2,
@@ -184,7 +184,7 @@
           ]
         ]
       ],
-      "bg": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1432453979717-755d69830972?w=1200&q=80"
     },
     {
       "num": 4,
@@ -222,7 +222,7 @@
           "text_es": "Funded by CIVICHOUSE (2022), Hackcorruption Colombia (2023), and Young Water Solutions (2024). Supported by Lab NL, Neotropical Cuencas, Alkali+SOSAC, TECHO Colombia, and Red…"
         }
       ],
-      "bg": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=1200&q=80"
+      "bg": "https://images.unsplash.com/photo-1432453979717-755d69830972?w=1200&q=80"
     },
     {
       "num": 5,
