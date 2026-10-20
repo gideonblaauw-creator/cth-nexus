@@ -19,10 +19,10 @@
       "id": "policy",
       "title": { "es": "2 · Política pública", "en": "2 · Public policy" },
       "blurb": {
-        "es": "Regulación, programas y participación gubernamental en el ecosistema.",
-        "en": "Regulation, programs, and government participation in the ecosystem."
+        "es": "Relaciones verificadas del grafo + `issues_policy` (sólido) y vínculos inferidos `addresses_challenge` (Suggested).",
+        "en": "Verified graph edges + `issues_policy` (solid) and inferred `addresses_challenge` links (Suggested)."
       },
-      "edgeTypes": ["regulates_layer", "runs_program", "oversees", "runs_initiative", "created", "participates"],
+      "edgeTypes": ["regulates_layer", "runs_program", "oversees", "runs_initiative", "created", "participates", "issues_policy", "addresses_challenge"],
       "map": { "center": [-77.0, -12.1], "zoom": 5.2, "countries": ["PE", "SV"] }
     },
     {

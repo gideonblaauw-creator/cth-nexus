@@ -147,6 +147,28 @@ def sanitize_actor(raw: dict, idx: dict) -> dict:
     return {k: v for k, v in a.items() if k not in DROP_KEYS}
 
 
+def sanitize_policies(policies: list) -> list:
+    out = []
+    for p in policies:
+        clean = {k: v for k, v in p.items() if k not in ("notes", "internal_notes")}
+        out.append(scrub_value(clean))
+    return out
+
+
+def sanitize_policy_relations(relations: list) -> list:
+    out = []
+    for r in relations:
+        clean = {
+            k: v
+            for k, v in r.items()
+            if k in ("source", "target", "type", "verified", "suggested", "source_url")
+        }
+        if "verified" not in clean and "suggested" in r:
+            clean["verified"] = not r["suggested"]
+        out.append(scrub_value(clean))
+    return out
+
+
 def sanitize_relations(relations: list) -> list:
     out = []
     for r in relations:
@@ -176,8 +198,19 @@ def main() -> None:
     actors_path.write_text(json.dumps(actors, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     (DATA / "relations.json").write_text(json.dumps(relations, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
+    policies_path = DATA / "policies.json"
+    policy_rels_path = DATA / "policy_relations.json"
+    if policies_path.exists():
+        policies = sanitize_policies(json.loads(policies_path.read_text(encoding="utf-8")))
+        policies_path.write_text(json.dumps(policies, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    if policy_rels_path.exists():
+        prel = sanitize_policy_relations(json.loads(policy_rels_path.read_text(encoding="utf-8")))
+        policy_rels_path.write_text(json.dumps(prel, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+
     with_slug = sum(1 for a in actors if a.get("nexus", {}).get("card_slug"))
-    print(f"Public actors: {len(actors)}, card_slug: {with_slug}, relations: {len(relations)}")
+    pol_n = len(json.loads(policies_path.read_text())) if policies_path.exists() else 0
+    pol_r = len(json.loads(policy_rels_path.read_text())) if policy_rels_path.exists() else 0
+    print(f"Public actors: {len(actors)}, card_slug: {with_slug}, relations: {len(relations)}, policies: {pol_n}, policy_relations: {pol_r}")
 
 
 if __name__ == "__main__":

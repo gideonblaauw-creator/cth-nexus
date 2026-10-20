@@ -5,6 +5,8 @@ import {
   chapterScene,
   computeChapterEdgeCounts,
   isChallengeId,
+  isPolicyId,
+  policyGeo,
 } from './story.mjs';
 import {
   countryBadgeCounts,
@@ -64,6 +66,8 @@ const EDGE_COLOR = {
   runs_initiative: '#6b4c9a',
   part_of_network: '#457b9d',
   oversees: '#6b4c9a',
+  issues_policy: '#6b4c9a',
+  addresses_challenge: '#2a9d8f',
   default: '#94a3b8',
 };
 
@@ -178,6 +182,9 @@ let fa2Assign = null;
 
 let viewMode = 'explore';
 let storyConfig = null;
+let policies = [];
+let policiesById = new Map();
+let policyRelations = [];
 let storyChapter = 0;
 let constellationId = null;
 let constellationCloseup = false;
@@ -441,7 +448,7 @@ function buildGraph(idSet, rels, opts = {}) {
   };
 
   idSet.forEach((id) => {
-    if (isChallengeId(id)) return;
+    if (isChallengeId(id) || isPolicyId(id)) return;
     const a = byId.get(id);
     if (!a) return;
     let pos = layoutPositions.get(id) || geoXY(a);
@@ -681,6 +688,27 @@ function flyToActor(a) {
 function renderInspector(id) {
   const el = $('#inspector');
   const tr = t();
+  if (isPolicyId(id)) {
+    const row = policiesById.get(id);
+    const linked = [...relations, ...policyRelations].filter((r) => r.source === id || r.target === id);
+    el.classList.remove('empty');
+    el.innerHTML = `
+      <div style="padding:14px">
+        <h2>${esc(row?.name || id)}</h2>
+        <div class="meta">${esc(row?.country || '')} · ${esc(row?.instrument || 'policy')} · ${linked.length} links</div>
+        ${row?.source_url ? `<a class="secondary" href="${esc(row.source_url)}" target="_blank" rel="noopener">${tr.website}</a>` : ''}
+        <div class="section"><h3>${tr.typedRelations}</h3>
+        ${linked.slice(0, 12).map((r) => {
+      const otherId = r.source === id ? r.target : r.source;
+      const other = byId.get(otherId);
+      const oLabel = other?.name
+        || (isChallengeId(otherId) ? (storyConfig?.challenges[otherId]?.label?.[lang === 'EN' ? 'en' : 'es'] || otherId) : otherId);
+      return `<div class="rel-row"><span class="rtype">${esc(r.type.replace(/_/g, '-'))}</span>${esc(oLabel)}</div>`;
+    }).join('') || `<p class="meta">${tr.noRelations}</p>`}
+        </div>
+      </div>`;
+    return;
+  }
   if (isChallengeId(id) && storyConfig) {
     const meta = storyConfig.challenges[id];
     const linked = relations.filter((r) => r.target === id || r.source === id);
@@ -745,7 +773,7 @@ function renderInspector(id) {
 }
 
 function selectActor(id) {
-  if (!byId.has(id) && !isChallengeId(id)) return;
+  if (!byId.has(id) && !isChallengeId(id) && !isPolicyId(id)) return;
   selected = id;
   $('#workspace').classList.remove('no-inspector');
   renderInspector(id);
@@ -754,6 +782,14 @@ function selectActor(id) {
     const g = storyConfig.challenges[id].geo;
     const opts = { center: [g.lng, g.lat], zoom: Math.max(map?.getZoom() || 5, 5.8) };
     if (map) {
+      if (reducedMotion) map.jumpTo(opts);
+      else map.flyTo({ ...opts, speed: 0.85, essential: true });
+    }
+  } else if (isPolicyId(id)) {
+    const row = policiesById.get(id);
+    const g = row ? policyGeo(row) : null;
+    if (g && map) {
+      const opts = { center: [g.lng, g.lat], zoom: Math.max(map.getZoom(), 5.2) };
       if (reducedMotion) map.jumpTo(opts);
       else map.flyTo({ ...opts, speed: 0.85, essential: true });
     }
@@ -960,7 +996,7 @@ function renderStoryRail() {
     rail.appendChild(row);
   }
 
-  const counts = computeChapterEdgeCounts(storyConfig, relations, byId);
+  const counts = computeChapterEdgeCounts(storyConfig, relations, byId, policyRelations);
   window.__storyEdgeCounts = counts;
   const gaps = document.createElement('div');
   gaps.className = 'story-gaps';
@@ -975,8 +1011,10 @@ function renderStoryChapter() {
   storyScene = chapterScene(storyChapter, storyConfig, relations, byId, {
     constellationId,
     closeup: constellationCloseup,
+    policyRelations,
+    policiesById,
   });
-  const current = computeChapterEdgeCounts(storyConfig, relations, byId)[storyChapter];
+  const current = computeChapterEdgeCounts(storyConfig, relations, byId, policyRelations)[storyChapter];
   window.__storyChapterActive = {
     chapter: storyScene.chapter.id,
     real: current?.real ?? storyScene.realRels.length,
@@ -1051,12 +1089,17 @@ function applyDemoState() {
 }
 
 async function loadData() {
-  const [a, r, story] = await Promise.all([
+  const [a, r, story, pol, polRels] = await Promise.all([
     fetch('data/actors.json').then((res) => res.json()),
     fetch('data/relations.json').then((res) => res.json()),
     fetch('data/story-chapters.json').then((res) => res.json()),
+    fetch('data/policies.json').then((res) => res.json()),
+    fetch('data/policy_relations.json').then((res) => res.json()),
   ]);
   storyConfig = story;
+  policies = pol;
+  policiesById = new Map(pol.map((p) => [p.id, p]));
+  policyRelations = polRels;
   actors = a;
   relations = r;
   byId = new Map(actors.map((x) => [x.id, x]));

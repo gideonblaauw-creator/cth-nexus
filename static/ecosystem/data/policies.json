@@ -1,0 +1,614 @@
+[
+  {
+    "type": "Policy",
+    "status": "in_force",
+    "id": "policy:co-ley-2169-2021",
+    "name": "Ley 2169/2021 — carbono neutralidad",
+    "country": "Colombia",
+    "instrument": "law",
+    "year": 2021,
+    "sectors": [
+      "energía",
+      "bosques",
+      "adaptación"
+    ],
+    "source_url": "https://climate-laws.org/document/law-2169-2021-promoting-low-carbon-development-last-amended-by-law-2294-2023_8496",
+    "registry": "climate-laws.org"
+  },
+  {
+    "type": "Policy",
+    "status": "in_force",
+    "id": "policy:co-ley-2099-2021",
+    "name": "Ley 2099/2021 — transición energética",
+    "country": "Colombia",
+    "instrument": "law",
+    "year": 2021,
+    "sectors": [
+      "energía",
+      "movilidad"
+    ],
+    "source_url": "http://secretariasenado.gov.co/senado/basedoc/ley_2099_2021.html",
+    "registry": "national-gazette"
+  },
+  {
+    "type": "Policy",
+    "status": "in_force",
+    "id": "policy:co-ley-1931-2018",
+    "name": "Ley 1931/2018 — integración ERNC",
+    "country": "Colombia",
+    "instrument": "law",
+    "year": 2018,
+    "sectors": [
+      "energía"
+    ],
+    "source_url": "http://secretariasenado.gov.co/senado/basedoc/ley_1931_2018.html",
+    "registry": "national-gazette"
+  },
+  {
+    "type": "Policy",
+    "status": "in_force",
+    "id": "policy:co-ley-1715-2014",
+    "name": "Ley 1715/2014 — energías renovables",
+    "country": "Colombia",
+    "instrument": "law",
+    "year": 2014,
+    "sectors": [
+      "energía"
+    ],
+    "source_url": "http://secretariasenado.gov.co/senado/basedoc/ley_1715_2014.html",
+    "registry": "national-gazette"
+  },
+  {
+    "type": "Policy",
+    "status": "in_force",
+    "id": "policy:co-ley-1819-2016",
+    "name": "Ley 1819/2016 — impuesto al carbono y ER",
+    "country": "Colombia",
+    "instrument": "tax",
+    "year": 2016,
+    "sectors": [
+      "energía",
+      "mitigación"
+    ],
+    "source_url": "https://climate-laws.org/document/law-1819-2016-on-tax-deductions-for-renewables-and-carbon-tax-regulated-partially-by-decree-926-2017-and-last-amended-by-law-2169-2021_1d43",
+    "registry": "climate-laws.org"
+  },
+  {
+    "type": "Policy",
+    "status": "in_force",
+    "id": "policy:co-ley-2294-2023",
+    "name": "Ley 2294/2023 — Plan Nacional de Desarrollo 2022–2026",
+    "country": "Colombia",
+    "instrument": "strategy",
+    "year": 2023,
+    "sectors": [
+      "energía",
+      "adaptación",
+      "bosques"
+    ],
+    "source_url": "https://www.climatepolicydatabase.org/countries/colombia",
+    "registry": "climatepolicydatabase.org"
+  },
+  {
+    "type": "Policy",
+    "status": "in_force",
+    "id": "policy:co-taxonomia-verde",
+    "name": "Taxonomía Verde de Colombia (TVC)",
+    "country": "Colombia",
+    "instrument": "taxonomy",
+    "year": 2022,
+    "sectors": [
+      "energía",
+      "agua",
+      "bosques",
+      "economía circular"
+    ],
+    "source_url": "https://www.taxonomiaverde.gov.co/",
+    "registry": "national-taxonomy"
+  },
+  {
+    "type": "Policy",
+    "status": "submitted",
+    "id": "policy:co-ndc-2020-update",
+    "name": "NDC Colombia (actualización 2020)",
+    "country": "Colombia",
+    "instrument": "NDC",
+    "year": 2020,
+    "sectors": [
+      "energía",
+      "bosques",
+      "agricultura"
+    ],
+    "source_url": "https://unfccc.int/sites/default/files/NDC/2022-06/Colombia_NDC_actualizada.pdf",
+    "registry": "unfccc.int"
+  },
+  {
+    "type": "Policy",
+    "status": "submitted",
+    "id": "policy:co-ndc-cpd-2025",
+    "name": "NDC 3.0 Colombia (CPD 2025)",
+    "country": "Colombia",
+    "instrument": "NDC",
+    "year": 2025,
+    "sectors": [
+      "energía",
+      "bosques",
+      "adaptación"
+    ],
+    "source_url": "https://www.climatepolicydatabase.org/policies/nationally-determined-contribution-ndc-176",
+    "registry": "climatepolicydatabase.org"
+  },
+  {
+    "type": "Policy",
+    "status": "in_force",
+    "id": "policy:co-conpes-4021-2021",
+    "name": "CONPES 4021 — política nacional CC",
+    "country": "Colombia",
+    "instrument": "strategy",
+    "year": 2021,
+    "sectors": [
+      "adaptación",
+      "energía",
+      "bosques"
+    ],
+    "source_url": "https://climate-laws.org/document/conpes-4021-of-2021_5c8e",
+    "registry": "climate-laws.org"
+  },
+  {
+    "type": "Policy",
+    "status": "in_force",
+    "id": "policy:co-fenoge-decreto-1543",
+    "name": "Decreto 1543/2017 — Fondo FENOGE",
+    "country": "Colombia",
+    "instrument": "regulation",
+    "year": 2017,
+    "sectors": [
+      "energía"
+    ],
+    "source_url": "https://www.minenergia.gov.co/es/misional/energia-electrica-2/fondos-especiales/fondo-de-energ%C3%ADas-no-convencionales-y-gesti%C3%B3n-eficiente-de-la-energ%C3%ADa-fenoge/",
+    "registry": "national-ministry"
+  },
+  {
+    "type": "Policy",
+    "status": "in_force",
+    "id": "policy:co-decreto-2239-zni",
+    "name": "Decreto 2239/2023 — ZNI",
+    "country": "Colombia",
+    "instrument": "regulation",
+    "year": 2023,
+    "sectors": [
+      "energía",
+      "acceso"
+    ],
+    "source_url": "https://climate-laws.org/document/decreto-2239-de-2023_9f2a",
+    "registry": "climate-laws.org"
+  },
+  {
+    "type": "Policy",
+    "status": "active",
+    "id": "policy:co-ipse-programa-acceso",
+    "name": "Programa IPSE — acceso energético ZNI",
+    "country": "Colombia",
+    "instrument": "incentive",
+    "year": 2018,
+    "sectors": [
+      "energía",
+      "acceso"
+    ],
+    "source_url": "https://www.ipse.gov.co/",
+    "registry": "national-agency"
+  },
+  {
+    "type": "Policy",
+    "status": "in_force",
+    "id": "policy:co-jet-roadmap-2024",
+    "name": "Just Energy Transition Roadmap (CPD)",
+    "country": "Colombia",
+    "instrument": "strategy",
+    "year": 2024,
+    "sectors": [
+      "energía",
+      "transición justa"
+    ],
+    "source_url": "https://www.climatepolicydatabase.org/countries/colombia",
+    "registry": "climatepolicydatabase.org"
+  },
+  {
+    "type": "Policy",
+    "status": "in_force",
+    "id": "policy:pe-ley-30754-2018",
+    "name": "Ley 30754 — marco cambio climático",
+    "country": "Peru",
+    "instrument": "law",
+    "year": 2018,
+    "sectors": [
+      "adaptación",
+      "energía",
+      "bosques"
+    ],
+    "source_url": "https://www.gob.pe/institucion/presidencia/normas-legales/355750-30754",
+    "registry": "gob.pe"
+  },
+  {
+    "type": "Policy",
+    "status": "in_force",
+    "id": "policy:pe-ds-013-2019-minam",
+    "name": "DS 013-2019-MINAM — reglamento LMCC",
+    "country": "Peru",
+    "instrument": "regulation",
+    "year": 2019,
+    "sectors": [
+      "adaptación",
+      "energía"
+    ],
+    "source_url": "https://www.gob.pe/institucion/minam/normas-legales/395204-013-2019-minam",
+    "registry": "gob.pe"
+  },
+  {
+    "type": "Policy",
+    "status": "in_force",
+    "id": "policy:pe-encc-2050-2024",
+    "name": "Política Nacional ENCC al 2050",
+    "country": "Peru",
+    "instrument": "strategy",
+    "year": 2024,
+    "sectors": [
+      "adaptación",
+      "energía",
+      "agua"
+    ],
+    "source_url": "https://www.gob.pe/institucion/minam/informes-publicaciones/6562767",
+    "registry": "gob.pe"
+  },
+  {
+    "type": "Policy",
+    "status": "submitted",
+    "id": "policy:pe-ndc-2020",
+    "name": "NDC Perú (2020)",
+    "country": "Peru",
+    "instrument": "NDC",
+    "year": 2020,
+    "sectors": [
+      "bosques",
+      "energía",
+      "agua"
+    ],
+    "source_url": "https://unfccc.int/sites/default/files/NDC/2021-07/Peru_NDC%20update%202020.pdf",
+    "registry": "unfccc.int"
+  },
+  {
+    "type": "Policy",
+    "status": "submitted",
+    "id": "policy:pe-ndc-cpd",
+    "name": "NDC Perú (Climate Policy Database)",
+    "country": "Peru",
+    "instrument": "NDC",
+    "year": 2020,
+    "sectors": [
+      "bosques",
+      "energía",
+      "agua"
+    ],
+    "source_url": "https://www.climatepolicydatabase.org/countries/peru",
+    "registry": "climatepolicydatabase.org"
+  },
+  {
+    "type": "Policy",
+    "status": "in_force",
+    "id": "policy:pe-ley-27270-2000",
+    "name": "Ley 27270 — promoción ER",
+    "country": "Peru",
+    "instrument": "law",
+    "year": 2000,
+    "sectors": [
+      "energía"
+    ],
+    "source_url": "https://leap.unep.org/en/akn/pe/act/2000/27270/spa@2000-11-08/overview",
+    "registry": "climate-laws.org"
+  },
+  {
+    "type": "Policy",
+    "status": "in_force",
+    "id": "policy:pe-ley-28611-2005",
+    "name": "Ley 28611 — Ley General del Ambiente",
+    "country": "Peru",
+    "instrument": "law",
+    "year": 2005,
+    "sectors": [
+      "bosques",
+      "agua",
+      "adaptación"
+    ],
+    "source_url": "https://leap.unep.org/en/akn/pe/act/2005/28611/spa@2005-10-15/overview",
+    "registry": "climate-laws.org"
+  },
+  {
+    "type": "Policy",
+    "status": "in_force",
+    "id": "policy:pe-ley-29763-2011",
+    "name": "Ley 29763 — Ley Forestal",
+    "country": "Peru",
+    "instrument": "law",
+    "year": 2011,
+    "sectors": [
+      "bosques"
+    ],
+    "source_url": "https://leap.unep.org/en/akn/pe/act/2011/29763/spa@2011-07-27/overview",
+    "registry": "climate-laws.org"
+  },
+  {
+    "type": "Policy",
+    "status": "in_force",
+    "id": "policy:pe-ley-29338-2009",
+    "name": "Ley 29338 — recursos hídricos",
+    "country": "Peru",
+    "instrument": "law",
+    "year": 2009,
+    "sectors": [
+      "agua"
+    ],
+    "source_url": "https://leap.unep.org/en/akn/pe/act/2009/29338/spa@2009-08-03/overview",
+    "registry": "climate-laws.org"
+  },
+  {
+    "type": "Policy",
+    "status": "in_force",
+    "id": "policy:pe-ds-013-2019-ndc-list",
+    "name": "DS listado medidas NDC (2025)",
+    "country": "Peru",
+    "instrument": "regulation",
+    "year": 2025,
+    "sectors": [
+      "adaptación",
+      "energía",
+      "bosques"
+    ],
+    "source_url": "https://busquedas.elperuano.pe/dispositivo/NL/2440259-3",
+    "registry": "national-gazette"
+  },
+  {
+    "type": "Policy",
+    "status": "active",
+    "id": "policy:pe-programa-bionegocios",
+    "name": "Programa para Bionegocios (MINAM)",
+    "country": "Peru",
+    "instrument": "incentive",
+    "year": 2019,
+    "sectors": [
+      "bosques",
+      "bioeconomía"
+    ],
+    "source_url": "https://www.gob.pe/institucion/minam/campa%C3%B1as/46380-programa-para-bionegocios",
+    "registry": "gob.pe"
+  },
+  {
+    "type": "Policy",
+    "status": "active",
+    "id": "policy:pe-programa-bosques",
+    "name": "Programa Nacional de Conservación de Bosques",
+    "country": "Peru",
+    "instrument": "incentive",
+    "year": 2010,
+    "sectors": [
+      "bosques"
+    ],
+    "source_url": "https://www.gob.pe/institucion/minam/campa%C3%B1as/46379-programa-nacional-de-conservacion-de-bosques",
+    "registry": "gob.pe"
+  },
+  {
+    "type": "Policy",
+    "status": "active",
+    "id": "policy:pe-startup-peru-clima",
+    "name": "StartUp Perú — línea Cambio Climático",
+    "country": "Peru",
+    "instrument": "incentive",
+    "year": 2023,
+    "sectors": [
+      "emprendimiento",
+      "energía"
+    ],
+    "source_url": "https://www.gob.pe/institucion/produce/campa%C3%B1as/46381-startup-peru",
+    "registry": "gob.pe"
+  },
+  {
+    "type": "Policy",
+    "status": "in_force",
+    "id": "policy:pe-clima-law-cpd",
+    "name": "Marco climático Perú (CPD índice)",
+    "country": "Peru",
+    "instrument": "strategy",
+    "year": 2024,
+    "sectors": [
+      "adaptación",
+      "energía",
+      "agua",
+      "bosques"
+    ],
+    "source_url": "https://www.climatepolicydatabase.org/countries/peru",
+    "registry": "climatepolicydatabase.org"
+  },
+  {
+    "type": "Policy",
+    "status": "in_force",
+    "id": "policy:pe-geography-cclw",
+    "name": "Peru climate laws (LSE CCLW)",
+    "country": "Peru",
+    "instrument": "strategy",
+    "year": 2024,
+    "sectors": [
+      "adaptación",
+      "energía",
+      "agua",
+      "bosques"
+    ],
+    "source_url": "https://climate-laws.org/geographies/peru",
+    "registry": "climate-laws.org"
+  },
+  {
+    "type": "Policy",
+    "status": "in_force",
+    "id": "policy:sv-ley-medio-ambiente-1998",
+    "name": "Ley del Medio Ambiente",
+    "country": "El Salvador",
+    "instrument": "law",
+    "year": 1998,
+    "sectors": [
+      "adaptación",
+      "agua",
+      "bosques"
+    ],
+    "source_url": "https://climate-laws.org/geographies/el-salvador",
+    "registry": "climate-laws.org"
+  },
+  {
+    "type": "Policy",
+    "status": "in_force",
+    "id": "policy:sv-pncc-2017",
+    "name": "Plan Nacional de Cambio Climático",
+    "country": "El Salvador",
+    "instrument": "strategy",
+    "year": 2017,
+    "sectors": [
+      "adaptación",
+      "energía",
+      "agua"
+    ],
+    "source_url": "https://climate-laws.org/geographies/el-salvador",
+    "registry": "climate-laws.org"
+  },
+  {
+    "type": "Policy",
+    "status": "submitted",
+    "id": "policy:sv-ndc-2021",
+    "name": "NDC El Salvador (2021)",
+    "country": "El Salvador",
+    "instrument": "NDC",
+    "year": 2021,
+    "sectors": [
+      "energía",
+      "bosques",
+      "agua"
+    ],
+    "source_url": "https://unfccc.int/sites/default/files/NDC/2022-06/El%20Salvador_NDC%20Actualizaci%C3%B3n%202021.pdf",
+    "registry": "unfccc.int"
+  },
+  {
+    "type": "Policy",
+    "status": "submitted",
+    "id": "policy:sv-ndc-cpd",
+    "name": "NDC El Salvador (CPD)",
+    "country": "El Salvador",
+    "instrument": "NDC",
+    "year": 2021,
+    "sectors": [
+      "energía",
+      "bosques",
+      "agua"
+    ],
+    "source_url": "https://www.climatepolicydatabase.org/countries/el-salvador",
+    "registry": "climatepolicydatabase.org"
+  },
+  {
+    "type": "Policy",
+    "status": "in_force",
+    "id": "policy:sv-estrategia-ernc-2017",
+    "name": "Estrategia Nacional de Energías Renovables",
+    "country": "El Salvador",
+    "instrument": "strategy",
+    "year": 2017,
+    "sectors": [
+      "energía"
+    ],
+    "source_url": "https://climate-laws.org/geographies/el-salvador",
+    "registry": "climate-laws.org"
+  },
+  {
+    "type": "Policy",
+    "status": "active",
+    "id": "policy:sv-linea-credito-verde",
+    "name": "Línea de Crédito Verde (BANDESAL)",
+    "country": "El Salvador",
+    "instrument": "incentive",
+    "year": 2019,
+    "sectors": [
+      "energía",
+      "agricultura"
+    ],
+    "source_url": "https://www.bandesal.gob.sv/",
+    "registry": "national-bank"
+  },
+  {
+    "type": "Policy",
+    "status": "in_force",
+    "id": "policy:sv-ley-aguas-2012",
+    "name": "Ley General de Aguas (2012)",
+    "country": "El Salvador",
+    "instrument": "law",
+    "year": 2012,
+    "sectors": [
+      "agua"
+    ],
+    "source_url": "https://climate-laws.org/geographies/el-salvador",
+    "registry": "climate-laws.org"
+  },
+  {
+    "type": "Policy",
+    "status": "in_force",
+    "id": "policy:sv-politica-bioeconomia-2022",
+    "name": "Política Nacional de Bioeconomía",
+    "country": "El Salvador",
+    "instrument": "strategy",
+    "year": 2022,
+    "sectors": [
+      "agricultura",
+      "bosques"
+    ],
+    "source_url": "https://climate-laws.org/geographies/el-salvador",
+    "registry": "climate-laws.org"
+  },
+  {
+    "type": "Policy",
+    "status": "in_force",
+    "id": "policy:sv-conamype-ley-2016",
+    "name": "Ley de Fomento a la MIPYME",
+    "country": "El Salvador",
+    "instrument": "law",
+    "year": 2016,
+    "sectors": [
+      "emprendimiento",
+      "energía"
+    ],
+    "source_url": "https://www.transparencia.gob.sv/institutions/conamype/documents/338012/download",
+    "registry": "national-gazette"
+  },
+  {
+    "type": "Policy",
+    "status": "active",
+    "id": "policy:sv-fideagro-programa",
+    "name": "FIDEAGRO — financiamiento agro (programa)",
+    "country": "El Salvador",
+    "instrument": "incentive",
+    "year": 2015,
+    "sectors": [
+      "agricultura",
+      "adaptación"
+    ],
+    "source_url": "https://climate-laws.org/geographies/el-salvador",
+    "registry": "climate-laws.org"
+  },
+  {
+    "type": "Policy",
+    "status": "in_force",
+    "id": "policy:sv-cpd-index",
+    "name": "El Salvador climate policies (CPD)",
+    "country": "El Salvador",
+    "instrument": "strategy",
+    "year": 2024,
+    "sectors": [
+      "energía",
+      "adaptación"
+    ],
+    "source_url": "https://www.climatepolicydatabase.org/countries/el-salvador",
+    "registry": "climatepolicydatabase.org"
+  }
+]
