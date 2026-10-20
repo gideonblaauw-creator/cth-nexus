@@ -1,6 +1,11 @@
-/* Nexus LATAM Ecosystem — Direction 3: MapLibre + sigma.js 4 */
+/* Nexus LATAM Ecosystem — D3 explore + D5 guided story */
 import Graph from 'graphology';
 import Sigma from 'sigma';
+import {
+  chapterScene,
+  computeChapterEdgeCounts,
+  isChallengeId,
+} from './story.mjs';
 
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -84,6 +89,10 @@ const I18N = {
     typedRelations: 'Relaciones tipadas',
     noResults: 'Sin resultados con estos filtros.',
     noRelations: 'Sin relaciones en datos.',
+    storyRailIntro: 'Recorrido staff: misma vista mapa + red + inspector. Capítulo 5 propone alianzas con aristas Suggested.',
+    storyCounts: 'Conteo por capítulo',
+    storySuggestedHint: 'Capítulo 5 puede proponer hub/startup/funder sugeridos; no sustituye relaciones verificadas.',
+    storyChallengeMeta: 'Nodo reto (Canva)',
     cats: {
       government: 'Gobierno', accelerator: 'Aceleradora', international: 'Internacional',
       funder: 'Fondo', ngo_foundation: 'ONG', academia: 'Academia', corporate: 'Corporativo',
@@ -119,6 +128,10 @@ const I18N = {
     typedRelations: 'Typed relations',
     noResults: 'No results with these filters.',
     noRelations: 'No relations in data.',
+    storyRailIntro: 'Staff walkthrough: same map + network + inspector. Chapter 5 adds Suggested partnership edges.',
+    storyCounts: 'Per-chapter edge counts',
+    storySuggestedHint: 'Chapter 5 may suggest hub/startup/funder paths; not verified relationships.',
+    storyChallengeMeta: 'Challenge node (Canva)',
     cats: {
       government: 'Government', accelerator: 'Accelerator', international: 'International',
       funder: 'Funder', ngo_foundation: 'NGO', academia: 'Academia', corporate: 'Corporate',
@@ -151,6 +164,14 @@ let graph = null;
 let sigma = null;
 let layoutPositions = new Map();
 let fa2Assign = null;
+
+let viewMode = 'explore';
+let storyConfig = null;
+let storyChapter = 0;
+let constellationId = null;
+let constellationCloseup = false;
+let storyScene = null;
+let suggestedEdges = [];
 
 const $ = (sel) => document.querySelector(sel);
 const t = () => I18N[lang];
@@ -247,6 +268,7 @@ function initLang() {
       document.querySelectorAll('[data-lang-btn]').forEach((b) => b.classList.toggle('active', b.dataset.langBtn === lang));
       applyI18n();
       buildFilterChips();
+      if (viewMode === 'story') renderStoryRail();
       renderAll();
     });
   });
@@ -311,14 +333,26 @@ function buildFilterChips() {
 }
 
 function initTabs() {
-  document.querySelectorAll('.view-tab:not([disabled])').forEach((btn) => {
+  document.querySelectorAll('.view-tab').forEach((btn) => {
     btn.addEventListener('click', () => {
       const tab = btn.dataset.viewTab;
+      viewMode = tab;
       document.querySelectorAll('.view-tab').forEach((b) => b.classList.toggle('active', b === btn));
-      $('#panel-explore').classList.toggle('hidden', tab !== 'explore');
+      $('#panel-explore').classList.toggle('hidden', tab === 'cards');
       $('#panel-cards').classList.toggle('hidden', tab !== 'cards');
-      $('#filter-bar').classList.toggle('hidden', tab !== 'explore');
-      $('#legend-bar').classList.toggle('hidden', tab !== 'explore');
+      const storyOn = tab === 'story';
+      document.body.classList.toggle('story-on', storyOn);
+      $('#story-rail').classList.toggle('hidden', !storyOn);
+      $('#story-banner').classList.toggle('hidden', !storyOn);
+      $('#filter-bar').classList.toggle('hidden', tab === 'cards');
+      $('#legend-bar').classList.toggle('hidden', tab === 'cards');
+      if (storyOn) {
+        renderStoryRail();
+        renderStoryChapter();
+      } else {
+        clearSuggestedOverlay();
+        renderAll();
+      }
       if (tab === 'cards') renderCards(filteredActors());
       if (tab === 'explore' && sigma) sigma.refresh();
     });
@@ -379,19 +413,37 @@ function runForceLayout(g, iterations) {
   }
 }
 
-function buildGraph(ids, rels) {
+function buildGraph(idSet, rels, opts = {}) {
+  const {
+    virtualNodes = [],
+    presetPositions = null,
+    storyLayout = false,
+    storySuggested = [],
+  } = opts;
+
+  suggestedEdges = storySuggested;
+
   if (sigma) {
     sigma.kill();
     sigma = null;
   }
-  graph = new Graph({ multi: false, type: 'directed' });
+  graph = new Graph({ multi: true, type: 'directed' });
 
-  ids.forEach((id) => {
+  const addNode = (id, attrs) => {
+    if (graph.hasNode(id)) return;
+    graph.addNode(id, attrs);
+  };
+
+  idSet.forEach((id) => {
+    if (isChallengeId(id)) return;
     const a = byId.get(id);
     if (!a) return;
-    const pos = layoutPositions.get(id) || geoXY(a);
+    let pos = layoutPositions.get(id) || geoXY(a);
+    if (presetPositions?.has(id)) {
+      pos = presetPositions.get(id).position || presetPositions.get(id);
+    }
     const size = id === selected ? 14 : Math.min(12, 5 + (degree.get(id) || 0) * 0.65);
-    graph.addNode(id, {
+    addNode(id, {
       label: a.name.length > 24 ? `${a.name.slice(0, 22)}…` : a.name,
       x: pos.x,
       y: pos.y,
@@ -400,22 +452,36 @@ function buildGraph(ids, rels) {
     });
   });
 
-  rels.forEach((r, i) => {
+  virtualNodes.forEach((vn) => {
+    const pos = presetPositions?.get(vn.id)?.position
+      || (vn.geo ? geoXY({ geo: vn.geo }) : { x: 0, y: 0 });
+    const lbl = vn.label?.length > 24 ? `${vn.label.slice(0, 22)}…` : (vn.label || vn.id);
+    addNode(vn.id, {
+      label: lbl,
+      x: pos.x,
+      y: pos.y,
+      size: vn.size || 14,
+      color: vn.color || '#2a9d8f',
+    });
+  });
+
+  rels.filter((r) => !r.suggested).forEach((r, i) => {
     if (!graph.hasNode(r.source) || !graph.hasNode(r.target)) return;
-    const key = r.id || `e-${i}-${r.source}-${r.target}`;
-    if (graph.hasEdge(r.source, r.target)) return;
+    const key = r.id || `e-${i}-${r.source}-${r.target}-${r.type}`;
     try {
       graph.addEdgeWithKey(key, r.source, r.target, {
         type: r.type,
-        color: edgeColor(r),
-        size: selected && (r.source === selected || r.target === selected) ? 2.2 : 1,
+        color: EDGE_COLOR[r.type] || EDGE_COLOR.default,
+        size: selected && (r.source === selected || r.target === selected) ? 2.2 : 2,
+        suggested: false,
       });
     } catch {
-      /* parallel edge */
+      /* duplicate parallel */
     }
   });
 
-  if (!reducedMotion && graph.order > 1) {
+  const runLayout = !storyLayout && !presetPositions && !reducedMotion && graph.order > 1;
+  if (runLayout) {
     if (fa2Assign) {
       fa2Assign(graph, {
         iterations: Math.min(120, 40 + graph.order),
@@ -434,17 +500,21 @@ function buildGraph(ids, rels) {
     labelDensity: 0.07,
     labelRenderedSizeThreshold: 8,
     enableEdgeEvents: true,
-    defaultEdgeType: 'line',
+    defaultEdgeType: 'arrow',
     defaultNodeType: 'circle',
+    renderEdgeLabels: false,
     zIndex: true,
     allowInvalidContainer: true,
   });
 
   sigma.on('clickNode', ({ node }) => selectActor(node));
   sigma.on('clickStage', () => clearSelection(false));
+  sigma.on('afterRender', () => drawSuggestedOverlay());
+  requestAnimationFrame(() => drawSuggestedOverlay());
 }
 
 function nodeColor(id) {
+  if (isChallengeId(id)) return '#2a9d8f';
   if (id === selected) return '#e87722';
   const a = byId.get(id);
   return CAT_COLOR[a?.category] || CAT_COLOR.default;
@@ -488,7 +558,7 @@ function initMap() {
   });
 }
 
-function actorsGeoJson(ids) {
+function actorsGeoJson(ids, virtualNodes = []) {
   const features = actors
     .filter((a) => ids.has(a.id) && a.geo)
     .map((a) => ({
@@ -500,13 +570,25 @@ function actorsGeoJson(ids) {
       },
       geometry: { type: 'Point', coordinates: [a.geo.lng, a.geo.lat] },
     }));
+  virtualNodes.forEach((vn) => {
+    if (!vn.geo || !ids.has(vn.id)) return;
+    features.push({
+      type: 'Feature',
+      properties: {
+        id: vn.id,
+        sel: vn.id === selected ? 1 : 0,
+        color: '#2a9d8f',
+      },
+      geometry: { type: 'Point', coordinates: [vn.geo.lng, vn.geo.lat] },
+    });
+  });
   return { type: 'FeatureCollection', features };
 }
 
-function updateMapLayers() {
+function updateMapLayers(scene = null) {
   if (!map || !mapReady) return;
-  const ids = visibleActorIds();
-  const data = actorsGeoJson(ids);
+  const ids = scene ? scene.nodeIds : visibleActorIds();
+  const data = actorsGeoJson(ids, scene?.virtualNodes || []);
 
   const apply = () => {
     if (!map.getSource('actors')) {
@@ -573,8 +655,27 @@ function flyToActor(a) {
 
 function renderInspector(id) {
   const el = $('#inspector');
-  const a = byId.get(id);
   const tr = t();
+  if (isChallengeId(id) && storyConfig) {
+    const meta = storyConfig.challenges[id];
+    const linked = relations.filter((r) => r.target === id || r.source === id);
+    const title = lang === 'EN' ? meta?.label?.en : meta?.label?.es;
+    el.classList.remove('empty');
+    el.innerHTML = `
+      <div style="padding:14px">
+        <h2>${esc(title || id)}</h2>
+        <div class="meta">${tr.storyChallengeMeta || 'Challenge node'} · ${linked.length} works_on_challenge</div>
+        <div class="section"><h3>${tr.typedRelations}</h3>
+        ${linked.slice(0, 12).map((r) => {
+      const o = byId.get(r.source);
+      return `<div class="rel-row"><span class="rtype">${esc(r.type.replace(/_/g, '-'))}</span>${esc(o?.name || r.source)}</div>`;
+    }).join('') || `<p class="meta">${tr.noRelations}</p>`}
+        </div>
+        <p class="meta" style="margin-top:8px">${esc(tr.storySuggestedHint || '')}</p>
+      </div>`;
+    return;
+  }
+  const a = byId.get(id);
   if (!a) return;
   el.classList.remove('empty');
   const cc = countryCode(a.country);
@@ -619,12 +720,21 @@ function renderInspector(id) {
 }
 
 function selectActor(id) {
-  if (!byId.has(id)) return;
+  if (!byId.has(id) && !isChallengeId(id)) return;
   selected = id;
   $('#workspace').classList.remove('no-inspector');
   renderInspector(id);
   renderAll(false);
-  flyToActor(byId.get(id));
+  if (isChallengeId(id) && storyConfig?.challenges[id]?.geo) {
+    const g = storyConfig.challenges[id].geo;
+    const opts = { center: [g.lng, g.lat], zoom: Math.max(map?.getZoom() || 5, 5.8) };
+    if (map) {
+      if (reducedMotion) map.jumpTo(opts);
+      else map.flyTo({ ...opts, speed: 0.85, essential: true });
+    }
+  } else {
+    flyToActor(byId.get(id));
+  }
   document.querySelectorAll('.actor-card').forEach((c) => c.classList.toggle('selected', c.dataset.id === id));
 }
 
@@ -687,6 +797,10 @@ function updateStats(ids) {
 }
 
 function renderAll(rebuildLayout = true) {
+  if (viewMode === 'story') {
+    renderStoryChapter();
+    return;
+  }
   const ids = visibleActorIds();
   const rels = visibleRelations(ids);
   updateStats(ids);
@@ -694,6 +808,143 @@ function renderAll(rebuildLayout = true) {
   if (rebuildLayout) buildGraph(ids, rels);
   else refreshGraphStyles();
   if (!$('#panel-cards').classList.contains('hidden')) renderCards(filteredActors());
+}
+
+function drawSuggestedOverlay() {
+  const canvas = $('#eco-suggest-overlay');
+  if (!canvas || !sigma || !graph) return;
+  const host = $('#eco-graph');
+  const rect = host.getBoundingClientRect();
+  const dpr = window.devicePixelRatio || 1;
+  canvas.width = Math.floor(rect.width * dpr);
+  canvas.height = Math.floor(rect.height * dpr);
+  canvas.style.width = `${rect.width}px`;
+  canvas.style.height = `${rect.height}px`;
+  const ctx = canvas.getContext('2d');
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  ctx.clearRect(0, 0, rect.width, rect.height);
+  if (!suggestedEdges.length) return;
+
+  suggestedEdges.forEach((e) => {
+    if (!graph.hasNode(e.source) || !graph.hasNode(e.target)) return;
+    const sAttr = graph.getNodeAttributes(e.source);
+    const tAttr = graph.getNodeAttributes(e.target);
+    const s = sigma.graphToViewport({ x: sAttr.x, y: sAttr.y });
+    const tpos = sigma.graphToViewport({ x: tAttr.x, y: tAttr.y });
+    if (!s || !tpos) return;
+    ctx.save();
+    ctx.setLineDash([7, 5]);
+    ctx.strokeStyle = 'rgba(249, 115, 22, 0.85)';
+    ctx.lineWidth = 1.5;
+    ctx.beginPath();
+    ctx.moveTo(s.x, s.y);
+    ctx.lineTo(tpos.x, tpos.y);
+    ctx.stroke();
+    ctx.setLineDash([]);
+    ctx.fillStyle = '#c2410c';
+    ctx.font = '600 9px Open Sans, sans-serif';
+    ctx.fillText('Suggested', (s.x + tpos.x) / 2 - 24, (s.y + tpos.y) / 2 - 4);
+    ctx.restore();
+  });
+}
+
+function clearSuggestedOverlay() {
+  suggestedEdges = [];
+  const canvas = $('#eco-suggest-overlay');
+  if (!canvas) return;
+  const ctx = canvas.getContext('2d');
+  if (ctx) ctx.clearRect(0, 0, canvas.width, canvas.height);
+}
+
+function flyToStoryMap(scene) {
+  if (!map || !scene?.map) return;
+  const m = scene.map;
+  const opts = { center: m.center, zoom: m.zoom || 5 };
+  if (reducedMotion) map.jumpTo(opts);
+  else map.easeTo({ ...opts, duration: 700 });
+}
+
+function renderStoryRail() {
+  if (!storyConfig) return;
+  const rail = $('#story-rail');
+  const tr = t();
+  const banner = $('#story-banner');
+  const bmsg = lang === 'EN' ? storyConfig.banner.en : storyConfig.banner.es;
+  banner.innerHTML = `${esc(bmsg)} · <span class="suggested-tag">Suggested</span>`;
+
+  rail.innerHTML = `<p class="meta" style="font-size:10px;margin:0 0 8px">${esc(tr.storyRailIntro || '')}</p>`;
+  storyConfig.chapters.forEach((ch, idx) => {
+    const step = document.createElement('div');
+    step.className = `story-step${idx === storyChapter ? ' on' : ''}`;
+    step.innerHTML = `<h3>${esc(lang === 'EN' ? ch.title.en : ch.title.es)}</h3><p>${esc(lang === 'EN' ? ch.blurb.en : ch.blurb.es)}</p>`;
+    step.addEventListener('click', () => {
+      storyChapter = idx;
+      constellationId = null;
+      constellationCloseup = false;
+      renderStoryRail();
+      renderStoryChapter();
+    });
+    rail.appendChild(step);
+  });
+
+  if (storyConfig.chapters[storyChapter]?.id === 'partnerships') {
+    const row = document.createElement('div');
+    row.className = 'story-constellation-row';
+    storyConfig.constellations.forEach((c) => {
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.className = `chip sm ${constellationId === c.id ? 'on' : ''}`;
+      b.textContent = c.id;
+      b.addEventListener('click', (ev) => {
+        ev.stopPropagation();
+        constellationId = c.id;
+        constellationCloseup = true;
+        renderStoryRail();
+        renderStoryChapter();
+      });
+      row.appendChild(b);
+    });
+    rail.appendChild(row);
+  }
+
+  const counts = computeChapterEdgeCounts(storyConfig, relations, byId);
+  window.__storyEdgeCounts = counts;
+  const gaps = document.createElement('div');
+  gaps.className = 'story-gaps';
+  gaps.innerHTML = `<strong>${esc(tr.storyCounts || 'Edge counts')}</strong><br/>${counts.map((c) =>
+    `${esc(c.title)}: ${c.real} real${c.suggested ? `, ${c.suggested} suggested` : ''}`,
+  ).join('<br/>')}`;
+  rail.appendChild(gaps);
+}
+
+function renderStoryChapter() {
+  if (!storyConfig) return;
+  storyScene = chapterScene(storyChapter, storyConfig, relations, byId, {
+    constellationId,
+    closeup: constellationCloseup,
+  });
+  const current = computeChapterEdgeCounts(storyConfig, relations, byId)[storyChapter];
+  window.__storyChapterActive = {
+    chapter: storyScene.chapter.id,
+    real: current?.real ?? storyScene.realRels.length,
+    suggested: current?.suggested ?? storyScene.suggested.length,
+  };
+
+  updateStats(storyScene.nodeIds);
+  flyToStoryMap(storyScene);
+  updateMapLayers(storyScene);
+  const vNodes = (storyScene.virtualNodes || []).map((vn) => ({
+    ...vn,
+    label: lang === 'EN'
+      ? (storyConfig.challenges[vn.id]?.label?.en || vn.label)
+      : (storyConfig.challenges[vn.id]?.label?.es || vn.label),
+  }));
+  buildGraph(storyScene.nodeIds, storyScene.realRels, {
+    virtualNodes: vNodes,
+    presetPositions: storyScene.presetPositions,
+    storyLayout: Boolean(storyScene.presetPositions),
+    storySuggested: storyScene.suggested,
+  });
 }
 
 function initAuthGate() {
@@ -737,13 +988,22 @@ function applyDemoState() {
     selectActor(bootParams.get('actor') || 'pe-emprende-up-climatech-rein-hub-peru');
   }
   if (bootParams.get('mobile') === '1') document.body.classList.add('mobile-layout');
+  if (state === 'story' || bootParams.get('view') === 'story') {
+    storyChapter = Math.min(4, Math.max(0, parseInt(bootParams.get('chapter') || '0', 10)));
+    constellationId = bootParams.get('constellation') || null;
+    constellationCloseup = bootParams.get('closeup') === '1';
+    const tab = document.querySelector('[data-view-tab="story"]');
+    if (tab) tab.click();
+  }
 }
 
 async function loadData() {
-  const [a, r] = await Promise.all([
+  const [a, r, story] = await Promise.all([
     fetch('data/actors.json').then((res) => res.json()),
     fetch('data/relations.json').then((res) => res.json()),
+    fetch('data/story-chapters.json').then((res) => res.json()),
   ]);
+  storyConfig = story;
   actors = a;
   relations = r;
   byId = new Map(actors.map((x) => [x.id, x]));
@@ -773,6 +1033,7 @@ function bindControls() {
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') clearSelection();
   });
+  window.addEventListener('resize', () => drawSuggestedOverlay());
 }
 
 async function main() {
