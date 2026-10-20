@@ -1,0 +1,51 @@
+{
+ "name": {
+  "value": "Terra IO",
+  "source": "build_data.py / Seguimiento"
+ },
+ "country": {
+  "value": "CO",
+  "source": "build_data.py"
+ },
+ "stage": {
+  "value": "regional",
+  "source": "build_data.py"
+ },
+ "short_description_es": {
+  "value": "Inteligencia de suelos para pequeños agricultores mediante lecturas offline, señales climáticas e IA para optimizar recursos.",
+  "source": "Seguimiento_CLP_2026 (Descripción)"
+ },
+ "pitch_video_drive": {
+  "value": "https://drive.google.com/file/d/186QBjchoyLxJWHO6sGe7uc267afz_jKV/view",
+  "source": "Drive pitch folder (build_data PITCH)"
+ },
+ "youtube_pitch_url": {
+  "value": "",
+  "source": "empty slot – uploads on hold pending Gideon go-ahead"
+ },
+ "founder_linkedin": {
+  "value": "https://www.linkedin.com/in/dmastras",
+  "source": "Drive doc 1-YsrUi0qj… LI Pack"
+ },
+ "website": {
+  "value": null,
+  "source": ""
+ },
+ "taxonomy_link": {
+  "value": null,
+  "source": ""
+ },
+ "nexus_profile_url": {
+  "value": "https://nexus.cleantechhub.net/s/terra-io",
+  "source": "live Nexus"
+ },
+ "deck": {
+  "value": "/workspace/climate-kic/onepagers/decks/terra-io.pdf",
+  "source": "Drive file 1zLssjXlPVroBKkAian6FHOERDNfXBunp"
+ },
+ "missing_fields": [
+  "website",
+  "taxonomy_link"
+ ],
+ "slug": "terra-io"
+}

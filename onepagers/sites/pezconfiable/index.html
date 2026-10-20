@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>PezConfiable — CleantechHUB Startup Profile</title>
+<title>PezConfiable — CLP26 CleantechHUB</title>
 <link rel="icon" href="https://cleantechhub.net/favicon.ico">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
 <style>
@@ -12,12 +12,15 @@
 html{scroll-behavior:smooth;}
 body{font-family:'Open Sans','PT Sans',sans-serif;background:var(--page);color:var(--db);max-width:1080px;margin:0 auto;}
 [lang="es"] .en{display:none;} [lang="en"] .es{display:none;}
+
 .site-brand{position:fixed;top:12px;left:50%;transform:translateX(-50%);width:100%;max-width:1080px;padding:0 48px;z-index:99;pointer-events:none;}
 .site-brand .brand-text{pointer-events:auto;display:inline-block;font-size:13px;font-weight:800;letter-spacing:.4px;color:#fff;text-shadow:0 2px 10px rgba(0,0,0,.6);}
 .site-brand .brand-text em{color:var(--lg);font-style:normal;}
+
 .lang-toggle{position:fixed;top:12px;right:12px;z-index:100;display:flex;border-radius:5px;overflow:hidden;box-shadow:0 4px 16px rgba(0,0,0,.35);}
 .lb{padding:6px 14px;font-size:10px;font-weight:700;border:none;cursor:pointer;font-family:'Open Sans',sans-serif;transition:all .2s;}
 .lb.active{background:var(--db);color:#fff;}.lb:not(.active){background:#fff;color:var(--db);}
+
 .sec{position:relative;overflow:hidden;}
 .sec-bg{position:absolute;inset:0;background-size:cover;background-position:center;z-index:0;}
 .sec-ov{position:absolute;inset:0;z-index:1;}
@@ -27,186 +30,187 @@ body{font-family:'Open Sans','PT Sans',sans-serif;background:var(--page);color:v
 .sec-rule{height:1px;background:linear-gradient(90deg,rgba(255,255,255,.55),rgba(255,255,255,0));flex:1;margin-left:8px;}
 .accent-bar{height:3px;background:linear-gradient(90deg,var(--db) 20%,var(--fo) 20% 40%,var(--lg) 40% 60%,var(--sk) 60% 80%,var(--cy) 80%);}
 .pill{display:inline-block;padding:5px 12px;border-radius:4px;font-size:9px;font-weight:700;letter-spacing:1px;text-transform:uppercase;}
-.hero{height:420px;position:relative;}
+
+.hero{min-height:320px;position:relative;}
 .hero-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;}
 .hero-ov{position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,73,138,.12) 0%,rgba(12,73,138,.30) 55%,rgba(12,73,138,.48) 100%);z-index:1;}
-.hero-in{position:relative;z-index:2;height:100%;display:flex;flex-direction:column;justify-content:flex-end;padding:0 48px 36px;}
-.hero-badge{position:absolute;top:56px;left:48px;z-index:3;}
-.hero-name{font-size:56px;font-weight:800;line-height:1;color:#fff;text-shadow:0 4px 24px rgba(0,0,0,.55);}
-.hero-sub{font-size:14px;font-weight:700;color:#e8ffd4;margin-top:8px;text-shadow:0 2px 10px rgba(0,0,0,.5);}
-.hero-pitch{font-size:14px;line-height:1.6;color:#fff;margin-top:14px;max-width:540px;text-shadow:0 2px 12px rgba(0,0,0,.55);}
-.hero-tagline{font-size:10px;font-style:italic;color:#e8ffd4;opacity:.9;position:absolute;bottom:36px;right:48px;text-shadow:0 2px 8px rgba(0,0,0,.5);}
-.ribbon{display:grid;grid-template-columns:repeat(4,1fr);}
-.ribbon-cell{padding:22px 24px;text-align:center;border-right:1px solid rgba(255,255,255,.12);}
-.ribbon-cell:last-child{border-right:none;}
-.rc-val{font-size:28px;font-weight:800;line-height:1;color:#fff;}
-.rc-lab{font-size:9px;font-weight:700;color:#e8ffd4;letter-spacing:.6px;text-transform:uppercase;margin-top:4px;}
-.rc-sub{font-size:9px;color:rgba(255,255,255,.75);margin-top:2px;}
-.split{display:grid;grid-template-columns:1fr 1fr;align-items:stretch;}
-.split-panel{position:relative;overflow:hidden;padding:36px 40px;display:flex;flex-direction:column;}
-.split-h{font-size:22px;font-weight:800;line-height:1.2;margin-bottom:12px;color:#fff;}
-.body-text{font-size:13px;line-height:1.65;color:rgba(255,255,255,.95);}
-.frost-panel,.stat-card,.sol-card,.imp-card,.team-card,.split-frost,.deck-panel,.frost-note{background:var(--panel);backdrop-filter:blur(12px) saturate(1.35);-webkit-backdrop-filter:blur(12px) saturate(1.35);border:1px solid var(--panel-border);box-shadow:0 8px 32px rgba(0,0,0,.42);}
-.split-frost{padding:24px 28px;border-radius:8px;flex:1;display:flex;flex-direction:column;justify-content:center;min-height:100%;}
+.hero-in{position:relative;z-index:2;padding:88px 48px 36px;}
+.hero-badge{margin-bottom:12px;}
+.hero-name{font-size:48px;font-weight:800;line-height:1;color:#fff;text-shadow:0 4px 24px rgba(0,0,0,.55);}
+.hero-sub{font-size:13px;font-weight:700;color:#e8ffd4;margin-top:8px;text-shadow:0 2px 10px rgba(0,0,0,.5);}
+.hero-pitch{font-size:14px;line-height:1.65;color:#fff;margin-top:14px;max-width:640px;text-shadow:0 2px 12px rgba(0,0,0,.55);}
+.hero-tagline{font-size:10px;font-style:italic;color:#e8ffd4;opacity:.9;padding:0 48px 24px;position:relative;z-index:2;text-align:right;text-shadow:0 2px 8px rgba(0,0,0,.5);}
+
+.meta-wrap{padding:0 48px 32px;position:relative;z-index:2;}
+.meta-panel{background:var(--panel);backdrop-filter:blur(12px) saturate(1.35);-webkit-backdrop-filter:blur(12px) saturate(1.35);border:1px solid var(--panel-border);box-shadow:0 8px 32px rgba(0,0,0,.42);border-radius:8px;padding:22px 26px;}
+.meta-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px 28px;}
+.meta-item{display:flex;flex-direction:column;gap:4px;}
+.meta-lab{font-size:9px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:#e8ffd4;}
+.meta-val{font-size:13px;font-weight:600;color:#fff;line-height:1.45;}
+.meta-val a{color:#e8ffd4;text-decoration:none;border-bottom:1px solid rgba(232,255,212,.45);}
+.meta-val a:hover{color:#fff;}
+.slot-empty{font-size:12px;font-weight:600;color:rgba(255,255,255,.45);font-style:italic;}
+
 .deck-wrap{padding:0 48px 32px;position:relative;z-index:2;}
-.deck-panel{padding:16px;border-radius:8px;}
-.deck-note{padding:0 48px 8px;font-size:10px;color:rgba(255,255,255,.9);text-align:center;position:relative;z-index:2;text-shadow:0 1px 8px rgba(0,0,0,.5);}
-.deck-fallback{margin-top:12px;font-size:10px;color:rgba(255,255,255,.85);text-align:center;text-shadow:0 1px 8px rgba(0,0,0,.5);}
-.deck-fallback a{color:#e8ffd4;font-weight:700;}
+.deck-panel{background:var(--panel);backdrop-filter:blur(12px);border:1px solid var(--panel-border);border-radius:8px;padding:16px;box-shadow:0 8px 32px rgba(0,0,0,.42);}
+.deck-canvas-wrap{width:100%;border-radius:6px;overflow:hidden;background:#fff;box-shadow:0 14px 40px rgba(0,0,0,.5);min-height:280px;display:flex;align-items:center;justify-content:center;}
+.deck-canvas{display:block;width:100%;height:auto;}
+.deck-nav{display:flex;align-items:center;justify-content:center;gap:14px;margin-top:14px;flex-wrap:wrap;}
+.deck-nav button{font-size:11px;font-weight:700;padding:8px 16px;border-radius:6px;border:1px solid var(--panel-border);background:rgba(0,0,0,.25);color:#fff;cursor:pointer;font-family:inherit;}
+.deck-nav button:disabled{opacity:.4;cursor:not-allowed;}
+.deck-page-label{font-size:11px;font-weight:700;color:rgba(255,255,255,.9);}
 .deck-actions{display:flex;gap:10px;justify-content:center;margin-top:14px;flex-wrap:wrap;}
-.cta-link{font-size:10px;font-weight:700;color:#fff;text-decoration:none;padding:8px 16px;background:var(--panel);border:1px solid var(--panel-border);border-radius:6px;box-shadow:0 4px 16px rgba(0,0,0,.35);}
-.impact-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;padding:0 48px 28px;position:relative;z-index:2;}
-.imp-card{border-radius:8px;padding:22px 20px;display:flex;gap:14px;align-items:flex-start;}
-.imp-icon{font-size:22px;flex-shrink:0;}
-.imp-title{font-size:10px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:#e8ffd4;margin-bottom:4px;}
-.imp-text{font-size:12px;line-height:1.5;color:rgba(255,255,255,.92);}
-.team-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;padding:0 48px 28px;position:relative;z-index:2;}
-.team-card{border-radius:8px;padding:24px 20px;text-align:center;}
-.tp-name{font-size:14px;font-weight:700;color:#fff;}
-.tp-role{font-size:10px;font-weight:600;color:#e8ffd4;margin-top:3px;}
-.tp-link{display:inline-block;margin-top:10px;font-size:9px;font-weight:700;color:#e8ffd4;text-decoration:none;border-bottom:1px solid rgba(232,255,212,.5);}
-.frost-note{margin:0 48px 20px;padding:14px 18px;border-radius:8px;font-size:11px;line-height:1.55;color:rgba(255,255,255,.92);position:relative;z-index:2;}
+.deck-note{padding:0 48px 8px;font-size:10px;color:rgba(255,255,255,.9);text-align:center;position:relative;z-index:2;text-shadow:0 1px 8px rgba(0,0,0,.5);}
+
+.video-wrap{padding:0 48px 32px;position:relative;z-index:2;}
+.video-panel{background:var(--panel);border:1px solid var(--panel-border);border-radius:8px;padding:16px;box-shadow:0 8px 32px rgba(0,0,0,.42);}
+.video-frame{width:100%;aspect-ratio:16/9;border:0;border-radius:6px;background:#000;}
+
 .cta{text-align:center;padding:44px 48px;position:relative;z-index:2;}
-.cta-name{font-size:44px;font-weight:800;color:#fff;text-shadow:0 3px 16px rgba(0,0,0,.55);}
-.cta-pitch{font-size:14px;line-height:1.6;max-width:560px;margin:12px auto 0;color:rgba(255,255,255,.92);text-shadow:0 2px 10px rgba(0,0,0,.45);}
-.cta-links{display:flex;gap:10px;justify-content:center;margin-top:16px;flex-wrap:wrap;}
+.cta-links{display:flex;gap:10px;justify-content:center;margin-top:8px;flex-wrap:wrap;}
+.cta-link{font-size:10px;font-weight:700;color:#fff;text-decoration:none;padding:8px 16px;background:var(--panel);border:1px solid var(--panel-border);border-radius:6px;box-shadow:0 4px 16px rgba(0,0,0,.35);}
 .cta-brand{margin-top:24px;}
 .cta-brand .tg{font-size:12px;font-style:italic;color:#e8ffd4;opacity:.95;}
 .cta-brand .lg2{font-size:14px;font-weight:800;margin-top:4px;color:#fff;}
 .cta-port{font-size:9px;color:rgba(255,255,255,.8);margin-top:10px;}
 
-.deck-slide{width:min(100%,640px);margin-left:auto;margin-right:auto;}
-.deck-slide-img{width:100%;height:auto;display:block;border-radius:6px;background:#fff;}
-.deck-pager{display:flex;align-items:center;justify-content:center;gap:10px;margin-top:10px;}
-.deck-page-btn{font-family:'Open Sans',sans-serif;font-size:10px;font-weight:700;color:#fff;background:rgba(0,0,0,.35);border:1px solid rgba(255,255,255,.35);border-radius:4px;padding:5px 12px;cursor:pointer;}
-.deck-page-btn:disabled{opacity:.4;cursor:default;}
-.deck-page-label{font-size:10px;font-weight:700;color:#e8ffd4;min-width:52px;text-align:center;}
-.yt-pitch{width:min(100%,640px);margin:0 auto 8px;position:relative;z-index:2;}
-.yt-pitch-frame{position:relative;width:100%;aspect-ratio:16/9;border-radius:8px;overflow:hidden;background:#000;}
-.yt-pitch-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0;}
+@media(max-width:720px){.meta-grid{grid-template-columns:1fr;}.hero-name{font-size:36px;}}
 
 </style>
 </head>
 <body>
 <div class="site-brand"><span class="brand-text">Cleantech<em>HUB</em></span></div>
 <div class="lang-toggle">
-  <button class="lb active" onclick="document.documentElement.lang='en';this.classList.add('active');this.nextElementSibling.classList.remove('active');">EN</button>
-  <button class="lb" onclick="document.documentElement.lang='es';this.classList.add('active');this.previousElementSibling.classList.remove('active');">ES</button>
+  <button class="lb" onclick="document.documentElement.lang='en';this.classList.add('active');this.nextElementSibling.classList.remove('active');">EN</button>
+  <button class="lb active" onclick="document.documentElement.lang='es';this.classList.add('active');this.previousElementSibling.classList.remove('active');">ES</button>
 </div>
 
 <div class="sec hero">
-  <img class="hero-img" src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&amp;q=80" alt="PezConfiable" loading="lazy">
+  <img class="hero-img" src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1200&q=80" alt="PezConfiable" loading="lazy">
   <div class="hero-ov"></div>
-  <div class="hero-badge"><div class="pill" style="background:rgba(0,0,0,.45);color:var(--lg);"><span class="en">CT-IC-003 · Supply Chain Traceability</span><span class="es">CT-IC-003 · Trazabilidad cadena de suministro</span></div></div>
   <div class="hero-in">
+    <div class="hero-badge"><div class="pill" style="background:rgba(0,0,0,.45);color:var(--lg);"><span class="en">CLP26 Peru cohort</span><span class="es">Cohorte CLP26 Perú</span></div></div>
     <div class="hero-name">PezConfiable</div>
-    <div class="hero-sub"><span class="en">Peru · Private Beta · CLP26</span><span class="es">Perú · Beta privada · CLP26</span></div>
-    <div class="hero-pitch"><span class="en">Turns scattered information into useful decisions for artisanal fishers — before, during, and after every fishing trip.</span><span class="es">Convierte información dispersa en decisiones útiles para pescadores artesanales — antes, durante y después de cada faena.</span></div>
+    <div class="hero-sub"><span class="en">CLP26 · Peru · semi</span><span class="es">CLP26 · Perú · semi</span></div>
+    <div class="hero-pitch"><span class="en">Plataforma digital que conecta pescadores artesanales con compradores, integrando trazabilidad, datos oceanográficos en tiempo real y referencias de precios.</span><span class="es">Plataforma digital que conecta pescadores artesanales con compradores, integrando trazabilidad, datos oceanográficos en tiempo real y referencias de precios.</span></div>
   </div>
   <div class="hero-tagline">Inspira. Actúa. Transforma.</div>
 </div>
 
-<div class="ribbon" style="background:rgba(12,73,138,.95);"><div class="ribbon-cell"><div class="rc-val">US$1.33</div><div class="rc-lab"><span class="en">Price band</span><span class="es">Precio</span></div><div class="rc-sub"><span class="en">Per month (deck)</span><span class="es">Por mes (deck)</span></div></div><div class="ribbon-cell"><div class="rc-val">28+</div><div class="rc-lab"><span class="en">Discovery</span><span class="es">Descubrimiento</span></div><div class="rc-sub"><span class="en">Validation talks</span><span class="es">Conversaciones</span></div></div><div class="ribbon-cell"><div class="rc-val">Artisanal</div><div class="rc-lab"><span class="en">Who it&#x27;s for</span><span class="es">Para quién</span></div><div class="rc-sub"><span class="en">Fishers</span><span class="es">Pescadores</span></div></div><div class="ribbon-cell"><div class="rc-val">Info</div><div class="rc-lab"><span class="en">Product</span><span class="es">Producto</span></div><div class="rc-sub"><span class="en">Sea + prices + rules</span><span class="es">Mar + precios + normas</span></div></div></div>
-
 <div class="sec" style="position:relative;">
-  <div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&amp;q=80');"></div>
+  <div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1200&q=80');"></div>
   <div class="sec-ov" style="background:rgba(12,73,138,.30);"></div>
-  <div class="sec-header"><div class="sec-num">📄</div><div class="sec-title"><span class="en">Pitch Deck</span><span class="es">Pitch Deck</span></div><div class="sec-rule"></div></div>
-  <div class="deck-note"><span class="en">Slide images from deck — numbers on this profile match the deck only.</span><span class="es">Imágenes del deck — los números en este perfil provienen solo del deck.</span></div>
-  <div class="deck-wrap deck-slide-wrap"><div class="deck-panel deck-slide">
-    <img class="deck-slide-img" src="/s/pezconfiable/slides/s-1.jpg" alt="Slide 1" loading="lazy">
-    <div class="deck-pager" data-base="/s/pezconfiable/slides" data-pages="9"><button type="button" class="deck-page-btn" data-dir="-1">Prev</button><span class="deck-page-label">1 / 9</span><button type="button" class="deck-page-btn" data-dir="1">Next</button></div>
-    <script>
-(function(){
-  var root=document.currentScript.previousElementSibling;
-  if(!root)return;
-  var img=root.parentElement.querySelector('.deck-slide-img');
-  var label=root.querySelector('.deck-page-label');
-  var total=+root.dataset.pages||1;
-  var base=root.dataset.base;
-  var page=1;
-  function show(n){
-    page=Math.max(1,Math.min(total,n));
-    if(img)img.src=base+'/s-'+page+'.jpg';
-    if(img)img.alt='Slide '+page;
-    if(label)label.textContent=page+' / '+total;
-    root.querySelectorAll('.deck-page-btn').forEach(function(b){
-      var dir=+b.dataset.dir;
-      b.disabled=dir<0?page<=1:page>=total;
-    });
-  }
-  root.addEventListener('click',function(e){
-    var b=e.target.closest('.deck-page-btn');
-    if(!b||b.disabled)return;
-    show(page+(+b.dataset.dir||0));
-  });
-  show(1);
-})();
-</script>
-    <div class="deck-fallback"><span class="en">Need the file?</span><span class="es">¿Necesita el archivo?</span> <a href="https://drive.google.com/file/d/1_nhww8FixSV9JDOcqkXb0_G8azFaJHkC/view" target="_blank" rel="noopener"><span class="en">Open PDF</span><span class="es">Abrir PDF</span></a></div>
-  </div>
-  <div class="deck-actions"><a class="cta-link" href="https://drive.google.com/file/d/1_nhww8FixSV9JDOcqkXb0_G8azFaJHkC/view" target="_blank" rel="noopener"><span class="en">Open deck in Google Drive</span><span class="es">Abrir deck en Google Drive</span></a></div></div>
+  <div class="sec-header"><div class="sec-num">i</div><div class="sec-title"><span class="en">Startup profile</span><span class="es">Perfil startup</span></div><div class="sec-rule"></div></div>
+  <div class="meta-wrap"><div class="meta-panel"><div class="meta-grid">
+    <div class="meta-item"><div class="meta-lab"><span class="en">Name</span><span class="es">Nombre</span></div><div class="meta-val">PezConfiable</div></div>
+    <div class="meta-item"><div class="meta-lab"><span class="en">Founder LinkedIn</span><span class="es">LinkedIn fundador</span></div><div class="meta-val"><span class="slot-empty"><span class="en">[empty]</span><span class="es">[vacío]</span></span></div></div>
+    <div class="meta-item"><div class="meta-lab"><span class="en">Website</span><span class="es">Sitio web</span></div><div class="meta-val"><span class="slot-empty"><span class="en">[empty]</span><span class="es">[vacío]</span></span></div></div>
+    <div class="meta-item"><div class="meta-lab"><span class="en">CT taxonomy</span><span class="es">Taxonomía CT</span></div><div class="meta-val"><span class="slot-empty"><span class="en">[empty]</span><span class="es">[vacío]</span></span></div></div>
+    <div class="meta-item" style="grid-column:1/-1;"><div class="meta-lab"><span class="en">Short description</span><span class="es">Descripción breve</span></div><div class="meta-val">Plataforma digital que conecta pescadores artesanales con compradores, integrando trazabilidad, datos oceanográficos en tiempo real y referencias de precios.</div></div>
+  </div></div></div>
 </div>
 <div class="accent-bar"></div>
 
-<div class="sec" hidden>
-  <div class="sec-header"><div class="sec-num">▶</div><div class="sec-title"><span class="en">Pitch Video</span><span class="es">Video pitch</span></div><div class="sec-rule"></div></div>
-  <div class="yt-pitch"><div class="yt-pitch-frame"><iframe src="" title="Pitch video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>
-</div>
-
 <div class="sec" style="position:relative;">
-  <div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&amp;q=80');"></div>
+  <div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80');"></div>
   <div class="sec-ov" style="background:rgba(12,73,138,.30);"></div>
-  <div class="sec-header"><div class="sec-num">01</div><div class="sec-title"><span class="en">The Problem</span><span class="es">El Problema</span></div><div class="sec-rule"></div></div>
-  <div class="split" style="position:relative;z-index:2;"><div class="split-panel"><div class="split-frost"><div class="split-h"><span class="en">Problem</span><span class="es">Problema</span></div><div class="body-text"><span class="en">Artisanal fishers face scattered data on sea conditions, prices, regulations, and traceability — hard to turn into visibility and opportunities.</span><span class="es">Los pescadores artesanales enfrentan datos dispersos sobre mar, precios, normas y trazabilidad — difícil convertirlos en visibilidad y oportunidades.</span></div></div></div>
-  <div class="split-panel"><div class="split-frost"><div class="split-h"><span class="en">Taxonomy</span><span class="es">Taxonomía</span></div><div class="body-text"><span class="en">CT-IC-003 · Supply Chain Traceability · CT-AF-012 · Blue Carbon &amp; Mangroves</span><span class="es">CT-IC-003 · Trazabilidad · CT-AF-012 · Carbono azul y manglares</span></div></div></div></div>
-  
+  <div class="sec-header"><div class="sec-num">📄</div><div class="sec-title"><span class="en">Pitch deck</span><span class="es">Pitch deck</span></div><div class="sec-rule"></div></div>
+  <div class="deck-note"><span class="en">One slide at a time — use arrows to browse the deck.</span><span class="es">Una diapositiva a la vez — use las flechas para recorrer el deck.</span></div>
+  <div class="deck-wrap"><div class="deck-panel">
+    <div class="deck-canvas-wrap"><canvas id="deck-canvas" class="deck-canvas"></canvas></div>
+    <div class="deck-nav">
+      <button type="button" id="deck-prev" aria-label="Previous slide"><span class="en">← Previous</span><span class="es">← Anterior</span></button>
+      <span class="deck-page-label" id="deck-page-label">—</span>
+      <button type="button" id="deck-next" aria-label="Next slide"><span class="en">Next →</span><span class="es">Siguiente →</span></button>
+    </div>
+    <div class="deck-actions">
+      <a class="cta-link" href="/s/pezconfiable/deck.pdf" target="_blank" rel="noopener"><span class="en">Open PDF</span><span class="es">Abrir PDF</span></a>
+      <a class="cta-link" href="/s/pezconfiable/deck.pdf" download><span class="en">Download PDF</span><span class="es">Descargar PDF</span></a>
+    </div>
+  </div></div>
 </div>
+<div class="accent-bar"></div>
+
 
 <div class="sec" style="position:relative;">
-  <div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&amp;q=80');"></div>
-  <div class="sec-ov" style="background:rgba(102,147,72,.30);"></div>
-  <div class="sec-header"><div class="sec-num">02</div><div class="sec-title"><span class="en">The Solution</span><span class="es">La Solución</span></div><div class="sec-rule"></div></div>
-  <div class="split" style="position:relative;z-index:2;padding:0 48px 32px;"><div class="split-frost"><div class="body-text"><span class="en">System supporting the fisher across the trip lifecycle — information for better decisions and commercial connection.</span><span class="es">Sistema que acompaña al pescador en todo el ciclo de faena — información para mejores decisiones y conexión comercial.</span></div></div></div>
-</div>
-
-<div class="sec" style="position:relative;">
-  <div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&amp;q=80');"></div>
-  <div class="sec-ov" style="background:rgba(12,73,138,.30);"></div>
-  <div class="sec-header"><div class="sec-num">03</div><div class="sec-title"><span class="en">Market</span><span class="es">Mercado</span></div><div class="sec-rule"></div></div>
-  <div class="split" style="position:relative;z-index:2;padding:0 48px 32px;"><div class="split-frost"><div class="body-text"><span class="en">Market slide references FAO et al. 2023 and PRODUCE sources — see deck for sizing detail.</span><span class="es">La diapositiva de mercado referencia FAO et al. 2023 y fuentes PRODUCE — ver deck para dimensionamiento.</span></div></div></div>
-</div>
-
-<div class="sec" style="position:relative;">
-  <div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&amp;q=80');"></div>
-  <div class="sec-ov" style="background:rgba(102,147,72,.30);"></div>
-  <div class="sec-header"><div class="sec-num">04</div><div class="sec-title"><span class="en">Climate Impact</span><span class="es">Impacto Climático</span></div><div class="sec-rule"></div></div>
-  <div class="impact-grid"><div class="imp-card"><div class="imp-icon">🌍</div><div><div class="imp-title"><span class="en">Impact</span><span class="es">Impacto</span></div><div class="imp-text"><span class="en">Climate impact slide: mitigation and resilience; deck cites projected impact per fisher by year 3 and SDG contribution.</span><span class="es">Diapositiva de impacto climático: mitigación y resiliencia; el deck cita impacto proyectado por pescador al año 3 y aportes a ODS.</span></div></div></div></div>
-</div>
-
-<div class="sec" hidden>
-  <div class="sec-header"><div class="sec-num">05</div><div class="sec-title"><span class="en">Founders</span><span class="es">Fundadores</span></div><div class="sec-rule"></div></div>
-  <div class="team-grid"><div class="team-card"><div class="tp-name">—</div><div class="tp-role"><span class="en">Role</span><span class="es">Rol</span></div><a class="tp-link" href="">LinkedIn</a></div></div>
-  <div class="frost-note"><span class="en">Founder profiles pending LinkedIn HITL — not sourced from deck team slides.</span><span class="es">Perfiles de fundadores pendientes vía LinkedIn HITL — no tomados de diapositivas de equipo del deck.</span></div>
-</div>
-
-<div class="sec" style="position:relative;">
-  <div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&amp;q=80');"></div>
+  <div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1504541331459-5288e5d49ee3?w=1200&q=80');"></div>
   <div class="sec-ov" style="background:rgba(12,73,138,.30);"></div>
   <div class="cta">
-    <div class="pill" style="background:rgba(157,195,132,.12);border:1px solid rgba(157,195,132,.2);color:var(--lg);margin-bottom:16px;"><span class="en">CT-IC-003 · Supply Chain Traceability</span><span class="es">CT-IC-003 · Trazabilidad cadena de suministro</span></div>
-    <div class="cta-name">PezConfiable</div>
-    <div class="cta-pitch"><span class="en">Turns scattered information into useful decisions for artisanal fishers — before, during, and after every fishing trip.</span><span class="es">Convierte información dispersa en decisiones útiles para pescadores artesanales — antes, durante y después de cada faena.</span></div>
     <div class="cta-links">
-      <a class="cta-link" href="https://nexus.cleantechhub.net/s/pezconfiable"><span class="en">Nexus Profile</span><span class="es">Perfil Nexus</span></a>
-      <a class="cta-link" href="https://nexus.cleantechhub.net/p/startup-portfolio"><span class="en">157 Startups</span><span class="es">157 Startups</span></a>
-      <a class="cta-link" href="https://drive.google.com/file/d/1_nhww8FixSV9JDOcqkXb0_G8azFaJHkC/view" target="_blank" rel="noopener"><span class="en">Pitch deck (Drive)</span><span class="es">Pitch deck (Drive)</span></a>
-      <a class="cta-link" href="https://wiki.cleantechhub.net/books/idea-browser/page/pezconfiable-food-agriculture" target="_blank" rel="noopener"><span class="en">Idea Browser (Wiki)</span><span class="es">Idea Browser (Wiki)</span></a>
+      <a class="cta-link" href="https://nexus.cleantechhub.net/ideas/pezconfiable-food-agriculture" target="_blank" rel="noopener"><span class="en">Nexus profile</span><span class="es">Perfil Nexus</span></a>
+      <a class="cta-link" href="https://nexus.cleantechhub.net/s/pezconfiable"><span class="en">One-pager</span><span class="es">One-pager</span></a>
+      <a class="cta-link" href="/s/pezconfiable/deck.pdf" target="_blank" rel="noopener"><span class="en">Deck (PDF)</span><span class="es">Deck (PDF)</span></a>
     </div>
     <div class="cta-brand"><div class="tg">Inspira. Actúa. Transforma.</div><div class="lg2">Cleantech<em style="color:var(--lg);font-style:normal;">HUB</em></div></div>
-    <div class="cta-port"><span class="en">CleantechHUB portfolio profile · Latin America · DRAFT</span><span class="es">Perfil portafolio CleantechHUB · América Latina · BORRADOR</span></div>
+    <div class="cta-port"><span class="en">Draft — not deployed to /opt/nexus-onepagers</span><span class="es">Borrador — no desplegado en /opt/nexus-onepagers</span></div>
   </div>
 </div>
 <div class="accent-bar"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script>
+(function() {
+  var pdfUrl = "/s/pezconfiable/deck.pdf";
+  var canvas = document.getElementById("deck-canvas");
+  var label = document.getElementById("deck-page-label");
+  var prev = document.getElementById("deck-prev");
+  var next = document.getElementById("deck-next");
+  var pdfDoc = null;
+  var pageNum = 1;
+  var pageRendering = false;
+  var pageNumPending = null;
+
+  if (!window["pdfjsLib"]) {
+    label.textContent = "PDF.js unavailable";
+    return;
+  }
+  pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
+
+  function renderPage(num) {
+    pageRendering = true;
+    pdfDoc.getPage(num).then(function(page) {
+      var viewport = page.getViewport({ scale: 1.5 });
+      canvas.height = viewport.height;
+      canvas.width = viewport.width;
+      return page.render({ canvasContext: canvas.getContext("2d"), viewport: viewport }).promise;
+    }).then(function() {
+      pageRendering = false;
+      label.textContent = num + " / " + pdfDoc.numPages;
+      prev.disabled = num <= 1;
+      next.disabled = num >= pdfDoc.numPages;
+      if (pageNumPending !== null) {
+        renderPage(pageNumPending);
+        pageNumPending = null;
+      }
+    });
+  }
+
+  function queueRenderPage(num) {
+    if (pageRendering) {
+      pageNumPending = num;
+    } else {
+      renderPage(num);
+    }
+  }
+
+  prev.addEventListener("click", function() {
+    if (pageNum <= 1) return;
+    pageNum--;
+    queueRenderPage(pageNum);
+  });
+  next.addEventListener("click", function() {
+    if (!pdfDoc || pageNum >= pdfDoc.numPages) return;
+    pageNum++;
+    queueRenderPage(pageNum);
+  });
+
+  pdfjsLib.getDocument(pdfUrl).promise.then(function(doc) {
+    pdfDoc = doc;
+    renderPage(pageNum);
+  }).catch(function() {
+    label.textContent = "Deck load failed";
+  });
+})();
+</script>
 </body>
 </html>

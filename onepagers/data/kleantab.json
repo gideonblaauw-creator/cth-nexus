@@ -1,0 +1,172 @@
+{
+  "slug": "kleantab",
+  "name": "Kleantab",
+  "website": "https://kleantab.com/",
+  "badge_en": "Clean Home · Acceleration",
+  "badge_es": "Hogar Limpio · Acceleration",
+  "hero_sub_en": "kleantab.com · Costa Rica · Escazú · Circular Economy · Stage: [PENDIENTE]",
+  "hero_sub_es": "kleantab.com · Costa Rica · Escazú · Economía Circular · Etapa: [PENDIENTE]",
+  "pitch_en": "Soluble eco-friendly cleaning tablets that replace single-use plastic bottles, cutting transport volume and hazardous chemicals in home cleaning.",
+  "pitch_es": "Tabletas ecológicas solubles que reemplazan botellas plásticas de un solo uso, reduciendo volumen de transporte y químicos en limpieza del hogar.",
+  "cta_pitch_en": "Refillable cleaning — dissolve a tablet at home, reuse the bottle, less plastic and lighter logistics.",
+  "cta_pitch_es": "Limpieza recargable — disuelve una tableta en casa, reutiliza el envase, menos plástico y logística más liviana.",
+  "ribbon": [
+    {
+      "val": "CR",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Costa Rica",
+      "sub_es": "Costa Rica"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "Acceleration",
+      "sub_es": "Acceleration"
+    },
+    {
+      "val": "Circular",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Métricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "Acceleration",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Hub",
+        "lab_es": "Hub"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "CR",
+        "lab_en": "Costa Rica",
+        "lab_es": "Costa Rica"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Traditional liquid cleaners ship mostly water in single-use plastic, driving waste and transport emissions.",
+      "head_es": "Los limpiadores líquidos tradicionales transportan principalmente agua en plástico desechable, generando residuos y emisiones logísticas.",
+      "body_en": "Soluble eco-friendly cleaning tablets that replace single-use plastic bottles, cutting transport volume and hazardous chemicals in home cleaning.",
+      "body_es": "Tabletas ecológicas solubles que reemplazan botellas plásticas de un solo uso, reduciendo volumen de transporte y químicos en limpieza del hogar.",
+      "bg": "https://images.unsplash.com/photo-1628177142136-43d9810e5622?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "🌱",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Concentrated cleaning tablets — consumer dissolves at home to fill reusable bottles.",
+          "text_es": "Tabletas concentradas — el consumidor disuelve en casa para rellenar envases reutilizables."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "Kleantab — CleantechHUB Acceleration (Portafolio CTH).",
+          "text_es": "Kleantab — Acceleration CleantechHUB (Portafolio CTH)."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Based in Escazú / San José, Costa Rica. Public site: kleantab.com.",
+          "text_es": "Con base en Escazú / San José, Costa Rica. Sitio público: kleantab.com."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1563452617894-61fc735e623f?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact & Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Wiki source",
+          "title_es": "Fuente Wiki",
+          "text_en": "Profile synced from BookStack Startup Portfolio + Odoo (SoT). CleantechHUB Acceleration cohort (Portafolio CTH).",
+          "text_es": "Perfil sincronizado desde BookStack Startup Portfolio + Odoo (SoT). Cohorte Acceleration CleantechHUB (Portafolio CTH)."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomía",
+          "text_en": "[PENDIENTE] — circular consumer cleaning (CT node not on portfolio card)",
+          "text_es": "[PENDIENTE] — limpieza circular de consumo (nodo CT no en tarjeta de portafolio)"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1585421514734-121ea5978633?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Daniel Kaune",
+          "initials": "DK",
+          "role_en": "Co-founder & CEO",
+          "role_es": "Cofundador y CEO",
+          "bio_en": "Co-founder Kleantab (public LinkedIn).",
+          "bio_es": "Cofundador Kleantab (LinkedIn público).",
+          "linkedin": "https://www.linkedin.com/in/daniel-kaune/"
+        },
+        {
+          "name": "Alexander Anders",
+          "initials": "AA",
+          "role_en": "Co-founder & CRO",
+          "role_es": "Cofundador y CRO",
+          "bio_en": "Co-founder Kleantab (public LinkedIn).",
+          "bio_es": "Cofundador Kleantab (LinkedIn público).",
+          "linkedin": "https://www.linkedin.com/in/alexander-anders-793ba1100/"
+        }
+      ],
+      "dream_en": "Stage: [PENDIENTE]. Verified KPIs: [PENDIENTE]. Pitch deck: [PENDIENTE].",
+      "dream_es": "Etapa: [PENDIENTE]. KPIs verificados: [PENDIENTE]. Pitch deck: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1612815167568-60f89d18be55?w=1200&q=80"
+    }
+  ],
+  "hero_image": "https://kleantab.com/cdn/shop/files/Kleantab_Limpieza_Poderosa_y_Saludable.png?v=1779937714&width=1600",
+  "cta_bg": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=1200&q=80",
+  "image_credits_en": "Image credits (kleantab):\n· Hero: Kleantab verified website (kleantab.com product photo)\n· §01 Problem: Unsplash / Daian Gan\n· §02 Solution: Unsplash / Daiga Ellaby\n· §03 Impact: Unsplash / Sarah Chai\n· §04 Leadership: Unsplash / Volodymyr Hryshchenko\n· CTA: Unsplash / Markus Spiske Replacement photo: Unsplash — Campaign Creators.",
+  "image_credits_es": "Créditos de imagen (kleantab):\n· Hero: Sitio verificado Kleantab (foto de producto kleantab.com)\n· §01 Problem: Unsplash / Daian Gan\n· §02 Solution: Unsplash / Daiga Ellaby\n· §03 Impact: Unsplash / Sarah Chai\n· §04 Leadership: Unsplash / Volodymyr Hryshchenko\n· CTA: Unsplash / Markus Spiske Foto de reemplazo: Unsplash — Campaign Creators."
+}

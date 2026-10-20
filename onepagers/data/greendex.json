@@ -1,0 +1,172 @@
+{
+  "slug": "greendex",
+  "name": "GreenDex",
+  "website": "https://greendex.earth",
+  "badge_en": "Sustainability Metrics &middot; CLP &middot; Acceleration",
+  "badge_es": "Métricas de Sostenibilidad &middot; CLP &middot; Acceleration",
+  "hero_image": "https://images.unsplash.com/photo-1454165804608-210323645c63?w=1200&q=80",
+  "cta_bg": "https://images.unsplash.com/photo-1497435334942-3e801e0b8bfa?w=1200&q=80",
+  "hero_sub_en": "greendex.earth &middot; Mexico &middot; Querétaro &middot; Circular Economy &middot; Stage: Pre-Seed",
+  "hero_sub_es": "greendex.earth &middot; México &middot; Querétaro &middot; Economía Circular &middot; Etapa: Pre-Seed",
+  "pitch_en": "Sustainability scoring platform that calculates environmental, health, and materials impacts per product and production batch — helping companies act on continuous improvement and circular strategies.",
+  "pitch_es": "Plataforma de puntuación de sostenibilidad que calcula impactos ambientales, de salud y de materiales por producto y lote — ayudando a las empresas a mejorar de forma continua y circular.",
+  "cta_pitch_en": "Automated impact indicators for products and batches, aligned with corporate sustainability goals.",
+  "cta_pitch_es": "Indicadores automatizados de impacto por producto y lote, alineados con metas de sostenibilidad corporativa.",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "ribbon": [
+    {
+      "val": "MX",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Mexico",
+      "sub_es": "México"
+    },
+    {
+      "val": "Pre-Seed",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLP",
+      "sub_es": "CLP"
+    },
+    {
+      "val": "Circular",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Métricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLP",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Hub",
+        "lab_es": "Hub"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "MX",
+        "lab_en": "Mexico",
+        "lab_es": "México"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Companies lack fast, product-level sustainability metrics to guide decisions.",
+      "head_es": "Las empresas carecen de métricas de sostenibilidad ágiles a nivel de producto para decidir.",
+      "body_en": "Without batch-level environmental and materials indicators, teams struggle to prioritize improvements, report credibly, and design circular business models.",
+      "body_es": "Sin indicadores ambientales y de materiales por lote, cuesta priorizar mejoras, reportar con credibilidad y diseñar modelos circulares.",
+      "bg": "https://images.unsplash.com/photo-1565793298595-6d948104487a?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "🌱",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "SaaS-style impact calculations for SKUs and production batches (cradle-to-gate style metrics).",
+          "text_es": "Cálculos de impacto tipo SaaS para SKU y lotes de producción (métricas estilo cuna a puerta)."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "GreenDex — ClimateLaunchpad (CLP) and CleantechHUB Acceleration portfolio.",
+          "text_es": "GreenDex — ClimateLaunchpad (CLP) y portafolio Acceleration de CleantechHUB."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Based in Querétaro, Mexico. Public site: greendex.earth.",
+          "text_es": "Con base en Querétaro, México. Sitio público: greendex.earth."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact &amp; Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Wiki source",
+          "title_es": "Fuente Wiki",
+          "text_en": "Profile synced from BookStack Startup Portfolio + Odoo (SoT).",
+          "text_es": "Perfil sincronizado desde BookStack Startup Portfolio + Odoo (SoT)."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomía",
+          "text_en": "CT-XS-004 &middot; Climate Risk &amp; Disclosure",
+          "text_es": "CT-XS-004 &middot; Riesgo Climático y Divulgación"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1466611655661-d0979298ee2b?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Adrián Carrillo Hurtado",
+          "role_en": "Co-founder (GreenDex.earth) &middot; CLP",
+          "role_es": "Cofundador (GreenDex.earth) &middot; CLP",
+          "bio_en": "Co-founded GreenDex (2018–2021), building subscription SaaS for product environmental, social, and economic impact measurement.",
+          "bio_es": "Cofundó GreenDex (2018–2021), desarrollando SaaS por suscripción para medir impactos ambientales, sociales y económicos de productos.",
+          "initials": "AC",
+          "linkedin": "https://www.linkedin.com/in/adcarrillo"
+        },
+        {
+          "name": "Fermín Carrillo Hurtado",
+          "role_en": "Commercial lead &middot; GreenDex.earth",
+          "role_es": "Liderazgo comercial &middot; GreenDex.earth",
+          "bio_en": "Public-facing commercial lead for GreenDex.earth (LinkedIn, Oct 2020–present).",
+          "bio_es": "Liderazgo comercial público de GreenDex.earth (LinkedIn, oct 2020–presente).",
+          "initials": "FC",
+          "linkedin": "https://www.linkedin.com/in/ferm%C3%ADn-carrillo-hurtado-23b134285"
+        }
+      ],
+      "dream_en": "Program: CLP + Acceleration. City: Querétaro [verified public site]. Verified revenue KPIs: [PENDIENTE]. Pitch deck on profile: [PENDIENTE]. Image credits — Hero: Unsplash (Nastuh Abootalebi); Sec 01: Unsplash (Mika Baumeister); Sec 02: Unsplash (Luke Chesser); Sec 03: Unsplash (Niklas Weiss); Sec 04: Unsplash (You X Ventures); CTA: Unsplash (Sebastian Unrau).",
+      "dream_es": "Programa: CLP + Acceleration. Ciudad: Querétaro [sitio público]. KPIs de ingresos verificados: [PENDIENTE]. Pitch deck en perfil: [PENDIENTE]. Créditos de imagen — Hero: Unsplash (Nastuh Abootalebi); Sec 01: Unsplash (Mika Baumeister); Sec 02: Unsplash (Luke Chesser); Sec 03: Unsplash (Niklas Weiss); Sec 04: Unsplash (You X Ventures); CTA: Unsplash (Sebastian Unrau).",
+      "bg": "https://images.unsplash.com/photo-1600880292203-757bb62b4af1?w=1200&q=80"
+    }
+  ]
+}

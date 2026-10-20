@@ -1,60 +1,71 @@
 {
   "slug": "climatik",
-  "name": "CLIMATIK Climate Transition Platform",
-  "website": "",
-  "youtube": "",
-  "badge_en": "Climate intelligence for manufacturers",
-  "badge_es": "Inteligencia climática para manufactureras",
-  "hero_image": "./assets/hero.jpg",
-  "hero_sub_en": "CT-XS-004 · Climate Risk &amp; Disclosure · CT-XS-003 · Green Finance",
-  "hero_sub_es": "CT-XS-004 · Riesgo climático y divulgación · CT-XS-003 · Finanzas verdes",
-  "pitch_en": "We connect climate language with financial language to accelerate transition — climate-intelligence SaaS for manufacturers without changing ERP.",
-  "pitch_es": "Conectamos el lenguaje climático con el financiero para acelerar la transición — SaaS de inteligencia climática para manufactureras sin cambiar ERP.",
-  "cta_btn_en": "CleantechHUB profile",
-  "cta_btn_es": "Perfil CleantechHUB",
-  "cta_pitch_en": "Private capital will not move without reliable climate information.",
-  "cta_pitch_es": "El capital privado no se moverá sin información climática fiable.",
+  "name": "CLIMATIK",
+  "website": "#",
+  "badge_en": "Clean Industry &middot; CLP26 Colombia",
+  "badge_es": "Clean Industry &middot; CLP26 Colombia",
+  "hero_image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1200&q=80",
+  "hero_sub_en": "BARUK COMPANY BIO CLIMATIK SAS &middot; Colombia &middot; Clean Industry &middot; Stage: Private Beta",
+  "hero_sub_es": "BARUK COMPANY BIO CLIMATIK SAS &middot; Colombia &middot; Industria Limpia &middot; Etapa: Beta Privada",
+  "pitch_en": "Intelligent bioclimatic greenhouses for food sovereignty and protection of ancestral seeds — sustainable infrastructure even without traditional power grids, plus bioclimatic retrofits for existing buildings.",
+  "pitch_es": "Intelligent bioclimatic greenhouses for food sovereignty and protection of ancestral seeds — sustainable infrastructure even without traditional power grids, plus bioclimatic retrofits for existing buildings.",
+  "cta_pitch_en": "Bioclimatic smart greenhouses with block_line® construction material (fire-resistant, thermo-acoustic, antifungal) enabling 24/7 production and seed preservation with minimal carbon footprint.",
+  "cta_pitch_es": "Bioclimatic smart greenhouses with block_line® construction material (fire-resistant, thermo-acoustic, antifungal) enabling 24/7 production and seed preservation with minimal carbon footprint.",
+  "cta_btn_en": "CleantechHUB",
+  "cta_btn_es": "CleantechHUB",
   "ribbon": [
     {
-      "val": "$13,286",
-      "lab_en": "Avg SaaS / yr",
-      "lab_es": "SaaS prom / año",
-      "sub_en": "Deck",
-      "sub_es": "Deck"
-    },
-    {
-      "val": "SaaS",
-      "lab_en": "Model",
-      "lab_es": "Modelo",
-      "sub_en": "Annual subscription",
-      "sub_es": "Suscripción anual"
-    },
-    {
-      "val": "Mfg",
-      "lab_en": "Segment",
-      "lab_es": "Segmento",
-      "sub_en": "Manufacturers",
-      "sub_es": "Manufactureras"
-    },
-    {
-      "val": "Private Beta",
+      "val": "Private Be",
       "lab_en": "Stage",
       "lab_es": "Etapa",
-      "sub_en": "CLP26",
-      "sub_es": "CLP26"
+      "sub_en": "CLP26 CO",
+      "sub_es": "CLP26 CO"
+    },
+    {
+      "val": "Clean Indust",
+      "lab_en": "Category",
+      "lab_es": "Categoría",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[PENDIENTE]",
+      "lab_en": "CT Taxonomy",
+      "lab_es": "Taxonomía CT",
+      "sub_en": "CTH",
+      "sub_es": "CTH"
+    },
+    {
+      "val": "[PENDIENTE]",
+      "lab_en": "Team",
+      "lab_es": "Equipo",
+      "sub_en": "Application",
+      "sub_es": "Aplicación"
     }
   ],
   "problem_stats": [
     [
       {
-        "num": "Scope 1–2",
-        "lab_en": "GHG footprint data",
-        "lab_es": "Datos huella GEI"
+        "num": "CLP",
+        "lab_en": "2026 Colombia",
+        "lab_es": "2026 Colombia"
       },
       {
-        "num": "ERP",
-        "lab_en": "Native integration",
-        "lab_es": "Integración nativa"
+        "num": "CTH",
+        "lab_en": "Accelerator",
+        "lab_es": "Acelerador"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "Metrics pending",
+        "lab_es": "Métricas pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
       }
     ]
   ],
@@ -62,111 +73,176 @@
     {
       "num": 1,
       "type": "split",
-      "title_en": "The Deal",
-      "title_es": "El Trato",
-      "head_en": "Climate KPIs and decisions based on existing operational data",
-      "head_es": "KPIs climáticos y decisiones basadas en datos operacionales existentes",
-      "body_en": "Annual SaaS subscription (~$13,286 USD/year weighted average in deck). Connects climate and financial language for manufacturers.",
-      "body_es": "Suscripción SaaS anual (~$13.286 USD/año promedio ponderado en deck). Conecta lenguaje climático y financiero para manufactureras.",
-      "bg": "./assets/bg-problem.jpg"
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Global hunger and the need for year-round food production without fertile land or high carbon…",
+      "head_es": "Global hunger and the need for year-round food production without fertile land or high carbon…",
+      "body_en": "Global hunger and the need for year-round food production without fertile land or high carbon footprints — especially for indigenous communities and farmer associations.",
+      "body_es": "Global hunger and the need for year-round food production without fertile land or high carbon footprints — especially for indigenous communities and farmer associations.",
+      "bg": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1200&q=80"
     },
     {
       "num": 2,
       "type": "solution",
-      "title_en": "Platform",
-      "title_es": "Plataforma",
       "overlay": "rgba(102,147,72,.30)",
+      "title_en": "How CLIMATIK Works",
+      "title_es": "Cómo Funciona CLIMATIK",
       "steps": [
         {
-          "icon": "🔌",
-          "label_en": "Connect",
-          "label_es": "Conectar",
-          "text_en": "Native SAP B1 / Dynamics 365 integration — no ERP change.",
-          "text_es": "Integración nativa SAP B1 / Dynamics 365 — sin cambiar ERP."
+          "icon": "🎯",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Bioclimatic smart greenhouses with block_line® construction material (fire-resistant, thermo-acoustic, antifungal) enabling 24/7 production and seed…",
+          "text_es": "Bioclimatic smart greenhouses with block_line® construction material (fire-resistant, thermo-acoustic, antifungal) enabling 24/7 production and seed…"
         },
         {
-          "icon": "📊",
-          "label_en": "Calculate",
-          "label_es": "Calcular",
-          "text_en": "GHG Protocol scope 1–2, PCAF, local emission factors.",
-          "text_es": "GHG Protocol alcance 1–2, PCAF, factores locales."
+          "icon": "⚙️",
+          "label_en": "Model",
+          "label_es": "Modelo",
+          "text_en": "Franchise model for bioclimatic greenhouse deployments; B2G and international partnership sales.",
+          "text_es": "Franchise model for bioclimatic greenhouse deployments; B2G and international partnership sales."
         },
         {
-          "icon": "🏦",
-          "label_en": "Finance",
-          "label_es": "Finanzas",
-          "text_en": "ESG confidence for banks and investors.",
-          "text_es": "Confianza ESG para bancos e inversionistas."
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Farmer associations, indigenous communities, and countries seeking food-sovereignty infrastructure.",
+          "text_es": "Farmer associations, indigenous communities, and countries seeking food-sovereignty infrastructure."
         },
         {
-          "icon": "⚡",
-          "label_en": "Operate",
-          "label_es": "Operar",
-          "text_en": "Lower cost and operational risk vs consultants.",
-          "text_es": "Menor costo y riesgo operativo vs consultores."
+          "icon": "📈",
+          "label_en": "Traction",
+          "label_es": "Tracción",
+          "text_en": "[PENDIENTE]",
+          "text_es": "[PENDIENTE]"
         }
       ],
-      "bg": "./assets/bg-solution.jpg"
+      "bg": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&q=80"
     },
     {
       "num": 3,
-      "type": "chart",
-      "title_en": "Pricing",
-      "title_es": "Precios",
-      "bars": [
-        {
-          "val": "$13,286",
-          "label": "SaaS/yr",
-          "height": 90
-        },
-        {
-          "val": "GHG",
-          "label": "Protocol",
-          "height": 55
-        },
-        {
-          "val": "ESG",
-          "label": "Outputs",
-          "height": 70
-        }
+      "type": "table",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Business Snapshot",
+      "title_es": "Resumen del Negocio",
+      "headers": [
+        [
+          "Dimension",
+          "Dimensión"
+        ],
+        [
+          "Detail (EN)",
+          "Detalle"
+        ],
+        [
+          "Status",
+          "Estado"
+        ]
       ],
-      "note_en": "Deck: weighted average subscription; auditable local emission data.",
-      "note_es": "Deck: suscripción promedio ponderada; datos de emisión locales auditables.",
-      "accent_after": true,
-      "bg": "./assets/bg-market.jpg"
+      "rows": [
+        [
+          [
+            "Category",
+            "Categoría"
+          ],
+          [
+            "Clean Industry",
+            "Clean Industry"
+          ],
+          [
+            "CLP26",
+            "CLP26"
+          ]
+        ],
+        [
+          [
+            "Stage",
+            "Etapa"
+          ],
+          [
+            "Private Beta",
+            "Private Beta"
+          ],
+          [
+            "Application",
+            "Aplicación"
+          ]
+        ],
+        [
+          [
+            "CT Taxonomy",
+            "Taxonomía CT"
+          ],
+          [
+            "[PENDIENTE]",
+            "[PENDIENTE]"
+          ],
+          [
+            "CTH",
+            "CTH"
+          ]
+        ]
+      ],
+      "bg": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1200&q=80"
     },
     {
       "num": 4,
       "type": "impact",
-      "title_en": "Climate Impact",
-      "title_es": "Impacto Climático",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Climate &amp; Impact",
+      "title_es": "Clima e Impacto",
       "cards": [
         {
-          "icon": "🏭",
-          "title_en": "Manufacturing transition",
-          "title_es": "Transición industrial",
-          "text_en": "Climate intelligence outputs tied to operational quality &amp; energy indicators.",
-          "text_es": "Salidas de inteligencia climática ligadas a indicadores de calidad y energía."
+          "icon": "🌱",
+          "title_en": "Climate focus",
+          "title_es": "Enfoque climático",
+          "text_en": "Global hunger and the need for year-round food production without fertile land or high carbon footprints — especially for indigenous communities and farmer associations.",
+          "text_es": "Global hunger and the need for year-round food production without fertile land or high carbon footprints — especially for indigenous communities and farmer associations."
+        },
+        {
+          "icon": "💡",
+          "title_en": "Solution",
+          "title_es": "Solución",
+          "text_en": "Bioclimatic smart greenhouses with block_line® construction material (fire-resistant, thermo-acoustic, antifungal) enabling 24/7 production and seed preservation with minimal…",
+          "text_es": "Bioclimatic smart greenhouses with block_line® construction material (fire-resistant, thermo-acoustic, antifungal) enabling 24/7 production and seed preservation with minimal…"
+        },
+        {
+          "icon": "🤝",
+          "title_en": "CLP 2026",
+          "title_es": "CLP 2026",
+          "text_en": "ClimateLaunchpad Colombia 2026 bootcamp cohort — CleantechHUB accelerator knowledge transfer.",
+          "text_es": "Cohorte bootcamp ClimateLaunchpad Colombia 2026 — transferencia de conocimiento acelerador CleantechHUB."
+        },
+        {
+          "icon": "📋",
+          "title_en": "External support",
+          "title_es": "Apoyo externo",
+          "text_en": "[PENDIENTE]",
+          "text_es": "[PENDIENTE]"
         }
       ],
-      "bg": "./assets/bg-impact.jpg"
+      "bg": "https://images.unsplash.com/photo-1625246333195-78d9c090ad85?w=1200&q=80"
     },
     {
       "num": 5,
       "type": "team",
-      "title_en": "Founders",
-      "title_es": "Fundadores",
-      "members": [],
-      "dream_en": "CT-XS-004 · CT-XS-003 (deck; wiki CT-AF-010 — taxonomy review). Founders pending LinkedIn (HITL).",
-      "dream_es": "CT-XS-004 · CT-XS-003 (deck; wiki CT-AF-010 — revisión taxonomía). Fundadores pendientes LinkedIn (HITL).",
-      "bg": "./assets/bg-team.jpg"
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Allan Engelberth Figueredo Vargas",
+          "role_en": "Founder &middot; CLP26 Colombia",
+          "role_es": "Fundador(a) &middot; CLP26 Colombia",
+          "bio_en": "[PENDIENTE]",
+          "bio_es": "[PENDIENTE]",
+          "initials": "AE"
+        }
+      ],
+      "dream_en": "Legal entity: BARUK COMPANY BIO CLIMATIK SAS. CT taxonomy: [PENDIENTE]. CLP 2026 Colombia bootcamp cohort — CleantechHUB. Wiki source; not in clp26_colombia_ideas.json. Pitch deck: [PENDIENTE].",
+      "dream_es": "Entidad legal: BARUK COMPANY BIO CLIMATIK SAS. CT taxonomy: [PENDIENTE]. CLP 2026 Colombia cohorte bootcamp — CleantechHUB. Wiki source; not in clp26_colombia_ideas.json. Pitch deck: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80"
     }
-  ],
-  "deck_pdf": {
-    "drive_id": "1ne50os0mNJRMjC6bBTGeBLwu1Ubj3Hu7",
-    "view_url": "https://drive.google.com/file/d/1ne50os0mNJRMjC6bBTGeBLwu1Ubj3Hu7/view",
-    "slide_images": true,
-    "pages": 10,
-    "bg": "./assets/bg-deck.jpg"
-  }
+  ]
 }

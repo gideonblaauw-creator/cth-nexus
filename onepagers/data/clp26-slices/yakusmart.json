@@ -1,0 +1,50 @@
+{
+ "name": {
+  "value": "YakuSmart",
+  "source": "build_data.py / Seguimiento"
+ },
+ "country": {
+  "value": "PE",
+  "source": "build_data.py"
+ },
+ "stage": {
+  "value": "global",
+  "source": "build_data.py"
+ },
+ "short_description_es": {
+  "value": "Asistente de riego inteligente vía WhatsApp que combina IA, sensores de suelo, datos satelitales y climáticos para indicar cuándo y cuánto regar.",
+  "source": "Seguimiento_CLP_2026 (Descripción)"
+ },
+ "pitch_video_drive": {
+  "value": "https://drive.google.com/file/d/1NwcbxbJhAAwizhk2-ADmtn79CzWqe8ys/view",
+  "source": "Drive pitch folder (build_data PITCH)"
+ },
+ "youtube_pitch_url": {
+  "value": "",
+  "source": "empty slot – uploads on hold pending Gideon go-ahead"
+ },
+ "founder_linkedin": {
+  "value": "https://www.linkedin.com/in/gonzalesomar",
+  "source": "Drive doc 1-YsrUi0qj… LI Pack"
+ },
+ "website": {
+  "value": "https://yakusmart.io/",
+  "source": "deck Drive 1WT1smdc…"
+ },
+ "taxonomy_link": {
+  "value": null,
+  "source": ""
+ },
+ "nexus_profile_url": {
+  "value": "https://nexus.cleantechhub.net/ideas/yakusmart-food-agriculture",
+  "source": "Drive sheet 1U90iOjP… (ideas page, not /s/ one-pager)"
+ },
+ "deck": {
+  "value": "/workspace/climate-kic/onepagers/decks/yakusmart.pdf",
+  "source": "Drive file 157Lb9SrtO2AhcvIby3-wCKjuq20ZVyoc"
+ },
+ "missing_fields": [
+  "taxonomy_link"
+ ],
+ "slug": "yakusmart"
+}

@@ -1,0 +1,572 @@
+{
+  "mentors": [
+    {
+      "name": "Alaide Díaz",
+      "country": "Guatemala",
+      "startups_mentored": [
+        "Aura cell"
+      ],
+      "bio_en": "CLP26 mentor in Guatemala, mentoring Aura cell.",
+      "bio_es": "Mentor/a en CLP26 (Guatemala); acompaña a Aura cell.",
+      "linkedin_url": "https://www.linkedin.com/in/alaide-diaz?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+    },
+    {
+      "name": "Alejandra Sierralta",
+      "country": "Peru",
+      "startups_mentored": [
+        "PezConfiable"
+      ],
+      "bio_en": "CLP26 mentor in Peru, mentoring PezConfiable.",
+      "bio_es": "Mentor/a en CLP26 (Perú); acompaña a PezConfiable.",
+      "linkedin_url": "www.linkedin.com/in/alejandrasierralta/"
+    },
+    {
+      "name": "Alex Kudzuma",
+      "country": "Peru",
+      "startups_mentored": [
+        "Wayra Watt"
+      ],
+      "bio_en": "CLP26 mentor in Peru, mentoring Wayra Watt.",
+      "bio_es": "Mentor/a en CLP26 (Perú); acompaña a Wayra Watt.",
+      "linkedin_url": "www.linkedin.com/in/alex-kudzuma"
+    },
+    {
+      "name": "Andrés Felipe Páez",
+      "country": "Colombia",
+      "startups_mentored": [
+        "CLIMATIK Climate Transition Platform"
+      ],
+      "bio_en": "CLP26 mentor in Colombia, mentoring CLIMATIK Climate Transition Platform.",
+      "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a CLIMATIK Climate Transition Platform.",
+      "linkedin_url": "https://www.linkedin.com/in/andresfelipepaezrodriguezsostenibilidadyeconomiacircular/"
+    },
+    {
+      "name": "Bernardo Joseph Trujillo León",
+      "country": "Colombia",
+      "startups_mentored": [
+        "Planta Comunitaria WPC",
+        "SEKPOS"
+      ],
+      "bio_en": "CLP26 mentor in Colombia, mentoring Planta Comunitaria WPC and SEKPOS.",
+      "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a Planta Comunitaria WPC y SEKPOS.",
+      "linkedin_url": "http://linkedin.com/in/bernardo-joseph-4813561a9"
+    },
+    {
+      "name": "Carlos Arango Ucros",
+      "country": "Colombia",
+      "startups_mentored": [
+        "AgroData Connect"
+      ],
+      "bio_en": "CLP26 mentor in Colombia, mentoring AgroData Connect.",
+      "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a AgroData Connect.",
+      "linkedin_url": "https://www.linkedin.com/in/carlosarangoucros"
+    },
+    {
+      "name": "Carlos Fernando de la Cruz",
+      "country": "Peru",
+      "startups_mentored": [
+        "HardTech"
+      ],
+      "bio_en": "Nexus programs: CLP25-PE. CLP26 mentor in Peru, mentoring HardTech.",
+      "bio_es": "Programas en Nexus: CLP25-PE. Mentor/a en CLP26 (Perú); acompaña a HardTech.",
+      "linkedin_url": "www.linkedin.com/in/carlos-fernando-marcel-de-la-cruz-guevara-67145140/",
+      "nexus_id": "M072"
+    },
+    {
+      "name": "Carlos Jaramillo",
+      "country": "Colombia",
+      "startups_mentored": [
+        "ArtexLab",
+        "Circuito cero"
+      ],
+      "bio_en": "Innovation and entrepreneurship expert at Seguros SURA and Clarity.fm; connects corporates with startups and validation methodologies. CLP26 mentor in Colombia, mentoring ArtexLab and Circuito cero.",
+      "bio_es": "Experto en innovación y emprendimiento en Seguros SURA y Clarity.fm; conecta corporates con startups y metodologías de validación. Mentor/a en CLP26 (Colombia); acompaña a ArtexLab y Circuito cero.",
+      "organisation": "Seguros SURA / Clarity.fm",
+      "role": "Innovation & Entrepreneurship Expert",
+      "linkedin_url": "https://www.linkedin.com/in/carlosabad79/es/",
+      "nexus_id": "M045"
+    },
+    {
+      "name": "Cinthya Sandoval Cuéllar",
+      "country": "Guatemala",
+      "startups_mentored": [
+        "Crysalia Studio"
+      ],
+      "bio_en": "CLP26 mentor in Guatemala, mentoring Crysalia Studio.",
+      "bio_es": "Mentor/a en CLP26 (Guatemala); acompaña a Crysalia Studio.",
+      "linkedin_url": "https://www.linkedin.com/in/cinthya-sandoval-48903770/"
+    },
+    {
+      "name": "Daniel Alpaca",
+      "country": "Peru",
+      "startups_mentored": [
+        "VIGIA (ex MUCHIK)"
+      ],
+      "bio_en": "CLP26 mentor in Peru, mentoring VIGIA (ex MUCHIK).",
+      "bio_es": "Mentor/a en CLP26 (Perú); acompaña a VIGIA (ex MUCHIK).",
+      "linkedin_url": "www.linkedin.com/in/danielalpaca"
+    },
+    {
+      "name": "Diana Castrillón Gómez",
+      "country": "Colombia",
+      "startups_mentored": [
+        "bio.analytics"
+      ],
+      "bio_en": "CLP26 mentor in Colombia, mentoring bio.analytics.",
+      "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a bio.analytics.",
+      "linkedin_url": "https://www.linkedin.com/in/dianacastrillongomez/"
+    },
+    {
+      "name": "Erwin Navarrete",
+      "country": "Colombia",
+      "startups_mentored": [
+        "Uniqua SAS BIC."
+      ],
+      "bio_en": "CLP26 mentor in Colombia, mentoring Uniqua SAS BIC..",
+      "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a Uniqua SAS BIC..",
+      "linkedin_url": "https://www.linkedin.com/in/erwin-navarrete-b43283240/"
+    },
+    {
+      "name": "Estela Ugalde",
+      "country": "Costa Rica",
+      "startups_mentored": [
+        "AmbiciOsas"
+      ],
+      "bio_en": "CLP26 mentor in Costa Rica, mentoring AmbiciOsas.",
+      "bio_es": "Mentor/a en CLP26 (Costa Rica); acompaña a AmbiciOsas.",
+      "linkedin_url": "https://www.linkedin.com/in/estela-ugalde-74447268/"
+    },
+    {
+      "name": "Felipe Hernández",
+      "country": "Colombia",
+      "startups_mentored": [
+        "communitylab s.a.s"
+      ],
+      "bio_en": "CLP26 mentor in Colombia, mentoring communitylab s.a.s.",
+      "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a communitylab s.a.s.",
+      "linkedin_url": "https://www.linkedin.com/in/fhvdesign/"
+    },
+    {
+      "name": "Fernando Torres",
+      "country": "Peru",
+      "startups_mentored": [
+        "Ecosonus"
+      ],
+      "bio_en": "CLP26 mentor in Peru, mentoring Ecosonus.",
+      "bio_es": "Mentor/a en CLP26 (Perú); acompaña a Ecosonus.",
+      "linkedin_url": "www.linkedin.com/in/fitorresg/"
+    },
+    {
+      "name": "Gabriela Tenaz",
+      "country": "Costa Rica",
+      "startups_mentored": [
+        "Finca ganadera Águilas verdes"
+      ],
+      "bio_en": "CLP26 mentor in Costa Rica, mentoring Finca ganadera Águilas verdes.",
+      "bio_es": "Mentor/a en CLP26 (Costa Rica); acompaña a Finca ganadera Águilas verdes.",
+      "linkedin_url": "https://www.linkedin.com/in/gabriela-t%C3%A9naz-2914a6127/"
+    },
+    {
+      "name": "Genoveva Martínez",
+      "country": "Guatemala",
+      "startups_mentored": [
+        "Pina&Kakaw"
+      ],
+      "bio_en": "CLP26 mentor in Guatemala, mentoring Pina&Kakaw.",
+      "bio_es": "Mentor/a en CLP26 (Guatemala); acompaña a Pina&Kakaw.",
+      "linkedin_url": "https://www.linkedin.com/in/genoveva-martínez-a4ab33196?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+    },
+    {
+      "name": "Gloria Bazán Narváez",
+      "country": "Colombia",
+      "startups_mentored": [
+        "Clean Sim (by IMIC)"
+      ],
+      "bio_en": "CLP26 mentor in Colombia, mentoring Clean Sim (by IMIC).",
+      "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a Clean Sim (by IMIC).",
+      "linkedin_url": "https://www.linkedin.com/in/gloria-bazan-narvaez-06581b55/"
+    },
+    {
+      "name": "Guillermo Nariño",
+      "country": "Colombia",
+      "startups_mentored": [
+        "Amazóniko"
+      ],
+      "bio_en": "CLP26 mentor in Colombia, mentoring Amazóniko.",
+      "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a Amazóniko.",
+      "linkedin_url": "https://www.linkedin.com/in/guillermo-nari%C3%B1o/?"
+    },
+    {
+      "name": "Guisela Carbajal Romero",
+      "country": "Costa Rica",
+      "startups_mentored": [
+        "Ecomuna"
+      ],
+      "bio_en": "CLP26 mentor in Costa Rica, mentoring Ecomuna.",
+      "bio_es": "Mentor/a en CLP26 (Costa Rica); acompaña a Ecomuna.",
+      "linkedin_url": "https://www.linkedin.com/in/guisela-carbajal/"
+    },
+    {
+      "name": "Gustavo García",
+      "country": "Colombia",
+      "startups_mentored": [
+        "Green Textile Solutions",
+        "Modular Agrosolutions"
+      ],
+      "bio_en": "CLP26 mentor in Colombia, mentoring Green Textile Solutions and Modular Agrosolutions.",
+      "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a Green Textile Solutions y Modular Agrosolutions.",
+      "linkedin_url": "https://www.linkedin.com/in/gustavo-garcia-navas/"
+    },
+    {
+      "name": "Heraldo Escobar",
+      "country": "Guatemala",
+      "startups_mentored": [
+        "Regenerative livestock farming"
+      ],
+      "bio_en": "CLP26 mentor in Guatemala, mentoring Regenerative livestock farming.",
+      "bio_es": "Mentor/a en CLP26 (Guatemala); acompaña a Regenerative livestock farming.",
+      "linkedin_url": "www.linkedin.com/in/heraldo-escobar-72163934"
+    },
+    {
+      "name": "Jhosseli García",
+      "country": "Peru",
+      "startups_mentored": [
+        "AgroLens"
+      ],
+      "bio_en": "CLP26 mentor in Peru, mentoring AgroLens.",
+      "bio_es": "Mentor/a en CLP26 (Perú); acompaña a AgroLens.",
+      "linkedin_url": "www.linkedin.com/in/jhosseligarcia/"
+    },
+    {
+      "name": "Jorge Montenegro",
+      "country": "Costa Rica",
+      "startups_mentored": [
+        "Siloe Garden · Eco Sanctuary"
+      ],
+      "bio_en": "CLP26 mentor in Costa Rica, mentoring Siloe Garden · Eco Sanctuary.",
+      "bio_es": "Mentor/a en CLP26 (Costa Rica); acompaña a Siloe Garden · Eco Sanctuary.",
+      "linkedin_url": "https://www.linkedin.com/in/jorge-fer-monte"
+    },
+    {
+      "name": "José Soto",
+      "country": "Peru",
+      "startups_mentored": [
+        "NanoHumi"
+      ],
+      "bio_en": "CLP26 mentor in Peru, mentoring NanoHumi.",
+      "bio_es": "Mentor/a en CLP26 (Perú); acompaña a NanoHumi.",
+      "linkedin_url": "www.linkedin.com/in/jose-carlos-soto-mujica-9a9987396"
+    },
+    {
+      "name": "Juan Diego Loarca",
+      "country": "Guatemala",
+      "startups_mentored": [
+        "Autogenerado"
+      ],
+      "bio_en": "CLP26 mentor in Guatemala, mentoring Autogenerado.",
+      "bio_es": "Mentor/a en CLP26 (Guatemala); acompaña a Autogenerado.",
+      "linkedin_url": "https://www.linkedin.com/in/juan-diego-loarca?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    },
+    {
+      "name": "Juan Sebastián Villamizar",
+      "country": "Colombia",
+      "startups_mentored": [
+        "Proyecto emprendedor con impacto ambiental."
+      ],
+      "bio_en": "CLP26 mentor in Colombia, mentoring Proyecto emprendedor con impacto ambiental..",
+      "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a Proyecto emprendedor con impacto ambiental..",
+      "linkedin_url": "https://www.linkedin.com/in/sebastian-villamizar-diaz-b17818114"
+    },
+    {
+      "name": "Julián Martínez",
+      "country": "Guatemala",
+      "startups_mentored": [
+        "ZUMA"
+      ],
+      "bio_en": "CLP26 mentor in Guatemala, mentoring ZUMA.",
+      "bio_es": "Mentor/a en CLP26 (Guatemala); acompaña a ZUMA.",
+      "linkedin_url": "https://www.linkedin.com/in/julianmartineza/"
+    },
+    {
+      "name": "Karol M. Garzón",
+      "country": "Colombia",
+      "startups_mentored": [
+        "El Ocámbulo"
+      ],
+      "bio_en": "CLP26 mentor in Colombia, mentoring El Ocámbulo.",
+      "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a El Ocámbulo.",
+      "linkedin_url": "https://www.linkedin.com/in/karol-melissa-garz%C3%B3n-cabrera-5516a6382/"
+    },
+    {
+      "name": "Lucía Medina Capacoila",
+      "country": "Colombia",
+      "startups_mentored": [
+        "Cacelio"
+      ],
+      "bio_en": "CLP26 mentor in Colombia, mentoring Cacelio.",
+      "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a Cacelio.",
+      "linkedin_url": "https://www.linkedin.com/in/luciamedinacapacoila/"
+    },
+    {
+      "name": "Maité Marroquín",
+      "country": "Guatemala",
+      "startups_mentored": [
+        "NRK"
+      ],
+      "bio_en": "CLP26 mentor in Guatemala, mentoring NRK.",
+      "bio_es": "Mentor/a en CLP26 (Guatemala); acompaña a NRK.",
+      "linkedin_url": "https://www.linkedin.com/in/mait%C3%A9-marroqu%C3%ADn-76370918b/"
+    },
+    {
+      "name": "Mario Reichert",
+      "country": "Guatemala",
+      "startups_mentored": [
+        "GMOVES"
+      ],
+      "bio_en": "CLP26 mentor in Guatemala, mentoring GMOVES.",
+      "bio_es": "Mentor/a en CLP26 (Guatemala); acompaña a GMOVES.",
+      "linkedin_url": "https://www.linkedin.com/in/mario-reichert-netzero-esg-gri-sas-niifs1-s2sbti-waterstewardship-ehs-safety-sustainability-sbti-wcm?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+    },
+    {
+      "name": "Mario Rojas",
+      "country": "Costa Rica",
+      "startups_mentored": [
+        "Agrosenser"
+      ],
+      "bio_en": "CLP26 mentor in Costa Rica, mentoring Agrosenser.",
+      "bio_es": "Mentor/a en CLP26 (Costa Rica); acompaña a Agrosenser.",
+      "linkedin_url": "https://www.linkedin.com/in/mario-fernando-rojas-suarez-49328770/"
+    },
+    {
+      "name": "Marisa Arias",
+      "country": "Peru",
+      "startups_mentored": [
+        "Kallpa Greenz Leaders"
+      ],
+      "bio_en": "CLP26 mentor in Peru, mentoring Kallpa Greenz Leaders.",
+      "bio_es": "Mentor/a en CLP26 (Perú); acompaña a Kallpa Greenz Leaders.",
+      "linkedin_url": "www.linkedin.com/in/marisaariaspicon/"
+    },
+    {
+      "name": "Martha Zeledón",
+      "country": "Colombia",
+      "startups_mentored": [
+        "AGROLIDER"
+      ],
+      "bio_en": "CLP26 mentor in Colombia, mentoring AGROLIDER.",
+      "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a AGROLIDER.",
+      "linkedin_url": "https://www.linkedin.com/in/martha-yadira-zeled%C3%B3n-2419b024/"
+    },
+    {
+      "name": "Martin Dolan",
+      "country": "Colombia",
+      "startups_mentored": [
+        "CurubaTech",
+        "e.WAI"
+      ],
+      "bio_en": "CLP26 mentor in Colombia, mentoring CurubaTech and e.WAI.",
+      "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a CurubaTech y e.WAI.",
+      "linkedin_url": "https://www.linkedin.com/in/martin-dolan/"
+    },
+    {
+      "name": "Marvin Luna",
+      "country": "Guatemala",
+      "startups_mentored": [
+        "Ingenicrop"
+      ],
+      "bio_en": "CLP26 mentor in Guatemala, mentoring Ingenicrop.",
+      "bio_es": "Mentor/a en CLP26 (Guatemala); acompaña a Ingenicrop.",
+      "linkedin_url": "linkedin.com/in/marvinlunagt"
+    },
+    {
+      "name": "María Isabel Cruz López",
+      "country": "Colombia",
+      "startups_mentored": [
+        "Construyendo Redes de Paz"
+      ],
+      "bio_en": "CLP26 mentor in Colombia, mentoring Construyendo Redes de Paz.",
+      "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a Construyendo Redes de Paz.",
+      "linkedin_url": "https://www.linkedin.com/in/maria-isabel-cruz-lopez"
+    },
+    {
+      "name": "María Juliana Pérez Vasco",
+      "country": "Colombia",
+      "startups_mentored": [
+        "KUO (Producto: SIGR)"
+      ],
+      "bio_en": "CLP26 mentor in Colombia, mentoring KUO (Producto: SIGR).",
+      "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a KUO (Producto: SIGR).",
+      "linkedin_url": "https://www.linkedin.com/in/maria-juliana-perez-vasco-19587843"
+    },
+    {
+      "name": "Michel Marfil Rivero",
+      "country": "Colombia",
+      "startups_mentored": [
+        "Aterna",
+        "HoneyB"
+      ],
+      "bio_en": "Managing partner at Aprende y Prospera LatAm; designs acceleration and mentoring programs for base-of-the-pyramid entrepreneurs. CLP26 mentor in Colombia, mentoring Aterna and HoneyB.",
+      "bio_es": "Socio-director de Aprende y Prospera LatAm; diseña programas de aceleración y mentoría para emprendedores de base de pirámide. Mentor/a en CLP26 (Colombia); acompaña a Aterna y HoneyB.",
+      "organisation": "Aprende y Prospera LatAm",
+      "role": "Mentor / Socio-Director",
+      "linkedin_url": "https://www.linkedin.com/in/michelmarfilrivero/",
+      "nexus_id": "M043"
+    },
+    {
+      "name": "Mitchell Lázaro",
+      "country": "Peru",
+      "startups_mentored": [
+        "YakuSmart"
+      ],
+      "bio_en": "PhD candidate and SME banking specialist; researches access to financing for green small businesses in Peru. CLP26 mentor in Peru, mentoring YakuSmart.",
+      "bio_es": "Doctorando y especialista en banca PYME; investiga acceso a financiamiento para pequeñas empresas verdes en Perú. Mentor/a en CLP26 (Perú); acompaña a YakuSmart.",
+      "role": "PhD Candidate · Banca PYME",
+      "linkedin_url": "www.linkedin.com/in/mitchell-jesús-lázaro-díaz/",
+      "nexus_id": "M069"
+    },
+    {
+      "name": "Mónica O’Connor",
+      "country": "Peru",
+      "startups_mentored": [
+        "Andean Biofactories"
+      ],
+      "bio_en": "CLP26 mentor in Peru, mentoring Andean Biofactories.",
+      "bio_es": "Mentor/a en CLP26 (Perú); acompaña a Andean Biofactories.",
+      "linkedin_url": "www.linkedin.com/in/manuel-c%C3%A1rdenas-iberico-0225a216/"
+    },
+    {
+      "name": "Osvaldo Ruiz",
+      "country": "Costa Rica",
+      "startups_mentored": [
+        "Plastic Free Planet"
+      ],
+      "bio_en": "CLP26 mentor in Costa Rica, mentoring Plastic Free Planet.",
+      "bio_es": "Mentor/a en CLP26 (Costa Rica); acompaña a Plastic Free Planet.",
+      "linkedin_url": "https://www.linkedin.com/in/osvaldo-ruiz-calder%C3%B3n-1b9699136/"
+    },
+    {
+      "name": "Paola Andrea Sánchez Gutiérrez",
+      "country": "Colombia",
+      "startups_mentored": [
+        "AirthNova"
+      ],
+      "bio_en": "CLP26 mentor in Colombia, mentoring AirthNova.",
+      "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a AirthNova.",
+      "linkedin_url": "https://www.linkedin.com/in/paolasolarinsights/"
+    },
+    {
+      "name": "Patricia Carrasquilla Cortés",
+      "country": "Colombia",
+      "startups_mentored": [
+        "SIÉ WAKA"
+      ],
+      "bio_en": "CLP26 mentor in Colombia, mentoring SIÉ WAKA.",
+      "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a SIÉ WAKA.",
+      "linkedin_url": "https://www.linkedin.com/in/patriciacarrasquillac"
+    },
+    {
+      "name": "Patricia Melgar",
+      "country": "Peru",
+      "startups_mentored": [
+        "FIVRA"
+      ],
+      "bio_en": "CLP26 mentor in Peru, mentoring FIVRA.",
+      "bio_es": "Mentor/a en CLP26 (Perú); acompaña a FIVRA.",
+      "linkedin_url": "www.linkedin.com/in/patricia-melgar-71360228/"
+    },
+    {
+      "name": "Patricia Vidal",
+      "country": "Peru",
+      "startups_mentored": [
+        "WindLever"
+      ],
+      "bio_en": "CLP26 mentor in Peru, mentoring WindLever.",
+      "bio_es": "Mentor/a en CLP26 (Perú); acompaña a WindLever.",
+      "linkedin_url": "www.linkedin.com/in/patricia-vidal-izaguirre"
+    },
+    {
+      "name": "Raúl Campos",
+      "country": "Peru",
+      "startups_mentored": [
+        "PIROSA"
+      ],
+      "bio_en": "CLP26 mentor in Peru, mentoring PIROSA.",
+      "bio_es": "Mentor/a en CLP26 (Perú); acompaña a PIROSA.",
+      "linkedin_url": "www.linkedin.com/in/raulcamposrosas/"
+    },
+    {
+      "name": "Renzo Salas",
+      "country": "Peru",
+      "startups_mentored": [
+        "PectiGrow"
+      ],
+      "bio_en": "Sustainability and renewable energy professional at BSF Almacenes del Perú; drives energy efficiency and decarbonization in retail operations. CLP26 mentor in Peru, mentoring PectiGrow.",
+      "bio_es": "Profesional de sostenibilidad y energías renovables en BSF Almacenes del Perú; impulsa eficiencia energética y descarbonización en operaciones retail. Mentor/a en CLP26 (Perú); acompaña a PectiGrow.",
+      "organisation": "BSF Almacenes del Perú",
+      "role": "Sustainability & Renewable Energy",
+      "linkedin_url": "www.linkedin.com/in/renzo-salas/",
+      "nexus_id": "M068"
+    },
+    {
+      "name": "Rubén Arias",
+      "country": "Costa Rica",
+      "startups_mentored": [
+        "Fazzty"
+      ],
+      "bio_en": "Nexus programs: CLP25-CR. CLP26 mentor in Costa Rica, mentoring Fazzty.",
+      "bio_es": "Programas en Nexus: CLP25-CR. Mentor/a en CLP26 (Costa Rica); acompaña a Fazzty.",
+      "linkedin_url": "https://www.linkedin.com/in/ruben-arias-arce/",
+      "nexus_id": "M074"
+    },
+    {
+      "name": "Santiago Aristizábal",
+      "country": "Colombia",
+      "startups_mentored": [
+        "DANTIUM"
+      ],
+      "bio_en": "CLP26 mentor in Colombia, mentoring DANTIUM.",
+      "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a DANTIUM.",
+      "linkedin_url": "https://www.linkedin.com/in/santiago-aristiz%C3%A1bal-molina-04681657/"
+    },
+    {
+      "name": "Santiago Cruz",
+      "country": "Colombia",
+      "startups_mentored": [
+        "TERRA IO"
+      ],
+      "bio_en": "CLP26 mentor in Colombia, mentoring TERRA IO.",
+      "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a TERRA IO.",
+      "linkedin_url": "https://www.linkedin.com/in/santiagocruzgonzalez"
+    },
+    {
+      "name": "Sebastián Martínez Pérez",
+      "country": "Colombia",
+      "startups_mentored": [
+        "NextGen Nutrition (Petfly)"
+      ],
+      "bio_en": "CLP26 mentor in Colombia, mentoring NextGen Nutrition (Petfly).",
+      "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a NextGen Nutrition (Petfly).",
+      "linkedin_url": "https://www.linkedin.com/in/sebasmperez/"
+    },
+    {
+      "name": "Silvia López Giraldo",
+      "country": "Costa Rica",
+      "startups_mentored": [
+        "ToyCycles"
+      ],
+      "bio_en": "CLP26 mentor in Costa Rica, mentoring ToyCycles.",
+      "bio_es": "Mentor/a en CLP26 (Costa Rica); acompaña a ToyCycles."
+    },
+    {
+      "name": "Ximena Tavera",
+      "country": "Guatemala",
+      "startups_mentored": [
+        "Abrobots"
+      ],
+      "bio_en": "Nexus expertise area: Ventas y Mercadeo. CLP26 mentor in Guatemala, mentoring Abrobots.",
+      "bio_es": "Área de expertise en Nexus: Ventas y Mercadeo. Mentor/a en CLP26 (Guatemala); acompaña a Abrobots.",
+      "linkedin_url": "https://www.linkedin.com/in/magda-ximena-tavera-cuellar-03508a39/",
+      "nexus_id": "M001"
+    }
+  ]
+}

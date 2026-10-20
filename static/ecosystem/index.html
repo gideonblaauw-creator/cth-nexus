@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <base href="/ecosystem/" />
+  <title>Ecosistema LATAM — CleantechHUB Nexus</title>
+  <meta name="robots" content="noindex,nofollow" />
+  <link rel="stylesheet" href="/nexus-assets/nexus-brand.css?v=eco1" />
+  <link rel="stylesheet" href="ecosystem.css?v=2" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/vis-network@9.1.9/standalone/umd/vis-network.min.js" defer></script>
+</head>
+<body data-nexus-page="ecosystem" data-brand="cth">
+
+<div class="top-toolbar">
+  <div class="toggle-pill" aria-label="Brand">
+    <button type="button" data-brand-btn="cth" class="active">CTH</button>
+    <button type="button" data-brand-btn="rein">REIN</button>
+  </div>
+  <div class="toggle-pill" aria-label="Language">
+    <button type="button" data-lang-btn="ES" class="active">ES</button>
+    <button type="button" data-lang-btn="EN">EN</button>
+  </div>
+</div>
+
+<header class="page-header">
+  <p class="ph-eyebrow">Nexus · Staff</p>
+  <h1 class="ph-title" data-i18n="title">Mapa del ecosistema LATAM</h1>
+  <p class="ph-sub" data-i18n="sub">Actores de Perú, El Salvador y Colombia extraídos de mapas Canva REIN/CTH.</p>
+  <div class="ph-stats">
+    <div><div class="ph-stat-n" id="stat-actors">—</div><div class="ph-stat-l" data-i18n="actors">Actores</div></div>
+    <div><div class="ph-stat-n" id="stat-relations">—</div><div class="ph-stat-l" data-i18n="relations">Relaciones</div></div>
+    <div><div class="ph-stat-n" id="stat-countries">—</div><div class="ph-stat-l" data-i18n="countries">Países</div></div>
+  </div>
+</header>
+
+<div class="filter-bar eco-filters">
+  <div class="filter-inner">
+    <div class="filter-row">
+      <input id="search-input" class="search-box" type="search" autocomplete="off" placeholder="Buscar organización…" />
+      <div class="slider-row">
+        <span id="min-rel-label">Mín. relaciones</span>
+        <input id="min-rel" type="range" min="0" max="8" value="0" step="1" />
+        <strong id="min-rel-val">0</strong>
+      </div>
+      <button type="button" class="chip" id="clear-country" data-i18n="allCountries">Todos</button>
+      <span class="result-meta" id="result-meta"></span>
+    </div>
+    <div class="filter-row"><label class="fl" data-i18n="filters">Filtros</label><div id="cat-chips" class="filter-row"></div></div>
+    <div class="filter-row"><div id="sector-chips" class="filter-row"></div></div>
+  </div>
+</div>
+
+<main class="layout">
+  <section class="panel map-grid">
+    <div>
+      <div class="panel-h" data-i18n="map">Mapa interactivo</div>
+      <p style="font-size:11px;color:var(--color-muted);margin:-4px 0 8px" data-i18n="clickCountry">Clic en un país para enfocar</p>
+      <svg id="latam-map" viewBox="0 0 520 420" role="img" aria-label="LATAM map">
+        <path class="map-country" data-cc="MX" d="M40,80 L120,60 L130,100 L50,120 Z" opacity=".15" pointer-events="none"/>
+        <path class="map-country empty" data-cc="GT" data-empty="1" d="M95,145 L135,130 L145,175 L105,190 Z"/>
+        <text class="map-label" x="108" y="165">GT</text>
+        <path class="map-country" data-cc="SV" d="M120,175 L155,168 L162,205 L125,212 Z"/>
+        <text class="map-label" x="128" y="195">SV</text>
+        <path class="map-country empty" data-cc="CR" data-empty="1" d="M135,210 L175,200 L182,235 L142,245 Z"/>
+        <text class="map-label" x="145" y="225">CR</text>
+        <path class="map-country" data-cc="CO" d="M155,210 L220,185 L235,260 L170,280 Z"/>
+        <text class="map-label" x="175" y="245">CO</text>
+        <path class="map-country" data-cc="PE" d="M175,265 L255,250 L270,360 L190,375 Z"/>
+        <text class="map-label" x="205" y="320">PE</text>
+      </svg>
+      <div id="map-empty-msg" class="map-empty-msg"></div>
+    </div>
+    <div class="charts-row" style="grid-template-columns:1fr">
+      <div class="chart-box panel" style="box-shadow:none;border:none;padding:0">
+        <div class="panel-h" data-i18n="chartCompare">Comparación por país</div>
+        <canvas id="chart-compare" height="200"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <section class="charts-row">
+    <div class="panel chart-box">
+      <div class="panel-h" data-i18n="chartCat">Actores por categoría</div>
+      <canvas id="chart-category" height="220"></canvas>
+    </div>
+    <div class="panel">
+      <div class="panel-h" data-i18n="network">Red de relaciones</div>
+      <div id="network-graph"></div>
+    </div>
+  </section>
+
+  <section class="panel" style="padding-top:12px;background:transparent;border:none;box-shadow:none">
+    <div id="actor-grid" class="actor-grid"></div>
+  </section>
+</main>
+
+<script src="/nexus-assets/nexus-nav.js?v=eco1"></script>
+<script src="ecosystem.js?v=2"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+{
+ "name": {
+  "value": "VIGIA (ex MUCHIK)",
+  "source": "build_data.py / Seguimiento"
+ },
+ "country": {
+  "value": "PE",
+  "source": "build_data.py"
+ },
+ "stage": {
+  "value": "semi",
+  "source": "build_data.py"
+ },
+ "short_description_es": {
+  "value": "Plataforma de biovigilancia ambiental que usa metagenómica y bioinformática para monitorear genes de resistencia antimicrobiana en agua y sedimentos de ecosistemas acuáticos.",
+  "source": "Seguimiento_CLP_2026 (Descripción)"
+ },
+ "pitch_video_drive": {
+  "value": "https://drive.google.com/file/d/1QzO4Z-gmXfF9hPL0LR_w_dFv7LMts2_D/view",
+  "source": "Drive pitch folder (build_data PITCH)"
+ },
+ "youtube_pitch_url": {
+  "value": "",
+  "source": "empty slot – uploads on hold pending Gideon go-ahead"
+ },
+ "founder_linkedin": {
+  "value": null,
+  "source": ""
+ },
+ "website": {
+  "value": null,
+  "source": ""
+ },
+ "taxonomy_link": {
+  "value": null,
+  "source": ""
+ },
+ "nexus_profile_url": {
+  "value": null,
+  "source": ""
+ },
+ "deck": {
+  "value": "/workspace/climate-kic/onepagers/decks/vigia.pdf",
+  "source": "Drive file 10-5Vk1fQJMNQZdooX_PPdxLmXxjkJV9u"
+ },
+ "missing_fields": [
+  "founder_linkedin",
+  "website",
+  "taxonomy_link",
+  "nexus_profile_url"
+ ],
+ "slug": "vigia"
+}

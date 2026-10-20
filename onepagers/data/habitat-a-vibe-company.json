@@ -1,0 +1,167 @@
+{
+  "slug": "habitat-a-vibe-company",
+  "name": "Hábitat Minería Urbana",
+  "website": "https://habitatmineriaurbana.com.co",
+  "badge_en": "Urban Mining &middot; E-waste &middot; CLAC24",
+  "badge_es": "Minería Urbana &middot; RAEE &middot; CLAC24",
+  "hero_image": "./assets/hero.webp",
+  "hero_sub_en": "habitatmineriaurbana.com.co &middot; Colombia &middot; Bogotá / Tocancipá &middot; Circular Economy &middot; Stage: Seed",
+  "hero_sub_es": "habitatmineriaurbana.com.co &middot; Colombia &middot; Bogotá / Tocancipá &middot; Economía Circular &middot; Etapa: Seed",
+  "pitch_en": "Urban mining company recovering plastics and metals from electrical and electronic waste, converting them into raw materials while generating employment for recyclers in low-income communities.",
+  "pitch_es": "Empresa de minería urbana que recupera plásticos y metales de residuos eléctricos y electrónicos, convirtiéndolos en materias primas mientras genera empleo para recicladores en comunidades vulnerables.",
+  "cta_pitch_en": "Urban mining company recovering plastics and metals from electrical and electronic waste, converting them into raw materials while generating employment for recyclers in low-income communities.",
+  "cta_pitch_es": "Empresa de minería urbana que recupera plásticos y metales de residuos eléctricos y electrónicos, convirtiéndolos en materias primas mientras genera empleo para recicladores en comunidades vulnerables.",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "ribbon": [
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    },
+    {
+      "val": "Seed",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLAC24 · Acceleration",
+      "sub_es": "CLAC24 · Acceleration"
+    },
+    {
+      "val": "CE",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Circular Economy",
+      "sub_es": "Economía Circular"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Métricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Electrical and electronic waste streams lose valuable materials while informal handling creates environmental and social risks in Colombian cities.",
+      "head_es": "Los flujos de residuos eléctricos y electrónicos pierden materiales valiosos mientras el manejo informal genera riesgos ambientales y sociales en ciudades colombianas.",
+      "body_en": "Electrical and electronic waste streams lose valuable materials while informal handling creates environmental and social risks in Colombian cities.",
+      "body_es": "Los flujos de residuos eléctricos y electrónicos pierden materiales valiosos mientras el manejo informal genera riesgos ambientales y sociales en ciudades colombianas.",
+      "bg": "./assets/problem.jpg"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "🎯",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Licensed collection, dismantling, and recovery of WEEE (RAEE) for circular raw materials — CI Hábitat a Vibe Company SAS.",
+          "text_es": "Recolección, desensamble y recuperación licenciada de RAEE para materias primas circulares — CI Hábitat a Vibe Company SAS."
+        },
+        {
+          "icon": "📋",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "Hábitat Minería Urbana — CLAC24 · Acceleration (CleantechHUB).",
+          "text_es": "Hábitat Minería Urbana — CLAC24 · Acceleration (CleantechHUB)."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Based in Colombia (Bogotá / Tocancipá). Public site: habitatmineriaurbana.com.co.",
+          "text_es": "Con base en Colombia (Bogotá / Tocancipá). Sitio público: habitatmineriaurbana.com.co."
+        }
+      ],
+      "bg": "./assets/solution.jpg"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact &amp; Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📚",
+          "title_en": "Wiki source",
+          "title_es": "Fuente Wiki",
+          "text_en": "Profile synced from BookStack Startup Portfolio + public web sources (Acceleration cohort).",
+          "text_es": "Perfil sincronizado desde BookStack Startup Portfolio + fuentes web públicas (cohorte Acceleration)."
+        },
+        {
+          "icon": "🏷️",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomía",
+          "text_en": "Urban mining &amp; e-waste recovery — CT taxonomy: [PENDIENTE].",
+          "text_es": "Minería urbana y recuperación de RAEE — taxonomía CT: [PENDIENTE]."
+        }
+      ],
+      "bg": "./assets/impact.webp"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Javier Eduardo Pacheco",
+          "role_en": "Director of Circular Economy &middot; Hábitat Minería Urbana",
+          "role_es": "Director de Economía Circular &middot; Hábitat Minería Urbana",
+          "bio_en": "Public-facing role: Director of Circular Economy (LinkedIn). E-waste and urban mining specialist.",
+          "bio_es": "Rol público: Director de Economía Circular (LinkedIn). Especialista en RAEE y minería urbana.",
+          "linkedin": "https://www.linkedin.com/in/javier-eduardo-pacheco-a09091197",
+          "initials": "JP"
+        },
+        {
+          "name": "José Isaí Santamaría Roncancio",
+          "role_en": "Director of Sustainability &middot; CI Hábitat a Vibe Company SAS",
+          "role_es": "Director de Sostenibilidad &middot; CI Hábitat a Vibe Company SAS",
+          "bio_en": "Public-facing role: Director of Sustainability at CI Hábitat a Vibe Company SAS (LinkedIn).",
+          "bio_es": "Rol público: Director de Sostenibilidad en CI Hábitat a Vibe Company SAS (LinkedIn).",
+          "linkedin": "https://www.linkedin.com/in/jos%C3%A9-isa%C3%AD-santamar%C3%ADa-roncancio-a0316a5b",
+          "initials": "JS"
+        }
+      ],
+      "dream_en": "Program: CLAC24 · Acceleration. City: Bogotá / Tocancipá. Pitch deck on profile: [PENDIENTE]. Verified KPIs: [PENDIENTE].",
+      "dream_es": "Programa: CLAC24 · Acceleration. Ciudad: Bogotá / Tocancipá. Pitch deck en perfil: [PENDIENTE]. KPIs verificados: [PENDIENTE].",
+      "bg": "./assets/team.jpg"
+    }
+  ],
+  "image_credits": {
+    "hero": "habitatmineriaurbana.com.co — Portada4.webp (2025-02)",
+    "problem": "habitatmineriaurbana.com.co — BANNER_MINERALES (2026-10)",
+    "solution": "habitatmineriaurbana.com.co — RAEE collection banner (2026-08)",
+    "impact": "habitatmineriaurbana.com.co — Portada-1-1-2025.webp",
+    "team": "Unsplash — Possessed Photography (electronics recycling)",
+    "cta": "Unsplash — LinkedIn Sales Navigator (circular industry)"
+  }
+}

@@ -1,0 +1,62 @@
+ctors).map((k) =>
+      `<button type="button" class="chip sector ${activeSectors.has(k) ? 'on' : ''}" data-sector="${k}">${esc(tr.sectors[k])}</button>`
+    ).join('');
+    secRow.querySelectorAll('.chip').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const k = btn.dataset.sector;
+        if (activeSectors.has(k)) activeSectors.delete(k); else activeSectors.add(k);
+        btn.classList.toggle('on');
+        render();
+      });
+    });
+  }
+
+  function render() {
+    const list = filteredActors();
+    updateStats(list);
+    renderCards(list);
+    renderCharts(list);
+    renderNetwork(list);
+  }
+
+  function initAuthGate() {
+    const host = location.hostname;
+    const isLocal = host === 'localhost' || host === '127.0.0.1' || location.search.includes('preview=1');
+    if (isLocal) return;
+    fetch('/nexus-auth/api/me', { credentials: 'include' })
+      .then((r) => {
+        if (r.ok) return;
+        const next = encodeURIComponent(location.pathname + location.search);
+        location.href = `/nexus-auth/?next=${next}`;
+      })
+      .catch(() => {});
+  }
+
+  async function loadData() {
+    const [a, r] = await Promise.all([
+      fetch('data/actors.json').then((res) => res.json()),
+      fetch('data/relations.json').then((res) => res.json()),
+    ]);
+    actors = a;
+    relations = r;
+    computeDegrees();
+    buildFilterChips();
+    bindMap();
+    $('#search-input').addEventListener('input', (e) => { searchQuery = e.target.value; render(); });
+    $('#min-rel').addEventListener('input', (e) => {
+      minRelations = Number(e.target.value) || 0;
+      $('#min-rel-val').textContent = String(minRelations);
+      render();
+    });
+    $('#clear-country').addEventListener('click', () => { activeCountry = null; document.querySelectorAll('.map-country').forEach((el) => el.classList.remove('active')); $('#map-empty-msg').classList.remove('visible'); render(); });
+    render();
+  }
+
+  initBrand();
+  initLang();
+  initAuthGate();
+  loadData().catch((err) => {
+    console.error(err);
+    $('#actor-grid').innerHTML = `<div class="empty-grid">Error loading data: ${esc(err.message)}</div>`;
+  });
+})();

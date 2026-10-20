@@ -1,0 +1,166 @@
+{
+  "slug": "cobox-logistic",
+  "name": "Cobox Logistic",
+  "website": "https://www.coboxlogistic.com",
+  "badge_en": "Collaborative Logistics &middot; Green Miles",
+  "badge_es": "Logística Colaborativa &middot; Green Miles",
+  "hero_image": "./assets/hero.webp",
+  "hero_sub_en": "www.coboxlogistic.com &middot; Peru &middot; Lima &middot; Circular Economy &middot; Stage: PENDIENTE",
+  "hero_sub_es": "www.coboxlogistic.com &middot; Perú &middot; Lima &middot; Economía Circular &middot; Etapa: PENDIENTE",
+  "pitch_en": "Collaborative logistics platform centralizing last-mile delivery, fulfillment, and reverse logistics for SMEs and e-commerce, with sustainability via Green Miles carbon measurement.",
+  "pitch_es": "Plataforma de logística colaborativa que centraliza última milla, fulfillment y logística inversa para MYPES y e-commerce, con sostenibilidad vía medición Green Miles.",
+  "cta_pitch_en": "Collaborative logistics platform centralizing last-mile delivery, fulfillment, and reverse logistics for SMEs and e-commerce, with sustainability via Green Miles carbon measurement.",
+  "cta_pitch_es": "Plataforma de logística colaborativa que centraliza última milla, fulfillment y logística inversa para MYPES y e-commerce, con sostenibilidad vía medición Green Miles.",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "ribbon": [
+    {
+      "val": "PE",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Peru",
+      "sub_es": "Perú"
+    },
+    {
+      "val": "PENDIENTE",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "Acceleration",
+      "sub_es": "Acceleration"
+    },
+    {
+      "val": "CE",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Circular Economy",
+      "sub_es": "Economía Circular"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Métricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "PE",
+        "lab_en": "Peru",
+        "lab_es": "Perú"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Micro and small businesses face high logistics costs, fragmented carriers, and limited visibility — while last-mile emissions stay unmeasured.",
+      "head_es": "Las micro y pequeñas empresas enfrentan altos costos logísticos, transportistas fragmentados y poca visibilidad — mientras las emisiones de última milla no se miden.",
+      "body_en": "Micro and small businesses face high logistics costs, fragmented carriers, and limited visibility — while last-mile emissions stay unmeasured.",
+      "body_es": "Las micro y pequeñas empresas enfrentan altos costos logísticos, transportistas fragmentados y poca visibilidad — mientras las emisiones de última milla no se miden.",
+      "bg": "./assets/problem.jpg"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "🎯",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Multi-carrier logistics orchestration, fulfillment, COD, and reverse logistics (Recycle Route) on one digital platform.",
+          "text_es": "Orquestación logística multi-operador, fulfillment, contraentrega y logística inversa (Recycle Route) en una sola plataforma digital."
+        },
+        {
+          "icon": "📋",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "Cobox Logistic — Acceleration (CleantechHUB).",
+          "text_es": "Cobox Logistic — Acceleration (CleantechHUB)."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Based in Lima, Peru. Public site: coboxlogistic.com. Press reports cite ~40% logistics cost reduction for SME users (Calidad &amp; Negocios, 2025).",
+          "text_es": "Con base en Lima, Perú. Sitio público: coboxlogistic.com. Prensa cita ~40% de reducción de costos logísticos para MYPES (Calidad &amp; Negocios, 2025)."
+        }
+      ],
+      "bg": "./assets/solution.jpg"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact &amp; Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📚",
+          "title_en": "Wiki source",
+          "title_es": "Fuente Wiki",
+          "text_en": "Profile synced from BookStack Startup Portfolio + public web sources (Acceleration cohort).",
+          "text_es": "Perfil sincronizado desde BookStack Startup Portfolio + fuentes web públicas (cohorte Acceleration)."
+        },
+        {
+          "icon": "🏷️",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomía",
+          "text_en": "Circular logistics &amp; supply-chain digitization — CT taxonomy: [PENDIENTE].",
+          "text_es": "Logística circular y digitalización de cadena — taxonomía CT: [PENDIENTE]."
+        }
+      ],
+      "bg": "./assets/impact.jpg"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Jaime Polo Fernández",
+          "role_en": "Co-founder &amp; COO &middot; Cobox Logistic",
+          "role_es": "Cofundador y COO &middot; Cobox Logistic",
+          "bio_en": "Public-facing role: Co-founder / COO (LinkedIn, Cobox Logistic company posts).",
+          "bio_es": "Rol público: Cofundador / COO (LinkedIn, publicaciones de Cobox Logistic).",
+          "linkedin": "https://www.linkedin.com/in/jaime-polo-fernandez",
+          "initials": "JP"
+        },
+        {
+          "name": "Max Elias Figueroa Huaman",
+          "role_en": "Co-founder &middot; Cobox Logistic",
+          "role_es": "Cofundador &middot; Cobox Logistic",
+          "bio_en": "Public-facing role: Co-founder (Calidad &amp; Negocios, 2025; INCUBA UNPRG, 2025). LinkedIn URL: [PENDIENTE].",
+          "bio_es": "Rol público: Cofundador (Calidad &amp; Negocios, 2025; INCUBA UNPRG, 2025). URL LinkedIn: [PENDIENTE].",
+          "initials": "MF"
+        }
+      ],
+      "dream_en": "Program: Acceleration. City: Lima. Pitch deck on profile: [PENDIENTE]. Verified KPIs: [PENDIENTE].",
+      "dream_es": "Programa: Acceleration. Ciudad: Lima. Pitch deck en perfil: [PENDIENTE]. KPIs verificados: [PENDIENTE].",
+      "bg": "./assets/team.jpg"
+    }
+  ],
+  "image_credits": {
+    "hero": "coboxlogistic.com — social/LinkedIn preview (Google Cloud CDN)",
+    "problem": "Unsplash — CHUTTERSNAP (warehouse / SME logistics)",
+    "solution": "Unsplash — Markus Winkler (parcel handling)",
+    "impact": "Unsplash — NASA (logistics technology / visibility)",
+    "team": "Unsplash — CHUTTERSNAP (delivery fleet)",
+    "cta": "Unsplash — Scott Webb (freight corridor)"
+  }
+}

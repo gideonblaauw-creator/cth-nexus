@@ -1,0 +1,203 @@
+{
+  "slug": "embergy",
+  "name": "Embergy",
+  "website": "https://embergy.com",
+  "badge_en": "Circular Economy &middot; CLAC25",
+  "badge_es": "Economía Circular &middot; CLAC25",
+  "hero_image": "https://images.unsplash.com/photo-1466611655691-538065a56d6c?w=1200&q=80",
+  "cta_bg": "https://images.unsplash.com/photo-1622273270127-59d0754af457?w=1200&q=80",
+  "image_credits": [
+    {
+      "slot": "hero",
+      "source_url": "https://images.unsplash.com/photo-1466611655691-538065a56d6c?w=1200&q=80",
+      "credit_en": "Unsplash / Noah Buscher",
+      "credit_es": "Unsplash / Noah Buscher"
+    },
+    {
+      "slot": "problem",
+      "source_url": "https://images.unsplash.com/photo-1513828583688-c52646db9915?w=1200&q=80",
+      "credit_en": "Unsplash / Zbynek Burival",
+      "credit_es": "Unsplash / Zbynek Burival"
+    },
+    {
+      "slot": "solution",
+      "source_url": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1200&q=80",
+      "credit_en": "Unsplash / Markus Spiske",
+      "credit_es": "Unsplash / Markus Spiske"
+    },
+    {
+      "slot": "impact",
+      "source_url": "https://images.unsplash.com/photo-1592982530717-36863a0c4e8a?w=1200&q=80",
+      "credit_en": "Unsplash / American Public Power Association",
+      "credit_es": "Unsplash / American Public Power Association"
+    },
+    {
+      "slot": "leadership",
+      "source_url": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=1200&q=80",
+      "credit_en": "Unsplash / Noah Buscher",
+      "credit_es": "Unsplash / Noah Buscher"
+    },
+    {
+      "slot": "cta",
+      "source_url": "https://images.unsplash.com/photo-1622273270127-59d0754af457?w=1200&q=80",
+      "credit_en": "Unsplash / Karsten Wurth",
+      "credit_es": "Unsplash / Karsten Wurth"
+    }
+  ],
+  "hero_sub_en": "embergy.com &middot; Bogotá, Colombia &middot; Circular Economy &middot; Stage: Pre-Seed &middot; [PENDIENTE]",
+  "hero_sub_es": "embergy.com &middot; Bogotá, Colombia &middot; Economía Circular &middot; Etapa: Pre-Seed &middot; [PENDIENTE]",
+  "pitch_en": "Focused on materials recovery and waste valorization, connecting industrial waste streams to circular recovery processes in the Bogotá metropolitan area.",
+  "pitch_es": "Enfocada en la recuperación de materiales y valorización de residuos, conectando flujos de residuos industriales con procesos de recuperación circular en el área metropolitana de Bogotá.",
+  "cta_pitch_en": "Focused on materials recovery and waste valorization, connecting industrial waste streams to circular recovery processes in the Bogotá metropolitan area.",
+  "cta_pitch_es": "Enfocada en la recuperación de materiales y valorización de residuos, conectando flujos de residuos industriales con procesos de recuperación circular en el área metropolitana de Bogotá.",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "ribbon": [
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    },
+    {
+      "val": "Pre-Seed",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLAC25",
+      "sub_es": "CLAC25"
+    },
+    {
+      "val": "Circular",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Métricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLAC25",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Hub",
+        "lab_es": "Hub"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Industrial waste streams in the Bogotá metropolitan area often lack pathways to circular recovery and material valorization.",
+      "head_es": "Los flujos de residuos industriales en el área metropolitana de Bogotá muchas veces carecen de rutas hacia recuperación circular y valorización de materiales.",
+      "body_en": "Industrial waste streams in the Bogotá metropolitan area often lack pathways to circular recovery and material valorization.",
+      "body_es": "Los flujos de residuos industriales en el área metropolitana de Bogotá muchas veces carecen de rutas hacia recuperación circular y valorización de materiales.",
+      "bg": "https://images.unsplash.com/photo-1513828583688-c52646db9915?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "🎯",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Focused on materials recovery and waste valorization, connecting industrial waste streams to circular recovery processes in the Bogotá metropolitan area.",
+          "text_es": "Enfocada en la recuperación de materiales y valorización de residuos, conectando flujos de residuos industriales con procesos de recuperación circular en el área metropolitana de B"
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "Embergy — CLAC25 (CleantechHUB). Cohort: Acceleration.",
+          "text_es": "Embergy — CLAC25 (CleantechHUB). Cohorte: Acceleration."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Based in Bogotá, Colombia. Public site: embergy.com.",
+          "text_es": "Con base en Bogotá, Colombia. Sitio público: embergy.com."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1503327327322-56f962d3fc57?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact & Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Wiki source",
+          "title_es": "Fuente Wiki",
+          "text_en": "Profile synced from BookStack Startup Portfolio + Odoo (SoT).",
+          "text_es": "Perfil sincronizado desde BookStack Startup Portfolio + Odoo (SoT)."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomía",
+          "text_en": "[PENDIENTE]",
+          "text_es": "[PENDIENTE]"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1592982530717-36863a0c4e8a?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Alejandro Nuñez",
+          "role_en": "CEO &amp; Founder &middot; CLAC25",
+          "role_es": "CEO y Fundador &middot; CLAC25",
+          "bio_en": "Public LinkedIn lists CEO and founder of Embergy SAS. Source: LinkedIn.",
+          "bio_es": "LinkedIn público lista CEO y fundador de Embergy SAS. Fuente: LinkedIn.",
+          "linkedin": "https://linkedin.com/in/alejandro-nunez-moreno",
+          "initials": "AN"
+        }
+      ],
+      "dream_en": "Program: CLAC25 · Acceleration. City: Bogotá. Verified KPIs: [PENDIENTE]. Pitch deck on profile: [PENDIENTE].",
+      "dream_es": "Programa: CLAC25 · Acceleration. Ciudad: Bogotá. KPIs verificados: [PENDIENTE]. Pitch deck en perfil: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=1200&q=80"
+    }
+  ],
+  "image_credits_en": " Section photo: Unsplash — CHUTTERSNAP.",
+  "image_credits_es": " Foto de sección: Unsplash — CHUTTERSNAP."
+}

@@ -1,0 +1,172 @@
+{
+  "slug": "isd-ingenieria-y-servicios",
+  "name": "ISD Ingeniería y Servicios",
+  "website": "https://isd.co.com",
+  "badge_en": "Clean Energy &amp; Water Tech &middot; CLAC22 &middot; Acceleration",
+  "badge_es": "Energía limpia y tech de agua &middot; CLAC22 &middot; Acceleration",
+  "hero_image": "https://images.unsplash.com/photo-1508510878789-06dada926e74?w=1200&q=80",
+  "cta_bg": "https://images.unsplash.com/photo-1509393360928-4c0c56d4f991?w=1200&q=80",
+  "hero_sub_en": "isd.co.com &middot; Colombia &middot; Bogotá &middot; Energy &middot; Stage: Pre-Seed",
+  "hero_sub_es": "isd.co.com &middot; Colombia &middot; Bogotá &middot; Energía &middot; Etapa: Pre-Seed",
+  "pitch_en": "Engineering firm designing and manufacturing renewable-energy, generator-control, and industrial water-treatment systems for sustainable infrastructure.",
+  "pitch_es": "Empresa de ingeniería que diseña y fabrica sistemas de energía renovable, control de generadores y tratamiento industrial de agua para infraestructura sostenible.",
+  "cta_pitch_en": "Patented water decontamination, renewable thermal/electric generation, and industrial automation from Bogotá.",
+  "cta_pitch_es": "Descontaminación de agua patentada, generación térmica/eléctrica renovable y automatización industrial desde Bogotá.",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "ribbon": [
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    },
+    {
+      "val": "Pre-Seed",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLAC22",
+      "sub_es": "CLAC22"
+    },
+    {
+      "val": "Energy",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Métricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLAC22",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Hub",
+        "lab_es": "Hub"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Industry needs integrated clean water and renewable energy hardware, not one-off consulting.",
+      "head_es": "La industria necesita hardware integrado de agua limpia y energía renovable, no consultoría aislada.",
+      "body_en": "Complex environmental and energy challenges require in-house R&amp;D, manufacturing, and field-proven control systems.",
+      "body_es": "Retos ambientales y energéticos complejos requieren I+D propia, manufactura y sistemas de control probados en campo.",
+      "bg": "https://images.unsplash.com/photo-1444653381297-0f4af2c7962f?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "🌱",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Water decontamination, generator synchronization, renewable generation (GIET-R), and green hydrogen-related systems.",
+          "text_es": "Descontaminación de agua, sincronización de generadores, generación renovable (GIET-R) y sistemas relacionados con hidrógeno verde."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "ISD Ingeniería y Servicios — CLAC22 and CleantechHUB Acceleration portfolio.",
+          "text_es": "ISD Ingeniería y Servicios — CLAC22 y portafolio Acceleration de CleantechHUB."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Based in Bogotá (Fontibón), Colombia. Public site: isd.co.com.",
+          "text_es": "Con base en Bogotá (Fontibón), Colombia. Sitio público: isd.co.com."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1473341134219-8fbc764a0711?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact &amp; Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Wiki source",
+          "title_es": "Fuente Wiki",
+          "text_en": "Profile synced from BookStack Startup Portfolio + Odoo (SoT).",
+          "text_es": "Perfil sincronizado desde BookStack Startup Portfolio + Odoo (SoT)."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomía",
+          "text_en": "CT-EN-001 &middot; Solar PV",
+          "text_es": "CT-EN-001 &middot; Solar PV"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1432407699879-c89ad7b18735?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Ramón Ricardo Sánchez",
+          "role_en": "Technical Manager &middot; CLAC22",
+          "role_es": "Gerente Técnico &middot; CLAC22",
+          "bio_en": "Technical manager at ISD; inventor on company water-treatment and energy patents (public LinkedIn &amp; company profile).",
+          "bio_es": "Gerente técnico en ISD; inventor en patentes de agua y energía de la empresa (LinkedIn y perfil público).",
+          "initials": "RR",
+          "linkedin": "https://www.linkedin.com/in/ramon-ricardo-sanchez-63253a19"
+        },
+        {
+          "name": "Nancy Patricia Díaz Buitrago",
+          "role_en": "Director General",
+          "role_es": "Directora General",
+          "bio_en": "General manager (legal representative) leading environmental technology commercialization at ISD.",
+          "bio_es": "Directora general (representante legal) liderando comercialización de tecnología ambiental en ISD.",
+          "initials": "ND",
+          "linkedin": "https://www.linkedin.com/in/nancy-patricia-d%C3%ADaz-buitrago-61270b54"
+        }
+      ],
+      "dream_en": "Program: CLAC22 + Acceleration. Patents count on LinkedIn company page (public). Verified revenue KPIs: [PENDIENTE]. Image credits — Hero: Unsplash (American Public Power Association); Sec 01: Unsplash (Luca Bravo); Sec 02: Unsplash (Scott Graham); Sec 03: Unsplash (Adi Goldstein); Sec 04: Unsplash (ThisIsEngineering); CTA: Unsplash (American Public Power Association).",
+      "dream_es": "Programa: CLAC22 + Acceleration. Conteo de patentes en página LinkedIn de la empresa (público). KPIs de ingresos: [PENDIENTE]. Créditos de imagen — Hero: Unsplash (American Public Power Association); Sec 01: Unsplash (Luca Bravo); Sec 02: Unsplash (Scott Graham); Sec 03: Unsplash (Adi Goldstein); Sec 04: Unsplash (ThisIsEngineering); CTA: Unsplash (American Public Power Association).",
+      "bg": "https://images.unsplash.com/photo-1581094790869-9893904e2a57?w=1200&q=80"
+    }
+  ]
+}
