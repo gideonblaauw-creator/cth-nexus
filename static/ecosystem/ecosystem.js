@@ -329,6 +329,14 @@
     });
   }
 
+  function mountLeafletMap() {
+    if (!window.NexusLatamMap) return;
+    window.NexusLatamMap.mountEcosystemMap('eco-leaflet-map', filteredActors(), (countryName) => {
+      const cc = countryCode(countryName);
+      if (cc) setCountry(cc);
+    });
+  }
+
   function buildFilterChips() {
     const tr = t();
     const catRow = $('#cat-chips');
@@ -364,19 +372,9 @@
     renderCards(list);
     renderCharts(list);
     renderNetwork(list);
-  }
-
-  function initAuthGate() {
-    const host = location.hostname;
-    const isLocal = host === 'localhost' || host === '127.0.0.1' || location.search.includes('preview=1');
-    if (isLocal) return;
-    fetch('/nexus-auth/api/me', { credentials: 'include' })
-      .then((r) => {
-        if (r.ok) return;
-        const next = encodeURIComponent(location.pathname + location.search);
-        location.href = `/nexus-auth/?next=${next}`;
-      })
-      .catch(() => {});
+    if (window.NexusLatamMap) {
+      window.NexusLatamMap.renderEcosystemMarkers('eco-leaflet-map', list);
+    }
   }
 
   async function loadData() {
@@ -389,6 +387,7 @@
     computeDegrees();
     buildFilterChips();
     bindMap();
+    mountLeafletMap();
     $('#search-input').addEventListener('input', (e) => { searchQuery = e.target.value; render(); });
     $('#min-rel').addEventListener('input', (e) => {
       minRelations = Number(e.target.value) || 0;
@@ -401,7 +400,6 @@
 
   initBrand();
   initLang();
-  initAuthGate();
   loadData().catch((err) => {
     console.error(err);
     $('#actor-grid').innerHTML = `<div class="empty-grid">Error loading data: ${esc(err.message)}</div>`;

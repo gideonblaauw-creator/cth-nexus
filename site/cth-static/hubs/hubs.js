@@ -47,26 +47,8 @@
 
   window.__hubsSetLang = setLang;
 
-  function svgMap(hubs) {
-    const pins = hubs.map((h) => {
-      const soon = h.status === 'soon';
-      const label = soon ? '⏳' : (FLAGS[h.country] || '•');
-      return `<g class="hub-pin${soon ? ' soon' : ''}" data-hub="${h.id}" transform="translate(${h.map.x * 10}, ${h.map.y * 6})" tabindex="0" role="button" aria-label="${t(h.name)}">
-        <circle r="7" fill="${soon ? '#94A3B8' : 'var(--light-green)'}"></circle>
-        <text class="hub-pin-label" y="3">${label}</text>
-      </g>`;
-    }).join('');
-    return `<svg id="latam-map-svg" viewBox="0 0 420 260" xmlns="http://www.w3.org/2000/svg" aria-label="LATAM map">
-      <rect width="420" height="260" fill="transparent"/>
-      <g class="map-graticule">
-        ${Array.from({ length: 9 }, (_, i) => `<line x1="0" y1="${i * 32}" x2="420" y2="${i * 32}"/>`).join('')}
-        ${Array.from({ length: 11 }, (_, i) => `<line x1="${i * 42}" y1="0" x2="${i * 42}" y2="260"/>`).join('')}
-      </g>
-      <path class="map-land" d="M40 40 L120 28 L190 34 L250 48 L300 36 L360 52 L380 90 L350 130 L320 170 L280 210 L220 230 L160 220 L110 190 L70 150 L48 110 Z"/>
-      <path class="map-land" d="M250 60 L310 58 L340 78 L330 110 L290 120 L260 100 Z"/>
-      <path class="map-land" d="M300 150 L360 140 L390 170 L370 210 L320 220 L290 190 Z"/>
-      ${pins}
-    </svg>`;
+  function mapShell() {
+    return '<div id="hub-leaflet-map" class="hub-leaflet-map" role="application" aria-label="LATAM hub map"></div>';
   }
 
   function renderVideos(videos) {
@@ -193,13 +175,23 @@
         <div class="hub-hero-eyebrow">REIN Hubs · Nexus</div>
         <h1 class="hub-hero-title">${lang === 'ES' ? 'Mapa de hubs climáticos LATAM' : 'LATAM climate hub map'}</h1>
         <p class="hub-hero-sub">${lang === 'ES' ? 'Direction C — mapa primero, rail de hubs y scroll editorial con KPIs, media e startups ClimateLaunchpad por país.' : 'Direction C — map-first hub rail and editorial scroll with KPIs, media, and ClimateLaunchpad startups by country.'}</p>
-        <div class="hub-map-wrap">${svgMap(hubs)}</div>
+        <div class="hub-map-wrap">${mapShell()}</div>
       </div>
       <nav class="hub-rail" aria-label="Hubs">${rail}</nav>
       ${hubs.map((h) => renderHubSection(h, { compact: true })).join('')}
     `;
 
     bindMapAndRail(root, hubs);
+    if (window.NexusLatamMap) {
+      window.NexusLatamMap.mountHubMap('hub-leaflet-map', hubs, (hub) => {
+        if (!hub) return;
+        if (hub.status === 'soon') {
+          document.getElementById(hub.id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          return;
+        }
+        location.href = `/hubs/${hub.slug}/`;
+      });
+    }
     hubs.filter((h) => h.status !== 'soon').forEach((h) => renderInteractive(h, root));
     bindVideoFacades(root);
   }
@@ -216,24 +208,9 @@
 
   function bindMapAndRail(root, hubs) {
     const activate = (id) => {
-      root.querySelectorAll('.hub-pin').forEach((p) => p.classList.toggle('active', p.dataset.hub === id));
       root.querySelectorAll('.hub-rail a[data-rail]').forEach((a) => a.classList.toggle('active', a.dataset.rail === id));
+      if (window.NexusLatamMap) window.NexusLatamMap.setActiveHubMarker('hub-leaflet-map', id);
     };
-    root.querySelectorAll('.hub-pin').forEach((pin) => {
-      const go = () => {
-        const id = pin.dataset.hub;
-        activate(id);
-        const h = hubs.find((x) => x.id === id);
-        if (!h) return;
-        if (h.status === 'soon') {
-          document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-          return;
-        }
-        location.href = `/hubs/${h.slug}/`;
-      };
-      pin.addEventListener('click', go);
-      pin.addEventListener('keydown', (e) => { if (e.key === 'Enter') go(); });
-    });
     const obs = new IntersectionObserver((entries) => {
       entries.forEach((en) => {
         if (en.isIntersecting) activate(en.target.dataset.hubSection);
