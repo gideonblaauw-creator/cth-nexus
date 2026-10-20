@@ -1,0 +1,248 @@
+{
+  "slug": "agrodata-connect",
+  "name": "AgroData Connect",
+  "website": "https://linktr.ee/agrodataconnect",
+  "badge_en": "Food & Agriculture &middot; CLP26 Colombia",
+  "badge_es": "Food & Agriculture &middot; CLP26 Colombia",
+  "hero_image": "https://images.unsplash.com/photo-1625246333195-78d9c090ad85?w=1200&q=80",
+  "hero_sub_en": "linktr.ee/agrodataconnect &middot; Colombia &middot; Food & Agriculture &middot; Stage: Ideation &middot; CT-IC-005",
+  "hero_sub_es": "linktr.ee/agrodataconnect &middot; Colombia &middot; Food & Agriculture &middot; Etapa: Ideation &middot; CT-IC-005",
+  "pitch_en": "AgroData Connect is an AI-powered platform that helps smallholder farmers monitor crops, detect risks, and make data-driven decisions. It improves productivity, reduces losses, and enables climate-resilient agriculture in low-connectivity environments.",
+  "pitch_es": "AgroData Connect is an AI-powered platform that helps smallholder farmers monitor crops, detect risks, and make data-driven decisions. It improves productivity, reduces losses, and enables climate-resilient agriculture in low-connectivity environments.",
+  "cta_pitch_en": "AgroData Connect uses AI to help farmers monitor crops, detect risks, and make climate-smart decisions via WhatsApp, mobile, and web—even offline—improving resilience and reducing losses.",
+  "cta_pitch_es": "AgroData Connect uses AI to help farmers monitor crops, detect risks, and make climate-smart decisions via WhatsApp, mobile, and web—even offline—improving resilience and reducing losses.",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "ribbon": [
+    {
+      "val": "Ideation",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLP26 CO",
+      "sub_es": "CLP26 CO"
+    },
+    {
+      "val": "Food & Agric",
+      "lab_en": "Category",
+      "lab_es": "Categoría",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "CT-IC-005",
+      "lab_en": "CT Taxonomy",
+      "lab_es": "Taxonomía CT",
+      "sub_en": "CTH",
+      "sub_es": "CTH"
+    },
+    {
+      "val": "5",
+      "lab_en": "Team",
+      "lab_es": "Equipo",
+      "sub_en": "Application",
+      "sub_es": "Aplicación"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLP",
+        "lab_en": "2026 Colombia",
+        "lab_es": "2026 Colombia"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Accelerator",
+        "lab_es": "Acelerador"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "Metrics pending",
+        "lab_es": "Métricas pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Smallholder farmers lack real-time data to adapt to climate change, leading to crop losses of up…",
+      "head_es": "Smallholder farmers lack real-time data to adapt to climate change, leading to crop losses of up…",
+      "body_en": "Smallholder farmers lack real-time data to adapt to climate change, leading to crop losses of up to 40%. This reduces food security and increases vulnerability to climate variability in rural communities.",
+      "body_es": "Smallholder farmers lack real-time data to adapt to climate change, leading to crop losses of up to 40%. This reduces food security and increases vulnerability to climate variability in rural communities.",
+      "bg": "https://images.unsplash.com/photo-1625246333195-78d9c090ad85?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "How AgroData Connect Works",
+      "title_es": "Cómo Funciona AgroData Connect",
+      "steps": [
+        {
+          "icon": "🎯",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "AgroData Connect uses AI to help farmers monitor crops, detect risks, and make climate-smart decisions via WhatsApp, mobile, and web—even offline—improving…",
+          "text_es": "AgroData Connect uses AI to help farmers monitor crops, detect risks, and make climate-smart decisions via WhatsApp, mobile, and web—even offline—improving…"
+        },
+        {
+          "icon": "⚙️",
+          "label_en": "Model",
+          "label_es": "Modelo",
+          "text_en": "We operate a B2B SaaS model, selling subscriptions to cooperatives, NGOs, and agribusinesses managing farmer networks,…",
+          "text_es": "We operate a B2B SaaS model, selling subscriptions to cooperatives, NGOs, and agribusinesses managing farmer networks,…"
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Smallholder farmers and agricultural organizations (cooperatives, NGOs, governments) in Latin America, focusing on…",
+          "text_es": "Smallholder farmers and agricultural organizations (cooperatives, NGOs, governments) in Latin America, focusing on…"
+        },
+        {
+          "icon": "📈",
+          "label_en": "Traction",
+          "label_es": "Tracción",
+          "text_en": "We validated demand through pilots with 50+ farmers, showing 20–35% yield improvements and strong adoption in…",
+          "text_es": "We validated demand through pilots with 50+ farmers, showing 20–35% yield improvements and strong adoption in…"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "table",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Business Snapshot",
+      "title_es": "Resumen del Negocio",
+      "headers": [
+        [
+          "Dimension",
+          "Dimensión"
+        ],
+        [
+          "Detail (EN)",
+          "Detalle"
+        ],
+        [
+          "Status",
+          "Estado"
+        ]
+      ],
+      "rows": [
+        [
+          [
+            "Category",
+            "Categoría"
+          ],
+          [
+            "Food & Agriculture",
+            "Food & Agriculture"
+          ],
+          [
+            "CLP26",
+            "CLP26"
+          ]
+        ],
+        [
+          [
+            "Stage",
+            "Etapa"
+          ],
+          [
+            "Ideation",
+            "Ideation"
+          ],
+          [
+            "Application",
+            "Aplicación"
+          ]
+        ],
+        [
+          [
+            "CT Taxonomy",
+            "Taxonomía CT"
+          ],
+          [
+            "CT-IC-005",
+            "CT-IC-005"
+          ],
+          [
+            "CTH",
+            "CTH"
+          ]
+        ]
+      ],
+      "bg": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Climate &amp; Impact",
+      "title_es": "Clima e Impacto",
+      "cards": [
+        {
+          "icon": "🌱",
+          "title_en": "Climate focus",
+          "title_es": "Enfoque climático",
+          "text_en": "Smallholder farmers lack real-time data to adapt to climate change, leading to crop losses of up to 40%. This reduces food security and increases vulnerability to climate…",
+          "text_es": "Smallholder farmers lack real-time data to adapt to climate change, leading to crop losses of up to 40%. This reduces food security and increases vulnerability to climate…"
+        },
+        {
+          "icon": "💡",
+          "title_en": "Solution",
+          "title_es": "Solución",
+          "text_en": "AgroData Connect uses AI to help farmers monitor crops, detect risks, and make climate-smart decisions via WhatsApp, mobile, and web—even offline—improving resilience and…",
+          "text_es": "AgroData Connect uses AI to help farmers monitor crops, detect risks, and make climate-smart decisions via WhatsApp, mobile, and web—even offline—improving resilience and…"
+        },
+        {
+          "icon": "🤝",
+          "title_en": "CLP 2026",
+          "title_es": "CLP 2026",
+          "text_en": "ClimateLaunchpad Colombia 2026 bootcamp cohort — CleantechHUB accelerator knowledge transfer.",
+          "text_es": "Cohorte bootcamp ClimateLaunchpad Colombia 2026 — transferencia de conocimiento acelerador CleantechHUB."
+        },
+        {
+          "icon": "📋",
+          "title_en": "External support",
+          "title_es": "Apoyo externo",
+          "text_en": "Over $160K USD in global non-dilutive funding from programs like YLAI (U.S. Department of State), Royal Academy of Engineering, FAO, and Huawei.",
+          "text_es": "Over $160K USD in global non-dilutive funding from programs like YLAI (U.S. Department of State), Royal Academy of Engineering, FAO, and Huawei."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=1200&q=80"
+    },
+    {
+      "num": 5,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Milton Duque Cano",
+          "role_en": "Founder &middot; CLP26 Colombia",
+          "role_es": "Fundador(a) &middot; CLP26 Colombia",
+          "bio_en": "Founder with background in agronomy and AI, international fellow (YLAI, Royal Academy, FAO), with $160K+ in awards and experience building AgTech solutions.",
+          "bio_es": "Founder with background in agronomy and AI, international fellow (YLAI, Royal Academy, FAO), with $160K+ in awards and experience building AgTech solutions.",
+          "initials": "MD"
+        }
+      ],
+      "dream_en": "CT taxonomy: CT-IC-005. CLP 2026 Colombia bootcamp cohort — CleantechHUB accelerator. Pitch deck: [PENDIENTE]. Revenue / ARR: [PENDIENTE].",
+      "dream_es": "Taxonomía CT: CT-IC-005. Cohorte bootcamp CLP 2026 Colombia — acelerador CleantechHUB. Pitch deck: [PENDIENTE]. Ingresos / ARR: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80"
+    }
+  ]
+}

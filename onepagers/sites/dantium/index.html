@@ -132,19 +132,6 @@ body{font-family:'Open Sans','PT Sans',sans-serif;background:var(--page);color:v
 .deck-fallback a{color:#e8ffd4;font-weight:700;}
 .deck-actions{display:flex;gap:10px;justify-content:center;margin-top:14px;flex-wrap:wrap;}
 .deck-note{padding:0 48px 8px;font-size:10px;color:rgba(255,255,255,.9);text-align:center;position:relative;z-index:2;text-shadow:0 1px 8px rgba(0,0,0,.5);}
-.deck-slide{width:min(100%,640px);margin-left:auto;margin-right:auto;}
-.deck-slide .deck-frame-wrap{position:relative;width:100%;aspect-ratio:16/9;height:auto;overflow:hidden;}
-.deck-slide .deck-frame{position:absolute;inset:0;width:100%;height:100%;min-height:0;}
-.deck-pager{display:flex;align-items:center;justify-content:center;gap:10px;margin-top:10px;}
-.deck-page-btn{font-family:'Open Sans',sans-serif;font-size:10px;font-weight:700;color:#fff;background:rgba(0,0,0,.35);border:1px solid rgba(255,255,255,.35);border-radius:4px;padding:5px 12px;cursor:pointer;}
-.deck-page-btn:disabled{opacity:.4;cursor:default;}
-.deck-page-label{font-size:10px;font-weight:700;color:#e8ffd4;min-width:52px;text-align:center;}
-.yt-pitch{width:min(100%,640px);margin:0 auto 8px;position:relative;z-index:2;}
-.yt-pitch-frame{position:relative;width:100%;aspect-ratio:16/9;border-radius:8px;overflow:hidden;background:#000;}
-.yt-pitch-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0;}
-@media (max-width:700px){
-  .deck-slide-wrap{padding-left:16px;padding-right:16px;}
-}
 
 .mini-col{display:flex;flex-direction:column;align-items:center;flex:1;gap:1px;}
 .mini-val{font-size:8px;font-weight:700;color:rgba(255,255,255,.85);}
@@ -152,9 +139,6 @@ body{font-family:'Open Sans','PT Sans',sans-serif;background:var(--page);color:v
 .mini-bar{width:100%;border-radius:3px 3px 0 0;background:linear-gradient(180deg,var(--sk),#0a3d6e);}
 .mini-bar.hl{background:linear-gradient(180deg,var(--lg),var(--fo));}
 .mini-lab{font-size:7px;font-weight:700;color:rgba(255,255,255,.8);}
-
-
-.deck-slide .deck-img{width:100%;height:100%;object-fit:contain;position:absolute;inset:0;background:#fff;}
 
 </style>
 </head>
@@ -166,107 +150,38 @@ body{font-family:'Open Sans','PT Sans',sans-serif;background:var(--page);color:v
 </div>
 
 <div class="sec hero">
-  <img class="hero-img" src="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1200&q=80" alt="DANTIUM" loading="lazy">
+  <img class="hero-img" src="https://images.unsplash.com/photo-1532996122724-e3c031a396bf?w=1200&q=80" alt="DANTIUM" loading="lazy">
   <div class="hero-ov"></div>
-  <div class="hero-badge"><div class="pill" style="background:rgba(0,0,0,.45);color:var(--lg);"><span class="en">CT-WA-003 · Recycled Polymer Rural Infrastructure</span><span class="es">CT-WA-003 · Infraestructura Rural en Polímero Reciclado</span></div></div>
+  <div class="hero-badge"><div class="pill" style="background:rgba(0,0,0,.45);color:var(--lg);"><span class="en">Air & Environment &middot; CLP26 Colombia</span><span class="es">Air & Environment &middot; CLP26 Colombia</span></div></div>
   <div class="hero-in">
     <div class="hero-name">DANTIUM</div>
-    <div class="hero-sub"><span class="en">Colombia · Prototype · Prototype</span><span class="es">Colombia · Prototype · Prototype</span></div>
-    <div class="hero-pitch"><span class="en">Modular perimeter infrastructure: recycled polymer composite posts with autonomous solar PV, LED lighting, and presence sensors — replacing wood in agricultural fencing.</span><span class="es">Infraestructura perimetral modular: postes compuestos de polímero reciclado con fotovoltaica autónoma, iluminación LED y sensores de presencia — sustituyendo madera en cercas agropecuarias.</span></div>
+    <div class="hero-sub"><span class="en">[PENDIENTE] &middot; Colombia &middot; Air & Environment &middot; Stage: Prototype &middot; CT-BU-001</span><span class="es">[PENDIENTE] &middot; Colombia &middot; Air & Environment &middot; Etapa: Prototype &middot; CT-BU-001</span></div>
+    <div class="hero-pitch"><span class="en">Dantium es un proyecto que transforma residuos plásticos en madera plástica para fabricar bloques y cercas sostenibles. Integra innovación como iluminación LED en algunos prototipos, aportando a la reducción de contaminación y mejorando la infraestructura</span><span class="es">Dantium es un proyecto que transforma residuos plásticos en madera plástica para fabricar bloques y cercas sostenibles. Integra innovación como iluminación LED en algunos prototipos, aportando a la reducción de contaminación y mejorando la infraestructura</span></div>
   </div>
   <div class="hero-tagline">Inspira. Actúa. Transforma.</div>
 </div>
 
-<div class="ribbon" style="background:rgba(12,73,138,.95);"><div class="ribbon-cell"><div class="rc-val">+50 yr</div><div class="rc-lab"><span class="en">Durability</span><span class="es">Durabilidad</span></div><div class="rc-sub"><span class="en">Deck lifespan</span><span class="es">Vida útil deck</span></div></div><div class="ribbon-cell"><div class="rc-val">Solar</div><div class="rc-lab"><span class="en">Autonomy</span><span class="es">Autonomía</span></div><div class="rc-sub"><span class="en">PV integrated</span><span class="es">FV integrado</span></div></div><div class="ribbon-cell"><div class="rc-val">18 t</div><div class="rc-lab"><span class="en">Plastic / km</span><span class="es">Plástico / km</span></div><div class="rc-sub"><span class="en">Deck recovery</span><span class="es">Recuperación deck</span></div></div><div class="ribbon-cell"><div class="rc-val">Prototype</div><div class="rc-lab"><span class="en">Stage</span><span class="es">Etapa</span></div><div class="rc-sub"><span class="en">CLP26 · CO</span><span class="es">CLP26 · CO</span></div></div></div>
+<div class="ribbon" style="background:rgba(12,73,138,.95);"><div class="ribbon-cell"><div class="rc-val">Prototype</div><div class="rc-lab"><span class="en">Stage</span><span class="es">Etapa</span></div><div class="rc-sub"><span class="en">CLP26 CO</span><span class="es">CLP26 CO</span></div></div><div class="ribbon-cell"><div class="rc-val">Air & Enviro</div><div class="rc-lab"><span class="en">Category</span><span class="es">Categoría</span></div><div class="rc-sub"><span class="en">Cleantech</span><span class="es">Cleantech</span></div></div><div class="ribbon-cell"><div class="rc-val">CT-BU-001</div><div class="rc-lab"><span class="en">CT Taxonomy</span><span class="es">Taxonomía CT</span></div><div class="rc-sub"><span class="en">CTH</span><span class="es">CTH</span></div></div><div class="ribbon-cell"><div class="rc-val">5</div><div class="rc-lab"><span class="en">Team</span><span class="es">Equipo</span></div><div class="rc-sub"><span class="en">Application</span><span class="es">Aplicación</span></div></div></div>
 
-<div class="sec" hidden>
-  <div class="sec-header"><div class="sec-num">▶</div><div class="sec-title"><span class="en">Pitch Video</span><span class="es">Video Pitch</span></div><div class="sec-rule"></div></div>
-  <div class="deck-wrap"><div class="yt-pitch"><div class="yt-pitch-frame"><iframe src="" title="YouTube pitch"></iframe></div></div></div>
-</div>
 
+
+<div class="sec" style="position:relative;"><div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1532996122724-e3c031a396bf?w=1200&q=80');"></div><div class="sec-ov" style="background:rgba(12,73,138,.30);"></div><div class="sec-header"><div class="sec-num">01</div><div class="sec-title"><span class="en">The Problem</span><span class="es">El Problema</span></div><div class="sec-rule"></div></div><div class="split" style="position:relative;z-index:2;"><div class="split-panel"><div class="split-frost"><div class="split-h"><span class="en">El proyecto aborda la acumulación de residuos plásticos mal gestionados, que contaminan suelos,…</span><span class="es">El proyecto aborda la acumulación de residuos plásticos mal gestionados, que contaminan suelos,…</span></div><div class="body-text"><span class="en">El proyecto aborda la acumulación de residuos plásticos mal gestionados, que contaminan suelos, fuentes hídricas y generan emisiones al degradarse o ser incinerados, afectando especialmente a zonas rurales, donde hay menos soluciones de manejo</span><span class="es">El proyecto aborda la acumulación de residuos plásticos mal gestionados, que contaminan suelos, fuentes hídricas y generan emisiones al degradarse o ser incinerados, afectando especialmente a zonas rurales, donde hay menos soluciones de manejo</span></div></div></div><div class="split-panel"><div class="split-frost split-frost-stats"><div class="stat-row" style="margin-top:0;"><div class="stat-card"><div class="sc-num">CLP</div><div class="sc-lab"><span class="en">2026 Colombia</span><span class="es">2026 Colombia</span></div></div><div class="stat-card"><div class="sc-num">CTH</div><div class="sc-lab"><span class="en">Accelerator</span><span class="es">Acelerador</span></div></div></div><div class="stat-row"><div class="stat-card"><div class="sc-num">[P]</div><div class="sc-lab"><span class="en">Metrics pending</span><span class="es">Métricas pendientes</span></div></div><div class="stat-card"><div class="sc-num">CO</div><div class="sc-lab"><span class="en">Colombia</span><span class="es">Colombia</span></div></div></div></div></div></div></div><div class="sec" style="position:relative;"><div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1470071459604-3b5ec3a8fe05?w=1200&q=80');"></div><div class="sec-ov" style="background:rgba(102,147,72,.30);"></div><div class="sec-header"><div class="sec-num">02</div><div class="sec-title"><span class="en">How DANTIUM Works</span><span class="es">Cómo Funciona DANTIUM</span></div><div class="sec-rule"></div></div><div class="sol-grid"><div class="sol-card"><div class="sol-step">1</div><div class="sol-icon">🎯</div><div class="sol-label"><span class="en">Focus</span><span class="es">Enfoque</span></div><div class="sol-text"><span class="en">Dantium transforma residuos plásticos en madera plástica para fabricar bloques y cercas, en la práctica, se recolecta, procesa y se reutiliza estos materiales…</span><span class="es">Dantium transforma residuos plásticos en madera plástica para fabricar bloques y cercas, en la práctica, se recolecta, procesa y se reutiliza estos materiales…</span></div></div><div class="sol-card"><div class="sol-step">2</div><div class="sol-icon">⚙️</div><div class="sol-label"><span class="en">Model</span><span class="es">Modelo</span></div><div class="sol-text"><span class="en">Generaré ingresos mediante la venta de bloques, cercas y productos en madera plástica, así como por proyectos con…</span><span class="es">Generaré ingresos mediante la venta de bloques, cercas y productos en madera plástica, así como por proyectos con…</span></div></div><div class="sol-card"><div class="sol-step">3</div><div class="sol-icon">🌎</div><div class="sol-label"><span class="en">Market</span><span class="es">Mercado</span></div><div class="sol-text"><span class="en">El mercado objetivo inicial son grandes empresas y ganaderos que requieren soluciones sostenibles para infraestructura…</span><span class="es">El mercado objetivo inicial son grandes empresas y ganaderos que requieren soluciones sostenibles para infraestructura…</span></div></div><div class="sol-card"><div class="sol-step">4</div><div class="sol-icon">📈</div><div class="sol-label"><span class="en">Traction</span><span class="es">Tracción</span></div><div class="sol-text"><span class="en">La demanda se evidencia en la necesidad constante de soluciones duraderas y sostenibles en el sector rural,…</span><span class="es">La demanda se evidencia en la necesidad constante de soluciones duraderas y sostenibles en el sector rural,…</span></div></div></div></div><div class="sec" style="position:relative;"><div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1532996122724-e3c031a396bf?w=1200&q=80');"></div><div class="sec-ov" style="background:rgba(12,73,138,.30);"></div><div class="sec-header"><div class="sec-num">03</div><div class="sec-title"><span class="en">Business Snapshot</span><span class="es">Resumen del Negocio</span></div><div class="sec-rule"></div></div><div class="comp-wrap"><table class="comp-tbl"><thead><tr><th><span class="en">Dimension</span><span class="es">Dimensión</span></th><th><span class="en">Detail (EN)</span><span class="es">Detalle</span></th><th><span class="en">Status</span><span class="es">Estado</span></th></tr></thead><tbody><tr><td><span class="en">Category</span><span class="es">Categoría</span></td><td><span class="en">Air & Environment</span><span class="es">Air & Environment</span></td><td class="hl"><span class="en">CLP26</span><span class="es">CLP26</span></td></tr><tr><td><span class="en">Stage</span><span class="es">Etapa</span></td><td><span class="en">Prototype</span><span class="es">Prototype</span></td><td class="hl"><span class="en">Application</span><span class="es">Aplicación</span></td></tr><tr><td><span class="en">CT Taxonomy</span><span class="es">Taxonomía CT</span></td><td><span class="en">CT-BU-001</span><span class="es">CT-BU-001</span></td><td class="hl"><span class="en">CTH</span><span class="es">CTH</span></td></tr></tbody></table></div></div><div class="sec" style="position:relative;"><div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&q=80');"></div><div class="sec-ov" style="background:rgba(102,147,72,.30);"></div><div class="sec-header"><div class="sec-num">04</div><div class="sec-title"><span class="en">Climate &amp; Impact</span><span class="es">Clima e Impacto</span></div><div class="sec-rule"></div></div><div class="impact-grid"><div class="imp-card"><div class="imp-icon">🌱</div><div><div class="imp-title"><span class="en">Climate focus</span><span class="es">Enfoque climático</span></div><div class="imp-text"><span class="en">El proyecto aborda la acumulación de residuos plásticos mal gestionados, que contaminan suelos, fuentes hídricas y generan emisiones al degradarse o ser incinerados, afectando…</span><span class="es">El proyecto aborda la acumulación de residuos plásticos mal gestionados, que contaminan suelos, fuentes hídricas y generan emisiones al degradarse o ser incinerados, afectando…</span></div></div></div><div class="imp-card"><div class="imp-icon">💡</div><div><div class="imp-title"><span class="en">Solution</span><span class="es">Solución</span></div><div class="imp-text"><span class="en">Dantium transforma residuos plásticos en madera plástica para fabricar bloques y cercas, en la práctica, se recolecta, procesa y se reutiliza estos materiales en productos…</span><span class="es">Dantium transforma residuos plásticos en madera plástica para fabricar bloques y cercas, en la práctica, se recolecta, procesa y se reutiliza estos materiales en productos…</span></div></div></div><div class="imp-card"><div class="imp-icon">🤝</div><div><div class="imp-title"><span class="en">CLP 2026</span><span class="es">CLP 2026</span></div><div class="imp-text"><span class="en">ClimateLaunchpad Colombia 2026 bootcamp cohort — CleantechHUB accelerator knowledge transfer.</span><span class="es">Cohorte bootcamp ClimateLaunchpad Colombia 2026 — transferencia de conocimiento acelerador CleantechHUB.</span></div></div></div><div class="imp-card"><div class="imp-icon">📋</div><div><div class="imp-title"><span class="en">External support</span><span class="es">Apoyo externo</span></div><div class="imp-text"><span class="en">He recibido apoyo en la estructuración de la idea y acompañamiento técnico inicial. También retroalimentación de actores del territorio, lo que me ha permitido ajustar el enfoque…</span><span class="es">He recibido apoyo en la estructuración de la idea y acompañamiento técnico inicial. También retroalimentación de actores del territorio, lo que me ha permitido ajustar el enfoque…</span></div></div></div></div></div><div class="sec" style="position:relative;"><div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80');"></div><div class="sec-ov" style="background:rgba(12,73,138,.30);"></div><div class="sec-header"><div class="sec-num">05</div><div class="sec-title"><span class="en">Leadership</span><span class="es">Liderazgo</span></div><div class="sec-rule"></div></div><div class="team-grid"><div class="team-card"><div class="tp-avatar" style="background:linear-gradient(135deg,var(--fo),var(--lg));">DE</div><div class="tp-name">Daniel Enriquez</div><div class="tp-role"><span class="en">Founder &middot; CLP26 Colombia</span><span class="es">Fundador(a) &middot; CLP26 Colombia</span></div><div class="tp-bio"><span class="en">El equipo combina perfiles sociales, técnicos y legales: aporto enfoque territorial como antropólogo; contamos con un abogado experto en tierras, agrónomos y topógrafos para el componente técnico, y un economista para…</span><span class="es">El equipo combina perfiles sociales, técnicos y legales: aporto enfoque territorial como antropólogo; contamos con un abogado experto en tierras, agrónomos y topógrafos para el componente técnico, y un economista para…</span></div></div></div><div class="frost-note"><span class="en">CT taxonomy: CT-BU-001. CLP 2026 Colombia bootcamp cohort — CleantechHUB accelerator. Pitch deck: [PENDIENTE]. Revenue / ARR: [PENDIENTE].</span><span class="es">Taxonomía CT: CT-BU-001. Cohorte bootcamp CLP 2026 Colombia — acelerador CleantechHUB. Pitch deck: [PENDIENTE]. Ingresos / ARR: [PENDIENTE].</span></div></div>
 
 <div class="sec" style="position:relative;">
-  <div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1611273426055-42c0128027fa?w=1200&q=80');"></div>
-  <div class="sec-ov" style="background:rgba(12,73,138,.30);"></div>
-  <div class="sec-header"><div class="sec-num">📄</div><div class="sec-title"><span class="en">Pitch Deck</span><span class="es">Pitch Deck</span></div><div class="sec-rule"></div></div>
-  <div class="deck-note"><span class="en">Slide preview from deck PDF (JPEG). Numbers on this profile match the deck only.</span><span class="es">Vista previa desde PDF del deck (JPEG). Los números en este perfil provienen solo del deck.</span></div>
-  <div class="deck-wrap deck-slide-wrap"><div class="deck-panel deck-slide">
-    <div class="deck-frame-wrap"><img class="deck-frame deck-img" id="deck-slide-dantium" src="/s/dantium/slides/s-1.jpg" alt="DANTIUM slide 1" loading="lazy"></div>
-    <div class="deck-pager" data-base="/s/dantium/slides/s" data-pages="9">
-      <button type="button" class="deck-page-btn" data-dir="-1">Prev</button>
-      <span class="deck-page-label">1 / 9</span>
-      <button type="button" class="deck-page-btn" data-dir="1">Next</button>
-    </div>
-    <script>(function(){var root=document.currentScript.previousElementSibling;if(!root)return;var img=document.getElementById('deck-slide-dantium');var label=root.querySelector('.deck-page-label');var total=+root.dataset.pages||1;var page=1;var base=root.dataset.base;function show(n){page=Math.max(1,Math.min(total,n));if(img)img.src=base+'-'+page+'.jpg';if(label)label.textContent=page+' / '+total;root.querySelectorAll('.deck-page-btn').forEach(function(b){var dir=+b.dataset.dir;b.disabled=dir<0?page<=1:page>=total;});}root.addEventListener('click',function(e){var b=e.target.closest('.deck-page-btn');if(!b||b.disabled)return;show(page+(+b.dataset.dir||0));});show(1);})();</script>
-    <div class="deck-fallback"><span class="en">Need the full deck?</span><span class="es">¿Necesitas el deck completo?</span> <a href="https://drive.google.com/file/d/1U-YYierLCPrYKDel6Lj2wiNdampgLxL5/view" target="_blank" rel="noopener"><span class="en">Open PDF in Google Drive</span><span class="es">Abrir PDF en Google Drive</span></a></div>
-  </div>
-  <div class="deck-actions">
-    <a class="cta-link" href="https://drive.google.com/file/d/1U-YYierLCPrYKDel6Lj2wiNdampgLxL5/view" target="_blank" rel="noopener"><span class="en">Open deck in Google Drive</span><span class="es">Abrir deck en Google Drive</span></a>
-  </div></div>
-</div><div class="accent-bar"></div>
-
-
-<div class="sec" style="position:relative;">
-  <div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1200&q=80');"></div>
-  <div class="sec-ov" style="background:rgba(12,73,138,.30);"></div>
-  <div class="sec-header"><div class="sec-num">01</div><div class="sec-title"><span class="en">The Deal</span><span class="es">El Trato</span></div><div class="sec-rule"></div></div>
-  <div class="split" style="position:relative;z-index:2;"><div class="split-panel"><div class="split-frost">
-    <div class="split-h"><span class="en">Perimeter that does not degrade</span><span class="es">Perímetro que no se degrada</span></div>
-    <div class="body-text"><span class="en">DANTIUM manufactures and commercializes recycled polymer posts with solar, lighting, and sensors for agricultural fencing where wood fails and logistics matter.</span><span class="es">DANTIUM fabrica y comercializa postes de polímero reciclado con solar, iluminación y sensores para cercas agropecuarias donde la madera falla y la logística importa.</span></div>
-  </div></div><div class="split-panel"><div class="split-frost"><div class="body-text"><span class="en">Taxonomy</span><span class="es">Taxonomía</span>: <span class="en">See hero badge · deck is source for financials</span><span class="es">Ver badge hero · el deck es fuente para finanzas</span></div></div></div></div>
-</div>
-<div class="sec" style="position:relative;">
-  <div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=1200&q=80');"></div>
-  <div class="sec-ov" style="background:rgba(102,147,72,.30);"></div>
-  <div class="sec-header"><div class="sec-num">02</div><div class="sec-title"><span class="en">Beachhead</span><span class="es">Beachhead</span></div><div class="sec-rule"></div></div>
-  <div class="split" style="position:relative;z-index:2;"><div class="split-panel"><div class="split-frost">
-    <div class="split-h"><span class="en">Medium & large livestock producers</span><span class="es">Productores ganaderos medianos y grandes</span></div>
-    <div class="body-text"><span class="en">Deck targets Colombia agricultural producers actively seeking green transformed-plastic materials, with global and national TAM figures on the market slide.</span><span class="es">El deck apunta a productores agropecuarios en Colombia que buscan materiales plásticos transformados verdes, con cifras TAM global y nacional en la lámina de mercado.</span></div>
-  </div></div><div class="split-panel"><div class="split-frost"><div class="body-text"><span class="en">Taxonomy</span><span class="es">Taxonomía</span>: <span class="en">See hero badge · deck is source for financials</span><span class="es">Ver badge hero · el deck es fuente para finanzas</span></div></div></div></div>
-</div>
-<div class="sec" style="position:relative;">
-  <div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1532996122724-e3c031a396bf?w=1200&q=80');"></div>
-  <div class="sec-ov" style="background:rgba(12,73,138,.30);"></div>
-  <div class="sec-header"><div class="sec-num">03</div><div class="sec-title"><span class="en">Circularity Math</span><span class="es">Matemática Circular</span></div><div class="sec-rule"></div></div>
-  <div class="split" style="position:relative;z-index:2;"><div class="split-panel"><div class="split-frost">
-    <div class="split-h"><span class="en">Plastic kept from open burning</span><span class="es">Plástico alejado de quema a cielo abierto</span></div>
-    <div class="body-text"><span class="en">Deck cites 2.7–3.1 t CO₂e avoided per ton of recovered plastic kept from open burning (CIEL 2019 / EPA WARM 2020 references on slide).</span><span class="es">El deck cita 2,7–3,1 t CO₂e evitadas por tonelada de plástico recuperado alejado de quema a cielo abierto (referencias CIEL 2019 / EPA WARM 2020 en lámina).</span></div>
-  </div></div><div class="split-panel"><div class="split-frost"><div class="body-text"><span class="en">Taxonomy</span><span class="es">Taxonomía</span>: <span class="en">See hero badge · deck is source for financials</span><span class="es">Ver badge hero · el deck es fuente para finanzas</span></div></div></div></div>
-</div>
-<div class="sec" style="position:relative;">
-  <div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1200&q=80');"></div>
-  <div class="sec-ov" style="background:rgba(102,147,72,.30);"></div>
-  <div class="sec-header"><div class="sec-num">04</div><div class="sec-title"><span class="en">Climate Impact</span><span class="es">Impacto Climático</span></div><div class="sec-rule"></div></div>
-  <div class="split" style="position:relative;z-index:2;"><div class="split-panel"><div class="split-frost">
-    <div class="split-h"><span class="en">Km-scale plastic recovery</span><span class="es">Recuperación de plástico a escala km</span></div>
-    <div class="body-text"><span class="en">One km of DANTIUM fencing reclaims 18 tons of plastic, avoiding an estimated 48.6–55.8 t CO₂e per deck scenario; supports income for grassroots recyclers.</span><span class="es">Un km de cerca DANTIUM recupera 18 toneladas de plástico, evitando un estimado 48,6–55,8 t CO₂e según escenario del deck; apoya ingresos de recicladores de base.</span></div>
-  </div></div><div class="split-panel"><div class="split-frost"><div class="body-text"><span class="en">Taxonomy</span><span class="es">Taxonomía</span>: <span class="en">See hero badge · deck is source for financials</span><span class="es">Ver badge hero · el deck es fuente para finanzas</span></div></div></div></div>
-</div>
-
-<div class="sec" hidden>
-  <div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80');"></div>
-  <div class="sec-ov" style="background:rgba(12,73,138,.30);"></div>
-  <div class="sec-header"><div class="sec-num">07</div><div class="sec-title"><span class="en">Founders</span><span class="es">Fundadores</span></div><div class="sec-rule"></div></div>
-  <div class="team-grid">
-    <div class="team-card"><div class="tp-name">—</div><div class="tp-role"><span class="en">Role pending</span><span class="es">Rol pendiente</span></div><div class="tp-bio"><span class="en">LinkedIn pending HITL</span><span class="es">LinkedIn pendiente HITL</span></div></div>
-  </div>
-</div>
-
-<div class="sec" style="position:relative;">
-  <div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1200&q=80');"></div>
+  <div class="sec-bg" style="background-image:url('/s/dantium/assets/bg-cta.jpg');"></div>
   <div class="sec-ov" style="background:rgba(12,73,138,.30);"></div>
   <div class="cta">
-    <div class="pill" style="background:rgba(157,195,132,.12);border:1px solid rgba(157,195,132,.2);color:var(--lg);margin-bottom:16px;"><span class="en">CT-WA-003 · Recycled Polymer Rural Infrastructure</span><span class="es">CT-WA-003 · Infraestructura Rural en Polímero Reciclado</span></div>
+    <div class="pill" style="background:rgba(157,195,132,.12);border:1px solid rgba(157,195,132,.2);color:var(--lg);margin-bottom:16px;"><span class="en">Air & Environment &middot; CLP26 Colombia</span><span class="es">Air & Environment &middot; CLP26 Colombia</span></div>
     <div class="cta-name">DANTIUM</div>
-    <div class="cta-pitch"><span class="en">Durable rural security infrastructure that locks recovered plastic into productive land boundaries.</span><span class="es">Infraestructura rural segura y durable que fija plástico recuperado en límites productivos del territorio.</span></div>
-    <a class="cta-btn" href="#"><span class="en">CleantechHUB profile</span><span class="es">Perfil CleantechHUB</span></a>
+    <div class="cta-pitch"><span class="en">Dantium transforma residuos plásticos en madera plástica para fabricar bloques y cercas, en la práctica, se recolecta, procesa y se reutiliza estos materiales en productos útiles, integrando…</span><span class="es">Dantium transforma residuos plásticos en madera plástica para fabricar bloques y cercas, en la práctica, se recolecta, procesa y se reutiliza estos materiales en productos útiles, integrando…</span></div>
+    <a class="cta-btn" href="#"><span class="en">CleantechHUB</span><span class="es">CleantechHUB</span></a>
     <div class="cta-links">
       <a class="cta-link" href="https://nexus.cleantechhub.net/s/dantium"><span class="en">Nexus Profile</span><span class="es">Perfil Nexus</span></a>
       <a class="cta-link" href="https://nexus.cleantechhub.net/p/startup-portfolio"><span class="en">157 Startups</span><span class="es">157 Startups</span></a>
-      <a class="cta-link" href="https://drive.google.com/file/d/1U-YYierLCPrYKDel6Lj2wiNdampgLxL5/view" target="_blank" rel="noopener"><span class="en">Pitch deck (PDF)</span><span class="es">Pitch deck (PDF)</span></a>
+      
     </div>
     <div class="cta-brand"><div class="tg">Inspira. Actúa. Transforma.</div><div class="lg2">Cleantech<em style="color:var(--lg);font-style:normal;">HUB</em></div></div>
-    <div class="cta-port"><span class="en">CleantechHUB portfolio profile · Latin America</span><span class="es">Perfil portafolio CleantechHUB · América Latina</span></div>
+    <div class="cta-port"><span class="en">CleantechHUB portfolio profile - Latin America</span><span class="es">Perfil portafolio CleantechHUB - America Latina</span></div>
   </div>
 </div>
 <div class="accent-bar"></div>

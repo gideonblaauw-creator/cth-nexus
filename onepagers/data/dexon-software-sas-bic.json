@@ -1,0 +1,201 @@
+{
+  "slug": "dexon-software-sas-bic",
+  "name": "Dexon Software",
+  "website": "https://dexonsoftware.com",
+  "badge_en": "Energy &middot; CLAC22",
+  "badge_es": "Energía &middot; CLAC22",
+  "hero_image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80",
+  "cta_bg": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&q=80",
+  "image_credits": [
+    {
+      "slot": "hero",
+      "source_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80",
+      "credit_en": "Unsplash / Carlos Muza",
+      "credit_es": "Unsplash / Carlos Muza"
+    },
+    {
+      "slot": "problem",
+      "source_url": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=1200&q=80",
+      "credit_en": "Unsplash / UX Indonesia",
+      "credit_es": "Unsplash / UX Indonesia"
+    },
+    {
+      "slot": "solution",
+      "source_url": "https://images.unsplash.com/photo-1517245386807-bb43f82c3364?w=1200&q=80",
+      "credit_en": "Unsplash / Headway",
+      "credit_es": "Unsplash / Headway"
+    },
+    {
+      "slot": "impact",
+      "source_url": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=1200&q=80",
+      "credit_en": "Unsplash / Jonas Lee",
+      "credit_es": "Unsplash / Jonas Lee"
+    },
+    {
+      "slot": "leadership",
+      "source_url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1200&q=80",
+      "credit_en": "Unsplash / Kaleidico",
+      "credit_es": "Unsplash / Kaleidico"
+    },
+    {
+      "slot": "cta",
+      "source_url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&q=80",
+      "credit_en": "Unsplash / Victor Garcia",
+      "credit_es": "Unsplash / Victor Garcia"
+    }
+  ],
+  "hero_sub_en": "dexonsoftware.com &middot; Bogotá, Colombia &middot; Energy &middot; Stage: Pre-Series A &middot; CT-IC-005",
+  "hero_sub_es": "dexonsoftware.com &middot; Bogotá, Colombia &middot; Energía &middot; Etapa: Pre-Series A &middot; CT-IC-005",
+  "pitch_en": "SaaS BPM platform digitizing complex processes for large organizations in energy, healthcare, and government — 10× faster implementation than legacy tools.",
+  "pitch_es": "Plataforma SaaS BPM que digitaliza procesos complejos para grandes organizaciones en energía, salud y gobierno — implementación 10× más rápida que las herramientas tradicionales.",
+  "cta_pitch_en": "SaaS BPM platform digitizing complex processes for large organizations in energy, healthcare, and government — 10× faster implementation than legacy tools.",
+  "cta_pitch_es": "Plataforma SaaS BPM que digitaliza procesos complejos para grandes organizaciones en energía, salud y gobierno — implementación 10× más rápida que las herramientas tradicionales.",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "ribbon": [
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    },
+    {
+      "val": "Pre-Series A",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLAC22",
+      "sub_es": "CLAC22"
+    },
+    {
+      "val": "Energy",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Métricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLAC22",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Hub",
+        "lab_es": "Hub"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Large organizations in energy, healthcare, and government still rely on slow, costly BPM implementations to digitize complex processes.",
+      "head_es": "Grandes organizaciones en energía, salud y gobierno aún dependen de implementaciones BPM lentas y costosas para digitalizar procesos complejos.",
+      "body_en": "Large organizations in energy, healthcare, and government still rely on slow, costly BPM implementations to digitize complex processes.",
+      "body_es": "Grandes organizaciones en energía, salud y gobierno aún dependen de implementaciones BPM lentas y costosas para digitalizar procesos complejos.",
+      "bg": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "🎯",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "SaaS BPM platform digitizing complex processes for large organizations in energy, healthcare, and government — 10× faster implementation than legacy tools.",
+          "text_es": "Plataforma SaaS BPM que digitaliza procesos complejos para grandes organizaciones en energía, salud y gobierno — implementación 10× más rápida que las herramientas tradicionales."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "Dexon Software — CLAC22 (CleantechHUB). Cohort: Acceleration.",
+          "text_es": "Dexon Software — CLAC22 (CleantechHUB). Cohorte: Acceleration."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Based in Bogotá, Colombia. Public site: dexonsoftware.com.",
+          "text_es": "Con base en Bogotá, Colombia. Sitio público: dexonsoftware.com."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1517245386807-bb43f82c3364?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact & Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Wiki source",
+          "title_es": "Fuente Wiki",
+          "text_en": "Profile synced from BookStack Startup Portfolio + Odoo (SoT).",
+          "text_es": "Perfil sincronizado desde BookStack Startup Portfolio + Odoo (SoT)."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomía",
+          "text_en": "Precision Ag & Smart Grid",
+          "text_es": "Precision Ag & Smart Grid"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Luis B. Chicaiza",
+          "role_en": "CEO &amp; Founder &middot; CLAC22",
+          "role_es": "CEO y Fundador &middot; CLAC22",
+          "bio_en": "Public profile lists CEO and founder of Dexon Software (Dexon BPM). Source: LinkedIn.",
+          "bio_es": "Perfil público como CEO y fundador de Dexon Software (Dexon BPM). Fuente: LinkedIn.",
+          "linkedin": "https://linkedin.com/in/lbchicaiza",
+          "initials": "LC"
+        }
+      ],
+      "dream_en": "Program: CLAC22 · Acceleration. City: Bogotá. Verified KPIs: [PENDIENTE]. Pitch deck on profile: [PENDIENTE].",
+      "dream_es": "Programa: CLAC22 · Acceleration. Ciudad: Bogotá. KPIs verificados: [PENDIENTE]. Pitch deck en perfil: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1200&q=80"
+    }
+  ]
+}

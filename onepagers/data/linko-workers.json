@@ -1,0 +1,162 @@
+{
+  "slug": "linko-workers",
+  "name": "Linko Workers",
+  "website": "https://linko.com.co/",
+  "badge_en": "Industrial Cleaning · CLAC24 · Acceleration",
+  "badge_es": "Limpieza Industrial · CLAC24 · Acceleration",
+  "hero_sub_en": "linko.com.co · Colombia · Neiva · Circular Economy · Stage: Pre-Seed",
+  "hero_sub_es": "linko.com.co · Colombia · Neiva · Economía Circular · Etapa: Pre-Seed",
+  "pitch_en": "Manufactures and commercializes industrial cleaning and disinfection products for institutional and household clients in southern Colombia.",
+  "pitch_es": "Fabrica y comercializa productos de limpieza y desinfección industrial para clientes institucionales y domésticos en el sur de Colombia.",
+  "cta_pitch_en": "Industrial cleaning and disinfection from Neiva — plus sustainable effervescent tablet line (CleantechHUB wiki).",
+  "cta_pitch_es": "Limpieza y desinfección industrial desde Neiva — más línea de tabletas efervescentes sostenibles (wiki CleantechHUB).",
+  "ribbon": [
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    },
+    {
+      "val": "Pre-Seed",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLAC24",
+      "sub_es": "CLAC24"
+    },
+    {
+      "val": "Circular",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Métricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLAC24",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Hub",
+        "lab_es": "Hub"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Institutional and household clients in southern Colombia need reliable cleaning and disinfection supply.",
+      "head_es": "Clientes institucionales y domésticos en el sur de Colombia necesitan suministro confiable de limpieza y desinfección.",
+      "body_en": "Manufactures and commercializes industrial cleaning and disinfection products for institutional and household clients in southern Colombia.",
+      "body_es": "Fabrica y comercializa productos de limpieza y desinfección industrial para clientes institucionales y domésticos en el sur de Colombia.",
+      "bg": "https://images.unsplash.com/photo-1581579186482-1f4a1a8a1f94?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "🌱",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Production and sale of industrial and household cleaning and disinfection products; exploring plastic-free effervescent formats.",
+          "text_es": "Producción y venta de productos de limpieza y desinfección industrial y doméstica; explorando formatos efervescentes sin plástico."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "LINKO WORKERS SAS — CLAC24 · CleantechHUB Acceleration.",
+          "text_es": "LINKO WORKERS SAS — CLAC24 · Acceleration CleantechHUB."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Based in Neiva, Huila, Colombia. Public site: linko.com.co.",
+          "text_es": "Con base en Neiva, Huila, Colombia. Sitio público: linko.com.co."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1628348714456-2889e6d6660e?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact & Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Wiki source",
+          "title_es": "Fuente Wiki",
+          "text_en": "Profile synced from BookStack Startup Portfolio + Odoo (SoT). CleantechHUB Acceleration cohort (Portafolio CTH).",
+          "text_es": "Perfil sincronizado desde BookStack Startup Portfolio + Odoo (SoT). Cohorte Acceleration CleantechHUB (Portafolio CTH)."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomía",
+          "text_en": "[PENDIENTE] — circular industrial cleaning (CT node not on portfolio card)",
+          "text_es": "[PENDIENTE] — limpieza industrial circular (nodo CT no en tarjeta de portafolio)"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Nicolás Alberto Parra Munar",
+          "initials": "NP",
+          "role_en": "Founder & CEO · Linko (legal rep. LINKO WORKERS SAS)",
+          "role_es": "Fundador y CEO · Linko (rep. legal LINKO WORKERS SAS)",
+          "bio_en": "Founder per public company site and Colombia registry; LinkedIn profile: [PENDIENTE].",
+          "bio_es": "Fundador según sitio público y registro Colombia; perfil LinkedIn: [PENDIENTE]."
+        }
+      ],
+      "dream_en": "Program: CLAC24 + Acceleration. Verified KPIs: [PENDIENTE]. Pitch deck: [PENDIENTE].",
+      "dream_es": "Programa: CLAC24 + Acceleration. KPIs verificados: [PENDIENTE]. Pitch deck: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1632829871091-68de131ce026?w=1200&q=80"
+    }
+  ],
+  "hero_image": "https://i0.wp.com/linko.com.co/wp-content/uploads/2020/07/Grupo-2.png?ssl=1",
+  "cta_bg": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=1200&q=80",
+  "image_credits_en": "Image credits (linko-workers):\n· Hero: Linko verified website (linko.com.co brand visual)\n· §01 Problem: Unsplash / No Revisions\n· §02 Solution: Unsplash / Towfiqu barbhuiya\n· §03 Impact: Unsplash / ThisisEngineering RAEng\n· §04 Leadership: Unsplash / KOBU Agency\n· CTA: Unsplash / ThisisEngineering RAEng",
+  "image_credits_es": "Créditos de imagen (linko-workers):\n· Hero: Sitio verificado Linko (visual de marca linko.com.co)\n· §01 Problem: Unsplash / No Revisions\n· §02 Solution: Unsplash / Towfiqu barbhuiya\n· §03 Impact: Unsplash / ThisisEngineering RAEng\n· §04 Leadership: Unsplash / KOBU Agency\n· CTA: Unsplash / ThisisEngineering RAEng"
+}

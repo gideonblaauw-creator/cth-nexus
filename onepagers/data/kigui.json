@@ -1,0 +1,172 @@
+{
+  "slug": "kigui",
+  "name": "Kigüi",
+  "website": "https://kigui.mx/",
+  "badge_en": "Food Waste · CLAC23 · Acceleration",
+  "badge_es": "Desperdicio Alimentario · CLAC23 · Acceleration",
+  "hero_sub_en": "kigui.mx · Mexico · Circular Economy · Stage: Seed",
+  "hero_sub_es": "kigui.mx · México · Economía Circular · Etapa: Seed",
+  "pitch_en": "Food-waste reduction platform connecting retailers and consumers with near-expiry products, preventing disposal and associated CO₂ emissions.",
+  "pitch_es": "Plataforma de reducción de desperdicio alimentario que conecta retail y consumidores con productos próximos a vencer, evitando disposición y emisiones de CO₂ asociadas.",
+  "cta_pitch_en": "AI copilot for retail execution — inventory, expiry, and in-store operations to cut food waste.",
+  "cta_pitch_es": "Copiloto de IA para ejecución en retail — inventario, caducidad y operación en tienda para reducir merma.",
+  "ribbon": [
+    {
+      "val": "MX",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Mexico",
+      "sub_es": "Mexico"
+    },
+    {
+      "val": "Seed",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLAC23",
+      "sub_es": "CLAC23"
+    },
+    {
+      "val": "Circular",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Métricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLAC23",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Hub",
+        "lab_es": "Hub"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "MX",
+        "lab_en": "México",
+        "lab_es": "México"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Supermarkets and CPG chains lose margin and generate emissions when food expires on shelves.",
+      "head_es": "Supermercados y marcas pierden margen y generan emisiones cuando los alimentos vencen en góndola.",
+      "body_en": "Food-waste reduction app connecting consumers with near-expiry products at up to 60% discount in supermarkets, preventing disposal and associated CO₂ emissions.",
+      "body_es": "App de reducción de desperdicio alimentario que conecta consumidores con productos próximos a vencer con hasta 60% de descuento en supermercados, evitando emisiones de CO₂.",
+      "bg": "https://images.unsplash.com/photo-1578916171725-1653917a8149?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "🌱",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Retail tech to track expiry, prioritize in-store tasks, and reduce shrink from unsold food.",
+          "text_es": "Tecnología retail para rastrear caducidad, priorizar tareas en tienda y reducir merma por alimentos no vendidos."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "Kigüi — CLAC23 (CleantechHUB) · Acceleration portfolio.",
+          "text_es": "Kigüi — CLAC23 (CleantechHUB) · Portafolio Acceleration."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "HQ Argentina; strong Mexico operations. Public site: kigui.mx.",
+          "text_es": "Sede Argentina; operación relevante en México. Sitio público: kigui.mx."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1604719312566-8912caf2334a?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact & Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Wiki source",
+          "title_es": "Fuente Wiki",
+          "text_en": "Profile synced from BookStack Startup Portfolio + Odoo (SoT). CleantechHUB Acceleration cohort (Portafolio CTH).",
+          "text_es": "Perfil sincronizado desde BookStack Startup Portfolio + Odoo (SoT). Cohorte Acceleration CleantechHUB (Portafolio CTH)."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomía",
+          "text_en": "CT-WA-002 · Organic Waste & Composting",
+          "text_es": "CT-WA-002 · Residuos Orgánicos y Compostaje"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1586201375761-83865001e26c?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Mauricio Kremer",
+          "initials": "MK",
+          "role_en": "CEO & Co-founder",
+          "role_es": "CEO y Cofundador",
+          "bio_en": "Co-founder leading Kigüi retail and food-waste reduction platform (public LinkedIn).",
+          "bio_es": "Cofundador al frente de la plataforma Kigüi de retail y reducción de merma (LinkedIn público).",
+          "linkedin": "https://www.linkedin.com/in/mauriciokremer/"
+        },
+        {
+          "name": "Maximiliano Dicranian",
+          "initials": "MD",
+          "role_en": "Co-founder & COO",
+          "role_es": "Cofundador y COO",
+          "bio_en": "Co-founder & COO — operations and LATAM expansion (public LinkedIn).",
+          "bio_es": "Cofundador y COO — operaciones y expansión LATAM (LinkedIn público).",
+          "linkedin": "https://www.linkedin.com/in/maximiliano-dicranian/"
+        }
+      ],
+      "dream_en": "Program: CLAC23 + Acceleration. Verified KPIs: [PENDIENTE]. Pitch deck: [PENDIENTE].",
+      "dream_es": "Programa: CLAC23 + Acceleration. KPIs verificados: [PENDIENTE]. Pitch deck: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&q=80"
+    }
+  ],
+  "hero_image": "https://www.kigui.io/og-image.png",
+  "cta_bg": "https://images.unsplash.com/photo-1610832958506-aa56368197cf?w=1200&q=80",
+  "image_credits_en": "Image credits (kigui):\n· Hero: Kigüi verified website (kigui.mx / kigui.io)\n· §01 Problem: Unsplash / NeONBRAND\n· §02 Solution: Unsplash / Nathan Dumlao\n· §03 Impact: Unsplash / Gilberto Olimpio\n· §04 Leadership: Unsplash / Clay Banks\n· CTA: Unsplash / Micheile Henderson",
+  "image_credits_es": "Créditos de imagen (kigui):\n· Hero: Sitio verificado Kigüi (kigui.mx / kigui.io)\n· §01 Problem: Unsplash / NeONBRAND\n· §02 Solution: Unsplash / Nathan Dumlao\n· §03 Impact: Unsplash / Gilberto Olimpio\n· §04 Leadership: Unsplash / Clay Banks\n· CTA: Unsplash / Micheile Henderson"
+}

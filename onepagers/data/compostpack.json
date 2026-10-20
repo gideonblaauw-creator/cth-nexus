@@ -1,0 +1,165 @@
+{
+  "slug": "compostpack",
+  "name": "COMPOSTPACK",
+  "website": "https://compostpack.com",
+  "badge_en": "Circular Economy &middot; CLAC23",
+  "badge_es": "Economía circular &middot; CLAC23",
+  "hero_image": "https://compostpack.com/_astro/hero-bg.3beQTwYG_AvyNh.webp",
+  "hero_sub_en": "compostpack.com &middot; Colombia &middot; Bogotá &middot; Circular economy &middot; Stage: Seed &middot; CT-WA-004 &middot; CT-IN-003",
+  "hero_sub_es": "compostpack.com &middot; Colombia &middot; Bogotá &middot; Economía circular &middot; Etapa: Seed &middot; CT-WA-004 &middot; CT-IN-003",
+  "pitch_en": "Develops and commercializes certified compostable bioplastics and packaging that decompose without microplastics for food and retail.",
+  "pitch_es": "Desarrolla y comercializa bioplásticos y empaques compostables certificados que se descomponen sin microplásticos para alimentos y retail.",
+  "cta_pitch_en": "Compostable resin grades (CPK) for bags, thermoforming, and injection — genuinely compostable materials for a cleaner packaging chain.",
+  "cta_pitch_es": "Grados de resina compostable (CPK) para bolsas, termoformado e inyección — materiales genuinamente compostables para una cadena de empaque más limpia.",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "cta_bg": "https://compostpack.com/_astro/kitchen.CNSoMGiK_ZhNWiI.webp",
+  "image_credits_en": "Hero–CTA: product &amp; application photos, <a href=\"https://compostpack.com\" rel=\"noopener\" target=\"_blank\">compostpack.com</a> (hero-bg, bio-1, packaging, cicle, about-img, kitchen assets).",
+  "image_credits_es": "Hero–CTA: fotos de producto y aplicación, <a href=\"https://compostpack.com\" rel=\"noopener\" target=\"_blank\">compostpack.com</a> (hero-bg, bio-1, packaging, cicle, about-img, kitchen).",
+  "ribbon": [
+    {
+      "val": "Seed",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLAC23",
+      "sub_es": "CLAC23"
+    },
+    {
+      "val": "CE",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Circular",
+      "sub_es": "Circular"
+    },
+    {
+      "val": "CT-WA-004",
+      "lab_en": "CT Taxonomy",
+      "lab_es": "Taxonomía CT",
+      "sub_en": "CT-IN-003",
+      "sub_es": "CT-IN-003"
+    },
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLAC23",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Hub",
+        "lab_es": "Hub"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Single-use plastic packaging accumulates in soils and waterways; Colombia needs circular alternatives that meet international compostability standards.",
+      "head_es": "Los empaques plásticos de un solo uso se acumulan en suelos y cuerpos de agua; Colombia necesita alternativas circulares que cumplan normas internacionales de compostabilidad.",
+      "body_en": "COMPOSTPACK manufactures compostable bioplastics from biological sources, targeting contamination from conventional plastics in packaging and retail.",
+      "body_es": "COMPOSTPACK fabrica bioplásticos compostables a partir de fuentes biológicas, abordando la contaminación por plásticos convencionales en empaques y retail.",
+      "bg": "https://compostpack.com/_astro/bio-1.DPQUHzAZ_1iqsYP.webp"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "🌱",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Compostable biopolymer grades (CPK) for extrusion, thermoforming, and injection — starch-rich feedstocks.",
+          "text_es": "Grados de biopolímeros compostables (CPK) para extrusión, termoformado e inyección — materias primas ricas en almidón."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "COMPOSTPACK — CLAC23 CleantechHUB portfolio.",
+          "text_es": "COMPOSTPACK — portafolio CLAC23 CleantechHUB."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Based in Bogotá, Colombia. Public site: compostpack.com.",
+          "text_es": "Con base en Bogotá, Colombia. Sitio público: compostpack.com."
+        }
+      ],
+      "bg": "https://compostpack.com/_astro/packaging.B07ehvl2_Nh3FK.webp"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact &amp; Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Wiki source",
+          "title_es": "Fuente Wiki",
+          "text_en": "Profile synced from BookStack Startup Portfolio + public site (compostable packaging, UNCCD supporter).",
+          "text_es": "Perfil sincronizado desde BookStack Startup Portfolio + sitio público (empaques compostables, apoyo UNCCD)."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomía",
+          "text_en": "Extended Producer Responsibility &amp; Circular Economy &amp; Clean Manufacturing (CT-WA-004, CT-IN-003).",
+          "text_es": "Responsabilidad extendida del productor y economía circular y manufactura limpia (CT-WA-004, CT-IN-003)."
+        }
+      ],
+      "bg": "https://compostpack.com/_astro/cicle.C0gTuyTd_1wVAk7.webp"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Freddy Carrión Rivas",
+          "role_en": "Co-founder &amp; Manager &middot; COMPOSTPACK",
+          "role_es": "Cofundador y gerente &middot; COMPOSTPACK",
+          "bio_en": "Co-founder; leads Compostpack (Carpios group). Public interviews and LinkedIn list manager role since 2018.",
+          "bio_es": "Cofundador; lidera Compostpack (grupo Carpios). Entrevistas públicas y LinkedIn listan rol de gerente desde 2018.",
+          "initials": "FC",
+          "linkedin": "https://www.linkedin.com/in/freddycarrion"
+        }
+      ],
+      "dream_en": "Program: CLAC23. HQ: Bogotá (public site). Additional founders: [PENDIENTE]. Verified revenue/KPIs: [PENDIENTE].",
+      "dream_es": "Programa: CLAC23. HQ: Bogotá (sitio público). Cofundadores adicionales: [PENDIENTE]. Ingresos/KPIs verificados: [PENDIENTE].",
+      "bg": "https://compostpack.com/_astro/about-img.Bj8waJdW_Z2dJUwv.webp"
+    }
+  ]
+}

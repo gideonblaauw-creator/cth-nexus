@@ -7,7 +7,6 @@
 <link rel="icon" href="https://cleantechhub.net/favicon.ico">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
 <style>
-
 :root{--db:#0C498A;--cy:#B2EEFA;--lg:#9DC384;--fo:#669348;--sk:#69B5FA;--page:#fff;--ov:0.30;--panel:rgba(12,73,138,.94);--panel-border:rgba(255,255,255,.48);}
 *{margin:0;padding:0;box-sizing:border-box;}
 html{scroll-behavior:smooth;}
@@ -133,19 +132,6 @@ body{font-family:'Open Sans','PT Sans',sans-serif;background:var(--page);color:v
 .deck-fallback a{color:#e8ffd4;font-weight:700;}
 .deck-actions{display:flex;gap:10px;justify-content:center;margin-top:14px;flex-wrap:wrap;}
 .deck-note{padding:0 48px 8px;font-size:10px;color:rgba(255,255,255,.9);text-align:center;position:relative;z-index:2;text-shadow:0 1px 8px rgba(0,0,0,.5);}
-.deck-slide{width:min(100%,640px);margin-left:auto;margin-right:auto;}
-.deck-slide .deck-frame-wrap{position:relative;width:100%;aspect-ratio:16/9;height:auto;overflow:hidden;}
-.deck-slide .deck-frame{position:absolute;inset:0;width:100%;height:100%;min-height:0;}
-.deck-pager{display:flex;align-items:center;justify-content:center;gap:10px;margin-top:10px;}
-.deck-page-btn{font-family:'Open Sans',sans-serif;font-size:10px;font-weight:700;color:#fff;background:rgba(0,0,0,.35);border:1px solid rgba(255,255,255,.35);border-radius:4px;padding:5px 12px;cursor:pointer;}
-.deck-page-btn:disabled{opacity:.4;cursor:default;}
-.deck-page-label{font-size:10px;font-weight:700;color:#e8ffd4;min-width:52px;text-align:center;}
-.yt-pitch{width:min(100%,640px);margin:0 auto 8px;position:relative;z-index:2;}
-.yt-pitch-frame{position:relative;width:100%;aspect-ratio:16/9;border-radius:8px;overflow:hidden;background:#000;}
-.yt-pitch-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0;}
-@media (max-width:700px){
-  .deck-slide-wrap{padding-left:16px;padding-right:16px;}
-}
 
 .mini-col{display:flex;flex-direction:column;align-items:center;flex:1;gap:1px;}
 .mini-val{font-size:8px;font-weight:700;color:rgba(255,255,255,.85);}
@@ -154,18 +140,31 @@ body{font-family:'Open Sans','PT Sans',sans-serif;background:var(--page);color:v
 .mini-bar.hl{background:linear-gradient(180deg,var(--lg),var(--fo));}
 .mini-lab{font-size:7px;font-weight:700;color:rgba(255,255,255,.8);}
 
+/* CLP26 slice one-pager extensions (Curuba /s/curuba visual system) */
+.meta-wrap{padding:0 48px 28px;position:relative;z-index:2;}
+.meta-panel{border-radius:8px;padding:20px 24px;}
+.meta-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px 24px;}
+@media(max-width:720px){.meta-grid{grid-template-columns:1fr;}}
+.meta-item{display:flex;flex-direction:column;gap:4px;min-height:44px;}
+.meta-label{font-size:9px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:#e8ffd4;}
+.meta-value{font-size:12px;font-weight:600;color:#fff;line-height:1.4;}
+.meta-value a{color:#e8ffd4;text-decoration:none;border-bottom:1px solid rgba(232,255,212,.45);}
+.meta-value a:hover{color:#fff;}
+.slot-empty{color:rgba(255,255,255,.45);font-style:italic;font-weight:500;}
 
+.deck-frame-single{width:100%;height:min(62vh,520px);border:0;display:block;background:#fff;}
+.deck-nav{display:flex;align-items:center;justify-content:center;gap:14px;margin-top:14px;flex-wrap:wrap;}
+.deck-nav-btn{font-size:11px;font-weight:700;color:#053a6e;background:linear-gradient(180deg,#d4f5b8 0%,var(--lg) 100%);border:2px solid rgba(255,255,255,.85);border-radius:6px;padding:8px 18px;cursor:pointer;box-shadow:0 4px 14px rgba(0,0,0,.35);}
+.deck-nav-btn:disabled{opacity:.45;cursor:default;}
+.deck-nav-status{font-size:11px;font-weight:700;color:rgba(255,255,255,.92);min-width:120px;text-align:center;text-shadow:0 1px 8px rgba(0,0,0,.5);}
 
-.deck-slide{width:min(100%,640px);margin-left:auto;margin-right:auto;}
-.deck-slide .deck-frame-wrap{position:relative;width:100%;aspect-ratio:16/9;height:auto;overflow:hidden;}
-.deck-slide-img{width:100%;height:100%;object-fit:contain;display:block;background:#fff;}
-.deck-pager{display:flex;align-items:center;justify-content:center;gap:10px;margin-top:10px;}
-.deck-page-btn{font-family:'Open Sans',sans-serif;font-size:10px;font-weight:700;color:#fff;background:rgba(0,0,0,.35);border:1px solid rgba(255,255,255,.35);border-radius:4px;padding:5px 12px;cursor:pointer;}
-.deck-page-btn:disabled{opacity:.4;cursor:default;}
-.deck-page-label{font-size:10px;font-weight:700;color:#e8ffd4;min-width:52px;text-align:center;}
-.yt-pitch{width:min(100%,640px);margin:0 auto 8px;position:relative;z-index:2;}
-.yt-pitch-frame{position:relative;width:100%;aspect-ratio:16/9;border-radius:8px;overflow:hidden;background:#000;}
-.yt-pitch-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0;}
+.youtube-wrap{padding:0 48px 32px;position:relative;z-index:2;}
+.youtube-panel{border-radius:8px;padding:16px;overflow:hidden;}
+.youtube-frame{width:100%;aspect-ratio:16/9;border:0;display:block;border-radius:6px;background:#000;}
+
+.desc-wrap{padding:0 48px 32px;position:relative;z-index:2;}
+.desc-panel{border-radius:8px;padding:24px 28px;}
+.desc-text{font-size:14px;line-height:1.65;color:rgba(255,255,255,.95);}
 
 </style>
 </head>
@@ -177,49 +176,98 @@ body{font-family:'Open Sans','PT Sans',sans-serif;background:var(--page);color:v
 </div>
 
 <div class="sec hero">
-  <img class="hero-img" src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1200&q=80" alt="Agrismart" loading="lazy">
+  <img class="hero-img" src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80" alt="Agrismart" loading="lazy">
   <div class="hero-ov"></div>
-  <div class="hero-badge"><div class="pill" style="background:rgba(0,0,0,.45);color:var(--lg);"><span class="en">ML Crop Monitoring</span><span class="es">Monitoreo de Cultivos con ML</span></div></div>
+  <div class="hero-badge"><div class="pill" style="background:rgba(0,0,0,.45);color:var(--lg);"><span class="en">CLP26 · National</span><span class="es">CLP26 · Nacional</span></div></div>
   <div class="hero-in">
     <div class="hero-name">Agrismart</div>
-    <div class="hero-sub"><span class="en">agrismartsv.com · El Salvador · Stage: Prototype · CT-IC-005 · Precision Ag & Smart Grid / CT-WW-004</span><span class="es">agrismartsv.com · El Salvador · Etapa: Prototype · CT-IC-005 · Precision Ag & Smart Grid / CT-WW-004</span></div>
-    <div class="hero-pitch"><span class="en">Salvadoran startup building Machine Learning–based crop monitoring that helps farmers save water and improve productivity — starting at $300 per system.</span><span class="es">Startup salvadoreña con monitoreo de cultivos basado en Machine Learning que ayuda a agricultores a ahorrar agua y mejorar productividad — desde $300 por sistema.</span></div>
+    <div class="hero-sub"><span class="en">SV · national · CLP26</span><span class="es">SV · national · CLP26</span></div>
+    <div class="hero-pitch">Agrismart develops technological solutions to optimize agriculture through automation, sensors, and data analytics. We help farmers improve resource use, reduce losses, and increase productivity in a sustainable way.</div>
   </div>
   <div class="hero-tagline">Inspira. Actúa. Transforma.</div>
 </div>
 
-<div class="ribbon" style="background:rgba(12,73,138,.95);"><div class="ribbon-cell"><div class="rc-val">$300</div><div class="rc-lab"><span class="en">Entry system</span><span class="es">Sistema inicial</span></div><div class="rc-sub"><span class="en">Starting price (deck)</span><span class="es">Precio desde (deck)</span></div></div><div class="ribbon-cell"><div class="rc-val">3,522</div><div class="rc-lab"><span class="en">Systems Y3</span><span class="es">Sistemas A3</span></div><div class="rc-sub"><span class="en">Beachhead target</span><span class="es">Meta beachhead</span></div></div><div class="ribbon-cell"><div class="rc-val">128.6M L</div><div class="rc-lab"><span class="en">Water saved/yr</span><span class="es">Agua ahorrada/año</span></div><div class="rc-sub"><span class="en">Projected Y3</span><span class="es">Proyección A3</span></div></div><div class="ribbon-cell"><div class="rc-val">20%</div><div class="rc-lab"><span class="en">Water savings</span><span class="es">Ahorro agua</span></div><div class="rc-sub"><span class="en">Per farm-year (deck)</span><span class="es">Por finca-año (deck)</span></div></div></div>
-
-<div class="sec" style="position:relative;"><div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&q=80');"></div><div class="sec-ov" style="background:rgba(12,73,138,.30);"></div><div class="sec-header"><div class="sec-num">📄</div><div class="sec-title"><span class="en">Pitch Deck</span><span class="es">Pitch Deck</span></div><div class="sec-rule"></div></div><div class="deck-note"><span class="en">Slide preview below. Numbers on this profile match the deck only.</span><span class="es">Vista previa de slides abajo. Los números provienen solo del deck.</span></div><div class="deck-wrap deck-slide-wrap"><div class="deck-panel deck-slide"><div class="deck-frame-wrap"><img class="deck-slide-img" src="/s/agrismart/slides/s-1.jpg" alt="Pitch deck slide 1" loading="lazy"></div><div class="deck-pager" data-base="/s/agrismart/slides/" data-pages="9"><button type="button" class="deck-page-btn" data-dir="-1">Prev</button><span class="deck-page-label">1 / 9</span><button type="button" class="deck-page-btn" data-dir="1">Next</button></div><script>(function(){var root=document.currentScript.previousElementSibling;if(!root)return;var img=root.parentElement.querySelector('.deck-slide-img');var label=root.querySelector('.deck-page-label');var base=root.dataset.base;var total=+root.dataset.pages||1;var page=1;function show(n){page=Math.max(1,Math.min(total,n));if(img)img.src=base+'s-'+page+'.jpg';if(label)label.textContent=page+' / '+total;root.querySelectorAll('.deck-page-btn').forEach(function(b){var dir=+b.dataset.dir;b.disabled=dir<0?page<=1:page>=total;});}root.addEventListener('click',function(e){var b=e.target.closest('.deck-page-btn');if(!b||b.disabled)return;show(page+(+b.dataset.dir||0));});show(1);})();</script><div class="deck-fallback"><span class="en">Need the full deck?</span><span class="es">¿Necesitas el deck completo?</span> <a href="https://drive.google.com/file/d/1g9Gzs9liiq6gRuUwe7eKHS-62Nkv3FCe/view" target="_blank" rel="noopener"><span class="en">Open PDF</span><span class="es">Abrir PDF</span></a></div></div><div class="deck-actions"><a class="cta-link" href="https://drive.google.com/file/d/1g9Gzs9liiq6gRuUwe7eKHS-62Nkv3FCe/view" target="_blank" rel="noopener"><span class="en">Open deck in Google Drive</span><span class="es">Abrir deck en Google Drive</span></a></div></div></div><div class="accent-bar"></div>
-<div class="sec" hidden style="position:relative;"><div class="sec-header"><div class="sec-num">▶</div><div class="sec-title">Pitch Video</div></div><div class="deck-wrap"><div class="yt-pitch"><div class="yt-pitch-frame"><iframe src="" title="YouTube pitch" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div></div></div>
-
-<div class="sec" style="position:relative;"><div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1454165804604-c3d57bc86b40?w=1200&q=80');"></div><div class="sec-ov" style="background:rgba(12,73,138,.30);"></div><div class="sec-header"><div class="sec-num">01</div><div class="sec-title"><span class="en">The Problem</span><span class="es">El Problema</span></div><div class="sec-rule"></div></div><div class="split" style="position:relative;z-index:2;"><div class="split-panel"><div class="split-frost"><div class="split-h"><span class="en">Market gap</span><span class="es">Brecha de mercado</span></div><div class="body-text"><span class="en">Greenhouses, nurseries, and commercial farmers lack affordable, modular monitoring that works with intermittent connectivity.</span><span class="es">Invernaderos, viveros y agricultores comerciales carecen de monitoreo modular y accesible que funcione con conectividad intermitente.</span></div></div></div><div class="split-panel"><div class="split-frost"><div class="split-h"><span class="en">The Deal</span><span class="es">El Trato</span></div><div class="body-text"><span class="en">Salvadoran startup building Machine Learning–based crop monitoring that helps farmers save water and improve productivity — starting at $300 per system.</span><span class="es">Startup salvadoreña con monitoreo de cultivos basado en Machine Learning que ayuda a agricultores a ahorrar agua y mejorar productividad — desde $300 por sistema.</span></div></div></div></div></div>
-
-<div class="sec" style="position:relative;"><div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&q=80');"></div><div class="sec-ov" style="background:rgba(102,147,72,.30);"></div><div class="sec-header"><div class="sec-num">02</div><div class="sec-title"><span class="en">The Solution</span><span class="es">La Solución</span></div><div class="sec-rule"></div></div><div class="split" style="position:relative;z-index:2;"><div class="split-panel" style="grid-column:1/-1;"><div class="split-frost"><div class="body-text"><span class="en">Low-cost smart monitoring combines environmental data in one dashboard; modular sensors; local processing with sync when connectivity returns.</span><span class="es">Monitoreo inteligente de bajo costo combina datos ambientales en un tablero; sensores modulares; procesamiento local con sincronización cuando hay conectividad.</span></div></div></div></div></div>
-
-<div class="sec" style="position:relative;"><div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80');"></div><div class="sec-ov" style="background:rgba(12,73,138,.30);"></div><div class="sec-header"><div class="sec-num">03</div><div class="sec-title"><span class="en">Market</span><span class="es">Mercado</span></div><div class="sec-rule"></div></div><div class="split" style="position:relative;z-index:2;"><div class="split-panel" style="grid-column:1/-1;"><div class="split-frost"><div class="body-text"><span class="en">Beachhead: smallholder horticulture in El Salvador — nurseries & greenhouses; Year-3 target 3,522 systems at 20% penetration (deck).</span><span class="es">Beachhead: horticultura de pequeños productores en El Salvador — viveros e invernaderos; meta año 3: 3.522 sistemas al 20% de penetración (deck).</span></div></div></div></div></div>
-
-<div class="sec" style="position:relative;"><div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1470071459604-3b5ec3a8fe05?w=1200&q=80');"></div><div class="sec-ov" style="background:rgba(102,147,72,.30);"></div><div class="sec-header"><div class="sec-num">04</div><div class="sec-title"><span class="en">Climate Impact</span><span class="es">Impacto Climático</span></div><div class="sec-rule"></div></div><div class="impact-grid"><div class="imp-card"><div class="imp-icon">🌍</div><div><div class="imp-title"><span class="en">Impact</span><span class="es">Impacto</span></div><div class="imp-text"><span class="en">128.6 million liters of irrigation water saved per year at Year-3 scale (36,500 L saved × 3,522 systems — Agrismart research projection, deck).</span><span class="es">128,6 millones de litros de agua de riego ahorrados por año a escala año 3 (36.500 L × 3.522 sistemas — proyección Agrismart, deck).</span></div></div></div></div><div class="frost-note"><span class="en">CT taxonomy: CT-IC-005 · Precision Ag & Smart Grid · CT-WW-004 · Water Efficiency & Circular Use · CLP26</span><span class="es">Taxonomía CT: CT-IC-005 · Precision Ag & Smart Grid · CT-WW-004 · Water Efficiency & Circular Use · CLP26</span></div></div>
-
-<div class="sec" hidden style="position:relative;"><div class="sec-header"><div class="sec-num">07</div><div class="sec-title"><span class="en">Founders</span><span class="es">Fundadores</span></div></div><div class="team-grid"><div class="team-card"><div class="tp-avatar" style="background:linear-gradient(135deg,var(--fo),var(--lg));">—</div><div class="tp-name">—</div><div class="tp-role">—</div><a class="tp-link" href="#">LinkedIn</a></div></div></div>
+<div class="sec" style="position:relative;">
+  <div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80');"></div>
+  <div class="sec-ov" style="background:rgba(12,73,138,.30);"></div>
+  <div class="sec-header"><div class="sec-num">◎</div>
+    <div class="sec-title"><span class="en">Profile links</span><span class="es">Enlaces del perfil</span></div><div class="sec-rule"></div></div>
+  <div class="meta-wrap"><div class="meta-panel frost-panel"><div class="meta-grid"><div class="meta-item"><div class="meta-label"><span class="en">Founder LinkedIn</span><span class="es">LinkedIn del fundador</span></div><div class="meta-value"><span class="slot-empty" aria-hidden="true">—</span></div></div><div class="meta-item"><div class="meta-label"><span class="en">Website</span><span class="es">Sitio web</span></div><div class="meta-value"><span class="slot-empty" aria-hidden="true">—</span></div></div><div class="meta-item"><div class="meta-label"><span class="en">CT Taxonomy</span><span class="es">Taxonomía CT</span></div><div class="meta-value"><span class="slot-empty" aria-hidden="true">—</span></div></div><div class="meta-item"><div class="meta-label"><span class="en">Nexus profile</span><span class="es">Perfil Nexus</span></div><div class="meta-value"><span class="slot-empty" aria-hidden="true">—</span></div></div><div class="meta-item"><div class="meta-label"><span class="en">One-pager</span><span class="es">One-pager</span></div><div class="meta-value"><a href="https://nexus.cleantechhub.net/s/agrismart">https://nexus.cleantechhub.net/s/agrismart</a></div></div></div></div></div>
+</div>
 
 <div class="sec" style="position:relative;">
-  <div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1200&q=80');"></div>
+  <div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80');"></div>
+  <div class="sec-ov" style="background:rgba(102,147,72,.30);"></div>
+  <div class="sec-header"><div class="sec-num">✎</div>
+    <div class="sec-title"><span class="en">Short description</span><span class="es">Descripción breve</span></div><div class="sec-rule"></div></div>
+  <div class="desc-wrap"><div class="desc-panel frost-panel"><div class="desc-text">Agrismart develops technological solutions to optimize agriculture through automation, sensors, and data analytics. We help farmers improve resource use, reduce losses, and increase productivity in a sustainable way.</div></div></div>
+</div>
+
+<div class="sec" style="position:relative;">
+  <div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1504541331459-5288e5d49ee3?w=1200&q=80');"></div>
+  <div class="sec-ov" style="background:rgba(12,73,138,.30);"></div>
+  <div class="sec-header"><div class="sec-num">📄</div>
+    <div class="sec-title"><span class="en">Pitch deck</span><span class="es">Pitch deck</span></div><div class="sec-rule"></div></div>
+  <div class="deck-note"><span class="en">One slide at a time — use arrows to navigate.</span><span class="es">Una diapositiva a la vez — use las flechas para navegar.</span></div>
+  <div class="deck-wrap"><div class="deck-panel frost-panel">
+    <div class="deck-frame-wrap">
+      <iframe class="deck-frame-single" id="deck-frame" title="Agrismart pitch deck" src="/s/agrismart/deck.pdf#page=1&view=FitH&toolbar=0"></iframe>
+    </div>
+    <div class="deck-nav">
+      <button type="button" class="deck-nav-btn" id="deck-prev" aria-label="Previous slide"><span class="en">← Previous</span><span class="es">← Anterior</span></button>
+      <div class="deck-nav-status" id="deck-status"><span class="en">Slide 1</span><span class="es">Diapositiva 1</span></div>
+      <button type="button" class="deck-nav-btn" id="deck-next" aria-label="Next slide"><span class="en">Next →</span><span class="es">Siguiente →</span></button>
+    </div>
+    <div class="deck-fallback"><span class="en">Deck not loading?</span><span class="es">¿No carga el deck?</span> <a href="/s/agrismart/deck.pdf" target="_blank" rel="noopener"><span class="en">Open PDF</span><span class="es">Abrir PDF</span></a></div>
+  </div>
+  <div class="deck-actions">
+    <a class="cta-link" href="/s/agrismart/deck.pdf" target="_blank" rel="noopener"><span class="en">Open PDF</span><span class="es">Abrir PDF</span></a>
+    <a class="cta-link" href="/s/agrismart/deck.pdf" download><span class="en">Download PDF</span><span class="es">Descargar PDF</span></a>
+  </div></div>
+</div>
+<div class="accent-bar"></div>
+
+
+<div class="sec" style="position:relative;">
+  <div class="sec-bg" style="background-image:url('https://images.unsplash.com/photo-1504541331459-5288e5d49ee3?w=1200&q=80');"></div>
   <div class="sec-ov" style="background:rgba(12,73,138,.30);"></div>
   <div class="cta">
-    <div class="pill" style="background:rgba(157,195,132,.12);border:1px solid rgba(157,195,132,.2);color:var(--lg);margin-bottom:16px;"><span class="en">ML Crop Monitoring</span><span class="es">Monitoreo de Cultivos con ML</span></div>
     <div class="cta-name">Agrismart</div>
-    <div class="cta-pitch"><span class="en">Precision agriculture that saves water without enterprise price tags.</span><span class="es">Agricultura de precisión que ahorra agua sin precios enterprise.</span></div>
-    <a class="cta-btn" href="https://agrismartsv.com"><span class="en">Visit website</span><span class="es">Visitar sitio</span></a>
+    <div class="cta-pitch">Agrismart develops technological solutions to optimize agriculture through automation, sensors, and data analytics. We help farmers improve resource use, reduce losses, and increase productivity in a sustainable way.</div>
     <div class="cta-links">
-      <a class="cta-link" href="https://nexus.cleantechhub.net/s/agrismart"><span class="en">Nexus Profile</span><span class="es">Perfil Nexus</span></a>
+      
+      <a class="cta-link" href="https://nexus.cleantechhub.net/s/agrismart"><span class="en">One-pager</span><span class="es">One-pager</span></a>
+      <a class="cta-link" href="/s/agrismart/deck.pdf" target="_blank" rel="noopener"><span class="en">Pitch deck (PDF)</span><span class="es">Pitch deck (PDF)</span></a>
       <a class="cta-link" href="https://nexus.cleantechhub.net/p/startup-portfolio"><span class="en">157 Startups</span><span class="es">157 Startups</span></a>
-      <a class="cta-link" href="https://drive.google.com/file/d/1g9Gzs9liiq6gRuUwe7eKHS-62Nkv3FCe/view" target="_blank" rel="noopener"><span class="en">Pitch deck (PDF)</span><span class="es">Pitch deck (PDF)</span></a>
     </div>
     <div class="cta-brand"><div class="tg">Inspira. Actúa. Transforma.</div><div class="lg2">Cleantech<em style="color:var(--lg);font-style:normal;">HUB</em></div></div>
-    <div class="cta-port"><span class="en">CleantechHUB portfolio profile · Latin America</span><span class="es">Perfil portafolio CleantechHUB · América Latina</span></div>
+    <div class="cta-port"><span class="en">Draft preview — not deployed to /opt/nexus-onepagers</span><span class="es">Vista previa borrador — no desplegado en /opt/nexus-onepagers</span></div>
   </div>
 </div>
 <div class="accent-bar"></div>
+<script>
+(function() {
+  var page = 1;
+  var maxPage = 9;
+  var frame = document.getElementById('deck-frame');
+  var status = document.getElementById('deck-status');
+  var prev = document.getElementById('deck-prev');
+  var next = document.getElementById('deck-next');
+  var pdfBase = '/s/agrismart/deck.pdf';
+  function label() {
+    var en = document.documentElement.lang === 'es' ? 'Diapositiva ' + page : 'Slide ' + page;
+    status.textContent = en + (maxPage > 1 ? ' / ' + maxPage : '');
+  }
+  function go() {
+    frame.src = pdfBase + '#page=' + page + '&view=FitH&toolbar=0';
+    prev.disabled = page <= 1;
+    next.disabled = page >= maxPage;
+    label();
+  }
+  prev.addEventListener('click', function() { if (page > 1) { page--; go(); } });
+  next.addEventListener('click', function() { if (page < maxPage) { page++; go(); } });
+  go();
+})();
+</script>
 </body>
 </html>

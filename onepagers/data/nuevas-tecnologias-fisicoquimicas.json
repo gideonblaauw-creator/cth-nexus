@@ -1,0 +1,164 @@
+{
+  "slug": "nuevas-tecnologias-fisicoquimicas",
+  "name": "Nuevas Tecnologías Fisicoquímicas",
+  "website": "https://nuevastecnologias.com.co/",
+  "badge_en": "Waterless Cleaning &middot; CLAC22",
+  "badge_es": "Limpieza sin Agua &middot; CLAC22",
+  "hero_image": "https://images.unsplash.com/photo-1548839140-5a941f234e64?w=1200&q=80",
+  "hero_sub_en": "nuevastecnologias.com.co &middot; Colombia &middot; Bogotá &middot; Circular Economy &middot; Stage: Seed",
+  "hero_sub_es": "nuevastecnologias.com.co &middot; Colombia &middot; Bogotá &middot; Economía Circular &middot; Etapa: Seed",
+  "pitch_en": "Develops nanostructured, rinse-free cleaning products using patented hyperdegradation chemistry that significantly reduces water consumption across industrial and consumer applications.",
+  "pitch_es": "Desarrolla productos de limpieza nanoestructurados sin enjuague con química de hiperdegradación patentada, reduciendo significativamente el consumo de agua en aplicaciones industriales y domésticas.",
+  "cta_pitch_en": "Develops nanostructured, rinse-free cleaning products using patented hyperdegradation chemistry that significantly reduces water consumption across industrial and consumer applications.",
+  "cta_pitch_es": "Desarrolla productos de limpieza nanoestructurados sin enjuague con química de hiperdegradación patentada, reduciendo significativamente el consumo de agua en aplicaciones industriales y domésticas.",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "ribbon": [
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    },
+    {
+      "val": "Seed",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLAC22",
+      "sub_es": "CLAC22"
+    },
+    {
+      "val": "Circular",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Métricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLAC22",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Accelerator",
+        "lab_es": "Acelerador"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Industrial and consumer cleaning processes consume large volumes of water and generate contaminated effluents, while industries face pressure to reduce environmental impact.",
+      "head_es": "Los procesos de limpieza industrial y doméstica consumen grandes volúmenes de agua y generan efluentes contaminados, mientras las industrias enfrentan presión por reducir impacto ambiental.",
+      "body_en": "Industrial and consumer cleaning processes consume large volumes of water and generate contaminated effluents, while industries face pressure to reduce environmental impact.",
+      "body_es": "Los procesos de limpieza industrial y doméstica consumen grandes volúmenes de agua y generan efluentes contaminados, mientras las industrias enfrentan presión por reducir impacto ambiental.",
+      "bg": "https://images.unsplash.com/photo-1548839140-5a941f234e64?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "🎯",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Nanostructured hyperdegradation chemistry for rinse-free or low-water cleaning systems (waterless wash).",
+          "text_es": "Química de hiperdegradación nanoestructurada para sistemas de limpieza sin enjuague o con bajo uso de agua."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "Nuevas Tecnologías Fisicoquímicas SAS BIC — CLAC22 (CleantechHUB Colombia ClimAccelerator).",
+          "text_es": "Nuevas Tecnologías Fisicoquímicas SAS BIC — CLAC22 (CleantechHUB Colombia ClimAccelerator)."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Based in Bogotá, Colombia. Public site: nuevastecnologias.com.co.",
+          "text_es": "Con base en Bogotá, Colombia. Sitio público: nuevastecnologias.com.co."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact & Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Wiki source",
+          "title_es": "Fuente Wiki",
+          "text_en": "Profile synced from BookStack Startup Portfolio + Odoo (SoT).",
+          "text_es": "Perfil sincronizado desde BookStack Startup Portfolio + Odoo (SoT)."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomía",
+          "text_en": "CT-WA-004 · Extended Producer Responsibility",
+          "text_es": "CT-WA-004 · Responsabilidad Extendida del Productor"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Luz Marina Gil González",
+          "initials": "LM",
+          "role_en": "General Manager &middot; CLAC22",
+          "role_es": "Gerente General &middot; CLAC22",
+          "bio_en": "Public-facing role: Gerente, Nuevas Tecnologías Fisicoquímicas SAS. Source: company website / public registry.",
+          "bio_es": "Rol público: Gerente, Nuevas Tecnologías Fisicoquímicas SAS. Fuente: sitio web / registro público.",
+          "linkedin": "https://www.linkedin.com/in/luz-marina-gil-gonzalez-4876666a"
+        }
+      ],
+      "dream_en": "Program: CLAC22 · Acceleration. Legal form: SAS BIC. Verified KPIs: [PENDIENTE]. Pitch deck on profile: [PENDIENTE].",
+      "dream_es": "Programa: CLAC22 · Aceleración. Forma jurídica: SAS BIC. KPIs verificados: [PENDIENTE]. Pitch deck en perfil: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1511927071968-6c06b314579a?w=1200&q=80"
+    }
+  ],
+  "image_credits_en": " Section photo: Unsplash — Unsplash contributor. Section photo: Unsplash — Unsplash contributor. Section photo: Unsplash — Unsplash contributor.",
+  "image_credits_es": " Foto de sección: Unsplash — Unsplash contributor. Foto de sección: Unsplash — Unsplash contributor. Foto de sección: Unsplash — Unsplash contributor."
+}

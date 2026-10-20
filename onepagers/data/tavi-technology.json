@@ -1,0 +1,164 @@
+{
+  "slug": "tavi-technology",
+  "name": "TAVI Technology",
+  "website": "https://tavitechnology.com.co",
+  "badge_en": "Wind Energy &middot; CLAC21 &middot; Acceleration",
+  "badge_es": "Energia Eolica &middot; CLAC21 &middot; Acceleration",
+  "hero_image": "https://taviinnova.com/wp-content/uploads/2026/01/Turbina-Hidrica-Home.png",
+  "cta_bg": "https://images.unsplash.com/photo-1548337138-4961de642fff?w=1200&q=80",
+  "hero_sub_en": "tavitechnology.com.co &middot; Colombia &middot; Cali &middot; Energy &middot; Stage: Seed",
+  "hero_sub_es": "tavitechnology.com.co &middot; Colombia &middot; Cali &middot; Energia &middot; Etapa: Seed",
+  "pitch_en": "Designs and manufactures unconventional energy generators enabling sustainable self-generation for urban and rural Colombian communities, with a local innovation patent.",
+  "pitch_es": "Disena y fabrica generadores de energia no convencionales que permiten la autogeneracion sostenible para comunidades urbanas y rurales colombianas, con patente de innovacion local.",
+  "cta_pitch_en": "Colombian-made unconventional generators for distributed renewable self-generation.",
+  "cta_pitch_es": "Generadores no convencionales hechos en Colombia para autogeneracion renovable distribuida.",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "ribbon": [
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "Pais",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    },
+    {
+      "val": "Seed",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLAC21",
+      "sub_es": "CLAC21"
+    },
+    {
+      "val": "Energy",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Metricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLAC21",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Hub",
+        "lab_es": "Hub"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Urban and rural sites need affordable on-site renewable generation where conventional grid extension or standard turbines are not viable.",
+      "head_es": "Sitios urbanos y rurales necesitan generacion renovable local asequible donde la extension de red o turbinas convencionales no son viables.",
+      "body_en": "Urban and rural sites need affordable on-site renewable generation where conventional grid extension or standard turbines are not viable.",
+      "body_es": "Sitios urbanos y rurales necesitan generacion renovable local asequible donde la extension de red o turbinas convencionales no son viables.",
+      "bg": "https://taviinnova.com/wp-content/uploads/2026/01/QuienesSomos-BG2-1024x546.png"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solucion",
+      "steps": [
+        {
+          "icon": "🌱",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Patented high-efficiency generators and hybrid hydro/wind kits with local installation and maintenance services.",
+          "text_es": "Generadores de alta eficiencia patentados y kits hibridos hidro/eolicos con servicios locales de instalacion y mantenimiento."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "TAVI Technology — CLAC21 cohort and CTH Acceleration (Portafolio CTH).",
+          "text_es": "TAVI Technology — cohorte CLAC21 y Acceleration CTH (Portafolio CTH)."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Based in Cali, Valle del Cauca. Public site: tavitechnology.com.co.",
+          "text_es": "Con base en Cali, Valle del Cauca. Sitio publico: tavitechnology.com.co."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1532601220698-5029272cc54e?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact &amp; Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Portfolio source",
+          "title_es": "Fuente portafolio",
+          "text_en": "Profile synced from CleantechHUB Startup Portfolio card and public web sources (Portafolio CTH / Acceleration).",
+          "text_es": "Perfil sincronizado desde tarjeta Startup Portfolio CleantechHUB y fuentes web publicas (Portafolio CTH / Acceleration)."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomia",
+          "text_en": "CT-EN-002 &middot; Wind Energy",
+          "text_es": "CT-EN-002 &middot; Energia Eolica"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Alonso Landazury Sanclemente",
+          "role_en": "Founder &middot; TAVI / Tavi Innova",
+          "role_es": "Fundador &middot; TAVI / Tavi Innova",
+          "bio_en": "Listed as founder on Tavi Innova public site. Public LinkedIn profile: [PENDIENTE].",
+          "bio_es": "Figura como fundador en sitio publico Tavi Innova. Perfil publico LinkedIn: [PENDIENTE].",
+          "initials": "AL"
+        }
+      ],
+      "dream_en": "Program: CLAC21 + CTH Acceleration. City: Cali. Founder LinkedIn: [PENDIENTE]. Verified KPIs: [PENDIENTE]. Image credits: Hero/problem/team: taviinnova.com (Tavi Innova, related public brand). Other sections: Unsplash (renewables).",
+      "dream_es": "Programa: CLAC21 + Acceleration CTH. Ciudad: Cali. LinkedIn fundador: [PENDIENTE]. KPIs verificados: [PENDIENTE]. Creditos imagen: Hero/problema/equipo: taviinnova.com (Tavi Innova, marca publica relacionada). Otras secciones: Unsplash (renovables).",
+      "bg": "https://taviinnova.com/wp-content/uploads/2026/01/Gerente-1.png"
+    }
+  ],
+  "image_credits_en": " Section photo: Unsplash — Unsplash contributor.",
+  "image_credits_es": " Foto de sección: Unsplash — Unsplash contributor."
+}

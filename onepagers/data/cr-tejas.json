@@ -1,0 +1,164 @@
+{
+  "slug": "cr-tejas",
+  "name": "CR Tejas",
+  "website": "#",
+  "badge_en": "Sustainable construction &middot; CleantechHUB Acceleration",
+  "badge_es": "Construcción sostenible &middot; Aceleración CleantechHUB",
+  "hero_image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80",
+  "hero_sub_en": "[PENDIENTE] &middot; Costa Rica &middot; [PENDIENTE] city &middot; Stage: [PENDIENTE] &middot; CT: [PENDIENTE]",
+  "hero_sub_es": "[PENDIENTE] &middot; Costa Rica &middot; ciudad [PENDIENTE] &middot; Etapa: [PENDIENTE] &middot; CT: [PENDIENTE]",
+  "pitch_en": "Costa Rica venture listed in CleantechHUB Acceleration portfolio as CR Tejas — public one-liner pending verification.",
+  "pitch_es": "Empresa de Costa Rica listada en el portafolio de Aceleración CleantechHUB como CR Tejas — one-liner público pendiente de verificación.",
+  "cta_pitch_en": "CleantechHUB Acceleration cohort company from Portafolio CTH sheet (Costa Rica).",
+  "cta_pitch_es": "Empresa cohorte Aceleración CleantechHUB del Portafolio CTH (Costa Rica).",
+  "cta_btn_en": "CleantechHUB",
+  "cta_btn_es": "CleantechHUB",
+  "cta_bg": "https://images.unsplash.com/photo-1605276371049-43ff84389e45?w=1200&q=80",
+  "image_credits_en": "All photos Unsplash (Costa Rica / eco-roofing context; no verified CR Tejas website). Hero <a href=\"https://unsplash.com/photos/be6161a56a0c\" rel=\"noopener\" target=\"_blank\">Daniel Moises D. Magallanes</a>. Sec.1 <a href=\"https://unsplash.com/photos/82a5f0f4e3c4\" rel=\"noopener\" target=\"_blank\">plastic waste</a>. Sec.2 <a href=\"https://unsplash.com/photos/aac4c3f77262\" rel=\"noopener\" target=\"_blank\">modern roofline</a>. Sec.3 <a href=\"https://unsplash.com/photos/3c03256c43ae\" rel=\"noopener\" target=\"_blank\">green home</a>. Sec.4 <a href=\"https://unsplash.com/photos/4472212f024e\" rel=\"noopener\" target=\"_blank\">construction team</a>. CTA <a href=\"https://unsplash.com/photos/43ff84389e45\" rel=\"noopener\" target=\"_blank\">tropical rooftop</a>.",
+  "image_credits_es": "Todas las fotos Unsplash (contexto tejas/eco-techo CR; sin sitio verificado de CR Tejas). Hero <a href=\"https://unsplash.com/photos/be6161a56a0c\" rel=\"noopener\" target=\"_blank\">Daniel Moises D. Magallanes</a>. Sec.1 <a href=\"https://unsplash.com/photos/82a5f0f4e3c4\" rel=\"noopener\" target=\"_blank\">residuos plásticos</a>. Sec.2 <a href=\"https://unsplash.com/photos/aac4c3f77262\" rel=\"noopener\" target=\"_blank\">cubierta moderna</a>. Sec.3 <a href=\"https://unsplash.com/photos/3c03256c43ae\" rel=\"noopener\" target=\"_blank\">vivienda verde</a>. Sec.4 <a href=\"https://unsplash.com/photos/4472212f024e\" rel=\"noopener\" target=\"_blank\">equipo de obra</a>. CTA <a href=\"https://unsplash.com/photos/43ff84389e45\" rel=\"noopener\" target=\"_blank\">techo tropical</a>.",
+  "ribbon": [
+    {
+      "val": "CR",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Costa Rica",
+      "sub_es": "Costa Rica"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CTH Accel.",
+      "sub_es": "Acel. CTH"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Pending",
+      "sub_es": "Pendiente"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "CT Taxonomy",
+      "lab_es": "Taxonomía CT",
+      "sub_en": "Pending",
+      "sub_es": "Pendiente"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CTH",
+        "lab_en": "Acceleration",
+        "lab_es": "Aceleración"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Hub",
+        "lab_es": "Hub"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "CR",
+        "lab_en": "Costa Rica",
+        "lab_es": "Costa Rica"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "[PENDIENTE] — Insufficient verified public information to describe the climate problem statement for CR Tejas.",
+      "head_es": "[PENDIENTE] — Información pública verificada insuficiente para describir el problema climático de CR Tejas.",
+      "body_en": "CleantechHUB portfolio entry &ldquo;CR Tejas&rdquo; (Costa Rica, Acceleration). Website, solution detail, and CT taxonomy: [PENDIENTE].",
+      "body_es": "Entrada de portafolio CleantechHUB &ldquo;CR Tejas&rdquo; (Costa Rica, Aceleración). Sitio web, detalle de solución y taxonomía CT: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1621451537820-82a5f0f4e3c4?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "🏠",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "[PENDIENTE] — Awaiting verified public description of CR Tejas product/service.",
+          "text_es": "[PENDIENTE] — Descripción pública verificada del producto/servicio de CR Tejas pendiente."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "CR Tejas — CleantechHUB Acceleration (Portafolio CTH sheet).",
+          "text_es": "CR Tejas — Aceleración CleantechHUB (hoja Portafolio CTH)."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Costa Rica. Verified website: [PENDIENTE].",
+          "text_es": "Costa Rica. Sitio web verificado: [PENDIENTE]."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1600607687644-aac4c3f77262?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact &amp; Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Portfolio source",
+          "title_es": "Fuente portafolio",
+          "text_en": "Listed in Gideon Portafolio CTH / sheet-s-pages batch (Acceleration, Costa Rica).",
+          "text_es": "Listada en Portafolio CTH de Gideon / batch sheet-s-pages (Aceleración, Costa Rica)."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomía",
+          "text_en": "CT node assignment: [PENDIENTE] (not in public Nexus portfolio card set).",
+          "text_es": "Nodo CT: [PENDIENTE] (no aparece en tarjetas públicas del portafolio Nexus)."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1600047509797-3c03256c43ae?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "[PENDIENTE]",
+          "role_en": "Founder &middot; CR Tejas",
+          "role_es": "Fundador(a) &middot; CR Tejas",
+          "bio_en": "Founder name and public LinkedIn URL not verified via open web search.",
+          "bio_es": "Nombre del fundador y URL pública de LinkedIn no verificados vía búsqueda web abierta.",
+          "initials": "?"
+        }
+      ],
+      "dream_en": "Program: CleantechHUB Acceleration. All KPIs, website, founders, city: [PENDIENTE].",
+      "dream_es": "Programa: Aceleración CleantechHUB. KPIs, sitio web, fundadores, ciudad: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1504307659764-4472212f024e?w=1200&q=80"
+    }
+  ]
+}

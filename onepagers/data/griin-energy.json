@@ -1,0 +1,174 @@
+{
+  "slug": "griin-energy",
+  "name": "Griin Energy",
+  "website": "https://griin.com.co",
+  "badge_en": "Solar Finance &middot; CLAC25",
+  "badge_es": "Financiamiento Solar &middot; CLAC25",
+  "hero_image": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,h=1783,fit=crop/YZ98J1jo3RcxaO7x/img_5777-Yyv0vZeXM0T4Jypq.PNG",
+  "hero_sub_en": "griin.com.co &middot; Barranquilla, Colombia &middot; Clean Energy &middot; Stage: Pre-Seed",
+  "hero_sub_es": "griin.com.co &middot; Barranquilla, Colombia &middot; Energ&iacute;a Limpia &middot; Etapa: Pre-Seed",
+  "pitch_en": "Provides integrated solar energy financing and engineering for Latin American businesses, combining innovative financial models with technical project management.",
+  "pitch_es": "Proporciona financiamiento e ingenier&iacute;a solar integrada para empresas latinoamericanas, combinando modelos financieros innovadores con gesti&oacute;n t&eacute;cnica de proyectos.",
+  "cta_pitch_en": "Solar financing and engineering so companies can adopt clean power with flexible capital structures.",
+  "cta_pitch_es": "Financiamiento e ingenier&iacute;a solar para que empresas adopten energ&iacute;a limpia con estructuras de capital flexibles.",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "ribbon": [
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    },
+    {
+      "val": "Pre-Seed",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLAC25",
+      "sub_es": "CLAC25"
+    },
+    {
+      "val": "Energy",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Métricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLAC25",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Accelerator",
+        "lab_es": "Acelerador"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Many companies in Latin America face high energy costs and barriers to upfront capital for solar self-generation.",
+      "head_es": "Muchas empresas en Am&eacute;rica Latina enfrentan altos costos de energ&iacute;a y barreras de capital inicial para autoconsumo solar.",
+      "body_en": "Many companies in Latin America face high energy costs and barriers to upfront capital for solar self-generation.",
+      "body_es": "Muchas empresas en Am&eacute;rica Latina enfrentan altos costos de energ&iacute;a y barreras de capital inicial para autoconsumo solar.",
+      "bg": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1200,fit=crop,q=95/YZ98J1jo3RcxaO7x/griin-oportunidad-bodega-indal-2-YD0l2RXMP2IZnvJz.png"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "🎯",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "End-to-end solar project finance, design, installation, and O&amp;M—including PPA and leasing models with no initial investment.",
+          "text_es": "Financiamiento integral, dise&ntilde;o, instalaci&oacute;n y O&amp;M solar—incluyendo modelos PPA y leasing sin inversi&oacute;n inicial."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "GRIIN ENERGY SAS — CleantechHUB Acceleration (CLAC25 cohort).",
+          "text_es": "GRIIN ENERGY SAS — Aceleraci&oacute;n CleantechHUB (cohorte CLAC25)."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Based in Barranquilla, Colombia. Public site: griin.com.co.",
+          "text_es": "Con base en Barranquilla, Colombia. Sitio p&uacute;blico: griin.com.co."
+        }
+      ],
+      "bg": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1200,fit=crop/YZ98J1jo3RcxaO7x/el-poder-solar-al-alcance-de-todos-YZ98J1OqNQhWXVJj.png"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact &amp; Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Portfolio source",
+          "title_es": "Fuente portafolio",
+          "text_en": "Profile aligned with CleantechHUB Startup Portfolio card (GRIIN ENERGY SAS, CLAC25) and public website.",
+          "text_es": "Perfil alineado con la tarjeta del Portafolio CleantechHUB (GRIIN ENERGY SAS, CLAC25) y sitio p&uacute;blico."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomía",
+          "text_en": "CT-EN-001 &middot; CT-XS-003 &middot; Solar finance &amp; services",
+          "text_es": "CT-EN-001 &middot; CT-XS-003 &middot; Financiamiento y servicios solares"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Valentina Salazar Choperena",
+          "initials": "VS",
+          "role_en": "CEO &amp; Founder",
+          "role_es": "CEO y Fundadora",
+          "bio_en": "Public-facing CEO &amp; founder (Griin Energy). Source: griin.com.co and public LinkedIn profile.",
+          "bio_es": "CEO y fundadora p&uacute;blica (Griin Energy). Fuente: griin.com.co y perfil p&uacute;blico de LinkedIn.",
+          "linkedin": "https://www.linkedin.com/in/valentina-salazar-choperena"
+        },
+        {
+          "name": "Farid Hadad",
+          "initials": "FH",
+          "role_en": "Co-founder &amp; Head of Investment",
+          "role_es": "Cofundador y L&iacute;der de Inversi&oacute;n",
+          "bio_en": "Co-founder listed on public Griin Energy LinkedIn company profile.",
+          "bio_es": "Cofundador listado en el perfil p&uacute;blico de LinkedIn de Griin Energy.",
+          "linkedin": "https://www.linkedin.com/in/farid-hadad-aa0b31180"
+        }
+      ],
+      "dream_en": "Program: CLAC25 Acceleration. Pitch deck on profile: [PENDIENTE]. Verified KPIs: [PENDIENTE] (site impact claims not copied as verified KPIs).",
+      "dream_es": "Programa: Aceleraci&oacute;n CLAC25. Pitch deck en perfil: [PENDIENTE]. KPIs verificados: [PENDIENTE] (afirmaciones de impacto del sitio no copiadas como KPIs).",
+      "bg": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1200&q=80"
+    }
+  ],
+  "cta_bg": "https://images.unsplash.com/photo-1592839752740-1c271a7e3499?w=1200&q=80",
+  "image_credits_en": "Hero, Problem, Solution: griin.com.co (Zyrosite CDN). Impact/Unsplash: Andreas G&uuml;ckl (photo-1508514177221). Leadership/Unsplash: Matthew Henry (photo-1473341304170). CTA/Unsplash: American Public Power Association (photo-1592839752740).",
+  "image_credits_es": "Hero, Problema, Soluci&oacute;n: griin.com.co (CDN Zyrosite). Impacto/Unsplash: Andreas G&uuml;ckl (photo-1508514177221). Liderazgo/Unsplash: Matthew Henry (photo-1473341304170). CTA/Unsplash: American Public Power Association (photo-1592839752740)."
+}

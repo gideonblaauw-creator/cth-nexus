@@ -1,0 +1,34 @@
+{
+  "version": "2026-10-13",
+  "source": "CLP26 semi-finalist slice JSON (ecomuna, q-mind, pina-kakaw)",
+  "count": 3,
+  "startups": [
+    {
+      "slug": "ecomuna",
+      "name": "Ecomuna",
+      "country": "CR",
+      "program": "CLP26",
+      "stage": "semi",
+      "desc_en": "Plataforma que conecta consumidores conscientes con productos sostenibles y alternativas ecológicas verificadas.",
+      "desc_es": "Plataforma que conecta consumidores conscientes con productos sostenibles y alternativas ecológicas verificadas."
+    },
+    {
+      "slug": "q-mind",
+      "name": "Q-Mind",
+      "country": "SV",
+      "program": "CLP26",
+      "stage": "semi",
+      "desc_en": "Q-Mind is an AI-powered platform that accelerates the discovery and optimization of the next generation of solar cells made of quantum dots. Replacing costly and environmentally damaging laboratory trial-and-error methods with rapid virtual simulations",
+      "desc_es": "Q-Mind is an AI-powered platform that accelerates the discovery and optimization of the next generation of solar cells made of quantum dots. Replacing costly and environmentally damaging laboratory trial-and-error methods with rapid virtual simulations"
+    },
+    {
+      "slug": "pina-kakaw",
+      "name": "Pina&Kakaw",
+      "country": "GT",
+      "program": "CLP26",
+      "stage": "semi",
+      "desc_en": "Transforma residuos de hojas de piña en fibras y textiles sostenibles, reduciendo la contaminación y generando empleo rural para mujere",
+      "desc_es": "Transforma residuos de hojas de piña en fibras y textiles sostenibles, reduciendo la contaminación y generando empleo rural para mujere"
+    }
+  ]
+}
