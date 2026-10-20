@@ -9,7 +9,7 @@
     { id: 'ideas',     label: 'Ideas',      href: '/ideas' },
     { id: 'startups',  label: 'Startups',   href: '/p/startup-portfolio' },
     { id: 'mentors',   label: 'Mentores',   href: '/mentor-directory' },
-    { id: 'hubs',      label: 'Hubs',       labelEn: 'Hubs', href: '/hubs/' },
+    { id: 'hubs',      label: 'HubMap',     labelEn: 'HubMap', href: '/hubs/' },
     { id: 'investors', label: 'Inversores', labelEn: 'Investors', href: '/investors', gated: true },
     { id: 'funders',   label: 'Funders',    href: '/p/funders', gated: true },
     { id: 'ecosystem', label: 'Ecosistema', labelEn: 'Ecosystem', href: '/ecosystem', gated: true },
