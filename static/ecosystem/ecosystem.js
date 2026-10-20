@@ -377,19 +377,6 @@
     }
   }
 
-  function initAuthGate() {
-    const host = location.hostname;
-    const isLocal = host === 'localhost' || host === '127.0.0.1' || location.search.includes('preview=1');
-    if (isLocal) return;
-    fetch('/nexus-auth/api/me', { credentials: 'include' })
-      .then((r) => {
-        if (r.ok) return;
-        const next = encodeURIComponent(location.pathname + location.search);
-        location.href = `/nexus-auth/?next=${next}`;
-      })
-      .catch(() => {});
-  }
-
   async function loadData() {
     const [a, r] = await Promise.all([
       fetch('data/actors.json').then((res) => res.json()),
@@ -413,7 +400,6 @@
 
   initBrand();
   initLang();
-  initAuthGate();
   loadData().catch((err) => {
     console.error(err);
     $('#actor-grid').innerHTML = `<div class="empty-grid">Error loading data: ${esc(err.message)}</div>`;
