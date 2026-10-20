@@ -9,14 +9,17 @@
   <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
   <style>
     .ego-badge { font-size: 10px; background: var(--cth-green); color: #fff; padding: 2px 8px; border-radius: 999px; }
+    body.guide-on .ego-only { display: none !important; }
   </style>
+  <script src="../shared/guide-chapters.js"></script>
 </head>
 <body data-brand="cth">
   <header>
     <div class="badge-dir">Direction 3 · Mockup</div>
-    <h1>Ecosistema LATAM — mapa + red vinculados</h1>
-    <p>Nexus staff · 286 actores · 75 relaciones tipadas · MapLibre (OpenFreeMap) + Cytoscape.js</p>
+    <h1 id="page-title">Ecosistema LATAM — mapa + red vinculados</h1>
+    <p id="page-sub">Nexus staff · 286 actores · 75 relaciones tipadas · MapLibre (OpenFreeMap) + Cytoscape.js</p>
   </header>
+  <div class="guide-banner" id="guide-banner">Modo guiado · Construir partnerships (sin fechas) · Aristas punteadas = <span class="suggested-tag">Suggested</span> (no verificadas)</div>
   <div class="top-bar">
     <div class="brand-lockup"><span class="dot"></span> CleantechHUB Nexus</div>
     <div class="toggle-pill" aria-label="Marca">
@@ -39,21 +42,27 @@
     <span style="font-weight:600;color:var(--muted);font-size:10px">Tipo actor</span>
     <span id="cat-chips" class="chip-row"></span>
     <span style="width:8px"></span>
-    <label class="chip sm" style="cursor:pointer"><input type="checkbox" id="ego-toggle" style="margin-right:4px"/> Ego</label>
-    <select id="ego-depth" class="chip sm" style="appearance:auto;padding:4px 6px">
-      <option value="1">1-hop</option>
-      <option value="2" selected>2-hop</option>
-      <option value="3">3-hop</option>
-    </select>
-    <span id="ego-hint" class="ego-badge hidden">Ego 2-hop</span>
+    <span class="ego-only">
+      <label class="chip sm" style="cursor:pointer"><input type="checkbox" id="ego-toggle" style="margin-right:4px"/> Ego</label>
+      <select id="ego-depth" class="chip sm" style="appearance:auto;padding:4px 6px">
+        <option value="1">1-hop</option>
+        <option value="2" selected>2-hop</option>
+        <option value="3">3-hop</option>
+      </select>
+      <span id="ego-hint" class="ego-badge hidden">Ego 2-hop</span>
+    </span>
+    <span id="guide-chapter-label" style="font-weight:700;color:var(--head);margin-left:auto"></span>
   </div>
   <div class="legend-bar" id="edge-legend"></div>
+  <div class="main-grid">
+  <aside id="guide-rail"></aside>
   <div class="workspace" id="workspace">
     <div class="map-pane"><span class="pane-label">Mapa LATAM</span><div id="map"></div></div>
     <div class="graph-pane"><span class="pane-label">Red de relaciones</span><div id="graph"></div></div>
     <aside class="inspector empty" id="inspector">
       Selecciona un actor en el mapa o la red para ver fichas y relaciones tipadas.
     </aside>
+  </div>
   </div>
   <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.30.2/cytoscape.min.js"></script>
@@ -86,6 +95,9 @@
     fetch('../shared/relations.json').then(r => r.json()),
   ]);
   const byId = new Map(actors.map(a => [a.id, a]));
+  const Guide = window.NexusGuide;
+  const gapCounts = Guide.computeGapCounts(relations, byId);
+  window.__guideGapCounts = gapCounts;
 
   let countryFilter = 'ALL';
   let activeCats = new Set(Object.keys(CAT_LABEL));
@@ -93,8 +105,65 @@
   let egoOn = false;
   let egoDepth = 2;
   let cy = null;
+  const guideMode = params.get('mode') === 'guide';
+  let guideChapter = Math.min(4, Math.max(0, parseInt(params.get('chapter') || '0', 10)));
+  let constellationId = params.get('constellation') || null;
+  let constellationClose = params.get('closeup') === '1';
 
   if (params.get('mobile') === '1') document.body.classList.add('mobile-layout');
+  if (guideMode) {
+    document.body.classList.add('guide-on');
+    document.getElementById('page-title').textContent = 'Partnerships guiados — mapa + red (D5 sobre D3)';
+    document.getElementById('page-sub').textContent = 'Capítulos para construir alianzas · datos reales + sugerencias etiquetadas';
+    initGuideRail();
+  }
+
+  function initGuideRail() {
+    const rail = document.getElementById('guide-rail');
+    rail.innerHTML = '<p style="font-size:11px;color:var(--muted);line-height:1.45;margin:0 0 10px">Recorrido staff: cada capítulo filtra la misma vista mapa+grafo+inspector. Capítulo 5 arma constelaciones reto-centradas.</p>';
+    Guide.CHAPTER_DEFS.forEach((ch, idx) => {
+      const div = document.createElement('div');
+      div.className = 'guide-step' + (idx === guideChapter ? ' on' : '');
+      div.dataset.idx = idx;
+      div.innerHTML = `<h3>${ch.titleEs}</h3><p>${ch.blurb}</p>`;
+      div.addEventListener('click', () => {
+        guideChapter = idx;
+        constellationId = null;
+        constellationClose = false;
+        rail.querySelectorAll('.guide-step').forEach(s => s.classList.toggle('on', parseInt(s.dataset.idx, 10) === idx));
+        rebuild();
+      });
+      rail.appendChild(div);
+    });
+    const gaps = document.createElement('div');
+    gaps.className = 'guide-gaps';
+    gaps.innerHTML = '<strong>Conteo real por capítulo</strong>' + gapCounts.filter(g => g.chapter !== 'gaps').map(g =>
+      `<div>${g.title}: <b>${g.total}</b> rel. ${Object.entries(g.byType).map(([t,n]) => `${t} (${n})`).join(', ') || '—'}</div>`
+    ).join('') + gapCounts.filter(g => g.chapter === 'gaps').map(g =>
+      `<div style="margin-top:6px">Gaps: ${Object.entries(g.byType).map(([k,v]) => `${k}: ${v}`).join(' · ')}</div>`
+    ).join('');
+    rail.appendChild(gaps);
+  }
+
+  function updateGuideLabel() {
+    if (!guideMode) return;
+    const ch = Guide.CHAPTER_DEFS[guideChapter];
+    let t = ch.titleEs;
+    if (guideChapter === 4 && constellationId) t += constellationClose ? ' · close-up' : ' · ' + constellationId;
+    document.getElementById('guide-chapter-label').textContent = t;
+  }
+
+  function challengeNode(id) {
+    const m = Guide.CHALLENGE_META[id];
+    if (!m) return null;
+    return { id, name: m.labelEs, category: 'challenge', country: m.country, geo: m.geo, notes: 'Nodo reto (Canva extract)' };
+  }
+
+  function colorForKind(id, a) {
+    if (Guide.isChallengeId(id)) return '#2a9d8f';
+    if (!a) return CAT.default;
+    return CAT[a.category] || CAT.default;
+  }
 
   document.querySelectorAll('[data-brand-btn]').forEach(btn => {
     btn.addEventListener('click', () => {
@@ -168,7 +237,154 @@
     return { x: (g.lng + 85) * 12, y: (g.lat + 18) * 12 };
   }
 
+  function cyStylesheet() {
+    return [
+      { selector: 'node', style: {
+        label: 'data(label)', 'background-color': 'data(color)', width: 'data(size)', height: 'data(size)',
+        'font-size': 7, 'text-wrap': 'wrap', 'text-max-width': 72, 'border-width': 1, 'border-color': '#fff',
+        shape: 'data(shape)',
+      }},
+      { selector: 'node[kind = "challenge"]', style: {
+        shape: 'diamond', 'background-color': '#2a9d8f', 'border-width': 2, 'border-color': '#0c498a',
+      }},
+      { selector: 'edge', style: {
+        width: 'data(width)', 'line-color': 'data(color)', 'target-arrow-color': 'data(color)',
+        'target-arrow-shape': 'triangle', 'curve-style': 'bezier', opacity: 0.85,
+        'line-style': 'data(lineStyle)',
+      }},
+      { selector: 'edge[suggested = "yes"]', style: {
+        'line-style': 'dashed', 'line-dash-pattern': [6, 4], opacity: 0.7,
+        label: 'data(edgeLabel)', 'font-size': 8, color: '#b45309',
+      }},
+      { selector: ':selected', style: { 'border-width': 3, 'border-color': '#e87722' } },
+    ];
+  }
+
+  function mountCy(nodes, edges, visSet) {
+    if (cy) cy.destroy();
+    cy = cytoscape({
+      container: document.getElementById('graph'),
+      elements: { nodes, edges },
+      style: cyStylesheet(),
+      layout: { name: 'preset' },
+      wheelSensitivity: 0.25,
+    });
+    cy.on('tap', 'node', (evt) => selectActor(evt.target.id()));
+    document.getElementById('n-visible').textContent = String(visSet.size);
+    updateMap(visSet);
+    if (selected && visSet.has(selected)) {
+      cy.$id(selected).select();
+      refreshStyles();
+    }
+    updateGuideLabel();
+  }
+
+  function rebuildGuide() {
+    updateGuideLabel();
+    const ch = Guide.CHAPTER_DEFS[guideChapter];
+    if (ch.id === 'partnerships') {
+      rebuildPartnerships();
+      return;
+    }
+    const chRels = Guide.relationsForChapter(ch.id, relations);
+    const vis = new Set();
+    chRels.forEach(r => {
+      vis.add(r.source);
+      vis.add(r.target);
+    });
+    if (ch.id === 'challenges') {
+      chRels.forEach(r => vis.add(r.target));
+    }
+    const nodes = [];
+    const edges = [];
+    vis.forEach(id => {
+      if (Guide.isChallengeId(id)) {
+        const c = challengeNode(id);
+        const g = c.geo;
+        nodes.push({
+          data: { id, label: c.name, size: 28, color: '#2a9d8f', kind: 'challenge', shape: 'diamond' },
+          position: { x: (g.lng + 85) * 12, y: (g.lat + 18) * 12 },
+        });
+        return;
+      }
+      const a = byId.get(id);
+      if (!a) return;
+      const p = graphXY(a);
+      nodes.push({
+        data: {
+          id, label: a.name.length > 22 ? a.name.slice(0, 20) + '…' : a.name,
+          size: Math.max(8, sizeFor(id)), color: colorForKind(id, a), kind: 'org', shape: 'ellipse',
+        },
+        position: { x: p.x, y: p.y },
+      });
+    });
+    chRels.forEach((r, i) => {
+      if (!vis.has(r.source) || !vis.has(r.target)) return;
+      edges.push({
+        data: {
+          id: 'e' + i, source: r.source, target: r.target, type: r.type,
+          color: EDGE[r.type] || EDGE.default, width: 2, suggested: 'no', lineStyle: 'solid', edgeLabel: '',
+        },
+      });
+    });
+    mountCy(nodes, edges, vis);
+  }
+
+  function rebuildPartnerships() {
+    const vis = new Set();
+    const nodes = [];
+    const edges = [];
+    const specs = constellationClose && constellationId
+      ? [Guide.CONSTELLATIONS.find(c => c.id === constellationId) || Guide.CONSTELLATIONS[0]]
+      : Guide.CONSTELLATIONS;
+    const xOff = constellationClose ? 0 : [-220, 0, 220];
+
+    specs.forEach((spec, idx) => {
+      const built = Guide.buildConstellation(spec.id, relations, byId);
+      const ox = constellationClose ? 0 : xOff[idx] || 0;
+      built.nodes.forEach(n => {
+        vis.add(n.id);
+        const a = byId.get(n.id);
+        nodes.push({
+          data: {
+            id: n.id,
+            label: n.label,
+            size: n.size || 16,
+            color: n.kind === 'challenge' ? '#2a9d8f' : colorForKind(n.id, a),
+            kind: n.kind || 'org',
+            shape: n.kind === 'challenge' ? 'diamond' : 'ellipse',
+          },
+          position: { x: n.position.x + ox, y: n.position.y },
+        });
+      });
+      built.edges.forEach(e => {
+        edges.push({
+          data: {
+            id: e.id + '-' + spec.id,
+            source: e.source,
+            target: e.target,
+            type: e.type,
+            color: e.suggested ? '#f97316' : (EDGE[e.type] || EDGE.default),
+            width: e.suggested ? 1.5 : 2.5,
+            suggested: e.suggested ? 'yes' : 'no',
+            lineStyle: e.suggested ? 'dashed' : 'solid',
+            edgeLabel: e.suggested ? 'Suggested' : '',
+          },
+        });
+      });
+    });
+    mountCy(nodes, edges, vis);
+    if (constellationClose && specs[0]) {
+      const c = Guide.CHALLENGE_META[specs[0].challengeId];
+      if (c) map.jumpTo({ center: [c.geo.lng, c.geo.lat], zoom: 5.5 });
+    }
+  }
+
   function rebuild() {
+    if (guideMode) {
+      rebuildGuide();
+      return;
+    }
     const vis = visibleNodeSet();
     const nodes = [];
     const edges = [];
@@ -181,6 +397,8 @@
           label: a.name.length > 22 ? a.name.slice(0, 20) + '…' : a.name,
           size: sizeFor(a.id),
           color: colorFor(a.id),
+          kind: 'org',
+          shape: 'ellipse',
         },
         position: { x: p.x, y: p.y },
       });
@@ -195,34 +413,13 @@
           type: r.type,
           color: EDGE[r.type] || EDGE.default,
           width: selected && (r.source === selected || r.target === selected) ? 2.5 : 1,
+          suggested: 'no',
+          lineStyle: 'solid',
+          edgeLabel: '',
         },
       });
     });
-    if (cy) cy.destroy();
-    cy = cytoscape({
-      container: document.getElementById('graph'),
-      elements: { nodes, edges },
-      style: [
-        { selector: 'node', style: {
-          label: 'data(label)', 'background-color': 'data(color)', width: 'data(size)', height: 'data(size)',
-          'font-size': 7, 'text-wrap': 'wrap', 'text-max-width': 64, 'border-width': 1, 'border-color': '#fff',
-        }},
-        { selector: 'edge', style: {
-          width: 'data(width)', 'line-color': 'data(color)', 'target-arrow-color': 'data(color)',
-          'target-arrow-shape': 'triangle', 'curve-style': 'bezier', opacity: 0.75,
-        }},
-        { selector: ':selected', style: { 'border-width': 3, 'border-color': '#e87722' } },
-      ],
-      layout: { name: 'preset' },
-      wheelSensitivity: 0.25,
-    });
-    cy.on('tap', 'node', (evt) => selectActor(evt.target.id()));
-    document.getElementById('n-visible').textContent = String(vis.size);
-    updateMap(vis);
-    if (selected && vis.has(selected)) {
-      cy.$id(selected).select();
-      refreshStyles();
-    }
+    mountCy(nodes, edges, vis);
   }
 
   function sizeFor(id) {
@@ -260,6 +457,20 @@
 
   function renderInspector(id) {
     const el = document.getElementById('inspector');
+    if (Guide.isChallengeId(id)) {
+      const m = Guide.CHALLENGE_META[id];
+      const linked = relations.filter(r => r.target === id || r.source === id);
+      el.classList.remove('empty');
+      el.innerHTML = `<div style="padding:14px"><h2>${esc(m?.labelEs || id)}</h2>
+        <div class="meta">Nodo reto · ${linked.length} works_on_challenge en datos</div>
+        <div class="section"><h3>Actores vinculados (real)</h3>
+        ${linked.slice(0, 10).map(r => {
+          const o = byId.get(r.source);
+          return `<div class="rel-row"><span class="rtype">${r.type.replace(/_/g,'-')}</span>${esc(o?.name || r.source)}</div>`;
+        }).join('')}</div>
+        <p style="font-size:10px;color:var(--muted)">Capítulo 5 puede proponer <span class="suggested-tag">Suggested</span> hub/startup/funder; no sustituye relaciones verificadas.</p></div>`;
+      return;
+    }
     const a = byId.get(id);
     if (!a) return;
     el.classList.remove('empty');
@@ -293,23 +504,36 @@
     if (cy) cy.$id(id).select();
     refreshStyles();
     updateMap(visibleNodeSet());
-    const a = byId.get(id);
-    if (a) {
+    const a = byId.get(id) || challengeNode(id);
+    if (a?.geo) {
       map.flyTo({ center: [a.geo.lng, a.geo.lat], zoom: Math.max(map.getZoom(), 5.2), speed: 0.9, essential: true });
     }
   }
 
   function updateMap(vis) {
-    const feats = actors.filter(a => vis.has(a.id)).map(a => ({
-      type: 'Feature',
-      properties: {
-        id: a.id,
-        sel: a.id === selected ? 1 : 0,
-        cat: a.category,
-        color: a.id === selected ? '#e87722' : (CAT[a.category] || CAT.default),
-      },
-      geometry: { type: 'Point', coordinates: [a.geo.lng, a.geo.lat] },
-    }));
+    const feats = [];
+    actors.filter(a => vis.has(a.id)).forEach(a => {
+      feats.push({
+        type: 'Feature',
+        properties: {
+          id: a.id,
+          sel: a.id === selected ? 1 : 0,
+          cat: a.category,
+          color: a.id === selected ? '#e87722' : (CAT[a.category] || CAT.default),
+        },
+        geometry: { type: 'Point', coordinates: [a.geo.lng, a.geo.lat] },
+      });
+    });
+    vis.forEach(id => {
+      if (!Guide.isChallengeId(id)) return;
+      const c = Guide.CHALLENGE_META[id];
+      if (!c) return;
+      feats.push({
+        type: 'Feature',
+        properties: { id, sel: id === selected ? 1 : 0, color: '#2a9d8f' },
+        geometry: { type: 'Point', coordinates: [c.geo.lng, c.geo.lat] },
+      });
+    });
     const data = { type: 'FeatureCollection', features: feats };
     const apply = () => {
       if (!map.getSource('actors')) {
@@ -369,6 +593,12 @@
   });
 
   function applyDemoState() {
+    if (guideMode) {
+      if (params.get('actor')) selected = params.get('actor');
+      rebuild();
+      if (selected) renderInspector(selected);
+      return;
+    }
     const state = params.get('state') || 'overview';
     if (state === 'filters') {
       countryFilter = params.get('country') || 'PE';

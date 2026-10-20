@@ -1,0 +1,41 @@
+{
+  "challenges": {
+    "total": 35,
+    "by_type": {
+      "works_on_challenge": 35
+    }
+  },
+  "policy": {
+    "total": 12,
+    "by_type": {
+      "runs_program": 4,
+      "participates": 2,
+      "created": 1,
+      "runs_initiative": 1,
+      "oversees": 1,
+      "regulates_layer": 3
+    }
+  },
+  "capital": {
+    "total": 8,
+    "by_type": {
+      "cofunds": 4,
+      "funds_layer": 4
+    }
+  },
+  "hubs": {
+    "total": 16,
+    "by_type": {
+      "hosts": 9,
+      "partner": 2,
+      "incubated": 4,
+      "accelerated": 1
+    }
+  },
+  "gaps": {
+    "funder_works_on_challenge": 8,
+    "startup_works_on_challenge": 2,
+    "funded_by_edges": 0,
+    "donor_to_challenge_typed_funded_by": 0
+  }
+}
