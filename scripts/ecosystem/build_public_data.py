@@ -35,12 +35,20 @@ SENSITIVE_PATTERNS = [
 ]
 
 
+GENERIC_HOSTS = frozenset(
+    {"facebook.com", "instagram.com", "linkedin.com", "twitter.com", "x.com", "linktr.ee"}
+)
+
+
 def host_key(url: str | None) -> str | None:
     if not url:
         return None
     u = url if url.startswith("http") else f"https://{url}"
     try:
-        h = urlparse(u).netloc.lower().replace("www.", "")
+        p = urlparse(u)
+        h = p.netloc.lower().replace("www.", "")
+        if not h or h in GENERIC_HOSTS:
+            return None
         return h or None
     except Exception:
         return None
@@ -97,9 +105,8 @@ def match_card_slug(actor: dict, idx: dict) -> str | None:
     if nm and nm in idx["name"]:
         return idx["name"][nm]
     aid = actor.get("id", "")
-    for part in aid.split("-"):
-        if part.lower() in idx["slug"]:
-            return idx["slug"][part.lower()]
+    if aid.lower() in idx["slug"]:
+        return idx["slug"][aid.lower()]
     tail = aid.split("-", 1)[-1] if "-" in aid else aid
     if tail.lower() in idx["slug"]:
         return idx["slug"][tail.lower()]
