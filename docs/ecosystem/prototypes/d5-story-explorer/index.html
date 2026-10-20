@@ -3,99 +3,251 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>D5 · Story explorer</title>
+  <title>D5 · Story explorer — CleantechHUB Nexus</title>
   <link rel="stylesheet" href="../shared/common.css" />
+  <link rel="stylesheet" href="../shared/eco-brand.css" />
+  <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
   <style>
-    .layout { display: grid; grid-template-columns: 280px 1fr; height: calc(100vh - 118px); min-height: 520px; }
-    .story { border-right: 1px solid var(--border); background: #fff; padding: 12px; overflow: auto; }
+    .layout-main {
+      display: grid;
+      grid-template-columns: 300px 1fr 280px;
+      height: calc(100vh - 168px);
+      min-height: 480px;
+    }
+    .story-rail { background: #fff; border-right: 1px solid var(--border); padding: 12px; overflow: auto; }
+    .story-rail .intro { font-size: 11px; color: var(--muted); line-height: 1.5; margin-bottom: 10px; }
     .step { border: 1px solid var(--border); border-radius: 10px; padding: 10px; margin-bottom: 8px; cursor: pointer; font-size: 11px; }
-    .step.on { border-color: var(--accent); background: #f0f7ff; }
+    .step.on { border-color: var(--accent); background: linear-gradient(135deg, #fff5eb, #fff); }
     .step h3 { margin: 0 0 4px; font-size: 12px; color: var(--head); }
-    #graph { background: #eef6fb; width: 100%; height: 100%; min-height: 480px; position: relative; }
-    #graph svg { width: 100%; height: 100%; }
-    input[type=range] { width: 100%; margin-top: 8px; }
+    .time-block { margin-top: 14px; padding: 10px; background: #f8fcff; border-radius: 10px; border: 1px solid var(--border); }
+    .time-block label { font-size: 10px; font-weight: 700; color: var(--head); display: block; margin-bottom: 6px; }
+    .time-val { font-size: 18px; font-weight: 700; color: var(--accent); }
+    .canvas-wrap { position: relative; display: grid; grid-template-rows: 1fr 140px; }
+    #graph { min-height: 320px; background: #eef6fb; }
+    #mini-map { height: 140px; border-top: 1px solid var(--border); }
+    .actor-panel { border-left: 1px solid var(--border); background: #fff; padding: 12px; overflow: auto; font-size: 12px; }
+    .actor-panel.empty { color: var(--muted); font-size: 11px; display: flex; align-items: center; justify-content: center; text-align: center; }
   </style>
 </head>
 <body data-brand="rein">
   <header>
-    <div class="badge-dir">Direction 5</div>
-    <h1>Story-driven explorer — REIN program narrative</h1>
-    <p>Guided chapters + time slider (cohort proxy) · highlights subgraph per story beat</p>
+    <div class="badge-dir">Direction 5 · Mockup</div>
+    <h1>Explorador narrativo REIN / CLP</h1>
+    <p>Capítulos guiados · línea de tiempo (proxy cohorte) · 286 actores · relaciones tipadas</p>
   </header>
+  <div class="top-bar">
+    <div class="brand-lockup"><span class="dot"></span> REIN · CleantechHUB</div>
+    <div class="toggle-pill">
+      <button type="button" data-brand-btn="cth">CTH</button>
+      <button type="button" data-brand-btn="rein" class="active">REIN</button>
+    </div>
+    <div class="stat-pills">
+      <div><strong>286</strong>actores</div>
+      <div><strong id="ch-stat">—</strong>en capítulo</div>
+    </div>
+  </div>
   <div class="toolbar">
-    <span id="chapter-label" style="font-weight:700;color:var(--head)"></span>
-    <span id="stat" style="color:var(--muted)"></span>
+    <span id="chapter-title" style="font-weight:700;color:var(--head)"></span>
+    <span id="chapter-sub" style="color:var(--muted);font-size:11px;margin-left:8px"></span>
   </div>
-  <div class="layout">
-    <div class="story" id="steps"></div>
-    <div id="graph"><svg id="graph-svg" viewBox="-160 -160 320 320"></svg></div>
+  <div class="layout-main">
+    <div class="story-rail" id="story-rail"></div>
+    <div class="canvas-wrap">
+      <div id="graph"></div>
+      <div id="mini-map"></div>
+    </div>
+    <div class="actor-panel empty" id="actor-panel">Clic en un nodo para ficha del actor.</div>
   </div>
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.30.2/cytoscape.min.js"></script>
   <script>
 (async function () {
+  const params = new URLSearchParams(location.search);
   const [actors, relations] = await Promise.all([
     fetch('../shared/actors-geo.json').then(r => r.json()),
     fetch('../shared/relations.json').then(r => r.json()),
   ]);
-  const CAT = { startup:'#e87722', accelerator:'#669348', funder:'#0c498a', government:'#6b4c9a', academia:'#2a9d8f', corporate:'#457b9d', international:'#f4a261', finance:'#264653', ngo_foundation:'#e76f51', chamber:'#8d99ae', media:'#bc6c25', default:'#5a7088' };
+  const byId = new Map(actors.map(a => [a.id, a]));
+  const CAT = {
+    startup: '#e87722', accelerator: '#669348', funder: '#0c498a', government: '#6b4c9a',
+    academia: '#2a9d8f', corporate: '#457b9d', international: '#f4a261', finance: '#264653',
+    ngo_foundation: '#e76f51', chamber: '#8d99ae', media: '#bc6c25', default: '#5a7088',
+  };
+  const EDGE = {
+    works_on_challenge: '#2a9d8f', hosts: '#669348', cofunds: '#264653', funds_layer: '#0c498a',
+    partner: '#e87722', incubated: '#e87722', accelerated: '#e87722', runs_program: '#6b4c9a',
+    default: '#94a3b8',
+  };
 
   const chapters = [
-    { id: 'challenges', title: '1 · Retos climáticos', blurb: 'Organizaciones vinculadas a desafíos (works_on_challenge).', types: new Set(['works_on_challenge']) },
-    { id: 'policy', title: '2 · Política & regulación', blurb: 'Capas gubernamentales y regulación.', types: new Set(['regulates_layer', 'runs_program', 'oversees']) },
-    { id: 'capital', title: '3 · Capital & cofinanciamiento', blurb: 'Flujos cofunds / funds_layer hacia hubs.', types: new Set(['cofunds', 'funds_layer']) },
-    { id: 'hubs', title: '4 · Hubs & incubación', blurb: 'Universidades → incubadoras → startups.', types: new Set(['hosts', 'incubated', 'accelerated']) },
-    { id: 'network', title: '5 · Alianzas', blurb: 'Partnerships y redes transversales.', types: new Set(['partner', 'part_of_group', 'part_of_network', 'participates']) },
+    { id: 'opening', title: 'Apertura · Panorama LATAM', sub: '286 actores; relaciones atenuadas en gris.', types: null },
+    { id: 'clp26', title: 'Capítulo · CLP26 cohorte', sub: 'works_on_challenge, incubated, accelerated.', types: new Set(['works_on_challenge', 'incubated', 'accelerated']) },
+    { id: 'hubs', title: 'Capítulo · Crecimiento de hubs', sub: 'hosts + partner (Emprende UP, REIN SV).', types: new Set(['hosts', 'partner']) },
+    { id: 'funding', title: 'Capítulo · Flujos de financiamiento', sub: 'cofunds + funds_layer.', types: new Set(['cofunds', 'funds_layer']) },
   ];
 
-  const pos = new Map();
-  actors.forEach((a, i) => {
-    pos.set(a.id, { x: Math.cos(i / actors.length * 6.28) * 110, y: Math.sin(i / actors.length * 6.28) * 110 });
-  });
-  const svg = document.getElementById('graph-svg');
-
-  function applyChapter(ch) {
-    const activeRels = relations.filter(r => ch.types.has(r.type));
-    const activeNodes = new Set();
-    activeRels.forEach(r => { activeNodes.add(r.source); activeNodes.add(r.target); });
-    svg.innerHTML = '';
-    activeRels.forEach(r => {
-      const s = pos.get(r.source), t = pos.get(r.target);
-      if (!s || !t) return;
-      svg.insertAdjacentHTML('beforeend', `<line x1="${s.x}" y1="${s.y}" x2="${t.x}" y2="${t.y}" stroke="#0c498a" stroke-width="1.2" opacity="0.55"/>`);
-    });
-    activeNodes.forEach(id => {
-      const p = pos.get(id);
-      const a = actors.find(x => x.id === id);
-      const col = CAT[a?.category] || '#e87722';
-      svg.insertAdjacentHTML('beforeend', `<circle cx="${p.x}" cy="${p.y}" r="7" fill="${col}" stroke="#fff" stroke-width="1"/>`);
-    });
-    document.getElementById('chapter-label').textContent = ch.title;
-    document.getElementById('stat').textContent = `${activeRels.length} relaciones · ${activeNodes.size} actores destacados`;
+  function relationYear(r) {
+    const map = { incubated: 2026, accelerated: 2026, works_on_challenge: 2025, partner: 2025, hosts: 2022, cofunds: 2024, funds_layer: 2023 };
+    return map[r.type] || 2024;
   }
 
-  const stepsEl = document.getElementById('steps');
+  let year = parseInt(params.get('year') || '2026', 10);
+  let chapterIdx = parseInt(params.get('chapter') || '0', 10);
+  let selected = params.get('actor') || null;
+  let cy = null;
+
+  const miniMap = new maplibregl.Map({
+    container: 'mini-map',
+    style: 'https://tiles.openfreemap.org/styles/liberty',
+    center: [-74, -8],
+    zoom: 2.8,
+    interactive: false,
+    attributionControl: false,
+  });
+
+  function pos(a, i) {
+    const g = a.geo;
+    return { x: (g.lng + 85) * 10, y: (g.lat + 18) * 10 };
+  }
+
+  function esc(s) { return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;'); }
+
+  function applyView() {
+    const ch = chapters[chapterIdx];
+    document.getElementById('chapter-title').textContent = ch.title;
+    document.getElementById('chapter-sub').textContent = ch.sub;
+
+    const activeRels = relations.filter(r => relationYear(r) <= year && (!ch.types || ch.types.has(r.type)));
+    const activeNodes = new Set();
+    activeRels.forEach(r => { activeNodes.add(r.source); activeNodes.add(r.target); });
+
+    const nodes = actors.map((a, i) => {
+      const on = ch.id === 'opening' || activeNodes.has(a.id);
+      const p = pos(a, i);
+      return {
+        data: {
+          id: a.id,
+          label: on && (activeNodes.has(a.id) || ch.id === 'opening') ? a.name.slice(0, 14) : '',
+          color: on ? (CAT[a.category] || CAT.default) : '#e8eef4',
+          size: a.id === selected ? 22 : (on ? (a.category === 'startup' ? 14 : 10) : 4),
+          dim: on ? 0 : 1,
+        },
+        position: p,
+      };
+    });
+    const edges = relations.filter(r => byId.has(r.source) && byId.has(r.target)).map((r, i) => {
+      const show = relationYear(r) <= year && (!ch.types || ch.types.has(r.type));
+      const opening = ch.id === 'opening';
+      return {
+        data: {
+          id: 'e' + i,
+          source: r.source,
+          target: r.target,
+          type: r.type,
+          color: opening ? '#d1dbe8' : (show ? (EDGE[r.type] || EDGE.default) : '#eef2f7'),
+          width: opening ? 0.6 : (show ? 1.8 : 0.3),
+        },
+      };
+    });
+
+    if (cy) cy.destroy();
+    try {
+    cy = cytoscape({
+      container: document.getElementById('graph'),
+      elements: { nodes, edges },
+      style: [
+        { selector: 'node', style: {
+          'background-color': 'data(color)', width: 'data(size)', height: 'data(size)',
+          label: 'data(label)', 'font-size': 7, opacity: 'mapData(dim, 0, 1, 1, 0.25)',
+          'border-width': 1, 'border-color': '#fff',
+        }},
+        { selector: 'node:selected', style: { 'border-width': 3, 'border-color': '#e87722' } },
+        { selector: 'edge', style: {
+          width: 'data(width)', 'line-color': 'data(color)', 'target-arrow-color': 'data(color)',
+          'target-arrow-shape': 'triangle', 'curve-style': 'bezier', opacity: 0.8,
+        }},
+      ],
+      layout: { name: 'preset' },
+    });
+    cy.on('tap', 'node', (evt) => renderActor(evt.target.id()));
+    } catch (err) {
+      console.error(err);
+    }
+
+    document.getElementById('ch-stat').textContent = String(ch.types ? activeNodes.size : actors.length);
+
+    const feats = actors.filter(a => ch.id === 'opening' || activeNodes.has(a.id)).map(a => ({
+      type: 'Feature',
+      properties: { color: CAT[a.category] || '#999' },
+      geometry: { type: 'Point', coordinates: [a.geo.lng, a.geo.lat] },
+    }));
+    const setMap = () => {
+      const data = { type: 'FeatureCollection', features: feats.length ? feats : actors.slice(0, 3).map(a => ({
+        type: 'Feature', properties: { color: '#999' }, geometry: { type: 'Point', coordinates: [a.geo.lng, a.geo.lat] },
+      })) };
+      if (!miniMap.getSource('a')) {
+        miniMap.addSource('a', { type: 'geojson', data });
+        miniMap.addLayer({ id: 'p', type: 'circle', source: 'a', paint: { 'circle-radius': 3, 'circle-color': ['get', 'color'], 'circle-opacity': 0.85 } });
+      } else miniMap.getSource('a').setData(data);
+    };
+    if (miniMap.loaded()) setMap(); else miniMap.once('load', setMap);
+    if (selected) cy.$id(selected).select();
+  }
+
+  function renderActor(id) {
+    selected = id;
+    const a = byId.get(id);
+    const panel = document.getElementById('actor-panel');
+    panel.classList.remove('empty');
+    const rels = relations.filter(r => r.source === id || r.target === id);
+    panel.innerHTML = `
+      <h2 style="margin:0;font-size:14px;color:var(--head)">${esc(a.name)}</h2>
+      <p style="font-size:11px;color:var(--muted)">${esc(a.country)} · ${esc(a.category)}</p>
+      <div style="margin-top:10px;border-top:1px solid var(--border);padding-top:8px">
+        <h3 style="font-size:10px;text-transform:uppercase;color:var(--muted)">Relaciones tipadas</h3>
+        ${rels.map(r => {
+          const o = r.source === id ? byId.get(r.target) : byId.get(r.source);
+          return `<div class="rel-row"><span class="rtype">${r.type.replace(/_/g, '-')}</span>${esc(o?.name)}</div>`;
+        }).join('')}
+      </div>`;
+    applyView();
+  }
+
+  const rail = document.getElementById('story-rail');
+  rail.innerHTML = '<p class="intro">Recorrido staff REIN/CTH: capítulos resaltan subgrafos. El slider filtra por <strong>año proxy</strong> (cohorte CLP / despliegue hub).</p>';
   chapters.forEach((ch, idx) => {
     const div = document.createElement('div');
-    div.className = 'step' + (idx === 0 ? ' on' : '');
-    div.innerHTML = `<h3>${ch.title}</h3><p>${ch.blurb}</p>`;
+    div.className = 'step' + (idx === chapterIdx ? ' on' : '');
+    div.dataset.idx = idx;
+    div.innerHTML = `<h3>${ch.title}</h3><p>${ch.sub}</p>`;
     div.addEventListener('click', () => {
-      stepsEl.querySelectorAll('.step').forEach(s => s.classList.remove('on'));
-      div.classList.add('on');
-      applyChapter(ch);
+      chapterIdx = idx;
+      rail.querySelectorAll('.step').forEach(s => s.classList.toggle('on', parseInt(s.dataset.idx, 10) === idx));
+      applyView();
     });
-    stepsEl.appendChild(div);
+    rail.appendChild(div);
   });
-  const slider = document.createElement('input');
-  slider.type = 'range';
-  slider.min = 0;
-  slider.max = chapters.length - 1;
-  slider.value = 0;
-  slider.addEventListener('input', () => {
-    const i = parseInt(slider.value, 10);
-    stepsEl.querySelectorAll('.step').forEach((s, j) => s.classList.toggle('on', j === i));
-    applyChapter(chapters[i]);
+  const timeBlock = document.createElement('div');
+  timeBlock.className = 'time-block';
+  timeBlock.innerHTML = `<label>Línea de tiempo (proxy cohorte)</label><div class="time-val" id="year-label">${year}</div><input type="range" id="year-slider" min="2020" max="2026" step="1" value="${year}" />`;
+  rail.appendChild(timeBlock);
+  timeBlock.querySelector('#year-slider').addEventListener('input', (e) => {
+    year = parseInt(e.target.value, 10);
+    document.getElementById('year-label').textContent = year;
+    applyView();
   });
-  stepsEl.appendChild(slider);
-  applyChapter(chapters[0]);
+
+  function boot() {
+    chapterIdx = Math.min(chapters.length - 1, Math.max(0, chapterIdx));
+    year = Math.min(2026, Math.max(2020, year));
+    rail.querySelectorAll('.step').forEach(s => s.classList.toggle('on', parseInt(s.dataset.idx, 10) === chapterIdx));
+    applyView();
+    if (selected) renderActor(selected);
+    window.__ecoReady = true;
+  }
+
+  miniMap.on('load', () => setTimeout(boot, 500));
+  setTimeout(() => { if (!window.__ecoReady) boot(); }, 4000);
 })();
   </script>
 </body>

@@ -61,6 +61,7 @@ header p { margin: 0; font-size: 0.78rem; opacity: 0.92; }
   font-size: 11px;
 }
 .chip.on { background: var(--accent); color: #fff; border-color: var(--accent); }
+.hidden { display: none !important; }
 .panel {
   background: var(--panel);
   border: 1px solid var(--border);
