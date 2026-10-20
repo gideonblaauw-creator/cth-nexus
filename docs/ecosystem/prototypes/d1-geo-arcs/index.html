@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>D1 · Geo-first LATAM arcs</title>
+  <link rel="stylesheet" href="../shared/common.css" />
+  <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
+  <style>
+    #map { width: 100%; height: calc(100vh - 118px); min-height: 520px; }
+    .legend { position: absolute; bottom: 12px; left: 12px; z-index: 2; background: #fff; border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; font-size: 10px; max-width: 220px; }
+    .legend span { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 4px; }
+  </style>
+</head>
+<body data-brand="cth">
+  <header>
+    <div class="badge-dir">Direction 1</div>
+    <h1>Geo-first LATAM — pins &amp; program arcs</h1>
+    <p>MapLibre GL + OpenFreeMap tiles + deck.gl ArcLayer · cofunds / incubated / hosts</p>
+  </header>
+  <div class="toolbar">
+    <button class="chip on" data-edge="incubated,cofunds,hosts">Program flows</button>
+    <button class="chip" data-edge="works_on_challenge">Challenges only</button>
+    <span id="stat" style="color:var(--muted)"></span>
+  </div>
+  <div style="position:relative">
+    <div id="map"></div>
+    <div class="legend" id="legend"></div>
+  </div>
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+  <script src="https://unpkg.com/deck.gl@9.0.36/dist.min.js"></script>
+  <script>
+(async function () {
+  const [actors, relations] = await Promise.all([
+    fetch('../shared/actors-geo.json').then(r => r.json()),
+    fetch('../shared/relations.json').then(r => r.json()),
+  ]);
+  const byId = new Map(actors.map(a => [a.id, a]));
+  const CAT = { startup:'#e87722', accelerator:'#669348', funder:'#0c498a', government:'#6b4c9a', academia:'#2a9d8f', corporate:'#457b9d', international:'#f4a261', finance:'#264653', ngo_foundation:'#e76f51', chamber:'#8d99ae', media:'#bc6c25', default:'#5a7088' };
+  let edgeFilter = new Set(['incubated','cofunds','hosts']);
+
+  const map = new maplibregl.Map({
+    container: 'map',
+    style: 'https://tiles.openfreemap.org/styles/liberty',
+    center: [-74.5, -8.5],
+    zoom: 3.2,
+    pitch: 28,
+    bearing: -8,
+  });
+  map.addControl(new maplibregl.NavigationControl(), 'top-right');
+
+  const deckOverlay = new deck.MapboxOverlay({ interleaved: true, layers: [] });
+  map.addControl(deckOverlay);
+
+  function render() {
+    const rels = relations.filter(r => edgeFilter.has(r.type) && byId.has(r.source) && byId.has(r.target));
+    const points = actors.map(a => ({
+      type: 'Feature',
+      properties: { id: a.id, name: a.name, cat: a.category, color: CAT[a.category] || CAT.default },
+      geometry: { type: 'Point', coordinates: [a.geo.lng, a.geo.lat] },
+    }));
+    if (map.getSource('actors')) {
+      map.getSource('actors').setData({ type: 'FeatureCollection', features: points });
+    } else {
+      map.addSource('actors', { type: 'geojson', data: { type: 'FeatureCollection', features: points } });
+      map.addLayer({
+        id: 'actor-glow',
+        type: 'circle',
+        source: 'actors',
+        paint: {
+          'circle-radius': ['interpolate', ['linear'], ['zoom'], 3, 3, 6, 7],
+          'circle-color': ['get', 'color'],
+          'circle-opacity': 0.75,
+          'circle-stroke-width': 1,
+          'circle-stroke-color': '#fff',
+        },
+      });
+    }
+    const arcData = rels.map(r => {
+      const s = byId.get(r.source).geo;
+      const t = byId.get(r.target).geo;
+      return { source: [s.lng, s.lat], target: [t.lng, t.lat], type: r.type };
+    });
+    deckOverlay.setProps({
+      layers: [
+        new deck.ArcLayer({
+          id: 'arcs',
+          data: arcData,
+          getSourcePosition: d => d.source,
+          getTargetPosition: d => d.target,
+          getSourceColor: [12, 73, 138, 180],
+          getTargetColor: [232, 119, 34, 180],
+          getWidth: 2,
+          pickable: true,
+        }),
+      ],
+    });
+    document.getElementById('stat').textContent = `${actors.length} actores · ${rels.length} arcos visibles`;
+    document.getElementById('legend').innerHTML = [...edgeFilter].map(t => `<div>${t}</div>`).join('');
+  }
+
+  document.querySelectorAll('.toolbar .chip').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.toolbar .chip').forEach(b => b.classList.remove('on'));
+      btn.classList.add('on');
+      edgeFilter = new Set(btn.dataset.edge.split(','));
+      render();
+    });
+  });
+
+  map.on('load', render);
+})();
+  </script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>D2 · Force graph + clusters</title>
+  <link rel="stylesheet" href="../shared/common.css" />
+  <style>
+    #cy { width: 100%; height: calc(100vh - 118px); min-height: 520px; background: #eef6fb; }
+    .side { position: absolute; top: 12px; right: 12px; width: 260px; z-index: 2; }
+    .side .body { padding: 10px; font-size: 11px; max-height: 200px; overflow: auto; }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.30.2/cytoscape.min.js"></script>
+</head>
+<body data-brand="rein">
+  <header>
+    <div class="badge-dir">Direction 2</div>
+    <h1>Force-directed network — country clusters &amp; ego view</h1>
+    <p>Cytoscape.js + fCoSE · REIN hub sizing · Obsidian-style depth filter</p>
+  </header>
+  <div class="toolbar">
+    <label>Ego depth <select id="depth"><option value="0">Full graph</option><option value="2" selected>2-hop</option><option value="3">3-hop</option></select></label>
+    <button class="chip on" id="focus-hub">Focus REIN Hub Perú</button>
+    <span id="stat" style="color:var(--muted)"></span>
+  </div>
+  <div style="position:relative">
+    <div id="cy"></div>
+    <div class="panel side">
+      <div class="panel-h">Inspector</div>
+      <div class="body" id="detail">Clic en un nodo para ver grado y vecinos.</div>
+    </div>
+  </div>
+  <script>
+(async function () {
+  const [actors, relations] = await Promise.all([
+    fetch('../shared/actors-geo.json').then(r => r.json()),
+    fetch('../shared/relations.json').then(r => r.json()),
+  ]);
+  const CC = { Peru: 'PE', 'El Salvador': 'SV', Colombia: 'CO' };
+  const CAT = { startup:'#e87722', accelerator:'#669348', funder:'#0c498a', government:'#6b4c9a', academia:'#2a9d8f', corporate:'#457b9d', international:'#f4a261', finance:'#264653', ngo_foundation:'#e76f51', chamber:'#8d99ae', media:'#bc6c25', default:'#5a7088' };
+  const HUB = 'pe-emprende-up-climatech-rein-hub-peru';
+  let egoCenter = HUB;
+  let depth = 2;
+
+  function visibleIds() {
+    const connected = new Set();
+    relations.forEach(r => { connected.add(r.source); connected.add(r.target); });
+    let ids = new Set(actors.filter(a => connected.has(a.id)).map(a => a.id));
+    if (depth > 0 && egoCenter) {
+      const keep = new Set([egoCenter]);
+      for (let d = 0; d < depth; d++) {
+        relations.forEach(r => {
+          if (keep.has(r.source)) keep.add(r.target);
+          if (keep.has(r.target)) keep.add(r.source);
+        });
+      }
+      ids = new Set([...ids].filter(id => keep.has(id)));
+    }
+    return ids;
+  }
+
+  function build() {
+    const ids = visibleIds();
+    const deg = new Map();
+    relations.forEach(r => {
+      if (!ids.has(r.source) || !ids.has(r.target)) return;
+      deg.set(r.source, (deg.get(r.source)||0)+1);
+      deg.set(r.target, (deg.get(r.target)||0)+1);
+    });
+    const nodes = actors.filter(a => ids.has(a.id)).map(a => ({
+      data: {
+        id: a.id,
+        label: a.name.length > 24 ? a.name.slice(0, 22) + '…' : a.name,
+        parent: CC[a.country] || 'XX',
+        size: Math.max(18, Math.min(52, 16 + (deg.get(a.id)||0) * 4 + (a.id === HUB ? 20 : 0))),
+        color: CAT[a.category] || CAT.default,
+      },
+    }));
+    const edges = relations.filter(r => ids.has(r.source) && ids.has(r.target)).map((r, i) => ({
+      data: { id: 'e' + i, source: r.source, target: r.target, type: r.type },
+    }));
+    return { nodes, edges };
+  }
+
+  let cy = cytoscape({
+    container: document.getElementById('cy'),
+    elements: [],
+    style: [
+      { selector: 'node', style: { label: 'data(label)', 'background-color': 'data(color)', width: 'data(size)', height: 'data(size)', 'font-size': 8, 'text-wrap': 'wrap', 'text-max-width': 70, 'border-width': 1, 'border-color': '#fff' } },
+      { selector: 'edge', style: { width: 1.2, 'line-color': '#94a3b8', 'target-arrow-color': '#64748b', 'target-arrow-shape': 'triangle', 'curve-style': 'bezier', opacity: 0.65 } },
+      { selector: ':selected', style: { 'border-width': 3, 'border-color': '#e87722' } },
+    ],
+    layout: { name: 'cose', animate: false, randomize: true, nodeRepulsion: 8000, idealEdgeLength: 90 },
+  });
+
+  function refresh() {
+    depth = parseInt(document.getElementById('depth').value, 10);
+    const els = build();
+    cy.elements().remove();
+    cy.add(els.nodes);
+    cy.add(els.edges);
+    cy.layout({ name: 'cose', animate: false, randomize: false, nodeRepulsion: 8000, idealEdgeLength: 90 }).run();
+    document.getElementById('stat').textContent = `${els.nodes.length} nodos · ${els.edges.length} relaciones`;
+  }
+
+  cy.on('tap', 'node', evt => {
+    const n = evt.target;
+    const d = n.degree();
+    document.getElementById('detail').innerHTML = `<strong>${n.data('label')}</strong><br/>Grado: ${d}<br/><code style="font-size:9px">${n.id()}</code>`;
+    n.select();
+  });
+
+  document.getElementById('depth').addEventListener('change', refresh);
+  document.getElementById('focus-hub').addEventListener('click', () => { egoCenter = HUB; refresh(); cy.$id(HUB).select(); });
+  refresh();
+})();
+  </script>
+</body>
+</html>

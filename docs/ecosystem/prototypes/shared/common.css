@@ -1,0 +1,77 @@
+:root {
+  --cth-deep: #0c498a;
+  --cth-cyan: #b2eefa;
+  --cth-green: #669348;
+  --rein-orange: #e87722;
+  --rein-navy: #1b2a4a;
+  --bg: #f4f9fc;
+  --panel: #fff;
+  --muted: #5a7088;
+  --border: #cde8f7;
+}
+[data-brand="rein"] {
+  --accent: var(--rein-orange);
+  --head: var(--rein-navy);
+}
+[data-brand="cth"] {
+  --accent: var(--cth-deep);
+  --head: var(--cth-deep);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: "Open Sans", system-ui, sans-serif;
+  background: var(--bg);
+  color: #1a1a2e;
+}
+header {
+  background: linear-gradient(135deg, var(--head), #164a7a);
+  color: #fff;
+  padding: 14px 18px 10px;
+}
+header h1 { margin: 0 0 4px; font-size: 1.15rem; }
+header p { margin: 0; font-size: 0.78rem; opacity: 0.92; }
+.badge-dir {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  background: rgba(255,255,255,.18);
+  padding: 3px 8px;
+  border-radius: 999px;
+  margin-bottom: 6px;
+}
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  padding: 8px 14px;
+  background: var(--panel);
+  border-bottom: 1px solid var(--border);
+  font-size: 12px;
+}
+.chip {
+  border: 1px solid var(--border);
+  background: #f8fcff;
+  border-radius: 999px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 11px;
+}
+.chip.on { background: var(--accent); color: #fff; border-color: var(--accent); }
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.panel-h {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--head);
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--border);
+  background: #f8fcff;
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>D3 · Hybrid map + graph</title>
+  <link rel="stylesheet" href="../shared/common.css" />
+  <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
+  <style>
+    .split { display: grid; grid-template-columns: 1fr 1fr; height: calc(100vh - 118px); min-height: 520px; }
+    #map, #graph { width: 100%; height: 100%; min-height: 520px; }
+    #graph { background: #eef6fb; }
+    @media (max-width: 960px) { .split { grid-template-columns: 1fr; } }
+  </style>
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/graphology/0.26.0/graphology.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/2.4.0/sigma.min.js"></script>
+</head>
+<body data-brand="cth">
+  <header>
+    <div class="badge-dir">Direction 3</div>
+    <h1>Hybrid — linked map &amp; graph selection</h1>
+    <p>MapLibre pins ↔ sigma.js WebGL · brush by country · shared highlight</p>
+  </header>
+  <div class="toolbar">
+    <button class="chip on" data-cc="ALL">Todos</button>
+    <button class="chip" data-cc="PE">🇵🇪 PE</button>
+    <button class="chip" data-cc="SV">🇸🇻 SV</button>
+    <button class="chip" data-cc="CO">🇨🇴 CO</button>
+    <span id="stat" style="color:var(--muted)"></span>
+  </div>
+  <div class="split">
+    <div id="map"></div>
+    <div id="graph"></div>
+  </div>
+  <script>
+(async function () {
+  const Graph = graphology.Graph;
+  const Sigma = window.Sigma;
+  const CC = { Peru: 'PE', 'El Salvador': 'SV', Colombia: 'CO' };
+  const CAT = { startup:'#e87722', accelerator:'#669348', funder:'#0c498a', government:'#6b4c9a', academia:'#2a9d8f', corporate:'#457b9d', international:'#f4a261', finance:'#264653', ngo_foundation:'#e76f51', chamber:'#8d99ae', media:'#bc6c25', default:'#5a7088' };
+  const [actors, relations] = await Promise.all([
+    fetch('../shared/actors-geo.json').then(r => r.json()),
+    fetch('../shared/relations.json').then(r => r.json()),
+  ]);
+  let countryFilter = 'ALL';
+  let selected = null;
+
+  const map = new maplibregl.Map({
+    container: 'map',
+    style: 'https://tiles.openfreemap.org/styles/liberty',
+    center: [-74.2, -8.2],
+    zoom: 3.4,
+  });
+
+  const graph = new Graph({ multi: false, type: 'directed' });
+  let sigma = null;
+
+  function matchCountry(a) {
+    return countryFilter === 'ALL' || CC[a.country] === countryFilter;
+  }
+
+  function rebuildGraph() {
+    graph.clear();
+    const vis = new Set(actors.filter(matchCountry).map(a => a.id));
+    relations.forEach(r => {
+      if (vis.has(r.source) && vis.has(r.target)) { vis.add(r.source); vis.add(r.target); }
+    });
+    let i = 0;
+    actors.forEach(a => {
+      if (!vis.has(a.id)) return;
+      const angle = (i++ / vis.size) * Math.PI * 2;
+      graph.addNode(a.id, {
+        label: a.name.slice(0, 20),
+        x: Math.cos(angle) * 100,
+        y: Math.sin(angle) * 100,
+        size: 6,
+        color: CAT[a.category] || CAT.default,
+      });
+    });
+    relations.forEach((r, idx) => {
+      if (!graph.hasNode(r.source) || !graph.hasNode(r.target)) return;
+      const key = r.source + '->' + r.target;
+      if (!graph.hasEdge(key)) graph.addEdge(r.source, r.target, { color: '#94a3b8', size: 1 });
+    });
+    if (sigma) sigma.kill();
+    sigma = new Sigma(graph, document.getElementById('graph'), {
+      renderEdgeLabels: false,
+      labelRenderedSizeThreshold: 8,
+      defaultEdgeColor: '#94a3b8',
+    });
+    sigma.on('clickNode', ({ node }) => selectNode(node));
+    document.getElementById('stat').textContent = `${vis.size} actores · ${graph.size} relaciones`;
+    updateMap(vis);
+  }
+
+  function selectNode(id) {
+    selected = id;
+    graph.forEachNode((n, attr) => {
+      graph.setNodeAttribute(n, 'color', n === id ? '#e87722' : (CAT[actors.find(a => a.id === n)?.category] || CAT.default));
+      graph.setNodeAttribute(n, 'size', n === id ? 14 : 6);
+    });
+    sigma.refresh();
+    const a = actors.find(x => x.id === id);
+    if (a && map.getSource('actors')) {
+      map.flyTo({ center: [a.geo.lng, a.geo.lat], zoom: 5.5, speed: 0.8 });
+    }
+  }
+
+  function updateMap(vis) {
+    const feats = actors.filter(a => vis.has(a.id)).map(a => ({
+      type: 'Feature',
+      properties: { id: a.id, color: a.id === selected ? '#e87722' : (CAT[a.category] || CAT.default) },
+      geometry: { type: 'Point', coordinates: [a.geo.lng, a.geo.lat] },
+    }));
+    const data = { type: 'FeatureCollection', features: feats };
+    if (map.getSource('actors')) map.getSource('actors').setData(data);
+    else {
+      map.on('load', () => {
+        map.addSource('actors', { type: 'geojson', data });
+        map.addLayer({ id: 'pins', type: 'circle', source: 'actors', paint: {
+          'circle-radius': 5, 'circle-color': ['get', 'color'], 'circle-stroke-width': 1, 'circle-stroke-color': '#fff',
+        }});
+        map.on('click', 'pins', e => { const id = e.features[0].properties.id; selectNode(id); });
+      });
+    }
+  }
+
+  document.querySelectorAll('.toolbar .chip').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.toolbar .chip').forEach(b => b.classList.remove('on'));
+      btn.classList.add('on');
+      countryFilter = btn.dataset.cc;
+      selected = null;
+      rebuildGraph();
+    });
+  });
+
+  map.on('load', rebuildGraph);
+})();
+  </script>
+</body>
+</html>

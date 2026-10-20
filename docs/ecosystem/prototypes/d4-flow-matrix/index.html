@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>D4 · Flow matrix</title>
+  <link rel="stylesheet" href="../shared/common.css" />
+  <style>
+    #viz { width: 100%; height: calc(100vh - 118px); min-height: 520px; background: #fff; }
+    .tabs { display: flex; gap: 6px; }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+</head>
+<body data-brand="cth">
+  <header>
+    <div class="badge-dir">Direction 4</div>
+    <h1>Matrix &amp; flows — funding &amp; support lanes</h1>
+    <p>d3 chord + sankey-style adjacency · category × edge-type intensity</p>
+  </header>
+  <div class="toolbar tabs">
+    <button class="chip on" data-mode="chord">Chord (category flows)</button>
+    <button class="chip" data-mode="sankey">Sankey (edge types)</button>
+    <span id="stat" style="color:var(--muted);margin-left:8px"></span>
+  </div>
+  <svg id="viz"></svg>
+  <script>
+(async function () {
+  const [actors, relations] = await Promise.all([
+    fetch('../shared/actors-geo.json').then(r => r.json()),
+    fetch('../shared/relations.json').then(r => r.json()),
+  ]);
+  const byId = new Map(actors.map(a => [a.id, a]));
+  const cats = [...new Set(actors.map(a => a.category))].sort();
+  const catIdx = new Map(cats.map((c, i) => [c, i]));
+  const matrix = cats.map(() => cats.map(() => 0));
+  relations.forEach(r => {
+    const s = byId.get(r.source), t = byId.get(r.target);
+    if (!s || !t) return;
+    matrix[catIdx.get(s.category)][catIdx.get(t.category)] += 1;
+  });
+
+  const svg = d3.select('#viz');
+  const width = svg.node().clientWidth || 1200;
+  const height = svg.node().clientHeight || 620;
+  svg.attr('viewBox', `0 0 ${width} ${height}`);
+
+  function drawChord() {
+    svg.selectAll('*').remove();
+    const outer = Math.min(width, height) * 0.38;
+    const inner = outer - 24;
+    const chord = d3.chordDirected().padAngle(0.08).sortSubgroups(d3.descending);
+    const arc = d3.arc().innerRadius(inner).outerRadius(outer);
+    const ribbon = d3.ribbonArrow().radius(inner - 2);
+    const colors = d3.scaleOrdinal(d3.schemeSet2).domain(cats);
+    const g = svg.append('g').attr('transform', `translate(${width/2},${height/2})`);
+    const chords = chord(matrix);
+    g.append('g').selectAll('path').data(chords.groups).join('path')
+      .attr('fill', d => colors(cats[d.index]))
+      .attr('stroke', '#fff')
+      .attr('d', arc)
+      .append('title').text(d => cats[d.index]);
+    g.append('g').attr('fill-opacity', 0.72).selectAll('path').data(chords).join('path')
+      .attr('d', ribbon)
+      .attr('fill', d => colors(cats[d.target.index]))
+      .append('title').text(d => `${cats[d.source.index]} → ${cats[d.target.index]}: ${d.source.value}`);
+    g.selectAll('text.label').data(chords.groups).join('text')
+      .attr('class', 'label')
+      .attr('transform', d => {
+        const a = (d.startAngle + d.endAngle) / 2;
+        return `rotate(${a * 180 / Math.PI - 90}) translate(${outer + 14}) ${a > Math.PI ? 'rotate(180)' : ''}`;
+      })
+      .attr('text-anchor', d => ((d.startAngle + d.endAngle) / 2 > Math.PI ? 'end' : 'start'))
+      .attr('font-size', 9)
+      .text(d => cats[d.index]);
+    document.getElementById('stat').textContent = `${relations.length} relaciones agregadas en ${cats.length} categorías`;
+  }
+
+  function drawSankey() {
+    svg.selectAll('*').remove();
+    const types = [...new Set(relations.map(r => r.type))].sort();
+    const layers = ['Source', ...types, 'Target'];
+    const nodes = layers.map((name, i) => ({ name, x: (i / (layers.length - 1)) * (width - 120) + 60, y: height / 2 }));
+    const nodeG = svg.append('g');
+    nodeG.selectAll('rect').data(nodes).join('rect')
+      .attr('x', d => d.x - 4)
+      .attr('y', d => 40)
+      .attr('width', 8)
+      .attr('height', height - 80)
+      .attr('fill', '#b2eefa')
+      .attr('stroke', '#0c498a');
+    nodeG.selectAll('text').data(nodes).join('text')
+      .attr('x', d => d.x)
+      .attr('y', 28)
+      .attr('text-anchor', 'middle')
+      .attr('font-size', 9)
+      .text(d => d.name.length > 14 ? d.name.slice(0, 12) + '…' : d.name);
+    const linkG = svg.append('g');
+    relations.forEach((r, i) => {
+      const tIdx = types.indexOf(r.type) + 1;
+      const y = 60 + (i % 20) * ((height - 120) / 20);
+      linkG.append('path')
+        .attr('d', `M60,${y} C${width*0.35},${y} ${width*0.35},${height/2} ${nodes[tIdx].x},${height/2}`)
+        .attr('fill', 'none')
+        .attr('stroke', '#669348')
+        .attr('stroke-opacity', 0.35)
+        .attr('stroke-width', 2);
+    });
+    document.getElementById('stat').textContent = `Vista simplificada: ${types.length} tipos de relación`;
+  }
+
+  document.querySelectorAll('.toolbar .chip').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.toolbar .chip').forEach(b => b.classList.remove('on'));
+      btn.classList.add('on');
+      if (btn.dataset.mode === 'chord') drawChord(); else drawSankey();
+    });
+  });
+  drawChord();
+})();
+  </script>
+</body>
+</html>
