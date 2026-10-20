@@ -11,7 +11,7 @@ pattern: *.pfx
 pattern: *.sqlite
 pattern: *.sqlite3
 pattern: *secret*
-pattern: *~*
+pattern: *~
 pattern: .env
 pattern: .env.*
 pattern: .git/
