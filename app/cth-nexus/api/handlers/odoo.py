@@ -21,7 +21,7 @@ def _get_uid() -> int:
     if _uid_cache:
         return _uid_cache
     common = xmlrpc.client.ServerProxy(f"{ODOO_URL}/xmlrpc/2/common", allow_none=True)
-    uid = common.authenticate(ODOO_DB, ODOO_USER, OODOO_API_KEY, {})
+    uid = common.authenticate(ODOO_DB, ODOO_USER, ODOO_API_KEY, {})
     if not uid:
         raise RuntimeError("Odoo authentication failed — check ODOO_USER and ODOO_PASSWORD (API key)")
     _uid_cache = uid
@@ -32,7 +32,7 @@ def _get_uid() -> int:
 def _execute(model: str, method: str, *args, **kwargs):
     uid = _get_uid()
     obj = xmlrpc.client.ServerProxy(f"{ODOO_URL}/xmlrpc/2/object", allow_none=True)
-    return obj.execute_kw(ODOO_DB, uid, OODOO_API_KEY, model, method, list(args), kwargs)
+    return obj.execute_kw(ODOO_DB, uid, ODOO_API_KEY, model, method, list(args), kwargs)
 
 
 def _get_or_create_tag(name: str) -> int:
@@ -93,6 +93,9 @@ def upsert_mentor(data: dict) -> int:
         _execute("res.partner", "write", [partner_id], values)
         log.info("Updated existing partner %s", partner_id)
     else:
+        # Workaround: res.partner.create() is broken via XML-RPC in this
+        # Odoo 18 instance (custom module strips @api.model_create_multi).
+        # Use name_create (which has @api.model) then write the rest.
         result = _execute("res.partner", "name_create", data.get("name", email))
         partner_id = result[0]
         _execute("res.partner", "write", [partner_id], values)
