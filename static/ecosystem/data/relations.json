@@ -3,525 +3,450 @@
   "source": "pe-unalm-universidad-nacional-agraria-la-molina",
   "target": "pe-incubagraria-unalm",
   "type": "hosts",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": ""
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-pucp-pontificia-universidad-catolica-del-peru",
   "target": "pe-nexum-pucp",
   "type": "hosts",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": ""
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-universidad-del-pacifico",
   "target": "pe-emprende-up-climatech-rein-hub-peru",
   "type": "hosts",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": ""
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-utec-universidad-de-ingenieria-y-tecnologia",
   "target": "pe-utec-ventures",
   "type": "hosts",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": ""
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-universidad-peruana-cayetano-heredia",
   "target": "pe-bioincuba-upch",
   "type": "hosts",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": ""
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-unmsm-universidad-nacional-mayor-de-san-marcos",
   "target": "pe-1551-unmsm",
   "type": "hosts",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": ""
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-unsm-universidad-nacional-de-san-martin",
   "target": "pe-incubadora-unsm-san-martin",
   "type": "hosts",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": ""
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-unu-universidad-nacional-de-ucayali",
   "target": "pe-incuba-amazonia-unu",
   "type": "hosts",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": ""
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-unia-universidad-nacional-intercultural-de-la-amaz",
   "target": "pe-incubadora-unia-ucayali",
   "type": "hosts",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": ""
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-emprende-up-climatech-rein-hub-peru",
   "target": "pe-pvblic-foundation",
   "type": "partner",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "REIN Hub Perú (with CleantechHUB)"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-emprende-up-climatech-rein-hub-peru",
   "target": "pe-cleantechhub",
   "type": "partner",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "REIN Hub Perú"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-produce-ministerio-de-la-produccion",
   "target": "pe-proinnovate-startup-peru",
   "type": "runs_program",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": ""
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-proinnovate-startup-peru",
   "target": "pe-emprende-up-climatech-rein-hub-peru",
   "type": "cofunds",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Incubadoras en Cambio Climático, up to S/500k"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-proinnovate-startup-peru",
   "target": "pe-incubagraria-unalm",
   "type": "cofunds",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Incubadoras en Cambio Climático, up to S/500k"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-proinnovate-startup-peru",
   "target": "pe-nexum-pucp",
   "type": "cofunds",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Incubadoras en Cambio Climático, up to S/500k"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-proinnovate-startup-peru",
   "target": "pe-usil-ventures",
   "type": "cofunds",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Incubadoras en Cambio Climático, up to S/500k"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-nexum-pucp",
   "target": "pe-rebike-up",
   "type": "incubated",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "StartUp Perú – Cambio Climático winner"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-emprende-up-climatech-rein-hub-peru",
   "target": "pe-black-soldier-fly-logistics",
   "type": "incubated",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "REIN Hub Perú / ClimateLaunchpad Peru"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-emprende-up-climatech-rein-hub-peru",
   "target": "pe-yakusmart",
   "type": "incubated",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "REIN Hub Perú / ClimateLaunchpad Peru"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-emprende-up-climatech-rein-hub-peru",
   "target": "pe-vigia",
   "type": "incubated",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "REIN Hub Perú / ClimateLaunchpad Peru"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-krealo-credicorp",
   "target": "pe-bcp-banco-de-credito-del-peru",
   "type": "part_of_group",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Credicorp"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-pacifico-seguros",
   "target": "pe-bcp-banco-de-credito-del-peru",
   "type": "part_of_group",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Credicorp"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-fundacion-bbva-microfinanzas",
   "target": "pe-financiera-confianza",
   "type": "owns",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": ""
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-minam-ministerio-del-ambiente",
   "target": "pe-programa-para-bionegocios-minam",
   "type": "runs_program",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": ""
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-minam-ministerio-del-ambiente",
   "target": "pe-programa-bosques-minam",
   "type": "runs_program",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": ""
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-cofide-fcei",
   "target": "pe-programa-para-bionegocios-minam",
   "type": "participates",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": ""
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-financiera-confianza",
   "target": "pe-programa-para-bionegocios-minam",
   "type": "participates",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": ""
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "sv-grupo-agrisal",
   "target": "sv-snbx-sandbox",
   "type": "created",
-  "source_design_id": "DAGY8OMkdBw",
-  "notes": "with INNBOX and Seed Community"
+  "source_design_id": "DAGY8OMkdBw"
  },
  {
   "source": "sv-grupo-ternova",
   "target": "sv-recicla503",
   "type": "runs_initiative",
-  "source_design_id": "DAGY8OMkdBw",
-  "notes": ""
+  "source_design_id": "DAGY8OMkdBw"
  },
  {
   "source": "pe-cleantechhub",
   "target": "sv-iagros",
   "type": "accelerated",
-  "source_design_id": "DAGY8OMkdBw",
-  "notes": "CleantechHUB Acceleration 2023"
+  "source_design_id": "DAGY8OMkdBw"
  },
  {
   "source": "sv-rein-hub-san-salvador",
   "target": "pe-pvblic-foundation",
   "type": "part_of_network",
-  "source_design_id": "DAGY8OMkdBw",
-  "notes": ""
+  "source_design_id": "DAGY8OMkdBw"
  },
  {
   "source": "sv-mag-ministerio-de-agricultura-y-ganaderia",
   "target": "sv-fideagro",
   "type": "runs_program",
-  "source_design_id": "DAGY8OMkdBw",
-  "notes": ""
+  "source_design_id": "DAGY8OMkdBw"
  },
  {
   "source": "sv-minec-ministerio-de-economia",
   "target": "sv-conamype",
   "type": "oversees",
-  "source_design_id": "DAGY8OMkdBw",
-  "notes": ""
+  "source_design_id": "DAGY8OMkdBw"
  },
  {
   "source": "co-fenoge",
   "target": "co-ipse",
   "type": "funds_layer",
-  "source_design_id": "DAHPeVenQV0",
-  "notes": "Funding layer → execution layer (energy access, ZNI)"
+  "source_design_id": "DAHPeVenQV0"
  },
  {
   "source": "co-bancoldex",
   "target": "co-ipse",
   "type": "funds_layer",
-  "source_design_id": "DAHPeVenQV0",
-  "notes": "Funding layer → execution layer (energy access, ZNI)"
+  "source_design_id": "DAHPeVenQV0"
  },
  {
   "source": "co-gcf-green-climate-fund",
   "target": "co-ipse",
   "type": "funds_layer",
-  "source_design_id": "DAHPeVenQV0",
-  "notes": "Funding layer → execution layer (energy access, ZNI)"
+  "source_design_id": "DAHPeVenQV0"
  },
  {
   "source": "co-cif-climate-investment-funds",
   "target": "co-ipse",
   "type": "funds_layer",
-  "source_design_id": "DAHPeVenQV0",
-  "notes": "Funding layer → execution layer (energy access, ZNI)"
+  "source_design_id": "DAHPeVenQV0"
  },
  {
   "source": "co-minenergia",
   "target": "co-ipse",
   "type": "regulates_layer",
-  "source_design_id": "DAHPeVenQV0",
-  "notes": ""
+  "source_design_id": "DAHPeVenQV0"
  },
  {
   "source": "co-creg",
   "target": "co-ipse",
   "type": "regulates_layer",
-  "source_design_id": "DAHPeVenQV0",
-  "notes": ""
+  "source_design_id": "DAHPeVenQV0"
  },
  {
   "source": "co-upme",
   "target": "co-ipse",
   "type": "regulates_layer",
-  "source_design_id": "DAHPeVenQV0",
-  "notes": ""
+  "source_design_id": "DAHPeVenQV0"
  },
  {
   "source": "pe-profonanpe",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Desafío 1: Bosques y bioeconomía"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-amazonia-impact-ventures",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Desafío 1: Bosques y bioeconomía"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-ecoenterprises-fund",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Desafío 1: Bosques y bioeconomía"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-mirova-natural-capital",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Desafío 1: Bosques y bioeconomía"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-andes-amazon-fund",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Desafío 1: Bosques y bioeconomía"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-bosques-amazonicos-bam",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Desafío 1: Bosques y bioeconomía"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-root-capital",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Desafío 1: Bosques y bioeconomía"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-alterfin",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Desafío 1: Bosques y bioeconomía"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-financiera-confianza",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Desafío 1: Bosques y bioeconomía"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-rainforest-alliance",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Desafío 1: Bosques y bioeconomía"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-minam-ministerio-del-ambiente",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Desafío 1: Bosques y bioeconomía"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-serfor",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Desafío 1: Bosques y bioeconomía"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-sernanp",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Desafío 1: Bosques y bioeconomía"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-concytec-prociencia",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Desafío 1: Bosques y bioeconomía"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-conservacion-amazonica-acca",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Desafío 1: Bosques y bioeconomía"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-nature-services-peru",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Desafío 1: Bosques y bioeconomía"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-arbio",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Desafío 1: Bosques y bioeconomía"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-red-amazonia-que-late",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Desafío 1: Bosques y bioeconomía"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-reforestadora-amazonica",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Desafío 1: Bosques y bioeconomía"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-spda-sociedad-peruana-de-derecho-ambiental",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Desafío 1: Bosques y bioeconomía"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-ccpip-camara-de-comercio-de-los-pueblos-indigenas",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Desafío 1: Bosques y bioeconomía"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-conservacion-internacional",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Desafío 1: Bosques y bioeconomía"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-wwf-peru",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Desafío 1: Bosques y bioeconomía"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-the-nature-conservancy",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Desafío 1: Bosques y bioeconomía"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-forest-trends",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Desafío 1: Bosques y bioeconomía"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-giz",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Desafío 1: Bosques y bioeconomía"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-kfw",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Desafío 1: Bosques y bioeconomía"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-pnud-accelerator-lab-biofin",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Desafío 1: Bosques y bioeconomía"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-bezos-earth-fund",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Desafío 1: Bosques y bioeconomía"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-ana-autoridad-nacional-del-agua",
   "target": "challenge:PE-2-agua",
   "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Desafío 2: Agua y glaciares"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-inaigem",
   "target": "challenge:PE-2-agua",
   "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Desafío 2: Agua y glaciares"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-sunass",
   "target": "challenge:PE-2-agua",
   "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Desafío 2: Agua y glaciares"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-senamhi",
   "target": "challenge:PE-2-agua",
   "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Desafío 2: Agua y glaciares"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-uqhu",
   "target": "challenge:PE-2-agua",
   "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Desafío 2: Agua y glaciares"
+  "source_design_id": "DAHXkXRp9uc"
  },
  {
   "source": "pe-yakufil",
   "target": "challenge:PE-2-agua",
   "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc",
-  "notes": "Desafío 2: Agua y glaciares"
+  "source_design_id": "DAHXkXRp9uc"
  }
 ]

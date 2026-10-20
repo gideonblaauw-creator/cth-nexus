@@ -5,14 +5,14 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
   "website": "https://www.amazoniaimpactventures.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Amazonia Impact Ventures Inversión de impacto en negocios amazónicosFinancia bionegocios y cadenas de valor que conservan el bosque",
-  "website_check": "200"
+  "geo": {
+   "lat": -14.82784,
+   "lng": -76.5912
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-profonanpe",
@@ -20,14 +20,14 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
   "website": "https://profonanpe.org.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Profonanpe Fondo ambiental privado del PerúCanaliza fondos climáticos internacionales hacia conservación y adaptación",
-  "website_check": "200"
+  "geo": {
+   "lat": -14.30388,
+   "lng": -76.30691
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-andes-amazon-fund",
@@ -35,14 +35,14 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
   "website": "https://www.andesamazonfund.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Andes Amazon Fund Fondo filantrópico para conservación en la Amazonía andinaApoya áreas protegidas y comunidades que pueden alojar bionegocios",
-  "website_check": "200"
+  "geo": {
+   "lat": -15.14081,
+   "lng": -77.0111
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-pecap-asociacion-peruana-de-capital-semilla-y-empr",
@@ -50,14 +50,14 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
   "website": "https://pecap.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "PECAP Asociación Peruana de Capital Semilla y EmprendedorConecta fondos con startups; organiza el Peru Venture Capital Conference",
-  "website_check": "200"
+  "geo": {
+   "lat": -10.93176,
+   "lng": -74.81113
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-angel-ventures-peru",
@@ -65,14 +65,14 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
   "website": "https://www.angelventures.vc",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Angel Ventures Perú Red de inversionistas ángeles y fondo de VCTicket temprano para startups, incluidas verdes",
-  "website_check": "200"
+  "geo": {
+   "lat": -13.91627,
+   "lng": -77.30357
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-utec-ventures",
@@ -80,14 +80,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": null,
   "website": "https://utecventures.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "UTEC Venture Aceleradora e inversión ángel de UTECAcelera e invierte en startups de base tecnológica, incluidas cleantech",
-  "website_check": "200"
+  "geo": {
+   "lat": -10.76113,
+   "lng": -77.17466
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-krealo-credicorp",
@@ -95,14 +95,14 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
   "website": "https://krealo.vc",
-  "website_ok": false,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Krealo (Credicorp), GRIO (Grupo Romero), Wayra Perú Venture capital corporativoInnovación abierta con grandes grupos que pueden ser clientes de soluciones climáticas",
-  "website_check": "000"
+  "geo": {
+   "lat": -12.41552,
+   "lng": -76.82036
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-grio-grupo-romero",
@@ -110,14 +110,14 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
   "website": "https://www.gruporomero.com.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": -9.60819,
+   "lng": -78.73614
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-wayra-peru",
@@ -125,14 +125,14 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
   "website": "https://www.wayra.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": -11.47481,
+   "lng": -78.51188
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-mirova-natural-capital",
@@ -140,14 +140,14 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
   "website": "https://www.mirova.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Mirova Natural Capital Financia soluciones basadas en la naturaleza y carbono forestalGestora de inversión en capital natural",
-  "website_check": "206"
+  "geo": {
+   "lat": -13.67502,
+   "lng": -76.79101
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-ecoenterprises-fund",
@@ -155,14 +155,14 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
   "website": "https://ecoenterprisesfund.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "EcoEnterprises Fund Fondo de capital para negocios sostenibles en LatinoaméricaInvierte en empresas de agro y bosques con impacto ambiental",
-  "website_check": "200"
+  "geo": {
+   "lat": -11.15625,
+   "lng": -74.24986
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-oikocredit",
@@ -170,14 +170,14 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
   "website": "https://www.oikocredit.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Oikocredit, Incofin, Triple Jump, responsAbility, BlueOrchard, AlterfinDeuda de impacto para microfinanzas y agroFondean a microfinancieras peruanas que prestan a productores y pymes verdes",
-  "website_check": "403"
+  "geo": {
+   "lat": -14.0081,
+   "lng": -75.61498
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-incofin",
@@ -185,14 +185,14 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
   "website": "https://incofin.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": -11.24698,
+   "lng": -80.13766
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-triple-jump",
@@ -200,14 +200,14 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
   "website": "https://triplejump.eu",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": -13.10508,
+   "lng": -75.79152
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-responsability",
@@ -215,14 +215,14 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
   "website": "https://www.responsability.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "206"
+  "geo": {
+   "lat": -10.84672,
+   "lng": -75.4126
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-blueorchard",
@@ -230,14 +230,14 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
   "website": "https://www.blueorchard.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": -12.9472,
+   "lng": -78.69633
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-alterfin",
@@ -245,14 +245,14 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
   "website": "https://www.alterfin.be",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": -9.85005,
+   "lng": -79.04185
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-acumen",
@@ -260,14 +260,14 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
   "website": "https://acumen.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Acumen, Mercy Corps Ventures, Accion Venture Lab, ALIVE Ventures Inversionistas de impacto en etapa tempranaInvierten en startups que resuelven problemas sociales y climáticos",
-  "website_check": "403"
+  "geo": {
+   "lat": -13.67832,
+   "lng": -74.5483
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-mercy-corps-ventures",
@@ -275,14 +275,14 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
   "website": "https://www.mercycorpsventures.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "206"
+  "geo": {
+   "lat": -11.55246,
+   "lng": -77.36739
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-accion-venture-lab",
@@ -290,14 +290,14 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
   "website": "https://www.accion.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "206"
+  "geo": {
+   "lat": -12.71718,
+   "lng": -74.75945
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-alive-ventures",
@@ -305,14 +305,14 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
   "website": "https://www.alive-ventures.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": -13.34203,
+   "lng": -77.6967
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-bezos-earth-fund",
@@ -320,14 +320,14 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
   "website": "https://www.bezosearthfund.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Bezos Earth FundFilantropía climáticaFondos para conservación de bosques y naturaleza",
-  "website_check": "200"
+  "geo": {
+   "lat": -12.50823,
+   "lng": -75.46594
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-allied-climate-partners",
@@ -335,14 +335,14 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
   "website": "https://www.alliedclimate.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Allied Climate Partners, Finance in Motion Fondos climáticos y de transiciónCapital para energía limpia y finanzas verdes",
-  "website_check": "206"
+  "geo": {
+   "lat": -14.16524,
+   "lng": -75.30302
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-finance-in-motion",
@@ -350,14 +350,14 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
   "website": "https://www.finance-in-motion.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": -12.34099,
+   "lng": -78.54803
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-root-capital",
@@ -365,14 +365,14 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
   "website": "https://rootcapital.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Root Capital Inversionista de impacto en agriculturaCrédito a cooperativas de café y cacao que adoptan prácticas resilientes",
-  "website_check": "403"
+  "geo": {
+   "lat": -13.6866,
+   "lng": -74.57432
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-bbva-peru",
@@ -380,14 +380,14 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
-  "city": null,
   "website": "https://www.bbva.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "BBVA Perú  Banco con estrategia de negocio sosteniblePrimer préstamo verde del país; Carbon Loan ligado a Huella de Carbono Perú; vivienda verde",
-  "website_check": "403"
+  "geo": {
+   "lat": -10.57135,
+   "lng": -78.61358
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-interbank",
@@ -395,14 +395,14 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
-  "city": null,
   "website": "https://interbank.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "403"
+  "geo": {
+   "lat": -14.3898,
+   "lng": -79.07051
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-scotiabank-peru",
@@ -410,14 +410,14 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
-  "city": null,
   "website": "https://www.scotiabank.com.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Scotiabank Perú Banco comercialLíneas de financiamiento sostenible",
-  "website_check": "200"
+  "geo": {
+   "lat": -13.79058,
+   "lng": -75.56416
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-pacifico-seguros",
@@ -425,14 +425,14 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
-  "city": null,
   "website": "https://www.pacifico.com.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Pacífico SegurosAseguradora de CredicorpPotencial de seguros climáticos y paramétricos para el agro",
-  "website_check": "200"
+  "geo": {
+   "lat": -10.32939,
+   "lng": -77.56435
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-bcp-banco-de-credito-del-peru",
@@ -440,14 +440,14 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
-  "city": null,
   "website": "https://www.viabcp.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "BCP – Banco de Crédito del Perú Mayor banco del país, parte de CredicorpCréditos verdes y financiamiento a energía renovable",
-  "website_check": "403"
+  "geo": {
+   "lat": -14.52977,
+   "lng": -75.10315
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-bolsa-de-valores-de-lima",
@@ -455,14 +455,14 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
-  "city": null,
   "website": "https://www.bvl.com.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Bolsa de Valores de Lima Mercado de valoresEmisión de bonos verdes y sostenibles",
-  "website_check": "200"
+  "geo": {
+   "lat": -12.2609,
+   "lng": -74.21226
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-financiera-confianza",
@@ -470,14 +470,14 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
-  "city": null,
   "website": "https://confianza.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Financiera Confianza Microfinanciera de la Fundación BBVAParte del Programa para Bionegocios del MINAM en la Amazonía",
-  "website_check": "200"
+  "geo": {
+   "lat": -11.08136,
+   "lng": -79.23328
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-fepcmac-federacion-de-cajas-municipales",
@@ -485,14 +485,14 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
-  "city": null,
   "website": "https://www.fpcmac.org.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "FEPCMAC Federación de Cajas MunicipalesArticula a las cajas para programas de finanzas verde",
-  "website_check": "200"
+  "geo": {
+   "lat": -12.04332,
+   "lng": -75.42325
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-compartamos-financiera",
@@ -500,14 +500,14 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
-  "city": null,
   "website": "https://www.compartamos.com.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Compartamos FinancieraMicrofinanzas y cooperativasCrédito a mypes y emprendedores rurales",
-  "website_check": "200"
+  "geo": {
+   "lat": -13.00243,
+   "lng": -74.46313
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-caja-arequipa",
@@ -515,14 +515,14 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
-  "city": null,
   "website": "https://www.cajaarequipa.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Caja Arequipa, Caja Huancayo, Caja Piura, Caja Ica, Caja Maynas Cajas municipales de ahorro y créditoLlegan a productores rurales de costa, sierra y selva; aliadas para crédito verde",
-  "website_check": "200"
+  "geo": {
+   "lat": -13.7998,
+   "lng": -78.48847
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-caja-huancayo",
@@ -530,14 +530,14 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
-  "city": null,
   "website": "https://www.cajahuancayo.com.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Caja Arequipa, Caja Huancayo, Caja Piura, Caja Ica, Caja Maynas Cajas municipales de ahorro y créditoLlegan a productores rurales de costa, sierra y selva; aliadas para crédito verde",
-  "website_check": "200"
+  "geo": {
+   "lat": -13.13621,
+   "lng": -77.54457
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-caja-piura",
@@ -545,14 +545,14 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
-  "city": null,
   "website": "https://www.cajapiura.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Caja Arequipa, Caja Huancayo, Caja Piura, Caja Ica, Caja Maynas Cajas municipales de ahorro y créditoLlegan a productores rurales de costa, sierra y selva; aliadas para crédito verde",
-  "website_check": "200"
+  "geo": {
+   "lat": -13.14561,
+   "lng": -76.15323
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-caja-ica",
@@ -560,14 +560,14 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
-  "city": null,
   "website": "https://cajaica.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Caja Arequipa, Caja Huancayo, Caja Piura, Caja Ica, Caja Maynas Cajas municipales de ahorro y créditoLlegan a productores rurales de costa, sierra y selva; aliadas para crédito verde",
-  "website_check": "200"
+  "geo": {
+   "lat": -11.60513,
+   "lng": -78.05678
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-caja-maynas",
@@ -575,14 +575,14 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
-  "city": null,
   "website": "https://www.cajamaynas.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Caja Arequipa, Caja Huancayo, Caja Piura, Caja Ica, Caja Maynas Cajas municipales de ahorro y créditoLlegan a productores rurales de costa, sierra y selva; aliadas para crédito verde",
-  "website_check": "200"
+  "geo": {
+   "lat": -14.78595,
+   "lng": -78.36887
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-san-miguel-industrias-pet",
@@ -590,14 +590,14 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
-  "city": null,
   "website": "https://smisolutions.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "San Miguel Industrias PET.  Empresa de envases PETPlanta de reciclaje botella a botella de 20.000 t/año",
-  "website_check": "200"
+  "geo": {
+   "lat": -12.5072,
+   "lng": -80.13435
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-aje-group",
@@ -605,14 +605,14 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
-  "city": null,
   "website": "https://www.ajegroup.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "AJE GroupMultinacional peruana de bebidasMetas de empaques y abastecimiento sostenible",
-  "website_check": "200"
+  "geo": {
+   "lat": -11.46022,
+   "lng": -79.28793
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-backus-ab-inbev",
@@ -620,14 +620,14 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
-  "city": null,
   "website": "https://www.backus.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Backus (AB InBev) Cervecera líder del país100 % electricidad renovable y más del 85 % de envases retornables o reciclados; demanda de soluciones circulares",
-  "website_check": "200"
+  "geo": {
+   "lat": -9.29441,
+   "lng": -76.05897
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-alicorp",
@@ -635,14 +635,14 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
-  "city": null,
   "website": "https://www.alicorp.com.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Alicorp Mayor empresa de consumo masivo del PerúReciclaje de aceite usado y metas de empaques; potencial cliente de startups circulares",
-  "website_check": "302"
+  "geo": {
+   "lat": -11.11936,
+   "lng": -78.38337
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-engie-energia-peru",
@@ -650,14 +650,14 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
-  "city": null,
   "website": "https://engie-energia.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "ENGIE Energía Perú, Enel Perú  Generadoras eléctricasDesarrollan proyectos eólicos y solares; demanda de innovación energética",
-  "website_check": "200"
+  "geo": {
+   "lat": -12.83532,
+   "lng": -79.87986
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-enel-peru-pluz",
@@ -665,14 +665,14 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
-  "city": null,
   "website": "https://www.pluz.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "206"
+  "geo": {
+   "lat": -13.07181,
+   "lng": -79.05356
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-danper",
@@ -680,14 +680,14 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
-  "city": null,
   "website": "https://danper.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Danper AgroexportadoraAgricultura de exportación expuesta a El Niño; demanda de soluciones de agua y adaptación",
-  "website_check": "200"
+  "geo": {
+   "lat": -12.4096,
+   "lng": -76.00853
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-cerro-verde",
@@ -695,14 +695,14 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
-  "city": null,
   "website": "https://www.cerroverde.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Cerro Verde, Hudbay, Gold Fields, Anglo American. Empresas minerasAgua, energía y relación con comunidades; programas de innovación abierta",
-  "website_check": "200"
+  "geo": {
+   "lat": -11.24759,
+   "lng": -74.53268
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-hudbay",
@@ -710,14 +710,14 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
-  "city": null,
   "website": "https://hudbayminerals.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "403"
+  "geo": {
+   "lat": -11.2938,
+   "lng": -79.44126
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-gold-fields",
@@ -725,14 +725,14 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
-  "city": null,
   "website": "https://www.goldfields.com",
-  "website_ok": false,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "000"
+  "geo": {
+   "lat": -10.58608,
+   "lng": -79.39656
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-anglo-american",
@@ -740,14 +740,14 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
-  "city": null,
   "website": "https://www.angloamerican.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": -11.85812,
+   "lng": -75.75578
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-textil-camones",
@@ -755,14 +755,14 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
-  "city": null,
   "website": "https://www.textilescamones.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Textil Camones Textil peruanaProduce hilados con fibras recicladas",
-  "website_check": "200"
+  "geo": {
+   "lat": -9.17374,
+   "lng": -78.39782
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-sociedad-nacional-de-industrias-sni",
@@ -770,14 +770,14 @@
   "type": "org",
   "category": "chamber",
   "country": "Peru",
-  "city": null,
   "website": "https://sni.org.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Sociedad Nacional de Industrias (SNI).  Gremio industrialAgenda de economía circular y gestión de residuos industriales",
-  "website_check": "200"
+  "geo": {
+   "lat": -10.09637,
+   "lng": -75.18838
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-camara-de-comercio-de-lima-ccl",
@@ -785,14 +785,14 @@
   "type": "org",
   "category": "chamber",
   "country": "Peru",
-  "city": null,
   "website": "https://www.camaralima.org.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Cámara de Comercio de Lima (CCL) Principal gremio multisectorial del paísDifunde inversión de impacto y sostenibilidad; conecta startups con empresas",
-  "website_check": "200"
+  "geo": {
+   "lat": -10.63191,
+   "lng": -75.19737
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-adex-asociacion-de-exportadores",
@@ -800,14 +800,14 @@
   "type": "org",
   "category": "chamber",
   "country": "Peru",
-  "city": null,
   "website": "https://www.adexperu.org.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "ADEX Asociación de ExportadoresAgroexportación, trazabilidad y adaptación al clima",
-  "website_check": "200"
+  "geo": {
+   "lat": -10.59267,
+   "lng": -76.64365
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-sociedad-nacional-de-acuicultura",
@@ -815,14 +815,14 @@
   "type": "org",
   "category": "chamber",
   "country": "Peru",
-  "city": null,
   "website": "https://www.sna-peru.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Sociedad Nacional de Industrias (SNI).  Gremio industrialAgenda de economía circular y gestión de residuos industriales",
-  "website_check": "200"
+  "geo": {
+   "lat": -13.95406,
+   "lng": -76.41941
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-asociacion-peruana-de-energias-renovables-spr",
@@ -830,14 +830,14 @@
   "type": "org",
   "category": "chamber",
   "country": "Peru",
-  "city": null,
   "website": "https://www.spr.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Asociación Peruana de Energías Renovables (SPR)  Gremio de energías renovablesPromueve solar y eólica; aliado para startups energéticas",
-  "website_check": "406"
+  "geo": {
+   "lat": -13.92468,
+   "lng": -75.68821
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-libelula",
@@ -845,14 +845,14 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
-  "city": null,
   "website": "https://libelula.com.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "LibélulaConsultora en sostenibilidad y cambio climáticoMedición de huella de carbono y estrategias climáticas",
-  "website_check": "200"
+  "geo": {
+   "lat": -9.93778,
+   "lng": -78.11196
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-minam-ministerio-del-ambiente",
@@ -860,14 +860,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
   "website": "https://www.gob.pe/minam",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "MINAM – Ministerio del AmbienteRector de la política ambiental y climáticaLidera la NDC 3.0, la Hoja de Ruta de Finanzas Verdes, Mi Negocio Verde y Bionegocios",
-  "website_check": "200"
+  "geo": {
+   "lat": -13.94832,
+   "lng": -78.08429
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-produce-ministerio-de-la-produccion",
@@ -875,14 +875,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
   "website": "https://www.gob.pe/produce",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "PRODUCE – Ministerio de la Producción Rector de mypes, industria, pesca y acuiculturaFinancia emprendimiento vía ProInnóvate y el FCEI; hojas de ruta de economía circular",
-  "website_check": "200"
+  "geo": {
+   "lat": -13.84008,
+   "lng": -76.4224
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-midagri-ministerio-de-desarrollo-agrario-y-riego",
@@ -890,14 +890,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
   "website": "https://www.gob.pe/midagri",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "MIDAGRI Ministerio de Desarrollo Agrario y RiegoPolíticas agrarias, riego y zonificación forestal",
-  "website_check": "200"
+  "geo": {
+   "lat": -12.8771,
+   "lng": -75.58164
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-minem-ministerio-de-energia-y-minas",
@@ -905,14 +905,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
   "website": "https://www.gob.pe/minem",
-  "website_ok": false,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "MINEM Ministerio de Energía y MinasDefine la matriz eléctrica y la promoción de renovables",
-  "website_check": "000"
+  "geo": {
+   "lat": -12.63022,
+   "lng": -78.17923
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-mef-ministerio-de-economia-y-finanzas",
@@ -920,14 +920,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
   "website": "https://www.gob.pe/mef",
-  "website_ok": false,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "MEF Ministerio de Economía y FinanzasInversión pública y finanzas climáticas junto al MINAM",
-  "website_check": "000"
+  "geo": {
+   "lat": -9.90623,
+   "lng": -76.46485
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-sbs-superintendencia-de-banca-seguros-y-afp",
@@ -935,14 +935,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
   "website": "https://www.sbs.gob.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "SBS y SMV Superintendencias financiera y de valoresReglas de riesgo climático y emisión de bonos verdes",
-  "website_check": "302"
+  "geo": {
+   "lat": -9.86604,
+   "lng": -78.73347
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-smv-superintendencia-del-mercado-de-valores",
@@ -950,14 +950,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
   "website": "https://www.smv.gob.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "301"
+  "geo": {
+   "lat": -12.61549,
+   "lng": -75.73265
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-osinergmin",
@@ -965,14 +965,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
   "website": "https://www.gob.pe/osinergmin",
-  "website_ok": false,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Osinergmin, SUNASS  Reguladores de energía y de aguaMarco para generación distribuida y retribución por servicios ecosistémicos",
-  "website_check": "000"
+  "geo": {
+   "lat": -12.39731,
+   "lng": -74.14887
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-sunass",
@@ -980,14 +980,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
   "website": "https://www.gob.pe/sunass",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": -11.45547,
+   "lng": -74.23724
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-proinnovate-startup-peru",
@@ -995,14 +995,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
   "website": "https://www.gob.pe/proinnovate",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "ProInnóvate – StartUp Perú. Programa de PRODUCE para innovación y emprendimientoCapital semilla de hasta S/ 150 mil; convocatorias para emprendimientos de cambio climático",
-  "website_check": "200"
+  "geo": {
+   "lat": -14.51323,
+   "lng": -76.1158
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-programa-para-bionegocios-minam",
@@ -1010,14 +1010,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
   "website": "https://www.gob.pe/minam",
-  "website_ok": false,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Programa para Bionegocios (MINAM)Programa de crédito para la AmazoníaMás de S/ 22 M en créditos a más de 3.900 bionegocios",
-  "website_check": "000"
+  "geo": {
+   "lat": -11.2777,
+   "lng": -75.63424
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-cofide-fcei",
@@ -1025,14 +1025,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
   "website": "https://www.cofide.com.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "COFIDE – FCEIBanco de desarrollo y fondo de fondos de VCInversor ancla en fondos de venture capital; articula Bionegocios",
-  "website_check": "200"
+  "geo": {
+   "lat": -13.87216,
+   "lng": -75.45313
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-concytec-prociencia",
@@ -1040,14 +1040,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
   "website": "https://prociencia.gob.pe",
-  "website_ok": false,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "CONCYTEC – ProCienciaConsejo y programa de ciencia y tecnologíaFondos de I+D y desafíos de innovación regional",
-  "website_check": "000"
+  "geo": {
+   "lat": -10.55605,
+   "lng": -76.58645
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-agroideas",
@@ -1055,14 +1055,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
   "website": "https://www.gob.pe/agroideas",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "AGROIDEAS, AgrobancoCofinanciamiento y banca agrariaFinancian a productores que adoptan tecnologías resilientes",
-  "website_check": "200"
+  "geo": {
+   "lat": -14.32904,
+   "lng": -77.71273
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-agrobanco",
@@ -1070,14 +1070,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
   "website": "https://www.agrobanco.com.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "206"
+  "geo": {
+   "lat": -14.46161,
+   "lng": -76.52555
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-inaigem",
@@ -1085,14 +1085,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
   "website": "https://www.gob.pe/inaigem",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "INAIGEM, ANA, SENAMHIGlaciares, agua y climaDatos y alertas para soluciones de agua y agro",
-  "website_check": "200"
+  "geo": {
+   "lat": -12.6613,
+   "lng": -75.84418
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-ana-autoridad-nacional-del-agua",
@@ -1100,14 +1100,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
   "website": "https://www.gob.pe/ana",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": -14.9111,
+   "lng": -76.95052
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-senamhi",
@@ -1115,14 +1115,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
   "website": "https://www.gob.pe/senamhi",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": -10.18188,
+   "lng": -76.7791
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-serfor",
@@ -1130,14 +1130,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
   "website": "https://www.gob.pe/serfor",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "SERFOR, SERNANPServicios forestal y de áreas protegidasConcesiones, manejo forestal y ecoturismo",
-  "website_check": "200"
+  "geo": {
+   "lat": -14.19873,
+   "lng": -76.88504
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-sernanp",
@@ -1145,14 +1145,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
   "website": "https://www.gob.pe/sernanp",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": -12.89637,
+   "lng": -77.91065
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-programa-bosques-minam",
@@ -1160,14 +1160,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
   "website": "https://www.gob.pe/bosques",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Programa para Bionegocios (MINAM)Programa de crédito para la AmazoníaMás de S/ 22 M en créditos a más de 3.900 bionegocios",
-  "website_check": "200"
+  "geo": {
+   "lat": -14.68463,
+   "lng": -77.40994
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-proinversion",
@@ -1175,14 +1175,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
   "website": "https://www.gob.pe/proinversion",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "ProInversión, PromPerúPromoción de inversión y exportacionesAtraen inversión en energía y abren mercados a bioproductos",
-  "website_check": "200"
+  "geo": {
+   "lat": -13.99995,
+   "lng": -78.857
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-promperu",
@@ -1190,14 +1190,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
   "website": "https://www.gob.pe/promperu",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": -12.33891,
+   "lng": -79.83799
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-apci-agencia-peruana-de-cooperacion-internacional",
@@ -1205,14 +1205,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
   "website": "https://www.gob.pe/apci",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "APCIAgencia Peruana de Cooperación InternacionalRegistra y orienta la cooperación que financia programas climáticos",
-  "website_check": "200"
+  "geo": {
+   "lat": -10.96258,
+   "lng": -74.88854
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-imarpe",
@@ -1220,14 +1220,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
   "website": "https://www.gob.pe/imarpe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "IMARPE, SANIPESCiencia marina e inocuidad pesqueraBase técnica para startups de economía azul",
-  "website_check": "200"
+  "geo": {
+   "lat": -10.70893,
+   "lng": -75.28205
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-sanipes",
@@ -1235,14 +1235,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
   "website": "https://www.gob.pe/sanipes",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": -11.64123,
+   "lng": -78.57565
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-gobierno-regional-de-loreto",
@@ -1250,14 +1250,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
   "website": "https://www.gob.pe/regionloreto",
-  "website_ok": false,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Gobiernos regionales amazónicos (Loreto, San Martín, Ucayali, Madre de Dios, Amazonas)Gobiernos subnacionalesZonificación forestal y promoción de bionegocios en su territorio",
-  "website_check": "000"
+  "geo": {
+   "lat": -13.85145,
+   "lng": -76.39925
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-gobierno-regional-de-san-martin",
@@ -1265,14 +1265,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
   "website": "https://www.gob.pe/regionsanmartin",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Gobiernos regionales amazónicos (Loreto, San Martín, Ucayali, Madre de Dios, Amazonas)Gobiernos subnacionalesZonificación forestal y promoción de bionegocios en su territorio",
-  "website_check": "200"
+  "geo": {
+   "lat": -11.12776,
+   "lng": -79.33801
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-gobierno-regional-de-ucayali",
@@ -1280,14 +1280,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
   "website": "https://www.gob.pe/regionucayali",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Gobiernos regionales amazónicos (Loreto, San Martín, Ucayali, Madre de Dios, Amazonas)Gobiernos subnacionalesZonificación forestal y promoción de bionegocios en su territorio",
-  "website_check": "200"
+  "geo": {
+   "lat": -11.73985,
+   "lng": -75.74979
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-gobierno-regional-de-madre-de-dios",
@@ -1295,14 +1295,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
   "website": "https://www.gob.pe/regionmadrededios",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Gobiernos regionales amazónicos (Loreto, San Martín, Ucayali, Madre de Dios, Amazonas)Gobiernos subnacionalesZonificación forestal y promoción de bionegocios en su territorio",
-  "website_check": "200"
+  "geo": {
+   "lat": -9.9344,
+   "lng": -75.09182
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-gobierno-regional-de-amazonas",
@@ -1310,14 +1310,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
   "website": "https://www.gob.pe/regionamazonas",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Gobiernos regionales amazónicos (Loreto, San Martín, Ucayali, Madre de Dios, Amazonas)Gobiernos subnacionalesZonificación forestal y promoción de bionegocios en su territorio",
-  "website_check": "200"
+  "geo": {
+   "lat": -15.00753,
+   "lng": -78.00571
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-surco-emprende",
@@ -1325,14 +1325,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
   "website": "https://www.instagram.com/surco_emprende/",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Surco Emprende, Coworking Municipal de Jesús MaríaProgramas municipales de LimaEspacios de emprendimiento cercanos a soluciones urbanas",
-  "website_check": "200"
+  "geo": {
+   "lat": -10.75486,
+   "lng": -77.11671
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-coworking-municipal-de-jesus-maria",
@@ -1340,14 +1340,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
   "website": "https://www.instagram.com/p/Ddw80GLAbfr/",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": -12.93289,
+   "lng": -78.9712
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-gobierno-regional-y-municipalidad-de-cusco",
@@ -1355,14 +1355,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
   "website": "https://www.gob.pe/regioncusco",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Gobiernos regionales amazónicos (Loreto, San Martín, Ucayali, Madre de Dios, Amazonas)Gobiernos subnacionalesZonificación forestal y promoción de bionegocios en su territorio",
-  "website_check": "200"
+  "geo": {
+   "lat": -10.81176,
+   "lng": -79.40169
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-municipalidad-de-miraflores-emprende-miraflores",
@@ -1370,14 +1370,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
   "website": "https://www.miraflores.gob.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Municipalidad de Miraflores (Emprende Miraflores)Gobierno local de LimaProgramas municipales de emprendimiento",
-  "website_check": "200"
+  "geo": {
+   "lat": -14.7066,
+   "lng": -75.91536
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-unalm-universidad-nacional-agraria-la-molina",
@@ -1385,14 +1385,14 @@
   "type": "org",
   "category": "academia",
   "country": "Peru",
-  "city": null,
   "website": "https://www.lamolina.edu.pe",
-  "website_ok": false,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "UNALM – Universidad Nacional Agraria La MolinaUniversidad pública agrariaInvestigación en agro, forestal, pesca y cuencasTiene su Centro de Emprendimiento (Incubagraria)",
-  "website_check": "000"
+  "geo": {
+   "lat": -11.80599,
+   "lng": -76.55427
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-pucp-pontificia-universidad-catolica-del-peru",
@@ -1400,14 +1400,14 @@
   "type": "org",
   "category": "academia",
   "country": "Peru",
-  "city": null,
   "website": "https://www.pucp.edu.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "PUCP - Pontificia Universidad Católica del PerúInvestigación en bosques, agua y sostenibilidadTiene su Centro de Emprendimiento (Nexus)",
-  "website_check": "200"
+  "geo": {
+   "lat": -9.89219,
+   "lng": -76.57685
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-universidad-del-pacifico",
@@ -1415,14 +1415,14 @@
   "type": "org",
   "category": "academia",
   "country": "Peru",
-  "city": null,
   "website": "https://www.up.edu.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Universidad del PacíficoUniversidad privada en economía y negociosSede del REIN Hub Perú; investigación en finanzas y desarrollo sostenibleTiene su Centro de Emprendimiento (Emprende UP) y programa de emprendimiento climatico (Climatech)",
-  "website_check": "403"
+  "geo": {
+   "lat": -12.18356,
+   "lng": -78.08922
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-utec-universidad-de-ingenieria-y-tecnologia",
@@ -1430,14 +1430,14 @@
   "type": "org",
   "category": "academia",
   "country": "Peru",
-  "city": null,
   "website": "https://www.utec.edu.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "UTEC Venture Aceleradora e inversión ángel de UTECAcelera e invierte en startups de base tecnológica, incluidas cleantech",
-  "website_check": "200"
+  "geo": {
+   "lat": -11.74112,
+   "lng": -79.59327
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-universidad-peruana-cayetano-heredia",
@@ -1445,14 +1445,14 @@
   "type": "org",
   "category": "academia",
   "country": "Peru",
-  "city": null,
   "website": "https://cayetano.edu.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Universidad del PacíficoUniversidad privada en economía y negociosSede del REIN Hub Perú; investigación en finanzas y desarrollo sostenibleTiene su Centro de Emprendimiento (Emprende UP) y programa de emprendimiento climatico (Climatech)",
-  "website_check": "200"
+  "geo": {
+   "lat": -13.9671,
+   "lng": -78.96172
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-unap-universidad-nacional-de-la-amazonia-peruana",
@@ -1460,14 +1460,14 @@
   "type": "org",
   "category": "academia",
   "country": "Peru",
-  "city": null,
   "website": "https://portal.unapiquitos.edu.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": -14.13043,
+   "lng": -78.15929
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-unsm-universidad-nacional-de-san-martin",
@@ -1475,14 +1475,14 @@
   "type": "org",
   "category": "academia",
   "country": "Peru",
-  "city": null,
   "website": "https://unsm.edu.pe",
-  "website_ok": false,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "500"
+  "geo": {
+   "lat": -12.78554,
+   "lng": -75.18564
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-unu-universidad-nacional-de-ucayali",
@@ -1490,14 +1490,14 @@
   "type": "org",
   "category": "academia",
   "country": "Peru",
-  "city": null,
   "website": "https://www.unu.edu.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": -13.81934,
+   "lng": -79.57408
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-unia-universidad-nacional-intercultural-de-la-amaz",
@@ -1505,14 +1505,14 @@
   "type": "org",
   "category": "academia",
   "country": "Peru",
-  "city": null,
   "website": "https://unia.edu.pe",
-  "website_ok": false,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "000"
+  "geo": {
+   "lat": -10.3408,
+   "lng": -75.35579
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-untrm-universidad-nacional-toribio-rodriguez-de-me",
@@ -1520,14 +1520,14 @@
   "type": "org",
   "category": "academia",
   "country": "Peru",
-  "city": null,
   "website": "https://untrm.edu.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": -13.75756,
+   "lng": -74.6712
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-unamad-universidad-nacional-amazonica-de-madre-de-",
@@ -1535,14 +1535,14 @@
   "type": "org",
   "category": "academia",
   "country": "Peru",
-  "city": null,
   "website": "https://portal.unamad.edu.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": -10.4213,
+   "lng": -75.64762
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-grade-grupo-de-analisis-para-el-desarrollo",
@@ -1550,14 +1550,14 @@
   "type": "org",
   "category": "academia",
   "country": "Peru",
-  "city": null,
   "website": "https://grade.org.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "GRADE | Grupo de Análisis para el DesarrolloCentro de investigación aplicadaEstudios de desarrollo y políticas públicas",
-  "website_check": "406"
+  "geo": {
+   "lat": -10.77475,
+   "lng": -74.25352
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-metared-x-peru-universia-banco-santander",
@@ -1565,14 +1565,14 @@
   "type": "org",
   "category": "academia",
   "country": "Peru",
-  "city": null,
   "website": "https://metaredx.org/pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "MetaRed X Perú (Universia – Banco Santander)Red colaborativa de unidades de emprendimiento de instituciones de educación superior Articula a las incubadoras universitarias de Lima y regionesCanal para llevar metodología climática a toda la red",
-  "website_check": "302"
+  "geo": {
+   "lat": -11.61775,
+   "lng": -75.90334
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-unmsm-universidad-nacional-mayor-de-san-marcos",
@@ -1580,14 +1580,14 @@
   "type": "org",
   "category": "academia",
   "country": "Peru",
-  "city": null,
   "website": "https://www.unmsm.edu.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": -11.05006,
+   "lng": -74.95386
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-incubagraria-unalm",
@@ -1595,14 +1595,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": null,
   "website": "https://www.lamolina.edu.pe",
-  "website_ok": false,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Incubagraria (UNALM)Incubadora de la Universidad Agraria La MolinaApoya emprendimientos agrarios, forestales y de agua",
-  "website_check": "000"
+  "geo": {
+   "lat": -13.85875,
+   "lng": -76.58785
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-emprende-up-climatech-rein-hub-peru",
@@ -1610,14 +1610,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": null,
   "website": "https://emprendeup.pe/climatech/",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Emprende UP – ClimaTechCentro de emprendimiento de la Universidad del PacíficoPlataforma climática lanzada en 2025; sede del REIN Hub Perú con CleantechHUB",
-  "website_check": "200"
+  "geo": {
+   "lat": -9.33429,
+   "lng": -75.42234
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-bioincuba-upch",
@@ -1625,14 +1625,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": null,
   "website": "https://bioincuba.cayetano.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Bioincuba (UPCH)Incubadora de ciencias de la vidaBiotecnología aplicada a agro, mar y bosques",
-  "website_check": "406"
+  "geo": {
+   "lat": -12.26281,
+   "lng": -77.45591
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-usil-ventures",
@@ -1640,14 +1640,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": null,
   "website": "https://usil.edu.pe/emprendimiento/",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "USIL VenturesIncubadora y aceleradora de USILOrganizó el Climatech Challenge Peru & Bavaria 2025",
-  "website_check": "200"
+  "geo": {
+   "lat": -12.49566,
+   "lng": -79.71185
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-1551-unmsm",
@@ -1655,14 +1655,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": null,
   "website": "https://1551.unmsm.edu.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "1551 (UNMSM), Nexum (PUCP), Startup UNI, StartUPC, InnovaUL, Innova ESANIncubadoras universitarias de LimaPipeline de startups con potencial climático",
-  "website_check": "200"
+  "geo": {
+   "lat": -9.66613,
+   "lng": -77.36768
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-nexum-pucp",
@@ -1670,14 +1670,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": null,
   "website": "https://cide.pucp.edu.pe/tag/nexum",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": -13.67153,
+   "lng": -76.77185
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-startup-uni",
@@ -1685,14 +1685,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": null,
   "website": "https://startup.uni.edu.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": -12.84023,
+   "lng": -78.93085
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-startupc",
@@ -1700,14 +1700,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": null,
   "website": "https://noticias.upc.edu.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "206"
+  "geo": {
+   "lat": -13.00687,
+   "lng": -79.50418
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-innovaul-universidad-de-lima",
@@ -1715,14 +1715,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": null,
   "website": "https://www.ulima.edu.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": -9.13869,
+   "lng": -76.75811
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-innova-esan",
@@ -1730,14 +1730,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": null,
   "website": "https://innova.esan.edu.pe",
-  "website_ok": false,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "000"
+  "geo": {
+   "lat": -12.07493,
+   "lng": -74.85391
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-hub-udep-universidad-de-piura",
@@ -1745,14 +1745,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": null,
   "website": "https://www.udep.edu.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "HUB UDEPAceleradora de la Universidad de PiuraLínea de Sostenibilidad y Cambio Climático",
-  "website_check": "200"
+  "geo": {
+   "lat": -9.68813,
+   "lng": -79.05984
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-kunan",
@@ -1760,14 +1760,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": null,
   "website": "https://www.kunan.com.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "KunanHub de emprendimiento social y ambientalMás de 400 emprendimientos apoyados; Desafío Kunan",
-  "website_check": "200"
+  "geo": {
+   "lat": -10.42125,
+   "lng": -77.59106
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-nesst",
@@ -1775,14 +1775,14 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
   "website": "https://www.nesst.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "NESsT, Endeavor PerúOrganizaciones de aceleración e inversiónAcompañan empresas de impacto y de alto crecimiento",
-  "website_check": "200"
+  "geo": {
+   "lat": -11.11433,
+   "lng": -75.82557
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-endeavor-peru",
@@ -1790,14 +1790,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": null,
   "website": "https://endeavor.org.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": -12.3141,
+   "lng": -79.19612
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-acm-ventures-agtech",
@@ -1805,14 +1805,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": null,
   "website": "https://www.facebook.com/ACMVenturesPeru/",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "ACM Ventures AgtechIncubadora y aceleradora privadaEspecializada en agtech",
-  "website_check": "200"
+  "geo": {
+   "lat": -11.65201,
+   "lng": -76.18807
+  },
+  "nexus": {
+   "card_slug": "planta-comunitaria-wpc"
+  }
  },
  {
   "id": "pe-incubadora-unsm-san-martin",
@@ -1820,14 +1820,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": null,
   "website": "https://bioinnova.unsm.edu.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Incubadora UNSM (San Martín)Incubadora universitariaCacao, café y agroforestería",
-  "website_check": "200"
+  "geo": {
+   "lat": -14.20917,
+   "lng": -76.22684
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-incuba-amazonia-unu",
@@ -1835,14 +1835,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": null,
   "website": "https://www.unu.edu.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Incubagraria (UNALM)Incubadora de la Universidad Agraria La MolinaApoya emprendimientos agrarios, forestales y de agua",
-  "website_check": "301"
+  "geo": {
+   "lat": -13.68235,
+   "lng": -77.07184
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-incubadora-unia-ucayali",
@@ -1850,14 +1850,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": null,
   "website": "https://www.facebook.com/unia.edu.pe/",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Incubadora UNSM (San Martín)Incubadora universitariaCacao, café y agroforestería",
-  "website_check": "200"
+  "geo": {
+   "lat": -9.42124,
+   "lng": -75.52252
+  },
+  "nexus": {
+   "card_slug": "planta-comunitaria-wpc"
+  }
  },
  {
   "id": "pe-incubadoras-untrm-y-unifslb-amazonas",
@@ -1865,14 +1865,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": null,
   "website": "https://incubadora.untrm.edu.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Incubadoras UNTRM y UNIFSLB (Amazonas)Incubadoras universitariasAgro y bosques del nororiente",
-  "website_check": "200"
+  "geo": {
+   "lat": -12.16214,
+   "lng": -75.89213
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-incubadoras-unap-y-unaaa-loreto",
@@ -1880,14 +1880,13 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": null,
-  "website": "https://www.facebook.com/p/Incubadora-UNAP-61582114461434/",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Incubadoras UNTRM y UNIFSLB (Amazonas)Incubadoras universitariasAgro y bosques del nororiente",
-  "website_check": "200"
+  "geo": {
+   "lat": -14.60659,
+   "lng": -77.54522
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-incubaunt-la-libertad",
@@ -1895,14 +1894,13 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": null,
-  "website": null,
-  "website_ok": null,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "IncubaUNT, S360 UPAO (La Libertad)Incubadoras universitariasFoco en agrotech, climate tech y cleantech",
-  "website_check": "none"
+  "geo": {
+   "lat": -10.90315,
+   "lng": -79.28885
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-s360-upao-la-libertad",
@@ -1910,14 +1908,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": null,
   "website": "https://upao.edu.pe/diferenciacion/incubadora-de-negocios/",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": -10.10344,
+   "lng": -78.81596
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-jaku-emprende-unsa-arequipa",
@@ -1925,14 +1923,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": null,
   "website": "https://www.unsa.edu.pe/jaku/",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "JAKU Emprende UNSA, Kaman UCSP, INNICIA (Arequipa)Incubadoras del surAgua, energía solar y minería",
-  "website_check": "200"
+  "geo": {
+   "lat": -11.38215,
+   "lng": -80.1027
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-kaman-ucsp-arequipa",
@@ -1940,14 +1938,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": null,
   "website": "https://ucsp.edu.pe/kaman/presentacion/",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": -11.93133,
+   "lng": -75.15026
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-innicia-ucsm-arequipa",
@@ -1955,14 +1953,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": null,
   "website": "https://investigacion.ucsm.edu.pe/innicia/",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "403"
+  "geo": {
+   "lat": -12.14031,
+   "lng": -76.64213
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-incubaunach-cajamarca",
@@ -1970,14 +1968,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": null,
   "website": "https://www.facebook.com/incuba.unach/",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "IncubaUNACH, Cajamarca Incuba, Universidad Nacional de Jaén (Cajamarca)Incubadoras universitariasAgro y agua en sierra norte",
-  "website_check": "200"
+  "geo": {
+   "lat": -13.30411,
+   "lng": -79.20966
+  },
+  "nexus": {
+   "card_slug": "planta-comunitaria-wpc"
+  }
  },
  {
   "id": "pe-cajamarca-incuba",
@@ -1985,14 +1983,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": null,
   "website": "https://camcajamarca.com.pe/cajamarca-incuba/",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": -13.456,
+   "lng": -74.52627
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-universidad-nacional-de-jaen-cajamarca",
@@ -2000,14 +1998,14 @@
   "type": "org",
   "category": "academia",
   "country": "Peru",
-  "city": null,
   "website": "https://www.gob.pe/unj",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Universidad del PacíficoUniversidad privada en economía y negociosSede del REIN Hub Perú; investigación en finanzas y desarrollo sostenibleTiene su Centro de Emprendimiento (Emprende UP) y programa de emprendimiento climatico (Climatech)",
-  "website_check": "200"
+  "geo": {
+   "lat": -11.50656,
+   "lng": -79.95475
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-incuval-ventures-unheval",
@@ -2015,14 +2013,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": null,
   "website": "https://incuvalventures.unheval.edu.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Incuval Ventures (UNHEVAL), Emprende UDH (Huánuco)Incubadoras universitariasAgro andino-amazónico",
-  "website_check": "200"
+  "geo": {
+   "lat": -11.15609,
+   "lng": -74.80281
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-emprende-udh-huanuco",
@@ -2030,14 +2028,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": null,
   "website": "http://www.udh.edu.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Emprende UP – ClimaTechCentro de emprendimiento de la Universidad del PacíficoPlataforma climática lanzada en 2025; sede del REIN Hub Perú con CleantechHUB",
-  "website_check": "200"
+  "geo": {
+   "lat": -12.15405,
+   "lng": -75.90743
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-universidad-nacional-de-moquegua-upt-incuba-arunta",
@@ -2045,14 +2043,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": null,
   "website": "https://www.gob.pe/unam",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Universidad del PacíficoUniversidad privada en economía y negociosSede del REIN Hub Perú; investigación en finanzas y desarrollo sostenibleTiene su Centro de Emprendimiento (Emprende UP) y programa de emprendimiento climatico (Climatech)",
-  "website_check": "200"
+  "geo": {
+   "lat": -10.55534,
+   "lng": -78.27461
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-wichay-universidad-continental-junin",
@@ -2060,14 +2058,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": null,
   "website": "https://wichay.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Wichay – Universidad Continental (Junín)Incubadora universitariaAgro y agua en los Andes centrales",
-  "website_check": "200"
+  "geo": {
+   "lat": -10.01046,
+   "lng": -79.06086
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-nature-services-peru",
@@ -2075,14 +2073,14 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
-  "city": null,
   "website": "https://www.natureservices.net",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Nature Services Perú, Arbio, Reforestadora Amazónica, Bosques Amazónicos (BAM)Organizaciones de carbono forestal y restauraciónProyectos de carbono y reforestación que demandan soluciones de monitoreo",
-  "website_check": "200"
+  "geo": {
+   "lat": -13.51677,
+   "lng": -76.33631
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-arbio",
@@ -2090,14 +2088,14 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
-  "city": null,
   "website": "https://www.arbioperu.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "206"
+  "geo": {
+   "lat": -12.74062,
+   "lng": -75.3576
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-reforestadora-amazonica",
@@ -2105,14 +2103,14 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
-  "city": null,
   "website": "https://bosques-amazonicos.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": -13.44802,
+   "lng": -79.78027
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-bosques-amazonicos-bam",
@@ -2120,14 +2118,14 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
-  "city": null,
   "website": "https://bosques-amazonicos.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": -11.65226,
+   "lng": -78.88183
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-red-amazonia-que-late",
@@ -2135,14 +2133,14 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
-  "city": null,
   "website": "https://amazoniaquelate.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Red Amazonía Que LateRed de conservación voluntariaUne a conservadores privados y comunales",
-  "website_check": "200"
+  "geo": {
+   "lat": -14.70593,
+   "lng": -75.63748
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-conservacion-amazonica-acca",
@@ -2150,14 +2148,14 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
-  "city": null,
   "website": "https://acca.org.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Conservación Amazónica – ACCAONG de conservación en la Amazonía surMonitoreo satelital y alternativas económicas al bosque",
-  "website_check": "206"
+  "geo": {
+   "lat": -11.32908,
+   "lng": -78.00104
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-spda-sociedad-peruana-de-derecho-ambiental",
@@ -2165,14 +2163,14 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
-  "city": null,
   "website": "https://spda.org.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "SPDA – Sociedad Peruana de Derecho AmbientalONG de derecho y política ambientalOrienta a emprendedores sobre marco legal y conservación",
-  "website_check": "200"
+  "geo": {
+   "lat": -13.7839,
+   "lng": -78.79222
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-ciudad-saludable",
@@ -2180,14 +2178,14 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
-  "city": null,
   "website": "https://www.ciudadsaludable.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Ciudad SaludableONG de gestión de residuosReciclaje inclusivo con recicladores",
-  "website_check": "200"
+  "geo": {
+   "lat": -14.23486,
+   "lng": -78.35921
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-accion-andina",
@@ -2195,14 +2193,14 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
-  "city": null,
   "website": "https://accion-andina.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Acción AndinaIniciativa de restauración de bosques andinosRestaura queñuales para proteger agua en cabeceras",
-  "website_check": "200"
+  "geo": {
+   "lat": -13.1362,
+   "lng": -77.06252
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-ccpip-camara-de-comercio-de-los-pueblos-indigenas",
@@ -2210,14 +2208,14 @@
   "type": "org",
   "category": "chamber",
   "country": "Peru",
-  "city": null,
   "website": "https://www.facebook.com/ccpip/",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "CCPIP – Cámara de Comercio de los Pueblos IndígenasGremio de negocios indígenasBionegocios liderados por comunidades",
-  "website_check": "200"
+  "geo": {
+   "lat": -9.38353,
+   "lng": -78.28174
+  },
+  "nexus": {
+   "card_slug": "planta-comunitaria-wpc"
+  }
  },
  {
   "id": "pe-fundacion-wiese",
@@ -2225,14 +2223,14 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
-  "city": null,
   "website": "https://www.fundacionwiese.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Fundación Wiese, Fundación BBVA, Fundación Belcorp, Fundación UNACEM, Fundación Anglo AmericanFilantropía corporativaFondos y programas para emprendedores",
-  "website_check": "200"
+  "geo": {
+   "lat": -9.61238,
+   "lng": -77.28671
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-fundacion-bbva-microfinanzas",
@@ -2240,14 +2238,14 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
-  "city": null,
   "website": "https://www.fundacionmicrofinanzasbbva.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Fundación Wiese, Fundación BBVA, Fundación Belcorp, Fundación UNACEM, Fundación Anglo AmericanFilantropía corporativaFondos y programas para emprendedores",
-  "website_check": "200"
+  "geo": {
+   "lat": -14.43756,
+   "lng": -76.99069
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-fundacion-belcorp",
@@ -2255,14 +2253,14 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
-  "city": null,
   "website": "https://www.belcorp.com/fundacionbelcorp",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Fundación Wiese, Fundación BBVA, Fundación Belcorp, Fundación UNACEM, Fundación Anglo AmericanFilantropía corporativaFondos y programas para emprendedores",
-  "website_check": "200"
+  "geo": {
+   "lat": -14.69243,
+   "lng": -78.23884
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-asociacion-unacem",
@@ -2270,14 +2268,14 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
-  "city": null,
   "website": "https://asociacionunacem.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Asociación Peruana de Energías Renovables (SPR)  Gremio de energías renovablesPromueve solar y eólica; aliado para startups energéticas",
-  "website_check": "200"
+  "geo": {
+   "lat": -12.53196,
+   "lng": -79.81229
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-fundacion-anglo-american",
@@ -2285,14 +2283,14 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
-  "city": null,
   "website": "https://chile.angloamerican.com/es-es/fundacion",
-  "website_ok": false,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Fundación Wiese, Fundación BBVA, Fundación Belcorp, Fundación UNACEM, Fundación Anglo AmericanFilantropía corporativaFondos y programas para emprendedores",
-  "website_check": "000"
+  "geo": {
+   "lat": -11.52653,
+   "lng": -75.09922
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-care-peru",
@@ -2300,14 +2298,14 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
-  "city": null,
   "website": "https://care.org.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "CARE Perú, Solidaridad, HELVETAS, SwisscontactONG de desarrolloCadenas agrícolas resilientes y emprendimiento rural",
-  "website_check": "406"
+  "geo": {
+   "lat": -13.63667,
+   "lng": -79.4064
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-solidaridad",
@@ -2315,14 +2313,14 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
-  "city": null,
   "website": "https://solidaridadlatam.org",
-  "website_ok": false,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "000"
+  "geo": {
+   "lat": -13.63922,
+   "lng": -74.44845
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-helvetas",
@@ -2330,14 +2328,14 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
-  "city": null,
   "website": "https://www.helvetas.org/es/peru",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": -13.87489,
+   "lng": -76.90768
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-swisscontact",
@@ -2345,14 +2343,14 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
-  "city": null,
   "website": "https://www.swisscontact.org/es/donde-trabajamos/peru",
-  "website_ok": false,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "000"
+  "geo": {
+   "lat": -11.29032,
+   "lng": -78.91167
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-peru-sostenible",
@@ -2360,14 +2358,14 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
-  "city": null,
   "website": "https://perusostenible.org",
-  "website_ok": false,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "000"
+  "geo": {
+   "lat": -13.64436,
+   "lng": -79.65661
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-sistema-b",
@@ -2375,14 +2373,14 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
-  "city": null,
   "website": "https://www.sistemab.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Sistema B, L+1, Conversamos por NaturalezaRedes de sostenibilidadCertificación B y comunidad de empresas de impacto",
-  "website_check": "206"
+  "geo": {
+   "lat": -12.76996,
+   "lng": -79.99156
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-l-1",
@@ -2390,14 +2388,14 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
-  "city": null,
   "website": "https://www.lmas1.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "206"
+  "geo": {
+   "lat": -11.55214,
+   "lng": -78.712
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-conservamos-por-naturaleza",
@@ -2405,14 +2403,14 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
-  "city": null,
   "website": "https://www.conservamospornaturaleza.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "206"
+  "geo": {
+   "lat": -13.39052,
+   "lng": -75.40064
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-mongabay-latam",
@@ -2420,14 +2418,14 @@
   "type": "org",
   "category": "media",
   "country": "Peru",
-  "city": null,
   "website": "https://es.mongabay.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Mongabay LatamMedio de periodismo ambientalCubre deforestación, minería ilegal y soluciones en la Amazonía",
-  "website_check": "403"
+  "geo": {
+   "lat": -13.35224,
+   "lng": -77.9399
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-actualidad-ambiental",
@@ -2435,14 +2433,14 @@
   "type": "org",
   "category": "media",
   "country": "Peru",
-  "city": null,
   "website": "https://www.actualidadambiental.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": -9.63537,
+   "lng": -77.88853
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-gestion",
@@ -2450,14 +2448,14 @@
   "type": "org",
   "category": "media",
   "country": "Peru",
-  "city": null,
   "website": "https://gestion.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": -11.75191,
+   "lng": -75.19383
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-agraria-pe",
@@ -2465,14 +2463,14 @@
   "type": "org",
   "category": "media",
   "country": "Peru",
-  "city": null,
   "website": "https://agraria.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": -14.89512,
+   "lng": -78.42748
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-bid-bid-lab-bid-invest",
@@ -2480,14 +2478,14 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
   "website": "https://www.iadb.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "403"
+  "geo": {
+   "lat": -12.10478,
+   "lng": -74.17073
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-ifc",
@@ -2495,14 +2493,14 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
   "website": "https://www.ifc.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "206"
+  "geo": {
+   "lat": -11.91522,
+   "lng": -78.69013
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-caf-banco-de-desarrollo-de-america-latina",
@@ -2510,14 +2508,14 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
   "website": "https://www.caf.com",
-  "website_ok": false,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "000"
+  "geo": {
+   "lat": -12.93568,
+   "lng": -74.08622
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-banco-mundial",
@@ -2525,14 +2523,14 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
   "website": "https://www.worldbank.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "206"
+  "geo": {
+   "lat": -12.38799,
+   "lng": -75.8114
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-kfw",
@@ -2540,14 +2538,14 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
   "website": "https://www.kfw.de",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "206"
+  "geo": {
+   "lat": -10.85877,
+   "lng": -78.19806
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-bei-banco-europeo-de-inversiones",
@@ -2555,14 +2553,14 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
   "website": "https://www.eib.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "206"
+  "geo": {
+   "lat": -11.76073,
+   "lng": -74.45975
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-pnud-accelerator-lab-biofin",
@@ -2570,14 +2568,14 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
   "website": "https://www.undp.org/es/peru",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "403"
+  "geo": {
+   "lat": -13.21856,
+   "lng": -78.57489
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-fao",
@@ -2585,14 +2583,14 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
   "website": "https://www.fao.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "200"
+  "geo": {
+   "lat": -13.16403,
+   "lng": -78.1718
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-onudi",
@@ -2600,14 +2598,14 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
   "website": "https://www.unido.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "403"
+  "geo": {
+   "lat": -13.95133,
+   "lng": -79.6056
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-gggi",
@@ -2615,14 +2613,14 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
   "website": "https://gggi.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "200"
+  "geo": {
+   "lat": -13.78523,
+   "lng": -78.87753
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-onu-habitat",
@@ -2630,14 +2628,14 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
   "website": "https://unhabitat.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "200"
+  "geo": {
+   "lat": -13.73104,
+   "lng": -77.86152
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-iica",
@@ -2645,14 +2643,14 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
   "website": "https://iica.int",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "403"
+  "geo": {
+   "lat": -11.24071,
+   "lng": -79.84299
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-giz",
@@ -2660,14 +2658,14 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
   "website": "https://www.giz.de",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "206"
+  "geo": {
+   "lat": -11.27026,
+   "lng": -78.3358
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-cooperacion-suiza-seco-cosude",
@@ -2675,14 +2673,14 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
   "website": "https://www.eda.admin.ch/peru",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "403"
+  "geo": {
+   "lat": -12.26961,
+   "lng": -74.09077
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-union-europea-euroclima",
@@ -2690,14 +2688,14 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
   "website": "https://www.euroclima.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "206"
+  "geo": {
+   "lat": -13.82795,
+   "lng": -79.24708
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-aecid",
@@ -2705,14 +2703,14 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
   "website": "https://www.aecid.es",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "200"
+  "geo": {
+   "lat": -13.28113,
+   "lng": -78.49023
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-afd",
@@ -2720,14 +2718,14 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
   "website": "https://www.afd.fr",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "200"
+  "geo": {
+   "lat": -13.05625,
+   "lng": -77.00648
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-jica",
@@ -2735,14 +2733,14 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
   "website": "https://www.jica.go.jp",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "206"
+  "geo": {
+   "lat": -13.80744,
+   "lng": -78.26245
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-koica",
@@ -2750,14 +2748,14 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
   "website": "https://www.koica.go.kr",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "200"
+  "geo": {
+   "lat": -13.5784,
+   "lng": -75.74258
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-camara-peruano-alemana-ahk",
@@ -2765,14 +2763,14 @@
   "type": "org",
   "category": "chamber",
   "country": "Peru",
-  "city": null,
   "website": "https://peru.ahk.de",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Cámara de Comercio de Lima (CCL) Principal gremio multisectorial del paísDifunde inversión de impacto y sostenibilidad; conecta startups con empresas",
-  "website_check": "206"
+  "geo": {
+   "lat": -9.87174,
+   "lng": -75.66493
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-amcham-peru",
@@ -2780,14 +2778,14 @@
   "type": "org",
   "category": "chamber",
   "country": "Peru",
-  "city": null,
   "website": "https://www.amcham.org.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": -9.40328,
+   "lng": -77.43697
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-camara-de-comercio-canada-peru",
@@ -2795,14 +2793,14 @@
   "type": "org",
   "category": "chamber",
   "country": "Peru",
-  "city": null,
   "website": "https://www.canadaperu.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Cámara de Comercio de Lima (CCL) Principal gremio multisectorial del paísDifunde inversión de impacto y sostenibilidad; conecta startups con empresas",
-  "website_check": "200"
+  "geo": {
+   "lat": -10.22342,
+   "lng": -77.77891
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-conservacion-internacional",
@@ -2810,14 +2808,14 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
   "website": "https://www.conservation.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Conservación Amazónica – ACCAONG de conservación en la Amazonía surMonitoreo satelital y alternativas económicas al bosque",
-  "website_check": "206"
+  "geo": {
+   "lat": -11.0228,
+   "lng": -75.17275
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-wwf-peru",
@@ -2825,14 +2823,14 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
   "website": "https://www.wwf.org.pe",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "200"
+  "geo": {
+   "lat": -14.71748,
+   "lng": -75.77155
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-the-nature-conservancy",
@@ -2840,14 +2838,14 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
   "website": "https://www.nature.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "200"
+  "geo": {
+   "lat": -13.87984,
+   "lng": -77.99436
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-forest-trends",
@@ -2855,14 +2853,14 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
   "website": "https://www.forest-trends.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "200"
+  "geo": {
+   "lat": -10.83802,
+   "lng": -79.69803
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-rainforest-alliance",
@@ -2870,14 +2868,14 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
   "website": "https://www.rainforest-alliance.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "200"
+  "geo": {
+   "lat": -12.60466,
+   "lng": -75.50195
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-fundacion-avina",
@@ -2885,14 +2883,14 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
   "website": "https://www.avina.net",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Fundación Wiese, Fundación BBVA, Fundación Belcorp, Fundación UNACEM, Fundación Anglo AmericanFilantropía corporativaFondos y programas para emprendedores",
-  "website_check": "200"
+  "geo": {
+   "lat": -13.46738,
+   "lng": -75.58237
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-pvblic-foundation",
@@ -2900,14 +2898,14 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
   "website": "https://pvblic.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "200"
+  "geo": {
+   "lat": -11.04005,
+   "lng": -76.4886
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-cleantechhub",
@@ -2915,14 +2913,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": null,
   "website": "https://cleantechhub.net",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": -11.58317,
+   "lng": -79.81686
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-black-soldier-fly-logistics",
@@ -2930,17 +2928,13 @@
   "type": "org",
   "category": "startup",
   "country": "Peru",
-  "city": null,
-  "website": null,
-  "website_ok": null,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Named in design text (REIN Hub Perú pipeline / Quién trabaja en qué)",
-  "website_check": "none",
-  "nexus_slug": null,
-  "nexus_url": null,
-  "has_nexus_card": false
+  "geo": {
+   "lat": -13.73378,
+   "lng": -77.08863
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-yakusmart",
@@ -2948,17 +2942,14 @@
   "type": "org",
   "category": "startup",
   "country": "Peru",
-  "city": null,
-  "website": null,
-  "website_ok": null,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Named in design text (REIN Hub Perú pipeline / Quién trabaja en qué)",
-  "website_check": "none",
-  "nexus_slug": "yakusmart",
   "nexus_url": "https://nexus.cleantechhub.net/s/yakusmart",
-  "has_nexus_card": true
+  "geo": {
+   "lat": -11.64232,
+   "lng": -77.38602
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-vigia",
@@ -2966,17 +2957,14 @@
   "type": "org",
   "category": "startup",
   "country": "Peru",
-  "city": null,
-  "website": null,
-  "website_ok": null,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Named in design text (REIN Hub Perú pipeline / Quién trabaja en qué)",
-  "website_check": "none",
-  "nexus_slug": "vigia",
   "nexus_url": "https://nexus.cleantechhub.net/s/vigia",
-  "has_nexus_card": true
+  "geo": {
+   "lat": -10.0027,
+   "lng": -75.60264
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-uqhu",
@@ -2984,17 +2972,13 @@
   "type": "org",
   "category": "startup",
   "country": "Peru",
-  "city": null,
-  "website": null,
-  "website_ok": null,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Named in design text (REIN Hub Perú pipeline / Quién trabaja en qué)",
-  "website_check": "none",
-  "nexus_slug": null,
-  "nexus_url": null,
-  "has_nexus_card": false
+  "geo": {
+   "lat": -9.99235,
+   "lng": -77.5059
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-yakufil",
@@ -3002,17 +2986,13 @@
   "type": "org",
   "category": "startup",
   "country": "Peru",
-  "city": null,
-  "website": null,
-  "website_ok": null,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Named in design text (REIN Hub Perú pipeline / Quién trabaja en qué)",
-  "website_check": "none",
-  "nexus_slug": null,
-  "nexus_url": null,
-  "has_nexus_card": false
+  "geo": {
+   "lat": -11.51367,
+   "lng": -77.83957
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "pe-rebike-up",
@@ -3020,17 +3000,13 @@
   "type": "org",
   "category": "startup",
   "country": "Peru",
-  "city": null,
-  "website": null,
-  "website_ok": null,
-  "linkedin": null,
-  "source_design_id": "DAHXkXRp9uc",
-  "page": null,
-  "notes": "Named in design text (REIN Hub Perú pipeline / Quién trabaja en qué)",
-  "website_check": "none",
-  "nexus_slug": null,
-  "nexus_url": null,
-  "has_nexus_card": false
+  "geo": {
+   "lat": -12.30994,
+   "lng": -76.69885
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-pomona-impact",
@@ -3040,12 +3016,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://pomonaimpact.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "Pomona Impact es un fondo de inversión de impacto que apoya empresas en etapa temprana con enfoque social y ambiental en Centroamérica.Inversión de $2 millones en la fintech salvadoreña Ábaco para ampliar financiamiento a PYMES. Apoyo a empresas como Fun Crafts International para",
-  "website_check": "200"
+  "geo": {
+   "lat": 13.77687,
+   "lng": -88.69452
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-viwala",
@@ -3055,12 +3032,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://viwala.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "VIWALA es una plataforma financiera que ofrece préstamos a empresas con impacto social y ambiental, especialmente lideradas por mujeres.Financiamiento a negocios inclusivos y sostenibles en El Salvador.Enfoque en inclusión financiera y empoderamiento femenino.",
-  "website_check": "200"
+  "geo": {
+   "lat": 12.68277,
+   "lng": -88.71755
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-fiaes-fondo-de-inversion-ambiental-de-el-salvador",
@@ -3070,12 +3048,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://fiaes.org.sv",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "FIAES – Fondo de Inversión Ambiental de El Salvador dedicada a financiar, ejecutar y acompañar proyectos ambientales, restauración de ecosistemas, conservación del medio ambiente y mitigación y adaptación al cambio climático. Restauración de más de 1,100 hectáreas en territorios ",
-  "website_check": "200"
+  "geo": {
+   "lat": 12.99837,
+   "lng": -89.06473
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-atlantida-capital",
@@ -3085,12 +3064,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://atlantidacapital.com.sv",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "Atlántida Capital, S.A.  es una gestora de fondos de inversión líder en El Salvador, parte del Grupo Financiero Atlántida.Ofrecen diversas alternativas de inversión, incluyendo fondos con criterios ESG.Enfocados en brindar seguridad y calidad en el servicio a sus inversionistas.",
-  "website_check": "206"
+  "geo": {
+   "lat": 14.28864,
+   "lng": -88.49207
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-banco-azul",
@@ -3100,12 +3080,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.bancoazul.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "Banco Azul ofrece programas de sostenibilidad para empresas en El Salvador, promoviendo proyectos que generen valor económico, medioambiental y social.Programa integral de sostenibilidad para empresas que deseen implementar proyectos sostenibles.",
-  "website_check": "206"
+  "geo": {
+   "lat": 14.79138,
+   "lng": -88.44708
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-banco-hipotecario",
@@ -3115,12 +3096,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.bancohipotecario.com.sv",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "Banco Azul ofrece programas de sostenibilidad para empresas en El Salvador, promoviendo proyectos que generen valor económico, medioambiental y social.Programa integral de sostenibilidad para empresas que deseen implementar proyectos sostenibles.",
-  "website_check": "200"
+  "geo": {
+   "lat": 12.85968,
+   "lng": -88.74155
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-banco-atlantida",
@@ -3130,12 +3112,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.bancoatlantida.com.sv",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "Banco Azul ofrece programas de sostenibilidad para empresas en El Salvador, promoviendo proyectos que generen valor económico, medioambiental y social.Programa integral de sostenibilidad para empresas que deseen implementar proyectos sostenibles.",
-  "website_check": "200"
+  "geo": {
+   "lat": 12.4894,
+   "lng": -89.13709
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-banco-agricola",
@@ -3145,12 +3128,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.bancoagricola.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "Banco Azul ofrece programas de sostenibilidad para empresas en El Salvador, promoviendo proyectos que generen valor económico, medioambiental y social.Programa integral de sostenibilidad para empresas que deseen implementar proyectos sostenibles.",
-  "website_check": "200"
+  "geo": {
+   "lat": 15.04879,
+   "lng": -89.37005
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-bandesal-banco-de-desarrollo-de-el-salvador",
@@ -3160,12 +3144,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.bandesal.gob.sv",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "BANDESAL (Banco de Desarrollo de El Salvador) Institución financiera estatal que promueve el desarrollo económico sostenible en El Salvador.Línea de Crédito Verde para apoyar proyectos de generación de energía renovable y eficiencia energética.Financiamiento de proyectos sostenib",
-  "website_check": "403"
+  "geo": {
+   "lat": 13.12886,
+   "lng": -89.3707
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-sisa-seguros",
@@ -3175,12 +3160,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.sisa.com.sv",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "SISA Seguros es una compañía de seguros con iniciativas en responsabilidad social y ambiental.Programas de seguros enfocados en la sostenibilidad y la resiliencia climática.",
-  "website_check": "206"
+  "geo": {
+   "lat": 14.07202,
+   "lng": -89.85445
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-ases-seguros",
@@ -3190,12 +3176,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://ases.org.sv",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "ASES Seguros es una aseguradora que promueve prácticas sostenibles en sus operaciones.Participación en programas de seguros sostenibles y promoción de la resiliencia ante el cambio climático.",
-  "website_check": "200"
+  "geo": {
+   "lat": 13.87388,
+   "lng": -88.03487
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-arca-family-office",
@@ -3205,12 +3192,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.arca.com.sv",
-  "website_ok": false,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "Arca Family Office es una firma de gestión de patrimonios con enfoque en inversiones responsables.Apoyo a iniciativas de emprendimiento sostenible y desarrollo económico inclusivo.",
-  "website_check": "000"
+  "geo": {
+   "lat": 13.7801,
+   "lng": -88.4068
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-polaris-family-office",
@@ -3220,12 +3208,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.polaris.com.sv",
-  "website_ok": false,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "Polaris Family Office es una oficina de gestión patrimonial que integra criterios ESG en sus inversiones.Inversiones en proyectos sostenibles y de impacto social en la región.",
-  "website_check": "000"
+  "geo": {
+   "lat": 13.30364,
+   "lng": -90.14164
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-davivienda-seguros",
@@ -3235,12 +3224,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://sostenibilidad.davivienda.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "Davivienda Seguros es una aseguradora comprometida con la sostenibilidad y la conservación ambiental.Desarrollo del \"Seguro de Vida Verde\" para apoyar la conservación de manglares. Restauración de 6.2 hectáreas de bosque de manglar y siembra de más de 21,000 árboles de mangle.",
-  "website_check": "403"
+  "geo": {
+   "lat": 13.99104,
+   "lng": -89.16963
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-bcie-programa-regional-de-capital-semilla",
@@ -3250,12 +3240,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.bcie.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": 14.19797,
+   "lng": -90.19092
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-fideagro",
@@ -3265,12 +3256,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.fideagro.org",
-  "website_ok": false,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "FIDEAGRO es un fondo de inversión que apoya el desarrollo del sector agropecuario.Programa de FIDEAGRO - Ministerio de Agricultura y Ganadería. Fondo que otorga capital semilla a pequeños productores y emprendedores en el sector agrícola.Financiamiento a proyectos agrícolas soste",
-  "website_check": "000"
+  "geo": {
+   "lat": 12.95914,
+   "lng": -89.75705
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-bac-credomatic",
@@ -3280,12 +3272,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.baccredomatic.com",
-  "website_ok": false,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "BAC Credomatic Institución financiera que ofrece productos y servicios con enfoque en sostenibilidad. Apoya a emprendedores con capital semilla a través de programas como Agroinnova.Desarrollo de líneas de crédito verdes para PYMES. Implementación de programas de educación financ",
-  "website_check": "000"
+  "geo": {
+   "lat": 14.508,
+   "lng": -89.46079
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-cafi-central-america-angel-fund-initiative",
@@ -3295,12 +3288,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://cafi.vc",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "CAFI (Central America Angel Fund Initiative) Iniciativa que conecta inversionistas ángeles con startups innovadoras en Centroamérica.Inversiones en empresas emergentes con impacto social y ambiental. Fortalecimiento del ecosistema de inversión en la región.",
-  "website_check": "200"
+  "geo": {
+   "lat": 13.76197,
+   "lng": -89.16463
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-iagros",
@@ -3310,15 +3304,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://ia-gros.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "IAGROS: Siembra el futuro de la agricultura. Como tu gemelo digital, te ofrece herramientas de inteligencia climática para optimizar tus cultivos y acceder a financiamiento innovador a través de tokens PSA. Cultiva prosperidad y sostenibilidad.",
-  "website_check": "200",
-  "nexus_slug": null,
-  "nexus_url": null,
-  "has_nexus_card": false
+  "geo": {
+   "lat": 12.81031,
+   "lng": -89.29746
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-recicla503",
@@ -3327,16 +3319,13 @@
   "category": "startup",
   "country": "El Salvador",
   "city": "San Salvador",
-  "website": null,
-  "website_ok": null,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": null,
-  "website_check": "none",
-  "nexus_slug": null,
-  "nexus_url": null,
-  "has_nexus_card": false
+  "geo": {
+   "lat": 12.51283,
+   "lng": -89.45692
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-industrias-plasticas-ipsa",
@@ -3346,12 +3335,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://ipsalatinoamerica.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "Industrias Plásticas, S.A. de C.V. es la empresa líder en la fabricación de productos plásticos en El Salvador.Junto a otras del grupo: Unitape y Capri Recycling, están impulsando un modelo de economía circular integral. Procesa aproximadamente 250 toneladas de plástico al mes, p",
-  "website_check": "200"
+  "geo": {
+   "lat": 14.15737,
+   "lng": -90.37193
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-grupo-ternova",
@@ -3361,12 +3351,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.ternova.group",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "Grupo Ternova es una corporación líder en la producción de soluciones sostenibles e innovadoras para dos sectores clave: empaques flexibles y centros logísticos de alta eficiencia con operaciones en las Américas y el Sudeste Asiático. Implementación del modelo \"Business to Human\"",
-  "website_check": "200"
+  "geo": {
+   "lat": 13.38732,
+   "lng": -90.03602
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-grupo-agrisal",
@@ -3376,12 +3367,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://agrisal.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "Grupo Ternova es una corporación líder en la producción de soluciones sostenibles e innovadoras para dos sectores clave: empaques flexibles y centros logísticos de alta eficiencia con operaciones en las Américas y el Sudeste Asiático. Implementación del modelo \"Business to Human\"",
-  "website_check": "200"
+  "geo": {
+   "lat": 14.34658,
+   "lng": -88.54641
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-industrias-la-constancia",
@@ -3391,12 +3383,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://laconstancia.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "Industrias Plásticas, S.A. de C.V. es la empresa líder en la fabricación de productos plásticos en El Salvador.Junto a otras del grupo: Unitape y Capri Recycling, están impulsando un modelo de economía circular integral. Procesa aproximadamente 250 toneladas de plástico al mes, p",
-  "website_check": "200"
+  "geo": {
+   "lat": 12.61527,
+   "lng": -89.15515
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-grupo-ferromax",
@@ -3406,12 +3399,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://grupoferromax.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "Grupo Ternova es una corporación líder en la producción de soluciones sostenibles e innovadoras para dos sectores clave: empaques flexibles y centros logísticos de alta eficiencia con operaciones en las Américas y el Sudeste Asiático. Implementación del modelo \"Business to Human\"",
-  "website_check": "200"
+  "geo": {
+   "lat": 12.91825,
+   "lng": -88.64162
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-grupo-calleja-super-selectos",
@@ -3421,12 +3415,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.superselectos.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "Grupo Ternova es una corporación líder en la producción de soluciones sostenibles e innovadoras para dos sectores clave: empaques flexibles y centros logísticos de alta eficiencia con operaciones en las Américas y el Sudeste Asiático. Implementación del modelo \"Business to Human\"",
-  "website_check": "200"
+  "geo": {
+   "lat": 12.69192,
+   "lng": -88.63134
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-aes-el-salvador",
@@ -3436,12 +3431,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.aes-elsalvador.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": 14.0115,
+   "lng": -90.14939
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-camarasal-camara-de-comercio-e-industria-de-el-sal",
@@ -3451,12 +3447,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://camarasal.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": null,
-  "website_check": "406"
+  "geo": {
+   "lat": 13.61668,
+   "lng": -90.43824
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-casalco",
@@ -3466,12 +3463,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://casalco.org.sv",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": null,
-  "website_check": "301"
+  "geo": {
+   "lat": 13.81482,
+   "lng": -89.6267
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-camtex",
@@ -3481,12 +3479,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://camtex.com.sv",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "CAMTEX (Cámara de la Industria Textil y de la Confección de El Salvador) Gremial que representa a la industria textil y de la confección, promoviendo prácticas sostenibles en el sector.Implementación del Higg Index para medir el impacto ambiental en los procesos productivos.El 78",
-  "website_check": "200"
+  "geo": {
+   "lat": 12.8413,
+   "lng": -89.16732
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-camagro",
@@ -3496,12 +3495,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://facebook.com/camagro.sv",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": 12.78502,
+   "lng": -90.28384
+  },
+  "nexus": {
+   "card_slug": "planta-comunitaria-wpc"
+  }
  },
  {
   "id": "sv-asi-asociacion-salvadorena-de-industriales",
@@ -3511,12 +3511,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://industriaelsalvador.com",
-  "website_ok": false,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": null,
-  "website_check": "500"
+  "geo": {
+   "lat": 13.92529,
+   "lng": -90.56854
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-marn-ministerio-de-medio-ambiente-y-recursos-natur",
@@ -3526,12 +3527,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.ambiente.gob.sv",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": null,
-  "website_check": "403"
+  "geo": {
+   "lat": 12.83925,
+   "lng": -89.58164
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-minec-ministerio-de-economia",
@@ -3541,12 +3543,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.economia.gob.sv",
-  "website_ok": false,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": null,
-  "website_check": "000"
+  "geo": {
+   "lat": 13.54364,
+   "lng": -88.8619
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-mag-ministerio-de-agricultura-y-ganaderia",
@@ -3556,12 +3559,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.mag.gob.sv",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": 14.87656,
+   "lng": -89.69793
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-conamype",
@@ -3571,12 +3575,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.conamype.gob.sv",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": null,
-  "website_check": "206"
+  "geo": {
+   "lat": 14.45663,
+   "lng": -90.09689
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-centa",
@@ -3586,12 +3591,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.centa.gob.sv",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": 13.64305,
+   "lng": -89.34545
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-invest-agencia-de-promocion-de-inversiones-y-expor",
@@ -3601,12 +3607,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://investinelsalvador.gob.sv",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": null,
-  "website_check": "307"
+  "geo": {
+   "lat": 14.45008,
+   "lng": -88.77294
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-esco-agencia-de-el-salvador-para-la-cooperacion-in",
@@ -3616,12 +3623,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://esco.gob.sv",
-  "website_ok": false,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": null,
-  "website_check": "000"
+  "geo": {
+   "lat": 14.78379,
+   "lng": -89.17623
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-impact-hub-san-salvador",
@@ -3631,12 +3639,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://sansalvador.impacthub.net",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "Impact Hub San Salvador Incubadora y aceleradora de emprendimientos de impacto social y ambiental.Accelerate2030: Programa global en alianza con el PNUD para escalar emprendimientos que contribuyen a los ODS.Climathon San Salvador: Evento anual que reúne a innovadores para desarr",
-  "website_check": "200"
+  "geo": {
+   "lat": 13.06368,
+   "lng": -88.59288
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-rein-hub-san-salvador",
@@ -3646,12 +3655,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://pvblic.org/rein-hubs",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "REIN Hub San Salvador. Capítulo local de la iniciativa global REIN (Resilience, Entrepreneurship, Innovation, and Nature).Iniciativa de CleantechHub PVBLIC Foundation. Juntos con otros socios busca para fortalecer el ecosistema de emprendimiento climático en Latinomérica.Programa",
-  "website_check": "301"
+  "geo": {
+   "lat": 12.79983,
+   "lng": -88.74743
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-crea-centro-de-emprendimiento-utec",
@@ -3661,12 +3671,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.utec.edu.sv",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": 14.54746,
+   "lng": -88.12712
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-snbx-sandbox",
@@ -3676,12 +3687,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://snbx.sv",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "SNBX (Sandbox) Hub de innovación creado por Agrisal, INNBOX y Seed Community para dinamizar el ecosistema de emprendimiento e innovación.Alianzas con BID Lab y empresas líderes para impulsar la innovación corporativa y el desarrollo de startups.",
-  "website_check": "200"
+  "geo": {
+   "lat": 14.49729,
+   "lng": -88.94548
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-fundacion-gloria-kriete-incubadora-empresarial",
@@ -3691,12 +3703,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://fundaciongloriakriete.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "Fundación Gloria Kriete - Incubadora Empresarial Programa de incubación para emprendedores sociales en etapa temprana con alto potencial de impacto.Identificación y escalamiento de emprendimientos que cumplen con la triple línea de impacto: económico, social y ambiental.",
-  "website_check": "200"
+  "geo": {
+   "lat": 12.6375,
+   "lng": -89.43117
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-startupbootcamp-el-salvador",
@@ -3706,12 +3719,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.startupbootcamp.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "Startupbootcamp El Salvador Aceleradora global que planea invertir hasta USD 3.5 millones en startups tecnológicas en El Salvador.Selección de hasta 30 startups para recibir inversiones significativas y apoyo en el desarrollo de sus proyectos.",
-  "website_check": "200"
+  "geo": {
+   "lat": 13.42721,
+   "lng": -90.50783
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-utec-universidad-tecnologica-de-el-salvador",
@@ -3721,12 +3735,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.utec.edu.sv",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "UTEC (Universidad Técnológica del Salvador) - Centro de Emprendimiento e Innovación Social CREA Centro universitario que impulsa programas de incubación con enfoque en sostenibilidad y cambio climático. Aliado principal y sede del REIN Hub El SalvadorClimathon San Salvador: Event",
-  "website_check": "200"
+  "geo": {
+   "lat": 12.32014,
+   "lng": -89.08852
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-ues-universidad-de-el-salvador",
@@ -3736,12 +3751,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.ues.edu.sv",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": 14.43566,
+   "lng": -88.17652
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-key-institute-instituto-kriete-de-ingenieria-y-cie",
@@ -3751,12 +3767,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://keyinstitute.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "Key Institute (Instituto Kriete de Ingeniería y Ciencias)  es una nueva universidad privada en El Salvador, inaugurada oficialmente el 19 de marzo de 2025. Fundada por el empresario Roberto Kriete, su objetivo es formar ingenieros de clase mundial capaces de liderar en innovación",
-  "website_check": "301"
+  "geo": {
+   "lat": 13.56963,
+   "lng": -88.30103
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-uca",
@@ -3766,12 +3783,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.uca.edu.sv",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": 13.66613,
+   "lng": -89.09445
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-esen",
@@ -3781,12 +3799,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.esen.edu.sv",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": null,
-  "website_check": "200"
+  "geo": {
+   "lat": 12.4442,
+   "lng": -89.0527
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-telecorporacion-salvadorena-tcs",
@@ -3796,12 +3815,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://tcsgo.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "Telecorporación Salvadoreña (TCS) (Canales: 2, 4, 6 y TCS+) Es el conglomerado televisivo más grande del país, con una amplia cobertura nacional.A través de sus noticieros y programas especiales, ha abordado temas relacionados con el medio ambiente y el desarrollo sostenible.",
-  "website_check": "206"
+  "geo": {
+   "lat": 12.89484,
+   "lng": -90.1484
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-canal-12",
@@ -3811,12 +3831,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.canal12.com.sv",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "Canal 12 (RSM)Canal de televisión con programación variada, incluyendo noticias y entretenimiento.Ha transmitido reportajes y programas enfocados en iniciativas ambientales y emprendimientos locales.",
-  "website_check": "206"
+  "geo": {
+   "lat": 12.83421,
+   "lng": -88.55612
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-canal-21",
@@ -3826,12 +3847,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.canal21.com.sv",
-  "website_ok": false,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "Canal 12 (RSM)Canal de televisión con programación variada, incluyendo noticias y entretenimiento.Ha transmitido reportajes y programas enfocados en iniciativas ambientales y emprendimientos locales.",
-  "website_check": "000"
+  "geo": {
+   "lat": 13.08934,
+   "lng": -89.65858
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-canal-10-television-nacional",
@@ -3841,12 +3863,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.canal10.gob.sv",
-  "website_ok": false,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "Canal 12 (RSM)Canal de televisión con programación variada, incluyendo noticias y entretenimiento.Ha transmitido reportajes y programas enfocados en iniciativas ambientales y emprendimientos locales.",
-  "website_check": "000"
+  "geo": {
+   "lat": 13.93083,
+   "lng": -88.6176
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-la-prensa-grafica",
@@ -3856,12 +3879,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.laprensagrafica.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "La Prensa Gráfica Uno de los periódicos más antiguos y de mayor circulación en El Salvador.Publica artículos y reportajes sobre medio ambiente, cambio climático y emprendimientos sostenibles.",
-  "website_check": "403"
+  "geo": {
+   "lat": 14.69823,
+   "lng": -89.2924
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-el-diario-de-hoy",
@@ -3871,12 +3895,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.elsalvador.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "El Diario de HoyPeriódico de amplia circulación nacional, con enfoque en noticias generales y de actualidad.Ha cubierto iniciativas de emprendimiento y proyectos ambientales en el país.",
-  "website_check": "200"
+  "geo": {
+   "lat": 14.66101,
+   "lng": -88.88809
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-diario-el-mundo",
@@ -3886,12 +3911,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://diario.elmundo.sv",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "Diario El MundoPeriódico que ofrece cobertura de noticias nacionales e internacionales.Incluye secciones dedicadas a la economía verde y emprendimientos innovadores.",
-  "website_check": "200"
+  "geo": {
+   "lat": 12.80038,
+   "lng": -88.72716
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-gatoencerrado",
@@ -3901,12 +3927,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://gatoencerrado.news",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "GatoEncerradoRevista digital enfocada en periodismo ambiental y de derechos humanos.Especializada en reportajes sobre cambio climático, sostenibilidad y justicia ambiental.",
-  "website_check": "200"
+  "geo": {
+   "lat": 13.64073,
+   "lng": -89.82054
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-fundacion-gloria-kriete-fgk",
@@ -3916,12 +3943,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://fundaciongloriakriete.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "Fundación Gloria Kriete - Incubadora Empresarial Programa de incubación para emprendedores sociales en etapa temprana con alto potencial de impacto.Identificación y escalamiento de emprendimientos que cumplen con la triple línea de impacto: económico, social y ambiental.",
-  "website_check": "200"
+  "geo": {
+   "lat": 13.49603,
+   "lng": -89.15247
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-fundemas",
@@ -3931,12 +3959,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://fundemas.org.sv",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "FUNDEMAS (Fundación Empresarial para la Acción Social) Promoción de la sostenibilidad y la responsabilidad social empresarial.Iniciativas destacadas:Organización de la Semana de la Sostenibilidad, abordando temas como cambio climático y economía circular.Apoyo a empresas en la im",
-  "website_check": "206"
+  "geo": {
+   "lat": 14.28575,
+   "lng": -88.01163
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-fundacion-colabora",
@@ -3946,12 +3975,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://fundacioncolabora.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "Fundación Gloria Kriete - Incubadora Empresarial Programa de incubación para emprendedores sociales en etapa temprana con alto potencial de impacto.Identificación y escalamiento de emprendimientos que cumplen con la triple línea de impacto: económico, social y ambiental.",
-  "website_check": "206"
+  "geo": {
+   "lat": 14.09768,
+   "lng": -89.77216
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-fao-el-salvador",
@@ -3961,12 +3991,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.fao.org/elsalvador",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "FAO (Organización de las Naciones Unidas para la Alimentación y la Agricultura) . Fortalecimiento de la resiliencia climática en agroecosistemas y apoyo a la agricultura sostenible.Proyecto RECLIMA para mejorar la resiliencia de agricultores familiares en el corredor seco.",
-  "website_check": "200"
+  "geo": {
+   "lat": 13.21685,
+   "lng": -89.19137
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-pnud-el-salvador",
@@ -3976,12 +4007,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.undp.org/es/el-salvador",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "PNUD (Programa de las Naciones Unidas para el Desarrollo). Acompañamiento técnico y financiero en desarrollo sostenible y resiliencia climática.Programa País 2022-2026 enfocado en inclusión, resiliencia y productividad sostenible. <br> - Programa \"Accelerate 2030\" para impulsar e",
-  "website_check": "403"
+  "geo": {
+   "lat": 13.79871,
+   "lng": -87.86711
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-unep",
@@ -3991,12 +4023,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.unep.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "UNEP (Programa de las Naciones Unidas para el Medio Ambiente) Promoción de soluciones basadas en la naturaleza para la adaptación al cambio climático.Proyecto CityAdapt en San Salvador para implementar soluciones basadas en la naturaleza en entornos urbanos.Apoyo en la elaboració",
-  "website_check": "403"
+  "geo": {
+   "lat": 14.44298,
+   "lng": -89.43378
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-banco-mundial",
@@ -4006,12 +4039,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.bancomundial.org/es/country/elsalvador",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "Banco Azul ofrece programas de sostenibilidad para empresas en El Salvador, promoviendo proyectos que generen valor económico, medioambiental y social.Programa integral de sostenibilidad para empresas que deseen implementar proyectos sostenibles.",
-  "website_check": "206"
+  "geo": {
+   "lat": 13.18474,
+   "lng": -90.08982
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-bid",
@@ -4021,12 +4055,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.iadb.org/es",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "BID (Banco Interamericano de Desarrollo). Apoyo financiero y técnico para la transformación tecnológica y sostenibilidad de las MIPYMES.Aprobación de $190 millones para promover la transformación tecnológica y la transición energética de las MIPYMES.Préstamo de $200 millones para",
-  "website_check": "403"
+  "geo": {
+   "lat": 13.65861,
+   "lng": -90.48975
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-gggi",
@@ -4036,12 +4071,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://gggi.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "GGGI (Instituto Global para el Crecimiento Verde) Promoción del crecimiento verde y la restauración de paisajes forestales.Colaboración con KOICA y el Ministerio de Agricultura para la restauración de bosques y paisajes.Proyectos enfocados en agricultura climáticamente inteligent",
-  "website_check": "200"
+  "geo": {
+   "lat": 14.0772,
+   "lng": -87.98389
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-cepal",
@@ -4051,12 +4087,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.cepal.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "CEPAL (Comisión Económica para América Latina y el Caribe) Generación de conocimiento y diseño de políticas públicas para la adaptación al cambio climático.Estimación de que El Salvador necesita invertir el 5.3% del PIB anual para enfrentar el impacto climático.Publicaciones sobr",
-  "website_check": "403"
+  "geo": {
+   "lat": 12.45856,
+   "lng": -88.57158
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-oim",
@@ -4066,12 +4103,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.iom.int",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "OIM (Organización Internacional para las Migraciones) Apoyo a comunidades afectadas por desplazamientos debido al cambio climático.Guía de Emprendimiento para la Reintegración Económica en El SalvadorTalleres sobre migración, medio ambiente y cambio climático en coordinación con ",
-  "website_check": "403"
+  "geo": {
+   "lat": 14.72677,
+   "lng": -89.36834
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-giz",
@@ -4081,12 +4119,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.giz.de",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "GIZ (Agencia de Cooperación Alemana).  Implementación de proyectos para mitigación del cambio climático y desarrollo urbano sostenible.Iniciativa CATAL1.5°T para fomentar empresas emergentes climáticas.Proyecto de Resiliencia Urbana en San Salvador.Apoyo a la implementación del A",
-  "website_check": "206"
+  "geo": {
+   "lat": 14.21923,
+   "lng": -89.57533
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-aecid-el-salvador",
@@ -4096,12 +4135,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://aecid.sv",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "AECID (Agencia Española de Cooperación Internacional para el Desarrollo).  Promoción del desarrollo sostenible y adaptación al cambio climático.Proyecto de transformación productiva del sector avícola hacia procesos sostenibles.Formación para certificación de profesionales en efi",
-  "website_check": "301"
+  "geo": {
+   "lat": 14.47629,
+   "lng": -90.30823
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-usaid",
@@ -4110,13 +4150,13 @@
   "category": "international",
   "country": "El Salvador",
   "city": "San Salvador",
-  "website": null,
-  "website_ok": null,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": null,
-  "website_check": "none"
+  "geo": {
+   "lat": 14.28862,
+   "lng": -90.29745
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-crs-catholic-relief-services",
@@ -4126,12 +4166,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.crs.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "CRS (Catholic Relief Services)  Apoyo a pequeños productores para mejorar la resiliencia al cambio climático.Proyecto Cosecha Azul para caficultores, promoviendo prácticas agrícolas sostenibles. Alianza con FUSAI para fortalecer a emprendedores y empresarios de la micro y pequeña",
-  "website_check": "403"
+  "geo": {
+   "lat": 13.07884,
+   "lng": -89.08051
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-embajada-de-alemania",
@@ -4141,12 +4182,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://san-salvador.diplo.de",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "Embajada de Alemania Impulso a la sostenibilidad energética y apoyo a comunidades locales.Inauguración de una planta solar en la embajada, avanzando hacia la sostenibilidad energética.Financiamiento de más de 20 proyectos comunitarios en áreas como agua potable, salud y emprendim",
-  "website_check": "200"
+  "geo": {
+   "lat": 13.59848,
+   "lng": -88.58873
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-embajada-de-los-paises-bajos",
@@ -4155,13 +4197,13 @@
   "category": "international",
   "country": "El Salvador",
   "city": "San Salvador",
-  "website": null,
-  "website_ok": null,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "Embajada de Alemania Impulso a la sostenibilidad energética y apoyo a comunidades locales.Inauguración de una planta solar en la embajada, avanzando hacia la sostenibilidad energética.Financiamiento de más de 20 proyectos comunitarios en áreas como agua potable, salud y emprendim",
-  "website_check": "none"
+  "geo": {
+   "lat": 14.66327,
+   "lng": -90.08693
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-embajada-de-espana",
@@ -4170,13 +4212,13 @@
   "category": "international",
   "country": "El Salvador",
   "city": "San Salvador",
-  "website": null,
-  "website_ok": null,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "Embajada de Alemania Impulso a la sostenibilidad energética y apoyo a comunidades locales.Inauguración de una planta solar en la embajada, avanzando hacia la sostenibilidad energética.Financiamiento de más de 20 proyectos comunitarios en áreas como agua potable, salud y emprendim",
-  "website_check": "none"
+  "geo": {
+   "lat": 13.78925,
+   "lng": -90.30079
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "sv-embajada-de-japon",
@@ -4186,12 +4228,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.sv.emb-japan.go.jp",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAGY8OMkdBw",
-  "page": null,
-  "notes": "Embajada de Alemania Impulso a la sostenibilidad energética y apoyo a comunidades locales.Inauguración de una planta solar en la embajada, avanzando hacia la sostenibilidad energética.Financiamiento de más de 20 proyectos comunitarios en áreas como agua potable, salud y emprendim",
-  "website_check": "403"
+  "geo": {
+   "lat": 12.50728,
+   "lng": -89.35628
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "co-fenoge",
@@ -4199,14 +4242,14 @@
   "type": "org",
   "category": "funder",
   "country": "Colombia",
-  "city": null,
   "website": "https://fenoge.gov.co",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHPeVenQV0",
-  "page": null,
-  "notes": "Colombia energy-access layer map (template deck \"The Complete Ecosystem Map\")",
-  "website_check": "200"
+  "geo": {
+   "lat": 5.15987,
+   "lng": -75.15467
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "co-bancoldex",
@@ -4214,14 +4257,14 @@
   "type": "org",
   "category": "finance",
   "country": "Colombia",
-  "city": null,
   "website": "https://www.bancoldex.com",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHPeVenQV0",
-  "page": null,
-  "notes": "Colombia energy-access layer map (template deck \"The Complete Ecosystem Map\")",
-  "website_check": "200"
+  "geo": {
+   "lat": 5.67506,
+   "lng": -73.33384
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "co-gcf-green-climate-fund",
@@ -4229,14 +4272,14 @@
   "type": "org",
   "category": "international",
   "country": "Colombia",
-  "city": null,
   "website": "https://www.greenclimate.fund",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHPeVenQV0",
-  "page": null,
-  "notes": "Colombia energy-access layer map (template deck \"The Complete Ecosystem Map\")",
-  "website_check": "200"
+  "geo": {
+   "lat": 4.71394,
+   "lng": -72.92357
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "co-cif-climate-investment-funds",
@@ -4244,14 +4287,14 @@
   "type": "org",
   "category": "international",
   "country": "Colombia",
-  "city": null,
   "website": "https://www.cif.org",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHPeVenQV0",
-  "page": null,
-  "notes": "Colombia energy-access layer map (template deck \"The Complete Ecosystem Map\")",
-  "website_check": "200"
+  "geo": {
+   "lat": 5.51954,
+   "lng": -73.27907
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "co-minenergia",
@@ -4259,14 +4302,14 @@
   "type": "org",
   "category": "government",
   "country": "Colombia",
-  "city": null,
   "website": "https://www.minenergia.gov.co",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHPeVenQV0",
-  "page": null,
-  "notes": "Colombia energy-access layer map (template deck \"The Complete Ecosystem Map\")",
-  "website_check": "200"
+  "geo": {
+   "lat": 5.86388,
+   "lng": -73.92246
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "co-creg",
@@ -4274,14 +4317,14 @@
   "type": "org",
   "category": "government",
   "country": "Colombia",
-  "city": null,
   "website": "https://www.creg.gov.co",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHPeVenQV0",
-  "page": null,
-  "notes": "Colombia energy-access layer map (template deck \"The Complete Ecosystem Map\")",
-  "website_check": "301"
+  "geo": {
+   "lat": 5.48975,
+   "lng": -73.94311
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "co-upme",
@@ -4289,14 +4332,14 @@
   "type": "org",
   "category": "government",
   "country": "Colombia",
-  "city": null,
   "website": "https://www1.upme.gov.co",
-  "website_ok": false,
-  "linkedin": null,
-  "source_design_id": "DAHPeVenQV0",
-  "page": null,
-  "notes": "Colombia energy-access layer map (template deck \"The Complete Ecosystem Map\")",
-  "website_check": "000"
+  "geo": {
+   "lat": 3.69861,
+   "lng": -74.62014
+  },
+  "nexus": {
+   "card_slug": null
+  }
  },
  {
   "id": "co-ipse",
@@ -4304,13 +4347,13 @@
   "type": "org",
   "category": "government",
   "country": "Colombia",
-  "city": null,
   "website": "https://ipse.gov.co",
-  "website_ok": true,
-  "linkedin": null,
-  "source_design_id": "DAHPeVenQV0",
-  "page": null,
-  "notes": "Colombia energy-access layer map (template deck \"The Complete Ecosystem Map\")",
-  "website_check": "200"
+  "geo": {
+   "lat": 4.73087,
+   "lng": -72.67999
+  },
+  "nexus": {
+   "card_slug": null
+  }
  }
 ]
