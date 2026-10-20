@@ -437,14 +437,23 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
+  "city": "Ate",
   "website": "https://www.mercycorpsventures.com",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "206"
+  "website_check": "206",
+  "geo": {
+   "lat": -12.034178,
+   "lng": -76.928844,
+   "address": "Víctor Raúl Haya de la Torre None, Ate, Perú",
+   "city": "Ate",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Mercy+Corps+Ventures%2C+Lima%2C+Peru&limit=5 (q=Mercy Corps Ventures, Lima, Peru) (name-capital)"
+  }
  },
  {
   "id": "pe-accion-venture-lab",
@@ -459,7 +468,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "206"
+  "website_check": "206",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-alive-ventures",
@@ -467,14 +485,23 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
+  "city": "Pachacámac",
   "website": "https://www.alive-ventures.com",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.224534,
+   "lng": -76.879045,
+   "address": "Pachacámac, Perú",
+   "city": "Pachacámac",
+   "country": "Peru",
+   "precision": "city",
+   "source_url": "https://photon.komoot.io/api/?q=ALIVE+Ventures%2C+Lima%2C+Peru&limit=5 (q=ALIVE Ventures, Lima, Peru) (name-capital)"
+  }
  },
  {
   "id": "pe-bezos-earth-fund",
@@ -489,7 +516,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Bezos Earth FundFilantropía climáticaFondos para conservación de bosques y naturaleza",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-allied-climate-partners",
@@ -504,7 +540,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Allied Climate Partners, Finance in Motion Fondos climáticos y de transiciónCapital para energía limpia y finanzas verdes",
-  "website_check": "206"
+  "website_check": "206",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-finance-in-motion",
@@ -512,14 +557,23 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
+  "city": "San Juan de Lurigancho",
   "website": "https://www.finance-in-motion.com",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -11.987993,
+   "lng": -77.008529,
+   "address": "Avenida Próceres de la Independencia None, San Juan de Lurigancho, Perú",
+   "city": "San Juan de Lurigancho",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Finance+in+Motion%2C+Lima%2C+Peru&limit=5 (q=Finance in Motion, Lima, Peru) (name-capital)"
+  }
  },
  {
   "id": "pe-root-capital",
@@ -527,14 +581,23 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
+  "city": "Lima",
   "website": "https://rootcapital.org",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Root Capital Inversionista de impacto en agriculturaCrédito a cooperativas de café y cacao que adoptan prácticas resilientes",
-  "website_check": "403"
+  "website_check": "403",
+  "geo": {
+   "lat": -12.127048,
+   "lng": -77.027393,
+   "address": "Calle San Martín 660, Lima, Perú",
+   "city": "Lima",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Root+Capital%2C+Lima%2C+Peru&limit=5 (q=Root Capital, Lima, Peru) (name-capital)"
+  }
  },
  {
   "id": "pe-bbva-peru",
@@ -542,14 +605,23 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
-  "city": null,
+  "city": "Lima",
   "website": "https://www.bbva.pe",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "BBVA Perú  Banco con estrategia de negocio sosteniblePrimer préstamo verde del país; Carbon Loan ligado a Huella de Carbono Perú; vivienda verde",
-  "website_check": "403"
+  "website_check": "403",
+  "geo": {
+   "lat": -12.126911,
+   "lng": -76.987653,
+   "address": "Jiron Trigal 101, Lima, Perú",
+   "city": "Lima",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=BBVA+Per%C3%BA%2C+Lima%2C+Peru&limit=5 (q=BBVA Perú, Lima, Peru) (name-capital)"
+  }
  },
  {
   "id": "pe-interbank",
@@ -557,14 +629,23 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
-  "city": null,
+  "city": "Lima",
   "website": "https://interbank.pe",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "403"
+  "website_check": "403",
+  "geo": {
+   "lat": -12.056731,
+   "lng": -77.03688,
+   "address": "Puerta 10 None, Lima, Perú",
+   "city": "Lima",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Interbank%2C+Lima%2C+Peru&limit=5 (q=Interbank, Lima, Peru) (name-capital)"
+  }
  },
  {
   "id": "pe-scotiabank-peru",
@@ -572,14 +653,23 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
-  "city": null,
+  "city": "Lima",
   "website": "https://www.scotiabank.com.pe",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Scotiabank Perú Banco comercialLíneas de financiamiento sostenible",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.051314,
+   "lng": -77.025318,
+   "address": "Calle Capón None, Lima, Perú",
+   "city": "Lima",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Scotiabank+Per%C3%BA%2C+Lima%2C+Peru&limit=5 (q=Scotiabank Perú, Lima, Peru) (name-capital)"
+  }
  },
  {
   "id": "pe-pacifico-seguros",
@@ -587,14 +677,23 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
-  "city": null,
+  "city": "San Isidro",
   "website": "https://www.pacifico.com.pe",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Pacífico SegurosAseguradora de CredicorpPotencial de seguros climáticos y paramétricos para el agro",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.096584,
+   "lng": -77.027244,
+   "address": "Ciclovía Juan de Arona None, San Isidro, Perú",
+   "city": "San Isidro",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Pac%C3%ADfico+Seguros%2C+Lima%2C+Peru&limit=5 (q=Pacífico Seguros, Lima, Peru) (name-capital)"
+  }
  },
  {
   "id": "pe-bcp-banco-de-credito-del-peru",
@@ -602,14 +701,23 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
-  "city": null,
+  "city": "La Molina",
   "website": "https://www.viabcp.com",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "BCP – Banco de Crédito del Perú Mayor banco del país, parte de CredicorpCréditos verdes y financiamiento a energía renovable",
-  "website_check": "403"
+  "website_check": "403",
+  "geo": {
+   "lat": -12.076561,
+   "lng": -76.917147,
+   "address": "Calle Las Virgenes Lote 1 y 2, La Molina, Perú",
+   "city": "La Molina",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=BCP+%E2%80%93+Banco+de+Cr%C3%A9dito+del+Per%C3%BA%2C+Lima%2C+Peru&limit=5 (q=BCP – Banco de Crédito del Perú, Lima, Peru) (name-capital)"
+  }
  },
  {
   "id": "pe-bolsa-de-valores-de-lima",
@@ -617,14 +725,23 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
-  "city": null,
+  "city": "San Isidro",
   "website": "https://www.bvl.com.pe",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Bolsa de Valores de Lima Mercado de valoresEmisión de bonos verdes y sostenibles",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.094821,
+   "lng": -77.03603,
+   "address": "Avenida Jorge Basadre 347, San Isidro, Perú",
+   "city": "San Isidro",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Bolsa+de+Valores+de+Lima%2C+Lima%2C+Peru&limit=5 (q=Bolsa de Valores de Lima, Lima, Peru) (name-capital)"
+  }
  },
  {
   "id": "pe-financiera-confianza",
@@ -632,14 +749,23 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
-  "city": null,
+  "city": "Ate",
   "website": "https://confianza.pe",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Financiera Confianza Microfinanciera de la Fundación BBVAParte del Programa para Bionegocios del MINAM en la Amazonía",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.016111,
+   "lng": -76.899165,
+   "address": "Avenida Cajamarquilla None, Ate, Perú",
+   "city": "Ate",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Financiera+Confianza%2C+Lima%2C+Peru&limit=5 (q=Financiera Confianza, Lima, Peru) (name-capital)"
+  }
  },
  {
   "id": "pe-fepcmac-federacion-de-cajas-municipales",
@@ -647,14 +773,23 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
-  "city": null,
+  "city": "Tacabamba",
   "website": "https://www.fpcmac.org.pe",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "FEPCMAC Federación de Cajas MunicipalesArticula a las cajas para programas de finanzas verde",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -6.392693,
+   "lng": -78.611425,
+   "address": "Jirón Lima None, Tacabamba, Perú",
+   "city": "Tacabamba",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=FEPCMAC+%E2%80%93+Federaci%C3%B3n+de+Cajas+Municipales%2C+Lima%2C+Peru&limit=5 (q=FEPCMAC – Federación de Cajas Municipales, Lima, Peru) (name-capital)"
+  }
  },
  {
   "id": "pe-compartamos-financiera",
@@ -662,14 +797,23 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
-  "city": null,
+  "city": "Los Olivos",
   "website": "https://www.compartamos.com.pe",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Compartamos FinancieraMicrofinanzas y cooperativasCrédito a mypes y emprendedores rurales",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -11.994068,
+   "lng": -77.068541,
+   "address": "Manuel Gonzales Prada None, Los Olivos, Perú",
+   "city": "Los Olivos",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Compartamos+Financiera%2C+Lima%2C+Peru&limit=5 (q=Compartamos Financiera, Lima, Peru) (name-capital)"
+  }
  },
  {
   "id": "pe-caja-arequipa",
@@ -677,14 +821,23 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
-  "city": null,
+  "city": "Lima",
   "website": "https://www.cajaarequipa.pe",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Caja Arequipa, Caja Huancayo, Caja Piura, Caja Ica, Caja Maynas Cajas municipales de ahorro y créditoLlegan a productores rurales de costa, sierra y selva; aliadas para crédito verde",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.092832,
+   "lng": -77.027027,
+   "address": "Avenida Ricardo Rivera Navarrete 548, Lima, Perú",
+   "city": "Lima",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Caja+Arequipa%2C+Lima%2C+Peru&limit=5 (q=Caja Arequipa, Lima, Peru) (name-capital)"
+  }
  },
  {
   "id": "pe-caja-huancayo",
@@ -692,14 +845,23 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
-  "city": null,
+  "city": "Lima",
   "website": "https://www.cajahuancayo.com.pe",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Caja Arequipa, Caja Huancayo, Caja Piura, Caja Ica, Caja Maynas Cajas municipales de ahorro y créditoLlegan a productores rurales de costa, sierra y selva; aliadas para crédito verde",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.056016,
+   "lng": -77.030136,
+   "address": "Avenida Abancay None, Lima, Perú",
+   "city": "Lima",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Caja+Huancayo%2C+Lima%2C+Peru&limit=5 (q=Caja Huancayo, Lima, Peru) (name-capital)"
+  }
  },
  {
   "id": "pe-caja-piura",
@@ -707,14 +869,23 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
-  "city": null,
+  "city": "Lima",
   "website": "https://www.cajapiura.pe",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Caja Arequipa, Caja Huancayo, Caja Piura, Caja Ica, Caja Maynas Cajas municipales de ahorro y créditoLlegan a productores rurales de costa, sierra y selva; aliadas para crédito verde",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.049362,
+   "lng": -77.037904,
+   "address": "Avenida Nicolas de Pierola 607, Lima, Perú",
+   "city": "Lima",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Caja+Piura%2C+Lima%2C+Peru&limit=5 (q=Caja Piura, Lima, Peru) (name-capital)"
+  }
  },
  {
   "id": "pe-caja-ica",
@@ -722,14 +893,23 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
-  "city": null,
+  "city": "Villa El Salvador",
   "website": "https://cajaica.pe",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Caja Arequipa, Caja Huancayo, Caja Piura, Caja Ica, Caja Maynas Cajas municipales de ahorro y créditoLlegan a productores rurales de costa, sierra y selva; aliadas para crédito verde",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.204065,
+   "lng": -76.933389,
+   "address": "Avenida Juan Velazco Alvarado None, Villa El Salvador, Perú",
+   "city": "Villa El Salvador",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Caja+Ica%2C+Lima%2C+Peru&limit=5 (q=Caja Ica, Lima, Peru) (name-capital)"
+  }
  },
  {
   "id": "pe-caja-maynas",
@@ -737,14 +917,23 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
-  "city": null,
+  "city": "Huánuco",
   "website": "https://www.cajamaynas.pe",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Caja Arequipa, Caja Huancayo, Caja Piura, Caja Ica, Caja Maynas Cajas municipales de ahorro y créditoLlegan a productores rurales de costa, sierra y selva; aliadas para crédito verde",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -9.930496,
+   "lng": -76.239251,
+   "address": "Jirón General Prado None, Huánuco, Perú",
+   "city": "Huánuco",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Caja+Maynas%2C+Lima%2C+Peru&limit=5 (q=Caja Maynas, Lima, Peru) (name-capital)"
+  }
  },
  {
   "id": "pe-san-miguel-industrias-pet",
@@ -752,14 +941,23 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
-  "city": null,
+  "city": "Lima",
   "website": "https://smisolutions.com",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "San Miguel Industrias PET.  Empresa de envases PETPlanta de reciclaje botella a botella de 20.000 t/año",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.039785,
+   "lng": -77.072596,
+   "address": "Lima, Perú",
+   "city": "Lima",
+   "country": "Peru",
+   "precision": "city",
+   "source_url": "https://photon.komoot.io/api/?q=San+Miguel+Industrias+PET%2C+Peru&limit=5 (q=San Miguel Industrias PET, Peru) (name-country)"
+  }
  },
  {
   "id": "pe-aje-group",
@@ -774,7 +972,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "AJE GroupMultinacional peruana de bebidasMetas de empaques y abastecimiento sostenible",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-backus-ab-inbev",
@@ -789,7 +996,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Backus (AB InBev) Cervecera líder del país100 % electricidad renovable y más del 85 % de envases retornables o reciclados; demanda de soluciones circulares",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-alicorp",
@@ -797,14 +1013,23 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
-  "city": null,
+  "city": "Miraflores",
   "website": "https://www.alicorp.com.pe",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Alicorp Mayor empresa de consumo masivo del PerúReciclaje de aceite usado y metas de empaques; potencial cliente de startups circulares",
-  "website_check": "302"
+  "website_check": "302",
+  "geo": {
+   "lat": -12.130579,
+   "lng": -77.021011,
+   "address": "Alicorp, Calle Francisco del Castillo, San Antonio, Miraflores, Lima, Lima Metropolitana, Lima, 15048, Perú",
+   "city": "Miraflores",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Alicorp%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  }
  },
  {
   "id": "pe-engie-energia-peru",
@@ -819,7 +1044,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "ENGIE Energía Perú, Enel Perú  Generadoras eléctricasDesarrollan proyectos eólicos y solares; demanda de innovación energética",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-enel-peru-pluz",
@@ -834,7 +1068,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "206"
+  "website_check": "206",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-danper",
@@ -842,14 +1085,23 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
-  "city": null,
+  "city": "Olmos",
   "website": "https://danper.com",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Danper AgroexportadoraAgricultura de exportación expuesta a El Niño; demanda de soluciones de agua y adaptación",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -6.026112,
+   "lng": -80.022621,
+   "address": "Fundo Danper Olmos, Olmos, Lambayeque, Perú",
+   "city": "Olmos",
+   "country": "Peru",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Danper%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
+  }
  },
  {
   "id": "pe-cerro-verde",
@@ -857,14 +1109,23 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
-  "city": null,
+  "city": "Ancón",
   "website": "https://www.cerroverde.pe",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Cerro Verde, Hudbay, Gold Fields, Anglo American. Empresas minerasAgua, energía y relación con comunidades; programas de innovación abierta",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -11.683477,
+   "lng": -77.175795,
+   "address": "Cerro Verde, Ancón, Lima, Lima Metropolitana, Lima, Perú",
+   "city": "Ancón",
+   "country": "Peru",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Cerro+Verde%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  }
  },
  {
   "id": "pe-hudbay",
@@ -872,14 +1133,23 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
-  "city": null,
+  "city": "Velille",
   "website": "https://hudbayminerals.com",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "403"
+  "website_check": "403",
+  "geo": {
+   "lat": -14.46259,
+   "lng": -71.793238,
+   "address": "HudBay Constancia, CU-1819, Velille, Chumbivilcas, Cusco, Perú",
+   "city": "Velille",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Hudbay%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
+  }
  },
  {
   "id": "pe-gold-fields",
@@ -894,7 +1164,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "000"
+  "website_check": "000",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-anglo-american",
@@ -902,14 +1181,23 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
-  "city": null,
+  "city": "Ilo",
   "website": "https://www.angloamerican.com",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -17.770594,
+   "lng": -71.190796,
+   "address": "Puerto Anglo American Quellaveco, Central Termoelectrica, Ilo, Moquegua, Perú",
+   "city": "Ilo",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Anglo+American%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
+  }
  },
  {
   "id": "pe-textil-camones",
@@ -924,7 +1212,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Textil Camones Textil peruanaProduce hilados con fibras recicladas",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-sociedad-nacional-de-industrias-sni",
@@ -939,7 +1236,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Sociedad Nacional de Industrias (SNI).  Gremio industrialAgenda de economía circular y gestión de residuos industriales",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-camara-de-comercio-de-lima-ccl",
@@ -954,7 +1260,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Cámara de Comercio de Lima (CCL) Principal gremio multisectorial del paísDifunde inversión de impacto y sostenibilidad; conecta startups con empresas",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-adex-asociacion-de-exportadores",
@@ -962,14 +1277,23 @@
   "type": "org",
   "category": "chamber",
   "country": "Peru",
-  "city": null,
+  "city": "San Borja",
   "website": "https://www.adexperu.org.pe",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "ADEX Asociación de ExportadoresAgroexportación, trazabilidad y adaptación al clima",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.086383,
+   "lng": -76.995378,
+   "address": "ADEX Asociación de exportadores, 2875, Avenida Javier Prado Este, Jacaranda Etapa Dos, San Borja, Lima, Lima Metropolitana, Lima, 15041, Perú",
+   "city": "San Borja",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=ADEX+%E2%80%93+Asociaci%C3%B3n+de+Exportadores%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  }
  },
  {
   "id": "pe-sociedad-nacional-de-acuicultura",
@@ -984,7 +1308,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Sociedad Nacional de Industrias (SNI).  Gremio industrialAgenda de economía circular y gestión de residuos industriales",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-asociacion-peruana-de-energias-renovables-spr",
@@ -999,7 +1332,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Asociación Peruana de Energías Renovables (SPR)  Gremio de energías renovablesPromueve solar y eólica; aliado para startups energéticas",
-  "website_check": "406"
+  "website_check": "406",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-libelula",
@@ -1007,14 +1349,23 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
-  "city": null,
+  "city": "Arequipa",
   "website": "https://libelula.com.pe",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "LibélulaConsultora en sostenibilidad y cambio climáticoMedición de huella de carbono y estrategias climáticas",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -16.398867,
+   "lng": -71.536961,
+   "address": "Arequipa, 04001, Perú",
+   "city": "Arequipa",
+   "country": "Peru",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=AREQUIPA%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
+  }
  },
  {
   "id": "pe-minam-ministerio-del-ambiente",
@@ -1029,7 +1380,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "MINAM – Ministerio del AmbienteRector de la política ambiental y climáticaLidera la NDC 3.0, la Hoja de Ruta de Finanzas Verdes, Mi Negocio Verde y Bionegocios",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-produce-ministerio-de-la-produccion",
@@ -1044,7 +1404,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "PRODUCE – Ministerio de la Producción Rector de mypes, industria, pesca y acuiculturaFinancia emprendimiento vía ProInnóvate y el FCEI; hojas de ruta de economía circular",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-midagri-ministerio-de-desarrollo-agrario-y-riego",
@@ -1059,7 +1428,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "MIDAGRI Ministerio de Desarrollo Agrario y RiegoPolíticas agrarias, riego y zonificación forestal",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-minem-ministerio-de-energia-y-minas",
@@ -1074,7 +1452,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "MINEM Ministerio de Energía y MinasDefine la matriz eléctrica y la promoción de renovables",
-  "website_check": "000"
+  "website_check": "000",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-mef-ministerio-de-economia-y-finanzas",
@@ -1089,7 +1476,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "MEF Ministerio de Economía y FinanzasInversión pública y finanzas climáticas junto al MINAM",
-  "website_check": "000"
+  "website_check": "000",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-sbs-superintendencia-de-banca-seguros-y-afp",
@@ -1104,7 +1500,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "SBS y SMV Superintendencias financiera y de valoresReglas de riesgo climático y emisión de bonos verdes",
-  "website_check": "302"
+  "website_check": "302",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-smv-superintendencia-del-mercado-de-valores",
@@ -1119,7 +1524,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "301"
+  "website_check": "301",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-osinergmin",
@@ -1127,14 +1541,23 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
+  "city": "Magdalena del Mar",
   "website": "https://www.gob.pe/osinergmin",
   "website_ok": false,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Osinergmin, SUNASS  Reguladores de energía y de aguaMarco para generación distribuida y retribución por servicios ecosistémicos",
-  "website_check": "000"
+  "website_check": "000",
+  "geo": {
+   "lat": -12.096739,
+   "lng": -77.058827,
+   "address": "Osinergmin, 222, Calle Bernardo Monteagudo, Magdalena, Magdalena del Mar, Lima, Lima Metropolitana, Lima, 15076, Perú",
+   "city": "Magdalena del Mar",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Osinergmin%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  }
  },
  {
   "id": "pe-sunass",
@@ -1142,14 +1565,23 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
+  "city": "Magdalena del Mar",
   "website": "https://www.gob.pe/sunass",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.09697,
+   "lng": -77.058976,
+   "address": "SUNASS, 216, Calle Bernardo Monteagudo, Magdalena, Magdalena del Mar, Lima, Lima Metropolitana, Lima, 15076, Perú",
+   "city": "Magdalena del Mar",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=SUNASS%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  }
  },
  {
   "id": "pe-proinnovate-startup-peru",
@@ -1157,14 +1589,23 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
+  "city": "Cuzco",
   "website": "https://www.gob.pe/proinnovate",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "ProInnóvate – StartUp Perú. Programa de PRODUCE para innovación y emprendimientoCapital semilla de hasta S/ 150 mil; convocatorias para emprendimientos de cambio climático",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -13.517089,
+   "lng": -71.978536,
+   "address": "Cuzco, Distrito de Cusco, Cusco, 08001, Perú",
+   "city": "Cuzco",
+   "country": "Peru",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=cusco%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
+  }
  },
  {
   "id": "pe-programa-para-bionegocios-minam",
@@ -1179,7 +1620,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Programa para Bionegocios (MINAM)Programa de crédito para la AmazoníaMás de S/ 22 M en créditos a más de 3.900 bionegocios",
-  "website_check": "000"
+  "website_check": "000",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-cofide-fcei",
@@ -1187,14 +1637,23 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
+  "city": "San Isidro",
   "website": "https://www.cofide.com.pe",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "COFIDE – FCEIBanco de desarrollo y fondo de fondos de VCInversor ancla en fondos de venture capital; articula Bionegocios",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.097524,
+   "lng": -77.0272,
+   "address": "Corporación Financiera de Desarrollo - COFIDE, 160, Calle Augusto Tamayo, Chacarilla, San Isidro, Lima, Lima Metropolitana, Lima, 15073, Perú",
+   "city": "San Isidro",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Calle+Augusto+Tamayo+160%2C+San+Isidro%09%09%09%09%09%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
+  }
  },
  {
   "id": "pe-concytec-prociencia",
@@ -1209,7 +1668,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "CONCYTEC – ProCienciaConsejo y programa de ciencia y tecnologíaFondos de I+D y desafíos de innovación regional",
-  "website_check": "000"
+  "website_check": "000",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-agroideas",
@@ -1217,14 +1685,23 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
+  "city": "San Isidro",
   "website": "https://www.gob.pe/agroideas",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "AGROIDEAS, AgrobancoCofinanciamiento y banca agrariaFinancian a productores que adoptan tecnologías resilientes",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.097748,
+   "lng": -77.031815,
+   "address": "agroideas, Calle Coronel Ernesto Odriozola, Chacarilla, San Isidro, Lima, Lima Metropolitana, Lima, 15073, Perú",
+   "city": "San Isidro",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=AGROIDEAS%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  }
  },
  {
   "id": "pe-agrobanco",
@@ -1232,14 +1709,23 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
+  "city": "Barranca",
   "website": "https://www.agrobanco.com.pe",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "206"
+  "website_check": "206",
+  "geo": {
+   "lat": -10.753654,
+   "lng": -77.759098,
+   "address": "Agrobanco, Avenida José Gálvez, Barranca, Lima, Perú",
+   "city": "Barranca",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Agrobanco%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  }
  },
  {
   "id": "pe-inaigem",
@@ -1247,14 +1733,23 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
+  "city": "Independencia",
   "website": "https://www.gob.pe/inaigem",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "INAIGEM, ANA, SENAMHIGlaciares, agua y climaDatos y alertas para soluciones de agua y agro",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -9.499746,
+   "lng": -77.535385,
+   "address": "INAIGEM, Carretera Longitudinal de la Sierra Norte, Urbanización Sierra Hermosa, Santa Casa, Monterrey, Independencia, Huaraz, Ancash, 02690, Perú",
+   "city": "Independencia",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=INAIGEM%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
+  }
  },
  {
   "id": "pe-ana-autoridad-nacional-del-agua",
@@ -1262,14 +1757,23 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
+  "city": "San Isidro",
   "website": "https://www.gob.pe/ana",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.09422,
+   "lng": -77.015852,
+   "address": "Autoridad Nacional del Agua, 355, Calle 17, El Palomar, San Isidro, Lima, Lima Metropolitana, Lima, 15036, Perú",
+   "city": "San Isidro",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=ANA+%E2%80%93+Autoridad+Nacional+del+Agua%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  }
  },
  {
   "id": "pe-senamhi",
@@ -1277,14 +1781,23 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
+  "city": "Jesús María",
   "website": "https://www.gob.pe/senamhi",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.079199,
+   "lng": -77.042864,
+   "address": "SENAMHI, 321, Jirón Cahuide, Jesús María, Lima, Lima Metropolitana, Lima, 15072, Perú",
+   "city": "Jesús María",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=SENAMHI%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  }
  },
  {
   "id": "pe-serfor",
@@ -1292,14 +1805,23 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
+  "city": "Jesús María",
   "website": "https://www.gob.pe/serfor",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "SERFOR, SERNANPServicios forestal y de áreas protegidasConcesiones, manejo forestal y ecoturismo",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.079536,
+   "lng": -77.054119,
+   "address": "Serfor, Avenida Arnaldo Márquez, Los Patricios, Jesús María, Lima, Lima Metropolitana, Lima, 15072, Perú",
+   "city": "Jesús María",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=SERFOR%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  }
  },
  {
   "id": "pe-sernanp",
@@ -1307,14 +1829,23 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
+  "city": "San Isidro",
   "website": "https://www.gob.pe/sernanp",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.093963,
+   "lng": -77.015617,
+   "address": "Servicio Nacional de Áreas Natruales Protegidas por el Estado, 355, Calle 17, El Palomar, San Isidro, Lima, Lima Metropolitana, Lima, 15036, Perú",
+   "city": "San Isidro",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=SERNANP%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  }
  },
  {
   "id": "pe-programa-bosques-minam",
@@ -1329,7 +1860,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Programa para Bionegocios (MINAM)Programa de crédito para la AmazoníaMás de S/ 22 M en créditos a más de 3.900 bionegocios",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-proinversion",
@@ -1344,7 +1884,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "ProInversión, PromPerúPromoción de inversión y exportacionesAtraen inversión en energía y abren mercados a bioproductos",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-promperu",
@@ -1352,14 +1901,23 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
+  "city": "San Isidro",
   "website": "https://www.gob.pe/promperu",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.098212,
+   "lng": -77.0147,
+   "address": "PROMPERÚ, 050, Calle Uno Oeste, Corpac, San Isidro, Lima, Lima Metropolitana, Lima, 15000, Perú",
+   "city": "San Isidro",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=PromPer%C3%BA%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  }
  },
  {
   "id": "pe-apci-agencia-peruana-de-cooperacion-internacional",
@@ -1374,7 +1932,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "APCIAgencia Peruana de Cooperación InternacionalRegistra y orienta la cooperación que financia programas climáticos",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-imarpe",
@@ -1382,14 +1949,23 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
+  "city": "Callao",
   "website": "https://www.gob.pe/imarpe",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "IMARPE, SANIPESCiencia marina e inocuidad pesqueraBase técnica para startups de economía azul",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.066669,
+   "lng": -77.158031,
+   "address": "Instituto del Mar del Peru, Avenida Agustín Gamarra, Chucuito, Callao, La Punta, Callao, Lima Metropolitana, Callao, 07021, Perú",
+   "city": "Callao",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=IMARPE%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  }
  },
  {
   "id": "pe-sanipes",
@@ -1397,14 +1973,23 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
+  "city": "Huancayo",
   "website": "https://www.gob.pe/sanipes",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.048599,
+   "lng": -75.195008,
+   "address": "Sanipes, Calle Las Orquideas, Jardines, Chorrillos, San Carlos, Huancayo, Junín, 12009, Perú",
+   "city": "Huancayo",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=SANIPES%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
+  }
  },
  {
   "id": "pe-gobierno-regional-de-loreto",
@@ -1412,14 +1997,23 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
+  "city": "Nauta",
   "website": "https://www.gob.pe/regionloreto",
   "website_ok": false,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Gobiernos regionales amazónicos (Loreto, San Martín, Ucayali, Madre de Dios, Amazonas)Gobiernos subnacionalesZonificación forestal y promoción de bionegocios en su territorio",
-  "website_check": "000"
+  "website_check": "000",
+  "geo": {
+   "lat": -4.504728,
+   "lng": -73.585108,
+   "address": "Gobierno Regional de Loreto, Calle Tarapaca, Nauta, Loreto, 16301, Perú",
+   "city": "Nauta",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Gobierno+Regional+de+Loreto%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
+  }
  },
  {
   "id": "pe-gobierno-regional-de-san-martin",
@@ -1427,14 +2021,23 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
+  "city": "Moyobamba",
   "website": "https://www.gob.pe/regionsanmartin",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Gobiernos regionales amazónicos (Loreto, San Martín, Ucayali, Madre de Dios, Amazonas)Gobiernos subnacionalesZonificación forestal y promoción de bionegocios en su territorio",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -6.022045,
+   "lng": -76.988591,
+   "address": "Gobierno Regional de San Martín, Jirón 2 de Mayo, Lluyllucucha, Moyobamba, San Martín, 22001, Perú",
+   "city": "Moyobamba",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Gobierno+Regional+de+San+Mart%C3%ADn%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
+  }
  },
  {
   "id": "pe-gobierno-regional-de-ucayali",
@@ -1442,14 +2045,23 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
+  "city": "Pucallpa",
   "website": "https://www.gob.pe/regionucayali",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Gobiernos regionales amazónicos (Loreto, San Martín, Ucayali, Madre de Dios, Amazonas)Gobiernos subnacionalesZonificación forestal y promoción de bionegocios en su territorio",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -8.382729,
+   "lng": -74.528931,
+   "address": "Gobierno Regional de Ucayali, Atahualpa, Área Metropolitana de Pucallpa, Centro Urbano de Pucallpa, Pucallpa, Callería, Coronel Portillo, Ucayali, 25001, Perú",
+   "city": "Pucallpa",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Gobierno+Regional+de+Ucayali%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
+  }
  },
  {
   "id": "pe-gobierno-regional-de-madre-de-dios",
@@ -1457,14 +2069,23 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
+  "city": "Puerto Maldonado",
   "website": "https://www.gob.pe/regionmadrededios",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Gobiernos regionales amazónicos (Loreto, San Martín, Ucayali, Madre de Dios, Amazonas)Gobiernos subnacionalesZonificación forestal y promoción de bionegocios en su territorio",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.583197,
+   "lng": -69.198998,
+   "address": "Gobierno Regional de Madre de Dios, Jirón Tupac Amaru, Puerto Maldonado, Tambopata, Madre de Dios, Perú",
+   "city": "Puerto Maldonado",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Gobierno+Regional+de+Madre+de+Dios%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
+  }
  },
  {
   "id": "pe-gobierno-regional-de-amazonas",
@@ -1472,14 +2093,23 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": null,
+  "city": "Chachapoyas",
   "website": "https://www.gob.pe/regionamazonas",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Gobiernos regionales amazónicos (Loreto, San Martín, Ucayali, Madre de Dios, Amazonas)Gobiernos subnacionalesZonificación forestal y promoción de bionegocios en su territorio",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -6.235301,
+   "lng": -77.873109,
+   "address": "Gobierno Regional de Amazonas, 1250, Ortiz Arrieta, Señor de los Milagros, Chachapoyas, Amazonas, 01001, Perú",
+   "city": "Chachapoyas",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Gobierno+Regional+de+Amazonas%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
+  }
  },
  {
   "id": "pe-surco-emprende",
@@ -1494,7 +2124,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Surco Emprende, Coworking Municipal de Jesús MaríaProgramas municipales de LimaEspacios de emprendimiento cercanos a soluciones urbanas",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-coworking-municipal-de-jesus-maria",
@@ -1509,7 +2148,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-gobierno-regional-y-municipalidad-de-cusco",
@@ -1524,7 +2172,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Gobiernos regionales amazónicos (Loreto, San Martín, Ucayali, Madre de Dios, Amazonas)Gobiernos subnacionalesZonificación forestal y promoción de bionegocios en su territorio",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-municipalidad-de-miraflores-emprende-miraflores",
@@ -1539,7 +2196,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Municipalidad de Miraflores (Emprende Miraflores)Gobierno local de LimaProgramas municipales de emprendimiento",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-unalm-universidad-nacional-agraria-la-molina",
@@ -1554,7 +2220,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "UNALM – Universidad Nacional Agraria La MolinaUniversidad pública agrariaInvestigación en agro, forestal, pesca y cuencasTiene su Centro de Emprendimiento (Incubagraria)",
-  "website_check": "000"
+  "website_check": "000",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-pucp-pontificia-universidad-catolica-del-peru",
@@ -1569,7 +2244,19 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "PUCP - Pontificia Universidad Católica del PerúInvestigación en bosques, agua y sostenibilidadTiene su Centro de Emprendimiento (Nexus)",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.069645,
+   "lng": 77.07941,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://www.pucp.edu.pe",
+   "flags": [
+    "country_mismatch"
+   ]
+  }
  },
  {
   "id": "pe-universidad-del-pacifico",
@@ -1577,14 +2264,23 @@
   "type": "org",
   "category": "academia",
   "country": "Peru",
-  "city": null,
+  "city": "Jesús María",
   "website": "https://www.up.edu.pe",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Universidad del PacíficoUniversidad privada en economía y negociosSede del REIN Hub Perú; investigación en finanzas y desarrollo sostenibleTiene su Centro de Emprendimiento (Emprende UP) y programa de emprendimiento climatico (Climatech)",
-  "website_check": "403"
+  "website_check": "403",
+  "geo": {
+   "lat": -12.083883,
+   "lng": -77.048319,
+   "address": "Universidad del Pacífico, 2020, Avenida General Felipe Salaverry, Risso, Lince, Jesús María, Lima, Lima Metropolitana, Lima, 15072, Perú",
+   "city": "Jesús María",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Universidad+del+Pac%C3%ADfico%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  }
  },
  {
   "id": "pe-utec-universidad-de-ingenieria-y-tecnologia",
@@ -1599,7 +2295,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "UTEC Venture Aceleradora e inversión ángel de UTECAcelera e invierte en startups de base tecnológica, incluidas cleantech",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-universidad-peruana-cayetano-heredia",
@@ -1607,14 +2312,23 @@
   "type": "org",
   "category": "academia",
   "country": "Peru",
-  "city": null,
+  "city": "San Isidro",
   "website": "https://cayetano.edu.pe",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Universidad del PacíficoUniversidad privada en economía y negociosSede del REIN Hub Perú; investigación en finanzas y desarrollo sostenibleTiene su Centro de Emprendimiento (Emprende UP) y programa de emprendimiento climatico (Climatech)",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.091244,
+   "lng": -77.051867,
+   "address": "Universidad Peruana Cayetano Heredia, Avenida General Felipe Salaverry, Campo de Polo, Orrantia del Mar, San Isidro, Lima, Lima Metropolitana, Lima, 15076, Perú",
+   "city": "San Isidro",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Universidad+Peruana+Cayetano+Heredia%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  }
  },
  {
   "id": "pe-unap-universidad-nacional-de-la-amazonia-peruana",
@@ -1629,7 +2343,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-unsm-universidad-nacional-de-san-martin",
@@ -1644,7 +2367,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "500"
+  "website_check": "500",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-unu-universidad-nacional-de-ucayali",
@@ -1659,7 +2391,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-unia-universidad-nacional-intercultural-de-la-amaz",
@@ -1674,7 +2415,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "000"
+  "website_check": "000",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-untrm-universidad-nacional-toribio-rodriguez-de-me",
@@ -1689,7 +2439,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-unamad-universidad-nacional-amazonica-de-madre-de-",
@@ -1704,7 +2463,19 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.588351,
+   "lng": 69.209658,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://portal.unamad.edu.pe",
+   "flags": [
+    "country_mismatch"
+   ]
+  }
  },
  {
   "id": "pe-grade-grupo-de-analisis-para-el-desarrollo",
@@ -1712,14 +2483,23 @@
   "type": "org",
   "category": "academia",
   "country": "Peru",
-  "city": null,
+  "city": "Barranco",
   "website": "https://grade.org.pe",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "GRADE | Grupo de Análisis para el DesarrolloCentro de investigación aplicadaEstudios de desarrollo y políticas públicas",
-  "website_check": "406"
+  "website_check": "406",
+  "geo": {
+   "lat": -12.136618,
+   "lng": -77.022617,
+   "address": "Avenida Almirante Miguel Grau, Barranco, Lima, Lima Metropolitana, Lima, 15063, Perú",
+   "city": "Barranco",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Av.+Almirante+Grau+915%2C+Barranco%29%2C+Barranco%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
+  }
  },
  {
   "id": "pe-metared-x-peru-universia-banco-santander",
@@ -1734,7 +2514,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "MetaRed X Perú (Universia – Banco Santander)Red colaborativa de unidades de emprendimiento de instituciones de educación superior Articula a las incubadoras universitarias de Lima y regionesCanal para llevar metodología climática a toda la red",
-  "website_check": "302"
+  "website_check": "302",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-unmsm-universidad-nacional-mayor-de-san-marcos",
@@ -1749,7 +2538,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-incubagraria-unalm",
@@ -1764,7 +2562,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Incubagraria (UNALM)Incubadora de la Universidad Agraria La MolinaApoya emprendimientos agrarios, forestales y de agua",
-  "website_check": "000"
+  "website_check": "000",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-emprende-up-climatech-rein-hub-peru",
@@ -1779,7 +2586,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Emprende UP – ClimaTechCentro de emprendimiento de la Universidad del PacíficoPlataforma climática lanzada en 2025; sede del REIN Hub Perú con CleantechHUB",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-bioincuba-upch",
@@ -1787,14 +2603,23 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": null,
+  "city": "San Isidro",
   "website": "https://bioincuba.cayetano.pe",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Bioincuba (UPCH)Incubadora de ciencias de la vidaBiotecnología aplicada a agro, mar y bosques",
-  "website_check": "406"
+  "website_check": "406",
+  "geo": {
+   "lat": -12.097902,
+   "lng": -77.035367,
+   "address": "San Isidro, Lima, Lima Metropolitana, Lima, Perú",
+   "city": "San Isidro",
+   "country": "Peru",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Isidro%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
+  }
  },
  {
   "id": "pe-usil-ventures",
@@ -1809,7 +2634,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "USIL VenturesIncubadora y aceleradora de USILOrganizó el Climatech Challenge Peru & Bavaria 2025",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-1551-unmsm",
@@ -1824,7 +2658,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "1551 (UNMSM), Nexum (PUCP), Startup UNI, StartUPC, InnovaUL, Innova ESANIncubadoras universitarias de LimaPipeline de startups con potencial climático",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-nexum-pucp",
@@ -1839,7 +2682,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-startup-uni",
@@ -1854,7 +2706,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-startupc",
@@ -1862,14 +2723,23 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": null,
+  "city": "Cajamarca",
   "website": "https://noticias.upc.edu.pe",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "206"
+  "website_check": "206",
+  "geo": {
+   "lat": -6.976827,
+   "lng": -78.940949,
+   "address": "San Miguel, Cajamarca, Perú",
+   "city": "Cajamarca",
+   "country": "Peru",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Miguel%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
+  }
  },
  {
   "id": "pe-innovaul-universidad-de-lima",
@@ -1884,7 +2754,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-innova-esan",
@@ -1899,7 +2778,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "000"
+  "website_check": "000",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-hub-udep-universidad-de-piura",
@@ -1914,7 +2802,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "HUB UDEPAceleradora de la Universidad de PiuraLínea de Sostenibilidad y Cambio Climático",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-kunan",
@@ -1922,14 +2819,23 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": null,
+  "city": "Cuzco",
   "website": "https://www.kunan.com.pe",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "KunanHub de emprendimiento social y ambientalMás de 400 emprendimientos apoyados; Desafío Kunan",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -13.516998,
+   "lng": -71.974721,
+   "address": "Kunan, Avenida Tullumayo, San Blas, Cuzco, Distrito de Cusco, Cusco, 00800, Perú",
+   "city": "Cuzco",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Kunan%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
+  }
  },
  {
   "id": "pe-nesst",
@@ -1944,7 +2850,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "NESsT, Endeavor PerúOrganizaciones de aceleración e inversiónAcompañan empresas de impacto y de alto crecimiento",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-endeavor-peru",
@@ -1959,7 +2874,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-acm-ventures-agtech",
@@ -1974,7 +2898,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "ACM Ventures AgtechIncubadora y aceleradora privadaEspecializada en agtech",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-incubadora-unsm-san-martin",
@@ -1989,7 +2922,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Incubadora UNSM (San Martín)Incubadora universitariaCacao, café y agroforestería",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-incuba-amazonia-unu",
@@ -2004,7 +2946,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Incubagraria (UNALM)Incubadora de la Universidad Agraria La MolinaApoya emprendimientos agrarios, forestales y de agua",
-  "website_check": "301"
+  "website_check": "301",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-incubadora-unia-ucayali",
@@ -2019,7 +2970,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Incubadora UNSM (San Martín)Incubadora universitariaCacao, café y agroforestería",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-incubadoras-untrm-y-unifslb-amazonas",
@@ -2034,7 +2994,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Incubadoras UNTRM y UNIFSLB (Amazonas)Incubadoras universitariasAgro y bosques del nororiente",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-incubadoras-unap-y-unaaa-loreto",
@@ -2049,7 +3018,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Incubadoras UNTRM y UNIFSLB (Amazonas)Incubadoras universitariasAgro y bosques del nororiente",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-incubaunt-la-libertad",
@@ -2064,7 +3042,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "IncubaUNT, S360 UPAO (La Libertad)Incubadoras universitariasFoco en agrotech, climate tech y cleantech",
-  "website_check": "none"
+  "website_check": "none",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-s360-upao-la-libertad",
@@ -2079,7 +3066,19 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -8.127049,
+   "lng": 79.033664,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://upao.edu.pe/diferenciacion/incubadora-de-negocios",
+   "flags": [
+    "country_mismatch"
+   ]
+  }
  },
  {
   "id": "pe-jaku-emprende-unsa-arequipa",
@@ -2094,7 +3093,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "JAKU Emprende UNSA, Kaman UCSP, INNICIA (Arequipa)Incubadoras del surAgua, energía solar y minería",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-kaman-ucsp-arequipa",
@@ -2109,7 +3117,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-innicia-ucsm-arequipa",
@@ -2124,7 +3141,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "403"
+  "website_check": "403",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-incubaunach-cajamarca",
@@ -2139,7 +3165,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "IncubaUNACH, Cajamarca Incuba, Universidad Nacional de Jaén (Cajamarca)Incubadoras universitariasAgro y agua en sierra norte",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-cajamarca-incuba",
@@ -2154,7 +3189,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-universidad-nacional-de-jaen-cajamarca",
@@ -2169,7 +3213,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Universidad del PacíficoUniversidad privada en economía y negociosSede del REIN Hub Perú; investigación en finanzas y desarrollo sostenibleTiene su Centro de Emprendimiento (Emprende UP) y programa de emprendimiento climatico (Climatech)",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-incuval-ventures-unheval",
@@ -2184,7 +3237,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Incuval Ventures (UNHEVAL), Emprende UDH (Huánuco)Incubadoras universitariasAgro andino-amazónico",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-emprende-udh-huanuco",
@@ -2199,7 +3261,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Emprende UP – ClimaTechCentro de emprendimiento de la Universidad del PacíficoPlataforma climática lanzada en 2025; sede del REIN Hub Perú con CleantechHUB",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-universidad-nacional-de-moquegua-upt-incuba-arunta",
@@ -2214,7 +3285,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Universidad del PacíficoUniversidad privada en economía y negociosSede del REIN Hub Perú; investigación en finanzas y desarrollo sostenibleTiene su Centro de Emprendimiento (Emprende UP) y programa de emprendimiento climatico (Climatech)",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-wichay-universidad-continental-junin",
@@ -2229,7 +3309,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Wichay – Universidad Continental (Junín)Incubadora universitariaAgro y agua en los Andes centrales",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-nature-services-peru",
@@ -2244,7 +3333,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Nature Services Perú, Arbio, Reforestadora Amazónica, Bosques Amazónicos (BAM)Organizaciones de carbono forestal y restauraciónProyectos de carbono y reforestación que demandan soluciones de monitoreo",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-arbio",
@@ -2252,14 +3350,23 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
-  "city": null,
+  "city": "Las Piedras",
   "website": "https://www.arbioperu.org",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "206"
+  "website_check": "206",
+  "geo": {
+   "lat": -12.171629,
+   "lng": -69.390923,
+   "address": "Arbio, Las Piedras, Tambopata, Madre de Dios, Perú",
+   "city": "Las Piedras",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Arbio%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
+  }
  },
  {
   "id": "pe-reforestadora-amazonica",
@@ -2274,7 +3381,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-bosques-amazonicos-bam",
@@ -2289,7 +3405,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-red-amazonia-que-late",
@@ -2297,14 +3422,23 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
-  "city": null,
+  "city": "Arequipa",
   "website": "https://amazoniaquelate.com",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Red Amazonía Que LateRed de conservación voluntariaUne a conservadores privados y comunales",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -16.398867,
+   "lng": -71.536961,
+   "address": "Arequipa, 04001, Perú",
+   "city": "Arequipa",
+   "country": "Peru",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=AREQUIPA%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
+  }
  },
  {
   "id": "pe-conservacion-amazonica-acca",
@@ -2312,14 +3446,23 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
-  "city": null,
+  "city": "Cuzco",
   "website": "https://acca.org.pe",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Conservación Amazónica – ACCAONG de conservación en la Amazonía surMonitoreo satelital y alternativas económicas al bosque",
-  "website_check": "206"
+  "website_check": "206",
+  "geo": {
+   "lat": -13.517089,
+   "lng": -71.978536,
+   "address": "Cuzco, Distrito de Cusco, Cusco, 08001, Perú",
+   "city": "Cuzco",
+   "country": "Peru",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=cusco%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
+  }
  },
  {
   "id": "pe-spda-sociedad-peruana-de-derecho-ambiental",
@@ -2327,14 +3470,23 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
-  "city": null,
+  "city": "Arequipa",
   "website": "https://spda.org.pe",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "SPDA – Sociedad Peruana de Derecho AmbientalONG de derecho y política ambientalOrienta a emprendedores sobre marco legal y conservación",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -16.398867,
+   "lng": -71.536961,
+   "address": "Arequipa, 04001, Perú",
+   "city": "Arequipa",
+   "country": "Peru",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=AREQUIPA%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
+  }
  },
  {
   "id": "pe-ciudad-saludable",
@@ -2349,7 +3501,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Ciudad SaludableONG de gestión de residuosReciclaje inclusivo con recicladores",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-accion-andina",
@@ -2357,14 +3518,23 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
-  "city": null,
+  "city": "Cuzco",
   "website": "https://accion-andina.org",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Acción AndinaIniciativa de restauración de bosques andinosRestaura queñuales para proteger agua en cabeceras",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -13.517089,
+   "lng": -71.978536,
+   "address": "Cuzco, Distrito de Cusco, Cusco, 08001, Perú",
+   "city": "Cuzco",
+   "country": "Peru",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=cusco%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
+  }
  },
  {
   "id": "pe-ccpip-camara-de-comercio-de-los-pueblos-indigenas",
@@ -2379,7 +3549,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "CCPIP – Cámara de Comercio de los Pueblos IndígenasGremio de negocios indígenasBionegocios liderados por comunidades",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-fundacion-wiese",
@@ -2394,7 +3573,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Fundación Wiese, Fundación BBVA, Fundación Belcorp, Fundación UNACEM, Fundación Anglo AmericanFilantropía corporativaFondos y programas para emprendedores",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-fundacion-bbva-microfinanzas",
@@ -2409,7 +3597,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Fundación Wiese, Fundación BBVA, Fundación Belcorp, Fundación UNACEM, Fundación Anglo AmericanFilantropía corporativaFondos y programas para emprendedores",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-fundacion-belcorp",
@@ -2424,7 +3621,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Fundación Wiese, Fundación BBVA, Fundación Belcorp, Fundación UNACEM, Fundación Anglo AmericanFilantropía corporativaFondos y programas para emprendedores",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-asociacion-unacem",
@@ -2432,14 +3638,23 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
-  "city": null,
+  "city": "Villa María del Triunfo",
   "website": "https://asociacionunacem.org",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Asociación Peruana de Energías Renovables (SPR)  Gremio de energías renovablesPromueve solar y eólica; aliado para startups energéticas",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.197225,
+   "lng": -76.909723,
+   "address": "Asociación UNACEM, 3020, Avenida Atocongo, Campamento UNACEM, José Gálvez Barrenechea, Villa María del Triunfo, Lima, Lima Metropolitana, Lima, 15822, Perú",
+   "city": "Villa María del Triunfo",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Asociaci%C3%B3n+UNACEM%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  }
  },
  {
   "id": "pe-fundacion-anglo-american",
@@ -2454,7 +3669,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Fundación Wiese, Fundación BBVA, Fundación Belcorp, Fundación UNACEM, Fundación Anglo AmericanFilantropía corporativaFondos y programas para emprendedores",
-  "website_check": "000"
+  "website_check": "000",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-care-peru",
@@ -2462,14 +3686,23 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
-  "city": null,
+  "city": "San Isidro",
   "website": "https://care.org.pe",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "CARE Perú, Solidaridad, HELVETAS, SwisscontactONG de desarrolloCadenas agrícolas resilientes y emprendimiento rural",
-  "website_check": "406"
+  "website_check": "406",
+  "geo": {
+   "lat": -12.092388,
+   "lng": -77.026353,
+   "address": "Calle Amador Merino Reyna, Centro financiero de San Isidro, San Isidro, Lima, Lima Metropolitana, Lima, 15046, Perú",
+   "city": "San Isidro",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Calle+Amador+Merino+Reyna+267%2C%2C+lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
+  }
  },
  {
   "id": "pe-solidaridad",
@@ -2477,14 +3710,23 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
-  "city": null,
+  "city": "Los Olivos",
   "website": "https://solidaridadlatam.org",
   "website_ok": false,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "000"
+  "website_check": "000",
+  "geo": {
+   "lat": -11.979527,
+   "lng": -77.0736,
+   "address": "Solidaridad, Los Olivos, Lima, Lima Metropolitana, Lima, Perú",
+   "city": "Los Olivos",
+   "country": "Peru",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Solidaridad%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  }
  },
  {
   "id": "pe-helvetas",
@@ -2499,7 +3741,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-swisscontact",
@@ -2514,7 +3765,19 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "000"
+  "website_check": "000",
+  "geo": {
+   "lat": -12.107001,
+   "lng": 77.032145,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://www.swisscontact.org/es/donde-trabajamos/peru",
+   "flags": [
+    "country_mismatch"
+   ]
+  }
  },
  {
   "id": "pe-peru-sostenible",
@@ -2529,7 +3792,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "000"
+  "website_check": "000",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-sistema-b",
@@ -2537,14 +3809,23 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
-  "city": null,
+  "city": "Lima",
   "website": "https://www.sistemab.org",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Sistema B, L+1, Conversamos por NaturalezaRedes de sostenibilidadCertificación B y comunidad de empresas de impacto",
-  "website_check": "206"
+  "website_check": "206",
+  "geo": {
+   "lat": -12.042555,
+   "lng": -77.04275,
+   "address": "Sistema Metropolitano de la Solidaridad / Solidaridad Salud \"LAS Violetas\", Avenida Alfonso Ugarte, Barrio Monserrate, Lima, Lima Metropolitana, Lima, 15079, Perú",
+   "city": "Lima",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Sistema+B%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  }
  },
  {
   "id": "pe-l-1",
@@ -2552,14 +3833,23 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
-  "city": null,
+  "city": "Lima",
   "website": "https://www.lmas1.org",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "206"
+  "website_check": "206",
+  "geo": {
+   "lat": -12.045981,
+   "lng": -77.030591,
+   "address": "Lima, Lima Metropolitana, Lima, 15001, Perú",
+   "city": "Lima",
+   "country": "Peru",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=L%2B1%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  }
  },
  {
   "id": "pe-conservamos-por-naturaleza",
@@ -2574,7 +3864,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "206"
+  "website_check": "206",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-mongabay-latam",
@@ -2589,7 +3888,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Mongabay LatamMedio de periodismo ambientalCubre deforestación, minería ilegal y soluciones en la Amazonía",
-  "website_check": "403"
+  "website_check": "403",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-actualidad-ambiental",
@@ -2597,14 +3905,23 @@
   "type": "org",
   "category": "media",
   "country": "Peru",
-  "city": null,
+  "city": "Lima",
   "website": "https://www.actualidadambiental.pe",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.045981,
+   "lng": -77.030591,
+   "address": "Lima, Lima Metropolitana, Lima, 15001, Perú",
+   "city": "Lima",
+   "country": "Peru",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
+  }
  },
  {
   "id": "pe-gestion",
@@ -2612,14 +3929,23 @@
   "type": "org",
   "category": "media",
   "country": "Peru",
-  "city": null,
+  "city": "San Isidro",
   "website": "https://gestion.pe",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.09091,
+   "lng": -77.016473,
+   "address": "Icj Gestion Publica Y Empresarial, Pasaje Treinta, El Palomar, San Isidro, Lima, Lima Metropolitana, Lima, 15036, Perú",
+   "city": "San Isidro",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Gesti%C3%B3n%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  }
  },
  {
   "id": "pe-agraria-pe",
@@ -2627,14 +3953,23 @@
   "type": "org",
   "category": "media",
   "country": "Peru",
-  "city": null,
+  "city": "La Molina",
   "website": "https://agraria.pe",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.079393,
+   "lng": -76.950281,
+   "address": "Agraria, Avenida La Molina, Haras de la Molina, La Molina, Lima, Lima Metropolitana, Lima, 14024, Perú",
+   "city": "La Molina",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Agraria.pe%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  }
  },
  {
   "id": "pe-bid-bid-lab-bid-invest",
@@ -2649,7 +3984,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "403"
+  "website_check": "403",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-ifc",
@@ -2657,14 +4001,27 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
+  "city": "天河区",
   "website": "https://www.ifc.org",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "206"
+  "website_check": "206",
+  "geo": {
+   "lat": 23.120251,
+   "lng": 113.317864,
+   "address": "广州国际金融中心(广州西塔), 珠江西路, 猎德街道, 天河区, 广州市, 广东省, 510623, 中国",
+   "city": "天河区",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=IFC&format=json&limit=1&addressdetails=1 (HQ-fallback)",
+   "flags": [
+    "country_mismatch"
+   ],
+   "office_note": "HQ (no in-country office found)"
+  }
  },
  {
   "id": "pe-caf-banco-de-desarrollo-de-america-latina",
@@ -2679,7 +4036,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "000"
+  "website_check": "000",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-banco-mundial",
@@ -2687,14 +4053,27 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
+  "city": "Washington",
   "website": "https://www.worldbank.org",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "206"
+  "website_check": "206",
+  "geo": {
+   "lat": 38.898837,
+   "lng": -77.042567,
+   "address": "World Bank (MC Building), 1818, H Street Northwest, Golden Triangle, Ward 2, Washington, District of Columbia, 20037, United States",
+   "city": "Washington",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Banco+Mundial&format=json&limit=1&addressdetails=1 (HQ-fallback)",
+   "flags": [
+    "country_mismatch"
+   ],
+   "office_note": "HQ (no in-country office found)"
+  }
  },
  {
   "id": "pe-kfw",
@@ -2702,14 +4081,27 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
+  "city": "Berlin",
   "website": "https://www.kfw.de",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "206"
+  "website_check": "206",
+  "geo": {
+   "lat": 52.507176,
+   "lng": 13.358246,
+   "address": "Kreditanstalt für Wiederaufbau, 86-90, Reichpietschufer, Lützowviertel, Tiergarten, Mitte, Berlin, 10785, Deutschland",
+   "city": "Berlin",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=KfW&format=json&limit=1&addressdetails=1 (HQ-fallback)",
+   "flags": [
+    "country_mismatch"
+   ],
+   "office_note": "HQ (no in-country office found)"
+  }
  },
  {
   "id": "pe-bei-banco-europeo-de-inversiones",
@@ -2724,7 +4116,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "206"
+  "website_check": "206",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-pnud-accelerator-lab-biofin",
@@ -2732,14 +4133,23 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
+  "city": "Callao",
   "website": "https://www.undp.org/es/peru",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "403"
+  "website_check": "403",
+  "geo": {
+   "lat": -12.086463,
+   "lng": -77.223446,
+   "address": "Callao, Perú",
+   "city": "Callao",
+   "country": "Peru",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=callao%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
+  }
  },
  {
   "id": "pe-fao",
@@ -2747,14 +4157,23 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
+  "city": "Miraflores",
   "website": "https://www.fao.org",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.122311,
+   "lng": -77.017342,
+   "address": "Food and Agriculture Organization of the United Nations, 328, Calle Manuel Almenara, Miraflores, Lima, Lima Metropolitana, Lima, 15048, Perú",
+   "city": "Miraflores",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=FAO%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  }
  },
  {
   "id": "pe-onudi",
@@ -2762,14 +4181,27 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
+  "city": "Communauté urbaine de Yaoundé",
   "website": "https://www.unido.org",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "403"
+  "website_check": "403",
+  "geo": {
+   "lat": 3.904508,
+   "lng": 11.501748,
+   "address": "Organisation des Nations unies pour le développement industriel, Rue 6.114, Fébé, Yaoundé II, Communauté urbaine de Yaoundé, Mfoundi, Centre, Cameroun",
+   "city": "Communauté urbaine de Yaoundé",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=ONUDI&format=json&limit=1&addressdetails=1 (HQ-fallback)",
+   "flags": [
+    "country_mismatch"
+   ],
+   "office_note": "HQ (no in-country office found)"
+  }
  },
  {
   "id": "pe-gggi",
@@ -2784,7 +4216,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-onu-habitat",
@@ -2792,14 +4233,27 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
+  "city": "Municipio Nuestra Señora de La Paz",
   "website": "https://unhabitat.org",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -16.512916,
+   "lng": -68.120639,
+   "address": "ONU HABITAT BOLIVIA, Avenida Aniceto Arce, Centro, Municipio Nuestra Señora de La Paz, Provincia Pedro Domingo Murillo, La Paz, Bolivia",
+   "city": "Municipio Nuestra Señora de La Paz",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=ONU-H%C3%A1bitat&format=json&limit=1&addressdetails=1 (HQ-fallback)",
+   "flags": [
+    "country_mismatch"
+   ],
+   "office_note": "HQ (no in-country office found)"
+  }
  },
  {
   "id": "pe-iica",
@@ -2807,14 +4261,23 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
+  "city": "La Molina",
   "website": "https://iica.int",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "403"
+  "website_check": "403",
+  "geo": {
+   "lat": -12.077702,
+   "lng": -76.951525,
+   "address": "Instituto Interamericano de Cooperación para la Agricultura, Avenida La Molina, La Molina, Lima, Lima Metropolitana, Lima, 14024, Perú",
+   "city": "La Molina",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=IICA%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  }
  },
  {
   "id": "pe-giz",
@@ -2822,14 +4285,27 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
+  "city": "Feldafing",
   "website": "https://www.giz.de",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "206"
+  "website_check": "206",
+  "geo": {
+   "lat": 47.953426,
+   "lng": 11.284272,
+   "address": "GIZ, 52, Wielinger Straße, Feldafing, Landkreis Starnberg, Bayern, 82340, Deutschland",
+   "city": "Feldafing",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=GIZ&format=json&limit=1&addressdetails=1 (HQ-fallback)",
+   "flags": [
+    "country_mismatch"
+   ],
+   "office_note": "HQ (no in-country office found)"
+  }
  },
  {
   "id": "pe-cooperacion-suiza-seco-cosude",
@@ -2844,7 +4320,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "403"
+  "website_check": "403",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-union-europea-euroclima",
@@ -2859,7 +4344,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "206"
+  "website_check": "206",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-aecid",
@@ -2867,14 +4361,27 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
+  "city": "Dakar",
   "website": "https://www.aecid.es",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 14.66279,
+   "lng": -17.435362,
+   "address": "Agence Espagnole de Coopération Internationale pour le Développement, Rue Joseph Gomis, Commune de Dakar-Plateau, Arrondissement de Dakar-Plateau, Dakar, Région de Dakar, 99341, Sénégal",
+   "city": "Dakar",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=AECID&format=json&limit=1&addressdetails=1 (HQ-fallback)",
+   "flags": [
+    "country_mismatch"
+   ],
+   "office_note": "HQ (no in-country office found)"
+  }
  },
  {
   "id": "pe-afd",
@@ -2882,14 +4389,27 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
+  "city": "Libreville",
   "website": "https://www.afd.fr",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 0.455242,
+   "lng": 9.409025,
+   "address": "Banque Africaine de Developpement, 2455, Boulevard Hassan II, Tahiti, 1er Arrondissement de Libreville, Libreville, Estuaire, Gabon",
+   "city": "Libreville",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=AFD&format=json&limit=1&addressdetails=1 (HQ-fallback)",
+   "flags": [
+    "country_mismatch"
+   ],
+   "office_note": "HQ (no in-country office found)"
+  }
  },
  {
   "id": "pe-jica",
@@ -2897,14 +4417,27 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
+  "city": "Ormoc",
   "website": "https://www.jica.go.jp",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "206"
+  "website_check": "206",
+  "geo": {
+   "lat": 11.028429,
+   "lng": 124.551537,
+   "address": "Jica, Lilo-an, Ormoc, Leyte, Eastern Visayas, 6541, Philippines",
+   "city": "Ormoc",
+   "country": "Peru",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=JICA&format=json&limit=1&addressdetails=1 (HQ-fallback)",
+   "flags": [
+    "country_mismatch"
+   ],
+   "office_note": "HQ (no in-country office found)"
+  }
  },
  {
   "id": "pe-koica",
@@ -2912,14 +4445,27 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
+  "city": "성남시",
   "website": "https://www.koica.go.kr",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 37.415691,
+   "lng": 127.098692,
+   "address": "한국국제협력단, 대왕판교로851번길, 시흥동, 수정구, 성남시, 경기도, 13449, 대한민국",
+   "city": "성남시",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=KOICA&format=json&limit=1&addressdetails=1 (HQ-fallback)",
+   "flags": [
+    "country_mismatch"
+   ],
+   "office_note": "HQ (no in-country office found)"
+  }
  },
  {
   "id": "pe-camara-peruano-alemana-ahk",
@@ -2927,14 +4473,23 @@
   "type": "org",
   "category": "chamber",
   "country": "Peru",
-  "city": null,
+  "city": "Lima",
   "website": "https://peru.ahk.de",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Cámara de Comercio de Lima (CCL) Principal gremio multisectorial del paísDifunde inversión de impacto y sostenibilidad; conecta startups con empresas",
-  "website_check": "206"
+  "website_check": "206",
+  "geo": {
+   "lat": -12.045981,
+   "lng": -77.030591,
+   "address": "Lima, Lima Metropolitana, Lima, 15001, Perú",
+   "city": "Lima",
+   "country": "Peru",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
+  }
  },
  {
   "id": "pe-amcham-peru",
@@ -2942,14 +4497,23 @@
   "type": "org",
   "category": "chamber",
   "country": "Peru",
-  "city": null,
+  "city": "San Isidro",
   "website": "https://www.amcham.org.pe",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.095957,
+   "lng": -77.037571,
+   "address": "Avenida Víctor Andrés Belaúnde, El Rosario, San Isidro, Lima, Lima Metropolitana, Lima, 15073, Perú",
+   "city": "San Isidro",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Avenida+V%C3%ADctor+Andr%C3%A9s+Bela%C3%BAnde+177%2C+San+Isidro%2C+San+Isidro%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
+  }
  },
  {
   "id": "pe-camara-de-comercio-canada-peru",
@@ -2964,7 +4528,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Cámara de Comercio de Lima (CCL) Principal gremio multisectorial del paísDifunde inversión de impacto y sostenibilidad; conecta startups con empresas",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-conservacion-internacional",
@@ -2979,7 +4552,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Conservación Amazónica – ACCAONG de conservación en la Amazonía surMonitoreo satelital y alternativas económicas al bosque",
-  "website_check": "206"
+  "website_check": "206",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-wwf-peru",
@@ -2987,14 +4569,23 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
+  "city": "Lince",
   "website": "https://www.wwf.org.pe",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.090261,
+   "lng": -77.040447,
+   "address": "World Wildlife Fund, 653, Avenida General Trinidad Morán, Risso, Lince, Lima, Lima Metropolitana, Lima, 51015, Perú",
+   "city": "Lince",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=WWF+Per%C3%BA%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  }
  },
  {
   "id": "pe-the-nature-conservancy",
@@ -3002,14 +4593,27 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
+  "city": "Omaha",
   "website": "https://www.nature.org",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 41.251924,
+   "lng": -95.929733,
+   "address": "The Nature Conservancy, Omaha, Douglas County, Nebraska, 68012, United States",
+   "city": "Omaha",
+   "country": "Peru",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=The+Nature+Conservancy&format=json&limit=1&addressdetails=1 (HQ-fallback)",
+   "flags": [
+    "country_mismatch"
+   ],
+   "office_note": "HQ (no in-country office found)"
+  }
  },
  {
   "id": "pe-forest-trends",
@@ -3017,14 +4621,27 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": null,
+  "city": "Forest",
   "website": "https://www.forest-trends.org",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 32.353265,
+   "lng": -89.483221,
+   "address": "Citi Trends, Deer Field Drive, Forest, Scott County, Mississippi, United States",
+   "city": "Forest",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Forest+Trends&format=json&limit=1&addressdetails=1 (HQ-fallback)",
+   "flags": [
+    "country_mismatch"
+   ],
+   "office_note": "HQ (no in-country office found)"
+  }
  },
  {
   "id": "pe-rainforest-alliance",
@@ -3039,7 +4656,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-fundacion-avina",
@@ -3054,7 +4680,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Fundación Wiese, Fundación BBVA, Fundación Belcorp, Fundación UNACEM, Fundación Anglo AmericanFilantropía corporativaFondos y programas para emprendedores",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-pvblic-foundation",
@@ -3069,7 +4704,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Listed in SECTOR INTERNACIONAL overview (no card)",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-cleantechhub",
@@ -3077,14 +4721,23 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": null,
+  "city": "Arequipa",
   "website": "https://cleantechhub.net",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -16.404597,
+   "lng": -71.531549,
+   "address": "Bogotá, Nicolás de Piérola, Arequipa, 04001, Perú",
+   "city": "Arequipa",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://cleantechhub.net"
+  }
  },
  {
   "id": "pe-black-soldier-fly-logistics",
@@ -3102,7 +4755,16 @@
   "website_check": "none",
   "nexus_slug": null,
   "nexus_url": null,
-  "has_nexus_card": false
+  "has_nexus_card": false,
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-yakusmart",
@@ -3120,7 +4782,16 @@
   "website_check": "none",
   "nexus_slug": "yakusmart",
   "nexus_url": "https://nexus.cleantechhub.net/s/yakusmart",
-  "has_nexus_card": true
+  "has_nexus_card": true,
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-vigia",
@@ -3128,7 +4799,7 @@
   "type": "org",
   "category": "startup",
   "country": "Peru",
-  "city": null,
+  "city": "Chorrillos",
   "website": null,
   "website_ok": null,
   "linkedin": null,
@@ -3138,7 +4809,16 @@
   "website_check": "none",
   "nexus_slug": "vigia",
   "nexus_url": "https://nexus.cleantechhub.net/s/vigia",
-  "has_nexus_card": true
+  "has_nexus_card": true,
+  "geo": {
+   "lat": -12.195476,
+   "lng": -76.995997,
+   "address": "Parque Cerro Vigía, Delicias de Villa, Chorrillos, Lima, Lima Metropolitana, Lima, Perú",
+   "city": "Chorrillos",
+   "country": "Peru",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=VIGIA%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  }
  },
  {
   "id": "pe-uqhu",
@@ -3146,7 +4826,7 @@
   "type": "org",
   "category": "startup",
   "country": "Peru",
-  "city": null,
+  "city": "San Mateo",
   "website": null,
   "website_ok": null,
   "linkedin": null,
@@ -3156,7 +4836,16 @@
   "website_check": "none",
   "nexus_slug": null,
   "nexus_url": null,
-  "has_nexus_card": false
+  "has_nexus_card": false,
+  "geo": {
+   "lat": -11.8961,
+   "lng": -76.241485,
+   "address": "Uqhu, San Mateo, Huarochirí, Lima, Perú",
+   "city": "San Mateo",
+   "country": "Peru",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=UQHU%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  }
  },
  {
   "id": "pe-yakufil",
@@ -3174,7 +4863,16 @@
   "website_check": "none",
   "nexus_slug": null,
   "nexus_url": null,
-  "has_nexus_card": false
+  "has_nexus_card": false,
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-rebike-up",
@@ -3192,7 +4890,16 @@
   "website_check": "none",
   "nexus_slug": null,
   "nexus_url": null,
-  "has_nexus_card": false
+  "has_nexus_card": false,
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "sv-pomona-impact",
@@ -3207,7 +4914,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "Pomona Impact es un fondo de inversión de impacto que apoya empresas en etapa temprana con enfoque social y ambiental en Centroamérica.Inversión de $2 millones en la fintech salvadoreña Ábaco para ampliar financiamiento a PYMES. Apoyo a empresas como Fun Crafts International para",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-viwala",
@@ -3222,7 +4938,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "VIWALA es una plataforma financiera que ofrece préstamos a empresas con impacto social y ambiental, especialmente lideradas por mujeres.Financiamiento a negocios inclusivos y sostenibles en El Salvador.Enfoque en inclusión financiera y empoderamiento femenino.",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-fiaes-fondo-de-inversion-ambiental-de-el-salvador",
@@ -3237,7 +4962,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "FIAES – Fondo de Inversión Ambiental de El Salvador dedicada a financiar, ejecutar y acompañar proyectos ambientales, restauración de ecosistemas, conservación del medio ambiente y mitigación y adaptación al cambio climático. Restauración de más de 1,100 hectáreas en territorios ",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-atlantida-capital",
@@ -3252,7 +4986,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "Atlántida Capital, S.A.  es una gestora de fondos de inversión líder en El Salvador, parte del Grupo Financiero Atlántida.Ofrecen diversas alternativas de inversión, incluyendo fondos con criterios ESG.Enfocados en brindar seguridad y calidad en el servicio a sus inversionistas.",
-  "website_check": "206"
+  "website_check": "206",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-banco-azul",
@@ -3267,7 +5010,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "Banco Azul ofrece programas de sostenibilidad para empresas en El Salvador, promoviendo proyectos que generen valor económico, medioambiental y social.Programa integral de sostenibilidad para empresas que deseen implementar proyectos sostenibles.",
-  "website_check": "206"
+  "website_check": "206",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-banco-hipotecario",
@@ -3282,7 +5034,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "Banco Azul ofrece programas de sostenibilidad para empresas en El Salvador, promoviendo proyectos que generen valor económico, medioambiental y social.Programa integral de sostenibilidad para empresas que deseen implementar proyectos sostenibles.",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-banco-atlantida",
@@ -3297,7 +5058,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "Banco Azul ofrece programas de sostenibilidad para empresas en El Salvador, promoviendo proyectos que generen valor económico, medioambiental y social.Programa integral de sostenibilidad para empresas que deseen implementar proyectos sostenibles.",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-banco-agricola",
@@ -3312,7 +5082,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "Banco Azul ofrece programas de sostenibilidad para empresas en El Salvador, promoviendo proyectos que generen valor económico, medioambiental y social.Programa integral de sostenibilidad para empresas que deseen implementar proyectos sostenibles.",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-bandesal-banco-de-desarrollo-de-el-salvador",
@@ -3327,7 +5106,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "BANDESAL (Banco de Desarrollo de El Salvador) Institución financiera estatal que promueve el desarrollo económico sostenible en El Salvador.Línea de Crédito Verde para apoyar proyectos de generación de energía renovable y eficiencia energética.Financiamiento de proyectos sostenib",
-  "website_check": "403"
+  "website_check": "403",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-sisa-seguros",
@@ -3342,7 +5130,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "SISA Seguros es una compañía de seguros con iniciativas en responsabilidad social y ambiental.Programas de seguros enfocados en la sostenibilidad y la resiliencia climática.",
-  "website_check": "206"
+  "website_check": "206",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-ases-seguros",
@@ -3357,7 +5154,19 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "ASES Seguros es una aseguradora que promueve prácticas sostenibles en sus operaciones.Participación en programas de seguros sostenibles y promoción de la resiliencia ante el cambio climático.",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 13.687341,
+   "lng": 89.2247,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "address",
+   "source_url": "https://ases.org.sv",
+   "flags": [
+    "country_mismatch"
+   ]
+  }
  },
  {
   "id": "sv-arca-family-office",
@@ -3372,7 +5181,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "Arca Family Office es una firma de gestión de patrimonios con enfoque en inversiones responsables.Apoyo a iniciativas de emprendimiento sostenible y desarrollo económico inclusivo.",
-  "website_check": "000"
+  "website_check": "000",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-polaris-family-office",
@@ -3387,7 +5205,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "Polaris Family Office es una oficina de gestión patrimonial que integra criterios ESG en sus inversiones.Inversiones en proyectos sostenibles y de impacto social en la región.",
-  "website_check": "000"
+  "website_check": "000",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-davivienda-seguros",
@@ -3402,7 +5229,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "Davivienda Seguros es una aseguradora comprometida con la sostenibilidad y la conservación ambiental.Desarrollo del \"Seguro de Vida Verde\" para apoyar la conservación de manglares. Restauración de 6.2 hectáreas de bosque de manglar y siembra de más de 21,000 árboles de mangle.",
-  "website_check": "403"
+  "website_check": "403",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-bcie-programa-regional-de-capital-semilla",
@@ -3417,7 +5253,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-fideagro",
@@ -3432,7 +5277,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "FIDEAGRO es un fondo de inversión que apoya el desarrollo del sector agropecuario.Programa de FIDEAGRO - Ministerio de Agricultura y Ganadería. Fondo que otorga capital semilla a pequeños productores y emprendedores en el sector agrícola.Financiamiento a proyectos agrícolas soste",
-  "website_check": "000"
+  "website_check": "000",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-bac-credomatic",
@@ -3447,7 +5301,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "BAC Credomatic Institución financiera que ofrece productos y servicios con enfoque en sostenibilidad. Apoya a emprendedores con capital semilla a través de programas como Agroinnova.Desarrollo de líneas de crédito verdes para PYMES. Implementación de programas de educación financ",
-  "website_check": "000"
+  "website_check": "000",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-cafi-central-america-angel-fund-initiative",
@@ -3462,7 +5325,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "CAFI (Central America Angel Fund Initiative) Iniciativa que conecta inversionistas ángeles con startups innovadoras en Centroamérica.Inversiones en empresas emergentes con impacto social y ambiental. Fortalecimiento del ecosistema de inversión en la región.",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-iagros",
@@ -3480,7 +5352,16 @@
   "website_check": "200",
   "nexus_slug": null,
   "nexus_url": null,
-  "has_nexus_card": false
+  "has_nexus_card": false,
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-recicla503",
@@ -3498,7 +5379,16 @@
   "website_check": "none",
   "nexus_slug": null,
   "nexus_url": null,
-  "has_nexus_card": false
+  "has_nexus_card": false,
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-industrias-plasticas-ipsa",
@@ -3513,7 +5403,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "Industrias Plásticas, S.A. de C.V. es la empresa líder en la fabricación de productos plásticos en El Salvador.Junto a otras del grupo: Unitape y Capri Recycling, están impulsando un modelo de economía circular integral. Procesa aproximadamente 250 toneladas de plástico al mes, p",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 13.483455,
+   "lng": -88.167355,
+   "address": "4a Calle Oriente, Colonia 15 de Septiembre, San Miguel, San Miguel Centro, San Miguel, 3321, El Salvador",
+   "city": "San Miguel",
+   "country": "El Salvador",
+   "precision": "address",
+   "source_url": "https://ipsalatinoamerica.com"
+  }
  },
  {
   "id": "sv-grupo-ternova",
@@ -3528,7 +5427,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "Grupo Ternova es una corporación líder en la producción de soluciones sostenibles e innovadoras para dos sectores clave: empaques flexibles y centros logísticos de alta eficiencia con operaciones en las Américas y el Sudeste Asiático. Implementación del modelo \"Business to Human\"",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-grupo-agrisal",
@@ -3543,7 +5451,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "Grupo Ternova es una corporación líder en la producción de soluciones sostenibles e innovadoras para dos sectores clave: empaques flexibles y centros logísticos de alta eficiencia con operaciones en las Américas y el Sudeste Asiático. Implementación del modelo \"Business to Human\"",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-industrias-la-constancia",
@@ -3558,7 +5475,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "Industrias Plásticas, S.A. de C.V. es la empresa líder en la fabricación de productos plásticos en El Salvador.Junto a otras del grupo: Unitape y Capri Recycling, están impulsando un modelo de economía circular integral. Procesa aproximadamente 250 toneladas de plástico al mes, p",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-grupo-ferromax",
@@ -3573,7 +5499,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "Grupo Ternova es una corporación líder en la producción de soluciones sostenibles e innovadoras para dos sectores clave: empaques flexibles y centros logísticos de alta eficiencia con operaciones en las Américas y el Sudeste Asiático. Implementación del modelo \"Business to Human\"",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-grupo-calleja-super-selectos",
@@ -3588,7 +5523,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "Grupo Ternova es una corporación líder en la producción de soluciones sostenibles e innovadoras para dos sectores clave: empaques flexibles y centros logísticos de alta eficiencia con operaciones en las Américas y el Sudeste Asiático. Implementación del modelo \"Business to Human\"",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-aes-el-salvador",
@@ -3603,7 +5547,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-camarasal-camara-de-comercio-e-industria-de-el-sal",
@@ -3618,7 +5571,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": null,
-  "website_check": "406"
+  "website_check": "406",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-casalco",
@@ -3633,7 +5595,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": null,
-  "website_check": "301"
+  "website_check": "301",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-camtex",
@@ -3648,7 +5619,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "CAMTEX (Cámara de la Industria Textil y de la Confección de El Salvador) Gremial que representa a la industria textil y de la confección, promoviendo prácticas sostenibles en el sector.Implementación del Higg Index para medir el impacto ambiental en los procesos productivos.El 78",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-camagro",
@@ -3663,7 +5643,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-asi-asociacion-salvadorena-de-industriales",
@@ -3678,7 +5667,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": null,
-  "website_check": "500"
+  "website_check": "500",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-marn-ministerio-de-medio-ambiente-y-recursos-natur",
@@ -3693,7 +5691,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": null,
-  "website_check": "403"
+  "website_check": "403",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-minec-ministerio-de-economia",
@@ -3708,7 +5715,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": null,
-  "website_check": "000"
+  "website_check": "000",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-mag-ministerio-de-agricultura-y-ganaderia",
@@ -3723,7 +5739,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-conamype",
@@ -3738,7 +5763,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": null,
-  "website_check": "206"
+  "website_check": "206",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-centa",
@@ -3753,7 +5787,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-invest-agencia-de-promocion-de-inversiones-y-expor",
@@ -3768,7 +5811,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": null,
-  "website_check": "307"
+  "website_check": "307",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-esco-agencia-de-el-salvador-para-la-cooperacion-in",
@@ -3783,7 +5835,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": null,
-  "website_check": "000"
+  "website_check": "000",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-impact-hub-san-salvador",
@@ -3798,7 +5859,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "Impact Hub San Salvador Incubadora y aceleradora de emprendimientos de impacto social y ambiental.Accelerate2030: Programa global en alianza con el PNUD para escalar emprendimientos que contribuyen a los ODS.Climathon San Salvador: Evento anual que reúne a innovadores para desarr",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-rein-hub-san-salvador",
@@ -3813,7 +5883,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "REIN Hub San Salvador. Capítulo local de la iniciativa global REIN (Resilience, Entrepreneurship, Innovation, and Nature).Iniciativa de CleantechHub PVBLIC Foundation. Juntos con otros socios busca para fortalecer el ecosistema de emprendimiento climático en Latinomérica.Programa",
-  "website_check": "301"
+  "website_check": "301",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-crea-centro-de-emprendimiento-utec",
@@ -3828,7 +5907,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-snbx-sandbox",
@@ -3843,7 +5931,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "SNBX (Sandbox) Hub de innovación creado por Agrisal, INNBOX y Seed Community para dinamizar el ecosistema de emprendimiento e innovación.Alianzas con BID Lab y empresas líderes para impulsar la innovación corporativa y el desarrollo de startups.",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-fundacion-gloria-kriete-incubadora-empresarial",
@@ -3858,7 +5955,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "Fundación Gloria Kriete - Incubadora Empresarial Programa de incubación para emprendedores sociales en etapa temprana con alto potencial de impacto.Identificación y escalamiento de emprendimientos que cumplen con la triple línea de impacto: económico, social y ambiental.",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-startupbootcamp-el-salvador",
@@ -3873,7 +5979,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "Startupbootcamp El Salvador Aceleradora global que planea invertir hasta USD 3.5 millones en startups tecnológicas en El Salvador.Selección de hasta 30 startups para recibir inversiones significativas y apoyo en el desarrollo de sus proyectos.",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-utec-universidad-tecnologica-de-el-salvador",
@@ -3888,7 +6003,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "UTEC (Universidad Técnológica del Salvador) - Centro de Emprendimiento e Innovación Social CREA Centro universitario que impulsa programas de incubación con enfoque en sostenibilidad y cambio climático. Aliado principal y sede del REIN Hub El SalvadorClimathon San Salvador: Event",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-ues-universidad-de-el-salvador",

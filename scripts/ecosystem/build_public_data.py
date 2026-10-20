@@ -159,13 +159,23 @@ def sanitize_policy_relations(relations: list) -> list:
     out = []
     for r in relations:
         clean = {
-            k: v
-            for k, v in r.items()
-            if k in ("source", "target", "type", "verified", "suggested", "source_url")
+            "source": r.get("source"),
+            "target": r.get("target"),
+            "type": r.get("type"),
+            "verified": r.get("verified"),
+            "suggested": r.get("suggested"),
         }
-        if "verified" not in clean and "suggested" in r:
+        if clean["verified"] is None and "suggested" in r:
             clean["verified"] = not r["suggested"]
-        out.append(scrub_value(clean))
+        url = r.get("source_url")
+        if isinstance(url, str):
+            for pat in SENSITIVE_PATTERNS:
+                if pat.search(url):
+                    url = None
+                    break
+        if url:
+            clean["source_url"] = url
+        out.append({k: v for k, v in clean.items() if v is not None})
     return out
 
 

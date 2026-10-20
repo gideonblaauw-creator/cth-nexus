@@ -4,7 +4,7 @@ import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUT = path.join(__dirname, '..', 'screenshots-d3');
-const BASE = process.env.ECO_BASE || 'http://127.0.0.1:8765/ecosystem/?preview=1';
+const BASE = process.env.ECO_BASE || 'http://127.0.0.1:8797/ecosystem/?preview=1';
 
 test.describe('ecosystem D3', () => {
   test('loads without console errors', async ({ page }) => {

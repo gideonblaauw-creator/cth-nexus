@@ -381,15 +381,16 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
+  "city": "Ate",
   "website": "https://www.mercycorpsventures.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.034178,
+   "lng": -76.928844,
+   "address": "Víctor Raúl Haya de la Torre None, Ate, Perú",
+   "city": "Ate",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Mercy+Corps+Ventures%2C+Lima%2C+Peru&limit=5 (q=Mercy Corps Ventures, Lima, Peru) (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -421,15 +422,16 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
+  "city": "Pachacámac",
   "website": "https://www.alive-ventures.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.224534,
+   "lng": -76.879045,
+   "address": "Pachacámac, Perú",
+   "city": "Pachacámac",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://photon.komoot.io/api/?q=ALIVE+Ventures%2C+Lima%2C+Peru&limit=5 (q=ALIVE Ventures, Lima, Peru) (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -481,15 +483,16 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
+  "city": "San Juan de Lurigancho",
   "website": "https://www.finance-in-motion.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -11.987993,
+   "lng": -77.008529,
+   "address": "Avenida Próceres de la Independencia None, San Juan de Lurigancho, Perú",
+   "city": "San Juan de Lurigancho",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Finance+in+Motion%2C+Lima%2C+Peru&limit=5 (q=Finance in Motion, Lima, Peru) (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -501,15 +504,16 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://rootcapital.org",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.127048,
+   "lng": -77.027393,
+   "address": "Calle San Martín 660, Lima, Perú",
+   "city": "Lima",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Root+Capital%2C+Lima%2C+Peru&limit=5 (q=Root Capital, Lima, Peru) (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -521,15 +525,16 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.bbva.pe",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.126911,
+   "lng": -76.987653,
+   "address": "Jiron Trigal 101, Lima, Perú",
+   "city": "Lima",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=BBVA+Per%C3%BA%2C+Lima%2C+Peru&limit=5 (q=BBVA Perú, Lima, Peru) (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -541,15 +546,16 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://interbank.pe",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.056731,
+   "lng": -77.03688,
+   "address": "Puerta 10 None, Lima, Perú",
+   "city": "Lima",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Interbank%2C+Lima%2C+Peru&limit=5 (q=Interbank, Lima, Peru) (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -561,15 +567,16 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.scotiabank.com.pe",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.051314,
+   "lng": -77.025318,
+   "address": "Calle Capón None, Lima, Perú",
+   "city": "Lima",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Scotiabank+Per%C3%BA%2C+Lima%2C+Peru&limit=5 (q=Scotiabank Perú, Lima, Peru) (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -581,15 +588,16 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
+  "city": "San Isidro",
   "website": "https://www.pacifico.com.pe",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.096584,
+   "lng": -77.027244,
+   "address": "Ciclovía Juan de Arona None, San Isidro, Perú",
+   "city": "San Isidro",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Pac%C3%ADfico+Seguros%2C+Lima%2C+Peru&limit=5 (q=Pacífico Seguros, Lima, Peru) (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -601,15 +609,16 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
+  "city": "La Molina",
   "website": "https://www.viabcp.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.076561,
+   "lng": -76.917147,
+   "address": "Calle Las Virgenes Lote 1 y 2, La Molina, Perú",
+   "city": "La Molina",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=BCP+%E2%80%93+Banco+de+Cr%C3%A9dito+del+Per%C3%BA%2C+Lima%2C+Peru&limit=5 (q=BCP – Banco de Crédito del Perú, Lima, Peru) (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -621,15 +630,16 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
+  "city": "San Isidro",
   "website": "https://www.bvl.com.pe",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.094821,
+   "lng": -77.03603,
+   "address": "Avenida Jorge Basadre 347, San Isidro, Perú",
+   "city": "San Isidro",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Bolsa+de+Valores+de+Lima%2C+Lima%2C+Peru&limit=5 (q=Bolsa de Valores de Lima, Lima, Peru) (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -641,15 +651,16 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
+  "city": "Ate",
   "website": "https://confianza.pe",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.016111,
+   "lng": -76.899165,
+   "address": "Avenida Cajamarquilla None, Ate, Perú",
+   "city": "Ate",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Financiera+Confianza%2C+Lima%2C+Peru&limit=5 (q=Financiera Confianza, Lima, Peru) (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -661,15 +672,16 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
+  "city": "Tacabamba",
   "website": "https://www.fpcmac.org.pe",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -6.392693,
+   "lng": -78.611425,
+   "address": "Jirón Lima None, Tacabamba, Perú",
+   "city": "Tacabamba",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=FEPCMAC+%E2%80%93+Federaci%C3%B3n+de+Cajas+Municipales%2C+Lima%2C+Peru&limit=5 (q=FEPCMAC – Federación de Cajas Municipales, Lima, Peru) (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -681,15 +693,16 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
+  "city": "Los Olivos",
   "website": "https://www.compartamos.com.pe",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -11.994068,
+   "lng": -77.068541,
+   "address": "Manuel Gonzales Prada None, Los Olivos, Perú",
+   "city": "Los Olivos",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Compartamos+Financiera%2C+Lima%2C+Peru&limit=5 (q=Compartamos Financiera, Lima, Peru) (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -701,15 +714,16 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.cajaarequipa.pe",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.092832,
+   "lng": -77.027027,
+   "address": "Avenida Ricardo Rivera Navarrete 548, Lima, Perú",
+   "city": "Lima",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Caja+Arequipa%2C+Lima%2C+Peru&limit=5 (q=Caja Arequipa, Lima, Peru) (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -721,15 +735,16 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.cajahuancayo.com.pe",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.056016,
+   "lng": -77.030136,
+   "address": "Avenida Abancay None, Lima, Perú",
+   "city": "Lima",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Caja+Huancayo%2C+Lima%2C+Peru&limit=5 (q=Caja Huancayo, Lima, Peru) (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -741,15 +756,16 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.cajapiura.pe",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.049362,
+   "lng": -77.037904,
+   "address": "Avenida Nicolas de Pierola 607, Lima, Perú",
+   "city": "Lima",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Caja+Piura%2C+Lima%2C+Peru&limit=5 (q=Caja Piura, Lima, Peru) (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -761,15 +777,16 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
+  "city": "Villa El Salvador",
   "website": "https://cajaica.pe",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.204065,
+   "lng": -76.933389,
+   "address": "Avenida Juan Velazco Alvarado None, Villa El Salvador, Perú",
+   "city": "Villa El Salvador",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Caja+Ica%2C+Lima%2C+Peru&limit=5 (q=Caja Ica, Lima, Peru) (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -781,15 +798,16 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
+  "city": "Huánuco",
   "website": "https://www.cajamaynas.pe",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -9.930496,
+   "lng": -76.239251,
+   "address": "Jirón General Prado None, Huánuco, Perú",
+   "city": "Huánuco",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Caja+Maynas%2C+Lima%2C+Peru&limit=5 (q=Caja Maynas, Lima, Peru) (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -801,15 +819,16 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://smisolutions.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.039785,
+   "lng": -77.072596,
+   "address": "Lima, Perú",
+   "city": "Lima",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://photon.komoot.io/api/?q=San+Miguel+Industrias+PET%2C+Peru&limit=5 (q=San Miguel Industrias PET, Peru) (name-country)"
   },
   "nexus": {
    "card_slug": null
@@ -861,15 +880,16 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
+  "city": "Miraflores",
   "website": "https://www.alicorp.com.pe",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.130579,
+   "lng": -77.021011,
+   "address": "Alicorp, Calle Francisco del Castillo, San Antonio, Miraflores, Lima, Lima Metropolitana, Lima, 15048, Perú",
+   "city": "Miraflores",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Alicorp%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -921,15 +941,16 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
+  "city": "Olmos",
   "website": "https://danper.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -6.026112,
+   "lng": -80.022621,
+   "address": "Fundo Danper Olmos, Olmos, Lambayeque, Perú",
+   "city": "Olmos",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Danper%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
   },
   "nexus": {
    "card_slug": null
@@ -941,15 +962,16 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
+  "city": "Ancón",
   "website": "https://www.cerroverde.pe",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -11.683477,
+   "lng": -77.175795,
+   "address": "Cerro Verde, Ancón, Lima, Lima Metropolitana, Lima, Perú",
+   "city": "Ancón",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Cerro+Verde%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -961,15 +983,16 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
+  "city": "Velille",
   "website": "https://hudbayminerals.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -14.46259,
+   "lng": -71.793238,
+   "address": "HudBay Constancia, CU-1819, Velille, Chumbivilcas, Cusco, Perú",
+   "city": "Velille",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Hudbay%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
   },
   "nexus": {
    "card_slug": null
@@ -1001,15 +1024,16 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
+  "city": "Ilo",
   "website": "https://www.angloamerican.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -17.770594,
+   "lng": -71.190796,
+   "address": "Puerto Anglo American Quellaveco, Central Termoelectrica, Ilo, Moquegua, Perú",
+   "city": "Ilo",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Anglo+American%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
   },
   "nexus": {
    "card_slug": null
@@ -1081,15 +1105,16 @@
   "type": "org",
   "category": "chamber",
   "country": "Peru",
+  "city": "San Borja",
   "website": "https://www.adexperu.org.pe",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.086383,
+   "lng": -76.995378,
+   "address": "ADEX Asociación de exportadores, 2875, Avenida Javier Prado Este, Jacaranda Etapa Dos, San Borja, Lima, Lima Metropolitana, Lima, 15041, Perú",
+   "city": "San Borja",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=ADEX+%E2%80%93+Asociaci%C3%B3n+de+Exportadores%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -1141,15 +1166,16 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
+  "city": "Arequipa",
   "website": "https://libelula.com.pe",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -16.398867,
+   "lng": -71.536961,
+   "address": "Arequipa, 04001, Perú",
+   "city": "Arequipa",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=AREQUIPA%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
   "nexus": {
    "card_slug": null
@@ -1301,15 +1327,16 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
+  "city": "Magdalena del Mar",
   "website": "https://www.gob.pe/osinergmin",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.096739,
+   "lng": -77.058827,
+   "address": "Osinergmin, 222, Calle Bernardo Monteagudo, Magdalena, Magdalena del Mar, Lima, Lima Metropolitana, Lima, 15076, Perú",
+   "city": "Magdalena del Mar",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Osinergmin%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -1321,15 +1348,16 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
+  "city": "Magdalena del Mar",
   "website": "https://www.gob.pe/sunass",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.09697,
+   "lng": -77.058976,
+   "address": "SUNASS, 216, Calle Bernardo Monteagudo, Magdalena, Magdalena del Mar, Lima, Lima Metropolitana, Lima, 15076, Perú",
+   "city": "Magdalena del Mar",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=SUNASS%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -1341,15 +1369,16 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
+  "city": "Cuzco",
   "website": "https://www.gob.pe/proinnovate",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -13.517089,
+   "lng": -71.978536,
+   "address": "Cuzco, Distrito de Cusco, Cusco, 08001, Perú",
+   "city": "Cuzco",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=cusco%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
   "nexus": {
    "card_slug": null
@@ -1381,15 +1410,16 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
+  "city": "San Isidro",
   "website": "https://www.cofide.com.pe",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.097524,
+   "lng": -77.0272,
+   "address": "Corporación Financiera de Desarrollo - COFIDE, 160, Calle Augusto Tamayo, Chacarilla, San Isidro, Lima, Lima Metropolitana, Lima, 15073, Perú",
+   "city": "San Isidro",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Calle+Augusto+Tamayo+160%2C+San+Isidro%09%09%09%09%09%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
   "nexus": {
    "card_slug": null
@@ -1421,15 +1451,16 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
+  "city": "San Isidro",
   "website": "https://www.gob.pe/agroideas",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.097748,
+   "lng": -77.031815,
+   "address": "agroideas, Calle Coronel Ernesto Odriozola, Chacarilla, San Isidro, Lima, Lima Metropolitana, Lima, 15073, Perú",
+   "city": "San Isidro",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=AGROIDEAS%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -1441,15 +1472,16 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
+  "city": "Barranca",
   "website": "https://www.agrobanco.com.pe",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -10.753654,
+   "lng": -77.759098,
+   "address": "Agrobanco, Avenida José Gálvez, Barranca, Lima, Perú",
+   "city": "Barranca",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Agrobanco%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -1461,15 +1493,16 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
+  "city": "Independencia",
   "website": "https://www.gob.pe/inaigem",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -9.499746,
+   "lng": -77.535385,
+   "address": "INAIGEM, Carretera Longitudinal de la Sierra Norte, Urbanización Sierra Hermosa, Santa Casa, Monterrey, Independencia, Huaraz, Ancash, 02690, Perú",
+   "city": "Independencia",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=INAIGEM%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
   },
   "nexus": {
    "card_slug": null
@@ -1481,15 +1514,16 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
+  "city": "San Isidro",
   "website": "https://www.gob.pe/ana",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.09422,
+   "lng": -77.015852,
+   "address": "Autoridad Nacional del Agua, 355, Calle 17, El Palomar, San Isidro, Lima, Lima Metropolitana, Lima, 15036, Perú",
+   "city": "San Isidro",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=ANA+%E2%80%93+Autoridad+Nacional+del+Agua%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -1501,15 +1535,16 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
+  "city": "Jesús María",
   "website": "https://www.gob.pe/senamhi",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.079199,
+   "lng": -77.042864,
+   "address": "SENAMHI, 321, Jirón Cahuide, Jesús María, Lima, Lima Metropolitana, Lima, 15072, Perú",
+   "city": "Jesús María",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=SENAMHI%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -1521,15 +1556,16 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
+  "city": "Jesús María",
   "website": "https://www.gob.pe/serfor",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.079536,
+   "lng": -77.054119,
+   "address": "Serfor, Avenida Arnaldo Márquez, Los Patricios, Jesús María, Lima, Lima Metropolitana, Lima, 15072, Perú",
+   "city": "Jesús María",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=SERFOR%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -1541,15 +1577,16 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
+  "city": "San Isidro",
   "website": "https://www.gob.pe/sernanp",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.093963,
+   "lng": -77.015617,
+   "address": "Servicio Nacional de Áreas Natruales Protegidas por el Estado, 355, Calle 17, El Palomar, San Isidro, Lima, Lima Metropolitana, Lima, 15036, Perú",
+   "city": "San Isidro",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=SERNANP%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -1601,15 +1638,16 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
+  "city": "San Isidro",
   "website": "https://www.gob.pe/promperu",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.098212,
+   "lng": -77.0147,
+   "address": "PROMPERÚ, 050, Calle Uno Oeste, Corpac, San Isidro, Lima, Lima Metropolitana, Lima, 15000, Perú",
+   "city": "San Isidro",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=PromPer%C3%BA%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -1641,15 +1679,16 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
+  "city": "Callao",
   "website": "https://www.gob.pe/imarpe",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.066669,
+   "lng": -77.158031,
+   "address": "Instituto del Mar del Peru, Avenida Agustín Gamarra, Chucuito, Callao, La Punta, Callao, Lima Metropolitana, Callao, 07021, Perú",
+   "city": "Callao",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=IMARPE%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -1661,15 +1700,16 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
+  "city": "Huancayo",
   "website": "https://www.gob.pe/sanipes",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.048599,
+   "lng": -75.195008,
+   "address": "Sanipes, Calle Las Orquideas, Jardines, Chorrillos, San Carlos, Huancayo, Junín, 12009, Perú",
+   "city": "Huancayo",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=SANIPES%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
   },
   "nexus": {
    "card_slug": null
@@ -1681,15 +1721,16 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
+  "city": "Nauta",
   "website": "https://www.gob.pe/regionloreto",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -4.504728,
+   "lng": -73.585108,
+   "address": "Gobierno Regional de Loreto, Calle Tarapaca, Nauta, Loreto, 16301, Perú",
+   "city": "Nauta",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Gobierno+Regional+de+Loreto%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
   },
   "nexus": {
    "card_slug": null
@@ -1701,15 +1742,16 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
+  "city": "Moyobamba",
   "website": "https://www.gob.pe/regionsanmartin",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -6.022045,
+   "lng": -76.988591,
+   "address": "Gobierno Regional de San Martín, Jirón 2 de Mayo, Lluyllucucha, Moyobamba, San Martín, 22001, Perú",
+   "city": "Moyobamba",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Gobierno+Regional+de+San+Mart%C3%ADn%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
   },
   "nexus": {
    "card_slug": null
@@ -1721,15 +1763,16 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
+  "city": "Pucallpa",
   "website": "https://www.gob.pe/regionucayali",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -8.382729,
+   "lng": -74.528931,
+   "address": "Gobierno Regional de Ucayali, Atahualpa, Área Metropolitana de Pucallpa, Centro Urbano de Pucallpa, Pucallpa, Callería, Coronel Portillo, Ucayali, 25001, Perú",
+   "city": "Pucallpa",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Gobierno+Regional+de+Ucayali%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
   },
   "nexus": {
    "card_slug": null
@@ -1741,15 +1784,16 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
+  "city": "Puerto Maldonado",
   "website": "https://www.gob.pe/regionmadrededios",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.583197,
+   "lng": -69.198998,
+   "address": "Gobierno Regional de Madre de Dios, Jirón Tupac Amaru, Puerto Maldonado, Tambopata, Madre de Dios, Perú",
+   "city": "Puerto Maldonado",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Gobierno+Regional+de+Madre+de+Dios%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
   },
   "nexus": {
    "card_slug": null
@@ -1761,15 +1805,16 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
+  "city": "Chachapoyas",
   "website": "https://www.gob.pe/regionamazonas",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -6.235301,
+   "lng": -77.873109,
+   "address": "Gobierno Regional de Amazonas, 1250, Ortiz Arrieta, Señor de los Milagros, Chachapoyas, Amazonas, 01001, Perú",
+   "city": "Chachapoyas",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Gobierno+Regional+de+Amazonas%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
   },
   "nexus": {
    "card_slug": null
@@ -1883,13 +1928,11 @@
   "country": "Peru",
   "website": "https://www.pucp.edu.pe",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.069645,
+   "lng": 77.07941,
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://www.pucp.edu.pe"
   },
   "nexus": {
    "card_slug": null
@@ -1901,15 +1944,16 @@
   "type": "org",
   "category": "academia",
   "country": "Peru",
+  "city": "Jesús María",
   "website": "https://www.up.edu.pe",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.083883,
+   "lng": -77.048319,
+   "address": "Universidad del Pacífico, 2020, Avenida General Felipe Salaverry, Risso, Lince, Jesús María, Lima, Lima Metropolitana, Lima, 15072, Perú",
+   "city": "Jesús María",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Universidad+del+Pac%C3%ADfico%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -1941,15 +1985,16 @@
   "type": "org",
   "category": "academia",
   "country": "Peru",
+  "city": "San Isidro",
   "website": "https://cayetano.edu.pe",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.091244,
+   "lng": -77.051867,
+   "address": "Universidad Peruana Cayetano Heredia, Avenida General Felipe Salaverry, Campo de Polo, Orrantia del Mar, San Isidro, Lima, Lima Metropolitana, Lima, 15076, Perú",
+   "city": "San Isidro",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Universidad+Peruana+Cayetano+Heredia%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -2063,13 +2108,11 @@
   "country": "Peru",
   "website": "https://portal.unamad.edu.pe",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.588351,
+   "lng": 69.209658,
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://portal.unamad.edu.pe"
   },
   "nexus": {
    "card_slug": null
@@ -2081,15 +2124,16 @@
   "type": "org",
   "category": "academia",
   "country": "Peru",
+  "city": "Barranco",
   "website": "https://grade.org.pe",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.136618,
+   "lng": -77.022617,
+   "address": "Avenida Almirante Miguel Grau, Barranco, Lima, Lima Metropolitana, Lima, 15063, Perú",
+   "city": "Barranco",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Av.+Almirante+Grau+915%2C+Barranco%29%2C+Barranco%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
   "nexus": {
    "card_slug": null
@@ -2181,15 +2225,16 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
+  "city": "San Isidro",
   "website": "https://bioincuba.cayetano.pe",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.097902,
+   "lng": -77.035367,
+   "address": "San Isidro, Lima, Lima Metropolitana, Lima, Perú",
+   "city": "San Isidro",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Isidro%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
   "nexus": {
    "card_slug": null
@@ -2281,15 +2326,16 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
+  "city": "Cajamarca",
   "website": "https://noticias.upc.edu.pe",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -6.976827,
+   "lng": -78.940949,
+   "address": "San Miguel, Cajamarca, Perú",
+   "city": "Cajamarca",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Miguel%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
   "nexus": {
    "card_slug": null
@@ -2361,15 +2407,16 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
+  "city": "Cuzco",
   "website": "https://www.kunan.com.pe",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -13.516998,
+   "lng": -71.974721,
+   "address": "Kunan, Avenida Tullumayo, San Blas, Cuzco, Distrito de Cusco, Cusco, 00800, Perú",
+   "city": "Cuzco",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Kunan%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
   },
   "nexus": {
    "card_slug": null
@@ -2561,13 +2608,11 @@
   "country": "Peru",
   "website": "https://upao.edu.pe/diferenciacion/incubadora-de-negocios/",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -8.127049,
+   "lng": 79.033664,
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://upao.edu.pe/diferenciacion/incubadora-de-negocios"
   },
   "nexus": {
    "card_slug": null
@@ -2799,15 +2844,16 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
+  "city": "Las Piedras",
   "website": "https://www.arbioperu.org",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.171629,
+   "lng": -69.390923,
+   "address": "Arbio, Las Piedras, Tambopata, Madre de Dios, Perú",
+   "city": "Las Piedras",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Arbio%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
   },
   "nexus": {
    "card_slug": null
@@ -2859,15 +2905,16 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
+  "city": "Arequipa",
   "website": "https://amazoniaquelate.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -16.398867,
+   "lng": -71.536961,
+   "address": "Arequipa, 04001, Perú",
+   "city": "Arequipa",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=AREQUIPA%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
   "nexus": {
    "card_slug": null
@@ -2879,15 +2926,16 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
+  "city": "Cuzco",
   "website": "https://acca.org.pe",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -13.517089,
+   "lng": -71.978536,
+   "address": "Cuzco, Distrito de Cusco, Cusco, 08001, Perú",
+   "city": "Cuzco",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=cusco%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
   "nexus": {
    "card_slug": null
@@ -2899,15 +2947,16 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
+  "city": "Arequipa",
   "website": "https://spda.org.pe",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -16.398867,
+   "lng": -71.536961,
+   "address": "Arequipa, 04001, Perú",
+   "city": "Arequipa",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=AREQUIPA%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
   "nexus": {
    "card_slug": null
@@ -2939,15 +2988,16 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
+  "city": "Cuzco",
   "website": "https://accion-andina.org",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -13.517089,
+   "lng": -71.978536,
+   "address": "Cuzco, Distrito de Cusco, Cusco, 08001, Perú",
+   "city": "Cuzco",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=cusco%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
   "nexus": {
    "card_slug": null
@@ -3039,15 +3089,16 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
+  "city": "Villa María del Triunfo",
   "website": "https://asociacionunacem.org",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.197225,
+   "lng": -76.909723,
+   "address": "Asociación UNACEM, 3020, Avenida Atocongo, Campamento UNACEM, José Gálvez Barrenechea, Villa María del Triunfo, Lima, Lima Metropolitana, Lima, 15822, Perú",
+   "city": "Villa María del Triunfo",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Asociaci%C3%B3n+UNACEM%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -3079,15 +3130,16 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
+  "city": "San Isidro",
   "website": "https://care.org.pe",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.092388,
+   "lng": -77.026353,
+   "address": "Calle Amador Merino Reyna, Centro financiero de San Isidro, San Isidro, Lima, Lima Metropolitana, Lima, 15046, Perú",
+   "city": "San Isidro",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Calle+Amador+Merino+Reyna+267%2C%2C+lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
   "nexus": {
    "card_slug": null
@@ -3099,15 +3151,16 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
+  "city": "Los Olivos",
   "website": "https://solidaridadlatam.org",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -11.979527,
+   "lng": -77.0736,
+   "address": "Solidaridad, Los Olivos, Lima, Lima Metropolitana, Lima, Perú",
+   "city": "Los Olivos",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Solidaridad%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -3141,13 +3194,11 @@
   "country": "Peru",
   "website": "https://www.swisscontact.org/es/donde-trabajamos/peru",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.107001,
+   "lng": 77.032145,
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://www.swisscontact.org/es/donde-trabajamos/peru"
   },
   "nexus": {
    "card_slug": null
@@ -3179,15 +3230,16 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.sistemab.org",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.042555,
+   "lng": -77.04275,
+   "address": "Sistema Metropolitano de la Solidaridad / Solidaridad Salud \"LAS Violetas\", Avenida Alfonso Ugarte, Barrio Monserrate, Lima, Lima Metropolitana, Lima, 15079, Perú",
+   "city": "Lima",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Sistema+B%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -3199,15 +3251,16 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.lmas1.org",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.045981,
+   "lng": -77.030591,
+   "address": "Lima, Lima Metropolitana, Lima, 15001, Perú",
+   "city": "Lima",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=L%2B1%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -3259,15 +3312,16 @@
   "type": "org",
   "category": "media",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.actualidadambiental.pe",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.045981,
+   "lng": -77.030591,
+   "address": "Lima, Lima Metropolitana, Lima, 15001, Perú",
+   "city": "Lima",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
   "nexus": {
    "card_slug": null
@@ -3279,15 +3333,16 @@
   "type": "org",
   "category": "media",
   "country": "Peru",
+  "city": "San Isidro",
   "website": "https://gestion.pe",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.09091,
+   "lng": -77.016473,
+   "address": "Icj Gestion Publica Y Empresarial, Pasaje Treinta, El Palomar, San Isidro, Lima, Lima Metropolitana, Lima, 15036, Perú",
+   "city": "San Isidro",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Gesti%C3%B3n%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -3299,15 +3354,16 @@
   "type": "org",
   "category": "media",
   "country": "Peru",
+  "city": "La Molina",
   "website": "https://agraria.pe",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.079393,
+   "lng": -76.950281,
+   "address": "Agraria, Avenida La Molina, Haras de la Molina, La Molina, Lima, Lima Metropolitana, Lima, 14024, Perú",
+   "city": "La Molina",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Agraria.pe%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -3339,15 +3395,16 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
+  "city": "天河区",
   "website": "https://www.ifc.org",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 23.120251,
+   "lng": 113.317864,
+   "address": "广州国际金融中心(广州西塔), 珠江西路, 猎德街道, 天河区, 广州市, 广东省, 510623, 中国",
+   "city": "天河区",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=IFC&format=json&limit=1&addressdetails=1 (HQ-fallback)"
   },
   "nexus": {
    "card_slug": null
@@ -3379,15 +3436,16 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
+  "city": "Washington",
   "website": "https://www.worldbank.org",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 38.898837,
+   "lng": -77.042567,
+   "address": "World Bank (MC Building), 1818, H Street Northwest, Golden Triangle, Ward 2, Washington, District of Columbia, 20037, United States",
+   "city": "Washington",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Banco+Mundial&format=json&limit=1&addressdetails=1 (HQ-fallback)"
   },
   "nexus": {
    "card_slug": null
@@ -3399,15 +3457,16 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
+  "city": "Berlin",
   "website": "https://www.kfw.de",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 52.507176,
+   "lng": 13.358246,
+   "address": "Kreditanstalt für Wiederaufbau, 86-90, Reichpietschufer, Lützowviertel, Tiergarten, Mitte, Berlin, 10785, Deutschland",
+   "city": "Berlin",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=KfW&format=json&limit=1&addressdetails=1 (HQ-fallback)"
   },
   "nexus": {
    "card_slug": null
@@ -3439,15 +3498,16 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
+  "city": "Callao",
   "website": "https://www.undp.org/es/peru",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.086463,
+   "lng": -77.223446,
+   "address": "Callao, Perú",
+   "city": "Callao",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=callao%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
   "nexus": {
    "card_slug": null
@@ -3459,15 +3519,16 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
+  "city": "Miraflores",
   "website": "https://www.fao.org",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.122311,
+   "lng": -77.017342,
+   "address": "Food and Agriculture Organization of the United Nations, 328, Calle Manuel Almenara, Miraflores, Lima, Lima Metropolitana, Lima, 15048, Perú",
+   "city": "Miraflores",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=FAO%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -3479,15 +3540,16 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
+  "city": "Communauté urbaine de Yaoundé",
   "website": "https://www.unido.org",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 3.904508,
+   "lng": 11.501748,
+   "address": "Organisation des Nations unies pour le développement industriel, Rue 6.114, Fébé, Yaoundé II, Communauté urbaine de Yaoundé, Mfoundi, Centre, Cameroun",
+   "city": "Communauté urbaine de Yaoundé",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=ONUDI&format=json&limit=1&addressdetails=1 (HQ-fallback)"
   },
   "nexus": {
    "card_slug": null
@@ -3519,15 +3581,16 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
+  "city": "Municipio Nuestra Señora de La Paz",
   "website": "https://unhabitat.org",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -16.512916,
+   "lng": -68.120639,
+   "address": "ONU HABITAT BOLIVIA, Avenida Aniceto Arce, Centro, Municipio Nuestra Señora de La Paz, Provincia Pedro Domingo Murillo, La Paz, Bolivia",
+   "city": "Municipio Nuestra Señora de La Paz",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=ONU-H%C3%A1bitat&format=json&limit=1&addressdetails=1 (HQ-fallback)"
   },
   "nexus": {
    "card_slug": null
@@ -3539,15 +3602,16 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
+  "city": "La Molina",
   "website": "https://iica.int",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.077702,
+   "lng": -76.951525,
+   "address": "Instituto Interamericano de Cooperación para la Agricultura, Avenida La Molina, La Molina, Lima, Lima Metropolitana, Lima, 14024, Perú",
+   "city": "La Molina",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=IICA%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -3559,15 +3623,16 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
+  "city": "Feldafing",
   "website": "https://www.giz.de",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 47.953426,
+   "lng": 11.284272,
+   "address": "GIZ, 52, Wielinger Straße, Feldafing, Landkreis Starnberg, Bayern, 82340, Deutschland",
+   "city": "Feldafing",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=GIZ&format=json&limit=1&addressdetails=1 (HQ-fallback)"
   },
   "nexus": {
    "card_slug": null
@@ -3619,15 +3684,16 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
+  "city": "Dakar",
   "website": "https://www.aecid.es",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 14.66279,
+   "lng": -17.435362,
+   "address": "Agence Espagnole de Coopération Internationale pour le Développement, Rue Joseph Gomis, Commune de Dakar-Plateau, Arrondissement de Dakar-Plateau, Dakar, Région de Dakar, 99341, Sénégal",
+   "city": "Dakar",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=AECID&format=json&limit=1&addressdetails=1 (HQ-fallback)"
   },
   "nexus": {
    "card_slug": null
@@ -3639,15 +3705,16 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
+  "city": "Libreville",
   "website": "https://www.afd.fr",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 0.455242,
+   "lng": 9.409025,
+   "address": "Banque Africaine de Developpement, 2455, Boulevard Hassan II, Tahiti, 1er Arrondissement de Libreville, Libreville, Estuaire, Gabon",
+   "city": "Libreville",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=AFD&format=json&limit=1&addressdetails=1 (HQ-fallback)"
   },
   "nexus": {
    "card_slug": null
@@ -3659,15 +3726,16 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
+  "city": "Ormoc",
   "website": "https://www.jica.go.jp",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 11.028429,
+   "lng": 124.551537,
+   "address": "Jica, Lilo-an, Ormoc, Leyte, Eastern Visayas, 6541, Philippines",
+   "city": "Ormoc",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=JICA&format=json&limit=1&addressdetails=1 (HQ-fallback)"
   },
   "nexus": {
    "card_slug": null
@@ -3679,15 +3747,16 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
+  "city": "성남시",
   "website": "https://www.koica.go.kr",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 37.415691,
+   "lng": 127.098692,
+   "address": "한국국제협력단, 대왕판교로851번길, 시흥동, 수정구, 성남시, 경기도, 13449, 대한민국",
+   "city": "성남시",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=KOICA&format=json&limit=1&addressdetails=1 (HQ-fallback)"
   },
   "nexus": {
    "card_slug": null
@@ -3699,15 +3768,16 @@
   "type": "org",
   "category": "chamber",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://peru.ahk.de",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.045981,
+   "lng": -77.030591,
+   "address": "Lima, Lima Metropolitana, Lima, 15001, Perú",
+   "city": "Lima",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
   "nexus": {
    "card_slug": null
@@ -3719,15 +3789,16 @@
   "type": "org",
   "category": "chamber",
   "country": "Peru",
+  "city": "San Isidro",
   "website": "https://www.amcham.org.pe",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.095957,
+   "lng": -77.037571,
+   "address": "Avenida Víctor Andrés Belaúnde, El Rosario, San Isidro, Lima, Lima Metropolitana, Lima, 15073, Perú",
+   "city": "San Isidro",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Avenida+V%C3%ADctor+Andr%C3%A9s+Bela%C3%BAnde+177%2C+San+Isidro%2C+San+Isidro%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
   "nexus": {
    "card_slug": null
@@ -3779,15 +3850,16 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
+  "city": "Lince",
   "website": "https://www.wwf.org.pe",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.090261,
+   "lng": -77.040447,
+   "address": "World Wildlife Fund, 653, Avenida General Trinidad Morán, Risso, Lince, Lima, Lima Metropolitana, Lima, 51015, Perú",
+   "city": "Lince",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=WWF+Per%C3%BA%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -3799,15 +3871,16 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
+  "city": "Omaha",
   "website": "https://www.nature.org",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 41.251924,
+   "lng": -95.929733,
+   "address": "The Nature Conservancy, Omaha, Douglas County, Nebraska, 68012, United States",
+   "city": "Omaha",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=The+Nature+Conservancy&format=json&limit=1&addressdetails=1 (HQ-fallback)"
   },
   "nexus": {
    "card_slug": null
@@ -3819,15 +3892,16 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
+  "city": "Forest",
   "website": "https://www.forest-trends.org",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 32.353265,
+   "lng": -89.483221,
+   "address": "Citi Trends, Deer Field Drive, Forest, Scott County, Mississippi, United States",
+   "city": "Forest",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Forest+Trends&format=json&limit=1&addressdetails=1 (HQ-fallback)"
   },
   "nexus": {
    "card_slug": null
@@ -3899,15 +3973,16 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
+  "city": "Arequipa",
   "website": "https://cleantechhub.net",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -16.404597,
+   "lng": -71.531549,
+   "address": "Bogotá, Nicolás de Piérola, Arequipa, 04001, Perú",
+   "city": "Arequipa",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://cleantechhub.net"
   },
   "nexus": {
    "card_slug": null
@@ -3958,15 +4033,16 @@
   "type": "org",
   "category": "startup",
   "country": "Peru",
+  "city": "Chorrillos",
   "nexus_url": "https://nexus.cleantechhub.net/s/vigia",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -12.195476,
+   "lng": -76.995997,
+   "address": "Parque Cerro Vigía, Delicias de Villa, Chorrillos, Lima, Lima Metropolitana, Lima, Perú",
+   "city": "Chorrillos",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=VIGIA%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -3978,14 +4054,15 @@
   "type": "org",
   "category": "startup",
   "country": "Peru",
+  "city": "San Mateo",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": -11.8961,
+   "lng": -76.241485,
+   "address": "Uqhu, San Mateo, Huarochirí, Lima, Perú",
+   "city": "San Mateo",
    "country": "Peru",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=UQHU%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -4038,13 +4115,13 @@
   "city": "San Salvador",
   "website": "https://pomonaimpact.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4059,13 +4136,13 @@
   "city": "San Salvador",
   "website": "https://viwala.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4080,13 +4157,13 @@
   "city": "San Salvador",
   "website": "https://fiaes.org.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4101,13 +4178,13 @@
   "city": "San Salvador",
   "website": "https://atlantidacapital.com.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4122,13 +4199,13 @@
   "city": "San Salvador",
   "website": "https://www.bancoazul.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4143,13 +4220,13 @@
   "city": "San Salvador",
   "website": "https://www.bancohipotecario.com.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4164,13 +4241,13 @@
   "city": "San Salvador",
   "website": "https://www.bancoatlantida.com.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4185,13 +4262,13 @@
   "city": "San Salvador",
   "website": "https://www.bancoagricola.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4206,13 +4283,13 @@
   "city": "San Salvador",
   "website": "https://www.bandesal.gob.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4227,13 +4304,13 @@
   "city": "San Salvador",
   "website": "https://www.sisa.com.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4248,13 +4325,12 @@
   "city": "San Salvador",
   "website": "https://ases.org.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
+   "lat": 13.687341,
+   "lng": 89.2247,
    "city": "San Salvador",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://ases.org.sv"
   },
   "nexus": {
    "card_slug": null
@@ -4269,13 +4345,13 @@
   "city": "San Salvador",
   "website": "https://www.arca.com.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4290,13 +4366,13 @@
   "city": "San Salvador",
   "website": "https://www.polaris.com.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4311,13 +4387,13 @@
   "city": "San Salvador",
   "website": "https://sostenibilidad.davivienda.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4332,13 +4408,13 @@
   "city": "San Salvador",
   "website": "https://www.bcie.org",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4353,13 +4429,13 @@
   "city": "San Salvador",
   "website": "https://www.fideagro.org",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4374,13 +4450,13 @@
   "city": "San Salvador",
   "website": "https://www.baccredomatic.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4395,13 +4471,13 @@
   "city": "San Salvador",
   "website": "https://cafi.vc",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4416,13 +4492,13 @@
   "city": "San Salvador",
   "website": "https://ia-gros.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4436,13 +4512,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4457,13 +4533,13 @@
   "city": "San Salvador",
   "website": "https://ipsalatinoamerica.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.483455,
+   "lng": -88.167355,
+   "address": "4a Calle Oriente, Colonia 15 de Septiembre, San Miguel, San Miguel Centro, San Miguel, 3321, El Salvador",
+   "city": "San Miguel",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://ipsalatinoamerica.com"
   },
   "nexus": {
    "card_slug": null
@@ -4478,13 +4554,13 @@
   "city": "San Salvador",
   "website": "https://www.ternova.group",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4499,13 +4575,13 @@
   "city": "San Salvador",
   "website": "https://agrisal.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4520,13 +4596,13 @@
   "city": "San Salvador",
   "website": "https://laconstancia.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4541,13 +4617,13 @@
   "city": "San Salvador",
   "website": "https://grupoferromax.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4562,13 +4638,13 @@
   "city": "San Salvador",
   "website": "https://www.superselectos.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4583,13 +4659,13 @@
   "city": "San Salvador",
   "website": "https://www.aes-elsalvador.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4604,13 +4680,13 @@
   "city": "San Salvador",
   "website": "https://camarasal.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4625,13 +4701,13 @@
   "city": "San Salvador",
   "website": "https://casalco.org.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4646,13 +4722,13 @@
   "city": "San Salvador",
   "website": "https://camtex.com.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4667,13 +4743,13 @@
   "city": "San Salvador",
   "website": "https://facebook.com/camagro.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4688,13 +4764,13 @@
   "city": "San Salvador",
   "website": "https://industriaelsalvador.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4709,13 +4785,13 @@
   "city": "San Salvador",
   "website": "https://www.ambiente.gob.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4730,13 +4806,13 @@
   "city": "San Salvador",
   "website": "https://www.economia.gob.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4751,13 +4827,13 @@
   "city": "San Salvador",
   "website": "https://www.mag.gob.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4772,13 +4848,13 @@
   "city": "San Salvador",
   "website": "https://www.conamype.gob.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4793,13 +4869,13 @@
   "city": "San Salvador",
   "website": "https://www.centa.gob.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4814,13 +4890,13 @@
   "city": "San Salvador",
   "website": "https://investinelsalvador.gob.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4835,13 +4911,13 @@
   "city": "San Salvador",
   "website": "https://esco.gob.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4856,13 +4932,13 @@
   "city": "San Salvador",
   "website": "https://sansalvador.impacthub.net",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4877,13 +4953,13 @@
   "city": "San Salvador",
   "website": "https://pvblic.org/rein-hubs",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4898,13 +4974,13 @@
   "city": "San Salvador",
   "website": "https://www.utec.edu.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4919,13 +4995,13 @@
   "city": "San Salvador",
   "website": "https://snbx.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4940,13 +5016,13 @@
   "city": "San Salvador",
   "website": "https://fundaciongloriakriete.org",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4961,13 +5037,13 @@
   "city": "San Salvador",
   "website": "https://www.startupbootcamp.org",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4982,13 +5058,13 @@
   "city": "San Salvador",
   "website": "https://www.utec.edu.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
