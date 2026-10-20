@@ -66,6 +66,17 @@
   display: block;
   min-height: var(--hub-map-h);
 }
+.hub-leaflet-map {
+  width: 100%;
+  min-height: var(--hub-map-h);
+  height: var(--hub-map-h);
+  background: #0a3a6e;
+  z-index: 1;
+}
+.hub-leaflet-map .leaflet-control-attribution {
+  font-size: 9px;
+  background: rgba(255, 255, 255, 0.85);
+}
 .map-land { fill: rgba(178,238,250,.08); stroke: rgba(178,238,250,.25); stroke-width: 0.6; }
 .map-graticule { stroke: rgba(255,255,255,.06); stroke-width: 0.4; fill: none; }
 .hub-pin {

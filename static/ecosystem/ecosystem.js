@@ -329,6 +329,14 @@
     });
   }
 
+  function mountLeafletMap() {
+    if (!window.NexusLatamMap) return;
+    window.NexusLatamMap.mountEcosystemMap('eco-leaflet-map', filteredActors(), (countryName) => {
+      const cc = countryCode(countryName);
+      if (cc) setCountry(cc);
+    });
+  }
+
   function buildFilterChips() {
     const tr = t();
     const catRow = $('#cat-chips');
@@ -364,6 +372,9 @@
     renderCards(list);
     renderCharts(list);
     renderNetwork(list);
+    if (window.NexusLatamMap) {
+      window.NexusLatamMap.renderEcosystemMarkers('eco-leaflet-map', list);
+    }
   }
 
   function initAuthGate() {
@@ -389,6 +400,7 @@
     computeDegrees();
     buildFilterChips();
     bindMap();
+    mountLeafletMap();
     $('#search-input').addEventListener('input', (e) => { searchQuery = e.target.value; render(); });
     $('#min-rel').addEventListener('input', (e) => {
       minRelations = Number(e.target.value) || 0;
