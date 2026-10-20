@@ -1,0 +1,3964 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "nodes": [
+          "home_screen",
+          "listing_screen",
+          "detail_screen",
+          "mentors_screen",
+          "register_screen"
+        ],
+        "type": "platform_structure",
+        "properties": {
+          "purpose": "Mentoring platform navigation flow"
+        }
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "label": "api/__init__.py",
+      "file_type": "code",
+      "source_file": "api/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "api_init",
+      "community": 12,
+      "norm_label": "api/__init__.py"
+    },
+    {
+      "label": "app.py",
+      "file_type": "code",
+      "source_file": "api/app.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "api_app",
+      "community": 4,
+      "norm_label": "app.py"
+    },
+    {
+      "label": "verify_signature()",
+      "file_type": "code",
+      "source_file": "api/app.py",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "api_app_verify_signature",
+      "community": 4,
+      "norm_label": "verify_signature()"
+    },
+    {
+      "label": "health()",
+      "file_type": "code",
+      "source_file": "api/app.py",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "api_app_health",
+      "community": 4,
+      "norm_label": "health()"
+    },
+    {
+      "label": "onboard()",
+      "file_type": "code",
+      "source_file": "api/app.py",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "api_app_onboard",
+      "community": 4,
+      "norm_label": "onboard()"
+    },
+    {
+      "label": "claim()",
+      "file_type": "code",
+      "source_file": "api/app.py",
+      "source_location": "L89",
+      "_origin": "ast",
+      "id": "api_app_claim",
+      "community": 4,
+      "norm_label": "claim()"
+    },
+    {
+      "label": "handlers/__init__.py",
+      "file_type": "code",
+      "source_file": "api/handlers/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "api_handlers_init",
+      "community": 11,
+      "norm_label": "handlers/__init__.py"
+    },
+    {
+      "label": "bookstack.py",
+      "file_type": "code",
+      "source_file": "api/handlers/bookstack.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "api_handlers_bookstack",
+      "community": 5,
+      "norm_label": "bookstack.py"
+    },
+    {
+      "label": "BookStackClient",
+      "file_type": "code",
+      "source_file": "api/handlers/bookstack.py",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "api_handlers_bookstack_bookstackclient",
+      "community": 5,
+      "norm_label": "bookstackclient"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "api/handlers/bookstack.py",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "api_handlers_bookstack_bookstackclient_init",
+      "community": 5,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": "._headers()",
+      "file_type": "code",
+      "source_file": "api/handlers/bookstack.py",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "api_handlers_bookstack_bookstackclient_headers",
+      "community": 5,
+      "norm_label": "._headers()"
+    },
+    {
+      "label": "._request()",
+      "file_type": "code",
+      "source_file": "api/handlers/bookstack.py",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "api_handlers_bookstack_bookstackclient_request",
+      "community": 5,
+      "norm_label": "._request()"
+    },
+    {
+      "label": ".get_page()",
+      "file_type": "code",
+      "source_file": "api/handlers/bookstack.py",
+      "source_location": "L46",
+      "_origin": "ast",
+      "id": "api_handlers_bookstack_bookstackclient_get_page",
+      "community": 5,
+      "norm_label": ".get_page()"
+    },
+    {
+      "label": ".list_pages()",
+      "file_type": "code",
+      "source_file": "api/handlers/bookstack.py",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "api_handlers_bookstack_bookstackclient_list_pages",
+      "community": 5,
+      "norm_label": ".list_pages()"
+    },
+    {
+      "label": ".search()",
+      "file_type": "code",
+      "source_file": "api/handlers/bookstack.py",
+      "source_location": "L55",
+      "_origin": "ast",
+      "id": "api_handlers_bookstack_bookstackclient_search",
+      "community": 5,
+      "norm_label": ".search()"
+    },
+    {
+      "label": ".update_page_tags()",
+      "file_type": "code",
+      "source_file": "api/handlers/bookstack.py",
+      "source_location": "L60",
+      "_origin": "ast",
+      "id": "api_handlers_bookstack_bookstackclient_update_page_tags",
+      "community": 5,
+      "norm_label": ".update_page_tags()"
+    },
+    {
+      "label": ".list_pages_by_tag()",
+      "file_type": "code",
+      "source_file": "api/handlers/bookstack.py",
+      "source_location": "L63",
+      "_origin": "ast",
+      "id": "api_handlers_bookstack_bookstackclient_list_pages_by_tag",
+      "community": 5,
+      "norm_label": ".list_pages_by_tag()"
+    },
+    {
+      "label": "email_sender.py",
+      "file_type": "code",
+      "source_file": "api/handlers/email_sender.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "api_handlers_email_sender",
+      "community": 4,
+      "norm_label": "email_sender.py"
+    },
+    {
+      "label": "send_welcome()",
+      "file_type": "code",
+      "source_file": "api/handlers/email_sender.py",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "api_handlers_email_sender_send_welcome",
+      "community": 4,
+      "norm_label": "send_welcome()"
+    },
+    {
+      "label": "humhub.py",
+      "file_type": "code",
+      "source_file": "api/handlers/humhub.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "api_handlers_humhub",
+      "community": 0,
+      "norm_label": "humhub.py"
+    },
+    {
+      "label": "_connect()",
+      "file_type": "code",
+      "source_file": "api/handlers/humhub.py",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "api_handlers_humhub_connect",
+      "community": 0,
+      "norm_label": "_connect()"
+    },
+    {
+      "label": "_gen_password()",
+      "file_type": "code",
+      "source_file": "api/handlers/humhub.py",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "api_handlers_humhub_gen_password",
+      "community": 0,
+      "norm_label": "_gen_password()"
+    },
+    {
+      "label": "_hash_password()",
+      "file_type": "code",
+      "source_file": "api/handlers/humhub.py",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "api_handlers_humhub_hash_password",
+      "community": 0,
+      "norm_label": "_hash_password()"
+    },
+    {
+      "label": "_slugify()",
+      "file_type": "code",
+      "source_file": "api/handlers/humhub.py",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "api_handlers_humhub_slugify",
+      "community": 0,
+      "norm_label": "_slugify()"
+    },
+    {
+      "label": "_split_name()",
+      "file_type": "code",
+      "source_file": "api/handlers/humhub.py",
+      "source_location": "L57",
+      "_origin": "ast",
+      "id": "api_handlers_humhub_split_name",
+      "community": 0,
+      "norm_label": "_split_name()"
+    },
+    {
+      "label": "_unique_username()",
+      "file_type": "code",
+      "source_file": "api/handlers/humhub.py",
+      "source_location": "L64",
+      "_origin": "ast",
+      "id": "api_handlers_humhub_unique_username",
+      "community": 0,
+      "norm_label": "_unique_username()"
+    },
+    {
+      "label": "create_or_update_user()",
+      "file_type": "code",
+      "source_file": "api/handlers/humhub.py",
+      "source_location": "L75",
+      "_origin": "ast",
+      "id": "api_handlers_humhub_create_or_update_user",
+      "community": 0,
+      "norm_label": "create_or_update_user()"
+    },
+    {
+      "label": "_add_to_space()",
+      "file_type": "code",
+      "source_file": "api/handlers/humhub.py",
+      "source_location": "L178",
+      "_origin": "ast",
+      "id": "api_handlers_humhub_add_to_space",
+      "community": 0,
+      "norm_label": "_add_to_space()"
+    },
+    {
+      "label": "HumHub handler \u2014 direct database approach. The REST API module has broken route",
+      "file_type": "rationale",
+      "source_file": "api/handlers/humhub.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "api_handlers_humhub_rationale_1",
+      "community": 0,
+      "norm_label": "humhub handler \u2014 direct database approach. the rest api module has broken route"
+    },
+    {
+      "label": "moodle.py",
+      "file_type": "code",
+      "source_file": "api/handlers/moodle.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "api_handlers_moodle",
+      "community": 4,
+      "norm_label": "moodle.py"
+    },
+    {
+      "label": "_call()",
+      "file_type": "code",
+      "source_file": "api/handlers/moodle.py",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "api_handlers_moodle_call",
+      "community": 4,
+      "norm_label": "_call()"
+    },
+    {
+      "label": "_get_user_by_email()",
+      "file_type": "code",
+      "source_file": "api/handlers/moodle.py",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "api_handlers_moodle_get_user_by_email",
+      "community": 4,
+      "norm_label": "_get_user_by_email()"
+    },
+    {
+      "label": "create_and_enroll()",
+      "file_type": "code",
+      "source_file": "api/handlers/moodle.py",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "api_handlers_moodle_create_and_enroll",
+      "community": 4,
+      "norm_label": "create_and_enroll()"
+    },
+    {
+      "label": "odoo.py",
+      "file_type": "code",
+      "source_file": "api/handlers/odoo.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "api_handlers_odoo",
+      "community": 6,
+      "norm_label": "odoo.py"
+    },
+    {
+      "label": "_get_uid()",
+      "file_type": "code",
+      "source_file": "api/handlers/odoo.py",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "api_handlers_odoo_get_uid",
+      "community": 6,
+      "norm_label": "_get_uid()"
+    },
+    {
+      "label": "_execute()",
+      "file_type": "code",
+      "source_file": "api/handlers/odoo.py",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "api_handlers_odoo_execute",
+      "community": 6,
+      "norm_label": "_execute()"
+    },
+    {
+      "label": "_get_or_create_tag()",
+      "file_type": "code",
+      "source_file": "api/handlers/odoo.py",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "api_handlers_odoo_get_or_create_tag",
+      "community": 6,
+      "norm_label": "_get_or_create_tag()"
+    },
+    {
+      "label": "_infer_program_tag()",
+      "file_type": "code",
+      "source_file": "api/handlers/odoo.py",
+      "source_location": "L53",
+      "_origin": "ast",
+      "id": "api_handlers_odoo_infer_program_tag",
+      "community": 6,
+      "norm_label": "_infer_program_tag()"
+    },
+    {
+      "label": "upsert_mentor()",
+      "file_type": "code",
+      "source_file": "api/handlers/odoo.py",
+      "source_location": "L66",
+      "_origin": "ast",
+      "id": "api_handlers_odoo_upsert_mentor",
+      "community": 6,
+      "norm_label": "upsert_mentor()"
+    },
+    {
+      "label": "upsert_clp26_mentor()",
+      "file_type": "code",
+      "source_file": "api/handlers/odoo.py",
+      "source_location": "L118",
+      "_origin": "ast",
+      "id": "api_handlers_odoo_upsert_clp26_mentor",
+      "community": 6,
+      "norm_label": "upsert_clp26_mentor()"
+    },
+    {
+      "label": "get_pending_clp26_mentors()",
+      "file_type": "code",
+      "source_file": "api/handlers/odoo.py",
+      "source_location": "L187",
+      "_origin": "ast",
+      "id": "api_handlers_odoo_get_pending_clp26_mentors",
+      "community": 6,
+      "norm_label": "get_pending_clp26_mentors()"
+    },
+    {
+      "label": "approve_clp26_mentor()",
+      "file_type": "code",
+      "source_file": "api/handlers/odoo.py",
+      "source_location": "L203",
+      "_origin": "ast",
+      "id": "api_handlers_odoo_approve_clp26_mentor",
+      "community": 6,
+      "norm_label": "approve_clp26_mentor()"
+    },
+    {
+      "label": "reject_clp26_mentor()",
+      "file_type": "code",
+      "source_file": "api/handlers/odoo.py",
+      "source_location": "L234",
+      "_origin": "ast",
+      "id": "api_handlers_odoo_reject_clp26_mentor",
+      "community": 6,
+      "norm_label": "reject_clp26_mentor()"
+    },
+    {
+      "label": "Odoo 18 handler \u2014 uses XML-RPC for API key authentication. API keys authenticate",
+      "file_type": "rationale",
+      "source_file": "api/handlers/odoo.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "api_handlers_odoo_rationale_1",
+      "community": 6,
+      "norm_label": "odoo 18 handler \u2014 uses xml-rpc for api key authentication. api keys authenticate"
+    },
+    {
+      "label": "mentoring/__init__.py",
+      "file_type": "code",
+      "source_file": "api/mentoring/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "api_mentoring_init",
+      "community": 2,
+      "norm_label": "mentoring/__init__.py"
+    },
+    {
+      "label": "bookstack_service.py",
+      "file_type": "code",
+      "source_file": "api/mentoring/bookstack_service.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "api_mentoring_bookstack_service",
+      "community": 3,
+      "norm_label": "bookstack_service.py"
+    },
+    {
+      "label": "_get_client()",
+      "file_type": "code",
+      "source_file": "api/mentoring/bookstack_service.py",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "api_mentoring_bookstack_service_get_client",
+      "community": 3,
+      "norm_label": "_get_client()"
+    },
+    {
+      "label": "_extract_tag()",
+      "file_type": "code",
+      "source_file": "api/mentoring/bookstack_service.py",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "api_mentoring_bookstack_service_extract_tag",
+      "community": 3,
+      "norm_label": "_extract_tag()"
+    },
+    {
+      "label": "_first_sentence()",
+      "file_type": "code",
+      "source_file": "api/mentoring/bookstack_service.py",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "api_mentoring_bookstack_service_first_sentence",
+      "community": 3,
+      "norm_label": "_first_sentence()"
+    },
+    {
+      "label": "_build_sessions()",
+      "file_type": "code",
+      "source_file": "api/mentoring/bookstack_service.py",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "api_mentoring_bookstack_service_build_sessions",
+      "community": 3,
+      "norm_label": "_build_sessions()"
+    },
+    {
+      "label": "_page_to_startup()",
+      "file_type": "code",
+      "source_file": "api/mentoring/bookstack_service.py",
+      "source_location": "L50",
+      "_origin": "ast",
+      "id": "api_mentoring_bookstack_service_page_to_startup",
+      "community": 3,
+      "norm_label": "_page_to_startup()"
+    },
+    {
+      "label": "get_selected_startups()",
+      "file_type": "code",
+      "source_file": "api/mentoring/bookstack_service.py",
+      "source_location": "L74",
+      "_origin": "ast",
+      "id": "api_mentoring_bookstack_service_get_selected_startups",
+      "community": 3,
+      "norm_label": "get_selected_startups()"
+    },
+    {
+      "label": "get_startup_detail()",
+      "file_type": "code",
+      "source_file": "api/mentoring/bookstack_service.py",
+      "source_location": "L106",
+      "_origin": "ast",
+      "id": "api_mentoring_bookstack_service_get_startup_detail",
+      "community": 3,
+      "norm_label": "get_startup_detail()"
+    },
+    {
+      "label": "get_homework()",
+      "file_type": "code",
+      "source_file": "api/mentoring/bookstack_service.py",
+      "source_location": "L125",
+      "_origin": "ast",
+      "id": "api_mentoring_bookstack_service_get_homework",
+      "community": 3,
+      "norm_label": "get_homework()"
+    },
+    {
+      "label": "models.py",
+      "file_type": "code",
+      "source_file": "api/mentoring/models.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "api_mentoring_models",
+      "community": 3,
+      "norm_label": "models.py"
+    },
+    {
+      "label": "SessionStatus",
+      "file_type": "code",
+      "source_file": "api/mentoring/models.py",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "api_mentoring_models_sessionstatus",
+      "community": 3,
+      "norm_label": "sessionstatus"
+    },
+    {
+      "label": ".to_dict()",
+      "file_type": "code",
+      "source_file": "api/mentoring/models.py",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "api_mentoring_models_sessionstatus_to_dict",
+      "community": 3,
+      "norm_label": ".to_dict()"
+    },
+    {
+      "label": "Startup",
+      "file_type": "code",
+      "source_file": "api/mentoring/models.py",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "api_mentoring_models_startup",
+      "community": 3,
+      "norm_label": "startup"
+    },
+    {
+      "label": ".to_dict()",
+      "file_type": "code",
+      "source_file": "api/mentoring/models.py",
+      "source_location": "L53",
+      "_origin": "ast",
+      "id": "api_mentoring_models_startup_to_dict",
+      "community": 3,
+      "norm_label": ".to_dict()"
+    },
+    {
+      "label": "routes.py",
+      "file_type": "code",
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "api_mentoring_routes",
+      "community": 2,
+      "norm_label": "routes.py"
+    },
+    {
+      "label": "index()",
+      "file_type": "code",
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "api_mentoring_routes_index",
+      "community": 2,
+      "norm_label": "index()"
+    },
+    {
+      "label": "api_startups()",
+      "file_type": "code",
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "api_mentoring_routes_api_startups",
+      "community": 2,
+      "norm_label": "api_startups()"
+    },
+    {
+      "label": "api_startup_detail()",
+      "file_type": "code",
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "api_mentoring_routes_api_startup_detail",
+      "community": 2,
+      "norm_label": "api_startup_detail()"
+    },
+    {
+      "label": "api_modules()",
+      "file_type": "code",
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "api_mentoring_routes_api_modules",
+      "community": 2,
+      "norm_label": "api_modules()"
+    },
+    {
+      "label": "api_homework()",
+      "file_type": "code",
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L54",
+      "_origin": "ast",
+      "id": "api_mentoring_routes_api_homework",
+      "community": 2,
+      "norm_label": "api_homework()"
+    },
+    {
+      "label": "api_mentors()",
+      "file_type": "code",
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L64",
+      "_origin": "ast",
+      "id": "api_mentoring_routes_api_mentors",
+      "community": 2,
+      "norm_label": "api_mentors()"
+    },
+    {
+      "label": "api_register()",
+      "file_type": "code",
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L71",
+      "_origin": "ast",
+      "id": "api_mentoring_routes_api_register",
+      "community": 2,
+      "norm_label": "api_register()"
+    },
+    {
+      "label": "_check_admin()",
+      "file_type": "code",
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L140",
+      "_origin": "ast",
+      "id": "api_mentoring_routes_check_admin",
+      "community": 2,
+      "norm_label": "_check_admin()"
+    },
+    {
+      "label": "admin_index()",
+      "file_type": "code",
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L148",
+      "_origin": "ast",
+      "id": "api_mentoring_routes_admin_index",
+      "community": 2,
+      "norm_label": "admin_index()"
+    },
+    {
+      "label": "api_admin_pending()",
+      "file_type": "code",
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L153",
+      "_origin": "ast",
+      "id": "api_mentoring_routes_api_admin_pending",
+      "community": 2,
+      "norm_label": "api_admin_pending()"
+    },
+    {
+      "label": "api_admin_approve()",
+      "file_type": "code",
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L165",
+      "_origin": "ast",
+      "id": "api_mentoring_routes_api_admin_approve",
+      "community": 2,
+      "norm_label": "api_admin_approve()"
+    },
+    {
+      "label": "api_admin_reject()",
+      "file_type": "code",
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L177",
+      "_origin": "ast",
+      "id": "api_mentoring_routes_api_admin_reject",
+      "community": 2,
+      "norm_label": "api_admin_reject()"
+    },
+    {
+      "label": "wsgi.py",
+      "file_type": "code",
+      "source_file": "api/wsgi.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "api_wsgi",
+      "community": 4,
+      "norm_label": "wsgi.py"
+    },
+    {
+      "label": "bulk_import_mentors.py",
+      "file_type": "code",
+      "source_file": "scripts/bulk_import_mentors.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "scripts_bulk_import_mentors",
+      "community": 0,
+      "norm_label": "bulk_import_mentors.py"
+    },
+    {
+      "label": "_is_real_email()",
+      "file_type": "code",
+      "source_file": "scripts/bulk_import_mentors.py",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "scripts_bulk_import_mentors_is_real_email",
+      "community": 0,
+      "norm_label": "_is_real_email()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/bulk_import_mentors.py",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "scripts_bulk_import_mentors_main",
+      "community": 0,
+      "norm_label": "main()"
+    },
+    {
+      "label": "Bulk import of mentors from CTH_Master_Mentors.xlsx into Odoo + HumHub. Run from",
+      "file_type": "rationale",
+      "source_file": "scripts/bulk_import_mentors.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "scripts_bulk_import_mentors_rationale_1",
+      "community": 0,
+      "norm_label": "bulk import of mentors from cth_master_mentors.xlsx into odoo + humhub. run from"
+    },
+    {
+      "label": "google_apps_script.js",
+      "file_type": "code",
+      "source_file": "scripts/google_apps_script.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "scripts_google_apps_script",
+      "community": 10,
+      "norm_label": "google_apps_script.js"
+    },
+    {
+      "label": "onFormSubmit()",
+      "file_type": "code",
+      "source_file": "scripts/google_apps_script.js",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "scripts_google_apps_script_onformsubmit",
+      "community": 10,
+      "norm_label": "onformsubmit()"
+    },
+    {
+      "label": "_markRow()",
+      "file_type": "code",
+      "source_file": "scripts/google_apps_script.js",
+      "source_location": "L101",
+      "_origin": "ast",
+      "id": "scripts_google_apps_script_markrow",
+      "community": 10,
+      "norm_label": "_markrow()"
+    },
+    {
+      "label": "testWebhook()",
+      "file_type": "code",
+      "source_file": "scripts/google_apps_script.js",
+      "source_location": "L115",
+      "_origin": "ast",
+      "id": "scripts_google_apps_script_testwebhook",
+      "community": 10,
+      "norm_label": "testwebhook()"
+    },
+    {
+      "label": "tag_selected_startups.py",
+      "file_type": "code",
+      "source_file": "scripts/tag_selected_startups.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "scripts_tag_selected_startups",
+      "community": 7,
+      "norm_label": "tag_selected_startups.py"
+    },
+    {
+      "label": "load_env()",
+      "file_type": "code",
+      "source_file": "scripts/tag_selected_startups.py",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "scripts_tag_selected_startups_load_env",
+      "community": 7,
+      "norm_label": "load_env()"
+    },
+    {
+      "label": "normalize()",
+      "file_type": "code",
+      "source_file": "scripts/tag_selected_startups.py",
+      "source_location": "L52",
+      "_origin": "ast",
+      "id": "scripts_tag_selected_startups_normalize",
+      "community": 7,
+      "norm_label": "normalize()"
+    },
+    {
+      "label": "load_selected_startups()",
+      "file_type": "code",
+      "source_file": "scripts/tag_selected_startups.py",
+      "source_location": "L60",
+      "_origin": "ast",
+      "id": "scripts_tag_selected_startups_load_selected_startups",
+      "community": 7,
+      "norm_label": "load_selected_startups()"
+    },
+    {
+      "label": "load_ideas_json()",
+      "file_type": "code",
+      "source_file": "scripts/tag_selected_startups.py",
+      "source_location": "L80",
+      "_origin": "ast",
+      "id": "scripts_tag_selected_startups_load_ideas_json",
+      "community": 7,
+      "norm_label": "load_ideas_json()"
+    },
+    {
+      "label": "match_startups()",
+      "file_type": "code",
+      "source_file": "scripts/tag_selected_startups.py",
+      "source_location": "L85",
+      "_origin": "ast",
+      "id": "scripts_tag_selected_startups_match_startups",
+      "community": 7,
+      "norm_label": "match_startups()"
+    },
+    {
+      "label": "track_tag_value()",
+      "file_type": "code",
+      "source_file": "scripts/tag_selected_startups.py",
+      "source_location": "L113",
+      "_origin": "ast",
+      "id": "scripts_tag_selected_startups_track_tag_value",
+      "community": 7,
+      "norm_label": "track_tag_value()"
+    },
+    {
+      "label": "print_match_table()",
+      "file_type": "code",
+      "source_file": "scripts/tag_selected_startups.py",
+      "source_location": "L121",
+      "_origin": "ast",
+      "id": "scripts_tag_selected_startups_print_match_table",
+      "community": 7,
+      "norm_label": "print_match_table()"
+    },
+    {
+      "label": "apply_tags()",
+      "file_type": "code",
+      "source_file": "scripts/tag_selected_startups.py",
+      "source_location": "L141",
+      "_origin": "ast",
+      "id": "scripts_tag_selected_startups_apply_tags",
+      "community": 7,
+      "norm_label": "apply_tags()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/tag_selected_startups.py",
+      "source_location": "L190",
+      "_origin": "ast",
+      "id": "scripts_tag_selected_startups_main",
+      "community": 7,
+      "norm_label": "main()"
+    },
+    {
+      "label": "app.js",
+      "file_type": "code",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "static_mentoring_app",
+      "community": 1,
+      "norm_label": "app.js"
+    },
+    {
+      "label": "MODULES",
+      "file_type": "code",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "static_mentoring_app_modules",
+      "community": 1,
+      "norm_label": "modules"
+    },
+    {
+      "label": "startups",
+      "file_type": "code",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "static_mentoring_app_startups",
+      "community": 1,
+      "norm_label": "startups"
+    },
+    {
+      "label": "mentors",
+      "file_type": "code",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "static_mentoring_app_mentors",
+      "community": 1,
+      "norm_label": "mentors"
+    },
+    {
+      "label": "loadStartups()",
+      "file_type": "code",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "static_mentoring_app_loadstartups",
+      "community": 1,
+      "norm_label": "loadstartups()"
+    },
+    {
+      "label": "loadMentors()",
+      "file_type": "code",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "static_mentoring_app_loadmentors",
+      "community": 1,
+      "norm_label": "loadmentors()"
+    },
+    {
+      "label": "go()",
+      "file_type": "code",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "static_mentoring_app_go",
+      "community": 1,
+      "norm_label": "go()"
+    },
+    {
+      "label": "stripHtml()",
+      "file_type": "code",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L56",
+      "_origin": "ast",
+      "id": "static_mentoring_app_striphtml",
+      "community": 1,
+      "norm_label": "striphtml()"
+    },
+    {
+      "label": "oneliner()",
+      "file_type": "code",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "static_mentoring_app_oneliner",
+      "community": 1,
+      "norm_label": "oneliner()"
+    },
+    {
+      "label": "cardHTML()",
+      "file_type": "code",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L67",
+      "_origin": "ast",
+      "id": "static_mentoring_app_cardhtml",
+      "community": 1,
+      "norm_label": "cardhtml()"
+    },
+    {
+      "label": "setCountry()",
+      "file_type": "code",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L100",
+      "_origin": "ast",
+      "id": "static_mentoring_app_setcountry",
+      "community": 1,
+      "norm_label": "setcountry()"
+    },
+    {
+      "label": "renderListing()",
+      "file_type": "code",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L107",
+      "_origin": "ast",
+      "id": "static_mentoring_app_renderlisting",
+      "community": 1,
+      "norm_label": "renderlisting()"
+    },
+    {
+      "label": "mentorCard()",
+      "file_type": "code",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L121",
+      "_origin": "ast",
+      "id": "static_mentoring_app_mentorcard",
+      "community": 1,
+      "norm_label": "mentorcard()"
+    },
+    {
+      "label": "openDetail()",
+      "file_type": "code",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L143",
+      "_origin": "ast",
+      "id": "static_mentoring_app_opendetail",
+      "community": 1,
+      "norm_label": "opendetail()"
+    },
+    {
+      "label": "submitRegistration()",
+      "file_type": "code",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L202",
+      "_origin": "ast",
+      "id": "static_mentoring_app_submitregistration",
+      "community": 1,
+      "norm_label": "submitregistration()"
+    },
+    {
+      "label": "init()",
+      "file_type": "code",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L271",
+      "_origin": "ast",
+      "id": "static_mentoring_app_init",
+      "community": 1,
+      "norm_label": "init()"
+    },
+    {
+      "label": "Knowledge Graph Documentation",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_md",
+      "community": 13,
+      "norm_label": "knowledge graph documentation"
+    },
+    {
+      "label": "Requirements File",
+      "file_type": "code",
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "verification": "unverified",
+      "id": "requirements_txt",
+      "community": 0,
+      "norm_label": "requirements file"
+    },
+    {
+      "label": "Flask",
+      "file_type": "code",
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "flask",
+      "community": 2,
+      "norm_label": "flask"
+    },
+    {
+      "label": "Gunicorn",
+      "file_type": "code",
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "gunicorn",
+      "community": 0,
+      "norm_label": "gunicorn"
+    },
+    {
+      "label": "Requests",
+      "file_type": "code",
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "requests",
+      "community": 5,
+      "norm_label": "requests"
+    },
+    {
+      "label": "Openpyxl",
+      "file_type": "code",
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "openpyxl",
+      "community": 0,
+      "norm_label": "openpyxl"
+    },
+    {
+      "label": "Python Dotenv",
+      "file_type": "code",
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "python_dotenv",
+      "community": 0,
+      "norm_label": "python dotenv"
+    },
+    {
+      "label": "PyMySQL",
+      "file_type": "code",
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "pymysql",
+      "community": 0,
+      "norm_label": "pymysql"
+    },
+    {
+      "label": "Bcrypt",
+      "file_type": "code",
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "bcrypt",
+      "community": 0,
+      "norm_label": "bcrypt"
+    },
+    {
+      "type": "code",
+      "file_type": "concept",
+      "id": "static_mentoring_admin_authenticate",
+      "community": 9,
+      "norm_label": ""
+    },
+    {
+      "type": "code",
+      "file_type": "concept",
+      "id": "static_mentoring_admin_loadPending",
+      "community": 9,
+      "norm_label": ""
+    },
+    {
+      "type": "code",
+      "file_type": "concept",
+      "id": "static_mentoring_admin_renderPending",
+      "community": 9,
+      "norm_label": ""
+    },
+    {
+      "type": "code",
+      "file_type": "concept",
+      "id": "static_mentoring_admin_decide",
+      "community": 9,
+      "norm_label": ""
+    },
+    {
+      "type": "code",
+      "file_type": "concept",
+      "id": "static_mentoring_admin_parseModules",
+      "community": 9,
+      "norm_label": ""
+    },
+    {
+      "type": "code",
+      "file_type": "concept",
+      "id": "static_mentoring_admin_API",
+      "community": 9,
+      "norm_label": ""
+    },
+    {
+      "type": "document",
+      "properties": {
+        "title": "CleantechHUB CLP26 Mentoring Platform",
+        "sections": [
+          "home",
+          "listing",
+          "detail",
+          "mentors",
+          "register"
+        ]
+      },
+      "file_type": "concept",
+      "id": "static_mentoring_index_html",
+      "community": 8,
+      "norm_label": ""
+    },
+    {
+      "type": "screen",
+      "properties": {
+        "sections": [
+          "hero",
+          "stats_strip",
+          "call_to_action"
+        ]
+      },
+      "file_type": "concept",
+      "id": "home_screen",
+      "community": 8,
+      "norm_label": ""
+    },
+    {
+      "type": "screen",
+      "properties": {
+        "sections": [
+          "hero",
+          "filter_controls",
+          "startup_grid",
+          "empty_state"
+        ]
+      },
+      "file_type": "concept",
+      "id": "listing_screen",
+      "community": 8,
+      "norm_label": ""
+    },
+    {
+      "type": "screen",
+      "properties": {
+        "sections": [
+          "hero",
+          "about_block",
+          "session_list",
+          "mentor_grid"
+        ]
+      },
+      "file_type": "concept",
+      "id": "detail_screen",
+      "community": 8,
+      "norm_label": ""
+    },
+    {
+      "type": "screen",
+      "properties": {
+        "sections": [
+          "hero",
+          "mentor_grid",
+          "call_to_action"
+        ]
+      },
+      "file_type": "concept",
+      "id": "mentors_screen",
+      "community": 8,
+      "norm_label": ""
+    },
+    {
+      "type": "screen",
+      "properties": {
+        "sections": [
+          "form",
+          "confirmation_box",
+          "erp_note"
+        ]
+      },
+      "file_type": "concept",
+      "id": "register_screen",
+      "community": 8,
+      "norm_label": ""
+    },
+    {
+      "type": "component",
+      "properties": {
+        "organizations": [
+          "REIN Hubs",
+          "Climate-KIC",
+          "CleantechHUB"
+        ]
+      },
+      "file_type": "concept",
+      "id": "footer",
+      "community": 14,
+      "norm_label": ""
+    },
+    {
+      "type": "script",
+      "properties": {
+        "functions": [
+          "go()",
+          "submitRegistration()"
+        ]
+      },
+      "file_type": "concept",
+      "id": "app_js",
+      "community": 8,
+      "norm_label": ""
+    },
+    {
+      "type": "stylesheet",
+      "properties": {
+        "framework": "custom CSS"
+      },
+      "file_type": "concept",
+      "id": "styles_css",
+      "community": 8,
+      "norm_label": ""
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/app.py",
+      "source_location": "L89",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_app",
+      "target": "api_app_claim",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/app.py",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_app",
+      "target": "api_app_health",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/app.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_app",
+      "target": "api_app_onboard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/app.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_app",
+      "target": "api_app_verify_signature",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "submodule_import",
+      "confidence": "EXTRACTED",
+      "source_file": "api/app.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_app",
+      "target": "api_handlers_email_sender",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "submodule_import",
+      "confidence": "EXTRACTED",
+      "source_file": "api/app.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_app",
+      "target": "api_handlers_humhub",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "submodule_import",
+      "confidence": "EXTRACTED",
+      "source_file": "api/app.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_app",
+      "target": "api_handlers_moodle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "submodule_import",
+      "confidence": "EXTRACTED",
+      "source_file": "api/app.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_app",
+      "target": "api_handlers_odoo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "api/app.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_app",
+      "target": "flask",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "api/wsgi.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_wsgi",
+      "target": "api_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/app.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_app_onboard",
+      "target": "api_app_verify_signature",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/app.py",
+      "source_location": "L90",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_app_claim",
+      "target": "api_app_onboard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "api/app.py",
+      "source_location": "L78",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_app_onboard",
+      "target": "api_handlers_email_sender_send_welcome"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "api/app.py",
+      "source_location": "L59",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_app_onboard",
+      "target": "api_handlers_humhub_create_or_update_user"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "api/app.py",
+      "source_location": "L69",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_app_onboard",
+      "target": "api_handlers_moodle_create_and_enroll"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "api/app.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_app_onboard",
+      "target": "api_handlers_odoo_upsert_mentor"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/bookstack.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_bookstack",
+      "target": "api_handlers_bookstack_bookstackclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/bookstack.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_bookstack",
+      "target": "requests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/bookstack_service.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_bookstack_service",
+      "target": "api_handlers_bookstack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/tag_selected_startups.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_tag_selected_startups",
+      "target": "api_handlers_bookstack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/bookstack.py",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_bookstack_bookstackclient",
+      "target": "api_handlers_bookstack_bookstackclient_get_page",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/bookstack.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_bookstack_bookstackclient",
+      "target": "api_handlers_bookstack_bookstackclient_headers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/bookstack.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_bookstack_bookstackclient",
+      "target": "api_handlers_bookstack_bookstackclient_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/bookstack.py",
+      "source_location": "L49",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_bookstack_bookstackclient",
+      "target": "api_handlers_bookstack_bookstackclient_list_pages",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/bookstack.py",
+      "source_location": "L63",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_bookstack_bookstackclient",
+      "target": "api_handlers_bookstack_bookstackclient_list_pages_by_tag",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/bookstack.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_bookstack_bookstackclient",
+      "target": "api_handlers_bookstack_bookstackclient_request",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/bookstack.py",
+      "source_location": "L55",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_bookstack_bookstackclient",
+      "target": "api_handlers_bookstack_bookstackclient_search",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/bookstack.py",
+      "source_location": "L60",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_bookstack_bookstackclient",
+      "target": "api_handlers_bookstack_bookstackclient_update_page_tags",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/bookstack_service.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_bookstack_service",
+      "target": "api_handlers_bookstack_bookstackclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/bookstack_service.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_bookstack_service_get_client",
+      "target": "api_handlers_bookstack_bookstackclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/tag_selected_startups.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_tag_selected_startups",
+      "target": "api_handlers_bookstack_bookstackclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/tag_selected_startups.py",
+      "source_location": "L214",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_tag_selected_startups_main",
+      "target": "api_handlers_bookstack_bookstackclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/bookstack.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_bookstack_bookstackclient_request",
+      "target": "api_handlers_bookstack_bookstackclient_headers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/bookstack.py",
+      "source_location": "L47",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_bookstack_bookstackclient_get_page",
+      "target": "api_handlers_bookstack_bookstackclient_request",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/bookstack.py",
+      "source_location": "L53",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_bookstack_bookstackclient_list_pages",
+      "target": "api_handlers_bookstack_bookstackclient_request",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/bookstack.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_bookstack_bookstackclient_search",
+      "target": "api_handlers_bookstack_bookstackclient_request",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/bookstack.py",
+      "source_location": "L61",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_bookstack_bookstackclient_update_page_tags",
+      "target": "api_handlers_bookstack_bookstackclient_request",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/bookstack.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_bookstack_bookstackclient_list_pages_by_tag",
+      "target": "api_handlers_bookstack_bookstackclient_search",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/email_sender.py",
+      "source_location": "L49",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_email_sender",
+      "target": "api_handlers_email_sender_send_welcome",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "submodule_import",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_routes",
+      "target": "api_handlers_email_sender",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/humhub.py",
+      "source_location": "L178",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_humhub",
+      "target": "api_handlers_humhub_add_to_space",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/humhub.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_humhub",
+      "target": "api_handlers_humhub_connect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/humhub.py",
+      "source_location": "L75",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_humhub",
+      "target": "api_handlers_humhub_create_or_update_user",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/humhub.py",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_humhub",
+      "target": "api_handlers_humhub_gen_password",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/humhub.py",
+      "source_location": "L44",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_humhub",
+      "target": "api_handlers_humhub_hash_password",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/humhub.py",
+      "source_location": "L49",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_humhub",
+      "target": "api_handlers_humhub_slugify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/humhub.py",
+      "source_location": "L57",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_humhub",
+      "target": "api_handlers_humhub_split_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/humhub.py",
+      "source_location": "L64",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_humhub",
+      "target": "api_handlers_humhub_unique_username",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/humhub.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_humhub",
+      "target": "pymysql",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/humhub.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_humhub_rationale_1",
+      "target": "api_handlers_humhub",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "submodule_import",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_routes",
+      "target": "api_handlers_humhub",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "submodule_import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bulk_import_mentors.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_bulk_import_mentors",
+      "target": "api_handlers_humhub",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/humhub.py",
+      "source_location": "L80",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_humhub_create_or_update_user",
+      "target": "api_handlers_humhub_connect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/humhub.py",
+      "source_location": "L87",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_humhub_create_or_update_user",
+      "target": "api_handlers_humhub_gen_password",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/humhub.py",
+      "source_location": "L107",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_humhub_create_or_update_user",
+      "target": "api_handlers_humhub_hash_password",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/humhub.py",
+      "source_location": "L118",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_humhub_create_or_update_user",
+      "target": "api_handlers_humhub_slugify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/humhub.py",
+      "source_location": "L88",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_humhub_create_or_update_user",
+      "target": "api_handlers_humhub_split_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/humhub.py",
+      "source_location": "L119",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_humhub_create_or_update_user",
+      "target": "api_handlers_humhub_unique_username",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/humhub.py",
+      "source_location": "L167",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_humhub_create_or_update_user",
+      "target": "api_handlers_humhub_add_to_space",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L122",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_routes_api_register",
+      "target": "api_handlers_humhub_create_or_update_user"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/bulk_import_mentors.py",
+      "source_location": "L86",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_bulk_import_mentors_main",
+      "target": "api_handlers_humhub_create_or_update_user"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/moodle.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_moodle",
+      "target": "api_handlers_moodle_call",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/moodle.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_moodle",
+      "target": "api_handlers_moodle_create_and_enroll",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/moodle.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_moodle",
+      "target": "api_handlers_moodle_get_user_by_email",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/moodle.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_moodle",
+      "target": "requests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/moodle.py",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_moodle_create_and_enroll",
+      "target": "api_handlers_moodle_call",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/moodle.py",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_moodle_get_user_by_email",
+      "target": "api_handlers_moodle_call",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/moodle.py",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_moodle_create_and_enroll",
+      "target": "api_handlers_moodle_get_user_by_email",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/odoo.py",
+      "source_location": "L203",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_odoo",
+      "target": "api_handlers_odoo_approve_clp26_mentor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/odoo.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_odoo",
+      "target": "api_handlers_odoo_execute",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/odoo.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_odoo",
+      "target": "api_handlers_odoo_get_or_create_tag",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/odoo.py",
+      "source_location": "L187",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_odoo",
+      "target": "api_handlers_odoo_get_pending_clp26_mentors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/odoo.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_odoo",
+      "target": "api_handlers_odoo_get_uid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/odoo.py",
+      "source_location": "L53",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_odoo",
+      "target": "api_handlers_odoo_infer_program_tag",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/odoo.py",
+      "source_location": "L234",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_odoo",
+      "target": "api_handlers_odoo_reject_clp26_mentor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/odoo.py",
+      "source_location": "L118",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_odoo",
+      "target": "api_handlers_odoo_upsert_clp26_mentor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/odoo.py",
+      "source_location": "L66",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_odoo",
+      "target": "api_handlers_odoo_upsert_mentor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/odoo.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_odoo_rationale_1",
+      "target": "api_handlers_odoo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "submodule_import",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_routes",
+      "target": "api_handlers_odoo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "submodule_import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bulk_import_mentors.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_bulk_import_mentors",
+      "target": "api_handlers_odoo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/odoo.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_odoo_execute",
+      "target": "api_handlers_odoo_get_uid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/odoo.py",
+      "source_location": "L207",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_odoo_approve_clp26_mentor",
+      "target": "api_handlers_odoo_execute",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/odoo.py",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_odoo_get_or_create_tag",
+      "target": "api_handlers_odoo_execute",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/odoo.py",
+      "source_location": "L190",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_odoo_get_pending_clp26_mentors",
+      "target": "api_handlers_odoo_execute",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/odoo.py",
+      "source_location": "L238",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_odoo_reject_clp26_mentor",
+      "target": "api_handlers_odoo_execute",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/odoo.py",
+      "source_location": "L125",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_odoo_upsert_clp26_mentor",
+      "target": "api_handlers_odoo_execute",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/odoo.py",
+      "source_location": "L73",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_odoo_upsert_mentor",
+      "target": "api_handlers_odoo_execute",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/odoo.py",
+      "source_location": "L209",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_odoo_approve_clp26_mentor",
+      "target": "api_handlers_odoo_get_or_create_tag",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/odoo.py",
+      "source_location": "L59",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_odoo_infer_program_tag",
+      "target": "api_handlers_odoo_get_or_create_tag",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/odoo.py",
+      "source_location": "L240",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_odoo_reject_clp26_mentor",
+      "target": "api_handlers_odoo_get_or_create_tag",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/odoo.py",
+      "source_location": "L128",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_odoo_upsert_clp26_mentor",
+      "target": "api_handlers_odoo_get_or_create_tag",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/odoo.py",
+      "source_location": "L76",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_odoo_upsert_mentor",
+      "target": "api_handlers_odoo_get_or_create_tag",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/handlers/odoo.py",
+      "source_location": "L77",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_handlers_odoo_upsert_mentor",
+      "target": "api_handlers_odoo_infer_program_tag",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/bulk_import_mentors.py",
+      "source_location": "L77",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_bulk_import_mentors_main",
+      "target": "api_handlers_odoo_upsert_mentor"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L107",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_routes_api_register",
+      "target": "api_handlers_odoo_upsert_clp26_mentor"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L157",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_routes_api_admin_pending",
+      "target": "api_handlers_odoo_get_pending_clp26_mentors"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L169",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_routes_api_admin_approve",
+      "target": "api_handlers_odoo_approve_clp26_mentor"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L181",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_routes_api_admin_reject",
+      "target": "api_handlers_odoo_reject_clp26_mentor"
+    },
+    {
+      "relation": "imports_from",
+      "context": "submodule_import",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/__init__.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_init",
+      "target": "api_mentoring_routes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/__init__.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_init",
+      "target": "flask",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/bookstack_service.py",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_bookstack_service",
+      "target": "api_mentoring_bookstack_service_build_sessions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/bookstack_service.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_bookstack_service",
+      "target": "api_mentoring_bookstack_service_extract_tag",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/bookstack_service.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_bookstack_service",
+      "target": "api_mentoring_bookstack_service_first_sentence",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/bookstack_service.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_bookstack_service",
+      "target": "api_mentoring_bookstack_service_get_client",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/bookstack_service.py",
+      "source_location": "L125",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_bookstack_service",
+      "target": "api_mentoring_bookstack_service_get_homework",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/bookstack_service.py",
+      "source_location": "L74",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_bookstack_service",
+      "target": "api_mentoring_bookstack_service_get_selected_startups",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/bookstack_service.py",
+      "source_location": "L106",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_bookstack_service",
+      "target": "api_mentoring_bookstack_service_get_startup_detail",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/bookstack_service.py",
+      "source_location": "L50",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_bookstack_service",
+      "target": "api_mentoring_bookstack_service_page_to_startup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/bookstack_service.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_bookstack_service",
+      "target": "api_mentoring_models",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/bookstack_service.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_bookstack_service",
+      "target": "api_mentoring_models_sessionstatus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/bookstack_service.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_bookstack_service",
+      "target": "api_mentoring_models_startup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "submodule_import",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_routes",
+      "target": "api_mentoring_bookstack_service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/bookstack_service.py",
+      "source_location": "L126",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_bookstack_service_get_homework",
+      "target": "api_mentoring_bookstack_service_get_client",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/bookstack_service.py",
+      "source_location": "L79",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_bookstack_service_get_selected_startups",
+      "target": "api_mentoring_bookstack_service_get_client",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/bookstack_service.py",
+      "source_location": "L107",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_bookstack_service_get_startup_detail",
+      "target": "api_mentoring_bookstack_service_get_client",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/bookstack_service.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_bookstack_service_page_to_startup",
+      "target": "api_mentoring_bookstack_service_extract_tag",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/bookstack_service.py",
+      "source_location": "L64",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_bookstack_service_page_to_startup",
+      "target": "api_mentoring_bookstack_service_first_sentence",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/bookstack_service.py",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_bookstack_service_build_sessions",
+      "target": "api_mentoring_models_sessionstatus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/bookstack_service.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_bookstack_service_page_to_startup",
+      "target": "api_mentoring_bookstack_service_build_sessions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/bookstack_service.py",
+      "source_location": "L94",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_bookstack_service_get_selected_startups",
+      "target": "api_mentoring_bookstack_service_page_to_startup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/bookstack_service.py",
+      "source_location": "L122",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_bookstack_service_get_startup_detail",
+      "target": "api_mentoring_bookstack_service_page_to_startup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/bookstack_service.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_bookstack_service_page_to_startup",
+      "target": "api_mentoring_models_startup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_routes_api_startups",
+      "target": "api_mentoring_bookstack_service_get_selected_startups"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_routes_api_startup_detail",
+      "target": "api_mentoring_bookstack_service_get_startup_detail"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L57",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_routes_api_homework",
+      "target": "api_mentoring_bookstack_service_get_homework"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/models.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_models",
+      "target": "api_mentoring_models_sessionstatus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/models.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_models",
+      "target": "api_mentoring_models_startup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_routes",
+      "target": "api_mentoring_models",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/models.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_models_sessionstatus",
+      "target": "api_mentoring_models_sessionstatus_to_dict",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/models.py",
+      "source_location": "L53",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_models_startup",
+      "target": "api_mentoring_models_startup_to_dict",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L148",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_routes",
+      "target": "api_mentoring_routes_admin_index",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L165",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_routes",
+      "target": "api_mentoring_routes_api_admin_approve",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L153",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_routes",
+      "target": "api_mentoring_routes_api_admin_pending",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L177",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_routes",
+      "target": "api_mentoring_routes_api_admin_reject",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L54",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_routes",
+      "target": "api_mentoring_routes_api_homework",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L64",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_routes",
+      "target": "api_mentoring_routes_api_mentors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L49",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_routes",
+      "target": "api_mentoring_routes_api_modules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L71",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_routes",
+      "target": "api_mentoring_routes_api_register",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_routes",
+      "target": "api_mentoring_routes_api_startup_detail",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_routes",
+      "target": "api_mentoring_routes_api_startups",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L140",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_routes",
+      "target": "api_mentoring_routes_check_admin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_routes",
+      "target": "api_mentoring_routes_index",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_routes",
+      "target": "flask",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L166",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_routes_api_admin_approve",
+      "target": "api_mentoring_routes_check_admin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L154",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_routes_api_admin_pending",
+      "target": "api_mentoring_routes_check_admin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "api/mentoring/routes.py",
+      "source_location": "L178",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "api_mentoring_routes_api_admin_reject",
+      "target": "api_mentoring_routes_check_admin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bulk_import_mentors.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_bulk_import_mentors",
+      "target": "openpyxl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bulk_import_mentors.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_bulk_import_mentors",
+      "target": "scripts_bulk_import_mentors_is_real_email",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bulk_import_mentors.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_bulk_import_mentors",
+      "target": "scripts_bulk_import_mentors_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bulk_import_mentors.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_bulk_import_mentors_rationale_1",
+      "target": "scripts_bulk_import_mentors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bulk_import_mentors.py",
+      "source_location": "L48",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_bulk_import_mentors_main",
+      "target": "scripts_bulk_import_mentors_is_real_email",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/google_apps_script.js",
+      "source_location": "L101",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_google_apps_script",
+      "target": "scripts_google_apps_script_markrow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/google_apps_script.js",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_google_apps_script",
+      "target": "scripts_google_apps_script_onformsubmit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/google_apps_script.js",
+      "source_location": "L115",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_google_apps_script",
+      "target": "scripts_google_apps_script_testwebhook",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/google_apps_script.js",
+      "source_location": "L89",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_google_apps_script_onformsubmit",
+      "target": "scripts_google_apps_script_markrow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/google_apps_script.js",
+      "source_location": "L132",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_google_apps_script_testwebhook",
+      "target": "scripts_google_apps_script_onformsubmit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/tag_selected_startups.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_tag_selected_startups",
+      "target": "openpyxl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/tag_selected_startups.py",
+      "source_location": "L141",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_tag_selected_startups",
+      "target": "scripts_tag_selected_startups_apply_tags",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/tag_selected_startups.py",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_tag_selected_startups",
+      "target": "scripts_tag_selected_startups_load_env",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/tag_selected_startups.py",
+      "source_location": "L80",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_tag_selected_startups",
+      "target": "scripts_tag_selected_startups_load_ideas_json",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/tag_selected_startups.py",
+      "source_location": "L60",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_tag_selected_startups",
+      "target": "scripts_tag_selected_startups_load_selected_startups",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/tag_selected_startups.py",
+      "source_location": "L190",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_tag_selected_startups",
+      "target": "scripts_tag_selected_startups_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/tag_selected_startups.py",
+      "source_location": "L85",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_tag_selected_startups",
+      "target": "scripts_tag_selected_startups_match_startups",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/tag_selected_startups.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_tag_selected_startups",
+      "target": "scripts_tag_selected_startups_normalize",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/tag_selected_startups.py",
+      "source_location": "L121",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_tag_selected_startups",
+      "target": "scripts_tag_selected_startups_print_match_table",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/tag_selected_startups.py",
+      "source_location": "L113",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_tag_selected_startups",
+      "target": "scripts_tag_selected_startups_track_tag_value",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/tag_selected_startups.py",
+      "source_location": "L195",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_tag_selected_startups_main",
+      "target": "scripts_tag_selected_startups_load_env",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/tag_selected_startups.py",
+      "source_location": "L88",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_tag_selected_startups_match_startups",
+      "target": "scripts_tag_selected_startups_normalize",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/tag_selected_startups.py",
+      "source_location": "L198",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_tag_selected_startups_main",
+      "target": "scripts_tag_selected_startups_load_selected_startups",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/tag_selected_startups.py",
+      "source_location": "L202",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_tag_selected_startups_main",
+      "target": "scripts_tag_selected_startups_load_ideas_json",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/tag_selected_startups.py",
+      "source_location": "L206",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_tag_selected_startups_main",
+      "target": "scripts_tag_selected_startups_match_startups",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/tag_selected_startups.py",
+      "source_location": "L149",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_tag_selected_startups_apply_tags",
+      "target": "scripts_tag_selected_startups_track_tag_value",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/tag_selected_startups.py",
+      "source_location": "L132",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_tag_selected_startups_print_match_table",
+      "target": "scripts_tag_selected_startups_track_tag_value",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/tag_selected_startups.py",
+      "source_location": "L207",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_tag_selected_startups_main",
+      "target": "scripts_tag_selected_startups_print_match_table",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/tag_selected_startups.py",
+      "source_location": "L215",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_tag_selected_startups_main",
+      "target": "scripts_tag_selected_startups_apply_tags",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L67",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "static_mentoring_app",
+      "target": "static_mentoring_app_cardhtml",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L44",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "static_mentoring_app",
+      "target": "static_mentoring_app_go",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L271",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "static_mentoring_app",
+      "target": "static_mentoring_app_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "static_mentoring_app",
+      "target": "static_mentoring_app_loadmentors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "static_mentoring_app",
+      "target": "static_mentoring_app_loadstartups",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L121",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "static_mentoring_app",
+      "target": "static_mentoring_app_mentorcard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "static_mentoring_app",
+      "target": "static_mentoring_app_mentors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "static_mentoring_app",
+      "target": "static_mentoring_app_modules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L62",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "static_mentoring_app",
+      "target": "static_mentoring_app_oneliner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L143",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "static_mentoring_app",
+      "target": "static_mentoring_app_opendetail",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L107",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "static_mentoring_app",
+      "target": "static_mentoring_app_renderlisting",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L100",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "static_mentoring_app",
+      "target": "static_mentoring_app_setcountry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "static_mentoring_app",
+      "target": "static_mentoring_app_startups",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "static_mentoring_app",
+      "target": "static_mentoring_app_striphtml",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L202",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "static_mentoring_app",
+      "target": "static_mentoring_app_submitregistration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L280",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "static_mentoring_app_init",
+      "target": "static_mentoring_app_loadstartups",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L280",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "static_mentoring_app_init",
+      "target": "static_mentoring_app_loadmentors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L299",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "static_mentoring_app_init",
+      "target": "static_mentoring_app_go",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L198",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "static_mentoring_app_opendetail",
+      "target": "static_mentoring_app_go",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L64",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "static_mentoring_app_oneliner",
+      "target": "static_mentoring_app_striphtml",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L91",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "static_mentoring_app_cardhtml",
+      "target": "static_mentoring_app_oneliner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L157",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "static_mentoring_app_opendetail",
+      "target": "static_mentoring_app_oneliner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L295",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "static_mentoring_app_init",
+      "target": "static_mentoring_app_cardhtml",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L114",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "static_mentoring_app_renderlisting",
+      "target": "static_mentoring_app_cardhtml",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L104",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "static_mentoring_app_setcountry",
+      "target": "static_mentoring_app_renderlisting",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L298",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "static_mentoring_app_init",
+      "target": "static_mentoring_app_renderlisting",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L290",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "static_mentoring_app_init",
+      "target": "static_mentoring_app_mentorcard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "static/mentoring/app.js",
+      "source_location": "L191",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "static_mentoring_app_opendetail",
+      "target": "static_mentoring_app_mentorcard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "requirements_txt",
+      "target": "bcrypt"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "requirements_txt",
+      "target": "flask"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "requirements_txt",
+      "target": "gunicorn"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "requirements_txt",
+      "target": "openpyxl"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "requirements_txt",
+      "target": "pymysql"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "requirements_txt",
+      "target": "python_dotenv"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "requirements_txt",
+      "target": "requests"
+    },
+    {
+      "type": "reference",
+      "source_file": "",
+      "source": "static_mentoring_admin_authenticate",
+      "target": "static_mentoring_admin_API",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "call",
+      "source_file": "",
+      "source": "static_mentoring_admin_authenticate",
+      "target": "static_mentoring_admin_renderPending",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "reference",
+      "source_file": "",
+      "source": "static_mentoring_admin_loadPending",
+      "target": "static_mentoring_admin_API",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "call",
+      "source_file": "",
+      "source": "static_mentoring_admin_loadPending",
+      "target": "static_mentoring_admin_renderPending",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "call",
+      "source_file": "",
+      "source": "static_mentoring_admin_renderPending",
+      "target": "static_mentoring_admin_parseModules",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "reference",
+      "source_file": "",
+      "source": "static_mentoring_admin_decide",
+      "target": "static_mentoring_admin_API",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "import",
+      "properties": {
+        "path": "/mentoring/static/app.js"
+      },
+      "source_file": "",
+      "source": "static_mentoring_index_html",
+      "target": "app_js",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "navigation",
+      "properties": {
+        "method": "go('detail')"
+      },
+      "source_file": "",
+      "source": "static_mentoring_index_html",
+      "target": "detail_screen",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "navigation",
+      "properties": {
+        "method": "go('home')"
+      },
+      "source_file": "",
+      "source": "static_mentoring_index_html",
+      "target": "home_screen",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "navigation",
+      "properties": {
+        "method": "go('listing')"
+      },
+      "source_file": "",
+      "source": "static_mentoring_index_html",
+      "target": "listing_screen",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "navigation",
+      "properties": {
+        "method": "go('mentors')"
+      },
+      "source_file": "",
+      "source": "static_mentoring_index_html",
+      "target": "mentors_screen",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "navigation",
+      "properties": {
+        "method": "go('register')"
+      },
+      "source_file": "",
+      "source": "static_mentoring_index_html",
+      "target": "register_screen",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "import",
+      "properties": {
+        "path": "/mentoring/static/app.js"
+      },
+      "source_file": "",
+      "source": "static_mentoring_index_html",
+      "target": "styles_css",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "navigation",
+      "properties": {
+        "method": "go('listing')"
+      },
+      "source_file": "",
+      "source": "home_screen",
+      "target": "listing_screen",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "navigation",
+      "properties": {
+        "method": "go('listing')"
+      },
+      "source_file": "",
+      "source": "detail_screen",
+      "target": "listing_screen",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "navigation",
+      "properties": {
+        "method": "go('listing')"
+      },
+      "source_file": "",
+      "source": "register_screen",
+      "target": "listing_screen",
+      "confidence_score": 1.0
+    },
+    {
+      "type": "navigation",
+      "properties": {
+        "method": "go('register')"
+      },
+      "source_file": "",
+      "source": "mentors_screen",
+      "target": "register_screen",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "nodes": [
+        "home_screen",
+        "listing_screen",
+        "detail_screen",
+        "mentors_screen",
+        "register_screen"
+      ],
+      "type": "platform_structure",
+      "properties": {
+        "purpose": "Mentoring platform navigation flow"
+      }
+    }
+  ]
+}

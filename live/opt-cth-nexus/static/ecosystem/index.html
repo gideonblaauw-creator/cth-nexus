@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <base href="/ecosystem/" />
+  <title>Ecosistema LATAM — CleantechHUB Nexus</title>
+  <meta name="robots" content="noindex,nofollow" />
+  <!-- Preview/local: allow MapLibre + OpenFreeMap + CDN graph libs (production Caddy may merge this). -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://unpkg.com; style-src 'self' 'unsafe-inline' https://unpkg.com https://cdn.jsdelivr.net https://fonts.googleapis.com; font-src https://fonts.gstatic.com data:; connect-src 'self' https://tiles.openfreemap.org https://cdn.jsdelivr.net https://unpkg.com; img-src 'self' data: blob: https://tiles.openfreemap.org; worker-src blob:; child-src blob:;" />
+  <link rel="stylesheet" href="/nexus-assets/nexus-brand.css?v=eco-d3" />
+  <link rel="stylesheet" href="ecosystem.css?v=d3" />
+  <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" crossorigin="" />
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js" crossorigin=""></script>
+  <script type="importmap">
+  {
+    "imports": {
+      "graphology": "https://cdn.jsdelivr.net/npm/graphology@0.26.0/dist/graphology.esm.js",
+      "sigma": "https://cdn.jsdelivr.net/npm/sigma@4.0.3/dist/sigma.esm.js",
+      "graphology-layout-forceatlas2": "https://cdn.jsdelivr.net/npm/graphology-layout-forceatlas2@0.10.1/index.js"
+    }
+  }
+  </script>
+</head>
+<body data-nexus-page="ecosystem" data-brand="cth" class="eco-d3">
+
+<div class="top-toolbar">
+  <div class="toggle-pill" aria-label="Brand">
+    <button type="button" data-brand-btn="cth" class="active">CTH</button>
+    <button type="button" data-brand-btn="rein">REIN</button>
+  </div>
+  <div class="toggle-pill" aria-label="Language">
+    <button type="button" data-lang-btn="ES" class="active">ES</button>
+    <button type="button" data-lang-btn="EN">EN</button>
+  </div>
+</div>
+
+<header class="page-header">
+  <p class="ph-eyebrow">Nexus · Staff</p>
+  <h1 class="ph-title" data-i18n="title">Mapa del ecosistema LATAM</h1>
+  <p class="ph-sub" data-i18n="sub">Mapa geográfico y red de relaciones vinculados — Perú, El Salvador y Colombia.</p>
+  <div class="ph-stats">
+    <div><div class="ph-stat-n" id="stat-actors">—</div><div class="ph-stat-l" data-i18n="actors">Actores</div></div>
+    <div><div class="ph-stat-n" id="stat-relations">—</div><div class="ph-stat-l" data-i18n="relations">Relaciones</div></div>
+    <div><div class="ph-stat-n" id="stat-visible">—</div><div class="ph-stat-l" data-i18n="visible">Visibles</div></div>
+  </div>
+</header>
+
+<nav class="view-tabs" aria-label="Vista principal">
+  <button type="button" class="view-tab active" data-view-tab="explore" data-i18n="tabExplore">Explorar mapa + red</button>
+  <button type="button" class="view-tab" data-view-tab="cards" data-i18n="tabCards">Fichas de actores</button>
+  <button type="button" class="view-tab view-tab-future" data-view-tab="story" disabled title="Próximamente" data-i18n="tabStory">Historia guiada</button>
+</nav>
+
+<div class="filter-bar eco-filters" id="filter-bar">
+  <div class="filter-inner">
+    <div class="filter-row">
+      <input id="search-input" class="search-box" type="search" autocomplete="off" placeholder="Buscar organización…" />
+      <span class="result-meta" id="result-meta"></span>
+    </div>
+    <div class="filter-row">
+      <label class="fl" data-i18n="country">País</label>
+      <div id="country-chips" class="chip-row"></div>
+    </div>
+    <div class="filter-row">
+      <label class="fl" data-i18n="filters">Tipo actor</label>
+      <div id="cat-chips" class="chip-row"></div>
+    </div>
+    <div class="filter-row">
+      <label class="fl" data-i18n="edgeTypes">Tipo relación</label>
+      <div id="rel-chips" class="chip-row"></div>
+    </div>
+    <div class="filter-row ego-row">
+      <label class="chip sm ego-toggle">
+        <input type="checkbox" id="ego-toggle" />
+        <span data-i18n="ego">Ego</span>
+      </label>
+      <select id="ego-depth" class="chip sm" aria-label="Ego depth">
+        <option value="1">1-hop</option>
+        <option value="2" selected>2-hop</option>
+      </select>
+      <span id="ego-hint" class="ego-badge hidden" aria-live="polite"></span>
+    </div>
+  </div>
+</div>
+
+<div id="legend-bar" class="legend-bar" aria-label="Leyenda de relaciones"></div>
+
+<main class="eco-main">
+  <section id="panel-explore" class="panel-explore" aria-label="Mapa y red">
+    <div class="workspace" id="workspace">
+      <div class="map-pane">
+        <span class="pane-label" data-i18n="map">Mapa LATAM</span>
+        <div id="eco-map" class="eco-map" role="application" aria-label="Mapa de actores"></div>
+      </div>
+      <div class="graph-pane">
+        <span class="pane-label" data-i18n="network">Red de relaciones</span>
+        <div id="eco-graph" class="eco-graph" role="application" aria-label="Grafo de relaciones"></div>
+      </div>
+      <aside class="inspector empty" id="inspector" aria-live="polite">
+        <p class="inspector-empty" data-i18n="inspectorEmpty">Selecciona un actor en el mapa o la red.</p>
+      </aside>
+    </div>
+  </section>
+
+  <section id="panel-cards" class="panel-cards hidden" aria-label="Fichas">
+    <div id="actor-grid" class="actor-grid"></div>
+  </section>
+
+  <!-- Reserved for Direction 5 / guided chapters (Challenges, Policy, Capital, Hubs, Partnerships). -->
+  <section id="panel-story" class="panel-story hidden" aria-hidden="true" data-future-mode="guided-story"></section>
+</main>
+
+<script src="/nexus-assets/nexus-nav.js?v=eco-d3"></script>
+<script type="module" src="ecosystem.mjs?v=d3"></script>
+</body>
+</html>

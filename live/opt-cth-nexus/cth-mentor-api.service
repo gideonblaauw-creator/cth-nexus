@@ -1,0 +1,14 @@
+[Unit]
+Description=CTH Mentor Onboarding API
+After=network.target
+
+[Service]
+User=debian
+WorkingDirectory=/opt/cth-nexus
+EnvironmentFile=/opt/cth-nexus/.env
+ExecStart=/home/debian/.local/bin/gunicorn -w 2 -b 127.0.0.1:5050 api.wsgi:app
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

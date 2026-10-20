@@ -1,0 +1,107 @@
+{
+  "api/__init__.py": {
+    "mtime": 1779472040.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "api/app.py": {
+    "mtime": 1781142179.0,
+    "ast_hash": "bc5c316ddfffe794f548e34113a677ec",
+    "semantic_hash": "bc5c316ddfffe794f548e34113a677ec"
+  },
+  "api/handlers/__init__.py": {
+    "mtime": 1779472041.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "api/handlers/bookstack.py": {
+    "mtime": 1781142085.0,
+    "ast_hash": "b34b7539f45a7e8b5eb83700a098ec19",
+    "semantic_hash": "b34b7539f45a7e8b5eb83700a098ec19"
+  },
+  "api/handlers/email_sender.py": {
+    "mtime": 1779477056.0,
+    "ast_hash": "9c263f3aa7239df576402e404bb7d62f",
+    "semantic_hash": "9c263f3aa7239df576402e404bb7d62f"
+  },
+  "api/handlers/humhub.py": {
+    "mtime": 1779476951.0,
+    "ast_hash": "af8058a0e4b9506bb3d1df5fd3250fa9",
+    "semantic_hash": "af8058a0e4b9506bb3d1df5fd3250fa9"
+  },
+  "api/handlers/moodle.py": {
+    "mtime": 1779472098.0,
+    "ast_hash": "7b2dc6af3e4310a055e07d88339b35be",
+    "semantic_hash": "7b2dc6af3e4310a055e07d88339b35be"
+  },
+  "api/handlers/odoo.py": {
+    "mtime": 1781145015.0,
+    "ast_hash": "fdedf748003c3529009d44c690be723b",
+    "semantic_hash": "fdedf748003c3529009d44c690be723b"
+  },
+  "api/mentoring/__init__.py": {
+    "mtime": 1781142131.0,
+    "ast_hash": "fd11c846307161ef68d26efd20930e04",
+    "semantic_hash": "fd11c846307161ef68d26efd20930e04"
+  },
+  "api/mentoring/bookstack_service.py": {
+    "mtime": 1781142161.0,
+    "ast_hash": "ae740e9c3d0ac61f2c4a08d0b4a2df96",
+    "semantic_hash": "ae740e9c3d0ac61f2c4a08d0b4a2df96"
+  },
+  "api/mentoring/models.py": {
+    "mtime": 1781149041.0,
+    "ast_hash": "cd3c7d83b90be77c0fc669b6a09f204d",
+    "semantic_hash": "cd3c7d83b90be77c0fc669b6a09f204d"
+  },
+  "api/mentoring/routes.py": {
+    "mtime": 1781145045.0,
+    "ast_hash": "05e0b8831d1271e805836e32c4c08713",
+    "semantic_hash": "05e0b8831d1271e805836e32c4c08713"
+  },
+  "api/wsgi.py": {
+    "mtime": 1779472055.0,
+    "ast_hash": "8d5754ccc270c5fb782a8230d3b82602",
+    "semantic_hash": "8d5754ccc270c5fb782a8230d3b82602"
+  },
+  "data/clp26_colombia_ideas.json": {
+    "mtime": 1780024929.0,
+    "ast_hash": "f3ae27208f917092b7c49e8da0ddfc46",
+    "semantic_hash": "f3ae27208f917092b7c49e8da0ddfc46"
+  },
+  "data/clp26_curriculum.json": {
+    "mtime": 1781149030.0,
+    "ast_hash": "9dd5bae6a9e39cdd92987ff6219e10a5",
+    "semantic_hash": "9dd5bae6a9e39cdd92987ff6219e10a5"
+  },
+  "scripts/bulk_import_mentors.py": {
+    "mtime": 1779482926.0,
+    "ast_hash": "b2c43a4beda2bbb38e4085d8a1907516",
+    "semantic_hash": "b2c43a4beda2bbb38e4085d8a1907516"
+  },
+  "scripts/google_apps_script.js": {
+    "mtime": 1779482901.0,
+    "ast_hash": "bc68fdcd30ae650e85394383a61c283c",
+    "semantic_hash": "bc68fdcd30ae650e85394383a61c283c"
+  },
+  "scripts/tag_selected_startups.py": {
+    "mtime": 1781144905.0,
+    "ast_hash": "2a3842be7adcdeb42986837625f6e431",
+    "semantic_hash": "2a3842be7adcdeb42986837625f6e431"
+  },
+  "static/mentoring/app.js": {
+    "mtime": 1781149048.0,
+    "ast_hash": "31c46772f3c48db43eb7bd2759c3180a",
+    "semantic_hash": "31c46772f3c48db43eb7bd2759c3180a"
+  },
+  "CLAUDE.md": {
+    "mtime": 1784816889.5761533,
+    "ast_hash": "7a24f95a3721d842a46ad356990921b3",
+    "semantic_hash": "7a24f95a3721d842a46ad356990921b3"
+  },
+  "requirements.txt": {
+    "mtime": 1779476964.0,
+    "ast_hash": "48f7e2b2b4a040b73c5e591d4a066128",
+    "semantic_hash": "48f7e2b2b4a040b73c5e591d4a066128"
+  }
+}

@@ -1,0 +1,295 @@
+{
+  "communities": {
+    "0": [
+      "api_handlers_humhub",
+      "api_handlers_humhub_add_to_space",
+      "api_handlers_humhub_connect",
+      "api_handlers_humhub_create_or_update_user",
+      "api_handlers_humhub_gen_password",
+      "api_handlers_humhub_hash_password",
+      "api_handlers_humhub_rationale_1",
+      "api_handlers_humhub_slugify",
+      "api_handlers_humhub_split_name",
+      "api_handlers_humhub_unique_username",
+      "bcrypt",
+      "gunicorn",
+      "openpyxl",
+      "pymysql",
+      "python_dotenv",
+      "requirements_txt",
+      "scripts_bulk_import_mentors",
+      "scripts_bulk_import_mentors_is_real_email",
+      "scripts_bulk_import_mentors_main",
+      "scripts_bulk_import_mentors_rationale_1"
+    ],
+    "1": [
+      "static_mentoring_app",
+      "static_mentoring_app_cardhtml",
+      "static_mentoring_app_go",
+      "static_mentoring_app_init",
+      "static_mentoring_app_loadmentors",
+      "static_mentoring_app_loadstartups",
+      "static_mentoring_app_mentorcard",
+      "static_mentoring_app_mentors",
+      "static_mentoring_app_modules",
+      "static_mentoring_app_oneliner",
+      "static_mentoring_app_opendetail",
+      "static_mentoring_app_renderlisting",
+      "static_mentoring_app_setcountry",
+      "static_mentoring_app_startups",
+      "static_mentoring_app_striphtml",
+      "static_mentoring_app_submitregistration"
+    ],
+    "2": [
+      "api_mentoring_init",
+      "api_mentoring_routes",
+      "api_mentoring_routes_admin_index",
+      "api_mentoring_routes_api_admin_approve",
+      "api_mentoring_routes_api_admin_pending",
+      "api_mentoring_routes_api_admin_reject",
+      "api_mentoring_routes_api_homework",
+      "api_mentoring_routes_api_mentors",
+      "api_mentoring_routes_api_modules",
+      "api_mentoring_routes_api_register",
+      "api_mentoring_routes_api_startup_detail",
+      "api_mentoring_routes_api_startups",
+      "api_mentoring_routes_check_admin",
+      "api_mentoring_routes_index",
+      "flask"
+    ],
+    "3": [
+      "api_mentoring_bookstack_service",
+      "api_mentoring_bookstack_service_build_sessions",
+      "api_mentoring_bookstack_service_extract_tag",
+      "api_mentoring_bookstack_service_first_sentence",
+      "api_mentoring_bookstack_service_get_client",
+      "api_mentoring_bookstack_service_get_homework",
+      "api_mentoring_bookstack_service_get_selected_startups",
+      "api_mentoring_bookstack_service_get_startup_detail",
+      "api_mentoring_bookstack_service_page_to_startup",
+      "api_mentoring_models",
+      "api_mentoring_models_sessionstatus",
+      "api_mentoring_models_sessionstatus_to_dict",
+      "api_mentoring_models_startup",
+      "api_mentoring_models_startup_to_dict"
+    ],
+    "4": [
+      "api_app",
+      "api_app_claim",
+      "api_app_health",
+      "api_app_onboard",
+      "api_app_verify_signature",
+      "api_handlers_email_sender",
+      "api_handlers_email_sender_send_welcome",
+      "api_handlers_moodle",
+      "api_handlers_moodle_call",
+      "api_handlers_moodle_create_and_enroll",
+      "api_handlers_moodle_get_user_by_email",
+      "api_wsgi"
+    ],
+    "5": [
+      "api_handlers_bookstack",
+      "api_handlers_bookstack_bookstackclient",
+      "api_handlers_bookstack_bookstackclient_get_page",
+      "api_handlers_bookstack_bookstackclient_headers",
+      "api_handlers_bookstack_bookstackclient_init",
+      "api_handlers_bookstack_bookstackclient_list_pages",
+      "api_handlers_bookstack_bookstackclient_list_pages_by_tag",
+      "api_handlers_bookstack_bookstackclient_request",
+      "api_handlers_bookstack_bookstackclient_search",
+      "api_handlers_bookstack_bookstackclient_update_page_tags",
+      "requests"
+    ],
+    "6": [
+      "api_handlers_odoo",
+      "api_handlers_odoo_approve_clp26_mentor",
+      "api_handlers_odoo_execute",
+      "api_handlers_odoo_get_or_create_tag",
+      "api_handlers_odoo_get_pending_clp26_mentors",
+      "api_handlers_odoo_get_uid",
+      "api_handlers_odoo_infer_program_tag",
+      "api_handlers_odoo_rationale_1",
+      "api_handlers_odoo_reject_clp26_mentor",
+      "api_handlers_odoo_upsert_clp26_mentor",
+      "api_handlers_odoo_upsert_mentor"
+    ],
+    "7": [
+      "scripts_tag_selected_startups",
+      "scripts_tag_selected_startups_apply_tags",
+      "scripts_tag_selected_startups_load_env",
+      "scripts_tag_selected_startups_load_ideas_json",
+      "scripts_tag_selected_startups_load_selected_startups",
+      "scripts_tag_selected_startups_main",
+      "scripts_tag_selected_startups_match_startups",
+      "scripts_tag_selected_startups_normalize",
+      "scripts_tag_selected_startups_print_match_table",
+      "scripts_tag_selected_startups_track_tag_value"
+    ],
+    "8": [
+      "app_js",
+      "detail_screen",
+      "home_screen",
+      "listing_screen",
+      "mentors_screen",
+      "register_screen",
+      "static_mentoring_index_html",
+      "styles_css"
+    ],
+    "9": [
+      "static_mentoring_admin_API",
+      "static_mentoring_admin_authenticate",
+      "static_mentoring_admin_decide",
+      "static_mentoring_admin_loadPending",
+      "static_mentoring_admin_parseModules",
+      "static_mentoring_admin_renderPending"
+    ],
+    "10": [
+      "scripts_google_apps_script",
+      "scripts_google_apps_script_markrow",
+      "scripts_google_apps_script_onformsubmit",
+      "scripts_google_apps_script_testwebhook"
+    ],
+    "11": [
+      "api_handlers_init"
+    ],
+    "12": [
+      "api_init"
+    ],
+    "13": [
+      "claude_md"
+    ],
+    "14": [
+      "footer"
+    ]
+  },
+  "cohesion": {
+    "0": 0.15263157894736842,
+    "1": 0.23333333333333334,
+    "2": 0.17142857142857143,
+    "3": 0.27472527472527475,
+    "4": 0.2727272727272727,
+    "5": 0.2909090909090909,
+    "6": 0.41818181818181815,
+    "7": 0.4,
+    "8": 0.39285714285714285,
+    "9": 0.4,
+    "10": 0.8333333333333334,
+    "11": 1.0,
+    "12": 1.0,
+    "13": 1.0,
+    "14": 1.0
+  },
+  "gods": [
+    {
+      "id": "api_handlers_bookstack_bookstackclient",
+      "label": "BookStackClient",
+      "degree": 13
+    },
+    {
+      "id": "api_handlers_humhub_create_or_update_user",
+      "label": "create_or_update_user()",
+      "degree": 11
+    },
+    {
+      "id": "api_handlers_odoo_execute",
+      "label": "_execute()",
+      "degree": 8
+    },
+    {
+      "id": "scripts_tag_selected_startups_main",
+      "label": "main()",
+      "degree": 8
+    },
+    {
+      "id": "api_app_onboard",
+      "label": "onboard()",
+      "degree": 7
+    },
+    {
+      "id": "api_handlers_odoo_get_or_create_tag",
+      "label": "_get_or_create_tag()",
+      "degree": 7
+    },
+    {
+      "id": "api_mentoring_bookstack_service_page_to_startup",
+      "label": "_page_to_startup()",
+      "degree": 7
+    },
+    {
+      "id": "static_mentoring_app_init",
+      "label": "init()",
+      "degree": 7
+    },
+    {
+      "id": "requirements_txt",
+      "label": "Requirements File",
+      "degree": 7
+    },
+    {
+      "id": "api_handlers_odoo_upsert_mentor",
+      "label": "upsert_mentor()",
+      "degree": 6
+    }
+  ],
+  "surprises": [
+    {
+      "source": "main()",
+      "target": "BookStackClient",
+      "source_files": [
+        "scripts/tag_selected_startups.py",
+        "api/handlers/bookstack.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "main()",
+      "target": "upsert_mentor()",
+      "source_files": [
+        "scripts/bulk_import_mentors.py",
+        "api/handlers/odoo.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "main()",
+      "target": "create_or_update_user()",
+      "source_files": [
+        "scripts/bulk_import_mentors.py",
+        "api/handlers/humhub.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories"
+    },
+    {
+      "source": "onboard()",
+      "target": "send_welcome()",
+      "source_files": [
+        "api/app.py",
+        "api/handlers/email_sender.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "peripheral node `send_welcome()` unexpectedly reaches hub `onboard()`"
+    },
+    {
+      "source": "onboard()",
+      "target": "create_or_update_user()",
+      "source_files": [
+        "api/app.py",
+        "api/handlers/humhub.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    }
+  ],
+  "tokens": {
+    "input": 11563,
+    "output": 8050
+  }
+}

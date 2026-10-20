@@ -1,0 +1,952 @@
+{
+  "program": "CLP 2026",
+  "timezone": "America/Bogota",
+  "launch_date": "2026-06-02",
+  "modules": [
+    {
+      "module": 1,
+      "name": "El Sueño del Founder",
+      "emoji": "🧭",
+      "workbook_pages": "14-24",
+      "fc_collection": "Compass",
+      "days": [
+        {
+          "day": 1,
+          "weekday": "Monday",
+          "core_skill_id": "m1-d1-sueno-del-founder",
+          "bonus_skill_id": "m1-b1-definicion-exito",
+          "bonus_condition": "core_submitted_before_17h",
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 2,
+          "weekday": "Tuesday",
+          "core_skill_id": "m1-d2-motivacion-equipo",
+          "bonus_skill_id": null,
+          "bonus_condition": null,
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 3,
+          "weekday": "Wednesday",
+          "core_skill_id": "m1-d3-sueno-cuantificado",
+          "bonus_skill_id": null,
+          "bonus_condition": null,
+          "mentor_moment": true,
+          "mentor_moment_type": "mid-week-checkin",
+          "mentor_package": [
+            "m1-d1-sueno-del-founder",
+            "m1-d2-motivacion-equipo"
+          ],
+          "gates_next_module": false
+        },
+        {
+          "day": 4,
+          "weekday": "Thursday",
+          "core_skill_id": "m1-d4-puente-sueno-empresa",
+          "bonus_skill_id": "m1-b2-riesgos-desalineacion",
+          "bonus_condition": "core_submitted_before_17h",
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 5,
+          "weekday": "Friday",
+          "core_skill_id": "m1-d5-realismo-estrategico",
+          "bonus_skill_id": null,
+          "bonus_condition": null,
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 6,
+          "weekday": "Saturday",
+          "core_skill_id": "m1-d6-norte-del-founder",
+          "bonus_skill_id": null,
+          "bonus_condition": null,
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 7,
+          "weekday": "Sunday",
+          "core_skill_id": "m1-d7-integracion-dominical",
+          "bonus_skill_id": null,
+          "bonus_condition": null,
+          "mentor_moment": true,
+          "mentor_moment_type": "weekly-synthesis",
+          "mentor_package": [
+            "m1-d1-sueno-del-founder",
+            "m1-d2-motivacion-equipo",
+            "m1-d3-sueno-cuantificado",
+            "m1-d4-puente-sueno-empresa",
+            "m1-d5-realismo-estrategico",
+            "m1-d6-norte-del-founder"
+          ],
+          "gates_next_module": true
+        }
+      ],
+      "bonus_skills": [
+        {
+          "skill_id": "m1-b1-definicion-exito",
+          "bonus_num": 1,
+          "title_es": "Definición de Éxito Personal",
+          "variant": "reflection",
+          "unlock_from": "m1-d1-sueno-del-founder"
+        },
+        {
+          "skill_id": "m1-b2-riesgos-desalineacion",
+          "bonus_num": 2,
+          "title_es": "Riesgos de Desalineación",
+          "variant": "reflection",
+          "unlock_from": "m1-d4-puente-sueno-empresa"
+        }
+      ]
+    },
+    {
+      "module": 2,
+      "name": "Lo Comercial",
+      "emoji": "🤝",
+      "workbook_pages": "25-42",
+      "fc_collection": "Commercial",
+      "days": [
+        {
+          "day": 1,
+          "weekday": "Monday",
+          "core_skill_id": "m2-d1-cliente-ideal",
+          "bonus_skill_id": "m2-b1-b2b-vs-b2c",
+          "bonus_condition": "core_submitted_before_17h",
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 2,
+          "weekday": "Tuesday",
+          "core_skill_id": "m2-d2-problema-dolor",
+          "bonus_skill_id": "m2-b2-early-adopter-map",
+          "bonus_condition": "core_submitted_before_17h",
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 3,
+          "weekday": "Wednesday",
+          "core_skill_id": "m2-d3-solucion-propuesta",
+          "bonus_skill_id": null,
+          "bonus_condition": null,
+          "mentor_moment": true,
+          "mentor_moment_type": "mid-week-checkin",
+          "mentor_package": [
+            "m2-d1-cliente-ideal",
+            "m2-d2-problema-dolor"
+          ],
+          "gates_next_module": false
+        },
+        {
+          "day": 4,
+          "weekday": "Thursday",
+          "core_skill_id": "m2-d4-deal-formula",
+          "bonus_skill_id": null,
+          "bonus_condition": null,
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 5,
+          "weekday": "Friday",
+          "core_skill_id": "m2-d5-canal-distribucion",
+          "bonus_skill_id": "m2-b3-revenue-model",
+          "bonus_condition": "core_submitted_before_17h",
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 6,
+          "weekday": "Saturday",
+          "core_skill_id": "m2-d6-pricing-logic",
+          "bonus_skill_id": "m2-b4-competitive-landscape",
+          "bonus_condition": "core_submitted_before_17h",
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 7,
+          "weekday": "Sunday",
+          "core_skill_id": "m2-d7-integracion-dominical",
+          "bonus_skill_id": null,
+          "bonus_condition": null,
+          "mentor_moment": true,
+          "mentor_moment_type": "weekly-synthesis",
+          "mentor_package": [
+            "m2-d1-cliente-ideal",
+            "m2-d2-problema-dolor",
+            "m2-d3-solucion-propuesta",
+            "m2-d4-deal-formula",
+            "m2-d5-canal-distribucion",
+            "m2-d6-pricing-logic"
+          ],
+          "gates_next_module": true
+        }
+      ],
+      "bonus_skills": [
+        {
+          "skill_id": "m2-b1-b2b-vs-b2c",
+          "bonus_num": 1,
+          "title_es": "B2B vs B2C",
+          "variant": "reflection",
+          "unlock_from": "m2-d1-cliente-ideal"
+        },
+        {
+          "skill_id": "m2-b2-early-adopter-map",
+          "bonus_num": 2,
+          "title_es": "Early Adopter Map",
+          "variant": "reflection",
+          "unlock_from": "m2-d2-problema-dolor"
+        },
+        {
+          "skill_id": "m2-b3-revenue-model",
+          "bonus_num": 3,
+          "title_es": "Revenue Model",
+          "variant": "reflection",
+          "unlock_from": "m2-d5-canal-distribucion"
+        },
+        {
+          "skill_id": "m2-b4-competitive-landscape",
+          "bonus_num": 4,
+          "title_es": "Competitive Landscape",
+          "variant": "reflection",
+          "unlock_from": "m2-d6-pricing-logic"
+        }
+      ]
+    },
+    {
+      "module": 3,
+      "name": "El Mercado",
+      "emoji": "🗺️",
+      "workbook_pages": "43-56",
+      "fc_collection": "Market",
+      "days": [
+        {
+          "day": 1,
+          "weekday": "Monday",
+          "core_skill_id": "m3-d1-beachhead-market",
+          "bonus_skill_id": "m3-b1-competitor-deep-dive",
+          "bonus_condition": "core_submitted_before_17h",
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 2,
+          "weekday": "Tuesday",
+          "core_skill_id": "m3-d2-tam-sam-som",
+          "bonus_skill_id": null,
+          "bonus_condition": null,
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 3,
+          "weekday": "Wednesday",
+          "core_skill_id": "m3-d3-criterios-mercado",
+          "bonus_skill_id": null,
+          "bonus_condition": null,
+          "mentor_moment": true,
+          "mentor_moment_type": "mid-week-checkin",
+          "mentor_package": [
+            "m3-d1-beachhead-market",
+            "m3-d2-tam-sam-som"
+          ],
+          "gates_next_module": false
+        },
+        {
+          "day": 4,
+          "weekday": "Thursday",
+          "core_skill_id": "m3-d4-segmentacion",
+          "bonus_skill_id": "m3-b2-market-entry-risks",
+          "bonus_condition": "core_submitted_before_17h",
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 5,
+          "weekday": "Friday",
+          "core_skill_id": "m3-d5-tendencias-sector",
+          "bonus_skill_id": null,
+          "bonus_condition": null,
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 6,
+          "weekday": "Saturday",
+          "core_skill_id": "m3-d6-expansion-roadmap",
+          "bonus_skill_id": null,
+          "bonus_condition": null,
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 7,
+          "weekday": "Sunday",
+          "core_skill_id": "m3-d7-integracion-dominical",
+          "bonus_skill_id": null,
+          "bonus_condition": null,
+          "mentor_moment": true,
+          "mentor_moment_type": "weekly-synthesis",
+          "mentor_package": [
+            "m3-d1-beachhead-market",
+            "m3-d2-tam-sam-som",
+            "m3-d3-criterios-mercado",
+            "m3-d4-segmentacion",
+            "m3-d5-tendencias-sector",
+            "m3-d6-expansion-roadmap"
+          ],
+          "gates_next_module": true
+        }
+      ],
+      "bonus_skills": [
+        {
+          "skill_id": "m3-b1-competitor-deep-dive",
+          "bonus_num": 1,
+          "title_es": "Competitor Deep Dive",
+          "variant": "reflection",
+          "unlock_from": "m3-d1-beachhead-market"
+        },
+        {
+          "skill_id": "m3-b2-market-entry-risks",
+          "bonus_num": 2,
+          "title_es": "Market Entry Risks",
+          "variant": "reflection",
+          "unlock_from": "m3-d4-segmentacion"
+        }
+      ]
+    },
+    {
+      "module": 4,
+      "name": "El Valor",
+      "emoji": "💎",
+      "workbook_pages": "57-72",
+      "fc_collection": "Value",
+      "days": [
+        {
+          "day": 1,
+          "weekday": "Monday",
+          "core_skill_id": "m4-d1-value-proposition",
+          "bonus_skill_id": "m4-b1-value-map-canvas",
+          "bonus_condition": "core_submitted_before_17h",
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 2,
+          "weekday": "Tuesday",
+          "core_skill_id": "m4-d2-jtbd",
+          "bonus_skill_id": null,
+          "bonus_condition": null,
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 3,
+          "weekday": "Wednesday",
+          "core_skill_id": "m4-d3-pain-gain-map",
+          "bonus_skill_id": null,
+          "bonus_condition": null,
+          "mentor_moment": true,
+          "mentor_moment_type": "mid-week-checkin",
+          "mentor_package": [
+            "m4-d1-value-proposition",
+            "m4-d2-jtbd"
+          ],
+          "gates_next_module": false
+        },
+        {
+          "day": 4,
+          "weekday": "Thursday",
+          "core_skill_id": "m4-d4-valor-cuantificado",
+          "bonus_skill_id": "m4-b2-pricing-sensitivity",
+          "bonus_condition": "core_submitted_before_17h",
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 5,
+          "weekday": "Friday",
+          "core_skill_id": "m4-d5-switching-costs",
+          "bonus_skill_id": "m4-b3-customer-evidence",
+          "bonus_condition": "core_submitted_before_17h",
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 6,
+          "weekday": "Saturday",
+          "core_skill_id": "m4-d6-unfair-advantage",
+          "bonus_skill_id": null,
+          "bonus_condition": null,
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 7,
+          "weekday": "Sunday",
+          "core_skill_id": "m4-d7-integracion-dominical",
+          "bonus_skill_id": null,
+          "bonus_condition": null,
+          "mentor_moment": true,
+          "mentor_moment_type": "weekly-synthesis",
+          "mentor_package": [
+            "m4-d1-value-proposition",
+            "m4-d2-jtbd",
+            "m4-d3-pain-gain-map",
+            "m4-d4-valor-cuantificado",
+            "m4-d5-switching-costs",
+            "m4-d6-unfair-advantage"
+          ],
+          "gates_next_module": true
+        }
+      ],
+      "bonus_skills": [
+        {
+          "skill_id": "m4-b1-value-map-canvas",
+          "bonus_num": 1,
+          "title_es": "Value Map Canvas",
+          "variant": "reflection",
+          "unlock_from": "m4-d1-value-proposition"
+        },
+        {
+          "skill_id": "m4-b2-pricing-sensitivity",
+          "bonus_num": 2,
+          "title_es": "Pricing Sensitivity",
+          "variant": "reflection",
+          "unlock_from": "m4-d4-valor-cuantificado"
+        },
+        {
+          "skill_id": "m4-b3-customer-evidence",
+          "bonus_num": 3,
+          "title_es": "Customer Evidence",
+          "variant": "reflection",
+          "unlock_from": "m4-d5-switching-costs"
+        }
+      ]
+    },
+    {
+      "module": 5,
+      "name": "Venture Economics",
+      "emoji": "📊",
+      "workbook_pages": "73-88",
+      "fc_collection": "Finance",
+      "days": [
+        {
+          "day": 1,
+          "weekday": "Monday",
+          "core_skill_id": "m5-d1-unit-economics",
+          "bonus_skill_id": "m5-b1-investor-model",
+          "bonus_condition": "core_submitted_before_17h",
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 2,
+          "weekday": "Tuesday",
+          "core_skill_id": "m5-d2-cac-ltv",
+          "bonus_skill_id": null,
+          "bonus_condition": null,
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 3,
+          "weekday": "Wednesday",
+          "core_skill_id": "m5-d3-financial-tree",
+          "bonus_skill_id": null,
+          "bonus_condition": null,
+          "mentor_moment": true,
+          "mentor_moment_type": "mid-week-checkin",
+          "mentor_package": [
+            "m5-d1-unit-economics",
+            "m5-d2-cac-ltv"
+          ],
+          "gates_next_module": false
+        },
+        {
+          "day": 4,
+          "weekday": "Thursday",
+          "core_skill_id": "m5-d4-burn-rate",
+          "bonus_skill_id": "m5-b2-scenario-planning",
+          "bonus_condition": "core_submitted_before_17h",
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 5,
+          "weekday": "Friday",
+          "core_skill_id": "m5-d5-sensitivity-analysis",
+          "bonus_skill_id": null,
+          "bonus_condition": null,
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 6,
+          "weekday": "Saturday",
+          "core_skill_id": "m5-d6-funding-needs",
+          "bonus_skill_id": null,
+          "bonus_condition": null,
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 7,
+          "weekday": "Sunday",
+          "core_skill_id": "m5-d7-integracion-dominical",
+          "bonus_skill_id": null,
+          "bonus_condition": null,
+          "mentor_moment": true,
+          "mentor_moment_type": "weekly-synthesis",
+          "mentor_package": [
+            "m5-d1-unit-economics",
+            "m5-d2-cac-ltv",
+            "m5-d3-financial-tree",
+            "m5-d4-burn-rate",
+            "m5-d5-sensitivity-analysis",
+            "m5-d6-funding-needs"
+          ],
+          "gates_next_module": true
+        }
+      ],
+      "bonus_skills": [
+        {
+          "skill_id": "m5-b1-investor-model",
+          "bonus_num": 1,
+          "title_es": "Investor Model",
+          "variant": "application",
+          "unlock_from": "m5-d1-unit-economics"
+        },
+        {
+          "skill_id": "m5-b2-scenario-planning",
+          "bonus_num": 2,
+          "title_es": "Scenario Planning",
+          "variant": "application",
+          "unlock_from": "m5-d4-burn-rate"
+        }
+      ]
+    },
+    {
+      "module": 6,
+      "name": "Impacto Climático",
+      "emoji": "🌿",
+      "workbook_pages": "89-104",
+      "fc_collection": "Impact",
+      "days": [
+        {
+          "day": 1,
+          "weekday": "Monday",
+          "core_skill_id": "m6-d1-teoria-cambio",
+          "bonus_skill_id": "m6-b1-sdg-mapping",
+          "bonus_condition": "core_submitted_before_17h",
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 2,
+          "weekday": "Tuesday",
+          "core_skill_id": "m6-d2-emisiones-baseline",
+          "bonus_skill_id": null,
+          "bonus_condition": null,
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 3,
+          "weekday": "Wednesday",
+          "core_skill_id": "m6-d3-tco2e-calculo",
+          "bonus_skill_id": null,
+          "bonus_condition": null,
+          "mentor_moment": true,
+          "mentor_moment_type": "mid-week-checkin",
+          "mentor_package": [
+            "m6-d1-teoria-cambio",
+            "m6-d2-emisiones-baseline"
+          ],
+          "gates_next_module": false
+        },
+        {
+          "day": 4,
+          "weekday": "Thursday",
+          "core_skill_id": "m6-d4-impact-pathway",
+          "bonus_skill_id": null,
+          "bonus_condition": null,
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 5,
+          "weekday": "Friday",
+          "core_skill_id": "m6-d5-evidencia-impacto",
+          "bonus_skill_id": "m6-b2-lifecycle-assessment",
+          "bonus_condition": "core_submitted_before_17h",
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 6,
+          "weekday": "Saturday",
+          "core_skill_id": "m6-d6-impact-slide",
+          "bonus_skill_id": null,
+          "bonus_condition": null,
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 7,
+          "weekday": "Sunday",
+          "core_skill_id": "m6-d7-integracion-dominical",
+          "bonus_skill_id": null,
+          "bonus_condition": null,
+          "mentor_moment": true,
+          "mentor_moment_type": "weekly-synthesis",
+          "mentor_package": [
+            "m6-d1-teoria-cambio",
+            "m6-d2-emisiones-baseline",
+            "m6-d3-tco2e-calculo",
+            "m6-d4-impact-pathway",
+            "m6-d5-evidencia-impacto",
+            "m6-d6-impact-slide"
+          ],
+          "gates_next_module": true
+        }
+      ],
+      "bonus_skills": [
+        {
+          "skill_id": "m6-b1-sdg-mapping",
+          "bonus_num": 1,
+          "title_es": "SDG Mapping",
+          "variant": "reflection",
+          "unlock_from": "m6-d1-teoria-cambio"
+        },
+        {
+          "skill_id": "m6-b2-lifecycle-assessment",
+          "bonus_num": 2,
+          "title_es": "Lifecycle Assessment",
+          "variant": "reflection",
+          "unlock_from": "m6-d5-evidencia-impacto"
+        }
+      ]
+    },
+    {
+      "module": 7,
+      "name": "Customer Discovery",
+      "emoji": "👥",
+      "workbook_pages": "105-126",
+      "fc_collection": "Discovery",
+      "days": [
+        {
+          "day": 1,
+          "weekday": "Monday",
+          "core_skill_id": "m7-d1-hypothesis-map",
+          "bonus_skill_id": "m7-b1-insight-clustering",
+          "bonus_condition": "core_submitted_before_17h",
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 2,
+          "weekday": "Tuesday",
+          "core_skill_id": "m7-d2-mom-test-prep",
+          "bonus_skill_id": "m7-b2-persona-revision",
+          "bonus_condition": "core_submitted_before_17h",
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 3,
+          "weekday": "Wednesday",
+          "core_skill_id": "m7-d3-entrevistas-1-5",
+          "bonus_skill_id": "m7-b3-pivot-decision",
+          "bonus_condition": "core_submitted_before_17h",
+          "mentor_moment": true,
+          "mentor_moment_type": "mid-week-checkin",
+          "mentor_package": [
+            "m7-d1-hypothesis-map",
+            "m7-d2-mom-test-prep"
+          ],
+          "gates_next_module": false
+        },
+        {
+          "day": 4,
+          "weekday": "Thursday",
+          "core_skill_id": "m7-d4-entrevistas-6-10",
+          "bonus_skill_id": "m7-b4-experiment-design",
+          "bonus_condition": "core_submitted_before_17h",
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 5,
+          "weekday": "Friday",
+          "core_skill_id": "m7-d5-entrevistas-11-15",
+          "bonus_skill_id": "m7-b5-mvp-brief",
+          "bonus_condition": "core_submitted_before_17h",
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 6,
+          "weekday": "Saturday",
+          "core_skill_id": "m7-d6-entrevistas-16-20",
+          "bonus_skill_id": "m7-b6-discovery-dashboard",
+          "bonus_condition": "core_submitted_before_17h",
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 7,
+          "weekday": "Sunday",
+          "core_skill_id": "m7-d7-sintesis-discovery",
+          "bonus_skill_id": null,
+          "bonus_condition": null,
+          "mentor_moment": true,
+          "mentor_moment_type": "weekly-synthesis",
+          "mentor_package": [
+            "m7-d1-hypothesis-map",
+            "m7-d2-mom-test-prep",
+            "m7-d3-entrevistas-1-5",
+            "m7-d4-entrevistas-6-10",
+            "m7-d5-entrevistas-11-15",
+            "m7-d6-entrevistas-16-20"
+          ],
+          "gates_next_module": true
+        }
+      ],
+      "bonus_skills": [
+        {
+          "skill_id": "m7-b1-insight-clustering",
+          "bonus_num": 1,
+          "title_es": "Insight Clustering",
+          "variant": "reflection",
+          "unlock_from": "m7-d1-hypothesis-map"
+        },
+        {
+          "skill_id": "m7-b2-persona-revision",
+          "bonus_num": 2,
+          "title_es": "Persona Revision",
+          "variant": "reflection",
+          "unlock_from": "m7-d2-mom-test-prep"
+        },
+        {
+          "skill_id": "m7-b3-pivot-decision",
+          "bonus_num": 3,
+          "title_es": "Pivot Decision",
+          "variant": "reflection",
+          "unlock_from": "m7-d3-entrevistas-1-5"
+        },
+        {
+          "skill_id": "m7-b4-experiment-design",
+          "bonus_num": 4,
+          "title_es": "Experiment Design",
+          "variant": "reflection",
+          "unlock_from": "m7-d4-entrevistas-6-10"
+        },
+        {
+          "skill_id": "m7-b5-mvp-brief",
+          "bonus_num": 5,
+          "title_es": "MVP Brief",
+          "variant": "reflection",
+          "unlock_from": "m7-d5-entrevistas-11-15"
+        },
+        {
+          "skill_id": "m7-b6-discovery-dashboard",
+          "bonus_num": 6,
+          "title_es": "Discovery Dashboard",
+          "variant": "application",
+          "unlock_from": "m7-d6-entrevistas-16-20"
+        }
+      ]
+    },
+    {
+      "module": 8,
+      "name": "El Pitch",
+      "emoji": "🎤",
+      "workbook_pages": "127-142",
+      "fc_collection": "Pitch",
+      "days": [
+        {
+          "day": 1,
+          "weekday": "Monday",
+          "core_skill_id": "m8-d1-pitch-structure",
+          "bonus_skill_id": "m8-b1-ask-slide",
+          "bonus_condition": "core_submitted_before_17h",
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 2,
+          "weekday": "Tuesday",
+          "core_skill_id": "m8-d2-problem-slide",
+          "bonus_skill_id": null,
+          "bonus_condition": null,
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 3,
+          "weekday": "Wednesday",
+          "core_skill_id": "m8-d3-solution-slide",
+          "bonus_skill_id": null,
+          "bonus_condition": null,
+          "mentor_moment": true,
+          "mentor_moment_type": "mid-week-checkin",
+          "mentor_package": [
+            "m8-d1-pitch-structure",
+            "m8-d2-problem-slide"
+          ],
+          "gates_next_module": false
+        },
+        {
+          "day": 4,
+          "weekday": "Thursday",
+          "core_skill_id": "m8-d4-market-slide",
+          "bonus_skill_id": null,
+          "bonus_condition": null,
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 5,
+          "weekday": "Friday",
+          "core_skill_id": "m8-d5-business-model-slide",
+          "bonus_skill_id": null,
+          "bonus_condition": null,
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 6,
+          "weekday": "Saturday",
+          "core_skill_id": "m8-d6-impact-traction-slide",
+          "bonus_skill_id": "m8-b2-pitch-script",
+          "bonus_condition": "core_submitted_before_17h",
+          "mentor_moment": false,
+          "mentor_moment_type": null,
+          "mentor_package": null,
+          "gates_next_module": false
+        },
+        {
+          "day": 7,
+          "weekday": "Sunday",
+          "core_skill_id": "m8-d7-pitch-deck-completo",
+          "bonus_skill_id": null,
+          "bonus_condition": null,
+          "mentor_moment": true,
+          "mentor_moment_type": "weekly-synthesis",
+          "mentor_package": [
+            "m8-d1-pitch-structure",
+            "m8-d2-problem-slide",
+            "m8-d3-solution-slide",
+            "m8-d4-market-slide",
+            "m8-d5-business-model-slide",
+            "m8-d6-impact-traction-slide"
+          ],
+          "gates_next_module": true
+        }
+      ],
+      "bonus_skills": [
+        {
+          "skill_id": "m8-b1-ask-slide",
+          "bonus_num": 1,
+          "title_es": "The Ask Slide",
+          "variant": "demo",
+          "unlock_from": "m8-d1-pitch-structure"
+        },
+        {
+          "skill_id": "m8-b2-pitch-script",
+          "bonus_num": 2,
+          "title_es": "Pitch Script",
+          "variant": "reflection",
+          "unlock_from": "m8-d6-impact-traction-slide"
+        }
+      ]
+    }
+  ]
+}
