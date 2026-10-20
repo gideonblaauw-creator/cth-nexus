@@ -1,0 +1,84 @@
+// ── Google Fonts ───────────────────────────────────────────────────────────
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono&display=swap');
+
+// ── Navigation bar ─────────────────────────────────────────────────────────
+.topbar,
+.navbar-default {
+  background-color: var(--cth-nav-bg) !important;
+  border-bottom: 2px solid var(--cth-nav-border);
+
+  .navbar-brand img,
+  .logo-wrapper img {
+    max-height: 40px;
+  }
+}
+
+// ── Logo ───────────────────────────────────────────────────────────────────
+.logo-wrapper img {
+  content: url('/themes/cleantechhub/resources/img/logo.png');
+  max-height: 44px;
+}
+
+// ── Sidebar ────────────────────────────────────────────────────────────────
+.sidebar-nav,
+#sidebar {
+  background-color: var(--cth-sidebar-bg);
+}
+
+// ── Cards and panels ───────────────────────────────────────────────────────
+.panel,
+.card {
+  box-shadow: var(--cth-card-shadow);
+  border: 1px solid var(--cth-border-color);
+}
+
+// ── Primary buttons ────────────────────────────────────────────────────────
+.btn-primary {
+  background: linear-gradient(135deg, #1A7A4A 0%, #2196A6 100%);
+  border: none;
+
+  &:hover,
+  &:focus {
+    background: linear-gradient(135deg, #155f3a 0%, #1a7a8a 100%);
+    border: none;
+  }
+}
+
+// ── Links ──────────────────────────────────────────────────────────────────
+a {
+  color: var(--cth-primary);
+
+  &:hover {
+    color: #155f3a;
+  }
+}
+
+// ── Stream/feed posts ──────────────────────────────────────────────────────
+.wall-entry {
+  border-left: 3px solid var(--cth-border-color);
+  transition: border-color 0.2s ease;
+
+  &:hover {
+    border-left-color: var(--cth-primary);
+  }
+}
+
+// ── Space headers ──────────────────────────────────────────────────────────
+.space-header {
+  background: linear-gradient(135deg, var(--cth-nav-bg) 0%, #2a4a50 100%);
+  color: #ffffff;
+}
+
+// ── Badges ─────────────────────────────────────────────────────────────────
+.badge-primary,
+.badge.bg-primary {
+  background-color: var(--cth-primary) !important;
+}
+
+// ── Footer ─────────────────────────────────────────────────────────────────
+.footer {
+  border-top: 1px solid var(--cth-border-color);
+  background-color: #EBF3ED;
+  font-size: 0.85rem;
+  color: #4a6a5a;
+}
