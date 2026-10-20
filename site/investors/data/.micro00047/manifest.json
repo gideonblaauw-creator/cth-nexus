@@ -1,0 +1,77 @@
+{
+  "target": "site/investors/data/investors.json",
+  "total_bytes": 865330,
+  "sha256": "4dfe5befece208591a137ae6a2087d06abe84303ef10999379393459a31d071d",
+  "shards": [
+    {
+      "file": "site/investors/data/.micro00047/shards/000",
+      "bytes": 62000,
+      "offset": 0
+    },
+    {
+      "file": "site/investors/data/.micro00047/shards/001",
+      "bytes": 62000,
+      "offset": 62000
+    },
+    {
+      "file": "site/investors/data/.micro00047/shards/002",
+      "bytes": 62000,
+      "offset": 124000
+    },
+    {
+      "file": "site/investors/data/.micro00047/shards/003",
+      "bytes": 62000,
+      "offset": 186000
+    },
+    {
+      "file": "site/investors/data/.micro00047/shards/004",
+      "bytes": 62000,
+      "offset": 248000
+    },
+    {
+      "file": "site/investors/data/.micro00047/shards/005",
+      "bytes": 62000,
+      "offset": 310000
+    },
+    {
+      "file": "site/investors/data/.micro00047/shards/006",
+      "bytes": 62000,
+      "offset": 372000
+    },
+    {
+      "file": "site/investors/data/.micro00047/shards/007",
+      "bytes": 62000,
+      "offset": 434000
+    },
+    {
+      "file": "site/investors/data/.micro00047/shards/008",
+      "bytes": 62000,
+      "offset": 496000
+    },
+    {
+      "file": "site/investors/data/.micro00047/shards/009",
+      "bytes": 62000,
+      "offset": 558000
+    },
+    {
+      "file": "site/investors/data/.micro00047/shards/010",
+      "bytes": 62000,
+      "offset": 620000
+    },
+    {
+      "file": "site/investors/data/.micro00047/shards/011",
+      "bytes": 62000,
+      "offset": 682000
+    },
+    {
+      "file": "site/investors/data/.micro00047/shards/012",
+      "bytes": 62000,
+      "offset": 744000
+    },
+    {
+      "file": "site/investors/data/.micro00047/shards/013",
+      "bytes": 59330,
+      "offset": 806000
+    }
+  ]
+}
