@@ -4,15 +4,15 @@ Extracted from Canva actor maps (19 Oct 2026). This copy is sanitized for the Ne
 
 ## Files
 
-- `actors.json` — 286 organizations
-- `relations.json` — 75 edges
+- `actors.json` — 381 organizations (incl. 8 Peru policy instruments)
+- `relations.json` — 95 edges
 - `designs.json` — source design metadata
 
 ## Coverage
 
 | Country | Actors in bundle |
 |---------|-------------------|
-| Peru | 201 |
+| Peru | 296 |
 | El Salvador | 77 |
 | Colombia | 8 |
 | Guatemala | 0 (UI empty state) |

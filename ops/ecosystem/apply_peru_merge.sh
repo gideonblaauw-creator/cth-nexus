@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
+# DO NOT RUN until cursor/eco-peru-update-60de is on GitHub (Gideon: GitHub-first).
 set -euo pipefail
+
+echo "ERROR: GitHub-first — push branch and deploy via pipeline; see ops/ecosystem/STAGING.md" >&2
+exit 1
 
 ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
 TARGET_ROOT="${NEXUS_STATIC_ROOT:-/opt/cth-nexus/static}"
