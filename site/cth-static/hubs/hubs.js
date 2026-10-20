@@ -303,7 +303,7 @@
 
   initBrandLangToolbar();
 
-  fetch('/hubs/hubs-data.json?v=20261020-hubmap-b')
+  fetch('/hubs/hubs-data.json?v=20261020-hubmap-c')
     .then((r) => r.json())
     .then(renderAll)
     .catch((err) => {
