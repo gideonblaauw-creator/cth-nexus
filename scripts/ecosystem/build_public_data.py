@@ -113,12 +113,26 @@ def match_card_slug(actor: dict, idx: dict) -> str | None:
     return None
 
 
+def normalize_geo(raw: dict, geo: dict | None) -> dict:
+    if not geo:
+        return geocode_actor({**raw, "id": raw["id"]})["geo"]
+    prec = geo.get("precision")
+    if prec in ("address", "city") and geo.get("lat") is not None and geo.get("lng") is not None:
+        return {
+            k: geo.get(k)
+            for k in ("lat", "lng", "address", "city", "country", "precision", "source_url")
+            if geo.get(k) is not None or k in ("lat", "lng", "precision")
+        }
+    if prec == "country" or geo.get("lat") is None:
+        return geocode_actor({**raw, "geo": geo, "id": raw["id"]})["geo"]
+    # Legacy jittered coords without precision → do not keep fake pins
+    return geocode_actor({**raw, "id": raw["id"]})["geo"]
+
+
 def sanitize_actor(raw: dict, idx: dict) -> dict:
     a = {k: v for k, v in raw.items() if k not in DROP_KEYS}
     a = scrub_value(a) or {}
-    if "geo" not in a or not a.get("geo"):
-        geo = geocode_actor({**a, "id": raw["id"]})
-        a["geo"] = geo["geo"]
+    a["geo"] = normalize_geo(raw, raw.get("geo") or a.get("geo"))
     slug = match_card_slug(a, idx)
     nexus = dict(a.get("nexus") or {})
     if slug:

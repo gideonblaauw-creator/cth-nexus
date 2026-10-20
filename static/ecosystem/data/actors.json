@@ -5,10 +5,16 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
+  "city": "Imaza",
   "website": "https://www.amazoniaimpactventures.com",
   "geo": {
-   "lat": -14.82784,
-   "lng": -76.5912
+   "lat": -5.058604,
+   "lng": -78.33194,
+   "address": "Avenida Imaza None, Imaza, Perú",
+   "city": "Imaza",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Amazonia+Impact+Ventures%2C+Peru&limit=5 (q=Amazonia Impact Ventures, Peru) (name-country)"
   },
   "nexus": {
    "card_slug": null
@@ -20,10 +26,16 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://profonanpe.org.pe",
   "geo": {
-   "lat": -14.30388,
-   "lng": -76.30691
+   "lat": -12.045981,
+   "lng": -77.030591,
+   "address": "Lima, Perú",
+   "city": "Lima",
+   "country": "Peru",
+   "precision": "city",
+   "source_url": "https://photon.komoot.io/api/?q=Profonanpe%2C+Lima%2C+Peru&limit=5 (q=Profonanpe, Lima, Peru) (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -35,10 +47,16 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
+  "city": "San Carlos",
   "website": "https://www.andesamazonfund.org",
   "geo": {
-   "lat": -15.14081,
-   "lng": -77.0111
+   "lat": -6.056373,
+   "lng": -77.895141,
+   "address": "Puente La Golondrina None, San Carlos, Perú",
+   "city": "San Carlos",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Andes+Amazon+Fund%2C+Peru&limit=5 (q=Andes Amazon Fund, Peru) (name-country)"
   },
   "nexus": {
    "card_slug": null
@@ -52,8 +70,13 @@
   "country": "Peru",
   "website": "https://pecap.pe",
   "geo": {
-   "lat": -10.93176,
-   "lng": -74.81113
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -65,10 +88,16 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.angelventures.vc",
   "geo": {
-   "lat": -13.91627,
-   "lng": -77.30357
+   "lat": -12.045558,
+   "lng": -77.006318,
+   "address": "Lima, Perú",
+   "city": "Lima",
+   "country": "Peru",
+   "precision": "city",
+   "source_url": "https://photon.komoot.io/api/?q=Angel+Ventures+Per%C3%BA%2C+Lima%2C+Peru&limit=5 (q=Angel Ventures Perú, Lima, Peru) (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -80,10 +109,16 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://utecventures.com",
   "geo": {
-   "lat": -10.76113,
-   "lng": -77.17466
+   "lat": -12.135135,
+   "lng": -77.02213,
+   "address": "Jirón Medrano Silva 165, Lima, Perú",
+   "city": "Lima",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://utecventures.com"
   },
   "nexus": {
    "card_slug": null
@@ -95,10 +130,16 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
+  "city": "Lince",
   "website": "https://krealo.vc",
   "geo": {
-   "lat": -12.41552,
-   "lng": -76.82036
+   "lat": -12.083404,
+   "lng": -77.043909,
+   "address": "Jirón Brigadier Mateo Pumacahua None, Lince, Perú",
+   "city": "Lince",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Krealo+%28Credicorp%29%2C+Lima%2C+Peru&limit=5 (q=Krealo (Credicorp), Lima, Peru) (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -110,10 +151,16 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
+  "city": "Villa María del Triunfo",
   "website": "https://www.gruporomero.com.pe",
   "geo": {
-   "lat": -9.60819,
-   "lng": -78.73614
+   "lat": -12.166407,
+   "lng": -76.950625,
+   "address": "Avenida Villa María None, Villa María del Triunfo, Perú",
+   "city": "Villa María del Triunfo",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=GRIO+%28Grupo+Romero%29%2C+Lima%2C+Peru&limit=5 (q=GRIO (Grupo Romero), Lima, Peru) (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -125,10 +172,16 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.wayra.com",
   "geo": {
-   "lat": -11.47481,
-   "lng": -78.51188
+   "lat": -12.062021,
+   "lng": -77.019603,
+   "address": "Avenida 28 de Julio None, Lima, Perú",
+   "city": "Lima",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Wayra+Per%C3%BA%2C+Lima%2C+Peru&limit=5 (q=Wayra Perú, Lima, Peru) (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -142,8 +195,13 @@
   "country": "Peru",
   "website": "https://www.mirova.com",
   "geo": {
-   "lat": -13.67502,
-   "lng": -76.79101
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -155,10 +213,16 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://ecoenterprisesfund.com",
   "geo": {
-   "lat": -11.15625,
-   "lng": -74.24986
+   "lat": -12.085529,
+   "lng": -76.970701,
+   "address": "Javier Prado Este 4600, Lima, Perú",
+   "city": "Lima",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=EcoEnterprises+Fund%2C+Lima%2C+Peru&limit=5 (q=EcoEnterprises Fund, Lima, Peru) (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -170,10 +234,16 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.oikocredit.org",
   "geo": {
-   "lat": -14.0081,
-   "lng": -75.61498
+   "lat": -12.045981,
+   "lng": -77.030591,
+   "address": "Lima, Perú",
+   "city": "Lima",
+   "country": "Peru",
+   "precision": "city",
+   "source_url": "https://photon.komoot.io/api/?q=Oikocredit%2C+Lima%2C+Peru&limit=5 (q=Oikocredit, Lima, Peru) (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -185,10 +255,16 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://incofin.com",
   "geo": {
-   "lat": -11.24698,
-   "lng": -80.13766
+   "lat": -12.069166,
+   "lng": -77.079935,
+   "address": "Avenida Universitaria 1801, Lima, Perú",
+   "city": "Lima",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Incofin%2C+Lima%2C+Peru&limit=5 (q=Incofin, Lima, Peru) (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -200,10 +276,16 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
+  "city": "Santiago de Surco",
   "website": "https://triplejump.eu",
   "geo": {
-   "lat": -13.10508,
-   "lng": -75.79152
+   "lat": -12.085564,
+   "lng": -76.975323,
+   "address": "Javier Prado Este 4200, Santiago de Surco, Perú",
+   "city": "Santiago de Surco",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Triple+Jump%2C+Lima%2C+Peru&limit=5 (q=Triple Jump, Lima, Peru) (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -215,10 +297,16 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.responsability.com",
   "geo": {
-   "lat": -10.84672,
-   "lng": -75.4126
+   "lat": -12.045981,
+   "lng": -77.030591,
+   "address": "Lima, Perú",
+   "city": "Lima",
+   "country": "Peru",
+   "precision": "city",
+   "source_url": "https://photon.komoot.io/api/?q=responsAbility%2C+Lima%2C+Peru&limit=5 (q=responsAbility, Lima, Peru) (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -230,10 +318,16 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.blueorchard.com",
   "geo": {
-   "lat": -12.9472,
-   "lng": -78.69633
+   "lat": -12.045981,
+   "lng": -77.030591,
+   "address": "Lima, Perú",
+   "city": "Lima",
+   "country": "Peru",
+   "precision": "city",
+   "source_url": "https://photon.komoot.io/api/?q=BlueOrchard%2C+Lima%2C+Peru&limit=5 (q=BlueOrchard, Lima, Peru) (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -245,10 +339,16 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.alterfin.be",
   "geo": {
-   "lat": -9.85005,
-   "lng": -79.04185
+   "lat": -12.069166,
+   "lng": -77.079935,
+   "address": "Avenida Universitaria 1801, Lima, Perú",
+   "city": "Lima",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Alterfin%2C+Lima%2C+Peru&limit=5 (q=Alterfin, Lima, Peru) (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -260,10 +360,16 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://acumen.org",
   "geo": {
-   "lat": -13.67832,
-   "lng": -74.5483
+   "lat": -12.069166,
+   "lng": -77.079935,
+   "address": "Avenida Universitaria 1801, Lima, Perú",
+   "city": "Lima",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Acumen%2C+Lima%2C+Peru&limit=5 (q=Acumen, Lima, Peru) (name-capital)"
   },
   "nexus": {
    "card_slug": null
@@ -277,8 +383,13 @@
   "country": "Peru",
   "website": "https://www.mercycorpsventures.com",
   "geo": {
-   "lat": -11.55246,
-   "lng": -77.36739
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -292,8 +403,13 @@
   "country": "Peru",
   "website": "https://www.accion.org",
   "geo": {
-   "lat": -12.71718,
-   "lng": -74.75945
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -307,8 +423,13 @@
   "country": "Peru",
   "website": "https://www.alive-ventures.com",
   "geo": {
-   "lat": -13.34203,
-   "lng": -77.6967
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -322,8 +443,13 @@
   "country": "Peru",
   "website": "https://www.bezosearthfund.org",
   "geo": {
-   "lat": -12.50823,
-   "lng": -75.46594
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -337,8 +463,13 @@
   "country": "Peru",
   "website": "https://www.alliedclimate.org",
   "geo": {
-   "lat": -14.16524,
-   "lng": -75.30302
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -352,8 +483,13 @@
   "country": "Peru",
   "website": "https://www.finance-in-motion.com",
   "geo": {
-   "lat": -12.34099,
-   "lng": -78.54803
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -367,8 +503,13 @@
   "country": "Peru",
   "website": "https://rootcapital.org",
   "geo": {
-   "lat": -13.6866,
-   "lng": -74.57432
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -382,8 +523,13 @@
   "country": "Peru",
   "website": "https://www.bbva.pe",
   "geo": {
-   "lat": -10.57135,
-   "lng": -78.61358
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -397,8 +543,13 @@
   "country": "Peru",
   "website": "https://interbank.pe",
   "geo": {
-   "lat": -14.3898,
-   "lng": -79.07051
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -412,8 +563,13 @@
   "country": "Peru",
   "website": "https://www.scotiabank.com.pe",
   "geo": {
-   "lat": -13.79058,
-   "lng": -75.56416
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -427,8 +583,13 @@
   "country": "Peru",
   "website": "https://www.pacifico.com.pe",
   "geo": {
-   "lat": -10.32939,
-   "lng": -77.56435
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -442,8 +603,13 @@
   "country": "Peru",
   "website": "https://www.viabcp.com",
   "geo": {
-   "lat": -14.52977,
-   "lng": -75.10315
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -457,8 +623,13 @@
   "country": "Peru",
   "website": "https://www.bvl.com.pe",
   "geo": {
-   "lat": -12.2609,
-   "lng": -74.21226
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -472,8 +643,13 @@
   "country": "Peru",
   "website": "https://confianza.pe",
   "geo": {
-   "lat": -11.08136,
-   "lng": -79.23328
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -487,8 +663,13 @@
   "country": "Peru",
   "website": "https://www.fpcmac.org.pe",
   "geo": {
-   "lat": -12.04332,
-   "lng": -75.42325
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -502,8 +683,13 @@
   "country": "Peru",
   "website": "https://www.compartamos.com.pe",
   "geo": {
-   "lat": -13.00243,
-   "lng": -74.46313
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -517,8 +703,13 @@
   "country": "Peru",
   "website": "https://www.cajaarequipa.pe",
   "geo": {
-   "lat": -13.7998,
-   "lng": -78.48847
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -532,8 +723,13 @@
   "country": "Peru",
   "website": "https://www.cajahuancayo.com.pe",
   "geo": {
-   "lat": -13.13621,
-   "lng": -77.54457
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -547,8 +743,13 @@
   "country": "Peru",
   "website": "https://www.cajapiura.pe",
   "geo": {
-   "lat": -13.14561,
-   "lng": -76.15323
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -562,8 +763,13 @@
   "country": "Peru",
   "website": "https://cajaica.pe",
   "geo": {
-   "lat": -11.60513,
-   "lng": -78.05678
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -577,8 +783,13 @@
   "country": "Peru",
   "website": "https://www.cajamaynas.pe",
   "geo": {
-   "lat": -14.78595,
-   "lng": -78.36887
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -592,8 +803,13 @@
   "country": "Peru",
   "website": "https://smisolutions.com",
   "geo": {
-   "lat": -12.5072,
-   "lng": -80.13435
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -607,8 +823,13 @@
   "country": "Peru",
   "website": "https://www.ajegroup.com",
   "geo": {
-   "lat": -11.46022,
-   "lng": -79.28793
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -622,8 +843,13 @@
   "country": "Peru",
   "website": "https://www.backus.pe",
   "geo": {
-   "lat": -9.29441,
-   "lng": -76.05897
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -637,8 +863,13 @@
   "country": "Peru",
   "website": "https://www.alicorp.com.pe",
   "geo": {
-   "lat": -11.11936,
-   "lng": -78.38337
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -652,8 +883,13 @@
   "country": "Peru",
   "website": "https://engie-energia.pe",
   "geo": {
-   "lat": -12.83532,
-   "lng": -79.87986
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -667,8 +903,13 @@
   "country": "Peru",
   "website": "https://www.pluz.pe",
   "geo": {
-   "lat": -13.07181,
-   "lng": -79.05356
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -682,8 +923,13 @@
   "country": "Peru",
   "website": "https://danper.com",
   "geo": {
-   "lat": -12.4096,
-   "lng": -76.00853
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -697,8 +943,13 @@
   "country": "Peru",
   "website": "https://www.cerroverde.pe",
   "geo": {
-   "lat": -11.24759,
-   "lng": -74.53268
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -712,8 +963,13 @@
   "country": "Peru",
   "website": "https://hudbayminerals.com",
   "geo": {
-   "lat": -11.2938,
-   "lng": -79.44126
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -727,8 +983,13 @@
   "country": "Peru",
   "website": "https://www.goldfields.com",
   "geo": {
-   "lat": -10.58608,
-   "lng": -79.39656
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -742,8 +1003,13 @@
   "country": "Peru",
   "website": "https://www.angloamerican.com",
   "geo": {
-   "lat": -11.85812,
-   "lng": -75.75578
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -757,8 +1023,13 @@
   "country": "Peru",
   "website": "https://www.textilescamones.com",
   "geo": {
-   "lat": -9.17374,
-   "lng": -78.39782
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -772,8 +1043,13 @@
   "country": "Peru",
   "website": "https://sni.org.pe",
   "geo": {
-   "lat": -10.09637,
-   "lng": -75.18838
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -787,8 +1063,13 @@
   "country": "Peru",
   "website": "https://www.camaralima.org.pe",
   "geo": {
-   "lat": -10.63191,
-   "lng": -75.19737
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -802,8 +1083,13 @@
   "country": "Peru",
   "website": "https://www.adexperu.org.pe",
   "geo": {
-   "lat": -10.59267,
-   "lng": -76.64365
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -817,8 +1103,13 @@
   "country": "Peru",
   "website": "https://www.sna-peru.com",
   "geo": {
-   "lat": -13.95406,
-   "lng": -76.41941
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -832,8 +1123,13 @@
   "country": "Peru",
   "website": "https://www.spr.pe",
   "geo": {
-   "lat": -13.92468,
-   "lng": -75.68821
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -847,8 +1143,13 @@
   "country": "Peru",
   "website": "https://libelula.com.pe",
   "geo": {
-   "lat": -9.93778,
-   "lng": -78.11196
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -862,8 +1163,13 @@
   "country": "Peru",
   "website": "https://www.gob.pe/minam",
   "geo": {
-   "lat": -13.94832,
-   "lng": -78.08429
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -877,8 +1183,13 @@
   "country": "Peru",
   "website": "https://www.gob.pe/produce",
   "geo": {
-   "lat": -13.84008,
-   "lng": -76.4224
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -892,8 +1203,13 @@
   "country": "Peru",
   "website": "https://www.gob.pe/midagri",
   "geo": {
-   "lat": -12.8771,
-   "lng": -75.58164
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -907,8 +1223,13 @@
   "country": "Peru",
   "website": "https://www.gob.pe/minem",
   "geo": {
-   "lat": -12.63022,
-   "lng": -78.17923
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -922,8 +1243,13 @@
   "country": "Peru",
   "website": "https://www.gob.pe/mef",
   "geo": {
-   "lat": -9.90623,
-   "lng": -76.46485
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -937,8 +1263,13 @@
   "country": "Peru",
   "website": "https://www.sbs.gob.pe",
   "geo": {
-   "lat": -9.86604,
-   "lng": -78.73347
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -952,8 +1283,13 @@
   "country": "Peru",
   "website": "https://www.smv.gob.pe",
   "geo": {
-   "lat": -12.61549,
-   "lng": -75.73265
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -967,8 +1303,13 @@
   "country": "Peru",
   "website": "https://www.gob.pe/osinergmin",
   "geo": {
-   "lat": -12.39731,
-   "lng": -74.14887
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -982,8 +1323,13 @@
   "country": "Peru",
   "website": "https://www.gob.pe/sunass",
   "geo": {
-   "lat": -11.45547,
-   "lng": -74.23724
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -997,8 +1343,13 @@
   "country": "Peru",
   "website": "https://www.gob.pe/proinnovate",
   "geo": {
-   "lat": -14.51323,
-   "lng": -76.1158
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1012,8 +1363,13 @@
   "country": "Peru",
   "website": "https://www.gob.pe/minam",
   "geo": {
-   "lat": -11.2777,
-   "lng": -75.63424
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1027,8 +1383,13 @@
   "country": "Peru",
   "website": "https://www.cofide.com.pe",
   "geo": {
-   "lat": -13.87216,
-   "lng": -75.45313
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1042,8 +1403,13 @@
   "country": "Peru",
   "website": "https://prociencia.gob.pe",
   "geo": {
-   "lat": -10.55605,
-   "lng": -76.58645
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1057,8 +1423,13 @@
   "country": "Peru",
   "website": "https://www.gob.pe/agroideas",
   "geo": {
-   "lat": -14.32904,
-   "lng": -77.71273
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1072,8 +1443,13 @@
   "country": "Peru",
   "website": "https://www.agrobanco.com.pe",
   "geo": {
-   "lat": -14.46161,
-   "lng": -76.52555
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1087,8 +1463,13 @@
   "country": "Peru",
   "website": "https://www.gob.pe/inaigem",
   "geo": {
-   "lat": -12.6613,
-   "lng": -75.84418
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1102,8 +1483,13 @@
   "country": "Peru",
   "website": "https://www.gob.pe/ana",
   "geo": {
-   "lat": -14.9111,
-   "lng": -76.95052
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1117,8 +1503,13 @@
   "country": "Peru",
   "website": "https://www.gob.pe/senamhi",
   "geo": {
-   "lat": -10.18188,
-   "lng": -76.7791
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1132,8 +1523,13 @@
   "country": "Peru",
   "website": "https://www.gob.pe/serfor",
   "geo": {
-   "lat": -14.19873,
-   "lng": -76.88504
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1147,8 +1543,13 @@
   "country": "Peru",
   "website": "https://www.gob.pe/sernanp",
   "geo": {
-   "lat": -12.89637,
-   "lng": -77.91065
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1162,8 +1563,13 @@
   "country": "Peru",
   "website": "https://www.gob.pe/bosques",
   "geo": {
-   "lat": -14.68463,
-   "lng": -77.40994
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1177,8 +1583,13 @@
   "country": "Peru",
   "website": "https://www.gob.pe/proinversion",
   "geo": {
-   "lat": -13.99995,
-   "lng": -78.857
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1192,8 +1603,13 @@
   "country": "Peru",
   "website": "https://www.gob.pe/promperu",
   "geo": {
-   "lat": -12.33891,
-   "lng": -79.83799
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1207,8 +1623,13 @@
   "country": "Peru",
   "website": "https://www.gob.pe/apci",
   "geo": {
-   "lat": -10.96258,
-   "lng": -74.88854
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1222,8 +1643,13 @@
   "country": "Peru",
   "website": "https://www.gob.pe/imarpe",
   "geo": {
-   "lat": -10.70893,
-   "lng": -75.28205
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1237,8 +1663,13 @@
   "country": "Peru",
   "website": "https://www.gob.pe/sanipes",
   "geo": {
-   "lat": -11.64123,
-   "lng": -78.57565
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1252,8 +1683,13 @@
   "country": "Peru",
   "website": "https://www.gob.pe/regionloreto",
   "geo": {
-   "lat": -13.85145,
-   "lng": -76.39925
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1267,8 +1703,13 @@
   "country": "Peru",
   "website": "https://www.gob.pe/regionsanmartin",
   "geo": {
-   "lat": -11.12776,
-   "lng": -79.33801
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1282,8 +1723,13 @@
   "country": "Peru",
   "website": "https://www.gob.pe/regionucayali",
   "geo": {
-   "lat": -11.73985,
-   "lng": -75.74979
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1297,8 +1743,13 @@
   "country": "Peru",
   "website": "https://www.gob.pe/regionmadrededios",
   "geo": {
-   "lat": -9.9344,
-   "lng": -75.09182
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1312,8 +1763,13 @@
   "country": "Peru",
   "website": "https://www.gob.pe/regionamazonas",
   "geo": {
-   "lat": -15.00753,
-   "lng": -78.00571
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1327,8 +1783,13 @@
   "country": "Peru",
   "website": "https://www.instagram.com/surco_emprende/",
   "geo": {
-   "lat": -10.75486,
-   "lng": -77.11671
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1342,8 +1803,13 @@
   "country": "Peru",
   "website": "https://www.instagram.com/p/Ddw80GLAbfr/",
   "geo": {
-   "lat": -12.93289,
-   "lng": -78.9712
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1357,8 +1823,13 @@
   "country": "Peru",
   "website": "https://www.gob.pe/regioncusco",
   "geo": {
-   "lat": -10.81176,
-   "lng": -79.40169
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1372,8 +1843,13 @@
   "country": "Peru",
   "website": "https://www.miraflores.gob.pe",
   "geo": {
-   "lat": -14.7066,
-   "lng": -75.91536
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1387,8 +1863,13 @@
   "country": "Peru",
   "website": "https://www.lamolina.edu.pe",
   "geo": {
-   "lat": -11.80599,
-   "lng": -76.55427
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1402,8 +1883,13 @@
   "country": "Peru",
   "website": "https://www.pucp.edu.pe",
   "geo": {
-   "lat": -9.89219,
-   "lng": -76.57685
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1417,8 +1903,13 @@
   "country": "Peru",
   "website": "https://www.up.edu.pe",
   "geo": {
-   "lat": -12.18356,
-   "lng": -78.08922
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1432,8 +1923,13 @@
   "country": "Peru",
   "website": "https://www.utec.edu.pe",
   "geo": {
-   "lat": -11.74112,
-   "lng": -79.59327
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1447,8 +1943,13 @@
   "country": "Peru",
   "website": "https://cayetano.edu.pe",
   "geo": {
-   "lat": -13.9671,
-   "lng": -78.96172
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1462,8 +1963,13 @@
   "country": "Peru",
   "website": "https://portal.unapiquitos.edu.pe",
   "geo": {
-   "lat": -14.13043,
-   "lng": -78.15929
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1477,8 +1983,13 @@
   "country": "Peru",
   "website": "https://unsm.edu.pe",
   "geo": {
-   "lat": -12.78554,
-   "lng": -75.18564
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1492,8 +2003,13 @@
   "country": "Peru",
   "website": "https://www.unu.edu.pe",
   "geo": {
-   "lat": -13.81934,
-   "lng": -79.57408
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1507,8 +2023,13 @@
   "country": "Peru",
   "website": "https://unia.edu.pe",
   "geo": {
-   "lat": -10.3408,
-   "lng": -75.35579
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1522,8 +2043,13 @@
   "country": "Peru",
   "website": "https://untrm.edu.pe",
   "geo": {
-   "lat": -13.75756,
-   "lng": -74.6712
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1537,8 +2063,13 @@
   "country": "Peru",
   "website": "https://portal.unamad.edu.pe",
   "geo": {
-   "lat": -10.4213,
-   "lng": -75.64762
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1552,8 +2083,13 @@
   "country": "Peru",
   "website": "https://grade.org.pe",
   "geo": {
-   "lat": -10.77475,
-   "lng": -74.25352
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1567,8 +2103,13 @@
   "country": "Peru",
   "website": "https://metaredx.org/pe",
   "geo": {
-   "lat": -11.61775,
-   "lng": -75.90334
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1582,8 +2123,13 @@
   "country": "Peru",
   "website": "https://www.unmsm.edu.pe",
   "geo": {
-   "lat": -11.05006,
-   "lng": -74.95386
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1597,8 +2143,13 @@
   "country": "Peru",
   "website": "https://www.lamolina.edu.pe",
   "geo": {
-   "lat": -13.85875,
-   "lng": -76.58785
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1612,8 +2163,13 @@
   "country": "Peru",
   "website": "https://emprendeup.pe/climatech/",
   "geo": {
-   "lat": -9.33429,
-   "lng": -75.42234
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1627,8 +2183,13 @@
   "country": "Peru",
   "website": "https://bioincuba.cayetano.pe",
   "geo": {
-   "lat": -12.26281,
-   "lng": -77.45591
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1642,8 +2203,13 @@
   "country": "Peru",
   "website": "https://usil.edu.pe/emprendimiento/",
   "geo": {
-   "lat": -12.49566,
-   "lng": -79.71185
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1657,8 +2223,13 @@
   "country": "Peru",
   "website": "https://1551.unmsm.edu.pe",
   "geo": {
-   "lat": -9.66613,
-   "lng": -77.36768
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1672,8 +2243,13 @@
   "country": "Peru",
   "website": "https://cide.pucp.edu.pe/tag/nexum",
   "geo": {
-   "lat": -13.67153,
-   "lng": -76.77185
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1687,8 +2263,13 @@
   "country": "Peru",
   "website": "https://startup.uni.edu.pe",
   "geo": {
-   "lat": -12.84023,
-   "lng": -78.93085
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1702,8 +2283,13 @@
   "country": "Peru",
   "website": "https://noticias.upc.edu.pe",
   "geo": {
-   "lat": -13.00687,
-   "lng": -79.50418
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1717,8 +2303,13 @@
   "country": "Peru",
   "website": "https://www.ulima.edu.pe",
   "geo": {
-   "lat": -9.13869,
-   "lng": -76.75811
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1732,8 +2323,13 @@
   "country": "Peru",
   "website": "https://innova.esan.edu.pe",
   "geo": {
-   "lat": -12.07493,
-   "lng": -74.85391
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1747,8 +2343,13 @@
   "country": "Peru",
   "website": "https://www.udep.edu.pe",
   "geo": {
-   "lat": -9.68813,
-   "lng": -79.05984
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1762,8 +2363,13 @@
   "country": "Peru",
   "website": "https://www.kunan.com.pe",
   "geo": {
-   "lat": -10.42125,
-   "lng": -77.59106
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1777,8 +2383,13 @@
   "country": "Peru",
   "website": "https://www.nesst.org",
   "geo": {
-   "lat": -11.11433,
-   "lng": -75.82557
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1792,8 +2403,13 @@
   "country": "Peru",
   "website": "https://endeavor.org.pe",
   "geo": {
-   "lat": -12.3141,
-   "lng": -79.19612
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1807,8 +2423,13 @@
   "country": "Peru",
   "website": "https://www.facebook.com/ACMVenturesPeru/",
   "geo": {
-   "lat": -11.65201,
-   "lng": -76.18807
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1822,8 +2443,13 @@
   "country": "Peru",
   "website": "https://bioinnova.unsm.edu.pe",
   "geo": {
-   "lat": -14.20917,
-   "lng": -76.22684
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1837,8 +2463,13 @@
   "country": "Peru",
   "website": "https://www.unu.edu.pe",
   "geo": {
-   "lat": -13.68235,
-   "lng": -77.07184
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1852,8 +2483,13 @@
   "country": "Peru",
   "website": "https://www.facebook.com/unia.edu.pe/",
   "geo": {
-   "lat": -9.42124,
-   "lng": -75.52252
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1867,8 +2503,13 @@
   "country": "Peru",
   "website": "https://incubadora.untrm.edu.pe",
   "geo": {
-   "lat": -12.16214,
-   "lng": -75.89213
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1881,8 +2522,13 @@
   "category": "accelerator",
   "country": "Peru",
   "geo": {
-   "lat": -14.60659,
-   "lng": -77.54522
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1895,8 +2541,13 @@
   "category": "accelerator",
   "country": "Peru",
   "geo": {
-   "lat": -10.90315,
-   "lng": -79.28885
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1910,8 +2561,13 @@
   "country": "Peru",
   "website": "https://upao.edu.pe/diferenciacion/incubadora-de-negocios/",
   "geo": {
-   "lat": -10.10344,
-   "lng": -78.81596
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1925,8 +2581,13 @@
   "country": "Peru",
   "website": "https://www.unsa.edu.pe/jaku/",
   "geo": {
-   "lat": -11.38215,
-   "lng": -80.1027
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1940,8 +2601,13 @@
   "country": "Peru",
   "website": "https://ucsp.edu.pe/kaman/presentacion/",
   "geo": {
-   "lat": -11.93133,
-   "lng": -75.15026
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1955,8 +2621,13 @@
   "country": "Peru",
   "website": "https://investigacion.ucsm.edu.pe/innicia/",
   "geo": {
-   "lat": -12.14031,
-   "lng": -76.64213
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1970,8 +2641,13 @@
   "country": "Peru",
   "website": "https://www.facebook.com/incuba.unach/",
   "geo": {
-   "lat": -13.30411,
-   "lng": -79.20966
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -1985,8 +2661,13 @@
   "country": "Peru",
   "website": "https://camcajamarca.com.pe/cajamarca-incuba/",
   "geo": {
-   "lat": -13.456,
-   "lng": -74.52627
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2000,8 +2681,13 @@
   "country": "Peru",
   "website": "https://www.gob.pe/unj",
   "geo": {
-   "lat": -11.50656,
-   "lng": -79.95475
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2015,8 +2701,13 @@
   "country": "Peru",
   "website": "https://incuvalventures.unheval.edu.pe",
   "geo": {
-   "lat": -11.15609,
-   "lng": -74.80281
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2030,8 +2721,13 @@
   "country": "Peru",
   "website": "http://www.udh.edu.pe",
   "geo": {
-   "lat": -12.15405,
-   "lng": -75.90743
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2045,8 +2741,13 @@
   "country": "Peru",
   "website": "https://www.gob.pe/unam",
   "geo": {
-   "lat": -10.55534,
-   "lng": -78.27461
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2060,8 +2761,13 @@
   "country": "Peru",
   "website": "https://wichay.pe",
   "geo": {
-   "lat": -10.01046,
-   "lng": -79.06086
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2075,8 +2781,13 @@
   "country": "Peru",
   "website": "https://www.natureservices.net",
   "geo": {
-   "lat": -13.51677,
-   "lng": -76.33631
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2090,8 +2801,13 @@
   "country": "Peru",
   "website": "https://www.arbioperu.org",
   "geo": {
-   "lat": -12.74062,
-   "lng": -75.3576
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2105,8 +2821,13 @@
   "country": "Peru",
   "website": "https://bosques-amazonicos.com",
   "geo": {
-   "lat": -13.44802,
-   "lng": -79.78027
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2120,8 +2841,13 @@
   "country": "Peru",
   "website": "https://bosques-amazonicos.com",
   "geo": {
-   "lat": -11.65226,
-   "lng": -78.88183
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2135,8 +2861,13 @@
   "country": "Peru",
   "website": "https://amazoniaquelate.com",
   "geo": {
-   "lat": -14.70593,
-   "lng": -75.63748
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2150,8 +2881,13 @@
   "country": "Peru",
   "website": "https://acca.org.pe",
   "geo": {
-   "lat": -11.32908,
-   "lng": -78.00104
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2165,8 +2901,13 @@
   "country": "Peru",
   "website": "https://spda.org.pe",
   "geo": {
-   "lat": -13.7839,
-   "lng": -78.79222
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2180,8 +2921,13 @@
   "country": "Peru",
   "website": "https://www.ciudadsaludable.org",
   "geo": {
-   "lat": -14.23486,
-   "lng": -78.35921
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2195,8 +2941,13 @@
   "country": "Peru",
   "website": "https://accion-andina.org",
   "geo": {
-   "lat": -13.1362,
-   "lng": -77.06252
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2210,8 +2961,13 @@
   "country": "Peru",
   "website": "https://www.facebook.com/ccpip/",
   "geo": {
-   "lat": -9.38353,
-   "lng": -78.28174
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2225,8 +2981,13 @@
   "country": "Peru",
   "website": "https://www.fundacionwiese.org",
   "geo": {
-   "lat": -9.61238,
-   "lng": -77.28671
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2240,8 +3001,13 @@
   "country": "Peru",
   "website": "https://www.fundacionmicrofinanzasbbva.org",
   "geo": {
-   "lat": -14.43756,
-   "lng": -76.99069
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2255,8 +3021,13 @@
   "country": "Peru",
   "website": "https://www.belcorp.com/fundacionbelcorp",
   "geo": {
-   "lat": -14.69243,
-   "lng": -78.23884
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2270,8 +3041,13 @@
   "country": "Peru",
   "website": "https://asociacionunacem.org",
   "geo": {
-   "lat": -12.53196,
-   "lng": -79.81229
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2285,8 +3061,13 @@
   "country": "Peru",
   "website": "https://chile.angloamerican.com/es-es/fundacion",
   "geo": {
-   "lat": -11.52653,
-   "lng": -75.09922
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2300,8 +3081,13 @@
   "country": "Peru",
   "website": "https://care.org.pe",
   "geo": {
-   "lat": -13.63667,
-   "lng": -79.4064
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2315,8 +3101,13 @@
   "country": "Peru",
   "website": "https://solidaridadlatam.org",
   "geo": {
-   "lat": -13.63922,
-   "lng": -74.44845
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2330,8 +3121,13 @@
   "country": "Peru",
   "website": "https://www.helvetas.org/es/peru",
   "geo": {
-   "lat": -13.87489,
-   "lng": -76.90768
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2345,8 +3141,13 @@
   "country": "Peru",
   "website": "https://www.swisscontact.org/es/donde-trabajamos/peru",
   "geo": {
-   "lat": -11.29032,
-   "lng": -78.91167
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2360,8 +3161,13 @@
   "country": "Peru",
   "website": "https://perusostenible.org",
   "geo": {
-   "lat": -13.64436,
-   "lng": -79.65661
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2375,8 +3181,13 @@
   "country": "Peru",
   "website": "https://www.sistemab.org",
   "geo": {
-   "lat": -12.76996,
-   "lng": -79.99156
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2390,8 +3201,13 @@
   "country": "Peru",
   "website": "https://www.lmas1.org",
   "geo": {
-   "lat": -11.55214,
-   "lng": -78.712
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2405,8 +3221,13 @@
   "country": "Peru",
   "website": "https://www.conservamospornaturaleza.org",
   "geo": {
-   "lat": -13.39052,
-   "lng": -75.40064
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2420,8 +3241,13 @@
   "country": "Peru",
   "website": "https://es.mongabay.com",
   "geo": {
-   "lat": -13.35224,
-   "lng": -77.9399
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2435,8 +3261,13 @@
   "country": "Peru",
   "website": "https://www.actualidadambiental.pe",
   "geo": {
-   "lat": -9.63537,
-   "lng": -77.88853
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2450,8 +3281,13 @@
   "country": "Peru",
   "website": "https://gestion.pe",
   "geo": {
-   "lat": -11.75191,
-   "lng": -75.19383
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2465,8 +3301,13 @@
   "country": "Peru",
   "website": "https://agraria.pe",
   "geo": {
-   "lat": -14.89512,
-   "lng": -78.42748
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2480,8 +3321,13 @@
   "country": "Peru",
   "website": "https://www.iadb.org",
   "geo": {
-   "lat": -12.10478,
-   "lng": -74.17073
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2495,8 +3341,13 @@
   "country": "Peru",
   "website": "https://www.ifc.org",
   "geo": {
-   "lat": -11.91522,
-   "lng": -78.69013
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2510,8 +3361,13 @@
   "country": "Peru",
   "website": "https://www.caf.com",
   "geo": {
-   "lat": -12.93568,
-   "lng": -74.08622
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2525,8 +3381,13 @@
   "country": "Peru",
   "website": "https://www.worldbank.org",
   "geo": {
-   "lat": -12.38799,
-   "lng": -75.8114
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2540,8 +3401,13 @@
   "country": "Peru",
   "website": "https://www.kfw.de",
   "geo": {
-   "lat": -10.85877,
-   "lng": -78.19806
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2555,8 +3421,13 @@
   "country": "Peru",
   "website": "https://www.eib.org",
   "geo": {
-   "lat": -11.76073,
-   "lng": -74.45975
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2570,8 +3441,13 @@
   "country": "Peru",
   "website": "https://www.undp.org/es/peru",
   "geo": {
-   "lat": -13.21856,
-   "lng": -78.57489
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2585,8 +3461,13 @@
   "country": "Peru",
   "website": "https://www.fao.org",
   "geo": {
-   "lat": -13.16403,
-   "lng": -78.1718
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2600,8 +3481,13 @@
   "country": "Peru",
   "website": "https://www.unido.org",
   "geo": {
-   "lat": -13.95133,
-   "lng": -79.6056
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2615,8 +3501,13 @@
   "country": "Peru",
   "website": "https://gggi.org",
   "geo": {
-   "lat": -13.78523,
-   "lng": -78.87753
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2630,8 +3521,13 @@
   "country": "Peru",
   "website": "https://unhabitat.org",
   "geo": {
-   "lat": -13.73104,
-   "lng": -77.86152
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2645,8 +3541,13 @@
   "country": "Peru",
   "website": "https://iica.int",
   "geo": {
-   "lat": -11.24071,
-   "lng": -79.84299
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2660,8 +3561,13 @@
   "country": "Peru",
   "website": "https://www.giz.de",
   "geo": {
-   "lat": -11.27026,
-   "lng": -78.3358
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2675,8 +3581,13 @@
   "country": "Peru",
   "website": "https://www.eda.admin.ch/peru",
   "geo": {
-   "lat": -12.26961,
-   "lng": -74.09077
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2690,8 +3601,13 @@
   "country": "Peru",
   "website": "https://www.euroclima.org",
   "geo": {
-   "lat": -13.82795,
-   "lng": -79.24708
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2705,8 +3621,13 @@
   "country": "Peru",
   "website": "https://www.aecid.es",
   "geo": {
-   "lat": -13.28113,
-   "lng": -78.49023
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2720,8 +3641,13 @@
   "country": "Peru",
   "website": "https://www.afd.fr",
   "geo": {
-   "lat": -13.05625,
-   "lng": -77.00648
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2735,8 +3661,13 @@
   "country": "Peru",
   "website": "https://www.jica.go.jp",
   "geo": {
-   "lat": -13.80744,
-   "lng": -78.26245
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2750,8 +3681,13 @@
   "country": "Peru",
   "website": "https://www.koica.go.kr",
   "geo": {
-   "lat": -13.5784,
-   "lng": -75.74258
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2765,8 +3701,13 @@
   "country": "Peru",
   "website": "https://peru.ahk.de",
   "geo": {
-   "lat": -9.87174,
-   "lng": -75.66493
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2780,8 +3721,13 @@
   "country": "Peru",
   "website": "https://www.amcham.org.pe",
   "geo": {
-   "lat": -9.40328,
-   "lng": -77.43697
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2795,8 +3741,13 @@
   "country": "Peru",
   "website": "https://www.canadaperu.org",
   "geo": {
-   "lat": -10.22342,
-   "lng": -77.77891
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2810,8 +3761,13 @@
   "country": "Peru",
   "website": "https://www.conservation.org",
   "geo": {
-   "lat": -11.0228,
-   "lng": -75.17275
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2825,8 +3781,13 @@
   "country": "Peru",
   "website": "https://www.wwf.org.pe",
   "geo": {
-   "lat": -14.71748,
-   "lng": -75.77155
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2840,8 +3801,13 @@
   "country": "Peru",
   "website": "https://www.nature.org",
   "geo": {
-   "lat": -13.87984,
-   "lng": -77.99436
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2855,8 +3821,13 @@
   "country": "Peru",
   "website": "https://www.forest-trends.org",
   "geo": {
-   "lat": -10.83802,
-   "lng": -79.69803
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2870,8 +3841,13 @@
   "country": "Peru",
   "website": "https://www.rainforest-alliance.org",
   "geo": {
-   "lat": -12.60466,
-   "lng": -75.50195
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2885,8 +3861,13 @@
   "country": "Peru",
   "website": "https://www.avina.net",
   "geo": {
-   "lat": -13.46738,
-   "lng": -75.58237
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2900,8 +3881,13 @@
   "country": "Peru",
   "website": "https://pvblic.org",
   "geo": {
-   "lat": -11.04005,
-   "lng": -76.4886
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2915,8 +3901,13 @@
   "country": "Peru",
   "website": "https://cleantechhub.net",
   "geo": {
-   "lat": -11.58317,
-   "lng": -79.81686
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2929,8 +3920,13 @@
   "category": "startup",
   "country": "Peru",
   "geo": {
-   "lat": -13.73378,
-   "lng": -77.08863
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2944,8 +3940,13 @@
   "country": "Peru",
   "nexus_url": "https://nexus.cleantechhub.net/s/yakusmart",
   "geo": {
-   "lat": -11.64232,
-   "lng": -77.38602
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2959,8 +3960,13 @@
   "country": "Peru",
   "nexus_url": "https://nexus.cleantechhub.net/s/vigia",
   "geo": {
-   "lat": -10.0027,
-   "lng": -75.60264
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2973,8 +3979,13 @@
   "category": "startup",
   "country": "Peru",
   "geo": {
-   "lat": -9.99235,
-   "lng": -77.5059
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -2987,8 +3998,13 @@
   "category": "startup",
   "country": "Peru",
   "geo": {
-   "lat": -11.51367,
-   "lng": -77.83957
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3001,8 +4017,13 @@
   "category": "startup",
   "country": "Peru",
   "geo": {
-   "lat": -12.30994,
-   "lng": -76.69885
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3017,8 +4038,13 @@
   "city": "San Salvador",
   "website": "https://pomonaimpact.com",
   "geo": {
-   "lat": 13.77687,
-   "lng": -88.69452
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3033,8 +4059,13 @@
   "city": "San Salvador",
   "website": "https://viwala.com",
   "geo": {
-   "lat": 12.68277,
-   "lng": -88.71755
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3049,8 +4080,13 @@
   "city": "San Salvador",
   "website": "https://fiaes.org.sv",
   "geo": {
-   "lat": 12.99837,
-   "lng": -89.06473
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3065,8 +4101,13 @@
   "city": "San Salvador",
   "website": "https://atlantidacapital.com.sv",
   "geo": {
-   "lat": 14.28864,
-   "lng": -88.49207
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3081,8 +4122,13 @@
   "city": "San Salvador",
   "website": "https://www.bancoazul.com",
   "geo": {
-   "lat": 14.79138,
-   "lng": -88.44708
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3097,8 +4143,13 @@
   "city": "San Salvador",
   "website": "https://www.bancohipotecario.com.sv",
   "geo": {
-   "lat": 12.85968,
-   "lng": -88.74155
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3113,8 +4164,13 @@
   "city": "San Salvador",
   "website": "https://www.bancoatlantida.com.sv",
   "geo": {
-   "lat": 12.4894,
-   "lng": -89.13709
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3129,8 +4185,13 @@
   "city": "San Salvador",
   "website": "https://www.bancoagricola.com",
   "geo": {
-   "lat": 15.04879,
-   "lng": -89.37005
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3145,8 +4206,13 @@
   "city": "San Salvador",
   "website": "https://www.bandesal.gob.sv",
   "geo": {
-   "lat": 13.12886,
-   "lng": -89.3707
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3161,8 +4227,13 @@
   "city": "San Salvador",
   "website": "https://www.sisa.com.sv",
   "geo": {
-   "lat": 14.07202,
-   "lng": -89.85445
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3177,8 +4248,13 @@
   "city": "San Salvador",
   "website": "https://ases.org.sv",
   "geo": {
-   "lat": 13.87388,
-   "lng": -88.03487
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3193,8 +4269,13 @@
   "city": "San Salvador",
   "website": "https://www.arca.com.sv",
   "geo": {
-   "lat": 13.7801,
-   "lng": -88.4068
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3209,8 +4290,13 @@
   "city": "San Salvador",
   "website": "https://www.polaris.com.sv",
   "geo": {
-   "lat": 13.30364,
-   "lng": -90.14164
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3225,8 +4311,13 @@
   "city": "San Salvador",
   "website": "https://sostenibilidad.davivienda.com",
   "geo": {
-   "lat": 13.99104,
-   "lng": -89.16963
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3241,8 +4332,13 @@
   "city": "San Salvador",
   "website": "https://www.bcie.org",
   "geo": {
-   "lat": 14.19797,
-   "lng": -90.19092
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3257,8 +4353,13 @@
   "city": "San Salvador",
   "website": "https://www.fideagro.org",
   "geo": {
-   "lat": 12.95914,
-   "lng": -89.75705
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3273,8 +4374,13 @@
   "city": "San Salvador",
   "website": "https://www.baccredomatic.com",
   "geo": {
-   "lat": 14.508,
-   "lng": -89.46079
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3289,8 +4395,13 @@
   "city": "San Salvador",
   "website": "https://cafi.vc",
   "geo": {
-   "lat": 13.76197,
-   "lng": -89.16463
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3305,8 +4416,13 @@
   "city": "San Salvador",
   "website": "https://ia-gros.com",
   "geo": {
-   "lat": 12.81031,
-   "lng": -89.29746
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3320,8 +4436,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "geo": {
-   "lat": 12.51283,
-   "lng": -89.45692
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3336,8 +4457,13 @@
   "city": "San Salvador",
   "website": "https://ipsalatinoamerica.com",
   "geo": {
-   "lat": 14.15737,
-   "lng": -90.37193
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3352,8 +4478,13 @@
   "city": "San Salvador",
   "website": "https://www.ternova.group",
   "geo": {
-   "lat": 13.38732,
-   "lng": -90.03602
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3368,8 +4499,13 @@
   "city": "San Salvador",
   "website": "https://agrisal.com",
   "geo": {
-   "lat": 14.34658,
-   "lng": -88.54641
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3384,8 +4520,13 @@
   "city": "San Salvador",
   "website": "https://laconstancia.com",
   "geo": {
-   "lat": 12.61527,
-   "lng": -89.15515
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3400,8 +4541,13 @@
   "city": "San Salvador",
   "website": "https://grupoferromax.com",
   "geo": {
-   "lat": 12.91825,
-   "lng": -88.64162
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3416,8 +4562,13 @@
   "city": "San Salvador",
   "website": "https://www.superselectos.com",
   "geo": {
-   "lat": 12.69192,
-   "lng": -88.63134
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3432,8 +4583,13 @@
   "city": "San Salvador",
   "website": "https://www.aes-elsalvador.com",
   "geo": {
-   "lat": 14.0115,
-   "lng": -90.14939
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3448,8 +4604,13 @@
   "city": "San Salvador",
   "website": "https://camarasal.com",
   "geo": {
-   "lat": 13.61668,
-   "lng": -90.43824
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3464,8 +4625,13 @@
   "city": "San Salvador",
   "website": "https://casalco.org.sv",
   "geo": {
-   "lat": 13.81482,
-   "lng": -89.6267
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3480,8 +4646,13 @@
   "city": "San Salvador",
   "website": "https://camtex.com.sv",
   "geo": {
-   "lat": 12.8413,
-   "lng": -89.16732
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3496,8 +4667,13 @@
   "city": "San Salvador",
   "website": "https://facebook.com/camagro.sv",
   "geo": {
-   "lat": 12.78502,
-   "lng": -90.28384
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3512,8 +4688,13 @@
   "city": "San Salvador",
   "website": "https://industriaelsalvador.com",
   "geo": {
-   "lat": 13.92529,
-   "lng": -90.56854
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3528,8 +4709,13 @@
   "city": "San Salvador",
   "website": "https://www.ambiente.gob.sv",
   "geo": {
-   "lat": 12.83925,
-   "lng": -89.58164
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3544,8 +4730,13 @@
   "city": "San Salvador",
   "website": "https://www.economia.gob.sv",
   "geo": {
-   "lat": 13.54364,
-   "lng": -88.8619
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3560,8 +4751,13 @@
   "city": "San Salvador",
   "website": "https://www.mag.gob.sv",
   "geo": {
-   "lat": 14.87656,
-   "lng": -89.69793
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3576,8 +4772,13 @@
   "city": "San Salvador",
   "website": "https://www.conamype.gob.sv",
   "geo": {
-   "lat": 14.45663,
-   "lng": -90.09689
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3592,8 +4793,13 @@
   "city": "San Salvador",
   "website": "https://www.centa.gob.sv",
   "geo": {
-   "lat": 13.64305,
-   "lng": -89.34545
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3608,8 +4814,13 @@
   "city": "San Salvador",
   "website": "https://investinelsalvador.gob.sv",
   "geo": {
-   "lat": 14.45008,
-   "lng": -88.77294
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3624,8 +4835,13 @@
   "city": "San Salvador",
   "website": "https://esco.gob.sv",
   "geo": {
-   "lat": 14.78379,
-   "lng": -89.17623
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3640,8 +4856,13 @@
   "city": "San Salvador",
   "website": "https://sansalvador.impacthub.net",
   "geo": {
-   "lat": 13.06368,
-   "lng": -88.59288
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3656,8 +4877,13 @@
   "city": "San Salvador",
   "website": "https://pvblic.org/rein-hubs",
   "geo": {
-   "lat": 12.79983,
-   "lng": -88.74743
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3672,8 +4898,13 @@
   "city": "San Salvador",
   "website": "https://www.utec.edu.sv",
   "geo": {
-   "lat": 14.54746,
-   "lng": -88.12712
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3688,8 +4919,13 @@
   "city": "San Salvador",
   "website": "https://snbx.sv",
   "geo": {
-   "lat": 14.49729,
-   "lng": -88.94548
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3704,8 +4940,13 @@
   "city": "San Salvador",
   "website": "https://fundaciongloriakriete.org",
   "geo": {
-   "lat": 12.6375,
-   "lng": -89.43117
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3720,8 +4961,13 @@
   "city": "San Salvador",
   "website": "https://www.startupbootcamp.org",
   "geo": {
-   "lat": 13.42721,
-   "lng": -90.50783
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3736,8 +4982,13 @@
   "city": "San Salvador",
   "website": "https://www.utec.edu.sv",
   "geo": {
-   "lat": 12.32014,
-   "lng": -89.08852
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3752,8 +5003,13 @@
   "city": "San Salvador",
   "website": "https://www.ues.edu.sv",
   "geo": {
-   "lat": 14.43566,
-   "lng": -88.17652
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3768,8 +5024,13 @@
   "city": "San Salvador",
   "website": "https://keyinstitute.com",
   "geo": {
-   "lat": 13.56963,
-   "lng": -88.30103
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3784,8 +5045,13 @@
   "city": "San Salvador",
   "website": "https://www.uca.edu.sv",
   "geo": {
-   "lat": 13.66613,
-   "lng": -89.09445
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3800,8 +5066,13 @@
   "city": "San Salvador",
   "website": "https://www.esen.edu.sv",
   "geo": {
-   "lat": 12.4442,
-   "lng": -89.0527
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3816,8 +5087,13 @@
   "city": "San Salvador",
   "website": "https://tcsgo.com",
   "geo": {
-   "lat": 12.89484,
-   "lng": -90.1484
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3832,8 +5108,13 @@
   "city": "San Salvador",
   "website": "https://www.canal12.com.sv",
   "geo": {
-   "lat": 12.83421,
-   "lng": -88.55612
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3848,8 +5129,13 @@
   "city": "San Salvador",
   "website": "https://www.canal21.com.sv",
   "geo": {
-   "lat": 13.08934,
-   "lng": -89.65858
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3864,8 +5150,13 @@
   "city": "San Salvador",
   "website": "https://www.canal10.gob.sv",
   "geo": {
-   "lat": 13.93083,
-   "lng": -88.6176
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3880,8 +5171,13 @@
   "city": "San Salvador",
   "website": "https://www.laprensagrafica.com",
   "geo": {
-   "lat": 14.69823,
-   "lng": -89.2924
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3896,8 +5192,13 @@
   "city": "San Salvador",
   "website": "https://www.elsalvador.com",
   "geo": {
-   "lat": 14.66101,
-   "lng": -88.88809
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3912,8 +5213,13 @@
   "city": "San Salvador",
   "website": "https://diario.elmundo.sv",
   "geo": {
-   "lat": 12.80038,
-   "lng": -88.72716
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3928,8 +5234,13 @@
   "city": "San Salvador",
   "website": "https://gatoencerrado.news",
   "geo": {
-   "lat": 13.64073,
-   "lng": -89.82054
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3944,8 +5255,13 @@
   "city": "San Salvador",
   "website": "https://fundaciongloriakriete.org",
   "geo": {
-   "lat": 13.49603,
-   "lng": -89.15247
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3960,8 +5276,13 @@
   "city": "San Salvador",
   "website": "https://fundemas.org.sv",
   "geo": {
-   "lat": 14.28575,
-   "lng": -88.01163
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3976,8 +5297,13 @@
   "city": "San Salvador",
   "website": "https://fundacioncolabora.com",
   "geo": {
-   "lat": 14.09768,
-   "lng": -89.77216
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -3992,8 +5318,13 @@
   "city": "San Salvador",
   "website": "https://www.fao.org/elsalvador",
   "geo": {
-   "lat": 13.21685,
-   "lng": -89.19137
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -4008,8 +5339,13 @@
   "city": "San Salvador",
   "website": "https://www.undp.org/es/el-salvador",
   "geo": {
-   "lat": 13.79871,
-   "lng": -87.86711
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -4024,8 +5360,13 @@
   "city": "San Salvador",
   "website": "https://www.unep.org",
   "geo": {
-   "lat": 14.44298,
-   "lng": -89.43378
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -4040,8 +5381,13 @@
   "city": "San Salvador",
   "website": "https://www.bancomundial.org/es/country/elsalvador",
   "geo": {
-   "lat": 13.18474,
-   "lng": -90.08982
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -4056,8 +5402,13 @@
   "city": "San Salvador",
   "website": "https://www.iadb.org/es",
   "geo": {
-   "lat": 13.65861,
-   "lng": -90.48975
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -4072,8 +5423,13 @@
   "city": "San Salvador",
   "website": "https://gggi.org",
   "geo": {
-   "lat": 14.0772,
-   "lng": -87.98389
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -4088,8 +5444,13 @@
   "city": "San Salvador",
   "website": "https://www.cepal.org",
   "geo": {
-   "lat": 12.45856,
-   "lng": -88.57158
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -4104,8 +5465,13 @@
   "city": "San Salvador",
   "website": "https://www.iom.int",
   "geo": {
-   "lat": 14.72677,
-   "lng": -89.36834
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -4120,8 +5486,13 @@
   "city": "San Salvador",
   "website": "https://www.giz.de",
   "geo": {
-   "lat": 14.21923,
-   "lng": -89.57533
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -4136,8 +5507,13 @@
   "city": "San Salvador",
   "website": "https://aecid.sv",
   "geo": {
-   "lat": 14.47629,
-   "lng": -90.30823
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -4151,8 +5527,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "geo": {
-   "lat": 14.28862,
-   "lng": -90.29745
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -4167,8 +5548,13 @@
   "city": "San Salvador",
   "website": "https://www.crs.org",
   "geo": {
-   "lat": 13.07884,
-   "lng": -89.08051
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -4183,8 +5569,13 @@
   "city": "San Salvador",
   "website": "https://san-salvador.diplo.de",
   "geo": {
-   "lat": 13.59848,
-   "lng": -88.58873
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -4198,8 +5589,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "geo": {
-   "lat": 14.66327,
-   "lng": -90.08693
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -4213,8 +5609,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "geo": {
-   "lat": 13.78925,
-   "lng": -90.30079
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -4229,8 +5630,13 @@
   "city": "San Salvador",
   "website": "https://www.sv.emb-japan.go.jp",
   "geo": {
-   "lat": 12.50728,
-   "lng": -89.35628
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": "San Salvador",
+   "country": "El Salvador",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -4244,8 +5650,13 @@
   "country": "Colombia",
   "website": "https://fenoge.gov.co",
   "geo": {
-   "lat": 5.15987,
-   "lng": -75.15467
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -4259,8 +5670,13 @@
   "country": "Colombia",
   "website": "https://www.bancoldex.com",
   "geo": {
-   "lat": 5.67506,
-   "lng": -73.33384
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -4274,8 +5690,13 @@
   "country": "Colombia",
   "website": "https://www.greenclimate.fund",
   "geo": {
-   "lat": 4.71394,
-   "lng": -72.92357
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -4289,8 +5710,13 @@
   "country": "Colombia",
   "website": "https://www.cif.org",
   "geo": {
-   "lat": 5.51954,
-   "lng": -73.27907
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -4304,8 +5730,13 @@
   "country": "Colombia",
   "website": "https://www.minenergia.gov.co",
   "geo": {
-   "lat": 5.86388,
-   "lng": -73.92246
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -4319,8 +5750,13 @@
   "country": "Colombia",
   "website": "https://www.creg.gov.co",
   "geo": {
-   "lat": 5.48975,
-   "lng": -73.94311
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -4334,8 +5770,13 @@
   "country": "Colombia",
   "website": "https://www1.upme.gov.co",
   "geo": {
-   "lat": 3.69861,
-   "lng": -74.62014
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -4349,8 +5790,13 @@
   "country": "Colombia",
   "website": "https://ipse.gov.co",
   "geo": {
-   "lat": 4.73087,
-   "lng": -72.67999
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null

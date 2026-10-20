@@ -27,15 +27,26 @@ def jitter(actor_id: str, spread: float = 2.8) -> tuple[float, float]:
 
 
 def geocode_actor(a: dict) -> dict:
+    """Fallback only: country-level placeholder (no jitter, no map pin)."""
+    existing = a.get("geo") or {}
+    prec = existing.get("precision")
+    if prec in ("address", "city") and existing.get("lat") is not None:
+        return {**a, "geo": existing}
+    if prec == "country":
+        return {**a, "geo": existing}
     country = a.get("country") or "Peru"
-    base = ANCHORS.get(country, (-15.0, -60.0))
-    if a.get("city") == "San Salvador":
-        base = (13.6929, -89.2182)
-    spread = 3.2 if country == "Peru" else 1.4
-    dx, dy = jitter(a["id"], spread)
-    lat = base[0] + dx
-    lng = base[1] + dy
-    out = {**a, "geo": {"lat": round(lat, 5), "lng": round(lng, 5)}}
+    out = {
+        **a,
+        "geo": {
+            "lat": None,
+            "lng": None,
+            "address": None,
+            "city": a.get("city"),
+            "country": country,
+            "precision": "country",
+            "source_url": existing.get("source_url"),
+        },
+    }
     return out
 
 

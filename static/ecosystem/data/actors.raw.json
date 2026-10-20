@@ -5,14 +5,23 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
+  "city": "Imaza",
   "website": "https://www.amazoniaimpactventures.com",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Amazonia Impact Ventures Inversión de impacto en negocios amazónicosFinancia bionegocios y cadenas de valor que conservan el bosque",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -5.058604,
+   "lng": -78.33194,
+   "address": "Avenida Imaza None, Imaza, Perú",
+   "city": "Imaza",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Amazonia+Impact+Ventures%2C+Peru&limit=5 (q=Amazonia Impact Ventures, Peru) (name-country)"
+  }
  },
  {
   "id": "pe-profonanpe",
@@ -20,14 +29,23 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
+  "city": "Lima",
   "website": "https://profonanpe.org.pe",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Profonanpe Fondo ambiental privado del PerúCanaliza fondos climáticos internacionales hacia conservación y adaptación",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.045981,
+   "lng": -77.030591,
+   "address": "Lima, Perú",
+   "city": "Lima",
+   "country": "Peru",
+   "precision": "city",
+   "source_url": "https://photon.komoot.io/api/?q=Profonanpe%2C+Lima%2C+Peru&limit=5 (q=Profonanpe, Lima, Peru) (name-capital)"
+  }
  },
  {
   "id": "pe-andes-amazon-fund",
@@ -35,14 +53,23 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
+  "city": "San Carlos",
   "website": "https://www.andesamazonfund.org",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Andes Amazon Fund Fondo filantrópico para conservación en la Amazonía andinaApoya áreas protegidas y comunidades que pueden alojar bionegocios",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -6.056373,
+   "lng": -77.895141,
+   "address": "Puente La Golondrina None, San Carlos, Perú",
+   "city": "San Carlos",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Andes+Amazon+Fund%2C+Peru&limit=5 (q=Andes Amazon Fund, Peru) (name-country)"
+  }
  },
  {
   "id": "pe-pecap-asociacion-peruana-de-capital-semilla-y-empr",
@@ -57,7 +84,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "PECAP Asociación Peruana de Capital Semilla y EmprendedorConecta fondos con startups; organiza el Peru Venture Capital Conference",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-angel-ventures-peru",
@@ -65,14 +101,23 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
+  "city": "Lima",
   "website": "https://www.angelventures.vc",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Angel Ventures Perú Red de inversionistas ángeles y fondo de VCTicket temprano para startups, incluidas verdes",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.045558,
+   "lng": -77.006318,
+   "address": "Lima, Perú",
+   "city": "Lima",
+   "country": "Peru",
+   "precision": "city",
+   "source_url": "https://photon.komoot.io/api/?q=Angel+Ventures+Per%C3%BA%2C+Lima%2C+Peru&limit=5 (q=Angel Ventures Perú, Lima, Peru) (name-capital)"
+  }
  },
  {
   "id": "pe-utec-ventures",
@@ -80,14 +125,23 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": null,
+  "city": "Lima",
   "website": "https://utecventures.com",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "UTEC Venture Aceleradora e inversión ángel de UTECAcelera e invierte en startups de base tecnológica, incluidas cleantech",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.135135,
+   "lng": -77.02213,
+   "address": "Jirón Medrano Silva 165, Lima, Perú",
+   "city": "Lima",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://utecventures.com"
+  }
  },
  {
   "id": "pe-krealo-credicorp",
@@ -95,14 +149,23 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
+  "city": "Lince",
   "website": "https://krealo.vc",
   "website_ok": false,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Krealo (Credicorp), GRIO (Grupo Romero), Wayra Perú Venture capital corporativoInnovación abierta con grandes grupos que pueden ser clientes de soluciones climáticas",
-  "website_check": "000"
+  "website_check": "000",
+  "geo": {
+   "lat": -12.083404,
+   "lng": -77.043909,
+   "address": "Jirón Brigadier Mateo Pumacahua None, Lince, Perú",
+   "city": "Lince",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Krealo+%28Credicorp%29%2C+Lima%2C+Peru&limit=5 (q=Krealo (Credicorp), Lima, Peru) (name-capital)"
+  }
  },
  {
   "id": "pe-grio-grupo-romero",
@@ -110,14 +173,23 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
+  "city": "Villa María del Triunfo",
   "website": "https://www.gruporomero.com.pe",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.166407,
+   "lng": -76.950625,
+   "address": "Avenida Villa María None, Villa María del Triunfo, Perú",
+   "city": "Villa María del Triunfo",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=GRIO+%28Grupo+Romero%29%2C+Lima%2C+Peru&limit=5 (q=GRIO (Grupo Romero), Lima, Peru) (name-capital)"
+  }
  },
  {
   "id": "pe-wayra-peru",
@@ -125,14 +197,23 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
+  "city": "Lima",
   "website": "https://www.wayra.com",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.062021,
+   "lng": -77.019603,
+   "address": "Avenida 28 de Julio None, Lima, Perú",
+   "city": "Lima",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Wayra+Per%C3%BA%2C+Lima%2C+Peru&limit=5 (q=Wayra Perú, Lima, Peru) (name-capital)"
+  }
  },
  {
   "id": "pe-mirova-natural-capital",
@@ -147,7 +228,16 @@
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Mirova Natural Capital Financia soluciones basadas en la naturaleza y carbono forestalGestora de inversión en capital natural",
-  "website_check": "206"
+  "website_check": "206",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Peru",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "pe-ecoenterprises-fund",
@@ -155,14 +245,23 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
+  "city": "Lima",
   "website": "https://ecoenterprisesfund.com",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "EcoEnterprises Fund Fondo de capital para negocios sostenibles en LatinoaméricaInvierte en empresas de agro y bosques con impacto ambiental",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.085529,
+   "lng": -76.970701,
+   "address": "Javier Prado Este 4600, Lima, Perú",
+   "city": "Lima",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=EcoEnterprises+Fund%2C+Lima%2C+Peru&limit=5 (q=EcoEnterprises Fund, Lima, Peru) (name-capital)"
+  }
  },
  {
   "id": "pe-oikocredit",
@@ -170,14 +269,23 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
+  "city": "Lima",
   "website": "https://www.oikocredit.org",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Oikocredit, Incofin, Triple Jump, responsAbility, BlueOrchard, AlterfinDeuda de impacto para microfinanzas y agroFondean a microfinancieras peruanas que prestan a productores y pymes verdes",
-  "website_check": "403"
+  "website_check": "403",
+  "geo": {
+   "lat": -12.045981,
+   "lng": -77.030591,
+   "address": "Lima, Perú",
+   "city": "Lima",
+   "country": "Peru",
+   "precision": "city",
+   "source_url": "https://photon.komoot.io/api/?q=Oikocredit%2C+Lima%2C+Peru&limit=5 (q=Oikocredit, Lima, Peru) (name-capital)"
+  }
  },
  {
   "id": "pe-incofin",
@@ -185,14 +293,23 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
+  "city": "Lima",
   "website": "https://incofin.com",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.069166,
+   "lng": -77.079935,
+   "address": "Avenida Universitaria 1801, Lima, Perú",
+   "city": "Lima",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Incofin%2C+Lima%2C+Peru&limit=5 (q=Incofin, Lima, Peru) (name-capital)"
+  }
  },
  {
   "id": "pe-triple-jump",
@@ -200,14 +317,23 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
+  "city": "Santiago de Surco",
   "website": "https://triplejump.eu",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.085564,
+   "lng": -76.975323,
+   "address": "Javier Prado Este 4200, Santiago de Surco, Perú",
+   "city": "Santiago de Surco",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Triple+Jump%2C+Lima%2C+Peru&limit=5 (q=Triple Jump, Lima, Peru) (name-capital)"
+  }
  },
  {
   "id": "pe-responsability",
@@ -215,14 +341,23 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
+  "city": "Lima",
   "website": "https://www.responsability.com",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "206"
+  "website_check": "206",
+  "geo": {
+   "lat": -12.045981,
+   "lng": -77.030591,
+   "address": "Lima, Perú",
+   "city": "Lima",
+   "country": "Peru",
+   "precision": "city",
+   "source_url": "https://photon.komoot.io/api/?q=responsAbility%2C+Lima%2C+Peru&limit=5 (q=responsAbility, Lima, Peru) (name-capital)"
+  }
  },
  {
   "id": "pe-blueorchard",
@@ -230,14 +365,23 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
+  "city": "Lima",
   "website": "https://www.blueorchard.com",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.045981,
+   "lng": -77.030591,
+   "address": "Lima, Perú",
+   "city": "Lima",
+   "country": "Peru",
+   "precision": "city",
+   "source_url": "https://photon.komoot.io/api/?q=BlueOrchard%2C+Lima%2C+Peru&limit=5 (q=BlueOrchard, Lima, Peru) (name-capital)"
+  }
  },
  {
   "id": "pe-alterfin",
@@ -245,14 +389,23 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
+  "city": "Lima",
   "website": "https://www.alterfin.be",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": -12.069166,
+   "lng": -77.079935,
+   "address": "Avenida Universitaria 1801, Lima, Perú",
+   "city": "Lima",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Alterfin%2C+Lima%2C+Peru&limit=5 (q=Alterfin, Lima, Peru) (name-capital)"
+  }
  },
  {
   "id": "pe-acumen",
@@ -260,14 +413,23 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": null,
+  "city": "Lima",
   "website": "https://acumen.org",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHXkXRp9uc",
   "page": null,
   "notes": "Acumen, Mercy Corps Ventures, Accion Venture Lab, ALIVE Ventures Inversionistas de impacto en etapa tempranaInvierten en startups que resuelven problemas sociales y climáticos",
-  "website_check": "403"
+  "website_check": "403",
+  "geo": {
+   "lat": -12.069166,
+   "lng": -77.079935,
+   "address": "Avenida Universitaria 1801, Lima, Perú",
+   "city": "Lima",
+   "country": "Peru",
+   "precision": "address",
+   "source_url": "https://photon.komoot.io/api/?q=Acumen%2C+Lima%2C+Peru&limit=5 (q=Acumen, Lima, Peru) (name-capital)"
+  }
  },
  {
   "id": "pe-mercy-corps-ventures",

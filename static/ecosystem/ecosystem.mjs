@@ -6,6 +6,13 @@ import {
   computeChapterEdgeCounts,
   isChallengeId,
 } from './story.mjs';
+import {
+  countryBadgeCounts,
+  countryBadgeGeoJson,
+  geoXY,
+  hasPlottableGeo,
+  isLocationUnknown,
+} from './geo-utils.mjs';
 
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -89,6 +96,8 @@ const I18N = {
     typedRelations: 'Relaciones tipadas',
     noResults: 'Sin resultados con estos filtros.',
     noRelations: 'Sin relaciones en datos.',
+    geoUnknownTitle: 'Ubicación en mapa pendiente',
+    geoUnknownHint: 'Sin pin individual (precisión país o sin geocodificar). Agrupados por país en el mapa.',
     storyRailIntro: 'Recorrido staff: misma vista mapa + red + inspector. Capítulo 5 propone alianzas con aristas Suggested.',
     storyCounts: 'Conteo por capítulo',
     storySuggestedHint: 'Capítulo 5 puede proponer hub/startup/funder sugeridos; no sustituye relaciones verificadas.',
@@ -128,6 +137,8 @@ const I18N = {
     typedRelations: 'Typed relations',
     noResults: 'No results with these filters.',
     noRelations: 'No relations in data.',
+    geoUnknownTitle: 'Map location pending',
+    geoUnknownHint: 'No individual pin (country precision or not geocoded). Grouped by country badge on the map.',
     storyRailIntro: 'Staff walkthrough: same map + network + inspector. Chapter 5 adds Suggested partnership edges.',
     storyCounts: 'Per-chapter edge counts',
     storySuggestedHint: 'Chapter 5 may suggest hub/startup/funder paths; not verified relationships.',
@@ -359,11 +370,6 @@ function initTabs() {
   });
 }
 
-function geoXY(a) {
-  const g = a.geo || { lat: 0, lng: 0 };
-  return { x: (g.lng + 85) * 10, y: (-g.lat - 18) * 10 };
-}
-
 /** Lightweight ForceAtlas2-style layout (no Node deps); mirrors graphology FA2 pass. */
 function runForceLayout(g, iterations) {
   const nodes = g.nodes();
@@ -560,7 +566,7 @@ function initMap() {
 
 function actorsGeoJson(ids, virtualNodes = []) {
   const features = actors
-    .filter((a) => ids.has(a.id) && a.geo)
+    .filter((a) => ids.has(a.id) && hasPlottableGeo(a))
     .map((a) => ({
       type: 'Feature',
       properties: {
@@ -589,10 +595,12 @@ function updateMapLayers(scene = null) {
   if (!map || !mapReady) return;
   const ids = scene ? scene.nodeIds : visibleActorIds();
   const data = actorsGeoJson(ids, scene?.virtualNodes || []);
+  const badges = countryBadgeGeoJson(countryBadgeCounts(actors, ids));
 
   const apply = () => {
     if (!map.getSource('actors')) {
       map.addSource('actors', { type: 'geojson', data, cluster: true, clusterMaxZoom: 11, clusterRadius: 46 });
+      map.addSource('country-badges', { type: 'geojson', data: badges });
       map.addLayer({
         id: 'clusters',
         type: 'circle',
@@ -639,15 +647,32 @@ function updateMapLayers(scene = null) {
       });
       map.on('mouseenter', 'pins', () => { map.getCanvas().style.cursor = 'pointer'; });
       map.on('mouseleave', 'pins', () => { map.getCanvas().style.cursor = ''; });
+      map.addLayer({
+        id: 'country-badges',
+        type: 'symbol',
+        source: 'country-badges',
+        layout: {
+          'text-field': ['concat', ['get', 'country'], ' · ', ['to-string', ['get', 'count']]],
+          'text-size': 11,
+          'text-anchor': 'center',
+        },
+        paint: {
+          'text-color': '#0c498a',
+          'text-halo-color': '#fff',
+          'text-halo-width': 2,
+        },
+      });
     } else {
       map.getSource('actors').setData(data);
+      if (map.getSource('country-badges')) map.getSource('country-badges').setData(badges);
     }
   };
   apply();
+  renderGeoUnknownPanel(ids);
 }
 
 function flyToActor(a) {
-  if (!map || !a?.geo) return;
+  if (!map || !hasPlottableGeo(a)) return;
   const opts = { center: [a.geo.lng, a.geo.lat], zoom: Math.max(map.getZoom(), 5.4) };
   if (reducedMotion) map.jumpTo(opts);
   else map.flyTo({ ...opts, speed: 0.85, essential: true });
@@ -786,6 +811,34 @@ function renderCards(list) {
     };
     card.addEventListener('click', open);
     card.addEventListener('keydown', (e) => { if (e.key === 'Enter') open(); });
+  });
+}
+
+function renderGeoUnknownPanel(ids) {
+  const el = $('#geo-unknown-panel');
+  if (!el) return;
+  const tr = t();
+  const list = actors.filter((a) => ids.has(a.id) && isLocationUnknown(a));
+  if (!list.length) {
+    el.classList.add('hidden');
+    el.innerHTML = '';
+    return;
+  }
+  el.classList.remove('hidden');
+  const byCountry = new Map();
+  list.forEach((a) => {
+    byCountry.set(a.country, (byCountry.get(a.country) || 0) + 1);
+  });
+  const summary = [...byCountry.entries()].map(([c, n]) => `${esc(c)} (${n})`).join(' · ');
+  el.innerHTML = `
+    <summary>${esc(tr.geoUnknownTitle)} (${list.length})</summary>
+    <p class="geo-unknown-hint">${esc(tr.geoUnknownHint)}</p>
+    <p class="geo-unknown-summary">${summary}</p>
+    <ul class="geo-unknown-list">${list.slice(0, 40).map((a) =>
+    `<li><button type="button" class="geo-unknown-item" data-id="${esc(a.id)}">${esc(a.name)}</button></li>`,
+  ).join('')}${list.length > 40 ? `<li>… +${list.length - 40}</li>` : ''}</ul>`;
+  el.querySelectorAll('.geo-unknown-item').forEach((btn) => {
+    btn.addEventListener('click', () => selectActor(btn.dataset.id));
   });
 }
 
