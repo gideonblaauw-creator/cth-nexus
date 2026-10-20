@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-16",
+  "source_html": "/opt/cth-nexus/static/mentor-directory/index.html",
+  "source_xlsx": "/opt/cth-nexus/data/CTH_Master_Mentors.xlsx",
+  "archive_originals": "/opt/nexus-idea-browser/Archive/mentor-photos-20261016/originals",
+  "total": 36,
+  "photos_found": 29,
+  "photos_pending": 7,
+  "descriptions_added": 36,
+  "assets_dir": "/var/www/nexus-assets/mentors",
+  "blockers": [
+    "unavatar.io returned HTTP 429 for this VPS after bulk fetch; LinkedIn direct access blocked (HTTP 999).",
+    "Remaining PENDIENTE mentors need manual photo URLs (org team pages, Sched, Torre, etc.) or unavatar retry from a fresh IP/rate-limit window."
+  ],
+  "second_pass_applied": [
+    "M002",
+    "M029",
+    "M052",
+    "M059",
+    "M062",
+    "M065",
+    "M069",
+    "M070",
+    "M073"
+  ],
+  "notes": "Second pass: org/news/conference portraits only; no unavatar/LinkedIn. Added 9 photos this run."
+}
