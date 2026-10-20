@@ -8,16 +8,38 @@
   "policy": {
     "total": 59,
     "by_type": {
-      "runs_program": 8,
-      "participates": 2,
+      "benefits": 3,
       "created": 1,
+      "eligible": 3,
+      "enables": 10,
+      "finances": 2,
+      "implements": 14,
+      "issues": 9,
+      "oversees": 7,
+      "participates": 2,
+      "regulates_layer": 3,
       "runs_initiative": 1,
-      "oversees": 11,
-      "regulates_layer": 4,
-      "issues": 10,
-      "implements": 12,
-      "enables": 7,
-      "finances": 3
+      "runs_program": 4
+    },
+    "policy_nodes": 46,
+    "relations_patch": 47,
+    "verified_edges": 39,
+    "suggested_edges": 8,
+    "policies_by_country": {
+      "Peru": 12,
+      "Colombia": 10,
+      "El Salvador": 8,
+      "Guatemala": 8,
+      "Costa Rica": 8
+    },
+    "policies_by_instrument": {
+      "law": 16,
+      "strategy": 15,
+      "NDC": 5,
+      "regulation": 1,
+      "incentive": 6,
+      "taxonomy": 2,
+      "tax": 1
     }
   },
   "capital": {

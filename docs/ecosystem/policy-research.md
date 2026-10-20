@@ -1,105 +1,85 @@
 # Nexus Ecosystem — Policy dataset (staged)
 
 **Branch:** `research/ecosystem-policy` (from `research/ecosystem-directions` @ `486f2c7`)  
-**Artifacts:** `data/policies.json`, `policy_relations.json` (repo root)  
-**Deploy:** none — research/staging only; prototype reads symlinks under `docs/ecosystem/prototypes/`.
+**Artifacts:** `data/policies.json`, `data/policy_relations.json` (patch merged in D5 prototype only — not deployed to `static/ecosystem/`)
 
 ## Method
 
-1. **Scope** — Ecosystem countries named in the product brief (Colombia, Peru, El Salvador, Guatemala, Costa Rica) plus any country present in `docs/ecosystem/prototype/data/actors.json` (currently **CO, PE, SV** only; GT/CR policies staged without government actor links).
-2. **Policy nodes** — One row per citable instrument (`type: "Policy"`), with `instrument` ∈ {law, NDC, tax, taxonomy, incentive, regulation, strategy}, sector tags aligned to Nexus challenge themes (`agua`, `bosques`, `energía`, `adaptación`, etc.), and **`source_url` on every row**.
-3. **Relations** — Drawn only when a primary source supports the edge. `verified: true` + `source_url` → solid edges in D5v2 guide mode; `suggested: true` → dashed (sector/challenge fit without a direct legal citation).
-4. **Actor linkage** — Existing `government` (and program) slugs in `actors.json` linked via `issues` / `oversees` / `implements` / `runs_program` / `regulates_layer`. Legacy org→program edges from Canva remain; parallel edges to formal `policy:*` nodes enrich chapter 2 without removing D1 data.
-5. **Peru national laws** — No separate Peru-only policy branch was visible on `origin` at staging time; Peru framework laws (30754, 28611, etc.) are included here. Drop or dedupe if a parallel job lands the same IDs.
-6. **Sources (priority)** — [Climate Policy Database](https://climatepolicydatabase.org/), [LSE Climate Change Laws of the World](https://climate-laws.org/), [UNFCCC NDC registry](https://unfccc.int/NDCREG), [IEA policies](https://www.iea.org/policies), national `gob.pe` / `funcionpublica.gov.co` / ministry sites, [Colombia Taxonomía Verde](https://www.taxonomiaverde.gov.co/).
+1. **Scope** — Ecosystem countries in `actors.json`: Peru (201), El Salvador (77), Colombia (8). Guatemala and Costa Rica have **no org actors yet** but are included in `policies.json` for REIN/LATAM expansion and cross-country comparison.
+2. **Instrument selection** — Priority on laws, NDCs, taxonomies, incentives, and national strategies with clear climate, water, forest, or energy links. Programs already in the graph (e.g. StartUp Perú, IPSE, FIDEAGRO) are linked via `implements` where ministry sources name them.
+3. **Relations** — Only edges with a citable `source_url`. `verified: true` when the source states the link (ministry mandate, legal text, program page). `suggested: true` for sector-fit startup↔policy matches (rendered dashed in D5).
+4. **Regeneration** — `python3 scripts/ecosystem/build_policies.py` writes root `data/*` and copies to `docs/ecosystem/prototypes/shared/` for the D3/D5 mockup.
 
-## Counts (staged)
+## Sources (top)
 
-### Policies by country
+| Source | Use |
+|--------|-----|
+| [Climate Change Laws of the World](https://climate-laws.org/) | Peru Ley 30754, ENCC 2050, Colombia 1715/2169, CR decarbonization plan, SV/GT references |
+| [Climate Policy Database](https://climatepolicydatabase.org/) | Colombia Ley 2099, cross-checks |
+| [UNFCCC NDC Registry](https://unfccc.int/NDCREG) | NDC PDFs (PE, CO, SV, GT, CR) |
+| [Taxonomía Verde Colombia](https://www.taxonomiaverde.gov.co/) | Circular Externa 005/2022 |
+| National portals | `gob.pe`, `funcionpublica.gov.co`, `sinia.minam.gob.pe`, `minenergia.gov.co`, `cambioclimatico.go.cr`, `marn.gob.gt`, MAG/MARN SV |
 
-| Country | Policies |
-|---------|----------|
-| Colombia | 10 |
-| Peru | 12 |
-| El Salvador | 8 |
-| Guatemala | 6 |
-| Costa Rica | 6 |
-| **Total** | **42** |
+Every policy row includes `source_url`. Relation rows duplicate the supporting URL.
 
-### Policies by instrument
+## Counts
 
-| Instrument | Count |
-|------------|------:|
-| law | 16 |
-| strategy | 8 |
-| incentive | 7 |
-| NDC | 5 |
-| regulation | 4 |
-| taxonomy | 2 |
+### Policy nodes (46)
 
-### Policy-chapter relations (merged with legacy `relations.json`)
+| Country | Count | By instrument type |
+|---------|------:|--------------------|
+| Peru | 12 | law 5, strategy 3, NDC 1, regulation 1, incentive 2 |
+| Colombia | 10 | law 3, strategy 3, NDC 1, taxonomy 1, incentive 2 |
+| El Salvador | 8 | law 2, strategy 3, NDC 1, incentive 2 |
+| Guatemala | 8 | law 2, strategy 3, NDC 1, taxonomy 1, tax 1 |
+| Costa Rica | 8 | law 3, strategy 4, NDC 1, incentive 1 |
 
-| Edge type | Count |
-|-----------|------:|
-| implements | 12 |
-| oversees | 11 |
-| issues | 10 |
-| runs_program | 8 |
-| enables | 7 |
-| regulates_layer | 4 |
-| finances | 3 |
+### Policy chapter edges (base `relations.json` + patch)
+
+After merging `policy_relations.json` into the D5 guide (chapter 2), **59** edges qualify for the Policy chapter (was **12** org-only program/regulation links).
+
+| Edge type | Count (merged) |
+|-----------|---------------:|
+| implements | 14 |
+| enables | 10 |
+| issues | 9 |
+| oversees | 7 |
+| runs_program | 4 |
+| regulates_layer | 3 |
 | participates | 2 |
+| finances | 2 |
+| benefits | 3 |
+| eligible | 3 |
 | created | 1 |
 | runs_initiative | 1 |
-| **Total (chapter 2)** | **59** |
 
-### Verification
+**Patch only (`policy_relations.json`):** 47 edges — **39 verified**, **8 suggested**.
 
-| | Count |
-|---|------:|
-| Verified relations (`verified: true`, not suggested) | 42 |
-| Suggested relations (`suggested: true`, dashed) | 5 |
-| Policy relation rows in `policy_relations.json` | 47 |
+### Verified vs suggested (patch)
 
-## Top sources (by citation count in dataset)
+- **Verified (39):** ministry→policy (`issues`/`oversees`), agency/program→policy (`implements`), policy→challenge (`enables`), policy→program (`finances`), cross-policy (`enables`).
+- **Suggested (8):** startup `benefits`/`eligible` where sector fit is plausible but not documented as a formal program enrollment (PE water/forest/mobility startups; SV agro/recycling).
 
-| Domain / registry | Uses |
-|-------------------|-----:|
-| `gob.pe` | 14 |
-| `funcionpublica.gov.co` | 7 |
-| `unfccc.int` (NDC PDFs) | 5 |
-| `climate-laws.org` | 11 |
-| `taxonomiaverde.gov.co` | 3 |
-| `marn.gob.sv` / `minec.gob.sv` / `mag.gob.sv` | 6 |
-| `minenergia.gov.co` / `ipse.gov.co` | 4 |
-| `busquedas.elperuano.pe` | 1 |
+## Government actor coverage
 
-## Gaps and next steps
+| Country | Actors mapped to ≥1 policy |
+|---------|---------------------------|
+| Peru | MINAM, MINEM, PRODUCE, ProInnóvate, SERFOR, ANA, Programa Bosques, Bionegocios |
+| Colombia | MinEnergía, UPME, CREG, IPSE |
+| El Salvador | MARN, MINEC, CONAMYPE, MAG, FIDEAGRO |
+| Guatemala | — (policies staged; no gov nodes in `actors.json`) |
+| Costa Rica | — (policies staged; no gov nodes in `actors.json`) |
 
-- **Guatemala & Costa Rica** — Policies present; **no government actors** in `actors.json` yet → no verified ministry edges until GT/CR org nodes are added.
-- **Colombia environment ministry (MADS)** — Not in actor graph; carbon-neutrality law (2169) linked mainly via MinEnergía/UPME with one **suggested** implements edge pending MADS node.
-- **Challenge nodes** — Only `challenge:PE-*` exists; CO/SV policy→challenge links not asserted (would be suggested-only until challenge nodes exist).
-- **Subnational & municipal** — Regional governments in PE actors not yet tied to sector laws (Amazonía, water basins).
-- **IEA / Climate Policy Database** — Used for cross-check; URLs point to authoritative national copies where possible.
-- **Production merge** — Wire `data/policies.json` into `static/ecosystem/data/` build pipeline and extend `guide-chapters.js` counts in CI (prototype already loads staged files).
+## Gaps / next curation
+
+- **GT & CR:** Need government and agency nodes in `actors.json` to replace policy-only subgraphs.
+- **Subnational:** Regional governments in Peru (Amazonas, Loreto, etc.) not yet tied to forest/water instruments.
+- **Carbon pricing / fiscal:** Colombia carbon tax detail and Peru MEF instruments under-modeled.
+- **Startup eligibility:** Only 8 suggested edges; one-pager sector tags would enable more verified `eligible` links.
+- **Challenge nodes:** Only PE-1 (bosques) and PE-2 (agua) exist; CO/SV/GT/CR `enables` mostly policy-to-policy until challenge IDs are added.
+- **Deploy:** Data is **staged** — production bundle still uses legacy `relations.json` until graph build pipeline merges the patch.
 
 ## Screenshot
 
-Regenerate D5v2 policy chapter:
-
-```bash
-cd docs/ecosystem/prototypes
-python3 -m http.server 8765 &
-node capture-d5v2.mjs   # writes docs/ecosystem/screenshots/d5v2-ch2-policy.png
-```
-
-## File layout
-
-```
-data/policies.json              # 42 policy nodes
-policy_relations.json           # 47 staged edges (+ legacy relations in prototype)
-docs/ecosystem/policy-research.md
-docs/ecosystem/d5v2-gap-counts.json   # policy.total → 59 after merge
-docs/ecosystem/prototypes/data/policies.json      → symlink
-docs/ecosystem/prototypes/policy_relations.json   → symlink
-```
+Regenerated: `docs/ecosystem/screenshots/d5v2-ch2-policy.png`  
+URL: `prototypes/d3-hybrid-split/index.html?mode=guide&chapter=1` (Policy = chapter index 1).

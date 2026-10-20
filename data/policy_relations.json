@@ -1,0 +1,378 @@
+[
+ {
+  "source": "pe-minam-ministerio-del-ambiente",
+  "target": "policy:pe-ley-30754-cc",
+  "type": "issues",
+  "source_url": "https://climate-laws.org/document/framework-law-no-30754-on-climate-change_688f",
+  "notes": "MINAM es autoridad nacional de cambio climático (Ley 30754)",
+  "verified": true
+ },
+ {
+  "source": "pe-minam-ministerio-del-ambiente",
+  "target": "policy:pe-ds-012-2024-encc",
+  "type": "issues",
+  "source_url": "https://climate-laws.org/document/supreme-decree-no-012-2024-minam-approves-the-national-policy-national-strategy-for-climate-change-to-2050-decreto-supremo-ndeg-012-2024-minam-aprueba-la-politica-nacional-estrategia-nacional-ante-el-cambio-climatico-al-2050_58d6",
+  "notes": "",
+  "verified": true
+ },
+ {
+  "source": "pe-minam-ministerio-del-ambiente",
+  "target": "policy:pe-ndc-2020",
+  "type": "issues",
+  "source_url": "https://cdn.www.gob.pe/uploads/document/file/1675213/Actualizaci%C3%B3n%20de%20las%20NDC%20del%20Per%C3%BA%20al%202030.pdf?v=1663622045",
+  "notes": "",
+  "verified": true
+ },
+ {
+  "source": "pe-minam-ministerio-del-ambiente",
+  "target": "policy:pe-marco-bonos-verdes",
+  "type": "oversees",
+  "source_url": "https://www.gob.pe/institucion/minam/informes-publicaciones/178421-marco-para-bonos-verdes",
+  "notes": "",
+  "verified": true
+ },
+ {
+  "source": "pe-serfor",
+  "target": "policy:pe-ley-29763-forestal",
+  "type": "implements",
+  "source_url": "https://climate-laws.org/document/law-no-29763-forestry-and-wildlife-law-ley-no-29763-ley-forestal-y-de-fauna-silvestre_ecb8",
+  "notes": "",
+  "verified": true
+ },
+ {
+  "source": "pe-ana-autoridad-nacional-del-agua",
+  "target": "policy:pe-ley-29338-agua",
+  "type": "implements",
+  "source_url": "https://sinia.minam.gob.pe/normas/ley-recursos-hidricos-0",
+  "notes": "",
+  "verified": true
+ },
+ {
+  "source": "pe-minem-ministerio-de-energia-y-minas",
+  "target": "policy:pe-ley-28832-rer",
+  "type": "oversees",
+  "source_url": "https://www.gob.pe/institucion/minem/normas-legales/2856-28832",
+  "notes": "",
+  "verified": true
+ },
+ {
+  "source": "pe-programa-bosques-minam",
+  "target": "policy:pe-programa-bosques-norma",
+  "type": "implements",
+  "source_url": "https://www.gob.pe/institucion/minam/informes-publicaciones/178421-programa-bosques",
+  "notes": "",
+  "verified": true
+ },
+ {
+  "source": "pe-programa-para-bionegocios-minam",
+  "target": "policy:pe-ley-29763-forestal",
+  "type": "implements",
+  "source_url": "https://climate-laws.org/document/law-no-29763-forestry-and-wildlife-law-ley-no-29763-ley-forestal-y-de-fauna-silvestre_ecb8",
+  "notes": "Bionegocios forestales alineados a marco forestal",
+  "verified": true
+ },
+ {
+  "source": "pe-produce-ministerio-de-la-produccion",
+  "target": "policy:pe-proinnovate-clima",
+  "type": "issues",
+  "source_url": "https://www.gob.pe/proinnovate",
+  "notes": "",
+  "verified": true
+ },
+ {
+  "source": "pe-proinnovate-startup-peru",
+  "target": "policy:pe-proinnovate-clima",
+  "type": "implements",
+  "source_url": "https://www.gob.pe/proinnovate",
+  "notes": "",
+  "verified": true
+ },
+ {
+  "source": "policy:pe-ley-30754-cc",
+  "target": "challenge:PE-1-bosques",
+  "type": "enables",
+  "source_url": "https://climate-laws.org/document/framework-law-no-30754-on-climate-change_688f",
+  "notes": "Art. 16 — prioriza gestión forestal y sumideros",
+  "verified": true
+ },
+ {
+  "source": "policy:pe-ley-30754-cc",
+  "target": "challenge:PE-2-agua",
+  "type": "enables",
+  "source_url": "https://climate-laws.org/document/framework-law-no-30754-on-climate-change_688f",
+  "notes": "",
+  "verified": true
+ },
+ {
+  "source": "policy:pe-ley-29338-agua",
+  "target": "challenge:PE-2-agua",
+  "type": "enables",
+  "source_url": "https://sinia.minam.gob.pe/normas/ley-recursos-hidricos-0",
+  "notes": "",
+  "verified": true
+ },
+ {
+  "source": "policy:pe-ley-29763-forestal",
+  "target": "challenge:PE-1-bosques",
+  "type": "enables",
+  "source_url": "https://climate-laws.org/document/law-no-29763-forestry-and-wildlife-law-ley-no-29763-ley-forestal-y-de-fauna-silvestre_ecb8",
+  "notes": "",
+  "verified": true
+ },
+ {
+  "source": "policy:pe-proinnovate-clima",
+  "target": "pe-emprende-up-climatech-rein-hub-peru",
+  "type": "finances",
+  "source_url": "https://www.gob.pe/proinnovate",
+  "notes": "Cofinanciamiento incubadoras CC vía StartUp Perú",
+  "verified": true
+ },
+ {
+  "source": "pe-yakusmart",
+  "target": "policy:pe-proinnovate-clima",
+  "type": "eligible",
+  "source_url": "https://www.gob.pe/proinnovate",
+  "notes": "Startup bosques/Amazonía — encaje sectorial con línea CC",
+  "suggested": true
+ },
+ {
+  "source": "pe-yakufil",
+  "target": "policy:pe-ley-29338-agua",
+  "type": "benefits",
+  "source_url": "https://sinia.minam.gob.pe/normas/ley-recursos-hidricos-0",
+  "notes": "Filtración de agua — encaje con marco hídrico",
+  "suggested": true
+ },
+ {
+  "source": "pe-uqhu",
+  "target": "policy:pe-ley-29338-agua",
+  "type": "benefits",
+  "source_url": "https://sinia.minam.gob.pe/normas/ley-recursos-hidricos-0",
+  "notes": "",
+  "suggested": true
+ },
+ {
+  "source": "pe-rebike-up",
+  "target": "policy:pe-ley-28832-rer",
+  "type": "eligible",
+  "source_url": "https://www.gob.pe/institucion/minem/normas-legales/2856-28832",
+  "notes": "Movilidad eléctrica — encaje con marco RER",
+  "suggested": true
+ },
+ {
+  "source": "co-minenergia",
+  "target": "policy:co-ley-2099-transicion",
+  "type": "issues",
+  "source_url": "https://climatepolicydatabase.org/policies/law-2099-energy-transition-and-economic-reactivation",
+  "notes": "",
+  "verified": true
+ },
+ {
+  "source": "co-minenergia",
+  "target": "policy:co-ley-1715-rer",
+  "type": "oversees",
+  "source_url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=57353",
+  "notes": "",
+  "verified": true
+ },
+ {
+  "source": "co-upme",
+  "target": "policy:co-ley-1715-rer",
+  "type": "implements",
+  "source_url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=57353",
+  "notes": "",
+  "verified": true
+ },
+ {
+  "source": "co-creg",
+  "target": "policy:co-ley-1715-rer",
+  "type": "implements",
+  "source_url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=57353",
+  "notes": "Regulación tarifaria FNCER",
+  "verified": true
+ },
+ {
+  "source": "co-ipse",
+  "target": "policy:co-ipse-rural",
+  "type": "implements",
+  "source_url": "https://www.minenergia.gov.co/documents/10192/0/Plan+IPSE+2023-2026.pdf",
+  "notes": "",
+  "verified": true
+ },
+ {
+  "source": "co-minenergia",
+  "target": "policy:co-ipse-rural",
+  "type": "issues",
+  "source_url": "https://www.minenergia.gov.co/documents/10192/0/Plan+IPSE+2023-2026.pdf",
+  "notes": "",
+  "verified": true
+ },
+ {
+  "source": "co-minenergia",
+  "target": "policy:co-taxonomia-verde",
+  "type": "oversees",
+  "source_url": "https://www.taxonomiaverde.gov.co/documents/d/taxonomia-verde/circular_externa_005_de_2022",
+  "notes": "Sector energía en taxonomía; coordinación interinstitucional",
+  "verified": true
+ },
+ {
+  "source": "policy:co-ley-2099-transicion",
+  "target": "co-ipse",
+  "type": "enables",
+  "source_url": "https://climatepolicydatabase.org/policies/law-2099-energy-transition-and-economic-reactivation",
+  "notes": "Transición energética vinculada a acceso ZNI",
+  "verified": true
+ },
+ {
+  "source": "policy:co-taxonomia-verde",
+  "target": "co-ipse",
+  "type": "finances",
+  "source_url": "https://www.taxonomiaverde.gov.co/documents/d/taxonomia-verde/circular_externa_005_de_2022",
+  "notes": "Clasificación verde para financiamiento de proyectos energéticos",
+  "verified": true
+ },
+ {
+  "source": "policy:co-fenoge",
+  "target": "policy:co-ley-1715-rer",
+  "type": "implements",
+  "source_url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=57353",
+  "notes": "",
+  "verified": true
+ },
+ {
+  "source": "policy:co-ndc-2020",
+  "target": "policy:co-ley-2169-carbono",
+  "type": "enables",
+  "source_url": "https://unfccc.int/sites/default/files/NDC/2022-06/Colombia%20Updated%20NDC%202020.pdf",
+  "notes": "",
+  "verified": true
+ },
+ {
+  "source": "sv-marn-ministerio-de-medio-ambiente-y-recursos-natur",
+  "target": "policy:sv-ndc-2022",
+  "type": "issues",
+  "source_url": "https://unfccc.int/sites/default/files/NDC/2022-01/El%20Salvador%20First%20NDC%20%28Updated%20submission%29.pdf",
+  "notes": "",
+  "verified": true
+ },
+ {
+  "source": "sv-marn-ministerio-de-medio-ambiente-y-recursos-natur",
+  "target": "policy:sv-ley-medio-ambiente",
+  "type": "oversees",
+  "source_url": "https://www.transparencia.gob.sv/institutions/marn/documents/285566/download",
+  "notes": "",
+  "verified": true
+ },
+ {
+  "source": "sv-marn-ministerio-de-medio-ambiente-y-recursos-natur",
+  "target": "policy:sv-plan-nacional-cc",
+  "type": "issues",
+  "source_url": "https://unfccc.int/sites/default/files/resource/El%20Salvador%20NC3%20Executive%20Summary%20Spanish.pdf",
+  "notes": "",
+  "verified": true
+ },
+ {
+  "source": "sv-minec-ministerio-de-economia",
+  "target": "policy:sv-conamype-semilla",
+  "type": "oversees",
+  "source_url": "https://www.conamype.gob.sv/",
+  "notes": "",
+  "verified": true
+ },
+ {
+  "source": "sv-conamype",
+  "target": "policy:sv-conamype-semilla",
+  "type": "implements",
+  "source_url": "https://www.conamype.gob.sv/",
+  "notes": "",
+  "verified": true
+ },
+ {
+  "source": "sv-mag-ministerio-de-agricultura-y-ganaderia",
+  "target": "policy:sv-fideagro",
+  "type": "issues",
+  "source_url": "https://www.mag.gob.sv/fideagro/",
+  "notes": "",
+  "verified": true
+ },
+ {
+  "source": "sv-fideagro",
+  "target": "policy:sv-fideagro",
+  "type": "implements",
+  "source_url": "https://www.mag.gob.sv/fideagro/",
+  "notes": "Programa FIDEAGRO como instrumento de fomento agro",
+  "verified": true
+ },
+ {
+  "source": "policy:sv-ley-energia-renovable",
+  "target": "policy:sv-ndc-2022",
+  "type": "enables",
+  "source_url": "https://www.osarlaft.gob.sv/wp-content/uploads/2017/05/Ley-de-Fomento-y-Desarrollo-de-las-Energias-Renovables.pdf",
+  "notes": "",
+  "verified": true
+ },
+ {
+  "source": "sv-iagros",
+  "target": "policy:sv-fideagro",
+  "type": "eligible",
+  "source_url": "https://www.mag.gob.sv/fideagro/",
+  "notes": "Agrotech — encaje con línea agro",
+  "suggested": true
+ },
+ {
+  "source": "sv-recicla503",
+  "target": "policy:sv-estrategia-residuos",
+  "type": "benefits",
+  "source_url": "https://www.marn.gob.sv/",
+  "notes": "Economía circular / residuos",
+  "suggested": true
+ },
+ {
+  "source": "policy:gt-ndc-2022",
+  "target": "policy:gt-plan-clima",
+  "type": "enables",
+  "source_url": "https://unfccc.int/sites/default/files/NDC/2022-06/GTM_NDC%20Actualizada%202022.pdf",
+  "notes": "",
+  "verified": true
+ },
+ {
+  "source": "policy:gt-politica-energia",
+  "target": "policy:gt-ley-incentivo-rer",
+  "type": "implements",
+  "source_url": "https://www.mineco.gob.gt/sites/default/files/Politica_Nacional_de_Energia_2013-2032.pdf",
+  "notes": "",
+  "verified": true
+ },
+ {
+  "source": "policy:gt-plan-clima",
+  "target": "policy:gt-politica-agua",
+  "type": "enables",
+  "source_url": "https://unfccc.int/sites/default/files/resource/GTM_PANCC_2016.pdf",
+  "notes": "PANCC incluye eje hídrico — vínculo inferido del plan",
+  "suggested": true
+ },
+ {
+  "source": "policy:cr-plan-descarbonizacion",
+  "target": "policy:cr-ndc-2020",
+  "type": "enables",
+  "source_url": "https://climate-laws.org/document/decarbonisation-plan_856a",
+  "notes": "",
+  "verified": true
+ },
+ {
+  "source": "policy:cr-plan-descarbonizacion",
+  "target": "policy:cr-ley-7200-electricidad",
+  "type": "implements",
+  "source_url": "https://climate-laws.org/document/decarbonisation-plan_856a",
+  "notes": "Eje 4 — sistema eléctrico renovable",
+  "verified": true
+ },
+ {
+  "source": "policy:cr-incentivos-rer-pyme",
+  "target": "policy:cr-ley-7200-electricidad",
+  "type": "implements",
+  "source_url": "https://www.aresep.go.cr/Generacion_distribuida/",
+  "notes": "Autoproducción RER — encaje regulatorio inferido",
+  "suggested": true
+ }
+]
