@@ -5,7 +5,7 @@ import json
 import os
 import sys
 
-ROOT = os.environ.get("SNAPSHOT_ROOT") or os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 OUT_DIR = sys.argv[1] if len(sys.argv) > 1 else "/tmp/nexus-snapshot-batches"
 MAX_BATCH_BYTES = 70_000
 OWNER, REPO, BRANCH = "gideonblaauw-creator", "cth-nexus", "main"
