@@ -1,0 +1,1484 @@
+{
+  "date": "2026-09-18",
+  "odoo_model": "res.partner",
+  "odoo_fields": [
+    "name",
+    "x_startup_name",
+    "x_clp_cohort",
+    "x_program_status",
+    "function",
+    "title"
+  ],
+  "odoo_clp26_count": 95,
+  "pages_created": [
+    {
+      "id": 2950,
+      "title": "Chum Chum · Food & Agriculture",
+      "url": "https://wiki.cleantechhub.net/books/idea-browser/page/chum-chum-food-agriculture",
+      "action": "created"
+    },
+    {
+      "id": 2952,
+      "title": "Cirkula · Food & Agriculture",
+      "url": "https://wiki.cleantechhub.net/books/idea-browser/page/cirkula-food-agriculture",
+      "action": "created"
+    },
+    {
+      "id": 2953,
+      "title": "NUX · Not Assigned/ Unknown",
+      "url": "https://wiki.cleantechhub.net/books/idea-browser/page/nux-not-assigned-unknown",
+      "action": "created"
+    }
+  ],
+  "pages_updated": [
+    {
+      "id": 630,
+      "title": "AmbiciOsas · Air & Environment",
+      "founder": "Angela Delgado",
+      "action": "founder_tag"
+    },
+    {
+      "id": 640,
+      "title": "Diana López-ecojoyas · Air & Environment",
+      "founder": "Diana Cristina López",
+      "action": "founder_tag"
+    },
+    {
+      "id": 644,
+      "title": "Ecomuna · Clean Industry",
+      "founder": "Jose Retana",
+      "action": "founder_tag"
+    },
+    {
+      "id": 647,
+      "title": "Fazzty · Not Assigned/ Unknown",
+      "founder": "Camilo Fanjul",
+      "action": "founder_tag"
+    },
+    {
+      "id": 648,
+      "title": "Finca Gavilán, agroecología y turismo · Food & Agriculture",
+      "founder": "Glenda Mesén",
+      "action": "founder_tag"
+    },
+    {
+      "id": 649,
+      "title": "Finca ganadera Águilas verdes · Food & Agriculture",
+      "founder": "María Eugenia Rojas",
+      "action": "founder_tag"
+    },
+    {
+      "id": 657,
+      "title": "Huertas Urbanas Orgánicas · Food & Agriculture",
+      "founder": "Ana Cristina Ramirez Campos",
+      "action": "founder_tag"
+    },
+    {
+      "id": 669,
+      "title": "Plastic Free Planet · Air & Environment",
+      "founder": "Beate Heycke",
+      "action": "founder_tag"
+    },
+    {
+      "id": 671,
+      "title": "Providencia Regenera · Food & Agriculture",
+      "founder": "Camila Chacón / Andres Segura",
+      "action": "founder_tag"
+    },
+    {
+      "id": 677,
+      "title": "Sempiternal Honey · Food & Agriculture",
+      "founder": "Jhonny Castro Granados",
+      "action": "founder_tag"
+    },
+    {
+      "id": 684,
+      "title": "ToyCycles · Air & Environment",
+      "founder": "Sofia Gutierrez Bohorquez",
+      "action": "founder_tag"
+    },
+    {
+      "id": 690,
+      "title": "321solsv · Clean Energy",
+      "founder": "Angel Bayona",
+      "action": "founder_tag"
+    },
+    {
+      "id": 692,
+      "title": "Adaptacion de las descargas de lavadoras de uso domestico para reuso · Clean Industry",
+      "founder": "Ana Silvia Cornejo Flores",
+      "action": "founder_tag"
+    },
+    {
+      "id": 693,
+      "title": "AgriVoltaic Dragón fruit · Food & Agriculture",
+      "founder": "Adamid Beltrán",
+      "action": "founder_tag"
+    },
+    {
+      "id": 695,
+      "title": "Agrismart · Food & Agriculture",
+      "founder": "Patricia Alejandra Rubio Barahona",
+      "action": "founder_tag"
+    },
+    {
+      "id": 696,
+      "title": "AgroHotel Solidario Suchitoto. · Efficiency",
+      "founder": "Darlim Irene Franco Hernández",
+      "action": "founder_tag"
+    },
+    {
+      "id": 698,
+      "title": "Apicola chilin de argueta · Food & Agriculture",
+      "founder": "Marvin Anibal Torres magaña",
+      "action": "founder_tag"
+    },
+    {
+      "id": 699,
+      "title": "BioHotel Néctar · Food & Agriculture",
+      "founder": "Daniela Guadalupe Villalta Hernández",
+      "action": "founder_tag"
+    },
+    {
+      "id": 700,
+      "title": "DrainAlert · Clean Industry",
+      "founder": "Loyda Marcela Ruiz Erazo",
+      "action": "founder_tag"
+    },
+    {
+      "id": 703,
+      "title": "Ecolandia · Food & Agriculture",
+      "founder": "Ana Sofia hasbun",
+      "action": "founder_tag"
+    },
+    {
+      "id": 711,
+      "title": "LEVA · Not Assigned/ Unknown",
+      "founder": "Alexandra Escobar",
+      "action": "founder_tag"
+    },
+    {
+      "id": 712,
+      "title": "ManglArte · Air & Environment",
+      "founder": "Sofía de los Ángeles Avendaño López",
+      "action": "founder_tag"
+    },
+    {
+      "id": 716,
+      "title": "Moskem Trade In Suits & Sewcialabs · Not Assigned/ Unknown",
+      "founder": "Yenny Hernandez",
+      "action": "founder_tag"
+    },
+    {
+      "id": 717,
+      "title": "NUTRICHAR · Air & Environment",
+      "founder": "Juan Antonio Benitez Contreras",
+      "action": "founder_tag"
+    },
+    {
+      "id": 718,
+      "title": "Nutri Fruits · Food & Agriculture",
+      "founder": "Susana Aguilar",
+      "action": "founder_tag"
+    },
+    {
+      "id": 721,
+      "title": "Plastic River Barrier · Water",
+      "founder": "Jonathan David Recinos Alas",
+      "action": "founder_tag"
+    },
+    {
+      "id": 723,
+      "title": "Q-Mind · Clean Energy",
+      "founder": "Andrea Sofía Lemus Cea",
+      "action": "founder_tag"
+    },
+    {
+      "id": 753,
+      "title": "NRK · Clean Industry",
+      "founder": "Natalia Rosales Kachler",
+      "action": "founder_tag"
+    },
+    {
+      "id": 755,
+      "title": "Pina&Kakaw · Clean Industry",
+      "founder": "Daniela Sagastume",
+      "action": "founder_tag"
+    },
+    {
+      "id": 759,
+      "title": "Regenerative livestock farming · Food & Agriculture",
+      "founder": "Luis Fernando Porres",
+      "action": "founder_tag"
+    },
+    {
+      "id": 763,
+      "title": "ZUMA · Food & Agriculture",
+      "founder": "Diego Juan Pablo Sánchez",
+      "action": "founder_tag"
+    },
+    {
+      "id": 769,
+      "title": "AgroLens · Food & Agriculture",
+      "founder": "Alexandra Lozano",
+      "action": "founder_tag"
+    },
+    {
+      "id": 796,
+      "title": "Ecosonus · Food & Agriculture",
+      "founder": "Jaqueline Garcia - Yi",
+      "action": "founder_tag"
+    },
+    {
+      "id": 798,
+      "title": "FIVRA · Clean Industry",
+      "founder": "Flavia Chirinos Molinero",
+      "action": "founder_tag"
+    },
+    {
+      "id": 806,
+      "title": "Inka Green SAC · Food & Agriculture",
+      "founder": "Romeo Del Rio",
+      "action": "founder_tag"
+    },
+    {
+      "id": 810,
+      "title": "Kallpa Greenz Leaders · Food & Agriculture",
+      "founder": "Darwin Paul Diaz Cancino",
+      "action": "founder_tag"
+    },
+    {
+      "id": 830,
+      "title": "PIROSA · Transportation",
+      "founder": "Francis Salinas Calzada",
+      "action": "founder_tag"
+    },
+    {
+      "id": 832,
+      "title": "PezConfiable · Food & Agriculture",
+      "founder": "Vanessa Gonzales Mariño",
+      "action": "founder_tag"
+    },
+    {
+      "id": 833,
+      "title": "PredictaMAR · Food & Agriculture",
+      "founder": "Maik Valenzuela",
+      "action": "founder_tag"
+    },
+    {
+      "id": 850,
+      "title": "Wayra Watt · Clean Energy",
+      "founder": "Diego Freddy Retamozo Huamanñaupa",
+      "action": "founder_tag"
+    },
+    {
+      "id": 851,
+      "title": "WindLever · Clean Energy",
+      "founder": "Luis Jordan Clemente Hilario",
+      "action": "founder_tag"
+    },
+    {
+      "id": 852,
+      "title": "YakuSmart · Food & Agriculture",
+      "founder": "Omar Gonzales",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1585,
+      "title": "Modular Agrosolutions · Food & Agriculture",
+      "founder": "Cristian Alberto Contreras Caselles",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1586,
+      "title": "EcoHub · Not Assigned/ Unknown",
+      "founder": "Jesus Manuel Contreras Padilla",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1587,
+      "title": "communitylab s.a.s · Clean Industry",
+      "founder": "beatriz eugenia correa peres",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1589,
+      "title": "Circool · Clean Industry",
+      "founder": "Jessica Cruz Alonso",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1590,
+      "title": "construyendo redes de paz con la naturaleza · Air & Environment",
+      "founder": "Williams Andrés Cruz TOvar",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1591,
+      "title": "VIT Sensors · Food & Agriculture",
+      "founder": "Jonathan Diaz",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1595,
+      "title": "iColParts SAS BIC · Clean Industry",
+      "founder": "Santiago Fajardo Ramirez",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1596,
+      "title": "convierte residuos animales y plásticos en soluciones ambientales: abono para recuperar suelos y baños fabricados con polímeros mixtos. Una propuesta alineada con el Decreto Basura Cero y con",
+      "founder": "CARLOS FELIPE FORERO MONSALVE",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1598,
+      "title": "MIELARES · Food & Agriculture",
+      "founder": "Edgar Gil",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1601,
+      "title": "Emkubar · Efficiency",
+      "founder": "Daniel Gordillo",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1602,
+      "title": "Vestimenta Magnus sas · Clean Industry",
+      "founder": "Julieth Gutiérrez",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1604,
+      "title": "KUO · Air & Environment",
+      "founder": "Samuel Hoyos",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1605,
+      "title": "ASOCIACIÓN DE RECICLADORES FAMILIA CIKLO ESP · Air & Environment",
+      "founder": "Ingrid LEÓN MANCIPE",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1607,
+      "title": "Lifer sciences · Air & Environment",
+      "founder": "Johan londoño",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1609,
+      "title": "SatEmis · Air & Environment",
+      "founder": "Hernan Mojica",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1611,
+      "title": "COLOMBIAN SOLAR SYSTEMS S.A.S · Clean Energy",
+      "founder": "Julio Cesar Montero Rendón",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1612,
+      "title": "Galaxy Pack SAS · Clean Industry",
+      "founder": "Andrés Humberto Mora",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1614,
+      "title": "MetanoSRGAN Elite · Air & Environment",
+      "founder": "Isai Alexander Ortiz Ortiz",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1615,
+      "title": "Claudia Osorio Arte y Vidrio · Air & Environment",
+      "founder": "Claudia Patricia Osorio Giraldo",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1616,
+      "title": "RECICRECER · Air & Environment",
+      "founder": "LUIS ENRIQUE PABON CAPACHO",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1617,
+      "title": "NATIVO · Clean Industry",
+      "founder": "Natalia Parra Suarez",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1619,
+      "title": "tuuma · Clean Industry",
+      "founder": "PAOLA PEÑALOZA",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1621,
+      "title": "Eco Ernesto Visita Program · Air & Environment",
+      "founder": "Maria Teresa Perez Pagan",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1623,
+      "title": "BICSY (Biotechnology Carbon System) · Clean Energy",
+      "founder": "Carlos Pino Martinez",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1625,
+      "title": "GEO Grafismos · Clean Industry",
+      "founder": "Juan Camilo Quiceno Aguirre",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1626,
+      "title": "Ecosistema digital de residuos aprovechables: Co Workers Cloud · Air & Environment",
+      "founder": "Stefanny Quiza",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1627,
+      "title": "STRIN · Air & Environment",
+      "founder": "Andrés Ramírez",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1628,
+      "title": "Vida ecologica · Air & Environment",
+      "founder": "Rocio Daniela y Marina Elizabeth Ramos Ortiz y Mira Diaz",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1629,
+      "title": "LazosTech · Clean Industry",
+      "founder": "ALEJANDRO REALPE",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1630,
+      "title": "Arte y reciclaje para la paz.  Mujeres creando Economìa Circular con propòsito · Air & Environment",
+      "founder": "SONIA PATRICIA REINEL",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1631,
+      "title": "Aprovechamiento residuos sólidos vegetales para energías renovables · Air & Environment",
+      "founder": "Jorge Restrepo",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1632,
+      "title": "RAÍZ VIVA AI · Food & Agriculture",
+      "founder": "WINDY RIAÑO CELY",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1634,
+      "title": "Ingecolmax · Clean Industry",
+      "founder": "angel alcides rodriguez bermudez",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1635,
+      "title": "REVIVEN · Air & Environment",
+      "founder": "Leonardo Enrique Rodríguez Gómez",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1637,
+      "title": "Ecosistema Digital de Residuos Aprovechables Co Workes Cloud · Not Assigned/ Unknown",
+      "founder": "MARIO ANTONIO RUIZ VARGAS",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1638,
+      "title": "Geo-Themis · Water",
+      "founder": "Eider nicolas Salcedo Landazuri",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1639,
+      "title": "Cacelio · Clean Industry",
+      "founder": "David Sanchez",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1640,
+      "title": "ON-NOVA Biotech. We are based in the Dominican Republic, but the program stated that applications are now open globally. We could establish a hub in Colombia if necessary to support regional ",
+      "founder": "Karen Sánchez",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1641,
+      "title": "Proyecto emprendedor con impacto ambiental. · Food & Agriculture",
+      "founder": "Gustavo Sanchez campusano",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1642,
+      "title": "Proyecto emprendedor con impacto ambiental. · Clean Energy",
+      "founder": "Gustavo adolfo Sanchez campusano",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1643,
+      "title": "Cartagena Mangrove Heritage Program: STAGE II- after STAGE I- (2014-2019); Doctoral thesis, National University of Colombia; with two results Phase 1- Design of the TRIÁDA Environmental Gover",
+      "founder": "Luis Fernando Sánchez Rubio",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1644,
+      "title": "ADN Sostenible · Air & Environment",
+      "founder": "Jorge Sandoval",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1647,
+      "title": "Green Textile Solutions · Air & Environment",
+      "founder": "Mauricio Velasquez",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1648,
+      "title": "Green Textile Solutions · Air & Environment",
+      "founder": "Mauricio Velasquez",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1649,
+      "title": "Implementación de una Planta Comunitaria de Transformación de Residuos Plásticos en Madera Plástica (WPC) para el Fortalecimiento de la Economía Circular en Circasia – Quindío · Air & Environ",
+      "founder": "Juan Guillermo Velásquez Valencia",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1650,
+      "title": "BANK OF TIERRAS DE COLOMBIA · Air & Environment",
+      "founder": "JUAN CARLOS ZULUAGA",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1299,
+      "title": "EcoEthanol Innovations (Amarúz) · Air & Environment",
+      "founder": "Anderson Stiven Florez Olarte",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1310,
+      "title": "BARUK COMPANY BIO CLIMATIK SAS · Clean Industry",
+      "founder": "Allan Engelberth Figueredo Vargas",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1331,
+      "title": "iColParts · Air & Environment",
+      "founder": "Santiago Fajardo Ramírez",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1335,
+      "title": "VERDE · Air & Environment",
+      "founder": "Juan carlos Monsalve Arroyave",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1336,
+      "title": "BARUK COMPANY · Efficiency",
+      "founder": "David Santiago Figueredo Bustos",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1350,
+      "title": "COLOMBIAN SOLAR SYSTEMS S.A.S · Clean Industry",
+      "founder": "Julio Cesar Montero Rendón",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1353,
+      "title": "Valopes · Air & Environment",
+      "founder": "Octavio Torres",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1357,
+      "title": "simbIOT · Air & Environment",
+      "founder": "Jorge Sandoval",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1358,
+      "title": "GEO grafismos. We will massify waste sorting. · Air & Environment",
+      "founder": "Juan Camilo Quiceno Aguirre",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1382,
+      "title": "CON BIOMASA PROTEGEMOS EL AGUA Y RESCATAMOS RECURSOS · Clean Industry",
+      "founder": "Carlos Felipe Forero Monsalve",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1383,
+      "title": "CULTIVO GLOBAL · Clean Industry",
+      "founder": "FREDY ENRIQUE PEÑA BERMUDEZ",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1401,
+      "title": "Zircular is like a Netflix subscription for the Energy Transition in industries companies · Efficiency",
+      "founder": "David Lagarejo",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1402,
+      "title": "SCEM-ECO · Clean Industry",
+      "founder": "Layn Damian Quintero Casallas",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1403,
+      "title": "Bioárea S.A.S. · Clean Industry",
+      "founder": "Edimer Velásquez Blandón",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1408,
+      "title": "Protección de bosques nativos · Air & Environment",
+      "founder": "Luis Roberto Rendon",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1411,
+      "title": "Gescol · Clean Industry",
+      "founder": "Neylla Marcela Avila Florez",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1413,
+      "title": "Apicultores y Rescatistas SAS BIC · Food & Agriculture",
+      "founder": "ILAN LECHTER",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1417,
+      "title": "BeSustainable · Cleantech",
+      "founder": "Valentina Almeyda",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1419,
+      "title": "TECNOLOGIA AMBIENTAL NOW SAS · Cleantech",
+      "founder": "CARLOS FELIPE FORERO MONSALVE",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1420,
+      "title": "Bio Talega · Cleantech",
+      "founder": "yeffer Guzman",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1430,
+      "title": "Bioárea · Cleantech",
+      "founder": "Edimer Velásquez",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1432,
+      "title": "Best Planet · Cleantech",
+      "founder": "Tatiana Leon",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1466,
+      "title": "Natoure · Air & Environment",
+      "founder": "Rodolfo Salinas",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1477,
+      "title": "bikeU Projects S.A.S · Transportation",
+      "founder": "Alvaro Camilo Bravo Lopez",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1488,
+      "title": "PAOLA SOLAR INSIGHTS · Clean Energy",
+      "founder": "PAOLA ANDREA SANCHEZ GUTIERREZ",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1490,
+      "title": "Embergy · Clean Energy",
+      "founder": "Alejandro Nuñez",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1503,
+      "title": "Colombia por Naturaleza · Water",
+      "founder": "Nikol Tatiana Camacho Pinto",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1508,
+      "title": "Linko Workers sas · Industria limpia (es decir, innovación en materiales, diseño, equipos, control, producción, envasado)",
+      "founder": "Nicolas Parra",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1524,
+      "title": "PlastiFuel Colombia · Energía limpia (eólica, solar, renovables, biomasa, geotérmica, pilas de combustible, nuclear, medición)",
+      "founder": "Diana Paola Sanabria Chaparro",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1541,
+      "title": "Eco ideas · Cleantech",
+      "founder": "Carol Simon",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1547,
+      "title": "sinCarbono · Cleantech",
+      "founder": "Daniela Correa",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1558,
+      "title": "Apicultores Y Rescatistas · Cleantech",
+      "founder": "Ilan Letcher",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1561,
+      "title": "GEO Grafismos · Cleantech",
+      "founder": "Juan Camilo Quiceno Aguirre",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1564,
+      "title": "Zircular · Cleantech",
+      "founder": "David Lagarejo",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1565,
+      "title": "Natupin · Cleantech",
+      "founder": "Miguel Ángel Vanegas",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1296,
+      "title": "MINDALA, es una idea de investigación de plantas nativas y vivero forestal · Air & Environment",
+      "founder": "AYDEE ALCIRA MAYA MELO",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1297,
+      "title": "Huizy · Clean Industry",
+      "founder": "Silvy Ramos",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1298,
+      "title": "Ghreevi · Air & Environment",
+      "founder": "Cristian Fernandez",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1300,
+      "title": "EVOLUTIO · Food & Agriculture",
+      "founder": "CAMILO ANDRÉS GARZÓN MEDINA",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1301,
+      "title": "Okáge prefabricados recirculables para construcción sostenible con residuos sólidos inorgánicos en concretos especiales · Efficiency",
+      "founder": "José Fernando Carvajal",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1302,
+      "title": "LIQUEN · Food & Agriculture",
+      "founder": "Daniel Beltran",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1303,
+      "title": "Eko - Sustainable Style · Clean Industry",
+      "founder": "Karolina Diez",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1304,
+      "title": "SustainaGrow Canopy Crew · Clean Industry",
+      "founder": "Diana Marcela Abril Leal",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1305,
+      "title": "EcoFintech · Food & Agriculture",
+      "founder": "Angela Rivera",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1306,
+      "title": "Ceiba Agrotecnologia · Food & Agriculture",
+      "founder": "Roberto Buelvas",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1307,
+      "title": "EXOS - Feed the Future · Air & Environment",
+      "founder": "Juan Sebastian Garrido Mafiol",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1308,
+      "title": "Huella Sostenible · Air & Environment",
+      "founder": "Evelyn Sanchez",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1309,
+      "title": "TOWERS CEM · Air & Environment",
+      "founder": "Carlos Torres",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1311,
+      "title": "Gr33nerosity · Air & Environment",
+      "founder": "David Corredor",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1312,
+      "title": "Z-Carbon · Efficiency",
+      "founder": "Ricardo Antonio Domínguez Gómez",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1313,
+      "title": "BIO PLANET COLOMBIA · Clean Industry",
+      "founder": "Juliana Chiriví",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1314,
+      "title": "Madera Salada · Clean Industry",
+      "founder": "Isabel Vargas",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1315,
+      "title": "WATTWISER · Efficiency",
+      "founder": "Yeison Rincon Idarraga",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1316,
+      "title": "Tecnologias Fibergreen / fabricante de Hilos,textiles e insumos de moda sostenibles ,que cuenta con aplicaciones AI · Clean Industry",
+      "founder": "HECTOR MAURICIO PAEZ CANTOR",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1438,
+      "title": "ADCEMENT · Clean Industry",
+      "founder": "Lluvia Alejandra Hernandez Cardona",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1439,
+      "title": "Alfaston · Transportation",
+      "founder": "Andrés Leonardo Barrios Martinez",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1440,
+      "title": "ALTERCON SOLUTIONS · Clean Industry",
+      "founder": "MIGUEL ANGEL CHAVEZ ORTEGA",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1441,
+      "title": "A-moX · Food & Agriculture",
+      "founder": "Andrés Cueto Estrada",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1442,
+      "title": "Arquitectura, en bambú un estilo de vida sostenible · Air & Environment",
+      "founder": "Cesar Ulises Flores Martínez",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1443,
+      "title": "AURA · Air & Environment",
+      "founder": "Gilberto Alejandro Rangel Rodriguez",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1444,
+      "title": "Balsamo Suloxicol · Clean Industry",
+      "founder": "Victor Castañeda",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1445,
+      "title": "BiOH Solutions · Air & Environment",
+      "founder": "Gabriela Selene García Mendoza",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1446,
+      "title": "BIONATU · Air & Environment",
+      "founder": "Miriam Gabriela Lopez Retis",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1447,
+      "title": "CATPACK · Clean Industry",
+      "founder": "JESÚS EMMANUEL PÉREZ RUÍZ",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1448,
+      "title": "Clair · Air & Environment",
+      "founder": "David Corzo Sánchez",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1449,
+      "title": "colnube · Clean Industry",
+      "founder": "Fernando Martínez Heranandez",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1450,
+      "title": "Conserving Water · Water",
+      "founder": "Daniel Sánchez Jiménez",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1451,
+      "title": "Cosecha de agua atmosférica para producción agro-alimentaria sustentable · Food & Agriculture",
+      "founder": "ROCIO GUDALUPE DE LA TORRE SANCHEZ",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1452,
+      "title": "COVAX · Clean Industry",
+      "founder": "Ximena Núñez",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1453,
+      "title": "CUADRIRULE · Clean Industry",
+      "founder": "Dulce Jatziri Limón Bravo",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1454,
+      "title": "Desk to GO · Clean Industry",
+      "founder": "Ana Victoria Romero Favela",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1455,
+      "title": "Ec0nomy · Air & Environment",
+      "founder": "Fernando Gutiérrez Luna",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1456,
+      "title": "Ecoaeroestructuras · Clean Industry",
+      "founder": "Daniel Montes",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1457,
+      "title": "Enerdaz · Clean Energy",
+      "founder": "Leyder Ordaz",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1458,
+      "title": "Gel antibacterial: Kaizen · Air & Environment",
+      "founder": "Ramiro Gabriel Marines Hernández",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1459,
+      "title": "Green and safe travel. · Transportation",
+      "founder": "Norma Itzel Guzmán Damián",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1460,
+      "title": "Green soul · Efficiency",
+      "founder": "Alejandra Zelada",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1461,
+      "title": "Huxtal hidrocultivo · Food & Agriculture",
+      "founder": "Ximena Zuñiga Carranza",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1462,
+      "title": "kafen · Air & Environment",
+      "founder": "Rebeca Alvarez",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1463,
+      "title": "K-Moots (previously inventaárbol) · Food & Agriculture",
+      "founder": "Alejandro Cid Ortiz",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1464,
+      "title": "La casa del migrante · Clean Industry",
+      "founder": "Rosa Delia Gallegos",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1465,
+      "title": "Nanogelito · Air & Environment",
+      "founder": "Daniela Sarahí Atayde Aguilar",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1467,
+      "title": "NcT · Clean Industry",
+      "founder": "Paulina María Llorens Roque",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1468,
+      "title": "Oxitlina · Air & Environment",
+      "founder": "Viridiana Cortez Díaz",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1469,
+      "title": "PA CREAM · Clean Industry",
+      "founder": "Abigail Monserrat Soto Nuncio",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1470,
+      "title": "PIG-CHANGE: Agrofood circular system for low ecological impact swine farming / CIIAP Agropecuaria FC · Food & Agriculture",
+      "founder": "Elias Chávez Delgadillo",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1471,
+      "title": "PocketCast · Clean Industry",
+      "founder": "Miguel Briones",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1472,
+      "title": "Rancho Copechi · Food & Agriculture",
+      "founder": "Andrés Antonio Torres Sánchez",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1473,
+      "title": "The Tláloc Project · Water",
+      "founder": "Daniel Kuperstein",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1474,
+      "title": "Triciclo de Carga Pies Ligeros · Transportation",
+      "founder": "Ernesto Cesar Bautista",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1475,
+      "title": "TURI (Biodigestor) · Food & Agriculture",
+      "founder": "Braulio Mendoza Lumbreras",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1476,
+      "title": "ZUEUS · Clean Energy",
+      "founder": "Irving Roberto Trauwitz",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1478,
+      "title": "Minimalista · Clean Industry",
+      "founder": "Roger Pasco",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1479,
+      "title": "More Chance · Air & Environment",
+      "founder": "Sara Valladares",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1480,
+      "title": "ENERGA AUTNOMA · Clean Energy",
+      "founder": "Arnoldo López",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1481,
+      "title": "Guardianes del Planeta: Educando para un Futuro Sostenible · Efficiency",
+      "founder": "Néstor Alexander Ramirez Vividor",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1482,
+      "title": "GREEN FASHION · Not Assigned/ Unknown",
+      "founder": "JOSE EFRAIN GUZMAN",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1483,
+      "title": "AireVivo · Clean Energy",
+      "founder": "Nelson Antonio Rondon Castro",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1484,
+      "title": "Cosecha de granos bĦsicos sin fertilizantes qu­micos solo con organicos · Food & Agriculture",
+      "founder": "Mario Alexander Menjivar Rivera",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1485,
+      "title": "Taller escuela de saberes en madera nĦufraga del AtlĦntico · Air & Environment",
+      "founder": "Mariana Constanza Quiñones López",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1486,
+      "title": "Wheelo · Air & Environment",
+      "founder": "Mario Alejandro Muñetón Durango",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1487,
+      "title": "Mano de Sol, conservaci³n ambiental y turismo de naturaleza · Air & Environment",
+      "founder": "Paubla Andrea Otalvaro Villada",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1489,
+      "title": "Organic & Wealthy · Transportation",
+      "founder": "Angelica Reyes",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1491,
+      "title": "Cosmo · Not Assigned/ Unknown",
+      "founder": "Maria Alejandra Mora",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1492,
+      "title": "Agrogreenhouse · Food & Agriculture",
+      "founder": "Katerin Perez Rueda",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1493,
+      "title": "PLANET GREEN · Air & Environment",
+      "founder": "Carlos Fernández",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1494,
+      "title": "Vuelta a la Tela · Clean Industry",
+      "founder": "Josep Díaz",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1495,
+      "title": "ESPORA · Food & Agriculture",
+      "founder": "CRISTIAN DIAZ",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1496,
+      "title": "protectoCam · Clean Industry",
+      "founder": "Jose Daniel Salas Parodi",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1497,
+      "title": "nush. mindfoodness · Food & Agriculture",
+      "founder": "alexandra sanclemente",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1498,
+      "title": "Soħatea · Clean Industry",
+      "founder": "Daniela Rey",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1499,
+      "title": "Tonatu Amazonas · Food & Agriculture",
+      "founder": "Nelson enrique Hernandez",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1500,
+      "title": "Sembrando Esperanza · Food & Agriculture",
+      "founder": "Jose Sosa",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1501,
+      "title": "EKO City · Clean Industry",
+      "founder": "Maricielo Alejandra Vera Riega",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1502,
+      "title": "The Trocha Co · Transportation",
+      "founder": "Francisco Bayona",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1504,
+      "title": "Nishtamali · Food & Agriculture",
+      "founder": "JAVIER MOZO",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1505,
+      "title": "Glu Energy · Clean Energy",
+      "founder": "Wilmer Lemus",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1506,
+      "title": "Bubble Octopus & Baths · Clean Industry",
+      "founder": "Valentina Jacome",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1507,
+      "title": "Re-construye · Air & Environment",
+      "founder": "Luis Guillermo Barrera Barrios",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1509,
+      "title": "MasVerde · Aire y medio ambiente (comercio, compensación y secuestro de carbono, emisiones, reciclado, biorremediación)",
+      "founder": "María Elena Vásquez de Flores",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1510,
+      "title": "GRUPO MAIN SAS · Agua (tratamiento, transporte, producción, control)",
+      "founder": "Yuri Lorena Moreno Mariño",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1511,
+      "title": "RaicesVivas · Food & Agriculture",
+      "founder": "Mariana Chaves Araya",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1512,
+      "title": "Eco Energy · Energía limpia (eólica, solar, renovables, biomasa, geotérmica, pilas de combustible, nuclear, medición)",
+      "founder": "Hander Palacios",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1513,
+      "title": "ABS -Alternativas Biológicas Solubles · Industria limpia (es decir, innovación en materiales, diseño, equipos, control, producción, envasado)",
+      "founder": "Eduardo Lico",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1514,
+      "title": "ReFi Collective · Air & Environment",
+      "founder": "Andrea Camargo",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1515,
+      "title": "Vox Network Colombia · Transportation",
+      "founder": "John Acosta",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1516,
+      "title": "La segura verde · Alimentación y agricultura (cultivos, silvicultura, animales, acuicultura)",
+      "founder": "Krissia Nohemy Cruz Segura",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1517,
+      "title": "Lupahelp · Aire y medio ambiente (comercio, compensación y secuestro de carbono, emisiones, reciclado, biorremediación)",
+      "founder": "María Cristina Rivas González",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1518,
+      "title": "CircularMente · Not Assigned/ Unknown",
+      "founder": "Jeffree Carvajal",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1519,
+      "title": "¡Super Chigüi, the defender of a planet in rush rush\\! · Air & Environment",
+      "founder": "Sirley Acosta Ricaurte",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1520,
+      "title": "Soñatea · Clean Industry",
+      "founder": "Daniela Rey",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1521,
+      "title": "Amate Legacy · Not Assigned/ Unknown",
+      "founder": "Karla Caballeros Caballeros",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1522,
+      "title": "Fábrica Tavico · Water",
+      "founder": "Sandra Sabina Tavico Pú",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1523,
+      "title": "Recicla con Ollie · Not Assigned/ Unknown",
+      "founder": "Gustavo Moya Castro",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1525,
+      "title": "Corteza Amarillo complementos upcycled · Clean Industry",
+      "founder": "Mildred Guzman Navarro",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1526,
+      "title": "INDUSTRIAS MOLINILLITO FOODTECH SAS · Industria limpia (es decir, innovación en materiales, diseño, equipos, control, producción, envasado)",
+      "founder": "Marlio Silva",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1527,
+      "title": "GREEN SEGUROS · No asignado/ Desconocido",
+      "founder": "Julio Alberto Caldas Arboleda",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1528,
+      "title": "Agricoforestal, siembra de verduras, arboles forestales y frutales. · Alimentación y agricultura (cultivos, silvicultura, animales, acuicultura)",
+      "founder": "Alberto Tomás Puác Vásquez",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1529,
+      "title": "Laboratorio local San Francisco · Not Assigned/ Unknown",
+      "founder": "Nelson Enrique Zumbado Avendaño",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1530,
+      "title": "Solef sas · Clean Energy",
+      "founder": "Luis Castro",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1531,
+      "title": "Biotrash · Alimentación y agricultura (cultivos, silvicultura, animales, acuicultura)",
+      "founder": "Camille Knoepffler",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1532,
+      "title": "Sustenta · Industria limpia (es decir, innovación en materiales, diseño, equipos, control, producción, envasado)",
+      "founder": "Angelo Vettorazzi",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1533,
+      "title": "BIOCONVERSIONCHOCO BSF · Alimentación y agricultura (cultivos, silvicultura, animales, acuicultura)",
+      "founder": "MILLER YAMIL RENTERIA VALDERRAMA",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1534,
+      "title": "Raíz de Seda Jardín · No asignado/ Desconocido",
+      "founder": "Violeta Salazar de perla",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1535,
+      "title": "Majesiwi · Energía limpia (eólica, solar, renovables, biomasa, geotérmica, pilas de combustible, nuclear, medición)",
+      "founder": "MARILU DEL CARMEN CHACON VERANO",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1536,
+      "title": "Agua Verde · Water",
+      "founder": "Rocio Ramos",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1537,
+      "title": "Mano de Sol, conservación ambiental y turismo de naturaleza · Air & Environment",
+      "founder": "Paubla Andrea Otalvaro Villada",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1538,
+      "title": "Yaku · Water",
+      "founder": "Felipe Roa",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1539,
+      "title": "ENERGÍA AUTÓNOMA · Clean Energy",
+      "founder": "Arnoldo López",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1540,
+      "title": "Desarrollo de macetas (tetraPod) · Cleantech",
+      "founder": "Nibar Inawelibiler García",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1542,
+      "title": "Sun Source · Cleantech",
+      "founder": "Marlon Alexander Medina Chavez",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1543,
+      "title": "Azul Bio · Cleantech",
+      "founder": "Gerardo IrimiaArosemena",
+      "action": "founder_tag"
+    },
+    {
+      "id": 1544,
+      "title": "Plastic buildings · Cleantech",
+      "founder": "Oliver Alfonso",
+      "action": "founder_tag"
+    }
+  ],
+  "founder_tags_added": 241,
+  "founder_empty_before": 400,
+  "founder_filled_this_run": 241
+}

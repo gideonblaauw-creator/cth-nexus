@@ -1,0 +1,30 @@
+{
+  "generated": "2026-09-18",
+  "shareable_count": 3,
+  "startups": [
+    {
+      "startup_name": "CurubaTech",
+      "website": "https://curuba.tech/en/",
+      "app_id": "20003",
+      "bookstack_page_id": 1573,
+      "confidence": "strong",
+      "women_clevel_status": "confirmed"
+    },
+    {
+      "startup_name": "Amazóniko",
+      "website": "https://www.amazoniko.com/",
+      "app_id": "20063",
+      "bookstack_page_id": 1633,
+      "confidence": "strong",
+      "women_clevel_status": "confirmed"
+    },
+    {
+      "startup_name": "e.WAI",
+      "website": "https://e-ray.lat/e-wai/",
+      "app_id": "20036",
+      "bookstack_page_id": 1606,
+      "confidence": "provisional",
+      "women_clevel_status": "PENDIENTE"
+    }
+  ]
+}
