@@ -1,5 +1,6 @@
 (function () {
-  const FLAGS = { CO: '🇨🇴', GT: '🇬🇹', PE: '🇵🇪', CR: '🇨🇷', MX: '🇲🇽' };
+  const FLAGS = { CO: '🇨🇴', GT: '🇬🇹', PE: '🇵🇪', CR: '🇨🇷', SV: '🇸🇻' };
+  const HUBMAP_TITLE = { ES: 'HubMap', EN: 'HubMap' };
   const THEME = { CE: 'Circular', BIO: 'Bio', EN: 'Energy' };
 
   let lang = (localStorage.getItem('nexusEcoLang') || 'ES').toUpperCase();
@@ -48,7 +49,64 @@
   window.__hubsSetLang = setLang;
 
   function mapShell() {
-    return '<div id="hub-leaflet-map" class="hub-leaflet-map" role="application" aria-label="LATAM hub map"></div>';
+    return '<div id="hub-leaflet-map" class="hub-leaflet-map" role="application" aria-label="HubMap"></div>';
+  }
+
+  function liBtn(linkedin) {
+    return `<a class="li-btn hub-li-btn" href="${linkedin}" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 114.126 0 2.063 2.063 0 01-2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>LinkedIn</a>`;
+  }
+
+  function avatarClass(initials) {
+    const n = (initials || '?').charCodeAt(0) || 0;
+    return `av-${n % 10}`;
+  }
+
+  function renderPeople(hub) {
+    const people = hub.people || [];
+    if (!people.length) {
+      if (hub.peoplePending) {
+        return `<div class="hub-people-pending">${lang === 'ES' ? 'Equipo del hub: PENDIENTE (confirmar representantes locales).' : 'Hub team: PENDING (local leads to be confirmed).'}</div>`;
+      }
+      return '';
+    }
+    const cards = people.map((p, idx) => {
+      const role = t(p.role);
+      const org = t(p.org);
+      const pendingPhoto = p.photoPending || !p.photo;
+      const avInner = pendingPhoto
+        ? `<span class="hub-people-pending-tag">${lang === 'ES' ? 'PENDIENTE' : 'PENDING'}</span>${p.initials || '?'}`
+        : `<img src="${p.photo}" alt="" loading="lazy"/>`;
+      return `<article class="mentor-card hub-people-card">
+        <div class="card-top">
+          <div class="avatar ${avatarClass(p.initials)}" data-idx="${idx}">${avInner}</div>
+          <div class="card-info">
+            <div class="card-name">${p.name}</div>
+            <div class="card-role" title="${role}">${role}</div>
+          </div>
+        </div>
+        <div class="card-body"><div class="card-desc">${org}</div></div>
+        <div class="card-footer">${liBtn(p.linkedin)}</div>
+      </article>`;
+    }).join('');
+    return `<div class="hub-people-section"><h3 class="hub-people-head">${lang === 'ES' ? 'Equipo del hub' : 'Hub team'}</h3><div class="hub-people-grid">${cards}</div></div>`;
+  }
+
+  function renderOrgBar(hub) {
+    const site = hub.website;
+    if (!site) return '';
+    const label = lang === 'ES' ? 'Sitio web de la organización' : 'Organisation website';
+    return `<div class="hub-org-bar"><span class="hub-org-label">${label}</span><a href="${site}" target="_blank" rel="noopener">${site.replace(/^https?:\/\//, '')} ↗</a></div>`;
+  }
+
+  function renderEcosystemMap(hub) {
+    const m = hub.ecosystemMap;
+    if (!m) return '';
+    const label = t(m.label);
+    if (m.pending || !m.href) {
+      return `<div class="hub-eco-map pending"><strong>${label}</strong><span>${t(m.note) || (lang === 'ES' ? 'Enlace público PENDIENTE.' : 'Public link PENDING.')}</span></div>`;
+    }
+    const note = t(m.note);
+    return `<div class="hub-eco-map"><a href="${m.href}" target="_blank" rel="noopener">${label} ↗</a>${note ? `<span class="hub-eco-map-note">${note}</span>` : ''}</div>`;
   }
 
   function renderVideos(videos) {
@@ -140,13 +198,16 @@
     const gallery = (hub.images || []).map((im) => `<figure><img src="${im.src}" alt="" loading="lazy"/><figcaption>${t(im.caption)}</figcaption></figure>`).join('');
     const startups = (hub.startups || []).map(startupCard).join('');
     const detailHref = `/hubs/${hub.slug}/`;
-    const links = (hub.links || []).map((l) => `<a href="${l.href}" target="_blank" rel="noopener">${t(l.label)} ↗</a>`).join('');
-    const more = compact ? `<div class="hub-actions"><a href="${detailHref}">${lang === 'ES' ? 'Abrir hub →' : 'Open hub →'}</a></div>` : links ? `<div class="hub-actions">${links}<a class="secondary" href="/hubs/">${lang === 'ES' ? 'Mapa REIN' : 'REIN map'}</a></div>` : '';
+    const links = (hub.links || []).filter((l) => l.href !== hub.website).map((l) => `<a href="${l.href}" target="_blank" rel="noopener">${t(l.label)} ↗</a>`).join('');
+    const more = compact ? `<div class="hub-actions"><a href="${detailHref}">${lang === 'ES' ? 'Abrir hub →' : 'Open hub →'}</a></div>` : `<div class="hub-actions">${links}<a class="secondary" href="/hubs/">${lang === 'ES' ? 'HubMap' : 'HubMap'}</a></div>`;
 
     return `<section class="hub-scroll-section" id="${hub.id}" data-hub-section="${hub.id}">
       <div class="hub-card-head"><div><h2>${t(hub.name)}</h2><div class="hub-meta">${t(hub.short)} · ${FLAGS[hub.country] || ''}</div></div></div>
+      ${renderOrgBar(hub)}
       <p class="hub-tagline">${t(hub.tagline)}</p>
       <p class="hub-about">${t(hub.about)}</p>
+      ${compact ? '' : renderPeople(hub)}
+      ${compact ? '' : renderEcosystemMap(hub)}
       <div class="hub-kpi-row">${kpis}</div>
       <div class="hub-focus-list">${focus}</div>
       <div class="hub-media-grid">
@@ -172,9 +233,9 @@
 
     root.innerHTML = `
       <div class="hub-hero">
-        <div class="hub-hero-eyebrow">REIN Hubs · Nexus</div>
-        <h1 class="hub-hero-title">${lang === 'ES' ? 'Mapa de hubs climáticos LATAM' : 'LATAM climate hub map'}</h1>
-        <p class="hub-hero-sub">${lang === 'ES' ? 'Direction C — mapa primero, rail de hubs y scroll editorial con KPIs, media e startups ClimateLaunchpad por país.' : 'Direction C — map-first hub rail and editorial scroll with KPIs, media, and ClimateLaunchpad startups by country.'}</p>
+        <div class="hub-hero-eyebrow">CleantechHUB Nexus · REIN</div>
+        <h1 class="hub-hero-title">${HUBMAP_TITLE[lang]}</h1>
+        <p class="hub-hero-sub">${lang === 'ES' ? 'Mapa Leaflet de hubs REIN, perfiles por país, equipos, media verificada y startups ClimateLaunchpad.' : 'Leaflet map of REIN hubs, country profiles, teams, verified media, and ClimateLaunchpad startups.'}</p>
         <div class="hub-map-wrap">${mapShell()}</div>
       </div>
       <nav class="hub-rail" aria-label="Hubs">${rail}</nav>
@@ -203,7 +264,18 @@
     root.innerHTML = renderHubSection(hub, { compact: false });
     renderInteractive(hub, root);
     bindVideoFacades(root);
-    document.title = `${t(hub.name)} — REIN Hubs · Nexus`;
+    document.title = `${t(hub.name)} — HubMap · Nexus`;
+  }
+
+  function applyHubMapMeta() {
+    const title = `${HUBMAP_TITLE[lang]} — CleantechHUB Nexus`;
+    if (pageMode === 'landing') document.title = title;
+    const meta = document.querySelector('meta[name="description"]');
+    if (meta && pageMode === 'landing') {
+      meta.content = lang === 'ES'
+        ? 'HubMap — explorador de hubs REIN con mapa OpenStreetMap, equipos y startups ClimateLaunchpad.'
+        : 'HubMap — REIN hub explorer with OpenStreetMap, teams, and ClimateLaunchpad startups.';
+    }
   }
 
   function bindMapAndRail(root, hubs) {
@@ -221,6 +293,7 @@
 
   function renderAll(data) {
     window.__HUBS_DATA = data;
+    applyHubMapMeta();
     if (pageMode === 'detail') renderDetail(data, hubId);
     else renderLanding(data);
     document.querySelectorAll('[data-i18n-hubs-title]').forEach((el) => {
@@ -230,7 +303,7 @@
 
   initBrandLangToolbar();
 
-  fetch('/hubs/hubs-data.json?v=20261019-hubs')
+  fetch('/hubs/hubs-data.json?v=20261020-hubmap-b')
     .then((r) => r.json())
     .then(renderAll)
     .catch((err) => {
