@@ -1,0 +1,425 @@
+[
+  {
+    "source": "co-minenergia",
+    "target": "policy:co-ley-2099-2021",
+    "type": "issues",
+    "verified": true,
+    "suggested": false,
+    "source_url": "http://secretariasenado.gov.co/senado/basedoc/ley_2099_2021.html",
+    "notes": ""
+  },
+  {
+    "source": "co-minenergia",
+    "target": "policy:co-ley-1931-2018",
+    "type": "oversees",
+    "verified": true,
+    "suggested": false,
+    "source_url": "http://secretariasenado.gov.co/senado/basedoc/ley_1931_2018.html",
+    "notes": ""
+  },
+  {
+    "source": "co-minenergia",
+    "target": "policy:co-ley-1715-2014",
+    "type": "oversees",
+    "verified": true,
+    "suggested": false,
+    "source_url": "http://secretariasenado.gov.co/senado/basedoc/ley_1715_2014.html",
+    "notes": ""
+  },
+  {
+    "source": "co-minenergia",
+    "target": "policy:co-fenoge-decreto-1543",
+    "type": "issues",
+    "verified": true,
+    "suggested": false,
+    "source_url": "https://www.minenergia.gov.co/es/misional/energia-electrica-2/fondos-especiales/fondo-de-energ%C3%ADas-no-convencionales-y-gesti%C3%B3n-eficiente-de-la-energ%C3%ADa-fenoge/",
+    "notes": ""
+  },
+  {
+    "source": "co-minenergia",
+    "target": "policy:co-ndc-2020-update",
+    "type": "oversees",
+    "verified": true,
+    "suggested": false,
+    "source_url": "https://unfccc.int/sites/default/files/NDC/2022-06/Colombia_NDC_actualizada.pdf",
+    "notes": ""
+  },
+  {
+    "source": "co-creg",
+    "target": "policy:co-decreto-2239-zni",
+    "type": "implements",
+    "verified": true,
+    "suggested": false,
+    "source_url": "https://climate-laws.org/document/decreto-2239-de-2023_9f2a",
+    "notes": ""
+  },
+  {
+    "source": "co-upme",
+    "target": "policy:co-ley-2099-2021",
+    "type": "implements",
+    "verified": true,
+    "suggested": false,
+    "source_url": "http://secretariasenado.gov.co/senado/basedoc/ley_2099_2021.html",
+    "notes": ""
+  },
+  {
+    "source": "co-ipse",
+    "target": "policy:co-ipse-programa-acceso",
+    "type": "implements",
+    "verified": true,
+    "suggested": false,
+    "source_url": "https://www.ipse.gov.co/",
+    "notes": ""
+  },
+  {
+    "source": "co-bancoldex",
+    "target": "policy:co-taxonomia-verde",
+    "type": "implements",
+    "verified": true,
+    "suggested": false,
+    "source_url": "https://www.taxonomiaverde.gov.co/",
+    "notes": ""
+  },
+  {
+    "source": "co-minenergia",
+    "target": "policy:co-ley-2169-2021",
+    "type": "implements",
+    "verified": true,
+    "suggested": true,
+    "source_url": "https://climate-laws.org/document/law-2169-2021-promoting-low-carbon-development-last-amended-by-law-2294-2023_8496",
+    "notes": ""
+  },
+  {
+    "source": "policy:co-ley-2169-2021",
+    "target": "policy:co-ndc-2020-update",
+    "type": "enables",
+    "verified": true,
+    "suggested": false,
+    "source_url": "https://climate-laws.org/document/law-2169-2021-promoting-low-carbon-development-last-amended-by-law-2294-2023_8496",
+    "notes": ""
+  },
+  {
+    "source": "policy:co-fenoge-decreto-1543",
+    "target": "policy:co-ipse-programa-acceso",
+    "type": "finances",
+    "verified": true,
+    "suggested": true,
+    "source_url": "https://www.minenergia.gov.co/es/misional/energia-electrica-2/fondos-especiales/fondo-de-energ%C3%ADas-no-convencionales-y-gesti%C3%B3n-eficiente-de-la-energ%C3%ADa-fenoge/",
+    "notes": ""
+  },
+  {
+    "source": "policy:co-taxonomia-verde",
+    "target": "policy:co-ley-2169-2021",
+    "type": "enables",
+    "verified": true,
+    "suggested": false,
+    "source_url": "https://www.taxonomiaverde.gov.co/",
+    "notes": ""
+  },
+  {
+    "source": "sv-marn-ministerio-de-medio-ambiente-y-recursos-natur",
+    "target": "policy:sv-ley-medio-ambiente-1998",
+    "type": "issues",
+    "verified": true,
+    "suggested": false,
+    "source_url": "https://climate-laws.org/geographies/el-salvador",
+    "notes": ""
+  },
+  {
+    "source": "sv-marn-ministerio-de-medio-ambiente-y-recursos-natur",
+    "target": "policy:sv-pncc-2017",
+    "type": "issues",
+    "verified": true,
+    "suggested": false,
+    "source_url": "https://climate-laws.org/geographies/el-salvador",
+    "notes": ""
+  },
+  {
+    "source": "sv-marn-ministerio-de-medio-ambiente-y-recursos-natur",
+    "target": "policy:sv-ndc-2021",
+    "type": "oversees",
+    "verified": true,
+    "suggested": false,
+    "source_url": "https://unfccc.int/sites/default/files/NDC/2022-06/El%20Salvador_NDC%20Actualizaci%C3%B3n%202021.pdf",
+    "notes": ""
+  },
+  {
+    "source": "sv-minec-ministerio-de-economia",
+    "target": "policy:sv-estrategia-ernc-2017",
+    "type": "issues",
+    "verified": true,
+    "suggested": false,
+    "source_url": "https://climate-laws.org/geographies/el-salvador",
+    "notes": ""
+  },
+  {
+    "source": "sv-bandesal-banco-de-desarrollo-de-el-salvador",
+    "target": "policy:sv-linea-credito-verde",
+    "type": "implements",
+    "verified": true,
+    "suggested": false,
+    "source_url": "https://www.bandesal.gob.sv/",
+    "notes": ""
+  },
+  {
+    "source": "sv-minec-ministerio-de-economia",
+    "target": "policy:sv-conamype-ley-2016",
+    "type": "oversees",
+    "verified": true,
+    "suggested": false,
+    "source_url": "https://www.transparencia.gob.sv/institutions/conamype/documents/338012/download",
+    "notes": ""
+  },
+  {
+    "source": "sv-conamype",
+    "target": "policy:sv-conamype-ley-2016",
+    "type": "implements",
+    "verified": true,
+    "suggested": false,
+    "source_url": "https://www.transparencia.gob.sv/institutions/conamype/documents/338012/download",
+    "notes": ""
+  },
+  {
+    "source": "sv-mag-ministerio-de-agricultura-y-ganaderia",
+    "target": "policy:sv-politica-bioeconomia-2022",
+    "type": "issues",
+    "verified": true,
+    "suggested": false,
+    "source_url": "https://climate-laws.org/geographies/el-salvador",
+    "notes": ""
+  },
+  {
+    "source": "policy:sv-linea-credito-verde",
+    "target": "policy:sv-estrategia-ernc-2017",
+    "type": "enables",
+    "verified": true,
+    "suggested": false,
+    "source_url": "https://www.bandesal.gob.sv/",
+    "notes": ""
+  },
+  {
+    "source": "policy:sv-pncc-2017",
+    "target": "policy:sv-ndc-2021",
+    "type": "enables",
+    "verified": true,
+    "suggested": false,
+    "source_url": "https://climate-laws.org/geographies/el-salvador",
+    "notes": ""
+  },
+  {
+    "source": "pe-minam-ministerio-del-ambiente",
+    "target": "policy:pe-ley-30754-2018",
+    "type": "issues",
+    "verified": true,
+    "suggested": false,
+    "source_url": "https://www.gob.pe/institucion/presidencia/normas-legales/355750-30754",
+    "notes": ""
+  },
+  {
+    "source": "pe-minam-ministerio-del-ambiente",
+    "target": "policy:pe-ds-013-2019-minam",
+    "type": "issues",
+    "verified": true,
+    "suggested": false,
+    "source_url": "https://www.gob.pe/institucion/minam/normas-legales/395204-013-2019-minam",
+    "notes": ""
+  },
+  {
+    "source": "pe-minam-ministerio-del-ambiente",
+    "target": "policy:pe-encc-2050-2024",
+    "type": "issues",
+    "verified": true,
+    "suggested": false,
+    "source_url": "https://www.gob.pe/institucion/minam/informes-publicaciones/6562767",
+    "notes": ""
+  },
+  {
+    "source": "pe-minam-ministerio-del-ambiente",
+    "target": "policy:pe-ley-28611-2005",
+    "type": "oversees",
+    "verified": true,
+    "suggested": false,
+    "source_url": "https://leap.unep.org/en/akn/pe/act/2005/28611/spa@2005-10-15/overview",
+    "notes": ""
+  },
+  {
+    "source": "pe-minam-ministerio-del-ambiente",
+    "target": "policy:pe-ndc-2020",
+    "type": "oversees",
+    "verified": true,
+    "suggested": false,
+    "source_url": "https://unfccc.int/sites/default/files/NDC/2021-07/Peru_NDC%20update%202020.pdf",
+    "notes": ""
+  },
+  {
+    "source": "pe-minem-ministerio-de-energia-y-minas",
+    "target": "policy:pe-ley-27270-2000",
+    "type": "oversees",
+    "verified": true,
+    "suggested": false,
+    "source_url": "https://leap.unep.org/en/akn/pe/act/2000/27270/spa@2000-11-08/overview",
+    "notes": ""
+  },
+  {
+    "source": "pe-serfor",
+    "target": "policy:pe-ley-29763-2011",
+    "type": "implements",
+    "verified": true,
+    "suggested": false,
+    "source_url": "https://leap.unep.org/en/akn/pe/act/2011/29763/spa@2011-07-27/overview",
+    "notes": ""
+  },
+  {
+    "source": "pe-ana-autoridad-nacional-del-agua",
+    "target": "policy:pe-ley-29338-2009",
+    "type": "implements",
+    "verified": true,
+    "suggested": false,
+    "source_url": "https://leap.unep.org/en/akn/pe/act/2009/29338/spa@2009-08-03/overview",
+    "notes": ""
+  },
+  {
+    "source": "pe-minam-ministerio-del-ambiente",
+    "target": "policy:pe-programa-bionegocios",
+    "type": "oversees",
+    "verified": true,
+    "suggested": false,
+    "source_url": "https://www.gob.pe/institucion/minam/campa%C3%B1as/46380-programa-para-bionegocios",
+    "notes": ""
+  },
+  {
+    "source": "pe-minam-ministerio-del-ambiente",
+    "target": "policy:pe-programa-bosques",
+    "type": "oversees",
+    "verified": true,
+    "suggested": false,
+    "source_url": "https://www.gob.pe/institucion/minam/campa%C3%B1as/46379-programa-nacional-de-conservacion-de-bosques",
+    "notes": ""
+  },
+  {
+    "source": "pe-programa-para-bionegocios-minam",
+    "target": "policy:pe-programa-bionegocios",
+    "type": "implements",
+    "verified": true,
+    "suggested": false,
+    "source_url": "https://www.gob.pe/institucion/minam/campa%C3%B1as/46380-programa-para-bionegocios",
+    "notes": ""
+  },
+  {
+    "source": "pe-programa-bosques-minam",
+    "target": "policy:pe-programa-bosques",
+    "type": "implements",
+    "verified": true,
+    "suggested": false,
+    "source_url": "https://www.gob.pe/institucion/minam/campa%C3%B1as/46379-programa-nacional-de-conservacion-de-bosques",
+    "notes": ""
+  },
+  {
+    "source": "pe-produce-ministerio-de-la-produccion",
+    "target": "policy:pe-startup-peru-clima",
+    "type": "issues",
+    "verified": true,
+    "suggested": false,
+    "source_url": "https://www.gob.pe/institucion/produce/campa%C3%B1as/46381-startup-peru",
+    "notes": ""
+  },
+  {
+    "source": "pe-proinnovate-startup-peru",
+    "target": "policy:pe-startup-peru-clima",
+    "type": "implements",
+    "verified": true,
+    "suggested": false,
+    "source_url": "https://www.gob.pe/institucion/produce/campa%C3%B1as/46381-startup-peru",
+    "notes": ""
+  },
+  {
+    "source": "pe-cofide-fcei",
+    "target": "policy:pe-programa-bionegocios",
+    "type": "finances",
+    "verified": true,
+    "suggested": false,
+    "source_url": "https://www.gob.pe/bionegocios",
+    "notes": ""
+  },
+  {
+    "source": "policy:pe-ley-30754-2018",
+    "target": "policy:pe-encc-2050-2024",
+    "type": "enables",
+    "verified": true,
+    "suggested": false,
+    "source_url": "https://www.gob.pe/institucion/presidencia/normas-legales/355750-30754",
+    "notes": ""
+  },
+  {
+    "source": "policy:pe-programa-bosques",
+    "target": "challenge:PE-1-bosques",
+    "type": "enables",
+    "verified": true,
+    "suggested": false,
+    "source_url": "https://www.gob.pe/institucion/minam/campa%C3%B1as/46379-programa-nacional-de-conservacion-de-bosques",
+    "notes": ""
+  },
+  {
+    "source": "policy:pe-ley-29338-2009",
+    "target": "challenge:PE-2-agua",
+    "type": "enables",
+    "verified": true,
+    "suggested": false,
+    "source_url": "https://leap.unep.org/en/akn/pe/act/2009/29338/spa@2009-08-03/overview",
+    "notes": ""
+  },
+  {
+    "source": "policy:pe-programa-bionegocios",
+    "target": "challenge:PE-1-bosques",
+    "type": "finances",
+    "verified": true,
+    "suggested": true,
+    "source_url": "https://www.gob.pe/institucion/minam/campa%C3%B1as/46380-programa-para-bionegocios",
+    "notes": ""
+  },
+  {
+    "source": "pe-minam-ministerio-del-ambiente",
+    "target": "policy:pe-programa-bionegocios",
+    "type": "runs_program",
+    "verified": true,
+    "suggested": false,
+    "source_url": "https://www.gob.pe/institucion/minam/campa%C3%B1as/46380-programa-para-bionegocios",
+    "notes": ""
+  },
+  {
+    "source": "pe-minam-ministerio-del-ambiente",
+    "target": "policy:pe-programa-bosques",
+    "type": "runs_program",
+    "verified": true,
+    "suggested": false,
+    "source_url": "https://www.gob.pe/institucion/minam/campa%C3%B1as/46379-programa-nacional-de-conservacion-de-bosques",
+    "notes": ""
+  },
+  {
+    "source": "pe-produce-ministerio-de-la-produccion",
+    "target": "policy:pe-startup-peru-clima",
+    "type": "runs_program",
+    "verified": true,
+    "suggested": false,
+    "source_url": "https://www.gob.pe/institucion/produce/campa%C3%B1as/46381-startup-peru",
+    "notes": ""
+  },
+  {
+    "source": "sv-mag-ministerio-de-agricultura-y-ganaderia",
+    "target": "policy:sv-politica-bioeconomia-2022",
+    "type": "runs_program",
+    "verified": true,
+    "suggested": true,
+    "source_url": "https://climate-laws.org/geographies/el-salvador",
+    "notes": ""
+  },
+  {
+    "source": "co-minenergia",
+    "target": "policy:co-ipse-programa-acceso",
+    "type": "regulates_layer",
+    "verified": true,
+    "suggested": true,
+    "source_url": "https://www.ipse.gov.co/",
+    "notes": ""
+  }
+]

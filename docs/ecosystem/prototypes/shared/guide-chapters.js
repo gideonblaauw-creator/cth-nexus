@@ -14,8 +14,19 @@ window.NexusGuide = (function () {
       num: 2,
       title: 'Policy',
       titleEs: '2 · Política pública',
-      blurb: 'Regulación y programas de gobierno.',
-      types: ['regulates_layer', 'runs_program', 'oversees', 'runs_initiative', 'created', 'participates'],
+      blurb: 'Instrumentos (ley, NDC, taxonomía) y vínculos verificados gobierno→política→reto.',
+      types: [
+        'regulates_layer',
+        'runs_program',
+        'oversees',
+        'runs_initiative',
+        'created',
+        'participates',
+        'issues',
+        'implements',
+        'enables',
+        'finances',
+      ],
     },
     {
       id: 'capital',
@@ -89,6 +100,10 @@ window.NexusGuide = (function () {
     return id && id.startsWith('challenge:');
   }
 
+  function isPolicyId(id) {
+    return id && id.startsWith('policy:');
+  }
+
   function computeGapCounts(relations, byId) {
     const out = CHAPTER_DEFS.map((ch) => {
       const typeCounts = {};
@@ -102,6 +117,17 @@ window.NexusGuide = (function () {
           return;
         }
         if (!ch.types.includes(r.type)) return;
+        if (ch.id === 'policy') {
+          if (r.type === 'enables' || r.type === 'finances') {
+            typeCounts[r.type] = (typeCounts[r.type] || 0) + 1;
+            total += 1;
+            return;
+          }
+          if (isChallengeId(r.source) || isChallengeId(r.target)) return;
+          typeCounts[r.type] = (typeCounts[r.type] || 0) + 1;
+          total += 1;
+          return;
+        }
         if (isChallengeId(r.source) || isChallengeId(r.target)) return;
         typeCounts[r.type] = (typeCounts[r.type] || 0) + 1;
         total += 1;
@@ -238,6 +264,14 @@ window.NexusGuide = (function () {
     if (ch.id === 'challenges') {
       return relations.filter((r) => r.type === 'works_on_challenge');
     }
+    if (ch.id === 'policy') {
+      return relations.filter((r) => {
+        if (!ch.types.includes(r.type)) return false;
+        if (r.type === 'enables' || r.type === 'finances') return true;
+        if (isPolicyId(r.source) || isPolicyId(r.target)) return true;
+        return !isChallengeId(r.source) && !isChallengeId(r.target);
+      });
+    }
     return relations.filter(
       (r) => ch.types.includes(r.type) && !isChallengeId(r.source) && !isChallengeId(r.target),
     );
@@ -248,6 +282,7 @@ window.NexusGuide = (function () {
     CHALLENGE_META,
     CONSTELLATIONS,
     isChallengeId,
+    isPolicyId,
     computeGapCounts,
     buildConstellation,
     relationsForChapter,
