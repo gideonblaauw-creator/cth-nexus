@@ -489,14 +489,14 @@
         },
         {
           "type": "youtube",
-          "youtubeId": "Ta9BLs1jUIs",
+          "youtubeId": "DUAXecNNdFs",
           "title": {
-            "ES": "ClimateLaunchpad 2025 · Final regional Américas",
-            "EN": "ClimateLaunchpad 2025 · Americas regional final"
+            "ES": "ClimateLaunchpad 2026 · pitch Guatemala (Piña & Kakaw)",
+            "EN": "ClimateLaunchpad 2026 · Guatemala pitch (Piña & Kakaw)"
           },
           "caption": {
-            "ES": "Highlights regionales (Centroamérica en la cohorte).",
-            "EN": "Regional highlights (Central America in the cohort)."
+            "ES": "Highlights CLP · cohorte Guatemala (CleantechHUB).",
+            "EN": "CLP highlights · Guatemala cohort (CleantechHUB)."
           }
         },
         {
@@ -618,6 +618,20 @@
           },
           "linkedin": "https://www.linkedin.com/in/stephania-calder%C3%B3n-suasn%C3%A1var-a1354878/",
           "initials": "SC",
+          "photoPending": true
+        },
+        {
+          "name": "María Regina Alfaro",
+          "role": {
+            "ES": "Vicedecana, Facultad de Arquitectura y Diseño · REIN GT",
+            "EN": "Vice Dean, Architecture & Design · REIN GT"
+          },
+          "org": {
+            "ES": "Universidad Rafael Landívar",
+            "EN": "Universidad Rafael Landívar"
+          },
+          "linkedin": "https://www.linkedin.com/in/maria-regina-alfaro-0069b245/",
+          "initials": "MR",
           "photoPending": true
         }
       ]
@@ -741,12 +755,12 @@
           "type": "youtube",
           "youtubeId": "FD7XWskvtvc",
           "title": {
-            "ES": "ClimaTech · taller cambio climático",
-            "EN": "ClimaTech · climate change workshop"
+            "ES": "ClimaTech · Taller Cambio Climático y Sostenibilidad",
+            "EN": "ClimaTech · Climate Change and Sustainability workshop"
           },
           "caption": {
-            "ES": "Programa ClimaTech / emprendimiento climático.",
-            "EN": "ClimaTech programme / climate entrepreneurship."
+            "ES": "Último contenido de programa ClimaTech en YouTube (Emprende UP · 2025).",
+            "EN": "Latest ClimaTech programme video on YouTube (Emprende UP · 2025)."
           }
         }
       ],
