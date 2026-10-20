@@ -1,0 +1,1149 @@
+{
+  "meta": {
+    "generated": "2026-10-16",
+    "source": "people_sources.json (CLP26 mentors & jurors)",
+    "people_sources_path": "climate-kic/clp26-story/site/data/people.json",
+    "highest_existing_nexus_id": "M076",
+    "first_new_id": "M077",
+    "count_new": 51,
+    "count_already_on_nexus": 8,
+    "dedupe": "normalized full name; merged mentor+jury lists",
+    "last_new_id": "M127",
+    "excluded_no_linkedin": 14,
+    "policy": "Gideon: no LinkedIn URL => not added to Nexus roster package"
+  },
+  "already_on_nexus": [
+    {
+      "name": "Carlos Fernando de la Cruz",
+      "nexus_id": "M072",
+      "clp26_roles": [
+        "mentor"
+      ]
+    },
+    {
+      "name": "Carlos Jaramillo",
+      "nexus_id": "M045",
+      "clp26_roles": [
+        "mentor"
+      ]
+    },
+    {
+      "name": "Iván Dávila",
+      "nexus_id": "M052",
+      "clp26_roles": [
+        "jury"
+      ]
+    },
+    {
+      "name": "Michel Marfil Rivero",
+      "nexus_id": "M043",
+      "clp26_roles": [
+        "mentor"
+      ]
+    },
+    {
+      "name": "Mitchell Lázaro",
+      "nexus_id": "M069",
+      "clp26_roles": [
+        "mentor"
+      ]
+    },
+    {
+      "name": "Renzo Salas",
+      "nexus_id": "M068",
+      "clp26_roles": [
+        "mentor"
+      ]
+    },
+    {
+      "name": "Rubén Arias",
+      "nexus_id": "M074",
+      "clp26_roles": [
+        "mentor"
+      ]
+    },
+    {
+      "name": "Ximena Tavera",
+      "nexus_id": "M001",
+      "clp26_roles": [
+        "mentor"
+      ]
+    }
+  ],
+  "additions": [
+    {
+      "id": "M077",
+      "name": "Alaide Díaz",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Guatemala",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "https://www.linkedin.com/in/alaide-diaz?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+      "confidence": "probable",
+      "desc": "",
+      "email": "alaide0898@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/alaide-diaz?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+    },
+    {
+      "id": "M078",
+      "name": "Alejandra Sierralta",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Peru",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "www.linkedin.com/in/alejandrasierralta/",
+      "confidence": "probable",
+      "desc": "",
+      "email": "alesierralta@gmail.com",
+      "linkedin": "www.linkedin.com/in/alejandrasierralta/"
+    },
+    {
+      "id": "M079",
+      "name": "Alex Kudzuma",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Peru",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "www.linkedin.com/in/alex-kudzuma",
+      "confidence": "probable",
+      "desc": "",
+      "email": "alexkudzuma@gmail.com",
+      "linkedin": "www.linkedin.com/in/alex-kudzuma"
+    },
+    {
+      "id": "M080",
+      "name": "Ana María Parra García",
+      "role": "New Resources Specialist",
+      "company": "Fedepalma",
+      "organisation": "Fedepalma",
+      "country": "Colombia National Final · 20 Aug 2026",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "jury"
+      ],
+      "status": "Active",
+      "linkedin_url": "https://www.linkedin.com/in/ana-maria-parra-pm/",
+      "confidence": "probable",
+      "desc": "",
+      "email": "",
+      "linkedin": "https://www.linkedin.com/in/ana-maria-parra-pm/"
+    },
+    {
+      "id": "M081",
+      "name": "Andrés Felipe Páez",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Colombia",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "https://www.linkedin.com/in/andresfelipepaezrodriguezsostenibilidadyeconomiacircular/",
+      "confidence": "probable",
+      "desc": "",
+      "email": "afp.rodriguez@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/andresfelipepaezrodriguezsostenibilidadyeconomiacircular/"
+    },
+    {
+      "id": "M082",
+      "name": "Bernardo Joseph Trujillo León",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Colombia",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "http://linkedin.com/in/bernardo-joseph-4813561a9",
+      "confidence": "probable",
+      "desc": "",
+      "email": "conlat.net@gmail.com",
+      "linkedin": "http://linkedin.com/in/bernardo-joseph-4813561a9"
+    },
+    {
+      "id": "M083",
+      "name": "Carlos Arango Ucros",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Colombia",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "https://www.linkedin.com/in/carlosarangoucros",
+      "confidence": "probable",
+      "desc": "",
+      "email": "carlosarangoucros@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/carlosarangoucros"
+    },
+    {
+      "id": "M084",
+      "name": "Cinthya Sandoval Cuéllar",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Guatemala",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "https://www.linkedin.com/in/cinthya-sandoval-48903770/",
+      "confidence": "probable",
+      "desc": "",
+      "email": "cinthya.sandovalcuellar@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/cinthya-sandoval-48903770/"
+    },
+    {
+      "id": "M085",
+      "name": "Daniel Alpaca",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Peru",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "www.linkedin.com/in/danielalpaca",
+      "confidence": "probable",
+      "desc": "",
+      "email": "daniel.alpacaf@gmail.com",
+      "linkedin": "www.linkedin.com/in/danielalpaca"
+    },
+    {
+      "id": "M086",
+      "name": "Daniel Swift",
+      "role": "Ingeniero Especializado",
+      "company": "Banco de la Republica",
+      "organisation": "Banco de la Republica",
+      "country": "Colombia National Final · 20 Aug 2026",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "jury"
+      ],
+      "status": "Active",
+      "linkedin_url": "https://www.linkedin.com/in/danielswiftpub/",
+      "confidence": "probable",
+      "desc": "",
+      "email": "",
+      "linkedin": "https://www.linkedin.com/in/danielswiftpub/"
+    },
+    {
+      "id": "M087",
+      "name": "Diana Castrillón Gómez",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Colombia",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "https://www.linkedin.com/in/dianacastrillongomez/",
+      "confidence": "probable",
+      "desc": "",
+      "email": "diana.castrillon@segurosbolivar.com",
+      "linkedin": "https://www.linkedin.com/in/dianacastrillongomez/"
+    },
+    {
+      "id": "M088",
+      "name": "Erwin Navarrete",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Colombia",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "https://www.linkedin.com/in/erwin-navarrete-b43283240/",
+      "confidence": "probable",
+      "desc": "",
+      "email": "erwineconomy@hotmail.com",
+      "linkedin": "https://www.linkedin.com/in/erwin-navarrete-b43283240/"
+    },
+    {
+      "id": "M089",
+      "name": "Estela Ugalde",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Costa Rica",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "https://www.linkedin.com/in/estela-ugalde-74447268/",
+      "confidence": "probable",
+      "desc": "",
+      "email": "estela.ugalde@veritas.cr",
+      "linkedin": "https://www.linkedin.com/in/estela-ugalde-74447268/"
+    },
+    {
+      "id": "M090",
+      "name": "Felipe Hernández",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Colombia",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "jury",
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "https://www.linkedin.com/in/fhvdesign/",
+      "confidence": "probable",
+      "desc": "",
+      "email": "felipe@frugalstudio.design",
+      "linkedin": "https://www.linkedin.com/in/fhvdesign/"
+    },
+    {
+      "id": "M091",
+      "name": "Fernando Torres",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Peru",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "www.linkedin.com/in/fitorresg/",
+      "confidence": "probable",
+      "desc": "",
+      "email": "fi.torresgarcia@gmail.com",
+      "linkedin": "www.linkedin.com/in/fitorresg/"
+    },
+    {
+      "id": "M092",
+      "name": "Gabriela Tenaz",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Costa Rica",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "https://www.linkedin.com/in/gabriela-t%C3%A9naz-2914a6127/",
+      "confidence": "probable",
+      "desc": "",
+      "email": "gltenaz@url.edu.gt",
+      "linkedin": "https://www.linkedin.com/in/gabriela-t%C3%A9naz-2914a6127/"
+    },
+    {
+      "id": "M093",
+      "name": "Genoveva Martínez",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Guatemala",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "https://www.linkedin.com/in/genoveva-martínez-a4ab33196?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "confidence": "probable",
+      "desc": "",
+      "email": "gmartinez@wwfca.org",
+      "linkedin": "https://www.linkedin.com/in/genoveva-martínez-a4ab33196?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+    },
+    {
+      "id": "M094",
+      "name": "Gloria Bazán Narváez",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Colombia",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "https://www.linkedin.com/in/gloria-bazan-narvaez-06581b55/",
+      "confidence": "probable",
+      "desc": "",
+      "email": "gbazann@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/gloria-bazan-narvaez-06581b55/"
+    },
+    {
+      "id": "M095",
+      "name": "Guillermo Nariño",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Colombia",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "https://www.linkedin.com/in/guillermo-nari%C3%B1o/?",
+      "confidence": "probable",
+      "desc": "",
+      "email": "guillermo.narino@outlook.com",
+      "linkedin": "https://www.linkedin.com/in/guillermo-nari%C3%B1o/?"
+    },
+    {
+      "id": "M096",
+      "name": "Guisela Carbajal Romero",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Costa Rica",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "https://www.linkedin.com/in/guisela-carbajal/",
+      "confidence": "probable",
+      "desc": "",
+      "email": "Incuba.vrin@uns.edu.pe",
+      "linkedin": "https://www.linkedin.com/in/guisela-carbajal/"
+    },
+    {
+      "id": "M097",
+      "name": "Gustavo García",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Colombia",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "https://www.linkedin.com/in/gustavo-garcia-navas/",
+      "confidence": "probable",
+      "desc": "",
+      "email": "gustavoagarcia236@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/gustavo-garcia-navas/"
+    },
+    {
+      "id": "M098",
+      "name": "Heraldo Escobar",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Guatemala",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "www.linkedin.com/in/heraldo-escobar-72163934",
+      "confidence": "probable",
+      "desc": "",
+      "email": "bmlagtm@gmail.com",
+      "linkedin": "www.linkedin.com/in/heraldo-escobar-72163934"
+    },
+    {
+      "id": "M099",
+      "name": "Jhosseli García",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Peru",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "www.linkedin.com/in/jhosseligarcia/",
+      "confidence": "probable",
+      "desc": "",
+      "email": "jhosseli.garcia@gmail.com",
+      "linkedin": "www.linkedin.com/in/jhosseligarcia/"
+    },
+    {
+      "id": "M100",
+      "name": "Jorge Montenegro",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Costa Rica",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "https://www.linkedin.com/in/jorge-fer-monte",
+      "confidence": "probable",
+      "desc": "",
+      "email": "ferchom_98@hotmail.com",
+      "linkedin": "https://www.linkedin.com/in/jorge-fer-monte"
+    },
+    {
+      "id": "M101",
+      "name": "José Soto",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Peru",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "www.linkedin.com/in/jose-carlos-soto-mujica-9a9987396",
+      "confidence": "probable",
+      "desc": "",
+      "email": "j.sotom@up.edu.pe",
+      "linkedin": "www.linkedin.com/in/jose-carlos-soto-mujica-9a9987396"
+    },
+    {
+      "id": "M102",
+      "name": "Juan Diego Loarca",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Guatemala",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "https://www.linkedin.com/in/juan-diego-loarca?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "confidence": "probable",
+      "desc": "",
+      "email": "juandiegoloarca17@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/juan-diego-loarca?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    },
+    {
+      "id": "M103",
+      "name": "Juan Sebastián Villamizar",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Colombia",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "https://www.linkedin.com/in/sebastian-villamizar-diaz-b17818114",
+      "confidence": "probable",
+      "desc": "",
+      "email": "emprendimiento@upb.edu.co",
+      "linkedin": "https://www.linkedin.com/in/sebastian-villamizar-diaz-b17818114"
+    },
+    {
+      "id": "M104",
+      "name": "Julián Martínez",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Guatemala",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "https://www.linkedin.com/in/julianmartineza/",
+      "confidence": "probable",
+      "desc": "",
+      "email": "Julian@suricatalabs.com",
+      "linkedin": "https://www.linkedin.com/in/julianmartineza/"
+    },
+    {
+      "id": "M105",
+      "name": "Karol M. Garzón",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Colombia",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "https://www.linkedin.com/in/karol-melissa-garz%C3%B3n-cabrera-5516a6382/",
+      "confidence": "probable",
+      "desc": "",
+      "email": "proyectoskarolgarzon@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/karol-melissa-garz%C3%B3n-cabrera-5516a6382/"
+    },
+    {
+      "id": "M106",
+      "name": "Lina Ospina",
+      "role": "Líder de Alianzas",
+      "company": "Corporación Interactuar",
+      "organisation": "Corporación Interactuar",
+      "country": "Colombia National Final · 20 Aug 2026",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "jury"
+      ],
+      "status": "Active",
+      "linkedin_url": "https://www.linkedin.com/in/lina-ospina-mosquera/",
+      "confidence": "probable",
+      "desc": "",
+      "email": "",
+      "linkedin": "https://www.linkedin.com/in/lina-ospina-mosquera/"
+    },
+    {
+      "id": "M107",
+      "name": "Lucía Medina Capacoila",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Colombia",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "https://www.linkedin.com/in/luciamedinacapacoila/",
+      "confidence": "probable",
+      "desc": "",
+      "email": "luciamedina.ca@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/luciamedinacapacoila/"
+    },
+    {
+      "id": "M108",
+      "name": "Maité Marroquín",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Guatemala",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "https://www.linkedin.com/in/mait%C3%A9-marroqu%C3%ADn-76370918b/",
+      "confidence": "probable",
+      "desc": "",
+      "email": "maitemarroquin24@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/mait%C3%A9-marroqu%C3%ADn-76370918b/"
+    },
+    {
+      "id": "M109",
+      "name": "Mariana Revilla Llaca",
+      "role": "Gerente de Sustentabilidad",
+      "company": "Grupo Restaurantero Gigante",
+      "organisation": "Grupo Restaurantero Gigante",
+      "country": "Colombia National Final · 20 Aug 2026",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "jury"
+      ],
+      "status": "Active",
+      "linkedin_url": "https://www.linkedin.com/in/ACoAACJO8qYByt8d8R8InDQGReuHjGlBkUq2xZA",
+      "confidence": "probable",
+      "desc": "",
+      "email": "",
+      "linkedin": "https://www.linkedin.com/in/ACoAACJO8qYByt8d8R8InDQGReuHjGlBkUq2xZA"
+    },
+    {
+      "id": "M110",
+      "name": "Mario Reichert",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Guatemala",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "https://www.linkedin.com/in/mario-reichert-netzero-esg-gri-sas-niifs1-s2sbti-waterstewardship-ehs-safety-sustainability-sbti-wcm?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+      "confidence": "probable",
+      "desc": "",
+      "email": "Marioreichert@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/mario-reichert-netzero-esg-gri-sas-niifs1-s2sbti-waterstewardship-ehs-safety-sustainability-sbti-wcm?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+    },
+    {
+      "id": "M111",
+      "name": "Mario Rojas",
+      "role": "Red de metores y Docente",
+      "company": "Uniandinos",
+      "organisation": "Uniandinos",
+      "country": "Costa Rica",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "jury",
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "https://www.linkedin.com/in/mario-fernando-rojas-suarez-49328770/",
+      "confidence": "probable",
+      "desc": "",
+      "email": "Mariofrojasnieto9@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/mario-fernando-rojas-suarez-49328770/"
+    },
+    {
+      "id": "M112",
+      "name": "Marisa Arias",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Peru",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "www.linkedin.com/in/marisaariaspicon/",
+      "confidence": "probable",
+      "desc": "",
+      "email": "arias.picon.marisa@gmail.com",
+      "linkedin": "www.linkedin.com/in/marisaariaspicon/"
+    },
+    {
+      "id": "M113",
+      "name": "Martha Zeledón",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Colombia",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "https://www.linkedin.com/in/martha-yadira-zeled%C3%B3n-2419b024/",
+      "confidence": "probable",
+      "desc": "",
+      "email": "martha.zeledonh@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/martha-yadira-zeled%C3%B3n-2419b024/"
+    },
+    {
+      "id": "M114",
+      "name": "Martin Dolan",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Colombia",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "https://www.linkedin.com/in/martin-dolan/",
+      "confidence": "probable",
+      "desc": "",
+      "email": "martindolanconsultants@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/martin-dolan/"
+    },
+    {
+      "id": "M115",
+      "name": "Marvin Luna",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Guatemala",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "linkedin.com/in/marvinlunagt",
+      "confidence": "probable",
+      "desc": "",
+      "email": "marvinlunagt@gmail.com",
+      "linkedin": "linkedin.com/in/marvinlunagt"
+    },
+    {
+      "id": "M116",
+      "name": "María Isabel Cruz López",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Colombia",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "https://www.linkedin.com/in/maria-isabel-cruz-lopez",
+      "confidence": "probable",
+      "desc": "",
+      "email": "mcruz@corredores.com",
+      "linkedin": "https://www.linkedin.com/in/maria-isabel-cruz-lopez"
+    },
+    {
+      "id": "M117",
+      "name": "María Juliana Pérez Vasco",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Colombia",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "https://www.linkedin.com/in/maria-juliana-perez-vasco-19587843",
+      "confidence": "probable",
+      "desc": "",
+      "email": "mperezv@isa.com.co",
+      "linkedin": "https://www.linkedin.com/in/maria-juliana-perez-vasco-19587843"
+    },
+    {
+      "id": "M118",
+      "name": "Mónica O’Connor",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Peru",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "www.linkedin.com/in/manuel-c%C3%A1rdenas-iberico-0225a216/",
+      "confidence": "probable",
+      "desc": "",
+      "email": "mc.oconnorr@up.edu.pe",
+      "linkedin": "www.linkedin.com/in/manuel-c%C3%A1rdenas-iberico-0225a216/"
+    },
+    {
+      "id": "M119",
+      "name": "Osvaldo Ruiz",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Costa Rica",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "https://www.linkedin.com/in/osvaldo-ruiz-calder%C3%B3n-1b9699136/",
+      "confidence": "probable",
+      "desc": "",
+      "email": "osruiz@veritas.cr",
+      "linkedin": "https://www.linkedin.com/in/osvaldo-ruiz-calder%C3%B3n-1b9699136/"
+    },
+    {
+      "id": "M120",
+      "name": "Paola Andrea Sánchez Gutiérrez",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Colombia",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "https://www.linkedin.com/in/paolasolarinsights/",
+      "confidence": "probable",
+      "desc": "",
+      "email": "paolasolarinsights@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/paolasolarinsights/"
+    },
+    {
+      "id": "M121",
+      "name": "Patricia Carrasquilla Cortés",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Colombia",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "https://www.linkedin.com/in/patriciacarrasquillac",
+      "confidence": "probable",
+      "desc": "",
+      "email": "nosfaltamundo@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/patriciacarrasquillac"
+    },
+    {
+      "id": "M122",
+      "name": "Patricia Melgar",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Peru",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "www.linkedin.com/in/patricia-melgar-71360228/",
+      "confidence": "probable",
+      "desc": "",
+      "email": "patriciamelgar@hotmail.com",
+      "linkedin": "www.linkedin.com/in/patricia-melgar-71360228/"
+    },
+    {
+      "id": "M123",
+      "name": "Patricia Vidal",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Peru",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "www.linkedin.com/in/patricia-vidal-izaguirre",
+      "confidence": "probable",
+      "desc": "",
+      "email": "patriciavidalizaguirre@gmail.com",
+      "linkedin": "www.linkedin.com/in/patricia-vidal-izaguirre"
+    },
+    {
+      "id": "M124",
+      "name": "Raúl Campos",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Peru",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "www.linkedin.com/in/raulcamposrosas/",
+      "confidence": "probable",
+      "desc": "",
+      "email": "raulcampos@microsoft.com",
+      "linkedin": "www.linkedin.com/in/raulcamposrosas/"
+    },
+    {
+      "id": "M125",
+      "name": "Santiago Aristizábal",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Colombia",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "https://www.linkedin.com/in/santiago-aristiz%C3%A1bal-molina-04681657/",
+      "confidence": "probable",
+      "desc": "",
+      "email": "saristizabal@emergencyess.com",
+      "linkedin": "https://www.linkedin.com/in/santiago-aristiz%C3%A1bal-molina-04681657/"
+    },
+    {
+      "id": "M126",
+      "name": "Santiago Cruz",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Colombia",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "jury",
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "https://www.linkedin.com/in/santiagocruzgonzalez",
+      "confidence": "probable",
+      "desc": "",
+      "email": "santicruzg@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/santiagocruzgonzalez"
+    },
+    {
+      "id": "M127",
+      "name": "Sebastián Martínez Pérez",
+      "role": "",
+      "company": "",
+      "organisation": "",
+      "country": "Colombia",
+      "expertise": "",
+      "programs": [
+        "CLP26"
+      ],
+      "clp26_roles": [
+        "mentor"
+      ],
+      "status": "Active",
+      "linkedin_url": "https://www.linkedin.com/in/sebasmperez/",
+      "confidence": "probable",
+      "desc": "",
+      "email": "sebasmperez@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/sebasmperez/"
+    }
+  ]
+}

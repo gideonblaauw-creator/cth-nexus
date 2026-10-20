@@ -1,0 +1,8 @@
+id,name,parent_id/id,function,email,phone,website,comment
+__import__.clp26_agrodata_connect_founder,TBD (LinkedIn),__import__.clp26_agrodata_connect,,,,,Founder data to be sourced from LinkedIn only
+__import__.clp26_agrolider_founder,TBD (LinkedIn),__import__.clp26_agrolider,,,,,Founder data to be sourced from LinkedIn only
+__import__.clp26_airthnova_founder,TBD (LinkedIn),__import__.clp26_airthnova,,,,,Founder data to be sourced from LinkedIn only
+__import__.clp26_amazoniko_founder,TBD (LinkedIn),__import__.clp26_amazoniko,,,,,Founder data to be sourced from LinkedIn only
+__import__.clp26_artexlab_founder,TBD (LinkedIn),__import__.clp26_artexlab,,,,,Founder data to be sourced from LinkedIn only
+__import__.clp26_bio_analytics_founder,TBD (LinkedIn),__import__.clp26_bio_analytics,,,,,Founder data to be sourced from LinkedIn only
+__import__.clp26_cacelio_founder,TBD (LinkedIn),__import__.clp26_cacelio,,,,,Founder data to be sourced from LinkedIn only
