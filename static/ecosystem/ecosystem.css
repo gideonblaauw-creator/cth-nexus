@@ -78,6 +78,17 @@ body[data-brand="rein"] .toggle-pill button.active {
   height: auto;
   display: block;
 }
+.eco-leaflet-map {
+  width: 100%;
+  min-height: 320px;
+  height: 360px;
+  border-radius: 10px;
+  border: 1px solid var(--color-border);
+  z-index: 1;
+}
+.eco-leaflet-map .leaflet-control-attribution {
+  font-size: 9px;
+}
 .map-country {
   fill: rgba(105,181,250,.22);
   stroke: var(--deep-blue);

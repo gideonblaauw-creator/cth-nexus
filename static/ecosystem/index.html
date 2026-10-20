@@ -7,9 +7,12 @@
   <title>Ecosistema LATAM — CleantechHUB Nexus</title>
   <meta name="robots" content="noindex,nofollow" />
   <link rel="stylesheet" href="/nexus-assets/nexus-brand.css?v=eco1" />
-  <link rel="stylesheet" href="ecosystem.css?v=2" />
+  <link rel="stylesheet" href="ecosystem.css?v=3" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/vis-network@9.1.9/standalone/umd/vis-network.min.js" defer></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin="" defer></script>
+  <script src="/nexus-assets/nexus-latam-map.js?v=1" defer></script>
 </head>
 <body data-nexus-page="ecosystem" data-brand="cth">
 
@@ -57,19 +60,7 @@
     <div>
       <div class="panel-h" data-i18n="map">Mapa interactivo</div>
       <p style="font-size:11px;color:var(--color-muted);margin:-4px 0 8px" data-i18n="clickCountry">Clic en un país para enfocar</p>
-      <svg id="latam-map" viewBox="0 0 520 420" role="img" aria-label="LATAM map">
-        <path class="map-country" data-cc="MX" d="M40,80 L120,60 L130,100 L50,120 Z" opacity=".15" pointer-events="none"/>
-        <path class="map-country empty" data-cc="GT" data-empty="1" d="M95,145 L135,130 L145,175 L105,190 Z"/>
-        <text class="map-label" x="108" y="165">GT</text>
-        <path class="map-country" data-cc="SV" d="M120,175 L155,168 L162,205 L125,212 Z"/>
-        <text class="map-label" x="128" y="195">SV</text>
-        <path class="map-country empty" data-cc="CR" data-empty="1" d="M135,210 L175,200 L182,235 L142,245 Z"/>
-        <text class="map-label" x="145" y="225">CR</text>
-        <path class="map-country" data-cc="CO" d="M155,210 L220,185 L235,260 L170,280 Z"/>
-        <text class="map-label" x="175" y="245">CO</text>
-        <path class="map-country" data-cc="PE" d="M175,265 L255,250 L270,360 L190,375 Z"/>
-        <text class="map-label" x="205" y="320">PE</text>
-      </svg>
+      <div id="eco-leaflet-map" class="eco-leaflet-map" role="application" aria-label="LATAM ecosystem map"></div>
       <div id="map-empty-msg" class="map-empty-msg"></div>
     </div>
     <div class="charts-row" style="grid-template-columns:1fr">
@@ -97,6 +88,6 @@
 </main>
 
 <script src="/nexus-assets/nexus-nav.js?v=eco1"></script>
-<script src="ecosystem.js?v=2"></script>
+<script src="ecosystem.js?v=3"></script>
 </body>
 </html>

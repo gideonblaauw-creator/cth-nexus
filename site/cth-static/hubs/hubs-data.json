@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-19",
+  "version": "2026-10-20-hubmap",
   "hubs": [
     {
       "id": "externado",
@@ -9,6 +9,10 @@
       "map": {
         "x": 28,
         "y": 42
+      },
+      "geo": {
+        "lat": 4.6287,
+        "lng": -74.0647
       },
       "name": {
         "ES": "Universidad Externado de Colombia",
@@ -78,17 +82,17 @@
       },
       "images": [
         {
-          "src": "https://images.unsplash.com/photo-1562774053-701939374585?w=1200&q=80",
+          "src": "/hubs/assets/campus/externado-1.jpg",
           "caption": {
-            "ES": "Campus urbano · aprendizaje y emprendimiento",
-            "EN": "Urban campus · learning and entrepreneurship"
+            "ES": "Campus · recorrido institucional (YouTube)",
+            "EN": "Campus · institutional tour (YouTube)"
           }
         },
         {
-          "src": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80",
+          "src": "/hubs/assets/campus/externado-1.jpg",
           "caption": {
-            "ES": "Colaboración y mentoría",
-            "EN": "Collaboration and mentoring"
+            "ES": "REIN Hub Colombia · Externado",
+            "EN": "REIN Hub Colombia · Externado"
           }
         }
       ],
@@ -337,6 +341,37 @@
             "EN": "Institutional site"
           }
         }
+      ],
+      "website": "https://www.uexternado.edu.co/",
+      "people": [
+        {
+          "name": "Marlen Díaz",
+          "role": {
+            "ES": "Directora, Centro de Emprendimiento Externadista (CEE)",
+            "EN": "Director, Centro de Emprendimiento Externadista (CEE)"
+          },
+          "org": {
+            "ES": "Universidad Externado de Colombia",
+            "EN": "Universidad Externado de Colombia"
+          },
+          "linkedin": "https://www.linkedin.com/in/gloria-marlene-diaz-munoz/",
+          "initials": "MD",
+          "photoPending": true
+        },
+        {
+          "name": "Andrés Ortega",
+          "role": {
+            "ES": "Docente y referente REIN · CEE",
+            "EN": "Faculty and REIN lead · CEE"
+          },
+          "org": {
+            "ES": "Universidad Externado de Colombia",
+            "EN": "Universidad Externado de Colombia"
+          },
+          "linkedin": "https://www.linkedin.com/in/andres-ortega-serna-1016b2a1/",
+          "initials": "AO",
+          "photoPending": true
+        }
       ]
     },
     {
@@ -347,6 +382,10 @@
       "map": {
         "x": 18,
         "y": 38
+      },
+      "geo": {
+        "lat": 14.6349,
+        "lng": -90.5069
       },
       "name": {
         "ES": "Universidad Rafael Landívar",
@@ -414,17 +453,17 @@
       },
       "images": [
         {
-          "src": "https://images.unsplash.com/photo-1544735716-392fe2489ff9?w=1200&q=80",
+          "src": "/hubs/assets/campus/landivar-1.jpg",
           "caption": {
-            "ES": "Guatemala · ecosistema emprendedor",
-            "EN": "Guatemala · entrepreneurial ecosystem"
+            "ES": "Universidad Rafael Landívar · campus",
+            "EN": "Universidad Rafael Landívar · campus"
           }
         },
         {
-          "src": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&q=80",
+          "src": "/hubs/assets/campus/landivar-2.jpg",
           "caption": {
-            "ES": "Agro e innovación climática",
-            "EN": "Agro and climate innovation"
+            "ES": "Guatemala · ecosistema emprendedor",
+            "EN": "Guatemala · entrepreneurial ecosystem"
           }
         }
       ],
@@ -438,29 +477,39 @@
       "videos": [
         {
           "type": "youtube",
-          "youtubeId": "",
+          "youtubeId": "k1aeGMEjY7c",
           "title": {
-            "ES": "[PENDIENTE] Video institucional",
-            "EN": "[PENDING] Institutional video"
+            "ES": "Aniversario · Universidad Rafael Landívar",
+            "EN": "Anniversary · Universidad Rafael Landívar"
           },
           "caption": {
-            "ES": "Espacio reservado para video del hub.",
-            "EN": "Reserved slot for hub video."
-          },
-          "pending": true
+            "ES": "Canal oficial @u_landivar (YouTube).",
+            "EN": "Official @u_landivar channel (YouTube)."
+          }
         },
         {
           "type": "youtube",
-          "youtubeId": "",
+          "youtubeId": "DUAXecNNdFs",
           "title": {
-            "ES": "[PENDIENTE] CLP Guatemala highlights",
-            "EN": "[PENDING] CLP Guatemala highlights"
+            "ES": "ClimateLaunchpad 2026 · pitch Guatemala (Piña & Kakaw)",
+            "EN": "ClimateLaunchpad 2026 · Guatemala pitch (Piña & Kakaw)"
           },
           "caption": {
-            "ES": "Espacio reservado.",
-            "EN": "Reserved slot."
+            "ES": "Highlights CLP · cohorte Guatemala (CleantechHUB).",
+            "EN": "CLP highlights · Guatemala cohort (CleantechHUB)."
+          }
+        },
+        {
+          "type": "youtube",
+          "youtubeId": "EP0zhs_ZG7A",
+          "title": {
+            "ES": "REIN Hubs · innovación con la naturaleza",
+            "EN": "REIN Hubs · innovation with nature"
           },
-          "pending": true
+          "caption": {
+            "ES": "Cumbre Iberoamericana 2025 · CleantechHUB / REIN.",
+            "EN": "Ibero-American summit 2025 · CleantechHUB / REIN."
+          }
         }
       ],
       "startupsLabel": {
@@ -540,6 +589,51 @@
             "EN": "Institutional site"
           }
         }
+      ],
+      "website": "https://www.url.edu.gt/",
+      "people": [
+        {
+          "name": "Plubio Monterroso",
+          "role": {
+            "ES": "Director, Centro de Emprendimiento Landívar",
+            "EN": "Director, Centro de Emprendimiento Landívar"
+          },
+          "org": {
+            "ES": "Universidad Rafael Landívar",
+            "EN": "Universidad Rafael Landívar"
+          },
+          "linkedin": "https://www.linkedin.com/in/licplu/",
+          "initials": "PM",
+          "photoPending": true
+        },
+        {
+          "name": "Stephania Calderón",
+          "role": {
+            "ES": "Asesora de innovación · Climate Hub / CLP",
+            "EN": "Innovation advisor · Climate Hub / CLP"
+          },
+          "org": {
+            "ES": "Universidad Rafael Landívar",
+            "EN": "Universidad Rafael Landívar"
+          },
+          "linkedin": "https://www.linkedin.com/in/stephania-calder%C3%B3n-suasn%C3%A1var-a1354878/",
+          "initials": "SC",
+          "photoPending": true
+        },
+        {
+          "name": "María Regina Alfaro",
+          "role": {
+            "ES": "Vicedecana, Facultad de Arquitectura y Diseño · REIN GT",
+            "EN": "Vice Dean, Architecture & Design · REIN GT"
+          },
+          "org": {
+            "ES": "Universidad Rafael Landívar",
+            "EN": "Universidad Rafael Landívar"
+          },
+          "linkedin": "https://www.linkedin.com/in/maria-regina-alfaro-0069b245/",
+          "initials": "MR",
+          "photoPending": true
+        }
       ]
     },
     {
@@ -550,6 +644,10 @@
       "map": {
         "x": 24,
         "y": 58
+      },
+      "geo": {
+        "lat": -12.0464,
+        "lng": -77.0428
       },
       "name": {
         "ES": "Emprende UP · Universidad del Pacífico",
@@ -619,17 +717,17 @@
       },
       "images": [
         {
-          "src": "https://images.unsplash.com/photo-1587595431973-160d0d94add1?w=1200&q=80",
+          "src": "/hubs/assets/campus/emprende-1.jpg",
           "caption": {
-            "ES": "Lima · hub emprendedor",
-            "EN": "Lima · entrepreneurship hub"
+            "ES": "Emprende UP · video institucional",
+            "EN": "Emprende UP · institutional video"
           }
         },
         {
-          "src": "https://images.unsplash.com/photo-1518173949787-010f848258b4?w=1200&q=80",
+          "src": "/hubs/assets/campus/emprende-1.jpg",
           "caption": {
-            "ES": "Innovación climática en la costa peruana",
-            "EN": "Climate innovation on Peru's coast"
+            "ES": "ClimaTech · REIN Hub Perú",
+            "EN": "ClimaTech · REIN Hub Peru"
           }
         }
       ],
@@ -643,29 +741,27 @@
       "videos": [
         {
           "type": "youtube",
-          "youtubeId": "",
+          "youtubeId": "ak7HTNYM9dQ",
           "title": {
-            "ES": "[PENDIENTE] Recorrido Emprende UP",
-            "EN": "[PENDING] Emprende UP tour"
+            "ES": "EMPRENDE UP — video institucional",
+            "EN": "EMPRENDE UP — institutional video"
           },
           "caption": {
-            "ES": "Espacio reservado para video.",
-            "EN": "Reserved for video."
-          },
-          "pending": true
+            "ES": "Canal oficial Emprende UP (@emprendeup1969 · YouTube).",
+            "EN": "Official Emprende UP channel (@emprendeup1969 · YouTube)."
+          }
         },
         {
           "type": "youtube",
-          "youtubeId": "",
+          "youtubeId": "FD7XWskvtvc",
           "title": {
-            "ES": "[PENDIENTE] CLP Perú highlights",
-            "EN": "[PENDING] CLP Peru highlights"
+            "ES": "ClimaTech · Taller Cambio Climático y Sostenibilidad",
+            "EN": "ClimaTech · Climate Change and Sustainability workshop"
           },
           "caption": {
-            "ES": "Espacio reservado.",
-            "EN": "Reserved slot."
-          },
-          "pending": true
+            "ES": "Último contenido de programa ClimaTech en YouTube (Emprende UP · 2025).",
+            "EN": "Latest ClimaTech programme video on YouTube (Emprende UP · 2025)."
+          }
         }
       ],
       "startupsLabel": {
@@ -775,93 +871,328 @@
       ],
       "links": [
         {
-          "href": "https://emprende.up.edu.pe/",
+          "href": "https://www.linkedin.com/in/emprendeup/",
           "label": {
-            "ES": "Emprende UP",
-            "EN": "Emprende UP"
+            "ES": "LinkedIn · Emprende UP",
+            "EN": "LinkedIn · Emprende UP"
+          }
+        },
+        {
+          "href": "https://www.instagram.com/emprendeup/",
+          "label": {
+            "ES": "Instagram · Emprende UP",
+            "EN": "Instagram · Emprende UP"
+          }
+        }
+      ],
+      "website": "http://emprendeup.pe/",
+      "people": [
+        {
+          "name": "Marita Ruiz Tafur",
+          "role": {
+            "ES": "Directora, Emprende UP",
+            "EN": "Director, Emprende UP"
+          },
+          "org": {
+            "ES": "Universidad del Pacífico",
+            "EN": "Universidad del Pacífico"
+          },
+          "linkedin": "https://www.linkedin.com/in/marita-ruiz-tafur/",
+          "initials": "MR",
+          "photo": "/hubs/assets/people/marita-ruiz.jpg"
+        },
+        {
+          "name": "Martha Zúñiga",
+          "role": {
+            "ES": "Coordinadora general, ClimaTech",
+            "EN": "General coordinator, ClimaTech"
+          },
+          "org": {
+            "ES": "Emprende UP · Universidad del Pacífico",
+            "EN": "Emprende UP · Universidad del Pacífico"
+          },
+          "linkedin": "https://www.linkedin.com/in/marthazu%C3%B1igabravo/",
+          "initials": "MZ",
+          "photoPending": true
+        }
+      ],
+      "ecosystemMap": {
+        "href": "https://canva.link/7800vm8mfybi8b4",
+        "label": {
+          "ES": "Mapa de Actores y Aliados del Emprendimiento Climático del Perú",
+          "EN": "Map of Actors and Allies of Climate Entrepreneurship in Peru"
+        },
+        "note": {
+          "ES": "Presentación Canva entregada a UP (20 oct 2026).",
+          "EN": "Canva deck delivered to UP (20 Oct 2026)."
+        }
+      }
+    },
+    {
+      "id": "el-salvador",
+      "slug": "el-salvador",
+      "status": "active",
+      "country": "SV",
+      "map": {
+        "x": 16,
+        "y": 36
+      },
+      "geo": {
+        "lat": 13.6929,
+        "lng": -89.2182
+      },
+      "name": {
+        "ES": "UTEC · REIN Hub El Salvador",
+        "EN": "UTEC · REIN Hub El Salvador"
+      },
+      "short": {
+        "ES": "REIN Hub · San Salvador",
+        "EN": "REIN Hub · San Salvador"
+      },
+      "tagline": {
+        "ES": "Resiliencia urbana y emprendimiento climático desde la UTEC.",
+        "EN": "Urban resilience and climate entrepreneurship from UTEC."
+      },
+      "about": {
+        "ES": "Aliado principal REIN en El Salvador: Universidad Tecnológica de El Salvador (UTEC) y CREA impulsan ideación, incubación y ClimateLaunchpad con CleantechHUB y PVBLIC. Datos públicos del ecosistema: 275+ actores mapeados (mapa REIN/CTH).",
+        "EN": "Primary REIN partner in El Salvador: UTEC and CREA drive ideation, incubation, and ClimateLaunchpad with CleantechHUB and PVBLIC. Public ecosystem data: 275+ mapped actors (REIN/CTH map)."
+      },
+      "website": "https://www.utec.edu.sv/",
+      "people": [
+        {
+          "name": "Douglas Cabezas",
+          "role": {
+            "ES": "Coordinador de emprendimiento · CREA UTEC",
+            "EN": "Entrepreneurship coordinator · CREA UTEC"
+          },
+          "org": {
+            "ES": "Universidad Tecnológica de El Salvador",
+            "EN": "Universidad Tecnológica de El Salvador"
+          },
+          "linkedin": "https://www.linkedin.com/in/douglas-guardado-1027b1114/",
+          "initials": "DC",
+          "photo": "/hubs/assets/people/utec-brand.png"
+        },
+        {
+          "name": "Lissette Canales",
+          "role": {
+            "ES": "Decana, Facultad de Ciencias Empresariales · UTEC Verde",
+            "EN": "Dean, Business Sciences · UTEC Verde"
+          },
+          "org": {
+            "ES": "Universidad Tecnológica de El Salvador",
+            "EN": "Universidad Tecnológica de El Salvador"
+          },
+          "linkedin": "https://www.linkedin.com/in/lissette-canales-40345a5/",
+          "initials": "LC",
+          "photo": "/hubs/assets/people/utec-brand.png"
+        }
+      ],
+      "kpis": [
+        {
+          "id": "actors",
+          "value": "275+",
+          "label": {
+            "ES": "Actores ecosistema",
+            "EN": "Ecosystem actors"
+          }
+        },
+        {
+          "id": "ideation",
+          "value": "77",
+          "label": {
+            "ES": "Participantes ideación",
+            "EN": "Ideation participants"
+          }
+        },
+        {
+          "id": "incubation",
+          "value": "28",
+          "label": {
+            "ES": "Participantes incubación",
+            "EN": "Incubation participants"
+          }
+        },
+        {
+          "id": "programs",
+          "value": "CLP",
+          "label": {
+            "ES": "Programa bandera",
+            "EN": "Flagship program"
+          }
+        }
+      ],
+      "focusAreas": {
+        "ES": [
+          "Adaptación y resiliencia",
+          "Economía circular",
+          "Energía limpia",
+          "Soluciones urbanas"
+        ],
+        "EN": [
+          "Adaptation and resilience",
+          "Circular economy",
+          "Clean energy",
+          "Urban solutions"
+        ]
+      },
+      "images": [
+        {
+          "src": "/hubs/assets/people/utec-brand.png",
+          "caption": {
+            "ES": "UTEC · sede REIN El Salvador",
+            "EN": "UTEC · REIN El Salvador anchor"
+          }
+        }
+      ],
+      "interactive": null,
+      "videos": [
+        {
+          "type": "youtube",
+          "youtubeId": "EP0zhs_ZG7A",
+          "title": {
+            "ES": "REIN Hubs · red regional",
+            "EN": "REIN Hubs · regional network"
+          },
+          "caption": {
+            "ES": "Contexto REIN / CleantechHUB.",
+            "EN": "REIN / CleantechHUB context."
+          }
+        }
+      ],
+      "startupsLabel": {
+        "ES": "Startups REIN / CLP El Salvador",
+        "EN": "REIN / CLP El Salvador startups"
+      },
+      "startups": [],
+      "links": [
+        {
+          "href": "https://www.utec.edu.sv/",
+          "label": {
+            "ES": "Sitio institucional UTEC",
+            "EN": "UTEC institutional site"
+          }
+        },
+        {
+          "href": "https://pvblic.org/rein-hubs",
+          "label": {
+            "ES": "REIN Hubs (PVBLIC)",
+            "EN": "REIN Hubs (PVBLIC)"
           }
         }
       ]
     },
     {
-      "id": "utec",
-      "slug": "utec",
-      "status": "soon",
+      "id": "lci-veritas",
+      "slug": "lci-veritas",
+      "status": "active",
       "country": "CR",
       "map": {
         "x": 20,
         "y": 44
       },
+      "geo": {
+        "lat": 9.9369,
+        "lng": -84.0219
+      },
       "name": {
-        "ES": "UTEC · Costa Rica",
-        "EN": "UTEC · Costa Rica"
+        "ES": "Universidad LCI Veritas",
+        "EN": "Universidad LCI Veritas"
       },
       "short": {
-        "ES": "Próximamente",
-        "EN": "Coming soon"
+        "ES": "REIN Hub · Costa Rica",
+        "EN": "REIN Hub · Costa Rica"
       },
       "tagline": {
-        "ES": "Hub REIN en preparación para Costa Rica.",
-        "EN": "REIN hub in preparation for Costa Rica."
+        "ES": "Economía azul, bioeconomía y emprendimiento climático desde San José.",
+        "EN": "Blue economy, bioeconomy, and climate entrepreneurship from San José."
       },
       "about": {
-        "ES": "Perfil público en construcción. Vuelve pronto para KPIs, media e startups.",
-        "EN": "Public profile under construction. Check back soon for KPIs, media, and startups."
+        "ES": "Universidad ancla REIN en Costa Rica (PVBLIC / CleantechHUB). Perfil público en construcción en HubMap: representantes locales PENDIENTE de confirmación.",
+        "EN": "REIN anchor university in Costa Rica (PVBLIC / CleantechHUB). Public HubMap profile in progress: local leads PENDING confirmation."
       },
-      "kpis": [],
+      "website": "https://veritas.cr/",
+      "people": [],
+      "peoplePending": true,
+      "kpis": [
+        {
+          "id": "actors",
+          "value": "91",
+          "label": {
+            "ES": "Actores ecosistema",
+            "EN": "Ecosystem actors"
+          }
+        },
+        {
+          "id": "ideation",
+          "value": "40",
+          "label": {
+            "ES": "Participantes ideación",
+            "EN": "Ideation participants"
+          }
+        },
+        {
+          "id": "incubation",
+          "value": "20",
+          "label": {
+            "ES": "Participantes incubación",
+            "EN": "Incubation participants"
+          }
+        },
+        {
+          "id": "programs",
+          "value": "CLP",
+          "label": {
+            "ES": "Programa bandera",
+            "EN": "Flagship program"
+          }
+        }
+      ],
       "focusAreas": {
-        "ES": [],
-        "EN": []
+        "ES": [
+          "Economía azul",
+          "Eco-turismo",
+          "Biodiversidad",
+          "Diseño sostenible"
+        ],
+        "EN": [
+          "Blue economy",
+          "Eco-tourism",
+          "Biodiversity",
+          "Sustainable design"
+        ]
       },
       "images": [],
       "interactive": null,
-      "videos": [],
-      "startups": [],
+      "videos": [
+        {
+          "pending": true,
+          "type": "youtube",
+          "youtubeId": "",
+          "title": {
+            "ES": "[PENDIENTE] Video institucional LCI Veritas",
+            "EN": "[PENDING] LCI Veritas institutional video"
+          },
+          "caption": {
+            "ES": "Canal oficial por verificar.",
+            "EN": "Official channel to be verified."
+          }
+        }
+      ],
       "startupsLabel": {
-        "ES": "",
-        "EN": ""
+        "ES": "Startups ClimateLaunchpad Costa Rica",
+        "EN": "ClimateLaunchpad Costa Rica startups"
       },
-      "links": []
-    },
-    {
-      "id": "lci",
-      "slug": "lci",
-      "status": "soon",
-      "country": "MX",
-      "map": {
-        "x": 12,
-        "y": 32
-      },
-      "name": {
-        "ES": "LCI · México",
-        "EN": "LCI · Mexico"
-      },
-      "short": {
-        "ES": "Próximamente",
-        "EN": "Coming soon"
-      },
-      "tagline": {
-        "ES": "Expansión REIN Latam — anuncio próximo.",
-        "EN": "REIN Latam expansion — announcement coming soon."
-      },
-      "about": {
-        "ES": "Perfil público en construcción.",
-        "EN": "Public profile under construction."
-      },
-      "kpis": [],
-      "focusAreas": {
-        "ES": [],
-        "EN": []
-      },
-      "images": [],
-      "interactive": null,
-      "videos": [],
       "startups": [],
-      "startupsLabel": {
-        "ES": "",
-        "EN": ""
-      },
-      "links": []
+      "links": [
+        {
+          "href": "https://veritas.cr/",
+          "label": {
+            "ES": "Sitio institucional",
+            "EN": "Institutional site"
+          }
+        }
+      ]
     }
   ]
 }
