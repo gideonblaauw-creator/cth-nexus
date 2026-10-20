@@ -1,0 +1,661 @@
+[
+ {
+  "id": "pe-pol-ley-de-areas-naturales-protegidas",
+  "country": "PE",
+  "name": "Ley de Áreas Naturales Protegidas",
+  "kind": "law",
+  "instrument_id": "Ley 26834",
+  "year": 1997,
+  "summary": "Conservación y ecoturismo.",
+  "challenges": [],
+  "urls": [],
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "Marco normativo y de política climática del Perú",
+    "lines": [
+     170,
+     181
+    ],
+    "ref": "deck:lines:170-181",
+    "note": null
+   }
+  ]
+ },
+ {
+  "id": "pe-pol-ley-general-del-ambiente",
+  "country": "PE",
+  "name": "Ley General del Ambiente",
+  "kind": "law",
+  "instrument_id": "Ley 28611",
+  "year": 2005,
+  "summary": "Marco ambiental general.",
+  "challenges": [],
+  "urls": [],
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "Marco normativo y de política climática del Perú",
+    "lines": [
+     170,
+     181
+    ],
+    "ref": "deck:lines:170-181",
+    "note": null
+   }
+  ]
+ },
+ {
+  "id": "pe-pol-promocion-de-energias-renovables",
+  "country": "PE",
+  "name": "Promoción de energías renovables",
+  "kind": "regulation",
+  "instrument_id": "D. Leg. 1002",
+  "year": 2008,
+  "summary": "Promoción ER; límites captura anchoveta (D. Leg. 1084).",
+  "challenges": [],
+  "urls": [],
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "Marco normativo y de política climática del Perú",
+    "lines": [
+     170,
+     181
+    ],
+    "ref": "deck:lines:170-181",
+    "note": null
+   }
+  ]
+ },
+ {
+  "id": "pe-pol-ley-de-recursos-hidricos",
+  "country": "PE",
+  "name": "Ley de Recursos Hídricos",
+  "kind": "law",
+  "instrument_id": "Ley 29338",
+  "year": 2009,
+  "summary": "Gestión por cuencas y derechos de uso de agua.",
+  "challenges": [],
+  "urls": [],
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "Marco normativo y de política climática del Perú",
+    "lines": [
+     170,
+     181
+    ],
+    "ref": "deck:lines:170-181",
+    "note": null
+   }
+  ]
+ },
+ {
+  "id": "pe-pol-ley-forestal-y-de-fauna-silvestre",
+  "country": "PE",
+  "name": "Ley Forestal y de Fauna Silvestre",
+  "kind": "law",
+  "instrument_id": "Ley 29763",
+  "year": 2011,
+  "summary": "Concesiones, manejo forestal comunitario y bionegocios.",
+  "challenges": [],
+  "urls": [],
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "Marco normativo y de política climática del Perú",
+    "lines": [
+     170,
+     181
+    ],
+    "ref": "deck:lines:170-181",
+    "note": null
+   }
+  ]
+ },
+ {
+  "id": "pe-pol-mecanismos-de-retribucion-por-servicios-ecosistemicos",
+  "country": "PE",
+  "name": "Mecanismos de Retribución por Servicios Ecosistémicos",
+  "kind": "law",
+  "instrument_id": "Ley 30215",
+  "year": 2014,
+  "summary": "Usuarios del agua pagan por conservación de cuencas.",
+  "challenges": [],
+  "urls": [],
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "Marco normativo y de política climática del Perú",
+    "lines": [
+     170,
+     181
+    ],
+    "ref": "deck:lines:170-181",
+    "note": null
+   }
+  ]
+ },
+ {
+  "id": "pe-pol-ley-de-gestion-integral-de-residuos-solidos",
+  "country": "PE",
+  "name": "Ley de Gestión Integral de Residuos Sólidos",
+  "kind": "regulation",
+  "instrument_id": "D. Leg. 1278",
+  "year": 2014,
+  "summary": "Prioriza reducir y valorizar residuos; RAP.",
+  "challenges": [],
+  "urls": [],
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "Marco normativo y de política climática del Perú",
+    "lines": [
+     170,
+     181
+    ],
+    "ref": "deck:lines:170-181",
+    "note": null
+   }
+  ]
+ },
+ {
+  "id": "pe-pol-ley-de-plasticos-de-un-solo-uso",
+  "country": "PE",
+  "name": "Ley de plásticos de un solo uso",
+  "kind": "law",
+  "instrument_id": "Ley 30884",
+  "year": 2016,
+  "summary": "Restricción envases de un solo uso.",
+  "challenges": [],
+  "urls": [],
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "Marco normativo y de política climática del Perú",
+    "lines": [
+     170,
+     181
+    ],
+    "ref": "deck:lines:170-181",
+    "note": null
+   }
+  ]
+ },
+ {
+  "id": "pe-pol-ley-marco-sobre-cambio-climatico",
+  "country": "PE",
+  "name": "Ley Marco sobre Cambio Climático",
+  "kind": "law",
+  "instrument_id": "Ley 30754",
+  "year": 2018,
+  "summary": "Base legal NDC, gobernanza climática, Plataforma Huella de Carbono Perú.",
+  "challenges": [],
+  "urls": [],
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "Marco normativo y de política climática del Perú",
+    "lines": [
+     188,
+     202
+    ],
+    "ref": "deck:lines:188-202",
+    "note": null
+   }
+  ]
+ },
+ {
+  "id": "pe-pol-ley-forestal-ley-31973-empaques",
+  "country": "PE",
+  "name": "Ley Forestal / Ley 31973 (empaques)",
+  "kind": "law",
+  "instrument_id": "Ley 31973",
+  "year": 2024,
+  "summary": "Modifica Ley Forestal; empaques alternativos y biodegradables; traslado competencias MIDAGRI.",
+  "challenges": [],
+  "urls": [],
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "Marco normativo y de política climática del Perú",
+    "lines": [
+     176,
+     185
+    ],
+    "ref": "deck:lines:176-185",
+    "note": null
+   }
+  ]
+ },
+ {
+  "id": "pe-pol-hoja-de-ruta-de-finanzas-verdes",
+  "country": "PE",
+  "name": "Hoja de Ruta de Finanzas Verdes",
+  "kind": "strategy",
+  "instrument_id": null,
+  "year": 2025,
+  "summary": "~US$ 5.800 M al 2030; crédito verde pymes/startups (MINAM).",
+  "challenges": [],
+  "urls": [],
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "Marco normativo y de política climática del Perú",
+    "lines": [
+     173,
+     178
+    ],
+    "ref": "deck:lines:173-178",
+    "note": null
+   }
+  ]
+ },
+ {
+  "id": "pe-pol-ndc-3-0-nuestro-desafio-climatico",
+  "country": "PE",
+  "name": "NDC 3.0 — Nuestro Desafío Climático",
+  "kind": "strategy",
+  "instrument_id": "NDC 3.0",
+  "year": 2025,
+  "summary": "Tope absoluto 179 MtCO₂e al 2035; COP30 Belém nov 2025.",
+  "challenges": [],
+  "urls": [],
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "Marco normativo y de política climática del Perú",
+    "lines": [
+     203,
+     231
+    ],
+    "ref": "deck:lines:203-231",
+    "note": null
+   }
+  ]
+ },
+ {
+  "id": "pe-pol-estrategia-nacional-ante-el-cambio-climatico-a-2050",
+  "country": "PE",
+  "name": "Estrategia Nacional ante el Cambio Climático a 2050",
+  "kind": "strategy",
+  "instrument_id": null,
+  "year": null,
+  "summary": "Mencionada junto a Ley Marco (implementación pendiente).",
+  "challenges": [],
+  "urls": [],
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "Marco normativo y de política climática del Perú",
+    "lines": [
+     164,
+     166
+    ],
+    "ref": "deck:lines:164-166",
+    "note": null
+   }
+  ]
+ },
+ {
+  "id": "pe-pol-reglamento-europeo-de-deforestacion-eudr",
+  "country": "PE",
+  "name": "Reglamento europeo de deforestación (EUDR)",
+  "kind": "international_regulation",
+  "instrument_id": "EUDR",
+  "year": null,
+  "summary": "Exige trazabilidad libre de deforestación para café, cacao, palma, ganado y madera; impacto en exportadores peruanos.",
+  "challenges": [
+   "BOS",
+   "AGR"
+  ],
+  "urls": [],
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "Contexto internacional que mueve el mercado",
+    "lines": [
+     232,
+     239
+    ],
+    "ref": "deck:lines:232-239",
+    "note": null
+   }
+  ]
+ },
+ {
+  "id": "pe-pol-alianza-por-el-clima-peru-alemania",
+  "country": "PE",
+  "name": "Alianza por el Clima Perú–Alemania",
+  "kind": "international_cooperation",
+  "instrument_id": null,
+  "year": 2022,
+  "summary": "Cooperación bilateral climática (mencionada con GIZ).",
+  "challenges": [
+   "FIN"
+  ],
+  "urls": [],
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "Contexto internacional que mueve el mercado",
+    "lines": [
+     241,
+     242
+    ],
+    "ref": "deck:lines:241-242",
+    "note": null
+   }
+  ]
+ },
+ {
+  "id": "pe-pol-proinnovate-startup-peru",
+  "country": "PE",
+  "name": "ProInnóvate – StartUp Perú",
+  "kind": "programme",
+  "instrument_id": null,
+  "year": null,
+  "summary": "Programa de PRODUCE para innovación y emprendimiento Capital semilla hasta S/ 150 mil; convocatorias climáticas",
+  "challenges": [
+   "FIN",
+   "AGR",
+   "ENE",
+   "CIR"
+  ],
+  "urls": [
+   "https://www.gob.pe/proinnovate",
+   "https://startup.proinnovate.gob.pe"
+  ],
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "SECTOR GOBIERNO — Programas, fondos y organismos técnicos",
+    "lines": [
+     732,
+     737
+    ],
+    "ref": "deck:lines:732-737",
+    "note": null
+   }
+  ]
+ },
+ {
+  "id": "pe-pol-cofide-fcei",
+  "country": "PE",
+  "name": "COFIDE – FCEI",
+  "kind": "programme",
+  "instrument_id": null,
+  "year": null,
+  "summary": "Banco de desarrollo y fondo de fondos de VC Inversor ancla; articula Bionegocios",
+  "challenges": [
+   "BOS",
+   "FIN"
+  ],
+  "urls": [
+   "https://www.cofide.com.pe"
+  ],
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "SECTOR GOBIERNO — Programas, fondos y organismos técnicos",
+    "lines": [
+     739,
+     742
+    ],
+    "ref": "deck:lines:739-742",
+    "note": null
+   }
+  ]
+ },
+ {
+  "id": "pe-pol-programa-para-bionegocios-minam",
+  "country": "PE",
+  "name": "Programa para Bionegocios (MINAM)",
+  "kind": "programme",
+  "instrument_id": null,
+  "year": null,
+  "summary": "Programa de crédito para la Amazonía Más de S/ 22 M en créditos a más de 3.900 bionegocios",
+  "challenges": [
+   "BOS"
+  ],
+  "urls": [
+   "https://www.gob.pe/minam"
+  ],
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "SECTOR GOBIERNO — Programas, fondos y organismos técnicos",
+    "lines": [
+     744,
+     747
+    ],
+    "ref": "deck:lines:744-747",
+    "note": null
+   }
+  ]
+ },
+ {
+  "id": "pe-pol-concytec-prociencia",
+  "country": "PE",
+  "name": "CONCYTEC – ProCiencia",
+  "kind": "programme",
+  "instrument_id": null,
+  "year": null,
+  "summary": "Consejo y programa de ciencia y tecnología Fondos de I+D y desafíos de innovación regional",
+  "challenges": [
+   "BOS",
+   "AGU",
+   "AZU",
+   "CIR",
+   "AGR",
+   "ENE",
+   "CIU",
+   "FIN"
+  ],
+  "urls": [
+   "https://www.gob.pe/concytec",
+   "https://prociencia.gob.pe"
+  ],
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "SECTOR GOBIERNO — Programas, fondos y organismos técnicos",
+    "lines": [
+     750,
+     755
+    ],
+    "ref": "deck:lines:750-755",
+    "note": null
+   }
+  ]
+ },
+ {
+  "id": "pe-pol-programa-bosques-minam",
+  "country": "PE",
+  "name": "Programa Bosques (MINAM)",
+  "kind": "programme",
+  "instrument_id": null,
+  "year": null,
+  "summary": "Programa Nacional de Conservación de Bosques Financia planes de negocio comunitarios hasta S/ 370 mil",
+  "challenges": [
+   "BOS"
+  ],
+  "urls": [
+   "https://www.gob.pe/bosques"
+  ],
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "SECTOR GOBIERNO — Programas, fondos y organismos técnicos",
+    "lines": [
+     766,
+     769
+    ],
+    "ref": "deck:lines:766-769",
+    "note": null
+   }
+  ]
+ },
+ {
+  "id": "pe-pol-plataforma-huella-de-carbono-peru",
+  "country": "PE",
+  "name": "Plataforma Huella de Carbono Perú",
+  "kind": "programme",
+  "instrument_id": null,
+  "year": null,
+  "summary": "Herramienta de medición vinculada al marco climático",
+  "challenges": [
+   "FIN"
+  ],
+  "urls": [
+   "https://www.gob.pe/minam"
+  ],
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "SECTOR GOBIERNO — Programas, fondos y organismos técnicos",
+    "lines": [
+     222,
+     224
+    ],
+    "ref": "deck:lines:222-224",
+    "note": null
+   }
+  ]
+ },
+ {
+  "id": "pe-pol-mi-negocio-verde",
+  "country": "PE",
+  "name": "Mi Negocio Verde",
+  "kind": "programme",
+  "instrument_id": null,
+  "year": null,
+  "summary": "Programa MINAM para MYPE verdes",
+  "challenges": [
+   "CIR",
+   "FIN"
+  ],
+  "urls": [
+   "https://www.gob.pe/minam"
+  ],
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "SECTOR GOBIERNO — Programas, fondos y organismos técnicos",
+    "lines": [
+     682,
+     682
+    ],
+    "ref": "deck:lines:682-682",
+    "note": null
+   }
+  ]
+ },
+ {
+  "id": "pe-pol-emprendimientos-dinamicos-cambio-climatico-1g",
+  "country": "PE",
+  "name": "Emprendimientos Dinámicos Cambio Climático – 1G",
+  "kind": "programme",
+  "instrument_id": null,
+  "year": null,
+  "summary": "Convocatoria / programa público (Excel REIN).",
+  "challenges": [
+   "FIN",
+   "AGR",
+   "ENE",
+   "CIR"
+  ],
+  "urls": [
+   "https://cambioclimatico.proinnovate.gob.pe/wp-content/uploads/2024/04/Resultados-CD-Emprendimientos-Dinamicos-Cambio-Climatico.pdf"
+  ],
+  "sources": [
+   {
+    "document": "Base de datos REIN Hub Perú.xlsx",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "sheet": "Base de datos REIN Perú",
+    "row": 107,
+    "ref": "excel:Base de datos REIN Perú:row:107",
+    "note": null
+   }
+  ]
+ },
+ {
+  "id": "pe-pol-emprendimientos-innovadores-cambio-climatico-1g",
+  "country": "PE",
+  "name": "Emprendimientos Innovadores Cambio Climático – 1G",
+  "kind": "programme",
+  "instrument_id": null,
+  "year": null,
+  "summary": "Convocatoria / programa público (Excel REIN).",
+  "challenges": [
+   "FIN",
+   "AGR",
+   "ENE",
+   "CIR"
+  ],
+  "urls": [
+   "https://cambioclimatico.proinnovate.gob.pe/wp-content/uploads/2024/04/Resultados-Finales-CD-Emprendimientos-Innovadores-Cambio-Climatico.pdf"
+  ],
+  "sources": [
+   {
+    "document": "Base de datos REIN Hub Perú.xlsx",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "sheet": "Base de datos REIN Perú",
+    "row": 108,
+    "ref": "excel:Base de datos REIN Perú:row:108",
+    "note": null
+   }
+  ]
+ },
+ {
+  "id": "pe-pol-prociencia-desafios-de-innovacion-para-el-desarrollo-regional-20",
+  "country": "PE",
+  "name": "Prociencia - Desafíos de Innovación para el Desarrollo Regional 2024",
+  "kind": "programme",
+  "instrument_id": null,
+  "year": 2024,
+  "summary": "Convocatoria / programa público (Excel REIN).",
+  "challenges": [
+   "FIN",
+   "AGR",
+   "ENE",
+   "CIR"
+  ],
+  "urls": [
+   "https://prociencia.gob.pe/2024/02/desafios-de-innovacion-para-el-desarrollo-regional/#"
+  ],
+  "sources": [
+   {
+    "document": "Base de datos REIN Hub Perú.xlsx",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "sheet": "Base de datos REIN Perú",
+    "row": 111,
+    "ref": "excel:Base de datos REIN Perú:row:111",
+    "note": null
+   }
+  ]
+ }
+]

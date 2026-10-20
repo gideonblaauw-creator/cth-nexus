@@ -1,0 +1,28 @@
+{
+  "staging_for_branch": "research/ecosystem-policy",
+  "consumer_job": "bc-a4128a58",
+  "country": "PE",
+  "extracted_at": "2026-10-20T23:03:46.917165+00:00",
+  "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+  "privacy": {
+    "excluded_sheets": [
+      "Invitados Evento Embajada"
+    ],
+    "excluded_fields": [
+      "email",
+      "phone",
+      "personal_contact"
+    ]
+  },
+  "counts": {
+    "policies": 25,
+    "gov_agencies": 20,
+    "gov_policy_links": 9,
+    "verified_links": 7
+  },
+  "files": {
+    "policies": "policies.json",
+    "gov_agencies": "gov_agencies.json",
+    "gov_policy_links": "gov_policy_links.json"
+  }
+}
