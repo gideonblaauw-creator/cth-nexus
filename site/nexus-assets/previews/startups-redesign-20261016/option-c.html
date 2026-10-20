@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Option C — Segmented control + popover (preview)</title>
+<link rel="stylesheet" href="preview-base.css">
+<style>
+.minimal-head{padding:16px 20px 0;background:var(--deep-blue);color:#fff}
+.segmented{display:inline-flex;background:rgba(0,0,0,.2);border-radius:10px;padding:3px;margin:12px 0 16px;flex-wrap:wrap}
+.segmented button{border:none;background:transparent;color:rgba(255,255,255,.55);font-size:11px;font-weight:700;padding:8px 14px;border-radius:8px;cursor:pointer;font-family:inherit}
+.segmented button.on{background:var(--light-green);color:#fff}
+.controls-min{padding:14px 20px;background:#fff;border-bottom:1px solid var(--border);display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.popover-wrap{position:relative}
+.popover{display:none;position:absolute;top:calc(100% + 8px);right:0;width:min(340px,90vw);background:#fff;border:1.5px solid var(--border);border-radius:12px;padding:14px;box-shadow:var(--shadow-hover,0 8px 28px rgba(12,73,138,.18));z-index:50;max-height:70vh;overflow:auto}
+.popover.open{display:block}
+.popover-grid{display:flex;flex-wrap:wrap;gap:5px;margin-top:6px}
+</style>
+</head>
+<body>
+<div class="preview-banner"><strong>Design preview C</strong> — Minimal grid · top segmented view switch · “More filters” popover · <a href="/p/startup-portfolio">Live page</a></div>
+<div class="minimal-head">
+  <h1 style="font-size:20px;font-weight:800">Startup Portfolio</h1>
+  <p style="font-size:11px;color:rgba(178,238,250,.6);margin-top:4px">Option C — fewer visible controls, power filters in popover</p>
+  <div class="segmented" id="segments">
+    <button type="button" class="on" data-special="none">All startups</button>
+    <button type="button" data-special="epic">Epic Angels</button>
+    <button type="button" data-special="imd">IMD Perú</button>
+    <button type="button" data-special="clp26">CLP26</button>
+  </div>
+</div>
+<div class="stats">
+  <div class="stat"><div class="stat-n" id="st-show">—</div><div class="stat-l">Showing</div></div>
+  <div class="stat"><div class="stat-n" id="st-web">—</div><div class="stat-l">With site</div></div>
+</div>
+<div class="controls-min">
+  <div class="search-wrap" style="min-width:220px;flex:1"><span>🔍</span><input type="search" id="q" placeholder="Search…"></div>
+  <div class="popover-wrap">
+    <button type="button" class="btn" id="toggle-pop">More filters ▾</button>
+    <div class="popover" id="popover">
+      <div class="facet-title">Program</div><div class="popover-grid" id="fac-prog"></div>
+      <div class="facet-title">Theme</div><div class="popover-grid" id="fac-theme"></div>
+      <div class="facet-title">Stage</div><div class="popover-grid" id="fac-stage"></div>
+      <div class="facet-title">Country</div><div class="popover-grid" id="fac-country"></div>
+      <div class="facet-title">CT sector</div><div class="popover-grid" id="fac-ct"></div>
+      <label style="display:flex;align-items:center;gap:8px;margin-top:12px;font-size:11px;font-weight:700;color:var(--mid)">
+        <input type="checkbox" id="web-only"> Web only
+      </label>
+      <button type="button" class="btn" style="margin-top:10px;width:100%" id="clear-filters">Clear</button>
+    </div>
+  </div>
+</div>
+<div style="padding:8px 20px"><div class="chips" id="chips"></div></div>
+<div class="grid-wrap">
+  <div class="result-line" id="ri"></div>
+  <div class="grid" id="grid"></div>
+</div>
+<footer class="footer">CleantechHUB · Redesign preview · 2026-10-16</footer>
+
+<script src="preview-engine.js"></script>
+<script>
+const NP = NexusPreview;
+const qEl = document.getElementById('q');
+const pop = document.getElementById('popover');
+document.getElementById('toggle-pop').onclick = (e) => { e.stopPropagation(); pop.classList.toggle('open'); };
+document.addEventListener('click', () => pop.classList.remove('open'));
+pop.onclick = (e) => e.stopPropagation();
+
+function bindPop(id, dim) {
+  document.getElementById(id).onclick = (e) => {
+    const b = e.target.closest('.facet'); if (!b) return;
+    const st = NP.state;
+    if (dim==='prog') NP.toggleSet(st.fProg, b.dataset.val);
+    if (dim==='theme') NP.toggleSet(st.fTheme, b.dataset.val);
+    if (dim==='stage') NP.toggleSet(st.fStage, b.dataset.val);
+    if (dim==='country') NP.toggleSet(st.fCountry, b.dataset.val);
+    if (dim==='ct') NP.toggleSet(st.fCtSector, b.dataset.val);
+    buildFacets(); paint();
+  };
+}
+
+function buildFacets() {
+  const st = NP.state;
+  const mk = (items, sel, key) => items.map(x => {
+    const val = key ? x[key] : x;
+    const label = key ? x.label : x;
+    const id = key ? x.id : x;
+    return `<button type="button" class="facet ${sel.has(id)?'on':''}" data-val="${id}">${label}</button>`;
+  }).join('');
+  document.getElementById('fac-prog').innerHTML = mk(NP.PROGRAMS, st.fProg);
+  document.getElementById('fac-theme').innerHTML = mk(NP.THEMES, st.fTheme, 'id');
+  document.getElementById('fac-stage').innerHTML = mk(NP.STAGES, st.fStage);
+  const countries = [...new Set(st.S.map(x => x.c))].sort();
+  document.getElementById('fac-country').innerHTML = countries.map(c =>
+    `<button type="button" class="facet ${st.fCountry.has(c)?'on':''}" data-val="${c}">${NP.COUNTRY_LABEL[c]||c}</button>`).join('');
+  document.getElementById('fac-ct').innerHTML = NP.CT_SECTORS.map(s =>
+    `<button type="button" class="facet ${st.fCtSector.has(s.id)?'on':''}" data-val="${s.id}">${s.id}</button>`).join('');
+  document.querySelectorAll('#segments button').forEach(btn => {
+    const m = btn.dataset.special;
+    const on = (m==='epic'&&st.epicOnly)||(m==='imd'&&st.imdOnly)||(m==='clp26'&&st.clpOnly)||(m==='none'&&!st.epicOnly&&!st.imdOnly&&!st.clpOnly);
+    btn.classList.toggle('on', on);
+  });
+  document.getElementById('web-only').checked = NP.webOnly;
+}
+
+['fac-prog','fac-theme','fac-stage','fac-country','fac-ct'].forEach((id,i)=>{
+  bindPop(id, ['prog','theme','stage','country','ct'][i]);
+});
+
+document.getElementById('segments').onclick = (e) => {
+  const b = e.target.closest('[data-special]'); if (!b) return;
+  NP.setSpecialMode(b.dataset.special==='none'?'none':b.dataset.special);
+  if (NP.state.epicOnly||NP.state.imdOnly||NP.state.clpOnly) NP.webOnly = false;
+  buildFacets(); paint();
+};
+document.getElementById('web-only').onchange = (e) => { NP.webOnly = e.target.checked; paint(); };
+document.getElementById('clear-filters').onclick = () => { NP.clearStandardFilters(); NP.webOnly = true; buildFacets(); paint(); };
+
+function paintChips() {
+  const chips = NP.activeChips().filter(c => c.k !== 'special');
+  const el = document.getElementById('chips');
+  el.innerHTML = chips.length ? chips.map((c,i)=>`<span class="chip">${c.label}<button data-i="${i}">×</button></span>`).join('') : '';
+  el.querySelectorAll('button').forEach(btn => {
+    btn.onclick = () => { NP.removeChip(chips[+btn.dataset.i]); buildFacets(); paint(); };
+  });
+}
+
+function paint() {
+  const { list } = NP.getFiltered(qEl.value.trim());
+  document.getElementById('st-show').textContent = list.length;
+  document.getElementById('st-web').textContent = list.filter(s=>s.w).length;
+  document.getElementById('grid').innerHTML = list.length ? list.map(NP.renderCard).join('') : '<div class="empty">No startups match.</div>';
+  paintChips();
+  buildFacets();
+}
+qEl.oninput = paint;
+
+NP.loadAll().then(() => {
+  if (NP.state.epicOnly || NP.state.imdOnly || NP.state.clpOnly) NP.webOnly = false;
+  buildFacets(); paint();
+});
+</script>
+</body>
+</html>
