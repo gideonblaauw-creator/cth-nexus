@@ -1,0 +1,21 @@
+services:
+  nexus-idea-browser:
+    build: .
+    container_name: nexus-idea-browser
+    restart: unless-stopped
+    environment:
+      - BOOKSTACK_URL=https://wiki.cleantechhub.net
+      - BOOKSTACK_TOKEN_ID=${BOOKSTACK_TOKEN_ID}
+      - BOOKSTACK_TOKEN_SECRET=${BOOKSTACK_TOKEN_SECRET}
+      - BOOKSTACK_BOOK_ID=621
+      - NEXUS_JWT_SECRET=${NEXUS_JWT_SECRET}
+      # Server-side RAG proxy reaches the API container by name on shared network
+      - NEXT_PUBLIC_RAG_ENDPOINT=http://rag-ideas-api:8095/rag/ideas/query
+    ports:
+      - "127.0.0.1:3010:3000"
+    networks:
+      - cth-research-net
+
+networks:
+  cth-research-net:
+    external: true
