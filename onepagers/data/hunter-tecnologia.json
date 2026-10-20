@@ -1,0 +1,163 @@
+{
+  "slug": "hunter-tecnologia",
+  "name": "Hunter Tecnología",
+  "website": "https://hunter.tec.co",
+  "badge_en": "E-waste &amp; Circular Tech &middot; CLAC24 &middot; Acceleration",
+  "badge_es": "Residuos electrónicos y tech circular &middot; CLAC24 &middot; Acceleration",
+  "hero_image": "https://huntecno.com/wp-content/uploads/2024/09/slider_5-min.jpg",
+  "cta_bg": "https://huntecno.com/wp-content/uploads/2024/09/verde.jpg",
+  "hero_sub_en": "hunter.tec.co &middot; Colombia &middot; Barranquilla &middot; Circular Economy &middot; Stage: Seed",
+  "hero_sub_es": "hunter.tec.co &middot; Colombia &middot; Barranquilla &middot; Economía Circular &middot; Etapa: Seed",
+  "pitch_en": "Collects, refurbishes, and redistributes returned consumer electronics across Latin America — extending device lifespans and reducing e-waste and CO₂ emissions.",
+  "pitch_es": "Recolecta, reacondiciona y redistribuye electrónica de consumo devuelta en América Latina — extendiendo la vida útil de los dispositivos y reduciendo residuos electrónicos y emisiones de CO₂.",
+  "cta_pitch_en": "Certified refurbishment and resale of mobile devices with traceability, warranty, and secure data wiping.",
+  "cta_pitch_es": "Reacondicionamiento certificado y reventa de móviles con trazabilidad, garantía y borrado seguro de datos.",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "ribbon": [
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    },
+    {
+      "val": "Seed",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLAC24",
+      "sub_es": "CLAC24"
+    },
+    {
+      "val": "Circular",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Métricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLAC24",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Hub",
+        "lab_es": "Hub"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Discarded electronics and short device lifecycles drive e-waste and lost value.",
+      "head_es": "Los desechos electrónicos y ciclos de vida cortos generan residuos electrónicos y valor perdido.",
+      "body_en": "Most smartphones are replaced while still functional; informal disposal wastes materials and increases climate impact from new manufacturing.",
+      "body_es": "La mayoría de los smartphones se reemplazan aún funcionales; la disposición informal desperdicia materiales y aumenta el impacto climático de nueva manufactura.",
+      "bg": "https://huntecno.com/wp-content/uploads/2024/08/Huella_basura.jpg"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "🌱",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Diagnostics, refurbishment, quality control, certification, and resale of used mobile devices.",
+          "text_es": "Diagnóstico, reacondicionamiento, control de calidad, certificación y reventa de móviles usados."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "Hunter Tecnología — CLAC24 and CleantechHUB Acceleration portfolio.",
+          "text_es": "Hunter Tecnología — CLAC24 y portafolio Acceleration de CleantechHUB."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Based in Barranquilla, Colombia. Public site: hunter.tec.co.",
+          "text_es": "Con base en Barranquilla, Colombia. Sitio público: hunter.tec.co."
+        }
+      ],
+      "bg": "https://huntecno.com/wp-content/uploads/2024/08/P_Celulares-1.jpg"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact &amp; Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Wiki source",
+          "title_es": "Fuente Wiki",
+          "text_en": "Profile synced from BookStack Startup Portfolio + Odoo (SoT).",
+          "text_es": "Perfil sincronizado desde BookStack Startup Portfolio + Odoo (SoT)."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomía",
+          "text_en": "CT-WA-003 &middot; Recycling &amp; Materials Recovery",
+          "text_es": "CT-WA-003 &middot; Reciclaje y Recuperación de Materiales"
+        }
+      ],
+      "bg": "https://huntecno.com/wp-content/uploads/2024/08/Huella_CO2_1.jpg"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Leonardo Barrios",
+          "role_en": "Founder &middot; CLAC24",
+          "role_es": "Fundador &middot; CLAC24",
+          "bio_en": "Founder of Hunter Tecnología since 2019; leads circular-economy refurbishment and redistribution of consumer electronics.",
+          "bio_es": "Fundador de Hunter Tecnología desde 2019; lidera reacondicionamiento y redistribución circular de electrónica de consumo.",
+          "initials": "LB",
+          "linkedin": "https://www.linkedin.com/in/leonardofabiobarrios"
+        }
+      ],
+      "dream_en": "Program: CLAC24 + Acceleration. 2025 sustainability report cites 17,777 phones refurbished (public Caribe Exponencial summary). Other verified KPIs on profile: [PENDIENTE]. Image credits — All sections: Hunter Tecnología public website (huntecno.com), portfolio card domain hunter.tec.co.",
+      "dream_es": "Programa: CLAC24 + Acceleration. Informe 2025 cita 17.777 celulares reacondicionados (resumen público Caribe Exponencial). Otros KPIs verificados en perfil: [PENDIENTE]. Créditos de imagen — Todas las secciones: sitio público Hunter Tecnología (huntecno.com), dominio en tarjeta hunter.tec.co.",
+      "bg": "https://huntecno.com/wp-content/uploads/2024/09/slider_12.jpg"
+    }
+  ]
+}

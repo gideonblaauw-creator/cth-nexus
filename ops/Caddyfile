@@ -1,0 +1,1606 @@
+nexus.cleantechhub.net {
+	# Public MubOn entry (canonical app remains on evaluations)
+	handle /mubon* {
+		redir https://evaluations.cleantechhub.net{uri} permanent
+	}
+	handle /nexus-assets/epic-angels-shareable.json {
+		root * /var/www/nexus-assets
+		rewrite * /epic-angels-shareable.json
+		file_server
+		header Cache-Control "no-cache, must-revalidate"
+	}
+	handle_path /nexus-assets/* {
+		root * /var/www/nexus-assets
+		file_server
+		header Cache-Control "public, max-age=3600"
+	}
+	handle /robots.txt {
+		root * /var/www/seo-static
+		rewrite * /nexus_robots.txt
+		file_server
+	}
+	handle /registration/* {
+		root * /var/www/nexus
+		file_server
+	}
+	handle /p/home {
+		header Cache-Control "no-cache, must-revalidate"
+		root * /var/www/nexus
+		rewrite * /nexus-homepage.html
+		file_server
+	}
+	handle /nexus-auth* {
+		reverse_proxy 127.0.0.1:5050
+	}
+	handle_path /investors* {
+		forward_auth 127.0.0.1:5050 {
+			uri /nexus-auth/check
+			copy_headers Cookie
+		}
+		root * /opt/nexus-investors/dist
+		try_files {path} /index.html
+		file_server
+	}
+	handle /p/funders {
+		forward_auth 127.0.0.1:5050 {
+			uri /nexus-auth/check
+			copy_headers Cookie
+		}
+		root * /var/www/nexus
+		rewrite * /funders.html
+		file_server
+	}
+
+	handle /ecosystem* {
+		forward_auth 127.0.0.1:5050 {
+			uri /nexus-auth/check?next=/ecosystem/
+			copy_headers Cookie
+		}
+		root * /opt/cth-nexus/static/ecosystem
+		uri strip_prefix /ecosystem
+		try_files {path} /index.html
+		file_server
+	}
+
+	handle /p/startup-portfolio {
+		header Cache-Control "no-cache, must-revalidate"
+		root * /var/www/nexus
+		rewrite * /startup-portfolio.html
+		file_server
+	}
+	handle /p/ideas {
+		root * /var/www/nexus
+		rewrite * /idea-browser.html
+		file_server
+	}
+	handle / {
+		redir https://nexus.cleantechhub.net/p/home permanent
+	}
+	encode gzip zstd
+	header {
+		X-Frame-Options SAMEORIGIN
+		X-Content-Type-Options nosniff
+		Referrer-Policy strict-origin-when-cross-origin
+	}
+	# CLP26 Mentoring Platform (Flask on :5050)
+	handle /mentoring/* {
+		reverse_proxy 127.0.0.1:5050
+	}
+	handle /mentor-api/* {
+		reverse_proxy 127.0.0.1:5050
+	}
+	# Mentor directory static page
+	handle /mentor-directory* {
+		root * /opt/cth-nexus/static
+		file_server
+		try_files {path} {path}/index.html
+	}
+	# REIN Hubs (static at /opt/cth-nexus/static/hubs)
+	handle /hubs* {
+		header Cache-Control "no-cache, must-revalidate"
+		root * /opt/cth-nexus/static
+		file_server
+		try_files {path} {path}/index.html
+	}
+	redir /p/mentors /mentor-directory 301
+	# Idea Browser (Next.js app embedded as HumHub widget)
+	handle /ideas* {
+		reverse_proxy 127.0.0.1:3010
+	}
+	# ── Startup one-pagers (static HTML at /s/{slug}) ──
+	handle_path /s/* {
+		root * /opt/nexus-onepagers
+		try_files {path}/index.html {path}
+		file_server
+	}
+	# Phase D Data Platform API
+	handle_path /data/* {
+		reverse_proxy 127.0.0.1:8011
+	}
+	reverse_proxy 127.0.0.1:8080 {
+		header_up X-Forwarded-Proto {scheme}
+		header_up X-Real-IP {remote_host}
+	}
+
+}
+
+wiki.cleantechhub.net {
+	handle_path /nexus-assets/* {
+		root * /var/www/nexus-assets
+		file_server
+		header Cache-Control "public, max-age=3600"
+	}
+	handle /robots.txt {
+		root * /var/www/seo-static
+		rewrite * /wiki_robots.txt
+		file_server
+	}
+	encode gzip zstd
+	header {
+		X-Frame-Options SAMEORIGIN
+		X-Content-Type-Options nosniff
+		Referrer-Policy strict-origin-when-cross-origin
+	}
+
+	handle /reportes/* {
+		root * /var/www
+		file_server
+	}
+
+	handle_path /rag/* {
+		@authed header Authorization "Bearer <REDACTED>"
+		handle @authed {
+			reverse_proxy 127.0.0.1:8765
+		}
+		respond "unauthorized" 401
+	}
+
+	handle /llms.txt {
+		root * /opt/bookstack/wiki_data
+		file_server
+		header Content-Type "text/plain; charset=utf-8"
+		header Access-Control-Allow-Origin *
+	}
+	handle_path /data/* {
+		root * /opt/bookstack/wiki_data
+		file_server
+		header Content-Type application/json
+		header Access-Control-Allow-Origin *
+		header Cache-Control "public, max-age=3600"
+	}
+	handle_path /api/pdf-service/* {
+		reverse_proxy 127.0.0.1:3001
+	}
+	handle_path /graphs/* {
+		root * /var/www/graphs
+		file_server browse
+	}
+
+	@casos path /books/casos-ambiental* /books/casos-social* /books/casos-gobernanza* /shelves/casos-de-referencia-verificados*
+	handle @casos {
+		header X-Robots-Tag "noindex, nofollow"
+		reverse_proxy 127.0.0.1:8081 {
+			header_up X-Forwarded-Proto {scheme}
+			header_up X-Real-IP {remote_host}
+		}
+	}
+	handle /.well-known/cth-health {
+		root * /var/lib/cth-monitor/public
+		rewrite * /cth-health.txt
+		header Cache-Control "no-store"
+		header Content-Type "text/plain; charset=utf-8"
+		file_server
+	}
+
+	import /etc/caddy/Caddyfile.d/cth-decks.caddy
+
+	handle {
+		reverse_proxy 127.0.0.1:8081 {
+			header_up X-Forwarded-Proto {scheme}
+			header_up X-Real-IP {remote_host}
+		}
+	}
+}
+# Sustenttia / MB-0 — ESG MCP public ingress.
+# Append to /etc/caddy/Caddyfile, then: sudo systemctl reload caddy
+#
+# Prereq: DNS A record for mcp-esg.cleantechhub.net → VPS IP.
+#
+# The MCP itself has no auth — the content is public ESG standards. If you want to
+# gate access (e.g. keep discovery low), uncomment the basicauth block below OR
+# restrict by @allow-ip. Don't add a bearer-token layer unless the Cowork client
+# supports setting custom Authorization headers on URL-transport MCPs.
+#
+# Cowork / Claude Desktop MCP config (paste into claude_desktop_config.json):
+#   "esg-sustainability": {
+#     "type": "url",
+#     "url": "https://mcp-esg.cleantechhub.net/mcp"
+#   }
+
+mcp-esg.cleantechhub.net {
+	handle_path /nexus-assets/* {
+		root * /var/www/nexus-assets
+		file_server
+		header Cache-Control "public, max-age=3600"
+	}
+	encode zstd gzip
+
+	# MCP protocol uses Streamable HTTP — sessions can last a while, bodies can
+	# be several hundred KB for bulk lookups. Bump the defaults accordingly.
+	request_body {
+		max_size 5MB
+	}
+
+	# (Optional) Restrict to Gideon's known IPs. Uncomment and fill in.
+	# @allow-ip remote_ip 1.2.3.4/32 5.6.7.8/32
+	# route @allow-ip {
+	#     reverse_proxy 127.0.0.1:3002
+	# }
+	# respond "Forbidden" 403
+
+	# (Optional) HTTP basic auth. Uncomment + generate hash with:
+	#     caddy hash-password --plaintext 'your-password'
+	# basicauth * {
+	#     gideon $2a$14$...
+	# }
+
+	reverse_proxy 127.0.0.1:3002 {
+		# The MCP transport is Streamable HTTP — needs HTTP/1.1 for SSE.
+		transport http {
+			versions 1.1 2
+		}
+		# Pass the mcp-session-id header through verbatim — the MCP server
+		# tracks sessions by it and CORS already exposes it.
+		header_up Host {host}
+		header_up X-Real-IP {remote_host}
+		header_up X-Forwarded-For {remote_host}
+		header_up X-Forwarded-Proto {scheme}
+	}
+
+	log {
+		output file /var/log/caddy/mcp-esg.cleantechhub.net.log {
+			roll_size 50mb
+			roll_keep 5
+		}
+		format json
+	}
+}
+
+secrets.cleantechhub.net {
+	handle_path /nexus-assets/* {
+		root * /var/www/nexus-assets
+		file_server
+		header Cache-Control "public, max-age=3600"
+	}
+	reverse_proxy 127.0.0.1:8082
+	header {
+		Strict-Transport-Security "max-age=31536000; includeSubDomains"
+		X-Content-Type-Options "nosniff"
+		X-Frame-Options "DENY"
+	}
+}
+
+cdn.cleantechhub.net {
+	handle_path /nexus-assets/* {
+		root * /var/www/nexus-assets
+		file_server
+		header Cache-Control "public, max-age=3600"
+	}
+	encode zstd gzip
+
+	root * /var/www/cdn
+	file_server
+
+	header {
+		Access-Control-Allow-Origin *
+		Cache-Control public, max-age=31536000, immutable
+		X-Content-Type-Options nosniff
+	}
+
+	# health check
+	handle /healthz {
+		respond ok 200
+	}
+
+	log {
+		output file /var/log/caddy/cdn.cleantechhub.net.log {
+			roll_size 20mb
+			roll_keep 3
+		}
+		format json
+	}
+}
+# Caddy block for the Doctor_Bot MCP server.
+# Append to /etc/caddy/Caddyfile and `caddy reload`.
+#
+# Bearer-token auth is enforced HERE so the FastMCP server only binds to
+# 127.0.0.1 and never sees an unauthenticated request. Set DOCTOR_MCP_TOKEN
+# in /etc/default/caddy (or wherever Caddy reads its environment from).
+#
+#   echo 'DOCTOR_MCP_TOKEN=<REDACTED> | sudo tee -a /etc/default/caddy
+#   sudo systemctl restart caddy
+
+doctor-mcp.apps.cleantechhub.net {
+	handle_path /nexus-assets/* {
+		root * /var/www/nexus-assets
+		file_server
+		header Cache-Control "public, max-age=3600"
+	}
+	encode gzip
+	# Reject requests without the right bearer header.
+	@authorized header Authorization "Bearer {$DOCTOR_MCP_TOKEN}"
+	handle @authorized {
+		reverse_proxy 127.0.0.1:8766 {
+			# MCP streamable-http needs flush + long timeouts for tool calls
+			# like force_run() that take ~30s.
+			flush_interval -1
+			transport http {
+				read_timeout 5m
+				write_timeout 5m
+			}
+		}
+	}
+	# Anything without a valid bearer gets 401 — no leaking server existence.
+	handle {
+		respond "unauthorized" 401 {
+			close
+		}
+	}
+	log {
+		output file /var/log/caddy/doctor-mcp.access.log
+		format json
+	}
+}
+evaluations.cleantechhub.net {
+	handle_path /nexus-assets/* {
+		root * /var/www/nexus-assets
+		file_server
+		header Cache-Control "public, max-age=3600"
+	}
+	encode gzip
+	handle /ddscan* {
+		uri strip_prefix /ddscan
+		reverse_proxy localhost:4001
+	}
+	handle /esg* {
+		uri strip_prefix /esg
+		reverse_proxy localhost:4002
+	}
+	handle /portal* {
+		uri strip_prefix /portal
+		reverse_proxy localhost:8020
+	}
+	handle /eudr* {
+		uri strip_prefix /eudr
+		reverse_proxy localhost:8017
+	}
+	handle /tam* {
+		uri strip_prefix /tam
+		reverse_proxy localhost:8018
+	}
+	handle /investors* {
+		uri strip_prefix /investors
+		reverse_proxy localhost:8019
+	}
+	handle /gender* {
+		uri strip_prefix /gender
+		reverse_proxy localhost:8021
+	}
+	handle /co2* {
+		uri strip_prefix /co2
+		reverse_proxy localhost:4003
+	}
+	handle /impact* {
+		# prefix kept — app routes include /impact
+		reverse_proxy localhost:4004
+	}
+	handle /sustenttia/*/ {
+		root * /var/www/evaluations
+		try_files {path}index.html
+		file_server
+	}
+	handle /sustenttia/*/index.html {
+		root * /var/www/evaluations
+		file_server
+	}
+	handle /sustenttia/*/*.pdf {
+		root * /var/www/evaluations
+		file_server
+	}
+	handle /sustenttia/*/*.docx {
+		root * /var/www/evaluations
+		file_server
+	}
+	handle /sustenttia/* {
+		reverse_proxy 127.0.0.1:8001
+	}
+	handle /mubon* {
+		uri strip_prefix /mubon
+		reverse_proxy localhost:4006
+	}
+	handle /businessplan* {
+		uri strip_prefix /businessplan
+		reverse_proxy localhost:4007
+	}
+	handle /gtm* {
+		uri strip_prefix /gtm
+		reverse_proxy localhost:4008
+	}
+	handle /pmf* {
+		uri strip_prefix /pmf
+		reverse_proxy localhost:4009
+	}
+	handle /valuation* {
+		uri strip_prefix /valuation
+		reverse_proxy localhost:4010
+	}
+	handle /captable* {
+		uri strip_prefix /captable
+		reverse_proxy localhost:4011
+	}
+	handle /circularity* {
+		uri strip_prefix /circularity
+		reverse_proxy localhost:4012
+	}
+	handle /supplychain* {
+		uri strip_prefix /supplychain
+		reverse_proxy localhost:4013
+	}
+	handle /renewables* {
+		uri strip_prefix /renewables
+		reverse_proxy localhost:4014
+	}
+	handle /bmc* {
+		reverse_proxy localhost:4015 {
+			flush_interval -1
+		}
+	}
+	handle /toc* {
+		uri strip_prefix /toc
+		reverse_proxy localhost:4016
+	}
+	handle /funders* {
+		reverse_proxy localhost:8013
+	}
+
+	# Sustenttia Fillout webhook — direct from Fillout
+	handle /sustenttia/webhook {
+		uri replace /sustenttia/webhook /api/fillout-webhook
+		reverse_proxy localhost:9100
+	}
+	redir / /portal/ 302
+	handle {
+		reverse_proxy localhost:4000
+	}
+	log {
+		output file /var/log/caddy/evaluations.cleantechhub.net.log
+		format json
+	}
+}
+hooks.apps.cleantechhub.net {
+	handle_path /nexus-assets/* {
+		root * /var/www/nexus-assets
+		file_server
+		header Cache-Control "public, max-age=3600"
+	}
+	encode gzip
+	reverse_proxy 127.0.0.1:8010 {
+		transport http {
+			read_timeout 30s
+			write_timeout 30s
+		}
+	}
+	log {
+		output file /var/log/caddy/hooks.apps.cleantechhub.net.log {
+			roll_size 20mb
+			roll_keep 5
+		}
+		format json
+	}
+}
+hubpluma.apps.cleantechhub.net {
+	handle_path /nexus-assets/* {
+		root * /var/www/nexus-assets
+		file_server
+		header Cache-Control "public, max-age=3600"
+	}
+	encode gzip
+	reverse_proxy 127.0.0.1:8003 {
+		transport http {
+			read_timeout 120s
+			write_timeout 120s
+		}
+	}
+	log {
+		output file /var/log/caddy/hubpluma.apps.cleantechhub.net.log {
+			roll_size 20mb
+			roll_keep 5
+		}
+		format json
+	}
+}
+interview.cleantechhub.net {
+	handle_path /nexus-assets/* {
+		root * /var/www/nexus-assets
+		file_server
+		header Cache-Control "public, max-age=3600"
+	}
+	encode gzip
+	reverse_proxy 127.0.0.1:8420 {
+		flush_interval -1
+	}
+	log {
+		output file /var/log/caddy/interview.cleantechhub.net.log {
+			roll_size 20mb
+			roll_keep 3
+		}
+		format json
+	}
+}
+api.cleantechhub.net {
+	encode gzip
+	handle /rag/ideas/* {
+		reverse_proxy localhost:8096
+	}
+	handle_path /nexus-assets/* {
+		root * /var/www/nexus-assets
+		file_server
+		header Cache-Control "public, max-age=3600"
+	}
+	handle /llms.txt {
+		root * /var/www/nexus-assets
+		file_server
+		header Content-Type "text/plain; charset=utf-8"
+		header Access-Control-Allow-Origin *
+	}
+	handle /v1/* {
+		reverse_proxy localhost:8097 {
+			header_up X-Real-IP {remote_host}
+			flush_interval -1
+		}
+	}
+	handle /health {
+		reverse_proxy localhost:8097
+	}
+	handle /docs {
+		reverse_proxy localhost:8097
+	}
+	handle /openapi.json {
+		reverse_proxy localhost:8097
+	}
+	reverse_proxy localhost:8097 {
+		header_up X-Real-IP {remote_host}
+	}
+	header {
+		X-Content-Type-Options nosniff
+	}
+	log {
+		output file /var/log/caddy/api.cleantechhub.net.log {
+			roll_size 20mb
+			roll_keep 5
+		}
+		format json
+	}
+}
+# Origo EUDR Compliance Platform — Frontend + API
+origo.data.cleantechhub.net {
+	encode gzip
+
+	# API routes (backward-compat — keep on main domain)
+	handle /v1/* {
+		reverse_proxy localhost:8097 {
+			header_up X-Real-IP {remote_host}
+			flush_interval -1
+		}
+	}
+	handle /health {
+		reverse_proxy localhost:8097
+	}
+	handle /token {
+		reverse_proxy localhost:8097
+	}
+	handle /docs {
+		reverse_proxy localhost:8097
+	}
+	handle /redoc {
+		reverse_proxy localhost:8097
+	}
+	handle /openapi.json {
+		reverse_proxy localhost:8097
+	}
+	# Track A: Public EUDR risk screener (no auth)
+	handle /public/* {
+		reverse_proxy localhost:8097 {
+			header_up X-Real-IP {remote_host}
+		}
+	}
+	# Sandbox (canned demo responses)
+	handle_path /sandbox/* {
+		reverse_proxy localhost:8098 {
+			flush_interval -1
+		}
+	}
+	# DID document (W3C Decentralized Identifiers)
+	handle /.well-known/did.json {
+		header Content-Type application/did+ld+json
+		root * /opt/origo/api/src/origo/static
+		file_server
+	}
+	# Static maps
+	handle /maps/* {
+		root * /opt/origo/api/src/origo/static
+		file_server
+	}
+	# Frontend — static HTML (SPA fallback)
+	handle {
+		root * /opt/origo-ui
+		try_files {path} /index.html
+		file_server
+	}
+	header {
+		X-Content-Type-Options nosniff
+	}
+	log {
+		output file /var/log/caddy/origo.data.cleantechhub.net.log {
+			roll_size 20mb
+			roll_keep 5
+		}
+		format json
+	}
+}
+
+# Origo API subdomain
+api.origo.data.cleantechhub.net {
+	encode gzip
+	reverse_proxy localhost:8097 {
+		header_up X-Real-IP {remote_host}
+		flush_interval -1
+	}
+	header {
+		Access-Control-Allow-Origin "https://origo.data.cleantechhub.net"
+		Access-Control-Allow-Methods "GET, POST, PUT, DELETE, OPTIONS"
+		Access-Control-Allow-Headers "Authorization, Content-Type, Idempotency-Key, X-API-Key"
+		X-Content-Type-Options nosniff
+	}
+	log {
+		output file /var/log/caddy/api.origo.data.cleantechhub.net.log {
+			roll_size 20mb
+			roll_keep 5
+		}
+		format json
+	}
+}
+data.cleantechhub.net {
+	handle_path /nexus-assets/* {
+		root * /var/www/nexus-assets
+		file_server
+		header Cache-Control "public, max-age=3600"
+	}
+	encode gzip
+	# Data Platform API (port 8011)
+	handle /v1/startups* {
+		reverse_proxy localhost:8011
+	}
+	handle /v1/taxonomy* {
+		reverse_proxy localhost:8011
+	}
+	handle /catalogue* {
+		reverse_proxy localhost:8011
+	}
+	handle /policy* {
+		reverse_proxy localhost:8011
+	}
+	handle /llms.txt {
+		reverse_proxy localhost:8011 {
+			header_up Host {host}
+		}
+		header Content-Type "text/plain; charset=utf-8"
+	}
+
+	# Datasette internals
+	handle /-/* {
+		reverse_proxy localhost:8002
+	}
+
+	# EUDR compliance pathway
+	handle /eudr* {
+		reverse_proxy localhost:8002
+	}
+
+	# Lots (chain of custody)
+	handle /lots* {
+		reverse_proxy localhost:8002
+	}
+
+	# Reference data
+	handle /reference* {
+		reverse_proxy localhost:8002
+	}
+
+	# Datasette custom static (eudr.css etc.)
+	handle /static/* {
+		reverse_proxy localhost:8002
+	}
+
+	# React platform dashboard (strip /platform prefix before file lookup)
+	handle_path /platform* {
+		root * /opt/climate-data/dashboard/dist
+		try_files {path} /index.html
+		file_server
+	}
+
+	# Colombia climate map — API (Flask on 8083)
+	handle /static/* {
+		reverse_proxy 127.0.0.1:9100
+	}
+	handle /metrics {
+		reverse_proxy 127.0.0.1:9100
+	}
+	handle /api/* {
+		reverse_proxy localhost:8083
+	}
+
+	# Colombia climate map — data files (GeoJSON, CSV)
+	handle /data/* {
+		uri strip_prefix /data
+		root * /opt/cth-data/public
+		file_server
+	}
+
+	# Root landing page
+	handle {
+		root * /opt/data-ui
+		file_server
+	}
+
+	header {
+		X-Content-Type-Options nosniff
+	}
+
+	log {
+		output file /var/log/caddy/data.cleantechhub.net.log {
+			roll_size 20mb
+			roll_keep 5
+		}
+		format json
+	}
+}
+
+open.data.cleantechhub.net {
+	handle_path /nexus-assets/* {
+		root * /var/www/nexus-assets
+		file_server
+		header Cache-Control "public, max-age=3600"
+	}
+	encode gzip
+	log {
+		output file /var/log/caddy/data.log
+		format json
+	}
+	# Datasette routes
+	handle /cth_open* {
+		reverse_proxy 127.0.0.1:8004
+	}
+	handle /-/* {
+		reverse_proxy 127.0.0.1:8004
+	}
+	# Raw bulk-download tree
+	handle /raw/* {
+		root * /srv/data.cleantechhub.net
+		file_server browse
+		header Cache-Control "public, max-age=86400"
+	}
+	# Static landing
+	handle {
+		root * /srv/data.cleantechhub.net/public
+		try_files {path} {path}/index.html /{path}.html /en/
+		file_server
+		header Cache-Control "public, max-age=3600"
+		header X-Content-Type-Options "nosniff"
+	}
+}
+# Append this block to /etc/caddy/Caddyfile on the OVH VPS, then `caddy reload`.
+pdet-api.cleantechhub.net {
+	handle /rag/ideas/* {
+		reverse_proxy localhost:8096
+	}
+	handle_path /nexus-assets/* {
+		root * /var/www/nexus-assets
+		file_server
+		header Cache-Control "public, max-age=3600"
+	}
+	encode gzip
+	reverse_proxy 127.0.0.1:8089
+	log {
+		output file /var/log/caddy/pdet-api.access.log {
+			roll_size 50mb
+			roll_keep 7
+		}
+	}
+}
+cth-api.cleantechhub.net {
+	handle /rag/ideas/* {
+		reverse_proxy localhost:8096
+	}
+	handle_path /nexus-assets/* {
+		root * /var/www/nexus-assets
+		file_server
+		header Cache-Control "public, max-age=3600"
+	}
+	reverse_proxy 127.0.0.1:8089
+	encode gzip
+	log {
+		output file /var/log/caddy/cth-api.log
+		format json
+	}
+}
+apps.cleantechhub.net {
+	handle_path /nexus-assets/* {
+		root * /var/www/nexus-assets
+		file_server
+		header Cache-Control "public, max-age=3600"
+	}
+	handle /oikos/auth/callback {
+		reverse_proxy localhost:8767
+	}
+	handle /oikos/auth/* {
+		reverse_proxy localhost:8767
+	}
+	handle /oikos/api/* {
+		reverse_proxy localhost:8767
+	}
+	handle /oikos* {
+		root * /var/www/oikos
+		rewrite * /index.html
+		file_server
+	}
+	handle / {
+		root * /var/www/apps
+		file_server
+	}
+	handle /lumines* {
+		reverse_proxy 127.0.0.1:4180
+	}
+}
+# CTH Market Research — agents.cleantechhub.net
+# Path-based routing: /research → cth-research:8090, /langfuse → langfuse:3004
+agents.cleantechhub.net {
+	handle_path /nexus-assets/* {
+		root * /var/www/nexus-assets
+		file_server
+		header Cache-Control "public, max-age=3600"
+	}
+	handle /diagnostico/lead {
+		reverse_proxy localhost:5001
+	}
+	handle /diagnostic-complete {
+		reverse_proxy localhost:5001
+	}
+	handle /telegram-webhook {
+		reverse_proxy localhost:5001
+	}
+	encode gzip zstd
+	# Research API + UI
+	handle_path /research/* {
+		reverse_proxy localhost:8090
+	}
+	handle /research {
+		redir /research/ permanent
+	}
+	handle_path /diagnostico* {
+		root * /var/www/diagnostico
+		file_server
+	}
+	# Diagnostic Lead API
+	handle /seo/diagnostic-lead {
+		reverse_proxy localhost:8013
+	}
+	handle /seo/health {
+		reverse_proxy localhost:8013
+	}
+	# SEO static assets (calc.js, diag.js)
+	handle_path /seo/static/* {
+		root * /var/www/seo-static
+		file_server
+		header Access-Control-Allow-Origin "*"
+		header Cache-Control "no-cache, must-revalidate"
+	}
+	# Ruta Verde Loop 3
+	handle /seo/calculator-lead {
+		reverse_proxy localhost:8014
+	}
+	handle /seo/diagnostic-complete {
+		reverse_proxy localhost:8014
+	}
+	# Ruta Verde Loop 7
+	handle_path /ruta-verde/reports/* {
+		root * /opt/ruta-verde/reports
+		file_server
+	}
+	handle /ruta-verde/apply-complete {
+		reverse_proxy localhost:8014
+	}
+	# SEO / AEO agent
+	handle /seo/* {
+		reverse_proxy localhost:8090
+	}
+	# Content Publishing agent
+	handle /content/* {
+		reverse_proxy localhost:8090
+	}
+	# Grant Discovery + Lifecycle agent
+	handle /grant/* {
+		reverse_proxy localhost:8090
+	}
+	# Root — list available agents
+	handle / {
+		respond "CleantechHUB Agents" 200
+	}
+	log {
+		output file /var/log/caddy/agents.log
+		format json
+	}
+	# Impact Reporting API
+	handle /impact-reporting/* {
+		reverse_proxy localhost:8005
+	}
+	handle /impact-reporting {
+		redir /impact-reporting/ permanent
+	}
+}
+
+langfuse.cleantechhub.net {
+	handle_path /nexus-assets/* {
+		root * /var/www/nexus-assets
+		file_server
+		header Cache-Control "public, max-age=3600"
+	}
+	encode gzip zstd
+	reverse_proxy localhost:3004
+	log {
+		output file /var/log/caddy/langfuse.log
+		format json
+	}
+}
+files-mcp.cleantechhub.net {
+	handle_path /nexus-assets/* {
+		root * /var/www/nexus-assets
+		file_server
+		header Cache-Control "public, max-age=3600"
+	}
+	encode gzip
+	rate_limit {
+		zone files_mcp_per_ip {
+			key {client_ip}
+			events 60
+			window 1m
+		}
+		zone files_mcp_per_token {
+			key {header.Authorization}
+			events 600
+			window 1h
+		}
+	}
+	reverse_proxy 127.0.0.1:8093 {
+		flush_interval -1
+	}
+	log {
+		output file /var/log/caddy/files-mcp.log
+		format json
+	}
+}
+plugins.cleantechhub.net {
+	handle_path /nexus-assets/* {
+		root * /var/www/nexus-assets
+		file_server
+		header Cache-Control "public, max-age=3600"
+	}
+	encode gzip
+	handle /marketplace.json {
+		root * /opt/plugins
+		file_server
+	}
+	handle /install.sh {
+		root * /opt/plugins
+		header Content-Type text/plain
+		file_server
+	}
+	@authorized header Authorization "Bearer *"
+	handle @authorized {
+		root * /opt/plugins
+		file_server browse
+	}
+	handle {
+		respond "401 Unauthorized · CleantechHUB private marketplace" 401
+	}
+	log {
+		output file /var/log/caddy/plugins.log
+		format json
+	}
+}
+app.sustenttia.com, sustenttia.com, www.sustenttia.com, pay.sustenttia.com {
+	# BEGIN SUSTENTTIA-PRODUCT
+	# Product (FastAPI) first — do not let file_server or Express shadow these.
+	@sustenttia_product path / /pagar /pagar/* /plan-1 /plan-2 /plan-3 /revisa-tu-correo /revisa-tu-correo/* /entrar /entrar/* /login /login/* /informe /informe/* /client /client/*
+	handle @sustenttia_product {
+		reverse_proxy 127.0.0.1:9100
+	}
+	# END SUSTENTTIA-PRODUCT
+
+	encode gzip
+	tls {
+		issuer acme {
+			preferred_chains {
+				root_common_name "ISRG Root X1"
+			}
+		}
+	}
+	# Product flow (PR #10/#11) — must beat the June static + Express catch-all
+	@product path / /pagar /pagar/* /revisa-tu-correo /revisa-tu-correo/* /entrar /entrar/* /login /login/* /informe /informe/* /client /client/*
+	handle @product {
+		reverse_proxy 127.0.0.1:9100
+	}
+	handle /grafana/* {
+		reverse_proxy localhost:3000
+	}
+	handle /static/* {
+		reverse_proxy 127.0.0.1:9100
+	}
+	handle /metrics {
+		reverse_proxy 127.0.0.1:9100
+	}
+	handle /api/* {
+		reverse_proxy 127.0.0.1:9100
+	}
+	handle /admin* {
+		reverse_proxy 127.0.0.1:9100
+	}
+	handle /dashboard* {
+		reverse_proxy 127.0.0.1:9100
+	}
+	handle_path /reporte/* {
+		root * /var/www/reportes
+		try_files {path} {path}/index.html
+		file_server
+	}
+	handle {
+		root * /var/www/evaluations/sustenttia
+		@static file {path} {path}/index.html
+		handle @static {
+			try_files {path} {path}/index.html
+			file_server
+		}
+		handle {
+			reverse_proxy 127.0.0.1:3101
+		}
+	}
+	log {
+		output file /var/log/caddy/app-sustenttia.log
+	}
+}
+
+# dashboards.cleantechhub.net
+dashboards.cleantechhub.net {
+	handle_path /nexus-assets/* {
+		root * /var/www/nexus-assets
+		file_server
+		header Cache-Control "public, max-age=3600"
+	}
+	encode gzip zstd
+	@api path /api/*
+	handle @api {
+		reverse_proxy localhost:8095
+	}
+	handle {
+		root * /opt/cth/dashboards
+		try_files {path}/index.html {path}
+		file_server
+	}
+	log {
+		output file /var/log/caddy/dashboards.cleantechhub.net.log {
+			roll_size 20mb
+			roll_keep 5
+		}
+		format json
+	}
+}
+notetaker.cleantechhub.net {
+	handle_path /nexus-assets/* {
+		root * /var/www/nexus-assets
+		file_server
+		header Cache-Control "public, max-age=3600"
+	}
+	reverse_proxy localhost:8085
+}
+# CleantechHUB — Caddy block for Odoo MCP Server
+odoo-mcp.cleantechhub.net {
+	handle_path /nexus-assets/* {
+		root * /var/www/nexus-assets
+		file_server
+		header Cache-Control "public, max-age=3600"
+	}
+	basicauth /mcp* {
+		gideon $2a$14$7wlQ/nRCWtP0oRtSSy2rY.Irm0PZ7oW6X7q5J5H6kJvF.EoQLA7Au
+	}
+	reverse_proxy localhost:8005 {
+		header_up Host localhost:8001
+		header_up X-Real-IP {remote_host}
+		header_up X-Forwarded-For {remote_host}
+		header_up X-Forwarded-Proto {scheme}
+		fail_duration 10s
+		unhealthy_status 5xx
+	}
+	log {
+		output file /var/log/caddy/odoo-mcp.log {
+			roll_size 10mb
+			roll_keep 5
+		}
+		format json
+	}
+}
+# CTH Hermes Agent
+hermes-cth.cleantechhub.net {
+	basic_auth * {
+		gideon $2a$14$URSaJXhmS.gogHSJt2tAZOzLXgOYeZ03sL7Zz/McFGA1iuuVNVQWO
+	}
+	header {
+		X-Frame-Options SAMEORIGIN
+		X-Content-Type-Options nosniff
+		Referrer-Policy strict-origin-when-cross-origin
+		-Server
+	}
+	reverse_proxy localhost:8092 {
+		header_up Host {host}
+		header_up X-Real-IP {remote_host}
+		header_up X-Forwarded-Proto {scheme}
+	}
+	@websockets {
+		header Connection *Upgrade*
+		header Upgrade websocket
+	}
+	reverse_proxy @websockets localhost:8092
+	log {
+		output file /var/log/caddy/hermes-cth.log {
+			roll_size 10mb
+			roll_keep 5
+		}
+		format json
+	}
+}
+fleet.cleantechhub.net {
+	reverse_proxy localhost:3100 {
+		header_up X-Forwarded-Proto {scheme}
+		header_up X-Forwarded-Host {host}
+		transport http {
+			read_timeout 300s
+		}
+	}
+}
+
+hermes-sus.cleantechhub.net {
+	header {
+		X-Frame-Options SAMEORIGIN
+		X-Content-Type-Options nosniff
+		Referrer-Policy strict-origin-when-cross-origin
+		-Server
+	}
+	handle /webhooks/* {
+		reverse_proxy localhost:8644
+	}
+	handle {
+		basic_auth {
+			gideon $2a$14$URSaJXhmS.gogHSJt2tAZOzLXgOYeZ03sL7Zz/McFGA1iuuVNVQWO
+		}
+		reverse_proxy localhost:7861 {
+			header_up Host {host}
+			header_up X-Real-IP {remote_host}
+			header_up X-Forwarded-Proto {scheme}
+		}
+	}
+	@websockets {
+		header Connection *Upgrade*
+		header Upgrade websocket
+	}
+	handle @websockets {
+		reverse_proxy localhost:7861
+	}
+	log {
+		output file /var/log/caddy/hermes-sus.log {
+			roll_size 10mb
+			roll_keep 5
+		}
+		format json
+	}
+}
+
+hermes-run.cleantechhub.net {
+	basic_auth * {
+		gideon $2a$14$URSaJXhmS.gogHSJt2tAZOzLXgOYeZ03sL7Zz/McFGA1iuuVNVQWO
+	}
+	header {
+		X-Frame-Options SAMEORIGIN
+		X-Content-Type-Options nosniff
+		Referrer-Policy strict-origin-when-cross-origin
+		-Server
+	}
+	reverse_proxy localhost:7862 {
+		header_up Host {host}
+		header_up X-Real-IP {remote_host}
+		header_up X-Forwarded-Proto {scheme}
+	}
+	@websockets {
+		header Connection *Upgrade*
+		header Upgrade websocket
+	}
+	reverse_proxy @websockets localhost:7862
+	log {
+		output file /var/log/caddy/hermes-run.log {
+			roll_size 10mb
+			roll_keep 5
+		}
+		format json
+	}
+}
+
+datathon.data.cleantechhub.net {
+	handle_path /static/* {
+		root * /opt/datathon/django_static
+		file_server
+	}
+	handle /api/internal/* {
+		@odoo remote_ip 127.0.0.1 51.195.45.77 135.125.232.132
+		handle @odoo {
+			reverse_proxy localhost:8001
+		}
+		respond 403
+	}
+	handle /static/* {
+		reverse_proxy 127.0.0.1:9100
+	}
+	handle /metrics {
+		reverse_proxy 127.0.0.1:9100
+	}
+	handle /api/* {
+		reverse_proxy localhost:8001
+	}
+	handle /django-admin/* {
+		reverse_proxy localhost:8001
+	}
+	handle {
+		root * /opt/datathon/static
+		file_server
+	}
+	encode gzip
+	log {
+		output file /var/log/caddy/datathon.log {
+			roll_size 10mb
+			roll_keep 5
+		}
+		format json
+	}
+}
+
+# Mission Control Portal
+portal.cleantechhub.net {
+	encode gzip
+	handle /static/* {
+		reverse_proxy 127.0.0.1:9100
+	}
+	handle /metrics {
+		reverse_proxy 127.0.0.1:9100
+	}
+	handle /api/* {
+		reverse_proxy localhost:4100
+	}
+	handle {
+		root * /var/www/portal
+		try_files {path} /index.html
+		file_server
+	}
+	header {
+		X-Content-Type-Options nosniff
+		X-Frame-Options SAMEORIGIN
+	}
+	log {
+		output file /var/log/caddy/portal.cleantechhub.net.log {
+			roll_size 20mb
+			roll_keep 5
+		}
+		format json
+	}
+}
+
+# Ruta Verde Dashboard
+rutaverde.cleantechhub.net {
+	handle /api/* {
+		reverse_proxy localhost:8093
+	}
+	handle /reports/* {
+		root * /var/www/rutaverde
+		file_server
+	}
+	handle_path /r/* {
+		rewrite * /reports/{path}.html
+		root * /var/www/rutaverde
+		file_server
+	}
+	root * /var/www/rutaverde
+	file_server
+
+	@hub_data path /data/*_hub.json
+	handle @hub_data {
+		root * /var/www/rutaverde
+		file_server
+	}
+	@private_data {
+		path /data/*
+		not path /data/*_hub.json
+	}
+	respond @private_data 403
+
+	@admin path /admin* /admin.html
+	basic_auth @admin {
+		cth $2a$14$aLTsiQ/cjZyEpC/ngTmhje7i8Wzzsl4EdcI1WbJUYFJNvfis47kg2
+	}
+
+	@partners path /partners* /partners.html
+	basic_auth @partners {
+		bancolombia $2a$14$w1VRKp2OeAdEcdAGN24fCema7/UABbh3dg7JxmM2dwx8eszBwLarK
+		davivienda $2a$14$w1VRKp2OeAdEcdAGN24fCema7/UABbh3dg7JxmM2dwx8eszBwLarK
+		bbva $2a$14$w1VRKp2OeAdEcdAGN24fCema7/UABbh3dg7JxmM2dwx8eszBwLarK
+		bancodebogota $2a$14$w1VRKp2OeAdEcdAGN24fCema7/UABbh3dg7JxmM2dwx8eszBwLarK
+		bancoldex $2a$14$w1VRKp2OeAdEcdAGN24fCema7/UABbh3dg7JxmM2dwx8eszBwLarK
+	}
+
+	@investors path /investors* /investors.html
+	basic_auth @investors {
+		funder $2a$14$LH20nraBJE1Vizfl5RnBiOkL5oaT9ZwewWEjXN8ZJBmX4Wr2mN2tq
+	}
+}
+
+energiacoop.cleantechhub.net {
+    root * /opt/energiacoop/public
+    file_server
+    encode gzip
+    try_files {path} {path}/index.html {path}.html
+
+    header {
+        X-Content-Type-Options "nosniff"
+        X-Frame-Options "SAMEORIGIN"
+        Referrer-Policy "strict-origin-when-cross-origin"
+    }
+    # Immutable assets vs frequently-edited HTML. One blanket 1h rule for both
+    # (as the handoff proposed) is wrong in both directions.
+    @html not path /assets/*
+    header @html Cache-Control "public, max-age=3600"
+    header /assets/* Cache-Control "public, max-age=31536000, immutable"
+
+    handle_errors {
+        rewrite * /404.html
+        file_server
+    }
+}
+
+# CTH Research — static content for LinkedIn strategy
+research.cleantechhub.net {
+	encode gzip
+	root * /var/www/research
+	file_server
+
+	header {
+		X-Content-Type-Options nosniff
+		X-Frame-Options SAMEORIGIN
+		Referrer-Policy strict-origin-when-cross-origin
+	}
+
+	# HTML pages — short cache
+	@html path *.html
+	header @html Cache-Control "public, max-age=3600"
+
+	# Static assets — long cache
+	@assets path /images/* /pdfs/* /cards/*
+	header @assets Cache-Control "public, max-age=86400"
+
+	log {
+		output file /var/log/caddy/research.cleantechhub.net.log {
+			roll_size 20mb
+			roll_keep 5
+		}
+		format json
+	}
+}
+
+# === LibreChat ===
+chat.cleantechhub.net {
+    encode gzip
+
+    @websockets {
+        header Connection *Upgrade*
+        header Upgrade websocket
+    }
+    reverse_proxy @websockets 127.0.0.1:3080
+
+    reverse_proxy 127.0.0.1:3080 {
+        header_up X-Forwarded-Proto {scheme}
+        header_up X-Real-IP {remote_host}
+    }
+
+    header {
+        X-Content-Type-Options nosniff
+    }
+
+    log {
+        output file /var/log/caddy/chat.cleantechhub.net.log {
+            roll_size 20mb
+            roll_keep 5
+        }
+        format json
+    }
+}
+
+# === Cognee MCP (SSE) ===
+cognee-mcp.cleantechhub.net {
+    encode gzip
+
+    basic_auth {
+        admin $2a$14$DvQcaFtd8pDBYas9brdVVOezbBe5k.XbRQXElTVX7sRDnJLF8nnGW
+    }
+
+    reverse_proxy 127.0.0.1:8095 {
+        header_up X-Forwarded-Proto {scheme}
+        header_up X-Real-IP {remote_host}
+        flush_interval -1
+        transport http {
+            read_timeout 5m
+        }
+    }
+
+    header {
+        X-Content-Type-Options nosniff
+    }
+
+    log {
+        output file /var/log/caddy/cognee-mcp.cleantechhub.net.log {
+            roll_size 20mb
+            roll_keep 5
+        }
+        format json
+    }
+}
+
+# Rakazo (real app) — tailnet only via MagicDNS (Gideon lock 17 Sep 2026)
+vps.tail6b9bda.ts.net {
+	tls {
+		get_certificate tailscale
+	}
+	handle /health {
+		reverse_proxy 127.0.0.1:3100
+	}
+	handle /babo-wa-qr* {
+		uri strip_prefix /babo-wa-qr
+		reverse_proxy 127.0.0.1:8790
+	}
+	reverse_proxy 127.0.0.1:5173
+}
+
+# === n8n LinkedIn personal OAuth (isolated instance) ===
+# Prereq: DNS A record n8n-li.cleantechhub.net → 51.195.45.77
+# OAuth callback: https://n8n-li.cleantechhub.net/rest/oauth2-credential/callback
+n8n-li.cleantechhub.net {
+	encode gzip
+
+	@websockets {
+		header Connection *Upgrade*
+		header Upgrade websocket
+	}
+	reverse_proxy @websockets 127.0.0.1:5678
+
+	reverse_proxy 127.0.0.1:5678 {
+		header_up X-Forwarded-Proto {scheme}
+		header_up X-Real-IP {remote_host}
+		header_up Host {host}
+		flush_interval -1
+		transport http {
+			read_timeout 5m
+		}
+	}
+
+	header {
+		X-Content-Type-Options nosniff
+	}
+
+	log {
+		output file /var/log/caddy/n8n-li.cleantechhub.net.log {
+			roll_size 20mb
+			roll_keep 5
+		}
+		format json
+	}
+}
+import Caddyfile.d/origo-staging.data.cleantechhub.net.caddy
+
+# CTH subsites — programs / projects / growth / datalab (2026-10-06)
+datalab.cleantechhub.net {
+	root * /opt/sites/datalab
+	encode gzip zstd
+
+	@showcase_api path /api/v1/showcase* /api/v1/openapi.json
+	handle @showcase_api {
+		rate_limit {
+			zone datalab_showcase_api {
+				key {client_ip}
+				events 120
+				window 1m
+			}
+		}
+		reverse_proxy 127.0.0.1:8092
+	}
+	# CTH Datalab API (FastAPI on 127.0.0.1:8091) — steward / trusted intermediary
+	handle /api/* {
+		request_body {
+			max_size 6MB
+		}
+		reverse_proxy 127.0.0.1:8091
+	}
+
+	@spa path /app /app/*
+	handle @spa {
+		try_files {path} /app/index.html
+		file_server
+	}
+	handle {
+		try_files {path} {path}/index.html
+		file_server
+	}
+	header {
+		X-Frame-Options SAMEORIGIN
+		X-Content-Type-Options nosniff
+		Referrer-Policy strict-origin-when-cross-origin
+	}
+	log {
+		output file /var/log/caddy/datalab.cleantechhub.net.log {
+			roll_size 20mb
+			roll_keep 5
+		}
+		format json
+	}
+}
+
+programs.cleantechhub.net {
+	root * /opt/sites/programs
+	encode gzip zstd
+	try_files {path} {path}/index.html
+	file_server
+	header {
+		X-Frame-Options SAMEORIGIN
+		X-Content-Type-Options nosniff
+		Referrer-Policy strict-origin-when-cross-origin
+	}
+}
+
+growth.cleantechhub.net {
+	root * /opt/sites/growth
+	encode gzip zstd
+	try_files {path} {path}/index.html
+	file_server
+	header {
+		X-Frame-Options SAMEORIGIN
+		X-Content-Type-Options nosniff
+		Referrer-Policy strict-origin-when-cross-origin
+	}
+}
+
+projects.cleantechhub.net {
+	root * /opt/sites/projects
+	encode gzip zstd
+	try_files {path} {path}/index.html
+	file_server
+	header {
+		X-Frame-Options SAMEORIGIN
+		X-Content-Type-Options nosniff
+		Referrer-Policy strict-origin-when-cross-origin
+	}
+}
+import Caddyfile.d/mubon.cleantechhub.net.caddy
+
+import Caddyfile.d/decks.cleantechhub.net.caddy

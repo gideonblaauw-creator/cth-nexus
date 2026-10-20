@@ -1,0 +1,210 @@
+{
+  "slug": "eco-biosis",
+  "name": "Eco Biosis",
+  "website": "https://ecobiosis.com",
+  "badge_en": "Circular Economy &middot; CLAC24",
+  "badge_es": "Economía Circular &middot; CLAC24",
+  "hero_image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1200&q=80",
+  "cta_bg": "https://images.unsplash.com/photo-1611273626479-c3663a10e7a0?w=1200&q=80",
+  "image_credits": [
+    {
+      "slot": "hero",
+      "source_url": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1200&q=80",
+      "credit_en": "Unsplash / ThisisEngineering",
+      "credit_es": "Unsplash / ThisisEngineering"
+    },
+    {
+      "slot": "problem",
+      "source_url": "https://images.unsplash.com/photo-1621451537829-247eb3148060?w=1200&q=80",
+      "credit_en": "Unsplash / engin akyurt",
+      "credit_es": "Unsplash / engin akyurt"
+    },
+    {
+      "slot": "solution",
+      "source_url": "https://images.unsplash.com/photo-1579162273420-e891596e860a?w=1200&q=80",
+      "credit_en": "Unsplash / Rodrigo Cuel",
+      "credit_es": "Unsplash / Rodrigo Cuel"
+    },
+    {
+      "slot": "impact",
+      "source_url": "https://images.unsplash.com/photo-1596442284341-43b58098b12a?w=1200&q=80",
+      "credit_en": "Unsplash / Sigmund",
+      "credit_es": "Unsplash / Sigmund"
+    },
+    {
+      "slot": "leadership",
+      "source_url": "https://images.unsplash.com/photo-1532635243-17fbf47abfb9?w=1200&q=80",
+      "credit_en": "Unsplash / National Cancer Institute",
+      "credit_es": "Unsplash / National Cancer Institute"
+    },
+    {
+      "slot": "cta",
+      "source_url": "https://images.unsplash.com/photo-1611273626479-c3663a10e7a0?w=1200&q=80",
+      "credit_en": "Unsplash / Appolinary Kalashnikova",
+      "credit_es": "Unsplash / Appolinary Kalashnikova"
+    }
+  ],
+  "hero_sub_en": "ecobiosis.com &middot; Colombia &middot; Circular Economy &middot; Stage: Seed &middot; CT-WA-001 · CT-IN-004",
+  "hero_sub_es": "ecobiosis.com &middot; Colombia &middot; Economía Circular &middot; Etapa: Seed &middot; CT-WA-001 · CT-IN-004",
+  "pitch_en": "Converts vinasse and distillery effluents into BioDispersis, a natural dispersant reintegrated into industrial supply chains, achieving zero-waste production.",
+  "pitch_es": "Convierte vinaza y efluentes de destilerías en BioDispersis, un dispersante natural reintegrado en cadenas de suministro industriales, logrando una producción de residuo cero.",
+  "cta_pitch_en": "Converts vinasse and distillery effluents into BioDispersis, a natural dispersant reintegrated into industrial supply chains, achieving zero-waste production.",
+  "cta_pitch_es": "Convierte vinaza y efluentes de destilerías en BioDispersis, un dispersante natural reintegrado en cadenas de suministro industriales, logrando una producción de residuo cero.",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "ribbon": [
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    },
+    {
+      "val": "Seed",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLAC24",
+      "sub_es": "CLAC24"
+    },
+    {
+      "val": "Circular",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Métricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLAC24",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Hub",
+        "lab_es": "Hub"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Vinasse and distillery effluents from industry are difficult to treat and often become waste rather than reusable inputs.",
+      "head_es": "La vinaza y los efluentes de destilerías son difíciles de tratar y muchas veces terminan como residuo en lugar de insumos reutilizables.",
+      "body_en": "Vinasse and distillery effluents from industry are difficult to treat and often become waste rather than reusable inputs.",
+      "body_es": "La vinaza y los efluentes de destilerías son difíciles de tratar y muchas veces terminan como residuo en lugar de insumos reutilizables.",
+      "bg": "https://images.unsplash.com/photo-1621451537829-247eb3148060?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "🎯",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Converts vinasse and distillery effluents into BioDispersis, a natural dispersant reintegrated into industrial supply chains, achieving zero-waste production.",
+          "text_es": "Convierte vinaza y efluentes de destilerías en BioDispersis, un dispersante natural reintegrado en cadenas de suministro industriales, logrando una producción de residuo cero."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "Eco Biosis — CLAC24 (CleantechHUB). Cohort: Acceleration.",
+          "text_es": "Eco Biosis — CLAC24 (CleantechHUB). Cohorte: Acceleration."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Based in Colombia. Public site: ecobiosis.com.",
+          "text_es": "Con base en Colombia. Sitio público: ecobiosis.com."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1579162273420-e891596e860a?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact & Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Wiki source",
+          "title_es": "Fuente Wiki",
+          "text_en": "Profile synced from BookStack Startup Portfolio + Odoo (SoT).",
+          "text_es": "Perfil sincronizado desde BookStack Startup Portfolio + Odoo (SoT)."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomía",
+          "text_en": "Industrial Wastewater Treatment · Industrial Symbiosis",
+          "text_es": "Industrial Wastewater Treatment · Industrial Symbiosis"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1596442284341-43b58098b12a?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Eduardo Creixell",
+          "role_en": "Co-founder &middot; CLAC24",
+          "role_es": "Cofundador &middot; CLAC24",
+          "bio_en": "Identified as Eco Biosis co-founder in public company materials. Current role details: [PENDIENTE].",
+          "bio_es": "Identificado como cofundador de Eco Biosis en materiales públicos de la empresa. Detalle de rol actual: [PENDIENTE].",
+          "linkedin": "https://linkedin.com/in/eduardo-creixell",
+          "initials": "EC"
+        },
+        {
+          "name": "Miguel Creixell",
+          "role_en": "COO &amp; Business Development &middot; CLAC24",
+          "role_es": "COO y Desarrollo de Negocio &middot; CLAC24",
+          "bio_en": "Public LinkedIn lists leadership roles at Eco Biosis. Source: LinkedIn.",
+          "bio_es": "LinkedIn público lista roles de liderazgo en Eco Biosis. Fuente: LinkedIn.",
+          "linkedin": "https://linkedin.com/in/miguelcreixell",
+          "initials": "MC"
+        }
+      ],
+      "dream_en": "Program: CLAC24 · Acceleration. City: [PENDIENTE]. Verified KPIs: [PENDIENTE]. Pitch deck on profile: [PENDIENTE].",
+      "dream_es": "Programa: CLAC24 · Acceleration. Ciudad: [PENDIENTE]. KPIs verificados: [PENDIENTE]. Pitch deck en perfil: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1532635243-17fbf47abfb9?w=1200&q=80"
+    }
+  ]
+}

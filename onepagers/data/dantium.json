@@ -1,0 +1,248 @@
+{
+  "slug": "dantium",
+  "name": "DANTIUM",
+  "website": "#",
+  "badge_en": "Air & Environment &middot; CLP26 Colombia",
+  "badge_es": "Air & Environment &middot; CLP26 Colombia",
+  "hero_image": "https://images.unsplash.com/photo-1532996122724-e3c031a396bf?w=1200&q=80",
+  "hero_sub_en": "[PENDIENTE] &middot; Colombia &middot; Air & Environment &middot; Stage: Prototype &middot; CT-BU-001",
+  "hero_sub_es": "[PENDIENTE] &middot; Colombia &middot; Air & Environment &middot; Etapa: Prototype &middot; CT-BU-001",
+  "pitch_en": "Dantium es un proyecto que transforma residuos plásticos en madera plástica para fabricar bloques y cercas sostenibles. Integra innovación como iluminación LED en algunos prototipos, aportando a la reducción de contaminación y mejorando la infraestructura",
+  "pitch_es": "Dantium es un proyecto que transforma residuos plásticos en madera plástica para fabricar bloques y cercas sostenibles. Integra innovación como iluminación LED en algunos prototipos, aportando a la reducción de contaminación y mejorando la infraestructura",
+  "cta_pitch_en": "Dantium transforma residuos plásticos en madera plástica para fabricar bloques y cercas, en la práctica, se recolecta, procesa y se reutiliza estos materiales en productos útiles, integrando…",
+  "cta_pitch_es": "Dantium transforma residuos plásticos en madera plástica para fabricar bloques y cercas, en la práctica, se recolecta, procesa y se reutiliza estos materiales en productos útiles, integrando…",
+  "cta_btn_en": "CleantechHUB",
+  "cta_btn_es": "CleantechHUB",
+  "ribbon": [
+    {
+      "val": "Prototype",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLP26 CO",
+      "sub_es": "CLP26 CO"
+    },
+    {
+      "val": "Air & Enviro",
+      "lab_en": "Category",
+      "lab_es": "Categoría",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "CT-BU-001",
+      "lab_en": "CT Taxonomy",
+      "lab_es": "Taxonomía CT",
+      "sub_en": "CTH",
+      "sub_es": "CTH"
+    },
+    {
+      "val": "5",
+      "lab_en": "Team",
+      "lab_es": "Equipo",
+      "sub_en": "Application",
+      "sub_es": "Aplicación"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLP",
+        "lab_en": "2026 Colombia",
+        "lab_es": "2026 Colombia"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Accelerator",
+        "lab_es": "Acelerador"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "Metrics pending",
+        "lab_es": "Métricas pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "El proyecto aborda la acumulación de residuos plásticos mal gestionados, que contaminan suelos,…",
+      "head_es": "El proyecto aborda la acumulación de residuos plásticos mal gestionados, que contaminan suelos,…",
+      "body_en": "El proyecto aborda la acumulación de residuos plásticos mal gestionados, que contaminan suelos, fuentes hídricas y generan emisiones al degradarse o ser incinerados, afectando especialmente a zonas rurales, donde hay menos soluciones de manejo",
+      "body_es": "El proyecto aborda la acumulación de residuos plásticos mal gestionados, que contaminan suelos, fuentes hídricas y generan emisiones al degradarse o ser incinerados, afectando especialmente a zonas rurales, donde hay menos soluciones de manejo",
+      "bg": "https://images.unsplash.com/photo-1532996122724-e3c031a396bf?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "How DANTIUM Works",
+      "title_es": "Cómo Funciona DANTIUM",
+      "steps": [
+        {
+          "icon": "🎯",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Dantium transforma residuos plásticos en madera plástica para fabricar bloques y cercas, en la práctica, se recolecta, procesa y se reutiliza estos materiales…",
+          "text_es": "Dantium transforma residuos plásticos en madera plástica para fabricar bloques y cercas, en la práctica, se recolecta, procesa y se reutiliza estos materiales…"
+        },
+        {
+          "icon": "⚙️",
+          "label_en": "Model",
+          "label_es": "Modelo",
+          "text_en": "Generaré ingresos mediante la venta de bloques, cercas y productos en madera plástica, así como por proyectos con…",
+          "text_es": "Generaré ingresos mediante la venta de bloques, cercas y productos en madera plástica, así como por proyectos con…"
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "El mercado objetivo inicial son grandes empresas y ganaderos que requieren soluciones sostenibles para infraestructura…",
+          "text_es": "El mercado objetivo inicial son grandes empresas y ganaderos que requieren soluciones sostenibles para infraestructura…"
+        },
+        {
+          "icon": "📈",
+          "label_en": "Traction",
+          "label_es": "Tracción",
+          "text_en": "La demanda se evidencia en la necesidad constante de soluciones duraderas y sostenibles en el sector rural,…",
+          "text_es": "La demanda se evidencia en la necesidad constante de soluciones duraderas y sostenibles en el sector rural,…"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1470071459604-3b5ec3a8fe05?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "table",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Business Snapshot",
+      "title_es": "Resumen del Negocio",
+      "headers": [
+        [
+          "Dimension",
+          "Dimensión"
+        ],
+        [
+          "Detail (EN)",
+          "Detalle"
+        ],
+        [
+          "Status",
+          "Estado"
+        ]
+      ],
+      "rows": [
+        [
+          [
+            "Category",
+            "Categoría"
+          ],
+          [
+            "Air & Environment",
+            "Air & Environment"
+          ],
+          [
+            "CLP26",
+            "CLP26"
+          ]
+        ],
+        [
+          [
+            "Stage",
+            "Etapa"
+          ],
+          [
+            "Prototype",
+            "Prototype"
+          ],
+          [
+            "Application",
+            "Aplicación"
+          ]
+        ],
+        [
+          [
+            "CT Taxonomy",
+            "Taxonomía CT"
+          ],
+          [
+            "CT-BU-001",
+            "CT-BU-001"
+          ],
+          [
+            "CTH",
+            "CTH"
+          ]
+        ]
+      ],
+      "bg": "https://images.unsplash.com/photo-1532996122724-e3c031a396bf?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Climate &amp; Impact",
+      "title_es": "Clima e Impacto",
+      "cards": [
+        {
+          "icon": "🌱",
+          "title_en": "Climate focus",
+          "title_es": "Enfoque climático",
+          "text_en": "El proyecto aborda la acumulación de residuos plásticos mal gestionados, que contaminan suelos, fuentes hídricas y generan emisiones al degradarse o ser incinerados, afectando…",
+          "text_es": "El proyecto aborda la acumulación de residuos plásticos mal gestionados, que contaminan suelos, fuentes hídricas y generan emisiones al degradarse o ser incinerados, afectando…"
+        },
+        {
+          "icon": "💡",
+          "title_en": "Solution",
+          "title_es": "Solución",
+          "text_en": "Dantium transforma residuos plásticos en madera plástica para fabricar bloques y cercas, en la práctica, se recolecta, procesa y se reutiliza estos materiales en productos…",
+          "text_es": "Dantium transforma residuos plásticos en madera plástica para fabricar bloques y cercas, en la práctica, se recolecta, procesa y se reutiliza estos materiales en productos…"
+        },
+        {
+          "icon": "🤝",
+          "title_en": "CLP 2026",
+          "title_es": "CLP 2026",
+          "text_en": "ClimateLaunchpad Colombia 2026 bootcamp cohort — CleantechHUB accelerator knowledge transfer.",
+          "text_es": "Cohorte bootcamp ClimateLaunchpad Colombia 2026 — transferencia de conocimiento acelerador CleantechHUB."
+        },
+        {
+          "icon": "📋",
+          "title_en": "External support",
+          "title_es": "Apoyo externo",
+          "text_en": "He recibido apoyo en la estructuración de la idea y acompañamiento técnico inicial. También retroalimentación de actores del territorio, lo que me ha permitido ajustar el enfoque…",
+          "text_es": "He recibido apoyo en la estructuración de la idea y acompañamiento técnico inicial. También retroalimentación de actores del territorio, lo que me ha permitido ajustar el enfoque…"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&q=80"
+    },
+    {
+      "num": 5,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Daniel Enriquez",
+          "role_en": "Founder &middot; CLP26 Colombia",
+          "role_es": "Fundador(a) &middot; CLP26 Colombia",
+          "bio_en": "El equipo combina perfiles sociales, técnicos y legales: aporto enfoque territorial como antropólogo; contamos con un abogado experto en tierras, agrónomos y topógrafos para el componente técnico, y un economista para…",
+          "bio_es": "El equipo combina perfiles sociales, técnicos y legales: aporto enfoque territorial como antropólogo; contamos con un abogado experto en tierras, agrónomos y topógrafos para el componente técnico, y un economista para…",
+          "initials": "DE"
+        }
+      ],
+      "dream_en": "CT taxonomy: CT-BU-001. CLP 2026 Colombia bootcamp cohort — CleantechHUB accelerator. Pitch deck: [PENDIENTE]. Revenue / ARR: [PENDIENTE].",
+      "dream_es": "Taxonomía CT: CT-BU-001. Cohorte bootcamp CLP 2026 Colombia — acelerador CleantechHUB. Pitch deck: [PENDIENTE]. Ingresos / ARR: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80"
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "slug": "eco-industria",
+  "name": "Eco Industria",
+  "website": "https://ecoindustriasas.com",
+  "badge_en": "Circular Economy &middot; CLAC25",
+  "badge_es": "Economía Circular &middot; CLAC25",
+  "hero_image": "https://ecoindustriasas.com/wp-content/uploads/2026/07/Ecoindustria-Futuro-01-1-scaled.jpg",
+  "cta_bg": "https://ecoindustriasas.com/wp-content/uploads/2020/12/165_DESKTOP-5SC3UB1_ago.-19-112021-2021_CaseConflict.jpg",
+  "image_credits": [
+    {
+      "slot": "hero",
+      "source_url": "https://ecoindustriasas.com/",
+      "credit_en": "Eco Industria SAS / ecoindustriasas.com",
+      "credit_es": "Eco Industria SAS / ecoindustriasas.com"
+    },
+    {
+      "slot": "problem",
+      "source_url": "https://ecoindustriasas.com/",
+      "credit_en": "Eco Industria SAS / ecoindustriasas.com",
+      "credit_es": "Eco Industria SAS / ecoindustriasas.com"
+    },
+    {
+      "slot": "solution",
+      "source_url": "https://ecoindustriasas.com/",
+      "credit_en": "Eco Industria SAS / ecoindustriasas.com",
+      "credit_es": "Eco Industria SAS / ecoindustriasas.com"
+    },
+    {
+      "slot": "impact",
+      "source_url": "https://ecoindustriasas.com/",
+      "credit_en": "Eco Industria SAS / ecoindustriasas.com",
+      "credit_es": "Eco Industria SAS / ecoindustriasas.com"
+    },
+    {
+      "slot": "leadership",
+      "source_url": "https://ecoindustriasas.com/",
+      "credit_en": "Eco Industria SAS / ecoindustriasas.com",
+      "credit_es": "Eco Industria SAS / ecoindustriasas.com"
+    },
+    {
+      "slot": "cta",
+      "source_url": "https://ecoindustriasas.com/",
+      "credit_en": "Eco Industria SAS / ecoindustriasas.com",
+      "credit_es": "Eco Industria SAS / ecoindustriasas.com"
+    }
+  ],
+  "hero_sub_en": "ecoindustriasas.com &middot; Mosquera, Colombia &middot; Circular Economy &middot; Stage: Seed &middot; CT-WA-003",
+  "hero_sub_es": "ecoindustriasas.com &middot; Mosquera, Colombia &middot; Economía Circular &middot; Etapa: Seed &middot; CT-WA-003",
+  "pitch_en": "Licensed waste manager specializing in collection, dismantling, and circular recovery of electrical, electronic, and hazardous waste for Colombian businesses.",
+  "pitch_es": "Gestor de residuos licenciado especializado en recolección, desensamble y recuperación circular de residuos eléctricos, electrónicos y peligrosos para empresas colombianas.",
+  "cta_pitch_en": "Licensed waste manager specializing in collection, dismantling, and circular recovery of electrical, electronic, and hazardous waste for Colombian businesses.",
+  "cta_pitch_es": "Gestor de residuos licenciado especializado en recolección, desensamble y recuperación circular de residuos eléctricos, electrónicos y peligrosos para empresas colombianas.",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "ribbon": [
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    },
+    {
+      "val": "Seed",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLAC25",
+      "sub_es": "CLAC25"
+    },
+    {
+      "val": "Circular",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Métricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLAC25",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Hub",
+        "lab_es": "Hub"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Colombian businesses generate growing volumes of electrical, electronic, and hazardous waste that require licensed circular recovery.",
+      "head_es": "Las empresas colombianas generan volúmenes crecientes de residuos eléctricos, electrónicos y peligrosos que requieren recuperación circular licenciada.",
+      "body_en": "Colombian businesses generate growing volumes of electrical, electronic, and hazardous waste that require licensed circular recovery.",
+      "body_es": "Las empresas colombianas generan volúmenes crecientes de residuos eléctricos, electrónicos y peligrosos que requieren recuperación circular licenciada.",
+      "bg": "https://ecoindustriasas.com/wp-content/uploads/2026/04/WhatsApp-Image-2026-03-24-at-12.59.46-PM-.jpeg"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "🎯",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Licensed waste manager specializing in collection, dismantling, and circular recovery of electrical, electronic, and hazardous waste for Colombian businesses.",
+          "text_es": "Gestor de residuos licenciado especializado en recolección, desensamble y recuperación circular de residuos eléctricos, electrónicos y peligrosos para empresas colombianas."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "Eco Industria — CLAC25 (CleantechHUB). Cohort: Acceleration.",
+          "text_es": "Eco Industria — CLAC25 (CleantechHUB). Cohorte: Acceleration."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Based in Mosquera, Colombia. Public site: ecoindustriasas.com.",
+          "text_es": "Con base en Mosquera, Colombia. Sitio público: ecoindustriasas.com."
+        }
+      ],
+      "bg": "https://ecoindustriasas.com/wp-content/uploads/2026/07/Ecoindustria-Soluciones-Circulares01.jpg"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact & Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Wiki source",
+          "title_es": "Fuente Wiki",
+          "text_en": "Profile synced from BookStack Startup Portfolio + Odoo (SoT).",
+          "text_es": "Perfil sincronizado desde BookStack Startup Portfolio + Odoo (SoT)."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomía",
+          "text_en": "E-Waste & Hazardous Waste",
+          "text_es": "E-Waste & Hazardous Waste"
+        }
+      ],
+      "bg": "https://ecoindustriasas.com/wp-content/uploads/2026/03/WhatsApp-Image-2026-03-03-at-9.54.01-AM4.jpeg"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Leonardo Rodriguez",
+          "role_en": "CEO &amp; Co-founder &middot; CLAC25",
+          "role_es": "CEO y Cofundador &middot; CLAC25",
+          "bio_en": "Public profile and company materials list CEO and co-founder of Eco Industria SAS. Source: LinkedIn.",
+          "bio_es": "Perfil público y materiales de la empresa listan CEO y cofundador de Eco Industria SAS. Fuente: LinkedIn.",
+          "linkedin": "https://linkedin.com/in/leoempreco",
+          "initials": "LR"
+        }
+      ],
+      "dream_en": "Program: CLAC25 · Acceleration. City: Mosquera. Verified KPIs: [PENDIENTE]. Pitch deck on profile: [PENDIENTE].",
+      "dream_es": "Programa: CLAC25 · Acceleration. Ciudad: Mosquera. KPIs verificados: [PENDIENTE]. Pitch deck en perfil: [PENDIENTE].",
+      "bg": "https://ecoindustriasas.com/wp-content/uploads/2022/05/19_DESKTOP-5SC3UB1_ago.-19-112058-2021_CaseConflict.jpg"
+    }
+  ]
+}

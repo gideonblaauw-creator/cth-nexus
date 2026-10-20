@@ -1,0 +1,106 @@
+{
+  "template": "portfolio",
+  "slug": "ainwater",
+  "name": "AInwater",
+  "website": "https://ainwater.com/",
+  "badge_en": "Water AI &middot; Acceleration",
+  "badge_es": "IA para Agua &middot; Aceleración",
+  "hero_image": "https://ainwater.com/wp-content/uploads/2026/06/BannerWeb-Calculadora1-fondo.jpg",
+  "hero_sub_en": "ainwater.com &middot; Santiago &middot; Chile &middot; Water &middot; Stage: [PENDIENTE] &middot; CT: [PENDIENTE]",
+  "hero_sub_es": "ainwater.com &middot; Santiago &middot; Chile &middot; Agua &middot; Etapa: [PENDIENTE] &middot; CT: [PENDIENTE]",
+  "pitch_en": "AI copilot (Poseidon) for industrial water and fluid processes — real-time monitoring, prediction, and control for treatment plants and process industries.",
+  "pitch_es": "Copiloto de IA (Poseidon) para procesos industriales de agua y fluidos — monitoreo, predicción y control en tiempo real para plantas de tratamiento e industria.",
+  "cta_pitch_en": "Poseidon turns treatment plants into predictive systems — integrating with SCADA or manual data for safer remote operations.",
+  "cta_pitch_es": "Poseidon convierte plantas de tratamiento en sistemas predictivos — integración con SCADA o datos manuales para operación remota segura.",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "ribbon": [
+    {"val": "CL", "lab_en": "Country", "lab_es": "País", "sub_en": "Chile", "sub_es": "Chile"},
+    {"val": "[P]", "lab_en": "Stage", "lab_es": "Etapa", "sub_en": "[PENDIENTE]", "sub_es": "[PENDIENTE]"},
+    {"val": "Water", "lab_en": "Sector", "lab_es": "Sector", "sub_en": "Cleantech", "sub_es": "Cleantech"},
+    {"val": "[P]", "lab_en": "Metrics", "lab_es": "Métricas", "sub_en": "[PENDIENTE]", "sub_es": "[PENDIENTE]"}
+  ],
+  "portfolio": {
+    "stat_program": "Accel.",
+    "stat_program_lab_en": "Program",
+    "stat_program_lab_es": "Programa",
+    "country_code": "CL",
+    "country_name_en": "Chile",
+    "country_name_es": "Chile",
+    "bg_problem": "https://ainwater.com/wp-content/uploads/2025/08/img03.png",
+    "bg_solution": "https://ainwater.com/wp-content/uploads/2026/03/SCADA-INGLES_V02-1.png",
+    "bg_impact": "https://ainwater.com/wp-content/uploads/2025/10/Frame-329.jpg",
+    "bg_team": "https://ainwater.com/wp-content/uploads/2025/10/Frame-325.png",
+    "bg_cta": "https://ainwater.com/wp-content/uploads/2025/08/integracion-de-sistema-1.png",
+    "image_credits": {
+      "en": "All sections: ainwater.com (Poseidon product visuals, 2025–2026 site assets).",
+      "es": "Todas las secciones: ainwater.com (visuales producto Poseidon, activos web 2025–2026)."
+    },
+    "problem_head_en": "Water and process plants need better real-time control to cut costs and stay compliant.",
+    "problem_head_es": "Plantas de agua y procesos necesitan mejor control en tiempo real para reducir costos y cumplir normas.",
+    "problem_body_en": "Operators often lack predictive tools to optimize chemical dosing, energy use, and compliance across industrial water systems.",
+    "problem_body_es": "Operadores a menudo carecen de herramientas predictivas para optimizar dosificación química, energía y cumplimiento en sistemas de agua industrial.",
+    "solution_steps": [
+      {
+        "icon": "🤖",
+        "label_en": "Focus",
+        "label_es": "Enfoque",
+        "text_en": "Poseidon AI platform monitors, predicts, and acts on plant data — from manual inputs to SCADA integration.",
+        "text_es": "Plataforma Poseidon con IA monitorea, predice y actúa sobre datos de planta — desde entradas manuales hasta integración SCADA."
+      },
+      {
+        "icon": "🔗",
+        "label_en": "Program",
+        "label_es": "Programa",
+        "text_en": "AInwater — CleantechHUB Portafolio Acceleration (Chile).",
+        "text_es": "AInwater — Aceleración Portafolio CleantechHUB (Chile)."
+      },
+      {
+        "icon": "🌎",
+        "label_en": "Market",
+        "label_es": "Mercado",
+        "text_en": "Headquartered in Santiago, Chile. Public site: ainwater.com.",
+        "text_es": "Sede en Santiago, Chile. Sitio: ainwater.com."
+      }
+    ],
+    "source_en": "Portafolio CTH acceleration sheet + ainwater.com.",
+    "source_es": "Hoja aceleración Portafolio CTH + ainwater.com.",
+    "taxonomy_en": "[PENDIENTE]",
+    "taxonomy_es": "[PENDIENTE]",
+    "location_en": "City: Santiago · Country: Chile",
+    "location_es": "Ciudad: Santiago · País: Chile",
+    "program_detail_en": "CleantechHUB Acceleration program (Portafolio CTH). CLAC cohort: [PENDIENTE].",
+    "program_detail_es": "Programa Aceleración CleantechHUB (Portafolio CTH). Cohorte CLAC: [PENDIENTE].",
+    "team": [
+      {
+        "name": "Camilo Huneeus Guzmán",
+        "role_en": "CEO &amp; Co-founder",
+        "role_es": "CEO y Cofundador",
+        "bio_en": "CEO &amp; co-founder. Source: ainwater.com team page, LinkedIn.",
+        "bio_es": "CEO y cofundador. Fuente: ainwater.com, LinkedIn.",
+        "initials": "CH",
+        "linkedin": "https://www.linkedin.com/in/camilohuneeus"
+      },
+      {
+        "name": "Marcos Pérez",
+        "role_en": "CTO &amp; Co-founder",
+        "role_es": "CTO y Cofundador",
+        "bio_en": "CTO &amp; co-founder. Source: ainwater.com, LinkedIn.",
+        "bio_es": "CTO y cofundador. Fuente: ainwater.com, LinkedIn.",
+        "initials": "MP",
+        "linkedin": "https://www.linkedin.com/in/mcperez2"
+      },
+      {
+        "name": "Martín Concha Rubio",
+        "role_en": "CINO/CFO &amp; Co-founder",
+        "role_es": "CINO/CFO y Cofundador",
+        "bio_en": "Co-founder. Source: ainwater.com team page, LinkedIn.",
+        "bio_es": "Cofundador. Fuente: ainwater.com, LinkedIn.",
+        "initials": "MC",
+        "linkedin": "https://www.linkedin.com/in/martin-ignacio-concha-rubio"
+      }
+    ],
+    "footer_note_en": "Program: Acceleration. CT taxonomy: [PENDIENTE]. Stage: [PENDIENTE]. Pitch deck: [PENDIENTE]. Verified KPIs: [PENDIENTE] (website marketing claims not used in ribbon).",
+    "footer_note_es": "Programa: Aceleración. Taxonomía CT: [PENDIENTE]. Etapa: [PENDIENTE]. Pitch deck: [PENDIENTE]. KPIs verificados: [PENDIENTE]."
+  }
+}

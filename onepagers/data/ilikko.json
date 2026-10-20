@@ -1,0 +1,163 @@
+{
+  "slug": "ilikko",
+  "name": "ILIKKO",
+  "website": "https://vamosmitimiti.com",
+  "badge_en": "Shared Mobility &middot; CLAC22 &middot; Acceleration",
+  "badge_es": "Movilidad compartida &middot; CLAC22 &middot; Acceleration",
+  "hero_image": "https://vamosmitimiti.com/build/_assets/passengers_banner_sm-PDMKIPBK.png",
+  "cta_bg": "https://images.unsplash.com/photo-1519005052693-d3801771480f?w=1200&q=80",
+  "hero_sub_en": "vamosmitimiti.com &middot; Colombia &middot; Bogotá &middot; Circular Economy &middot; Stage: Pre-Seed",
+  "hero_sub_es": "vamosmitimiti.com &middot; Colombia &middot; Bogotá &middot; Economía Circular &middot; Etapa: Pre-Seed",
+  "pitch_en": "Intercity carpooling platform connecting drivers and passengers — optimizing vehicle use, lowering travel costs, and reducing per-trip emissions.",
+  "pitch_es": "Plataforma de carpooling interurbano que conecta conductores y pasajeros — optimiza el uso del vehículo, reduce costos de viaje y emisiones por trayecto.",
+  "cta_pitch_en": "Publish routes, book seats, and share intercity trips through a trusted community marketplace (iLiKKO rebranded as Vamos Miti Miti).",
+  "cta_pitch_es": "Publica rutas, reserva cupos y comparte viajes interurbanos en una comunidad de confianza (iLiKKO ahora Vamos Miti Miti).",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "ribbon": [
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    },
+    {
+      "val": "Pre-Seed",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLAC22",
+      "sub_es": "CLAC22"
+    },
+    {
+      "val": "Circular",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Métricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLAC22",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Hub",
+        "lab_es": "Hub"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Empty seats and solo intercity driving waste fuel and raise transport emissions.",
+      "head_es": "Asientos vacíos y viajes interurbanos en solitario desperdician combustible y aumentan emisiones.",
+      "body_en": "Affordable, trusted ride-sharing can fill unused capacity on existing road trips without adding new vehicles.",
+      "body_es": "Compartir viajes confiable y accesible puede llenar capacidad ociosa en trayectos existentes sin añadir vehículos.",
+      "bg": "https://images.unsplash.com/photo-1502877338535-766e69328ed0?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "🌱",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Digital marketplace for intercity carpooling with verified drivers and seat booking.",
+          "text_es": "Marketplace digital de carpooling interurbano con conductores verificados y reserva de cupos."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "ILIKKO (Vamos Miti Miti) — CLAC22 and CleantechHUB Acceleration portfolio.",
+          "text_es": "ILIKKO (Vamos Miti Miti) — CLAC22 y portafolio Acceleration de CleantechHUB."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Based in Bogotá, Colombia. Public site: vamosmitimiti.com.",
+          "text_es": "Con base en Bogotá, Colombia. Sitio público: vamosmitimiti.com."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1449965404905-7e1297257507?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact &amp; Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Wiki source",
+          "title_es": "Fuente Wiki",
+          "text_en": "Profile synced from BookStack Startup Portfolio + Odoo (SoT).",
+          "text_es": "Perfil sincronizado desde BookStack Startup Portfolio + Odoo (SoT)."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomía",
+          "text_en": "CT taxonomy on portfolio card: [PENDIENTE] — shared mobility / transport efficiency",
+          "text_es": "Taxonomía CT en tarjeta portafolio: [PENDIENTE] — movilidad compartida / eficiencia en transporte"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1480714378408-67e0d0634943?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Valérie Noel",
+          "role_en": "Founder &amp; General Manager &middot; CLAC22",
+          "role_es": "Fundadora y Gerente General &middot; CLAC22",
+          "bio_en": "Founder of Vamos Miti Miti (formerly iLiKKO); impact entrepreneur building intercity shared mobility in Colombia.",
+          "bio_es": "Fundadora de Vamos Miti Miti (antes iLiKKO); emprendedora de impacto en movilidad compartida interurbana en Colombia.",
+          "initials": "VN",
+          "linkedin": "https://www.linkedin.com/in/val%C3%A9rie-noel-897bb589"
+        }
+      ],
+      "dream_en": "Program: CLAC22 + Acceleration. Rebrand to Vamos Miti Miti (Mar 2025, public LinkedIn). Verified trip/volume KPIs: [PENDIENTE]. Image credits — Hero: vamosmitimiti.com (ILIKKO / Vamos Miti Miti); Sec 01: Unsplash (Victor Rodriguez); Sec 02: Unsplash (Denys Nevozhai); Sec 03: Unsplash (Jose Rago); Sec 04: Unsplash (Headway); CTA: Unsplash (Jose Antonio Gallego Vázquez).",
+      "dream_es": "Programa: CLAC22 + Acceleration. Rebrand a Vamos Miti Miti (mar 2025, LinkedIn público). KPIs de viajes/volumen: [PENDIENTE]. Créditos de imagen — Hero: vamosmitimiti.com (ILIKKO / Vamos Miti Miti); Sec 01: Unsplash (Victor Rodriguez); Sec 02: Unsplash (Denys Nevozhai); Sec 03: Unsplash (Jose Rago); Sec 04: Unsplash (Headway); CTA: Unsplash (Jose Antonio Gallego Vázquez).",
+      "bg": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=1200&q=80"
+    }
+  ]
+}

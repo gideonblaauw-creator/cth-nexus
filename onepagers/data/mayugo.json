@@ -1,0 +1,194 @@
+{
+  "slug": "mayugo",
+  "name": "MayuGo",
+  "website": "https://www.mayugo.net/",
+  "badge_en": "Corporate Learning &amp; HR Tech &middot; Acceleration",
+  "badge_es": "Capacitaci&oacute;n Corporativa y HR Tech &middot; Acceleration",
+  "hero_image": "https://images.unsplash.com/photo-1516321317523-f80f84f32e42?w=1200&q=80",
+  "hero_sub_en": "mayugo.net &middot; Per&uacute; &middot; [PENDIENTE] city &middot; Stage: [PENDIENTE] &middot; CT: [PENDIENTE]",
+  "hero_sub_es": "mayugo.net &middot; Per&uacute; &middot; Ciudad: [PENDIENTE] &middot; Etapa: [PENDIENTE] &middot; CT: [PENDIENTE]",
+  "pitch_en": "SaaS platform to manage, train, and develop workforce talent with AI-enabled corporate learning for industrial and service teams across Latin America.",
+  "pitch_es": "Plataforma SaaS para gestionar, capacitar y desarrollar el talento de equipos con aprendizaje corporativo e IA para equipos industriales y de servicios en Latinoam&eacute;rica.",
+  "cta_pitch_en": "CleantechHUB Acceleration portfolio &mdash; verified public sources only.",
+  "cta_pitch_es": "Portafolio Acceleration CleantechHUB &mdash; solo fuentes p&uacute;blicas verificadas.",
+  "ribbon": [
+    {
+      "val": "PE",
+      "lab_en": "Country",
+      "lab_es": "Pa&iacute;s",
+      "sub_en": "Per&uacute;",
+      "sub_es": "Per&uacute;"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "Acceleration",
+      "sub_es": "Acceleration"
+    },
+    {
+      "val": "HR Tech",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "CleantechHUB",
+      "sub_es": "CleantechHUB"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "M&eacute;tricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "Accel.",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Hub",
+        "lab_es": "Hub"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "PE",
+        "lab_en": "Per&uacute;",
+        "lab_es": "Per&uacute;"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Industrial teams lack scalable, practical upskilling tied to real production and quality workflows.",
+      "head_es": "Los equipos industriales carecen de capacitaci&oacute;n escalable y pr&aacute;ctica ligada a procesos reales de producci&oacute;n y calidad.",
+      "body_en": "Organizations struggle to translate training into measurable productivity gains, especially for technical and operational roles across Latin America.",
+      "body_es": "Las organizaciones luchan por traducir la capacitaci&oacute;n en ganancias de productividad medibles, especialmente en roles t&eacute;cnicos y operativos en Latinoam&eacute;rica.",
+      "bg": "https://images.unsplash.com/photo-1460925895917?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Soluci&oacute;n",
+      "steps": [
+        {
+          "icon": "🌱",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "B2B SaaS for corporate learning paths, courses, and team development with applied engineering and management content.",
+          "text_es": "B2B SaaS for corporate learning paths, courses, and team development with applied engineering and management content."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "MayuGo &mdash; CleantechHUB Portafolio Acceleration (Per&uacute;).",
+          "text_es": "MayuGo &mdash; CleantechHUB Portafolio Acceleration (Per&uacute;)."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Public site: mayugo.net. Operations referenced in Per&uacute;, M&eacute;xico, Colombia, and other LATAM markets.",
+          "text_es": "Public site: mayugo.net. Operations referenced in Per&uacute;, M&eacute;xico, Colombia, and other LATAM markets."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact &amp; Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Platform",
+          "title_es": "Plataforma",
+          "text_en": "AI-enabled LMS/LXP-style corporate training and talent development (public company descriptions).",
+          "text_es": "AI-enabled LMS/LXP-style corporate training and talent development (public company descriptions)."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Certifications",
+          "title_es": "Certificaciones",
+          "text_en": "Public site references ISO 9001 and ISO 21001 certifications for educational quality management.",
+          "text_es": "Public site references ISO 9001 and ISO 21001 certifications for educational quality management."
+        },
+        {
+          "icon": "🤝",
+          "title_en": "Acceleration",
+          "title_es": "Acceleration",
+          "text_en": "Listed in CleantechHUB Portafolio Acceleration batch (Gideon sheet).",
+          "text_es": "Listed in CleantechHUB Portafolio Acceleration batch (Gideon sheet)."
+        },
+        {
+          "icon": "📈",
+          "title_en": "KPIs",
+          "title_es": "KPIs",
+          "text_en": "Verified revenue/ARR KPIs: [PENDIENTE] (not on public CTH profile).",
+          "text_es": "Verified revenue/ARR KPIs: [PENDIENTE] (not on public CTH profile)."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Franklin Espinoza",
+          "initials": "FE",
+          "role_en": "Co-founder &amp; CEO &middot; Acceleration",
+          "role_es": "Cofundador y CEO &middot; Acceleration",
+          "bio_en": "Co-founder leading MayuGo B2B growth and corporate learning platform strategy.",
+          "bio_es": "Cofundador que lidera el crecimiento B2B y la estrategia de la plataforma de aprendizaje corporativo de MayuGo.",
+          "linkedin": "https://www.linkedin.com/in/ingfeh"
+        },
+        {
+          "name": "Marco Vilchis",
+          "initials": "MV",
+          "role_en": "Co-founder &amp; COO &middot; Acceleration",
+          "role_es": "Cofundador y COO &middot; Acceleration",
+          "bio_en": "Co-founder leading operations and product delivery for MayuGo.",
+          "bio_es": "Cofundador que lidera operaciones y entrega de producto en MayuGo.",
+          "linkedin": "https://www.linkedin.com/in/marco-vilchis"
+        }
+      ],
+      "dream_en": "CT taxonomy: [PENDIENTE]. City/HQ detail: [PENDIENTE]. Verified KPIs: [PENDIENTE]. Image credits: hero: Unsplash — Christopher Gower (online learning / laptop); section_01_problem: Unsplash — Campaign Creators (workplace collaboration); section_02_solution: Unsplash — Alexis Brown (team learning); section_03_impact: Unsplash — Element5 Digital (education materials); section_04_leadership: Unsplash — Christina @ wocintechchat.com (team); cta: Unsplash — Thought Catalog (remote learning desk) Image credits: hero: Unsplash — Christopher Gower (online learning / laptop); section_01_problem: Unsplash — Campaign Creators (workplace collaboration); section_02_solution: Unsplash — Alexis Brown (team learning); section_03_impact: Unsplash — Element5 Digital (education materials); section_04_leadership: Unsplash — Christina @ wocintechchat.com (team); cta: Unsplash — Thought Catalog (remote learning desk)",
+      "dream_es": "Taxonom&iacute;a CT: [PENDIENTE]. Ciudad/sede: [PENDIENTE]. KPIs verificados: [PENDIENTE]. Créditos de imagen: hero: Unsplash — Christopher Gower (online learning / laptop); section_01_problem: Unsplash — Campaign Creators (workplace collaboration); section_02_solution: Unsplash — Alexis Brown (team learning); section_03_impact: Unsplash — Element5 Digital (education materials); section_04_leadership: Unsplash — Christina @ wocintechchat.com (team); cta: Unsplash — Thought Catalog (remote learning desk) Créditos de imagen: hero: Unsplash — Christopher Gower (online learning / laptop); section_01_problem: Unsplash — Campaign Creators (workplace collaboration); section_02_solution: Unsplash — Alexis Brown (team learning); section_03_impact: Unsplash — Element5 Digital (education materials); section_04_leadership: Unsplash — Christina @ wocintechchat.com (team); cta: Unsplash — Thought Catalog (remote learning desk)",
+      "bg": "https://images.unsplash.com/photo-1573167243312-0368182c8f49?w=1200&q=80"
+    }
+  ],
+  "cta_image": "https://images.unsplash.com/photo-1488190211105-38b0de8150a3?w=1200&q=80",
+  "image_sources": {
+    "hero": "Unsplash — Christopher Gower (online learning / laptop)",
+    "section_01_problem": "Unsplash — Campaign Creators (workplace collaboration)",
+    "section_02_solution": "Unsplash — Alexis Brown (team learning)",
+    "section_03_impact": "Unsplash — Element5 Digital (education materials)",
+    "section_04_leadership": "Unsplash — Christina @ wocintechchat.com (team)",
+    "cta": "Unsplash — Thought Catalog (remote learning desk)"
+  },
+  "image_credits_en": " Section photo: Unsplash — Unsplash contributor.",
+  "image_credits_es": " Foto de sección: Unsplash — Unsplash contributor."
+}

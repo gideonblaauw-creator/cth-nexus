@@ -1,0 +1,87 @@
+{
+  "batch": 0,
+  "pages": {
+    "b-kapz": {
+      "hero": "Unsplash (photo-1625246333195) — cropland / agrifood",
+      "problem": "Unsplash (photo-1416879595882) — greenhouse agriculture",
+      "solution": "Unsplash (photo-1500382017468) — farmland horizon",
+      "impact": "Unsplash (photo-1447933601403) — coffee/agriculture landscape",
+      "team": "Unsplash (photo-1576086213369) — laboratory microscope",
+      "cta": "Unsplash (photo-1511497584788) — roasted coffee / agrifood"
+    },
+    "elastic-energy": {
+      "hero": "elasticenergy.co — tree-sap storage product render",
+      "problem": "elasticenergy.co — elastic storage hardware visual",
+      "solution": "Unsplash (photo-1451187580459) — energy / earth from space",
+      "impact": "Unsplash (photo-1441974231531) — forest canopy",
+      "team": "Unsplash (photo-1518977676601) — solar panels",
+      "cta": "Unsplash (photo-1497366216548) — sustainable workspace"
+    },
+    "mubon": {
+      "hero": "Unsplash (photo-1542601906990) — clean air / urban mobility context",
+      "problem": "Unsplash (photo-1470071459604) — mountain road infrastructure",
+      "solution": "Unsplash (photo-1551288049) — analytics dashboard (smart platform)",
+      "impact": "Unsplash (photo-1518770660439) — technology / circuits",
+      "team": "Unsplash (photo-1521791136064) — partnership / deployment",
+      "cta": "Unsplash (photo-1529156069898) — team collaboration"
+    },
+    "novatio": {
+      "hero": "novatio.com.co — Energía que transforma (project photo)",
+      "problem": "novatio.com.co — oil-palm effluent / biogas context",
+      "solution": "novatio.com.co — swine farming biodigester application",
+      "impact": "novatio.com.co — community impact programs",
+      "team": "novatio.com.co — cross-sector project mirror",
+      "cta": "Unsplash (photo-1460925895917) — business / project analytics"
+    },
+    "plasticos-ambientales": {
+      "hero": "plasticosambientales.com — post-consumer recycled plastic product",
+      "problem": "Unsplash (photo-1532996122724) — plastic materials handling",
+      "solution": "Unsplash (photo-1581092160607) — industrial processing",
+      "impact": "Unsplash (photo-1504307651254) — construction / materials site",
+      "team": "Unsplash (photo-1522071820081) — team planning",
+      "cta": "Unsplash (photo-1501339847302) — workspace / operations"
+    }
+  },
+  "urls": {
+    "b-kapz": {
+      "hero": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1200&q=80",
+      "problem": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1200&q=80",
+      "solution": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&q=80",
+      "impact": "https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=1200&q=80",
+      "team": "https://images.unsplash.com/photo-1576086213369-97a306d36557?w=1200&q=80",
+      "cta": "https://images.unsplash.com/photo-1511497584788-876760111969?w=1200&q=80"
+    },
+    "elastic-energy": {
+      "hero": "https://framerusercontent.com/images/igNXB7ftfNaHqTcfuSwEw6H2bO4.png?width=2186&height=1324",
+      "problem": "https://framerusercontent.com/images/0Djozuq5MuH9xNWt7gw7lrO8.png?width=1732&height=1936",
+      "solution": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80",
+      "impact": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1200&q=80",
+      "team": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=1200&q=80",
+      "cta": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=80"
+    },
+    "mubon": {
+      "hero": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=1200&q=80",
+      "problem": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1200&q=80",
+      "solution": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
+      "impact": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&q=80",
+      "team": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80",
+      "cta": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80"
+    },
+    "novatio": {
+      "hero": "https://novatio.com.co/wp-content/uploads/2022/08/Energia-que-transforma-1024x768.jpg",
+      "problem": "https://novatio.com.co/wp-content/uploads/2022/08/Palma-aceitera.jpg",
+      "solution": "https://novatio.com.co/wp-content/uploads/2022/08/Porcicultura.jpg",
+      "impact": "https://novatio.com.co/wp-content/uploads/2022/08/Programas-de-impacto.jpg",
+      "team": "https://novatio.com.co/wp-content/uploads/2022/08/espejo-otros-sectores.jpg",
+      "cta": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80"
+    },
+    "plasticos-ambientales": {
+      "hero": "https://plasticosambientales.com/wp-content/uploads/2023/08/Plastico_Reciclado_Postconsumo_2.png",
+      "problem": "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=1200&q=80",
+      "solution": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=1200&q=80",
+      "impact": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200&q=80",
+      "team": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&q=80",
+      "cta": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1200&q=80"
+    }
+  }
+}

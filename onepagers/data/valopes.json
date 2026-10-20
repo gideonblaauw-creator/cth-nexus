@@ -1,0 +1,165 @@
+{
+  "slug": "valopes",
+  "name": "Valopes",
+  "website": "https://www.valopes.com",
+  "badge_en": "Circular &middot; CLAC22 &middot; Acceleration",
+  "badge_es": "Circular &middot; CLAC22 &middot; Acceleration",
+  "hero_image": "https://images.unsplash.com/photo-1556761175?w=1200&q=80",
+  "cta_bg": "https://images.unsplash.com/photo-1610813673314-1a6a2a2649ea?w=1200&q=80",
+  "hero_sub_en": "valopes.com &middot; Colombia &middot; Bogota &middot; Circular Economy &middot; Stage: Seed",
+  "hero_sub_es": "valopes.com &middot; Colombia &middot; Bogota &middot; Economia Circular &middot; Etapa: Seed",
+  "pitch_en": "Cloud-based waste traceability platform helping companies in Colombia, Chile, and Mexico digitize waste streams and automate regulatory compliance reporting.",
+  "pitch_es": "Plataforma de trazabilidad de residuos en la nube que ayuda a empresas en Colombia, Chile y Mexico a digitalizar flujos de residuos y automatizar reportes de cumplimiento regulatorio.",
+  "cta_pitch_en": "Turn dispersed environmental data into operational and compliance intelligence for industry.",
+  "cta_pitch_es": "Convierte datos ambientales dispersos en inteligencia operativa y de cumplimiento para la industria.",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "ribbon": [
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "Pais",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    },
+    {
+      "val": "Seed",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLAC22",
+      "sub_es": "CLAC22"
+    },
+    {
+      "val": "Circular",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Metricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLAC22",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Hub",
+        "lab_es": "Hub"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Industrial operators struggle to centralize water, energy, waste, and emissions data for compliance and operational decisions.",
+      "head_es": "Operadores industriales luchan por centralizar datos de agua, energia, residuos y emisiones para cumplimiento y decisiones operativas.",
+      "body_en": "Industrial operators struggle to centralize water, energy, waste, and emissions data for compliance and operational decisions.",
+      "body_es": "Operadores industriales luchan por centralizar datos de agua, energia, residuos y emisiones para cumplimiento y decisiones operativas.",
+      "bg": "https://images.unsplash.com/photo-1586528116311?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solucion",
+      "steps": [
+        {
+          "icon": "🌱",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "SaaS climate-governance infrastructure to capture, trace, and report environmental flows across sites.",
+          "text_es": "Infraestructura SaaS de gobernanza climatica para capturar, trazar y reportar flujos ambientales entre sitios."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "Valopes — CLAC22 cohort and CTH Acceleration (Portafolio CTH).",
+          "text_es": "Valopes — cohorte CLAC22 y Acceleration CTH (Portafolio CTH)."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Colombia, Chile, and Mexico; public site: valopes.com. Presence: Bogota.",
+          "text_es": "Colombia, Chile y Mexico; sitio publico: valopes.com. Presencia: Bogota."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1565793298595?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact &amp; Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Portfolio source",
+          "title_es": "Fuente portafolio",
+          "text_en": "Profile synced from CleantechHUB Startup Portfolio card and public web sources (Portafolio CTH / Acceleration).",
+          "text_es": "Perfil sincronizado desde tarjeta Startup Portfolio CleantechHUB y fuentes web publicas (Portafolio CTH / Acceleration)."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomia",
+          "text_en": "CT-IC-003 &middot; Supply Chain Traceability; CT-WA-003 &middot; Recycling &amp; Materials Recovery",
+          "text_es": "CT-IC-003 &middot; Trazabilidad de cadena; CT-WA-003 &middot; Reciclaje y valorizacion"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1604187351-d62eae8d5e72?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Octavio Torres Quintana",
+          "role_en": "Co-founder &amp; CEO &middot; Valopes",
+          "role_es": "Cofundador y CEO &middot; Valopes",
+          "bio_en": "Public-facing CEO role. Source: valopes.com, LinkedIn.",
+          "bio_es": "Rol publico de CEO. Fuente: valopes.com, LinkedIn.",
+          "initials": "OT",
+          "linkedin": "https://www.linkedin.com/in/octaviotorresq"
+        }
+      ],
+      "dream_en": "Program: CLAC22 + CTH Acceleration. City: Bogota. Verified KPIs on profile: [PENDIENTE]. Image credits: All section photos: Unsplash (industrial data, waste, sustainability).",
+      "dream_es": "Programa: CLAC22 + Acceleration CTH. Ciudad: Bogota. KPIs verificados en perfil: [PENDIENTE]. Creditos imagen: Fotos de seccion: Unsplash (datos industriales, residuos, sostenibilidad).",
+      "bg": "https://images.unsplash.com/photo-1556761175-b413da4d2af6?w=1200&q=80"
+    }
+  ],
+  "image_credits_en": " Replacement photo: Unsplash — CHUTTERSNAP. Section photo: Unsplash — Unsplash contributor. Section photo: Unsplash — Unsplash contributor. Replacement photo: Unsplash — Unsplash contributor.",
+  "image_credits_es": " Foto de reemplazo: Unsplash — CHUTTERSNAP. Foto de sección: Unsplash — Unsplash contributor. Foto de sección: Unsplash — Unsplash contributor. Foto de reemplazo: Unsplash — Unsplash contributor."
+}

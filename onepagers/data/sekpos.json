@@ -1,0 +1,248 @@
+{
+  "slug": "sekpos",
+  "name": "SEKPOS",
+  "website": "https://sekpos.com/",
+  "badge_en": "Clean Industry &middot; CLP26 Colombia",
+  "badge_es": "Clean Industry &middot; CLP26 Colombia",
+  "hero_image": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80",
+  "hero_sub_en": "sekpos.com &middot; Colombia &middot; Clean Industry &middot; Stage: Private Beta &middot; CT-IC-004",
+  "hero_sub_es": "sekpos.com &middot; Colombia &middot; Clean Industry &middot; Etapa: Private Beta &middot; CT-IC-004",
+  "pitch_en": "SEKPOS is an AI-powered POS ecosystem that helps restaurants and retailers reduce food waste, paper use, and operational costs through smart inventory, demand forecasting, digital receipts, and dynamic menus.",
+  "pitch_es": "SEKPOS is an AI-powered POS ecosystem that helps restaurants and retailers reduce food waste, paper use, and operational costs through smart inventory, demand forecasting, digital receipts, and dynamic menus.",
+  "cta_pitch_en": "SEKPOS offers an AI-powered POS ecosystem that predicts demand, optimizes inventory, tracks expiration dates and enables dynamic menus, helping restaurants and retailers reduce overstocking, use…",
+  "cta_pitch_es": "SEKPOS offers an AI-powered POS ecosystem that predicts demand, optimizes inventory, tracks expiration dates and enables dynamic menus, helping restaurants and retailers reduce overstocking, use…",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "ribbon": [
+    {
+      "val": "Private Be",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLP26 CO",
+      "sub_es": "CLP26 CO"
+    },
+    {
+      "val": "Clean Indust",
+      "lab_en": "Category",
+      "lab_es": "Categoría",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "CT-IC-004",
+      "lab_en": "CT Taxonomy",
+      "lab_es": "Taxonomía CT",
+      "sub_en": "CTH",
+      "sub_es": "CTH"
+    },
+    {
+      "val": "9",
+      "lab_en": "Team",
+      "lab_es": "Equipo",
+      "sub_en": "Application",
+      "sub_es": "Aplicación"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLP",
+        "lab_en": "2026 Colombia",
+        "lab_es": "2026 Colombia"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Accelerator",
+        "lab_es": "Acelerador"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "Metrics pending",
+        "lab_es": "Métricas pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Restaurants and retailers waste food every day due to poor demand visibility, overstocking,…",
+      "head_es": "Restaurants and retailers waste food every day due to poor demand visibility, overstocking,…",
+      "body_en": "Restaurants and retailers waste food every day due to poor demand visibility, overstocking, expiration and inefficient inventory control, generating avoidable emissions, resource loss and operational waste.",
+      "body_es": "Restaurants and retailers waste food every day due to poor demand visibility, overstocking, expiration and inefficient inventory control, generating avoidable emissions, resource loss and operational waste.",
+      "bg": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "How SEKPOS Works",
+      "title_es": "Cómo Funciona SEKPOS",
+      "steps": [
+        {
+          "icon": "🎯",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "SEKPOS offers an AI-powered POS ecosystem that predicts demand, optimizes inventory, tracks expiration dates and enables dynamic menus, helping restaurants…",
+          "text_es": "SEKPOS offers an AI-powered POS ecosystem that predicts demand, optimizes inventory, tracks expiration dates and enables dynamic menus, helping restaurants…"
+        },
+        {
+          "icon": "⚙️",
+          "label_en": "Model",
+          "label_es": "Modelo",
+          "text_en": "We will generate revenue through SaaS subscriptions, setup fees, premium AI modules, analytics models and dashboards…",
+          "text_es": "We will generate revenue through SaaS subscriptions, setup fees, premium AI modules, analytics models and dashboards…"
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Our target market is restaurants, bars, supermarkets and retail businesses in Latin America and the U.S. that need…",
+          "text_es": "Our target market is restaurants, bars, supermarkets and retail businesses in Latin America and the U.S. that need…"
+        },
+        {
+          "icon": "📈",
+          "label_en": "Traction",
+          "label_es": "Tracción",
+          "text_en": "Demand is proven by the scale of the pain: food service and retail waste 421M tonnes of food every year. SEKPOS…",
+          "text_es": "Demand is proven by the scale of the pain: food service and retail waste 421M tonnes of food every year. SEKPOS…"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "table",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Business Snapshot",
+      "title_es": "Resumen del Negocio",
+      "headers": [
+        [
+          "Dimension",
+          "Dimensión"
+        ],
+        [
+          "Detail (EN)",
+          "Detalle"
+        ],
+        [
+          "Status",
+          "Estado"
+        ]
+      ],
+      "rows": [
+        [
+          [
+            "Category",
+            "Categoría"
+          ],
+          [
+            "Clean Industry",
+            "Clean Industry"
+          ],
+          [
+            "CLP26",
+            "CLP26"
+          ]
+        ],
+        [
+          [
+            "Stage",
+            "Etapa"
+          ],
+          [
+            "Private Beta",
+            "Private Beta"
+          ],
+          [
+            "Application",
+            "Aplicación"
+          ]
+        ],
+        [
+          [
+            "CT Taxonomy",
+            "Taxonomía CT"
+          ],
+          [
+            "CT-IC-004",
+            "CT-IC-004"
+          ],
+          [
+            "CTH",
+            "CTH"
+          ]
+        ]
+      ],
+      "bg": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Climate &amp; Impact",
+      "title_es": "Clima e Impacto",
+      "cards": [
+        {
+          "icon": "🌱",
+          "title_en": "Climate focus",
+          "title_es": "Enfoque climático",
+          "text_en": "Restaurants and retailers waste food every day due to poor demand visibility, overstocking, expiration and inefficient inventory control, generating avoidable emissions, resource…",
+          "text_es": "Restaurants and retailers waste food every day due to poor demand visibility, overstocking, expiration and inefficient inventory control, generating avoidable emissions, resource…"
+        },
+        {
+          "icon": "💡",
+          "title_en": "Solution",
+          "title_es": "Solución",
+          "text_en": "SEKPOS offers an AI-powered POS ecosystem that predicts demand, optimizes inventory, tracks expiration dates and enables dynamic menus, helping restaurants and retailers reduce…",
+          "text_es": "SEKPOS offers an AI-powered POS ecosystem that predicts demand, optimizes inventory, tracks expiration dates and enables dynamic menus, helping restaurants and retailers reduce…"
+        },
+        {
+          "icon": "🤝",
+          "title_en": "CLP 2026",
+          "title_es": "CLP 2026",
+          "text_en": "ClimateLaunchpad Colombia 2026 bootcamp cohort — CleantechHUB accelerator knowledge transfer.",
+          "text_es": "Cohorte bootcamp ClimateLaunchpad Colombia 2026 — transferencia de conocimiento acelerador CleantechHUB."
+        },
+        {
+          "icon": "📋",
+          "title_en": "External support",
+          "title_es": "Apoyo externo",
+          "text_en": "We have received mentorship through the Entrepreneurship Diploma at Universidad Externado de Colombia. We have not received external funding; SEKPOS has been financed only by its…",
+          "text_es": "We have received mentorship through the Entrepreneurship Diploma at Universidad Externado de Colombia. We have not received external funding; SEKPOS has been financed only by its…"
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1470071459604-3b5ec3a8fe05?w=1200&q=80"
+    },
+    {
+      "num": 5,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Ivan Dario Herrera Pereira",
+          "role_en": "Founder &middot; CLP26 Colombia",
+          "role_es": "Fundador(a) &middot; CLP26 Colombia",
+          "bio_en": "Our founding team brings experience in software development, POS operations, product strategy, AI, data analytics and business modeling, combining technical execution with market knowledge in restaurants and retail.",
+          "bio_es": "Our founding team brings experience in software development, POS operations, product strategy, AI, data analytics and business modeling, combining technical execution with market knowledge in restaurants and retail.",
+          "initials": "ID"
+        }
+      ],
+      "dream_en": "CT taxonomy: CT-IC-004. CLP 2026 Colombia bootcamp cohort — CleantechHUB accelerator. Pitch deck: [PENDIENTE]. Revenue / ARR: [PENDIENTE].",
+      "dream_es": "Taxonomía CT: CT-IC-004. Cohorte bootcamp CLP 2026 Colombia — acelerador CleantechHUB. Pitch deck: [PENDIENTE]. Ingresos / ARR: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80"
+    }
+  ]
+}

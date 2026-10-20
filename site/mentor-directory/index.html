@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mentores — CleantechHUB Nexus</title>
+<link rel="stylesheet" href="/nexus-assets/nexus-brand.css?v=3">
+<style>
+:root {
+  --deep-blue:   #0C498A;
+  --sky-blue:    #69B5FA;
+  --cyan:        #B2EEFA;
+  --green:       #9DC384;
+  --forest:      #669348;
+  --white:       #FFFFFF;
+  --gray-lt:     #F5F7FA;
+  --gray-mid:    #E8ECF0;
+  --gray-text:   #6B7280;
+  --text:        #1A2332;
+  --border:      #DDE3EA;
+  --shadow:      0 2px 8px rgba(12,73,138,.10);
+  --shadow-hover:0 6px 24px rgba(12,73,138,.18);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Open Sans',system-ui,-apple-system,sans-serif;background:var(--gray-lt);color:var(--text);min-height:100vh}
+
+/* HEADER */
+.site-header{background:var(--deep-blue);color:#fff;padding:0}
+.header-inner{max-width:1200px;margin:0 auto;padding:20px 24px 0}
+.header-brand{display:flex;align-items:center;gap:12px;margin-bottom:16px}
+.brand-logo{width:36px;height:36px}
+.brand-name{font-size:13px;font-weight:700;letter-spacing:.5px;opacity:.85}
+.header-title{font-size:28px;font-weight:800;letter-spacing:-.5px;line-height:1.1}
+.header-sub{font-size:13px;opacity:.7;margin-top:6px}
+.header-stats{display:flex;gap:20px;margin-top:16px;padding-top:16px;border-top:1px solid rgba(255,255,255,.12)}
+.hstat{text-align:center}
+.hstat-n{font-size:22px;font-weight:800;color:var(--cyan)}
+.hstat-l{font-size:10px;opacity:.65;margin-top:1px;text-transform:uppercase;letter-spacing:.4px}
+
+/* FILTER BAR */
+.filter-bar{background:#fff;border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;box-shadow:0 1px 4px rgba(0,0,0,.06)}
+.filter-inner{max-width:1200px;margin:0 auto;padding:10px 24px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.search-wrap{position:relative;flex:1;min-width:180px;max-width:260px}
+.search-wrap input{width:100%;border:1.5px solid var(--border);border-radius:8px;padding:7px 10px 7px 30px;font-size:12px;outline:none;transition:border-color .2s}
+.search-wrap input:focus{border-color:var(--deep-blue)}
+.search-ico{position:absolute;left:9px;top:50%;transform:translateY(-50%);color:var(--gray-text);font-size:13px}
+.filter-divider{width:1px;height:28px;background:var(--border);flex-shrink:0}
+.filter-btn{border:1.5px solid var(--border);border-radius:20px;padding:5px 13px;font-size:11px;font-weight:600;cursor:pointer;background:#fff;color:var(--gray-text);transition:all .15s;white-space:nowrap}
+.filter-btn:hover{border-color:var(--deep-blue);color:var(--deep-blue)}
+.filter-btn.active{background:var(--deep-blue);color:#fff;border-color:var(--deep-blue)}
+.filter-btn.tag-f{border-color:#DDE3EA}
+.filter-btn.tag-f.active{background:var(--forest);border-color:var(--forest)}
+.result-count{margin-left:auto;font-size:11px;color:var(--gray-text);white-space:nowrap;align-self:center}
+
+/* GRID */
+.grid-wrap{max-width:1200px;margin:0 auto;padding:24px}
+.mentor-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
+
+/* CARD */
+.mentor-card{background:#fff;border:1.5px solid var(--border);border-radius:12px;overflow:hidden;transition:box-shadow .2s,transform .2s;display:flex;flex-direction:column}
+.mentor-card:hover{box-shadow:var(--shadow-hover);transform:translateY(-2px)}
+.mentor-card.hidden{display:none}
+
+.card-top{padding:18px 16px 12px;display:flex;gap:12px;align-items:flex-start}
+.avatar{width:52px;height:52px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:800;color:#fff;letter-spacing:-.5px}
+.avatar img{width:100%;height:100%;border-radius:50%;object-fit:cover}
+.card-info{flex:1;min-width:0}
+.card-name{font-size:14px;font-weight:700;line-height:1.2;color:var(--text)}
+.card-role{font-size:11px;color:var(--gray-text);margin-top:2px;line-height:1.3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+.card-body{padding:0 16px 12px;flex:1}
+.card-tag{display:inline-flex;align-items:center;gap:4px;font-size:10px;font-weight:700;padding:3px 9px;border-radius:20px;margin-bottom:8px}
+.tag-impacto {background:#DCFCE7;color:#166534}
+.tag-negocio  {background:#DBEAFE;color:#1E40AF}
+.tag-finanzas {background:#FEF9C3;color:#854D0E}
+.tag-ventas   {background:#FEE2E2;color:#991B1B}
+.tag-ops      {background:#EDE9FE;color:#5B21B6}
+.tag-legal    {background:#FCE7F3;color:#9D174D}
+.tag-rrhh     {background:#F0FDF4;color:#14532D}
+
+.card-desc{font-size:11px;color:var(--gray-text);margin-top:8px;line-height:1.45;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.card-programs{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:10px}
+.prog-pill{font-size:9px;font-weight:600;padding:2px 7px;border-radius:10px;background:var(--gray-mid);color:var(--gray-text)}
+.prog-pill.active-prog{background:#DBEAFE;color:var(--deep-blue)}
+
+.card-footer{padding:10px 16px;border-top:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;background:var(--gray-lt)}
+.status-pill{font-size:9px;font-weight:700;padding:2px 8px;border-radius:10px}
+.status-Active  {background:#DCFCE7;color:#166534}
+.status-Alumni  {background:#E0E7FF;color:#3730A3}
+.status-Unknown {background:var(--gray-mid);color:var(--gray-text)}
+.li-btn{display:inline-flex;align-items:center;gap:4px;font-size:10px;font-weight:700;color:var(--deep-blue);text-decoration:none;border:1.5px solid var(--deep-blue);border-radius:6px;padding:4px 9px;transition:all .15s}
+.li-btn:hover{background:var(--deep-blue);color:#fff}
+.li-btn svg{width:12px;height:12px;fill:currentColor}
+
+.probable-badge{font-size:8px;font-weight:700;background:#FEF3C7;color:#92400E;padding:1px 6px;border-radius:8px;margin-left:4px;vertical-align:middle}
+
+.header-cta{margin-top:20px;margin-bottom:4px}
+.cta-btn{display:inline-flex;align-items:center;gap:10px;background:#fff;color:var(--deep-blue);font-size:16px;font-weight:800;padding:14px 32px;border-radius:12px;text-decoration:none;letter-spacing:-.2px;box-shadow:0 2px 16px rgba(0,0,0,.18);transition:all .2s}
+.cta-btn:hover{background:var(--cyan);transform:translateY(-2px);box-shadow:0 6px 24px rgba(0,0,0,.22)}
+.cta-btn .btn-icon{font-size:20px;line-height:1}
+
+/* EMPTY STATE */
+.empty-state{text-align:center;padding:60px 24px;color:var(--gray-text);display:none}
+.empty-state.visible{display:block}
+
+/* FOOTER */
+.site-footer{background:var(--deep-blue);color:rgba(255,255,255,.5);text-align:center;padding:16px;font-size:11px;margin-top:32px}
+
+/* AVATAR COLORS */
+.av-0{background:#0C498A} .av-1{background:#669348} .av-2{background:#69B5FA;color:#0C498A}
+.av-3{background:#9DC384} .av-4{background:#0C498A} .av-5{background:#669348}
+.av-6{background:#69B5FA;color:#0C498A} .av-7{background:#9DC384} .av-8{background:#0C498A}
+.av-9{background:#669348}
+</style>
+</head>
+<body data-nexus-page="mentors">
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="header-brand">
+      <svg class="brand-logo" viewBox="0 0 36 36" fill="none">
+        <circle cx="18" cy="18" r="18" fill="rgba(255,255,255,.12)"/>
+        <path d="M18 8 C12 8 8 13 8 18 C8 23 12 28 18 28 C24 28 28 23 28 18" stroke="#B2EEFA" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+        <circle cx="18" cy="18" r="4" fill="#9DC384"/>
+      </svg>
+      <span class="brand-name">CleantechHUB Nexus</span>
+    </div>
+    <h1 class="header-title">Red de Mentores</h1>
+    <p class="header-sub">Expertos en cleantech, sostenibilidad e impacto climático · América Latina</p>
+    <div class="header-cta">
+      <a href="https://nexus.cleantechhub.net/mentoring/" class="cta-btn">
+        <span class="btn-icon">&#128101;</span>
+        Plataforma de Mentoría
+      </a>
+    </div>
+    <div class="header-stats">
+      <div class="hstat"><div class="hstat-n" id="stat-total">36</div><div class="hstat-l">Mentores publicados</div></div>
+      <div class="hstat"><div class="hstat-n">8</div><div class="hstat-l">Programas CTH</div></div>
+      <div class="hstat"><div class="hstat-n">6</div><div class="hstat-l">Países</div></div>
+      <div class="hstat"><div class="hstat-n">7</div><div class="hstat-l">Áreas de expertise</div></div>
+    </div>
+  </div>
+</header>
+
+<div class="filter-bar">
+  <div class="filter-inner">
+    <div class="search-wrap">
+      <span class="search-ico">🔍</span>
+      <input type="text" id="search" placeholder="Buscar mentor...">
+    </div>
+    <div class="filter-pills-row">
+      <button class="filter-btn active" data-filter="all">Todos</button>
+      <button class="filter-btn" data-filter="Active">Activos</button>
+      <button class="filter-btn" data-filter="Alumni">Alumni</button>
+      <button class="filter-btn tag-f" data-tag="Impacto y Sostenibilidad">🌱 Impacto</button>
+      <button class="filter-btn tag-f" data-tag="Negocios y Estrategia">📊 Negocios</button>
+      <button class="filter-btn tag-f" data-tag="Finanzas e Inversión">💰 Finanzas</button>
+      <button class="filter-btn tag-f" data-tag="Operaciones y Tecnología">⚙️ Ops & Tech</button>
+      <button class="filter-btn tag-f" data-tag="Ventas y Mercadeo">📣 Ventas</button>
+      <button class="filter-btn tag-f" data-tag="RRHH y Cultura">🤝 RRHH</button>
+    </div>
+    <span class="result-count" id="result-count"></span>
+  </div>
+</div>
+
+<div class="grid-wrap">
+  <div class="mentor-grid" id="mentor-grid"></div>
+  <div class="empty-state" id="empty-state">No se encontraron mentores con ese filtro.</div>
+</div>
+
+<footer class="site-footer">CleantechHUB Nexus · Red de Mentores · nexus.cleantechhub.net · 2026</footer>
+
+<script>
+const MENTORS = [
+  {id:"M002",name:"Juliana Rincón Jaramillo",role:"",company:"Recicla Pues",expertise:"Impacto y Sostenibilidad",programs:["CLP21","CLP Light","CLAC23"],status:"Alumni",linkedin:"https://www.linkedin.com/in/juliana-rinc%C3%B3n-jaramillo-16430689",confidence:"confirmed",photo:"/nexus-assets/mentors/juliana-rincon-jaramillo.jpg",desc:"Cofundadora de Recicla Pues y mentora en economía circular y reciclaje en Colombia. Acompaña startups cleantech en modelos de impacto ambiental y sostenibilidad operativa."},
+  {id:"M028",name:"Carolina Ibarra Pompano",role:"Directora de Estructura y Propósito",company:"Araújo Ibarra / Pompano",expertise:"Negocios y Estrategia",programs:["CLP Light","CLAC22","CLP/CLAC24"],status:"Alumni",linkedin:"https://www.linkedin.com/in/carolinaibarrac/",confidence:"confirmed",photo:"/nexus-assets/mentors/carolina-ibarra-pompano.jpg",desc:"Directora de Estructura y Propósito en Araújo Ibarra y cofundadora de Pompano; diseña programas de emprendimiento con propósito en Latinoamérica. Enfoca mentoría en estrategia, gobierno corporativo y escalamiento de negocios de impacto."},
+  {id:"M029",name:"Jesus Alberto Cruz Diaz",role:"",company:"Orgánicos del Caribe",expertise:"Impacto y Sostenibilidad",programs:["CLP Light","CLAC23"],status:"Alumni",linkedin:"https://co.linkedin.com/in/jesuscruzd",confidence:"probable",photo:"/nexus-assets/mentors/jesus-alberto-cruz-diaz.jpg",desc:"Lidera Orgánicos del Caribe y aporta experiencia en agroindustria orgánica y cadenas de valor sostenibles en el Caribe colombiano. Mentora en impacto ambiental y modelos de negocio regenerativos."},
+  {id:"M030",name:"Diego Felipe Prada",role:"CEO / LEED Fellow",company:"Green Factory",expertise:"Operaciones y Tecnología",programs:["CLP Light","CLAC22"],status:"Alumni",linkedin:"https://www.linkedin.com/in/diego-felipe-prada-samudio-2047952a/",confidence:"confirmed",photo:"/nexus-assets/mentors/diego-felipe-prada.jpg",desc:"CEO de Green Factory y LEED Fellow; especialista en construcción sostenible, eficiencia energética y certificación verde de edificaciones. Apoya startups en operaciones, ingeniería y despliegue de soluciones cleantech."},
+  {id:"M032",name:"Luc Lapointe",role:"",company:"TCN / TheBC.lab",expertise:"Finanzas e Inversión",programs:["CLP Light"],status:"Alumni",linkedin:"https://ca.linkedin.com/in/luc-lapointe",confidence:"probable",photo:"/nexus-assets/mentors/luc-lapointe.jpg",desc:"CEO y fundador de TheBC.lab; trabaja en financiamiento innovador para desarrollo, alianzas público-privadas e impacto en América Latina. Mentora en finanzas de impacto, estructuración de proyectos y cooperación internacional."},
+  {id:"M033",name:"Ruben Coppus",role:"Geographer & GIS Expert",company:"CIAT",expertise:"Impacto y Sostenibilidad",programs:["CLP Light"],status:"Alumni",linkedin:"https://www.linkedin.com/in/ruben-coppus-86311242/",confidence:"confirmed",photo:"/nexus-assets/mentors/ruben-coppus.jpg",desc:"Geógrafo y experto SIG en CIAT; aplica datos geoespaciales y análisis territorial para agricultura sostenible y acción climática. Enfoca mentoría en monitoreo, MRV y soluciones basadas en naturaleza."},
+  {id:"M034",name:"Edward Tierradentro",role:"Senior Analyst",company:"Inversiones de Gases de Colombia",expertise:"Operaciones y Tecnología",programs:["CLP23"],status:"Alumni",linkedin:"https://co.linkedin.com/in/edward-tierradentro-polania-08a89913a",confidence:"probable",photo:"/nexus-assets/mentors/edward-tierradentro.jpg",desc:"Analista senior en Inversiones de Gases de Colombia; experiencia en mercados de gas, energía y transición energética. Apoya founders en operaciones técnicas, cumplimiento y modelos de negocio en el sector energético."},
+  {id:"M035",name:"Marco Poliafico",role:"Project Finance & Cleantech Mentor",company:"GE Renewables / Independent",expertise:"Finanzas e Inversión",programs:["CLP23"],status:"Alumni",linkedin:"https://uk.linkedin.com/in/marcopoliafico",confidence:"confirmed",photo:"/nexus-assets/mentors/marco-poliafico.jpg",desc:"Experto en project finance y cleantech con trayectoria en GE Renewables; estructura financiamiento de proyectos renovables e infraestructura limpia. Mentora en inversión, bancabilidad y preparación para rondas con fondos institucionales."},
+  {id:"M036",name:"Jaime Bárcenas",role:"",company:"Decision Support Consulting",expertise:"Negocios y Estrategia",programs:["CLAC22","CLAC23","CLP/CLAC24"],status:"Alumni",linkedin:"https://www.linkedin.com/in/jaime-barcenas/",confidence:"probable",photo:"/nexus-assets/mentors/jaime-barcenas.jpg",desc:"Consultor en Decision Support Consulting; acompaña decisiones estratégicas, analítica y gestión del desempeño en organizaciones de impacto. Enfoca mentoría en negocio, planeación y ejecución para startups en crecimiento."},
+  {id:"M037",name:"Marcela Romero",role:"Advisory Regional Director LATAM",company:"LRQA",expertise:"Impacto y Sostenibilidad",programs:["CLAC22","CLAC23"],status:"Alumni",linkedin:"https://www.linkedin.com/in/marcelaromeromerino/",confidence:"probable",photo:"/nexus-assets/mentors/marcela-romero.jpg",desc:"Directora regional de advisory LATAM en LRQA; lidera servicios de auditoría, certificación y gestión de riesgos ESG para empresas multilaterales. Mentora en sostenibilidad corporativa, cadena de suministro y reporte de impacto."},
+  {id:"M038",name:"Andrea Pradilla",role:"Director, Hispanic America",company:"GRI – Global Reporting Initiative",expertise:"Impacto y Sostenibilidad",programs:["CLAC23","CLP/CLAC24"],status:"Active",linkedin:"https://www.linkedin.com/in/andreapradilla/",confidence:"confirmed",photo:"/nexus-assets/mentors/andrea-pradilla.jpg",desc:"Directora de GRI para América Latina; impulsa adopción de estándares GRI, políticas de sostenibilidad y diálogo con reguladores e inversionistas en Hispanoamérica y Brasil. Mentora en reporte ESG, gobernanza y estrategia climática."},
+  {id:"M039",name:"Fernando Flores",role:"CMO & Co-founder",company:"eco2biz",expertise:"Impacto y Sostenibilidad",programs:["CLAC23"],status:"Alumni",linkedin:"https://www.linkedin.com/in/fnfloresr/",confidence:"probable",desc:"CMO y cofundador de eco2biz, software de gestión ambiental para minería e industria en Perú. Apoya startups en digitalización ambiental, cumplimiento normativo y propuesta de valor sostenible."},
+  {id:"M042",name:"Maria Laura Gonzalez Canosa",role:"Extended Term Consultant",company:"The World Bank",expertise:"Negocios y Estrategia",programs:["CLP/CLAC24"],status:"Active",linkedin:"https://www.linkedin.com/in/maria-laura-gonzalez-canosa/",confidence:"confirmed",photo:"/nexus-assets/mentors/maria-laura-gonzalez-canosa.jpg",desc:"Consultora en el Banco Mundial; trabaja en políticas de innovación, emprendimiento y desarrollo de mercados en América Latina. Mentora en estrategia de crecimiento, ecosistemas y articulación con actores multilaterales."},
+  {id:"M043",name:"Michel Marfil Rivero",role:"Mentor / Socio-Director",company:"Aprende y Prospera LatAm",expertise:"Negocios y Estrategia",programs:["CLAC22","CLAC23"],status:"Alumni",linkedin:"https://www.linkedin.com/in/michelmarfilrivero/",confidence:"confirmed",photo:"/nexus-assets/mentors/michel-marfil-rivero.jpg",desc:"Socio-director de Aprende y Prospera LatAm; diseña programas de aceleración y mentoría para emprendedores de base de pirámide. Enfoca negocio social, escalamiento inclusivo y modelos replicables en la región."},
+  {id:"M044",name:"Saida Abdala",role:"CEO & Founder",company:"JellyShot Group",expertise:"Ventas y Mercadeo",programs:["CLAC23","CLP/CLAC24"],status:"Alumni",linkedin:"https://www.linkedin.com/in/saidaabdala/",confidence:"probable",photo:"/nexus-assets/mentors/saida-abdala.jpg",desc:"CEO y fundadora de JellyShot Group; experiencia en marketing, comunicación y crecimiento de marcas de impacto. Mentora en ventas, go-to-market y narrativa para startups cleantech."},
+  {id:"M045",name:"Carlos Andres Jaramillo Abad",role:"Innovation & Entrepreneurship Expert",company:"Seguros SURA / Clarity.fm",expertise:"Negocios y Estrategia",programs:["CLAC22","CLAC23"],status:"Alumni",linkedin:"https://www.linkedin.com/in/carlosabad79/",confidence:"confirmed",photo:"/nexus-assets/mentors/carlos-andres-jaramillo-abad.jpg",desc:"Experto en innovación y emprendimiento en Seguros SURA y Clarity.fm; conecta corporates con startups y metodologías de validación. Apoya founders en estrategia, partnerships y escalamiento B2B."},
+  {id:"M046",name:"Luis Osorio",role:"Founding Partner & CEO",company:"Circulatam",expertise:"Impacto y Sostenibilidad",programs:["CLAC23","CLP/CLAC24"],status:"Active",linkedin:"https://www.linkedin.com/in/luisosobet/",confidence:"probable",desc:"Socio fundador y CEO de Circulatam; diseña modelos de economía circular y bioeconomía para agroindustria, manufactura y moda. Mentora en transición circular, innovación de modelos de negocio y triple impacto."},
+  {id:"M047",name:"Julián Forero",role:"Innovation Facilitator & Sustainability Mentor",company:"FORTH Innovation",expertise:"Impacto y Sostenibilidad",programs:["CLP/CLAC24"],status:"Active",linkedin:"https://www.linkedin.com/in/julianforerorueda/",confidence:"confirmed",desc:"Facilitador certificado del método FORTH Innovation y mentor en Startupbootcamp; impulsa procesos de innovación estructurada y sostenibilidad en startups. Enfoca design thinking aplicado, validación de ideas y mentoría en programas de aceleración."},
+  {id:"M050",name:"Alejandro Cruz Mantilla",role:"Business Management Consultant",company:"Biosfera Consultoria",expertise:"Negocios y Estrategia",programs:["CLP/CLAC24"],status:"Alumni",linkedin:"https://www.linkedin.com/in/alejandro-cruz-mantilla-b60a4a81/",confidence:"confirmed",photo:"/nexus-assets/mentors/alejandro-cruz-mantilla.jpg",desc:"Consultor de gestión en Biosfera Consultoría; acompaña PYMES y startups en planeación estratégica y sostenibilidad empresarial. Mentora en negocio, operación comercial y preparación para mercados latinoamericanos."},
+  {id:"M051",name:"Michel Hauzeur Cárdenas",role:"Product & Growth Expert",company:"Nortal",expertise:"Operaciones y Tecnología",programs:["CLP/CLAC24"],status:"Alumni",linkedin:"https://co.linkedin.com/in/michel-hauzeur-growth-expert",confidence:"probable",photo:"/nexus-assets/mentors/michel-hauzeur-cardenas.jpg",desc:"Experto en producto y growth en Nortal; combina tecnología, UX y escalamiento de soluciones digitales B2B. Apoya startups en operaciones, product-market fit y métricas de crecimiento."},
+  {id:"M052",name:"Iván Dávila Velandia",role:"Business Innovation Consultant",company:"Fondo Acción",expertise:"Impacto y Sostenibilidad",programs:["CLP23","CLP/CLAC24"],status:"Active",linkedin:"https://co.linkedin.com/in/ivandavilav",confidence:"confirmed",photo:"/nexus-assets/mentors/ivan-davila-velandia.jpg",desc:"Consultor en innovación en Fondo Acción; implementó enfoques de gestión del conocimiento e innovación en proyectos de mitigación climática en Colombia. Mentora en impacto ambiental, formulación de proyectos y articulación con fondos."},
+  {id:"M054",name:"Catalina Valenzuela",role:"CEO / Founder",company:"Innovus Consulting",expertise:"Negocios y Estrategia",programs:["CLP/CLAC24"],status:"Active",linkedin:"https://www.linkedin.com/in/catalina-valenzuela-learning/",confidence:"confirmed",photo:"/nexus-assets/mentors/catalina-valenzuela.jpg",desc:"CEO de Innovus Consulting; especialista en aprendizaje organizacional, innovación y desarrollo de capacidades para empresas y startups. Enfoca estrategia, cultura de innovación y escalamiento de equipos."},
+  {id:"M055",name:"Israel Griol",role:"Start-up Ecosystem Manager",company:"Universitat Politècnica de València",expertise:"Negocios y Estrategia",programs:["CLP21","CLP22","CLP23","CLP Light"],status:"Alumni",linkedin:"https://es.linkedin.com/in/israelgriol",confidence:"confirmed",photo:"/nexus-assets/mentors/israel-griol.jpg",desc:"Gestor de ecosistemas de startups en la Universitat Politècnica de València; vincula academia, emprendimiento y transferencia tecnológica. Mentora en conexión con inversionistas, programas europeos y validación tecnológica."},
+  {id:"M056",name:"Mónica Avila Forero",role:"Program Lead & Mentor",company:"CleantechHUB / ALMARA",expertise:"Negocios y Estrategia",programs:["CLP21","CLP22","CLP23","CLP/CLAC24"],status:"Active",linkedin:"https://co.linkedin.com/in/monica-avila-forero",confidence:"confirmed",photo:"/nexus-assets/mentors/monica-avila-forero.jpg",desc:"Líder de programas y mentora en CleantechHUB y ALMARA; acompaña cohortes CLP/CLAC en estrategia, operaciones de aceleración y comunidad cleantech. Enfoca negocio, fundraising y preparación de startups para mercado."},
+  {id:"M057",name:"Viviana Bohorquez",role:"Climate Projects Coordinator",company:"KIMSA / CarbonBox",expertise:"Impacto y Sostenibilidad",programs:["CLP23","CLP/CLAC24"],status:"Alumni",linkedin:"https://www.linkedin.com/in/viviana-bohorquez-7960551aa/",confidence:"probable",photo:"/nexus-assets/mentors/viviana-bohorquez.jpg",desc:"Coordinadora de proyectos climáticos en KIMSA / CarbonBox; trabaja en mercados de carbono, proyectos de mitigación y cooperación internacional. Mentora en impacto climático, MRV y estructuración de iniciativas de carbono."},
+  {id:"M059",name:"Jacopo Deida",role:"Business Developer & Trainer",company:"Independent",expertise:"Negocios y Estrategia",programs:["CLP Light","CLAC22"],status:"Alumni",linkedin:"https://it.linkedin.com/in/jacopodg/en",confidence:"probable",photo:"/nexus-assets/mentors/jacopo-deida.jpg",desc:"Business developer y formador independiente; experiencia en internacionalización y capacitación de emprendedores en Europa y Latam. Apoya startups en negocio, ventas internacionales y diseño de programas piloto."},
+  {id:"M060",name:"Luis Betancourt",role:"Co-Founder / Director",company:"Soluenergias",expertise:"Operaciones y Tecnología",programs:["CLP22","CLAC22","CLAC23"],status:"Alumni",linkedin:"https://www.linkedin.com/in/luisfbetancourt/",confidence:"probable",desc:"Cofundador de Soluenergias; experto en soluciones solares térmicas y eficiencia energética para industria y hogares. Mentora en operaciones, ingeniería de despliegue y modelos comerciales en energía limpia."},
+  {id:"M061",name:"Andrea Liévano",role:"Founder / CEO",company:"PR PARA TODOS",expertise:"Ventas y Mercadeo",programs:["CLAC23","CLP/CLAC24"],status:"Alumni",linkedin:"https://www.linkedin.com/in/andrea-lievano/",confidence:"probable",photo:"/nexus-assets/mentors/andrea-lievano.jpg",desc:"Fundadora de PR PARA TODOS; combina relaciones públicas, comunicación corporativa y posicionamiento de marcas de impacto. Enfoca ventas, relaciones con medios y narrativa ESG para startups."},
+  {id:"M062",name:"Alejandro Gaviria",role:"Chief Operating Officer",company:"RegenEAU",expertise:"Operaciones y Tecnología",programs:["CLP23","CLP/CLAC24"],status:"Alumni",linkedin:"https://www.linkedin.com/in/alejandrogaviriasoto/",confidence:"probable",photo:"/nexus-assets/mentors/alejandro-gaviria.jpg",desc:"COO de RegenEAU; lidera operaciones en soluciones de agua y tecnologías ambientales. Apoya founders en manufactura, cadena de suministro y escalamiento operativo de hardware cleantech."},
+  {id:"M063",name:"Carlos Casallas",role:"Impact Investment Fund Lead",company:"Fondo Acción",expertise:"Finanzas e Inversión",programs:["CLP/CLAC24"],status:"Active",linkedin:"https://www.linkedin.com/in/carlos-casallas-68206412/",confidence:"confirmed",desc:"Lidera el fondo de inversión de impacto en Fondo Acción; estructura vehículos de capital paciente para negocios con retorno ambiental y social. Mentora en finanzas de impacto, tesis de inversión y preparación para due diligence."},
+  {id:"M065",name:"Julián Aponte",role:"Co-founder & Executive Coach",company:"DEMENTES BRILLANTES",expertise:"RRHH y Cultura",programs:["CLP/CLAC24"],status:"Alumni",linkedin:"https://www.linkedin.com/in/julian-aponte/",confidence:"probable",photo:"/nexus-assets/mentors/julian-aponte.jpg",desc:"Cofundador y coach ejecutivo en Dementes Brillantes; trabaja en liderazgo, cultura y alto desempeño de equipos fundadores. Enfoca RRHH, dinámica de equipos y bienestar en startups de alto crecimiento."},
+  {id:"M068",name:"Renzo Salas",role:"Sustainability & Renewable Energy",company:"BSF Almacenes del Perú",expertise:"Operaciones y Tecnología",programs:["CLP25-PE"],status:"Active",linkedin:"https://www.linkedin.com/in/renzo-salas-rivarola-690744103/",confidence:"confirmed",desc:"Profesional de sostenibilidad y energías renovables en BSF Almacenes del Perú; impulsa eficiencia energética y descarbonización en operaciones retail. Mentora CLP25-PE en operaciones, energía y métricas de sostenibilidad."},
+  {id:"M069",name:"Mitchell Jesús Lázaro Díaz",role:"PhD Candidate · Banca PYME",company:"",expertise:"Finanzas e Inversión",programs:["CLP25-PE"],status:"Active",linkedin:"https://pe.linkedin.com/in/mitchell-jes%C3%BAs-l%C3%A1zaro-d%C3%ADaz",confidence:"confirmed",photo:"/nexus-assets/mentors/mitchell-jesus-lazaro-diaz.jpg",desc:"Doctorando y especialista en banca PYME; investiga acceso a financiamiento para pequeñas empresas verdes en Perú. Apoya startups en finanzas, relación bancaria y estructuración crediticia."},
+  {id:"M070",name:"Rayniero Aristizabal Nova",role:"Executive Director",company:"Nova / Airtex",expertise:"Negocios y Estrategia",programs:["CLP25-PE"],status:"Active",linkedin:"https://www.linkedin.com/in/rayniero-aristizabal-02522631/",confidence:"confirmed",photo:"/nexus-assets/mentors/rayniero-aristizabal-nova.jpg",desc:"Director ejecutivo en Nova / Airtex; experiencia en manufactura, exportación y gestión industrial en Perú. Mentora en estrategia de negocio, operaciones y escalamiento internacional."},
+  {id:"M071",name:"Duilio Aranda Ipince",role:"Consultant",company:"AID Consulting",expertise:"Negocios y Estrategia",programs:["CLP25-PE"],status:"Active",linkedin:"https://www.linkedin.com/in/duilio-aranda-ipince-b5374127/",confidence:"confirmed",desc:"Consultor en AID Consulting; acompaña empresas peruanas en estrategia, procesos y mejora de desempeño. Enfoca negocio, gestión del cambio y preparación para inversión."},
+  {id:"M073",name:"Miguel Ñañez Aiscorbe",role:"Gerente Territorial",company:"BBVA Banco Continental",expertise:"Finanzas e Inversión",programs:["CLP25-PE"],status:"Active",linkedin:"https://www.linkedin.com/in/miguel-angel-%C3%B1a%C3%B1ez-aiscorbe-75704043/",confidence:"confirmed",photo:"/nexus-assets/mentors/miguel-nanez-aiscorbe.jpg",desc:"Gerente territorial en BBVA Perú; experiencia en banca comercial, crédito y servicios financieros para empresas. Mentora en finanzas, relación con banca y estructuración de pasivos para startups en crecimiento."},
+  {id:"M077",name:"Alaide Díaz",role:"",company:"",expertise:"Negocios y Estrategia",programs:["CLP26"],status:"Active",linkedin:"https://www.linkedin.com/in/alaide-diaz?utm_source=share_via&utm_content=profile&utm_medium=member_ios",desc:"Mentor/a en CLP26 (Guatemala); acompaña a Aura cell."},
+  {id:"M078",name:"Alejandra Sierralta",role:"",company:"",expertise:"Negocios y Estrategia",programs:["CLP26"],status:"Active",linkedin:"www.linkedin.com/in/alejandrasierralta/",desc:"Mentor/a en CLP26 (Perú); acompaña a PezConfiable."},
+  {id:"M079",name:"Alex Kudzuma",role:"",company:"",expertise:"Negocios y Estrategia",programs:["CLP26"],status:"Active",linkedin:"www.linkedin.com/in/alex-kudzuma",photo:"/nexus-assets/mentors/alex-kudzuma.jpg",desc:"Mentor/a en CLP26 (Perú); acompaña a Wayra Watt."},
+  {id:"M080",name:"Ana María Parra García",role:"Estrategia de financiamiento y crecimiento",company:"Fedepalma / consultoría independiente",expertise:"Finanzas e Inversión",programs:["CLP26"],status:"Active",linkedin:"https://www.linkedin.com/in/ana-maria-parra-pm/",photo:"/nexus-assets/mentors/ana-maria-parra-garcia.jpg",desc:"MBA con más de 15 años estructurando proyectos y levantando capital institucional en Colombia; ha movilizado millones de dólares en fondos públicos, privados y cooperación. Mentora CLP26 en finanzas, bancabilidad y escalamiento de startups cleantech."},
+  {id:"M081",name:"Andrés Felipe Páez",role:"",company:"",expertise:"Impacto y Sostenibilidad",programs:["CLP26"],status:"Active",linkedin:"https://www.linkedin.com/in/andresfelipepaezrodriguezsostenibilidadyeconomiacircular/",desc:"Mentor/a en CLP26 (Colombia); acompaña a CLIMATIK Climate Transition Platform."},
+  {id:"M082",name:"Bernardo Joseph Trujillo León",role:"",company:"",expertise:"Negocios y Estrategia",programs:["CLP26"],status:"Active",linkedin:"http://linkedin.com/in/bernardo-joseph-4813561a9",desc:"Mentor/a en CLP26 (Colombia); acompaña a Planta Comunitaria WPC y SEKPOS."},
+  {id:"M083",name:"Carlos Arango Ucros",role:"",company:"",expertise:"Impacto y Sostenibilidad",programs:["CLP26"],status:"Active",linkedin:"https://www.linkedin.com/in/carlosarangoucros",desc:"Mentor/a en CLP26 (Colombia); acompaña a AgroData Connect."},
+  {id:"M084",name:"Cinthya Sandoval Cuéllar",role:"",company:"",expertise:"Negocios y Estrategia",programs:["CLP26"],status:"Active",linkedin:"https://www.linkedin.com/in/cinthya-sandoval-48903770/",photo:"/nexus-assets/mentors/cinthya-sandoval-cuellar.jpg",desc:"Mentor/a en CLP26 (Guatemala); acompaña a Crysalia Studio."},
+  {id:"M085",name:"Daniel Alpaca",role:"",company:"",expertise:"Negocios y Estrategia",programs:["CLP26"],status:"Active",linkedin:"www.linkedin.com/in/danielalpaca",desc:"Mentor/a en CLP26 (Perú); acompaña a VIGIA (ex MUCHIK)."},
+  {id:"M086",name:"Daniel Swift",role:"Consultor en innovación y sostenibilidad",company:"",expertise:"Negocios y Estrategia",programs:["CLP26"],status:"Active",linkedin:"https://www.linkedin.com/in/danielswiftpub/",desc:"Mentor CLP26 en Colombia; acompaña a startups del cohorte en estrategia, validación y preparación para mercado."},
+  {id:"M087",name:"Diana Castrillón Gómez",role:"",company:"",expertise:"Operaciones y Tecnología",programs:["CLP26"],status:"Active",linkedin:"https://www.linkedin.com/in/dianacastrillongomez/",desc:"Mentor/a en CLP26 (Colombia); acompaña a bio.analytics."},
+  {id:"M088",name:"Erwin Navarrete",role:"",company:"",expertise:"Negocios y Estrategia",programs:["CLP26"],status:"Active",linkedin:"https://www.linkedin.com/in/erwin-navarrete-b43283240/",desc:"Mentor/a en CLP26 (Colombia); acompaña a Uniqua SAS BIC.."},
+  {id:"M089",name:"Estela Ugalde",role:"",company:"",expertise:"Negocios y Estrategia",programs:["CLP26"],status:"Active",linkedin:"https://www.linkedin.com/in/estela-ugalde-74447268/",desc:"Mentor/a en CLP26 (Costa Rica); acompaña a AmbiciOsas."},
+  {id:"M090",name:"Felipe Hernández",role:"",company:"",expertise:"Operaciones y Tecnología",programs:["CLP26"],status:"Active",linkedin:"https://www.linkedin.com/in/fhvdesign/",photo:"/nexus-assets/mentors/felipe-hernandez.jpg",desc:"Mentor/a en CLP26 (Colombia); acompaña a communitylab s.a.s."},
+  {id:"M091",name:"Fernando Torres",role:"",company:"",expertise:"Negocios y Estrategia",programs:["CLP26"],status:"Active",linkedin:"www.linkedin.com/in/fitorresg/",desc:"Mentor/a en CLP26 (Perú); acompaña a Ecosonus."},
+  {id:"M092",name:"Gabriela Tenaz",role:"",company:"",expertise:"Negocios y Estrategia",programs:["CLP26"],status:"Active",linkedin:"https://www.linkedin.com/in/gabriela-t%C3%A9naz-2914a6127/",photo:"/nexus-assets/mentors/gabriela-tenaz.jpg",desc:"Mentor/a en CLP26 (Costa Rica); acompaña a Finca ganadera Águilas verdes."},
+  {id:"M093",name:"Genoveva Martínez",role:"",company:"",expertise:"Negocios y Estrategia",programs:["CLP26"],status:"Active",linkedin:"https://www.linkedin.com/in/genoveva-martínez-a4ab33196?utm_source=share_via&utm_content=profile&utm_medium=member_android",desc:"Mentor/a en CLP26 (Guatemala); acompaña a Pina&Kakaw."},
+  {id:"M094",name:"Gloria Bazán Narváez",role:"",company:"",expertise:"Impacto y Sostenibilidad",programs:["CLP26"],status:"Active",linkedin:"https://www.linkedin.com/in/gloria-bazan-narvaez-06581b55/",photo:"/nexus-assets/mentors/gloria-bazan-narvaez.jpg",desc:"Mentor/a en CLP26 (Colombia); acompaña a Clean Sim (by IMIC)."},
+  {id:"M095",name:"Guillermo Nariño",role:"",company:"",expertise:"Negocios y Estrategia",programs:["CLP26"],status:"Active",linkedin:"https://www.linkedin.com/in/guillermo-nari%C3%B1o/?",desc:"Mentor/a en CLP26 (Colombia); acompaña a Amazóniko."},
+  {id:"M096",name:"Guisela Carbajal Romero",role:"",company:"",expertise:"Negocios y Estrategia",programs:["CLP26"],status:"Active",linkedin:"https://www.linkedin.com/in/guisela-carbajal/",desc:"Mentor/a en CLP26 (Costa Rica); acompaña a Ecomuna."},
+  {id:"M097",name:"Gustavo García",role:"",company:"",expertise:"Impacto y Sostenibilidad",programs:["CLP26"],status:"Active",linkedin:"https://www.linkedin.com/in/gustavo-garcia-navas/",desc:"Mentor/a en CLP26 (Colombia); acompaña a Green Textile Solutions y Modular Agrosolutions."},
+  {id:"M098",name:"Heraldo Escobar",role:"",company:"",expertise:"Negocios y Estrategia",programs:["CLP26"],status:"Active",linkedin:"www.linkedin.com/in/heraldo-escobar-72163934",desc:"Mentor/a en CLP26 (Guatemala); acompaña a Regenerative livestock farming."},
+  {id:"M099",name:"Jhosseli García",role:"",company:"",expertise:"Impacto y Sostenibilidad",programs:["CLP26"],status:"Active",linkedin:"www.linkedin.com/in/jhosseligarcia/",desc:"Mentor/a en CLP26 (Perú); acompaña a AgroLens."},
+  {id:"M100",name:"Jorge Montenegro",role:"",company:"",expertise:"Negocios y Estrategia",programs:["CLP26"],status:"Active",linkedin:"https://www.linkedin.com/in/jorge-fer-monte",desc:"Mentor/a en CLP26 (Costa Rica); acompaña a Siloe Garden · Eco Sanctuary."},
+  {id:"M101",name:"José Soto",role:"",company:"",expertise:"Negocios y Estrategia",programs:["CLP26"],status:"Active",linkedin:"www.linkedin.com/in/jose-carlos-soto-mujica-9a9987396",desc:"Mentor/a en CLP26 (Perú); acompaña a NanoHumi."},
+  {id:"M102",name:"Juan Diego Loarca",role:"",company:"",expertise:"Negocios y Estrategia",programs:["CLP26"],status:"Active",linkedin:"https://www.linkedin.com/in/juan-diego-loarca?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",desc:"Mentor/a en CLP26 (Guatemala); acompaña a Autogenerado."},
+  {id:"M103",name:"Juan Sebastián Villamizar",role:"",company:"",expertise:"Impacto y Sostenibilidad",programs:["CLP26"],status:"Active",linkedin:"https://www.linkedin.com/in/sebastian-villamizar-diaz-b17818114",desc:"Mentor/a en CLP26 (Colombia); acompaña a Proyecto emprendedor con impacto ambiental.."},
+  {id:"M104",name:"Julián Martínez",role:"",company:"",expertise:"Negocios y Estrategia",programs:["CLP26"],status:"Active",linkedin:"https://www.linkedin.com/in/julianmartineza/",desc:"Mentor/a en CLP26 (Guatemala); acompaña a ZUMA."},
+  {id:"M105",name:"Karol M. Garzón",role:"",company:"",expertise:"Negocios y Estrategia",programs:["CLP26"],status:"Active",linkedin:"https://www.linkedin.com/in/karol-melissa-garz%C3%B3n-cabrera-5516a6382/",photo:"/nexus-assets/mentors/karol-m-garzon.jpg",desc:"Mentor/a en CLP26 (Colombia); acompaña a El Ocámbulo."},
+  {id:"M106",name:"Lina Ospina",role:"Consultora en energía y sostenibilidad",company:"",expertise:"Impacto y Sostenibilidad",programs:["CLP26"],status:"Active",linkedin:"https://www.linkedin.com/in/lina-ospina-mosquera/",desc:"Profesional colombiana en transición energética y sostenibilidad empresarial. Mentora CLP26 en impacto climático, modelos de negocio verdes y articulación con mercados."},
+  {id:"M107",name:"Lucía Medina Capacoila",role:"",company:"",expertise:"Negocios y Estrategia",programs:["CLP26"],status:"Active",linkedin:"https://www.linkedin.com/in/luciamedinacapacoila/",photo:"/nexus-assets/mentors/lucia-medina-capacoila.jpg",desc:"Mentor/a en CLP26 (Colombia); acompaña a Cacelio."},
+  {id:"M108",name:"Maité Marroquín",role:"",company:"",expertise:"Negocios y Estrategia",programs:["CLP26"],status:"Active",linkedin:"https://www.linkedin.com/in/mait%C3%A9-marroqu%C3%ADn-76370918b/",desc:"Mentor/a en CLP26 (Guatemala); acompaña a NRK."},
+  {id:"M109",name:"Mariana Revilla Llaca",role:"Consultora en desarrollo de negocios",company:"",expertise:"Negocios y Estrategia",programs:["CLP26"],status:"Active",linkedin:"https://www.linkedin.com/in/ACoAACJO8qYByt8d8R8InDQGReuHjGlBkUq2xZA",desc:"Mentora CLP26 en Colombia; apoya a startups del cohorte en estrategia comercial, crecimiento y preparación para inversión."},
+  {id:"M110",name:"Mario Reichert",role:"",company:"",expertise:"Negocios y Estrategia",programs:["CLP26"],status:"Active",linkedin:"https://www.linkedin.com/in/mario-reichert-netzero-esg-gri-sas-niifs1-s2sbti-waterstewardship-ehs-safety-sustainability-sbti-wcm?utm_source=share_via&utm_content=profile&utm_medium=member_ios",desc:"Mentor/a en CLP26 (Guatemala); acompaña a GMOVES."},
+  {id:"M111",name:"Mario Rojas",role:"",company:"",expertise:"Impacto y Sostenibilidad",programs:["CLP26"],status:"Active",linkedin:"https://www.linkedin.com/in/mario-fernando-rojas-suarez-49328770/",desc:"Mentor/a en CLP26 (Costa Rica); acompaña a Agrosenser."},
+  {id:"M112",name:"Marisa Arias",role:"",company:"",expertise:"Negocios y Estrategia",programs:["CLP26"],status:"Active",linkedin:"www.linkedin.com/in/marisaariaspicon/",desc:"Mentor/a en CLP26 (Perú); acompaña a Kallpa Greenz Leaders."},
+  {id:"M113",name:"Martha Zeledón",role:"",company:"",expertise:"Impacto y Sostenibilidad",programs:["CLP26"],status:"Active",linkedin:"https://www.linkedin.com/in/martha-yadira-zeled%C3%B3n-2419b024/",desc:"Mentor/a en CLP26 (Colombia); acompaña a AGROLIDER."},
+  {id:"M114",name:"Martin Dolan",role:"",company:"",expertise:"Negocios y Estrategia",programs:["CLP26"],status:"Active",linkedin:"https://www.linkedin.com/in/martin-dolan/",photo:"/nexus-assets/mentors/martin-dolan.jpg",desc:"Mentor/a en CLP26 (Colombia); acompaña a CurubaTech y e.WAI."},
+  {id:"M115",name:"Marvin Luna",role:"",company:"",expertise:"Negocios y Estrategia",programs:["CLP26"],status:"Active",linkedin:"linkedin.com/in/marvinlunagt",desc:"Mentor/a en CLP26 (Guatemala); acompaña a Ingenicrop."},
+  {id:"M116",name:"María Isabel Cruz López",role:"",company:"",expertise:"Negocios y Estrategia",programs:["CLP26"],status:"Active",linkedin:"https://www.linkedin.com/in/maria-isabel-cruz-lopez",desc:"Mentor/a en CLP26 (Colombia); acompaña a Construyendo Redes de Paz."},
+  {id:"M117",name:"María Juliana Pérez Vasco",role:"",company:"",expertise:"Ventas y Mercadeo",programs:["CLP26"],status:"Active",linkedin:"https://www.linkedin.com/in/maria-juliana-perez-vasco-19587843",desc:"Mentor/a en CLP26 (Colombia); acompaña a KUO (Producto: SIGR)."},
+  {id:"M118",name:"Mónica O’Connor",role:"",company:"",expertise:"Negocios y Estrategia",programs:["CLP26"],status:"Active",linkedin:"www.linkedin.com/in/manuel-c%C3%A1rdenas-iberico-0225a216/",desc:"Mentor/a en CLP26 (Perú); acompaña a Andean Biofactories."},
+  {id:"M119",name:"Osvaldo Ruiz",role:"",company:"",expertise:"Negocios y Estrategia",programs:["CLP26"],status:"Active",linkedin:"https://www.linkedin.com/in/osvaldo-ruiz-calder%C3%B3n-1b9699136/",desc:"Mentor/a en CLP26 (Costa Rica); acompaña a Plastic Free Planet."},
+  {id:"M120",name:"Paola Andrea Sánchez Gutiérrez",role:"",company:"",expertise:"Operaciones y Tecnología",programs:["CLP26"],status:"Active",linkedin:"https://www.linkedin.com/in/paolasolarinsights/",photo:"/nexus-assets/mentors/paola-andrea-sanchez-gutierrez.jpg",desc:"Mentor/a en CLP26 (Colombia); acompaña a AirthNova."},
+  {id:"M121",name:"Patricia Carrasquilla Cortés",role:"",company:"",expertise:"Negocios y Estrategia",programs:["CLP26"],status:"Active",linkedin:"https://www.linkedin.com/in/patriciacarrasquillac",desc:"Mentor/a en CLP26 (Colombia); acompaña a SIÉ WAKA."},
+  {id:"M122",name:"Patricia Melgar",role:"",company:"",expertise:"Negocios y Estrategia",programs:["CLP26"],status:"Active",linkedin:"www.linkedin.com/in/patricia-melgar-71360228/",desc:"Mentor/a en CLP26 (Perú); acompaña a FIVRA."},
+  {id:"M123",name:"Patricia Vidal",role:"",company:"",expertise:"Operaciones y Tecnología",programs:["CLP26"],status:"Active",linkedin:"www.linkedin.com/in/patricia-vidal-izaguirre",desc:"Mentor/a en CLP26 (Perú); acompaña a WindLever."},
+  {id:"M124",name:"Raúl Campos",role:"",company:"",expertise:"Negocios y Estrategia",programs:["CLP26"],status:"Active",linkedin:"www.linkedin.com/in/raulcamposrosas/",desc:"Mentor/a en CLP26 (Perú); acompaña a PIROSA."},
+  {id:"M125",name:"Santiago Aristizábal",role:"",company:"",expertise:"Negocios y Estrategia",programs:["CLP26"],status:"Active",linkedin:"https://www.linkedin.com/in/santiago-aristiz%C3%A1bal-molina-04681657/",desc:"Mentor/a en CLP26 (Colombia); acompaña a DANTIUM."},
+  {id:"M126",name:"Santiago Cruz",role:"",company:"",expertise:"Negocios y Estrategia",programs:["CLP26"],status:"Active",linkedin:"https://www.linkedin.com/in/santiagocruzgonzalez",desc:"Mentor/a en CLP26 (Colombia); acompaña a TERRA IO."},
+  {id:"M127",name:"Sebastián Martínez Pérez",role:"",company:"",expertise:"Negocios y Estrategia",programs:["CLP26"],status:"Active",linkedin:"https://www.linkedin.com/in/sebasmperez/",desc:"Mentor/a en CLP26 (Colombia); acompaña a NextGen Nutrition (Petfly)."}
+];
+
+const TAG_CLASS = {
+  "Impacto y Sostenibilidad":"tag-impacto",
+  "Negocios y Estrategia":"tag-negocio",
+  "Finanzas e Inversión":"tag-finanzas",
+  "Ventas y Mercadeo":"tag-ventas",
+  "Operaciones y Tecnología":"tag-ops",
+  "Legal y Regulatorio":"tag-legal",
+  "RRHH y Cultura":"tag-rrhh"
+};
+const TAG_ICON = {
+  "Impacto y Sostenibilidad":"🌱","Negocios y Estrategia":"📊",
+  "Finanzas e Inversión":"💰","Ventas y Mercadeo":"📣",
+  "Operaciones y Tecnología":"⚙️","Legal y Regulatorio":"⚖️","RRHH y Cultura":"🤝"
+};
+
+function initials(name){
+  return name.split(" ").filter(w=>w.length>2).slice(0,2).map(w=>w[0].toUpperCase()).join("");
+}
+
+function renderCard(m){
+  const avClass = "av-" + (m.id.replace("M","").charCodeAt(0) % 10);
+  const photo = m.photo ? `<img src="${m.photo}" alt="${m.name}" onerror="this.parentElement.textContent='${initials(m.name)}'">` : initials(m.name);
+  const roleText = [m.role, m.company].filter(Boolean).join(" · ") || "&nbsp;";
+  const tagClass = TAG_CLASS[m.expertise] || "tag-negocio";
+  const tagIcon  = TAG_ICON[m.expertise] || "📌";
+  const probBadge = m.confidence === "probable" ? '<span class="probable-badge">verificar</span>' : "";
+  const progs = m.programs.map(p => `<span class="prog-pill ${p.startsWith("CLP25")?"active-prog":""}">${p}</span>`).join("");
+
+  return `<div class="mentor-card" data-status="${m.status}" data-tag="${m.expertise}" data-name="${m.name.toLowerCase()}">
+    <div class="card-top">
+      <div class="avatar ${avClass}">${photo}</div>
+      <div class="card-info">
+        <div class="card-name">${m.name}${probBadge}</div>
+        <div class="card-role">${roleText}</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="card-tag ${tagClass}">${tagIcon} ${m.expertise}</div>
+      ${m.desc ? `<div class="card-desc">${m.desc}</div>` : ""}
+      <div class="card-programs">${progs}</div>
+    </div>
+    <div class="card-footer">
+      <span class="status-pill status-${m.status}">${m.status === "Active" ? "Activo" : m.status}</span>
+      <a href="${m.linkedin}" target="_blank" rel="noopener" class="li-btn">
+        <svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        LinkedIn
+      </a>
+    </div>
+  </div>`;
+}
+
+const grid = document.getElementById("mentor-grid");
+grid.innerHTML = MENTORS.map(renderCard).join("");
+document.getElementById("stat-total").textContent = MENTORS.length;
+updateCount();
+
+let activeStatus = "all", activeTag = null;
+
+document.querySelectorAll(".filter-btn[data-filter]").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".filter-btn[data-filter]").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    activeStatus = btn.dataset.filter;
+    applyFilters();
+  });
+});
+
+document.querySelectorAll(".filter-btn[data-tag]").forEach(btn => {
+  btn.addEventListener("click", () => {
+    if (btn.classList.contains("active")) {
+      btn.classList.remove("active");
+      activeTag = null;
+    } else {
+      document.querySelectorAll(".filter-btn[data-tag]").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      activeTag = btn.dataset.tag;
+    }
+    applyFilters();
+  });
+});
+
+document.getElementById("search").addEventListener("input", applyFilters);
+
+function applyFilters(){
+  const q = document.getElementById("search").value.toLowerCase();
+  let visible = 0;
+  document.querySelectorAll(".mentor-card").forEach(card => {
+    const matchStatus = activeStatus === "all" || card.dataset.status === activeStatus;
+    const matchTag    = !activeTag || card.dataset.tag === activeTag;
+    const matchSearch = !q || card.dataset.name.includes(q) || card.querySelector(".card-role").textContent.toLowerCase().includes(q);
+    const show = matchStatus && matchTag && matchSearch;
+    card.classList.toggle("hidden", !show);
+    if (show) visible++;
+  });
+  updateCount(visible);
+  document.getElementById("empty-state").classList.toggle("visible", visible === 0);
+}
+
+function updateCount(n){
+  const total = n !== undefined ? n : MENTORS.length;
+  document.getElementById("result-count").textContent = total === MENTORS.length ? "" : `${total} de ${MENTORS.length}`;
+}
+</script>
+<script src="/nexus-assets/nexus-nav.js?v=4"></script>
+</body>
+</html>

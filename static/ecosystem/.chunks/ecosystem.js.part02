@@ -1,0 +1,92 @@
+on esc(s) {
+    return String(s || '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  }
+
+  function websiteLink(a) {
+    const tr = t();
+    if (a.website) {
+      const href = a.website.startsWith('http') ? a.website : `https://${a.website}`;
+      return `<a class="link-btn" href="${esc(href)}" target="_blank" rel="noopener">${tr.website}</a>`;
+    }
+    return `<span class="link-btn muted">${tr.websitePending}</span>`;
+  }
+
+  function linkedinLink(a) {
+    const tr = t();
+    if (a.type === 'person') {
+      if (a.linkedin) {
+        return `<a class="li-btn" href="${esc(a.linkedin)}" target="_blank" rel="noopener">${tr.linkedin}</a>`;
+      }
+      return `<span class="li-btn pending">${tr.linkedinPending}</span>`;
+    }
+    return '';
+  }
+
+  function startupExtras(a) {
+    const tr = t();
+    if (a.category !== 'startup') return '';
+    if (a.has_nexus_card && a.nexus_slug) {
+      return `<a class="nexus-btn" href="/s/${esc(a.nexus_slug)}" target="_blank" rel="noopener">${tr.nexusCard}</a>`;
+    }
+    return `<span class="pending-chip">${tr.nexusPending}</span>`;
+  }
+
+  function renderCards(list) {
+    const grid = $('#actor-grid');
+    const tr = t();
+    if (!list.length) {
+      grid.innerHTML = `<div class="empty-grid" style="grid-column:1/-1">${tr.noResults}</div>`;
+      return;
+    }
+    grid.innerHTML = list.map((a) => {
+      const cc = countryCode(a.country);
+      const flag = cc ? COUNTRY_META[cc].flag : '🌍';
+      const relN = degree.get(a.id) || 0;
+      const catLabel = tr.cats[a.category] || a.category;
+      const isStartup = a.category === 'startup';
+      return `
+        <article class="actor-card${isStartup ? ' startup-card' : ''}" data-id="${esc(a.id)}">
+          <div class="ac-top">
+            <div class="ac-icon">${esc(a.name.slice(0, 2).toUpperCase())}</div>
+            <div>
+              <div class="ac-name">${esc(a.name)}</div>
+              <div class="ac-meta">${flag} ${esc(a.country)}${a.city ? ` · ${esc(a.city)}` : ''} · ${relN} ${tr.relationsN}</div>
+            </div>
+          </div>
+          <div class="ac-badges">
+            <span class="badge${isStartup ? ' cat-startup' : ''}">${esc(catLabel)}</span>
+            <span class="badge">${esc(tr.sectors[SECTOR_MAP[a.category] || 'private'])}</span>
+          </div>
+          ${a.notes ? `<p class="ac-notes">${esc(a.notes)}</p>` : ''}
+          <div class="ac-links">
+            ${websiteLink(a)}
+            ${linkedinLink(a)}
+            ${startupExtras(a)}
+          </div>
+        </article>`;
+    }).join('');
+  }
+
+  function updateStats(list) {
+    $('#stat-actors').textContent = String(list.length);
+    $('#stat-relations').textContent = String(relations.length);
+    const countries = new Set(list.map((a) => a.country));
+    $('#stat-countries').textContent = String(countries.size);
+    $('#result-meta').textContent = `${list.length} / ${actors.length}`;
+  }
+
+  function renderCharts(list) {
+    const tr = t();
+    const byCat = {};
+    CATEGORY_KEYS.forEach((k) => { byCat[k] = 0; });
+    list.forEach((a) => { byCat[a.category] = (byCat[a.category] || 0) + 1; });
+
+    const catLabels = CATEGORY_KEYS.map((k) => tr.cats[k]);
+    const catData = CATEGORY_KEYS.map((k) => byCat[k]);
+
+    if (chartCat) chartCat.destroy();
+    chartCat = new Chart($('#chart-category'), {
+      type: 'bar',
+      data: {
+        labels: catLabels,
+        datasets: [{ label: tr.chartCat, data: catData, back

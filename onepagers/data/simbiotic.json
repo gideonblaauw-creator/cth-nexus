@@ -1,0 +1,184 @@
+{
+  "slug": "simbiotic",
+  "name": "Simbiotic",
+  "website": "https://redsimbiotic.com",
+  "badge_en": "Circular Economy &middot; CLAC22",
+  "badge_es": "Economía circular &middot; CLAC22",
+  "hero_image": "./assets/hero.jpg",
+  "hero_sub_en": "redsimbiotic.com &middot; Colombia &middot; Chía &middot; Circular Economy &middot; Stage: Seed &middot; CT-WA-003",
+  "hero_sub_es": "redsimbiotic.com &middot; Colombia &middot; Chía &middot; Economía circular &middot; Etapa: Seed &middot; CT-WA-003",
+  "pitch_en": "Sustainability consultancy connecting businesses with certified waste networks, and developing a platform for regenerative tourism destination management in Colombia.",
+  "pitch_es": "Consultora de sostenibilidad que conecta empresas con redes certificadas de gestión de residuos, y desarrolla una plataforma para la gestión de destinos de turismo regenerativo.",
+  "cta_pitch_en": "Simbiotic connects clients with certified waste networks and builds digital platforms (including ADN Sostenible and Triply) for regenerative tourism destination management.",
+  "cta_pitch_es": "Simbiotic conecta clientes con redes certificadas de residuos y construye plataformas digitales (incluidas ADN Sostenible y Triply) para gestión de destinos de turismo regenerativo.",
+  "cta_btn_en": "redsimbiotic.com",
+  "cta_btn_es": "redsimbiotic.com",
+  "ribbon": [
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    },
+    {
+      "val": "Seed",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLAC22",
+      "sub_es": "CLAC22"
+    },
+    {
+      "val": "Circular",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Métricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CLAC22",
+        "lab_en": "Program",
+        "lab_es": "Programa"
+      },
+      {
+        "num": "CTH",
+        "lab_en": "Hub",
+        "lab_es": "Hub"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Companies and tourism destinations lack integrated tools to manage waste responsibly and measure sustainability performance across value chains.",
+      "head_es": "Las empresas y destinos turísticos carecen de herramientas integradas para gestionar residuos responsablemente y medir desempeño de sostenibilidad en cadenas de valor.",
+      "body_en": "Companies and tourism destinations lack integrated tools to manage waste responsibly and measure sustainability performance across value chains.",
+      "body_es": "Las empresas y destinos turísticos carecen de herramientas integradas para gestionar residuos responsablemente y medir desempeño de sostenibilidad en cadenas de valor.",
+      "bg": "./assets/bg-problem.jpg",
+      "bg_credit_en": "Photo: Simbiotic (redsimbiotic.com)",
+      "bg_credit_es": "Foto: Simbiotic (redsimbiotic.com)"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "🌱",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "Simbiotic connects clients with certified waste networks and builds digital platforms (including ADN Sostenible and Triply) for regenerative tourism destination management.",
+          "text_es": "Simbiotic conecta clientes con redes certificadas de residuos y construye plataformas digitales (incluidas ADN Sostenible y Triply) para gestión de destinos de turismo regenerativo."
+        },
+        {
+          "icon": "🔗",
+          "label_en": "Program",
+          "label_es": "Programa",
+          "text_en": "Simbiotic — CLAC22 (CleantechHUB).",
+          "text_es": "Simbiotic — CLAC22 (CleantechHUB)."
+        },
+        {
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "Based in Colombia (Chía). Public site: redsimbiotic.com.",
+          "text_es": "Con base en Colombia (Chía). Sitio público: redsimbiotic.com."
+        }
+      ],
+      "bg": "./assets/bg-solution.jpg",
+      "bg_credit_en": "Photo: Simbiotic team (redsimbiotic.com)",
+      "bg_credit_es": "Foto: Equipo Simbiotic (redsimbiotic.com)"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact &amp; Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Wiki source",
+          "title_es": "Fuente Wiki",
+          "text_en": "Profile synced from BookStack Startup Portfolio + Odoo (SoT).",
+          "text_es": "Perfil sincronizado desde BookStack Startup Portfolio + Odoo (SoT)."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomía",
+          "text_en": "Recycling & Materials Recovery · Supply Chain Traceability",
+          "text_es": "Recycling & Materials Recovery · Supply Chain Traceability"
+        }
+      ],
+      "bg": "./assets/bg-impact.jpg",
+      "bg_credit_en": "Photo: Simbiotic — ADN Sostenible (redsimbiotic.com)",
+      "bg_credit_es": "Foto: Simbiotic — ADN Sostenible (redsimbiotic.com)"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Paola Bravo Villacís",
+          "role_en": "CEO &amp; Co-founder &middot; CLAC22",
+          "role_es": "CEO y Cofundadora &middot; CLAC22",
+          "bio_en": "CEO and co-founder of Simbiotic S.A.S. Public LinkedIn profile.",
+          "bio_es": "CEO y cofundadora de Simbiotic S.A.S. Perfil público en LinkedIn.",
+          "initials": "PB",
+          "linkedin": "https://www.linkedin.com/in/paobv11"
+        },
+        {
+          "name": "Jorge Sandoval H.",
+          "role_en": "CMO &amp; R&amp;D Co-founder &middot; CLAC22",
+          "role_es": "CMO y Cofundador I+D &middot; CLAC22",
+          "bio_en": "Co-founder leading innovation and marketing at Simbiotic. Public LinkedIn profile.",
+          "bio_es": "Cofundador que lidera innovación y marketing en Simbiotic. Perfil público en LinkedIn.",
+          "initials": "JS",
+          "linkedin": "https://www.linkedin.com/in/jorgesimbiotic"
+        }
+      ],
+      "dream_en": "Program: CLAC22. CT taxonomy: CT-WA-003. Verified KPIs: [PENDIENTE].",
+      "dream_es": "Programa: CLAC22. Taxonomía CT: CT-WA-003. KPIs verificados: [PENDIENTE].",
+      "bg": "./assets/bg-team.jpg",
+      "bg_credit_en": "Photo: Christina @ wocintechchat.com / Unsplash",
+      "bg_credit_es": "Foto: Christina @ wocintechchat.com / Unsplash"
+    }
+  ],
+  "hero_credit_en": "Photo: Simbiotic — Triply sustainable tourism (redsimbiotic.com)",
+  "hero_credit_es": "Foto: Simbiotic — turismo sostenible Triply (redsimbiotic.com)",
+  "cta_bg": "./assets/bg-cta.jpg",
+  "cta_bg_credit_en": "Photo: Zbynek Burival / Unsplash",
+  "cta_bg_credit_es": "Foto: Zbynek Burival / Unsplash"
+}

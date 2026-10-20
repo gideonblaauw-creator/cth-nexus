@@ -1,60 +1,71 @@
 {
   "slug": "clean-sim",
-  "name": "Clean Sim (by IMIC)",
+  "name": "Clean Sim",
   "website": "https://lectureseries.tech/",
-  "youtube": "",
-  "badge_en": "Eco-simulators from clinical residues",
-  "badge_es": "Eco-simuladores de residuos clínicos",
-  "hero_image": "./assets/hero.jpg",
-  "hero_sub_en": "CT-WA-003 · Recycling &amp; Materials Recovery · Colombia",
-  "hero_sub_es": "CT-WA-003 · Reciclaje y recuperación de materiales · Colombia",
-  "pitch_en": "We create and sell Eco-Simulators made from clinical residues — hyper-realistic surgical practice without large upfront investment.",
-  "pitch_es": "Creamos y vendemos Eco-Simuladores hechos de residuos clínicos — práctica quirúrgica hiperrealista sin gran inversión inicial.",
+  "badge_en": "Air & Environment &middot; CLP26 Colombia",
+  "badge_es": "Air & Environment &middot; CLP26 Colombia",
+  "hero_image": "https://images.unsplash.com/photo-1470071459604-3b5ec3a8fe05?w=1200&q=80",
+  "hero_sub_en": "lectureseries.tech &middot; Colombia &middot; Air & Environment &middot; Stage: Sketches &middot; CT-WA-005",
+  "hero_sub_es": "lectureseries.tech &middot; Colombia &middot; Air & Environment &middot; Etapa: Sketches &middot; CT-WA-005",
+  "pitch_en": "Medical waste is currently the third leading cause of environmental impact. We design hyper-realistic simulators using reusable (non-hazardous) hospital waste to help healthcare professionals practice and develop their skills.",
+  "pitch_es": "Medical waste is currently the third leading cause of environmental impact. We design hyper-realistic simulators using reusable (non-hazardous) hospital waste to help healthcare professionals practice and develop their skills.",
+  "cta_pitch_en": "The process of disposing of medical waste is costly for hospitals. We will take care of it and add value to the waste by using it to train medical staff and make quality healthcare accessible to…",
+  "cta_pitch_es": "The process of disposing of medical waste is costly for hospitals. We will take care of it and add value to the waste by using it to train medical staff and make quality healthcare accessible to…",
   "cta_btn_en": "Visit website",
   "cta_btn_es": "Visitar sitio",
-  "cta_pitch_en": "Transforming residues, saving lives while training professionals.",
-  "cta_pitch_es": "Transformando residuos, salvando vidas mientras formamos profesionales.",
   "ribbon": [
-    {
-      "val": "$100",
-      "lab_en": "B2C price",
-      "lab_es": "Precio B2C",
-      "sub_en": "Deck",
-      "sub_es": "Deck"
-    },
-    {
-      "val": "$8K",
-      "lab_en": "B2B price",
-      "lab_es": "Precio B2B",
-      "sub_en": "Deck",
-      "sub_es": "Deck"
-    },
-    {
-      "val": "$350M+",
-      "lab_en": "Potential market",
-      "lab_es": "Mercado potencial",
-      "sub_en": "Health care",
-      "sub_es": "Salud"
-    },
     {
       "val": "Sketches",
       "lab_en": "Stage",
       "lab_es": "Etapa",
-      "sub_en": "CLP26",
-      "sub_es": "CLP26"
+      "sub_en": "CLP26 CO",
+      "sub_es": "CLP26 CO"
+    },
+    {
+      "val": "Air & Enviro",
+      "lab_en": "Category",
+      "lab_es": "Categoría",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "CT-WA-005",
+      "lab_en": "CT Taxonomy",
+      "lab_es": "Taxonomía CT",
+      "sub_en": "CTH",
+      "sub_es": "CTH"
+    },
+    {
+      "val": "6",
+      "lab_en": "Team",
+      "lab_es": "Equipo",
+      "sub_en": "Application",
+      "sub_es": "Aplicación"
     }
   ],
   "problem_stats": [
     [
       {
-        "num": "3,500+",
-        "lab_en": "Student community (COL)",
-        "lab_es": "Comunidad estudiantes (COL)"
+        "num": "CLP",
+        "lab_en": "2026 Colombia",
+        "lab_es": "2026 Colombia"
       },
       {
-        "num": "$5M+",
-        "lab_en": "Target (Bogotá)",
-        "lab_es": "Objetivo (Bogotá)"
+        "num": "CTH",
+        "lab_en": "Accelerator",
+        "lab_es": "Acelerador"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "Metrics pending",
+        "lab_es": "Métricas pendientes"
+      },
+      {
+        "num": "CO",
+        "lab_en": "Colombia",
+        "lab_es": "Colombia"
       }
     ]
   ],
@@ -62,111 +73,176 @@
     {
       "num": 1,
       "type": "split",
-      "title_en": "The Deal",
-      "title_es": "El Trato",
-      "head_en": "Eco-Simulators for hospitals, universities, students &amp; professionals",
-      "head_es": "Eco-Simuladores para hospitales, universidades, estudiantes y profesionales",
-      "body_en": "B2B hospitals &amp; universities; B2C students &amp; professionals. Deck cites ~$50K/year revenue target and simulator pricing $100 B2C / $8K B2B.",
-      "body_es": "B2B hospitales y universidades; B2C estudiantes y profesionales. Deck cita meta ~$50K/año ingresos y precios $100 B2C / $8K B2B.",
-      "bg": "./assets/bg-problem.jpg"
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Currently, medical waste is the third leading cause of environmental impact worldwide. Some of…",
+      "head_es": "Currently, medical waste is the third leading cause of environmental impact worldwide. Some of…",
+      "body_en": "Currently, medical waste is the third leading cause of environmental impact worldwide. Some of this non-hazardous waste is recyclable and can be used as a substitute for raw materials. However, this is not yet the norm.",
+      "body_es": "Currently, medical waste is the third leading cause of environmental impact worldwide. Some of this non-hazardous waste is recyclable and can be used as a substitute for raw materials. However, this is not yet the norm.",
+      "bg": "https://images.unsplash.com/photo-1470071459604-3b5ec3a8fe05?w=1200&q=80"
     },
     {
       "num": 2,
       "type": "solution",
-      "title_en": "Product",
-      "title_es": "Producto",
       "overlay": "rgba(102,147,72,.30)",
+      "title_en": "How Clean Sim Works",
+      "title_es": "Cómo Funciona Clean Sim",
       "steps": [
         {
-          "icon": "♻️",
-          "label_en": "Recycle",
-          "label_es": "Reciclar",
-          "text_en": "Reprocess clinical residues into simulator materials.",
-          "text_es": "Reprocesar residuos clínicos en materiales de simulador."
+          "icon": "🎯",
+          "label_en": "Focus",
+          "label_es": "Enfoque",
+          "text_en": "The process of disposing of medical waste is costly for hospitals. We will take care of it and add value to the waste by using it to train medical staff and…",
+          "text_es": "The process of disposing of medical waste is costly for hospitals. We will take care of it and add value to the waste by using it to train medical staff and…"
         },
         {
-          "icon": "🩺",
-          "label_en": "Simulate",
-          "label_es": "Simular",
-          "text_en": "Hyper-realistic micro surgical simulator kits.",
-          "text_es": "Kits de simulador micro quirúrgico hiperrealistas."
+          "icon": "⚙️",
+          "label_en": "Model",
+          "label_es": "Modelo",
+          "text_en": "Hospitals pay a high price to dispose of medical waste; we will do it at a lower cost and use non-hazardous waste as…",
+          "text_es": "Hospitals pay a high price to dispose of medical waste; we will do it at a lower cost and use non-hazardous waste as…"
         },
         {
-          "icon": "🏥",
-          "label_en": "Train",
-          "label_es": "Formar",
-          "text_en": "Safe learning without risk to patients.",
-          "text_es": "Aprendizaje seguro sin riesgo para pacientes."
+          "icon": "🌎",
+          "label_en": "Market",
+          "label_es": "Mercado",
+          "text_en": "B2B and B2C. B2B refers to organizations that provide training for healthcare professionals: hospitals, educational…",
+          "text_es": "B2B and B2C. B2B refers to organizations that provide training for healthcare professionals: hospitals, educational…"
         },
         {
-          "icon": "🌍",
-          "label_en": "Impact",
-          "label_es": "Impacto",
-          "text_en": "Residues diverted from incineration (deck).",
-          "text_es": "Residuos desviados de incineración (deck)."
+          "icon": "📈",
+          "label_en": "Traction",
+          "label_es": "Tracción",
+          "text_en": "Hospitals have requested simulators from us for staff training. We conduct workshops using these hyper-realistic…",
+          "text_es": "Hospitals have requested simulators from us for staff training. We conduct workshops using these hyper-realistic…"
         }
       ],
-      "bg": "./assets/bg-solution.jpg"
+      "bg": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80"
     },
     {
       "num": 3,
-      "type": "chart",
-      "title_en": "Market",
-      "title_es": "Mercado",
-      "bars": [
-        {
-          "val": "$350M+",
-          "label": "Potential",
-          "height": 90
-        },
-        {
-          "val": "$60M+",
-          "label": "Accessible LAT",
-          "height": 65
-        },
-        {
-          "val": "$5M+",
-          "label": "Target Bog",
-          "height": 45
-        }
+      "type": "table",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Business Snapshot",
+      "title_es": "Resumen del Negocio",
+      "headers": [
+        [
+          "Dimension",
+          "Dimensión"
+        ],
+        [
+          "Detail (EN)",
+          "Detalle"
+        ],
+        [
+          "Status",
+          "Estado"
+        ]
       ],
-      "note_en": "Deck: students &amp; professionals in health care; regulatory pressure for simulation hours.",
-      "note_es": "Deck: estudiantes y profesionales en salud; presión regulatoria por horas de simulación.",
-      "accent_after": true,
-      "bg": "./assets/bg-market.jpg"
+      "rows": [
+        [
+          [
+            "Category",
+            "Categoría"
+          ],
+          [
+            "Air & Environment",
+            "Air & Environment"
+          ],
+          [
+            "CLP26",
+            "CLP26"
+          ]
+        ],
+        [
+          [
+            "Stage",
+            "Etapa"
+          ],
+          [
+            "Sketches",
+            "Sketches"
+          ],
+          [
+            "Application",
+            "Aplicación"
+          ]
+        ],
+        [
+          [
+            "CT Taxonomy",
+            "Taxonomía CT"
+          ],
+          [
+            "CT-WA-005",
+            "CT-WA-005"
+          ],
+          [
+            "CTH",
+            "CTH"
+          ]
+        ]
+      ],
+      "bg": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80"
     },
     {
       "num": 4,
       "type": "impact",
-      "title_en": "Climate Impact",
-      "title_es": "Impacto Climático",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Climate &amp; Impact",
+      "title_es": "Clima e Impacto",
       "cards": [
         {
-          "icon": "🔥",
-          "title_en": "Incineration avoided",
-          "title_es": "Incineración evitada",
-          "text_en": "Every simulator uses kilograms of residues planned for incineration (deck).",
-          "text_es": "Cada simulador usa kilogramos de residuos planeados para incineración (deck)."
+          "icon": "🌱",
+          "title_en": "Climate focus",
+          "title_es": "Enfoque climático",
+          "text_en": "Currently, medical waste is the third leading cause of environmental impact worldwide. Some of this non-hazardous waste is recyclable and can be used as a substitute for raw…",
+          "text_es": "Currently, medical waste is the third leading cause of environmental impact worldwide. Some of this non-hazardous waste is recyclable and can be used as a substitute for raw…"
+        },
+        {
+          "icon": "💡",
+          "title_en": "Solution",
+          "title_es": "Solución",
+          "text_en": "The process of disposing of medical waste is costly for hospitals. We will take care of it and add value to the waste by using it to train medical staff and make quality…",
+          "text_es": "The process of disposing of medical waste is costly for hospitals. We will take care of it and add value to the waste by using it to train medical staff and make quality…"
+        },
+        {
+          "icon": "🤝",
+          "title_en": "CLP 2026",
+          "title_es": "CLP 2026",
+          "text_en": "ClimateLaunchpad Colombia 2026 bootcamp cohort — CleantechHUB accelerator knowledge transfer.",
+          "text_es": "Cohorte bootcamp ClimateLaunchpad Colombia 2026 — transferencia de conocimiento acelerador CleantechHUB."
+        },
+        {
+          "icon": "📋",
+          "title_en": "External support",
+          "title_es": "Apoyo externo",
+          "text_en": "We have received support from the Externadista Entrepreneurship Center, the Chamber of Commerce, and the GSEA; we have partnerships with Grupo Medi; and we are working on a…",
+          "text_es": "We have received support from the Externadista Entrepreneurship Center, the Chamber of Commerce, and the GSEA; we have partnerships with Grupo Medi; and we are working on a…"
         }
       ],
-      "bg": "./assets/bg-impact.jpg"
+      "bg": "https://images.unsplash.com/photo-1470071459604-3b5ec3a8fe05?w=1200&q=80"
     },
     {
       "num": 5,
       "type": "team",
-      "title_en": "Founders",
-      "title_es": "Fundadores",
-      "members": [],
-      "dream_en": "CT-WA-003 (deck; wiki CT-WA-005 — taxonomy review). Founders pending LinkedIn (HITL).",
-      "dream_es": "CT-WA-003 (deck; wiki CT-WA-005 — revisión taxonomía). Fundadores pendientes LinkedIn (HITL).",
-      "bg": "./assets/bg-team.jpg"
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Victor Manuel Pedreros Madrigal",
+          "role_en": "Founder &middot; CLP26 Colombia",
+          "role_es": "Fundador(a) &middot; CLP26 Colombia",
+          "bio_en": "A multidisciplinary team comprising a physician who specialized in the United States, a physician with a master’s degree in education, an industrial designer, an international business professional, a biomedical…",
+          "bio_es": "A multidisciplinary team comprising a physician who specialized in the United States, a physician with a master’s degree in education, an industrial designer, an international business professional, a biomedical…",
+          "initials": "VM"
+        }
+      ],
+      "dream_en": "CT taxonomy: CT-WA-005. CLP 2026 Colombia bootcamp cohort — CleantechHUB accelerator. Pitch deck: [PENDIENTE]. Revenue / ARR: [PENDIENTE].",
+      "dream_es": "Taxonomía CT: CT-WA-005. Cohorte bootcamp CLP 2026 Colombia — acelerador CleantechHUB. Pitch deck: [PENDIENTE]. Ingresos / ARR: [PENDIENTE].",
+      "bg": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80"
     }
-  ],
-  "deck_pdf": {
-    "drive_id": "1AZScp4HQ8DDmHqegDvdKbOf0YpR0UMZD",
-    "view_url": "https://drive.google.com/file/d/1AZScp4HQ8DDmHqegDvdKbOf0YpR0UMZD/view",
-    "slide_images": true,
-    "pages": 9,
-    "bg": "./assets/bg-deck.jpg"
-  }
+  ]
 }

@@ -1,0 +1,32 @@
+--- "/opt/claude-files/Projects/CTH - Climate_Data_Platform/datathon-vercel-cta-2026-09-14/source/portal.css"	2026-09-14 21:56:40.662769476 +0000
++++ "/opt/claude-files/Projects/CTH - Climate_Data_Platform/datathon-vercel-cta-2026-09-14/preview/portal.css"	2026-09-14 21:56:53.142919116 +0000
+@@ -393,3 +393,29 @@
+   background: var(--bg); border: 1px solid var(--line);
+   border-radius: 4px; padding: 1px 5px; color: var(--blue);
+ }
++
++/* ── CEE / CCB demo outbound tile (Marlene Vercel link) ───── */
++.cee-demo-tile {
++  margin-bottom: 20px;
++  background: linear-gradient(135deg, rgba(12,73,138,.06) 0%, rgba(59,109,17,.08) 100%);
++  border: 1px solid rgba(12,73,138,.18);
++  border-radius: var(--r);
++  box-shadow: var(--shadow);
++}
++.cee-demo-inner {
++  display: flex; align-items: center; justify-content: space-between;
++  gap: 20px; flex-wrap: wrap; padding: 20px 22px;
++}
++.cee-demo-copy { flex: 1; min-width: 240px; }
++.cee-demo-copy h2 {
++  font-size: 17px; font-weight: 800; color: var(--ink);
++  margin: 10px 0 8px; line-height: 1.25;
++}
++.cee-demo-lead { font-size: 13.5px; color: var(--ink); margin: 0 0 6px; max-width: 560px; line-height: 1.55; }
++.cee-demo-en { font-size: 12.5px; color: var(--muted); margin: 0; }
++.cee-demo-btn { flex-shrink: 0; }
++.cee-demo-ext { font-size: 14px; opacity: .85; margin-left: 2px; }
++@media (max-width: 580px) {
++  .cee-demo-inner { flex-direction: column; align-items: stretch; }
++  .cee-demo-btn { width: 100%; justify-content: center; }
++}

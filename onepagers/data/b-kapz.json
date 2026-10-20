@@ -1,0 +1,181 @@
+{
+  "slug": "b-kapz",
+  "name": "b-Kapz",
+  "website": "https://www.b-kapz.com/",
+  "badge_en": "AgTech &middot; Microencapsulation &middot; CleantechHUB Acceleration",
+  "badge_es": "AgTech &middot; Microencapsulación &middot; Aceleración CleantechHUB",
+  "hero_image": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1200&q=80",
+  "hero_sub_en": "b-kapz.com &middot; Buenos Aires, Argentina &middot; AgTech / BioTech &middot; Stage: Validation &middot; CT taxonomy: [PENDIENTE]",
+  "hero_sub_es": "b-kapz.com &middot; Buenos Aires, Argentina &middot; AgTech / BioTech &middot; Etapa: Validación &middot; Taxonomía CT: [PENDIENTE]",
+  "pitch_en": "Microencapsulation platform that turns unstable liquid agricultural bioinputs into stable, concentrated solid formats — improving shelf life, logistics, and compatibility with conventional inputs.",
+  "pitch_es": "Plataforma de microencapsulación que convierte bioinsumos agrícolas líquidos inestables en formatos sólidos estables y concentrados — mejorando vida útil, logística y compatibilidad con insumos convencionales.",
+  "cta_pitch_en": "Unlock scalable biological inputs for agriculture through stable microencapsulation (also operating as BeCaps).",
+  "cta_pitch_es": "Desbloquear bioinsumos agrícolas escalables mediante microencapsulación estable (también operando como BeCaps).",
+  "cta_btn_en": "Visit website",
+  "cta_btn_es": "Visitar sitio",
+  "cta_bg": "https://images.unsplash.com/photo-1511497584788-876760111969?w=1200&q=80",
+  "ribbon": [
+    {
+      "val": "AR",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Argentina",
+      "sub_es": "Argentina"
+    },
+    {
+      "val": "Valid.",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "Pre-Seed",
+      "sub_es": "Pre-Seed"
+    },
+    {
+      "val": "AgTech",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Bioinputs",
+      "sub_es": "Bioinsumos"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Métricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
+  ],
+  "problem_stats": [
+    [
+      {
+        "num": "CTH",
+        "lab_en": "Acceleration",
+        "lab_es": "Aceleración"
+      },
+      {
+        "num": "B2B",
+        "lab_en": "Model",
+        "lab_es": "Modelo"
+      }
+    ],
+    [
+      {
+        "num": "[P]",
+        "lab_en": "KPIs pending",
+        "lab_es": "KPIs pendientes"
+      },
+      {
+        "num": "CABA",
+        "lab_en": "City",
+        "lab_es": "Ciudad"
+      }
+    ]
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "type": "split",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "The Problem",
+      "title_es": "El Problema",
+      "head_en": "Low adoption of bioinputs due to instability, short shelf life, and logistics complexity.",
+      "head_es": "Baja adopción de bioinsumos por inestabilidad, corta vida útil y complejidad logística.",
+      "body_en": "Liquid microbial and biological products often need refrigeration, degrade in the field, and cannot easily combine with chemical fertilizers — making them costly and hard to scale for farmers and input companies.",
+      "body_es": "Los productos microbianos y biológicos líquidos suelen requerir refrigeración, degradarse en campo y no combinarse fácilmente con fertilizantes químicos — encareciendo y limitando la escala para agricultores y empresas de insumos.",
+      "bg": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1200&q=80"
+    },
+    {
+      "num": 2,
+      "type": "solution",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "The Solution",
+      "title_es": "La Solución",
+      "steps": [
+        {
+          "icon": "🧬",
+          "label_en": "Encapsulate",
+          "label_es": "Encapsular",
+          "text_en": "Proprietary matrix and spray-drying process protect microbes and convert liquids into concentrated solids.",
+          "text_es": "Matriz propia y proceso de spray-drying protegen microbios y convierten líquidos en sólidos concentrados."
+        },
+        {
+          "icon": "📦",
+          "label_en": "Stabilize",
+          "label_es": "Estabilizar",
+          "text_en": "Extended shelf life at room temperature and reduced volume/weight simplify storage and transport.",
+          "text_es": "Mayor vida útil a temperatura ambiente y menor volumen/peso simplifican almacenamiento y transporte."
+        },
+        {
+          "icon": "🌾",
+          "label_en": "Integrate",
+          "label_es": "Integrar",
+          "text_en": "Enables hybrid formulations compatible with conventional fertilizers and broader field use.",
+          "text_es": "Permite formulaciones híbridas compatibles con fertilizantes convencionales y mayor uso en campo."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&q=80"
+    },
+    {
+      "num": 3,
+      "type": "impact",
+      "overlay": "rgba(102,147,72,.30)",
+      "title_en": "Impact &amp; Program",
+      "title_es": "Impacto y Programa",
+      "cards": [
+        {
+          "icon": "📋",
+          "title_en": "Portfolio source",
+          "title_es": "Fuente portafolio",
+          "text_en": "CleantechHUB Top StartUps (Portafolio CTH sheet) — Acceleration track; public company data from b-kapz.com / becaps.bio.",
+          "text_es": "Top StartUps CleantechHUB (hoja Portafolio CTH) — track Aceleración; datos públicos en b-kapz.com / becaps.bio."
+        },
+        {
+          "icon": "🎯",
+          "title_en": "Taxonomy",
+          "title_es": "Taxonomía",
+          "text_en": "AgTech / biological inputs — formal CT node: [PENDIENTE].",
+          "text_es": "AgTech / bioinsumos — nodo CT formal: [PENDIENTE]."
+        }
+      ],
+      "bg": "https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=1200&q=80"
+    },
+    {
+      "num": 4,
+      "type": "team",
+      "overlay": "rgba(12,73,138,.30)",
+      "title_en": "Leadership",
+      "title_es": "Liderazgo",
+      "members": [
+        {
+          "name": "Emiliano Agustín Barbero",
+          "initials": "EB",
+          "role_en": "Co-founder &amp; CEO",
+          "role_es": "Cofundador y CEO",
+          "bio_en": "Public-facing CEO. Source: b-kapz.com team page; Argentina Ministry trade profile.",
+          "bio_es": "CEO público. Fuente: web b-kapz.com; perfil Next from Argentina.",
+          "linkedin": "https://www.linkedin.com/in/emilianobarbero"
+        },
+        {
+          "name": "Juan Manuel Crespo",
+          "initials": "JC",
+          "role_en": "Co-founder &amp; COO",
+          "role_es": "Cofundador y COO",
+          "bio_en": "Operations and bioprocess scale-up. Source: b-kapz.com team page.",
+          "bio_es": "Operaciones y escalado de bioprocesos. Fuente: web b-kapz.com.",
+          "linkedin": "https://www.linkedin.com/in/juanmanuelcrespo"
+        },
+        {
+          "name": "María Flavia Luna",
+          "initials": "ML",
+          "role_en": "Co-founder &amp; CSO",
+          "role_es": "Cofundadora y CSO",
+          "bio_en": "Chief Scientific Officer — microencapsulation R&amp;D. Source: b-kapz.com team page.",
+          "bio_es": "Directora científica — I+D en microencapsulación. Fuente: web b-kapz.com.",
+          "linkedin": "https://www.linkedin.com/in/maria-flavia-luna-a5bb8322"
+        }
+      ],
+      "dream_en": "Program: CleantechHUB Acceleration (Top StartUps). Verified KPIs on profile: [PENDIENTE]. Pitch deck: [PENDIENTE]. Image credits — Hero: Unsplash (photo-1625246333195) — cropland / agrifood; §01: Unsplash (photo-1416879595882) — greenhouse agriculture; §02: Unsplash (photo-1500382017468) — farmland horizon; §03: Unsplash (photo-1447933601403) — coffee/agriculture landscape; §04: Unsplash (photo-1576086213369) — laboratory microscope; CTA: Unsplash (photo-1511497584788) — roasted coffee / agrifood.",
+      "dream_es": "Programa: Aceleración CleantechHUB (Top StartUps). KPIs verificados en perfil: [PENDIENTE]. Pitch deck: [PENDIENTE]. Image credits — Hero: Unsplash (photo-1625246333195) — cropland / agrifood; §01: Unsplash (photo-1416879595882) — greenhouse agriculture; §02: Unsplash (photo-1500382017468) — farmland horizon; §03: Unsplash (photo-1447933601403) — coffee/agriculture landscape; §04: Unsplash (photo-1576086213369) — laboratory microscope; CTA: Unsplash (photo-1511497584788) — roasted coffee / agrifood.",
+      "bg": "https://images.unsplash.com/photo-1576086213369-97a306d36557?w=1200&q=80"
+    }
+  ]
+}
