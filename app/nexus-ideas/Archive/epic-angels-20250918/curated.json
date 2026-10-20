@@ -1,0 +1,290 @@
+[
+  {
+    "startup_name": "ArtexLab",
+    "aliases": [
+      "Artex Lab"
+    ],
+    "app_id": "20012",
+    "bookstack_page_id": 1582,
+    "slug": "artexlab-clean-industry",
+    "fit_note": "CLP26 Colombia; PDF notes excellent female leadership (Laura Catalina Gutiérrez Niño & Claudia Paola). Pre-seed/seed LATAM cleantech.",
+    "confidence": "strong",
+    "women_clevel_status": "confirmed",
+    "source": "CLP26 Colombia end-report",
+    "website": "",
+    "website_verified": false,
+    "shareable": false,
+    "website_verify_status": "missing",
+    "website_verify_note": "No website on record"
+  },
+  {
+    "startup_name": "AGROLIDER",
+    "app_id": "20008",
+    "bookstack_page_id": 1578,
+    "slug": "agrolider-food-agriculture",
+    "fit_note": "CLP26 Colombia; Derly Camargo Guerrero (women rep). Ag-tech, early stage.",
+    "confidence": "strong",
+    "women_clevel_status": "confirmed",
+    "source": "CLP26 Colombia end-report",
+    "website": "",
+    "website_verified": false,
+    "shareable": false,
+    "website_verify_status": "missing",
+    "website_verify_note": "No website on record"
+  },
+  {
+    "startup_name": "CLIMATIK",
+    "aliases": [
+      "BARUK COMPANY BIO CLIMATIK SAS",
+      "Bio Climatik"
+    ],
+    "app_id": "10015",
+    "bookstack_page_id": 1310,
+    "slug": "baruk-company-bio-climatik-sas-clean-industry",
+    "fit_note": "CLP26 Colombia; Kelly Basabe Alvarado. BookStack page title uses legal name BARUK COMPANY BIO CLIMATIK SAS.",
+    "confidence": "strong",
+    "women_clevel_status": "confirmed",
+    "source": "CLP26 Colombia end-report",
+    "website": "",
+    "website_verified": false,
+    "shareable": false,
+    "website_verify_status": "missing",
+    "website_verify_note": "No website on record"
+  },
+  {
+    "startup_name": "Aterna",
+    "app_id": "20052",
+    "bookstack_page_id": 1622,
+    "slug": "aterna-food-agriculture",
+    "fit_note": "CLP26 Colombia; Jennifer Pérez Romero — verify company↔rep mapping from PDF.",
+    "confidence": "strong",
+    "women_clevel_status": "PENDIENTE",
+    "source": "CLP26 Colombia end-report",
+    "website": "",
+    "website_verified": false,
+    "shareable": false,
+    "website_verify_status": "missing",
+    "website_verify_note": "No website on record"
+  },
+  {
+    "startup_name": "CurubaTech",
+    "app_id": "20003",
+    "bookstack_page_id": 1573,
+    "slug": "curubatech-food-agriculture",
+    "fit_note": "CLP26 Colombia; Paula Aponte (co-founder/rep).",
+    "confidence": "strong",
+    "women_clevel_status": "confirmed",
+    "source": "CLP26 Colombia end-report",
+    "website": "https://curuba.tech/en/",
+    "website_verified": true,
+    "shareable": true,
+    "website_verify_status": "ok",
+    "website_verify_note": "HTTP 200"
+  },
+  {
+    "startup_name": "CommunityLab",
+    "aliases": [
+      "Communitylab",
+      "communitylab s.a.s"
+    ],
+    "app_id": "20018",
+    "bookstack_page_id": 1588,
+    "slug": "communitylab-clean-industry",
+    "fit_note": "CLP26 Colombia; Beatriz Eugenia Correa Pérez (co). Duplicate BookStack page id 1587.",
+    "confidence": "strong",
+    "women_clevel_status": "confirmed",
+    "source": "CLP26 Colombia end-report",
+    "website": "",
+    "website_verified": false,
+    "shareable": false,
+    "website_verify_status": "missing",
+    "website_verify_note": "No website on record"
+  },
+  {
+    "startup_name": "Amazóniko",
+    "aliases": [
+      "Amazoniko"
+    ],
+    "app_id": "20063",
+    "bookstack_page_id": 1633,
+    "slug": "amazoniko-air-environment",
+    "fit_note": "CLP26 Colombia; Catalina Arias (co).",
+    "confidence": "strong",
+    "women_clevel_status": "confirmed",
+    "source": "CLP26 Colombia end-report",
+    "website": "https://www.amazoniko.com/",
+    "website_verified": true,
+    "shareable": true,
+    "website_verify_status": "ok",
+    "website_verify_note": "HTTP 200"
+  },
+  {
+    "startup_name": "El Ocámbulo",
+    "aliases": [
+      "El Ocambulo"
+    ],
+    "app_id": "20050",
+    "bookstack_page_id": 1620,
+    "slug": "el-ocambulo-food-agriculture",
+    "fit_note": "CLP26 Colombia; Karol Garzón (co).",
+    "confidence": "strong",
+    "women_clevel_status": "confirmed",
+    "source": "CLP26 Colombia end-report",
+    "website": "",
+    "website_verified": false,
+    "shareable": false,
+    "website_verify_status": "missing",
+    "website_verify_note": "No website on record"
+  },
+  {
+    "startup_name": "DANTIUM",
+    "app_id": "20024",
+    "bookstack_page_id": 1594,
+    "slug": "dantium-air-environment",
+    "fit_note": "CLP26 Colombia; Luisa Bejarano listed as co-rep in PDF — C-level role not verified on BookStack page.",
+    "confidence": "strong",
+    "women_clevel_status": "PENDIENTE",
+    "source": "CLP26 Colombia end-report",
+    "website": "",
+    "website_verified": false,
+    "shareable": false,
+    "website_verify_status": "missing",
+    "website_verify_note": "No website on record"
+  },
+  {
+    "startup_name": "e.WAI",
+    "aliases": [
+      "ewai",
+      "E.WAI"
+    ],
+    "app_id": "20036",
+    "bookstack_page_id": 1606,
+    "slug": "ewai-water",
+    "fit_note": "CLP26 Colombia; women co-rep named in PDF — resolve exact name vs BookStack founder field.",
+    "confidence": "provisional",
+    "women_clevel_status": "PENDIENTE",
+    "source": "CLP26 Colombia end-report",
+    "website": "https://e-ray.lat/e-wai/",
+    "website_verified": true,
+    "shareable": true,
+    "website_verify_status": "ok",
+    "website_verify_note": "HTTP 200"
+  },
+  {
+    "startup_name": "AgroData Connect",
+    "app_id": "20023",
+    "bookstack_page_id": 1593,
+    "slug": "agrodata-connect-food-agriculture",
+    "fit_note": "CLP26 Colombia; women co-rep in PDF — C-level unconfirmed.",
+    "confidence": "provisional",
+    "women_clevel_status": "PENDIENTE",
+    "source": "CLP26 Colombia end-report",
+    "website": "https://linktr.ee/agrodataconnect",
+    "website_verified": false,
+    "shareable": false,
+    "website_verify_status": "social_or_aggregator",
+    "website_verify_note": "Social/link aggregator — not APC shareable company site"
+  },
+  {
+    "startup_name": "Circuito cero",
+    "aliases": [
+      "Circuito Cero"
+    ],
+    "app_id": "20022",
+    "bookstack_page_id": 1592,
+    "slug": "circuito-cero-air-environment",
+    "fit_note": "CLP26 Colombia; women co-rep in PDF — C-level unconfirmed.",
+    "confidence": "provisional",
+    "women_clevel_status": "PENDIENTE",
+    "source": "CLP26 Colombia end-report",
+    "website": "",
+    "website_verified": false,
+    "shareable": false,
+    "website_verify_status": "missing",
+    "website_verify_note": "No website on record"
+  },
+  {
+    "startup_name": "NUX",
+    "app_id": "20083",
+    "bookstack_page_id": 2953,
+    "slug": "nux-not-assigned-unknown",
+    "fit_note": "CLP26 Colombia end-report mention; dedicated idea page created 2025-09-18. Not in Odoo res.partner — founder/stage PENDIENTE.",
+    "confidence": "provisional",
+    "women_clevel_status": "PENDIENTE",
+    "source": "CLP26 Colombia end-report + BookStack page 2953",
+    "website": "",
+    "website_verified": false,
+    "shareable": false,
+    "website_verify_status": "missing",
+    "website_verify_note": "No website on record"
+  },
+  {
+    "startup_name": "Cirkula",
+    "app_id": "20082",
+    "bookstack_page_id": 2952,
+    "slug": "cirkula-food-agriculture",
+    "fit_note": "Hub Perú portfolio; food-waste marketplace; Pre-Seed ext. ~USD 450k (may exceed Epic USD 250k cheque). Founder PENDIENTE in Odoo/wiki.",
+    "confidence": "provisional",
+    "women_clevel_status": "PENDIENTE",
+    "source": "Hub Perú wiki pages 183/206/211 + BookStack page 2952",
+    "website": "",
+    "website_verified": false,
+    "shareable": false,
+    "website_verify_status": "missing",
+    "website_verify_note": "No website on record"
+  },
+  {
+    "startup_name": "ChumChum",
+    "aliases": [
+      "Chum Chum",
+      "ChumChum Colombia"
+    ],
+    "app_id": "20081",
+    "bookstack_page_id": 2950,
+    "slug": "chum-chum-food-agriculture",
+    "fit_note": "REIN Network Mexico; food upcycling. Founder Verónica Macías (REIN Hubs Website Handoff). C-level role PENDIENTE verify.",
+    "confidence": "provisional",
+    "women_clevel_status": "PENDIENTE",
+    "source": "REIN Hubs Website Handoff + BookStack page 2950",
+    "website": "",
+    "website_verified": false,
+    "shareable": false,
+    "website_verify_status": "missing",
+    "website_verify_note": "No website on record"
+  },
+  {
+    "startup_name": "Arte y reciclaje para la paz",
+    "aliases": [
+      "Mujeres creando Economìa Circular"
+    ],
+    "app_id": "20060",
+    "bookstack_page_id": 1630,
+    "slug": "arte-y-reciclaje-para-la-paz-mujeres-creando-economia-circular-con-proposito-air-environment",
+    "fit_note": "BookStack search 'mujer fundadora'; Colombia circular-economy / women founders language in title.",
+    "confidence": "provisional",
+    "women_clevel_status": "PENDIENTE",
+    "source": "BookStack full-text search",
+    "website": "",
+    "website_verified": false,
+    "shareable": false,
+    "website_verify_status": "missing",
+    "website_verify_note": "No website on record"
+  },
+  {
+    "startup_name": "Cupainatá. Labranza Sagrada",
+    "aliases": [
+      "Cupainata Labranza Sagrada"
+    ],
+    "app_id": "10117",
+    "bookstack_page_id": 1412,
+    "fit_note": "BookStack 'mujer fundadora' hit; verify stage and C-level gender.",
+    "confidence": "provisional",
+    "women_clevel_status": "PENDIENTE",
+    "source": "BookStack full-text search",
+    "website": "https://www.instagram.com/cupainata_labranzasagrada/?hl=es-la",
+    "website_verified": false,
+    "shareable": false,
+    "website_verify_status": "social_or_aggregator",
+    "website_verify_note": "Social/link aggregator — not APC shareable company site"
+  }
+]

@@ -1,0 +1,129 @@
+{
+  "date": "2026-09-18",
+  "odoo_partners": 97,
+  "pages_updated": 435,
+  "founder_meta_added": 245,
+  "founder_tag_added": 45,
+  "skipped_pendiente": 155,
+  "epic_pages": [
+    {
+      "startup_name": "ArtexLab",
+      "page_id": 1582,
+      "url": "https://wiki.cleantechhub.net/books/idea-browser/page/artexlab-clean-industry",
+      "founder_tag": "Laura Catalina",
+      "founder_meta": ""
+    },
+    {
+      "startup_name": "AGROLIDER",
+      "page_id": 1578,
+      "url": "https://wiki.cleantechhub.net/books/idea-browser/page/agrolider-food-agriculture",
+      "founder_tag": "Derly Camargo Guerrero",
+      "founder_meta": ""
+    },
+    {
+      "startup_name": "CLIMATIK",
+      "page_id": 1310,
+      "url": "https://wiki.cleantechhub.net/books/idea-browser/page/baruk-company-bio-climatik-sas-clean-industry",
+      "founder_tag": "Allan Engelberth Figueredo Vargas",
+      "founder_meta": "Allan Engelberth Figueredo Vargas"
+    },
+    {
+      "startup_name": "Aterna",
+      "page_id": 1622,
+      "url": "https://wiki.cleantechhub.net/books/idea-browser/page/aterna-food-agriculture",
+      "founder_tag": "Jennifer Pérez Romero",
+      "founder_meta": ""
+    },
+    {
+      "startup_name": "CurubaTech",
+      "page_id": 1573,
+      "url": "https://wiki.cleantechhub.net/books/idea-browser/page/curubatech-food-agriculture",
+      "founder_tag": "Paula Aponte",
+      "founder_meta": ""
+    },
+    {
+      "startup_name": "CommunityLab",
+      "page_id": 1588,
+      "url": "https://wiki.cleantechhub.net/books/idea-browser/page/communitylab-clean-industry",
+      "founder_tag": "beatriz eugenia correa perez",
+      "founder_meta": ""
+    },
+    {
+      "startup_name": "Amazóniko",
+      "page_id": 1633,
+      "url": "https://wiki.cleantechhub.net/books/idea-browser/page/amazoniko-air-environment",
+      "founder_tag": "Daniel Rodriguez",
+      "founder_meta": ""
+    },
+    {
+      "startup_name": "El Ocámbulo",
+      "page_id": 1620,
+      "url": "https://wiki.cleantechhub.net/books/idea-browser/page/el-ocambulo-food-agriculture",
+      "founder_tag": "Samuel Pérez Moreno",
+      "founder_meta": ""
+    },
+    {
+      "startup_name": "DANTIUM",
+      "page_id": 1594,
+      "url": "https://wiki.cleantechhub.net/books/idea-browser/page/dantium-air-environment",
+      "founder_tag": "Daniel Enriquez",
+      "founder_meta": ""
+    },
+    {
+      "startup_name": "e.WAI",
+      "page_id": 1606,
+      "url": "https://wiki.cleantechhub.net/books/idea-browser/page/ewai-water",
+      "founder_tag": "Valentina Llano",
+      "founder_meta": ""
+    },
+    {
+      "startup_name": "AgroData Connect",
+      "page_id": 1593,
+      "url": "https://wiki.cleantechhub.net/books/idea-browser/page/agrodata-connect-food-agriculture",
+      "founder_tag": "Milton Duque Cano",
+      "founder_meta": ""
+    },
+    {
+      "startup_name": "Circuito cero",
+      "page_id": 1592,
+      "url": "https://wiki.cleantechhub.net/books/idea-browser/page/circuito-cero-air-environment",
+      "founder_tag": "María José Díaz García",
+      "founder_meta": ""
+    },
+    {
+      "startup_name": "NUX",
+      "page_id": 2953,
+      "url": "https://wiki.cleantechhub.net/books/idea-browser/page/nux-not-assigned-unknown",
+      "founder_tag": "",
+      "founder_meta": ""
+    },
+    {
+      "startup_name": "Cirkula",
+      "page_id": 2952,
+      "url": "https://wiki.cleantechhub.net/books/idea-browser/page/cirkula-food-agriculture",
+      "founder_tag": "",
+      "founder_meta": ""
+    },
+    {
+      "startup_name": "ChumChum",
+      "page_id": 2950,
+      "url": "https://wiki.cleantechhub.net/books/idea-browser/page/chum-chum-food-agriculture",
+      "founder_tag": "Verónica Macías",
+      "founder_meta": ""
+    },
+    {
+      "startup_name": "Arte y reciclaje para la paz",
+      "page_id": 1630,
+      "url": "https://wiki.cleantechhub.net/books/idea-browser/page/arte-y-reciclaje-para-la-paz-mujeres-creando-economia-circular-con-proposito-air-environment",
+      "founder_tag": "SONIA PATRICIA REINEL",
+      "founder_meta": "SONIA PATRICIA REINEL"
+    },
+    {
+      "startup_name": "Cupainatá. Labranza Sagrada",
+      "page_id": 1412,
+      "url": "https://wiki.cleantechhub.net/books/idea-browser/page/cupainata-labranza-sagrada-food-agriculture",
+      "founder_tag": "Lida Rocio Rivera Celis",
+      "founder_meta": ""
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+# Green Finance OS — Origo Platform
+
+> Latin America green finance pipeline OS. Entity registry + compliance engine + investability scoring.
+
+## API
+
+Base URL: https://api.cleantechhub.net
+
+[Entity Registry](/v1/entities) — Cross-product entity registry. POST to register, GET to list/search, PATCH for lifecycle transitions.
+[Pipeline Stats](/v1/pipeline/stats) — Real-time funnel metrics across all entities.
+[Pipeline Funnel](/v1/pipeline/funnel) — Stage distribution with conversion rates.
+[Diagnostic Engine](/v1/diagnostic/run) — Run EUDR+CSRD+CDP compliance diagnostic for an entity.
+[Admin Dashboard](/v1/admin/entities/stalled) — Stalled entities needing intervention.
+[Admin Interventions](/v1/admin/interventions) — Entities at risk requiring action.
+[Verifiable Credentials](/v1/entities/{id}/credentials) — W3C VCs for an entity.
+[FI Dashboard](/v1/dashboard/fi) — Financial institution view: bankable entities by country.
+[Investor Dashboard](/v1/dashboard/investor) — Fund manager view: verified entities by verde score.
+[Multilateral Dashboard](/v1/dashboard/multilateral) — DFI funnel summary with tier and country breakdown.
+[SME Dashboard](/v1/dashboard/sme) — SME self-service view with timeline and credentials.

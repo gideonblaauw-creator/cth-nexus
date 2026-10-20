@@ -1,0 +1,11 @@
+# Add this block to /etc/caddy/Caddyfile
+data.cleantechhub.net {
+    reverse_proxy localhost:8010
+    rate_limit {
+        zone unauthenticated {
+            key {remote_host}
+            events 100
+            window 1m
+        }
+    }
+}

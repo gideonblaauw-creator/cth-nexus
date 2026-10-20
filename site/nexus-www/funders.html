@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CleantechHUB — Pipeline de Inversores</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --deep-blue:    #0C498A;
+      --light-cyan:   #B2EEFA;
+      --light-green:  #9DC384;
+      --forest-green: #669348;
+      --sky-blue:     #69B5FA;
+      --white:        #FFFFFF;
+      --text-dark:    #1a1a2e;
+      --card-radius:  12px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Open Sans', 'PT Sans', sans-serif; background: var(--light-cyan); color: var(--text-dark); min-height: 100vh; }
+
+    .header { background: var(--deep-blue); padding: 32px 40px 28px; position: relative; overflow: hidden; }
+    .header::after { content: ''; position: absolute; bottom: -30px; right: -30px; width: 200px; height: 200px; background: var(--sky-blue); border-radius: 50%; opacity: .15; }
+    .header-inner { max-width: 1200px; margin: 0 auto; display: flex; align-items: flex-start; gap: 24px; flex-wrap: wrap; }
+    .header-logo { display: flex; flex-direction: column; gap: 4px; }
+    .logo-wordmark { font-size: 26px; font-weight: 700; color: var(--light-cyan); letter-spacing: -0.5px; }
+    .logo-wordmark span { color: var(--light-green); }
+    .logo-tagline { font-size: 11px; color: var(--sky-blue); letter-spacing: 1.5px; text-transform: uppercase; }
+    .header-text { flex: 1; min-width: 260px; }
+    .header-title { font-size: 28px; font-weight: 700; color: var(--white); line-height: 1.2; margin-bottom: 8px; }
+    .header-subtitle { font-size: 13px; color: var(--light-cyan); line-height: 1.6; max-width: 600px; }
+    .header-cta { margin-top: 14px; display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+    .cta-btn { display: inline-flex; align-items: center; gap: 6px; padding: 9px 18px; border-radius: 6px; font-size: 13px; font-weight: 600; text-decoration: none; transition: opacity .2s; }
+    .cta-btn:hover { opacity: .85; }
+    .cta-btn.primary { background: var(--light-green); color: var(--deep-blue); }
+    .cta-btn.secondary { background: transparent; border: 1.5px solid var(--sky-blue); color: var(--light-cyan); }
+
+    .lang-toggle { display: flex; align-items: center; background: rgba(255,255,255,.1); border-radius: 20px; padding: 3px; gap: 2px; margin-left: auto; }
+    .lang-btn { padding: 4px 12px; border-radius: 16px; font-size: 11px; font-weight: 700; letter-spacing: .5px; cursor: pointer; border: none; background: transparent; color: rgba(255,255,255,.55); font-family: inherit; transition: all .18s; }
+    .lang-btn.active { background: var(--white); color: var(--deep-blue); }
+    .lang-divider { width: 1px; height: 14px; background: rgba(255,255,255,.2); }
+
+    .stats-bar { background: var(--deep-blue); border-top: 1px solid rgba(178,238,250,.15); padding: 0 40px 20px; }
+    .stats-inner { max-width: 1200px; margin: 0 auto; display: flex; gap: 32px; flex-wrap: wrap; }
+    .stat { display: flex; flex-direction: column; align-items: center; }
+    .stat-num { font-size: 22px; font-weight: 700; color: var(--light-green); }
+    .stat-label { font-size: 11px; color: var(--sky-blue); text-transform: uppercase; letter-spacing: 1px; }
+
+    .filters-wrap { background: var(--white); border-bottom: 2px solid var(--light-cyan); padding: 16px 40px; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 12px rgba(12,73,138,.08); }
+    .filters-inner { max-width: 1200px; margin: 0 auto; }
+    .filters-label { font-size: 11px; font-weight: 700; color: var(--deep-blue); text-transform: uppercase; letter-spacing: 1.2px; margin-bottom: 10px; }
+    .filter-groups { display: flex; gap: 20px; flex-wrap: wrap; align-items: flex-start; }
+    .filter-group { display: flex; flex-direction: column; gap: 6px; }
+    .filter-group-label { font-size: 10px; font-weight: 700; color: var(--deep-blue); text-transform: uppercase; letter-spacing: 1px; opacity: .6; }
+    .filter-pills { display: flex; gap: 6px; flex-wrap: wrap; }
+    .pill { padding: 5px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; cursor: pointer; border: 1.5px solid transparent; transition: all .18s; white-space: nowrap; user-select: none; }
+    .pill.type     { background: #f0ebfa; color: #5c2d91; border-color: #b39ddb; }
+    .pill.sector   { background: #edf7ea; color: var(--forest-green); border-color: var(--light-green); }
+    .pill.juris    { background: #e8f5fe; color: var(--deep-blue); border-color: var(--sky-blue); }
+    .pill.fit      { background: #fff8e1; color: #7a5c00; border-color: #f0c040; }
+    .pill.all      { background: var(--deep-blue); color: var(--white); border-color: var(--deep-blue); }
+    .pill.active   { box-shadow: 0 0 0 2px var(--deep-blue); }
+    .pill:hover    { opacity: .8; }
+    .filter-search { margin-top: 10px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+    .filter-search input { padding: 8px 14px; border: 1.5px solid var(--light-cyan); border-radius: 20px; font-family: inherit; font-size: 13px; color: var(--text-dark); outline: none; width: 260px; transition: border-color .2s; }
+    .filter-search input:focus { border-color: var(--sky-blue); }
+    .result-count { font-size: 12px; color: var(--deep-blue); opacity: .6; margin-left: auto; }
+
+    .grid-wrap { max-width: 1200px; margin: 32px auto; padding: 0 40px 60px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+
+    .card { background: var(--white); border-radius: var(--card-radius); overflow: hidden; box-shadow: 0 2px 12px rgba(12,73,138,.09); cursor: pointer; transition: transform .2s, box-shadow .2s; display: flex; flex-direction: column; }
+    .card:hover { transform: translateY(-4px); box-shadow: 0 8px 28px rgba(12,73,138,.16); }
+    .card-header { background: var(--deep-blue); padding: 20px 20px 14px; display: flex; align-items: center; gap: 14px; position: relative; }
+    .card-logo { width: 52px; height: 52px; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 20px; font-weight: 700; flex-shrink: 0; }
+    .card-title-block { flex: 1; min-width: 0; }
+    .card-name { font-size: 16px; font-weight: 700; color: var(--white); line-height: 1.2; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .card-country { font-size: 12px; color: var(--light-cyan); margin-top: 2px; }
+    .card-body { padding: 16px 20px; flex: 1; display: flex; flex-direction: column; gap: 10px; }
+
+    .card-badges { display: flex; flex-wrap: wrap; gap: 5px; }
+    .badge { font-size: 11px; font-weight: 600; padding: 3px 8px; border-radius: 4px; white-space: nowrap; max-width: 160px; overflow: hidden; text-overflow: ellipsis; }
+    .badge-ticket { background: rgba(168,85,247,.18); color: #a855f7; border: 1px solid rgba(168,85,247,.3); }
+    .badge-juris  { background: rgba(14,165,233,.18); color: #0ea5e9; border: 1px solid rgba(14,165,233,.3); }
+    .badge-sector { background: rgba(34,197,94,.18); color: #22c55e; border: 1px solid rgba(34,197,94,.3); }
+    .badge-more   { background: rgba(100,116,139,.12); color: #94a3b8; border: 1px solid rgba(100,116,139,.2); }
+
+    .card-desc { font-size: 13px; color: #444; line-height: 1.55; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; flex: 1; }
+    .card-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; }
+    .tag { padding: 3px 10px; border-radius: 12px; font-size: 11px; font-weight: 600; }
+    .tag.type      { background: #f0ebfa; color: #5c2d91; }
+    .tag.stage     { background: #fff8e1; color: #7a5c00; }
+    .tag.fit-high  { background: #dcfce7; color: #166534; }
+    .tag.fit-med   { background: #fef9c3; color: #854d0e; }
+    .tag.financing { background: #e0f2fe; color: #0369a1; }
+    .card-footer { padding: 12px 20px; border-top: 1px solid #f0f4f8; display: flex; align-items: center; justify-content: space-between; }
+    .card-website { font-size: 12px; color: var(--sky-blue); text-decoration: none; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 200px; }
+    .card-website:hover { color: var(--deep-blue); }
+    .card-arrow { width: 28px; height: 28px; border-radius: 50%; background: var(--light-cyan); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+    .card-arrow.disabled { opacity: .3; cursor: default; }
+
+    .no-results { display: none; text-align: center; padding: 60px 20px; color: var(--deep-blue); opacity: .5; grid-column: 1/-1; }
+    .no-results.visible { display: block; }
+
+    .loading { text-align: center; padding: 80px 20px; grid-column: 1/-1; }
+    .loading-spinner { width: 40px; height: 40px; border: 4px solid var(--light-cyan); border-top-color: var(--deep-blue); border-radius: 50%; animation: spin 1s linear infinite; margin: 0 auto 16px; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .loading-text { font-size: 14px; color: var(--deep-blue); opacity: .6; }
+
+    .modal-overlay { display: none; position: fixed; inset: 0; background: rgba(12,73,138,.45); z-index: 1000; align-items: center; justify-content: center; padding: 20px; }
+    .modal-overlay.open { display: flex; }
+    .modal { background: var(--white); border-radius: 16px; width: 100%; max-width: 640px; max-height: 90vh; overflow-y: auto; box-shadow: 0 20px 60px rgba(12,73,138,.3); animation: modalIn .2s ease; }
+    @keyframes modalIn { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+    .modal-header { background: var(--deep-blue); padding: 24px 28px 20px; border-radius: 16px 16px 0 0; display: flex; gap: 18px; align-items: center; position: relative; }
+    .modal-logo { width: 64px; height: 64px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 26px; font-weight: 700; flex-shrink: 0; }
+    .modal-title-block { flex: 1; }
+    .modal-name { font-size: 22px; font-weight: 700; color: var(--white); }
+    .modal-country { font-size: 13px; color: var(--light-cyan); margin-top: 3px; }
+    .modal-close { position: absolute; top: 16px; right: 16px; width: 32px; height: 32px; border-radius: 50%; background: rgba(255,255,255,.15); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; color: var(--white); font-size: 18px; transition: background .2s; }
+    .modal-close:hover { background: rgba(255,255,255,.3); }
+    .modal-body { padding: 24px 28px; }
+    .modal-section { margin-bottom: 20px; }
+    .modal-section-title { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.2px; color: var(--deep-blue); margin-bottom: 8px; opacity: .6; }
+    .modal-desc { font-size: 14px; line-height: 1.65; color: #333; white-space: pre-line; }
+    .modal-badges { display: flex; flex-wrap: wrap; gap: 6px; }
+    .modal-meta { display: grid; grid-template-columns: repeat(2,1fr); gap: 12px; }
+    .meta-item { display: flex; flex-direction: column; gap: 3px; }
+    .meta-label { font-size: 10px; text-transform: uppercase; letter-spacing: 1px; color: var(--deep-blue); opacity: .5; font-weight: 700; }
+    .meta-value { font-size: 14px; font-weight: 600; color: var(--text-dark); }
+    .modal-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+    .modal-actions { padding: 16px 28px 24px; display: flex; gap: 12px; flex-wrap: wrap; }
+    .modal-btn { padding: 10px 22px; border-radius: 8px; font-size: 14px; font-weight: 700; text-decoration: none; cursor: pointer; border: none; transition: opacity .2s; font-family: inherit; }
+    .modal-btn:hover { opacity: .85; }
+    .modal-btn.primary { background: var(--deep-blue); color: var(--white); }
+    .modal-btn.secondary { background: var(--light-cyan); color: var(--deep-blue); }
+
+    @media (max-width: 700px) {
+      .header, .stats-bar, .filters-wrap, .grid-wrap { padding-left: 20px; padding-right: 20px; }
+      .header-title { font-size: 22px; }
+      .grid { grid-template-columns: 1fr; }
+      .modal-meta { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <div class="header-logo">
+      <div class="logo-wordmark">Cleantech<span>HUB</span></div>
+      <div class="logo-tagline">Inspira &middot; Act&uacute;a &middot; Transforma</div>
+    </div>
+    <div class="header-text">
+      <div class="header-title" data-i18n="page_title">Nuestro Pipeline de Inversores</div>
+      <div class="header-subtitle" data-i18n="page_subtitle">Explore nuestra red de inversores de impacto. Haga clic en una tarjeta para ver m&aacute;s detalles, conocer su tesis de inversi&oacute;n y &aacute;reas de enfoque sectorial.</div>
+      <div class="header-cta">
+        <a href="https://cal.read.ai/gideon-cth/30-min" class="cta-btn primary" target="_blank">&#x1F4C5; <span data-i18n="cta_meeting">Agendar reuni&oacute;n</span></a>
+        <a href="https://cleantechhub.net/" class="cta-btn secondary" target="_blank">&#x2139;&#xFE0F; <span data-i18n="cta_about">Sobre CleantechHUB</span></a>
+        <div class="lang-toggle" role="group" aria-label="Language">
+          <button class="lang-btn active" id="btn-es" onclick="setLang('es')">ES</button>
+          <div class="lang-divider"></div>
+          <button class="lang-btn" id="btn-en" onclick="setLang('en')">EN</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="stats-bar">
+  <div class="stats-inner" id="statsBar"></div>
+</div>
+
+<div class="filters-wrap">
+  <div class="filters-inner">
+    <div class="filters-label" data-i18n="filter_label">Filtrar Inversores</div>
+    <div class="filter-groups">
+      <div class="filter-group">
+        <div class="filter-group-label" data-i18n="fg_type">Tipo</div>
+        <div class="filter-pills" id="typeFilters"></div>
+      </div>
+      <div class="filter-group">
+        <div class="filter-group-label" data-i18n="fg_sector">Sector</div>
+        <div class="filter-pills" id="sectorFilters"></div>
+      </div>
+      <div class="filter-group">
+        <div class="filter-group-label" data-i18n="fg_juris">Jurisdicci&oacute;n</div>
+        <div class="filter-pills" id="jurisFilters"></div>
+      </div>
+      <div class="filter-group">
+        <div class="filter-group-label" data-i18n="fg_fit">Fit</div>
+        <div class="filter-pills" id="fitFilters"></div>
+      </div>
+    </div>
+    <div class="filter-search">
+      <input type="search" id="searchInput" data-i18n-placeholder="search_placeholder" placeholder="&#x1F50D;  Buscar inversores&hellip;" />
+      <span class="result-count" id="resultCount"></span>
+      <button class="pill all active" id="resetBtn" data-i18n="clear_all">Limpiar todo</button>
+    </div>
+  </div>
+</div>
+
+<div class="grid-wrap">
+  <div class="grid" id="grid">
+    <div class="loading" id="loading">
+      <div class="loading-spinner"></div>
+      <div class="loading-text" data-i18n="loading">Cargando inversores&hellip;</div>
+    </div>
+    <div class="no-results" id="noResults" data-i18n="no_results">Ning&uacute;n inversor coincide con tus filtros.</div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true">
+  <div class="modal" id="modal">
+    <div class="modal-header">
+      <div class="modal-logo" id="modalLogo"></div>
+      <div class="modal-title-block">
+        <div class="modal-name" id="modalName"></div>
+        <div class="modal-country" id="modalCountry"></div>
+      </div>
+      <button class="modal-close" id="modalClose" aria-label="Close">&#x2715;</button>
+    </div>
+    <div class="modal-body">
+      <div class="modal-section" id="modalBadgesSection">
+        <div class="modal-section-title" data-i18n="modal_investment">Inversi&oacute;n</div>
+        <div class="modal-badges" id="modalBadges"></div>
+      </div>
+      <div class="modal-section">
+        <div class="modal-section-title" data-i18n="modal_about">Acerca de</div>
+        <div class="modal-desc" id="modalDesc"></div>
+      </div>
+      <div class="modal-section">
+        <div class="modal-section-title" data-i18n="modal_details">Detalles</div>
+        <div class="modal-meta" id="modalMeta"></div>
+      </div>
+      <div class="modal-section">
+        <div class="modal-section-title" data-i18n="modal_tags">Etiquetas</div>
+        <div class="modal-tags" id="modalTags"></div>
+      </div>
+    </div>
+    <div class="modal-actions" id="modalActions"></div>
+  </div>
+</div>
+
+<script>
+var i18n = {
+  es: {
+    page_title:'Nuestro Pipeline de Inversores',
+    page_subtitle:'Explore nuestra red de inversores de impacto. Haga clic en una tarjeta para ver más detalles, conocer su tesis de inversión y áreas de enfoque sectorial.',
+    cta_meeting:'Agendar reunión',cta_about:'Sobre CleantechHUB',
+    filter_label:'Filtrar Inversores',fg_type:'Tipo',fg_sector:'Sector',fg_juris:'Jurisdicción',fg_fit:'Fit',
+    search_placeholder:'🔍  Buscar inversores…',clear_all:'Limpiar todo',
+    no_results:'Ningún inversor coincide con tus filtros. Intenta eliminar un filtro.',
+    loading:'Cargando inversores…',
+    result_of:'de',result_unit:'inversores',filter_all:'Todos',
+    stat_investors:'Inversores',stat_countries:'Países',stat_types:'Tipos',stat_sectors:'Sectores',
+    modal_investment:'Inversión',modal_about:'Acerca de',modal_details:'Detalles',modal_tags:'Etiquetas',
+    meta_type:'Tipo',meta_stage:'Etapa de inversión',meta_country:'País',meta_geo:'Jurisdicción',
+    meta_sector:'Sector',meta_financing:'Tipo de financiamiento',meta_fit:'Nivel de fit',meta_range:'Rango de inversión',
+    meta_contact:'Contacto principal',meta_owner:'Responsable CTH',
+    btn_website:'Visitar sitio web →',btn_meeting:'📅 Agendar reunión',btn_intro:'✉ Solicitar presentación',
+    no_website:'Sin sitio web',subject_intro:'Solicitud de presentación — inversor: ',
+    desc_fallback:'Sin descripción disponible'
+  },
+  en: {
+    page_title:'Our Investor Pipeline',
+    page_subtitle:'Explore our network of impact investors. Click any card for more details about their investment thesis and sector focus areas.',
+    cta_meeting:'Schedule a Meeting',cta_about:'About CleantechHUB',
+    filter_label:'Filter Investors',fg_type:'Type',fg_sector:'Sector',fg_juris:'Jurisdiction',fg_fit:'Fit',
+    search_placeholder:'🔍  Search investors…',clear_all:'Clear all',
+    no_results:'No investors match your filters. Try clearing a filter above.',
+    loading:'Loading investors…',
+    result_of:'of',result_unit:'investors',filter_all:'All',
+    stat_investors:'Investors',stat_countries:'Countries',stat_types:'Types',stat_sectors:'Sectors',
+    modal_investment:'Investment',modal_about:'About',modal_details:'Details',modal_tags:'Tags',
+    meta_type:'Type',meta_stage:'Investment Stage',meta_country:'Country',meta_geo:'Jurisdiction',
+    meta_sector:'Sector',meta_financing:'Financing Type',meta_fit:'Fit Level',meta_range:'Investment Range',
+    meta_contact:'Primary Contact',meta_owner:'CTH Owner',
+    btn_website:'Visit Website →',btn_meeting:'📅 Schedule Meeting',btn_intro:'✉ Intro Request',
+    no_website:'No website',subject_intro:'Introduction request — investor: ',
+    desc_fallback:'No description available'
+  }
+};
+
+var FLAGS={Afghanistan:'🇦🇫',Albania:'🇦🇱',Algeria:'🇩🇿',Argentina:'🇦🇷',Australia:'🇦🇺',Austria:'🇦🇹',Bangladesh:'🇧🇩',Belgium:'🇧🇪',Bolivia:'🇧🇴',Brazil:'🇧🇷',Cambodia:'🇰🇭',Cameroon:'🇨🇲',Canada:'🇨🇦',Chile:'🇨🇱',China:'🇨🇳',Colombia:'🇨🇴','Costa Rica':'🇨🇷',Croatia:'🇭🇷',Cuba:'🇨🇺','Czech Republic':'🇨🇿',Czechia:'🇨🇿',Denmark:'🇩🇰','Dominican Republic':'🇩🇴',Ecuador:'🇪🇨',Egypt:'🇪🇬','El Salvador':'🇸🇻',Estonia:'🇪🇪',Ethiopia:'🇪🇹',Finland:'🇫🇮',France:'🇫🇷',Georgia:'🇬🇪',Germany:'🇩🇪',Ghana:'🇬🇭',Greece:'🇬🇷',Guatemala:'🇬🇹',Honduras:'🇭🇳','Hong Kong':'🇭🇰',Hungary:'🇭🇺',Iceland:'🇮🇸',India:'🇮🇳',Indonesia:'🇮🇩',Iran:'🇮🇷',Iraq:'🇮🇶',Ireland:'🇮🇪',Israel:'🇮🇱',Italy:'🇮🇹',Jamaica:'🇯🇲',Japan:'🇯🇵',Jordan:'🇯🇴',Kazakhstan:'🇰🇿',Kenya:'🇰🇪',Kuwait:'🇰🇼',Latvia:'🇱🇻',Lebanon:'🇱🇧',Lithuania:'🇱🇹',Luxembourg:'🇱🇺',Malaysia:'🇲🇾',Mali:'🇲🇱',Malta:'🇲🇹',Mexico:'🇲🇽',Moldova:'🇲🇩',Monaco:'🇲🇨',Mongolia:'🇲🇳',Montenegro:'🇲🇪',Morocco:'🇲🇦',Mozambique:'🇲🇿',Myanmar:'🇲🇲',Namibia:'🇳🇦',Nepal:'🇳🇵',Netherlands:'🇳🇱','New Zealand':'🇳🇿',Nicaragua:'🇳🇮',Niger:'🇳🇪',Nigeria:'🇳🇬',Norway:'🇳🇴',Oman:'🇴🇲',Pakistan:'🇵🇰',Panama:'🇵🇦',Paraguay:'🇵🇾',Peru:'🇵🇪',Philippines:'🇵🇭',Poland:'🇵🇱',Portugal:'🇵🇹',Qatar:'🇶🇦',Romania:'🇷🇴',Russia:'🇷🇺',Rwanda:'🇷🇼','Saudi Arabia':'🇸🇦',Senegal:'🇸🇳',Serbia:'🇷🇸',Singapore:'🇸🇬',Slovakia:'🇸🇰',Slovenia:'🇸🇮','South Africa':'🇿🇦','South Korea':'🇰🇷',Korea:'🇰🇷',Spain:'🇪🇸','Sri Lanka':'🇱🇰',Sudan:'🇸🇩',Suriname:'🇸🇷',Sweden:'🇸🇪',Switzerland:'🇨🇭',Taiwan:'🇹🇼',Tanzania:'🇹🇿',Thailand:'🇹🇭','Trinidad and Tobago':'🇹🇹',Tunisia:'🇹🇳',Turkey:'🇹🇷',Uganda:'🇺🇬',Ukraine:'🇺🇦',UAE:'🇦🇪','United Arab Emirates':'🇦🇪','United Kingdom':'🇬🇧',UK:'🇬🇧','United States':'🇺🇸',USA:'🇺🇸',US:'🇺🇸',Uruguay:'🇺🇾',Venezuela:'🇻🇪',Vietnam:'🇻🇳',Zambia:'🇿🇲',Zimbabwe:'🇿🇼'};
+function getFlag(c){return c?(FLAGS[c]||FLAGS[c.trim()]||'🌍'):'';}
+
+function toArray(v){
+  if(!v)return[];
+  if(Array.isArray(v))return v.map(function(s){return s.trim();}).filter(Boolean);
+  return String(v).split(/[,;|]+/).map(function(s){return s.trim();}).filter(Boolean);
+}
+function initials(name){
+  if(!name)return'?';
+  return name.split(/\s+/).slice(0,2).map(function(w){return w[0];}).join('').toUpperCase();
+}
+function logoColors(name){
+  var p=[['#0C498A','#B2EEFA'],['#669348','#edf7ea'],['#69B5FA','#0C498A'],['#9DC384','#0C498A'],['#B2EEFA','#0C498A'],['#0C498A','#9DC384']];
+  var i=0;for(var k=0;k<(name||'').length;k++)i=(i+(name||'').charCodeAt(k))%p.length;return p[i];
+}
+function formatMoney(n){
+  if(!n)return null;
+  if(n>=1e9)return'$'+(+(n/1e9).toFixed(1))+'B';
+  if(n>=1e6)return'$'+(+(n/1e6).toFixed(1))+'M';
+  if(n>=1e3)return'$'+(+(n/1e3).toFixed(0))+'K';
+  return'$'+n;
+}
+function formatRange(min,max){
+  var a=formatMoney(min),b=formatMoney(max);
+  if(a&&b)return a+'–'+b;
+  if(a)return a+'+';
+  if(b)return'Up to '+b;
+  return null;
+}
+function cleanNotes(notes){
+  if(!notes)return null;
+  var s=notes.replace(/^website:\s*\S+\s*\|\|\s*/i,'');
+  s=s.replace(/\s*\|\s*Breakfast invite:\s*\w*/gi,'');
+  s=s.replace(/\s*\|\s*/g,' · ').trim();
+  return s||null;
+}
+function getDescription(inv){
+  var n=cleanNotes(inv.notes);
+  if(n)return n;
+  if(inv.fit_rationale)return inv.fit_rationale;
+  if(inv.investor_type)return inv.investor_type+(currentLang==='es'?' — inversor':' — investor');
+  return t('desc_fallback');
+}
+function esc(s){var d=document.createElement('div');d.textContent=s;return d.innerHTML;}
+function topN(arr,n){
+  var freq={};arr.forEach(function(v){freq[v]=(freq[v]||0)+1;});
+  return Object.keys(freq).sort(function(a,b){return freq[b]-freq[a];}).slice(0,n);
+}
+
+var investors=[];
+var currentLang='es';
+var activeFilters={type:null,sector:null,juris:null,fit:null};
+var searchQuery='';
+var searchTimer;
+
+function t(key){return i18n[currentLang][key]||key;}
+
+function applyTranslations(){
+  document.querySelectorAll('[data-i18n]').forEach(function(el){
+    var k=el.getAttribute('data-i18n');
+    if(i18n[currentLang][k])el.textContent=i18n[currentLang][k];
+  });
+  document.querySelectorAll('[data-i18n-placeholder]').forEach(function(el){
+    var k=el.getAttribute('data-i18n-placeholder');
+    if(i18n[currentLang][k])el.placeholder=i18n[currentLang][k];
+  });
+  document.getElementById('btn-es').classList.toggle('active',currentLang==='es');
+  document.getElementById('btn-en').classList.toggle('active',currentLang==='en');
+}
+
+window.setLang=function(lang){
+  currentLang=lang;
+  document.documentElement.lang=lang;
+  applyTranslations();
+  buildStats();
+  rebuildFilters();
+  renderGrid();
+};
+
+function buildStats(){
+  var countries=new Set(investors.map(function(i){return i.country;}).filter(Boolean)).size;
+  var types=new Set(investors.map(function(i){return i.investor_type;}).filter(Boolean)).size;
+  var sectors=new Set(investors.reduce(function(a,i){return a.concat(toArray(i.sector_fit));},[])).size;
+  document.getElementById('statsBar').innerHTML=[
+    [investors.length,t('stat_investors')],[countries,t('stat_countries')],
+    [types,t('stat_types')],[sectors,t('stat_sectors')]
+  ].map(function(p){return'<div class="stat"><div class="stat-num">'+p[0]+'</div><div class="stat-label">'+p[1]+'</div></div>';}).join('');
+}
+
+function buildFilterPills(containerId,values,filterKey,cssClass){
+  var el=document.getElementById(containerId);
+  el.innerHTML='';
+  var allP=document.createElement('button');
+  allP.className='pill '+cssClass+(activeFilters[filterKey]===null?' active':'');
+  allP.textContent=t('filter_all');
+  allP.onclick=function(){setFilter(filterKey,null);};
+  el.appendChild(allP);
+  values.forEach(function(v){
+    var pill=document.createElement('button');
+    pill.className='pill '+cssClass+(activeFilters[filterKey]===v?' active':'');
+    pill.textContent=v;
+    pill.onclick=function(){setFilter(filterKey,v);};
+    el.appendChild(pill);
+  });
+}
+
+function setFilter(key,value){
+  activeFilters[key]=value;
+  rebuildFilters();
+  renderGrid();
+}
+
+function rebuildFilters(){
+  buildFilterPills('typeFilters',topN(investors.map(function(i){return i.investor_type;}).filter(Boolean),8),'type','type');
+  buildFilterPills('sectorFilters',topN(investors.reduce(function(a,i){return a.concat(toArray(i.sector_fit));},[]  ),8),'sector','sector');
+  buildFilterPills('jurisFilters',topN(investors.reduce(function(a,i){return a.concat(toArray(i.geo_focus));},[]  ),8),'juris','juris');
+  buildFilterPills('fitFilters',topN(investors.map(function(i){return i.fit_level;}).filter(Boolean),8),'fit','fit');
+}
+
+function matchesMulti(inv,field,selected){
+  if(!selected)return true;
+  return toArray(inv[field]).some(function(v){return v.toLowerCase()===selected.toLowerCase();});
+}
+
+function matchesFilters(inv){
+  if(activeFilters.type&&inv.investor_type!==activeFilters.type)return false;
+  if(!matchesMulti(inv,'sector_fit',activeFilters.sector))return false;
+  if(!matchesMulti(inv,'geo_focus',activeFilters.juris))return false;
+  if(activeFilters.fit&&inv.fit_level!==activeFilters.fit)return false;
+  if(searchQuery){
+    var q=searchQuery.toLowerCase();
+    var h=[inv.name,inv.investor_type,inv.country,inv.sector_fit,inv.geo_focus,inv.notes,inv.fit_rationale,inv.investment_stage,inv.financing_type].join(' ').toLowerCase();
+    if(h.indexOf(q)===-1)return false;
+  }
+  return true;
+}
+
+function updateResultCount(){
+  var n=investors.filter(matchesFilters).length;
+  document.getElementById('resultCount').textContent=n+' '+t('result_of')+' '+investors.length+' '+t('result_unit');
+}
+
+function renderBadgeGroup(icon,values,cssClass){
+  var arr=toArray(values);
+  if(!arr.length)return'';
+  var visible=arr.slice(0,2);
+  var overflow=arr.length-visible.length;
+  var html=visible.map(function(v){return'<span class="badge '+cssClass+'">'+icon+' '+esc(v)+'</span>';}).join('');
+  if(overflow>0)html+='<span class="badge badge-more">+'+overflow+'</span>';
+  return html;
+}
+
+function makeCard(inv){
+  var card=document.createElement('div');
+  card.className='card';
+  var cols=logoColors(inv.name);
+  var flag=getFlag(inv.country);
+  var range=formatRange(inv.investment_range_min,inv.investment_range_max);
+
+  var badges=[
+    range?renderBadgeGroup('💰',range,'badge-ticket'):'',
+    renderBadgeGroup('🌎',inv.geo_focus,'badge-juris'),
+    renderBadgeGroup('🌱',inv.sector_fit,'badge-sector')
+  ].filter(Boolean).join('');
+
+  var tags=[
+    inv.investor_type?'<span class="tag type">'+esc(inv.investor_type)+'</span>':'',
+    inv.investment_stage?'<span class="tag stage">'+esc(inv.investment_stage)+'</span>':'',
+    inv.financing_type?'<span class="tag financing">'+esc(inv.financing_type)+'</span>':'',
+    inv.fit_level==='High'?'<span class="tag fit-high">✓ High Fit</span>':'',
+    inv.fit_level==='Medium'?'<span class="tag fit-med">~ Medium Fit</span>':''
+  ].filter(Boolean).join('');
+
+  var desc=esc(getDescription(inv));
+  var wClean=inv.website?inv.website.replace(/https?:\/\/(www\.)?/,'').replace(/\/$/,'').slice(0,25):null;
+  var wHtml=wClean
+    ?'<a class="card-website" href="'+esc(inv.website)+'" target="_blank" onclick="event.stopPropagation()">'+esc(wClean)+'</a>'
+    :'<span class="card-website" style="opacity:.35">'+t('no_website')+'</span>';
+
+  card.innerHTML=
+    '<div class="card-header">'+
+      '<div class="card-logo" style="background:'+cols[0]+';color:'+cols[1]+';">'+initials(inv.name)+'</div>'+
+      '<div class="card-title-block">'+
+        '<div class="card-name">'+esc(inv.name)+'</div>'+
+        (inv.country?'<div class="card-country">'+flag+' '+esc(inv.country)+'</div>':'')+
+      '</div>'+
+    '</div>'+
+    '<div class="card-body">'+
+      (badges?'<div class="card-badges">'+badges+'</div>':'')+
+      '<div class="card-desc">'+desc+'</div>'+
+      '<div class="card-tags">'+tags+'</div>'+
+    '</div>'+
+    '<div class="card-footer">'+
+      wHtml+
+      '<div class="card-arrow'+(inv.website?'':' disabled')+'"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#0C498A" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg></div>'+
+    '</div>';
+  card.onclick=function(){openModal(inv);};
+  return card;
+}
+
+function renderGrid(){
+  var grid=document.getElementById('grid');
+  var noRes=document.getElementById('noResults');
+  var old=grid.querySelectorAll('.card');
+  for(var i=0;i<old.length;i++)old[i].remove();
+  var filtered=investors.filter(matchesFilters);
+  noRes.textContent=t('no_results');
+  updateResultCount();
+  if(filtered.length===0){
+    noRes.classList.add('visible');
+  }else{
+    noRes.classList.remove('visible');
+    var frag=document.createDocumentFragment();
+    filtered.forEach(function(inv){frag.appendChild(makeCard(inv));});
+    grid.insertBefore(frag,noRes);
+  }
+}
+
+function openModal(inv){
+  var cols=logoColors(inv.name);
+  var flag=getFlag(inv.country);
+  document.getElementById('modalLogo').innerHTML=
+    '<div style="width:64px;height:64px;border-radius:12px;background:'+cols[0]+';color:'+cols[1]+';display:flex;align-items:center;justify-content:center;font-size:26px;font-weight:700;">'+initials(inv.name)+'</div>';
+  document.getElementById('modalName').textContent=inv.name;
+  document.getElementById('modalCountry').textContent=inv.country?flag+' '+inv.country:'';
+
+  var range=formatRange(inv.investment_range_min,inv.investment_range_max);
+  var badgesHtml=[
+    range?renderBadgeGroup('💰',range,'badge-ticket'):'',
+    renderBadgeGroup('🌎',inv.geo_focus,'badge-juris'),
+    renderBadgeGroup('🌱',inv.sector_fit,'badge-sector')
+  ].filter(Boolean).join('');
+  document.getElementById('modalBadges').innerHTML=badgesHtml;
+  document.getElementById('modalBadgesSection').style.display=badgesHtml?'':'none';
+
+  document.getElementById('modalDesc').textContent=getDescription(inv);
+
+  document.querySelectorAll('.modal-section-title').forEach(function(el){
+    var k=el.getAttribute('data-i18n');
+    if(k&&i18n[currentLang][k])el.textContent=i18n[currentLang][k];
+  });
+
+  var metaItems=[
+    [t('meta_type'),inv.investor_type||'—'],
+    [t('meta_stage'),inv.investment_stage||'—'],
+    [t('meta_country'),inv.country||'—'],
+    [t('meta_geo'),toArray(inv.geo_focus).join(', ')||'—'],
+    [t('meta_sector'),toArray(inv.sector_fit).join(', ')||'—'],
+    [t('meta_financing'),inv.financing_type||'—'],
+    [t('meta_fit'),inv.fit_level||'—'],
+    [t('meta_range'),range||'—'],
+    [t('meta_contact'),inv.primary_contact_name||'—'],
+    [t('meta_owner'),inv.owner_text||'—']
+  ];
+  document.getElementById('modalMeta').innerHTML=metaItems.map(function(p){
+    return'<div class="meta-item"><div class="meta-label">'+p[0]+'</div><div class="meta-value">'+esc(p[1])+'</div></div>';
+  }).join('');
+
+  var tags=[
+    inv.investor_type?'<span class="tag type">'+esc(inv.investor_type)+'</span>':'',
+    inv.investment_stage?'<span class="tag stage">'+esc(inv.investment_stage)+'</span>':'',
+    inv.financing_type?'<span class="tag financing">'+esc(inv.financing_type)+'</span>':'',
+    inv.fit_level==='High'?'<span class="tag fit-high">✓ High Fit</span>':'',
+    inv.fit_level==='Medium'?'<span class="tag fit-med">~ Medium Fit</span>':''
+  ].filter(Boolean).join('');
+  document.getElementById('modalTags').innerHTML=tags;
+
+  var actions=[
+    inv.website?'<a class="modal-btn primary" href="'+esc(inv.website)+'" target="_blank">'+t('btn_website')+'</a>':'',
+    '<a class="modal-btn secondary" href="https://cal.read.ai/gideon-cth/30-min" target="_blank">'+t('btn_meeting')+'</a>',
+    '<a class="modal-btn secondary" href="mailto:gideon.blaauw@cleantechhub.net?subject='+encodeURIComponent(t('subject_intro')+inv.name)+'">'+t('btn_intro')+'</a>'
+  ].filter(Boolean).join('');
+  document.getElementById('modalActions').innerHTML=actions;
+
+  document.getElementById('modalOverlay').classList.add('open');
+  document.body.style.overflow='hidden';
+}
+
+function closeModal(){
+  document.getElementById('modalOverlay').classList.remove('open');
+  document.body.style.overflow='';
+}
+
+document.getElementById('modalClose').onclick=closeModal;
+document.getElementById('modalOverlay').onclick=function(e){if(e.target===e.currentTarget)closeModal();};
+document.addEventListener('keydown',function(e){if(e.key==='Escape')closeModal();});
+
+document.getElementById('searchInput').addEventListener('input',function(e){
+  searchQuery=e.target.value.trim();
+  clearTimeout(searchTimer);
+  searchTimer=setTimeout(renderGrid,200);
+});
+
+document.getElementById('resetBtn').onclick=function(){
+  Object.keys(activeFilters).forEach(function(k){activeFilters[k]=null;});
+  searchQuery='';
+  document.getElementById('searchInput').value='';
+  rebuildFilters();
+  renderGrid();
+};
+
+(function init(){
+  fetch('/investors/data/investors.json')
+    .then(function(res){if(!res.ok)throw new Error('HTTP '+res.status);return res.json();})
+    .then(function(data){
+      investors=data.investors||[];
+      var el=document.getElementById('loading');
+      if(el)el.remove();
+      buildStats();
+      rebuildFilters();
+      renderGrid();
+      applyTranslations();
+    })
+    .catch(function(err){
+      document.getElementById('loading').innerHTML=
+        '<div style="color:#be123c;font-weight:600;">Error loading data</div>'+
+        '<div style="font-size:12px;margin-top:8px;color:#666;">'+esc(err.message)+'</div>';
+    });
+})();
+</script>
+</body>
+</html>

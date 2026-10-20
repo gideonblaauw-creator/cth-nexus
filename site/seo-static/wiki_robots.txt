@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Disallow: /settings
+Disallow: /api/
+Disallow: /login
+Disallow: /register
+# Sustenttia Gold Standard case library — login required (privacy lock 2026-09-03)
+Disallow: /books/casos-ambiental
+Disallow: /books/casos-social
+Disallow: /books/casos-gobernanza
+Disallow: /shelves/casos-de-referencia-verificados
+Sitemap: https://wiki.cleantechhub.net/sitemap.xml

@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /p/home
+Allow: /startups
+Allow: /mentors
+Allow: /events
+Allow: /news
+Disallow: /dashboard
+Disallow: /settings
+Disallow: /api/
+Sitemap: https://nexus.cleantechhub.net/sitemap.xml

@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /settings
+Disallow: /api/
+Disallow: /login
+Disallow: /register
+Sitemap: https://wiki.cleantechhub.net/sitemap.xml

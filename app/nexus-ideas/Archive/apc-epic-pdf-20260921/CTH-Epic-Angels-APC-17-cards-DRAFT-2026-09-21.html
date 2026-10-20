@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>CTH × Epic Angels — APC 17 cards DRAFT 2026-09-21</title>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+@page {
+  size: A4;
+  margin: 0;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #0C498A;
+  background: #fff;
+}
+.page {
+  width: 210mm;
+  min-height: 297mm;
+  page-break-after: always;
+  position: relative;
+  overflow: hidden;
+}
+.page:last-child { page-break-after: auto; }
+
+/* Cover */
+.cover {
+  background: linear-gradient(160deg, #0C498A 0%, #669348 55%, #9DC384 100%);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 48px;
+}
+.cover-band {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 8px;
+  background: linear-gradient(90deg,
+    #0C498A 0%,
+    #69B5FA 25%,
+    #B2EEFA 50%,
+    #9DC384 75%,
+    #669348 100%);
+}
+.draft-banner {
+  background: #B2EEFA;
+  color: #0C498A;
+  font-weight: 800;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 14px 28px;
+  border-radius: 4px;
+  margin-bottom: 48px;
+  border: 3px solid #fff;
+  box-shadow: 0 4px 20px rgba(0,0,0,.25);
+}
+.cover h1 {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 1.15;
+  margin-bottom: 12px;
+  text-shadow: 0 2px 12px rgba(0,0,0,.3);
+}
+.cover .subtitle {
+  font-size: 18px;
+  font-weight: 600;
+  opacity: .95;
+  margin-bottom: 64px;
+}
+.cover .tagline {
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 600;
+  color: #B2EEFA;
+  margin-top: 48px;
+}
+.cover .meta-line {
+  position: absolute;
+  bottom: 36px;
+  font-size: 11px;
+  opacity: .85;
+  letter-spacing: .5px;
+}
+.cover .count-badge {
+  margin-top: 24px;
+  font-size: 13px;
+  font-weight: 700;
+  background: rgba(255,255,255,.15);
+  padding: 10px 24px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,.35);
+}
+
+/* Cards */
+.card-page {
+  width: 210mm;
+  min-height: 297mm;
+  page-break-after: always;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  position: relative;
+}
+.card-accent {
+  height: 6px;
+  background: linear-gradient(90deg, #0C498A, #69B5FA, #9DC384);
+}
+.card-inner {
+  flex: 1;
+  padding: 36px 44px 24px;
+}
+.card-num {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #669348;
+  margin-bottom: 8px;
+}
+.startup {
+  font-size: 28px;
+  font-weight: 800;
+  color: #0C498A;
+  line-height: 1.15;
+  margin-bottom: 28px;
+  padding-bottom: 16px;
+  border-bottom: 3px solid #B2EEFA;
+}
+.field {
+  margin-bottom: 20px;
+}
+.field .label {
+  display: block;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #669348;
+  margin-bottom: 6px;
+}
+.field .value {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #0C498A;
+  word-break: break-word;
+}
+.field.one-liner .value {
+  font-weight: 400;
+  font-size: 12.5px;
+  line-height: 1.65;
+}
+.field .value.url {
+  font-size: 11.5px;
+  color: #69B5FA;
+}
+.field .value.pending {
+  color: #669348;
+  font-weight: 800;
+  letter-spacing: .5px;
+}
+.meta {
+  margin-top: 32px;
+  padding-top: 16px;
+  border-top: 1px solid #B2EEFA;
+  display: flex;
+  gap: 24px;
+  font-size: 9px;
+  font-weight: 600;
+  color: #669348;
+  text-transform: uppercase;
+  letter-spacing: .4px;
+}
+.card-footer {
+  padding: 14px 44px;
+  background: #0C498A;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 9px;
+  font-weight: 600;
+}
+.card-footer .tagline {
+  font-style: italic;
+  color: #B2EEFA;
+}
+</style>
+</head>
+<body>
+
+<section class="page cover">
+  <div class="cover-band"></div>
+  <div class="draft-banner">DRAFT — NO ENVIAR a APC</div>
+  <h1>CleantechHUB × Epic Angels</h1>
+  <p class="subtitle">APC Startup Cards — Curated Portfolio</p>
+  <p class="count-badge">17 startups · Nexus 17/17 live · 2026-09-21</p>
+  <p class="tagline">Inspira. Actúa. Transforma.</p>
+  <p class="meta-line">CleantechHUB Nexus / Origo · Internal draft for HITL review</p>
+</section>
+
+
+    <section class="card-page">
+      <div class="card-accent"></div>
+      <div class="card-inner">
+        <div class="card-num">01 / 17</div>
+        <h2 class="startup">ArtexLab</h2>
+        <div class="field">
+          <span class="label">Founder</span>
+          <span class="value">Laura Catalina Gutiérrez Niño; Claudia Paola</span>
+        </div>
+        <div class="field one-liner">
+          <span class="label">One-liner</span>
+          <p class="value">CLP26 Colombia; PDF notes excellent female leadership (Laura Catalina Gutiérrez Niño &amp; Claudia Paola). Pre-seed/seed LATAM cleantech.</p>
+        </div>
+        <div class="field">
+          <span class="label">Nexus</span>
+          <span class="value url">https://nexus.cleantechhub.net/s/artexlab</span>
+        </div>
+        <div class="field">
+          <span class="label">Website</span>
+          <span class="value url pending">[PENDIENTE]</span>
+        </div>
+        <div class="meta">
+          <span>confidence: strong</span>
+          <span>women C-level: confirmed</span>
+        </div>
+      </div>
+      <footer class="card-footer">
+        <span>CleantechHUB × Epic Angels</span>
+        <span class="tagline">Inspira. Actúa. Transforma.</span>
+      </footer>
+    </section>
+    
+
+    <section class="card-page">
+      <div class="card-accent"></div>
+      <div class="card-inner">
+        <div class="card-num">02 / 17</div>
+        <h2 class="startup">AGROLIDER</h2>
+        <div class="field">
+          <span class="label">Founder</span>
+          <span class="value">Derly Camargo Guerrero</span>
+        </div>
+        <div class="field one-liner">
+          <span class="label">One-liner</span>
+          <p class="value">CLP26 Colombia; Derly Camargo Guerrero (women rep). Ag-tech, early stage.</p>
+        </div>
+        <div class="field">
+          <span class="label">Nexus</span>
+          <span class="value url">https://nexus.cleantechhub.net/s/agrolider</span>
+        </div>
+        <div class="field">
+          <span class="label">Website</span>
+          <span class="value url pending">[PENDIENTE]</span>
+        </div>
+        <div class="meta">
+          <span>confidence: strong</span>
+          <span>women C-level: confirmed</span>
+        </div>
+      </div>
+      <footer class="card-footer">
+        <span>CleantechHUB × Epic Angels</span>
+        <span class="tagline">Inspira. Actúa. Transforma.</span>
+      </footer>
+    </section>
+    
+
+    <section class="card-page">
+      <div class="card-accent"></div>
+      <div class="card-inner">
+        <div class="card-num">03 / 17</div>
+        <h2 class="startup">CLIMATIK</h2>
+        <div class="field">
+          <span class="label">Founder</span>
+          <span class="value">Kelly Basabe Alvarado</span>
+        </div>
+        <div class="field one-liner">
+          <span class="label">One-liner</span>
+          <p class="value">CLP26 Colombia; Kelly Basabe Alvarado. BookStack page title uses legal name BARUK COMPANY BIO CLIMATIK SAS.</p>
+        </div>
+        <div class="field">
+          <span class="label">Nexus</span>
+          <span class="value url">https://nexus.cleantechhub.net/s/climatik</span>
+        </div>
+        <div class="field">
+          <span class="label">Website</span>
+          <span class="value url pending">[PENDIENTE]</span>
+        </div>
+        <div class="meta">
+          <span>confidence: strong</span>
+          <span>women C-level: confirmed</span>
+        </div>
+      </div>
+      <footer class="card-footer">
+        <span>CleantechHUB × Epic Angels</span>
+        <span class="tagline">Inspira. Actúa. Transforma.</span>
+      </footer>
+    </section>
+    
+
+    <section class="card-page">
+      <div class="card-accent"></div>
+      <div class="card-inner">
+        <div class="card-num">04 / 17</div>
+        <h2 class="startup">Aterna</h2>
+        <div class="field">
+          <span class="label">Founder</span>
+          <span class="value">Jennifer Pérez Romero</span>
+        </div>
+        <div class="field one-liner">
+          <span class="label">One-liner</span>
+          <p class="value">CLP26 Colombia; Jennifer Pérez Romero — verify company↔rep mapping from PDF.</p>
+        </div>
+        <div class="field">
+          <span class="label">Nexus</span>
+          <span class="value url">https://nexus.cleantechhub.net/s/aterna</span>
+        </div>
+        <div class="field">
+          <span class="label">Website</span>
+          <span class="value url pending">[PENDIENTE]</span>
+        </div>
+        <div class="meta">
+          <span>confidence: strong</span>
+          <span>women C-level: PENDIENTE</span>
+        </div>
+      </div>
+      <footer class="card-footer">
+        <span>CleantechHUB × Epic Angels</span>
+        <span class="tagline">Inspira. Actúa. Transforma.</span>
+      </footer>
+    </section>
+    
+
+    <section class="card-page">
+      <div class="card-accent"></div>
+      <div class="card-inner">
+        <div class="card-num">05 / 17</div>
+        <h2 class="startup">CurubaTech</h2>
+        <div class="field">
+          <span class="label">Founder</span>
+          <span class="value">Paula Aponte</span>
+        </div>
+        <div class="field one-liner">
+          <span class="label">One-liner</span>
+          <p class="value">CLP26 Colombia; Paula Aponte (co-founder/rep).</p>
+        </div>
+        <div class="field">
+          <span class="label">Nexus</span>
+          <span class="value url">https://nexus.cleantechhub.net/s/curuba</span>
+        </div>
+        <div class="field">
+          <span class="label">Website</span>
+          <span class="value url">https://curuba.tech</span>
+        </div>
+        <div class="meta">
+          <span>confidence: strong</span>
+          <span>women C-level: confirmed</span>
+        </div>
+      </div>
+      <footer class="card-footer">
+        <span>CleantechHUB × Epic Angels</span>
+        <span class="tagline">Inspira. Actúa. Transforma.</span>
+      </footer>
+    </section>
+    
+
+    <section class="card-page">
+      <div class="card-accent"></div>
+      <div class="card-inner">
+        <div class="card-num">06 / 17</div>
+        <h2 class="startup">CommunityLab</h2>
+        <div class="field">
+          <span class="label">Founder</span>
+          <span class="value">Beatriz Eugenia Correa Pérez</span>
+        </div>
+        <div class="field one-liner">
+          <span class="label">One-liner</span>
+          <p class="value">CLP26 Colombia; Beatriz Eugenia Correa Pérez (co). Duplicate BookStack page id 1587.</p>
+        </div>
+        <div class="field">
+          <span class="label">Nexus</span>
+          <span class="value url">https://nexus.cleantechhub.net/s/communitylab</span>
+        </div>
+        <div class="field">
+          <span class="label">Website</span>
+          <span class="value url">https://communitylab.co</span>
+        </div>
+        <div class="meta">
+          <span>confidence: strong</span>
+          <span>women C-level: confirmed</span>
+        </div>
+      </div>
+      <footer class="card-footer">
+        <span>CleantechHUB × Epic Angels</span>
+        <span class="tagline">Inspira. Actúa. Transforma.</span>
+      </footer>
+    </section>
+    
+
+    <section class="card-page">
+      <div class="card-accent"></div>
+      <div class="card-inner">
+        <div class="card-num">07 / 17</div>
+        <h2 class="startup">Amazóniko</h2>
+        <div class="field">
+          <span class="label">Founder</span>
+          <span class="value">Catalina Arias Agudelo</span>
+        </div>
+        <div class="field one-liner">
+          <span class="label">One-liner</span>
+          <p class="value">CLP26 Colombia; Catalina Arias (co).</p>
+        </div>
+        <div class="field">
+          <span class="label">Nexus</span>
+          <span class="value url">https://nexus.cleantechhub.net/s/amazoniko</span>
+        </div>
+        <div class="field">
+          <span class="label">Website</span>
+          <span class="value url">https://www.amazoniko.com/</span>
+        </div>
+        <div class="meta">
+          <span>confidence: strong</span>
+          <span>women C-level: confirmed</span>
+        </div>
+      </div>
+      <footer class="card-footer">
+        <span>CleantechHUB × Epic Angels</span>
+        <span class="tagline">Inspira. Actúa. Transforma.</span>
+      </footer>
+    </section>
+    
+
+    <section class="card-page">
+      <div class="card-accent"></div>
+      <div class="card-inner">
+        <div class="card-num">08 / 17</div>
+        <h2 class="startup">El Ocámbulo</h2>
+        <div class="field">
+          <span class="label">Founder</span>
+          <span class="value">Karol Garzón</span>
+        </div>
+        <div class="field one-liner">
+          <span class="label">One-liner</span>
+          <p class="value">CLP26 Colombia; Karol Garzón (co).</p>
+        </div>
+        <div class="field">
+          <span class="label">Nexus</span>
+          <span class="value url">https://nexus.cleantechhub.net/s/el-ocambulo</span>
+        </div>
+        <div class="field">
+          <span class="label">Website</span>
+          <span class="value url pending">[PENDIENTE]</span>
+        </div>
+        <div class="meta">
+          <span>confidence: strong</span>
+          <span>women C-level: confirmed</span>
+        </div>
+      </div>
+      <footer class="card-footer">
+        <span>CleantechHUB × Epic Angels</span>
+        <span class="tagline">Inspira. Actúa. Transforma.</span>
+      </footer>
+    </section>
+    
+
+    <section class="card-page">
+      <div class="card-accent"></div>
+      <div class="card-inner">
+        <div class="card-num">09 / 17</div>
+        <h2 class="startup">DANTIUM</h2>
+        <div class="field">
+          <span class="label">Founder</span>
+          <span class="value">Luisa Bejarano</span>
+        </div>
+        <div class="field one-liner">
+          <span class="label">One-liner</span>
+          <p class="value">CLP26 Colombia; Luisa Bejarano listed as co-rep in PDF — C-level role not verified on BookStack page.</p>
+        </div>
+        <div class="field">
+          <span class="label">Nexus</span>
+          <span class="value url">https://nexus.cleantechhub.net/s/dantium</span>
+        </div>
+        <div class="field">
+          <span class="label">Website</span>
+          <span class="value url pending">[PENDIENTE]</span>
+        </div>
+        <div class="meta">
+          <span>confidence: strong</span>
+          <span>women C-level: PENDIENTE</span>
+        </div>
+      </div>
+      <footer class="card-footer">
+        <span>CleantechHUB × Epic Angels</span>
+        <span class="tagline">Inspira. Actúa. Transforma.</span>
+      </footer>
+    </section>
+    
+
+    <section class="card-page">
+      <div class="card-accent"></div>
+      <div class="card-inner">
+        <div class="card-num">10 / 17</div>
+        <h2 class="startup">e.WAI</h2>
+        <div class="field">
+          <span class="label">Founder</span>
+          <span class="value">Valentina Llano Lopez</span>
+        </div>
+        <div class="field one-liner">
+          <span class="label">One-liner</span>
+          <p class="value">CLP26 Colombia; women co-rep named in PDF — resolve exact name vs BookStack founder field.</p>
+        </div>
+        <div class="field">
+          <span class="label">Nexus</span>
+          <span class="value url">https://nexus.cleantechhub.net/s/e-wai</span>
+        </div>
+        <div class="field">
+          <span class="label">Website</span>
+          <span class="value url">https://e-ray.lat/e-wai/</span>
+        </div>
+        <div class="meta">
+          <span>confidence: provisional</span>
+          <span>women C-level: PENDIENTE</span>
+        </div>
+      </div>
+      <footer class="card-footer">
+        <span>CleantechHUB × Epic Angels</span>
+        <span class="tagline">Inspira. Actúa. Transforma.</span>
+      </footer>
+    </section>
+    
+
+    <section class="card-page">
+      <div class="card-accent"></div>
+      <div class="card-inner">
+        <div class="card-num">11 / 17</div>
+        <h2 class="startup">AgroData Connect</h2>
+        <div class="field">
+          <span class="label">Founder</span>
+          <span class="value">[PENDIENTE]</span>
+        </div>
+        <div class="field one-liner">
+          <span class="label">One-liner</span>
+          <p class="value">CLP26 Colombia; women co-rep in PDF — C-level unconfirmed.</p>
+        </div>
+        <div class="field">
+          <span class="label">Nexus</span>
+          <span class="value url">https://nexus.cleantechhub.net/s/agrodata-connect</span>
+        </div>
+        <div class="field">
+          <span class="label">Website</span>
+          <span class="value url">https://www.linkedin.com/company/agrodataconnect</span>
+        </div>
+        <div class="meta">
+          <span>confidence: provisional</span>
+          <span>women C-level: PENDIENTE</span>
+        </div>
+      </div>
+      <footer class="card-footer">
+        <span>CleantechHUB × Epic Angels</span>
+        <span class="tagline">Inspira. Actúa. Transforma.</span>
+      </footer>
+    </section>
+    
+
+    <section class="card-page">
+      <div class="card-accent"></div>
+      <div class="card-inner">
+        <div class="card-num">12 / 17</div>
+        <h2 class="startup">Circuito cero</h2>
+        <div class="field">
+          <span class="label">Founder</span>
+          <span class="value">María José Díaz García</span>
+        </div>
+        <div class="field one-liner">
+          <span class="label">One-liner</span>
+          <p class="value">CLP26 Colombia; women co-rep in PDF — C-level unconfirmed.</p>
+        </div>
+        <div class="field">
+          <span class="label">Nexus</span>
+          <span class="value url">https://nexus.cleantechhub.net/s/circuito-cero</span>
+        </div>
+        <div class="field">
+          <span class="label">Website</span>
+          <span class="value url pending">[PENDIENTE]</span>
+        </div>
+        <div class="meta">
+          <span>confidence: provisional</span>
+          <span>women C-level: PENDIENTE</span>
+        </div>
+      </div>
+      <footer class="card-footer">
+        <span>CleantechHUB × Epic Angels</span>
+        <span class="tagline">Inspira. Actúa. Transforma.</span>
+      </footer>
+    </section>
+    
+
+    <section class="card-page">
+      <div class="card-accent"></div>
+      <div class="card-inner">
+        <div class="card-num">13 / 17</div>
+        <h2 class="startup">NUX</h2>
+        <div class="field">
+          <span class="label">Founder</span>
+          <span class="value">[PENDIENTE]</span>
+        </div>
+        <div class="field one-liner">
+          <span class="label">One-liner</span>
+          <p class="value">CLP26 Colombia end-report mention; dedicated idea page created 2025-09-18. Not in Odoo res.partner — founder/stage PENDIENTE.</p>
+        </div>
+        <div class="field">
+          <span class="label">Nexus</span>
+          <span class="value url">https://nexus.cleantechhub.net/s/nux</span>
+        </div>
+        <div class="field">
+          <span class="label">Website</span>
+          <span class="value url pending">[PENDIENTE]</span>
+        </div>
+        <div class="meta">
+          <span>confidence: provisional</span>
+          <span>women C-level: PENDIENTE</span>
+        </div>
+      </div>
+      <footer class="card-footer">
+        <span>CleantechHUB × Epic Angels</span>
+        <span class="tagline">Inspira. Actúa. Transforma.</span>
+      </footer>
+    </section>
+    
+
+    <section class="card-page">
+      <div class="card-accent"></div>
+      <div class="card-inner">
+        <div class="card-num">14 / 17</div>
+        <h2 class="startup">Cirkula</h2>
+        <div class="field">
+          <span class="label">Founder</span>
+          <span class="value">Michelle Gomberoff</span>
+        </div>
+        <div class="field one-liner">
+          <span class="label">One-liner</span>
+          <p class="value">Hub Perú portfolio; food-waste marketplace; Pre-Seed ext. ~USD 450k (may exceed Epic USD 250k cheque). Founder PENDIENTE in Odoo/wiki.</p>
+        </div>
+        <div class="field">
+          <span class="label">Nexus</span>
+          <span class="value url">https://nexus.cleantechhub.net/s/cirkula</span>
+        </div>
+        <div class="field">
+          <span class="label">Website</span>
+          <span class="value url">https://cirkula.co</span>
+        </div>
+        <div class="meta">
+          <span>confidence: provisional</span>
+          <span>women C-level: PENDIENTE</span>
+        </div>
+      </div>
+      <footer class="card-footer">
+        <span>CleantechHUB × Epic Angels</span>
+        <span class="tagline">Inspira. Actúa. Transforma.</span>
+      </footer>
+    </section>
+    
+
+    <section class="card-page">
+      <div class="card-accent"></div>
+      <div class="card-inner">
+        <div class="card-num">15 / 17</div>
+        <h2 class="startup">ChumChum</h2>
+        <div class="field">
+          <span class="label">Founder</span>
+          <span class="value">Verónica Macías Díaz</span>
+        </div>
+        <div class="field one-liner">
+          <span class="label">One-liner</span>
+          <p class="value">REIN Network Mexico; food upcycling. Founder Verónica Macías (REIN Hubs Website Handoff). C-level role PENDIENTE verify.</p>
+        </div>
+        <div class="field">
+          <span class="label">Nexus</span>
+          <span class="value url">https://nexus.cleantechhub.net/s/chumchum</span>
+        </div>
+        <div class="field">
+          <span class="label">Website</span>
+          <span class="value url">https://chumchum.mx</span>
+        </div>
+        <div class="meta">
+          <span>confidence: provisional</span>
+          <span>women C-level: PENDIENTE</span>
+        </div>
+      </div>
+      <footer class="card-footer">
+        <span>CleantechHUB × Epic Angels</span>
+        <span class="tagline">Inspira. Actúa. Transforma.</span>
+      </footer>
+    </section>
+    
+
+    <section class="card-page">
+      <div class="card-accent"></div>
+      <div class="card-inner">
+        <div class="card-num">16 / 17</div>
+        <h2 class="startup">Arte y reciclaje para la paz</h2>
+        <div class="field">
+          <span class="label">Founder</span>
+          <span class="value">[PENDIENTE]</span>
+        </div>
+        <div class="field one-liner">
+          <span class="label">One-liner</span>
+          <p class="value">BookStack search &#x27;mujer fundadora&#x27;; Colombia circular-economy / women founders language in title.</p>
+        </div>
+        <div class="field">
+          <span class="label">Nexus</span>
+          <span class="value url">https://nexus.cleantechhub.net/s/arte-y-reciclaje-para-la-paz</span>
+        </div>
+        <div class="field">
+          <span class="label">Website</span>
+          <span class="value url pending">[PENDIENTE]</span>
+        </div>
+        <div class="meta">
+          <span>confidence: provisional</span>
+          <span>women C-level: PENDIENTE</span>
+        </div>
+      </div>
+      <footer class="card-footer">
+        <span>CleantechHUB × Epic Angels</span>
+        <span class="tagline">Inspira. Actúa. Transforma.</span>
+      </footer>
+    </section>
+    
+
+    <section class="card-page">
+      <div class="card-accent"></div>
+      <div class="card-inner">
+        <div class="card-num">17 / 17</div>
+        <h2 class="startup">Cupainatá. Labranza Sagrada</h2>
+        <div class="field">
+          <span class="label">Founder</span>
+          <span class="value">[PENDIENTE]</span>
+        </div>
+        <div class="field one-liner">
+          <span class="label">One-liner</span>
+          <p class="value">BookStack &#x27;mujer fundadora&#x27; hit; verify stage and C-level gender.</p>
+        </div>
+        <div class="field">
+          <span class="label">Nexus</span>
+          <span class="value url">https://nexus.cleantechhub.net/s/cupainata-labranza-sagrada</span>
+        </div>
+        <div class="field">
+          <span class="label">Website</span>
+          <span class="value url">https://www.reconcolombia.org/somos-9-mujeres-maternando-un-proyecto-social-que-aporta-a-un-planeta-mas-consciente-y-una-comunidad-mas-solidaria/</span>
+        </div>
+        <div class="meta">
+          <span>confidence: provisional</span>
+          <span>women C-level: PENDIENTE</span>
+        </div>
+      </div>
+      <footer class="card-footer">
+        <span>CleantechHUB × Epic Angels</span>
+        <span class="tagline">Inspira. Actúa. Transforma.</span>
+      </footer>
+    </section>
+    
+
+</body>
+</html>
