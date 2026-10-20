@@ -1,0 +1,31 @@
+# /opt/origo/opa/shacl/shapes/agroforestry_canopy.ttl
+
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix origo: <https://nexus.cleantechhub.net/data/ontology#> .
+
+origo:AgroforestryCanopyShape
+    a sh:NodeShape ;
+    sh:targetClass origo:FarmParcel ;
+
+    sh:property [
+        sh:path origo:ideamLandCoverClass ;
+        sh:not [
+            sh:in (
+                "bosque_fragmentado"
+                "agroforesteria"
+                "cafe_sombra"
+                "sistemas_agroforestales"
+                "vegetacion_secundaria"
+            )
+        ] ;
+        sh:message "Land cover class indicates potential agroforestry system. Manual canopy verification required before DDS submission. See Origo agroforestry protocol." ;
+        sh:severity sh:Warning ;
+    ] ;
+
+    sh:property [
+        sh:path origo:jrcMappingStatus ;
+        sh:not [ sh:hasValue "disputed" ] ;
+        sh:message "JRC polygon status is disputed. Resolve boundary before DDS submission." ;
+        sh:severity sh:Violation ;
+    ] .

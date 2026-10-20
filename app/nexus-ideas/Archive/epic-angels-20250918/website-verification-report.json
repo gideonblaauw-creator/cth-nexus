@@ -1,0 +1,177 @@
+{
+  "generated": "2026-09-18",
+  "total": 17,
+  "shareable": 3,
+  "entries": [
+    {
+      "startup_name": "ArtexLab",
+      "website": "",
+      "website_verified": false,
+      "shareable": false,
+      "verify_status": "missing",
+      "verify_note": "No website on record",
+      "final_url": "",
+      "http_status": null
+    },
+    {
+      "startup_name": "AGROLIDER",
+      "website": "",
+      "website_verified": false,
+      "shareable": false,
+      "verify_status": "missing",
+      "verify_note": "No website on record",
+      "final_url": "",
+      "http_status": null
+    },
+    {
+      "startup_name": "CLIMATIK",
+      "website": "",
+      "website_verified": false,
+      "shareable": false,
+      "verify_status": "missing",
+      "verify_note": "No website on record",
+      "final_url": "",
+      "http_status": null
+    },
+    {
+      "startup_name": "Aterna",
+      "website": "",
+      "website_verified": false,
+      "shareable": false,
+      "verify_status": "missing",
+      "verify_note": "No website on record",
+      "final_url": "",
+      "http_status": null
+    },
+    {
+      "startup_name": "CurubaTech",
+      "website": "https://curuba.tech/en/",
+      "website_verified": true,
+      "shareable": true,
+      "verify_status": "ok",
+      "verify_note": "HTTP 200",
+      "final_url": "https://curuba.tech/en/",
+      "http_status": 200
+    },
+    {
+      "startup_name": "CommunityLab",
+      "website": "",
+      "website_verified": false,
+      "shareable": false,
+      "verify_status": "missing",
+      "verify_note": "No website on record",
+      "final_url": "",
+      "http_status": null
+    },
+    {
+      "startup_name": "Amazóniko",
+      "website": "https://www.amazoniko.com/",
+      "website_verified": true,
+      "shareable": true,
+      "verify_status": "ok",
+      "verify_note": "HTTP 200",
+      "final_url": "https://www.amazoniko.com/",
+      "http_status": 200
+    },
+    {
+      "startup_name": "El Ocámbulo",
+      "website": "",
+      "website_verified": false,
+      "shareable": false,
+      "verify_status": "missing",
+      "verify_note": "No website on record",
+      "final_url": "",
+      "http_status": null
+    },
+    {
+      "startup_name": "DANTIUM",
+      "website": "",
+      "website_verified": false,
+      "shareable": false,
+      "verify_status": "missing",
+      "verify_note": "No website on record",
+      "final_url": "",
+      "http_status": null
+    },
+    {
+      "startup_name": "e.WAI",
+      "website": "https://e-ray.lat/e-wai/",
+      "website_verified": true,
+      "shareable": true,
+      "verify_status": "ok",
+      "verify_note": "HTTP 200",
+      "final_url": "https://e-ray.lat/e-wai/",
+      "http_status": 200
+    },
+    {
+      "startup_name": "AgroData Connect",
+      "website": "https://linktr.ee/agrodataconnect",
+      "website_verified": false,
+      "shareable": false,
+      "verify_status": "social_or_aggregator",
+      "verify_note": "Social/link aggregator — not APC shareable company site",
+      "final_url": "",
+      "http_status": null
+    },
+    {
+      "startup_name": "Circuito cero",
+      "website": "",
+      "website_verified": false,
+      "shareable": false,
+      "verify_status": "missing",
+      "verify_note": "No website on record",
+      "final_url": "",
+      "http_status": null
+    },
+    {
+      "startup_name": "NUX",
+      "website": "",
+      "website_verified": false,
+      "shareable": false,
+      "verify_status": "missing",
+      "verify_note": "No website on record",
+      "final_url": "",
+      "http_status": null
+    },
+    {
+      "startup_name": "Cirkula",
+      "website": "",
+      "website_verified": false,
+      "shareable": false,
+      "verify_status": "missing",
+      "verify_note": "No website on record",
+      "final_url": "",
+      "http_status": null
+    },
+    {
+      "startup_name": "ChumChum",
+      "website": "",
+      "website_verified": false,
+      "shareable": false,
+      "verify_status": "missing",
+      "verify_note": "No website on record",
+      "final_url": "",
+      "http_status": null
+    },
+    {
+      "startup_name": "Arte y reciclaje para la paz",
+      "website": "",
+      "website_verified": false,
+      "shareable": false,
+      "verify_status": "missing",
+      "verify_note": "No website on record",
+      "final_url": "",
+      "http_status": null
+    },
+    {
+      "startup_name": "Cupainatá. Labranza Sagrada",
+      "website": "https://www.instagram.com/cupainata_labranzasagrada/?hl=es-la",
+      "website_verified": false,
+      "shareable": false,
+      "verify_status": "social_or_aggregator",
+      "verify_note": "Social/link aggregator — not APC shareable company site",
+      "final_url": "",
+      "http_status": null
+    }
+  ]
+}

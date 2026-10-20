@@ -1,0 +1,6 @@
+Backed up:
+total 52
+drwxrwxr-x 2 debian debian  4096 Oct 16 09:01 .
+drwxrwxr-x 3 debian debian  4096 Oct 16 09:01 ..
+-rw------- 1 debian debian 16498 May 22 13:56 CTH_Master_Mentors.xlsx
+-rw-r--r-- 1 debian debian 23661 Sep 21 12:22 index.html
