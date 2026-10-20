@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "banner": {
+    "es": "Modo guiado · Construir partnerships (sin fechas) · Líneas punteadas = Suggested (no verificadas)",
+    "en": "Guided mode · Building partnerships (no dates) · Dashed lines = Suggested (unverified)"
+  },
+  "chapters": [
+    {
+      "id": "challenges",
+      "title": { "es": "1 · Retos climáticos", "en": "1 · Climate challenges" },
+      "blurb": {
+        "es": "Quién declara trabajo en retos (`works_on_challenge`). Los nodos de reto son referencias del mapa Canva, no organizaciones.",
+        "en": "Who declares work on challenges (`works_on_challenge`). Challenge nodes are Canva map references, not organizations."
+      },
+      "edgeTypes": ["works_on_challenge"],
+      "map": { "center": [-74.5, -10.5], "zoom": 4.6, "countries": ["PE"] }
+    },
+    {
+      "id": "policy",
+      "title": { "es": "2 · Política pública", "en": "2 · Public policy" },
+      "blurb": {
+        "es": "Relaciones verificadas del grafo + `issues_policy` (sólido) y vínculos inferidos `addresses_challenge` (Suggested).",
+        "en": "Verified graph edges + `issues_policy` (solid) and inferred `addresses_challenge` links (Suggested)."
+      },
+      "edgeTypes": ["regulates_layer", "runs_program", "oversees", "runs_initiative", "created", "participates", "issues_policy", "addresses_challenge"],
+      "map": { "center": [-77.0, -12.1], "zoom": 5.2, "countries": ["PE", "SV"] }
+    },
+    {
+      "id": "capital",
+      "title": { "es": "3 · Capital", "en": "3 · Capital" },
+      "blurb": {
+        "es": "Cofinanciamiento y capas de fondos que conectan programas con implementadores.",
+        "en": "Co-funding and capital layers linking programs to implementers."
+      },
+      "edgeTypes": ["cofunds", "funds_layer"],
+      "map": { "center": [-77.2, -11.8], "zoom": 5.0, "countries": ["PE"] }
+    },
+    {
+      "id": "hubs",
+      "title": { "es": "4 · Hubs e incubación", "en": "4 · Hubs & incubation" },
+      "blurb": {
+        "es": "Universidades y hubs REIN que hospedan, incuban y conectan startups.",
+        "en": "Universities and REIN hubs that host, incubate, and connect startups."
+      },
+      "edgeTypes": ["hosts", "incubated", "accelerated", "partner"],
+      "map": { "center": [-77.0, -12.0], "zoom": 5.3, "countries": ["PE", "SV"] }
+    },
+    {
+      "id": "partnerships",
+      "title": { "es": "5 · Alianzas", "en": "5 · Partnerships" },
+      "blurb": {
+        "es": "Constelaciones centradas en retos reales: sólido = dato verificado; punteado = sugerido para explorar alianzas.",
+        "en": "Challenge-centered constellations: solid = verified data; dashed = suggested partnership paths to explore."
+      },
+      "edgeTypes": null,
+      "map": { "center": [-76.2, -12.8], "zoom": 5.4, "countries": ["PE"] }
+    }
+  ],
+  "challenges": {
+    "challenge:PE-1-bosques": {
+      "label": { "es": "Reto: Bosques & Amazonía (PE)", "en": "Challenge: Forests & Amazon (PE)" },
+      "country": "Peru",
+      "geo": { "lat": -10.2, "lng": -74.5 }
+    },
+    "challenge:PE-2-agua": {
+      "label": { "es": "Reto: Agua & cuencas (PE)", "en": "Challenge: Water & basins (PE)" },
+      "country": "Peru",
+      "geo": { "lat": -12.8, "lng": -76.2 }
+    }
+  },
+  "constellations": [
+    {
+      "id": "agua-uqhu",
+      "challengeId": "challenge:PE-2-agua",
+      "startupId": "pe-uqhu",
+      "hubId": "pe-emprende-up-climatech-rein-hub-peru",
+      "universityId": "pe-universidad-del-pacifico",
+      "funderId": "pe-profonanpe"
+    },
+    {
+      "id": "agua-yakufil",
+      "challengeId": "challenge:PE-2-agua",
+      "startupId": "pe-yakufil",
+      "hubId": "pe-emprende-up-climatech-rein-hub-peru",
+      "universityId": "pe-universidad-del-pacifico",
+      "funderId": "pe-amazonia-impact-ventures"
+    },
+    {
+      "id": "bosques-yakusmart",
+      "challengeId": "challenge:PE-1-bosques",
+      "startupId": "pe-yakusmart",
+      "hubId": "pe-emprende-up-climatech-rein-hub-peru",
+      "universityId": "pe-universidad-del-pacifico",
+      "funderId": "pe-amazonia-impact-ventures"
+    }
+  ]
+}

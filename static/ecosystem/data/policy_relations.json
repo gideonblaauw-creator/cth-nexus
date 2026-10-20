@@ -1,0 +1,554 @@
+[
+ {
+  "source": "co-minenergia",
+  "target": "policy:co-ley-2099-2021",
+  "type": "issues_policy",
+  "verified": true,
+  "suggested": false,
+  "source_url": "http://secretariasenado.gov.co/senado/basedoc/ley_2099_2021.html"
+ },
+ {
+  "source": "co-minenergia",
+  "target": "policy:co-ley-1931-2018",
+  "type": "issues_policy",
+  "verified": true,
+  "suggested": false,
+  "source_url": "http://secretariasenado.gov.co/senado/basedoc/ley_1931_2018.html"
+ },
+ {
+  "source": "co-minenergia",
+  "target": "policy:co-ley-1715-2014",
+  "type": "issues_policy",
+  "verified": true,
+  "suggested": false,
+  "source_url": "http://secretariasenado.gov.co/senado/basedoc/ley_1715_2014.html"
+ },
+ {
+  "source": "co-minenergia",
+  "target": "policy:co-fenoge-decreto-1543",
+  "type": "issues_policy",
+  "verified": true,
+  "suggested": false,
+  "source_url": "https://www.minenergia.gov.co/es/misional/energia-electrica-2/fondos-especiales/fondo-de-energ%C3%ADas-no-convencionales-y-gesti%C3%B3n-eficiente-de-la-energ%C3%ADa-fenoge/"
+ },
+ {
+  "source": "co-minenergia",
+  "target": "policy:co-ndc-2020-update",
+  "type": "issues_policy",
+  "verified": true,
+  "suggested": false,
+  "source_url": "https://unfccc.int/sites/default/files/NDC/2022-06/Colombia_NDC_actualizada.pdf"
+ },
+ {
+  "source": "co-minenergia",
+  "target": "policy:co-ndc-cpd-2025",
+  "type": "issues_policy",
+  "verified": true,
+  "suggested": false,
+  "source_url": "https://www.climatepolicydatabase.org/policies/nationally-determined-contribution-ndc-176"
+ },
+ {
+  "source": "co-ipse",
+  "target": "policy:co-ipse-programa-acceso",
+  "type": "issues_policy",
+  "verified": true,
+  "suggested": false,
+  "source_url": "https://www.ipse.gov.co/"
+ },
+ {
+  "source": "co-creg",
+  "target": "policy:co-decreto-2239-zni",
+  "type": "issues_policy",
+  "verified": true,
+  "suggested": false,
+  "source_url": "https://climate-laws.org/document/decreto-2239-de-2023_9f2a"
+ },
+ {
+  "source": "co-upme",
+  "target": "policy:co-ley-2099-2021",
+  "type": "issues_policy",
+  "verified": true,
+  "suggested": false,
+  "source_url": "http://secretariasenado.gov.co/senado/basedoc/ley_2099_2021.html"
+ },
+ {
+  "source": "co-bancoldex",
+  "target": "policy:co-taxonomia-verde",
+  "type": "issues_policy",
+  "verified": true,
+  "suggested": false,
+  "source_url": "https://www.taxonomiaverde.gov.co/documents/d/taxonomia-verde/240925_guiia-de-bancos_vf"
+ },
+ {
+  "source": "pe-minam-ministerio-del-ambiente",
+  "target": "policy:pe-ley-30754-2018",
+  "type": "issues_policy",
+  "verified": true,
+  "suggested": false
+ },
+ {
+  "source": "pe-minam-ministerio-del-ambiente",
+  "target": "policy:pe-ds-013-2019-minam",
+  "type": "issues_policy",
+  "verified": true,
+  "suggested": false
+ },
+ {
+  "source": "pe-minam-ministerio-del-ambiente",
+  "target": "policy:pe-encc-2050-2024",
+  "type": "issues_policy",
+  "verified": true,
+  "suggested": false,
+  "source_url": "https://www.gob.pe/institucion/minam/informes-publicaciones/6562767"
+ },
+ {
+  "source": "pe-minam-ministerio-del-ambiente",
+  "target": "policy:pe-ley-28611-2005",
+  "type": "issues_policy",
+  "verified": true,
+  "suggested": false
+ },
+ {
+  "source": "pe-minam-ministerio-del-ambiente",
+  "target": "policy:pe-ndc-2020",
+  "type": "issues_policy",
+  "verified": true,
+  "suggested": false,
+  "source_url": "https://unfccc.int/sites/default/files/NDC/2021-07/Peru_NDC%20update%202020.pdf"
+ },
+ {
+  "source": "pe-minam-ministerio-del-ambiente",
+  "target": "policy:pe-ds-013-2019-ndc-list",
+  "type": "issues_policy",
+  "verified": true,
+  "suggested": false
+ },
+ {
+  "source": "pe-minam-ministerio-del-ambiente",
+  "target": "policy:pe-programa-bionegocios",
+  "type": "issues_policy",
+  "verified": true,
+  "suggested": false,
+  "source_url": "https://www.gob.pe/institucion/minam/campa%C3%B1as/46380-programa-para-bionegocios"
+ },
+ {
+  "source": "pe-minam-ministerio-del-ambiente",
+  "target": "policy:pe-programa-bosques",
+  "type": "issues_policy",
+  "verified": true,
+  "suggested": false,
+  "source_url": "https://www.gob.pe/institucion/minam/campa%C3%B1as/46379-programa-nacional-de-conservacion-de-bosques"
+ },
+ {
+  "source": "pe-programa-para-bionegocios-minam",
+  "target": "policy:pe-programa-bionegocios",
+  "type": "issues_policy",
+  "verified": true,
+  "suggested": false,
+  "source_url": "https://www.gob.pe/institucion/minam/campa%C3%B1as/46380-programa-para-bionegocios"
+ },
+ {
+  "source": "pe-programa-bosques-minam",
+  "target": "policy:pe-programa-bosques",
+  "type": "issues_policy",
+  "verified": true,
+  "suggested": false,
+  "source_url": "https://www.gob.pe/institucion/minam/campa%C3%B1as/46379-programa-nacional-de-conservacion-de-bosques"
+ },
+ {
+  "source": "pe-minem-ministerio-de-energia-y-minas",
+  "target": "policy:pe-ley-27270-2000",
+  "type": "issues_policy",
+  "verified": true,
+  "suggested": false
+ },
+ {
+  "source": "pe-serfor",
+  "target": "policy:pe-ley-29763-2011",
+  "type": "issues_policy",
+  "verified": true,
+  "suggested": false
+ },
+ {
+  "source": "pe-ana-autoridad-nacional-del-agua",
+  "target": "policy:pe-ley-29338-2009",
+  "type": "issues_policy",
+  "verified": true,
+  "suggested": false
+ },
+ {
+  "source": "pe-produce-ministerio-de-la-produccion",
+  "target": "policy:pe-startup-peru-clima",
+  "type": "issues_policy",
+  "verified": true,
+  "suggested": false,
+  "source_url": "https://www.gob.pe/institucion/produce/campa%C3%B1as/46381-startup-peru"
+ },
+ {
+  "source": "pe-proinnovate-startup-peru",
+  "target": "policy:pe-startup-peru-clima",
+  "type": "issues_policy",
+  "verified": true,
+  "suggested": false,
+  "source_url": "https://www.gob.pe/institucion/produce/campa%C3%B1as/46381-startup-peru"
+ },
+ {
+  "source": "pe-sernanp",
+  "target": "policy:pe-programa-bosques",
+  "type": "issues_policy",
+  "verified": true,
+  "suggested": false,
+  "source_url": "https://www.gob.pe/institucion/minam/campa%C3%B1as/46379-programa-nacional-de-conservacion-de-bosques"
+ },
+ {
+  "source": "pe-osinergmin",
+  "target": "policy:pe-ley-27270-2000",
+  "type": "issues_policy",
+  "verified": true,
+  "suggested": false
+ },
+ {
+  "source": "pe-sunass",
+  "target": "policy:pe-ley-29338-2009",
+  "type": "issues_policy",
+  "verified": true,
+  "suggested": false
+ },
+ {
+  "source": "pe-midagri-ministerio-de-desarrollo-agrario-y-riego",
+  "target": "policy:pe-ndc-2020",
+  "type": "issues_policy",
+  "verified": true,
+  "suggested": false,
+  "source_url": "https://unfccc.int/sites/default/files/NDC/2021-07/Peru_NDC%20update%202020.pdf"
+ },
+ {
+  "source": "sv-marn-ministerio-de-medio-ambiente-y-recursos-natur",
+  "target": "policy:sv-ley-medio-ambiente-1998",
+  "type": "issues_policy",
+  "verified": true,
+  "suggested": false,
+  "source_url": "https://climate-laws.org/geographies/el-salvador"
+ },
+ {
+  "source": "sv-marn-ministerio-de-medio-ambiente-y-recursos-natur",
+  "target": "policy:sv-pncc-2017",
+  "type": "issues_policy",
+  "verified": true,
+  "suggested": false,
+  "source_url": "https://climate-laws.org/geographies/el-salvador"
+ },
+ {
+  "source": "sv-marn-ministerio-de-medio-ambiente-y-recursos-natur",
+  "target": "policy:sv-ndc-2021",
+  "type": "issues_policy",
+  "verified": true,
+  "suggested": false,
+  "source_url": "https://unfccc.int/sites/default/files/NDC/2022-06/El%20Salvador_NDC%20Actualizaci%C3%B3n%202021.pdf"
+ },
+ {
+  "source": "sv-minec-ministerio-de-economia",
+  "target": "policy:sv-estrategia-ernc-2017",
+  "type": "issues_policy",
+  "verified": true,
+  "suggested": false,
+  "source_url": "https://climate-laws.org/geographies/el-salvador"
+ },
+ {
+  "source": "sv-minec-ministerio-de-economia",
+  "target": "policy:sv-conamype-ley-2016",
+  "type": "issues_policy",
+  "verified": true,
+  "suggested": false,
+  "source_url": "https://www.transparencia.gob.sv/institutions/conamype/documents/338012/download"
+ },
+ {
+  "source": "sv-bandesal-banco-de-desarrollo-de-el-salvador",
+  "target": "policy:sv-linea-credito-verde",
+  "type": "issues_policy",
+  "verified": true,
+  "suggested": false,
+  "source_url": "https://www.bandesal.gob.sv/"
+ },
+ {
+  "source": "sv-conamype",
+  "target": "policy:sv-conamype-ley-2016",
+  "type": "issues_policy",
+  "verified": true,
+  "suggested": false,
+  "source_url": "https://www.transparencia.gob.sv/institutions/conamype/documents/338012/download"
+ },
+ {
+  "source": "sv-mag-ministerio-de-agricultura-y-ganaderia",
+  "target": "policy:sv-politica-bioeconomia-2022",
+  "type": "issues_policy",
+  "verified": true,
+  "suggested": false,
+  "source_url": "https://climate-laws.org/geographies/el-salvador"
+ },
+ {
+  "source": "sv-mag-ministerio-de-agricultura-y-ganaderia",
+  "target": "policy:sv-fideagro-programa",
+  "type": "issues_policy",
+  "verified": true,
+  "suggested": false,
+  "source_url": "https://climate-laws.org/geographies/el-salvador"
+ },
+ {
+  "source": "policy:co-ley-2169-2021",
+  "target": "challenge:PE-1-bosques",
+  "type": "addresses_challenge",
+  "verified": false,
+  "suggested": true
+ },
+ {
+  "source": "policy:co-ley-2294-2023",
+  "target": "challenge:PE-1-bosques",
+  "type": "addresses_challenge",
+  "verified": false,
+  "suggested": true,
+  "source_url": "https://www.climatepolicydatabase.org/countries/colombia"
+ },
+ {
+  "source": "policy:co-taxonomia-verde",
+  "target": "challenge:PE-1-bosques",
+  "type": "addresses_challenge",
+  "verified": false,
+  "suggested": true,
+  "source_url": "https://www.taxonomiaverde.gov.co/"
+ },
+ {
+  "source": "policy:co-taxonomia-verde",
+  "target": "challenge:PE-2-agua",
+  "type": "addresses_challenge",
+  "verified": false,
+  "suggested": true,
+  "source_url": "https://www.taxonomiaverde.gov.co/"
+ },
+ {
+  "source": "policy:co-ndc-2020-update",
+  "target": "challenge:PE-1-bosques",
+  "type": "addresses_challenge",
+  "verified": false,
+  "suggested": true,
+  "source_url": "https://unfccc.int/sites/default/files/NDC/2022-06/Colombia_NDC_actualizada.pdf"
+ },
+ {
+  "source": "policy:co-ndc-cpd-2025",
+  "target": "challenge:PE-1-bosques",
+  "type": "addresses_challenge",
+  "verified": false,
+  "suggested": true,
+  "source_url": "https://www.climatepolicydatabase.org/policies/nationally-determined-contribution-ndc-176"
+ },
+ {
+  "source": "policy:co-conpes-4021-2021",
+  "target": "challenge:PE-1-bosques",
+  "type": "addresses_challenge",
+  "verified": false,
+  "suggested": true,
+  "source_url": "https://climate-laws.org/document/conpes-4021-of-2021_5c8e"
+ },
+ {
+  "source": "policy:pe-ley-30754-2018",
+  "target": "challenge:PE-1-bosques",
+  "type": "addresses_challenge",
+  "verified": false,
+  "suggested": true
+ },
+ {
+  "source": "policy:pe-encc-2050-2024",
+  "target": "challenge:PE-2-agua",
+  "type": "addresses_challenge",
+  "verified": false,
+  "suggested": true,
+  "source_url": "https://www.gob.pe/institucion/minam/informes-publicaciones/6562767"
+ },
+ {
+  "source": "policy:pe-ndc-2020",
+  "target": "challenge:PE-1-bosques",
+  "type": "addresses_challenge",
+  "verified": false,
+  "suggested": true,
+  "source_url": "https://unfccc.int/sites/default/files/NDC/2021-07/Peru_NDC%20update%202020.pdf"
+ },
+ {
+  "source": "policy:pe-ndc-2020",
+  "target": "challenge:PE-2-agua",
+  "type": "addresses_challenge",
+  "verified": false,
+  "suggested": true,
+  "source_url": "https://unfccc.int/sites/default/files/NDC/2021-07/Peru_NDC%20update%202020.pdf"
+ },
+ {
+  "source": "policy:pe-ndc-cpd",
+  "target": "challenge:PE-1-bosques",
+  "type": "addresses_challenge",
+  "verified": false,
+  "suggested": true,
+  "source_url": "https://www.climatepolicydatabase.org/countries/peru"
+ },
+ {
+  "source": "policy:pe-ndc-cpd",
+  "target": "challenge:PE-2-agua",
+  "type": "addresses_challenge",
+  "verified": false,
+  "suggested": true,
+  "source_url": "https://www.climatepolicydatabase.org/countries/peru"
+ },
+ {
+  "source": "policy:pe-ley-28611-2005",
+  "target": "challenge:PE-1-bosques",
+  "type": "addresses_challenge",
+  "verified": false,
+  "suggested": true
+ },
+ {
+  "source": "policy:pe-ley-28611-2005",
+  "target": "challenge:PE-2-agua",
+  "type": "addresses_challenge",
+  "verified": false,
+  "suggested": true
+ },
+ {
+  "source": "policy:pe-ley-29763-2011",
+  "target": "challenge:PE-1-bosques",
+  "type": "addresses_challenge",
+  "verified": false,
+  "suggested": true
+ },
+ {
+  "source": "policy:pe-ley-29338-2009",
+  "target": "challenge:PE-2-agua",
+  "type": "addresses_challenge",
+  "verified": false,
+  "suggested": true
+ },
+ {
+  "source": "policy:pe-ds-013-2019-ndc-list",
+  "target": "challenge:PE-1-bosques",
+  "type": "addresses_challenge",
+  "verified": false,
+  "suggested": true
+ },
+ {
+  "source": "policy:pe-programa-bionegocios",
+  "target": "challenge:PE-1-bosques",
+  "type": "addresses_challenge",
+  "verified": false,
+  "suggested": true,
+  "source_url": "https://www.gob.pe/institucion/minam/campa%C3%B1as/46380-programa-para-bionegocios"
+ },
+ {
+  "source": "policy:pe-programa-bosques",
+  "target": "challenge:PE-1-bosques",
+  "type": "addresses_challenge",
+  "verified": false,
+  "suggested": true,
+  "source_url": "https://www.gob.pe/institucion/minam/campa%C3%B1as/46379-programa-nacional-de-conservacion-de-bosques"
+ },
+ {
+  "source": "policy:pe-clima-law-cpd",
+  "target": "challenge:PE-1-bosques",
+  "type": "addresses_challenge",
+  "verified": false,
+  "suggested": true,
+  "source_url": "https://www.climatepolicydatabase.org/countries/peru"
+ },
+ {
+  "source": "policy:pe-clima-law-cpd",
+  "target": "challenge:PE-2-agua",
+  "type": "addresses_challenge",
+  "verified": false,
+  "suggested": true,
+  "source_url": "https://www.climatepolicydatabase.org/countries/peru"
+ },
+ {
+  "source": "policy:pe-geography-cclw",
+  "target": "challenge:PE-1-bosques",
+  "type": "addresses_challenge",
+  "verified": false,
+  "suggested": true,
+  "source_url": "https://climate-laws.org/geographies/peru"
+ },
+ {
+  "source": "policy:pe-geography-cclw",
+  "target": "challenge:PE-2-agua",
+  "type": "addresses_challenge",
+  "verified": false,
+  "suggested": true,
+  "source_url": "https://climate-laws.org/geographies/peru"
+ },
+ {
+  "source": "policy:sv-ley-medio-ambiente-1998",
+  "target": "challenge:PE-1-bosques",
+  "type": "addresses_challenge",
+  "verified": false,
+  "suggested": true,
+  "source_url": "https://climate-laws.org/geographies/el-salvador"
+ },
+ {
+  "source": "policy:sv-ley-medio-ambiente-1998",
+  "target": "challenge:PE-2-agua",
+  "type": "addresses_challenge",
+  "verified": false,
+  "suggested": true,
+  "source_url": "https://climate-laws.org/geographies/el-salvador"
+ },
+ {
+  "source": "policy:sv-pncc-2017",
+  "target": "challenge:PE-2-agua",
+  "type": "addresses_challenge",
+  "verified": false,
+  "suggested": true,
+  "source_url": "https://climate-laws.org/geographies/el-salvador"
+ },
+ {
+  "source": "policy:sv-ndc-2021",
+  "target": "challenge:PE-1-bosques",
+  "type": "addresses_challenge",
+  "verified": false,
+  "suggested": true,
+  "source_url": "https://unfccc.int/sites/default/files/NDC/2022-06/El%20Salvador_NDC%20Actualizaci%C3%B3n%202021.pdf"
+ },
+ {
+  "source": "policy:sv-ndc-2021",
+  "target": "challenge:PE-2-agua",
+  "type": "addresses_challenge",
+  "verified": false,
+  "suggested": true,
+  "source_url": "https://unfccc.int/sites/default/files/NDC/2022-06/El%20Salvador_NDC%20Actualizaci%C3%B3n%202021.pdf"
+ },
+ {
+  "source": "policy:sv-ndc-cpd",
+  "target": "challenge:PE-1-bosques",
+  "type": "addresses_challenge",
+  "verified": false,
+  "suggested": true,
+  "source_url": "https://www.climatepolicydatabase.org/countries/el-salvador"
+ },
+ {
+  "source": "policy:sv-ndc-cpd",
+  "target": "challenge:PE-2-agua",
+  "type": "addresses_challenge",
+  "verified": false,
+  "suggested": true,
+  "source_url": "https://www.climatepolicydatabase.org/countries/el-salvador"
+ },
+ {
+  "source": "policy:sv-ley-aguas-2012",
+  "target": "challenge:PE-2-agua",
+  "type": "addresses_challenge",
+  "verified": false,
+  "suggested": true,
+  "source_url": "https://climate-laws.org/geographies/el-salvador"
+ },
+ {
+  "source": "policy:sv-politica-bioeconomia-2022",
+  "target": "challenge:PE-1-bosques",
+  "type": "addresses_challenge",
+  "verified": false,
+  "suggested": true,
+  "source_url": "https://climate-laws.org/geographies/el-salvador"
+ }
+]

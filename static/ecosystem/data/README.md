@@ -1,12 +1,21 @@
 # Ecosystem map data (public bundle)
 
-Extracted from Canva actor maps (19 Oct 2026). This copy is sanitized for the Nexus Ecosystem UI (no internal Drive links, no emails).
+Extracted from Canva actor maps. **`actors.raw.json`** is the ingest snapshot (staff-only fields); **`actors.json`** is the sanitized deploy artifact (no `notes`, emails, phones, Drive links, or website check metadata).
 
 ## Files
 
-- `actors.json` — 286 organizations
-- `relations.json` — 75 edges
+- `actors.raw.json` — source snapshot for `scripts/ecosystem/build_public_data.py`
+- `actors.json` — 286 actors with `geo` (country centroid + jitter; city geocode ready)
+- `relations.json` — 75 typed edges
 - `designs.json` — source design metadata
+
+## Build
+
+```bash
+python3 scripts/ecosystem/build_public_data.py
+```
+
+Adds `nexus.card_slug` from one-pager website/name matches.
 
 ## Coverage
 
@@ -22,5 +31,5 @@ Extracted from Canva actor maps (19 Oct 2026). This copy is sanitized for the Ne
 
 - Guatemala and Costa Rica: no Canva actor mapping yet.
 - Colombia: institutions-only deck (8 actors).
-- No persons in source maps → LinkedIn shows PENDIENTE unless added later.
-- Startup Nexus cards: only YakuSmart and VIGIA have live `/s/` profiles in this dataset.
+- No `person` actors in source maps → LinkedIn row shows PENDIENTE for org-only data.
+- Nexus `/s/` slugs: only a handful match one-pagers today (see build script counts).
