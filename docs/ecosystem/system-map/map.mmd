@@ -1,0 +1,97 @@
+%% CleantechHUB Nexus — ecosystem system map (internal review)
+%% Legend: 🟢 LIVE  ·  🟡 PLANNED / partial  ·  🔒 staff-gated where noted
+
+flowchart TB
+  classDef live fill:#e8f5e0,stroke:#669348,stroke-width:2px,color:#1a2332
+  classDef planned fill:#fff8e6,stroke:#e87722,stroke-width:2px,stroke-dasharray:5 5,color:#1a2332
+  classDef source fill:#eef6ff,stroke:#0c498a,stroke-width:2px,color:#1a2332
+  classDef journey fill:#f0f9ff,stroke:#69b5fa,stroke-width:1px,color:#1a2332
+
+  subgraph SRC["Source of truth & deploy"]
+    GH["GitHub gideonblaauw-creator/cth-nexus · branch main"]
+    POLSRC["Policy research · GitHub research/ecosystem-policy<br/>SINIA Peru + Colombia corpora"]
+    CANVA["Canva actor maps → actors.raw.json"]
+    BUILD["scripts/ecosystem/build_public_data.py<br/>sanitized actors.json + policy bundle"]
+    DEPLOY["Promote from main → VPS static<br/>ops/ecosystem/apply_live.sh (deliberate)"]
+    GH --> BUILD
+    CANVA --> BUILD
+    POLSRC --> BUILD
+    BUILD --> DEPLOY
+  end
+
+  subgraph COUNTRY["Country separation (data + UX)"]
+    PE["🇵🇪 Peru ecosystem<br/>201 actors · policy PE"]
+    CO["🇨🇴 Colombia ecosystem<br/>8 actors (institutions) · policy CO"]
+    SV["🇸🇻 El Salvador ecosystem<br/>77 actors · policy SV"]
+    RULE["Policies & policy_relations only link<br/>same-country actors (enforced in bundle)"]
+    PE --- RULE
+    CO --- RULE
+    SV --- RULE
+  end
+
+  subgraph D3["D3 Explore — LIVE 🔒 staff"]
+    ECO["nexus.cleantechhub.net/ecosystem/<br/>static/ecosystem/ · MapLibre + Sigma"]
+    TABS["Tabs: Explorar mapa+red · Fichas actores · Historia guiada"]
+    DATA["data/: actors.json · relations.json<br/>policies.json · policy_relations.json<br/>story-chapters.json"]
+    ECO --> TABS
+    ECO --> DATA
+  end
+
+  subgraph D5["D5 Guided story — LIVE order vs TARGET order"]
+    LIVEORD["LIVE chapter rail (story-chapters.json):<br/>1 Challenges · 2 Policy · 3 Capital<br/>4 Hubs · 5 Partnerships"]
+    TARGETORD["TARGET chapter rail (staff spec):<br/>1 Challenges · 2 Policy · 3 Hubs<br/>4 Data 🟡 · 5 Partnerships · 6 Capital"]
+    STORY["story.mjs + ecosystem.mjs<br/>chapter scenes · constellations · Suggested edges"]
+    LIVEORD -. reorder .-> TARGETORD
+    TARGETORD --> STORY
+    DATA --> STORY
+  end
+
+  subgraph PIECES["Nexus pieces & where they live"]
+    HUBMAP["HubMap LIVE public<br/>/hubs/ · site/cth-static/hubs/<br/>/hubs/{slug}/ hub pages"]
+    PORT["Startup portfolio LIVE<br/>/p/startup-portfolio"]
+    CARDS["Nexus startup cards LIVE<br/>/s/{slug} · onepagers/sites/"]
+    IDEAS["Nexus Ideas LIVE<br/>/ideas · app/nexus-ideas"]
+    WIKIIDEA["Wiki Idea Browser LIVE<br/>wiki.cleantechhub.net/books/idea-browser"]
+    WIKIACTOR["Actor Wiki pages 🟡<br/>wiki.cleantechhub.net<br/>private review book 3042 → public"]
+    ACTORTAB["Actor cards tab LIVE 🔒<br/>ecosystem · grid + inspector"]
+  end
+
+  subgraph LINKS["Cross-links (ecosystem inspector / story)"]
+    L1["Challenge → policies · ideas · solutions · startups · actors 🟡"]
+    L2["Policy → issuing actor + affected startups<br/>policy nodes + policy_relations 🟢 partial in D5"]
+    L3["Hubs chapter → HubMap /hubs/{slug}/ 🟡"]
+    L4["Actor → /s/{slug} 🟢 UI · card_slug sparse in data<br/>website · LinkedIn 🟢 · Wiki fallback 🟡"]
+    L1 --- L2
+    L2 --- L3
+    L3 --- L4
+  end
+
+  subgraph J1["Visitor journey A — policy & startups"]
+    J1A["Challenge node (Canva)"] --> J1B["Policy chapter / policy inspector"]
+    J1B --> J1C["Actor card (ecosystem)"]
+    J1C --> J1D["Nexus /s/{slug}"]
+    J1D --> J1E["Actor Wiki page"]
+  end
+
+  subgraph J2["Visitor journey B — hubs"]
+    J2A["Hubs story chapter / hub actor"] --> J2B["HubMap /hubs/{slug}/"]
+    J2B --> J2C["Hub people & mentors"]
+    J2C --> J2D["Portfolio / linked /s/ cards"]
+  end
+
+  DEPLOY --> ECO
+  DEPLOY --> HUBMAP
+  DEPLOY --> CARDS
+  BUILD --> COUNTRY
+  D3 --> D5
+  STORY --> LINKS
+  HUBMAP --> J2
+  ECO --> J1
+  CARDS --> J1
+  WIKIACTOR --> J1
+  PORT --> J2
+
+  class GH,POLSRC,CANVA,BUILD,DEPLOY source
+  class ECO,TABS,DATA,LIVEORD,STORY,HUBMAP,PORT,CARDS,IDEAS,WIKIIDEA,ACTORTAB,L2,L4 live
+  class TARGETORD,L1,L3,WIKIACTOR planned
+  class J1A,J1B,J1C,J1D,J1E,J2A,J2B,J2C,J2D journey

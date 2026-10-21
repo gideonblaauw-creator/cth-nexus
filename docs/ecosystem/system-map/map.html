@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nexus ecosystem system map — internal review</title>
+  <meta name="robots" content="noindex,nofollow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --deep-blue: #0c498a;
+      --forest: #669348;
+      --light-green: #9dc384;
+      --sky: #69b5fa;
+      --bg: #eef6ff;
+      --card: #fff;
+      --text: #1a2332;
+      --muted: #475569;
+      --border: #d1e3f8;
+      --planned: #e87722;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Open Sans', system-ui, sans-serif;
+      font-size: 14px;
+      line-height: 1.55;
+      color: var(--text);
+      background: linear-gradient(165deg, var(--bg) 0%, #f7fcf5 45%, var(--bg) 100%);
+    }
+    header {
+      padding: 28px 24px 20px;
+      border-bottom: 3px solid var(--forest);
+      background: var(--card);
+      box-shadow: 0 2px 12px rgba(12, 73, 138, 0.08);
+    }
+    header h1 {
+      margin: 0 0 6px;
+      font-size: 1.45rem;
+      font-weight: 700;
+      color: var(--deep-blue);
+    }
+    .eyebrow {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--forest);
+      margin: 0 0 8px;
+    }
+    .sub { margin: 0; color: var(--muted); max-width: 72ch; }
+    main { max-width: 1280px; margin: 0 auto; padding: 24px 20px 48px; }
+    .legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px 20px;
+      margin-bottom: 20px;
+      padding: 14px 16px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+    .legend span {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.85rem;
+    }
+    .swatch {
+      width: 14px;
+      height: 14px;
+      border-radius: 4px;
+      border: 2px solid transparent;
+    }
+    .swatch.live { background: #e8f5e0; border-color: var(--forest); }
+    .swatch.planned { background: #fff8e6; border-color: var(--planned); border-style: dashed; }
+    .swatch.source { background: #eef6ff; border-color: var(--deep-blue); }
+    .diagram-wrap {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px;
+      overflow-x: auto;
+      box-shadow: 0 2px 12px rgba(12, 73, 138, 0.06);
+    }
+    .mermaid { min-width: 900px; }
+    section {
+      margin-top: 28px;
+      padding: 20px 18px;
+      background: var(--card);
+      border-radius: 12px;
+      border: 1px solid var(--border);
+    }
+    section h2 {
+      margin: 0 0 12px;
+      font-size: 1.05rem;
+      color: var(--deep-blue);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+    }
+    th, td {
+      text-align: left;
+      padding: 8px 10px;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+    }
+    th { color: var(--muted); font-weight: 600; }
+    code {
+      font-size: 0.82em;
+      background: #f1f5f9;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+    .tag {
+      display: inline-block;
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 999px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .tag.live { background: #e8f5e0; color: #2d5016; }
+    .tag.planned { background: #fff0e0; color: #9a3412; }
+    footer {
+      margin-top: 32px;
+      font-size: 0.8rem;
+      color: var(--muted);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <p class="eyebrow">CleantechHUB Nexus · Internal review</p>
+    <h1>How the CleantechHUB Nexus puzzle fits together</h1>
+    <p class="sub">System map grounded in <code>static/ecosystem</code>, D3 Explore, D5 Guided story, HubMap, portfolio, Ideas, Wiki, and policy bundle. Not for deploy or external distribution.</p>
+  </header>
+  <main>
+    <div class="legend" aria-label="Legend">
+      <span><i class="swatch live"></i> LIVE (or partial live)</span>
+      <span><i class="swatch planned"></i> PLANNED / reorder pending</span>
+      <span><i class="swatch source"></i> Source &amp; deploy path</span>
+      <span>🔒 Staff-gated: <code>/ecosystem/</code></span>
+    </div>
+
+    <div class="diagram-wrap">
+      <pre class="mermaid">
+flowchart TB
+  classDef live fill:#e8f5e0,stroke:#669348,stroke-width:2px,color:#1a2332
+  classDef planned fill:#fff8e6,stroke:#e87722,stroke-width:2px,stroke-dasharray:5 5,color:#1a2332
+  classDef source fill:#eef6ff,stroke:#0c498a,stroke-width:2px,color:#1a2332
+  classDef journey fill:#f0f9ff,stroke:#69b5fa,stroke-width:1px,color:#1a2332
+
+  subgraph SRC["Source of truth and deploy"]
+    GH["GitHub cth-nexus main"]
+    POLSRC["research/ecosystem-policy SINIA PE + CO"]
+    CANVA["Canva maps to actors.raw.json"]
+    BUILD["build_public_data.py"]
+    DEPLOY["apply_live.sh deliberate promote"]
+    GH --> BUILD
+    CANVA --> BUILD
+    POLSRC --> BUILD
+    BUILD --> DEPLOY
+  end
+
+  subgraph COUNTRY["Country separation"]
+    PE["Peru 201 actors"]
+    CO["Colombia 8 actors"]
+    SV["El Salvador 77 actors"]
+    RULE["Same-country policy links only"]
+    PE --- RULE
+    CO --- RULE
+    SV --- RULE
+  end
+
+  subgraph D3["D3 Explore LIVE staff"]
+    ECO["/ecosystem/ MapLibre + Sigma"]
+    TABS["Explore · Actor cards · Guided story"]
+    DATA["actors relations policies story-chapters"]
+    ECO --> TABS
+    ECO --> DATA
+  end
+
+  subgraph D5["D5 Guided story"]
+    LIVEORD["LIVE: Challenges Policy Capital Hubs Partnerships"]
+    TARGETORD["TARGET: Challenges Policy Hubs Data Partnerships Capital"]
+    STORY["story.mjs constellations"]
+    LIVEORD -.-> TARGETORD
+    TARGETORD --> STORY
+    DATA --> STORY
+  end
+
+  subgraph PIECES["Nexus pieces"]
+    HUBMAP["HubMap /hubs/slug"]
+    PORT["/p/startup-portfolio"]
+    CARDS["/s/slug one-pagers"]
+    IDEAS["/ideas"]
+    WIKIIDEA["Wiki idea-browser"]
+    WIKIACTOR["Actor Wiki book 3042 planned"]
+    ACTORTAB["Actor cards tab"]
+  end
+
+  subgraph LINKS["Cross-links"]
+    L1["Challenge to policies startups PLANNED"]
+    L2["Policy to actors PARTIAL"]
+    L3["Hubs to HubMap PLANNED"]
+    L4["Actor /s website LinkedIn Wiki PLANNED partial"]
+  end
+
+  DEPLOY --> ECO
+  DEPLOY --> HUBMAP
+  DEPLOY --> CARDS
+  BUILD --> COUNTRY
+  STORY --> LINKS
+
+  class GH,POLSRC,CANVA,BUILD,DEPLOY source
+  class ECO,TABS,DATA,LIVEORD,STORY,HUBMAP,PORT,CARDS,IDEAS,WIKIIDEA,ACTORTAB,L2 live
+  class TARGETORD,L1,L3,WIKIACTOR,L4 planned
+      </pre>
+    </div>
+
+    <section>
+      <h2>D5 chapter order</h2>
+      <table>
+        <thead>
+          <tr><th>#</th><th>Target (planned)</th><th>Live in story-chapters.json</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>Challenges</td><td><span class="tag live">challenges</span></td></tr>
+          <tr><td>2</td><td>Policy</td><td><span class="tag live">policy</span></td></tr>
+          <tr><td>3</td><td>Hubs</td><td>Capital <span class="tag live">capital</span> (position 3 live)</td></tr>
+          <tr><td>4</td><td><span class="tag planned">Data</span> (new chapter)</td><td>Hubs <span class="tag live">hubs</span> (position 4 live)</td></tr>
+          <tr><td>5</td><td>Partnerships</td><td><span class="tag live">partnerships</span></td></tr>
+          <tr><td>6</td><td>Capital</td><td>— (live at position 3)</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Visitor journeys</h2>
+      <p><strong>A — Policy path:</strong> Challenge → Policy chapter → Actor inspector → <code>/s/{slug}</code> → Actor Wiki (planned).</p>
+      <p><strong>B — Hub path:</strong> Hubs chapter → HubMap <code>/hubs/{slug}/</code> → hub team → linked startup cards / portfolio.</p>
+    </section>
+
+    <footer>Repo: <code>docs/ecosystem/system-map/</code> · Full prose: <code>map.md</code> · Diagram source: <code>map.mmd</code></footer>
+  </main>
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: 'base',
+      themeVariables: {
+        primaryColor: '#e8f5e0',
+        primaryTextColor: '#1a2332',
+        primaryBorderColor: '#669348',
+        lineColor: '#0c498a',
+        secondaryColor: '#eef6ff',
+        tertiaryColor: '#fff8e6',
+        fontFamily: 'Open Sans, sans-serif',
+      },
+      flowchart: { htmlLabels: true, curve: 'basis' },
+    });
+  </script>
+</body>
+</html>
