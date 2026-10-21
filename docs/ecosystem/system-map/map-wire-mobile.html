@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Nexus wire diagram — mobile</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: "Open Sans", Arial, sans-serif; background: #f8fafc; }
+    .canvas { width: 1080px; padding: 32px 28px; }
+    h1 { font-size: 36px; color: #0c498a; margin: 0 0 8px; }
+    .sub { font-size: 22px; color: #475569; margin-bottom: 20px; }
+    svg { width: 100%; height: auto; display: block; }
+  </style>
+</head>
+<body>
+  <div class="canvas" id="wire-mobile">
+    <h1>Nexus wire map</h1>
+    <p class="sub">Portrait · solid live · dashed planned</p>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 2400" width="1024" height="2400">
+      <defs>
+        <marker id="m-g" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto"><path d="M0,0 L8,3.5 L0,7 Z" fill="#64748b"/></marker>
+        <marker id="m-p" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto"><path d="M0,0 L8,3.5 L0,7 Z" fill="#7c3aed"/></marker>
+        <marker id="m-o" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto"><path d="M0,0 L8,3.5 L0,7 Z" fill="#ea580c"/></marker>
+        <marker id="m-n" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto"><path d="M0,0 L8,3.5 L0,7 Z" fill="#15803d"/></marker>
+      </defs>
+
+      <!-- Legend compact -->
+      <rect x="24" y="16" width="976" height="140" rx="12" fill="#fff" stroke="#cbd5e1" stroke-width="2"/>
+      <text x="44" y="48" font-size="24" font-weight="700">Zones</text>
+      <rect x="44" y="60" width="32" height="24" fill="#94a3b8"/><text x="84" y="78" font-size="22">Source</text>
+      <rect x="200" y="60" width="32" height="24" fill="#a78bfa"/><text x="240" y="78" font-size="22">Data</text>
+      <rect x="340" y="60" width="32" height="24" fill="#fb923c"/><text x="380" y="78" font-size="22">D5</text>
+      <rect x="440" y="60" width="32" height="24" fill="#4ade80"/><text x="480" y="78" font-size="22">Nexus</text>
+      <rect x="560" y="60" width="32" height="24" fill="#60a5fa"/><text x="600" y="78" font-size="22">Wiki</text>
+      <rect x="44" y="100" width="28" height="24" fill="#f87171"/><text x="80" y="118" font-size="22">PE</text>
+      <rect x="140" y="100" width="28" height="24" fill="#facc15"/><text x="176" y="118" font-size="22">CO</text>
+      <rect x="240" y="100" width="28" height="24" fill="#a78bfa"/><text x="276" y="118" font-size="22">SV</text>
+
+      <!-- SOURCE row -->
+      <text x="44" y="200" font-size="26" font-weight="700" fill="#64748b">SOURCE</text>
+      <rect x="44" y="220" width="200" height="80" rx="10" fill="#cbd5e1" stroke="#64748b" stroke-width="2"/>
+      <text x="144" y="268" text-anchor="middle" font-size="26" font-weight="700">GitHub main</text>
+      <rect x="264" y="220" width="200" height="80" rx="10" fill="#cbd5e1" stroke="#64748b" stroke-width="2"/>
+      <text x="364" y="268" text-anchor="middle" font-size="26" font-weight="700">Build script</text>
+      <rect x="484" y="220" width="200" height="80" rx="10" fill="#cbd5e1" stroke="#64748b" stroke-width="2"/>
+      <text x="584" y="268" text-anchor="middle" font-size="24" font-weight="700">Policy research</text>
+
+      <path d="M 364 300 L 364 360" stroke="#64748b" stroke-width="4" marker-end="url(#m-g)"/>
+      <text x="380" y="340" font-size="22">build</text>
+
+      <!-- DATA -->
+      <text x="44" y="400" font-size="26" font-weight="700" fill="#6d28d9">DATA FILES</text>
+      <rect x="44" y="420" width="440" height="64" rx="10" fill="#ddd6fe" stroke="#7c3aed" stroke-width="3"/>
+      <text x="264" y="460" text-anchor="middle" font-size="26" font-weight="700">actors + relations</text>
+      <rect x="504" y="420" width="440" height="64" rx="10" fill="#ddd6fe" stroke="#7c3aed" stroke-width="3"/>
+      <text x="724" y="460" text-anchor="middle" font-size="26" font-weight="700">policies + rels</text>
+      <rect x="44" y="500" width="900" height="64" rx="10" fill="#ddd6fe" stroke="#7c3aed" stroke-width="3"/>
+      <text x="494" y="540" text-anchor="middle" font-size="26" font-weight="700">story-chapters.json</text>
+
+      <path d="M 494 564 L 494 620" stroke="#7c3aed" stroke-width="4" marker-end="url(#m-p)"/>
+      <text x="510" y="600" font-size="22">load</text>
+
+      <!-- D5 -->
+      <text x="44" y="660" font-size="26" font-weight="700" fill="#c2410c">D5 TARGET ORDER</text>
+      <g font-size="26" font-weight="700">
+        <rect x="44" y="680" width="900" height="56" rx="8" fill="#fed7aa" stroke="#ea580c" stroke-width="2"/><text x="64" y="716">1 Challenges</text>
+        <rect x="44" y="744" width="900" height="56" rx="8" fill="#fed7aa" stroke="#ea580c" stroke-width="2"/><text x="64" y="780">2 Policy</text>
+        <rect x="44" y="808" width="900" height="56" rx="8" fill="#fed7aa" stroke="#ea580c" stroke-width="2"/><text x="64" y="844">3 Hubs</text>
+        <rect x="44" y="872" width="900" height="56" rx="8" fill="#ffedd5" stroke="#ea580c" stroke-width="2" stroke-dasharray="8 5"/><text x="64" y="908">4 Data (planned)</text>
+        <rect x="44" y="936" width="900" height="56" rx="8" fill="#fed7aa" stroke="#ea580c" stroke-width="2"/><text x="64" y="972">5 Partnerships</text>
+        <rect x="44" y="1000" width="900" height="56" rx="8" fill="#fed7aa" stroke="#ea580c" stroke-width="2"/><text x="64" y="1036">6 Capital</text>
+      </g>
+
+      <path d="M 494 1056 L 494 1110" stroke="#ea580c" stroke-width="4" marker-end="url(#m-o)"/>
+      <text x="510" y="1090" font-size="22">filters</text>
+
+      <!-- NEXUS -->
+      <text x="44" y="1150" font-size="26" font-weight="700" fill="#166534">NEXUS PAGES</text>
+      <rect x="44" y="1170" width="280" height="72" rx="10" fill="#bbf7d0" stroke="#15803d" stroke-width="3"/>
+      <text x="184" y="1214" text-anchor="middle" font-size="28" font-weight="700">/ecosystem/</text>
+      <rect x="344" y="1170" width="280" height="72" rx="10" fill="#bbf7d0" stroke="#15803d" stroke-width="3"/>
+      <text x="484" y="1214" text-anchor="middle" font-size="28" font-weight="700">/hubs/</text>
+      <rect x="644" y="1170" width="300" height="72" rx="10" fill="#bbf7d0" stroke="#15803d" stroke-width="3"/>
+      <text x="794" y="1214" text-anchor="middle" font-size="28" font-weight="700">/s/ cards</text>
+      <rect x="44" y="1260" width="440" height="72" rx="10" fill="#bbf7d0" stroke="#15803d" stroke-width="3"/>
+      <text x="264" y="1304" text-anchor="middle" font-size="26" font-weight="700">/p/ portfolio</text>
+      <rect x="504" y="1260" width="440" height="72" rx="10" fill="#bbf7d0" stroke="#15803d" stroke-width="3"/>
+      <text x="724" y="1304" text-anchor="middle" font-size="26" font-weight="700">/ideas</text>
+
+      <path d="M 484 1242 L 484 1280 L 644 1206" stroke="#ea580c" stroke-width="3" stroke-dasharray="10 6" marker-end="url(#m-o)"/>
+      <text x="520" y="1250" font-size="22">hub link</text>
+
+      <!-- WIKI -->
+      <text x="44" y="1370" font-size="26" font-weight="700" fill="#1e40af">WIKI</text>
+      <rect x="44" y="1390" width="440" height="80" rx="10" fill="#bfdbfe" stroke="#1d4ed8" stroke-width="3"/>
+      <text x="264" y="1438" text-anchor="middle" font-size="28" font-weight="700">Idea browser</text>
+      <rect x="504" y="1390" width="440" height="80" rx="10" fill="#dbeafe" stroke="#1d4ed8" stroke-width="3" stroke-dasharray="8 5"/>
+      <text x="724" y="1438" text-anchor="middle" font-size="28" font-weight="700">Actor wiki</text>
+
+      <!-- COUNTRIES -->
+      <text x="44" y="1510" font-size="26" font-weight="700">COUNTRIES</text>
+      <rect x="44" y="1530" width="280" height="88" rx="10" fill="#fecaca" stroke="#dc2626" stroke-width="3"/>
+      <text x="184" y="1582" text-anchor="middle" font-size="30" font-weight="800">Peru PE</text>
+      <rect x="344" y="1530" width="280" height="88" rx="10" fill="#fef08a" stroke="#ca8a04" stroke-width="3"/>
+      <text x="484" y="1582" text-anchor="middle" font-size="28" font-weight="800">Colombia CO</text>
+      <rect x="644" y="1530" width="300" height="88" rx="10" fill="#ddd6fe" stroke="#7c3aed" stroke-width="3"/>
+      <text x="794" y="1582" text-anchor="middle" font-size="26" font-weight="800">El Salvador</text>
+
+      <path d="M 724 500 L 184 1530" stroke="#dc2626" stroke-width="3" fill="none" opacity="0.35"/>
+      <text x="44" y="1650" font-size="22" fill="#64748b">Policies scoped per country (same-country links)</text>
+
+      <!-- Journeys -->
+      <rect x="44" y="1680" width="900" height="88" rx="10" fill="#f0f9ff" stroke="#69b5fa"/>
+      <text x="64" y="1720" font-size="24" font-weight="700">Journey A</text>
+      <text x="64" y="1752" font-size="22">Challenge → Policy → Actor → /s/ → Wiki</text>
+
+      <rect x="44" y="1790" width="900" height="88" rx="10" fill="#f0fdf4" stroke="#4ade80"/>
+      <text x="64" y="1830" font-size="24" font-weight="700">Journey B</text>
+      <text x="64" y="1862" font-size="22">Hubs → /hubs/ → team → /s/</text>
+
+      <rect x="44" y="1900" width="900" height="72" rx="10" fill="#fff7ed" stroke="#ea580c"/>
+      <text x="64" y="1944" font-size="22">Live rail: Ch→Po→Cap→Hub→Part (reorder planned)</text>
+    </svg>
+  </div>
+</body>
+</html>

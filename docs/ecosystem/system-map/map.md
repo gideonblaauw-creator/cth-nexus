@@ -2,7 +2,8 @@
 
 **Artifact type:** Internal review (not deployed, not customer-facing)  
 **Generated from repo:** `static/ecosystem/`, `story.mjs`, `story-chapters.json`, `site/cth-static/hubs/`, Nexus `/s/` one-pagers, `/ideas`, `/p/startup-portfolio`  
-**Diagram:** [`map.mmd`](map.mmd) · [`map.html`](map.html) · [`map.png`](map.png)
+**Diagram:** [`map.mmd`](map.mmd) · [`map.html`](map.html) · [`map.png`](map.png)  
+**Wire review (large type):** [`map-wire.html`](map-wire.html) · [`map-wire.png`](map-wire.png) (3000px) · [`map-wire.pdf`](map-wire.pdf) · [`map-wire-mobile.png`](map-wire-mobile.png)
 
 | Symbol | Meaning |
 |--------|---------|
