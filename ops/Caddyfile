@@ -102,6 +102,17 @@ nexus.cleantechhub.net {
 		file_server
 		try_files {path} {path}/index.html
 	}
+	# HubMap legacy URL — was falling through to HumHub (:8080) → 502; canonical is /hubs/
+	handle /hubmap {
+		redir /hubs/ permanent
+	}
+	handle /hubmap/* {
+		uri replace /hubmap /hubs
+		header Cache-Control "no-cache, must-revalidate"
+		root * /opt/cth-nexus/static
+		try_files {path} {path}/index.html
+		file_server
+	}
 	redir /p/mentors /mentor-directory 301
 	# Idea Browser (Next.js app embedded as HumHub widget)
 	handle /ideas* {

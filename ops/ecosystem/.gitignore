@@ -5,3 +5,4 @@ geocode-run.done
 geocode-retry.log
 geocode-final.log
 remaining.json
+*.pyc
