@@ -134,6 +134,80 @@
   .dir-h .spread { break-inside: avoid; }
 }
 
+/* G2 — Journey + earth map + relation graph */
+.dir-g2 .g2-back { margin-left: auto; font-size: 11px; font-weight: 700; color: var(--deep-blue); }
+.dir-g2 .g2-startup-select {
+  min-width: 140px; font: inherit; font-size: 12px; font-weight: 600;
+  padding: 7px 10px; border-radius: 8px; border: 1px solid var(--color-border);
+  background: var(--color-card); color: var(--deep-blue);
+}
+.dir-g2 .pane-label {
+  font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.4px;
+  color: var(--color-muted); display: block; margin-bottom: 6px;
+}
+.dir-g2 .g2-stat-banner {
+  font-size: 12px; line-height: 1.45; color: var(--deep-blue);
+  background: #f0fdf4; border: 1px solid #86efac; border-radius: var(--radius);
+  padding: 10px 14px; margin-bottom: 12px;
+}
+.dir-g2 .g2-stat-banner a { font-weight: 700; color: var(--forest); }
+.dir-g2 .g2-triptych {
+  display: grid;
+  grid-template-columns: minmax(200px, 240px) 1fr 1fr;
+  gap: 12px;
+  min-height: min(58vh, 520px);
+}
+.dir-g2 .g2-rail-wrap,
+.dir-g2 .g2-map-wrap,
+.dir-g2 .g2-graph-wrap {
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-card);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+.dir-g2 .g2-rail {
+  flex: 1; overflow-y: auto; display: flex; flex-direction: column; gap: 8px;
+}
+.dir-g2 .g2-step {
+  text-align: left; border: 1px solid var(--color-border); background: #fff;
+  border-radius: 8px; padding: 8px 10px; cursor: pointer; font: inherit;
+}
+.dir-g2 .g2-step.on { border-color: var(--deep-blue); box-shadow: 0 0 0 2px rgba(12, 73, 138, 0.15); }
+.dir-g2 .g2-step.gap { border-left: 3px solid #ea580c; }
+.dir-g2 .g2-step-k { display: block; font-size: 9px; font-weight: 800; text-transform: uppercase; color: var(--color-muted); }
+.dir-g2 .g2-step-n { display: block; font-size: 12px; font-weight: 700; color: var(--deep-blue); margin-top: 2px; }
+.dir-g2 .g2-map,
+.dir-g2 .g2-graph { flex: 1; min-height: 280px; border-radius: 6px; overflow: hidden; }
+.dir-g2 .g2-bottom {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 12px;
+  margin-top: 12px;
+}
+.dir-g2 .g2-inspector,
+.dir-g2 .g2-unknown {
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  box-shadow: var(--shadow-card);
+  font-size: 12px;
+  line-height: 1.5;
+}
+.dir-g2 .g2-inspector h2 { font-size: 11px; text-transform: uppercase; color: var(--color-muted); margin-bottom: 4px; }
+.dir-g2 .g2-inspector h3 { font-size: 18px; color: var(--deep-blue); margin-bottom: 6px; }
+.dir-g2 .g2-gap { color: #ea580c; font-size: 11px; margin-top: 8px; }
+.dir-g2 .g2-source a { font-weight: 700; color: var(--forest); }
+.dir-g2 .g2-unknown h4 { font-size: 11px; text-transform: uppercase; color: var(--color-muted); margin-bottom: 8px; }
+.dir-g2 .g2-unknown ul { margin: 0; padding-left: 16px; }
+.dir-g2 .g2-unknown .meta { font-size: 10px; color: var(--color-muted); }
+
 @media (max-width: 900px) {
   .dir-f .wheel-layout, .dir-g .journey-layout, .dir-h .spread { grid-template-columns: 1fr; }
+  .dir-g2 .g2-triptych { grid-template-columns: 1fr; }
+  .dir-g2 .g2-bottom { grid-template-columns: 1fr; }
 }

@@ -18,6 +18,7 @@ const pages = [
   { id: 'e', url: `${base}/ecosystem/mock/story-directions/e/index.html`, file: 'direction-e-river.png' },
   { id: 'f', url: `${base}/ecosystem/mock/story-directions/f/index.html`, file: 'direction-f-wheel.png' },
   { id: 'g', url: `${base}/ecosystem/mock/story-directions/g/index.html`, file: 'direction-g-journey.png' },
+  { id: 'g2', url: `${base}/ecosystem/mock/story-directions/g2/index.html`, file: 'direction-g2-desktop.png' },
   { id: 'h', url: `${base}/ecosystem/mock/story-directions/h/index.html`, file: 'direction-h-storyboard.png' },
 ];
 

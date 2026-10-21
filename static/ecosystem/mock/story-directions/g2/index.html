@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dirección G2 · Journey + mapa + red (mock)</title>
+  <meta name="robots" content="noindex,nofollow" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://unpkg.com https://esm.sh; style-src 'self' 'unsafe-inline' https://unpkg.com https://cdn.jsdelivr.net https://fonts.googleapis.com; font-src https://fonts.gstatic.com data:; connect-src 'self' https://tiles.openfreemap.org https://cdn.jsdelivr.net https://unpkg.com https://esm.sh; img-src 'self' data: blob: https://tiles.openfreemap.org; worker-src blob:; child-src blob:;" />
+  <link rel="stylesheet" href="/nexus-assets/nexus-brand.css" />
+  <link rel="stylesheet" href="../shared/mock-v2.css" />
+  <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" crossorigin="" />
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js" crossorigin=""></script>
+  <script type="importmap">
+  { "imports": {
+    "graphology": "https://esm.sh/graphology@0.26.0",
+    "sigma": "https://esm.sh/sigma@4.0.3"
+  } }
+  </script>
+</head>
+<body class="mock-v2 dir-g2" data-brand="cth">
+  <header class="page-header">
+    <p class="ph-eyebrow">Mock G2 · Startup journey + tierra + red</p>
+    <h1 class="ph-title">Camino de startup con mapa y grafo</h1>
+    <p class="ph-sub">Extiende la dirección G — rail de pasos, mapa LATAM y red con aristas del recorrido (fuentes públicas verificadas).</p>
+  </header>
+  <div class="mock-shell" data-g2-root>
+    <div class="mock-toolbar">
+      <span class="mock-tag">Dirección G2</span>
+      <label for="mock-challenge-select">Área de reto</label>
+      <select id="mock-challenge-select" class="mock-challenge-select" aria-label="Challenge"></select>
+      <label for="startup-select">Startup</label>
+      <select id="startup-select" class="g2-startup-select" aria-label="Startup">
+        <option value="pe-yakusmart" selected>YakuSmart</option>
+        <option value="pe-uqhu">UQHU</option>
+        <option value="pe-yakufil">Yakufil</option>
+      </select>
+      <a href="../index.html" class="g2-back">← Índice</a>
+    </div>
+    <div data-g2-stat class="g2-stat-banner hidden" aria-live="polite"></div>
+    <div class="g2-triptych">
+      <aside class="g2-rail-wrap">
+        <span class="pane-label">Recorrido</span>
+        <div class="g2-rail" data-g2-rail aria-label="Pasos del journey"></div>
+      </aside>
+      <div class="g2-map-wrap">
+        <span class="pane-label">Mapa (solo direcciones reales)</span>
+        <div class="g2-map" data-g2-map role="application" aria-label="Mapa LATAM"></div>
+      </div>
+      <div class="g2-graph-wrap">
+        <span class="pane-label">Red · camino resaltado</span>
+        <div class="g2-graph" data-g2-graph role="application" aria-label="Red de relaciones"></div>
+      </div>
+    </div>
+    <div class="g2-bottom">
+      <section class="g2-inspector" data-g2-inspector aria-label="Inspector del paso"></section>
+      <aside class="g2-unknown" data-g2-unknown aria-label="Actores sin ubicación ploteable"></aside>
+    </div>
+  </div>
+  <p class="mock-foot">Solo relaciones con <code>source_url</code> pública · sin correos/teléfonos/enlaces internos Nexus.</p>
+  <script type="module">
+    import {
+      loadWaterMockData,
+      wireChallengeSelect,
+      applyChallengeFromQuery,
+      syncChallengeQuery,
+    } from '../shared/water-loader.mjs';
+    import { bootJourneyG2 } from '../shared/journey-g2.mjs';
+
+    let bundle = await loadWaterMockData();
+    applyChallengeFromQuery(bundle);
+    syncChallengeQuery(bundle);
+
+    const root = document.querySelector('[data-g2-root]');
+    const api = bootJourneyG2(bundle, root);
+
+    wireChallengeSelect(document.getElementById('mock-challenge-select'), bundle, () => {
+      api.refresh();
+    });
+  </script>
+</body>
+</html>
