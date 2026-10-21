@@ -28,7 +28,15 @@ tag_country: El Salvador
 
 ## Rol y alcance
 
-PENDIENTE
+Embajada de Japón en El Salvador: representación diplomática y canal de cooperación bilateral (JICA y programas de desarrollo).
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | PENDIENTE |
+| Áreas de enfoque (CT) | PENDIENTE |
+| Programas | Cooperación técnica y relaciones bilaterales El Salvador–Japón |
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +48,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.sv.emb-japan.go.jp/

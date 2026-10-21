@@ -19,16 +19,24 @@ tag_country: Peru
 | Categoría | corporate |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | PENDIENTE |
 | Sitio web | https://alts.axa-im.com/responsible-investing/impact-investing |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/axa-im-alts |
 | Rol en el ecosistema | Empresa / sector privado |
-| Desafíos (códigos) | PENDIENTE |
+| Desafíos (códigos) | FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Brazo de inversión de impacto de AXA IM Alts, orientado a resultados ambientales y sociales además de financieros.
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | PENDIENTE |
+| Áreas de enfoque (CT) | FIN |
+| Programas | Estrategias de impact investing en infraestructura y activos alternativos |
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +48,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://alts.axa-im.com/responsible-investing/impact-investing
+- https://www.linkedin.com/company/axa-im-alts

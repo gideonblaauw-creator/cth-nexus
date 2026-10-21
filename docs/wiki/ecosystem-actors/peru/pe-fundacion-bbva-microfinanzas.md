@@ -19,16 +19,24 @@ tag_country: Peru
 | Categoría | ngo_foundation |
 | Tipo | org |
 | País | Peru |
-| Ciudad | PENDIENTE |
+| Ciudad | Lima |
 | Sitio web | https://www.fundacionmicrofinanzasbbva.org |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/fundaci%C3%B3n-microfinanzas-bbva |
 | Rol en el ecosistema | ONG o fundación |
-| Desafíos (códigos) | PENDIENTE |
+| Desafíos (códigos) | FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Fundación Microfinanzas BBVA: promueve inclusión financiera y desarrollo de microfinanzas en América Latina, con presencia en Perú.
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | PENDIENTE |
+| Áreas de enfoque (CT) | FIN |
+| Programas | Capacitación, investigación y apoyo a instituciones microfinancieras |
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +48,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.fundacionmicrofinanzasbbva.org
+- https://www.linkedin.com/company/fundaci%C3%B3n-microfinanzas-bbva

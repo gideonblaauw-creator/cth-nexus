@@ -19,16 +19,24 @@ tag_country: Peru
 | Categoría | corporate |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | PENDIENTE |
 | Sitio web | https://beneficialreturns.com/ |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/beneficial-returns |
 | Rol en el ecosistema | Empresa / sector privado |
-| Desafíos (códigos) | PENDIENTE |
+| Desafíos (códigos) | FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Gestor de inversiones de impacto que apoya el crecimiento de empresas sociales en mercados emergentes.
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | PENDIENTE |
+| Áreas de enfoque (CT) | FIN |
+| Programas | Deuda e inversión de impacto para emprendimientos con misión social |
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +48,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://beneficialreturns.com/
+- https://www.linkedin.com/company/beneficial-returns

@@ -28,7 +28,15 @@ tag_country: Peru
 
 ## Rol y alcance
 
-PENDIENTE
+Consultora peruana (Fenix Consulting) referenciada en el mapa de actores; sitio institucional no verificable con HTTP 200 en el entorno de auditoría (timeout/error).
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | PENDIENTE |
+| Áreas de enfoque (CT) | PENDIENTE |
+| Programas | PENDIENTE |
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +48,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.fenixconsulting.com.pe

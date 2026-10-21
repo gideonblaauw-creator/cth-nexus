@@ -19,16 +19,24 @@ tag_country: Peru
 | Categoría | ngo_foundation |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Cuzco |
+| Ciudad | Cusco |
 | Sitio web | https://accion-andina.org |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/accion-andina |
 | Rol en el ecosistema | ONG o fundación |
-| Desafíos (códigos) | AGU |
+| Desafíos (códigos) | AGU, BOS |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Iniciativa multipaís que protege y restaura bosques nativos andinos mediante restauración comunitaria y alianzas con ECOAN y Global Forest Generation.
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | 2018 (inicio operativo de la iniciativa) |
+| Dirección | Los Pinos D1-B, Wanchaq, Cusco, Perú |
+| Áreas de enfoque (CT) | AGU, BOS |
+| Programas | Restauración de bosques de Polylepis; viveros y brigadas comunitarias; meta de proteger/restaurar un millón de hectáreas en 25 años |
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +48,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://accion-andina.org/
+- https://www.linkedin.com/company/accion-andina

@@ -19,16 +19,24 @@ tag_country: Peru
 | Categoría | corporate |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | Washington, D.C. (sede IDB Group) |
 | Sitio web | https://idbinvest.org/en |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/idb-invest |
 | Rol en el ecosistema | Empresa / sector privado |
-| Desafíos (códigos) | AGR, CIR, CIU, ENE, FIN |
+| Desafíos (códigos) | FIN, ENE, AGR |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Entrada del mapa vinculada al Grupo BID; el sitio listado corresponde a IDB Invest, brazo de financiamiento del sector privado para proyectos sostenibles en LAC.
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | 1959 (Banco Interamericano de Desarrollo) |
+| Dirección | PENDIENTE |
+| Áreas de enfoque (CT) | FIN, ENE, AGR |
+| Programas | Financiamiento de empresas y proyectos de infraestructura, energía y clima en la región |
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +48,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://idbinvest.org/en
+- https://www.iadb.org/en
+- https://www.linkedin.com/company/idb-invest

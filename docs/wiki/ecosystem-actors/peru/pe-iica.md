@@ -19,16 +19,24 @@ tag_country: Peru
 | Categoría | international |
 | Tipo | org |
 | País | Peru |
-| Ciudad | La Molina |
+| Ciudad | Lima (La Molina) |
 | Sitio web | https://iica.int |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/iica |
 | Rol en el ecosistema | Organización internacional o cooperación |
-| Desafíos (códigos) | PENDIENTE |
+| Desafíos (códigos) | AGR |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Instituto Interamericano de Cooperación para la Agricultura (IICA): organismo intergubernamental que apoya políticas y capacidades agropecuarias en las Américas; oficina en Perú.
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | 1942 |
+| Dirección | PENDIENTE (oficina país Perú) |
+| Áreas de enfoque (CT) | AGR |
+| Programas | Asistencia técnica a ministerios y productores; innovación y seguridad alimentaria |
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +48,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://iica.int/
+- https://www.linkedin.com/company/iica

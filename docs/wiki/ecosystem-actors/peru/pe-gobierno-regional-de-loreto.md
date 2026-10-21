@@ -19,16 +19,24 @@ tag_country: Peru
 | Categoría | government |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Nauta |
+| Ciudad | Iquitos (Maynas) |
 | Sitio web | https://www.gob.pe/regionloreto |
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Actor público / regulador |
-| Desafíos (códigos) | PENDIENTE |
+| Desafíos (códigos) | BOS, AGU |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Gobierno Regional de Loreto: autoridad subnacional que planifica y ejecuta desarrollo en la Amazonía peruana.
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | Av. José Abelardo Quiñones Km. 1.4, Belén, Maynas, Loreto |
+| Áreas de enfoque (CT) | BOS, AGU |
+| Programas | Inversión pública regional; gestión ambiental y desarrollo territorial amazónico |
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +48,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.gob.pe/regionloreto

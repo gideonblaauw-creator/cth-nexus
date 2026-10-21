@@ -21,14 +21,22 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Ilo |
 | Sitio web | https://www.angloamerican.com |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/anglo-american |
 | Rol en el ecosistema | Empresa / sector privado |
-| Desafíos (códigos) | AZU, BOS |
+| Desafíos (códigos) | ENE, CIR |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Compañía minera global con operaciones en Perú (entre ellas cobre en el sur); en el ecosistema CTH se mapea con sede operativa en Ilo.
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | 1917 (Anglo American plc) |
+| Dirección | PENDIENTE (oficina operativa Perú) |
+| Áreas de enfoque (CT) | ENE, CIR |
+| Programas | Producción responsable de cobre y otros minerales; programas de sostenibilidad corporativa |
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +48,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.angloamerican.com/
+- https://www.linkedin.com/company/anglo-american

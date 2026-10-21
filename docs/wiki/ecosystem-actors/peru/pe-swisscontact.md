@@ -21,14 +21,22 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.swisscontact.org/es/donde-trabajamos/peru |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/swisscontact |
 | Rol en el ecosistema | ONG o fundación |
-| Desafíos (códigos) | CIR |
+| Desafíos (códigos) | AGR, FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Swisscontact: fundación suiza de cooperación al desarrollo con programas en Perú en empleo, economía verde y mercados inclusivos.
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | 1959 |
+| Dirección | PENDIENTE |
+| Áreas de enfoque (CT) | AGR, FIN |
+| Programas | Proyectos de desarrollo económico sostenible en Perú |
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +48,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.swisscontact.org/es/donde-trabajamos/peru
+- https://www.linkedin.com/company/swisscontact

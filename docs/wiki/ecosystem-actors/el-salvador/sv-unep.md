@@ -19,16 +19,24 @@ tag_country: El Salvador
 | Categoría | international |
 | Tipo | org |
 | País | El Salvador |
-| Ciudad | San Salvador |
+| Ciudad | PENDIENTE |
 | Sitio web | https://www.unep.org |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/unep |
 | Rol en el ecosistema | Organización internacional o cooperación |
-| Desafíos (códigos) | PENDIENTE |
+| Desafíos (códigos) | BOS, AGU, CIU |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Programa de las Naciones Unidas para el Medio Ambiente (PNUMA/UNEP): autoridad ambiental global que apoya políticas y proyectos de sostenibilidad.
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | 1972 |
+| Dirección | PENDIENTE (oficina regional/país) |
+| Áreas de enfoque (CT) | BOS, AGU, CIU |
+| Programas | Acción climática, biodiversidad y economía circular a nivel global y regional |
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +48,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.unep.org/
+- https://www.linkedin.com/company/unep

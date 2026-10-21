@@ -19,16 +19,24 @@ tag_country: Peru
 | Categoría | academia |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | Chachapoyas |
 | Sitio web | https://untrm.edu.pe |
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Universidad o centro de investigación |
-| Desafíos (códigos) | AGR, BOS, CIU |
+| Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Universidad Nacional Toribio Rodríguez de Mendoza (UNTRM) en Amazonas: universidad pública licenciada por SUNEDU con énfasis en investigación en la región.
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | PENDIENTE |
+| Áreas de enfoque (CT) | PENDIENTE |
+| Programas | Incubadora UNTRM y programas de emprendimiento universitario |
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +48,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://untrm.edu.pe/

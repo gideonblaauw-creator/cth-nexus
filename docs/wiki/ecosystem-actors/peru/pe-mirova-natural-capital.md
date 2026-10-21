@@ -19,16 +19,24 @@ tag_country: Peru
 | Categoría | funder |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | PENDIENTE |
 | Sitio web | https://www.mirova.com |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/mirova |
 | Rol en el ecosistema | Financiador e inversionista |
-| Desafíos (códigos) | PENDIENTE |
+| Desafíos (códigos) | BOS, FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Mirova Natural Capital (grupo Mirova) invierte en soluciones de capital natural y sostenibilidad a escala global.
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | PENDIENTE |
+| Áreas de enfoque (CT) | BOS, FIN |
+| Programas | Fondos de capital natural y transición climática |
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +48,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.mirova.com/
+- https://www.linkedin.com/company/mirova

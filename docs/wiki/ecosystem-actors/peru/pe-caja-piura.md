@@ -19,16 +19,24 @@ tag_country: Peru
 | Categoría | finance |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | Piura |
 | Sitio web | https://www.cajapiura.pe |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://pe.linkedin.com/company/caja-piura |
 | Rol en el ecosistema | Institución financiera |
-| Desafíos (códigos) | CIR, ENE |
+| Desafíos (códigos) | FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Caja Municipal de Ahorro y Crédito Piura: institución financiera municipal de ahorro y crédito con cobertura en el norte del Perú.
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | PENDIENTE |
+| Áreas de enfoque (CT) | FIN |
+| Programas | Créditos, ahorro y servicios financieros para personas y MYPE |
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +48,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.cajapiura.pe
+- https://pe.linkedin.com/company/caja-piura
