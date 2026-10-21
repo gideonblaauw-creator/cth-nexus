@@ -1,0 +1,40 @@
+[
+  {
+    "id": "yakufil-startup-peru-9g",
+    "stat": "S/ 60 000",
+    "label": "Startup Perú 9G (Yakufil)",
+    "context": "Ganadores Emprendimientos Innovadores — UNSA",
+    "source_url": "https://www.unsa.edu.pe/emprendedores-de-la-unsa-ganan-concurso-y-recibiran-s-60-000-por-parte-de-startup-peru-9g/",
+    "source_title": "UNSA — Startup Perú 9G",
+    "actor_ids": ["pe-yakufil", "pe-proinnovate-startup-peru"]
+  },
+  {
+    "id": "water-challenge-actors",
+    "stat": "7",
+    "label": "actores con works_on_challenge → PE-2-agua",
+    "context": "Incluye UQHU, Yakufil y YakuSmart (mock overlay Produce)",
+    "source_url": null,
+    "source_title": "Conteo desde relations.json + relations-overlay.json (mock)",
+    "actor_ids": ["challenge:PE-2-agua"],
+    "computed": true
+  },
+  {
+    "id": "yakusmart-proinnovate-headline",
+    "stat": "ProInnóvate",
+    "label": "financiamiento / programa (YakuSmart)",
+    "context": "Riego inteligente y uso eficiente de recursos hídricos en agroexportación",
+    "source_url": "https://www.gob.pe/institucion/produce/noticias/1451346-startup-financiada-por-proinnovate-optimiza-el-riego-agricola-para-incrementar-el-valor-exportable-de-las-frutas",
+    "source_title": "Produce — YakuSmart financiada ProInnóvate",
+    "actor_ids": ["pe-yakusmart", "pe-proinnovate-startup-peru"]
+  },
+  {
+    "id": "yakusmart-water-savings",
+    "stat": "PENDIENTE",
+    "label": "m³ ahorrados (métrica de campo)",
+    "context": "No hay cifra verificada en actors.json ni actor_relations; casos en yakusmart.io/es sin extraer al bundle",
+    "source_url": "https://yakusmart.io/es",
+    "source_title": "YakuSmart — sitio (sin métrica en grafo)",
+    "actor_ids": ["pe-yakusmart"],
+    "placeholder": true
+  }
+]

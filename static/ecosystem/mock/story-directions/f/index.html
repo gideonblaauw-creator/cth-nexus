@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dirección F · Ecosystem wheel (mock)</title>
+  <meta name="robots" content="noindex,nofollow" />
+  <link rel="stylesheet" href="/nexus-assets/nexus-brand.css" />
+  <link rel="stylesheet" href="../shared/mock-v2.css" />
+</head>
+<body class="mock-v2 dir-f" data-brand="cth">
+  <header class="page-header">
+    <p class="ph-eyebrow">Mock F · Ecosystem wheel</p>
+    <h1 class="ph-title">Rueda radial — reto en el centro</h1>
+    <p class="ph-sub">Anillos por capítulo · clic en actor abre ficha</p>
+  </header>
+  <div class="mock-shell">
+    <div class="mock-toolbar">
+      <span class="mock-tag">Dirección F</span>
+      <label for="mock-challenge-select">Área de reto</label>
+      <select id="mock-challenge-select" class="mock-challenge-select"></select>
+      <a href="../index.html" style="margin-left:auto;font-size:11px;font-weight:700">← Índice</a>
+    </div>
+    <div class="wheel-layout">
+      <div class="ring-controls" id="ring-controls"></div>
+      <div class="wheel-svg-wrap">
+        <svg id="wheel" class="wheel-svg"></svg>
+      </div>
+    </div>
+  </div>
+  <div class="actor-modal" id="modal">
+    <div class="actor-modal-card" id="modal-body"></div>
+  </div>
+  <script type="module">
+    import { loadWaterMockData, wireChallengeSelect, actorCard, actorVisualUrl } from '../shared/water-loader.mjs';
+    import { renderWheel } from '../shared/wheel.mjs';
+
+    let bundle = await loadWaterMockData();
+    let maxRing = 6;
+    const svg = document.getElementById('wheel');
+    const modal = document.getElementById('modal');
+
+    function buildControls() {
+      const el = document.getElementById('ring-controls');
+      el.innerHTML = '<p style="font-size:10px;font-weight:800;color:var(--color-muted);margin-bottom:8px">REVELAR ANILLOS</p>';
+      bundle.storyConfig.chapters.forEach((ch, i) => {
+        const b = document.createElement('button');
+        b.type = 'button';
+        b.textContent = ch.title.es;
+        b.classList.toggle('on', i < maxRing);
+        b.addEventListener('click', () => {
+          maxRing = i + 1;
+          buildControls();
+          renderWheel(svg, bundle, maxRing);
+        });
+        el.appendChild(b);
+      });
+    }
+
+    function openActor(id) {
+      const c = actorCard(bundle.byId, id);
+      const a = bundle.byId.get(id);
+      const img = actorVisualUrl(a);
+      document.getElementById('modal-body').innerHTML = `
+        ${img ? `<img src="${img}" alt="" width="48" height="48" style="border-radius:8px;margin-bottom:8px"/>` : ''}
+        <h2 style="color:var(--deep-blue);font-size:18px">${c.name}</h2>
+        <p style="font-size:11px;color:var(--color-muted)">${c.role} · ${c.city}</p>
+        <p style="font-size:12px;margin-top:10px;line-height:1.5">${(c.description || '').slice(0, 320)}</p>
+        ${c.website ? `<p style="margin-top:10px"><a href="${c.website}" target="_blank" rel="noopener">Sitio web</a></p>` : ''}`;
+      modal.classList.add('open');
+    }
+    modal.addEventListener('click', (e) => { if (e.target === modal) modal.classList.remove('open'); });
+    svg.addEventListener('click', (e) => {
+      const id = e.target.closest('.wheel-node')?.dataset?.id;
+      if (id && !id.startsWith('challenge:')) openActor(id);
+    });
+
+    wireChallengeSelect(document.getElementById('mock-challenge-select'), bundle, () => {
+      buildControls();
+      renderWheel(svg, bundle, maxRing);
+    });
+    buildControls();
+    renderWheel(svg, bundle, maxRing);
+    window.addEventListener('resize', () => renderWheel(svg, bundle, maxRing));
+  </script>
+</body>
+</html>

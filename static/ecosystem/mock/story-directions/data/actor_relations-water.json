@@ -1,0 +1,238 @@
+{
+  "version": 1,
+  "source": "Subset of actor_relations.json from cursor/mock-peru-water-story-130a",
+  "date_built": "2026-10-21",
+  "count": 23,
+  "relations": [
+    {
+      "from_id": "pe-caja-arequipa",
+      "to_id": "pe-yakufil",
+      "type": "funding",
+      "description": "UNSA reporta que Yakufil Home ganó el Premio Orgullo Emprendedor 2024 (categoría Emprendedor Joven) organizado por Caja Arequipa.",
+      "source_url": "https://www.unsa.edu.pe/yakufil-emprendimiento-unsa-que-revoluciona-el-tratamiento-de-aguas-residuales/",
+      "source_title": "UNSA — Premio Orgullo Emprendedor Yakufil",
+      "date_accessed": "2026-10-21",
+      "confidence": "high"
+    },
+    {
+      "from_id": "pe-cleantechhub",
+      "to_id": "pe-yakusmart",
+      "type": "co_organized_event",
+      "description": "CleantechHUB reporta que organizó la Final Regional de ClimateLaunchpad Américas 2026 donde YakuSmart obtuvo el primer lugar.",
+      "source_url": "https://es.linkedin.com/posts/cleantechhub_climatelaunchpad-americas-regional-final-activity-7503144329247563776-TJpx",
+      "source_title": "CleantechHUB — ClimateLaunchpad Américas 2026",
+      "date_accessed": "2026-10-21",
+      "confidence": "high"
+    },
+    {
+      "from_id": "pe-emprende-up-climatech-rein-hub-peru",
+      "to_id": "pe-cleantechhub",
+      "type": "partnership",
+      "description": "ClimaTech se desarrolla en alianza con ProInnóvate y CleantechHUBs según Emprende UP.",
+      "source_url": "https://emprendeup.pe/climatech-impulsando-soluciones-para-un-mundo-sostenible/",
+      "source_title": "Emprende UP — lanzamiento ClimaTech",
+      "date_accessed": "2026-10-21",
+      "confidence": "high"
+    },
+    {
+      "from_id": "pe-emprende-up-climatech-rein-hub-peru",
+      "to_id": "pe-proinnovate-startup-peru",
+      "type": "program_participation",
+      "description": "ClimaTech es respaldado por ProInnóvate junto a aliados del ecosistema climático.",
+      "source_url": "https://emprendeup.pe/climatech-impulsando-soluciones-para-un-mundo-sostenible/",
+      "source_title": "Emprende UP — lanzamiento ClimaTech",
+      "date_accessed": "2026-10-21",
+      "confidence": "high"
+    },
+    {
+      "from_id": "pe-emprende-up-climatech-rein-hub-peru",
+      "to_id": "pe-pvblic-foundation",
+      "type": "partnership",
+      "description": "PVBLIC Foundation documenta alianzas REIN Hub incluyendo articulación con hubs de la región.",
+      "source_url": "https://pvblic.org/rein-hubs/",
+      "source_title": "PVBLIC Foundation — REIN Hubs",
+      "date_accessed": "2026-10-21",
+      "confidence": "high"
+    },
+    {
+      "from_id": "pe-emprende-up-climatech-rein-hub-peru",
+      "to_id": "pe-universidad-del-pacifico",
+      "type": "program_participation",
+      "description": "ClimaTech es una plataforma de Emprende UP en la Universidad del Pacífico.",
+      "source_url": "https://emprendeup.pe/climatech-impulsando-soluciones-para-un-mundo-sostenible/",
+      "source_title": "Emprende UP — ClimaTech",
+      "date_accessed": "2026-10-21",
+      "confidence": "high"
+    },
+    {
+      "from_id": "pe-emprende-up-climatech-rein-hub-peru",
+      "to_id": "pe-yakusmart",
+      "type": "hub_startup",
+      "description": "Emprende UP publica que YakuSmart es startup del portafolio ClimaTech/Emprende UP tras ganar ClimateLaunchpad nacional y regional.",
+      "source_url": "https://es.linkedin.com/posts/emprende%2Eup_emprendeup-yakusmart-climatelaunchpad-activity-7511118125346656257-IIct",
+      "source_title": "Emprende UP — YakuSmart ClimateLaunchpad",
+      "date_accessed": "2026-10-21",
+      "confidence": "high"
+    },
+    {
+      "from_id": "pe-incubaunt-la-libertad",
+      "to_id": "pe-yakusmart",
+      "type": "program_participation",
+      "description": "Produce indica que YakuSmart forma parte del portafolio del Programa de Aceleración de la Incubadora de Empresas de la Universidad Nacional de Trujillo (red ProInnóvate).",
+      "source_url": "https://www.gob.pe/institucion/produce/noticias/1451346-startup-financiada-por-proinnovate-optimiza-el-riego-agricola-para-incrementar-el-valor-exportable-de-las-frutas",
+      "source_title": "Produce — YakuSmart e Incubaunt UNT",
+      "date_accessed": "2026-10-21",
+      "confidence": "high"
+    },
+    {
+      "from_id": "pe-jaku-emprende-unsa-arequipa",
+      "to_id": "pe-yakufil",
+      "type": "hub_startup",
+      "description": "UNSA indica que Yakufil contó con el apoyo de la incubadora JAKU Emprende UNSA en sus primeros pasos.",
+      "source_url": "https://www.unsa.edu.pe/yakufil-emprendimiento-unsa-que-revoluciona-el-tratamiento-de-aguas-residuales/",
+      "source_title": "UNSA — Yakufil emprendimiento",
+      "date_accessed": "2026-10-21",
+      "confidence": "high"
+    },
+    {
+      "from_id": "pe-produce-ministerio-de-la-produccion",
+      "to_id": "pe-proinnovate-startup-peru",
+      "type": "program_participation",
+      "description": "ProInnóvate es el programa nacional de innovación adscrito al Ministerio de la Producción.",
+      "source_url": "https://www.gob.pe/proinnovate",
+      "source_title": "ProInnóvate — Gob.pe",
+      "date_accessed": "2026-10-21",
+      "confidence": "high"
+    },
+    {
+      "from_id": "pe-proinnovate-startup-peru",
+      "to_id": "pe-1551-unmsm",
+      "type": "membership",
+      "description": "1551 UNMSM figura en el directorio nacional de incubadoras ProInnóvate.",
+      "source_url": "https://cambioclimatico.proinnovate.gob.pe/wp-content/uploads/2024/11/Directorio-Web-Incubadoras-y-Aceleradoras-Red-ProInnovate-2024_-1.pdf",
+      "source_title": "Directorio Red ProInnóvate 2024",
+      "date_accessed": "2026-10-21",
+      "confidence": "high"
+    },
+    {
+      "from_id": "pe-proinnovate-startup-peru",
+      "to_id": "pe-bioincuba-upch",
+      "type": "membership",
+      "description": "Bioincuba UPCH figura en el directorio nacional de incubadoras ProInnóvate.",
+      "source_url": "https://cambioclimatico.proinnovate.gob.pe/wp-content/uploads/2024/11/Directorio-Web-Incubadoras-y-Aceleradoras-Red-ProInnovate-2024_-1.pdf",
+      "source_title": "Directorio Red ProInnóvate 2024",
+      "date_accessed": "2026-10-21",
+      "confidence": "high"
+    },
+    {
+      "from_id": "pe-proinnovate-startup-peru",
+      "to_id": "pe-emprende-up-climatech-rein-hub-peru",
+      "type": "program_participation",
+      "description": "Produce reporta cofinanciamiento ProInnóvate a Emprende UP para fortalecer incubación y aceleración.",
+      "source_url": "https://www.gob.pe/institucion/produce/noticias/648295-incubadoras-y-aceleradoras-de-negocios-fortalecidas-por-proinnovate-impulsaron-el-despegue-comercial-e-internacionalizacion-de-startups",
+      "source_title": "Noticias PRODUCE — incubadoras ProInnóvate",
+      "date_accessed": "2026-10-21",
+      "confidence": "high"
+    },
+    {
+      "from_id": "pe-proinnovate-startup-peru",
+      "to_id": "pe-incubagraria-unalm",
+      "type": "program_participation",
+      "description": "El directorio Red ProInnóvate lista a Incubagraria (UNALM) como incubadora de la red nacional.",
+      "source_url": "https://cambioclimatico.proinnovate.gob.pe/wp-content/uploads/2024/11/Directorio-Web-Incubadoras-y-Aceleradoras-Red-ProInnovate-2024_-1.pdf",
+      "source_title": "Directorio Red ProInnóvate 2024",
+      "date_accessed": "2026-10-21",
+      "confidence": "high"
+    },
+    {
+      "from_id": "pe-proinnovate-startup-peru",
+      "to_id": "pe-nexum-pucp",
+      "type": "program_participation",
+      "description": "El directorio Red ProInnóvate lista a Nexum (PUCP) como incubadora de la red nacional.",
+      "source_url": "https://cambioclimatico.proinnovate.gob.pe/wp-content/uploads/2024/11/Directorio-Web-Incubadoras-y-Aceleradoras-Red-ProInnovate-2024_-1.pdf",
+      "source_title": "Directorio Red ProInnóvate 2024",
+      "date_accessed": "2026-10-21",
+      "confidence": "high"
+    },
+    {
+      "from_id": "pe-proinnovate-startup-peru",
+      "to_id": "pe-usil-ventures",
+      "type": "program_participation",
+      "description": "Produce reporta cofinanciamiento ProInnóvate a USIL Ventures como incubadora beneficiaria.",
+      "source_url": "https://www.gob.pe/institucion/produce/noticias/648295-incubadoras-y-aceleradoras-de-negocios-fortalecidas-por-proinnovate-impulsaron-el-despegue-comercial-e-internacionalizacion-de-startups",
+      "source_title": "Noticias PRODUCE — incubadoras ProInnóvate",
+      "date_accessed": "2026-10-21",
+      "confidence": "high"
+    },
+    {
+      "from_id": "pe-proinnovate-startup-peru",
+      "to_id": "pe-utec-ventures",
+      "type": "membership",
+      "description": "UTEC Ventures figura en el directorio nacional de incubadoras y aceleradoras ProInnóvate.",
+      "source_url": "https://cambioclimatico.proinnovate.gob.pe/wp-content/uploads/2024/11/Directorio-Web-Incubadoras-y-Aceleradoras-Red-ProInnovate-2024_-1.pdf",
+      "source_title": "Directorio Red ProInnóvate 2024",
+      "date_accessed": "2026-10-21",
+      "confidence": "high"
+    },
+    {
+      "from_id": "pe-proinnovate-startup-peru",
+      "to_id": "pe-yakufil",
+      "type": "funding",
+      "description": "UNSA reporta que Yakufil recibirá hasta S/ 60 000 como ganadora de Startup Perú 9G (Emprendimientos Innovadores).",
+      "source_url": "https://www.unsa.edu.pe/emprendedores-de-la-unsa-ganan-concurso-y-recibiran-s-60-000-por-parte-de-startup-peru-9g/",
+      "source_title": "UNSA — Startup Perú 9G ganadores",
+      "date_accessed": "2026-10-21",
+      "confidence": "high"
+    },
+    {
+      "from_id": "pe-proinnovate-startup-peru",
+      "to_id": "pe-yakufil",
+      "type": "program_participation",
+      "description": "ProInnóvate presenta Yakufil Home entre empresas con financiamiento y acompañamiento técnico en gestión del agua.",
+      "source_url": "https://www.gob.pe/institucion/proinnovate/noticias/924305-dia-del-agua-innovaciones-para-gestionar-el-cuidado-y-aprovechamiento-del-agua-en-el-peru",
+      "source_title": "ProInnóvate — Día del Agua 2024",
+      "date_accessed": "2026-10-21",
+      "confidence": "high"
+    },
+    {
+      "from_id": "pe-proinnovate-startup-peru",
+      "to_id": "pe-yakusmart",
+      "type": "funding",
+      "description": "Produce titula la nota como startup financiada por ProInnóvate en el marco del apoyo al desarrollo de su plataforma de riego inteligente.",
+      "source_url": "https://www.gob.pe/institucion/produce/noticias/1451346-startup-financiada-por-proinnovate-optimiza-el-riego-agricola-para-incrementar-el-valor-exportable-de-las-frutas",
+      "source_title": "Produce — YakuSmart financiada ProInnóvate",
+      "date_accessed": "2026-10-21",
+      "confidence": "high"
+    },
+    {
+      "from_id": "pe-proinnovate-startup-peru",
+      "to_id": "pe-yakusmart",
+      "type": "program_participation",
+      "description": "Produce reporta que YakuSmart fue impulsada por ProInnóvate para optimizar riego y el uso eficiente de recursos hídricos en agroexportación.",
+      "source_url": "https://www.gob.pe/institucion/produce/noticias/1451346-startup-financiada-por-proinnovate-optimiza-el-riego-agricola-para-incrementar-el-valor-exportable-de-las-frutas",
+      "source_title": "Produce — YakuSmart riego agroexportador",
+      "date_accessed": "2026-10-21",
+      "confidence": "high"
+    },
+    {
+      "from_id": "pe-universidad-del-pacifico",
+      "to_id": "pe-emprende-up-climatech-rein-hub-peru",
+      "type": "program_participation",
+      "description": "Emprende UP es la unidad de emprendimiento de la Universidad del Pacífico que opera ClimaTech.",
+      "source_url": "https://emprendeup.pe/climatech-impulsando-soluciones-para-un-mundo-sostenible/",
+      "source_title": "Emprende UP — lanzamiento ClimaTech",
+      "date_accessed": "2026-10-21",
+      "confidence": "high"
+    },
+    {
+      "from_id": "pe-usil-ventures",
+      "to_id": "pe-proinnovate-startup-peru",
+      "type": "program_participation",
+      "description": "USIL Ventures figura en el directorio nacional de incubadoras ProInnóvate.",
+      "source_url": "https://cambioclimatico.proinnovate.gob.pe/wp-content/uploads/2024/11/Directorio-Web-Incubadoras-y-Aceleradoras-Red-ProInnovate-2024_-1.pdf",
+      "source_title": "Directorio Red ProInnóvate 2024",
+      "date_accessed": "2026-10-21",
+      "confidence": "high"
+    }
+  ]
+}

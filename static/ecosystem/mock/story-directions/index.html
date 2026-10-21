@@ -3,18 +3,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Historia guiada — 4 direcciones de diseño (mock)</title>
+  <title>Historia guiada — direcciones de diseño (mock)</title>
   <meta name="robots" content="noindex,nofollow" />
   <link rel="stylesheet" href="/nexus-assets/nexus-brand.css" />
   <link rel="stylesheet" href="shared/mock.css" />
   <style>
     .hub-grid {
-      max-width: 960px;
+      max-width: 1040px;
       margin: 0 auto;
       padding: 24px 16px 48px;
       display: grid;
       gap: 16px;
     }
+    .hub-section { margin-top: 8px; }
+    .hub-section h2 {
+      font-size: 13px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.6px;
+      color: var(--color-muted); margin-bottom: 12px;
+    }
+    .hub-cards { display: grid; gap: 12px; }
+    @media (min-width: 720px) { .hub-cards { grid-template-columns: 1fr 1fr; } }
     .hub-card {
       background: var(--color-card);
       border: 1px solid var(--color-border);
@@ -22,45 +29,56 @@
       padding: 16px 18px;
       box-shadow: var(--shadow-card);
     }
-    .hub-card h2 { font-size: 16px; color: var(--deep-blue); margin-bottom: 6px; }
+    .hub-card.rejected { opacity: 0.55; }
+    .hub-card h3 { font-size: 16px; color: var(--deep-blue); margin-bottom: 6px; }
     .hub-card p { font-size: 12px; line-height: 1.5; color: var(--color-mid); margin-bottom: 10px; }
-    .hub-card a {
-      font-size: 12px;
-      font-weight: 700;
-      color: var(--deep-blue);
-    }
+    .hub-card a { font-size: 12px; font-weight: 700; color: var(--deep-blue); }
     .hub-meta { font-size: 10px; color: var(--color-muted); margin-top: 8px; }
+    .hub-badge { font-size: 9px; font-weight: 800; color: #c2410c; text-transform: uppercase; }
   </style>
 </head>
 <body class="mock-page">
   <header class="page-header">
     <p class="ph-eyebrow">Nexus · Mockups · Gideon review</p>
-    <h1 class="ph-title">Historia guiada — 4 direcciones</h1>
-    <p class="ph-sub">Vistas estáticas con datos reales de <code>static/ecosystem/data</code>. Reto por defecto: Agua &amp; cuencas (PE-2-agua). No modifican la página en producción.</p>
+    <h1 class="ph-title">Historia guiada — direcciones E–H (activas)</h1>
+    <p class="ph-sub">Datos reales + mock overlay PE-2-agua (YakuSmart/IncubaUNT/ProInnóvate desde rama <code>cursor/mock-peru-water-story-130a</code>). Reto por defecto: Agua &amp; cuencas.</p>
   </header>
   <div class="hub-grid">
-    <article class="hub-card">
-      <h2>A · Map-first</h2>
-      <p>Mapa LATAM a pantalla casi completa; red como inset flotante; inspector en cajón lateral deslizable.</p>
-      <a href="a/index.html">Abrir dirección A →</a>
-      <p class="hub-meta">Capítulo rail izquierdo · drawer inspector</p>
-    </article>
-    <article class="hub-card">
-      <h2>B · Network-first</h2>
-      <p>Grafo de relaciones dominante; mapa en inset; stepper horizontal de capítulos arriba.</p>
-      <a href="b/index.html">Abrir dirección B →</a>
-    </article>
-    <article class="hub-card">
-      <h2>C · Scrollytelling</h2>
-      <p>Columna narrativa; cada capítulo es una sección a ancho completo con mapa + red fijados (sticky).</p>
-      <a href="c/index.html">Abrir dirección C →</a>
-    </article>
-    <article class="hub-card">
-      <h2>D · Dashboard</h2>
-      <p>Azulejos KPI, mapa y red lado a lado, rejilla de tarjetas de relación e inspector compacto.</p>
-      <a href="d/index.html">Abrir dirección D →</a>
-    </article>
+    <section class="hub-section">
+      <h2>Ronda 2 — radical (recomendado)</h2>
+      <div class="hub-cards">
+        <article class="hub-card">
+          <h3>E · Flow / river</h3>
+          <p>Sankey en seis columnas (Nature → Capital); bandas verificadas vs punteadas; hover resalta camino; locator mínimo.</p>
+          <a href="e/index.html">Abrir E →</a>
+        </article>
+        <article class="hub-card">
+          <h3>F · Ecosystem wheel</h3>
+          <p>Reto en el centro; anillos por capítulo; revelar anillo a anillo; clic abre ficha de actor.</p>
+          <a href="f/index.html">Abrir F →</a>
+        </article>
+        <article class="hub-card">
+          <h3>G · Startup journey</h3>
+          <p>Timeline vertical por startup (YakuSmart, UQHU, Yakufil) con fuentes verificadas en cada paso.</p>
+          <a href="g/index.html">Abrir G →</a>
+        </article>
+        <article class="hub-card">
+          <h3>H · Editorial storyboard</h3>
+          <p>Estilo reporte/magazine; titulares grandes; favicon desde website del actor; pull-quotes citados; imprimible.</p>
+          <a href="h/index.html">Abrir H →</a>
+        </article>
+      </div>
+    </section>
+    <section class="hub-section">
+      <h2>Ronda 1 — rechazada (referencia)</h2>
+      <div class="hub-cards">
+        <article class="hub-card rejected"><h3>A · Map-first</h3><p>Mapa + red inset + drawer.</p><a href="a/index.html">Archivo A</a></article>
+        <article class="hub-card rejected"><h3>B · Network-first</h3><p>Grafo dominante + timeline.</p><a href="b/index.html">Archivo B</a></article>
+        <article class="hub-card rejected"><h3>C · Scrollytelling</h3><p>Scroll + viz fijada.</p><a href="c/index.html">Archivo C</a></article>
+        <article class="hub-card rejected"><h3>D · Dashboard</h3><p>KPIs + mapa/red.</p><a href="d/index.html">Archivo D</a></article>
+      </div>
+    </section>
   </div>
-  <p class="mock-foot">Referencia layout actual (PR #83): rail de capítulos, mapa + red en fila, inspector / relaciones tipadas abajo a ancho completo.</p>
+  <p class="mock-foot">Mock data: <code>mock/story-directions/data/</code> · Live ecosystem sin cambios.</p>
 </body>
 </html>

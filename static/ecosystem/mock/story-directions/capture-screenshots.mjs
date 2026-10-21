@@ -15,10 +15,10 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const outDir = path.join(__dirname, 'screenshots');
 const base = process.env.MOCK_BASE_URL || 'http://127.0.0.1:8765';
 const pages = [
-  { id: 'a', url: `${base}/ecosystem/mock/story-directions/a/index.html`, file: 'direction-a-map-first.png' },
-  { id: 'b', url: `${base}/ecosystem/mock/story-directions/b/index.html`, file: 'direction-b-network-first.png' },
-  { id: 'c', url: `${base}/ecosystem/mock/story-directions/c/index.html`, file: 'direction-c-scrollytelling.png' },
-  { id: 'd', url: `${base}/ecosystem/mock/story-directions/d/index.html`, file: 'direction-d-dashboard.png' },
+  { id: 'e', url: `${base}/ecosystem/mock/story-directions/e/index.html`, file: 'direction-e-river.png' },
+  { id: 'f', url: `${base}/ecosystem/mock/story-directions/f/index.html`, file: 'direction-f-wheel.png' },
+  { id: 'g', url: `${base}/ecosystem/mock/story-directions/g/index.html`, file: 'direction-g-journey.png' },
+  { id: 'h', url: `${base}/ecosystem/mock/story-directions/h/index.html`, file: 'direction-h-storyboard.png' },
 ];
 
 await mkdir(outDir, { recursive: true });
