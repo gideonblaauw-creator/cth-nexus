@@ -32,7 +32,7 @@ La Prensa Gráfica: medio de comunicación impreso y digital de El Salvador.
 
 | Detalle | Valor |
 | --- | --- |
-| Año de fundación | 1915 |
+| Año de fundación | PENDIENTE |
 | Dirección | PENDIENTE |
 | Áreas de enfoque (CT) | PENDIENTE |
 | Programas | Cobertura informativa nacional (noticias, economía, sociedad) |
