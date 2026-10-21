@@ -21,14 +21,22 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://www.laprensagrafica.com |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/la-prensa-gr%C3%A1fica |
 | Rol en el ecosistema | Medios y difusión |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+La Prensa Gráfica: medio de comunicación impreso y digital de El Salvador.
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | 1915 |
+| Dirección | PENDIENTE |
+| Áreas de enfoque (CT) | PENDIENTE |
+| Programas | Cobertura informativa nacional (noticias, economía, sociedad) |
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +48,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.laprensagrafica.com/
+- https://www.linkedin.com/company/la-prensa-gr%C3%A1fica

@@ -21,14 +21,22 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://www.conamype.gob.sv |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/conamype |
 | Rol en el ecosistema | Actor público / regulador |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Comisión Nacional de la Micro y Pequeña Empresa: entidad autónoma que fomenta, protege y desarrolla MYPE y emprendimiento en El Salvador.
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | 1991 (origen institucional; autonomía ampliada 2017) |
+| Dirección | Alameda Manuel Enrique Araujo, Edificio CONAMYPE, Centro Comercial Plaza Suiza, San Salvador |
+| Áreas de enfoque (CT) | PENDIENTE |
+| Programas | CDMYPE, CEDART, Programa de Empresarialidad Femenina y guía de servicios regionales |
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +48,6 @@ PENDIENTE
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.conamype.gob.sv/
+- https://www.conamype.gob.sv/marco-institucional/
+- https://www.linkedin.com/company/conamype

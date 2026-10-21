@@ -23,12 +23,20 @@ tag_country: Peru
 | Sitio web | https://incuvalventures.unheval.edu.pe |
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
-| Desafíos (códigos) | AGR, AGU |
+| Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Incuval Ventures de la Universidad Nacional Hermilio Valdizán (UNHEVAL): incubadora y aceleración de startups con sede en Huánuco.
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | PENDIENTE |
+| Áreas de enfoque (CT) | PENDIENTE |
+| Programas | Programas de incubación y ventures universitarios (incuvalventures.unheval.edu.pe) |
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +48,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://incuvalventures.unheval.edu.pe

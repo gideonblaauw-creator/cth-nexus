@@ -19,16 +19,24 @@ tag_country: Peru
 | Categoría | international |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Communauté urbaine de Yaoundé |
+| Ciudad | Lima |
 | Sitio web | https://www.unido.org |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/unido |
 | Rol en el ecosistema | Organización internacional o cooperación |
-| Desafíos (códigos) | PENDIENTE |
+| Desafíos (códigos) | CIR, ENE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Organización de las Naciones Unidas para el Desarrollo Industrial (ONUDI/UNIDO): promueve industrialización inclusiva y sostenible; programa país en Perú.
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | 1966 |
+| Dirección | PENDIENTE |
+| Áreas de enfoque (CT) | CIR, ENE |
+| Programas | Eficiencia energética, economía circular e industrialización verde |
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +48,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.unido.org/
+- https://www.linkedin.com/company/unido

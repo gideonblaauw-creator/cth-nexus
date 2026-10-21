@@ -21,14 +21,22 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.qairadrones.com/ |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/qaira |
 | Rol en el ecosistema | Empresa / sector privado |
-| Desafíos (códigos) | PENDIENTE |
+| Desafíos (códigos) | CIU, ENE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Qaira desarrolla monitoreo de calidad del aire y mapeo 3D con drones equipados con LiDAR para ciudades e industria.
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | PENDIENTE |
+| Áreas de enfoque (CT) | CIU, ENE |
+| Programas | Sensores ambientales y modelado geoespacial |
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +48,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.qairadrones.com/

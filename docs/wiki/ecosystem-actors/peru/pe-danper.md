@@ -21,14 +21,22 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Olmos |
 | Sitio web | https://danper.com |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/danper |
 | Rol en el ecosistema | Empresa / sector privado |
-| Desafíos (códigos) | AGR, AGU |
+| Desafíos (códigos) | AGR, CIR |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Corporación agroindustrial peruana con operaciones en el norte (Olmos), dedicada a producción y exportación de alimentos.
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | PENDIENTE |
+| Áreas de enfoque (CT) | AGR, CIR |
+| Programas | Cadena agroindustrial y exportación de productos frescos y procesados |
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +48,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://danper.com/
+- https://www.linkedin.com/company/danper

@@ -19,16 +19,24 @@ tag_country: Peru
 | Categoría | accelerator |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | Huánuco |
 | Sitio web | http://www.udh.edu.pe |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/school/universidad-de-hu%C3%A1nuco |
 | Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
-| Desafíos (códigos) | AGR, AGU |
+| Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Programa o unidad de emprendimiento de la Universidad de Huánuco (UDH) que apoya emprendimientos universitarios y regionales.
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | PENDIENTE (campus UDH, Huánuco) |
+| Áreas de enfoque (CT) | PENDIENTE |
+| Programas | Emprende UDH — acompañamiento a emprendedores (detalle en sitio institucional) |
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +48,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- http://www.udh.edu.pe/

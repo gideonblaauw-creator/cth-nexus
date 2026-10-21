@@ -19,14 +19,22 @@ tag_country: El Salvador
 | Categoría | startup |
 | País | El Salvador |
 | Ciudad | San Salvador |
-| Sitio web | PENDIENTE |
+| Sitio web | https://www.instagram.com/recicla503/ |
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Startup del ecosistema |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Descripción
 
-PENDIENTE
+Iniciativa de economía circular para recolección y procesamiento de plásticos reciclables (film plástico), vinculada al ecosistema Ternova/Grupo Ternova en El Salvador.
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | PENDIENTE |
+| Áreas de enfoque (CT) | CIR |
+| Programas | Puntos de recolección, educación ambiental y alianzas con empresas (ECORUN y otros) |
+
 
 ## Relaciones (ecosistema)
 
@@ -38,5 +46,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://solve.mit.edu/solutions/16702
+- https://www.instagram.com/recicla503/

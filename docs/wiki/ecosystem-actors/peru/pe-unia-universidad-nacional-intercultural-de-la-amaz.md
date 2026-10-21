@@ -19,16 +19,24 @@ tag_country: Peru
 | Categoría | academia |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | Pucallpa |
 | Sitio web | https://unia.edu.pe |
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Universidad o centro de investigación |
-| Desafíos (códigos) | AGR, BOS, CIU |
+| Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Universidad Nacional Intercultural de la Amazonía (UNIA), pública con sede en Pucallpa, formación e investigación en contexto amazónico.
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | PENDIENTE |
+| Áreas de enfoque (CT) | PENDIENTE |
+| Programas | Educación superior intercultural y programas de incubación asociados |
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +48,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://unia.edu.pe

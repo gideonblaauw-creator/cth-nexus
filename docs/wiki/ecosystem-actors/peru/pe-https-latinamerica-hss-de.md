@@ -19,16 +19,24 @@ tag_country: Peru
 | Categoría | corporate |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | PENDIENTE |
 | Sitio web | https://latinamerica.hss.de |
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Empresa / sector privado |
-| Desafíos (códigos) | AGU, BOS |
+| Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Actor placeholder del mapa que apunta al portal regional de Helmholtz-Zentrum Hereon (latinamerica.hss.de) sobre cooperación científica en Latinoamérica.
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | PENDIENTE |
+| Áreas de enfoque (CT) | PENDIENTE |
+| Programas | PENDIENTE |
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +48,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://latinamerica.hss.de

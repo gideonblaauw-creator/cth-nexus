@@ -19,16 +19,24 @@ tag_country: Peru
 | Categoría | funder |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Villa María del Triunfo |
+| Ciudad | Lima |
 | Sitio web | https://www.gruporomero.com.pe |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/grupo-romero |
 | Rol en el ecosistema | Financiador e inversionista |
-| Desafíos (códigos) | AGR, BOS |
+| Desafíos (códigos) | FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+GRIO es el brazo de inversiones del Grupo Romero en Perú, con participaciones en sectores financieros, logísticos y de consumo.
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | PENDIENTE |
+| Áreas de enfoque (CT) | FIN |
+| Programas | Inversiones estratégicas y gestión de participaciones del Grupo Romero |
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +48,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.gruporomero.com.pe/
+- https://www.linkedin.com/company/grupo-romero

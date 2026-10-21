@@ -23,12 +23,20 @@ tag_country: Peru
 | Sitio web | https://www.sna-peru.com |
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Cámara o gremio |
-| Desafíos (códigos) | AZU |
+| Desafíos (códigos) | AGR, AZU |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Sociedad Nacional de Acuicultura (SNA Perú): gremio que representa al sector acuícola y promueve su desarrollo sostenible.
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | PENDIENTE |
+| Áreas de enfoque (CT) | AGR, AZU |
+| Programas | Representación gremial, estadísticas y políticas para acuicultura |
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +48,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.sna-peru.com/

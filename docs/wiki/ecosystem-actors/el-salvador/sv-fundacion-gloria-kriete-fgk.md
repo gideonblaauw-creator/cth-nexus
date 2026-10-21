@@ -21,14 +21,22 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://fundaciongloriakriete.org |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/fundaci%C3%B3n-gloria-kriete |
 | Rol en el ecosistema | ONG o fundación |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Fundación Gloria Kriete (FGK): organización sin fines de lucro enfocada en desarrollo social, educación y emprendimiento en El Salvador.
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | PENDIENTE |
+| Áreas de enfoque (CT) | PENDIENTE |
+| Programas | Incubadora empresarial y programas de formación (ver FGK en sitio oficial) |
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +48,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://fundaciongloriakriete.org/
+- https://www.linkedin.com/company/fundaci%C3%B3n-gloria-kriete

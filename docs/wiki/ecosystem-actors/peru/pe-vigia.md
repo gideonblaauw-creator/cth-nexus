@@ -18,15 +18,23 @@ tag_country: Peru
 | --- | --- |
 | Categoría | startup |
 | País | Peru |
-| Ciudad | Chorrillos |
+| Ciudad | Lima |
 | Sitio web | PENDIENTE |
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Startup del ecosistema |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/vigia](https://nexus.cleantechhub.net/s/vigia) |
 
 ## Descripción
 
-PENDIENTE
+Plataforma de biovigilancia ambiental que usa metagenómica y bioinformática para monitorear genes de resistencia antimicrobiana en agua y sedimentos de ecosistemas acuáticos (cohorte CLP26 Perú).
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | PENDIENTE |
+| Áreas de enfoque (CT) | AGU (agua) |
+| Programas | Pipeline Emprende UP – ClimaTech (REIN Hub Perú) |
+
 
 ## Relaciones (ecosistema)
 
@@ -38,5 +46,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://nexus.cleantechhub.net/s/vigia

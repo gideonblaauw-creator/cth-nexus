@@ -21,14 +21,22 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://camarasal.com |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/camarasal |
 | Rol en el ecosistema | Cámara o gremio |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+CAMARASAL: Cámara de Comercio e Industria de El Salvador; representa al sector privado y ofrece servicios de formación y networking empresarial.
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | PENDIENTE |
+| Áreas de enfoque (CT) | PENDIENTE |
+| Programas | Servicios cameral, capacitación y promoción de comercio |
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +48,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://camarasal.com/
+- https://www.linkedin.com/company/camarasal

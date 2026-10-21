@@ -23,12 +23,20 @@ tag_country: El Salvador
 | Sitio web | https://grupoferromax.com |
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Empresa / sector privado |
-| Desafíos (códigos) | PENDIENTE |
+| Desafíos (códigos) | CIR |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Grupo Ferromax: empresa salvadoreña del sector industrial/metalúrgico referenciada en el mapa de actores.
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | PENDIENTE |
+| Áreas de enfoque (CT) | CIR |
+| Programas | PENDIENTE |
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +48,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://grupoferromax.com

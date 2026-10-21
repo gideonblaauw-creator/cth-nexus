@@ -21,14 +21,22 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://onu-habitat.org |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/un-habitat |
 | Rol en el ecosistema | Empresa / sector privado |
-| Desafíos (códigos) | AGU, CIU |
+| Desafíos (códigos) | CIU, AGU |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Programa de las Naciones Unidas para asentamientos humanos (ONU-Hábitat); promueve ciudades sostenibles y acceso a servicios urbanos, incluida gestión del agua.
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | 1978 (ONU-Hábitat) |
+| Dirección | PENDIENTE (oficina país Perú) |
+| Áreas de enfoque (CT) | CIU, AGU |
+| Programas | Asistencia técnica a gobiernos locales; urbanización sostenible y resiliencia climática |
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +48,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://unhabitat.org/
+- https://www.linkedin.com/company/un-habitat

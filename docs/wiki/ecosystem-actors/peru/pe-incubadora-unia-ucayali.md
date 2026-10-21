@@ -19,16 +19,24 @@ tag_country: Peru
 | Categoría | accelerator |
 | Tipo | org |
 | País | Peru |
-| Ciudad | PENDIENTE |
+| Ciudad | Pucallpa |
 | Sitio web | https://www.facebook.com/unia.edu.pe/ |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.facebook.com/unia.edu.pe/ |
 | Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | [nexus.cleantechhub.net/s/planta-comunitaria-wpc](https://nexus.cleantechhub.net/s/planta-comunitaria-wpc) |
 
 ## Rol y alcance
 
-PENDIENTE
+Incubadora de empresas de la Universidad Nacional Intercultural de la Amazonía (UNIA) en Ucayali, orientada a emprendimientos amazónicos.
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | PENDIENTE (UNIA, Pucallpa) |
+| Áreas de enfoque (CT) | PENDIENTE |
+| Programas | Acompañamiento a emprendimientos universitarios y locales (canal Facebook institucional) |
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +48,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.facebook.com/unia.edu.pe/
