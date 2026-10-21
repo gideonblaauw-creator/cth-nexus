@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-20-hubmap",
+  "version": "2026-10-21-hubmap-sv",
   "hubs": [
     {
       "id": "externado",
@@ -954,8 +954,8 @@
         "EN": "Urban resilience and climate entrepreneurship from UTEC."
       },
       "about": {
-        "ES": "Aliado principal REIN en El Salvador: Universidad Tecnológica de El Salvador (UTEC) y CREA impulsan ideación, incubación y ClimateLaunchpad con CleantechHUB y PVBLIC. Datos públicos del ecosistema: 275+ actores mapeados (mapa REIN/CTH).",
-        "EN": "Primary REIN partner in El Salvador: UTEC and CREA drive ideation, incubation, and ClimateLaunchpad with CleantechHUB and PVBLIC. Public ecosystem data: 275+ mapped actors (REIN/CTH map)."
+        "ES": "Aliado principal REIN en El Salvador: Universidad Tecnológica de El Salvador (UTEC) y CREA impulsan ideación, incubación y ClimateLaunchpad con CleantechHUB y PVBLIC. Mapa público de actores: 77 organizaciones del deck Canva REIN/CTH (sin datos personales).",
+        "EN": "Primary REIN partner in El Salvador: UTEC and CREA drive ideation, incubation, and ClimateLaunchpad with CleantechHUB and PVBLIC. Public actor map: 77 organisations from the REIN/CTH Canva deck (no personal data)."
       },
       "website": "https://www.utec.edu.sv/",
       "people": [
@@ -971,7 +971,7 @@
           },
           "linkedin": "https://www.linkedin.com/in/douglas-guardado-1027b1114/",
           "initials": "DC",
-          "photo": "/hubs/assets/people/utec-brand.png"
+          "photoPending": true
         },
         {
           "name": "Lissette Canales",
@@ -985,16 +985,16 @@
           },
           "linkedin": "https://www.linkedin.com/in/lissette-canales-40345a5/",
           "initials": "LC",
-          "photo": "/hubs/assets/people/utec-brand.png"
+          "photoPending": true
         }
       ],
       "kpis": [
         {
           "id": "actors",
-          "value": "275+",
+          "value": "77",
           "label": {
-            "ES": "Actores ecosistema",
-            "EN": "Ecosystem actors"
+            "ES": "Actores ecosistema (público)",
+            "EN": "Ecosystem actors (public)"
           }
         },
         {
@@ -1045,8 +1045,38 @@
           }
         }
       ],
-      "interactive": null,
+      "interactive": {
+        "type": "stage-chart",
+        "title": {
+          "ES": "Etapas CLP26 El Salvador",
+          "EN": "CLP26 El Salvador stages"
+        }
+      },
       "videos": [
+        {
+          "type": "youtube",
+          "youtubeId": "oBwBQJ8Efcg",
+          "title": {
+            "ES": "UTEC · Open Day campus",
+            "EN": "UTEC · campus Open Day"
+          },
+          "caption": {
+            "ES": "Canal oficial UTEC (@UTECedusv · YouTube).",
+            "EN": "Official UTEC channel (@UTECedusv · YouTube)."
+          }
+        },
+        {
+          "type": "youtube",
+          "youtubeId": "uHAWKXVlTlw",
+          "title": {
+            "ES": "UTEC · emprendimiento e innovación (Lab UTEC Núcleo)",
+            "EN": "UTEC · entrepreneurship & innovation (Lab UTEC Núcleo)"
+          },
+          "caption": {
+            "ES": "Proyección social e incubación CREA / hub.",
+            "EN": "Social outreach and CREA / hub incubation."
+          }
+        },
         {
           "type": "youtube",
           "youtubeId": "EP0zhs_ZG7A",
@@ -1061,10 +1091,83 @@
         }
       ],
       "startupsLabel": {
-        "ES": "Startups REIN / CLP El Salvador",
-        "EN": "REIN / CLP El Salvador startups"
+        "ES": "Startups ClimateLaunchpad El Salvador",
+        "EN": "ClimateLaunchpad El Salvador startups"
       },
-      "startups": [],
+      "startups": [
+        {
+          "slug": "smartdrive",
+          "name": "SmartDrive",
+          "onepager": "smartdrive",
+          "theme": "EN",
+          "stage": "Launched",
+          "desc_en": "",
+          "desc_es": ""
+        },
+        {
+          "slug": "nutrichar",
+          "name": "NutriChar",
+          "onepager": "nutrichar",
+          "theme": "BIO",
+          "stage": "Ideation",
+          "desc_en": "",
+          "desc_es": ""
+        },
+        {
+          "slug": "q-mind",
+          "name": "Q-Mind",
+          "onepager": "q-mind",
+          "theme": "EN",
+          "stage": "Private Beta",
+          "desc_en": "",
+          "desc_es": ""
+        },
+        {
+          "slug": "agrismart",
+          "name": "AgriSmart",
+          "onepager": "agrismart",
+          "theme": "BIO",
+          "stage": "Prototype",
+          "desc_en": "",
+          "desc_es": ""
+        },
+        {
+          "slug": "agrivoltaic-dragon-fruit",
+          "name": "Agrivoltaic Dragon Fruit",
+          "onepager": "agrivoltaic-dragon-fruit",
+          "theme": "BIO",
+          "stage": "Private Beta",
+          "desc_en": "",
+          "desc_es": ""
+        },
+        {
+          "slug": "drainalert",
+          "name": "DrainAlert",
+          "onepager": "drainalert",
+          "theme": "WW",
+          "stage": "Ideation",
+          "desc_en": "",
+          "desc_es": ""
+        },
+        {
+          "slug": "ecolandia",
+          "name": "Ecolandia",
+          "onepager": "ecolandia",
+          "theme": "CE",
+          "stage": "Ideation",
+          "desc_en": "",
+          "desc_es": ""
+        },
+        {
+          "slug": "nutri-fruits",
+          "name": "Nutri Fruits",
+          "onepager": "nutri-fruits",
+          "theme": "BIO",
+          "stage": "Ideation",
+          "desc_en": "",
+          "desc_es": ""
+        }
+      ],
       "links": [
         {
           "href": "https://www.utec.edu.sv/",
@@ -1079,8 +1182,26 @@
             "ES": "REIN Hubs (PVBLIC)",
             "EN": "REIN Hubs (PVBLIC)"
           }
+        },
+        {
+          "href": "/ecosystem/",
+          "label": {
+            "ES": "Mapa de actores El Salvador (Nexus)",
+            "EN": "El Salvador actor map (Nexus)"
+          }
         }
-      ]
+      ],
+      "ecosystemMap": {
+        "href": "https://canva.link/b0ykqucdro7hzii",
+        "label": {
+          "ES": "Mapa de Actores y Aliados del Emprendimiento Climático · El Salvador",
+          "EN": "Map of Actors and Allies of Climate Entrepreneurship · El Salvador"
+        },
+        "note": {
+          "ES": "Presentación Canva REIN/CTH (DAGY8OMkdBw · enlace compartido Gideon).",
+          "EN": "REIN/CTH Canva deck (DAGY8OMkdBw · Gideon share link)."
+        }
+      }
     },
     {
       "id": "lci-veritas",

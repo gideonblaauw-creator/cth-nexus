@@ -82,7 +82,7 @@ def test_card_grid_country_counts_partition_eligible_actors():
     # Snapshot counts — update if data intentionally changes
     assert by_country["CO"] == 8
     assert by_country["SV"] == 77
-    assert by_country["PE"] == 286
+    assert by_country["PE"] == 288
 
 
 def test_actor_cards_json_country_counts():

@@ -5,7 +5,9 @@ import {
   chapterScene,
   computeChapterEdgeCounts,
   isChallengeId,
+  isDatasetId,
   isPolicyId,
+  datasetGeo,
   policyGeo,
 } from './story.mjs';
 import {
@@ -17,6 +19,7 @@ import {
 } from './geo-utils.mjs';
 
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+const MAP_FONT_STACK = ['Noto Sans Regular'];
 
 const COUNTRY_META = {
   PE: { key: 'Peru', flag: '🇵🇪' },
@@ -37,7 +40,7 @@ const ID_PREFIX_COUNTRY = {
 
 const CATEGORY_KEYS = [
   'government', 'accelerator', 'international', 'funder', 'ngo_foundation',
-  'academia', 'corporate', 'finance', 'chamber', 'startup', 'media', 'hub', 'mentor', 'program',
+  'academia', 'corporate', 'finance', 'chamber', 'startup', 'media', 'hub', 'mentor', 'program', 'policy',
 ];
 
 const CAT_COLOR = {
@@ -103,8 +106,11 @@ const I18N = {
     websitePending: 'Sitio PENDIENTE',
     linkedin: 'LinkedIn',
     linkedinPending: 'LinkedIn PENDIENTE',
-    nexusCard: 'One-pager /s/',
-    nexusPending: 'One-pager pendiente',
+    nexusCard: 'Ficha Nexus /s/',
+    nexusPending: 'Ficha Nexus pendiente',
+    hubPage: 'Hub REIN /hubs/',
+    hubPagePending: 'Página hub pendiente',
+    datasetPending: 'Conjunto de datos pendiente',
     mapLink: 'Ver en mapa',
     founded: 'Fundación',
     cardRole: 'Rol',
@@ -118,6 +124,12 @@ const I18N = {
     storyCounts: 'Conteo por capítulo',
     storySuggestedHint: 'Capítulo 5 puede proponer hub/startup/funder sugeridos; no sustituye relaciones verificadas.',
     storyChallengeMeta: 'Nodo reto (Canva)',
+    nexusCrossIdeas: 'Ideas Nexus',
+    nexusCrossSolutions: 'Soluciones (/s/)',
+    nexusCrossStartups: 'Startups en el reto',
+    policyStartups: 'Startups relacionadas',
+    challengePolicies: 'Políticas relacionadas',
+    suggestedLabel: 'Sugerido',
     cats: {
       government: 'Gobierno', accelerator: 'Aceleradora', international: 'Internacional',
       funder: 'Fondo', ngo_foundation: 'ONG', academia: 'Academia', corporate: 'Corporativo',
@@ -147,8 +159,11 @@ const I18N = {
     websitePending: 'Website PENDING',
     linkedin: 'LinkedIn',
     linkedinPending: 'LinkedIn PENDING',
-    nexusCard: 'One-pager /s/',
-    nexusPending: 'One-pager pending',
+    nexusCard: 'Nexus profile /s/',
+    nexusPending: 'Nexus profile pending',
+    hubPage: 'REIN hub /hubs/',
+    hubPagePending: 'Hub page pending',
+    datasetPending: 'Dataset pending',
     mapLink: 'View on map',
     founded: 'Founded',
     cardRole: 'Role',
@@ -162,6 +177,12 @@ const I18N = {
     storyCounts: 'Per-chapter edge counts',
     storySuggestedHint: 'Chapter 5 may suggest hub/startup/funder paths; not verified relationships.',
     storyChallengeMeta: 'Challenge node (Canva)',
+    nexusCrossIdeas: 'Nexus ideas',
+    nexusCrossSolutions: 'Solutions (/s/)',
+    nexusCrossStartups: 'Startups on this challenge',
+    policyStartups: 'Related startups',
+    challengePolicies: 'Related policies',
+    suggestedLabel: 'Suggested',
     cats: {
       government: 'Government', accelerator: 'Accelerator', international: 'International',
       funder: 'Funder', ngo_foundation: 'NGO', academia: 'Academia', corporate: 'Corporate',
@@ -197,10 +218,13 @@ let fa2Assign = null;
 
 let viewMode = 'explore';
 let storyConfig = null;
+let nexusCrosslinks = null;
 let policies = [];
 let policiesById = new Map();
 let policyRelations = [];
+let dataRelations = [];
 let storyChapter = 0;
+let storyFocusCountry = null;
 let constellationId = null;
 let constellationCloseup = false;
 let storyScene = null;
@@ -406,11 +430,14 @@ function initTabs() {
       if (storyOn) {
         renderStoryRail();
         renderStoryChapter();
+      } else if (tab === 'cards') {
+        clearSuggestedOverlay();
+        updateStats(new Set(filteredActors().map((a) => a.id)));
+        renderCards(filteredActors());
       } else {
         clearSuggestedOverlay();
         renderAll();
       }
-      if (tab === 'cards') renderCards(filteredActors());
       if (tab === 'explore' && sigma) sigma.refresh();
     });
   });
@@ -600,6 +627,7 @@ function initMap() {
     fadeDuration: reducedMotion ? 0 : 300,
   });
   map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right');
+  window.__ecoMap = map;
   map.on('load', () => {
     mapReady = true;
     updateMapLayers();
@@ -664,7 +692,11 @@ function updateMapLayers(scene = null) {
         type: 'symbol',
         source: 'actors',
         filter: ['has', 'point_count'],
-        layout: { 'text-field': '{point_count_abbreviated}', 'text-size': 11 },
+        layout: {
+          'text-field': '{point_count_abbreviated}',
+          'text-size': 11,
+          'text-font': MAP_FONT_STACK,
+        },
         paint: { 'text-color': '#fff' },
       });
       map.addLayer({
@@ -673,7 +705,11 @@ function updateMapLayers(scene = null) {
         source: 'actors',
         filter: ['!', ['has', 'point_count']],
         paint: {
-          'circle-radius': ['case', ['==', ['get', 'sel'], 1], 9, ['interpolate', ['linear'], ['zoom'], 3, 3, 8, 7]],
+          'circle-radius': [
+            'interpolate', ['linear'], ['zoom'],
+            3, 3,
+            8, ['case', ['==', ['get', 'sel'], 1], 10, 7],
+          ],
           'circle-color': ['get', 'color'],
           'circle-opacity': selected ? 0.45 : 0.82,
           'circle-stroke-width': ['case', ['==', ['get', 'sel'], 1], 2, 1],
@@ -701,6 +737,7 @@ function updateMapLayers(scene = null) {
           'text-field': ['concat', ['get', 'country'], ' · ', ['to-string', ['get', 'count']]],
           'text-size': 11,
           'text-anchor': 'center',
+          'text-font': MAP_FONT_STACK,
         },
         paint: {
           'text-color': '#0c498a',
@@ -717,6 +754,17 @@ function updateMapLayers(scene = null) {
   renderGeoUnknownPanel(ids);
 }
 
+function crosslinkSection(title, items, tr) {
+  if (!items?.length) return '';
+  const rows = items.map((item) => {
+    const sug = item.inferred
+      ? `<span class="badge suggested">${esc(tr.suggestedLabel)}</span>`
+      : '';
+    return `<li><a href="${esc(item.href)}" target="_blank" rel="noopener">${esc(item.label)}</a> ${sug}</li>`;
+  }).join('');
+  return `<div class="section"><h3>${esc(title)}</h3><ul class="crosslink-list">${rows}</ul></div>`;
+}
+
 function flyToActor(a) {
   if (!map || !hasPlottableGeo(a)) return;
   const opts = { center: [a.geo.lng, a.geo.lat], zoom: Math.max(map.getZoom(), 5.4) };
@@ -730,12 +778,14 @@ function renderInspector(id) {
   if (isPolicyId(id)) {
     const row = policiesById.get(id);
     const linked = [...relations, ...policyRelations].filter((r) => r.source === id || r.target === id);
+    const policyStartups = nexusCrosslinks?.byPolicy?.[id] || [];
     el.classList.remove('empty');
     el.innerHTML = `
       <div style="padding:14px">
         <h2>${esc(row?.name || id)}</h2>
         <div class="meta">${esc(row?.country || '')} · ${esc(row?.instrument || 'policy')} · ${linked.length} links</div>
         ${row?.source_url ? `<a class="secondary" href="${esc(row.source_url)}" target="_blank" rel="noopener">${tr.website}</a>` : ''}
+        ${crosslinkSection(tr.policyStartups, policyStartups, tr)}
         <div class="section"><h3>${tr.typedRelations}</h3>
         ${linked.slice(0, 12).map((r) => {
       const otherId = r.source === id ? r.target : r.source;
@@ -748,23 +798,73 @@ function renderInspector(id) {
       </div>`;
     return;
   }
+  if (isDatasetId(id) && storyConfig?.datasets?.[id]) {
+    const meta = storyConfig.datasets[id];
+    const title = lang === 'EN' ? meta.label?.en : meta.label?.es;
+    el.classList.remove('empty');
+    el.innerHTML = `
+      <div style="padding:14px">
+        <h2>${esc(title || id)}</h2>
+        <div class="meta">${esc(meta.country || '')} · ${meta.status === 'pending' ? esc(tr.datasetPending) : 'dataset'}</div>
+        ${meta.source_url ? `<a class="secondary" href="${esc(meta.source_url)}" target="_blank" rel="noopener">${tr.website}</a>` : ''}
+      </div>`;
+    return;
+  }
   if (isChallengeId(id) && storyConfig) {
     const meta = storyConfig.challenges[id];
     const linked = relations.filter((r) => r.target === id || r.source === id);
     const title = lang === 'EN' ? meta?.label?.en : meta?.label?.es;
+    const panel = nexusCrosslinks?.byChallenge?.[id] || {};
+    const relatedPolicies = policyRelations
+      .filter((r) => r.source === id || r.target === id)
+      .map((r) => (r.source === id ? r.target : r.source))
+      .filter((pid) => isPolicyId(pid))
+      .filter((pid, i, arr) => arr.indexOf(pid) === i)
+      .map((pid) => {
+        const row = policiesById.get(pid);
+        const inferred = policyRelations.some(
+          (r) => (r.source === pid || r.target === pid)
+            && (r.source === id || r.target === id)
+            && (r.suggested || r.verified === false),
+        );
+        return {
+          label: row?.name || pid,
+          href: `#policy-${pid}`,
+          inferred,
+          policyId: pid,
+        };
+      });
+    const policySection = relatedPolicies.length
+      ? `<div class="section"><h3>${esc(tr.challengePolicies)}</h3><ul class="crosslink-list">${relatedPolicies.map((p) => {
+        const sug = p.inferred ? `<span class="badge suggested">${esc(tr.suggestedLabel)}</span>` : '';
+        return `<li><button type="button" class="linkish" data-jump-policy="${esc(p.policyId)}">${esc(p.label)}</button> ${sug}</li>`;
+      }).join('')}</ul></div>`
+      : '';
     el.classList.remove('empty');
     el.innerHTML = `
       <div style="padding:14px">
         <h2>${esc(title || id)}</h2>
         <div class="meta">${tr.storyChallengeMeta || 'Challenge node'} · ${linked.length} works_on_challenge</div>
+        ${policySection}
+        ${crosslinkSection(tr.nexusCrossIdeas, panel.ideas, tr)}
+        ${crosslinkSection(tr.nexusCrossSolutions, panel.solutions, tr)}
+        ${crosslinkSection(tr.nexusCrossStartups, panel.startups, tr)}
         <div class="section"><h3>${tr.typedRelations}</h3>
         ${linked.slice(0, 12).map((r) => {
       const o = byId.get(r.source);
-      return `<div class="rel-row"><span class="rtype">${esc(r.type.replace(/_/g, '-'))}</span>${esc(o?.name || r.source)}</div>`;
+      const slug = o?.nexus?.card_slug;
+      const name = o?.name || r.source;
+      const label = slug && o?.category === 'startup'
+        ? `<a href="/s/${esc(slug)}/" target="_blank" rel="noopener">${esc(name)}</a>`
+        : esc(name);
+      return `<div class="rel-row"><span class="rtype">${esc(r.type.replace(/_/g, '-'))}</span>${label}</div>`;
     }).join('') || `<p class="meta">${tr.noRelations}</p>`}
         </div>
         <p class="meta" style="margin-top:8px">${esc(tr.storySuggestedHint || '')}</p>
       </div>`;
+    el.querySelectorAll('[data-jump-policy]').forEach((btn) => {
+      btn.addEventListener('click', () => selectActor(btn.dataset.jumpPolicy));
+    });
     return;
   }
   const a = byId.get(id);
@@ -784,7 +884,13 @@ function renderInspector(id) {
     : '';
 
   const nexusRow = slug
-    ? `<a href="/s/${esc(slug)}" target="_blank" rel="noopener">${tr.nexusCard}${esc(slug)}</a>`
+    ? `<a href="/s/${esc(slug)}/" target="_blank" rel="noopener">${tr.nexusCard}${esc(slug)}</a>`
+    : (a.category === 'startup'
+      ? `<span class="pending">${tr.nexusPending}</span>`
+      : '');
+  const hubSlug = a.nexus?.hub_slug;
+  const hubRow = hubSlug
+    ? `<a href="/hubs/${esc(hubSlug)}/" target="_blank" rel="noopener">${tr.hubPage}${esc(hubSlug)}</a>`
     : '';
   const roleText = cardField(a, 'ecosystem_role');
   const descText = cardField(a, 'description');
@@ -799,7 +905,7 @@ function renderInspector(id) {
     <div style="padding:14px">
       <h2>${esc(a.name)}</h2>
       <div class="meta">${flag} ${esc(a.country)} · ${esc(tr.cats[a.category] || a.category)} · ${rels.length} ${tr.relationsN}</div>
-      <div class="inspector-links">${websiteRow}${linkedinRow}${nexusRow}</div>
+      <div class="inspector-links">${websiteRow}${linkedinRow}${nexusRow}${hubRow}</div>
       ${detailBits}
       <div class="section">
         <h3>${tr.typedRelations}</h3>
@@ -883,7 +989,13 @@ function renderCards(list) {
       : '';
     const mapBtn = `<a class="map-btn" href="?actor=${esc(a.id)}" onclick="event.stopPropagation()">${tr.mapLink}</a>`;
     const nexus = slug
-      ? `<a class="nexus-btn" href="/s/${esc(slug)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${tr.nexusCard}</a>`
+      ? `<a class="nexus-btn" href="/s/${esc(slug)}/" target="_blank" rel="noopener" onclick="event.stopPropagation()">${tr.nexusCard}</a>`
+      : (a.category === 'startup'
+        ? `<span class="pending-chip">${tr.nexusPending}</span>`
+        : '');
+    const hubSlug = a.nexus?.hub_slug;
+    const hubLink = hubSlug
+      ? `<a class="nexus-btn" href="/hubs/${esc(hubSlug)}/" target="_blank" rel="noopener" onclick="event.stopPropagation()">${tr.hubPage}</a>`
       : '';
     const yearBadge = year
       ? `<span class="badge badge-founded">${esc(tr.founded)} ${esc(String(year))}</span>`
@@ -902,7 +1014,7 @@ function renderCards(list) {
         ${roleBlock}
         ${descBlock}
         <div class="ac-badges"><span class="badge">${esc(catLabel)}</span>${yearBadge}</div>
-        <div class="ac-links">${[website, linkedin, mapBtn, nexus].filter(Boolean).join('') || ''}</div>
+        <div class="ac-links">${[website, linkedin, mapBtn, nexus, hubLink].filter(Boolean).join('') || ''}</div>
       </article>`;
   }).join('');
 
@@ -1029,6 +1141,30 @@ function renderStoryRail() {
   banner.innerHTML = `${esc(bmsg)} · <span class="suggested-tag">Suggested</span>`;
 
   rail.innerHTML = `<p class="meta" style="font-size:10px;margin:0 0 8px">${esc(tr.storyRailIntro || '')}</p>`;
+  const chNow = storyConfig.chapters[storyChapter];
+  const storyCountries = chNow?.map?.countries || [];
+  if (storyCountries.length > 1) {
+    const row = document.createElement('div');
+    row.className = 'chip-row story-country-row';
+    row.style.marginBottom = '8px';
+    const allLabel = lang === 'EN' ? 'All in chapter' : 'Todo el capítulo';
+    const chips = [['', allLabel], ...storyCountries.map((cc) => [cc, COUNTRY_META[cc]?.flag ? `${COUNTRY_META[cc].flag} ${cc}` : cc])];
+    chips.forEach(([cc, label]) => {
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.className = `chip sm ${(cc === '' && !storyFocusCountry) || storyFocusCountry === cc ? 'on' : ''}`;
+      b.textContent = label;
+      b.addEventListener('click', () => {
+        storyFocusCountry = cc || null;
+        renderStoryRail();
+        renderStoryChapter();
+      });
+      row.appendChild(b);
+    });
+    rail.appendChild(row);
+  } else {
+    storyFocusCountry = storyCountries[0] || storyFocusCountry;
+  }
   storyConfig.chapters.forEach((ch, idx) => {
     const step = document.createElement('div');
     step.className = `story-step${idx === storyChapter ? ' on' : ''}`;
@@ -1037,6 +1173,8 @@ function renderStoryRail() {
       storyChapter = idx;
       constellationId = null;
       constellationCloseup = false;
+      const codes = ch.map?.countries || [];
+      storyFocusCountry = codes.length === 1 ? codes[0] : null;
       renderStoryRail();
       renderStoryChapter();
     });
@@ -1063,7 +1201,11 @@ function renderStoryRail() {
     rail.appendChild(row);
   }
 
-  const counts = computeChapterEdgeCounts(storyConfig, relations, byId, policyRelations);
+  const counts = computeChapterEdgeCounts(storyConfig, relations, byId, policyRelations, {
+    policiesById,
+    dataRelations,
+    storyFocusCountry,
+  });
   window.__storyEdgeCounts = counts;
   const gaps = document.createElement('div');
   gaps.className = 'story-gaps';
@@ -1080,8 +1222,14 @@ function renderStoryChapter() {
     closeup: constellationCloseup,
     policyRelations,
     policiesById,
+    dataRelations,
+    storyFocusCountry,
   });
-  const current = computeChapterEdgeCounts(storyConfig, relations, byId, policyRelations)[storyChapter];
+  const current = computeChapterEdgeCounts(storyConfig, relations, byId, policyRelations, {
+    policiesById,
+    dataRelations,
+    storyFocusCountry,
+  })[storyChapter];
   window.__storyChapterActive = {
     chapter: storyScene.chapter.id,
     real: current?.real ?? storyScene.realRels.length,
@@ -1103,19 +1251,6 @@ function renderStoryChapter() {
     storyLayout: Boolean(storyScene.presetPositions),
     storySuggested: storyScene.suggested,
   });
-}
-
-function initAuthGate() {
-  const host = location.hostname;
-  const isLocal = host === 'localhost' || host === '127.0.0.1' || location.search.includes('preview=1');
-  if (isLocal) return;
-  fetch('/nexus-auth/api/me', { credentials: 'include' })
-    .then((r) => {
-      if (r.ok) return;
-      const next = encodeURIComponent(location.pathname + location.search);
-      location.href = `/nexus-auth/?next=${next}`;
-    })
-    .catch(() => {});
 }
 
 function markReady() {
@@ -1158,7 +1293,7 @@ function applyDemoState() {
   }
   if (bootParams.get('mobile') === '1') document.body.classList.add('mobile-layout');
   if (state === 'story' || bootParams.get('view') === 'story') {
-    storyChapter = Math.min(4, Math.max(0, parseInt(bootParams.get('chapter') || '0', 10)));
+    storyChapter = Math.min(5, Math.max(0, parseInt(bootParams.get('chapter') || '0', 10)));
     constellationId = bootParams.get('constellation') || null;
     constellationCloseup = bootParams.get('closeup') === '1';
     const tab = document.querySelector('[data-view-tab="story"]');
@@ -1167,17 +1302,21 @@ function applyDemoState() {
 }
 
 async function loadData() {
-  const [a, r, story, pol, polRels] = await Promise.all([
+  const [a, r, story, pol, polRels, dataRels, cross] = await Promise.all([
     fetch('data/actors.json').then((res) => res.json()),
     fetch('data/relations.json').then((res) => res.json()),
     fetch('data/story-chapters.json').then((res) => res.json()),
     fetch('data/policies.json').then((res) => res.json()),
     fetch('data/policy_relations.json').then((res) => res.json()),
+    fetch('data/data_relations.json').then((res) => res.json()),
+    fetch('data/nexus-crosslinks.json').then((res) => (res.ok ? res.json() : null)).catch(() => null),
   ]);
+  nexusCrosslinks = cross;
   storyConfig = story;
   policies = pol;
   policiesById = new Map(pol.map((p) => [p.id, p]));
   policyRelations = polRels;
+  dataRelations = dataRels;
   actors = a;
   relations = r;
   byId = new Map(actors.map((x) => [x.id, x]));
@@ -1214,7 +1353,6 @@ async function main() {
   initBrand();
   initLang();
   initTabs();
-  initAuthGate();
   bindControls();
   try {
     const mod = await import('https://esm.sh/graphology-layout-forceatlas2@0.10.1');

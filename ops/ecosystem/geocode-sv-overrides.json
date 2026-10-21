@@ -1,0 +1,110 @@
+{
+  "sv-utec-universidad-tecnologica-de-el-salvador": {
+    "geocode_query": "Universidad Tecnológica de El Salvador, Boulevard Los Próceres, San Salvador, El Salvador",
+    "precision": "address",
+    "source_url": "https://www.utec.edu.sv/",
+    "office_note": "Campus Dr. José Mauricio Loucel (Escalón) — public contact page"
+  },
+  "sv-crea-centro-de-emprendimiento-utec": {
+    "geocode_query": "Universidad Tecnológica de El Salvador, Boulevard Los Próceres, San Salvador, El Salvador",
+    "precision": "address",
+    "source_url": "https://www.utec.edu.sv/",
+    "office_note": "CREA at UTEC (same campus as anchor hub)"
+  },
+  "sv-marn-ministerio-de-medio-ambiente-y-recursos-natur": {
+    "geocode_query": "Ministerio de Medio Ambiente y Recursos Naturales, Calle Cortéz Blanco, San Salvador, El Salvador",
+    "precision": "address",
+    "source_url": "https://www.ambiente.gob.sv/",
+    "office_note": "MARN headquarters (public site)"
+  },
+  "sv-minec-ministerio-de-economia": {
+    "geocode_query": "Ministerio de Economía de El Salvador, Alameda Juan Pablo II, San Salvador, El Salvador",
+    "precision": "address",
+    "source_url": "https://www.economia.gob.sv/",
+    "office_note": "MINEC — public institutional site"
+  },
+  "sv-mag-ministerio-de-agricultura-y-ganaderia": {
+    "geocode_query": "Ministerio de Agricultura y Ganadería, Santa Tecla, La Libertad, El Salvador",
+    "precision": "address",
+    "source_url": "https://www.mag.gob.sv/",
+    "office_note": "MAG campus (public site)"
+  },
+  "sv-conamype": {
+    "geocode_query": "CONAMYPE, Boulevard de los Héroes, San Salvador, El Salvador",
+    "precision": "address",
+    "source_url": "https://www.conamype.gob.sv/",
+    "office_note": "CONAMYPE public headquarters"
+  },
+  "sv-bandesal-banco-de-desarrollo-de-el-salvador": {
+    "geocode_query": "BANDESAL, Boulevard Universitario, San Salvador, El Salvador",
+    "precision": "address",
+    "source_url": "https://www.bandesal.gob.sv/",
+    "office_note": "BANDESAL public site"
+  },
+  "sv-camarasal-camara-de-comercio-e-industria-de-el-sal": {
+    "geocode_query": "CAMARASAL, Calle Padres Aguilar, San Salvador, El Salvador",
+    "precision": "address",
+    "source_url": "https://camarasal.com/",
+    "office_note": "CAMARASAL contact directory"
+  },
+  "sv-invest-agencia-de-promocion-de-inversiones-y-expor": {
+    "geocode_query": "INVEST El Salvador, World Trade Center, San Salvador, El Salvador",
+    "precision": "address",
+    "source_url": "https://investinelsalvador.gob.sv/",
+    "office_note": "INVEST promotion agency"
+  },
+  "sv-impact-hub-san-salvador": {
+    "geocode_query": "Impact Hub San Salvador, Colonia San Benito, San Salvador, El Salvador",
+    "precision": "address",
+    "source_url": "https://sansalvador.impacthub.net/",
+    "office_note": "Impact Hub San Salvador public site"
+  },
+  "sv-ues-universidad-de-el-salvador": {
+    "geocode_query": "Universidad de El Salvador, Ciudad Universitaria, San Salvador, El Salvador",
+    "precision": "address",
+    "source_url": "https://www.ues.edu.sv/",
+    "office_note": "UES Ciudad Universitaria"
+  },
+  "sv-uca": {
+    "geocode_query": "Universidad Centroamericana José Simeón Cañas, Antiguo Cuscatlán, El Salvador",
+    "precision": "address",
+    "source_url": "https://www.uca.edu.sv/",
+    "office_note": "UCA main campus (narrative mention in deck §3)"
+  },
+  "sv-esen": {
+    "geocode_query": "Escuela Superior de Economía y Negocios, Santa Tecla, El Salvador",
+    "precision": "address",
+    "source_url": "https://www.esen.edu.sv/",
+    "office_note": "ESEN campus (narrative mention in deck §3)"
+  },
+  "sv-fiaes-fondo-de-inversion-ambiental-de-el-salvador": {
+    "geocode_query": "FIAES, Colonia Escalón, San Salvador, El Salvador",
+    "precision": "address",
+    "source_url": "https://fiaes.org.sv/",
+    "office_note": "FIAES public site"
+  },
+  "sv-industrias-la-constancia": {
+    "geocode_query": "Industrias La Constancia, Boulevard del Ejército, San Salvador, El Salvador",
+    "precision": "address",
+    "source_url": "https://laconstancia.com/",
+    "office_note": "La Constancia corporate site"
+  },
+  "sv-rein-hub-san-salvador": {
+    "geocode_query": "Universidad Tecnológica de El Salvador, Boulevard Los Próceres, San Salvador, El Salvador",
+    "precision": "address",
+    "source_url": "https://pvblic.org/rein-hubs",
+    "office_note": "REIN Hub El Salvador anchored at UTEC"
+  },
+  "sv-embajada-de-alemania": {
+    "geocode_query": "Embajada de Alemania, 83 Avenida Norte, San Salvador, El Salvador",
+    "precision": "address",
+    "source_url": "https://san-salvador.diplo.de/sv-es",
+    "office_note": "German Embassy San Salvador"
+  },
+  "sv-embajada-de-japon": {
+    "geocode_query": "Embajada de Japón, Avenida Olímpica, San Salvador, El Salvador",
+    "precision": "address",
+    "source_url": "https://www.sv.emb-japan.go.jp/",
+    "office_note": "Embassy of Japan in El Salvador"
+  }
+}

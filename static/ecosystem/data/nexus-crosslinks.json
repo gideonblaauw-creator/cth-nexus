@@ -1,0 +1,481 @@
+{
+  "version": 1,
+  "valid": {
+    "s": [
+      "agrismart",
+      "agrodata-connect",
+      "agrolens",
+      "agrolider",
+      "ainwater",
+      "air4u",
+      "airthnova",
+      "ala-terra",
+      "alfe-aseo-sas",
+      "amazoniko",
+      "andean-biofactories",
+      "artexlab",
+      "aterna",
+      "aura-cell",
+      "autogenerado-629",
+      "b-kapz",
+      "baruk-company",
+      "bio-analytics",
+      "bioarea",
+      "cacelio",
+      "calojabones",
+      "ciclorganicos",
+      "circuito-cero",
+      "clean-sim",
+      "climatik",
+      "cobox-logistic",
+      "communitylab",
+      "compostpack",
+      "construyendo-redes-de-paz",
+      "cr-tejas",
+      "crysalia-studio",
+      "curuba",
+      "dantium",
+      "deposito-global-recycling",
+      "deterquin",
+      "dexon-software-sas-bic",
+      "e-wai",
+      "eco-biosis",
+      "eco-bloque",
+      "eco-industria",
+      "ecolandia",
+      "ecomuna",
+      "el-ocambulo",
+      "elastic-energy",
+      "embergy",
+      "fazzty",
+      "finca-aguilas-verdes",
+      "fivra",
+      "fluvia",
+      "galaxy-pack",
+      "glooba",
+      "glu-energy",
+      "gmoves",
+      "green-t",
+      "green-textile-solutions",
+      "greendex",
+      "greenify",
+      "griin-energy",
+      "grupo-natural-andino",
+      "habitat-a-vibe-company",
+      "hardtech",
+      "honeyb",
+      "hunter-tecnologia",
+      "i-can-jump",
+      "ilikko",
+      "ingenicrop",
+      "isd-ingenieria-y-servicios",
+      "istmo-verde",
+      "kallpa-greenz-leaders",
+      "kelab",
+      "kigui",
+      "kimsa",
+      "kleantab",
+      "kuo",
+      "linko-workers",
+      "mayugo",
+      "mitsidi",
+      "modular-agrosolutions",
+      "monte-jazmin",
+      "moviltronics",
+      "mubon",
+      "myma",
+      "nanohumi",
+      "nextgen-nutrition",
+      "nina-energy",
+      "novatio",
+      "nrk",
+      "nuevas-tecnologias-fisicoquimicas",
+      "nutrichar",
+      "nux",
+      "oasis-group",
+      "pacaceite",
+      "parsons-kinetics",
+      "pezconfiable",
+      "pina-kakaw",
+      "planta-comunitaria-wpc",
+      "plasfacol",
+      "plastic-free-planet",
+      "plasticos-ambientales",
+      "pleia",
+      "proyecto-impacto-ambiental",
+      "purest-fuels",
+      "q-mind",
+      "reporti",
+      "sekpos",
+      "sie-waka",
+      "siloe-garden",
+      "simbiotic",
+      "smartdrive",
+      "suncolombia",
+      "tavi-technology",
+      "terra-io",
+      "tr-global-group",
+      "valopes",
+      "vigia",
+      "wayra-watt",
+      "weia",
+      "wheelo",
+      "windlever",
+      "yakusmart",
+      "zhana-solutions"
+    ],
+    "hubs": [
+      "el-salvador",
+      "emprende-up",
+      "externado",
+      "landivar",
+      "lci-veritas"
+    ],
+    "ideas": [
+      "/ideas/agrismart",
+      "/ideas/agrivoltaic-dragon-fruit",
+      "/ideas/agrodata-connect",
+      "/ideas/agrodata-connect-food-agriculture",
+      "/ideas/agrolens",
+      "/ideas/agrolens-food-agriculture",
+      "/ideas/agrolider",
+      "/ideas/agrolider-food-agriculture",
+      "/ideas/airthnova",
+      "/ideas/amazoniko",
+      "/ideas/amazoniko-air-environment",
+      "/ideas/andean-biofactorie-food-agriculture",
+      "/ideas/andean-biofactories",
+      "/ideas/arte-y-reciclaje-para-la-paz-mujeres-creando-economia-circular-con-proposito-air-environment",
+      "/ideas/artexlab",
+      "/ideas/artexlab-clean-industry",
+      "/ideas/aterna-food-agriculture",
+      "/ideas/aura-cell",
+      "/ideas/autogenerado-629",
+      "/ideas/baruk-company-bio-climatik-sas-clean-industry",
+      "/ideas/basilisco",
+      "/ideas/bio-analytics",
+      "/ideas/bio-natural-solutions",
+      "/ideas/bioambientar",
+      "/ideas/biogar",
+      "/ideas/biopectingrow-food-agriculture",
+      "/ideas/cacelio",
+      "/ideas/chum-chum-food-agriculture",
+      "/ideas/chumchum",
+      "/ideas/circuito-cero",
+      "/ideas/circuito-cero-air-environment",
+      "/ideas/cirkula",
+      "/ideas/cirkula-food-agriculture",
+      "/ideas/clean-sim",
+      "/ideas/climatik",
+      "/ideas/communitylab",
+      "/ideas/communitylab-clean-industry",
+      "/ideas/construyendo-redes-de-paz",
+      "/ideas/crysalia-studio",
+      "/ideas/curuba",
+      "/ideas/curubatech-food-agriculture",
+      "/ideas/dantium",
+      "/ideas/dantium-air-environment",
+      "/ideas/drainalert",
+      "/ideas/e-wai",
+      "/ideas/ecolandia",
+      "/ideas/ecomuna",
+      "/ideas/ecopoop",
+      "/ideas/ecosonus-food-agriculture",
+      "/ideas/el-ocambulo",
+      "/ideas/el-ocambulo-food-agriculture",
+      "/ideas/ewai-water",
+      "/ideas/fazzty",
+      "/ideas/finca-aguilas-verdes",
+      "/ideas/fivra",
+      "/ideas/fivra-clean-industry",
+      "/ideas/gescol",
+      "/ideas/gmoves",
+      "/ideas/green-leaf",
+      "/ideas/green-textile-solutions",
+      "/ideas/hardtech",
+      "/ideas/honeyb",
+      "/ideas/ingenicrop",
+      "/ideas/inka-green-sac-food-agriculture",
+      "/ideas/kallpa-greenz-leaders",
+      "/ideas/kallpa-greenz-leaders-food-agriculture",
+      "/ideas/kuo",
+      "/ideas/matter-of-trust",
+      "/ideas/modular-agrosolutions",
+      "/ideas/muchik-water",
+      "/ideas/nano-humi-air-environment",
+      "/ideas/nanohumi",
+      "/ideas/nextgen-nutrition",
+      "/ideas/nrk",
+      "/ideas/nutri-fruits",
+      "/ideas/nutrichar",
+      "/ideas/nux-not-assigned-unknown",
+      "/ideas/o3-smart-cities",
+      "/ideas/pezconfiable",
+      "/ideas/pezconfiable-food-agriculture",
+      "/ideas/pina-kakaw",
+      "/ideas/pirosa-transportation",
+      "/ideas/planta-comunitaria-wpc",
+      "/ideas/plastic-free-planet",
+      "/ideas/predictamar-food-agriculture",
+      "/ideas/proyecto-impacto-ambiental",
+      "/ideas/q-mind",
+      "/ideas/reemade",
+      "/ideas/sekpos",
+      "/ideas/seos-energy",
+      "/ideas/sie-waka",
+      "/ideas/siloe-garden",
+      "/ideas/smartdrive",
+      "/ideas/terra-io",
+      "/ideas/vigia",
+      "/ideas/wayra-watt",
+      "/ideas/wayra-watt-clean-energy",
+      "/ideas/windlever",
+      "/ideas/windlever-clean-energy",
+      "/ideas/xiclo",
+      "/ideas/yakusmart",
+      "/ideas/yakusmart-food-agriculture"
+    ]
+  },
+  "byChallenge": {
+    "challenge:PE-1-bosques": {
+      "ideas": [
+        {
+          "label": "AgroLens",
+          "href": "/ideas/agrolens-food-agriculture",
+          "inferred": true,
+          "kind": "idea"
+        },
+        {
+          "label": "Andean Biofactories",
+          "href": "/ideas/andean-biofactorie-food-agriculture",
+          "inferred": true,
+          "kind": "idea"
+        },
+        {
+          "label": "Ecosonus",
+          "href": "/ideas/ecosonus-food-agriculture",
+          "inferred": true,
+          "kind": "idea"
+        },
+        {
+          "label": "Inka Green SAC",
+          "href": "/ideas/inka-green-sac-food-agriculture",
+          "inferred": true,
+          "kind": "idea"
+        },
+        {
+          "label": "Kallpa Greenz Leaders",
+          "href": "/ideas/kallpa-greenz-leaders-food-agriculture",
+          "inferred": true,
+          "kind": "idea"
+        },
+        {
+          "label": "NanoHumi",
+          "href": "/ideas/nano-humi-air-environment",
+          "inferred": true,
+          "kind": "idea"
+        },
+        {
+          "label": "PectiGrow",
+          "href": "/ideas/biopectingrow-food-agriculture",
+          "inferred": true,
+          "kind": "idea"
+        },
+        {
+          "label": "PezConfiable",
+          "href": "/ideas/pezconfiable-food-agriculture",
+          "inferred": true,
+          "kind": "idea"
+        },
+        {
+          "label": "PredictaMAR",
+          "href": "/ideas/predictamar-food-agriculture",
+          "inferred": true,
+          "kind": "idea"
+        },
+        {
+          "label": "VIGIA (ex MUCHIK)",
+          "href": "/ideas/muchik-water",
+          "inferred": true,
+          "kind": "idea"
+        },
+        {
+          "label": "YakuSmart",
+          "href": "/ideas/yakusmart-food-agriculture",
+          "inferred": true,
+          "kind": "idea"
+        },
+        {
+          "label": "NanoHumi",
+          "href": "/ideas/nanohumi",
+          "inferred": true,
+          "kind": "idea"
+        },
+        {
+          "label": "PezConfiable",
+          "href": "/ideas/pezconfiable",
+          "inferred": true,
+          "kind": "idea"
+        },
+        {
+          "label": "VIGÍA (ex MUCHIK)",
+          "href": "/ideas/vigia",
+          "inferred": true,
+          "kind": "idea"
+        },
+        {
+          "label": "WindLever",
+          "href": "/ideas/windlever",
+          "inferred": true,
+          "kind": "idea"
+        },
+        {
+          "label": "YakuSmart",
+          "href": "/ideas/yakusmart",
+          "inferred": true,
+          "kind": "idea"
+        }
+      ],
+      "solutions": [
+        {
+          "label": "Yakusmart",
+          "href": "/s/yakusmart/",
+          "inferred": true,
+          "kind": "solution"
+        }
+      ],
+      "startups": [
+        {
+          "label": "Yakusmart",
+          "href": "/s/yakusmart/",
+          "inferred": true,
+          "kind": "startup"
+        }
+      ]
+    },
+    "challenge:PE-2-agua": {
+      "ideas": [
+        {
+          "label": "PIROSA",
+          "href": "/ideas/pirosa-transportation",
+          "inferred": true,
+          "kind": "idea"
+        },
+        {
+          "label": "VIGIA (ex MUCHIK)",
+          "href": "/ideas/muchik-water",
+          "inferred": true,
+          "kind": "idea"
+        },
+        {
+          "label": "YakuSmart",
+          "href": "/ideas/yakusmart-food-agriculture",
+          "inferred": true,
+          "kind": "idea"
+        },
+        {
+          "label": "VIGÍA (ex MUCHIK)",
+          "href": "/ideas/vigia",
+          "inferred": true,
+          "kind": "idea"
+        },
+        {
+          "label": "Wayra Watt",
+          "href": "/ideas/wayra-watt",
+          "inferred": true,
+          "kind": "idea"
+        },
+        {
+          "label": "YakuSmart",
+          "href": "/ideas/yakusmart",
+          "inferred": true,
+          "kind": "idea"
+        }
+      ],
+      "solutions": [
+        {
+          "label": "Yakusmart",
+          "href": "/s/yakusmart/",
+          "inferred": true,
+          "kind": "solution"
+        }
+      ],
+      "startups": [
+        {
+          "label": "Yakusmart",
+          "href": "/s/yakusmart/",
+          "inferred": true,
+          "kind": "startup"
+        }
+      ]
+    }
+  },
+  "byPolicy": {
+    "policy:pe-ndc-2020": [
+      {
+        "label": "Yakusmart",
+        "href": "/s/yakusmart/",
+        "inferred": true,
+        "kind": "startup"
+      }
+    ],
+    "policy:pe-ndc-cpd": [
+      {
+        "label": "Yakusmart",
+        "href": "/s/yakusmart/",
+        "inferred": true,
+        "kind": "startup"
+      }
+    ],
+    "policy:pe-ds-013-2019-ndc-list": [
+      {
+        "label": "Yakusmart",
+        "href": "/s/yakusmart/",
+        "inferred": true,
+        "kind": "startup"
+      }
+    ],
+    "policy:pe-programa-bionegocios": [
+      {
+        "label": "Yakusmart",
+        "href": "/s/yakusmart/",
+        "inferred": true,
+        "kind": "startup"
+      }
+    ],
+    "policy:pe-programa-bosques": [
+      {
+        "label": "Yakusmart",
+        "href": "/s/yakusmart/",
+        "inferred": true,
+        "kind": "startup"
+      }
+    ],
+    "policy:pe-clima-law-cpd": [
+      {
+        "label": "Yakusmart",
+        "href": "/s/yakusmart/",
+        "inferred": true,
+        "kind": "startup"
+      }
+    ],
+    "policy:pe-geography-cclw": [
+      {
+        "label": "Yakusmart",
+        "href": "/s/yakusmart/",
+        "inferred": true,
+        "kind": "startup"
+      }
+    ]
+  },
+  "counts": {
+    "s_pages": 121,
+    "hub_pages": 5,
+    "ideas_manifest": 102,
+    "challenge_ideas": 22,
+    "challenge_solutions": 2,
+    "challenge_startups": 2,
+    "policy_startup_links": 7,
+    "actor_card_slug": 2
+  }
+}
