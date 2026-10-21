@@ -313,6 +313,10 @@ def sanitize_relations(relations: list) -> list:
 
 
 def main() -> None:
+    from merge_geo_from_live import main as merge_geo_main
+
+    merge_geo_main()
+
     raw_path = DATA / "actors.raw.json"
     actors_path = DATA / "actors.json"
     if not raw_path.exists():

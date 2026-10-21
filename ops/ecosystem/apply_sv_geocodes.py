@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import os
 import sys
 import time
 from pathlib import Path
@@ -33,8 +34,19 @@ def main() -> None:
     sv_ids = sorted(k for k in blob if k.startswith("sv-"))
     n_addr = n_country = 0
 
+    refresh = os.environ.get("SV_GEOCODE_REFRESH", "").lower() in ("1", "true", "yes")
+
     for aid in sv_ids:
         if aid in overrides:
+            existing = blob.get(aid) or {}
+            if (
+                not refresh
+                and existing.get("precision") == "address"
+                and existing.get("lat") is not None
+                and existing.get("address")
+            ):
+                n_addr += 1
+                continue
             ov = overrides[aid]
             q = ov.get("geocode_query") or ov.get("address")
             raw = resolve_query(q, "El Salvador") if q else None
