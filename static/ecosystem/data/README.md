@@ -13,9 +13,13 @@ Extracted from Canva actor maps. **`actors.raw.json`** is the ingest snapshot (s
 ## Build
 
 ```bash
+python3 ops/ecosystem/apply_sv_geocodes.py   # optional refresh (overrides / policy)
+python3 scripts/ecosystem/merge_geo_from_live.py
 python3 scripts/build_ecosystem_actor_cards.py
 python3 scripts/ecosystem/build_public_data.py
 ```
+
+`merge_geo_from_live` (also invoked by the card + public build scripts) applies SV geo policy and ignores live cache city guesses for `sv-*` actors.
 
 `nexus.card_slug` is set only for startups with an existing `/s/` one-pager (not ecosystem org cards).
 

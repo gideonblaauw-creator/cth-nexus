@@ -6491,13 +6491,13 @@
   "page": null,
   "notes": "Pomona Impact es un fondo de inversión de impacto que apoya empresas en etapa temprana con enfoque social y ambiental en Centroamérica.Inversión de $2 millones en la fintech salvadoreña Ábaco para ampliar financiamiento a PYMES. Apoyo a empresas como Fun Crafts International para",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/pomona-impact",
   "nexus": {
@@ -6519,13 +6519,13 @@
   "page": null,
   "notes": "VIWALA es una plataforma financiera que ofrece préstamos a empresas con impacto social y ambiental, especialmente lideradas por mujeres.Financiamiento a negocios inclusivos y sostenibles en El Salvador.Enfoque en inclusión financiera y empoderamiento femenino.",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/viwala",
   "nexus": {
@@ -6547,13 +6547,14 @@
   "page": null,
   "notes": "FIAES – Fondo de Inversión Ambiental de El Salvador dedicada a financiar, ejecutar y acompañar proyectos ambientales, restauración de ecosistemas, conservación del medio ambiente y mitigación y adaptación al cambio climático. Restauración de más de 1,100 hectáreas en territorios",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": 13.70336,
+   "lng": -89.240147,
+   "address": "85 Avenida Norte, Colonia Escalón 113, San Salvador, El Salvador",
+   "city": "San Salvador",
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "address",
+   "source_url": "https://fiaes.org.sv/",
+   "office_note": "FIAES public site"
   },
   "nexus": {
    "card_slug": null
@@ -6575,13 +6576,13 @@
   "page": null,
   "notes": "Atlántida Capital, S.A. es una gestora de fondos de inversión líder en El Salvador, parte del Grupo Financiero Atlántida.Ofrecen diversas alternativas de inversión, incluyendo fondos con criterios ESG.Enfocados en brindar seguridad y calidad en el servicio a sus inversionistas.",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -6602,13 +6603,13 @@
   "page": null,
   "notes": "Banco Azul ofrece programas de sostenibilidad para empresas en El Salvador, promoviendo proyectos que generen valor económico, medioambiental y social.Programa integral de sostenibilidad para empresas que deseen implementar proyectos sostenibles.",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/banco-azul",
   "nexus": {
@@ -6630,13 +6631,13 @@
   "page": null,
   "notes": "Banco Azul ofrece programas de sostenibilidad para empresas en El Salvador, promoviendo proyectos que generen valor económico, medioambiental y social.Programa integral de sostenibilidad para empresas que deseen implementar proyectos sostenibles.",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/banco-hipotecario-de-el-salvador",
   "nexus": {
@@ -6658,13 +6659,13 @@
   "page": null,
   "notes": "Banco Azul ofrece programas de sostenibilidad para empresas en El Salvador, promoviendo proyectos que generen valor económico, medioambiental y social.Programa integral de sostenibilidad para empresas que deseen implementar proyectos sostenibles.",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/banco-atlantida-el-salvador/",
   "nexus": {
@@ -6686,13 +6687,13 @@
   "page": null,
   "notes": "Banco Azul ofrece programas de sostenibilidad para empresas en El Salvador, promoviendo proyectos que generen valor económico, medioambiental y social.Programa integral de sostenibilidad para empresas que deseen implementar proyectos sostenibles.",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/bancoagricola",
   "nexus": {
@@ -6714,13 +6715,13 @@
   "page": null,
   "notes": "BANDESAL (Banco de Desarrollo de El Salvador) Institución financiera estatal que promueve el desarrollo económico sostenible en El Salvador.Línea de Crédito Verde para apoyar proyectos de generación de energía renovable y eficiencia energética.Financiamiento de proyectos sostenib",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -6741,13 +6742,13 @@
   "page": null,
   "notes": "SISA Seguros es una compañía de seguros con iniciativas en responsabilidad social y ambiental.Programas de seguros enfocados en la sostenibilidad y la resiliencia climática.",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -6768,16 +6769,13 @@
   "page": null,
   "notes": "ASES Seguros es una aseguradora que promueve prácticas sostenibles en sus operaciones.Participación en programas de seguros sostenibles y promoción de la resiliencia ante el cambio climático.",
   "geo": {
-   "lat": 13.687341,
-   "lng": 89.2247,
+   "lat": null,
+   "lng": null,
    "address": null,
-   "city": "San Salvador",
+   "city": null,
    "country": "El Salvador",
-   "precision": "address",
-   "source_url": "https://ases.org.sv",
-   "flags": [
-    "country_mismatch"
-   ]
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -6800,13 +6798,13 @@
   "sector": "private",
   "source": "Mapa de Actores Perú 2026",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -6827,13 +6825,13 @@
   "page": null,
   "notes": "Polaris Family Office es una oficina de gestión patrimonial que integra criterios ESG en sus inversiones.Inversiones en proyectos sostenibles y de impacto social en la región.",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -6854,13 +6852,13 @@
   "page": null,
   "notes": "Davivienda Seguros es una aseguradora comprometida con la sostenibilidad y la conservación ambiental.Desarrollo del \"Seguro de Vida Verde\" para apoyar la conservación de manglares. Restauración de 6.2 hectáreas de bosque de manglar y siembra de más de 21,000 árboles de mangle.",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -6881,13 +6879,13 @@
   "page": null,
   "notes": null,
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/bcie",
   "nexus": {
@@ -6910,13 +6908,13 @@
   "page": null,
   "notes": "FIDEAGRO es un fondo de inversión que apoya el desarrollo del sector agropecuario.Programa de FIDEAGRO - Ministerio de Agricultura y Ganadería. Fondo que otorga capital semilla a pequeños productores y emprendedores en el sector agrícola.Financiamiento a proyectos agrícolas soste",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -6937,13 +6935,13 @@
   "page": null,
   "notes": "BAC Credomatic Institución financiera que ofrece productos y servicios con enfoque en sostenibilidad. Apoya a emprendedores con capital semilla a través de programas como Agroinnova.Desarrollo de líneas de crédito verdes para PYMES. Implementación de programas de educación financ",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -6964,13 +6962,13 @@
   "page": null,
   "notes": "CAFI (Central America Angel Fund Initiative) Iniciativa que conecta inversionistas ángeles con startups innovadoras en Centroamérica.Inversiones en empresas emergentes con impacto social y ambiental. Fortalecimiento del ecosistema de inversión en la región.",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/cafivc",
   "nexus": {
@@ -6995,13 +6993,13 @@
   "nexus_url": null,
   "has_nexus_card": false,
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -7025,13 +7023,13 @@
   "nexus_url": null,
   "has_nexus_card": false,
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -7080,13 +7078,13 @@
   "page": null,
   "notes": "Grupo Ternova es una corporación líder en la producción de soluciones sostenibles e innovadoras para dos sectores clave: empaques flexibles y centros logísticos de alta eficiencia con operaciones en las Américas y el Sudeste Asiático. Implementación del modelo \"Business to Human\"",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/ternovagroup",
   "nexus": {
@@ -7108,13 +7106,13 @@
   "page": null,
   "notes": "Grupo Ternova es una corporación líder en la producción de soluciones sostenibles e innovadoras para dos sectores clave: empaques flexibles y centros logísticos de alta eficiencia con operaciones en las Américas y el Sudeste Asiático. Implementación del modelo \"Business to Human\"",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/grupo-agrisal",
   "nexus": {
@@ -7136,13 +7134,14 @@
   "page": null,
   "notes": "Industrias Plásticas, S.A. de C.V. es la empresa líder en la fabricación de productos plásticos en El Salvador.Junto a otras del grupo: Unitape y Capri Recycling, están impulsando un modelo de economía circular integral. Procesa aproximadamente 250 toneladas de plástico al mes, p",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": 13.695344,
+   "lng": -89.241578,
+   "address": "Boulevard del Hipódromo None, San Salvador, El Salvador",
+   "city": "San Salvador",
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "address",
+   "source_url": "https://laconstancia.com/",
+   "office_note": "La Constancia corporate site"
   },
   "nexus": {
    "card_slug": null
@@ -7163,13 +7162,13 @@
   "page": null,
   "notes": "Grupo Ternova es una corporación líder en la producción de soluciones sostenibles e innovadoras para dos sectores clave: empaques flexibles y centros logísticos de alta eficiencia con operaciones en las Américas y el Sudeste Asiático. Implementación del modelo \"Business to Human\"",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -7190,13 +7189,13 @@
   "page": null,
   "notes": "Grupo Ternova es una corporación líder en la producción de soluciones sostenibles e innovadoras para dos sectores clave: empaques flexibles y centros logísticos de alta eficiencia con operaciones en las Américas y el Sudeste Asiático. Implementación del modelo \"Business to Human\"",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/super-selectos/",
   "nexus": {
@@ -7218,13 +7217,13 @@
   "page": null,
   "notes": null,
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/aes-el-salvador",
   "nexus": {
@@ -7246,13 +7245,14 @@
   "page": null,
   "notes": null,
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": 13.698523,
+   "lng": -89.19108,
+   "address": "Calle Presbitero Vicente Aguilar None, San Salvador, El Salvador",
+   "city": "San Salvador",
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "address",
+   "source_url": "https://camarasal.com/",
+   "office_note": "CAMARASAL contact directory"
   },
   "linkedin": "https://www.linkedin.com/company/27249850",
   "nexus": {
@@ -7274,13 +7274,13 @@
   "page": null,
   "notes": null,
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -7301,13 +7301,13 @@
   "page": null,
   "notes": "CAMTEX (Cámara de la Industria Textil y de la Confección de El Salvador) Gremial que representa a la industria textil y de la confección, promoviendo prácticas sostenibles en el sector.Implementación del Higg Index para medir el impacto ambiental en los procesos productivos.El 78",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/camtex-el-salvador",
   "nexus": {
@@ -7338,13 +7338,13 @@
    "ENE"
   ],
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -7365,13 +7365,13 @@
   "page": null,
   "notes": null,
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -7392,13 +7392,13 @@
   "page": null,
   "notes": null,
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -7419,13 +7419,14 @@
   "page": null,
   "notes": null,
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": 13.703917,
+   "lng": -89.200748,
+   "address": "Alameda Juan Pablo II None, San Salvador, El Salvador",
+   "city": "San Salvador",
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "address",
+   "source_url": "https://www.economia.gob.sv/",
+   "office_note": "MINEC — public institutional site"
   },
   "nexus": {
    "card_slug": null
@@ -7446,13 +7447,14 @@
   "page": null,
   "notes": null,
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": 13.684037,
+   "lng": -89.286502,
+   "address": "Paaje 2 None, Santa Tecla, El Salvador",
+   "city": "Santa Tecla",
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "address",
+   "source_url": "https://www.mag.gob.sv/",
+   "office_note": "MAG campus (public site)"
   },
   "nexus": {
    "card_slug": null
@@ -7473,13 +7475,13 @@
   "page": null,
   "notes": null,
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/conamype",
   "nexus": {
@@ -7502,13 +7504,13 @@
   "page": null,
   "notes": null,
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -7529,13 +7531,14 @@
   "page": null,
   "notes": null,
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": 13.708524,
+   "lng": -89.241605,
+   "address": "Calle del Mirador None, San Salvador, El Salvador",
+   "city": "San Salvador",
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "address",
+   "source_url": "https://investinelsalvador.gob.sv/",
+   "office_note": "INVEST promotion agency"
   },
   "linkedin": "https://www.linkedin.com/company/investinelsalvador",
   "nexus": {
@@ -7557,13 +7560,13 @@
   "page": null,
   "notes": null,
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -7584,13 +7587,14 @@
   "page": null,
   "notes": "Impact Hub San Salvador Incubadora y aceleradora de emprendimientos de impacto social y ambiental.Accelerate2030: Programa global en alianza con el PNUD para escalar emprendimientos que contribuyen a los ODS.Climathon San Salvador: Evento anual que reúne a innovadores para desarr",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": 13.697619,
+   "lng": -89.241379,
+   "address": "Plaza la mascota None, San Salvador, El Salvador",
+   "city": "San Salvador",
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "address",
+   "source_url": "https://sansalvador.impacthub.net/",
+   "office_note": "Impact Hub San Salvador public site"
   },
   "linkedin": "https://www.linkedin.com/company/ihsansalvador",
   "nexus": {
@@ -7612,13 +7616,14 @@
   "page": null,
   "notes": "REIN Hub San Salvador. Capítulo local de la iniciativa global REIN (Resilience, Entrepreneurship, Innovation, and Nature).Iniciativa de CleantechHub PVBLIC Foundation. Juntos con otros socios busca para fortalecer el ecosistema de emprendimiento climático en Latinomérica.Programa",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": 13.704529,
+   "lng": -89.226666,
+   "address": "Boulevard Constitución None, San Salvador, El Salvador",
+   "city": "San Salvador",
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "address",
+   "source_url": "https://pvblic.org/rein-hubs",
+   "office_note": "REIN Hub El Salvador anchored at UTEC"
   },
   "linkedin": "https://www.linkedin.com/company/pvblic-foundation",
   "nexus": {
@@ -7640,13 +7645,14 @@
   "page": null,
   "notes": null,
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": 13.704529,
+   "lng": -89.226666,
+   "address": "Boulevard Constitución None, San Salvador, El Salvador",
+   "city": "San Salvador",
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "address",
+   "source_url": "https://www.utec.edu.sv/",
+   "office_note": "CREA at UTEC (same campus as anchor hub)"
   },
   "linkedin": "https://www.linkedin.com/school/universidad-tecnol%C3%B3gica-de-el-salvador/",
   "nexus": {
@@ -7668,13 +7674,13 @@
   "page": null,
   "notes": "SNBX (Sandbox) Hub de innovación creado por Agrisal, INNBOX y Seed Community para dinamizar el ecosistema de emprendimiento e innovación.Alianzas con BID Lab y empresas líderes para impulsar la innovación corporativa y el desarrollo de startups.",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/snbxsv",
   "nexus": {
@@ -7696,13 +7702,13 @@
   "page": null,
   "notes": "Fundación Gloria Kriete - Incubadora Empresarial Programa de incubación para emprendedores sociales en etapa temprana con alto potencial de impacto.Identificación y escalamiento de emprendimientos que cumplen con la triple línea de impacto: económico, social y ambiental.",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/fundaci%C3%B3n-gloria-kriete",
   "nexus": {
@@ -7724,13 +7730,13 @@
   "page": null,
   "notes": "Startupbootcamp El Salvador Aceleradora global que planea invertir hasta USD 3.5 millones en startups tecnológicas en El Salvador.Selección de hasta 30 startups para recibir inversiones significativas y apoyo en el desarrollo de sus proyectos.",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/startupbootcamp",
   "nexus": {
@@ -7752,13 +7758,14 @@
   "page": null,
   "notes": "UTEC (Universidad Técnológica del Salvador) - Centro de Emprendimiento e Innovación Social CREA Centro universitario que impulsa programas de incubación con enfoque en sostenibilidad y cambio climático. Aliado principal y sede del REIN Hub El SalvadorClimathon San Salvador: Event",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": 13.704529,
+   "lng": -89.226666,
+   "address": "Boulevard Constitución None, San Salvador, El Salvador",
+   "city": "San Salvador",
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "address",
+   "source_url": "https://www.utec.edu.sv/",
+   "office_note": "Campus Dr. José Mauricio Loucel (Escalón) — public contact page"
   },
   "linkedin": "https://www.linkedin.com/school/universidadtecnologicadeelsalvador",
   "nexus": {
@@ -7781,13 +7788,14 @@
   "page": null,
   "notes": null,
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": 13.970461,
+   "lng": -89.574407,
+   "address": "Pasaje 3 None, Santa Ana, El Salvador",
+   "city": "Santa Ana",
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "address",
+   "source_url": "https://www.ues.edu.sv/",
+   "office_note": "UES Ciudad Universitaria"
   },
   "linkedin": "https://www.linkedin.com/school/universidad-de-el-salvador/",
   "nexus": {
@@ -7810,13 +7818,13 @@
   "page": null,
   "notes": "Key Institute (Instituto Kriete de Ingeniería y Ciencias) es una nueva universidad privada en El Salvador, inaugurada oficialmente el 19 de marzo de 2025. Fundada por el empresario Roberto Kriete, su objetivo es formar ingenieros de clase mundial capaces de liderar en innovación",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/keyinstitutesv",
   "nexus": {
@@ -7844,13 +7852,14 @@
    "BOS"
   ],
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": 13.68065,
+   "lng": -89.235877,
+   "address": "Boulevard Los Próceres None, Antiguo Cuscatlán, El Salvador",
+   "city": "Antiguo Cuscatlán",
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "address",
+   "source_url": "https://www.uca.edu.sv/",
+   "office_note": "UCA main campus (narrative mention in deck §3)"
   },
   "linkedin": "https://www.linkedin.com/school/universidad-centroamericana-jos--sime-n-ca-as",
   "nexus": {
@@ -7879,13 +7888,14 @@
    "AGU"
   ],
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": 13.655297,
+   "lng": -89.285772,
+   "address": "Calle a Comasagua None, Santa Tecla, El Salvador",
+   "city": "Santa Tecla",
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "address",
+   "source_url": "https://www.esen.edu.sv/",
+   "office_note": "ESEN campus (narrative mention in deck §3)"
   },
   "nexus": {
    "card_slug": null
@@ -7907,13 +7917,13 @@
   "page": null,
   "notes": "Telecorporación Salvadoreña (TCS) (Canales: 2, 4, 6 y TCS+) Es el conglomerado televisivo más grande del país, con una amplia cobertura nacional.A través de sus noticieros y programas especiales, ha abordado temas relacionados con el medio ambiente y el desarrollo sostenible.",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -7934,13 +7944,13 @@
   "page": null,
   "notes": "Canal 12 (RSM)Canal de televisión con programación variada, incluyendo noticias y entretenimiento.Ha transmitido reportajes y programas enfocados en iniciativas ambientales y emprendimientos locales.",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -7961,13 +7971,13 @@
   "page": null,
   "notes": "Canal 12 (RSM)Canal de televisión con programación variada, incluyendo noticias y entretenimiento.Ha transmitido reportajes y programas enfocados en iniciativas ambientales y emprendimientos locales.",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -7988,13 +7998,13 @@
   "page": null,
   "notes": "Canal 12 (RSM)Canal de televisión con programación variada, incluyendo noticias y entretenimiento.Ha transmitido reportajes y programas enfocados en iniciativas ambientales y emprendimientos locales.",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -8015,13 +8025,13 @@
   "page": null,
   "notes": "La Prensa Gráfica Uno de los periódicos más antiguos y de mayor circulación en El Salvador.Publica artículos y reportajes sobre medio ambiente, cambio climático y emprendimientos sostenibles.",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/la-prensa-gr%C3%A1fica",
   "nexus": {
@@ -8043,13 +8053,13 @@
   "page": null,
   "notes": "El Diario de HoyPeriódico de amplia circulación nacional, con enfoque en noticias generales y de actualidad.Ha cubierto iniciativas de emprendimiento y proyectos ambientales en el país.",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/am-rica-interactiva-el-diario-de-hoy",
   "nexus": {
@@ -8071,13 +8081,13 @@
   "page": null,
   "notes": "Diario El MundoPeriódico que ofrece cobertura de noticias nacionales e internacionales.Incluye secciones dedicadas a la economía verde y emprendimientos innovadores.",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -8098,13 +8108,13 @@
   "page": null,
   "notes": "GatoEncerradoRevista digital enfocada en periodismo ambiental y de derechos humanos.Especializada en reportajes sobre cambio climático, sostenibilidad y justicia ambiental.",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -8125,13 +8135,13 @@
   "page": null,
   "notes": "Fundación Gloria Kriete - Incubadora Empresarial Programa de incubación para emprendedores sociales en etapa temprana con alto potencial de impacto.Identificación y escalamiento de emprendimientos que cumplen con la triple línea de impacto: económico, social y ambiental.",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/fundaci%C3%B3n-gloria-kriete",
   "nexus": {
@@ -8153,13 +8163,13 @@
   "page": null,
   "notes": "FUNDEMAS (Fundación Empresarial para la Acción Social) Promoción de la sostenibilidad y la responsabilidad social empresarial.Iniciativas destacadas:Organización de la Semana de la Sostenibilidad, abordando temas como cambio climático y economía circular.Apoyo a empresas en la im",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -8180,13 +8190,13 @@
   "page": null,
   "notes": "Fundación Gloria Kriete - Incubadora Empresarial Programa de incubación para emprendedores sociales en etapa temprana con alto potencial de impacto.Identificación y escalamiento de emprendimientos que cumplen con la triple línea de impacto: económico, social y ambiental.",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/fundaci%C3%B3n-colabora/",
   "nexus": {
@@ -8215,13 +8225,13 @@
   "sector": "private",
   "source": "Mapa de Actores Perú 2026",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/food-and-agriculture-organization-of-the-united-nations",
   "nexus": {
@@ -8249,13 +8259,13 @@
   "sector": "private",
   "source": "Mapa de Actores Perú 2026",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/united-nations-development-programme",
   "nexus": {
@@ -8277,13 +8287,13 @@
   "page": null,
   "notes": "UNEP (Programa de las Naciones Unidas para el Medio Ambiente) Promoción de soluciones basadas en la naturaleza para la adaptación al cambio climático.Proyecto CityAdapt en San Salvador para implementar soluciones basadas en la naturaleza en entornos urbanos.Apoyo en la elaboració",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/unep",
   "nexus": {
@@ -8307,13 +8317,13 @@
   "sector": "private",
   "source": "Mapa de Actores Perú 2026",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/grupo-banco-mundial",
   "nexus": {
@@ -8342,13 +8352,13 @@
    "BOS"
   ],
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/inter-american-development-bank",
   "nexus": {
@@ -8373,13 +8383,13 @@
   "sector": "private",
   "source": "Mapa de Actores Perú 2026",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/global-green-growth-institute",
   "nexus": {
@@ -8402,13 +8412,13 @@
   "page": null,
   "notes": "CEPAL (Comisión Económica para América Latina y el Caribe) Generación de conocimiento y diseño de políticas públicas para la adaptación al cambio climático.Estimación de que El Salvador necesita invertir el 5.3% del PIB anual para enfrentar el impacto climático.Publicaciones sobr",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/cepal",
   "nexus": {
@@ -8430,13 +8440,13 @@
   "page": null,
   "notes": "OIM (Organización Internacional para las Migraciones) Apoyo a comunidades afectadas por desplazamientos debido al cambio climático.Guía de Emprendimiento para la Reintegración Económica en El SalvadorTalleres sobre migración, medio ambiente y cambio climático en coordinación con",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/iom",
   "nexus": {
@@ -8460,13 +8470,13 @@
   "sector": "private",
   "source": "Mapa de Actores Perú 2026",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/gizgmbh",
   "nexus": {
@@ -8489,13 +8499,13 @@
   "page": null,
   "notes": "AECID (Agencia Española de Cooperación Internacional para el Desarrollo). Promoción del desarrollo sostenible y adaptación al cambio climático.Proyecto de transformación productiva del sector avícola hacia procesos sostenibles.Formación para certificación de profesionales en efi",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/aecid/",
   "nexus": {
@@ -8517,13 +8527,13 @@
   "page": null,
   "notes": null,
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/usaid",
   "nexus": {
@@ -8546,13 +8556,13 @@
   "page": null,
   "notes": "CRS (Catholic Relief Services) Apoyo a pequeños productores para mejorar la resiliencia al cambio climático.Proyecto Cosecha Azul para caficultores, promoviendo prácticas agrícolas sostenibles. Alianza con FUSAI para fortalecer a emprendedores y empresarios de la micro y pequeña",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/catholic-relief-services",
   "nexus": {
@@ -8576,13 +8586,14 @@
   "sector": "private",
   "source": "Mapa de Actores Perú 2026",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": 13.707291,
+   "lng": -89.232649,
+   "address": "75 Avenida Norte None, San Salvador, El Salvador",
+   "city": "San Salvador",
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "address",
+   "source_url": "https://san-salvador.diplo.de/sv-es",
+   "office_note": "German Embassy San Salvador"
   },
   "linkedin": "https://www.linkedin.com/company/alemaniaenelsalvador",
   "nexus": {
@@ -8606,13 +8617,13 @@
   "sector": "private",
   "source": "Mapa de Actores Perú 2026",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -8633,13 +8644,13 @@
   "page": null,
   "notes": "Embajada de Alemania Impulso a la sostenibilidad energética y apoyo a comunidades locales.Inauguración de una planta solar en la embajada, avanzando hacia la sostenibilidad energética.Financiamiento de más de 20 proyectos comunitarios en áreas como agua potable, salud y emprendim",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -8660,13 +8671,14 @@
   "page": null,
   "notes": "Embajada de Alemania Impulso a la sostenibilidad energética y apoyo a comunidades locales.Inauguración de una planta solar en la embajada, avanzando hacia la sostenibilidad energética.Financiamiento de más de 20 proyectos comunitarios en áreas como agua potable, salud y emprendim",
   "geo": {
-   "lat": 13.697629,
-   "lng": -89.191156,
-   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
-   "city": "San Salvador Centro",
+   "lat": 13.707291,
+   "lng": -89.232649,
+   "address": "75 Avenida Norte None, San Salvador, El Salvador",
+   "city": "San Salvador",
    "country": "El Salvador",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+   "precision": "address",
+   "source_url": "https://www.sv.emb-japan.go.jp/",
+   "office_note": "Embassy of Japan in El Salvador"
   },
   "nexus": {
    "card_slug": null

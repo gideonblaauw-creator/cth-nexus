@@ -5,6 +5,7 @@ from __future__ import annotations
 import csv
 import json
 import re
+import subprocess
 import sys
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -387,6 +388,9 @@ def main() -> int:
     )
 
     updated, added = merge_into_actors_raw(cards)
+    merge_geo = REPO / "scripts" / "ecosystem" / "merge_geo_from_live.py"
+    if merge_geo.is_file():
+        subprocess.run([sys.executable, str(merge_geo)], cwd=REPO, check=True)
     removed_sites = remove_ecosystem_onepager_artifacts(all_ids, idx["slugs"])
     update_audit(all_ids)
 
