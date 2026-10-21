@@ -6,16 +6,27 @@ Policy: street only when published as a business office on the company site or o
 
 Base: `cursor/location-audit-ef81` (PR #86).
 
-## Precision counts
+## Precision counts (final)
 
-- **address**: 9
-- **city**: 43
+- **address**: 7
+- **city**: 45
 - **country**: 92
 
 **Total rows:** 144
 
+## `possible_duplicate` column
+
+Portfolio grid slug vs `/s/` or accent-variant slug for the same company. **18 rows** flagged (9 pairs), e.g. `istmo-verde` ↔ `istmo-verde-sa`, `linko-workers` ↔ `linko-workers-sas`, `habitat-a-vibe-company` ↔ `habitat-a-vibe-company-sas`, `hunter-tecnologia` ↔ `hunter-tecnología`, `monte-jazmin` ↔ `monte-jazmín`, `moviltronics` ↔ `moviltronics-sas`, `nuevas-tecnologias-fisicoquimicas` ↔ `nuevas-tecnologías-fisicoquímicas`, `simbiotic` ↔ `simbiotic-sas`, `suncolombia` ↔ `suncolombia-sas`.
+
+## Coords policy
+
+- `city` and `country` rows: empty `lat`/`lng`.
+- `address` rows: coords only after street-level Nominatim (structured or free-text). No city-centroid pins.
+- `plasticos-ambientales` and `proplanet-sas`: published street kept, `precision=city` (OSM had no street hit).
+- `linko-workers` / `linko-workers-sas`: structured Nominatim street-level coords.
+
+Street-level coords today: `istmo-verde`, `istmo-verde-sa`, `linko-workers`, `linko-workers-sas`, `novatio`, `two-glass`, `zhana-solutions`.
+
 ## Unknowns / country-only without city (startups)
 
-Portfolio or one-pager entities with no published city (country or program context only): `heliosave-clean-energy`, `hidrobank`, `hydroforge`, `i-can-jump`, `kigui` (country Mexico; metro not verified), `kimsa`, `kleantab`, `labgae`, `lazos.go`, `magmacol`, `melipapp`, `mitsidi`, `moviltronics`, `moviltronics-sas`, `mullblue`, `natoure`, `natupin`, `neo-fibers-sac`, `o&c-sas`, `o2reserve`, `parsons-kinetics`, `plasfacol`, `plastifuel`, `purest-fuels`, `reemade`, `renove.io`, `sanolivar`, `selvamar`, `semillatek`, `siembra-vertical`, `soluciones-ambientales-integrales-sas`, `suncolombia`, `tavi-technology`, `tecnologías-ecológicas-ecotec-sas`, `usalo-app`, `virtualel`, `xiclo`, `ydeas-team-sas`, `zircular`, plus Epic/IMD ideas marked country-only in CSV.
-
-**Coords policy:** `city` and `country` rows always have empty `lat`/`lng` (no centroid pins). `lat`/`lng` appear only on `address` rows where Nominatim returned a street-level hit (`istmo-verde`, `istmo-verde-sa`, `novatio`, `two-glass`, `zhana-solutions`). If a street geocode would fall back to city level, use `precision=city`, keep `street_address` text, and leave coords blank.
+Portfolio or one-pager entities with no published city (country or program context only): see CSV `precision=country` startup rows; Epic/IMD ideas mostly country-only Peru/Colombia.
