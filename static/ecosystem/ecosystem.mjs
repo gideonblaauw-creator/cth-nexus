@@ -770,7 +770,7 @@ function renderInspector(id) {
   const a = byId.get(id);
   if (!a) return;
   el.classList.remove('empty');
-  const cc = countryCode(a.country);
+  const cc = actorCountryCode(a);
   const flag = cc ? COUNTRY_META[cc].flag : '🌎';
   const rels = relations.filter((r) => r.source === id || r.target === id);
   const slug = a.nexus?.card_slug;
@@ -864,7 +864,7 @@ function renderCards(list) {
     return;
   }
   grid.innerHTML = list.map((a) => {
-    const cc = countryCode(a.country);
+    const cc = actorCountryCode(a);
     const flag = cc ? COUNTRY_META[cc].flag : '🌎';
     const relN = degree.get(a.id) || 0;
     const catLabel = tr.cats[a.category] || a.category;
