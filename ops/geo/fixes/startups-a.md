@@ -6,14 +6,20 @@ Portfolio startups: **78** slugs (alphabetical first half of `location-gaps.csv`
 
 | precision | count |
 |-----------|------:|
-| address | 10 |
-| city | 38 |
+| address | 9 |
+| city | 39 |
 | country | 13 |
 | unknown | 17 |
 
+## Coordinate policy
+
+- **`city` / `country` / `unknown`:** `lat` and `lng` are always empty (no city-centroid pins).
+- **`address`:** coordinates only when Nominatim returns a sub-city result (e.g. street/highway/building), not an administrative city boundary.
+- If a published street geocodes only to **city level**, set `precision=city`, **blank** `lat`/`lng`, and **keep** `street_address` (see `entopro`).
+
 ## Address geocoding
 
-Street rows geocoded via [Nominatim](https://nominatim.openstreetmap.org/) (1 req/s). No coordinates returned for rural or unmatched streets: `ciclorgánicos-(bio-abonos-gaia)`, `entopro`.
+Street rows geocoded via [Nominatim](https://nominatim.openstreetmap.org/) (1 req/s). Address precision without coordinates: `ciclorgánicos-(bio-abonos-gaia)` (rural finca; no street-level hit).
 
 ## Unknowns / missing source_url
 
