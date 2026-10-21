@@ -74,26 +74,67 @@
   const CAT = {
     startup: '#e87722', accelerator: '#669348', funder: '#0c498a', government: '#6b4c9a',
     academia: '#2a9d8f', corporate: '#457b9d', international: '#f4a261', finance: '#264653',
-    ngo_foundation: '#e76f51', chamber: '#8d99ae', media: '#bc6c25', default: '#5a7088',
+    ngo_foundation: '#e76f51', chamber: '#8d99ae', media: '#bc6c25', policy: '#7c3aed', default: '#5a7088',
   };
   const CAT_LABEL = {
     startup: 'Startup', accelerator: 'Aceleradora', funder: 'Fondo', government: 'Gobierno',
     academia: 'Academia', corporate: 'Corporativo', international: 'Internacional', finance: 'Finanzas',
-    ngo_foundation: 'ONG', chamber: 'Cámara', media: 'Medios',
+    ngo_foundation: 'ONG', chamber: 'Cámara', media: 'Medios', policy: 'Política',
   };
   const EDGE = {
     works_on_challenge: '#2a9d8f', hosts: '#669348', runs_program: '#6b4c9a', cofunds: '#264653',
     funds_layer: '#0c498a', regulates_layer: '#6b4c9a', partner: '#e87722', incubated: '#e87722',
     accelerated: '#e87722', part_of_group: '#457b9d', participates: '#8d99ae', owns: '#264653',
     created: '#5a7088', runs_initiative: '#6b4c9a', part_of_network: '#457b9d', oversees: '#6b4c9a',
+    issues_policy: '#6b4c9a', addresses_challenge: '#059669',
     default: '#94a3b8',
+  };
+  const POLICY_ANCHORS = {
+    Colombia: { lat: 4.711, lng: -74.0721 },
+    Peru: { lat: -12.0464, lng: -77.0428 },
+    'El Salvador': { lat: 13.6929, lng: -89.2182 },
+    Guatemala: { lat: 14.6349, lng: -90.5069 },
+    'Costa Rica': { lat: 9.9281, lng: -84.0907 },
   };
   const HUB_DEFAULT = 'pe-emprende-up-climatech-rein-hub-peru';
 
-  const [actors, relations] = await Promise.all([
+  const [actorsBase, relationsBase, policies, policyRels] = await Promise.all([
     fetch('../shared/actors-geo.json').then(r => r.json()),
     fetch('../shared/relations.json').then(r => r.json()),
+    fetch('../data/policies.json').then(r => r.json()).catch(() => []),
+    fetch('../policy_relations.json').then(r => r.json()).catch(() => []),
   ]);
+  function policyGeo(p, idx) {
+    const base = POLICY_ANCHORS[p.country] || { lat: -15, lng: -60 };
+    const h = (p.id.charCodeAt(7) + idx * 17) % 100;
+    return { lat: base.lat + (h % 10) * 0.08 - 0.35, lng: base.lng + (h % 7) * 0.11 - 0.3 };
+  }
+  const policyActors = (policies || []).map((p, idx) => {
+    const geo = policyGeo(p, idx);
+    return {
+      id: p.id,
+      name: p.name,
+      type: 'Policy',
+      category: 'policy',
+      country: p.country,
+      geo,
+      notes: `${p.instrument} · ${p.year} · ${(p.sectors || []).join(', ')}`,
+      meta: { instrument: p.instrument, year: p.year, sectors: p.sectors, status: p.status, source_url: p.source_url },
+    };
+  });
+  const actors = [...actorsBase, ...policyActors];
+  const relations = [
+    ...relationsBase,
+    ...(policyRels || []).map(r => ({
+      source: r.source,
+      target: r.target,
+      type: r.type,
+      suggested: !!r.suggested,
+      verified: r.verified !== false,
+      source_url: r.source_url,
+      notes: r.notes || '',
+    })),
+  ];
   const byId = new Map(actors.map(a => [a.id, a]));
   const Guide = window.NexusGuide;
   const gapCounts = Guide.computeGapCounts(relations, byId);
@@ -161,6 +202,7 @@
 
   function colorForKind(id, a) {
     if (Guide.isChallengeId(id)) return '#2a9d8f';
+    if (Guide.isPolicyId && Guide.isPolicyId(id)) return CAT.policy;
     if (!a) return CAT.default;
     return CAT[a.category] || CAT.default;
   }
@@ -247,6 +289,9 @@
       { selector: 'node[kind = "challenge"]', style: {
         shape: 'diamond', 'background-color': '#2a9d8f', 'border-width': 2, 'border-color': '#0c498a',
       }},
+      { selector: 'node[kind = "policy"]', style: {
+        shape: 'round-rectangle', 'background-color': '#7c3aed', 'border-width': 2, 'border-color': '#4c1d95',
+      }},
       { selector: 'edge', style: {
         width: 'data(width)', 'line-color': 'data(color)', 'target-arrow-color': 'data(color)',
         'target-arrow-shape': 'triangle', 'curve-style': 'bezier', opacity: 0.85,
@@ -292,8 +337,11 @@
       vis.add(r.source);
       vis.add(r.target);
     });
-    if (ch.id === 'challenges') {
-      chRels.forEach(r => vis.add(r.target));
+    if (ch.id === 'challenges' || ch.id === 'policy') {
+      chRels.forEach(r => {
+        vis.add(r.target);
+        vis.add(r.source);
+      });
     }
     const nodes = [];
     const edges = [];
@@ -310,20 +358,27 @@
       const a = byId.get(id);
       if (!a) return;
       const p = graphXY(a);
+      const isPol = Guide.isPolicyId(id);
       nodes.push({
         data: {
           id, label: a.name.length > 22 ? a.name.slice(0, 20) + '…' : a.name,
-          size: Math.max(8, sizeFor(id)), color: colorForKind(id, a), kind: 'org', shape: 'ellipse',
+          size: isPol ? 14 : Math.max(8, sizeFor(id)),
+          color: colorForKind(id, a),
+          kind: isPol ? 'policy' : 'org',
+          shape: isPol ? 'round-rectangle' : 'ellipse',
         },
         position: { x: p.x, y: p.y },
       });
     });
     chRels.forEach((r, i) => {
       if (!vis.has(r.source) || !vis.has(r.target)) return;
+      const sug = r.suggested ? 'yes' : 'no';
       edges.push({
         data: {
           id: 'e' + i, source: r.source, target: r.target, type: r.type,
-          color: EDGE[r.type] || EDGE.default, width: 2, suggested: 'no', lineStyle: 'solid', edgeLabel: '',
+          color: r.suggested ? '#f97316' : (EDGE[r.type] || EDGE.default),
+          width: 2, suggested: sug, lineStyle: r.suggested ? 'dashed' : 'solid',
+          edgeLabel: r.suggested ? 'Suggested' : '',
         },
       });
     });

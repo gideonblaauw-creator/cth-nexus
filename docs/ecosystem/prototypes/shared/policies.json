@@ -1,0 +1,832 @@
+[
+ {
+  "id": "policy:pe-ley-30754-cc",
+  "type": "Policy",
+  "name": "Ley N.° 30754 — Ley Marco sobre Cambio Climático",
+  "country": "Peru",
+  "instrument_type": "law",
+  "year": 2018,
+  "sectors": [
+   "cross-cutting",
+   "energy",
+   "bosques",
+   "agua"
+  ],
+  "status": "in_force",
+  "source_url": "https://climate-laws.org/document/framework-law-no-30754-on-climate-change_688f",
+  "geo": {
+   "lat": -12.21,
+   "lng": -77.28
+  }
+ },
+ {
+  "id": "policy:pe-ds-012-2024-encc",
+  "type": "Policy",
+  "name": "DS N.° 012-2024-MINAM — Estrategia Nacional ante el CC al 2050",
+  "country": "Peru",
+  "instrument_type": "strategy",
+  "year": 2024,
+  "sectors": [
+   "cross-cutting",
+   "energy",
+   "agriculture",
+   "bosques"
+  ],
+  "status": "in_force",
+  "source_url": "https://climate-laws.org/document/supreme-decree-no-012-2024-minam-approves-the-national-policy-national-strategy-for-climate-change-to-2050-decreto-supremo-ndeg-012-2024-minam-aprueba-la-politica-nacional-estrategia-nacional-ante-el-cambio-climatico-al-2050_58d6",
+  "geo": {
+   "lat": -12.13,
+   "lng": -77.28
+  }
+ },
+ {
+  "id": "policy:pe-ley-29763-forestal",
+  "type": "Policy",
+  "name": "Ley N.° 29763 — Ley Forestal y de Fauna Silvestre",
+  "country": "Peru",
+  "instrument_type": "law",
+  "year": 2011,
+  "sectors": [
+   "bosques"
+  ],
+  "status": "in_force",
+  "source_url": "https://climate-laws.org/document/law-no-29763-forestry-and-wildlife-law-ley-no-29763-ley-forestal-y-de-fauna-silvestre_ecb8",
+  "geo": {
+   "lat": -12.05,
+   "lng": -77.28
+  }
+ },
+ {
+  "id": "policy:pe-ley-29338-agua",
+  "type": "Policy",
+  "name": "Ley N.° 29338 — Ley de Recursos Hídricos",
+  "country": "Peru",
+  "instrument_type": "law",
+  "year": 2009,
+  "sectors": [
+   "agua"
+  ],
+  "status": "in_force",
+  "source_url": "https://sinia.minam.gob.pe/normas/ley-recursos-hidricos-0",
+  "geo": {
+   "lat": -11.97,
+   "lng": -77.28
+  }
+ },
+ {
+  "id": "policy:pe-ley-28832-rer",
+  "type": "Policy",
+  "name": "Ley N.° 28832 — Promoción de inversiones para generación eléctrica con RER",
+  "country": "Peru",
+  "instrument_type": "law",
+  "year": 2006,
+  "sectors": [
+   "energy"
+  ],
+  "status": "in_force",
+  "source_url": "https://www.gob.pe/institucion/minem/normas-legales/2856-28832",
+  "geo": {
+   "lat": -11.89,
+   "lng": -77.28
+  }
+ },
+ {
+  "id": "policy:pe-ndc-2020",
+  "type": "Policy",
+  "name": "NDC del Perú — actualización 2020 (2030)",
+  "country": "Peru",
+  "instrument_type": "NDC",
+  "year": 2020,
+  "sectors": [
+   "cross-cutting",
+   "energy",
+   "bosques",
+   "agua"
+  ],
+  "status": "in_force",
+  "source_url": "https://cdn.www.gob.pe/uploads/document/file/1675213/Actualizaci%C3%B3n%20de%20las%20NDC%20del%20Per%C3%BA%20al%202030.pdf?v=1663622045",
+  "geo": {
+   "lat": -12.21,
+   "lng": -77.16
+  }
+ },
+ {
+  "id": "policy:pe-ds-013-2019-reglamento-cc",
+  "type": "Policy",
+  "name": "DS N.° 013-2019-MINAM — Reglamento Ley 30754",
+  "country": "Peru",
+  "instrument_type": "regulation",
+  "year": 2019,
+  "sectors": [
+   "cross-cutting"
+  ],
+  "status": "in_force",
+  "source_url": "https://climate-laws.org/document/supreme-decree-no-013-2019-minam-approving-the-regulation-of-law-no-30754-framework-law-on-climate-change_0d0a",
+  "geo": {
+   "lat": -12.13,
+   "lng": -77.16
+  }
+ },
+ {
+  "id": "policy:pe-marco-bonos-verdes",
+  "type": "Policy",
+  "name": "Marco para Bonos Verdes del Perú (MINAM)",
+  "country": "Peru",
+  "instrument_type": "strategy",
+  "year": 2019,
+  "sectors": [
+   "finance",
+   "bosques",
+   "energy"
+  ],
+  "status": "in_force",
+  "source_url": "https://www.gob.pe/institucion/minam/informes-publicaciones/178421-marco-para-bonos-verdes",
+  "geo": {
+   "lat": -12.05,
+   "lng": -77.16
+  }
+ },
+ {
+  "id": "policy:pe-proinnovate-clima",
+  "type": "Policy",
+  "name": "StartUp Perú — línea Incubadoras en Cambio Climático",
+  "country": "Peru",
+  "instrument_type": "incentive",
+  "year": 2022,
+  "sectors": [
+   "cross-cutting",
+   "energy",
+   "agua",
+   "bosques"
+  ],
+  "status": "in_force",
+  "source_url": "https://www.gob.pe/proinnovate",
+  "geo": {
+   "lat": -11.97,
+   "lng": -77.16
+  }
+ },
+ {
+  "id": "policy:pe-programa-bosques-norma",
+  "type": "Policy",
+  "name": "Programa Bosques — financiamiento REDD+ (MINAM)",
+  "country": "Peru",
+  "instrument_type": "incentive",
+  "year": 2016,
+  "sectors": [
+   "bosques"
+  ],
+  "status": "in_force",
+  "source_url": "https://www.gob.pe/institucion/minam/informes-publicaciones/178421-programa-bosques",
+  "geo": {
+   "lat": -11.89,
+   "lng": -77.16
+  }
+ },
+ {
+  "id": "policy:pe-ley-28611-ambiental",
+  "type": "Policy",
+  "name": "Ley N.° 28611 — Ley General del Ambiente",
+  "country": "Peru",
+  "instrument_type": "law",
+  "year": 2005,
+  "sectors": [
+   "cross-cutting",
+   "agua",
+   "bosques"
+  ],
+  "status": "in_force",
+  "source_url": "https://www.gob.pe/institucion/congreso-de-la-republica/normas-legales/3580-28611",
+  "geo": {
+   "lat": -12.21,
+   "lng": -77.04
+  }
+ },
+ {
+  "id": "policy:pe-plan-mitigacion-2023",
+  "type": "Policy",
+  "name": "Plan Nacional de Mitigación de Gases de Efecto Invernadero",
+  "country": "Peru",
+  "instrument_type": "strategy",
+  "year": 2023,
+  "sectors": [
+   "energy",
+   "transport",
+   "agriculture"
+  ],
+  "status": "in_force",
+  "source_url": "https://www.gob.pe/institucion/minam/informes-publicaciones/244041-plan-nacional-de-mitigacion-de-gases-de-efecto-invernadero",
+  "geo": {
+   "lat": -12.13,
+   "lng": -77.04
+  }
+ },
+ {
+  "id": "policy:co-taxonomia-verde",
+  "type": "Policy",
+  "name": "Taxonomía Verde de Colombia (Circular Externa 005/2022)",
+  "country": "Colombia",
+  "instrument_type": "taxonomy",
+  "year": 2022,
+  "sectors": [
+   "finance",
+   "energy",
+   "bosques",
+   "agua"
+  ],
+  "status": "in_force",
+  "source_url": "https://www.taxonomiaverde.gov.co/documents/d/taxonomia-verde/circular_externa_005_de_2022",
+  "geo": {
+   "lat": 4.55,
+   "lng": -74.30999999999999
+  }
+ },
+ {
+  "id": "policy:co-ley-2099-transicion",
+  "type": "Policy",
+  "name": "Ley 2099/2021 — Transición energética y reactivación",
+  "country": "Colombia",
+  "instrument_type": "law",
+  "year": 2021,
+  "sectors": [
+   "energy"
+  ],
+  "status": "in_force",
+  "source_url": "https://climatepolicydatabase.org/policies/law-2099-energy-transition-and-economic-reactivation",
+  "geo": {
+   "lat": 4.63,
+   "lng": -74.30999999999999
+  }
+ },
+ {
+  "id": "policy:co-ley-1715-rer",
+  "type": "Policy",
+  "name": "Ley 1715/2014 — FNCER (renovables no convencionales)",
+  "country": "Colombia",
+  "instrument_type": "law",
+  "year": 2014,
+  "sectors": [
+   "energy"
+  ],
+  "status": "in_force",
+  "source_url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=57353",
+  "geo": {
+   "lat": 4.71,
+   "lng": -74.30999999999999
+  }
+ },
+ {
+  "id": "policy:co-ley-1931-adaptacion",
+  "type": "Policy",
+  "name": "Ley 1931/2018 — Gestión del riesgo de desastres y CC",
+  "country": "Colombia",
+  "instrument_type": "law",
+  "year": 2018,
+  "sectors": [
+   "cross-cutting",
+   "agua"
+  ],
+  "status": "in_force",
+  "source_url": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1931_2018.htm",
+  "geo": {
+   "lat": 4.79,
+   "lng": -74.30999999999999
+  }
+ },
+ {
+  "id": "policy:co-ndc-2020",
+  "type": "Policy",
+  "name": "NDC de Colombia — actualización 2020",
+  "country": "Colombia",
+  "instrument_type": "NDC",
+  "year": 2020,
+  "sectors": [
+   "cross-cutting",
+   "energy",
+   "bosques"
+  ],
+  "status": "in_force",
+  "source_url": "https://unfccc.int/sites/default/files/NDC/2022-06/Colombia%20Updated%20NDC%202020.pdf",
+  "geo": {
+   "lat": 4.87,
+   "lng": -74.30999999999999
+  }
+ },
+ {
+  "id": "policy:co-plan-nacional-adaptacion",
+  "type": "Policy",
+  "name": "Plan Nacional de Adaptación al Cambio Climático (PNACC)",
+  "country": "Colombia",
+  "instrument_type": "strategy",
+  "year": 2017,
+  "sectors": [
+   "agua",
+   "agriculture",
+   "cross-cutting"
+  ],
+  "status": "in_force",
+  "source_url": "https://www.minambiente.gov.co/wp-content/uploads/2021/10/plan-nacional-de-adaptacion-al-cambio-climatico.pdf",
+  "geo": {
+   "lat": 4.55,
+   "lng": -74.18999999999998
+  }
+ },
+ {
+  "id": "policy:co-ley-2169-carbono",
+  "type": "Policy",
+  "name": "Ley 2169/2021 — Gestión del cambio climático",
+  "country": "Colombia",
+  "instrument_type": "law",
+  "year": 2021,
+  "sectors": [
+   "cross-cutting",
+   "energy"
+  ],
+  "status": "in_force",
+  "source_url": "https://climate-laws.org/document/law-2169-2021-promoting-low-carbon-development-last-amended-by-law-2294-2023_8496",
+  "geo": {
+   "lat": 4.63,
+   "lng": -74.18999999999998
+  }
+ },
+ {
+  "id": "policy:co-fenoge",
+  "type": "Policy",
+  "name": "FENOGE — Fondo de Energías No Convencionales y GEE",
+  "country": "Colombia",
+  "instrument_type": "incentive",
+  "year": 2014,
+  "sectors": [
+   "energy"
+  ],
+  "status": "in_force",
+  "source_url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=57353",
+  "geo": {
+   "lat": 4.71,
+   "lng": -74.18999999999998
+  }
+ },
+ {
+  "id": "policy:co-ipse-rural",
+  "type": "Policy",
+  "name": "Plan IPSE — acceso energético ZNI (Decreto 2234/2023)",
+  "country": "Colombia",
+  "instrument_type": "strategy",
+  "year": 2023,
+  "sectors": [
+   "energy"
+  ],
+  "status": "in_force",
+  "source_url": "https://www.minenergia.gov.co/documents/10192/0/Plan+IPSE+2023-2026.pdf",
+  "geo": {
+   "lat": 4.79,
+   "lng": -74.18999999999998
+  }
+ },
+ {
+  "id": "policy:co-contribucion-carbono",
+  "type": "Policy",
+  "name": "Contribución nacionalmente determinada — carbono neutralidad 2050",
+  "country": "Colombia",
+  "instrument_type": "strategy",
+  "year": 2021,
+  "sectors": [
+   "cross-cutting"
+  ],
+  "status": "in_force",
+  "source_url": "https://www.minambiente.gov.co/cambio-climatico-y-gestion-del-riesgo/",
+  "geo": {
+   "lat": 4.87,
+   "lng": -74.18999999999998
+  }
+ },
+ {
+  "id": "policy:sv-ndc-2022",
+  "type": "Policy",
+  "name": "NDC de El Salvador — actualización 2022",
+  "country": "El Salvador",
+  "instrument_type": "NDC",
+  "year": 2022,
+  "sectors": [
+   "cross-cutting",
+   "energy",
+   "agua"
+  ],
+  "status": "in_force",
+  "source_url": "https://unfccc.int/sites/default/files/NDC/2022-01/El%20Salvador%20First%20NDC%20%28Updated%20submission%29.pdf",
+  "geo": {
+   "lat": 13.53,
+   "lng": -89.42999999999999
+  }
+ },
+ {
+  "id": "policy:sv-ley-medio-ambiente",
+  "type": "Policy",
+  "name": "Decreto Legislativo N.° 233 — Ley del Medio Ambiente",
+  "country": "El Salvador",
+  "instrument_type": "law",
+  "year": 1998,
+  "sectors": [
+   "cross-cutting",
+   "agua",
+   "bosques"
+  ],
+  "status": "in_force",
+  "source_url": "https://www.transparencia.gob.sv/institutions/marn/documents/285566/download",
+  "geo": {
+   "lat": 13.61,
+   "lng": -89.42999999999999
+  }
+ },
+ {
+  "id": "policy:sv-plan-nacional-cc",
+  "type": "Policy",
+  "name": "Plan Nacional de Cambio Climático (2012–2027)",
+  "country": "El Salvador",
+  "instrument_type": "strategy",
+  "year": 2012,
+  "sectors": [
+   "cross-cutting"
+  ],
+  "status": "in_force",
+  "source_url": "https://unfccc.int/sites/default/files/resource/El%20Salvador%20NC3%20Executive%20Summary%20Spanish.pdf",
+  "geo": {
+   "lat": 13.69,
+   "lng": -89.42999999999999
+  }
+ },
+ {
+  "id": "policy:sv-politica-ambiental",
+  "type": "Policy",
+  "name": "Política Nacional del Medio Ambiente",
+  "country": "El Salvador",
+  "instrument_type": "strategy",
+  "year": 2012,
+  "sectors": [
+   "cross-cutting"
+  ],
+  "status": "in_force",
+  "source_url": "https://www.rree.gob.sv/wp-content/uploads/2016/03/Politica-Nacional-del-Medio-Ambiente.pdf",
+  "geo": {
+   "lat": 13.77,
+   "lng": -89.42999999999999
+  }
+ },
+ {
+  "id": "policy:sv-ley-energia-renovable",
+  "type": "Policy",
+  "name": "Ley de Fomento y Desarrollo de las Energías Renovables",
+  "country": "El Salvador",
+  "instrument_type": "law",
+  "year": 2007,
+  "sectors": [
+   "energy"
+  ],
+  "status": "in_force",
+  "source_url": "https://www.osarlaft.gob.sv/wp-content/uploads/2017/05/Ley-de-Fomento-y-Desarrollo-de-las-Energias-Renovables.pdf",
+  "geo": {
+   "lat": 13.85,
+   "lng": -89.42999999999999
+  }
+ },
+ {
+  "id": "policy:sv-conamype-semilla",
+  "type": "Policy",
+  "name": "CONAMYPE — capital semilla y emprendimiento verde",
+  "country": "El Salvador",
+  "instrument_type": "incentive",
+  "year": 2020,
+  "sectors": [
+   "cross-cutting",
+   "energy",
+   "agriculture"
+  ],
+  "status": "in_force",
+  "source_url": "https://www.conamype.gob.sv/",
+  "geo": {
+   "lat": 13.53,
+   "lng": -89.30999999999999
+  }
+ },
+ {
+  "id": "policy:sv-fideagro",
+  "type": "Policy",
+  "name": "FIDEAGRO — financiamiento agropecuario (MAG)",
+  "country": "El Salvador",
+  "instrument_type": "incentive",
+  "year": 2010,
+  "sectors": [
+   "agriculture"
+  ],
+  "status": "in_force",
+  "source_url": "https://www.mag.gob.sv/fideagro/",
+  "geo": {
+   "lat": 13.61,
+   "lng": -89.30999999999999
+  }
+ },
+ {
+  "id": "policy:sv-estrategia-residuos",
+  "type": "Policy",
+  "name": "Estrategia Nacional de Residuos Sólidos",
+  "country": "El Salvador",
+  "instrument_type": "strategy",
+  "year": 2018,
+  "sectors": [
+   "residuos",
+   "cross-cutting"
+  ],
+  "status": "in_force",
+  "source_url": "https://www.marn.gob.sv/",
+  "geo": {
+   "lat": 13.69,
+   "lng": -89.30999999999999
+  }
+ },
+ {
+  "id": "policy:gt-ndc-2022",
+  "type": "Policy",
+  "name": "NDC de Guatemala — actualización 2022",
+  "country": "Guatemala",
+  "instrument_type": "NDC",
+  "year": 2022,
+  "sectors": [
+   "cross-cutting",
+   "energy",
+   "bosques",
+   "agua"
+  ],
+  "status": "in_force",
+  "source_url": "https://unfccc.int/sites/default/files/NDC/2022-06/GTM_NDC%20Actualizada%202022.pdf",
+  "geo": {
+   "lat": 14.47,
+   "lng": -90.75
+  }
+ },
+ {
+  "id": "policy:gt-politica-energia",
+  "type": "Policy",
+  "name": "Política Nacional de Energía 2013–2032",
+  "country": "Guatemala",
+  "instrument_type": "strategy",
+  "year": 2013,
+  "sectors": [
+   "energy"
+  ],
+  "status": "in_force",
+  "source_url": "https://www.mineco.gob.gt/sites/default/files/Politica_Nacional_de_Energia_2013-2032.pdf",
+  "geo": {
+   "lat": 14.55,
+   "lng": -90.75
+  }
+ },
+ {
+  "id": "policy:gt-ley-incentivo-rer",
+  "type": "Policy",
+  "name": "Ley de Incentivo para el Desarrollo de Proyectos de RER",
+  "country": "Guatemala",
+  "instrument_type": "law",
+  "year": 2003,
+  "sectors": [
+   "energy"
+  ],
+  "status": "in_force",
+  "source_url": "https://www.pgn.gob.gt/wp-content/uploads/2015/12/Decreto-52-2003-Ley-de-Incentivo-para-el-Desarrollo-de-Proyectos-de-Energia-Renovable.pdf",
+  "geo": {
+   "lat": 14.63,
+   "lng": -90.75
+  }
+ },
+ {
+  "id": "policy:gt-plan-clima",
+  "type": "Policy",
+  "name": "Plan Nacional de Acción frente al Cambio Climático (PANCC)",
+  "country": "Guatemala",
+  "instrument_type": "strategy",
+  "year": 2016,
+  "sectors": [
+   "cross-cutting",
+   "agua",
+   "agriculture"
+  ],
+  "status": "in_force",
+  "source_url": "https://unfccc.int/sites/default/files/resource/GTM_PANCC_2016.pdf",
+  "geo": {
+   "lat": 14.71,
+   "lng": -90.75
+  }
+ },
+ {
+  "id": "policy:gt-ley-proteccion-bosques",
+  "type": "Policy",
+  "name": "Ley de Protección y Manejo de Bosques",
+  "country": "Guatemala",
+  "instrument_type": "law",
+  "year": 1996,
+  "sectors": [
+   "bosques"
+  ],
+  "status": "in_force",
+  "source_url": "https://www.conap.gob.gt/wp-content/uploads/2021/03/Ley-de-Proteccion-y-Manejo-de-Bosques.pdf",
+  "geo": {
+   "lat": 14.790000000000001,
+   "lng": -90.75
+  }
+ },
+ {
+  "id": "policy:gt-politica-agua",
+  "type": "Policy",
+  "name": "Política Nacional de Recursos Hídricos",
+  "country": "Guatemala",
+  "instrument_type": "strategy",
+  "year": 2009,
+  "sectors": [
+   "agua"
+  ],
+  "status": "in_force",
+  "source_url": "https://www.marn.gob.gt/wp-content/uploads/2015/09/Politica-Nacional-de-Recursos-Hidricos.pdf",
+  "geo": {
+   "lat": 14.47,
+   "lng": -90.63
+  }
+ },
+ {
+  "id": "policy:gt-taxonomia-sostenible",
+  "type": "Policy",
+  "name": "Taxonomía Sostenible de Guatemala (borrador/BID)",
+  "country": "Guatemala",
+  "instrument_type": "taxonomy",
+  "year": 2023,
+  "sectors": [
+   "finance",
+   "energy"
+  ],
+  "status": "proposed",
+  "source_url": "https://www.iadb.org/en/news/guatemala-will-advance-its-sustainable-taxonomy",
+  "geo": {
+   "lat": 14.55,
+   "lng": -90.63
+  }
+ },
+ {
+  "id": "policy:gt-incentivo-biocombustibles",
+  "type": "Policy",
+  "name": "Incentivos fiscales biocombustibles (Ley 17-85 reformas)",
+  "country": "Guatemala",
+  "instrument_type": "tax",
+  "year": 2005,
+  "sectors": [
+   "energy",
+   "agriculture"
+  ],
+  "status": "in_force",
+  "source_url": "https://climatepolicydatabase.org/policies/guatemala-biofuels-incentive-law",
+  "geo": {
+   "lat": 14.63,
+   "lng": -90.63
+  }
+ },
+ {
+  "id": "policy:cr-ndc-2020",
+  "type": "Policy",
+  "name": "NDC de Costa Rica — actualización 2020",
+  "country": "Costa Rica",
+  "instrument_type": "NDC",
+  "year": 2020,
+  "sectors": [
+   "cross-cutting",
+   "energy",
+   "transport"
+  ],
+  "status": "in_force",
+  "source_url": "https://unfccc.int/sites/default/files/NDC/2021-01/Costa_Rica%20Updated%20NDC%202020.pdf",
+  "geo": {
+   "lat": 9.77,
+   "lng": -84.33
+  }
+ },
+ {
+  "id": "policy:cr-plan-descarbonizacion",
+  "type": "Policy",
+  "name": "Plan Nacional de Descarbonización 2018–2050",
+  "country": "Costa Rica",
+  "instrument_type": "strategy",
+  "year": 2018,
+  "sectors": [
+   "cross-cutting",
+   "energy",
+   "transport"
+  ],
+  "status": "in_force",
+  "source_url": "https://climate-laws.org/document/decarbonisation-plan_856a",
+  "geo": {
+   "lat": 9.85,
+   "lng": -84.33
+  }
+ },
+ {
+  "id": "policy:cr-plan-descarbonizacion-pdf",
+  "type": "Policy",
+  "name": "Plan Nacional de Descarbonización (documento oficial)",
+  "country": "Costa Rica",
+  "instrument_type": "strategy",
+  "year": 2019,
+  "sectors": [
+   "cross-cutting"
+  ],
+  "status": "in_force",
+  "source_url": "https://unfccc.int/sites/default/files/resource/NationalDecarbonizationPlan.pdf",
+  "geo": {
+   "lat": 9.93,
+   "lng": -84.33
+  }
+ },
+ {
+  "id": "policy:cr-ley-7200-electricidad",
+  "type": "Policy",
+  "name": "Ley N.° 7200 — Servicio Público de Electricidad (marco)",
+  "country": "Costa Rica",
+  "instrument_type": "law",
+  "year": 1990,
+  "sectors": [
+   "energy"
+  ],
+  "status": "in_force",
+  "source_url": "https://www.pgrweb.go.cr/scij/Busqueda/Normativa/Normas/nrm_texto_completo.aspx?nValor1=1&nValor2=1990&nValor3=7200",
+  "geo": {
+   "lat": 10.01,
+   "lng": -84.33
+  }
+ },
+ {
+  "id": "policy:cr-ley-gestion-residuos",
+  "type": "Policy",
+  "name": "Ley N.° 8839 — Gestión Integral de Residuos",
+  "country": "Costa Rica",
+  "instrument_type": "law",
+  "year": 2010,
+  "sectors": [
+   "residuos"
+  ],
+  "status": "in_force",
+  "source_url": "https://www.pgrweb.go.cr/scij/Busqueda/Normativa/Normas/nrm_texto_completo.aspx?nValor1=1&nValor2=2010&nValor3=8839",
+  "geo": {
+   "lat": 10.09,
+   "lng": -84.33
+  }
+ },
+ {
+  "id": "policy:cr-banco-nacional-biodiversidad",
+  "type": "Policy",
+  "name": "Banco Nacional de Biodiversidad (Ley 10401)",
+  "country": "Costa Rica",
+  "instrument_type": "law",
+  "year": 2024,
+  "sectors": [
+   "bosques",
+   "finance"
+  ],
+  "status": "in_force",
+  "source_url": "https://www.pgrweb.go.cr/scij/Busqueda/Normativa/Normas/nrm_texto_completo.aspx?nValor1=1&nValor2=2024&nValor3=10401",
+  "geo": {
+   "lat": 9.77,
+   "lng": -84.21
+  }
+ },
+ {
+  "id": "policy:cr-incentivos-rer-pyme",
+  "type": "Policy",
+  "name": "Incentivos tarifarios RER para autoproductores (ARESEP)",
+  "country": "Costa Rica",
+  "instrument_type": "incentive",
+  "year": 2015,
+  "sectors": [
+   "energy"
+  ],
+  "status": "in_force",
+  "source_url": "https://www.aresep.go.cr/Generacion_distribuida/",
+  "geo": {
+   "lat": 9.85,
+   "lng": -84.21
+  }
+ },
+ {
+  "id": "policy:cr-plan-adaptacion",
+  "type": "Policy",
+  "name": "Plan Nacional de Adaptación (PNA)",
+  "country": "Costa Rica",
+  "instrument_type": "strategy",
+  "year": 2014,
+  "sectors": [
+   "agua",
+   "agriculture",
+   "cross-cutting"
+  ],
+  "status": "in_force",
+  "source_url": "https://cambioclimatico.go.cr/pna/",
+  "geo": {
+   "lat": 9.93,
+   "lng": -84.21
+  }
+ }
+]

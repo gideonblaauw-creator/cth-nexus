@@ -1,0 +1,592 @@
+[
+ {
+  "source": "pe-unalm-universidad-nacional-agraria-la-molina",
+  "target": "pe-incubagraria-unalm",
+  "type": "hosts",
+  "notes": null
+ },
+ {
+  "source": "pe-pucp-pontificia-universidad-catolica-del-peru",
+  "target": "pe-nexum-pucp",
+  "type": "hosts",
+  "notes": null
+ },
+ {
+  "source": "pe-universidad-del-pacifico",
+  "target": "pe-emprende-up-climatech-rein-hub-peru",
+  "type": "hosts",
+  "notes": null
+ },
+ {
+  "source": "pe-utec-universidad-de-ingenieria-y-tecnologia",
+  "target": "pe-utec-ventures",
+  "type": "hosts",
+  "notes": null
+ },
+ {
+  "source": "pe-universidad-peruana-cayetano-heredia",
+  "target": "pe-bioincuba-upch",
+  "type": "hosts",
+  "notes": null
+ },
+ {
+  "source": "pe-unmsm-universidad-nacional-mayor-de-san-marcos",
+  "target": "pe-1551-unmsm",
+  "type": "hosts",
+  "notes": null
+ },
+ {
+  "source": "pe-unsm-universidad-nacional-de-san-martin",
+  "target": "pe-incubadora-unsm-san-martin",
+  "type": "hosts",
+  "notes": null
+ },
+ {
+  "source": "pe-unu-universidad-nacional-de-ucayali",
+  "target": "pe-incuba-amazonia-unu",
+  "type": "hosts",
+  "notes": null
+ },
+ {
+  "source": "pe-unia-universidad-nacional-intercultural-de-la-amaz",
+  "target": "pe-incubadora-unia-ucayali",
+  "type": "hosts",
+  "notes": null
+ },
+ {
+  "source": "pe-emprende-up-climatech-rein-hub-peru",
+  "target": "pe-pvblic-foundation",
+  "type": "partner",
+  "notes": "REIN Hub Perú (with CleantechHUB)"
+ },
+ {
+  "source": "pe-emprende-up-climatech-rein-hub-peru",
+  "target": "pe-cleantechhub",
+  "type": "partner",
+  "notes": "REIN Hub Perú"
+ },
+ {
+  "source": "pe-produce-ministerio-de-la-produccion",
+  "target": "pe-proinnovate-startup-peru",
+  "type": "runs_program",
+  "notes": null
+ },
+ {
+  "source": "pe-proinnovate-startup-peru",
+  "target": "pe-emprende-up-climatech-rein-hub-peru",
+  "type": "cofunds",
+  "notes": "Incubadoras en Cambio Climático, up to S/500k"
+ },
+ {
+  "source": "pe-proinnovate-startup-peru",
+  "target": "pe-incubagraria-unalm",
+  "type": "cofunds",
+  "notes": "Incubadoras en Cambio Climático, up to S/500k"
+ },
+ {
+  "source": "pe-proinnovate-startup-peru",
+  "target": "pe-nexum-pucp",
+  "type": "cofunds",
+  "notes": "Incubadoras en Cambio Climático, up to S/500k"
+ },
+ {
+  "source": "pe-proinnovate-startup-peru",
+  "target": "pe-usil-ventures",
+  "type": "cofunds",
+  "notes": "Incubadoras en Cambio Climático, up to S/500k"
+ },
+ {
+  "source": "pe-nexum-pucp",
+  "target": "pe-rebike-up",
+  "type": "incubated",
+  "notes": "StartUp Perú – Cambio Climático winner"
+ },
+ {
+  "source": "pe-emprende-up-climatech-rein-hub-peru",
+  "target": "pe-black-soldier-fly-logistics",
+  "type": "incubated",
+  "notes": "REIN Hub Perú / ClimateLaunchpad Peru"
+ },
+ {
+  "source": "pe-emprende-up-climatech-rein-hub-peru",
+  "target": "pe-yakusmart",
+  "type": "incubated",
+  "notes": "REIN Hub Perú / ClimateLaunchpad Peru"
+ },
+ {
+  "source": "pe-emprende-up-climatech-rein-hub-peru",
+  "target": "pe-vigia",
+  "type": "incubated",
+  "notes": "REIN Hub Perú / ClimateLaunchpad Peru"
+ },
+ {
+  "source": "pe-krealo-credicorp",
+  "target": "pe-bcp-banco-de-credito-del-peru",
+  "type": "part_of_group",
+  "notes": "Credicorp"
+ },
+ {
+  "source": "pe-pacifico-seguros",
+  "target": "pe-bcp-banco-de-credito-del-peru",
+  "type": "part_of_group",
+  "notes": "Credicorp"
+ },
+ {
+  "source": "pe-fundacion-bbva-microfinanzas",
+  "target": "pe-financiera-confianza",
+  "type": "owns",
+  "notes": null
+ },
+ {
+  "source": "pe-minam-ministerio-del-ambiente",
+  "target": "pe-programa-para-bionegocios-minam",
+  "type": "runs_program",
+  "notes": null
+ },
+ {
+  "source": "pe-minam-ministerio-del-ambiente",
+  "target": "pe-programa-bosques-minam",
+  "type": "runs_program",
+  "notes": null
+ },
+ {
+  "source": "pe-cofide-fcei",
+  "target": "pe-programa-para-bionegocios-minam",
+  "type": "participates",
+  "notes": null
+ },
+ {
+  "source": "pe-financiera-confianza",
+  "target": "pe-programa-para-bionegocios-minam",
+  "type": "participates",
+  "notes": null
+ },
+ {
+  "source": "sv-grupo-agrisal",
+  "target": "sv-snbx-sandbox",
+  "type": "created",
+  "notes": "with INNBOX and Seed Community"
+ },
+ {
+  "source": "sv-grupo-ternova",
+  "target": "sv-recicla503",
+  "type": "runs_initiative",
+  "notes": null
+ },
+ {
+  "source": "pe-cleantechhub",
+  "target": "sv-iagros",
+  "type": "accelerated",
+  "notes": "CleantechHUB Acceleration 2023"
+ },
+ {
+  "source": "sv-rein-hub-san-salvador",
+  "target": "pe-pvblic-foundation",
+  "type": "part_of_network",
+  "notes": null
+ },
+ {
+  "source": "sv-mag-ministerio-de-agricultura-y-ganaderia",
+  "target": "sv-fideagro",
+  "type": "runs_program",
+  "notes": null
+ },
+ {
+  "source": "sv-minec-ministerio-de-economia",
+  "target": "sv-conamype",
+  "type": "oversees",
+  "notes": null
+ },
+ {
+  "source": "co-fenoge",
+  "target": "co-ipse",
+  "type": "funds_layer",
+  "notes": "Funding layer → execution layer (energy access, ZNI)"
+ },
+ {
+  "source": "co-bancoldex",
+  "target": "co-ipse",
+  "type": "funds_layer",
+  "notes": "Funding layer → execution layer (energy access, ZNI)"
+ },
+ {
+  "source": "co-gcf-green-climate-fund",
+  "target": "co-ipse",
+  "type": "funds_layer",
+  "notes": "Funding layer → execution layer (energy access, ZNI)"
+ },
+ {
+  "source": "co-cif-climate-investment-funds",
+  "target": "co-ipse",
+  "type": "funds_layer",
+  "notes": "Funding layer → execution layer (energy access, ZNI)"
+ },
+ {
+  "source": "co-minenergia",
+  "target": "co-ipse",
+  "type": "regulates_layer",
+  "notes": null
+ },
+ {
+  "source": "co-creg",
+  "target": "co-ipse",
+  "type": "regulates_layer",
+  "notes": null
+ },
+ {
+  "source": "co-upme",
+  "target": "co-ipse",
+  "type": "regulates_layer",
+  "notes": null
+ },
+ {
+  "source": "pe-profonanpe",
+  "target": "challenge:PE-1-bosques",
+  "type": "works_on_challenge",
+  "notes": "Desafío 1: Bosques y bioeconomía"
+ },
+ {
+  "source": "pe-amazonia-impact-ventures",
+  "target": "challenge:PE-1-bosques",
+  "type": "works_on_challenge",
+  "notes": "Desafío 1: Bosques y bioeconomía"
+ },
+ {
+  "source": "pe-ecoenterprises-fund",
+  "target": "challenge:PE-1-bosques",
+  "type": "works_on_challenge",
+  "notes": "Desafío 1: Bosques y bioeconomía"
+ },
+ {
+  "source": "pe-mirova-natural-capital",
+  "target": "challenge:PE-1-bosques",
+  "type": "works_on_challenge",
+  "notes": "Desafío 1: Bosques y bioeconomía"
+ },
+ {
+  "source": "pe-andes-amazon-fund",
+  "target": "challenge:PE-1-bosques",
+  "type": "works_on_challenge",
+  "notes": "Desafío 1: Bosques y bioeconomía"
+ },
+ {
+  "source": "pe-bosques-amazonicos-bam",
+  "target": "challenge:PE-1-bosques",
+  "type": "works_on_challenge",
+  "notes": "Desafío 1: Bosques y bioeconomía"
+ },
+ {
+  "source": "pe-root-capital",
+  "target": "challenge:PE-1-bosques",
+  "type": "works_on_challenge",
+  "notes": "Desafío 1: Bosques y bioeconomía"
+ },
+ {
+  "source": "pe-alterfin",
+  "target": "challenge:PE-1-bosques",
+  "type": "works_on_challenge",
+  "notes": "Desafío 1: Bosques y bioeconomía"
+ },
+ {
+  "source": "pe-financiera-confianza",
+  "target": "challenge:PE-1-bosques",
+  "type": "works_on_challenge",
+  "notes": "Desafío 1: Bosques y bioeconomía"
+ },
+ {
+  "source": "pe-rainforest-alliance",
+  "target": "challenge:PE-1-bosques",
+  "type": "works_on_challenge",
+  "notes": "Desafío 1: Bosques y bioeconomía"
+ },
+ {
+  "source": "pe-minam-ministerio-del-ambiente",
+  "target": "challenge:PE-1-bosques",
+  "type": "works_on_challenge",
+  "notes": "Desafío 1: Bosques y bioeconomía"
+ },
+ {
+  "source": "pe-serfor",
+  "target": "challenge:PE-1-bosques",
+  "type": "works_on_challenge",
+  "notes": "Desafío 1: Bosques y bioeconomía"
+ },
+ {
+  "source": "pe-sernanp",
+  "target": "challenge:PE-1-bosques",
+  "type": "works_on_challenge",
+  "notes": "Desafío 1: Bosques y bioeconomía"
+ },
+ {
+  "source": "pe-concytec-prociencia",
+  "target": "challenge:PE-1-bosques",
+  "type": "works_on_challenge",
+  "notes": "Desafío 1: Bosques y bioeconomía"
+ },
+ {
+  "source": "pe-conservacion-amazonica-acca",
+  "target": "challenge:PE-1-bosques",
+  "type": "works_on_challenge",
+  "notes": "Desafío 1: Bosques y bioeconomía"
+ },
+ {
+  "source": "pe-nature-services-peru",
+  "target": "challenge:PE-1-bosques",
+  "type": "works_on_challenge",
+  "notes": "Desafío 1: Bosques y bioeconomía"
+ },
+ {
+  "source": "pe-arbio",
+  "target": "challenge:PE-1-bosques",
+  "type": "works_on_challenge",
+  "notes": "Desafío 1: Bosques y bioeconomía"
+ },
+ {
+  "source": "pe-red-amazonia-que-late",
+  "target": "challenge:PE-1-bosques",
+  "type": "works_on_challenge",
+  "notes": "Desafío 1: Bosques y bioeconomía"
+ },
+ {
+  "source": "pe-reforestadora-amazonica",
+  "target": "challenge:PE-1-bosques",
+  "type": "works_on_challenge",
+  "notes": "Desafío 1: Bosques y bioeconomía"
+ },
+ {
+  "source": "pe-spda-sociedad-peruana-de-derecho-ambiental",
+  "target": "challenge:PE-1-bosques",
+  "type": "works_on_challenge",
+  "notes": "Desafío 1: Bosques y bioeconomía"
+ },
+ {
+  "source": "pe-ccpip-camara-de-comercio-de-los-pueblos-indigenas",
+  "target": "challenge:PE-1-bosques",
+  "type": "works_on_challenge",
+  "notes": "Desafío 1: Bosques y bioeconomía"
+ },
+ {
+  "source": "pe-conservacion-internacional",
+  "target": "challenge:PE-1-bosques",
+  "type": "works_on_challenge",
+  "notes": "Desafío 1: Bosques y bioeconomía"
+ },
+ {
+  "source": "pe-wwf-peru",
+  "target": "challenge:PE-1-bosques",
+  "type": "works_on_challenge",
+  "notes": "Desafío 1: Bosques y bioeconomía"
+ },
+ {
+  "source": "pe-the-nature-conservancy",
+  "target": "challenge:PE-1-bosques",
+  "type": "works_on_challenge",
+  "notes": "Desafío 1: Bosques y bioeconomía"
+ },
+ {
+  "source": "pe-forest-trends",
+  "target": "challenge:PE-1-bosques",
+  "type": "works_on_challenge",
+  "notes": "Desafío 1: Bosques y bioeconomía"
+ },
+ {
+  "source": "pe-giz",
+  "target": "challenge:PE-1-bosques",
+  "type": "works_on_challenge",
+  "notes": "Desafío 1: Bosques y bioeconomía"
+ },
+ {
+  "source": "pe-kfw",
+  "target": "challenge:PE-1-bosques",
+  "type": "works_on_challenge",
+  "notes": "Desafío 1: Bosques y bioeconomía"
+ },
+ {
+  "source": "pe-pnud-accelerator-lab-biofin",
+  "target": "challenge:PE-1-bosques",
+  "type": "works_on_challenge",
+  "notes": "Desafío 1: Bosques y bioeconomía"
+ },
+ {
+  "source": "pe-bezos-earth-fund",
+  "target": "challenge:PE-1-bosques",
+  "type": "works_on_challenge",
+  "notes": "Desafío 1: Bosques y bioeconomía"
+ },
+ {
+  "source": "pe-ana-autoridad-nacional-del-agua",
+  "target": "challenge:PE-2-agua",
+  "type": "works_on_challenge",
+  "notes": "Desafío 2: Agua y glaciares"
+ },
+ {
+  "source": "pe-inaigem",
+  "target": "challenge:PE-2-agua",
+  "type": "works_on_challenge",
+  "notes": "Desafío 2: Agua y glaciares"
+ },
+ {
+  "source": "pe-sunass",
+  "target": "challenge:PE-2-agua",
+  "type": "works_on_challenge",
+  "notes": "Desafío 2: Agua y glaciares"
+ },
+ {
+  "source": "pe-senamhi",
+  "target": "challenge:PE-2-agua",
+  "type": "works_on_challenge",
+  "notes": "Desafío 2: Agua y glaciares"
+ },
+ {
+  "source": "pe-uqhu",
+  "target": "challenge:PE-2-agua",
+  "type": "works_on_challenge",
+  "notes": "Desafío 2: Agua y glaciares"
+ },
+ {
+  "source": "pe-yakufil",
+  "target": "challenge:PE-2-agua",
+  "type": "works_on_challenge",
+  "notes": "Desafío 2: Agua y glaciares"
+ },
+ {
+  "source": "pe-acm-ventures-agtech",
+  "target": "pe-acm-ventures-agtech",
+  "type": "hosts",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026"
+ },
+ {
+  "source": "pe-endeavor-peru",
+  "target": "pe-endeavor-peru",
+  "type": "hosts",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026"
+ },
+ {
+  "source": "pe-universidad-nacional-de-moquegua-upt-incuba-arunta",
+  "target": "pe-incubadora-de-la-universidad-nacional-de-moquegu",
+  "type": "hosts",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026"
+ },
+ {
+  "source": "pe-liquid-venture-studio",
+  "target": "pe-liquid-venture-studio",
+  "type": "hosts",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026"
+ },
+ {
+  "source": "pe-nesst",
+  "target": "pe-nesst",
+  "type": "hosts",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026"
+ },
+ {
+  "source": "pe-wichay-universidad-continental-junin",
+  "target": "pe-wichay-universidad-continental-junin",
+  "type": "hosts",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026"
+ },
+ {
+  "source": "pe-scale",
+  "target": "pe-scale",
+  "type": "hosts",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026"
+ },
+ {
+  "source": "pe-innovaul-universidad-de-lima",
+  "target": "pe-innovaul-universidad-de-lima",
+  "type": "hosts",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026"
+ },
+ {
+  "source": "pe-swisscontact",
+  "target": "pe-swisscontact",
+  "type": "hosts",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026"
+ },
+ {
+  "source": "pe-policy-ndc-3-nuestro-desafio-climatico",
+  "target": "pe-minam-ministerio-del-ambiente",
+  "type": "administered_by",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)"
+ },
+ {
+  "source": "pe-policy-ndc-3-nuestro-desafio-climatico",
+  "target": "pe-mef-ministerio-de-economia-y-finanzas",
+  "type": "administered_by",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)"
+ },
+ {
+  "source": "pe-policy-ley-marco-cambio-climatico-30754",
+  "target": "pe-minam-ministerio-del-ambiente",
+  "type": "administered_by",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)"
+ },
+ {
+  "source": "pe-policy-hoja-ruta-finanzas-verdes",
+  "target": "pe-minam-ministerio-del-ambiente",
+  "type": "administered_by",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)"
+ },
+ {
+  "source": "pe-policy-hoja-ruta-finanzas-verdes",
+  "target": "pe-mef-ministerio-de-economia-y-finanzas",
+  "type": "administered_by",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)"
+ },
+ {
+  "source": "pe-policy-startup-peru-proinnovate",
+  "target": "pe-proinnovate-startup-peru",
+  "type": "administered_by",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)"
+ },
+ {
+  "source": "pe-policy-startup-peru-proinnovate",
+  "target": "pe-produce-ministerio-de-la-produccion",
+  "type": "administered_by",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)"
+ },
+ {
+  "source": "pe-policy-programa-bionegocios-minam",
+  "target": "pe-minam-ministerio-del-ambiente",
+  "type": "administered_by",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)"
+ },
+ {
+  "source": "pe-policy-programa-bosques-minam",
+  "target": "pe-minam-ministerio-del-ambiente",
+  "type": "administered_by",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)"
+ },
+ {
+  "source": "pe-policy-ley-gestion-residuos-solidos",
+  "target": "pe-minam-ministerio-del-ambiente",
+  "type": "administered_by",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)"
+ },
+ {
+  "source": "pe-policy-taxonomia-verde-bonos",
+  "target": "pe-sbs-superintendencia-de-banca-seguros-y-afp",
+  "type": "administered_by",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)"
+ }
+]

@@ -1,0 +1,524 @@
+[
+ {
+  "id": "pe-gov-minam-ministerio-del-ambiente",
+  "ecosystem_actor_id": "pe-minam-ministerio-del-ambiente",
+  "name": "MINAM – Ministerio del Ambiente",
+  "roles": [
+   "Rector de la política ambiental y climática",
+   "Lidera la NDC 3.0, la Hoja de Ruta de Finanzas Verdes, Mi Negocio Verde y Bionegocios"
+  ],
+  "challenges": [
+   "BOS",
+   "AGU",
+   "AZU",
+   "CIR",
+   "AGR",
+   "ENE",
+   "CIU",
+   "FIN"
+  ],
+  "urls": [
+   "https://www.gob.pe"
+  ],
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "SECTOR GOBIERNO — Ministerios y reguladores",
+    "lines": [
+     680,
+     683
+    ],
+    "ref": "deck:lines:680-683",
+    "note": null
+   }
+  ]
+ },
+ {
+  "id": "pe-gov-produce-ministerio-de-la-produccion",
+  "ecosystem_actor_id": "pe-produce-ministerio-de-la-produccion",
+  "name": "PRODUCE – Ministerio de la Producción",
+  "roles": [
+   "Rector de mypes, industria, pesca y acuicultura",
+   "Financia emprendimiento vía ProInnóvate y el FCEI; hojas de ruta de economía circular"
+  ],
+  "challenges": [
+   "AZU",
+   "CIR",
+   "FIN"
+  ],
+  "urls": [
+   "https://www.gob.pe"
+  ],
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "SECTOR GOBIERNO — Ministerios y reguladores",
+    "lines": [
+     686,
+     690
+    ],
+    "ref": "deck:lines:686-690",
+    "note": null
+   }
+  ]
+ },
+ {
+  "id": "pe-gov-midagri-ministerio-de-desarrollo-agrario-y-riego",
+  "ecosystem_actor_id": "pe-midagri-ministerio-de-desarrollo-agrario-y-riego",
+  "name": "MIDAGRI Ministerio de Desarrollo Agrario y Riego",
+  "roles": [
+   "Políticas agrarias, riego y zonificación forestal"
+  ],
+  "challenges": [
+   "BOS",
+   "AGR",
+   "AGU"
+  ],
+  "urls": [
+   "https://www.gob.pe"
+  ],
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "SECTOR GOBIERNO — Ministerios y reguladores",
+    "lines": [
+     694,
+     696
+    ],
+    "ref": "deck:lines:694-696",
+    "note": null
+   }
+  ]
+ },
+ {
+  "id": "pe-gov-minem-ministerio-de-energia-y-minas",
+  "ecosystem_actor_id": "pe-minem-ministerio-de-energia-y-minas",
+  "name": "MINEM Ministerio de Energía y Minas",
+  "roles": [
+   "Define la matriz eléctrica y la promoción de renovables"
+  ],
+  "challenges": [
+   "ENE"
+  ],
+  "urls": [
+   "https://www.gob.pe"
+  ],
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "SECTOR GOBIERNO — Ministerios y reguladores",
+    "lines": [
+     700,
+     702
+    ],
+    "ref": "deck:lines:700-702",
+    "note": null
+   }
+  ]
+ },
+ {
+  "id": "pe-gov-mef-ministerio-de-economia-y-finanzas",
+  "ecosystem_actor_id": "pe-mef-ministerio-de-economia-y-finanzas",
+  "name": "MEF Ministerio de Economía y Finanzas",
+  "roles": [
+   "Inversión pública y finanzas climáticas junto al MINAM"
+  ],
+  "challenges": [
+   "FIN"
+  ],
+  "urls": [
+   "https://www.gob.pe"
+  ],
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "SECTOR GOBIERNO — Ministerios y reguladores",
+    "lines": [
+     708,
+     710
+    ],
+    "ref": "deck:lines:708-710",
+    "note": null
+   }
+  ]
+ },
+ {
+  "id": "pe-gov-sbs-y-smv",
+  "ecosystem_actor_id": null,
+  "name": "SBS y SMV",
+  "roles": [
+   "Reglas de riesgo climático y emisión de bonos verdes"
+  ],
+  "challenges": [
+   "FIN"
+  ],
+  "urls": [
+   "https://www.gob.pe"
+  ],
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "SECTOR GOBIERNO — Ministerios y reguladores",
+    "lines": [
+     714,
+     719
+    ],
+    "ref": "deck:lines:714-719",
+    "note": null
+   }
+  ]
+ },
+ {
+  "id": "pe-gov-osinergmin-sunass",
+  "ecosystem_actor_id": "pe-osinergmin",
+  "name": "Osinergmin, SUNASS",
+  "roles": [
+   "Reguladores de energía y de agua",
+   "Marco para generación distribuida y retribución por servicios ecosistémicos"
+  ],
+  "challenges": [
+   "ENE",
+   "AGU"
+  ],
+  "urls": [
+   "https://www.gob.pe"
+  ],
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "SECTOR GOBIERNO — Ministerios y reguladores",
+    "lines": [
+     723,
+     728
+    ],
+    "ref": "deck:lines:723-728",
+    "note": null
+   }
+  ]
+ },
+ {
+  "id": "pe-gov-serfor-sernanp",
+  "ecosystem_actor_id": "pe-serfor",
+  "name": "SERFOR, SERNANP",
+  "roles": [
+   "Servicios forestal y de áreas protegidas",
+   "Concesiones, manejo forestal y ecoturismo"
+  ],
+  "challenges": [
+   "BOS"
+  ],
+  "urls": [
+   "https://www.gob.pe"
+  ],
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "SECTOR GOBIERNO — Programas, fondos y organismos técnicos",
+    "lines": [
+     771,
+     776
+    ],
+    "ref": "deck:lines:771-776",
+    "note": null
+   }
+  ]
+ },
+ {
+  "id": "pe-gov-inaigem-ana-senamhi",
+  "ecosystem_actor_id": "pe-inaigem",
+  "name": "INAIGEM, ANA, SENAMHI",
+  "roles": [
+   "Glaciares, agua y clima",
+   "Datos y alertas para agua y agro"
+  ],
+  "challenges": [
+   "AGU",
+   "AGR"
+  ],
+  "urls": [
+   "https://www.gob.pe"
+  ],
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "SECTOR GOBIERNO — Programas, fondos y organismos técnicos",
+    "lines": [
+     778,
+     784
+    ],
+    "ref": "deck:lines:778-784",
+    "note": null
+   }
+  ]
+ },
+ {
+  "id": "pe-gov-imarpe-sanipes",
+  "ecosystem_actor_id": "pe-imarpe",
+  "name": "IMARPE, SANIPES",
+  "roles": [
+   "Ciencia marina e inocuidad pesquera"
+  ],
+  "challenges": [
+   "AZU"
+  ],
+  "urls": [
+   "https://www.gob.pe"
+  ],
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "SECTOR GOBIERNO — Programas, fondos y organismos técnicos",
+    "lines": [
+     807,
+     812
+    ],
+    "ref": "deck:lines:807-812",
+    "note": null
+   }
+  ]
+ },
+ {
+  "id": "pe-gov-agroideas-agrobanco",
+  "ecosystem_actor_id": "pe-agroideas",
+  "name": "AGROIDEAS, Agrobanco",
+  "roles": [
+   "Cofinanciamiento y banca agraria"
+  ],
+  "challenges": [
+   "AGR"
+  ],
+  "urls": [
+   "https://www.gob.pe"
+  ],
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "SECTOR GOBIERNO — Programas, fondos y organismos técnicos",
+    "lines": [
+     759,
+     764
+    ],
+    "ref": "deck:lines:759-764",
+    "note": null
+   }
+  ]
+ },
+ {
+  "id": "pe-gov-proinversion-promperu",
+  "ecosystem_actor_id": "pe-proinversion",
+  "name": "ProInversión, PromPerú",
+  "roles": [
+   "Promoción de inversión y exportaciones"
+  ],
+  "challenges": [
+   "ENE",
+   "AGR"
+  ],
+  "urls": [
+   "https://www.gob.pe"
+  ],
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "SECTOR GOBIERNO — Programas, fondos y organismos técnicos",
+    "lines": [
+     789,
+     794
+    ],
+    "ref": "deck:lines:789-794",
+    "note": null
+   }
+  ]
+ },
+ {
+  "id": "pe-gov-apci",
+  "ecosystem_actor_id": null,
+  "name": "APCI",
+  "roles": [
+   "Cooperación internacional registrada"
+  ],
+  "challenges": [],
+  "urls": [
+   "https://www.gob.pe"
+  ],
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "SECTOR GOBIERNO — Programas, fondos y organismos técnicos",
+    "lines": [
+     799,
+     802
+    ],
+    "ref": "deck:lines:799-802",
+    "note": null
+   }
+  ]
+ },
+ {
+  "id": "pe-gov-minam-excel",
+  "ecosystem_actor_id": "pe-minam-ministerio-del-ambiente",
+  "name": "MINAM",
+  "roles": [
+   "Dirección General de Cambio Climático y Desertificación"
+  ],
+  "challenges": [],
+  "urls": [
+   "https://www.minam.gob.pe"
+  ],
+  "sources": [
+   {
+    "document": "Base de datos REIN Hub Perú.xlsx",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "sheet": "Base de datos REIN Perú",
+    "row": 4,
+    "ref": "excel:Base de datos REIN Perú:row:4",
+    "note": "Organización; sin dato personal."
+   }
+  ]
+ },
+ {
+  "id": "pe-gov-minam-excel",
+  "ecosystem_actor_id": "pe-minam-ministerio-del-ambiente",
+  "name": "Ministerio del Ambiente",
+  "roles": [
+   "Directora de Financiamiento Ambiental en Ministerio del Ambiente"
+  ],
+  "challenges": [],
+  "urls": [
+   "https://www.gob.pe/minam"
+  ],
+  "sources": [
+   {
+    "document": "Base de datos REIN Hub Perú.xlsx",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "sheet": "Base de datos REIN Perú",
+    "row": 41,
+    "ref": "excel:Base de datos REIN Perú:row:41",
+    "note": "Organización; sin dato personal."
+   }
+  ]
+ },
+ {
+  "id": "pe-gov-minam-excel",
+  "ecosystem_actor_id": "pe-minam-ministerio-del-ambiente",
+  "name": "Ministerio del Ambiente",
+  "roles": [
+   "Director General de Economía y Financiamiento Ambiental en Ministerio del Ambiente"
+  ],
+  "challenges": [],
+  "urls": [
+   "https://www.gob.pe/minam"
+  ],
+  "sources": [
+   {
+    "document": "Base de datos REIN Hub Perú.xlsx",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "sheet": "Base de datos REIN Perú",
+    "row": 45,
+    "ref": "excel:Base de datos REIN Perú:row:45",
+    "note": "Organización; sin dato personal."
+   }
+  ]
+ },
+ {
+  "id": "pe-gov-minam-excel",
+  "ecosystem_actor_id": "pe-minam-ministerio-del-ambiente",
+  "name": "Ministerio del Ambiente",
+  "roles": [
+   "Especialista en la Dirección de Financiamiento Ambiental en el Ministerio del Ambiente"
+  ],
+  "challenges": [],
+  "urls": [
+   "https://www.gob.pe/minam"
+  ],
+  "sources": [
+   {
+    "document": "Base de datos REIN Hub Perú.xlsx",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "sheet": "Base de datos REIN Perú",
+    "row": 57,
+    "ref": "excel:Base de datos REIN Perú:row:57",
+    "note": "Organización; sin dato personal."
+   }
+  ]
+ },
+ {
+  "id": "pe-gov-minam-excel",
+  "ecosystem_actor_id": "pe-minam-ministerio-del-ambiente",
+  "name": "Ministerio del Ambiente",
+  "roles": [
+   "Abogada especialista en temas vinculados al cambio climático"
+  ],
+  "challenges": [],
+  "urls": [
+   "https://www.gob.pe/minam"
+  ],
+  "sources": [
+   {
+    "document": "Base de datos REIN Hub Perú.xlsx",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "sheet": "Base de datos REIN Perú",
+    "row": 83,
+    "ref": "excel:Base de datos REIN Perú:row:83",
+    "note": "Organización; sin dato personal."
+   }
+  ]
+ },
+ {
+  "id": "pe-gov-minam-excel",
+  "ecosystem_actor_id": "pe-minam-ministerio-del-ambiente",
+  "name": "Ministerio de Ambiente",
+  "roles": [
+   "Director General de Economía y Financiamiento"
+  ],
+  "challenges": [],
+  "urls": [
+   "https://www.gob.pe/minam"
+  ],
+  "sources": [
+   {
+    "document": "Base de datos REIN Hub Perú.xlsx",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "sheet": "Base de datos REIN Perú",
+    "row": 173,
+    "ref": "excel:Base de datos REIN Perú:row:173",
+    "note": "Organización; sin dato personal."
+   }
+  ]
+ },
+ {
+  "id": "pe-gov-minam-excel",
+  "ecosystem_actor_id": "pe-minam-ministerio-del-ambiente",
+  "name": "Ministerio de Ambiente",
+  "roles": [
+   "Contacto institucional (organización)."
+  ],
+  "challenges": [],
+  "urls": [
+   "https://www.gob.pe/minam"
+  ],
+  "sources": [
+   {
+    "document": "Base de datos REIN Hub Perú.xlsx",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "sheet": "Base de datos REIN Perú",
+    "row": 181,
+    "ref": "excel:Base de datos REIN Perú:row:181",
+    "note": "Organización; sin dato personal."
+   }
+  ]
+ }
+]

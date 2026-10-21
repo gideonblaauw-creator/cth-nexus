@@ -1,0 +1,191 @@
+[
+ {
+  "gov_actor_name": "PRODUCE – Ministerio de la Producción",
+  "ecosystem_actor_id": "pe-produce-ministerio-de-la-produccion",
+  "policy_id": "pe-pol-proinnovate-startup-peru",
+  "relation": "administers",
+  "verified": true,
+  "evidence": "Programa de PRODUCE para innovación y emprendimiento",
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "SECTOR GOBIERNO — Programas, fondos y organismos técnicos",
+    "lines": [
+     732,
+     737
+    ],
+    "ref": "deck:lines:732-737",
+    "note": "Programa de PRODUCE para innovación y emprendimiento"
+   }
+  ]
+ },
+ {
+  "gov_actor_name": "MINAM – Ministerio del Ambiente",
+  "ecosystem_actor_id": "pe-minam-ministerio-del-ambiente",
+  "policy_id": "pe-pol-programa-para-bionegocios-minam",
+  "relation": "administers",
+  "verified": true,
+  "evidence": "Programa para Bionegocios (MINAM)",
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "SECTOR GOBIERNO — Programas, fondos y organismos técnicos",
+    "lines": [
+     744,
+     747
+    ],
+    "ref": "deck:lines:744-747",
+    "note": "Programa para Bionegocios (MINAM)"
+   }
+  ]
+ },
+ {
+  "gov_actor_name": "MINAM – Ministerio del Ambiente",
+  "ecosystem_actor_id": "pe-minam-ministerio-del-ambiente",
+  "policy_id": "pe-pol-programa-bosques-minam",
+  "relation": "administers",
+  "verified": true,
+  "evidence": "Programa Bosques (MINAM)",
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "SECTOR GOBIERNO — Programas, fondos y organismos técnicos",
+    "lines": [
+     766,
+     769
+    ],
+    "ref": "deck:lines:766-769",
+    "note": "Programa Bosques (MINAM)"
+   }
+  ]
+ },
+ {
+  "gov_actor_name": "MINAM – Ministerio del Ambiente",
+  "ecosystem_actor_id": "pe-minam-ministerio-del-ambiente",
+  "policy_id": "pe-pol-plataforma-huella-de-carbono-peru",
+  "relation": "administers",
+  "verified": false,
+  "evidence": "Plataforma Huella de Carbono Perú (marco NDC)",
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "SECTOR GOBIERNO — Programas, fondos y organismos técnicos",
+    "lines": [
+     222,
+     224
+    ],
+    "ref": "deck:lines:222-224",
+    "note": "Plataforma Huella de Carbono Perú (marco NDC)"
+   }
+  ]
+ },
+ {
+  "gov_actor_name": "MINAM – Ministerio del Ambiente",
+  "ecosystem_actor_id": "pe-minam-ministerio-del-ambiente",
+  "policy_id": "pe-pol-mi-negocio-verde",
+  "relation": "administers",
+  "verified": true,
+  "evidence": "Lidera … Mi Negocio Verde",
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "SECTOR GOBIERNO — Programas, fondos y organismos técnicos",
+    "lines": [
+     682,
+     682
+    ],
+    "ref": "deck:lines:682-682",
+    "note": "Lidera … Mi Negocio Verde"
+   }
+  ]
+ },
+ {
+  "gov_actor_name": "MINAM – Ministerio del Ambiente",
+  "ecosystem_actor_id": "pe-minam-ministerio-del-ambiente",
+  "policy_id": "pe-pol-ndc-3-0-nuestro-desafio-climatico",
+  "relation": "leads",
+  "verified": true,
+  "evidence": "Lidera la NDC 3.0",
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "SECTOR GOBIERNO — Ministerios y reguladores",
+    "lines": [
+     680,
+     682
+    ],
+    "ref": "deck:lines:680-682",
+    "note": "Lidera la NDC 3.0"
+   }
+  ]
+ },
+ {
+  "gov_actor_name": "MINAM – Ministerio del Ambiente",
+  "ecosystem_actor_id": "pe-minam-ministerio-del-ambiente",
+  "policy_id": "pe-pol-hoja-de-ruta-de-finanzas-verdes",
+  "relation": "leads",
+  "verified": true,
+  "evidence": "Lidera la Hoja de Ruta de Finanzas Verdes",
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "SECTOR GOBIERNO — Ministerios y reguladores",
+    "lines": [
+     680,
+     682
+    ],
+    "ref": "deck:lines:680-682",
+    "note": "Lidera la Hoja de Ruta de Finanzas Verdes"
+   }
+  ]
+ },
+ {
+  "gov_actor_name": "MEF Ministerio de Economía y Finanzas",
+  "ecosystem_actor_id": "pe-mef-ministerio-de-economia-y-finanzas",
+  "policy_id": "pe-pol-hoja-de-ruta-de-finanzas-verdes",
+  "relation": "co_leads",
+  "verified": true,
+  "evidence": "finanzas climáticas junto al MINAM",
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "SECTOR GOBIERNO — Ministerios y reguladores",
+    "lines": [
+     708,
+     710
+    ],
+    "ref": "deck:lines:708-710",
+    "note": "finanzas climáticas junto al MINAM"
+   }
+  ]
+ },
+ {
+  "gov_actor_name": "MINAM",
+  "ecosystem_actor_id": "pe-minam-ministerio-del-ambiente",
+  "policy_id": "pe-pol-ley-marco-sobre-cambio-climatico",
+  "relation": "implements",
+  "verified": false,
+  "evidence": "Rector política ambiental y climática (marco general)",
+  "sources": [
+   {
+    "document": "deck (pdftotext)",
+    "deliverable": "Mapa de Actores & Aliados del Emprendimiento Climático del Perú (Jennifer González, 20 Oct 2026)",
+    "section": "SECTOR GOBIERNO — Ministerios y reguladores",
+    "lines": [
+     680,
+     682
+    ],
+    "ref": "deck:lines:680-682",
+    "note": "Rector política ambiental y climática (marco general)"
+   }
+  ]
+ }
+]

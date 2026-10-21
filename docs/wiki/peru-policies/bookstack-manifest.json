@@ -1,0 +1,68 @@
+{
+  "book_id": 3042,
+  "book_slug": "nexus-agent-review",
+  "chapter_name": "Peru, climate policies",
+  "generated": "2026-10-21",
+  "pages": [
+    {
+      "file": "00-overview.md",
+      "name": "Peru policies \u2014 overview"
+    },
+    {
+      "file": "catalog-part-01.md",
+      "name": "Cat\u00e1logo PE parte 1"
+    },
+    {
+      "file": "catalog-part-02.md",
+      "name": "Cat\u00e1logo PE parte 2"
+    },
+    {
+      "file": "catalog-part-03.md",
+      "name": "Cat\u00e1logo PE parte 3"
+    },
+    {
+      "file": "catalog-part-04.md",
+      "name": "Cat\u00e1logo PE parte 4"
+    },
+    {
+      "file": "catalog-part-05.md",
+      "name": "Cat\u00e1logo PE parte 5"
+    },
+    {
+      "file": "catalog-part-06.md",
+      "name": "Cat\u00e1logo PE parte 6"
+    },
+    {
+      "file": "catalog-part-07.md",
+      "name": "Cat\u00e1logo PE parte 7"
+    },
+    {
+      "file": "catalog-part-08.md",
+      "name": "Cat\u00e1logo PE parte 8"
+    },
+    {
+      "file": "catalog-part-09.md",
+      "name": "Cat\u00e1logo PE parte 9"
+    },
+    {
+      "file": "ley-30754-lmcc.md",
+      "name": "Ley 30754 Lmcc"
+    },
+    {
+      "file": "ds-013-2019-minam-reglamento-lmcc.md",
+      "name": "Ds 013 2019 Minam Reglamento Lmcc"
+    },
+    {
+      "file": "ndc-peru-2020.md",
+      "name": "Ndc Peru 2020"
+    },
+    {
+      "file": "encc-2050-politica-nacional.md",
+      "name": "Encc 2050 Politica Nacional"
+    },
+    {
+      "file": "incentivos-startup-peru-clima.md",
+      "name": "Incentivos Startup Peru Clima"
+    }
+  ]
+}

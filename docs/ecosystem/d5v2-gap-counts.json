@@ -6,14 +6,16 @@
     }
   },
   "policy": {
-    "total": 12,
+    "total": 5518,
     "by_type": {
       "runs_program": 4,
       "participates": 2,
       "created": 1,
       "runs_initiative": 1,
       "oversees": 1,
-      "regulates_layer": 3
+      "regulates_layer": 3,
+      "issues_policy": 4903,
+      "addresses_challenge": 603
     }
   },
   "capital": {
