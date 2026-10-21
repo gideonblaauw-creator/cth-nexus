@@ -109,13 +109,39 @@ export function actorVisualUrl(actor) {
   return null;
 }
 
+export function challengeIdFromQuery(search = location.search) {
+  const raw = new URLSearchParams(search).get('challenge');
+  if (!raw) return null;
+  return raw.startsWith('challenge:') ? raw : `challenge:${raw}`;
+}
+
+export function applyChallengeFromQuery(bundle) {
+  const id = challengeIdFromQuery();
+  if (id && bundle.storyConfig.challenges?.[id]) {
+    bundle.challengeId = id;
+    return id;
+  }
+  return null;
+}
+
+export function syncChallengeQuery(bundle) {
+  const slug = (bundle.challengeId || CHALLENGE_ID).replace(/^challenge:/, '');
+  const u = new URL(location.href);
+  u.searchParams.set('challenge', slug);
+  history.replaceState(null, '', u.toString());
+}
+
 export function wireChallengeSelect(select, bundle, onChange) {
   if (!select) return;
   const opts = challengeOptions(bundle.storyConfig);
-  select.innerHTML = opts.map((o) =>
-    `<option value="${o.id}"${o.id === bundle.challengeId ? ' selected' : ''}>${o.label}</option>`).join('');
+  const paint = () => {
+    select.innerHTML = opts.map((o) =>
+      `<option value="${o.id}"${o.id === bundle.challengeId ? ' selected' : ''}>${o.label}</option>`).join('');
+  };
+  paint();
   select.addEventListener('change', () => {
     bundle.challengeId = select.value;
+    syncChallengeQuery(bundle);
     onChange?.();
   });
 }

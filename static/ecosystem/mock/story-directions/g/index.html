@@ -35,10 +35,12 @@
     </div>
   </div>
   <script type="module">
-    import { loadWaterMockData, wireChallengeSelect } from '../shared/water-loader.mjs';
+    import { loadWaterMockData, wireChallengeSelect, applyChallengeFromQuery, syncChallengeQuery } from '../shared/water-loader.mjs';
     import { journeyStepsForStartup } from '../shared/journey-steps.mjs';
 
     let bundle = await loadWaterMockData();
+    applyChallengeFromQuery(bundle);
+    syncChallengeQuery(bundle);
     const timeline = document.getElementById('timeline');
 
     function render() {
