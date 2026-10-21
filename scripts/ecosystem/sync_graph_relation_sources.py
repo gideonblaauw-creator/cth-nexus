@@ -15,6 +15,19 @@ REL_PATH = ROOT / "static" / "ecosystem" / "data" / "relations.json"
 EVIDENCE_PATH = ROOT / "ops" / "ecosystem" / "graph_relation_evidence.json"
 UNVERIFIED_MD = ROOT / "ops" / "ecosystem" / "UNVERIFIED-RELATIONS.md"
 
+# Edges removed from the public catalog after a live quote check failed.
+# Sync reprints these reasons so a later run does not drop them.
+HIDDEN_REASONS: dict[tuple[str, str, str], str] = {
+    (
+        "pe-forest-trends",
+        "challenge:PE-1-bosques",
+        "works_on_challenge",
+    ): (
+        "Live check 2026-10-21: the catalog quote is not on "
+        "https://www.forest-trends.org and the actor-name check failed."
+    ),
+}
+
 
 def load_catalog() -> dict[tuple[str, str, str], dict[str, str]]:
     if not EVIDENCE_PATH.is_file():
@@ -94,9 +107,23 @@ def write_unverified_md(
         "| source | target | type |",
         "|--------|--------|------|",
     ]
-    for r in sorted(hidden, key=lambda x: (x["type"], x["source"], x["target"])):
+    ordered = sorted(hidden, key=lambda x: (x["type"], x["source"], x["target"]))
+    for r in ordered:
         lines.append(f"| `{r['source']}` | `{r['target']}` | `{r['type']}` |")
     lines.append("")
+    noted = [
+        r
+        for r in ordered
+        if (r["source"], r["target"], r["type"]) in HIDDEN_REASONS
+    ]
+    if noted:
+        lines.extend(["## Why these edges are hidden", ""])
+        for r in noted:
+            reason = HIDDEN_REASONS[(r["source"], r["target"], r["type"])]
+            lines.append(
+                f"- `{r['source']}` → `{r['target']}` (`{r['type']}`): {reason}"
+            )
+        lines.append("")
     UNVERIFIED_MD.parent.mkdir(parents=True, exist_ok=True)
     UNVERIFIED_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
