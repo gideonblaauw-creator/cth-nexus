@@ -21,14 +21,16 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.blueorchard.com |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/blueorchard-finance-ltd |
 | Rol en el ecosistema | Financiador e inversionista |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | ENE, FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+BlueOrchard leads in Global Impact Investing, empowering people and protecting the planet through innovative, purpose-driven solutions.
+
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.blueorchard.com
+- https://www.linkedin.com/company/blueorchard-finance-ltd

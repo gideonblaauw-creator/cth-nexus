@@ -21,14 +21,16 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.gob.pe/apci |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Actor público / regulador |
+| LinkedIn | https://linkedin.com/company/agencia-peruana-de-cooperaci%C3%B3n-internacional-apci |
+| Rol en el ecosistema | Cooperación internacional del Estado peruano. |
+| Año de fundación | 2019 |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+La Agencia Peruana de Cooperación Internacional (APCI) coordina la cooperación técnica internacional no reembolsable del Perú como país receptor y donante.
+
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.gob.pe/apci
+- https://linkedin.com/company/agencia-peruana-de-cooperaci%C3%B3n-internacional-apci

@@ -21,14 +21,16 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | San Isidro |
 | Sitio web | https://bioincuba.cayetano.pe |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
+| LinkedIn | https://www.linkedin.com/company/bioincubaperu |
+| Rol en el ecosistema | Incubadora universitaria en biotecnología. |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AGR, AZU, BOS |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Bioincuba es la incubadora de biotecnología de la Universidad Peruana Cayetano Heredia (UPCH), que acompaña emprendimientos de base científica.
+
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://bioincuba.cayetano.pe
+- https://www.linkedin.com/company/bioincubaperu
+- https://bioincuba.cayetano.pe/

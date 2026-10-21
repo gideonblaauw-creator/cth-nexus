@@ -21,14 +21,16 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://peru.ahk.de |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/ahk-peru-camara-peruano-alemana |
 | Rol en el ecosistema | Cámara o gremio |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | ENE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Die AHK Peru fördert bilaterale Wirtschaftsbeziehungen, unterstützt deutsche und peruanische Unternehmen beim Markteintritt und -erschliessung und bietet vielfältige Dienstleistungen in den Bereichen Außenwirtschaft, Veranstaltungen, Weiterbildung und Nachhaltigkeit. Entdecken Sie unser Netzwerk, aktuelle Projekte und Veranstaltungen zur Stärkung der deutsch-peruanischen Zusammenarbeit.
+
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://peru.ahk.de
+- https://www.linkedin.com/company/ahk-peru-camara-peruano-alemana

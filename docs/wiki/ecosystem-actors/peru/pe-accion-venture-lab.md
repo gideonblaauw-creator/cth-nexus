@@ -21,14 +21,16 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.accion.org |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/accion |
 | Rol en el ecosistema | Financiador e inversionista |
+| Año de fundación | 1961 |
 | Desafíos (códigos) | ENE, FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Accion is on a mission is to improve the lives of underserved people by building innovative and responsible financial solutions.
+
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.accion.org
+- https://www.linkedin.com/company/accion

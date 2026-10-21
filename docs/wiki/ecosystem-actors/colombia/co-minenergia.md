@@ -19,16 +19,19 @@ tag_country: Colombia
 | Categoría | government |
 | Tipo | org |
 | País | Colombia |
-| Ciudad | PENDIENTE |
+| Ciudad | Bogotá |
 | Sitio web | https://www.minenergia.gov.co |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Actor público / regulador |
+| LinkedIn | https://www.linkedin.com/company/minenergia |
+| Rol en el ecosistema | Ministerio rector del sector minero-energético y políticas de transición en Colombia. |
+| Dirección | Calle 43 No. 57-31, Bogotá, Colombia |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+El Ministerio de Minas y Energía de Colombia formula y adopta políticas para el sector minero-energético, incluyendo transición energética, electricidad y hidrocarburos.
+
 
 ## Relaciones (ecosistema)
 
@@ -47,3 +50,5 @@ PENDIENTE
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.minenergia.gov.co/
+- https://www.linkedin.com/company/minenergia

@@ -21,14 +21,16 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Libreville |
 | Sitio web | https://www.afd.fr |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/agence-francaise-de-developpement |
 | Rol en el ecosistema | Organización internacional o cooperación |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Le groupe Agence française de développement (AFD) finance, accompagne et accélère les transitions vers un monde plus juste et plus durable.
+
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.afd.fr
+- https://www.linkedin.com/company/agence-francaise-de-developpement

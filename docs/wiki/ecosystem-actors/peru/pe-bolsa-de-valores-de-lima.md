@@ -19,16 +19,18 @@ tag_country: Peru
 | Categoría | finance |
 | Tipo | org |
 | País | Peru |
-| Ciudad | San Isidro |
+| Ciudad | Lima (San Isidro) |
 | Sitio web | https://www.bvl.com.pe |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Institución financiera |
+| LinkedIn | https://www.linkedin.com/company/bolsa-de-valores-de-lima |
+| Rol en el ecosistema | Mercado de valores regulado. |
+| Año de fundación | 1860 |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+La Bolsa de Valores de Lima (BVL) es el mercado de valores oficial del Perú; facilita financiamiento bursátil y negociación de instrumentos.
+
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.bvl.com.pe
+- https://www.bvl.com.pe/
+- https://www.linkedin.com/company/bolsa-de-valores-de-lima

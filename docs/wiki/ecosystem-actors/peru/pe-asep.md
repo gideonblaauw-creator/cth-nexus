@@ -20,15 +20,18 @@ tag_country: Peru
 | Tipo | org |
 | País | Peru |
 | Ciudad | Lima |
-| Sitio web | https://www.asep.gob.pe |
+| Sitio web | https://www.asep.gob.pe/ |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| Rol en el ecosistema | Supervisor del sistema privado de pensiones (AFP). |
+| Dirección | Av. República de Panamá 3650, San Isidro, Lima |
+| Año de fundación | 1993 |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+La Autoridad de Supervisión del Sector Privado de Pensiones (AFP) supervisa y regula el sistema privado de pensiones en el Perú.
+
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +45,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.asep.gob.pe/

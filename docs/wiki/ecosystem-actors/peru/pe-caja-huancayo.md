@@ -19,16 +19,18 @@ tag_country: Peru
 | Categoría | finance |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | Huancayo |
 | Sitio web | https://www.cajahuancayo.com.pe |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Institución financiera |
+| LinkedIn | https://www.linkedin.com/company/caja-huancayo |
+| Rol en el ecosistema | Caja municipal de ahorro y crédito. |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | CIR, ENE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Caja Huancayo es una caja municipal de ahorro y crédito que ofrece servicios financieros en la región Junín y a nivel nacional.
+
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.cajahuancayo.com.pe
+- https://www.cajahuancayo.com.pe/
+- https://www.linkedin.com/company/caja-huancayo

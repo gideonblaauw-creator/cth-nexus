@@ -20,15 +20,17 @@ tag_country: Peru
 | Tipo | org |
 | País | Peru |
 | Ciudad | Lima |
-| Sitio web | https://alaya-capital.com/#about-us |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| Sitio web | https://alaya-capital.com/ |
+| LinkedIn | https://www.linkedin.com/company/alaya-business-accelerator-s-a- |
+| Rol en el ecosistema | Fondo de venture capital e inversión en startups LATAM. |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Alaya Capital invierte en emprendedores digitales de Latinoamérica con enfoque en talento, tecnología e impacto positivo.
+
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://alaya-capital.com/
+- https://www.linkedin.com/company/alaya-business-accelerator-s-a-

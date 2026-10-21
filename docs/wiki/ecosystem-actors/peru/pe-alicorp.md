@@ -19,16 +19,18 @@ tag_country: Peru
 | Categoría | corporate |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Miraflores |
+| Ciudad | Lima |
 | Sitio web | https://www.alicorp.com.pe |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| LinkedIn | https://www.linkedin.com/company/alicorp |
+| Rol en el ecosistema | Corporación de alimentos y consumo masivo. |
+| Año de fundación | 1956 |
 | Desafíos (códigos) | AGR, CIR |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Alicorp es una empresa multilatina peruana de consumo masivo y alimentos, con operaciones en varios países de la región.
+
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.alicorp.com.pe/
+- https://www.linkedin.com/company/alicorp

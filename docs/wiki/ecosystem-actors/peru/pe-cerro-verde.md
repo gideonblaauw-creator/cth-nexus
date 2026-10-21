@@ -21,14 +21,16 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Ancón |
 | Sitio web | https://www.cerroverde.pe |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/sociedad-minera-cerro-verde |
 | Rol en el ecosistema | Empresa / sector privado |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AGU, ENE, FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Somos una operación minera de clase mundial que produce cobre y molibdeno. Operamos en Arequipa - Perú y cumplimos con los más altos estándares de seguridad, salud ocupacional, medio ambiente y calidad.
+
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.cerroverde.pe
+- https://www.linkedin.com/company/sociedad-minera-cerro-verde

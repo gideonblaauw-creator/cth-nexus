@@ -21,14 +21,16 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.backus.pe |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| LinkedIn | https://www.linkedin.com/company/backus |
+| Rol en el ecosistema | Empresa de bebidas y manufactura. |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AGR, AGU, CIR, ENE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Backus es la cervecera líder del Perú, filial de AB InBev, con operaciones industriales y programas de sostenibilidad en su cadena de valor.
+
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.backus.pe
+- https://www.linkedin.com/company/backus
+- https://www.backus.pe/

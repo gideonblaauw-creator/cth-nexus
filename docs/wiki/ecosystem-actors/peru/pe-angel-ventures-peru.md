@@ -21,14 +21,16 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.angelventures.vc |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Financiador e inversionista |
+| LinkedIn | https://www.linkedin.com/company/angel-ventures-mexico |
+| Rol en el ecosistema | Firma de venture capital regional. |
+| Año de fundación | 2008 |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Angel Ventures es una firma de capital de riesgo activa en Latinoamérica, con inversiones en etapas tempranas (Seed y Serie A).
+
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.angelventures.vc/
+- https://www.linkedin.com/company/angel-ventures-mexico

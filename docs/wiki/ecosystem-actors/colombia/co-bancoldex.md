@@ -19,16 +19,19 @@ tag_country: Colombia
 | Categoría | finance |
 | Tipo | org |
 | País | Colombia |
-| Ciudad | Perímetro Urbano Barranquilla |
+| Ciudad | Barranquilla |
 | Sitio web | https://www.bancoldex.com |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Institución financiera |
+| LinkedIn | https://www.linkedin.com/company/bancoldex |
+| Rol en el ecosistema | Banco de desarrollo empresarial y financiamiento productivo. |
+| Dirección | Carrera 52 No. 76-98, Barranquilla, Atlántico, Colombia |
+| Año de fundación | 1992 |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Bancóldex es el banco de desarrollo empresarial de Colombia; ofrece crédito, garantías, fondos de inversión y programas de fortalecimiento para MIPYMES y proyectos productivos.
+
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +45,5 @@ PENDIENTE
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.bancoldex.com/
+- https://www.linkedin.com/company/bancoldex

@@ -20,15 +20,17 @@ tag_country: Peru
 | Tipo | org |
 | País | Peru |
 | Ciudad | Lima |
-| Sitio web | https://lima.diplo.de |
+| Sitio web | https://www.gob.pe/institucion/minam/informes-publicaciones/430163-alianza-por-el-clima-peru-alemania |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| Rol en el ecosistema | Cooperación bilateral en clima. |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Iniciativa de cooperación Perú–Alemania en acción climática, vinculada al MINAM, que articula apoyo técnico y financiero en mitigación y adaptación.
+
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.gob.pe/institucion/minam/informes-publicaciones/430163-alianza-por-el-clima-peru-alemania

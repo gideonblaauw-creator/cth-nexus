@@ -21,14 +21,16 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.eib.org |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/european-investment-bank |
 | Rol en el ecosistema | Organización internacional o cooperación |
+| Año de fundación | 1959 |
 | Desafíos (códigos) | BOS, ENE, FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+The European Investment Bank (EIB) is the lending arm of the European Union. We are the world’s largest multilateral lender and the biggest provider of climate finance.
+
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.eib.org
+- https://www.linkedin.com/company/european-investment-bank

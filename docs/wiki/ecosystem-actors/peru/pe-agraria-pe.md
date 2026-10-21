@@ -21,14 +21,16 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | La Molina |
 | Sitio web | https://agraria.pe |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Medios y difusión |
+| LinkedIn | https://www.linkedin.com/company/76100786 |
+| Rol en el ecosistema | Medio especializado en agro y ruralidad. |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AGR |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Agraria.pe es una agencia de noticias y contenidos especializada en sector agrario y agroindustria en el Perú.
+
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://agraria.pe
+- https://www.linkedin.com/company/76100786
+- https://agraria.pe/

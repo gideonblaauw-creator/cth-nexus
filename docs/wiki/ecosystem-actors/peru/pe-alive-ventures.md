@@ -21,14 +21,16 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Pachacámac |
 | Sitio web | https://www.alive-ventures.com |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Financiador e inversionista |
+| LinkedIn | https://www.linkedin.com/company/alive-ventures |
+| Rol en el ecosistema | Gestora de fondos de impacto. |
+| Año de fundación | 2018 |
 | Desafíos (códigos) | ENE, FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+ALIVE Ventures es gestora de fondos de impacto que invierte en empresas de alto crecimiento que reducen desigualdad en comunidades de bajos ingresos en Latinoamérica.
+
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.alive-ventures.com
+- https://www.alive-ventures.com/
+- https://www.linkedin.com/company/alive-ventures

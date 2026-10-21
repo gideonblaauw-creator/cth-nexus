@@ -19,16 +19,18 @@ tag_country: Colombia
 | Categoría | international |
 | Tipo | org |
 | País | Colombia |
-| Ciudad | PENDIENTE |
+| Ciudad | Washington, D.C. (sede operativa) |
 | Sitio web | https://www.cif.org |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Organización internacional o cooperación |
+| LinkedIn | https://www.linkedin.com/company/climate-investment-funds |
+| Rol en el ecosistema | Fondo multilateral de inversión climática. |
+| Año de fundación | 2008 |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Climate Investment Funds (CIF) moviliza financiamiento multilateral para acción climática en países en desarrollo, incluyendo tecnologías limpias, resiliencia y bosques sostenibles.
+
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.cif.org/
+- https://www.linkedin.com/company/climate-investment-funds

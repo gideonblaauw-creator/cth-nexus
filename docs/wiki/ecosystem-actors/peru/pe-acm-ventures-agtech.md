@@ -19,16 +19,18 @@ tag_country: Peru
 | Categoría | accelerator |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | Lima (Santiago de Surco) |
 | Sitio web | https://www.facebook.com/ACMVenturesPeru/ |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
+| Rol en el ecosistema | Incubadora y aceleradora (agtech y emprendimiento). |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/planta-comunitaria-wpc](https://nexus.cleantechhub.net/s/planta-comunitaria-wpc) |
+| Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+ACM Ventures es una incubadora y aceleradora peruana de emprendimientos, con énfasis en líneas asociadas a agrotecnología y negocios dinámicos.
+
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.facebook.com/ACMVenturesPeru/

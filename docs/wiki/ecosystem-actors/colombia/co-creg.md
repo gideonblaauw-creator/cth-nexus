@@ -19,16 +19,19 @@ tag_country: Colombia
 | Categoría | government |
 | Tipo | org |
 | País | Colombia |
-| Ciudad | PENDIENTE |
+| Ciudad | Bogotá |
 | Sitio web | https://www.creg.gov.co |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Actor público / regulador |
+| LinkedIn | https://www.linkedin.com/company/comisi%C3%B3n-de-regulaci%C3%B3n-de-energ%C3%ADa-y-gas-creg |
+| Rol en el ecosistema | Regulador de mercados de energía y gas. |
+| Dirección | Carrera 13 No. 27-00, Bogotá, Colombia |
+| Año de fundación | 1994 |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+La Comisión de Regulación de Energía y Gas (CREG) regula los mercados de gas natural, electricidad y combustibles líquidos en Colombia.
+
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +45,5 @@ PENDIENTE
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.creg.gov.co/
+- https://www.linkedin.com/company/comisi%C3%B3n-de-regulaci%C3%B3n-de-energ%C3%ADa-y-gas-creg

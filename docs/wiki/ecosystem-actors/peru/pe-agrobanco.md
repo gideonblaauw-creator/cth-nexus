@@ -19,16 +19,18 @@ tag_country: Peru
 | Categoría | government |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Barranca |
+| Ciudad | Lima |
 | Sitio web | https://www.agrobanco.com.pe |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Actor público / regulador |
+| LinkedIn | https://www.linkedin.com/company/agrobanco |
+| Rol en el ecosistema | Banco público de desarrollo agropecuario. |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | BOS |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Agrobanco es el banco de desarrollo agropecuario del Estado peruano; financia y promueve la producción y competitividad del sector agro.
+
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.agrobanco.com.pe
+- https://www.agrobanco.com.pe/
+- https://www.linkedin.com/company/agrobanco

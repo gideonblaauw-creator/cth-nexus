@@ -21,14 +21,16 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.amanatari.org/ |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | ONG o fundación |
+| LinkedIn | https://www.linkedin.com/company/amanatari |
+| Rol en el ecosistema | Impulsor de emprendimiento amazónico. |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Amanatari impulsa emprendimientos y negocios sostenibles en la Amazonía peruana, articulando comunidades, inversionistas y mercados.
+
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.amanatari.org/
+- https://www.linkedin.com/company/amanatari

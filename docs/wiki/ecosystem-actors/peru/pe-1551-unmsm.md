@@ -21,14 +21,16 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://1551.unmsm.edu.pe |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
+| LinkedIn | https://www.linkedin.com/company/11111803 |
+| Rol en el ecosistema | Incubadora universitaria (UNMSM). |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AGR, AGU |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+1551 es la incubadora de empresas innovadoras de la Universidad Nacional Mayor de San Marcos (UNMSM), que apoya emprendimientos universitarios.
+
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://1551.unmsm.edu.pe/
+- https://www.linkedin.com/company/11111803

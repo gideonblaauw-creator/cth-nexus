@@ -21,14 +21,16 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Villa María del Triunfo |
 | Sitio web | https://asociacionunacem.org |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/asociacion-unacem/about |
 | Rol en el ecosistema | ONG o fundación |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AZU, BOS |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Somos una organización sin fines de lucro responsable de la estrategia de sostenibilidad corporativa de UNACEM. Desde el año 2003, desarrollamos proyectos de responsabilidad social e inversión social privada de alto impacto, en los que hemos tenido diferentes aprendizajes y logros mediante el trabajo en estrecha colaboración con los sectores público y privado, la sociedad civil, la cooperación internacional y la academia. Contribuimos así con el desarrollo sostenible de nuest
+
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://asociacionunacem.org
+- https://www.linkedin.com/company/asociacion-unacem/about

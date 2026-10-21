@@ -19,16 +19,18 @@ tag_country: Peru
 | Categoría | corporate |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
-| Sitio web | https://finlandabroad.fi/web/per/embajada |
+| Ciudad | PENDIENTE |
+| Sitio web | PENDIENTE |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| Rol en el ecosistema | Empresa / sector privado (verificar identidad en mapa CTH). |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AZU, BOS, ENE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Actor registrado en el mapa CTH con códigos de desafío BOS, AZU y ENE; no se identificó un sitio web oficial único distinto de enlaces erróneos en el dataset base.
+
 
 ## Relaciones (ecosistema)
 

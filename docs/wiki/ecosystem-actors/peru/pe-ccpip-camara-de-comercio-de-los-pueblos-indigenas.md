@@ -22,13 +22,15 @@ tag_country: Peru
 | Ciudad | Lima |
 | Sitio web | https://www.facebook.com/ccpip/ |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Cámara o gremio |
+| Rol en el ecosistema | Cámara gremial de pueblos indígenas. |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/planta-comunitaria-wpc](https://nexus.cleantechhub.net/s/planta-comunitaria-wpc) |
+| Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+La Cámara de Comercio de los Pueblos Indígenas del Perú (CCPIP) promueve el comercio y el emprendimiento indígena en el país.
+
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.facebook.com/ccpip/

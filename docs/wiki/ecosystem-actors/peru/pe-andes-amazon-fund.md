@@ -21,14 +21,16 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | San Carlos |
 | Sitio web | https://www.andesamazonfund.org |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/andes-amazon-fund |
 | Rol en el ecosistema | Financiador e inversionista |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Safeguarding the most diverse landscapes on earth. Our Impact Our Achievements So Far 212 conserved areas established 54,285,599 acres conserved 54 Indigenous lands titled See Our Impact A Thriving Amazon&hellip;
+
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.andesamazonfund.org
+- https://www.linkedin.com/company/andes-amazon-fund
