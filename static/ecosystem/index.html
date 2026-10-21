@@ -9,7 +9,7 @@
   <!-- Preview/local: allow MapLibre + OpenFreeMap + CDN graph libs (production Caddy may merge this). -->
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://unpkg.com https://esm.sh; style-src 'self' 'unsafe-inline' https://unpkg.com https://cdn.jsdelivr.net https://fonts.googleapis.com; font-src https://fonts.gstatic.com data:; connect-src 'self' https://tiles.openfreemap.org https://cdn.jsdelivr.net https://unpkg.com https://esm.sh; img-src 'self' data: blob: https://tiles.openfreemap.org; worker-src blob:; child-src blob:;" />
   <link rel="stylesheet" href="/nexus-assets/nexus-brand.css?v=eco-d3" />
-  <link rel="stylesheet" href="ecosystem.css?v=d3" />
+  <link rel="stylesheet" href="ecosystem.css?v=journey1" />
   <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" crossorigin="" />
   <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js" crossorigin=""></script>
   <script type="importmap">
@@ -47,6 +47,7 @@
 
 <nav class="view-tabs" aria-label="Vista principal">
   <button type="button" class="view-tab active" data-view-tab="explore" data-i18n="tabExplore">Explorar mapa + red</button>
+  <button type="button" class="view-tab" data-view-tab="journey" data-i18n="tabJourney">Camino de la startup</button>
   <button type="button" class="view-tab" data-view-tab="cards" data-i18n="tabCards">Fichas de actores</button>
   <button type="button" class="view-tab" data-view-tab="story" data-i18n="tabStory">Historia guiada</button>
 </nav>
@@ -111,9 +112,42 @@
     <div id="actor-grid" class="actor-grid"></div>
   </section>
 
+  <section id="panel-journey" class="panel-journey hidden" aria-label="Camino de la startup">
+    <div class="journey-toolbar">
+      <label for="journey-challenge" data-i18n="journeyChallenge">Área de reto</label>
+      <select id="journey-challenge" class="journey-select" aria-label="Nature challenge"></select>
+      <label for="journey-startup" data-i18n="journeyStartup">Startup</label>
+      <select id="journey-startup" class="journey-select" aria-label="Startup"></select>
+    </div>
+    <div id="journey-stat" class="journey-stat hidden" aria-live="polite"></div>
+    <div class="journey-triptych">
+      <aside class="journey-rail-wrap">
+        <span class="journey-kicker" data-i18n="journeyRail">Recorrido</span>
+        <div id="journey-rail" class="journey-rail" aria-label="Pasos del journey"></div>
+      </aside>
+      <div class="journey-map-wrap">
+        <span class="journey-kicker" data-i18n="journeyMap">Mapa (solo direcciones reales)</span>
+        <div id="journey-map" class="journey-map" role="application" aria-label="Mapa LATAM"></div>
+      </div>
+      <div class="journey-graph-wrap">
+        <span class="journey-kicker" data-i18n="journeyGraph">Red · camino resaltado</span>
+        <div id="journey-graph" class="journey-graph" role="application" aria-label="Red de relaciones"></div>
+      </div>
+    </div>
+    <section id="journey-data" class="journey-data" aria-label="Mapa de datos">
+      <span class="journey-kicker" data-i18n="journeyDataMap">Mapa de datos</span>
+      <div id="journey-data-map" class="journey-data-map" role="application" aria-label="Mapa de datos"></div>
+      <div id="journey-data-list" class="journey-data-list"></div>
+    </section>
+    <div class="journey-bottom">
+      <section id="journey-inspector" class="journey-inspector" aria-label="Inspector del paso"></section>
+      <aside id="journey-unknown" class="journey-unknown" aria-label="Ubicación desconocida"></aside>
+    </div>
+  </section>
+
 </main>
 
 <script src="/nexus-assets/nexus-nav.js?v=eco-public"></script>
-<script type="module" src="ecosystem.mjs?v=wiki-main-merge1"></script>
+<script type="module" src="ecosystem.mjs?v=journey1"></script>
 </body>
 </html>

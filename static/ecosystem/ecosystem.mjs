@@ -18,6 +18,7 @@ import {
   hasPlottableGeo,
   isLocationUnknown,
 } from './geo-utils.mjs';
+import { mountJourney } from './journey-view.mjs';
 
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 const MAP_FONT_STACK = ['Noto Sans Regular'];
@@ -92,8 +93,24 @@ const I18N = {
     relations: 'Relaciones',
     visible: 'Visibles',
     tabExplore: 'Explorar mapa + red',
+    tabJourney: 'Camino de la startup',
     tabCards: 'Fichas de actores',
     tabStory: 'Historia guiada',
+    journeyTitle: 'Camino de la startup',
+    journeySub: 'Recorrido de la startup: reto, mapa con direcciones reales y red de relaciones públicas.',
+    journeyChallenge: 'Área de reto',
+    journeyStartup: 'Startup',
+    journeyRail: 'Recorrido',
+    journeyMap: 'Mapa (solo direcciones reales)',
+    journeyGraph: 'Red · camino resaltado',
+    journeyDataMap: 'Mapa de datos',
+    journeyUnknown: 'Ubicación desconocida',
+    journeyUnknownNone: 'Nada que listar en este recorrido.',
+    journeyNoPublic: 'Sin fuente pública',
+    journeyNoPin: 'Mapa: sin pin — ubicación desconocida (hace falta dirección a nivel de calle).',
+    journeyEdge: 'Relación',
+    journeySource: 'Fuente pública',
+    journeyEmpty: 'Elige una startup para ver el recorrido.',
     map: 'Mapa LATAM',
     network: 'Red de relaciones',
     filters: 'Tipo actor',
@@ -147,8 +164,24 @@ const I18N = {
     relations: 'Relations',
     visible: 'Visible',
     tabExplore: 'Explore map + network',
+    tabJourney: 'Startup journey',
     tabCards: 'Actor cards',
     tabStory: 'Guided story',
+    journeyTitle: 'Startup journey',
+    journeySub: 'Startup path: nature challenge, street-level map, and public relationship network.',
+    journeyChallenge: 'Nature challenge',
+    journeyStartup: 'Startup',
+    journeyRail: 'Journey',
+    journeyMap: 'Map (street addresses only)',
+    journeyGraph: 'Network · highlighted path',
+    journeyDataMap: 'Data map',
+    journeyUnknown: 'Location unknown',
+    journeyUnknownNone: 'Nothing to list on this journey.',
+    journeyNoPublic: 'No public source',
+    journeyNoPin: 'Map: no pin — location unknown (a street-level address is required).',
+    journeyEdge: 'Relation',
+    journeySource: 'Public source',
+    journeyEmpty: 'Choose a startup to see the journey.',
     map: 'LATAM map',
     network: 'Relationship network',
     filters: 'Actor type',
@@ -234,6 +267,7 @@ let constellationId = null;
 let constellationCloseup = false;
 let storyScene = null;
 let suggestedEdges = [];
+let journeyController = null;
 
 const $ = (sel) => document.querySelector(sel);
 const t = () => I18N[lang];
@@ -345,6 +379,15 @@ function applyI18n() {
     if (tr[key]) el.textContent = tr[key];
   });
   $('#search-input').placeholder = tr.search;
+  if (viewMode === 'journey') {
+    $('.ph-title').textContent = tr.journeyTitle;
+    $('.ph-sub').textContent = tr.journeySub;
+    document.title = lang === 'EN'
+      ? 'Startup journey — CleantechHUB Nexus'
+      : 'Camino de la startup — CleantechHUB Nexus';
+  } else {
+    document.title = 'Ecosistema LATAM — CleantechHUB Nexus';
+  }
 }
 
 function initLang() {
@@ -359,7 +402,8 @@ function initLang() {
       applyI18n();
       buildFilterChips();
       if (viewMode === 'story') renderStoryRail();
-      renderAll();
+      if (viewMode === 'journey') journeyController?.refresh();
+      else renderAll();
     });
   });
   applyI18n();
@@ -428,15 +472,20 @@ function initTabs() {
       const tab = btn.dataset.viewTab;
       viewMode = tab;
       document.querySelectorAll('.view-tab').forEach((b) => b.classList.toggle('active', b === btn));
-      $('#panel-explore').classList.toggle('hidden', tab === 'cards');
-      $('#panel-cards').classList.toggle('hidden', tab !== 'cards');
       const storyOn = tab === 'story';
+      $('#panel-explore').classList.toggle('hidden', tab !== 'explore' && !storyOn);
+      $('#panel-cards').classList.toggle('hidden', tab !== 'cards');
+      $('#panel-journey').classList.toggle('hidden', tab !== 'journey');
       document.body.classList.toggle('story-on', storyOn);
+      document.body.classList.toggle('journey-on', tab === 'journey');
       $('#story-rail').classList.toggle('hidden', !storyOn);
       $('#story-banner').classList.toggle('hidden', !storyOn);
       document.body.classList.toggle('cards-view', tab === 'cards');
-      $('#legend-bar').classList.toggle('hidden', tab === 'cards');
-      if (storyOn) {
+      $('#legend-bar').classList.toggle('hidden', tab === 'cards' || tab === 'journey');
+      applyI18n();
+      if (tab === 'journey') {
+        journeyController?.show();
+      } else if (storyOn) {
         renderStoryRail();
         renderStoryChapter();
       } else if (tab === 'cards') {
@@ -1077,6 +1126,10 @@ function renderAll(rebuildLayout = true) {
     renderStoryChapter();
     return;
   }
+  if (viewMode === 'journey') {
+    journeyController?.refresh();
+    return;
+  }
   const ids = visibleActorIds();
   const rels = visibleRelations(ids);
   updateStats(ids);
@@ -1311,6 +1364,10 @@ function applyDemoState() {
     const tab = document.querySelector('[data-view-tab="story"]');
     if (tab) tab.click();
   }
+  const bootView = bootParams.get('view');
+  if (bootView === 'journey' || (!bootView && bootParams.get('challenge') && state !== 'story')) {
+    document.querySelector('[data-view-tab="journey"]')?.click();
+  }
 }
 
 async function loadData() {
@@ -1335,6 +1392,14 @@ async function loadData() {
   computeDegrees();
   activeRelTypes = new Set(publicGraphRelations().map((x) => x.type));
   buildFilterChips();
+  journeyController = mountJourney({
+    getActors: () => actors,
+    getRelations: () => relations,
+    getDataRelations: () => dataRelations,
+    getStory: () => storyConfig,
+    getLang: () => lang,
+    t,
+  });
   renderAll();
   applyDemoState();
 }
