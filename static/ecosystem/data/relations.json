@@ -311,11 +311,7 @@
   "source": "pe-profonanpe",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "verified": true,
-  "source_url": "https://profonanpe.org.pe/",
-  "source_title": "Profonanpe",
-  "evidence": "Profonanpe es un aliado estratégico para apoyar a la conservación y protección de nuestra biodiversidad",
-  "date_accessed": "2026-10-21"
+  "verified": false
  },
  {
   "source": "pe-amazonia-impact-ventures",
