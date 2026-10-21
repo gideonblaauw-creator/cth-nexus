@@ -5079,13 +5079,13 @@
   "city": "San Salvador",
   "website": "https://www.ues.edu.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5100,13 +5100,13 @@
   "city": "San Salvador",
   "website": "https://keyinstitute.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5121,13 +5121,13 @@
   "city": "San Salvador",
   "website": "https://www.uca.edu.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5142,13 +5142,13 @@
   "city": "San Salvador",
   "website": "https://www.esen.edu.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5163,13 +5163,13 @@
   "city": "San Salvador",
   "website": "https://tcsgo.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5184,13 +5184,13 @@
   "city": "San Salvador",
   "website": "https://www.canal12.com.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5205,13 +5205,13 @@
   "city": "San Salvador",
   "website": "https://www.canal21.com.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5226,13 +5226,13 @@
   "city": "San Salvador",
   "website": "https://www.canal10.gob.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5247,13 +5247,13 @@
   "city": "San Salvador",
   "website": "https://www.laprensagrafica.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5268,13 +5268,13 @@
   "city": "San Salvador",
   "website": "https://www.elsalvador.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5289,13 +5289,13 @@
   "city": "San Salvador",
   "website": "https://diario.elmundo.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5310,13 +5310,13 @@
   "city": "San Salvador",
   "website": "https://gatoencerrado.news",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5331,13 +5331,13 @@
   "city": "San Salvador",
   "website": "https://fundaciongloriakriete.org",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5352,13 +5352,13 @@
   "city": "San Salvador",
   "website": "https://fundemas.org.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5373,13 +5373,13 @@
   "city": "San Salvador",
   "website": "https://fundacioncolabora.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5394,13 +5394,13 @@
   "city": "San Salvador",
   "website": "https://www.fao.org/elsalvador",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5415,13 +5415,13 @@
   "city": "San Salvador",
   "website": "https://www.undp.org/es/el-salvador",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5436,13 +5436,13 @@
   "city": "San Salvador",
   "website": "https://www.unep.org",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5457,13 +5457,13 @@
   "city": "San Salvador",
   "website": "https://www.bancomundial.org/es/country/elsalvador",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5478,13 +5478,13 @@
   "city": "San Salvador",
   "website": "https://www.iadb.org/es",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5499,13 +5499,13 @@
   "city": "San Salvador",
   "website": "https://gggi.org",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5520,13 +5520,13 @@
   "city": "San Salvador",
   "website": "https://www.cepal.org",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5541,13 +5541,13 @@
   "city": "San Salvador",
   "website": "https://www.iom.int",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5562,13 +5562,13 @@
   "city": "San Salvador",
   "website": "https://www.giz.de",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5583,13 +5583,13 @@
   "city": "San Salvador",
   "website": "https://aecid.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5603,13 +5603,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5624,13 +5624,13 @@
   "city": "San Salvador",
   "website": "https://www.crs.org",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5645,13 +5645,13 @@
   "city": "San Salvador",
   "website": "https://san-salvador.diplo.de",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5665,13 +5665,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5685,13 +5685,13 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5706,13 +5706,13 @@
   "city": "San Salvador",
   "website": "https://www.sv.emb-japan.go.jp",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5744,15 +5744,16 @@
   "type": "org",
   "category": "finance",
   "country": "Colombia",
+  "city": "Perímetro Urbano Barranquilla",
   "website": "https://www.bancoldex.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 11.00374,
+   "lng": -74.808963,
+   "address": "Bancoldex, 76, Carrera 52, Alto Prado, Localidad Norte - Centro Histórico, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, 080001, Colombia",
+   "city": "Perímetro Urbano Barranquilla",
    "country": "Colombia",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Banc%C3%B3ldex%2C+Colombia&format=json&limit=1&addressdetails=1&countrycodes=co (name-country)"
   },
   "nexus": {
    "card_slug": null

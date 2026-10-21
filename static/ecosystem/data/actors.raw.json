@@ -6027,7 +6027,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-key-institute-instituto-kriete-de-ingenieria-y-cie",
@@ -6042,7 +6051,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "Key Institute (Instituto Kriete de Ingeniería y Ciencias)  es una nueva universidad privada en El Salvador, inaugurada oficialmente el 19 de marzo de 2025. Fundada por el empresario Roberto Kriete, su objetivo es formar ingenieros de clase mundial capaces de liderar en innovación",
-  "website_check": "301"
+  "website_check": "301",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-uca",
@@ -6057,7 +6075,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-esen",
@@ -6072,7 +6099,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": null,
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-telecorporacion-salvadorena-tcs",
@@ -6087,7 +6123,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "Telecorporación Salvadoreña (TCS) (Canales: 2, 4, 6 y TCS+) Es el conglomerado televisivo más grande del país, con una amplia cobertura nacional.A través de sus noticieros y programas especiales, ha abordado temas relacionados con el medio ambiente y el desarrollo sostenible.",
-  "website_check": "206"
+  "website_check": "206",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-canal-12",
@@ -6102,7 +6147,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "Canal 12 (RSM)Canal de televisión con programación variada, incluyendo noticias y entretenimiento.Ha transmitido reportajes y programas enfocados en iniciativas ambientales y emprendimientos locales.",
-  "website_check": "206"
+  "website_check": "206",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-canal-21",
@@ -6117,7 +6171,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "Canal 12 (RSM)Canal de televisión con programación variada, incluyendo noticias y entretenimiento.Ha transmitido reportajes y programas enfocados en iniciativas ambientales y emprendimientos locales.",
-  "website_check": "000"
+  "website_check": "000",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-canal-10-television-nacional",
@@ -6132,7 +6195,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "Canal 12 (RSM)Canal de televisión con programación variada, incluyendo noticias y entretenimiento.Ha transmitido reportajes y programas enfocados en iniciativas ambientales y emprendimientos locales.",
-  "website_check": "000"
+  "website_check": "000",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-la-prensa-grafica",
@@ -6147,7 +6219,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "La Prensa Gráfica Uno de los periódicos más antiguos y de mayor circulación en El Salvador.Publica artículos y reportajes sobre medio ambiente, cambio climático y emprendimientos sostenibles.",
-  "website_check": "403"
+  "website_check": "403",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-el-diario-de-hoy",
@@ -6162,7 +6243,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "El Diario de HoyPeriódico de amplia circulación nacional, con enfoque en noticias generales y de actualidad.Ha cubierto iniciativas de emprendimiento y proyectos ambientales en el país.",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-diario-el-mundo",
@@ -6177,7 +6267,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "Diario El MundoPeriódico que ofrece cobertura de noticias nacionales e internacionales.Incluye secciones dedicadas a la economía verde y emprendimientos innovadores.",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-gatoencerrado",
@@ -6192,7 +6291,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "GatoEncerradoRevista digital enfocada en periodismo ambiental y de derechos humanos.Especializada en reportajes sobre cambio climático, sostenibilidad y justicia ambiental.",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-fundacion-gloria-kriete-fgk",
@@ -6207,7 +6315,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "Fundación Gloria Kriete - Incubadora Empresarial Programa de incubación para emprendedores sociales en etapa temprana con alto potencial de impacto.Identificación y escalamiento de emprendimientos que cumplen con la triple línea de impacto: económico, social y ambiental.",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-fundemas",
@@ -6222,7 +6339,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "FUNDEMAS (Fundación Empresarial para la Acción Social) Promoción de la sostenibilidad y la responsabilidad social empresarial.Iniciativas destacadas:Organización de la Semana de la Sostenibilidad, abordando temas como cambio climático y economía circular.Apoyo a empresas en la im",
-  "website_check": "206"
+  "website_check": "206",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-fundacion-colabora",
@@ -6237,7 +6363,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "Fundación Gloria Kriete - Incubadora Empresarial Programa de incubación para emprendedores sociales en etapa temprana con alto potencial de impacto.Identificación y escalamiento de emprendimientos que cumplen con la triple línea de impacto: económico, social y ambiental.",
-  "website_check": "206"
+  "website_check": "206",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-fao-el-salvador",
@@ -6252,7 +6387,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "FAO (Organización de las Naciones Unidas para la Alimentación y la Agricultura) . Fortalecimiento de la resiliencia climática en agroecosistemas y apoyo a la agricultura sostenible.Proyecto RECLIMA para mejorar la resiliencia de agricultores familiares en el corredor seco.",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-pnud-el-salvador",
@@ -6267,7 +6411,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "PNUD (Programa de las Naciones Unidas para el Desarrollo). Acompañamiento técnico y financiero en desarrollo sostenible y resiliencia climática.Programa País 2022-2026 enfocado en inclusión, resiliencia y productividad sostenible. <br> - Programa \"Accelerate 2030\" para impulsar e",
-  "website_check": "403"
+  "website_check": "403",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-unep",
@@ -6282,7 +6435,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "UNEP (Programa de las Naciones Unidas para el Medio Ambiente) Promoción de soluciones basadas en la naturaleza para la adaptación al cambio climático.Proyecto CityAdapt en San Salvador para implementar soluciones basadas en la naturaleza en entornos urbanos.Apoyo en la elaboració",
-  "website_check": "403"
+  "website_check": "403",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-banco-mundial",
@@ -6297,7 +6459,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "Banco Azul ofrece programas de sostenibilidad para empresas en El Salvador, promoviendo proyectos que generen valor económico, medioambiental y social.Programa integral de sostenibilidad para empresas que deseen implementar proyectos sostenibles.",
-  "website_check": "206"
+  "website_check": "206",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-bid",
@@ -6312,7 +6483,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "BID (Banco Interamericano de Desarrollo). Apoyo financiero y técnico para la transformación tecnológica y sostenibilidad de las MIPYMES.Aprobación de $190 millones para promover la transformación tecnológica y la transición energética de las MIPYMES.Préstamo de $200 millones para",
-  "website_check": "403"
+  "website_check": "403",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-gggi",
@@ -6327,7 +6507,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "GGGI (Instituto Global para el Crecimiento Verde) Promoción del crecimiento verde y la restauración de paisajes forestales.Colaboración con KOICA y el Ministerio de Agricultura para la restauración de bosques y paisajes.Proyectos enfocados en agricultura climáticamente inteligent",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-cepal",
@@ -6342,7 +6531,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "CEPAL (Comisión Económica para América Latina y el Caribe) Generación de conocimiento y diseño de políticas públicas para la adaptación al cambio climático.Estimación de que El Salvador necesita invertir el 5.3% del PIB anual para enfrentar el impacto climático.Publicaciones sobr",
-  "website_check": "403"
+  "website_check": "403",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-oim",
@@ -6357,7 +6555,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "OIM (Organización Internacional para las Migraciones) Apoyo a comunidades afectadas por desplazamientos debido al cambio climático.Guía de Emprendimiento para la Reintegración Económica en El SalvadorTalleres sobre migración, medio ambiente y cambio climático en coordinación con ",
-  "website_check": "403"
+  "website_check": "403",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-giz",
@@ -6372,7 +6579,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "GIZ (Agencia de Cooperación Alemana).  Implementación de proyectos para mitigación del cambio climático y desarrollo urbano sostenible.Iniciativa CATAL1.5°T para fomentar empresas emergentes climáticas.Proyecto de Resiliencia Urbana en San Salvador.Apoyo a la implementación del A",
-  "website_check": "206"
+  "website_check": "206",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-aecid-el-salvador",
@@ -6387,7 +6603,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "AECID (Agencia Española de Cooperación Internacional para el Desarrollo).  Promoción del desarrollo sostenible y adaptación al cambio climático.Proyecto de transformación productiva del sector avícola hacia procesos sostenibles.Formación para certificación de profesionales en efi",
-  "website_check": "301"
+  "website_check": "301",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-usaid",
@@ -6402,7 +6627,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": null,
-  "website_check": "none"
+  "website_check": "none",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-crs-catholic-relief-services",
@@ -6417,7 +6651,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "CRS (Catholic Relief Services)  Apoyo a pequeños productores para mejorar la resiliencia al cambio climático.Proyecto Cosecha Azul para caficultores, promoviendo prácticas agrícolas sostenibles. Alianza con FUSAI para fortalecer a emprendedores y empresarios de la micro y pequeña",
-  "website_check": "403"
+  "website_check": "403",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-embajada-de-alemania",
@@ -6432,7 +6675,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "Embajada de Alemania Impulso a la sostenibilidad energética y apoyo a comunidades locales.Inauguración de una planta solar en la embajada, avanzando hacia la sostenibilidad energética.Financiamiento de más de 20 proyectos comunitarios en áreas como agua potable, salud y emprendim",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-embajada-de-los-paises-bajos",
@@ -6447,7 +6699,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "Embajada de Alemania Impulso a la sostenibilidad energética y apoyo a comunidades locales.Inauguración de una planta solar en la embajada, avanzando hacia la sostenibilidad energética.Financiamiento de más de 20 proyectos comunitarios en áreas como agua potable, salud y emprendim",
-  "website_check": "none"
+  "website_check": "none",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-embajada-de-espana",
@@ -6462,7 +6723,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "Embajada de Alemania Impulso a la sostenibilidad energética y apoyo a comunidades locales.Inauguración de una planta solar en la embajada, avanzando hacia la sostenibilidad energética.Financiamiento de más de 20 proyectos comunitarios en áreas como agua potable, salud y emprendim",
-  "website_check": "none"
+  "website_check": "none",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "sv-embajada-de-japon",
@@ -6477,7 +6747,16 @@
   "source_design_id": "DAGY8OMkdBw",
   "page": null,
   "notes": "Embajada de Alemania Impulso a la sostenibilidad energética y apoyo a comunidades locales.Inauguración de una planta solar en la embajada, avanzando hacia la sostenibilidad energética.Financiamiento de más de 20 proyectos comunitarios en áreas como agua potable, salud y emprendim",
-  "website_check": "403"
+  "website_check": "403",
+  "geo": {
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
+   "country": "El Salvador",
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  }
  },
  {
   "id": "co-fenoge",
@@ -6492,7 +6771,16 @@
   "source_design_id": "DAHPeVenQV0",
   "page": null,
   "notes": "Colombia energy-access layer map (template deck \"The Complete Ecosystem Map\")",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "co-bancoldex",
@@ -6500,14 +6788,23 @@
   "type": "org",
   "category": "finance",
   "country": "Colombia",
-  "city": null,
+  "city": "Perímetro Urbano Barranquilla",
   "website": "https://www.bancoldex.com",
   "website_ok": true,
   "linkedin": null,
   "source_design_id": "DAHPeVenQV0",
   "page": null,
   "notes": "Colombia energy-access layer map (template deck \"The Complete Ecosystem Map\")",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": 11.00374,
+   "lng": -74.808963,
+   "address": "Bancoldex, 76, Carrera 52, Alto Prado, Localidad Norte - Centro Histórico, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, 080001, Colombia",
+   "city": "Perímetro Urbano Barranquilla",
+   "country": "Colombia",
+   "precision": "address",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Banc%C3%B3ldex%2C+Colombia&format=json&limit=1&addressdetails=1&countrycodes=co (name-country)"
+  }
  },
  {
   "id": "co-gcf-green-climate-fund",
@@ -6522,7 +6819,16 @@
   "source_design_id": "DAHPeVenQV0",
   "page": null,
   "notes": "Colombia energy-access layer map (template deck \"The Complete Ecosystem Map\")",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "co-cif-climate-investment-funds",
@@ -6537,7 +6843,16 @@
   "source_design_id": "DAHPeVenQV0",
   "page": null,
   "notes": "Colombia energy-access layer map (template deck \"The Complete Ecosystem Map\")",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "co-minenergia",
@@ -6552,7 +6867,16 @@
   "source_design_id": "DAHPeVenQV0",
   "page": null,
   "notes": "Colombia energy-access layer map (template deck \"The Complete Ecosystem Map\")",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "co-creg",
@@ -6567,7 +6891,16 @@
   "source_design_id": "DAHPeVenQV0",
   "page": null,
   "notes": "Colombia energy-access layer map (template deck \"The Complete Ecosystem Map\")",
-  "website_check": "301"
+  "website_check": "301",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "co-upme",
@@ -6582,7 +6915,16 @@
   "source_design_id": "DAHPeVenQV0",
   "page": null,
   "notes": "Colombia energy-access layer map (template deck \"The Complete Ecosystem Map\")",
-  "website_check": "000"
+  "website_check": "000",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  }
  },
  {
   "id": "co-ipse",
@@ -6597,6 +6939,15 @@
   "source_design_id": "DAHPeVenQV0",
   "page": null,
   "notes": "Colombia energy-access layer map (template deck \"The Complete Ecosystem Map\")",
-  "website_check": "200"
+  "website_check": "200",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  }
  }
 ]
