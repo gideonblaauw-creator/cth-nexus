@@ -121,43 +121,52 @@ function layoutPathPositions(ordered) {
   return positions;
 }
 
-function fitSigmaCamera(sigma, padding = 0.2) {
+/** Fit camera using Sigma's graph bbox (custom ratio math was leaving the graph off-screen). */
+function fitSigmaViewport(sigma) {
+  if (!sigma) return false;
+  sigma.resize();
   const graph = sigma.getGraph();
-  if (graph.order === 0) return;
+  if (graph.order === 0) return false;
   const { width, height } = sigma.getDimensions();
   if (width < 4 || height < 4) return false;
-  let minX = Infinity;
-  let minY = Infinity;
-  let maxX = -Infinity;
-  let maxY = -Infinity;
-  graph.forEachNode((_, attr) => {
-    minX = Math.min(minX, attr.x);
-    maxX = Math.max(maxX, attr.x);
-    minY = Math.min(minY, attr.y);
-    maxY = Math.max(maxY, attr.y);
-  });
-  const graphWidth = Math.max(maxX - minX, 80);
-  const graphHeight = Math.max(maxY - minY, 40);
-  const ratio = Math.max(
-    graphWidth / width,
-    graphHeight / height,
-  ) * (1 + padding);
-  sigma.getCamera().animate({
-    x: (minX + maxX) / 2,
-    y: (minY + maxY) / 2,
-    ratio,
-  }, { duration: 0 });
+  if (typeof sigma.getGraphDimensions === 'function') {
+    const state = sigma.getGraphDimensions();
+    sigma.getCamera().setState(state);
+  } else {
+    sigma.getCamera().reset({ duration: 0 });
+  }
   sigma.refresh();
   return true;
 }
 
-function markGraphReady(container, graph) {
+function countCanvasPaint(canvas) {
+  if (!canvas) return 0;
+  const gl = canvas.getContext('webgl2', { preserveDrawingBuffer: true })
+    || canvas.getContext('webgl', { preserveDrawingBuffer: true });
+  if (!gl) return -1;
+  const pixels = new Uint8Array(canvas.width * canvas.height * 4);
+  gl.readPixels(0, 0, canvas.width, canvas.height, gl.RGBA, gl.UNSIGNED_BYTE, pixels);
+  let painted = 0;
+  for (let i = 0; i < pixels.length; i += 4) {
+    if (pixels[i + 3] > 8) painted += 1;
+  }
+  return painted;
+}
+
+function markGraphReady(container, graph, sigmaInstance) {
   if (!container) return;
   const n = graph?.order ?? 0;
   const e = graph?.size ?? 0;
   container.dataset.g2GraphNodes = String(n);
   container.dataset.g2GraphEdges = String(e);
-  container.dispatchEvent(new CustomEvent('g2-sigma-ready', { detail: { nodes: n, edges: e } }));
+  const canvas = container.querySelector('canvas');
+  const painted = countCanvasPaint(canvas);
+  container.dataset.g2GraphPainted = String(Math.max(0, painted));
+  container.dataset.g2GraphReady = painted > 80 ? '1' : '0';
+  if (sigmaInstance) container._g2Sigma = sigmaInstance;
+  container.dispatchEvent(new CustomEvent('g2-sigma-ready', {
+    detail: { nodes: n, edges: e, painted },
+  }));
 }
 
 export function bootJourneyG2(bundle, root) {
@@ -258,7 +267,7 @@ export function bootJourneyG2(bundle, root) {
           graph.addEdgeWithKey(key, e.source, e.target, {
             color: hot ? PATH_COLOR : PATH_DIM,
             size: hot ? 3.5 : 1.8,
-            type: 'arrow',
+            type: 'line',
           });
         } catch {
           /* duplicate */
@@ -270,18 +279,9 @@ export function bootJourneyG2(bundle, root) {
         labelDensity: 1,
         labelRenderedSizeThreshold: 0,
         enableEdgeEvents: true,
-        defaultEdgeType: 'arrow',
-        allowInvalidContainer: true,
-        stagePadding: 24,
-        renderEdgeLabels: false,
-      });
-      container.querySelectorAll('canvas').forEach((c) => {
-        try {
-          const gl = c.getContext('webgl2') || c.getContext('webgl');
-          if (gl) gl.canvas.setAttribute('data-sigma-gl', '1');
-        } catch {
-          /* ignore */
-        }
+        defaultEdgeType: 'line',
+        allowInvalidContainer: false,
+        stagePadding: 28,
       });
 
       sigma.on('clickNode', ({ node }) => {
@@ -291,18 +291,21 @@ export function bootJourneyG2(bundle, root) {
       if (!sigmaResizeObserver && typeof ResizeObserver !== 'undefined') {
         sigmaResizeObserver = new ResizeObserver(() => {
           if (!sigma || !graphContainerReady()) return;
-          fitSigmaCamera(sigma, 0.25);
-          sigma.refresh();
-          markGraphReady(container, graph);
+          fitSigmaViewport(sigma);
+          markGraphReady(container, graph, sigma);
         });
         sigmaResizeObserver.observe(container);
       }
-      requestAnimationFrame(() => {
-        requestAnimationFrame(() => {
-          fitSigmaCamera(sigma, 0.25);
-          markGraphReady(container, graph);
-        });
-      });
+      const paintWhenReady = (attempt = 0) => {
+        if (!sigma) return;
+        fitSigmaViewport(sigma);
+        markGraphReady(container, graph, sigma);
+        const painted = Number(container.dataset.g2GraphPainted || 0);
+        if (painted < 80 && attempt < 12) {
+          requestAnimationFrame(() => paintWhenReady(attempt + 1));
+        }
+      };
+      requestAnimationFrame(() => requestAnimationFrame(() => paintWhenReady(0)));
     } else {
       graph = sigma.getGraph();
       ordered.forEach((id) => {
@@ -323,8 +326,8 @@ export function bootJourneyG2(bundle, root) {
         graph.setEdgeAttribute(edgeKeyId, 'size', hot ? 3.5 : 1.8);
       });
       sigma.refresh();
-      fitSigmaCamera(sigma, 0.25);
-      markGraphReady(container, graph);
+      fitSigmaViewport(sigma);
+      markGraphReady(container, graph, sigma);
     }
   }
 
@@ -559,8 +562,35 @@ export function bootJourneyG2(bundle, root) {
     refresh();
   });
 
+  function waitForGraphReady(timeoutMs = 8000) {
+    return new Promise((resolve) => {
+      const start = Date.now();
+      const tick = () => {
+        const el = els.graph;
+        const nodes = Number(el?.dataset?.g2GraphNodes || 0);
+        const painted = Number(el?.dataset?.g2GraphPainted || 0);
+        if (nodes > 0 && painted > 80) {
+          resolve({ nodes, painted, edges: Number(el?.dataset?.g2GraphEdges || 0) });
+          return;
+        }
+        if (sigma) fitSigmaViewport(sigma);
+        if (Date.now() - start > timeoutMs) {
+          resolve({ nodes, painted, edges: Number(el?.dataset?.g2GraphEdges || 0), timeout: true });
+          return;
+        }
+        requestAnimationFrame(tick);
+      };
+      tick();
+    });
+  }
+
   refresh();
-  return { refresh, selectStep, mapPinStatus: (id) => mapPinStatus(bundle, id), listMapPins: () => {
+  return {
+    refresh,
+    selectStep,
+    waitForGraphReady,
+    mapPinStatus: (id) => mapPinStatus(bundle, id),
+    listMapPins: () => {
     const pins = [];
     actorIdsOnPath().forEach((id) => {
       const p = mapPinStatus(bundle, id);

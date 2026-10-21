@@ -73,6 +73,9 @@
     const root = document.querySelector('[data-g2-root]');
     const api = bootJourneyG2(bundle, root);
     window.__g2Mock = api;
+    api.waitForGraphReady().then(() => {
+      document.body.dataset.g2VisualReady = '1';
+    });
 
     wireChallengeSelect(document.getElementById('mock-challenge-select'), bundle, () => {
       api.refresh();

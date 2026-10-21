@@ -9,35 +9,33 @@ const BASE = (process.env.MOCK_BASE_URL || 'http://127.0.0.1:8765').replace(/\/?
 const G2 = `${BASE}/ecosystem/mock/story-directions/g2/index.html`;
 
 async function waitForSigmaReady(page) {
+  await page.waitForFunction(() => document.body.dataset.g2VisualReady === '1', { timeout: 45000 });
   await page.waitForFunction(() => {
     const el = document.querySelector('[data-g2-graph]');
-    const n = Number(el?.dataset?.g2GraphNodes || 0);
-    return n > 0 && el?.querySelector('canvas')?.width > 0;
+    const nodes = Number(el?.dataset?.g2GraphNodes || 0);
+    const painted = Number(el?.dataset?.g2GraphPainted || 0);
+    return nodes > 0 && painted > 80;
   }, { timeout: 45000 });
-  await page.waitForTimeout(250);
 }
 
 async function assertSigmaCanvasNonBlank(page) {
   const stats = await page.evaluate(() => {
     const wrap = document.querySelector('[data-g2-graph]');
-    const canvas = wrap?.querySelector('canvas');
     const nodes = Number(wrap?.dataset?.g2GraphNodes || 0);
     const edges = Number(wrap?.dataset?.g2GraphEdges || 0);
-    if (!canvas || nodes <= 0) return { ok: false, nodes, edges, reason: 'no canvas or nodes' };
-    if (canvas.width < 8 || canvas.height < 8) return { ok: false, nodes, edges, reason: 'tiny canvas' };
-    const gl = canvas.getContext('webgl2') || canvas.getContext('webgl');
-    if (!gl) return { ok: nodes > 0 && edges > 0, nodes, edges };
-    const pixels = new Uint8Array(canvas.width * canvas.height * 4);
-    gl.readPixels(0, 0, canvas.width, canvas.height, gl.RGBA, gl.UNSIGNED_BYTE, pixels);
-    let painted = 0;
-    for (let i = 0; i < pixels.length; i += 4) {
-      if (pixels[i + 3] > 0) painted += 1;
-    }
-    return { ok: painted > 50 || (nodes > 0 && edges > 0), painted, nodes, edges };
+    const painted = Number(wrap?.dataset?.g2GraphPainted || 0);
+    const canvas = wrap?.querySelector('canvas');
+    return {
+      nodes,
+      edges,
+      painted,
+      canvas: canvas ? { w: canvas.width, h: canvas.height } : null,
+    };
   });
   expect(stats.nodes, 'sigma node count').toBeGreaterThan(0);
   expect(stats.edges, 'sigma edge count').toBeGreaterThan(0);
-  expect(stats.ok, JSON.stringify(stats)).toBeTruthy();
+  expect(stats.painted, 'sigma painted pixels').toBeGreaterThan(80);
+  expect(stats.canvas?.w, 'sigma canvas width').toBeGreaterThan(0);
 }
 
 test.describe('mock story direction G2', () => {
@@ -51,14 +49,13 @@ test.describe('mock story direction G2', () => {
     await assertSigmaCanvasNonBlank(page);
 
     expect(page.url()).toContain('challenge=PE-2-agua');
+    await expect(page).toHaveTitle(/Camino de la startup · Startup journey/);
+    await expect(page.locator('.ph-title')).toHaveText('Camino de la startup');
 
     await expect(page.locator('.g2-triptych')).toBeVisible();
     await expect(page.locator('[data-g2-map]')).toBeVisible();
     await expect(page.locator('[data-g2-graph]')).toBeVisible();
     await expect(page.locator('[data-g2-inspector]')).toBeVisible();
-
-    const nodeCount = await page.locator('[data-g2-graph]').evaluate((el) => Number(el.dataset.g2GraphNodes || 0));
-    expect(nodeCount).toBeGreaterThan(0);
 
     const stat = page.locator('[data-g2-stat]');
     await expect(stat).toContainText('12.000 m³');
@@ -102,7 +99,7 @@ test.describe('mock story direction G2', () => {
 
     await page.setViewportSize({ width: 1440, height: 900 });
     await waitForSigmaReady(page);
-    await page.waitForTimeout(400);
+    await page.waitForTimeout(500);
 
     await page.screenshot({
       path: path.join(ARTIFACTS, 'direction-g2-desktop.png'),
@@ -111,7 +108,7 @@ test.describe('mock story direction G2', () => {
 
     await page.setViewportSize({ width: 390, height: 844 });
     await waitForSigmaReady(page);
-    await page.waitForTimeout(400);
+    await page.waitForTimeout(500);
     await page.screenshot({
       path: path.join(ARTIFACTS, 'direction-g2-mobile.png'),
       fullPage: true,
