@@ -310,38 +310,6 @@
   "source_url": "https://www.climatepolicydatabase.org/countries/colombia"
  },
  {
-  "source": "policy:co-taxonomia-verde",
-  "target": "challenge:PE-1-bosques",
-  "type": "addresses_challenge",
-  "verified": false,
-  "suggested": true,
-  "source_url": "https://www.taxonomiaverde.gov.co/"
- },
- {
-  "source": "policy:co-taxonomia-verde",
-  "target": "challenge:PE-2-agua",
-  "type": "addresses_challenge",
-  "verified": false,
-  "suggested": true,
-  "source_url": "https://www.taxonomiaverde.gov.co/"
- },
- {
-  "source": "policy:co-ndc-2020-update",
-  "target": "challenge:PE-1-bosques",
-  "type": "addresses_challenge",
-  "verified": false,
-  "suggested": true,
-  "source_url": "https://unfccc.int/sites/default/files/NDC/2022-06/Colombia_NDC_actualizada.pdf"
- },
- {
-  "source": "policy:co-ndc-cpd-2025",
-  "target": "challenge:PE-1-bosques",
-  "type": "addresses_challenge",
-  "verified": false,
-  "suggested": true,
-  "source_url": "https://www.climatepolicydatabase.org/policies/nationally-determined-contribution-ndc-176"
- },
- {
   "source": "policy:co-conpes-4021-2021",
   "target": "challenge:PE-1-bosques",
   "type": "addresses_challenge",
@@ -478,77 +446,5 @@
   "verified": false,
   "suggested": true,
   "source_url": "https://climate-laws.org/geographies/peru"
- },
- {
-  "source": "policy:sv-ley-medio-ambiente-1998",
-  "target": "challenge:PE-1-bosques",
-  "type": "addresses_challenge",
-  "verified": false,
-  "suggested": true,
-  "source_url": "https://climate-laws.org/geographies/el-salvador"
- },
- {
-  "source": "policy:sv-ley-medio-ambiente-1998",
-  "target": "challenge:PE-2-agua",
-  "type": "addresses_challenge",
-  "verified": false,
-  "suggested": true,
-  "source_url": "https://climate-laws.org/geographies/el-salvador"
- },
- {
-  "source": "policy:sv-pncc-2017",
-  "target": "challenge:PE-2-agua",
-  "type": "addresses_challenge",
-  "verified": false,
-  "suggested": true,
-  "source_url": "https://climate-laws.org/geographies/el-salvador"
- },
- {
-  "source": "policy:sv-ndc-2021",
-  "target": "challenge:PE-1-bosques",
-  "type": "addresses_challenge",
-  "verified": false,
-  "suggested": true,
-  "source_url": "https://unfccc.int/sites/default/files/NDC/2022-06/El%20Salvador_NDC%20Actualizaci%C3%B3n%202021.pdf"
- },
- {
-  "source": "policy:sv-ndc-2021",
-  "target": "challenge:PE-2-agua",
-  "type": "addresses_challenge",
-  "verified": false,
-  "suggested": true,
-  "source_url": "https://unfccc.int/sites/default/files/NDC/2022-06/El%20Salvador_NDC%20Actualizaci%C3%B3n%202021.pdf"
- },
- {
-  "source": "policy:sv-ndc-cpd",
-  "target": "challenge:PE-1-bosques",
-  "type": "addresses_challenge",
-  "verified": false,
-  "suggested": true,
-  "source_url": "https://www.climatepolicydatabase.org/countries/el-salvador"
- },
- {
-  "source": "policy:sv-ndc-cpd",
-  "target": "challenge:PE-2-agua",
-  "type": "addresses_challenge",
-  "verified": false,
-  "suggested": true,
-  "source_url": "https://www.climatepolicydatabase.org/countries/el-salvador"
- },
- {
-  "source": "policy:sv-ley-aguas-2012",
-  "target": "challenge:PE-2-agua",
-  "type": "addresses_challenge",
-  "verified": false,
-  "suggested": true,
-  "source_url": "https://climate-laws.org/geographies/el-salvador"
- },
- {
-  "source": "policy:sv-politica-bioeconomia-2022",
-  "target": "challenge:PE-1-bosques",
-  "type": "addresses_challenge",
-  "verified": false,
-  "suggested": true,
-  "source_url": "https://climate-laws.org/geographies/el-salvador"
  }
 ]

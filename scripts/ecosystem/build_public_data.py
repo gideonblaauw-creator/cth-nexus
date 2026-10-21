@@ -12,6 +12,7 @@ from prepare_geo import geocode_actor
 REPO = Path(__file__).resolve().parents[2]
 DATA = REPO / "static" / "ecosystem" / "data"
 ONEPAGERS = REPO / "onepagers" / "data"
+ONEPAGER_SITES = REPO / "onepagers" / "sites"
 
 DROP_KEYS = {
     "notes",
@@ -40,8 +41,12 @@ GENERIC_HOSTS = frozenset(
 )
 
 
-def host_key(url: str | None) -> str | None:
+def host_key(url: str | dict | None) -> str | None:
     if not url:
+        return None
+    if isinstance(url, dict):
+        url = url.get("en") or url.get("es") or url.get("url") or ""
+    if not isinstance(url, str) or not url.strip():
         return None
     u = url if url.startswith("http") else f"https://{url}"
     try:
@@ -67,8 +72,12 @@ def scrub_value(v):
     return v
 
 
-def norm_name(s: str) -> str:
-    s = re.sub(r"[^a-z0-9]+", "", (s or "").lower())
+def norm_name(s: str | dict | None) -> str:
+    if isinstance(s, dict):
+        s = s.get("en") or s.get("es") or s.get("EN") or s.get("ES") or ""
+    if not isinstance(s, str):
+        s = str(s or "")
+    s = re.sub(r"[^a-z0-9]+", "", s.lower())
     return s
 
 
@@ -79,7 +88,7 @@ def load_onepager_index() -> dict[str, str]:
     by_name: dict[str, str] = {}
     if not ONEPAGERS.is_dir():
         return {"host": by_host, "slug": by_slug, "name": by_name}
-    for path in ONEPAGERS.glob("*.json"):
+    for path in ONEPAGERS.rglob("*.json"):
         if path.name.startswith("s-pages-"):
             continue
         try:
@@ -87,6 +96,10 @@ def load_onepager_index() -> dict[str, str]:
         except json.JSONDecodeError:
             continue
         slug = doc.get("slug") or path.stem
+        if isinstance(slug, dict):
+            slug = slug.get("en") or slug.get("es") or path.stem
+        if not isinstance(slug, str):
+            slug = str(slug)
         by_slug[slug.lower()] = slug
         nm = norm_name(doc.get("name") or "")
         if nm:
@@ -113,6 +126,33 @@ def match_card_slug(actor: dict, idx: dict) -> str | None:
     return None
 
 
+def valid_s_slugs() -> set[str]:
+    if not ONEPAGER_SITES.is_dir():
+        return set()
+    return {
+        p.name
+        for p in ONEPAGER_SITES.iterdir()
+        if p.is_dir() and (p / "index.html").is_file()
+    }
+
+
+def resolve_card_slug(raw: dict, idx: dict, valid_s: set[str] | None = None) -> str | None:
+    """Match one-pager /s/{slug} from website, name, id, or staff nexus_slug on raw row."""
+    valid_s = valid_s or valid_s_slugs()
+    slug = match_card_slug(raw, idx)
+    if slug and slug in valid_s:
+        return slug
+    for cand in (raw.get("nexus_slug"), (raw.get("nexus") or {}).get("card_slug")):
+        if not cand:
+            continue
+        key = str(cand).lower()
+        if key in idx["slug"] and idx["slug"][key] in valid_s:
+            return idx["slug"][key]
+        if key in valid_s:
+            return key
+    return None
+
+
 def normalize_geo(raw: dict, geo: dict | None) -> dict:
     if not geo:
         return geocode_actor({**raw, "id": raw["id"]})["geo"]
@@ -129,19 +169,28 @@ def normalize_geo(raw: dict, geo: dict | None) -> dict:
     return geocode_actor({**raw, "id": raw["id"]})["geo"]
 
 
-def sanitize_actor(raw: dict, idx: dict) -> dict:
+def sanitize_actor(raw: dict, idx: dict, valid_s: set[str] | None = None) -> dict:
     a = {k: v for k, v in raw.items() if k not in DROP_KEYS}
     a = scrub_value(a) or {}
     a["geo"] = normalize_geo(raw, raw.get("geo") or a.get("geo"))
-    slug = match_card_slug(a, idx)
+    slug = resolve_card_slug(raw, idx, valid_s)
     nexus = dict(a.get("nexus") or {})
     if slug:
         nexus["card_slug"] = slug
-    elif "card_slug" in nexus:
-        pass
     else:
-        nexus.setdefault("card_slug", None)
-    a["nexus"] = nexus
+        nexus.pop("card_slug", None)
+    hub_pages_path = DATA / "hub-pages.json"
+    valid_hubs = {
+        p.name
+        for p in (REPO / "site" / "cth-static" / "hubs").iterdir()
+        if p.is_dir() and (p / "index.html").is_file()
+    } if (REPO / "site" / "cth-static" / "hubs").is_dir() else set()
+    if hub_pages_path.exists():
+        hub_pages = json.loads(hub_pages_path.read_text(encoding="utf-8"))
+        hub_slug = hub_pages.get(a["id"])
+        if hub_slug and hub_slug in valid_hubs:
+            nexus["hub_slug"] = hub_slug
+    a["nexus"] = nexus if nexus else {}
     if a.get("type") == "person" and not a.get("linkedin"):
         a["linkedin"] = None
     return {k: v for k, v in a.items() if k not in DROP_KEYS}
@@ -153,6 +202,70 @@ def sanitize_policies(policies: list) -> list:
         clean = {k: v for k, v in p.items() if k not in ("notes", "internal_notes")}
         out.append(scrub_value(clean))
     return out
+
+
+COUNTRY_CODE = {"Peru": "PE", "Colombia": "CO", "El Salvador": "SV"}
+
+
+def _entity_country_code(
+    entity_id: str,
+    actors_by_id: dict,
+    policies_by_id: dict,
+    challenges: dict,
+    datasets: dict | None = None,
+) -> str | None:
+    datasets = datasets or {}
+    if entity_id.startswith("challenge:"):
+        return COUNTRY_CODE.get((challenges.get(entity_id) or {}).get("country"))
+    if entity_id.startswith("policy:"):
+        return COUNTRY_CODE.get((policies_by_id.get(entity_id) or {}).get("country"))
+    if entity_id.startswith("dataset:"):
+        return COUNTRY_CODE.get((datasets.get(entity_id) or {}).get("country"))
+    actor = actors_by_id.get(entity_id)
+    if actor:
+        return COUNTRY_CODE.get(actor.get("country") or (actor.get("geo") or {}).get("country"))
+    return None
+
+
+def drop_cross_country_graph_relations(
+    relations: list,
+    actors_by_id: dict,
+    policies_by_id: dict,
+    challenges: dict,
+    datasets: dict | None = None,
+) -> tuple[list, int]:
+    kept = []
+    dropped = 0
+    for r in relations:
+        cs = _entity_country_code(r.get("source", ""), actors_by_id, policies_by_id, challenges, datasets)
+        ct = _entity_country_code(r.get("target", ""), actors_by_id, policies_by_id, challenges, datasets)
+        if cs and ct and cs != ct:
+            dropped += 1
+            continue
+        kept.append(r)
+    return kept, dropped
+
+
+def drop_cross_country_policy_relations(
+    relations: list,
+    actors_by_id: dict,
+    policies_by_id: dict,
+    challenges: dict,
+) -> tuple[list, int]:
+    """Remove issues_policy / addresses_challenge edges whose endpoints differ in country."""
+    kept = []
+    dropped = 0
+    for r in relations:
+        if r.get("type") not in ("issues_policy", "addresses_challenge"):
+            kept.append(r)
+            continue
+        cs = _entity_country_code(r.get("source", ""), actors_by_id, policies_by_id, challenges)
+        ct = _entity_country_code(r.get("target", ""), actors_by_id, policies_by_id, challenges)
+        if cs and ct and cs != ct:
+            dropped += 1
+            continue
+        kept.append(r)
+    return kept, dropped
 
 
 def sanitize_policy_relations(relations: list) -> list:
@@ -200,9 +313,23 @@ def main() -> None:
 
     raw_actors = json.loads(raw_path.read_text(encoding="utf-8"))
     relations = json.loads((DATA / "relations.json").read_text(encoding="utf-8"))
+    story_path = DATA / "story-chapters.json"
+    challenges = {}
+    datasets = {}
+    if story_path.exists():
+        story_doc = json.loads(story_path.read_text(encoding="utf-8"))
+        challenges = story_doc.get("challenges") or {}
+        datasets = story_doc.get("datasets") or {}
     idx = load_onepager_index()
+    valid_s = valid_s_slugs()
 
-    actors = [sanitize_actor(a, idx) for a in raw_actors]
+    actors = [sanitize_actor(a, idx, valid_s) for a in raw_actors]
+    actors_by_id_pre = {a["id"]: a for a in actors}
+    relations, dropped_gr = drop_cross_country_graph_relations(
+        relations, actors_by_id_pre, {}, challenges, datasets,
+    )
+    if dropped_gr:
+        print(f"Dropped {dropped_gr} cross-country graph relation(s)")
     relations = sanitize_relations(relations)
 
     actors_path.write_text(json.dumps(actors, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
@@ -214,13 +341,36 @@ def main() -> None:
         policies = sanitize_policies(json.loads(policies_path.read_text(encoding="utf-8")))
         policies_path.write_text(json.dumps(policies, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     if policy_rels_path.exists():
-        prel = sanitize_policy_relations(json.loads(policy_rels_path.read_text(encoding="utf-8")))
+        story_path = DATA / "story-chapters.json"
+        challenges = {}
+        if story_path.exists():
+            challenges = json.loads(story_path.read_text(encoding="utf-8")).get("challenges") or {}
+        policies_by_id = {}
+        if policies_path.exists():
+            for p in json.loads(policies_path.read_text(encoding="utf-8")):
+                if p.get("id"):
+                    policies_by_id[p["id"]] = p
+        actors_by_id = {a["id"]: a for a in actors}
+        raw_prel = json.loads(policy_rels_path.read_text(encoding="utf-8"))
+        raw_prel, dropped_cc = drop_cross_country_policy_relations(
+            raw_prel, actors_by_id, policies_by_id, challenges,
+        )
+        if dropped_cc:
+            print(f"Dropped {dropped_cc} cross-country policy relation(s)")
+        prel = sanitize_policy_relations(raw_prel)
         policy_rels_path.write_text(json.dumps(prel, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
     with_slug = sum(1 for a in actors if a.get("nexus", {}).get("card_slug"))
     pol_n = len(json.loads(policies_path.read_text())) if policies_path.exists() else 0
     pol_r = len(json.loads(policy_rels_path.read_text())) if policy_rels_path.exists() else 0
     print(f"Public actors: {len(actors)}, card_slug: {with_slug}, relations: {len(relations)}, policies: {pol_n}, policy_relations: {pol_r}")
+
+    try:
+        from build_nexus_crosslinks import main as build_crosslinks_main
+
+        build_crosslinks_main()
+    except Exception as exc:
+        print(f"warn: build_nexus_crosslinks failed: {exc}")
 
 
 if __name__ == "__main__":

@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "banner": {
     "es": "Modo guiado · Construir partnerships (sin fechas) · Líneas punteadas = Suggested (no verificadas)",
     "en": "Guided mode · Building partnerships (no dates) · Dashed lines = Suggested (unverified)"
@@ -26,24 +26,25 @@
       "map": { "center": [-77.0, -12.1], "zoom": 5.2, "countries": ["PE", "SV"] }
     },
     {
-      "id": "capital",
-      "title": { "es": "3 · Capital", "en": "3 · Capital" },
-      "blurb": {
-        "es": "Cofinanciamiento y capas de fondos que conectan programas con implementadores.",
-        "en": "Co-funding and capital layers linking programs to implementers."
-      },
-      "edgeTypes": ["cofunds", "funds_layer"],
-      "map": { "center": [-77.2, -11.8], "zoom": 5.0, "countries": ["PE"] }
-    },
-    {
       "id": "hubs",
-      "title": { "es": "4 · Hubs e incubación", "en": "4 · Hubs & incubation" },
+      "title": { "es": "3 · Hubs e incubación", "en": "3 · Hubs & incubation" },
       "blurb": {
-        "es": "Universidades y hubs REIN que hospedan, incuban y conectan startups.",
-        "en": "Universities and REIN hubs that host, incubate, and connect startups."
+        "es": "Universidades y hubs REIN que hospedan, incuban y conectan startups. Actores con página REIN enlazan a `/hubs/{slug}/`.",
+        "en": "Universities and REIN hubs that host, incubate, and connect startups. Actors with a REIN hub page link to `/hubs/{slug}/`."
       },
       "edgeTypes": ["hosts", "incubated", "accelerated", "partner"],
       "map": { "center": [-77.0, -12.0], "zoom": 5.3, "countries": ["PE", "SV"] }
+    },
+    {
+      "id": "data",
+      "title": { "es": "4 · Datos y evidencia", "en": "4 · Data & evidence" },
+      "blurb": {
+        "es": "Conjuntos de datos abiertos y evidencia (`published_dataset`, `uses_dataset`). Nodos MINAM/datosabiertos pendientes de curación en research/ecosystem-policy.",
+        "en": "Open datasets and evidence links (`published_dataset`, `uses_dataset`). MINAM/datosabiertos nodes pending research/ecosystem-policy curation."
+      },
+      "edgeTypes": ["published_dataset", "uses_dataset", "cites_dataset", "evidence_from"],
+      "map": { "center": [-77.0, -12.1], "zoom": 5.0, "countries": ["PE"] },
+      "pending": true
     },
     {
       "id": "partnerships",
@@ -54,6 +55,16 @@
       },
       "edgeTypes": null,
       "map": { "center": [-76.2, -12.8], "zoom": 5.4, "countries": ["PE"] }
+    },
+    {
+      "id": "capital",
+      "title": { "es": "6 · Capital", "en": "6 · Capital" },
+      "blurb": {
+        "es": "Cofinanciamiento y capas de fondos que conectan programas con implementadores.",
+        "en": "Co-funding and capital layers linking programs to implementers."
+      },
+      "edgeTypes": ["cofunds", "funds_layer"],
+      "map": { "center": [-77.2, -11.8], "zoom": 5.0, "countries": ["PE"] }
     }
   ],
   "challenges": {
@@ -66,6 +77,19 @@
       "label": { "es": "Reto: Agua & cuencas (PE)", "en": "Challenge: Water & basins (PE)" },
       "country": "Peru",
       "geo": { "lat": -12.8, "lng": -76.2 }
+    }
+  },
+  "datasets": {
+    "dataset:pe-minam-datosabiertos-pending": {
+      "label": {
+        "es": "MINAM · Datos Abiertos (PE) — pendiente",
+        "en": "MINAM · Open Data (PE) — pending"
+      },
+      "country": "Peru",
+      "status": "pending",
+      "publisher": "MINAM",
+      "source_url": "https://www.datosabiertos.gob.pe/organization/minam",
+      "geo": { "lat": -12.0952, "lng": -77.0599 }
     }
   },
   "constellations": [
