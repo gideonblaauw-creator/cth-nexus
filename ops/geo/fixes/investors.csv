@@ -1,530 +1,530 @@
-entity_type,id,name,precision,street_address,city,country,lat,lng,source_url,notes
-investor_crm,959,10 investment,city,,Amsterdam,Netherlands,,,https://10investments.nl,HQ from official website (domain)
-investor_crm,841,1955 Capital,city,,San Mateo,United States,,,https://1955.capital,HQ from official website (domain)
-investor_crm,814,2C Ventures,city,,Madrid,Spain,,,https://www.2cventures.eu,HQ from official website (domain)
-investor_crm,860,2degrees,city,,London,United Kingdom,,,https://www.weare2degrees.com,HQ from official website (domain)
-investor_crm,678,4Impact VC,city,,The Hague,Netherlands,,,https://www.4impact.vc,HQ from official website (domain)
-investor_crm,852,500 startups,city,,San Francisco,United States,,,https://500.co,HQ from official website (domain)
-investor_crm,859,7percent ventures,city,,Amsterdam,Netherlands,,,https://www.7pc.vc,HQ from official website (domain)
-investor_crm,987,AALchemy ventures //n Andrey Kostyuk,city,,Luxembourg,Luxembourg,,,https://aalchemy.eu,HQ from official website (domain)
-investor_crm,679,ABN AMRO,city,,Amsterdam,Netherlands,,,https://www.abnamro.com/en/about-abn-amro/information/about-us.html,HQ from official website (domain)
-investor_crm,174,ABN AMRO Bank N.V.,city,,Amsterdam,Netherlands,,,https://www.abnamro.com/en/about-abn-amro/information/about-us.html,HQ from official website (domain)
-investor_crm,147,ABN Amro Sustainable Impact Fund,city,,Amsterdam,Netherlands,,,https://www.abnamro.nl/en/commercialbanking/corporates-institutionals/products/expand-your-business/private-equity/sustainable-impact-fund/index.html,entity-specific HQ page
-investor_crm,680,Achmea,city,,Zeist,Netherlands,,,https://www.achmea.nl/en,HQ from official website (domain)
-investor_crm,829,Achmea Impact Fund,city,,Zeist,Netherlands,,,https://www.achmeainnovationfund.nl/en,HQ from official website (domain)
-investor_crm,148,Achmea Impact Ventures,city,,Zeist,Netherlands,,,https://www.achmea-impact.ventures,HQ from official website (domain)
-investor_crm,799,Achmea Ventures,city,,Zeist,Netherlands,,,https://www.achmea-impact.ventures,HQ from official website (domain)
-investor_crm,855,ACT Venture Capital,city,,Dublin,Ireland,,,https://actventure.capital,HQ from official website (domain)
-investor_crm,185,Acumen,city,,New York,United States,,,https://acumen.org,HQ from official website (domain)
-investor_crm,71,Acumen Trellis,city,,New York,United States,,,https://acumen.org,HQ from official website (domain)
-investor_crm,111,AEBAN,city,,Madrid,Spain,,,https://aeban.es,HQ from official website (domain)
-investor_crm,175,AEGON,city,,The Hague,Netherlands,,,https://www.aegon.com/about,HQ from official website (domain)
-investor_crm,72,AfricInvest,city,,Tunis,Tunisia,,,https://www.africinvest.com,HQ from official website (domain)
-investor_crm,73,Afrilabs,city,,Nairobi,Kenya,,,https://www.afrilabs.com,HQ from official website (domain)
-investor_crm,74,Agdevco,city,,London,United Kingdom,,,https://www.agdevco.com,HQ from official website (domain)
-investor_crm,75,Agfunder,city,,San Francisco,United States,,,https://agfunder.com,HQ from official website (domain)
-investor_crm,76,Algebra Ventures,city,,Cairo,Egypt,,,https://algebraventures.com,HQ from official website (domain)
-investor_crm,77,Alpha Mundi,city,,Zurich,Switzerland,,,https://www.alphamundigroup.com,HQ from official website (domain)
-investor_crm,614,Alphamundi,city,,Zurich,Switzerland,,,https://www.alphamundigroup.com,HQ from official website (domain)
-investor_crm,589,alter equity,city,,Paris,France,,,https://www.alter-equity.com,HQ from official website (domain)
-investor_crm,861,Altor Equity Partners AB,city,,Stockholm,Sweden,,,https://www.altor.com,HQ from official website (domain)
-investor_crm,862,Amadeus Capital Partners,city,,Cambridge,United Kingdom,,,https://www.amadeuscapital.com,HQ from official website (domain)
-investor_crm,682,AMS Institute,city,,Amsterdam,Netherlands,,,https://www.ams-institute.org,HQ from official website (domain)
-investor_crm,113,Ananda VC,city,,Berlin,Germany,,,https://ananda.vc,HQ from official website (domain)
-investor_crm,863,Andera,city,,Paris,France,,,https://www.anderapartners.com/en,HQ from official website (domain)
-investor_crm,617,Angel Hub,city,,Mexico City,Mexico,,,https://www.angelhub.mx,HQ from official website (domain)
-investor_crm,618,Angel Investment Network (Colombia),city,,Bogotá,Colombia,,,https://www.angelinvestmentnetwork.com.co,HQ from official website (domain)
-investor_crm,194,Ankur Capital,city,,Mumbai,India,,,https://www.ankurcapital.com,HQ from official website (domain)
-investor_crm,195,Anthos Fund & Asset Management,city,,Amsterdam,Netherlands,,,https://www.anthosam.com,HQ from official website (domain)
-investor_crm,1,APG pension fund,city,,Heerlen,Netherlands,,,https://apg.nl/en/about-apg/organisation,HQ from official website (domain)
-investor_crm,197,Apollo Global Management,city,,New York,United States,,,https://www.apollo.com,HQ from official website (domain)
-investor_crm,839,Applied Ventures,city,,Santa Clara,United States,,,https://www.appliedmaterials.com,HQ from official website (domain)
-investor_crm,621,Arrebol,city,,Bogotá,Colombia,,,https://arrebolcap.com,HQ from official website (domain)
-investor_crm,590,asc impact GmbH,city,,Frankfurt am Main,Germany,,,https://asc-impact.com/en/contact,HQ from official website (domain)
-investor_crm,206,Astanor,city,,Brussels,Belgium,,,https://astanor.com,HQ from official website (domain)
-investor_crm,858,At One Ventures,city,,San Francisco,United States,,,https://www.atoneventures.com,HQ from official website (domain)
-investor_crm,78,Attijari Capital Management and Holdagro,city,,Casablanca,Morocco,,,https://www.fm6i.ma,HQ from official website (domain)
-investor_crm,955,Auriga Partners,city,,Paris,France,,,https://www.aurigapartners.com,HQ from official website (domain)
-investor_crm,3,Avenue,city,,New York,United States,,,https://www.avenuecapital.com,HQ from official website (domain)
-investor_crm,182,AXA Investment Managers,city,,Paris,France,,,https://www.axa-im.com,HQ from official website (domain)
-investor_crm,210,Baillie Gifford,city,,Edinburgh,United Kingdom,,,https://www.bailliegifford.com,HQ from official website (domain)
-investor_crm,5,Barn Invest,city,,São Paulo,Brazil,,,https://www.barninvest.com.br,HQ from official website (domain)
-investor_crm,864,Basinghall Partners,city,,London,United Kingdom,,,https://www.basinghallpartners.com,HQ from official website (domain)
-investor_crm,114,BCombinator,city,,Barcelona,Spain,,,https://bcombinator.com,HQ from official website (domain)
-investor_crm,683,Behold,city,,San Francisco,United States,,,https://behold.vc,HQ from official website (domain)
-investor_crm,115,Belgian Impact Investors Network,city,,Brussels,Belgium,,,https://impactfinance.be,HQ from official website (domain)
-investor_crm,866,Berkeley SkyDeck Fund,city,,Berkeley,United States,,,https://skydeck.vc,HQ from official website (domain)
-investor_crm,6,Better Ventures,city,,Oakland,United States,,,https://www.better.vc,HQ from official website (domain)
-investor_crm,79,Beyond Capital Ventures,city,,Bethesda,United States,,,https://www.beyondcapitalventures.com,HQ from official website (domain)
-investor_crm,216,Big Society Capital,city,,London,United Kingdom,,,https://bettersocietycapital.com,HQ from official website (domain)
-investor_crm,217,BlackRock,city,,New York,United States,,,https://www.blackrock.com/corporate,HQ from official website (domain)
-investor_crm,840,Blitzscaling Ventures,city,,San Francisco,United States,,,https://www.blitzscalingvc.com,HQ from official website (domain)
-investor_crm,867,Bloom Equity,city,,San Francisco,United States,,,https://www.bloomequitypartners.com,HQ from official website (domain)
-investor_crm,869,Blue Ashva,city,,Gurugram,India,,,https://blueashvacapital.com,HQ from official website (domain)
-investor_crm,7,Blue Ashva Capital,city,,Gurugram,India,,,https://blueashvacapital.com,HQ from official website (domain)
-investor_crm,220,Blue Earth Capital AG,city,,Baar,Switzerland,,,https://blueearth.capital,HQ from official website (domain)
-investor_crm,80,Blue Haven Initiative,city,,Cambridge,United States,,,https://www.bluehaveninitiative.com,HQ from official website (domain)
-investor_crm,9,Blue like an orange,city,,Paris,France,,,https://bluelikeanorangecapital.com,HQ from official website (domain)
-investor_crm,8,Blue Orchard,city,,Zurich,Switzerland,,,https://www.blueorchard.com,HQ from official website (domain)
-investor_crm,224,BlueOrchard Finance S.A,city,,Zurich,Switzerland,,,https://www.blueorchard.com,HQ from official website (domain)
-investor_crm,685,BOM,city,,Eindhoven,Netherlands,,,https://www.bom.nl/en,HQ from official website (domain)
-investor_crm,1003,Bonventures,city,,Berlin,Germany,,,https://www.bonventure.de,HQ from official website (domain)
-investor_crm,4,BP Ventures,city,,London,United Kingdom,,,https://bp-ventures.com,HQ from official website (domain)
-investor_crm,686,Brabant Startup Fonds,city,,Breda,Netherlands,,,https://www.braventure.nl,HQ from official website (domain)
-investor_crm,871,Braemer Energy Ventures,city,,Boston,United States,,,https://www.braemarenergy.com,HQ from official website (domain)
-investor_crm,227,Bridges Fund Management,city,,London,United Kingdom,,,https://www.bridgesfundmanagement.com,HQ from official website (domain)
-investor_crm,688,Brightlands Venture Partners,city,,Maastricht,Netherlands,,,https://brightlandsventurepartners.com,HQ from official website (domain)
-investor_crm,228,British International Investment,city,,London,United Kingdom,,,https://www.bii.co.uk,HQ from official website (domain)
-investor_crm,10,British International Investment (BII),city,,London,United Kingdom,,,https://www.bii.co.uk,HQ from official website (domain)
-investor_crm,229,Builders Vision,city,,Chicago,United States,,,https://www.buildersvision.com,HQ from official website (domain)
-investor_crm,81,Calvert Capital,city,,Bethesda,United States,,,https://calvertimpact.org,HQ from official website (domain)
-investor_crm,232,Calvert Impact Capital,city,,Bethesda,United States,,,https://calvertimpact.org,HQ from official website (domain)
-investor_crm,873,Cantos,city,,San Francisco,United States,,,https://cantos.vc,HQ from official website (domain)
-investor_crm,236,Capricorn Investment Group,city,,Palo Alto,United States,,,https://capricornllc.com,HQ from official website (domain)
-investor_crm,12,Carao Ventures,city,,San José,Costa Rica,,,https://www.caraov.com,HQ from official website (domain)
-investor_crm,13,Carbon Equity,city,,Amsterdam,Netherlands,,,https://www.carbonequity.com,HQ from official website (domain)
-investor_crm,876,Catalyze Group,city,,Amsterdam,Netherlands,,,https://www.catalyze-group.com,HQ from official website (domain)
-investor_crm,879,Caterpillar Ventures,city,,Irving,United States,,,https://www.caterpillar.com,HQ from official website (domain)
-investor_crm,880,Charles River Ventures,city,,Palo Alto,United States,,,https://www.crv.com,HQ from official website (domain)
-investor_crm,877,Chevron Technology Ventures,city,,Houston,United States,,,https://chevrontechnologyventures.com,HQ from official website (domain)
-investor_crm,878,Citizen Capital,city,,Paris,France,,,https://citizencapital.eu,HQ from official website (domain)
-investor_crm,881,Climactic VC,city,,London,United Kingdom,,,https://www.climactic.vc,HQ from official website (domain)
-investor_crm,15,Climate Fund Managers,city,,The Hague,Netherlands,,,https://climatefundmanagers.com,HQ from official website (domain)
-investor_crm,973,Climate Market Place,city,,London,United Kingdom,,,https://climate-marketplace.com,HQ from official website (domain)
-investor_crm,882,Closed Loop Partners,city,,New York,United States,,,https://www.closedlooppartners.com,HQ from official website (domain)
-investor_crm,835,CMA CGM,city,,Marseille,France,,,https://www.cmacgm-group.com/en,HQ from official website (domain)
-investor_crm,884,Comcast Ventures,city,,San Francisco,United States,,,https://comcastventures.com,HQ from official website (domain)
-investor_crm,886,Congruent VC,city,,San Francisco,United States,,,https://www.congruentvc.com,HQ from official website (domain)
-investor_crm,982,Core Angel Climate,city,,Lisbon,Portugal,,,https://www.coreangels.com,HQ from official website (domain)
-investor_crm,599,Core Angels Pacific,city,,Lisbon,Portugal,,,https://www.coreangels.com,HQ from official website (domain)
-investor_crm,117,Core Climate Angels,city,,Lisbon,Portugal,,,https://www.coreangels.com,HQ from official website (domain)
-investor_crm,821,CoreAngels,city,,Lisbon,Portugal,,,https://www.coreangels.com,HQ from official website (domain)
-investor_crm,629,Corekees,city,,Amsterdam,Netherlands,,,https://corekees.com/en,HQ from official website (domain)
-investor_crm,693,Corporate Venturing Network,city,,London,United Kingdom,,,https://corporateventuringnetwork.com,HQ from official website (domain)
-investor_crm,600,Dadneo,city,,Madrid,Spain,,,https://dadneo.capital,HQ from official website (domain)
-investor_crm,632,Dalus,city,,Mexico City,Mexico,,,https://www.daluscapital.com,HQ from official website (domain)
-investor_crm,633,Danta,city,,Guatemala City,Guatemala,,,https://dantafund.com,HQ from official website (domain)
-investor_crm,16,DEG,city,,Cologne,Germany,,,https://www.deginvest.de,HQ from official website (domain)
-investor_crm,17,DEG (Deutsche Investition- und Entwicklungsgesellschaft),city,,Cologne,Germany,,,https://www.deginvest.de,HQ from official website (domain)
-investor_crm,264,DEG- Deutsche Investition- und Entwicklungsgesellschaft mbH,city,,Cologne,Germany,,,https://www.deginvest.de,HQ from official website (domain)
-investor_crm,694,DELA,city,,Eindhoven,Netherlands,,,https://www.dela.nl,HQ from official website (domain)
-investor_crm,889,Diffusion Capital Partners,city,,Amsterdam,Netherlands,,,https://www.dcp.vc,HQ from official website (domain)
-investor_crm,695,Diverse Leaders in Tech,city,,London,United Kingdom,,,https://diverseleadersintech.com,HQ from official website (domain)
-investor_crm,84,DOEN,city,,Amsterdam,Netherlands,,,https://www.doen.nl/en,HQ from official website (domain)
-investor_crm,949,DOW,city,,Midland,United States,,,https://www.dow.com,HQ from official website (domain)
-investor_crm,963,Dozen investment,city,,Tokyo,Japan,,,https://dozeninvestments.com,HQ from official website (domain)
-investor_crm,891,Draper Associates,city,,San Mateo,United States,,,https://www.draper.vc,HQ from official website (domain)
-investor_crm,631,DRk Foundation,city,,Atlanta,United States,,,https://www.drkfoundation.org,HQ from official website (domain)
-investor_crm,893,Dutch Mezzanine Fund II,city,,Amsterdam,Netherlands,,,https://www.dutchmezzanine.nl,HQ from official website (domain)
-investor_crm,964,DWR Eco,city,,Paris,France,,,https://dwr-eco.com/en,HQ from official website (domain)
-investor_crm,636,Eco Enterprises Fund,city,,Alexandria,United States,,,https://ecoenterprisesfund.com,HQ from official website (domain)
-investor_crm,285,EcoEnterprises Fund,city,,Alexandria,United States,,,https://ecoenterprisesfund.com,HQ from official website (domain)
-investor_crm,286,Ecosystem Integrity Fund,city,,San Francisco,United States,,,https://eif.vc,HQ from official website (domain)
-investor_crm,894,EDF Pulse Ventures,city,,Paris,France,,,https://www.edf.fr,HQ from official website (domain)
-investor_crm,591,eha Impact Ventures,city,,Amsterdam,Netherlands,,,https://www.eha.ventures,HQ from official website (domain)
-investor_crm,86,ELEA,city,,Zurich,Switzerland,,,https://www.elea.org,HQ from official website (domain)
-investor_crm,895,Elemental Excelerator,city,,Honolulu,United States,,,https://elementalimpact.com,HQ from official website (domain)
-investor_crm,288,Elevar Equity,city,,Seattle,United States,,,https://elevarequity.com,HQ from official website (domain)
-investor_crm,807,Eneco,city,,Rotterdam,Netherlands,,,https://www.eneco.nl,HQ from official website (domain)
-investor_crm,837,Energy Innovation Capital,city,,San Francisco,United States,,,https://www.energyinnovationcapital.com,HQ from official website (domain)
-investor_crm,637,Epic Angels,city,,Singapore,Singapore,,,https://www.epicangelnetwork.com,HQ from official website (domain)
-investor_crm,122,EsadeBan,city,,Barcelona,Spain,,,https://esadeban.com,HQ from official website (domain)
-investor_crm,292,"European Bank for Reconstruction and Development (EBRD), The",city,,London,United Kingdom,,,https://www.ebrd.com,HQ from official website (domain)
-investor_crm,25,European Investment Bank,city,,Luxembourg,Luxembourg,,,https://www.eib.org,HQ from official website (domain)
-investor_crm,899,Evergreen Climate Innovations,city,,Chicago,United States,,,https://evergreeninno.org,HQ from official website (domain)
-investor_crm,592,evolutiq impact advisory,city,,Zurich,Switzerland,,,https://impact-advisory.evolutiq.com/en/contact,HQ from official website (domain)
-investor_crm,896,Fair Capital Partners,city,,Utrecht,Netherlands,,,https://faircapitalpartners.nl,HQ from official website (domain)
-investor_crm,301,FaithInvest,city,,London,United Kingdom,,,https://www.faithinvest.org,HQ from official website (domain)
-investor_crm,302,Fajr Capital,city,,Dubai,United Arab Emirates,,,https://fajrcapital.com,HQ from official website (domain)
-investor_crm,699,Fem-Start,city,,Amsterdam,Netherlands,,,https://fem-start.com,HQ from official website (domain)
-investor_crm,304,Fidante Partners,city,,Sydney,Australia,,,https://www.fidante.com,HQ from official website (domain)
-investor_crm,865,Fifth Wall Ventures,city,,Los Angeles,United States,,,https://www.fifthwall.com,HQ from official website (domain)
-investor_crm,27,Finance in Motion,city,,Frankfurt,Germany,,,https://www.finance-in-motion.com,HQ from official website (domain)
-investor_crm,29,Finn Fund,city,,Helsinki,Finland,,,https://www.finnfund.fi/en,HQ from official website (domain)
-investor_crm,306,Finnfund,city,,Helsinki,Finland,,,https://www.finnfund.fi/en,HQ from official website (domain)
-investor_crm,297,FINVIA Holding GmbH,city,,Munich,Germany,,,https://www.finvia.fo,HQ from official website (domain)
-investor_crm,903,First Bridge Ventures,city,,Paris,France,,,https://www.firstbridge.vc/contact,HQ from official website (domain)
-investor_crm,905,Floodgate,city,,Menlo Park,United States,,,https://floodgate.com,HQ from official website (domain)
-investor_crm,26,FMO,city,,The Hague,Netherlands,,,https://www.fmo.nl,HQ from official website (domain)
-investor_crm,308,Fondaction,city,,Paris,France,,,https://www.fondaction.com/en,HQ from official website (domain)
-investor_crm,640,Fondo Impacta,city,,Santiago,Chile,,,https://www.impacta.vc,HQ from official website (domain)
-investor_crm,310,Foodvalley,city,,Wageningen,Netherlands,,,https://foodvalley.nl/en/contact,HQ from official website (domain)
-investor_crm,311,Ford Foundation,city,,Luxembourg,Luxembourg,,,https://www.fordfoundation.org,HQ from official website (domain)
-investor_crm,902,Founders Fund,city,,San Francisco,United States,,,https://foundersfund.com,HQ from official website (domain)
-investor_crm,906,Founders Future,city,,Paris,France,,,https://www.foundersfuture.com/en,HQ from official website (domain)
-investor_crm,298,FOUNT,city,,Brussels,Belgium,,,https://fount.eu,HQ from official website (domain)
-investor_crm,312,Franklin Templeton,city,,United States,United States,,,https://www.wikidata.org/wiki/Q744683,Wikidata headquarters (P159)
-investor_crm,299,FS Impact Finance,city,,Frankfurt,Germany,,,https://fs-finance.com,HQ from official website (domain)
-investor_crm,642,Fundación Bancolombia,city,,Medellín,Colombia,,,https://fundacion.bancolombia.com,HQ from official website (domain)
-investor_crm,643,Fundación Bolivar Davivienda,city,,Bogotá,Colombia,,,https://www.fundacionbolivardavivienda.org,HQ from official website (domain)
-investor_crm,315,Funds for Good,city,,Luxembourg,Luxembourg,,,https://www.fundsforgood.eu,HQ from official website (domain)
-investor_crm,601,Fundsurfer,city,,London,United Kingdom,,,https://www.fundsurfer.com,HQ from official website (domain)
-investor_crm,30,Future Energy Ventures,city,,Tokyo,Japan,,,https://fev.vc,HQ from official website (domain)
-investor_crm,958,FutureMobilityNetwork,city,,Rotterdam,Netherlands,,,https://thefuturemobility.network/en,HQ from official website (domain)
-investor_crm,321,Galvanize Climate Solutions,city,,Washington,United States,,,https://galvanizeclimate.com/about,HQ from official website (domain)
-investor_crm,31,GAWA,city,,Madrid,ES,,,https://www.gawacapital.com,HQ from official website (domain)
-investor_crm,317,GAWA Capital,city,,Madrid,ES,,,https://www.gawacapital.com,HQ from official website (domain)
-investor_crm,702,Gemeente Amsterdam,city,,Amsterdam,Netherlands,,,https://www.amsterdam.nl,HQ from official website (domain)
-investor_crm,907,Generate Capital,city,,New York,United States,,,https://generatecapital.com,HQ from official website (domain)
-investor_crm,32,GetInvest,city,,Nairobi,Kenya,,,https://www.get-invest.eu,HQ from official website (domain)
-investor_crm,323,Giving Women,city,,London,United Kingdom,,,https://givingwomen.ch,HQ from official website (domain)
-investor_crm,318,GK Ventures,city,,Seoul,South Korea,,,https://gkventures.com,HQ from official website (domain)
-investor_crm,319,GLIN Impact Capital,city,,Luxembourg,Luxembourg,,,https://glinimpact.com/en/contact,HQ from official website (domain)
-investor_crm,993,Global Angel Club,city,,Luxembourg,Luxembourg,,,https://www.globalsuperangels.club/,HQ from official website (domain)
-investor_crm,326,Global Innovation Fund,city,,London,United Kingdom,,,https://www.globalinnovation.fund,HQ from official website (domain)
-investor_crm,124,GoldenEgg,city,,Amsterdam,Netherlands,,,https://goldeneggcheck.com/en,HQ from official website (domain)
-investor_crm,328,Golding Capital Partners GmbH,city,,Bavaria,Germany,,,https://www.wikidata.org/wiki/Q124664650,Wikidata headquarters (P159)
-investor_crm,92,Goodwell,city,,Amsterdam,Netherlands,,,https://goodwell.nl,HQ from official website (domain)
-investor_crm,329,Goodwell Investments,city,,Amsterdam,Netherlands,,,https://goodwell.nl,HQ from official website (domain)
-investor_crm,91,GoParity,city,,Lisbon,PT,,,https://goparity.com,HQ from official website (domain)
-investor_crm,125,Green Angel Ventures,city,,London,United Kingdom,,,https://greenangelventures.com,HQ from official website (domain)
-investor_crm,331,Green Artha,city,,Mumbai,India,,,https://www.green-artha.com,HQ from official website (domain)
-investor_crm,126,Green Impact Investing,city,,Amsterdam,Netherlands,,,https://greenimpactinvesting.nl,HQ from official website (domain)
-investor_crm,988,Green Impact Investing // GreenChoice,city,,Amsterdam,Netherlands,,,https://greenimpactinvesting.nl,HQ from official website (domain)
-investor_crm,703,Green Whale,city,,Amsterdam,Netherlands,,,https://www.green-whale.nl,HQ from official website (domain)
-investor_crm,320,GSG,city,,The Hague,Netherlands,,,https://www.gsgimpact.org,HQ from official website (domain)
-investor_crm,850,Hitachi Ventues,city,,Tokyo,Japan,,,https://www.hitachi.com,CRM website pointed to Calendly; HQ from Hitachi corporate
-investor_crm,706,Horizon Flevoland,city,,Amsterdam,Netherlands,,,https://horizonflevoland.com,HQ from official website (domain)
-investor_crm,593,iConnections,city,,New York,United States,,,https://iconnections.io,HQ from official website (domain)
-investor_crm,34,IDB,city,,India,India,,,https://www.wikidata.org/wiki/Q3633485,Wikidata headquarters (P159)
-investor_crm,338,IDH,city,,Utrecht,Netherlands,,,https://idh.org/contact,HQ from official website (domain)
-investor_crm,339,IDH Investment Management,city,,Utrecht,Netherlands,,,https://idh.org/contact,HQ from official website (domain)
-investor_crm,966,IESE,city,,Munich,Germany,,,https://www.iese.edu/entrepreneurship/business-angels,HQ from official website (domain)
-investor_crm,340,IFU,city,,Copenhagen,Denmark,,,https://impactfund.dk,HQ from official website (domain)
-investor_crm,801,Impact City,city,,The Hague,Netherlands,,,https://www.impactcity.nl,HQ from official website (domain)
-investor_crm,157,Impact City Amsterdam,city,,The Hague,Netherlands,,,https://www.impactcity.nl,HQ from official website (domain)
-investor_crm,35,Impact Fund Denmark,city,,Copenhagen,Denmark,,,https://impactfund.dk,HQ from official website (domain)
-investor_crm,342,IMPact SGR,city,,Milan,Italy,,,https://www.impactsgr.it,HQ from official website (domain)
-investor_crm,93,Impact Shakers,city,,Brussels,Belgium,,,https://www.impactshakers.com,HQ from official website (domain)
-investor_crm,350,ImpactCity The Hague,city,,The Hague,Netherlands,,,https://www.impactcity.nl,HQ from official website (domain)
-investor_crm,94,Incofin,city,,Brussels,Belgium,,,https://incofin.com/contact,HQ from official website (domain)
-investor_crm,352,Incofin Investment Management,city,,Brussels,Belgium,,,https://incofin.com/contact,HQ from official website (domain)
-investor_crm,970,infiniumpartners,city,,Dubai,United Arab Emirates,,,https://www.infiniumpartners.com,HQ from official website (domain)
-investor_crm,708,Inkef,city,,Amsterdam,Netherlands,,,https://www.inkef.com,HQ from official website (domain)
-investor_crm,38,InnoEnergy,city,,Paris,France,,,https://innoenergy.com,HQ from official website (domain)
-investor_crm,356,Innpact S.A.,city,,Luxembourg,Luxembourg,,,https://innpact.com,HQ from official website (domain)
-investor_crm,344,INOKS Capital,city,,Geneva,Switzerland,,,https://www.inokscapital.ch,HQ from official website (domain)
-investor_crm,910,Insight Venture Partners,city,,San Francisco,United States,,,https://www.insightpartners.com,HQ from official website (domain)
-investor_crm,357,Insitor Partners Pte. Ltd.,city,,Luxembourg,Luxembourg,,,https://www.insitorpartners.com,HQ from official website (domain)
-investor_crm,358,Inspired Evolution,city,,Cape Town,South Africa,,,https://inspiredevolution.co.za,HQ from official website (domain)
-investor_crm,360,International Finance Corporation (IFC),city,,Washington,United States,,,https://www.ifc.org,HQ from official website (domain)
-investor_crm,361,Invesco,city,,Luxembourg,Luxembourg,,,https://www.invesco.com,HQ from official website (domain)
-investor_crm,711,Invest International,city,,Amsterdam,Netherlands,,,https://investinternational.nl,HQ from official website (domain)
-investor_crm,712,Invest-NL,city,,Amsterdam,Netherlands,,,https://www.invest-nl.nl/en,HQ from official website (domain)
-investor_crm,345,ISF Advisers,city,,Washington,United States,,,https://isfadvisors.co,HQ from official website (domain)
-investor_crm,346,ISF Advisors,city,,Washington,United States,,,https://isfadvisors.co,HQ from official website (domain)
-investor_crm,594,iungo capital,city,,Nairobi,Kenya,,,https://iungocapital.com/about,HQ from official website (domain)
-investor_crm,362,Japan Post Insurance,city,,Tokyo,Japan,,,https://www.jp-life.japanpost.jp,HQ from official website (domain)
-investor_crm,363,Japan Social Innovation & Investment Foundation (SIIF),city,,Tokyo,Japan,,,https://www.siif.or.jp/en/about,HQ from official website (domain)
-investor_crm,364,"John D. and Catherine T. MacArthur Foundation, The",city,,Chicago,United States,,,https://www.macfound.org,HQ from official website (domain)
-investor_crm,365,Jonathan Rose Companies,city,,Lisbon,Portugal,,,https://www.rosecompanies.com,HQ from official website (domain)
-investor_crm,815,K Fund,city,,Madrid,Spain,,,https://www.kfund.vc,HQ from official website (domain)
-investor_crm,370,Katapult Ocean,city,,Oslo,NO,,,https://www.katapultocean.com,HQ from official website (domain)
-investor_crm,371,KawiSafi Ventures,city,,Nairobi,Kenya,,,https://www.kawisafi.com,HQ from official website (domain)
-investor_crm,40,KFund,city,,Madrid,Spain,,,https://www.kfund.vc,HQ from official website (domain)
-investor_crm,39,KFW,city,,Frankfurt,Germany,,,https://www.kfw.de,HQ from official website (domain)
-investor_crm,372,Khazanah Nasional Berhad,city,,New York,United States,,,https://www.khazanah.com.my/contact,HQ from official website (domain)
-investor_crm,716,Kickstart AI,city,,Amsterdam,Netherlands,,,https://kickstart.ai,HQ from official website (domain)
-investor_crm,816,Kiva,city,,San Francisco,United States,,,https://www.kiva.org,HQ from official website (domain)
-investor_crm,374,Kiva Capital Management,city,,San Francisco,United States,,,https://www.kiva.org,HQ from official website (domain)
-investor_crm,649,Kiva Social Enterprises,city,,San Francisco,United States,,,https://www.kiva.org,HQ from official website (domain)
-investor_crm,375,Kohlberg Kravis Roberts & Co. L.P.,city,,Singapore,Singapore,,,https://www.kkr.com,HQ from official website (domain)
-investor_crm,824,KOIS,city,,Paris,France,,,https://www.koisinvest.com/contact-us,HQ from official website (domain)
-investor_crm,96,KOIS Invest,city,,Paris,France,,,https://www.koisinvest.com/contact-us,HQ from official website (domain)
-investor_crm,159,Kosmos Impact,city,,Amsterdam,Netherlands,,,https://kosmosimpact.nl,HQ from official website (domain)
-investor_crm,376,"Kresge Foundation, The",city,,Luxembourg,Luxembourg,,,https://kresge.org/contact,HQ from official website (domain)
-investor_crm,368,KUSH BANK PLC,city,,Juba,South Sudan,,,https://kushbankss.com,HQ from official website (domain)
-investor_crm,131,Lanai VC,city,,Barcelona,Spain,,,https://lanai.vc,HQ from official website (domain)
-investor_crm,912,LDV Capital,city,,Luxembourg,Luxembourg,,,https://www.ldv.co,HQ from official website (domain)
-investor_crm,41,LeapFrog Investments,city,,Amsterdam,Netherlands,,,https://leapfroginvest.com/contact,HQ from official website (domain)
-investor_crm,380,Learn Capital,city,,Austin,United States,,,https://www.learn.vc/contact,HQ from official website (domain)
-investor_crm,381,Lemma FX,city,,Sydney,AU,,,https://www.lemmafx.com,HQ from official website (domain)
-investor_crm,382,Lendable,city,,London,United Kingdom,,,https://lendable.io,HQ from official website (domain)
-investor_crm,379,LGT Capital Partners,city,,Pfäffikon,Switzerland,,,https://www.lgtcp.com,HQ from official website (domain)
-investor_crm,97,LGT Capital Partners (Lightrock link),city,,London,United Kingdom,,,https://www.lightrock.com,HQ from official website (domain)
-investor_crm,383,Liberty Group,city,,United States,United States,,,https://www.wikidata.org/wiki/Q140317813,Wikidata headquarters (P159)
-investor_crm,913,LifeX Ventures,city,,Helsinki,Finland,,,https://lifexventures.com,HQ from official website (domain)
-investor_crm,42,Light Ray Ventures,city,,Paris,France,,,https://www.lightray.vc,HQ from official website (domain)
-investor_crm,384,Lightrock,city,,London,United Kingdom,,,https://www.lightrock.com,HQ from official website (domain)
-investor_crm,43,Lightrock (LGT Group),city,,London,United Kingdom,,,https://www.lightrock.com,HQ from official website (domain)
-investor_crm,802,Lumo Labs,city,,Eindhoven,Netherlands,,,https://lumolabs.io/contact,HQ from official website (domain)
-investor_crm,132,Lumolabs,city,,Eindhoven,Netherlands,,,https://lumolabs.io/contact,HQ from official website (domain)
-investor_crm,914,Lux Capital,city,,New York,United States,,,https://www.luxcapital.com/contact,HQ from official website (domain)
-investor_crm,392,Maj Invest,city,,London,United Kingdom,,,https://www.majinvest.com/en,HQ from official website (domain)
-investor_crm,134,Marbella Tech Angels,city,,Madrid,Spain,,,https://www.southsummit.io/leader/andreas-mihalovits/,HQ from official website (domain)
-investor_crm,916,Matterwave Ventures,city,,Munich,Germany,,,https://www.matterwave.vc,HQ from official website (domain)
-investor_crm,386,MCE Social Capital,city,,Luxembourg,Luxembourg,,,https://www.mcesocap.org,HQ from official website (domain)
-investor_crm,394,Mennonite Economic Development Associates (MEDA),city,,Washington,United States,,,https://www.meda.org,HQ from official website (domain)
-investor_crm,388,MENTERRA VENTURE ADVISORS,city,,Bengaluru,India,,,https://www.menterra.com,HQ from official website (domain)
-investor_crm,395,Meraki Impact,city,,Amsterdam,Netherlands,,,https://merakiimpact.com/contact,HQ from official website (domain)
-investor_crm,655,Mercy Corps,city,,Portland,United States,,,https://www.mercycorps.org,HQ from official website (domain)
-investor_crm,99,MercyCorps,city,,Portland,United States,,,https://www.mercycorps.org,HQ from official website (domain)
-investor_crm,44,MGM Sustainable Energy Fund II,city,,São Paulo,Brazil,,,https://capital.mgminnovagroup.com,HQ from official website (domain)
-investor_crm,720,Midpoint Brabant,city,,Singapore,Singapore,,,https://midpointbrabant.nl/contact,HQ from official website (domain)
-investor_crm,918,MIG Capital AG,city,,Munich,Germany,,,https://www.mig.ag/en/home,HQ from official website (domain)
-investor_crm,397,Milken Institute,city,,Toronto,Canada,,,https://milkeninstitute.org,HQ from official website (domain)
-investor_crm,721,Ministerie EZK,city,,The Hague,Netherlands,,,https://www.government.nl,HQ from official website (domain)
-investor_crm,399,Ministry of Foreign Affairs,city,,The Hague,Netherlands,,,https://www.government.nl,HQ from official website (domain)
-investor_crm,45,Mirova,city,,Paris,France,,,https://www.mirova.com/en,HQ from official website (domain)
-investor_crm,400,Mitsubishi UFJ Trust and Banking Corporation,city,,Japan,Japan,,,https://www.wikidata.org/wiki/Q6883178,Wikidata headquarters (P159)
-investor_crm,390,MN,city,,Amsterdam,Netherlands,,,https://www.mn.nl,HQ from official website (domain)
-investor_crm,919,Munich Venture Partners,city,,Munich,Germany,,,https://munichvp.com,HQ from official website (domain)
-investor_crm,133,MVentures,city,,Darmstadt,Germany,,,https://www.m-ventures.com,HQ from official website (domain)
-investor_crm,46,NatureVest / The Nature Conservancy,city,,Hong Kong,Hong Kong,,,https://www.nature.org/en-us/about-us/who-we-are/how-we-work/finance-investing/naturevest,HQ from official website (domain)
-investor_crm,405,Nawa Impact,city,,Amsterdam,Netherlands,,,https://nawaimpact.com,HQ from official website (domain)
-investor_crm,402,NDPI Foundation,city,,The Hague,Netherlands,,,https://www.ndpifoundation.org,HQ from official website (domain)
-investor_crm,407,Neuberger Berman,city,,New York,United States,,,https://www.nb.com,HQ from official website (domain)
-investor_crm,921,New Energy Capital,city,,Helsinki,Finland,,,https://newenergycapital.com,HQ from official website (domain)
-investor_crm,659,New Ventures,city,,United States,United States,,,https://www.wikidata.org/wiki/Q112752010,Wikidata headquarters (P159)
-investor_crm,403,NEXT Generation Invest AG,city,,Frankfurt,Germany,,,https://next-generation-group.de/en-invest/home,HQ from official website (domain)
-investor_crm,411,Nithio,city,,Washington,United States,,,https://nithio.com,HQ from official website (domain)
-investor_crm,724,NL Groeit,city,,The Hague,Netherlands,,,https://www.nationaalgroeifonds.nl,HQ from official website (domain)
-investor_crm,831,NL Invest / Invest-NL,city,,Amsterdam,Netherlands,,,https://www.invest-nl.nl/en,HQ from official website (domain)
-investor_crm,725,NLC Health,city,,Amsterdam,Netherlands,,,https://www.nlc.health,HQ from official website (domain)
-investor_crm,137,No Such Ventures,city,,Amsterdam,Netherlands,,,https://nosuchventures.com,HQ from official website (domain)
-investor_crm,726,Noaber,city,,Hilversum,Netherlands,,,https://noaber.com,HQ from official website (domain)
-investor_crm,412,Nonprofit Finance Fund,city,,Luxembourg,Luxembourg,,,https://nff.org/contact,HQ from official website (domain)
-investor_crm,47,Nordfund,city,,Oslo,Norway,,,https://www.norfund.no,HQ from official website (domain)
-investor_crm,413,Nordic Development Fund,city,,Helsinki,Finland,,,https://www.ndf.int,HQ from official website (domain)
-investor_crm,414,Nordic Microfinance Initiative AS,city,,Oslo,Norway,,,https://www.ablernordic.com,HQ from official website (domain)
-investor_crm,961,NoSuchVentures,city,,Amsterdam,Netherlands,,,https://nosuchventures.com,HQ from official website (domain)
-investor_crm,854,NPM Capital,city,,Amsterdam,Netherlands,,,https://www.npm-capital.com/en,HQ from official website (domain)
-investor_crm,658,NREL,city,,Golden,United States,,,https://www.nrel.gov,HQ from official website (domain)
-investor_crm,415,Nuveen,city,,New York,United States,,,https://www.nuveen.com,HQ from official website (domain)
-investor_crm,48,Nuveen (TIAA),city,,New York,United States,,,https://www.nuveen.com,HQ from official website (domain)
-investor_crm,416,"Nuveen, a TIAA Company",city,,New York,United States,,,https://www.nuveen.com,HQ from official website (domain)
-investor_crm,404,NZ Super Fund,city,,Copenhagen,Denmark,,,https://nzsuperfund.nz,HQ from official website (domain)
-investor_crm,923,Obvious Ventures,city,,San Francisco,United States,,,https://obvious.com,HQ from official website (domain)
-investor_crm,420,Octobre,city,,Rotterdam,Netherlands,,,https://www.octobre.earth,HQ from official website (domain)
-investor_crm,845,Octopus Ventures,city,,London,United Kingdom,,,https://octopusventures.com,HQ from official website (domain)
-investor_crm,417,OGCI Climate Investments,city,,London,United Kingdom,,,https://www.climateinvestment.com/contact,HQ from official website (domain)
-investor_crm,418,OGCI Climate Investments LLP,city,,London,United Kingdom,,,https://www.climateinvestment.com/contact,HQ from official website (domain)
-investor_crm,49,OIKO,city,,Amersfoort,Netherlands,,,https://www.oikocredit.org,HQ from official website (domain)
-investor_crm,100,Oiko Credit,city,,Amersfoort,Netherlands,,,https://www.oikocredit.org,HQ from official website (domain)
-investor_crm,421,Old Mutual Alternative Investments,city,,Cape Town,South Africa,,,https://www.oldmutualalternatives.com,HQ from official website (domain)
-investor_crm,423,Omnivore,city,,Mumbai,India,,,https://omnivore.vc,HQ from official website (domain)
-investor_crm,424,One to Watch,city,,Utrecht,Netherlands,,,https://onetowatch.nl,HQ from official website (domain)
-investor_crm,728,Oost NL,city,,Amsterdam,Netherlands,,,https://oostnl.nl/en/contact,HQ from official website (domain)
-investor_crm,425,Open Capital,city,,Luxembourg,Luxembourg,,,https://www.opencapital.com,HQ from official website (domain)
-investor_crm,426,Open Road Alliance,city,,Washington,United States,,,https://openroadalliance.org,HQ from official website (domain)
-investor_crm,972,Operator Exchange,city,,London,United Kingdom,,,https://operator.exchange,HQ from official website (domain)
-investor_crm,103,Orange Corners,city,,The Hague,Netherlands,,,https://orangecorners.com,HQ from official website (domain)
-investor_crm,428,"Orrick, Herrington & Sutcliffe LLP",city,,London,United Kingdom,,,https://www.orrick.com,HQ from official website (domain)
-investor_crm,429,Overlay Capital,city,,Dublin,Ireland,,,https://overlaycapital.com,HQ from official website (domain)
-investor_crm,433,"Palladium Equity Partners, LLC",city,,New York,United States,,,https://www.palladiumequity.com,HQ from official website (domain)
-investor_crm,434,Pangaea Ventures,city,,Luxembourg,Luxembourg,,,https://www.pangaeaventures.com,HQ from official website (domain)
-investor_crm,435,Partnerships For Forests,city,,London,United Kingdom,,,https://partnershipsforforests.com,HQ from official website (domain)
-investor_crm,436,Pathstone,city,,New York,United States,,,https://pathstone.com,HQ from official website (domain)
-investor_crm,437,PayPal,city,,Oslo,Norway,,,https://www.paypal.com,HQ from official website (domain)
-investor_crm,438,Pegasus 7 Ventures,city,,Luxembourg,Luxembourg,,,https://www.pegasus7ventures.com,HQ from official website (domain)
-investor_crm,978,Perseo,city,,Bilbao,Spain,,,https://www.iberdrola.com,HQ from official website (domain)
-investor_crm,50,Persistent Energy Capital,city,,Lagos,Nigeria,,,https://persistent.energy,HQ from official website (domain)
-investor_crm,431,PGGM & SDI Asset Owner Platform,city,,Amsterdam,Netherlands,,,https://www.sdi-aop.org,HQ from official website (domain)
-investor_crm,440,Pioneers Post,city,,London,United Kingdom,,,https://www.pioneerspost.com,HQ from official website (domain)
-investor_crm,441,PitchBook Data,city,,Seattle,United States,,,https://pitchbook.com,HQ from official website (domain)
-investor_crm,925,Piva Capital,city,,San Francisco,United States,,,https://piva.vc,HQ from official website (domain)
-investor_crm,138,Planet A,city,,London,United Kingdom,,,https://planet-a.com,HQ from official website (domain)
-investor_crm,826,Planet A Ventures,city,,London,United Kingdom,,,https://planet-a.com,HQ from official website (domain)
-investor_crm,827,Planet B.io,city,,Berlin,Germany,,,https://planet-b.io,HQ from official website (domain)
-investor_crm,661,Plug N Play,city,,Sunnyvale,United States,,,https://www.plugandplaytechcenter.com,HQ from official website (domain)
-investor_crm,442,Polestar Capital,city,,Amsterdam,Netherlands,,,https://www.polestarcapital.nl,HQ from official website (domain)
-investor_crm,926,Powerhouse Ventures,city,,Auckland,New Zealand,,,https://powerhouse-ventures.co,HQ from official website (domain)
-investor_crm,927,Prelude Ventures,city,,San Francisco,United States,,,https://www.preludeventures.com,HQ from official website (domain)
-investor_crm,101,Prime Coalition,city,,Luxembourg,Luxembourg,,,https://www.primecoalition.org,HQ from official website (domain)
-investor_crm,444,Private Financing Advisory Network,city,,Paris,France,,,https://pfan.net,HQ from official website (domain)
-investor_crm,445,Private Sector Foundation Uganda,city,,Cairo,Egypt,,,https://www.psfuganda.org,HQ from official website (domain)
-investor_crm,446,Pro Mujer,city,,New York,United States,,,https://promujer.org,HQ from official website (domain)
-investor_crm,51,Proparco,city,,Paris,France,,,https://www.proparco.fr,HQ from official website (domain)
-investor_crm,102,Proparco (FISEA+),city,,Paris,France,,,https://www.proparco.fr,HQ from official website (domain)
-investor_crm,448,Prudential,city,,Newark,United States,,,https://www.prudential.com,HQ from official website (domain)
-investor_crm,449,Prudential Financial,city,,Newark,United States,,,https://www.prudential.com,HQ from official website (domain)
-investor_crm,450,PureTerra Ventures,city,,Luxembourg,Luxembourg,,,https://www.pureterra.com,HQ from official website (domain)
-investor_crm,161,PYM,city,,Jakarta,Indonesia,,,https://pym.nu,HQ from official website (domain)
-investor_crm,109,pymwymic,city,,Amsterdam,Netherlands,,,https://pymwymic.com,HQ from official website (domain)
-investor_crm,451,Q-Impact,city,,Madrid,Spain,,,https://qimpact.com,HQ from official website (domain)
-investor_crm,605,Qapu Ventures,city,,Bogotá,Colombia,,,https://qapu.ventures,HQ from official website (domain)
-investor_crm,452,QBE Insurance,city,,Sydney,Australia,,,https://www.qbe.com,HQ from official website (domain)
-investor_crm,929,QStone Capital,city,,Rotterdam,Netherlands,,,https://www.qstonecapital.com,HQ from official website (domain)
-investor_crm,836,Quadia,city,,Geneva,Switzerland,,,https://quadia.ch,HQ from official website (domain)
-investor_crm,453,Quona Capital,city,,Singapore,Singapore,,,https://quona.com,HQ from official website (domain)
-investor_crm,454,Quona Capital Management Ltd.,city,,Singapore,Singapore,,,https://quona.com,HQ from official website (domain)
-investor_crm,733,Rabobank,city,,Utrecht,Netherlands,,,https://www.rabobank.com,HQ from official website (domain)
-investor_crm,52,Rabobank Energy,city,,Utrecht,Netherlands,,,https://www.rabobank.com,HQ from official website (domain)
-investor_crm,53,Rabobank renewable energy,city,,Utrecht,Netherlands,,,https://www.rabobank.com,HQ from official website (domain)
-investor_crm,812,Rabobank Start-to-Scale-up Team,city,,Utrecht,Netherlands,,,https://www.rabobank.com,HQ from official website (domain)
-investor_crm,455,Rainforest Alliance,city,,Amsterdam,Netherlands,,,https://www.rainforest-alliance.org,HQ from official website (domain)
-investor_crm,456,Rally Assets,city,,Toronto,Canada,,,https://rallyassets.com,HQ from official website (domain)
-investor_crm,457,Raskob Foundation for Catholic Activities,city,,London,United Kingdom,,,https://rfca.org,HQ from official website (domain)
-investor_crm,458,Reach for Change,city,,Stockholm,Sweden,,,https://reachforchange.org,HQ from official website (domain)
-investor_crm,460,Realdania,city,,Copenhagen,Denmark,,,https://realdania.org,HQ from official website (domain)
-investor_crm,461,Red Ribbon Capital Partners,city,,Amsterdam,Netherlands,,,https://redribbon.capital,HQ from official website (domain)
-investor_crm,462,Reed Smith,city,,Pittsburgh,United States,,,https://www.reedsmith.com,HQ from official website (domain)
-investor_crm,463,Regenerate Asset Management,city,,London,United Kingdom,,,https://regenerateam.com/contact,HQ from official website (domain)
-investor_crm,464,Resonance,city,,London,United Kingdom,,,https://resonance.fund,HQ from official website (domain)
-investor_crm,54,Responsability,city,,Zurich,Switzerland,,,https://www.responsability.com,HQ from official website (domain)
-investor_crm,595,responsAbility Investments AG,city,,Zurich,Switzerland,,,https://www.responsability.com,HQ from official website (domain)
-investor_crm,465,Rethink Capital Partners,city,,London,United Kingdom,,,https://rethink-capital.com,HQ from official website (domain)
-investor_crm,930,Rgreen Invest,city,,Paris,France,,,https://www.rgreeninvest.com/en,HQ from official website (domain)
-investor_crm,466,Rhia Ventures,city,,New York,United States,,,https://rhiaventures.org/about,HQ from official website (domain)
-investor_crm,467,Robeco,city,,Rotterdam,Netherlands,,,https://www.robeco.com,HQ from official website (domain)
-investor_crm,962,Rockstart,city,,Amsterdam,Netherlands,,,https://rockstart.com/about,HQ from official website (domain)
-investor_crm,822,Rockstart Energy,city,,Amsterdam,Netherlands,,,https://rockstart.com/about,HQ from official website (domain)
-investor_crm,735,ROM Utrecht Region,city,,Utrecht,Netherlands,,,https://romutrechtregion.nl,HQ from official website (domain)
-investor_crm,468,Root Capital,city,,Massachusetts,United States,,,https://www.wikidata.org/wiki/Q7366548,Wikidata headquarters (P159)
-investor_crm,162,Rubio,city,,Amsterdam,Netherlands,,,https://rubio.vc,HQ from official website (domain)
-investor_crm,736,Rubio VC,city,,Amsterdam,Netherlands,,,https://rubio.vc,HQ from official website (domain)
-investor_crm,933,Safran,city,,Paris,France,,,https://www.safran-group.com,HQ from official website (domain)
-investor_crm,484,Sahel Capital Agribusiness Managers Limited,city,,Dublin,Ireland,,,https://sahelcapital.com/contact,HQ from official website (domain)
-investor_crm,934,Sail Capital,city,,Chicago,United States,,,https://sailcapital.com,HQ from official website (domain)
-investor_crm,485,Sail Ventures,city,,Amsterdam,Netherlands,,,https://sail-investments.com,HQ from official website (domain)
-investor_crm,664,Salkantay,city,,Lima,Peru,,,https://salkantay.vc,HQ from official website (domain)
-investor_crm,487,Sanlam Investments,city,,Johannesburg,South Africa,,,https://www.sanlam.com,HQ from official website (domain)
-investor_crm,104,Satgana,city,,Luxembourg,Luxembourg,,,https://www.satgana.com/contact,HQ from official website (domain)
-investor_crm,105,Saviu VC,city,,Paris,France,,,https://www.saviu.vc/,HQ from official website (domain)
-investor_crm,56,Schneider Electric Energy Access,city,,Rueil-Malmaison,France,,,https://www.se.com,HQ from official website (domain)
-investor_crm,488,Schroders,city,,London,United Kingdom,,,https://www.schroders.com,HQ from official website (domain)
-investor_crm,489,Schroders/BlueOrchard,city,,London,United Kingdom,,,https://www.schroders.com,HQ from official website (domain)
-investor_crm,490,Scipion Capital Ltd,city,,London,United Kingdom,,,https://www.scipion-capital.com,HQ from official website (domain)
-investor_crm,469,SDI Asset Owner Platform,city,,Amsterdam,Netherlands,,,https://www.sdi-aop.org,HQ from official website (domain)
-investor_crm,935,Seabird Ventures,city,,London,United Kingdom,,,https://seabirdventures.fund,HQ from official website (domain)
-investor_crm,142,Seedrocket,city,,Madrid,Spain,,,https://www.seedrocket.com/contact,HQ from official website (domain)
-investor_crm,740,SET Ventures,city,,Amsterdam,Netherlands,,,https://setventures.com,HQ from official website (domain)
-investor_crm,57,Shell Ventures,city,,London,United Kingdom,,,https://www.shell.com,HQ from official website (domain)
-investor_crm,804,Shift Invest,city,,Amsterdam,Netherlands,,,https://shiftinvest.com,HQ from official website (domain)
-investor_crm,936,Shift4Good,city,,Paris,France,,,https://www.shift4good.com,HQ from official website (domain)
-investor_crm,974,Shiftinvest,city,,Amsterdam,Netherlands,,,https://shiftinvest.com,HQ from official website (domain)
-investor_crm,794,Ship2B,city,,Madrid,Spain,,,https://www.ship2b.org/en/contact,HQ from official website (domain)
-investor_crm,143,Ship2b Ventures,city,,Barcelona,Spain,,,https://ship2bventures.com,HQ from official website (domain)
-investor_crm,492,Si3,city,,The Hague,Netherlands,,,https://shapingimpact.group,HQ from official website (domain)
-investor_crm,470,SIDI,city,,Paris,France,,,https://www.sidi.fr/en,HQ from official website (domain)
-investor_crm,471,SIGLO Capital Advisors AG,city,,Zurich,Switzerland,,,https://siglo.ch,HQ from official website (domain)
-investor_crm,472,SIIF,city,,Tokyo,Japan,,,https://www.siif.or.jp/en/about,HQ from official website (domain)
-investor_crm,493,Sillman Thomas,city,,Dublin,Ireland,,,https://www.sillmanthomas.com,HQ from official website (domain)
-investor_crm,495,Silverhorn,city,,Singapore,Singapore,,,https://www.silverhorngroup.com,HQ from official website (domain)
-investor_crm,494,SilverStreet Capital,city,,London,United Kingdom,,,https://www.silverstreetcapital.com,HQ from official website (domain)
-investor_crm,473,SIMA Funds,city,,New York,United States,,,https://simafunds.com,HQ from official website (domain)
-investor_crm,474,SJF Ventures,city,,Philadelphia,United States,,,https://sjfventures.com,HQ from official website (domain)
-investor_crm,497,Skybound Capital,city,,London,United Kingdom,,,https://www.skyboundcapital.com,HQ from official website (domain)
-investor_crm,498,Small Foundation,city,,Dublin,Ireland,,,https://smallfoundation.ie,HQ from official website (domain)
-investor_crm,937,Sofinnova Partners,city,,London,United Kingdom,,,https://sofinnovapartners.com,HQ from official website (domain)
-investor_crm,500,Sophora,city,,Berlin,Germany,,,https://www.sophora.de/en,HQ from official website (domain)
-investor_crm,501,Soros Economic Development Fund,city,,New York,United States,,,https://soroseconomicdevelopmentfund.org,HQ from official website (domain)
-investor_crm,938,SOSV,city,,Princeton,United States,,,https://sosv.com,HQ from official website (domain)
-investor_crm,939,South Pole,city,,Paris,France,,,https://www.southpole.com,HQ from official website (domain)
-investor_crm,502,Spin Ventures,city,,Washington,United States,,,https://spin.vc,HQ from official website (domain)
-investor_crm,941,Spring Lane Capital,city,,New York,United States,,,https://www.springlanecapital.com,HQ from official website (domain)
-investor_crm,504,Squire Patton Boggs,city,,Amsterdam,Netherlands,,,https://www.squirepattonboggs.com,HQ from official website (domain)
-investor_crm,505,Stafford Capital Partners,city,,Rotterdam,Netherlands,,,https://www.staffordcp.com,HQ from official website (domain)
-investor_crm,506,Stardust Equity,city,,New York,United States,,,https://weareallstardust.com/equity,HQ from official website (domain)
-investor_crm,507,Startup Discovery School,city,,Amsterdam,Netherlands,,,https://www.startupdiscoveryschool.com/about,HQ from official website (domain)
-investor_crm,741,Startup Utrecht,city,,Utrecht,Netherlands,,,https://startuputrechtregion.com,HQ from official website (domain)
-investor_crm,508,Steward Redqueen,city,,Amsterdam,Netherlands,,,https://www.stewardredqueen.com,HQ from official website (domain)
-investor_crm,509,Stichting SED Fund,city,,Amsterdam,Netherlands,,,https://sed.fund,HQ from official website (domain)
-investor_crm,55,SUMA Capital,city,,Paris,France,,,https://sumacapital.com/en,HQ from official website (domain)
-investor_crm,59,Summa Equity,city,,Stockholm,Sweden,,,https://summaequity.com,HQ from official website (domain)
-investor_crm,60,SunFunder,city,,Paris,France,,,https://www.mirova.com/en,HQ from official website (domain)
-investor_crm,743,Superconnectors,city,,Cologne,Germany,,,https://www.superconnectors.io,HQ from official website (domain)
-investor_crm,511,"Sustainable Leaders Investment Management, Parnter firm Olduvai Capital",city,,Amsterdam,Netherlands,,,https://sustainableleadersinvestmentmanagement.com,HQ from official website (domain)
-investor_crm,942,Sustainable Ocean Alliance,city,,London,United Kingdom,,,https://soalliance.org,HQ from official website (domain)
-investor_crm,943,Sustainable Ventures,city,,London,United Kingdom,,,https://www.sustainableventures.co.uk,HQ from official website (domain)
-investor_crm,512,Swedfund,city,,Stockholm,Sweden,,,https://www.swedfund.se,HQ from official website (domain)
-investor_crm,481,SWEN Capital Partners,city,,Paris,France,,,https://www.swen-cp.fr/en,HQ from official website (domain)
-investor_crm,480,SWEN CP,city,,Paris,France,,,https://www.swen-cp.fr/en,HQ from official website (domain)
-investor_crm,513,Symbiotics SA,city,,Amsterdam,Netherlands,,,https://symbioticsgroup.com/contact,HQ from official website (domain)
-investor_crm,668,Syngenta Group,city,,Basel,Switzerland,,,https://www.syngenta.com,HQ from official website (domain)
-investor_crm,483,SYSTEMIQ,city,,London,United Kingdom,,,https://systemiq.earth,HQ from official website (domain)
-investor_crm,514,T. Rowe Price,city,,Luxembourg,Luxembourg,,,https://www.troweprice.com,HQ from official website (domain)
-investor_crm,518,Talanton Impact Fund,city,,The Hague,Netherlands,,,https://talantonimpact.com,HQ from official website (domain)
-investor_crm,519,Tamil Nadu Shelter Fund,city,,Mumbai,India,,,https://tnifmc.com,HQ from official website (domain)
-investor_crm,522,Telos Impact srl,city,,Paris,France,,,https://www.telosimpact.com,HQ from official website (domain)
-investor_crm,523,Temasek,city,,Singapore,Singapore,,,https://www.temasek.com.sg,HQ from official website (domain)
-investor_crm,946,Tera Ventures,city,,London,United Kingdom,,,https://www.tera.vc,HQ from official website (domain)
-investor_crm,524,The Atmospheric Fund,city,,Toronto,Canada,,,https://taf.ca,HQ from official website (domain)
-investor_crm,525,The Bridgespan Group,city,,San Francisco,United States,,,https://www.bridgespan.org,HQ from official website (domain)
-investor_crm,526,The Good Economy Limited,city,,London,United Kingdom,,,https://thegoodeconomy.co.uk,HQ from official website (domain)
-investor_crm,527,The Good Economy Ltd,city,,London,United Kingdom,,,https://thegoodeconomy.co.uk,HQ from official website (domain)
-investor_crm,528,The Hague Business Agency,city,,The Hague,Netherlands,,,https://thehague.com/businessagency/en,HQ from official website (domain)
-investor_crm,529,"The John D. Gerhart Center for Philanthropy, Civic Engagement, and Responsible Business",city,,New York,United States,,,https://business.aucegypt.edu/research/centers/gerhart,HQ from official website (domain)
-investor_crm,530,The Nature Conservancy,city,,Hong Kong,Hong Kong,,,https://www.nature.org/en-us/about-us/who-we-are/how-we-work/finance-investing/naturevest,HQ from official website (domain)
-investor_crm,531,The Scottish National Investment Bank,city,,Edinburgh,United Kingdom,,,https://www.thebank.scot,HQ from official website (domain)
-investor_crm,144,The Sharing Group,city,,Amsterdam,Netherlands,,,https://thesharinggroup.com,HQ from official website (domain)
-investor_crm,533,The UN Sanitation and Hygiene Fund,city,,Melbourne,Australia,,,https://www.shfund.org,HQ from official website (domain)
-investor_crm,534,The Visa Foundation,city,,Foster City,United States,,,https://corporate.visa.com/en/about-visa.html,HQ from official website (domain)
-investor_crm,670,The Yield Lab LATAM,city,,São Paulo,Brazil,,,https://theyieldlablatam.com,HQ from official website (domain)
-investor_crm,947,Theia Finance Labs,city,,Paris,France,,,https://theiafinance.org,HQ from official website (domain)
-investor_crm,971,TheSharingGroup,city,,Amsterdam,Netherlands,,,https://thesharinggroup.com,HQ from official website (domain)
-investor_crm,535,ThomasLloyd Group Ltd.,city,,Amsterdam,Netherlands,,,https://www.thomas-lloyd.com,HQ from official website (domain)
-investor_crm,536,Tideline,city,,London,United Kingdom,,,https://tideline.com/contact,HQ from official website (domain)
-investor_crm,516,TIIP: The Investment Integration Project,city,,London,United Kingdom,,,https://tiiproject.com,HQ from official website (domain)
-investor_crm,537,Timberland Investment Group,city,,New York,United States,,,https://timberlandinvestmentgroup.com,HQ from official website (domain)
-investor_crm,747,TNO,city,,Utrecht,Netherlands,,,https://www.tno.nl/en,HQ from official website (domain)
-investor_crm,539,Tonbo,city,,Amsterdam,Netherlands,,,https://tonboimpact.com,HQ from official website (domain)
-investor_crm,541,TortoiseEcofin,city,,London,United Kingdom,,,https://tortoiseecofin.com,HQ from official website (domain)
-investor_crm,63,Toyota Ventures,city,,Los Altos,United States,,,https://toyota-ventures.com,HQ from official website (domain)
-investor_crm,542,Trade and Development Bank of Mongolia,city,,New York,United States,,,https://www.tdbm.mn/en/about-us,HQ from official website (domain)
-investor_crm,543,"Treehouse Investments, LLC",city,,Luxembourg,Luxembourg,,,https://www.treehouseinvestments.com,HQ from official website (domain)
-investor_crm,544,Trimtab Impact,city,,Luxembourg,Luxembourg,,,https://www.trimtabimpact.com,HQ from official website (domain)
-investor_crm,64,Triodos,city,,Amsterdam,Netherlands,,,https://www.triodos.com,HQ from official website (domain)
-investor_crm,164,Triodos Bank,city,,Amsterdam,Netherlands,,,https://www.triodos.com,HQ from official website (domain)
-investor_crm,65,Triodos Investment Management,city,,Zeist,Netherlands,,,https://www.triodos-im.com,HQ from official website (domain)
-investor_crm,797,Triodos speciaal fonds,city,,Zeist,Netherlands,,,https://www.triodos-im.com,HQ from official website (domain)
-investor_crm,545,Triple P Advisory Pte Ltd,city,,Singapore,Singapore,,,https://www.triplepcapital.com,HQ from official website (domain)
-investor_crm,546,Truvalu B.V.,city,,Amsterdam,Netherlands,,,https://truvalu-group.com,HQ from official website (domain)
-investor_crm,547,Truvalu.enterprises Limited,city,,Amsterdam,Netherlands,,,https://truvalu-group.com,HQ from official website (domain)
-investor_crm,517,TSIC,city,,London,United Kingdom,,,https://tsiconsultancy.com,HQ from official website (domain)
-investor_crm,548,Tufts University Investment Office,city,,Boston,United States,,,https://investments.tufts.edu/contact-us,HQ from official website (domain)
-investor_crm,62,TWYNAM Earth Fund,city,,Sydney,Australia,,,https://twynam.com,HQ from official website (domain)
-investor_crm,549,Tyton Partners,city,,New York,United States,,,https://tytonpartners.com,HQ from official website (domain)
-investor_crm,550,U.S. Impact Investing Alliance,city,,Luxembourg,Luxembourg,,,https://impinvalliance.org,HQ from official website (domain)
-investor_crm,66,U.S. International Development Finance Corporation (DFC),city,,New York,United States,,,https://www.dfc.gov,HQ from official website (domain)
-investor_crm,551,UBS,city,,Zurich,Switzerland,,,https://www.ubs.com,HQ from official website (domain)
-investor_crm,554,Ubuntoo,city,,Atlanta,United States,,,https://ubuntoo.com,HQ from official website (domain)
-investor_crm,552,UC Impower Fund,city,,Bengaluru,India,,,https://ucimpower.com,HQ from official website (domain)
-investor_crm,672,Uncompromise,city,,San Francisco,United States,,,https://uncompromise.vc,HQ from official website (domain)
-investor_crm,555,United Nations,city,,Geneva,Switzerland,,,https://www.un.org/contact-us,HQ from official website (domain)
-investor_crm,948,United Ventures,city,,Milan,Italy,,,https://www.unitedventures.com,HQ from official website (domain)
-investor_crm,556,Unitus Labs,city,,Mumbai,India,,,https://unituslabs.org,HQ from official website (domain)
-investor_crm,833,University of Capetown,city,,Cape Town,South Africa,,,https://www.uct.ac.za,HQ from official website (domain)
-investor_crm,557,University of Oxford,city,,Oxford,United Kingdom,,,https://www.ox.ac.uk,HQ from official website (domain)
-investor_crm,558,University of Utah,city,,Salt Lake City,United States,,,https://www.utah.edu,HQ from official website (domain)
-investor_crm,559,Upaya Social Ventures,city,,Luxembourg,Luxembourg,,,https://www.upayasv.org,HQ from official website (domain)
-investor_crm,560,Upright,city,,Helsinki,Finland,,,https://www.uprightproject.com,HQ from official website (domain)
-investor_crm,553,US International Development Finance Corporation (DFC),city,,New York,United States,,,https://www.dfc.gov,HQ from official website (domain)
-investor_crm,749,Utrecht Inc,city,,Utrecht,Netherlands,,,https://utrechtinc.nl,HQ from official website (domain)
-investor_crm,561,Uxolo,city,,Singapore,Singapore,,,https://uxolo.com,HQ from official website (domain)
-investor_crm,562,Uxolo Development Finance,city,,Singapore,Singapore,,,https://uxolo.com,HQ from official website (domain)
-investor_crm,563,Value for Women,city,,London,United Kingdom,,,https://www.v4w.org,HQ from official website (domain)
-investor_crm,564,Van Lanschot Kempen,city,,Amsterdam,Netherlands,,,https://www.vanlanschotkempen.com/en-nl,HQ from official website (domain)
-investor_crm,565,Vantain AG and Climate Fund Managers,city,,New York,United States,,,https://vantain.com,HQ from official website (domain)
-investor_crm,950,Vargas Holding / Altor Vargas,city,,Stockholm,Sweden,,,https://www.vargasholding.com,HQ from official website (domain)
-investor_crm,566,"Variant Investments, LLC",city,,Denver,United States,,,https://variantinvestments.com,HQ from official website (domain)
-investor_crm,808,Vattenfal,city,,Groningen,Netherlands,,,https://group.vattenfall.com,HQ from official website (domain)
-investor_crm,750,Venturerock,city,,Amsterdam,Netherlands,,,https://venturerock.com,HQ from official website (domain)
-investor_crm,751,VGZ,city,,Arnhem,Netherlands,,,https://www.vgz.nl,HQ from official website (domain)
-investor_crm,951,Victory Capital,city,,Boston,United States,,,https://www.vcm.com,HQ from official website (domain)
-investor_crm,567,Vidia GmbH,city,,Paris,France,,,https://vidiaequity.com,HQ from official website (domain)
-investor_crm,568,Vinci Impact and Return,city,,Luxembourg,Luxembourg,,,https://vincipartners.com,HQ from official website (domain)
-investor_crm,569,"Vinte Viviendas Integrales, S.A.B. de C.V. (Vinte)",city,,São Paulo,Brazil,,,https://vinte.com,HQ from official website (domain)
-investor_crm,570,Visa Foundation,city,,Foster City,United States,,,https://corporate.visa.com/en/about-visa.html,HQ from official website (domain)
-investor_crm,673,Vista alta,city,,Luxembourg,Luxembourg,,,https://www.vista-alta.com,HQ from official website (domain)
-investor_crm,571,Vista Equity Partners,city,,Austin,United States,,,https://www.vistaequitypartners.com,HQ from official website (domain)
-investor_crm,572,Vital Capital Fund,city,,Luxembourg,Luxembourg,,,https://vital-capital.com,HQ from official website (domain)
-investor_crm,573,Vital Strategies,city,,New York,United States,,,https://www.vitalstrategies.org,HQ from official website (domain)
-investor_crm,574,Vivriti Asset Management,city,,Chennai,IN,,,https://www.vivritiamc.com,HQ from official website (domain)
-investor_crm,575,Vivriti Asset Management Private Limited,city,,Chennai,IN,,,https://www.vivritiamc.com,HQ from official website (domain)
-investor_crm,576,Volans,city,,London,United Kingdom,,,https://volans.com,HQ from official website (domain)
-investor_crm,577,Vox Capital,city,,São Paulo,Brazil,,,https://voxcapital.com.br,HQ from official website (domain)
-investor_crm,596,water.org,city,,Kansas City,United States,,,https://water.org,HQ from official website (domain)
-investor_crm,581,WaterEquity,city,,Oakland,United States,,,https://waterequity.com,HQ from official website (domain)
-investor_crm,857,Wellington,city,,Boston,United States,,,https://www.wellington.com/en,HQ from official website (domain)
-investor_crm,582,Wellington Management,city,,Boston,United States,,,https://www.wellington.com/en,HQ from official website (domain)
-investor_crm,68,World Fund,city,,Amsterdam,Netherlands,,,https://www.worldfund.vc/about,HQ from official website (domain)
-investor_crm,583,World Vision,city,,London,United Kingdom,,,https://www.visionfund.org,HQ from official website (domain)
-investor_crm,584,World Wide Fund for Nature (WWF) Zambia,city,,Lusaka,Zambia,,,https://wwfzm.panda.org,HQ from official website (domain)
-investor_crm,674,WWF Fund,city,,Gland,Switzerland,,,https://wwf.panda.org,HQ from official website (domain)
-investor_crm,585,XSML Capital,city,,Amsterdam,Netherlands,,,https://www.xsmlcapital.com,HQ from official website (domain)
-investor_crm,756,YES!Delft,city,,Rotterdam,Netherlands,,,https://yesdelft.com/contact,HQ from official website (domain)
-investor_crm,809,Yes!Delft Investment Club,city,,Rotterdam,Netherlands,,,https://yesdelft.com/contact,HQ from official website (domain)
-investor_crm,587,Yunus Social Business,city,,Berlin,Germany,,,https://www.yunussb.com,HQ from official website (domain)
-investor_crm,69,Zubi Capital,city,,Madrid,Spain,,,https://zubicapital.com,HQ from official website (domain)
-investor_crm,588,Zürcher Kantonalbank (ZKB),city,,Zurich,Switzerland,,,https://www.zkb.ch/en/home,HQ from official website (domain)
+entity_type,id,name,precision,street_address,city,country,lat,lng,source_url,evidence,notes
+investor_crm,959,10 investment,unknown,,,,,,https://10investments.nl,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,841,1955 Capital,unknown,,,,,,https://1955.capital,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,814,2C Ventures,unknown,,,,,,https://www.2cventures.eu,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,860,2degrees,unknown,,,,,,https://www.weare2degrees.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,678,4Impact VC,city,,The Hague,Netherlands,,,https://www.4impact.vc,"JSON-LD addressLocality=The Hague, addressCountry=NL",Structured data (JSON-LD postal address)
+investor_crm,852,500 startups,city,,Mountain View,United States,,,https://www.wikidata.org/wiki/Q21015593,"Wikidata Q21015593 (500 Global) P159 headquarters → Mountain View, United States",Official registry (Wikidata P159)
+investor_crm,859,7percent ventures,unknown,,,,,,https://www.7pc.vc,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,987,AALchemy ventures //n Andrey Kostyuk,unknown,,,,,,https://aalchemy.eu,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,679,ABN AMRO,city,,Amsterdam,Netherlands,,,https://www.wikidata.org/wiki/Q287471,"Wikidata Q287471 (ABN AMRO) P159 headquarters → Amsterdam, Netherlands",Official registry (Wikidata P159)
+investor_crm,174,ABN AMRO Bank N.V.,city,,Amsterdam,Netherlands,,,https://www.wikidata.org/wiki/Q287471,"Wikidata Q287471 (ABN AMRO) P159 headquarters → Amsterdam, Netherlands",Official registry (Wikidata P159)
+investor_crm,147,ABN Amro Sustainable Impact Fund,unknown,,,,,,https://www.abnamro.nl/en/commercialbanking/corporates-institutionals/products/expand-your-business/private-equity/sustainable-impact-fund/index.html,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,680,Achmea,city,,Zeist,Netherlands,,,https://www.wikidata.org/wiki/Q4673833,"Wikidata Q4673833 (Achmea Holding NV) P159 headquarters → Zeist, Netherlands",Official registry (Wikidata P159)
+investor_crm,829,Achmea Impact Fund,unknown,,,,,,https://www.achmeainnovationfund.nl/en,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,148,Achmea Impact Ventures,unknown,,,,,,https://www.achmea-impact.ventures,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,799,Achmea Ventures,unknown,,,,,,https://www.achmea-impact.ventures,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,855,ACT Venture Capital,city,,Dublin,Ireland,,,https://actventure.capital,market Submit your pitch CONTACT ‍ 6 Richview Office Park Clonskeagh Dublin 14 Ireland Telephone ‍ +353 1260 0966 *We are currently dealing,HQ/contact text on page
+investor_crm,185,Acumen,city,,New York City,United States,,,https://www.wikidata.org/wiki/Q2186354,"Wikidata Q2186354 (Acumen Fund) P159 headquarters → New York City, United States",Official registry (Wikidata P159)
+investor_crm,71,Acumen Trellis,unknown,,,,,,https://acumen.org,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,111,AEBAN,unknown,,,,,,https://aeban.es,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,175,AEGON,city,,Cedar Rapids,United States,,,https://www.wikidata.org/wiki/Q291171,"Wikidata Q291171 (Aegon) P159 headquarters → Cedar Rapids, United States",Official registry (Wikidata P159)
+investor_crm,72,AfricInvest,city,,Tunis,Tunisia,,,https://www.wikidata.org/wiki/Q16119861,"Wikidata Q16119861 (AfricInvest) P159 headquarters → Tunis, Tunisia",Official registry (Wikidata P159)
+investor_crm,73,Afrilabs,unknown,,,,,,https://www.afrilabs.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,74,Agdevco,city,,London,United States,,,https://www.agdevco.com,"o | Registered address: Chancery House, 53-64 Chancery Lane, Holborn, London, WC2A 1QS millipedia :: ethical digital",HQ/contact text on page
+investor_crm,75,Agfunder,unknown,,,,,,https://agfunder.com/about,,Rejected weak HQ parse (country-level or ambiguous)
+investor_crm,76,Algebra Ventures,unknown,,,,,,https://algebraventures.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,77,Alpha Mundi,unknown,,,,,,https://www.alphamundigroup.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,614,Alphamundi,unknown,,,,,,https://www.alphamundigroup.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,589,alter equity,unknown,,,,,,https://www.alter-equity.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,861,Altor Equity Partners AB,city,,Stockholm,Sweden,,,https://www.altor.com/contact,planade St. Helier Jersey JE4 0QH Tel. +44 1534 833 000 info@altor.je Stockholm Altor Equity Partners AB Altor Fund Manager Jakobsgatan 6 11,HQ/contact text on page
+investor_crm,862,Amadeus Capital Partners,city,,Cambridge,United Kingdom,,,https://www.amadeuscapital.com/terms,"ed number 3392685. Registered office: Suite 1, 2nd Floor, 2 Quayside, Cambridge, CB5 8AB. Amadeus Capital Partners Limited is authorised and",HQ/contact text on page
+investor_crm,682,AMS Institute,unknown,,,,,,https://www.ams-institute.org,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,113,Ananda VC,unknown,,,,,,https://ananda.vc,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,863,Andera,unknown,,,,,,https://www.anderapartners.com/en,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,617,Angel Hub,unknown,,,,,,https://www.angelhub.mx,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,618,Angel Investment Network (Colombia),unknown,,,,,,https://www.angelinvestmentnetwork.com.co,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,194,Ankur Capital,city,,Mumbai,India,,,https://www.ankurcapital.com,"JSON-LD addressLocality=Mumbai, addressCountry=IN",Structured data (JSON-LD postal address)
+investor_crm,195,Anthos Fund & Asset Management,unknown,,,,,,https://www.anthosam.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,1,APG pension fund,city,,New York,Hong Kong,,,https://apg.nl/contact,"(0)455 79 92 22 Bekijk op Google Maps Routebeschrijving Noord-Amerika New York 666 3rd Avenue New York, NY 10017 +1 917 368 3500 Bekijk op G",HQ/contact text on page
+investor_crm,197,Apollo Global Management,city,,New York,United States,,,https://www.apollo.com/contact,"uarters Apollo Global Management, Inc. 9 West 57th Street, 41st Floor New York, NY 10019 +1 (212) 515-3200 View All Locations View All Locat",HQ/contact text on page
+investor_crm,839,Applied Ventures,unknown,,,,,,https://www.appliedmaterials.com/us/en/applied-ventures.html,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,621,Arrebol,unknown,,,,,,https://arrebolcap.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,590,asc impact GmbH,unknown,,,,,,https://asc-impact.com/en,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,206,Astanor,city,,Paris,France,,,https://astanor.com/legal,"EUR 1,881,000, whose registered office is at 2, rue de Laborde, 75008 Paris, France, registered with the Paris Trade and Companies Register",HQ/contact text on page
+investor_crm,858,At One Ventures,unknown,,,,,,https://www.atoneventures.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,78,Attijari Capital Management and Holdagro,unknown,,,,,,https://www.fm6i.ma/fonds-thematiques-et-sectoriels/,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,955,Auriga Partners,city,,Paris,France,,,https://www.aurigapartners.com/privacy,"t at the following address 250 bis rue du Faubourg Saint Honoré 75008 Paris (France) If, after having contacted us, you believe that there a",HQ/contact text on page
+investor_crm,3,Avenue,unknown,,,,,,https://www.avenuecapital.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,182,AXA Investment Managers,unknown,,,,,,https://www.axa-im.com,,Rejected weak HQ parse (country-level or ambiguous)
+investor_crm,210,Baillie Gifford,city,,Edinburgh,United States,,,https://www.bailliegifford.com/privacy,"ailliegifford.com Address: Baillie Gifford & Co, 3 Haymarket Terrace, Edinburgh EH3 8RY Please provide sufficient information to allow us to",HQ/contact text on page
+investor_crm,5,Barn Invest,city,,Sao Paulo,Brazil,,,https://www.barninvest.com.br,"Av. Nove de Julho 5017 11th Floor – Jardim Paulista Sao Paulo, SP",HTML address block
+investor_crm,864,Basinghall Partners,unknown,,,,,,https://www.basinghallpartners.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,114,BCombinator,unknown,,,,,,https://bcombinator.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,683,Behold,unknown,,,,,,https://behold.vc,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,115,Belgian Impact Investors Network,city,,Brussels,Belgium,,,https://impactfinance.be,"JSON-LD addressLocality=Brussels, addressCountry=BE",Structured data (JSON-LD postal address)
+investor_crm,866,Berkeley SkyDeck Fund,unknown,,,,,,https://skydeck.vc,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,6,Better Ventures,unknown,,,,,,https://www.better.vc,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,79,Beyond Capital Ventures,unknown,,,,,,https://www.beyondcapitalventures.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,216,Big Society Capital,city,,London,United Kingdom,,,https://bettersocietycapital.com/about,"fice: Better Society Capital Limited, Script, 44 Featherstone Street, London, EC1Y 8RN. Contact Number: 020 7186 2500",HQ/contact text on page
+investor_crm,217,BlackRock,city,,Amsterdam,Netherlands,,,https://www.blackrock.com/corporate,"for the Financial Markets. Registered office Amstelplein 1, 1096 HA, Amsterdam, Tel: 020 – 549 5200, Tel: 31-20-549-5200. Trade Register No",HQ/contact text on page
+investor_crm,840,Blitzscaling Ventures,city,,Palo Alto,United States,,,https://www.blitzscalingvc.com/contact-us,in valuable markets. Contact Us Win Your Market With Lightning Speed PALO ALTO info@blitzscalingventures.com Chat Chat Copyright 2024 Blitz,HQ/contact text on page
+investor_crm,867,Bloom Equity,unknown,,,,,,https://www.bloomequitypartners.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,869,Blue Ashva,city,,Mumbai,India,,,https://blueashvacapital.com/contact,"OFFICES A Multi-Strategy Asset Manager Backing India's Core Sectors. Mumbai 403-404, Madhava Building, E-Block, BKC, Mumbai 400051 Bangalor",HQ/contact text on page
+investor_crm,7,Blue Ashva Capital,city,,Mumbai,India,,,https://blueashvacapital.com/contact,"OFFICES A Multi-Strategy Asset Manager Backing India's Core Sectors. Mumbai 403-404, Madhava Building, E-Block, BKC, Mumbai 400051 Bangalor",HQ/contact text on page
+investor_crm,220,Blue Earth Capital AG,city,,Baar-Zug,Switzerland,,,https://blueearth.capital,"JSON-LD addressLocality=Baar-Zug, addressCountry=CH",Structured data (JSON-LD postal address)
+investor_crm,80,Blue Haven Initiative,unknown,,,,,,https://www.bluehaveninitiative.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,9,Blue like an orange,unknown,,,,,,https://bluelikeanorangecapital.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,8,Blue Orchard,city,,Zurich,Switzerland,,,https://www.blueorchard.com,t in emerging markets read more Interested in our newsletter? Sign up Zurich Geneva Luxembourg Lima Nairobi Tbilisi Singapore BlueOrchard Fi,HQ/contact text on page
+investor_crm,224,BlueOrchard Finance S.A,city,,Zurich,Switzerland,,,https://www.blueorchard.com,t in emerging markets read more Interested in our newsletter? Sign up Zurich Geneva Luxembourg Lima Nairobi Tbilisi Singapore BlueOrchard Fi,HQ/contact text on page
+investor_crm,685,BOM,city,,Tilburg,Netherlands,,,https://www.bom.nl/en,"JSON-LD addressLocality=Tilburg, addressCountry=NL",Structured data (JSON-LD postal address)
+investor_crm,1003,Bonventures,unknown,,,,,,https://www.bonventure.de/founders/,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,4,BP Ventures,unknown,,,,,,https://bp-ventures.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,686,Brabant Startup Fonds,unknown,,,,,,https://www.braventure.nl,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,871,Braemer Energy Ventures,unknown,,,,,,https://www.braemarenergy.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,227,Bridges Fund Management,unknown,,,,,,https://www.bridgesfundmanagement.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,688,Brightlands Venture Partners,unknown,,,,,,https://brightlandsventurepartners.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,228,British International Investment,unknown,,,,,,https://www.bii.co.uk,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,10,British International Investment (BII),unknown,,,,,,https://www.bii.co.uk,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,229,Builders Vision,city,,Chicago,United States,,,https://www.wikidata.org/wiki/Q137455497,"Wikidata Q137455497 (Builders Vision) P159 headquarters → Chicago, United States",Official registry (Wikidata P159)
+investor_crm,81,Calvert Capital,unknown,,,,,,https://www.calvertimpact.org,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,232,Calvert Impact Capital,unknown,,,,,,https://calvertimpact.org,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,873,Cantos,unknown,,,,,,https://cantos.vc,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,236,Capricorn Investment Group,city,,New York,United States,,,https://capricornllc.com/privacy,"tment Group Attn : Alexandra Acosta 512 West 22 nd Street, 6 th Floor New York, NY 10011 info@capricornllc.com 646-380-0390 Connect With Cap",HQ/contact text on page
+investor_crm,12,Carao Ventures,unknown,,,,,,https://www.caraov.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,13,Carbon Equity,city,,Amsterdam,Netherlands,,,https://www.carbonequity.com/about-us,"efault""> Our offices Building the new economy from Europe Netherlands Amsterdam HQ Geldersekade 101-F, 1011 EM Amsterdam View on the map Ger",HQ/contact text on page
+investor_crm,876,Catalyze Group,city,,Amsterdam,Netherlands,,,https://www.catalyze-group.com/contact,info@catalyze-group.com Fill in the form and we’ll reach out a.s.a.p. Amsterdam Office (HQ) Joop Geesinkweg 167 1114 AB Amsterdam-Duivendrec,HQ/contact text on page
+investor_crm,879,Caterpillar Ventures,unknown,,,,,,https://www.caterpillar.com/en/company/innovation/caterpillar-ventures.html,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,880,Charles River Ventures,city,,San Francisco,Canada,,,https://www.crv.com,"52 Zoe Street San Francisco , CA 94107 Ph. 415-960-3000",HTML address block
+investor_crm,877,Chevron Technology Ventures,unknown,,,,,,https://chevrontechnologyventures.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,878,Citizen Capital,unknown,,,,,,https://citizencapital.eu,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,881,Climactic VC,city,,San Francisco,United States,,,https://www.climactic.vc/privacy-policy,gement Project) IMP (Impact Management Project) Contact us Offices in San Francisco and NYC info@climactic.vc info@climactic.vc (415) 295-29,HQ/contact text on page
+investor_crm,15,Climate Fund Managers,city,,The Hague,Netherlands,,,https://climatefundmanagers.com/privacy,"ernance@climatefundmanagers.com Address: Korte Vijverberg 4, 2513 AB, The Hague, The Netherlands Complaints You have the right to lodge a co",HQ/contact text on page
+investor_crm,973,Climate Market Place,unknown,,,,,,https://climate-marketplace.com/,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,882,Closed Loop Partners,city,,New York,United States,,,https://www.closedlooppartners.com,"firm, innovation center and operating group. 888 7th Ave, 10th Floor, New York NY 10106 Login Follow us on Twitter Follow on LinkedIn Back t",HQ/contact text on page
+investor_crm,835,CMA CGM,city,,Marseille,France,,,https://www.cmacgm-group.com/en,"JSON-LD addressLocality=Marseille, addressCountry=FR",Structured data (JSON-LD postal address)
+investor_crm,884,Comcast Ventures,city,,San Francisco,United States,,,https://www.wikidata.org/wiki/Q60740233,"Wikidata Q60740233 (Comcast Ventures) P159 headquarters → San Francisco, United States",Official registry (Wikidata P159)
+investor_crm,886,Congruent VC,city,,San Francisco,Canada,,,https://www.congruentvc.com,"port companies as they scale. OFFICE ADDRESS 201 Mission St Suite 650 San Francisco, CA 94105 ‍ GENERAL INQUIRIES + PRESS info@congruentvc.c",HQ/contact text on page
+investor_crm,982,Core Angel Climate,unknown,,,,,,https://www.coreangels.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,599,Core Angels Pacific,unknown,,,,,,https://www.coreangels.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,117,Core Climate Angels,unknown,,,,,,https://www.coreangels.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,821,CoreAngels,unknown,,,,,,https://www.coreangels.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,629,Corekees,unknown,,,,,,https://corekees.com/en,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,693,Corporate Venturing Network,unknown,,,,,,https://corporateventuringnetwork.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,600,Dadneo,unknown,,,,,,https://dadneo.capital,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,632,Dalus,unknown,,,,,,https://www.daluscapital.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,633,Danta,unknown,,,,,,https://dantafund.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,16,DEG,unknown,,,,,,https://www.deginvest.de,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,17,DEG (Deutsche Investition- und Entwicklungsgesellschaft),unknown,,,,,,https://www.deginvest.de,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,264,DEG- Deutsche Investition- und Entwicklungsgesellschaft mbH,unknown,,,,,,https://www.deginvest.de,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,694,DELA,city,,Antwerp,Belgium,,,https://www.wikidata.org/wiki/Q2437457,"Wikidata Q2437457 (DELA) P159 headquarters → Antwerp, Belgium",Official registry (Wikidata P159)
+investor_crm,889,Diffusion Capital Partners,unknown,,,,,,https://www.dcp.vc,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,695,Diverse Leaders in Tech,city,,Amsterdam,United States,,,https://diverseleadersintech.com,"licy Cookie Policy Membership Terms & Conditions Contact us Location: Amsterdam, NL Contact us Archives No archives to show. Categories Even",HQ/contact text on page
+investor_crm,84,DOEN,unknown,,,,,,https://www.doen.nl/en,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,949,DOW,unknown,,,,,,https://www.dow.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,963,Dozen investment,unknown,,,,,,https://dozeninvestments.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,891,Draper Associates,city,,San Mateo,United States,,,https://www.draper.vc,"JSON-LD addressLocality=San Mateo, addressCountry=US",Structured data (JSON-LD postal address)
+investor_crm,631,DRk Foundation,city,,Menlo Park,United States,,,https://www.drkfoundation.org/contact,"with us. We will reply as soon as possible. Our Offices United States Menlo Park, CA 1600 El Camino Real, Suite 155 Menlo Park, CA 94025 Tel",HQ/contact text on page
+investor_crm,893,Dutch Mezzanine Fund II,city,,Frankfurt am Main,Germany,,,https://www.dutchmezzanine.nl/contact,erlaan 3 1082 MS Amsterdam Eurotheum Neue Mainzer Strasse 66-68 60311 Frankfurt am Main Germany gerard@dutchmezzanine.nl +31 (0)6 5251 3277,HQ/contact text on page
+investor_crm,964,DWR Eco,city,,Berlin,Germany,,,https://dwr-eco.com/impressum,EN Impressum Angaben gemäß § 5 TMG DWR eco GmbH Belforter Str 1 10405 Berlin Deutschland Handelsregister: HRB 142777 B Registergericht: Char,HQ/contact text on page
+investor_crm,636,Eco Enterprises Fund,city,,Washington,United States,,,https://ecoenterprisesfund.com,"ling sent to EcoEnterprises Fund at 5614 Connecticut Avenue, NW #135; Washington, DC 20015, USA. Calling EcoEnterprises Fund’s phone line: +",HQ/contact text on page
+investor_crm,285,EcoEnterprises Fund,city,,Washington,United States,,,https://ecoenterprisesfund.com,"ling sent to EcoEnterprises Fund at 5614 Connecticut Avenue, NW #135; Washington, DC 20015, USA. Calling EcoEnterprises Fund’s phone line: +",HQ/contact text on page
+investor_crm,286,Ecosystem Integrity Fund,unknown,,,,,,https://eif.vc,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,894,EDF Pulse Ventures,unknown,,,,,,https://www.edf.fr/en/pulse/ventures,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,591,eha Impact Ventures,unknown,,,,,,https://www.eha.ventures,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,86,ELEA,unknown,,,,,,https://www.elea.org,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,895,Elemental Excelerator,unknown,,,,,,https://elementalimpact.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,288,Elevar Equity,unknown,,,,,,https://elevarequity.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,807,Eneco,city,,Rotterdam,Netherlands,,,https://www.wikidata.org/wiki/Q1341079,"Wikidata Q1341079 (Eneco) P159 headquarters → Rotterdam, Netherlands",Official registry (Wikidata P159)
+investor_crm,837,Energy Innovation Capital,unknown,,,,,,https://www.energyinnovationcapital.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,637,Epic Angels,unknown,,,,,,https://www.epicangelnetwork.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,122,EsadeBan,unknown,,,,,,https://esadeban.com/en,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,292,"European Bank for Reconstruction and Development (EBRD), The",unknown,,,,,,https://www.ebrd.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,25,European Investment Bank,unknown,,,,,,https://www.eib.org,,Rejected weak HQ parse (country-level or ambiguous)
+investor_crm,899,Evergreen Climate Innovations,city,,Chicago,United States,,,https://evergreeninno.org/contact,"oday Evergreen Climate Innovations 400 North Aberdeen Street, Floor 8 Chicago, IL 60642 Sign-up for a our newsletter Get updates on the Grea",HQ/contact text on page
+investor_crm,592,evolutiq impact advisory,unknown,,,,,,https://impact-advisory.evolutiq.com/en,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,896,Fair Capital Partners,unknown,,,,,,https://faircapitalpartners.nl,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,301,FaithInvest,city,,London,United Kingdom,,,https://www.faithinvest.org,"tors | www.faithinvest.org | c/o Stone King LLP, Charterhouse Street, London, UK top of page SUBSCRIBE HOME ABOUT OUR TEAM OUR MISSION WHY W",HQ/contact text on page
+investor_crm,302,Fajr Capital,city,,Dubai,United Arab Emirates,,,https://fajrcapital.com,"Level 3, Gate Village 5 Dubai International Financial Centre Dubai, United Arab Emirates",HTML address block
+investor_crm,699,Fem-Start,city,,Den Haag,Netherlands,,,https://fem-start.com/privacy,"erlands having its registered address at Rijswijkseplein 137, 2516 GZ Den Haag, The Netherlands and company registration number 58561129 . T",HQ/contact text on page
+investor_crm,304,Fidante Partners,unknown,,,,,,https://www.fidante.com,,Rejected weak HQ parse (country-level or ambiguous)
+investor_crm,865,Fifth Wall Ventures,city,,Los Angeles,United States,,,https://www.fifthwall.com/contact,"been received! Oops! Something went wrong while submitting the form. Los Angeles Office 301 N Canon Dr #325 Beverly Hills, CA 90210 Press:",HQ/contact text on page
+investor_crm,27,Finance in Motion,unknown,,,,,,https://www.finance-in-motion.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,29,Finn Fund,city,,Helsinki,United States,,,https://www.finnfund.fi/contact-us,"e responsibility, legal affairs and administration. They are based in Helsinki and Nairobi but operate in developing countries worldwide. Se",HQ/contact text on page
+investor_crm,306,Finnfund,city,,Helsinki,United States,,,https://www.finnfund.fi/contact-us,"e responsibility, legal affairs and administration. They are based in Helsinki and Nairobi but operate in developing countries worldwide. Se",HQ/contact text on page
+investor_crm,297,FINVIA Holding GmbH,unknown,,,,,,https://www.finvia.fo,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,903,First Bridge Ventures,unknown,,,,,,https://www.firstbridge.vc,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,905,Floodgate,unknown,,,,,,https://floodgate.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,26,FMO,city,,Nairobi,Netherlands,,,https://www.fmo.nl,ct Us FMO South Africa +27 11 507 2500 joburg-office@fmo.nl FMO Kenya nairobi-office@fmo.nl FMO Costa Rica sanjose-office@fmo.nl Our cookie,HQ/contact text on page
+investor_crm,308,Fondaction,city,,Montreal,United States,,,https://www.fondaction.com/contact-us,"new request I’m completing an existing request Find us Head Office in Montreal De Maisonneuve Blvd East, Suite 103 Montreal (Québec) H2K 4S3",HQ/contact text on page
+investor_crm,640,Fondo Impacta,unknown,,,,,,https://www.impacta.vc,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,310,Foodvalley,city,,Wageningen,Netherlands,,,https://foodvalley.nl/contact,"act us Contact us Our contact details Foodvalley Bronland 10F 6708 WH Wageningen, The Netherlands Our office is located in the Plus Ultra II",HQ/contact text on page
+investor_crm,311,Ford Foundation,city,,Johannesburg,South Africa,,,https://www.fordfoundation.org/about,"Ford Foundation PO Box 521115 Saxonwold 2132 Johannesburg, South Africa",HTML address block
+investor_crm,902,Founders Fund,city,,San Francisco,United States,,,https://www.wikidata.org/wiki/Q1439864,"Wikidata Q1439864 (Founders Fund) P159 headquarters → San Francisco, United States",Official registry (Wikidata P159)
+investor_crm,906,Founders Future,city,,Paris,France,,,https://www.wikidata.org/wiki/Q136366587,"Wikidata Q136366587 (Founders Future) P159 headquarters → Paris, France",Official registry (Wikidata P159)
+investor_crm,298,FOUNT,unknown,,,,,,https://fount.eu,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,312,Franklin Templeton,city,,San Mateo,United States,,,https://www.wikidata.org/wiki/Q744683,"Wikidata Q744683 (Franklin Templeton Investments) P159 headquarters → San Mateo, United States",Official registry (Wikidata P159)
+investor_crm,299,FS Impact Finance,city,,Frankfurt am Main,Germany,,,https://fs-finance.com/imprint,int Frankfurt School Financial Services GmbH Adickesallee 32-34 60322 Frankfurt am Main Germany Email: info@fs-finance.com Represented by Ma,HQ/contact text on page
+investor_crm,642,Fundación Bancolombia,unknown,,,,,,https://fundacion.bancolombia.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,643,Fundación Bolivar Davivienda,city,,Bogotá,Colombia,,,https://www.fundacionbolivardavivienda.org,"Web DIAN Cultivarte Datos de contacto Av. Calle 26 # 69-63. Piso 11. Bogotá, Colombia (+57 1) 2201610 ext 98706 (+57 1) 2201578 Síguenos Nu",HQ/contact text on page
+investor_crm,315,Funds for Good,unknown,,,,,,https://www.fundsforgood.eu,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,601,Fundsurfer,unknown,,,,,,https://www.fundsurfer.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,30,Future Energy Ventures,city,,Seattle,United States,,,https://fev.vc/privacy,"ite. The provider is Defiant Inc, Defiant, Inc, 800 5th Ave Ste 4100, Seattle, WA 98104, USA (hereinafter “Wordfence”). Wordfence is designe",HQ/contact text on page
+investor_crm,958,FutureMobilityNetwork,city,,Rotterdam,Netherlands,,,https://thefuturemobility.network/contact,"eleid. Verstuur Contactgegevens Bezoekadres Delfsteplein 27H, 3013 AA Rotterdam, Nederland Postadres Delfsteplein 27H 3013 AA Rotterdam, Ned",HQ/contact text on page
+investor_crm,321,Galvanize Climate Solutions,unknown,,,,,,https://galvanizeclimate.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,31,GAWA,city,,Madrid,Spain,,,https://www.gawacapital.com,"JSON-LD addressLocality=Madrid, addressCountry=ES",Structured data (JSON-LD postal address)
+investor_crm,317,GAWA Capital,city,,Madrid,Spain,,,https://www.gawacapital.com,"JSON-LD addressLocality=Madrid, addressCountry=ES",Structured data (JSON-LD postal address)
+investor_crm,702,Gemeente Amsterdam,city,,Amsterdam,Netherlands,,,https://www.wikidata.org/wiki/Q9899,"Wikidata Q9899 (Amsterdam) P159 headquarters → Amsterdam, Netherlands",Official registry (Wikidata P159)
+investor_crm,907,Generate Capital,city,,San Francisco,Canada,,,https://generatecapital.com/contact,"am to discuss partnerships, investments, and opportunities. Locations San Francisco Headquarters 650 Davis Street Suite 200 San Francisco, C",HQ/contact text on page
+investor_crm,32,GetInvest,unknown,,,,,,https://www.get-invest.eu,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,323,Giving Women,unknown,,,,,,https://givingwomen.ch,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,318,GK Ventures,unknown,,,,,,https://gkventures.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,319,GLIN Impact Capital,unknown,,,,,,https://glinimpact.com/en,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,993,Global Angel Club,unknown,,,,,,https://www.globalsuperangels.club/,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,326,Global Innovation Fund,city,,London,United Kingdom,,,https://www.globalinnovation.fund,"487). Registered office: Global Innovation Fund, 8 Devonshire Square, London, EC2M 4PL. GIF takes a zero-tolerance approach to bribery and c",HQ/contact text on page
+investor_crm,124,GoldenEgg,city,,Amersfoort,Netherlands,,,https://goldeneggcheck.com/en,AI 1 2 Next Visitor address: De Nieuwe Stad Oliemolenhof 18a 3812 PB Amersfoort Netherlands Home Startups Investors Corporate About us Blog,HQ/contact text on page
+investor_crm,328,Golding Capital Partners GmbH,city,,Munich,Germany,,,https://www.wikidata.org/wiki/Q124664650,"Wikidata Q124664650 (Golding Capital Partners GmbH) P159 headquarters → Munich, Germany",Official registry (Wikidata P159)
+investor_crm,92,Goodwell,city,,Johannesburg,South Africa,,,https://goodwell.nl,"am Nairobi, Kenya Block B 4th floor, Merchant Square, Riverside Drive Johannesburg, South Africa 2nd Floor, Trumpet Building 21 Keyes Avenue",HQ/contact text on page
+investor_crm,329,Goodwell Investments,city,,Johannesburg,South Africa,,,https://goodwell.nl,"am Nairobi, Kenya Block B 4th floor, Merchant Square, Riverside Drive Johannesburg, South Africa 2nd Floor, Trumpet Building 21 Keyes Avenue",HQ/contact text on page
+investor_crm,91,GoParity,city,,Lisbon,Portugal,,,https://goparity.com,"JSON-LD addressLocality=Lisbon, addressCountry=PT",Structured data (JSON-LD postal address)
+investor_crm,125,Green Angel Ventures,city,,London,United Kingdom,,,https://greenangelventures.com,"Green Angel Ventures 42 Charlwood Road, London, SW15 1PW",HTML address block
+investor_crm,331,Green Artha,unknown,,,,,,https://www.green-artha.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,126,Green Impact Investing,unknown,,,,,,https://greenimpactinvesting.nl,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,988,Green Impact Investing // GreenChoice,unknown,,,,,,https://greenimpactinvesting.nl,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,703,Green Whale,unknown,,,,,,https://www.green-whale.nl,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,320,GSG,city,,London,United Kingdom,,,https://www.gsgimpact.org,"o. 1175658, whose registered office is at Third Floor, 20 Old Bailey, London, United Kingdom EC4M 7AN ©2017-2026 All Rights Reserved by GSG",HQ/contact text on page
+investor_crm,850,Hitachi Ventues,city,,Berlin,Germany,,,https://calendly.com/privacy,".com . Alternatively, they can be reached by post (DPO Centre Europe, BERLIN: Friedrichstrabe 88, Excellent Business Centre, Berlin, 10117,",HQ/contact text on page
+investor_crm,706,Horizon Flevoland,unknown,,,,,,https://horizonflevoland.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,593,iConnections,unknown,,,,,,https://iconnections.io,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,34,IDB,unknown,,,,,,https://www.iadb.org,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,338,IDH,city,,Utrecht,Netherlands,,,https://idh.org/contact,"programs where the action is happening. Our head office is located in Utrecht, The Netherlands. Phone: +31 (0)30 230 5660 E-mail general enq",HQ/contact text on page
+investor_crm,339,IDH Investment Management,city,,Utrecht,Netherlands,,,https://idh.org/contact,"programs where the action is happening. Our head office is located in Utrecht, The Netherlands. Phone: +31 (0)30 230 5660 E-mail general enq",HQ/contact text on page
+investor_crm,966,IESE,city,,Sao Paulo,Germany,,,https://www.iese.edu/contact-us,"traße 15 81675 Munich Germany Tel.: +49 89 24 20 97 90 ISE and IESE - Sao Paulo campus Rua Martiniano de Carvalho, 573 01321001 Sao Paulo, S",HQ/contact text on page
+investor_crm,340,IFU,city,,Johannesburg,South Africa,,,https://impactfund.dk/contact-us,"Copenhagen Denmark +45 33 63 75 00 contact@impactfund.dk South Africa Johannesburg Workshop 17 The Bank, room 3.05 Corner Tyrwhitt and, 24 C",HQ/contact text on page
+investor_crm,801,Impact City,unknown,,,,,,https://www.impactcity.nl,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,157,Impact City Amsterdam,unknown,,,,,,https://www.impactcity.nl,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,35,Impact Fund Denmark,city,,Johannesburg,South Africa,,,https://impactfund.dk/contact-us,"Copenhagen Denmark +45 33 63 75 00 contact@impactfund.dk South Africa Johannesburg Workshop 17 The Bank, room 3.05 Corner Tyrwhitt and, 24 C",HQ/contact text on page
+investor_crm,342,IMPact SGR,unknown,,,,,,https://www.impactsgr.it,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,93,Impact Shakers,unknown,,,,,,https://www.impactshakers.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,350,ImpactCity The Hague,unknown,,,,,,https://www.impactcity.nl,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,94,Incofin,unknown,,,,,,https://incofin.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,352,Incofin Investment Management,unknown,,,,,,https://incofin.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,970,infiniumpartners,unknown,,,,,,https://www.infiniumpartners.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,708,Inkef,unknown,,,,,,https://www.inkef.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,38,InnoEnergy,city,,Amsterdam,Netherlands,,,https://innoenergy.com/contact,"a Location Belgium France Germany Netherlands Poland Spain Sweden USA Amsterdam office WTC Tower One, level 10 Zuidplein 84 1077 XV AMSTERDA",HQ/contact text on page
+investor_crm,356,Innpact S.A.,unknown,,,,,,https://innpact.com/contact,,Rejected weak HQ parse (country-level or ambiguous)
+investor_crm,344,INOKS Capital,city,,Geneva,Switzerland,,,https://www.inokscapital.ch/contact,Rue de l'Athénée 32 1206 Geneva Switzerland Google map,HTML address block
+investor_crm,910,Insight Venture Partners,city,,New York,United States,,,https://www.insightpartners.com/contact,"ed successfully. Headquarters 1114 Avenue of the Americas, 36th Floor New York 10036 Get Directions >> Phone: 212-230-9200 Join our mailing",HQ/contact text on page
+investor_crm,357,Insitor Partners Pte. Ltd.,unknown,,,,,,https://www.insitorpartners.com/contact,,Rejected weak HQ parse (country-level or ambiguous)
+investor_crm,358,Inspired Evolution,unknown,,,,,,https://inspiredevolution.co.za,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,360,International Finance Corporation (IFC),city,,Washington,United States,,,https://www.ifc.org/contacts,"2121 Pennsylvania Avenue, NW Washington D.C. 20433, United States",HTML address block
+investor_crm,361,Invesco,city,,Atlanta,United States,,,https://www.wikidata.org/wiki/Q522617,"Wikidata Q522617 (Invesco) P159 headquarters → Atlanta, United States",Official registry (Wikidata P159)
+investor_crm,711,Invest International,city,,Den Haag,Netherlands,,,https://investinternational.nl/privacy,"t information: Invest International B.V. Bezuidenhoutseweg 12 2594 AV Den Haag, Nederland privacy@investinternational.nl Get in touch Email:",HQ/contact text on page
+investor_crm,712,Invest-NL,city,,Amsterdam,Netherlands,,,https://www.invest-nl.nl/en,this? Eduard de Visser (Director of strategy & innovation at Port of Amsterdam) and Dolores de Rooij (senior business development manager a,HQ/contact text on page
+investor_crm,345,ISF Advisers,unknown,,,,,,https://isfadvisors.co,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,346,ISF Advisors,city,,Washington,United States,,,https://isfadvisors.co/contact,us if you have any questions. Get In Touch Tweets by ISFAdvisors --> Washington D.C. 1401 K Street NW Suite 900 Washington DC New York 155,HQ/contact text on page
+investor_crm,594,iungo capital,unknown,,,,,,https://iungocapital.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,362,Japan Post Insurance,city,,Tokyo,Japan,,,https://www.wikidata.org/wiki/Q6157781,"Wikidata Q6157781 (Japan Post Insurance) P159 headquarters → Tokyo, Japan",Official registry (Wikidata P159)
+investor_crm,363,Japan Social Innovation & Investment Foundation (SIIF),unknown,,,,,,https://www.siif.or.jp/en,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,364,"John D. and Catherine T. MacArthur Foundation, The",city,,New Delhi,India,,,https://www.macfound.org/about,"cArthur in India India Habitat Centre Zone VA, First Floor Lodhi Road New Delhi 110 003 India Phone 1 (91-11) 2464-4006 Phone 2 (91-11) 2461",HQ/contact text on page
+investor_crm,365,Jonathan Rose Companies,city,,New York,United States,,,https://www.rosecompanies.com/contact,New York City Phone: 917.542.3600,HTML address block
+investor_crm,815,K Fund,unknown,,,,,,https://www.kfund.vc,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,370,Katapult Ocean,city,,Oslo,Norway,,,https://www.katapultocean.com,"JSON-LD addressLocality=Oslo, addressCountry=NO",Structured data (JSON-LD postal address)
+investor_crm,371,KawiSafi Ventures,city,,New York,United States,,,https://www.kawisafi.com/terms,". Our Website was created and is controlled by Acumen in the State of New York, United States of America. The Website and its content, and a",HQ/contact text on page
+investor_crm,40,KFund,unknown,,,,,,https://www.kfund.vc,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,39,KFW,city,,Berlin,Germany,,,https://www.wikidata.org/wiki/Q658270,"Wikidata Q658270 (KfW) P159 headquarters → Berlin, Germany",Official registry (Wikidata P159)
+investor_crm,372,Khazanah Nasional Berhad,city,,New York,United States,,,https://www.khazanah.com.my/contact,"Name Email Phone Message Submit Kuala Lumpur Shanghai Istanbul Mumbai New York Khazanah Nasional Berhad Level 22, Mercu UEM, Jalan Stesen Se",HQ/contact text on page
+investor_crm,716,Kickstart AI,unknown,,,,,,https://kickstart.ai,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,816,Kiva,city,,San Francisco,United States,,,https://www.kiva.org,"JSON-LD addressLocality=San Francisco, addressCountry=USA",Structured data (JSON-LD postal address)
+investor_crm,374,Kiva Capital Management,city,,San Francisco,United States,,,https://www.kiva.org/contact-us,"JSON-LD addressLocality=San Francisco, addressCountry=USA",Structured data (JSON-LD postal address)
+investor_crm,649,Kiva Social Enterprises,city,,San Francisco,United States,,,https://www.kiva.org,"JSON-LD addressLocality=San Francisco, addressCountry=USA",Structured data (JSON-LD postal address)
+investor_crm,375,Kohlberg Kravis Roberts & Co. L.P.,city,,New York,United States,,,https://www.kkr.com/contact,"></p>\r\n<p><span class=\""para-lrg\""><b>Address:</b> 30 Hudson Yards, New York, NY 10001</span></p>\r\n<p><span class=\""para-lrg\""><b>Hours:",HQ/contact text on page
+investor_crm,824,KOIS,unknown,,,,,,https://www.koisinvest.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,96,KOIS Invest,unknown,,,,,,https://www.koisinvest.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,159,Kosmos Impact,unknown,,,,,,https://kosmosimpact.nl,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,376,"Kresge Foundation, The",unknown,,,,,,https://kresge.org,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,368,KUSH BANK PLC,city,,Juba,South Sudan,,,https://kushbankss.com/contact-us,"ry Digital Banking X Internet Banking Visit our Branches HEADQUARTERS Juba Central Equatoria State Konyo-Konyo Road, Opposite Juba City Coun",HQ/contact text on page
+investor_crm,131,Lanai VC,unknown,,,,,,https://lanai.vc,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,912,LDV Capital,unknown,,,,,,https://www.ldv.co,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,41,LeapFrog Investments,unknown,,,,,,https://leapfroginvest.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,380,Learn Capital,unknown,,,,,,https://www.learn.vc,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,381,Lemma FX,city,,Sydney,Australia,,,https://www.lemmafx.com,"JSON-LD addressLocality=Sydney, addressCountry=AU",Structured data (JSON-LD postal address)
+investor_crm,382,Lendable,city,,London,United Kingdom,,,https://lendable.io/contact-us,"frica, Latin America and Asia? Come work with us. careers@lendable.io London Suite 212-213 The Foundry 156 Blackfriars Road London, SE1 8EN",HQ/contact text on page
+investor_crm,379,LGT Capital Partners,unknown,,,,,,https://www.lgtcp.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,97,LGT Capital Partners (Lightrock link),city,,Utrecht,Netherlands,,,https://www.lightrock.com/contact,"d Kingdom, SW1Y 6AF Zürich Gartenstrasse 19, 8002 Zürich, Switzerland Utrecht Moreelsepark 1, 3511 EP Utrecht, The Netherlands Bangalore 3rd",HQ/contact text on page
+investor_crm,383,Liberty Group,unknown,,,,,,https://www.liberty.co.za,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,913,LifeX Ventures,unknown,,,,,,https://lifexventures.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,42,Light Ray Ventures,city,,New York,United States,,,https://www.lightray.vc,"nkedin Сrunchbase Location: 136 Madison Ave, Floors 5 & 6, PMB #4042, New York, NY 10016 Tel: (646) 586-9777 Mission Team Focus Companies Ne",HQ/contact text on page
+investor_crm,384,Lightrock,city,,Utrecht,Netherlands,,,https://www.lightrock.com/contact,"d Kingdom, SW1Y 6AF Zürich Gartenstrasse 19, 8002 Zürich, Switzerland Utrecht Moreelsepark 1, 3511 EP Utrecht, The Netherlands Bangalore 3rd",HQ/contact text on page
+investor_crm,43,Lightrock (LGT Group),city,,Utrecht,Netherlands,,,https://www.lightrock.com/contact,"d Kingdom, SW1Y 6AF Zürich Gartenstrasse 19, 8002 Zürich, Switzerland Utrecht Moreelsepark 1, 3511 EP Utrecht, The Netherlands Bangalore 3rd",HQ/contact text on page
+investor_crm,802,Lumo Labs,city,,Eindhoven,Netherlands,,,https://lumolabs.io/privacy,"the controller”): LUMO Labs BV, established at Torenallee 20, 5617 BC Eindhoven, The Netherlands, Chamber of Commerce number: 71718192 . Art",HQ/contact text on page
+investor_crm,132,Lumolabs,unknown,,,,,,https://www.lumolabs.io,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,914,Lux Capital,city,,New York City,United States,,,https://www.wikidata.org/wiki/Q6706160,"Wikidata Q6706160 (Lux Capital) P159 headquarters → New York City, United States",Official registry (Wikidata P159)
+investor_crm,392,Maj Invest,unknown,,,,,,https://www.majinvest.com/en,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,134,Marbella Tech Angels,unknown,,,,,,https://www.southsummit.io/leader/andreas-mihalovits/,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,916,Matterwave Ventures,city,,Barcelona,Spain,,,https://www.matterwave.vc/privacy-policy,"s the data on our behalf Typeform SL, Call Bac De Roda (Lo), 16308018 Barcelona, Spain. Storage duration: This information will be deleted a",HQ/contact text on page
+investor_crm,386,MCE Social Capital,city,,San Francisco,United States,,,https://www.mcesocap.org/contact-us,", email address, or phone number listed below. 5758 Geary Blvd., #261 San Francisco, CA 94121 (415) 230-4330 info@mcesocap.org About Us Our",HQ/contact text on page
+investor_crm,394,Mennonite Economic Development Associates (MEDA),city,,Nairobi,Kenya,,,https://www.meda.org/contact,"e: Kenya Gath Plaza Muthangari Drive, Westlands P.O. Box 3277-0050600 Nairobi Kenya Phone: +254 748 186 516 / +254 20 503 7800 Tanzania 1481",HQ/contact text on page
+investor_crm,388,MENTERRA VENTURE ADVISORS,unknown,,,,,,https://www.menterra.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,395,Meraki Impact,city,,Amsterdam,Netherlands,,,https://merakiimpact.com/contact,"age Send contact@merakiimpact.com Address Prinsengracht 769, 1017 JZ, Amsterdam THE DEFINITION OF MERAKI: To do something with soul, creativ",HQ/contact text on page
+investor_crm,655,Mercy Corps,city,,The Hague,Netherlands,,,https://www.wikidata.org/wiki/Q110892499,"Wikidata Q110892499 (Mercy Corps Netherlands) P159 headquarters → The Hague, Netherlands",Official registry (Wikidata P159)
+investor_crm,99,MercyCorps,unknown,,,,,,https://www.mercycorps.org,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,44,MGM Sustainable Energy Fund II,unknown,,,,,,https://capital.mgminnovagroup.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,720,Midpoint Brabant,unknown,,,,,,https://midpointbrabant.nl,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,918,MIG Capital AG,city,,Frankfurt am Main,Germany,,,https://www.mig.ag/imprint,"talt für Finanzdienstleistungsaufsicht Marie-Curie-Straße 24-28 60439 Frankfurt am Main, Germany VAT identification number DE814289700 (in a",HQ/contact text on page
+investor_crm,397,Milken Institute,city,,Toronto,South Korea,,,https://milkeninstitute.org/contact,ogues Back to International Global Dialogues EXPLORE Global Dialogues Toronto South Korea at the Crossroads Global Dialogues São Paulo Back,HQ/contact text on page
+investor_crm,721,Ministerie EZK,city,,The Hague,Netherlands,,,https://www.government.nl/privacy,f General Affairs Functionaris Persoonsgegevens Postbus 20001 2500 EA The Hague The Netherlands Contacting the data protection officer The G,HQ/contact text on page
+investor_crm,399,Ministry of Foreign Affairs,city,,The Hague,Netherlands,,,https://www.government.nl/privacy,f General Affairs Functionaris Persoonsgegevens Postbus 20001 2500 EA The Hague The Netherlands Contacting the data protection officer The G,HQ/contact text on page
+investor_crm,45,Mirova,city,,Hong Kong,United States,,,https://www.mirova.com/contact,content United States Austria Belgium Denmark Finland France Germany Hong Kong Ireland Italy Japan Luxembourg Netherlands Norway Poland Por,HQ/contact text on page
+investor_crm,400,Mitsubishi UFJ Trust and Banking Corporation,city,,Tokyo,Japan,,,https://www.wikidata.org/wiki/Q6883178,"Wikidata Q6883178 (Mitsubishi UFJ Trust and Banking Corporation) P159 headquarters → Tokyo, Japan",Official registry (Wikidata P159)
+investor_crm,390,MN,unknown,,,,,,https://www.mn.nl,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,919,Munich Venture Partners,city,,Munich,Germany,,,https://munichvp.com/imprint,MG): Service Provider: MVP Management GmbH Tuerkenstrasse 55-57 80799 Munich Germany Represented by the Managing Directors: Dr. Walter Grass,HQ/contact text on page
+investor_crm,133,MVentures,city,,Amsterdam,Netherlands,,,https://www.m-ventures.com/impressum,"on Site Notice / Imprint Terms of Use Privacy Statement © M Ventures, Amsterdam, The Netherlands Social Networks",HQ/contact text on page
+investor_crm,46,NatureVest / The Nature Conservancy,city,,New York,Mexico,,,https://www.nature.org/contact,"a, Suite 200 Santa Fe, NM 87501 Phone: 505-988-3867 Email: nm@tnc.org New York 322 8th Avenue 14th Floor New York, NY 10001 Phone: 212-997-1",HQ/contact text on page
+investor_crm,405,Nawa Impact,unknown,,,,,,https://nawaimpact.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,402,NDPI Foundation,unknown,,,,,,https://ndpifoundation.org,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,407,Neuberger Berman,city,,New York City,United States,,,https://www.wikidata.org/wiki/Q1851010,"Wikidata Q1851010 (Neuberger Berman) P159 headquarters → New York City, United States",Official registry (Wikidata P159)
+investor_crm,921,New Energy Capital,unknown,,,,,,https://newenergycapital.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,659,New Ventures,unknown,,,,,,https://www.nvgroup.org,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,403,NEXT Generation Invest AG,city,,Frankfurt,Germany,,,https://next-generation-group.de/impressum,kunft. Drucken TOP NEXT Generation Invest GmbH Niedenau 61–63 | 60325 Frankfurt | Germany | +49 (0)69 2714732 00 zurück Impressum Datenschut,HQ/contact text on page
+investor_crm,411,Nithio,city,,Nairobi,United States,,,https://nithio.com/contact," 700 K St NW, Washington, DC 20001  [email protected] Contact Lagos Nairobi Washington DC [email protected] Follow Nithio Follow Follow Ab",HQ/contact text on page
+investor_crm,724,NL Groeit,unknown,,,,,,https://www.nationaalgroeifonds.nl/english,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,831,NL Invest / Invest-NL,city,,Amsterdam,Netherlands,,,https://www.invest-nl.nl/en,this? Eduard de Visser (Director of strategy & innovation at Port of Amsterdam) and Dolores de Rooij (senior business development manager a,HQ/contact text on page
+investor_crm,725,NLC Health,city,,Amsterdam,Netherlands,,,https://www.nlc.health,re. Contact info@nlc.health The Cloud Building Mr Treublaan 7 1097 DP Amsterdam The Netherlands Follow us on Linkedin About NLC About Team I,HQ/contact text on page
+investor_crm,137,No Such Ventures,city,,Amsterdam,Netherlands,,,https://nosuchventures.com/privacy-policy,"vacy Policy No Such Ventures B.V., located at Wibaustraat 99, 1091 GL Amsterdam, the Netherlands is responsible for the processing of person",HQ/contact text on page
+investor_crm,726,Noaber,unknown,,,,,,https://www.noaber.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,412,Nonprofit Finance Fund,city,,New York,United States,,,https://nff.org/contact,"Email Name First Last Organization Message CAPTCHA Submit Our Offices New York Headquarters & All Correspondence 880 Third Avenue, 12 th Flo",HQ/contact text on page
+investor_crm,47,Nordfund,unknown,,,,,,https://www.norfund.no,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,413,Nordic Development Fund,city,,Helsinki,Finland,,,https://www.wikidata.org/wiki/Q7050687,"Wikidata Q7050687 (Nordic Development Fund) P159 headquarters → Helsinki, Finland",Official registry (Wikidata P159)
+investor_crm,414,Nordic Microfinance Initiative AS,city,,Nairobi,Norway,,,https://www.ablernordic.com/contact,"hysical address: c/o Norfund 14th Floor, The Address Muthangari Drive Nairobi Kenya Map Mailing address: Post box 66162 Westlands 00800 Nair",HQ/contact text on page
+investor_crm,961,NoSuchVentures,city,,Amsterdam,Netherlands,,,https://nosuchventures.com/privacy-policy,"vacy Policy No Such Ventures B.V., located at Wibaustraat 99, 1091 GL Amsterdam, the Netherlands is responsible for the processing of person",HQ/contact text on page
+investor_crm,854,NPM Capital,unknown,,,,,,https://www.npm-capital.com/en,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,658,NREL,city,,Golden,United States,,,https://www.wikidata.org/wiki/Q1856153,"Wikidata Q1856153 (National Laboratory of the Rockies) P159 headquarters → Golden, United States",Official registry (Wikidata P159)
+investor_crm,415,Nuveen,city,,Chicago,United States,,,https://www.wikidata.org/wiki/Q7070622,"Wikidata Q7070622 (Nuveen Investments) P159 headquarters → Chicago, United States",Official registry (Wikidata P159)
+investor_crm,48,Nuveen (TIAA),unknown,,,,,,https://www.nuveen.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,416,"Nuveen, a TIAA Company",unknown,,,,,,https://www.nuveen.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,404,NZ Super Fund,city,,Auckland,New Zealand,,,https://nzsuperfund.nz/contact-us,"re. New Zealand Super Fund Chief Post Office Level 1, 12 Queen Street Auckland Central Auckland 1010 New Zealand P O Box 106607 Auckland 114",HQ/contact text on page
+investor_crm,923,Obvious Ventures,unknown,,,,,,https://obvious.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,420,Octobre,city,,Paris,France,,,https://www.octobre.earth,ut Team Solution Values contact@octobre.earth 128 rue La Boétie 75008 Paris France. CONTACT US ©2025 Octobre All rights reserved. Privacy No,HQ/contact text on page
+investor_crm,845,Octopus Ventures,unknown,,,,,,https://octopusventures.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,417,OGCI Climate Investments,city,,Houston,United Kingdom,,,https://www.climateinvestment.com/contact,"cade House 25 Argyll Street London, W1F 7TS UK Find us on Google maps Houston office Suite 3300 1415 Louisiana Street Houston, TX 77002 Find",HQ/contact text on page
+investor_crm,418,OGCI Climate Investments LLP,city,,Houston,United Kingdom,,,https://www.climateinvestment.com/contact,"cade House 25 Argyll Street London, W1F 7TS UK Find us on Google maps Houston office Suite 3300 1415 Louisiana Street Houston, TX 77002 Find",HQ/contact text on page
+investor_crm,49,OIKO,unknown,,,,,,https://www.oikocredit.org,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,100,Oiko Credit,unknown,,,,,,https://www.oikocredit.org,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,421,Old Mutual Alternative Investments,city,,Cape Town,United States,,,https://www.oldmutualalternatives.com/contact-us,"al Alternative Investments Contact Old Mutual Alternative Investments Cape Town Building 2, Podium Level Riverlands 51 Gogosoa Street, Obser",HQ/contact text on page
+investor_crm,423,Omnivore,unknown,,,,,,https://omnivore.vc,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,424,One to Watch,unknown,,,,,,https://www.onetowatch.nl,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,728,Oost NL,unknown,,,,,,https://oostnl.nl/en,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,425,Open Capital,unknown,,,,,,https://www.opencapital.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,426,Open Road Alliance,unknown,,,,,,https://openroadalliance.org,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,972,Operator Exchange,unknown,,,,,,https://operator.exchange,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,103,Orange Corners,unknown,,,,,,https://www.orangecorners.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,428,"Orrick, Herrington & Sutcliffe LLP",city,,Seattle,Singapore,,,https://www.orrick.com,"ange County Paris Portland Rome Sacramento San Francisco Santa Monica Seattle Silicon Valley Singapore Tokyo Washington, D.C. Wheeling, W.V.",HQ/contact text on page
+investor_crm,429,Overlay Capital,city,,Atlanta,United States,,,https://overlaycapital.com/contact,"ital Open main menu Investment Areas Asset Management Company Contact Atlanta HQ 34.0755° N, 84.2941° W Contact Offices Atlanta HQ 3000 Nort",HQ/contact text on page
+investor_crm,433,"Palladium Equity Partners, LLC",city,,New York,United States,,,https://www.palladiumequity.com,"JSON-LD addressLocality=New York, addressCountry=US",Structured data (JSON-LD postal address)
+investor_crm,434,Pangaea Ventures,city,,Tokyo,Japan,,,https://www.wikidata.org/wiki/Q140345076,"Wikidata Q140345076 (Pangaea Ventures) P159 headquarters → Tokyo, Japan",Official registry (Wikidata P159)
+investor_crm,435,Partnerships For Forests,unknown,,,,,,https://partnershipsforforests.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,436,Pathstone,unknown,,,,,,https://pathstone.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,437,PayPal,city,,San Jose,United States,,,https://www.paypal.com/privacy,"rivacy queries \n \n \n United States \n PayPal Inc. 2211 N. 1st St., San Jose, CA 95131 Contact Online for Privacy queries \n \n \n Vietnam",HQ/contact text on page
+investor_crm,438,Pegasus 7 Ventures,unknown,,,,,,https://www.pegasus7ventures.com/contact,,Rejected weak HQ parse (country-level or ambiguous)
+investor_crm,978,Perseo,unknown,,,,,,https://www.iberdrola.com/about-us/our-innovation-model/international-startup-program-perseo,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,50,Persistent Energy Capital,unknown,,,,,,https://persistent.energy,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,431,PGGM & SDI Asset Owner Platform,city,,Amsterdam,Netherlands,,,https://www.sdi-aop.org,"to all market participants for take-up"" Address PO BOX 75283 1070 AG Amsterdam The Netherlands Contact Follow us on LinkedIN Disclaimer",HQ/contact text on page
+investor_crm,440,Pioneers Post,city,,London,United States,,,https://www.pioneerspost.com/contact,"7 151945. Our postal address is: Pioneers Post, 99 Broomfield Avenue, London, N13 4JR Pioneers Post is produced by London Fields Publishing",HQ/contact text on page
+investor_crm,441,PitchBook Data,city,,Seattle,United States,,,https://www.wikidata.org/wiki/Q16967130,"Wikidata Q16967130 (PitchBook Data) P159 headquarters → Seattle, United States",Official registry (Wikidata P159)
+investor_crm,925,Piva Capital,city,,San Francisco,Canada,,,https://piva.vc/contact,"any Email Phone Message Contact Info 4 Embarcadero Center, Suite 3950 San Francisco, CA 94111 Directions Phone: +1 650 420 7800 Fax: +1 650",HQ/contact text on page
+investor_crm,138,Planet A,city,,Berlin,Germany,,,https://planet-a.com/contact,estor Relations : ir@planet-a.com Media Relations: media@planet-a.com Berlin Office: Planet A Ventures Neue Schönhauser Str 16 10178 Berlin,HQ/contact text on page
+investor_crm,826,Planet A Ventures,city,,Berlin,Germany,,,https://planet-a.com/contact,estor Relations : ir@planet-a.com Media Relations: media@planet-a.com Berlin Office: Planet A Ventures Neue Schönhauser Str 16 10178 Berlin,HQ/contact text on page
+investor_crm,827,Planet B.io,unknown,,,,,,https://www.planet-b.io,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,661,Plug N Play,unknown,,,,,,https://www.plugandplaytechcenter.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,442,Polestar Capital,unknown,,,,,,https://www.polestarcapital.nl,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,926,Powerhouse Ventures,city,,Oakland,United States,,,https://powerhouse-ventures.co/privacy-policy,"house Innovation and Powerhouse Ventures 1528 Webster Street, Suite 8 Oakland, CA 94612 Email: hello@powerhouse-ventures.co ""> Portfolio Tea",HQ/contact text on page
+investor_crm,927,Prelude Ventures,city,,San Francisco,United States,,,https://www.preludeventures.com/privacy-policy,"the following mailing address: Prelude Ventures LLC 1 Ferry Building San Francisco, California 94111 Work with our portfolio companies cont",HQ/contact text on page
+investor_crm,101,Prime Coalition,unknown,,,,,,https://www.primecoalition.org,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,444,Private Financing Advisory Network,unknown,,,,,,https://pfan.net,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,445,Private Sector Foundation Uganda,unknown,,,,,,https://www.psfuganda.org,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,446,Pro Mujer,city,,New York,United States,,,https://promujer.org/terms,"available on this page, shall be governed by the laws of the State of New York, United States. Provided that the visitor is not a consumer o",HQ/contact text on page
+investor_crm,51,Proparco,city,,Paris,France,,,https://www.wikidata.org/wiki/Q3359849,"Wikidata Q3359849 (PROPARCO) P159 headquarters → Paris, France",Official registry (Wikidata P159)
+investor_crm,102,Proparco (FISEA+),unknown,,,,,,https://www.proparco.fr/en,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,448,Prudential,city,,Prudential Headquarters,United States,,,https://www.wikidata.org/wiki/Q2114414,"Wikidata Q2114414 (Prudential Financial) P159 headquarters → Prudential Headquarters, United States",Official registry (Wikidata P159)
+investor_crm,449,Prudential Financial,city,,Prudential Headquarters,United States,,,https://www.wikidata.org/wiki/Q2114414,"Wikidata Q2114414 (Prudential Financial) P159 headquarters → Prudential Headquarters, United States",Official registry (Wikidata P159)
+investor_crm,450,PureTerra Ventures,city,,Amsterdam,Netherlands,,,https://www.pureterra.com/contact,ntrepreneurs Investors Email Linkedin Address Entrepotdok 78A 1018 AD Amsterdam The Netherlands Google Maps Clean water for all © All rights,HQ/contact text on page
+investor_crm,161,PYM,unknown,,,,,,https://www.pym.nu,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,109,pymwymic,city,,Amsterdam,Netherlands,,,https://pymwymic.com,"Statement info@pymwymic.nl +31 (0)20 226 10 00 Mauritskade 63 1092 AD Amsterdam, The Netherlands Chamber of Commerce: 67473962 VAT: NL857013",HQ/contact text on page
+investor_crm,451,Q-Impact,city,,Madrid,Spain,,,https://qimpact.com,"JSON-LD addressLocality=Madrid, addressCountry=ES",Structured data (JSON-LD postal address)
+investor_crm,605,Qapu Ventures,unknown,,,,,,https://qapu.ventures,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,452,QBE Insurance,city,,Sydney,Australia,,,https://www.wikidata.org/wiki/Q138736,"Wikidata Q138736 (QBE Insurance) P159 headquarters → Sydney, Australia",Official registry (Wikidata P159)
+investor_crm,929,QStone Capital,unknown,,,,,,https://www.qstonecapital.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,836,Quadia,city,,Geneva,Switzerland,,,https://quadia.ch/legal,s Blog Legal Notice LEGAL NOTICE Quadia SA Rue de l’Arquebuse 12 1204 Geneva Switzerland Tel .: +41 22 888 1200 Email: info@quadia.ch Websit,HQ/contact text on page
+investor_crm,453,Quona Capital,city,,Jakarta,Brazil,,,https://quona.com,Bones of Insurance Read more India & Southeast Asia From São Paulo to Jakarta: Applying the Brazil Fintech Playbook to Southeast Asia Read m,HQ/contact text on page
+investor_crm,454,Quona Capital Management Ltd.,city,,Jakarta,Brazil,,,https://quona.com,Bones of Insurance Read more India & Southeast Asia From São Paulo to Jakarta: Applying the Brazil Fintech Playbook to Southeast Asia Read m,HQ/contact text on page
+investor_crm,733,Rabobank,city,,Utrecht,Netherlands,,,https://www.wikidata.org/wiki/Q252004,"Wikidata Q252004 (Rabobank) P159 headquarters → Utrecht, Netherlands",Official registry (Wikidata P159)
+investor_crm,52,Rabobank Energy,unknown,,,,,,https://www.rabobank.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,53,Rabobank renewable energy,unknown,,,,,,https://www.rabobank.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,812,Rabobank Start-to-Scale-up Team,unknown,,,,,,https://www.rabobank.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,455,Rainforest Alliance,city,,Guatemala City,Guatemala,,,https://www.rainforest-alliance.org/contact,"ity Avenue, East Legon, Accra, Ghana Also supports: Nigeria Guatemala Guatemala City Diagonal 6, 12-42, Zona 10, Edificio Design Center, Tor",HQ/contact text on page
+investor_crm,456,Rally Assets,unknown,,,,,,https://rallyassets.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,457,Raskob Foundation for Catholic Activities,unknown,,,,,,https://www.rfca.org,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,458,Reach for Change,city,,Stockholm,Sweden,,,https://www.wikidata.org/wiki/Q10633742,"Wikidata Q10633742 (Reach for Change) P159 headquarters → Stockholm, Sweden",Official registry (Wikidata P159)
+investor_crm,460,Realdania,unknown,,,,,,https://www.realdania.org,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,461,Red Ribbon Capital Partners,unknown,,,,,,https://www.redribbon.capital,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,462,Reed Smith,city,,Pittsburgh,United States,,,https://www.reedsmith.com,"JSON-LD addressLocality=Pittsburgh, addressCountry=US",Structured data (JSON-LD postal address)
+investor_crm,463,Regenerate Asset Management,city,,London,United States,,,https://regenerateam.com/contact,uired) Email Address (Required) Subject (Required) Message (Required) London 33 St James's Street London SW1A 1HD Leeds Marshall Mills Marsh,HQ/contact text on page
+investor_crm,464,Resonance,unknown,,,,,,https://resonance.fund/terms,,Rejected weak HQ parse (country-level or ambiguous)
+investor_crm,54,Responsability,city,,Zurich,Switzerland,,,https://www.responsability.com,responsAbility Investments AG Zollstrasse 17 8005 Zurich Switzerland,HTML address block
+investor_crm,595,responsAbility Investments AG,city,,Zurich,Switzerland,,,https://www.responsability.com,responsAbility Investments AG Zollstrasse 17 8005 Zurich Switzerland,HTML address block
+investor_crm,465,Rethink Capital Partners,unknown,,,,,,https://rethink-capital.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,930,Rgreen Invest,city,,Paris,France,,,https://www.rgreeninvest.com/en,"adaptation to climate change. CONTACT US 47-51 rue de Chaillot 75016 Paris, France Tél: +33 (0)1 85 65 90 00 info@rgreeninvest.com Legal te",HQ/contact text on page
+investor_crm,466,Rhia Ventures,unknown,,,,,,https://rhiaventures.org,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,467,Robeco,city,,Rotterdam,Netherlands,,,https://www.wikidata.org/wiki/Q3051079,"Wikidata Q3051079 (Robeco) P159 headquarters → Rotterdam, Netherlands",Official registry (Wikidata P159)
+investor_crm,962,Rockstart,city,,Amsterdam,Netherlands,,,https://rockstart.com/contact,"sit us The Netherlands Rockstart Netherlands Overhoeksplein 1 1031 KS Amsterdam The Netherlands Denmark Rockstart Denmark Titanhus, Titangad",HQ/contact text on page
+investor_crm,822,Rockstart Energy,city,,Amsterdam,Netherlands,,,https://rockstart.com/privacy,": Rockstart Enterprises B.V. Compliance Overhoeksplein 1, A’DAM Tower Amsterdam, 1031 KS Netherlands We are very committed to working with y",HQ/contact text on page
+investor_crm,735,ROM Utrecht Region,unknown,,,,,,https://romutrechtregion.nl,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,468,Root Capital,city,,Cambridge,United States,,,https://www.wikidata.org/wiki/Q7366548,"Wikidata Q7366548 (Root Capital) P159 headquarters → Cambridge, United States",Official registry (Wikidata P159)
+investor_crm,162,Rubio,city,,Amsterdam,Netherlands,,,https://rubio.vc,"Plantage Middenlaan 45, 1018 DC Amsterdam",HTML address block
+investor_crm,736,Rubio VC,city,,Amsterdam,Netherlands,,,https://rubio.vc,"Plantage Middenlaan 45, 1018 DC Amsterdam",HTML address block
+investor_crm,933,Safran,city,,Paris,France,,,https://www.wikidata.org/wiki/Q1886126,"Wikidata Q1886126 (Safran) P159 headquarters → Paris, France",Official registry (Wikidata P159)
+investor_crm,484,Sahel Capital Agribusiness Managers Limited,city,,Dublin,United Kingdom,,,https://sahelcapital.com/contact,"s Sahel Quarterly Videos Contact us Office Address 127 Double Street, Dublin, United Kingdom. Telephone p: (+123) 555 8888 p: (+123) 555 889",HQ/contact text on page
+investor_crm,934,Sail Capital,unknown,,,,,,https://www.sailcapital.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,485,Sail Ventures,unknown,,,,,,https://sail-investments.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,664,Salkantay,unknown,,,,,,https://www.salkantay.vc,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,487,Sanlam Investments,unknown,,,,,,https://www.sanlam.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,104,Satgana,unknown,,,,,,https://www.satgana.com/contact,,Rejected weak HQ parse (country-level or ambiguous)
+investor_crm,105,Saviu VC,unknown,,,,,,https://www.saviu.vc/,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,56,Schneider Electric Energy Access,unknown,,,,,,https://www.se.com/ww/en,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,488,Schroders,city,,London,United Kingdom,,,https://www.schroders.com,"JSON-LD addressLocality=London, addressCountry=United Kingdom",Structured data (JSON-LD postal address)
+investor_crm,489,Schroders/BlueOrchard,city,,London,United Kingdom,,,https://www.schroders.com,"JSON-LD addressLocality=London, addressCountry=United Kingdom",Structured data (JSON-LD postal address)
+investor_crm,490,Scipion Capital Ltd,city,,London,United Kingdom,,,https://www.scipion-capital.com,"Cayman Islands SCIPION CAPITAL (UK) LTD 15 Half Moon Street Mayfair, London, W1J 7DZ United Kingdom Tel: +44 (0)20 7493 6659 SCIPION CAPITA",HQ/contact text on page
+investor_crm,469,SDI Asset Owner Platform,city,,Amsterdam,Netherlands,,,https://www.sdi-aop.org,"to all market participants for take-up"" Address PO BOX 75283 1070 AG Amsterdam The Netherlands Contact Follow us on LinkedIN Disclaimer",HQ/contact text on page
+investor_crm,935,Seabird Ventures,unknown,,,,,,https://www.seabirdventures.fund,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,142,Seedrocket,unknown,,,,,,https://www.seedrocket.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,740,SET Ventures,unknown,,,,,,https://setventures.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,57,Shell Ventures,unknown,,,,,,https://www.shell.com/what-we-do/technology-and-innovation/innovate-with-shell/shell-ventures.html,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,804,Shift Invest,unknown,,,,,,https://shiftinvest.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,936,Shift4Good,unknown,,,,,,https://www.shift4good.com/contact-us,,Rejected weak HQ parse (country-level or ambiguous)
+investor_crm,974,Shiftinvest,unknown,,,,,,https://shiftinvest.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,794,Ship2B,unknown,,,,,,https://www.ship2b.org/en,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,143,Ship2b Ventures,unknown,,,,,,https://ship2bventures.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,492,Si3,city,,Rotterdam,United States,,,https://shapingimpact.group/contact,"re to find us Brussels Impact House – Rue Joseph II 20, 1000 Brussels Rotterdam CIC Rotterdam – Stationsplein 45, 4th floor, 3013 AK, Rotter",HQ/contact text on page
+investor_crm,470,SIDI,city,,Paris,United States,,,https://www.sidi.fr/en,site. - Privacy Policy Δ Logo sidi fond bleu 4 rue Jean Lantier 75001 Paris Tél. : 01 40 46 70 00 Facebook Twitter Linkedin Youtube Newslett,HQ/contact text on page
+investor_crm,471,SIGLO Capital Advisors AG,unknown,,,,,,https://www.siglo.ch/en,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,472,SIIF,unknown,,,,,,https://www.siif.or.jp/en,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,493,Sillman Thomas,city,,Dublin,Ireland,,,https://www.sillmanthomas.com,"rn more Learn more about us Learn more Global HQ, 31 Westland Square, Dublin 2, Ireland. D02 AW71 E: [email protected] PRIVACY POLICY Execut",HQ/contact text on page
+investor_crm,495,Silverhorn,city,,Jakarta,Singapore,,,https://www.silverhorngroup.com/contact-us,"ral Business District Jl. Jend. Sudirman Kav. 52 – 53 Kebayoran Baru, Jakarta Selatan DKI Jakarta 12190 ​ +62 5087 2900 Singapore #05-01, Ca",HQ/contact text on page
+investor_crm,494,SilverStreet Capital,unknown,,,,,,https://www.silverstreetcapital.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,473,SIMA Funds,city,,New York,United States,,,https://simafunds.com/contact,"ack to you as soon as possible. Visit Us 157 Columbus Ave, Suite 512, New York, NY 10023 Mail us sima@simafunds.com Feedback or Grievances C",HQ/contact text on page
+investor_crm,474,SJF Ventures,unknown,,,,,,https://sjfventures.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,497,Skybound Capital,city,,London,United Kingdom,,,https://www.skyboundcapital.com/contact-us,"JSON-LD addressLocality=London, addressCountry=GB",Structured data (JSON-LD postal address)
+investor_crm,498,Small Foundation,city,,Dublin,Ireland,,,https://smallfoundation.ie,"esources Connect enquiries@smallfoundation.ie 30 Merrion Square North Dublin 2, D02 VE40, Ireland Small Foundation does not accept unsolicit",HQ/contact text on page
+investor_crm,937,Sofinnova Partners,city,,London,France,,,https://sofinnovapartners.com/contact,"Haussmann Paris, France 75009 Milan Via Borgogna 5 Milan, Italy 20122 London 50 York Way London, UK N1 9AB Social media Twitter LinkedIn Sen",HQ/contact text on page
+investor_crm,500,Sophora,unknown,,,,,,https://www.sophora.de/en,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,501,Soros Economic Development Fund,unknown,,,,,,https://www.soroseconomicdevelopmentfund.org,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,938,SOSV,unknown,,,,,,https://sosv.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,939,South Pole,city,,Madrid,Sweden,,,https://www.southpole.com/privacy-policy,"ncia Española de Protección de Datos (AEPD) C/ Jorge Juan, 6. 28001 - Madrid 900 293 183 https://www.aepd.es/es Sweden Integritetsskyddsmynd",HQ/contact text on page
+investor_crm,502,Spin Ventures,unknown,,,,,,https://spin.vc,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,941,Spring Lane Capital,city,,Montreal,Canada,,,https://www.springlanecapital.com,"Privacy Terms & Conditions Subscribe to our newsletter Email Address Montreal Espace CDPQ, 3 Place Ville Marie, Bureau 12350 Montreal , QC",HQ/contact text on page
+investor_crm,504,Squire Patton Boggs,city,,San Francisco,Singapore,,,https://www.squirepattonboggs.com,Miami Milan New Jersey New York Palo Alto Paris Perth Phoenix Prague San Francisco Riyadh Santo Domingo Shanghai Singapore Sydney Tampa Tok,HQ/contact text on page
+investor_crm,505,Stafford Capital Partners,city,,Rotterdam,Netherlands,,,https://www.staffordcp.com/legal,"289397, with its registered office address at Coolsingel 104, 3011 AG Rotterdam, the Netherlands. It holds a license from the Dutch authorit",HQ/contact text on page
+investor_crm,506,Stardust Equity,unknown,,,,,,https://weareallstardust.com/equity,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,507,Startup Discovery School,unknown,,,,,,https://www.startupdiscoveryschool.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,741,Startup Utrecht,unknown,,,,,,https://www.startuputrechtregion.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,508,Steward Redqueen,city,,Amsterdam,Netherlands,,,https://www.stewardredqueen.com,eated with Sketch. Follow us THE NETHERLANDS Teerketelsteeg 1 1012 TB Amsterdam The Netherlands Tel: +31 (0)23 553 0400 info@stewardredqueen,HQ/contact text on page
+investor_crm,509,Stichting SED Fund,unknown,,,,,,https://sed.fund,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,55,SUMA Capital,city,,Milan,United States,,,https://sumacapital.com/en,"id +34 910 786 257 Paris 75 Bd Haussmann, 75008 Paris +33 185 746 882 Milan Via Giuseppe Mengoni, 4, 20121 Milano MI +39 02 94756215 About u",HQ/contact text on page
+investor_crm,59,Summa Equity,unknown,,,,,,https://summaequity.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,60,SunFunder,city,,Hong Kong,United States,,,https://www.mirova.com/contact,content United States Austria Belgium Denmark Finland France Germany Hong Kong Ireland Italy Japan Luxembourg Netherlands Norway Poland Por,HQ/contact text on page
+investor_crm,743,Superconnectors,unknown,,,,,,https://www.superconnectors.io,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,511,"Sustainable Leaders Investment Management, Parnter firm Olduvai Capital",unknown,,,,,,https://sustainableleadersinvestmentmanagement.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,942,Sustainable Ocean Alliance,unknown,,,,,,https://www.soalliance.org,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,943,Sustainable Ventures,city,,Cambridge,United States,,,https://www.sustainableventures.co.uk/contact,+44 (0) 20 4525 1253. Sustainable Ventures London Manchester Glasgow Cambridge How to find our offices Useful Links Contact us Press enquir,HQ/contact text on page
+investor_crm,512,Swedfund,city,,Stockholm,Sweden,,,https://www.wikidata.org/wiki/Q10686496,"Wikidata Q10686496 (Swedfund) P159 headquarters → Stockholm, Sweden",Official registry (Wikidata P159)
+investor_crm,481,SWEN Capital Partners,city,,Paris,France,,,https://www.swen-cp.fr/about,"people Visit us Visit us SWEN Capital Partners 14 rue Roquépine 75018 Paris, France contact@swen-cp.fr +33 1 56 68 54 80 colonne About Susta",HQ/contact text on page
+investor_crm,480,SWEN CP,city,,Paris,France,,,https://www.swen-cp.fr/about,"people Visit us Visit us SWEN Capital Partners 14 rue Roquépine 75018 Paris, France contact@swen-cp.fr +33 1 56 68 54 80 colonne About Susta",HQ/contact text on page
+investor_crm,513,Symbiotics SA,city,,Gurugram,South Africa,,,https://symbioticsgroup.com/contact,"1 425 5119 DELHI Unit 430, Vatika Atrium, Sector 53, Golf Course Road Gurugram, Haryana, 122022 India +91 124 663 7840 GENEVA (HQ) Rue de la",HQ/contact text on page
+investor_crm,668,Syngenta Group,city,,Basel,Switzerland,,,https://www.syngenta.com/contact,"ram Contact us Syngenta Global Corporate Contacts Global Headquarters BASEL, SWITZERLAND Syngenta Crop Protection AG Rosentalstr. 67 4058 Ba",HQ/contact text on page
+investor_crm,483,SYSTEMIQ,unknown,,,,,,https://www.systemiq.earth,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,514,T. Rowe Price,unknown,,,,,,https://www.troweprice.com,,Rejected weak HQ parse (country-level or ambiguous)
+investor_crm,518,Talanton Impact Fund,unknown,,,,,,https://www.talantonimpact.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,519,Tamil Nadu Shelter Fund,unknown,,,,,,https://tnifmc.com/shelter-fund,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,522,Telos Impact srl,city,,Brussels,Belgium,,,https://www.telosimpact.com,"ith a positive impact ? Contact us Belgium 19, rue Vilain XIIII, 1000 Brussels France 9, rue Bleue, 75009 Paris About Who we are Mission Val",HQ/contact text on page
+investor_crm,523,Temasek,unknown,,,,,,https://www.wikidata.org/wiki/Q762479,,Rejected weak HQ parse (country-level or ambiguous)
+investor_crm,946,Tera Ventures,city,,Tallinn,Estonia,,,https://www.tera.vc/privacy,"nia, registration code 14088576, registered address Pikk tn 7, 10123, Tallinn, Estonia and our subsidiaries (hereinafter “ Tera Ventures ”,",HQ/contact text on page
+investor_crm,524,The Atmospheric Fund,city,,Toronto,Canada,,,https://taf.ca/contact,"ess: Metro Hall (C/O Union Station, 2nd Floor East Wing), 55 John St. Toronto, ON M5V 3C6 Physical Address : Union Station, 61 Front St. W,",HQ/contact text on page
+investor_crm,525,The Bridgespan Group,unknown,,,,,,https://www.bridgespan.org/contact-us,,Rejected weak HQ parse (country-level or ambiguous)
+investor_crm,526,The Good Economy Limited,city,,London,United Kingdom,,,https://thegoodeconomy.co.uk/contact,"Scott House, Suite 1, The Concourse, Waterloo Station, London, SE1 7LY",HTML address block
+investor_crm,527,The Good Economy Ltd,city,,London,United Kingdom,,,https://thegoodeconomy.co.uk/contact,"Scott House, Suite 1, The Concourse, Waterloo Station, London, SE1 7LY",HTML address block
+investor_crm,528,The Hague Business Agency,city,,San Francisco,United States,,,https://thehague.com/privacy-policy,"g company of Twitter is Twitter, Inc., 1355 Market Street, Suite 900, San Francisco, CA 94103, UNITED STATES. With each call-up to one of th",HQ/contact text on page
+investor_crm,529,"The John D. Gerhart Center for Philanthropy, Civic Engagement, and Responsible Business",city,,Cairo,Egypt,,,https://business.aucegypt.edu/research/centers/gerhart,"AUC Avenue, P.O. Box 74 New Cairo 11835, Egypt t 20.2.2615.1000",HTML address block
+investor_crm,530,The Nature Conservancy,city,,New York,Mexico,,,https://www.nature.org/contact,"a, Suite 200 Santa Fe, NM 87501 Phone: 505-988-3867 Email: nm@tnc.org New York 322 8th Avenue 14th Floor New York, NY 10001 Phone: 212-997-1",HQ/contact text on page
+investor_crm,531,The Scottish National Investment Bank,unknown,,,,,,https://www.thebank.scot,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,144,The Sharing Group,city,,Amsterdam,United States,,,https://thesharinggroup.com/about,L Menu Contact us en Menu --> Postal address Bijlmerplein 888 1102 DE Amsterdam Our locations Socials Follow us on LinkedIn Meer informatie,HQ/contact text on page
+investor_crm,533,The UN Sanitation and Hygiene Fund,unknown,,,,,,https://www.shfund.org,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,534,The Visa Foundation,unknown,,,,,,https://corporate.visa.com/en/sites/visa-foundation.html,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,670,The Yield Lab LATAM,city,,Buenos Aires,Argentina,,,https://theyieldlablatam.com,--> We are part of The Yield Lab Network REGIONAL FOOTPRINT Argentina Buenos Aires argentina@theyieldlab.com Colombia Medellín colombia@they,HQ/contact text on page
+investor_crm,947,Theia Finance Labs,city,,Berlin,Germany,,,https://theiafinance.org/imprint,"ative Deutschland e.V.) Neue Schönhauser Straße 3-5, c/o WeWork 10178 Berlin Germany",HTML address block
+investor_crm,971,TheSharingGroup,city,,Amsterdam,United States,,,https://thesharinggroup.com/about,L Menu Contact us en Menu --> Postal address Bijlmerplein 888 1102 DE Amsterdam Our locations Socials Follow us on LinkedIn Meer informatie,HQ/contact text on page
+investor_crm,535,ThomasLloyd Group Ltd.,city,,Munich,Germany,,,https://www.thomas-lloyd.com/imprint,r Hub Newsroom Careers Imprint ThomasLloyd Climate Solutions GmbH c/o Munich City Office Rosental 5 80331 Munich Germany Tel.: 00800 090 000,HQ/contact text on page
+investor_crm,536,Tideline,city,,New York,United Kingdom,,,https://tideline.com/contact,"and a presence in the following locations: San Francisco, California New York, New York Portland, Oregon London, United Kingdom Follow The",HQ/contact text on page
+investor_crm,516,TIIP: The Investment Integration Project,city,,New York,United States,,,https://tiiproject.com/contact,": The Investment Integration Project 5 Union Square West FRNT 1 #1256 New York, NY 10003 SAIL For a demo of SAIL, email [email protected] or",HQ/contact text on page
+investor_crm,537,Timberland Investment Group,city,,New York,United States,,,https://timberlandinvestmentgroup.com,"uiries regarding land leases in the US: TIGlandleases@ttgforestry.com NEW YORK 601 Lexington Ave – 57 th Floor New York, NY 10022 +1 212 293",HQ/contact text on page
+investor_crm,747,TNO,city,,Utrecht,United States,,,https://www.tno.nl/en,"d more over TNO AI event 2026 Startdatum : 8 Dec Locatie : Jaarbeurs, Utrecht More Contact us about your R&D challenge Find your expert Skip",HQ/contact text on page
+investor_crm,539,Tonbo,unknown,,,,,,https://www.tonboimpact.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,541,TortoiseEcofin,unknown,,,,,,https://tortoiseecofin.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,63,Toyota Ventures,unknown,,,,,,https://www.toyota-ventures.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,542,Trade and Development Bank of Mongolia,city,,Ulaanbaatar,Mongolia,,,https://www.wikidata.org/wiki/Q7832017,"Wikidata Q7832017 (Trade and Development Bank of Mongolia) P159 headquarters → Ulaanbaatar, Mongolia",Official registry (Wikidata P159)
+investor_crm,543,"Treehouse Investments, LLC",unknown,,,,,,https://www.treehouseinvestments.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,544,Trimtab Impact,unknown,,,,,,https://www.trimtabimpact.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,64,Triodos,city,,Zeist,Netherlands,,,https://www.triodos.com/contact,iebergen-Rijsenburg The Netherlands Postal address: PO Box 55 3700 AB Zeist The Netherlands Phone: +31 (0) 30 693 65 00 Route description -,HQ/contact text on page
+investor_crm,164,Triodos Bank,city,,Zeist,Netherlands,,,https://www.triodos.com/contact,iebergen-Rijsenburg The Netherlands Postal address: PO Box 55 3700 AB Zeist The Netherlands Phone: +31 (0) 30 693 65 00 Route description -,HQ/contact text on page
+investor_crm,65,Triodos Investment Management,unknown,,,,,,https://www.triodos-im.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,797,Triodos speciaal fonds,unknown,,,,,,https://www.triodos-im.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,545,Triple P Advisory Pte Ltd,unknown,,,,,,https://www.triplepcapital.com,,Rejected weak HQ parse (country-level or ambiguous)
+investor_crm,546,Truvalu B.V.,unknown,,,,,,https://truvalu-group.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,547,Truvalu.enterprises Limited,unknown,,,,,,https://truvalu-group.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,517,TSIC,unknown,,,,,,https://www.tsiconsultancy.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,548,Tufts University Investment Office,city,,Boston,United States,,,https://investments.tufts.edu/contact-us,"tact Us Tufts University Investment Office​ 99 High Street, Suite 803 Boston, MA 02110 Investment Partners ​ Careers​ Media Inquiries Contac",HQ/contact text on page
+investor_crm,62,TWYNAM Earth Fund,unknown,,,,,,https://twynam.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,549,Tyton Partners,unknown,,,,,,https://tytonpartners.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,550,U.S. Impact Investing Alliance,unknown,,,,,,https://impinvalliance.org,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,66,U.S. International Development Finance Corporation (DFC),city,,New York,United States,,,https://www.dfc.gov/privacy,"ivacy Program U.S. International Development Finance Corporation 1100 New York Avenue, NW Washington, DC 20527 Email Address: Privacy@dfc.go",HQ/contact text on page
+investor_crm,551,UBS,unknown,,,,,,https://www.ubs.com/contact,,Rejected weak HQ parse (country-level or ambiguous)
+investor_crm,554,Ubuntoo,unknown,,,,,,https://ubuntoo.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,552,UC Impower Fund,city,,Bengaluru,India,,,https://ucimpower.com/contact,"Prestige Towers, 99/100, Residency Rd, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560025, India We have a team based in Delhi NCR a",HQ/contact text on page
+investor_crm,672,Uncompromise,unknown,,,,,,https://uncompromise.vc,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,555,United Nations,city,,New York City,United States,,,https://www.wikidata.org/wiki/Q1065,"Wikidata Q1065 (United Nations) P159 headquarters → New York City, United States",Official registry (Wikidata P159)
+investor_crm,948,United Ventures,unknown,,,,,,https://unitedventures.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,556,Unitus Labs,unknown,,,,,,https://unituslabs.org,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,833,University of Capetown,unknown,,,,,,https://www.uct.ac.za,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,557,University of Oxford,city,,Oxford,United Kingdom,,,https://www.wikidata.org/wiki/Q34433,"Wikidata Q34433 (University of Oxford) P159 headquarters → Oxford, United Kingdom",Official registry (Wikidata P159)
+investor_crm,558,University of Utah,city,,Salt Lake City,United States,,,https://www.utah.edu/contact,"ess: The University of Utah Admissions Office 201 S 1460 E Room 250 S Salt Lake City, UT 84112-9057 201 Presidents Circle Salt Lake City, UT",HQ/contact text on page
+investor_crm,559,Upaya Social Ventures,unknown,,,,,,https://www.upayasv.org,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,560,Upright,city,,Helsinki,Finland,,,https://www.uprightproject.com,"JSON-LD addressLocality=Helsinki, addressCountry=FI",Structured data (JSON-LD postal address)
+investor_crm,553,US International Development Finance Corporation (DFC),city,,New York,United States,,,https://www.dfc.gov/privacy,"ivacy Program U.S. International Development Finance Corporation 1100 New York Avenue, NW Washington, DC 20527 Email Address: Privacy@dfc.go",HQ/contact text on page
+investor_crm,749,Utrecht Inc,unknown,,,,,,https://utrechtinc.nl,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,561,Uxolo,city,,New York,United Kingdom,,,https://uxolo.com/contact,-34 Ponton Road London SW11 7BA London office × Get in touch with our New York Office US: +1 646-915-0499 1350 Avenue of the Americas Suite,HQ/contact text on page
+investor_crm,562,Uxolo Development Finance,city,,New York,United Kingdom,,,https://uxolo.com/contact,-34 Ponton Road London SW11 7BA London office × Get in touch with our New York Office US: +1 646-915-0499 1350 Avenue of the Americas Suite,HQ/contact text on page
+investor_crm,563,Value for Women,city,,London,United Kingdom,,,https://www.v4w.org,"en Ltd. is a UK-registered Company (No. 08239074), 86-90 Paul Street, London, EC2A 4NE. Value for Women Foundation is a US-registered 501(c)",HQ/contact text on page
+investor_crm,564,Van Lanschot Kempen,city,,Paris,United Kingdom,,,https://www.vanlanschotkempen.com/contact,"n, EC3V 0BG T +44 (0)20 3636 9400 Frankrijk 16 Cours Albert 1er 75008 Paris T +33 (0)18 375 6273 Van Lanschot Kempen Investment Management (",HQ/contact text on page
+investor_crm,565,Vantain AG and Climate Fund Managers,unknown,,,,,,https://www.vantain.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,950,Vargas Holding / Altor Vargas,unknown,,,,,,https://www.vargasholding.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,566,"Variant Investments, LLC",unknown,,,,,,https://variantinvestments.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,808,Vattenfal,city,,Stockholm,United States,,,https://group.vattenfall.com,Vattenfall AB Tel.+46 (0)8 739 50 00 Fax.+46 (0)8 17 85 06 SE-169 92 Stockholm Contact us Follow us LinkedIn YouTube Instagram Facebook Abo,HQ/contact text on page
+investor_crm,750,Venturerock,city,,Amsterdam,Netherlands,,,https://venturerock.com,"Local twist . VENTUREROCK EUROPE Kattenburgerstraat 5, 027E, 1018 JA Amsterdam, The Netherlands. Contact us VENTUREROCK ABU DHABI B03, 11th",HQ/contact text on page
+investor_crm,751,VGZ,unknown,,,,,,https://www.vgz.nl,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,951,Victory Capital,unknown,,,,,,https://www.vcm.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,567,Vidia GmbH,city,,Munich,Germany,,,https://vidiaequity.com/privacy,"idia GmbH. Company name: Vidia GmbH Address: Bürkleinstraße 10, 80538 Munich, Germany Email: contact@vidiaequity.com 1.3 Contact details of",HQ/contact text on page
+investor_crm,568,Vinci Impact and Return,unknown,,,,,,https://www.vincipartners.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,569,"Vinte Viviendas Integrales, S.A.B. de C.V. (Vinte)",unknown,,,,,,https://vinte.com/en,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,570,Visa Foundation,unknown,,,,,,https://corporate.visa.com/en/sites/visa-foundation.html,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,673,Vista alta,unknown,,,,,,https://www.vista-alta.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,571,Vista Equity Partners,city,,Austin,United States,,,https://www.wikidata.org/wiki/Q7936440,"Wikidata Q7936440 (Vista Equity Partners) P159 headquarters → Austin, United States",Official registry (Wikidata P159)
+investor_crm,572,Vital Capital Fund,unknown,,,,,,https://vital-capital.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,573,Vital Strategies,city,,Paris,France,,,https://www.wikidata.org/wiki/Q30268388,"Wikidata Q30268388 (Vital Strategies) P159 headquarters → Paris, France",Official registry (Wikidata P159)
+investor_crm,574,Vivriti Asset Management,city,,Chennai,India,,,https://www.vivritiamc.com,"JSON-LD addressLocality=Chennai, addressCountry=IN",Structured data (JSON-LD postal address)
+investor_crm,575,Vivriti Asset Management Private Limited,city,,Chennai,India,,,https://www.vivritiamc.com,"JSON-LD addressLocality=Chennai, addressCountry=IN",Structured data (JSON-LD postal address)
+investor_crm,576,Volans,city,,London,United States,,,https://volans.com/privacy,"s, please email us . Stay connected New Wing, Somerset House, Strand, London, WC2R 1LA Call: +44 20 3701 7550 Sign up to read our newsletter",HQ/contact text on page
+investor_crm,577,Vox Capital,city,,São Paulo,United States,,,https://voxcapital.com.br/about,"2020 2021 2022 2023 2024 R. Mourato Coelho, 936 – Cj. 73 – Pinheiros, São Paulo – SP, 05417-001 Linkedin Instagram Youtube Spotify about us",HQ/contact text on page
+investor_crm,596,water.org,city,,Kansas City,United States,,,https://www.wikidata.org/wiki/Q7973231,"Wikidata Q7973231 (Water.org) P159 headquarters → Kansas City, United States",Official registry (Wikidata P159)
+investor_crm,581,WaterEquity,unknown,,,,,,https://waterequity.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,857,Wellington,unknown,,,,,,https://www.wellington.com/en,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,582,Wellington Management,city,,Boston,United States,,,https://www.wikidata.org/wiki/Q2557807,"Wikidata Q2557807 (Wellington Management Company) P159 headquarters → Boston, United States",Official registry (Wikidata P159)
+investor_crm,68,World Fund,city,,Berlin,Germany,,,https://www.worldfund.vc/imprint,"ction 5 TMG WF World Fund Management GmbH Invalidenstraße 115, 10115, Berlin, Germany ‍ Managing Directors: Daria Saharova, Tim Schumacher,",HQ/contact text on page
+investor_crm,583,World Vision,unknown,,,,,,https://visionfund.org,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,584,World Wide Fund for Nature (WWF) Zambia,unknown,,,,,,https://www.wwfzm.panda.org,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,674,WWF Fund,unknown,,,,,,https://wwf.panda.org,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,585,XSML Capital,city,,Amsterdam,Netherlands,,,https://www.xsmlcapital.com,"esence needed to reach hard-to-access frontier markets."" DFI Investor AMSTERDAM Mauritskade 63 1092 AD Amsterdam The Netherlands info@xsmlca",HQ/contact text on page
+investor_crm,756,YES!Delft,city,,Rotterdam,Netherlands,,,https://yesdelft.com/contact,"elft is located in Delft, The Netherlands. We also have flex desks in Rotterdam and The Hague. Delft Molengraaffsingel 12 2629 JD Delft Delf",HQ/contact text on page
+investor_crm,809,Yes!Delft Investment Club,city,,Rotterdam,Netherlands,,,https://www.yesdelft.com/contact,"elft is located in Delft, The Netherlands. We also have flex desks in Rotterdam and The Hague. Delft Molengraaffsingel 12 2629 JD Delft Delf",HQ/contact text on page
+investor_crm,587,Yunus Social Business,city,,Bengaluru,India,,,https://www.yunussb.com/contact,"website India Avalahalli, JP Nagar 9th Phase, Amruth Nagar Main Road Bengaluru – 560062 +91 80-28436577 info-india@yunusfunds.com Visit web",HQ/contact text on page
+investor_crm,69,Zubi Capital,unknown,,,,,,https://zubicapital.com,,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,588,Zürcher Kantonalbank (ZKB),unknown,,,,,,https://www.zkb.ch/en/home,,No HQ city found on fetched official pages or Wikidata P159
