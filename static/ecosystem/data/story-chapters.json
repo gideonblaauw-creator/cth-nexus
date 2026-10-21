@@ -128,6 +128,14 @@
       "funderId": "pe-amazonia-impact-ventures"
     },
     {
+      "id": "agua-yakusmart",
+      "challengeId": "challenge:PE-2-agua",
+      "startupId": "pe-yakusmart",
+      "hubId": "pe-emprende-up-climatech-rein-hub-peru",
+      "universityId": "pe-universidad-del-pacifico",
+      "funderId": "pe-proinnovate-startup-peru"
+    },
+    {
       "id": "bosques-yakusmart",
       "challengeId": "challenge:PE-1-bosques",
       "startupId": "pe-yakusmart",

@@ -1,7 +1,7 @@
 /** Peru Water (PE-2-agua) single-thread story — data-only scene builder */
 
 export const CHALLENGE_ID = 'challenge:PE-2-agua';
-export const STARTUP_IDS = ['pe-uqhu', 'pe-yakufil'];
+export const STARTUP_IDS = ['pe-uqhu', 'pe-yakufil', 'pe-yakusmart'];
 
 const HUB_TYPES = new Set(['hosts', 'incubated', 'accelerated', 'partner']);
 const DATA_TYPES = new Set(['published_dataset', 'uses_dataset', 'cites_dataset', 'evidence_from']);
@@ -130,28 +130,28 @@ function constellationSuggestions(spec, relations, combinedRels) {
 
 const CAPTIONS = {
   challenges: {
-    es: 'Seis actores del grafo declaran trabajo verificado en el reto Agua & cuencas (PE), incluidas las startups UQHU y Yakufil junto a agencias de agua y clima. El nodo de reto es referencia del mapa Canva, no una organización.',
-    en: 'Six graph actors declare verified work on the Water & basins challenge (PE), including startups UQHU and Yakufil alongside water and climate agencies. The challenge node is a Canva map reference, not an organization.',
+    es: 'Siete actores del grafo declaran trabajo en el reto Agua & cuencas (PE), incluidas UQHU, Yakufil y YakuSmart (riego inteligente con fuente Produce) junto a agencias de agua y clima. El nodo de reto es referencia del mapa Canva, no una organización.',
+    en: 'Seven graph actors declare work on the Water & basins challenge (PE), including UQHU, Yakufil, and YakuSmart (smart irrigation; Produce source) alongside water and climate agencies. The challenge node is a Canva map reference, not an organization.',
   },
   policy: {
     es: 'ANA y SUNASS enlazan políticas verificadas (`issues_policy`); otras políticas aparecen como `addresses_challenge` sugerido hacia el reto de agua. INAIGEM y SENAMHI no tienen `issues_policy` en el dataset actual.',
     en: 'ANA and SUNASS link verified policies (`issues_policy`); other policies appear as suggested `addresses_challenge` links to the water challenge. INAIGEM and SENAMHI have no `issues_policy` rows in the current dataset.',
   },
   hubs: {
-    es: 'Yakufil tiene incubación verificada vía JAKU Emprende UNSA (`actor_relations.json`); UQHU aún no tiene arista de hub en el grafo. Las líneas punteadas hacia ClimaTech REIN/UP siguen solo donde no hay evidencia verificada.',
-    en: 'Yakufil has verified incubation via JAKU Emprende UNSA (`actor_relations.json`); UQHU still has no hub edge in the graph. Dashed lines toward ClimaTech REIN/UP remain only where no verified evidence exists.',
+    es: 'Yakufil: JAKU Emprende UNSA verificado; YakuSmart: ClimaTech REIN/Emprende UP e Incubaunt UNT (Produce) en `actor_relations.json`; UQHU sin hub verificado. Punteadas solo donde falta evidencia.',
+    en: 'Yakufil: verified JAKU Emprende UNSA; YakuSmart: ClimaTech REIN/Emprende UP and Incubaunt UNT (Produce) in `actor_relations.json`; UQHU still has no verified hub edge. Dashed lines only where evidence is missing.',
   },
   data: {
     es: 'SUNASS y ANA publican conjuntos verificados en datosabiertos (`published_dataset` en `data_relations.json`): indicadores de conexiones activas y fajas marginales en CSV. SENAMHI, SNIRH/GeoSNIRH e INEI quedaron fuera (portal/visor o sin actor INEI en el grafo).',
     en: 'SUNASS and ANA publish verified datosabiertos sets (`published_dataset` in `data_relations.json`): active connections and riparian belts as CSV. SENAMHI, SNIRH/GeoSNIRH, and INEI were excluded (portal/viewer or no INEI actor in the graph).',
   },
   partnerships: {
-    es: 'Constelación reto-centrada (UQHU y Yakufil): aristas sólidas desde `relations.json` y `actor_relations.json` verificadas; líneas punteadas etiquetadas Suggested con su motivo cuando falta evidencia.',
-    en: 'Challenge-centered constellation (UQHU & Yakufil): solid edges from verified `relations.json` and `actor_relations.json`; dashed lines labeled Suggested with reason when evidence is missing.',
+    es: 'Tres constelaciones agua (UQHU, Yakufil, YakuSmart): sólido = `relations.json` + `actor_relations.json`; CleantechHUB–ClimateLaunchpad verificado para YakuSmart; punteadas = Suggested cuando falta evidencia.',
+    en: 'Three water constellations (UQHU, Yakufil, YakuSmart): solid = verified `relations.json` + `actor_relations.json`; CleantechHUB–ClimateLaunchpad verified for YakuSmart; dashed = Suggested when evidence is missing.',
   },
   capital: {
-    es: 'Yakufil muestra financiamiento verificado (Startup Perú 9G / ProInnóvate y premio Caja Arequipa). UQHU aún no tiene arista de capital en fuentes públicas vinculadas; los fondos de la constelación bosques no aplican a agua.',
-    en: 'Yakufil shows verified capital (Startup Perú 9G / ProInnóvate and Caja Arequipa prize). UQHU still has no capital edge in linked public sources; constellation forest funders do not apply to water.',
+    es: 'Yakufil: Startup Perú 9G y Caja Arequipa verificados; YakuSmart: financiamiento/programa ProInnóvate (Produce). UQHU sin capital verificado; Amazonía Impact Ventures no aplicado a YakuSmart en agua.',
+    en: 'Yakufil: verified Startup Perú 9G and Caja Arequipa; YakuSmart: ProInnóvate funding/program (Produce). UQHU has no verified capital edge; Amazonía Impact Ventures not applied to YakuSmart on the water thread.',
   },
 };
 
@@ -502,7 +502,7 @@ export function buildPeruWaterScene(chapterIndex, data) {
     const presetPositions = new Map();
     const cx = 0;
     specs.forEach((spec, idx) => {
-      const ox = specs.length > 1 ? (idx === 0 ? -160 : 160) : 0;
+      const ox = specs.length > 1 ? (idx - (specs.length - 1) / 2) * 180 : 0;
       const orbit = [
         { id: spec.startupId, angle: -Math.PI / 2, dist: 110 },
         { id: spec.hubId, angle: 0.2, dist: 125 },

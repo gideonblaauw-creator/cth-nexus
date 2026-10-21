@@ -24,6 +24,30 @@ Corroboration (not duplicated in CSV): Startup Perú 9G preliminary results list
 | ProInnóvate water portfolio | [Innovación hídrica PRODUCE/ProInnóvate](https://www.gob.pe/institucion/proinnovate/noticias/1095741-innovacion-hidrica-produce-impulsa-tecnologias-sostenibles-para-combatir-la-escasez-de-agua) — no UQHU mention | — |
 | Datasets | SUNASS + ANA `published_dataset` rows in `data_relations.json` (see `RESEARCH-PE-WATER-DATASETS.md`) | No `uses_dataset` edges for UQHU/Yakufil yet |
 
+## YakuSmart — verified relations (added to CSV)
+
+| from_id | to_id | type | Source |
+|---------|-------|------|--------|
+| `pe-proinnovate-startup-peru` | `pe-yakusmart` | `program_participation` | [Produce — riego agroexportador](https://www.gob.pe/institucion/produce/noticias/1451346-startup-financiada-por-proinnovate-optimiza-el-riego-agricola-para-incrementar-el-valor-exportable-de-las-frutas) |
+| `pe-proinnovate-startup-peru` | `pe-yakusmart` | `funding` | Same Produce noticia (titular “financiada por ProInnóvate”) |
+| `pe-incubaunt-la-libertad` | `pe-yakusmart` | `program_participation` | Same Produce noticia (portafolio Incubadora UNT) |
+| `pe-emprende-up-climatech-rein-hub-peru` | `pe-yakusmart` | `hub_startup` | [Emprende UP — ClimateLaunchpad](https://es.linkedin.com/posts/emprende%2Eup_emprendeup-yakusmart-climatelaunchpad-activity-7511118125346656257-IIct) |
+| `pe-cleantechhub` | `pe-yakusmart` | `co_organized_event` | [CleantechHUB — CLP Américas 2026](https://es.linkedin.com/posts/cleantechhub_climatelaunchpad-americas-regional-final-activity-7503144329247563776-TJpx) |
+
+**Challenge fit:** `works_on_challenge` → `challenge:PE-2-agua` in `relations.json` (misma nota Produce: optimización de riego y recursos hídricos).
+
+**Product context (no new graph rows):** [yakusmart.io/es](https://yakusmart.io/es) — casos de campo (Arequipa granada, ahorro hídrico).
+
+### YakuSmart — gaps (sin URL pública suficiente para arista)
+
+| Topic | Status |
+|-------|--------|
+| Fundación Bayer Scale Up (10 startups) | Mencionado en Produce; **Fundación Bayer** no está en `actors.json` |
+| Monto exacto ProInnóvate / convocatoria Startup Perú | No citado en la nota Produce usada |
+| `uses_dataset` SUNASS/ANA | Sin evidencia pública de uso de conjuntos del grafo |
+| Amazonía Impact Ventures como funder | Solo en constelación bosques; **no** verificado para agua |
+| Arista `incubated` en `relations.json` (ClimaTech → YakuSmart) | Duplicada conceptualmente; evidencia verificada vía `hub_startup` + LinkedIn Emprende UP |
+
 ## Yakufil — additional context (covered by new rows)
 
 | Topic | Source |

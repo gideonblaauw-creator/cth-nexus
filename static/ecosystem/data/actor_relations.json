@@ -2,7 +2,7 @@
  "version": 1,
  "source": "ops/ecosystem/actor_relations_verified.csv",
  "date_built": "2026-10-21",
- "count": 43,
+ "count": 48,
  "relations": [
   {
    "from_id": "co-fenoge",
@@ -65,6 +65,16 @@
    "confidence": "high"
   },
   {
+   "from_id": "pe-cleantechhub",
+   "to_id": "pe-yakusmart",
+   "type": "co_organized_event",
+   "description": "CleantechHUB reporta que organizó la Final Regional de ClimateLaunchpad Américas 2026 donde YakuSmart obtuvo el primer lugar.",
+   "source_url": "https://es.linkedin.com/posts/cleantechhub_climatelaunchpad-americas-regional-final-activity-7503144329247563776-TJpx",
+   "source_title": "CleantechHUB — ClimateLaunchpad Américas 2026",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
    "from_id": "pe-cofide-fcei",
    "to_id": "pe-programa-para-bionegocios-minam",
    "type": "program_participation",
@@ -115,6 +125,16 @@
    "confidence": "high"
   },
   {
+   "from_id": "pe-emprende-up-climatech-rein-hub-peru",
+   "to_id": "pe-yakusmart",
+   "type": "hub_startup",
+   "description": "Emprende UP publica que YakuSmart es startup del portafolio ClimaTech/Emprende UP tras ganar ClimateLaunchpad nacional y regional.",
+   "source_url": "https://es.linkedin.com/posts/emprende%2Eup_emprendeup-yakusmart-climatelaunchpad-activity-7511118125346656257-IIct",
+   "source_title": "Emprende UP — YakuSmart ClimateLaunchpad",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
    "from_id": "pe-financiera-confianza",
    "to_id": "pe-programa-para-bionegocios-minam",
    "type": "program_participation",
@@ -131,6 +151,16 @@
    "description": "La Fundación BBVA Microfinanzas es accionista mayoritario de Financiera Confianza.",
    "source_url": "https://www.fundacionmicrofinanzasbbva.org/es/confianza",
    "source_title": "Fundación BBVA — Financiera Confianza",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-incubaunt-la-libertad",
+   "to_id": "pe-yakusmart",
+   "type": "program_participation",
+   "description": "Produce indica que YakuSmart forma parte del portafolio del Programa de Aceleración de la Incubadora de Empresas de la Universidad Nacional de Trujillo (red ProInnóvate).",
+   "source_url": "https://www.gob.pe/institucion/produce/noticias/1451346-startup-financiada-por-proinnovate-optimiza-el-riego-agricola-para-incrementar-el-valor-exportable-de-las-frutas",
+   "source_title": "Produce — YakuSmart e Incubaunt UNT",
    "date_accessed": "2026-10-21",
    "confidence": "high"
   },
@@ -281,6 +311,26 @@
    "description": "ProInnóvate presenta Yakufil Home entre empresas con financiamiento y acompañamiento técnico en gestión del agua.",
    "source_url": "https://www.gob.pe/institucion/proinnovate/noticias/924305-dia-del-agua-innovaciones-para-gestionar-el-cuidado-y-aprovechamiento-del-agua-en-el-peru",
    "source_title": "ProInnóvate — Día del Agua 2024",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-proinnovate-startup-peru",
+   "to_id": "pe-yakusmart",
+   "type": "funding",
+   "description": "Produce titula la nota como startup financiada por ProInnóvate en el marco del apoyo al desarrollo de su plataforma de riego inteligente.",
+   "source_url": "https://www.gob.pe/institucion/produce/noticias/1451346-startup-financiada-por-proinnovate-optimiza-el-riego-agricola-para-incrementar-el-valor-exportable-de-las-frutas",
+   "source_title": "Produce — YakuSmart financiada ProInnóvate",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-proinnovate-startup-peru",
+   "to_id": "pe-yakusmart",
+   "type": "program_participation",
+   "description": "Produce reporta que YakuSmart fue impulsada por ProInnóvate para optimizar riego y el uso eficiente de recursos hídricos en agroexportación.",
+   "source_url": "https://www.gob.pe/institucion/produce/noticias/1451346-startup-financiada-por-proinnovate-optimiza-el-riego-agricola-para-incrementar-el-valor-exportable-de-las-frutas",
+   "source_title": "Produce — YakuSmart riego agroexportador",
    "date_accessed": "2026-10-21",
    "confidence": "high"
   },
