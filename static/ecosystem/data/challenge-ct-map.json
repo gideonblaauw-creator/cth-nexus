@@ -1,0 +1,24 @@
+{
+  "challenge:PE-1-bosques": {
+    "ct_codes": [
+      "CT-AF-005",
+      "CT-AF-008",
+      "CT-AF-009",
+      "CT-IC-001",
+      "CT-IC-002",
+      "CT-WW-003"
+    ],
+    "policy_themes": ["bosques", "amazonía", "amazonia", "deforestación", "deforestacion", "redd"]
+  },
+  "challenge:PE-2-agua": {
+    "ct_codes": [
+      "CT-WW-001",
+      "CT-WW-002",
+      "CT-WW-003",
+      "CT-WW-004",
+      "CT-WA-001",
+      "CT-WA-002"
+    ],
+    "policy_themes": ["agua", "cuencas", "hídrico", "hidrico", "saneamiento", "riego"]
+  }
+}

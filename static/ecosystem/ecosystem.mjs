@@ -112,6 +112,11 @@ const I18N = {
     storyCounts: 'Conteo por capítulo',
     storySuggestedHint: 'Capítulo 5 puede proponer hub/startup/funder sugeridos; no sustituye relaciones verificadas.',
     storyChallengeMeta: 'Nodo reto (Canva)',
+    nexusCrossIdeas: 'Ideas Nexus',
+    nexusCrossSolutions: 'Soluciones (/s/)',
+    nexusCrossStartups: 'Startups en el reto',
+    policyStartups: 'Startups relacionadas',
+    suggestedLabel: 'Sugerido',
     cats: {
       government: 'Gobierno', accelerator: 'Aceleradora', international: 'Internacional',
       funder: 'Fondo', ngo_foundation: 'ONG', academia: 'Academia', corporate: 'Corporativo',
@@ -156,6 +161,11 @@ const I18N = {
     storyCounts: 'Per-chapter edge counts',
     storySuggestedHint: 'Chapter 5 may suggest hub/startup/funder paths; not verified relationships.',
     storyChallengeMeta: 'Challenge node (Canva)',
+    nexusCrossIdeas: 'Nexus ideas',
+    nexusCrossSolutions: 'Solutions (/s/)',
+    nexusCrossStartups: 'Startups on this challenge',
+    policyStartups: 'Related startups',
+    suggestedLabel: 'Suggested',
     cats: {
       government: 'Government', accelerator: 'Accelerator', international: 'International',
       funder: 'Funder', ngo_foundation: 'NGO', academia: 'Academia', corporate: 'Corporate',
@@ -191,6 +201,7 @@ let fa2Assign = null;
 
 let viewMode = 'explore';
 let storyConfig = null;
+let nexusCrosslinks = null;
 let policies = [];
 let policiesById = new Map();
 let policyRelations = [];
@@ -702,6 +713,17 @@ function updateMapLayers(scene = null) {
   renderGeoUnknownPanel(ids);
 }
 
+function crosslinkSection(title, items, tr) {
+  if (!items?.length) return '';
+  const rows = items.map((item) => {
+    const sug = item.inferred
+      ? `<span class="badge suggested">${esc(tr.suggestedLabel)}</span>`
+      : '';
+    return `<li><a href="${esc(item.href)}" target="_blank" rel="noopener">${esc(item.label)}</a> ${sug}</li>`;
+  }).join('');
+  return `<div class="section"><h3>${esc(title)}</h3><ul class="crosslink-list">${rows}</ul></div>`;
+}
+
 function flyToActor(a) {
   if (!map || !hasPlottableGeo(a)) return;
   const opts = { center: [a.geo.lng, a.geo.lat], zoom: Math.max(map.getZoom(), 5.4) };
@@ -715,12 +737,14 @@ function renderInspector(id) {
   if (isPolicyId(id)) {
     const row = policiesById.get(id);
     const linked = [...relations, ...policyRelations].filter((r) => r.source === id || r.target === id);
+    const policyStartups = nexusCrosslinks?.byPolicy?.[id] || [];
     el.classList.remove('empty');
     el.innerHTML = `
       <div style="padding:14px">
         <h2>${esc(row?.name || id)}</h2>
         <div class="meta">${esc(row?.country || '')} · ${esc(row?.instrument || 'policy')} · ${linked.length} links</div>
         ${row?.source_url ? `<a class="secondary" href="${esc(row.source_url)}" target="_blank" rel="noopener">${tr.website}</a>` : ''}
+        ${crosslinkSection(tr.policyStartups, policyStartups, tr)}
         <div class="section"><h3>${tr.typedRelations}</h3>
         ${linked.slice(0, 12).map((r) => {
       const otherId = r.source === id ? r.target : r.source;
@@ -749,15 +773,24 @@ function renderInspector(id) {
     const meta = storyConfig.challenges[id];
     const linked = relations.filter((r) => r.target === id || r.source === id);
     const title = lang === 'EN' ? meta?.label?.en : meta?.label?.es;
+    const panel = nexusCrosslinks?.byChallenge?.[id] || {};
     el.classList.remove('empty');
     el.innerHTML = `
       <div style="padding:14px">
         <h2>${esc(title || id)}</h2>
         <div class="meta">${tr.storyChallengeMeta || 'Challenge node'} · ${linked.length} works_on_challenge</div>
+        ${crosslinkSection(tr.nexusCrossIdeas, panel.ideas, tr)}
+        ${crosslinkSection(tr.nexusCrossSolutions, panel.solutions, tr)}
+        ${crosslinkSection(tr.nexusCrossStartups, panel.startups, tr)}
         <div class="section"><h3>${tr.typedRelations}</h3>
         ${linked.slice(0, 12).map((r) => {
       const o = byId.get(r.source);
-      return `<div class="rel-row"><span class="rtype">${esc(r.type.replace(/_/g, '-'))}</span>${esc(o?.name || r.source)}</div>`;
+      const slug = o?.nexus?.card_slug;
+      const name = o?.name || r.source;
+      const label = slug && o?.category === 'startup'
+        ? `<a href="/s/${esc(slug)}/" target="_blank" rel="noopener">${esc(name)}</a>`
+        : esc(name);
+      return `<div class="rel-row"><span class="rtype">${esc(r.type.replace(/_/g, '-'))}</span>${label}</div>`;
     }).join('') || `<p class="meta">${tr.noRelations}</p>`}
         </div>
         <p class="meta" style="margin-top:8px">${esc(tr.storySuggestedHint || '')}</p>
@@ -784,7 +817,7 @@ function renderInspector(id) {
     : '';
 
   const nexusRow = slug
-    ? `<a href="/s/${esc(slug)}" target="_blank" rel="noopener">${tr.nexusCard}${esc(slug)}</a>`
+    ? `<a href="/s/${esc(slug)}/" target="_blank" rel="noopener">${tr.nexusCard}${esc(slug)}</a>`
     : `<span class="pending">${tr.nexusPending}</span>`;
   const hubSlug = a.nexus?.hub_slug;
   const hubRow = hubSlug
@@ -866,8 +899,10 @@ function renderCards(list) {
       ? `<a class="link-btn" href="${esc(a.website.startsWith('http') ? a.website : `https://${a.website}`)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${tr.website}</a>`
       : `<span class="link-btn muted">${tr.websitePending}</span>`;
     const nexus = slug
-      ? `<a class="nexus-btn" href="/s/${esc(slug)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${tr.nexusCard}</a>`
-      : `<span class="pending-chip">${tr.nexusPending}</span>`;
+      ? `<a class="nexus-btn" href="/s/${esc(slug)}/" target="_blank" rel="noopener" onclick="event.stopPropagation()">${tr.nexusCard}</a>`
+      : (a.category === 'startup'
+        ? `<span class="pending-chip">${tr.nexusPending}</span>`
+        : '');
     const hubSlug = a.nexus?.hub_slug;
     const hubLink = hubSlug
       ? `<a class="nexus-btn" href="/hubs/${esc(hubSlug)}/" target="_blank" rel="noopener" onclick="event.stopPropagation()">${tr.hubPage}</a>`
@@ -1158,14 +1193,16 @@ function applyDemoState() {
 }
 
 async function loadData() {
-  const [a, r, story, pol, polRels, dataRels] = await Promise.all([
+  const [a, r, story, pol, polRels, dataRels, cross] = await Promise.all([
     fetch('data/actors.json').then((res) => res.json()),
     fetch('data/relations.json').then((res) => res.json()),
     fetch('data/story-chapters.json').then((res) => res.json()),
     fetch('data/policies.json').then((res) => res.json()),
     fetch('data/policy_relations.json').then((res) => res.json()),
     fetch('data/data_relations.json').then((res) => res.json()),
+    fetch('data/nexus-crosslinks.json').then((res) => (res.ok ? res.json() : null)).catch(() => null),
   ]);
+  nexusCrosslinks = cross;
   storyConfig = story;
   policies = pol;
   policiesById = new Map(pol.map((p) => [p.id, p]));

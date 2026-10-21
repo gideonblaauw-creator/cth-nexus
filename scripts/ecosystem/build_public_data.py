@@ -12,6 +12,7 @@ from prepare_geo import geocode_actor
 REPO = Path(__file__).resolve().parents[2]
 DATA = REPO / "static" / "ecosystem" / "data"
 ONEPAGERS = REPO / "onepagers" / "data"
+ONEPAGER_SITES = REPO / "onepagers" / "sites"
 
 DROP_KEYS = {
     "notes",
@@ -125,17 +126,30 @@ def match_card_slug(actor: dict, idx: dict) -> str | None:
     return None
 
 
-def resolve_card_slug(raw: dict, idx: dict) -> str | None:
+def valid_s_slugs() -> set[str]:
+    if not ONEPAGER_SITES.is_dir():
+        return set()
+    return {
+        p.name
+        for p in ONEPAGER_SITES.iterdir()
+        if p.is_dir() and (p / "index.html").is_file()
+    }
+
+
+def resolve_card_slug(raw: dict, idx: dict, valid_s: set[str] | None = None) -> str | None:
     """Match one-pager /s/{slug} from website, name, id, or staff nexus_slug on raw row."""
+    valid_s = valid_s or valid_s_slugs()
     slug = match_card_slug(raw, idx)
-    if slug:
+    if slug and slug in valid_s:
         return slug
     for cand in (raw.get("nexus_slug"), (raw.get("nexus") or {}).get("card_slug")):
         if not cand:
             continue
         key = str(cand).lower()
-        if key in idx["slug"]:
+        if key in idx["slug"] and idx["slug"][key] in valid_s:
             return idx["slug"][key]
+        if key in valid_s:
+            return key
     return None
 
 
@@ -155,21 +169,26 @@ def normalize_geo(raw: dict, geo: dict | None) -> dict:
     return geocode_actor({**raw, "id": raw["id"]})["geo"]
 
 
-def sanitize_actor(raw: dict, idx: dict) -> dict:
+def sanitize_actor(raw: dict, idx: dict, valid_s: set[str] | None = None) -> dict:
     a = {k: v for k, v in raw.items() if k not in DROP_KEYS}
     a = scrub_value(a) or {}
     a["geo"] = normalize_geo(raw, raw.get("geo") or a.get("geo"))
-    slug = resolve_card_slug(raw, idx)
+    slug = resolve_card_slug(raw, idx, valid_s)
     nexus = dict(a.get("nexus") or {})
     if slug:
         nexus["card_slug"] = slug
     else:
         nexus.pop("card_slug", None)
     hub_pages_path = DATA / "hub-pages.json"
+    valid_hubs = {
+        p.name
+        for p in (REPO / "site" / "cth-static" / "hubs").iterdir()
+        if p.is_dir() and (p / "index.html").is_file()
+    } if (REPO / "site" / "cth-static" / "hubs").is_dir() else set()
     if hub_pages_path.exists():
         hub_pages = json.loads(hub_pages_path.read_text(encoding="utf-8"))
         hub_slug = hub_pages.get(a["id"])
-        if hub_slug:
+        if hub_slug and hub_slug in valid_hubs:
             nexus["hub_slug"] = hub_slug
     a["nexus"] = nexus if nexus else {}
     if a.get("type") == "person" and not a.get("linkedin"):
@@ -302,8 +321,9 @@ def main() -> None:
         challenges = story_doc.get("challenges") or {}
         datasets = story_doc.get("datasets") or {}
     idx = load_onepager_index()
+    valid_s = valid_s_slugs()
 
-    actors = [sanitize_actor(a, idx) for a in raw_actors]
+    actors = [sanitize_actor(a, idx, valid_s) for a in raw_actors]
     actors_by_id_pre = {a["id"]: a for a in actors}
     relations, dropped_gr = drop_cross_country_graph_relations(
         relations, actors_by_id_pre, {}, challenges, datasets,
@@ -344,6 +364,13 @@ def main() -> None:
     pol_n = len(json.loads(policies_path.read_text())) if policies_path.exists() else 0
     pol_r = len(json.loads(policy_rels_path.read_text())) if policy_rels_path.exists() else 0
     print(f"Public actors: {len(actors)}, card_slug: {with_slug}, relations: {len(relations)}, policies: {pol_n}, policy_relations: {pol_r}")
+
+    try:
+        from build_nexus_crosslinks import main as build_crosslinks_main
+
+        build_crosslinks_main()
+    except Exception as exc:
+        print(f"warn: build_nexus_crosslinks failed: {exc}")
 
 
 if __name__ == "__main__":

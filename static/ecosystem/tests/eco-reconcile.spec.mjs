@@ -34,9 +34,17 @@ test('policy bundle has no cross-country issues_policy / addresses_challenge edg
   expect(countCrossCountryGraphEdges(dataRels, ctx)).toBe(0);
 });
 
+test('nexus-crosslinks.json present with link counts', async () => {
+  const cross = JSON.parse(await readFile(path.join(DATA, 'nexus-crosslinks.json'), 'utf8'));
+  expect(cross.counts.s_pages).toBeGreaterThan(0);
+  expect(cross.valid.hubs.length).toBeGreaterThanOrEqual(2);
+});
+
 test('actors.json exposes nexus card_slug and hub_slug where mapped', async () => {
   const actors = await readFile(path.join(DATA, 'actors.json'), 'utf8').then(JSON.parse);
-  const withCard = actors.filter((a) => a.nexus?.card_slug);
+  const cross = JSON.parse(await readFile(path.join(DATA, 'nexus-crosslinks.json'), 'utf8'));
+  const validS = new Set(cross.valid.s || []);
+  const withCard = actors.filter((a) => a.nexus?.card_slug && validS.has(a.nexus.card_slug));
   const withHub = actors.filter((a) => a.nexus?.hub_slug);
   expect(withCard.length).toBeGreaterThan(0);
   expect(withHub.length).toBeGreaterThan(0);
