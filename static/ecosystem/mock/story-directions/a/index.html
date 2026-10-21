@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dirección A · Map-first (mock)</title>
+  <meta name="robots" content="noindex,nofollow" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://unpkg.com https://esm.sh; style-src 'self' 'unsafe-inline' https://unpkg.com https://cdn.jsdelivr.net https://fonts.googleapis.com; font-src https://fonts.gstatic.com data:; connect-src 'self' https://tiles.openfreemap.org https://cdn.jsdelivr.net https://unpkg.com https://esm.sh; img-src 'self' data: blob: https://tiles.openfreemap.org; worker-src blob:; child-src blob:;" />
+  <link rel="stylesheet" href="/nexus-assets/nexus-brand.css" />
+  <link rel="stylesheet" href="../shared/mock.css" />
+  <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" crossorigin="" />
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js" crossorigin=""></script>
+  <script type="importmap">
+  { "imports": {
+    "graphology": "https://esm.sh/graphology@0.26.0",
+    "sigma": "https://esm.sh/sigma@4.0.3"
+  } }
+  </script>
+</head>
+<body class="mock-page dir-a" data-brand="cth">
+  <header class="page-header">
+    <p class="ph-eyebrow">Mock A · Map-first</p>
+    <h1 class="ph-title">Historia guiada — mapa protagonista</h1>
+    <p class="ph-sub">Reto Agua (PE-2-agua) · UQHU, Yakufil · datos reales</p>
+  </header>
+  <div class="mock-ribbon">
+    <div class="mock-ribbon-inner">
+      <strong>Mockup estático</strong> — no es la vista en producción
+      <a href="../index.html">← Índice de direcciones</a>
+    </div>
+  </div>
+  <div class="mock-shell">
+    <div class="mock-toolbar">
+      <span class="mock-tag">Dirección A</span>
+      <label for="mock-challenge-select">Área de reto</label>
+      <select id="mock-challenge-select" class="mock-challenge-select" aria-label="Challenge"></select>
+    </div>
+    <div class="guide-banner" data-mock-banner></div>
+    <div class="layout-a">
+      <aside class="story-rail" data-mock-rail aria-label="Capítulos"></aside>
+      <div class="layout-a-main">
+        <div class="map-stage">
+          <span class="pane-label">Mapa LATAM</span>
+          <div class="mock-map" data-mock-map role="application" aria-label="Mapa"></div>
+          <div class="viz-pane inset-graph">
+            <span class="pane-label">Red (inset)</span>
+            <div class="mock-graph" data-mock-graph role="application" aria-label="Red"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div data-mock-constellations class="constellation-pills hidden" id="constellation-row"></div>
+  </div>
+  <aside class="inspector-panel drawer" data-mock-inspector aria-label="Inspector">
+    <div class="drawer-header"><span>Inspector · slide-in</span><span>UQHU seleccionado</span></div>
+  </aside>
+  <p class="mock-foot">Placeholder: interacciones de ego/filtros avanzados no implementadas en mock.</p>
+  <script type="module">
+    import { bootMockPage } from '../shared/mock-core.mjs';
+    await bootMockPage({ direction: 'a', chapterIndex: 0, selectedId: 'pe-uqhu' });
+  </script>
+</body>
+</html>

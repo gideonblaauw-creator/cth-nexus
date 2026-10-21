@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Historia guiada — 4 direcciones de diseño (mock)</title>
+  <meta name="robots" content="noindex,nofollow" />
+  <link rel="stylesheet" href="/nexus-assets/nexus-brand.css" />
+  <link rel="stylesheet" href="shared/mock.css" />
+  <style>
+    .hub-grid {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+      display: grid;
+      gap: 16px;
+    }
+    .hub-card {
+      background: var(--color-card);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius);
+      padding: 16px 18px;
+      box-shadow: var(--shadow-card);
+    }
+    .hub-card h2 { font-size: 16px; color: var(--deep-blue); margin-bottom: 6px; }
+    .hub-card p { font-size: 12px; line-height: 1.5; color: var(--color-mid); margin-bottom: 10px; }
+    .hub-card a {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--deep-blue);
+    }
+    .hub-meta { font-size: 10px; color: var(--color-muted); margin-top: 8px; }
+  </style>
+</head>
+<body class="mock-page">
+  <header class="page-header">
+    <p class="ph-eyebrow">Nexus · Mockups · Gideon review</p>
+    <h1 class="ph-title">Historia guiada — 4 direcciones</h1>
+    <p class="ph-sub">Vistas estáticas con datos reales de <code>static/ecosystem/data</code>. Reto por defecto: Agua &amp; cuencas (PE-2-agua). No modifican la página en producción.</p>
+  </header>
+  <div class="hub-grid">
+    <article class="hub-card">
+      <h2>A · Map-first</h2>
+      <p>Mapa LATAM a pantalla casi completa; red como inset flotante; inspector en cajón lateral deslizable.</p>
+      <a href="a/index.html">Abrir dirección A →</a>
+      <p class="hub-meta">Capítulo rail izquierdo · drawer inspector</p>
+    </article>
+    <article class="hub-card">
+      <h2>B · Network-first</h2>
+      <p>Grafo de relaciones dominante; mapa en inset; stepper horizontal de capítulos arriba.</p>
+      <a href="b/index.html">Abrir dirección B →</a>
+    </article>
+    <article class="hub-card">
+      <h2>C · Scrollytelling</h2>
+      <p>Columna narrativa; cada capítulo es una sección a ancho completo con mapa + red fijados (sticky).</p>
+      <a href="c/index.html">Abrir dirección C →</a>
+    </article>
+    <article class="hub-card">
+      <h2>D · Dashboard</h2>
+      <p>Azulejos KPI, mapa y red lado a lado, rejilla de tarjetas de relación e inspector compacto.</p>
+      <a href="d/index.html">Abrir dirección D →</a>
+    </article>
+  </div>
+  <p class="mock-foot">Referencia layout actual (PR #83): rail de capítulos, mapa + red en fila, inspector / relaciones tipadas abajo a ancho completo.</p>
+</body>
+</html>
