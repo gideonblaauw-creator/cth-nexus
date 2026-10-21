@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: El Salvador
 ---
 
+
+
 # GGGI
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,16 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://gggi.org |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Organización internacional o cooperación |
+| LinkedIn | https://www.linkedin.com/company/global-green-growth-institute |
+| Rol en el ecosistema | Instituto intergubernamental que apoya crecimiento verde e inclusivo. |
+| Dirección | PENDIENTE |
+| Año de fundación | 2012 |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Instituto intergubernamental que apoya crecimiento verde e inclusivo.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,7 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Sitio web — https://gggi.org
+- Rol en el ecosistema — https://gggi.org
+- LinkedIn (enlace público) — https://www.linkedin.com/company/global-green-growth-institute
+- Año de fundación — https://gggi.org/about/

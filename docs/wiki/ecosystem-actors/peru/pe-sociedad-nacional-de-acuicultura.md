@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Sociedad Nacional de Acuicultura
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -28,7 +30,9 @@ tag_country: Peru
 
 ## Rol y alcance
 
-PENDIENTE
+Gremio que representa a productores acuícolas peruanos y promueve el desarrollo sostenible del sector.
+
+- **Ciudad / sede:** Lima — https://www.sna-peru.com
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.sna-peru.com
+- https://www.sna-peru.com/

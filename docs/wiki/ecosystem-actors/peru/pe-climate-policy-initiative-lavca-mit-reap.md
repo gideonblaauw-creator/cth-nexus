@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Climate Policy Initiative, LAVCA, MIT REAP
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -19,16 +21,18 @@ tag_country: Peru
 | Categoría | corporate |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | Lima (actores referenciados en ecosistema peruano) |
 | Sitio web | https://www.lavca.org/research/ |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| LinkedIn | https://www.linkedin.com/company/lavca |
+| Rol en el ecosistema | Conjunto de actores de investigación y aceleración (LAVCA, CPI, MIT REAP) vinculados al ecosistema emprendedor y climático en Perú. |
+| Dirección | PENDIENTE |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Entrada compuesta en el mapa de actores que agrupa referencias a LAVCA (investigación de capital de riesgo en LATAM), Climate Policy Initiative y MIT REAP como recursos del ecosistema.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.lavca.org/research/ — portal de investigación LAVCA
+- https://www.climatepolicyinitiative.org — Climate Policy Initiative
+- https://reap.mit.edu — MIT Regional Entrepreneurship Acceleration Program

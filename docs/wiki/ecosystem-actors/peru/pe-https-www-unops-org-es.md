@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # https://www.unops.org/es
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -19,16 +21,18 @@ tag_country: Peru
 | Categoría | corporate |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | Copenhague (sede); proyectos en Perú |
 | Sitio web | https://www.unops.org/es |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| LinkedIn | https://www.linkedin.com/company/unops |
+| Rol en el ecosistema | Organismo de la ONU para implementación de proyectos |
 | Desafíos (códigos) | AGR |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+UNOPS brinda servicios de implementación de proyectos de infraestructura, adquisiciones y gestión para socios del sistema de las Naciones Unidas y gobiernos, incluyendo iniciativas de desarrollo y resiliencia en el Perú.
+
+**Año de fundación:** 1973
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.unops.org/es

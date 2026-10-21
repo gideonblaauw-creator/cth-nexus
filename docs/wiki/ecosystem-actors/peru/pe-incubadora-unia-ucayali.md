@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Incubadora UNIA (Ucayali)
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -19,16 +21,18 @@ tag_country: Peru
 | Categoría | accelerator |
 | Tipo | org |
 | País | Peru |
-| Ciudad | PENDIENTE |
-| Sitio web | https://www.facebook.com/unia.edu.pe/ |
-| LinkedIn | PENDIENTE |
+| Ciudad | Pucallpa, Ucayali |
+| Sitio web | https://www.unia.edu.pe/ |
+| LinkedIn | https://www.facebook.com/unia.edu.pe/ |
 | Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | [nexus.cleantechhub.net/s/planta-comunitaria-wpc](https://nexus.cleantechhub.net/s/planta-comunitaria-wpc) |
 
 ## Rol y alcance
 
-PENDIENTE
+La incubadora de la Universidad Nacional Intercultural de la Amazonía (UNIA) promueve emprendimientos con pertinencia intercultural en la Amazonía peruana, articulada con la universidad sede en Pucallpa.
+
+**Año de fundación:** PENDIENTE
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.unia.edu.pe/
+- https://www.facebook.com/unia.edu.pe/

@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Cerro Verde
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -19,16 +21,24 @@ tag_country: Peru
 | Categoría | corporate |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Ancón |
+| Ciudad | Arequipa |
 | Sitio web | https://www.cerroverde.pe |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/cerro-verde/ |
 | Rol en el ecosistema | Empresa / sector privado |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AGU, ENE, FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Operación minera de cobre y molibdeno en Arequipa, con programas de gestión de agua, energía y relación con comunidades.
+
+| Campo | Valor |
+| --- | --- |
+| Dirección | Arequipa, Perú (operaciones mineras Cerro Verde) |
+| Año de fundación | PENDIENTE |
+| Áreas de enfoque (taxonomía CT) | AGU, ENE, FIN |
+| Programas | Gestión ambiental minera; innovación abierta y vínculo comunitario |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +52,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.cerroverde.pe
+- https://www.linkedin.com/company/sociedad-minera-cerro-verde
+- https://www.linkedin.com/company/cerro-verde/

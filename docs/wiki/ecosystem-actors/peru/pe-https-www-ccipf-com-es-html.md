@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # https://www.ccipf.com/es.html
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,16 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.cciperu.it |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| LinkedIn | https://www.linkedin.com/company/camara-de-comercio-italiana-del-peru |
+| Rol en el ecosistema | Cámara binacional que promueve comercio e inversión Italia–Perú. |
+| Dirección | PENDIENTE |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | ENE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+La Cámara de Comercio Italiana del Perú facilita relaciones comerciales y networking entre empresas italianas y peruanas.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.cciperu.it — sitio oficial
+- https://www.linkedin.com/company/camara-de-comercio-italiana-del-peru — perfil LinkedIn

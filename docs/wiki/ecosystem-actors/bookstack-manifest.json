@@ -8793,5 +8793,46 @@
         }
       ]
     }
-  ]
+  ],
+  "enrichment": {
+    "merged_batches": [
+      "W1",
+      "W2",
+      "W3",
+      "W4",
+      "W5",
+      "b1",
+      "b2",
+      "b3",
+      "b4"
+    ],
+    "draft_files_merged": 366,
+    "field_totals_drafted": {
+      "website": {
+        "FILLED": 364,
+        "PENDIENTE": 2
+      },
+      "city": {
+        "FILLED": 366,
+        "PENDIENTE": 0
+      },
+      "description": {
+        "FILLED": 365,
+        "PENDIENTE": 1
+      },
+      "founding_year": {
+        "FILLED": 132,
+        "PENDIENTE": 234
+      },
+      "linkedin": {
+        "FILLED": 236,
+        "PENDIENTE": 130
+      },
+      "nexus": {
+        "FILLED": 8,
+        "PENDIENTE": 358
+      }
+    },
+    "conflicts_resolved": 331
+  }
 }

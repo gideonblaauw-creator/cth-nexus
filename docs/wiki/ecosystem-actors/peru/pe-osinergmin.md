@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Osinergmin
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,21 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Magdalena del Mar |
 | Sitio web | https://www.gob.pe/osinergmin |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/osinergmin |
 | Rol en el ecosistema | Actor público / regulador |
 | Desafíos (códigos) | FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Organismo regulador que supervisa inversión y operación en sectores de energía y minería en el Perú.
+
+| Campo | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | Calle Bernardo Monteagudo N° 222, Magdalena del Mar, Lima, Perú |
+| Enfoque (taxonomía CT) | Regulación energética y minera, mercados, finanzas del sector (FIN) |
+| Programas | Supervisión, fiscalización y información al mercado de energía y minería. |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +51,6 @@ PENDIENTE
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.gob.pe/osinergmin
+- Institución en gob.pe — https://www.gob.pe/osinergmin
+- Perfil en LinkedIn — https://www.linkedin.com/company/osinergmin

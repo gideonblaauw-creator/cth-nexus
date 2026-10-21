@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # https://www.fundacionbbva.mx
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -20,15 +22,24 @@ tag_country: Peru
 | Tipo | org |
 | País | Peru |
 | Ciudad | Lima |
-| Sitio web | https://www.fundacionbbva.mx |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| Sitio web | https://www.fundacionbbva.pe/ |
+| LinkedIn | https://www.linkedin.com/company/fundaci%C3%B3n-bbva-per%C3%BA/ |
+| Rol en el ecosistema | Filantropía del Grupo BBVA en México con programas de educación e inclusión. |
+| Dirección | PENDIENTE |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AZU, BOS |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Fundación BBVA Perú: filantropía corporativa que financia educación, innovación social y proyectos ambientales en el país.
+
+| Campo | Valor |
+| --- | --- |
+| Dirección | Lima, Perú |
+| Año de fundación | PENDIENTE |
+| Áreas de enfoque (taxonomía CT) | AZU, BOS |
+| Programas | Convocatorias y alianzas de impacto social y ambiental |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +53,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.fundacionbbva.mx — sitio oficial
+- https://www.fundacionbbva.pe/
+- https://www.linkedin.com/company/fundaci%C3%B3n-bbva-per%C3%BA/

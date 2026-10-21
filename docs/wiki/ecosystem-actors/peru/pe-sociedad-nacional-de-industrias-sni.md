@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Sociedad Nacional de Industrias (SNI)
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,18 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://sni.org.pe |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/sociedad-nacional-de-industrias |
 | Rol en el ecosistema | Cámara o gremio |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Principal gremio industrial del Perú; representa y defiende los intereses del sector manufacturero nacional.
+
+- **Año de fundación:** 1896 — https://sni.org.pe
+
+- **Ciudad / sede:** Lima — https://sni.org.pe
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +48,7 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://sni.org.pe
+- Sitio institucional SNI — https://sni.org.pe/
+- Dirección en San Isidro — https://sni.org.pe/contacto/
+- Perfil en LinkedIn — https://www.linkedin.com/company/sociedad-nacional-de-industrias

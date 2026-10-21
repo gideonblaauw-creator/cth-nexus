@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: El Salvador
 ---
 
+
+
 # UNEP
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,16 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://www.unep.org |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Organización internacional o cooperación |
-| Desafíos (códigos) | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/unep |
+| Rol en el ecosistema | Programa de las Naciones Unidas para el Medio Ambiente. |
+| Dirección | PENDIENTE |
+| Año de fundación | PENDIENTE |
+| Desafíos (códigos) | BOS, AGU, CIU |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Programa de las Naciones Unidas para el Medio Ambiente.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,8 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Sitio web — https://www.unep.org
+- Rol en el ecosistema — https://www.unep.org
+- LinkedIn (enlace público) — https://www.linkedin.com/company/unep
+- https://www.unep.org/
+- https://www.linkedin.com/company/unep

@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: El Salvador
 ---
 
+
+
 # Diario El Mundo
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -22,13 +24,15 @@ tag_country: El Salvador
 | Ciudad | San Salvador |
 | Sitio web | https://diario.elmundo.sv |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Medios y difusión |
+| Rol en el ecosistema | Medio digital de noticias de El Salvador. |
+| Dirección | PENDIENTE |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Noticias de El Salvador, El Mundo, Economia, Deportes, Politica, Tecnologia, Tendencias, Negocios, Entretenimiento
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Sitio web — https://diario.elmundo.sv
+- Rol en el ecosistema — https://diario.elmundo.sv
+- Descripción — https://diario.elmundo.sv

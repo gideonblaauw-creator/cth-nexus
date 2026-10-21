@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # MINAM – Ministerio del Ambiente
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,19 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.gob.pe/minam |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/minamperu |
 | Rol en el ecosistema | Actor público / regulador |
 | Desafíos (códigos) | BOS |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+El MINAM es el ministerio rector de la política ambiental peruana: biodiversidad, residuos, cambio climático, negocios verdes y educación ambiental.
+
+- **Año de fundación:** 2008
+- **Dirección:** Av. Antonio Miró Quesada 425, Magdalena del Mar, Lima, Perú
+- **Áreas de enfoque (taxonomía CT):** BOS
+- **Programas:** Programa Nacional de Conservación de Bosques; Programa para Bionegocios; plataforma de negocios verdes
 
 ## Relaciones (ecosistema)
 
@@ -51,3 +58,6 @@ PENDIENTE
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.gob.pe/minam
+- MINAM — https://www.gob.pe/minam
+- LinkedIn — https://www.linkedin.com/company/minamperu

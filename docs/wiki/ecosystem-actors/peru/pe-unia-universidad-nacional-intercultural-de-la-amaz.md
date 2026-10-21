@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # UNIA – Universidad Nacional Intercultural de la Amazonía
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -19,7 +21,7 @@ tag_country: Peru
 | Categoría | academia |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | Nueva Luz del Oriente |
 | Sitio web | https://unia.edu.pe |
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Universidad o centro de investigación |
@@ -28,7 +30,9 @@ tag_country: Peru
 
 ## Rol y alcance
 
-PENDIENTE
+Universidad pública intercultural en la Amazonía peruana (región Ucayali) con enfoque en pueblos indígenas y desarrollo regional.
+
+- **Ciudad / sede:** Nueva Luz del Oriente — https://unia.edu.pe
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://unia.edu.pe

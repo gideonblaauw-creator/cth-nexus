@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Emprendimientos Dinámicos Cambio Climático – 1G
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -20,15 +22,17 @@ tag_country: Peru
 | Tipo | org |
 | País | Peru |
 | Ciudad | Lima |
-| Sitio web | https://cambioclimatico.proinnovate.gob.pe/wp-content/uploads/2024/04/Resultados-CD-Emprendimientos-Dinamicos-Cambio-Climatico.pdf |
+| Sitio web | https://cambioclimatico.proinnovate.gob.pe |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Actor público / regulador |
+| Rol en el ecosistema | Convocatoria o programa de emprendimientos dinámicos en cambio climático (ProInnóvate / MINAM). |
+| Dirección | PENDIENTE |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Programa público de emprendimientos dinámicos en cambio climático documentado en el portal de cambio climático de ProInnóvate.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://cambioclimatico.proinnovate.gob.pe — portal ProInnóvate cambio climático

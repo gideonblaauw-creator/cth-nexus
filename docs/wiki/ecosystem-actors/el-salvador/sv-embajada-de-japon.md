@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: El Salvador
 ---
 
+
+
 # Embajada de Japón
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -19,16 +21,18 @@ tag_country: El Salvador
 | Categoría | international |
 | Tipo | org |
 | País | El Salvador |
-| Ciudad | San Salvador |
+| Ciudad | San Salvador; Calle La Reforma y 9ª Calle Poniente, Edificio Intermark, Nivel 12, San Salvador |
 | Sitio web | https://www.sv.emb-japan.go.jp |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Organización internacional o cooperación |
+| Rol en el ecosistema | Embajada de Japón en El Salvador; relaciones bilaterales y cooperación. |
+| Dirección | Calle La Reforma y 9ª Calle Poniente, Edificio Intermark, Nivel 12, San Salvador |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Embajada de Japón en El Salvador; relaciones bilaterales y cooperación.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,7 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Sitio web — https://www.sv.emb-japan.go.jp
+- Rol en el ecosistema — https://www.sv.emb-japan.go.jp
+- Dirección — https://www.sv.emb-japan.go.jp/itpr_es/embassy.html
+- https://www.sv.emb-japan.go.jp/

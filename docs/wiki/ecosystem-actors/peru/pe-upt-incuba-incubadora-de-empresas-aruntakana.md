@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # UPT INCUBA: Incubadora de Empresas Aruntakana
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,16 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Tacna |
 | Sitio web | https://www.uptincuba.pe/ |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/upt-incuba |
 | Rol en el ecosistema | Universidad o centro de investigación |
 | Desafíos (códigos) | BOS |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Incubadora de empresas Aruntakana de la Universidad Privada de Tacna (UPT) para startups regionales.
+
+- **Ciudad / sede:** Tacna — https://www.uptincuba.pe/
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.uptincuba.pe/

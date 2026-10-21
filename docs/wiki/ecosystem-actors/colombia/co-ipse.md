@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Colombia
 ---
 
+
+
 # IPSE
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -19,16 +21,17 @@ tag_country: Colombia
 | Categoría | government |
 | Tipo | org |
 | País | Colombia |
-| Ciudad | Lima |
+| Ciudad | Bogotá |
 | Sitio web | https://ipse.gov.co |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Actor público / regulador |
+| LinkedIn | https://www.linkedin.com/company/ipse-zni |
+| Rol en el ecosistema | Entidad pública de soluciones energéticas en ZNI. |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+El Instituto de Planificación y Promoción de Soluciones Energéticas para las Zonas No Interconectadas (IPSE) atiende la provisión de energía en zonas no interconectadas de Colombia.
 
 ## Relaciones (ecosistema)
 
@@ -48,3 +51,5 @@ PENDIENTE
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://ipse.gov.co/
+- https://www.linkedin.com/company/ipse-zni

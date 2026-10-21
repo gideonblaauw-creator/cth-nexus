@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: El Salvador
 ---
 
+
+
 # Impact Hub San Salvador
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,16 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://sansalvador.impacthub.net |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
+| LinkedIn | https://www.linkedin.com/company/ihsansalvador |
+| Rol en el ecosistema | Red global de espacios de coworking y aceleración para emprendimiento de impacto. |
+| Dirección | PENDIENTE |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Red global de espacios de coworking y aceleración para emprendimiento de impacto.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Sitio web — https://sansalvador.impacthub.net
+- Rol en el ecosistema — https://sansalvador.impacthub.net
+- LinkedIn (enlace público) — https://www.linkedin.com/company/ihsansalvador

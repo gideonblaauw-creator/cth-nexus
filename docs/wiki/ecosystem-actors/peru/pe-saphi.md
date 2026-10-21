@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Saphi
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,14 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.saphi.xyz/ |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/saphixyz |
 | Rol en el ecosistema | Empresa / sector privado |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Plataforma de infraestructura digital para la economía de la naturaleza: conservación verificada, cadenas de valor sostenibles y financiamiento territorial en Amazonía y Andes.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.saphi.xyz/

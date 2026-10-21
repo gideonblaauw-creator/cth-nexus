@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Danper
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -19,16 +21,18 @@ tag_country: Peru
 | Categoría | corporate |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Olmos |
+| Ciudad | Olmos, Lambayeque |
 | Sitio web | https://danper.com |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| LinkedIn | https://www.linkedin.com/company/danperperu |
+| Rol en el ecosistema | Agroexportadora peruana; demanda de innovación en agua, adaptación climática y cadena agrícola. |
+| Dirección | PENDIENTE |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AGR, AGU |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Danper es una empresa agroindustrial y exportadora peruana con operaciones en el norte del país, activa en cultivos y procesamiento para mercados internacionales.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,7 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://danper.com — sitio corporativo
+- https://www.linkedin.com/company/danperperu — perfil LinkedIn
+- https://danper.com/
+- https://www.linkedin.com/company/danper

@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # JICA
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -19,16 +21,23 @@ tag_country: Peru
 | Categoría | international |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Ormoc |
+| Ciudad | Lima |
 | Sitio web | https://www.jica.go.jp |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Organización internacional o cooperación |
+| LinkedIn | https://www.linkedin.com/company/jica |
+| Rol en el ecosistema | Agencia de cooperación internacional de Japón |
 | Desafíos (códigos) | AGR, AGU, CIR |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Agencia Japonesa de Cooperación Internacional (JICA): cooperación técnica y financiera para desarrollo; oficina de cooperación en Perú.
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | 2003 (JICA como agencia; predecesores desde 1974) |
+| Dirección | PENDIENTE |
+| Áreas de enfoque (CT) | PENDIENTE |
+| Programas | Proyectos de infraestructura, ambiente, agricultura y capacitación en Perú |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +51,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.jica.go.jp/english/
+- https://www.jica.go.jp/english/country/peru/
+- https://www.linkedin.com/company/jica

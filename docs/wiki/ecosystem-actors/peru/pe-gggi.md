@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # GGGI
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -19,16 +21,18 @@ tag_country: Peru
 | Categoría | international |
 | Tipo | org |
 | País | Peru |
-| Ciudad | PENDIENTE |
+| Ciudad | Seúl, República de Corea (sede); programas en Perú |
 | Sitio web | https://gggi.org |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Organización internacional o cooperación |
+| LinkedIn | https://www.linkedin.com/company/global-green-growth-institute |
+| Rol en el ecosistema | Instituto intergubernamental de crecimiento verde y transición climática. |
+| Dirección | PENDIENTE |
+| Año de fundación | 2012 |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+El Global Green Growth Institute (GGGI) apoya a gobiernos en planificación de crecimiento verde y resiliencia climática.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://gggi.org — sitio GGGI
+- https://www.linkedin.com/company/global-green-growth-institute — perfil LinkedIn

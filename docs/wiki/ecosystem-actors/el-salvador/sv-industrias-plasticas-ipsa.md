@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: El Salvador
 ---
 
+
+
 # Industrias Plásticas (IPSA)
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -22,13 +24,15 @@ tag_country: El Salvador
 | Ciudad | San Salvador |
 | Sitio web | https://ipsalatinoamerica.com |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| Rol en el ecosistema | Fabricante regional de envases y productos plásticos. |
+| Dirección | PENDIENTE |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+IPSA Plástico Flexible Bobina Plastica Bolsas Biodegradables
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Sitio web — https://ipsalatinoamerica.com
+- Rol en el ecosistema — https://ipsalatinoamerica.com
+- Descripción — https://ipsalatinoamerica.com

@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # https://www.tropicalforestalliance.org/home
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,21 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.tropicalforestalliance.org/home |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| LinkedIn | https://www.linkedin.com/company/tropical-forest-alliance |
+| Rol en el ecosistema | Alianza multistakeholder por bosques tropicales |
 | Desafíos (códigos) | AZU, BOS |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Alianza multilateral para eliminar la deforestación impulsada por commodities en bosques tropicales.
+
+| Campo | Valor |
+| --- | --- |
+| Año de fundación | 2012 |
+| Dirección | PENDIENTE |
+| Enfoque (taxonomía CT) | Bosques tropicales, cadenas de suministro, cero deforestación (AZU, BOS) |
+| Programas | Iniciativas sectoriales (palma, soya, carne, celulosa) y alianzas país para bosques tropicales. |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +51,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.tropicalforestalliance.org/
+- Sitio oficial de la alianza — https://www.tropicalforestalliance.org/home
+- Perfil en LinkedIn — https://www.linkedin.com/company/tropical-forest-alliance

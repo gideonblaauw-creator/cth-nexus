@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Hudbay
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -19,16 +21,21 @@ tag_country: Peru
 | Categoría | corporate |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Velille |
+| Ciudad | Cusco |
 | Sitio web | https://hudbayminerals.com |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| LinkedIn | https://www.linkedin.com/company/hudbay-minerals-inc- |
+| Rol en el ecosistema | Empresa minera con operaciones en el Perú |
 | Desafíos (códigos) | FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Hudbay Minerals es empresa minera canadiense con operación de cobre en Perú (mina Constancia, Cusco); desarrolla proyectos de sostenibilidad y relación comunitaria.
+
+- **Año de fundación:** PENDIENTE
+- **Dirección:** Operación Constancia, provincia de Chumbivilcas, Cusco, Perú
+- **Áreas de enfoque (taxonomía CT):** FIN
+- **Programas:** Operación minera Constancia; programas de responsabilidad social y gestión ambiental
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://hudbayminerals.com
+- Hudbay Minerals — https://hudbayminerals.com/
+- LinkedIn — https://www.linkedin.com/company/hudbay-minerals-inc-

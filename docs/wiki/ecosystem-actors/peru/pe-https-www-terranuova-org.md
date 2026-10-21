@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # https://www.terranuova.org
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,21 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.terranuova.org |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/terranuova-onlus |
 | Rol en el ecosistema | Empresa / sector privado |
-| Desafíos (códigos) | FIN |
+| Desafíos (códigos) | AGR |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Terranuova: organización italiana de cooperación al desarrollo y comercio equo vinculada a cadenas agroalimentarias sostenibles.
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | PENDIENTE |
+| Áreas de enfoque (CT) | AGR |
+| Programas | Cooperación rural y comercio justo (según terranuova.org) |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +51,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.terranuova.org
+- https://www.linkedin.com/company/terranuova-onlus

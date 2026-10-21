@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Imlakesh Organics
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -22,13 +24,15 @@ tag_country: Peru
 | Ciudad | Lima |
 | Sitio web | https://imlakeshorganics.com/ |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| Rol en el ecosistema | Empresa de productos orgánicos / comercio ético |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Imlakesh Organics comercializa superalimentos y productos orgánicos con enfoque en comercio justo y prácticas sostenibles, vinculando productores andinos con mercados internacionales.
+
+**Año de fundación:** PENDIENTE
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://imlakeshorganics.com/

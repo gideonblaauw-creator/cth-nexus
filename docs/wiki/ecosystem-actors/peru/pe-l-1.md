@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # L+1
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,21 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.lmas1.org |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | ONG o fundación |
+| LinkedIn | https://www.linkedin.com/company/l-1-lideres-impulsando-un-desarrollo-sostenible/ |
+| Rol en el ecosistema | Iniciativa global de agricultura sostenible (L+1) |
 | Desafíos (códigos) | AGR |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Comunidad de líderes de impacto en Perú que impulsa desarrollo sostenible, innovación y liderazgo con propósito.
+
+| Campo | Valor |
+| --- | --- |
+| Dirección | Lima, Perú |
+| Año de fundación | PENDIENTE |
+| Áreas de enfoque (taxonomía CT) | AGR |
+| Programas | Red L+1; eventos y articulación de líderes |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +51,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.lmas1.org

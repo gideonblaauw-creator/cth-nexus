@@ -8,6 +8,8 @@ tag_type: ecosystem-startup
 tag_country: Peru
 ---
 
+
+
 # UQHU
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -18,15 +20,17 @@ tag_country: Peru
 | --- | --- |
 | Categoría | startup |
 | País | Peru |
-| Ciudad | San Mateo |
-| Sitio web | PENDIENTE |
-| LinkedIn | PENDIENTE |
+| Ciudad | Huaraz |
+| Sitio web | https://uqhuinnova.com |
+| LinkedIn | https://www.linkedin.com/company/uqhu |
 | Rol en el ecosistema | Startup del ecosistema |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Descripción
 
-PENDIENTE
+Startup de saneamiento que diseña e implementa sistemas de tratamiento de aguas residuales domésticas con humedales construidos para zonas rurales y altoandinas.
+
+- **Ciudad / sede:** Huaraz — https://uqhuinnova.com
 
 ## Relaciones (ecosistema)
 
@@ -40,3 +44,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://uqhuinnova.com
+- https://www.unasam.edu.pe/noticia/y0zRtTQ1BgA=

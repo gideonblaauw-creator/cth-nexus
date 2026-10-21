@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Bosques Amazónicos (BAM)
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -19,16 +21,17 @@ tag_country: Peru
 | Categoría | corporate |
 | Tipo | org |
 | País | Peru |
-| Ciudad | PENDIENTE |
+| Ciudad | Lima |
 | Sitio web | https://bosques-amazonicos.com |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| LinkedIn | https://www.linkedin.com/company/bosques-amaz%C3%B3nicos-bam |
+| Rol en el ecosistema | Empresa de proyectos forestales y carbono. |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Bosques Amazónicos (BAM) desarrolla proyectos de conservación y restauración forestal con enfoque de carbono y biodiversidad en la Amazonía.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +45,9 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://bosques-amazonicos.com
+- https://bosques-amazonicos.com/
+- https://www.linkedin.com/company/bosques-amaz%C3%B3nicos-bam
+- Contacto y propósito — https://www.bosques-amazonicos.com/
+- Historia y escala de conservación — https://bosques-amazonicos.com/en/nosotros/
+- Constitución y domicilio legal — https://www.bosques-amazonicos.com/uploads/nosotros/bam-memoria-anual-2025-final.pdf

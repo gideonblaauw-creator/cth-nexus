@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Conservamos por Naturaleza
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,16 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.conservamospornaturaleza.org |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | ONG o fundación |
+| LinkedIn | https://www.linkedin.com/company/5043453 |
+| Rol en el ecosistema | Plataforma de comunicación y movilización ciudadana a favor de la conservación del patrimonio natural peruano. |
+| Dirección | PENDIENTE |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AGR |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Conservamos por Naturaleza inspira a vivir en armonía con la naturaleza y fortalece iniciativas ciudadanas que valoran el patrimonio natural del Perú.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.conservamospornaturaleza.org — misión en sitio oficial
+- https://www.linkedin.com/company/conservamos-por-naturaleza — perfil LinkedIn

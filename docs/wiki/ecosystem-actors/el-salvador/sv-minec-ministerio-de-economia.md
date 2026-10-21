@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: El Salvador
 ---
 
+
+
 # MINEC – Ministerio de Economía
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -22,13 +24,15 @@ tag_country: El Salvador
 | Ciudad | San Salvador |
 | Sitio web | https://www.economia.gob.sv |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Actor público / regulador |
+| Rol en el ecosistema | Ministerio de economía: política industrial, comercio y competitividad. |
+| Dirección | PENDIENTE |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Ministerio de economía: política industrial, comercio y competitividad.
 
 ## Relaciones (ecosistema)
 
@@ -43,3 +47,5 @@ PENDIENTE
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Sitio web — https://www.economia.gob.sv
+- Rol en el ecosistema — https://www.economia.gob.sv

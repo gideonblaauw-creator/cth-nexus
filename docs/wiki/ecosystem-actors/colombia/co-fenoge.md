@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Colombia
 ---
 
+
+
 # FENOGE
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -19,16 +21,24 @@ tag_country: Colombia
 | Categoría | funder |
 | Tipo | org |
 | País | Colombia |
-| Ciudad | PENDIENTE |
+| Ciudad | Bogotá |
 | Sitio web | https://fenoge.gov.co |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Financiador e inversionista |
-| Desafíos (códigos) | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/fenoge |
+| Rol en el ecosistema | Fondo público de financiamiento en ERNC y eficiencia energética. |
+| Año de fundación | 2017 |
+| Desafíos (códigos) | ENE, FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Fondo colombiano de energías no convencionales y gestión eficiente de la energía que financia proyectos de transición energética.
+
+| Campo | Valor |
+| --- | --- |
+| Año de fundación | 2018 |
+| Dirección | Carrera 12 No. 84A-12, Of. 801, Bogotá, Colombia |
+| Enfoque (taxonomía CT) | Energías renovables no convencionales, eficiencia energética, transición energética (financiamiento climático) |
+| Programas | Líneas de crédito y apoyo a proyectos de energías limpias y gestión eficiente de la energía (FENOGE). |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +52,10 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://fenoge.gov.co/
+- https://www.minenergia.gov.co/
+- https://www.linkedin.com/company/fenoge
+- Nombre, misión y contacto institucional — https://fenoge.gov.co/
+- Dirección en Bogotá — https://fenoge.gov.co/canales-de-atencion/
+- Perfil institucional en LinkedIn — https://www.linkedin.com/company/fenoge
+- Año de fundación (2018) — https://www.linkedin.com/company/fenoge

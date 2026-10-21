@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # EcoEvol
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -22,13 +24,15 @@ tag_country: Peru
 | Ciudad | Lima |
 | Sitio web | https://ecoevol.com/ |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| Rol en el ecosistema | Empresa de tecnología para eficiencia de combustible y reducción de emisiones en transporte. |
+| Dirección | PENDIENTE |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+EcoEvol ofrece soluciones que pueden reducir el consumo de combustible y las emisiones de gases contaminantes en vehículos.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://ecoevol.com/ — descripción de producto en sitio oficial

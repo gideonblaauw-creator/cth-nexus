@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Banca de Inversion Sostenible
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -20,15 +22,16 @@ tag_country: Peru
 | Tipo | org |
 | País | Peru |
 | Ciudad | Lima |
-| Sitio web | https://www.bancasostenible.la |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| Sitio web | https://www.bancasostenible.la/ |
+| LinkedIn | https://www.linkedin.com/company/bancasostenible |
+| Rol en el ecosistema | Asesoría y banca de inversión sostenible. |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Banca Sostenible es una firma regional de banca de inversión y asesoría financiera con enfoque en sostenibilidad y mercados de capitales.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +45,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.bancasostenible.la/
+- https://www.linkedin.com/company/bancasostenible

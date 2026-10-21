@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # CARE Perú
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,15 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | San Isidro |
 | Sitio web | https://care.org.pe |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/care-peru |
 | Rol en el ecosistema | ONG o fundación |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+CARE Perú es una ONG peruana que trabaja para luchar contra la pobreza y la injusticia social, con un enfoque específico en el empoderamiento de mujeres y niñas.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +45,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://care.org.pe
+- https://www.linkedin.com/company/care-peru

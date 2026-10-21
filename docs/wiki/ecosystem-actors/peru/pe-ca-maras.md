@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Cámaras
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -20,15 +22,16 @@ tag_country: Peru
 | Tipo | org |
 | País | Peru |
 | Ciudad | Lima |
-| Sitio web | https://www.ccipf.com/es.html |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| Sitio web | https://www.ccl.org.pe/ |
+| LinkedIn | https://www.linkedin.com/company/camaradelima |
+| Rol en el ecosistema | Gremio / sistema de cámaras de comercio (CCL). |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+El sistema cameral peruano se articula en torno a la Cámara de Comercio de Lima (CCL), principal gremio empresarial del país, que representa y apoya a las cámaras regionales.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +45,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.ccl.org.pe/
+- https://www.linkedin.com/company/camaradelima

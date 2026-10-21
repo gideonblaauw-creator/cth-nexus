@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Universidad Nacional de Moquegua / UPT Incuba – Aruntakana (Tacna)
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -19,7 +21,7 @@ tag_country: Peru
 | Categoría | accelerator |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | Moquegua |
 | Sitio web | https://www.gob.pe/unam |
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
@@ -28,7 +30,9 @@ tag_country: Peru
 
 ## Rol y alcance
 
-PENDIENTE
+Universidad Nacional de Moquegua y programas de emprendimiento vinculados a incubación regional (incl. UPT Aruntakana en Tacna).
+
+- **Ciudad / sede:** Moquegua — https://www.gob.pe/unam
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.gob.pe/unam

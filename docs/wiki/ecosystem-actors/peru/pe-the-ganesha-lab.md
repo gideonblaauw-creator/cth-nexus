@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # The Ganesha Lab
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -19,16 +21,20 @@ tag_country: Peru
 | Categoría | corporate |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | Santiago |
 | Sitio web | https://theganeshalab.com/contact/ |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/theganeshalab |
 | Rol en el ecosistema | Empresa / sector privado |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Aceleradora global de biotecnología que escala startups científicas de Latinoamérica hacia mercados internacionales.
+
+- **Año de fundación:** 2019 — https://theganeshalab.com/contact/
+
+- **Ciudad / sede:** Santiago — https://theganeshalab.com/contact/
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +48,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://theganeshalab.com/contact/

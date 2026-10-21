@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # https://www.climatepolicyinitiative.org
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -19,16 +21,18 @@ tag_country: Peru
 | Categoría | corporate |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | San Francisco, California (sede) |
 | Sitio web | https://www.climatepolicyinitiative.org |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| LinkedIn | https://www.linkedin.com/company/climate-policy-initiative |
+| Rol en el ecosistema | Think tank global en finanzas climáticas y análisis de políticas. |
+| Dirección | PENDIENTE |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Climate Policy Initiative asesora a gobiernos, empresas e instituciones financieras para alinear crecimiento económico y acción climática.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.climatepolicyinitiative.org — sitio CPI
+- https://www.linkedin.com/company/climate-policy-initiative — perfil LinkedIn

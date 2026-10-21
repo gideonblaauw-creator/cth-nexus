@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: El Salvador
 ---
 
+
+
 # CRS – Catholic Relief Services
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,16 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://www.crs.org |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Organización internacional o cooperación |
+| LinkedIn | https://www.linkedin.com/company/catholic-relief-services |
+| Rol en el ecosistema | ONG internacional de desarrollo humanitario con programas en El Salvador. |
+| Dirección | PENDIENTE |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+ONG internacional de desarrollo humanitario con programas en El Salvador.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Sitio web — https://www.crs.org
+- Rol en el ecosistema — https://www.crs.org
+- LinkedIn (enlace público) — https://www.linkedin.com/company/catholic-relief-services

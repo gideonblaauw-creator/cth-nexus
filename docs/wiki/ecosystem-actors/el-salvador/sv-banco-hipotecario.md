@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: El Salvador
 ---
 
+
+
 # Banco Hipotecario
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,16 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://www.bancohipotecario.com.sv |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/banco-hipotecario-de-el-salvador |
 | Rol en el ecosistema | Institución financiera |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Banco especializado en créditos hipotecarios y servicios financieros para familias y empresas en El Salvador.
+
+- **Año de fundación:** 1935 — https://www.bancohipotecario.com.sv
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.bancohipotecario.com.sv
+- Sitio institucional — https://www.bancohipotecario.com.sv/
+- Perfil en LinkedIn — https://www.linkedin.com/company/banco-hipotecario-de-el-salvador

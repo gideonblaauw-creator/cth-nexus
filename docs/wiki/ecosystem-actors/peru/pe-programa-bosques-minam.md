@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Programa Bosques (MINAM)
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -19,16 +21,18 @@ tag_country: Peru
 | Categoría | government |
 | Tipo | org |
 | País | Peru |
-| Ciudad | PENDIENTE |
+| Ciudad | Lima |
 | Sitio web | https://www.gob.pe/bosques |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Actor público / regulador |
-| Desafíos (códigos) | PENDIENTE |
+| Rol en el ecosistema | Programa nacional de conservación de bosques (MINAM) |
+| Desafíos (códigos) | BOS |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+El Programa Bosques del MINAM impulsa la conservación, restauración y uso sostenible de bosques en el Perú, incluyendo incentivos y gestión de recursos forestales.
+
+**Año de fundación:** PENDIENTE
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,5 @@ PENDIENTE
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.gob.pe/bosques
+- Programa Nacional de Conservación de Bosques (MINAM) — https://www.gob.pe/bosques

@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Colaborativo VC
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -22,13 +24,15 @@ tag_country: Peru
 | Ciudad | Lima |
 | Sitio web | https://colaborativo.vc/ |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| Rol en el ecosistema | Fondo o plataforma de capital de riesgo con foco en emprendimiento de impacto en Perú. |
+| Dirección | PENDIENTE |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Colaborativo VC aparece en el mapa de actores del ecosistema peruano como actor de inversión; sitio oficial en colaborativo.vc.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://colaborativo.vc/ — sitio web oficial

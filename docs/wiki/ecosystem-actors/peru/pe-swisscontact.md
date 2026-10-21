@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Swisscontact
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,16 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.swisscontact.org/es/donde-trabajamos/peru |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/swisscontact |
 | Rol en el ecosistema | ONG o fundación |
 | Desafíos (códigos) | CIR |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Organización suiza de cooperación al desarrollo con programas en Perú en empleo, economía verde y mercados inclusivos.
+
+- **Ciudad / sede:** Lima — https://www.swisscontact.org/es/donde-trabajamos/peru
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.swisscontact.org/es/donde-trabajamos/peru
+- https://www.linkedin.com/company/swisscontact

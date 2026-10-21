@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Gobierno Regional de Amazonas
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -22,13 +24,22 @@ tag_country: Peru
 | Ciudad | Chachapoyas |
 | Sitio web | https://www.gob.pe/regionamazonas |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Actor público / regulador |
-| Desafíos (códigos) | PENDIENTE |
+| Rol en el ecosistema | Gobierno subnacional amazónico: políticas territoriales, bosques y bionegocios. |
+| Dirección | PENDIENTE |
+| Año de fundación | PENDIENTE |
+| Desafíos (códigos) | BOS |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Gobierno regional que planifica y ejecuta políticas de desarrollo en el departamento de Amazonas, incluida gestión forestal y bionegocios.
+
+| Campo | Valor |
+| --- | --- |
+| Dirección | Chachapoyas, Amazonas, Perú |
+| Año de fundación | PENDIENTE |
+| Áreas de enfoque (taxonomía CT) | BOS |
+| Programas | Ordenamiento territorial; promoción de actividades sostenibles en Amazonas |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +53,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.gob.pe/regionamazonas — portal oficial Gobierno Regional Amazonas
+- https://www.gob.pe/regionamazonas

@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: El Salvador
 ---
 
+
+
 # INVEST – Agencia de Promoción de Inversiones y Exportaciones
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -19,16 +21,18 @@ tag_country: El Salvador
 | Categoría | government |
 | Tipo | org |
 | País | El Salvador |
-| Ciudad | San Salvador |
+| Ciudad | San Salvador; Calle La Reforma y 9ª Calle Poniente, Edificio Torre Futura, Nivel 16, San Salvador |
 | Sitio web | https://investinelsalvador.gob.sv |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Actor público / regulador |
+| LinkedIn | https://www.linkedin.com/company/investinelsalvador |
+| Rol en el ecosistema | Agencia gubernamental de promoción de inversiones y exportaciones. |
+| Dirección | Calle La Reforma y 9ª Calle Poniente, Edificio Torre Futura, Nivel 16, San Salvador |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Investment promotion site scaffolding
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,9 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Sitio web — https://investinelsalvador.gob.sv
+- Rol en el ecosistema — https://investinelsalvador.gob.sv
+- Descripción — https://investinelsalvador.gob.sv
+- LinkedIn (enlace público) — https://www.linkedin.com/company/investinelsalvador
+- Dirección — https://investinelsalvador.gob.sv/contact/
+- INVEST — https://investinelsalvador.gob.sv/

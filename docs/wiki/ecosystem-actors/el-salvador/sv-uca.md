@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: El Salvador
 ---
 
+
+
 # UCA
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,16 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://www.uca.edu.sv |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Universidad o centro de investigación |
+| LinkedIn | https://www.linkedin.com/school/universidad-centroamericana-jos--sime-n-ca-as |
+| Rol en el ecosistema | Universidad centroamericana privada (investigación, formación y extensión). |
+| Dirección | PENDIENTE |
+| Año de fundación | 1965 |
 | Desafíos (códigos) | AGR, BOS |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Universidad para el cambio social, educación superior, calidad educativa, universidad jesuita
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,10 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Sitio web — https://www.uca.edu.sv
+- Rol en el ecosistema — https://www.uca.edu.sv
+- Descripción — https://www.uca.edu.sv
+- LinkedIn (enlace público) — https://www.linkedin.com/school/universidad-centroamericana-jos--sime-n-ca-as
+- Año de fundación — https://www.uca.edu.sv/nosotros/
+- UCA — https://www.uca.edu.sv/
+- LinkedIn — https://www.linkedin.com/company/universidad-centroamericana-jos%C3%A9-sime%C3%B3n-ca%C3%B1as

@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: El Salvador
 ---
 
+
+
 # Banco Agrícola
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,16 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://www.bancoagricola.com |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/bancoagricola |
 | Rol en el ecosistema | Institución financiera |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Banco universal líder en El Salvador con amplia red de agencias y servicios para personas y empresas.
+
+- **Año de fundación:** 1955 — https://www.bancoagricola.com
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.bancoagricola.com
+- Banco Agrícola — https://www.bancoagricola.com/
+- LinkedIn — https://www.linkedin.com/company/bancoagricola

@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Incubadoras UNTRM y UNIFSLB (Amazonas)
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -19,16 +21,18 @@ tag_country: Peru
 | Categoría | accelerator |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | Rodríguez de Mendoza / Chachapoyas, Amazonas |
 | Sitio web | https://incubadora.untrm.edu.pe |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
+| Rol en el ecosistema | Incubadoras universitarias en Amazonas (UNTRM, UNIFSLB) |
 | Desafíos (códigos) | AGR, BOS |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Las incubadoras de la Universidad Nacional Toribio Rodríguez de Mendoza (UNTRM) y la Universidad Nacional Intercultural Fabiola Salazar Leguía de Bagua (UNIFSLB) fortalecen emprendimientos en la región Amazonas.
+
+**Año de fundación:** PENDIENTE
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://incubadora.untrm.edu.pe

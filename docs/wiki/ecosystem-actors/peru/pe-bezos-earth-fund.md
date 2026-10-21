@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Bezos Earth Fund
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,15 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.bezosearthfund.org |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/bezos-earth-fund |
 | Rol en el ecosistema | Financiador e inversionista |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | BOS |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+The Bezos Earth Fund is a $10bn commitment to protect and restore the natural world through innovative projects across the planet.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +45,7 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.bezosearthfund.org
+- https://www.linkedin.com/company/bezos-earth-fund
+- Compromiso y enfoque del fondo — https://www.bezosearthfund.org/
+- Perfil en LinkedIn — https://www.linkedin.com/company/bezos-earth-fund

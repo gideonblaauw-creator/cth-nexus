@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Universidad Peruana Cayetano Heredia
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -28,7 +30,7 @@ tag_country: Peru
 
 ## Rol y alcance
 
-PENDIENTE
+Universidad privada líder en ciencias de la salud, investigación y programas de posgrado en el Perú.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://cayetano.edu.pe

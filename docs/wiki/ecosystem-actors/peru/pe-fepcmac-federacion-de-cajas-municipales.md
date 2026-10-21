@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # FEPCMAC – Federación de Cajas Municipales
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,23 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Tacabamba |
 | Sitio web | https://www.fpcmac.org.pe |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Institución financiera |
+| LinkedIn | https://www.linkedin.com/company/fepcmac |
+| Rol en el ecosistema | Federación de cajas municipales de ahorro y crédito; articulación para finanzas verdes. |
+| Dirección | PENDIENTE |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | BOS |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Federación que agrupa cajas municipales de ahorro y crédito del Perú con servicios financieros en zonas rurales.
+
+| Campo | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | Tacabamba, Cajamarca, Perú |
+| Enfoque (taxonomía CT) | Finanzas rurales, inclusión financiera, desarrollo territorial (BOS) |
+| Programas | Articulación y fortalecimiento de cajas municipales y productos de crédito para comunidades. |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +53,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.fpcmac.org.pe — portal FEPCMAC
+- Sitio institucional FEPCMAC — https://www.fpcmac.org.pe/
+- Perfil en LinkedIn — https://www.linkedin.com/company/fepcmac

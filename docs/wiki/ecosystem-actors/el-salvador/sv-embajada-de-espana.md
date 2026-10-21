@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: El Salvador
 ---
 
+
+
 # Embajada de España
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -19,16 +21,18 @@ tag_country: El Salvador
 | Categoría | international |
 | Tipo | org |
 | País | El Salvador |
-| Ciudad | San Salvador |
-| Sitio web | PENDIENTE |
+| Ciudad | San Salvador; Calle La Reforma y 9ª Calle Poniente, Colonia San Benito, San Salvador |
+| Sitio web | https://www.exteriores.gob.es/Embajadas/sansalvador/es/Paginas/index.aspx |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Organización internacional o cooperación |
+| Rol en el ecosistema | Representación diplomática de España en El Salvador. |
+| Dirección | Calle La Reforma y 9ª Calle Poniente, Colonia San Benito, San Salvador |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+La Embajada de España en San Salvador es la misión diplomática del Reino de España ante la República de El Salvador.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,8 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Sitio web — https://www.exteriores.gob.es/Embajadas/sansalvador/es/Paginas/index.aspx
+- Rol en el ecosistema — https://www.exteriores.gob.es/Embajadas/sansalvador/es/Paginas/index.aspx
+- Descripción — https://www.exteriores.gob.es/Embajadas/sansalvador/es/Paginas/index.aspx
+- Dirección — https://www.exteriores.gob.es/Embajadas/sansalvador/es/Paginas/index.aspx
+- https://www.exteriores.gob.es/Embajadas/sansalvador/es/Paginas/inicio.aspx

@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: El Salvador
 ---
 
+
+
 # Banco Atlántida
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,21 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://www.bancoatlantida.com.sv |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/banco-atlantida-el-salvador/ |
 | Rol en el ecosistema | Institución financiera |
-| Desafíos (códigos) | PENDIENTE |
+| Desafíos (códigos) | FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Banco comercial con operación en El Salvador que ofrece banca de personas, empresas y PYMES.
+
+| Campo | Valor |
+| --- | --- |
+| Dirección | San Salvador, El Salvador |
+| Año de fundación | PENDIENTE |
+| Áreas de enfoque (taxonomía CT) | FIN |
+| Programas | Productos financieros y banca corporativa |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +51,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.bancoatlantida.com.sv
+- https://www.linkedin.com/company/banco-atlantida-el-salvador/

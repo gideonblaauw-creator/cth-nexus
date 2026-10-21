@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: El Salvador
 ---
 
+
+
 # Canal 21
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -22,13 +24,15 @@ tag_country: El Salvador
 | Ciudad | San Salvador |
 | Sitio web | https://www.canal21.com.sv |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Medios y difusión |
+| Rol en el ecosistema | Canal de televisión salvadoreño de noticias y programación general. |
+| Dirección | PENDIENTE |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Canal de televisión salvadoreño de noticias y programación general.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Sitio web — https://www.canal21.com.sv
+- Rol en el ecosistema — https://www.canal21.com.sv

@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Cámara de Comercio Canadá Perú
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -19,16 +21,17 @@ tag_country: Peru
 | Categoría | chamber |
 | Tipo | org |
 | País | Peru |
-| Ciudad | PENDIENTE |
+| Ciudad | Lima |
 | Sitio web | https://www.canadaperu.org |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Cámara o gremio |
+| LinkedIn | https://www.linkedin.com/company/c%C3%A1mara-de-comercio-canad%C3%A1-per%C3%BA |
+| Rol en el ecosistema | Cámara bilateral Canadá–Perú. |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+La Cámara de Comercio Canadá–Perú promueve relaciones comerciales, educativas y culturales entre Canadá y el Perú.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +45,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.canadaperu.org
+- https://www.linkedin.com/company/c%C3%A1mara-de-comercio-canad%C3%A1-per%C3%BA
+- https://www.canadaperu.org/

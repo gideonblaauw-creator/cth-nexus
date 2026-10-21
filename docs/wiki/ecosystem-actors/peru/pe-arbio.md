@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Arbio
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,15 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Las Piedras |
 | Sitio web | https://www.arbioperu.org |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/asociaci%C3%B3n-arbio-amazonia |
 | Rol en el ecosistema | ONG o fundación |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | BOS |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Nos enfocamos en la conservación del bosque amazónico de Madre de Dios y ofrecemos servicios para los que deseen sumarse a la conservación.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +45,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.arbioperu.org
+- https://www.linkedin.com/company/asociaci%C3%B3n-arbio-amazonia

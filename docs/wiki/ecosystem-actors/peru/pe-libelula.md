@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Libélula
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,21 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Arequipa |
 | Sitio web | https://libelula.com.pe |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
-| Desafíos (códigos) | FIN |
+| LinkedIn | https://www.linkedin.com/company/lib%C3%A9lula |
+| Rol en el ecosistema | Consultoría y acción climática empresarial |
+| Desafíos (códigos) | ENE, CIU |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Consultora peruana de sostenibilidad, cambio climático y estrategias ESG con más de 19 años de trayectoria.
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | PENDIENTE |
+| Áreas de enfoque (CT) | ENE, CIU |
+| Programas | Asesoría en descarbonización, reportes ESG y políticas climáticas |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +51,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://libelula.com.pe
+- https://libelula.com.pe/
+- https://www.linkedin.com/company/lib%C3%A9lula

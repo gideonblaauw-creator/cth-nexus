@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # PRODUCE – Ministerio de la Producción
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -19,16 +21,23 @@ tag_country: Peru
 | Categoría | government |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | Breña, Lima |
 | Sitio web | https://www.gob.pe/produce |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Actor público / regulador |
+| LinkedIn | https://www.linkedin.com/company/ministerio-de-la-produccion/ |
+| Rol en el ecosistema | Ministerio de pesca, acuicultura e industrias |
 | Desafíos (códigos) | AZU, CIR, FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Ministerio de la Producción: rector de mipymes, industria, pesca y acuicultura; canaliza programas de innovación como ProInnóvate.
+
+| Campo | Valor |
+| --- | --- |
+| Dirección | Calle Uno Oeste N° 50, Urb. Córpac, Lima |
+| Año de fundación | PENDIENTE |
+| Áreas de enfoque (taxonomía CT) | AZU, CIR, FIN |
+| Programas | ProInnóvate; FCEI; economía circular |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +51,4 @@ PENDIENTE
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.gob.pe/produce

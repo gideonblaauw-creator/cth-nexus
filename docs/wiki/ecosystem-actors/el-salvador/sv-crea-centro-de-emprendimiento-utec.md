@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: El Salvador
 ---
 
+
+
 # CREA – Centro de Emprendimiento UTEC
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -20,15 +22,17 @@ tag_country: El Salvador
 | Tipo | org |
 | País | El Salvador |
 | Ciudad | San Salvador |
-| Sitio web | https://www.utec.edu.sv |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
+| Sitio web | https://www.utec.edu.sv/crea |
+| LinkedIn | https://www.linkedin.com/school/universidad-tecnol%C3%B3gica-de-el-salvador/ |
+| Rol en el ecosistema | Centro de emprendimiento de UTEC: incubación, mentoría y vinculación con el ecosistema. |
+| Dirección | PENDIENTE |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Centro de emprendimiento de UTEC: incubación, mentoría y vinculación con el ecosistema.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Sitio web — https://www.utec.edu.sv/crea
+- Rol en el ecosistema — https://www.utec.edu.sv/crea
+- Universidad Tecnológica de El Salvador — https://www.utec.edu.sv/

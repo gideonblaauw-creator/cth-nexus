@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # UNAMAD – Universidad Nacional Amazónica de Madre de Dios
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -19,16 +21,18 @@ tag_country: Peru
 | Categoría | academia |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | Puerto Maldonado |
 | Sitio web | https://portal.unamad.edu.pe |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/universidad-nacional-amaz%C3%B3nica-de-madre-de-dios |
 | Rol en el ecosistema | Universidad o centro de investigación |
 | Desafíos (códigos) | AGR, BOS, CIU |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Universidad pública amazónica con sede en Madre de Dios; formación e investigación para el desarrollo sostenible de la Amazonía.
+
+- **Ciudad / sede:** Puerto Maldonado — https://portal.unamad.edu.pe
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://portal.unamad.edu.pe
+- UNAMAD — https://portal.unamad.edu.pe/

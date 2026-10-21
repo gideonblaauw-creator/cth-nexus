@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # ADEX – Asociación de Exportadores
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -19,16 +21,17 @@ tag_country: Peru
 | Categoría | chamber |
 | Tipo | org |
 | País | Peru |
-| Ciudad | San Borja |
+| Ciudad | Lima (San Borja) |
 | Sitio web | https://www.adexperu.org.pe |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Cámara o gremio |
+| LinkedIn | https://www.linkedin.com/company/asociaci-n-de-exportadores-adex |
+| Rol en el ecosistema | Gremio exportador nacional. |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+La Asociación de Exportadores (ADEX) es el gremio exportador del Perú; promueve comercio exterior, capacitación y servicios para exportadores.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +45,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.adexperu.org.pe
+- https://www.linkedin.com/company/asociaci-n-de-exportadores-adex
+- https://www.adexperu.org.pe/

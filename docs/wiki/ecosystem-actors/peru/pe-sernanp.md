@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # SERNANP
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -28,7 +30,7 @@ tag_country: Peru
 
 ## Rol y alcance
 
-PENDIENTE
+Servicio Nacional de Áreas Naturales Protegidas por el Estado; administra el SINANPE y la conservación del patrimonio natural del Perú.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.gob.pe/sernanp

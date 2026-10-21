@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # https://latinamerica.hss.de
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -19,16 +21,18 @@ tag_country: Peru
 | Categoría | corporate |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | Fráncfort del Meno, Alemania (sede fundación) |
 | Sitio web | https://latinamerica.hss.de |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| Rol en el ecosistema | Fundación alemana con programas en América Latina. |
+| Dirección | PENDIENTE |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AGU, BOS |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+El sitio latinamerica.hss.de documenta el trabajo de la fundación Heinrich Schmid en la región latinoamericana.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://latinamerica.hss.de — portal regional HSS
+- https://latinamerica.hss.de

@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Caja Arequipa
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,15 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.cajaarequipa.pe |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/caja-arequipa |
 | Rol en el ecosistema | Institución financiera |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AGR, BOS, FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+En Caja Arequipa puedes obtener Créditos, Ahorros, Seguros y Simulaciones de Préstamos. Somos la Caja Financiera del Perú preferida. ¡Conoce más!
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +45,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.cajaarequipa.pe
+- https://www.linkedin.com/company/caja-arequipa

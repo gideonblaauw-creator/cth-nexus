@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: El Salvador
 ---
 
+
+
 # Grupo Agrisal
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,16 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://agrisal.com |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| LinkedIn | https://www.linkedin.com/company/grupo-agrisal |
+| Rol en el ecosistema | Grupo empresarial diversificado (inmobiliario, hotelero, agroindustrial). |
+| Dirección | PENDIENTE |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Agrisal celebra 120 años de historia, impulsando comunidades prósperas y sostenibles a través de proyectos innovadores en los sectores inmobiliario, hotele
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,7 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Sitio web — https://agrisal.com
+- Rol en el ecosistema — https://agrisal.com
+- Descripción — https://agrisal.com
+- Grupo Agrisal — https://agrisal.com/

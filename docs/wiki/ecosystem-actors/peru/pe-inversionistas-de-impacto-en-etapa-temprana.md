@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Inversionistas de impacto en etapa temprana
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -22,13 +24,18 @@ tag_country: Peru
 | Ciudad | Lima |
 | Sitio web | https://www.mercycorps.org.co/ |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| Rol en el ecosistema | Segmento de inversionistas de impacto (etapa temprana) |
 | Desafíos (códigos) | ENE, FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Categoría del mapa de actores que agrupa inversionistas de capital de impacto en etapa temprana que operan o invierten en el Perú (redes, fondos y ángeles).
+
+- **Año de fundación:** PENDIENTE
+- **Dirección:** PENDIENTE
+- **Áreas de enfoque (taxonomía CT):** ENE, FIN
+- **Programas:** PENDIENTE (segmento del ecosistema; sin programa único)
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Mercy Corps (referencia en mapa) — https://www.mercycorps.org/

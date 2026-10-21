@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Actualidad Ambiental
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,15 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.actualidadambiental.pe |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Medios y difusión |
+| LinkedIn | https://www.linkedin.com/company/actualidad-ambiental |
+| Rol en el ecosistema | Medio de comunicación ambiental. |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Actualidad Ambiental es un medio digital peruano de noticias y análisis sobre medio ambiente, conservación y políticas ambientales.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +45,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.actualidadambiental.pe
+- https://www.actualidadambiental.pe/
+- https://www.linkedin.com/company/actualidad-ambiental

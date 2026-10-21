@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Inforegión, Red de Medios Regionales
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -22,13 +24,15 @@ tag_country: Peru
 | Ciudad | Lima |
 | Sitio web | https://inforegion.pe |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| Rol en el ecosistema | Medio digital y red de información regional |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Inforegión es un portal de noticias y análisis sobre desarrollo regional en el Perú, difundiendo información sobre políticas, economía y emprendimiento en departamentos del interior.
+
+**Año de fundación:** PENDIENTE
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://inforegion.pe
+- Portal de noticias regionales — https://inforegion.pe

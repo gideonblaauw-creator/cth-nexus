@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # FAO
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -19,16 +21,25 @@ tag_country: Peru
 | Categoría | international |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Miraflores |
-| Sitio web | https://www.fao.org |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Organización internacional o cooperación |
-| Desafíos (códigos) | PENDIENTE |
+| Ciudad | Lima |
+| Sitio web | https://www.fao.org/americas/paises/peru/es |
+| LinkedIn | https://www.linkedin.com/company/fao/ |
+| Rol en el ecosistema | Agencia especializada de la ONU para alimentación, agricultura y seguridad alimentaria en Perú. |
+| Dirección | PENDIENTE |
+| Año de fundación | 1945 |
+| Desafíos (códigos) | AGR |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Oficina de la Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO) en el Perú.
+
+| Campo | Valor |
+| --- | --- |
+| Dirección | Av. Javier Prado Oeste 790, San Isidro, Lima |
+| Año de fundación | 1945 (FAO) |
+| Áreas de enfoque (taxonomía CT) | AGR |
+| Programas | Seguridad alimentaria; agricultura sostenible; adaptación climática rural |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +53,7 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.fao.org — Organización de las Naciones Unidas para la Alimentación y la Agricultura
+- https://www.fao.org/americas/paises/peru/es/ — FAO en Perú
+- https://www.fao.org/americas/paises/peru/es
+- https://www.linkedin.com/company/fao/

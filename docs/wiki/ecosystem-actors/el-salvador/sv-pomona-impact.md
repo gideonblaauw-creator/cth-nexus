@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: El Salvador
 ---
 
+
+
 # Pomona Impact
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,16 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://pomonaimpact.com |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Financiador e inversionista |
-| Desafíos (códigos) | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/pomona-impact |
+| Rol en el ecosistema | Fondo de impacto que invierte en empresas con retorno social y ambiental en Centroamérica. |
+| Dirección | PENDIENTE |
+| Año de fundación | PENDIENTE |
+| Desafíos (códigos) | FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Fondo de impacto que invierte en empresas con retorno social y ambiental en Centroamérica.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,8 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Sitio web — https://pomonaimpact.com
+- Rol en el ecosistema — https://pomonaimpact.com
+- LinkedIn (enlace público) — https://www.linkedin.com/company/pomona-impact
+- https://pomonaimpact.com
+- https://www.linkedin.com/company/pomona-impact/

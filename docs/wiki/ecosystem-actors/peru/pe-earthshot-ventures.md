@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Earthshot Ventures
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -20,15 +22,17 @@ tag_country: Peru
 | Tipo | org |
 | País | Peru |
 | Ciudad | Lima |
-| Sitio web | https://www.earthshot.vc// |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| Sitio web | https://www.earthshot.vc |
+| LinkedIn | https://www.linkedin.com/company/earthshot-ventures |
+| Rol en el ecosistema | Fondo de venture capital orientado a fundadores y soluciones climáticas de alto impacto. |
+| Dirección | PENDIENTE |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Earthshot Ventures invierte en fundadores excepcionales y empresas con potencial de impacto ambiental y climático.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.earthshot.vc — sitio del fondo
+- https://www.linkedin.com/company/earthshot-ventures — perfil LinkedIn

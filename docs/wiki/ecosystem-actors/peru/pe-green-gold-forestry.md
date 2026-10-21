@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Green Gold Forestry
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -20,15 +22,24 @@ tag_country: Peru
 | Tipo | org |
 | País | Peru |
 | Ciudad | Lima |
-| Sitio web | https://www.ggfgroup.pe/en/contact-us/ |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
-| Desafíos (códigos) | PENDIENTE |
+| Sitio web | https://www.ggfgroup.pe/ |
+| LinkedIn | https://www.linkedin.com/company/green-gold-forestry/ |
+| Rol en el ecosistema | Empresa forestal y de restauración con operaciones en el Perú. |
+| Dirección | PENDIENTE |
+| Año de fundación | PENDIENTE |
+| Desafíos (códigos) | BOS |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Empresa forestal peruana enfocada en manejo sostenible de bosques y cadena de valor maderera con certificación.
+
+| Campo | Valor |
+| --- | --- |
+| Dirección | Lima, Perú |
+| Año de fundación | PENDIENTE |
+| Áreas de enfoque (taxonomía CT) | BOS |
+| Programas | Plantaciones y manejo forestal sostenible |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +53,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.ggfgroup.pe — sitio corporativo
+- https://www.linkedin.com/company/green-gold-forestry/

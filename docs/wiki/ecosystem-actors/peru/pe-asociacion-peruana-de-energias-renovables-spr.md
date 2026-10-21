@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Asociación Peruana de Energías Renovables (SPR)
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,15 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.spr.pe |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Cámara o gremio |
+| LinkedIn | https://www.linkedin.com/company/asociaci%C3%B3n-peruana-de-energ%C3%ADas-renovables |
+| Rol en el ecosistema | Gremio de energías renovables. |
+| Año de fundación | 2017 |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+La Asociación Peruana de Energías Renovables (SPR) agrupa empresas y organizaciones que promueven el desarrollo de energías renovables en el Perú.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +45,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.spr.pe/
+- https://www.linkedin.com/company/asociaci%C3%B3n-peruana-de-energ%C3%ADas-renovables

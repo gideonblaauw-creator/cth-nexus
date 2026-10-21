@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # MIDAGRI – Ministerio de Desarrollo Agrario y Riego
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -22,13 +24,15 @@ tag_country: Peru
 | Ciudad | Lima |
 | Sitio web | https://www.gob.pe/midagri |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Actor público / regulador |
+| Rol en el ecosistema | Ministerio de agricultura, desarrollo rural y riego |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+El Ministerio de Desarrollo Agrario y Riego (MIDAGRI) diseña políticas para el sector agropecuario, seguridad alimentaria, riego y desarrollo rural sostenible en el Perú.
+
+**Año de fundación:** PENDIENTE
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,4 @@ PENDIENTE
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.gob.pe/midagri

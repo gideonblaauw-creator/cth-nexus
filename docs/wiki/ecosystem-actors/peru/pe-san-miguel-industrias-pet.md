@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # San Miguel Industrias PET
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,14 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://smisolutions.com |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/smipackaging |
 | Rol en el ecosistema | Empresa / sector privado |
 | Desafíos (códigos) | CIR |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Empresa industrial del grupo San Miguel que fabrica envases y soluciones en PET para alimentos y bebidas.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://smisolutions.com

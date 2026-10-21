@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # UNALM – Universidad Nacional Agraria La Molina
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -19,7 +21,7 @@ tag_country: Peru
 | Categoría | academia |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | La Molina |
 | Sitio web | https://www.lamolina.edu.pe |
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Universidad o centro de investigación |
@@ -28,7 +30,11 @@ tag_country: Peru
 
 ## Rol y alcance
 
-PENDIENTE
+Universidad pública nacional especializada en agronomía, recursos naturales, ingeniería agroindustrial y ciencias ambientales.
+
+- **Año de fundación:** 1902 — https://www.lamolina.edu.pe
+
+- **Ciudad / sede:** La Molina — https://www.lamolina.edu.pe
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +48,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.lamolina.edu.pe

@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Incubadoras UNAP y UNAAA (Loreto)
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -19,16 +21,18 @@ tag_country: Peru
 | Categoría | accelerator |
 | Tipo | org |
 | País | Peru |
-| Ciudad | PENDIENTE |
-| Sitio web | https://www.facebook.com/p/Incubadora-UNAP-61582114461434/ |
+| Ciudad | Iquitos, Loreto |
+| Sitio web | https://www.unap.edu.pe/ |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
+| Rol en el ecosistema | Incubadoras universitarias en Loreto (UNAP, UNAAA) |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | [nexus.cleantechhub.net/s/planta-comunitaria-wpc](https://nexus.cleantechhub.net/s/planta-comunitaria-wpc) |
 
 ## Rol y alcance
 
-PENDIENTE
+Las incubadoras de la Universidad Nacional de la Amazonía Peruana (UNAP) y la Universidad Nacional Amazónica de Madre de Dios (UNAAA) en la región Loreto acompañan emprendimientos amazónicos vinculados a la investigación universitaria.
+
+**Año de fundación:** PENDIENTE
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.unap.edu.pe/

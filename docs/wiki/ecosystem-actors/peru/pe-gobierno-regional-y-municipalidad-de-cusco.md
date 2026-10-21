@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Gobierno Regional y Municipalidad de Cusco
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -19,16 +21,18 @@ tag_country: Peru
 | Categoría | government |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | Cusco |
 | Sitio web | https://www.gob.pe/regioncusco |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Actor público / regulador |
+| Rol en el ecosistema | Gobierno regional de Cusco y articulación con municipalidades en desarrollo territorial. |
+| Dirección | PENDIENTE |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AGR, BOS |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+El Gobierno Regional de Cusco es la autoridad subnacional de la región Cusco en la plataforma del Estado peruano.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.gob.pe/regioncusco — portal Gobierno Regional Cusco

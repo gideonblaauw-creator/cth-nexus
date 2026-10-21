@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Fundación Wiese
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,16 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.fundacionwiese.org |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | ONG o fundación |
+| LinkedIn | https://www.linkedin.com/company/fundacionwiese |
+| Rol en el ecosistema | Fundación peruana de educación, patrimonio y emprendimiento con impacto comunitario. |
+| Dirección | PENDIENTE |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Fundación Wiese impulsa proyectos de educación, emprendimiento y desarrollo sostenible que generan oportunidades en comunidades del Perú.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.fundacionwiese.org — sitio institucional
+- https://www.linkedin.com/company/fundacionwiese — perfil LinkedIn

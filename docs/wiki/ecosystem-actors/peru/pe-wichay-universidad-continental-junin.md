@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Wichay – Universidad Continental (Junín)
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -19,7 +21,7 @@ tag_country: Peru
 | Categoría | accelerator |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Junín |
+| Ciudad | Huancayo |
 | Sitio web | https://wichay.pe |
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
@@ -28,7 +30,9 @@ tag_country: Peru
 
 ## Rol y alcance
 
-PENDIENTE
+Hub de emprendimiento e innovación de la Universidad Continental en Junín: incubadora, eventos y servicios para startups.
+
+- **Ciudad / sede:** Huancayo — https://wichay.pe
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://wichay.pe

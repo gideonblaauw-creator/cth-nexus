@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Revista Ganamás
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -19,8 +21,8 @@ tag_country: Peru
 | Categoría | corporate |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
-| Sitio web | https://ganamas.com.pe |
+| Ciudad | La Victoria |
+| Sitio web | https://revistaganamas.com.pe/ |
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Empresa / sector privado |
 | Desafíos (códigos) | PENDIENTE |
@@ -28,7 +30,11 @@ tag_country: Peru
 
 ## Rol y alcance
 
-PENDIENTE
+Portal y revista digital peruana orientada a emprendedores, PYMES y startups, con cobertura de economía, innovación, agro y finanzas.
+
+- **Año de fundación:** 2012 — https://revistaganamas.com.pe/quienes-somos/
+
+- **Ciudad / sede:** La Victoria — https://revistaganamas.com.pe/quienes-somos/
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +48,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://revistaganamas.com.pe/quienes-somos/

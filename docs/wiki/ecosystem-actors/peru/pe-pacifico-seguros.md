@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Pacífico Seguros
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -19,16 +21,18 @@ tag_country: Peru
 | Categoría | finance |
 | Tipo | org |
 | País | Peru |
-| Ciudad | San Isidro |
+| Ciudad | Lima (San Isidro) |
 | Sitio web | https://www.pacifico.com.pe |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Institución financiera |
+| Rol en el ecosistema | Aseguradora y servicios financieros |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Pacífico Seguros es una de las principales aseguradoras del Perú, parte del Grupo Credicorp; ofrece seguros generales, vida y soluciones para empresas y personas.
+
+**Año de fundación:** PENDIENTE
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.pacifico.com.pe

@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # AmCham Perú
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -19,16 +21,17 @@ tag_country: Peru
 | Categoría | chamber |
 | Tipo | org |
 | País | Peru |
-| Ciudad | San Isidro |
+| Ciudad | Lima (San Isidro) |
 | Sitio web | https://www.amcham.org.pe |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Cámara o gremio |
+| LinkedIn | https://www.linkedin.com/company/amchamperu |
+| Rol en el ecosistema | Cámara bilateral Perú–Estados Unidos. |
+| Año de fundación | 1960 |
 | Desafíos (códigos) | AGU, FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+La Cámara de Comercio Americana del Perú (AmCham) promueve inversiones, comercio y vínculos empresariales entre Perú y Estados Unidos.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +45,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.amcham.org.pe
+- https://www.linkedin.com/company/amchamperu
+- https://www.amcham.org.pe/

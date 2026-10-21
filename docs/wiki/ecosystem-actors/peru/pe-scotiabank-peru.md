@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Scotiabank Perú
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,21 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.scotiabank.com.pe |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://pe.linkedin.com/company/scotiabank-per%C3%BA |
 | Rol en el ecosistema | Institución financiera |
-| Desafíos (códigos) | PENDIENTE |
+| Desafíos (códigos) | FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Scotiabank Perú: banco comercial con operaciones de crédito, banca de personas y empresas en el país.
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | PENDIENTE |
+| Áreas de enfoque (CT) | FIN |
+| Programas | Crédito, banca corporativa y soluciones de sostenibilidad financiera |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +51,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.scotiabank.com.pe
+- https://www.scotiabank.com.pe/
+- https://pe.linkedin.com/company/scotiabank-per%C3%BA

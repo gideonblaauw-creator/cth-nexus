@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Anglo American
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,15 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Ilo |
 | Sitio web | https://www.angloamerican.com |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/anglo-american |
 | Rol en el ecosistema | Empresa / sector privado |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AZU, BOS |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Anglo American is a leading global mining company focused on the responsible production of copper, premium iron ore and crop nutrients.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +45,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.angloamerican.com
+- https://www.linkedin.com/company/anglo-american
+- https://www.angloamerican.com/

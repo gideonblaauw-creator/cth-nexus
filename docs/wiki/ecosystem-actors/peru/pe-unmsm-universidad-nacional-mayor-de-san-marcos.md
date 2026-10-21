@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # UNMSM – Universidad Nacional Mayor de San Marcos
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,18 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.unmsm.edu.pe |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/universidad-nacional-mayor-de-san-marcos |
 | Rol en el ecosistema | Universidad o centro de investigación |
 | Desafíos (códigos) | CIU, ENE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Universidad pública más antigua del Perú y de América; formación, investigación y extensión en múltiples disciplinas.
+
+- **Año de fundación:** 1551 — https://www.unmsm.edu.pe
+
+- **Ciudad / sede:** Lima — https://www.unmsm.edu.pe
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +48,7 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.unmsm.edu.pe
+- UNMSM — https://www.unmsm.edu.pe/
+- 1551 — https://1551.unmsm.edu.pe/
+- LinkedIn UNMSM — https://www.linkedin.com/company/universidad-nacional-mayor-de-san-marcos

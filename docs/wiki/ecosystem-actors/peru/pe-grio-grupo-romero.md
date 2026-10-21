@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # GRIO (Grupo Romero)
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -19,16 +21,25 @@ tag_country: Peru
 | Categoría | funder |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Villa María del Triunfo |
+| Ciudad | Lima |
 | Sitio web | https://www.gruporomero.com.pe |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Financiador e inversionista |
-| Desafíos (códigos) | AGR, BOS |
+| LinkedIn | https://www.linkedin.com/company/grupo-romero |
+| Rol en el ecosistema | Holding empresarial peruano (Grupo Romero) con diversas líneas de negocio. |
+| Dirección | PENDIENTE |
+| Año de fundación | PENDIENTE |
+| Desafíos (códigos) | FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+GRIO es el brazo de inversiones del Grupo Romero en Perú, con participaciones en sectores financieros, logísticos y de consumo.
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | PENDIENTE |
+| Áreas de enfoque (CT) | FIN |
+| Programas | Inversiones estratégicas y gestión de participaciones del Grupo Romero |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +53,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.gruporomero.com.pe — portal corporativo
+- https://www.gruporomero.com.pe/
+- https://www.linkedin.com/company/grupo-romero

@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: El Salvador
 ---
 
+
+
 # BCIE – Programa Regional de Capital Semilla
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,16 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://www.bcie.org |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Organización internacional o cooperación |
+| LinkedIn | https://www.linkedin.com/company/bcie |
+| Rol en el ecosistema | BCIE financia desarrollo regional; el programa de capital semilla apoya emprendimiento e innovación en la región. |
+| Dirección | PENDIENTE |
+| Año de fundación | 1960 |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+BCIE financia desarrollo regional; el programa de capital semilla apoya emprendimiento e innovación en la región.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,7 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Sitio web — https://www.bcie.org
+- Rol en el ecosistema — https://www.bcie.org
+- LinkedIn (enlace público) — https://www.linkedin.com/company/bcie
+- Año de fundación — https://www.bcie.org/quienes-somos

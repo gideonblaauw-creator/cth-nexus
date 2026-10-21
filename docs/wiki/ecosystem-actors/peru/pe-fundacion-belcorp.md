@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Fundación Belcorp
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -22,13 +24,15 @@ tag_country: Peru
 | Ciudad | Lima |
 | Sitio web | https://www.belcorp.com/fundacionbelcorp |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | ONG o fundación |
+| Rol en el ecosistema | Filantropía corporativa de Belcorp enfocada en empoderamiento femenino y sostenibilidad. |
+| Dirección | PENDIENTE |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AZU, BOS |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Fundación Belcorp desarrolla programas de empoderamiento femenino, sostenibilidad e impacto social en América Latina.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.belcorp.com/fundacionbelcorp — portal Fundación Belcorp
+- Misión y programas de la fundación — https://www.belcorp.com/fundacionbelcorp

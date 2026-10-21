@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Fenix Consulting
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -22,13 +24,22 @@ tag_country: Peru
 | Ciudad | Lima |
 | Sitio web | https://www.fenixconsulting.com.pe |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| Rol en el ecosistema | Consultora peruana de negocios y sostenibilidad en el ecosistema empresarial. |
+| Dirección | PENDIENTE |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Consultora peruana (Fenix Consulting) referenciada en el mapa de actores; sitio institucional no verificable con HTTP 200 en el entorno de auditoría (timeout/error).
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | PENDIENTE |
+| Áreas de enfoque (CT) | PENDIENTE |
+| Programas | PENDIENTE |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +53,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Mapa de actores CTH — `static/ecosystem/data/actors.json` (dominio www.fenixconsulting.com.pe)
+- https://www.fenixconsulting.com.pe

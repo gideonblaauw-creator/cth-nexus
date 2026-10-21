@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: El Salvador
 ---
 
+
+
 # CEPAL
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,16 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://www.cepal.org |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Organización internacional o cooperación |
+| LinkedIn | https://www.linkedin.com/company/cepal |
+| Rol en el ecosistema | Comisión Económica para América Latina y el Caribe; cooperación técnica y análisis de políticas. |
+| Dirección | PENDIENTE |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Comisión Económica para América Latina y el Caribe; cooperación técnica y análisis de políticas.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,8 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Sitio web — https://www.cepal.org
+- Rol en el ecosistema — https://www.cepal.org
+- LinkedIn (enlace público) — https://www.linkedin.com/company/cepal
+- https://www.cepal.org
+- https://www.linkedin.com/company/cepal/

@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Colombia
 ---
 
+
+
 # GCF – Green Climate Fund
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -19,16 +21,17 @@ tag_country: Colombia
 | Categoría | international |
 | Tipo | org |
 | País | Colombia |
-| Ciudad | PENDIENTE |
+| Ciudad | Songdo, República de Corea (sede) |
 | Sitio web | https://www.greenclimate.fund |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Organización internacional o cooperación |
+| LinkedIn | https://www.linkedin.com/company/green-climate-fund |
+| Rol en el ecosistema | Fondo climático internacional del marco de la CMNUCC. |
+| Año de fundación | 2010 |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+El Green Climate Fund (GCF) es el fondo climático de la ONU para países en desarrollo, orientado a trayectorias bajas en emisiones y resilientes al clima.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +45,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.greenclimate.fund/
+- https://www.linkedin.com/company/green-climate-fund

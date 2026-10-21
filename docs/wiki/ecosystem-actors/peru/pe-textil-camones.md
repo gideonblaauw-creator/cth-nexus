@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Textil Camones
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -28,7 +30,9 @@ tag_country: Peru
 
 ## Rol y alcance
 
-PENDIENTE
+Empresa textil peruana fabricante de prendas y soluciones para el sector de la moda y confecciones.
+
+- **Ciudad / sede:** Lima — https://www.textilescamones.com
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.textilescamones.com
+- Sitio corporativo — https://www.textilescamones.com/

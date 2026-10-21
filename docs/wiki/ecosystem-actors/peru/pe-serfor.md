@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # SERFOR
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,14 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Jesús María |
 | Sitio web | https://www.gob.pe/serfor |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/servicio-nacional-forestal-y-de-fauna-silvestre |
 | Rol en el ecosistema | Actor público / regulador |
 | Desafíos (códigos) | AGU, ARG |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Servicio Nacional Forestal y de Fauna Silvestre; formula política forestal, otorga títulos y supervisa el manejo forestal y de fauna.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.gob.pe/serfor

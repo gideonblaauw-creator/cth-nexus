@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # INAIGEM
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -19,16 +21,18 @@ tag_country: Peru
 | Categoría | government |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Independencia |
+| Ciudad | Lima (Independencia) |
 | Sitio web | https://www.gob.pe/inaigem |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Actor público / regulador |
+| Rol en el ecosistema | Instituto público de investigación en glaciares y ecosistemas de montaña |
 | Desafíos (códigos) | AGR, ENE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+El Instituto Nacional de Investigación en Glaciares y Ecosistemas de Montaña (INAIGEM) genera conocimiento científico y políticas para la conservación de glaciares y ecosistemas de montaña frente al cambio climático en el Perú.
+
+**Año de fundación:** 2014
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.gob.pe/inaigem

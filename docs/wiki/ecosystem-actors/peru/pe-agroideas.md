@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # AGROIDEAS
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,15 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | San Isidro |
 | Sitio web | https://www.gob.pe/agroideas |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Actor público / regulador |
+| LinkedIn | https://linkedin.com/company/agroideas-del-minagri |
+| Rol en el ecosistema | Programa público de competitividad agraria. |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | BOS |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+AGROIDEAS (Programa de Compensaciones para la Competitividad) es un programa del Ministerio de Desarrollo Agrario y Riego que apoya competitividad agraria mediante compensaciones y proyectos.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +45,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.gob.pe/agroideas
+- https://linkedin.com/company/agroideas-del-minagri
+- Identidad y sede del programa — https://www.gob.pe/agroideas

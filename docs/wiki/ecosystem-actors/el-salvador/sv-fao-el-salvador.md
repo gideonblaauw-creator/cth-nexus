@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: El Salvador
 ---
 
+
+
 # FAO El Salvador
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,16 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://www.fao.org/elsalvador |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Organización internacional o cooperación |
+| LinkedIn | https://www.linkedin.com/company/food-and-agriculture-organization-of-the-united-nations |
+| Rol en el ecosistema | Oficina país de la FAO: seguridad alimentaria y desarrollo agrícola sostenible. |
+| Dirección | PENDIENTE |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AGR, AZU, BOS |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Hogar | FAO in El Salvador| Food and Agriculture Organization of the United Nations
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,7 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Sitio web — https://www.fao.org/elsalvador
+- Rol en el ecosistema — https://www.fao.org/elsalvador
+- Descripción — https://www.fao.org/elsalvador
+- LinkedIn (enlace público) — https://www.linkedin.com/company/food-and-agriculture-organization-of-the-united-nations

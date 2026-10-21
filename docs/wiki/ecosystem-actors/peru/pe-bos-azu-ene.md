@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # BOS AZU ENE
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,22 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://finlandabroad.fi/web/per/embajada |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| LinkedIn | https://www.linkedin.com/company/finnish-embassy-in-peru |
+| Rol en el ecosistema | Empresa / sector privado (verificar identidad en mapa CTH). |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AZU, BOS, ENE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Entrada del mapa que agrupa cooperación finlandesa en Perú (sitio de la Embajada de Finlandia) vinculada a desafíos de bosques (BOS), agua (AZU) y energía (ENE) en el taxón CTH.
+
+| Detalle | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | PENDIENTE |
+| Áreas de enfoque (CT) | BOS, AZU, ENE |
+| Programas | Cooperación bilateral Finlandia–Perú en temas ambientales y energéticos (según canales oficiales de la embajada) |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +52,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://finlandabroad.fi/web/per/embajada

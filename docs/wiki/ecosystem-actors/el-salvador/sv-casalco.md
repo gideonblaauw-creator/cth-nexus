@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: El Salvador
 ---
 
+
+
 # CASALCO
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -22,13 +24,15 @@ tag_country: El Salvador
 | Ciudad | San Salvador |
 | Sitio web | https://casalco.org.sv |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Cámara o gremio |
+| Rol en el ecosistema | Cámara salvadoreña de la industria de aceites comestibles y afines. |
+| Dirección | PENDIENTE |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Cámara salvadoreña de la industria de aceites comestibles y afines.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Sitio web — https://casalco.org.sv
+- Rol en el ecosistema — https://casalco.org.sv

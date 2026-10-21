@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # Compartamos Financiera
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -19,16 +21,18 @@ tag_country: Peru
 | Categoría | finance |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Los Olivos |
+| Ciudad | Los Olivos, Lima |
 | Sitio web | https://www.compartamos.com.pe |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Institución financiera |
+| LinkedIn | https://www.linkedin.com/company/compartamosbancoperu |
+| Rol en el ecosistema | Entidad de microfinanzas que otorga crédito a MYPE y emprendedores, incluido segmento rural. |
+| Dirección | PENDIENTE |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AGR, FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Compartamos Financiera (Compartamos Banco Perú) ofrece productos de microcrédito y servicios financieros a microempresarios y emprendedores en el Perú.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,7 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.compartamos.com.pe — sitio institucional
+- https://www.linkedin.com/company/compartamosbancoperu — perfil LinkedIn
+- Compartamos Financiera — https://www.compartamos.com.pe/
+- LinkedIn — https://www.linkedin.com/company/compartamos-financiera

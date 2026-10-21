@@ -8,6 +8,8 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
+
+
 # A2G | Sostenibilidad y Cambio Climático
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
@@ -21,14 +23,15 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://a2g.pe/ |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | ONG o fundación |
+| LinkedIn | https://www.linkedin.com/company/a2g-sostenibilidad-y-cambio-clim%C3%A1tico |
+| Rol en el ecosistema | Consultoría en sostenibilidad y cambio climático. |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+A2G es una consultora peruana especializada en sostenibilidad, cambio climático y servicios ambientales para empresas y proyectos.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +45,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://a2g.pe/
+- https://www.linkedin.com/company/a2g-sostenibilidad-y-cambio-clim%C3%A1tico
