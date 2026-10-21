@@ -1,0 +1,79 @@
+entity_type,id,name,precision,street_address,city,country,lat,lng,source_url,notes
+portfolio_startup,+compost-menos-basura,+COMPOST MENOS BASURA,address,Carrera 86 #88-43,Bogotá,Colombia,4.7255422,-74.0843318,https://www.mascompost.org/,Same operating company as Más Compost; RUES domicilio Bogotá D.C.
+portfolio_startup,3lupz,3LUPZ,city,,Bogotá,Colombia,,,https://3lupz.com/,HQ city stated on site; no street published
+portfolio_startup,ackadia,ACKADIA,country,,,Colombia,,,https://ackadia.life/,No business street on public site
+portfolio_startup,agrometers,AGROMETERS,city,,Bogotá,Colombia,,,https://agrometers.com/,Contact page lists Bogotá operations; no street
+portfolio_startup,agronielsen,AGRONIELSEN,city,,Cali,Colombia,,,https://www.maqrollmarketing.com/,Smart Agro / Agronielsen; public site lists Cali HQ
+portfolio_startup,agrotech,AGROTECH,unknown,,,Colombia,,,,No public website or registry address verified for CLAC25 cohort entry; no published HQ
+portfolio_startup,agrotrust,AGROTRUST,city,,Santiago,Chile,,,https://agrotrust.cl/,Chile HQ city on website
+portfolio_startup,air-4u,AIR 4U,city,,Bogotá,Colombia,,,https://air4u.co/,Footer references Bogotá; no street
+portfolio_startup,alfe-aseo-sas,ALFE ASEO SAS,address,"Calle 51 #14-43, Barrio Colombia",Barrancabermeja,Colombia,7.0607981,-73.8681157,https://alfeaseo.com/,Contact section on official site
+portfolio_startup,alimenproc-sas,ALIMENPROC SAS,address,Calle 8C #82-14,Bogotá,Colombia,4.6505799,-74.1507737,https://sites.google.com/ambientebogota.gov.co/ecodirectorioempresarial/negocios-verdes/alimentos,Bogotá eco-directorio (official); matches RUES domicilio
+portfolio_startup,apicultores-y-rescatistas,APICULTORES Y RESCATISTAS,city,,Cali,Colombia,,,https://apicultoresyrescatistas.com/,Service area Cali; no business street published
+portfolio_startup,arabidopsis,ARABIDOPSIS,unknown,,,Colombia,,,,No public website or verifiable registry address; no published HQ
+portfolio_startup,arquitectura-moderna-ambiental,ARQUITECTURA MODERNA AMBIENTAL,address,"Calle 13A #100-35, Torre Empresarial Ciudad Jardín, Oficina 801",Cali,Colombia,3.4091829,-76.5332070,https://amaesp.com.co/,Contact page
+portfolio_startup,barakah,BARAKAH,country,,,Colombia,,,https://barakah.com.co/,No HQ street on site
+portfolio_startup,baruk-company,BARUK COMPANY,city,,Bogotá,Colombia,,,https://www.rues.org.co/,Bogotá per accelerator materials; no dedicated public website
+portfolio_startup,basílisco,BASÍLISCO,country,,,Colombia,,,https://basilisco.world/,No HQ street on site
+portfolio_startup,batx-sas,BATX SAS,address,"Calle 30 #55-198, Guayabal",Medellín,Colombia,6.2317268,-75.5800088,https://batx.co/,Contact/footer
+portfolio_startup,bikeu,BIKEU,city,,Cali,Colombia,,,https://bikeu.com.co/,Operations Cali; no street
+portfolio_startup,bilogical-vehículos-eléctricos,BILOGICAL VEHÍCULOS ELÉCTRICOS,city,,Bogotá,Colombia,,,https://biologica.com.co/,Bogotá-focused EV dealer; no published office street
+portfolio_startup,bio-natural-solutions,BIO NATURAL SOLUTIONS,country,,,Colombia,,,https://bionatsolutions.com/,Site JSON-LD lists Lima PE only; portfolio country Colombia — no CO street verified
+portfolio_startup,bio360-jardines-verticales,BIO360 JARDINES VERTICALES,unknown,,,Colombia,,,,No public website or registry address verified; no published HQ
+portfolio_startup,bioambientar,BIOAMBIENTAR,city,,Cali,Colombia,,,https://bioambientar.com/,Cali on contact copy; no street
+portfolio_startup,bioarea,BIOAREA,city,,Medellín,Colombia,,,https://bioarea.co/,Medellín on public site
+portfolio_startup,bioeutectics,BIOEUTECTICS,city,,Bogotá,Colombia,,,https://bioeutectics.com/,Bogotá referenced on site
+portfolio_startup,biofadi,BIOFADI,unknown,,,Colombia,,,,No public website or registry address verified; no published HQ
+portfolio_startup,biofer,BIOFER,unknown,,,Colombia,,,,No public website or registry address verified; no published HQ
+portfolio_startup,biogar,BIOGAR,country,,,Colombia,,,https://biogar.co/,No HQ street on site
+portfolio_startup,biomasa,BIOMASA,unknown,,,Colombia,,,,No public website or registry address verified; no published HQ
+portfolio_startup,biomimesis-colombia,BIOMIMESIS COLOMBIA,city,,Bogotá,Colombia,,,https://biomimicrycolombia.org/,Organization based Bogotá; no street
+portfolio_startup,bloomspal-network,BLOOMSPAL NETWORK,city,,Bogotá,Colombia,,,https://bloomspal.com/,LATAM HQ Bogotá on site
+portfolio_startup,c-neutral-sas,C-NEUTRAL SAS,address,"Calle 94A #13-34, Oficina 105",Bogotá,Colombia,4.6811329,-74.0518923,https://c-neutral.co/,JSON-LD PostalAddress on official site
+portfolio_startup,calojabones,CALOJABONES,city,,La Calera,Colombia,,,https://calojabones.com.co/,La Calera operations; no verified street (ignore template JSON-LD)
+portfolio_startup,carbon-box,CARBON BOX,city,,Bogotá,Colombia,,,https://kimsa.co/,KIMSA / Carbon Box; Bogotá on site
+portfolio_startup,carbonbox,CARBONBOX,city,,Bogotá,Colombia,,,https://carbonbox.app/,Bogotá on product site
+portfolio_startup,carey-leones,CAREY LEONES,country,,,Colombia,,,https://careyleones.com/,No HQ street on site
+portfolio_startup,chispa-acción-social,CHISPA ACCIÓN SOCIAL,city,,Cali,Colombia,,,https://chis.pa/,Cali air-quality network
+portfolio_startup,ciclorgánicos-(bio-abonos-gaia),CICLORGÁNICOS (BIO ABONOS GAIA),address,"Finca Las Tapias, Vereda La Tolva",Caldas,Colombia,,,https://ciclorganicos.com/,JSON-LD PostalAddress (Antioquia); Nominatim no match for rural finca
+portfolio_startup,claudia-osorio-arte-y-vidrio,CLAUDIA OSORIO ARTE Y VIDRIO,unknown,,,Colombia,,,,No public website or registry address verified; no published HQ
+portfolio_startup,colombia-por-naturaleza,COLOMBIA POR NATURALEZA,unknown,,,Colombia,,,,No public website or registry address verified; no published HQ
+portfolio_startup,compost-baladí-sas,COMPOST BALADÍ SAS,unknown,,,Colombia,,,,No public website or registry address verified; no published HQ
+portfolio_startup,compostpack,COMPOSTPACK,city,,Bogotá,Colombia,,,https://compostpack.com/,Bogotá manufacturing; no street
+portfolio_startup,conexa-soluciones,CONEXA SOLUCIONES,unknown,,,Colombia,,,,No public website or registry address verified; no published HQ
+portfolio_startup,coolest-fins,COOLEST FINS,unknown,,,Colombia,,,,No public website or registry address verified; no published HQ
+portfolio_startup,cropexpert,CROPEXPERT,unknown,,,Colombia,,,,No public website or registry address verified; no published HQ
+portfolio_startup,cultivo-global-sas,CULTIVO GLOBAL SAS,unknown,,,Colombia,,,,No public website or registry address verified; no published HQ
+portfolio_startup,deterquin-sas,DETERQUIN SAS,city,,Cali,Colombia,,,https://deterquin.com/,Cali on site
+portfolio_startup,dexon-software-sas-bic,DEXON SOFTWARE SAS BIC,city,,Bogotá,Colombia,,,https://dexonsoftware.com/,Bogotá HQ on site
+portfolio_startup,dinnova,DINNOVA,city,,Bogotá,Colombia,,,https://dinnova.co/,Bogotá on site
+portfolio_startup,diservicol,DISERVICOL,unknown,,,Colombia,,,,No public website or registry address verified; no published HQ
+portfolio_startup,dreem-bio,DREEM BIO,city,,Bogotá,Colombia,,,https://dreembio.com/,Bogotá on site
+portfolio_startup,eco-apps,ECO APPS,city,,Bogotá,Colombia,,,https://ecoapps.com.co/,Uflou / Bogotá
+portfolio_startup,eco-biosis,ECO BIOSIS,country,,,Colombia,,,https://ecobiosis.com/,No street on site
+portfolio_startup,eco-domo,ECO DOMO,city,,Ciudad de México,Mexico,,,https://domoworldaxm.com/,Mexico HQ on site
+portfolio_startup,eco-ideas,ECO IDEAS,country,,,Panama,,,https://ecoideaspa.com/,Panama consultancy; no street
+portfolio_startup,eco-industria-sas,ECO INDUSTRIA SAS,address,"Calle 2 #18-93, Parque Industrial San Jorge, Bodega 8 Int. 1",Mosquera,Colombia,4.7031415,-74.2286912,https://ecoindustriasas.com/,JSON-LD PostalAddress
+portfolio_startup,eco-poop,ECO POOP,city,,Bogotá,Colombia,,,https://ecopoop.co/,Primary city Bogotá (also Medellín/Cali service)
+portfolio_startup,ecobot,ECOBOT,city,,Medellín,Colombia,,,https://ecobot.com.co/,Medellín operations
+portfolio_startup,ecosueños-caquetá,ECOSUEÑOS CAQUETÁ,city,,Florencia,Colombia,,,https://www.rues.org.co/,Caquetá-based initiative; city inferred from program name only
+portfolio_startup,ecovolt-sas,ECOVOLT SAS,country,,,Colombia,,,https://ecovoltco.com.co/,National solar installer; no street
+portfolio_startup,embergy-sas,EMBERGY SAS,city,,Bogotá,Colombia,,,https://www.rues.org.co/,Bogotá metro per program description; no public website
+portfolio_startup,entopro,ENTOPRO,city,Calle 30 #32A-75,Bogotá,Colombia,,,https://entopro.com.co/,Published street on site; Nominatim city-level fallback only
+portfolio_startup,fire-work-wear-sas,FIRE WORK WEAR SAS,city,,Bogotá,Colombia,,,https://fireworkwear.com/,Bogotá on site
+portfolio_startup,fluvia,FLUVIA,city,,Bogotá,Colombia,,,https://fluvia.co/,Bogotá on site
+portfolio_startup,fruitable,FRUITABLE,unknown,,,Colombia,,,,No public website or registry address verified; no published HQ
+portfolio_startup,fundación-planeta-azul-caribe,FUNDACIÓN PLANETA AZUL CARIBE,city,,Cartagena,Colombia,,,https://www.rues.org.co/,Cartagena-based foundation per program description; no public website
+portfolio_startup,galaxy-pack-sas,GALAXY PACK SAS,city,,Bogotá,Colombia,,,https://galaxypack.co/,Bogotá on site
+portfolio_startup,geo-grafismos,GEO GRAFISMOS,country,,,Colombia,,,https://geografismos.co/,No street on site
+portfolio_startup,gescol-sas-bic,GESCOL SAS BIC,city,,Bogotá,Colombia,,,https://gescol.com/,Bogotá on site
+portfolio_startup,gestar-ingeniería-sas,GESTAR INGENIERÍA SAS,unknown,,,Colombia,,,,No public website or registry address verified; no published HQ
+portfolio_startup,glasst-innovation-company,GLASST INNOVATION COMPANY,city,,Bogotá,Colombia,,,https://glasst.co/,Bogotá on site
+portfolio_startup,green-leaf,GREEN LEAF,country,,,Colombia,,,https://greenleafcolombia.com/,Licensed cultivation; no street
+portfolio_startup,green-runners,GREEN RUNNERS,country,,,Colombia,,,https://green-runners.com/,Community platform; no HQ street
+portfolio_startup,greendex,GREENDEX,city,,Querétaro,Mexico,,,https://greendex.earth/,Mexico HQ city on site
+portfolio_startup,griin-energy-sas,GRIIN ENERGY SAS,address,Carrera 47A #91-32,Bogotá,Colombia,4.6350394,-74.0981610,https://griin.com.co/,Contact page
+portfolio_startup,grupo-natural-andino,GRUPO NATURAL ANDINO,city,,Floridablanca,Colombia,,,https://gna.com.co/,Floridablanca on site
+portfolio_startup,grupo-voltem-sas,GRUPO VOLTEM SAS,unknown,,,Colombia,,,,No public website or registry address verified; no published HQ
+portfolio_startup,habitat-a-vibe-company-sas,HABITAT A VIBE COMPANY SAS,city,,Bogotá,Colombia,,,https://habitatmineriaurbana.com.co/,Urban mining Bogotá
+portfolio_startup,heliosave-clean-energy,HELIOSAVE CLEAN ENERGY,country,,,Colombia,,,https://heliosave.com/,No street on site

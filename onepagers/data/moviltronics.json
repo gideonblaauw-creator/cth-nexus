@@ -179,5 +179,16 @@
     "section_03_impact": "Moviltronics verified storefront CDN (mobility category preview)",
     "section_04_leadership": "Moviltronics verified storefront CDN (M30062 product photo)",
     "cta": "Moviltronics verified storefront CDN (store preview image)"
+  },
+  "location": {
+    "precision": "country",
+    "city": null,
+    "country": "Colombia",
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "source_url": "https://moviltronics.com/",
+    "hq_abroad": null,
+    "location_note": "Country only; no city or street on public site"
   }
 }

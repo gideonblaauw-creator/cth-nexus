@@ -168,5 +168,16 @@
       "dream_es": "Programa: CLP + Acceleration. KPIs de ingresos / clientes: [PENDIENTE]. Pitch deck en perfil: [PENDIENTE]. Créditos de imagen — Hero: Unsplash (Wolfgang Hasselmann); Sec 01: Unsplash (Nick Fewings); Sec 02: Unsplash (Kateryna Hliznitsova); Sec 03: Unsplash (Brian Yurasits); Sec 04: Unsplash (National Cancer Institute); CTA: Unsplash (Micheile Henderson).",
       "bg": "https://images.unsplash.com/photo-1576086213569-790a57d22531?w=1200&q=80"
     }
-  ]
+  ],
+  "location": {
+    "precision": "country",
+    "city": null,
+    "country": "Colombia",
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "source_url": "https://icanjump.com",
+    "hq_abroad": null,
+    "location_note": "Country only; no city or street on public site"
+  }
 }

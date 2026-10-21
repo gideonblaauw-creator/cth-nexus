@@ -163,5 +163,16 @@
     "impact": "habitatmineriaurbana.com.co — Portada-1-1-2025.webp",
     "team": "Unsplash — Possessed Photography (electronics recycling)",
     "cta": "Unsplash — LinkedIn Sales Navigator (circular industry)"
+  },
+  "location": {
+    "precision": "city",
+    "city": "Bogotá",
+    "country": "Colombia",
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "source_url": "https://habitatmineriaurbana.com.co",
+    "hq_abroad": null,
+    "location_note": "City from company website sedes (Bogotá); no street office published"
   }
 }

@@ -16,8 +16,8 @@
       "val": "BR",
       "lab_en": "Country",
       "lab_es": "Pa&iacute;s",
-      "sub_en": "Brasil",
-      "sub_es": "Brasil"
+      "sub_en": "Brazil",
+      "sub_es": "Brazil"
     },
     {
       "val": "[P]",
@@ -181,5 +181,16 @@
     "cta": "Mitsidi public CMS (banner_expandir_corrigido.png) — Expandir event"
   },
   "image_credits_en": " Section photo: Unsplash — Unsplash contributor.",
-  "image_credits_es": " Foto de sección: Unsplash — Unsplash contributor."
+  "image_credits_es": " Foto de sección: Unsplash — Unsplash contributor.",
+  "location": {
+    "precision": "country",
+    "city": "lima",
+    "country": "Brazil",
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "source_url": "https://www.mitsidi.com/en",
+    "hq_abroad": null,
+    "location_note": "Brazil HQ per public site; city not published"
+  }
 }

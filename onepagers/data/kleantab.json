@@ -168,5 +168,16 @@
   "hero_image": "https://kleantab.com/cdn/shop/files/Kleantab_Limpieza_Poderosa_y_Saludable.png?v=1779937714&width=1600",
   "cta_bg": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=1200&q=80",
   "image_credits_en": "Image credits (kleantab):\n· Hero: Kleantab verified website (kleantab.com product photo)\n· §01 Problem: Unsplash / Daian Gan\n· §02 Solution: Unsplash / Daiga Ellaby\n· §03 Impact: Unsplash / Sarah Chai\n· §04 Leadership: Unsplash / Volodymyr Hryshchenko\n· CTA: Unsplash / Markus Spiske Replacement photo: Unsplash — Campaign Creators.",
-  "image_credits_es": "Créditos de imagen (kleantab):\n· Hero: Sitio verificado Kleantab (foto de producto kleantab.com)\n· §01 Problem: Unsplash / Daian Gan\n· §02 Solution: Unsplash / Daiga Ellaby\n· §03 Impact: Unsplash / Sarah Chai\n· §04 Leadership: Unsplash / Volodymyr Hryshchenko\n· CTA: Unsplash / Markus Spiske Foto de reemplazo: Unsplash — Campaign Creators."
+  "image_credits_es": "Créditos de imagen (kleantab):\n· Hero: Sitio verificado Kleantab (foto de producto kleantab.com)\n· §01 Problem: Unsplash / Daian Gan\n· §02 Solution: Unsplash / Daiga Ellaby\n· §03 Impact: Unsplash / Sarah Chai\n· §04 Leadership: Unsplash / Volodymyr Hryshchenko\n· CTA: Unsplash / Markus Spiske Foto de reemplazo: Unsplash — Campaign Creators.",
+  "location": {
+    "precision": "country",
+    "city": null,
+    "country": "Costa Rica",
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "source_url": "https://kleantab.com/",
+    "hq_abroad": null,
+    "location_note": "Country only; no city or street on public site"
+  }
 }

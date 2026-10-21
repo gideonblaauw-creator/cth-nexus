@@ -180,5 +180,16 @@
   "hero_credit_es": "Foto: Simbiotic — turismo sostenible Triply (redsimbiotic.com)",
   "cta_bg": "./assets/bg-cta.jpg",
   "cta_bg_credit_en": "Photo: Zbynek Burival / Unsplash",
-  "cta_bg_credit_es": "Foto: Zbynek Burival / Unsplash"
+  "cta_bg_credit_es": "Foto: Zbynek Burival / Unsplash",
+  "location": {
+    "precision": "city",
+    "city": "Cúcuta",
+    "country": "Colombia",
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "source_url": "https://redsimbiotic.com",
+    "hq_abroad": null,
+    "location_note": "City from one-pager or public website; no verified street office published"
+  }
 }

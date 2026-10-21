@@ -168,5 +168,16 @@
   "hero_image": "https://www.kigui.io/og-image.png",
   "cta_bg": "https://images.unsplash.com/photo-1610832958506-aa56368197cf?w=1200&q=80",
   "image_credits_en": "Image credits (kigui):\n· Hero: Kigüi verified website (kigui.mx / kigui.io)\n· §01 Problem: Unsplash / NeONBRAND\n· §02 Solution: Unsplash / Nathan Dumlao\n· §03 Impact: Unsplash / Gilberto Olimpio\n· §04 Leadership: Unsplash / Clay Banks\n· CTA: Unsplash / Micheile Henderson",
-  "image_credits_es": "Créditos de imagen (kigui):\n· Hero: Sitio verificado Kigüi (kigui.mx / kigui.io)\n· §01 Problem: Unsplash / NeONBRAND\n· §02 Solution: Unsplash / Nathan Dumlao\n· §03 Impact: Unsplash / Gilberto Olimpio\n· §04 Leadership: Unsplash / Clay Banks\n· CTA: Unsplash / Micheile Henderson"
+  "image_credits_es": "Créditos de imagen (kigui):\n· Hero: Sitio verificado Kigüi (kigui.mx / kigui.io)\n· §01 Problem: Unsplash / NeONBRAND\n· §02 Solution: Unsplash / Nathan Dumlao\n· §03 Impact: Unsplash / Gilberto Olimpio\n· §04 Leadership: Unsplash / Clay Banks\n· CTA: Unsplash / Micheile Henderson",
+  "location": {
+    "precision": "city",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "source_url": "https://kigui.mx/",
+    "hq_abroad": null,
+    "location_note": "Mexico operations; city from public marketing site"
+  }
 }

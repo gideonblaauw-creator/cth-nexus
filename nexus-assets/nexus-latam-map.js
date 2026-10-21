@@ -45,8 +45,13 @@
     return map;
   }
 
+  function hubHasPin(hub) {
+    const g = hub.geo;
+    return g && g.precision === 'address' && typeof g.lat === 'number' && typeof g.lng === 'number';
+  }
+
   function hubLatLng(hub) {
-    if (hub.geo && typeof hub.geo.lat === 'number' && typeof hub.geo.lng === 'number') {
+    if (hubHasPin(hub)) {
       return [hub.geo.lat, hub.geo.lng];
     }
     const fallback = {
@@ -67,8 +72,13 @@
       el.innerHTML = '';
       const map = baseMap(el, { scrollWheelZoom: false });
       const markers = [];
+      const unknown = [];
       hubs.forEach((hub) => {
         const soon = hub.status === 'soon';
+        if (!hubHasPin(hub)) {
+          unknown.push(hub);
+          return;
+        }
         const latlng = hubLatLng(hub);
         const marker = L.circleMarker(latlng, {
           radius: soon ? 7 : 10,
@@ -85,6 +95,7 @@
       map.on('click', () => onSelect(null));
       el._nexusMap = map;
       el._nexusMarkers = markers;
+      el._nexusHubUnknown = unknown;
     }, 80);
   }
 

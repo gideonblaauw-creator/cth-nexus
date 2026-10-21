@@ -1,4 +1,4 @@
-/** Map geo rules: plot address/city only; never fake-scatter country/unknown. */
+/** Map geo rules: plot verified street address only; city/country/unknown → no pin. */
 
 export const COUNTRY_CAPITAL = {
   Peru: { lat: -12.0464, lng: -77.0428 },
@@ -18,8 +18,7 @@ export function geoPrecision(actor) {
 export function hasPlottableGeo(actor) {
   const g = actor?.geo;
   if (!g || g.lat == null || g.lng == null) return false;
-  const p = g.precision;
-  return p === 'address' || p === 'city';
+  return g.precision === 'address';
 }
 
 export function isLocationUnknown(actor) {

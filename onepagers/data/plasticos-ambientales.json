@@ -169,5 +169,16 @@
     }
   ],
   "image_credits_en": " Section photo: Unsplash — Unsplash contributor. Section photo: Unsplash — Unsplash contributor.",
-  "image_credits_es": " Foto de sección: Unsplash — Unsplash contributor. Foto de sección: Unsplash — Unsplash contributor."
+  "image_credits_es": " Foto de sección: Unsplash — Unsplash contributor. Foto de sección: Unsplash — Unsplash contributor.",
+  "location": {
+    "precision": "city",
+    "city": "Sabaneta",
+    "country": "Colombia",
+    "address": "Carrera 48B #67 Sur-24, Sabaneta, Antioquia",
+    "lat": null,
+    "lng": null,
+    "source_url": "https://plasticosambientales.com/",
+    "hq_abroad": null,
+    "location_note": "Main office published on website footer; Published street on website; OSM has no street-level geocode — precision=city per policy"
+  }
 }

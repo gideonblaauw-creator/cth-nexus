@@ -8,7 +8,9 @@
       ],
       "bio_en": "CLP26 mentor in Guatemala, mentoring Aura cell.",
       "bio_es": "Mentor/a en CLP26 (Guatemala); acompaña a Aura cell.",
-      "linkedin_url": "https://www.linkedin.com/in/alaide-diaz?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+      "linkedin_url": "https://www.linkedin.com/in/alaide-diaz?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Alejandra Sierralta",
@@ -18,7 +20,9 @@
       ],
       "bio_en": "CLP26 mentor in Peru, mentoring PezConfiable.",
       "bio_es": "Mentor/a en CLP26 (Perú); acompaña a PezConfiable.",
-      "linkedin_url": "www.linkedin.com/in/alejandrasierralta/"
+      "linkedin_url": "www.linkedin.com/in/alejandrasierralta/",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Alex Kudzuma",
@@ -28,7 +32,9 @@
       ],
       "bio_en": "CLP26 mentor in Peru, mentoring Wayra Watt.",
       "bio_es": "Mentor/a en CLP26 (Perú); acompaña a Wayra Watt.",
-      "linkedin_url": "www.linkedin.com/in/alex-kudzuma"
+      "linkedin_url": "www.linkedin.com/in/alex-kudzuma",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Andrés Felipe Páez",
@@ -38,7 +44,9 @@
       ],
       "bio_en": "CLP26 mentor in Colombia, mentoring CLIMATIK Climate Transition Platform.",
       "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a CLIMATIK Climate Transition Platform.",
-      "linkedin_url": "https://www.linkedin.com/in/andresfelipepaezrodriguezsostenibilidadyeconomiacircular/"
+      "linkedin_url": "https://www.linkedin.com/in/andresfelipepaezrodriguezsostenibilidadyeconomiacircular/",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Bernardo Joseph Trujillo León",
@@ -49,7 +57,9 @@
       ],
       "bio_en": "CLP26 mentor in Colombia, mentoring Planta Comunitaria WPC and SEKPOS.",
       "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a Planta Comunitaria WPC y SEKPOS.",
-      "linkedin_url": "http://linkedin.com/in/bernardo-joseph-4813561a9"
+      "linkedin_url": "http://linkedin.com/in/bernardo-joseph-4813561a9",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Carlos Arango Ucros",
@@ -59,7 +69,9 @@
       ],
       "bio_en": "CLP26 mentor in Colombia, mentoring AgroData Connect.",
       "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a AgroData Connect.",
-      "linkedin_url": "https://www.linkedin.com/in/carlosarangoucros"
+      "linkedin_url": "https://www.linkedin.com/in/carlosarangoucros",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Carlos Fernando de la Cruz",
@@ -70,7 +82,9 @@
       "bio_en": "Nexus programs: CLP25-PE. CLP26 mentor in Peru, mentoring HardTech.",
       "bio_es": "Programas en Nexus: CLP25-PE. Mentor/a en CLP26 (Perú); acompaña a HardTech.",
       "linkedin_url": "www.linkedin.com/in/carlos-fernando-marcel-de-la-cruz-guevara-67145140/",
-      "nexus_id": "M072"
+      "nexus_id": "M072",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Carlos Jaramillo",
@@ -84,7 +98,11 @@
       "organisation": "Seguros SURA / Clarity.fm",
       "role": "Innovation & Entrepreneurship Expert",
       "linkedin_url": "https://www.linkedin.com/in/carlosabad79/es/",
-      "nexus_id": "M045"
+      "nexus_id": "M045",
+      "location_precision": "city",
+      "city": "Medellín",
+      "location_source_url": "https://segurossura.com/co/terminos-y-condiciones/",
+      "location_note": "Seguros SURA; Suramericana domicile Medellín."
     },
     {
       "name": "Cinthya Sandoval Cuéllar",
@@ -94,7 +112,9 @@
       ],
       "bio_en": "CLP26 mentor in Guatemala, mentoring Crysalia Studio.",
       "bio_es": "Mentor/a en CLP26 (Guatemala); acompaña a Crysalia Studio.",
-      "linkedin_url": "https://www.linkedin.com/in/cinthya-sandoval-48903770/"
+      "linkedin_url": "https://www.linkedin.com/in/cinthya-sandoval-48903770/",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Daniel Alpaca",
@@ -104,7 +124,11 @@
       ],
       "bio_en": "CLP26 mentor in Peru, mentoring VIGIA (ex MUCHIK).",
       "bio_es": "Mentor/a en CLP26 (Perú); acompaña a VIGIA (ex MUCHIK).",
-      "linkedin_url": "www.linkedin.com/in/danielalpaca"
+      "linkedin_url": "www.linkedin.com/in/danielalpaca",
+      "location_precision": "city",
+      "city": "Lima",
+      "location_source_url": "https://derechousmp.com/docentes/detalle_cv/detalle.php?ID=90028674",
+      "location_note": "USMP faculty CV; Lima."
     },
     {
       "name": "Diana Castrillón Gómez",
@@ -114,7 +138,9 @@
       ],
       "bio_en": "CLP26 mentor in Colombia, mentoring bio.analytics.",
       "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a bio.analytics.",
-      "linkedin_url": "https://www.linkedin.com/in/dianacastrillongomez/"
+      "linkedin_url": "https://www.linkedin.com/in/dianacastrillongomez/",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Erwin Navarrete",
@@ -124,7 +150,9 @@
       ],
       "bio_en": "CLP26 mentor in Colombia, mentoring Uniqua SAS BIC..",
       "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a Uniqua SAS BIC..",
-      "linkedin_url": "https://www.linkedin.com/in/erwin-navarrete-b43283240/"
+      "linkedin_url": "https://www.linkedin.com/in/erwin-navarrete-b43283240/",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Estela Ugalde",
@@ -134,7 +162,9 @@
       ],
       "bio_en": "CLP26 mentor in Costa Rica, mentoring AmbiciOsas.",
       "bio_es": "Mentor/a en CLP26 (Costa Rica); acompaña a AmbiciOsas.",
-      "linkedin_url": "https://www.linkedin.com/in/estela-ugalde-74447268/"
+      "linkedin_url": "https://www.linkedin.com/in/estela-ugalde-74447268/",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Felipe Hernández",
@@ -144,7 +174,9 @@
       ],
       "bio_en": "CLP26 mentor in Colombia, mentoring communitylab s.a.s.",
       "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a communitylab s.a.s.",
-      "linkedin_url": "https://www.linkedin.com/in/fhvdesign/"
+      "linkedin_url": "https://www.linkedin.com/in/fhvdesign/",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Fernando Torres",
@@ -154,7 +186,9 @@
       ],
       "bio_en": "CLP26 mentor in Peru, mentoring Ecosonus.",
       "bio_es": "Mentor/a en CLP26 (Perú); acompaña a Ecosonus.",
-      "linkedin_url": "www.linkedin.com/in/fitorresg/"
+      "linkedin_url": "www.linkedin.com/in/fitorresg/",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Gabriela Tenaz",
@@ -164,7 +198,9 @@
       ],
       "bio_en": "CLP26 mentor in Costa Rica, mentoring Finca ganadera Águilas verdes.",
       "bio_es": "Mentor/a en CLP26 (Costa Rica); acompaña a Finca ganadera Águilas verdes.",
-      "linkedin_url": "https://www.linkedin.com/in/gabriela-t%C3%A9naz-2914a6127/"
+      "linkedin_url": "https://www.linkedin.com/in/gabriela-t%C3%A9naz-2914a6127/",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Genoveva Martínez",
@@ -174,7 +210,9 @@
       ],
       "bio_en": "CLP26 mentor in Guatemala, mentoring Pina&Kakaw.",
       "bio_es": "Mentor/a en CLP26 (Guatemala); acompaña a Pina&Kakaw.",
-      "linkedin_url": "https://www.linkedin.com/in/genoveva-martínez-a4ab33196?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+      "linkedin_url": "https://www.linkedin.com/in/genoveva-martínez-a4ab33196?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Gloria Bazán Narváez",
@@ -184,7 +222,9 @@
       ],
       "bio_en": "CLP26 mentor in Colombia, mentoring Clean Sim (by IMIC).",
       "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a Clean Sim (by IMIC).",
-      "linkedin_url": "https://www.linkedin.com/in/gloria-bazan-narvaez-06581b55/"
+      "linkedin_url": "https://www.linkedin.com/in/gloria-bazan-narvaez-06581b55/",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Guillermo Nariño",
@@ -194,7 +234,9 @@
       ],
       "bio_en": "CLP26 mentor in Colombia, mentoring Amazóniko.",
       "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a Amazóniko.",
-      "linkedin_url": "https://www.linkedin.com/in/guillermo-nari%C3%B1o/?"
+      "linkedin_url": "https://www.linkedin.com/in/guillermo-nari%C3%B1o/?",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Guisela Carbajal Romero",
@@ -204,7 +246,9 @@
       ],
       "bio_en": "CLP26 mentor in Costa Rica, mentoring Ecomuna.",
       "bio_es": "Mentor/a en CLP26 (Costa Rica); acompaña a Ecomuna.",
-      "linkedin_url": "https://www.linkedin.com/in/guisela-carbajal/"
+      "linkedin_url": "https://www.linkedin.com/in/guisela-carbajal/",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Gustavo García",
@@ -215,7 +259,9 @@
       ],
       "bio_en": "CLP26 mentor in Colombia, mentoring Green Textile Solutions and Modular Agrosolutions.",
       "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a Green Textile Solutions y Modular Agrosolutions.",
-      "linkedin_url": "https://www.linkedin.com/in/gustavo-garcia-navas/"
+      "linkedin_url": "https://www.linkedin.com/in/gustavo-garcia-navas/",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Heraldo Escobar",
@@ -225,7 +271,9 @@
       ],
       "bio_en": "CLP26 mentor in Guatemala, mentoring Regenerative livestock farming.",
       "bio_es": "Mentor/a en CLP26 (Guatemala); acompaña a Regenerative livestock farming.",
-      "linkedin_url": "www.linkedin.com/in/heraldo-escobar-72163934"
+      "linkedin_url": "www.linkedin.com/in/heraldo-escobar-72163934",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Jhosseli García",
@@ -235,7 +283,9 @@
       ],
       "bio_en": "CLP26 mentor in Peru, mentoring AgroLens.",
       "bio_es": "Mentor/a en CLP26 (Perú); acompaña a AgroLens.",
-      "linkedin_url": "www.linkedin.com/in/jhosseligarcia/"
+      "linkedin_url": "www.linkedin.com/in/jhosseligarcia/",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Jorge Montenegro",
@@ -245,7 +295,9 @@
       ],
       "bio_en": "CLP26 mentor in Costa Rica, mentoring Siloe Garden · Eco Sanctuary.",
       "bio_es": "Mentor/a en CLP26 (Costa Rica); acompaña a Siloe Garden · Eco Sanctuary.",
-      "linkedin_url": "https://www.linkedin.com/in/jorge-fer-monte"
+      "linkedin_url": "https://www.linkedin.com/in/jorge-fer-monte",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "José Soto",
@@ -255,7 +307,9 @@
       ],
       "bio_en": "CLP26 mentor in Peru, mentoring NanoHumi.",
       "bio_es": "Mentor/a en CLP26 (Perú); acompaña a NanoHumi.",
-      "linkedin_url": "www.linkedin.com/in/jose-carlos-soto-mujica-9a9987396"
+      "linkedin_url": "www.linkedin.com/in/jose-carlos-soto-mujica-9a9987396",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Juan Diego Loarca",
@@ -265,7 +319,9 @@
       ],
       "bio_en": "CLP26 mentor in Guatemala, mentoring Autogenerado.",
       "bio_es": "Mentor/a en CLP26 (Guatemala); acompaña a Autogenerado.",
-      "linkedin_url": "https://www.linkedin.com/in/juan-diego-loarca?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      "linkedin_url": "https://www.linkedin.com/in/juan-diego-loarca?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Juan Sebastián Villamizar",
@@ -275,7 +331,9 @@
       ],
       "bio_en": "CLP26 mentor in Colombia, mentoring Proyecto emprendedor con impacto ambiental..",
       "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a Proyecto emprendedor con impacto ambiental..",
-      "linkedin_url": "https://www.linkedin.com/in/sebastian-villamizar-diaz-b17818114"
+      "linkedin_url": "https://www.linkedin.com/in/sebastian-villamizar-diaz-b17818114",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Julián Martínez",
@@ -285,7 +343,9 @@
       ],
       "bio_en": "CLP26 mentor in Guatemala, mentoring ZUMA.",
       "bio_es": "Mentor/a en CLP26 (Guatemala); acompaña a ZUMA.",
-      "linkedin_url": "https://www.linkedin.com/in/julianmartineza/"
+      "linkedin_url": "https://www.linkedin.com/in/julianmartineza/",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Karol M. Garzón",
@@ -295,7 +355,9 @@
       ],
       "bio_en": "CLP26 mentor in Colombia, mentoring El Ocámbulo.",
       "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a El Ocámbulo.",
-      "linkedin_url": "https://www.linkedin.com/in/karol-melissa-garz%C3%B3n-cabrera-5516a6382/"
+      "linkedin_url": "https://www.linkedin.com/in/karol-melissa-garz%C3%B3n-cabrera-5516a6382/",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Lucía Medina Capacoila",
@@ -305,7 +367,9 @@
       ],
       "bio_en": "CLP26 mentor in Colombia, mentoring Cacelio.",
       "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a Cacelio.",
-      "linkedin_url": "https://www.linkedin.com/in/luciamedinacapacoila/"
+      "linkedin_url": "https://www.linkedin.com/in/luciamedinacapacoila/",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Maité Marroquín",
@@ -315,7 +379,9 @@
       ],
       "bio_en": "CLP26 mentor in Guatemala, mentoring NRK.",
       "bio_es": "Mentor/a en CLP26 (Guatemala); acompaña a NRK.",
-      "linkedin_url": "https://www.linkedin.com/in/mait%C3%A9-marroqu%C3%ADn-76370918b/"
+      "linkedin_url": "https://www.linkedin.com/in/mait%C3%A9-marroqu%C3%ADn-76370918b/",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Mario Reichert",
@@ -325,7 +391,9 @@
       ],
       "bio_en": "CLP26 mentor in Guatemala, mentoring GMOVES.",
       "bio_es": "Mentor/a en CLP26 (Guatemala); acompaña a GMOVES.",
-      "linkedin_url": "https://www.linkedin.com/in/mario-reichert-netzero-esg-gri-sas-niifs1-s2sbti-waterstewardship-ehs-safety-sustainability-sbti-wcm?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+      "linkedin_url": "https://www.linkedin.com/in/mario-reichert-netzero-esg-gri-sas-niifs1-s2sbti-waterstewardship-ehs-safety-sustainability-sbti-wcm?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Mario Rojas",
@@ -335,7 +403,9 @@
       ],
       "bio_en": "CLP26 mentor in Costa Rica, mentoring Agrosenser.",
       "bio_es": "Mentor/a en CLP26 (Costa Rica); acompaña a Agrosenser.",
-      "linkedin_url": "https://www.linkedin.com/in/mario-fernando-rojas-suarez-49328770/"
+      "linkedin_url": "https://www.linkedin.com/in/mario-fernando-rojas-suarez-49328770/",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Marisa Arias",
@@ -345,7 +415,9 @@
       ],
       "bio_en": "CLP26 mentor in Peru, mentoring Kallpa Greenz Leaders.",
       "bio_es": "Mentor/a en CLP26 (Perú); acompaña a Kallpa Greenz Leaders.",
-      "linkedin_url": "www.linkedin.com/in/marisaariaspicon/"
+      "linkedin_url": "www.linkedin.com/in/marisaariaspicon/",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Martha Zeledón",
@@ -355,7 +427,9 @@
       ],
       "bio_en": "CLP26 mentor in Colombia, mentoring AGROLIDER.",
       "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a AGROLIDER.",
-      "linkedin_url": "https://www.linkedin.com/in/martha-yadira-zeled%C3%B3n-2419b024/"
+      "linkedin_url": "https://www.linkedin.com/in/martha-yadira-zeled%C3%B3n-2419b024/",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Martin Dolan",
@@ -366,7 +440,11 @@
       ],
       "bio_en": "CLP26 mentor in Colombia, mentoring CurubaTech and e.WAI.",
       "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a CurubaTech y e.WAI.",
-      "linkedin_url": "https://www.linkedin.com/in/martin-dolan/"
+      "linkedin_url": "https://www.linkedin.com/in/martin-dolan/",
+      "location_precision": "city",
+      "city": "Bogotá",
+      "location_source_url": "https://pangea.app/profile/martin-dolan",
+      "location_note": "Pangea public profile Bogotá."
     },
     {
       "name": "Marvin Luna",
@@ -376,7 +454,9 @@
       ],
       "bio_en": "CLP26 mentor in Guatemala, mentoring Ingenicrop.",
       "bio_es": "Mentor/a en CLP26 (Guatemala); acompaña a Ingenicrop.",
-      "linkedin_url": "linkedin.com/in/marvinlunagt"
+      "linkedin_url": "linkedin.com/in/marvinlunagt",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "María Isabel Cruz López",
@@ -386,7 +466,9 @@
       ],
       "bio_en": "CLP26 mentor in Colombia, mentoring Construyendo Redes de Paz.",
       "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a Construyendo Redes de Paz.",
-      "linkedin_url": "https://www.linkedin.com/in/maria-isabel-cruz-lopez"
+      "linkedin_url": "https://www.linkedin.com/in/maria-isabel-cruz-lopez",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "María Juliana Pérez Vasco",
@@ -396,7 +478,9 @@
       ],
       "bio_en": "CLP26 mentor in Colombia, mentoring KUO (Producto: SIGR).",
       "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a KUO (Producto: SIGR).",
-      "linkedin_url": "https://www.linkedin.com/in/maria-juliana-perez-vasco-19587843"
+      "linkedin_url": "https://www.linkedin.com/in/maria-juliana-perez-vasco-19587843",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Michel Marfil Rivero",
@@ -410,7 +494,9 @@
       "organisation": "Aprende y Prospera LatAm",
       "role": "Mentor / Socio-Director",
       "linkedin_url": "https://www.linkedin.com/in/michelmarfilrivero/",
-      "nexus_id": "M043"
+      "nexus_id": "M043",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Mitchell Lázaro",
@@ -422,7 +508,9 @@
       "bio_es": "Doctorando y especialista en banca PYME; investiga acceso a financiamiento para pequeñas empresas verdes en Perú. Mentor/a en CLP26 (Perú); acompaña a YakuSmart.",
       "role": "PhD Candidate · Banca PYME",
       "linkedin_url": "www.linkedin.com/in/mitchell-jesús-lázaro-díaz/",
-      "nexus_id": "M069"
+      "nexus_id": "M069",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Mónica O’Connor",
@@ -432,7 +520,9 @@
       ],
       "bio_en": "CLP26 mentor in Peru, mentoring Andean Biofactories.",
       "bio_es": "Mentor/a en CLP26 (Perú); acompaña a Andean Biofactories.",
-      "linkedin_url": "www.linkedin.com/in/manuel-c%C3%A1rdenas-iberico-0225a216/"
+      "linkedin_url": "www.linkedin.com/in/manuel-c%C3%A1rdenas-iberico-0225a216/",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Osvaldo Ruiz",
@@ -442,7 +532,9 @@
       ],
       "bio_en": "CLP26 mentor in Costa Rica, mentoring Plastic Free Planet.",
       "bio_es": "Mentor/a en CLP26 (Costa Rica); acompaña a Plastic Free Planet.",
-      "linkedin_url": "https://www.linkedin.com/in/osvaldo-ruiz-calder%C3%B3n-1b9699136/"
+      "linkedin_url": "https://www.linkedin.com/in/osvaldo-ruiz-calder%C3%B3n-1b9699136/",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Paola Andrea Sánchez Gutiérrez",
@@ -452,7 +544,9 @@
       ],
       "bio_en": "CLP26 mentor in Colombia, mentoring AirthNova.",
       "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a AirthNova.",
-      "linkedin_url": "https://www.linkedin.com/in/paolasolarinsights/"
+      "linkedin_url": "https://www.linkedin.com/in/paolasolarinsights/",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Patricia Carrasquilla Cortés",
@@ -462,7 +556,9 @@
       ],
       "bio_en": "CLP26 mentor in Colombia, mentoring SIÉ WAKA.",
       "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a SIÉ WAKA.",
-      "linkedin_url": "https://www.linkedin.com/in/patriciacarrasquillac"
+      "linkedin_url": "https://www.linkedin.com/in/patriciacarrasquillac",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Patricia Melgar",
@@ -472,7 +568,9 @@
       ],
       "bio_en": "CLP26 mentor in Peru, mentoring FIVRA.",
       "bio_es": "Mentor/a en CLP26 (Perú); acompaña a FIVRA.",
-      "linkedin_url": "www.linkedin.com/in/patricia-melgar-71360228/"
+      "linkedin_url": "www.linkedin.com/in/patricia-melgar-71360228/",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Patricia Vidal",
@@ -482,7 +580,9 @@
       ],
       "bio_en": "CLP26 mentor in Peru, mentoring WindLever.",
       "bio_es": "Mentor/a en CLP26 (Perú); acompaña a WindLever.",
-      "linkedin_url": "www.linkedin.com/in/patricia-vidal-izaguirre"
+      "linkedin_url": "www.linkedin.com/in/patricia-vidal-izaguirre",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Raúl Campos",
@@ -492,7 +592,9 @@
       ],
       "bio_en": "CLP26 mentor in Peru, mentoring PIROSA.",
       "bio_es": "Mentor/a en CLP26 (Perú); acompaña a PIROSA.",
-      "linkedin_url": "www.linkedin.com/in/raulcamposrosas/"
+      "linkedin_url": "www.linkedin.com/in/raulcamposrosas/",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Renzo Salas",
@@ -505,7 +607,11 @@
       "organisation": "BSF Almacenes del Perú",
       "role": "Sustainability & Renewable Energy",
       "linkedin_url": "www.linkedin.com/in/renzo-salas/",
-      "nexus_id": "M068"
+      "nexus_id": "M068",
+      "location_precision": "city",
+      "city": "Lima",
+      "location_source_url": "https://bsf.pe/",
+      "location_note": "BSF Almacenes del Perú; Lima metro."
     },
     {
       "name": "Rubén Arias",
@@ -516,7 +622,9 @@
       "bio_en": "Nexus programs: CLP25-CR. CLP26 mentor in Costa Rica, mentoring Fazzty.",
       "bio_es": "Programas en Nexus: CLP25-CR. Mentor/a en CLP26 (Costa Rica); acompaña a Fazzty.",
       "linkedin_url": "https://www.linkedin.com/in/ruben-arias-arce/",
-      "nexus_id": "M074"
+      "nexus_id": "M074",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Santiago Aristizábal",
@@ -526,7 +634,9 @@
       ],
       "bio_en": "CLP26 mentor in Colombia, mentoring DANTIUM.",
       "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a DANTIUM.",
-      "linkedin_url": "https://www.linkedin.com/in/santiago-aristiz%C3%A1bal-molina-04681657/"
+      "linkedin_url": "https://www.linkedin.com/in/santiago-aristiz%C3%A1bal-molina-04681657/",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Santiago Cruz",
@@ -536,7 +646,9 @@
       ],
       "bio_en": "CLP26 mentor in Colombia, mentoring TERRA IO.",
       "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a TERRA IO.",
-      "linkedin_url": "https://www.linkedin.com/in/santiagocruzgonzalez"
+      "linkedin_url": "https://www.linkedin.com/in/santiagocruzgonzalez",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Sebastián Martínez Pérez",
@@ -546,7 +658,9 @@
       ],
       "bio_en": "CLP26 mentor in Colombia, mentoring NextGen Nutrition (Petfly).",
       "bio_es": "Mentor/a en CLP26 (Colombia); acompaña a NextGen Nutrition (Petfly).",
-      "linkedin_url": "https://www.linkedin.com/in/sebasmperez/"
+      "linkedin_url": "https://www.linkedin.com/in/sebasmperez/",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Silvia López Giraldo",
@@ -555,7 +669,9 @@
         "ToyCycles"
       ],
       "bio_en": "CLP26 mentor in Costa Rica, mentoring ToyCycles.",
-      "bio_es": "Mentor/a en CLP26 (Costa Rica); acompaña a ToyCycles."
+      "bio_es": "Mentor/a en CLP26 (Costa Rica); acompaña a ToyCycles.",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Ximena Tavera",
@@ -566,7 +682,9 @@
       "bio_en": "Nexus expertise area: Ventas y Mercadeo. CLP26 mentor in Guatemala, mentoring Abrobots.",
       "bio_es": "Área de expertise en Nexus: Ventas y Mercadeo. Mentor/a en CLP26 (Guatemala); acompaña a Abrobots.",
       "linkedin_url": "https://www.linkedin.com/in/magda-ximena-tavera-cuellar-03508a39/",
-      "nexus_id": "M001"
+      "nexus_id": "M001",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     }
   ]
 }

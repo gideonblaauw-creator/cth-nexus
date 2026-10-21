@@ -170,5 +170,16 @@
     }
   ],
   "image_credits_en": " Replacement photo: Unsplash — Unsplash contributor. Section photo: Unsplash — Unsplash contributor.",
-  "image_credits_es": " Foto de reemplazo: Unsplash — Unsplash contributor. Foto de sección: Unsplash — Unsplash contributor."
+  "image_credits_es": " Foto de reemplazo: Unsplash — Unsplash contributor. Foto de sección: Unsplash — Unsplash contributor.",
+  "location": {
+    "precision": "city",
+    "city": "Cali",
+    "country": "Colombia",
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "source_url": "https://mubon.co/",
+    "hq_abroad": null,
+    "location_note": "City from one-pager or public website; no verified street office published"
+  }
 }

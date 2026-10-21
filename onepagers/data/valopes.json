@@ -161,5 +161,16 @@
     }
   ],
   "image_credits_en": " Replacement photo: Unsplash — CHUTTERSNAP. Section photo: Unsplash — Unsplash contributor. Section photo: Unsplash — Unsplash contributor. Replacement photo: Unsplash — Unsplash contributor.",
-  "image_credits_es": " Foto de reemplazo: Unsplash — CHUTTERSNAP. Foto de sección: Unsplash — Unsplash contributor. Foto de sección: Unsplash — Unsplash contributor. Foto de reemplazo: Unsplash — Unsplash contributor."
+  "image_credits_es": " Foto de reemplazo: Unsplash — CHUTTERSNAP. Foto de sección: Unsplash — Unsplash contributor. Foto de sección: Unsplash — Unsplash contributor. Foto de reemplazo: Unsplash — Unsplash contributor.",
+  "location": {
+    "precision": "city",
+    "city": "Cali",
+    "country": "Colombia",
+    "address": "pueda seguir. Huella de carbono Metas y descarbonización Reportes con trazabilidad Explorar este análisis RECURSO CRÍTIC",
+    "lat": null,
+    "lng": null,
+    "source_url": "https://www.valopes.com",
+    "hq_abroad": null,
+    "location_note": "Cali waste-tech; city from site"
+  }
 }

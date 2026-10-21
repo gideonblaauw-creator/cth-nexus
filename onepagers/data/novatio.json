@@ -170,5 +170,16 @@
     }
   ],
   "image_credits_en": " Replacement photo: Unsplash — Unsplash contributor.",
-  "image_credits_es": " Foto de reemplazo: Unsplash — Unsplash contributor."
+  "image_credits_es": " Foto de reemplazo: Unsplash — Unsplash contributor.",
+  "location": {
+    "precision": "address",
+    "city": "Cali",
+    "country": "Colombia",
+    "address": "Cl. 48 Nte. #4AN-56, Cali",
+    "lat": 3.4765493,
+    "lng": -76.5094764,
+    "source_url": "https://novatio.com.co/contacto/",
+    "hq_abroad": null,
+    "location_note": "Street office on contact page"
+  }
 }

@@ -169,5 +169,16 @@
     }
   ],
   "image_credits_en": " Section photo: Unsplash — Unsplash contributor. Section photo: Unsplash — Unsplash contributor. Section photo: Unsplash — Unsplash contributor.",
-  "image_credits_es": " Foto de sección: Unsplash — Unsplash contributor. Foto de sección: Unsplash — Unsplash contributor. Foto de sección: Unsplash — Unsplash contributor."
+  "image_credits_es": " Foto de sección: Unsplash — Unsplash contributor. Foto de sección: Unsplash — Unsplash contributor. Foto de sección: Unsplash — Unsplash contributor.",
+  "location": {
+    "precision": "city",
+    "city": "Medellín",
+    "country": "Colombia",
+    "address": "Cuánta potencia? Escalabilidad Cuántos puertos? Disponibilidad Perfil de Carga Usuario para analizar las necesidades del",
+    "lat": null,
+    "lng": null,
+    "source_url": "https://oasisgroup.online/",
+    "hq_abroad": null,
+    "location_note": "Medellín on one-pager; no street published"
+  }
 }

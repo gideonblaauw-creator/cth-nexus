@@ -160,5 +160,16 @@
     }
   ],
   "image_credits_en": " Section photo: Unsplash — Unsplash contributor. Section photo: Unsplash — Unsplash contributor. Section photo: Unsplash — Unsplash contributor. Replacement photo: Unsplash — Unsplash contributor. Section photo: Unsplash — Unsplash contributor.",
-  "image_credits_es": " Foto de sección: Unsplash — Unsplash contributor. Foto de sección: Unsplash — Unsplash contributor. Foto de sección: Unsplash — Unsplash contributor. Foto de reemplazo: Unsplash — Unsplash contributor. Foto de sección: Unsplash — Unsplash contributor."
+  "image_credits_es": " Foto de sección: Unsplash — Unsplash contributor. Foto de sección: Unsplash — Unsplash contributor. Foto de sección: Unsplash — Unsplash contributor. Foto de reemplazo: Unsplash — Unsplash contributor. Foto de sección: Unsplash — Unsplash contributor.",
+  "location": {
+    "precision": "country",
+    "city": null,
+    "country": "Colombia",
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "source_url": "https://nexus.cleantechhub.net/s/pacaceite/",
+    "hq_abroad": null,
+    "location_note": "No public website"
+  }
 }

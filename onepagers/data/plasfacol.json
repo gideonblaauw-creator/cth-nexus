@@ -170,5 +170,16 @@
   "hero_credit_es": "Foto: Tienda Plasfacol (eco-tienda-plasfacol.venndelo.com)",
   "cta_bg": "./assets/bg-cta.jpg",
   "cta_bg_credit_en": "Photo: Zdeněk Macháček / Unsplash",
-  "cta_bg_credit_es": "Foto: Zdeněk Macháček / Unsplash"
+  "cta_bg_credit_es": "Foto: Zdeněk Macháček / Unsplash",
+  "location": {
+    "precision": "country",
+    "city": null,
+    "country": "Colombia",
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "source_url": "https://eco-tienda-plasfacol.venndelo.com",
+    "hq_abroad": null,
+    "location_note": "Country only; no city or street on public site"
+  }
 }

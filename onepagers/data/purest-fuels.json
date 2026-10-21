@@ -180,5 +180,16 @@
   "hero_credit_es": "Foto: Appolinary Kalashnikova / Unsplash",
   "cta_bg": "./assets/bg-cta.jpg",
   "cta_bg_credit_en": "Photo: Science in HD / Unsplash",
-  "cta_bg_credit_es": "Foto: Science in HD / Unsplash"
+  "cta_bg_credit_es": "Foto: Science in HD / Unsplash",
+  "location": {
+    "precision": "country",
+    "city": null,
+    "country": "Colombia",
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "source_url": "https://purestfuels.com",
+    "hq_abroad": null,
+    "location_note": "Country only; no city or street on public site"
+  }
 }

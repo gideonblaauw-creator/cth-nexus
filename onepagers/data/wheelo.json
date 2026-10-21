@@ -161,5 +161,16 @@
     }
   ],
   "image_credits_en": " Replacement photo: Unsplash — Kaleidico. Replacement photo: Unsplash — Unsplash contributor. Section photo: Unsplash — Unsplash contributor. Section photo: Unsplash — Unsplash contributor.",
-  "image_credits_es": " Foto de reemplazo: Unsplash — Kaleidico. Foto de reemplazo: Unsplash — Unsplash contributor. Foto de sección: Unsplash — Unsplash contributor. Foto de sección: Unsplash — Unsplash contributor."
+  "image_credits_es": " Foto de reemplazo: Unsplash — Kaleidico. Foto de reemplazo: Unsplash — Unsplash contributor. Foto de sección: Unsplash — Unsplash contributor. Foto de sección: Unsplash — Unsplash contributor.",
+  "location": {
+    "precision": "city",
+    "city": "Medellín",
+    "country": "Colombia",
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "source_url": "https://nexus.cleantechhub.net/s/wheelo/",
+    "hq_abroad": null,
+    "location_note": "Medellín on public one-pager"
+  }
 }

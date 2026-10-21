@@ -182,5 +182,16 @@
   "cta_bg_credit_en": "Photo: Zosia Szopka / Unsplash",
   "cta_bg_credit_es": "Foto: Zosia Szopka / Unsplash",
   "image_credits_en": " Unique section asset: Unsplash — Unsplash contributor.",
-  "image_credits_es": " Activo único: Unsplash — Unsplash contributor."
+  "image_credits_es": " Activo único: Unsplash — Unsplash contributor.",
+  "location": {
+    "precision": "city",
+    "city": "Medellín",
+    "country": "Colombia",
+    "address": "durante el proceso de biotransformaci&oacute;n. Entrega de un recordatorio. Entrega de Recordatorio VIP y Personalizado",
+    "lat": null,
+    "lng": null,
+    "source_url": "https://pleia.co",
+    "hq_abroad": null,
+    "location_note": "Medellín metro on site; no street office"
+  }
 }

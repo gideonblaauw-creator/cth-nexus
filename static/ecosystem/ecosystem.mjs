@@ -119,7 +119,9 @@ const I18N = {
     noResults: 'Sin resultados con estos filtros.',
     noRelations: 'Sin relaciones en datos.',
     geoUnknownTitle: 'Ubicación en mapa pendiente',
-    geoUnknownHint: 'Sin pin individual (precisión país o sin geocodificar). Agrupados por país en el mapa.',
+    geoUnknownHint: 'Sin pin individual (sin dirección verificada con coordenadas). Listados aquí; agrupados por país en el mapa.',
+    hqAbroad: 'Sede fuera del país',
+    hqAbroadHint: 'La dirección verificada está fuera del país del actor en el catálogo.',
     storyRailIntro: 'Recorrido staff: misma vista mapa + red + inspector. Capítulo 5 propone alianzas con aristas Suggested.',
     storyCounts: 'Conteo por capítulo',
     storySuggestedHint: 'Capítulo 5 puede proponer hub/startup/funder sugeridos; no sustituye relaciones verificadas.',
@@ -172,7 +174,9 @@ const I18N = {
     noResults: 'No results with these filters.',
     noRelations: 'No relations in data.',
     geoUnknownTitle: 'Map location pending',
-    geoUnknownHint: 'No individual pin (country precision or not geocoded). Grouped by country badge on the map.',
+    geoUnknownHint: 'No individual pin (no verified street address with coordinates). Listed here; grouped by country badge on the map.',
+    hqAbroad: 'HQ abroad',
+    hqAbroadHint: 'Verified address is outside this actor’s catalogue country.',
     storyRailIntro: 'Staff walkthrough: same map + network + inspector. Chapter 5 adds Suggested partnership edges.',
     storyCounts: 'Per-chapter edge counts',
     storySuggestedHint: 'Chapter 5 may suggest hub/startup/funder paths; not verified relationships.',
@@ -980,7 +984,10 @@ function renderCards(list) {
     const desc = cardField(a, 'description');
     const year = cardField(a, 'founding_year');
     const locParts = [a.city, a.country].filter(Boolean);
-    const locLine = locParts.length ? locParts.map((x) => esc(x)).join(', ') : esc(a.country || '');
+    let locLine = locParts.length ? locParts.map((x) => esc(x)).join(', ') : esc(a.country || '');
+    if (a.geo?.hq_abroad) {
+      locLine += ` <span class="hq-abroad-chip" title="${esc(tr.hqAbroadHint)}">${esc(tr.hqAbroad)}</span>`;
+    }
     const website = a.website
       ? `<a class="link-btn" href="${esc(a.website.startsWith('http') ? a.website : `https://${a.website}`)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${tr.website}</a>`
       : '';

@@ -2,152 +2,272 @@
   "jurors": [
     {
       "name": "Eddie Ajalcriña",
-      "events": ["Americas Regional Final · 4 Sep 2026"],
+      "events": [
+        "Americas Regional Final · 4 Sep 2026"
+      ],
       "organisation": "redesignlab",
       "bio_en": "Affiliated with redesignlab. Juror for the Americas Regional Final · 4 Sep 2026.",
-      "bio_es": "Vinculado a redesignlab. Jurado en la Final Regional de las Américas · 4 sep 2026."
+      "bio_es": "Vinculado a redesignlab. Jurado en la Final Regional de las Américas · 4 sep 2026.",
+      "location_precision": "city",
+      "city": "Lima",
+      "country": "Peru",
+      "location_source_url": "https://www.redesignlab.org/",
+      "location_note": "CEO on public team page; org lists Lima, Peru."
     },
     {
       "name": "Flora Drozak",
-      "events": ["Americas Regional Final · 4 Sep 2026"],
+      "events": [
+        "Americas Regional Final · 4 Sep 2026"
+      ],
       "bio_en": "Juror for the Americas Regional Final · 4 Sep 2026.",
-      "bio_es": "Jurada en la Final Regional de las Américas · 4 sep 2026."
+      "bio_es": "Jurada en la Final Regional de las Américas · 4 sep 2026.",
+      "location_precision": "city",
+      "city": "Berlin",
+      "country": "Germany",
+      "location_source_url": "https://www.climate-kic.org/programmes/climate-entrepreneurship/inclusive-climate-innovation/",
+      "location_note": "Climate KIC inclusive innovation team; Germany office Berlin."
     },
     {
       "name": "Sebastián Bustamante",
-      "events": ["Americas Regional Final · 4 Sep 2026"],
+      "events": [
+        "Americas Regional Final · 4 Sep 2026"
+      ],
       "organisation": "Climate-KIC",
       "bio_en": "Affiliated with Climate-KIC. Juror for the Americas Regional Final · 4 Sep 2026.",
-      "bio_es": "Vinculado a Climate-KIC. Jurado en la Final Regional de las Américas · 4 sep 2026."
+      "bio_es": "Vinculado a Climate-KIC. Jurado en la Final Regional de las Américas · 4 sep 2026.",
+      "location_precision": "city",
+      "city": "Barcelona",
+      "country": "Spain",
+      "location_source_url": "https://www.b2match.com/e/4-basquegreentech/participants/2793637",
+      "location_note": "Public event profile: Climate KIC, Barcelona."
     },
     {
       "name": "Johana Figueroa",
-      "events": ["Americas Regional Final · 4 Sep 2026"],
+      "events": [
+        "Americas Regional Final · 4 Sep 2026"
+      ],
       "bio_en": "Juror for the Americas Regional Final · 4 Sep 2026.",
-      "bio_es": "Jurada en la Final Regional de las Américas · 4 sep 2026."
+      "bio_es": "Jurada en la Final Regional de las Américas · 4 sep 2026.",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Lina Ospina",
-      "events": ["Colombia National Final · 20 Aug 2026"],
+      "events": [
+        "Colombia National Final · 20 Aug 2026"
+      ],
       "organisation": "Corporación Interactuar",
       "role": "Líder de Alianzas",
       "linkedin_url": "https://www.linkedin.com/in/lina-ospina-mosquera/",
       "bio_en": "Líder de Alianzas at Corporación Interactuar. Juror for the Colombia National Final · 20 Aug 2026.",
-      "bio_es": "Líder de Alianzas en Corporación Interactuar. Jurada en la Final Nacional de Colombia · 20 ago 2026."
+      "bio_es": "Líder de Alianzas en Corporación Interactuar. Jurada en la Final Nacional de Colombia · 20 ago 2026.",
+      "location_precision": "city",
+      "city": "Bello",
+      "country": "Colombia",
+      "location_source_url": "https://www.interactuar.org.co/contacto",
+      "location_note": "Corporación Interactuar; org contact Bello."
     },
     {
       "name": "Diana María Quimbay",
-      "events": ["Colombia National Final · 20 Aug 2026"],
+      "events": [
+        "Colombia National Final · 20 Aug 2026"
+      ],
       "bio_en": "Juror for the Colombia National Final · 20 Aug 2026.",
-      "bio_es": "Jurada en la Final Nacional de Colombia · 20 ago 2026."
+      "bio_es": "Jurada en la Final Nacional de Colombia · 20 ago 2026.",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Camila Hernández Lozada",
-      "events": ["Colombia National Final · 20 Aug 2026"],
+      "events": [
+        "Colombia National Final · 20 Aug 2026"
+      ],
       "bio_en": "Juror for the Colombia National Final · 20 Aug 2026.",
-      "bio_es": "Jurada en la Final Nacional de Colombia · 20 ago 2026."
+      "bio_es": "Jurada en la Final Nacional de Colombia · 20 ago 2026.",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Santiago Quiñones",
-      "events": ["Colombia National Final · 20 Aug 2026"],
+      "events": [
+        "Colombia National Final · 20 Aug 2026"
+      ],
       "bio_en": "Juror for the Colombia National Final · 20 Aug 2026.",
-      "bio_es": "Jurado en la Final Nacional de Colombia · 20 ago 2026."
+      "bio_es": "Jurado en la Final Nacional de Colombia · 20 ago 2026.",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Felipe González",
-      "events": ["Colombia National Final · 20 Aug 2026"],
+      "events": [
+        "Colombia National Final · 20 Aug 2026"
+      ],
       "bio_en": "Juror for the Colombia National Final · 20 Aug 2026.",
-      "bio_es": "Jurado en la Final Nacional de Colombia · 20 ago 2026."
+      "bio_es": "Jurado en la Final Nacional de Colombia · 20 ago 2026.",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Luis Miguel Mateus",
-      "events": ["Colombia National Final · 20 Aug 2026"],
+      "events": [
+        "Colombia National Final · 20 Aug 2026"
+      ],
       "bio_en": "Juror for the Colombia National Final · 20 Aug 2026.",
-      "bio_es": "Jurado en la Final Nacional de Colombia · 20 ago 2026."
+      "bio_es": "Jurado en la Final Nacional de Colombia · 20 ago 2026.",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Ana María Parra García",
-      "events": ["Colombia National Final · 20 Aug 2026"],
+      "events": [
+        "Colombia National Final · 20 Aug 2026"
+      ],
       "organisation": "Fedepalma",
       "role": "New Resources Specialist",
       "linkedin_url": "https://www.linkedin.com/in/ana-maria-parra-pm/",
       "bio_en": "New Resources Specialist at Fedepalma. Juror for the Colombia National Final · 20 Aug 2026.",
-      "bio_es": "New Resources Specialist en Fedepalma. Jurada en la Final Nacional de Colombia · 20 ago 2026."
+      "bio_es": "New Resources Specialist en Fedepalma. Jurada en la Final Nacional de Colombia · 20 ago 2026.",
+      "location_precision": "city",
+      "city": "Bogotá",
+      "country": "Colombia",
+      "location_source_url": "https://fedepalma.org/contacto-solicitudes-palmeros/",
+      "location_note": "Fedepalma HQ Bogotá."
     },
     {
       "name": "Daniel Swift",
-      "events": ["Colombia National Final · 20 Aug 2026"],
+      "events": [
+        "Colombia National Final · 20 Aug 2026"
+      ],
       "organisation": "Banco de la Republica",
       "role": "Ingeniero Especializado",
       "linkedin_url": "https://www.linkedin.com/in/danielswiftpub/",
       "bio_en": "Ingeniero Especializado at Banco de la Republica. Juror for the Colombia National Final · 20 Aug 2026.",
-      "bio_es": "Ingeniero Especializado en Banco de la Republica. Jurado en la Final Nacional de Colombia · 20 ago 2026."
+      "bio_es": "Ingeniero Especializado en Banco de la Republica. Jurado en la Final Nacional de Colombia · 20 ago 2026.",
+      "location_precision": "city",
+      "city": "Bogotá",
+      "country": "Colombia",
+      "location_source_url": "https://www.banrep.gov.co/es/sucursal-bogota-edificio-principal",
+      "location_note": "Banco de la República principal building Bogotá."
     },
     {
       "name": "Iván Dávila",
-      "events": ["Colombia National Final · 20 Aug 2026"],
+      "events": [
+        "Colombia National Final · 20 Aug 2026"
+      ],
       "organisation": "FutureLab BIC",
       "role": "Founder & CEO",
       "linkedin_url": "https://www.linkedin.com/in/ivandavilav/",
       "nexus_id": "M052",
       "bio_en": "Founder & CEO of FutureLab BIC and senior consultant in triple-impact innovation, sustainability and business development with more than 15 years of experience in circular economy and sustainable business projects. Juror for the Colombia National Final · 20 Aug 2026.",
-      "bio_es": "Founder & CEO de FutureLab BIC y consultor senior en innovación de triple impacto, sostenibilidad y desarrollo empresarial, con más de 15 años de experiencia en economía circular y negocios sostenibles. Cofundador de Future Lab SAS BIC. Jurado en la Final Nacional de Colombia · 20 ago 2026."
+      "bio_es": "Founder & CEO de FutureLab BIC y consultor senior en innovación de triple impacto, sostenibilidad y desarrollo empresarial, con más de 15 años de experiencia en economía circular y negocios sostenibles. Cofundador de Future Lab SAS BIC. Jurado en la Final Nacional de Colombia · 20 ago 2026.",
+      "location_precision": "city",
+      "city": "Bogotá",
+      "country": "Colombia",
+      "location_source_url": "https://futurelab.com.co/hablemos/",
+      "location_note": "FutureLab BIC; contact Bogotá."
     },
     {
       "name": "Mario Rojas",
-      "events": ["Colombia National Final · 20 Aug 2026"],
+      "events": [
+        "Colombia National Final · 20 Aug 2026"
+      ],
       "organisation": "Uniandinos",
       "role": "Red de metores y Docente",
       "linkedin_url": "https://www.linkedin.com/in/mario-fernando-rojas-nieto/",
       "bio_en": "Red de metores y Docente at Uniandinos. Juror for the Colombia National Final · 20 Aug 2026.",
-      "bio_es": "Red de metores y Docente en Uniandinos. Jurado en la Final Nacional de Colombia · 20 ago 2026."
+      "bio_es": "Red de metores y Docente en Uniandinos. Jurado en la Final Nacional de Colombia · 20 ago 2026.",
+      "location_precision": "city",
+      "city": "Bogotá",
+      "country": "Colombia",
+      "location_source_url": "https://www.uniandinos.org.co/sede-nacional/",
+      "location_note": "Uniandinos national HQ Bogotá."
     },
     {
       "name": "Mariana Revilla Llaca",
-      "events": ["Colombia National Final · 20 Aug 2026"],
+      "events": [
+        "Colombia National Final · 20 Aug 2026"
+      ],
       "organisation": "Grupo Restaurantero Gigante",
       "role": "Gerente de Sustentabilidad",
       "linkedin_url": "https://www.linkedin.com/in/ACoAACJO8qYByt8d8R8InDQGReuHjGlBkUq2xZA",
       "bio_en": "Environmental engineer and Gerente de Sustentabilidad for Grupo Restaurantero Gigante's restaurant business, focusing on carbon footprint, energy, water, waste and packaging. She holds a master's degree in environmental topics in England and has four years of climate-change consultancy experience for retail, aluminium, food and beverage companies.",
-      "bio_es": "Ingeniera ambiental y Gerente de Sustentabilidad en la parte restaurantera de Gigante, con enfoque en huella de carbono, energía, agua, residuos y empaques. Realizó una maestría en Inglaterra en temas ambientales y trabajó cuatro años en consultoría de cambio climático para empresas de retail, aluminio, comida y bebida."
+      "bio_es": "Ingeniera ambiental y Gerente de Sustentabilidad en la parte restaurantera de Gigante, con enfoque en huella de carbono, energía, agua, residuos y empaques. Realizó una maestría en Inglaterra en temas ambientales y trabajó cuatro años en consultoría de cambio climático para empresas de retail, aluminio, comida y bebida.",
+      "location_precision": "city",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "location_source_url": "https://www.expoknews.com/5-formas-de-impulsar-la-gestion-de-residuos-grupo-restaurantero-gigante/",
+      "location_note": "Grupo Restaurantero Gigante sustainability role (Mexico)."
     },
     {
       "name": "Santiago Cruz",
-      "events": ["Central America Mini-final · 25 Aug 2026"],
+      "events": [
+        "Central America Mini-final · 25 Aug 2026"
+      ],
       "bio_en": "Juror for the Central America Mini-final · 25 Aug 2026.",
-      "bio_es": "Jurado en la Mini-final de Centroamérica · 25 ago 2026."
+      "bio_es": "Jurado en la Mini-final de Centroamérica · 25 ago 2026.",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Felipe Hernández",
-      "events": ["Central America Mini-final · 25 Aug 2026"],
+      "events": [
+        "Central America Mini-final · 25 Aug 2026"
+      ],
       "bio_en": "Juror for the Central America Mini-final · 25 Aug 2026.",
-      "bio_es": "Jurado en la Mini-final de Centroamérica · 25 ago 2026."
+      "bio_es": "Jurado en la Mini-final de Centroamérica · 25 ago 2026.",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Diego Martínez de Velasco",
-      "events": ["Central America Mini-final · 25 Aug 2026"],
+      "events": [
+        "Central America Mini-final · 25 Aug 2026"
+      ],
       "bio_en": "Juror for the Central America Mini-final · 25 Aug 2026.",
-      "bio_es": "Jurado en la Mini-final de Centroamérica · 25 ago 2026."
+      "bio_es": "Jurado en la Mini-final de Centroamérica · 25 ago 2026.",
+      "location_precision": "city",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "location_source_url": "https://ongoing.ibero.mx/objetivos-del-desarrollo-sostenible-en-accion-impacto-global/",
+      "location_note": "Public bio: Universidad Iberoamericana Ciudad de México."
     },
     {
       "name": "Héctor Vinicio España González",
-      "events": ["Central America Mini-final · 25 Aug 2026"],
+      "events": [
+        "Central America Mini-final · 25 Aug 2026"
+      ],
       "bio_en": "Juror for the Central America Mini-final · 25 Aug 2026.",
-      "bio_es": "Jurado en la Mini-final de Centroamérica · 25 ago 2026."
+      "bio_es": "Jurado en la Mini-final de Centroamérica · 25 ago 2026.",
+      "location_precision": "unknown",
+      "location_note": "No city verified from public employer site or public bio in this pass."
     },
     {
       "name": "Federico Espinosa",
-      "events": ["Central America Mini-final · 25 Aug 2026"],
+      "events": [
+        "Central America Mini-final · 25 Aug 2026"
+      ],
       "organisation": "Universidad Veritas (CR)",
       "bio_en": "Affiliated with Universidad Veritas (CR). Juror for the Central America Mini-final · 25 Aug 2026.",
-      "bio_es": "Vinculado a Universidad Veritas (CR). Jurado en la Mini-final de Centroamérica · 25 ago 2026."
+      "bio_es": "Vinculado a Universidad Veritas (CR). Jurado en la Mini-final de Centroamérica · 25 ago 2026.",
+      "location_precision": "city",
+      "city": "San José",
+      "country": "Costa Rica",
+      "location_source_url": "https://studyabroad.veritas.cr/contact-us/",
+      "location_note": "Universidad Veritas campus San José."
     },
     {
       "name": "Andrés Ortega",
-      "events": ["Central America Mini-final · 25 Aug 2026"],
+      "events": [
+        "Central America Mini-final · 25 Aug 2026"
+      ],
       "organisation": "Team CEE+",
       "bio_en": "Affiliated with Team CEE+. Juror for the Central America Mini-final · 25 Aug 2026.",
-      "bio_es": "Vinculado a Team CEE+. Jurado en la Mini-final de Centroamérica · 25 ago 2026."
+      "bio_es": "Vinculado a Team CEE+. Jurado en la Mini-final de Centroamérica · 25 ago 2026.",
+      "location_precision": "city",
+      "city": "Bogotá",
+      "country": "Colombia",
+      "location_source_url": "https://www.uexternado.edu.co/centroemprendimientocee/",
+      "location_note": "Team CEE+ / Emprende+; Externado Bogotá."
     }
   ]
 }

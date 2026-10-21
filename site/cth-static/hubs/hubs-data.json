@@ -11,8 +11,14 @@
         "y": 42
       },
       "geo": {
-        "lat": 4.6287,
-        "lng": -74.0647
+        "precision": "address",
+        "address": "Calle 12 No. 1-17 Este",
+        "city": "Bogotá",
+        "country": "Colombia",
+        "source_url": "https://www.uexternado.edu.co/contacto/",
+        "lat": 4.5952455,
+        "lng": -74.0683393,
+        "location_note": "REIN Hub · Bogotá; Nominatim amenity match for published campus address (Calle 12)"
       },
       "name": {
         "ES": "Universidad Externado de Colombia",
@@ -384,8 +390,14 @@
         "y": 38
       },
       "geo": {
-        "lat": 14.6349,
-        "lng": -90.5069
+        "precision": "address",
+        "address": "Vista Hermosa III, Zona 16",
+        "city": "Ciudad de Guatemala",
+        "country": "Guatemala",
+        "source_url": "https://principal.url.edu.gt/acerca-de/",
+        "lat": 14.5955239,
+        "lng": -90.4843279,
+        "location_note": "REIN Hub · Guatemala; official footer lists Campus Central address (zona-level); Nominatim university POI in Zona 16 (~5 km from prior capital centroid)"
       },
       "name": {
         "ES": "Universidad Rafael Landívar",
@@ -646,8 +658,14 @@
         "y": 58
       },
       "geo": {
-        "lat": -12.0464,
-        "lng": -77.0428
+        "precision": "address",
+        "address": "Av. Salaverry 2020",
+        "city": "Jesús María",
+        "country": "Peru",
+        "source_url": "https://www.up.edu.pe/paginas/contactenos.aspx",
+        "lat": -12.0838826,
+        "lng": -77.0483187,
+        "location_note": "REIN Hub · Peru; Emprende UP hub uses UP main campus (domicilio legal); Nominatim match (~4.2 km from prior Lima centroid)"
       },
       "name": {
         "ES": "Emprende UP · Universidad del Pacífico",
@@ -938,8 +956,14 @@
         "y": 36
       },
       "geo": {
-        "lat": 13.6929,
-        "lng": -89.2182
+        "precision": "address",
+        "address": "3a. calle Poniente Schafik Hándal y bulevar Constitución #301, colonia Escalón",
+        "city": "San Salvador",
+        "country": "El Salvador",
+        "source_url": "https://www.utec.edu.sv/en/races/architecture",
+        "lat": 13.704455,
+        "lng": -89.226067,
+        "location_note": "REIN Hub · San Salvador; campus Loucel (CREA/incubation); Nominatim match on Blvd Constitución #301 Escalón (~1.5 km from prior capital centroid)"
       },
       "name": {
         "ES": "UTEC · REIN Hub El Salvador",
@@ -1213,8 +1237,14 @@
         "y": 44
       },
       "geo": {
-        "lat": 9.9369,
-        "lng": -84.0219
+        "precision": "address",
+        "address": "Calle 31, Avenida 20",
+        "city": "San José",
+        "country": "Costa Rica",
+        "source_url": "https://studyabroad.veritas.cr/contact-us/",
+        "lat": 9.9254713,
+        "lng": -84.0648763,
+        "location_note": "REIN Hub · Costa Rica; CPIES/CIPSS campus address on official veritas.cr subdomain; Nominatim university POI in Zapote"
       },
       "name": {
         "ES": "Universidad LCI Veritas",

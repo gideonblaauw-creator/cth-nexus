@@ -199,36 +199,22 @@ def audit_hubs() -> list[dict]:
         geo = h.get("geo") or {}
         cc = h.get("country") or HUB_COUNTRY.get(h["id"], "")
         country = COUNTRY_FROM_CODE.get(cc, cc)
-        flags = []
-        lat, lng = geo.get("lat"), geo.get("lng")
-        if lat is not None and lng is not None:
-            cap_name = country if country in CAPITAL else None
-            if cap_name and round_pair(lat, lng) == round_pair(*CAPITAL[cap_name]):
-                flags.append("country-capital-centroid")
-            if not geo.get("precision") and not geo.get("source_url"):
-                flags.append("missing-source-url")
-        tier = "verified-address+coords" if lat is not None else "country-only"
-        if flags:
-            tier = "city-only" if "country-capital-centroid" not in flags else "city-only"
-        # Hubs: treat as city-level institutional pins unless address documented
-        if lat is not None:
-            tier = "city-only"
+        flags = pin_flags(geo, h["id"])
+        tier = tier_from_geo(geo, country)
         rows.append(
             {
                 "entity_type": "hub_hubmap",
                 "entity_id": h["id"],
                 "name": (h.get("name") or {}).get("EN") or h["id"],
                 "country": country,
-                "location_tier": tier if lat is not None else "country-only",
-                "pin_policy_status": "suspect-pin"
-                if flags or lat is not None
-                else "no-pin",
+                "location_tier": tier,
+                "pin_policy_status": policy_status(tier, flags, geo),
                 "precision": geo.get("precision"),
-                "lat": lat,
-                "lng": lng,
+                "lat": geo.get("lat"),
+                "lng": geo.get("lng"),
                 "source_url": scrub(geo.get("source_url")),
-                "flags": ";".join(flags) if flags else "hub-static-geo",
-                "notes": h.get("short", {}).get("EN", ""),
+                "flags": ";".join(flags) if flags else "",
+                "notes": scrub(geo.get("address") or h.get("short", {}).get("EN", "")),
             }
         )
     return rows
@@ -238,20 +224,31 @@ def audit_portfolio() -> list[dict]:
     rows = []
     for s in portfolio_startups():
         cc = s.get("c")
-        country = COUNTRY_FROM_CODE.get(cc, cc)
+        loc = s.get("loc") or {}
+        country = loc.get("country") or COUNTRY_FROM_CODE.get(cc, cc)
+        geo = {
+            "precision": loc.get("precision"),
+            "lat": loc.get("lat"),
+            "lng": loc.get("lng"),
+            "source_url": loc.get("source_url"),
+            "address": loc.get("address"),
+            "country": country,
+        }
+        flags = pin_flags(geo if loc else None)
+        tier = tier_from_geo(geo if loc else None, country)
         rows.append(
             {
                 "entity_type": "portfolio_startup",
                 "entity_id": s.get("slug") or s.get("n", "").lower().replace(" ", "-"),
                 "name": s.get("n"),
                 "country": country,
-                "location_tier": "country-only" if country else "none",
-                "pin_policy_status": "no-pin",
-                "precision": None,
-                "lat": None,
-                "lng": None,
-                "source_url": "",
-                "flags": "country-code-only",
+                "location_tier": tier,
+                "pin_policy_status": policy_status(tier, flags, geo if loc else None),
+                "precision": loc.get("precision"),
+                "lat": loc.get("lat"),
+                "lng": loc.get("lng"),
+                "source_url": scrub(loc.get("source_url")),
+                "flags": ";".join(flags) if flags else ("country-code-only" if not loc else ""),
                 "notes": f"program={s.get('p')}",
             }
         )
@@ -264,19 +261,32 @@ def audit_onepagers() -> list[dict]:
     for path in sorted(data_dir.glob("*.json")):
         data = load_json(path)
         country = onepager_country(data)
+        loc = data.get("location") or {}
+        if loc.get("country"):
+            country = loc.get("country")
+        geo = {
+            "precision": loc.get("precision"),
+            "lat": loc.get("lat"),
+            "lng": loc.get("lng"),
+            "source_url": loc.get("source_url") or data.get("website"),
+            "address": loc.get("address"),
+            "country": country,
+        }
+        flags = pin_flags(geo if loc else None)
+        tier = tier_from_geo(geo if loc else None, country)
         rows.append(
             {
                 "entity_type": "startup_onepager_s",
                 "entity_id": data.get("slug") or path.stem,
                 "name": data.get("name"),
                 "country": country,
-                "location_tier": "country-only" if country else "none",
-                "pin_policy_status": "no-pin",
-                "precision": None,
-                "lat": None,
-                "lng": None,
-                "source_url": scrub(data.get("website")),
-                "flags": "no-geo-field",
+                "location_tier": tier,
+                "pin_policy_status": policy_status(tier, flags, geo if loc else None),
+                "precision": loc.get("precision"),
+                "lat": loc.get("lat"),
+                "lng": loc.get("lng"),
+                "source_url": scrub(loc.get("source_url") or data.get("website")),
+                "flags": ";".join(flags) if flags else ("no-geo-field" if not loc else ""),
                 "notes": "",
             }
         )
@@ -287,20 +297,30 @@ def audit_mentors() -> list[dict]:
     mentors = load_json(ROOT / "data/clp26/mentor_cards.json")["mentors"]
     rows = []
     for i, m in enumerate(mentors):
+        prec = m.get("location_precision")
+        country = m.get("country")
+        city = m.get("city")
+        tier = "none"
+        if prec == "city" and city:
+            tier = "city-only"
+        elif prec == "country" and country:
+            tier = "country-only"
+        elif country:
+            tier = "country-only"
         rows.append(
             {
                 "entity_type": "mentor_clp26",
                 "entity_id": m.get("nexus_id") or f"mentor-{i+1}",
                 "name": m.get("name"),
-                "country": m.get("country"),
-                "location_tier": "country-only" if m.get("country") else "none",
+                "country": country,
+                "location_tier": tier,
                 "pin_policy_status": "no-pin",
-                "precision": None,
+                "precision": prec,
                 "lat": None,
                 "lng": None,
-                "source_url": scrub(m.get("linkedin_url")),
-                "flags": "no-geo-field",
-                "notes": "",
+                "source_url": scrub(m.get("location_source_url") or m.get("linkedin_url")),
+                "flags": "no-map-pin",
+                "notes": scrub(m.get("location_note") or ""),
             }
         )
     return rows
@@ -311,20 +331,29 @@ def audit_investors_crm() -> list[dict]:
     rows = []
     for i in inv:
         country = i.get("country")
+        prec = i.get("location_precision")
+        city = i.get("hq_city")
+        tier = "none"
+        if prec == "city" and city:
+            tier = "city-only"
+        elif prec == "country" and country:
+            tier = "country-only"
+        elif country:
+            tier = "country-only"
         rows.append(
             {
                 "entity_type": "investor_crm",
                 "entity_id": str(i.get("id")),
                 "name": i.get("name"),
                 "country": country,
-                "location_tier": "country-only" if country else "none",
+                "location_tier": tier,
                 "pin_policy_status": "no-pin",
-                "precision": None,
+                "precision": prec,
                 "lat": None,
                 "lng": None,
-                "source_url": scrub(i.get("website")),
-                "flags": "no-geo-field",
-                "notes": "",
+                "source_url": scrub(i.get("hq_source_url") or i.get("website")),
+                "flags": "no-map-pin",
+                "notes": scrub(i.get("hq_evidence") or ""),
             }
         )
     return rows
@@ -346,20 +375,31 @@ def audit_ideas_curated() -> list[dict]:
         for it in items:
             cc = it.get("country")
             country = COUNTRY_FROM_CODE.get(cc, cc) if cc and len(cc) == 2 else cc
+            loc = it.get("location") or {}
+            if loc.get("country"):
+                country = loc.get("country")
+            prec = loc.get("precision")
+            tier = "none"
+            if prec == "city" and loc.get("city"):
+                tier = "city-only"
+            elif prec == "country" and country:
+                tier = "country-only"
+            elif country:
+                tier = "country-only"
             rows.append(
                 {
                     "entity_type": etype,
                     "entity_id": it.get("slug") or it.get("startup_name", ""),
                     "name": it.get("name") or it.get("startup_name"),
                     "country": country,
-                    "location_tier": "country-only" if country else "none",
+                    "location_tier": tier,
                     "pin_policy_status": "no-pin",
-                    "precision": None,
-                    "lat": None,
-                    "lng": None,
-                    "source_url": scrub(it.get("website")),
-                    "flags": "bookstack-live-no-snapshot",
-                    "notes": "city in page markdown only",
+                    "precision": prec,
+                    "lat": loc.get("lat"),
+                    "lng": loc.get("lng"),
+                    "source_url": scrub(loc.get("source_url") or it.get("website")),
+                    "flags": "bookstack-live-no-snapshot" if not loc else "no-map-pin",
+                    "notes": scrub(loc.get("location_note") or "city in page markdown only"),
                 }
             )
     return rows
@@ -392,20 +432,28 @@ def audit_jury() -> list[dict]:
     jurors = load_json(ROOT / "data/clp26/jury_cards.json")["jurors"]
     rows = []
     for i, j in enumerate(jurors):
+        prec = j.get("location_precision")
+        country = j.get("country")
+        city = j.get("city")
+        tier = "none"
+        if prec == "city" and city:
+            tier = "city-only"
+        elif country:
+            tier = "country-only"
         rows.append(
             {
                 "entity_type": "jury_clp26",
                 "entity_id": f"juror-{i+1}",
                 "name": j.get("name"),
-                "country": None,
-                "location_tier": "none",
+                "country": country,
+                "location_tier": tier,
                 "pin_policy_status": "no-pin",
-                "precision": None,
+                "precision": prec,
                 "lat": None,
                 "lng": None,
-                "source_url": scrub(j.get("linkedin_url")),
-                "flags": "no-geo-field",
-                "notes": scrub(j.get("organisation") or ""),
+                "source_url": scrub(j.get("location_source_url") or j.get("linkedin_url")),
+                "flags": "no-map-pin",
+                "notes": scrub(j.get("location_note") or j.get("organisation") or ""),
             }
         )
     return rows

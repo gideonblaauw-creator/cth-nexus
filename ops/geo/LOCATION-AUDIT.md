@@ -12,16 +12,16 @@ Under this strict rule, `precision: city` pins, Nominatim/Photon name+city queri
 
 | Entity type | Total | Verified address + coords (strict) | Address precision + coords | City-only (plotted) | Country-only | None | Suspect / guessed pins |
 |-------------|------:|-----------------------------------:|-----------------------------:|--------------------:|-------------:|-----:|-----------------------:|
-| ecosystem_actor | 381 | 22 | 126 | 32 | 223 | 0 | 136 |
-| ecosystem_funder | 105 | 3 | 49 | 10 | 46 | 0 | 56 |
-| hub_hubmap | 5 | 0 | 0 | 5 | 0 | 0 | 5 |
-| portfolio_startup | 156 | 0 | 0 | 0 | 156 | 0 | 0 |
-| startup_onepager_s | 91 | 0 | 0 | 0 | 62 | 29 | 0 |
-| mentor_clp26 | 55 | 0 | 0 | 0 | 55 | 0 | 0 |
-| investor_crm | 529 | 0 | 0 | 0 | 125 | 404 | 0 |
+| ecosystem_actor | 381 | 116 | 116 | 0 | 265 | 0 | 0 |
+| ecosystem_funder | 105 | 41 | 41 | 0 | 64 | 0 | 0 |
+| hub_hubmap | 5 | 5 | 5 | 0 | 0 | 0 | 0 |
+| portfolio_startup | 156 | 11 | 11 | 0 | 145 | 0 | 0 |
+| startup_onepager_s | 91 | 4 | 4 | 0 | 68 | 19 | 0 |
+| mentor_clp26 | 55 | 0 | 0 | 4 | 51 | 0 | 0 |
+| investor_crm | 529 | 0 | 0 | 257 | 65 | 207 | 0 |
 | idea_curated_imd_pe | 16 | 0 | 0 | 0 | 16 | 0 | 0 |
 | idea_curated_epic | 17 | 0 | 0 | 0 | 0 | 17 | 0 |
-| jury_clp26 | 21 | 0 | 0 | 0 | 0 | 21 | 0 |
+| jury_clp26 | 21 | 0 | 0 | 12 | 0 | 9 | 0 |
 | policy_ecosystem | 40 | 0 | 0 | 0 | 40 | 0 | 0 |
 
 Gap export: [`location-gaps.csv`](./location-gaps.csv) (entities not meeting strict verified-address policy; no personal emails/phones).
@@ -41,40 +41,19 @@ Live Idea Browser pages are served from BookStack (`BOOKSTACK_*` not set in this
 
 Primary map dataset for `/ecosystem/`. Plottable pins use `geo.precision` `address` or `city` (`static/ecosystem/geo-utils.mjs`). Country-precision actors (223) show as country badges only.
 
-**By country (actors):** Peru 296, El Salvador 77, Colombia 8
+**By country (actors):** Peru 293, El Salvador 77, Colombia 6, United States 4, South Korea 1
 
-- Map-plottable pins (address+city precision): **158**
-- Policy-ok verified address pins: **22**
-- Country badge only: **223**
-
-**Suspect / non-compliant pin examples:**
-
-- `co-bancoldex` — Bancóldex (Colombia) tier=verified-address+coords flags=geocoder-api
-- `co-cif-climate-investment-funds` — CIF – Climate Investment Funds (Colombia) tier=verified-address+coords flags=geocoder-api
-- `co-gcf-green-climate-fund` — GCF – Green Climate Fund (Colombia) tier=verified-address+coords flags=geocoder-api
-- `pe-1551-unmsm` — 1551 (UNMSM) (Peru) tier=verified-address+coords flags=geocoder-api
+- Map-plottable pins (address+city precision): **116**
+- Policy-ok verified address pins: **116**
+- Country badge only: **265**
 
 ### ecosystem_funder
 
 Subset of ecosystem actors with `category` in `funder`, `finance`, `international`.
 
-**Suspect / non-compliant pin examples:**
-
-- `co-bancoldex` — Bancóldex (Colombia) tier=verified-address+coords flags=geocoder-api
-- `co-cif-climate-investment-funds` — CIF – Climate Investment Funds (Colombia) tier=verified-address+coords flags=geocoder-api
-- `co-gcf-green-climate-fund` — GCF – Green Climate Fund (Colombia) tier=verified-address+coords flags=geocoder-api
-- `pe-acumen` — Acumen (Peru) tier=verified-address+coords flags=geocoder-api
-
 ### hub_hubmap
 
 HubMap (`site/cth-static/hubs/hubs-data.json`). Geo is a single lat/lng per hub; several match national capital coordinates.
-
-**Suspect / non-compliant pin examples:**
-
-- `el-salvador` — UTEC · REIN Hub El Salvador (El Salvador) tier=city-only flags=country-capital-centroid;missing-source-url
-- `emprende-up` — Emprende UP · Universidad del Pacífico (Peru) tier=city-only flags=country-capital-centroid;missing-source-url
-- `externado` — Universidad Externado de Colombia (Colombia) tier=city-only flags=missing-source-url
-- `landivar` — Universidad Rafael Landívar (Guatemala) tier=city-only flags=country-capital-centroid;missing-source-url
 
 ### portfolio_startup
 
@@ -110,9 +89,9 @@ Policy nodes in ecosystem story — country metadata only (no map pins).
 
 ## Ecosystem actor precision (deployed bundle)
 
-- `address`: **126**
+- `address`: **116**
 - `city`: **32**
-- `country`: **223**
+- `country`: **233**
 
 ## Regenerate
 

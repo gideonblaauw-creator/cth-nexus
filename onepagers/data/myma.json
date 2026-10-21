@@ -189,5 +189,16 @@
     "cta": "Unsplash — Liam Briese (air / atmosphere monitoring context)"
   },
   "image_credits_en": " Section photo: Unsplash — Unsplash contributor.",
-  "image_credits_es": " Foto de sección: Unsplash — Unsplash contributor."
+  "image_credits_es": " Foto de sección: Unsplash — Unsplash contributor.",
+  "location": {
+    "precision": "city",
+    "city": "Guatemala City",
+    "country": "Guatemala",
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "source_url": "https://www.mymagt.com/",
+    "hq_abroad": null,
+    "location_note": "City on public one-pager"
+  }
 }

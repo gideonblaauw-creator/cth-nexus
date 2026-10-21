@@ -179,5 +179,16 @@
     "section_03_impact": "Unsplash — Nathan Dumlao (coffee harvest)",
     "section_04_leadership": "Unsplash — Rodrigo Flores (coffee plantation)",
     "cta": "Unsplash — Nathan Dumlao (specialty coffee cup)"
+  },
+  "location": {
+    "precision": "city",
+    "city": "Pereira",
+    "country": "Colombia",
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "source_url": "https://montejazmin.com/",
+    "hq_abroad": null,
+    "location_note": "City from one-pager or public website; no verified street office published"
   }
 }

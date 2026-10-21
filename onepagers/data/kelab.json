@@ -171,5 +171,16 @@
   "hero_credit_es": "Foto: Elevate / Unsplash",
   "cta_bg": "./assets/bg-cta.jpg",
   "cta_bg_credit_en": "Photo: Priscilla Du Preez / Unsplash",
-  "cta_bg_credit_es": "Foto: Priscilla Du Preez / Unsplash"
+  "cta_bg_credit_es": "Foto: Priscilla Du Preez / Unsplash",
+  "location": {
+    "precision": "city",
+    "city": "Cali",
+    "country": "Colombia",
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "source_url": "https://kelab.com.co",
+    "hq_abroad": null,
+    "location_note": "City from /s/ one-pager and public site"
+  }
 }

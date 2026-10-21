@@ -15,10 +15,34 @@
   "cta_btn_en": "Visit website",
   "cta_btn_es": "Visitar sitio",
   "ribbon": [
-    {"val": "CO", "lab_en": "Country", "lab_es": "País", "sub_en": "Colombia", "sub_es": "Colombia"},
-    {"val": "Pre-A", "lab_en": "Stage", "lab_es": "Etapa", "sub_en": "CLAC21", "sub_es": "CLAC21"},
-    {"val": "Circular", "lab_en": "Sector", "lab_es": "Sector", "sub_en": "Cleantech", "sub_es": "Cleantech"},
-    {"val": "[P]", "lab_en": "Metrics", "lab_es": "Métricas", "sub_en": "[PENDIENTE]", "sub_es": "[PENDIENTE]"}
+    {
+      "val": "CO",
+      "lab_en": "Country",
+      "lab_es": "País",
+      "sub_en": "Colombia",
+      "sub_es": "Colombia"
+    },
+    {
+      "val": "Pre-A",
+      "lab_en": "Stage",
+      "lab_es": "Etapa",
+      "sub_en": "CLAC21",
+      "sub_es": "CLAC21"
+    },
+    {
+      "val": "Circular",
+      "lab_en": "Sector",
+      "lab_es": "Sector",
+      "sub_en": "Cleantech",
+      "sub_es": "Cleantech"
+    },
+    {
+      "val": "[P]",
+      "lab_en": "Metrics",
+      "lab_es": "Métricas",
+      "sub_en": "[PENDIENTE]",
+      "sub_es": "[PENDIENTE]"
+    }
   ],
   "portfolio": {
     "stat_program": "CLAC21",
@@ -102,5 +126,16 @@
     ],
     "footer_note_en": "Program: CLAC21. Portfolio card cites 99% oil removal — not repeated here without deck verification. Pitch deck: [PENDIENTE]. Verified KPIs: [PENDIENTE].",
     "footer_note_es": "Programa: CLAC21. Tarjeta cita 99% remoción de aceites — no repetido aquí sin verificación de deck. Pitch deck: [PENDIENTE]. KPIs verificados: [PENDIENTE]."
+  },
+  "location": {
+    "precision": "address",
+    "city": "Bogotá",
+    "country": "Colombia",
+    "address": "Carrera 16C #163-32, Bogotá",
+    "lat": 4.7338373,
+    "lng": -74.0414471,
+    "source_url": "https://zhanasolutions.com/",
+    "hq_abroad": null,
+    "location_note": "Street office on contact page"
   }
 }

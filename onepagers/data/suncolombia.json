@@ -170,5 +170,16 @@
     }
   ],
   "image_credits_en": " Section photo: Unsplash — Unsplash contributor.",
-  "image_credits_es": " Foto de sección: Unsplash — Unsplash contributor."
+  "image_credits_es": " Foto de sección: Unsplash — Unsplash contributor.",
+  "location": {
+    "precision": "country",
+    "city": null,
+    "country": "Colombia",
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "source_url": "https://www.suncolombia.co",
+    "hq_abroad": null,
+    "location_note": "Country only; no city or street on public site"
+  }
 }

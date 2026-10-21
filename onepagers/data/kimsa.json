@@ -168,5 +168,16 @@
   "hero_image": "https://static.wixstatic.com/media/9d6db3_0f8867f1f73c49b791b94ce91bfd59c6%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/9d6db3_0f8867f1f73c49b791b94ce91bfd59c6%7Emv2.jpg",
   "cta_bg": "https://images.unsplash.com/photo-1497435334941-8f4e114e509e?w=1200&q=80",
   "image_credits_en": "Image credits (kimsa):\n· Hero: KIMSA verified website (kimsa.co)\n· §01 Problem: Unsplash / Appolinary Kalashnikova\n· §02 Solution: Unsplash / Li-An Lim\n· §03 Impact: Unsplash / NASA\n· §04 Leadership: Unsplash / Luke Chesser\n· CTA: Unsplash / Johannes Plenio Section photo: Unsplash — Unsplash contributor. Section photo: Unsplash — Unsplash contributor.",
-  "image_credits_es": "Créditos de imagen (kimsa):\n· Hero: Sitio verificado KIMSA (kimsa.co)\n· §01 Problem: Unsplash / Appolinary Kalashnikova\n· §02 Solution: Unsplash / Li-An Lim\n· §03 Impact: Unsplash / NASA\n· §04 Leadership: Unsplash / Luke Chesser\n· CTA: Unsplash / Johannes Plenio Foto de sección: Unsplash — Unsplash contributor. Foto de sección: Unsplash — Unsplash contributor."
+  "image_credits_es": "Créditos de imagen (kimsa):\n· Hero: Sitio verificado KIMSA (kimsa.co)\n· §01 Problem: Unsplash / Appolinary Kalashnikova\n· §02 Solution: Unsplash / Li-An Lim\n· §03 Impact: Unsplash / NASA\n· §04 Leadership: Unsplash / Luke Chesser\n· CTA: Unsplash / Johannes Plenio Foto de sección: Unsplash — Unsplash contributor. Foto de sección: Unsplash — Unsplash contributor.",
+  "location": {
+    "precision": "country",
+    "city": null,
+    "country": "Colombia",
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "source_url": "https://kimsa.co/",
+    "hq_abroad": null,
+    "location_note": "Country only; no city or street on public site"
+  }
 }

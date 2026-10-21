@@ -169,5 +169,16 @@
     }
   ],
   "image_credits_en": " Section photo: Unsplash — Unsplash contributor.",
-  "image_credits_es": " Foto de sección: Unsplash — Unsplash contributor."
+  "image_credits_es": " Foto de sección: Unsplash — Unsplash contributor.",
+  "location": {
+    "precision": "city",
+    "city": "Quito",
+    "country": "Ecuador",
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "source_url": "https://nina.energy/",
+    "hq_abroad": null,
+    "location_note": "Quito HQ on one-pager; no verified street published"
+  }
 }
