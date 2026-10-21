@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-https-www-norway-no-es-peru](https://nexus.cleantechhub.net/s/pe-https-www-norway-no-es-peru) |
 
 ## Rol y alcance
 

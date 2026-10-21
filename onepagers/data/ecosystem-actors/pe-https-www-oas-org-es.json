@@ -1,0 +1,12 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-https-www-oas-org-es",
+  "actor_id": "pe-https-www-oas-org-es",
+  "name": "https://www.oas.org/es/",
+  "country": "Peru",
+  "city": "Washington, D.C. (sede); oficina nacional en Lima",
+  "category": "corporate",
+  "ecosystem_role": "Organización intergubernamental de cooperación regional",
+  "website": "https://www.oas.org/es/",
+  "description": "La OEA es el organismo regional de los Estados del Hemisferio Occidental para diálogo político, cooperación y seguimiento de compromisos multilaterales; en el Perú articula programas con actores públicos y privados en temas de gobernanza, derechos y desarrollo sostenible.\n\n**Año de fundación:** 1948"
+}

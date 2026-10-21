@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-https-www-coeeci-org-pe",
+  "actor_id": "pe-https-www-coeeci-org-pe",
+  "name": "https://www.coeeci.org.pe",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "corporate",
+  "ecosystem_role": "Organización empresarial o gremial del ecosistema peruano (COEECI).",
+  "website": "https://www.coeeci.org.pe",
+  "linkedin": "https://www.linkedin.com/company/coeeci",
+  "description": "COEECI es una institución referenciada en el mapa de actores con presencia institucional en coeeci.org.pe."
+}

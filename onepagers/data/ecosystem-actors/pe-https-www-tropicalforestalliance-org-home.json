@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-https-www-tropicalforestalliance-org-home",
+  "actor_id": "pe-https-www-tropicalforestalliance-org-home",
+  "name": "https://www.tropicalforestalliance.org/home",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "corporate",
+  "ecosystem_role": "Alianza multistakeholder por bosques tropicales",
+  "website": "https://www.tropicalforestalliance.org/home",
+  "linkedin": "https://www.linkedin.com/company/tropical-forest-alliance",
+  "description": "Alianza multilateral para eliminar la deforestación impulsada por commodities en bosques tropicales.\n\n| Campo | Valor |\n| --- | --- |\n| Año de fundación | 2012 |\n| Dirección | PENDIENTE |\n| Enfoque (taxonomía CT) | Bosques tropicales, cadenas de suministro, cero deforestación (AZU, BOS) |\n| Programas | Iniciativas sectoriales (palma, soya, carne, celulosa) y alianzas país para bosques tropicales. |"
+}

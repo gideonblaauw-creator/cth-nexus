@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-direccio-n-de-incubadora-de-empresas-de-la-unifs](https://nexus.cleantechhub.net/s/pe-direccio-n-de-incubadora-de-empresas-de-la-unifs) |
 
 ## Rol y alcance
 

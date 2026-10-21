@@ -28,7 +28,7 @@ tag_country: El Salvador
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/sv-minec-ministerio-de-economia](https://nexus.cleantechhub.net/s/sv-minec-ministerio-de-economia) |
 
 ## Rol y alcance
 

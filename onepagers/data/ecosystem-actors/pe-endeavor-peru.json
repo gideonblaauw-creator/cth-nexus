@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-endeavor-peru",
+  "actor_id": "pe-endeavor-peru",
+  "name": "Endeavor Perú",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "accelerator",
+  "ecosystem_role": "Aceleradora global de emprendedores de alto impacto con oficina en Perú.",
+  "website": "https://endeavor.org.pe",
+  "linkedin": "https://www.linkedin.com/company/endeavor-per",
+  "description": "Endeavor Perú selecciona y acompaña emprendedores de alto impacto para escalar empresas; forma parte de la red global Endeavor."
+}

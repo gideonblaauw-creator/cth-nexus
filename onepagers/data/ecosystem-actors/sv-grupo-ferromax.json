@@ -1,0 +1,12 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "sv-grupo-ferromax",
+  "actor_id": "sv-grupo-ferromax",
+  "name": "Grupo Ferromax",
+  "country": "El Salvador",
+  "city": "San Salvador",
+  "category": "corporate",
+  "ecosystem_role": "Grupo industrial de manufactura y distribución en El Salvador.",
+  "website": "https://grupoferromax.com",
+  "description": "Grupo industrial de manufactura y distribución en El Salvador."
+}

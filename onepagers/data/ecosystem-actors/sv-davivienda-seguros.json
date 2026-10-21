@@ -1,0 +1,12 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "sv-davivienda-seguros",
+  "actor_id": "sv-davivienda-seguros",
+  "name": "Davivienda Seguros",
+  "country": "El Salvador",
+  "city": "San Salvador",
+  "category": "finance",
+  "ecosystem_role": "Aseguradora del grupo Davivienda en El Salvador.",
+  "website": "https://www.davivienda.com.sv/wps/portal/personas/nosotros",
+  "description": "Aseguradora del grupo Davivienda en El Salvador."
+}

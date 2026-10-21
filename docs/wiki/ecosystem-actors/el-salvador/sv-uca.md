@@ -28,7 +28,7 @@ tag_country: El Salvador
 | Dirección | PENDIENTE |
 | Año de fundación | 1965 |
 | Desafíos (códigos) | AGR, BOS |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/sv-uca](https://nexus.cleantechhub.net/s/sv-uca) |
 
 ## Rol y alcance
 

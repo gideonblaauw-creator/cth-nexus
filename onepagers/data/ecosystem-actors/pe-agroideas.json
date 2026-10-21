@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-agroideas",
+  "actor_id": "pe-agroideas",
+  "name": "AGROIDEAS",
+  "country": "Peru",
+  "city": "San Isidro",
+  "category": "government",
+  "ecosystem_role": "Programa público de competitividad agraria.",
+  "website": "https://www.gob.pe/agroideas",
+  "linkedin": "https://linkedin.com/company/agroideas-del-minagri",
+  "description": "AGROIDEAS (Programa de Compensaciones para la Competitividad) es un programa del Ministerio de Desarrollo Agrario y Riego que apoya competitividad agraria mediante compensaciones y proyectos."
+}

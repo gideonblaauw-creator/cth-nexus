@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-imarpe",
+  "actor_id": "pe-imarpe",
+  "name": "IMARPE",
+  "country": "Peru",
+  "city": "Callao",
+  "category": "government",
+  "ecosystem_role": "Instituto de investigación pesquera del Estado peruano",
+  "website": "https://www.gob.pe/imarpe",
+  "linkedin": "https://www.linkedin.com/company/instituto-del-mar-del-per%C3%BA-imarpe",
+  "description": "Instituto de investigación pesquera del Estado peruano para el manejo sostenible de recursos hidrobiológicos.\n\n| Campo | Valor |\n| --- | --- |\n| Año de fundación | PENDIENTE |\n| Dirección | Av. Gamarra, Callao, Perú |\n| Enfoque (taxonomía CT) | Pesca sostenible, oceanografía, biodiversidad marina (BOS) |\n| Programas | Investigación, monitoreo y asesoría para la gestión pesquera nacional. |"
+}

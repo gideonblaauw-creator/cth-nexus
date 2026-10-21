@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Banco comercial y servicios financieros. |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | CIU, FIN |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-bbva-peru](https://nexus.cleantechhub.net/s/pe-bbva-peru) |
 
 ## Rol y alcance
 

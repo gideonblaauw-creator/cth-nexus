@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-profonanpe",
+  "actor_id": "pe-profonanpe",
+  "name": "Profonanpe",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "funder",
+  "ecosystem_role": "Fondo trust de financiamiento para áreas naturales protegidas",
+  "website": "https://profonanpe.org.pe",
+  "linkedin": "https://www.linkedin.com/company/profonanpe",
+  "description": "Profonanpe: entidad privada sin fines de lucro que moviliza y administra fondos para conservación de biodiversidad y acción climática en el Perú.\n\n| Detalle | Valor |\n| --- | --- |\n| Año de fundación | PENDIENTE (más de 30 años de operación institucional) |\n| Dirección | Av. Parque Gonzales Prada N°396, Magdalena del Mar, Lima |\n| Áreas de enfoque (CT) | BOS, AGU |\n| Programas | Fondo Naturaleza; proyectos en ANP, bosques, agua y pasivos ambientales |"
+}

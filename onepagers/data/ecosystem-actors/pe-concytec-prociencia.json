@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-concytec-prociencia",
+  "actor_id": "pe-concytec-prociencia",
+  "name": "CONCYTEC – ProCiencia",
+  "country": "Peru",
+  "city": "San Borja, Lima",
+  "category": "government",
+  "ecosystem_role": "Programa nacional de ciencia y tecnología (ProCiencia) bajo el ecosistema CONCYTEC para fondos de I+D e innovación.",
+  "website": "https://prociencia.gob.pe",
+  "linkedin": "https://www.linkedin.com/company/prociencia/",
+  "description": "Entidad ejecutora del programa ProCiencia del CONCYTEC; financia proyectos de ciencia, tecnología e innovación en el Perú.\n\n| Campo | Valor |\n| --- | --- |\n| Dirección | Av. Javier Prado Este 730, San Borja, Lima |\n| Año de fundación | PENDIENTE |\n| Áreas de enfoque (taxonomía CT) | ARG, BOS |\n| Programas | Concursos ProCiencia; fondos de I+D e innovación regional |"
+}

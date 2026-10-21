@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-https-www-international-gc-ca-country-pays-peru](https://nexus.cleantechhub.net/s/pe-https-www-international-gc-ca-country-pays-peru) |
 
 ## Rol y alcance
 

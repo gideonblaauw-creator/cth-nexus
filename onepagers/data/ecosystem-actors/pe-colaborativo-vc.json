@@ -1,0 +1,12 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-colaborativo-vc",
+  "actor_id": "pe-colaborativo-vc",
+  "name": "Colaborativo VC",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "corporate",
+  "ecosystem_role": "Fondo o plataforma de capital de riesgo con foco en emprendimiento de impacto en Perú.",
+  "website": "https://colaborativo.vc/",
+  "description": "Colaborativo VC aparece en el mapa de actores del ecosistema peruano como actor de inversión; sitio oficial en colaborativo.vc."
+}

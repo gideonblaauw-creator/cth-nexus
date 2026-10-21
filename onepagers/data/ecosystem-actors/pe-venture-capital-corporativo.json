@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-venture-capital-corporativo",
+  "actor_id": "pe-venture-capital-corporativo",
+  "name": "Venture capital corporativo",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "corporate",
+  "ecosystem_role": "Empresa / sector privado",
+  "website": "https://grupocredicorp.com",
+  "linkedin": "https://www.linkedin.com/company/credicorp/",
+  "description": "Categoría del mapa que agrupa vehículos de venture capital corporativo en Perú (referencia: Grupo Credicorp y filiales de innovación).\n\n| Campo | Valor |\n| --- | --- |\n| Dirección | Lima, Perú |\n| Año de fundación | PENDIENTE |\n| Áreas de enfoque (taxonomía CT) | AGR, BOS |\n| Programas | Inversión corporativa en startups (según vehículos del grupo) |"
+}

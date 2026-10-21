@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/nexosmasuno |
 | Rol en el ecosistema | Plataforma de acción climática empresarial (Libélula) |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-nexos-1](https://nexus.cleantechhub.net/s/pe-nexos-1) |
 
 ## Rol y alcance
 

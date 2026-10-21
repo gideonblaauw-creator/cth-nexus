@@ -28,7 +28,7 @@ tag_country: El Salvador
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/sv-crea-centro-de-emprendimiento-utec](https://nexus.cleantechhub.net/s/sv-crea-centro-de-emprendimiento-utec) |
 
 ## Rol y alcance
 

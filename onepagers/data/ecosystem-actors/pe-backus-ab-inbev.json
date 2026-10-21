@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-backus-ab-inbev",
+  "actor_id": "pe-backus-ab-inbev",
+  "name": "Backus (AB InBev)",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "corporate",
+  "ecosystem_role": "Empresa de bebidas y manufactura.",
+  "website": "https://www.backus.pe",
+  "linkedin": "https://www.linkedin.com/company/backus",
+  "description": "Backus es la cervecera líder del Perú, filial de AB InBev, con operaciones industriales y programas de sostenibilidad en su cadena de valor."
+}

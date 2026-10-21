@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AZU, BOS |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-fundacion-belcorp](https://nexus.cleantechhub.net/s/pe-fundacion-belcorp) |
 
 ## Rol y alcance
 

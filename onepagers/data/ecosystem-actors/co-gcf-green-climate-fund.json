@@ -1,0 +1,14 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "co-gcf-green-climate-fund",
+  "actor_id": "co-gcf-green-climate-fund",
+  "name": "GCF – Green Climate Fund",
+  "country": "Colombia",
+  "city": "Songdo, República de Corea (sede)",
+  "category": "international",
+  "ecosystem_role": "Fondo climático internacional del marco de la CMNUCC.",
+  "website": "https://www.greenclimate.fund",
+  "linkedin": "https://www.linkedin.com/company/green-climate-fund",
+  "founding_year": "2010",
+  "description": "El Green Climate Fund (GCF) es el fondo climático de la ONU para países en desarrollo, orientado a trayectorias bajas en emisiones y resilientes al clima."
+}

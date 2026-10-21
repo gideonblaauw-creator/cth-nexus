@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/unido |
 | Rol en el ecosistema | Organismo de la ONU para desarrollo industrial sostenible |
 | Desafíos (códigos) | CIR, ENE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-onudi](https://nexus.cleantechhub.net/s/pe-onudi) |
 
 ## Rol y alcance
 

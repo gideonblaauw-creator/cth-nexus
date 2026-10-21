@@ -28,7 +28,7 @@ tag_country: El Salvador
 | Dirección | PENDIENTE |
 | Año de fundación | 1997 |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/sv-utec-universidad-tecnologica-de-el-salvador](https://nexus.cleantechhub.net/s/sv-utec-universidad-tecnologica-de-el-salvador) |
 
 ## Rol y alcance
 

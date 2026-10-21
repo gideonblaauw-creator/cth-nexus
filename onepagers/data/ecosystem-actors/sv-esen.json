@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "sv-esen",
+  "actor_id": "sv-esen",
+  "name": "ESEN",
+  "country": "El Salvador",
+  "city": "San Salvador",
+  "category": "academia",
+  "ecosystem_role": "Escuela Superior de Economía y Negocios (universidad especializada).",
+  "website": "https://www.esen.edu.sv",
+  "founding_year": "1996",
+  "description": "Escuela Superior de Economía y Negocios (universidad especializada)."
+}

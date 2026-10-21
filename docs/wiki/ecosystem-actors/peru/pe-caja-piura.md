@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Institución financiera |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | CIR, ENE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-caja-piura](https://nexus.cleantechhub.net/s/pe-caja-piura) |
 
 ## Rol y alcance
 

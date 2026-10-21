@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | 1994 |
 | Desafíos (códigos) | AGU, BOS |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-fundacion-avina](https://nexus.cleantechhub.net/s/pe-fundacion-avina) |
 
 ## Rol y alcance
 

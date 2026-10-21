@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "sv-banco-agricola",
+  "actor_id": "sv-banco-agricola",
+  "name": "Banco Agrícola",
+  "country": "El Salvador",
+  "city": "San Salvador",
+  "category": "finance",
+  "ecosystem_role": "Institución financiera",
+  "website": "https://www.bancoagricola.com",
+  "linkedin": "https://www.linkedin.com/company/bancoagricola",
+  "description": "Banco universal líder en El Salvador con amplia red de agencias y servicios para personas y empresas.\n\n- **Año de fundación:** 1955 — https://www.bancoagricola.com"
+}

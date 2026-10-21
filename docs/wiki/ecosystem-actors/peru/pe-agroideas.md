@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Programa público de competitividad agraria. |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | BOS |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-agroideas](https://nexus.cleantechhub.net/s/pe-agroideas) |
 
 ## Rol y alcance
 

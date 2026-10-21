@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/root-capital/ |
 | Rol en el ecosistema | Financiador e inversionista |
 | Desafíos (códigos) | BOS |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-root-capital](https://nexus.cleantechhub.net/s/pe-root-capital) |
 
 ## Rol y alcance
 

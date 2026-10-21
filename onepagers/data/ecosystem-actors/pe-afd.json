@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-afd",
+  "actor_id": "pe-afd",
+  "name": "AFD",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "international",
+  "ecosystem_role": "Organización internacional o cooperación",
+  "website": "https://www.afd.fr",
+  "linkedin": "https://www.linkedin.com/company/agence-francaise-de-developpement",
+  "description": "La AFD es el banco público de desarrollo de Francia; en el Perú financia y acompaña proyectos de cooperación en clima, biodiversidad y desarrollo sostenible.\n\n- **Año de fundación:** 1941\n- **Dirección:** Calle Río de la Plata 167, Of. 502, San Isidro, Lima 27, Perú\n- **Áreas de enfoque (taxonomía CT):** PENDIENTE\n- **Programas:** Cartera de proyectos y asistencia técnica en Perú (Dirección Regional Andes)"
+}

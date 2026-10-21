@@ -28,7 +28,7 @@ tag_country: El Salvador
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/sv-esco-agencia-de-el-salvador-para-la-cooperacion-in](https://nexus.cleantechhub.net/s/sv-esco-agencia-de-el-salvador-para-la-cooperacion-in) |
 
 ## Rol y alcance
 

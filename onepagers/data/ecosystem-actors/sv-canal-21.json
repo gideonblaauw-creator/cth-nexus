@@ -1,0 +1,12 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "sv-canal-21",
+  "actor_id": "sv-canal-21",
+  "name": "Canal 21",
+  "country": "El Salvador",
+  "city": "San Salvador",
+  "category": "media",
+  "ecosystem_role": "Canal de televisión salvadoreño de noticias y programación general.",
+  "website": "https://www.canal21.com.sv",
+  "description": "Canal de televisión salvadoreño de noticias y programación general."
+}

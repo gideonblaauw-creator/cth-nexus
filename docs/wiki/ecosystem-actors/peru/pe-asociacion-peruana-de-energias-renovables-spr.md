@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Gremio de energías renovables. |
 | Año de fundación | 2017 |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-asociacion-peruana-de-energias-renovables-spr](https://nexus.cleantechhub.net/s/pe-asociacion-peruana-de-energias-renovables-spr) |
 
 ## Rol y alcance
 

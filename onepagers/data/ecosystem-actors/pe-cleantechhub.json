@@ -1,0 +1,14 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-cleantechhub",
+  "actor_id": "pe-cleantechhub",
+  "name": "CleantechHUB",
+  "country": "Peru",
+  "city": "Arequipa (sede); operaciones en 8 países de LATAM",
+  "category": "accelerator",
+  "ecosystem_role": "Aceleradora de innovación climática: diagnóstico verde, aceleración, financiamiento e inversión de impacto en LATAM.",
+  "website": "https://cleantechhub.net",
+  "linkedin": "https://www.linkedin.com/company/cleantechhub",
+  "founding_year": "2019",
+  "description": "CleantechHUB impulsa startups de tecnología climática en América Latina con programas de aceleración, financiamiento sostenible e inversión de impacto."
+}

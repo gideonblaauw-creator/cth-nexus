@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | BOS |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-fepcmac-federacion-de-cajas-municipales](https://nexus.cleantechhub.net/s/pe-fepcmac-federacion-de-cajas-municipales) |
 
 ## Rol y alcance
 

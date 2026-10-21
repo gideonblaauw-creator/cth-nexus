@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-bioincuba-upch",
+  "actor_id": "pe-bioincuba-upch",
+  "name": "Bioincuba (UPCH)",
+  "country": "Peru",
+  "city": "San Isidro",
+  "category": "accelerator",
+  "ecosystem_role": "Incubadora universitaria en biotecnología.",
+  "website": "https://bioincuba.cayetano.pe",
+  "linkedin": "https://www.linkedin.com/company/bioincubaperu",
+  "description": "Bioincuba es la incubadora de biotecnología de la Universidad Peruana Cayetano Heredia (UPCH), que acompaña emprendimientos de base científica."
+}

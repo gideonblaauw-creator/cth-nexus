@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-incubaunt-la-libertad",
+  "actor_id": "pe-incubaunt-la-libertad",
+  "name": "IncubaUNT (La Libertad)",
+  "country": "Peru",
+  "city": "Trujillo",
+  "category": "accelerator",
+  "ecosystem_role": "Aceleradora, incubadora o programa de apoyo",
+  "website": "https://ditt.unitru.edu.pe/",
+  "linkedin": "https://www.linkedin.com/company/incubauntperu/",
+  "description": "Incubadora de empresas de la Universidad Nacional de Trujillo (región La Libertad) vinculada a la Dirección de Innovación y Transferencia Tecnológica.\n\n| Campo | Valor |\n| --- | --- |\n| Dirección | Jr. Independencia 186, Trujillo, La Libertad |\n| Año de fundación | 2017 |\n| Áreas de enfoque (taxonomía CT) | AGR, ENE |\n| Programas | Incubación de startups universitarias (agrotech, climate tech) |"
+}

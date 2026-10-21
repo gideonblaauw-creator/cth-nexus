@@ -1,0 +1,12 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "sv-bandesal-banco-de-desarrollo-de-el-salvador",
+  "actor_id": "sv-bandesal-banco-de-desarrollo-de-el-salvador",
+  "name": "BANDESAL – Banco de Desarrollo de El Salvador",
+  "country": "El Salvador",
+  "city": "San Salvador; 87 Avenida Norte y Calle Gabriela Mistral, Colonia Escalón, San Salvador",
+  "category": "government",
+  "ecosystem_role": "Banco de desarrollo estatal: crédito y programas para MIPYMES y sectores productivos.",
+  "website": "https://www.bandesal.gob.sv",
+  "description": "Banco de desarrollo estatal: crédito y programas para MIPYMES y sectores productivos."
+}

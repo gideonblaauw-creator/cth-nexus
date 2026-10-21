@@ -1,0 +1,12 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "sv-iagros",
+  "actor_id": "sv-iagros",
+  "name": "IAGROS",
+  "country": "El Salvador",
+  "city": "San Salvador",
+  "category": "startup",
+  "ecosystem_role": "Startup agrotech que combina IA y datos para agricultura regenerativa.",
+  "website": "https://ia-gros.com",
+  "description": "IA-GROS fusiona sabiduría ancestral maya con IA, satélites NDVI y blockchain para regenerar la agricultura de Centroamérica y el mundo."
+}

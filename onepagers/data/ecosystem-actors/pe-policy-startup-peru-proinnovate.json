@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-policy-startup-peru-proinnovate",
+  "actor_id": "pe-policy-startup-peru-proinnovate",
+  "name": "StartUp Perú (ProInnóvate)",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "policy",
+  "ecosystem_role": "Instrumento de política pública",
+  "website": "https://startup.proinnovate.gob.pe",
+  "linkedin": "https://www.linkedin.com/company/startupperu",
+  "description": "StartUp Perú es el programa emblemático de ProInnóvate (PRODUCE) que financia y acompaña startups innovadoras con líneas sectoriales incluyendo cambio climático.\n\n- **Año de fundación:** PENDIENTE\n- **Dirección:** Lima, Perú (PRODUCE / ProInnóvate)\n- **Áreas de enfoque (taxonomía CT):** FIN, AGR, ENE, CIR\n- **Programas:** Convocatorias StartUp Perú (Ideas, Prototipo, Emprendimiento, Aceleración, etc.) y línea Cambio Climático"
+}

@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-https-www-fundacionbbva-mx",
+  "actor_id": "pe-https-www-fundacionbbva-mx",
+  "name": "https://www.fundacionbbva.mx",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "corporate",
+  "ecosystem_role": "Filantropía del Grupo BBVA en México con programas de educación e inclusión.",
+  "website": "https://www.fundacionbbva.pe/",
+  "linkedin": "https://www.linkedin.com/company/fundaci%C3%B3n-bbva-per%C3%BA/",
+  "description": "Fundación BBVA Perú: filantropía corporativa que financia educación, innovación social y proyectos ambientales en el país.\n\n| Campo | Valor |\n| --- | --- |\n| Dirección | Lima, Perú |\n| Año de fundación | PENDIENTE |\n| Áreas de enfoque (taxonomía CT) | AZU, BOS |\n| Programas | Convocatorias y alianzas de impacto social y ambiental |"
+}

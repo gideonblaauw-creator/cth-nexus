@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-caja-huancayo",
+  "actor_id": "pe-caja-huancayo",
+  "name": "Caja Huancayo",
+  "country": "Peru",
+  "city": "Huancayo",
+  "category": "finance",
+  "ecosystem_role": "Caja municipal de ahorro y crédito.",
+  "website": "https://www.cajahuancayo.com.pe",
+  "linkedin": "https://www.linkedin.com/company/caja-huancayo",
+  "description": "Caja Huancayo es una caja municipal de ahorro y crédito que ofrece servicios financieros en la región Junín y a nivel nacional."
+}

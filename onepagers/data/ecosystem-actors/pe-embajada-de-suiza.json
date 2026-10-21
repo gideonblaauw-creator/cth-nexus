@@ -1,0 +1,12 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-embajada-de-suiza",
+  "actor_id": "pe-embajada-de-suiza",
+  "name": "Embajada de Suiza",
+  "country": "Peru",
+  "city": "San Isidro, Lima",
+  "category": "corporate",
+  "ecosystem_role": "Representación diplomática y de cooperación al desarrollo de Suiza en el Perú.",
+  "website": "https://www.schweiz-peru.eda.admin.ch/es/embajada-de-suiza",
+  "description": "Representación diplomática de Suiza en el Perú; promueve cooperación bilateral en desarrollo sostenible, innovación y clima.\n\n| Campo | Valor |\n| --- | --- |\n| Dirección | Av. Salaverry 3240, San Isidro, Lima |\n| Año de fundación | PENDIENTE |\n| Áreas de enfoque (taxonomía CT) | PENDIENTE |\n| Programas | Cooperación suiza en Perú (temas ambientales y desarrollo) |"
+}

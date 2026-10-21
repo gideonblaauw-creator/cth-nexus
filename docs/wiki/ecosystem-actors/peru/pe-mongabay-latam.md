@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/mongabay |
 | Rol en el ecosistema | Medios y difusión |
 | Desafíos (códigos) | AZU, BOS |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-mongabay-latam](https://nexus.cleantechhub.net/s/pe-mongabay-latam) |
 
 ## Rol y alcance
 

@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "co-minenergia",
+  "actor_id": "co-minenergia",
+  "name": "MinEnergía",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "category": "government",
+  "ecosystem_role": "Ministerio rector del sector minero-energético y políticas de transición en Colombia.",
+  "website": "https://www.minenergia.gov.co",
+  "linkedin": "https://www.linkedin.com/company/minenergia",
+  "description": "El Ministerio de Minas y Energía de Colombia formula y adopta políticas para el sector minero-energético, incluyendo transición energética, electricidad y hidrocarburos."
+}

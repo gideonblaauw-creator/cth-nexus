@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-fundacion-anglo-american](https://nexus.cleantechhub.net/s/pe-fundacion-anglo-american) |
 
 ## Rol y alcance
 

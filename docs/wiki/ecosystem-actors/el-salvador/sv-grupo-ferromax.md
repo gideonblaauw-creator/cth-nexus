@@ -28,7 +28,7 @@ tag_country: El Salvador
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | CIR |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/sv-grupo-ferromax](https://nexus.cleantechhub.net/s/sv-grupo-ferromax) |
 
 ## Rol y alcance
 

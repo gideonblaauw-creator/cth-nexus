@@ -1,0 +1,12 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "sv-atlantida-capital",
+  "actor_id": "sv-atlantida-capital",
+  "name": "Atlántida Capital",
+  "country": "El Salvador",
+  "city": "San Salvador",
+  "category": "funder",
+  "ecosystem_role": "Financiador e inversionista",
+  "website": "https://atlantidacapital.com.sv",
+  "description": "Casa de bolsa y gestora de inversiones del grupo Banco Atlántida en El Salvador."
+}

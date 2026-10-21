@@ -26,7 +26,7 @@ tag_country: El Salvador
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Financiador e inversionista |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/sv-arca-family-office](https://nexus.cleantechhub.net/s/sv-arca-family-office) |
 
 ## Rol y alcance
 

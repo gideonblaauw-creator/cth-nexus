@@ -1,0 +1,12 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-kaman-ucsp-arequipa",
+  "actor_id": "pe-kaman-ucsp-arequipa",
+  "name": "Kaman UCSP (Arequipa)",
+  "country": "Peru",
+  "city": "Arequipa",
+  "category": "accelerator",
+  "ecosystem_role": "Aceleradora, incubadora o programa de apoyo",
+  "website": "https://ucsp.edu.pe/kaman/presentacion/",
+  "description": "Kaman es el centro de emprendimiento e innovación de la Universidad Católica San Pablo (UCSP) en Arequipa, con programas de formación, incubación y acompañamiento a startups.\n\n**Año de fundación:** PENDIENTE"
+}

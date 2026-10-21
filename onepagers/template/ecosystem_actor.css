@@ -1,0 +1,10 @@
+/* Ecosystem org actor cards — profile shell (CLP26 slice conventions) */
+.hero--actor{height:300px;background:linear-gradient(135deg,var(--db) 0%,#0a3d6e 50%,var(--fo) 100%);}
+.hero--actor .hero-in{padding-bottom:28px;}
+.desc-sec{padding:0 48px 28px;background:rgba(102,147,72,.94);}
+.desc-panel{background:rgba(0,0,0,.18);border:1px solid rgba(255,255,255,.14);border-radius:8px;padding:20px 22px;}
+.desc-text{font-size:13px;line-height:1.65;color:rgba(255,255,255,.94);}
+.profile-row--full{grid-column:1/-1;}
+@media (max-width:720px){
+  .desc-sec{padding-left:20px;padding-right:20px;}
+}

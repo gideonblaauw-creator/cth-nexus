@@ -1,0 +1,12 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-https-elcomercio-pe",
+  "actor_id": "pe-https-elcomercio-pe",
+  "name": "https://elcomercio.pe",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "corporate",
+  "ecosystem_role": "Medio de comunicación peruano de alcance nacional.",
+  "website": "https://elcomercio.pe",
+  "description": "El Comercio es uno de los principales diarios y portales de noticias del Perú."
+}

@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-pecap-asociacion-peruana-de-capital-semilla-y-empr",
+  "actor_id": "pe-pecap-asociacion-peruana-de-capital-semilla-y-empr",
+  "name": "PECAP – Asociación Peruana de Capital Semilla y Emprendedor",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "funder",
+  "ecosystem_role": "Asociación gremial de capital semilla y emprendimiento",
+  "website": "https://pecap.pe",
+  "linkedin": "https://www.linkedin.com/company/pecap-peru/",
+  "description": "PECAP agrupa fondos de capital semilla, inversionistas ángeles y actores del emprendimiento temprano en el Perú, promoviendo estándares, datos y políticas públicas favorables al venture capital.\n\n**Año de fundación:** PENDIENTE"
+}

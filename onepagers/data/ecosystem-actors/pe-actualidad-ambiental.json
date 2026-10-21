@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-actualidad-ambiental",
+  "actor_id": "pe-actualidad-ambiental",
+  "name": "Actualidad Ambiental",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "media",
+  "ecosystem_role": "Medio de comunicación ambiental.",
+  "website": "https://www.actualidadambiental.pe",
+  "linkedin": "https://www.linkedin.com/company/actualidad-ambiental",
+  "description": "Actualidad Ambiental es un medio digital peruano de noticias y análisis sobre medio ambiente, conservación y políticas ambientales."
+}

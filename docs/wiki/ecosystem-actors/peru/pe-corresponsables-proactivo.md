@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-corresponsables-proactivo](https://nexus.cleantechhub.net/s/pe-corresponsables-proactivo) |
 
 ## Rol y alcance
 

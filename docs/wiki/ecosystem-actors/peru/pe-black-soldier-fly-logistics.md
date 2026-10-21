@@ -25,7 +25,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/black-soldier-fly-logistics |
 | Rol en el ecosistema | Startup de economía circular y bioconversión. |
 | Año de fundación | 2023 |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-black-soldier-fly-logistics](https://nexus.cleantechhub.net/s/pe-black-soldier-fly-logistics) |
 
 ## Descripción
 

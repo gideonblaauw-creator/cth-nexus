@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-rainforest-alliance",
+  "actor_id": "pe-rainforest-alliance",
+  "name": "Rainforest Alliance",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "international",
+  "ecosystem_role": "Organización internacional o cooperación",
+  "website": "https://www.rainforest-alliance.org",
+  "linkedin": "https://www.linkedin.com/company/rainforest-alliance",
+  "description": "Organización internacional que promueve agricultura sostenible, conservación de bosques y certificación del sello Rainforest Alliance en cadenas de suministro.\n\n- **Ciudad / sede:** Lima — https://www.rainforest-alliance.org"
+}

@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-gobierno-regional-de-madre-de-dios](https://nexus.cleantechhub.net/s/pe-gobierno-regional-de-madre-de-dios) |
 
 ## Rol y alcance
 

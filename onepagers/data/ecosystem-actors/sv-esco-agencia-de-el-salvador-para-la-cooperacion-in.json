@@ -1,0 +1,12 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "sv-esco-agencia-de-el-salvador-para-la-cooperacion-in",
+  "actor_id": "sv-esco-agencia-de-el-salvador-para-la-cooperacion-in",
+  "name": "ESCO – Agencia de El Salvador para la Cooperación Internacional",
+  "country": "El Salvador",
+  "city": "San Salvador",
+  "category": "government",
+  "ecosystem_role": "Agencia estatal de cooperación internacional de El Salvador.",
+  "website": "https://esco.gob.sv",
+  "description": "Agencia estatal de cooperación internacional de El Salvador."
+}

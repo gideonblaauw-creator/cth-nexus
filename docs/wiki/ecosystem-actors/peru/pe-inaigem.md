@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Instituto público de investigación en glaciares y ecosistemas de montaña |
 | Desafíos (códigos) | AGR, ENE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-inaigem](https://nexus.cleantechhub.net/s/pe-inaigem) |
 
 ## Rol y alcance
 

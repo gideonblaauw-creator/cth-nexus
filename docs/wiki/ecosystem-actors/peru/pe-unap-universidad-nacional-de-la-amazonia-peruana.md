@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/school/universidad-nacional-de-la-amazonia-peruana/ |
 | Rol en el ecosistema | Universidad o centro de investigación |
 | Desafíos (códigos) | AGR, BOS, CIU |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-unap-universidad-nacional-de-la-amazonia-peruana](https://nexus.cleantechhub.net/s/pe-unap-universidad-nacional-de-la-amazonia-peruana) |
 
 ## Rol y alcance
 

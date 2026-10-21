@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-incofin",
+  "actor_id": "pe-incofin",
+  "name": "Incofin",
+  "country": "Peru",
+  "city": "Amberes, Bélgica (sede); operaciones en Perú y Latinoamérica",
+  "category": "funder",
+  "ecosystem_role": "Gestor de inversiones de impacto en inclusión financiera",
+  "website": "https://incofin.com",
+  "linkedin": "https://www.linkedin.com/company/incofin-investment-management",
+  "description": "Incofin Investment Management gestiona fondos que invierten en instituciones de microfinanzas y negocios inclusivos en mercados emergentes, incluyendo operaciones y socios en el Perú.\n\n**Año de fundación:** 2001"
+}

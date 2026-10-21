@@ -1,0 +1,12 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-kfw",
+  "actor_id": "pe-kfw",
+  "name": "KfW",
+  "country": "Peru",
+  "city": "Fráncfort del Meno, Alemania (sede); cooperación en Perú",
+  "category": "international",
+  "ecosystem_role": "Banco de desarrollo alemán — cooperación financiera",
+  "website": "https://www.kfw.de",
+  "description": "KfW es el banco de desarrollo de Alemania; cofinancia proyectos de infraestructura, clima, energía y desarrollo sostenible con el Estado peruano y socios privados.\n\n**Año de fundación:** 1948"
+}

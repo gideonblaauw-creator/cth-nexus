@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | 2025 |
 | Desafíos (códigos) | AGR, AGU, AZU, BOS, CIR, CIU, ENE, FIN |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-emprende-up-climatech-rein-hub-peru](https://nexus.cleantechhub.net/s/pe-emprende-up-climatech-rein-hub-peru) |
 
 ## Rol y alcance
 

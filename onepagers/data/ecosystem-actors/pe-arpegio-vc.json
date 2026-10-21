@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-arpegio-vc",
+  "actor_id": "pe-arpegio-vc",
+  "name": "Arpegio VC",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "corporate",
+  "ecosystem_role": "Capital de riesgo en startups.",
+  "website": "https://arpegio.vc/about/",
+  "linkedin": "https://www.linkedin.com/company/arpegio-vc",
+  "description": "Arpegio VC es un fondo de venture capital peruano que invierte en startups tecnológicas de etapa temprana."
+}

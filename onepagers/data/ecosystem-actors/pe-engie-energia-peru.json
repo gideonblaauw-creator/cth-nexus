@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-engie-energia-peru",
+  "actor_id": "pe-engie-energia-peru",
+  "name": "ENGIE Energía Perú",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "corporate",
+  "ecosystem_role": "Generación y comercialización de energía; desarrollo de proyectos renovables en Perú.",
+  "website": "https://engie-energia.pe",
+  "linkedin": "https://www.linkedin.com/company/engieperu",
+  "description": "ENGIE Energía Perú es la filial del grupo ENGIE dedicada a generación y suministro de energía eléctrica en el Perú."
+}

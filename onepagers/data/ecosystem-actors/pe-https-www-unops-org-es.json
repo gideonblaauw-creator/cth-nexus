@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-https-www-unops-org-es",
+  "actor_id": "pe-https-www-unops-org-es",
+  "name": "https://www.unops.org/es",
+  "country": "Peru",
+  "city": "Copenhague (sede); proyectos en Perú",
+  "category": "corporate",
+  "ecosystem_role": "Organismo de la ONU para implementación de proyectos",
+  "website": "https://www.unops.org/es",
+  "linkedin": "https://www.linkedin.com/company/unops",
+  "description": "UNOPS brinda servicios de implementación de proyectos de infraestructura, adquisiciones y gestión para socios del sistema de las Naciones Unidas y gobiernos, incluyendo iniciativas de desarrollo y resiliencia en el Perú.\n\n**Año de fundación:** 1973"
+}

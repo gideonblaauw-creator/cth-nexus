@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-caja-ica",
+  "actor_id": "pe-caja-ica",
+  "name": "Caja Ica",
+  "country": "Peru",
+  "city": "Villa El Salvador",
+  "category": "finance",
+  "ecosystem_role": "Institución financiera",
+  "website": "https://cajaica.pe",
+  "linkedin": "https://www.linkedin.com/company/caja-ica",
+  "description": "Convertimos sueños en realidad, mejorando la calidad de vida de las personas"
+}

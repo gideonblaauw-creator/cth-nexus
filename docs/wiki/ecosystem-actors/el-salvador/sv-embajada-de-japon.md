@@ -28,7 +28,7 @@ tag_country: El Salvador
 | Dirección | Calle La Reforma y 9ª Calle Poniente, Edificio Intermark, Nivel 12, San Salvador |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/sv-embajada-de-japon](https://nexus.cleantechhub.net/s/sv-embajada-de-japon) |
 
 ## Rol y alcance
 

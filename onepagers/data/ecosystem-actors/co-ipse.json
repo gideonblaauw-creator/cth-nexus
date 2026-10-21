@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "co-ipse",
+  "actor_id": "co-ipse",
+  "name": "IPSE",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "category": "government",
+  "ecosystem_role": "Entidad pública de soluciones energéticas en ZNI.",
+  "website": "https://ipse.gov.co",
+  "linkedin": "https://www.linkedin.com/company/ipse-zni",
+  "description": "El Instituto de Planificación y Promoción de Soluciones Energéticas para las Zonas No Interconectadas (IPSE) atiende la provisión de energía en zonas no interconectadas de Colombia."
+}

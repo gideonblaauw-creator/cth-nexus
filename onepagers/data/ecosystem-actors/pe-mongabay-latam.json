@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-mongabay-latam",
+  "actor_id": "pe-mongabay-latam",
+  "name": "Mongabay Latam",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "media",
+  "ecosystem_role": "Medios y difusión",
+  "website": "https://es.mongabay.com",
+  "linkedin": "https://www.linkedin.com/company/mongabay",
+  "description": "Plataforma de periodismo ambiental en español que cubre conservación y biodiversidad en Latinoamérica.\n\n| Campo | Valor |\n| --- | --- |\n| Año de fundación | PENDIENTE |\n| Dirección | PENDIENTE |\n| Enfoque (taxonomía CT) | Medios ambientales, bosques, biodiversidad (AZU, BOS) |\n| Programas | Reportajes y noticias de conservación (Mongabay Latam). |"
+}

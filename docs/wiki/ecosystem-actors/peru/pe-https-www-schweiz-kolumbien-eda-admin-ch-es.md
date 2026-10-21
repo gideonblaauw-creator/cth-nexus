@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Cooperación internacional y promoción de inversiones |
 | Desafíos (códigos) | CIR |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-https-www-schweiz-kolumbien-eda-admin-ch-es](https://nexus.cleantechhub.net/s/pe-https-www-schweiz-kolumbien-eda-admin-ch-es) |
 
 ## Rol y alcance
 

@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/smvperu |
 | Rol en el ecosistema | Actor público / regulador |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-smv-superintendencia-del-mercado-de-valores](https://nexus.cleantechhub.net/s/pe-smv-superintendencia-del-mercado-de-valores) |
 
 ## Rol y alcance
 

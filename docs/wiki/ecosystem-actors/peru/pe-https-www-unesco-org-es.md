@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Organización internacional de educación, ciencia y cultura (ONU) |
 | Desafíos (códigos) | AGR |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-https-www-unesco-org-es](https://nexus.cleantechhub.net/s/pe-https-www-unesco-org-es) |
 
 ## Rol y alcance
 

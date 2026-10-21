@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-metared-x-peru-universia-banco-santander",
+  "actor_id": "pe-metared-x-peru-universia-banco-santander",
+  "name": "MetaRed X Perú (Universia – Banco Santander)",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "academia",
+  "ecosystem_role": "Red universitaria de emprendimiento (Universia / Santander)",
+  "website": "https://metaredx.org/pe",
+  "linkedin": "https://www.linkedin.com/company/metaredx-by-universia/",
+  "description": "MetaRed X Perú es la red de emprendimiento universitario impulsada por Universia y Banco Santander, que conecta incubadoras, competencias y programas de innovación en campus peruanos.\n\n**Año de fundación:** PENDIENTE"
+}

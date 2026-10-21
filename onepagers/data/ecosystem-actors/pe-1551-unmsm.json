@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-1551-unmsm",
+  "actor_id": "pe-1551-unmsm",
+  "name": "1551 (UNMSM)",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "accelerator",
+  "ecosystem_role": "Aceleradora, incubadora o programa de apoyo",
+  "website": "https://1551.unmsm.edu.pe",
+  "linkedin": "https://www.linkedin.com/company/1551in",
+  "description": "1551 es la incubadora de empresas innovadoras de la UNMSM; conecta investigación, emprendimiento y empresas mediante innovación abierta y programas de aceleración.\n\n- **Año de fundación:** 2015\n- **Dirección:** Ciudad Universitaria, Lima, Perú (UNMSM)\n- **Áreas de enfoque (taxonomía CT):** AGR, AGU\n- **Programas:** DisLab; Observatorio Blockchain 1551; programas vinculados a StartUp Perú y CienciActiva"
+}

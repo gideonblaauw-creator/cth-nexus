@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | BOS, AGU |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-gobierno-regional-de-loreto](https://nexus.cleantechhub.net/s/pe-gobierno-regional-de-loreto) |
 
 ## Rol y alcance
 

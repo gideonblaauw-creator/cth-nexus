@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/instituto-del-mar-del-per%C3%BA-imarpe |
 | Rol en el ecosistema | Instituto de investigación pesquera del Estado peruano |
 | Desafíos (códigos) | BOS |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-imarpe](https://nexus.cleantechhub.net/s/pe-imarpe) |
 
 ## Rol y alcance
 

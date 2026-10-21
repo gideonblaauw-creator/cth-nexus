@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/sunass-oficial |
 | Rol en el ecosistema | Actor público / regulador |
 | Desafíos (códigos) | FIN |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-sunass](https://nexus.cleantechhub.net/s/pe-sunass) |
 
 ## Rol y alcance
 

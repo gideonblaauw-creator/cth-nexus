@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "sv-fundacion-gloria-kriete-incubadora-empresarial",
+  "actor_id": "sv-fundacion-gloria-kriete-incubadora-empresarial",
+  "name": "Fundación Gloria Kriete – Incubadora Empresarial",
+  "country": "El Salvador",
+  "city": "San Salvador",
+  "category": "accelerator",
+  "ecosystem_role": "Programa de incubación empresarial de la Fundación Gloria Kriete.",
+  "website": "https://fundaciongloriakriete.org",
+  "linkedin": "https://www.linkedin.com/company/fundaci%C3%B3n-gloria-kriete",
+  "description": "Fundación Gloria Kriete FGK. Somos una fundación sin fines de lucro comprometida con el desarrollo integral de los salvadoreños"
+}

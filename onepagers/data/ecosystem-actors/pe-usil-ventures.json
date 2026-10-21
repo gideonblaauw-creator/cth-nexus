@@ -1,0 +1,12 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-usil-ventures",
+  "actor_id": "pe-usil-ventures",
+  "name": "USIL Ventures",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "accelerator",
+  "ecosystem_role": "Aceleradora, incubadora o programa de apoyo",
+  "website": "https://usil.edu.pe/emprendimiento/",
+  "description": "Brazo de emprendimiento e innovación de la Universidad San Ignacio de Loyola: incubación, aceleración y convocatorias para startups.\n\n- **Ciudad / sede:** Lima — https://usil.edu.pe/emprendimiento/"
+}

@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-the-nature-conservancy",
+  "actor_id": "pe-the-nature-conservancy",
+  "name": "The Nature Conservancy",
+  "country": "Peru",
+  "city": "Omaha",
+  "category": "international",
+  "ecosystem_role": "Organización internacional o cooperación",
+  "website": "https://www.nature.org",
+  "linkedin": "https://www.linkedin.com/company/the-nature-conservancy",
+  "description": "ONG global de conservación con programas en Perú en bosques, agua y soluciones basadas en la naturaleza."
+}

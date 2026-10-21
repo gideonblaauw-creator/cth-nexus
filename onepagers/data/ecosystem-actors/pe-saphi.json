@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-saphi",
+  "actor_id": "pe-saphi",
+  "name": "Saphi",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "corporate",
+  "ecosystem_role": "Empresa / sector privado",
+  "website": "https://www.saphi.xyz/",
+  "linkedin": "https://www.linkedin.com/company/saphixyz",
+  "description": "Plataforma de infraestructura digital para la economía de la naturaleza: conservación verificada, cadenas de valor sostenibles y financiamiento territorial en Amazonía y Andes."
+}

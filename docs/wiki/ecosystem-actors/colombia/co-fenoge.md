@@ -27,7 +27,7 @@ tag_country: Colombia
 | Rol en el ecosistema | Fondo público de financiamiento en ERNC y eficiencia energética. |
 | Año de fundación | 2017 |
 | Desafíos (códigos) | ENE, FIN |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/co-fenoge](https://nexus.cleantechhub.net/s/co-fenoge) |
 
 ## Rol y alcance
 

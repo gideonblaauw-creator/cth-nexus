@@ -1,0 +1,12 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "sv-centa",
+  "actor_id": "sv-centa",
+  "name": "CENTA",
+  "country": "El Salvador",
+  "city": "San Salvador",
+  "category": "government",
+  "ecosystem_role": "Centro Nacional de Tecnología Agropecuaria y Forestal (instituto público de investigación y extensión).",
+  "website": "https://www.centa.gob.sv",
+  "description": "Centro Nacional de Tecnología Agropecuaria y Forestal (instituto público de investigación y extensión)."
+}

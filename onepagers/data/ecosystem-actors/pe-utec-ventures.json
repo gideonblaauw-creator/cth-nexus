@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-utec-ventures",
+  "actor_id": "pe-utec-ventures",
+  "name": "UTEC Ventures",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "accelerator",
+  "ecosystem_role": "Aceleradora, incubadora o programa de apoyo",
+  "website": "https://utecventures.com",
+  "linkedin": "https://www.linkedin.com/company/utecventures",
+  "description": "Centro de innovación y emprendimiento de UTEC que incubó y aceleró startups de base tecnológica en Latinoamérica.\n\n- **Año de fundación:** 2014 — https://utecventures.com"
+}

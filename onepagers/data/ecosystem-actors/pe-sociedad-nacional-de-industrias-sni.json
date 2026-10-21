@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-sociedad-nacional-de-industrias-sni",
+  "actor_id": "pe-sociedad-nacional-de-industrias-sni",
+  "name": "Sociedad Nacional de Industrias (SNI)",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "chamber",
+  "ecosystem_role": "Cámara o gremio",
+  "website": "https://sni.org.pe",
+  "linkedin": "https://www.linkedin.com/company/sociedad-nacional-de-industrias",
+  "description": "Principal gremio industrial del Perú; representa y defiende los intereses del sector manufacturero nacional.\n\n- **Año de fundación:** 1896 — https://sni.org.pe\n\n- **Ciudad / sede:** Lima — https://sni.org.pe"
+}

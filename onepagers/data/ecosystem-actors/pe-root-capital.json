@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-root-capital",
+  "actor_id": "pe-root-capital",
+  "name": "Root Capital",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "funder",
+  "ecosystem_role": "Financiador e inversionista",
+  "website": "https://rootcapital.org",
+  "linkedin": "https://www.linkedin.com/company/root-capital/",
+  "description": "Inversionista de impacto que presta capital y capacitación a cooperativas agrícolas (café, cacao) con prácticas resilientes.\n\n| Campo | Valor |\n| --- | --- |\n| Dirección | Cambridge, Massachusetts (sede); operaciones en Perú/LatAm |\n| Año de fundación | 1999 |\n| Áreas de enfoque (taxonomía CT) | BOS, AGR |\n| Programas | Crédito y asistencia técnica a cooperativas de pequeños productores |"
+}

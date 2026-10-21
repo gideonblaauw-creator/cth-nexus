@@ -1,0 +1,12 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-innovaul-universidad-de-lima",
+  "actor_id": "pe-innovaul-universidad-de-lima",
+  "name": "InnovaUL (Universidad de Lima)",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "accelerator",
+  "ecosystem_role": "Aceleradora, incubadora o programa de apoyo",
+  "website": "https://www.ulima.edu.pe",
+  "description": "InnovaUL es el ecosistema de emprendimiento e innovación de la Universidad de Lima, que conecta estudiantes, docentes y emprendedores con programas de incubación y desarrollo de negocios.\n\n**Año de fundación:** PENDIENTE"
+}

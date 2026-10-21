@@ -28,7 +28,7 @@ tag_country: El Salvador
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/sv-marn-ministerio-de-medio-ambiente-y-recursos-natur](https://nexus.cleantechhub.net/s/sv-marn-ministerio-de-medio-ambiente-y-recursos-natur) |
 
 ## Rol y alcance
 

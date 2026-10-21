@@ -1,0 +1,56 @@
+{
+  "built_count": 358,
+  "skipped_startup_duplicate": 8,
+  "skipped_existing_site": 0,
+  "total_card_slugs": 366,
+  "built_sample": [
+    "co-bancoldex",
+    "co-cif-climate-investment-funds",
+    "co-creg",
+    "co-fenoge",
+    "co-gcf-green-climate-fund"
+  ],
+  "skipped_startup": [
+    {
+      "actor_id": "sv-camagro",
+      "startup_slug": "planta-comunitaria-wpc",
+      "reason": "existing_s_card"
+    },
+    {
+      "actor_id": "pe-acm-ventures-agtech",
+      "startup_slug": "planta-comunitaria-wpc",
+      "reason": "existing_s_card"
+    },
+    {
+      "actor_id": "pe-ccpip-camara-de-comercio-de-los-pueblos-indigenas",
+      "startup_slug": "planta-comunitaria-wpc",
+      "reason": "existing_s_card"
+    },
+    {
+      "actor_id": "pe-incubadora-unia-ucayali",
+      "startup_slug": "planta-comunitaria-wpc",
+      "reason": "existing_s_card"
+    },
+    {
+      "actor_id": "pe-incubadoras-unap-y-unaaa-loreto",
+      "startup_slug": "planta-comunitaria-wpc",
+      "reason": "existing_s_card"
+    },
+    {
+      "actor_id": "pe-incubaunach-cajamarca",
+      "startup_slug": "planta-comunitaria-wpc",
+      "reason": "existing_s_card"
+    },
+    {
+      "actor_id": "pe-vigia",
+      "startup_slug": "vigia",
+      "reason": "existing_s_card"
+    },
+    {
+      "actor_id": "pe-yakusmart",
+      "startup_slug": "yakusmart",
+      "reason": "existing_s_card"
+    }
+  ],
+  "errors": []
+}

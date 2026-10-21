@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | BOS |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-gobierno-regional-de-amazonas](https://nexus.cleantechhub.net/s/pe-gobierno-regional-de-amazonas) |
 
 ## Rol y alcance
 

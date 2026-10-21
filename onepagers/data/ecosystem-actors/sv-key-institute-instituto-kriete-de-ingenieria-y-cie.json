@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "sv-key-institute-instituto-kriete-de-ingenieria-y-cie",
+  "actor_id": "sv-key-institute-instituto-kriete-de-ingenieria-y-cie",
+  "name": "Key Institute (Instituto Kriete de Ingeniería y Ciencias)",
+  "country": "El Salvador",
+  "city": "San Salvador",
+  "category": "academia",
+  "ecosystem_role": "Instituto de educación superior en ingeniería y ciencias.",
+  "website": "https://keyinstitute.com",
+  "linkedin": "https://www.linkedin.com/company/keyinstitutesv",
+  "description": "Instituto de educación superior en ingeniería y ciencias."
+}

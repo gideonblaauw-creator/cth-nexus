@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Academia / fundación de educación en filosofía natural y etnobotánica |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-mckenna-academy-of-natural-philosophy](https://nexus.cleantechhub.net/s/pe-mckenna-academy-of-natural-philosophy) |
 
 ## Rol y alcance
 

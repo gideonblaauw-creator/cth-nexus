@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-sistema-b",
+  "actor_id": "pe-sistema-b",
+  "name": "Sistema B",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "ngo_foundation",
+  "ecosystem_role": "ONG o fundación",
+  "website": "https://www.sistemab.org",
+  "linkedin": "https://www.linkedin.com/company/sistema-b-m",
+  "description": "Red latinoamericana que impulsa empresas certificadas como Empresa B y el uso del capitalismo de stakeholders."
+}

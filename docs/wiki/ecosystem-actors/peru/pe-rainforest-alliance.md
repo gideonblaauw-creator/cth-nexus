@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/rainforest-alliance |
 | Rol en el ecosistema | Organización internacional o cooperación |
 | Desafíos (códigos) | AZU, BOS |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-rainforest-alliance](https://nexus.cleantechhub.net/s/pe-rainforest-alliance) |
 
 ## Rol y alcance
 

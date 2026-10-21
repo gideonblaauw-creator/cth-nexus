@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | Av. Benavides 298, San Borja, Lima |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | ARG |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-concytec-prociencia](https://nexus.cleantechhub.net/s/pe-concytec-prociencia) |
 
 ## Rol y alcance
 

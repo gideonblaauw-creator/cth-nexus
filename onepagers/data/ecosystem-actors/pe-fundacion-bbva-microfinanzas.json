@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-fundacion-bbva-microfinanzas",
+  "actor_id": "pe-fundacion-bbva-microfinanzas",
+  "name": "Fundación BBVA (Microfinanzas)",
+  "country": "Peru",
+  "city": "Madrid, España (sede fundación)",
+  "category": "ngo_foundation",
+  "ecosystem_role": "Iniciativa filantrópica del Grupo BBVA para microfinanzas e inclusión financiera en América Latina.",
+  "website": "https://www.fundacionmicrofinanzasbbva.org",
+  "linkedin": "https://www.linkedin.com/company/fundacion-microfinanzas-bbva",
+  "description": "La Fundación Microfinanzas BBVA promueve el acceso a servicios financieros para poblaciones vulnerables en América Latina."
+}

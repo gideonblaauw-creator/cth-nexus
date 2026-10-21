@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-compartamos-financiera",
+  "actor_id": "pe-compartamos-financiera",
+  "name": "Compartamos Financiera",
+  "country": "Peru",
+  "city": "Los Olivos, Lima",
+  "category": "finance",
+  "ecosystem_role": "Entidad de microfinanzas que otorga crédito a MYPE y emprendedores, incluido segmento rural.",
+  "website": "https://www.compartamos.com.pe",
+  "linkedin": "https://www.linkedin.com/company/compartamosbancoperu",
+  "description": "Compartamos Financiera (Compartamos Banco Perú) ofrece productos de microcrédito y servicios financieros a microempresarios y emprendedores en el Perú."
+}

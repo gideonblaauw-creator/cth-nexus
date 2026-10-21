@@ -1,0 +1,12 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "sv-sisa-seguros",
+  "actor_id": "sv-sisa-seguros",
+  "name": "SISA Seguros",
+  "country": "El Salvador",
+  "city": "San Salvador",
+  "category": "finance",
+  "ecosystem_role": "Compañía aseguradora salvadoreña.",
+  "website": "https://www.sisa.com.sv",
+  "description": "Somos una compañía aseguradora que brinda tranquilidad y seguridad financiera, garantizando excelencia en el servicio a nuestros clientes a través de una oferta diversificada de productos, procesos digitales y servicios de calidad, manteniendo el liderazgo en primas y rentabilidad en El Salvador"
+}

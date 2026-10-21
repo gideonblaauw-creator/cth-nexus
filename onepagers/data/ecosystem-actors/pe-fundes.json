@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-fundes",
+  "actor_id": "pe-fundes",
+  "name": "FUNDES",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "ngo_foundation",
+  "ecosystem_role": "Consultoría de impacto y desarrollo de negocios inclusivos en América Latina.",
+  "website": "https://fundes.org",
+  "linkedin": "https://www.linkedin.com/company/fundes",
+  "description": "FUNDES es una consultoría de impacto que acompaña a empresas y emprendedores en modelos de negocio inclusivos y sostenibles."
+}

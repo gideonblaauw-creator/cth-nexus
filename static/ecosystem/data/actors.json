@@ -17,7 +17,7 @@
    "source_url": "https://photon.komoot.io/api/?q=Amazonia+Impact+Ventures%2C+Peru&limit=5 (q=Amazonia Impact Ventures, Peru) (name-country)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-amazonia-impact-ventures"
   }
  },
  {
@@ -38,7 +38,7 @@
    "source_url": "https://photon.komoot.io/api/?q=Profonanpe%2C+Lima%2C+Peru&limit=5 (q=Profonanpe, Lima, Peru) (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-profonanpe"
   }
  },
  {
@@ -59,7 +59,7 @@
    "source_url": "https://photon.komoot.io/api/?q=Andes+Amazon+Fund%2C+Peru&limit=5 (q=Andes Amazon Fund, Peru) (name-country)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-andes-amazon-fund"
   }
  },
  {
@@ -79,7 +79,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-pecap-asociacion-peruana-de-capital-semilla-y-empr"
   }
  },
  {
@@ -100,7 +100,7 @@
    "source_url": "https://photon.komoot.io/api/?q=Angel+Ventures+Per%C3%BA%2C+Lima%2C+Peru&limit=5 (q=Angel Ventures Perú, Lima, Peru) (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-angel-ventures-peru"
   }
  },
  {
@@ -121,7 +121,7 @@
    "source_url": "https://utecventures.com"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-utec-ventures"
   }
  },
  {
@@ -142,7 +142,7 @@
    "source_url": "https://photon.komoot.io/api/?q=Krealo+%28Credicorp%29%2C+Lima%2C+Peru&limit=5 (q=Krealo (Credicorp), Lima, Peru) (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-krealo-credicorp"
   }
  },
  {
@@ -163,7 +163,7 @@
    "source_url": "https://photon.komoot.io/api/?q=GRIO+%28Grupo+Romero%29%2C+Lima%2C+Peru&limit=5 (q=GRIO (Grupo Romero), Lima, Peru) (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-grio-grupo-romero"
   }
  },
  {
@@ -184,7 +184,7 @@
    "source_url": "https://photon.komoot.io/api/?q=Wayra+Per%C3%BA%2C+Lima%2C+Peru&limit=5 (q=Wayra Perú, Lima, Peru) (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-wayra-peru"
   }
  },
  {
@@ -204,7 +204,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-mirova-natural-capital"
   }
  },
  {
@@ -267,7 +267,7 @@
    "source_url": "https://photon.komoot.io/api/?q=Incofin%2C+Lima%2C+Peru&limit=5 (q=Incofin, Lima, Peru) (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-incofin"
   }
  },
  {
@@ -288,7 +288,7 @@
    "source_url": "https://photon.komoot.io/api/?q=Triple+Jump%2C+Lima%2C+Peru&limit=5 (q=Triple Jump, Lima, Peru) (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-triple-jump"
   }
  },
  {
@@ -330,7 +330,7 @@
    "source_url": "https://photon.komoot.io/api/?q=BlueOrchard%2C+Lima%2C+Peru&limit=5 (q=BlueOrchard, Lima, Peru) (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-blueorchard"
   }
  },
  {
@@ -351,7 +351,7 @@
    "source_url": "https://photon.komoot.io/api/?q=Alterfin%2C+Lima%2C+Peru&limit=5 (q=Alterfin, Lima, Peru) (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-alterfin"
   }
  },
  {
@@ -413,7 +413,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-accion-venture-lab"
   }
  },
  {
@@ -434,7 +434,7 @@
    "source_url": "https://photon.komoot.io/api/?q=ALIVE+Ventures%2C+Lima%2C+Peru&limit=5 (q=ALIVE Ventures, Lima, Peru) (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-alive-ventures"
   }
  },
  {
@@ -454,7 +454,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-bezos-earth-fund"
   }
  },
  {
@@ -474,7 +474,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-allied-climate-partners"
   }
  },
  {
@@ -516,7 +516,7 @@
    "source_url": "https://photon.komoot.io/api/?q=Root+Capital%2C+Lima%2C+Peru&limit=5 (q=Root Capital, Lima, Peru) (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-root-capital"
   }
  },
  {
@@ -537,7 +537,7 @@
    "source_url": "https://photon.komoot.io/api/?q=BBVA+Per%C3%BA%2C+Lima%2C+Peru&limit=5 (q=BBVA Perú, Lima, Peru) (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-bbva-peru"
   }
  },
  {
@@ -558,7 +558,7 @@
    "source_url": "https://photon.komoot.io/api/?q=Interbank%2C+Lima%2C+Peru&limit=5 (q=Interbank, Lima, Peru) (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-interbank"
   }
  },
  {
@@ -579,7 +579,7 @@
    "source_url": "https://photon.komoot.io/api/?q=Scotiabank+Per%C3%BA%2C+Lima%2C+Peru&limit=5 (q=Scotiabank Perú, Lima, Peru) (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-scotiabank-peru"
   }
  },
  {
@@ -600,7 +600,7 @@
    "source_url": "https://photon.komoot.io/api/?q=Pac%C3%ADfico+Seguros%2C+Lima%2C+Peru&limit=5 (q=Pacífico Seguros, Lima, Peru) (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-pacifico-seguros"
   }
  },
  {
@@ -621,7 +621,7 @@
    "source_url": "https://photon.komoot.io/api/?q=BCP+%E2%80%93+Banco+de+Cr%C3%A9dito+del+Per%C3%BA%2C+Lima%2C+Peru&limit=5 (q=BCP – Banco de Crédito del Perú, Lima, Peru) (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-bcp-banco-de-credito-del-peru"
   }
  },
  {
@@ -642,7 +642,7 @@
    "source_url": "https://photon.komoot.io/api/?q=Bolsa+de+Valores+de+Lima%2C+Lima%2C+Peru&limit=5 (q=Bolsa de Valores de Lima, Lima, Peru) (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-bolsa-de-valores-de-lima"
   }
  },
  {
@@ -663,7 +663,7 @@
    "source_url": "https://photon.komoot.io/api/?q=Financiera+Confianza%2C+Lima%2C+Peru&limit=5 (q=Financiera Confianza, Lima, Peru) (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-financiera-confianza"
   }
  },
  {
@@ -684,7 +684,7 @@
    "source_url": "https://photon.komoot.io/api/?q=FEPCMAC+%E2%80%93+Federaci%C3%B3n+de+Cajas+Municipales%2C+Lima%2C+Peru&limit=5 (q=FEPCMAC – Federación de Cajas Municipales, Lima, Peru) (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-fepcmac-federacion-de-cajas-municipales"
   }
  },
  {
@@ -705,7 +705,7 @@
    "source_url": "https://photon.komoot.io/api/?q=Compartamos+Financiera%2C+Lima%2C+Peru&limit=5 (q=Compartamos Financiera, Lima, Peru) (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-compartamos-financiera"
   }
  },
  {
@@ -726,7 +726,7 @@
    "source_url": "https://photon.komoot.io/api/?q=Caja+Arequipa%2C+Lima%2C+Peru&limit=5 (q=Caja Arequipa, Lima, Peru) (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-caja-arequipa"
   }
  },
  {
@@ -747,7 +747,7 @@
    "source_url": "https://photon.komoot.io/api/?q=Caja+Huancayo%2C+Lima%2C+Peru&limit=5 (q=Caja Huancayo, Lima, Peru) (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-caja-huancayo"
   }
  },
  {
@@ -768,7 +768,7 @@
    "source_url": "https://photon.komoot.io/api/?q=Caja+Piura%2C+Lima%2C+Peru&limit=5 (q=Caja Piura, Lima, Peru) (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-caja-piura"
   }
  },
  {
@@ -789,7 +789,7 @@
    "source_url": "https://photon.komoot.io/api/?q=Caja+Ica%2C+Lima%2C+Peru&limit=5 (q=Caja Ica, Lima, Peru) (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-caja-ica"
   }
  },
  {
@@ -810,7 +810,7 @@
    "source_url": "https://photon.komoot.io/api/?q=Caja+Maynas%2C+Lima%2C+Peru&limit=5 (q=Caja Maynas, Lima, Peru) (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-caja-maynas"
   }
  },
  {
@@ -831,7 +831,7 @@
    "source_url": "https://photon.komoot.io/api/?q=San+Miguel+Industrias+PET%2C+Peru&limit=5 (q=San Miguel Industrias PET, Peru) (name-country)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-san-miguel-industrias-pet"
   }
  },
  {
@@ -851,7 +851,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-aje-group"
   }
  },
  {
@@ -871,7 +871,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-backus-ab-inbev"
   }
  },
  {
@@ -892,7 +892,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Alicorp%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-alicorp"
   }
  },
  {
@@ -912,7 +912,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-engie-energia-peru"
   }
  },
  {
@@ -932,7 +932,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-enel-peru-pluz"
   }
  },
  {
@@ -953,7 +953,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Danper%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-danper"
   }
  },
  {
@@ -974,7 +974,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Cerro+Verde%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-cerro-verde"
   }
  },
  {
@@ -995,7 +995,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Hudbay%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-hudbay"
   }
  },
  {
@@ -1015,7 +1015,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-gold-fields"
   }
  },
  {
@@ -1036,7 +1036,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Anglo+American%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-anglo-american"
   }
  },
  {
@@ -1056,7 +1056,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-textil-camones"
   }
  },
  {
@@ -1076,7 +1076,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-sociedad-nacional-de-industrias-sni"
   }
  },
  {
@@ -1096,7 +1096,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-camara-de-comercio-de-lima-ccl"
   }
  },
  {
@@ -1117,7 +1117,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=ADEX+%E2%80%93+Asociaci%C3%B3n+de+Exportadores%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-adex-asociacion-de-exportadores"
   }
  },
  {
@@ -1137,7 +1137,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-sociedad-nacional-de-acuicultura"
   }
  },
  {
@@ -1157,7 +1157,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-asociacion-peruana-de-energias-renovables-spr"
   }
  },
  {
@@ -1178,7 +1178,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=AREQUIPA%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-libelula"
   }
  },
  {
@@ -1198,7 +1198,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-promperu"
   }
  },
  {
@@ -1218,7 +1218,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-promperu"
   }
  },
  {
@@ -1238,7 +1238,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-promperu"
   }
  },
  {
@@ -1258,7 +1258,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-promperu"
   }
  },
  {
@@ -1278,7 +1278,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-promperu"
   }
  },
  {
@@ -1298,7 +1298,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-sbs-superintendencia-de-banca-seguros-y-afp"
   }
  },
  {
@@ -1318,7 +1318,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-smv-superintendencia-del-mercado-de-valores"
   }
  },
  {
@@ -1339,7 +1339,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Osinergmin%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-promperu"
   }
  },
  {
@@ -1360,7 +1360,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=SUNASS%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-promperu"
   }
  },
  {
@@ -1381,7 +1381,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=cusco%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-promperu"
   }
  },
  {
@@ -1401,7 +1401,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-promperu"
   }
  },
  {
@@ -1422,7 +1422,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Calle+Augusto+Tamayo+160%2C+San+Isidro%09%09%09%09%09%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-cofide-fcei"
   }
  },
  {
@@ -1442,7 +1442,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-concytec-prociencia"
   }
  },
  {
@@ -1463,7 +1463,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=AGROIDEAS%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-promperu"
   }
  },
  {
@@ -1484,7 +1484,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Agrobanco%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-agrobanco"
   }
  },
  {
@@ -1505,7 +1505,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=INAIGEM%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-promperu"
   }
  },
  {
@@ -1526,7 +1526,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=ANA+%E2%80%93+Autoridad+Nacional+del+Agua%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-promperu"
   }
  },
  {
@@ -1547,7 +1547,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=SENAMHI%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-promperu"
   }
  },
  {
@@ -1568,7 +1568,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=SERFOR%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-promperu"
   }
  },
  {
@@ -1589,7 +1589,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=SERNANP%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-promperu"
   }
  },
  {
@@ -1609,7 +1609,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-promperu"
   }
  },
  {
@@ -1629,7 +1629,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-promperu"
   }
  },
  {
@@ -1650,7 +1650,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=PromPer%C3%BA%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-promperu"
   }
  },
  {
@@ -1670,7 +1670,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-promperu"
   }
  },
  {
@@ -1691,7 +1691,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=IMARPE%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-promperu"
   }
  },
  {
@@ -1712,7 +1712,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=SANIPES%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-promperu"
   }
  },
  {
@@ -1733,7 +1733,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Gobierno+Regional+de+Loreto%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-promperu"
   }
  },
  {
@@ -1754,7 +1754,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Gobierno+Regional+de+San+Mart%C3%ADn%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-promperu"
   }
  },
  {
@@ -1775,7 +1775,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Gobierno+Regional+de+Ucayali%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-promperu"
   }
  },
  {
@@ -1796,7 +1796,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Gobierno+Regional+de+Madre+de+Dios%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-promperu"
   }
  },
  {
@@ -1817,7 +1817,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Gobierno+Regional+de+Amazonas%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-promperu"
   }
  },
  {
@@ -1837,7 +1837,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-surco-emprende"
   }
  },
  {
@@ -1857,7 +1857,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-coworking-municipal-de-jesus-maria"
   }
  },
  {
@@ -1877,7 +1877,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-promperu"
   }
  },
  {
@@ -1897,7 +1897,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-municipalidad-de-miraflores-emprende-miraflores"
   }
  },
  {
@@ -1917,7 +1917,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-unalm-universidad-nacional-agraria-la-molina"
   }
  },
  {
@@ -1935,7 +1935,7 @@
    "source_url": "https://www.pucp.edu.pe"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-pucp-pontificia-universidad-catolica-del-peru"
   }
  },
  {
@@ -1956,7 +1956,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Universidad+del+Pac%C3%ADfico%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-universidad-del-pacifico"
   }
  },
  {
@@ -1976,7 +1976,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-ciu-agu"
   }
  },
  {
@@ -1997,7 +1997,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Universidad+Peruana+Cayetano+Heredia%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-universidad-peruana-cayetano-heredia"
   }
  },
  {
@@ -2017,7 +2017,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-unap-universidad-nacional-de-la-amazonia-peruana"
   }
  },
  {
@@ -2037,7 +2037,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-unsm-universidad-nacional-de-san-martin"
   }
  },
  {
@@ -2057,7 +2057,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-incuba-amazonia-unu"
   }
  },
  {
@@ -2077,7 +2077,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-unia-universidad-nacional-intercultural-de-la-amaz"
   }
  },
  {
@@ -2097,7 +2097,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-untrm-universidad-nacional-toribio-rodriguez-de-me"
   }
  },
  {
@@ -2115,7 +2115,7 @@
    "source_url": "https://portal.unamad.edu.pe"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-unamad-universidad-nacional-amazonica-de-madre-de-"
   }
  },
  {
@@ -2136,7 +2136,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Av.+Almirante+Grau+915%2C+Barranco%29%2C+Barranco%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-grade-grupo-de-analisis-para-el-desarrollo"
   }
  },
  {
@@ -2156,7 +2156,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-metared-x-peru-universia-banco-santander"
   }
  },
  {
@@ -2176,7 +2176,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-unmsm-universidad-nacional-mayor-de-san-marcos"
   }
  },
  {
@@ -2196,7 +2196,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-unalm-universidad-nacional-agraria-la-molina"
   }
  },
  {
@@ -2216,7 +2216,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-emprende-up-climatech-rein-hub-peru"
   }
  },
  {
@@ -2237,7 +2237,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Isidro%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-bioincuba-upch"
   }
  },
  {
@@ -2257,7 +2257,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-usil-ventures"
   }
  },
  {
@@ -2277,7 +2277,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-1551-unmsm"
   }
  },
  {
@@ -2297,7 +2297,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-nexum-pucp"
   }
  },
  {
@@ -2317,7 +2317,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-startup-uni"
   }
  },
  {
@@ -2338,7 +2338,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Miguel%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-startupc"
   }
  },
  {
@@ -2358,7 +2358,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-innovaul-universidad-de-lima"
   }
  },
  {
@@ -2378,7 +2378,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-innova-esan"
   }
  },
  {
@@ -2398,7 +2398,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-hub-udep-universidad-de-piura"
   }
  },
  {
@@ -2419,7 +2419,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Kunan%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-kunan"
   }
  },
  {
@@ -2439,7 +2439,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-nesst"
   }
  },
  {
@@ -2459,7 +2459,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-endeavor-peru"
   }
  },
  {
@@ -2479,7 +2479,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "planta-comunitaria-wpc"
   }
  },
  {
@@ -2499,7 +2499,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-incubadora-unsm-san-martin"
   }
  },
  {
@@ -2519,7 +2519,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-incuba-amazonia-unu"
   }
  },
  {
@@ -2539,7 +2539,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "planta-comunitaria-wpc"
   }
  },
  {
@@ -2559,7 +2559,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-incubadoras-untrm-y-unifslb-amazonas"
   }
  },
  {
@@ -2578,7 +2578,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "planta-comunitaria-wpc"
   }
  },
  {
@@ -2597,7 +2597,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-incubaunt-la-libertad"
   }
  },
  {
@@ -2615,7 +2615,7 @@
    "source_url": "https://upao.edu.pe/diferenciacion/incubadora-de-negocios"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-s360-upao-la-libertad"
   }
  },
  {
@@ -2635,7 +2635,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-jaku-emprende-unsa-arequipa"
   }
  },
  {
@@ -2655,7 +2655,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-kaman-ucsp-arequipa"
   }
  },
  {
@@ -2675,7 +2675,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-innicia-ucsm-arequipa"
   }
  },
  {
@@ -2695,7 +2695,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "planta-comunitaria-wpc"
   }
  },
  {
@@ -2715,7 +2715,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-cajamarca-incuba"
   }
  },
  {
@@ -2735,7 +2735,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-promperu"
   }
  },
  {
@@ -2755,7 +2755,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-incuval-ventures-unheval"
   }
  },
  {
@@ -2775,7 +2775,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-emprende-udh-huanuco"
   }
  },
  {
@@ -2795,7 +2795,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-promperu"
   }
  },
  {
@@ -2815,7 +2815,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-wichay-universidad-continental-junin"
   }
  },
  {
@@ -2835,7 +2835,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-nature-services-peru"
   }
  },
  {
@@ -2856,7 +2856,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Arbio%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-arbio"
   }
  },
  {
@@ -2876,7 +2876,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-reforestadora-amazonica"
   }
  },
  {
@@ -2896,7 +2896,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-reforestadora-amazonica"
   }
  },
  {
@@ -2917,7 +2917,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=AREQUIPA%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-red-amazonia-que-late"
   }
  },
  {
@@ -2938,7 +2938,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=cusco%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-conservacion-amazonica-acca"
   }
  },
  {
@@ -2959,7 +2959,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=AREQUIPA%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-spda-sociedad-peruana-de-derecho-ambiental"
   }
  },
  {
@@ -2979,7 +2979,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-ciudad-saludable"
   }
  },
  {
@@ -3000,7 +3000,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=cusco%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-accion-andina"
   }
  },
  {
@@ -3020,7 +3020,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "planta-comunitaria-wpc"
   }
  },
  {
@@ -3040,7 +3040,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-fundacion-wiese"
   }
  },
  {
@@ -3060,7 +3060,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-fundacion-bbva-microfinanzas"
   }
  },
  {
@@ -3080,7 +3080,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-fundacion-belcorp"
   }
  },
  {
@@ -3101,7 +3101,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Asociaci%C3%B3n+UNACEM%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-asociacion-unacem"
   }
  },
  {
@@ -3121,7 +3121,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-fundacion-anglo-american"
   }
  },
  {
@@ -3142,7 +3142,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Calle+Amador+Merino+Reyna+267%2C%2C+lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-care-peru"
   }
  },
  {
@@ -3163,7 +3163,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Solidaridad%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-solidaridad"
   }
  },
  {
@@ -3183,7 +3183,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-helvetas"
   }
  },
  {
@@ -3201,7 +3201,7 @@
    "source_url": "https://www.swisscontact.org/es/donde-trabajamos/peru"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-swisscontact"
   }
  },
  {
@@ -3221,7 +3221,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-peru-sostenible"
   }
  },
  {
@@ -3242,7 +3242,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Sistema+B%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-sistema-b"
   }
  },
  {
@@ -3263,7 +3263,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=L%2B1%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-l-1"
   }
  },
  {
@@ -3283,7 +3283,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-conservamos-por-naturaleza"
   }
  },
  {
@@ -3303,7 +3303,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-mongabay-latam"
   }
  },
  {
@@ -3324,7 +3324,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-actualidad-ambiental"
   }
  },
  {
@@ -3345,7 +3345,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Gesti%C3%B3n%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-gestion"
   }
  },
  {
@@ -3366,7 +3366,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Agraria.pe%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-agraria-pe"
   }
  },
  {
@@ -3386,7 +3386,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-bid"
   }
  },
  {
@@ -3407,7 +3407,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=IFC&format=json&limit=1&addressdetails=1 (HQ-fallback)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-ifc"
   }
  },
  {
@@ -3427,7 +3427,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-caf-banco-de-desarrollo-de-america-latina"
   }
  },
  {
@@ -3448,7 +3448,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Banco+Mundial&format=json&limit=1&addressdetails=1 (HQ-fallback)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-banco-mundial"
   }
  },
  {
@@ -3469,7 +3469,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=KfW&format=json&limit=1&addressdetails=1 (HQ-fallback)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-kfw"
   }
  },
  {
@@ -3489,7 +3489,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-bei-banco-europeo-de-inversiones"
   }
  },
  {
@@ -3510,7 +3510,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=callao%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-pnud-accelerator-lab-biofin"
   }
  },
  {
@@ -3531,7 +3531,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=FAO%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-fao"
   }
  },
  {
@@ -3552,7 +3552,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=ONUDI&format=json&limit=1&addressdetails=1 (HQ-fallback)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-onudi"
   }
  },
  {
@@ -3572,7 +3572,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-gggi"
   }
  },
  {
@@ -3593,7 +3593,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=ONU-H%C3%A1bitat&format=json&limit=1&addressdetails=1 (HQ-fallback)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-onu-habitat"
   }
  },
  {
@@ -3614,7 +3614,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=IICA%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-iica"
   }
  },
  {
@@ -3635,7 +3635,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=GIZ&format=json&limit=1&addressdetails=1 (HQ-fallback)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-giz"
   }
  },
  {
@@ -3655,7 +3655,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-https-www-schweiz-kolumbien-eda-admin-ch-es"
   }
  },
  {
@@ -3675,7 +3675,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-union-europea-euroclima"
   }
  },
  {
@@ -3696,7 +3696,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=AECID&format=json&limit=1&addressdetails=1 (HQ-fallback)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-aecid"
   }
  },
  {
@@ -3717,7 +3717,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=AFD&format=json&limit=1&addressdetails=1 (HQ-fallback)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-afd"
   }
  },
  {
@@ -3738,7 +3738,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=JICA&format=json&limit=1&addressdetails=1 (HQ-fallback)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-jica"
   }
  },
  {
@@ -3759,7 +3759,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=KOICA&format=json&limit=1&addressdetails=1 (HQ-fallback)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-koica"
   }
  },
  {
@@ -3780,7 +3780,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-camara-peruano-alemana-ahk"
   }
  },
  {
@@ -3801,7 +3801,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Avenida+V%C3%ADctor+Andr%C3%A9s+Bela%C3%BAnde+177%2C+San+Isidro%2C+San+Isidro%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-amcham-peru"
   }
  },
  {
@@ -3821,7 +3821,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-camara-de-comercio-canada-peru"
   }
  },
  {
@@ -3841,7 +3841,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-conservacion-internacional"
   }
  },
  {
@@ -3862,7 +3862,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=WWF+Per%C3%BA%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-wwf-peru"
   }
  },
  {
@@ -3883,7 +3883,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=The+Nature+Conservancy&format=json&limit=1&addressdetails=1 (HQ-fallback)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-the-nature-conservancy"
   }
  },
  {
@@ -3904,7 +3904,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Forest+Trends&format=json&limit=1&addressdetails=1 (HQ-fallback)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-forest-trends"
   }
  },
  {
@@ -3924,7 +3924,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-rainforest-alliance"
   }
  },
  {
@@ -3944,7 +3944,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-fundacion-avina"
   }
  },
  {
@@ -3964,7 +3964,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-pvblic-foundation"
   }
  },
  {
@@ -3985,7 +3985,7 @@
    "source_url": "https://cleantechhub.net"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-cleantechhub"
   }
  },
  {
@@ -4004,7 +4004,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-black-soldier-fly-logistics"
   }
  },
  {
@@ -4024,7 +4024,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "yakusmart"
   }
  },
  {
@@ -4045,7 +4045,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=VIGIA%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "vigia"
   }
  },
  {
@@ -4065,7 +4065,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=UQHU%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-uqhu"
   }
  },
  {
@@ -4084,7 +4084,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-yakufil"
   }
  },
  {
@@ -4103,7 +4103,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-rebike-up"
   }
  },
  {
@@ -4124,7 +4124,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-pomona-impact"
   }
  },
  {
@@ -4145,7 +4145,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-viwala"
   }
  },
  {
@@ -4166,7 +4166,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-fiaes-fondo-de-inversion-ambiental-de-el-salvador"
   }
  },
  {
@@ -4187,7 +4187,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-atlantida-capital"
   }
  },
  {
@@ -4208,7 +4208,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-banco-azul"
   }
  },
  {
@@ -4229,7 +4229,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-banco-hipotecario"
   }
  },
  {
@@ -4250,7 +4250,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-banco-atlantida"
   }
  },
  {
@@ -4271,7 +4271,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-banco-agricola"
   }
  },
  {
@@ -4292,7 +4292,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-bandesal-banco-de-desarrollo-de-el-salvador"
   }
  },
  {
@@ -4313,7 +4313,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-sisa-seguros"
   }
  },
  {
@@ -4333,7 +4333,7 @@
    "source_url": "https://ases.org.sv"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-ases-seguros"
   }
  },
  {
@@ -4354,7 +4354,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-arca-family-office"
   }
  },
  {
@@ -4375,7 +4375,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-polaris-family-office"
   }
  },
  {
@@ -4396,7 +4396,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-davivienda-seguros"
   }
  },
  {
@@ -4417,7 +4417,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-bcie-programa-regional-de-capital-semilla"
   }
  },
  {
@@ -4438,7 +4438,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-fideagro"
   }
  },
  {
@@ -4459,7 +4459,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-bac-credomatic"
   }
  },
  {
@@ -4480,7 +4480,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-cafi-central-america-angel-fund-initiative"
   }
  },
  {
@@ -4501,7 +4501,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-iagros"
   }
  },
  {
@@ -4521,7 +4521,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-recicla503"
   }
  },
  {
@@ -4542,7 +4542,7 @@
    "source_url": "https://ipsalatinoamerica.com"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-industrias-plasticas-ipsa"
   }
  },
  {
@@ -4563,7 +4563,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-grupo-ternova"
   }
  },
  {
@@ -4584,7 +4584,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-grupo-agrisal"
   }
  },
  {
@@ -4605,7 +4605,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-industrias-la-constancia"
   }
  },
  {
@@ -4626,7 +4626,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-grupo-ferromax"
   }
  },
  {
@@ -4647,7 +4647,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-grupo-calleja-super-selectos"
   }
  },
  {
@@ -4668,7 +4668,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-aes-el-salvador"
   }
  },
  {
@@ -4689,7 +4689,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-camarasal-camara-de-comercio-e-industria-de-el-sal"
   }
  },
  {
@@ -4710,7 +4710,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-casalco"
   }
  },
  {
@@ -4731,7 +4731,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-camtex"
   }
  },
  {
@@ -4752,7 +4752,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "planta-comunitaria-wpc"
   }
  },
  {
@@ -4773,7 +4773,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-asi-asociacion-salvadorena-de-industriales"
   }
  },
  {
@@ -4794,7 +4794,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-marn-ministerio-de-medio-ambiente-y-recursos-natur"
   }
  },
  {
@@ -4815,7 +4815,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-minec-ministerio-de-economia"
   }
  },
  {
@@ -4836,7 +4836,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-mag-ministerio-de-agricultura-y-ganaderia"
   }
  },
  {
@@ -4857,7 +4857,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-conamype"
   }
  },
  {
@@ -4878,7 +4878,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-centa"
   }
  },
  {
@@ -4899,7 +4899,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-invest-agencia-de-promocion-de-inversiones-y-expor"
   }
  },
  {
@@ -4920,7 +4920,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-esco-agencia-de-el-salvador-para-la-cooperacion-in"
   }
  },
  {
@@ -4941,7 +4941,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-impact-hub-san-salvador"
   }
  },
  {
@@ -4962,7 +4962,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-pvblic-foundation"
   }
  },
  {
@@ -4983,7 +4983,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-crea-centro-de-emprendimiento-utec"
   }
  },
  {
@@ -5004,7 +5004,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-snbx-sandbox"
   }
  },
  {
@@ -5025,7 +5025,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-fundacion-gloria-kriete-fgk"
   }
  },
  {
@@ -5046,7 +5046,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-startupbootcamp-el-salvador"
   }
  },
  {
@@ -5067,7 +5067,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-crea-centro-de-emprendimiento-utec"
   }
  },
  {
@@ -5088,7 +5088,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-ues-universidad-de-el-salvador"
   }
  },
  {
@@ -5109,7 +5109,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-key-institute-instituto-kriete-de-ingenieria-y-cie"
   }
  },
  {
@@ -5130,7 +5130,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-uca"
   }
  },
  {
@@ -5151,7 +5151,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-esen"
   }
  },
  {
@@ -5172,7 +5172,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-telecorporacion-salvadorena-tcs"
   }
  },
  {
@@ -5193,7 +5193,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-canal-12"
   }
  },
  {
@@ -5214,7 +5214,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-canal-21"
   }
  },
  {
@@ -5235,7 +5235,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-canal-10-television-nacional"
   }
  },
  {
@@ -5256,7 +5256,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-la-prensa-grafica"
   }
  },
  {
@@ -5277,7 +5277,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-el-diario-de-hoy"
   }
  },
  {
@@ -5298,7 +5298,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-diario-el-mundo"
   }
  },
  {
@@ -5319,7 +5319,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-gatoencerrado"
   }
  },
  {
@@ -5340,7 +5340,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-fundacion-gloria-kriete-fgk"
   }
  },
  {
@@ -5361,7 +5361,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-fundemas"
   }
  },
  {
@@ -5382,7 +5382,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-fundacion-colabora"
   }
  },
  {
@@ -5403,7 +5403,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-fao"
   }
  },
  {
@@ -5424,7 +5424,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "pe-pnud-accelerator-lab-biofin"
   }
  },
  {
@@ -5445,7 +5445,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-unep"
   }
  },
  {
@@ -5466,7 +5466,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-banco-mundial"
   }
  },
  {
@@ -5487,7 +5487,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-bid"
   }
  },
  {
@@ -5508,7 +5508,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-gggi"
   }
  },
  {
@@ -5529,7 +5529,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-cepal"
   }
  },
  {
@@ -5550,7 +5550,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-oim"
   }
  },
  {
@@ -5571,7 +5571,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-giz"
   }
  },
  {
@@ -5592,7 +5592,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-aecid-el-salvador"
   }
  },
  {
@@ -5612,7 +5612,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-usaid"
   }
  },
  {
@@ -5633,7 +5633,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-crs-catholic-relief-services"
   }
  },
  {
@@ -5654,7 +5654,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-embajada-de-alemania"
   }
  },
  {
@@ -5674,7 +5674,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-embajada-de-los-paises-bajos"
   }
  },
  {
@@ -5694,7 +5694,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-embajada-de-espana"
   }
  },
  {
@@ -5715,7 +5715,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "sv-embajada-de-japon"
   }
  },
  {
@@ -5735,7 +5735,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "co-fenoge"
   }
  },
  {
@@ -5756,7 +5756,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Banc%C3%B3ldex%2C+Colombia&format=json&limit=1&addressdetails=1&countrycodes=co (name-country)"
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "co-bancoldex"
   }
  },
  {
@@ -5776,7 +5776,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "co-gcf-green-climate-fund"
   }
  },
  {
@@ -5796,7 +5796,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "co-cif-climate-investment-funds"
   }
  },
  {
@@ -5816,7 +5816,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "co-minenergia"
   }
  },
  {
@@ -5836,7 +5836,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "co-creg"
   }
  },
  {
@@ -5856,7 +5856,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "co-upme"
   }
  },
  {
@@ -5876,7 +5876,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": null
+   "card_slug": "co-ipse"
   }
  }
 ]

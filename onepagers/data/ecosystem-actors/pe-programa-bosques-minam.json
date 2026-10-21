@@ -1,0 +1,12 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-programa-bosques-minam",
+  "actor_id": "pe-programa-bosques-minam",
+  "name": "Programa Bosques (MINAM)",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "government",
+  "ecosystem_role": "Programa nacional de conservación de bosques (MINAM)",
+  "website": "https://www.gob.pe/bosques",
+  "description": "El Programa Bosques del MINAM impulsa la conservación, restauración y uso sostenible de bosques en el Perú, incluyendo incentivos y gestión de recursos forestales.\n\n**Año de fundación:** PENDIENTE"
+}

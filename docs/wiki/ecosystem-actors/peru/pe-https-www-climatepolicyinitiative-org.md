@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-https-www-climatepolicyinitiative-org](https://nexus.cleantechhub.net/s/pe-https-www-climatepolicyinitiative-org) |
 
 ## Rol y alcance
 

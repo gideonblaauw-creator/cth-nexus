@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-ca-maras",
+  "actor_id": "pe-ca-maras",
+  "name": "Cámaras",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "corporate",
+  "ecosystem_role": "Gremio / sistema de cámaras de comercio (CCL).",
+  "website": "https://www.ccl.org.pe/",
+  "linkedin": "https://www.linkedin.com/company/camaradelima",
+  "description": "El sistema cameral peruano se articula en torno a la Cámara de Comercio de Lima (CCL), principal gremio empresarial del país, que representa y apoya a las cámaras regionales."
+}

@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/minamperu |
 | Rol en el ecosistema | Actor público / regulador |
 | Desafíos (códigos) | BOS |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-minam-ministerio-del-ambiente](https://nexus.cleantechhub.net/s/pe-minam-ministerio-del-ambiente) |
 
 ## Rol y alcance
 

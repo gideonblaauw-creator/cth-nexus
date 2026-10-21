@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/ifc/ |
 | Rol en el ecosistema | Brazo privado del Grupo Banco Mundial — inversión y asesoría |
 | Desafíos (códigos) | CIR, CIU, FIN |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-ifc](https://nexus.cleantechhub.net/s/pe-ifc) |
 
 ## Rol y alcance
 

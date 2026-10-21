@@ -24,7 +24,7 @@ tag_country: Peru
 | Sitio web | https://uqhuinnova.com |
 | LinkedIn | https://www.linkedin.com/company/uqhu |
 | Rol en el ecosistema | Startup del ecosistema |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-uqhu](https://nexus.cleantechhub.net/s/pe-uqhu) |
 
 ## Descripción
 

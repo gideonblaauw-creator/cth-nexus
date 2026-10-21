@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/unops |
 | Rol en el ecosistema | Organismo de la ONU para implementación de proyectos |
 | Desafíos (códigos) | AGR |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-https-www-unops-org-es](https://nexus.cleantechhub.net/s/pe-https-www-unops-org-es) |
 
 ## Rol y alcance
 

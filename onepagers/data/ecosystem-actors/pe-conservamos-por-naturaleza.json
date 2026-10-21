@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-conservamos-por-naturaleza",
+  "actor_id": "pe-conservamos-por-naturaleza",
+  "name": "Conservamos por Naturaleza",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "ngo_foundation",
+  "ecosystem_role": "Plataforma de comunicación y movilización ciudadana a favor de la conservación del patrimonio natural peruano.",
+  "website": "https://www.conservamospornaturaleza.org",
+  "linkedin": "https://www.linkedin.com/company/5043453",
+  "description": "Conservamos por Naturaleza inspira a vivir en armonía con la naturaleza y fortalece iniciativas ciudadanas que valoran el patrimonio natural del Perú."
+}

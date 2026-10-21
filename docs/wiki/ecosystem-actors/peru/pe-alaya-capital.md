@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Fondo de venture capital e inversión en startups LATAM. |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-alaya-capital](https://nexus.cleantechhub.net/s/pe-alaya-capital) |
 
 ## Rol y alcance
 

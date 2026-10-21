@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AGR, AGU |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-1551-unmsm](https://nexus.cleantechhub.net/s/pe-1551-unmsm) |
 
 ## Rol y alcance
 

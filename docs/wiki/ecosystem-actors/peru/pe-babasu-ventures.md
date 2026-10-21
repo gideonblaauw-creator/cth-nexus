@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Capital de riesgo de impacto. |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-babasu-ventures](https://nexus.cleantechhub.net/s/pe-babasu-ventures) |
 
 ## Rol y alcance
 

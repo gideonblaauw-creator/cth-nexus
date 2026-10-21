@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Agencia de cooperación internacional de Corea |
 | Desafíos (códigos) | AGR, AGU, CIR |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-koica](https://nexus.cleantechhub.net/s/pe-koica) |
 
 ## Rol y alcance
 

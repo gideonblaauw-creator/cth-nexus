@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | FIN |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-https-www-expertisefrance-fr-es-areas-de-trabajo](https://nexus.cleantechhub.net/s/pe-https-www-expertisefrance-fr-es-areas-de-trabajo) |
 
 ## Rol y alcance
 

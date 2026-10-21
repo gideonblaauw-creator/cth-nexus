@@ -1,0 +1,14 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "sv-uca",
+  "actor_id": "sv-uca",
+  "name": "UCA",
+  "country": "El Salvador",
+  "city": "San Salvador",
+  "category": "academia",
+  "ecosystem_role": "Universidad centroamericana privada (investigación, formación y extensión).",
+  "website": "https://www.uca.edu.sv",
+  "linkedin": "https://www.linkedin.com/school/universidad-centroamericana-jos--sime-n-ca-as",
+  "founding_year": "1965",
+  "description": "Universidad para el cambio social, educación superior, calidad educativa, universidad jesuita"
+}

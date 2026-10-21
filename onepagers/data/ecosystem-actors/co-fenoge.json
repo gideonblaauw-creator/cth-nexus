@@ -1,0 +1,14 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "co-fenoge",
+  "actor_id": "co-fenoge",
+  "name": "FENOGE",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "category": "funder",
+  "ecosystem_role": "Fondo público de financiamiento en ERNC y eficiencia energética.",
+  "website": "https://fenoge.gov.co",
+  "linkedin": "https://www.linkedin.com/company/fenoge",
+  "founding_year": "2017",
+  "description": "Fondo colombiano de energías no convencionales y gestión eficiente de la energía que financia proyectos de transición energética.\n\n| Campo | Valor |\n| --- | --- |\n| Año de fundación | 2018 |\n| Dirección | Carrera 12 No. 84A-12, Of. 801, Bogotá, Colombia |\n| Enfoque (taxonomía CT) | Energías renovables no convencionales, eficiencia energética, transición energética (financiamiento climático) |\n| Programas | Líneas de crédito y apoyo a proyectos de energías limpias y gestión eficiente de la energía (FENOGE). |"
+}

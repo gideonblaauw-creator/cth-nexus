@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-bos-azu-ene",
+  "actor_id": "pe-bos-azu-ene",
+  "name": "BOS AZU ENE",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "corporate",
+  "ecosystem_role": "Empresa / sector privado (verificar identidad en mapa CTH).",
+  "website": "https://finlandabroad.fi/web/per/embajada",
+  "linkedin": "https://www.linkedin.com/company/finnish-embassy-in-peru",
+  "description": "Entrada del mapa que agrupa cooperación finlandesa en Perú (sitio de la Embajada de Finlandia) vinculada a desafíos de bosques (BOS), agua (AZU) y energía (ENE) en el taxón CTH.\n\n| Detalle | Valor |\n| --- | --- |\n| Año de fundación | PENDIENTE |\n| Dirección | PENDIENTE |\n| Áreas de enfoque (CT) | BOS, AZU, ENE |\n| Programas | Cooperación bilateral Finlandia–Perú en temas ambientales y energéticos (según canales oficiales de la embajada) |"
+}

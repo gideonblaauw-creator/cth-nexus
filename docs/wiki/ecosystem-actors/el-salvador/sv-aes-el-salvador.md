@@ -26,7 +26,7 @@ tag_country: El Salvador
 | LinkedIn | https://www.linkedin.com/company/aes-el-salvador |
 | Rol en el ecosistema | Empresa / sector privado |
 | Desafíos (códigos) | ENE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/sv-aes-el-salvador](https://nexus.cleantechhub.net/s/sv-aes-el-salvador) |
 
 ## Rol y alcance
 

@@ -1,0 +1,14 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-bcp-banco-de-credito-del-peru",
+  "actor_id": "pe-bcp-banco-de-credito-del-peru",
+  "name": "BCP – Banco de Crédito del Perú",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "finance",
+  "ecosystem_role": "Banco universal líder en el Perú.",
+  "website": "https://www.viabcp.com/",
+  "linkedin": "https://www.linkedin.com/company/bcp",
+  "founding_year": "1889",
+  "description": "El Banco de Crédito del Perú (BCP) es uno de los principales bancos del sistema financiero peruano, con banca personas, empresas y digital."
+}

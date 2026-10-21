@@ -79,7 +79,13 @@ def load_onepager_index() -> dict[str, str]:
     by_name: dict[str, str] = {}
     if not ONEPAGERS.is_dir():
         return {"host": by_host, "slug": by_slug, "name": by_name}
-    for path in ONEPAGERS.glob("*.json"):
+    json_paths: list[Path] = []
+    if ONEPAGERS.is_dir():
+        json_paths.extend(ONEPAGERS.glob("*.json"))
+        json_paths.extend(ONEPAGERS.glob("clp26-slices/*.json"))
+        json_paths.extend(ONEPAGERS.glob("slices/*.json"))
+        json_paths.extend((ONEPAGERS / "ecosystem-actors").glob("*.json"))
+    for path in json_paths:
         if path.name.startswith("s-pages-"):
             continue
         try:
@@ -88,10 +94,16 @@ def load_onepager_index() -> dict[str, str]:
             continue
         slug = doc.get("slug") or path.stem
         by_slug[slug.lower()] = slug
-        nm = norm_name(doc.get("name") or "")
+        raw_name = doc.get("name") or ""
+        if isinstance(raw_name, dict):
+            raw_name = raw_name.get("value") or raw_name.get("en") or ""
+        nm = norm_name(str(raw_name))
         if nm:
             by_name[nm] = slug
-        hk = host_key(doc.get("website"))
+        raw_web = doc.get("website")
+        if isinstance(raw_web, dict):
+            raw_web = raw_web.get("value")
+        hk = host_key(raw_web if isinstance(raw_web, str) else None)
         if hk:
             by_host[hk] = slug
     return {"host": by_host, "slug": by_slug, "name": by_name}

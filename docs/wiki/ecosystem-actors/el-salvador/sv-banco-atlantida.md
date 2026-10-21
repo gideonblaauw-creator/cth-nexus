@@ -26,7 +26,7 @@ tag_country: El Salvador
 | LinkedIn | https://www.linkedin.com/company/banco-atlantida-el-salvador/ |
 | Rol en el ecosistema | Institución financiera |
 | Desafíos (códigos) | FIN |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/sv-banco-atlantida](https://nexus.cleantechhub.net/s/sv-banco-atlantida) |
 
 ## Rol y alcance
 

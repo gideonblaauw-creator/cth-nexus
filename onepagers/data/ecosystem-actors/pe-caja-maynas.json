@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-caja-maynas",
+  "actor_id": "pe-caja-maynas",
+  "name": "Caja Maynas",
+  "country": "Peru",
+  "city": "Huánuco",
+  "category": "finance",
+  "ecosystem_role": "Caja municipal de ahorro y crédito.",
+  "website": "https://www.cajamaynas.pe",
+  "linkedin": "https://www.linkedin.com/company/caja-maynas",
+  "description": "Caja Maynas es una caja municipal de ahorro y crédito con sede en Huánuco que brinda créditos, ahorros y seguros."
+}

@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Cámara bilateral Perú–Estados Unidos. |
 | Año de fundación | 1960 |
 | Desafíos (códigos) | AGU, FIN |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-amcham-peru](https://nexus.cleantechhub.net/s/pe-amcham-peru) |
 
 ## Rol y alcance
 

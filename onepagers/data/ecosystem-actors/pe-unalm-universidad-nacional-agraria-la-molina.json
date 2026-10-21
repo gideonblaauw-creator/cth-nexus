@@ -1,0 +1,12 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-unalm-universidad-nacional-agraria-la-molina",
+  "actor_id": "pe-unalm-universidad-nacional-agraria-la-molina",
+  "name": "UNALM – Universidad Nacional Agraria La Molina",
+  "country": "Peru",
+  "city": "La Molina",
+  "category": "academia",
+  "ecosystem_role": "Universidad o centro de investigación",
+  "website": "https://www.lamolina.edu.pe",
+  "description": "Universidad pública nacional especializada en agronomía, recursos naturales, ingeniería agroindustrial y ciencias ambientales.\n\n- **Año de fundación:** 1902 — https://www.lamolina.edu.pe\n\n- **Ciudad / sede:** La Molina — https://www.lamolina.edu.pe"
+}

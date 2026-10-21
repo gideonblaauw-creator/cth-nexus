@@ -1,0 +1,14 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-https-fsc-org-en",
+  "actor_id": "pe-https-fsc-org-en",
+  "name": "https://fsc.org/en",
+  "country": "Peru",
+  "city": "Bonn, Alemania (sede FSC International)",
+  "category": "corporate",
+  "ecosystem_role": "Organización internacional de certificación forestal responsable.",
+  "website": "https://fsc.org/en",
+  "linkedin": "https://www.linkedin.com/company/forest-stewardship-council-fsc-/",
+  "founding_year": "1993",
+  "description": "Forest Stewardship Council (FSC): sistema global de certificación forestal que promueve manejo responsable de bosques.\n\n| Campo | Valor |\n| --- | --- |\n| Dirección | Sede internacional: Bonn, Alemania |\n| Año de fundación | 1993 |\n| Áreas de enfoque (taxonomía CT) | AZU, BOS |\n| Programas | Certificación FSC para bosques y cadenas de custodia |"
+}

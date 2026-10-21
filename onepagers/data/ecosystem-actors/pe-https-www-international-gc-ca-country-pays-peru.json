@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-https-www-international-gc-ca-country-pays-peru",
+  "actor_id": "pe-https-www-international-gc-ca-country-pays-peru",
+  "name": "https://www.international.gc.ca/country-pays/peru-perou/lima.aspx?lang=eng",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "corporate",
+  "ecosystem_role": "Representación diplomática de Canadá y cooperación bilateral con el Perú.",
+  "website": "https://www.international.gc.ca/country-pays/peru-perou/lima.aspx?lang=eng",
+  "linkedin": "https://www.linkedin.com/company/embassy-of-canada-to-peru",
+  "description": "Representación diplomática de Canadá en el Perú; promueve cooperación bilateral, comercio y desarrollo sostenible.\n\n| Campo | Valor |\n| --- | --- |\n| Año de fundación | PENDIENTE |\n| Dirección | Lima, Perú |\n| Enfoque (taxonomía CT) | Cooperación internacional, comercio, clima y gobernanza |\n| Programas | Servicios consulares y programas de cooperación Canadá–Perú. |"
+}

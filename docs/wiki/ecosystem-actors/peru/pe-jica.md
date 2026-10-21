@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/jica |
 | Rol en el ecosistema | Agencia de cooperación internacional de Japón |
 | Desafíos (códigos) | AGR, AGU, CIR |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-jica](https://nexus.cleantechhub.net/s/pe-jica) |
 
 ## Rol y alcance
 

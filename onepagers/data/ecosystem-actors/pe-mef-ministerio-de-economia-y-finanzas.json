@@ -1,0 +1,12 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-mef-ministerio-de-economia-y-finanzas",
+  "actor_id": "pe-mef-ministerio-de-economia-y-finanzas",
+  "name": "MEF – Ministerio de Economía y Finanzas",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "government",
+  "ecosystem_role": "Ministerio rector de política económica y finanzas públicas",
+  "website": "https://www.gob.pe/mef",
+  "description": "El Ministerio de Economía y Finanzas (MEF) formula y ejecuta la política económica, fiscal y de finanzas públicas del Perú, incluyendo marco para inversión privada, presupuesto y deuda.\n\n**Año de fundación:** PENDIENTE"
+}

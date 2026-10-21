@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-iica",
+  "actor_id": "pe-iica",
+  "name": "IICA",
+  "country": "Peru",
+  "city": "Lima (La Molina)",
+  "category": "international",
+  "ecosystem_role": "Organismo interamericano de agricultura y desarrollo rural",
+  "website": "https://iica.int",
+  "linkedin": "https://www.linkedin.com/company/iica",
+  "description": "Instituto Interamericano de Cooperación para la Agricultura (IICA): organismo intergubernamental que apoya políticas y capacidades agropecuarias en las Américas; oficina en Perú.\n\n| Detalle | Valor |\n| --- | --- |\n| Año de fundación | 1942 |\n| Dirección | PENDIENTE (oficina país Perú) |\n| Áreas de enfoque (CT) | AGR |\n| Programas | Asistencia técnica a ministerios y productores; innovación y seguridad alimentaria |"
+}

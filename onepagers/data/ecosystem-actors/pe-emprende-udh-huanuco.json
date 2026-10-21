@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-emprende-udh-huanuco",
+  "actor_id": "pe-emprende-udh-huanuco",
+  "name": "Emprende UDH (Huánuco)",
+  "country": "Peru",
+  "city": "Huánuco",
+  "category": "accelerator",
+  "ecosystem_role": "Programa o unidad de emprendimiento de la Universidad de Huánuco (UDH).",
+  "website": "https://www.udh.edu.pe",
+  "linkedin": "https://www.linkedin.com/school/universidad-de-hu%C3%A1nuco",
+  "description": "Emprende UDH es la iniciativa de emprendimiento vinculada a la Universidad de Huánuco, institución licenciada por SUNEDU."
+}

@@ -27,7 +27,7 @@ tag_country: Colombia
 | Rol en el ecosistema | Fondo multilateral de inversión climática. |
 | Año de fundación | 2008 |
 | Desafíos (códigos) | ENE, FIN, BOS |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/co-cif-climate-investment-funds](https://nexus.cleantechhub.net/s/co-cif-climate-investment-funds) |
 
 ## Rol y alcance
 

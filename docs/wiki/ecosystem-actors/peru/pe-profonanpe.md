@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/profonanpe |
 | Rol en el ecosistema | Fondo trust de financiamiento para áreas naturales protegidas |
 | Desafíos (códigos) | BOS, AGU |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-profonanpe](https://nexus.cleantechhub.net/s/pe-profonanpe) |
 
 ## Rol y alcance
 

@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-haskoningshv",
+  "actor_id": "pe-haskoningshv",
+  "name": "Haskoningshv",
+  "country": "Peru",
+  "city": "Nieuwegein, Países Bajos (sede); proyectos en Perú",
+  "category": "corporate",
+  "ecosystem_role": "Consultora de ingeniería y medio ambiente para infraestructura sostenible.",
+  "website": "https://www.haskoning.com",
+  "linkedin": "https://www.linkedin.com/company/haskoning",
+  "description": "Haskoning es una consultora internacional de ingeniería para el entorno natural y construido, con enfoque en sostenibilidad."
+}

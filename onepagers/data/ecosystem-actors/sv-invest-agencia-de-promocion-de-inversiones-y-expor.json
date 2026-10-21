@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "sv-invest-agencia-de-promocion-de-inversiones-y-expor",
+  "actor_id": "sv-invest-agencia-de-promocion-de-inversiones-y-expor",
+  "name": "INVEST – Agencia de Promoción de Inversiones y Exportaciones",
+  "country": "El Salvador",
+  "city": "San Salvador; Calle La Reforma y 9ª Calle Poniente, Edificio Torre Futura, Nivel 16, San Salvador",
+  "category": "government",
+  "ecosystem_role": "Agencia gubernamental de promoción de inversiones y exportaciones.",
+  "website": "https://investinelsalvador.gob.sv",
+  "linkedin": "https://www.linkedin.com/company/investinelsalvador",
+  "description": "Investment promotion site scaffolding"
+}

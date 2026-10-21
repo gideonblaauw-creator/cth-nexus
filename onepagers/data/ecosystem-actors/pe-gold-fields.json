@@ -1,0 +1,12 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-gold-fields",
+  "actor_id": "pe-gold-fields",
+  "name": "Gold Fields",
+  "country": "Peru",
+  "city": "Johannesburg, Sudáfrica (sede); operaciones en Perú",
+  "category": "corporate",
+  "ecosystem_role": "Compañía minera internacional con operaciones auríferas en el Perú.",
+  "website": "https://www.goldfields.com",
+  "description": "Gold Fields Limited es una productora internacional de oro con activos mineros en varios países, incluido el Perú."
+}

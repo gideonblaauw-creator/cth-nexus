@@ -1,0 +1,14 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-bid-lab",
+  "actor_id": "pe-bid-lab",
+  "name": "BID Lab",
+  "country": "Peru",
+  "city": "Washington, D.C.",
+  "category": "international",
+  "ecosystem_role": "Innovación y venture del Banco Interamericano de Desarrollo.",
+  "website": "https://bidlab.org/",
+  "linkedin": "https://www.linkedin.com/company/idb-lab",
+  "founding_year": "1993",
+  "description": "IDB Lab es el brazo de innovación del Grupo BID; financia y acompaña soluciones innovadoras para inclusión, sostenibilidad y productividad en América Latina y el Caribe."
+}

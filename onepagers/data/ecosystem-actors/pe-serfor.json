@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-serfor",
+  "actor_id": "pe-serfor",
+  "name": "SERFOR",
+  "country": "Peru",
+  "city": "Jesús María",
+  "category": "government",
+  "ecosystem_role": "Actor público / regulador",
+  "website": "https://www.gob.pe/serfor",
+  "linkedin": "https://www.linkedin.com/company/servicio-nacional-forestal-y-de-fauna-silvestre",
+  "description": "Servicio Nacional Forestal y de Fauna Silvestre; formula política forestal, otorga títulos y supervisa el manejo forestal y de fauna."
+}

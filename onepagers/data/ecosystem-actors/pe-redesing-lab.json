@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-redesing-lab",
+  "actor_id": "pe-redesing-lab",
+  "name": "Redesing Lab",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "academia",
+  "ecosystem_role": "Universidad o centro de investigación",
+  "website": "https://www.redesignlab.org/",
+  "linkedin": "https://www.linkedin.com/company/redesignlab",
+  "description": "Venture studio de impacto en Latinoamérica enfocado en bioeconomía: diseña, escala e invierte en negocios sostenibles."
+}

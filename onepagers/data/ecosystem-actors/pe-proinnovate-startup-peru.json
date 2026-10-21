@@ -1,0 +1,12 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-proinnovate-startup-peru",
+  "actor_id": "pe-proinnovate-startup-peru",
+  "name": "ProInnóvate – StartUp Perú",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "government",
+  "ecosystem_role": "Programa ejecutor StartUp Perú (ProInnóvate)",
+  "website": "https://www.gob.pe/proinnovate",
+  "description": "ProInnóvate, adscrito al PRODUCE, ejecuta StartUp Perú y la Red de Incubadoras y Aceleradoras, canalizando fondos públicos para innovación y emprendimiento de alto impacto.\n\n**Año de fundación:** PENDIENTE"
+}

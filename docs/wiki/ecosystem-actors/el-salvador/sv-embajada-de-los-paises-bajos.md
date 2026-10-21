@@ -28,7 +28,7 @@ tag_country: El Salvador
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/sv-embajada-de-los-paises-bajos](https://nexus.cleantechhub.net/s/sv-embajada-de-los-paises-bajos) |
 
 ## Rol y alcance
 

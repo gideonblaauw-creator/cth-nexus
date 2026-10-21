@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Universidad o centro de investigación |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-unalm-universidad-nacional-agraria-la-molina](https://nexus.cleantechhub.net/s/pe-unalm-universidad-nacional-agraria-la-molina) |
 
 ## Rol y alcance
 

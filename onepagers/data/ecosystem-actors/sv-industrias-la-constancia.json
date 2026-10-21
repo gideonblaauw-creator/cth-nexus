@@ -1,0 +1,12 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "sv-industrias-la-constancia",
+  "actor_id": "sv-industrias-la-constancia",
+  "name": "Industrias La Constancia",
+  "country": "El Salvador",
+  "city": "San Salvador",
+  "category": "corporate",
+  "ecosystem_role": "Cervecería y bebidas (La Constancia) con operaciones industriales en El Salvador.",
+  "website": "https://laconstancia.com",
+  "description": "Cervecería y bebidas (La Constancia) con operaciones industriales en El Salvador."
+}

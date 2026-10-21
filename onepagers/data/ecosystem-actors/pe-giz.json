@@ -1,0 +1,14 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-giz",
+  "actor_id": "pe-giz",
+  "name": "GIZ",
+  "country": "Peru",
+  "city": "Eschborn / Bonn, Alemania (sede); Lima (oficina país)",
+  "category": "international",
+  "ecosystem_role": "Cooperación técnica alemana para desarrollo sostenible en Perú.",
+  "website": "https://www.giz.de",
+  "linkedin": "https://www.linkedin.com/company/gizgmbh",
+  "founding_year": "2011",
+  "description": "La Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH implementa proyectos de cooperación al desarrollo en el Perú y a nivel global."
+}

@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/iica |
 | Rol en el ecosistema | Organismo interamericano de agricultura y desarrollo rural |
 | Desafíos (códigos) | AGR |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-iica](https://nexus.cleantechhub.net/s/pe-iica) |
 
 ## Rol y alcance
 

@@ -1,0 +1,14 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-alicorp",
+  "actor_id": "pe-alicorp",
+  "name": "Alicorp",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "corporate",
+  "ecosystem_role": "Corporación de alimentos y consumo masivo.",
+  "website": "https://www.alicorp.com.pe",
+  "linkedin": "https://www.linkedin.com/company/alicorp",
+  "founding_year": "1956",
+  "description": "Alicorp es una empresa multilatina peruana de consumo masivo y alimentos, con operaciones en varios países de la región."
+}

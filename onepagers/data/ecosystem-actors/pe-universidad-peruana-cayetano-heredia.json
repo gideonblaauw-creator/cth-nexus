@@ -1,0 +1,12 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-universidad-peruana-cayetano-heredia",
+  "actor_id": "pe-universidad-peruana-cayetano-heredia",
+  "name": "Universidad Peruana Cayetano Heredia",
+  "country": "Peru",
+  "city": "San Isidro",
+  "category": "academia",
+  "ecosystem_role": "Universidad o centro de investigación",
+  "website": "https://cayetano.edu.pe",
+  "description": "Universidad privada líder en ciencias de la salud, investigación y programas de posgrado en el Perú."
+}

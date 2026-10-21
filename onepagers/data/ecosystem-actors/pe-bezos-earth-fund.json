@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-bezos-earth-fund",
+  "actor_id": "pe-bezos-earth-fund",
+  "name": "Bezos Earth Fund",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "funder",
+  "ecosystem_role": "Financiador e inversionista",
+  "website": "https://www.bezosearthfund.org",
+  "linkedin": "https://www.linkedin.com/company/bezos-earth-fund",
+  "description": "The Bezos Earth Fund is a $10bn commitment to protect and restore the natural world through innovative projects across the planet."
+}

@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | FIN |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-grio-grupo-romero](https://nexus.cleantechhub.net/s/pe-grio-grupo-romero) |
 
 ## Rol y alcance
 

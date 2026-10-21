@@ -1,0 +1,12 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-https-latinamerica-hss-de",
+  "actor_id": "pe-https-latinamerica-hss-de",
+  "name": "https://latinamerica.hss.de",
+  "country": "Peru",
+  "city": "Fráncfort del Meno, Alemania (sede fundación)",
+  "category": "corporate",
+  "ecosystem_role": "Fundación alemana con programas en América Latina.",
+  "website": "https://latinamerica.hss.de",
+  "description": "El sitio latinamerica.hss.de documenta el trabajo de la fundación Heinrich Schmid en la región latinoamericana."
+}

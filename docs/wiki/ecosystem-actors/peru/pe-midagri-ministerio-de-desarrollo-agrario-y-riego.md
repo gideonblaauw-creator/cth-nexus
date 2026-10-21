@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Ministerio de agricultura, desarrollo rural y riego |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-midagri-ministerio-de-desarrollo-agrario-y-riego](https://nexus.cleantechhub.net/s/pe-midagri-ministerio-de-desarrollo-agrario-y-riego) |
 
 ## Rol y alcance
 

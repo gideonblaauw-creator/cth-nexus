@@ -1,0 +1,14 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-bolsa-de-valores-de-lima",
+  "actor_id": "pe-bolsa-de-valores-de-lima",
+  "name": "Bolsa de Valores de Lima",
+  "country": "Peru",
+  "city": "Lima (San Isidro)",
+  "category": "finance",
+  "ecosystem_role": "Mercado de valores regulado.",
+  "website": "https://www.bvl.com.pe",
+  "linkedin": "https://www.linkedin.com/company/bolsa-de-valores-de-lima",
+  "founding_year": "1860",
+  "description": "La Bolsa de Valores de Lima (BVL) es el mercado de valores oficial del Perú; facilita financiamiento bursátil y negociación de instrumentos."
+}

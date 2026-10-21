@@ -1,0 +1,12 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "sv-fideagro",
+  "actor_id": "sv-fideagro",
+  "name": "FIDEAGRO",
+  "country": "El Salvador",
+  "city": "San Salvador",
+  "category": "funder",
+  "ecosystem_role": "Fideicomiso de desarrollo agropecuario y rural en El Salvador.",
+  "website": "https://www.fideagro.org",
+  "description": "Fideicomiso de desarrollo agropecuario y rural en El Salvador."
+}

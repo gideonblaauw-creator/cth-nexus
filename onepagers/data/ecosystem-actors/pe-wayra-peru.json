@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-wayra-peru",
+  "actor_id": "pe-wayra-peru",
+  "name": "Wayra Perú",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "funder",
+  "ecosystem_role": "Financiador e inversionista",
+  "website": "https://www.wayra.com",
+  "linkedin": "https://www.linkedin.com/company/wayra",
+  "description": "Corporate venture capital de Telefónica que invierte en startups tecnológicas, con operaciones en Perú.\n\n| Campo | Valor |\n| --- | --- |\n| Año de fundación | PENDIENTE |\n| Dirección | Lima, Perú |\n| Enfoque (taxonomía CT) | Venture capital, startups, agrotech y soluciones climáticas (AGR, BOS) |\n| Programas | Inversión y aceleración de startups en etapas tempranas (Wayra). |"
+}

@@ -1,0 +1,14 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-accion-venture-lab",
+  "actor_id": "pe-accion-venture-lab",
+  "name": "Accion Venture Lab",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "funder",
+  "ecosystem_role": "Financiador e inversionista",
+  "website": "https://www.accion.org",
+  "linkedin": "https://www.linkedin.com/company/accion",
+  "founding_year": "1961",
+  "description": "Accion is on a mission is to improve the lives of underserved people by building innovative and responsible financial solutions."
+}

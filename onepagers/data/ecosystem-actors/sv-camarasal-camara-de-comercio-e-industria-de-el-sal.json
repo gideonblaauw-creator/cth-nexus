@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "sv-camarasal-camara-de-comercio-e-industria-de-el-sal",
+  "actor_id": "sv-camarasal-camara-de-comercio-e-industria-de-el-sal",
+  "name": "CAMARASAL – Cámara de Comercio e Industria de El Salvador",
+  "country": "El Salvador",
+  "city": "San Salvador",
+  "category": "chamber",
+  "ecosystem_role": "Cámara de comercio e industria: servicios empresariales, representación y promoción del comercio.",
+  "website": "https://camarasal.com",
+  "linkedin": "https://www.linkedin.com/company/27249850",
+  "description": "Cámara de comercio e industria: servicios empresariales, representación y promoción del comercio."
+}

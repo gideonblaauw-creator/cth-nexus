@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Organización internacional o cooperación |
 | Año de fundación | 1946 |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-banco-mundial](https://nexus.cleantechhub.net/s/pe-banco-mundial) |
 
 ## Rol y alcance
 

@@ -1,0 +1,12 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-programa-para-bionegocios-minam",
+  "actor_id": "pe-programa-para-bionegocios-minam",
+  "name": "Programa para Bionegocios (MINAM)",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "government",
+  "ecosystem_role": "Programa de bionegocios y economía circular (MINAM)",
+  "website": "https://www.gob.pe/institucion/minam/colecciones/1479-programa-nacional-de-bionegocios-y-economia-circular",
+  "description": "El Programa Nacional de Bionegocios y Economía Circular del MINAM promueve negocios basados en biodiversidad y modelos circulares que reduzcan impacto ambiental y generen valor en comunidades.\n\n**Año de fundación:** PENDIENTE"
+}

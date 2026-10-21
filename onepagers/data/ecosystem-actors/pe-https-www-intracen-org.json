@@ -1,0 +1,12 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-https-www-intracen-org",
+  "actor_id": "pe-https-www-intracen-org",
+  "name": "https://www.intracen.org",
+  "country": "Peru",
+  "city": "Ginebra, Suiza",
+  "category": "corporate",
+  "ecosystem_role": "Agencia conjunta ONU/OMC para el comercio internacional y apoyo a PYME exportadoras.",
+  "website": "https://www.intracen.org",
+  "description": "El Centro de Comercio Internacional (ITC) acompaña a pequeñas y medianas empresas en comercio sostenible e inclusivo."
+}

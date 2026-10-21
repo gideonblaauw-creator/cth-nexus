@@ -1,0 +1,12 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "sv-ases-seguros",
+  "actor_id": "sv-ases-seguros",
+  "name": "ASES Seguros",
+  "country": "El Salvador",
+  "city": "San Salvador",
+  "category": "finance",
+  "ecosystem_role": "Institución financiera",
+  "website": "https://ases.org.sv",
+  "description": "Asociación Salvadoreña de Empresas de Seguros que agrupa y representa al sector asegurador del país."
+}

@@ -1,0 +1,12 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-https-www-norway-no-es-peru",
+  "actor_id": "pe-https-www-norway-no-es-peru",
+  "name": "https://www.norway.no/es/peru/",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "corporate",
+  "ecosystem_role": "Representación diplomática y cooperación de Noruega en el Perú.",
+  "website": "https://www.norway.no/es/peru/",
+  "description": "La sección «Noruega en Perú» del portal oficial describe la embajada y la cooperación bilateral."
+}

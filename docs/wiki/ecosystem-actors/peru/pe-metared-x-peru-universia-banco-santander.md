@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/metaredx-by-universia/ |
 | Rol en el ecosistema | Red universitaria de emprendimiento (Universia / Santander) |
 | Desafíos (códigos) | AGR, AGU, CIR, ENE, FIN |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-metared-x-peru-universia-banco-santander](https://nexus.cleantechhub.net/s/pe-metared-x-peru-universia-banco-santander) |
 
 ## Rol y alcance
 

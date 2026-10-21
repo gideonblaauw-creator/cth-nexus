@@ -1,0 +1,14 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "sv-gggi",
+  "actor_id": "sv-gggi",
+  "name": "GGGI",
+  "country": "El Salvador",
+  "city": "San Salvador",
+  "category": "international",
+  "ecosystem_role": "Instituto intergubernamental que apoya crecimiento verde e inclusivo.",
+  "website": "https://gggi.org",
+  "linkedin": "https://www.linkedin.com/company/global-green-growth-institute",
+  "founding_year": "2012",
+  "description": "Instituto intergubernamental que apoya crecimiento verde e inclusivo."
+}

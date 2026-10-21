@@ -25,7 +25,7 @@ tag_country: El Salvador
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Startup agrotech que combina IA y datos para agricultura regenerativa. |
 | Año de fundación | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/sv-iagros](https://nexus.cleantechhub.net/s/sv-iagros) |
 | Dirección | PENDIENTE |
 
 ## Descripción

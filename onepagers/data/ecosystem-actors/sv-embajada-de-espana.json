@@ -1,0 +1,12 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "sv-embajada-de-espana",
+  "actor_id": "sv-embajada-de-espana",
+  "name": "Embajada de España",
+  "country": "El Salvador",
+  "city": "San Salvador; Calle La Reforma y 9ª Calle Poniente, Colonia San Benito, San Salvador",
+  "category": "international",
+  "ecosystem_role": "Representación diplomática de España en El Salvador.",
+  "website": "https://www.exteriores.gob.es/Embajadas/sansalvador/es/Paginas/index.aspx",
+  "description": "La Embajada de España en San Salvador es la misión diplomática del Reino de España ante la República de El Salvador."
+}

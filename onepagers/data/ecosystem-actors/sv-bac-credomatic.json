@@ -1,0 +1,12 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "sv-bac-credomatic",
+  "actor_id": "sv-bac-credomatic",
+  "name": "BAC Credomatic",
+  "country": "El Salvador",
+  "city": "San Salvador",
+  "category": "finance",
+  "ecosystem_role": "Institución financiera",
+  "website": "https://www.baccredomatic.com",
+  "description": "Grupo financiero regional con operaciones en El Salvador; banca de personas, PYME y corporativa."
+}

@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/92463372 |
 | Rol en el ecosistema | Hub universitario de emprendimiento e innovación sostenible |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-hub-udep-programa-de-aceleracio-n-3g-sostenibili](https://nexus.cleantechhub.net/s/pe-hub-udep-programa-de-aceleracio-n-3g-sostenibili) |
 
 ## Rol y alcance
 

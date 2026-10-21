@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | 1993 |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-forest-stewardship-council](https://nexus.cleantechhub.net/s/pe-forest-stewardship-council) |
 
 ## Rol y alcance
 

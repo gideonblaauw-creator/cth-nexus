@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "sv-grupo-ternova",
+  "actor_id": "sv-grupo-ternova",
+  "name": "Grupo Ternova",
+  "country": "El Salvador",
+  "city": "San Salvador",
+  "category": "corporate",
+  "ecosystem_role": "Grupo corporativo de empaques, reciclaje y capital con operaciones en Centroamérica.",
+  "website": "https://www.ternova.group",
+  "linkedin": "https://www.linkedin.com/company/ternovagroup",
+  "description": "Ternova es un grupo corporativo con presencia en 39 países y 5 continentes, posee operaciones en la región Centroamericana y el Sureste asiático."
+}

@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Banco universal líder en el Perú. |
 | Año de fundación | 1889 |
 | Desafíos (códigos) | ENE, FIN |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-bcp-banco-de-credito-del-peru](https://nexus.cleantechhub.net/s/pe-bcp-banco-de-credito-del-peru) |
 
 ## Rol y alcance
 

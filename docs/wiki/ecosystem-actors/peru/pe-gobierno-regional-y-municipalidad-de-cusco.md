@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AGR, BOS |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-gobierno-regional-y-municipalidad-de-cusco](https://nexus.cleantechhub.net/s/pe-gobierno-regional-y-municipalidad-de-cusco) |
 
 ## Rol y alcance
 

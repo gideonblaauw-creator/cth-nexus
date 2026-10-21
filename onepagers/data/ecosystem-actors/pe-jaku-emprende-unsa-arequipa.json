@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-jaku-emprende-unsa-arequipa",
+  "actor_id": "pe-jaku-emprende-unsa-arequipa",
+  "name": "JAKU Emprende UNSA (Arequipa)",
+  "country": "Peru",
+  "city": "Arequipa",
+  "category": "accelerator",
+  "ecosystem_role": "Aceleradora, incubadora o programa de apoyo",
+  "website": "https://www.unsa.edu.pe/jaku/",
+  "linkedin": "https://www.linkedin.com/company/jaku-emprende/",
+  "description": "Programa incubador de la Universidad Nacional de San Agustín (UNSA) en Arequipa para emprendimientos con foco regional.\n\n| Campo | Valor |\n| --- | --- |\n| Dirección | Arequipa, Perú |\n| Año de fundación | PENDIENTE |\n| Áreas de enfoque (taxonomía CT) | AGR, AGU, ENE |\n| Programas | Incubación JAKU Emprende UNSA |"
+}

@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Universidad o centro de investigación |
 | Desafíos (códigos) | AGR, BOS, CIU |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-unia-universidad-nacional-intercultural-de-la-amaz](https://nexus.cleantechhub.net/s/pe-unia-universidad-nacional-intercultural-de-la-amaz) |
 
 ## Rol y alcance
 

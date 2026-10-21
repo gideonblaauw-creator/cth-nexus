@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-onu-habitat",
+  "actor_id": "pe-onu-habitat",
+  "name": "ONU-Hábitat",
+  "country": "Peru",
+  "city": "Nairobi (sede); programa Perú",
+  "category": "international",
+  "ecosystem_role": "Programa de las Naciones Unidas para asentamientos humanos",
+  "website": "https://unhabitat.org",
+  "linkedin": "https://www.linkedin.com/company/unhabitat/",
+  "description": "Programa de las Naciones Unidas para asentamientos humanos; apoya ciudades sostenibles y resiliencia urbana.\n\n| Campo | Valor |\n| --- | --- |\n| Dirección | Sede: Nairobi, Kenia; actividades en Perú vía oficinas regionales |\n| Año de fundación | 1978 |\n| Áreas de enfoque (taxonomía CT) | CIU |\n| Programas | Urbanización sostenible; vivienda y resiliencia climática urbana |"
+}

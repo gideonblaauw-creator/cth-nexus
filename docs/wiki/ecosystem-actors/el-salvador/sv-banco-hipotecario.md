@@ -26,7 +26,7 @@ tag_country: El Salvador
 | LinkedIn | https://www.linkedin.com/company/banco-hipotecario-de-el-salvador |
 | Rol en el ecosistema | Institución financiera |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/sv-banco-hipotecario](https://nexus.cleantechhub.net/s/sv-banco-hipotecario) |
 
 ## Rol y alcance
 

@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Empresa / sector privado (verificar identidad en mapa CTH). |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AZU, BOS, ENE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-bos-azu-ene](https://nexus.cleantechhub.net/s/pe-bos-azu-ene) |
 
 ## Rol y alcance
 

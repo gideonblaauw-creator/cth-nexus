@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/universidad-nacional-amaz%C3%B3nica-de-madre-de-dios |
 | Rol en el ecosistema | Universidad o centro de investigación |
 | Desafíos (códigos) | AGR, BOS, CIU |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-unamad-universidad-nacional-amazonica-de-madre-de-](https://nexus.cleantechhub.net/s/pe-unamad-universidad-nacional-amazonica-de-madre-de-) |
 
 ## Rol y alcance
 

@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/ministerio-de-la-produccion/ |
 | Rol en el ecosistema | Ministerio de pesca, acuicultura e industrias |
 | Desafíos (códigos) | AZU, CIR, FIN |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-produce-ministerio-de-la-produccion](https://nexus.cleantechhub.net/s/pe-produce-ministerio-de-la-produccion) |
 
 ## Rol y alcance
 

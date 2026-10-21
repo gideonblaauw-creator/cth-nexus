@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "sv-la-prensa-grafica",
+  "actor_id": "sv-la-prensa-grafica",
+  "name": "La Prensa Gráfica",
+  "country": "El Salvador",
+  "city": "San Salvador",
+  "category": "media",
+  "ecosystem_role": "Diario y plataforma multimedia de referencia en El Salvador.",
+  "website": "https://www.laprensagrafica.com",
+  "linkedin": "https://www.linkedin.com/company/la-prensa-gr%C3%A1fica",
+  "description": "Diario y plataforma multimedia de referencia en El Salvador."
+}

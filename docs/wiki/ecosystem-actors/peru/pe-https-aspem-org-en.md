@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | 1979 |
 | Desafíos (códigos) | FIN |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-https-aspem-org-en](https://nexus.cleantechhub.net/s/pe-https-aspem-org-en) |
 
 ## Rol y alcance
 

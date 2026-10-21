@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Banco público de desarrollo agropecuario. |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | BOS |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-agrobanco](https://nexus.cleantechhub.net/s/pe-agrobanco) |
 
 ## Rol y alcance
 

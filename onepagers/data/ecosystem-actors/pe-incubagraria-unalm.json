@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-incubagraria-unalm",
+  "actor_id": "pe-incubagraria-unalm",
+  "name": "Incubagraria (UNALM)",
+  "country": "Peru",
+  "city": "La Molina, Lima",
+  "category": "accelerator",
+  "ecosystem_role": "Aceleradora, incubadora o programa de apoyo",
+  "website": "https://incubagraria.lamolina.edu.pe/",
+  "linkedin": "https://www.linkedin.com/company/incubagraria",
+  "description": "Incubagraria es la incubadora de empresas de la Universidad Nacional Agraria La Molina; ofrece preincubación, incubación, mentorías y laboratorio para emprendimientos de base científica, tecnológica o con impacto ambiental positivo.\n\n**Año de fundación:** 2016"
+}

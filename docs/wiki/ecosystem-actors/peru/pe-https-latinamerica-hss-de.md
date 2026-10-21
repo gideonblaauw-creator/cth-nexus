@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AGU, BOS |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-https-latinamerica-hss-de](https://nexus.cleantechhub.net/s/pe-https-latinamerica-hss-de) |
 
 ## Rol y alcance
 

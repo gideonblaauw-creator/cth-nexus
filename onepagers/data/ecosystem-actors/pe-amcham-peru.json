@@ -1,0 +1,14 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-amcham-peru",
+  "actor_id": "pe-amcham-peru",
+  "name": "AmCham Perú",
+  "country": "Peru",
+  "city": "Lima (San Isidro)",
+  "category": "chamber",
+  "ecosystem_role": "Cámara bilateral Perú–Estados Unidos.",
+  "website": "https://www.amcham.org.pe",
+  "linkedin": "https://www.linkedin.com/company/amchamperu",
+  "founding_year": "1960",
+  "description": "La Cámara de Comercio Americana del Perú (AmCham) promueve inversiones, comercio y vínculos empresariales entre Perú y Estados Unidos."
+}

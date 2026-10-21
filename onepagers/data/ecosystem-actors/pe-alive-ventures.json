@@ -1,0 +1,14 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-alive-ventures",
+  "actor_id": "pe-alive-ventures",
+  "name": "ALIVE Ventures",
+  "country": "Peru",
+  "city": "Pachacámac",
+  "category": "funder",
+  "ecosystem_role": "Gestora de fondos de impacto.",
+  "website": "https://www.alive-ventures.com",
+  "linkedin": "https://www.linkedin.com/company/alive-ventures",
+  "founding_year": "2018",
+  "description": "ALIVE Ventures es gestora de fondos de impacto que invierte en empresas de alto crecimiento que reducen desigualdad en comunidades de bajos ingresos en Latinoamérica."
+}

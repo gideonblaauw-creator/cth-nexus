@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Financiador e inversionista |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | BOS |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-amazonia-impact-ventures](https://nexus.cleantechhub.net/s/pe-amazonia-impact-ventures) |
 
 ## Rol y alcance
 

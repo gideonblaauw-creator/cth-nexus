@@ -1,0 +1,14 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "sv-utec-universidad-tecnologica-de-el-salvador",
+  "actor_id": "sv-utec-universidad-tecnologica-de-el-salvador",
+  "name": "UTEC – Universidad Tecnológica de El Salvador",
+  "country": "El Salvador",
+  "city": "San Salvador",
+  "category": "academia",
+  "ecosystem_role": "Universidad privada tecnológica con programas de ingeniería y negocios.",
+  "website": "https://www.utec.edu.sv",
+  "linkedin": "https://www.linkedin.com/school/universidadtecnologicadeelsalvador",
+  "founding_year": "1997",
+  "description": "Universidad privada tecnológica con programas de ingeniería y negocios."
+}

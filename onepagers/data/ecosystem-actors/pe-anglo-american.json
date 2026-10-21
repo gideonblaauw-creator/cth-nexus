@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-anglo-american",
+  "actor_id": "pe-anglo-american",
+  "name": "Anglo American",
+  "country": "Peru",
+  "city": "Ilo",
+  "category": "corporate",
+  "ecosystem_role": "Empresa / sector privado",
+  "website": "https://www.angloamerican.com",
+  "linkedin": "https://www.linkedin.com/company/anglo-american",
+  "description": "Anglo American is a leading global mining company focused on the responsible production of copper, premium iron ore and crop nutrients."
+}

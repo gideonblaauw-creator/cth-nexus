@@ -1,0 +1,12 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "sv-asi-asociacion-salvadorena-de-industriales",
+  "actor_id": "sv-asi-asociacion-salvadorena-de-industriales",
+  "name": "ASI – Asociación Salvadoreña de Industriales",
+  "country": "El Salvador",
+  "city": "San Salvador",
+  "category": "chamber",
+  "ecosystem_role": "Cámara o gremio",
+  "website": "https://industriaelsalvador.com",
+  "description": "Gremio que representa al sector industrial salvadoreño y promueve competitividad y desarrollo productivo."
+}

@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Gestora de fondos de impacto. |
 | Año de fundación | 2018 |
 | Desafíos (códigos) | ENE, FIN |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-alive-ventures](https://nexus.cleantechhub.net/s/pe-alive-ventures) |
 
 ## Rol y alcance
 

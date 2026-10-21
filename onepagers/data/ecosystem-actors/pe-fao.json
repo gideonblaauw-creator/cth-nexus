@@ -1,0 +1,14 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-fao",
+  "actor_id": "pe-fao",
+  "name": "FAO",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "international",
+  "ecosystem_role": "Agencia especializada de la ONU para alimentación, agricultura y seguridad alimentaria en Perú.",
+  "website": "https://www.fao.org/americas/paises/peru/es",
+  "linkedin": "https://www.linkedin.com/company/fao/",
+  "founding_year": "1945",
+  "description": "Oficina de la Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO) en el Perú.\n\n| Campo | Valor |\n| --- | --- |\n| Dirección | Av. Javier Prado Oeste 790, San Isidro, Lima |\n| Año de fundación | 1945 (FAO) |\n| Áreas de enfoque (taxonomía CT) | AGR |\n| Programas | Seguridad alimentaria; agricultura sostenible; adaptación climática rural |"
+}

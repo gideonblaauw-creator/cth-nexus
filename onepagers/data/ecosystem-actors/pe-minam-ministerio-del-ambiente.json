@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-minam-ministerio-del-ambiente",
+  "actor_id": "pe-minam-ministerio-del-ambiente",
+  "name": "MINAM – Ministerio del Ambiente",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "government",
+  "ecosystem_role": "Actor público / regulador",
+  "website": "https://www.gob.pe/minam",
+  "linkedin": "https://www.linkedin.com/company/minamperu",
+  "description": "El MINAM es el ministerio rector de la política ambiental peruana: biodiversidad, residuos, cambio climático, negocios verdes y educación ambiental.\n\n- **Año de fundación:** 2008\n- **Dirección:** Av. Antonio Miró Quesada 425, Magdalena del Mar, Lima, Perú\n- **Áreas de enfoque (taxonomía CT):** BOS\n- **Programas:** Programa Nacional de Conservación de Bosques; Programa para Bionegocios; plataforma de negocios verdes"
+}

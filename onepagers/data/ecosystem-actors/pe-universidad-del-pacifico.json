@@ -1,0 +1,12 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-universidad-del-pacifico",
+  "actor_id": "pe-universidad-del-pacifico",
+  "name": "Universidad del Pacífico",
+  "country": "Peru",
+  "city": "Jesús María",
+  "category": "academia",
+  "ecosystem_role": "Universidad o centro de investigación",
+  "website": "https://www.up.edu.pe",
+  "description": "Universidad privada de referencia en economía, negocios y políticas públicas en el Perú."
+}

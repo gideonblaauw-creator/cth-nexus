@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-financiera-confianza",
+  "actor_id": "pe-financiera-confianza",
+  "name": "Financiera Confianza",
+  "country": "Peru",
+  "city": "Ate, Lima",
+  "category": "finance",
+  "ecosystem_role": "Entidad de microfinanzas (Finanzas Productivas) vinculada al ecosistema de inclusión financiera.",
+  "website": "https://confianza.pe",
+  "linkedin": "https://www.linkedin.com/company/financiera-confianza-fmbbva",
+  "description": "Financiera Confianza es una entidad líder del sector microfinanciero peruano que impulsa el desarrollo económico y social mediante crédito productivo."
+}

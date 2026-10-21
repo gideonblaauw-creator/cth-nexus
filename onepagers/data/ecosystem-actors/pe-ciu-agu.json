@@ -1,0 +1,14 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-ciu-agu",
+  "actor_id": "pe-ciu-agu",
+  "name": "CIU AGU",
+  "country": "Peru",
+  "city": "Lima (Barranco)",
+  "category": "corporate",
+  "ecosystem_role": "Centro de I+D en agua y medio ambiente (UTEC).",
+  "website": "https://utec.edu.pe/centro-investigacion-cita",
+  "linkedin": "https://www.linkedin.com/company/cita-utec",
+  "founding_year": "2017",
+  "description": "El Centro de Investigación y Tecnología del Agua (CITA) de la UTEC desarrolla investigación aplicada en seguridad hídrica, monitoreo ambiental y gestión de recursos hídricos."
+}

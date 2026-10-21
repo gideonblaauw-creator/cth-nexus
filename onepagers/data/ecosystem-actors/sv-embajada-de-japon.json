@@ -1,0 +1,12 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "sv-embajada-de-japon",
+  "actor_id": "sv-embajada-de-japon",
+  "name": "Embajada de Japón",
+  "country": "El Salvador",
+  "city": "San Salvador; Calle La Reforma y 9ª Calle Poniente, Edificio Intermark, Nivel 12, San Salvador",
+  "category": "international",
+  "ecosystem_role": "Embajada de Japón en El Salvador; relaciones bilaterales y cooperación.",
+  "website": "https://www.sv.emb-japan.go.jp",
+  "description": "Embajada de Japón en El Salvador; relaciones bilaterales y cooperación."
+}

@@ -28,7 +28,7 @@ tag_country: El Salvador
 | Dirección | PENDIENTE |
 | Año de fundación | 1841 |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/sv-ues-universidad-de-el-salvador](https://nexus.cleantechhub.net/s/sv-ues-universidad-de-el-salvador) |
 
 ## Rol y alcance
 

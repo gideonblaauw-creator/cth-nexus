@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "sv-fundacion-colabora",
+  "actor_id": "sv-fundacion-colabora",
+  "name": "Fundación Colabora",
+  "country": "El Salvador",
+  "city": "San Salvador",
+  "category": "ngo_foundation",
+  "ecosystem_role": "Fundación que impulsa emprendimiento social y desarrollo comunitario.",
+  "website": "https://fundacioncolabora.com",
+  "linkedin": "https://www.linkedin.com/company/fundaci%C3%B3n-colabora/",
+  "description": "Fundación que impulsa emprendimiento de impacto y alianzas para desarrollo sostenible en El Salvador.\n\n| Campo | Valor |\n| --- | --- |\n| Dirección | San Salvador, El Salvador |\n| Año de fundación | PENDIENTE |\n| Áreas de enfoque (taxonomía CT) | PENDIENTE |\n| Programas | Incubación y articulación de emprendimientos de triple impacto |"
+}

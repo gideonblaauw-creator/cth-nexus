@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "sv-recicla503",
+  "actor_id": "sv-recicla503",
+  "name": "Recicla503",
+  "country": "El Salvador",
+  "city": "San Salvador",
+  "category": "startup",
+  "ecosystem_role": "Iniciativa de economía circular para recolección y reciclaje de plásticos en El Salvador.",
+  "website": "https://www.ternova.group/circular-solutions",
+  "founding_year": "2019",
+  "description": "Iniciativa de economía circular para recolección y reciclaje de plásticos en El Salvador."
+}

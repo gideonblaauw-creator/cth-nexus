@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-minem-ministerio-de-energia-y-minas",
+  "actor_id": "pe-minem-ministerio-de-energia-y-minas",
+  "name": "MINEM – Ministerio de Energía y Minas",
+  "country": "Peru",
+  "city": "San Isidro, Lima",
+  "category": "government",
+  "ecosystem_role": "Ministerio de energía, minería e hidrocarburos",
+  "website": "https://www.gob.pe/minem",
+  "linkedin": "https://www.linkedin.com/company/minem-per%C3%BA/",
+  "description": "Ministerio de Energía y Minas del Perú: define política energética, promueve renovables y regula el sector minero-energético.\n\n| Campo | Valor |\n| --- | --- |\n| Dirección | Av. Las Artes Sur 260, San Borja / sede institucional Lima |\n| Año de fundación | PENDIENTE |\n| Áreas de enfoque (taxonomía CT) | ENE |\n| Programas | Transición energética; regulación minero-energética |"
+}

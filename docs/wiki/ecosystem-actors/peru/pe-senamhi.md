@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/senamhi |
 | Rol en el ecosistema | Actor público / regulador |
 | Desafíos (códigos) | AGR, ENE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-senamhi](https://nexus.cleantechhub.net/s/pe-senamhi) |
 
 ## Rol y alcance
 

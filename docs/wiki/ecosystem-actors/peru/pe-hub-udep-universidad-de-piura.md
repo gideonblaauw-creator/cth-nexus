@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/school/udepiura/ |
 | Rol en el ecosistema | Universidad privada — hub de emprendimiento (HUB UDEP) |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-hub-udep-universidad-de-piura](https://nexus.cleantechhub.net/s/pe-hub-udep-universidad-de-piura) |
 
 ## Rol y alcance
 

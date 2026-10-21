@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/hudbay-minerals-inc- |
 | Rol en el ecosistema | Empresa minera con operaciones en el Perú |
 | Desafíos (códigos) | FIN |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-hudbay](https://nexus.cleantechhub.net/s/pe-hudbay) |
 
 ## Rol y alcance
 

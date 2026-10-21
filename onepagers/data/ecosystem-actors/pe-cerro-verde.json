@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-cerro-verde",
+  "actor_id": "pe-cerro-verde",
+  "name": "Cerro Verde",
+  "country": "Peru",
+  "city": "Arequipa",
+  "category": "corporate",
+  "ecosystem_role": "Empresa / sector privado",
+  "website": "https://www.cerroverde.pe",
+  "linkedin": "https://www.linkedin.com/company/cerro-verde/",
+  "description": "Operación minera de cobre y molibdeno en Arequipa, con programas de gestión de agua, energía y relación con comunidades.\n\n| Campo | Valor |\n| --- | --- |\n| Dirección | Arequipa, Perú (operaciones mineras Cerro Verde) |\n| Año de fundación | PENDIENTE |\n| Áreas de enfoque (taxonomía CT) | AGU, ENE, FIN |\n| Programas | Gestión ambiental minera; innovación abierta y vínculo comunitario |"
+}

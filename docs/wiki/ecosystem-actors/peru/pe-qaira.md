@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/qaira |
 | Rol en el ecosistema | Empresa / sector privado |
 | Desafíos (códigos) | CIU, ENE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-qaira](https://nexus.cleantechhub.net/s/pe-qaira) |
 
 ## Rol y alcance
 

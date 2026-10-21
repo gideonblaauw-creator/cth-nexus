@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-sbs-superintendencia-de-banca-seguros-y-afp",
+  "actor_id": "pe-sbs-superintendencia-de-banca-seguros-y-afp",
+  "name": "SBS – Superintendencia de Banca, Seguros y AFP",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "government",
+  "ecosystem_role": "Actor público / regulador",
+  "website": "https://www.sbs.gob.pe",
+  "linkedin": "https://www.linkedin.com/company/sbsperu",
+  "description": "Superintendencia que regula y supervisa el sistema financiero peruano: bancos, seguros, AFP y otras entidades supervisadas.\n\n- **Año de fundación:** 1924 — https://www.sbs.gob.pe\n\n- **Ciudad / sede:** Lima — https://www.sbs.gob.pe"
+}

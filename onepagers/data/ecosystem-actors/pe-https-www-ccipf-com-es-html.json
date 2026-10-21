@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-https-www-ccipf-com-es-html",
+  "actor_id": "pe-https-www-ccipf-com-es-html",
+  "name": "https://www.ccipf.com/es.html",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "corporate",
+  "ecosystem_role": "Cámara binacional que promueve comercio e inversión Italia–Perú.",
+  "website": "https://www.cciperu.it",
+  "linkedin": "https://www.linkedin.com/company/camara-de-comercio-italiana-del-peru",
+  "description": "La Cámara de Comercio Italiana del Perú facilita relaciones comerciales y networking entre empresas italianas y peruanas."
+}

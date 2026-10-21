@@ -28,7 +28,7 @@ tag_country: El Salvador
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/sv-crs-catholic-relief-services](https://nexus.cleantechhub.net/s/sv-crs-catholic-relief-services) |
 
 ## Rol y alcance
 

@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-swisscontact",
+  "actor_id": "pe-swisscontact",
+  "name": "Swisscontact",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "ngo_foundation",
+  "ecosystem_role": "ONG o fundación",
+  "website": "https://www.swisscontact.org/es/donde-trabajamos/peru",
+  "linkedin": "https://www.linkedin.com/company/swisscontact",
+  "description": "Organización suiza de cooperación al desarrollo con programas en Perú en empleo, economía verde y mercados inclusivos.\n\n- **Ciudad / sede:** Lima — https://www.swisscontact.org/es/donde-trabajamos/peru"
+}

@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-pucp-pontificia-universidad-catolica-del-peru",
+  "actor_id": "pe-pucp-pontificia-universidad-catolica-del-peru",
+  "name": "PUCP – Pontificia Universidad Católica del Perú",
+  "country": "Peru",
+  "city": "San Miguel",
+  "category": "academia",
+  "ecosystem_role": "Universidad de investigación y emprendimiento (Nexum/CIDE)",
+  "website": "https://www.pucp.edu.pe",
+  "linkedin": "https://www.linkedin.com/company/pontificia-universidad-cat-lica-del-per-",
+  "description": "La PUCP es universidad privada de investigación en Lima; articula docencia, investigación y emprendimiento a través de centros como el CIDE.\n\n- **Año de fundación:** 1917\n- **Dirección:** Av. Universitaria 1801, San Miguel, Lima, Perú\n- **Áreas de enfoque (taxonomía CT):** AGU, BOS\n- **Programas:** CIDE y programas de innovación (Nexum); investigación ambiental y de desarrollo sostenible"
+}

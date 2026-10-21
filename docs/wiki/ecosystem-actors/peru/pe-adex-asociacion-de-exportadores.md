@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Gremio exportador nacional. |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-adex-asociacion-de-exportadores](https://nexus.cleantechhub.net/s/pe-adex-asociacion-de-exportadores) |
 
 ## Rol y alcance
 

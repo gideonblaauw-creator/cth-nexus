@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-caja-arequipa",
+  "actor_id": "pe-caja-arequipa",
+  "name": "Caja Arequipa",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "finance",
+  "ecosystem_role": "Institución financiera",
+  "website": "https://www.cajaarequipa.pe",
+  "linkedin": "https://www.linkedin.com/company/caja-arequipa",
+  "description": "En Caja Arequipa puedes obtener Créditos, Ahorros, Seguros y Simulaciones de Préstamos. Somos la Caja Financiera del Perú preferida. ¡Conoce más!"
+}

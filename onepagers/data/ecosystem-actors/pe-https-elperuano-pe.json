@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-https-elperuano-pe",
+  "actor_id": "pe-https-elperuano-pe",
+  "name": "https://elperuano.pe",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "corporate",
+  "ecosystem_role": "Diario Oficial de la República y medio estatal de publicación normativa.",
+  "website": "https://elperuano.pe",
+  "linkedin": "https://www.linkedin.com/company/elperuano",
+  "description": "El Peruano es el diario oficial del Estado peruano; publica normas legales, disposiciones de gobierno y suplementos especializados en versión impresa y digital.\n\n- **Año de fundación:** 1825\n- **Dirección:** PENDIENTE (Editora Perú, Lima)\n- **Áreas de enfoque (taxonomía CT):** PENDIENTE\n- **Programas:** Publicación de normas legales y TUPA; suplementos Jurídica y Económika; portal de normas legales"
+}

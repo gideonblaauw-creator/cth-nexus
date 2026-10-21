@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-bosques-amazonicos-bam",
+  "actor_id": "pe-bosques-amazonicos-bam",
+  "name": "Bosques Amazónicos (BAM)",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "corporate",
+  "ecosystem_role": "Empresa de proyectos forestales y carbono.",
+  "website": "https://bosques-amazonicos.com",
+  "linkedin": "https://www.linkedin.com/company/bosques-amaz%C3%B3nicos-bam",
+  "description": "Bosques Amazónicos (BAM) desarrolla proyectos de conservación y restauración forestal con enfoque de carbono y biodiversidad en la Amazonía."
+}

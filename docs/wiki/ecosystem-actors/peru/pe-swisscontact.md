@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/swisscontact |
 | Rol en el ecosistema | ONG o fundación |
 | Desafíos (códigos) | CIR |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-swisscontact](https://nexus.cleantechhub.net/s/pe-swisscontact) |
 
 ## Rol y alcance
 

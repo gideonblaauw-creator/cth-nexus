@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Autoridad nacional del agua. |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-ana-autoridad-nacional-del-agua](https://nexus.cleantechhub.net/s/pe-ana-autoridad-nacional-del-agua) |
 
 ## Rol y alcance
 

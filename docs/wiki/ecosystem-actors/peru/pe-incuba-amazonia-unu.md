@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Programa de incubación de la Universidad Nacional de Ucayali (UNU) |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-incuba-amazonia-unu](https://nexus.cleantechhub.net/s/pe-incuba-amazonia-unu) |
 
 ## Rol y alcance
 

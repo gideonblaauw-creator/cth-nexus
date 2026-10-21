@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Financiamiento de impacto para emprendedores. |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | FIN |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-beneficial-returns](https://nexus.cleantechhub.net/s/pe-beneficial-returns) |
 
 ## Rol y alcance
 

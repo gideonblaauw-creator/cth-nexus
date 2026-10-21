@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-aje-group",
+  "actor_id": "pe-aje-group",
+  "name": "AJE Group",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "corporate",
+  "ecosystem_role": "Empresa / sector privado",
+  "website": "https://www.ajegroup.com",
+  "linkedin": "https://www.linkedin.com/company/grupoaje",
+  "description": "AJE es una de las empresas multinacionales más grandes del mundo, con presencia en 28 países de Latinoamérica, Asia y África."
+}

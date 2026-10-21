@@ -1,0 +1,12 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "sv-diario-el-mundo",
+  "actor_id": "sv-diario-el-mundo",
+  "name": "Diario El Mundo",
+  "country": "El Salvador",
+  "city": "San Salvador",
+  "category": "media",
+  "ecosystem_role": "Medio digital de noticias de El Salvador.",
+  "website": "https://diario.elmundo.sv",
+  "description": "Noticias de El Salvador, El Mundo, Economia, Deportes, Politica, Tecnologia, Tendencias, Negocios, Entretenimiento"
+}

@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-amanatari",
+  "actor_id": "pe-amanatari",
+  "name": "Amanatari",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "ngo_foundation",
+  "ecosystem_role": "Impulsor de emprendimiento amazónico.",
+  "website": "https://www.amanatari.org/",
+  "linkedin": "https://www.linkedin.com/company/amanatari",
+  "description": "Amanatari impulsa emprendimientos y negocios sostenibles en la Amazonía peruana, articulando comunidades, inversionistas y mercados."
+}

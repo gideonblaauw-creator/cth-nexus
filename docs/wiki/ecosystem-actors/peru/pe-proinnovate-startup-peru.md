@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Programa ejecutor StartUp Perú (ProInnóvate) |
 | Desafíos (códigos) | BOS, FIN |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-proinnovate-startup-peru](https://nexus.cleantechhub.net/s/pe-proinnovate-startup-peru) |
 
 ## Rol y alcance
 

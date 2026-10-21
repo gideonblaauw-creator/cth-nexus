@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-allied-climate-partners",
+  "actor_id": "pe-allied-climate-partners",
+  "name": "Allied Climate Partners",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "funder",
+  "ecosystem_role": "Inversión filantrópica en clima.",
+  "website": "https://www.alliedclimate.org",
+  "linkedin": "https://www.linkedin.com/company/allied-climate-partners",
+  "description": "Allied Climate Partners (ACP) es una organización filantrópica de inversión que busca aumentar proyectos climáticos bancables en el Sur global."
+}

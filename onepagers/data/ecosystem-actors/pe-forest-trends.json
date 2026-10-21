@@ -1,0 +1,14 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-forest-trends",
+  "actor_id": "pe-forest-trends",
+  "name": "Forest Trends",
+  "country": "Peru",
+  "city": "Washington, D.C. (sede global)",
+  "category": "international",
+  "ecosystem_role": "Organización internacional que impulsa finanzas e instrumentos de mercado para la conservación.",
+  "website": "https://www.forest-trends.org",
+  "linkedin": "https://www.linkedin.com/company/forest-trends-association",
+  "founding_year": "1998",
+  "description": "Forest Trends trabaja en finanzas innovadoras y políticas de mercado para conservar ecosistemas forestales y de agua."
+}

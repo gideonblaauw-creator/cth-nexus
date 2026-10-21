@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-beneficial-returns",
+  "actor_id": "pe-beneficial-returns",
+  "name": "Beneficial Returns",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "corporate",
+  "ecosystem_role": "Financiamiento de impacto para emprendedores.",
+  "website": "https://beneficialreturns.org/",
+  "linkedin": "https://www.linkedin.com/company/beneficial-returns",
+  "description": "Beneficial Returns canaliza préstamos y apoyo técnico a emprendedores de impacto en mercados emergentes."
+}

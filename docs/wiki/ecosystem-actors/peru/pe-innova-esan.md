@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Centro de emprendimiento e innovación de ESAN |
 | Desafíos (códigos) | AGR, AGU |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-innova-esan](https://nexus.cleantechhub.net/s/pe-innova-esan) |
 
 ## Rol y alcance
 

@@ -1,0 +1,13 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-bbva-peru",
+  "actor_id": "pe-bbva-peru",
+  "name": "BBVA Perú",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "finance",
+  "ecosystem_role": "Banco comercial y servicios financieros.",
+  "website": "https://www.bbva.pe",
+  "linkedin": "https://www.linkedin.com/company/bbva-peru",
+  "description": "BBVA Perú es la filial peruana del grupo BBVA; ofrece banca retail, empresas y servicios financieros digitales."
+}

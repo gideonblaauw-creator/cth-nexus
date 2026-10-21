@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Universidad o centro de investigación |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-universidad-nacional-de-jaen-cajamarca](https://nexus.cleantechhub.net/s/pe-universidad-nacional-de-jaen-cajamarca) |
 
 ## Rol y alcance
 
