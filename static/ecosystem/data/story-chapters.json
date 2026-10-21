@@ -39,12 +39,11 @@
       "id": "data",
       "title": { "es": "4 · Datos y evidencia", "en": "4 · Data & evidence" },
       "blurb": {
-        "es": "Conjuntos de datos abiertos y evidencia (`published_dataset`, `uses_dataset`). Nodos MINAM/datosabiertos pendientes de curación en research/ecosystem-policy.",
-        "en": "Open datasets and evidence links (`published_dataset`, `uses_dataset`). MINAM/datosabiertos nodes pending research/ecosystem-policy curation."
+        "es": "Conjuntos de datos abiertos verificados (`published_dataset`) desde SUNASS y ANA en datosabiertos.gob.pe; portales SNIRH/SENAMHI solo visor o enlace sin archivo directo quedan fuera del grafo.",
+        "en": "Verified open datasets (`published_dataset`) from SUNASS and ANA on datosabiertos.gob.pe; SNIRH/SENAMHI viewer-only or portal links without direct files are excluded from the graph."
       },
       "edgeTypes": ["published_dataset", "uses_dataset", "cites_dataset", "evidence_from"],
-      "map": { "center": [-77.0, -12.1], "zoom": 5.0, "countries": ["PE"] },
-      "pending": true
+      "map": { "center": [-77.0, -12.1], "zoom": 5.0, "countries": ["PE"] }
     },
     {
       "id": "partnerships",
@@ -80,16 +79,35 @@
     }
   },
   "datasets": {
-    "dataset:pe-minam-datosabiertos-pending": {
+    "dataset:pe-sunass-conexiones-activas-agua-potable": {
       "label": {
-        "es": "MINAM · Datos Abiertos (PE) — pendiente",
-        "en": "MINAM · Open Data (PE) — pending"
+        "es": "SUNASS · Conexiones activas de agua potable (mensual)",
+        "en": "SUNASS · Active water connections (monthly)"
       },
       "country": "Peru",
-      "status": "pending",
-      "publisher": "MINAM",
-      "source_url": "https://www.datosabiertos.gob.pe/organization/minam",
+      "status": "published",
+      "publisher": "SUNASS",
+      "format": "CSV",
+      "license": "ODC-By",
+      "update_frequency": "Monthly (provider reporting)",
+      "source_url": "https://www.datosabiertos.gob.pe/dataset/n%C3%BAmero-de-conexiones-activas-de-agua-potable-sunass",
+      "download_url": "https://www.datosabiertos.gob.pe/sites/default/files/Conexiones_activas_Dataset.csv",
       "geo": { "lat": -12.0952, "lng": -77.0599 }
+    },
+    "dataset:pe-ana-fajas-marginales-csv": {
+      "label": {
+        "es": "ANA · Fajas marginales (CSV nacional)",
+        "en": "ANA · Riparian protection belts (national CSV)"
+      },
+      "country": "Peru",
+      "status": "published",
+      "publisher": "ANA",
+      "format": "CSV",
+      "license": "ODC-By (PE open-data portal; package metadata not resolved)",
+      "update_frequency": "Ad hoc (resource updated 2026-08-31)",
+      "source_url": "https://www.datosabiertos.gob.pe/dataset/resource/33ba82b5-68b2-4fb8-92ec-fd51771b9a63",
+      "download_url": "https://www.datosabiertos.gob.pe/sites/default/files/Faja_Marginal_Datos_Abiertos_Act31082026.csv",
+      "geo": { "lat": -9.19, "lng": -75.0152 }
     }
   },
   "constellations": [
@@ -108,6 +126,14 @@
       "hubId": "pe-emprende-up-climatech-rein-hub-peru",
       "universityId": "pe-universidad-del-pacifico",
       "funderId": "pe-amazonia-impact-ventures"
+    },
+    {
+      "id": "agua-yakusmart",
+      "challengeId": "challenge:PE-2-agua",
+      "startupId": "pe-yakusmart",
+      "hubId": "pe-emprende-up-climatech-rein-hub-peru",
+      "universityId": "pe-universidad-del-pacifico",
+      "funderId": "pe-proinnovate-startup-peru"
     },
     {
       "id": "bosques-yakusmart",

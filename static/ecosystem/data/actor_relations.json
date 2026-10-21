@@ -1,0 +1,488 @@
+{
+ "version": 1,
+ "source": "ops/ecosystem/actor_relations_verified.csv",
+ "date_built": "2026-10-21",
+ "count": 48,
+ "relations": [
+  {
+   "from_id": "co-fenoge",
+   "to_id": "co-ipse",
+   "type": "funding",
+   "description": "FENOGE indica que planes y proyectos de personas jurídicas pueden presentarse ante el IPSE como canal de postulación.",
+   "source_url": "https://fenoge.gov.co/preguntas-frecuentes/",
+   "source_title": "FENOGE — Preguntas frecuentes",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "co-fenoge",
+   "to_id": "co-upme",
+   "type": "funding",
+   "description": "FENOGE indica que propuestas de personas jurídicas también pueden presentarse ante la UPME.",
+   "source_url": "https://fenoge.gov.co/preguntas-frecuentes/",
+   "source_title": "FENOGE — Preguntas frecuentes",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "co-ipse",
+   "to_id": "co-fenoge",
+   "type": "funding",
+   "description": "La guía de inversión en ZNI del IPSE incluye al FENOGE entre fondos estatales de financiamiento energético.",
+   "source_url": "https://ipse.gov.co/documento_prensa/documento/publicaciones/2023/GU%C3%8DA%20INVERSI%C3%93N%20PRIVADA%202023.pdf",
+   "source_title": "Guía inversión privada en ZNI — IPSE",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "co-minenergia",
+   "to_id": "co-fenoge",
+   "type": "program_participation",
+   "description": "FENOGE indica que el Ministerio de Minas y Energía puede convocar mecanismos y presentar propuestas al fondo.",
+   "source_url": "https://fenoge.gov.co/preguntas-frecuentes/",
+   "source_title": "FENOGE — Preguntas frecuentes",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "co-minenergia",
+   "to_id": "co-ipse",
+   "type": "partnership",
+   "description": "El marco regulatorio colombiano describe la coordinación del Ministerio de Minas y Energía con el IPSE en política y proyectos de ZNI.",
+   "source_url": "https://ipse.gov.co/documento_prensa/documento/documentos_de_%20investigacion/Art%C3%ADculo%20Mundoel%C3%A9ctrico.pdf",
+   "source_title": "Artículo Mundoeléctrico — marco regulatorio (IPSE)",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-caja-arequipa",
+   "to_id": "pe-yakufil",
+   "type": "funding",
+   "description": "UNSA reporta que Yakufil Home ganó el Premio Orgullo Emprendedor 2024 (categoría Emprendedor Joven) organizado por Caja Arequipa.",
+   "source_url": "https://www.unsa.edu.pe/yakufil-emprendimiento-unsa-que-revoluciona-el-tratamiento-de-aguas-residuales/",
+   "source_title": "UNSA — Premio Orgullo Emprendedor Yakufil",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-cleantechhub",
+   "to_id": "pe-yakusmart",
+   "type": "co_organized_event",
+   "description": "CleantechHUB reporta que organizó la Final Regional de ClimateLaunchpad Américas 2026 donde YakuSmart obtuvo el primer lugar.",
+   "source_url": "https://es.linkedin.com/posts/cleantechhub_climatelaunchpad-americas-regional-final-activity-7503144329247563776-TJpx",
+   "source_title": "CleantechHUB — ClimateLaunchpad Américas 2026",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-cofide-fcei",
+   "to_id": "pe-programa-para-bionegocios-minam",
+   "type": "program_participation",
+   "description": "MINAM lista a COFIDE entre entidades aliadas del programa de bionegocios.",
+   "source_url": "https://www.gob.pe/institucion/minam/colecciones/1479-programa-nacional-de-bionegocios-y-economia-circular",
+   "source_title": "MINAM — Programa Bionegocios",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-emprende-up-climatech-rein-hub-peru",
+   "to_id": "pe-cleantechhub",
+   "type": "partnership",
+   "description": "ClimaTech se desarrolla en alianza con ProInnóvate y CleantechHUBs según Emprende UP.",
+   "source_url": "https://emprendeup.pe/climatech-impulsando-soluciones-para-un-mundo-sostenible/",
+   "source_title": "Emprende UP — lanzamiento ClimaTech",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-emprende-up-climatech-rein-hub-peru",
+   "to_id": "pe-proinnovate-startup-peru",
+   "type": "program_participation",
+   "description": "ClimaTech es respaldado por ProInnóvate junto a aliados del ecosistema climático.",
+   "source_url": "https://emprendeup.pe/climatech-impulsando-soluciones-para-un-mundo-sostenible/",
+   "source_title": "Emprende UP — lanzamiento ClimaTech",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-emprende-up-climatech-rein-hub-peru",
+   "to_id": "pe-pvblic-foundation",
+   "type": "partnership",
+   "description": "PVBLIC Foundation documenta alianzas REIN Hub incluyendo articulación con hubs de la región.",
+   "source_url": "https://pvblic.org/rein-hubs/",
+   "source_title": "PVBLIC Foundation — REIN Hubs",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-emprende-up-climatech-rein-hub-peru",
+   "to_id": "pe-universidad-del-pacifico",
+   "type": "program_participation",
+   "description": "ClimaTech es una plataforma de Emprende UP en la Universidad del Pacífico.",
+   "source_url": "https://emprendeup.pe/climatech-impulsando-soluciones-para-un-mundo-sostenible/",
+   "source_title": "Emprende UP — ClimaTech",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-emprende-up-climatech-rein-hub-peru",
+   "to_id": "pe-yakusmart",
+   "type": "hub_startup",
+   "description": "Emprende UP publica que YakuSmart es startup del portafolio ClimaTech/Emprende UP tras ganar ClimateLaunchpad nacional y regional.",
+   "source_url": "https://es.linkedin.com/posts/emprende%2Eup_emprendeup-yakusmart-climatelaunchpad-activity-7511118125346656257-IIct",
+   "source_title": "Emprende UP — YakuSmart ClimateLaunchpad",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-financiera-confianza",
+   "to_id": "pe-programa-para-bionegocios-minam",
+   "type": "program_participation",
+   "description": "MINAM lista a Financiera Confianza como entidad participante del programa de bionegocios.",
+   "source_url": "https://www.gob.pe/institucion/minam/colecciones/1479-programa-nacional-de-bionegocios-y-economia-circular",
+   "source_title": "MINAM — Programa Bionegocios",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-fundacion-bbva-microfinanzas",
+   "to_id": "pe-financiera-confianza",
+   "type": "parent_subsidiary",
+   "description": "La Fundación BBVA Microfinanzas es accionista mayoritario de Financiera Confianza.",
+   "source_url": "https://www.fundacionmicrofinanzasbbva.org/es/confianza",
+   "source_title": "Fundación BBVA — Financiera Confianza",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-incubaunt-la-libertad",
+   "to_id": "pe-yakusmart",
+   "type": "program_participation",
+   "description": "Produce indica que YakuSmart forma parte del portafolio del Programa de Aceleración de la Incubadora de Empresas de la Universidad Nacional de Trujillo (red ProInnóvate).",
+   "source_url": "https://www.gob.pe/institucion/produce/noticias/1451346-startup-financiada-por-proinnovate-optimiza-el-riego-agricola-para-incrementar-el-valor-exportable-de-las-frutas",
+   "source_title": "Produce — YakuSmart e Incubaunt UNT",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-jaku-emprende-unsa-arequipa",
+   "to_id": "pe-yakufil",
+   "type": "hub_startup",
+   "description": "UNSA indica que Yakufil contó con el apoyo de la incubadora JAKU Emprende UNSA en sus primeros pasos.",
+   "source_url": "https://www.unsa.edu.pe/yakufil-emprendimiento-unsa-que-revoluciona-el-tratamiento-de-aguas-residuales/",
+   "source_title": "UNSA — Yakufil emprendimiento",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-krealo-credicorp",
+   "to_id": "pe-bcp-banco-de-credito-del-peru",
+   "type": "parent_subsidiary",
+   "description": "Krealo se describe como brazo de venture capital del Grupo Credicorp (BCP).",
+   "source_url": "https://www.krealo.vc/",
+   "source_title": "Krealo — venture capital Credicorp",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-minam-ministerio-del-ambiente",
+   "to_id": "pe-programa-bosques-minam",
+   "type": "program_participation",
+   "description": "MINAM publica el Programa Nacional de Conservación de Bosques para la Mitigación del Cambio Climático.",
+   "source_url": "https://www.gob.pe/bosques",
+   "source_title": "MINAM — Programa Bosques",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-minam-ministerio-del-ambiente",
+   "to_id": "pe-programa-para-bionegocios-minam",
+   "type": "program_participation",
+   "description": "MINAM publica el Programa Nacional de Bionegocios y Economía Circular.",
+   "source_url": "https://www.gob.pe/institucion/minam/colecciones/1479-programa-nacional-de-bionegocios-y-economia-circular",
+   "source_title": "MINAM — Programa Bionegocios",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-pacifico-seguros",
+   "to_id": "pe-bcp-banco-de-credito-del-peru",
+   "type": "parent_subsidiary",
+   "description": "Pacífico Seguros forma parte del Grupo Credicorp junto al BCP.",
+   "source_url": "https://www.pacifico.com.pe/conocenos/grupo-credicorp",
+   "source_title": "Pacífico Seguros — Grupo Credicorp",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-produce-ministerio-de-la-produccion",
+   "to_id": "pe-proinnovate-startup-peru",
+   "type": "program_participation",
+   "description": "ProInnóvate es el programa nacional de innovación adscrito al Ministerio de la Producción.",
+   "source_url": "https://www.gob.pe/proinnovate",
+   "source_title": "ProInnóvate — Gob.pe",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-proinnovate-startup-peru",
+   "to_id": "pe-1551-unmsm",
+   "type": "membership",
+   "description": "1551 UNMSM figura en el directorio nacional de incubadoras ProInnóvate.",
+   "source_url": "https://cambioclimatico.proinnovate.gob.pe/wp-content/uploads/2024/11/Directorio-Web-Incubadoras-y-Aceleradoras-Red-ProInnovate-2024_-1.pdf",
+   "source_title": "Directorio Red ProInnóvate 2024",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-proinnovate-startup-peru",
+   "to_id": "pe-bioincuba-upch",
+   "type": "membership",
+   "description": "Bioincuba UPCH figura en el directorio nacional de incubadoras ProInnóvate.",
+   "source_url": "https://cambioclimatico.proinnovate.gob.pe/wp-content/uploads/2024/11/Directorio-Web-Incubadoras-y-Aceleradoras-Red-ProInnovate-2024_-1.pdf",
+   "source_title": "Directorio Red ProInnóvate 2024",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-proinnovate-startup-peru",
+   "to_id": "pe-emprende-up-climatech-rein-hub-peru",
+   "type": "program_participation",
+   "description": "Produce reporta cofinanciamiento ProInnóvate a Emprende UP para fortalecer incubación y aceleración.",
+   "source_url": "https://www.gob.pe/institucion/produce/noticias/648295-incubadoras-y-aceleradoras-de-negocios-fortalecidas-por-proinnovate-impulsaron-el-despegue-comercial-e-internacionalizacion-de-startups",
+   "source_title": "Noticias PRODUCE — incubadoras ProInnóvate",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-proinnovate-startup-peru",
+   "to_id": "pe-incubagraria-unalm",
+   "type": "program_participation",
+   "description": "El directorio Red ProInnóvate lista a Incubagraria (UNALM) como incubadora de la red nacional.",
+   "source_url": "https://cambioclimatico.proinnovate.gob.pe/wp-content/uploads/2024/11/Directorio-Web-Incubadoras-y-Aceleradoras-Red-ProInnovate-2024_-1.pdf",
+   "source_title": "Directorio Red ProInnóvate 2024",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-proinnovate-startup-peru",
+   "to_id": "pe-nexum-pucp",
+   "type": "program_participation",
+   "description": "El directorio Red ProInnóvate lista a Nexum (PUCP) como incubadora de la red nacional.",
+   "source_url": "https://cambioclimatico.proinnovate.gob.pe/wp-content/uploads/2024/11/Directorio-Web-Incubadoras-y-Aceleradoras-Red-ProInnovate-2024_-1.pdf",
+   "source_title": "Directorio Red ProInnóvate 2024",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-proinnovate-startup-peru",
+   "to_id": "pe-usil-ventures",
+   "type": "program_participation",
+   "description": "Produce reporta cofinanciamiento ProInnóvate a USIL Ventures como incubadora beneficiaria.",
+   "source_url": "https://www.gob.pe/institucion/produce/noticias/648295-incubadoras-y-aceleradoras-de-negocios-fortalecidas-por-proinnovate-impulsaron-el-despegue-comercial-e-internacionalizacion-de-startups",
+   "source_title": "Noticias PRODUCE — incubadoras ProInnóvate",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-proinnovate-startup-peru",
+   "to_id": "pe-utec-ventures",
+   "type": "membership",
+   "description": "UTEC Ventures figura en el directorio nacional de incubadoras y aceleradoras ProInnóvate.",
+   "source_url": "https://cambioclimatico.proinnovate.gob.pe/wp-content/uploads/2024/11/Directorio-Web-Incubadoras-y-Aceleradoras-Red-ProInnovate-2024_-1.pdf",
+   "source_title": "Directorio Red ProInnóvate 2024",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-proinnovate-startup-peru",
+   "to_id": "pe-yakufil",
+   "type": "funding",
+   "description": "UNSA reporta que Yakufil recibirá hasta S/ 60 000 como ganadora de Startup Perú 9G (Emprendimientos Innovadores).",
+   "source_url": "https://www.unsa.edu.pe/emprendedores-de-la-unsa-ganan-concurso-y-recibiran-s-60-000-por-parte-de-startup-peru-9g/",
+   "source_title": "UNSA — Startup Perú 9G ganadores",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-proinnovate-startup-peru",
+   "to_id": "pe-yakufil",
+   "type": "program_participation",
+   "description": "ProInnóvate presenta Yakufil Home entre empresas con financiamiento y acompañamiento técnico en gestión del agua.",
+   "source_url": "https://www.gob.pe/institucion/proinnovate/noticias/924305-dia-del-agua-innovaciones-para-gestionar-el-cuidado-y-aprovechamiento-del-agua-en-el-peru",
+   "source_title": "ProInnóvate — Día del Agua 2024",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-proinnovate-startup-peru",
+   "to_id": "pe-yakusmart",
+   "type": "funding",
+   "description": "Produce titula la nota como startup financiada por ProInnóvate en el marco del apoyo al desarrollo de su plataforma de riego inteligente.",
+   "source_url": "https://www.gob.pe/institucion/produce/noticias/1451346-startup-financiada-por-proinnovate-optimiza-el-riego-agricola-para-incrementar-el-valor-exportable-de-las-frutas",
+   "source_title": "Produce — YakuSmart financiada ProInnóvate",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-proinnovate-startup-peru",
+   "to_id": "pe-yakusmart",
+   "type": "program_participation",
+   "description": "Produce reporta que YakuSmart fue impulsada por ProInnóvate para optimizar riego y el uso eficiente de recursos hídricos en agroexportación.",
+   "source_url": "https://www.gob.pe/institucion/produce/noticias/1451346-startup-financiada-por-proinnovate-optimiza-el-riego-agricola-para-incrementar-el-valor-exportable-de-las-frutas",
+   "source_title": "Produce — YakuSmart riego agroexportador",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-pucp-pontificia-universidad-catolica-del-peru",
+   "to_id": "pe-nexum-pucp",
+   "type": "program_participation",
+   "description": "Nexum es el programa de incubación de empresas del CIDE de la PUCP.",
+   "source_url": "https://cide.pucp.edu.pe/incubacion-empresas/",
+   "source_title": "PUCP CIDE — Incubación de empresas",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-pvblic-foundation",
+   "to_id": "sv-rein-hub-san-salvador",
+   "type": "membership",
+   "description": "PVBLIC Foundation lista al REIN Hub San Salvador en su red de REIN Hubs.",
+   "source_url": "https://pvblic.org/rein-hubs/",
+   "source_title": "PVBLIC Foundation — REIN Hubs",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-unalm-universidad-nacional-agraria-la-molina",
+   "to_id": "pe-incubagraria-unalm",
+   "type": "program_participation",
+   "description": "Incubagraria opera como incubadora de la Universidad Nacional Agraria La Molina.",
+   "source_url": "https://incubagraria.lamolina.edu.pe/",
+   "source_title": "Incubagraria UNALM",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-unia-universidad-nacional-intercultural-de-la-amaz",
+   "to_id": "pe-incubadora-unia-ucayali",
+   "type": "program_participation",
+   "description": "La UNIA promueve su incubadora regional en Ucayali.",
+   "source_url": "https://www.unia.edu.pe/",
+   "source_title": "Universidad Nacional Intercultural de la Amazonía",
+   "date_accessed": "2026-10-21",
+   "confidence": "medium"
+  },
+  {
+   "from_id": "pe-universidad-del-pacifico",
+   "to_id": "pe-emprende-up-climatech-rein-hub-peru",
+   "type": "program_participation",
+   "description": "Emprende UP es la unidad de emprendimiento de la Universidad del Pacífico que opera ClimaTech.",
+   "source_url": "https://emprendeup.pe/climatech-impulsando-soluciones-para-un-mundo-sostenible/",
+   "source_title": "Emprende UP — lanzamiento ClimaTech",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-universidad-peruana-cayetano-heredia",
+   "to_id": "pe-bioincuba-upch",
+   "type": "program_participation",
+   "description": "Bioincuba es la incubadora de negocios de la Universidad Peruana Cayetano Heredia.",
+   "source_url": "https://bioincuba.cayetano.pe/",
+   "source_title": "Bioincuba UPCH",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-unmsm-universidad-nacional-mayor-de-san-marcos",
+   "to_id": "pe-1551-unmsm",
+   "type": "program_participation",
+   "description": "1551 es la incubadora de la Universidad Nacional Mayor de San Marcos.",
+   "source_url": "https://1551.unmsm.edu.pe/",
+   "source_title": "1551 UNMSM",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-unsm-universidad-nacional-de-san-martin",
+   "to_id": "pe-incubadora-unsm-san-martin",
+   "type": "program_participation",
+   "description": "La UNSM aloja su incubadora Bioinnova en el campus universitario.",
+   "source_url": "https://bioinnova.unsm.edu.pe/",
+   "source_title": "Bioinnova UNSM",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-unu-universidad-nacional-de-ucayali",
+   "to_id": "pe-incuba-amazonia-unu",
+   "type": "program_participation",
+   "description": "Incuba Amazonía es iniciativa de emprendimiento de la UNU.",
+   "source_url": "https://www.unu.edu.pe/",
+   "source_title": "Universidad Nacional de Ucayali",
+   "date_accessed": "2026-10-21",
+   "confidence": "medium"
+  },
+  {
+   "from_id": "pe-usil-ventures",
+   "to_id": "pe-proinnovate-startup-peru",
+   "type": "program_participation",
+   "description": "USIL Ventures figura en el directorio nacional de incubadoras ProInnóvate.",
+   "source_url": "https://cambioclimatico.proinnovate.gob.pe/wp-content/uploads/2024/11/Directorio-Web-Incubadoras-y-Aceleradoras-Red-ProInnovate-2024_-1.pdf",
+   "source_title": "Directorio Red ProInnóvate 2024",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-utec-universidad-de-ingenieria-y-tecnologia",
+   "to_id": "pe-utec-ventures",
+   "type": "program_participation",
+   "description": "UTEC Ventures se presenta como centro de innovación y emprendimiento de UTEC.",
+   "source_url": "https://utecventures.com/",
+   "source_title": "UTEC Ventures",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "sv-grupo-agrisal",
+   "to_id": "sv-snbx-sandbox",
+   "type": "parent_subsidiary",
+   "description": "SNBX se presenta como proyecto creado por Agrisal (con INNBOX y BIDLab).",
+   "source_url": "https://snbx.sv/",
+   "source_title": "SNBX — hub de innovación",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "sv-grupo-ternova",
+   "to_id": "sv-recicla503",
+   "type": "program_participation",
+   "description": "Ternova presenta Recicla503 como iniciativa de economía circular del grupo.",
+   "source_url": "https://www.ternova.group/circular-solutions",
+   "source_title": "Ternova — Circular Solutions",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "sv-mag-ministerio-de-agricultura-y-ganaderia",
+   "to_id": "sv-fideagro",
+   "type": "program_participation",
+   "description": "FIDEAGRO es el fondo de desarrollo agropecuario del MAG.",
+   "source_url": "https://www.fideagro.org/",
+   "source_title": "FIDEAGRO El Salvador",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "sv-minec-ministerio-de-economia",
+   "to_id": "sv-conamype",
+   "type": "program_participation",
+   "description": "CONAMYPE es la comisión nacional de la micro y pequeña empresa bajo el Ministerio de Economía.",
+   "source_url": "https://www.conamype.gob.sv/",
+   "source_title": "CONAMYPE",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  }
+ ]
+}

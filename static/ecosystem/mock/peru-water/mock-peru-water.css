@@ -1,0 +1,115 @@
+.mock-ribbon {
+  position: sticky;
+  top: 0;
+  z-index: 300;
+  background: #7f1d1d;
+  color: #fff;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  padding: 6px 12px;
+}
+.mock-ribbon code {
+  background: rgba(255, 255, 255, 0.12);
+  padding: 1px 4px;
+  border-radius: 4px;
+}
+
+body.mock-pe-water .mock-panel {
+  display: grid;
+  grid-template-columns: min(280px, 34vw) 1fr;
+  gap: 12px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 16px 24px;
+}
+
+body.mock-pe-water .mock-workspace {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: min(340px, 42vh) auto;
+  gap: 10px;
+}
+
+body.mock-pe-water .inspector {
+  grid-column: 1 / -1;
+  max-height: 220px;
+  overflow-y: auto;
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+  font-size: 11px;
+  line-height: 1.45;
+}
+
+body.mock-pe-water .inspector.empty { display: block; }
+
+.mock-caption {
+  margin-bottom: 10px;
+  color: var(--deep-blue);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.mock-gaps {
+  margin-bottom: 10px;
+  padding: 8px 10px;
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: 8px;
+  color: #991b1b;
+}
+
+.mock-gaps:empty { display: none; }
+
+.mock-sources h3 {
+  margin: 0 0 6px;
+  font-size: 11px;
+  color: var(--deep-blue);
+}
+
+.mock-sources ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.mock-sources li {
+  margin-bottom: 4px;
+}
+
+.mock-sources a {
+  color: var(--deep-blue);
+  word-break: break-all;
+}
+
+.story-step.mock-future {
+  opacity: 0.55;
+}
+
+body.mock-pe-water .eco-graph {
+  min-height: 320px;
+  background: linear-gradient(180deg, #f8fafc 0%, #eef2f7 100%);
+  border-radius: var(--radius);
+}
+
+.graph-tooltip {
+  position: absolute;
+  z-index: 6;
+  max-width: 220px;
+  padding: 6px 8px;
+  font-size: 11px;
+  line-height: 1.35;
+  color: #0c498a;
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  box-shadow: var(--shadow-card);
+  pointer-events: none;
+  transform: translate(8px, 8px);
+}
+
+.graph-tooltip.hidden {
+  display: none;
+}

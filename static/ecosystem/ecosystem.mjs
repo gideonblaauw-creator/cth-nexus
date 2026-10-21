@@ -115,6 +115,10 @@ const I18N = {
     founded: 'Fundación',
     cardRole: 'Rol',
     relationsN: 'relaciones',
+    cardRelations: 'Relaciones',
+    expandDesc: 'Ver más',
+    collapseDesc: 'Ver menos',
+    sourceLink: 'Fuente',
     typedRelations: 'Relaciones tipadas',
     noResults: 'Sin resultados con estos filtros.',
     noRelations: 'Sin relaciones en datos.',
@@ -168,6 +172,10 @@ const I18N = {
     founded: 'Founded',
     cardRole: 'Role',
     relationsN: 'relations',
+    cardRelations: 'Relations',
+    expandDesc: 'Show more',
+    collapseDesc: 'Show less',
+    sourceLink: 'Source',
     typedRelations: 'Typed relations',
     noResults: 'No results with these filters.',
     noRelations: 'No relations in data.',
@@ -197,8 +205,13 @@ let lang = bootParams.get('lang') || localStorage.getItem('nexusEcoLang') || 'ES
 if (lang !== 'EN' && lang !== 'ES') lang = 'ES';
 let brand = bootParams.get('brand') || localStorage.getItem('nexusBrand') || 'cth';
 
+const DESC_PREVIEW_LEN = 200;
+
 let actors = [];
 let relations = [];
+let actorRelations = [];
+let actorRelIndex = new Map();
+let actorRelDegree = new Map();
 let byId = new Map();
 let degree = new Map();
 let activeCountry = null;
@@ -275,6 +288,77 @@ function computeDegrees() {
     if (degree.has(r.source)) degree.set(r.source, (degree.get(r.source) || 0) + 1);
     if (degree.has(r.target)) degree.set(r.target, (degree.get(r.target) || 0) + 1);
   });
+}
+
+function indexActorRelations() {
+  actorRelIndex = new Map();
+  actorRelDegree = new Map();
+  actors.forEach((a) => actorRelDegree.set(a.id, 0));
+  actorRelations.forEach((r) => {
+    const from = r.from_id;
+    const to = r.to_id;
+    if (!byId.has(from) || !byId.has(to)) return;
+    if (!actorRelIndex.has(from)) actorRelIndex.set(from, []);
+    if (!actorRelIndex.has(to)) actorRelIndex.set(to, []);
+    actorRelIndex.get(from).push({ ...r, other_id: to, direction: 'out' });
+    actorRelIndex.get(to).push({ ...r, other_id: from, direction: 'in' });
+    actorRelDegree.set(from, (actorRelDegree.get(from) || 0) + 1);
+    actorRelDegree.set(to, (actorRelDegree.get(to) || 0) + 1);
+  });
+  actorRelIndex.forEach((list, id) => {
+    list.sort((a, b) => {
+      const na = byId.get(a.other_id)?.name || a.other_id;
+      const nb = byId.get(b.other_id)?.name || b.other_id;
+      return na.localeCompare(nb);
+    });
+    actorRelIndex.set(id, list);
+  });
+}
+
+function actorRelsFor(id) {
+  return actorRelIndex.get(id) || [];
+}
+
+function plainDescription(text) {
+  if (!text) return '';
+  return String(text).replace(/\s+/g, ' ').trim();
+}
+
+function renderDescriptionBlock(desc, tr) {
+  const plain = plainDescription(desc);
+  if (!plain) return '';
+  if (plain.length <= DESC_PREVIEW_LEN) {
+    return `<p class="ac-desc">${esc(plain)}</p>`;
+  }
+  const short = `${esc(plain.slice(0, DESC_PREVIEW_LEN).trim())}…`;
+  const full = esc(plain);
+  return `<div class="ac-desc-block">
+    <p class="ac-desc ac-desc-trunc">${short}</p>
+    <p class="ac-desc ac-desc-full hidden">${full}</p>
+    <button type="button" class="ac-desc-toggle" data-action="expand-desc">${esc(tr.expandDesc)}</button>
+  </div>`;
+}
+
+function renderActorRelRows(id, tr, limit = 6) {
+  const list = actorRelsFor(id).slice(0, limit);
+  if (!list.length) return '';
+  const rows = list.map((r) => {
+    const other = byId.get(r.other_id);
+    const name = esc(other?.name || r.other_id);
+    const typeLabel = esc(r.type.replace(/_/g, ' '));
+    const src = r.source_url
+      ? `<a class="ac-rel-src" href="${esc(r.source_url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(tr.sourceLink)}</a>`
+      : '';
+    return `<div class="ac-rel-row">
+      <span class="ac-rel-type">${typeLabel}</span>
+      <a class="ac-rel-name" href="?actor=${esc(r.other_id)}" onclick="event.stopPropagation()">${name}</a>
+      ${src}
+    </div>`;
+  }).join('');
+  return `<div class="ac-relations">
+    <h4 class="ac-rel-title">${esc(tr.cardRelations)}</h4>
+    ${rows}
+  </div>`;
 }
 
 function egoNodeSet(centerId, depth) {
@@ -873,6 +957,7 @@ function renderInspector(id) {
   const cc = actorCountryCode(a);
   const flag = cc ? COUNTRY_META[cc].flag : '🌎';
   const rels = relations.filter((r) => r.source === id || r.target === id);
+  const vetted = actorRelsFor(id);
   const slug = a.nexus?.card_slug;
 
   const websiteRow = a.website
@@ -897,24 +982,38 @@ function renderInspector(id) {
   const yearText = cardField(a, 'founding_year');
   const detailBits = [
     roleText ? `<p class="meta"><strong>${esc(tr.cardRole)}:</strong> ${esc(roleText)}</p>` : '',
-    descText ? `<p class="meta">${esc(descText)}</p>` : '',
+    descText ? renderDescriptionBlock(descText, tr) : '',
     yearText ? `<p class="meta"><strong>${esc(tr.founded)}:</strong> ${esc(String(yearText))}</p>` : '',
   ].filter(Boolean).join('');
+  const relCount = vetted.length || rels.length;
+
+  const vettedBlock = vetted.length
+    ? vetted.slice(0, 16).map((r) => {
+      const other = byId.get(r.other_id);
+      const src = r.source_url
+        ? `<a href="${esc(r.source_url)}" target="_blank" rel="noopener">${esc(tr.sourceLink)}</a>`
+        : '';
+      return `<div class="rel-row" data-jump="${esc(r.other_id)}">
+        <span class="rtype">${esc(r.type.replace(/_/g, ' '))}</span>
+        ${esc(other?.name || r.other_id)} ${src}
+      </div>`;
+    }).join('')
+    : rels.slice(0, 16).map((r) => {
+      const otherId = r.source === id ? r.target : r.source;
+      const other = byId.get(otherId);
+      const dir = r.source === id ? '→' : '←';
+      return `<div class="rel-row" data-jump="${esc(otherId)}"><span class="rtype">${esc(r.type.replace(/_/g, '-'))}</span>${dir} ${esc(other?.name || otherId)}</div>`;
+    }).join('') || `<p class="meta">${tr.noRelations}</p>`;
 
   el.innerHTML = `
     <div style="padding:14px">
       <h2>${esc(a.name)}</h2>
-      <div class="meta">${flag} ${esc(a.country)} · ${esc(tr.cats[a.category] || a.category)} · ${rels.length} ${tr.relationsN}</div>
+      <div class="meta">${flag} ${esc(a.country)} · ${esc(tr.cats[a.category] || a.category)} · ${relCount} ${tr.relationsN}</div>
       <div class="inspector-links">${websiteRow}${linkedinRow}${nexusRow}${hubRow}</div>
       ${detailBits}
       <div class="section">
-        <h3>${tr.typedRelations}</h3>
-        ${rels.slice(0, 16).map((r) => {
-    const otherId = r.source === id ? r.target : r.source;
-    const other = byId.get(otherId);
-    const dir = r.source === id ? '→' : '←';
-    return `<div class="rel-row" data-jump="${esc(otherId)}"><span class="rtype">${esc(r.type.replace(/_/g, '-'))}</span>${dir} ${esc(other?.name || otherId)}</div>`;
-  }).join('') || `<p class="meta">${tr.noRelations}</p>`}
+        <h3>${vetted.length ? tr.cardRelations : tr.typedRelations}</h3>
+        ${vettedBlock}
       </div>
     </div>`;
 
@@ -972,7 +1071,7 @@ function renderCards(list) {
   grid.innerHTML = list.map((a) => {
     const cc = actorCountryCode(a);
     const flag = cc ? COUNTRY_META[cc].flag : '🌎';
-    const relN = degree.get(a.id) || 0;
+    const relN = actorRelDegree.get(a.id) || 0;
     const catLabel = tr.cats[a.category] || a.category;
     const catColor = CAT_COLOR[a.category] || CAT_COLOR.default;
     const slug = a.nexus?.card_slug;
@@ -1001,7 +1100,8 @@ function renderCards(list) {
       ? `<span class="badge badge-founded">${esc(tr.founded)} ${esc(String(year))}</span>`
       : '';
     const roleBlock = role ? `<p class="ac-role">${esc(role)}</p>` : '';
-    const descBlock = desc ? `<p class="ac-desc">${esc(desc)}</p>` : '';
+    const descBlock = desc ? renderDescriptionBlock(desc, tr) : '';
+    const relBlock = renderActorRelRows(a.id, tr, 5);
     return `
       <article class="actor-card${selected === a.id ? ' selected' : ''}" data-id="${esc(a.id)}" tabindex="0">
         <div class="ac-top">
@@ -1013,6 +1113,7 @@ function renderCards(list) {
         </div>
         ${roleBlock}
         ${descBlock}
+        ${relBlock}
         <div class="ac-badges"><span class="badge">${esc(catLabel)}</span>${yearBadge}</div>
         <div class="ac-links">${[website, linkedin, mapBtn, nexus, hubLink].filter(Boolean).join('') || ''}</div>
       </article>`;
@@ -1022,6 +1123,26 @@ function renderCards(list) {
     const open = () => selectActor(card.dataset.id);
     card.addEventListener('click', open);
     card.addEventListener('keydown', (e) => { if (e.key === 'Enter') open(); });
+  });
+  grid.querySelectorAll('.ac-desc-toggle').forEach((btn) => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const block = btn.closest('.ac-desc-block');
+      if (!block) return;
+      const tr = t();
+      const trunc = block.querySelector('.ac-desc-trunc');
+      const full = block.querySelector('.ac-desc-full');
+      const expanded = !full.classList.contains('hidden');
+      if (expanded) {
+        full.classList.add('hidden');
+        trunc.classList.remove('hidden');
+        btn.textContent = tr.expandDesc;
+      } else {
+        full.classList.remove('hidden');
+        trunc.classList.add('hidden');
+        btn.textContent = tr.collapseDesc;
+      }
+    });
   });
 }
 
@@ -1302,9 +1423,10 @@ function applyDemoState() {
 }
 
 async function loadData() {
-  const [a, r, story, pol, polRels, dataRels, cross] = await Promise.all([
+  const [a, r, actorR, story, pol, polRels, dataRels, cross] = await Promise.all([
     fetch('data/actors.json').then((res) => res.json()),
     fetch('data/relations.json').then((res) => res.json()),
+    fetch('data/actor_relations.json').then((res) => (res.ok ? res.json() : { relations: [] })).catch(() => ({ relations: [] })),
     fetch('data/story-chapters.json').then((res) => res.json()),
     fetch('data/policies.json').then((res) => res.json()),
     fetch('data/policy_relations.json').then((res) => res.json()),
@@ -1319,8 +1441,10 @@ async function loadData() {
   dataRelations = dataRels;
   actors = a;
   relations = r;
+  actorRelations = Array.isArray(actorR?.relations) ? actorR.relations : [];
   byId = new Map(actors.map((x) => [x.id, x]));
   computeDegrees();
+  indexActorRelations();
   activeRelTypes = new Set(relations.map((x) => x.type));
   buildFilterChips();
   renderAll();

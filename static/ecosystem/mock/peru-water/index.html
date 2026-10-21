@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <base href="/ecosystem/mock/peru-water/" />
+  <title>MOCK · Peru Water Challenge — CleantechHUB Nexus</title>
+  <meta name="robots" content="noindex,nofollow" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://unpkg.com https://esm.sh; style-src 'self' 'unsafe-inline' https://unpkg.com https://cdn.jsdelivr.net https://fonts.googleapis.com; font-src https://fonts.gstatic.com data:; connect-src 'self' https://tiles.openfreemap.org https://cdn.jsdelivr.net https://unpkg.com https://esm.sh; img-src 'self' data: blob: https://tiles.openfreemap.org; worker-src blob:; child-src blob:;" />
+  <link rel="stylesheet" href="/nexus-assets/nexus-brand.css?v=eco-mock-pe-agua" />
+  <link rel="stylesheet" href="../../ecosystem.css?v=mock-pe-agua" />
+  <link rel="stylesheet" href="mock-peru-water.css?v=1" />
+  <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" crossorigin="" />
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js" crossorigin=""></script>
+  <script type="importmap">
+  {
+    "imports": {
+      "graphology": "https://esm.sh/graphology@0.26.0",
+      "sigma": "https://esm.sh/sigma@4.0.3"
+    }
+  }
+  </script>
+</head>
+<body data-nexus-page="ecosystem-mock" data-brand="cth" class="eco-d3 mock-pe-water story-on">
+
+<div class="mock-ribbon" role="status">MOCK · revisión · no desplegar · sin cambios en <code>/ecosystem/</code> en vivo</div>
+
+<div class="top-toolbar">
+  <div class="toggle-pill" aria-label="Language">
+    <button type="button" data-lang-btn="ES" class="active">ES</button>
+    <button type="button" data-lang-btn="EN">EN</button>
+  </div>
+</div>
+
+<header class="page-header">
+  <p class="ph-eyebrow">Nexus · MOCK</p>
+  <h1 class="ph-title" data-i18n="title">Peru Water Challenge — historia guiada</h1>
+  <p class="ph-sub" data-i18n="sub">Hilo único <code>challenge:PE-2-agua</code> · seis capítulos · datos reales del repo.</p>
+  <div class="ph-stats">
+    <div><div class="ph-stat-n" id="stat-actors">—</div><div class="ph-stat-l" data-i18n="actors">Actores</div></div>
+    <div><div class="ph-stat-n" id="stat-verified">—</div><div class="ph-stat-l" data-i18n="verified">Verificadas</div></div>
+    <div><div class="ph-stat-n" id="stat-suggested">—</div><div class="ph-stat-l" data-i18n="suggested">Suggested</div></div>
+  </div>
+</header>
+
+<div class="guide-banner" id="story-banner"></div>
+
+<main class="eco-main">
+  <section id="panel-explore" class="panel-explore mock-panel" aria-label="Mapa y red">
+    <aside id="story-rail" class="story-rail" aria-label="Capítulos"></aside>
+    <div class="workspace mock-workspace" id="workspace">
+      <div class="map-pane">
+        <span class="pane-label" data-i18n="map">Mapa Perú</span>
+        <div id="eco-map" class="eco-map" role="application"></div>
+      </div>
+      <div class="graph-pane">
+        <span class="pane-label" data-i18n="network">Red del capítulo</span>
+        <div id="eco-graph" class="eco-graph" role="application"></div>
+        <div id="graph-tooltip" class="graph-tooltip hidden" role="tooltip"></div>
+        <canvas id="eco-suggest-overlay" class="suggest-overlay" aria-hidden="true"></canvas>
+      </div>
+      <aside class="inspector" id="inspector" aria-live="polite">
+        <div class="mock-caption" id="mock-caption"></div>
+        <div class="mock-gaps" id="mock-gaps"></div>
+        <div class="mock-sources" id="mock-sources"></div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<script type="module" src="mock-peru-water.mjs?v=1"></script>
+</body>
+</html>
