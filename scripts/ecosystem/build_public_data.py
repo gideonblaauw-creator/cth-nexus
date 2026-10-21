@@ -101,10 +101,16 @@ def load_onepager_index() -> dict[str, str]:
         if not isinstance(slug, str):
             slug = str(slug)
         by_slug[slug.lower()] = slug
-        nm = norm_name(doc.get("name") or "")
+        raw_name = doc.get("name") or ""
+        if isinstance(raw_name, dict):
+            raw_name = raw_name.get("value") or raw_name.get("en") or ""
+        nm = norm_name(str(raw_name))
         if nm:
             by_name[nm] = slug
-        hk = host_key(doc.get("website"))
+        raw_web = doc.get("website")
+        if isinstance(raw_web, dict):
+            raw_web = raw_web.get("value")
+        hk = host_key(raw_web if isinstance(raw_web, str) else None)
         if hk:
             by_host[hk] = slug
     return {"host": by_host, "slug": by_slug, "name": by_name}
@@ -174,7 +180,7 @@ def sanitize_actor(raw: dict, idx: dict, valid_s: set[str] | None = None) -> dic
     a = scrub_value(a) or {}
     a["geo"] = normalize_geo(raw, raw.get("geo") or a.get("geo"))
     slug = resolve_card_slug(raw, idx, valid_s)
-    nexus = dict(a.get("nexus") or {})
+    nexus = dict(raw.get("nexus") or a.get("nexus") or {})
     if slug:
         nexus["card_slug"] = slug
     else:
@@ -191,6 +197,8 @@ def sanitize_actor(raw: dict, idx: dict, valid_s: set[str] | None = None) -> dic
         if hub_slug and hub_slug in valid_hubs:
             nexus["hub_slug"] = hub_slug
     a["nexus"] = nexus if nexus else {}
+    if raw.get("card"):
+        a["card"] = scrub_value(raw["card"])
     if a.get("type") == "person" and not a.get("linkedin"):
         a["linkedin"] = None
     return {k: v for k, v in a.items() if k not in DROP_KEYS}

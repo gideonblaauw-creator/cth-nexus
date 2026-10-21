@@ -1,0 +1,399 @@
+{
+  "merged_files": 366,
+  "total_draft_md": 366,
+  "field_stats": {
+    "website": {
+      "FILLED": 364,
+      "PENDIENTE": 2
+    },
+    "city": {
+      "FILLED": 366,
+      "PENDIENTE": 0
+    },
+    "description": {
+      "FILLED": 365,
+      "PENDIENTE": 1
+    },
+    "founding_year": {
+      "FILLED": 132,
+      "PENDIENTE": 234
+    },
+    "linkedin": {
+      "FILLED": 236,
+      "PENDIENTE": 130
+    },
+    "nexus": {
+      "FILLED": 8,
+      "PENDIENTE": 358
+    }
+  },
+  "conflicts_resolved": 331,
+  "sample_conflicts": [
+    {
+      "path": "docs/wiki/ecosystem-actors/colombia/co-bancoldex.md",
+      "conflicts": [
+        {
+          "field": "Ciudad",
+          "kept": "Barranquilla",
+          "kept_from": "base",
+          "alternates": [
+            {
+              "branch": "b1",
+              "value": "Bogotá"
+            },
+            {
+              "branch": "base",
+              "value": "Perímetro Urbano Barranquilla"
+            }
+          ]
+        },
+        {
+          "field": "Rol en el ecosistema",
+          "kept": "Banco de desarrollo empresarial y financiamiento productivo.",
+          "kept_from": "base",
+          "alternates": [
+            {
+              "branch": "b1",
+              "value": "Institución financiera"
+            },
+            {
+              "branch": "base",
+              "value": "Institución financiera"
+            }
+          ]
+        },
+        {
+          "section": "## Rol y alcance",
+          "alternates": [
+            [
+              "b1",
+              "Bancóldex es el banco de desarrollo empresarial de Colombia; canaliza financiamiento productivo e internacionalización para empresas de todos los tamaños y regiones.\n\n- **Año de fundación:** 1992\n- **Dirección:** Calle 28 No. 13 A-15, piso 39–42, Bogotá, Colombia\n- **Áreas de enfoque (taxonomía CT):** PENDIENTE\n- **Programas:** Líneas de crédito, garantías y programas de apoyo a mipymes y economía popular (catálogo Bancóldex)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/wiki/ecosystem-actors/colombia/co-cif-climate-investment-funds.md",
+      "conflicts": [
+        {
+          "field": "Ciudad",
+          "kept": "Washington, DC (sede global)",
+          "kept_from": "base",
+          "alternates": [
+            {
+              "branch": "W1",
+              "value": "Washington, D.C. (sede operativa)"
+            }
+          ]
+        },
+        {
+          "field": "LinkedIn",
+          "kept": "https://www.linkedin.com/company/cifaction/",
+          "kept_from": "base",
+          "alternates": [
+            {
+              "branch": "W1",
+              "value": "https://www.linkedin.com/company/climate-investment-funds"
+            }
+          ]
+        },
+        {
+          "field": "Rol en el ecosistema",
+          "kept": "Fondo multilateral de inversión climática.",
+          "kept_from": "base",
+          "alternates": [
+            {
+              "branch": "b2",
+              "value": "Organización internacional o cooperación"
+            },
+            {
+              "branch": "base",
+              "value": "Organización internacional o cooperación"
+            }
+          ]
+        },
+        {
+          "section": "## Rol y alcance",
+          "alternates": [
+            [
+              "W1",
+              "Climate Investment Funds (CIF) moviliza financiamiento multilateral para acción climática en países en desarrollo, incluyendo tecnologías limpias, resiliencia y bosques sostenibles."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/wiki/ecosystem-actors/colombia/co-creg.md",
+      "conflicts": [
+        {
+          "field": "Ciudad",
+          "kept": "Bogotá, D.C.",
+          "kept_from": "base",
+          "alternates": [
+            {
+              "branch": "W1",
+              "value": "Bogotá"
+            }
+          ]
+        },
+        {
+          "field": "Rol en el ecosistema",
+          "kept": "Actor público / regulador",
+          "kept_from": "base",
+          "alternates": [
+            {
+              "branch": "W1",
+              "value": "Regulador de mercados de energía y gas."
+            }
+          ]
+        },
+        {
+          "section": "## Rol y alcance",
+          "alternates": [
+            [
+              "W1",
+              "La Comisión de Regulación de Energía y Gas (CREG) regula los mercados de gas natural, electricidad y combustibles líquidos en Colombia."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/wiki/ecosystem-actors/colombia/co-fenoge.md",
+      "conflicts": [
+        {
+          "field": "Rol en el ecosistema",
+          "kept": "Fondo público de financiamiento en ERNC y eficiencia energética.",
+          "kept_from": "base",
+          "alternates": [
+            {
+              "branch": "b4",
+              "value": "Financiador e inversionista"
+            },
+            {
+              "branch": "base",
+              "value": "Financiador e inversionista"
+            }
+          ]
+        },
+        {
+          "section": "## Rol y alcance",
+          "alternates": [
+            [
+              "W1",
+              "El Fondo de Energías No Convencionales y Gestión Eficiente de la Energía (FENOGE) financia proyectos de energías renovables y eficiencia energética en Colombia."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/wiki/ecosystem-actors/colombia/co-gcf-green-climate-fund.md",
+      "conflicts": [
+        {
+          "field": "Rol en el ecosistema",
+          "kept": "Fondo climático internacional del marco de la CMNUCC.",
+          "kept_from": "base",
+          "alternates": [
+            {
+              "branch": "base",
+              "value": "Organización internacional o cooperación"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/wiki/ecosystem-actors/colombia/co-ipse.md",
+      "conflicts": [
+        {
+          "field": "Ciudad",
+          "kept": "Bogotá",
+          "kept_from": "base",
+          "alternates": [
+            {
+              "branch": "base",
+              "value": "Lima"
+            }
+          ]
+        },
+        {
+          "field": "Rol en el ecosistema",
+          "kept": "Entidad pública de soluciones energéticas en ZNI.",
+          "kept_from": "base",
+          "alternates": [
+            {
+              "branch": "base",
+              "value": "Actor público / regulador"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/wiki/ecosystem-actors/colombia/co-minenergia.md",
+      "conflicts": [
+        {
+          "field": "Rol en el ecosistema",
+          "kept": "Ministerio rector del sector minero-energético y políticas de transición en Colombia.",
+          "kept_from": "base",
+          "alternates": [
+            {
+              "branch": "base",
+              "value": "Actor público / regulador"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/wiki/ecosystem-actors/colombia/co-upme.md",
+      "conflicts": [
+        {
+          "field": "Rol en el ecosistema",
+          "kept": "Planeación y estudios del sector minero-energético en Colombia.",
+          "kept_from": "base",
+          "alternates": [
+            {
+              "branch": "base",
+              "value": "Actor público / regulador"
+            }
+          ]
+        },
+        {
+          "field": "Sitio web",
+          "kept": "https://www.upme.gov.co/",
+          "kept_from": "base",
+          "alternates": [
+            {
+              "branch": "base",
+              "value": "https://www1.upme.gov.co"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/wiki/ecosystem-actors/el-salvador/sv-aecid-el-salvador.md",
+      "conflicts": [
+        {
+          "section": "## Rol y alcance",
+          "alternates": [
+            [
+              "W4",
+              "Oficina de la Agencia Española de Cooperación Internacional para el Desarrollo (AECID) en El Salvador; coopera en desarrollo humano y sostenible."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/wiki/ecosystem-actors/el-salvador/sv-aes-el-salvador.md",
+      "conflicts": [
+        {
+          "field": "LinkedIn",
+          "kept": "https://www.linkedin.com/company/aes-el-salvador",
+          "kept_from": "base",
+          "alternates": [
+            {
+              "branch": "W4",
+              "value": "https://www.linkedin.com/company/aeselsalvador"
+            }
+          ]
+        },
+        {
+          "section": "## Rol y alcance",
+          "alternates": [
+            [
+              "W4",
+              "Compañía eléctrica que genera, transmite y distribuye energía en El Salvador, con proyectos de energía renovable."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/wiki/ecosystem-actors/el-salvador/sv-arca-family-office.md",
+      "conflicts": [
+        {
+          "section": "## Rol y alcance",
+          "alternates": [
+            [
+              "b4",
+              "PENDIENTE\n\n| Campo | Valor |\n| --- | --- |\n| Año de fundación | PENDIENTE |\n| Dirección | PENDIENTE |\n| Enfoque (taxonomía CT) | PENDIENTE |\n| Programas | PENDIENTE |"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/wiki/ecosystem-actors/el-salvador/sv-banco-agricola.md",
+      "conflicts": [
+        {
+          "section": "## Rol y alcance",
+          "alternates": [
+            [
+              "b1",
+              "Banco Agrícola es la principal entidad financiera de El Salvador, con amplia red de agencias y servicios digitales para personas y empresas.\n\n- **Año de fundación:** 1955\n- **Dirección:** Blvd. Constitución 100, San Salvador, El Salvador\n- **Áreas de enfoque (taxonomía CT):** PENDIENTE\n- **Programas:** Banca personal y empresarial; crédito, ahorro, seguros y banca digital"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/wiki/ecosystem-actors/el-salvador/sv-banco-atlantida.md",
+      "conflicts": [
+        {
+          "field": "LinkedIn",
+          "kept": "https://www.linkedin.com/company/banco-atlantida-el-salvador/",
+          "kept_from": "base",
+          "alternates": [
+            {
+              "branch": "W4",
+              "value": "https://www.linkedin.com/company/bancatlan-sv"
+            }
+          ]
+        },
+        {
+          "section": "## Rol y alcance",
+          "alternates": [
+            [
+              "W4",
+              "Banco con operación en El Salvador, parte del grupo financiero Atlántida en Centroamérica."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/wiki/ecosystem-actors/el-salvador/sv-banco-azul.md",
+      "conflicts": [
+        {
+          "section": "## Rol y alcance",
+          "alternates": [
+            [
+              "W4",
+              "Banco salvadoreño enfocado en servicios financieros para personas y microempresas."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/wiki/ecosystem-actors/el-salvador/sv-banco-hipotecario.md",
+      "conflicts": [
+        {
+          "section": "## Rol y alcance",
+          "alternates": [
+            [
+              "b4",
+              "Banco comercial salvadoreño con servicios financieros para personas y empresas.\n\n| Campo | Valor |\n| --- | --- |\n| Año de fundación | PENDIENTE |\n| Dirección | San Salvador, El Salvador |\n| Enfoque (taxonomía CT) | Banca, financiamiento, inclusión financiera |\n| Programas | Créditos, cuentas y servicios bancarios retail y corporativos. |"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

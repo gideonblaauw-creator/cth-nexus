@@ -1,0 +1,48 @@
+---
+status: draft-file-only
+bookstack_publish: false
+target_book_id: 3042
+target_book: nexus-agent-review
+actor_id: pe-alianza-por-el-clima-peru-alemania
+tag_type: ecosystem-org
+tag_country: Peru
+---
+
+
+
+# Alianza por el Clima Perú–Alemania
+
+> Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
+
+## Overview
+
+| Field | Value |
+| --- | --- |
+| Categoría | corporate |
+| Tipo | org |
+| País | Peru |
+| Ciudad | Lima |
+| Sitio web | https://www.gob.pe/institucion/minam/informes-publicaciones/430163-alianza-por-el-clima-peru-alemania |
+| LinkedIn | PENDIENTE |
+| Rol en el ecosistema | Cooperación bilateral en clima. |
+| Año de fundación | PENDIENTE |
+| Desafíos (códigos) | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-alianza-por-el-clima-peru-alemania](https://nexus.cleantechhub.net/ecosystem/?actor=pe-alianza-por-el-clima-peru-alemania) |
+
+## Rol y alcance
+
+Iniciativa de cooperación Perú–Alemania en acción climática, vinculada al MINAM, que articula apoyo técnico y financiero en mitigación y adaptación.
+
+## Relaciones (ecosistema)
+
+PENDIENTE
+
+## Políticas vinculadas (Peru)
+
+PENDIENTE (sin vínculos en policy_relations.json para este actor)
+
+## Fuentes
+
+- Mapa de Actores Perú 2026
+- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.gob.pe/institucion/minam/informes-publicaciones/430163-alianza-por-el-clima-peru-alemania

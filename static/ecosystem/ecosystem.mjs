@@ -29,6 +29,15 @@ const COUNTRY_META = {
   CR: { key: 'Costa Rica', flag: '🇨🇷' },
 };
 
+/** Fallback when `country` label drifts from COUNTRY_META (CO/PE bleed guard). */
+const ID_PREFIX_COUNTRY = {
+  pe: 'PE',
+  sv: 'SV',
+  co: 'CO',
+  gt: 'GT',
+  cr: 'CR',
+};
+
 const CATEGORY_KEYS = [
   'government', 'accelerator', 'international', 'funder', 'ngo_foundation',
   'academia', 'corporate', 'finance', 'chamber', 'startup', 'media', 'hub', 'mentor', 'program', 'policy',
@@ -102,6 +111,9 @@ const I18N = {
     hubPage: 'Hub REIN /hubs/',
     hubPagePending: 'Página hub pendiente',
     datasetPending: 'Conjunto de datos pendiente',
+    mapLink: 'Ver en mapa',
+    founded: 'Fundación',
+    cardRole: 'Rol',
     relationsN: 'relaciones',
     typedRelations: 'Relaciones tipadas',
     noResults: 'Sin resultados con estos filtros.',
@@ -152,6 +164,9 @@ const I18N = {
     hubPage: 'REIN hub /hubs/',
     hubPagePending: 'Hub page pending',
     datasetPending: 'Dataset pending',
+    mapLink: 'View on map',
+    founded: 'Founded',
+    cardRole: 'Role',
     relationsN: 'relations',
     typedRelations: 'Typed relations',
     noResults: 'No results with these filters.',
@@ -225,8 +240,32 @@ function esc(s) {
 }
 
 function countryCode(name) {
-  const entry = Object.entries(COUNTRY_META).find(([, v]) => v.key === name);
+  if (!name) return null;
+  const norm = String(name).normalize('NFD').replace(/\p{M}/gu, '').trim();
+  const entry = Object.entries(COUNTRY_META).find(([, v]) => {
+    const key = v.key.normalize('NFD').replace(/\p{M}/gu, '').trim();
+    return key.toLowerCase() === norm.toLowerCase();
+  });
   return entry ? entry[0] : null;
+}
+
+function normalizeCountryParam(raw) {
+  if (!raw || raw === 'ALL') return null;
+  const trimmed = String(raw).trim();
+  const upper = trimmed.toUpperCase();
+  if (upper in COUNTRY_META) return upper;
+  const fromName = countryCode(trimmed);
+  if (fromName) return fromName;
+  const prefix = trimmed.toLowerCase().slice(0, 2);
+  if (ID_PREFIX_COUNTRY[prefix]) return ID_PREFIX_COUNTRY[prefix];
+  return upper.length === 2 ? upper : null;
+}
+
+function actorCountryCode(actor) {
+  const fromField = countryCode(actor?.country);
+  if (fromField) return fromField;
+  const prefix = String(actor?.id || '').split('-')[0]?.toLowerCase();
+  return ID_PREFIX_COUNTRY[prefix] || null;
 }
 
 function computeDegrees() {
@@ -252,7 +291,7 @@ function egoNodeSet(centerId, depth) {
 function filteredActors() {
   const q = searchQuery.trim().toLowerCase();
   return actors.filter((a) => {
-    const cc = countryCode(a.country);
+    const cc = actorCountryCode(a);
     if (activeCountry && cc !== activeCountry) return false;
     if (!activeCategories.has(a.category)) return false;
     if (q && !a.name.toLowerCase().includes(q)) return false;
@@ -331,7 +370,7 @@ function buildFilterChips() {
   ).join('');
   cRow.querySelectorAll('.chip').forEach((btn) => {
     btn.addEventListener('click', () => {
-      activeCountry = btn.dataset.cc === 'ALL' ? null : btn.dataset.cc;
+      activeCountry = normalizeCountryParam(btn.dataset.cc === 'ALL' ? null : btn.dataset.cc);
       buildFilterChips();
       renderAll();
     });
@@ -386,7 +425,7 @@ function initTabs() {
       document.body.classList.toggle('story-on', storyOn);
       $('#story-rail').classList.toggle('hidden', !storyOn);
       $('#story-banner').classList.toggle('hidden', !storyOn);
-      $('#filter-bar').classList.toggle('hidden', tab === 'cards');
+      document.body.classList.toggle('cards-view', tab === 'cards');
       $('#legend-bar').classList.toggle('hidden', tab === 'cards');
       if (storyOn) {
         renderStoryRail();
@@ -831,7 +870,7 @@ function renderInspector(id) {
   const a = byId.get(id);
   if (!a) return;
   el.classList.remove('empty');
-  const cc = countryCode(a.country);
+  const cc = actorCountryCode(a);
   const flag = cc ? COUNTRY_META[cc].flag : '🌎';
   const rels = relations.filter((r) => r.source === id || r.target === id);
   const slug = a.nexus?.card_slug;
@@ -840,28 +879,34 @@ function renderInspector(id) {
     ? `<a class="secondary" href="${esc(a.website.startsWith('http') ? a.website : `https://${a.website}`)}" target="_blank" rel="noopener">${tr.website}</a>`
     : `<span class="pending">${tr.websitePending}</span>`;
 
-  const isPerson = a.type === 'person' || a.category === 'mentor';
-  const linkedinRow = isPerson
-    ? (a.linkedin
-      ? `<a class="secondary" href="${esc(a.linkedin)}" target="_blank" rel="noopener">${tr.linkedin}</a>`
-      : `<span class="pending">${tr.linkedinPending}</span>`)
+  const linkedinRow = a.linkedin
+    ? `<a class="secondary" href="${esc(a.linkedin)}" target="_blank" rel="noopener">${tr.linkedin}</a>`
     : '';
 
   const nexusRow = slug
     ? `<a href="/s/${esc(slug)}/" target="_blank" rel="noopener">${tr.nexusCard}${esc(slug)}</a>`
-    : `<span class="pending">${tr.nexusPending}</span>`;
+    : (a.category === 'startup'
+      ? `<span class="pending">${tr.nexusPending}</span>`
+      : '');
   const hubSlug = a.nexus?.hub_slug;
   const hubRow = hubSlug
     ? `<a href="/hubs/${esc(hubSlug)}/" target="_blank" rel="noopener">${tr.hubPage}${esc(hubSlug)}</a>`
-    : (a.category === 'hub' || a.category === 'accelerator'
-      ? `<span class="pending">${tr.hubPagePending}</span>`
-      : '');
+    : '';
+  const roleText = cardField(a, 'ecosystem_role');
+  const descText = cardField(a, 'description');
+  const yearText = cardField(a, 'founding_year');
+  const detailBits = [
+    roleText ? `<p class="meta"><strong>${esc(tr.cardRole)}:</strong> ${esc(roleText)}</p>` : '',
+    descText ? `<p class="meta">${esc(descText)}</p>` : '',
+    yearText ? `<p class="meta"><strong>${esc(tr.founded)}:</strong> ${esc(String(yearText))}</p>` : '',
+  ].filter(Boolean).join('');
 
   el.innerHTML = `
     <div style="padding:14px">
       <h2>${esc(a.name)}</h2>
       <div class="meta">${flag} ${esc(a.country)} · ${esc(tr.cats[a.category] || a.category)} · ${rels.length} ${tr.relationsN}</div>
       <div class="inspector-links">${websiteRow}${linkedinRow}${nexusRow}${hubRow}</div>
+      ${detailBits}
       <div class="section">
         <h3>${tr.typedRelations}</h3>
         ${rels.slice(0, 16).map((r) => {
@@ -913,6 +958,10 @@ function clearSelection(fullRender = true) {
   if (fullRender) renderAll(false);
 }
 
+function cardField(a, key) {
+  return a.card?.[key] ?? a[key];
+}
+
 function renderCards(list) {
   const grid = $('#actor-grid');
   const tr = t();
@@ -921,14 +970,24 @@ function renderCards(list) {
     return;
   }
   grid.innerHTML = list.map((a) => {
-    const cc = countryCode(a.country);
+    const cc = actorCountryCode(a);
     const flag = cc ? COUNTRY_META[cc].flag : '🌎';
     const relN = degree.get(a.id) || 0;
     const catLabel = tr.cats[a.category] || a.category;
+    const catColor = CAT_COLOR[a.category] || CAT_COLOR.default;
     const slug = a.nexus?.card_slug;
+    const role = cardField(a, 'ecosystem_role');
+    const desc = cardField(a, 'description');
+    const year = cardField(a, 'founding_year');
+    const locParts = [a.city, a.country].filter(Boolean);
+    const locLine = locParts.length ? locParts.map((x) => esc(x)).join(', ') : esc(a.country || '');
     const website = a.website
       ? `<a class="link-btn" href="${esc(a.website.startsWith('http') ? a.website : `https://${a.website}`)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${tr.website}</a>`
-      : `<span class="link-btn muted">${tr.websitePending}</span>`;
+      : '';
+    const linkedin = a.linkedin
+      ? `<a class="li-btn" href="${esc(a.linkedin)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${tr.linkedin}</a>`
+      : '';
+    const mapBtn = `<a class="map-btn" href="?actor=${esc(a.id)}" onclick="event.stopPropagation()">${tr.mapLink}</a>`;
     const nexus = slug
       ? `<a class="nexus-btn" href="/s/${esc(slug)}/" target="_blank" rel="noopener" onclick="event.stopPropagation()">${tr.nexusCard}</a>`
       : (a.category === 'startup'
@@ -938,25 +997,29 @@ function renderCards(list) {
     const hubLink = hubSlug
       ? `<a class="nexus-btn" href="/hubs/${esc(hubSlug)}/" target="_blank" rel="noopener" onclick="event.stopPropagation()">${tr.hubPage}</a>`
       : '';
+    const yearBadge = year
+      ? `<span class="badge badge-founded">${esc(tr.founded)} ${esc(String(year))}</span>`
+      : '';
+    const roleBlock = role ? `<p class="ac-role">${esc(role)}</p>` : '';
+    const descBlock = desc ? `<p class="ac-desc">${esc(desc)}</p>` : '';
     return `
       <article class="actor-card${selected === a.id ? ' selected' : ''}" data-id="${esc(a.id)}" tabindex="0">
         <div class="ac-top">
-          <div class="ac-icon">${esc(a.name.slice(0, 2).toUpperCase())}</div>
-          <div>
+          <div class="ac-icon" style="background:linear-gradient(135deg, ${catColor}, var(--deep-blue));">${esc(a.name.slice(0, 2).toUpperCase())}</div>
+          <div class="ac-head">
             <div class="ac-name">${esc(a.name)}</div>
-            <div class="ac-meta">${flag} ${esc(a.country)} · ${relN} ${tr.relationsN}</div>
+            <div class="ac-meta">${flag} ${locLine} · ${relN} ${tr.relationsN}</div>
           </div>
         </div>
-        <div class="ac-badges"><span class="badge">${esc(catLabel)}</span></div>
-        <div class="ac-links">${website}${nexus}${hubLink}</div>
+        ${roleBlock}
+        ${descBlock}
+        <div class="ac-badges"><span class="badge">${esc(catLabel)}</span>${yearBadge}</div>
+        <div class="ac-links">${[website, linkedin, mapBtn, nexus, hubLink].filter(Boolean).join('') || ''}</div>
       </article>`;
   }).join('');
 
   grid.querySelectorAll('.actor-card').forEach((card) => {
-    const open = () => {
-      selectActor(card.dataset.id);
-      document.querySelector('[data-view-tab="explore"]').click();
-    };
+    const open = () => selectActor(card.dataset.id);
     card.addEventListener('click', open);
     card.addEventListener('keydown', (e) => { if (e.key === 'Enter') open(); });
   });
@@ -1005,6 +1068,10 @@ function renderAll(rebuildLayout = true) {
   const ids = visibleActorIds();
   const rels = visibleRelations(ids);
   updateStats(ids);
+  if (viewMode === 'cards') {
+    renderCards(filteredActors());
+    return;
+  }
   updateMapLayers();
   if (rebuildLayout) buildGraph(ids, rels);
   else refreshGraphStyles();
@@ -1195,9 +1262,20 @@ function markReady() {
 
 function applyDemoState() {
   const state = bootParams.get('state');
+  const bootCountry = normalizeCountryParam(bootParams.get('country'));
+  if (bootCountry) {
+    activeCountry = bootCountry;
+  }
+  if (bootParams.get('view') === 'cards') {
+    document.querySelector('[data-view-tab="cards"]')?.click();
+  }
+  if (bootCountry) {
+    buildFilterChips();
+    renderAll(false);
+  }
   if (!state) return;
   if (state === 'filters') {
-    activeCountry = bootParams.get('country') || 'PE';
+    activeCountry = normalizeCountryParam(bootParams.get('country')) || 'PE';
     activeCategories = new Set((bootParams.get('cats') || 'accelerator,government,funder').split(','));
     buildFilterChips();
   }
