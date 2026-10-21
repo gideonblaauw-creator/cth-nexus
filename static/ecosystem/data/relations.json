@@ -33,7 +33,11 @@
   "source": "pe-utec-universidad-de-ingenieria-y-tecnologia",
   "target": "pe-utec-ventures",
   "type": "hosts",
-  "verified": false
+  "verified": true,
+  "source_url": "https://utecventures.com/",
+  "source_title": "https://utecventures.com/",
+  "evidence": "Inicio | UTEC Ventures Estudiantes Corporativos Emprendimiento Social Aceleradora Español | English Programas StartUp Femlab",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-universidad-peruana-cayetano-heredia",
@@ -49,13 +53,21 @@
   "source": "pe-unmsm-universidad-nacional-mayor-de-san-marcos",
   "target": "pe-1551-unmsm",
   "type": "hosts",
-  "verified": false
+  "verified": true,
+  "source_url": "https://1551.unmsm.edu.pe/",
+  "source_title": "https://1551.unmsm.edu.pe/",
+  "evidence": "1551 || Incubadora de Empresas Innovadoras [1551@unmsm.edu.pe] +(511) 619 7000 Anexo: 1841 English Version UNMSM",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-unsm-universidad-nacional-de-san-martin",
   "target": "pe-incubadora-unsm-san-martin",
   "type": "hosts",
-  "verified": false
+  "verified": true,
+  "source_url": "https://bioinnova.unsm.edu.pe/",
+  "source_title": "Bioinnova UNSM",
+  "evidence": "Campus Universitario Piso 3, Edificio de la biblioteca UNSM. Morales San Martín - Perú © BioInnova San Martín",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-unu-universidad-nacional-de-ucayali",
@@ -73,13 +85,21 @@
   "source": "pe-emprende-up-climatech-rein-hub-peru",
   "target": "pe-pvblic-foundation",
   "type": "partner",
-  "verified": false
+  "verified": true,
+  "source_url": "https://pvblic.org/rein-hubs/",
+  "source_title": "https://pvblic.org/rein-hubs/",
+  "evidence": "evolved into REIN, a permanent, multilateral platform managed by PVBLIC Foundation in partnership with CleantechHUB,",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-emprende-up-climatech-rein-hub-peru",
   "target": "pe-cleantechhub",
   "type": "partner",
-  "verified": false
+  "verified": true,
+  "source_url": "https://emprendeup.pe/climatech-impulsando-soluciones-para-un-mundo-sostenible/",
+  "source_title": "Emprende UP — ClimaTech",
+  "evidence": "emprendimiento climático en el Perú. La iniciativa, desarrollada en alianza con ProInnóvate y CleantechHUBs , apunta a incubar startups que enfrenten el cambio climático desde la innovación.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-produce-ministerio-de-la-produccion",
@@ -179,7 +199,11 @@
   "source": "pe-minam-ministerio-del-ambiente",
   "target": "pe-programa-bosques-minam",
   "type": "runs_program",
-  "verified": false
+  "verified": true,
+  "source_url": "https://www.gob.pe/bosques",
+  "source_title": "MINAM — Programa Bosques",
+  "evidence": "Jorge Luis Sáenz Rabanal asume la Coordinación Ejecutiva del Programa Bosques del MINAM",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-cofide-fcei",
@@ -257,13 +281,21 @@
   "source": "co-minenergia",
   "target": "co-ipse",
   "type": "regulates_layer",
-  "verified": false
+  "verified": true,
+  "source_url": "https://ipse.gov.co/documento_prensa/documento/documentos_de_%20investigacion/Art%C3%ADculo%20Mundoel%C3%A9ctrico.pdf",
+  "source_title": "Mundoeléctrico — marco regulatorio",
+  "evidence": "Ministerio de Minas y Energía (MINENERGÍA), el Instituto de Planificación y Promoción de Soluciones Energéticas para Zonas No Interconectadas (IPSE)",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "co-creg",
   "target": "co-ipse",
   "type": "regulates_layer",
-  "verified": false
+  "verified": true,
+  "source_url": "https://ipse.gov.co/documento_prensa/documento/documentos_de_%20investigacion/Art%C3%ADculo%20Mundoel%C3%A9ctrico.pdf",
+  "source_title": "Mundoeléctrico — marco regulatorio",
+  "evidence": "Instituto de Planificación y Promoción de Soluciones Energéticas para Zonas No Interconectadas (IPSE), la Unidad de Planeación Minero-Energética (UPME), la Comisión de Regulación de Energía y Gas (CREG)",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "co-upme",
@@ -279,19 +311,31 @@
   "source": "pe-profonanpe",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "verified": false
+  "verified": true,
+  "source_url": "https://profonanpe.org.pe/",
+  "source_title": "Profonanpe",
+  "evidence": "Profonanpe es un aliado estratégico para apoyar a la conservación y protección de nuestra biodiversidad",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-amazonia-impact-ventures",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "verified": false
+  "verified": true,
+  "source_url": "https://www.amazoniaimpactventures.com",
+  "source_title": "https://www.amazoniaimpactventures.com",
+  "evidence": "Home | Amazonia Impact Ventures | Impact investing | Amazon rainforest top of page What",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-ecoenterprises-fund",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "verified": false
+  "verified": true,
+  "source_url": "https://ecoenterprisesfund.com",
+  "source_title": "https://ecoenterprisesfund.com",
+  "evidence": "EcoEnterprises Fund: Investing in Nature for 25 Years Biodiversity preservation and regeneration We support businesses that directly protect and restore valuable ecosystems, watersheds, and working landscapes. Through investing to transform crucial sectors such as regenerative agriculture, agro-forestry,",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-mirova-natural-capital",
@@ -303,7 +347,11 @@
   "source": "pe-andes-amazon-fund",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "verified": false
+  "verified": true,
+  "source_url": "https://www.andesamazonfund.org",
+  "source_title": "https://www.andesamazonfund.org",
+  "evidence": "Andes Amazon Fund - Safeguarding the Most Diverse Landscapes on Earth Skip to content Menu",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-bosques-amazonicos-bam",
@@ -333,13 +381,21 @@
   "source": "pe-rainforest-alliance",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "verified": false
+  "verified": true,
+  "source_url": "https://www.rainforest-alliance.org",
+  "source_title": "https://www.rainforest-alliance.org",
+  "evidence": "Rainforest Alliance | Creating a Better World for People and Nature Give Our Work Our",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-minam-ministerio-del-ambiente",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "verified": false
+  "verified": true,
+  "source_url": "https://www.gob.pe/bosques",
+  "source_title": "MINAM — Programa Bosques",
+  "evidence": "MINAM invierte más de S/ 16,5 millones para impulsar la castaña y conservar los bosques de ...",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-serfor",
@@ -363,25 +419,41 @@
   "source": "pe-conservacion-amazonica-acca",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "verified": false
+  "verified": true,
+  "source_url": "https://acca.org.pe",
+  "source_title": "https://acca.org.pe",
+  "evidence": "Conservación Regional Lomas y Desierto Costero octubre 14, 2026 Noticias Facebook Twitter Youtube Conservación Amazónica",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-nature-services-peru",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "verified": false
+  "verified": true,
+  "source_url": "https://www.natureservices.net",
+  "source_title": "https://www.natureservices.net",
+  "evidence": "competitividad y creando valor compartido mediante la conservación y restauración de ecosistemas. Nosotros Nature Services",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-arbio",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "verified": false
+  "verified": true,
+  "source_url": "https://www.arbioperu.org",
+  "source_title": "https://www.arbioperu.org",
+  "evidence": "ARBIO Perú: conservación del bosque amazónico Toggle navigation Nosotros Somos ARBIO Personas Adopta un árbol",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-red-amazonia-que-late",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "verified": false
+  "verified": true,
+  "source_url": "https://amazoniaquelate.com",
+  "source_title": "https://amazoniaquelate.com",
+  "evidence": "Abra Patricia Alto Nieva Hierba Buena - Allpayacu Copallín Huaylla-Belén Milpuj - La Heredad Bosque",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-reforestadora-amazonica",
@@ -393,7 +465,11 @@
   "source": "pe-spda-sociedad-peruana-de-derecho-ambiental",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "verified": false
+  "verified": true,
+  "source_url": "https://spda.org.pe",
+  "source_title": "https://spda.org.pe",
+  "evidence": "Incendios forestales: SPDA advierte que la prevención sigue siendo insuficiente y pide fortalecer el manejo integral del",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-ccpip-camara-de-comercio-de-los-pueblos-indigenas",
@@ -405,25 +481,41 @@
   "source": "pe-conservacion-internacional",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "verified": false
+  "verified": true,
+  "source_url": "https://www.conservation.org/peru",
+  "source_title": "Conservación Internacional Perú",
+  "evidence": "y la naturaleza. En Conservación Internacional estamos convencidos que la gente que vive en los lugares con mayor diversidad biológica y cultural, como la Amazonia",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-wwf-peru",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "verified": false
+  "verified": true,
+  "source_url": "https://www.wwf.org.pe",
+  "source_title": "https://www.wwf.org.pe",
+  "evidence": "personas vivan en armonía con la naturaleza. Leer más © Daniel Martinez / WWF-Perú Amazonía",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-the-nature-conservancy",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "verified": false
+  "verified": true,
+  "source_url": "https://www.nature.org",
+  "source_title": "https://www.nature.org",
+  "evidence": "English Español Show search Renew Donate Search The Nature Conservancy Look Up A bamboo forest",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-forest-trends",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "verified": false
+  "verified": true,
+  "source_url": "https://www.forest-trends.org",
+  "source_title": "https://www.forest-trends.org",
+  "evidence": "Forest Trends - Pioneering Finance for Conservation Skip to content English Español Français Português English",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-giz",
@@ -463,7 +555,11 @@
   "source": "pe-inaigem",
   "target": "challenge:PE-2-agua",
   "type": "works_on_challenge",
-  "verified": false
+  "verified": true,
+  "source_url": "https://www.gob.pe/inaigem",
+  "source_title": "https://www.gob.pe/inaigem",
+  "evidence": "a. m. Minam: INAIGEM fortalece la gestión ambiental y la protección de los recursos hídricos",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-sunass",
@@ -475,7 +571,11 @@
   "source": "pe-senamhi",
   "target": "challenge:PE-2-agua",
   "type": "works_on_challenge",
-  "verified": false
+  "verified": true,
+  "source_url": "https://www.gob.pe/senamhi",
+  "source_title": "https://www.gob.pe/senamhi",
+  "evidence": "cuenca alta del río Apurímac 18 de octubre de 2026 - 11:30 a. m. Senamhi",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-uqhu",
@@ -533,13 +633,21 @@
   "source": "pe-policy-startup-peru-proinnovate",
   "target": "pe-proinnovate-startup-peru",
   "type": "administered_by",
-  "verified": false
+  "verified": true,
+  "source_url": "https://www.gob.pe/proinnovate",
+  "source_title": "ProInnóvate — Gob.pe",
+  "evidence": "Programa Nacional de Innovación y Desarrollo Productivo - ProInnóvate - PROINNOVATE",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-policy-startup-peru-proinnovate",
   "target": "pe-produce-ministerio-de-la-produccion",
   "type": "administered_by",
-  "verified": false
+  "verified": true,
+  "source_url": "https://www.gob.pe/proinnovate",
+  "source_title": "ProInnóvate — Gob.pe",
+  "evidence": "Resolución de Dirección Ejecutiva N.° 388-2026-PRODUCE/PROINNÓVATE",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-policy-programa-bionegocios-minam",
@@ -551,7 +659,11 @@
   "source": "pe-policy-programa-bosques-minam",
   "target": "pe-minam-ministerio-del-ambiente",
   "type": "administered_by",
-  "verified": false
+  "verified": true,
+  "source_url": "https://www.gob.pe/bosques",
+  "source_title": "MINAM — Programa Bosques",
+  "evidence": "Jorge Luis Sáenz Rabanal asume la Coordinación Ejecutiva del Programa Bosques del MINAM",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-policy-ley-gestion-residuos-solidos",
