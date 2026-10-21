@@ -404,7 +404,20 @@ body.story-on .panel-explore {
 .graph-pane { position: relative; }
 
 body.story-on .ego-row,
-body.story-on #filter-bar .filter-row:not(:first-child) { display: none; }
+body.story-on #filter-bar .filter-row:not(:first-child):not(.challenge-row) { display: none; }
+
+.challenge-select {
+  min-width: min(380px, 92vw);
+  max-width: 100%;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 7px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--color-border);
+  background: var(--color-card);
+  color: var(--deep-blue);
+}
 
 body.cards-view .ego-row,
 body.cards-view #filter-bar .filter-row:nth-child(n+3) { display: none; }

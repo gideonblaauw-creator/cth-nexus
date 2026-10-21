@@ -4,8 +4,8 @@ window.NexusGuide = (function () {
     {
       id: 'challenges',
       num: 1,
-      title: 'Challenges',
-      titleEs: '1 · Retos climáticos',
+      title: 'Nature challenges',
+      titleEs: '1 · Retos de la naturaleza',
       blurb: 'Quién declara trabajo en retos (works_on_challenge). Sin aristas donor→reto tipadas aparte.',
       types: ['works_on_challenge'],
     },

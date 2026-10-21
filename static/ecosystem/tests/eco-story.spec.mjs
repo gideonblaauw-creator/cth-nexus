@@ -49,6 +49,38 @@ test('guided story chapters', async ({ page }) => {
   expect(counts.length).toBe(6);
 });
 
+test('challenge area selector deep-links and scopes story', async ({ page }) => {
+  const allUrl = ecoQuery('preview=1&view=story&state=story&chapter=0');
+  await page.goto(allUrl, { waitUntil: 'domcontentloaded', timeout: 60000 });
+  await expect(page.locator('#stat-actors')).not.toHaveText('—', { timeout: 60000 });
+  await page.waitForSelector('body[data-eco-ready="1"]', { timeout: 45000 });
+  const visibleAll = parseInt(await page.locator('#stat-visible').innerText(), 10);
+
+  const waterUrl = ecoQuery('preview=1&view=story&state=story&chapter=0&challenge=PE-2-agua');
+  await page.goto(waterUrl, { waitUntil: 'domcontentloaded', timeout: 60000 });
+  await page.waitForSelector('body[data-eco-ready="1"]', { timeout: 45000 });
+  await expect(page.locator('#challenge-select')).toHaveValue('PE-2-agua');
+  const visibleWater = parseInt(await page.locator('#stat-visible').innerText(), 10);
+  expect(visibleWater).toBeGreaterThan(0);
+  expect(visibleWater).toBeLessThan(visibleAll);
+
+  await page.locator('#challenge-select').selectOption('PE-2-agua');
+  await page.waitForTimeout(800);
+  expect(page.url()).toContain('challenge=PE-2-agua');
+
+  await page.locator('[data-view-tab="story"]').click();
+  await page.locator('.story-step').nth(1).click();
+  await page.waitForTimeout(900);
+  const visiblePolicy = parseInt(await page.locator('#stat-visible').innerText(), 10);
+  expect(visiblePolicy).toBeLessThan(visibleAll);
+
+  await page.locator('#challenge-select').focus();
+  await page.screenshot({
+    path: path.join(OUT, 'challenge-dropdown-water.png'),
+    fullPage: true,
+  });
+});
+
 async function mkdir(p) {
   const { mkdir: mk } = await import('fs/promises');
   await mk(p, { recursive: true });
