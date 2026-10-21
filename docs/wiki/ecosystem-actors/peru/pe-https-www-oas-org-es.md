@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Organización intergubernamental de cooperación regional |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-https-www-oas-org-es](https://nexus.cleantechhub.net/ecosystem/?actor=pe-https-www-oas-org-es) |
 
 ## Rol y alcance
 

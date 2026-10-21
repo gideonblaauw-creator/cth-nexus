@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Inversión filantrópica en clima. |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | ENE, FIN |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-allied-climate-partners](https://nexus.cleantechhub.net/ecosystem/?actor=pe-allied-climate-partners) |
 
 ## Rol y alcance
 

@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Medio digital y red de información regional |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-inforegio-n-red-de-medios-regionales](https://nexus.cleantechhub.net/ecosystem/?actor=pe-inforegio-n-red-de-medios-regionales) |
 
 ## Rol y alcance
 

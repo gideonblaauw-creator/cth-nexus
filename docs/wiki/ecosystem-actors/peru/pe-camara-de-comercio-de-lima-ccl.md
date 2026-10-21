@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Cámara o gremio |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | ENE, FIN |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-camara-de-comercio-de-lima-ccl](https://nexus.cleantechhub.net/ecosystem/?actor=pe-camara-de-comercio-de-lima-ccl) |
 
 ## Rol y alcance
 

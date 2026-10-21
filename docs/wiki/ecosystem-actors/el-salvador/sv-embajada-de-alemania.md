@@ -28,7 +28,7 @@ tag_country: El Salvador
 | Dirección | Calle La Reforma 159, Colonia San Benito, San Salvador |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=sv-embajada-de-alemania](https://nexus.cleantechhub.net/ecosystem/?actor=sv-embajada-de-alemania) |
 
 ## Rol y alcance
 

@@ -28,7 +28,7 @@ tag_country: El Salvador
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=sv-fundemas](https://nexus.cleantechhub.net/ecosystem/?actor=sv-fundemas) |
 
 ## Rol y alcance
 

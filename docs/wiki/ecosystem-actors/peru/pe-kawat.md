@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Empresa / consultoría ambiental |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-kawat](https://nexus.cleantechhub.net/ecosystem/?actor=pe-kawat) |
 
 ## Rol y alcance
 

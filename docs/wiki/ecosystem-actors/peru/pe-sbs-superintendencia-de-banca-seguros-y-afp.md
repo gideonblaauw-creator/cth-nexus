@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/sbsperu |
 | Rol en el ecosistema | Actor público / regulador |
 | Desafíos (códigos) | ENE, FIN |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-sbs-superintendencia-de-banca-seguros-y-afp](https://nexus.cleantechhub.net/ecosystem/?actor=pe-sbs-superintendencia-de-banca-seguros-y-afp) |
 
 ## Rol y alcance
 

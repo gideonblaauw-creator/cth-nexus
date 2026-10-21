@@ -28,7 +28,7 @@ tag_country: Colombia
 | Dirección | Carrera 52 No. 76-98, Barranquilla, Atlántico, Colombia |
 | Año de fundación | 1992 |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=co-bancoldex](https://nexus.cleantechhub.net/ecosystem/?actor=co-bancoldex) |
 
 ## Rol y alcance
 

@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Programa de bionegocios y economía circular (MINAM) |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-programa-para-bionegocios-minam](https://nexus.cleantechhub.net/ecosystem/?actor=pe-programa-para-bionegocios-minam) |
 
 ## Rol y alcance
 

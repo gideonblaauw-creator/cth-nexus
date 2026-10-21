@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
 | Desafíos (códigos) | AGR, AGU, ARG, AZU, BOS, CIR, CIU, ENE, FIN |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-universidad-nacional-de-moquegua-upt-incuba-arunta](https://nexus.cleantechhub.net/ecosystem/?actor=pe-universidad-nacional-de-moquegua-upt-incuba-arunta) |
 
 ## Rol y alcance
 

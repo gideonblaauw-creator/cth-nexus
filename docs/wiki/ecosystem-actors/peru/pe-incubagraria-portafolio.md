@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/incubagraria |
 | Rol en el ecosistema | Portafolio de emprendimientos de Incubagraria (UNALM) |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-incubagraria-portafolio](https://nexus.cleantechhub.net/ecosystem/?actor=pe-incubagraria-portafolio) |
 
 ## Rol y alcance
 

@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Empresa / sector privado |
 | Desafíos (códigos) | CIR |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-textil-camones](https://nexus.cleantechhub.net/ecosystem/?actor=pe-textil-camones) |
 
 ## Rol y alcance
 

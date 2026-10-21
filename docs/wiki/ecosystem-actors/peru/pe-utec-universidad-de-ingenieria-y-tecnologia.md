@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Universidad o centro de investigación |
 | Desafíos (códigos) | CIU |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-utec-universidad-de-ingenieria-y-tecnologia](https://nexus.cleantechhub.net/ecosystem/?actor=pe-utec-universidad-de-ingenieria-y-tecnologia) |
 
 ## Rol y alcance
 

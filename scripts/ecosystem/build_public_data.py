@@ -79,7 +79,12 @@ def load_onepager_index() -> dict[str, str]:
     by_name: dict[str, str] = {}
     if not ONEPAGERS.is_dir():
         return {"host": by_host, "slug": by_slug, "name": by_name}
-    for path in ONEPAGERS.glob("*.json"):
+    json_paths: list[Path] = []
+    if ONEPAGERS.is_dir():
+        json_paths.extend(ONEPAGERS.glob("*.json"))
+        json_paths.extend(ONEPAGERS.glob("clp26-slices/*.json"))
+        json_paths.extend(ONEPAGERS.glob("slices/*.json"))
+    for path in json_paths:
         if path.name.startswith("s-pages-"):
             continue
         try:
@@ -88,10 +93,16 @@ def load_onepager_index() -> dict[str, str]:
             continue
         slug = doc.get("slug") or path.stem
         by_slug[slug.lower()] = slug
-        nm = norm_name(doc.get("name") or "")
+        raw_name = doc.get("name") or ""
+        if isinstance(raw_name, dict):
+            raw_name = raw_name.get("value") or raw_name.get("en") or ""
+        nm = norm_name(str(raw_name))
         if nm:
             by_name[nm] = slug
-        hk = host_key(doc.get("website"))
+        raw_web = doc.get("website")
+        if isinstance(raw_web, dict):
+            raw_web = raw_web.get("value")
+        hk = host_key(raw_web if isinstance(raw_web, str) else None)
         if hk:
             by_host[hk] = slug
     return {"host": by_host, "slug": by_slug, "name": by_name}
@@ -133,15 +144,19 @@ def sanitize_actor(raw: dict, idx: dict) -> dict:
     a = {k: v for k, v in raw.items() if k not in DROP_KEYS}
     a = scrub_value(a) or {}
     a["geo"] = normalize_geo(raw, raw.get("geo") or a.get("geo"))
-    slug = match_card_slug(a, idx)
-    nexus = dict(a.get("nexus") or {})
-    if slug:
-        nexus["card_slug"] = slug
-    elif "card_slug" in nexus:
-        pass
+    nexus = dict(raw.get("nexus") or a.get("nexus") or {})
+    explicit = nexus.get("card_slug")
+    if explicit:
+        nexus["card_slug"] = explicit
     else:
-        nexus.setdefault("card_slug", None)
+        slug = match_card_slug(a, idx)
+        if slug and slug != a.get("id"):
+            nexus["card_slug"] = slug
+        else:
+            nexus["card_slug"] = None
     a["nexus"] = nexus
+    if raw.get("card"):
+        a["card"] = scrub_value(raw["card"])
     if a.get("type") == "person" and not a.get("linkedin"):
         a["linkedin"] = None
     return {k: v for k, v in a.items() if k not in DROP_KEYS}

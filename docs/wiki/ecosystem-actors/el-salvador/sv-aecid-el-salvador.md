@@ -26,7 +26,7 @@ tag_country: El Salvador
 | LinkedIn | https://www.linkedin.com/company/aecid/ |
 | Rol en el ecosistema | Organización internacional o cooperación |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=sv-aecid-el-salvador](https://nexus.cleantechhub.net/ecosystem/?actor=sv-aecid-el-salvador) |
 
 ## Rol y alcance
 

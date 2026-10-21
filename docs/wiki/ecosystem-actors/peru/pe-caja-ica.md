@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Institución financiera |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | CIR, ENE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-caja-ica](https://nexus.cleantechhub.net/ecosystem/?actor=pe-caja-ica) |
 
 ## Rol y alcance
 

@@ -28,7 +28,7 @@ tag_country: El Salvador
 | Dirección | 87 Avenida Norte y Calle Gabriela Mistral, Colonia Escalón, San Salvador |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=sv-bandesal-banco-de-desarrollo-de-el-salvador](https://nexus.cleantechhub.net/ecosystem/?actor=sv-bandesal-banco-de-desarrollo-de-el-salvador) |
 
 ## Rol y alcance
 

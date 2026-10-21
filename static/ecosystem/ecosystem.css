@@ -405,6 +405,9 @@ body.story-on .panel-explore {
 
 body.story-on .ego-row,
 body.story-on #filter-bar .filter-row:not(:first-child) { display: none; }
+
+body.cards-view .ego-row,
+body.cards-view #filter-bar .filter-row:nth-child(n+3) { display: none; }
 body.story-on #legend-bar::after {
   content: ' · —— Suggested (punteado)';
   color: #ea580c;
@@ -444,7 +447,26 @@ body.story-on #legend-bar::after {
 }
 .ac-name { font-weight: 700; font-size: 13px; }
 .ac-meta { font-size: 10px; color: var(--color-muted); }
+.ac-head { min-width: 0; flex: 1; }
+.ac-role {
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--deep-blue);
+  line-height: 1.35;
+  margin: 0 0 6px;
+}
+.ac-desc {
+  font-size: 11px;
+  line-height: 1.45;
+  color: var(--color-muted);
+  margin: 0 0 8px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
 .ac-badges { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 6px; }
+.badge-founded { background: rgba(102, 147, 72, 0.15); color: var(--forest, #669348); }
 .badge {
   font-size: 9px;
   font-weight: 700;
@@ -454,7 +476,7 @@ body.story-on #legend-bar::after {
   color: var(--deep-blue);
 }
 .ac-links { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
-.link-btn, .li-btn, .nexus-btn {
+.link-btn, .li-btn, .nexus-btn, .map-btn {
   font-size: 10px;
   font-weight: 700;
   padding: 4px 8px;

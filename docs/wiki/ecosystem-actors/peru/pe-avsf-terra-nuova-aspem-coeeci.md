@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Empresa / sector privado |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AGR |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-avsf-terra-nuova-aspem-coeeci](https://nexus.cleantechhub.net/ecosystem/?actor=pe-avsf-terra-nuova-aspem-coeeci) |
 
 ## Rol y alcance
 

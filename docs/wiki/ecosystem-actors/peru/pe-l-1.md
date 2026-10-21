@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/l-1-lideres-impulsando-un-desarrollo-sostenible/ |
 | Rol en el ecosistema | Iniciativa global de agricultura sostenible (L+1) |
 | Desafíos (códigos) | AGR |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-l-1](https://nexus.cleantechhub.net/ecosystem/?actor=pe-l-1) |
 
 ## Rol y alcance
 

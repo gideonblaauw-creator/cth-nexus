@@ -28,7 +28,7 @@ tag_country: Colombia
 | Dirección | Carrera 13 No. 27-00, Bogotá, Colombia |
 | Año de fundación | 1994 |
 | Desafíos (códigos) | ENE, GAS |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=co-creg](https://nexus.cleantechhub.net/ecosystem/?actor=co-creg) |
 
 ## Rol y alcance
 

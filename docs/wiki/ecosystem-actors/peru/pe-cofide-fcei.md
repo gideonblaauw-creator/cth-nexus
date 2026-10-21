@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | Av. Rivera Navarrete 501, San Isidro, Lima |
 | Año de fundación | 1977 |
 | Desafíos (códigos) | BOS, FIN |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-cofide-fcei](https://nexus.cleantechhub.net/ecosystem/?actor=pe-cofide-fcei) |
 
 ## Rol y alcance
 

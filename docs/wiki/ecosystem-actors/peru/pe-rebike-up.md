@@ -24,7 +24,7 @@ tag_country: Peru
 | Sitio web | https://rebikeup.com/ |
 | LinkedIn | https://www.linkedin.com/company/rebike-up |
 | Rol en el ecosistema | Startup del ecosistema |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-rebike-up](https://nexus.cleantechhub.net/ecosystem/?actor=pe-rebike-up) |
 
 ## Descripción
 

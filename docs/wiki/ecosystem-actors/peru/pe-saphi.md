@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/saphixyz |
 | Rol en el ecosistema | Empresa / sector privado |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-saphi](https://nexus.cleantechhub.net/ecosystem/?actor=pe-saphi) |
 
 ## Rol y alcance
 

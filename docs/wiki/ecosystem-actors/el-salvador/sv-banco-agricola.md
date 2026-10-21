@@ -26,7 +26,7 @@ tag_country: El Salvador
 | LinkedIn | https://www.linkedin.com/company/bancoagricola |
 | Rol en el ecosistema | Institución financiera |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=sv-banco-agricola](https://nexus.cleantechhub.net/ecosystem/?actor=sv-banco-agricola) |
 
 ## Rol y alcance
 

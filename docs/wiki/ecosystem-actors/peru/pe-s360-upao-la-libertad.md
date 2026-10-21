@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
 | Desafíos (códigos) | AGR, CIR |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-s360-upao-la-libertad](https://nexus.cleantechhub.net/ecosystem/?actor=pe-s360-upao-la-libertad) |
 
 ## Rol y alcance
 

@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-fundacion-anglo-american](https://nexus.cleantechhub.net/ecosystem/?actor=pe-fundacion-anglo-american) |
 
 ## Rol y alcance
 

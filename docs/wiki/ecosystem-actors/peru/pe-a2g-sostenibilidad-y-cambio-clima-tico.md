@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Consultoría en sostenibilidad y cambio climático. |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-a2g-sostenibilidad-y-cambio-clima-tico](https://nexus.cleantechhub.net/ecosystem/?actor=pe-a2g-sostenibilidad-y-cambio-clima-tico) |
 
 ## Rol y alcance
 

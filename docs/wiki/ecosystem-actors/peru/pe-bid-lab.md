@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Innovación y venture del Banco Interamericano de Desarrollo. |
 | Año de fundación | 1993 |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-bid-lab](https://nexus.cleantechhub.net/ecosystem/?actor=pe-bid-lab) |
 
 ## Rol y alcance
 

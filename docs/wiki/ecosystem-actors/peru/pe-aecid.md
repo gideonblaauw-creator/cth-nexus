@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Cooperación internacional (España). |
 | Año de fundación | 1948 |
 | Desafíos (códigos) | FIN |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-aecid](https://nexus.cleantechhub.net/ecosystem/?actor=pe-aecid) |
 
 ## Rol y alcance
 

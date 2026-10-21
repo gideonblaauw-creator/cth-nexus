@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Corporación de alimentos y consumo masivo. |
 | Año de fundación | 1956 |
 | Desafíos (códigos) | AGR, CIR |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-alicorp](https://nexus.cleantechhub.net/ecosystem/?actor=pe-alicorp) |
 
 ## Rol y alcance
 

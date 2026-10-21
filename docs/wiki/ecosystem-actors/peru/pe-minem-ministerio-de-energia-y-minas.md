@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/minem-per%C3%BA/ |
 | Rol en el ecosistema | Ministerio de energía, minería e hidrocarburos |
 | Desafíos (códigos) | ENE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-minem-ministerio-de-energia-y-minas](https://nexus.cleantechhub.net/ecosystem/?actor=pe-minem-ministerio-de-energia-y-minas) |
 
 ## Rol y alcance
 

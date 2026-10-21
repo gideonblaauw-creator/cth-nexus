@@ -26,7 +26,7 @@ tag_country: El Salvador
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Financiador e inversionista |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=sv-atlantida-capital](https://nexus.cleantechhub.net/ecosystem/?actor=sv-atlantida-capital) |
 
 ## Rol y alcance
 

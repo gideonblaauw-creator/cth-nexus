@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Institución financiera |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AGR, BOS, FIN |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-caja-arequipa](https://nexus.cleantechhub.net/ecosystem/?actor=pe-caja-arequipa) |
 
 ## Rol y alcance
 

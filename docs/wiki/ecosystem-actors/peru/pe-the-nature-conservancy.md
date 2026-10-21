@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/the-nature-conservancy |
 | Rol en el ecosistema | Organización internacional o cooperación |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-the-nature-conservancy](https://nexus.cleantechhub.net/ecosystem/?actor=pe-the-nature-conservancy) |
 
 ## Rol y alcance
 

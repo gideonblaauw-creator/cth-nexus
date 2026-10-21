@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | FIN, ENE, AGR |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-https-www-iadb-org-en](https://nexus.cleantechhub.net/ecosystem/?actor=pe-https-www-iadb-org-en) |
 
 ## Rol y alcance
 

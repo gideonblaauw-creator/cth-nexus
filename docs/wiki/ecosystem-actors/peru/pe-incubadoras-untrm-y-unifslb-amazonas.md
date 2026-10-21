@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Incubadoras universitarias en Amazonas (UNTRM, UNIFSLB) |
 | Desafíos (códigos) | AGR, BOS |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-incubadoras-untrm-y-unifslb-amazonas](https://nexus.cleantechhub.net/ecosystem/?actor=pe-incubadoras-untrm-y-unifslb-amazonas) |
 
 ## Rol y alcance
 

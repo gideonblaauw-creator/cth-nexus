@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/jaku-emprende/ |
 | Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
 | Desafíos (códigos) | AGR, AGU, ENE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-jaku-emprende-unsa-arequipa](https://nexus.cleantechhub.net/ecosystem/?actor=pe-jaku-emprende-unsa-arequipa) |
 
 ## Rol y alcance
 

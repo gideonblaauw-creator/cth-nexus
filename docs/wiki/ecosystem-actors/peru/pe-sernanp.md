@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Actor público / regulador |
 | Desafíos (códigos) | AGU, ARG |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-sernanp](https://nexus.cleantechhub.net/ecosystem/?actor=pe-sernanp) |
 
 ## Rol y alcance
 

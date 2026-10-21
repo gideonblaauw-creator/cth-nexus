@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Caja municipal de ahorro y crédito. |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | CIR, ENE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-caja-huancayo](https://nexus.cleantechhub.net/ecosystem/?actor=pe-caja-huancayo) |
 
 ## Rol y alcance
 

@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AGR, AGU |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-enel-peru-pluz](https://nexus.cleantechhub.net/ecosystem/?actor=pe-enel-peru-pluz) |
 
 ## Rol y alcance
 

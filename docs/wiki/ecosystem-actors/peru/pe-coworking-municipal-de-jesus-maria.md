@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | CIU |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-coworking-municipal-de-jesus-maria](https://nexus.cleantechhub.net/ecosystem/?actor=pe-coworking-municipal-de-jesus-maria) |
 
 ## Rol y alcance
 

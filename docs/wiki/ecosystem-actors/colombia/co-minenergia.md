@@ -28,7 +28,7 @@ tag_country: Colombia
 | Dirección | Calle 43 No. 57-31, Bogotá, Colombia |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=co-minenergia](https://nexus.cleantechhub.net/ecosystem/?actor=co-minenergia) |
 
 ## Rol y alcance
 

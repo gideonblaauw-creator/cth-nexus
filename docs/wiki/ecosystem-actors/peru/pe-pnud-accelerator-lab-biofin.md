@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | PNUD Perú — Accelerator Lab y BIOFIN |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-pnud-accelerator-lab-biofin](https://nexus.cleantechhub.net/ecosystem/?actor=pe-pnud-accelerator-lab-biofin) |
 
 ## Rol y alcance
 

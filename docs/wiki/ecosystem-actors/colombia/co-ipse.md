@@ -27,7 +27,7 @@ tag_country: Colombia
 | Rol en el ecosistema | Entidad pública de soluciones energéticas en ZNI. |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=co-ipse](https://nexus.cleantechhub.net/ecosystem/?actor=co-ipse) |
 
 ## Rol y alcance
 

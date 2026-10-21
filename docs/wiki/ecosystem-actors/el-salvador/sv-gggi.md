@@ -28,7 +28,7 @@ tag_country: El Salvador
 | Dirección | PENDIENTE |
 | Año de fundación | 2012 |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=sv-gggi](https://nexus.cleantechhub.net/ecosystem/?actor=sv-gggi) |
 
 ## Rol y alcance
 

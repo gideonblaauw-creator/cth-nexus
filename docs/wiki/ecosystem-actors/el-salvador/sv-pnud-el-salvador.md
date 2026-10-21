@@ -28,7 +28,7 @@ tag_country: El Salvador
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | BOS, FIN |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=sv-pnud-el-salvador](https://nexus.cleantechhub.net/ecosystem/?actor=sv-pnud-el-salvador) |
 
 ## Rol y alcance
 

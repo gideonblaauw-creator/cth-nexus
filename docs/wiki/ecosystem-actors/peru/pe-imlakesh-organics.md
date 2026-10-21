@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Empresa de productos orgánicos / comercio ético |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-imlakesh-organics](https://nexus.cleantechhub.net/ecosystem/?actor=pe-imlakesh-organics) |
 
 ## Rol y alcance
 

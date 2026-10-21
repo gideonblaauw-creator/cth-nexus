@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | Jr. Medrano Silva 165, Barranco, Lima (campus UTEC) |
 | Año de fundación | 2017 |
 | Desafíos (códigos) | AGU, CIU |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-ciu-agu](https://nexus.cleantechhub.net/ecosystem/?actor=pe-ciu-agu) |
 
 ## Rol y alcance
 

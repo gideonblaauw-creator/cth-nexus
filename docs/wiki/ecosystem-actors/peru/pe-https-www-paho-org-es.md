@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/pan-american-health-organization |
 | Rol en el ecosistema | Organización internacional de salud pública (sistema ONU/OEA) |
 | Desafíos (códigos) | AGR |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-https-www-paho-org-es](https://nexus.cleantechhub.net/ecosystem/?actor=pe-https-www-paho-org-es) |
 
 ## Rol y alcance
 

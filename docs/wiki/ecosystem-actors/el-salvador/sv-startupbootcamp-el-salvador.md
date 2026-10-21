@@ -28,7 +28,7 @@ tag_country: El Salvador
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=sv-startupbootcamp-el-salvador](https://nexus.cleantechhub.net/ecosystem/?actor=sv-startupbootcamp-el-salvador) |
 
 ## Rol y alcance
 

@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | 1993 |
 | Desafíos (códigos) | AZU, BOS |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-https-fsc-org-en](https://nexus.cleantechhub.net/ecosystem/?actor=pe-https-fsc-org-en) |
 
 ## Rol y alcance
 

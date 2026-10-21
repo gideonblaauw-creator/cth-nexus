@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | BOS |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-conservacion-amazonica-acca](https://nexus.cleantechhub.net/ecosystem/?actor=pe-conservacion-amazonica-acca) |
 
 ## Rol y alcance
 

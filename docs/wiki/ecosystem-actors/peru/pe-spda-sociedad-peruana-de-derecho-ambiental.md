@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/spdaorg |
 | Rol en el ecosistema | ONG o fundación |
 | Desafíos (códigos) | AGR, BOS |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-spda-sociedad-peruana-de-derecho-ambiental](https://nexus.cleantechhub.net/ecosystem/?actor=pe-spda-sociedad-peruana-de-derecho-ambiental) |
 
 ## Rol y alcance
 

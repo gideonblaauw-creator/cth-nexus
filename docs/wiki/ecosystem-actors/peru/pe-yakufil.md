@@ -24,7 +24,7 @@ tag_country: Peru
 | Sitio web | PENDIENTE |
 | LinkedIn | https://www.linkedin.com/company/yakufil |
 | Rol en el ecosistema | Startup del ecosistema |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-yakufil](https://nexus.cleantechhub.net/ecosystem/?actor=pe-yakufil) |
 
 ## Descripción
 

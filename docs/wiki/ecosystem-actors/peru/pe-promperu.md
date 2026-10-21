@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Promoción de exportaciones, turismo e imagen país |
 | Desafíos (códigos) | AGR, AGU, AZU, BOS, CIR, CIU, ENE, FIN |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-promperu](https://nexus.cleantechhub.net/ecosystem/?actor=pe-promperu) |
 
 ## Rol y alcance
 

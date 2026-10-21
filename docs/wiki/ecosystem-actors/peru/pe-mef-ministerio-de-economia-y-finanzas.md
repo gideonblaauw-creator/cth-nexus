@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Ministerio rector de política económica y finanzas públicas |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-mef-ministerio-de-economia-y-finanzas](https://nexus.cleantechhub.net/ecosystem/?actor=pe-mef-ministerio-de-economia-y-finanzas) |
 
 ## Rol y alcance
 

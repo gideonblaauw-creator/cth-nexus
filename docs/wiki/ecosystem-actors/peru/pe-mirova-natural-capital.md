@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/mirova |
 | Rol en el ecosistema | Gestor de inversiones de capital natural y sostenible |
 | Desafíos (códigos) | BOS, FIN |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-mirova-natural-capital](https://nexus.cleantechhub.net/ecosystem/?actor=pe-mirova-natural-capital) |
 
 ## Rol y alcance
 

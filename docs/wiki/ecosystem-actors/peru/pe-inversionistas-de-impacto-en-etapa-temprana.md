@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Segmento de inversionistas de impacto (etapa temprana) |
 | Desafíos (códigos) | ENE, FIN |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-inversionistas-de-impacto-en-etapa-temprana](https://nexus.cleantechhub.net/ecosystem/?actor=pe-inversionistas-de-impacto-en-etapa-temprana) |
 
 ## Rol y alcance
 

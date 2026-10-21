@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/smipackaging |
 | Rol en el ecosistema | Empresa / sector privado |
 | Desafíos (códigos) | CIR |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-san-miguel-industrias-pet](https://nexus.cleantechhub.net/ecosystem/?actor=pe-san-miguel-industrias-pet) |
 
 ## Rol y alcance
 

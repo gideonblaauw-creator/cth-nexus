@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Empresa / sector privado |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-revista-ganama-s](https://nexus.cleantechhub.net/ecosystem/?actor=pe-revista-ganama-s) |
 
 ## Rol y alcance
 

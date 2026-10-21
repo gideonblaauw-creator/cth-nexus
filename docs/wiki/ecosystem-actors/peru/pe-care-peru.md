@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | ONG o fundación |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-care-peru](https://nexus.cleantechhub.net/ecosystem/?actor=pe-care-peru) |
 
 ## Rol y alcance
 

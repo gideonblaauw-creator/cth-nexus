@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AGR |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-conservamos-por-naturaleza](https://nexus.cleantechhub.net/ecosystem/?actor=pe-conservamos-por-naturaleza) |
 
 ## Rol y alcance
 

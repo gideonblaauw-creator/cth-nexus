@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-estados-miembros-de-la-ue](https://nexus.cleantechhub.net/ecosystem/?actor=pe-estados-miembros-de-la-ue) |
 
 ## Rol y alcance
 

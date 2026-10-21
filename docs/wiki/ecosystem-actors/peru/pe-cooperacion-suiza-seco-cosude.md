@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-cooperacion-suiza-seco-cosude](https://nexus.cleantechhub.net/ecosystem/?actor=pe-cooperacion-suiza-seco-cosude) |
 
 ## Rol y alcance
 

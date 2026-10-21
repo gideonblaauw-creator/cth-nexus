@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | 1945 |
 | Desafíos (códigos) | AGR |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-fao](https://nexus.cleantechhub.net/ecosystem/?actor=pe-fao) |
 
 ## Rol y alcance
 

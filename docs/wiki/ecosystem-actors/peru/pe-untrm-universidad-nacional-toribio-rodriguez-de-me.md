@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Universidad o centro de investigación |
 | Desafíos (códigos) | AGR, BOS, CIU |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-untrm-universidad-nacional-toribio-rodriguez-de-me](https://nexus.cleantechhub.net/ecosystem/?actor=pe-untrm-universidad-nacional-toribio-rodriguez-de-me) |
 
 ## Rol y alcance
 

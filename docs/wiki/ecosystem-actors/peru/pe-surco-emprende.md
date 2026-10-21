@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Actor público / regulador |
 | Desafíos (códigos) | CIU |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-surco-emprende](https://nexus.cleantechhub.net/ecosystem/?actor=pe-surco-emprende) |
 
 ## Rol y alcance
 

@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/theganeshalab |
 | Rol en el ecosistema | Empresa / sector privado |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-the-ganesha-lab](https://nexus.cleantechhub.net/ecosystem/?actor=pe-the-ganesha-lab) |
 
 ## Rol y alcance
 

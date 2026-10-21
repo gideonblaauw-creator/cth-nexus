@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Empresa / sector privado |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-aje-group](https://nexus.cleantechhub.net/ecosystem/?actor=pe-aje-group) |
 
 ## Rol y alcance
 

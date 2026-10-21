@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Empresa de bebidas y manufactura. |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AGR, AGU, CIR, ENE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-backus-ab-inbev](https://nexus.cleantechhub.net/ecosystem/?actor=pe-backus-ab-inbev) |
 
 ## Rol y alcance
 

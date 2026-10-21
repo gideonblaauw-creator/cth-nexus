@@ -1,0 +1,18 @@
+{
+  "cards_built": 366,
+  "startup_one_pager_links": 2,
+  "startup_links": [
+    {
+      "actor_id": "pe-vigia",
+      "startup_slug": "vigia"
+    },
+    {
+      "actor_id": "pe-yakusmart",
+      "startup_slug": "yakusmart"
+    }
+  ],
+  "actors_raw_updated": 366,
+  "actors_raw_added": 0,
+  "onepager_sites_removed": 0,
+  "errors": []
+}

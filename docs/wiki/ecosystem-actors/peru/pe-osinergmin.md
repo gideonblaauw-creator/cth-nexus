@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/osinergmin |
 | Rol en el ecosistema | Actor público / regulador |
 | Desafíos (códigos) | FIN |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-osinergmin](https://nexus.cleantechhub.net/ecosystem/?actor=pe-osinergmin) |
 
 ## Rol y alcance
 

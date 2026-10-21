@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Programa nacional de conservación de bosques (MINAM) |
 | Desafíos (códigos) | BOS |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-programa-bosques-minam](https://nexus.cleantechhub.net/ecosystem/?actor=pe-programa-bosques-minam) |
 
 ## Rol y alcance
 

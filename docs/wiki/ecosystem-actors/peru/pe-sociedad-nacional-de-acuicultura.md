@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Cámara o gremio |
 | Desafíos (códigos) | AZU |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-sociedad-nacional-de-acuicultura](https://nexus.cleantechhub.net/ecosystem/?actor=pe-sociedad-nacional-de-acuicultura) |
 
 ## Rol y alcance
 

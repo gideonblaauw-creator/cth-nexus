@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Financiador e inversionista |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-andes-amazon-fund](https://nexus.cleantechhub.net/ecosystem/?actor=pe-andes-amazon-fund) |
 
 ## Rol y alcance
 

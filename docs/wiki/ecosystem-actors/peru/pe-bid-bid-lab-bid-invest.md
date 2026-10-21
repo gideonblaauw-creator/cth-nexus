@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Banco de desarrollo multilateral y brazos de innovación/inversión. |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-bid-bid-lab-bid-invest](https://nexus.cleantechhub.net/ecosystem/?actor=pe-bid-bid-lab-bid-invest) |
 
 ## Rol y alcance
 

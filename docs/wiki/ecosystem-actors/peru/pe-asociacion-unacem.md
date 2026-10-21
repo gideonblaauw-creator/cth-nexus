@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | ONG o fundación |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AZU, BOS |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-asociacion-unacem](https://nexus.cleantechhub.net/ecosystem/?actor=pe-asociacion-unacem) |
 
 ## Rol y alcance
 

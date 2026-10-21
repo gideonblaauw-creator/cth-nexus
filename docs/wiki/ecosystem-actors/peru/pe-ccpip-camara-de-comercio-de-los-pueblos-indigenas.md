@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Cámara gremial de pueblos indígenas. |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/planta-comunitaria-wpc](https://nexus.cleantechhub.net/s/planta-comunitaria-wpc) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-ccpip-camara-de-comercio-de-los-pueblos-indigenas](https://nexus.cleantechhub.net/ecosystem/?actor=pe-ccpip-camara-de-comercio-de-los-pueblos-indigenas) |
 
 ## Rol y alcance
 

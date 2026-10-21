@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/liquid-venture-studio/ |
 | Rol en el ecosistema | Venture studio y aceleradora de startups digitales y foodtech |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-liquid-venture-studio](https://nexus.cleantechhub.net/ecosystem/?actor=pe-liquid-venture-studio) |
 
 ## Rol y alcance
 

@@ -26,7 +26,7 @@ tag_country: El Salvador
 | LinkedIn | https://www.linkedin.com/company/banco-azul |
 | Rol en el ecosistema | Institución financiera |
 | Desafíos (códigos) | FIN |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=sv-banco-azul](https://nexus.cleantechhub.net/ecosystem/?actor=sv-banco-azul) |
 
 ## Rol y alcance
 

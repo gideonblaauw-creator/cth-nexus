@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/tropical-forest-alliance |
 | Rol en el ecosistema | Alianza multistakeholder por bosques tropicales |
 | Desafíos (códigos) | AZU, BOS |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-https-www-tropicalforestalliance-org-home](https://nexus.cleantechhub.net/ecosystem/?actor=pe-https-www-tropicalforestalliance-org-home) |
 
 ## Rol y alcance
 

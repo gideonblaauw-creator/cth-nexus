@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Impulsor de emprendimiento amazónico. |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-amanatari](https://nexus.cleantechhub.net/ecosystem/?actor=pe-amanatari) |
 
 ## Rol y alcance
 

@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/wayra |
 | Rol en el ecosistema | Financiador e inversionista |
 | Desafíos (códigos) | AGR, BOS |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-wayra-peru](https://nexus.cleantechhub.net/ecosystem/?actor=pe-wayra-peru) |
 
 ## Rol y alcance
 

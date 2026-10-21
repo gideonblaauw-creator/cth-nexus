@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Banco de desarrollo alemán — cooperación financiera |
 | Desafíos (códigos) | BOS, FIN |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-kfw](https://nexus.cleantechhub.net/ecosystem/?actor=pe-kfw) |
 
 ## Rol y alcance
 

@@ -28,7 +28,7 @@ tag_country: El Salvador
 | Dirección | PENDIENTE |
 | Año de fundación | 1996 |
 | Desafíos (códigos) | AGR, AGU |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=sv-esen](https://nexus.cleantechhub.net/ecosystem/?actor=sv-esen) |
 
 ## Rol y alcance
 

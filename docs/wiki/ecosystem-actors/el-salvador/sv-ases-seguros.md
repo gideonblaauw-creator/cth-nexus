@@ -26,7 +26,7 @@ tag_country: El Salvador
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Institución financiera |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=sv-ases-seguros](https://nexus.cleantechhub.net/ecosystem/?actor=sv-ases-seguros) |
 
 ## Rol y alcance
 
