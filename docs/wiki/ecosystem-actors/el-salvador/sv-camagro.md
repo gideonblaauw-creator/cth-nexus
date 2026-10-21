@@ -28,7 +28,7 @@ tag_country: El Salvador
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AGR, AGU, BOS, CIR, ENE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/planta-comunitaria-wpc](https://nexus.cleantechhub.net/s/planta-comunitaria-wpc) |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/sv-camagro](https://nexus.cleantechhub.net/s/sv-camagro) |
 
 ## Rol y alcance
 

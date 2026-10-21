@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Incubadoras universitarias en Loreto (UNAP, UNAAA) |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/planta-comunitaria-wpc](https://nexus.cleantechhub.net/s/planta-comunitaria-wpc) |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-incubadoras-unap-y-unaaa-loreto](https://nexus.cleantechhub.net/s/pe-incubadoras-unap-y-unaaa-loreto) |
 
 ## Rol y alcance
 

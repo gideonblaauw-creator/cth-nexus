@@ -22,7 +22,7 @@ def test_build_script_runs_and_summary():
     assert proc.returncode == 0, proc.stderr or proc.stdout
     summary = json.loads((ROOT / "docs/wiki/ecosystem-actors/nexus-cards-build-summary.json").read_text())
     assert summary["built_count"] >= 350
-    assert summary["skipped_startup_duplicate"] == 8
+    assert summary["skipped_startup_duplicate"] == 2
     assert summary["total_card_slugs"] >= summary["built_count"]
 
 

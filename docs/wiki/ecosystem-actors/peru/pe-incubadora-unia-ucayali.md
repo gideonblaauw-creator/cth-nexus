@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.facebook.com/unia.edu.pe/ |
 | Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/planta-comunitaria-wpc](https://nexus.cleantechhub.net/s/planta-comunitaria-wpc) |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-incubadora-unia-ucayali](https://nexus.cleantechhub.net/s/pe-incubadora-unia-ucayali) |
 
 ## Rol y alcance
 

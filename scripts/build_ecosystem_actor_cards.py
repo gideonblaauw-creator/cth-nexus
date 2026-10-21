@@ -6,6 +6,7 @@ import csv
 import html
 import json
 import re
+import shutil
 import sys
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -56,6 +57,10 @@ NEXUS_LINK_RE = re.compile(
     re.I,
 )
 
+GENERIC_HOSTS = frozenset(
+    {"facebook.com", "instagram.com", "linkedin.com", "twitter.com", "x.com", "linktr.ee"}
+)
+
 
 def bi(en: str, es: str) -> str:
     return f'<span class="en">{html.escape(en)}</span><span class="es">{html.escape(es)}</span>'
@@ -84,7 +89,9 @@ def norm_domain(url: str | None) -> str | None:
     u = url if url.startswith("http") else f"https://{url}"
     try:
         h = urlparse(u).netloc.lower().replace("www.", "")
-        return h or None
+        if not h or h in GENERIC_HOSTS:
+            return None
+        return h
     except Exception:
         return None
 
@@ -117,15 +124,12 @@ def load_startup_index() -> dict[str, str]:
         if isinstance(raw_web, dict):
             raw_web = raw_web.get("value")
         hk = norm_domain(raw_web if isinstance(raw_web, str) else None)
-        if hk:
+        if hk and hk not in GENERIC_HOSTS:
             by_host[hk] = slug
     return {"host": by_host, "name": by_name, "slugs": slugs}
 
 
 def match_startup_slug(actor_id: str, name: str, website: str | None, idx: dict) -> str | None:
-    m = NEXUS_LINK_RE.search(website or "")
-    if m:
-        return (m.group(1) or m.group(2)).lower()
     hk = norm_domain(website)
     if hk and hk in idx["host"]:
         return idx["host"][hk]
@@ -134,6 +138,11 @@ def match_startup_slug(actor_id: str, name: str, website: str | None, idx: dict)
         return idx["name"][nm]
     if actor_id.lower() in idx["slugs"]:
         return actor_id.lower()
+    # Ecosystem actor id pe-{startup-slug} → existing CLP26 /s/ one-pager
+    if "-" in actor_id:
+        tail = actor_id.split("-", 1)[1].lower()
+        if tail in idx["slugs"]:
+            return tail
     return None
 
 
@@ -424,9 +433,9 @@ def main() -> int:
             errors.append(str(path))
             continue
 
-        startup_slug = rec.existing_nexus_slug or match_startup_slug(
-            rec.actor_id, rec.name, rec.website, idx
-        )
+        # Only skip when website/name matching finds a startup one-pager — never trust
+        # stale Tarjeta Nexus table links (e.g. erroneous planta-comunitaria-wpc aliases).
+        startup_slug = match_startup_slug(rec.actor_id, rec.name, rec.website, idx)
         if (
             startup_slug
             and startup_slug in idx["slugs"]
@@ -437,6 +446,12 @@ def main() -> int:
             skipped_startup.append(
                 {"actor_id": rec.actor_id, "startup_slug": startup_slug, "reason": "existing_s_card"}
             )
+            eco_json = DATA_OUT / f"{rec.actor_id}.json"
+            eco_site = SITES_OUT / rec.actor_id
+            if eco_json.is_file():
+                eco_json.unlink()
+            if eco_site.is_dir():
+                shutil.rmtree(eco_site)
             continue
 
         payload = {

@@ -1,0 +1,12 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-acm-ventures-agtech",
+  "actor_id": "pe-acm-ventures-agtech",
+  "name": "ACM Ventures Agtech",
+  "country": "Peru",
+  "city": "Lima (Santiago de Surco)",
+  "category": "accelerator",
+  "ecosystem_role": "Incubadora y aceleradora (agtech y emprendimiento).",
+  "website": "https://www.facebook.com/ACMVenturesPeru/",
+  "description": "ACM Ventures es una incubadora y aceleradora peruana de emprendimientos, con énfasis en líneas asociadas a agrotecnología y negocios dinámicos."
+}

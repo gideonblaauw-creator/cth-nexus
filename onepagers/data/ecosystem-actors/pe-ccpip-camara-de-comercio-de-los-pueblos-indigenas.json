@@ -1,0 +1,12 @@
+{
+  "template": "ecosystem-actor",
+  "slug": "pe-ccpip-camara-de-comercio-de-los-pueblos-indigenas",
+  "actor_id": "pe-ccpip-camara-de-comercio-de-los-pueblos-indigenas",
+  "name": "CCPIP – Cámara de Comercio de los Pueblos Indígenas",
+  "country": "Peru",
+  "city": "Lima",
+  "category": "chamber",
+  "ecosystem_role": "Cámara gremial de pueblos indígenas.",
+  "website": "https://www.facebook.com/ccpip/",
+  "description": "La Cámara de Comercio de los Pueblos Indígenas del Perú (CCPIP) promueve el comercio y el emprendimiento indígena en el país."
+}

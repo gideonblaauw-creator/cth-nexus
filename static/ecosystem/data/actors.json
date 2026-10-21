@@ -2479,7 +2479,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": "planta-comunitaria-wpc"
+   "card_slug": "pe-acm-ventures-agtech"
   }
  },
  {
@@ -2539,7 +2539,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": "planta-comunitaria-wpc"
+   "card_slug": "pe-incubadora-unia-ucayali"
   }
  },
  {
@@ -2578,7 +2578,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": "planta-comunitaria-wpc"
+   "card_slug": "pe-incubadoras-unap-y-unaaa-loreto"
   }
  },
  {
@@ -2695,7 +2695,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": "planta-comunitaria-wpc"
+   "card_slug": "pe-incubaunach-cajamarca"
   }
  },
  {
@@ -3020,7 +3020,7 @@
    "source_url": null
   },
   "nexus": {
-   "card_slug": "planta-comunitaria-wpc"
+   "card_slug": "pe-ccpip-camara-de-comercio-de-los-pueblos-indigenas"
   }
  },
  {
@@ -4045,7 +4045,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=VIGIA%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "nexus": {
-   "card_slug": "vigia"
+   "card_slug": "pe-vigia"
   }
  },
  {
@@ -4752,7 +4752,7 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
-   "card_slug": "planta-comunitaria-wpc"
+   "card_slug": "sv-camagro"
   }
  },
  {
