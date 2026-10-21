@@ -26,6 +26,15 @@ const COUNTRY_META = {
   CR: { key: 'Costa Rica', flag: '🇨🇷' },
 };
 
+/** Fallback when `country` label drifts from COUNTRY_META (CO/PE bleed guard). */
+const ID_PREFIX_COUNTRY = {
+  pe: 'PE',
+  sv: 'SV',
+  co: 'CO',
+  gt: 'GT',
+  cr: 'CR',
+};
+
 const CATEGORY_KEYS = [
   'government', 'accelerator', 'international', 'funder', 'ngo_foundation',
   'academia', 'corporate', 'finance', 'chamber', 'startup', 'media', 'hub', 'mentor', 'program',
@@ -207,8 +216,32 @@ function esc(s) {
 }
 
 function countryCode(name) {
-  const entry = Object.entries(COUNTRY_META).find(([, v]) => v.key === name);
+  if (!name) return null;
+  const norm = String(name).normalize('NFD').replace(/\p{M}/gu, '').trim();
+  const entry = Object.entries(COUNTRY_META).find(([, v]) => {
+    const key = v.key.normalize('NFD').replace(/\p{M}/gu, '').trim();
+    return key.toLowerCase() === norm.toLowerCase();
+  });
   return entry ? entry[0] : null;
+}
+
+function normalizeCountryParam(raw) {
+  if (!raw || raw === 'ALL') return null;
+  const trimmed = String(raw).trim();
+  const upper = trimmed.toUpperCase();
+  if (upper in COUNTRY_META) return upper;
+  const fromName = countryCode(trimmed);
+  if (fromName) return fromName;
+  const prefix = trimmed.toLowerCase().slice(0, 2);
+  if (ID_PREFIX_COUNTRY[prefix]) return ID_PREFIX_COUNTRY[prefix];
+  return upper.length === 2 ? upper : null;
+}
+
+function actorCountryCode(actor) {
+  const fromField = countryCode(actor?.country);
+  if (fromField) return fromField;
+  const prefix = String(actor?.id || '').split('-')[0]?.toLowerCase();
+  return ID_PREFIX_COUNTRY[prefix] || null;
 }
 
 function computeDegrees() {
@@ -234,7 +267,7 @@ function egoNodeSet(centerId, depth) {
 function filteredActors() {
   const q = searchQuery.trim().toLowerCase();
   return actors.filter((a) => {
-    const cc = countryCode(a.country);
+    const cc = actorCountryCode(a);
     if (activeCountry && cc !== activeCountry) return false;
     if (!activeCategories.has(a.category)) return false;
     if (q && !a.name.toLowerCase().includes(q)) return false;
@@ -313,7 +346,7 @@ function buildFilterChips() {
   ).join('');
   cRow.querySelectorAll('.chip').forEach((btn) => {
     btn.addEventListener('click', () => {
-      activeCountry = btn.dataset.cc === 'ALL' ? null : btn.dataset.cc;
+      activeCountry = normalizeCountryParam(btn.dataset.cc === 'ALL' ? null : btn.dataset.cc);
       buildFilterChips();
       renderAll();
     });
@@ -368,7 +401,7 @@ function initTabs() {
       document.body.classList.toggle('story-on', storyOn);
       $('#story-rail').classList.toggle('hidden', !storyOn);
       $('#story-banner').classList.toggle('hidden', !storyOn);
-      $('#filter-bar').classList.toggle('hidden', tab === 'cards');
+      document.body.classList.toggle('cards-view', tab === 'cards');
       $('#legend-bar').classList.toggle('hidden', tab === 'cards');
       if (storyOn) {
         renderStoryRail();
@@ -1094,18 +1127,20 @@ function markReady() {
 
 function applyDemoState() {
   const state = bootParams.get('state');
-  const bootCountry = bootParams.get('country');
+  const bootCountry = normalizeCountryParam(bootParams.get('country'));
+  if (bootCountry) {
+    activeCountry = bootCountry;
+  }
   if (bootParams.get('view') === 'cards') {
     document.querySelector('[data-view-tab="cards"]')?.click();
   }
-  if (bootCountry && bootCountry !== 'ALL') {
-    activeCountry = bootCountry;
+  if (bootCountry) {
     buildFilterChips();
     renderAll(false);
   }
   if (!state) return;
   if (state === 'filters') {
-    activeCountry = bootParams.get('country') || 'PE';
+    activeCountry = normalizeCountryParam(bootParams.get('country')) || 'PE';
     activeCategories = new Set((bootParams.get('cats') || 'accelerator,government,funder').split(','));
     buildFilterChips();
   }

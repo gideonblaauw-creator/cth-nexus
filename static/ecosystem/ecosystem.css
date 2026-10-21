@@ -405,6 +405,9 @@ body.story-on .panel-explore {
 
 body.story-on .ego-row,
 body.story-on #filter-bar .filter-row:not(:first-child) { display: none; }
+
+body.cards-view .ego-row,
+body.cards-view #filter-bar .filter-row:nth-child(n+3) { display: none; }
 body.story-on #legend-bar::after {
   content: ' · —— Suggested (punteado)';
   color: #ea580c;
