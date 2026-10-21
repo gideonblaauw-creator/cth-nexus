@@ -28,7 +28,7 @@ tag_country: El Salvador
 | Dirección | Calle Gabriela Mistral #2428, Colonia San Benito, San Salvador |
 | Año de fundación | 1993 |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/sv-fiaes-fondo-de-inversion-ambiental-de-el-salvador](https://nexus.cleantechhub.net/s/sv-fiaes-fondo-de-inversion-ambiental-de-el-salvador) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=sv-fiaes-fondo-de-inversion-ambiental-de-el-salvador](https://nexus.cleantechhub.net/ecosystem/?actor=sv-fiaes-fondo-de-inversion-ambiental-de-el-salvador) |
 
 ## Rol y alcance
 

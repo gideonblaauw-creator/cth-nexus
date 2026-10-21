@@ -25,7 +25,7 @@ tag_country: El Salvador
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Iniciativa de economía circular para recolección y reciclaje de plásticos en El Salvador. |
 | Año de fundación | 2019 |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/sv-recicla503](https://nexus.cleantechhub.net/s/sv-recicla503) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=sv-recicla503](https://nexus.cleantechhub.net/ecosystem/?actor=sv-recicla503) |
 | Dirección | PENDIENTE |
 
 ## Descripción

@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | ONG o fundación |
 | Desafíos (códigos) | BOS |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-red-amazonia-que-late](https://nexus.cleantechhub.net/s/pe-red-amazonia-que-late) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-red-amazonia-que-late](https://nexus.cleantechhub.net/ecosystem/?actor=pe-red-amazonia-que-late) |
 
 ## Rol y alcance
 

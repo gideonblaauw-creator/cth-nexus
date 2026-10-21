@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | 2019 |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-cleantechhub](https://nexus.cleantechhub.net/s/pe-cleantechhub) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-cleantechhub](https://nexus.cleantechhub.net/ecosystem/?actor=pe-cleantechhub) |
 
 ## Rol y alcance
 

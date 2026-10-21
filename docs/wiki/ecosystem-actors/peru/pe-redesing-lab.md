@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/redesignlab |
 | Rol en el ecosistema | Universidad o centro de investigación |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-redesing-lab](https://nexus.cleantechhub.net/s/pe-redesing-lab) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-redesing-lab](https://nexus.cleantechhub.net/ecosystem/?actor=pe-redesing-lab) |
 
 ## Rol y alcance
 

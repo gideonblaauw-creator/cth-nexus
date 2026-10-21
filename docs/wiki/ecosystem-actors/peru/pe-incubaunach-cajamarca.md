@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Incubadora IncubaUNACH (Universidad Nacional de Cajamarca) |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-incubaunach-cajamarca](https://nexus.cleantechhub.net/s/pe-incubaunach-cajamarca) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-incubaunach-cajamarca](https://nexus.cleantechhub.net/ecosystem/?actor=pe-incubaunach-cajamarca) |
 
 ## Rol y alcance
 

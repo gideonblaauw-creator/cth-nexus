@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Empresa de proyectos forestales y carbono. |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-bosques-amazonicos-bam](https://nexus.cleantechhub.net/s/pe-bosques-amazonicos-bam) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-bosques-amazonicos-bam](https://nexus.cleantechhub.net/ecosystem/?actor=pe-bosques-amazonicos-bam) |
 
 ## Rol y alcance
 

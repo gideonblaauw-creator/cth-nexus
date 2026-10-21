@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/universidad-nacional-mayor-de-san-marcos |
 | Rol en el ecosistema | Universidad o centro de investigación |
 | Desafíos (códigos) | CIU, ENE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-unmsm-universidad-nacional-mayor-de-san-marcos](https://nexus.cleantechhub.net/s/pe-unmsm-universidad-nacional-mayor-de-san-marcos) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-unmsm-universidad-nacional-mayor-de-san-marcos](https://nexus.cleantechhub.net/ecosystem/?actor=pe-unmsm-universidad-nacional-mayor-de-san-marcos) |
 
 ## Rol y alcance
 

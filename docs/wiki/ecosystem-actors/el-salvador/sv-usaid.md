@@ -28,7 +28,7 @@ tag_country: El Salvador
 | Dirección | PENDIENTE |
 | Año de fundación | 1961 |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/sv-usaid](https://nexus.cleantechhub.net/s/sv-usaid) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=sv-usaid](https://nexus.cleantechhub.net/ecosystem/?actor=sv-usaid) |
 
 ## Rol y alcance
 

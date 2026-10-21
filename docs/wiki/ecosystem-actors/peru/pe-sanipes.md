@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/11388890 |
 | Rol en el ecosistema | Actor público / regulador |
 | Desafíos (códigos) | BOS |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-sanipes](https://nexus.cleantechhub.net/s/pe-sanipes) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-sanipes](https://nexus.cleantechhub.net/ecosystem/?actor=pe-sanipes) |
 
 ## Rol y alcance
 

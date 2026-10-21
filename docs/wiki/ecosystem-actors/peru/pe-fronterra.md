@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-fronterra](https://nexus.cleantechhub.net/s/pe-fronterra) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-fronterra](https://nexus.cleantechhub.net/ecosystem/?actor=pe-fronterra) |
 
 ## Rol y alcance
 

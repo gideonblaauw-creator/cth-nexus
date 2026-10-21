@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/servicio-nacional-forestal-y-de-fauna-silvestre |
 | Rol en el ecosistema | Actor público / regulador |
 | Desafíos (códigos) | AGU, ARG |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-serfor](https://nexus.cleantechhub.net/s/pe-serfor) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-serfor](https://nexus.cleantechhub.net/ecosystem/?actor=pe-serfor) |
 
 ## Rol y alcance
 

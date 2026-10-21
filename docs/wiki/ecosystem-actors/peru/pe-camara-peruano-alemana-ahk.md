@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Cámara o gremio |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | ENE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-camara-peruano-alemana-ahk](https://nexus.cleantechhub.net/s/pe-camara-peruano-alemana-ahk) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-camara-peruano-alemana-ahk](https://nexus.cleantechhub.net/ecosystem/?actor=pe-camara-peruano-alemana-ahk) |
 
 ## Rol y alcance
 

@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/bam-bosques-amazonicos |
 | Rol en el ecosistema | Empresa / sector privado |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-reforestadora-amazonica](https://nexus.cleantechhub.net/s/pe-reforestadora-amazonica) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-reforestadora-amazonica](https://nexus.cleantechhub.net/ecosystem/?actor=pe-reforestadora-amazonica) |
 
 ## Rol y alcance
 

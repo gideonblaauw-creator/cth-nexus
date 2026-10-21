@@ -84,7 +84,6 @@ def load_onepager_index() -> dict[str, str]:
         json_paths.extend(ONEPAGERS.glob("*.json"))
         json_paths.extend(ONEPAGERS.glob("clp26-slices/*.json"))
         json_paths.extend(ONEPAGERS.glob("slices/*.json"))
-        json_paths.extend((ONEPAGERS / "ecosystem-actors").glob("*.json"))
     for path in json_paths:
         if path.name.startswith("s-pages-"):
             continue
@@ -145,15 +144,19 @@ def sanitize_actor(raw: dict, idx: dict) -> dict:
     a = {k: v for k, v in raw.items() if k not in DROP_KEYS}
     a = scrub_value(a) or {}
     a["geo"] = normalize_geo(raw, raw.get("geo") or a.get("geo"))
-    slug = match_card_slug(a, idx)
-    nexus = dict(a.get("nexus") or {})
-    if slug:
-        nexus["card_slug"] = slug
-    elif "card_slug" in nexus:
-        pass
+    nexus = dict(raw.get("nexus") or a.get("nexus") or {})
+    explicit = nexus.get("card_slug")
+    if explicit:
+        nexus["card_slug"] = explicit
     else:
-        nexus.setdefault("card_slug", None)
+        slug = match_card_slug(a, idx)
+        if slug and slug != a.get("id"):
+            nexus["card_slug"] = slug
+        else:
+            nexus["card_slug"] = None
     a["nexus"] = nexus
+    if raw.get("card"):
+        a["card"] = scrub_value(raw["card"])
     if a.get("type") == "person" and not a.get("linkedin"):
         a["linkedin"] = None
     return {k: v for k, v in a.items() if k not in DROP_KEYS}

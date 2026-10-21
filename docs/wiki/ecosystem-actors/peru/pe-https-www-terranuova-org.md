@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/terranuova-onlus |
 | Rol en el ecosistema | Empresa / sector privado |
 | Desafíos (códigos) | AGR |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-https-www-terranuova-org](https://nexus.cleantechhub.net/s/pe-https-www-terranuova-org) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-https-www-terranuova-org](https://nexus.cleantechhub.net/ecosystem/?actor=pe-https-www-terranuova-org) |
 
 ## Rol y alcance
 

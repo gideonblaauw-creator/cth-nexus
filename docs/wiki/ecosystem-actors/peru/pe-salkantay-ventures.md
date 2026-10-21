@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/salkantay-ventures |
 | Rol en el ecosistema | Empresa / sector privado |
 | Desafíos (códigos) | FIN |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-salkantay-ventures](https://nexus.cleantechhub.net/s/pe-salkantay-ventures) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-salkantay-ventures](https://nexus.cleantechhub.net/ecosystem/?actor=pe-salkantay-ventures) |
 
 ## Rol y alcance
 

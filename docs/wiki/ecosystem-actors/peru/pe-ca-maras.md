@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Gremio / sistema de cámaras de comercio (CCL). |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-ca-maras](https://nexus.cleantechhub.net/s/pe-ca-maras) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-ca-maras](https://nexus.cleantechhub.net/ecosystem/?actor=pe-ca-maras) |
 
 ## Rol y alcance
 

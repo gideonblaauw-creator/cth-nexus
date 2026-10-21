@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-incubadora-unsm-san-martin](https://nexus.cleantechhub.net/s/pe-incubadora-unsm-san-martin) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-incubadora-unsm-san-martin](https://nexus.cleantechhub.net/ecosystem/?actor=pe-incubadora-unsm-san-martin) |
 
 ## Rol y alcance
 

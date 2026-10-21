@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Consultoría en servicios ecosistémicos y capital natural |
 | Desafíos (códigos) | BOS |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-nature-services-peru](https://nexus.cleantechhub.net/s/pe-nature-services-peru) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-nature-services-peru](https://nexus.cleantechhub.net/ecosystem/?actor=pe-nature-services-peru) |
 
 ## Rol y alcance
 

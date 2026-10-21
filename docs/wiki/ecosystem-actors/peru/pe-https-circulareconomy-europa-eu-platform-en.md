@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-https-circulareconomy-europa-eu-platform-en](https://nexus.cleantechhub.net/s/pe-https-circulareconomy-europa-eu-platform-en) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-https-circulareconomy-europa-eu-platform-en](https://nexus.cleantechhub.net/ecosystem/?actor=pe-https-circulareconomy-europa-eu-platform-en) |
 
 ## Rol y alcance
 

@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/startupperu |
 | Rol en el ecosistema | Instrumento de política pública |
 | Desafíos (códigos) | FIN, AGR, ENE, CIR |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-policy-startup-peru-proinnovate](https://nexus.cleantechhub.net/s/pe-policy-startup-peru-proinnovate) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-policy-startup-peru-proinnovate](https://nexus.cleantechhub.net/ecosystem/?actor=pe-policy-startup-peru-proinnovate) |
 
 ## Rol y alcance
 

@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-https-www-intracen-org](https://nexus.cleantechhub.net/s/pe-https-www-intracen-org) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-https-www-intracen-org](https://nexus.cleantechhub.net/ecosystem/?actor=pe-https-www-intracen-org) |
 
 ## Rol y alcance
 

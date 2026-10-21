@@ -28,7 +28,7 @@ tag_country: El Salvador
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/sv-cafi-central-america-angel-fund-initiative](https://nexus.cleantechhub.net/s/sv-cafi-central-america-angel-fund-initiative) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=sv-cafi-central-america-angel-fund-initiative](https://nexus.cleantechhub.net/ecosystem/?actor=sv-cafi-central-america-angel-fund-initiative) |
 
 ## Rol y alcance
 

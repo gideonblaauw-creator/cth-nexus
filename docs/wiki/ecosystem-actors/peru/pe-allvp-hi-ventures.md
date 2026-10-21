@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Venture capital en innovación en salud (ALLVP). |
 | Año de fundación | 2015 |
 | Desafíos (códigos) | FIN |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-allvp-hi-ventures](https://nexus.cleantechhub.net/s/pe-allvp-hi-ventures) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-allvp-hi-ventures](https://nexus.cleantechhub.net/ecosystem/?actor=pe-allvp-hi-ventures) |
 
 ## Rol y alcance
 

@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/sistema-b-m |
 | Rol en el ecosistema | ONG o fundación |
 | Desafíos (códigos) | AGR |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-sistema-b](https://nexus.cleantechhub.net/s/pe-sistema-b) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-sistema-b](https://nexus.cleantechhub.net/ecosystem/?actor=pe-sistema-b) |
 
 ## Rol y alcance
 

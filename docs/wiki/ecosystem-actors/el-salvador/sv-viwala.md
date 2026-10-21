@@ -28,7 +28,7 @@ tag_country: El Salvador
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/sv-viwala](https://nexus.cleantechhub.net/s/sv-viwala) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=sv-viwala](https://nexus.cleantechhub.net/ecosystem/?actor=sv-viwala) |
 
 ## Rol y alcance
 

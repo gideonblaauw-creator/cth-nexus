@@ -28,7 +28,7 @@ tag_country: El Salvador
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/sv-el-diario-de-hoy](https://nexus.cleantechhub.net/s/sv-el-diario-de-hoy) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=sv-el-diario-de-hoy](https://nexus.cleantechhub.net/ecosystem/?actor=sv-el-diario-de-hoy) |
 
 ## Rol y alcance
 

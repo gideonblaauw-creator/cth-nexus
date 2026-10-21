@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-climate-policy-initiative-lavca-mit-reap](https://nexus.cleantechhub.net/s/pe-climate-policy-initiative-lavca-mit-reap) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-climate-policy-initiative-lavca-mit-reap](https://nexus.cleantechhub.net/ecosystem/?actor=pe-climate-policy-initiative-lavca-mit-reap) |
 
 ## Rol y alcance
 

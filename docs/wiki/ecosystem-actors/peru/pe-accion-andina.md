@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | ONG o fundación |
 | Año de fundación | 2018 |
 | Desafíos (códigos) | AGU |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-accion-andina](https://nexus.cleantechhub.net/s/pe-accion-andina) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-accion-andina](https://nexus.cleantechhub.net/ecosystem/?actor=pe-accion-andina) |
 
 ## Rol y alcance
 

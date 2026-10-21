@@ -28,7 +28,7 @@ tag_country: El Salvador
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/sv-diario-el-mundo](https://nexus.cleantechhub.net/s/sv-diario-el-mundo) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=sv-diario-el-mundo](https://nexus.cleantechhub.net/ecosystem/?actor=sv-diario-el-mundo) |
 
 ## Rol y alcance
 

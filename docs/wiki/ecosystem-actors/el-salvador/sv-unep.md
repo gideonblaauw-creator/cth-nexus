@@ -28,7 +28,7 @@ tag_country: El Salvador
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | BOS, AGU, CIU |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/sv-unep](https://nexus.cleantechhub.net/s/sv-unep) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=sv-unep](https://nexus.cleantechhub.net/ecosystem/?actor=sv-unep) |
 
 ## Rol y alcance
 

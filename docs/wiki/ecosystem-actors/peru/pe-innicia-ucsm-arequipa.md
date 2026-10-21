@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Programa de emprendimiento INNICIA (UCSM) |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-innicia-ucsm-arequipa](https://nexus.cleantechhub.net/s/pe-innicia-ucsm-arequipa) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-innicia-ucsm-arequipa](https://nexus.cleantechhub.net/ecosystem/?actor=pe-innicia-ucsm-arequipa) |
 
 ## Rol y alcance
 

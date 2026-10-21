@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Aseguradora y servicios financieros |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-pacifico-seguros](https://nexus.cleantechhub.net/s/pe-pacifico-seguros) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-pacifico-seguros](https://nexus.cleantechhub.net/ecosystem/?actor=pe-pacifico-seguros) |
 
 ## Rol y alcance
 

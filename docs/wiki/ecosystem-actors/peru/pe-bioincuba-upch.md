@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Incubadora universitaria en biotecnología. |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AGR, AZU, BOS |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-bioincuba-upch](https://nexus.cleantechhub.net/s/pe-bioincuba-upch) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-bioincuba-upch](https://nexus.cleantechhub.net/ecosystem/?actor=pe-bioincuba-upch) |
 
 ## Rol y alcance
 

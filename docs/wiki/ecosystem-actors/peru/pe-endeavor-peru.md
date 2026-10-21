@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AGU, BOS |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-endeavor-peru](https://nexus.cleantechhub.net/s/pe-endeavor-peru) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-endeavor-peru](https://nexus.cleantechhub.net/ecosystem/?actor=pe-endeavor-peru) |
 
 ## Rol y alcance
 

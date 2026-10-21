@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-innovaul-universidad-de-lima](https://nexus.cleantechhub.net/s/pe-innovaul-universidad-de-lima) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-innovaul-universidad-de-lima](https://nexus.cleantechhub.net/ecosystem/?actor=pe-innovaul-universidad-de-lima) |
 
 ## Rol y alcance
 

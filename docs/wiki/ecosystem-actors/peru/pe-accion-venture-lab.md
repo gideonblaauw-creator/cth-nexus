@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Financiador e inversionista |
 | Año de fundación | 1961 |
 | Desafíos (códigos) | ENE, FIN |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-accion-venture-lab](https://nexus.cleantechhub.net/s/pe-accion-venture-lab) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-accion-venture-lab](https://nexus.cleantechhub.net/ecosystem/?actor=pe-accion-venture-lab) |
 
 ## Rol y alcance
 

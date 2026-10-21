@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/sociedad-nacional-de-industrias |
 | Rol en el ecosistema | Cámara o gremio |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-sociedad-nacional-de-industrias-sni](https://nexus.cleantechhub.net/s/pe-sociedad-nacional-de-industrias-sni) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-sociedad-nacional-de-industrias-sni](https://nexus.cleantechhub.net/ecosystem/?actor=pe-sociedad-nacional-de-industrias-sni) |
 
 ## Rol y alcance
 

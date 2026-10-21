@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Empresa / sector privado |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AZU, BOS |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-anglo-american](https://nexus.cleantechhub.net/s/pe-anglo-american) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-anglo-american](https://nexus.cleantechhub.net/ecosystem/?actor=pe-anglo-american) |
 
 ## Rol y alcance
 

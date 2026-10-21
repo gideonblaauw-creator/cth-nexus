@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/school/universidad-nacional-de-san-mart%C3%ADn/ |
 | Rol en el ecosistema | Universidad o centro de investigación |
 | Desafíos (códigos) | AGR, BOS, CIU |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-unsm-universidad-nacional-de-san-martin](https://nexus.cleantechhub.net/s/pe-unsm-universidad-nacional-de-san-martin) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-unsm-universidad-nacional-de-san-martin](https://nexus.cleantechhub.net/ecosystem/?actor=pe-unsm-universidad-nacional-de-san-martin) |
 
 ## Rol y alcance
 

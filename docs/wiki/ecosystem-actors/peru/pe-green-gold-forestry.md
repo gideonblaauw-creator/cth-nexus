@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | BOS |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-green-gold-forestry](https://nexus.cleantechhub.net/s/pe-green-gold-forestry) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-green-gold-forestry](https://nexus.cleantechhub.net/ecosystem/?actor=pe-green-gold-forestry) |
 
 ## Rol y alcance
 

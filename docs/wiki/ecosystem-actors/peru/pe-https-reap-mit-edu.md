@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-https-reap-mit-edu](https://nexus.cleantechhub.net/s/pe-https-reap-mit-edu) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-https-reap-mit-edu](https://nexus.cleantechhub.net/ecosystem/?actor=pe-https-reap-mit-edu) |
 
 ## Rol y alcance
 

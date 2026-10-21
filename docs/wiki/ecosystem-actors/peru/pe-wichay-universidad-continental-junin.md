@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
 | Desafíos (códigos) | AGR, AGU |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-wichay-universidad-continental-junin](https://nexus.cleantechhub.net/s/pe-wichay-universidad-continental-junin) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-wichay-universidad-continental-junin](https://nexus.cleantechhub.net/ecosystem/?actor=pe-wichay-universidad-continental-junin) |
 
 ## Rol y alcance
 

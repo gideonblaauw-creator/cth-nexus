@@ -28,7 +28,7 @@ tag_country: El Salvador
 | Dirección | PENDIENTE |
 | Año de fundación | 1959 |
 | Desafíos (códigos) | AGR, BOS |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/sv-bid](https://nexus.cleantechhub.net/s/sv-bid) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=sv-bid](https://nexus.cleantechhub.net/ecosystem/?actor=sv-bid) |
 
 ## Rol y alcance
 

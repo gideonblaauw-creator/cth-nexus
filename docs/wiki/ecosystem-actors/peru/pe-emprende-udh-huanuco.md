@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AGR, AGU |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-emprende-udh-huanuco](https://nexus.cleantechhub.net/s/pe-emprende-udh-huanuco) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-emprende-udh-huanuco](https://nexus.cleantechhub.net/ecosystem/?actor=pe-emprende-udh-huanuco) |
 
 ## Rol y alcance
 

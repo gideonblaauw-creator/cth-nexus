@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Capital de riesgo en startups. |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-arpegio-vc](https://nexus.cleantechhub.net/s/pe-arpegio-vc) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-arpegio-vc](https://nexus.cleantechhub.net/ecosystem/?actor=pe-arpegio-vc) |
 
 ## Rol y alcance
 

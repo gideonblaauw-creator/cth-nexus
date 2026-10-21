@@ -28,7 +28,7 @@ tag_country: El Salvador
 | Dirección | Calle La Reforma y 9ª Calle Poniente, Colonia San Benito, San Salvador |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/sv-embajada-de-espana](https://nexus.cleantechhub.net/s/sv-embajada-de-espana) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=sv-embajada-de-espana](https://nexus.cleantechhub.net/ecosystem/?actor=sv-embajada-de-espana) |
 
 ## Rol y alcance
 

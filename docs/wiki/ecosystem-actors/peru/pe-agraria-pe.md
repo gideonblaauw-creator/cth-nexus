@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Medio especializado en agro y ruralidad. |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AGR |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-agraria-pe](https://nexus.cleantechhub.net/s/pe-agraria-pe) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-agraria-pe](https://nexus.cleantechhub.net/ecosystem/?actor=pe-agraria-pe) |
 
 ## Rol y alcance
 

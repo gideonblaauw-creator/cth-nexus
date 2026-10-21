@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | BOS, FIN |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-financiera-confianza](https://nexus.cleantechhub.net/s/pe-financiera-confianza) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-financiera-confianza](https://nexus.cleantechhub.net/ecosystem/?actor=pe-financiera-confianza) |
 
 ## Rol y alcance
 

@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Gestión de inversiones de impacto (AXA IM). |
 | Año de fundación | 2013 |
 | Desafíos (códigos) | FIN |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-axa-impact-investing](https://nexus.cleantechhub.net/s/pe-axa-impact-investing) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-axa-impact-investing](https://nexus.cleantechhub.net/ecosystem/?actor=pe-axa-impact-investing) |
 
 ## Rol y alcance
 

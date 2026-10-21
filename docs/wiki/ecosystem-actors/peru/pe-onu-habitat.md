@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/unhabitat/ |
 | Rol en el ecosistema | Programa de las Naciones Unidas para asentamientos humanos |
 | Desafíos (códigos) | AGR |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-onu-habitat](https://nexus.cleantechhub.net/s/pe-onu-habitat) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-onu-habitat](https://nexus.cleantechhub.net/ecosystem/?actor=pe-onu-habitat) |
 
 ## Rol y alcance
 

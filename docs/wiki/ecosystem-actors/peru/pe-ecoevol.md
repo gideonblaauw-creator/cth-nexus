@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-ecoevol](https://nexus.cleantechhub.net/s/pe-ecoevol) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-ecoevol](https://nexus.cleantechhub.net/ecosystem/?actor=pe-ecoevol) |
 
 ## Rol y alcance
 

@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | ONG o fundación |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | BOS |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-arbio](https://nexus.cleantechhub.net/s/pe-arbio) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-arbio](https://nexus.cleantechhub.net/ecosystem/?actor=pe-arbio) |
 
 ## Rol y alcance
 

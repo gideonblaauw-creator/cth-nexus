@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Agencia de promoción de la inversión privada |
 | Desafíos (códigos) | AGR, AGU, AZU, BOS, CIR, CIU, ENE, FIN |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-proinversion](https://nexus.cleantechhub.net/s/pe-proinversion) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-proinversion](https://nexus.cleantechhub.net/ecosystem/?actor=pe-proinversion) |
 
 ## Rol y alcance
 

@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-gobierno-regional-de-san-martin](https://nexus.cleantechhub.net/s/pe-gobierno-regional-de-san-martin) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-gobierno-regional-de-san-martin](https://nexus.cleantechhub.net/ecosystem/?actor=pe-gobierno-regional-de-san-martin) |
 
 ## Rol y alcance
 

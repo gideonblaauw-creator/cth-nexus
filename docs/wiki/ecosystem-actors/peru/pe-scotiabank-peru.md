@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://pe.linkedin.com/company/scotiabank-per%C3%BA |
 | Rol en el ecosistema | Institución financiera |
 | Desafíos (códigos) | FIN |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-scotiabank-peru](https://nexus.cleantechhub.net/s/pe-scotiabank-peru) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-scotiabank-peru](https://nexus.cleantechhub.net/ecosystem/?actor=pe-scotiabank-peru) |
 
 ## Rol y alcance
 

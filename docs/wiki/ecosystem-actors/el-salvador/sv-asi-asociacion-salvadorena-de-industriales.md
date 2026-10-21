@@ -26,7 +26,7 @@ tag_country: El Salvador
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Cámara o gremio |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/sv-asi-asociacion-salvadorena-de-industriales](https://nexus.cleantechhub.net/s/sv-asi-asociacion-salvadorena-de-industriales) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=sv-asi-asociacion-salvadorena-de-industriales](https://nexus.cleantechhub.net/ecosystem/?actor=sv-asi-asociacion-salvadorena-de-industriales) |
 
 ## Rol y alcance
 

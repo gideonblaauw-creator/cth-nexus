@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AGR, AGU, CIU, ENE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-engie-energia-peru](https://nexus.cleantechhub.net/s/pe-engie-energia-peru) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-engie-energia-peru](https://nexus.cleantechhub.net/ecosystem/?actor=pe-engie-energia-peru) |
 
 ## Rol y alcance
 

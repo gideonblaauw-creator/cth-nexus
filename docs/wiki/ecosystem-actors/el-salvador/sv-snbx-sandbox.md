@@ -28,7 +28,7 @@ tag_country: El Salvador
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/sv-snbx-sandbox](https://nexus.cleantechhub.net/s/sv-snbx-sandbox) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=sv-snbx-sandbox](https://nexus.cleantechhub.net/ecosystem/?actor=sv-snbx-sandbox) |
 
 ## Rol y alcance
 

@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Universidad o centro de investigación |
 | Desafíos (códigos) | AGR, BOS, CIU |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-unu-universidad-nacional-de-ucayali](https://nexus.cleantechhub.net/s/pe-unu-universidad-nacional-de-ucayali) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-unu-universidad-nacional-de-ucayali](https://nexus.cleantechhub.net/ecosystem/?actor=pe-unu-universidad-nacional-de-ucayali) |
 
 ## Rol y alcance
 

@@ -28,7 +28,7 @@ tag_country: El Salvador
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/sv-camarasal-camara-de-comercio-e-industria-de-el-sal](https://nexus.cleantechhub.net/s/sv-camarasal-camara-de-comercio-e-industria-de-el-sal) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=sv-camarasal-camara-de-comercio-e-industria-de-el-sal](https://nexus.cleantechhub.net/ecosystem/?actor=sv-camarasal-camara-de-comercio-e-industria-de-el-sal) |
 
 ## Rol y alcance
 

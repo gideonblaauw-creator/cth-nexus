@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Cooperación internacional y relaciones bilaterales |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-https-www-swedenabroad-se-es-sobre-suecia-peru](https://nexus.cleantechhub.net/s/pe-https-www-swedenabroad-se-es-sobre-suecia-peru) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-https-www-swedenabroad-se-es-sobre-suecia-peru](https://nexus.cleantechhub.net/ecosystem/?actor=pe-https-www-swedenabroad-se-es-sobre-suecia-peru) |
 
 ## Rol y alcance
 

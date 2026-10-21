@@ -28,7 +28,7 @@ tag_country: El Salvador
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/sv-camtex](https://nexus.cleantechhub.net/s/sv-camtex) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=sv-camtex](https://nexus.cleantechhub.net/ecosystem/?actor=sv-camtex) |
 
 ## Rol y alcance
 

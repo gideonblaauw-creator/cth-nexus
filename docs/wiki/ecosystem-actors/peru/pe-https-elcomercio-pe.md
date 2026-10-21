@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-https-elcomercio-pe](https://nexus.cleantechhub.net/s/pe-https-elcomercio-pe) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-https-elcomercio-pe](https://nexus.cleantechhub.net/ecosystem/?actor=pe-https-elcomercio-pe) |
 
 ## Rol y alcance
 

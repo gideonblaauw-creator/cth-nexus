@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | Av. Salaverry 3240, San Isidro, Lima |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-embajada-de-suiza](https://nexus.cleantechhub.net/s/pe-embajada-de-suiza) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-embajada-de-suiza](https://nexus.cleantechhub.net/ecosystem/?actor=pe-embajada-de-suiza) |
 
 ## Rol y alcance
 

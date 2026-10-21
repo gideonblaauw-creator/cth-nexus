@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Medio de comunicación ambiental. |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-actualidad-ambiental](https://nexus.cleantechhub.net/s/pe-actualidad-ambiental) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-actualidad-ambiental](https://nexus.cleantechhub.net/ecosystem/?actor=pe-actualidad-ambiental) |
 
 ## Rol y alcance
 

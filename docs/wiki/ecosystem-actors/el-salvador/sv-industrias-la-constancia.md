@@ -28,7 +28,7 @@ tag_country: El Salvador
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/sv-industrias-la-constancia](https://nexus.cleantechhub.net/s/sv-industrias-la-constancia) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=sv-industrias-la-constancia](https://nexus.cleantechhub.net/ecosystem/?actor=sv-industrias-la-constancia) |
 
 ## Rol y alcance
 

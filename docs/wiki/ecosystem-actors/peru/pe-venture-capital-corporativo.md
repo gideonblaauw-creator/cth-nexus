@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/credicorp/ |
 | Rol en el ecosistema | Empresa / sector privado |
 | Desafíos (códigos) | AGR, BOS |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-venture-capital-corporativo](https://nexus.cleantechhub.net/s/pe-venture-capital-corporativo) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-venture-capital-corporativo](https://nexus.cleantechhub.net/ecosystem/?actor=pe-venture-capital-corporativo) |
 
 ## Rol y alcance
 

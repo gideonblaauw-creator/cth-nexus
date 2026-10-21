@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Cooperación internacional del Estado peruano. |
 | Año de fundación | 2019 |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-apci-agencia-peruana-de-cooperacion-internacional](https://nexus.cleantechhub.net/s/pe-apci-agencia-peruana-de-cooperacion-internacional) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-apci-agencia-peruana-de-cooperacion-internacional](https://nexus.cleantechhub.net/ecosystem/?actor=pe-apci-agencia-peruana-de-cooperacion-internacional) |
 
 ## Rol y alcance
 

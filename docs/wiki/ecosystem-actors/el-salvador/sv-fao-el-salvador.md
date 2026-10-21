@@ -28,7 +28,7 @@ tag_country: El Salvador
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AGR, AZU, BOS |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/sv-fao-el-salvador](https://nexus.cleantechhub.net/s/sv-fao-el-salvador) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=sv-fao-el-salvador](https://nexus.cleantechhub.net/ecosystem/?actor=sv-fao-el-salvador) |
 
 ## Rol y alcance
 

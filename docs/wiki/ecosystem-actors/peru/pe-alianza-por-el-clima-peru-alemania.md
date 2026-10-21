@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Cooperación bilateral en clima. |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-alianza-por-el-clima-peru-alemania](https://nexus.cleantechhub.net/s/pe-alianza-por-el-clima-peru-alemania) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-alianza-por-el-clima-peru-alemania](https://nexus.cleantechhub.net/ecosystem/?actor=pe-alianza-por-el-clima-peru-alemania) |
 
 ## Rol y alcance
 

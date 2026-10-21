@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Empresa / sector privado |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-silence-vc](https://nexus.cleantechhub.net/s/pe-silence-vc) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-silence-vc](https://nexus.cleantechhub.net/ecosystem/?actor=pe-silence-vc) |
 
 ## Rol y alcance
 

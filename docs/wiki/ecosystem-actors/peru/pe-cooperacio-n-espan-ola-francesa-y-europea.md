@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | FIN |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-cooperacio-n-espan-ola-francesa-y-europea](https://nexus.cleantechhub.net/s/pe-cooperacio-n-espan-ola-francesa-y-europea) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-cooperacio-n-espan-ola-francesa-y-europea](https://nexus.cleantechhub.net/ecosystem/?actor=pe-cooperacio-n-espan-ola-francesa-y-europea) |
 
 ## Rol y alcance
 

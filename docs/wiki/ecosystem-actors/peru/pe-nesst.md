@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/nesst/ |
 | Rol en el ecosistema | Fondo e incubadora de empresas de impacto |
 | Desafíos (códigos) | AGU, BOS, FIN |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-nesst](https://nexus.cleantechhub.net/s/pe-nesst) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-nesst](https://nexus.cleantechhub.net/ecosystem/?actor=pe-nesst) |
 
 ## Rol y alcance
 

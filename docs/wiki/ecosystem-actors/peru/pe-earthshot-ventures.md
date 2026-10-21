@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-earthshot-ventures](https://nexus.cleantechhub.net/s/pe-earthshot-ventures) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-earthshot-ventures](https://nexus.cleantechhub.net/ecosystem/?actor=pe-earthshot-ventures) |
 
 ## Rol y alcance
 

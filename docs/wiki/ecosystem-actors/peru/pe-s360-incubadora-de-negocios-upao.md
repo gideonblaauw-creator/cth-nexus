@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Universidad o centro de investigación |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-s360-incubadora-de-negocios-upao](https://nexus.cleantechhub.net/s/pe-s360-incubadora-de-negocios-upao) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-s360-incubadora-de-negocios-upao](https://nexus.cleantechhub.net/ecosystem/?actor=pe-s360-incubadora-de-negocios-upao) |
 
 ## Rol y alcance
 

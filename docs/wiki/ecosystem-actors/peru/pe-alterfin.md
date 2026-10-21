@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Financiador de impacto en agricultura y microfinanzas. |
 | Año de fundación | 1994 |
 | Desafíos (códigos) | ENE, FIN |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-alterfin](https://nexus.cleantechhub.net/s/pe-alterfin) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-alterfin](https://nexus.cleantechhub.net/ecosystem/?actor=pe-alterfin) |
 
 ## Rol y alcance
 

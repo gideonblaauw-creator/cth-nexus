@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/pvblic-foundation/ |
 | Rol en el ecosistema | Organización internacional o cooperación |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-pvblic-foundation](https://nexus.cleantechhub.net/s/pe-pvblic-foundation) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-pvblic-foundation](https://nexus.cleantechhub.net/ecosystem/?actor=pe-pvblic-foundation) |
 
 ## Rol y alcance
 

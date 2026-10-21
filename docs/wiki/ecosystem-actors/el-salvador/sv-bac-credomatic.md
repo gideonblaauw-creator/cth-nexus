@@ -26,7 +26,7 @@ tag_country: El Salvador
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Institución financiera |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/sv-bac-credomatic](https://nexus.cleantechhub.net/s/sv-bac-credomatic) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=sv-bac-credomatic](https://nexus.cleantechhub.net/ecosystem/?actor=sv-bac-credomatic) |
 
 ## Rol y alcance
 

@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Programa municipal de emprendimiento |
 | Desafíos (códigos) | CIR, CIU |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-municipalidad-de-miraflores-emprende-miraflores](https://nexus.cleantechhub.net/s/pe-municipalidad-de-miraflores-emprende-miraflores) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-municipalidad-de-miraflores-emprende-miraflores](https://nexus.cleantechhub.net/ecosystem/?actor=pe-municipalidad-de-miraflores-emprende-miraflores) |
 
 ## Rol y alcance
 

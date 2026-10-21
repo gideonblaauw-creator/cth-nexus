@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/kunanesahora |
 | Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-kunan](https://nexus.cleantechhub.net/s/pe-kunan) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-kunan](https://nexus.cleantechhub.net/ecosystem/?actor=pe-kunan) |
 
 ## Rol y alcance
 

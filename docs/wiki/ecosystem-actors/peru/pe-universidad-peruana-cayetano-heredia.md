@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Universidad o centro de investigación |
 | Desafíos (códigos) | AGR, AZU |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-universidad-peruana-cayetano-heredia](https://nexus.cleantechhub.net/s/pe-universidad-peruana-cayetano-heredia) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-universidad-peruana-cayetano-heredia](https://nexus.cleantechhub.net/ecosystem/?actor=pe-universidad-peruana-cayetano-heredia) |
 
 ## Rol y alcance
 

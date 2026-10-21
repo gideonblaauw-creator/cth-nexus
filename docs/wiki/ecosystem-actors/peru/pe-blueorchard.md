@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Financiador e inversionista |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | ENE, FIN |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-blueorchard](https://nexus.cleantechhub.net/s/pe-blueorchard) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-blueorchard](https://nexus.cleantechhub.net/ecosystem/?actor=pe-blueorchard) |
 
 ## Rol y alcance
 

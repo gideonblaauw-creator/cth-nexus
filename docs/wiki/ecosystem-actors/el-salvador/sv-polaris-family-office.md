@@ -28,7 +28,7 @@ tag_country: El Salvador
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/sv-polaris-family-office](https://nexus.cleantechhub.net/s/sv-polaris-family-office) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=sv-polaris-family-office](https://nexus.cleantechhub.net/ecosystem/?actor=sv-polaris-family-office) |
 
 ## Rol y alcance
 

@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/incofin-investment-management |
 | Rol en el ecosistema | Gestor de inversiones de impacto en inclusión financiera |
 | Desafíos (códigos) | ENE, FIN |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-incofin](https://nexus.cleantechhub.net/s/pe-incofin) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-incofin](https://nexus.cleantechhub.net/ecosystem/?actor=pe-incofin) |
 
 ## Rol y alcance
 

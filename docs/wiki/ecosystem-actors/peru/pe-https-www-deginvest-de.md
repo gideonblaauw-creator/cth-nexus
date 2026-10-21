@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | BOS, FIN |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-https-www-deginvest-de](https://nexus.cleantechhub.net/s/pe-https-www-deginvest-de) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-https-www-deginvest-de](https://nexus.cleantechhub.net/ecosystem/?actor=pe-https-www-deginvest-de) |
 
 ## Rol y alcance
 

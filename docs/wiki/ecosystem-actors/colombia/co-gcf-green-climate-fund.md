@@ -27,7 +27,7 @@ tag_country: Colombia
 | Rol en el ecosistema | Fondo climático internacional del marco de la CMNUCC. |
 | Año de fundación | 2010 |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/co-gcf-green-climate-fund](https://nexus.cleantechhub.net/s/co-gcf-green-climate-fund) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=co-gcf-green-climate-fund](https://nexus.cleantechhub.net/ecosystem/?actor=co-gcf-green-climate-fund) |
 
 ## Rol y alcance
 

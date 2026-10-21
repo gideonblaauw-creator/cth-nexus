@@ -28,7 +28,7 @@ tag_country: El Salvador
 | Dirección | PENDIENTE |
 | Año de fundación | 1960 |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/sv-bcie-programa-regional-de-capital-semilla](https://nexus.cleantechhub.net/s/sv-bcie-programa-regional-de-capital-semilla) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=sv-bcie-programa-regional-de-capital-semilla](https://nexus.cleantechhub.net/ecosystem/?actor=sv-bcie-programa-regional-de-capital-semilla) |
 
 ## Rol y alcance
 

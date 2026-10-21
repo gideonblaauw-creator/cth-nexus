@@ -5,17 +5,19 @@ Extracted from Canva actor maps. **`actors.raw.json`** is the ingest snapshot (s
 ## Files
 
 - `actors.raw.json` — source snapshot for `scripts/ecosystem/build_public_data.py`
-- `actors.json` — 286 actors with `geo` (country centroid + jitter; city geocode ready)
+- `actor_cards.json` — wiki-enriched card fields (source for merge into `actors.raw.json`)
+- `actors.json` — sanitized actors with optional `card` block (role, description, founding year) and `geo`
 - `relations.json` — 75 typed edges
 - `designs.json` — source design metadata
 
 ## Build
 
 ```bash
+python3 scripts/build_ecosystem_actor_cards.py
 python3 scripts/ecosystem/build_public_data.py
 ```
 
-Adds `nexus.card_slug` from one-pager website/name matches.
+`nexus.card_slug` is set only for startups with an existing `/s/` one-pager (not ecosystem org cards).
 
 ## Coverage
 

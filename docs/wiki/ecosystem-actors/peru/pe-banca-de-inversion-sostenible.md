@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Asesoría y banca de inversión sostenible. |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-banca-de-inversion-sostenible](https://nexus.cleantechhub.net/s/pe-banca-de-inversion-sostenible) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-banca-de-inversion-sostenible](https://nexus.cleantechhub.net/ecosystem/?actor=pe-banca-de-inversion-sostenible) |
 
 ## Rol y alcance
 

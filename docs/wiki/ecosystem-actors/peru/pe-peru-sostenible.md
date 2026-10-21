@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/perusostenible/ |
 | Rol en el ecosistema | Red empresarial por el desarrollo sostenible |
 | Desafíos (códigos) | AGR, AGU, BOS, CIR |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-peru-sostenible](https://nexus.cleantechhub.net/s/pe-peru-sostenible) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-peru-sostenible](https://nexus.cleantechhub.net/ecosystem/?actor=pe-peru-sostenible) |
 
 ## Rol y alcance
 

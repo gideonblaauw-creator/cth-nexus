@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Mercado de valores regulado. |
 | Año de fundación | 1860 |
 | Desafíos (códigos) | FIN |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-bolsa-de-valores-de-lima](https://nexus.cleantechhub.net/s/pe-bolsa-de-valores-de-lima) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-bolsa-de-valores-de-lima](https://nexus.cleantechhub.net/ecosystem/?actor=pe-bolsa-de-valores-de-lima) |
 
 ## Rol y alcance
 

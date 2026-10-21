@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/lib%C3%A9lula |
 | Rol en el ecosistema | Consultoría y acción climática empresarial |
 | Desafíos (códigos) | ENE, CIU |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-libelula](https://nexus.cleantechhub.net/s/pe-libelula) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-libelula](https://nexus.cleantechhub.net/ecosystem/?actor=pe-libelula) |
 
 ## Rol y alcance
 

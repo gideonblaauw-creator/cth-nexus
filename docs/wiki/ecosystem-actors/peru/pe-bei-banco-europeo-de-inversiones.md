@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Organización internacional o cooperación |
 | Año de fundación | 1959 |
 | Desafíos (códigos) | BOS, ENE, FIN |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-bei-banco-europeo-de-inversiones](https://nexus.cleantechhub.net/s/pe-bei-banco-europeo-de-inversiones) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-bei-banco-europeo-de-inversiones](https://nexus.cleantechhub.net/ecosystem/?actor=pe-bei-banco-europeo-de-inversiones) |
 
 ## Rol y alcance
 

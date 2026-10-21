@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Banco comercial — financiamiento y banca de empresas |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-interbank](https://nexus.cleantechhub.net/s/pe-interbank) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-interbank](https://nexus.cleantechhub.net/ecosystem/?actor=pe-interbank) |
 
 ## Rol y alcance
 

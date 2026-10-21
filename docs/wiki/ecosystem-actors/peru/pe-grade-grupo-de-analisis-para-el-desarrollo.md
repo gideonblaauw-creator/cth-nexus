@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | Calle González Prada 184, Barranco, Lima |
 | Año de fundación | 1987 |
 | Desafíos (códigos) | AGR, BOS, CIU |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-grade-grupo-de-analisis-para-el-desarrollo](https://nexus.cleantechhub.net/s/pe-grade-grupo-de-analisis-para-el-desarrollo) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-grade-grupo-de-analisis-para-el-desarrollo](https://nexus.cleantechhub.net/ecosystem/?actor=pe-grade-grupo-de-analisis-para-el-desarrollo) |
 
 ## Rol y alcance
 

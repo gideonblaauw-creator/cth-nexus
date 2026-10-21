@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/pontificia-universidad-cat-lica-del-per- |
 | Rol en el ecosistema | Universidad de investigación y emprendimiento (Nexum/CIDE) |
 | Desafíos (códigos) | AGU, BOS |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-pucp-pontificia-universidad-catolica-del-peru](https://nexus.cleantechhub.net/s/pe-pucp-pontificia-universidad-catolica-del-peru) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-pucp-pontificia-universidad-catolica-del-peru](https://nexus.cleantechhub.net/ecosystem/?actor=pe-pucp-pontificia-universidad-catolica-del-peru) |
 
 ## Rol y alcance
 

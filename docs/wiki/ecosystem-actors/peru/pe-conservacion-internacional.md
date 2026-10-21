@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | 1987 |
 | Desafíos (códigos) | AGU, BOS, FIN |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-conservacion-internacional](https://nexus.cleantechhub.net/s/pe-conservacion-internacional) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-conservacion-internacional](https://nexus.cleantechhub.net/ecosystem/?actor=pe-conservacion-internacional) |
 
 ## Rol y alcance
 

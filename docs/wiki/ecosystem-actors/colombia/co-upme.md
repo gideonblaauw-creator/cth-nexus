@@ -28,7 +28,7 @@ tag_country: Colombia
 | Dirección | Calle 73 No. 14-07, Bogotá, Colombia |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/co-upme](https://nexus.cleantechhub.net/s/co-upme) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=co-upme](https://nexus.cleantechhub.net/ecosystem/?actor=co-upme) |
 
 ## Rol y alcance
 

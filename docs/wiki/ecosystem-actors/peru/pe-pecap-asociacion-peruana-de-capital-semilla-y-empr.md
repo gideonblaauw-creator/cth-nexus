@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/pecap-peru/ |
 | Rol en el ecosistema | Asociación gremial de capital semilla y emprendimiento |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-pecap-asociacion-peruana-de-capital-semilla-y-empr](https://nexus.cleantechhub.net/s/pe-pecap-asociacion-peruana-de-capital-semilla-y-empr) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-pecap-asociacion-peruana-de-capital-semilla-y-empr](https://nexus.cleantechhub.net/ecosystem/?actor=pe-pecap-asociacion-peruana-de-capital-semilla-y-empr) |
 
 ## Rol y alcance
 

@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Empresa / sector privado |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-whipay](https://nexus.cleantechhub.net/s/pe-whipay) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-whipay](https://nexus.cleantechhub.net/ecosystem/?actor=pe-whipay) |
 
 ## Rol y alcance
 

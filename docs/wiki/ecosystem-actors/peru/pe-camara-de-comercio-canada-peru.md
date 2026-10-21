@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Cámara bilateral Canadá–Perú. |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-camara-de-comercio-canada-peru](https://nexus.cleantechhub.net/s/pe-camara-de-comercio-canada-peru) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-camara-de-comercio-canada-peru](https://nexus.cleantechhub.net/ecosystem/?actor=pe-camara-de-comercio-canada-peru) |
 
 ## Rol y alcance
 

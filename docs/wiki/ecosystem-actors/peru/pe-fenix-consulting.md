@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-fenix-consulting](https://nexus.cleantechhub.net/s/pe-fenix-consulting) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-fenix-consulting](https://nexus.cleantechhub.net/ecosystem/?actor=pe-fenix-consulting) |
 
 ## Rol y alcance
 

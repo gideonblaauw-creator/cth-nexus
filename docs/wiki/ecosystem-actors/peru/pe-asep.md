@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | Av. República de Panamá 3650, San Isidro, Lima |
 | Año de fundación | 1993 |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-asep](https://nexus.cleantechhub.net/s/pe-asep) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-asep](https://nexus.cleantechhub.net/ecosystem/?actor=pe-asep) |
 
 ## Rol y alcance
 

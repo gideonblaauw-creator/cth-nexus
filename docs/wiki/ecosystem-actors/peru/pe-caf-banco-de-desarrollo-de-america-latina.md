@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Banco de desarrollo multilateral regional. |
 | Año de fundación | 1970 |
 | Desafíos (códigos) | CIR, CIU, FIN |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-caf-banco-de-desarrollo-de-america-latina](https://nexus.cleantechhub.net/s/pe-caf-banco-de-desarrollo-de-america-latina) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-caf-banco-de-desarrollo-de-america-latina](https://nexus.cleantechhub.net/ecosystem/?actor=pe-caf-banco-de-desarrollo-de-america-latina) |
 
 ## Rol y alcance
 

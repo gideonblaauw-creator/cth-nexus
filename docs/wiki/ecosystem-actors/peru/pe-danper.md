@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AGR, AGU |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-danper](https://nexus.cleantechhub.net/s/pe-danper) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-danper](https://nexus.cleantechhub.net/ecosystem/?actor=pe-danper) |
 
 ## Rol y alcance
 

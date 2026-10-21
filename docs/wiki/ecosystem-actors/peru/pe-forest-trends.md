@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | 1998 |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-forest-trends](https://nexus.cleantechhub.net/s/pe-forest-trends) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-forest-trends](https://nexus.cleantechhub.net/ecosystem/?actor=pe-forest-trends) |
 
 ## Rol y alcance
 

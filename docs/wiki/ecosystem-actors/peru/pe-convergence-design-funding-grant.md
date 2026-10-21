@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-convergence-design-funding-grant](https://nexus.cleantechhub.net/s/pe-convergence-design-funding-grant) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-convergence-design-funding-grant](https://nexus.cleantechhub.net/ecosystem/?actor=pe-convergence-design-funding-grant) |
 
 ## Rol y alcance
 

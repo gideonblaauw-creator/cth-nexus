@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | 1955 |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-helvetas](https://nexus.cleantechhub.net/s/pe-helvetas) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-helvetas](https://nexus.cleantechhub.net/ecosystem/?actor=pe-helvetas) |
 
 ## Rol y alcance
 

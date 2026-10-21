@@ -1,26 +1,18 @@
 {
-  "built_count": 364,
-  "skipped_startup_duplicate": 2,
-  "skipped_existing_site": 0,
-  "total_card_slugs": 366,
-  "built_sample": [
-    "co-bancoldex",
-    "co-cif-climate-investment-funds",
-    "co-creg",
-    "co-fenoge",
-    "co-gcf-green-climate-fund"
-  ],
-  "skipped_startup": [
+  "cards_built": 366,
+  "startup_one_pager_links": 2,
+  "startup_links": [
     {
       "actor_id": "pe-vigia",
-      "startup_slug": "vigia",
-      "reason": "existing_s_card"
+      "startup_slug": "vigia"
     },
     {
       "actor_id": "pe-yakusmart",
-      "startup_slug": "yakusmart",
-      "reason": "existing_s_card"
+      "startup_slug": "yakusmart"
     }
   ],
+  "actors_raw_updated": 366,
+  "actors_raw_added": 0,
+  "onepager_sites_removed": 0,
   "errors": []
 }

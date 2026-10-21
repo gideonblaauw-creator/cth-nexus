@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AZU, BOS |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-https-www-fundacionbbva-mx](https://nexus.cleantechhub.net/s/pe-https-www-fundacionbbva-mx) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-https-www-fundacionbbva-mx](https://nexus.cleantechhub.net/ecosystem/?actor=pe-https-www-fundacionbbva-mx) |
 
 ## Rol y alcance
 

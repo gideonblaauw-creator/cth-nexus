@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Organización internacional o cooperación |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-afd](https://nexus.cleantechhub.net/s/pe-afd) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-afd](https://nexus.cleantechhub.net/ecosystem/?actor=pe-afd) |
 
 ## Rol y alcance
 

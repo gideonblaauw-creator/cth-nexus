@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Financiador e inversionista |
 | Año de fundación | 2008 |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-angel-ventures-peru](https://nexus.cleantechhub.net/s/pe-angel-ventures-peru) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-angel-ventures-peru](https://nexus.cleantechhub.net/ecosystem/?actor=pe-angel-ventures-peru) |
 
 ## Rol y alcance
 

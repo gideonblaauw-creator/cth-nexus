@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-earth-innovation-institute](https://nexus.cleantechhub.net/s/pe-earth-innovation-institute) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-earth-innovation-institute](https://nexus.cleantechhub.net/ecosystem/?actor=pe-earth-innovation-institute) |
 
 ## Rol y alcance
 

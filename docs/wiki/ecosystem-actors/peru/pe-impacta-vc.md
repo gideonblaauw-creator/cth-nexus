@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/impacta-vc |
 | Rol en el ecosistema | Fondo de capital de riesgo de impacto |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-impacta-vc](https://nexus.cleantechhub.net/s/pe-impacta-vc) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-impacta-vc](https://nexus.cleantechhub.net/ecosystem/?actor=pe-impacta-vc) |
 
 ## Rol y alcance
 

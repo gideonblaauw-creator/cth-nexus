@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/scale-up-latam/ |
 | Rol en el ecosistema | Universidad o centro de investigación |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-scale](https://nexus.cleantechhub.net/s/pe-scale) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-scale](https://nexus.cleantechhub.net/ecosystem/?actor=pe-scale) |
 
 ## Rol y alcance
 

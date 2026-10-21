@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AGR, CIR |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-cajamarca-incuba](https://nexus.cleantechhub.net/s/pe-cajamarca-incuba) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-cajamarca-incuba](https://nexus.cleantechhub.net/ecosystem/?actor=pe-cajamarca-incuba) |
 
 ## Rol y alcance
 

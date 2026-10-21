@@ -28,7 +28,7 @@ tag_country: Peru
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-ciudad-saludable](https://nexus.cleantechhub.net/s/pe-ciudad-saludable) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-ciudad-saludable](https://nexus.cleantechhub.net/ecosystem/?actor=pe-ciudad-saludable) |
 
 ## Rol y alcance
 

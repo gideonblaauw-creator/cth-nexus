@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/upt-incuba |
 | Rol en el ecosistema | Universidad o centro de investigación |
 | Desafíos (códigos) | BOS |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-upt-incuba-incubadora-de-empresas-aruntakana](https://nexus.cleantechhub.net/s/pe-upt-incuba-incubadora-de-empresas-aruntakana) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-upt-incuba-incubadora-de-empresas-aruntakana](https://nexus.cleantechhub.net/ecosystem/?actor=pe-upt-incuba-incubadora-de-empresas-aruntakana) |
 
 ## Rol y alcance
 

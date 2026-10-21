@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Incubadora y aceleradora (agtech y emprendimiento). |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-acm-ventures-agtech](https://nexus.cleantechhub.net/s/pe-acm-ventures-agtech) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-acm-ventures-agtech](https://nexus.cleantechhub.net/ecosystem/?actor=pe-acm-ventures-agtech) |
 
 ## Rol y alcance
 

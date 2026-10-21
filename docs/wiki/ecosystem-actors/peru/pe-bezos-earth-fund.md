@@ -27,7 +27,7 @@ tag_country: Peru
 | Rol en el ecosistema | Financiador e inversionista |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | BOS |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-bezos-earth-fund](https://nexus.cleantechhub.net/s/pe-bezos-earth-fund) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-bezos-earth-fund](https://nexus.cleantechhub.net/ecosystem/?actor=pe-bezos-earth-fund) |
 
 ## Rol y alcance
 

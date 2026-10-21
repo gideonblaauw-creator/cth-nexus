@@ -26,7 +26,7 @@ tag_country: Peru
 | LinkedIn | https://www.linkedin.com/company/incubagraria |
 | Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
 | Desafíos (códigos) | AGR, AGU, AZU, BOS |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/pe-incubagraria-unalm](https://nexus.cleantechhub.net/s/pe-incubagraria-unalm) |
+| Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-incubagraria-unalm](https://nexus.cleantechhub.net/ecosystem/?actor=pe-incubagraria-unalm) |
 
 ## Rol y alcance
 
