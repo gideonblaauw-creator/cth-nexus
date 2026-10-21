@@ -219,6 +219,12 @@ function applyChapterToCumulative(chapterId, cumulative, ctx) {
         cumulative.add(r.source);
         cumulative.add(r.target);
       });
+      actorRelationsNorm.forEach((r) => {
+        if (r.type !== 'hub_startup') return;
+        if (r.source !== sid && r.target !== sid) return;
+        cumulative.add(r.source);
+        cumulative.add(r.target);
+      });
     });
     pe2Constellations(storyConfig).forEach((spec) => {
       cumulative.add(spec.hubId);

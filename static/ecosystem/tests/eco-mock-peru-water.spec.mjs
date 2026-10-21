@@ -24,7 +24,7 @@ test('peru water mock screenshots', async ({ page }) => {
     await page.locator('#stat-verified').waitFor({ timeout: 90000 });
     await page.waitForTimeout(1200);
     await page.waitForTimeout(1500);
-    reports = await page.evaluate(() => window.__mockChapterReports);
+    reports = await page.evaluate(() => window.__mockChapterReports || null);
     await page.setViewportSize({ width: 1440, height: 900 });
     await page.screenshot({ path: path.join(OUT, ch.file) });
   }

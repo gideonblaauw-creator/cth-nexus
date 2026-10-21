@@ -449,6 +449,7 @@ function renderChapter() {
   renderInspector(storyScene);
   updateMap(storyScene);
   buildGraph(storyScene);
+  window.__mockChapterReports = buildChapterReports(dataBundle());
   window.__mockPeruWaterReady = true;
   window.__mockPeruWaterScene = storyScene;
   window.__mockChapterReports = buildChapterReports(dataBundle());
@@ -501,6 +502,7 @@ async function main() {
   }
   initMap();
   await loadData();
+  window.__mockChapterReports = buildChapterReports(dataBundle());
   renderStoryRail();
   if (mapReady) renderChapter();
   window.addEventListener('resize', () => drawSuggestedOverlay());
