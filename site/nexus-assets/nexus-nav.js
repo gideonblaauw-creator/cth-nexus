@@ -12,7 +12,7 @@
     { id: 'hubs',      label: 'HubMap',     labelEn: 'HubMap', href: '/hubs/' },
     { id: 'investors', label: 'Inversores', labelEn: 'Investors', href: '/investors', gated: true },
     { id: 'funders',   label: 'Funders',    href: '/p/funders', gated: true },
-    { id: 'ecosystem', label: 'Ecosistema', labelEn: 'Ecosystem', href: '/ecosystem', gated: true },
+    { id: 'ecosystem', label: 'Ecosistema', labelEn: 'Ecosystem', href: '/ecosystem' },
   ];
 
   const active = document.body.dataset.nexusPage || 'home';
