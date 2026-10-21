@@ -64,6 +64,13 @@ export function mapPinStatus(bundle, id) {
       reason: 'Geocodificación inconsistente (dirección menciona Bogotá)',
     };
   }
+  if (id === 'pe-cleantechhub') {
+    return {
+      plottable: false,
+      label: a.name,
+      reason: 'Sede Arequipa no verificada (OSM mezcló “Bogotá” en la dirección)',
+    };
+  }
   const lima = COUNTRY_CAPITAL.Peru;
   if (a.city && /lima/i.test(a.city) && haversineKm(a.geo.lat, a.geo.lng, lima.lat, lima.lng) > 120) {
     return {
@@ -117,6 +124,8 @@ function layoutPathPositions(ordered) {
 function fitSigmaCamera(sigma, padding = 0.2) {
   const graph = sigma.getGraph();
   if (graph.order === 0) return;
+  const { width, height } = sigma.getDimensions();
+  if (width < 4 || height < 4) return false;
   let minX = Infinity;
   let minY = Infinity;
   let maxX = -Infinity;
@@ -127,9 +136,8 @@ function fitSigmaCamera(sigma, padding = 0.2) {
     minY = Math.min(minY, attr.y);
     maxY = Math.max(maxY, attr.y);
   });
-  const { width, height } = sigma.getDimensions();
-  const graphWidth = Math.max(maxX - minX, 1);
-  const graphHeight = Math.max(maxY - minY, 1);
+  const graphWidth = Math.max(maxX - minX, 80);
+  const graphHeight = Math.max(maxY - minY, 40);
   const ratio = Math.max(
     graphWidth / width,
     graphHeight / height,
@@ -138,7 +146,18 @@ function fitSigmaCamera(sigma, padding = 0.2) {
     x: (minX + maxX) / 2,
     y: (minY + maxY) / 2,
     ratio,
-  }, { duration: 200 });
+  }, { duration: 0 });
+  sigma.refresh();
+  return true;
+}
+
+function markGraphReady(container, graph) {
+  if (!container) return;
+  const n = graph?.order ?? 0;
+  const e = graph?.size ?? 0;
+  container.dataset.g2GraphNodes = String(n);
+  container.dataset.g2GraphEdges = String(e);
+  container.dispatchEvent(new CustomEvent('g2-sigma-ready', { detail: { nodes: n, edges: e } }));
 }
 
 export function bootJourneyG2(bundle, root) {
@@ -160,6 +179,13 @@ export function bootJourneyG2(bundle, root) {
   let activeStep = 0;
   let startupId = els.startup?.value || 'pe-yakusmart';
   let mapFitted = false;
+  let sigmaResizeObserver = null;
+  let sigmaBuildQueued = false;
+
+  function graphContainerReady() {
+    const el = els.graph;
+    return el && el.offsetWidth >= 40 && el.offsetHeight >= 40;
+  }
 
   function actorIdsOnPath() {
     const ids = new Set([startupId]);
@@ -178,16 +204,27 @@ export function bootJourneyG2(bundle, root) {
   }
 
   function destroySigma() {
+    if (sigmaResizeObserver && els.graph) {
+      sigmaResizeObserver.disconnect();
+      sigmaResizeObserver = null;
+    }
     if (sigma) {
       sigma.kill();
       sigma = null;
     }
     graph = null;
+    if (els.graph) {
+      delete els.graph.dataset.g2GraphNodes;
+      delete els.graph.dataset.g2GraphEdges;
+    }
   }
 
-  function buildSigma() {
+  function buildSigmaGraph() {
     const container = els.graph;
-    if (!container) return;
+    if (!container || !graphContainerReady()) {
+      queueSigmaBuild();
+      return;
+    }
 
     const ordered = orderedPathIds(startupId, steps);
     const positions = layoutPathPositions(ordered);
@@ -236,13 +273,36 @@ export function bootJourneyG2(bundle, root) {
         defaultEdgeType: 'arrow',
         allowInvalidContainer: true,
         stagePadding: 24,
+        renderEdgeLabels: false,
+      });
+      container.querySelectorAll('canvas').forEach((c) => {
+        try {
+          const gl = c.getContext('webgl2') || c.getContext('webgl');
+          if (gl) gl.canvas.setAttribute('data-sigma-gl', '1');
+        } catch {
+          /* ignore */
+        }
       });
 
       sigma.on('clickNode', ({ node }) => {
         const idx = steps.findIndex((s) => s.actorId === node);
         if (idx >= 0) selectStep(idx);
       });
-      requestAnimationFrame(() => fitSigmaCamera(sigma, 0.25));
+      if (!sigmaResizeObserver && typeof ResizeObserver !== 'undefined') {
+        sigmaResizeObserver = new ResizeObserver(() => {
+          if (!sigma || !graphContainerReady()) return;
+          fitSigmaCamera(sigma, 0.25);
+          sigma.refresh();
+          markGraphReady(container, graph);
+        });
+        sigmaResizeObserver.observe(container);
+      }
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          fitSigmaCamera(sigma, 0.25);
+          markGraphReady(container, graph);
+        });
+      });
     } else {
       graph = sigma.getGraph();
       ordered.forEach((id) => {
@@ -264,7 +324,23 @@ export function bootJourneyG2(bundle, root) {
       });
       sigma.refresh();
       fitSigmaCamera(sigma, 0.25);
+      markGraphReady(container, graph);
     }
+  }
+
+  function queueSigmaBuild() {
+    if (sigmaBuildQueued) return;
+    sigmaBuildQueued = true;
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        sigmaBuildQueued = false;
+        buildSigmaGraph();
+      });
+    });
+  }
+
+  function buildSigma() {
+    buildSigmaGraph();
   }
 
   function plottablePinFeatures() {
@@ -484,5 +560,12 @@ export function bootJourneyG2(bundle, root) {
   });
 
   refresh();
-  return { refresh, selectStep };
+  return { refresh, selectStep, mapPinStatus: (id) => mapPinStatus(bundle, id), listMapPins: () => {
+    const pins = [];
+    actorIdsOnPath().forEach((id) => {
+      const p = mapPinStatus(bundle, id);
+      if (p.plottable) pins.push({ id, label: p.label || nameFor(bundle, id), lat: p.lat, lng: p.lng, precision: p.precision });
+    });
+    return pins;
+  } };
 }

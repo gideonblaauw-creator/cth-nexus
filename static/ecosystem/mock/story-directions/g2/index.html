@@ -72,6 +72,7 @@
 
     const root = document.querySelector('[data-g2-root]');
     const api = bootJourneyG2(bundle, root);
+    window.__g2Mock = api;
 
     wireChallengeSelect(document.getElementById('mock-challenge-select'), bundle, () => {
       api.refresh();
