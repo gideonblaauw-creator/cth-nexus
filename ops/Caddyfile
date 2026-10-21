@@ -103,9 +103,7 @@ nexus.cleantechhub.net {
 		try_files {path} {path}/index.html
 	}
 	# HubMap legacy URL — was falling through to HumHub (:8080) → 502; canonical is /hubs/
-	handle /hubmap {
-		redir /hubs/ permanent
-	}
+	redir /hubmap /hubs/ permanent
 	handle /hubmap/* {
 		uri replace /hubmap /hubs
 		header Cache-Control "no-cache, must-revalidate"
