@@ -1,9 +1,14 @@
 import Graph from 'graphology';
 import Sigma from 'sigma';
-import { hasPlottableGeo, geoXY } from '../../../geo-utils.mjs';
+import { hasPlottableGeo, COUNTRY_CAPITAL } from '../../../geo-utils.mjs';
 import { journeyStepsForStartup, journeyPathEdges } from './journey-steps.mjs';
 import { edgeKey, isPublicSourceUrl } from './public-source.mjs';
+
 const PATH_COLOR = '#e87722';
+const PATH_DIM = '#94a3b8';
+const NODE_DEFAULT = 12;
+const NODE_STARTUP = 14;
+const NODE_ACTIVE = 18;
 
 const YAKUSMART_STAT = {
   stat: '12.000 m³',
@@ -12,33 +17,69 @@ const YAKUSMART_STAT = {
   source_title: 'Produce — YakuSmart financiada por ProInnóvate',
 };
 
-function geoForActor(bundle, id) {
+const PERU_MAP_BOUNDS = [[-81.5, -18.5], [-68.5, -0.5]];
+
+function haversineKm(lat1, lng1, lat2, lng2) {
+  const r = 6371;
+  const dLat = ((lat2 - lat1) * Math.PI) / 180;
+  const dLng = ((lng2 - lng1) * Math.PI) / 180;
+  const a = Math.sin(dLat / 2) ** 2
+    + Math.cos((lat1 * Math.PI) / 180) * Math.cos((lat2 * Math.PI) / 180) * Math.sin(dLng / 2) ** 2;
+  return 2 * r * Math.asin(Math.sqrt(a));
+}
+
+/**
+ * Map pins only for vetted actor addresses — never Canva challenge refs or bad geocodes.
+ */
+export function mapPinStatus(bundle, id) {
   if (id?.startsWith('challenge:')) {
-    const ch = bundle.storyConfig.challenges[id];
-    if (ch?.geo?.lat != null && ch?.geo?.lng != null) {
-      return { lat: ch.geo.lat, lng: ch.geo.lng, plottable: true, label: ch.label?.es || id };
-    }
-    return { plottable: false };
+    return {
+      plottable: false,
+      reason: 'Nodo reto (referencia Canva en -12.8,-76.2; no es sede verificada)',
+    };
   }
   if (id?.startsWith('dataset:')) {
     const ds = bundle.storyConfig.datasets?.[id];
-    if (ds?.geo?.lat != null) {
-      return { lat: ds.geo.lat, lng: ds.geo.lng, plottable: true, label: ds.label?.es || id };
+    if (ds?.status === 'pending' || ds?.geo?.lat == null) {
+      return { plottable: false, reason: 'Dataset pendiente de curación' };
     }
-    return { plottable: false, label: ds?.label?.es || id };
-  }
-  const a = bundle.byId.get(id);
-  if (!a) return { plottable: false };
-  if (hasPlottableGeo(a)) {
     return {
-      lat: a.geo.lat,
-      lng: a.geo.lng,
       plottable: true,
-      label: a.name,
-      precision: a.geo.precision,
+      lat: ds.geo.lat,
+      lng: ds.geo.lng,
+      label: ds.label?.es || id,
+      precision: 'city',
     };
   }
-  return { plottable: false, label: a.name, actor: a };
+  const a = bundle.byId.get(id);
+  if (!a) return { plottable: false, reason: 'Actor no encontrado' };
+  if (!hasPlottableGeo(a)) {
+    return { plottable: false, label: a.name, reason: `Sin geo address/city (${a.geo?.precision || 'missing'})` };
+  }
+  const addr = (a.geo.address || '').toLowerCase();
+  if (/\bbogot[aá]\b/.test(addr) && a.country === 'Peru') {
+    return {
+      plottable: false,
+      label: a.name,
+      reason: 'Geocodificación inconsistente (dirección menciona Bogotá)',
+    };
+  }
+  const lima = COUNTRY_CAPITAL.Peru;
+  if (a.city && /lima/i.test(a.city) && haversineKm(a.geo.lat, a.geo.lng, lima.lat, lima.lng) > 120) {
+    return {
+      plottable: false,
+      label: a.name,
+      reason: `Ciudad declarada ${a.city} pero pin lejos de Lima (geo dudoso)`,
+    };
+  }
+  return {
+    plottable: true,
+    lat: a.geo.lat,
+    lng: a.geo.lng,
+    label: a.name,
+    precision: a.geo.precision,
+    address: a.geo.address,
+  };
 }
 
 function nameFor(bundle, id) {
@@ -49,6 +90,55 @@ function nameFor(bundle, id) {
     return bundle.storyConfig.datasets[id]?.label?.es || id;
   }
   return bundle.byId.get(id)?.name || id;
+}
+
+function orderedPathIds(startupId, steps) {
+  const ordered = [startupId];
+  steps.forEach((s) => {
+    if (s.actorId && !ordered.includes(s.actorId)) ordered.push(s.actorId);
+  });
+  return ordered;
+}
+
+function layoutPathPositions(ordered) {
+  const positions = new Map();
+  const n = ordered.length;
+  const spread = Math.max(220, n * 52);
+  ordered.forEach((id, i) => {
+    const t = n <= 1 ? 0.5 : i / (n - 1);
+    positions.set(id, {
+      x: t * spread - spread / 2,
+      y: Math.sin(t * Math.PI) * 36,
+    });
+  });
+  return positions;
+}
+
+function fitSigmaCamera(sigma, padding = 0.2) {
+  const graph = sigma.getGraph();
+  if (graph.order === 0) return;
+  let minX = Infinity;
+  let minY = Infinity;
+  let maxX = -Infinity;
+  let maxY = -Infinity;
+  graph.forEachNode((_, attr) => {
+    minX = Math.min(minX, attr.x);
+    maxX = Math.max(maxX, attr.x);
+    minY = Math.min(minY, attr.y);
+    maxY = Math.max(maxY, attr.y);
+  });
+  const { width, height } = sigma.getDimensions();
+  const graphWidth = Math.max(maxX - minX, 1);
+  const graphHeight = Math.max(maxY - minY, 1);
+  const ratio = Math.max(
+    graphWidth / width,
+    graphHeight / height,
+  ) * (1 + padding);
+  sigma.getCamera().animate({
+    x: (minX + maxX) / 2,
+    y: (minY + maxY) / 2,
+    ratio,
+  }, { duration: 200 });
 }
 
 export function bootJourneyG2(bundle, root) {
@@ -69,6 +159,7 @@ export function bootJourneyG2(bundle, root) {
   let pathEdges = [];
   let activeStep = 0;
   let startupId = els.startup?.value || 'pe-yakusmart';
+  let mapFitted = false;
 
   function actorIdsOnPath() {
     const ids = new Set([startupId]);
@@ -76,14 +167,14 @@ export function bootJourneyG2(bundle, root) {
     return ids;
   }
 
+  function activeActorId() {
+    return steps[activeStep]?.actorId || null;
+  }
+
   function rebuildSteps() {
     steps = journeyStepsForStartup(startupId, bundle);
     pathEdges = journeyPathEdges(steps);
     if (activeStep >= steps.length) activeStep = 0;
-  }
-
-  function pathEdgeKeys() {
-    return new Set(pathEdges.map((e) => edgeKey(e)));
   }
 
   function destroySigma() {
@@ -95,89 +186,109 @@ export function bootJourneyG2(bundle, root) {
   }
 
   function buildSigma() {
-    destroySigma();
     const container = els.graph;
     if (!container) return;
-    graph = new Graph({ multi: true, type: 'directed' });
-    const ids = actorIdsOnPath();
-    const pathKeys = pathEdgeKeys();
-    const preset = new Map();
 
-    ids.forEach((id) => {
-      if (id.startsWith('challenge:') || id.startsWith('dataset:')) {
-        const g = geoForActor(bundle, id);
-        const pos = g.plottable
-          ? geoXY({ geo: { lat: g.lat, lng: g.lng, precision: 'city' } })
-          : { x: 0, y: -40 };
-        preset.set(id, pos);
+    const ordered = orderedPathIds(startupId, steps);
+    const positions = layoutPathPositions(ordered);
+    const activeId = activeActorId();
+    const activeEdgeKey = steps[activeStep]?.edge ? edgeKey(steps[activeStep].edge) : null;
+
+    if (!sigma) {
+      graph = new Graph({ multi: true, type: 'directed' });
+      ordered.forEach((id) => {
+        const pos = positions.get(id);
+        const isStartup = id === startupId;
+        const isActive = id === activeId;
+        let color = '#0c498a';
+        if (id.startsWith('challenge:')) color = '#2a9d8f';
+        if (id.startsWith('dataset:')) color = '#64748b';
+        if (isStartup || isActive) color = PATH_COLOR;
         graph.addNode(id, {
-          label: nameFor(bundle, id).slice(0, 36),
+          label: nameFor(bundle, id),
           x: pos.x,
           y: pos.y,
-          size: 11,
-          color: id.startsWith('challenge:') ? '#2a9d8f' : '#64748b',
+          size: isActive ? NODE_ACTIVE : (isStartup ? NODE_STARTUP : NODE_DEFAULT),
+          color,
         });
-        return;
-      }
-      const a = bundle.byId.get(id);
-      if (!a) return;
-      const pos = geoXY(a);
-      graph.addNode(id, {
-        label: a.name.length > 32 ? `${a.name.slice(0, 31)}…` : a.name,
-        x: pos.x,
-        y: pos.y,
-        size: id === startupId ? 14 : 10,
-        color: id === startupId ? '#e87722' : '#0c498a',
       });
-    });
 
-    pathEdges.forEach((e, i) => {
-      if (!graph.hasNode(e.source) || !graph.hasNode(e.target)) return;
-      const key = `path-${i}-${edgeKey(e)}`;
-      const hot = steps[activeStep]?.edge && edgeKey(steps[activeStep].edge) === edgeKey(e);
-      try {
-        graph.addEdgeWithKey(key, e.source, e.target, {
-          color: hot ? PATH_COLOR : PATH_COLOR,
-          size: hot ? 4 : 2.5,
-          type: 'arrow',
-        });
-      } catch {
-        /* duplicate */
-      }
-    });
+      pathEdges.forEach((e, i) => {
+        if (!graph.hasNode(e.source) || !graph.hasNode(e.target)) return;
+        const key = `path-${i}-${edgeKey(e)}`;
+        const hot = activeEdgeKey === edgeKey(e);
+        try {
+          graph.addEdgeWithKey(key, e.source, e.target, {
+            color: hot ? PATH_COLOR : PATH_DIM,
+            size: hot ? 3.5 : 1.8,
+            type: 'arrow',
+          });
+        } catch {
+          /* duplicate */
+        }
+      });
 
-    sigma = new Sigma(graph, container, {
-      renderLabels: graph.order < 24,
-      labelDensity: 0.12,
-      enableEdgeEvents: true,
-      defaultEdgeType: 'arrow',
-      allowInvalidContainer: true,
-    });
+      sigma = new Sigma(graph, container, {
+        renderLabels: true,
+        labelDensity: 1,
+        labelRenderedSizeThreshold: 0,
+        enableEdgeEvents: true,
+        defaultEdgeType: 'arrow',
+        allowInvalidContainer: true,
+        stagePadding: 24,
+      });
 
-    sigma.on('clickNode', ({ node }) => {
-      const idx = steps.findIndex((s) => s.actorId === node);
-      if (idx >= 0) selectStep(idx);
-    });
+      sigma.on('clickNode', ({ node }) => {
+        const idx = steps.findIndex((s) => s.actorId === node);
+        if (idx >= 0) selectStep(idx);
+      });
+      requestAnimationFrame(() => fitSigmaCamera(sigma, 0.25));
+    } else {
+      graph = sigma.getGraph();
+      ordered.forEach((id) => {
+        const pos = positions.get(id);
+        const isStartup = id === startupId;
+        const isActive = id === activeId;
+        if (!graph.hasNode(id)) return;
+        graph.setNodeAttribute(id, 'x', pos.x);
+        graph.setNodeAttribute(id, 'y', pos.y);
+        graph.setNodeAttribute(id, 'size', isActive ? NODE_ACTIVE : (isStartup ? NODE_STARTUP : NODE_DEFAULT));
+        graph.setNodeAttribute(id, 'color', (isStartup || isActive) ? PATH_COLOR : graph.getNodeAttribute(id, 'color'));
+        graph.setNodeAttribute(id, 'label', nameFor(bundle, id));
+      });
+      graph.forEachEdge((edgeKeyId, _attrs, source, target) => {
+        const ek = edgeKeyId.replace(/^path-\d+-/, '');
+        const hot = activeEdgeKey && edgeKeyId.includes(activeEdgeKey);
+        graph.setEdgeAttribute(edgeKeyId, 'color', hot ? PATH_COLOR : PATH_DIM);
+        graph.setEdgeAttribute(edgeKeyId, 'size', hot ? 3.5 : 1.8);
+      });
+      sigma.refresh();
+      fitSigmaCamera(sigma, 0.25);
+    }
   }
 
-  function updateMapLayers() {
-    if (!map || !map.isStyleLoaded()) return;
-    const ids = actorIdsOnPath();
+  function plottablePinFeatures() {
     const features = [];
-    ids.forEach((id) => {
-      const g = geoForActor(bundle, id);
-      if (!g.plottable) return;
-      const stepIdx = steps.findIndex((s) => s.actorId === id);
+    const activeId = activeActorId();
+    actorIdsOnPath().forEach((id) => {
+      const pin = mapPinStatus(bundle, id);
+      if (!pin.plottable) return;
       features.push({
         type: 'Feature',
         properties: {
           id,
-          hot: stepIdx === activeStep ? 1 : 0,
+          hot: id === activeId ? 1 : 0,
           startup: id === startupId ? 1 : 0,
         },
-        geometry: { type: 'Point', coordinates: [g.lng, g.lat] },
+        geometry: { type: 'Point', coordinates: [pin.lng, pin.lat] },
       });
     });
+    return features;
+  }
+
+  function updateMapLayers() {
+    if (!map || !map.isStyleLoaded()) return;
+    const features = plottablePinFeatures();
     const data = { type: 'FeatureCollection', features };
     const src = map.getSource('g2-actors');
     if (src) src.setData(data);
@@ -188,20 +299,70 @@ export function bootJourneyG2(bundle, root) {
         type: 'circle',
         source: 'g2-actors',
         paint: {
-          'circle-radius': ['case', ['==', ['get', 'hot'], 1], 11, ['==', ['get', 'startup'], 1], 9, 7],
+          'circle-radius': [
+            'case',
+            ['==', ['get', 'hot'], 1],
+            12,
+            ['==', ['get', 'startup'], 1],
+            8,
+            7,
+          ],
           'circle-color': [
             'case',
             ['==', ['get', 'hot'], 1],
             '#e87722',
-            ['==', ['get', 'startup'], 1],
-            '#e87722',
             '#0c498a',
           ],
+          'circle-stroke-width': ['case', ['==', ['get', 'hot'], 1], 3, 2],
+          'circle-stroke-color': ['case', ['==', ['get', 'hot'], 1], '#fff7ed', '#fff'],
+        },
+      });
+      map.addLayer({
+        id: 'g2-hot-ring',
+        type: 'circle',
+        source: 'g2-actors',
+        filter: ['==', ['get', 'hot'], 1],
+        paint: {
+          'circle-radius': 22,
+          'circle-color': '#e87722',
+          'circle-opacity': 0.2,
           'circle-stroke-width': 2,
-          'circle-stroke-color': '#fff',
+          'circle-stroke-color': '#e87722',
+          'circle-stroke-opacity': 0.65,
         },
       });
     }
+    if (map.getLayer('g2-hot-ring')) {
+      map.setFilter('g2-hot-ring', ['==', ['get', 'hot'], 1]);
+    }
+  }
+
+  function fitMapToPins() {
+    if (!map) return;
+    const features = plottablePinFeatures();
+    if (!features.length) {
+      map.fitBounds(PERU_MAP_BOUNDS, { padding: 40, duration: 0 });
+      return;
+    }
+    if (features.length === 1) {
+      const [lng, lat] = features[0].geometry.coordinates;
+      map.fitBounds(
+        [[lng - 2, lat - 2], [lng + 2, lat + 2]],
+        { padding: 48, maxZoom: 6, duration: mapFitted ? 400 : 0 },
+      );
+    } else {
+      const bounds = new window.maplibregl.LngLatBounds(
+        features[0].geometry.coordinates,
+        features[0].geometry.coordinates,
+      );
+      features.forEach((f) => bounds.extend(f.geometry.coordinates));
+      map.fitBounds(bounds, {
+        padding: 56,
+        maxZoom: 6,
+        duration: mapFitted ? 400 : 0,
+      });
+    }
+    mapFitted = true;
   }
 
   function initMap() {
@@ -218,22 +379,11 @@ export function bootJourneyG2(bundle, root) {
       map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right');
       map.on('load', () => {
         updateMapLayers();
-        panToStep(activeStep);
+        fitMapToPins();
       });
     } else {
       updateMapLayers();
-      panToStep(activeStep);
-    }
-  }
-
-  function panToStep(idx) {
-    const step = steps[idx];
-    if (!step?.actorId || !map) return;
-    const g = geoForActor(bundle, step.actorId);
-    if (g.plottable) {
-      map.flyTo({ center: [g.lng, g.lat], zoom: g.precision === 'address' ? 12 : 8, duration: 900 });
-    } else if (g.plottable === false && bundle.byId.get(step.actorId)?.country === 'Peru') {
-      map.flyTo({ center: [-76.2, -12.8], zoom: 5, duration: 600 });
+      fitMapToPins();
     }
   }
 
@@ -241,14 +391,18 @@ export function bootJourneyG2(bundle, root) {
     if (!els.unknown) return;
     const missing = [];
     actorIdsOnPath().forEach((id) => {
-      const g = geoForActor(bundle, id);
-      if (!g.plottable) {
-        missing.push({ id, label: g.label || nameFor(bundle, id) });
+      const pin = mapPinStatus(bundle, id);
+      if (!pin.plottable) {
+        missing.push({
+          id,
+          label: pin.label || nameFor(bundle, id),
+          reason: pin.reason || 'Sin pin',
+        });
       }
     });
     els.unknown.innerHTML = missing.length
       ? `<h4>Ubicación desconocida (sin pin)</h4><ul>${missing.map((m) =>
-        `<li><strong>${m.label}</strong> <span class="meta">${m.id}</span></li>`).join('')}</ul>`
+        `<li><strong>${m.label}</strong><br><span class="meta">${m.reason}</span></li>`).join('')}</ul>`
       : '<p class="meta">Todos los actores del camino tienen geo ploteable.</p>';
   }
 
@@ -271,6 +425,10 @@ export function bootJourneyG2(bundle, root) {
     const step = steps[idx];
     if (!els.inspector || !step) return;
     const actorName = step.card?.name || nameFor(bundle, step.actorId);
+    const pin = step.actorId ? mapPinStatus(bundle, step.actorId) : null;
+    const mapNote = pin && !pin.plottable
+      ? `<p class="meta">Mapa: sin pin — ${pin.reason}</p>`
+      : '';
     const src = step.source_url && isPublicSourceUrl(step.source_url)
       ? `<p class="g2-source"><a href="${step.source_url}" target="_blank" rel="noopener">${step.source_title || 'Fuente pública verificada'}</a></p>`
       : '<p class="g2-source meta">Sin enlace público verificado para este paso.</p>';
@@ -282,6 +440,7 @@ export function bootJourneyG2(bundle, root) {
       <h3>${actorName}</h3>
       <p class="meta">${step.card?.role || ''}</p>
       <p>${(step.card?.description || '').slice(0, 400)}</p>
+      ${mapNote}
       ${step.gap ? `<p class="g2-gap"><strong>Gap:</strong> ${step.gap}</p>` : ''}
       ${edge}
       ${src}`;
@@ -304,18 +463,19 @@ export function bootJourneyG2(bundle, root) {
     renderRail();
     renderInspector(idx);
     updateMapLayers();
-    panToStep(idx);
     buildSigma();
   }
 
   function refresh() {
     startupId = els.startup?.value || startupId;
+    mapFitted = false;
+    destroySigma();
     rebuildSteps();
     renderStat();
     renderRail();
-    selectStep(activeStep);
     renderUnknownList();
     initMap();
+    selectStep(activeStep);
   }
 
   els.startup?.addEventListener('change', () => {

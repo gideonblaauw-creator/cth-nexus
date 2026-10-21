@@ -32,6 +32,12 @@ test.describe('mock story direction G2', () => {
     await expect(steps.nth(2)).toHaveClass(/on/);
     await expect(page.locator('[data-g2-inspector] a[href^="http"]')).toBeVisible();
 
+    await steps.nth(0).click();
+    await expect(page.locator('[data-g2-unknown]')).toContainText(/referencia Canva/i);
+
+    await steps.nth(1).click();
+    await expect(page.locator('.maplibregl-canvas')).toBeVisible();
+
     await page.selectOption('#startup-select', 'pe-uqhu');
     await page.waitForSelector('.g2-step.on');
     await expect(page.locator('[data-g2-stat]')).toHaveClass(/hidden/);
