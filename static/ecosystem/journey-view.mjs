@@ -302,8 +302,48 @@ export function mountJourney(deps) {
     fitMap(map);
   }
 
+  // MapLibre uses `clientWidth || 400` when the box is still 0, then skips the
+  // first ResizeObserver event. Creating the map before layout leaves a 400px canvas.
+  function mapBoxReady(el) {
+    return Boolean(el && el.clientWidth >= 40 && el.clientHeight >= 40);
+  }
+
+  let layoutWatch = false;
+  let resizeQueued = false;
+
+  function resizeLiveMaps() {
+    if (map && mapBoxReady(els.map)) map.resize();
+    if (dataMap && mapBoxReady(els.dataMap)) {
+      dataMap.resize();
+      if (dataMap.isStyleLoaded()) {
+        dataMap.fitBounds(countryBounds(), { padding: 24, duration: 0 });
+        els.dataMap.dataset.journeyDataPins = '0';
+      }
+    }
+  }
+
+  function scheduleMapResize() {
+    if (resizeQueued) return;
+    resizeQueued = true;
+    requestAnimationFrame(() => {
+      resizeQueued = false;
+      resizeLiveMaps();
+    });
+  }
+
+  function watchMapLayout() {
+    if (layoutWatch) return;
+    layoutWatch = true;
+    if (typeof ResizeObserver !== 'undefined') {
+      const ro = new ResizeObserver(() => scheduleMapResize());
+      if (els.map) ro.observe(els.map);
+      if (els.dataMap) ro.observe(els.dataMap);
+    }
+    window.addEventListener('resize', scheduleMapResize);
+  }
+
   function initMap() {
-    if (!els.map || !window.maplibregl || map) return;
+    if (!els.map || !window.maplibregl || map || !mapBoxReady(els.map)) return;
     const bounds = countryBounds();
     map = new window.maplibregl.Map({
       container: els.map,
@@ -313,11 +353,14 @@ export function mountJourney(deps) {
       attributionControl: true,
     });
     map.addControl(new window.maplibregl.NavigationControl({ showCompass: false }), 'top-right');
-    map.on('load', () => updateMapLayers());
+    map.on('load', () => {
+      if (mapBoxReady(els.map)) map.resize();
+      updateMapLayers();
+    });
   }
 
   function initDataMap() {
-    if (!els.dataMap || !window.maplibregl || dataMap) return;
+    if (!els.dataMap || !window.maplibregl || dataMap || !mapBoxReady(els.dataMap)) return;
     dataMap = new window.maplibregl.Map({
       container: els.dataMap,
       style: 'https://tiles.openfreemap.org/styles/liberty',
@@ -327,7 +370,7 @@ export function mountJourney(deps) {
       interactive: true,
     });
     dataMap.on('load', () => {
-      fitMap(dataMap);
+      resizeLiveMaps();
       if (els.dataMap) els.dataMap.dataset.journeyDataPins = '0';
     });
   }
@@ -450,11 +493,15 @@ export function mountJourney(deps) {
   }
 
   function paintMaps() {
+    if (map && mapBoxReady(els.map)) map.resize();
     if (map && map.isStyleLoaded()) updateMapLayers();
     else if (map) map.once('load', () => updateMapLayers());
-    if (dataMap && dataMap.isStyleLoaded()) {
-      dataMap.fitBounds(countryBounds(), { padding: 24, duration: 0 });
-      if (els.dataMap) els.dataMap.dataset.journeyDataPins = '0';
+    if (dataMap && mapBoxReady(els.dataMap)) {
+      dataMap.resize();
+      if (dataMap.isStyleLoaded()) {
+        dataMap.fitBounds(countryBounds(), { padding: 24, duration: 0 });
+        if (els.dataMap) els.dataMap.dataset.journeyDataPins = '0';
+      }
     }
   }
 
@@ -535,17 +582,23 @@ export function mountJourney(deps) {
   function show() {
     syncQuery();
     const bootVisuals = () => {
+      const panel = document.getElementById('panel-journey');
+      if (!panel || panel.classList.contains('hidden')) return;
+      if (!window.maplibregl || !mapBoxReady(els.map) || !mapBoxReady(els.dataMap)) {
+        requestAnimationFrame(bootVisuals);
+        return;
+      }
       if (!booted) {
         booted = true;
         initMap();
         initDataMap();
+        watchMapLayout();
       }
-      map?.resize();
-      dataMap?.resize();
+      resizeLiveMaps();
       buildSigma();
       paintMaps();
     };
-    requestAnimationFrame(() => requestAnimationFrame(bootVisuals));
+    requestAnimationFrame(bootVisuals);
   }
 
   render();

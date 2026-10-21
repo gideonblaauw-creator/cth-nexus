@@ -117,6 +117,29 @@ async function waitJourney(page) {
   }, { timeout: 20000 });
 }
 
+async function expectDataMapFills(page) {
+  await page.waitForFunction(() => {
+    const el = document.querySelector('#journey-data-map');
+    const canvas = el?.querySelector('canvas.maplibregl-canvas');
+    if (!el || !canvas) return false;
+    const box = el.getBoundingClientRect().width;
+    const canvasBox = canvas.getBoundingClientRect().width;
+    const dpr = window.devicePixelRatio || 1;
+    return box > 80
+      && canvasBox >= box * 0.9
+      && canvas.width >= Math.floor(box * dpr * 0.9);
+  }, undefined, { timeout: 15000 });
+  const measured = await page.locator('#journey-data-map').evaluate((el) => {
+    const canvas = el.querySelector('canvas.maplibregl-canvas');
+    const box = el.getBoundingClientRect().width;
+    const canvasBox = canvas?.getBoundingClientRect().width || 0;
+    const dpr = window.devicePixelRatio || 1;
+    return { box, canvasBox, attr: canvas?.width || 0, dpr };
+  });
+  expect(measured.canvasBox / measured.box, JSON.stringify(measured)).toBeGreaterThanOrEqual(0.9);
+  expect(measured.attr / (measured.box * measured.dpr), JSON.stringify(measured)).toBeGreaterThanOrEqual(0.9);
+}
+
 test('live journey view desktop and mobile', async ({ page }) => {
   const errors = [];
   page.on('pageerror', (err) => errors.push(String(err)));
@@ -148,6 +171,7 @@ test('live journey view desktop and mobile', async ({ page }) => {
   const triptych = await page.locator('.journey-triptych').boundingBox();
   expect(dataBox.width).toBeGreaterThan(triptych.width * 0.9);
   await expect(page.locator('#journey-data-map')).toBeVisible();
+  await expectDataMapFills(page);
   await expect(page.locator('#journey-data')).toContainText('Ubicación desconocida');
   const dataPins = await page.evaluate(() => window.__journey.dataPinCount());
   expect(dataPins).toBe(0);
@@ -191,12 +215,14 @@ test('live journey view desktop and mobile', async ({ page }) => {
 
   await mkdir(SHOTS, { recursive: true });
   await page.setViewportSize({ width: 1440, height: 1000 });
-  await page.waitForTimeout(400);
+  await expectDataMapFills(page);
+  await page.waitForTimeout(700);
   await page.screenshot({ path: path.join(SHOTS, 'journey-desktop.png'), fullPage: true });
 
   await page.setViewportSize({ width: 390, height: 844 });
-  await page.waitForTimeout(500);
   await waitJourney(page);
+  await expectDataMapFills(page);
+  await page.waitForTimeout(500);
   const columns = await page.locator('.journey-triptych').evaluate((el) => getComputedStyle(el).gridTemplateColumns.split(' ').filter(Boolean));
   expect(columns.length).toBe(1);
   const overlap = await page.evaluate(() => document.querySelector('#journey-graph')?.dataset.journeyLabelOverlap);
