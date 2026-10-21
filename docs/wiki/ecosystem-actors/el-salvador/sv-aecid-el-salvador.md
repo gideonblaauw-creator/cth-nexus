@@ -28,7 +28,7 @@ tag_country: El Salvador
 
 ## Rol y alcance
 
-PENDIENTE
+Oficina de la Agencia Española de Cooperación Internacional para el Desarrollo (AECID) en El Salvador; coopera en desarrollo humano y sostenible.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +42,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://aecid.sv

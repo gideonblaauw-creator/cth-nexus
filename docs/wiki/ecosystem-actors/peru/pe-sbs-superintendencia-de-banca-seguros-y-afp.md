@@ -28,7 +28,11 @@ tag_country: Peru
 
 ## Rol y alcance
 
-PENDIENTE
+Superintendencia que regula y supervisa el sistema financiero peruano: bancos, seguros, AFP y otras entidades supervisadas.
+
+- **Año de fundación:** 1924 — https://www.sbs.gob.pe
+
+- **Ciudad / sede:** Lima — https://www.sbs.gob.pe
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.sbs.gob.pe

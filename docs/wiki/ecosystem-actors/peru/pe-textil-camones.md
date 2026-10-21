@@ -28,7 +28,9 @@ tag_country: Peru
 
 ## Rol y alcance
 
-PENDIENTE
+Empresa textil peruana fabricante de prendas y soluciones para el sector de la moda y confecciones.
+
+- **Ciudad / sede:** Lima — https://www.textilescamones.com
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.textilescamones.com

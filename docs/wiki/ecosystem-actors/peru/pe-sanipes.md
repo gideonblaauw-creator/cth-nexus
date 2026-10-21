@@ -21,14 +21,14 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Huancayo |
 | Sitio web | https://www.gob.pe/sanipes |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/11388890 |
 | Rol en el ecosistema | Actor público / regulador |
 | Desafíos (códigos) | BOS |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Organismo técnico especializado del sector Pesquero y Acuícola que regula sanidad, inocuidad y calidad de productos hidrobiológicos en el Perú.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +42,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.gob.pe/sanipes

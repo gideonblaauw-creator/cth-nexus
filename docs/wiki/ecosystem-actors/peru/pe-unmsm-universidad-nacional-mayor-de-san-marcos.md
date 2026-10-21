@@ -28,7 +28,11 @@ tag_country: Peru
 
 ## Rol y alcance
 
-PENDIENTE
+Universidad pública más antigua del Perú y de América; formación, investigación y extensión en múltiples disciplinas.
+
+- **Año de fundación:** 1551 — https://www.unmsm.edu.pe
+
+- **Ciudad / sede:** Lima — https://www.unmsm.edu.pe
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.unmsm.edu.pe

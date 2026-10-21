@@ -21,14 +21,14 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.salkantay.vc/ |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/salkantay-ventures |
 | Rol en el ecosistema | Empresa / sector privado |
 | Desafíos (códigos) | FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Fondo de venture capital peruano que invierte en startups de etapa temprana en la región andina.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +42,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.salkantay.vc/

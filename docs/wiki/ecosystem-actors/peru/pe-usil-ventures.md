@@ -28,7 +28,9 @@ tag_country: Peru
 
 ## Rol y alcance
 
-PENDIENTE
+Brazo de emprendimiento e innovación de la Universidad San Ignacio de Loyola: incubación, aceleración y convocatorias para startups.
+
+- **Ciudad / sede:** Lima — https://usil.edu.pe/emprendimiento/
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://usil.edu.pe/emprendimiento/

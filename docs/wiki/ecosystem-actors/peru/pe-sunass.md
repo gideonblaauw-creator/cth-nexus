@@ -21,14 +21,14 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Magdalena del Mar |
 | Sitio web | https://www.gob.pe/sunass |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/sunass-oficial |
 | Rol en el ecosistema | Actor público / regulador |
 | Desafíos (códigos) | FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Superintendencia Nacional de Servicios de Saneamiento; regula prestadores de agua potable y saneamiento urbano en el Perú.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +42,4 @@ PENDIENTE
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.gob.pe/sunass

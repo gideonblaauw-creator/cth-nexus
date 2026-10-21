@@ -19,7 +19,7 @@ tag_country: Peru
 | Categoría | academia |
 | Tipo | org |
 | País | Peru |
-| Ciudad | La Libertad |
+| Ciudad | Trujillo |
 | Sitio web | https://www.s360.pe |
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Universidad o centro de investigación |
@@ -28,7 +28,9 @@ tag_country: Peru
 
 ## Rol y alcance
 
-PENDIENTE
+Incubadora de negocios de la Universidad Privada Antenor Orrego (UPAO) que acompaña emprendimientos innovadores en La Libertad.
+
+- **Ciudad / sede:** Trujillo — https://www.s360.pe
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.s360.pe
+- https://upao.edu.pe/diferenciacion/incubadora-de-negocios/

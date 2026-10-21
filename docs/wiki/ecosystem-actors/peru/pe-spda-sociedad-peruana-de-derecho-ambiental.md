@@ -21,14 +21,16 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Arequipa |
 | Sitio web | https://spda.org.pe |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/spdaorg |
 | Rol en el ecosistema | ONG o fundación |
 | Desafíos (códigos) | AGR, BOS |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+ONG referente en derecho ambiental en el Perú; litigio estratégico, incidencia política y formación para la defensa del ambiente.
+
+- **Año de fundación:** 1986 — https://spda.org.pe
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://spda.org.pe

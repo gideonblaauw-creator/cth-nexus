@@ -21,14 +21,18 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.smv.gob.pe |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/smvperu |
 | Rol en el ecosistema | Actor público / regulador |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Superintendencia que regula y supervisa el mercado de valores peruano, emisores, intermediarios y fondos de inversión.
+
+- **Año de fundación:** 1971 — https://www.smv.gob.pe
+
+- **Ciudad / sede:** Lima — https://www.smv.gob.pe
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.smv.gob.pe

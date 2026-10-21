@@ -28,7 +28,7 @@ tag_country: Peru
 
 ## Rol y alcance
 
-PENDIENTE
+Programa de cooperación financiado por la Unión Europea para acción climática y transición verde en América Latina y el Caribe (Euroclima).
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +42,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.euroclima.org

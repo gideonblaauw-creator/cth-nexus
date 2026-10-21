@@ -21,14 +21,14 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://www.aes-elsalvador.com |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/aeselsalvador |
 | Rol en el ecosistema | Empresa / sector privado |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Compañía eléctrica que genera, transmite y distribuye energía en El Salvador, con proyectos de energía renovable.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +42,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.aes-elsalvador.com

@@ -19,8 +19,8 @@ tag_country: Peru
 | Categoría | accelerator |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Cajamarca |
-| Sitio web | https://noticias.upc.edu.pe |
+| Ciudad | San Isidro |
+| Sitio web | https://noticias.upc.edu.pe/startupc/ |
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
 | Desafíos (códigos) | AGR, AGU |
@@ -28,7 +28,9 @@ tag_country: Peru
 
 ## Rol y alcance
 
-PENDIENTE
+Centro de emprendimiento e innovación de la Universidad Peruana de Ciencias Aplicadas (UPC) que incubó y acelera startups.
+
+- **Ciudad / sede:** San Isidro — https://noticias.upc.edu.pe
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://noticias.upc.edu.pe

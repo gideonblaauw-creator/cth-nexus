@@ -28,7 +28,7 @@ tag_country: Peru
 
 ## Rol y alcance
 
-PENDIENTE
+Fondo de impacto del grupo AlphaMundi orientado a inversiones con retorno social y ambiental en mercados emergentes.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +42,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.alphamundigroup.com/socialalpha-fund/

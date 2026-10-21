@@ -18,15 +18,15 @@ tag_country: Peru
 | --- | --- |
 | Categoría | startup |
 | País | Peru |
-| Ciudad | PENDIENTE |
-| Sitio web | PENDIENTE |
+| Ciudad | Lima |
+| Sitio web | https://yakusmart.io/ |
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Startup del ecosistema |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/yakusmart](https://nexus.cleantechhub.net/s/yakusmart) |
 
 ## Descripción
 
-PENDIENTE
+Startup de inteligencia agronómica que combina sensores, datos climáticos y asistencia digital para optimizar riego en cultivos de exportación.
 
 ## Relaciones (ecosistema)
 
@@ -40,3 +40,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://yakusmart.io/
+- https://yakusmart.io/es (descripción del producto)

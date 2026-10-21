@@ -21,14 +21,14 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Omaha |
 | Sitio web | https://www.nature.org |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/the-nature-conservancy |
 | Rol en el ecosistema | Organización internacional o cooperación |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+ONG global de conservación con programas en Perú en bosques, agua y soluciones basadas en la naturaleza.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +42,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.nature.org

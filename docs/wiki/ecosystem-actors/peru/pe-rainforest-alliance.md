@@ -21,14 +21,16 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.rainforest-alliance.org |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/rainforest-alliance |
 | Rol en el ecosistema | Organización internacional o cooperación |
 | Desafíos (códigos) | AZU, BOS |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Organización internacional que promueve agricultura sostenible, conservación de bosques y certificación del sello Rainforest Alliance en cadenas de suministro.
+
+- **Ciudad / sede:** Lima — https://www.rainforest-alliance.org
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.rainforest-alliance.org

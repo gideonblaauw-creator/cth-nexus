@@ -28,7 +28,11 @@ tag_country: Peru
 
 ## Rol y alcance
 
-PENDIENTE
+Principal gremio industrial del Perú; representa y defiende los intereses del sector manufacturero nacional.
+
+- **Año de fundación:** 1896 — https://sni.org.pe
+
+- **Ciudad / sede:** Lima — https://sni.org.pe
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +46,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://sni.org.pe

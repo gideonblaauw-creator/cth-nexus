@@ -19,7 +19,7 @@ tag_country: Peru
 | Categoría | academia |
 | Tipo | org |
 | País | Peru |
-| Ciudad | PENDIENTE |
+| Ciudad | Jaén |
 | Sitio web | https://www.gob.pe/unj |
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Universidad o centro de investigación |
@@ -28,7 +28,9 @@ tag_country: Peru
 
 ## Rol y alcance
 
-PENDIENTE
+Universidad pública con sede en Jaén (Cajamarca); formación superior e investigación para el norte del Perú.
+
+- **Ciudad / sede:** Jaén — https://www.gob.pe/unj
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.gob.pe/unj

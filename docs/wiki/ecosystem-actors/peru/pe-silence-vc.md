@@ -20,7 +20,7 @@ tag_country: Peru
 | Tipo | org |
 | País | Peru |
 | Ciudad | Lima |
-| Sitio web | https://silencevc.com/about/ |
+| Sitio web | https://silencevc.com/ |
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Empresa / sector privado |
 | Desafíos (códigos) | PENDIENTE |
@@ -28,7 +28,7 @@ tag_country: Peru
 
 ## Rol y alcance
 
-PENDIENTE
+Fondo de venture capital enfocado en startups de etapa temprana en Latinoamérica.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +42,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://silencevc.com/about/

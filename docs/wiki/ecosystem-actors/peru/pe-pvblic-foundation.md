@@ -19,16 +19,20 @@ tag_country: Peru
 | Categoría | international |
 | Tipo | org |
 | País | Peru |
-| Ciudad | PENDIENTE |
+| Ciudad | New York |
 | Sitio web | https://pvblic.org |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/pvblicfoundation |
 | Rol en el ecosistema | Organización internacional o cooperación |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Fundación sin fines de lucro que moviliza alianzas público-privadas y medios para avanzar los ODS, conectando gobiernos, agencias de la ONU y actores del sector privado.
+
+- **Año de fundación:** 2012 — https://pvblic.org
+
+- **Ciudad / sede:** New York — https://pvblic.org
 
 ## Relaciones (ecosistema)
 
@@ -43,3 +47,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://pvblic.org

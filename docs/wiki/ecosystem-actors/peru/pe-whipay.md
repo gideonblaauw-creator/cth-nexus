@@ -28,7 +28,9 @@ tag_country: Peru
 
 ## Rol y alcance
 
-PENDIENTE
+Plataforma de mercado mayorista digital que conecta proveedores y compradores en el sector alimentario.
+
+- **Ciudad / sede:** Lima — https://whipay.pe/mercado
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://whipay.pe/mercado

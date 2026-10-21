@@ -21,14 +21,14 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.wayra.com |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/wayra |
 | Rol en el ecosistema | Financiador e inversionista |
 | Desafíos (códigos) | AGR, BOS |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Aceleradora corporativa de Telefónica que invierte y acompaña startups de telecomunicaciones, IoT y tecnologías digitales en Perú.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +42,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.wayra.com

@@ -19,7 +19,7 @@ tag_country: Peru
 | Categoría | academia |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | Puerto Maldonado |
 | Sitio web | https://portal.unamad.edu.pe |
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Universidad o centro de investigación |
@@ -28,7 +28,9 @@ tag_country: Peru
 
 ## Rol y alcance
 
-PENDIENTE
+Universidad pública amazónica con sede en Madre de Dios; formación e investigación para el desarrollo sostenible de la Amazonía.
+
+- **Ciudad / sede:** Puerto Maldonado — https://portal.unamad.edu.pe
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://portal.unamad.edu.pe

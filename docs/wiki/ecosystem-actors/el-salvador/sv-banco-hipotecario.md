@@ -28,7 +28,9 @@ tag_country: El Salvador
 
 ## Rol y alcance
 
-PENDIENTE
+Banco especializado en créditos hipotecarios y servicios financieros para familias y empresas en El Salvador.
+
+- **Año de fundación:** 1935 — https://www.bancohipotecario.com.sv
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.bancohipotecario.com.sv

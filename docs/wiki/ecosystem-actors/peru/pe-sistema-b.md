@@ -21,14 +21,14 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.sistemab.org |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/sistema-b-m |
 | Rol en el ecosistema | ONG o fundación |
 | Desafíos (códigos) | AGR |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Red latinoamericana que impulsa empresas certificadas como Empresa B y el uso del capitalismo de stakeholders.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +42,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.sistemab.org

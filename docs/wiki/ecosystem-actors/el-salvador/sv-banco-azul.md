@@ -28,7 +28,7 @@ tag_country: El Salvador
 
 ## Rol y alcance
 
-PENDIENTE
+Banco salvadoreño enfocado en servicios financieros para personas y microempresas.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +42,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.bancoazul.com

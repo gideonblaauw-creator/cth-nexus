@@ -28,7 +28,7 @@ tag_country: Peru
 
 ## Rol y alcance
 
-PENDIENTE
+ONG internacional con presencia en Perú que trabaja cadenas de valor sostenibles en agricultura, minería y manufactura.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +42,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://solidaridadlatam.org

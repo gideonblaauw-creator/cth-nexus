@@ -20,15 +20,15 @@ tag_country: Peru
 | Tipo | org |
 | País | Peru |
 | Ciudad | Lima |
-| Sitio web | https://www.redesignlab.org/# |
-| LinkedIn | PENDIENTE |
+| Sitio web | https://www.redesignlab.org/ |
+| LinkedIn | https://www.linkedin.com/company/redesignlab |
 | Rol en el ecosistema | Universidad o centro de investigación |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Venture studio de impacto en Latinoamérica enfocado en bioeconomía: diseña, escala e invierte en negocios sostenibles.
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +42,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.redesignlab.org/

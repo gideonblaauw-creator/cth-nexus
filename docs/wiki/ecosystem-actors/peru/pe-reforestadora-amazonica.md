@@ -19,16 +19,18 @@ tag_country: Peru
 | Categoría | corporate |
 | Tipo | org |
 | País | Peru |
-| Ciudad | PENDIENTE |
+| Ciudad | Lima |
 | Sitio web | https://bosques-amazonicos.com |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/bam-bosques-amazonicos |
 | Rol en el ecosistema | Empresa / sector privado |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Bosques Amazónicos (BAM) protege y restaura ecosistemas amazónicos mediante proyectos REDD+ y créditos de carbono que contribuyen a la conservación y al desarrollo sostenible en el Perú.
+
+- **Ciudad / sede:** Lima — https://bosques-amazonicos.com
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://bosques-amazonicos.com
+- https://www.linkedin.com/company/bam-bosques-amazonicos

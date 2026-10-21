@@ -22,11 +22,11 @@ tag_country: Peru
 | Sitio web | PENDIENTE |
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Startup del ecosistema |
-| Tarjeta Nexus | PENDIENTE |
+| Tarjeta Nexus | [nexus.cleantechhub.net/s/vigia](https://nexus.cleantechhub.net/s/vigia) |
 
 ## Descripción
 
-PENDIENTE
+Startup de biovigilancia ambiental que aplica metagenómica y bioinformática para monitorear resistencia antimicrobiana en ecosistemas acuáticos.
 
 ## Relaciones (ecosistema)
 
@@ -40,3 +40,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://nexus.cleantechhub.net/s/vigia
