@@ -28,6 +28,8 @@ rsync -a /opt/nexus-onepagers/ "${BACKUP}/opt-nexus-onepagers/"
 
 echo "Deploying portfolio..."
 install -D -m 0644 "${ROOT}/site/nexus-www/startup-portfolio.html" /var/www/nexus/startup-portfolio.html
+install -m 0644 "${ROOT}/site/nexus-www/nexus-homepage.html" /var/www/nexus/nexus-homepage.html
+install -D -m 0644 "${ROOT}/site/mentor-directory/index.html" /opt/cth-nexus/static/mentor-directory/index.html
 
 echo "Deploying hubs + ecosystem static..."
 rsync -a "${ROOT}/site/cth-static/hubs/" /opt/cth-nexus/static/hubs/
@@ -35,6 +37,7 @@ rsync -a "${ROOT}/static/ecosystem/" /opt/cth-nexus/static/ecosystem/
 
 echo "Deploying nexus-assets..."
 rsync -a "${ROOT}/nexus-assets/" /var/www/nexus-assets/
+install -m 0644 "${ROOT}/site/nexus-assets/nexus-nav.js" /var/www/nexus-assets/nexus-nav.js
 
 echo "Deploying /s/ one-pagers..."
 rsync -a "${ROOT}/onepagers/sites/" /opt/nexus-onepagers/
