@@ -34,6 +34,18 @@ test('policy bundle has no cross-country issues_policy / addresses_challenge edg
   expect(countCrossCountryGraphEdges(dataRels, ctx)).toBe(0);
 });
 
+test('D5 chapter order matches system-map wire (Ch→Po→Hubs→Data→Part→Cap)', async () => {
+  const story = JSON.parse(await readFile(path.join(DATA, 'story-chapters.json'), 'utf8'));
+  expect(story.chapters.map((c) => c.id)).toEqual([
+    'challenges',
+    'policy',
+    'hubs',
+    'data',
+    'partnerships',
+    'capital',
+  ]);
+});
+
 test('nexus-crosslinks.json present with link counts', async () => {
   const cross = JSON.parse(await readFile(path.join(DATA, 'nexus-crosslinks.json'), 'utf8'));
   expect(cross.counts.s_pages).toBeGreaterThan(0);

@@ -522,6 +522,15 @@ body.story-on #legend-bar::after {
 .crosslink-list li {
   margin: 0.35rem 0;
 }
+.inspector button.linkish {
+  background: none;
+  border: 0;
+  padding: 0;
+  color: var(--color-primary, #0c498a);
+  font: inherit;
+  cursor: pointer;
+  text-decoration: underline;
+}
 .badge.suggested {
   font-size: 0.68rem;
   text-transform: uppercase;

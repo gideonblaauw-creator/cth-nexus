@@ -116,6 +116,7 @@ const I18N = {
     nexusCrossSolutions: 'Soluciones (/s/)',
     nexusCrossStartups: 'Startups en el reto',
     policyStartups: 'Startups relacionadas',
+    challengePolicies: 'Políticas relacionadas',
     suggestedLabel: 'Sugerido',
     cats: {
       government: 'Gobierno', accelerator: 'Aceleradora', international: 'Internacional',
@@ -165,6 +166,7 @@ const I18N = {
     nexusCrossSolutions: 'Solutions (/s/)',
     nexusCrossStartups: 'Startups on this challenge',
     policyStartups: 'Related startups',
+    challengePolicies: 'Related policies',
     suggestedLabel: 'Suggested',
     cats: {
       government: 'Government', accelerator: 'Accelerator', international: 'International',
@@ -774,11 +776,37 @@ function renderInspector(id) {
     const linked = relations.filter((r) => r.target === id || r.source === id);
     const title = lang === 'EN' ? meta?.label?.en : meta?.label?.es;
     const panel = nexusCrosslinks?.byChallenge?.[id] || {};
+    const relatedPolicies = policyRelations
+      .filter((r) => r.source === id || r.target === id)
+      .map((r) => (r.source === id ? r.target : r.source))
+      .filter((pid) => isPolicyId(pid))
+      .filter((pid, i, arr) => arr.indexOf(pid) === i)
+      .map((pid) => {
+        const row = policiesById.get(pid);
+        const inferred = policyRelations.some(
+          (r) => (r.source === pid || r.target === pid)
+            && (r.source === id || r.target === id)
+            && (r.suggested || r.verified === false),
+        );
+        return {
+          label: row?.name || pid,
+          href: `#policy-${pid}`,
+          inferred,
+          policyId: pid,
+        };
+      });
+    const policySection = relatedPolicies.length
+      ? `<div class="section"><h3>${esc(tr.challengePolicies)}</h3><ul class="crosslink-list">${relatedPolicies.map((p) => {
+        const sug = p.inferred ? `<span class="badge suggested">${esc(tr.suggestedLabel)}</span>` : '';
+        return `<li><button type="button" class="linkish" data-jump-policy="${esc(p.policyId)}">${esc(p.label)}</button> ${sug}</li>`;
+      }).join('')}</ul></div>`
+      : '';
     el.classList.remove('empty');
     el.innerHTML = `
       <div style="padding:14px">
         <h2>${esc(title || id)}</h2>
         <div class="meta">${tr.storyChallengeMeta || 'Challenge node'} · ${linked.length} works_on_challenge</div>
+        ${policySection}
         ${crosslinkSection(tr.nexusCrossIdeas, panel.ideas, tr)}
         ${crosslinkSection(tr.nexusCrossSolutions, panel.solutions, tr)}
         ${crosslinkSection(tr.nexusCrossStartups, panel.startups, tr)}
@@ -795,6 +823,9 @@ function renderInspector(id) {
         </div>
         <p class="meta" style="margin-top:8px">${esc(tr.storySuggestedHint || '')}</p>
       </div>`;
+    el.querySelectorAll('[data-jump-policy]').forEach((btn) => {
+      btn.addEventListener('click', () => selectActor(btn.dataset.jumpPolicy));
+    });
     return;
   }
   const a = byId.get(id);
