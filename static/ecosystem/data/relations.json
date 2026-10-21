@@ -145,16 +145,6 @@
   "type": "runs_initiative"
  },
  {
-  "source": "pe-cleantechhub",
-  "target": "sv-iagros",
-  "type": "accelerated"
- },
- {
-  "source": "sv-rein-hub-san-salvador",
-  "target": "pe-pvblic-foundation",
-  "type": "part_of_network"
- },
- {
   "source": "sv-mag-ministerio-de-agricultura-y-ganaderia",
   "target": "sv-fideagro",
   "type": "runs_program"

@@ -3,6 +3,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { readFile } from 'fs/promises';
 import {
+  countCrossCountryGraphEdges,
   countCrossCountryPolicyEdges,
   storyContext,
 } from '../story.mjs';
@@ -12,16 +13,33 @@ const DATA = path.join(__dirname, '..', 'data');
 const BASE = process.env.ECO_BASE || 'http://127.0.0.1:8797/ecosystem/';
 
 test('policy bundle has no cross-country issues_policy / addresses_challenge edges', async () => {
-  const [actors, policies, policyRels, story] = await Promise.all([
+  const [actors, policies, policyRels, graphRels, dataRels, story] = await Promise.all([
     readFile(path.join(DATA, 'actors.json'), 'utf8').then(JSON.parse),
     readFile(path.join(DATA, 'policies.json'), 'utf8').then(JSON.parse),
     readFile(path.join(DATA, 'policy_relations.json'), 'utf8').then(JSON.parse),
+    readFile(path.join(DATA, 'relations.json'), 'utf8').then(JSON.parse),
+    readFile(path.join(DATA, 'data_relations.json'), 'utf8').then(JSON.parse),
     readFile(path.join(DATA, 'story-chapters.json'), 'utf8').then(JSON.parse),
   ]);
   const byId = new Map(actors.map((a) => [a.id, a]));
   const policiesById = new Map(policies.filter((p) => p.id).map((p) => [p.id, p]));
-  const ctx = storyContext({ byId, policiesById, challenges: story.challenges });
+  const ctx = storyContext({
+    byId,
+    policiesById,
+    challenges: story.challenges,
+    datasets: story.datasets || {},
+  });
   expect(countCrossCountryPolicyEdges(policyRels, ctx)).toBe(0);
+  expect(countCrossCountryGraphEdges(graphRels, ctx)).toBe(0);
+  expect(countCrossCountryGraphEdges(dataRels, ctx)).toBe(0);
+});
+
+test('actors.json exposes nexus card_slug and hub_slug where mapped', async () => {
+  const actors = await readFile(path.join(DATA, 'actors.json'), 'utf8').then(JSON.parse);
+  const withCard = actors.filter((a) => a.nexus?.card_slug);
+  const withHub = actors.filter((a) => a.nexus?.hub_slug);
+  expect(withCard.length).toBeGreaterThan(0);
+  expect(withHub.length).toBeGreaterThan(0);
 });
 
 test.describe('ecosystem public reconcile', () => {

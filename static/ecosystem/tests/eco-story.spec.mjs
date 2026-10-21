@@ -12,9 +12,10 @@ function ecoQuery(qs) {
 const chapters = [
   { name: 'ch1-challenges', chapter: 0 },
   { name: 'ch2-policy', chapter: 1 },
-  { name: 'ch3-capital', chapter: 2 },
-  { name: 'ch4-hubs', chapter: 3 },
+  { name: 'ch3-hubs', chapter: 2 },
+  { name: 'ch4-data', chapter: 3 },
   { name: 'ch5-partnerships', chapter: 4 },
+  { name: 'ch6-capital', chapter: 5 },
   { name: 'ch5-constellation-agua-uqhu', chapter: 4, constellation: 'agua-uqhu', closeup: 1 },
 ];
 
@@ -45,7 +46,7 @@ test('guided story chapters', async ({ page }) => {
   const counts = await page.evaluate(() => window.__storyEdgeCounts || []);
   console.log('STORY_EDGE_COUNTS', JSON.stringify(counts, null, 2));
   expect(errors, errors.join('\n')).toEqual([]);
-  expect(counts.length).toBe(5);
+  expect(counts.length).toBe(6);
 });
 
 async function mkdir(p) {

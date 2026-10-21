@@ -40,8 +40,12 @@ GENERIC_HOSTS = frozenset(
 )
 
 
-def host_key(url: str | None) -> str | None:
+def host_key(url: str | dict | None) -> str | None:
     if not url:
+        return None
+    if isinstance(url, dict):
+        url = url.get("en") or url.get("es") or url.get("url") or ""
+    if not isinstance(url, str) or not url.strip():
         return None
     u = url if url.startswith("http") else f"https://{url}"
     try:
@@ -67,8 +71,12 @@ def scrub_value(v):
     return v
 
 
-def norm_name(s: str) -> str:
-    s = re.sub(r"[^a-z0-9]+", "", (s or "").lower())
+def norm_name(s: str | dict | None) -> str:
+    if isinstance(s, dict):
+        s = s.get("en") or s.get("es") or s.get("EN") or s.get("ES") or ""
+    if not isinstance(s, str):
+        s = str(s or "")
+    s = re.sub(r"[^a-z0-9]+", "", s.lower())
     return s
 
 
@@ -79,7 +87,7 @@ def load_onepager_index() -> dict[str, str]:
     by_name: dict[str, str] = {}
     if not ONEPAGERS.is_dir():
         return {"host": by_host, "slug": by_slug, "name": by_name}
-    for path in ONEPAGERS.glob("*.json"):
+    for path in ONEPAGERS.rglob("*.json"):
         if path.name.startswith("s-pages-"):
             continue
         try:
@@ -87,6 +95,10 @@ def load_onepager_index() -> dict[str, str]:
         except json.JSONDecodeError:
             continue
         slug = doc.get("slug") or path.stem
+        if isinstance(slug, dict):
+            slug = slug.get("en") or slug.get("es") or path.stem
+        if not isinstance(slug, str):
+            slug = str(slug)
         by_slug[slug.lower()] = slug
         nm = norm_name(doc.get("name") or "")
         if nm:
@@ -113,6 +125,20 @@ def match_card_slug(actor: dict, idx: dict) -> str | None:
     return None
 
 
+def resolve_card_slug(raw: dict, idx: dict) -> str | None:
+    """Match one-pager /s/{slug} from website, name, id, or staff nexus_slug on raw row."""
+    slug = match_card_slug(raw, idx)
+    if slug:
+        return slug
+    for cand in (raw.get("nexus_slug"), (raw.get("nexus") or {}).get("card_slug")):
+        if not cand:
+            continue
+        key = str(cand).lower()
+        if key in idx["slug"]:
+            return idx["slug"][key]
+    return None
+
+
 def normalize_geo(raw: dict, geo: dict | None) -> dict:
     if not geo:
         return geocode_actor({**raw, "id": raw["id"]})["geo"]
@@ -133,15 +159,19 @@ def sanitize_actor(raw: dict, idx: dict) -> dict:
     a = {k: v for k, v in raw.items() if k not in DROP_KEYS}
     a = scrub_value(a) or {}
     a["geo"] = normalize_geo(raw, raw.get("geo") or a.get("geo"))
-    slug = match_card_slug(a, idx)
+    slug = resolve_card_slug(raw, idx)
     nexus = dict(a.get("nexus") or {})
     if slug:
         nexus["card_slug"] = slug
-    elif "card_slug" in nexus:
-        pass
     else:
-        nexus.setdefault("card_slug", None)
-    a["nexus"] = nexus
+        nexus.pop("card_slug", None)
+    hub_pages_path = DATA / "hub-pages.json"
+    if hub_pages_path.exists():
+        hub_pages = json.loads(hub_pages_path.read_text(encoding="utf-8"))
+        hub_slug = hub_pages.get(a["id"])
+        if hub_slug:
+            nexus["hub_slug"] = hub_slug
+    a["nexus"] = nexus if nexus else {}
     if a.get("type") == "person" and not a.get("linkedin"):
         a["linkedin"] = None
     return {k: v for k, v in a.items() if k not in DROP_KEYS}
@@ -163,15 +193,38 @@ def _entity_country_code(
     actors_by_id: dict,
     policies_by_id: dict,
     challenges: dict,
+    datasets: dict | None = None,
 ) -> str | None:
+    datasets = datasets or {}
     if entity_id.startswith("challenge:"):
         return COUNTRY_CODE.get((challenges.get(entity_id) or {}).get("country"))
     if entity_id.startswith("policy:"):
         return COUNTRY_CODE.get((policies_by_id.get(entity_id) or {}).get("country"))
+    if entity_id.startswith("dataset:"):
+        return COUNTRY_CODE.get((datasets.get(entity_id) or {}).get("country"))
     actor = actors_by_id.get(entity_id)
     if actor:
         return COUNTRY_CODE.get(actor.get("country") or (actor.get("geo") or {}).get("country"))
     return None
+
+
+def drop_cross_country_graph_relations(
+    relations: list,
+    actors_by_id: dict,
+    policies_by_id: dict,
+    challenges: dict,
+    datasets: dict | None = None,
+) -> tuple[list, int]:
+    kept = []
+    dropped = 0
+    for r in relations:
+        cs = _entity_country_code(r.get("source", ""), actors_by_id, policies_by_id, challenges, datasets)
+        ct = _entity_country_code(r.get("target", ""), actors_by_id, policies_by_id, challenges, datasets)
+        if cs and ct and cs != ct:
+            dropped += 1
+            continue
+        kept.append(r)
+    return kept, dropped
 
 
 def drop_cross_country_policy_relations(
@@ -241,9 +294,22 @@ def main() -> None:
 
     raw_actors = json.loads(raw_path.read_text(encoding="utf-8"))
     relations = json.loads((DATA / "relations.json").read_text(encoding="utf-8"))
+    story_path = DATA / "story-chapters.json"
+    challenges = {}
+    datasets = {}
+    if story_path.exists():
+        story_doc = json.loads(story_path.read_text(encoding="utf-8"))
+        challenges = story_doc.get("challenges") or {}
+        datasets = story_doc.get("datasets") or {}
     idx = load_onepager_index()
 
     actors = [sanitize_actor(a, idx) for a in raw_actors]
+    actors_by_id_pre = {a["id"]: a for a in actors}
+    relations, dropped_gr = drop_cross_country_graph_relations(
+        relations, actors_by_id_pre, {}, challenges, datasets,
+    )
+    if dropped_gr:
+        print(f"Dropped {dropped_gr} cross-country graph relation(s)")
     relations = sanitize_relations(relations)
 
     actors_path.write_text(json.dumps(actors, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")

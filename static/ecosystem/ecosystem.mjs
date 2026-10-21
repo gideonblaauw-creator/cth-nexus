@@ -5,7 +5,9 @@ import {
   chapterScene,
   computeChapterEdgeCounts,
   isChallengeId,
+  isDatasetId,
   isPolicyId,
+  datasetGeo,
   policyGeo,
 } from './story.mjs';
 import {
@@ -97,6 +99,9 @@ const I18N = {
     linkedinPending: 'LinkedIn PENDIENTE',
     nexusCard: 'Ficha Nexus /s/',
     nexusPending: 'Ficha Nexus pendiente',
+    hubPage: 'Hub REIN /hubs/',
+    hubPagePending: 'Página hub pendiente',
+    datasetPending: 'Conjunto de datos pendiente',
     relationsN: 'relaciones',
     typedRelations: 'Relaciones tipadas',
     noResults: 'Sin resultados con estos filtros.',
@@ -138,6 +143,9 @@ const I18N = {
     linkedinPending: 'LinkedIn PENDING',
     nexusCard: 'Nexus profile /s/',
     nexusPending: 'Nexus profile pending',
+    hubPage: 'REIN hub /hubs/',
+    hubPagePending: 'Hub page pending',
+    datasetPending: 'Dataset pending',
     relationsN: 'relations',
     typedRelations: 'Typed relations',
     noResults: 'No results with these filters.',
@@ -186,6 +194,7 @@ let storyConfig = null;
 let policies = [];
 let policiesById = new Map();
 let policyRelations = [];
+let dataRelations = [];
 let storyChapter = 0;
 let storyFocusCountry = null;
 let constellationId = null;
@@ -724,6 +733,18 @@ function renderInspector(id) {
       </div>`;
     return;
   }
+  if (isDatasetId(id) && storyConfig?.datasets?.[id]) {
+    const meta = storyConfig.datasets[id];
+    const title = lang === 'EN' ? meta.label?.en : meta.label?.es;
+    el.classList.remove('empty');
+    el.innerHTML = `
+      <div style="padding:14px">
+        <h2>${esc(title || id)}</h2>
+        <div class="meta">${esc(meta.country || '')} · ${meta.status === 'pending' ? esc(tr.datasetPending) : 'dataset'}</div>
+        ${meta.source_url ? `<a class="secondary" href="${esc(meta.source_url)}" target="_blank" rel="noopener">${tr.website}</a>` : ''}
+      </div>`;
+    return;
+  }
   if (isChallengeId(id) && storyConfig) {
     const meta = storyConfig.challenges[id];
     const linked = relations.filter((r) => r.target === id || r.source === id);
@@ -765,12 +786,18 @@ function renderInspector(id) {
   const nexusRow = slug
     ? `<a href="/s/${esc(slug)}" target="_blank" rel="noopener">${tr.nexusCard}${esc(slug)}</a>`
     : `<span class="pending">${tr.nexusPending}</span>`;
+  const hubSlug = a.nexus?.hub_slug;
+  const hubRow = hubSlug
+    ? `<a href="/hubs/${esc(hubSlug)}/" target="_blank" rel="noopener">${tr.hubPage}${esc(hubSlug)}</a>`
+    : (a.category === 'hub' || a.category === 'accelerator'
+      ? `<span class="pending">${tr.hubPagePending}</span>`
+      : '');
 
   el.innerHTML = `
     <div style="padding:14px">
       <h2>${esc(a.name)}</h2>
       <div class="meta">${flag} ${esc(a.country)} · ${esc(tr.cats[a.category] || a.category)} · ${rels.length} ${tr.relationsN}</div>
-      <div class="inspector-links">${websiteRow}${linkedinRow}${nexusRow}</div>
+      <div class="inspector-links">${websiteRow}${linkedinRow}${nexusRow}${hubRow}</div>
       <div class="section">
         <h3>${tr.typedRelations}</h3>
         ${rels.slice(0, 16).map((r) => {
@@ -841,6 +868,10 @@ function renderCards(list) {
     const nexus = slug
       ? `<a class="nexus-btn" href="/s/${esc(slug)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${tr.nexusCard}</a>`
       : `<span class="pending-chip">${tr.nexusPending}</span>`;
+    const hubSlug = a.nexus?.hub_slug;
+    const hubLink = hubSlug
+      ? `<a class="nexus-btn" href="/hubs/${esc(hubSlug)}/" target="_blank" rel="noopener" onclick="event.stopPropagation()">${tr.hubPage}</a>`
+      : '';
     return `
       <article class="actor-card${selected === a.id ? ' selected' : ''}" data-id="${esc(a.id)}" tabindex="0">
         <div class="ac-top">
@@ -851,7 +882,7 @@ function renderCards(list) {
           </div>
         </div>
         <div class="ac-badges"><span class="badge">${esc(catLabel)}</span></div>
-        <div class="ac-links">${website}${nexus}</div>
+        <div class="ac-links">${website}${nexus}${hubLink}</div>
       </article>`;
   }).join('');
 
@@ -1039,6 +1070,7 @@ function renderStoryRail() {
 
   const counts = computeChapterEdgeCounts(storyConfig, relations, byId, policyRelations, {
     policiesById,
+    dataRelations,
     storyFocusCountry,
   });
   window.__storyEdgeCounts = counts;
@@ -1057,10 +1089,12 @@ function renderStoryChapter() {
     closeup: constellationCloseup,
     policyRelations,
     policiesById,
+    dataRelations,
     storyFocusCountry,
   });
   const current = computeChapterEdgeCounts(storyConfig, relations, byId, policyRelations, {
     policiesById,
+    dataRelations,
     storyFocusCountry,
   })[storyChapter];
   window.__storyChapterActive = {
@@ -1115,7 +1149,7 @@ function applyDemoState() {
   }
   if (bootParams.get('mobile') === '1') document.body.classList.add('mobile-layout');
   if (state === 'story' || bootParams.get('view') === 'story') {
-    storyChapter = Math.min(4, Math.max(0, parseInt(bootParams.get('chapter') || '0', 10)));
+    storyChapter = Math.min(5, Math.max(0, parseInt(bootParams.get('chapter') || '0', 10)));
     constellationId = bootParams.get('constellation') || null;
     constellationCloseup = bootParams.get('closeup') === '1';
     const tab = document.querySelector('[data-view-tab="story"]');
@@ -1124,17 +1158,19 @@ function applyDemoState() {
 }
 
 async function loadData() {
-  const [a, r, story, pol, polRels] = await Promise.all([
+  const [a, r, story, pol, polRels, dataRels] = await Promise.all([
     fetch('data/actors.json').then((res) => res.json()),
     fetch('data/relations.json').then((res) => res.json()),
     fetch('data/story-chapters.json').then((res) => res.json()),
     fetch('data/policies.json').then((res) => res.json()),
     fetch('data/policy_relations.json').then((res) => res.json()),
+    fetch('data/data_relations.json').then((res) => res.json()),
   ]);
   storyConfig = story;
   policies = pol;
   policiesById = new Map(pol.map((p) => [p.id, p]));
   policyRelations = polRels;
+  dataRelations = dataRels;
   actors = a;
   relations = r;
   byId = new Map(actors.map((x) => [x.id, x]));
