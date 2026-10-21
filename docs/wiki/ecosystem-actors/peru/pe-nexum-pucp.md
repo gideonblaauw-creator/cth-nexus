@@ -19,16 +19,18 @@ tag_country: Peru
 | Categoría | accelerator |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
-| Sitio web | https://cide.pucp.edu.pe/tag/nexum |
+| Ciudad | Lima (San Miguel) |
+| Sitio web | https://cide.pucp.edu.pe/ |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
+| Rol en el ecosistema | Programa de emprendimiento Nexum (PUCP) |
 | Desafíos (códigos) | AGR, AGU |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Nexum es el ecosistema de emprendimiento e innovación de la Pontificia Universidad Católica del Perú (PUCP), articulado con el Centro de Innovación y Desarrollo Empresarial (CIDE).
+
+**Año de fundación:** PENDIENTE
 
 ## Relaciones (ecosistema)
 
@@ -44,3 +46,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://cide.pucp.edu.pe/

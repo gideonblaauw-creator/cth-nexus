@@ -22,13 +22,15 @@ tag_country: Peru
 | Ciudad | Moquegua |
 | Sitio web | https://unam.edu.pe/vpi-ditt/home/lineas-de-investigacion/die/ |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Universidad o centro de investigación |
+| Rol en el ecosistema | Incubadora universitaria de empresas |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+La incubadora de la Universidad Nacional de Moquegua (UNAM) apoya emprendimientos universitarios y regionales mediante preincubación, incubación y vinculación con la Dirección de Innovación y Transferencia Tecnológica.
+
+**Año de fundación:** PENDIENTE
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://unam.edu.pe/vpi-ditt/home/lineas-de-investigacion/die/
+- https://startup.proinnovate.gob.pe/wp-content/uploads/2025/12/Directorio-Web-Incubadoras-y-Aceleradoras-Red-ProInnovate-2026.pdf

@@ -19,16 +19,18 @@ tag_country: Peru
 | Categoría | international |
 | Tipo | org |
 | País | Peru |
-| Ciudad | 天河区 |
+| Ciudad | Washington, D.C. (sede); oficina regional para América Latina y el Caribe |
 | Sitio web | https://www.ifc.org |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Organización internacional o cooperación |
+| LinkedIn | https://www.linkedin.com/company/ifclinkedin |
+| Rol en el ecosistema | Brazo privado del Grupo Banco Mundial — inversión y asesoría |
 | Desafíos (códigos) | CIR, CIU, FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+IFC es el brazo del Grupo Banco Mundial dedicado al sector privado en mercados emergentes: financia empresas, moviliza capital y asesora en clima, infraestructura y sostenibilidad, con cartera y asistencia técnica en el Perú.
+
+**Año de fundación:** 1956
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.ifc.org

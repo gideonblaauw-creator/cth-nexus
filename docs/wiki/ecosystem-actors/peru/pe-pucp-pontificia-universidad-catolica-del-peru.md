@@ -19,16 +19,18 @@ tag_country: Peru
 | Categoría | academia |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | Lima (San Miguel) |
 | Sitio web | https://www.pucp.edu.pe |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Universidad o centro de investigación |
+| LinkedIn | https://www.linkedin.com/company/pucp/ |
+| Rol en el ecosistema | Universidad de investigación y emprendimiento (Nexum/CIDE) |
 | Desafíos (códigos) | AGU, BOS |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+La Pontificia Universidad Católica del Perú (PUCP) es una universidad privada líder en investigación; a través de CIDE y Nexum articula emprendimiento, innovación y vinculación con el ecosistema de impacto.
+
+**Año de fundación:** 1917
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.pucp.edu.pe

@@ -19,16 +19,18 @@ tag_country: Peru
 | Categoría | government |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Cuzco |
+| Ciudad | Lima |
 | Sitio web | https://www.gob.pe/proinnovate |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Actor público / regulador |
+| Rol en el ecosistema | Programa ejecutor StartUp Perú (ProInnóvate) |
 | Desafíos (códigos) | BOS, FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+ProInnóvate, adscrito al PRODUCE, ejecuta StartUp Perú y la Red de Incubadoras y Aceleradoras, canalizando fondos públicos para innovación y emprendimiento de alto impacto.
+
+**Año de fundación:** PENDIENTE
 
 ## Relaciones (ecosistema)
 
@@ -46,3 +48,5 @@ PENDIENTE
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.gob.pe/proinnovate
+- https://startup.proinnovate.gob.pe

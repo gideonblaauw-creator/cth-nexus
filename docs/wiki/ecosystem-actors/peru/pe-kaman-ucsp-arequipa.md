@@ -22,13 +22,15 @@ tag_country: Peru
 | Ciudad | Arequipa |
 | Sitio web | https://ucsp.edu.pe/kaman/presentacion/ |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
+| Rol en el ecosistema | Centro de emprendimiento Kaman (UCSP) |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Kaman es el centro de emprendimiento e innovación de la Universidad Católica San Pablo (UCSP) en Arequipa, con programas de formación, incubación y acompañamiento a startups.
+
+**Año de fundación:** PENDIENTE
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://ucsp.edu.pe/kaman/presentacion/

@@ -19,16 +19,18 @@ tag_country: Peru
 | Categoría | corporate |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
-| Sitio web | https://www.impacta.vc/en/home |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| Ciudad | Santiago de Chile (sede regional); inversiones en Latinoamérica incl. Perú |
+| Sitio web | https://www.impacta.vc/ |
+| LinkedIn | https://www.linkedin.com/company/impacta-vc |
+| Rol en el ecosistema | Fondo de capital de riesgo de impacto |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Impacta VC es un fondo de inversión que financia startups con impacto social y ambiental en Latinoamérica, acompañando a emprendimientos en etapas tempranas con mentoría y red de inversionistas.
+
+**Año de fundación:** PENDIENTE
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.impacta.vc/

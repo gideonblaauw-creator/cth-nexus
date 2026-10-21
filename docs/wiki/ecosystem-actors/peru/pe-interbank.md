@@ -19,16 +19,18 @@ tag_country: Peru
 | Categoría | finance |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | Lima (San Isidro) |
 | Sitio web | https://interbank.pe |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Institución financiera |
+| Rol en el ecosistema | Banco comercial — financiamiento y banca de empresas |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Interbank es uno de los principales bancos del Perú; ofrece crédito, banca corporativa y soluciones financieras para empresas y emprendimientos, con programas de inclusión y sostenibilidad empresarial.
+
+**Año de fundación:** 1890
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://interbank.pe

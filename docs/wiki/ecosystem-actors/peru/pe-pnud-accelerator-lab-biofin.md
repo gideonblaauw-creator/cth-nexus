@@ -19,16 +19,18 @@ tag_country: Peru
 | Categoría | international |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Callao |
+| Ciudad | Lima |
 | Sitio web | https://www.undp.org/es/peru |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Organización internacional o cooperación |
+| Rol en el ecosistema | PNUD Perú — Accelerator Lab y BIOFIN |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+El Programa de las Naciones Unidas para el Desarrollo (PNUD) en el Perú articula el Accelerator Lab (innovación para el desarrollo) y BIOFIN (finanzas para la biodiversidad), vinculando startups, política pública y financiamiento verde.
+
+**Año de fundación:** PENDIENTE
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.undp.org/es/peru

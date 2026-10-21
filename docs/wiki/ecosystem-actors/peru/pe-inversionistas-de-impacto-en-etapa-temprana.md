@@ -19,16 +19,18 @@ tag_country: Peru
 | Categoría | corporate |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
-| Sitio web | https://www.mercycorps.org.co/ |
+| Ciudad | PENDIENTE |
+| Sitio web | PENDIENTE |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| Rol en el ecosistema | Segmento de inversionistas de impacto (etapa temprana) |
 | Desafíos (códigos) | ENE, FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Actor agregado del mapa que representa inversionistas de capital de riesgo e impacto que financian startups en etapas tempranas con enfoque social y climático en el Perú; no corresponde a una sola institución con sitio web institucional único.
+
+**Año de fundación:** PENDIENTE
 
 ## Relaciones (ecosistema)
 

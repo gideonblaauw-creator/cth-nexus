@@ -21,14 +21,16 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://profonanpe.org.pe |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Financiador e inversionista |
+| LinkedIn | https://www.linkedin.com/company/profonanpe/ |
+| Rol en el ecosistema | Fondo trust de financiamiento para áreas naturales protegidas |
 | Desafíos (códigos) | AZU, BOS, FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+PROFONANPE es un fondo peruano que moviliza recursos públicos y privados para la conservación de áreas naturales protegidas y biodiversidad en el Perú.
+
+**Año de fundación:** 1992
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://profonanpe.org.pe

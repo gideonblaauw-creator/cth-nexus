@@ -22,13 +22,15 @@ tag_country: Peru
 | Ciudad | Callao |
 | Sitio web | https://www.gob.pe/imarpe |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Actor público / regulador |
+| Rol en el ecosistema | Instituto de investigación pesquera del Estado peruano |
 | Desafíos (códigos) | BOS |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+El Instituto del Mar del Perú (IMARPE) es un organismo público adscrito al Ministerio de la Producción que realiza investigación oceanográfica y pesquera para la gestión sostenible de recursos marinos y acuícolas.
+
+**Año de fundación:** 1964
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.gob.pe/imarpe

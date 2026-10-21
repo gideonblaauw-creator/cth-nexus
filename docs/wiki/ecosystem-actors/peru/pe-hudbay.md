@@ -19,16 +19,18 @@ tag_country: Peru
 | Categoría | corporate |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Velille |
+| Ciudad | Toronto (sede corporativa); operaciones en Perú (Marcobre) |
 | Sitio web | https://hudbayminerals.com |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| Rol en el ecosistema | Empresa minera con operaciones en el Perú |
 | Desafíos (códigos) | FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Hudbay Minerals es una compañía minera canadiense con operaciones en el Perú (incluido el proyecto Constancia y participación en Marcobre); desarrolla actividades de extracción de metales con programas de relaciones comunitarias y sostenibilidad en sus áreas de influencia.
+
+**Año de fundación:** 1927
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://hudbayminerals.com

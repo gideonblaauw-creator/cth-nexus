@@ -19,16 +19,18 @@ tag_country: Peru
 | Categoría | academia |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
-| Sitio web | https://incubagraria.lamolina.edu.pe/#section_Startups |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Universidad o centro de investigación |
+| Ciudad | La Molina, Lima |
+| Sitio web | https://incubagraria.lamolina.edu.pe/ |
+| LinkedIn | https://www.linkedin.com/company/incubagraria |
+| Rol en el ecosistema | Portafolio de emprendimientos de Incubagraria (UNALM) |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+El portafolio de Incubagraria reúne emprendimientos y empresas incubadas por la Universidad Nacional Agraria La Molina en agrotech, bionegocios y soluciones con impacto ambiental y social.
+
+**Año de fundación:** PENDIENTE
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://incubagraria.lamolina.edu.pe/
+- https://vri.lamolina.edu.pe/nosotros/unidad-de-incubadora-de-empresas/

@@ -19,16 +19,18 @@ tag_country: Peru
 | Categoría | government |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | Lima (Miraflores) |
 | Sitio web | https://www.miraflores.gob.pe |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Actor público / regulador |
+| Rol en el ecosistema | Programa municipal de emprendimiento |
 | Desafíos (códigos) | CIR, CIU |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+La Municipalidad de Miraflores impulsa el programa Emprende Miraflores para apoyar a emprendedores y MYPE del distrito con capacitación, mentoría y articulación con el ecosistema limeño.
+
+**Año de fundación:** PENDIENTE
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.miraflores.gob.pe

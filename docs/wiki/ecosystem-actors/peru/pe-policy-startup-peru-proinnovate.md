@@ -21,14 +21,16 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://startup.proinnovate.gob.pe |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Instrumento de política pública |
+| LinkedIn | https://www.linkedin.com/company/startupperu/ |
+| Rol en el ecosistema | Política pública — programa StartUp Perú |
 | Desafíos (códigos) | FIN, AGR, ENE, CIR |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+StartUp Perú es el programa emblemático de ProInnóvate para financiar y acelerar startups peruanas con fondos concursables, mentoría y articulación con incubadoras de la Red ProInnóvate.
+
+**Año de fundación:** 2013
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://startup.proinnovate.gob.pe

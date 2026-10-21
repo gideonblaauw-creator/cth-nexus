@@ -22,13 +22,15 @@ tag_country: Peru
 | Ciudad | Lima |
 | Sitio web | https://www.gob.pe/produce |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Actor público / regulador |
+| Rol en el ecosistema | Ministerio de pesca, acuicultura e industrias |
 | Desafíos (códigos) | AZU, CIR, FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+El Ministerio de la Producción (PRODUCE) formula políticas para la pesca, acuicultura e industrias manufactureras, promoviendo competitividad y sostenibilidad productiva.
+
+**Año de fundación:** 2008
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.gob.pe/produce

@@ -21,14 +21,16 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://metaredx.org/pe |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Universidad o centro de investigación |
+| LinkedIn | https://www.linkedin.com/company/metaredx-by-universia/ |
+| Rol en el ecosistema | Red universitaria de emprendimiento (Universia / Santander) |
 | Desafíos (códigos) | AGR, AGU, CIR, ENE, FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+MetaRed X Perú es la red de emprendimiento universitario impulsada por Universia y Banco Santander, que conecta incubadoras, competencias y programas de innovación en campus peruanos.
+
+**Año de fundación:** PENDIENTE
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://metaredx.org/pe

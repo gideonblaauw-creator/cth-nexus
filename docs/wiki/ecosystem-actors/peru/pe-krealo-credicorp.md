@@ -19,16 +19,18 @@ tag_country: Peru
 | Categoría | funder |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lince |
-| Sitio web | https://krealo.vc |
+| Ciudad | Lima (Lince) |
+| Sitio web | https://www.krealo.vc/ |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Financiador e inversionista |
+| Rol en el ecosistema | Corporate venture capital de Credicorp |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Krealo es el brazo de venture capital de Credicorp que invierte en startups fintech y de innovación financiera en el Perú y la región, articulando con el ecosistema emprendedor y bancario.
+
+**Año de fundación:** PENDIENTE
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.krealo.vc/

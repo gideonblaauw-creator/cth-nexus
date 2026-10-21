@@ -21,14 +21,16 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://pecap.pe |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Financiador e inversionista |
+| LinkedIn | https://www.linkedin.com/company/pecap-peru/ |
+| Rol en el ecosistema | Asociación gremial de capital semilla y emprendimiento |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+PECAP agrupa fondos de capital semilla, inversionistas ángeles y actores del emprendimiento temprano en el Perú, promoviendo estándares, datos y políticas públicas favorables al venture capital.
+
+**Año de fundación:** PENDIENTE
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://pecap.pe

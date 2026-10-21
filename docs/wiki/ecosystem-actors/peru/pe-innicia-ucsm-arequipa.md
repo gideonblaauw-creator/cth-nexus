@@ -22,13 +22,15 @@ tag_country: Peru
 | Ciudad | Arequipa |
 | Sitio web | https://investigacion.ucsm.edu.pe/innicia/ |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
+| Rol en el ecosistema | Programa de emprendimiento INNICIA (UCSM) |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+INNICIA de la Universidad Católica de Santa María (UCSM) impulsa emprendimiento e innovación en Arequipa mediante formación, mentoría y vinculación con el ecosistema local.
+
+**Año de fundación:** PENDIENTE
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://investigacion.ucsm.edu.pe/innicia/

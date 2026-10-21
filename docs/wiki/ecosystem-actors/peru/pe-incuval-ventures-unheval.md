@@ -22,13 +22,15 @@ tag_country: Peru
 | Ciudad | Huánuco |
 | Sitio web | https://incuvalventures.unheval.edu.pe |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
+| Rol en el ecosistema | Incubadora / venture program (UNHEVAL) |
 | Desafíos (códigos) | AGR, AGU |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Incuval Ventures es el programa de emprendimiento e innovación de la Universidad Nacional Hermilio Valdizán (UNHEVAL) en la región Huánuco.
+
+**Año de fundación:** PENDIENTE
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://incuvalventures.unheval.edu.pe

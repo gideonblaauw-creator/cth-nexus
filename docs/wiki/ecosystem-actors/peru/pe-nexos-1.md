@@ -21,14 +21,16 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://nexosmasuno.com/ |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | ONG o fundación |
+| LinkedIn | https://www.linkedin.com/company/nexosmasuno |
+| Rol en el ecosistema | Plataforma de acción climática empresarial (Libélula) |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+nexos+1 es una plataforma latinoamericana de acción climática empresarial creada por Libélula; conecta empresas, emprendedores, gobierno y cooperación mediante membresía corporativa, eventos y contenidos de descarbonización.
+
+**Año de fundación:** 2015
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://nexosmasuno.com/nosotros/
+- https://libelula.com.pe/proyectos-y-plataformas/nexos1/

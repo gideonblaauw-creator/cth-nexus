@@ -19,16 +19,18 @@ tag_country: Peru
 | Categoría | government |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | Lima (San Isidro) |
 | Sitio web | https://www.gob.pe/minam |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Actor público / regulador |
+| Rol en el ecosistema | Ministerio rector de política ambiental |
 | Desafíos (códigos) | BOS |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+El Ministerio del Ambiente (MINAM) promueve la conservación y el uso sostenible de los recursos naturales, la diversidad biológica y la calidad ambiental en el Perú.
+
+**Año de fundación:** 2008
 
 ## Relaciones (ecosistema)
 
@@ -51,3 +53,4 @@ PENDIENTE
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.gob.pe/minam

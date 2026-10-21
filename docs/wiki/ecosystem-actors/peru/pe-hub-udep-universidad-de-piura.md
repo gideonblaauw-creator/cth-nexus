@@ -19,16 +19,18 @@ tag_country: Peru
 | Categoría | accelerator |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | Piura |
 | Sitio web | https://www.udep.edu.pe |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
+| LinkedIn | https://www.linkedin.com/school/udepiura/ |
+| Rol en el ecosistema | Universidad privada — hub de emprendimiento (HUB UDEP) |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+La Universidad de Piura (UDEP) es una universidad privada con campus en Piura y Lima; a través del HUB UDEP impulsa emprendimiento, innovación y programas de aceleración vinculados al ecosistema de impacto y sostenibilidad.
+
+**Año de fundación:** 1969
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.udep.edu.pe
+- https://www.hub.udep.pe/

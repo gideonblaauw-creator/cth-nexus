@@ -19,16 +19,18 @@ tag_country: Peru
 | Categoría | funder |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | París (sede Natixis Investment Managers); inversiones globales |
 | Sitio web | https://www.mirova.com |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Financiador e inversionista |
+| Rol en el ecosistema | Gestor de inversiones de capital natural y sostenible |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Mirova Natural Capital es la plataforma de Mirova dedicada a inversiones en capital natural, restauración de ecosistemas y proyectos de biodiversidad y clima a escala global.
+
+**Año de fundación:** PENDIENTE
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.mirova.com

@@ -19,16 +19,18 @@ tag_country: Peru
 | Categoría | international |
 | Tipo | org |
 | País | Peru |
-| Ciudad | 성남시 |
-| Sitio web | https://www.koica.go.kr |
+| Ciudad | Seongnam, República de Corea (sede); oficina en Lima |
+| Sitio web | https://www.koica.go.kr/english/main.do |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Organización internacional o cooperación |
+| Rol en el ecosistema | Agencia de cooperación internacional de Corea |
 | Desafíos (códigos) | AGR, AGU, CIR |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+La Agencia de Cooperación Internacional de Corea (KOICA) ejecuta programas de cooperación al desarrollo en el Perú en educación, salud, gobernanza y proyectos de sostenibilidad.
+
+**Año de fundación:** 1991
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.koica.go.kr/english/main.do

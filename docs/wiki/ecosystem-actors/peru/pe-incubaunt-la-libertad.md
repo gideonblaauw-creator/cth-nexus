@@ -19,16 +19,18 @@ tag_country: Peru
 | Categoría | accelerator |
 | Tipo | org |
 | País | Peru |
-| Ciudad | PENDIENTE |
-| Sitio web | PENDIENTE |
+| Ciudad | Trujillo, La Libertad |
+| Sitio web | https://ditt.unitru.edu.pe/procesos-incubadora |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
+| Rol en el ecosistema | Incubadora IncubaUNT (Universidad Nacional de Trujillo) |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+IncubaUNT es la incubadora de empresas de la Universidad Nacional de Trujillo, gestionada por la Dirección de Innovación y Transferencia Tecnológica; ofrece preincubación (Innova 4G), incubación, aceleración y portafolio de startups regionales.
+
+**Año de fundación:** PENDIENTE
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://ditt.unitru.edu.pe/procesos-incubadora
+- https://www.gob.pe/45612-incubaunt-incubadora-de-empresas-de-la-universidad-nacional-de-trujillo

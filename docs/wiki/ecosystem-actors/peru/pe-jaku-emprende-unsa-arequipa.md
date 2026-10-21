@@ -21,14 +21,16 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Arequipa |
 | Sitio web | https://www.unsa.edu.pe/jaku/ |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
+| LinkedIn | https://www.linkedin.com/company/jaku-emprende-unsa/ |
+| Rol en el ecosistema | Incubadora JAKU Emprende (UNSA) |
 | Desafíos (códigos) | AGR, AGU, ENE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+JAKU Emprende es la incubadora de la Universidad Nacional de San Agustín (UNSA) en Arequipa, que acompaña emprendimientos universitarios y de la región sur.
+
+**Año de fundación:** PENDIENTE
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.unsa.edu.pe/jaku/

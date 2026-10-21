@@ -20,15 +20,17 @@ tag_country: Peru
 | Tipo | org |
 | País | Peru |
 | Ciudad | Cajamarca |
-| Sitio web | https://www.facebook.com/incuba.unach/ |
+| Sitio web | https://www.unach.edu.pe/ |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
+| Rol en el ecosistema | Incubadora IncubaUNACH (Universidad Nacional de Cajamarca) |
 | Desafíos (códigos) | PENDIENTE |
-| Tarjeta Nexus | [nexus.cleantechhub.net/s/planta-comunitaria-wpc](https://nexus.cleantechhub.net/s/planta-comunitaria-wpc) |
+| Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+IncubaUNACH es la incubadora de empresas de la Universidad Nacional de Cajamarca, que acompaña emprendimientos universitarios y regionales en la sierra norte del Perú.
+
+**Año de fundación:** PENDIENTE
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.gob.pe/institucion/unach

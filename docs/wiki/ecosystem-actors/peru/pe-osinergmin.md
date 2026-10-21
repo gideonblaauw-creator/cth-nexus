@@ -19,16 +19,18 @@ tag_country: Peru
 | Categoría | government |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Magdalena del Mar |
+| Ciudad | Lima (Magdalena del Mar) |
 | Sitio web | https://www.gob.pe/osinergmin |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Actor público / regulador |
+| Rol en el ecosistema | Organismo regulador de energía y minería |
 | Desafíos (códigos) | FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+OSINERGMIN es el organismo técnico de regulación de los sectores eléctrico, hidrocarburos y minería en el Perú, velando por competencia, calidad de servicio y seguridad.
+
+**Año de fundación:** 1996
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.gob.pe/osinergmin

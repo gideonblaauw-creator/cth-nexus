@@ -22,13 +22,15 @@ tag_country: Peru
 | Ciudad | Lima |
 | Sitio web | https://www.ulima.edu.pe |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
+| Rol en el ecosistema | Programa InnovaUL (Universidad de Lima) |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+InnovaUL es el ecosistema de emprendimiento e innovación de la Universidad de Lima, que conecta estudiantes, docentes y emprendedores con programas de incubación y desarrollo de negocios.
+
+**Año de fundación:** PENDIENTE
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.ulima.edu.pe
