@@ -7,7 +7,7 @@ Extracted from Canva actor maps. **`actors.raw.json`** is the ingest snapshot (s
 - `actors.raw.json` — source snapshot for `scripts/ecosystem/build_public_data.py`
 - `actor_cards.json` — wiki-enriched card fields (source for merge into `actors.raw.json`)
 - `actors.json` — sanitized actors with optional `card` block (role, description, founding year) and `geo`
-- `relations.json` — 75 typed edges
+- `relations.json` — 93 typed edges (79 public with `verified` + `source_url`; see `ops/ecosystem/UNVERIFIED-RELATIONS.md`)
 - `designs.json` — source design metadata
 
 ## Build

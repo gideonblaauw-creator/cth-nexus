@@ -132,6 +132,11 @@ function normalizePolicyRelation(r) {
   };
 }
 
+/** Gideon rule: graph edges render only when publicly sourced. */
+export function isPublicGraphRelation(r) {
+  return Boolean(r && r.verified === true && r.source_url);
+}
+
 export function dataRelationsForChapter(dataRelations, byId, chapter = null, ctx = null, storyFocusCc = null) {
   if (!dataRelations?.length) return [];
   const out = [];
@@ -174,10 +179,11 @@ export function relationsForChapter(chapter, relations, byId = null, ctx = null,
   if (!chapter || chapter.id === 'partnerships') return [];
   let base;
   if (chapter.id === 'challenges') {
-    base = relations.filter((r) => r.type === 'works_on_challenge');
+    base = relations.filter((r) => r.type === 'works_on_challenge' && isPublicGraphRelation(r));
   } else {
     base = relations.filter(
-      (r) => chapter.edgeTypes.includes(r.type)
+      (r) => isPublicGraphRelation(r)
+        && chapter.edgeTypes.includes(r.type)
         && !isChallengeId(r.source)
         && !isChallengeId(r.target)
         && !isPolicyId(r.source)

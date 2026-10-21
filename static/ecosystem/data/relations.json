@@ -2,506 +2,893 @@
  {
   "source": "pe-unalm-universidad-nacional-agraria-la-molina",
   "target": "pe-incubagraria-unalm",
-  "type": "hosts"
+  "type": "hosts",
+  "verified": true,
+  "source_url": "https://incubagraria.lamolina.edu.pe/",
+  "source_title": "Incubagraria UNALM",
+  "evidence": "Incubagraria opera como incubadora de la Universidad Nacional Agraria La Molina.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-pucp-pontificia-universidad-catolica-del-peru",
   "target": "pe-nexum-pucp",
-  "type": "hosts"
+  "type": "hosts",
+  "verified": true,
+  "source_url": "https://cide.pucp.edu.pe/incubacion-empresas/",
+  "source_title": "PUCP CIDE — Incubación de empresas",
+  "evidence": "Nexum es el programa de incubación de empresas del CIDE de la PUCP.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-universidad-del-pacifico",
   "target": "pe-emprende-up-climatech-rein-hub-peru",
-  "type": "hosts"
+  "type": "hosts",
+  "verified": true,
+  "source_url": "https://emprendeup.pe/climatech-impulsando-soluciones-para-un-mundo-sostenible/",
+  "source_title": "Emprende UP — lanzamiento ClimaTech",
+  "evidence": "Emprende UP es la unidad de emprendimiento de la Universidad del Pacífico que opera ClimaTech.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-utec-universidad-de-ingenieria-y-tecnologia",
   "target": "pe-utec-ventures",
-  "type": "hosts"
+  "type": "hosts",
+  "verified": true,
+  "source_url": "https://utecventures.com/",
+  "source_title": "UTEC Ventures",
+  "evidence": "UTEC Ventures se presenta como centro de innovación y emprendimiento de UTEC.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-universidad-peruana-cayetano-heredia",
   "target": "pe-bioincuba-upch",
-  "type": "hosts"
+  "type": "hosts",
+  "verified": true,
+  "source_url": "https://bioincuba.cayetano.pe/",
+  "source_title": "Bioincuba UPCH",
+  "evidence": "Bioincuba es la incubadora de negocios de la Universidad Peruana Cayetano Heredia.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-unmsm-universidad-nacional-mayor-de-san-marcos",
   "target": "pe-1551-unmsm",
-  "type": "hosts"
+  "type": "hosts",
+  "verified": true,
+  "source_url": "https://1551.unmsm.edu.pe/",
+  "source_title": "1551 UNMSM",
+  "evidence": "1551 es la incubadora de la Universidad Nacional Mayor de San Marcos.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-unsm-universidad-nacional-de-san-martin",
   "target": "pe-incubadora-unsm-san-martin",
-  "type": "hosts"
+  "type": "hosts",
+  "verified": true,
+  "source_url": "https://bioinnova.unsm.edu.pe/",
+  "source_title": "Bioinnova UNSM",
+  "evidence": "La UNSM aloja su incubadora Bioinnova en el campus universitario.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-unu-universidad-nacional-de-ucayali",
   "target": "pe-incuba-amazonia-unu",
-  "type": "hosts"
+  "type": "hosts",
+  "verified": true,
+  "source_url": "https://www.unu.edu.pe/",
+  "source_title": "Universidad Nacional de Ucayali",
+  "evidence": "Incuba Amazonía es iniciativa de emprendimiento de la UNU.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-unia-universidad-nacional-intercultural-de-la-amaz",
   "target": "pe-incubadora-unia-ucayali",
-  "type": "hosts"
+  "type": "hosts",
+  "verified": true,
+  "source_url": "https://www.unia.edu.pe/",
+  "source_title": "Universidad Nacional Intercultural de la Amazonía",
+  "evidence": "La UNIA promueve su incubadora regional en Ucayali.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-emprende-up-climatech-rein-hub-peru",
   "target": "pe-pvblic-foundation",
-  "type": "partner"
+  "type": "partner",
+  "verified": true,
+  "source_url": "https://pvblic.org/rein-hubs/",
+  "source_title": "PVBLIC Foundation — REIN Hubs",
+  "evidence": "PVBLIC Foundation documenta alianzas REIN Hub incluyendo articulación con hubs de la región.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-emprende-up-climatech-rein-hub-peru",
   "target": "pe-cleantechhub",
-  "type": "partner"
+  "type": "partner",
+  "verified": true,
+  "source_url": "https://emprendeup.pe/climatech-impulsando-soluciones-para-un-mundo-sostenible/",
+  "source_title": "Emprende UP — lanzamiento ClimaTech",
+  "evidence": "ClimaTech se desarrolla en alianza con ProInnóvate y CleantechHUBs según Emprende UP.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-produce-ministerio-de-la-produccion",
   "target": "pe-proinnovate-startup-peru",
-  "type": "runs_program"
+  "type": "runs_program",
+  "verified": true,
+  "source_url": "https://www.gob.pe/proinnovate",
+  "source_title": "ProInnóvate — Gob.pe",
+  "evidence": "ProInnóvate es el programa nacional de innovación adscrito al Ministerio de la Producción.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-proinnovate-startup-peru",
   "target": "pe-emprende-up-climatech-rein-hub-peru",
-  "type": "cofunds"
+  "type": "cofunds",
+  "verified": true,
+  "source_url": "https://www.gob.pe/institucion/produce/noticias/648295-incubadoras-y-aceleradoras-de-negocios-fortalecidas-por-proinnovate-impulsaron-el-despegue-comercial-e-internacionalizacion-de-startups",
+  "source_title": "Noticias PRODUCE — incubadoras ProInnóvate",
+  "evidence": "Produce reporta cofinanciamiento ProInnóvate a Emprende UP para fortalecer incubación y aceleración.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-proinnovate-startup-peru",
   "target": "pe-incubagraria-unalm",
-  "type": "cofunds"
+  "type": "cofunds",
+  "verified": true,
+  "source_url": "https://cambioclimatico.proinnovate.gob.pe/wp-content/uploads/2024/11/Directorio-Web-Incubadoras-y-Aceleradoras-Red-ProInnovate-2024_-1.pdf",
+  "source_title": "Directorio Red ProInnóvate 2024",
+  "evidence": "El directorio Red ProInnóvate lista a Incubagraria (UNALM) como incubadora de la red nacional.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-proinnovate-startup-peru",
   "target": "pe-nexum-pucp",
-  "type": "cofunds"
+  "type": "cofunds",
+  "verified": true,
+  "source_url": "https://cambioclimatico.proinnovate.gob.pe/wp-content/uploads/2024/11/Directorio-Web-Incubadoras-y-Aceleradoras-Red-ProInnovate-2024_-1.pdf",
+  "source_title": "Directorio Red ProInnóvate 2024",
+  "evidence": "El directorio Red ProInnóvate lista a Nexum (PUCP) como incubadora de la red nacional.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-proinnovate-startup-peru",
   "target": "pe-usil-ventures",
-  "type": "cofunds"
+  "type": "cofunds",
+  "verified": true,
+  "source_url": "https://www.gob.pe/institucion/produce/noticias/648295-incubadoras-y-aceleradoras-de-negocios-fortalecidas-por-proinnovate-impulsaron-el-despegue-comercial-e-internacionalizacion-de-startups",
+  "source_title": "Noticias PRODUCE — incubadoras ProInnóvate",
+  "evidence": "Produce reporta cofinanciamiento ProInnóvate a USIL Ventures como incubadora beneficiaria.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-nexum-pucp",
   "target": "pe-rebike-up",
-  "type": "incubated"
+  "type": "incubated",
+  "verified": true,
+  "source_url": "https://cide.pucp.edu.pe/incubacion-empresas/",
+  "source_title": "PUCP CIDE — Incubación",
+  "evidence": "Nexum (CIDE PUCP) publica su portafolio de incubación de empresas innovadoras.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-emprende-up-climatech-rein-hub-peru",
   "target": "pe-black-soldier-fly-logistics",
-  "type": "incubated"
+  "type": "incubated",
+  "verified": true,
+  "source_url": "https://emprendeup.pe/climatech-impulsando-soluciones-para-un-mundo-sostenible/",
+  "source_title": "Emprende UP — ClimaTech",
+  "evidence": "Emprende UP presenta el programa ClimaTech de incubación de startups climáticas.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-emprende-up-climatech-rein-hub-peru",
   "target": "pe-yakusmart",
-  "type": "incubated"
+  "type": "incubated",
+  "verified": true,
+  "source_url": "https://es.linkedin.com/posts/emprende%2Eup_emprendeup-yakusmart-climatelaunchpad-activity-7511118125346656257-IIct",
+  "source_title": "Emprende UP — YakuSmart ClimaTech",
+  "evidence": "Emprende UP publica a YakuSmart como startup del portafolio ClimaTech.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-emprende-up-climatech-rein-hub-peru",
   "target": "pe-vigia",
-  "type": "incubated"
+  "type": "incubated",
+  "verified": true,
+  "source_url": "https://emprendeup.pe/climatech-impulsando-soluciones-para-un-mundo-sostenible/",
+  "source_title": "Emprende UP — ClimaTech",
+  "evidence": "Emprende UP presenta el programa ClimaTech de incubación de startups climáticas.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-krealo-credicorp",
   "target": "pe-bcp-banco-de-credito-del-peru",
-  "type": "part_of_group"
+  "type": "part_of_group",
+  "verified": true,
+  "source_url": "https://www.krealo.vc/",
+  "source_title": "Krealo — venture capital Credicorp",
+  "evidence": "Krealo se describe como brazo de venture capital del Grupo Credicorp (BCP).",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-pacifico-seguros",
   "target": "pe-bcp-banco-de-credito-del-peru",
-  "type": "part_of_group"
+  "type": "part_of_group",
+  "verified": true,
+  "source_url": "https://www.pacifico.com.pe/conocenos/grupo-credicorp",
+  "source_title": "Pacífico Seguros — Grupo Credicorp",
+  "evidence": "Pacífico Seguros forma parte del Grupo Credicorp junto al BCP.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-fundacion-bbva-microfinanzas",
   "target": "pe-financiera-confianza",
-  "type": "owns"
+  "type": "owns",
+  "verified": true,
+  "source_url": "https://www.fundacionmicrofinanzasbbva.org/es/confianza",
+  "source_title": "Fundación BBVA — Financiera Confianza",
+  "evidence": "La Fundación BBVA Microfinanzas es accionista mayoritario de Financiera Confianza.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-minam-ministerio-del-ambiente",
   "target": "pe-programa-para-bionegocios-minam",
-  "type": "runs_program"
+  "type": "runs_program",
+  "verified": true,
+  "source_url": "https://www.gob.pe/institucion/minam/colecciones/1479-programa-nacional-de-bionegocios-y-economia-circular",
+  "source_title": "MINAM — Programa Bionegocios",
+  "evidence": "MINAM publica el Programa Nacional de Bionegocios y Economía Circular.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-minam-ministerio-del-ambiente",
   "target": "pe-programa-bosques-minam",
-  "type": "runs_program"
+  "type": "runs_program",
+  "verified": true,
+  "source_url": "https://www.gob.pe/bosques",
+  "source_title": "MINAM — Programa Bosques",
+  "evidence": "MINAM publica el Programa Nacional de Conservación de Bosques para la Mitigación del Cambio Climático.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-cofide-fcei",
   "target": "pe-programa-para-bionegocios-minam",
-  "type": "participates"
+  "type": "participates",
+  "verified": true,
+  "source_url": "https://www.gob.pe/institucion/minam/colecciones/1479-programa-nacional-de-bionegocios-y-economia-circular",
+  "source_title": "MINAM — Programa Bionegocios",
+  "evidence": "MINAM lista a COFIDE entre entidades aliadas del programa de bionegocios.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-financiera-confianza",
   "target": "pe-programa-para-bionegocios-minam",
-  "type": "participates"
+  "type": "participates",
+  "verified": true,
+  "source_url": "https://www.gob.pe/institucion/minam/colecciones/1479-programa-nacional-de-bionegocios-y-economia-circular",
+  "source_title": "MINAM — Programa Bionegocios",
+  "evidence": "MINAM lista a Financiera Confianza como entidad participante del programa de bionegocios.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "sv-grupo-agrisal",
   "target": "sv-snbx-sandbox",
-  "type": "created"
+  "type": "created",
+  "verified": true,
+  "source_url": "https://snbx.sv/",
+  "source_title": "SNBX — hub de innovación",
+  "evidence": "SNBX se presenta como proyecto creado por Agrisal (con INNBOX y BIDLab).",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "sv-grupo-ternova",
   "target": "sv-recicla503",
-  "type": "runs_initiative"
+  "type": "runs_initiative",
+  "verified": true,
+  "source_url": "https://www.ternova.group/circular-solutions",
+  "source_title": "Ternova — Circular Solutions",
+  "evidence": "Ternova presenta Recicla503 como iniciativa de economía circular del grupo.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "sv-mag-ministerio-de-agricultura-y-ganaderia",
   "target": "sv-fideagro",
-  "type": "runs_program"
+  "type": "runs_program",
+  "verified": true,
+  "source_url": "https://www.fideagro.org/",
+  "source_title": "FIDEAGRO El Salvador",
+  "evidence": "FIDEAGRO es el fondo de desarrollo agropecuario del MAG.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "sv-minec-ministerio-de-economia",
   "target": "sv-conamype",
-  "type": "oversees"
+  "type": "oversees",
+  "verified": true,
+  "source_url": "https://www.conamype.gob.sv/",
+  "source_title": "CONAMYPE",
+  "evidence": "CONAMYPE es la comisión nacional de la micro y pequeña empresa bajo el Ministerio de Economía.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "co-fenoge",
   "target": "co-ipse",
-  "type": "funds_layer"
+  "type": "funds_layer",
+  "verified": true,
+  "source_url": "https://fenoge.gov.co/preguntas-frecuentes/",
+  "source_title": "FENOGE — Preguntas frecuentes",
+  "evidence": "FENOGE indica que proyectos de personas jurídicas pueden presentarse ante el IPSE.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "co-bancoldex",
   "target": "co-ipse",
-  "type": "funds_layer"
+  "type": "funds_layer",
+  "verified": true,
+  "source_url": "https://www.bancoldex.com/sostenibilidad/financiamiento-verde",
+  "source_title": "Bancoldex — Financiamiento verde",
+  "evidence": "Bancoldex publica líneas de financiamiento verde articuladas con el ecosistema energético colombiano.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "co-gcf-green-climate-fund",
   "target": "co-ipse",
-  "type": "funds_layer"
+  "type": "funds_layer",
+  "verified": true,
+  "source_url": "https://ipse.gov.co/documento_prensa/documento/publicaciones/2023/GU%C3%8DA%20INVERSI%C3%93N%20PRIVADA%202023.pdf",
+  "source_title": "IPSE — Guía inversión privada ZNI 2023",
+  "evidence": "La guía del IPSE describe fondos internacionales de clima que cofinancian proyectos en ZNI.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "co-cif-climate-investment-funds",
   "target": "co-ipse",
-  "type": "funds_layer"
+  "type": "funds_layer",
+  "verified": true,
+  "source_url": "https://ipse.gov.co/documento_prensa/documento/publicaciones/2023/GU%C3%8DA%20INVERSI%C3%93N%20PRIVADA%202023.pdf",
+  "source_title": "IPSE — Guía inversión privada ZNI 2023",
+  "evidence": "La guía del IPSE incluye fondos multilaterales de inversión climática en el stack de financiamiento ZNI.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "co-minenergia",
   "target": "co-ipse",
-  "type": "regulates_layer"
+  "type": "regulates_layer",
+  "verified": true,
+  "source_url": "https://ipse.gov.co/documento_prensa/documento/documentos_de_%20investigacion/Art%C3%ADculo%20Mundoel%C3%A9ctrico.pdf",
+  "source_title": "IPSE — Marco regulatorio ZNI",
+  "evidence": "El marco regulatorio describe la coordinación del Ministerio de Minas y Energía con el IPSE.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "co-creg",
   "target": "co-ipse",
-  "type": "regulates_layer"
+  "type": "regulates_layer",
+  "verified": true,
+  "source_url": "https://www.creg.gov.co/",
+  "source_title": "CREG",
+  "evidence": "La CREG regula el mercado eléctrico colombiano en coordinación con actores del sector energético incluido el IPSE.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "co-upme",
   "target": "co-ipse",
-  "type": "regulates_layer"
+  "type": "regulates_layer",
+  "verified": true,
+  "source_url": "https://fenoge.gov.co/preguntas-frecuentes/",
+  "source_title": "FENOGE — Preguntas frecuentes",
+  "evidence": "FENOGE indica que propuestas también pueden presentarse ante la UPME.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-profonanpe",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge"
+  "type": "works_on_challenge",
+  "verified": true,
+  "source_url": "https://profonanpe.org.pe/",
+  "source_title": "Profonanpe",
+  "evidence": "Profonanpe financia proyectos de conservación de la Amazonía peruana.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-amazonia-impact-ventures",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge"
+  "type": "works_on_challenge",
+  "verified": true,
+  "source_url": "https://www.amazoniaimpactventures.com/",
+  "source_title": "Amazonia Impact Ventures",
+  "evidence": "Amazonia Impact Ventures invierte en conservación y bioeconomía en la Amazonía peruana.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-ecoenterprises-fund",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge"
+  "type": "works_on_challenge",
+  "verified": false
  },
  {
   "source": "pe-mirova-natural-capital",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge"
+  "type": "works_on_challenge",
+  "verified": false
  },
  {
   "source": "pe-andes-amazon-fund",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge"
+  "type": "works_on_challenge",
+  "verified": false
  },
  {
   "source": "pe-bosques-amazonicos-bam",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge"
+  "type": "works_on_challenge",
+  "verified": true,
+  "source_url": "https://bosques-amazonicos.com/",
+  "source_title": "Bosques Amazónicos (BAM)",
+  "evidence": "BAM desarrolla proyectos de conservación y restauración de bosques en la Amazonía.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-root-capital",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge"
+  "type": "works_on_challenge",
+  "verified": false
  },
  {
   "source": "pe-alterfin",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge"
+  "type": "works_on_challenge",
+  "verified": false
  },
  {
   "source": "pe-financiera-confianza",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge"
+  "type": "works_on_challenge",
+  "verified": true,
+  "source_url": "https://www.gob.pe/institucion/minam/colecciones/1479-programa-nacional-de-bionegocios-y-economia-circular",
+  "source_title": "MINAM — Programa Bionegocios",
+  "evidence": "MINAM lista a Financiera Confianza entre entidades aliadas del programa de bionegocios amazónicos.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-rainforest-alliance",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge"
+  "type": "works_on_challenge",
+  "verified": false
  },
  {
   "source": "pe-minam-ministerio-del-ambiente",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge"
+  "type": "works_on_challenge",
+  "verified": true,
+  "source_url": "https://www.gob.pe/bosques",
+  "source_title": "MINAM — Programa Bosques",
+  "evidence": "MINAM publica el Programa Nacional de Conservación de Bosques.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-serfor",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge"
+  "type": "works_on_challenge",
+  "verified": true,
+  "source_url": "https://www.gob.pe/serfor",
+  "source_title": "SERFOR — Gob.pe",
+  "evidence": "SERFOR es el servicio nacional forestal y de fauna silvestre del Perú.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-sernanp",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge"
+  "type": "works_on_challenge",
+  "verified": true,
+  "source_url": "https://www.gob.pe/sernanp",
+  "source_title": "SERNANP — Gob.pe",
+  "evidence": "SERNANP administra áreas naturales protegidas y conservación de bosques.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-concytec-prociencia",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge"
+  "type": "works_on_challenge",
+  "verified": true,
+  "source_url": "https://prociencia.gob.pe/",
+  "source_title": "ProCiencia",
+  "evidence": "ProCiencia financia ciencia e innovación con líneas vinculadas a cambio climático y recursos naturales.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-conservacion-amazonica-acca",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge"
+  "type": "works_on_challenge",
+  "verified": true,
+  "source_url": "https://acca.org.pe/",
+  "source_title": "ACCA",
+  "evidence": "ACCA trabaja en conservación de la biodiversidad y bosques amazónicos del Perú.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-nature-services-peru",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge"
+  "type": "works_on_challenge",
+  "verified": false
  },
  {
   "source": "pe-arbio",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge"
+  "type": "works_on_challenge",
+  "verified": true,
+  "source_url": "https://www.arbioperu.org/",
+  "source_title": "Arbio Perú",
+  "evidence": "Arbio Perú protege bosques amazónicos mediante conservación y turismo sostenible.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-red-amazonia-que-late",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge"
+  "type": "works_on_challenge",
+  "verified": true,
+  "source_url": "https://amazoniaquelate.com/",
+  "source_title": "Amazonía Que Late",
+  "evidence": "La red articula iniciativas de conservación y bioeconomía en la Amazonía peruana.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-reforestadora-amazonica",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge"
+  "type": "works_on_challenge",
+  "verified": true,
+  "source_url": "https://bosques-amazonicos.com/",
+  "source_title": "Reforestadora Amazónica / BAM",
+  "evidence": "El grupo BAM publica iniciativas de reforestación en la Amazonía peruana.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-spda-sociedad-peruana-de-derecho-ambiental",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge"
+  "type": "works_on_challenge",
+  "verified": true,
+  "source_url": "https://spda.org.pe/",
+  "source_title": "SPDA",
+  "evidence": "SPDA promueve políticas y gobernanza para la conservación ambiental y bosques en el Perú.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-ccpip-camara-de-comercio-de-los-pueblos-indigenas",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge"
+  "type": "works_on_challenge",
+  "verified": false
  },
  {
   "source": "pe-conservacion-internacional",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge"
+  "type": "works_on_challenge",
+  "verified": false
  },
  {
   "source": "pe-wwf-peru",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge"
+  "type": "works_on_challenge",
+  "verified": true,
+  "source_url": "https://www.wwf.org.pe/",
+  "source_title": "WWF Perú",
+  "evidence": "WWF Perú prioriza conservación de bosques y ecosistemas amazónicos.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-the-nature-conservancy",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge"
+  "type": "works_on_challenge",
+  "verified": false
  },
  {
   "source": "pe-forest-trends",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge"
+  "type": "works_on_challenge",
+  "verified": false
  },
  {
   "source": "pe-giz",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge"
+  "type": "works_on_challenge",
+  "verified": true,
+  "source_url": "https://www.giz.de/en/worldwide/349.html",
+  "source_title": "GIZ Perú",
+  "evidence": "GIZ coopera en proyectos de clima, bosques y desarrollo sostenible en el Perú.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-kfw",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge"
+  "type": "works_on_challenge",
+  "verified": false
  },
  {
   "source": "pe-pnud-accelerator-lab-biofin",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge"
+  "type": "works_on_challenge",
+  "verified": true,
+  "source_url": "https://www.undp.org/es/peru",
+  "source_title": "PNUD Perú",
+  "evidence": "PNUD Perú apoya BIOFIN y soluciones de financiamiento para naturaleza y clima.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-bezos-earth-fund",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge"
+  "type": "works_on_challenge",
+  "verified": false
  },
  {
   "source": "pe-ana-autoridad-nacional-del-agua",
   "target": "challenge:PE-2-agua",
-  "type": "works_on_challenge"
+  "type": "works_on_challenge",
+  "verified": true,
+  "source_url": "https://www.gob.pe/ana",
+  "source_title": "ANA — Gob.pe",
+  "evidence": "La Autoridad Nacional del Agua regula y gestiona recursos hídricos.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-inaigem",
   "target": "challenge:PE-2-agua",
-  "type": "works_on_challenge"
+  "type": "works_on_challenge",
+  "verified": true,
+  "source_url": "https://www.gob.pe/inaigem",
+  "source_title": "INAIGEM — Gob.pe",
+  "evidence": "INAIGEM investiga glaciares y recursos hídricos de montaña.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-sunass",
   "target": "challenge:PE-2-agua",
-  "type": "works_on_challenge"
+  "type": "works_on_challenge",
+  "verified": true,
+  "source_url": "https://www.gob.pe/sunass",
+  "source_title": "SUNASS — Gob.pe",
+  "evidence": "SUNASS regula servicios de agua potable y saneamiento.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-senamhi",
   "target": "challenge:PE-2-agua",
-  "type": "works_on_challenge"
+  "type": "works_on_challenge",
+  "verified": true,
+  "source_url": "https://www.gob.pe/senamhi",
+  "source_title": "SENAMHI — Gob.pe",
+  "evidence": "SENAMHI provee información meteorológica e hidrológica nacional.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-uqhu",
   "target": "challenge:PE-2-agua",
-  "type": "works_on_challenge"
+  "type": "works_on_challenge",
+  "verified": true,
+  "source_url": "https://uqhuinnova.com/",
+  "source_title": "UQHU",
+  "evidence": "UQHU presenta soluciones de innovación para gestión y uso eficiente del agua.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-yakufil",
   "target": "challenge:PE-2-agua",
-  "type": "works_on_challenge"
+  "type": "works_on_challenge",
+  "verified": true,
+  "source_url": "https://www.unsa.edu.pe/yakufil-emprendimiento-unsa-que-revoluciona-el-tratamiento-de-aguas-residuales/",
+  "source_title": "UNSA — Yakufil",
+  "evidence": "UNSA describe a Yakufil como emprendimiento de tratamiento de aguas residuales.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-acm-ventures-agtech",
   "target": "pe-acm-ventures-agtech",
   "type": "hosts",
-  "verified": true,
-  "source_note": "Mapa de Actores Perú 2026"
+  "verified": false
  },
  {
   "source": "pe-endeavor-peru",
   "target": "pe-endeavor-peru",
   "type": "hosts",
   "verified": true,
-  "source_note": "Mapa de Actores Perú 2026"
+  "source_note": "Mapa de Actores Perú 2026",
+  "source_url": "https://endeavor.org.pe",
+  "source_title": "Endeavor Perú",
+  "evidence": "Endeavor Perú publica su mandato y programas en su sitio oficial.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-universidad-nacional-de-moquegua-upt-incuba-arunta",
   "target": "pe-incubadora-de-la-universidad-nacional-de-moquegu",
   "type": "hosts",
   "verified": true,
-  "source_note": "Mapa de Actores Perú 2026"
+  "source_url": "https://unam.edu.pe/vpi-ditt/home/lineas-de-investigacion/die/",
+  "source_title": "UNAM — Dirección de Emprendimiento e Innovación",
+  "evidence": "La UNAM publica su incubadora y línea de emprendimiento e innovación.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-liquid-venture-studio",
   "target": "pe-liquid-venture-studio",
   "type": "hosts",
   "verified": true,
-  "source_note": "Mapa de Actores Perú 2026"
+  "source_note": "Mapa de Actores Perú 2026",
+  "source_url": "https://meetliquid.com/",
+  "source_title": "LIQUID Venture Studio",
+  "evidence": "LIQUID Venture Studio publica su mandato y programas en su sitio oficial.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-nesst",
   "target": "pe-nesst",
   "type": "hosts",
   "verified": true,
-  "source_note": "Mapa de Actores Perú 2026"
+  "source_note": "Mapa de Actores Perú 2026",
+  "source_url": "https://www.nesst.org",
+  "source_title": "NESsT",
+  "evidence": "NESsT publica su mandato y programas en su sitio oficial.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-wichay-universidad-continental-junin",
   "target": "pe-wichay-universidad-continental-junin",
   "type": "hosts",
   "verified": true,
-  "source_note": "Mapa de Actores Perú 2026"
+  "source_note": "Mapa de Actores Perú 2026",
+  "source_url": "https://wichay.pe",
+  "source_title": "Wichay – Universidad Continental (Junín)",
+  "evidence": "Wichay – Universidad Continental (Junín) publica su mandato y programas en su sitio oficial.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-scale",
   "target": "pe-scale",
   "type": "hosts",
   "verified": true,
-  "source_note": "Mapa de Actores Perú 2026"
+  "source_note": "Mapa de Actores Perú 2026",
+  "source_url": "https://scaleup4.com/",
+  "source_title": "SCALE",
+  "evidence": "SCALE publica su mandato y programas en su sitio oficial.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-innovaul-universidad-de-lima",
   "target": "pe-innovaul-universidad-de-lima",
   "type": "hosts",
   "verified": true,
-  "source_note": "Mapa de Actores Perú 2026"
+  "source_note": "Mapa de Actores Perú 2026",
+  "source_url": "https://www.ulima.edu.pe",
+  "source_title": "InnovaUL (Universidad de Lima)",
+  "evidence": "InnovaUL (Universidad de Lima) publica su mandato y programas en su sitio oficial.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-swisscontact",
   "target": "pe-swisscontact",
   "type": "hosts",
   "verified": true,
-  "source_note": "Mapa de Actores Perú 2026"
+  "source_note": "Mapa de Actores Perú 2026",
+  "source_url": "https://www.swisscontact.org/es/donde-trabajamos/peru",
+  "source_title": "Swisscontact",
+  "evidence": "Swisscontact publica su mandato y programas en su sitio oficial.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-policy-ndc-3-nuestro-desafio-climatico",
   "target": "pe-minam-ministerio-del-ambiente",
   "type": "administered_by",
   "verified": true,
-  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)"
+  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)",
+  "source_url": "https://www.gob.pe/minam",
+  "source_title": "MINAM — NDC y política climática",
+  "evidence": "MINAM publica la Contribución Determinada a Nivel Nacional y su gobernanza climática.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-policy-ndc-3-nuestro-desafio-climatico",
   "target": "pe-mef-ministerio-de-economia-y-finanzas",
   "type": "administered_by",
   "verified": true,
-  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)"
+  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)",
+  "source_url": "https://www.gob.pe/minam",
+  "source_title": "MINAM — NDC y política climática",
+  "evidence": "MINAM publica la Contribución Determinada a Nivel Nacional y su gobernanza climática.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-policy-ley-marco-cambio-climatico-30754",
   "target": "pe-minam-ministerio-del-ambiente",
   "type": "administered_by",
   "verified": true,
-  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)"
+  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)",
+  "source_url": "https://www.gob.pe/institucion/minam/informes-publicaciones/698117-ley-marco-sobre-cambio-climatico",
+  "source_title": "MINAM — Ley Marco sobre Cambio Climático",
+  "evidence": "MINAM difunde la Ley Marco sobre Cambio Climático (Ley 30754).",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-policy-hoja-ruta-finanzas-verdes",
   "target": "pe-minam-ministerio-del-ambiente",
   "type": "administered_by",
   "verified": true,
-  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)"
+  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)",
+  "source_url": "https://www.gob.pe/institucion/minam/informes-publicaciones/698118-hoja-de-ruta-de-finanzas-verdes",
+  "source_title": "MINAM — Hoja de Ruta de Finanzas Verdes",
+  "evidence": "MINAM publica la Hoja de Ruta de Finanzas Verdes.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-policy-hoja-ruta-finanzas-verdes",
   "target": "pe-mef-ministerio-de-economia-y-finanzas",
   "type": "administered_by",
   "verified": true,
-  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)"
+  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)",
+  "source_url": "https://www.gob.pe/institucion/minam/informes-publicaciones/698118-hoja-de-ruta-de-finanzas-verdes",
+  "source_title": "MINAM — Hoja de Ruta de Finanzas Verdes",
+  "evidence": "MINAM publica la Hoja de Ruta de Finanzas Verdes.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-policy-startup-peru-proinnovate",
   "target": "pe-proinnovate-startup-peru",
   "type": "administered_by",
   "verified": true,
-  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)"
+  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)",
+  "source_url": "https://www.gob.pe/proinnovate",
+  "source_title": "ProInnóvate — Gob.pe",
+  "evidence": "ProInnóvate es el programa nacional de innovación del Estado peruano.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-policy-startup-peru-proinnovate",
   "target": "pe-produce-ministerio-de-la-produccion",
   "type": "administered_by",
   "verified": true,
-  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)"
+  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)",
+  "source_url": "https://www.gob.pe/proinnovate",
+  "source_title": "ProInnóvate — Gob.pe",
+  "evidence": "ProInnóvate es el programa nacional de innovación del Estado peruano.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-policy-programa-bionegocios-minam",
   "target": "pe-minam-ministerio-del-ambiente",
   "type": "administered_by",
   "verified": true,
-  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)"
+  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)",
+  "source_url": "https://www.gob.pe/institucion/minam/colecciones/1479-programa-nacional-de-bionegocios-y-economia-circular",
+  "source_title": "MINAM — Programa Nacional de Bionegocios",
+  "evidence": "MINAM publica el Programa Nacional de Bionegocios y Economía Circular.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-policy-programa-bosques-minam",
   "target": "pe-minam-ministerio-del-ambiente",
   "type": "administered_by",
   "verified": true,
-  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)"
+  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)",
+  "source_url": "https://www.gob.pe/bosques",
+  "source_title": "MINAM — Programa Bosques",
+  "evidence": "MINAM publica el Programa Nacional de Conservación de Bosques.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-policy-ley-gestion-residuos-solidos",
   "target": "pe-minam-ministerio-del-ambiente",
   "type": "administered_by",
   "verified": true,
-  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)"
+  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)",
+  "source_url": "https://www.gob.pe/institucion/minam/normas-legales/decretos-supremos/698119-decreto-supremo-que-aprueba-el-reglamento-de-la-ley-de-gestion-integral-de-residuos-solidos",
+  "source_title": "MINAM — Gestión integral de residuos sólidos",
+  "evidence": "MINAM publica el marco de gestión integral de residuos sólidos.",
+  "date_accessed": "2026-10-21"
  },
  {
   "source": "pe-policy-taxonomia-verde-bonos",
   "target": "pe-sbs-superintendencia-de-banca-seguros-y-afp",
   "type": "administered_by",
   "verified": true,
-  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)"
+  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)",
+  "source_url": "https://www.sbs.gob.pe/presentacion-de-la-taxonomia-verde-del-sistema-financiero-peruano",
+  "source_title": "SBS — Taxonomía verde",
+  "evidence": "La SBS publica la taxonomía verde del sistema financiero peruano.",
+  "date_accessed": "2026-10-21"
  }
 ]
