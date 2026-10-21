@@ -28,7 +28,12 @@ tag_country: Peru
 
 ## Rol y alcance
 
-PENDIENTE
+La Fundación Anglo American apoya programas de desarrollo comunitario y sostenibilidad vinculados a operaciones mineras del grupo en la región.
+
+- **Año de fundación:** PENDIENTE
+- **Dirección:** PENDIENTE
+- **Áreas de enfoque (taxonomía CT):** PENDIENTE
+- **Programas:** Programas sociales y ambientales en comunidades de influencia de Anglo American
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +47,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Fundación Anglo American Chile (referencia regional) — https://chile.angloamerican.com/es-es/fundacion

@@ -28,7 +28,12 @@ tag_country: Peru
 
 ## Rol y alcance
 
-PENDIENTE
+Nexum es la iniciativa de emprendimiento e innovación del Centro de Innovación y Desarrollo Empresarial (CIDE) de la PUCP para startups de impacto.
+
+- **Año de fundación:** PENDIENTE
+- **Dirección:** PUCP, San Miguel, Lima, Perú
+- **Áreas de enfoque (taxonomía CT):** AGR, AGU
+- **Programas:** Programas de incubación y aceleración Nexum en la PUCP (CIDE)
 
 ## Relaciones (ecosistema)
 
@@ -44,3 +49,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- CIDE PUCP (Nexum) — https://cide.pucp.edu.pe/tag/nexum

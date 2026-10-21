@@ -21,14 +21,19 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.elea.org/en/home-en |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/elea-foundation-for-impact-investments |
 | Rol en el ecosistema | Empresa / sector privado |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+elea es la fundación de inversión de impacto del Grupo André; invierte capital paciente y acompaña empresas que mejoran la vida de personas de bajos ingresos.
+
+- **Año de fundación:** 2006
+- **Dirección:** PENDIENTE (oficina regional; sede en Liechtenstein/Suiza)
+- **Áreas de enfoque (taxonomía CT):** PENDIENTE
+- **Programas:** Inversiones de impacto en agricultura, salud y servicios esenciales en mercados emergentes
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +47,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- elea — https://www.elea.org/en/home-en
+- LinkedIn — https://www.linkedin.com/company/elea-foundation-for-impact-investments

@@ -21,14 +21,19 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://elperuano.pe |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/elperuano |
 | Rol en el ecosistema | Empresa / sector privado |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+El Peruano es el diario oficial del Estado peruano; publica normas legales, disposiciones de gobierno y suplementos especializados en versión impresa y digital.
+
+- **Año de fundación:** 1825
+- **Dirección:** PENDIENTE (Editora Perú, Lima)
+- **Áreas de enfoque (taxonomía CT):** PENDIENTE
+- **Programas:** Publicación de normas legales y TUPA; suplementos Jurídica y Económika; portal de normas legales
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +47,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- El Peruano — https://elperuano.pe/
+- Normas legales — https://diariooficial.elperuano.pe/Normas
+- LinkedIn — https://www.linkedin.com/company/elperuano

@@ -19,16 +19,21 @@ tag_country: Peru
 | Categoría | accelerator |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Cuzco |
-| Sitio web | https://www.kunan.com.pe |
-| LinkedIn | PENDIENTE |
+| Ciudad | Lima |
+| Sitio web | https://kunan.org/ |
+| LinkedIn | https://www.linkedin.com/company/kunanesahora |
 | Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Kunan es la plataforma peruana de emprendimiento social y ambiental; articula convocatorias, formación y visibilidad para emprendimientos de impacto.
+
+- **Año de fundación:** 2014
+- **Dirección:** Av. Tullumayo, Cusco / operaciones en Lima
+- **Áreas de enfoque (taxonomía CT):** PENDIENTE
+- **Programas:** Desafío Kunan; Red Kunan; programas de formación y conexión con aliados corporativos
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +47,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Kunan — https://kunan.org/desafio-kunan/
+- LinkedIn — https://www.linkedin.com/company/kunanesahora

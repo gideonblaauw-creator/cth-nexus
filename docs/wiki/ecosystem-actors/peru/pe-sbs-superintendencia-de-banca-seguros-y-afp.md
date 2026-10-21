@@ -19,16 +19,21 @@ tag_country: Peru
 | Categoría | government |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | San Isidro |
 | Sitio web | https://www.sbs.gob.pe |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/sbsperu |
 | Rol en el ecosistema | Actor público / regulador |
 | Desafíos (códigos) | ENE, FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+La SBS regula y supervisa el sistema financiero, de seguros y de pensiones privadas, y previene lavado de activos y financiamiento del terrorismo.
+
+- **Año de fundación:** 1931
+- **Dirección:** Av. Dos de Mayo 1475, San Isidro, Lima, Perú
+- **Áreas de enfoque (taxonomía CT):** ENE, FIN
+- **Programas:** Normativa prudencial; supervisión de bancos, seguros, AFP y cooperativas
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +47,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- SBS — https://www.gob.pe/sbs
+- LinkedIn — https://www.linkedin.com/company/sbsperu

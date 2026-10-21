@@ -21,14 +21,19 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.eeas.europa.eu/delegations/perú_es?s=162 |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/ueenperu |
 | Rol en el ecosistema | Empresa / sector privado |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Los Estados miembros de la Unión Europea, a través de la Delegación de la UE en el Perú, coordinan cooperación y políticas compartidas en desarrollo sostenible y clima.
+
+- **Año de fundación:** PENDIENTE
+- **Dirección:** Av. Javier Prado Oeste 790, San Isidro, Lima, Perú (Delegación UE)
+- **Áreas de enfoque (taxonomía CT):** PENDIENTE
+- **Programas:** Programas Team Europe en Perú; diálogo político y cooperación en transición verde y gobernanza
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +47,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Delegación UE en Perú — https://www.eeas.europa.eu/delegations/per%C3%BA_es
+- LinkedIn Delegación UE Perú — https://www.linkedin.com/company/delegation-of-the-european-union-to-peru

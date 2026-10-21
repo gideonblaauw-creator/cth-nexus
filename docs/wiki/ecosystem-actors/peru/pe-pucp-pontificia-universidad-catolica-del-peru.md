@@ -19,16 +19,21 @@ tag_country: Peru
 | Categoría | academia |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | San Miguel |
 | Sitio web | https://www.pucp.edu.pe |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/pontificia-universidad-cat-lica-del-per- |
 | Rol en el ecosistema | Universidad o centro de investigación |
 | Desafíos (códigos) | AGU, BOS |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+La PUCP es universidad privada de investigación en Lima; articula docencia, investigación y emprendimiento a través de centros como el CIDE.
+
+- **Año de fundación:** 1917
+- **Dirección:** Av. Universitaria 1801, San Miguel, Lima, Perú
+- **Áreas de enfoque (taxonomía CT):** AGU, BOS
+- **Programas:** CIDE y programas de innovación (Nexum); investigación ambiental y de desarrollo sostenible
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +47,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- PUCP — https://www.pucp.edu.pe/
+- LinkedIn — https://www.linkedin.com/company/pontificia-universidad-cat-lica-del-per-

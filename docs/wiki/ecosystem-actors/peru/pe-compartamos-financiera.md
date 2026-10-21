@@ -19,16 +19,21 @@ tag_country: Peru
 | Categoría | finance |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Los Olivos |
+| Ciudad | Lima |
 | Sitio web | https://www.compartamos.com.pe |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/compartamos-financiera |
 | Rol en el ecosistema | Institución financiera |
 | Desafíos (códigos) | AGR, FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Compartamos Financiera es entidad regulada por la SBS especializada en créditos grupales y financiamiento a microempresarios, con foco en inclusión financiera.
+
+- **Año de fundación:** 2004
+- **Dirección:** PENDIENTE (red nacional; sede administrativa en Lima)
+- **Áreas de enfoque (taxonomía CT):** AGR, FIN
+- **Programas:** Crédito grupal y individual para microempresas; seguros y servicios complementarios
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +47,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Compartamos Financiera — https://www.compartamos.com.pe/
+- LinkedIn — https://www.linkedin.com/company/compartamos-financiera

@@ -21,14 +21,19 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://www.bancoagricola.com |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/bancoagricola |
 | Rol en el ecosistema | Institución financiera |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Banco Agrícola es la principal entidad financiera de El Salvador, con amplia red de agencias y servicios digitales para personas y empresas.
+
+- **Año de fundación:** 1955
+- **Dirección:** Blvd. Constitución 100, San Salvador, El Salvador
+- **Áreas de enfoque (taxonomía CT):** PENDIENTE
+- **Programas:** Banca personal y empresarial; crédito, ahorro, seguros y banca digital
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +47,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Banco Agrícola — https://www.bancoagricola.com/
+- LinkedIn — https://www.linkedin.com/company/bancoagricola

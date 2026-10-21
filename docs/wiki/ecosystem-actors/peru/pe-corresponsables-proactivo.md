@@ -21,14 +21,19 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://proactivo.com.pe |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/revista-proactivo |
 | Rol en el ecosistema | Empresa / sector privado |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Actor dual en comunicación sostenible: ProActivo (revista peruana de minería, energía y medio ambiente) y Corresponsables (medio iberoamericano de RSE y comunicación responsable).
+
+- **Año de fundación:** PENDIENTE
+- **Dirección:** Lima, Perú (ProActivo); Barcelona, España (sede Corresponsables)
+- **Áreas de enfoque (taxonomía CT):** PENDIENTE
+- **Programas:** Publicaciones ProActivo; contenidos y eventos Corresponsables/Jornadas Corresponsables
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +47,7 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- ProActivo — https://proactivo.com.pe/
+- LinkedIn ProActivo — https://www.linkedin.com/company/revista-proactivo
+- Corresponsables — https://www.corresponsables.com/quienes-somos/
+- LinkedIn Corresponsables — https://www.linkedin.com/company/corresponsables/

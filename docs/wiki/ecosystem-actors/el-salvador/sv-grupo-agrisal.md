@@ -21,14 +21,19 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://agrisal.com |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/grupo-agrisal |
 | Rol en el ecosistema | Empresa / sector privado |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Grupo Agrisal es conglomerado salvadoreño con operaciones en agroindustria, hotelería y servicios, con presencia regional.
+
+- **Año de fundación:** PENDIENTE
+- **Dirección:** PENDIENTE (San Salvador)
+- **Áreas de enfoque (taxonomía CT):** PENDIENTE
+- **Programas:** Negocios agroindustriales y cadena de suministro alimentaria en Centroamérica
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +47,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Grupo Agrisal — https://agrisal.com/

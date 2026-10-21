@@ -28,7 +28,12 @@ tag_country: Peru
 
 ## Rol y alcance
 
-PENDIENTE
+Ganamás es medio de comunicación peruano enfocado en emprendimiento, negocios y economía popular.
+
+- **Año de fundación:** PENDIENTE
+- **Dirección:** PENDIENTE
+- **Áreas de enfoque (taxonomía CT):** PENDIENTE
+- **Programas:** Contenidos editoriales y cobertura de emprendimiento en Perú (Ganamás)
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +47,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Ganamás — https://ganamas.com.pe/

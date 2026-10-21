@@ -28,7 +28,12 @@ tag_country: El Salvador
 
 ## Rol y alcance
 
-PENDIENTE
+FIDEAGRO es fondo de inversión enfocado en el sector agroalimentario de Centroamérica, impulsando cadenas de valor rurales.
+
+- **Año de fundación:** PENDIENTE
+- **Dirección:** PENDIENTE (San Salvador)
+- **Áreas de enfoque (taxonomía CT):** PENDIENTE
+- **Programas:** Inversión y acompañamiento a empresas agroalimentarias en la región
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +47,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- FIDEAGRO — https://www.fideagro.org/

@@ -21,14 +21,19 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.unmsm.edu.pe |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/universidad-nacional-mayor-de-san-marcos |
 | Rol en el ecosistema | Universidad o centro de investigación |
 | Desafíos (códigos) | CIU, ENE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+La UNMSM es la universidad pública más antigua del Perú; forma profesionales y desarrolla investigación con incubadora 1551 para emprendimiento innovador.
+
+- **Año de fundación:** 1551
+- **Dirección:** Ciudad Universitaria, Av. Universitaria s/n, Lima, Perú
+- **Áreas de enfoque (taxonomía CT):** CIU, ENE
+- **Programas:** 1551 Incubadora de Empresas Innovadoras; programas de investigación y transferencia tecnológica
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +47,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- UNMSM — https://www.unmsm.edu.pe/
+- 1551 — https://1551.unmsm.edu.pe/
+- LinkedIn UNMSM — https://www.linkedin.com/company/universidad-nacional-mayor-de-san-marcos

@@ -21,14 +21,19 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Magdalena del Mar |
 | Sitio web | https://www.gob.pe/sunass |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/sunass-oficial |
 | Rol en el ecosistema | Actor público / regulador |
 | Desafíos (códigos) | FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+SUNASS regula y supervisa los servicios de agua potable y saneamiento en el Perú para garantizar calidad y sostenibilidad tarifaria.
+
+- **Año de fundación:** 1992
+- **Dirección:** Calle Bernardo Monteagudo 216, Magdalena del Mar, Lima, Perú
+- **Áreas de enfoque (taxonomía CT):** FIN
+- **Programas:** Regulación tarifaria; supervisión de empresas prestadoras; programas de eficiencia hídrica
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +47,5 @@ PENDIENTE
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- SUNASS — https://www.gob.pe/sunass
+- LinkedIn — https://www.linkedin.com/company/sunass-oficial

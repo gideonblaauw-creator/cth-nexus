@@ -21,14 +21,19 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Barranco |
 | Sitio web | https://grade.org.pe |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/gradeperu |
 | Rol en el ecosistema | Universidad o centro de investigación |
 | Desafíos (códigos) | AGR, BOS, CIU |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+GRADE es centro de investigación aplicada sin fines de lucro que genera evidencia para políticas públicas en inclusión social, economía y sostenibilidad ambiental.
+
+- **Año de fundación:** 1980
+- **Dirección:** Av. Almirante Grau 915, Barranco, Lima 15063, Perú
+- **Áreas de enfoque (taxonomía CT):** AGR, BOS, CIU
+- **Programas:** Líneas de investigación; asesoría a sector público; publicaciones y cursos de capacitación
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +47,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- GRADE — https://grade.org.pe/quienes-somos/
+- LinkedIn — https://www.linkedin.com/company/gradeperu
