@@ -2,18 +2,24 @@
 
 Batch **eco-b**: suspect `ecosystem_actor` pins from `location-gaps.csv`, sorted by `id`, rows **69–136** (68 entities).
 
+## Policy (this batch)
+
+- `city` / `country` rows: **empty** `lat`/`lng` (no city-centroid pins).
+- Verified `street_address` but geocode is city-level or unreliable: `precision=city`, **keep** `street_address`, **blank** coords.
+- Global HQ outside catalogue country (Peru): note `hq_abroad` in `notes` when no Peru street pin applies (or parent org is foreign and only city/country is recorded).
+
 ## Method
 
-- Verified street addresses from entity websites or official directories (gob.pe, UN Peru, EU Delegation, etc.).
-- If no street: `city`, `country`, or `unknown` with **no** lat/lng.
-- `address` rows geocoded with Nominatim (1 req/s, normalized street tokens); city sanity-checked against Nominatim `address` fields where possible.
+- Street addresses from entity websites or official directories (gob.pe sedes, UN Peru, EU Delegation, etc.).
+- No personal emails/phones; no internal Nexus URLs as `source_url`.
+- Nominatim geocoding at ~1 req/s for `address` rows with street-level hits only.
 
 ## Precision counts
 
 | precision | count |
 |-----------|------:|
-| address | 53 |
-| city | 10 |
+| address | 50 |
+| city | 13 |
 | country | 5 |
 | unknown | 0 |
 
@@ -21,17 +27,16 @@ Batch **eco-b**: suspect `ecosystem_actor` pins from `location-gaps.csv`, sorted
 
 - _(none)_
 
-## Geocoder city warnings
+## City rows with retained street (geocode fallback)
 
-- `pe-iica`: Nominatim district Pachacámac vs expected La Molina (Av. La Molina corridor).
-- `pe-kunan`: Nominatim Wanchaq vs expected Cusco (Av. Tullumayo).
-- `pe-sbs-superintendencia-de-banca-seguros-y-afp`: Nominatim San Isidro vs Sede Central label Lima.
-- `pe-serfor`: Nominatim San Isidro vs expected Magdalena del Mar (Javier Prado Oeste).
-- `pe-unalm-universidad-nacional-agraria-la-molina`: Nominatim Pachacámac vs expected La Molina.
-- `pe-unmsm-universidad-nacional-mayor-de-san-marcos`: Nominatim Los Olivos vs expected Lima (Ciudad Universitaria).
+- `pe-iica`, `pe-unalm-universidad-nacional-agraria-la-molina`, `pe-unmsm-universidad-nacional-mayor-de-san-marcos`, `pe-sistema-b`
 
-## Notes
+## hq_abroad notes
 
-- `pe-sistema-b`: official street on Sistema B Perú page; no Nominatim hit — recorded as `city` only (Miraflores).
-- `pe-wayra-peru`: no Lima hub on [Wayra spaces](https://wayra.com/es/spaces) after 2020 regionalization — `city` Lima.
-- International HQs without Peru street (`pe-incofin`, `pe-mercy-corps-ventures`, `pe-oikocredit`, `pe-onu-habitat`, `pe-responsability`): `country` Peru.
+- `pe-incofin`, `pe-mercy-corps-ventures`, `pe-oikocredit`, `pe-onu-habitat`, `pe-responsability`, `pe-root-capital`, `pe-wayra-peru`
+
+## Remaining geocoder district warnings (address kept)
+
+- `pe-kunan`: Nominatim Wanchaq vs Cusco label.
+- `pe-sbs-superintendencia-de-banca-seguros-y-afp`: Nominatim San Isidro vs Lima label.
+- `pe-serfor`: Nominatim San Isidro vs Magdalena del Mar label.
