@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dirección B · Network-first (mock)</title>
+  <meta name="robots" content="noindex,nofollow" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://unpkg.com https://esm.sh; style-src 'self' 'unsafe-inline' https://unpkg.com https://cdn.jsdelivr.net https://fonts.googleapis.com; font-src https://fonts.gstatic.com data:; connect-src 'self' https://tiles.openfreemap.org https://cdn.jsdelivr.net https://unpkg.com https://esm.sh; img-src 'self' data: blob: https://tiles.openfreemap.org; worker-src blob:; child-src blob:;" />
+  <link rel="stylesheet" href="/nexus-assets/nexus-brand.css" />
+  <link rel="stylesheet" href="../shared/mock.css" />
+  <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" crossorigin="" />
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js" crossorigin=""></script>
+  <script type="importmap">
+  { "imports": {
+    "graphology": "https://esm.sh/graphology@0.26.0",
+    "sigma": "https://esm.sh/sigma@4.0.3"
+  } }
+  </script>
+</head>
+<body class="mock-page dir-b" data-brand="cth">
+  <header class="page-header">
+    <p class="ph-eyebrow">Mock B · Network-first</p>
+    <h1 class="ph-title">Historia guiada — red protagonista</h1>
+    <p class="ph-sub">Timeline horizontal de capítulos · grafo grande · mapa inset</p>
+  </header>
+  <div class="mock-ribbon">
+    <div class="mock-ribbon-inner">
+      <strong>Mockup estático</strong>
+      <a href="../index.html">← Índice</a>
+    </div>
+  </div>
+  <div class="mock-shell">
+    <div class="mock-toolbar">
+      <span class="mock-tag">Dirección B</span>
+      <label for="mock-challenge-select">Área de reto</label>
+      <select id="mock-challenge-select" class="mock-challenge-select"></select>
+    </div>
+    <nav class="chapter-timeline" data-mock-timeline aria-label="Capítulos"></nav>
+    <div class="guide-banner" data-mock-banner></div>
+    <div data-mock-constellations class="constellation-pills"></div>
+    <div class="viz-pane graph-stage" style="position:relative; height: min(72vh, 760px);">
+      <span class="pane-label">Red de relaciones</span>
+      <div class="mock-graph" data-mock-graph style="min-height:100%;"></div>
+      <div class="viz-pane inset-map">
+        <span class="pane-label">Mapa (inset)</span>
+        <div class="mock-map" data-mock-map style="min-height:100%;"></div>
+      </div>
+    </div>
+    <div class="inspector-panel inspector-below" data-mock-inspector aria-label="Relaciones tipadas"></div>
+  </div>
+  <p class="mock-foot">Capítulos: Nature challenges → Policy → Hubs → Data → Partnerships → Capital.</p>
+  <script type="module">
+    import { bootMockPage } from '../shared/mock-core.mjs';
+    await bootMockPage({ direction: 'b', chapterIndex: 4, selectedId: 'pe-uqhu' });
+  </script>
+</body>
+</html>

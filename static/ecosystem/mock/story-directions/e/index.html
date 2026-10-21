@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dirección E · Flow / river (mock)</title>
+  <meta name="robots" content="noindex,nofollow" />
+  <link rel="stylesheet" href="/nexus-assets/nexus-brand.css" />
+  <link rel="stylesheet" href="../shared/mock-v2.css" />
+</head>
+<body class="mock-v2 dir-e" data-brand="cth">
+  <header class="page-header">
+    <p class="ph-eyebrow">Mock E · Flow / river</p>
+    <h1 class="ph-title">Sankey de capítulos — actores como nodos</h1>
+    <p class="ph-sub">Seis columnas Nature → Capital · bandas verificadas vs Suggested</p>
+  </header>
+  <div class="mock-shell">
+    <div class="mock-toolbar">
+      <span class="mock-tag">Dirección E</span>
+      <label for="mock-challenge-select">Área de reto</label>
+      <select id="mock-challenge-select" class="mock-challenge-select"></select>
+      <a href="../index.html" style="margin-left:auto;font-size:11px;font-weight:700;color:var(--deep-blue)">← Índice</a>
+    </div>
+    <div id="mock-warn" class="mock-note hidden"></div>
+    <div class="river-wrap">
+      <div class="river-svg-wrap">
+        <svg id="river" class="river-svg" role="img" aria-label="Diagrama de flujo"></svg>
+        <p class="river-legend">Pasa el cursor sobre un actor para resaltar un camino. Locator geográfico mínimo a la derecha.</p>
+      </div>
+      <div id="locator"></div>
+    </div>
+  </div>
+  <script type="module">
+    import { loadWaterMockData, wireChallengeSelect } from '../shared/water-loader.mjs';
+    import { buildRiverModel, renderRiver, renderLocator } from '../shared/river.mjs';
+
+    let bundle = await loadWaterMockData();
+    let hover = null;
+    const svg = document.getElementById('river');
+    let model = buildRiverModel(bundle);
+
+    function paint() {
+      renderRiver(svg, model, bundle, hover);
+      renderLocator(document.getElementById('locator'), bundle);
+      document.getElementById('mock-warn').classList.toggle('hidden', bundle.challengeId === 'challenge:PE-2-agua');
+      document.getElementById('mock-warn').textContent = bundle.challengeId !== 'challenge:PE-2-agua'
+        ? 'Mock E–H: hilo PE-2-agua curado; otro reto muestra datos parciales del grafo live.'
+        : '';
+    }
+
+    svg.addEventListener('mousemove', (ev) => {
+      const g = ev.target.closest('.river-node');
+      const id = g?.dataset?.id || null;
+      if (id !== hover) { hover = id; paint(); }
+    });
+    svg.addEventListener('mouseleave', () => { hover = null; paint(); });
+
+    wireChallengeSelect(document.getElementById('mock-challenge-select'), bundle, () => {
+      model = buildRiverModel(bundle);
+      paint();
+    });
+    paint();
+    window.addEventListener('resize', () => paint());
+  </script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dirección C · Scrollytelling (mock)</title>
+  <meta name="robots" content="noindex,nofollow" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://unpkg.com https://esm.sh; style-src 'self' 'unsafe-inline' https://unpkg.com https://cdn.jsdelivr.net https://fonts.googleapis.com; font-src https://fonts.gstatic.com data:; connect-src 'self' https://tiles.openfreemap.org https://cdn.jsdelivr.net https://unpkg.com https://esm.sh; img-src 'self' data: blob: https://tiles.openfreemap.org; worker-src blob:; child-src blob:;" />
+  <link rel="stylesheet" href="/nexus-assets/nexus-brand.css" />
+  <link rel="stylesheet" href="../shared/mock.css" />
+  <style>
+    .dir-c .scrolly-wrap {
+      max-width: var(--mock-max);
+      margin: 0 auto;
+      padding: 0 16px;
+      display: grid;
+      grid-template-columns: 1fr min(420px, 38vw);
+      gap: 16px;
+      align-items: start;
+    }
+    .dir-c .scrolly-pin {
+      position: sticky;
+      top: 12px;
+    }
+    .dir-c .scrolly-pin .sticky-viz {
+      position: static;
+      margin-bottom: 0;
+    }
+    @media (max-width: 960px) {
+      .dir-c .scrolly-wrap { grid-template-columns: 1fr; }
+    }
+  </style>
+  <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" crossorigin="" />
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js" crossorigin=""></script>
+  <script type="importmap">
+  { "imports": {
+    "graphology": "https://esm.sh/graphology@0.26.0",
+    "sigma": "https://esm.sh/sigma@4.0.3"
+  } }
+  </script>
+</head>
+<body class="mock-page dir-c" data-brand="cth">
+  <header class="page-header">
+    <p class="ph-eyebrow">Mock C · Scrollytelling</p>
+    <h1 class="ph-title">Historia guiada — narrativa por scroll</h1>
+    <p class="ph-sub">Columna de capítulos · mapa y red anclados mientras avanzas</p>
+  </header>
+  <div class="mock-ribbon">
+    <div class="mock-ribbon-inner">
+      <strong>Mockup estático</strong>
+      <a href="../index.html">← Índice</a>
+    </div>
+  </div>
+  <div class="mock-shell">
+    <div class="mock-toolbar">
+      <span class="mock-tag">Dirección C</span>
+      <label for="mock-challenge-select">Área de reto</label>
+      <select id="mock-challenge-select" class="mock-challenge-select"></select>
+    </div>
+    <div class="guide-banner" data-mock-banner></div>
+  </div>
+  <div class="scrolly-wrap">
+    <div class="scroll-col" id="scroll-sections"></div>
+    <div class="scrolly-pin">
+      <div class="sticky-viz">
+        <div class="viz-pane" style="min-height:200px;">
+          <span class="pane-label" id="pin-map-label">Mapa</span>
+          <div class="mock-map" data-mock-map style="min-height:100%;"></div>
+        </div>
+        <div class="viz-pane" style="min-height:200px;">
+          <span class="pane-label" id="pin-graph-label">Red</span>
+          <div class="mock-graph" data-mock-graph style="min-height:100%;"></div>
+        </div>
+      </div>
+      <div class="inspector-panel" data-mock-inspector style="margin-top:10px;max-height:220px;padding:12px;"></div>
+    </div>
+  </div>
+  <p class="mock-foot">Startups en bundle: UQHU, Yakufil (PE-2-agua), YakuSmart (PE-1-bosques).</p>
+  <script type="module">
+    import {
+      bootMockPage,
+      loadBundle,
+      featuredStartupIds,
+      getBundle,
+    } from '../shared/mock-core.mjs';
+
+    await loadBundle();
+    const config = getBundle().config;
+    const featured = featuredStartupIds();
+    const container = document.getElementById('scroll-sections');
+
+    config.chapters.forEach((ch, i) => {
+      const sec = document.createElement('section');
+      sec.className = 'scroll-section';
+      sec.dataset.chapterIdx = String(i);
+      const title = ch.title.es || ch.title.en;
+      const blurb = ch.blurb.es || ch.blurb.en;
+      const actors = i === 0
+        ? featured.filter((id) => id === 'pe-uqhu' || id === 'pe-yakufil')
+          .map((id) => getBundle().byId.get(id)?.name)
+        : i === 4
+          ? featured.map((id) => getBundle().byId.get(id)?.name)
+          : [];
+      sec.innerHTML = `
+        <h2>${title}</h2>
+        <p class="lead">${blurb}</p>
+        ${actors.length ? `<div class="featured-actors">${actors.filter(Boolean).map((n) => `<span class="chip-actor">${n}</span>`).join('')}</div>` : ''}
+        ${ch.pending ? '<p style="font-size:11px;color:#ea580c;margin-top:12px;">Nodos MINAM/datosabiertos pendientes (fuente).</p>' : ''}
+      `;
+      container.appendChild(sec);
+    });
+
+    let chapterIndex = 0;
+    const setChapter = async (idx) => {
+      chapterIndex = idx;
+      const ch = config.chapters[idx];
+      document.getElementById('pin-map-label').textContent = `Mapa · ${ch.id}`;
+      document.getElementById('pin-graph-label').textContent = `Red · ${ch.id}`;
+      await bootMockPage({ direction: 'c', chapterIndex: idx, selectedId: idx === 4 ? 'pe-uqhu' : 'pe-uqhu' });
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((e) => {
+        if (e.isIntersecting && e.intersectionRatio >= 0.4) {
+          setChapter(Number(e.target.dataset.chapterIdx));
+        }
+      });
+    }, { threshold: [0.4, 0.6] });
+    container.querySelectorAll('.scroll-section').forEach((s) => observer.observe(s));
+
+    await setChapter(0);
+  </script>
+</body>
+</html>

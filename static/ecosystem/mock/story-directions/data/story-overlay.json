@@ -1,0 +1,14 @@
+{
+  "constellations": [
+    {
+      "id": "agua-yakusmart",
+      "challengeId": "challenge:PE-2-agua",
+      "startupId": "pe-yakusmart",
+      "hubId": "pe-emprende-up-climatech-rein-hub-peru",
+      "universityId": "pe-universidad-del-pacifico",
+      "funderId": "pe-amazonia-impact-ventures",
+      "note": "Funder/hub from bosques constellation template; Amazonía Impact not verified for water — shown as Suggested in partnerships"
+    }
+  ],
+  "challenges": {}
+}

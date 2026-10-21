@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dirección H · Editorial storyboard (mock)</title>
+  <meta name="robots" content="noindex,nofollow" />
+  <link rel="stylesheet" href="/nexus-assets/nexus-brand.css" />
+  <link rel="stylesheet" href="../shared/mock-v2.css" />
+</head>
+<body class="mock-v2 dir-h" data-brand="cth">
+  <header class="page-header">
+    <p class="ph-eyebrow">Mock H · Editorial storyboard</p>
+    <h1 class="ph-title">Reporte imprimible — Agua &amp; cuencas (PE)</h1>
+    <p class="ph-sub">Titulares por capítulo · visuales desde website/favicon del actor · citas con fuente</p>
+  </header>
+  <div class="mock-shell mock-toolbar">
+    <span class="mock-tag">Dirección H</span>
+    <label for="mock-challenge-select">Área de reto</label>
+    <select id="mock-challenge-select" class="mock-challenge-select"></select>
+    <button type="button" onclick="window.print()" style="margin-left:auto;font-size:11px;font-weight:700;padding:6px 12px;border-radius:8px;border:1px solid var(--color-border);cursor:pointer">Imprimir</button>
+    <a href="../index.html" style="font-size:11px;font-weight:700">← Índice</a>
+  </div>
+  <main class="storyboard" id="board"></main>
+  <script type="module">
+    import { loadWaterMockData, wireChallengeSelect, actorCard, actorVisualUrl } from '../shared/water-loader.mjs';
+
+    let bundle = await loadWaterMockData();
+
+    function pickQuote(chIndex, actorIds) {
+      const q = bundle.pullQuotes.find((p) =>
+        p.actor_ids?.some((id) => actorIds.includes(id)) && !p.placeholder);
+      if (q) return q;
+      return bundle.pullQuotes.find((p) => p.placeholder);
+    }
+
+    function render() {
+      const board = document.getElementById('board');
+      board.innerHTML = '';
+      bundle.storyConfig.chapters.forEach((ch, i) => {
+        const scene = bundle.getScene(i);
+        const actors = [...scene.nodeIds].filter((id) =>
+          id.startsWith('pe-') && bundle.byId.has(id)).slice(0, 4);
+        const quote = pickQuote(i, actors);
+        const spread = document.createElement('section');
+        spread.className = 'spread';
+        spread.innerHTML = `
+          <header class="spread-head">
+            <p class="kicker">Capítulo ${i + 1}</p>
+            <h2>${ch.title.es.replace(/^\d+\s·\s*/, '')}</h2>
+            <p style="font-size:14px;line-height:1.55;color:var(--color-mid)">${ch.blurb.es}</p>
+          </header>
+          ${quote ? `<blockquote class="pull-quote">
+            <span class="${quote.placeholder ? 'placeholder-stat' : ''}">${quote.stat}</span> — ${quote.label}
+            <cite>${quote.source_title || 'Sin URL'}${quote.source_url ? ` · ${quote.source_url}` : ''}${quote.placeholder ? ' (placeholder — sin métrica en bundle)' : ''}</cite>
+          </blockquote>` : ''}
+        `;
+        actors.forEach((id) => {
+          const c = actorCard(bundle.byId, id);
+          const a = bundle.byId.get(id);
+          const img = actorVisualUrl(a);
+          const art = document.createElement('article');
+          art.className = 'actor-spread';
+          art.innerHTML = `
+            <div class="visual">
+              ${img ? `<img src="${img}" alt="" referrerpolicy="no-referrer"/>` : `<span class="mono">${c.name.slice(0, 1)}</span>`}
+            </div>
+            <div class="body">
+              <h4>${c.name}</h4>
+              <p style="font-size:11px;color:var(--color-muted)">${c.role}</p>
+              <p style="font-size:12px;margin-top:8px;line-height:1.45">${(c.description || '').slice(0, 200)}…</p>
+              ${c.website ? `<a href="${c.website}" style="font-size:11px;font-weight:700">Fuente: website en actors.json</a>` : '<span style="font-size:10px;color:var(--color-muted)">Sin website en bundle</span>'}
+            </div>`;
+          spread.appendChild(art);
+        });
+        if (scene.gaps?.length) {
+          const g = document.createElement('p');
+          g.style.cssText = 'grid-column:1/-1;font-size:11px;color:#ea580c';
+          g.textContent = `Gaps: ${scene.gaps.join(' · ')}`;
+          spread.appendChild(g);
+        }
+        board.appendChild(spread);
+      });
+    }
+
+    wireChallengeSelect(document.getElementById('mock-challenge-select'), bundle, render);
+    render();
+  </script>
+</body>
+</html>

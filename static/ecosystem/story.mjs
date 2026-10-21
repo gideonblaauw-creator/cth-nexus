@@ -29,6 +29,50 @@ export function countryCode(countryName) {
   return COUNTRY_CODE[countryName] || null;
 }
 
+/** URL slug `PE-2-agua` or full id `challenge:PE-2-agua` → canonical challenge id. */
+export function resolveChallengeParam(param, challenges = {}) {
+  if (param == null || param === '' || String(param).toLowerCase() === 'all') return null;
+  const raw = String(param).trim();
+  const id = raw.startsWith('challenge:') ? raw : `challenge:${raw}`;
+  if (challenges[id]) return id;
+  const suffix = raw.replace(/^challenge:/, '');
+  const match = Object.keys(challenges).find((k) => k === `challenge:${suffix}` || k.endsWith(`-${suffix}`));
+  return match || null;
+}
+
+export function challengeSlug(challengeId) {
+  return String(challengeId || '').replace(/^challenge:/, '');
+}
+
+/** Actors with a verified `works_on_challenge` edge to this challenge node. */
+export function linkedActorsForChallenge(challengeId, relations) {
+  if (!challengeId) return null;
+  const linked = new Set();
+  for (const r of relations || []) {
+    if (r.type !== 'works_on_challenge') continue;
+    if (r.target === challengeId) linked.add(r.source);
+    if (r.source === challengeId) linked.add(r.target);
+  }
+  return linked;
+}
+
+export function relationMatchesChallengeFocus(r, challengeId, linked) {
+  if (!challengeId || !linked) return true;
+  if (r.source === challengeId || r.target === challengeId) return true;
+  if (linked.has(r.source) || linked.has(r.target)) return true;
+  return false;
+}
+
+function filterRelationsByChallenge(relations, chapter, challengeId, linked) {
+  if (!challengeId || !linked) return relations;
+  if (chapter?.id === 'challenges') {
+    return relations.filter(
+      (r) => r.target === challengeId || r.source === challengeId,
+    );
+  }
+  return relations.filter((r) => relationMatchesChallengeFocus(r, challengeId, linked));
+}
+
 export function storyContext({
   byId,
   policiesById = new Map(),
@@ -132,19 +176,37 @@ function normalizePolicyRelation(r) {
   };
 }
 
-export function dataRelationsForChapter(dataRelations, byId, chapter = null, ctx = null, storyFocusCc = null) {
+export function dataRelationsForChapter(
+  dataRelations,
+  byId,
+  chapter = null,
+  ctx = null,
+  storyFocusCc = null,
+  storyFocusChallenge = null,
+  linkedActors = null,
+) {
   if (!dataRelations?.length) return [];
   const out = [];
   for (const raw of dataRelations) {
     const r = { ...raw, id: raw.id || `data-${raw.source}-${raw.target}-${raw.type}` };
     if (!endpointInGraph(r.source, byId) || !endpointInGraph(r.target, byId)) continue;
     if (chapter && ctx && !relationAllowedInChapter(r, chapter, ctx, storyFocusCc)) continue;
+    if (storyFocusChallenge && linkedActors
+      && !relationMatchesChallengeFocus(r, storyFocusChallenge, linkedActors)) continue;
     out.push(r);
   }
   return out;
 }
 
-export function policyRelationsForChapter(policyRelations, byId, chapter = null, ctx = null, storyFocusCc = null) {
+export function policyRelationsForChapter(
+  policyRelations,
+  byId,
+  chapter = null,
+  ctx = null,
+  storyFocusCc = null,
+  storyFocusChallenge = null,
+  linkedActors = null,
+) {
   if (!policyRelations?.length) return { real: [], suggested: [] };
   const real = [];
   const suggested = [];
@@ -152,6 +214,8 @@ export function policyRelationsForChapter(policyRelations, byId, chapter = null,
     const r = normalizePolicyRelation(raw);
     if (!endpointInGraph(r.source, byId) || !endpointInGraph(r.target, byId)) continue;
     if (chapter && ctx && !relationAllowedInChapter(r, chapter, ctx, storyFocusCc)) continue;
+    if (storyFocusChallenge && linkedActors
+      && !relationMatchesChallengeFocus(r, storyFocusChallenge, linkedActors)) continue;
     if (r.suggested) suggested.push({ ...r, id: `pol-sug-${r.source}-${r.target}-${r.type}` });
     else real.push({ ...r, id: `pol-${r.source}-${r.target}-${r.type}` });
   }
@@ -170,7 +234,15 @@ export function hasRealEdge(relations, a, b, type) {
   );
 }
 
-export function relationsForChapter(chapter, relations, byId = null, ctx = null, storyFocusCc = null) {
+export function relationsForChapter(
+  chapter,
+  relations,
+  byId = null,
+  ctx = null,
+  storyFocusCc = null,
+  storyFocusChallenge = null,
+  linkedActors = null,
+) {
   if (!chapter || chapter.id === 'partnerships') return [];
   let base;
   if (chapter.id === 'challenges') {
@@ -186,6 +258,9 @@ export function relationsForChapter(chapter, relations, byId = null, ctx = null,
         && !isDatasetId(r.target),
     );
   }
+  const linked = linkedActors
+    ?? (storyFocusChallenge ? linkedActorsForChallenge(storyFocusChallenge, relations) : null);
+  base = filterRelationsByChallenge(base, chapter, storyFocusChallenge, linked);
   if (!ctx || !byId) return base;
   return base.filter((r) => relationAllowedInChapter(r, chapter, ctx, storyFocusCc));
 }
@@ -205,12 +280,19 @@ export function computeChapterEdgeCounts(
   });
   const dataRelations = options.dataRelations || [];
   const storyFocusCc = options.storyFocusCountry || null;
+  const storyFocusChallenge = options.storyFocusChallenge || null;
+  const linkedActors = storyFocusChallenge
+    ? linkedActorsForChallenge(storyFocusChallenge, relations)
+    : null;
   const out = [];
   for (const ch of config.chapters) {
     if (ch.id === 'partnerships') {
       let real = 0;
       let suggested = 0;
-      for (const spec of config.constellations) {
+      const specs = storyFocusChallenge
+        ? config.constellations.filter((spec) => spec.challengeId === storyFocusChallenge)
+        : config.constellations;
+      for (const spec of specs) {
         const built = buildConstellation(spec, config, relations, byId, ctx, storyFocusCc);
         real += built.edges.filter((e) => !e.suggested).length;
         suggested += built.edges.filter((e) => e.suggested).length;
@@ -219,8 +301,12 @@ export function computeChapterEdgeCounts(
       continue;
     }
     if (ch.id === 'policy') {
-      const pol = policyRelationsForChapter(policyRelations, byId, ch, ctx, storyFocusCc);
-      const rels = relationsForChapter(ch, relations, byId, ctx, storyFocusCc);
+      const pol = policyRelationsForChapter(
+        policyRelations, byId, ch, ctx, storyFocusCc, storyFocusChallenge, linkedActors,
+      );
+      const rels = relationsForChapter(
+        ch, relations, byId, ctx, storyFocusCc, storyFocusChallenge, linkedActors,
+      );
       const real = rels.length + pol.real.length;
       const suggested = pol.suggested.length;
       const byType = rels.reduce((acc, r) => {
@@ -240,8 +326,12 @@ export function computeChapterEdgeCounts(
       continue;
     }
     if (ch.id === 'data') {
-      const rels = relationsForChapter(ch, relations, byId, ctx, storyFocusCc);
-      const dataRels = dataRelationsForChapter(dataRelations, byId, ch, ctx, storyFocusCc);
+      const rels = relationsForChapter(
+        ch, relations, byId, ctx, storyFocusCc, storyFocusChallenge, linkedActors,
+      );
+      const dataRels = dataRelationsForChapter(
+        dataRelations, byId, ch, ctx, storyFocusCc, storyFocusChallenge, linkedActors,
+      );
       const real = rels.length + dataRels.length;
       const byType = rels.reduce((acc, r) => {
         acc[r.type] = (acc[r.type] || 0) + 1;
@@ -259,7 +349,9 @@ export function computeChapterEdgeCounts(
       });
       continue;
     }
-    const rels = relationsForChapter(ch, relations, byId, ctx, storyFocusCc);
+    const rels = relationsForChapter(
+      ch, relations, byId, ctx, storyFocusCc, storyFocusChallenge, linkedActors,
+    );
     out.push({
       chapter: ch.id,
       title: ch.title.en,
@@ -373,6 +465,7 @@ export function chapterScene(chapterIndex, config, relations, byId, options = {}
     policiesById = new Map(),
     dataRelations = [],
     storyFocusCountry = null,
+    storyFocusChallenge = null,
   } = options;
   const ctx = storyContext({
     byId,
@@ -380,11 +473,17 @@ export function chapterScene(chapterIndex, config, relations, byId, options = {}
     challenges: config.challenges,
     datasets: config.datasets || {},
   });
+  const linkedActors = storyFocusChallenge
+    ? linkedActorsForChallenge(storyFocusChallenge, relations)
+    : null;
 
   if (chapter.id === 'partnerships') {
     let specs = closeup && constellationId
       ? config.constellations.filter((c) => c.id === constellationId)
       : config.constellations;
+    if (storyFocusChallenge) {
+      specs = specs.filter((spec) => spec.challengeId === storyFocusChallenge);
+    }
     if (storyFocusCountry) {
       specs = specs.filter((spec) => {
         const ch = config.challenges[spec.challengeId];
@@ -427,12 +526,18 @@ export function chapterScene(chapterIndex, config, relations, byId, options = {}
     };
   }
 
-  const chRels = relationsForChapter(chapter, relations, byId, ctx, storyFocusCountry);
+  const chRels = relationsForChapter(
+    chapter, relations, byId, ctx, storyFocusCountry, storyFocusChallenge, linkedActors,
+  );
   const pol = chapter.id === 'policy'
-    ? policyRelationsForChapter(policyRelations, byId, chapter, ctx, storyFocusCountry)
+    ? policyRelationsForChapter(
+      policyRelations, byId, chapter, ctx, storyFocusCountry, storyFocusChallenge, linkedActors,
+    )
     : { real: [], suggested: [] };
   const dataRels = chapter.id === 'data'
-    ? dataRelationsForChapter(dataRelations, byId, chapter, ctx, storyFocusCountry)
+    ? dataRelationsForChapter(
+      dataRelations, byId, chapter, ctx, storyFocusCountry, storyFocusChallenge, linkedActors,
+    )
     : [];
   const nodeIds = new Set();
   [...chRels, ...pol.real, ...pol.suggested, ...dataRels].forEach((r) => {
@@ -441,15 +546,15 @@ export function chapterScene(chapterIndex, config, relations, byId, options = {}
   });
   if (chapter.id === 'challenges') {
     chRels.forEach((r) => nodeIds.add(r.target));
+    if (storyFocusChallenge) nodeIds.add(storyFocusChallenge);
   }
-  if (chapter.id === 'data' && config.datasets) {
+  if (chapter.id === 'data' && config.datasets && !storyFocusChallenge) {
     const allowed = chapterCountryCodes(chapter, storyFocusCountry);
     Object.entries(config.datasets).forEach(([id, meta]) => {
       const cc = countryCode(meta?.country);
       if (!allowed || (cc && allowed.has(cc))) nodeIds.add(id);
     });
   }
-
   const virtualNodes = [];
   [...nodeIds].filter(isChallengeId).forEach((id) => {
     const meta = config.challenges[id];
@@ -497,6 +602,16 @@ export function chapterScene(chapterIndex, config, relations, byId, options = {}
       label: 'Suggested',
       reason: r.type,
     })),
-    map: chapter.map,
+    map: (() => {
+      if (storyFocusChallenge && config.challenges[storyFocusChallenge]?.geo) {
+        const g = config.challenges[storyFocusChallenge].geo;
+        return {
+          center: [g.lng, g.lat],
+          zoom: Math.max(chapter.map?.zoom || 5, 5.6),
+          countries: chapter.map?.countries,
+        };
+      }
+      return chapter.map;
+    })(),
   };
 }

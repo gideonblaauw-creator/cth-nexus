@@ -9,6 +9,9 @@ import {
   isPolicyId,
   datasetGeo,
   policyGeo,
+  resolveChallengeParam,
+  challengeSlug,
+  linkedActorsForChallenge,
 } from './story.mjs';
 import {
   countryBadgeCounts,
@@ -98,6 +101,8 @@ const I18N = {
     filters: 'Tipo actor',
     country: 'País',
     edgeTypes: 'Tipo relación',
+    challengeArea: 'Área de reto',
+    challengeAll: 'Todos los retos',
     allCountries: 'Todos',
     search: 'Buscar organización…',
     ego: 'Ego',
@@ -136,6 +141,10 @@ const I18N = {
       finance: 'Finanzas', chamber: 'Cámara', startup: 'Startup', media: 'Medios',
       hub: 'Hub', mentor: 'Mentor', program: 'Programa',
     },
+    rels: {
+      works_on_challenge: 'Retos de la naturaleza',
+      addresses_challenge: 'Retos de la naturaleza (inferido)',
+    },
   },
   EN: {
     title: 'LATAM ecosystem map',
@@ -151,6 +160,8 @@ const I18N = {
     filters: 'Actor type',
     country: 'Country',
     edgeTypes: 'Relation type',
+    challengeArea: 'Challenge area',
+    challengeAll: 'All challenges',
     allCountries: 'All',
     search: 'Search organization…',
     ego: 'Ego',
@@ -189,6 +200,10 @@ const I18N = {
       finance: 'Finance', chamber: 'Chamber', startup: 'Startup', media: 'Media',
       hub: 'Hub', mentor: 'Mentor', program: 'Program',
     },
+    rels: {
+      works_on_challenge: 'Nature challenges',
+      addresses_challenge: 'Nature challenges (inferred)',
+    },
   },
 };
 
@@ -225,6 +240,7 @@ let policyRelations = [];
 let dataRelations = [];
 let storyChapter = 0;
 let storyFocusCountry = null;
+let storyFocusChallenge = null;
 let constellationId = null;
 let constellationCloseup = false;
 let storyScene = null;
@@ -232,6 +248,20 @@ let suggestedEdges = [];
 
 const $ = (sel) => document.querySelector(sel);
 const t = () => I18N[lang];
+
+function relTypeLabel(rt) {
+  return t().rels?.[rt] || rt.replace(/_/g, '-');
+}
+
+function relRowHtml(type, nameHtml, { jumpId = null } = {}) {
+  const jump = jumpId ? ` data-jump="${esc(jumpId)}"` : '';
+  return `<div class="rel-row"${jump}><span class="rtype">${esc(relTypeLabel(type))}</span><span class="rsep" aria-hidden="true">·</span><span class="rname">${nameHtml}</span></div>`;
+}
+
+function relGridWrap(rowsHtml) {
+  if (!rowsHtml) return `<p class="meta">${esc(t().noRelations)}</p>`;
+  return `<div class="rel-grid">${rowsHtml}</div>`;
+}
 
 function esc(s) {
   return String(s ?? '').replace(/[&<>"']/g, (c) => ({
@@ -290,10 +320,14 @@ function egoNodeSet(centerId, depth) {
 
 function filteredActors() {
   const q = searchQuery.trim().toLowerCase();
+  const linked = storyFocusChallenge
+    ? linkedActorsForChallenge(storyFocusChallenge, relations)
+    : null;
   return actors.filter((a) => {
     const cc = actorCountryCode(a);
     if (activeCountry && cc !== activeCountry) return false;
     if (!activeCategories.has(a.category)) return false;
+    if (linked && !linked.has(a.id)) return false;
     if (q && !a.name.toLowerCase().includes(q)) return false;
     return true;
   });
@@ -311,7 +345,10 @@ function visibleActorIds() {
 function visibleRelations(ids) {
   return relations.filter((r) => {
     if (!activeRelTypes.has(r.type)) return false;
-    return ids.has(r.source) && ids.has(r.target);
+    if (ids.has(r.source) && ids.has(r.target)) return true;
+    if (storyFocusChallenge && r.type === 'works_on_challenge'
+      && r.target === storyFocusChallenge && ids.has(r.source)) return true;
+    return false;
   });
 }
 
@@ -349,6 +386,7 @@ function initLang() {
       document.querySelectorAll('[data-lang-btn]').forEach((b) => b.classList.toggle('active', b.dataset.langBtn === lang));
       applyI18n();
       buildFilterChips();
+      buildChallengeSelect();
       if (viewMode === 'story') renderStoryRail();
       renderAll();
     });
@@ -395,7 +433,7 @@ function buildFilterChips() {
   if (!activeRelTypes.size) activeRelTypes = new Set(relTypes);
   const rRow = $('#rel-chips');
   rRow.innerHTML = relTypes.map((rt) =>
-    `<button type="button" class="chip ${activeRelTypes.has(rt) ? 'on' : 'off'}" data-rel="${esc(rt)}">${esc(rt.replace(/_/g, '-'))}</button>`,
+    `<button type="button" class="chip ${activeRelTypes.has(rt) ? 'on' : 'off'}" data-rel="${esc(rt)}">${esc(relTypeLabel(rt))}</button>`,
   ).join('');
   rRow.querySelectorAll('.chip').forEach((btn) => {
     btn.addEventListener('click', () => {
@@ -409,8 +447,43 @@ function buildFilterChips() {
 
   const legend = $('#legend-bar');
   legend.innerHTML = relTypes.map((rt) =>
-    `<span><i style="background:${EDGE_COLOR[rt] || EDGE_COLOR.default}"></i>${esc(rt.replace(/_/g, '-'))}</span>`,
+    `<span><i style="background:${EDGE_COLOR[rt] || EDGE_COLOR.default}"></i>${esc(relTypeLabel(rt))}</span>`,
   ).join('');
+}
+
+function syncChallengeQueryParam() {
+  const url = new URL(window.location.href);
+  if (storyFocusChallenge) url.searchParams.set('challenge', challengeSlug(storyFocusChallenge));
+  else url.searchParams.delete('challenge');
+  history.replaceState({}, '', `${url.pathname}${url.search}${url.hash}`);
+}
+
+function setStoryFocusChallenge(challengeId, { syncUrl = true } = {}) {
+  const valid = challengeId && storyConfig?.challenges?.[challengeId] ? challengeId : null;
+  storyFocusChallenge = valid;
+  if (syncUrl) syncChallengeQueryParam();
+  buildChallengeSelect();
+  if (viewMode === 'story') {
+    renderStoryRail();
+    renderStoryChapter();
+  } else {
+    renderAll();
+  }
+}
+
+function buildChallengeSelect() {
+  const sel = $('#challenge-select');
+  if (!sel || !storyConfig?.challenges) return;
+  const tr = t();
+  const opts = Object.entries(storyConfig.challenges)
+    .sort((a, b) => a[0].localeCompare(b[0]))
+    .map(([id, meta]) => {
+      const slug = challengeSlug(id);
+      const label = lang === 'EN' ? (meta.label?.en || slug) : (meta.label?.es || slug);
+      const on = storyFocusChallenge === id ? ' selected' : '';
+      return `<option value="${esc(slug)}"${on}>${esc(label)}</option>`;
+    });
+  sel.innerHTML = `<option value="">${esc(tr.challengeAll)}</option>${opts.join('')}`;
 }
 
 function initTabs() {
@@ -499,6 +572,8 @@ function buildGraph(idSet, rels, opts = {}) {
     storyLayout = false,
     storySuggested = [],
   } = opts;
+  const maxActorLabel = storyLayout ? 40 : 24;
+  const maxVirtualLabel = storyLayout ? 56 : 24;
 
   suggestedEdges = storySuggested;
 
@@ -523,7 +598,7 @@ function buildGraph(idSet, rels, opts = {}) {
     }
     const size = id === selected ? 14 : Math.min(12, 5 + (degree.get(id) || 0) * 0.65);
     addNode(id, {
-      label: a.name.length > 24 ? `${a.name.slice(0, 22)}…` : a.name,
+      label: a.name.length > maxActorLabel ? `${a.name.slice(0, maxActorLabel - 1)}…` : a.name,
       x: pos.x,
       y: pos.y,
       size,
@@ -534,7 +609,9 @@ function buildGraph(idSet, rels, opts = {}) {
   virtualNodes.forEach((vn) => {
     const pos = presetPositions?.get(vn.id)?.position
       || (vn.geo ? geoXY({ geo: vn.geo }) : { x: 0, y: 0 });
-    const lbl = vn.label?.length > 24 ? `${vn.label.slice(0, 22)}…` : (vn.label || vn.id);
+    const lbl = vn.label?.length > maxVirtualLabel
+      ? `${vn.label.slice(0, maxVirtualLabel - 1)}…`
+      : (vn.label || vn.id);
     addNode(vn.id, {
       label: lbl,
       x: pos.x,
@@ -787,15 +864,18 @@ function renderInspector(id) {
         ${row?.source_url ? `<a class="secondary" href="${esc(row.source_url)}" target="_blank" rel="noopener">${tr.website}</a>` : ''}
         ${crosslinkSection(tr.policyStartups, policyStartups, tr)}
         <div class="section"><h3>${tr.typedRelations}</h3>
-        ${linked.slice(0, 12).map((r) => {
+        ${relGridWrap(linked.slice(0, 12).map((r) => {
       const otherId = r.source === id ? r.target : r.source;
       const other = byId.get(otherId);
       const oLabel = other?.name
         || (isChallengeId(otherId) ? (storyConfig?.challenges[otherId]?.label?.[lang === 'EN' ? 'en' : 'es'] || otherId) : otherId);
-      return `<div class="rel-row"><span class="rtype">${esc(r.type.replace(/_/g, '-'))}</span>${esc(oLabel)}</div>`;
-    }).join('') || `<p class="meta">${tr.noRelations}</p>`}
+      return relRowHtml(r.type, esc(oLabel), { jumpId: otherId });
+    }).join(''))}
         </div>
       </div>`;
+    el.querySelectorAll('[data-jump]').forEach((row) => {
+      row.addEventListener('click', () => selectActor(row.dataset.jump));
+    });
     return;
   }
   if (isDatasetId(id) && storyConfig?.datasets?.[id]) {
@@ -850,20 +930,23 @@ function renderInspector(id) {
         ${crosslinkSection(tr.nexusCrossSolutions, panel.solutions, tr)}
         ${crosslinkSection(tr.nexusCrossStartups, panel.startups, tr)}
         <div class="section"><h3>${tr.typedRelations}</h3>
-        ${linked.slice(0, 12).map((r) => {
+        ${relGridWrap(linked.slice(0, 12).map((r) => {
       const o = byId.get(r.source);
       const slug = o?.nexus?.card_slug;
       const name = o?.name || r.source;
       const label = slug && o?.category === 'startup'
         ? `<a href="/s/${esc(slug)}/" target="_blank" rel="noopener">${esc(name)}</a>`
         : esc(name);
-      return `<div class="rel-row"><span class="rtype">${esc(r.type.replace(/_/g, '-'))}</span>${label}</div>`;
-    }).join('') || `<p class="meta">${tr.noRelations}</p>`}
+      return relRowHtml(r.type, label, { jumpId: r.source });
+    }).join(''))}
         </div>
         <p class="meta" style="margin-top:8px">${esc(tr.storySuggestedHint || '')}</p>
       </div>`;
     el.querySelectorAll('[data-jump-policy]').forEach((btn) => {
       btn.addEventListener('click', () => selectActor(btn.dataset.jumpPolicy));
+    });
+    el.querySelectorAll('[data-jump]').forEach((row) => {
+      row.addEventListener('click', () => selectActor(row.dataset.jump));
     });
     return;
   }
@@ -909,12 +992,12 @@ function renderInspector(id) {
       ${detailBits}
       <div class="section">
         <h3>${tr.typedRelations}</h3>
-        ${rels.slice(0, 16).map((r) => {
+        ${relGridWrap(rels.slice(0, 16).map((r) => {
     const otherId = r.source === id ? r.target : r.source;
     const other = byId.get(otherId);
     const dir = r.source === id ? '→' : '←';
-    return `<div class="rel-row" data-jump="${esc(otherId)}"><span class="rtype">${esc(r.type.replace(/_/g, '-'))}</span>${dir} ${esc(other?.name || otherId)}</div>`;
-  }).join('') || `<p class="meta">${tr.noRelations}</p>`}
+    return relRowHtml(r.type, `${dir} ${esc(other?.name || otherId)}`, { jumpId: otherId });
+  }).join(''))}
       </div>
     </div>`;
 
@@ -1205,6 +1288,7 @@ function renderStoryRail() {
     policiesById,
     dataRelations,
     storyFocusCountry,
+    storyFocusChallenge,
   });
   window.__storyEdgeCounts = counts;
   const gaps = document.createElement('div');
@@ -1224,11 +1308,13 @@ function renderStoryChapter() {
     policiesById,
     dataRelations,
     storyFocusCountry,
+    storyFocusChallenge,
   });
   const current = computeChapterEdgeCounts(storyConfig, relations, byId, policyRelations, {
     policiesById,
     dataRelations,
     storyFocusCountry,
+    storyFocusChallenge,
   })[storyChapter];
   window.__storyChapterActive = {
     chapter: storyScene.chapter.id,
@@ -1248,8 +1334,11 @@ function renderStoryChapter() {
   buildGraph(storyScene.nodeIds, storyScene.realRels, {
     virtualNodes: vNodes,
     presetPositions: storyScene.presetPositions,
-    storyLayout: Boolean(storyScene.presetPositions),
+    storyLayout: true,
     storySuggested: storyScene.suggested,
+  });
+  requestAnimationFrame(() => {
+    if (sigma) sigma.refresh();
   });
 }
 
@@ -1313,6 +1402,10 @@ async function loadData() {
   ]);
   nexusCrosslinks = cross;
   storyConfig = story;
+  const bootChallenge = bootParams.get('challenge');
+  if (bootChallenge) {
+    storyFocusChallenge = resolveChallengeParam(bootChallenge, story.challenges);
+  }
   policies = pol;
   policiesById = new Map(pol.map((p) => [p.id, p]));
   policyRelations = polRels;
@@ -1323,6 +1416,7 @@ async function loadData() {
   computeDegrees();
   activeRelTypes = new Set(relations.map((x) => x.type));
   buildFilterChips();
+  buildChallengeSelect();
   renderAll();
   applyDemoState();
 }
@@ -1342,6 +1436,11 @@ function bindControls() {
     egoDepth = parseInt(e.target.value, 10);
     $('#ego-hint').textContent = egoOn ? `Ego ${egoDepth}-hop` : '';
     if (egoOn) renderAll();
+  });
+  $('#challenge-select')?.addEventListener('change', (e) => {
+    const slug = e.target.value;
+    const id = slug ? resolveChallengeParam(slug, storyConfig?.challenges) : null;
+    setStoryFocusChallenge(id);
   });
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') clearSelection();

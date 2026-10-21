@@ -1,0 +1,12 @@
+[
+  {
+    "source": "pe-yakusmart",
+    "target": "challenge:PE-2-agua",
+    "type": "works_on_challenge",
+    "source_url": "https://www.gob.pe/institucion/produce/noticias/1451346-startup-financiada-por-proinnovate-optimiza-el-riego-agricola-para-incrementar-el-valor-exportable-de-las-frutas",
+    "source_title": "Produce — YakuSmart optimiza riego y recursos hídricos",
+    "verified": true,
+    "mock_only": true,
+    "note": "Copied from cursor/mock-peru-water-story-130a; not in live relations.json until merged"
+  }
+]

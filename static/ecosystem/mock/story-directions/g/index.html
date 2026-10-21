@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dirección G · Startup journey (mock)</title>
+  <meta name="robots" content="noindex,nofollow" />
+  <link rel="stylesheet" href="/nexus-assets/nexus-brand.css" />
+  <link rel="stylesheet" href="../shared/mock-v2.css" />
+</head>
+<body class="mock-v2 dir-g" data-brand="cth">
+  <header class="page-header">
+    <p class="ph-eyebrow">Mock G · Startup journey</p>
+    <h1 class="ph-title">Camino vertical de una startup</h1>
+    <p class="ph-sub">YakuSmart · UQHU · Yakufil — aristas verificadas + mock actor_relations</p>
+  </header>
+  <div class="mock-shell">
+    <div class="mock-toolbar">
+      <span class="mock-tag">Dirección G</span>
+      <label for="mock-challenge-select">Área de reto</label>
+      <select id="mock-challenge-select" class="mock-challenge-select"></select>
+      <a href="../index.html" style="margin-left:auto;font-size:11px;font-weight:700">← Índice</a>
+    </div>
+    <div class="journey-layout">
+      <aside class="startup-pick">
+        <label style="font-size:10px;font-weight:800;color:var(--color-muted)">STARTUP</label>
+        <select id="startup-select">
+          <option value="pe-yakusmart" selected>YakuSmart</option>
+          <option value="pe-uqhu">UQHU</option>
+          <option value="pe-yakufil">Yakufil</option>
+        </select>
+        <p style="font-size:10px;color:var(--color-muted);margin-top:12px;line-height:1.4">IncubaUNT + ProInnóvate + Emprende UP en datos mock (rama 130a).</p>
+      </aside>
+      <div class="timeline" id="timeline"></div>
+    </div>
+  </div>
+  <script type="module">
+    import { loadWaterMockData, wireChallengeSelect } from '../shared/water-loader.mjs';
+    import { journeyStepsForStartup } from '../shared/journey-steps.mjs';
+
+    let bundle = await loadWaterMockData();
+    const timeline = document.getElementById('timeline');
+
+    function render() {
+      const sid = document.getElementById('startup-select').value;
+      const steps = journeyStepsForStartup(sid, bundle);
+      timeline.innerHTML = steps.map((s) => `
+        <article class="j-step${s.gap ? ' gap' : ''}">
+          <div class="j-card">
+            <h3>${s.title}</h3>
+            <h4>${s.card.name}</h4>
+            <p>${(s.card.description || s.card.role || '').slice(0, 280)}</p>
+            ${s.gap ? `<p style="color:#ea580c;font-size:11px;margin-top:8px"><strong>Gap:</strong> ${s.gap}</p>` : ''}
+            ${s.source_url ? `<a href="${s.source_url}" target="_blank" rel="noopener">${s.source_title || 'Fuente verificada'}</a>` : ''}
+            ${(s.extra || []).map((x) => x.url ? `<p style="margin-top:6px"><a href="${x.url}">${x.label}</a></p>` : `<p style="font-size:10px">${x.label}</p>`).join('')}
+          </div>
+        </article>`).join('');
+    }
+
+    document.getElementById('startup-select').addEventListener('change', render);
+    wireChallengeSelect(document.getElementById('mock-challenge-select'), bundle, render);
+    render();
+  </script>
+</body>
+</html>

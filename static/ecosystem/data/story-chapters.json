@@ -7,7 +7,7 @@
   "chapters": [
     {
       "id": "challenges",
-      "title": { "es": "1 · Retos climáticos", "en": "1 · Climate challenges" },
+      "title": { "es": "1 · Retos de la naturaleza", "en": "1 · Nature challenges" },
       "blurb": {
         "es": "Quién declara trabajo en retos (`works_on_challenge`). Los nodos de reto son referencias del mapa Canva, no organizaciones.",
         "en": "Who declares work on challenges (`works_on_challenge`). Challenge nodes are Canva map references, not organizations."
