@@ -5,6 +5,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from prepare_geo import geocode_actor
+
 REPO = Path(__file__).resolve().parents[2]
 RAW = REPO / "static" / "ecosystem" / "data" / "actors.raw.json"
 GEO_BY_ID = REPO / "ops" / "ecosystem" / "geocode-by-id.json"
@@ -34,12 +36,19 @@ def main() -> None:
     n = 0
     for a in actors:
         g = merged.get(a["id"])
-        if not g:
+        if g:
+            a["geo"] = g
+            if g.get("city") and not a.get("city"):
+                a["city"] = g["city"]
+            n += 1
             continue
-        a["geo"] = g
-        if g.get("city") and not a.get("city"):
-            a["city"] = g["city"]
-        n += 1
+        # Enrichment-only actors (e.g. Peru #58) without geocode-by-id: country badge only.
+        base = {k: v for k, v in a.items() if k != "geo"}
+        geocoded = geocode_actor({
+            **base,
+            "geo": {"precision": "country", "country": a.get("country")},
+        })
+        a["geo"] = geocoded["geo"]
     RAW.write_text(json.dumps(actors, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"Merged geo onto {n}/{len(actors)} actors in {RAW}")
 

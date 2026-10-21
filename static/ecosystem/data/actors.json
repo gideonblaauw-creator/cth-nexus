@@ -5,8 +5,13 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": "Imaza",
+  "city": "Lima",
   "website": "https://www.amazoniaimpactventures.com",
+  "challenges": [
+   "BOS"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -5.058604,
    "lng": -78.33194,
@@ -28,6 +33,13 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://profonanpe.org.pe",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "AZU",
+   "BOS",
+   "FIN"
+  ],
   "geo": {
    "lat": -12.045981,
    "lng": -77.030591,
@@ -47,8 +59,10 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": "San Carlos",
+  "city": "Lima",
   "website": "https://www.andesamazonfund.org",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -6.056373,
    "lng": -77.895141,
@@ -68,7 +82,10 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://pecap.pe",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": null,
    "lng": null,
@@ -90,6 +107,8 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://www.angelventures.vc",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.045558,
    "lng": -77.006318,
@@ -111,6 +130,14 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://utecventures.com",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "CIR",
+   "CIU",
+   "ENE",
+   "FIN"
+  ],
   "geo": {
    "lat": -12.135135,
    "lng": -77.02213,
@@ -130,8 +157,10 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": "Lince",
+  "city": "Lima",
   "website": "https://krealo.vc",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.083404,
    "lng": -77.043909,
@@ -151,8 +180,14 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": "Villa María del Triunfo",
+  "city": "Lima",
   "website": "https://www.gruporomero.com.pe",
+  "challenges": [
+   "AGR",
+   "BOS"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.166407,
    "lng": -76.950625,
@@ -174,6 +209,12 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://www.wayra.com",
+  "challenges": [
+   "AGR",
+   "BOS"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.062021,
    "lng": -77.019603,
@@ -193,7 +234,10 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.mirova.com",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": null,
    "lng": null,
@@ -215,6 +259,14 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://ecoenterprisesfund.com",
+  "challenges": [
+   "AGR",
+   "BOS",
+   "ENE",
+   "FIN"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.085529,
    "lng": -76.970701,
@@ -236,6 +288,12 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://www.oikocredit.org",
+  "challenges": [
+   "AGR",
+   "FIN"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.045981,
    "lng": -77.030591,
@@ -257,6 +315,12 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://incofin.com",
+  "challenges": [
+   "ENE",
+   "FIN"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.069166,
    "lng": -77.079935,
@@ -276,8 +340,10 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": "Santiago de Surco",
+  "city": "Lima",
   "website": "https://triplejump.eu",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.085564,
    "lng": -76.975323,
@@ -299,6 +365,12 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://www.responsability.com",
+  "challenges": [
+   "ENE",
+   "FIN"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.045981,
    "lng": -77.030591,
@@ -320,6 +392,12 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://www.blueorchard.com",
+  "challenges": [
+   "ENE",
+   "FIN"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.045981,
    "lng": -77.030591,
@@ -341,6 +419,12 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://www.alterfin.be",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "ENE",
+   "FIN"
+  ],
   "geo": {
    "lat": -12.069166,
    "lng": -77.079935,
@@ -362,6 +446,12 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://acumen.org",
+  "challenges": [
+   "ENE",
+   "FIN"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.069166,
    "lng": -77.079935,
@@ -381,8 +471,10 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": "Ate",
+  "city": "Lima",
   "website": "https://www.mercycorpsventures.com",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.034178,
    "lng": -76.928844,
@@ -402,7 +494,14 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.accion.org",
+  "challenges": [
+   "ENE",
+   "FIN"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": null,
    "lng": null,
@@ -422,8 +521,14 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": "Pachacámac",
+  "city": "Lima",
   "website": "https://www.alive-ventures.com",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "ENE",
+   "FIN"
+  ],
   "geo": {
    "lat": -12.224534,
    "lng": -76.879045,
@@ -443,7 +548,13 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.bezosearthfund.org",
+  "challenges": [
+   "BOS"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": null,
    "lng": null,
@@ -463,7 +574,14 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.alliedclimate.org",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "ENE",
+   "FIN"
+  ],
   "geo": {
    "lat": null,
    "lng": null,
@@ -483,8 +601,13 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
-  "city": "San Juan de Lurigancho",
+  "city": "Lima",
   "website": "https://www.finance-in-motion.com",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "BOS"
+  ],
   "geo": {
    "lat": -11.987993,
    "lng": -77.008529,
@@ -506,6 +629,8 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://rootcapital.org",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.127048,
    "lng": -77.027393,
@@ -527,6 +652,12 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://www.bbva.pe",
+  "challenges": [
+   "CIU",
+   "FIN"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.126911,
    "lng": -76.987653,
@@ -548,6 +679,8 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://interbank.pe",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.056731,
    "lng": -77.03688,
@@ -569,6 +702,8 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://www.scotiabank.com.pe",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.051314,
    "lng": -77.025318,
@@ -588,8 +723,10 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
-  "city": "San Isidro",
+  "city": "Lima",
   "website": "https://www.pacifico.com.pe",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.096584,
    "lng": -77.027244,
@@ -609,8 +746,14 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
-  "city": "La Molina",
+  "city": "Lima",
   "website": "https://www.viabcp.com",
+  "challenges": [
+   "ENE",
+   "FIN"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.076561,
    "lng": -76.917147,
@@ -630,8 +773,10 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
-  "city": "San Isidro",
+  "city": "Lima",
   "website": "https://www.bvl.com.pe",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.094821,
    "lng": -77.03603,
@@ -651,8 +796,14 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
-  "city": "Ate",
+  "city": "Lima",
   "website": "https://confianza.pe",
+  "challenges": [
+   "BOS",
+   "FIN"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.016111,
    "lng": -76.899165,
@@ -672,8 +823,13 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
-  "city": "Tacabamba",
+  "city": "Lima",
   "website": "https://www.fpcmac.org.pe",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "BOS"
+  ],
   "geo": {
    "lat": -6.392693,
    "lng": -78.611425,
@@ -693,8 +849,14 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
-  "city": "Los Olivos",
+  "city": "Lima",
   "website": "https://www.compartamos.com.pe",
+  "challenges": [
+   "AGR",
+   "FIN"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -11.994068,
    "lng": -77.068541,
@@ -716,6 +878,13 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://www.cajaarequipa.pe",
+  "challenges": [
+   "AGR",
+   "BOS",
+   "FIN"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.092832,
    "lng": -77.027027,
@@ -737,6 +906,12 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://www.cajahuancayo.com.pe",
+  "challenges": [
+   "CIR",
+   "ENE"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.056016,
    "lng": -77.030136,
@@ -758,6 +933,12 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://www.cajapiura.pe",
+  "challenges": [
+   "CIR",
+   "ENE"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.049362,
    "lng": -77.037904,
@@ -777,8 +958,14 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
-  "city": "Villa El Salvador",
+  "city": "Lima",
   "website": "https://cajaica.pe",
+  "challenges": [
+   "CIR",
+   "ENE"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.204065,
    "lng": -76.933389,
@@ -798,8 +985,14 @@
   "type": "org",
   "category": "finance",
   "country": "Peru",
-  "city": "Huánuco",
+  "city": "Lima",
   "website": "https://www.cajamaynas.pe",
+  "challenges": [
+   "CIR",
+   "ENE"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -9.930496,
    "lng": -76.239251,
@@ -821,6 +1014,11 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://smisolutions.com",
+  "challenges": [
+   "CIR"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.039785,
    "lng": -77.072596,
@@ -840,7 +1038,10 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.ajegroup.com",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": null,
    "lng": null,
@@ -860,8 +1061,16 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
-  "city": "Ate",
+  "city": "Lima",
   "website": "https://www.backus.pe",
+  "challenges": [
+   "AGR",
+   "AGU",
+   "CIR",
+   "ENE"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.049098,
    "lng": -76.941372,
@@ -881,8 +1090,14 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
-  "city": "Miraflores",
+  "city": "Lima",
   "website": "https://www.alicorp.com.pe",
+  "challenges": [
+   "AGR",
+   "CIR"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.130579,
    "lng": -77.021011,
@@ -902,7 +1117,16 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://engie-energia.pe",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "AGR",
+   "AGU",
+   "CIU",
+   "ENE"
+  ],
   "geo": {
    "lat": null,
    "lng": null,
@@ -922,8 +1146,14 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
-  "city": "San Miguel",
+  "city": "Lima",
   "website": "https://www.pluz.pe",
+  "challenges": [
+   "AGR",
+   "AGU"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.074922,
    "lng": -77.090077,
@@ -943,8 +1173,14 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
-  "city": "Olmos",
+  "city": "Lima",
   "website": "https://danper.com",
+  "challenges": [
+   "AGR",
+   "AGU"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -6.026112,
    "lng": -80.022621,
@@ -964,8 +1200,15 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
-  "city": "Ancón",
+  "city": "Lima",
   "website": "https://www.cerroverde.pe",
+  "challenges": [
+   "AGU",
+   "ENE",
+   "FIN"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -11.683477,
    "lng": -77.175795,
@@ -985,8 +1228,13 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
-  "city": "Velille",
+  "city": "Lima",
   "website": "https://hudbayminerals.com",
+  "challenges": [
+   "FIN"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -14.46259,
    "lng": -71.793238,
@@ -1026,8 +1274,14 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
-  "city": "Ilo",
+  "city": "Lima",
   "website": "https://www.angloamerican.com",
+  "challenges": [
+   "AZU",
+   "BOS"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -17.770594,
    "lng": -71.190796,
@@ -1047,7 +1301,13 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.textilescamones.com",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "CIR"
+  ],
   "geo": {
    "lat": null,
    "lng": null,
@@ -1067,8 +1327,10 @@
   "type": "org",
   "category": "chamber",
   "country": "Peru",
-  "city": "San Isidro",
+  "city": "Lima",
   "website": "https://sni.org.pe",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.095612,
    "lng": -77.045432,
@@ -1088,8 +1350,14 @@
   "type": "org",
   "category": "chamber",
   "country": "Peru",
-  "city": "Jesús María",
+  "city": "Lima",
   "website": "https://www.camaralima.org.pe",
+  "challenges": [
+   "ENE",
+   "FIN"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.083858,
    "lng": -77.051577,
@@ -1109,8 +1377,10 @@
   "type": "org",
   "category": "chamber",
   "country": "Peru",
-  "city": "San Borja",
+  "city": "Lima",
   "website": "https://www.adexperu.org.pe",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.086383,
    "lng": -76.995378,
@@ -1130,7 +1400,13 @@
   "type": "org",
   "category": "chamber",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.sna-peru.com",
+  "challenges": [
+   "AZU"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": null,
    "lng": null,
@@ -1150,7 +1426,10 @@
   "type": "org",
   "category": "chamber",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.spr.pe",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": null,
    "lng": null,
@@ -1170,8 +1449,13 @@
   "type": "org",
   "category": "corporate",
   "country": "Peru",
-  "city": "Arequipa",
+  "city": "Lima",
   "website": "https://libelula.com.pe",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "FIN"
+  ],
   "geo": {
    "lat": -16.398867,
    "lng": -71.536961,
@@ -1191,8 +1475,13 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": "Magdalena del Mar",
+  "city": "Lima",
   "website": "https://www.gob.pe/minam",
+  "challenges": [
+   "BOS"
+  ],
+  "sector": "gov",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.095225,
    "lng": -77.059868,
@@ -1212,8 +1501,15 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": "San Isidro",
+  "city": "Lima",
   "website": "https://www.gob.pe/produce",
+  "challenges": [
+   "AZU",
+   "CIR",
+   "FIN"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.098319,
    "lng": -77.014881,
@@ -1233,8 +1529,10 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": "La Molina",
+  "city": "Lima",
   "website": "https://www.gob.pe/midagri",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.077903,
    "lng": -76.953752,
@@ -1254,8 +1552,10 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": "San Borja",
+  "city": "Lima",
   "website": "https://www.gob.pe/minem",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.097252,
    "lng": -77.006356,
@@ -1277,6 +1577,8 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://www.gob.pe/mef",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.046234,
    "lng": -77.028282,
@@ -1296,8 +1598,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": "San Isidro",
+  "city": "Lima",
   "website": "https://www.sbs.gob.pe",
+  "challenges": [
+   "ENE",
+   "FIN"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.092695,
    "lng": -77.046521,
@@ -1317,8 +1625,10 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": "Santa María del Valle",
+  "city": "Lima",
   "website": "https://www.smv.gob.pe",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -9.862821,
    "lng": -76.169949,
@@ -1338,8 +1648,13 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": "Magdalena del Mar",
+  "city": "Lima",
   "website": "https://www.gob.pe/osinergmin",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "FIN"
+  ],
   "geo": {
    "lat": -12.096739,
    "lng": -77.058827,
@@ -1359,8 +1674,13 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": "Magdalena del Mar",
+  "city": "Lima",
   "website": "https://www.gob.pe/sunass",
+  "challenges": [
+   "FIN"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.09697,
    "lng": -77.058976,
@@ -1380,8 +1700,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": "Cuzco",
+  "city": "Lima",
   "website": "https://www.gob.pe/proinnovate",
+  "challenges": [
+   "BOS",
+   "FIN"
+  ],
+  "sector": "gov",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -13.517089,
    "lng": -71.978536,
@@ -1422,8 +1748,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": "San Isidro",
+  "city": "Lima",
   "website": "https://www.cofide.com.pe",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "BOS",
+   "FIN"
+  ],
   "geo": {
    "lat": -12.097524,
    "lng": -77.0272,
@@ -1443,8 +1775,13 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": "San Borja",
+  "city": "Lima",
   "website": "https://prociencia.gob.pe",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "ARG"
+  ],
   "geo": {
    "lat": -12.085532,
    "lng": -77.008382,
@@ -1464,8 +1801,13 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": "San Isidro",
+  "city": "Lima",
   "website": "https://www.gob.pe/agroideas",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "BOS"
+  ],
   "geo": {
    "lat": -12.097748,
    "lng": -77.031815,
@@ -1485,8 +1827,13 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": "Barranca",
+  "city": "Lima",
   "website": "https://www.agrobanco.com.pe",
+  "challenges": [
+   "BOS"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -10.753654,
    "lng": -77.759098,
@@ -1506,8 +1853,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": "Independencia",
+  "city": "Lima",
   "website": "https://www.gob.pe/inaigem",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "AGR",
+   "ENE"
+  ],
   "geo": {
    "lat": -9.499746,
    "lng": -77.535385,
@@ -1548,8 +1901,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": "Jesús María",
+  "city": "Lima",
   "website": "https://www.gob.pe/senamhi",
+  "challenges": [
+   "AGR",
+   "ENE"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.079199,
    "lng": -77.042864,
@@ -1569,8 +1928,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": "Jesús María",
+  "city": "Lima",
   "website": "https://www.gob.pe/serfor",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "AGU",
+   "ARG"
+  ],
   "geo": {
    "lat": -12.079536,
    "lng": -77.054119,
@@ -1590,8 +1955,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": "San Isidro",
+  "city": "Lima",
   "website": "https://www.gob.pe/sernanp",
+  "challenges": [
+   "AGU",
+   "ARG"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.093963,
    "lng": -77.015617,
@@ -1632,7 +2003,20 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.gob.pe/proinversion",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "AGR",
+   "AGU",
+   "AZU",
+   "BOS",
+   "CIR",
+   "CIU",
+   "ENE",
+   "FIN"
+  ],
   "geo": {
    "lat": null,
    "lng": null,
@@ -1652,8 +2036,20 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": "San Isidro",
+  "city": "Lima",
   "website": "https://www.gob.pe/promperu",
+  "challenges": [
+   "AGR",
+   "AGU",
+   "AZU",
+   "BOS",
+   "CIR",
+   "CIU",
+   "ENE",
+   "FIN"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.098212,
    "lng": -77.0147,
@@ -1673,7 +2069,10 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.gob.pe/apci",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": null,
    "lng": null,
@@ -1693,8 +2092,13 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": "Callao",
+  "city": "Lima",
   "website": "https://www.gob.pe/imarpe",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "BOS"
+  ],
   "geo": {
    "lat": -12.066669,
    "lng": -77.158031,
@@ -1714,8 +2118,13 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": "Huancayo",
+  "city": "Lima",
   "website": "https://www.gob.pe/sanipes",
+  "challenges": [
+   "BOS"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.048599,
    "lng": -75.195008,
@@ -1840,7 +2249,10 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.instagram.com/surco_emprende/",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": null,
    "lng": null,
@@ -1860,7 +2272,10 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.instagram.com/p/Ddw80GLAbfr/",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": null,
    "lng": null,
@@ -1880,7 +2295,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.gob.pe/regioncusco",
+  "challenges": [
+   "AGR",
+   "BOS"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": null,
    "lng": null,
@@ -1900,8 +2322,14 @@
   "type": "org",
   "category": "government",
   "country": "Peru",
-  "city": "Miraflores",
+  "city": "Lima",
   "website": "https://www.miraflores.gob.pe",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "CIR",
+   "CIU"
+  ],
   "geo": {
    "lat": -12.12176,
    "lng": -77.029211,
@@ -1921,8 +2349,10 @@
   "type": "org",
   "category": "academia",
   "country": "Peru",
-  "city": "La Molina",
+  "city": "Lima",
   "website": "https://www.lamolina.edu.pe",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.088069,
    "lng": -76.946613,
@@ -1942,7 +2372,14 @@
   "type": "org",
   "category": "academia",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.pucp.edu.pe",
+  "challenges": [
+   "AGU",
+   "BOS"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.069645,
    "lng": 77.07941,
@@ -1960,8 +2397,15 @@
   "type": "org",
   "category": "academia",
   "country": "Peru",
-  "city": "Jesús María",
+  "city": "Lima",
   "website": "https://www.up.edu.pe",
+  "challenges": [
+   "CIU",
+   "ENE",
+   "FIN"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.083883,
    "lng": -77.048319,
@@ -1981,8 +2425,13 @@
   "type": "org",
   "category": "academia",
   "country": "Peru",
-  "city": "San Juan",
+  "city": "Lima",
   "website": "https://www.utec.edu.pe",
+  "challenges": [
+   "CIU"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -14.660267,
    "lng": -74.202247,
@@ -2002,8 +2451,14 @@
   "type": "org",
   "category": "academia",
   "country": "Peru",
-  "city": "San Isidro",
+  "city": "Lima",
   "website": "https://cayetano.edu.pe",
+  "challenges": [
+   "AGR",
+   "AZU"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.091244,
    "lng": -77.051867,
@@ -2023,8 +2478,15 @@
   "type": "org",
   "category": "academia",
   "country": "Peru",
-  "city": "Pueblo Libre",
+  "city": "Lima",
   "website": "https://portal.unapiquitos.edu.pe",
+  "challenges": [
+   "AGR",
+   "BOS",
+   "CIU"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.074055,
    "lng": -77.075012,
@@ -2044,7 +2506,15 @@
   "type": "org",
   "category": "academia",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://unsm.edu.pe",
+  "challenges": [
+   "AGR",
+   "BOS",
+   "CIU"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": null,
    "lng": null,
@@ -2064,8 +2534,15 @@
   "type": "org",
   "category": "academia",
   "country": "Peru",
-  "city": "Calca",
+  "city": "Lima",
   "website": "https://www.unu.edu.pe",
+  "challenges": [
+   "AGR",
+   "BOS",
+   "CIU"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -13.325509,
    "lng": -71.974977,
@@ -2085,8 +2562,15 @@
   "type": "org",
   "category": "academia",
   "country": "Peru",
-  "city": "Yarinacocha",
+  "city": "Lima",
   "website": "https://unia.edu.pe",
+  "challenges": [
+   "AGR",
+   "BOS",
+   "CIU"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -8.346962,
    "lng": -74.590139,
@@ -2106,7 +2590,15 @@
   "type": "org",
   "category": "academia",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://untrm.edu.pe",
+  "challenges": [
+   "AGR",
+   "BOS",
+   "CIU"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": null,
    "lng": null,
@@ -2126,7 +2618,15 @@
   "type": "org",
   "category": "academia",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://portal.unamad.edu.pe",
+  "challenges": [
+   "AGR",
+   "BOS",
+   "CIU"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.588351,
    "lng": 69.209658,
@@ -2144,8 +2644,15 @@
   "type": "org",
   "category": "academia",
   "country": "Peru",
-  "city": "Barranco",
+  "city": "Lima",
   "website": "https://grade.org.pe",
+  "challenges": [
+   "AGR",
+   "BOS",
+   "CIU"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.136618,
    "lng": -77.022617,
@@ -2165,7 +2672,17 @@
   "type": "org",
   "category": "academia",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://metaredx.org/pe",
+  "challenges": [
+   "AGR",
+   "AGU",
+   "CIR",
+   "ENE",
+   "FIN"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": null,
    "lng": null,
@@ -2187,6 +2704,12 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://www.unmsm.edu.pe",
+  "challenges": [
+   "CIU",
+   "ENE"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.055172,
    "lng": -77.083574,
@@ -2206,7 +2729,16 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.lamolina.edu.pe",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "AGR",
+   "AGU",
+   "AZU",
+   "BOS"
+  ],
   "geo": {
    "lat": null,
    "lng": null,
@@ -2226,7 +2758,20 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://emprendeup.pe/climatech/",
+  "challenges": [
+   "AGR",
+   "AGU",
+   "AZU",
+   "BOS",
+   "CIR",
+   "CIU",
+   "ENE",
+   "FIN"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": null,
    "lng": null,
@@ -2246,8 +2791,15 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": "San Isidro",
+  "city": "Lima",
   "website": "https://bioincuba.cayetano.pe",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "AGR",
+   "AZU",
+   "BOS"
+  ],
   "geo": {
    "lat": -12.097902,
    "lng": -77.035367,
@@ -2267,8 +2819,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": "La Molina",
+  "city": "Lima",
   "website": "https://usil.edu.pe/emprendimiento/",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "AGR",
+   "AGU"
+  ],
   "geo": {
    "lat": -12.072791,
    "lng": -76.95378,
@@ -2288,8 +2846,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": "San Isidro",
+  "city": "Lima",
   "website": "https://1551.unmsm.edu.pe",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "AGR",
+   "AGU"
+  ],
   "geo": {
    "lat": -12.108536,
    "lng": -77.053543,
@@ -2309,7 +2873,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://cide.pucp.edu.pe/tag/nexum",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "AGR",
+   "AGU"
+  ],
   "geo": {
    "lat": null,
    "lng": null,
@@ -2329,7 +2900,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://startup.uni.edu.pe",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "AGR",
+   "AGU"
+  ],
   "geo": {
    "lat": null,
    "lng": null,
@@ -2349,8 +2927,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": "Cajamarca",
+  "city": "Lima",
   "website": "https://noticias.upc.edu.pe",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "AGR",
+   "AGU"
+  ],
   "geo": {
    "lat": -6.976827,
    "lng": -78.940949,
@@ -2370,8 +2954,10 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": "San Borja",
+  "city": "Lima",
   "website": "https://www.ulima.edu.pe",
+  "sector": "civil",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.085529,
    "lng": -76.970701,
@@ -2391,8 +2977,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": "Santiago de Surco",
+  "city": "Lima",
   "website": "https://innova.esan.edu.pe",
+  "challenges": [
+   "AGR",
+   "AGU"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.142088,
    "lng": -77.012194,
@@ -2412,8 +3004,10 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": "Miraflores",
+  "city": "Lima",
   "website": "https://www.udep.edu.pe",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.120509,
    "lng": -77.031282,
@@ -2433,8 +3027,10 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": "Cuzco",
+  "city": "Lima",
   "website": "https://www.kunan.com.pe",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -13.516998,
    "lng": -71.974721,
@@ -2454,7 +3050,15 @@
   "type": "org",
   "category": "funder",
   "country": "Peru",
+  "city": "Lima / global",
   "website": "https://www.nesst.org",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "AGU",
+   "BOS",
+   "FIN"
+  ],
   "geo": {
    "lat": null,
    "lng": null,
@@ -2474,8 +3078,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": "Santiago de Surco",
+  "city": "Lima / global",
   "website": "https://endeavor.org.pe",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "AGU",
+   "BOS"
+  ],
   "geo": {
    "lat": -12.100151,
    "lng": -76.970429,
@@ -2495,7 +3105,10 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.facebook.com/ACMVenturesPeru/",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": null,
    "lng": null,
@@ -2515,7 +3128,10 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://bioinnova.unsm.edu.pe",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": null,
    "lng": null,
@@ -2535,7 +3151,10 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.unu.edu.pe",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": null,
    "lng": null,
@@ -2575,7 +3194,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://incubadora.untrm.edu.pe",
+  "challenges": [
+   "AGR",
+   "BOS"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": null,
    "lng": null,
@@ -2633,7 +3259,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://upao.edu.pe/diferenciacion/incubadora-de-negocios/",
+  "challenges": [
+   "AGR",
+   "CIR"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -8.127049,
    "lng": 79.033664,
@@ -2651,7 +3284,15 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
+  "city": "Arequipa",
   "website": "https://www.unsa.edu.pe/jaku/",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "AGR",
+   "AGU",
+   "ENE"
+  ],
   "geo": {
    "lat": null,
    "lng": null,
@@ -2671,7 +3312,10 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
+  "city": "Arequipa",
   "website": "https://ucsp.edu.pe/kaman/presentacion/",
+  "sector": "civil",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": null,
    "lng": null,
@@ -2691,8 +3335,10 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": "Jesús María",
+  "city": "Arequipa",
   "website": "https://investigacion.ucsm.edu.pe/innicia/",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.082842,
    "lng": -77.049099,
@@ -2712,7 +3358,10 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
+  "city": "Cajamarca",
   "website": "https://www.facebook.com/incuba.unach/",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": null,
    "lng": null,
@@ -2732,7 +3381,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
+  "city": "Cajamarca",
   "website": "https://camcajamarca.com.pe/cajamarca-incuba/",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "AGR",
+   "CIR"
+  ],
   "geo": {
    "lat": null,
    "lng": null,
@@ -2772,7 +3428,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
+  "city": "Huánuco",
   "website": "https://incuvalventures.unheval.edu.pe",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "AGR",
+   "AGU"
+  ],
   "geo": {
    "lat": null,
    "lng": null,
@@ -2792,7 +3455,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
+  "city": "Lima",
   "website": "http://www.udh.edu.pe",
+  "challenges": [
+   "AGR",
+   "AGU"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": null,
    "lng": null,
@@ -2812,7 +3482,21 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.gob.pe/unam",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "AGR",
+   "AGU",
+   "ARG",
+   "AZU",
+   "BOS",
+   "CIR",
+   "CIU",
+   "ENE",
+   "FIN"
+  ],
   "geo": {
    "lat": null,
    "lng": null,
@@ -2832,8 +3516,14 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": "Orcopampa",
+  "city": "Junín",
   "website": "https://wichay.pe",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "AGR",
+   "AGU"
+  ],
   "geo": {
    "lat": -15.360995,
    "lng": -72.297308,
@@ -2853,7 +3543,13 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.natureservices.net",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "BOS"
+  ],
   "geo": {
    "lat": null,
    "lng": null,
@@ -2873,8 +3569,13 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
-  "city": "Las Piedras",
+  "city": "Lima",
   "website": "https://www.arbioperu.org",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "BOS"
+  ],
   "geo": {
    "lat": -12.171629,
    "lng": -69.390923,
@@ -2934,8 +3635,13 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
-  "city": "Arequipa",
+  "city": "Lima",
   "website": "https://amazoniaquelate.com",
+  "challenges": [
+   "BOS"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -16.398867,
    "lng": -71.536961,
@@ -2955,8 +3661,10 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
-  "city": "Cuzco",
+  "city": "Lima",
   "website": "https://acca.org.pe",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -13.517089,
    "lng": -71.978536,
@@ -2976,8 +3684,14 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
-  "city": "Arequipa",
+  "city": "Lima",
   "website": "https://spda.org.pe",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "AGR",
+   "BOS"
+  ],
   "geo": {
    "lat": -16.398867,
    "lng": -71.536961,
@@ -2997,7 +3711,10 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.ciudadsaludable.org",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": null,
    "lng": null,
@@ -3017,8 +3734,13 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
-  "city": "Cuzco",
+  "city": "Lima",
   "website": "https://accion-andina.org",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "AGU"
+  ],
   "geo": {
    "lat": -13.517089,
    "lng": -71.978536,
@@ -3038,7 +3760,10 @@
   "type": "org",
   "category": "chamber",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.facebook.com/ccpip/",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": null,
    "lng": null,
@@ -3058,7 +3783,10 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.fundacionwiese.org",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": null,
    "lng": null,
@@ -3098,7 +3826,14 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.belcorp.com/fundacionbelcorp",
+  "challenges": [
+   "AZU",
+   "BOS"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": null,
    "lng": null,
@@ -3118,8 +3853,14 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
-  "city": "Villa María del Triunfo",
+  "city": "Lima",
   "website": "https://asociacionunacem.org",
+  "challenges": [
+   "AZU",
+   "BOS"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.197225,
    "lng": -76.909723,
@@ -3139,7 +3880,10 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://chile.angloamerican.com/es-es/fundacion",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": null,
    "lng": null,
@@ -3159,8 +3903,10 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
-  "city": "San Isidro",
+  "city": "Lima",
   "website": "https://care.org.pe",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.092388,
    "lng": -77.026353,
@@ -3180,8 +3926,10 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
-  "city": "Los Olivos",
+  "city": "Lima",
   "website": "https://solidaridadlatam.org",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -11.979527,
    "lng": -77.0736,
@@ -3201,7 +3949,10 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.helvetas.org/es/peru",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": null,
    "lng": null,
@@ -3221,7 +3972,13 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.swisscontact.org/es/donde-trabajamos/peru",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "CIR"
+  ],
   "geo": {
    "lat": -12.107001,
    "lng": 77.032145,
@@ -3239,8 +3996,16 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
-  "city": "Madre de Dios",
+  "city": "Lima",
   "website": "https://perusostenible.org",
+  "challenges": [
+   "AGR",
+   "AGU",
+   "BOS",
+   "CIR"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -13.123109,
    "lng": -70.497403,
@@ -3262,6 +4027,11 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://www.sistemab.org",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "AGR"
+  ],
   "geo": {
    "lat": -12.042555,
    "lng": -77.04275,
@@ -3283,6 +4053,11 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://www.lmas1.org",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "AGR"
+  ],
   "geo": {
    "lat": -12.045981,
    "lng": -77.030591,
@@ -3302,7 +4077,13 @@
   "type": "org",
   "category": "ngo_foundation",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.conservamospornaturaleza.org",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "AGR"
+  ],
   "geo": {
    "lat": null,
    "lng": null,
@@ -3322,7 +4103,14 @@
   "type": "org",
   "category": "media",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://es.mongabay.com",
+  "challenges": [
+   "AZU",
+   "BOS"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": null,
    "lng": null,
@@ -3344,6 +4132,8 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://www.actualidadambiental.pe",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.045981,
    "lng": -77.030591,
@@ -3363,8 +4153,13 @@
   "type": "org",
   "category": "media",
   "country": "Peru",
-  "city": "San Isidro",
+  "city": "Lima",
   "website": "https://gestion.pe",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "FIN"
+  ],
   "geo": {
    "lat": -12.09091,
    "lng": -77.016473,
@@ -3384,8 +4179,13 @@
   "type": "org",
   "category": "media",
   "country": "Peru",
-  "city": "La Molina",
+  "city": "Lima",
   "website": "https://agraria.pe",
+  "challenges": [
+   "AGR"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.079393,
    "lng": -76.950281,
@@ -3405,7 +4205,10 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.iadb.org",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": null,
    "lng": null,
@@ -3425,8 +4228,15 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": "天河区",
+  "city": "Lima",
   "website": "https://www.ifc.org",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "CIR",
+   "CIU",
+   "FIN"
+  ],
   "geo": {
    "lat": 23.120251,
    "lng": 113.317864,
@@ -3446,8 +4256,15 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": "Carhuaz",
+  "city": "Lima",
   "website": "https://www.caf.com",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "CIR",
+   "CIU",
+   "FIN"
+  ],
   "geo": {
    "lat": -9.281159,
    "lng": -77.646106,
@@ -3488,8 +4305,14 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": "Berlin",
+  "city": "Lima",
   "website": "https://www.kfw.de",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "BOS",
+   "FIN"
+  ],
   "geo": {
    "lat": 52.507176,
    "lng": 13.358246,
@@ -3509,8 +4332,15 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": "Baye",
+  "city": "Lima",
   "website": "https://www.eib.org",
+  "challenges": [
+   "BOS",
+   "ENE",
+   "FIN"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": 47.858433,
    "lng": -3.605622,
@@ -3551,8 +4381,10 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": "Miraflores",
+  "city": "Lima",
   "website": "https://www.fao.org",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.122311,
    "lng": -77.017342,
@@ -3572,8 +4404,10 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": "Communauté urbaine de Yaoundé",
+  "city": "Lima",
   "website": "https://www.unido.org",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": 3.904508,
    "lng": 11.501748,
@@ -3613,8 +4447,13 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": "Municipio Nuestra Señora de La Paz",
+  "city": "Lima",
   "website": "https://unhabitat.org",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "AGR"
+  ],
   "geo": {
    "lat": -16.512916,
    "lng": -68.120639,
@@ -3634,8 +4473,10 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": "La Molina",
+  "city": "Lima",
   "website": "https://iica.int",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.077702,
    "lng": -76.951525,
@@ -3697,8 +4538,10 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": "San Isidro",
+  "city": "Lima",
   "website": "https://www.euroclima.org",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.09549,
    "lng": -77.038455,
@@ -3718,8 +4561,13 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": "Dakar",
+  "city": "Lima",
   "website": "https://www.aecid.es",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "FIN"
+  ],
   "geo": {
    "lat": 14.66279,
    "lng": -17.435362,
@@ -3760,8 +4608,15 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": "Ormoc",
+  "city": "Lima",
   "website": "https://www.jica.go.jp",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "AGR",
+   "AGU",
+   "CIR"
+  ],
   "geo": {
    "lat": 11.028429,
    "lng": 124.551537,
@@ -3781,8 +4636,15 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": "성남시",
+  "city": "Lima",
   "website": "https://www.koica.go.kr",
+  "challenges": [
+   "AGR",
+   "AGU",
+   "CIR"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": 37.415691,
    "lng": 127.098692,
@@ -3804,6 +4666,11 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://peru.ahk.de",
+  "challenges": [
+   "ENE"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.045981,
    "lng": -77.030591,
@@ -3823,8 +4690,14 @@
   "type": "org",
   "category": "chamber",
   "country": "Peru",
-  "city": "San Isidro",
+  "city": "Lima",
   "website": "https://www.amcham.org.pe",
+  "challenges": [
+   "AGU",
+   "FIN"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.095957,
    "lng": -77.037571,
@@ -3864,7 +4737,15 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.conservation.org",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "AGU",
+   "BOS",
+   "FIN"
+  ],
   "geo": {
    "lat": null,
    "lng": null,
@@ -3884,8 +4765,10 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": "Lince",
+  "city": "Lima",
   "website": "https://www.wwf.org.pe",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -12.090261,
    "lng": -77.040447,
@@ -3905,8 +4788,10 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": "Omaha",
+  "city": "Lima",
   "website": "https://www.nature.org",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": 41.251924,
    "lng": -95.929733,
@@ -3926,8 +4811,10 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
-  "city": "Forest",
+  "city": "Lima",
   "website": "https://www.forest-trends.org",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": 32.353265,
    "lng": -89.483221,
@@ -3947,7 +4834,14 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.rainforest-alliance.org",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "AZU",
+   "BOS"
+  ],
   "geo": {
    "lat": null,
    "lng": null,
@@ -3967,7 +4861,14 @@
   "type": "org",
   "category": "international",
   "country": "Peru",
+  "city": "Lima",
   "website": "https://www.avina.net",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "AGU",
+   "BOS"
+  ],
   "geo": {
    "lat": null,
    "lng": null,
@@ -4007,8 +4908,10 @@
   "type": "org",
   "category": "accelerator",
   "country": "Peru",
-  "city": "Arequipa",
+  "city": "Lima",
   "website": "https://cleantechhub.net",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": -16.404597,
    "lng": -71.531549,
@@ -4149,13 +5052,13 @@
   "city": "San Salvador",
   "website": "https://pomonaimpact.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4170,13 +5073,13 @@
   "city": "San Salvador",
   "website": "https://viwala.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4191,13 +5094,13 @@
   "city": "San Salvador",
   "website": "https://fiaes.org.sv",
   "geo": {
-   "lat": 13.70336,
-   "lng": -89.240147,
-   "address": "85 Avenida Norte, Colonia Escalón 113, San Salvador, El Salvador",
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "address",
-   "source_url": "https://fiaes.org.sv/"
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4212,13 +5115,13 @@
   "city": "San Salvador",
   "website": "https://atlantidacapital.com.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4233,13 +5136,13 @@
   "city": "San Salvador",
   "website": "https://www.bancoazul.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4254,13 +5157,13 @@
   "city": "San Salvador",
   "website": "https://www.bancohipotecario.com.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4275,13 +5178,13 @@
   "city": "San Salvador",
   "website": "https://www.bancoatlantida.com.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4296,13 +5199,13 @@
   "city": "San Salvador",
   "website": "https://www.bancoagricola.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4317,13 +5220,13 @@
   "city": "San Salvador",
   "website": "https://www.bandesal.gob.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4338,13 +5241,13 @@
   "city": "San Salvador",
   "website": "https://www.sisa.com.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4359,13 +5262,12 @@
   "city": "San Salvador",
   "website": "https://ases.org.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.687341,
+   "lng": 89.2247,
+   "city": "San Salvador",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "address",
+   "source_url": "https://ases.org.sv"
   },
   "nexus": {
    "card_slug": null
@@ -4379,14 +5281,16 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.arca.com.sv",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4401,13 +5305,13 @@
   "city": "San Salvador",
   "website": "https://www.polaris.com.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4422,13 +5326,13 @@
   "city": "San Salvador",
   "website": "https://sostenibilidad.davivienda.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4443,13 +5347,13 @@
   "city": "San Salvador",
   "website": "https://www.bcie.org",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4464,13 +5368,13 @@
   "city": "San Salvador",
   "website": "https://www.fideagro.org",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4485,13 +5389,13 @@
   "city": "San Salvador",
   "website": "https://www.baccredomatic.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4506,13 +5410,13 @@
   "city": "San Salvador",
   "website": "https://cafi.vc",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4527,13 +5431,13 @@
   "city": "San Salvador",
   "website": "https://ia-gros.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4546,15 +5450,14 @@
   "category": "startup",
   "country": "El Salvador",
   "city": "San Salvador",
-  "website": "https://www.recicla503.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4590,13 +5493,13 @@
   "city": "San Salvador",
   "website": "https://www.ternova.group",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4611,13 +5514,13 @@
   "city": "San Salvador",
   "website": "https://agrisal.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4632,13 +5535,13 @@
   "city": "San Salvador",
   "website": "https://laconstancia.com",
   "geo": {
-   "lat": 13.695344,
-   "lng": -89.241578,
-   "address": "Boulevard del Hipódromo None, San Salvador, El Salvador",
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "address",
-   "source_url": "https://laconstancia.com/"
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4653,13 +5556,13 @@
   "city": "San Salvador",
   "website": "https://grupoferromax.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4674,13 +5577,13 @@
   "city": "San Salvador",
   "website": "https://www.superselectos.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4695,13 +5598,13 @@
   "city": "San Salvador",
   "website": "https://www.aes-elsalvador.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4716,13 +5619,13 @@
   "city": "San Salvador",
   "website": "https://camarasal.com",
   "geo": {
-   "lat": 13.698523,
-   "lng": -89.19108,
-   "address": "Calle Presbitero Vicente Aguilar None, San Salvador, El Salvador",
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "address",
-   "source_url": "https://camarasal.com/"
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4735,15 +5638,15 @@
   "category": "chamber",
   "country": "El Salvador",
   "city": "San Salvador",
-  "website": "https://www.casalco.org.sv",
+  "website": "https://casalco.org.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4758,13 +5661,13 @@
   "city": "San Salvador",
   "website": "https://camtex.com.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4778,14 +5681,23 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://facebook.com/camagro.sv",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "AGR",
+   "AGU",
+   "BOS",
+   "CIR",
+   "ENE"
+  ],
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4800,13 +5712,13 @@
   "city": "San Salvador",
   "website": "https://industriaelsalvador.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4821,13 +5733,13 @@
   "city": "San Salvador",
   "website": "https://www.ambiente.gob.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4842,13 +5754,13 @@
   "city": "San Salvador",
   "website": "https://www.economia.gob.sv",
   "geo": {
-   "lat": 13.703917,
-   "lng": -89.200748,
-   "address": "Alameda Juan Pablo II None, San Salvador, El Salvador",
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "address",
-   "source_url": "https://www.economia.gob.sv/"
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4863,13 +5775,13 @@
   "city": "San Salvador",
   "website": "https://www.mag.gob.sv",
   "geo": {
-   "lat": 13.684037,
-   "lng": -89.286502,
-   "address": "Paaje 2 None, Santa Tecla, El Salvador",
-   "city": "Santa Tecla",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "address",
-   "source_url": "https://www.mag.gob.sv/"
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4884,13 +5796,13 @@
   "city": "San Salvador",
   "website": "https://www.conamype.gob.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4905,13 +5817,13 @@
   "city": "San Salvador",
   "website": "https://www.centa.gob.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4926,13 +5838,13 @@
   "city": "San Salvador",
   "website": "https://investinelsalvador.gob.sv",
   "geo": {
-   "lat": 13.708524,
-   "lng": -89.241605,
-   "address": "Calle del Mirador None, San Salvador, El Salvador",
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "address",
-   "source_url": "https://investinelsalvador.gob.sv/"
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4947,13 +5859,13 @@
   "city": "San Salvador",
   "website": "https://esco.gob.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4968,13 +5880,13 @@
   "city": "San Salvador",
   "website": "https://sansalvador.impacthub.net",
   "geo": {
-   "lat": 13.697619,
-   "lng": -89.241379,
-   "address": "Plaza la mascota None, San Salvador, El Salvador",
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "address",
-   "source_url": "https://sansalvador.impacthub.net/"
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -4989,13 +5901,13 @@
   "city": "San Salvador",
   "website": "https://pvblic.org/rein-hubs",
   "geo": {
-   "lat": 13.704529,
-   "lng": -89.226666,
-   "address": "Boulevard Constitución None, San Salvador, El Salvador",
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "address",
-   "source_url": "https://pvblic.org/rein-hubs"
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5010,13 +5922,13 @@
   "city": "San Salvador",
   "website": "https://www.utec.edu.sv",
   "geo": {
-   "lat": 13.704529,
-   "lng": -89.226666,
-   "address": "Boulevard Constitución None, San Salvador, El Salvador",
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "address",
-   "source_url": "https://www.utec.edu.sv/"
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5031,13 +5943,13 @@
   "city": "San Salvador",
   "website": "https://snbx.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5052,13 +5964,13 @@
   "city": "San Salvador",
   "website": "https://fundaciongloriakriete.org",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5073,13 +5985,13 @@
   "city": "San Salvador",
   "website": "https://www.startupbootcamp.org",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5094,13 +6006,13 @@
   "city": "San Salvador",
   "website": "https://www.utec.edu.sv",
   "geo": {
-   "lat": 13.704529,
-   "lng": -89.226666,
-   "address": "Boulevard Constitución None, San Salvador, El Salvador",
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "address",
-   "source_url": "https://www.utec.edu.sv/"
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5115,13 +6027,13 @@
   "city": "San Salvador",
   "website": "https://www.ues.edu.sv",
   "geo": {
-   "lat": 13.970461,
-   "lng": -89.574407,
-   "address": "Pasaje 3 None, Santa Ana, El Salvador",
-   "city": "Santa Ana",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "address",
-   "source_url": "https://www.ues.edu.sv/"
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5136,13 +6048,13 @@
   "city": "San Salvador",
   "website": "https://keyinstitute.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5156,14 +6068,20 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.uca.edu.sv",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "AGR",
+   "BOS"
+  ],
   "geo": {
-   "lat": 13.68065,
-   "lng": -89.235877,
-   "address": "Boulevard Los Próceres None, Antiguo Cuscatlán, El Salvador",
-   "city": "Antiguo Cuscatlán",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "address",
-   "source_url": "https://www.uca.edu.sv/"
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5177,14 +6095,20 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.esen.edu.sv",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "AGR",
+   "AGU"
+  ],
   "geo": {
-   "lat": 13.655297,
-   "lng": -89.285772,
-   "address": "Calle a Comasagua None, Santa Tecla, El Salvador",
-   "city": "Santa Tecla",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "address",
-   "source_url": "https://www.esen.edu.sv/"
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5199,13 +6123,13 @@
   "city": "San Salvador",
   "website": "https://tcsgo.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5220,13 +6144,13 @@
   "city": "San Salvador",
   "website": "https://www.canal12.com.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5241,13 +6165,13 @@
   "city": "San Salvador",
   "website": "https://www.canal21.com.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5262,13 +6186,13 @@
   "city": "San Salvador",
   "website": "https://www.canal10.gob.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5283,13 +6207,13 @@
   "city": "San Salvador",
   "website": "https://www.laprensagrafica.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5304,13 +6228,13 @@
   "city": "San Salvador",
   "website": "https://www.elsalvador.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5325,13 +6249,13 @@
   "city": "San Salvador",
   "website": "https://diario.elmundo.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5346,13 +6270,13 @@
   "city": "San Salvador",
   "website": "https://gatoencerrado.news",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5367,13 +6291,13 @@
   "city": "San Salvador",
   "website": "https://fundaciongloriakriete.org",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5388,13 +6312,13 @@
   "city": "San Salvador",
   "website": "https://fundemas.org.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5409,13 +6333,13 @@
   "city": "San Salvador",
   "website": "https://fundacioncolabora.com",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5429,14 +6353,21 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.fao.org/elsalvador",
+  "challenges": [
+   "AGR",
+   "AZU",
+   "BOS"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5450,14 +6381,20 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.undp.org/es/el-salvador",
+  "challenges": [
+   "BOS",
+   "FIN"
+  ],
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5472,13 +6409,13 @@
   "city": "San Salvador",
   "website": "https://www.unep.org",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5492,14 +6429,16 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.bancomundial.org/es/country/elsalvador",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5513,14 +6452,20 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.iadb.org/es",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
+  "challenges": [
+   "AGR",
+   "BOS"
+  ],
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5534,14 +6479,16 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://gggi.org",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5556,13 +6503,13 @@
   "city": "San Salvador",
   "website": "https://www.cepal.org",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5577,13 +6524,13 @@
   "city": "San Salvador",
   "website": "https://www.iom.int",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5597,14 +6544,16 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.giz.de",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5619,13 +6568,13 @@
   "city": "San Salvador",
   "website": "https://aecid.sv",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5638,15 +6587,14 @@
   "category": "international",
   "country": "El Salvador",
   "city": "San Salvador",
-  "website": "https://www.usaid.gov/el-salvador",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5661,13 +6609,13 @@
   "city": "San Salvador",
   "website": "https://www.crs.org",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5681,14 +6629,16 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://san-salvador.diplo.de",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
-   "lat": 13.707291,
-   "lng": -89.232649,
-   "address": "75 Avenida Norte None, San Salvador, El Salvador",
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "address",
-   "source_url": "https://san-salvador.diplo.de/sv-es"
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5701,15 +6651,17 @@
   "category": "international",
   "country": "El Salvador",
   "city": "San Salvador",
-  "website": "https://www.netherlandsandyou.nl/web/costa-rica-en",
+  "website": "https://www.netherlandsandyou.nl",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5722,15 +6674,14 @@
   "category": "international",
   "country": "El Salvador",
   "city": "San Salvador",
-  "website": "https://www.exteriores.gob.es/Embajadas/SANSALVADOR/es/Paginas/index.aspx",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "country",
-   "source_url": null
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5745,13 +6696,13 @@
   "city": "San Salvador",
   "website": "https://www.sv.emb-japan.go.jp",
   "geo": {
-   "lat": 13.707291,
-   "lng": -89.232649,
-   "address": "75 Avenida Norte None, San Salvador, El Salvador",
-   "city": "San Salvador",
+   "lat": 13.697629,
+   "lng": -89.191156,
+   "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+   "city": "San Salvador Centro",
    "country": "El Salvador",
-   "precision": "address",
-   "source_url": "https://www.sv.emb-japan.go.jp/"
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
   },
   "nexus": {
    "card_slug": null
@@ -5906,7 +6857,10 @@
   "type": "org",
   "category": "government",
   "country": "Colombia",
+  "city": "Lima",
   "website": "https://ipse.gov.co",
+  "sector": "private",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": null,
    "lng": null,
@@ -5915,6 +6869,1906 @@
    "country": "Colombia",
    "precision": "country",
    "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "ASEP",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.asep.gob.pe",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-asep",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Revista Ganamás",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://ganamas.com.pe",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-revista-ganama-s",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Emprendimientos Dinámicos Cambio Climático – 1G",
+  "type": "org",
+  "category": "government",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://cambioclimatico.proinnovate.gob.pe/wp-content/uploads/2024/04/Resultados-CD-Emprendimientos-Dinamicos-Cambio-Climatico.pdf",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-emprendimientos-dina-micos-cambio-clima-tico-1g",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Hub UDEP - Programa de Aceleración 3G | Sostenibilidad y Cambio Climático",
+  "type": "org",
+  "category": "academia",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.hub.udep.pe/",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "civil",
+  "id": "pe-hub-udep-programa-de-aceleracio-n-3g-sostenibili",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Incubagraria Portafolio",
+  "type": "org",
+  "category": "academia",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://incubagraria.lamolina.edu.pe/#section_Startups",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "civil",
+  "id": "pe-incubagraria-portafolio",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Redesing Lab",
+  "type": "org",
+  "category": "academia",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.redesignlab.org/#",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "civil",
+  "id": "pe-redesing-lab",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Alaya Capital",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://alaya-capital.com/#about-us",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-alaya-capital",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Andes Impact Partners",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.andesimpact.com/about-us",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-andes-impact-partners",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Arpegio VC",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://arpegio.vc/about/",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-arpegio-vc",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "AXA Impact Investing",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://alts.axa-im.com/responsible-investing/impact-investing",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-axa-impact-investing",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "BABASÚ Ventures",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://babasuventures.com/",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-babasu-ventures",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Banca de Inversion Sostenible",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.bancasostenible.la",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-banca-de-inversion-sostenible",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Beneficial Returns",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://beneficialreturns.com/",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-beneficial-returns",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Colaborativo VC",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://colaborativo.vc/",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-colaborativo-vc",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Earthshot Ventures",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.earthshot.vc//",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-earthshot-ventures",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "elea",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.elea.org/en/home-en",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-elea",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Impacta VC",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.impacta.vc/en/home",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-impacta-vc",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Salkantay Ventures",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.salkantay.vc/",
+  "challenges": [
+   "FIN"
+  ],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-salkantay-ventures",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Silence VC",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://silencevc.com/about/",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-silence-vc",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "SocialAlpha Impact",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.alphamundigroup.com/socialalpha-fund/",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-socialalpha-impact",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Convergence Design Funding Grant",
+  "type": "org",
+  "category": "international",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.convergence.finance/design-funding",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "intl",
+  "id": "pe-convergence-design-funding-grant",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "SCALE",
+  "type": "org",
+  "category": "academia",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://scaleup4.com/",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "civil",
+  "id": "pe-scale",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "The Ganesha Lab",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://theganeshalab.com/contact/",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-the-ganesha-lab",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "A2G | Sostenibilidad y Cambio Climático",
+  "type": "org",
+  "category": "ngo_foundation",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://a2g.pe/",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "civil",
+  "id": "pe-a2g-sostenibilidad-y-cambio-clima-tico",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Fronterra",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://fronterra.eco/about-us",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-fronterra",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Green Gold Forestry",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.ggfgroup.pe/en/contact-us/",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-green-gold-forestry",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "EcoEvol",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://ecoevol.com/",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-ecoevol",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "EcoProa",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://ecoproa.com/",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-ecoproa",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Imlakesh Organics",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://imlakeshorganics.com/",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-imlakesh-organics",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Kawat",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://kawatperu.com/contacto.html",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-kawat",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Qaira",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.qairadrones.com/",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-qaira",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Saphi",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.saphi.xyz/",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-saphi",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Whipay",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://whipay.pe/mercado",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-whipay",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Forest Stewardship Council",
+  "type": "org",
+  "category": "ngo_foundation",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://pe.fsc.org/pe-es",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "civil",
+  "id": "pe-forest-stewardship-council",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "FUNDES",
+  "type": "org",
+  "category": "ngo_foundation",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://fundes.org/#contact-form",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "civil",
+  "id": "pe-fundes",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "McKenna Academy of Natural Philosophy",
+  "type": "org",
+  "category": "ngo_foundation",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://mckenna.academy/",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "civil",
+  "id": "pe-mckenna-academy-of-natural-philosophy",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "nexos+1",
+  "type": "org",
+  "category": "ngo_foundation",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://nexosmasuno.com/",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "civil",
+  "id": "pe-nexos-1",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Amanatari",
+  "type": "org",
+  "category": "ngo_foundation",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.amanatari.org/",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "civil",
+  "id": "pe-amanatari",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Haskoningshv",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.haskoning.com",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-haskoningshv",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "BID Lab",
+  "type": "org",
+  "category": "international",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.idblab.org",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "intl",
+  "id": "pe-bid-lab",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Fenix Consulting",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.fenixconsulting.com.pe",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-fenix-consulting",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Incubadora de la Universidad Nacional de Moquegua",
+  "type": "org",
+  "category": "academia",
+  "country": "Peru",
+  "city": "Moquegua",
+  "website": "https://unam.edu.pe/vpi-ditt/home/lineas-de-investigacion/die/",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "civil",
+  "id": "pe-incubadora-de-la-universidad-nacional-de-moquegu",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "LIQUID Venture Studio",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://lvs.meetliquid.com/",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-liquid-venture-studio",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "S360 - Incubadora de Negocios UPAO",
+  "type": "org",
+  "category": "academia",
+  "country": "Peru",
+  "city": "La Libertad",
+  "website": "https://www.s360.pe",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "civil",
+  "id": "pe-s360-incubadora-de-negocios-upao",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "UPT INCUBA: Incubadora de Empresas Aruntakana",
+  "type": "org",
+  "category": "academia",
+  "country": "Peru",
+  "city": "Tacna",
+  "website": "https://www.uptincuba.pe/",
+  "challenges": [
+   "BOS"
+  ],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-upt-incuba-incubadora-de-empresas-aruntakana",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Dirección de Incubadora de Empresas de la UNIFSLB",
+  "type": "org",
+  "category": "academia",
+  "country": "Peru",
+  "city": "Amazonas",
+  "website": "https://-",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "civil",
+  "id": "pe-direccio-n-de-incubadora-de-empresas-de-la-unifs",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Earth Innovation Institute",
+  "type": "org",
+  "category": "international",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://earthinnovation.org",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-earth-innovation-institute",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "ALLVP Hi (Ventures)",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.hi.vc",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-allvp-hi-ventures",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Venture capital corporativo",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://grupocredicorp.com",
+  "challenges": [
+   "AGR",
+   "BOS"
+  ],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-venture-capital-corporativo",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Inversionistas de impacto en etapa temprana",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.mercycorps.org.co/",
+  "challenges": [
+   "ENE",
+   "FIN"
+  ],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-inversionistas-de-impacto-en-etapa-temprana",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "https://www.fundacionbbva.mx",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.fundacionbbva.mx",
+  "challenges": [
+   "AZU",
+   "BOS"
+  ],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-https-www-fundacionbbva-mx",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "https://elcomercio.pe",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://andina.pe/agencia/",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-https-elcomercio-pe",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "https://elperuano.pe",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://elperuano.pe",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-https-elperuano-pe",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Corresponsables, ProActivo",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://proactivo.com.pe",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-corresponsables-proactivo",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Inforegión, Red de Medios Regionales",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://inforegion.pe",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-inforegio-n-red-de-medios-regionales",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "https://www.iadb.org/en",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://idbinvest.org/en",
+  "challenges": [
+   "AGR",
+   "CIR",
+   "CIU",
+   "ENE",
+   "FIN"
+  ],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-https-www-iadb-org-en",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "https://www.deginvest.de",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.deginvest.de",
+  "challenges": [
+   "BOS",
+   "FIN"
+  ],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-https-www-deginvest-de",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "CIU AGU",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://onu-habitat.org",
+  "challenges": [
+   "AGU",
+   "CIU"
+  ],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-ciu-agu",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "https://www.unesco.org/es",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.unesco.org/es",
+  "challenges": [
+   "AGR"
+  ],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-https-www-unesco-org-es",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "https://www.unops.org/es",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.unops.org/es",
+  "challenges": [
+   "AGR"
+  ],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-https-www-unops-org-es",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "https://www.paho.org/es",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.paho.org/es",
+  "challenges": [
+   "AGR"
+  ],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-https-www-paho-org-es",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "https://www.intracen.org",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.intracen.org",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-https-www-intracen-org",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "https://www.oas.org/es/",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.oas.org/es/",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-https-www-oas-org-es",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "https://www.schweiz-kolumbien.eda.admin.ch/es",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.schweiz-kolumbien.eda.admin.ch/es",
+  "challenges": [
+   "CIR"
+  ],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-https-www-schweiz-kolumbien-eda-admin-ch-es",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "https://circulareconomy.europa.eu/platform/en",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://circulareconomy.europa.eu/platform/en",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-https-circulareconomy-europa-eu-platform-en",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Cooperación española, francesa y europea",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.cooperacionespanola.es",
+  "challenges": [
+   "FIN"
+  ],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-cooperacio-n-espan-ola-francesa-y-europea",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "https://www.expertisefrance.fr/es/areas-de-trabajo/emprendimiento-social-sostenible",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.gov.uk/government/organisations/foreign-commonwealth-development-office",
+  "challenges": [
+   "FIN"
+  ],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-https-www-expertisefrance-fr-es-areas-de-trabajo",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Embajadas",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.netherlandsandyou.nl",
+  "challenges": [
+   "AGR",
+   "AGU",
+   "AZU",
+   "BOS",
+   "CIR",
+   "ENE"
+  ],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-embajadas",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Alianza por el Clima Perú–Alemania",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://lima.diplo.de",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-alianza-por-el-clima-peru-alemania",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Embajada de Suiza",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.schweiz-peru.eda.admin.ch/es/embajada-de-suiza",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-embajada-de-suiza",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "BOS AZU ENE",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://finlandabroad.fi/web/per/embajada",
+  "challenges": [
+   "AZU",
+   "BOS",
+   "ENE"
+  ],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-bos-azu-ene",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "https://www.swedenabroad.se/es/sobre-suecia/perú/",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.swedenabroad.se/es/sobre-suecia/perú/",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-https-www-swedenabroad-se-es-sobre-suecia-peru",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "https://www.norway.no/es/peru/",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.norway.no/es/peru/",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-https-www-norway-no-es-peru",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Estados miembros de la UE",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.eeas.europa.eu/delegations/perú_es?s=162",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-estados-miembros-de-la-ue",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "https://www.international.gc.ca/country-pays/peru-perou/lima.aspx?lang=eng",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.international.gc.ca/country-pays/peru-perou/lima.aspx?lang=eng",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-https-www-international-gc-ca-country-pays-peru",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Cámaras",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.ccipf.com/es.html",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-ca-maras",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "https://www.ccipf.com/es.html",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.cciperu.it",
+  "challenges": [
+   "ENE"
+  ],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-https-www-ccipf-com-es-html",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "https://www.tropicalforestalliance.org/home",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.tropicalforestalliance.org/home",
+  "challenges": [
+   "AZU",
+   "BOS"
+  ],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-https-www-tropicalforestalliance-org-home",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "https://fsc.org/en",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://fsc.org/en",
+  "challenges": [
+   "AZU",
+   "BOS"
+  ],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-https-fsc-org-en",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "https://latinamerica.hss.de",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://latinamerica.hss.de",
+  "challenges": [
+   "AGU",
+   "BOS"
+  ],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-https-latinamerica-hss-de",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "AVSF, Terra Nuova, ASPEm, COEECI",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.avsf.org/es/",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-avsf-terra-nuova-aspem-coeeci",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "https://www.terranuova.org",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.terranuova.org",
+  "challenges": [
+   "FIN"
+  ],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-https-www-terranuova-org",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "https://aspem.org/en/",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://aspem.org/en/",
+  "challenges": [
+   "FIN"
+  ],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-https-aspem-org-en",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "https://www.coeeci.org.pe",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.coeeci.org.pe",
+  "challenges": [
+   "FIN"
+  ],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-https-www-coeeci-org-pe",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "Climate Policy Initiative, LAVCA, MIT REAP",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.lavca.org/research/",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-climate-policy-initiative-lavca-mit-reap",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "https://reap.mit.edu",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://reap.mit.edu",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-https-reap-mit-edu",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "name": "https://www.climatepolicyinitiative.org",
+  "type": "org",
+  "category": "corporate",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.climatepolicyinitiative.org",
+  "challenges": [],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "private",
+  "id": "pe-https-www-climatepolicyinitiative-org",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "id": "pe-policy-ndc-3-nuestro-desafio-climatico",
+  "name": "NDC 3.0 — Nuestro Desafío Climático",
+  "type": "policy",
+  "category": "policy",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.gob.pe/minam",
+  "challenges": [
+   "BOS",
+   "AGU",
+   "AZU",
+   "CIR",
+   "AGR",
+   "ENE",
+   "CIU",
+   "FIN"
+  ],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "gov",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "id": "pe-policy-ley-marco-cambio-climatico-30754",
+  "name": "Ley Marco sobre Cambio Climático (Ley 30754)",
+  "type": "policy",
+  "category": "policy",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.gob.pe/minam",
+  "challenges": [
+   "BOS",
+   "AGU",
+   "AGR",
+   "ENE",
+   "FIN"
+  ],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "gov",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "id": "pe-policy-hoja-ruta-finanzas-verdes",
+  "name": "Hoja de Ruta de Finanzas Verdes",
+  "type": "policy",
+  "category": "policy",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.gob.pe/minam",
+  "challenges": [
+   "FIN"
+  ],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "gov",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "id": "pe-policy-startup-peru-proinnovate",
+  "name": "StartUp Perú (ProInnóvate)",
+  "type": "policy",
+  "category": "policy",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://startup.proinnovate.gob.pe",
+  "challenges": [
+   "FIN",
+   "AGR",
+   "ENE",
+   "CIR"
+  ],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "gov",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "id": "pe-policy-programa-bionegocios-minam",
+  "name": "Programa para Bionegocios (MINAM)",
+  "type": "policy",
+  "category": "policy",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.gob.pe/minam",
+  "challenges": [
+   "BOS"
+  ],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "gov",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "id": "pe-policy-programa-bosques-minam",
+  "name": "Programa Bosques (MINAM)",
+  "type": "policy",
+  "category": "policy",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.gob.pe/bosques",
+  "challenges": [
+   "BOS"
+  ],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "gov",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "id": "pe-policy-ley-gestion-residuos-solidos",
+  "name": "Ley de Gestión Integral de Residuos Sólidos (D.S. 1278)",
+  "type": "policy",
+  "category": "policy",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.gob.pe/minam",
+  "challenges": [
+   "CIR"
+  ],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "gov",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
+  },
+  "nexus": {
+   "card_slug": null
+  }
+ },
+ {
+  "id": "pe-policy-taxonomia-verde-bonos",
+  "name": "Taxonomía verde / bonos verdes (SBS-SMV)",
+  "type": "policy",
+  "category": "policy",
+  "country": "Peru",
+  "city": "Lima",
+  "website": "https://www.sbs.gob.pe",
+  "challenges": [
+   "FIN"
+  ],
+  "source": "Mapa de Actores Perú 2026",
+  "sector": "gov",
+  "geo": {
+   "precision": "country",
+   "country": "Peru"
   },
   "nexus": {
    "card_slug": null

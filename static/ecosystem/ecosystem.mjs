@@ -17,6 +17,7 @@ import {
 } from './geo-utils.mjs';
 
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+const MAP_FONT_STACK = ['Noto Sans Regular'];
 
 const COUNTRY_META = {
   PE: { key: 'Peru', flag: '🇵🇪' },
@@ -28,7 +29,7 @@ const COUNTRY_META = {
 
 const CATEGORY_KEYS = [
   'government', 'accelerator', 'international', 'funder', 'ngo_foundation',
-  'academia', 'corporate', 'finance', 'chamber', 'startup', 'media', 'hub', 'mentor', 'program',
+  'academia', 'corporate', 'finance', 'chamber', 'startup', 'media', 'hub', 'mentor', 'program', 'policy',
 ];
 
 const CAT_COLOR = {
@@ -186,6 +187,7 @@ let policies = [];
 let policiesById = new Map();
 let policyRelations = [];
 let storyChapter = 0;
+let storyFocusCountry = null;
 let constellationId = null;
 let constellationCloseup = false;
 let storyScene = null;
@@ -367,11 +369,14 @@ function initTabs() {
       if (storyOn) {
         renderStoryRail();
         renderStoryChapter();
+      } else if (tab === 'cards') {
+        clearSuggestedOverlay();
+        updateStats(new Set(filteredActors().map((a) => a.id)));
+        renderCards(filteredActors());
       } else {
         clearSuggestedOverlay();
         renderAll();
       }
-      if (tab === 'cards') renderCards(filteredActors());
       if (tab === 'explore' && sigma) sigma.refresh();
     });
   });
@@ -561,6 +566,7 @@ function initMap() {
     fadeDuration: reducedMotion ? 0 : 300,
   });
   map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right');
+  window.__ecoMap = map;
   map.on('load', () => {
     mapReady = true;
     updateMapLayers();
@@ -625,7 +631,11 @@ function updateMapLayers(scene = null) {
         type: 'symbol',
         source: 'actors',
         filter: ['has', 'point_count'],
-        layout: { 'text-field': '{point_count_abbreviated}', 'text-size': 11 },
+        layout: {
+          'text-field': '{point_count_abbreviated}',
+          'text-size': 11,
+          'text-font': MAP_FONT_STACK,
+        },
         paint: { 'text-color': '#fff' },
       });
       map.addLayer({
@@ -634,7 +644,11 @@ function updateMapLayers(scene = null) {
         source: 'actors',
         filter: ['!', ['has', 'point_count']],
         paint: {
-          'circle-radius': ['case', ['==', ['get', 'sel'], 1], 9, ['interpolate', ['linear'], ['zoom'], 3, 3, 8, 7]],
+          'circle-radius': [
+            'interpolate', ['linear'], ['zoom'],
+            3, 3,
+            8, ['case', ['==', ['get', 'sel'], 1], 10, 7],
+          ],
           'circle-color': ['get', 'color'],
           'circle-opacity': selected ? 0.45 : 0.82,
           'circle-stroke-width': ['case', ['==', ['get', 'sel'], 1], 2, 1],
@@ -662,6 +676,7 @@ function updateMapLayers(scene = null) {
           'text-field': ['concat', ['get', 'country'], ' · ', ['to-string', ['get', 'count']]],
           'text-size': 11,
           'text-anchor': 'center',
+          'text-font': MAP_FONT_STACK,
         },
         paint: {
           'text-color': '#0c498a',
@@ -962,6 +977,30 @@ function renderStoryRail() {
   banner.innerHTML = `${esc(bmsg)} · <span class="suggested-tag">Suggested</span>`;
 
   rail.innerHTML = `<p class="meta" style="font-size:10px;margin:0 0 8px">${esc(tr.storyRailIntro || '')}</p>`;
+  const chNow = storyConfig.chapters[storyChapter];
+  const storyCountries = chNow?.map?.countries || [];
+  if (storyCountries.length > 1) {
+    const row = document.createElement('div');
+    row.className = 'chip-row story-country-row';
+    row.style.marginBottom = '8px';
+    const allLabel = lang === 'EN' ? 'All in chapter' : 'Todo el capítulo';
+    const chips = [['', allLabel], ...storyCountries.map((cc) => [cc, COUNTRY_META[cc]?.flag ? `${COUNTRY_META[cc].flag} ${cc}` : cc])];
+    chips.forEach(([cc, label]) => {
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.className = `chip sm ${(cc === '' && !storyFocusCountry) || storyFocusCountry === cc ? 'on' : ''}`;
+      b.textContent = label;
+      b.addEventListener('click', () => {
+        storyFocusCountry = cc || null;
+        renderStoryRail();
+        renderStoryChapter();
+      });
+      row.appendChild(b);
+    });
+    rail.appendChild(row);
+  } else {
+    storyFocusCountry = storyCountries[0] || storyFocusCountry;
+  }
   storyConfig.chapters.forEach((ch, idx) => {
     const step = document.createElement('div');
     step.className = `story-step${idx === storyChapter ? ' on' : ''}`;
@@ -970,6 +1009,8 @@ function renderStoryRail() {
       storyChapter = idx;
       constellationId = null;
       constellationCloseup = false;
+      const codes = ch.map?.countries || [];
+      storyFocusCountry = codes.length === 1 ? codes[0] : null;
       renderStoryRail();
       renderStoryChapter();
     });
@@ -996,7 +1037,10 @@ function renderStoryRail() {
     rail.appendChild(row);
   }
 
-  const counts = computeChapterEdgeCounts(storyConfig, relations, byId, policyRelations);
+  const counts = computeChapterEdgeCounts(storyConfig, relations, byId, policyRelations, {
+    policiesById,
+    storyFocusCountry,
+  });
   window.__storyEdgeCounts = counts;
   const gaps = document.createElement('div');
   gaps.className = 'story-gaps';
@@ -1013,8 +1057,12 @@ function renderStoryChapter() {
     closeup: constellationCloseup,
     policyRelations,
     policiesById,
+    storyFocusCountry,
   });
-  const current = computeChapterEdgeCounts(storyConfig, relations, byId, policyRelations)[storyChapter];
+  const current = computeChapterEdgeCounts(storyConfig, relations, byId, policyRelations, {
+    policiesById,
+    storyFocusCountry,
+  })[storyChapter];
   window.__storyChapterActive = {
     chapter: storyScene.chapter.id,
     real: current?.real ?? storyScene.realRels.length,
@@ -1036,19 +1084,6 @@ function renderStoryChapter() {
     storyLayout: Boolean(storyScene.presetPositions),
     storySuggested: storyScene.suggested,
   });
-}
-
-function initAuthGate() {
-  const host = location.hostname;
-  const isLocal = host === 'localhost' || host === '127.0.0.1' || location.search.includes('preview=1');
-  if (isLocal) return;
-  fetch('/nexus-auth/api/me', { credentials: 'include' })
-    .then((r) => {
-      if (r.ok) return;
-      const next = encodeURIComponent(location.pathname + location.search);
-      location.href = `/nexus-auth/?next=${next}`;
-    })
-    .catch(() => {});
 }
 
 function markReady() {
@@ -1136,7 +1171,6 @@ async function main() {
   initBrand();
   initLang();
   initTabs();
-  initAuthGate();
   bindControls();
   try {
     const mod = await import('https://esm.sh/graphology-layout-forceatlas2@0.10.1');

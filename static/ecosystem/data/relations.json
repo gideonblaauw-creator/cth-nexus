@@ -2,451 +2,516 @@
  {
   "source": "pe-unalm-universidad-nacional-agraria-la-molina",
   "target": "pe-incubagraria-unalm",
-  "type": "hosts",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "hosts"
  },
  {
   "source": "pe-pucp-pontificia-universidad-catolica-del-peru",
   "target": "pe-nexum-pucp",
-  "type": "hosts",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "hosts"
  },
  {
   "source": "pe-universidad-del-pacifico",
   "target": "pe-emprende-up-climatech-rein-hub-peru",
-  "type": "hosts",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "hosts"
  },
  {
   "source": "pe-utec-universidad-de-ingenieria-y-tecnologia",
   "target": "pe-utec-ventures",
-  "type": "hosts",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "hosts"
  },
  {
   "source": "pe-universidad-peruana-cayetano-heredia",
   "target": "pe-bioincuba-upch",
-  "type": "hosts",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "hosts"
  },
  {
   "source": "pe-unmsm-universidad-nacional-mayor-de-san-marcos",
   "target": "pe-1551-unmsm",
-  "type": "hosts",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "hosts"
  },
  {
   "source": "pe-unsm-universidad-nacional-de-san-martin",
   "target": "pe-incubadora-unsm-san-martin",
-  "type": "hosts",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "hosts"
  },
  {
   "source": "pe-unu-universidad-nacional-de-ucayali",
   "target": "pe-incuba-amazonia-unu",
-  "type": "hosts",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "hosts"
  },
  {
   "source": "pe-unia-universidad-nacional-intercultural-de-la-amaz",
   "target": "pe-incubadora-unia-ucayali",
-  "type": "hosts",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "hosts"
  },
  {
   "source": "pe-emprende-up-climatech-rein-hub-peru",
   "target": "pe-pvblic-foundation",
-  "type": "partner",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "partner"
  },
  {
   "source": "pe-emprende-up-climatech-rein-hub-peru",
   "target": "pe-cleantechhub",
-  "type": "partner",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "partner"
  },
  {
   "source": "pe-produce-ministerio-de-la-produccion",
   "target": "pe-proinnovate-startup-peru",
-  "type": "runs_program",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "runs_program"
  },
  {
   "source": "pe-proinnovate-startup-peru",
   "target": "pe-emprende-up-climatech-rein-hub-peru",
-  "type": "cofunds",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "cofunds"
  },
  {
   "source": "pe-proinnovate-startup-peru",
   "target": "pe-incubagraria-unalm",
-  "type": "cofunds",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "cofunds"
  },
  {
   "source": "pe-proinnovate-startup-peru",
   "target": "pe-nexum-pucp",
-  "type": "cofunds",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "cofunds"
  },
  {
   "source": "pe-proinnovate-startup-peru",
   "target": "pe-usil-ventures",
-  "type": "cofunds",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "cofunds"
  },
  {
   "source": "pe-nexum-pucp",
   "target": "pe-rebike-up",
-  "type": "incubated",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "incubated"
  },
  {
   "source": "pe-emprende-up-climatech-rein-hub-peru",
   "target": "pe-black-soldier-fly-logistics",
-  "type": "incubated",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "incubated"
  },
  {
   "source": "pe-emprende-up-climatech-rein-hub-peru",
   "target": "pe-yakusmart",
-  "type": "incubated",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "incubated"
  },
  {
   "source": "pe-emprende-up-climatech-rein-hub-peru",
   "target": "pe-vigia",
-  "type": "incubated",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "incubated"
  },
  {
   "source": "pe-krealo-credicorp",
   "target": "pe-bcp-banco-de-credito-del-peru",
-  "type": "part_of_group",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "part_of_group"
  },
  {
   "source": "pe-pacifico-seguros",
   "target": "pe-bcp-banco-de-credito-del-peru",
-  "type": "part_of_group",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "part_of_group"
  },
  {
   "source": "pe-fundacion-bbva-microfinanzas",
   "target": "pe-financiera-confianza",
-  "type": "owns",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "owns"
  },
  {
   "source": "pe-minam-ministerio-del-ambiente",
   "target": "pe-programa-para-bionegocios-minam",
-  "type": "runs_program",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "runs_program"
  },
  {
   "source": "pe-minam-ministerio-del-ambiente",
   "target": "pe-programa-bosques-minam",
-  "type": "runs_program",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "runs_program"
  },
  {
   "source": "pe-cofide-fcei",
   "target": "pe-programa-para-bionegocios-minam",
-  "type": "participates",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "participates"
  },
  {
   "source": "pe-financiera-confianza",
   "target": "pe-programa-para-bionegocios-minam",
-  "type": "participates",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "participates"
  },
  {
   "source": "sv-grupo-agrisal",
   "target": "sv-snbx-sandbox",
-  "type": "created",
-  "source_design_id": "DAGY8OMkdBw"
+  "type": "created"
  },
  {
   "source": "sv-grupo-ternova",
   "target": "sv-recicla503",
-  "type": "runs_initiative",
-  "source_design_id": "DAGY8OMkdBw"
+  "type": "runs_initiative"
  },
  {
   "source": "pe-cleantechhub",
   "target": "sv-iagros",
-  "type": "accelerated",
-  "source_design_id": "DAGY8OMkdBw"
+  "type": "accelerated"
  },
  {
   "source": "sv-rein-hub-san-salvador",
   "target": "pe-pvblic-foundation",
-  "type": "part_of_network",
-  "source_design_id": "DAGY8OMkdBw"
+  "type": "part_of_network"
  },
  {
   "source": "sv-mag-ministerio-de-agricultura-y-ganaderia",
   "target": "sv-fideagro",
-  "type": "runs_program",
-  "source_design_id": "DAGY8OMkdBw"
+  "type": "runs_program"
  },
  {
   "source": "sv-minec-ministerio-de-economia",
   "target": "sv-conamype",
-  "type": "oversees",
-  "source_design_id": "DAGY8OMkdBw"
+  "type": "oversees"
  },
  {
   "source": "co-fenoge",
   "target": "co-ipse",
-  "type": "funds_layer",
-  "source_design_id": "DAHPeVenQV0"
+  "type": "funds_layer"
  },
  {
   "source": "co-bancoldex",
   "target": "co-ipse",
-  "type": "funds_layer",
-  "source_design_id": "DAHPeVenQV0"
+  "type": "funds_layer"
  },
  {
   "source": "co-gcf-green-climate-fund",
   "target": "co-ipse",
-  "type": "funds_layer",
-  "source_design_id": "DAHPeVenQV0"
+  "type": "funds_layer"
  },
  {
   "source": "co-cif-climate-investment-funds",
   "target": "co-ipse",
-  "type": "funds_layer",
-  "source_design_id": "DAHPeVenQV0"
+  "type": "funds_layer"
  },
  {
   "source": "co-minenergia",
   "target": "co-ipse",
-  "type": "regulates_layer",
-  "source_design_id": "DAHPeVenQV0"
+  "type": "regulates_layer"
  },
  {
   "source": "co-creg",
   "target": "co-ipse",
-  "type": "regulates_layer",
-  "source_design_id": "DAHPeVenQV0"
+  "type": "regulates_layer"
  },
  {
   "source": "co-upme",
   "target": "co-ipse",
-  "type": "regulates_layer",
-  "source_design_id": "DAHPeVenQV0"
+  "type": "regulates_layer"
  },
  {
   "source": "pe-profonanpe",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "works_on_challenge"
  },
  {
   "source": "pe-amazonia-impact-ventures",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "works_on_challenge"
  },
  {
   "source": "pe-ecoenterprises-fund",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "works_on_challenge"
  },
  {
   "source": "pe-mirova-natural-capital",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "works_on_challenge"
  },
  {
   "source": "pe-andes-amazon-fund",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "works_on_challenge"
  },
  {
   "source": "pe-bosques-amazonicos-bam",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "works_on_challenge"
  },
  {
   "source": "pe-root-capital",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "works_on_challenge"
  },
  {
   "source": "pe-alterfin",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "works_on_challenge"
  },
  {
   "source": "pe-financiera-confianza",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "works_on_challenge"
  },
  {
   "source": "pe-rainforest-alliance",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "works_on_challenge"
  },
  {
   "source": "pe-minam-ministerio-del-ambiente",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "works_on_challenge"
  },
  {
   "source": "pe-serfor",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "works_on_challenge"
  },
  {
   "source": "pe-sernanp",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "works_on_challenge"
  },
  {
   "source": "pe-concytec-prociencia",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "works_on_challenge"
  },
  {
   "source": "pe-conservacion-amazonica-acca",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "works_on_challenge"
  },
  {
   "source": "pe-nature-services-peru",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "works_on_challenge"
  },
  {
   "source": "pe-arbio",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "works_on_challenge"
  },
  {
   "source": "pe-red-amazonia-que-late",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "works_on_challenge"
  },
  {
   "source": "pe-reforestadora-amazonica",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "works_on_challenge"
  },
  {
   "source": "pe-spda-sociedad-peruana-de-derecho-ambiental",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "works_on_challenge"
  },
  {
   "source": "pe-ccpip-camara-de-comercio-de-los-pueblos-indigenas",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "works_on_challenge"
  },
  {
   "source": "pe-conservacion-internacional",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "works_on_challenge"
  },
  {
   "source": "pe-wwf-peru",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "works_on_challenge"
  },
  {
   "source": "pe-the-nature-conservancy",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "works_on_challenge"
  },
  {
   "source": "pe-forest-trends",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "works_on_challenge"
  },
  {
   "source": "pe-giz",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "works_on_challenge"
  },
  {
   "source": "pe-kfw",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "works_on_challenge"
  },
  {
   "source": "pe-pnud-accelerator-lab-biofin",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "works_on_challenge"
  },
  {
   "source": "pe-bezos-earth-fund",
   "target": "challenge:PE-1-bosques",
-  "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "works_on_challenge"
  },
  {
   "source": "pe-ana-autoridad-nacional-del-agua",
   "target": "challenge:PE-2-agua",
-  "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "works_on_challenge"
  },
  {
   "source": "pe-inaigem",
   "target": "challenge:PE-2-agua",
-  "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "works_on_challenge"
  },
  {
   "source": "pe-sunass",
   "target": "challenge:PE-2-agua",
-  "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "works_on_challenge"
  },
  {
   "source": "pe-senamhi",
   "target": "challenge:PE-2-agua",
-  "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "works_on_challenge"
  },
  {
   "source": "pe-uqhu",
   "target": "challenge:PE-2-agua",
-  "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "works_on_challenge"
  },
  {
   "source": "pe-yakufil",
   "target": "challenge:PE-2-agua",
-  "type": "works_on_challenge",
-  "source_design_id": "DAHXkXRp9uc"
+  "type": "works_on_challenge"
+ },
+ {
+  "source": "pe-acm-ventures-agtech",
+  "target": "pe-acm-ventures-agtech",
+  "type": "hosts",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026"
+ },
+ {
+  "source": "pe-endeavor-peru",
+  "target": "pe-endeavor-peru",
+  "type": "hosts",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026"
+ },
+ {
+  "source": "pe-universidad-nacional-de-moquegua-upt-incuba-arunta",
+  "target": "pe-incubadora-de-la-universidad-nacional-de-moquegu",
+  "type": "hosts",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026"
+ },
+ {
+  "source": "pe-liquid-venture-studio",
+  "target": "pe-liquid-venture-studio",
+  "type": "hosts",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026"
+ },
+ {
+  "source": "pe-nesst",
+  "target": "pe-nesst",
+  "type": "hosts",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026"
+ },
+ {
+  "source": "pe-wichay-universidad-continental-junin",
+  "target": "pe-wichay-universidad-continental-junin",
+  "type": "hosts",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026"
+ },
+ {
+  "source": "pe-scale",
+  "target": "pe-scale",
+  "type": "hosts",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026"
+ },
+ {
+  "source": "pe-innovaul-universidad-de-lima",
+  "target": "pe-innovaul-universidad-de-lima",
+  "type": "hosts",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026"
+ },
+ {
+  "source": "pe-swisscontact",
+  "target": "pe-swisscontact",
+  "type": "hosts",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026"
+ },
+ {
+  "source": "pe-policy-ndc-3-nuestro-desafio-climatico",
+  "target": "pe-minam-ministerio-del-ambiente",
+  "type": "administered_by",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)"
+ },
+ {
+  "source": "pe-policy-ndc-3-nuestro-desafio-climatico",
+  "target": "pe-mef-ministerio-de-economia-y-finanzas",
+  "type": "administered_by",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)"
+ },
+ {
+  "source": "pe-policy-ley-marco-cambio-climatico-30754",
+  "target": "pe-minam-ministerio-del-ambiente",
+  "type": "administered_by",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)"
+ },
+ {
+  "source": "pe-policy-hoja-ruta-finanzas-verdes",
+  "target": "pe-minam-ministerio-del-ambiente",
+  "type": "administered_by",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)"
+ },
+ {
+  "source": "pe-policy-hoja-ruta-finanzas-verdes",
+  "target": "pe-mef-ministerio-de-economia-y-finanzas",
+  "type": "administered_by",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)"
+ },
+ {
+  "source": "pe-policy-startup-peru-proinnovate",
+  "target": "pe-proinnovate-startup-peru",
+  "type": "administered_by",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)"
+ },
+ {
+  "source": "pe-policy-startup-peru-proinnovate",
+  "target": "pe-produce-ministerio-de-la-produccion",
+  "type": "administered_by",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)"
+ },
+ {
+  "source": "pe-policy-programa-bionegocios-minam",
+  "target": "pe-minam-ministerio-del-ambiente",
+  "type": "administered_by",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)"
+ },
+ {
+  "source": "pe-policy-programa-bosques-minam",
+  "target": "pe-minam-ministerio-del-ambiente",
+  "type": "administered_by",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)"
+ },
+ {
+  "source": "pe-policy-ley-gestion-residuos-solidos",
+  "target": "pe-minam-ministerio-del-ambiente",
+  "type": "administered_by",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)"
+ },
+ {
+  "source": "pe-policy-taxonomia-verde-bonos",
+  "target": "pe-sbs-superintendencia-de-banca-seguros-y-afp",
+  "type": "administered_by",
+  "verified": true,
+  "source_note": "Mapa de Actores Perú 2026 (marco normativo y programas)"
  }
 ]

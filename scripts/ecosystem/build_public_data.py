@@ -155,6 +155,47 @@ def sanitize_policies(policies: list) -> list:
     return out
 
 
+COUNTRY_CODE = {"Peru": "PE", "Colombia": "CO", "El Salvador": "SV"}
+
+
+def _entity_country_code(
+    entity_id: str,
+    actors_by_id: dict,
+    policies_by_id: dict,
+    challenges: dict,
+) -> str | None:
+    if entity_id.startswith("challenge:"):
+        return COUNTRY_CODE.get((challenges.get(entity_id) or {}).get("country"))
+    if entity_id.startswith("policy:"):
+        return COUNTRY_CODE.get((policies_by_id.get(entity_id) or {}).get("country"))
+    actor = actors_by_id.get(entity_id)
+    if actor:
+        return COUNTRY_CODE.get(actor.get("country") or (actor.get("geo") or {}).get("country"))
+    return None
+
+
+def drop_cross_country_policy_relations(
+    relations: list,
+    actors_by_id: dict,
+    policies_by_id: dict,
+    challenges: dict,
+) -> tuple[list, int]:
+    """Remove issues_policy / addresses_challenge edges whose endpoints differ in country."""
+    kept = []
+    dropped = 0
+    for r in relations:
+        if r.get("type") not in ("issues_policy", "addresses_challenge"):
+            kept.append(r)
+            continue
+        cs = _entity_country_code(r.get("source", ""), actors_by_id, policies_by_id, challenges)
+        ct = _entity_country_code(r.get("target", ""), actors_by_id, policies_by_id, challenges)
+        if cs and ct and cs != ct:
+            dropped += 1
+            continue
+        kept.append(r)
+    return kept, dropped
+
+
 def sanitize_policy_relations(relations: list) -> list:
     out = []
     for r in relations:
@@ -214,7 +255,23 @@ def main() -> None:
         policies = sanitize_policies(json.loads(policies_path.read_text(encoding="utf-8")))
         policies_path.write_text(json.dumps(policies, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     if policy_rels_path.exists():
-        prel = sanitize_policy_relations(json.loads(policy_rels_path.read_text(encoding="utf-8")))
+        story_path = DATA / "story-chapters.json"
+        challenges = {}
+        if story_path.exists():
+            challenges = json.loads(story_path.read_text(encoding="utf-8")).get("challenges") or {}
+        policies_by_id = {}
+        if policies_path.exists():
+            for p in json.loads(policies_path.read_text(encoding="utf-8")):
+                if p.get("id"):
+                    policies_by_id[p["id"]] = p
+        actors_by_id = {a["id"]: a for a in actors}
+        raw_prel = json.loads(policy_rels_path.read_text(encoding="utf-8"))
+        raw_prel, dropped_cc = drop_cross_country_policy_relations(
+            raw_prel, actors_by_id, policies_by_id, challenges,
+        )
+        if dropped_cc:
+            print(f"Dropped {dropped_cc} cross-country policy relation(s)")
+        prel = sanitize_policy_relations(raw_prel)
         policy_rels_path.write_text(json.dumps(prel, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
     with_slug = sum(1 for a in actors if a.get("nexus", {}).get("card_slug"))
