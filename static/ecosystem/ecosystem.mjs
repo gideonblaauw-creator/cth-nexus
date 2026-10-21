@@ -1338,6 +1338,10 @@ function applyDemoState() {
     buildFilterChips();
     renderAll(false);
   }
+  const bootView = bootParams.get('view');
+  if (bootView === 'journey' || (!bootView && bootParams.get('challenge') && state !== 'story')) {
+    document.querySelector('[data-view-tab="journey"]')?.click();
+  }
   if (!state) return;
   if (state === 'filters') {
     activeCountry = normalizeCountryParam(bootParams.get('country')) || 'PE';
@@ -1363,10 +1367,6 @@ function applyDemoState() {
     constellationCloseup = bootParams.get('closeup') === '1';
     const tab = document.querySelector('[data-view-tab="story"]');
     if (tab) tab.click();
-  }
-  const bootView = bootParams.get('view');
-  if (bootView === 'journey' || (!bootView && bootParams.get('challenge') && state !== 'story')) {
-    document.querySelector('[data-view-tab="journey"]')?.click();
   }
 }
 

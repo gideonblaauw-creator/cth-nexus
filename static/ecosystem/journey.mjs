@@ -119,7 +119,7 @@ export function streetPinFor(actor) {
   if (!address) return null;
   if (!Number.isFinite(Number(g.lat)) || !Number.isFinite(Number(g.lng))) return null;
   const country = actor.country || g.country;
-  if (country === 'Peru' && /\bbogot[aá]\b/i.test(address)) return null;
+  if (country === 'Peru' && /bogot[aá]/i.test(address)) return null;
   return {
     lat: Number(g.lat),
     lng: Number(g.lng),
@@ -210,6 +210,7 @@ function publicEdge(relation) {
     source: relation.source,
     target: relation.target,
     type: relation.type,
+    verified: true,
     source_url: relation.source_url,
     source_title: relation.source_title || '',
     evidence: String(relation.evidence || '').trim(),
