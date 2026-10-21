@@ -87,3 +87,29 @@ body.mock-pe-water .inspector.empty { display: block; }
 .story-step.mock-future {
   opacity: 0.55;
 }
+
+body.mock-pe-water .eco-graph {
+  min-height: 320px;
+  background: linear-gradient(180deg, #f8fafc 0%, #eef2f7 100%);
+  border-radius: var(--radius);
+}
+
+.graph-tooltip {
+  position: absolute;
+  z-index: 6;
+  max-width: 220px;
+  padding: 6px 8px;
+  font-size: 11px;
+  line-height: 1.35;
+  color: #0c498a;
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  box-shadow: var(--shadow-card);
+  pointer-events: none;
+  transform: translate(8px, 8px);
+}
+
+.graph-tooltip.hidden {
+  display: none;
+}

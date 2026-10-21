@@ -36,10 +36,11 @@ const EDGE_COLOR = {
   incubated: '#e87722',
   issues_policy: '#6b4c9a',
   addresses_challenge: '#2a9d8f',
-  funding: '#264653',
+  funding: '#0c498a',
   program_participation: '#6b4c9a',
   partnership: '#e87722',
-  default: '#94a3b8',
+  hub_startup: '#669348',
+  default: '#64748b',
 };
 
 const I18N = {
@@ -203,9 +204,25 @@ function runForceLayout(g, iterations) {
   }
 }
 
+function nodeLabel(id, fallback) {
+  if (isChallengeId(id)) {
+    const meta = storyConfig.challenges[id];
+    return lang === 'EN' ? (meta?.label?.en || fallback) : (meta?.label?.es || fallback);
+  }
+  if (isPolicyId(id)) {
+    return policiesById.get(id)?.name || fallback;
+  }
+  if (isDatasetId(id)) {
+    const row = storyConfig.datasets?.[id];
+    return lang === 'EN' ? (row?.label?.en || fallback) : (row?.label?.es || fallback);
+  }
+  return byId.get(id)?.name || fallback;
+}
+
 function buildGraph(scene) {
   const { nodeIds, realRels, virtualNodes, presetPositions, storyLayout } = scene;
   suggestedEdges = scene.suggested || [];
+  const tooltip = $('#graph-tooltip');
 
   if (sigma) {
     sigma.kill();
@@ -215,72 +232,101 @@ function buildGraph(scene) {
 
   const addNode = (id, attrs) => {
     if (graph.hasNode(id)) return;
-    graph.addNode(id, attrs);
+    graph.addNode(id, { ...attrs, fullLabel: attrs.fullLabel || attrs.label });
   };
 
-  nodeIds.forEach((id) => {
-    if (isChallengeId(id) || isPolicyId(id) || isDatasetId(id)) return;
+  const ensureActorNode = (id) => {
+    if (graph.hasNode(id) || isChallengeId(id) || isPolicyId(id) || isDatasetId(id)) return;
     const a = byId.get(id);
     if (!a) return;
     let pos = geoXY(a);
     if (presetPositions?.get(id)) {
       pos = presetPositions.get(id).position || presetPositions.get(id);
     }
+    const label = nodeLabel(id, id);
     addNode(id, {
-      label: a.name.length > 26 ? `${a.name.slice(0, 24)}…` : a.name,
+      label,
       x: pos.x,
       y: pos.y,
-      size: 10,
+      size: 12,
       color: nodeColor(id),
     });
-  });
+  };
+
+  nodeIds.forEach((id) => ensureActorNode(id));
 
   (virtualNodes || []).forEach((vn) => {
     if (!nodeIds.has(vn.id)) return;
     const pos = presetPositions?.get(vn.id)?.position
       || (vn.geo ? geoXY({ geo: vn.geo }) : { x: 0, y: 0 });
-    const label = lang === 'EN'
-      ? (storyConfig.challenges[vn.id]?.label?.en || vn.label)
-      : (storyConfig.challenges[vn.id]?.label?.es || vn.label);
+    const label = nodeLabel(vn.id, vn.label || vn.id);
     addNode(vn.id, {
-      label: label?.length > 26 ? `${label.slice(0, 24)}…` : (label || vn.id),
+      label,
       x: pos.x,
       y: pos.y,
-      size: vn.size || 12,
+      size: vn.size || 14,
       color: vn.color || '#2a9d8f',
     });
   });
 
+  realRels.filter((r) => !r.suggested).forEach((r) => {
+    ensureActorNode(r.source);
+    ensureActorNode(r.target);
+  });
+
   realRels.filter((r) => !r.suggested).forEach((r, i) => {
     if (!graph.hasNode(r.source) || !graph.hasNode(r.target)) return;
-    const key = r.id || `e-${i}`;
+    const key = r.id || `e-${i}-${r.source}-${r.target}`;
     try {
       graph.addEdgeWithKey(key, r.source, r.target, {
         type: r.type,
         color: EDGE_COLOR[r.type] || EDGE_COLOR.default,
-        size: 2,
+        size: 3.2,
       });
     } catch {
       /* parallel */
     }
   });
 
-  const runLayout = !storyLayout && !presetPositions && graph.order > 1;
+  suggestedEdges.forEach((e) => {
+    ensureActorNode(e.source);
+    ensureActorNode(e.target);
+  });
+
+  const usePreset = Boolean(presetPositions && presetPositions.size);
+  const runLayout = !storyLayout && !usePreset && graph.order > 1;
   if (runLayout) {
     if (fa2Assign) {
-      fa2Assign(graph, { iterations: 80, settings: { gravity: 0.9, scalingRatio: 10 } });
+      fa2Assign(graph, { iterations: 100, settings: { gravity: 1, scalingRatio: 12, strongGravityMode: true } });
     } else {
-      runForceLayout(graph, 70);
+      runForceLayout(graph, 90);
     }
   }
 
   sigma = new Sigma(graph, $('#eco-graph'), {
-    renderLabels: graph.order < 80,
-    labelDensity: 0.08,
-    enableEdgeEvents: false,
+    renderLabels: true,
+    labelDensity: 0.12,
+    labelRenderedSizeThreshold: 4,
+    labelFont: 'Open Sans, sans-serif',
+    labelSize: 11,
+    labelWeight: '600',
+    labelColor: { color: '#0c498a' },
+    enableEdgeEvents: true,
     defaultEdgeType: 'arrow',
+    defaultEdgeColor: '#64748b',
+    minEdgeSize: 1.5,
+    maxEdgeSize: 4,
     allowInvalidContainer: true,
   });
+
+  sigma.on('enterNode', ({ node }) => {
+    if (!tooltip) return;
+    const attr = graph.getNodeAttributes(node);
+    tooltip.textContent = attr.fullLabel || attr.label || node;
+    tooltip.classList.remove('hidden');
+  });
+  sigma.on('leaveNode', () => tooltip?.classList.add('hidden'));
+  sigma.getCamera().animatedReset({ duration: reducedMotion ? 0 : 400 });
   sigma.on('afterRender', () => drawSuggestedOverlay());
   requestAnimationFrame(() => drawSuggestedOverlay());
 }

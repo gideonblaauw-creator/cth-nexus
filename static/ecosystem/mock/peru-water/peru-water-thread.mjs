@@ -138,8 +138,8 @@ const CAPTIONS = {
     en: 'ANA and SUNASS link verified policies (`issues_policy`); other policies appear as suggested `addresses_challenge` links to the water challenge. INAIGEM and SENAMHI have no `issues_policy` rows in the current dataset.',
   },
   hubs: {
-    es: 'No hay aristas verificadas de hubs/incubación hacia UQHU o Yakufil en `relations.json`. Se muestran enlaces sugeridos hacia el hub ClimaTech REIN y la universidad ancla de la constelación.',
-    en: 'There are no verified hub/incubation edges to UQHU or Yakufil in `relations.json`. Suggested links to the ClimaTech REIN hub and anchor university from the constellation are shown.',
+    es: 'Yakufil tiene incubación verificada vía JAKU Emprende UNSA (`actor_relations.json`); UQHU aún no tiene arista de hub en el grafo. Las líneas punteadas hacia ClimaTech REIN/UP siguen solo donde no hay evidencia verificada.',
+    en: 'Yakufil has verified incubation via JAKU Emprende UNSA (`actor_relations.json`); UQHU still has no hub edge in the graph. Dashed lines toward ClimaTech REIN/UP remain only where no verified evidence exists.',
   },
   data: {
     es: 'No hay `published_dataset` / `uses_dataset` en el grafo ni filas en `data_relations.json` para actores del hilo. El dataset MINAM datosabiertos permanece marcado como pendiente de curación.',
@@ -150,8 +150,8 @@ const CAPTIONS = {
     en: 'Challenge-centered constellation (UQHU & Yakufil): solid edges from verified `relations.json` and `actor_relations.json`; dashed lines labeled Suggested with reason when evidence is missing.',
   },
   capital: {
-    es: 'No hay cofinanciamiento verificado entre fondos y startups del hilo de agua. PROFONANPE y Amazonía Impact Ventures solo declaran el reto de bosques en el grafo actual.',
-    en: 'There is no verified co-funding between funders and water-thread startups. PROFONANPE and Amazonía Impact Ventures only declare the forests challenge in the current graph.',
+    es: 'Yakufil muestra financiamiento verificado (Startup Perú 9G / ProInnóvate y premio Caja Arequipa). UQHU aún no tiene arista de capital en fuentes públicas vinculadas; los fondos de la constelación bosques no aplican a agua.',
+    en: 'Yakufil shows verified capital (Startup Perú 9G / ProInnóvate and Caja Arequipa prize). UQHU still has no capital edge in linked public sources; constellation forest funders do not apply to water.',
   },
 };
 
@@ -381,12 +381,17 @@ export function buildPeruWaterScene(chapterIndex, data) {
         if (r.source !== sid && r.target !== sid) return;
         verified.push({ ...r, verified: true, bundle: 'relations', id: `rel-${r.source}-${r.target}-${r.type}` });
       });
+      actorRelationsNorm.forEach((r) => {
+        if (r.type !== 'hub_startup') return;
+        if (r.source !== sid && r.target !== sid) return;
+        verified.push({ ...r, verified: true, bundle: 'actor_relations' });
+      });
     });
-    if (!verified.length) {
-      gaps.push('No verified hosts/incubated/accelerated/partner edges touching pe-uqhu or pe-yakufil');
+    if (!verified.some((e) => e.source === 'pe-uqhu' || e.target === 'pe-uqhu')) {
+      gaps.push('No verified hub/incubation edge touching pe-uqhu');
     }
     pe2Constellations(storyConfig).forEach((spec) => {
-      constellationSuggestions(spec, relations, combinedGraph).forEach((s) => {
+      constellationSuggestions(spec, relations, mergeVerifiedEdges(relations, actorRelationsNorm)).forEach((s) => {
         if (HUB_TYPES.has('partner') || s.reason === 'hub-country' || s.reason === 'academia-pathway') {
           if (s.reason === 'capital-alignment') return;
           suggested.push(s);
@@ -517,31 +522,31 @@ export function buildPeruWaterScene(chapterIndex, data) {
 
   if (chapter.id === 'capital') {
     const verified = [];
-    const funders = new Set();
     const isFunder = (id) => byId.get(id)?.category === 'funder';
-    cumulative.forEach((id) => {
-      if (isFunder(id)) funders.add(id);
-    });
+    const touchesStartup = (r, sid) => r.source === sid || r.target === sid;
     relations.forEach((r) => {
       if (!CAPITAL_TYPES.has(r.type)) return;
-      const touches = cumulative.has(r.source) || cumulative.has(r.target);
-      if (!touches) return;
+      if (!STARTUP_IDS.some((sid) => touchesStartup(r, sid))) return;
       verified.push({ ...r, verified: true, bundle: 'relations', id: `rel-${r.source}-${r.target}-${r.type}` });
     });
     actorRelationsNorm.forEach((r) => {
-      const touchesThread = cumulative.has(r.source) || cumulative.has(r.target);
-      if (!touchesThread) return;
-      const funderTouch = isFunder(r.source) || isFunder(r.target);
-      const capitalish = r.type === 'funding' || r.type === 'program_participation';
-      if (funderTouch && capitalish) verified.push(r);
+      if (r.type !== 'funding') return;
+      if (!STARTUP_IDS.some((sid) => touchesStartup(r, sid))) return;
+      verified.push({ ...r, verified: true, bundle: 'actor_relations' });
+    });
+    mergeVerifiedEdges(verified).forEach((e) => {
+      cumulative.add(e.source);
+      cumulative.add(e.target);
     });
     STARTUP_IDS.forEach((sid) => {
-      if (!verified.some((e) => (e.source === sid || e.target === sid) && (isFunder(e.source) || isFunder(e.target)))) {
-        gaps.push(`No verified capital edge to startup ${sid}`);
-      }
+      const hasCapital = verified.some((e) => touchesStartup(e, sid)
+        && (e.type === 'funding' || e.type === 'cofunds' || e.type === 'funds_layer'
+          || isFunder(e.source) || isFunder(e.target)
+          || e.source === 'pe-proinnovate-startup-peru' || e.target === 'pe-proinnovate-startup-peru'));
+      if (!hasCapital) gaps.push(`No verified capital/funding edge to startup ${sid}`);
     });
     if (!verified.length) {
-      gaps.push('No verified cofunds/funds_layer/funding edges linking funders to this thread');
+      gaps.push('No verified cofunds/funds_layer/funding edges for water-thread startups');
     }
     return finalizeScene({
       chapter,

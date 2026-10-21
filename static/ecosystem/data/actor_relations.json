@@ -2,7 +2,7 @@
  "version": 1,
  "source": "ops/ecosystem/actor_relations_verified.csv",
  "date_built": "2026-10-21",
- "count": 39,
+ "count": 43,
  "relations": [
   {
    "from_id": "co-fenoge",
@@ -51,6 +51,16 @@
    "description": "El marco regulatorio colombiano describe la coordinación del Ministerio de Minas y Energía con el IPSE en política y proyectos de ZNI.",
    "source_url": "https://ipse.gov.co/documento_prensa/documento/documentos_de_%20investigacion/Art%C3%ADculo%20Mundoel%C3%A9ctrico.pdf",
    "source_title": "Artículo Mundoeléctrico — marco regulatorio (IPSE)",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-caja-arequipa",
+   "to_id": "pe-yakufil",
+   "type": "funding",
+   "description": "UNSA reporta que Yakufil Home ganó el Premio Orgullo Emprendedor 2024 (categoría Emprendedor Joven) organizado por Caja Arequipa.",
+   "source_url": "https://www.unsa.edu.pe/yakufil-emprendimiento-unsa-que-revoluciona-el-tratamiento-de-aguas-residuales/",
+   "source_title": "UNSA — Premio Orgullo Emprendedor Yakufil",
    "date_accessed": "2026-10-21",
    "confidence": "high"
   },
@@ -121,6 +131,16 @@
    "description": "La Fundación BBVA Microfinanzas es accionista mayoritario de Financiera Confianza.",
    "source_url": "https://www.fundacionmicrofinanzasbbva.org/es/confianza",
    "source_title": "Fundación BBVA — Financiera Confianza",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-jaku-emprende-unsa-arequipa",
+   "to_id": "pe-yakufil",
+   "type": "hub_startup",
+   "description": "UNSA indica que Yakufil contó con el apoyo de la incubadora JAKU Emprende UNSA en sus primeros pasos.",
+   "source_url": "https://www.unsa.edu.pe/yakufil-emprendimiento-unsa-que-revoluciona-el-tratamiento-de-aguas-residuales/",
+   "source_title": "UNSA — Yakufil emprendimiento",
    "date_accessed": "2026-10-21",
    "confidence": "high"
   },
@@ -241,6 +261,26 @@
    "description": "UTEC Ventures figura en el directorio nacional de incubadoras y aceleradoras ProInnóvate.",
    "source_url": "https://cambioclimatico.proinnovate.gob.pe/wp-content/uploads/2024/11/Directorio-Web-Incubadoras-y-Aceleradoras-Red-ProInnovate-2024_-1.pdf",
    "source_title": "Directorio Red ProInnóvate 2024",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-proinnovate-startup-peru",
+   "to_id": "pe-yakufil",
+   "type": "funding",
+   "description": "UNSA reporta que Yakufil recibirá hasta S/ 60 000 como ganadora de Startup Perú 9G (Emprendimientos Innovadores).",
+   "source_url": "https://www.unsa.edu.pe/emprendedores-de-la-unsa-ganan-concurso-y-recibiran-s-60-000-por-parte-de-startup-peru-9g/",
+   "source_title": "UNSA — Startup Perú 9G ganadores",
+   "date_accessed": "2026-10-21",
+   "confidence": "high"
+  },
+  {
+   "from_id": "pe-proinnovate-startup-peru",
+   "to_id": "pe-yakufil",
+   "type": "program_participation",
+   "description": "ProInnóvate presenta Yakufil Home entre empresas con financiamiento y acompañamiento técnico en gestión del agua.",
+   "source_url": "https://www.gob.pe/institucion/proinnovate/noticias/924305-dia-del-agua-innovaciones-para-gestionar-el-cuidado-y-aprovechamiento-del-agua-en-el-peru",
+   "source_title": "ProInnóvate — Día del Agua 2024",
    "date_accessed": "2026-10-21",
    "confidence": "high"
   },
