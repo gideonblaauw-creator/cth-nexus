@@ -7,7 +7,6 @@ import sys
 from pathlib import Path
 
 from relation_source_fetch import (
-    actor_name_variants,
     challenge_topic_in_evidence,
     fetch_body,
     label_matches_text,
