@@ -21,14 +21,19 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | La Molina |
 | Sitio web | https://www.viabcp.com |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/banco-de-credito-bcp |
 | Rol en el ecosistema | Institución financiera |
 | Desafíos (códigos) | ENE, FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+El BCP es el principal banco comercial del Perú (grupo Credicorp); ofrece banca de personas, pymes y corporativos con fuerte apuesta digital.
+
+- **Año de fundación:** 1889
+- **Dirección:** Calle Las Virgenes Lote 1 y 2, La Molina, Lima, Perú
+- **Áreas de enfoque (taxonomía CT):** ENE, FIN
+- **Programas:** Banca digital ViaBCP; soluciones para pymes e iniciativas de financiamiento sostenible
 
 ## Relaciones (ecosistema)
 
@@ -43,3 +48,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- BCP — https://www.viabcp.com/
+- LinkedIn — https://www.linkedin.com/company/banco-de-credito-bcp

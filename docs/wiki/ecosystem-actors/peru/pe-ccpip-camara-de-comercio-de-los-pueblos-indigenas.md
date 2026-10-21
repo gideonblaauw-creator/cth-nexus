@@ -28,7 +28,12 @@ tag_country: Peru
 
 ## Rol y alcance
 
-PENDIENTE
+La Cámara de Comercio de los Pueblos Indígenas del Perú (CCPIP) promueve el emprendimiento y el comercio de organizaciones indígenas y comunidades nativas.
+
+- **Año de fundación:** PENDIENTE
+- **Dirección:** PENDIENTE
+- **Áreas de enfoque (taxonomía CT):** PENDIENTE
+- **Programas:** Asistencia técnica, ferias y articulación comercial para emprendimientos indígenas (según CCPIP)
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +47,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- CCPIP en Facebook — https://www.facebook.com/ccpip/

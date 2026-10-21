@@ -21,14 +21,19 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Villa María del Triunfo |
 | Sitio web | https://asociacionunacem.org |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/asociaci%C3%B3n-unacem |
 | Rol en el ecosistema | ONG o fundación |
 | Desafíos (códigos) | AZU, BOS |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+La Asociación UNACEM agrupa a las principales empresas productoras de cemento del Perú y promueve buenas prácticas ambientales y de construcción sostenible en el sector.
+
+- **Año de fundación:** PENDIENTE
+- **Dirección:** Av. Atocongo 3020, Villa María del Triunfo, Lima, Perú
+- **Áreas de enfoque (taxonomía CT):** AZU, BOS
+- **Programas:** Programas de gestión ambiental del sector cementero; alianzas para descarbonización y economía circular
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +47,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Asociación UNACEM — https://asociacionunacem.org/
+- LinkedIn — https://www.linkedin.com/company/asociaci%C3%B3n-unacem

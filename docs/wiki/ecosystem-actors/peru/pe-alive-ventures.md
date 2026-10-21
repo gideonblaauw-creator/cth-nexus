@@ -19,16 +19,21 @@ tag_country: Peru
 | Categoría | funder |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Pachacámac |
+| Ciudad | Lima |
 | Sitio web | https://www.alive-ventures.com |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/alive-ventures |
 | Rol en el ecosistema | Financiador e inversionista |
 | Desafíos (códigos) | ENE, FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+ALIVE Ventures (Acumen Latam Impact Ventures) es gestor de capital de impacto que invierte en empresas escalables con enfoque de género y resiliencia climática en Colombia y Perú.
+
+- **Año de fundación:** 2017
+- **Dirección:** PENDIENTE (oficinas en Bogotá y operaciones en Lima/Perú)
+- **Áreas de enfoque (taxonomía CT):** ENE, FIN
+- **Programas:** Fondos de venture capital de impacto; acompañamiento a portafolio (p. ej. fintech Prestamype en Perú)
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +47,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- ALIVE Ventures — https://www.alive-ventures.com/about
+- LinkedIn — https://www.linkedin.com/company/alive-ventures

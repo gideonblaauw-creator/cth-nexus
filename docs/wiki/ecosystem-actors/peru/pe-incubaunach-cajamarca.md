@@ -28,7 +28,12 @@ tag_country: Peru
 
 ## Rol y alcance
 
-PENDIENTE
+IncubaUNACH es la incubadora de empresas de la Universidad Nacional de Cajamarca que apoya emprendimientos innovadores en la región norte del Perú.
+
+- **Año de fundación:** PENDIENTE
+- **Dirección:** PENDIENTE (UNACH, Cajamarca)
+- **Áreas de enfoque (taxonomía CT):** PENDIENTE
+- **Programas:** Preincubación, incubación y mentoría a emprendimientos universitarios y locales
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +47,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- IncubaUNACH — https://www.facebook.com/incuba.unach/

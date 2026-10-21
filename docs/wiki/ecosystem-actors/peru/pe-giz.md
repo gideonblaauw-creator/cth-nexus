@@ -19,16 +19,21 @@ tag_country: Peru
 | Categoría | international |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Feldafing |
+| Ciudad | Lima |
 | Sitio web | https://www.giz.de |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/gizgmbh |
 | Rol en el ecosistema | Organización internacional o cooperación |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+La GIZ implementa la cooperación técnica alemana en el Perú en desarrollo sostenible, energía, biodiversidad y gobernanza, en nombre del BMZ y otros socios.
+
+- **Año de fundación:** 2011
+- **Dirección:** PENDIENTE (oficina país; sedes corporativas Bonn/Eschborn, Alemania)
+- **Áreas de enfoque (taxonomía CT):** PENDIENTE
+- **Programas:** Proyectos bilaterales en clima, energías renovables, economía circular y gestión ambiental
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +47,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- GIZ — https://www.giz.de/
+- LinkedIn — https://www.linkedin.com/company/gizgmbh

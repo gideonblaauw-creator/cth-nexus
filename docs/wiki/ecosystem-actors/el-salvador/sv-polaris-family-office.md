@@ -28,7 +28,12 @@ tag_country: El Salvador
 
 ## Rol y alcance
 
-PENDIENTE
+Polaris Family Office es firma salvadoreña de gestión patrimonial y family office que participa en inversiones y desarrollo de negocios.
+
+- **Año de fundación:** PENDIENTE
+- **Dirección:** PENDIENTE (San Salvador)
+- **Áreas de enfoque (taxonomía CT):** PENDIENTE
+- **Programas:** Gestión de patrimonio familiar; inversiones directas y estructuración financiera
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +47,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Polaris — https://www.polaris.com.sv/

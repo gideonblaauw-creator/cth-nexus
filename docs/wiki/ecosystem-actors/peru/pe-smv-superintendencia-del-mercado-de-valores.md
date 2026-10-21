@@ -19,16 +19,21 @@ tag_country: Peru
 | Categoría | government |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | San Isidro |
 | Sitio web | https://www.smv.gob.pe |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/smvperu |
 | Rol en el ecosistema | Actor público / regulador |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+La SMV regula y supervisa el mercado de valores, productos, fondos colectivos y financiamiento participativo en el Perú.
+
+- **Año de fundación:** 1970
+- **Dirección:** Av. Paseo de la República 3617, San Isidro, Lima, Perú
+- **Áreas de enfoque (taxonomía CT):** PENDIENTE
+- **Programas:** Normativa de mercado de capitales; supervisión de emisores e intermediarios
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +47,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- SMV — https://www.gob.pe/smv
+- LinkedIn — https://www.linkedin.com/company/smvperu

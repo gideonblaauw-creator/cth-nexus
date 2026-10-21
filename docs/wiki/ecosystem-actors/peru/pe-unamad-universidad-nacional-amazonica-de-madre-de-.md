@@ -19,16 +19,21 @@ tag_country: Peru
 | Categoría | academia |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | Puerto Maldonado |
 | Sitio web | https://portal.unamad.edu.pe |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/universidad-nacional-amaz%C3%B3nica-de-madre-de-dios |
 | Rol en el ecosistema | Universidad o centro de investigación |
 | Desafíos (códigos) | AGR, BOS, CIU |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+La UNAMAD es universidad pública en Puerto Maldonado dedicada a formación e investigación para el desarrollo sostenible de la Amazonía.
+
+- **Año de fundación:** 2000
+- **Dirección:** Puerto Maldonado, Madre de Dios, Perú
+- **Áreas de enfoque (taxonomía CT):** AGR, BOS, CIU
+- **Programas:** Programas académicos y proyectos de investigación amazónica; vinculación con emprendimiento regional
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +47,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- UNAMAD — https://portal.unamad.edu.pe/

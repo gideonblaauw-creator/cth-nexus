@@ -21,14 +21,19 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | San Carlos |
 | Sitio web | https://www.andesamazonfund.org |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/andes-amazon-fund |
 | Rol en el ecosistema | Financiador e inversionista |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Andes Amazon Fund financia la creación, expansión y gestión de áreas protegidas y paisajes sostenibles en la Amazonía andina (Perú, Colombia, Ecuador y Bolivia).
+
+- **Año de fundación:** 2015
+- **Dirección:** PENDIENTE (sede operativa en Estados Unidos; trabajo en cuenca amazónica andina)
+- **Áreas de enfoque (taxonomía CT):** PENDIENTE
+- **Programas:** Subvenciones para conservación de ecosistemas y apoyo a gobiernos y socios locales
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +47,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Andes Amazon Fund — https://www.andesamazonfund.org/
+- LinkedIn — https://www.linkedin.com/company/andes-amazon-fund

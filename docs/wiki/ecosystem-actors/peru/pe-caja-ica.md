@@ -19,16 +19,21 @@ tag_country: Peru
 | Categoría | finance |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Villa El Salvador |
+| Ciudad | Ica |
 | Sitio web | https://cajaica.pe |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/caja-ica |
 | Rol en el ecosistema | Institución financiera |
 | Desafíos (códigos) | CIR, ENE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Caja Ica es una caja municipal de ahorro y crédito que ofrece servicios financieros a personas y mipymes en el sur del Perú, con presencia en Ica y Lima.
+
+- **Año de fundación:** 1984
+- **Dirección:** PENDIENTE (red de agencias; sede institucional en Ica)
+- **Áreas de enfoque (taxonomía CT):** CIR, ENE
+- **Programas:** Créditos productivos, microfinanzas y servicios de ahorro para sectores populares y empresariales
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +47,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Caja Ica — https://cajaica.pe/
+- LinkedIn — https://www.linkedin.com/company/caja-ica

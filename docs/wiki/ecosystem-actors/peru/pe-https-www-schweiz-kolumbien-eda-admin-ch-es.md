@@ -20,7 +20,7 @@ tag_country: Peru
 | Tipo | org |
 | País | Peru |
 | Ciudad | Lima |
-| Sitio web | https://www.schweiz-kolumbien.eda.admin.ch/es |
+| Sitio web | https://www.eda.admin.ch/lima |
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Empresa / sector privado |
 | Desafíos (códigos) | CIR |
@@ -28,7 +28,12 @@ tag_country: Peru
 
 ## Rol y alcance
 
-PENDIENTE
+La Oficina de Cooperación Suiza en el Perú (COSUDE/SECO vía Embajada de Suiza) apoya programas de cooperación al desarrollo y asistencia técnica bilateral.
+
+- **Año de fundación:** PENDIENTE
+- **Dirección:** PENDIENTE (Embajada de Suiza en Lima)
+- **Áreas de enfoque (taxonomía CT):** CIR
+- **Programas:** Programas de cooperación suiza en gobernanza, economía y medio ambiente en Perú
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +47,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Cooperación Suiza Perú — https://www.eda.admin.ch/lima/es/home.html

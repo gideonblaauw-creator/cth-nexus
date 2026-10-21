@@ -21,14 +21,19 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://investinelsalvador.gob.sv |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/investinelsalvador |
 | Rol en el ecosistema | Actor público / regulador |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+INVEST El Salvador es la agencia gubernamental de promoción de inversiones y exportaciones del país.
+
+- **Año de fundación:** PENDIENTE
+- **Dirección:** PENDIENTE (San Salvador)
+- **Áreas de enfoque (taxonomía CT):** PENDIENTE
+- **Programas:** Atracción de inversión extranjera; promoción de exportaciones y servicios al inversionista
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +47,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- INVEST — https://investinelsalvador.gob.sv/

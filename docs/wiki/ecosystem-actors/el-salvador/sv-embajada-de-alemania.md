@@ -21,14 +21,19 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://san-salvador.diplo.de |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/alemaniaenelsalvador |
 | Rol en el ecosistema | Organización internacional o cooperación |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+La Embajada de Alemania en El Salvador representa los intereses de Alemania y coordina cooperación bilateral y europea en el país.
+
+- **Año de fundación:** PENDIENTE
+- **Dirección:** PENDIENTE (San Salvador)
+- **Áreas de enfoque (taxonomía CT):** PENDIENTE
+- **Programas:** Cooperación al desarrollo (GIZ/KfW); relaciones políticas, económicas y culturales
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +47,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Embajada de Alemania — https://san-salvador.diplo.de/

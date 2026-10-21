@@ -21,14 +21,19 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://utecventures.com |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/utecventures |
 | Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
 | Desafíos (códigos) | CIR, CIU, ENE, FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+UTEC Ventures es el centro de emprendimiento de la UTEC; invierte y acelera startups tecnológicas de first-time founders en Perú y Latam.
+
+- **Año de fundación:** 2014
+- **Dirección:** Jr. Medrano Silva 165, Barranco, Lima, Perú
+- **Áreas de enfoque (taxonomía CT):** CIR, CIU, ENE, FIN
+- **Programas:** Aceleradora UTEC Ventures; Femlab; apoyo StartUp Perú; programas Cimientos y La Mezcladora
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +47,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- UTEC Ventures — https://utecventures.com/
+- LinkedIn — https://www.linkedin.com/company/utecventures
