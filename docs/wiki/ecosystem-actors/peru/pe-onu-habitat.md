@@ -19,16 +19,23 @@ tag_country: Peru
 | Categoría | international |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Municipio Nuestra Señora de La Paz |
-| Sitio web | https://unhabitat.org |
-| LinkedIn | PENDIENTE |
+| Ciudad | Nairobi (sede); programa Perú |
+| Sitio web | https://unhabitat.org  |
+| LinkedIn | https://www.linkedin.com/company/unhabitat/  |
 | Rol en el ecosistema | Organización internacional o cooperación |
-| Desafíos (códigos) | AGR |
+| Desafíos (códigos) | AGR  |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Programa de las Naciones Unidas para asentamientos humanos; apoya ciudades sostenibles y resiliencia urbana.
+
+| Campo | Valor |
+| --- | --- |
+| Dirección | Sede: Nairobi, Kenia; actividades en Perú vía oficinas regionales |
+| Año de fundación | 1978 |
+| Áreas de enfoque (taxonomía CT) | CIU |
+| Programas | Urbanización sostenible; vivienda y resiliencia climática urbana |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://unhabitat.org
+- https://www.linkedin.com/company/unhabitat/
+- Sitio web `https://unhabitat.org` — HTTP 200 (verificación 2026-10-21)

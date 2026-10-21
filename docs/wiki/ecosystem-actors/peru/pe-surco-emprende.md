@@ -19,16 +19,23 @@ tag_country: Peru
 | Categoría | government |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
-| Sitio web | https://www.instagram.com/surco_emprende/ |
-| LinkedIn | PENDIENTE |
+| Ciudad | Santiago de Surco, Lima |
+| Sitio web | https://www.instagram.com/surco_emprende/  |
+| LinkedIn | PENDIENTE  |
 | Rol en el ecosistema | Actor público / regulador |
-| Desafíos (códigos) | PENDIENTE |
+| Desafíos (códigos) | CIU  |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Programa municipal de emprendimiento del distrito de Santiago de Surco (Lima).
+
+| Campo | Valor |
+| --- | --- |
+| Dirección | Santiago de Surco, Lima, Perú |
+| Año de fundación | PENDIENTE |
+| Áreas de enfoque (taxonomía CT) | CIU |
+| Programas | Surco Emprende — acompañamiento a emprendedores locales |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.instagram.com/surco_emprende/
+- Sitio web `https://www.instagram.com/surco_emprende/` — HTTP 200 (verificación 2026-10-21)

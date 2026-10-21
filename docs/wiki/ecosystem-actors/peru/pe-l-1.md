@@ -20,15 +20,22 @@ tag_country: Peru
 | Tipo | org |
 | País | Peru |
 | Ciudad | Lima |
-| Sitio web | https://www.lmas1.org |
-| LinkedIn | PENDIENTE |
+| Sitio web | https://www.lmas1.org  |
+| LinkedIn | https://www.linkedin.com/company/l-1-lideres-impulsando-un-desarrollo-sostenible/  |
 | Rol en el ecosistema | ONG o fundación |
-| Desafíos (códigos) | AGR |
+| Desafíos (códigos) | AGR  |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Comunidad de líderes de impacto en Perú que impulsa desarrollo sostenible, innovación y liderazgo con propósito.
+
+| Campo | Valor |
+| --- | --- |
+| Dirección | Lima, Perú |
+| Año de fundación | PENDIENTE |
+| Áreas de enfoque (taxonomía CT) | AGR |
+| Programas | Red L+1; eventos y articulación de líderes |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.lmas1.org
+- Sitio web `https://www.lmas1.org` — HTTP 200 (verificación 2026-10-21)

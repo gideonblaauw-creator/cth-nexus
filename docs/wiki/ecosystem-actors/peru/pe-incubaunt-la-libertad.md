@@ -19,16 +19,23 @@ tag_country: Peru
 | Categoría | accelerator |
 | Tipo | org |
 | País | Peru |
-| Ciudad | PENDIENTE |
-| Sitio web | PENDIENTE |
-| LinkedIn | PENDIENTE |
+| Ciudad | Trujillo |
+| Sitio web | https://ditt.unitru.edu.pe/  |
+| LinkedIn | https://www.linkedin.com/company/incubauntperu/  |
 | Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
-| Desafíos (códigos) | PENDIENTE |
+| Desafíos (códigos) | AGR, ENE  |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Incubadora de empresas de la Universidad Nacional de Trujillo (región La Libertad) vinculada a la Dirección de Innovación y Transferencia Tecnológica.
+
+| Campo | Valor |
+| --- | --- |
+| Dirección | Jr. Independencia 186, Trujillo, La Libertad |
+| Año de fundación | 2017 |
+| Áreas de enfoque (taxonomía CT) | AGR, ENE |
+| Programas | Incubación de startups universitarias (agrotech, climate tech) |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://ditt.unitru.edu.pe/contacto
+- https://www.linkedin.com/company/incubauntperu/
+- Sitio web `https://ditt.unitru.edu.pe/` — HTTP 200 (verificación 2026-10-21)

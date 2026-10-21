@@ -19,16 +19,23 @@ tag_country: Peru
 | Categoría | government |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
-| Sitio web | https://www.gob.pe/minem |
-| LinkedIn | PENDIENTE |
+| Ciudad | San Isidro, Lima |
+| Sitio web | https://www.gob.pe/minem  |
+| LinkedIn | https://www.linkedin.com/company/minem-per%C3%BA/  |
 | Rol en el ecosistema | Actor público / regulador |
-| Desafíos (códigos) | PENDIENTE |
+| Desafíos (códigos) | ENE  |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Ministerio de Energía y Minas del Perú: define política energética, promueve renovables y regula el sector minero-energético.
+
+| Campo | Valor |
+| --- | --- |
+| Dirección | Av. Las Artes Sur 260, San Borja / sede institucional Lima |
+| Año de fundación | PENDIENTE |
+| Áreas de enfoque (taxonomía CT) | ENE |
+| Programas | Transición energética; regulación minero-energética |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,5 @@ PENDIENTE
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.gob.pe/minem
+- Sitio web `https://www.gob.pe/minem` — HTTP err (verificación 2026-10-21)

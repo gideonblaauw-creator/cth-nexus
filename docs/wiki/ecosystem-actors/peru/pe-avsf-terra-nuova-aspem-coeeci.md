@@ -20,15 +20,22 @@ tag_country: Peru
 | Tipo | org |
 | País | Peru |
 | Ciudad | Lima |
-| Sitio web | https://www.avsf.org/es/ |
-| LinkedIn | PENDIENTE |
+| Sitio web | https://www.avsf.org/es/  |
+| LinkedIn | https://www.linkedin.com/company/avsf/  |
 | Rol en el ecosistema | Empresa / sector privado |
-| Desafíos (códigos) | PENDIENTE |
+| Desafíos (códigos) | AGR  |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Consorcio de referencia en el mapa de actores agrupa a ONG de cooperación (AVSF como ancla web) que apoyan agricultura familiar, ganadería y desarrollo rural con enfoque ambiental.
+
+| Campo | Valor |
+| --- | --- |
+| Dirección | Lima, Perú (oficina país AVSF) |
+| Año de fundación | PENDIENTE |
+| Áreas de enfoque (taxonomía CT) | AGR |
+| Programas | Proyectos de desarrollo rural y agricultura sostenible (AVSF; asociado en el mapa con Terra Nuova, ASPEm y COEECI) |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.avsf.org/es/
+- Sitio web `https://www.avsf.org/es/` — HTTP 200 (verificación 2026-10-21)

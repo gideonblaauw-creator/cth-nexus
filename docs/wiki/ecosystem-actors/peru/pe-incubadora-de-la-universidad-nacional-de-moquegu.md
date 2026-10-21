@@ -20,15 +20,22 @@ tag_country: Peru
 | Tipo | org |
 | País | Peru |
 | Ciudad | Moquegua |
-| Sitio web | https://unam.edu.pe/vpi-ditt/home/lineas-de-investigacion/die/ |
-| LinkedIn | PENDIENTE |
+| Sitio web | https://incuba.unam.edu.pe/  |
+| LinkedIn | PENDIENTE  |
 | Rol en el ecosistema | Universidad o centro de investigación |
-| Desafíos (códigos) | PENDIENTE |
+| Desafíos (códigos) | PENDIENTE  |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Incubadora de empresas de la Universidad Nacional de Moquegua (Incuba UNAM) que apoya emprendimientos universitarios.
+
+| Campo | Valor |
+| --- | --- |
+| Dirección | Moquegua, Perú |
+| Año de fundación | PENDIENTE |
+| Áreas de enfoque (taxonomía CT) | PENDIENTE |
+| Programas | Preincubación e incubación de startups (Incuba UNAM) |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://cambioclimatico.proinnovate.gob.pe/wp-content/uploads/2024/11/Directorio-Web-Incubadoras-y-Aceleradoras-Red-ProInnovate-2024_-1.pdf
+- Sitio web `https://incuba.unam.edu.pe/` — HTTP 403 en verificación 2026-10-21

@@ -20,15 +20,22 @@ tag_country: El Salvador
 | Tipo | org |
 | País | El Salvador |
 | Ciudad | San Salvador |
-| Sitio web | https://www.superselectos.com |
-| LinkedIn | PENDIENTE |
+| Sitio web | https://www.superselectos.com  |
+| LinkedIn | https://www.linkedin.com/company/super-selectos/  |
 | Rol en el ecosistema | Empresa / sector privado |
-| Desafíos (códigos) | PENDIENTE |
+| Desafíos (códigos) | CIR  |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Cadena de supermercados Super Selectos (Grupo Calleja) con operaciones de retail en El Salvador.
+
+| Campo | Valor |
+| --- | --- |
+| Dirección | San Salvador, El Salvador |
+| Año de fundación | PENDIENTE |
+| Áreas de enfoque (taxonomía CT) | CIR |
+| Programas | Operación retail; iniciativas de sostenibilidad corporativa |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.superselectos.com
+- https://www.linkedin.com/company/super-selectos/
+- Sitio web `https://www.superselectos.com` — HTTP 403 en verificación automatizada 2026-10-21

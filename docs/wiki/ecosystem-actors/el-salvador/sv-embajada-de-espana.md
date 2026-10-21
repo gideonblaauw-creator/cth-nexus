@@ -20,15 +20,22 @@ tag_country: El Salvador
 | Tipo | org |
 | País | El Salvador |
 | Ciudad | San Salvador |
-| Sitio web | PENDIENTE |
-| LinkedIn | PENDIENTE |
+| Sitio web | https://www.exteriores.gob.es/Embajadas/sansalvador/es/Paginas/inicio.aspx  |
+| LinkedIn | PENDIENTE  |
 | Rol en el ecosistema | Organización internacional o cooperación |
-| Desafíos (códigos) | PENDIENTE |
+| Desafíos (códigos) | PENDIENTE  |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Embajada de España en la República de El Salvador; representa los intereses diplomáticos y de cooperación bilateral.
+
+| Campo | Valor |
+| --- | --- |
+| Dirección | Calle La Mascota #474, Colonia San Benito, San Salvador |
+| Año de fundación | PENDIENTE |
+| Áreas de enfoque (taxonomía CT) | PENDIENTE |
+| Programas | Relación bilateral España–El Salvador; cooperación |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.exteriores.gob.es/Embajadas/sansalvador/es/Paginas/inicio.aspx
+- Sitio web oficial MAEC — HTTP 403 en verificación automatizada 2026-10-21

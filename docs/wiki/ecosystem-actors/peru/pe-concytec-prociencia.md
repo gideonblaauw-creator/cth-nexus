@@ -19,16 +19,23 @@ tag_country: Peru
 | Categoría | government |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
-| Sitio web | https://prociencia.gob.pe |
-| LinkedIn | PENDIENTE |
+| Ciudad | San Borja, Lima |
+| Sitio web | https://prociencia.gob.pe  |
+| LinkedIn | https://www.linkedin.com/company/prociencia/  |
 | Rol en el ecosistema | Actor público / regulador |
-| Desafíos (códigos) | ARG |
+| Desafíos (códigos) | ARG  |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Entidad ejecutora del programa ProCiencia del CONCYTEC; financia proyectos de ciencia, tecnología e innovación en el Perú.
+
+| Campo | Valor |
+| --- | --- |
+| Dirección | Av. Javier Prado Este 730, San Borja, Lima |
+| Año de fundación | PENDIENTE |
+| Áreas de enfoque (taxonomía CT) | ARG, BOS |
+| Programas | Concursos ProCiencia; fondos de I+D e innovación regional |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://prociencia.gob.pe
+- https://www.gob.pe/concytec
+- Sitio web `https://prociencia.gob.pe` — HTTP 200 (verificación 2026-10-21)

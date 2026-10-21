@@ -19,16 +19,23 @@ tag_country: Colombia
 | Categoría | international |
 | Tipo | org |
 | País | Colombia |
-| Ciudad | PENDIENTE |
-| Sitio web | https://www.cif.org |
-| LinkedIn | PENDIENTE |
+| Ciudad | Washington, DC (sede global) |
+| Sitio web | https://www.cif.org  |
+| LinkedIn | https://www.linkedin.com/company/cifaction/  |
 | Rol en el ecosistema | Organización internacional o cooperación |
-| Desafíos (códigos) | PENDIENTE |
+| Desafíos (códigos) | ENE, FIN, BOS  |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Fondo multilateral que moviliza financiamiento climático de donantes y el sector privado hacia proyectos de mitigación, resiliencia, tecnología limpia y bosques en países en desarrollo, incluida Colombia.
+
+| Campo | Valor |
+| --- | --- |
+| Dirección | 1777 Pennsylvania Avenue NW, Washington, DC 20006, Estados Unidos |
+| Año de fundación | 2008 |
+| Áreas de enfoque (taxonomía CT) | ENE, FIN, BOS |
+| Programas | Clean Technology Fund (CTF); Strategic Climate Fund (SCF); Programas de inversiones en resiliencia, energía y bosques (consultar portafolio en cif.org) |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.cif.org/
+- https://www.linkedin.com/company/cifaction/
+- Sitio web `https://www.cif.org` — HTTP 200 (verificación 2026-10-21)

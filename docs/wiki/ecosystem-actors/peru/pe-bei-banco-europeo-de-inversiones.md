@@ -19,16 +19,23 @@ tag_country: Peru
 | Categoría | international |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
-| Sitio web | https://www.eib.org |
-| LinkedIn | PENDIENTE |
+| Ciudad | Luxemburgo (sede); operaciones en Perú |
+| Sitio web | https://www.eib.org  |
+| LinkedIn | https://www.linkedin.com/company/european-investment-bank/  |
 | Rol en el ecosistema | Organización internacional o cooperación |
-| Desafíos (códigos) | BOS, ENE, FIN |
+| Desafíos (códigos) | BOS, ENE, FIN  |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Brazo financiero de la Unión Europea; financia inversión en clima, energía, movilidad sostenible y desarrollo en Perú y la región.
+
+| Campo | Valor |
+| --- | --- |
+| Dirección | 98–100 boulevard Konrad Adenauer, L-2950 Luxemburgo |
+| Año de fundación | 1958 |
+| Áreas de enfoque (taxonomía CT) | BOS, ENE, FIN |
+| Programas | Préstamos y asistencia técnica para infraestructura verde y adaptación climática |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.eib.org
+- https://www.linkedin.com/company/european-investment-bank/
+- Sitio web `https://www.eib.org` — HTTP 200 (verificación 2026-10-21)

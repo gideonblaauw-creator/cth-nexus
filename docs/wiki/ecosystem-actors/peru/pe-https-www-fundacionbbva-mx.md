@@ -20,15 +20,22 @@ tag_country: Peru
 | Tipo | org |
 | País | Peru |
 | Ciudad | Lima |
-| Sitio web | https://www.fundacionbbva.mx |
-| LinkedIn | PENDIENTE |
+| Sitio web | https://www.fundacionbbva.pe/  |
+| LinkedIn | https://www.linkedin.com/company/fundaci%C3%B3n-bbva-per%C3%BA/  |
 | Rol en el ecosistema | Empresa / sector privado |
-| Desafíos (códigos) | AZU, BOS |
+| Desafíos (códigos) | AZU, BOS  |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Fundación BBVA Perú: filantropía corporativa que financia educación, innovación social y proyectos ambientales en el país.
+
+| Campo | Valor |
+| --- | --- |
+| Dirección | Lima, Perú |
+| Año de fundación | PENDIENTE |
+| Áreas de enfoque (taxonomía CT) | AZU, BOS |
+| Programas | Convocatorias y alianzas de impacto social y ambiental |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.fundacionbbva.pe/
+- https://www.linkedin.com/company/fundaci%C3%B3n-bbva-per%C3%BA/
+- Sitio web `https://www.fundacionbbva.pe/` — HTTP 200 (verificación 2026-10-21)

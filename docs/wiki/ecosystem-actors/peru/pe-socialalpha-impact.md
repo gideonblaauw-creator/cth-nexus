@@ -20,15 +20,22 @@ tag_country: Peru
 | Tipo | org |
 | País | Peru |
 | Ciudad | Lima |
-| Sitio web | https://www.alphamundigroup.com/socialalpha-fund/ |
-| LinkedIn | PENDIENTE |
+| Sitio web | https://www.alphamundi.com/  |
+| LinkedIn | PENDIENTE  |
 | Rol en el ecosistema | Empresa / sector privado |
-| Desafíos (códigos) | PENDIENTE |
+| Desafíos (códigos) | PENDIENTE  |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Iniciativa de inversión de impacto vinculada al grupo Alpha Mundi / SocialAlpha para negocios con retorno social y ambiental.
+
+| Campo | Valor |
+| --- | --- |
+| Dirección | Lima, Perú |
+| Año de fundación | PENDIENTE |
+| Áreas de enfoque (taxonomía CT) | PENDIENTE |
+| Programas | Fondo SocialAlpha (consultar Alpha Mundi) |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.alphamundi.com/
+- Sitio web `https://www.alphamundi.com/` — HTTP err (verificación 2026-10-21)

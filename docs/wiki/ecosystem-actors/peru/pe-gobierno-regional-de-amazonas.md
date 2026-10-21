@@ -20,15 +20,22 @@ tag_country: Peru
 | Tipo | org |
 | País | Peru |
 | Ciudad | Chachapoyas |
-| Sitio web | https://www.gob.pe/regionamazonas |
-| LinkedIn | PENDIENTE |
+| Sitio web | https://www.gob.pe/regionamazonas  |
+| LinkedIn | PENDIENTE  |
 | Rol en el ecosistema | Actor público / regulador |
-| Desafíos (códigos) | PENDIENTE |
+| Desafíos (códigos) | BOS  |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Gobierno regional que planifica y ejecuta políticas de desarrollo en el departamento de Amazonas, incluida gestión forestal y bionegocios.
+
+| Campo | Valor |
+| --- | --- |
+| Dirección | Chachapoyas, Amazonas, Perú |
+| Año de fundación | PENDIENTE |
+| Áreas de enfoque (taxonomía CT) | BOS |
+| Programas | Ordenamiento territorial; promoción de actividades sostenibles en Amazonas |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.gob.pe/regionamazonas
+- Sitio web `https://www.gob.pe/regionamazonas` — HTTP 200 (verificación 2026-10-21)

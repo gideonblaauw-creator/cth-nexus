@@ -19,16 +19,23 @@ tag_country: Peru
 | Categoría | corporate |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Ancón |
-| Sitio web | https://www.cerroverde.pe |
-| LinkedIn | PENDIENTE |
+| Ciudad | Arequipa |
+| Sitio web | https://www.cerroverde.pe  |
+| LinkedIn | https://www.linkedin.com/company/cerro-verde/  |
 | Rol en el ecosistema | Empresa / sector privado |
-| Desafíos (códigos) | AGU, ENE, FIN |
+| Desafíos (códigos) | AGU, ENE, FIN  |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Operación minera de cobre y molibdeno en Arequipa, con programas de gestión de agua, energía y relación con comunidades.
+
+| Campo | Valor |
+| --- | --- |
+| Dirección | Arequipa, Perú (operaciones mineras Cerro Verde) |
+| Año de fundación | PENDIENTE |
+| Áreas de enfoque (taxonomía CT) | AGU, ENE, FIN |
+| Programas | Gestión ambiental minera; innovación abierta y vínculo comunitario |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.cerroverde.pe
+- https://www.linkedin.com/company/cerro-verde/
+- Sitio web `https://www.cerroverde.pe` — HTTP 200 (verificación 2026-10-21)

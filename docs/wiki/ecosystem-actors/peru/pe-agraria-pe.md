@@ -19,16 +19,23 @@ tag_country: Peru
 | Categoría | media |
 | Tipo | org |
 | País | Peru |
-| Ciudad | La Molina |
-| Sitio web | https://agraria.pe |
-| LinkedIn | PENDIENTE |
+| Ciudad | Lima |
+| Sitio web | https://agraria.pe  |
+| LinkedIn | https://www.linkedin.com/company/agraria-pe/  |
 | Rol en el ecosistema | Medios y difusión |
-| Desafíos (códigos) | AGR |
+| Desafíos (códigos) | AGR  |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Agencia de noticias y plataforma de información especializada en agro, alimentos y desarrollo rural en el Perú.
+
+| Campo | Valor |
+| --- | --- |
+| Dirección | Lima, Perú |
+| Año de fundación | PENDIENTE |
+| Áreas de enfoque (taxonomía CT) | AGR |
+| Programas | Cobertura periodística y difusión sobre sector agrario |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://agraria.pe
+- Sitio web `https://agraria.pe` — HTTP 200 (verificación 2026-10-21)

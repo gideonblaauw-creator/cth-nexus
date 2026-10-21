@@ -19,16 +19,23 @@ tag_country: Peru
 | Categoría | international |
 | Tipo | org |
 | País | Peru |
-| Ciudad | 天河区 |
-| Sitio web | https://www.ifc.org |
-| LinkedIn | PENDIENTE |
+| Ciudad | Washington, DC (sede IFC) |
+| Sitio web | https://www.ifc.org  |
+| LinkedIn | https://www.linkedin.com/company/ifc/  |
 | Rol en el ecosistema | Organización internacional o cooperación |
-| Desafíos (códigos) | CIR, CIU, FIN |
+| Desafíos (códigos) | CIR, CIU, FIN  |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Corporación financiera del Grupo Banco Mundial que moviliza inversión privada en mercados emergentes, incluidos proyectos climáticos en Perú.
+
+| Campo | Valor |
+| --- | --- |
+| Dirección | 2121 Pennsylvania Avenue NW, Washington, DC, Estados Unidos |
+| Año de fundación | 1956 |
+| Áreas de enfoque (taxonomía CT) | CIR, CIU, FIN |
+| Programas | Financiamiento y asesoría a empresas privadas; clima y sostenibilidad |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.ifc.org
+- https://www.linkedin.com/company/ifc/
+- Sitio web `https://www.ifc.org` — HTTP 200 (verificación 2026-10-21)

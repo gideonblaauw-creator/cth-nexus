@@ -19,16 +19,23 @@ tag_country: Peru
 | Categoría | academia |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
-| Sitio web | https://portal.unapiquitos.edu.pe |
-| LinkedIn | PENDIENTE |
+| Ciudad | Iquitos |
+| Sitio web | https://portal.unapiquitos.edu.pe  |
+| LinkedIn | https://www.linkedin.com/school/universidad-nacional-de-la-amazonia-peruana/  |
 | Rol en el ecosistema | Universidad o centro de investigación |
-| Desafíos (códigos) | AGR, BOS, CIU |
+| Desafíos (códigos) | AGR, BOS, CIU  |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Universidad pública en Iquitos orientada a la Amazonía peruana; forma profesionales y genera investigación regional.
+
+| Campo | Valor |
+| --- | --- |
+| Dirección | Iquitos, Loreto, Perú |
+| Año de fundación | 1984 |
+| Áreas de enfoque (taxonomía CT) | AGR, BOS, CIU |
+| Programas | Formación universitaria e investigación amazónica |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://portal.unapiquitos.edu.pe
+- https://www.linkedin.com/school/universidad-nacional-de-la-amazonia-peruana/
+- Sitio web `https://portal.unapiquitos.edu.pe` — HTTP 200 (verificación 2026-10-21)

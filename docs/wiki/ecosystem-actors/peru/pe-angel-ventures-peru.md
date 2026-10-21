@@ -20,15 +20,22 @@ tag_country: Peru
 | Tipo | org |
 | País | Peru |
 | Ciudad | Lima |
-| Sitio web | https://www.angelventures.vc |
-| LinkedIn | PENDIENTE |
+| Sitio web | https://www.angelventures.vc  |
+| LinkedIn | https://www.linkedin.com/company/avpventures/  |
 | Rol en el ecosistema | Financiador e inversionista |
-| Desafíos (códigos) | PENDIENTE |
+| Desafíos (códigos) | PENDIENTE  |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Firma de capital de riesgo y red de inversionistas ángeles que invierte y acompaña startups en etapa temprana en Latinoamérica (operación en Perú como Angel Ventures / AVP Ventures).
+
+| Campo | Valor |
+| --- | --- |
+| Dirección | Lima, Perú |
+| Año de fundación | 2014 |
+| Áreas de enfoque (taxonomía CT) | FIN |
+| Programas | Fondo semilla AVP; acompañamiento a founders; ecosistema de inversionistas ángeles |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.angelventures.vc
+- https://www.linkedin.com/company/avpventures/
+- Sitio web `https://www.angelventures.vc` — HTTP 200 (verificación 2026-10-21)

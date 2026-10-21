@@ -20,15 +20,22 @@ tag_country: El Salvador
 | Tipo | org |
 | País | El Salvador |
 | Ciudad | San Salvador |
-| Sitio web | https://aecid.sv |
-| LinkedIn | PENDIENTE |
+| Sitio web | https://aecid.sv  |
+| LinkedIn | https://www.linkedin.com/company/aecid/  |
 | Rol en el ecosistema | Organización internacional o cooperación |
-| Desafíos (códigos) | PENDIENTE |
+| Desafíos (códigos) | PENDIENTE  |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Oficina de la Agencia Española de Cooperación Internacional para el Desarrollo (AECID) en El Salvador.
+
+| Campo | Valor |
+| --- | --- |
+| Dirección | San Salvador, El Salvador |
+| Año de fundación | PENDIENTE |
+| Áreas de enfoque (taxonomía CT) | PENDIENTE |
+| Programas | Cooperación española en desarrollo sostenible y adaptación climática |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://aecid.sv
+- https://www.linkedin.com/company/aecid/
+- Sitio web `https://aecid.sv` — HTTP 200 (verificación 2026-10-21)

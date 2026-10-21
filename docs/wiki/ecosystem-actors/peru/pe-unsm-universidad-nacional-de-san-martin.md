@@ -19,16 +19,23 @@ tag_country: Peru
 | Categoría | academia |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
-| Sitio web | https://unsm.edu.pe |
-| LinkedIn | PENDIENTE |
+| Ciudad | Tarapoto |
+| Sitio web | https://unsm.edu.pe  |
+| LinkedIn | https://www.linkedin.com/school/universidad-nacional-de-san-mart%C3%ADn/  |
 | Rol en el ecosistema | Universidad o centro de investigación |
-| Desafíos (códigos) | AGR, BOS, CIU |
+| Desafíos (códigos) | AGR, BOS, CIU  |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Universidad pública en la región San Martín (selva norte del Perú) con enfoque en desarrollo regional sostenible.
+
+| Campo | Valor |
+| --- | --- |
+| Dirección | Jr. Maynas 177, Tarapoto, San Martín |
+| Año de fundación | 1979 |
+| Áreas de enfoque (taxonomía CT) | AGR, BOS, CIU |
+| Programas | Educación superior; incubación vía incubadora universitaria |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://unsm.edu.pe
+- https://www.linkedin.com/school/universidad-nacional-de-san-mart%C3%ADn/
+- Sitio web `https://unsm.edu.pe` — HTTP 200 (verificación 2026-10-21)

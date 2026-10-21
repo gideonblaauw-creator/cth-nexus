@@ -19,16 +19,23 @@ tag_country: Peru
 | Categoría | government |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
-| Sitio web | https://www.instagram.com/p/Ddw80GLAbfr/ |
-| LinkedIn | PENDIENTE |
+| Ciudad | Jesús María, Lima |
+| Sitio web | https://www.instagram.com/p/Ddw80GLAbfr/  |
+| LinkedIn | PENDIENTE  |
 | Rol en el ecosistema | Actor público / regulador |
-| Desafíos (códigos) | PENDIENTE |
+| Desafíos (códigos) | CIU  |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Espacio municipal de emprendimiento en el distrito de Jesús María (Lima) para apoyar startups y mipymes locales.
+
+| Campo | Valor |
+| --- | --- |
+| Dirección | Jesús María, Lima, Perú |
+| Año de fundación | PENDIENTE |
+| Áreas de enfoque (taxonomía CT) | CIU |
+| Programas | Coworking y acompañamiento a emprendedores (programa municipal) |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.instagram.com/p/Ddw80GLAbfr/
+- Sitio web `https://www.instagram.com/p/Ddw80GLAbfr/` — HTTP 200 (verificación 2026-10-21)

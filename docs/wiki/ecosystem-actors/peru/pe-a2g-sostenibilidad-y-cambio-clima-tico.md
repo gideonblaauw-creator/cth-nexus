@@ -20,15 +20,22 @@ tag_country: Peru
 | Tipo | org |
 | País | Peru |
 | Ciudad | Lima |
-| Sitio web | https://a2g.pe/ |
-| LinkedIn | PENDIENTE |
+| Sitio web | https://a2g.pe/  |
+| LinkedIn | PENDIENTE  |
 | Rol en el ecosistema | ONG o fundación |
-| Desafíos (códigos) | PENDIENTE |
+| Desafíos (códigos) | PENDIENTE  |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Consultora peruana especializada en sostenibilidad, cambio climático y estrategia ambiental para organizaciones públicas y privadas.
+
+| Campo | Valor |
+| --- | --- |
+| Dirección | Lima, Perú (consultar contacto en sitio web) |
+| Año de fundación | PENDIENTE |
+| Áreas de enfoque (taxonomía CT) | PENDIENTE |
+| Programas | Servicios de consultoría en sostenibilidad y cambio climático |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://a2g.pe/
+- Sitio web `https://a2g.pe/` — HTTP 406 (verificación 2026-10-21)

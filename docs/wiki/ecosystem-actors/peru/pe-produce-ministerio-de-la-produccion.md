@@ -19,16 +19,23 @@ tag_country: Peru
 | Categoría | government |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
-| Sitio web | https://www.gob.pe/produce |
-| LinkedIn | PENDIENTE |
+| Ciudad | Breña, Lima |
+| Sitio web | https://www.gob.pe/produce  |
+| LinkedIn | https://www.linkedin.com/company/ministerio-de-la-produccion/  |
 | Rol en el ecosistema | Actor público / regulador |
-| Desafíos (códigos) | AZU, CIR, FIN |
+| Desafíos (códigos) | AZU, CIR, FIN  |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Ministerio de la Producción: rector de mipymes, industria, pesca y acuicultura; canaliza programas de innovación como ProInnóvate.
+
+| Campo | Valor |
+| --- | --- |
+| Dirección | Calle Uno Oeste N° 50, Urb. Córpac, Lima |
+| Año de fundación | PENDIENTE |
+| Áreas de enfoque (taxonomía CT) | AZU, CIR, FIN |
+| Programas | ProInnóvate; FCEI; economía circular |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,5 @@ PENDIENTE
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.gob.pe/produce
+- Sitio web `https://www.gob.pe/produce` — HTTP 200 (verificación 2026-10-21)
