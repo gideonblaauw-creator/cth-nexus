@@ -14,34 +14,10 @@
   "cta_btn_en": "Visit website",
   "cta_btn_es": "Visitar sitio",
   "ribbon": [
-    {
-      "val": "CO",
-      "lab_en": "Country",
-      "lab_es": "País",
-      "sub_en": "Colombia",
-      "sub_es": "Colombia"
-    },
-    {
-      "val": "Seed",
-      "lab_en": "Stage",
-      "lab_es": "Etapa",
-      "sub_en": "CLAC24 · Acceleration",
-      "sub_es": "CLAC24 · Acceleration"
-    },
-    {
-      "val": "CE",
-      "lab_en": "Sector",
-      "lab_es": "Sector",
-      "sub_en": "Circular Economy",
-      "sub_es": "Economía Circular"
-    },
-    {
-      "val": "[P]",
-      "lab_en": "Metrics",
-      "lab_es": "Métricas",
-      "sub_en": "[PENDIENTE]",
-      "sub_es": "[PENDIENTE]"
-    }
+    {"val": "CO", "lab_en": "Country", "lab_es": "País", "sub_en": "Colombia", "sub_es": "Colombia"},
+    {"val": "Seed", "lab_en": "Stage", "lab_es": "Etapa", "sub_en": "CLAC24 · Acceleration", "sub_es": "CLAC24 · Acceleration"},
+    {"val": "CE", "lab_en": "Sector", "lab_es": "Sector", "sub_en": "Circular Economy", "sub_es": "Economía Circular"},
+    {"val": "[P]", "lab_en": "Metrics", "lab_es": "Métricas", "sub_en": "[PENDIENTE]", "sub_es": "[PENDIENTE]"}
   ],
   "problem_stats": [
     [
@@ -163,5 +139,16 @@
     "impact": "habitatmineriaurbana.com.co — Portada-1-1-2025.webp",
     "team": "Unsplash — Possessed Photography (electronics recycling)",
     "cta": "Unsplash — LinkedIn Sales Navigator (circular industry)"
+  },
+  "location": {
+    "precision": "city",
+    "city": "Bogotá",
+    "country": "Colombia",
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "source_url": "https://habitatmineriaurbana.com.co",
+    "hq_abroad": null,
+    "location_note": "City from company website sedes (Bogotá); no street office published"
   }
 }

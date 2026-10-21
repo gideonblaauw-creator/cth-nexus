@@ -11,34 +11,10 @@
   "cta_pitch_en": "Forest-sector carbon compensation and conservation projects for businesses in Guatemala and Central America.",
   "cta_pitch_es": "Proyectos de compensación de carbono y conservación forestal para empresas en Guatemala y Centroamérica.",
   "ribbon": [
-    {
-      "val": "GT",
-      "lab_en": "Country",
-      "lab_es": "País",
-      "sub_en": "Guatemala",
-      "sub_es": "Guatemala"
-    },
-    {
-      "val": "Seed",
-      "lab_en": "Stage",
-      "lab_es": "Etapa",
-      "sub_en": "CLP",
-      "sub_es": "CLP"
-    },
-    {
-      "val": "Energy",
-      "lab_en": "Sector",
-      "lab_es": "Sector",
-      "sub_en": "Cleantech",
-      "sub_es": "Cleantech"
-    },
-    {
-      "val": "[P]",
-      "lab_en": "Metrics",
-      "lab_es": "Métricas",
-      "sub_en": "[PENDIENTE]",
-      "sub_es": "[PENDIENTE]"
-    }
+    {"val": "GT", "lab_en": "Country", "lab_es": "País", "sub_en": "Guatemala", "sub_es": "Guatemala"},
+    {"val": "Seed", "lab_en": "Stage", "lab_es": "Etapa", "sub_en": "CLP", "sub_es": "CLP"},
+    {"val": "Energy", "lab_en": "Sector", "lab_es": "Sector", "sub_en": "Cleantech", "sub_es": "Cleantech"},
+    {"val": "[P]", "lab_en": "Metrics", "lab_es": "Métricas", "sub_en": "[PENDIENTE]", "sub_es": "[PENDIENTE]"}
   ],
   "problem_stats": [
     [
@@ -159,5 +135,16 @@
   "hero_image": "https://lirp.cdn-website.com/317bfb1d/dms3rep/multi/opt/photo-1503327327322-56f962d3fc57-1920w.jpg",
   "cta_bg": "https://images.unsplash.com/photo-1518173941573-c443e494106a?w=1200&q=80",
   "image_credits_en": "Image credits (istmo-verde):\n· Hero: Istmo Verde website (istmoverde.com)\n· §01 Problem: Unsplash / Lukasz Szmigiel\n· §02 Solution: Unsplash / Matt Artz\n· §03 Impact: Unsplash / Lucas Sankey\n· §04 Leadership: Unsplash / Hans Reniers\n· CTA: Unsplash / Lucas Sankey",
-  "image_credits_es": "Créditos de imagen (istmo-verde):\n· Hero: Sitio web Istmo Verde (istmoverde.com)\n· §01 Problem: Unsplash / Lukasz Szmigiel\n· §02 Solution: Unsplash / Matt Artz\n· §03 Impact: Unsplash / Lucas Sankey\n· §04 Leadership: Unsplash / Hans Reniers\n· CTA: Unsplash / Lucas Sankey"
+  "image_credits_es": "Créditos de imagen (istmo-verde):\n· Hero: Sitio web Istmo Verde (istmoverde.com)\n· §01 Problem: Unsplash / Lukasz Szmigiel\n· §02 Solution: Unsplash / Matt Artz\n· §03 Impact: Unsplash / Lucas Sankey\n· §04 Leadership: Unsplash / Hans Reniers\n· CTA: Unsplash / Lucas Sankey",
+  "location": {
+    "precision": "address",
+    "city": "Cobán",
+    "country": "Guatemala",
+    "address": "4a Avenida 4-12 Zona 2, Cobán, Alta Verapaz",
+    "lat": 15.4693401,
+    "lng": -90.3753376,
+    "source_url": "https://www.istmoverde.com/",
+    "hq_abroad": null,
+    "location_note": "Street office on company contact page"
+  }
 }

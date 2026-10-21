@@ -67,8 +67,8 @@
     "source_es": "Tarjeta portafolio CleantechHUB (WEIA) + sitio público weia.com.co.",
     "taxonomy_en": "CT-IC-003 · Supply Chain Finance · CT-AF-001 · Sustainable Coffee",
     "taxonomy_es": "CT-IC-003 · Financiamiento cadena de suministro · CT-AF-001 · Café sostenible",
-    "location_en": "City: Bogotá · Country: Colombia",
-    "location_es": "Ciudad: Bogotá · País: Colombia",
+    "location_en": "City: Cali · Country: Colombia",
+    "location_es": "Ciudad: Cali · País: Colombia",
     "program_detail_en": "CleantechHUB · CLP cohort · Acceleration track (Portafolio CTH sheet).",
     "program_detail_es": "CleantechHUB · cohorte CLP · track Aceleración (hoja Portafolio CTH).",
     "team": [
@@ -102,5 +102,16 @@
     ],
     "footer_note_en": "Program: CLP. Additional co-founders: Alfonso Leyva, Javier Pérez Burgos (public sources). Pitch deck: [PENDIENTE]. Verified KPIs: [PENDIENTE].",
     "footer_note_es": "Programa: CLP. Otros cofundadores: Alfonso Leyva, Javier Pérez Burgos (fuentes públicas). Pitch deck: [PENDIENTE]. KPIs verificados: [PENDIENTE]."
+  },
+  "location": {
+    "precision": "city",
+    "city": "Cali",
+    "country": "Colombia",
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "source_url": "https://www.weia.com.co/",
+    "hq_abroad": null,
+    "location_note": "City from one-pager"
   }
 }

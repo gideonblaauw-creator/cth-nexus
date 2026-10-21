@@ -1,1315 +1,1345 @@
 {
-  "version": "2026-10-21-hubmap-sv",
+  "version": "2026-10-21-hubmap-sv", 
   "hubs": [
     {
-      "id": "externado",
-      "slug": "externado",
-      "status": "active",
-      "country": "CO",
+      "id": "externado", 
+      "slug": "externado", 
+      "status": "active", 
+      "country": "CO", 
       "map": {
-        "x": 28,
+        "x": 28, 
         "y": 42
-      },
+      }, 
       "geo": {
-        "lat": 4.6287,
-        "lng": -74.0647
-      },
+        "precision": "address", 
+        "address": "Calle 12 No. 1-17 Este", 
+        "city": "Bogotá", 
+        "country": "Colombia", 
+        "source_url": "https://www.uexternado.edu.co/contacto/", 
+        "lat": 4.5952455, 
+        "lng": -74.0683393, 
+        "location_note": "REIN Hub · Bogotá; Nominatim amenity match for published campus address (Calle 12)"
+      }, 
       "name": {
-        "ES": "Universidad Externado de Colombia",
+        "ES": "Universidad Externado de Colombia", 
         "EN": "Universidad Externado de Colombia"
-      },
+      }, 
       "short": {
-        "ES": "REIN Hub · Bogotá",
+        "ES": "REIN Hub · Bogotá", 
         "EN": "REIN Hub · Bogotá"
-      },
+      }, 
       "tagline": {
-        "ES": "Incubación climática, emprendimiento y articulación del ecosistema cleantech en Colombia.",
+        "ES": "Incubación climática, emprendimiento y articulación del ecosistema cleantech en Colombia.", 
         "EN": "Climate incubation, entrepreneurship, and cleantech ecosystem building in Colombia."
-      },
+      }, 
       "about": {
-        "ES": "El hub REIN en Externado conecta formación académica, mentoría y ClimateLaunchpad para acelerar ventures con impacto climático en Colombia. Trabajo público: programas de emprendimiento, redes regionales y cohortes nacionales CLP.",
+        "ES": "El hub REIN en Externado conecta formación académica, mentoría y ClimateLaunchpad para acelerar ventures con impacto climático en Colombia. Trabajo público: programas de emprendimiento, redes regionales y cohortes nacionales CLP.", 
         "EN": "The REIN hub at Externado links academic training, mentoring, and ClimateLaunchpad to accelerate climate-impact ventures in Colombia. Public-facing work spans entrepreneurship programs, regional networks, and national CLP cohorts."
-      },
+      }, 
       "kpis": [
         {
-          "id": "startups",
-          "value": 22,
+          "id": "startups", 
+          "value": 22, 
           "label": {
-            "ES": "Startups CLP26",
+            "ES": "Startups CLP26", 
             "EN": "CLP26 startups"
           }
-        },
+        }, 
         {
-          "id": "years",
-          "value": "3+",
+          "id": "years", 
+          "value": "3+", 
           "label": {
-            "ES": "Años REIN",
+            "ES": "Años REIN", 
             "EN": "REIN years"
           }
-        },
+        }, 
         {
-          "id": "focus",
-          "value": "5",
+          "id": "focus", 
+          "value": "5", 
           "label": {
-            "ES": "Verticales",
+            "ES": "Verticales", 
             "EN": "Focus areas"
           }
-        },
+        }, 
         {
-          "id": "mentors",
-          "value": "40+",
+          "id": "mentors", 
+          "value": "40+", 
           "label": {
-            "ES": "Mentores aliados",
+            "ES": "Mentores aliados", 
             "EN": "Allied mentors"
           }
         }
-      ],
+      ], 
       "focusAreas": {
         "ES": [
-          "Economía circular",
-          "Energía",
-          "Bioeconomía",
-          "Agrotech",
+          "Economía circular", 
+          "Energía", 
+          "Bioeconomía", 
+          "Agrotech", 
           "Ciudades"
-        ],
+        ], 
         "EN": [
-          "Circular economy",
-          "Energy",
-          "Bioeconomy",
-          "Agtech",
+          "Circular economy", 
+          "Energy", 
+          "Bioeconomy", 
+          "Agtech", 
           "Cities"
         ]
-      },
+      }, 
       "images": [
         {
-          "src": "/hubs/assets/campus/externado-1.jpg",
+          "src": "/hubs/assets/campus/externado-1.jpg", 
           "caption": {
-            "ES": "Campus · recorrido institucional (YouTube)",
+            "ES": "Campus · recorrido institucional (YouTube)", 
             "EN": "Campus · institutional tour (YouTube)"
           }
-        },
+        }, 
         {
-          "src": "/hubs/assets/campus/externado-1.jpg",
+          "src": "/hubs/assets/campus/externado-1.jpg", 
           "caption": {
-            "ES": "REIN Hub Colombia · Externado",
+            "ES": "REIN Hub Colombia · Externado", 
             "EN": "REIN Hub Colombia · Externado"
           }
         }
-      ],
+      ], 
       "interactive": {
-        "type": "stage-chart",
+        "type": "stage-chart", 
         "title": {
-          "ES": "Etapas CLP26 Colombia",
+          "ES": "Etapas CLP26 Colombia", 
           "EN": "CLP26 Colombia stages"
         }
-      },
+      }, 
       "videos": [
         {
-          "type": "youtube",
-          "youtubeId": "XCmERQr_BEc",
+          "type": "youtube", 
+          "youtubeId": "XCmERQr_BEc", 
           "title": {
-            "ES": "Recorrido por la Universidad",
+            "ES": "Recorrido por la Universidad", 
             "EN": "University tour"
-          },
+          }, 
           "caption": {
-            "ES": "Recorrido institucional (público).",
+            "ES": "Recorrido institucional (público).", 
             "EN": "Institutional tour (public)."
           }
-        },
+        }, 
         {
-          "type": "youtube",
-          "youtubeId": "0pYXSvsT7O0",
+          "type": "youtube", 
+          "youtubeId": "0pYXSvsT7O0", 
           "title": {
-            "ES": "CLP Colombia 2025 · Final nacional",
+            "ES": "CLP Colombia 2025 · Final nacional", 
             "EN": "CLP Colombia 2025 · National final"
-          },
+          }, 
           "caption": {
-            "ES": "Highlights del pitch day nacional.",
+            "ES": "Highlights del pitch day nacional.", 
             "EN": "National pitch day highlights."
           }
         }
-      ],
+      ], 
       "startupsLabel": {
-        "ES": "Startups ClimateLaunchpad Colombia",
+        "ES": "Startups ClimateLaunchpad Colombia", 
         "EN": "ClimateLaunchpad Colombia Startups"
-      },
+      }, 
       "startups": [
         {
-          "slug": "green-textile-solutions",
-          "name": "Green Textile Solutions",
-          "onepager": "green-textile-solutions",
-          "theme": "CE",
-          "stage": "Launched",
-          "desc_en": "",
+          "slug": "green-textile-solutions", 
+          "name": "Green Textile Solutions", 
+          "onepager": "green-textile-solutions", 
+          "theme": "CE", 
+          "stage": "Launched", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "honeyb",
-          "name": "HoneyB",
-          "onepager": "honeyb",
-          "theme": "CE",
-          "stage": "Ideation",
-          "desc_en": "",
+          "slug": "honeyb", 
+          "name": "HoneyB", 
+          "onepager": "honeyb", 
+          "theme": "CE", 
+          "stage": "Ideation", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "kuo",
-          "name": "KUO (SIGR)",
-          "onepager": "kuo",
-          "theme": "CE",
-          "stage": "Prototype",
-          "desc_en": "",
+          "slug": "kuo", 
+          "name": "KUO (SIGR)", 
+          "onepager": "kuo", 
+          "theme": "CE", 
+          "stage": "Prototype", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "modular-agrosolutions",
-          "name": "Modular Agrosolutions",
-          "onepager": "modular-agrosolutions",
-          "theme": "BIO",
-          "stage": "Prototype",
-          "desc_en": "",
+          "slug": "modular-agrosolutions", 
+          "name": "Modular Agrosolutions", 
+          "onepager": "modular-agrosolutions", 
+          "theme": "BIO", 
+          "stage": "Prototype", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "nextgen-nutrition",
-          "name": "NextGen Nutrition (Petfly)",
-          "onepager": "nextgen-nutrition",
-          "theme": "BIO",
-          "stage": "Launched",
-          "desc_en": "",
+          "slug": "nextgen-nutrition", 
+          "name": "NextGen Nutrition (Petfly)", 
+          "onepager": "nextgen-nutrition", 
+          "theme": "BIO", 
+          "stage": "Launched", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "agrodata-connect",
-          "name": "AgroData Connect",
-          "onepager": "agrodata-connect",
-          "theme": "BIO",
-          "stage": "Ideation",
-          "desc_en": "",
+          "slug": "agrodata-connect", 
+          "name": "AgroData Connect", 
+          "onepager": "agrodata-connect", 
+          "theme": "BIO", 
+          "stage": "Ideation", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "agrolider",
-          "name": "AGROLIDER",
-          "onepager": "agrolider",
-          "theme": "BIO",
-          "stage": "Prototype",
-          "desc_en": "",
+          "slug": "agrolider", 
+          "name": "AGROLIDER", 
+          "onepager": "agrolider", 
+          "theme": "BIO", 
+          "stage": "Prototype", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "airthnova",
-          "name": "AirthNova",
-          "onepager": "airthnova",
-          "theme": "CE",
-          "stage": "Ideation",
-          "desc_en": "",
+          "slug": "airthnova", 
+          "name": "AirthNova", 
+          "onepager": "airthnova", 
+          "theme": "CE", 
+          "stage": "Ideation", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "artexlab",
-          "name": "ArtexLab",
-          "onepager": "artexlab",
-          "theme": "CE",
-          "stage": "Ideation",
-          "desc_en": "",
+          "slug": "artexlab", 
+          "name": "ArtexLab", 
+          "onepager": "artexlab", 
+          "theme": "CE", 
+          "stage": "Ideation", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "planta-comunitaria-wpc",
-          "name": "Planta Comunitaria WPC",
-          "onepager": "planta-comunitaria-wpc",
-          "theme": "CE",
-          "stage": "Prototype",
-          "desc_en": "",
+          "slug": "planta-comunitaria-wpc", 
+          "name": "Planta Comunitaria WPC", 
+          "onepager": "planta-comunitaria-wpc", 
+          "theme": "CE", 
+          "stage": "Prototype", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "proyecto-impacto-ambiental",
-          "name": "Proyecto emprendedor con impacto ambiental",
-          "onepager": "proyecto-impacto-ambiental",
-          "theme": "EN",
-          "stage": "Private Beta",
-          "desc_en": "",
+          "slug": "proyecto-impacto-ambiental", 
+          "name": "Proyecto emprendedor con impacto ambiental", 
+          "onepager": "proyecto-impacto-ambiental", 
+          "theme": "EN", 
+          "stage": "Private Beta", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "sie-waka",
-          "name": "SIÉ WAKA",
-          "onepager": "sie-waka",
-          "theme": "WW",
-          "stage": "Public Beta",
-          "desc_en": "",
+          "slug": "sie-waka", 
+          "name": "SIÉ WAKA", 
+          "onepager": "sie-waka", 
+          "theme": "WW", 
+          "stage": "Public Beta", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "terra-io",
-          "name": "Terra IO",
-          "onepager": "terra-io",
-          "theme": "BIO",
-          "stage": "Private Beta",
-          "desc_en": "",
+          "slug": "terra-io", 
+          "name": "Terra IO", 
+          "onepager": "terra-io", 
+          "theme": "BIO", 
+          "stage": "Private Beta", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "sekpos",
-          "name": "SEKPOS",
-          "onepager": "sekpos",
-          "theme": "CE",
-          "stage": "Private Beta",
-          "desc_en": "",
+          "slug": "sekpos", 
+          "name": "SEKPOS", 
+          "onepager": "sekpos", 
+          "theme": "CE", 
+          "stage": "Private Beta", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "bio-analytics",
-          "name": "bio.analytics",
-          "onepager": "bio-analytics",
-          "theme": "BIO",
-          "stage": "Launched",
-          "desc_en": "",
+          "slug": "bio-analytics", 
+          "name": "bio.analytics", 
+          "onepager": "bio-analytics", 
+          "theme": "BIO", 
+          "stage": "Launched", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "cacelio",
-          "name": "Cacelio",
-          "onepager": "cacelio",
-          "theme": "CE",
-          "stage": "Prototype",
-          "desc_en": "",
+          "slug": "cacelio", 
+          "name": "Cacelio", 
+          "onepager": "cacelio", 
+          "theme": "CE", 
+          "stage": "Prototype", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "circuito-cero",
-          "name": "Circuito Cero",
-          "onepager": "circuito-cero",
-          "theme": "CE",
-          "stage": "Ideation",
-          "desc_en": "",
+          "slug": "circuito-cero", 
+          "name": "Circuito Cero", 
+          "onepager": "circuito-cero", 
+          "theme": "CE", 
+          "stage": "Ideation", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "clean-sim",
-          "name": "Clean Sim (by IMIC)",
-          "onepager": "clean-sim",
-          "theme": "CE",
-          "stage": "Sketches",
-          "desc_en": "",
+          "slug": "clean-sim", 
+          "name": "Clean Sim (by IMIC)", 
+          "onepager": "clean-sim", 
+          "theme": "CE", 
+          "stage": "Sketches", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "climatik",
-          "name": "CLIMATIK Climate Transition Platform",
-          "onepager": "climatik",
-          "theme": "CE",
-          "stage": "Private Beta",
-          "desc_en": "",
+          "slug": "climatik", 
+          "name": "CLIMATIK Climate Transition Platform", 
+          "onepager": "climatik", 
+          "theme": "CE", 
+          "stage": "Private Beta", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "construyendo-redes-de-paz",
-          "name": "Construyendo Redes de Paz",
-          "onepager": "construyendo-redes-de-paz",
-          "theme": "BIO",
-          "stage": "Prototype",
-          "desc_en": "",
+          "slug": "construyendo-redes-de-paz", 
+          "name": "Construyendo Redes de Paz", 
+          "onepager": "construyendo-redes-de-paz", 
+          "theme": "BIO", 
+          "stage": "Prototype", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "dantium",
-          "name": "DANTIUM",
-          "onepager": "dantium",
-          "theme": "CE",
-          "stage": "Prototype",
-          "desc_en": "",
+          "slug": "dantium", 
+          "name": "DANTIUM", 
+          "onepager": "dantium", 
+          "theme": "CE", 
+          "stage": "Prototype", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "el-ocambulo",
-          "name": "El Ocámbulo",
-          "onepager": "el-ocambulo",
-          "theme": "BIO",
-          "stage": "Launched",
-          "desc_en": "",
+          "slug": "el-ocambulo", 
+          "name": "El Ocámbulo", 
+          "onepager": "el-ocambulo", 
+          "theme": "BIO", 
+          "stage": "Launched", 
+          "desc_en": "", 
           "desc_es": ""
         }
-      ],
+      ], 
       "links": [
         {
-          "href": "https://www.uexternado.edu.co/",
+          "href": "https://www.uexternado.edu.co/", 
           "label": {
-            "ES": "Sitio institucional",
+            "ES": "Sitio institucional", 
             "EN": "Institutional site"
           }
         }
-      ],
-      "website": "https://www.uexternado.edu.co/",
+      ], 
+      "website": "https://www.uexternado.edu.co/", 
       "people": [
         {
-          "name": "Marlen Díaz",
+          "name": "Marlen Díaz", 
           "role": {
-            "ES": "Directora, Centro de Emprendimiento Externadista (CEE)",
+            "ES": "Directora, Centro de Emprendimiento Externadista (CEE)", 
             "EN": "Director, Centro de Emprendimiento Externadista (CEE)"
-          },
+          }, 
           "org": {
-            "ES": "Universidad Externado de Colombia",
+            "ES": "Universidad Externado de Colombia", 
             "EN": "Universidad Externado de Colombia"
-          },
-          "linkedin": "https://www.linkedin.com/in/gloria-marlene-diaz-munoz/",
-          "initials": "MD",
+          }, 
+          "linkedin": "https://www.linkedin.com/in/gloria-marlene-diaz-munoz/", 
+          "initials": "MD", 
           "photoPending": true
-        },
+        }, 
         {
-          "name": "Andrés Ortega",
+          "name": "Andrés Ortega", 
           "role": {
-            "ES": "Docente y referente REIN · CEE",
+            "ES": "Docente y referente REIN · CEE", 
             "EN": "Faculty and REIN lead · CEE"
-          },
+          }, 
           "org": {
-            "ES": "Universidad Externado de Colombia",
+            "ES": "Universidad Externado de Colombia", 
             "EN": "Universidad Externado de Colombia"
-          },
-          "linkedin": "https://www.linkedin.com/in/andres-ortega-serna-1016b2a1/",
-          "initials": "AO",
+          }, 
+          "linkedin": "https://www.linkedin.com/in/andres-ortega-serna-1016b2a1/", 
+          "initials": "AO", 
           "photoPending": true
         }
       ]
-    },
+    }, 
     {
-      "id": "landivar",
-      "slug": "landivar",
-      "status": "active",
-      "country": "GT",
+      "id": "landivar", 
+      "slug": "landivar", 
+      "status": "active", 
+      "country": "GT", 
       "map": {
-        "x": 18,
+        "x": 18, 
         "y": 38
-      },
+      }, 
       "geo": {
-        "lat": 14.6349,
-        "lng": -90.5069
-      },
+        "precision": "address", 
+        "address": "Vista Hermosa III, Zona 16", 
+        "city": "Ciudad de Guatemala", 
+        "country": "Guatemala", 
+        "source_url": "https://principal.url.edu.gt/acerca-de/", 
+        "lat": 14.5955239, 
+        "lng": -90.4843279, 
+        "location_note": "REIN Hub · Guatemala; official footer lists Campus Central address (zona-level); Nominatim university POI in Zona 16 (~5 km from prior capital centroid)"
+      }, 
       "name": {
-        "ES": "Universidad Rafael Landívar",
+        "ES": "Universidad Rafael Landívar", 
         "EN": "Universidad Rafael Landívar"
-      },
+      }, 
       "short": {
-        "ES": "REIN Hub · Guatemala",
+        "ES": "REIN Hub · Guatemala", 
         "EN": "REIN Hub · Guatemala"
-      },
+      }, 
       "tagline": {
-        "ES": "Innovación climática desde Guatemala para Centroamérica.",
+        "ES": "Innovación climática desde Guatemala para Centroamérica.", 
         "EN": "Climate innovation from Guatemala for Central America."
-      },
+      }, 
       "about": {
-        "ES": "Landívar articula ClimateLaunchpad Guatemala (L1-CLP-GT), mentoría y redes REIN para founders en economía circular, agro y energía. Información pública del hub: acompañamiento académico, bootcamps y conexión regional.",
+        "ES": "Landívar articula ClimateLaunchpad Guatemala (L1-CLP-GT), mentoría y redes REIN para founders en economía circular, agro y energía. Información pública del hub: acompañamiento académico, bootcamps y conexión regional.", 
         "EN": "Landívar connects ClimateLaunchpad Guatemala (L1-CLP-GT), mentoring, and REIN networks for founders in circular economy, agro, and energy. Public hub story: academic support, bootcamps, and regional linkage."
-      },
+      }, 
       "kpis": [
         {
-          "id": "startups",
-          "value": 7,
+          "id": "startups", 
+          "value": 7, 
           "label": {
-            "ES": "Startups CLP26",
+            "ES": "Startups CLP26", 
             "EN": "CLP26 startups"
           }
-        },
+        }, 
         {
-          "id": "cohort",
-          "value": "L1",
+          "id": "cohort", 
+          "value": "L1", 
           "label": {
-            "ES": "Cohorte GT",
+            "ES": "Cohorte GT", 
             "EN": "GT cohort"
           }
-        },
+        }, 
         {
-          "id": "region",
-          "value": "CA",
+          "id": "region", 
+          "value": "CA", 
           "label": {
-            "ES": "Alcance regional",
+            "ES": "Alcance regional", 
             "EN": "Regional reach"
           }
-        },
+        }, 
         {
-          "id": "programs",
-          "value": "CLP",
+          "id": "programs", 
+          "value": "CLP", 
           "label": {
-            "ES": "Programa bandera",
+            "ES": "Programa bandera", 
             "EN": "Flagship program"
           }
         }
-      ],
+      ], 
       "focusAreas": {
         "ES": [
-          "Economía circular",
-          "Agroindustria",
-          "Eficiencia energética",
+          "Economía circular", 
+          "Agroindustria", 
+          "Eficiencia energética", 
           "Bioeconomía"
-        ],
+        ], 
         "EN": [
-          "Circular economy",
-          "Agroindustry",
-          "Energy efficiency",
+          "Circular economy", 
+          "Agroindustry", 
+          "Energy efficiency", 
           "Bioeconomy"
         ]
-      },
+      }, 
       "images": [
         {
-          "src": "/hubs/assets/campus/landivar-1.jpg",
+          "src": "/hubs/assets/campus/landivar-1.jpg", 
           "caption": {
-            "ES": "Universidad Rafael Landívar · campus",
+            "ES": "Universidad Rafael Landívar · campus", 
             "EN": "Universidad Rafael Landívar · campus"
           }
-        },
+        }, 
         {
-          "src": "/hubs/assets/campus/landivar-2.jpg",
+          "src": "/hubs/assets/campus/landivar-2.jpg", 
           "caption": {
-            "ES": "Guatemala · ecosistema emprendedor",
+            "ES": "Guatemala · ecosistema emprendedor", 
             "EN": "Guatemala · entrepreneurial ecosystem"
           }
         }
-      ],
+      ], 
       "interactive": {
-        "type": "theme-chart",
+        "type": "theme-chart", 
         "title": {
-          "ES": "Temas CLP26 Guatemala",
+          "ES": "Temas CLP26 Guatemala", 
           "EN": "CLP26 Guatemala themes"
         }
-      },
+      }, 
       "videos": [
         {
-          "type": "youtube",
-          "youtubeId": "k1aeGMEjY7c",
+          "type": "youtube", 
+          "youtubeId": "k1aeGMEjY7c", 
           "title": {
-            "ES": "Aniversario · Universidad Rafael Landívar",
+            "ES": "Aniversario · Universidad Rafael Landívar", 
             "EN": "Anniversary · Universidad Rafael Landívar"
-          },
+          }, 
           "caption": {
-            "ES": "Canal oficial @u_landivar (YouTube).",
+            "ES": "Canal oficial @u_landivar (YouTube).", 
             "EN": "Official @u_landivar channel (YouTube)."
           }
-        },
+        }, 
         {
-          "type": "youtube",
-          "youtubeId": "DUAXecNNdFs",
+          "type": "youtube", 
+          "youtubeId": "DUAXecNNdFs", 
           "title": {
-            "ES": "ClimateLaunchpad 2026 · pitch Guatemala (Piña & Kakaw)",
+            "ES": "ClimateLaunchpad 2026 · pitch Guatemala (Piña & Kakaw)", 
             "EN": "ClimateLaunchpad 2026 · Guatemala pitch (Piña & Kakaw)"
-          },
+          }, 
           "caption": {
-            "ES": "Highlights CLP · cohorte Guatemala (CleantechHUB).",
+            "ES": "Highlights CLP · cohorte Guatemala (CleantechHUB).", 
             "EN": "CLP highlights · Guatemala cohort (CleantechHUB)."
           }
-        },
+        }, 
         {
-          "type": "youtube",
-          "youtubeId": "EP0zhs_ZG7A",
+          "type": "youtube", 
+          "youtubeId": "EP0zhs_ZG7A", 
           "title": {
-            "ES": "REIN Hubs · innovación con la naturaleza",
+            "ES": "REIN Hubs · innovación con la naturaleza", 
             "EN": "REIN Hubs · innovation with nature"
-          },
+          }, 
           "caption": {
-            "ES": "Cumbre Iberoamericana 2025 · CleantechHUB / REIN.",
+            "ES": "Cumbre Iberoamericana 2025 · CleantechHUB / REIN.", 
             "EN": "Ibero-American summit 2025 · CleantechHUB / REIN."
           }
         }
-      ],
+      ], 
       "startupsLabel": {
-        "ES": "Startups ClimateLaunchpad Guatemala",
+        "ES": "Startups ClimateLaunchpad Guatemala", 
         "EN": "ClimateLaunchpad Guatemala Startups"
-      },
+      }, 
       "startups": [
         {
-          "slug": "aura-cell",
-          "name": "Aura Cell",
-          "onepager": "aura-cell",
-          "theme": "CE",
-          "stage": "Ideation",
-          "desc_en": "Biotechnology indoor filter for CO₂ capture with sensors and AI for real-time air quality monitoring.",
+          "slug": "aura-cell", 
+          "name": "Aura Cell", 
+          "onepager": "aura-cell", 
+          "theme": "CE", 
+          "stage": "Ideation", 
+          "desc_en": "Biotechnology indoor filter for CO₂ capture with sensors and AI for real-time air quality monitoring.", 
           "desc_es": "Filtro biotecnológico interior para captura de CO₂ con sensores e IA para monitoreo de calidad del aire en tiempo real."
-        },
+        }, 
         {
-          "slug": "autogenerado-629",
-          "name": "MUKAN",
-          "onepager": "autogenerado-629",
-          "theme": "CE",
-          "stage": "Private Beta",
-          "desc_en": "MUKAN design-grade cellulose-fiber board from Guatemala corn husk waste for furniture and carpentry workshops.",
+          "slug": "autogenerado-629", 
+          "name": "MUKAN", 
+          "onepager": "autogenerado-629", 
+          "theme": "CE", 
+          "stage": "Private Beta", 
+          "desc_en": "MUKAN design-grade cellulose-fiber board from Guatemala corn husk waste for furniture and carpentry workshops.", 
           "desc_es": "MUKAN tablero de fibra celulósica de grado diseño a partir de cascarilla de maíz en Guatemala para talleres de muebles y carpintería."
-        },
+        }, 
         {
-          "slug": "gmoves",
-          "name": "GMOVES",
-          "onepager": "gmoves",
-          "theme": "CE",
-          "stage": "Prototype",
-          "desc_en": "",
+          "slug": "gmoves", 
+          "name": "GMOVES", 
+          "onepager": "gmoves", 
+          "theme": "CE", 
+          "stage": "Prototype", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "ingenicrop",
-          "name": "Ingenicrop",
-          "onepager": "ingenicrop",
-          "theme": "BIO",
-          "stage": "Public Beta",
-          "desc_en": "",
+          "slug": "ingenicrop", 
+          "name": "Ingenicrop", 
+          "onepager": "ingenicrop", 
+          "theme": "BIO", 
+          "stage": "Public Beta", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "nrk",
-          "name": "NRK",
-          "onepager": "nrk",
-          "theme": "CE",
-          "stage": "Launched",
-          "desc_en": "",
+          "slug": "nrk", 
+          "name": "NRK", 
+          "onepager": "nrk", 
+          "theme": "CE", 
+          "stage": "Launched", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "crysalia-studio",
-          "name": "Crysalia Studio",
-          "onepager": "crysalia-studio",
-          "theme": "CE",
-          "stage": "Public Beta",
-          "desc_en": "",
+          "slug": "crysalia-studio", 
+          "name": "Crysalia Studio", 
+          "onepager": "crysalia-studio", 
+          "theme": "CE", 
+          "stage": "Public Beta", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "pina-kakaw",
-          "name": "Piña and Kakaw",
-          "onepager": "pina-kakaw",
-          "theme": "CE",
-          "stage": "Pre-orders",
-          "desc_en": "",
+          "slug": "pina-kakaw", 
+          "name": "Piña and Kakaw", 
+          "onepager": "pina-kakaw", 
+          "theme": "CE", 
+          "stage": "Pre-orders", 
+          "desc_en": "", 
           "desc_es": ""
         }
-      ],
+      ], 
       "links": [
         {
-          "href": "https://www.url.edu.gt/",
+          "href": "https://www.url.edu.gt/", 
           "label": {
-            "ES": "Sitio institucional",
+            "ES": "Sitio institucional", 
             "EN": "Institutional site"
           }
         }
-      ],
-      "website": "https://www.url.edu.gt/",
+      ], 
+      "website": "https://www.url.edu.gt/", 
       "people": [
         {
-          "name": "Plubio Monterroso",
+          "name": "Plubio Monterroso", 
           "role": {
-            "ES": "Director, Centro de Emprendimiento Landívar",
+            "ES": "Director, Centro de Emprendimiento Landívar", 
             "EN": "Director, Centro de Emprendimiento Landívar"
-          },
+          }, 
           "org": {
-            "ES": "Universidad Rafael Landívar",
+            "ES": "Universidad Rafael Landívar", 
             "EN": "Universidad Rafael Landívar"
-          },
-          "linkedin": "https://www.linkedin.com/in/licplu/",
-          "initials": "PM",
+          }, 
+          "linkedin": "https://www.linkedin.com/in/licplu/", 
+          "initials": "PM", 
           "photoPending": true
-        },
+        }, 
         {
-          "name": "Stephania Calderón",
+          "name": "Stephania Calderón", 
           "role": {
-            "ES": "Asesora de innovación · Climate Hub / CLP",
+            "ES": "Asesora de innovación · Climate Hub / CLP", 
             "EN": "Innovation advisor · Climate Hub / CLP"
-          },
+          }, 
           "org": {
-            "ES": "Universidad Rafael Landívar",
+            "ES": "Universidad Rafael Landívar", 
             "EN": "Universidad Rafael Landívar"
-          },
-          "linkedin": "https://www.linkedin.com/in/stephania-calder%C3%B3n-suasn%C3%A1var-a1354878/",
-          "initials": "SC",
+          }, 
+          "linkedin": "https://www.linkedin.com/in/stephania-calder%C3%B3n-suasn%C3%A1var-a1354878/", 
+          "initials": "SC", 
           "photoPending": true
-        },
+        }, 
         {
-          "name": "María Regina Alfaro",
+          "name": "María Regina Alfaro", 
           "role": {
-            "ES": "Vicedecana, Facultad de Arquitectura y Diseño · REIN GT",
+            "ES": "Vicedecana, Facultad de Arquitectura y Diseño · REIN GT", 
             "EN": "Vice Dean, Architecture & Design · REIN GT"
-          },
+          }, 
           "org": {
-            "ES": "Universidad Rafael Landívar",
+            "ES": "Universidad Rafael Landívar", 
             "EN": "Universidad Rafael Landívar"
-          },
-          "linkedin": "https://www.linkedin.com/in/maria-regina-alfaro-0069b245/",
-          "initials": "MR",
+          }, 
+          "linkedin": "https://www.linkedin.com/in/maria-regina-alfaro-0069b245/", 
+          "initials": "MR", 
           "photoPending": true
         }
       ]
-    },
+    }, 
     {
-      "id": "emprende-up",
-      "slug": "emprende-up",
-      "status": "active",
-      "country": "PE",
+      "id": "emprende-up", 
+      "slug": "emprende-up", 
+      "status": "active", 
+      "country": "PE", 
       "map": {
-        "x": 24,
+        "x": 24, 
         "y": 58
-      },
+      }, 
       "geo": {
-        "lat": -12.0464,
-        "lng": -77.0428
-      },
+        "precision": "address", 
+        "address": "Av. Salaverry 2020", 
+        "city": "Jesús María", 
+        "country": "Peru", 
+        "source_url": "https://www.up.edu.pe/paginas/contactenos.aspx", 
+        "lat": -12.0838826, 
+        "lng": -77.0483187, 
+        "location_note": "REIN Hub · Peru; Emprende UP hub uses UP main campus (domicilio legal); Nominatim match (~4.2 km from prior Lima centroid)"
+      }, 
       "name": {
-        "ES": "Emprende UP · Universidad del Pacífico",
+        "ES": "Emprende UP · Universidad del Pacífico", 
         "EN": "Emprende UP · Universidad del Pacífico"
-      },
+      }, 
       "short": {
-        "ES": "REIN Hub · Perú",
+        "ES": "REIN Hub · Perú", 
         "EN": "REIN Hub · Peru"
-      },
+      }, 
       "tagline": {
-        "ES": "Talento emprendedor peruano para transición climática.",
+        "ES": "Talento emprendedor peruano para transición climática.", 
         "EN": "Peruvian entrepreneurial talent for climate transition."
-      },
+      }, 
       "about": {
-        "ES": "Emprende UP lidera ClimateLaunchpad Perú (P1-CLP-PE) con mentoría, validación de mercado y visibilidad regional. Contenido público: bootcamps, demo days y articulación con inversionistas de impacto.",
+        "ES": "Emprende UP lidera ClimateLaunchpad Perú (P1-CLP-PE) con mentoría, validación de mercado y visibilidad regional. Contenido público: bootcamps, demo days y articulación con inversionistas de impacto.", 
         "EN": "Emprende UP leads ClimateLaunchpad Peru (P1-CLP-PE) with mentoring, market validation, and regional visibility. Public content: bootcamps, demo days, and impact investor linkage."
-      },
+      }, 
       "kpis": [
         {
-          "id": "startups",
-          "value": 11,
+          "id": "startups", 
+          "value": 11, 
           "label": {
-            "ES": "Startups CLP26",
+            "ES": "Startups CLP26", 
             "EN": "CLP26 startups"
           }
-        },
+        }, 
         {
-          "id": "cohort",
-          "value": "P1",
+          "id": "cohort", 
+          "value": "P1", 
           "label": {
-            "ES": "Cohorte PE",
+            "ES": "Cohorte PE", 
             "EN": "PE cohort"
           }
-        },
+        }, 
         {
-          "id": "lima",
-          "value": "LIM",
+          "id": "lima", 
+          "value": "LIM", 
           "label": {
-            "ES": "Sede principal",
+            "ES": "Sede principal", 
             "EN": "Main hub"
           }
-        },
+        }, 
         {
-          "id": "programs",
-          "value": "CLP",
+          "id": "programs", 
+          "value": "CLP", 
           "label": {
-            "ES": "Programa bandera",
+            "ES": "Programa bandera", 
             "EN": "Flagship program"
           }
         }
-      ],
+      ], 
       "focusAreas": {
         "ES": [
-          "Agua",
-          "Energía",
-          "Bioeconomía",
-          "Movilidad",
+          "Agua", 
+          "Energía", 
+          "Bioeconomía", 
+          "Movilidad", 
           "Economía circular"
-        ],
+        ], 
         "EN": [
-          "Water",
-          "Energy",
-          "Bioeconomy",
-          "Mobility",
+          "Water", 
+          "Energy", 
+          "Bioeconomy", 
+          "Mobility", 
           "Circular economy"
         ]
-      },
+      }, 
       "images": [
         {
-          "src": "/hubs/assets/campus/emprende-1.jpg",
+          "src": "/hubs/assets/campus/emprende-1.jpg", 
           "caption": {
-            "ES": "Emprende UP · video institucional",
+            "ES": "Emprende UP · video institucional", 
             "EN": "Emprende UP · institutional video"
           }
-        },
+        }, 
         {
-          "src": "/hubs/assets/campus/emprende-1.jpg",
+          "src": "/hubs/assets/campus/emprende-1.jpg", 
           "caption": {
-            "ES": "ClimaTech · REIN Hub Perú",
+            "ES": "ClimaTech · REIN Hub Perú", 
             "EN": "ClimaTech · REIN Hub Peru"
           }
         }
-      ],
+      ], 
       "interactive": {
-        "type": "stage-chart",
+        "type": "stage-chart", 
         "title": {
-          "ES": "Etapas CLP26 Perú",
+          "ES": "Etapas CLP26 Perú", 
           "EN": "CLP26 Peru stages"
         }
-      },
+      }, 
       "videos": [
         {
-          "type": "youtube",
-          "youtubeId": "ak7HTNYM9dQ",
+          "type": "youtube", 
+          "youtubeId": "ak7HTNYM9dQ", 
           "title": {
-            "ES": "EMPRENDE UP — video institucional",
+            "ES": "EMPRENDE UP — video institucional", 
             "EN": "EMPRENDE UP — institutional video"
-          },
+          }, 
           "caption": {
-            "ES": "Canal oficial Emprende UP (@emprendeup1969 · YouTube).",
+            "ES": "Canal oficial Emprende UP (@emprendeup1969 · YouTube).", 
             "EN": "Official Emprende UP channel (@emprendeup1969 · YouTube)."
           }
-        },
+        }, 
         {
-          "type": "youtube",
-          "youtubeId": "FD7XWskvtvc",
+          "type": "youtube", 
+          "youtubeId": "FD7XWskvtvc", 
           "title": {
-            "ES": "ClimaTech · Taller Cambio Climático y Sostenibilidad",
+            "ES": "ClimaTech · Taller Cambio Climático y Sostenibilidad", 
             "EN": "ClimaTech · Climate Change and Sustainability workshop"
-          },
+          }, 
           "caption": {
-            "ES": "Último contenido de programa ClimaTech en YouTube (Emprende UP · 2025).",
+            "ES": "Último contenido de programa ClimaTech en YouTube (Emprende UP · 2025).", 
             "EN": "Latest ClimaTech programme video on YouTube (Emprende UP · 2025)."
           }
         }
-      ],
+      ], 
       "startupsLabel": {
-        "ES": "Startups ClimateLaunchpad Perú",
+        "ES": "Startups ClimateLaunchpad Perú", 
         "EN": "ClimateLaunchpad Peru Startups"
-      },
+      }, 
       "startups": [
         {
-          "slug": "kallpa-greenz-leaders",
-          "name": "Kallpa Greenz Leaders",
-          "onepager": "kallpa-greenz-leaders",
-          "theme": "BIO",
-          "stage": "Launched",
-          "desc_en": "",
+          "slug": "kallpa-greenz-leaders", 
+          "name": "Kallpa Greenz Leaders", 
+          "onepager": "kallpa-greenz-leaders", 
+          "theme": "BIO", 
+          "stage": "Launched", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "nanohumi",
-          "name": "NanoHumi",
-          "onepager": "nanohumi",
-          "theme": "BIO",
-          "stage": "Private Beta",
-          "desc_en": "",
+          "slug": "nanohumi", 
+          "name": "NanoHumi", 
+          "onepager": "nanohumi", 
+          "theme": "BIO", 
+          "stage": "Private Beta", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "pezconfiable",
-          "name": "PezConfiable",
-          "onepager": "pezconfiable",
-          "theme": "BIO",
-          "stage": "Private Beta",
-          "desc_en": "",
+          "slug": "pezconfiable", 
+          "name": "PezConfiable", 
+          "onepager": "pezconfiable", 
+          "theme": "BIO", 
+          "stage": "Private Beta", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "vigia",
-          "name": "VIGÍA (ex MUCHIK)",
-          "onepager": "vigia",
-          "theme": "WW",
-          "stage": "Ideation",
-          "desc_en": "",
+          "slug": "vigia", 
+          "name": "VIGÍA (ex MUCHIK)", 
+          "onepager": "vigia", 
+          "theme": "WW", 
+          "stage": "Ideation", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "wayra-watt",
-          "name": "Wayra Watt",
-          "onepager": "wayra-watt",
-          "theme": "EN",
-          "stage": "Sketches",
-          "desc_en": "",
+          "slug": "wayra-watt", 
+          "name": "Wayra Watt", 
+          "onepager": "wayra-watt", 
+          "theme": "EN", 
+          "stage": "Sketches", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "windlever",
-          "name": "WindLever",
-          "onepager": "windlever",
-          "theme": "BIO",
-          "stage": "Prototype",
-          "desc_en": "",
+          "slug": "windlever", 
+          "name": "WindLever", 
+          "onepager": "windlever", 
+          "theme": "BIO", 
+          "stage": "Prototype", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "yakusmart",
-          "name": "YakuSmart",
-          "onepager": "yakusmart",
-          "theme": "WW",
-          "stage": "Launched",
-          "desc_en": "",
+          "slug": "yakusmart", 
+          "name": "YakuSmart", 
+          "onepager": "yakusmart", 
+          "theme": "WW", 
+          "stage": "Launched", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "agrolens",
-          "name": "AgroLens",
-          "onepager": "agrolens",
-          "theme": "BIO",
-          "stage": "Private Beta",
-          "desc_en": "",
+          "slug": "agrolens", 
+          "name": "AgroLens", 
+          "onepager": "agrolens", 
+          "theme": "BIO", 
+          "stage": "Private Beta", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "andean-biofactories",
-          "name": "Andean Biofactories",
-          "onepager": "andean-biofactories",
-          "theme": "BIO",
-          "stage": "Sketches",
-          "desc_en": "",
+          "slug": "andean-biofactories", 
+          "name": "Andean Biofactories", 
+          "onepager": "andean-biofactories", 
+          "theme": "BIO", 
+          "stage": "Sketches", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "fivra",
-          "name": "FIVRA",
-          "onepager": "fivra",
-          "theme": "CE",
-          "stage": "Public Beta",
-          "desc_en": "",
+          "slug": "fivra", 
+          "name": "FIVRA", 
+          "onepager": "fivra", 
+          "theme": "CE", 
+          "stage": "Public Beta", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "hardtech",
-          "name": "HardTech",
-          "onepager": "hardtech",
-          "theme": "EN",
-          "stage": "Prototype",
-          "desc_en": "",
+          "slug": "hardtech", 
+          "name": "HardTech", 
+          "onepager": "hardtech", 
+          "theme": "EN", 
+          "stage": "Prototype", 
+          "desc_en": "", 
           "desc_es": ""
         }
-      ],
+      ], 
       "links": [
         {
-          "href": "https://www.linkedin.com/in/emprendeup/",
+          "href": "https://www.linkedin.com/in/emprendeup/", 
           "label": {
-            "ES": "LinkedIn · Emprende UP",
+            "ES": "LinkedIn · Emprende UP", 
             "EN": "LinkedIn · Emprende UP"
           }
-        },
+        }, 
         {
-          "href": "https://www.instagram.com/emprendeup/",
+          "href": "https://www.instagram.com/emprendeup/", 
           "label": {
-            "ES": "Instagram · Emprende UP",
+            "ES": "Instagram · Emprende UP", 
             "EN": "Instagram · Emprende UP"
           }
         }
-      ],
-      "website": "http://emprendeup.pe/",
+      ], 
+      "website": "http://emprendeup.pe/", 
       "people": [
         {
-          "name": "Marita Ruiz Tafur",
+          "name": "Marita Ruiz Tafur", 
           "role": {
-            "ES": "Directora, Emprende UP",
+            "ES": "Directora, Emprende UP", 
             "EN": "Director, Emprende UP"
-          },
+          }, 
           "org": {
-            "ES": "Universidad del Pacífico",
+            "ES": "Universidad del Pacífico", 
             "EN": "Universidad del Pacífico"
-          },
-          "linkedin": "https://www.linkedin.com/in/marita-ruiz-tafur/",
-          "initials": "MR",
+          }, 
+          "linkedin": "https://www.linkedin.com/in/marita-ruiz-tafur/", 
+          "initials": "MR", 
           "photo": "/hubs/assets/people/marita-ruiz.jpg"
-        },
+        }, 
         {
-          "name": "Martha Zúñiga",
+          "name": "Martha Zúñiga", 
           "role": {
-            "ES": "Coordinadora general, ClimaTech",
+            "ES": "Coordinadora general, ClimaTech", 
             "EN": "General coordinator, ClimaTech"
-          },
+          }, 
           "org": {
-            "ES": "Emprende UP · Universidad del Pacífico",
+            "ES": "Emprende UP · Universidad del Pacífico", 
             "EN": "Emprende UP · Universidad del Pacífico"
-          },
-          "linkedin": "https://www.linkedin.com/in/marthazu%C3%B1igabravo/",
-          "initials": "MZ",
+          }, 
+          "linkedin": "https://www.linkedin.com/in/marthazu%C3%B1igabravo/", 
+          "initials": "MZ", 
           "photoPending": true
         }
-      ],
+      ], 
       "ecosystemMap": {
-        "href": "https://canva.link/7800vm8mfybi8b4",
+        "href": "https://canva.link/7800vm8mfybi8b4", 
         "label": {
-          "ES": "Mapa de Actores y Aliados del Emprendimiento Climático del Perú",
+          "ES": "Mapa de Actores y Aliados del Emprendimiento Climático del Perú", 
           "EN": "Map of Actors and Allies of Climate Entrepreneurship in Peru"
-        },
+        }, 
         "note": {
-          "ES": "Presentación Canva entregada a UP (20 oct 2026).",
+          "ES": "Presentación Canva entregada a UP (20 oct 2026).", 
           "EN": "Canva deck delivered to UP (20 Oct 2026)."
         }
       }
-    },
+    }, 
     {
-      "id": "el-salvador",
-      "slug": "el-salvador",
-      "status": "active",
-      "country": "SV",
+      "id": "el-salvador", 
+      "slug": "el-salvador", 
+      "status": "active", 
+      "country": "SV", 
       "map": {
-        "x": 16,
+        "x": 16, 
         "y": 36
-      },
+      }, 
       "geo": {
-        "lat": 13.6929,
-        "lng": -89.2182
-      },
+        "precision": "address", 
+        "address": "3a. calle Poniente Schafik Hándal y bulevar Constitución #301, colonia Escalón", 
+        "city": "San Salvador", 
+        "country": "El Salvador", 
+        "source_url": "https://www.utec.edu.sv/en/races/architecture", 
+        "lat": 13.704455, 
+        "lng": -89.226067, 
+        "location_note": "REIN Hub · San Salvador; campus Loucel (CREA/incubation); Nominatim match on Blvd Constitución #301 Escalón (~1.5 km from prior capital centroid)"
+      }, 
       "name": {
-        "ES": "UTEC · REIN Hub El Salvador",
+        "ES": "UTEC · REIN Hub El Salvador", 
         "EN": "UTEC · REIN Hub El Salvador"
-      },
+      }, 
       "short": {
-        "ES": "REIN Hub · San Salvador",
+        "ES": "REIN Hub · San Salvador", 
         "EN": "REIN Hub · San Salvador"
-      },
+      }, 
       "tagline": {
-        "ES": "Resiliencia urbana y emprendimiento climático desde la UTEC.",
+        "ES": "Resiliencia urbana y emprendimiento climático desde la UTEC.", 
         "EN": "Urban resilience and climate entrepreneurship from UTEC."
-      },
+      }, 
       "about": {
-        "ES": "Aliado principal REIN en El Salvador: Universidad Tecnológica de El Salvador (UTEC) y CREA impulsan ideación, incubación y ClimateLaunchpad con CleantechHUB y PVBLIC. Mapa público de actores: 77 organizaciones del deck Canva REIN/CTH (sin datos personales).",
+        "ES": "Aliado principal REIN en El Salvador: Universidad Tecnológica de El Salvador (UTEC) y CREA impulsan ideación, incubación y ClimateLaunchpad con CleantechHUB y PVBLIC. Mapa público de actores: 77 organizaciones del deck Canva REIN/CTH (sin datos personales).", 
         "EN": "Primary REIN partner in El Salvador: UTEC and CREA drive ideation, incubation, and ClimateLaunchpad with CleantechHUB and PVBLIC. Public actor map: 77 organisations from the REIN/CTH Canva deck (no personal data)."
-      },
-      "website": "https://www.utec.edu.sv/",
+      }, 
+      "website": "https://www.utec.edu.sv/", 
       "people": [
         {
-          "name": "Douglas Cabezas",
+          "name": "Douglas Cabezas", 
           "role": {
-            "ES": "Coordinador de emprendimiento · CREA UTEC",
+            "ES": "Coordinador de emprendimiento · CREA UTEC", 
             "EN": "Entrepreneurship coordinator · CREA UTEC"
-          },
+          }, 
           "org": {
-            "ES": "Universidad Tecnológica de El Salvador",
+            "ES": "Universidad Tecnológica de El Salvador", 
             "EN": "Universidad Tecnológica de El Salvador"
-          },
-          "linkedin": "https://www.linkedin.com/in/douglas-guardado-1027b1114/",
-          "initials": "DC",
+          }, 
+          "linkedin": "https://www.linkedin.com/in/douglas-guardado-1027b1114/", 
+          "initials": "DC", 
           "photoPending": true
-        },
+        }, 
         {
-          "name": "Lissette Canales",
+          "name": "Lissette Canales", 
           "role": {
-            "ES": "Decana, Facultad de Ciencias Empresariales · UTEC Verde",
+            "ES": "Decana, Facultad de Ciencias Empresariales · UTEC Verde", 
             "EN": "Dean, Business Sciences · UTEC Verde"
-          },
+          }, 
           "org": {
-            "ES": "Universidad Tecnológica de El Salvador",
+            "ES": "Universidad Tecnológica de El Salvador", 
             "EN": "Universidad Tecnológica de El Salvador"
-          },
-          "linkedin": "https://www.linkedin.com/in/lissette-canales-40345a5/",
-          "initials": "LC",
+          }, 
+          "linkedin": "https://www.linkedin.com/in/lissette-canales-40345a5/", 
+          "initials": "LC", 
           "photoPending": true
         }
-      ],
+      ], 
       "kpis": [
         {
-          "id": "actors",
-          "value": "77",
+          "id": "actors", 
+          "value": "77", 
           "label": {
-            "ES": "Actores ecosistema (público)",
+            "ES": "Actores ecosistema (público)", 
             "EN": "Ecosystem actors (public)"
           }
-        },
+        }, 
         {
-          "id": "ideation",
-          "value": "77",
+          "id": "ideation", 
+          "value": "77", 
           "label": {
-            "ES": "Participantes ideación",
+            "ES": "Participantes ideación", 
             "EN": "Ideation participants"
           }
-        },
+        }, 
         {
-          "id": "incubation",
-          "value": "28",
+          "id": "incubation", 
+          "value": "28", 
           "label": {
-            "ES": "Participantes incubación",
+            "ES": "Participantes incubación", 
             "EN": "Incubation participants"
           }
-        },
+        }, 
         {
-          "id": "programs",
-          "value": "CLP",
+          "id": "programs", 
+          "value": "CLP", 
           "label": {
-            "ES": "Programa bandera",
+            "ES": "Programa bandera", 
             "EN": "Flagship program"
           }
         }
-      ],
+      ], 
       "focusAreas": {
         "ES": [
-          "Adaptación y resiliencia",
-          "Economía circular",
-          "Energía limpia",
+          "Adaptación y resiliencia", 
+          "Economía circular", 
+          "Energía limpia", 
           "Soluciones urbanas"
-        ],
+        ], 
         "EN": [
-          "Adaptation and resilience",
-          "Circular economy",
-          "Clean energy",
+          "Adaptation and resilience", 
+          "Circular economy", 
+          "Clean energy", 
           "Urban solutions"
         ]
-      },
+      }, 
       "images": [
         {
-          "src": "/hubs/assets/people/utec-brand.png",
+          "src": "/hubs/assets/people/utec-brand.png", 
           "caption": {
-            "ES": "UTEC · sede REIN El Salvador",
+            "ES": "UTEC · sede REIN El Salvador", 
             "EN": "UTEC · REIN El Salvador anchor"
           }
         }
-      ],
+      ], 
       "interactive": {
-        "type": "stage-chart",
+        "type": "stage-chart", 
         "title": {
-          "ES": "Etapas CLP26 El Salvador",
+          "ES": "Etapas CLP26 El Salvador", 
           "EN": "CLP26 El Salvador stages"
         }
-      },
+      }, 
       "videos": [
         {
-          "type": "youtube",
-          "youtubeId": "oBwBQJ8Efcg",
+          "type": "youtube", 
+          "youtubeId": "oBwBQJ8Efcg", 
           "title": {
-            "ES": "UTEC · Open Day campus",
+            "ES": "UTEC · Open Day campus", 
             "EN": "UTEC · campus Open Day"
-          },
+          }, 
           "caption": {
-            "ES": "Canal oficial UTEC (@UTECedusv · YouTube).",
+            "ES": "Canal oficial UTEC (@UTECedusv · YouTube).", 
             "EN": "Official UTEC channel (@UTECedusv · YouTube)."
           }
-        },
+        }, 
         {
-          "type": "youtube",
-          "youtubeId": "uHAWKXVlTlw",
+          "type": "youtube", 
+          "youtubeId": "uHAWKXVlTlw", 
           "title": {
-            "ES": "UTEC · emprendimiento e innovación (Lab UTEC Núcleo)",
+            "ES": "UTEC · emprendimiento e innovación (Lab UTEC Núcleo)", 
             "EN": "UTEC · entrepreneurship & innovation (Lab UTEC Núcleo)"
-          },
+          }, 
           "caption": {
-            "ES": "Proyección social e incubación CREA / hub.",
+            "ES": "Proyección social e incubación CREA / hub.", 
             "EN": "Social outreach and CREA / hub incubation."
           }
-        },
+        }, 
         {
-          "type": "youtube",
-          "youtubeId": "EP0zhs_ZG7A",
+          "type": "youtube", 
+          "youtubeId": "EP0zhs_ZG7A", 
           "title": {
-            "ES": "REIN Hubs · red regional",
+            "ES": "REIN Hubs · red regional", 
             "EN": "REIN Hubs · regional network"
-          },
+          }, 
           "caption": {
-            "ES": "Contexto REIN / CleantechHUB.",
+            "ES": "Contexto REIN / CleantechHUB.", 
             "EN": "REIN / CleantechHUB context."
           }
         }
-      ],
+      ], 
       "startupsLabel": {
-        "ES": "Startups ClimateLaunchpad El Salvador",
+        "ES": "Startups ClimateLaunchpad El Salvador", 
         "EN": "ClimateLaunchpad El Salvador startups"
-      },
+      }, 
       "startups": [
         {
-          "slug": "smartdrive",
-          "name": "SmartDrive",
-          "onepager": "smartdrive",
-          "theme": "EN",
-          "stage": "Launched",
-          "desc_en": "",
+          "slug": "smartdrive", 
+          "name": "SmartDrive", 
+          "onepager": "smartdrive", 
+          "theme": "EN", 
+          "stage": "Launched", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "nutrichar",
-          "name": "NutriChar",
-          "onepager": "nutrichar",
-          "theme": "BIO",
-          "stage": "Ideation",
-          "desc_en": "",
+          "slug": "nutrichar", 
+          "name": "NutriChar", 
+          "onepager": "nutrichar", 
+          "theme": "BIO", 
+          "stage": "Ideation", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "q-mind",
-          "name": "Q-Mind",
-          "onepager": "q-mind",
-          "theme": "EN",
-          "stage": "Private Beta",
-          "desc_en": "",
+          "slug": "q-mind", 
+          "name": "Q-Mind", 
+          "onepager": "q-mind", 
+          "theme": "EN", 
+          "stage": "Private Beta", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "agrismart",
-          "name": "AgriSmart",
-          "onepager": "agrismart",
-          "theme": "BIO",
-          "stage": "Prototype",
-          "desc_en": "",
+          "slug": "agrismart", 
+          "name": "AgriSmart", 
+          "onepager": "agrismart", 
+          "theme": "BIO", 
+          "stage": "Prototype", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "agrivoltaic-dragon-fruit",
-          "name": "Agrivoltaic Dragon Fruit",
-          "onepager": "agrivoltaic-dragon-fruit",
-          "theme": "BIO",
-          "stage": "Private Beta",
-          "desc_en": "",
+          "slug": "agrivoltaic-dragon-fruit", 
+          "name": "Agrivoltaic Dragon Fruit", 
+          "onepager": "agrivoltaic-dragon-fruit", 
+          "theme": "BIO", 
+          "stage": "Private Beta", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "drainalert",
-          "name": "DrainAlert",
-          "onepager": "drainalert",
-          "theme": "WW",
-          "stage": "Ideation",
-          "desc_en": "",
+          "slug": "drainalert", 
+          "name": "DrainAlert", 
+          "onepager": "drainalert", 
+          "theme": "WW", 
+          "stage": "Ideation", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "ecolandia",
-          "name": "Ecolandia",
-          "onepager": "ecolandia",
-          "theme": "CE",
-          "stage": "Ideation",
-          "desc_en": "",
+          "slug": "ecolandia", 
+          "name": "Ecolandia", 
+          "onepager": "ecolandia", 
+          "theme": "CE", 
+          "stage": "Ideation", 
+          "desc_en": "", 
           "desc_es": ""
-        },
+        }, 
         {
-          "slug": "nutri-fruits",
-          "name": "Nutri Fruits",
-          "onepager": "nutri-fruits",
-          "theme": "BIO",
-          "stage": "Ideation",
-          "desc_en": "",
+          "slug": "nutri-fruits", 
+          "name": "Nutri Fruits", 
+          "onepager": "nutri-fruits", 
+          "theme": "BIO", 
+          "stage": "Ideation", 
+          "desc_en": "", 
           "desc_es": ""
         }
-      ],
+      ], 
       "links": [
         {
-          "href": "https://www.utec.edu.sv/",
+          "href": "https://www.utec.edu.sv/", 
           "label": {
-            "ES": "Sitio institucional UTEC",
+            "ES": "Sitio institucional UTEC", 
             "EN": "UTEC institutional site"
           }
-        },
+        }, 
         {
-          "href": "https://pvblic.org/rein-hubs",
+          "href": "https://pvblic.org/rein-hubs", 
           "label": {
-            "ES": "REIN Hubs (PVBLIC)",
+            "ES": "REIN Hubs (PVBLIC)", 
             "EN": "REIN Hubs (PVBLIC)"
           }
-        },
+        }, 
         {
-          "href": "/ecosystem/",
+          "href": "/ecosystem/", 
           "label": {
-            "ES": "Mapa de actores El Salvador (Nexus)",
+            "ES": "Mapa de actores El Salvador (Nexus)", 
             "EN": "El Salvador actor map (Nexus)"
           }
         }
-      ],
+      ], 
       "ecosystemMap": {
-        "href": "https://canva.link/b0ykqucdro7hzii",
+        "href": "https://canva.link/b0ykqucdro7hzii", 
         "label": {
-          "ES": "Mapa de Actores y Aliados del Emprendimiento Climático · El Salvador",
+          "ES": "Mapa de Actores y Aliados del Emprendimiento Climático · El Salvador", 
           "EN": "Map of Actors and Allies of Climate Entrepreneurship · El Salvador"
-        },
+        }, 
         "note": {
-          "ES": "Presentación Canva REIN/CTH (DAGY8OMkdBw · enlace compartido Gideon).",
+          "ES": "Presentación Canva REIN/CTH (DAGY8OMkdBw · enlace compartido Gideon).", 
           "EN": "REIN/CTH Canva deck (DAGY8OMkdBw · Gideon share link)."
         }
       }
-    },
+    }, 
     {
-      "id": "lci-veritas",
-      "slug": "lci-veritas",
-      "status": "active",
-      "country": "CR",
+      "id": "lci-veritas", 
+      "slug": "lci-veritas", 
+      "status": "active", 
+      "country": "CR", 
       "map": {
-        "x": 20,
+        "x": 20, 
         "y": 44
-      },
+      }, 
       "geo": {
-        "lat": 9.9369,
-        "lng": -84.0219
-      },
+        "precision": "address", 
+        "address": "Calle 31, Avenida 20", 
+        "city": "San José", 
+        "country": "Costa Rica", 
+        "source_url": "https://studyabroad.veritas.cr/contact-us/", 
+        "lat": 9.9254713, 
+        "lng": -84.0648763, 
+        "location_note": "REIN Hub · Costa Rica; CPIES/CIPSS campus address on official veritas.cr subdomain; Nominatim university POI in Zapote"
+      }, 
       "name": {
-        "ES": "Universidad LCI Veritas",
+        "ES": "Universidad LCI Veritas", 
         "EN": "Universidad LCI Veritas"
-      },
+      }, 
       "short": {
-        "ES": "REIN Hub · Costa Rica",
+        "ES": "REIN Hub · Costa Rica", 
         "EN": "REIN Hub · Costa Rica"
-      },
+      }, 
       "tagline": {
-        "ES": "Economía azul, bioeconomía y emprendimiento climático desde San José.",
+        "ES": "Economía azul, bioeconomía y emprendimiento climático desde San José.", 
         "EN": "Blue economy, bioeconomy, and climate entrepreneurship from San José."
-      },
+      }, 
       "about": {
-        "ES": "Universidad ancla REIN en Costa Rica (PVBLIC / CleantechHUB). Perfil público en construcción en HubMap: representantes locales PENDIENTE de confirmación.",
+        "ES": "Universidad ancla REIN en Costa Rica (PVBLIC / CleantechHUB). Perfil público en construcción en HubMap: representantes locales PENDIENTE de confirmación.", 
         "EN": "REIN anchor university in Costa Rica (PVBLIC / CleantechHUB). Public HubMap profile in progress: local leads PENDING confirmation."
-      },
-      "website": "https://veritas.cr/",
-      "people": [],
-      "peoplePending": true,
+      }, 
+      "website": "https://veritas.cr/", 
+      "people": [], 
+      "peoplePending": true, 
       "kpis": [
         {
-          "id": "actors",
-          "value": "91",
+          "id": "actors", 
+          "value": "91", 
           "label": {
-            "ES": "Actores ecosistema",
+            "ES": "Actores ecosistema", 
             "EN": "Ecosystem actors"
           }
-        },
+        }, 
         {
-          "id": "ideation",
-          "value": "40",
+          "id": "ideation", 
+          "value": "40", 
           "label": {
-            "ES": "Participantes ideación",
+            "ES": "Participantes ideación", 
             "EN": "Ideation participants"
           }
-        },
+        }, 
         {
-          "id": "incubation",
-          "value": "20",
+          "id": "incubation", 
+          "value": "20", 
           "label": {
-            "ES": "Participantes incubación",
+            "ES": "Participantes incubación", 
             "EN": "Incubation participants"
           }
-        },
+        }, 
         {
-          "id": "programs",
-          "value": "CLP",
+          "id": "programs", 
+          "value": "CLP", 
           "label": {
-            "ES": "Programa bandera",
+            "ES": "Programa bandera", 
             "EN": "Flagship program"
           }
         }
-      ],
+      ], 
       "focusAreas": {
         "ES": [
-          "Economía azul",
-          "Eco-turismo",
-          "Biodiversidad",
+          "Economía azul", 
+          "Eco-turismo", 
+          "Biodiversidad", 
           "Diseño sostenible"
-        ],
+        ], 
         "EN": [
-          "Blue economy",
-          "Eco-tourism",
-          "Biodiversity",
+          "Blue economy", 
+          "Eco-tourism", 
+          "Biodiversity", 
           "Sustainable design"
         ]
-      },
-      "images": [],
-      "interactive": null,
+      }, 
+      "images": [], 
+      "interactive": null, 
       "videos": [
         {
-          "pending": true,
-          "type": "youtube",
-          "youtubeId": "",
+          "pending": true, 
+          "type": "youtube", 
+          "youtubeId": "", 
           "title": {
-            "ES": "[PENDIENTE] Video institucional LCI Veritas",
+            "ES": "[PENDIENTE] Video institucional LCI Veritas", 
             "EN": "[PENDING] LCI Veritas institutional video"
-          },
+          }, 
           "caption": {
-            "ES": "Canal oficial por verificar.",
+            "ES": "Canal oficial por verificar.", 
             "EN": "Official channel to be verified."
           }
         }
-      ],
+      ], 
       "startupsLabel": {
-        "ES": "Startups ClimateLaunchpad Costa Rica",
+        "ES": "Startups ClimateLaunchpad Costa Rica", 
         "EN": "ClimateLaunchpad Costa Rica startups"
-      },
-      "startups": [],
+      }, 
+      "startups": [], 
       "links": [
         {
-          "href": "https://veritas.cr/",
+          "href": "https://veritas.cr/", 
           "label": {
-            "ES": "Sitio institucional",
+            "ES": "Sitio institucional", 
             "EN": "Institutional site"
           }
         }

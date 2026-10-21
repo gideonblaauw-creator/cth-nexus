@@ -15,34 +15,10 @@
   "cta_btn_en": "Visit website",
   "cta_btn_es": "Visitar sitio",
   "ribbon": [
-    {
-      "val": "CO",
-      "lab_en": "Country",
-      "lab_es": "País",
-      "sub_en": "Colombia",
-      "sub_es": "Colombia"
-    },
-    {
-      "val": "Seed",
-      "lab_en": "Stage",
-      "lab_es": "Etapa",
-      "sub_en": "CLAC24",
-      "sub_es": "CLAC24"
-    },
-    {
-      "val": "Circular",
-      "lab_en": "Sector",
-      "lab_es": "Sector",
-      "sub_en": "Cleantech",
-      "sub_es": "Cleantech"
-    },
-    {
-      "val": "[P]",
-      "lab_en": "Metrics",
-      "lab_es": "Métricas",
-      "sub_en": "[PENDIENTE]",
-      "sub_es": "[PENDIENTE]"
-    }
+    {"val": "CO", "lab_en": "Country", "lab_es": "País", "sub_en": "Colombia", "sub_es": "Colombia"},
+    {"val": "Seed", "lab_en": "Stage", "lab_es": "Etapa", "sub_en": "CLAC24", "sub_es": "CLAC24"},
+    {"val": "Circular", "lab_en": "Sector", "lab_es": "Sector", "sub_en": "Cleantech", "sub_es": "Cleantech"},
+    {"val": "[P]", "lab_en": "Metrics", "lab_es": "Métricas", "sub_en": "[PENDIENTE]", "sub_es": "[PENDIENTE]"}
   ],
   "problem_stats": [
     [
@@ -159,5 +135,16 @@
       "dream_es": "Programa: CLAC24 + Acceleration. Informe 2025 cita 17.777 celulares reacondicionados (resumen público Caribe Exponencial). Otros KPIs verificados en perfil: [PENDIENTE]. Créditos de imagen — Todas las secciones: sitio público Hunter Tecnología (huntecno.com), dominio en tarjeta hunter.tec.co.",
       "bg": "https://huntecno.com/wp-content/uploads/2024/09/slider_12.jpg"
     }
-  ]
+  ],
+  "location": {
+    "precision": "city",
+    "city": "Bogotá",
+    "country": "Colombia",
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "source_url": "https://hunter.tec.co",
+    "hq_abroad": null,
+    "location_note": "City from company website footer"
+  }
 }

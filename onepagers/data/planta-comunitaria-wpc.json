@@ -14,34 +14,10 @@
   "cta_btn_en": "Visit website",
   "cta_btn_es": "Visitar sitio",
   "ribbon": [
-    {
-      "val": "Prototype",
-      "lab_en": "Stage",
-      "lab_es": "Etapa",
-      "sub_en": "CLP26 CO",
-      "sub_es": "CLP26 CO"
-    },
-    {
-      "val": "Air & Enviro",
-      "lab_en": "Category",
-      "lab_es": "Categoría",
-      "sub_en": "Cleantech",
-      "sub_es": "Cleantech"
-    },
-    {
-      "val": "CT-BU-001",
-      "lab_en": "CT Taxonomy",
-      "lab_es": "Taxonomía CT",
-      "sub_en": "CTH",
-      "sub_es": "CTH"
-    },
-    {
-      "val": "6",
-      "lab_en": "Team",
-      "lab_es": "Equipo",
-      "sub_en": "Application",
-      "sub_es": "Aplicación"
-    }
+    {"val": "Prototype", "lab_en": "Stage", "lab_es": "Etapa", "sub_en": "CLP26 CO", "sub_es": "CLP26 CO"},
+    {"val": "Air & Enviro", "lab_en": "Category", "lab_es": "Categoría", "sub_en": "Cleantech", "sub_es": "Cleantech"},
+    {"val": "CT-BU-001", "lab_en": "CT Taxonomy", "lab_es": "Taxonomía CT", "sub_en": "CTH", "sub_es": "CTH"},
+    {"val": "6", "lab_en": "Team", "lab_es": "Equipo", "sub_en": "Application", "sub_es": "Aplicación"}
   ],
   "problem_stats": [
     [
@@ -244,5 +220,16 @@
       "dream_es": "Taxonomía CT: CT-BU-001. Cohorte bootcamp CLP 2026 Colombia — acelerador CleantechHUB. Pitch deck: [PENDIENTE]. Ingresos / ARR: [PENDIENTE].",
       "bg": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80"
     }
-  ]
+  ],
+  "location": {
+    "precision": "city",
+    "city": "Circasia",
+    "country": "Colombia",
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "source_url": "https://www.facebook.com/ejeambientequindio/",
+    "hq_abroad": null,
+    "location_note": "Quindío project; Circasia referenced on public Facebook page (no street)"
+  }
 }

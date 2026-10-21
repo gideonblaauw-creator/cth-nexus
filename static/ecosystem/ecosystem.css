@@ -164,6 +164,17 @@ body[data-brand="rein"] .toggle-pill button.active {
   max-height: 120px;
   overflow-y: auto;
 }
+.hq-abroad-chip {
+  display: inline-block;
+  margin-left: 4px;
+  padding: 1px 6px;
+  border-radius: 999px;
+  font-size: 9px;
+  font-weight: 700;
+  background: #fef3c7;
+  color: #92400e;
+  vertical-align: middle;
+}
 .geo-unknown-item {
   border: 0;
   background: none;

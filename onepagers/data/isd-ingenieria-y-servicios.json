@@ -15,34 +15,10 @@
   "cta_btn_en": "Visit website",
   "cta_btn_es": "Visitar sitio",
   "ribbon": [
-    {
-      "val": "CO",
-      "lab_en": "Country",
-      "lab_es": "País",
-      "sub_en": "Colombia",
-      "sub_es": "Colombia"
-    },
-    {
-      "val": "Pre-Seed",
-      "lab_en": "Stage",
-      "lab_es": "Etapa",
-      "sub_en": "CLAC22",
-      "sub_es": "CLAC22"
-    },
-    {
-      "val": "Energy",
-      "lab_en": "Sector",
-      "lab_es": "Sector",
-      "sub_en": "Cleantech",
-      "sub_es": "Cleantech"
-    },
-    {
-      "val": "[P]",
-      "lab_en": "Metrics",
-      "lab_es": "Métricas",
-      "sub_en": "[PENDIENTE]",
-      "sub_es": "[PENDIENTE]"
-    }
+    {"val": "CO", "lab_en": "Country", "lab_es": "País", "sub_en": "Colombia", "sub_es": "Colombia"},
+    {"val": "Pre-Seed", "lab_en": "Stage", "lab_es": "Etapa", "sub_en": "CLAC22", "sub_es": "CLAC22"},
+    {"val": "Energy", "lab_en": "Sector", "lab_es": "Sector", "sub_en": "Cleantech", "sub_es": "Cleantech"},
+    {"val": "[P]", "lab_en": "Metrics", "lab_es": "Métricas", "sub_en": "[PENDIENTE]", "sub_es": "[PENDIENTE]"}
   ],
   "problem_stats": [
     [
@@ -168,5 +144,16 @@
       "dream_es": "Programa: CLAC22 + Acceleration. Conteo de patentes en página LinkedIn de la empresa (público). KPIs de ingresos: [PENDIENTE]. Créditos de imagen — Hero: Unsplash (American Public Power Association); Sec 01: Unsplash (Luca Bravo); Sec 02: Unsplash (Scott Graham); Sec 03: Unsplash (Adi Goldstein); Sec 04: Unsplash (ThisIsEngineering); CTA: Unsplash (American Public Power Association).",
       "bg": "https://images.unsplash.com/photo-1581094790869-9893904e2a57?w=1200&q=80"
     }
-  ]
+  ],
+  "location": {
+    "precision": "country",
+    "city": null,
+    "country": "Colombia",
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "source_url": "https://isd.co.com",
+    "hq_abroad": null,
+    "location_note": "Country only; no city or street on public site"
+  }
 }

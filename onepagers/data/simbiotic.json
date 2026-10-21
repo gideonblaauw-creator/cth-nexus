@@ -14,34 +14,10 @@
   "cta_btn_en": "redsimbiotic.com",
   "cta_btn_es": "redsimbiotic.com",
   "ribbon": [
-    {
-      "val": "CO",
-      "lab_en": "Country",
-      "lab_es": "País",
-      "sub_en": "Colombia",
-      "sub_es": "Colombia"
-    },
-    {
-      "val": "Seed",
-      "lab_en": "Stage",
-      "lab_es": "Etapa",
-      "sub_en": "CLAC22",
-      "sub_es": "CLAC22"
-    },
-    {
-      "val": "Circular",
-      "lab_en": "Sector",
-      "lab_es": "Sector",
-      "sub_en": "Cleantech",
-      "sub_es": "Cleantech"
-    },
-    {
-      "val": "[P]",
-      "lab_en": "Metrics",
-      "lab_es": "Métricas",
-      "sub_en": "[PENDIENTE]",
-      "sub_es": "[PENDIENTE]"
-    }
+    {"val": "CO", "lab_en": "Country", "lab_es": "País", "sub_en": "Colombia", "sub_es": "Colombia"},
+    {"val": "Seed", "lab_en": "Stage", "lab_es": "Etapa", "sub_en": "CLAC22", "sub_es": "CLAC22"},
+    {"val": "Circular", "lab_en": "Sector", "lab_es": "Sector", "sub_en": "Cleantech", "sub_es": "Cleantech"},
+    {"val": "[P]", "lab_en": "Metrics", "lab_es": "Métricas", "sub_en": "[PENDIENTE]", "sub_es": "[PENDIENTE]"}
   ],
   "problem_stats": [
     [
@@ -180,5 +156,16 @@
   "hero_credit_es": "Foto: Simbiotic — turismo sostenible Triply (redsimbiotic.com)",
   "cta_bg": "./assets/bg-cta.jpg",
   "cta_bg_credit_en": "Photo: Zbynek Burival / Unsplash",
-  "cta_bg_credit_es": "Foto: Zbynek Burival / Unsplash"
+  "cta_bg_credit_es": "Foto: Zbynek Burival / Unsplash",
+  "location": {
+    "precision": "city",
+    "city": "Cúcuta",
+    "country": "Colombia",
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "source_url": "https://redsimbiotic.com",
+    "hq_abroad": null,
+    "location_note": "City from one-pager or public website; no verified street office published"
+  }
 }

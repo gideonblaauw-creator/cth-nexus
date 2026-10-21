@@ -1,0 +1,1240 @@
+entity_type,entity_id,name,country,location_tier,pin_policy_status,precision,lat,lng,source_url,flags,notes
+ecosystem_actor,pe-pecap-asociacion-peruana-de-capital-semilla-y-empr,PECAP – Asociación Peruana de Capital Semilla y Emprendedor,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-wayra-peru,Wayra Perú,Peru,country-only,no-pin,city,,,https://wayra.com/es/spaces,,
+ecosystem_actor,pe-mirova-natural-capital,Mirova Natural Capital,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-oikocredit,Oikocredit,Peru,country-only,no-pin,country,,,https://www.oikocredit.org/,,
+ecosystem_actor,pe-incofin,Incofin,Peru,country-only,no-pin,country,,,https://incofin.com/,,
+ecosystem_actor,pe-responsability,responsAbility,Peru,country-only,no-pin,country,,,https://www.responsability.com/,,
+ecosystem_actor,pe-blueorchard,BlueOrchard,Peru,country-only,no-pin,country,,,https://www.blueorchard.com/contact/,,
+ecosystem_actor,pe-alterfin,Alterfin,Peru,country-only,no-pin,country,,,https://www.alterfin.be/en/contact,,
+ecosystem_actor,pe-acumen,Acumen,Peru,country-only,no-pin,country,,,https://acumen.org/contact-us/,,
+ecosystem_actor,pe-mercy-corps-ventures,Mercy Corps Ventures,Peru,country-only,no-pin,country,,,https://www.mercycorpsventures.com/,,
+ecosystem_actor,pe-accion-venture-lab,Accion Venture Lab,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-alive-ventures,ALIVE Ventures,Peru,country-only,no-pin,city,,,https://www.alive-ventures.com/,,
+ecosystem_actor,pe-bezos-earth-fund,Bezos Earth Fund,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-allied-climate-partners,Allied Climate Partners,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-finance-in-motion,Finance in Motion,Peru,country-only,no-pin,country,,,https://www.finance-in-motion.com/contact,,
+ecosystem_actor,pe-root-capital,Root Capital,Peru,country-only,no-pin,city,,,https://rootcapital.org/,,
+ecosystem_actor,pe-fepcmac-federacion-de-cajas-municipales,FEPCMAC – Federación de Cajas Municipales,Peru,country-only,no-pin,city,,,https://www.fpcmac.org.pe/,,Calle Conde de Chinchón 918
+ecosystem_actor,pe-caja-maynas,Caja Maynas,Peru,country-only,no-pin,city,,,https://www.cajamaynas.pe/,,Jr. Putumayo 838
+ecosystem_actor,pe-san-miguel-industrias-pet,San Miguel Industrias PET,Peru,country-only,no-pin,city,,,https://smisolutions.com/,,
+ecosystem_actor,pe-aje-group,AJE Group,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-engie-energia-peru,ENGIE Energía Perú,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-cerro-verde,Cerro Verde,Peru,country-only,no-pin,city,,,https://www.cerroverde.pe/,,
+ecosystem_actor,pe-hudbay,Hudbay,Peru,country-only,no-pin,city,,,https://hudbayminerals.com/operations/south-america/peru/,,
+ecosystem_actor,pe-gold-fields,Gold Fields,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-textil-camones,Textil Camones,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-sociedad-nacional-de-acuicultura,Sociedad Nacional de Acuicultura,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-asociacion-peruana-de-energias-renovables-spr,Asociación Peruana de Energías Renovables (SPR),Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-libelula,Libélula,Peru,country-only,no-pin,city,,,https://libelula.com.pe/,,
+ecosystem_actor,pe-proinversion,ProInversión,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-apci-agencia-peruana-de-cooperacion-internacional,APCI – Agencia Peruana de Cooperación Internacional,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-gobierno-regional-de-loreto,Gobierno Regional de Loreto,Peru,country-only,no-pin,city,,,https://www.gob.pe/regionloreto,,Jr. Putumayo 632
+ecosystem_actor,pe-gobierno-regional-de-san-martin,Gobierno Regional de San Martín,Peru,country-only,no-pin,city,,,https://www.gob.pe/regionsanmartin,,Jr. Maynas 177
+ecosystem_actor,pe-gobierno-regional-de-ucayali,Gobierno Regional de Ucayali,Peru,country-only,no-pin,city,,,https://www.gob.pe/regionucayali,,Jr. Abancay 330
+ecosystem_actor,pe-gobierno-regional-de-madre-de-dios,Gobierno Regional de Madre de Dios,Peru,country-only,no-pin,city,,,https://www.gob.pe/regionmadrededios,,Jr. Fitzcarrald 525
+ecosystem_actor,pe-gobierno-regional-de-amazonas,Gobierno Regional de Amazonas,Peru,country-only,no-pin,city,,,https://www.gob.pe/regionamazonas,,Jr. Salamanca 350
+ecosystem_actor,pe-surco-emprende,Surco Emprende,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-coworking-municipal-de-jesus-maria,Coworking Municipal de Jesús María,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-gobierno-regional-y-municipalidad-de-cusco,Gobierno Regional y Municipalidad de Cusco,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-unalm-universidad-nacional-agraria-la-molina,UNALM – Universidad Nacional Agraria La Molina,Peru,country-only,no-pin,city,,,https://www.lamolina.edu.pe/,,Av. La Molina 1971
+ecosystem_actor,pe-unsm-universidad-nacional-de-san-martin,UNSM – Universidad Nacional de San Martín,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-untrm-universidad-nacional-toribio-rodriguez-de-me,UNTRM – Universidad Nacional Toribio Rodríguez de Mendoza,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-grade-grupo-de-analisis-para-el-desarrollo,GRADE – Grupo de Análisis para el Desarrollo,Peru,country-only,no-pin,city,,,https://grade.org.pe/,,Calle González Prada 184
+ecosystem_actor,pe-metared-x-peru-universia-banco-santander,MetaRed X Perú (Universia – Banco Santander),Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-unmsm-universidad-nacional-mayor-de-san-marcos,UNMSM – Universidad Nacional Mayor de San Marcos,Peru,country-only,no-pin,city,,,https://www.unmsm.edu.pe/,,Av. Universitaria s/n
+ecosystem_actor,pe-incubagraria-unalm,Incubagraria (UNALM),Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-emprende-up-climatech-rein-hub-peru,Emprende UP – ClimaTech (REIN Hub Perú),Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-nexum-pucp,Nexum (PUCP),Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-startup-uni,Startup UNI,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-nesst,NESsT,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-endeavor-peru,Endeavor Perú,Peru,country-only,no-pin,city,,,https://endeavor.org.pe/,,"Av. Emilio Cavenecia 151, Piso 7"
+ecosystem_actor,pe-acm-ventures-agtech,ACM Ventures Agtech,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-incubadora-unsm-san-martin,Incubadora UNSM (San Martín),Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-incuba-amazonia-unu,Incuba Amazonía UNU,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-incubadora-unia-ucayali,Incubadora UNIA (Ucayali),Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-incubadoras-untrm-y-unifslb-amazonas,Incubadoras UNTRM y UNIFSLB (Amazonas),Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-incubadoras-unap-y-unaaa-loreto,Incubadoras UNAP y UNAAA (Loreto),Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-incubaunt-la-libertad,IncubaUNT (La Libertad),Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-jaku-emprende-unsa-arequipa,JAKU Emprende UNSA (Arequipa),Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-kaman-ucsp-arequipa,Kaman UCSP (Arequipa),Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-incubaunach-cajamarca,IncubaUNACH (Cajamarca),Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-cajamarca-incuba,Cajamarca Incuba,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-universidad-nacional-de-jaen-cajamarca,Universidad Nacional de Jaén (Cajamarca),Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-incuval-ventures-unheval,Incuval Ventures (UNHEVAL),Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-emprende-udh-huanuco,Emprende UDH (Huánuco),Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-universidad-nacional-de-moquegua-upt-incuba-arunta,Universidad Nacional de Moquegua / UPT Incuba – Aruntakana (Tacna),Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-nature-services-peru,Nature Services Perú,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-reforestadora-amazonica,Reforestadora Amazónica,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-bosques-amazonicos-bam,Bosques Amazónicos (BAM),Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-red-amazonia-que-late,Red Amazonía Que Late,Peru,country-only,no-pin,city,,,https://amazoniaquelate.com/,,
+ecosystem_actor,pe-ciudad-saludable,Ciudad Saludable,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-accion-andina,Acción Andina,Peru,country-only,no-pin,city,,,https://accion-andina.org/,,
+ecosystem_actor,pe-ccpip-camara-de-comercio-de-los-pueblos-indigenas,CCPIP – Cámara de Comercio de los Pueblos Indígenas,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-fundacion-wiese,Fundación Wiese,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-fundacion-bbva-microfinanzas,Fundación BBVA (Microfinanzas),Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-fundacion-belcorp,Fundación Belcorp,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-asociacion-unacem,Asociación UNACEM,Peru,country-only,no-pin,city,,,https://asociacionunacem.org/contacto/,,Av. República de Colombia 791
+ecosystem_actor,pe-fundacion-anglo-american,Fundación Anglo American,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-helvetas,HELVETAS,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-peru-sostenible,Perú Sostenible,Peru,country-only,no-pin,city,,,https://perusostenible.org/,,
+ecosystem_actor,pe-sistema-b,Sistema B,Peru,country-only,no-pin,city,,,https://www.sistemab.org/peru/,,"Av. Mariscal José de la Mar 1120, Int. 4, Urb. Santa Cruz"
+ecosystem_actor,pe-l-1,L+1,Peru,country-only,no-pin,city,,,https://www.lmas1.org/,,
+ecosystem_actor,pe-conservamos-por-naturaleza,Conservamos por Naturaleza,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-mongabay-latam,Mongabay Latam,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-actualidad-ambiental,Actualidad Ambiental,Peru,country-only,no-pin,city,,,https://www.actualidadambiental.pe/,,
+ecosystem_actor,pe-gestion,Gestión,Peru,country-only,no-pin,city,,,https://gestion.pe/,,
+ecosystem_actor,pe-bid-bid-lab-bid-invest,BID / BID Lab / BID Invest,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-bei-banco-europeo-de-inversiones,BEI – Banco Europeo de Inversiones,Peru,country-only,no-pin,country,,,https://www.eib.org/en/about/headquarters/index.htm,,
+ecosystem_actor,pe-gggi,GGGI,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-onu-habitat,ONU-Hábitat,Peru,country-only,no-pin,country,,,https://peru.un.org/es/contact-us,,
+ecosystem_actor,pe-iica,IICA,Peru,country-only,no-pin,city,,,https://iica.int/en/countries/peru-en/,,Av. La Molina 1581
+ecosystem_actor,pe-afd,AFD,Peru,country-only,no-pin,city,,,https://www.afd.fr/es/annuaire/agence-de-lima,,"Calle Río de la Plata 167, Of. 502"
+ecosystem_actor,pe-camara-peruano-alemana-ahk,Cámara Peruano-Alemana (AHK),Peru,country-only,no-pin,city,,,https://peru.ahk.de/,,"Av. Víctor Andrés Belaúnde 147, Torre Real 4, Of. 401"
+ecosystem_actor,pe-camara-de-comercio-canada-peru,Cámara de Comercio Canadá Perú,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-conservacion-internacional,Conservación Internacional,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-forest-trends,Forest Trends,United States,country-only,no-pin,city,,,https://www.forest-trends.org/contact/,,"1203 19th Street NW, 4th Floor"
+ecosystem_actor,pe-rainforest-alliance,Rainforest Alliance,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-fundacion-avina,Fundación Avina,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-pvblic-foundation,PVBLIC Foundation,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-black-soldier-fly-logistics,Black Soldier Fly Logistics,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-yakusmart,YakuSmart,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-vigia,VIGIA,Peru,country-only,no-pin,city,,,https://climatelaunchpad.org/,,
+ecosystem_actor,pe-uqhu,UQHU,Peru,country-only,no-pin,city,,,https://uqhuinnova.com/,,
+ecosystem_actor,pe-yakufil,Yakufil,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-rebike-up,Rebike Up,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-pomona-impact,Pomona Impact,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-viwala,VIWALA,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-atlantida-capital,Atlántida Capital,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-banco-azul,Banco Azul,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-banco-hipotecario,Banco Hipotecario,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-banco-atlantida,Banco Atlántida,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-banco-agricola,Banco Agrícola,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-bandesal-banco-de-desarrollo-de-el-salvador,BANDESAL – Banco de Desarrollo de El Salvador,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-sisa-seguros,SISA Seguros,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-ases-seguros,ASES Seguros,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-arca-family-office,Arca Family Office,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-polaris-family-office,Polaris Family Office,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-davivienda-seguros,Davivienda Seguros,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-bcie-programa-regional-de-capital-semilla,BCIE – Programa Regional de Capital Semilla,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-fideagro,FIDEAGRO,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-bac-credomatic,BAC Credomatic,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-cafi-central-america-angel-fund-initiative,CAFI – Central America Angel Fund Initiative,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-iagros,IAGROS,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-recicla503,Recicla503,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-grupo-ternova,Grupo Ternova,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-grupo-agrisal,Grupo Agrisal,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-grupo-ferromax,Grupo Ferromax,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-grupo-calleja-super-selectos,Grupo Calleja (Super Selectos),El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-aes-el-salvador,AES El Salvador,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-casalco,CASALCO,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-camtex,CAMTEX,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-camagro,CAMAGRO,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-asi-asociacion-salvadorena-de-industriales,ASI – Asociación Salvadoreña de Industriales,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-marn-ministerio-de-medio-ambiente-y-recursos-natur,MARN – Ministerio de Medio Ambiente y Recursos Naturales,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-conamype,CONAMYPE,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-centa,CENTA,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-esco-agencia-de-el-salvador-para-la-cooperacion-in,ESCO – Agencia de El Salvador para la Cooperación Internacional,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-snbx-sandbox,SNBX (Sandbox),El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-fundacion-gloria-kriete-incubadora-empresarial,Fundación Gloria Kriete – Incubadora Empresarial,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-startupbootcamp-el-salvador,Startupbootcamp El Salvador,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-key-institute-instituto-kriete-de-ingenieria-y-cie,Key Institute (Instituto Kriete de Ingeniería y Ciencias),El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-telecorporacion-salvadorena-tcs,Telecorporación Salvadoreña (TCS),El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-canal-12,Canal 12,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-canal-21,Canal 21,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-canal-10-television-nacional,Canal 10 (Televisión Nacional),El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-la-prensa-grafica,La Prensa Gráfica,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-el-diario-de-hoy,El Diario de Hoy,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-diario-el-mundo,Diario El Mundo,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-gatoencerrado,GatoEncerrado,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-fundacion-gloria-kriete-fgk,Fundación Gloria Kriete (FGK),El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-fundemas,FUNDEMAS,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-fundacion-colabora,Fundación Colabora,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-fao-el-salvador,FAO El Salvador,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-pnud-el-salvador,PNUD El Salvador,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-unep,UNEP,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-banco-mundial,Banco Mundial,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-bid,BID,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-gggi,GGGI,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-cepal,CEPAL,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-oim,OIM,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-giz,GIZ,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-aecid-el-salvador,AECID El Salvador,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-usaid,USAID,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-crs-catholic-relief-services,CRS – Catholic Relief Services,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-embajada-de-los-paises-bajos,Embajada de los Países Bajos,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,sv-embajada-de-espana,Embajada de España,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_actor,co-fenoge,FENOGE,Colombia,country-only,no-pin,country,,,,,
+ecosystem_actor,co-minenergia,MinEnergía,Colombia,country-only,no-pin,country,,,,,
+ecosystem_actor,co-creg,CREG,Colombia,country-only,no-pin,country,,,,,
+ecosystem_actor,co-upme,UPME,Colombia,country-only,no-pin,country,,,,,
+ecosystem_actor,co-ipse,IPSE,Colombia,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-asep,ASEP,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-revista-ganama-s,Revista Ganamás,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-emprendimientos-dina-micos-cambio-clima-tico-1g,Emprendimientos Dinámicos Cambio Climático – 1G,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-hub-udep-programa-de-aceleracio-n-3g-sostenibili,Hub UDEP - Programa de Aceleración 3G | Sostenibilidad y Cambio Climático,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-incubagraria-portafolio,Incubagraria Portafolio,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-redesing-lab,Redesing Lab,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-alaya-capital,Alaya Capital,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-andes-impact-partners,Andes Impact Partners,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-arpegio-vc,Arpegio VC,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-axa-impact-investing,AXA Impact Investing,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-babasu-ventures,BABASÚ Ventures,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-banca-de-inversion-sostenible,Banca de Inversion Sostenible,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-beneficial-returns,Beneficial Returns,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-colaborativo-vc,Colaborativo VC,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-earthshot-ventures,Earthshot Ventures,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-elea,elea,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-impacta-vc,Impacta VC,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-salkantay-ventures,Salkantay Ventures,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-silence-vc,Silence VC,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-socialalpha-impact,SocialAlpha Impact,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-convergence-design-funding-grant,Convergence Design Funding Grant,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-scale,SCALE,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-the-ganesha-lab,The Ganesha Lab,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-a2g-sostenibilidad-y-cambio-clima-tico,A2G | Sostenibilidad y Cambio Climático,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-fronterra,Fronterra,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-green-gold-forestry,Green Gold Forestry,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-ecoevol,EcoEvol,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-ecoproa,EcoProa,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-imlakesh-organics,Imlakesh Organics,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-kawat,Kawat,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-qaira,Qaira,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-saphi,Saphi,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-whipay,Whipay,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-forest-stewardship-council,Forest Stewardship Council,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-fundes,FUNDES,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-mckenna-academy-of-natural-philosophy,McKenna Academy of Natural Philosophy,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-nexos-1,nexos+1,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-amanatari,Amanatari,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-haskoningshv,Haskoningshv,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-bid-lab,BID Lab,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-fenix-consulting,Fenix Consulting,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-incubadora-de-la-universidad-nacional-de-moquegu,Incubadora de la Universidad Nacional de Moquegua,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-liquid-venture-studio,LIQUID Venture Studio,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-s360-incubadora-de-negocios-upao,S360 - Incubadora de Negocios UPAO,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-upt-incuba-incubadora-de-empresas-aruntakana,UPT INCUBA: Incubadora de Empresas Aruntakana,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-direccio-n-de-incubadora-de-empresas-de-la-unifs,Dirección de Incubadora de Empresas de la UNIFSLB,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-earth-innovation-institute,Earth Innovation Institute,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-allvp-hi-ventures,ALLVP Hi (Ventures),Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-venture-capital-corporativo,Venture capital corporativo,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-inversionistas-de-impacto-en-etapa-temprana,Inversionistas de impacto en etapa temprana,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-https-www-fundacionbbva-mx,https://www.fundacionbbva.mx,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-https-elcomercio-pe,https://elcomercio.pe,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-https-elperuano-pe,https://elperuano.pe,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-corresponsables-proactivo,"Corresponsables, ProActivo",Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-inforegio-n-red-de-medios-regionales,"Inforegión, Red de Medios Regionales",Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-https-www-iadb-org-en,https://www.iadb.org/en,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-https-www-deginvest-de,https://www.deginvest.de,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-ciu-agu,CIU AGU,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-https-www-unesco-org-es,https://www.unesco.org/es,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-https-www-unops-org-es,https://www.unops.org/es,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-https-www-paho-org-es,https://www.paho.org/es,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-https-www-intracen-org,https://www.intracen.org,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-https-www-oas-org-es,https://www.oas.org/es/,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-https-www-schweiz-kolumbien-eda-admin-ch-es,https://www.schweiz-kolumbien.eda.admin.ch/es,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-https-circulareconomy-europa-eu-platform-en,https://circulareconomy.europa.eu/platform/en,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-cooperacio-n-espan-ola-francesa-y-europea,"Cooperación española, francesa y europea",Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-https-www-expertisefrance-fr-es-areas-de-trabajo,https://www.expertisefrance.fr/es/areas-de-trabajo/emprendimiento-social-sostenible,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-embajadas,Embajadas,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-alianza-por-el-clima-peru-alemania,Alianza por el Clima Perú–Alemania,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-embajada-de-suiza,Embajada de Suiza,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-bos-azu-ene,BOS AZU ENE,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-https-www-swedenabroad-se-es-sobre-suecia-peru,https://www.swedenabroad.se/es/sobre-suecia/perú/,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-https-www-norway-no-es-peru,https://www.norway.no/es/peru/,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-estados-miembros-de-la-ue,Estados miembros de la UE,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-https-www-international-gc-ca-country-pays-peru,https://www.international.gc.ca/country-pays/peru-perou/lima.aspx?lang=eng,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-ca-maras,Cámaras,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-https-www-ccipf-com-es-html,https://www.ccipf.com/es.html,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-https-www-tropicalforestalliance-org-home,https://www.tropicalforestalliance.org/home,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-https-fsc-org-en,https://fsc.org/en,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-https-latinamerica-hss-de,https://latinamerica.hss.de,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-avsf-terra-nuova-aspem-coeeci,"AVSF, Terra Nuova, ASPEm, COEECI",Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-https-www-terranuova-org,https://www.terranuova.org,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-https-aspem-org-en,https://aspem.org/en/,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-https-www-coeeci-org-pe,https://www.coeeci.org.pe,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-climate-policy-initiative-lavca-mit-reap,"Climate Policy Initiative, LAVCA, MIT REAP",Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-https-reap-mit-edu,https://reap.mit.edu,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-https-www-climatepolicyinitiative-org,https://www.climatepolicyinitiative.org,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-policy-ndc-3-nuestro-desafio-climatico,NDC 3.0 — Nuestro Desafío Climático,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-policy-ley-marco-cambio-climatico-30754,Ley Marco sobre Cambio Climático (Ley 30754),Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-policy-hoja-ruta-finanzas-verdes,Hoja de Ruta de Finanzas Verdes,Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-policy-startup-peru-proinnovate,StartUp Perú (ProInnóvate),Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-policy-programa-bionegocios-minam,Programa para Bionegocios (MINAM),Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-policy-programa-bosques-minam,Programa Bosques (MINAM),Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-policy-ley-gestion-residuos-solidos,Ley de Gestión Integral de Residuos Sólidos (D.S. 1278),Peru,country-only,no-pin,country,,,,,
+ecosystem_actor,pe-policy-taxonomia-verde-bonos,Taxonomía verde / bonos verdes (SBS-SMV),Peru,country-only,no-pin,country,,,,,
+ecosystem_funder,pe-pecap-asociacion-peruana-de-capital-semilla-y-empr,PECAP – Asociación Peruana de Capital Semilla y Emprendedor,Peru,country-only,no-pin,country,,,,,
+ecosystem_funder,pe-wayra-peru,Wayra Perú,Peru,country-only,no-pin,city,,,https://wayra.com/es/spaces,,
+ecosystem_funder,pe-mirova-natural-capital,Mirova Natural Capital,Peru,country-only,no-pin,country,,,,,
+ecosystem_funder,pe-oikocredit,Oikocredit,Peru,country-only,no-pin,country,,,https://www.oikocredit.org/,,
+ecosystem_funder,pe-incofin,Incofin,Peru,country-only,no-pin,country,,,https://incofin.com/,,
+ecosystem_funder,pe-responsability,responsAbility,Peru,country-only,no-pin,country,,,https://www.responsability.com/,,
+ecosystem_funder,pe-blueorchard,BlueOrchard,Peru,country-only,no-pin,country,,,https://www.blueorchard.com/contact/,,
+ecosystem_funder,pe-alterfin,Alterfin,Peru,country-only,no-pin,country,,,https://www.alterfin.be/en/contact,,
+ecosystem_funder,pe-acumen,Acumen,Peru,country-only,no-pin,country,,,https://acumen.org/contact-us/,,
+ecosystem_funder,pe-mercy-corps-ventures,Mercy Corps Ventures,Peru,country-only,no-pin,country,,,https://www.mercycorpsventures.com/,,
+ecosystem_funder,pe-accion-venture-lab,Accion Venture Lab,Peru,country-only,no-pin,country,,,,,
+ecosystem_funder,pe-alive-ventures,ALIVE Ventures,Peru,country-only,no-pin,city,,,https://www.alive-ventures.com/,,
+ecosystem_funder,pe-bezos-earth-fund,Bezos Earth Fund,Peru,country-only,no-pin,country,,,,,
+ecosystem_funder,pe-allied-climate-partners,Allied Climate Partners,Peru,country-only,no-pin,country,,,,,
+ecosystem_funder,pe-finance-in-motion,Finance in Motion,Peru,country-only,no-pin,country,,,https://www.finance-in-motion.com/contact,,
+ecosystem_funder,pe-root-capital,Root Capital,Peru,country-only,no-pin,city,,,https://rootcapital.org/,,
+ecosystem_funder,pe-fepcmac-federacion-de-cajas-municipales,FEPCMAC – Federación de Cajas Municipales,Peru,country-only,no-pin,city,,,https://www.fpcmac.org.pe/,,Calle Conde de Chinchón 918
+ecosystem_funder,pe-caja-maynas,Caja Maynas,Peru,country-only,no-pin,city,,,https://www.cajamaynas.pe/,,Jr. Putumayo 838
+ecosystem_funder,pe-nesst,NESsT,Peru,country-only,no-pin,country,,,,,
+ecosystem_funder,pe-bid-bid-lab-bid-invest,BID / BID Lab / BID Invest,Peru,country-only,no-pin,country,,,,,
+ecosystem_funder,pe-bei-banco-europeo-de-inversiones,BEI – Banco Europeo de Inversiones,Peru,country-only,no-pin,country,,,https://www.eib.org/en/about/headquarters/index.htm,,
+ecosystem_funder,pe-gggi,GGGI,Peru,country-only,no-pin,country,,,,,
+ecosystem_funder,pe-onu-habitat,ONU-Hábitat,Peru,country-only,no-pin,country,,,https://peru.un.org/es/contact-us,,
+ecosystem_funder,pe-iica,IICA,Peru,country-only,no-pin,city,,,https://iica.int/en/countries/peru-en/,,Av. La Molina 1581
+ecosystem_funder,pe-afd,AFD,Peru,country-only,no-pin,city,,,https://www.afd.fr/es/annuaire/agence-de-lima,,"Calle Río de la Plata 167, Of. 502"
+ecosystem_funder,pe-conservacion-internacional,Conservación Internacional,Peru,country-only,no-pin,country,,,,,
+ecosystem_funder,pe-forest-trends,Forest Trends,United States,country-only,no-pin,city,,,https://www.forest-trends.org/contact/,,"1203 19th Street NW, 4th Floor"
+ecosystem_funder,pe-rainforest-alliance,Rainforest Alliance,Peru,country-only,no-pin,country,,,,,
+ecosystem_funder,pe-fundacion-avina,Fundación Avina,Peru,country-only,no-pin,country,,,,,
+ecosystem_funder,pe-pvblic-foundation,PVBLIC Foundation,Peru,country-only,no-pin,country,,,,,
+ecosystem_funder,sv-pomona-impact,Pomona Impact,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_funder,sv-viwala,VIWALA,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_funder,sv-atlantida-capital,Atlántida Capital,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_funder,sv-banco-azul,Banco Azul,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_funder,sv-banco-hipotecario,Banco Hipotecario,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_funder,sv-banco-atlantida,Banco Atlántida,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_funder,sv-banco-agricola,Banco Agrícola,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_funder,sv-sisa-seguros,SISA Seguros,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_funder,sv-ases-seguros,ASES Seguros,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_funder,sv-arca-family-office,Arca Family Office,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_funder,sv-polaris-family-office,Polaris Family Office,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_funder,sv-davivienda-seguros,Davivienda Seguros,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_funder,sv-bcie-programa-regional-de-capital-semilla,BCIE – Programa Regional de Capital Semilla,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_funder,sv-fideagro,FIDEAGRO,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_funder,sv-bac-credomatic,BAC Credomatic,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_funder,sv-cafi-central-america-angel-fund-initiative,CAFI – Central America Angel Fund Initiative,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_funder,sv-fao-el-salvador,FAO El Salvador,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_funder,sv-pnud-el-salvador,PNUD El Salvador,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_funder,sv-unep,UNEP,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_funder,sv-banco-mundial,Banco Mundial,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_funder,sv-bid,BID,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_funder,sv-gggi,GGGI,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_funder,sv-cepal,CEPAL,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_funder,sv-oim,OIM,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_funder,sv-giz,GIZ,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_funder,sv-aecid-el-salvador,AECID El Salvador,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_funder,sv-usaid,USAID,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_funder,sv-crs-catholic-relief-services,CRS – Catholic Relief Services,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_funder,sv-embajada-de-los-paises-bajos,Embajada de los Países Bajos,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_funder,sv-embajada-de-espana,Embajada de España,El Salvador,country-only,no-pin,country,,,,,
+ecosystem_funder,co-fenoge,FENOGE,Colombia,country-only,no-pin,country,,,,,
+ecosystem_funder,pe-convergence-design-funding-grant,Convergence Design Funding Grant,Peru,country-only,no-pin,country,,,,,
+ecosystem_funder,pe-bid-lab,BID Lab,Peru,country-only,no-pin,country,,,,,
+ecosystem_funder,pe-earth-innovation-institute,Earth Innovation Institute,Peru,country-only,no-pin,country,,,,,
+portfolio_startup,ackadia,ACKADIA,Colombia,country-only,no-pin,country,,,https://ackadia.life/,,program=CLAC21
+portfolio_startup,air-4u,AIR 4U,Colombia,country-only,no-pin,city,,,https://air4u.co/,,program=CLAC21
+portfolio_startup,carbon-box,CARBON BOX,Colombia,country-only,no-pin,city,,,https://kimsa.co/,,program=CLAC21
+portfolio_startup,dinnova,DINNOVA,Colombia,country-only,no-pin,city,,,https://dinnova.co/,,program=CLAC21
+portfolio_startup,siembra-vertical,SIEMBRA VERTICAL,Colombia,country-only,no-pin,country,,,https://siembravertical.com,,program=CLAC21
+portfolio_startup,sunny-app,SUNNY APP,Colombia,country-only,no-pin,city,,,https://sunnyapp.com,,program=CLAC21
+portfolio_startup,tavi-technology,TAVI TECHNOLOGY,Colombia,country-only,no-pin,,,,,no-geo-object,program=CLAC21
+portfolio_startup,valorable,VALORABLE,Colombia,country-only,no-pin,city,,,https://valorable.com,,program=CLAC21
+portfolio_startup,zhana-solutions,ZHANA SOLUTIONS,Colombia,country-only,no-pin,,,,,no-geo-object,program=CLAC21
+portfolio_startup,bilogical-vehículos-eléctricos,BILOGICAL VEHÍCULOS ELÉCTRICOS,Colombia,country-only,no-pin,city,,,https://biologica.com.co/,,program=CLAC22
+portfolio_startup,bio360-jardines-verticales,BIO360 JARDINES VERTICALES,Colombia,country-only,no-pin,unknown,,,,,program=CLAC22
+portfolio_startup,bioarea,BIOAREA,Colombia,country-only,no-pin,city,,,https://bioarea.co/,,program=CLAC22
+portfolio_startup,bioeutectics,BIOEUTECTICS,Colombia,country-only,no-pin,city,,,https://bioeutectics.com/,,program=CLAC22
+portfolio_startup,biomasa,BIOMASA,Colombia,country-only,no-pin,unknown,,,,,program=CLAC22
+portfolio_startup,bloomspal-network,BLOOMSPAL NETWORK,Colombia,country-only,no-pin,city,,,https://bloomspal.com/,,program=CLAC22
+portfolio_startup,calojabones,CALOJABONES,Colombia,country-only,no-pin,city,,,https://calojabones.com.co/,,program=CLAC22
+portfolio_startup,ciclorgánicos-(bio-abonos-gaia),CICLORGÁNICOS (BIO ABONOS GAIA),Colombia,country-only,no-pin,city,,,https://ciclorganicos.com/,,program=CLAC22
+portfolio_startup,compost-baladí-sas,COMPOST BALADÍ SAS,Colombia,country-only,no-pin,unknown,,,,,program=CLAC22
+portfolio_startup,dexon-software-sas-bic,DEXON SOFTWARE SAS BIC,Colombia,country-only,no-pin,city,,,https://dexonsoftware.com/,,program=CLAC22
+portfolio_startup,diservicol,DISERVICOL,Colombia,country-only,no-pin,unknown,,,,,program=CLAC22
+portfolio_startup,dreem-bio,DREEM BIO,Colombia,country-only,no-pin,city,,,https://dreembio.com/,,program=CLAC22
+portfolio_startup,glasst-innovation-company,GLASST INNOVATION COMPANY,Colombia,country-only,no-pin,city,,,https://glasst.co/,,program=CLAC22
+portfolio_startup,grupo-voltem-sas,GRUPO VOLTEM SAS,Colombia,country-only,no-pin,unknown,,,,,program=CLAC22
+portfolio_startup,heliosave-clean-energy,HELIOSAVE CLEAN ENERGY,Colombia,country-only,no-pin,country,,,https://heliosave.com,,program=CLAC22
+portfolio_startup,ilikko,ILIKKO,Colombia,country-only,no-pin,,,,,no-geo-object,program=CLAC22
+portfolio_startup,isd-ingeniería-y-servicios,ISD INGENIERÍA Y SERVICIOS,Colombia,country-only,no-pin,country,,,https://isd.co.com,,program=CLAC22
+portfolio_startup,labgae,LABGAE,Colombia,country-only,no-pin,country,,,https://nexus.cleantechhub.net/p/startup-portfolio,,program=CLAC22
+portfolio_startup,magmacol,MAGMACOL,Colombia,country-only,no-pin,country,,,https://nexus.cleantechhub.net/p/startup-portfolio,,program=CLAC22
+portfolio_startup,monte-jazmín,MONTE JAZMÍN,Colombia,country-only,no-pin,city,,,https://montejazmin.com,,program=CLAC22
+portfolio_startup,natoure,NATOURE,Colombia,country-only,no-pin,country,,,https://nexus.cleantechhub.net/p/startup-portfolio,,program=CLAC22
+portfolio_startup,nuevas-tecnologías-fisicoquímicas,NUEVAS TECNOLOGÍAS FISICOQUÍMICAS,Colombia,country-only,no-pin,city,,,https://nuevastecnologias.com.co,,program=CLAC22
+portfolio_startup,o2reserve,O2RESERVE,Colombia,country-only,no-pin,country,,,https://o2reserve.com,,program=CLAC22
+portfolio_startup,plásticos-femia,PLÁSTICOS FEMIA,Colombia,country-only,no-pin,country,,,https://nexus.cleantechhub.net/p/startup-portfolio,,program=CLAC22
+portfolio_startup,productos-marinos-innovadores,PRODUCTOS MARINOS INNOVADORES,Colombia,country-only,no-pin,country,,,https://nexus.cleantechhub.net/p/startup-portfolio,,program=CLAC22
+portfolio_startup,proincalza,PROINCALZA,Colombia,country-only,no-pin,city,,,https://proincalza.com.co,,program=CLAC22
+portfolio_startup,proplanet-sas,PROPLANET SAS,Colombia,country-only,no-pin,city,,,https://proplanet.com.co,,program=CLAC22
+portfolio_startup,sanolivar,SANOLIVAR,Colombia,country-only,no-pin,country,,,https://nexus.cleantechhub.net/p/startup-portfolio,,program=CLAC22
+portfolio_startup,seos-energy-sas-bic,SEOS ENERGY SAS BIC,Colombia,country-only,no-pin,city,,,https://seosenergy.co,,program=CLAC22
+portfolio_startup,simbiotic-sas,SIMBIOTIC SAS,Colombia,country-only,no-pin,city,,,https://redsimbiotic.com,,program=CLAC22
+portfolio_startup,suncolombia-sas,SUNCOLOMBIA SAS,Colombia,country-only,no-pin,city,,,https://suncolombia.co,,program=CLAC22
+portfolio_startup,tobo-y-compañía-sas-bic,TOBO Y COMPAÑÍA SAS BIC,Colombia,country-only,no-pin,city,,,https://tobo.com.co,,program=CLAC22
+portfolio_startup,valopes,VALOPES,Colombia,country-only,no-pin,,,,,no-geo-object,program=CLAC22
+portfolio_startup,wero-sas,WERO SAS,Colombia,country-only,no-pin,city,,,https://wero.com.co,,program=CLAC22
+portfolio_startup,ydeas-team-sas,YDEAS TEAM SAS,Colombia,country-only,no-pin,country,,,https://nexus.cleantechhub.net/p/startup-portfolio,,program=CLAC22
+portfolio_startup,3lupz,3LUPZ,Colombia,country-only,no-pin,city,,,https://3lupz.com/,,program=CLAC23
+portfolio_startup,basílisco,BASÍLISCO,Colombia,country-only,no-pin,country,,,https://basilisco.world/,,program=CLAC23
+portfolio_startup,bio-natural-solutions,BIO NATURAL SOLUTIONS,Colombia,country-only,no-pin,country,,,https://bionatsolutions.com/,,program=CLAC23
+portfolio_startup,biogar,BIOGAR,Colombia,country-only,no-pin,country,,,https://biogar.co/,,program=CLAC23
+portfolio_startup,compostpack,COMPOSTPACK,Colombia,country-only,no-pin,city,,,https://compostpack.com/,,program=CLAC23
+portfolio_startup,eco-apps,ECO APPS,Colombia,country-only,no-pin,city,,,https://ecoapps.com.co/,,program=CLAC23
+portfolio_startup,eco-poop,ECO POOP,Colombia,country-only,no-pin,city,,,https://ecopoop.co/,,program=CLAC23
+portfolio_startup,entopro,ENTOPRO,Colombia,country-only,no-pin,city,,,https://entopro.com.co/,,program=CLAC23
+portfolio_startup,fluvia,FLUVIA,Colombia,country-only,no-pin,city,,,https://fluvia.co/,,program=CLAC23
+portfolio_startup,geo-grafismos,GEO GRAFISMOS,Colombia,country-only,no-pin,country,,,https://geografismos.co/,,program=CLAC23
+portfolio_startup,green-leaf,GREEN LEAF,Colombia,country-only,no-pin,country,,,https://greenleafcolombia.com/,,program=CLAC23
+portfolio_startup,grupo-natural-andino,GRUPO NATURAL ANDINO,Colombia,country-only,no-pin,city,,,https://gna.com.co/,,program=CLAC23
+portfolio_startup,kigui,KIGUI,Mexico,country-only,no-pin,,,,,no-geo-object,program=CLAC23
+portfolio_startup,novatio,NOVATIO,Colombia,country-only,no-pin,,,,,no-geo-object,program=CLAC23
+portfolio_startup,o&c-sas,O&C SAS,Colombia,country-only,no-pin,country,,,https://nexus.cleantechhub.net/p/startup-portfolio,,program=CLAC23
+portfolio_startup,o3-smart-cities,O3 SMART CITIES,Colombia,country-only,no-pin,city,,,https://o3smartcities.com.co,,program=CLAC23
+portfolio_startup,purest-fuels,PUREST FUELS,Colombia,country-only,no-pin,,,,,no-geo-object,program=CLAC23
+portfolio_startup,reemade,REEMADE,Colombia,country-only,no-pin,country,,,https://reemade.com.co,,program=CLAC23
+portfolio_startup,soluciones-ambientales-integrales-sas,SOLUCIONES AMBIENTALES INTEGRALES SAS,Colombia,country-only,no-pin,country,,,https://nexus.cleantechhub.net/p/startup-portfolio,,program=CLAC23
+portfolio_startup,usalo-app,USALO APP,Colombia,country-only,no-pin,country,,,https://usalo.com.co,,program=CLAC23
+portfolio_startup,xiclo,XICLO,Colombia,country-only,no-pin,country,,,https://xiclo.app,,program=CLAC23
+portfolio_startup,arabidopsis,ARABIDOPSIS,Colombia,country-only,no-pin,unknown,,,,,program=CLAC24
+portfolio_startup,eco-biosis,ECO BIOSIS,Colombia,country-only,no-pin,country,,,https://ecobiosis.com/,,program=CLAC24
+portfolio_startup,fire-work-wear-sas,FIRE WORK WEAR SAS,Colombia,country-only,no-pin,city,,,https://fireworkwear.com/,,program=CLAC24
+portfolio_startup,gescol-sas-bic,GESCOL SAS BIC,Colombia,country-only,no-pin,city,,,https://gescol.com/,,program=CLAC24
+portfolio_startup,habitat-a-vibe-company-sas,HABITAT A VIBE COMPANY SAS,Colombia,country-only,no-pin,city,,,https://habitatmineriaurbana.com.co,,program=CLAC24
+portfolio_startup,hunter-tecnología,HUNTER TECNOLOGÍA,Colombia,country-only,no-pin,city,,,https://hunter.tec.co,,program=CLAC24
+portfolio_startup,mot-colombia,MOT COLOMBIA,Colombia,country-only,no-pin,country,,,https://motcolombia.com,,program=CLAC24
+portfolio_startup,mubon,MUBON,Colombia,country-only,no-pin,,,,,no-geo-object,program=CLAC24
+portfolio_startup,parsons-kinetics,PARSONS KINETICS,Colombia,country-only,no-pin,,,,,no-geo-object,program=CLAC24
+portfolio_startup,planta-de-tecnología-ambiental,PLANTA DE TECNOLOGÍA AMBIENTAL,Colombia,country-only,no-pin,country,,,https://nexus.cleantechhub.net/p/startup-portfolio,,program=CLAC24
+portfolio_startup,plásticos-ambientales-sas,PLÁSTICOS AMBIENTALES SAS,Colombia,country-only,no-pin,country,,,https://nexus.cleantechhub.net/p/startup-portfolio,,program=CLAC24
+portfolio_startup,pleia,PLEIA,Colombia,country-only,no-pin,,,,,no-geo-object,program=CLAC24
+portfolio_startup,renove.io,RENOVE.IO,Colombia,country-only,no-pin,country,,,https://nexus.cleantechhub.net/p/startup-portfolio,,program=CLAC24
+portfolio_startup,reset,RESET,Colombia,country-only,no-pin,country,,,https://resetcolombia.co,,program=CLAC24
+portfolio_startup,agrotech,AGROTECH,Colombia,country-only,no-pin,unknown,,,,,program=CLAC25
+portfolio_startup,baruk-company,BARUK COMPANY,Colombia,country-only,no-pin,city,,,https://www.rues.org.co/,,program=CLAC25
+portfolio_startup,bikeu,BIKEU,Colombia,country-only,no-pin,city,,,https://bikeu.com.co/,,program=CLAC25
+portfolio_startup,carey-leones,CAREY LEONES,Colombia,country-only,no-pin,country,,,https://careyleones.com/,,program=CLAC25
+portfolio_startup,claudia-osorio-arte-y-vidrio,CLAUDIA OSORIO ARTE Y VIDRIO,Colombia,country-only,no-pin,unknown,,,,,program=CLAC25
+portfolio_startup,cultivo-global-sas,CULTIVO GLOBAL SAS,Colombia,country-only,no-pin,unknown,,,,,program=CLAC25
+portfolio_startup,deterquin-sas,DETERQUIN SAS,Colombia,country-only,no-pin,city,,,https://deterquin.com/,,program=CLAC25
+portfolio_startup,ecobot,ECOBOT,Colombia,country-only,no-pin,city,,,https://ecobot.com.co/,,program=CLAC25
+portfolio_startup,ecosueños-caquetá,ECOSUEÑOS CAQUETÁ,Colombia,country-only,no-pin,city,,,https://www.rues.org.co/,,program=CLAC25
+portfolio_startup,ecovolt-sas,ECOVOLT SAS,Colombia,country-only,no-pin,country,,,https://ecovoltco.com.co/,,program=CLAC25
+portfolio_startup,embergy-sas,EMBERGY SAS,Colombia,country-only,no-pin,city,,,https://www.rues.org.co/,,program=CLAC25
+portfolio_startup,fundación-planeta-azul-caribe,FUNDACIÓN PLANETA AZUL CARIBE,Colombia,country-only,no-pin,city,,,https://www.rues.org.co/,,program=CLAC25
+portfolio_startup,galaxy-pack-sas,GALAXY PACK SAS,Colombia,country-only,no-pin,city,,,https://galaxypack.co/,,program=CLAC25
+portfolio_startup,gestar-ingeniería-sas,GESTAR INGENIERÍA SAS,Colombia,country-only,no-pin,unknown,,,,,program=CLAC25
+portfolio_startup,ims-mayorista,IMS MAYORISTA,Colombia,country-only,no-pin,city,,,https://imsmayorista.com,,program=CLAC25
+portfolio_startup,lazos.go,LAZOS.GO,Colombia,country-only,no-pin,country,,,https://nexus.cleantechhub.net/p/startup-portfolio,,program=CLAC25
+portfolio_startup,más-compost,MÁS COMPOST,Colombia,country-only,no-pin,city,,,https://mascompost.org,,program=CLAC25
+portfolio_startup,moviltronics-sas,MOVILTRONICS SAS,Colombia,country-only,no-pin,country,,,https://moviltronics.com,,program=CLAC25
+portfolio_startup,pacaceite-sas,PACACEITE SAS,Colombia,country-only,no-pin,country,,,https://nexus.cleantechhub.net/p/startup-portfolio,,program=CLAC25
+portfolio_startup,paola-solar-insights,PAOLA SOLAR INSIGHTS,Colombia,country-only,no-pin,city,,,https://paolasolarinsights.com,,program=CLAC25
+portfolio_startup,plasfacol,PLASFACOL,Colombia,country-only,no-pin,,,,,no-geo-object,program=CLAC25
+portfolio_startup,policy-makers-ai,POLICY MAKERS AI,Colombia,country-only,no-pin,country,,,https://nexus.cleantechhub.net/p/startup-portfolio,,program=CLAC25
+portfolio_startup,selvamar,SELVAMAR,Colombia,country-only,no-pin,country,,,https://selvamar.com,,program=CLAC25
+portfolio_startup,slow,SLOW,Colombia,country-only,no-pin,country,,,https://nexus.cleantechhub.net/p/startup-portfolio,,program=CLAC25
+portfolio_startup,tecnologías-ecológicas-ecotec-sas,TECNOLOGÍAS ECOLÓGICAS ECOTEC SAS,Colombia,country-only,no-pin,country,,,https://ecotecsas.com,,program=CLAC25
+portfolio_startup,green-runners,GREEN RUNNERS,Colombia,country-only,no-pin,country,,,https://green-runners.com/,,program=CLP
+portfolio_startup,chispa-acción-social,CHISPA ACCIÓN SOCIAL,Colombia,country-only,no-pin,city,,,https://chis.pa/,,program=CLP
+portfolio_startup,sincarbono,SINCARBONO,Colombia,country-only,no-pin,city,,,https://sincarbono.io,,program=CLP
+portfolio_startup,rivio,RIVIO,Colombia,country-only,no-pin,country,,,https://rivio.com,,program=CLP
+portfolio_startup,natupin,NATUPIN,Colombia,country-only,no-pin,country,,,https://natupin.bio,,program=CLP
+portfolio_startup,mullblue,MULLBLUE,Mexico,country-only,no-pin,country,,,https://mullblue.mx,,program=CLP
+portfolio_startup,i-can-jump,I CAN JUMP,Colombia,country-only,no-pin,,,,,no-geo-object,program=CLP
+portfolio_startup,heox,HEOX,Spain,country-only,no-pin,country,,,https://heox.es,,program=CLP
+portfolio_startup,eco-ideas,ECO IDEAS,Panama,country-only,no-pin,country,,,https://ecoideaspa.com/,,program=CLP
+portfolio_startup,biomimesis-colombia,BIOMIMESIS COLOMBIA,Colombia,country-only,no-pin,city,,,https://biomimicrycolombia.org/,,program=CLP
+portfolio_startup,barakah,BARAKAH,Colombia,country-only,no-pin,country,,,https://barakah.com.co/,,program=CLP
+portfolio_startup,agrotrust,AGROTRUST,Chile,country-only,no-pin,city,,,https://agrotrust.cl/,,program=CLP
+portfolio_startup,agrometers,AGROMETERS,Colombia,country-only,no-pin,city,,,https://agrometers.com/,,program=CLP
+portfolio_startup,zircular,ZIRCULAR,Colombia,country-only,no-pin,country,,,https://zioning.com,,program=CLP
+portfolio_startup,scem-eco,SCEM-ECO,Chile,country-only,no-pin,country,,,https://scem-eco.com,,program=CLP
+portfolio_startup,greendex,GREENDEX,Mexico,country-only,no-pin,city,,,https://greendex.earth/,,program=CLP
+portfolio_startup,carbonbox,CARBONBOX,Colombia,country-only,no-pin,city,,,https://carbonbox.app/,,program=CLP
+portfolio_startup,weia,WEIA,Colombia,country-only,no-pin,,,,,no-geo-object,program=CLP
+portfolio_startup,bioambientar,BIOAMBIENTAR,Colombia,country-only,no-pin,city,,,https://bioambientar.com/,,program=CLP
+portfolio_startup,oasis-group,OASIS GROUP,Colombia,country-only,no-pin,,,,,no-geo-object,program=CLP
+portfolio_startup,apicultores-y-rescatistas,APICULTORES Y RESCATISTAS,Colombia,country-only,no-pin,city,,,https://apicultoresyrescatistas.com/,,program=CLP
+portfolio_startup,neo-fibers-sac,NEO FIBERS SAC,Peru,country-only,no-pin,country,,,https://neofibers.pe,,program=CLP
+portfolio_startup,zero-waste-centroamérica,ZERO WASTE CENTROAMÉRICA,Costa Rica,country-only,no-pin,country,,,https://zerowaste.today,,program=CLP
+portfolio_startup,eco-domo,ECO DOMO,Mexico,country-only,no-pin,city,,,https://domoworldaxm.com/,,program=CLP20
+portfolio_startup,virtualel,VIRTUALEL,Colombia,country-only,no-pin,country,,,https://nexus.cleantechhub.net/p/startup-portfolio,,program=CLP20
+portfolio_startup,fruitable,FRUITABLE,Colombia,country-only,no-pin,unknown,,,,,program=CLP20
+portfolio_startup,agronielsen,AGRONIELSEN,Colombia,country-only,no-pin,city,,,https://www.maqrollmarketing.com/,,program=CLP20
+portfolio_startup,biofadi,BIOFADI,Colombia,country-only,no-pin,unknown,,,,,program=CLP20
+portfolio_startup,conexa-soluciones,CONEXA SOLUCIONES,Colombia,country-only,no-pin,unknown,,,,,program=CLP20
+portfolio_startup,cropexpert,CROPEXPERT,Colombia,country-only,no-pin,unknown,,,,,program=CLP20
+portfolio_startup,coolest-fins,COOLEST FINS,Colombia,country-only,no-pin,unknown,,,,,program=CLP20
+portfolio_startup,tecde-inc,TECDE INC,Colombia,country-only,no-pin,city,,,https://tecde.ai,,program=CLP25
+portfolio_startup,la-veranera,LA VERANERA,Colombia,country-only,no-pin,city,,,https://veraneraorganica.com,,program=CLP25
+portfolio_startup,colombia-por-naturaleza,COLOMBIA POR NATURALEZA,Colombia,country-only,no-pin,unknown,,,,,program=CLP25
+portfolio_startup,súper-chigüi,SÚPER CHIGÜI,Colombia,country-only,no-pin,country,,,https://nexus.cleantechhub.net/p/startup-portfolio,,program=CLP25
+portfolio_startup,biofer,BIOFER,Colombia,country-only,no-pin,unknown,,,,,program=CLP25
+portfolio_startup,melipapp,MELIPAPP,Colombia,country-only,no-pin,country,,,https://nexus.cleantechhub.net/p/startup-portfolio,,program=CLP25
+portfolio_startup,hydroforge,HYDROFORGE,Colombia,country-only,no-pin,country,,,https://nexus.cleantechhub.net/p/startup-portfolio,,program=CLP25
+portfolio_startup,plastifuel,PLASTIFUEL,Colombia,country-only,no-pin,country,,,https://nexus.cleantechhub.net/p/startup-portfolio,,program=CLP25
+portfolio_startup,hidrobank,HIDROBANK,Colombia,country-only,no-pin,country,,,https://nexus.cleantechhub.net/p/startup-portfolio,,program=CLP25
+portfolio_startup,semillatek,SEMILLATEK,Colombia,country-only,no-pin,country,,,https://nexus.cleantechhub.net/p/startup-portfolio,,program=CLP25
+startup_onepager_s,agrodata-connect,AgroData Connect,,none,no-pin,,,,https://linktr.ee/agrodataconnect,no-geo-object,
+startup_onepager_s,agrolider,AGROLIDER,,none,no-pin,,,,#,no-geo-object,
+startup_onepager_s,ainwater,AInwater,Chile,country-only,no-pin,,,,https://ainwater.com/,no-geo-object,
+startup_onepager_s,air4u,Air4U,Colombia,country-only,no-pin,,,,https://air4u.co/,no-geo-object,
+startup_onepager_s,airthnova,AirthNova,,none,no-pin,,,,https://linktr.ee/airthnova,no-geo-object,
+startup_onepager_s,ala-terra,¡Ala Terra!,Mexico,country-only,no-pin,,,,https://alaterra.com.mx,no-geo-object,
+startup_onepager_s,alfe-aseo-sas,ALFE ASEO SAS,Colombia,country-only,no-pin,,,,https://alfeaseo.com,no-geo-object,
+startup_onepager_s,amazoniko,Amazóniko,,none,no-pin,,,,https://www.amazoniko.com/,no-geo-object,
+startup_onepager_s,artexlab,ArtexLab,,none,no-pin,,,,#,no-geo-object,
+startup_onepager_s,aterna,Aterna,,none,no-pin,,,,#,no-geo-object,
+startup_onepager_s,b-kapz,b-Kapz,Argentina,country-only,no-pin,,,,https://www.b-kapz.com/,no-geo-object,
+startup_onepager_s,baruk-company,BARUK COMPANY,Colombia,country-only,no-pin,,,,#,no-geo-object,
+startup_onepager_s,bio-analytics,bio·analytics,,none,no-pin,,,,#,no-geo-object,
+startup_onepager_s,bioarea,BIOAREA,Colombia,country-only,no-pin,,,,https://bioarea.co,no-geo-object,
+startup_onepager_s,cacelio,Cacelio,,none,no-pin,,,,mailto:[redacted],no-geo-object,
+startup_onepager_s,calojabones,CALOJABONES,Colombia,country-only,no-pin,,,,https://calojabones.com.co,no-geo-object,
+startup_onepager_s,ciclorganicos,Ciclorgánicos,Colombia,country-only,no-pin,,,,https://www.ciclorganicos.com,no-geo-object,
+startup_onepager_s,circuito-cero,Circuito cero,,none,no-pin,,,,#,no-geo-object,
+startup_onepager_s,clean-sim,Clean Sim,,none,no-pin,,,,https://lectureseries.tech/,no-geo-object,
+startup_onepager_s,climatik,CLIMATIK,,none,no-pin,,,,#,no-geo-object,
+startup_onepager_s,cobox-logistic,Cobox Logistic,Peru,country-only,no-pin,,,,https://www.coboxlogistic.com,no-geo-object,
+startup_onepager_s,communitylab,CommunityLab,,none,no-pin,,,,https://communitylab.co,no-geo-object,
+startup_onepager_s,compostpack,COMPOSTPACK,Colombia,country-only,no-pin,,,,https://compostpack.com,no-geo-object,
+startup_onepager_s,cr-tejas,CR Tejas,Costa Rica,country-only,no-pin,,,,#,no-geo-object,
+startup_onepager_s,curuba,Curuba,,none,no-pin,,,,https://curuba.tech,no-geo-object,
+startup_onepager_s,dantium,DANTIUM,,none,no-pin,,,,#,no-geo-object,
+startup_onepager_s,deposito-global-recycling,Deposito Global Recycling,Colombia,country-only,no-pin,,,,#,no-geo-object,
+startup_onepager_s,deterquin,DETERQUIN,Colombia,country-only,no-pin,,,,https://deterquin.com,no-geo-object,
+startup_onepager_s,dexon-software-sas-bic,Dexon Software,Colombia,country-only,no-pin,,,,https://dexonsoftware.com,no-geo-object,
+startup_onepager_s,e-wai,e.WAI,,none,no-pin,,,,https://e-ray.lat/e-wai/,no-geo-object,
+startup_onepager_s,eco-biosis,Eco Biosis,Colombia,country-only,no-pin,,,,https://ecobiosis.com,no-geo-object,
+startup_onepager_s,eco-bloque,Eco-Bloque,,none,no-pin,,,,#,no-geo-object,
+startup_onepager_s,eco-industria,Eco Industria,Colombia,country-only,no-pin,,,,https://ecoindustriasas.com,no-geo-object,
+startup_onepager_s,el-ocambulo,El Ocámbulo,,none,no-pin,,,,#,no-geo-object,
+startup_onepager_s,elastic-energy,Elastic Energy,Colombia,country-only,no-pin,,,,https://elasticenergy.co/,no-geo-object,
+startup_onepager_s,embergy,Embergy,Colombia,country-only,no-pin,,,,https://embergy.com,no-geo-object,
+startup_onepager_s,fluvia,Fluvia,Colombia,country-only,no-pin,,,,https://fluvia.co,no-geo-object,
+startup_onepager_s,galaxy-pack,Galaxy Pack,Colombia,country-only,no-pin,,,,https://galaxypack.co,no-geo-object,
+startup_onepager_s,glooba,Glooba,Chile,country-only,no-pin,,,,https://glooba.cl,no-geo-object,
+startup_onepager_s,glu-energy,Glu Energy,Colombia,country-only,no-pin,,,,https://www.glu-energy.com,no-geo-object,
+startup_onepager_s,green-t,Green Textile Solutions,,none,no-pin,,,,#,no-geo-object,
+startup_onepager_s,greendex,GreenDex,Mexico,country-only,no-pin,,,,https://greendex.earth,no-geo-object,
+startup_onepager_s,greenify,Greenify,Colombia,country-only,no-pin,,,,https://greenify.world,no-geo-object,
+startup_onepager_s,griin-energy,Griin Energy,Colombia,country-only,no-pin,,,,https://griin.com.co,no-geo-object,
+startup_onepager_s,grupo-natural-andino,Grupo Natural Andino,Colombia,country-only,no-pin,,,,https://gna.com.co,no-geo-object,
+startup_onepager_s,habitat-a-vibe-company,Hábitat Minería Urbana,Colombia,country-only,no-pin,city,,,https://habitatmineriaurbana.com.co,,
+startup_onepager_s,honeyb,HoneyB,Colombia,country-only,no-pin,country,,,https://nexus.cleantechhub.net/s/honeyb/,,
+startup_onepager_s,hunter-tecnologia,Hunter Tecnología,Colombia,country-only,no-pin,city,,,https://hunter.tec.co,,
+startup_onepager_s,i-can-jump,I Can Jump,Colombia,country-only,no-pin,country,,,https://icanjump.com,,
+startup_onepager_s,ilikko,ILIKKO,Colombia,country-only,no-pin,country,,,https://nexus.cleantechhub.net/s/ilikko/,,
+startup_onepager_s,isd-ingenieria-y-servicios,ISD Ingeniería y Servicios,Colombia,country-only,no-pin,country,,,https://isd.co.com,,
+startup_onepager_s,kelab,R&amp;R Kelab,Colombia,country-only,no-pin,city,,,https://kelab.com.co,,
+startup_onepager_s,kigui,Kigüi,Mexico,country-only,no-pin,city,,,https://kigui.mx/,,
+startup_onepager_s,kimsa,KIMSA,Colombia,country-only,no-pin,country,,,https://kimsa.co/,,
+startup_onepager_s,kleantab,Kleantab,Costa Rica,country-only,no-pin,country,,,https://kleantab.com/,,
+startup_onepager_s,kuo,KUO,Colombia,country-only,no-pin,country,,,https://nexus.cleantechhub.net/s/kuo/,,
+startup_onepager_s,mayugo,MayuGo,Peru,country-only,no-pin,city,,,https://www.mayugo.net/,,
+startup_onepager_s,mitsidi,Mitsidi,Brazil,country-only,no-pin,country,,,https://www.mitsidi.com/en,,
+startup_onepager_s,modular-agrosolutions,Modular Agrosolutions,Colombia,country-only,no-pin,country,,,https://modtech.site/modularagrosolutions,,
+startup_onepager_s,monte-jazmin,MONTE JAZMÍN,Colombia,country-only,no-pin,city,,,https://montejazmin.com/,,
+startup_onepager_s,moviltronics,MOVILTRONICS SAS,Colombia,country-only,no-pin,country,,,https://moviltronics.com/,,
+startup_onepager_s,mubon,MubOn,Colombia,country-only,no-pin,city,,,https://mubon.co/,,
+startup_onepager_s,myma,MYMA Servicios Ambientales,Guatemala,country-only,no-pin,city,,,https://www.mymagt.com/,,
+startup_onepager_s,nextgen-nutrition,NextGen Nutrition,Colombia,country-only,no-pin,country,,,https://petfly.co,,
+startup_onepager_s,nina-energy,Nina Energy,Ecuador,country-only,no-pin,city,,,https://nina.energy/,,
+startup_onepager_s,nuevas-tecnologias-fisicoquimicas,Nuevas Tecnologías Fisicoquímicas,Colombia,country-only,no-pin,city,,,https://nuevastecnologias.com.co/,,
+startup_onepager_s,nux,NUX,Colombia,country-only,no-pin,country,,,https://nexus.cleantechhub.net/s/nux/,,
+startup_onepager_s,oasis-group,Oasis Group,Colombia,country-only,no-pin,city,,,https://oasisgroup.online/,,
+startup_onepager_s,pacaceite,Pacaceite SAS,Colombia,country-only,no-pin,country,,,https://nexus.cleantechhub.net/s/pacaceite/,,
+startup_onepager_s,parsons-kinetics,Parsons Kinetics,Colombia,country-only,no-pin,country,,,https://parsonskinetics.com/,,
+startup_onepager_s,planta-comunitaria-wpc,Planta Comunitaria WPC,Colombia,country-only,no-pin,city,,,https://www.facebook.com/ejeambientequindio/,,
+startup_onepager_s,plasfacol,Plasfacol,Colombia,country-only,no-pin,country,,,https://eco-tienda-plasfacol.venndelo.com,,
+startup_onepager_s,plasticos-ambientales,Plásticos Ambientales,Colombia,country-only,no-pin,city,,,https://plasticosambientales.com/,,
+startup_onepager_s,pleia,PLEIA,Colombia,country-only,no-pin,city,,,https://pleia.co,,
+startup_onepager_s,purest-fuels,PUREST FUELS,Colombia,country-only,no-pin,country,,,https://purestfuels.com,,
+startup_onepager_s,reporti,REPORTI,Colombia,country-only,no-pin,country,,,https://nexus.cleantechhub.net/s/reporti/,,
+startup_onepager_s,s-pages-batch-10-image-sources,,,none,no-pin,,,,,no-geo-object,
+startup_onepager_s,sekpos,SEKPOS,Colombia,country-only,no-pin,country,,,https://sekpos.com/,,
+startup_onepager_s,sie-waka,SIÉ WAKA,Colombia,country-only,no-pin,country,,,https://siewakaplatform.streamlit.app/,,
+startup_onepager_s,simbiotic,Simbiotic,Colombia,country-only,no-pin,city,,,https://redsimbiotic.com,,
+startup_onepager_s,suncolombia,SunColombia,Colombia,country-only,no-pin,country,,,https://www.suncolombia.co,,
+startup_onepager_s,tavi-technology,TAVI Technology,Colombia,country-only,no-pin,country,,,https://tavitechnology.com.co,,
+startup_onepager_s,terra-io,TERRA IO,Colombia,country-only,no-pin,country,,,https://nexus.cleantechhub.net/s/terra-io/,,
+startup_onepager_s,tr-global-group,TR Global Group,Colombia,country-only,no-pin,city,,,https://www.slowreciclaje.com,,
+startup_onepager_s,valopes,Valopes,Colombia,country-only,no-pin,city,,,https://www.valopes.com,,
+startup_onepager_s,weia,WËIA,Colombia,country-only,no-pin,city,,,https://www.weia.com.co/,,
+startup_onepager_s,wheelo,Wheelo,Colombia,country-only,no-pin,city,,,https://nexus.cleantechhub.net/s/wheelo/,,
+mentor_clp26,mentor-1,Alaide Díaz,Guatemala,country-only,no-pin,unknown,,,https://www.linkedin.com/in/alaide-diaz?utm_source=share_via&utm_content=profile&utm_medium=member_ios,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-2,Alejandra Sierralta,Peru,country-only,no-pin,unknown,,,www.linkedin.com/in/alejandrasierralta/,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-3,Alex Kudzuma,Peru,country-only,no-pin,unknown,,,www.linkedin.com/in/alex-kudzuma,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-4,Andrés Felipe Páez,Colombia,country-only,no-pin,unknown,,,https://www.linkedin.com/in/andresfelipepaezrodriguezsostenibilidadyeconomiacircular/,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-5,Bernardo Joseph Trujillo León,Colombia,country-only,no-pin,unknown,,,http://linkedin.com/in/bernardo-joseph-4813561a9,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-6,Carlos Arango Ucros,Colombia,country-only,no-pin,unknown,,,https://www.linkedin.com/in/carlosarangoucros,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,M072,Carlos Fernando de la Cruz,Peru,country-only,no-pin,unknown,,,www.linkedin.com/in/carlos-fernando-marcel-de-la-cruz-guevara-67145140/,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,M045,Carlos Jaramillo,Colombia,city-only,no-pin,city,,,https://segurossura.com/co/terminos-y-condiciones/,no-map-pin,Seguros SURA; Suramericana domicile Medellín.
+mentor_clp26,mentor-9,Cinthya Sandoval Cuéllar,Guatemala,country-only,no-pin,unknown,,,https://www.linkedin.com/in/cinthya-sandoval-48903770/,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-10,Daniel Alpaca,Peru,city-only,no-pin,city,,,https://derechousmp.com/docentes/detalle_cv/detalle.php?ID=90028674,no-map-pin,USMP faculty CV; Lima.
+mentor_clp26,mentor-11,Diana Castrillón Gómez,Colombia,country-only,no-pin,unknown,,,https://www.linkedin.com/in/dianacastrillongomez/,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-12,Erwin Navarrete,Colombia,country-only,no-pin,unknown,,,https://www.linkedin.com/in/erwin-navarrete-b43283240/,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-13,Estela Ugalde,Costa Rica,country-only,no-pin,unknown,,,https://www.linkedin.com/in/estela-ugalde-74447268/,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-14,Felipe Hernández,Colombia,country-only,no-pin,unknown,,,https://www.linkedin.com/in/fhvdesign/,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-15,Fernando Torres,Peru,country-only,no-pin,unknown,,,www.linkedin.com/in/fitorresg/,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-16,Gabriela Tenaz,Costa Rica,country-only,no-pin,unknown,,,https://www.linkedin.com/in/gabriela-t%C3%A9naz-2914a6127/,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-17,Genoveva Martínez,Guatemala,country-only,no-pin,unknown,,,https://www.linkedin.com/in/genoveva-martínez-a4ab33196?utm_source=share_via&utm_content=profile&utm_medium=member_android,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-18,Gloria Bazán Narváez,Colombia,country-only,no-pin,unknown,,,https://www.linkedin.com/in/gloria-bazan-narvaez-06581b55/,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-19,Guillermo Nariño,Colombia,country-only,no-pin,unknown,,,https://www.linkedin.com/in/guillermo-nari%C3%B1o/?,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-20,Guisela Carbajal Romero,Costa Rica,country-only,no-pin,unknown,,,https://www.linkedin.com/in/guisela-carbajal/,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-21,Gustavo García,Colombia,country-only,no-pin,unknown,,,https://www.linkedin.com/in/gustavo-garcia-navas/,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-22,Heraldo Escobar,Guatemala,country-only,no-pin,unknown,,,www.linkedin.com/in/heraldo-escobar-72163934,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-23,Jhosseli García,Peru,country-only,no-pin,unknown,,,www.linkedin.com/in/jhosseligarcia/,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-24,Jorge Montenegro,Costa Rica,country-only,no-pin,unknown,,,https://www.linkedin.com/in/jorge-fer-monte,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-25,José Soto,Peru,country-only,no-pin,unknown,,,www.linkedin.com/in/jose-carlos-soto-mujica-9a9987396,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-26,Juan Diego Loarca,Guatemala,country-only,no-pin,unknown,,,https://www.linkedin.com/in/juan-diego-loarca?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-27,Juan Sebastián Villamizar,Colombia,country-only,no-pin,unknown,,,https://www.linkedin.com/in/sebastian-villamizar-diaz-b17818114,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-28,Julián Martínez,Guatemala,country-only,no-pin,unknown,,,https://www.linkedin.com/in/julianmartineza/,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-29,Karol M. Garzón,Colombia,country-only,no-pin,unknown,,,https://www.linkedin.com/in/karol-melissa-garz%C3%B3n-cabrera-5516a6382/,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-30,Lucía Medina Capacoila,Colombia,country-only,no-pin,unknown,,,https://www.linkedin.com/in/luciamedinacapacoila/,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-31,Maité Marroquín,Guatemala,country-only,no-pin,unknown,,,https://www.linkedin.com/in/mait%C3%A9-marroqu%C3%ADn-76370918b/,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-32,Mario Reichert,Guatemala,country-only,no-pin,unknown,,,https://www.linkedin.com/in/mario-reichert-netzero-esg-gri-sas-niifs1-s2sbti-waterstewardship-ehs-safety-sustainability-sbti-wcm?utm_source=share_via&utm_content=profile&utm_medium=member_ios,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-33,Mario Rojas,Costa Rica,country-only,no-pin,unknown,,,https://www.linkedin.com/in/mario-fernando-rojas-suarez-49328770/,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-34,Marisa Arias,Peru,country-only,no-pin,unknown,,,www.linkedin.com/in/marisaariaspicon/,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-35,Martha Zeledón,Colombia,country-only,no-pin,unknown,,,https://www.linkedin.com/in/martha-yadira-zeled%C3%B3n-2419b024/,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-36,Martin Dolan,Colombia,city-only,no-pin,city,,,https://pangea.app/profile/martin-dolan,no-map-pin,Pangea public profile Bogotá.
+mentor_clp26,mentor-37,Marvin Luna,Guatemala,country-only,no-pin,unknown,,,linkedin.com/in/marvinlunagt,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-38,María Isabel Cruz López,Colombia,country-only,no-pin,unknown,,,https://www.linkedin.com/in/maria-isabel-cruz-lopez,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-39,María Juliana Pérez Vasco,Colombia,country-only,no-pin,unknown,,,https://www.linkedin.com/in/maria-juliana-perez-vasco-19587843,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,M043,Michel Marfil Rivero,Colombia,country-only,no-pin,unknown,,,https://www.linkedin.com/in/michelmarfilrivero/,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,M069,Mitchell Lázaro,Peru,country-only,no-pin,unknown,,,www.linkedin.com/in/mitchell-jesús-lázaro-díaz/,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-42,Mónica O’Connor,Peru,country-only,no-pin,unknown,,,www.linkedin.com/in/manuel-c%C3%A1rdenas-iberico-0225a216/,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-43,Osvaldo Ruiz,Costa Rica,country-only,no-pin,unknown,,,https://www.linkedin.com/in/osvaldo-ruiz-calder%C3%B3n-1b9699136/,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-44,Paola Andrea Sánchez Gutiérrez,Colombia,country-only,no-pin,unknown,,,https://www.linkedin.com/in/paolasolarinsights/,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-45,Patricia Carrasquilla Cortés,Colombia,country-only,no-pin,unknown,,,https://www.linkedin.com/in/patriciacarrasquillac,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-46,Patricia Melgar,Peru,country-only,no-pin,unknown,,,www.linkedin.com/in/patricia-melgar-71360228/,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-47,Patricia Vidal,Peru,country-only,no-pin,unknown,,,www.linkedin.com/in/patricia-vidal-izaguirre,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-48,Raúl Campos,Peru,country-only,no-pin,unknown,,,www.linkedin.com/in/raulcamposrosas/,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,M068,Renzo Salas,Peru,city-only,no-pin,city,,,https://bsf.pe/,no-map-pin,BSF Almacenes del Perú; Lima metro.
+mentor_clp26,M074,Rubén Arias,Costa Rica,country-only,no-pin,unknown,,,https://www.linkedin.com/in/ruben-arias-arce/,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-51,Santiago Aristizábal,Colombia,country-only,no-pin,unknown,,,https://www.linkedin.com/in/santiago-aristiz%C3%A1bal-molina-04681657/,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-52,Santiago Cruz,Colombia,country-only,no-pin,unknown,,,https://www.linkedin.com/in/santiagocruzgonzalez,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-53,Sebastián Martínez Pérez,Colombia,country-only,no-pin,unknown,,,https://www.linkedin.com/in/sebasmperez/,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,mentor-54,Silvia López Giraldo,Costa Rica,country-only,no-pin,unknown,,,,no-map-pin,No city verified from public employer site or public bio in this pass.
+mentor_clp26,M001,Ximena Tavera,Guatemala,country-only,no-pin,unknown,,,https://www.linkedin.com/in/magda-ximena-tavera-cuellar-03508a39/,no-map-pin,No city verified from public employer site or public bio in this pass.
+investor_crm,959,10 investment,,none,no-pin,unknown,,,https://10investments.nl,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,841,1955 Capital,USA,country-only,no-pin,unknown,,,https://1955.capital,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,814,2C Ventures,Spain,country-only,no-pin,unknown,,,https://www.2cventures.eu,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,860,2degrees,UK,country-only,no-pin,unknown,,,https://www.weare2degrees.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,678,4Impact VC,Netherlands,city-only,no-pin,city,,,https://www.4impact.vc,no-map-pin,"JSON-LD addressLocality=The Hague, addressCountry=NL"
+investor_crm,852,500 startups,United States,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q21015593,no-map-pin,"Wikidata Q[redacted] Global) P159 headquarters → Mountain View, United States"
+investor_crm,859,7percent ventures,Netherlands,country-only,no-pin,unknown,,,https://www.7pc.vc,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,987,AALchemy ventures //n Andrey Kostyuk,,none,no-pin,unknown,,,https://aalchemy.eu,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,679,ABN AMRO,Netherlands,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q287471,no-map-pin,"Wikidata Q287471 (ABN AMRO) P159 headquarters → Amsterdam, Netherlands"
+investor_crm,174,ABN AMRO Bank N.V.,Netherlands,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q287471,no-map-pin,"Wikidata Q287471 (ABN AMRO) P159 headquarters → Amsterdam, Netherlands"
+investor_crm,147,ABN Amro Sustainable Impact Fund,,none,no-pin,unknown,,,https://www.abnamro.nl/en/commercialbanking/corporates-institutionals/products/expand-your-business/private-equity/sustainable-impact-fund/index.html,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,855,ACT Venture Capital,Ireland,city-only,no-pin,city,,,https://actventure.capital,no-map-pin,market Submit your pitch CONTACT ‍ 6 Richview Office Park Clonskeagh Dublin 14 Ireland Telephone ‍ [redacted] *We are currently dealing
+investor_crm,111,AEBAN,,none,no-pin,unknown,,,https://aeban.es,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,175,AEGON,United States,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q291171,no-map-pin,"Wikidata Q291171 (Aegon) P159 headquarters → Cedar Rapids, United States"
+investor_crm,682,AMS Institute,,none,no-pin,unknown,,,https://www.ams-institute.org,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,1,APG pension fund,Hong Kong,city-only,no-pin,city,,,https://apg.nl/contact,no-map-pin,"([redacted] Bekijk op Google Maps Routebeschrijving Noord-Amerika New York 666 3rd Avenue New York, NY 10017 [redacted] Bekijk op G"
+investor_crm,182,AXA Investment Managers,,none,no-pin,unknown,,,https://www.axa-im.com,no-map-pin,Rejected weak HQ parse (country-level or ambiguous)
+investor_crm,680,Achmea,Netherlands,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q4673833,no-map-pin,"Wikidata Q4673833 (Achmea Holding NV) P159 headquarters → Zeist, Netherlands"
+investor_crm,829,Achmea Impact Fund,Netherlands,country-only,no-pin,unknown,,,https://www.achmeainnovationfund.nl/en,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,148,Achmea Impact Ventures,,none,no-pin,unknown,,,https://www.achmea-impact.ventures,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,799,Achmea Ventures,Netherlands,country-only,no-pin,unknown,,,https://www.achmea-impact.ventures,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,185,Acumen,United States,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q2186354,no-map-pin,"Wikidata Q2186354 (Acumen Fund) P159 headquarters → New York City, United States"
+investor_crm,71,Acumen Trellis,,none,no-pin,unknown,,,https://acumen.org,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,72,AfricInvest,Tunisia,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q16119861,no-map-pin,"Wikidata Q16119861 (AfricInvest) P159 headquarters → Tunis, Tunisia"
+investor_crm,73,Afrilabs,,none,no-pin,unknown,,,https://www.afrilabs.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,74,Agdevco,United States,city-only,no-pin,city,,,https://www.agdevco.com,no-map-pin,"o | Registered address: Chancery House, 53-64 Chancery Lane, Holborn, London, WC2A 1QS millipedia :: ethical digital"
+investor_crm,75,Agfunder,,none,no-pin,unknown,,,https://agfunder.com/about,no-map-pin,Rejected weak HQ parse (country-level or ambiguous)
+investor_crm,76,Algebra Ventures,,none,no-pin,unknown,,,https://algebraventures.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,77,Alpha Mundi,,none,no-pin,unknown,,,https://www.alphamundigroup.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,614,Alphamundi,,none,no-pin,unknown,,,https://www.alphamundigroup.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,861,Altor Equity Partners AB,Sweden,city-only,no-pin,city,,,https://www.altor.com/contact,no-map-pin,planade St. Helier Jersey JE4 0QH Tel. [redacted] [redacted] Stockholm Altor Equity Partners AB Altor Fund Manager Jakobsgatan 6 11
+investor_crm,862,Amadeus Capital Partners,United Kingdom,city-only,no-pin,city,,,https://www.amadeuscapital.com/terms,no-map-pin,"ed number 3392685. Registered office: Suite 1, 2nd Floor, 2 Quayside, Cambridge, CB5 8AB. Amadeus Capital Partners Limited is authorised and"
+investor_crm,113,Ananda VC,,none,no-pin,unknown,,,https://ananda.vc,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,863,Andera,France,country-only,no-pin,unknown,,,https://www.anderapartners.com/en,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,617,Angel Hub,,none,no-pin,unknown,,,https://www.angelhub.mx,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,618,Angel Investment Network (Colombia),,none,no-pin,unknown,,,https://www.angelinvestmentnetwork.com.co,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,194,Ankur Capital,India,city-only,no-pin,city,,,https://www.ankurcapital.com,no-map-pin,"JSON-LD addressLocality=Mumbai, addressCountry=IN"
+investor_crm,195,Anthos Fund & Asset Management,,none,no-pin,unknown,,,https://www.anthosam.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,197,Apollo Global Management,United States,city-only,no-pin,city,,,https://www.apollo.com/contact,no-map-pin,"uarters Apollo Global Management, Inc. 9 West 57th Street, 41st Floor New York, NY 10019 [redacted] View All Locations View All Locat"
+investor_crm,839,Applied Ventures,USA,country-only,no-pin,unknown,,,https://www.appliedmaterials.com/us/en/applied-ventures.html,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,621,Arrebol,,none,no-pin,unknown,,,https://arrebolcap.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,206,Astanor,France,city-only,no-pin,city,,,https://astanor.com/legal,no-map-pin,"EUR 1,881,000, whose registered office is at 2, rue de Laborde, 75008 Paris, France, registered with the Paris Trade and Companies Register"
+investor_crm,858,At One Ventures,USA,country-only,no-pin,unknown,,,https://www.atoneventures.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,78,Attijari Capital Management and Holdagro,,none,no-pin,unknown,,,https://www.fm6i.ma/fonds-thematiques-et-sectoriels/,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,955,Auriga Partners,France,city-only,no-pin,city,,,https://www.aurigapartners.com/privacy,no-map-pin,"t at the following address 250 bis rue du Faubourg Saint Honoré 75008 Paris (France) If, after having contacted us, you believe that there a"
+investor_crm,3,Avenue,,none,no-pin,unknown,,,https://www.avenuecapital.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,114,BCombinator,,none,no-pin,unknown,,,https://bcombinator.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,685,BOM,Netherlands,city-only,no-pin,city,,,https://www.bom.nl/en,no-map-pin,"JSON-LD addressLocality=Tilburg, addressCountry=NL"
+investor_crm,4,BP Ventures,,none,no-pin,unknown,,,https://bp-ventures.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,210,Baillie Gifford,United States,city-only,no-pin,city,,,https://www.bailliegifford.com/privacy,no-map-pin,"ailliegifford.com Address: Baillie Gifford & Co, 3 Haymarket Terrace, Edinburgh EH3 8RY Please provide sufficient information to allow us to"
+investor_crm,5,Barn Invest,Brazil,city-only,no-pin,city,,,https://www.barninvest.com.br,no-map-pin,"Av. Nove de Julho 5017 11th Floor – Jardim Paulista Sao Paulo, SP"
+investor_crm,864,Basinghall Partners,UK,country-only,no-pin,unknown,,,https://www.basinghallpartners.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,683,Behold,,none,no-pin,unknown,,,https://behold.vc,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,115,Belgian Impact Investors Network,Belgium,city-only,no-pin,city,,,https://impactfinance.be,no-map-pin,"JSON-LD addressLocality=Brussels, addressCountry=BE"
+investor_crm,866,Berkeley SkyDeck Fund,USA,country-only,no-pin,unknown,,,https://skydeck.vc,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,6,Better Ventures,,none,no-pin,unknown,,,https://www.better.vc,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,79,Beyond Capital Ventures,,none,no-pin,unknown,,,https://www.beyondcapitalventures.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,216,Big Society Capital,United Kingdom,city-only,no-pin,city,,,https://bettersocietycapital.com/about,no-map-pin,"fice: Better Society Capital Limited, Script, 44 Featherstone Street, London, EC1Y 8RN. Contact Number: [redacted]"
+investor_crm,217,BlackRock,Netherlands,city-only,no-pin,city,,,https://www.blackrock.com/corporate,no-map-pin,"for the Financial Markets. Registered office Amstelplein 1, 1096 HA, Amsterdam, Tel: 020 – 549 5200, Tel: [redacted]. Trade Register No"
+investor_crm,840,Blitzscaling Ventures,United States,city-only,no-pin,city,,,https://www.blitzscalingvc.com/contact-us,no-map-pin,in valuable markets. Contact Us Win Your Market With Lightning Speed PALO ALTO [redacted] Chat Chat Copyright 2024 Blitz
+investor_crm,867,Bloom Equity,USA,country-only,no-pin,unknown,,,https://www.bloomequitypartners.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,869,Blue Ashva,India,city-only,no-pin,city,,,https://blueashvacapital.com/contact,no-map-pin,"OFFICES A Multi-Strategy Asset Manager Backing India's Core Sectors. Mumbai 403-404, Madhava Building, E-Block, BKC, Mumbai 400051 Bangalor"
+investor_crm,7,Blue Ashva Capital,India,city-only,no-pin,city,,,https://blueashvacapital.com/contact,no-map-pin,"OFFICES A Multi-Strategy Asset Manager Backing India's Core Sectors. Mumbai 403-404, Madhava Building, E-Block, BKC, Mumbai 400051 Bangalor"
+investor_crm,220,Blue Earth Capital AG,Switzerland,city-only,no-pin,city,,,https://blueearth.capital,no-map-pin,"JSON-LD addressLocality=Baar-Zug, addressCountry=CH"
+investor_crm,80,Blue Haven Initiative,,none,no-pin,unknown,,,https://www.bluehaveninitiative.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,8,Blue Orchard,Switzerland,city-only,no-pin,city,,,https://www.blueorchard.com,no-map-pin,t in emerging markets read more Interested in our newsletter? Sign up Zurich Geneva Luxembourg Lima Nairobi Tbilisi Singapore BlueOrchard Fi
+investor_crm,9,Blue like an orange,,none,no-pin,unknown,,,https://bluelikeanorangecapital.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,224,BlueOrchard Finance S.A,Switzerland,city-only,no-pin,city,,,https://www.blueorchard.com,no-map-pin,t in emerging markets read more Interested in our newsletter? Sign up Zurich Geneva Luxembourg Lima Nairobi Tbilisi Singapore BlueOrchard Fi
+investor_crm,1003,Bonventures,,none,no-pin,unknown,,,https://www.bonventure.de/founders/,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,686,Brabant Startup Fonds,,none,no-pin,unknown,,,https://www.braventure.nl,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,871,Braemer Energy Ventures,USA,country-only,no-pin,unknown,,,https://www.braemarenergy.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,227,Bridges Fund Management,,none,no-pin,unknown,,,https://www.bridgesfundmanagement.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,688,Brightlands Venture Partners,Netherlands,country-only,no-pin,unknown,,,https://brightlandsventurepartners.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,228,British International Investment,,none,no-pin,unknown,,,https://www.bii.co.uk,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,10,British International Investment (BII),,none,no-pin,unknown,,,https://www.bii.co.uk,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,229,Builders Vision,United States,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q[redacted],no-map-pin,"Wikidata Q[redacted] (Builders Vision) P159 headquarters → Chicago, United States"
+investor_crm,835,CMA CGM,France,city-only,no-pin,city,,,https://www.cmacgm-group.com/en,no-map-pin,"JSON-LD addressLocality=Marseille, addressCountry=FR"
+investor_crm,81,Calvert Capital,,none,no-pin,unknown,,,https://www.calvertimpact.org,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,232,Calvert Impact Capital,,none,no-pin,unknown,,,https://calvertimpact.org,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,873,Cantos,USA,country-only,no-pin,unknown,,,https://cantos.vc,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,236,Capricorn Investment Group,United States,city-only,no-pin,city,,,https://capricornllc.com/privacy,no-map-pin,"tment Group Attn : Alexandra Acosta 512 West 22 nd Street, 6 th Floor New York, NY 10011 [redacted] [redacted] Connect With Cap"
+investor_crm,12,Carao Ventures,,none,no-pin,unknown,,,https://www.caraov.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,13,Carbon Equity,Netherlands,city-only,no-pin,city,,,https://www.carbonequity.com/about-us,no-map-pin,"efault""> Our offices Building the new economy from Europe Netherlands Amsterdam HQ Geldersekade 101-F, 1011 EM Amsterdam View on the map Ger"
+investor_crm,876,Catalyze Group,Netherlands,city-only,no-pin,city,,,https://www.catalyze-group.com/contact,no-map-pin,[redacted] Fill in the form and we’ll reach out a.s.a.p. Amsterdam Office (HQ) Joop Geesinkweg 167 1114 AB Amsterdam-Duivendrec
+investor_crm,879,Caterpillar Ventures,USA,country-only,no-pin,unknown,,,https://www.caterpillar.com/en/company/innovation/caterpillar-ventures.html,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,880,Charles River Ventures,Canada,city-only,no-pin,city,,,https://www.crv.com,no-map-pin,"52 Zoe Street San Francisco , CA 94107 Ph. [redacted]"
+investor_crm,877,Chevron Technology Ventures,USA,country-only,no-pin,unknown,,,https://chevrontechnologyventures.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,878,Citizen Capital,France,country-only,no-pin,unknown,,,https://citizencapital.eu,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,881,Climactic VC,United States,city-only,no-pin,city,,,https://www.climactic.vc/privacy-policy,no-map-pin,gement Project) IMP (Impact Management Project) Contact us Offices in San Francisco and NYC [redacted] [redacted] ([redacted]
+investor_crm,15,Climate Fund Managers,Netherlands,city-only,no-pin,city,,,https://climatefundmanagers.com/privacy,no-map-pin,"[redacted] Address: Korte Vijverberg 4, 2513 AB, The Hague, The Netherlands Complaints You have the right to lodge a co"
+investor_crm,973,Climate Market Place,,none,no-pin,unknown,,,https://climate-marketplace.com/,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,882,Closed Loop Partners,United States,city-only,no-pin,city,,,https://www.closedlooppartners.com,no-map-pin,"firm, innovation center and operating group. 888 7th Ave, 10th Floor, New York NY 10106 Login Follow us on Twitter Follow on LinkedIn Back t"
+investor_crm,884,Comcast Ventures,United States,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q60740233,no-map-pin,"Wikidata Q60740233 (Comcast Ventures) P159 headquarters → San Francisco, United States"
+investor_crm,886,Congruent VC,Canada,city-only,no-pin,city,,,https://www.congruentvc.com,no-map-pin,"port companies as they scale. OFFICE ADDRESS 201 Mission St Suite 650 San Francisco, CA 94105 ‍ GENERAL INQUIRIES + PRESS info@congruentvc.c"
+investor_crm,982,Core Angel Climate,,none,no-pin,unknown,,,https://www.coreangels.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,599,Core Angels Pacific,,none,no-pin,unknown,,,https://www.coreangels.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,117,Core Climate Angels,,none,no-pin,unknown,,,https://www.coreangels.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,821,CoreAngels,Portugal,country-only,no-pin,unknown,,,https://www.coreangels.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,629,Corekees,,none,no-pin,unknown,,,https://corekees.com/en,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,693,Corporate Venturing Network,,none,no-pin,unknown,,,https://corporateventuringnetwork.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,16,DEG,,none,no-pin,unknown,,,https://www.deginvest.de,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,17,DEG (Deutsche Investition- und Entwicklungsgesellschaft),,none,no-pin,unknown,,,https://www.deginvest.de,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,264,DEG- Deutsche Investition- und Entwicklungsgesellschaft mbH,,none,no-pin,unknown,,,https://www.deginvest.de,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,694,DELA,Belgium,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q2437457,no-map-pin,"Wikidata Q2437457 (DELA) P159 headquarters → Antwerp, Belgium"
+investor_crm,84,DOEN,,none,no-pin,unknown,,,https://www.doen.nl/en,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,949,DOW,USA,country-only,no-pin,unknown,,,https://www.dow.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,631,DRk Foundation,United States,city-only,no-pin,city,,,https://www.drkfoundation.org/contact,no-map-pin,"with us. We will reply as soon as possible. Our Offices United States Menlo Park, CA 1600 El Camino Real, Suite 155 Menlo Park, CA 94025 Tel"
+investor_crm,964,DWR Eco,Germany,city-only,no-pin,city,,,https://dwr-eco.com/impressum,no-map-pin,EN Impressum Angaben gemäß § 5 TMG DWR eco GmbH Belforter Str 1 10405 Berlin Deutschland Handelsregister: HRB 142777 B Registergericht: Char
+investor_crm,600,Dadneo,,none,no-pin,unknown,,,https://dadneo.capital,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,632,Dalus,,none,no-pin,unknown,,,https://www.daluscapital.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,633,Danta,,none,no-pin,unknown,,,https://dantafund.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,889,Diffusion Capital Partners,Netherlands,country-only,no-pin,unknown,,,https://www.dcp.vc,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,695,Diverse Leaders in Tech,United States,city-only,no-pin,city,,,https://diverseleadersintech.com,no-map-pin,"licy Cookie Policy Membership Terms & Conditions Contact us Location: Amsterdam, NL Contact us Archives No archives to show. Categories Even"
+investor_crm,963,Dozen investment,,none,no-pin,unknown,,,https://dozeninvestments.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,891,Draper Associates,United States,city-only,no-pin,city,,,https://www.draper.vc,no-map-pin,"JSON-LD addressLocality=San Mateo, addressCountry=US"
+investor_crm,893,Dutch Mezzanine Fund II,Germany,city-only,no-pin,city,,,https://www.dutchmezzanine.nl/contact,no-map-pin,erlaan 3 1082 MS Amsterdam Eurotheum Neue Mainzer Strasse [redacted] Frankfurt am Main Germany [redacted] [redacted]
+investor_crm,894,EDF Pulse Ventures,France,country-only,no-pin,unknown,,,https://www.edf.fr/en/pulse/ventures,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,86,ELEA,,none,no-pin,unknown,,,https://www.elea.org,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,636,Eco Enterprises Fund,United States,city-only,no-pin,city,,,https://ecoenterprisesfund.com,no-map-pin,"ling sent to EcoEnterprises Fund at 5614 Connecticut Avenue, NW #135; Washington, DC 20015, USA. Calling EcoEnterprises Fund’s phone line: +"
+investor_crm,285,EcoEnterprises Fund,United States,city-only,no-pin,city,,,https://ecoenterprisesfund.com,no-map-pin,"ling sent to EcoEnterprises Fund at 5614 Connecticut Avenue, NW #135; Washington, DC 20015, USA. Calling EcoEnterprises Fund’s phone line: +"
+investor_crm,286,Ecosystem Integrity Fund,USA,country-only,no-pin,unknown,,,https://eif.vc,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,895,Elemental Excelerator,USA,country-only,no-pin,unknown,,,https://elementalimpact.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,288,Elevar Equity,,none,no-pin,unknown,,,https://elevarequity.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,807,Eneco,Netherlands,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q1341079,no-map-pin,"Wikidata Q1341079 (Eneco) P159 headquarters → Rotterdam, Netherlands"
+investor_crm,837,Energy Innovation Capital,USA,country-only,no-pin,unknown,,,https://www.energyinnovationcapital.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,637,Epic Angels,,none,no-pin,unknown,,,https://www.epicangelnetwork.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,122,EsadeBan,,none,no-pin,unknown,,,https://esadeban.com/en,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,292,"European Bank for Reconstruction and Development (EBRD), The",,none,no-pin,unknown,,,https://www.ebrd.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,25,European Investment Bank,,none,no-pin,unknown,,,https://www.eib.org,no-map-pin,Rejected weak HQ parse (country-level or ambiguous)
+investor_crm,899,Evergreen Climate Innovations,United States,city-only,no-pin,city,,,https://evergreeninno.org/contact,no-map-pin,"oday Evergreen Climate Innovations 400 North Aberdeen Street, Floor 8 Chicago, IL 60642 Sign-up for a our newsletter Get updates on the Grea"
+investor_crm,297,FINVIA Holding GmbH,,none,no-pin,unknown,,,https://www.finvia.fo,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,26,FMO,Netherlands,city-only,no-pin,city,,,https://www.fmo.nl,no-map-pin,ct Us FMO South Africa [redacted] [redacted] FMO Kenya [redacted] FMO Costa Rica [redacted] Our cookie
+investor_crm,298,FOUNT,,none,no-pin,unknown,,,https://fount.eu,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,299,FS Impact Finance,Germany,city-only,no-pin,city,,,https://fs-finance.com/imprint,no-map-pin,int Frankfurt School Financial Services GmbH Adickesallee [redacted] Frankfurt am Main Germany Email: [redacted] Represented by Ma
+investor_crm,896,Fair Capital Partners,Netherlands,country-only,no-pin,unknown,,,https://faircapitalpartners.nl,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,301,FaithInvest,United Kingdom,city-only,no-pin,city,,,https://www.faithinvest.org,no-map-pin,"tors | www.faithinvest.org | c/o Stone King LLP, Charterhouse Street, London, UK top of page SUBSCRIBE HOME ABOUT OUR TEAM OUR MISSION WHY W"
+investor_crm,302,Fajr Capital,United Arab Emirates,city-only,no-pin,city,,,https://fajrcapital.com,no-map-pin,"Level 3, Gate Village 5 Dubai International Financial Centre Dubai, United Arab Emirates"
+investor_crm,699,Fem-Start,Netherlands,city-only,no-pin,city,,,https://fem-start.com/privacy,no-map-pin,"erlands having its registered address at Rijswijkseplein 137, 2516 GZ Den Haag, The Netherlands and company registration number 58561129 . T"
+investor_crm,304,Fidante Partners,,none,no-pin,unknown,,,https://www.fidante.com,no-map-pin,Rejected weak HQ parse (country-level or ambiguous)
+investor_crm,865,Fifth Wall Ventures,United States,city-only,no-pin,city,,,https://www.fifthwall.com/contact,no-map-pin,"been received! Oops! Something went wrong while submitting the form. Los Angeles Office 301 N Canon Dr #325 Beverly Hills, CA 90210 Press:"
+investor_crm,27,Finance in Motion,,none,no-pin,unknown,,,https://www.finance-in-motion.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,29,Finn Fund,United States,city-only,no-pin,city,,,https://www.finnfund.fi/contact-us,no-map-pin,"e responsibility, legal affairs and administration. They are based in Helsinki and Nairobi but operate in developing countries worldwide. Se"
+investor_crm,306,Finnfund,United States,city-only,no-pin,city,,,https://www.finnfund.fi/contact-us,no-map-pin,"e responsibility, legal affairs and administration. They are based in Helsinki and Nairobi but operate in developing countries worldwide. Se"
+investor_crm,903,First Bridge Ventures,Netherlands,country-only,no-pin,unknown,,,https://www.firstbridge.vc,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,905,Floodgate,USA,country-only,no-pin,unknown,,,https://floodgate.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,308,Fondaction,United States,city-only,no-pin,city,,,https://www.fondaction.com/contact-us,no-map-pin,"new request I’m completing an existing request Find us Head Office in Montreal De Maisonneuve Blvd East, Suite 103 Montreal (Québec) H2K 4S3"
+investor_crm,640,Fondo Impacta,,none,no-pin,unknown,,,https://www.impacta.vc,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,310,Foodvalley,Netherlands,city-only,no-pin,city,,,https://foodvalley.nl/contact,no-map-pin,"act us Contact us Our contact details Foodvalley Bronland 10F 6708 WH Wageningen, The Netherlands Our office is located in the Plus Ultra II"
+investor_crm,311,Ford Foundation,South Africa,city-only,no-pin,city,,,https://www.fordfoundation.org/about,no-map-pin,"Ford Foundation PO Box 521115 Saxonwold 2132 Johannesburg, South Africa"
+investor_crm,902,Founders Fund,United States,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q1439864,no-map-pin,"Wikidata Q1439864 (Founders Fund) P159 headquarters → San Francisco, United States"
+investor_crm,906,Founders Future,France,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q[redacted],no-map-pin,"Wikidata Q[redacted] (Founders Future) P159 headquarters → Paris, France"
+investor_crm,312,Franklin Templeton,United States,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q744683,no-map-pin,"Wikidata Q744683 (Franklin Templeton Investments) P159 headquarters → San Mateo, United States"
+investor_crm,642,Fundación Bancolombia,,none,no-pin,unknown,,,https://fundacion.bancolombia.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,643,Fundación Bolivar Davivienda,Colombia,city-only,no-pin,city,,,https://www.fundacionbolivardavivienda.org,no-map-pin,"Web DIAN Cultivarte Datos de contacto Av. Calle 26 # 69-63. Piso 11. Bogotá, Colombia ([redacted] ext 98706 ([redacted] Síguenos Nu"
+investor_crm,315,Funds for Good,,none,no-pin,unknown,,,https://www.fundsforgood.eu,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,601,Fundsurfer,,none,no-pin,unknown,,,https://www.fundsurfer.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,30,Future Energy Ventures,United States,city-only,no-pin,city,,,https://fev.vc/privacy,no-map-pin,"ite. The provider is Defiant Inc, Defiant, Inc, 800 5th Ave Ste 4100, Seattle, WA 98104, USA (hereinafter “Wordfence”). Wordfence is designe"
+investor_crm,958,FutureMobilityNetwork,Netherlands,city-only,no-pin,city,,,https://thefuturemobility.network/contact,no-map-pin,"eleid. Verstuur Contactgegevens Bezoekadres Delfsteplein 27H, 3013 AA Rotterdam, Nederland Postadres Delfsteplein 27H 3013 AA Rotterdam, Ned"
+investor_crm,31,GAWA,Spain,city-only,no-pin,city,,,https://www.gawacapital.com,no-map-pin,"JSON-LD addressLocality=Madrid, addressCountry=ES"
+investor_crm,317,GAWA Capital,Spain,city-only,no-pin,city,,,https://www.gawacapital.com,no-map-pin,"JSON-LD addressLocality=Madrid, addressCountry=ES"
+investor_crm,318,GK Ventures,,none,no-pin,unknown,,,https://gkventures.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,319,GLIN Impact Capital,,none,no-pin,unknown,,,https://glinimpact.com/en,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,320,GSG,United Kingdom,city-only,no-pin,city,,,https://www.gsgimpact.org,no-map-pin,"o. 1175658, whose registered office is at Third Floor, 20 Old Bailey, London, United Kingdom EC4M 7AN ©[redacted] All Rights Reserved by GSG"
+investor_crm,321,Galvanize Climate Solutions,USA,country-only,no-pin,unknown,,,https://galvanizeclimate.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,702,Gemeente Amsterdam,Netherlands,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q9899,no-map-pin,"Wikidata Q9899 (Amsterdam) P159 headquarters → Amsterdam, Netherlands"
+investor_crm,907,Generate Capital,Canada,city-only,no-pin,city,,,https://generatecapital.com/contact,no-map-pin,"am to discuss partnerships, investments, and opportunities. Locations San Francisco Headquarters 650 Davis Street Suite 200 San Francisco, C"
+investor_crm,32,GetInvest,,none,no-pin,unknown,,,https://www.get-invest.eu,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,323,Giving Women,,none,no-pin,unknown,,,https://givingwomen.ch,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,993,Global Angel Club,,none,no-pin,unknown,,,https://www.globalsuperangels.club/,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,326,Global Innovation Fund,United Kingdom,city-only,no-pin,city,,,https://www.globalinnovation.fund,no-map-pin,"487). Registered office: Global Innovation Fund, 8 Devonshire Square, London, EC2M 4PL. GIF takes a zero-tolerance approach to bribery and c"
+investor_crm,91,GoParity,Portugal,city-only,no-pin,city,,,https://goparity.com,no-map-pin,"JSON-LD addressLocality=Lisbon, addressCountry=PT"
+investor_crm,124,GoldenEgg,Netherlands,city-only,no-pin,city,,,https://goldeneggcheck.com/en,no-map-pin,AI 1 2 Next Visitor address: De Nieuwe Stad Oliemolenhof 18a 3812 PB Amersfoort Netherlands Home Startups Investors Corporate About us Blog
+investor_crm,328,Golding Capital Partners GmbH,Germany,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q[redacted],no-map-pin,"Wikidata Q[redacted] (Golding Capital Partners GmbH) P159 headquarters → Munich, Germany"
+investor_crm,92,Goodwell,South Africa,city-only,no-pin,city,,,https://goodwell.nl,no-map-pin,"am Nairobi, Kenya Block B 4th floor, Merchant Square, Riverside Drive Johannesburg, South Africa 2nd Floor, Trumpet Building 21 Keyes Avenue"
+investor_crm,329,Goodwell Investments,South Africa,city-only,no-pin,city,,,https://goodwell.nl,no-map-pin,"am Nairobi, Kenya Block B 4th floor, Merchant Square, Riverside Drive Johannesburg, South Africa 2nd Floor, Trumpet Building 21 Keyes Avenue"
+investor_crm,125,Green Angel Ventures,United Kingdom,city-only,no-pin,city,,,https://greenangelventures.com,no-map-pin,"Green Angel Ventures 42 Charlwood Road, London, SW15 1PW"
+investor_crm,331,Green Artha,,none,no-pin,unknown,,,https://www.green-artha.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,126,Green Impact Investing,,none,no-pin,unknown,,,https://greenimpactinvesting.nl,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,988,Green Impact Investing // GreenChoice,,none,no-pin,unknown,,,https://greenimpactinvesting.nl,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,703,Green Whale,,none,no-pin,unknown,,,https://www.green-whale.nl,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,850,Hitachi Ventues,Germany,city-only,no-pin,city,,,https://calendly.com/privacy,no-map-pin,".com . Alternatively, they can be reached by post (DPO Centre Europe, BERLIN: Friedrichstrabe 88, Excellent Business Centre, Berlin, 10117,"
+investor_crm,706,Horizon Flevoland,,none,no-pin,unknown,,,https://horizonflevoland.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,34,IDB,,none,no-pin,unknown,,,https://www.iadb.org,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,338,IDH,Netherlands,city-only,no-pin,city,,,https://idh.org/contact,no-map-pin,"programs where the action is happening. Our head office is located in Utrecht, The Netherlands. Phone: [redacted] E-mail general enq"
+investor_crm,339,IDH Investment Management,Netherlands,city-only,no-pin,city,,,https://idh.org/contact,no-map-pin,"programs where the action is happening. Our head office is located in Utrecht, The Netherlands. Phone: [redacted] E-mail general enq"
+investor_crm,966,IESE,Germany,city-only,no-pin,city,,,https://www.iese.edu/contact-us,no-map-pin,"traße 15 81675 Munich Germany Tel.: [redacted] ISE and IESE - Sao Paulo campus Rua Martiniano de Carvalho, [redacted] Sao Paulo, S"
+investor_crm,340,IFU,South Africa,city-only,no-pin,city,,,https://impactfund.dk/contact-us,no-map-pin,"Copenhagen Denmark [redacted] [redacted] South Africa Johannesburg Workshop 17 The Bank, room 3.05 Corner Tyrwhitt and, 24 C"
+investor_crm,342,IMPact SGR,,none,no-pin,unknown,,,https://www.impactsgr.it,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,344,INOKS Capital,Switzerland,city-only,no-pin,city,,,https://www.inokscapital.ch/contact,no-map-pin,Rue de l'Athénée 32 1206 Geneva Switzerland Google map
+investor_crm,345,ISF Advisers,,none,no-pin,unknown,,,https://isfadvisors.co,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,346,ISF Advisors,United States,city-only,no-pin,city,,,https://isfadvisors.co/contact,no-map-pin,us if you have any questions. Get In Touch Tweets by ISFAdvisors --> Washington D.C. 1401 K Street NW Suite 900 Washington DC New York 155
+investor_crm,801,Impact City,Netherlands,country-only,no-pin,unknown,,,https://www.impactcity.nl,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,157,Impact City Amsterdam,,none,no-pin,unknown,,,https://www.impactcity.nl,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,35,Impact Fund Denmark,South Africa,city-only,no-pin,city,,,https://impactfund.dk/contact-us,no-map-pin,"Copenhagen Denmark [redacted] [redacted] South Africa Johannesburg Workshop 17 The Bank, room 3.05 Corner Tyrwhitt and, 24 C"
+investor_crm,93,Impact Shakers,Spain,country-only,no-pin,unknown,,,https://www.impactshakers.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,350,ImpactCity The Hague,Netherlands,country-only,no-pin,unknown,,,https://www.impactcity.nl,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,94,Incofin,,none,no-pin,unknown,,,https://incofin.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,352,Incofin Investment Management,,none,no-pin,unknown,,,https://incofin.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,708,Inkef,Netherlands,country-only,no-pin,unknown,,,https://www.inkef.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,38,InnoEnergy,Netherlands,city-only,no-pin,city,,,https://innoenergy.com/contact,no-map-pin,"a Location Belgium France Germany Netherlands Poland Spain Sweden USA Amsterdam office WTC Tower One, level 10 Zuidplein 84 1077 XV AMSTERDA"
+investor_crm,356,Innpact S.A.,,none,no-pin,unknown,,,https://innpact.com/contact,no-map-pin,Rejected weak HQ parse (country-level or ambiguous)
+investor_crm,910,Insight Venture Partners,United States,city-only,no-pin,city,,,https://www.insightpartners.com/contact,no-map-pin,"ed successfully. Headquarters 1114 Avenue of the Americas, 36th Floor New York 10036 Get Directions >> Phone: [redacted] Join our mailing"
+investor_crm,357,Insitor Partners Pte. Ltd.,,none,no-pin,unknown,,,https://www.insitorpartners.com/contact,no-map-pin,Rejected weak HQ parse (country-level or ambiguous)
+investor_crm,358,Inspired Evolution,,none,no-pin,unknown,,,https://inspiredevolution.co.za,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,360,International Finance Corporation (IFC),United States,city-only,no-pin,city,,,https://www.ifc.org/contacts,no-map-pin,"2121 Pennsylvania Avenue, NW Washington D.C. 20433, United States"
+investor_crm,361,Invesco,United States,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q522617,no-map-pin,"Wikidata Q522617 (Invesco) P159 headquarters → Atlanta, United States"
+investor_crm,711,Invest International,Netherlands,city-only,no-pin,city,,,https://investinternational.nl/privacy,no-map-pin,"t information: Invest International B.V. Bezuidenhoutseweg 12 2594 AV Den Haag, Nederland [redacted] Get in touch Email:"
+investor_crm,712,Invest-NL,Netherlands,city-only,no-pin,city,,,https://www.invest-nl.nl/en,no-map-pin,this? Eduard de Visser (Director of strategy & innovation at Port of Amsterdam) and Dolores de Rooij (senior business development manager a
+investor_crm,362,Japan Post Insurance,Japan,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q6157781,no-map-pin,"Wikidata Q6157781 (Japan Post Insurance) P159 headquarters → Tokyo, Japan"
+investor_crm,363,Japan Social Innovation & Investment Foundation (SIIF),,none,no-pin,unknown,,,https://www.siif.or.jp/en,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,364,"John D. and Catherine T. MacArthur Foundation, The",India,city-only,no-pin,city,,,https://www.macfound.org/about,no-map-pin,"cArthur in India India Habitat Centre Zone VA, First Floor Lodhi Road New Delhi 110 003 India Phone [redacted] Phone [redacted]"
+investor_crm,365,Jonathan Rose Companies,United States,city-only,no-pin,city,,,https://www.rosecompanies.com/contact,no-map-pin,New York City Phone: [redacted]
+investor_crm,815,K Fund,Spain,country-only,no-pin,unknown,,,https://www.kfund.vc,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,39,KFW,Germany,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q658270,no-map-pin,"Wikidata Q658270 (KfW) P159 headquarters → Berlin, Germany"
+investor_crm,40,KFund,,none,no-pin,unknown,,,https://www.kfund.vc,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,824,KOIS,Belgium,country-only,no-pin,unknown,,,https://www.koisinvest.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,96,KOIS Invest,,none,no-pin,unknown,,,https://www.koisinvest.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,368,KUSH BANK PLC,South Sudan,city-only,no-pin,city,,,https://kushbankss.com/contact-us,no-map-pin,"ry Digital Banking X Internet Banking Visit our Branches HEADQUARTERS Juba Central Equatoria State Konyo-Konyo Road, Opposite Juba City Coun"
+investor_crm,370,Katapult Ocean,Norway,city-only,no-pin,city,,,https://www.katapultocean.com,no-map-pin,"JSON-LD addressLocality=Oslo, addressCountry=NO"
+investor_crm,371,KawiSafi Ventures,United States,city-only,no-pin,city,,,https://www.kawisafi.com/terms,no-map-pin,". Our Website was created and is controlled by Acumen in the State of New York, United States of America. The Website and its content, and a"
+investor_crm,372,Khazanah Nasional Berhad,United States,city-only,no-pin,city,,,https://www.khazanah.com.my/contact,no-map-pin,"Name Email Phone Message Submit Kuala Lumpur Shanghai Istanbul Mumbai New York Khazanah Nasional Berhad Level 22, Mercu UEM, Jalan Stesen Se"
+investor_crm,716,Kickstart AI,,none,no-pin,unknown,,,https://kickstart.ai,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,816,Kiva,United States,city-only,no-pin,city,,,https://www.kiva.org,no-map-pin,"JSON-LD addressLocality=San Francisco, addressCountry=USA"
+investor_crm,374,Kiva Capital Management,United States,city-only,no-pin,city,,,https://www.kiva.org/contact-us,no-map-pin,"JSON-LD addressLocality=San Francisco, addressCountry=USA"
+investor_crm,649,Kiva Social Enterprises,United States,city-only,no-pin,city,,,https://www.kiva.org,no-map-pin,"JSON-LD addressLocality=San Francisco, addressCountry=USA"
+investor_crm,375,Kohlberg Kravis Roberts & Co. L.P.,United States,city-only,no-pin,city,,,https://www.kkr.com/contact,no-map-pin,"></p>\r\n<p><span class=\""para-lrg\""><b>Address:</b> 30 Hudson Yards, New York, NY 10001</span></p>\r\n<p><span class=\""para-lrg\""><b>Hours:"
+investor_crm,159,Kosmos Impact,,none,no-pin,unknown,,,https://kosmosimpact.nl,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,376,"Kresge Foundation, The",,none,no-pin,unknown,,,https://kresge.org,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,912,LDV Capital,USA,country-only,no-pin,unknown,,,https://www.ldv.co,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,379,LGT Capital Partners,,none,no-pin,unknown,,,https://www.lgtcp.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,97,LGT Capital Partners (Lightrock link),Netherlands,city-only,no-pin,city,,,https://www.lightrock.com/contact,no-map-pin,"d Kingdom, SW1Y 6AF Zürich Gartenstrasse 19, 8002 Zürich, Switzerland Utrecht Moreelsepark 1, 3511 EP Utrecht, The Netherlands Bangalore 3rd"
+investor_crm,131,Lanai VC,,none,no-pin,unknown,,,https://lanai.vc,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,41,LeapFrog Investments,,none,no-pin,unknown,,,https://leapfroginvest.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,380,Learn Capital,,none,no-pin,unknown,,,https://www.learn.vc,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,381,Lemma FX,Australia,city-only,no-pin,city,,,https://www.lemmafx.com,no-map-pin,"JSON-LD addressLocality=Sydney, addressCountry=AU"
+investor_crm,382,Lendable,United Kingdom,city-only,no-pin,city,,,https://lendable.io/contact-us,no-map-pin,"frica, Latin America and Asia? Come work with us. [redacted] London Suite 212-213 The Foundry 156 Blackfriars Road London, SE1 8EN"
+investor_crm,383,Liberty Group,,none,no-pin,unknown,,,https://www.liberty.co.za,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,913,LifeX Ventures,Denmark,country-only,no-pin,unknown,,,https://lifexventures.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,42,Light Ray Ventures,United States,city-only,no-pin,city,,,https://www.lightray.vc,no-map-pin,"nkedin Сrunchbase Location: 136 Madison Ave, Floors 5 & 6, PMB #4042, New York, NY 10016 Tel: ([redacted] Mission Team Focus Companies Ne"
+investor_crm,384,Lightrock,Netherlands,city-only,no-pin,city,,,https://www.lightrock.com/contact,no-map-pin,"d Kingdom, SW1Y 6AF Zürich Gartenstrasse 19, 8002 Zürich, Switzerland Utrecht Moreelsepark 1, 3511 EP Utrecht, The Netherlands Bangalore 3rd"
+investor_crm,43,Lightrock (LGT Group),Netherlands,city-only,no-pin,city,,,https://www.lightrock.com/contact,no-map-pin,"d Kingdom, SW1Y 6AF Zürich Gartenstrasse 19, 8002 Zürich, Switzerland Utrecht Moreelsepark 1, 3511 EP Utrecht, The Netherlands Bangalore 3rd"
+investor_crm,802,Lumo Labs,Netherlands,city-only,no-pin,city,,,https://lumolabs.io/privacy,no-map-pin,"the controller”): LUMO Labs BV, established at Torenallee 20, 5617 BC Eindhoven, The Netherlands, Chamber of Commerce number: 71718192 . Art"
+investor_crm,132,Lumolabs,,none,no-pin,unknown,,,https://www.lumolabs.io,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,914,Lux Capital,United States,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q6706160,no-map-pin,"Wikidata Q6706160 (Lux Capital) P159 headquarters → New York City, United States"
+investor_crm,386,MCE Social Capital,United States,city-only,no-pin,city,,,https://www.mcesocap.org/contact-us,no-map-pin,", email address, or phone number listed below. 5758 Geary Blvd., #261 San Francisco, CA [redacted] [redacted] About Us Our"
+investor_crm,388,MENTERRA VENTURE ADVISORS,,none,no-pin,unknown,,,https://www.menterra.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,44,MGM Sustainable Energy Fund II,,none,no-pin,unknown,,,https://capital.mgminnovagroup.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,918,MIG Capital AG,Germany,city-only,no-pin,city,,,https://www.mig.ag/imprint,no-map-pin,"talt für Finanzdienstleistungsaufsicht Marie-Curie-Straße [redacted] Frankfurt am Main, Germany VAT identification number DE[redacted] (in a"
+investor_crm,390,MN,,none,no-pin,unknown,,,https://www.mn.nl,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,133,MVentures,Netherlands,city-only,no-pin,city,,,https://www.m-ventures.com/impressum,no-map-pin,"on Site Notice / Imprint Terms of Use Privacy Statement © M Ventures, Amsterdam, The Netherlands Social Networks"
+investor_crm,392,Maj Invest,,none,no-pin,unknown,,,https://www.majinvest.com/en,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,134,Marbella Tech Angels,,none,no-pin,unknown,,,https://www.southsummit.io/leader/andreas-mihalovits/,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,916,Matterwave Ventures,Spain,city-only,no-pin,city,,,https://www.matterwave.vc/privacy-policy,no-map-pin,"s the data on our behalf Typeform SL, Call Bac De Roda (Lo), 16308018 Barcelona, Spain. Storage duration: This information will be deleted a"
+investor_crm,394,Mennonite Economic Development Associates (MEDA),Kenya,city-only,no-pin,city,,,https://www.meda.org/contact,no-map-pin,"e: Kenya Gath Plaza Muthangari Drive, Westlands P.O. Box [redacted] Nairobi Kenya Phone: [redacted] / [redacted] Tanzania 1481"
+investor_crm,395,Meraki Impact,Netherlands,city-only,no-pin,city,,,https://merakiimpact.com/contact,no-map-pin,"age Send [redacted] Address Prinsengracht 769, 1017 JZ, Amsterdam THE DEFINITION OF MERAKI: To do something with soul, creativ"
+investor_crm,655,Mercy Corps,Netherlands,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q[redacted],no-map-pin,"Wikidata Q[redacted] (Mercy Corps Netherlands) P159 headquarters → The Hague, Netherlands"
+investor_crm,99,MercyCorps,,none,no-pin,unknown,,,https://www.mercycorps.org,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,720,Midpoint Brabant,,none,no-pin,unknown,,,https://midpointbrabant.nl,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,397,Milken Institute,South Korea,city-only,no-pin,city,,,https://milkeninstitute.org/contact,no-map-pin,ogues Back to International Global Dialogues EXPLORE Global Dialogues Toronto South Korea at the Crossroads Global Dialogues São Paulo Back
+investor_crm,721,Ministerie EZK,Netherlands,city-only,no-pin,city,,,https://www.government.nl/privacy,no-map-pin,f General Affairs Functionaris Persoonsgegevens Postbus [redacted] EA The Hague The Netherlands Contacting the data protection officer The G
+investor_crm,399,Ministry of Foreign Affairs,Netherlands,city-only,no-pin,city,,,https://www.government.nl/privacy,no-map-pin,f General Affairs Functionaris Persoonsgegevens Postbus [redacted] EA The Hague The Netherlands Contacting the data protection officer The G
+investor_crm,45,Mirova,United States,city-only,no-pin,city,,,https://www.mirova.com/contact,no-map-pin,content United States Austria Belgium Denmark Finland France Germany Hong Kong Ireland Italy Japan Luxembourg Netherlands Norway Poland Por
+investor_crm,400,Mitsubishi UFJ Trust and Banking Corporation,Japan,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q6883178,no-map-pin,"Wikidata Q6883178 (Mitsubishi UFJ Trust and Banking Corporation) P159 headquarters → Tokyo, Japan"
+investor_crm,919,Munich Venture Partners,Germany,city-only,no-pin,city,,,https://munichvp.com/imprint,no-map-pin,MG): Service Provider: MVP Management GmbH Tuerkenstrasse [redacted] Munich Germany Represented by the Managing Directors: Dr. Walter Grass
+investor_crm,402,NDPI Foundation,,none,no-pin,unknown,,,https://ndpifoundation.org,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,403,NEXT Generation Invest AG,Germany,city-only,no-pin,city,,,https://next-generation-group.de/impressum,no-map-pin,kunft. Drucken TOP NEXT Generation Invest GmbH Niedenau 61–63 | 60325 Frankfurt | Germany | [redacted] zurück Impressum Datenschut
+investor_crm,724,NL Groeit,,none,no-pin,unknown,,,https://www.nationaalgroeifonds.nl/english,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,831,NL Invest / Invest-NL,Netherlands,city-only,no-pin,city,,,https://www.invest-nl.nl/en,no-map-pin,this? Eduard de Visser (Director of strategy & innovation at Port of Amsterdam) and Dolores de Rooij (senior business development manager a
+investor_crm,725,NLC Health,Netherlands,city-only,no-pin,city,,,https://www.nlc.health,no-map-pin,re. Contact [redacted] The Cloud Building Mr Treublaan 7 1097 DP Amsterdam The Netherlands Follow us on Linkedin About NLC About Team I
+investor_crm,854,NPM Capital,Netherlands,country-only,no-pin,unknown,,,https://www.npm-capital.com/en,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,658,NREL,United States,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q1856153,no-map-pin,"Wikidata Q1856153 (National Laboratory of the Rockies) P159 headquarters → Golden, United States"
+investor_crm,404,NZ Super Fund,New Zealand,city-only,no-pin,city,,,https://nzsuperfund.nz/contact-us,no-map-pin,"re. New Zealand Super Fund Chief Post Office Level 1, 12 Queen Street Auckland Central Auckland 1010 New Zealand P O Box 106607 Auckland 114"
+investor_crm,46,NatureVest / The Nature Conservancy,Mexico,city-only,no-pin,city,,,https://www.nature.org/contact,no-map-pin,"a, Suite 200 Santa Fe, NM 87501 Phone: [redacted] Email: [redacted] New York 322 8th Avenue 14th Floor New York, NY 10001 Phone: [redacted]"
+investor_crm,405,Nawa Impact,,none,no-pin,unknown,,,https://nawaimpact.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,407,Neuberger Berman,United States,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q1851010,no-map-pin,"Wikidata Q1851010 (Neuberger Berman) P159 headquarters → New York City, United States"
+investor_crm,921,New Energy Capital,USA,country-only,no-pin,unknown,,,https://newenergycapital.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,659,New Ventures,,none,no-pin,unknown,,,https://www.nvgroup.org,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,411,Nithio,United States,city-only,no-pin,city,,,https://nithio.com/contact,no-map-pin," 700 K St NW, Washington, DC 20001  [email protected] Contact Lagos Nairobi Washington DC [email protected] Follow Nithio Follow Follow Ab"
+investor_crm,137,No Such Ventures,Netherlands,city-only,no-pin,city,,,https://nosuchventures.com/privacy-policy,no-map-pin,"vacy Policy No Such Ventures B.V., located at Wibaustraat 99, 1091 GL Amsterdam, the Netherlands is responsible for the processing of person"
+investor_crm,961,NoSuchVentures,Netherlands,city-only,no-pin,city,,,https://nosuchventures.com/privacy-policy,no-map-pin,"vacy Policy No Such Ventures B.V., located at Wibaustraat 99, 1091 GL Amsterdam, the Netherlands is responsible for the processing of person"
+investor_crm,726,Noaber,,none,no-pin,unknown,,,https://www.noaber.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,412,Nonprofit Finance Fund,United States,city-only,no-pin,city,,,https://nff.org/contact,no-map-pin,"Email Name First Last Organization Message CAPTCHA Submit Our Offices New York Headquarters & All Correspondence 880 Third Avenue, 12 th Flo"
+investor_crm,47,Nordfund,,none,no-pin,unknown,,,https://www.norfund.no,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,413,Nordic Development Fund,Finland,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q7050687,no-map-pin,"Wikidata Q7050687 (Nordic Development Fund) P159 headquarters → Helsinki, Finland"
+investor_crm,414,Nordic Microfinance Initiative AS,Norway,city-only,no-pin,city,,,https://www.ablernordic.com/contact,no-map-pin,"hysical address: c/o Norfund 14th Floor, The Address Muthangari Drive Nairobi Kenya Map Mailing address: Post box 66162 Westlands 00800 Nair"
+investor_crm,415,Nuveen,United States,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q7070622,no-map-pin,"Wikidata Q7070622 (Nuveen Investments) P159 headquarters → Chicago, United States"
+investor_crm,48,Nuveen (TIAA),,none,no-pin,unknown,,,https://www.nuveen.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,416,"Nuveen, a TIAA Company",,none,no-pin,unknown,,,https://www.nuveen.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,417,OGCI Climate Investments,United Kingdom,city-only,no-pin,city,,,https://www.climateinvestment.com/contact,no-map-pin,"cade House 25 Argyll Street London, W1F 7TS UK Find us on Google maps Houston office Suite [redacted] Louisiana Street Houston, TX 77002 Find"
+investor_crm,418,OGCI Climate Investments LLP,United Kingdom,city-only,no-pin,city,,,https://www.climateinvestment.com/contact,no-map-pin,"cade House 25 Argyll Street London, W1F 7TS UK Find us on Google maps Houston office Suite [redacted] Louisiana Street Houston, TX 77002 Find"
+investor_crm,49,OIKO,,none,no-pin,unknown,,,https://www.oikocredit.org,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,923,Obvious Ventures,USA,country-only,no-pin,unknown,,,https://obvious.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,420,Octobre,France,city-only,no-pin,city,,,https://www.octobre.earth,no-map-pin,ut Team Solution Values [redacted] 128 rue La Boétie 75008 Paris France. CONTACT US ©2025 Octobre All rights reserved. Privacy No
+investor_crm,845,Octopus Ventures,UK,country-only,no-pin,unknown,,,https://octopusventures.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,100,Oiko Credit,,none,no-pin,unknown,,,https://www.oikocredit.org,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,421,Old Mutual Alternative Investments,United States,city-only,no-pin,city,,,https://www.oldmutualalternatives.com/contact-us,no-map-pin,"al Alternative Investments Contact Old Mutual Alternative Investments Cape Town Building 2, Podium Level Riverlands 51 Gogosoa Street, Obser"
+investor_crm,423,Omnivore,,none,no-pin,unknown,,,https://omnivore.vc,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,424,One to Watch,,none,no-pin,unknown,,,https://www.onetowatch.nl,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,728,Oost NL,,none,no-pin,unknown,,,https://oostnl.nl/en,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,425,Open Capital,,none,no-pin,unknown,,,https://www.opencapital.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,426,Open Road Alliance,,none,no-pin,unknown,,,https://openroadalliance.org,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,972,Operator Exchange,,none,no-pin,unknown,,,https://operator.exchange,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,103,Orange Corners,,none,no-pin,unknown,,,https://www.orangecorners.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,428,"Orrick, Herrington & Sutcliffe LLP",Singapore,city-only,no-pin,city,,,https://www.orrick.com,no-map-pin,"ange County Paris Portland Rome Sacramento San Francisco Santa Monica Seattle Silicon Valley Singapore Tokyo Washington, D.C. Wheeling, W.V."
+investor_crm,429,Overlay Capital,United States,city-only,no-pin,city,,,https://overlaycapital.com/contact,no-map-pin,"ital Open main menu Investment Areas Asset Management Company Contact Atlanta HQ 34.0755° N, 84.2941° W Contact Offices Atlanta HQ 3000 Nort"
+investor_crm,431,PGGM & SDI Asset Owner Platform,Netherlands,city-only,no-pin,city,,,https://www.sdi-aop.org,no-map-pin,"to all market participants for take-up"" Address PO BOX [redacted] AG Amsterdam The Netherlands Contact Follow us on LinkedIN Disclaimer"
+investor_crm,161,PYM,,none,no-pin,unknown,,,https://www.pym.nu,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,433,"Palladium Equity Partners, LLC",United States,city-only,no-pin,city,,,https://www.palladiumequity.com,no-map-pin,"JSON-LD addressLocality=New York, addressCountry=US"
+investor_crm,434,Pangaea Ventures,Japan,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q[redacted],no-map-pin,"Wikidata Q[redacted] (Pangaea Ventures) P159 headquarters → Tokyo, Japan"
+investor_crm,435,Partnerships For Forests,,none,no-pin,unknown,,,https://partnershipsforforests.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,436,Pathstone,,none,no-pin,unknown,,,https://pathstone.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,437,PayPal,United States,city-only,no-pin,city,,,https://www.paypal.com/privacy,no-map-pin,"rivacy queries \n \n \n United States \n PayPal Inc. 2211 N. 1st St., San Jose, CA 95131 Contact Online for Privacy queries \n \n \n Vietnam"
+investor_crm,438,Pegasus 7 Ventures,,none,no-pin,unknown,,,https://www.pegasus7ventures.com/contact,no-map-pin,Rejected weak HQ parse (country-level or ambiguous)
+investor_crm,978,Perseo,,none,no-pin,unknown,,,https://www.iberdrola.com/about-us/our-innovation-model/international-startup-program-perseo,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,50,Persistent Energy Capital,,none,no-pin,unknown,,,https://persistent.energy,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,440,Pioneers Post,United States,city-only,no-pin,city,,,https://www.pioneerspost.com/contact,no-map-pin,"7 151945. Our postal address is: Pioneers Post, 99 Broomfield Avenue, London, N13 4JR Pioneers Post is produced by London Fields Publishing"
+investor_crm,441,PitchBook Data,United States,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q16967130,no-map-pin,"Wikidata Q16967130 (PitchBook Data) P159 headquarters → Seattle, United States"
+investor_crm,925,Piva Capital,Canada,city-only,no-pin,city,,,https://piva.vc/contact,no-map-pin,"any Email Phone Message Contact Info 4 Embarcadero Center, Suite 3950 San Francisco, CA 94111 Directions Phone: [redacted] Fax: +1 650"
+investor_crm,138,Planet A,Germany,city-only,no-pin,city,,,https://planet-a.com/contact,no-map-pin,estor Relations : [redacted] Media Relations: [redacted] Berlin Office: Planet A Ventures Neue Schönhauser Str 16 10178 Berlin
+investor_crm,826,Planet A Ventures,Germany,city-only,no-pin,city,,,https://planet-a.com/contact,no-map-pin,estor Relations : [redacted] Media Relations: [redacted] Berlin Office: Planet A Ventures Neue Schönhauser Str 16 10178 Berlin
+investor_crm,827,Planet B.io,Netherlands,country-only,no-pin,unknown,,,https://www.planet-b.io,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,661,Plug N Play,,none,no-pin,unknown,,,https://www.plugandplaytechcenter.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,442,Polestar Capital,,none,no-pin,unknown,,,https://www.polestarcapital.nl,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,926,Powerhouse Ventures,United States,city-only,no-pin,city,,,https://powerhouse-ventures.co/privacy-policy,no-map-pin,"house Innovation and Powerhouse Ventures 1528 Webster Street, Suite 8 Oakland, CA 94612 Email: [redacted] ""> Portfolio Tea"
+investor_crm,927,Prelude Ventures,United States,city-only,no-pin,city,,,https://www.preludeventures.com/privacy-policy,no-map-pin,"the following mailing address: Prelude Ventures LLC 1 Ferry Building San Francisco, California 94111 Work with our portfolio companies cont"
+investor_crm,101,Prime Coalition,,none,no-pin,unknown,,,https://www.primecoalition.org,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,444,Private Financing Advisory Network,,none,no-pin,unknown,,,https://pfan.net,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,445,Private Sector Foundation Uganda,,none,no-pin,unknown,,,https://www.psfuganda.org,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,446,Pro Mujer,United States,city-only,no-pin,city,,,https://promujer.org/terms,no-map-pin,"available on this page, shall be governed by the laws of the State of New York, United States. Provided that the visitor is not a consumer o"
+investor_crm,51,Proparco,France,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q3359849,no-map-pin,"Wikidata Q3359849 (PROPARCO) P159 headquarters → Paris, France"
+investor_crm,102,Proparco (FISEA+),,none,no-pin,unknown,,,https://www.proparco.fr/en,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,448,Prudential,United States,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q2114414,no-map-pin,"Wikidata Q2114414 (Prudential Financial) P159 headquarters → Prudential Headquarters, United States"
+investor_crm,449,Prudential Financial,United States,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q2114414,no-map-pin,"Wikidata Q2114414 (Prudential Financial) P159 headquarters → Prudential Headquarters, United States"
+investor_crm,450,PureTerra Ventures,Netherlands,city-only,no-pin,city,,,https://www.pureterra.com/contact,no-map-pin,ntrepreneurs Investors Email Linkedin Address Entrepotdok 78A 1018 AD Amsterdam The Netherlands Google Maps Clean water for all © All rights
+investor_crm,451,Q-Impact,Spain,city-only,no-pin,city,,,https://qimpact.com,no-map-pin,"JSON-LD addressLocality=Madrid, addressCountry=ES"
+investor_crm,452,QBE Insurance,Australia,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q138736,no-map-pin,"Wikidata Q138736 (QBE Insurance) P159 headquarters → Sydney, Australia"
+investor_crm,929,QStone Capital,Netherlands,country-only,no-pin,unknown,,,https://www.qstonecapital.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,605,Qapu Ventures,,none,no-pin,unknown,,,https://qapu.ventures,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,836,Quadia,Switzerland,city-only,no-pin,city,,,https://quadia.ch/legal,no-map-pin,s Blog Legal Notice LEGAL NOTICE Quadia SA Rue de l’Arquebuse 12 1204 Geneva Switzerland Tel .: [redacted] Email: [redacted] Websit
+investor_crm,453,Quona Capital,Brazil,city-only,no-pin,city,,,https://quona.com,no-map-pin,Bones of Insurance Read more India & Southeast Asia From São Paulo to Jakarta: Applying the Brazil Fintech Playbook to Southeast Asia Read m
+investor_crm,454,Quona Capital Management Ltd.,Brazil,city-only,no-pin,city,,,https://quona.com,no-map-pin,Bones of Insurance Read more India & Southeast Asia From São Paulo to Jakarta: Applying the Brazil Fintech Playbook to Southeast Asia Read m
+investor_crm,735,ROM Utrecht Region,,none,no-pin,unknown,,,https://romutrechtregion.nl,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,733,Rabobank,Netherlands,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q252004,no-map-pin,"Wikidata Q252004 (Rabobank) P159 headquarters → Utrecht, Netherlands"
+investor_crm,52,Rabobank Energy,,none,no-pin,unknown,,,https://www.rabobank.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,812,Rabobank Start-to-Scale-up Team,Netherlands,country-only,no-pin,unknown,,,https://www.rabobank.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,53,Rabobank renewable energy,Netherlands,country-only,no-pin,unknown,,,https://www.rabobank.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,455,Rainforest Alliance,Guatemala,city-only,no-pin,city,,,https://www.rainforest-alliance.org/contact,no-map-pin,"ity Avenue, East Legon, Accra, Ghana Also supports: Nigeria Guatemala Guatemala City Diagonal 6, 12-42, Zona 10, Edificio Design Center, Tor"
+investor_crm,456,Rally Assets,,none,no-pin,unknown,,,https://rallyassets.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,457,Raskob Foundation for Catholic Activities,,none,no-pin,unknown,,,https://www.rfca.org,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,458,Reach for Change,Sweden,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q10633742,no-map-pin,"Wikidata Q10633742 (Reach for Change) P159 headquarters → Stockholm, Sweden"
+investor_crm,460,Realdania,,none,no-pin,unknown,,,https://www.realdania.org,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,461,Red Ribbon Capital Partners,,none,no-pin,unknown,,,https://www.redribbon.capital,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,462,Reed Smith,United States,city-only,no-pin,city,,,https://www.reedsmith.com,no-map-pin,"JSON-LD addressLocality=Pittsburgh, addressCountry=US"
+investor_crm,463,Regenerate Asset Management,United States,city-only,no-pin,city,,,https://regenerateam.com/contact,no-map-pin,uired) Email Address (Required) Subject (Required) Message (Required) London 33 St James's Street London SW1A 1HD Leeds Marshall Mills Marsh
+investor_crm,464,Resonance,,none,no-pin,unknown,,,https://resonance.fund/terms,no-map-pin,Rejected weak HQ parse (country-level or ambiguous)
+investor_crm,54,Responsability,Switzerland,city-only,no-pin,city,,,https://www.responsability.com,no-map-pin,responsAbility Investments AG Zollstrasse 17 8005 Zurich Switzerland
+investor_crm,465,Rethink Capital Partners,,none,no-pin,unknown,,,https://rethink-capital.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,930,Rgreen Invest,France,city-only,no-pin,city,,,https://www.rgreeninvest.com/en,no-map-pin,"adaptation to climate change. CONTACT US 47-51 rue de Chaillot 75016 Paris, France Tél: [redacted] [redacted] Legal te"
+investor_crm,466,Rhia Ventures,,none,no-pin,unknown,,,https://rhiaventures.org,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,467,Robeco,Netherlands,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q3051079,no-map-pin,"Wikidata Q3051079 (Robeco) P159 headquarters → Rotterdam, Netherlands"
+investor_crm,962,Rockstart,Netherlands,city-only,no-pin,city,,,https://rockstart.com/contact,no-map-pin,"sit us The Netherlands Rockstart Netherlands Overhoeksplein 1 1031 KS Amsterdam The Netherlands Denmark Rockstart Denmark Titanhus, Titangad"
+investor_crm,822,Rockstart Energy,Netherlands,city-only,no-pin,city,,,https://rockstart.com/privacy,no-map-pin,": Rockstart Enterprises B.V. Compliance Overhoeksplein 1, A’DAM Tower Amsterdam, 1031 KS Netherlands We are very committed to working with y"
+investor_crm,468,Root Capital,United States,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q7366548,no-map-pin,"Wikidata Q7366548 (Root Capital) P159 headquarters → Cambridge, United States"
+investor_crm,162,Rubio,Netherlands,city-only,no-pin,city,,,https://rubio.vc,no-map-pin,"Plantage Middenlaan 45, 1018 DC Amsterdam"
+investor_crm,736,Rubio VC,Netherlands,city-only,no-pin,city,,,https://rubio.vc,no-map-pin,"Plantage Middenlaan 45, 1018 DC Amsterdam"
+investor_crm,469,SDI Asset Owner Platform,Netherlands,city-only,no-pin,city,,,https://www.sdi-aop.org,no-map-pin,"to all market participants for take-up"" Address PO BOX [redacted] AG Amsterdam The Netherlands Contact Follow us on LinkedIN Disclaimer"
+investor_crm,740,SET Ventures,Netherlands,country-only,no-pin,unknown,,,https://setventures.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,470,SIDI,United States,city-only,no-pin,city,,,https://www.sidi.fr/en,no-map-pin,site. - Privacy Policy Δ Logo sidi fond bleu 4 rue Jean Lantier 75001 Paris Tél. : [redacted] Facebook Twitter Linkedin Youtube Newslett
+investor_crm,471,SIGLO Capital Advisors AG,,none,no-pin,unknown,,,https://www.siglo.ch/en,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,472,SIIF,,none,no-pin,unknown,,,https://www.siif.or.jp/en,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,473,SIMA Funds,United States,city-only,no-pin,city,,,https://simafunds.com/contact,no-map-pin,"ack to you as soon as possible. Visit Us 157 Columbus Ave, Suite 512, New York, NY 10023 Mail us [redacted] Feedback or Grievances C"
+investor_crm,474,SJF Ventures,,none,no-pin,unknown,,,https://sjfventures.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,938,SOSV,USA,country-only,no-pin,unknown,,,https://sosv.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,55,SUMA Capital,United States,city-only,no-pin,city,,,https://sumacapital.com/en,no-map-pin,"id [redacted] Paris 75 Bd Haussmann, 75008 Paris [redacted] Milan Via Giuseppe Mengoni, 4, 20121 Milano MI [redacted] About u"
+investor_crm,480,SWEN CP,France,city-only,no-pin,city,,,https://www.swen-cp.fr/about,no-map-pin,"people Visit us Visit us SWEN Capital Partners 14 rue Roquépine 75018 Paris, France [redacted] [redacted] colonne About Susta"
+investor_crm,481,SWEN Capital Partners,France,city-only,no-pin,city,,,https://www.swen-cp.fr/about,no-map-pin,"people Visit us Visit us SWEN Capital Partners 14 rue Roquépine 75018 Paris, France [redacted] [redacted] colonne About Susta"
+investor_crm,483,SYSTEMIQ,,none,no-pin,unknown,,,https://www.systemiq.earth,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,933,Safran,France,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q1886126,no-map-pin,"Wikidata Q1886126 (Safran) P159 headquarters → Paris, France"
+investor_crm,484,Sahel Capital Agribusiness Managers Limited,United Kingdom,city-only,no-pin,city,,,https://sahelcapital.com/contact,no-map-pin,"s Sahel Quarterly Videos Contact us Office Address 127 Double Street, Dublin, United Kingdom. Telephone p: ([redacted] p: ([redacted]"
+investor_crm,934,Sail Capital,USA,country-only,no-pin,unknown,,,https://www.sailcapital.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,485,Sail Ventures,,none,no-pin,unknown,,,https://sail-investments.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,664,Salkantay,,none,no-pin,unknown,,,https://www.salkantay.vc,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,487,Sanlam Investments,,none,no-pin,unknown,,,https://www.sanlam.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,104,Satgana,Switzerland,country-only,no-pin,unknown,,,https://www.satgana.com/contact,no-map-pin,Rejected weak HQ parse (country-level or ambiguous)
+investor_crm,105,Saviu VC,,none,no-pin,unknown,,,https://www.saviu.vc/,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,56,Schneider Electric Energy Access,,none,no-pin,unknown,,,https://www.se.com/ww/en,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,488,Schroders,United Kingdom,city-only,no-pin,city,,,https://www.schroders.com,no-map-pin,"JSON-LD addressLocality=London, addressCountry=United Kingdom"
+investor_crm,489,Schroders/BlueOrchard,United Kingdom,city-only,no-pin,city,,,https://www.schroders.com,no-map-pin,"JSON-LD addressLocality=London, addressCountry=United Kingdom"
+investor_crm,490,Scipion Capital Ltd,United Kingdom,city-only,no-pin,city,,,https://www.scipion-capital.com,no-map-pin,"Cayman Islands SCIPION CAPITAL (UK) LTD 15 Half Moon Street Mayfair, London, W1J 7DZ United Kingdom Tel: [redacted] SCIPION CAPITA"
+investor_crm,935,Seabird Ventures,Norway,country-only,no-pin,unknown,,,https://www.seabirdventures.fund,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,142,Seedrocket,,none,no-pin,unknown,,,https://www.seedrocket.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,57,Shell Ventures,,none,no-pin,unknown,,,https://www.shell.com/what-we-do/technology-and-innovation/innovate-with-shell/shell-ventures.html,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,804,Shift Invest,Netherlands,country-only,no-pin,unknown,,,https://shiftinvest.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,936,Shift4Good,France,country-only,no-pin,unknown,,,https://www.shift4good.com/contact-us,no-map-pin,Rejected weak HQ parse (country-level or ambiguous)
+investor_crm,974,Shiftinvest,,none,no-pin,unknown,,,https://shiftinvest.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,794,Ship2B,Spain,country-only,no-pin,unknown,,,https://www.ship2b.org/en,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,143,Ship2b Ventures,Spain,country-only,no-pin,unknown,,,https://ship2bventures.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,492,Si3,United States,city-only,no-pin,city,,,https://shapingimpact.group/contact,no-map-pin,"re to find us Brussels Impact House – Rue Joseph II 20, 1000 Brussels Rotterdam CIC Rotterdam – Stationsplein 45, 4th floor, 3013 AK, Rotter"
+investor_crm,493,Sillman Thomas,Ireland,city-only,no-pin,city,,,https://www.sillmanthomas.com,no-map-pin,"rn more Learn more about us Learn more Global HQ, 31 Westland Square, Dublin 2, Ireland. D02 AW71 E: [email protected] PRIVACY POLICY Execut"
+investor_crm,494,SilverStreet Capital,,none,no-pin,unknown,,,https://www.silverstreetcapital.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,495,Silverhorn,Singapore,city-only,no-pin,city,,,https://www.silverhorngroup.com/contact-us,no-map-pin,"ral Business District Jl. Jend. Sudirman Kav. 52 – 53 Kebayoran Baru, Jakarta Selatan DKI Jakarta 12190 ​ [redacted] Singapore #05-01, Ca"
+investor_crm,497,Skybound Capital,United Kingdom,city-only,no-pin,city,,,https://www.skyboundcapital.com/contact-us,no-map-pin,"JSON-LD addressLocality=London, addressCountry=GB"
+investor_crm,498,Small Foundation,Ireland,city-only,no-pin,city,,,https://smallfoundation.ie,no-map-pin,"esources Connect [redacted] 30 Merrion Square North Dublin 2, D02 VE40, Ireland Small Foundation does not accept unsolicit"
+investor_crm,937,Sofinnova Partners,France,city-only,no-pin,city,,,https://sofinnovapartners.com/contact,no-map-pin,"Haussmann Paris, France 75009 Milan Via Borgogna 5 Milan, Italy 20122 London 50 York Way London, UK N1 9AB Social media Twitter LinkedIn Sen"
+investor_crm,500,Sophora,,none,no-pin,unknown,,,https://www.sophora.de/en,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,501,Soros Economic Development Fund,,none,no-pin,unknown,,,https://www.soroseconomicdevelopmentfund.org,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,939,South Pole,Sweden,city-only,no-pin,city,,,https://www.southpole.com/privacy-policy,no-map-pin,"ncia Española de Protección de Datos (AEPD) C/ Jorge Juan, 6. 28001 - Madrid [redacted] https://www.aepd.es/es Sweden Integritetsskyddsmynd"
+investor_crm,502,Spin Ventures,,none,no-pin,unknown,,,https://spin.vc,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,941,Spring Lane Capital,Canada,city-only,no-pin,city,,,https://www.springlanecapital.com,no-map-pin,"Privacy Terms & Conditions Subscribe to our newsletter Email Address Montreal Espace CDPQ, 3 Place Ville Marie, Bureau 12350 Montreal , QC"
+investor_crm,504,Squire Patton Boggs,Singapore,city-only,no-pin,city,,,https://www.squirepattonboggs.com,no-map-pin,Miami Milan New Jersey New York Palo Alto Paris Perth Phoenix Prague San Francisco Riyadh Santo Domingo Shanghai Singapore Sydney Tampa Tok
+investor_crm,505,Stafford Capital Partners,Netherlands,city-only,no-pin,city,,,https://www.staffordcp.com/legal,no-map-pin,"289397, with its registered office address at Coolsingel 104, 3011 AG Rotterdam, the Netherlands. It holds a license from the Dutch authorit"
+investor_crm,506,Stardust Equity,,none,no-pin,unknown,,,https://weareallstardust.com/equity,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,507,Startup Discovery School,,none,no-pin,unknown,,,https://www.startupdiscoveryschool.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,741,Startup Utrecht,,none,no-pin,unknown,,,https://www.startuputrechtregion.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,508,Steward Redqueen,Netherlands,city-only,no-pin,city,,,https://www.stewardredqueen.com,no-map-pin,eated with Sketch. Follow us THE NETHERLANDS Teerketelsteeg 1 1012 TB Amsterdam The Netherlands Tel: [redacted] info@stewardredqueen
+investor_crm,509,Stichting SED Fund,,none,no-pin,unknown,,,https://sed.fund,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,59,Summa Equity,Norway,country-only,no-pin,unknown,,,https://summaequity.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,60,SunFunder,United States,city-only,no-pin,city,,,https://www.mirova.com/contact,no-map-pin,content United States Austria Belgium Denmark Finland France Germany Hong Kong Ireland Italy Japan Luxembourg Netherlands Norway Poland Por
+investor_crm,743,Superconnectors,,none,no-pin,unknown,,,https://www.superconnectors.io,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,511,"Sustainable Leaders Investment Management, Parnter firm Olduvai Capital",,none,no-pin,unknown,,,https://sustainableleadersinvestmentmanagement.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,942,Sustainable Ocean Alliance,USA,country-only,no-pin,unknown,,,https://www.soalliance.org,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,943,Sustainable Ventures,United States,city-only,no-pin,city,,,https://www.sustainableventures.co.uk/contact,no-map-pin,[redacted]. Sustainable Ventures London Manchester Glasgow Cambridge How to find our offices Useful Links Contact us Press enquir
+investor_crm,512,Swedfund,Sweden,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q10686496,no-map-pin,"Wikidata Q10686496 (Swedfund) P159 headquarters → Stockholm, Sweden"
+investor_crm,513,Symbiotics SA,South Africa,city-only,no-pin,city,,,https://symbioticsgroup.com/contact,no-map-pin,"[redacted] DELHI Unit 430, Vatika Atrium, Sector 53, Golf Course Road Gurugram, Haryana, 122022 India [redacted] GENEVA (HQ) Rue de la"
+investor_crm,668,Syngenta Group,Switzerland,city-only,no-pin,city,,,https://www.syngenta.com/contact,no-map-pin,"ram Contact us Syngenta Global Corporate Contacts Global Headquarters BASEL, SWITZERLAND Syngenta Crop Protection AG Rosentalstr. 67 4058 Ba"
+investor_crm,514,T. Rowe Price,,none,no-pin,unknown,,,https://www.troweprice.com,no-map-pin,Rejected weak HQ parse (country-level or ambiguous)
+investor_crm,516,TIIP: The Investment Integration Project,United States,city-only,no-pin,city,,,https://tiiproject.com/contact,no-map-pin,": The Investment Integration Project 5 Union Square West FRNT 1 #1256 New York, NY 10003 SAIL For a demo of SAIL, email [email protected] or"
+investor_crm,747,TNO,United States,city-only,no-pin,city,,,https://www.tno.nl/en,no-map-pin,"d more over TNO AI event 2026 Startdatum : 8 Dec Locatie : Jaarbeurs, Utrecht More Contact us about your R&D challenge Find your expert Skip"
+investor_crm,517,TSIC,,none,no-pin,unknown,,,https://www.tsiconsultancy.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,62,TWYNAM Earth Fund,Australia,country-only,no-pin,unknown,,,https://twynam.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,518,Talanton Impact Fund,,none,no-pin,unknown,,,https://www.talantonimpact.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,519,Tamil Nadu Shelter Fund,,none,no-pin,unknown,,,https://tnifmc.com/shelter-fund,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,522,Telos Impact srl,Belgium,city-only,no-pin,city,,,https://www.telosimpact.com,no-map-pin,"ith a positive impact ? Contact us Belgium 19, rue Vilain XIIII, 1000 Brussels France 9, rue Bleue, 75009 Paris About Who we are Mission Val"
+investor_crm,523,Temasek,,none,no-pin,unknown,,,https://www.wikidata.org/wiki/Q762479,no-map-pin,Rejected weak HQ parse (country-level or ambiguous)
+investor_crm,946,Tera Ventures,Estonia,city-only,no-pin,city,,,https://www.tera.vc/privacy,no-map-pin,"nia, registration code 14088576, registered address Pikk tn 7, 10123, Tallinn, Estonia and our subsidiaries (hereinafter “ Tera Ventures ”,"
+investor_crm,524,The Atmospheric Fund,Canada,city-only,no-pin,city,,,https://taf.ca/contact,no-map-pin,"ess: Metro Hall (C/O Union Station, 2nd Floor East Wing), 55 John St. Toronto, ON M5V 3C6 Physical Address : Union Station, 61 Front St. W,"
+investor_crm,525,The Bridgespan Group,,none,no-pin,unknown,,,https://www.bridgespan.org/contact-us,no-map-pin,Rejected weak HQ parse (country-level or ambiguous)
+investor_crm,526,The Good Economy Limited,United Kingdom,city-only,no-pin,city,,,https://thegoodeconomy.co.uk/contact,no-map-pin,"Scott House, Suite 1, The Concourse, Waterloo Station, London, SE1 7LY"
+investor_crm,527,The Good Economy Ltd,United Kingdom,city-only,no-pin,city,,,https://thegoodeconomy.co.uk/contact,no-map-pin,"Scott House, Suite 1, The Concourse, Waterloo Station, London, SE1 7LY"
+investor_crm,528,The Hague Business Agency,United States,city-only,no-pin,city,,,https://thehague.com/privacy-policy,no-map-pin,"g company of Twitter is Twitter, Inc., 1355 Market Street, Suite 900, San Francisco, CA 94103, UNITED STATES. With each call-up to one of th"
+investor_crm,529,"The John D. Gerhart Center for Philanthropy, Civic Engagement, and Responsible Business",Egypt,city-only,no-pin,city,,,https://business.aucegypt.edu/research/centers/gerhart,no-map-pin,"AUC Avenue, P.O. Box 74 New Cairo 11835, Egypt t [redacted]"
+investor_crm,530,The Nature Conservancy,Mexico,city-only,no-pin,city,,,https://www.nature.org/contact,no-map-pin,"a, Suite 200 Santa Fe, NM 87501 Phone: [redacted] Email: [redacted] New York 322 8th Avenue 14th Floor New York, NY 10001 Phone: [redacted]"
+investor_crm,531,The Scottish National Investment Bank,,none,no-pin,unknown,,,https://www.thebank.scot,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,144,The Sharing Group,United States,city-only,no-pin,city,,,https://thesharinggroup.com/about,no-map-pin,L Menu Contact us en Menu --> Postal address Bijlmerplein 888 1102 DE Amsterdam Our locations Socials Follow us on LinkedIn Meer informatie
+investor_crm,533,The UN Sanitation and Hygiene Fund,,none,no-pin,unknown,,,https://www.shfund.org,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,534,The Visa Foundation,,none,no-pin,unknown,,,https://corporate.visa.com/en/sites/visa-foundation.html,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,670,The Yield Lab LATAM,Argentina,city-only,no-pin,city,,,https://theyieldlablatam.com,no-map-pin,--> We are part of The Yield Lab Network REGIONAL FOOTPRINT Argentina Buenos Aires [redacted] Colombia Medellín colombia@they
+investor_crm,971,TheSharingGroup,United States,city-only,no-pin,city,,,https://thesharinggroup.com/about,no-map-pin,L Menu Contact us en Menu --> Postal address Bijlmerplein 888 1102 DE Amsterdam Our locations Socials Follow us on LinkedIn Meer informatie
+investor_crm,947,Theia Finance Labs,Germany,city-only,no-pin,city,,,https://theiafinance.org/imprint,no-map-pin,"ative Deutschland e.V.) Neue Schönhauser Straße 3-5, c/o WeWork 10178 Berlin Germany"
+investor_crm,535,ThomasLloyd Group Ltd.,Germany,city-only,no-pin,city,,,https://www.thomas-lloyd.com/imprint,no-map-pin,r Hub Newsroom Careers Imprint ThomasLloyd Climate Solutions GmbH c/o Munich City Office Rosental 5 80331 Munich Germany Tel.: [redacted]
+investor_crm,536,Tideline,United Kingdom,city-only,no-pin,city,,,https://tideline.com/contact,no-map-pin,"and a presence in the following locations: San Francisco, California New York, New York Portland, Oregon London, United Kingdom Follow The"
+investor_crm,537,Timberland Investment Group,United States,city-only,no-pin,city,,,https://timberlandinvestmentgroup.com,no-map-pin,"uiries regarding land leases in the US: [redacted] NEW YORK 601 Lexington Ave – 57 th Floor New York, NY 10022 [redacted]"
+investor_crm,539,Tonbo,,none,no-pin,unknown,,,https://www.tonboimpact.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,541,TortoiseEcofin,,none,no-pin,unknown,,,https://tortoiseecofin.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,63,Toyota Ventures,,none,no-pin,unknown,,,https://www.toyota-ventures.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,542,Trade and Development Bank of Mongolia,Mongolia,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q7832017,no-map-pin,"Wikidata Q7832017 (Trade and Development Bank of Mongolia) P159 headquarters → Ulaanbaatar, Mongolia"
+investor_crm,543,"Treehouse Investments, LLC",,none,no-pin,unknown,,,https://www.treehouseinvestments.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,544,Trimtab Impact,,none,no-pin,unknown,,,https://www.trimtabimpact.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,64,Triodos,Netherlands,city-only,no-pin,city,,,https://www.triodos.com/contact,no-map-pin,iebergen-Rijsenburg The Netherlands Postal address: PO Box 55 3700 AB Zeist The Netherlands Phone: [redacted] Route description -
+investor_crm,164,Triodos Bank,Netherlands,city-only,no-pin,city,,,https://www.triodos.com/contact,no-map-pin,iebergen-Rijsenburg The Netherlands Postal address: PO Box 55 3700 AB Zeist The Netherlands Phone: [redacted] Route description -
+investor_crm,65,Triodos Investment Management,Netherlands,country-only,no-pin,unknown,,,https://www.triodos-im.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,797,Triodos speciaal fonds,Netherlands,country-only,no-pin,unknown,,,https://www.triodos-im.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,545,Triple P Advisory Pte Ltd,,none,no-pin,unknown,,,https://www.triplepcapital.com,no-map-pin,Rejected weak HQ parse (country-level or ambiguous)
+investor_crm,546,Truvalu B.V.,,none,no-pin,unknown,,,https://truvalu-group.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,547,Truvalu.enterprises Limited,,none,no-pin,unknown,,,https://truvalu-group.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,548,Tufts University Investment Office,United States,city-only,no-pin,city,,,https://investments.tufts.edu/contact-us,no-map-pin,"tact Us Tufts University Investment Office​ 99 High Street, Suite 803 Boston, MA 02110 Investment Partners ​ Careers​ Media Inquiries Contac"
+investor_crm,549,Tyton Partners,,none,no-pin,unknown,,,https://tytonpartners.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,550,U.S. Impact Investing Alliance,,none,no-pin,unknown,,,https://impinvalliance.org,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,66,U.S. International Development Finance Corporation (DFC),United States,city-only,no-pin,city,,,https://www.dfc.gov/privacy,no-map-pin,"ivacy Program U.S. International Development Finance Corporation 1100 New York Avenue, NW Washington, DC 20527 Email Address: [redacted]"
+investor_crm,551,UBS,,none,no-pin,unknown,,,https://www.ubs.com/contact,no-map-pin,Rejected weak HQ parse (country-level or ambiguous)
+investor_crm,552,UC Impower Fund,India,city-only,no-pin,city,,,https://ucimpower.com/contact,no-map-pin,"Prestige Towers, 99/100, Residency Rd, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560025, India We have a team based in Delhi NCR a"
+investor_crm,553,US International Development Finance Corporation (DFC),United States,city-only,no-pin,city,,,https://www.dfc.gov/privacy,no-map-pin,"ivacy Program U.S. International Development Finance Corporation 1100 New York Avenue, NW Washington, DC 20527 Email Address: [redacted]"
+investor_crm,554,Ubuntoo,,none,no-pin,unknown,,,https://ubuntoo.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,672,Uncompromise,,none,no-pin,unknown,,,https://uncompromise.vc,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,555,United Nations,United States,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q1065,no-map-pin,"Wikidata Q1065 (United Nations) P159 headquarters → New York City, United States"
+investor_crm,948,United Ventures,Italy,country-only,no-pin,unknown,,,https://unitedventures.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,556,Unitus Labs,,none,no-pin,unknown,,,https://unituslabs.org,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,833,University of Capetown,South Africa,country-only,no-pin,unknown,,,https://www.uct.ac.za,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,557,University of Oxford,United Kingdom,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q34433,no-map-pin,"Wikidata Q34433 (University of Oxford) P159 headquarters → Oxford, United Kingdom"
+investor_crm,558,University of Utah,United States,city-only,no-pin,city,,,https://www.utah.edu/contact,no-map-pin,"ess: The University of Utah Admissions Office 201 S 1460 E Room 250 S Salt Lake City, UT [redacted] Presidents Circle Salt Lake City, UT"
+investor_crm,559,Upaya Social Ventures,,none,no-pin,unknown,,,https://www.upayasv.org,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,560,Upright,Finland,city-only,no-pin,city,,,https://www.uprightproject.com,no-map-pin,"JSON-LD addressLocality=Helsinki, addressCountry=FI"
+investor_crm,749,Utrecht Inc,,none,no-pin,unknown,,,https://utrechtinc.nl,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,561,Uxolo,United Kingdom,city-only,no-pin,city,,,https://uxolo.com/contact,no-map-pin,-34 Ponton Road London SW11 7BA London office × Get in touch with our New York Office US: [redacted] Avenue of the Americas Suite
+investor_crm,562,Uxolo Development Finance,United Kingdom,city-only,no-pin,city,,,https://uxolo.com/contact,no-map-pin,-34 Ponton Road London SW11 7BA London office × Get in touch with our New York Office US: [redacted] Avenue of the Americas Suite
+investor_crm,751,VGZ,,none,no-pin,unknown,,,https://www.vgz.nl,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,563,Value for Women,United Kingdom,city-only,no-pin,city,,,https://www.v4w.org,no-map-pin,"en Ltd. is a UK-registered Company (No. 08239074), 86-90 Paul Street, London, EC2A 4NE. Value for Women Foundation is a US-registered 501(c)"
+investor_crm,564,Van Lanschot Kempen,United Kingdom,city-only,no-pin,city,,,https://www.vanlanschotkempen.com/contact,no-map-pin,"n, EC3V 0BG T [redacted] Frankrijk 16 Cours Albert 1er 75008 Paris T [redacted] Van Lanschot Kempen Investment Management ("
+investor_crm,565,Vantain AG and Climate Fund Managers,,none,no-pin,unknown,,,https://www.vantain.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,950,Vargas Holding / Altor Vargas,Sweden,country-only,no-pin,unknown,,,https://www.vargasholding.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,566,"Variant Investments, LLC",,none,no-pin,unknown,,,https://variantinvestments.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,808,Vattenfal,United States,city-only,no-pin,city,,,https://group.vattenfall.com,no-map-pin,Vattenfall AB Tel.[redacted] Fax.[redacted] SE-169 92 Stockholm Contact us Follow us LinkedIn YouTube Instagram Facebook Abo
+investor_crm,750,Venturerock,Netherlands,city-only,no-pin,city,,,https://venturerock.com,no-map-pin,"Local twist . VENTUREROCK EUROPE Kattenburgerstraat 5, 027E, 1018 JA Amsterdam, The Netherlands. Contact us VENTUREROCK ABU DHABI B03, 11th"
+investor_crm,951,Victory Capital,USA,country-only,no-pin,unknown,,,https://www.vcm.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,567,Vidia GmbH,Germany,city-only,no-pin,city,,,https://vidiaequity.com/privacy,no-map-pin,"idia GmbH. Company name: Vidia GmbH Address: Bürkleinstraße 10, 80538 Munich, Germany Email: [redacted] 1.3 Contact details of"
+investor_crm,568,Vinci Impact and Return,,none,no-pin,unknown,,,https://www.vincipartners.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,569,"Vinte Viviendas Integrales, S.A.B. de C.V. (Vinte)",,none,no-pin,unknown,,,https://vinte.com/en,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,570,Visa Foundation,,none,no-pin,unknown,,,https://corporate.visa.com/en/sites/visa-foundation.html,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,571,Vista Equity Partners,United States,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q7936440,no-map-pin,"Wikidata Q7936440 (Vista Equity Partners) P159 headquarters → Austin, United States"
+investor_crm,673,Vista alta,,none,no-pin,unknown,,,https://www.vista-alta.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,572,Vital Capital Fund,,none,no-pin,unknown,,,https://vital-capital.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,573,Vital Strategies,France,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q30268388,no-map-pin,"Wikidata Q30268388 (Vital Strategies) P159 headquarters → Paris, France"
+investor_crm,574,Vivriti Asset Management,India,city-only,no-pin,city,,,https://www.vivritiamc.com,no-map-pin,"JSON-LD addressLocality=Chennai, addressCountry=IN"
+investor_crm,575,Vivriti Asset Management Private Limited,India,city-only,no-pin,city,,,https://www.vivritiamc.com,no-map-pin,"JSON-LD addressLocality=Chennai, addressCountry=IN"
+investor_crm,576,Volans,United States,city-only,no-pin,city,,,https://volans.com/privacy,no-map-pin,"s, please email us . Stay connected New Wing, Somerset House, Strand, London, WC2R 1LA Call: [redacted] Sign up to read our newsletter"
+investor_crm,577,Vox Capital,United States,city-only,no-pin,city,,,https://voxcapital.com.br/about,no-map-pin,"[redacted] R. Mourato Coelho, 936 – Cj. 73 – Pinheiros, São Paulo – SP, [redacted] Linkedin Instagram Youtube Spotify about us"
+investor_crm,674,WWF Fund,,none,no-pin,unknown,,,https://wwf.panda.org,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,581,WaterEquity,,none,no-pin,unknown,,,https://waterequity.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,857,Wellington,USA,country-only,no-pin,unknown,,,https://www.wellington.com/en,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,582,Wellington Management,United States,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q2557807,no-map-pin,"Wikidata Q2557807 (Wellington Management Company) P159 headquarters → Boston, United States"
+investor_crm,68,World Fund,Germany,city-only,no-pin,city,,,https://www.worldfund.vc/imprint,no-map-pin,"ction 5 TMG WF World Fund Management GmbH Invalidenstraße 115, 10115, Berlin, Germany ‍ Managing Directors: Daria Saharova, Tim Schumacher,"
+investor_crm,583,World Vision,,none,no-pin,unknown,,,https://visionfund.org,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,584,World Wide Fund for Nature (WWF) Zambia,,none,no-pin,unknown,,,https://www.wwfzm.panda.org,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,585,XSML Capital,Netherlands,city-only,no-pin,city,,,https://www.xsmlcapital.com,no-map-pin,"esence needed to reach hard-to-access frontier markets."" DFI Investor AMSTERDAM Mauritskade 63 1092 AD Amsterdam The Netherlands info@xsmlca"
+investor_crm,756,YES!Delft,Netherlands,city-only,no-pin,city,,,https://yesdelft.com/contact,no-map-pin,"elft is located in Delft, The Netherlands. We also have flex desks in Rotterdam and The Hague. Delft Molengraaffsingel 12 2629 JD Delft Delf"
+investor_crm,809,Yes!Delft Investment Club,Netherlands,city-only,no-pin,city,,,https://www.yesdelft.com/contact,no-map-pin,"elft is located in Delft, The Netherlands. We also have flex desks in Rotterdam and The Hague. Delft Molengraaffsingel 12 2629 JD Delft Delf"
+investor_crm,587,Yunus Social Business,India,city-only,no-pin,city,,,https://www.yunussb.com/contact,no-map-pin,"website India Avalahalli, JP Nagar 9th Phase, Amruth Nagar Main Road Bengaluru – 560062 [redacted] [redacted] Visit web"
+investor_crm,69,Zubi Capital,Spain,country-only,no-pin,unknown,,,https://zubicapital.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,588,Zürcher Kantonalbank (ZKB),,none,no-pin,unknown,,,https://www.zkb.ch/en/home,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,589,alter equity,,none,no-pin,unknown,,,https://www.alter-equity.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,590,asc impact GmbH,,none,no-pin,unknown,,,https://asc-impact.com/en,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,591,eha Impact Ventures,,none,no-pin,unknown,,,https://www.eha.ventures,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,592,evolutiq impact advisory,,none,no-pin,unknown,,,https://impact-advisory.evolutiq.com/en,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,593,iConnections,,none,no-pin,unknown,,,https://iconnections.io,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,970,infiniumpartners,,none,no-pin,unknown,,,https://www.infiniumpartners.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,594,iungo capital,,none,no-pin,unknown,,,https://iungocapital.com,no-map-pin,No HQ city found on fetched official pages or Wikidata P159
+investor_crm,109,pymwymic,Netherlands,city-only,no-pin,city,,,https://pymwymic.com,no-map-pin,"Statement [redacted] [redacted] Mauritskade 63 1092 AD Amsterdam, The Netherlands Chamber of Commerce: 67473962 VAT: NL857013"
+investor_crm,595,responsAbility Investments AG,Switzerland,city-only,no-pin,city,,,https://www.responsability.com,no-map-pin,responsAbility Investments AG Zollstrasse 17 8005 Zurich Switzerland
+investor_crm,596,water.org,United States,city-only,no-pin,city,,,https://www.wikidata.org/wiki/Q7973231,no-map-pin,"Wikidata Q7973231 (Water.org) P159 headquarters → Kansas City, United States"
+idea_curated_imd_pe,agrolens-food-agriculture,AgroLens,Peru,country-only,no-pin,,,,,bookstack-live-no-snapshot,city in page markdown only
+idea_curated_imd_pe,andean-biofactorie-food-agriculture,Andean Biofactories,Peru,country-only,no-pin,,,,,bookstack-live-no-snapshot,city in page markdown only
+idea_curated_imd_pe,cirkula-food-agriculture,Cirkula,Peru,country-only,no-pin,,,,www.cirkula.co,bookstack-live-no-snapshot,city in page markdown only
+idea_curated_imd_pe,ecosonus-food-agriculture,Ecosonus,Peru,country-only,no-pin,,,,,bookstack-live-no-snapshot,city in page markdown only
+idea_curated_imd_pe,fivra-clean-industry,FIVRA,Peru,country-only,no-pin,,,,,bookstack-live-no-snapshot,city in page markdown only
+idea_curated_imd_pe,inka-green-sac-food-agriculture,Inka Green SAC,Peru,country-only,no-pin,,,,,bookstack-live-no-snapshot,city in page markdown only
+idea_curated_imd_pe,kallpa-greenz-leaders-food-agriculture,Kallpa Greenz Leaders,Peru,country-only,no-pin,,,,,bookstack-live-no-snapshot,city in page markdown only
+idea_curated_imd_pe,nano-humi-air-environment,NanoHumi,Peru,country-only,no-pin,,,,,bookstack-live-no-snapshot,city in page markdown only
+idea_curated_imd_pe,pirosa-transportation,PIROSA,Peru,country-only,no-pin,,,,,bookstack-live-no-snapshot,city in page markdown only
+idea_curated_imd_pe,biopectingrow-food-agriculture,PectiGrow,Peru,country-only,no-pin,,,,,bookstack-live-no-snapshot,city in page markdown only
+idea_curated_imd_pe,pezconfiable-food-agriculture,PezConfiable,Peru,country-only,no-pin,,,,,bookstack-live-no-snapshot,city in page markdown only
+idea_curated_imd_pe,predictamar-food-agriculture,PredictaMAR,Peru,country-only,no-pin,,,,,bookstack-live-no-snapshot,city in page markdown only
+idea_curated_imd_pe,muchik-water,VIGIA (ex MUCHIK),Peru,country-only,no-pin,,,,,bookstack-live-no-snapshot,city in page markdown only
+idea_curated_imd_pe,wayra-watt-clean-energy,Wayra Watt,Peru,country-only,no-pin,,,,,bookstack-live-no-snapshot,city in page markdown only
+idea_curated_imd_pe,windlever-clean-energy,WindLever,Peru,country-only,no-pin,,,,,bookstack-live-no-snapshot,city in page markdown only
+idea_curated_imd_pe,yakusmart-food-agriculture,YakuSmart,Peru,country-only,no-pin,,,,,bookstack-live-no-snapshot,city in page markdown only
+idea_curated_epic,artexlab-clean-industry,ArtexLab,,none,no-pin,,,,,bookstack-live-no-snapshot,city in page markdown only
+idea_curated_epic,agrolider-food-agriculture,AGROLIDER,,none,no-pin,,,,,bookstack-live-no-snapshot,city in page markdown only
+idea_curated_epic,baruk-company-bio-climatik-sas-clean-industry,CLIMATIK,,none,no-pin,,,,,bookstack-live-no-snapshot,city in page markdown only
+idea_curated_epic,aterna-food-agriculture,Aterna,,none,no-pin,,,,,bookstack-live-no-snapshot,city in page markdown only
+idea_curated_epic,curubatech-food-agriculture,CurubaTech,,none,no-pin,,,,https://curuba.tech/en/,bookstack-live-no-snapshot,city in page markdown only
+idea_curated_epic,communitylab-clean-industry,CommunityLab,,none,no-pin,,,,https://communitylab.co,bookstack-live-no-snapshot,city in page markdown only
+idea_curated_epic,amazoniko-air-environment,Amazóniko,,none,no-pin,,,,https://www.amazoniko.com/,bookstack-live-no-snapshot,city in page markdown only
+idea_curated_epic,el-ocambulo-food-agriculture,El Ocámbulo,,none,no-pin,,,,,bookstack-live-no-snapshot,city in page markdown only
+idea_curated_epic,dantium-air-environment,DANTIUM,,none,no-pin,,,,,bookstack-live-no-snapshot,city in page markdown only
+idea_curated_epic,ewai-water,e.WAI,,none,no-pin,,,,https://e-ray.lat/e-wai/,bookstack-live-no-snapshot,city in page markdown only
+idea_curated_epic,agrodata-connect-food-agriculture,AgroData Connect,,none,no-pin,,,,https://linktr.ee/agrodataconnect,bookstack-live-no-snapshot,city in page markdown only
+idea_curated_epic,circuito-cero-air-environment,Circuito cero,,none,no-pin,,,,,bookstack-live-no-snapshot,city in page markdown only
+idea_curated_epic,nux-not-assigned-unknown,NUX,,none,no-pin,,,,,bookstack-live-no-snapshot,city in page markdown only
+idea_curated_epic,cirkula-food-agriculture,Cirkula,,none,no-pin,,,,https://cirkula.co,bookstack-live-no-snapshot,city in page markdown only
+idea_curated_epic,chum-chum-food-agriculture,ChumChum,,none,no-pin,,,,https://chumchum.mx,bookstack-live-no-snapshot,city in page markdown only
+idea_curated_epic,arte-y-reciclaje-para-la-paz-mujeres-creando-economia-circular-con-proposito-air-environment,Arte y reciclaje para la paz,,none,no-pin,,,,,bookstack-live-no-snapshot,city in page markdown only
+idea_curated_epic,Cupainatá. Labranza Sagrada,Cupainatá. Labranza Sagrada,,none,no-pin,,,,https://www.instagram.com/cupainata_labranzasagrada/?hl=es-la,bookstack-live-no-snapshot,city in page markdown only
+jury_clp26,juror-1,Eddie Ajalcriña,Peru,city-only,no-pin,city,,,https://www.redesignlab.org/,no-map-pin,"CEO on public team page; org lists Lima, Peru."
+jury_clp26,juror-2,Flora Drozak,Germany,city-only,no-pin,city,,,https://www.climate-kic.org/programmes/climate-entrepreneurship/inclusive-climate-innovation/,no-map-pin,Climate KIC inclusive innovation team; Germany office Berlin.
+jury_clp26,juror-3,Sebastián Bustamante,Spain,city-only,no-pin,city,,,https://www.b2match.com/e/4-basquegreentech/participants/2793637,no-map-pin,"Public event profile: Climate KIC, Barcelona."
+jury_clp26,juror-4,Johana Figueroa,,none,no-pin,unknown,,,,no-map-pin,No city verified from public employer site or public bio in this pass.
+jury_clp26,juror-5,Lina Ospina,Colombia,city-only,no-pin,city,,,https://www.interactuar.org.co/contacto,no-map-pin,Corporación Interactuar; org contact Bello.
+jury_clp26,juror-6,Diana María Quimbay,,none,no-pin,unknown,,,,no-map-pin,No city verified from public employer site or public bio in this pass.
+jury_clp26,juror-7,Camila Hernández Lozada,,none,no-pin,unknown,,,,no-map-pin,No city verified from public employer site or public bio in this pass.
+jury_clp26,juror-8,Santiago Quiñones,,none,no-pin,unknown,,,,no-map-pin,No city verified from public employer site or public bio in this pass.
+jury_clp26,juror-9,Felipe González,,none,no-pin,unknown,,,,no-map-pin,No city verified from public employer site or public bio in this pass.
+jury_clp26,juror-10,Luis Miguel Mateus,,none,no-pin,unknown,,,,no-map-pin,No city verified from public employer site or public bio in this pass.
+jury_clp26,juror-11,Ana María Parra García,Colombia,city-only,no-pin,city,,,https://fedepalma.org/contacto-solicitudes-palmeros/,no-map-pin,Fedepalma HQ Bogotá.
+jury_clp26,juror-12,Daniel Swift,Colombia,city-only,no-pin,city,,,https://www.banrep.gov.co/es/sucursal-bogota-edificio-principal,no-map-pin,Banco de la República principal building Bogotá.
+jury_clp26,juror-13,Iván Dávila,Colombia,city-only,no-pin,city,,,https://futurelab.com.co/hablemos/,no-map-pin,FutureLab BIC; contact Bogotá.
+jury_clp26,juror-14,Mario Rojas,Colombia,city-only,no-pin,city,,,https://www.uniandinos.org.co/sede-nacional/,no-map-pin,Uniandinos national HQ Bogotá.
+jury_clp26,juror-15,Mariana Revilla Llaca,Mexico,city-only,no-pin,city,,,https://www.expoknews.com/5-formas-de-impulsar-la-gestion-de-residuos-grupo-restaurantero-gigante/,no-map-pin,Grupo Restaurantero Gigante sustainability role (Mexico).
+jury_clp26,juror-16,Santiago Cruz,,none,no-pin,unknown,,,,no-map-pin,No city verified from public employer site or public bio in this pass.
+jury_clp26,juror-17,Felipe Hernández,,none,no-pin,unknown,,,,no-map-pin,No city verified from public employer site or public bio in this pass.
+jury_clp26,juror-18,Diego Martínez de Velasco,Mexico,city-only,no-pin,city,,,https://ongoing.ibero.mx/objetivos-del-desarrollo-sostenible-en-accion-impacto-global/,no-map-pin,Public bio: Universidad Iberoamericana Ciudad de México.
+jury_clp26,juror-19,Héctor Vinicio España González,,none,no-pin,unknown,,,,no-map-pin,No city verified from public employer site or public bio in this pass.
+jury_clp26,juror-20,Federico Espinosa,Costa Rica,city-only,no-pin,city,,,https://studyabroad.veritas.cr/contact-us/,no-map-pin,Universidad Veritas campus San José.
+jury_clp26,juror-21,Andrés Ortega,Colombia,city-only,no-pin,city,,,https://www.uexternado.edu.co/centroemprendimientocee/,no-map-pin,Team CEE+ / Emprende+; Externado Bogotá.
+policy_ecosystem,policy-1,Ley 2169/2021 — carbono neutralidad,Colombia,country-only,no-pin,,,,,no-geo-field,climate-laws.org
+policy_ecosystem,policy-2,Ley 2099/2021 — transición energética,Colombia,country-only,no-pin,,,,http://secretariasenado.gov.co/senado/basedoc/ley_2099_2021.html,no-geo-field,national-gazette
+policy_ecosystem,policy-3,Ley 1931/2018 — integración ERNC,Colombia,country-only,no-pin,,,,http://secretariasenado.gov.co/senado/basedoc/ley_1931_2018.html,no-geo-field,national-gazette
+policy_ecosystem,policy-4,Ley 1715/2014 — energías renovables,Colombia,country-only,no-pin,,,,http://secretariasenado.gov.co/senado/basedoc/ley_1715_2014.html,no-geo-field,national-gazette
+policy_ecosystem,policy-5,Ley 1819/2016 — impuesto al carbono y ER,Colombia,country-only,no-pin,,,,,no-geo-field,climate-laws.org
+policy_ecosystem,policy-6,Ley 2294/2023 — Plan Nacional de Desarrollo 2022–2026,Colombia,country-only,no-pin,,,,https://www.climatepolicydatabase.org/countries/colombia,no-geo-field,climatepolicydatabase.org
+policy_ecosystem,policy-7,Taxonomía Verde de Colombia (TVC),Colombia,country-only,no-pin,,,,https://www.taxonomiaverde.gov.co/,no-geo-field,national-taxonomy
+policy_ecosystem,policy-8,NDC Colombia (actualización 2020),Colombia,country-only,no-pin,,,,https://unfccc.int/sites/default/files/NDC/2022-06/Colombia_NDC_actualizada.pdf,no-geo-field,unfccc.int
+policy_ecosystem,policy-9,NDC 3.0 Colombia (CPD 2025),Colombia,country-only,no-pin,,,,https://www.climatepolicydatabase.org/policies/nationally-determined-contribution-ndc-176,no-geo-field,climatepolicydatabase.org
+policy_ecosystem,policy-10,CONPES 4021 — política nacional CC,Colombia,country-only,no-pin,,,,https://climate-laws.org/document/conpes-4021-of-2021_5c8e,no-geo-field,climate-laws.org
+policy_ecosystem,policy-11,Decreto 1543/2017 — Fondo FENOGE,Colombia,country-only,no-pin,,,,https://www.minenergia.gov.co/es/misional/energia-electrica-2/fondos-especiales/fondo-de-energ%C3%ADas-no-convencionales-y-gesti%C3%B3n-eficiente-de-la-energ%C3%ADa-fenoge/,no-geo-field,national-ministry
+policy_ecosystem,policy-12,Decreto 2239/2023 — ZNI,Colombia,country-only,no-pin,,,,https://climate-laws.org/document/decreto-2239-de-2023_9f2a,no-geo-field,climate-laws.org
+policy_ecosystem,policy-13,Programa IPSE — acceso energético ZNI,Colombia,country-only,no-pin,,,,https://www.ipse.gov.co/,no-geo-field,national-agency
+policy_ecosystem,policy-14,Just Energy Transition Roadmap (CPD),Colombia,country-only,no-pin,,,,https://www.climatepolicydatabase.org/countries/colombia,no-geo-field,climatepolicydatabase.org
+policy_ecosystem,policy-15,Ley 30754 — marco cambio climático,Peru,country-only,no-pin,,,,,no-geo-field,gob.pe
+policy_ecosystem,policy-16,DS 013-2019-MINAM — reglamento LMCC,Peru,country-only,no-pin,,,,,no-geo-field,gob.pe
+policy_ecosystem,policy-17,Política Nacional ENCC al 2050,Peru,country-only,no-pin,,,,https://www.gob.pe/institucion/minam/informes-publicaciones/6562767,no-geo-field,gob.pe
+policy_ecosystem,policy-18,NDC Perú (2020),Peru,country-only,no-pin,,,,https://unfccc.int/sites/default/files/NDC/2021-07/Peru_NDC%20update%202020.pdf,no-geo-field,unfccc.int
+policy_ecosystem,policy-19,NDC Perú (Climate Policy Database),Peru,country-only,no-pin,,,,https://www.climatepolicydatabase.org/countries/peru,no-geo-field,climatepolicydatabase.org
+policy_ecosystem,policy-20,Ley 27270 — promoción ER,Peru,country-only,no-pin,,,,,no-geo-field,climate-laws.org
+policy_ecosystem,policy-21,Ley 28611 — Ley General del Ambiente,Peru,country-only,no-pin,,,,,no-geo-field,climate-laws.org
+policy_ecosystem,policy-22,Ley 29763 — Ley Forestal,Peru,country-only,no-pin,,,,,no-geo-field,climate-laws.org
+policy_ecosystem,policy-23,Ley 29338 — recursos hídricos,Peru,country-only,no-pin,,,,,no-geo-field,climate-laws.org
+policy_ecosystem,policy-24,DS listado medidas NDC (2025),Peru,country-only,no-pin,,,,,no-geo-field,national-gazette
+policy_ecosystem,policy-25,Programa para Bionegocios (MINAM),Peru,country-only,no-pin,,,,https://www.gob.pe/institucion/minam/campa%C3%B1as/46380-programa-para-bionegocios,no-geo-field,gob.pe
+policy_ecosystem,policy-26,Programa Nacional de Conservación de Bosques,Peru,country-only,no-pin,,,,https://www.gob.pe/institucion/minam/campa%C3%B1as/46379-programa-nacional-de-conservacion-de-bosques,no-geo-field,gob.pe
+policy_ecosystem,policy-27,StartUp Perú — línea Cambio Climático,Peru,country-only,no-pin,,,,https://www.gob.pe/institucion/produce/campa%C3%B1as/46381-startup-peru,no-geo-field,gob.pe
+policy_ecosystem,policy-28,Marco climático Perú (CPD índice),Peru,country-only,no-pin,,,,https://www.climatepolicydatabase.org/countries/peru,no-geo-field,climatepolicydatabase.org
+policy_ecosystem,policy-29,Peru climate laws (LSE CCLW),Peru,country-only,no-pin,,,,https://climate-laws.org/geographies/peru,no-geo-field,climate-laws.org
+policy_ecosystem,policy-30,Ley del Medio Ambiente,El Salvador,country-only,no-pin,,,,https://climate-laws.org/geographies/el-salvador,no-geo-field,climate-laws.org
+policy_ecosystem,policy-31,Plan Nacional de Cambio Climático,El Salvador,country-only,no-pin,,,,https://climate-laws.org/geographies/el-salvador,no-geo-field,climate-laws.org
+policy_ecosystem,policy-32,NDC El Salvador (2021),El Salvador,country-only,no-pin,,,,https://unfccc.int/sites/default/files/NDC/2022-06/El%20Salvador_NDC%20Actualizaci%C3%B3n%202021.pdf,no-geo-field,unfccc.int
+policy_ecosystem,policy-33,NDC El Salvador (CPD),El Salvador,country-only,no-pin,,,,https://www.climatepolicydatabase.org/countries/el-salvador,no-geo-field,climatepolicydatabase.org
+policy_ecosystem,policy-34,Estrategia Nacional de Energías Renovables,El Salvador,country-only,no-pin,,,,https://climate-laws.org/geographies/el-salvador,no-geo-field,climate-laws.org
+policy_ecosystem,policy-35,Línea de Crédito Verde (BANDESAL),El Salvador,country-only,no-pin,,,,https://www.bandesal.gob.sv/,no-geo-field,national-bank
+policy_ecosystem,policy-36,Ley General de Aguas (2012),El Salvador,country-only,no-pin,,,,https://climate-laws.org/geographies/el-salvador,no-geo-field,climate-laws.org
+policy_ecosystem,policy-37,Política Nacional de Bioeconomía,El Salvador,country-only,no-pin,,,,https://climate-laws.org/geographies/el-salvador,no-geo-field,climate-laws.org
+policy_ecosystem,policy-38,Ley de Fomento a la MIPYME,El Salvador,country-only,no-pin,,,,https://www.transparencia.gob.sv/institutions/conamype/documents/338012/download,no-geo-field,national-gazette
+policy_ecosystem,policy-39,FIDEAGRO — financiamiento agro (programa),El Salvador,country-only,no-pin,,,,https://climate-laws.org/geographies/el-salvador,no-geo-field,climate-laws.org
+policy_ecosystem,policy-40,El Salvador climate policies (CPD),El Salvador,country-only,no-pin,,,,https://www.climatepolicydatabase.org/countries/el-salvador,no-geo-field,climatepolicydatabase.org

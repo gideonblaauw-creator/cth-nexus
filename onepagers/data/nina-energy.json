@@ -14,34 +14,10 @@
   "cta_btn_en": "Visit website",
   "cta_btn_es": "Visitar sitio",
   "ribbon": [
-    {
-      "val": "EC",
-      "lab_en": "Country",
-      "lab_es": "País",
-      "sub_en": "Ecuador",
-      "sub_es": "Ecuador"
-    },
-    {
-      "val": "[PENDIENTE",
-      "lab_en": "Stage",
-      "lab_es": "Etapa",
-      "sub_en": "Accel 2024",
-      "sub_es": "Accel 2024"
-    },
-    {
-      "val": "Bioenergy",
-      "lab_en": "Sector",
-      "lab_es": "Sector",
-      "sub_en": "Cleantech",
-      "sub_es": "Cleantech"
-    },
-    {
-      "val": "[P]",
-      "lab_en": "Metrics",
-      "lab_es": "Métricas",
-      "sub_en": "[PENDIENTE]",
-      "sub_es": "[PENDIENTE]"
-    }
+    {"val": "EC", "lab_en": "Country", "lab_es": "País", "sub_en": "Ecuador", "sub_es": "Ecuador"},
+    {"val": "[PENDIENTE", "lab_en": "Stage", "lab_es": "Etapa", "sub_en": "Accel 2024", "sub_es": "Accel 2024"},
+    {"val": "Bioenergy", "lab_en": "Sector", "lab_es": "Sector", "sub_en": "Cleantech", "sub_es": "Cleantech"},
+    {"val": "[P]", "lab_en": "Metrics", "lab_es": "Métricas", "sub_en": "[PENDIENTE]", "sub_es": "[PENDIENTE]"}
   ],
   "problem_stats": [
     [
@@ -169,5 +145,16 @@
     }
   ],
   "image_credits_en": " Section photo: Unsplash — Unsplash contributor.",
-  "image_credits_es": " Foto de sección: Unsplash — Unsplash contributor."
+  "image_credits_es": " Foto de sección: Unsplash — Unsplash contributor.",
+  "location": {
+    "precision": "city",
+    "city": "Quito",
+    "country": "Ecuador",
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "source_url": "https://nina.energy/",
+    "hq_abroad": null,
+    "location_note": "Quito HQ on one-pager; no verified street published"
+  }
 }

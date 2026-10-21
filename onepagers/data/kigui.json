@@ -11,34 +11,10 @@
   "cta_pitch_en": "AI copilot for retail execution — inventory, expiry, and in-store operations to cut food waste.",
   "cta_pitch_es": "Copiloto de IA para ejecución en retail — inventario, caducidad y operación en tienda para reducir merma.",
   "ribbon": [
-    {
-      "val": "MX",
-      "lab_en": "Country",
-      "lab_es": "País",
-      "sub_en": "Mexico",
-      "sub_es": "Mexico"
-    },
-    {
-      "val": "Seed",
-      "lab_en": "Stage",
-      "lab_es": "Etapa",
-      "sub_en": "CLAC23",
-      "sub_es": "CLAC23"
-    },
-    {
-      "val": "Circular",
-      "lab_en": "Sector",
-      "lab_es": "Sector",
-      "sub_en": "Cleantech",
-      "sub_es": "Cleantech"
-    },
-    {
-      "val": "[P]",
-      "lab_en": "Metrics",
-      "lab_es": "Métricas",
-      "sub_en": "[PENDIENTE]",
-      "sub_es": "[PENDIENTE]"
-    }
+    {"val": "MX", "lab_en": "Country", "lab_es": "País", "sub_en": "Mexico", "sub_es": "Mexico"},
+    {"val": "Seed", "lab_en": "Stage", "lab_es": "Etapa", "sub_en": "CLAC23", "sub_es": "CLAC23"},
+    {"val": "Circular", "lab_en": "Sector", "lab_es": "Sector", "sub_en": "Cleantech", "sub_es": "Cleantech"},
+    {"val": "[P]", "lab_en": "Metrics", "lab_es": "Métricas", "sub_en": "[PENDIENTE]", "sub_es": "[PENDIENTE]"}
   ],
   "problem_stats": [
     [
@@ -168,5 +144,16 @@
   "hero_image": "https://www.kigui.io/og-image.png",
   "cta_bg": "https://images.unsplash.com/photo-1610832958506-aa56368197cf?w=1200&q=80",
   "image_credits_en": "Image credits (kigui):\n· Hero: Kigüi verified website (kigui.mx / kigui.io)\n· §01 Problem: Unsplash / NeONBRAND\n· §02 Solution: Unsplash / Nathan Dumlao\n· §03 Impact: Unsplash / Gilberto Olimpio\n· §04 Leadership: Unsplash / Clay Banks\n· CTA: Unsplash / Micheile Henderson",
-  "image_credits_es": "Créditos de imagen (kigui):\n· Hero: Sitio verificado Kigüi (kigui.mx / kigui.io)\n· §01 Problem: Unsplash / NeONBRAND\n· §02 Solution: Unsplash / Nathan Dumlao\n· §03 Impact: Unsplash / Gilberto Olimpio\n· §04 Leadership: Unsplash / Clay Banks\n· CTA: Unsplash / Micheile Henderson"
+  "image_credits_es": "Créditos de imagen (kigui):\n· Hero: Sitio verificado Kigüi (kigui.mx / kigui.io)\n· §01 Problem: Unsplash / NeONBRAND\n· §02 Solution: Unsplash / Nathan Dumlao\n· §03 Impact: Unsplash / Gilberto Olimpio\n· §04 Leadership: Unsplash / Clay Banks\n· CTA: Unsplash / Micheile Henderson",
+  "location": {
+    "precision": "city",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "source_url": "https://kigui.mx/",
+    "hq_abroad": null,
+    "location_note": "Mexico operations; city from public marketing site"
+  }
 }

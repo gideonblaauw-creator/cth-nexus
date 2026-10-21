@@ -15,34 +15,10 @@
   "cta_btn_en": "Visit website",
   "cta_btn_es": "Visitar sitio",
   "ribbon": [
-    {
-      "val": "CO",
-      "lab_en": "Country",
-      "lab_es": "Pais",
-      "sub_en": "Colombia",
-      "sub_es": "Colombia"
-    },
-    {
-      "val": "[P]",
-      "lab_en": "Stage",
-      "lab_es": "Etapa",
-      "sub_en": "Accel.",
-      "sub_es": "Accel."
-    },
-    {
-      "val": "Circular",
-      "lab_en": "Sector",
-      "lab_es": "Sector",
-      "sub_en": "Cleantech",
-      "sub_es": "Cleantech"
-    },
-    {
-      "val": "[P]",
-      "lab_en": "Metrics",
-      "lab_es": "Metricas",
-      "sub_en": "[PENDIENTE]",
-      "sub_es": "[PENDIENTE]"
-    }
+    {"val": "CO", "lab_en": "Country", "lab_es": "Pais", "sub_en": "Colombia", "sub_es": "Colombia"},
+    {"val": "[P]", "lab_en": "Stage", "lab_es": "Etapa", "sub_en": "Accel.", "sub_es": "Accel."},
+    {"val": "Circular", "lab_en": "Sector", "lab_es": "Sector", "sub_en": "Cleantech", "sub_es": "Cleantech"},
+    {"val": "[P]", "lab_en": "Metrics", "lab_es": "Metricas", "sub_en": "[PENDIENTE]", "sub_es": "[PENDIENTE]"}
   ],
   "problem_stats": [
     [
@@ -159,5 +135,16 @@
       "dream_es": "Programa: Acceleration CTH + REIN Hubs. Ciudad: Medellin. Etapa en tarjeta: [PENDIENTE]. KPIs verificados: [PENDIENTE]. Creditos imagen: Fotos producto/marca: slowreciclaje.com (SLOW / TR Global Group).",
       "bg": "https://www.slowreciclaje.com/cdn/shop/files/Florero_liso_regenerativo_foto_editorial_blanca.jpg"
     }
-  ]
+  ],
+  "location": {
+    "precision": "city",
+    "city": "Medellín",
+    "country": "Colombia",
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "source_url": "https://www.slowreciclaje.com",
+    "hq_abroad": null,
+    "location_note": "City from one-pager or public website; no verified street office published"
+  }
 }

@@ -11,34 +11,10 @@
   "cta_pitch_en": "Industrial cleaning and disinfection from Neiva — plus sustainable effervescent tablet line (CleantechHUB wiki).",
   "cta_pitch_es": "Limpieza y desinfección industrial desde Neiva — más línea de tabletas efervescentes sostenibles (wiki CleantechHUB).",
   "ribbon": [
-    {
-      "val": "CO",
-      "lab_en": "Country",
-      "lab_es": "País",
-      "sub_en": "Colombia",
-      "sub_es": "Colombia"
-    },
-    {
-      "val": "Pre-Seed",
-      "lab_en": "Stage",
-      "lab_es": "Etapa",
-      "sub_en": "CLAC24",
-      "sub_es": "CLAC24"
-    },
-    {
-      "val": "Circular",
-      "lab_en": "Sector",
-      "lab_es": "Sector",
-      "sub_en": "Cleantech",
-      "sub_es": "Cleantech"
-    },
-    {
-      "val": "[P]",
-      "lab_en": "Metrics",
-      "lab_es": "Métricas",
-      "sub_en": "[PENDIENTE]",
-      "sub_es": "[PENDIENTE]"
-    }
+    {"val": "CO", "lab_en": "Country", "lab_es": "País", "sub_en": "Colombia", "sub_es": "Colombia"},
+    {"val": "Pre-Seed", "lab_en": "Stage", "lab_es": "Etapa", "sub_en": "CLAC24", "sub_es": "CLAC24"},
+    {"val": "Circular", "lab_en": "Sector", "lab_es": "Sector", "sub_en": "Cleantech", "sub_es": "Cleantech"},
+    {"val": "[P]", "lab_en": "Metrics", "lab_es": "Métricas", "sub_en": "[PENDIENTE]", "sub_es": "[PENDIENTE]"}
   ],
   "problem_stats": [
     [
@@ -158,5 +134,16 @@
   "hero_image": "https://i0.wp.com/linko.com.co/wp-content/uploads/2020/07/Grupo-2.png?ssl=1",
   "cta_bg": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=1200&q=80",
   "image_credits_en": "Image credits (linko-workers):\n· Hero: Linko verified website (linko.com.co brand visual)\n· §01 Problem: Unsplash / No Revisions\n· §02 Solution: Unsplash / Towfiqu barbhuiya\n· §03 Impact: Unsplash / ThisisEngineering RAEng\n· §04 Leadership: Unsplash / KOBU Agency\n· CTA: Unsplash / ThisisEngineering RAEng",
-  "image_credits_es": "Créditos de imagen (linko-workers):\n· Hero: Sitio verificado Linko (visual de marca linko.com.co)\n· §01 Problem: Unsplash / No Revisions\n· §02 Solution: Unsplash / Towfiqu barbhuiya\n· §03 Impact: Unsplash / ThisisEngineering RAEng\n· §04 Leadership: Unsplash / KOBU Agency\n· CTA: Unsplash / ThisisEngineering RAEng"
+  "image_credits_es": "Créditos de imagen (linko-workers):\n· Hero: Sitio verificado Linko (visual de marca linko.com.co)\n· §01 Problem: Unsplash / No Revisions\n· §02 Solution: Unsplash / Towfiqu barbhuiya\n· §03 Impact: Unsplash / ThisisEngineering RAEng\n· §04 Leadership: Unsplash / KOBU Agency\n· CTA: Unsplash / ThisisEngineering RAEng",
+  "location": {
+    "precision": "address",
+    "city": "Neiva",
+    "country": "Colombia",
+    "address": "Calle 14 No. 8B-15, Neiva, Huila",
+    "lat": 2.9358006,
+    "lng": -75.2604581,
+    "source_url": "https://linko.com.co/",
+    "hq_abroad": null,
+    "location_note": "Street office on company website; Nominatim structured geocode (street-level)"
+  }
 }

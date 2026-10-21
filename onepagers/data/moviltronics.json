@@ -12,34 +12,10 @@
   "cta_pitch_en": "CleantechHUB CLAC25 portfolio card &mdash; enabling accessible electric mobility and renewable components.",
   "cta_pitch_es": "Tarjeta de portafolio CLAC25 CleantechHUB &mdash; habilitando movilidad el&eacute;ctrica accesible y componentes renovables.",
   "ribbon": [
-    {
-      "val": "CO",
-      "lab_en": "Country",
-      "lab_es": "Pa&iacute;s",
-      "sub_en": "Colombia",
-      "sub_es": "Colombia"
-    },
-    {
-      "val": "Pre-Seed",
-      "lab_en": "Stage",
-      "lab_es": "Etapa",
-      "sub_en": "CLAC25",
-      "sub_es": "CLAC25"
-    },
-    {
-      "val": "Energy",
-      "lab_en": "Sector",
-      "lab_es": "Sector",
-      "sub_en": "Cleantech",
-      "sub_es": "Cleantech"
-    },
-    {
-      "val": "[P]",
-      "lab_en": "Metrics",
-      "lab_es": "M&eacute;tricas",
-      "sub_en": "[PENDIENTE]",
-      "sub_es": "[PENDIENTE]"
-    }
+    {"val": "CO", "lab_en": "Country", "lab_es": "Pa&iacute;s", "sub_en": "Colombia", "sub_es": "Colombia"},
+    {"val": "Pre-Seed", "lab_en": "Stage", "lab_es": "Etapa", "sub_en": "CLAC25", "sub_es": "CLAC25"},
+    {"val": "Energy", "lab_en": "Sector", "lab_es": "Sector", "sub_en": "Cleantech", "sub_es": "Cleantech"},
+    {"val": "[P]", "lab_en": "Metrics", "lab_es": "M&eacute;tricas", "sub_en": "[PENDIENTE]", "sub_es": "[PENDIENTE]"}
   ],
   "problem_stats": [
     [
@@ -179,5 +155,16 @@
     "section_03_impact": "Moviltronics verified storefront CDN (mobility category preview)",
     "section_04_leadership": "Moviltronics verified storefront CDN (M30062 product photo)",
     "cta": "Moviltronics verified storefront CDN (store preview image)"
+  },
+  "location": {
+    "precision": "country",
+    "city": null,
+    "country": "Colombia",
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "source_url": "https://moviltronics.com/",
+    "hq_abroad": null,
+    "location_note": "Country only; no city or street on public site"
   }
 }
