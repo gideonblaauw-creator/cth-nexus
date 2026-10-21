@@ -411,16 +411,6 @@ RELATIONS: list[dict[str, str]] = [
         ),
     },
     {
-        "source": "pe-forest-trends",
-        "target": "challenge:PE-1-bosques",
-        "type": "works_on_challenge",
-        "source_url": "https://www.forest-trends.org",
-        "source_title": "https://www.forest-trends.org",
-        "evidence": (
-            "Forest Trends - Pioneering Finance for Conservation Skip to content English Español Français Português English"
-        ),
-    },
-    {
         "source": "pe-inaigem",
         "target": "challenge:PE-2-agua",
         "type": "works_on_challenge",

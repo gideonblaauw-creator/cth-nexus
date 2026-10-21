@@ -7,11 +7,11 @@ Public graph edges must appear in `ops/ecosystem/graph_relation_evidence.json` w
 | Metric | Count |
 |--------|------:|
 | Total edges in bundle | 85 |
-| Public (verified + source_url + catalog quote) | 42 |
-| Hidden pending source | 43 |
+| Public (verified + source_url + catalog quote) | 41 |
+| Hidden pending source | 44 |
 | Self-loops removed (this sync) | 0 |
 
-Evidence catalog: `ops/ecosystem/graph_relation_evidence.json` (42 public rows).
+Evidence catalog: `ops/ecosystem/graph_relation_evidence.json` (41 public rows).
 
 Policy bundle (`static/ecosystem/data/policy_relations.json`): separate story chapter; not modified by this sync.
 
@@ -52,6 +52,7 @@ Policy bundle (`static/ecosystem/data/policy_relations.json`): separate story ch
 | `pe-ccpip-camara-de-comercio-de-los-pueblos-indigenas` | `challenge:PE-1-bosques` | `works_on_challenge` |
 | `pe-concytec-prociencia` | `challenge:PE-1-bosques` | `works_on_challenge` |
 | `pe-financiera-confianza` | `challenge:PE-1-bosques` | `works_on_challenge` |
+| `pe-forest-trends` | `challenge:PE-1-bosques` | `works_on_challenge` |
 | `pe-giz` | `challenge:PE-1-bosques` | `works_on_challenge` |
 | `pe-kfw` | `challenge:PE-1-bosques` | `works_on_challenge` |
 | `pe-mirova-natural-capital` | `challenge:PE-1-bosques` | `works_on_challenge` |
@@ -62,4 +63,8 @@ Policy bundle (`static/ecosystem/data/policy_relations.json`): separate story ch
 | `pe-sernanp` | `challenge:PE-1-bosques` | `works_on_challenge` |
 | `pe-sunass` | `challenge:PE-2-agua` | `works_on_challenge` |
 | `pe-uqhu` | `challenge:PE-2-agua` | `works_on_challenge` |
+
+## Why these edges are hidden
+
+- `pe-forest-trends` → `challenge:PE-1-bosques` (`works_on_challenge`): Live check 2026-10-21: the catalog quote is not on https://www.forest-trends.org and the actor-name check failed.
 
