@@ -220,8 +220,12 @@ function applyChapterToCumulative(chapterId, cumulative, ctx) {
         cumulative.add(r.target);
       });
       actorRelationsNorm.forEach((r) => {
-        if (r.type !== 'hub_startup') return;
+        if (r.type !== 'hub_startup' && r.type !== 'program_participation') return;
         if (r.source !== sid && r.target !== sid) return;
+        if (r.type === 'program_participation') {
+          const srcCat = byId.get(r.source)?.category;
+          if (srcCat !== 'accelerator' && srcCat !== 'hub') return;
+        }
         cumulative.add(r.source);
         cumulative.add(r.target);
       });
@@ -393,8 +397,12 @@ export function buildPeruWaterScene(chapterIndex, data) {
         verified.push({ ...r, verified: true, bundle: 'relations', id: `rel-${r.source}-${r.target}-${r.type}` });
       });
       actorRelationsNorm.forEach((r) => {
-        if (r.type !== 'hub_startup') return;
+        if (r.type !== 'hub_startup' && r.type !== 'program_participation') return;
         if (r.source !== sid && r.target !== sid) return;
+        if (r.type === 'program_participation') {
+          const srcCat = byId.get(r.source)?.category;
+          if (srcCat !== 'accelerator' && srcCat !== 'hub') return;
+        }
         verified.push({ ...r, verified: true, bundle: 'actor_relations' });
       });
     });
