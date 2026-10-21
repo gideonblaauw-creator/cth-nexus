@@ -19,16 +19,18 @@ tag_country: El Salvador
 | Categoría | government |
 | Tipo | org |
 | País | El Salvador |
-| Ciudad | San Salvador |
+| Ciudad | San Salvador; 87 Avenida Norte y Calle Gabriela Mistral, Colonia Escalón, San Salvador |
+| Dirección | 87 Avenida Norte y Calle Gabriela Mistral, Colonia Escalón, San Salvador |
 | Sitio web | https://www.bandesal.gob.sv |
+| Año de fundación | PENDIENTE |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Actor público / regulador |
+| Rol en el ecosistema | Banco de desarrollo estatal: crédito y programas para MIPYMES y sectores productivos. |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Banco de desarrollo estatal: crédito y programas para MIPYMES y sectores productivos.
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +42,7 @@ PENDIENTE
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
+- Sitio web — https://www.bandesal.gob.sv
+- Rol en el ecosistema — https://www.bandesal.gob.sv
+- Dirección — https://www.bandesal.gob.sv/web/guest/contactenos
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`

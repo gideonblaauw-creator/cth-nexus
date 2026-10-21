@@ -20,15 +20,17 @@ tag_country: El Salvador
 | Tipo | org |
 | País | El Salvador |
 | Ciudad | San Salvador |
+| Dirección | PENDIENTE |
 | Sitio web | https://www.ambiente.gob.sv |
+| Año de fundación | PENDIENTE |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Actor público / regulador |
+| Rol en el ecosistema | Ministerio de ambiente, recursos naturales y cambio climático. |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Ministerio de ambiente, recursos naturales y cambio climático.
 
 ## Relaciones (ecosistema)
 
@@ -42,5 +44,6 @@ PENDIENTE
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
+- Sitio web — https://www.ambiente.gob.sv
+- Rol en el ecosistema — https://www.ambiente.gob.sv
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`

@@ -20,15 +20,17 @@ tag_country: El Salvador
 | Tipo | org |
 | País | El Salvador |
 | Ciudad | San Salvador |
+| Dirección | PENDIENTE |
 | Sitio web | https://www.laprensagrafica.com |
+| Año de fundación | PENDIENTE |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Medios y difusión |
+| Rol en el ecosistema | Diario y plataforma multimedia de referencia en El Salvador. |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Diario y plataforma multimedia de referencia en El Salvador.
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +42,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
+- Sitio web — https://www.laprensagrafica.com
+- Rol en el ecosistema — https://www.laprensagrafica.com
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`

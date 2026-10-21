@@ -20,15 +20,17 @@ tag_country: El Salvador
 | Tipo | org |
 | País | El Salvador |
 | Ciudad | San Salvador |
+| Dirección | PENDIENTE |
 | Sitio web | https://camarasal.com |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Cámara o gremio |
+| Año de fundación | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/27249850 |
+| Rol en el ecosistema | Cámara de comercio e industria: servicios empresariales, representación y promoción del comercio. |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Cámara de comercio e industria: servicios empresariales, representación y promoción del comercio.
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +42,7 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
+- Sitio web — https://camarasal.com
+- Rol en el ecosistema — https://camarasal.com
+- LinkedIn (enlace público) — https://www.linkedin.com/company/27249850
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`

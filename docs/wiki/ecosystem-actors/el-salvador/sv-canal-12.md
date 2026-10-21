@@ -20,15 +20,17 @@ tag_country: El Salvador
 | Tipo | org |
 | País | El Salvador |
 | Ciudad | San Salvador |
+| Dirección | PENDIENTE |
 | Sitio web | https://www.canal12.com.sv |
+| Año de fundación | PENDIENTE |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Medios y difusión |
+| Rol en el ecosistema | Cadena de televisión privada salvadoreña (noticias y entretenimiento). |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Cadena de televisión privada salvadoreña (noticias y entretenimiento).
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +42,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
+- Sitio web — https://www.canal12.com.sv
+- Rol en el ecosistema — https://www.canal12.com.sv
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`

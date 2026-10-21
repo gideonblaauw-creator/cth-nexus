@@ -20,15 +20,17 @@ tag_country: El Salvador
 | Tipo | org |
 | País | El Salvador |
 | Ciudad | San Salvador |
+| Dirección | PENDIENTE |
 | Sitio web | https://cafi.vc |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Financiador e inversionista |
+| Año de fundación | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/cafivc |
+| Rol en el ecosistema | Red de inversionistas ángeles e institucionales que respalda startups en Centroamérica. |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+CAFI es la red de inversores institucionales y ángeles de Centroamérica que respalda a founders que usan la tecnología para resolver los mayores desafíos de Latinoamérica.
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +42,8 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
+- Sitio web — https://cafi.vc
+- Rol en el ecosistema — https://cafi.vc
+- Descripción — https://cafi.vc
+- LinkedIn (enlace público) — https://www.linkedin.com/company/cafivc
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`

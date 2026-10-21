@@ -20,15 +20,17 @@ tag_country: El Salvador
 | Tipo | org |
 | País | El Salvador |
 | Ciudad | San Salvador |
+| Dirección | PENDIENTE |
 | Sitio web | https://www.utec.edu.sv |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Universidad o centro de investigación |
+| Año de fundación | 1997 |
+| LinkedIn | https://www.linkedin.com/school/universidadtecnologicadeelsalvador |
+| Rol en el ecosistema | Universidad privada tecnológica con programas de ingeniería y negocios. |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Universidad privada tecnológica con programas de ingeniería y negocios.
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +42,8 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
+- Sitio web — https://www.utec.edu.sv
+- Rol en el ecosistema — https://www.utec.edu.sv
+- LinkedIn (enlace público) — https://www.linkedin.com/school/universidadtecnologicadeelsalvador
+- Año de fundación — https://www.utec.edu.sv/nosotros/
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`

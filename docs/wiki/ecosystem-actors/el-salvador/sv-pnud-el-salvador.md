@@ -20,15 +20,17 @@ tag_country: El Salvador
 | Tipo | org |
 | País | El Salvador |
 | Ciudad | San Salvador |
+| Dirección | PENDIENTE |
 | Sitio web | https://www.undp.org/es/el-salvador |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Organización internacional o cooperación |
+| Año de fundación | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/united-nations-development-programme |
+| Rol en el ecosistema | Programa de las Naciones Unidas para el Desarrollo en El Salvador. |
 | Desafíos (códigos) | BOS, FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Programa de las Naciones Unidas para el Desarrollo en El Salvador.
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +42,7 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
+- Sitio web — https://www.undp.org/es/el-salvador
+- Rol en el ecosistema — https://www.undp.org/es/el-salvador
+- LinkedIn (enlace público) — https://www.linkedin.com/company/united-nations-development-programme
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`

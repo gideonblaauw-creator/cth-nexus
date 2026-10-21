@@ -20,15 +20,17 @@ tag_country: El Salvador
 | Tipo | org |
 | País | El Salvador |
 | Ciudad | San Salvador |
+| Dirección | PENDIENTE |
 | Sitio web | https://sansalvador.impacthub.net |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
+| Año de fundación | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/ihsansalvador |
+| Rol en el ecosistema | Red global de espacios de coworking y aceleración para emprendimiento de impacto. |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Red global de espacios de coworking y aceleración para emprendimiento de impacto.
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +42,7 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
+- Sitio web — https://sansalvador.impacthub.net
+- Rol en el ecosistema — https://sansalvador.impacthub.net
+- LinkedIn (enlace público) — https://www.linkedin.com/company/ihsansalvador
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`

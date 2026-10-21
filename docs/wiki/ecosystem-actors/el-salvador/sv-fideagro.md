@@ -20,15 +20,17 @@ tag_country: El Salvador
 | Tipo | org |
 | País | El Salvador |
 | Ciudad | San Salvador |
+| Dirección | PENDIENTE |
 | Sitio web | https://www.fideagro.org |
+| Año de fundación | PENDIENTE |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Financiador e inversionista |
+| Rol en el ecosistema | Fideicomiso de desarrollo agropecuario y rural en El Salvador. |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Fideicomiso de desarrollo agropecuario y rural en El Salvador.
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +42,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
+- Sitio web — https://www.fideagro.org
+- Rol en el ecosistema — https://www.fideagro.org
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`

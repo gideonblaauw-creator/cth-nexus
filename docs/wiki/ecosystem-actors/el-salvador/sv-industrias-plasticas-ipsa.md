@@ -20,15 +20,17 @@ tag_country: El Salvador
 | Tipo | org |
 | País | El Salvador |
 | Ciudad | San Salvador |
+| Dirección | PENDIENTE |
 | Sitio web | https://ipsalatinoamerica.com |
+| Año de fundación | PENDIENTE |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| Rol en el ecosistema | Fabricante regional de envases y productos plásticos. |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+IPSA Plástico Flexible Bobina Plastica Bolsas Biodegradables
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +42,7 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
+- Sitio web — https://ipsalatinoamerica.com
+- Rol en el ecosistema — https://ipsalatinoamerica.com
+- Descripción — https://ipsalatinoamerica.com
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`

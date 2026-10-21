@@ -20,15 +20,17 @@ tag_country: El Salvador
 | Tipo | org |
 | País | El Salvador |
 | Ciudad | San Salvador |
+| Dirección | PENDIENTE |
 | Sitio web | https://www.bancomundial.org/es/country/elsalvador |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Organización internacional o cooperación |
+| Año de fundación | 1944 |
+| LinkedIn | https://www.linkedin.com/company/grupo-banco-mundial |
+| Rol en el ecosistema | Cooperación internacional para reducción de pobreza, empleo y resiliencia climática en El Salvador. |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+El Banco Mundial y El Salvador colaboran para reducir la pobreza extrema, generar más empleos, mejorar el desarrollo humano y fomentar la resiliencia climática.
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +42,9 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
+- Sitio web — https://www.bancomundial.org/es/country/elsalvador
+- Rol en el ecosistema — https://www.bancomundial.org/es/country/elsalvador
+- Descripción — https://www.bancomundial.org/es/country/elsalvador
+- LinkedIn (enlace público) — https://www.linkedin.com/company/grupo-banco-mundial
+- Año de fundación — https://www.bancomundial.org/es/quienes-somos
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`

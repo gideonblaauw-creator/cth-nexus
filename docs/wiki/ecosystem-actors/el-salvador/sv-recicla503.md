@@ -19,14 +19,16 @@ tag_country: El Salvador
 | Categoría | startup |
 | País | El Salvador |
 | Ciudad | San Salvador |
-| Sitio web | PENDIENTE |
+| Dirección | PENDIENTE |
+| Sitio web | https://www.ternova.group/circular-solutions |
+| Año de fundación | 2019 |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Startup del ecosistema |
+| Rol en el ecosistema | Iniciativa de economía circular para recolección y reciclaje de plásticos en El Salvador. |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Descripción
 
-PENDIENTE
+Iniciativa de economía circular para recolección y reciclaje de plásticos en El Salvador.
 
 ## Relaciones (ecosistema)
 
@@ -38,5 +40,8 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
+- Sitio web — https://www.ternova.group/circular-solutions
+- Rol en el ecosistema — https://www.ternova.group/circular-solutions
+- Año de fundación — https://www.ternova.group/circular-solutions
+- Iniciativa Recicla 503 — https://www.ternova.group/circular-solutions
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`

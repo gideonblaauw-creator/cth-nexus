@@ -20,15 +20,17 @@ tag_country: El Salvador
 | Tipo | org |
 | País | El Salvador |
 | Ciudad | San Salvador |
+| Dirección | PENDIENTE |
 | Sitio web | https://www.ues.edu.sv |
+| Año de fundación | 1841 |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Universidad o centro de investigación |
+| Rol en el ecosistema | Universidad pública nacional de El Salvador. |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Universidad pública nacional de El Salvador.
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +42,7 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
+- Sitio web — https://www.ues.edu.sv
+- Rol en el ecosistema — https://www.ues.edu.sv
+- Año de fundación — https://www.ues.edu.sv/ues/historia/
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`

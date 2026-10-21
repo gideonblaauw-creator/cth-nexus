@@ -20,15 +20,17 @@ tag_country: El Salvador
 | Tipo | org |
 | País | El Salvador |
 | Ciudad | San Salvador |
+| Dirección | PENDIENTE |
 | Sitio web | https://pvblic.org/rein-hubs |
+| Año de fundación | PENDIENTE |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
+| Rol en el ecosistema | Hub de emprendimiento social REIN en San Salvador (red PVBLIC). |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Hub de emprendimiento social REIN en San Salvador (red PVBLIC).
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +42,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
+- Sitio web — https://pvblic.org/rein-hubs
+- Rol en el ecosistema — https://pvblic.org/rein-hubs
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`

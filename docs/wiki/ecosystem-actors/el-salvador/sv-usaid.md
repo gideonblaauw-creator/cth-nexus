@@ -20,15 +20,17 @@ tag_country: El Salvador
 | Tipo | org |
 | País | El Salvador |
 | Ciudad | San Salvador |
-| Sitio web | PENDIENTE |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Organización internacional o cooperación |
+| Dirección | PENDIENTE |
+| Sitio web | https://www.usaid.gov/el-salvador |
+| Año de fundación | 1961 |
+| LinkedIn | https://www.linkedin.com/company/usaid |
+| Rol en el ecosistema | Agencia de cooperación al desarrollo de los Estados Unidos en El Salvador. |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+USAID El Salvador implementa cooperación para el desarrollo en temas como gobernanza, empleo y medio ambiente.
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +42,9 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
+- Sitio web — https://www.usaid.gov/el-salvador
+- Rol en el ecosistema — https://www.usaid.gov/el-salvador
+- Descripción — https://www.usaid.gov/el-salvador
+- LinkedIn (enlace público) — https://www.linkedin.com/company/usaid
+- Año de fundación — https://www.usaid.gov/about-us
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`

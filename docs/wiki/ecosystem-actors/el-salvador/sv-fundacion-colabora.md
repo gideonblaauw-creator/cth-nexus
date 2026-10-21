@@ -20,15 +20,17 @@ tag_country: El Salvador
 | Tipo | org |
 | País | El Salvador |
 | Ciudad | San Salvador |
+| Dirección | PENDIENTE |
 | Sitio web | https://fundacioncolabora.com |
+| Año de fundación | PENDIENTE |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | ONG o fundación |
+| Rol en el ecosistema | Fundación que impulsa emprendimiento social y desarrollo comunitario. |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Fundación que impulsa emprendimiento social y desarrollo comunitario.
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +42,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
+- Sitio web — https://fundacioncolabora.com
+- Rol en el ecosistema — https://fundacioncolabora.com
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`

@@ -20,15 +20,17 @@ tag_country: El Salvador
 | Tipo | org |
 | País | El Salvador |
 | Ciudad | San Salvador |
+| Dirección | PENDIENTE |
 | Sitio web | https://www.conamype.gob.sv |
+| Año de fundación | 2006 |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Actor público / regulador |
+| Rol en el ecosistema | Entidad gubernamental de apoyo a la micro, pequeña y mediana empresa. |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Comisión Nacional de la Micro y Pequeña Empresa
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +42,8 @@ PENDIENTE
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
+- Sitio web — https://www.conamype.gob.sv
+- Rol en el ecosistema — https://www.conamype.gob.sv
+- Descripción — https://www.conamype.gob.sv
+- Año de fundación — https://www.conamype.gob.sv
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`

@@ -19,14 +19,16 @@ tag_country: El Salvador
 | Categoría | startup |
 | País | El Salvador |
 | Ciudad | San Salvador |
+| Dirección | PENDIENTE |
 | Sitio web | https://ia-gros.com |
+| Año de fundación | PENDIENTE |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Startup del ecosistema |
+| Rol en el ecosistema | Startup agrotech que combina IA y datos para agricultura regenerativa. |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Descripción
 
-PENDIENTE
+IA-GROS fusiona sabiduría ancestral maya con IA, satélites NDVI y blockchain para regenerar la agricultura de Centroamérica y el mundo.
 
 ## Relaciones (ecosistema)
 
@@ -38,5 +40,7 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
+- Sitio web — https://ia-gros.com
+- Rol en el ecosistema — https://ia-gros.com
+- Descripción — https://ia-gros.com
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`

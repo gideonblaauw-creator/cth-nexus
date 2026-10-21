@@ -20,15 +20,17 @@ tag_country: El Salvador
 | Tipo | org |
 | País | El Salvador |
 | Ciudad | San Salvador |
+| Dirección | PENDIENTE |
 | Sitio web | https://pomonaimpact.com |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Financiador e inversionista |
+| Año de fundación | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/pomona-impact |
+| Rol en el ecosistema | Fondo de impacto que invierte en empresas con retorno social y ambiental en Centroamérica. |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Fondo de impacto que invierte en empresas con retorno social y ambiental en Centroamérica.
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +42,7 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
+- Sitio web — https://pomonaimpact.com
+- Rol en el ecosistema — https://pomonaimpact.com
+- LinkedIn (enlace público) — https://www.linkedin.com/company/pomona-impact
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`

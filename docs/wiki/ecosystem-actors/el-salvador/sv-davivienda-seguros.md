@@ -20,15 +20,17 @@ tag_country: El Salvador
 | Tipo | org |
 | País | El Salvador |
 | Ciudad | San Salvador |
-| Sitio web | https://sostenibilidad.davivienda.com |
+| Dirección | PENDIENTE |
+| Sitio web | https://www.davivienda.com.sv/wps/portal/personas/nosotros |
+| Año de fundación | PENDIENTE |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Institución financiera |
+| Rol en el ecosistema | Aseguradora del grupo Davivienda en El Salvador. |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Aseguradora del grupo Davivienda en El Salvador.
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +42,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
+- Sitio web — https://www.davivienda.com.sv/wps/portal/personas/nosotros
+- Rol en el ecosistema — https://www.davivienda.com.sv/wps/portal/personas/nosotros
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`

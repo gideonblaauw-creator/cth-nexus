@@ -20,15 +20,17 @@ tag_country: El Salvador
 | Tipo | org |
 | País | El Salvador |
 | Ciudad | San Salvador |
+| Dirección | PENDIENTE |
 | Sitio web | https://camtex.com.sv |
+| Año de fundación | PENDIENTE |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Cámara o gremio |
+| Rol en el ecosistema | Cámara textil y de confecciones de El Salvador; vincula empresas del sector exportador. |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Cámara textil y de confecciones de El Salvador; vincula empresas del sector exportador.
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +42,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
+- Sitio web — https://camtex.com.sv
+- Rol en el ecosistema — https://camtex.com.sv
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`

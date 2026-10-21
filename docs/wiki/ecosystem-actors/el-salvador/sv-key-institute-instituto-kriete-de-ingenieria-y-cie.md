@@ -20,15 +20,17 @@ tag_country: El Salvador
 | Tipo | org |
 | País | El Salvador |
 | Ciudad | San Salvador |
+| Dirección | PENDIENTE |
 | Sitio web | https://keyinstitute.com |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Universidad o centro de investigación |
+| Año de fundación | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/keyinstitutesv |
+| Rol en el ecosistema | Instituto de educación superior en ingeniería y ciencias. |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Instituto de educación superior en ingeniería y ciencias.
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +42,7 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
+- Sitio web — https://keyinstitute.com
+- Rol en el ecosistema — https://keyinstitute.com
+- LinkedIn (enlace público) — https://www.linkedin.com/company/keyinstitutesv
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`

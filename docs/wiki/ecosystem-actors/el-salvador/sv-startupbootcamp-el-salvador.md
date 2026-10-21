@@ -20,15 +20,17 @@ tag_country: El Salvador
 | Tipo | org |
 | País | El Salvador |
 | Ciudad | San Salvador |
-| Sitio web | https://www.startupbootcamp.org |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
+| Dirección | PENDIENTE |
+| Sitio web | https://www.startupbootcamp.org/accelerator/central-america |
+| Año de fundación | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/startupbootcamp |
+| Rol en el ecosistema | Programa regional de aceleración Startupbootcamp con foco en El Salvador. |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+We support early-stage tech-founders and rapidly scale their companies by providing direct access to an international network of the most relevant mentors, partners, and investors in their industry.
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +42,8 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
+- Sitio web — https://www.startupbootcamp.org/accelerator/central-america
+- Rol en el ecosistema — https://www.startupbootcamp.org/accelerator/central-america
+- Descripción — https://www.startupbootcamp.org/accelerator/central-america
+- LinkedIn (enlace público) — https://www.linkedin.com/company/startupbootcamp
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`

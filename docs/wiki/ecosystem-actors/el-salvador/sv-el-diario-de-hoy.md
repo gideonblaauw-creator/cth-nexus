@@ -20,15 +20,17 @@ tag_country: El Salvador
 | Tipo | org |
 | País | El Salvador |
 | Ciudad | San Salvador |
+| Dirección | PENDIENTE |
 | Sitio web | https://www.elsalvador.com |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Medios y difusión |
+| Año de fundación | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/am-rica-interactiva-el-diario-de-hoy |
+| Rol en el ecosistema | Grupo de medios digitales e impresos líder en noticias de El Salvador. |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Noticias de El Salvador, noticias internacionales, salvadoreños por el mundo, economia, negocios, politica, deportes, entretenimiento, tecnologia, turismo, tendencias, fotos, videos, redes sociales
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +42,8 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
+- Sitio web — https://www.elsalvador.com
+- Rol en el ecosistema — https://www.elsalvador.com
+- Descripción — https://www.elsalvador.com
+- LinkedIn (enlace público) — https://www.linkedin.com/company/am-rica-interactiva-el-diario-de-hoy
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`

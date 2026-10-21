@@ -20,15 +20,17 @@ tag_country: El Salvador
 | Tipo | org |
 | País | El Salvador |
 | Ciudad | San Salvador |
+| Dirección | PENDIENTE |
 | Sitio web | https://www.sisa.com.sv |
+| Año de fundación | PENDIENTE |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Institución financiera |
+| Rol en el ecosistema | Compañía aseguradora salvadoreña. |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Somos una compañía aseguradora que brinda tranquilidad y seguridad financiera, garantizando excelencia en el servicio a nuestros clientes a través de una oferta diversificada de productos, procesos digitales y servicios de calidad, manteniendo el liderazgo en primas y rentabilidad en El Salvador
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +42,7 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
+- Sitio web — https://www.sisa.com.sv
+- Rol en el ecosistema — https://www.sisa.com.sv
+- Descripción — https://www.sisa.com.sv
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`

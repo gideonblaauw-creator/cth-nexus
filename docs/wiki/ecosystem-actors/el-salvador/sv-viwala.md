@@ -20,15 +20,17 @@ tag_country: El Salvador
 | Tipo | org |
 | País | El Salvador |
 | Ciudad | San Salvador |
+| Dirección | PENDIENTE |
 | Sitio web | https://viwala.com |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Financiador e inversionista |
+| Año de fundación | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/viwala |
+| Rol en el ecosistema | Plataforma fintech de financiamiento para PYMEs en Latinoamérica. |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Plataforma fintech de financiamiento para PYMEs en Latinoamérica.
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +42,7 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
+- Sitio web — https://viwala.com
+- Rol en el ecosistema — https://viwala.com
+- LinkedIn (enlace público) — https://www.linkedin.com/company/viwala
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`

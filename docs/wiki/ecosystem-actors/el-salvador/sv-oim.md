@@ -20,15 +20,17 @@ tag_country: El Salvador
 | Tipo | org |
 | País | El Salvador |
 | Ciudad | San Salvador |
+| Dirección | PENDIENTE |
 | Sitio web | https://www.iom.int |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Organización internacional o cooperación |
+| Año de fundación | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/iom |
+| Rol en el ecosistema | Organización Internacional para las Migraciones; cooperación en migración y desarrollo. |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Organización Internacional para las Migraciones; cooperación en migración y desarrollo.
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +42,7 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
+- Sitio web — https://www.iom.int
+- Rol en el ecosistema — https://www.iom.int
+- LinkedIn (enlace público) — https://www.linkedin.com/company/iom
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`

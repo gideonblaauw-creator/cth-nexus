@@ -20,15 +20,17 @@ tag_country: El Salvador
 | Tipo | org |
 | País | El Salvador |
 | Ciudad | San Salvador |
-| Sitio web | https://www.utec.edu.sv |
+| Dirección | PENDIENTE |
+| Sitio web | https://www.utec.edu.sv/crea |
+| Año de fundación | PENDIENTE |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
+| Rol en el ecosistema | Centro de emprendimiento de UTEC: incubación, mentoría y vinculación con el ecosistema. |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Centro de emprendimiento de UTEC: incubación, mentoría y vinculación con el ecosistema.
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +42,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
+- Sitio web — https://www.utec.edu.sv/crea
+- Rol en el ecosistema — https://www.utec.edu.sv/crea
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`

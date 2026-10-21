@@ -20,15 +20,17 @@ tag_country: El Salvador
 | Tipo | org |
 | País | El Salvador |
 | Ciudad | San Salvador |
+| Dirección | PENDIENTE |
 | Sitio web | https://agrisal.com |
+| Año de fundación | PENDIENTE |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| Rol en el ecosistema | Grupo empresarial diversificado (inmobiliario, hotelero, agroindustrial). |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Agrisal celebra 120 años de historia, impulsando comunidades prósperas y sostenibles a través de proyectos innovadores en los sectores inmobiliario, hotele
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +42,7 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
+- Sitio web — https://agrisal.com
+- Rol en el ecosistema — https://agrisal.com
+- Descripción — https://agrisal.com
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`

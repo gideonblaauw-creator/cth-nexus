@@ -20,15 +20,17 @@ tag_country: El Salvador
 | Tipo | org |
 | País | El Salvador |
 | Ciudad | San Salvador |
+| Dirección | PENDIENTE |
 | Sitio web | https://www.iadb.org/es |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Organización internacional o cooperación |
+| Año de fundación | 1959 |
+| LinkedIn | https://www.linkedin.com/company/inter-american-development-bank |
+| Rol en el ecosistema | Cooperación financiera y técnica del BID para desarrollo sostenible en El Salvador. |
 | Desafíos (códigos) | AGR, BOS |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Cooperación financiera y técnica del BID para desarrollo sostenible en El Salvador.
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +42,8 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
+- Sitio web — https://www.iadb.org/es
+- Rol en el ecosistema — https://www.iadb.org/es
+- LinkedIn (enlace público) — https://www.linkedin.com/company/inter-american-development-bank
+- Año de fundación — https://www.iadb.org/es/quienes-somos
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`

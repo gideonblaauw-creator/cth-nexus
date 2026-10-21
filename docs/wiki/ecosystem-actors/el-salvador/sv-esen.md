@@ -20,15 +20,17 @@ tag_country: El Salvador
 | Tipo | org |
 | País | El Salvador |
 | Ciudad | San Salvador |
+| Dirección | PENDIENTE |
 | Sitio web | https://www.esen.edu.sv |
+| Año de fundación | 1996 |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Universidad o centro de investigación |
+| Rol en el ecosistema | Escuela Superior de Economía y Negocios (universidad especializada). |
 | Desafíos (códigos) | AGR, AGU |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Escuela Superior de Economía y Negocios (universidad especializada).
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +42,7 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
+- Sitio web — https://www.esen.edu.sv
+- Rol en el ecosistema — https://www.esen.edu.sv
+- Año de fundación — https://www.esen.edu.sv/sobre-esen/
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`

@@ -20,15 +20,17 @@ tag_country: El Salvador
 | Tipo | org |
 | País | El Salvador |
 | Ciudad | San Salvador |
+| Dirección | PENDIENTE |
 | Sitio web | https://www.unep.org |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Organización internacional o cooperación |
+| Año de fundación | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/unep |
+| Rol en el ecosistema | Programa de las Naciones Unidas para el Medio Ambiente. |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Programa de las Naciones Unidas para el Medio Ambiente.
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +42,7 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
+- Sitio web — https://www.unep.org
+- Rol en el ecosistema — https://www.unep.org
+- LinkedIn (enlace público) — https://www.linkedin.com/company/unep
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`

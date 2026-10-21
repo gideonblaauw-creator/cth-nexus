@@ -20,15 +20,17 @@ tag_country: El Salvador
 | Tipo | org |
 | País | El Salvador |
 | Ciudad | San Salvador |
+| Dirección | PENDIENTE |
 | Sitio web | https://www.ternova.group |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| Año de fundación | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/ternovagroup |
+| Rol en el ecosistema | Grupo corporativo de empaques, reciclaje y capital con operaciones en Centroamérica. |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Ternova es un grupo corporativo con presencia en 39 países y 5 continentes, posee operaciones en la región Centroamericana y el Sureste asiático.
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +42,8 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
+- Sitio web — https://www.ternova.group
+- Rol en el ecosistema — https://www.ternova.group
+- Descripción — https://www.ternova.group
+- LinkedIn (enlace público) — https://www.linkedin.com/company/ternovagroup
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`

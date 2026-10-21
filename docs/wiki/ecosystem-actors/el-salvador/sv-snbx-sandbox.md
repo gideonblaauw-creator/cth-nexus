@@ -20,15 +20,17 @@ tag_country: El Salvador
 | Tipo | org |
 | País | El Salvador |
 | Ciudad | San Salvador |
+| Dirección | PENDIENTE |
 | Sitio web | https://snbx.sv |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
+| Año de fundación | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/snbxsv |
+| Rol en el ecosistema | Aceleradora y espacio de innovación para startups en El Salvador. |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Únete a la innovación ¡Hola Innovator! Somos el primer hub de innovación deEl Salvador Apoyamos el ecosistema de emprendimiento e innovación, inspiramos el desarrollo de una cultura de trabajo que transforme personas y organizaciones, facilitando el acceso a las mejores metodologías y tecnologías de clase mundial. Somos un proyecto creado por Agrisal e INNBOX apoyados […]
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +42,8 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
+- Sitio web — https://snbx.sv
+- Rol en el ecosistema — https://snbx.sv
+- Descripción — https://snbx.sv
+- LinkedIn (enlace público) — https://www.linkedin.com/company/snbxsv
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`

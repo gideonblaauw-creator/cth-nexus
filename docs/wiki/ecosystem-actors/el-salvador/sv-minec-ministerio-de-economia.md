@@ -20,15 +20,17 @@ tag_country: El Salvador
 | Tipo | org |
 | País | El Salvador |
 | Ciudad | San Salvador |
+| Dirección | PENDIENTE |
 | Sitio web | https://www.economia.gob.sv |
+| Año de fundación | PENDIENTE |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Actor público / regulador |
+| Rol en el ecosistema | Ministerio de economía: política industrial, comercio y competitividad. |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Ministerio de economía: política industrial, comercio y competitividad.
 
 ## Relaciones (ecosistema)
 
@@ -41,5 +43,6 @@ PENDIENTE
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
+- Sitio web — https://www.economia.gob.sv
+- Rol en el ecosistema — https://www.economia.gob.sv
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
