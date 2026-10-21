@@ -4,7 +4,10 @@ from __future__ import annotations
 import io
 import re
 import ssl
+import time
+import urllib.error
 import urllib.request
+from http.client import IncompleteRead
 from typing import Any
 
 import certifi
@@ -30,8 +33,19 @@ def quote_in_body(evidence: str, body: str) -> bool:
 
 def fetch_body(url: str) -> str:
     req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=60, context=CTX) as resp:
-        data = resp.read()
+    last_err: Exception | None = None
+    data = b""
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=60, context=CTX) as resp:
+                data = resp.read()
+            last_err = None
+            break
+        except (urllib.error.URLError, TimeoutError, OSError, IncompleteRead) as exc:
+            last_err = exc
+            time.sleep(1.5 * (attempt + 1))
+    if last_err is not None:
+        raise last_err
     if url.lower().endswith(".pdf") or data[:4] == b"%PDF":
         from pypdf import PdfReader
 

@@ -340,6 +340,85 @@ export function pinStatusFor(id, byId) {
   return { id, plottable: true, reason: null, ...pin };
 }
 
+export function incidentPublicEdges(startupId, relations) {
+  if (!startupId) return [];
+  return publicRelations(relations).filter(
+    (r) => r.source === startupId || r.target === startupId,
+  );
+}
+
+export function filledJourneyStepCount(startupId, challengeId, relations, storyConfig) {
+  return journeyStepsForStartup({
+    startupId,
+    challengeId,
+    relations,
+    byId: new Map(),
+    storyConfig,
+    lang: 'ES',
+  }).filter((step) => step.edge).length;
+}
+
+/** Most public edges, then the journey with more sourced steps. */
+export function pickDefaultStartupId(startupIds, { relations, challengeId, storyConfig }) {
+  if (!startupIds?.length) return null;
+  let best = startupIds[0];
+  let bestEdges = -1;
+  let bestSteps = -1;
+  startupIds.forEach((id) => {
+    const edges = incidentPublicEdges(id, relations).length;
+    const steps = filledJourneyStepCount(id, challengeId, relations, storyConfig);
+    if (edges > bestEdges || (edges === bestEdges && steps > bestSteps)) {
+      best = id;
+      bestEdges = edges;
+      bestSteps = steps;
+    }
+  });
+  return best;
+}
+
+export function sourcedJourneyStartups({ actors, relations, storyConfig }) {
+  const rows = [];
+  (actors || []).forEach((actor) => {
+    if (actor.category !== 'startup') return;
+    const edges = incidentPublicEdges(actor.id, relations);
+    if (!edges.length) return;
+    const challengeEdge = edges.find(
+      (edge) => edge.type === 'works_on_challenge'
+        && (isChallengeId(edge.target) || isChallengeId(edge.source)),
+    );
+    const fromEdge = challengeEdge
+      ? (isChallengeId(challengeEdge.target) ? challengeEdge.target : challengeEdge.source)
+      : null;
+    const fromConstellation = (storyConfig?.constellations || []).find(
+      (c) => c.startupId === actor.id,
+    )?.challengeId || null;
+    const challengeId = storyConfig?.challenges?.[fromEdge] ? fromEdge : fromConstellation;
+    if (!challengeId || !storyConfig?.challenges?.[challengeId]) return;
+    rows.push({
+      id: actor.id,
+      name: actor.name,
+      challengeId,
+      edgeCount: edges.length,
+    });
+  });
+  rows.sort((a, b) => b.edgeCount - a.edgeCount || a.name.localeCompare(b.name, 'es'));
+  return rows;
+}
+
+export function startupVerifiedFacts(actor, { stat } = {}) {
+  const pin = streetPinFor(actor);
+  const website = isPublicHttpUrl(actor?.website) ? actor.website.trim() : null;
+  const cited = stat && isPublicHttpUrl(stat.source_url) ? stat : null;
+  return {
+    name: actor?.name || '',
+    website,
+    location: pin
+      ? { status: 'address', text: String(actor?.geo?.address || '').trim() }
+      : { status: 'unknown', text: '' },
+    stat: cited,
+  };
+}
+
 export function dataMapRows(storyConfig, challengeId, dataRelations) {
   const challenge = storyConfig?.challenges?.[challengeId];
   const country = challenge?.country;
@@ -380,7 +459,9 @@ export function buildJourneyModel({
 }) {
   const byId = new Map((actors || []).map((a) => [a.id, a]));
   const startupIds = startupsForChallenge(actors, relations, storyConfig, challengeId);
-  const resolvedStartup = startupIds.includes(startupId) ? startupId : (startupIds[0] || null);
+  const resolvedStartup = startupIds.includes(startupId)
+    ? startupId
+    : pickDefaultStartupId(startupIds, { relations, challengeId, storyConfig });
   const steps = resolvedStartup
     ? journeyStepsForStartup({
       startupId: resolvedStartup,

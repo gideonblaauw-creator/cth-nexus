@@ -6,12 +6,12 @@ Public graph edges must appear in `ops/ecosystem/graph_relation_evidence.json` w
 
 | Metric | Count |
 |--------|------:|
-| Total edges in bundle | 85 |
-| Public (verified + source_url + catalog quote) | 40 |
-| Hidden pending source | 45 |
+| Total edges in bundle | 90 |
+| Public (verified + source_url + catalog quote) | 47 |
+| Hidden pending source | 43 |
 | Self-loops removed (this sync) | 0 |
 
-Evidence catalog: `ops/ecosystem/graph_relation_evidence.json` (40 public rows).
+Evidence catalog: `ops/ecosystem/graph_relation_evidence.json` (47 public rows).
 
 Policy bundle (`static/ecosystem/data/policy_relations.json`): separate story chapter; not modified by this sync.
 
@@ -62,8 +62,6 @@ Policy bundle (`static/ecosystem/data/policy_relations.json`): separate story ch
 | `pe-root-capital` | `challenge:PE-1-bosques` | `works_on_challenge` |
 | `pe-serfor` | `challenge:PE-1-bosques` | `works_on_challenge` |
 | `pe-sernanp` | `challenge:PE-1-bosques` | `works_on_challenge` |
-| `pe-sunass` | `challenge:PE-2-agua` | `works_on_challenge` |
-| `pe-uqhu` | `challenge:PE-2-agua` | `works_on_challenge` |
 
 ## Why these edges are hidden
 

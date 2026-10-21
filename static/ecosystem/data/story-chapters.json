@@ -63,7 +63,7 @@
         "es": "Cofinanciamiento y capas de fondos que conectan programas con implementadores.",
         "en": "Co-funding and capital layers linking programs to implementers."
       },
-      "edgeTypes": ["cofunds", "funds_layer"],
+      "edgeTypes": ["cofunds", "funds_layer", "funding"],
       "map": { "center": [-77.2, -11.8], "zoom": 5.0, "countries": ["PE"] }
     }
   ],

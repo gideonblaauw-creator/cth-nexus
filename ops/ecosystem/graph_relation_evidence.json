@@ -320,6 +320,62 @@
    "source_url": "https://www.gob.pe/bosques",
    "source_title": "MINAM — Programa Bosques",
    "evidence": "Jorge Luis Sáenz Rabanal asume la Coordinación Ejecutiva del Programa Bosques del MINAM"
+  },
+  {
+   "source": "pe-proinnovate-startup-peru",
+   "target": "pe-yakusmart",
+   "type": "funding",
+   "source_url": "https://www.gob.pe/institucion/proinnovate/noticias/1451423-startup-impulsada-por-proinnovate-optimiza-el-riego-agricola-para-incrementar-el-valor-exportable-de-las-frutas",
+   "source_title": "ProInnóvate — YakuSmart optimiza el riego",
+   "evidence": "Con el impulso del programa ProInnóvate del Ministerio de la Producción (PRODUCE), la startup YakuSmart desarrolló y mejoró una plataforma tecnológica que ayuda a las agroexportadoras a optimizar el riego de sus cultivos y aprovechar de manera más eficiente los recursos hídricos y energéticos."
+  },
+  {
+   "source": "pe-produce-ministerio-de-la-produccion",
+   "target": "pe-yakusmart",
+   "type": "funding",
+   "source_url": "https://www.gob.pe/institucion/proinnovate/noticias/1451423-startup-impulsada-por-proinnovate-optimiza-el-riego-agricola-para-incrementar-el-valor-exportable-de-las-frutas",
+   "source_title": "ProInnóvate — YakuSmart optimiza el riego",
+   "evidence": "Con el impulso del programa ProInnóvate del Ministerio de la Producción (PRODUCE), la startup YakuSmart desarrolló y mejoró una plataforma tecnológica que ayuda a las agroexportadoras a optimizar el riego de sus cultivos y aprovechar de manera más eficiente los recursos hídricos y energéticos."
+  },
+  {
+   "source": "pe-yakusmart",
+   "target": "challenge:PE-2-agua",
+   "type": "works_on_challenge",
+   "source_url": "https://www.gob.pe/institucion/proinnovate/noticias/1451423-startup-impulsada-por-proinnovate-optimiza-el-riego-agricola-para-incrementar-el-valor-exportable-de-las-frutas",
+   "source_title": "ProInnóvate — YakuSmart optimiza el riego",
+   "evidence": "la startup YakuSmart desarrolló y mejoró una plataforma tecnológica que ayuda a las agroexportadoras a optimizar el riego de sus cultivos y aprovechar de manera más eficiente los recursos hídricos y energéticos."
+  },
+  {
+   "source": "pe-jaku-emprende-unsa-arequipa",
+   "target": "pe-yakufil",
+   "type": "incubated",
+   "source_url": "https://www.unsa.edu.pe/emprendedores-de-la-unsa-ganan-concurso-y-recibiran-s-60-000-por-parte-de-startup-peru-9g/",
+   "source_title": "UNSA — Yakufil, Startup Perú 9G",
+   "evidence": "Jóvenes representantes de los proyectos Space School, AVIRU y YAKUFIL, que recibieron acompañamiento de la Incubadora de Negocios JAKU Emprende UNSA, recibirán un fondo de hasta S/ 60 000. Esta importante subvención les permitirá seguir con el desarrollo de sus propuestas. Los tres proyectos fueron ganadores en la categoría Emprendimientos Innovadores en el concurso organizado por la iniciativa Startup Perú 9G, del Programa Nacional PROINNOVATE"
+  },
+  {
+   "source": "pe-proinnovate-startup-peru",
+   "target": "pe-yakufil",
+   "type": "funding",
+   "source_url": "https://www.unsa.edu.pe/emprendedores-de-la-unsa-ganan-concurso-y-recibiran-s-60-000-por-parte-de-startup-peru-9g/",
+   "source_title": "UNSA — Yakufil, Startup Perú 9G",
+   "evidence": "Jóvenes representantes de los proyectos Space School, AVIRU y YAKUFIL, que recibieron acompañamiento de la Incubadora de Negocios JAKU Emprende UNSA, recibirán un fondo de hasta S/ 60 000. Esta importante subvención les permitirá seguir con el desarrollo de sus propuestas. Los tres proyectos fueron ganadores en la categoría Emprendimientos Innovadores en el concurso organizado por la iniciativa Startup Perú 9G, del Programa Nacional PROINNOVATE"
+  },
+  {
+   "source": "pe-uqhu",
+   "target": "challenge:PE-2-agua",
+   "type": "works_on_challenge",
+   "source_url": "https://www.unasam.edu.pe/noticia/y0zRtTQ1BgA=",
+   "source_title": "UNASAM — startup Uqhu",
+   "evidence": "La startup que presentaron, llamada \"Uqhu\", surgió de la investigación en el tratamiento de aguas residuales domesticas (ARD) mediante humedales construidos de tipo francés"
+  },
+  {
+   "source": "pe-sunass",
+   "target": "challenge:PE-2-agua",
+   "type": "works_on_challenge",
+   "source_url": "https://www.gob.pe/sunass",
+   "source_title": "SUNASS — Gob.pe",
+   "evidence": "Superintendencia Nacional de Servicios de Saneamiento - SUNASS"
   }
  ]
 }
