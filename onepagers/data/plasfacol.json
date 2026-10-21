@@ -14,34 +14,10 @@
   "cta_btn_en": "eco-tienda-plasfacol.venndelo.com",
   "cta_btn_es": "eco-tienda-plasfacol.venndelo.com",
   "ribbon": [
-    {
-      "val": "CO",
-      "lab_en": "Country",
-      "lab_es": "País",
-      "sub_en": "Colombia",
-      "sub_es": "Colombia"
-    },
-    {
-      "val": "Pre-Seed",
-      "lab_en": "Stage",
-      "lab_es": "Etapa",
-      "sub_en": "CLAC25",
-      "sub_es": "CLAC25"
-    },
-    {
-      "val": "Circular",
-      "lab_en": "Sector",
-      "lab_es": "Sector",
-      "sub_en": "Cleantech",
-      "sub_es": "Cleantech"
-    },
-    {
-      "val": "[P]",
-      "lab_en": "Metrics",
-      "lab_es": "Métricas",
-      "sub_en": "[PENDIENTE]",
-      "sub_es": "[PENDIENTE]"
-    }
+    {"val": "CO", "lab_en": "Country", "lab_es": "País", "sub_en": "Colombia", "sub_es": "Colombia"},
+    {"val": "Pre-Seed", "lab_en": "Stage", "lab_es": "Etapa", "sub_en": "CLAC25", "sub_es": "CLAC25"},
+    {"val": "Circular", "lab_en": "Sector", "lab_es": "Sector", "sub_en": "Cleantech", "sub_es": "Cleantech"},
+    {"val": "[P]", "lab_en": "Metrics", "lab_es": "Métricas", "sub_en": "[PENDIENTE]", "sub_es": "[PENDIENTE]"}
   ],
   "problem_stats": [
     [

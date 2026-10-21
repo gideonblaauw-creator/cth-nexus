@@ -12,34 +12,10 @@
   "cta_pitch_en": "Certified B Corp focused on operational intelligence for energy performance and emissions reduction.",
   "cta_pitch_es": "B Corp certificada enfocada en inteligencia operacional para desempe&ntilde;o energ&eacute;tico y reducci&oacute;n de emisiones.",
   "ribbon": [
-    {
-      "val": "BR",
-      "lab_en": "Country",
-      "lab_es": "Pa&iacute;s",
-      "sub_en": "Brazil",
-      "sub_es": "Brazil"
-    },
-    {
-      "val": "[P]",
-      "lab_en": "Stage",
-      "lab_es": "Etapa",
-      "sub_en": "Acceleration",
-      "sub_es": "Acceleration"
-    },
-    {
-      "val": "Energy",
-      "lab_en": "Sector",
-      "lab_es": "Sector",
-      "sub_en": "Cleantech",
-      "sub_es": "Cleantech"
-    },
-    {
-      "val": "[P]",
-      "lab_en": "Metrics",
-      "lab_es": "M&eacute;tricas",
-      "sub_en": "[PENDIENTE]",
-      "sub_es": "[PENDIENTE]"
-    }
+    {"val": "BR", "lab_en": "Country", "lab_es": "Pa&iacute;s", "sub_en": "Brazil", "sub_es": "Brazil"},
+    {"val": "[P]", "lab_en": "Stage", "lab_es": "Etapa", "sub_en": "Acceleration", "sub_es": "Acceleration"},
+    {"val": "Energy", "lab_en": "Sector", "lab_es": "Sector", "sub_en": "Cleantech", "sub_es": "Cleantech"},
+    {"val": "[P]", "lab_en": "Metrics", "lab_es": "M&eacute;tricas", "sub_en": "[PENDIENTE]", "sub_es": "[PENDIENTE]"}
   ],
   "problem_stats": [
     [

@@ -12,34 +12,10 @@
   "cta_pitch_en": "CleantechHUB Acceleration portfolio &mdash; verified public sources only.",
   "cta_pitch_es": "Portafolio Acceleration CleantechHUB &mdash; solo fuentes p&uacute;blicas verificadas.",
   "ribbon": [
-    {
-      "val": "PE",
-      "lab_en": "Country",
-      "lab_es": "Pa&iacute;s",
-      "sub_en": "Peru",
-      "sub_es": "Peru"
-    },
-    {
-      "val": "[P]",
-      "lab_en": "Stage",
-      "lab_es": "Etapa",
-      "sub_en": "Acceleration",
-      "sub_es": "Acceleration"
-    },
-    {
-      "val": "HR Tech",
-      "lab_en": "Sector",
-      "lab_es": "Sector",
-      "sub_en": "CleantechHUB",
-      "sub_es": "CleantechHUB"
-    },
-    {
-      "val": "[P]",
-      "lab_en": "Metrics",
-      "lab_es": "M&eacute;tricas",
-      "sub_en": "[PENDIENTE]",
-      "sub_es": "[PENDIENTE]"
-    }
+    {"val": "PE", "lab_en": "Country", "lab_es": "Pa&iacute;s", "sub_en": "Peru", "sub_es": "Peru"},
+    {"val": "[P]", "lab_en": "Stage", "lab_es": "Etapa", "sub_en": "Acceleration", "sub_es": "Acceleration"},
+    {"val": "HR Tech", "lab_en": "Sector", "lab_es": "Sector", "sub_en": "CleantechHUB", "sub_es": "CleantechHUB"},
+    {"val": "[P]", "lab_en": "Metrics", "lab_es": "M&eacute;tricas", "sub_en": "[PENDIENTE]", "sub_es": "[PENDIENTE]"}
   ],
   "problem_stats": [
     [

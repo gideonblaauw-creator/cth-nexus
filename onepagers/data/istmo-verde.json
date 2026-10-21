@@ -11,34 +11,10 @@
   "cta_pitch_en": "Forest-sector carbon compensation and conservation projects for businesses in Guatemala and Central America.",
   "cta_pitch_es": "Proyectos de compensación de carbono y conservación forestal para empresas en Guatemala y Centroamérica.",
   "ribbon": [
-    {
-      "val": "GT",
-      "lab_en": "Country",
-      "lab_es": "País",
-      "sub_en": "Guatemala",
-      "sub_es": "Guatemala"
-    },
-    {
-      "val": "Seed",
-      "lab_en": "Stage",
-      "lab_es": "Etapa",
-      "sub_en": "CLP",
-      "sub_es": "CLP"
-    },
-    {
-      "val": "Energy",
-      "lab_en": "Sector",
-      "lab_es": "Sector",
-      "sub_en": "Cleantech",
-      "sub_es": "Cleantech"
-    },
-    {
-      "val": "[P]",
-      "lab_en": "Metrics",
-      "lab_es": "Métricas",
-      "sub_en": "[PENDIENTE]",
-      "sub_es": "[PENDIENTE]"
-    }
+    {"val": "GT", "lab_en": "Country", "lab_es": "País", "sub_en": "Guatemala", "sub_es": "Guatemala"},
+    {"val": "Seed", "lab_en": "Stage", "lab_es": "Etapa", "sub_en": "CLP", "sub_es": "CLP"},
+    {"val": "Energy", "lab_en": "Sector", "lab_es": "Sector", "sub_en": "Cleantech", "sub_es": "Cleantech"},
+    {"val": "[P]", "lab_en": "Metrics", "lab_es": "Métricas", "sub_en": "[PENDIENTE]", "sub_es": "[PENDIENTE]"}
   ],
   "problem_stats": [
     [

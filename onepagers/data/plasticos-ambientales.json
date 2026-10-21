@@ -15,34 +15,10 @@
   "cta_btn_es": "Visitar sitio",
   "cta_bg": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1200&q=80",
   "ribbon": [
-    {
-      "val": "CO",
-      "lab_en": "Country",
-      "lab_es": "País",
-      "sub_en": "Colombia",
-      "sub_es": "Colombia"
-    },
-    {
-      "val": "Seed",
-      "lab_en": "Stage",
-      "lab_es": "Etapa",
-      "sub_en": "CLAC24",
-      "sub_es": "CLAC24"
-    },
-    {
-      "val": "CE",
-      "lab_en": "Sector",
-      "lab_es": "Sector",
-      "sub_en": "Circular econ.",
-      "sub_es": "Econ. circular"
-    },
-    {
-      "val": "[P]",
-      "lab_en": "Metrics",
-      "lab_es": "Métricas",
-      "sub_en": "[PENDIENTE]",
-      "sub_es": "[PENDIENTE]"
-    }
+    {"val": "CO", "lab_en": "Country", "lab_es": "País", "sub_en": "Colombia", "sub_es": "Colombia"},
+    {"val": "Seed", "lab_en": "Stage", "lab_es": "Etapa", "sub_en": "CLAC24", "sub_es": "CLAC24"},
+    {"val": "CE", "lab_en": "Sector", "lab_es": "Sector", "sub_en": "Circular econ.", "sub_es": "Econ. circular"},
+    {"val": "[P]", "lab_en": "Metrics", "lab_es": "Métricas", "sub_en": "[PENDIENTE]", "sub_es": "[PENDIENTE]"}
   ],
   "problem_stats": [
     [

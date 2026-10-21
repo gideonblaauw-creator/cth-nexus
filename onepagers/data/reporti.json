@@ -14,34 +14,10 @@
   "cta_btn_en": "CleantechHUB",
   "cta_btn_es": "CleantechHUB",
   "ribbon": [
-    {
-      "val": "Ideation",
-      "lab_en": "Stage",
-      "lab_es": "Etapa",
-      "sub_en": "CLP26 CO",
-      "sub_es": "CLP26 CO"
-    },
-    {
-      "val": "Efficiency",
-      "lab_en": "Category",
-      "lab_es": "Categoría",
-      "sub_en": "Cleantech",
-      "sub_es": "Cleantech"
-    },
-    {
-      "val": "CT-XS-004",
-      "lab_en": "CT Taxonomy",
-      "lab_es": "Taxonomía CT",
-      "sub_en": "CTH",
-      "sub_es": "CTH"
-    },
-    {
-      "val": "2",
-      "lab_en": "Team",
-      "lab_es": "Equipo",
-      "sub_en": "Application",
-      "sub_es": "Aplicación"
-    }
+    {"val": "Ideation", "lab_en": "Stage", "lab_es": "Etapa", "sub_en": "CLP26 CO", "sub_es": "CLP26 CO"},
+    {"val": "Efficiency", "lab_en": "Category", "lab_es": "Categoría", "sub_en": "Cleantech", "sub_es": "Cleantech"},
+    {"val": "CT-XS-004", "lab_en": "CT Taxonomy", "lab_es": "Taxonomía CT", "sub_en": "CTH", "sub_es": "CTH"},
+    {"val": "2", "lab_en": "Team", "lab_es": "Equipo", "sub_en": "Application", "sub_es": "Aplicación"}
   ],
   "problem_stats": [
     [

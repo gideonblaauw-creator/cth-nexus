@@ -14,34 +14,10 @@
   "cta_btn_en": "purestfuels.com",
   "cta_btn_es": "purestfuels.com",
   "ribbon": [
-    {
-      "val": "CO",
-      "lab_en": "Country",
-      "lab_es": "País",
-      "sub_en": "Colombia",
-      "sub_es": "Colombia"
-    },
-    {
-      "val": "Pre-Seed",
-      "lab_en": "Stage",
-      "lab_es": "Etapa",
-      "sub_en": "CLAC23",
-      "sub_es": "CLAC23"
-    },
-    {
-      "val": "Energy",
-      "lab_en": "Sector",
-      "lab_es": "Sector",
-      "sub_en": "Cleantech",
-      "sub_es": "Cleantech"
-    },
-    {
-      "val": "[P]",
-      "lab_en": "Metrics",
-      "lab_es": "Métricas",
-      "sub_en": "[PENDIENTE]",
-      "sub_es": "[PENDIENTE]"
-    }
+    {"val": "CO", "lab_en": "Country", "lab_es": "País", "sub_en": "Colombia", "sub_es": "Colombia"},
+    {"val": "Pre-Seed", "lab_en": "Stage", "lab_es": "Etapa", "sub_en": "CLAC23", "sub_es": "CLAC23"},
+    {"val": "Energy", "lab_en": "Sector", "lab_es": "Sector", "sub_en": "Cleantech", "sub_es": "Cleantech"},
+    {"val": "[P]", "lab_en": "Metrics", "lab_es": "Métricas", "sub_en": "[PENDIENTE]", "sub_es": "[PENDIENTE]"}
   ],
   "problem_stats": [
     [

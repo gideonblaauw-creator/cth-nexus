@@ -12,34 +12,10 @@
   "cta_pitch_en": "CleantechHUB CLAC22 portfolio card &mdash; civil-society nature reserve certification and rural lodging.",
   "cta_pitch_es": "Tarjeta de portafolio CLAC22 CleantechHUB &mdash; certificaci&oacute;n de reserva natural de la sociedad civil y alojamiento rural.",
   "ribbon": [
-    {
-      "val": "CO",
-      "lab_en": "Country",
-      "lab_es": "Pa&iacute;s",
-      "sub_en": "Colombia",
-      "sub_es": "Colombia"
-    },
-    {
-      "val": "Pre-Seed",
-      "lab_en": "Stage",
-      "lab_es": "Etapa",
-      "sub_en": "CLAC22",
-      "sub_es": "CLAC22"
-    },
-    {
-      "val": "Bio",
-      "lab_en": "Sector",
-      "lab_es": "Sector",
-      "sub_en": "Cleantech",
-      "sub_es": "Cleantech"
-    },
-    {
-      "val": "[P]",
-      "lab_en": "Metrics",
-      "lab_es": "M&eacute;tricas",
-      "sub_en": "[PENDIENTE]",
-      "sub_es": "[PENDIENTE]"
-    }
+    {"val": "CO", "lab_en": "Country", "lab_es": "Pa&iacute;s", "sub_en": "Colombia", "sub_es": "Colombia"},
+    {"val": "Pre-Seed", "lab_en": "Stage", "lab_es": "Etapa", "sub_en": "CLAC22", "sub_es": "CLAC22"},
+    {"val": "Bio", "lab_en": "Sector", "lab_es": "Sector", "sub_en": "Cleantech", "sub_es": "Cleantech"},
+    {"val": "[P]", "lab_en": "Metrics", "lab_es": "M&eacute;tricas", "sub_en": "[PENDIENTE]", "sub_es": "[PENDIENTE]"}
   ],
   "problem_stats": [
     [

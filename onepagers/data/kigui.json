@@ -11,34 +11,10 @@
   "cta_pitch_en": "AI copilot for retail execution — inventory, expiry, and in-store operations to cut food waste.",
   "cta_pitch_es": "Copiloto de IA para ejecución en retail — inventario, caducidad y operación en tienda para reducir merma.",
   "ribbon": [
-    {
-      "val": "MX",
-      "lab_en": "Country",
-      "lab_es": "País",
-      "sub_en": "Mexico",
-      "sub_es": "Mexico"
-    },
-    {
-      "val": "Seed",
-      "lab_en": "Stage",
-      "lab_es": "Etapa",
-      "sub_en": "CLAC23",
-      "sub_es": "CLAC23"
-    },
-    {
-      "val": "Circular",
-      "lab_en": "Sector",
-      "lab_es": "Sector",
-      "sub_en": "Cleantech",
-      "sub_es": "Cleantech"
-    },
-    {
-      "val": "[P]",
-      "lab_en": "Metrics",
-      "lab_es": "Métricas",
-      "sub_en": "[PENDIENTE]",
-      "sub_es": "[PENDIENTE]"
-    }
+    {"val": "MX", "lab_en": "Country", "lab_es": "País", "sub_en": "Mexico", "sub_es": "Mexico"},
+    {"val": "Seed", "lab_en": "Stage", "lab_es": "Etapa", "sub_en": "CLAC23", "sub_es": "CLAC23"},
+    {"val": "Circular", "lab_en": "Sector", "lab_es": "Sector", "sub_en": "Cleantech", "sub_es": "Cleantech"},
+    {"val": "[P]", "lab_en": "Metrics", "lab_es": "Métricas", "sub_en": "[PENDIENTE]", "sub_es": "[PENDIENTE]"}
   ],
   "problem_stats": [
     [

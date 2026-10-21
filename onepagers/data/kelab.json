@@ -14,34 +14,10 @@
   "cta_btn_en": "kelab.com.co",
   "cta_btn_es": "kelab.com.co",
   "ribbon": [
-    {
-      "val": "CO",
-      "lab_en": "Country",
-      "lab_es": "País",
-      "sub_en": "Colombia",
-      "sub_es": "Colombia"
-    },
-    {
-      "val": "[PENDIENTE]",
-      "lab_en": "Stage",
-      "lab_es": "Etapa",
-      "sub_en": "Acceleration",
-      "sub_es": "Acceleration"
-    },
-    {
-      "val": "Circular",
-      "lab_en": "Sector",
-      "lab_es": "Sector",
-      "sub_en": "Cleantech",
-      "sub_es": "Cleantech"
-    },
-    {
-      "val": "[P]",
-      "lab_en": "Metrics",
-      "lab_es": "Métricas",
-      "sub_en": "[PENDIENTE]",
-      "sub_es": "[PENDIENTE]"
-    }
+    {"val": "CO", "lab_en": "Country", "lab_es": "País", "sub_en": "Colombia", "sub_es": "Colombia"},
+    {"val": "[PENDIENTE]", "lab_en": "Stage", "lab_es": "Etapa", "sub_en": "Acceleration", "sub_es": "Acceleration"},
+    {"val": "Circular", "lab_en": "Sector", "lab_es": "Sector", "sub_en": "Cleantech", "sub_es": "Cleantech"},
+    {"val": "[P]", "lab_en": "Metrics", "lab_es": "Métricas", "sub_en": "[PENDIENTE]", "sub_es": "[PENDIENTE]"}
   ],
   "problem_stats": [
     [

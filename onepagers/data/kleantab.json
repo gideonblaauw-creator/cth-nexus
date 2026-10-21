@@ -11,34 +11,10 @@
   "cta_pitch_en": "Refillable cleaning — dissolve a tablet at home, reuse the bottle, less plastic and lighter logistics.",
   "cta_pitch_es": "Limpieza recargable — disuelve una tableta en casa, reutiliza el envase, menos plástico y logística más liviana.",
   "ribbon": [
-    {
-      "val": "CR",
-      "lab_en": "Country",
-      "lab_es": "País",
-      "sub_en": "Costa Rica",
-      "sub_es": "Costa Rica"
-    },
-    {
-      "val": "[P]",
-      "lab_en": "Stage",
-      "lab_es": "Etapa",
-      "sub_en": "Acceleration",
-      "sub_es": "Acceleration"
-    },
-    {
-      "val": "Circular",
-      "lab_en": "Sector",
-      "lab_es": "Sector",
-      "sub_en": "Cleantech",
-      "sub_es": "Cleantech"
-    },
-    {
-      "val": "[P]",
-      "lab_en": "Metrics",
-      "lab_es": "Métricas",
-      "sub_en": "[PENDIENTE]",
-      "sub_es": "[PENDIENTE]"
-    }
+    {"val": "CR", "lab_en": "Country", "lab_es": "País", "sub_en": "Costa Rica", "sub_es": "Costa Rica"},
+    {"val": "[P]", "lab_en": "Stage", "lab_es": "Etapa", "sub_en": "Acceleration", "sub_es": "Acceleration"},
+    {"val": "Circular", "lab_en": "Sector", "lab_es": "Sector", "sub_en": "Cleantech", "sub_es": "Cleantech"},
+    {"val": "[P]", "lab_en": "Metrics", "lab_es": "Métricas", "sub_en": "[PENDIENTE]", "sub_es": "[PENDIENTE]"}
   ],
   "problem_stats": [
     [

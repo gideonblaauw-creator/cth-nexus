@@ -11,34 +11,10 @@
   "cta_pitch_en": "Climate consulting and CarbonBox SaaS for corporate carbon footprints and decarbonization.",
   "cta_pitch_es": "Consultoría climática y SaaS CarbonBox para huella de carbono corporativa y descarbonización.",
   "ribbon": [
-    {
-      "val": "CO",
-      "lab_en": "Country",
-      "lab_es": "País",
-      "sub_en": "Colombia",
-      "sub_es": "Colombia"
-    },
-    {
-      "val": "Seed",
-      "lab_en": "Stage",
-      "lab_es": "Etapa",
-      "sub_en": "CLAC21",
-      "sub_es": "CLAC21"
-    },
-    {
-      "val": "Energy",
-      "lab_en": "Sector",
-      "lab_es": "Sector",
-      "sub_en": "Cleantech",
-      "sub_es": "Cleantech"
-    },
-    {
-      "val": "[P]",
-      "lab_en": "Metrics",
-      "lab_es": "Métricas",
-      "sub_en": "[PENDIENTE]",
-      "sub_es": "[PENDIENTE]"
-    }
+    {"val": "CO", "lab_en": "Country", "lab_es": "País", "sub_en": "Colombia", "sub_es": "Colombia"},
+    {"val": "Seed", "lab_en": "Stage", "lab_es": "Etapa", "sub_en": "CLAC21", "sub_es": "CLAC21"},
+    {"val": "Energy", "lab_en": "Sector", "lab_es": "Sector", "sub_en": "Cleantech", "sub_es": "Cleantech"},
+    {"val": "[P]", "lab_en": "Metrics", "lab_es": "Métricas", "sub_en": "[PENDIENTE]", "sub_es": "[PENDIENTE]"}
   ],
   "problem_stats": [
     [

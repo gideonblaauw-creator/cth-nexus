@@ -9,6 +9,12 @@ import unicodedata
 from collections import defaultdict
 from pathlib import Path
 
+_GEO_DIR = Path(__file__).resolve().parent
+import sys
+
+sys.path.insert(0, str(_GEO_DIR))
+from json_bundle_io import write_json  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[2]
 FIXES_DIR = Path(__file__).resolve().parent / "fixes"
 
@@ -72,10 +78,6 @@ def norm_slug(s: str) -> str:
 
 def load_json(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
-
-
-def save_json(path: Path, data) -> None:
-    path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 def parse_float(v: str | None):
@@ -257,7 +259,7 @@ def apply_onepager(path: Path, row: dict) -> bool:
                     rib["sub_es"] = country
                 if cc:
                     rib["val"] = cc
-    save_json(path, data)
+    write_json(path, data)
     return True
 
 
@@ -402,12 +404,12 @@ def main() -> None:
         if not ok:
             stats["missing"].append(f"{et}:{row.get('id')}")
 
-    save_json(actors_path, actors)
-    save_json(hubs_path, hubs_doc)
-    save_json(portfolio_path, portfolio_doc)
-    save_json(investors_path, investors_doc)
-    save_json(mentors_path, mentors_doc)
-    save_json(jury_path, jury_doc)
+    write_json(actors_path, actors)
+    write_json(hubs_path, hubs_doc)
+    write_json(portfolio_path, portfolio_doc)
+    write_json(investors_path, investors_doc)
+    write_json(mentors_path, mentors_doc)
+    write_json(jury_path, jury_doc)
 
     print(f"Applied {len(rows)} fix rows; missing {len(stats['missing'])}")
     if stats["missing"]:

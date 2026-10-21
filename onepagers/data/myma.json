@@ -12,34 +12,10 @@
   "cta_pitch_en": "Founded 2017 &mdash; licensed environmental consulting firm (public directories).",
   "cta_pitch_es": "Fundada en 2017 &mdash; firma consultora ambiental licenciada (directorios p&uacute;blicos).",
   "ribbon": [
-    {
-      "val": "GT",
-      "lab_en": "Country",
-      "lab_es": "Pa&iacute;s",
-      "sub_en": "Guatemala",
-      "sub_es": "Guatemala"
-    },
-    {
-      "val": "[P]",
-      "lab_en": "Stage",
-      "lab_es": "Etapa",
-      "sub_en": "Acceleration",
-      "sub_es": "Acceleration"
-    },
-    {
-      "val": "Env.",
-      "lab_en": "Sector",
-      "lab_es": "Sector",
-      "sub_en": "Cleantech",
-      "sub_es": "Cleantech"
-    },
-    {
-      "val": "[P]",
-      "lab_en": "Metrics",
-      "lab_es": "M&eacute;tricas",
-      "sub_en": "[PENDIENTE]",
-      "sub_es": "[PENDIENTE]"
-    }
+    {"val": "GT", "lab_en": "Country", "lab_es": "Pa&iacute;s", "sub_en": "Guatemala", "sub_es": "Guatemala"},
+    {"val": "[P]", "lab_en": "Stage", "lab_es": "Etapa", "sub_en": "Acceleration", "sub_es": "Acceleration"},
+    {"val": "Env.", "lab_en": "Sector", "lab_es": "Sector", "sub_en": "Cleantech", "sub_es": "Cleantech"},
+    {"val": "[P]", "lab_en": "Metrics", "lab_es": "M&eacute;tricas", "sub_en": "[PENDIENTE]", "sub_es": "[PENDIENTE]"}
   ],
   "problem_stats": [
     [

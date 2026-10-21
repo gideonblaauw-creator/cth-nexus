@@ -15,34 +15,10 @@
   "cta_btn_en": "CleantechHUB",
   "cta_btn_es": "CleantechHUB",
   "ribbon": [
-    {
-      "val": "CO",
-      "lab_en": "Country",
-      "lab_es": "Pais",
-      "sub_en": "Colombia",
-      "sub_es": "Colombia"
-    },
-    {
-      "val": "[P]",
-      "lab_en": "Stage",
-      "lab_es": "Etapa",
-      "sub_en": "Accel.",
-      "sub_es": "Accel."
-    },
-    {
-      "val": "Circular",
-      "lab_en": "Sector",
-      "lab_es": "Sector",
-      "sub_en": "Cleantech",
-      "sub_es": "Cleantech"
-    },
-    {
-      "val": "[P]",
-      "lab_en": "Metrics",
-      "lab_es": "Metricas",
-      "sub_en": "[PENDIENTE]",
-      "sub_es": "[PENDIENTE]"
-    }
+    {"val": "CO", "lab_en": "Country", "lab_es": "Pais", "sub_en": "Colombia", "sub_es": "Colombia"},
+    {"val": "[P]", "lab_en": "Stage", "lab_es": "Etapa", "sub_en": "Accel.", "sub_es": "Accel."},
+    {"val": "Circular", "lab_en": "Sector", "lab_es": "Sector", "sub_en": "Cleantech", "sub_es": "Cleantech"},
+    {"val": "[P]", "lab_en": "Metrics", "lab_es": "Metricas", "sub_en": "[PENDIENTE]", "sub_es": "[PENDIENTE]"}
   ],
   "problem_stats": [
     [
