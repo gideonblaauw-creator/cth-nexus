@@ -81,6 +81,27 @@ test('challenge area selector deep-links and scopes story', async ({ page }) => 
   });
 });
 
+test('story layout places inspector below map and network', async ({ page }) => {
+  await page.setViewportSize({ width: 1280, height: 900 });
+  await page.goto(
+    ecoQuery('preview=1&view=story&state=selected&chapter=0&challenge=PE-1-bosques&actor=pe-profonanpe'),
+    { waitUntil: 'domcontentloaded', timeout: 60000 },
+  );
+  await page.waitForSelector('body[data-eco-ready="1"]', { timeout: 45000 });
+  await expect(page.locator('#inspector')).not.toHaveClass(/empty/);
+  await page.waitForTimeout(600);
+
+  const panes = await page.locator('.workspace-panes').boundingBox();
+  const inspector = await page.locator('#inspector').boundingBox();
+  const map = await page.locator('.map-pane').boundingBox();
+  expect(panes).toBeTruthy();
+  expect(inspector).toBeTruthy();
+  expect(map).toBeTruthy();
+  expect(inspector.y).toBeGreaterThan(panes.y + panes.height - 4);
+  expect(await page.locator('.rel-row .rsep').count()).toBeGreaterThan(0);
+  await expect(page.locator('.rel-row .rtype').first()).not.toHaveText('');
+});
+
 async function mkdir(p) {
   const { mkdir: mk } = await import('fs/promises');
   await mk(p, { recursive: true });

@@ -253,6 +253,16 @@ function relTypeLabel(rt) {
   return t().rels?.[rt] || rt.replace(/_/g, '-');
 }
 
+function relRowHtml(type, nameHtml, { jumpId = null } = {}) {
+  const jump = jumpId ? ` data-jump="${esc(jumpId)}"` : '';
+  return `<div class="rel-row"${jump}><span class="rtype">${esc(relTypeLabel(type))}</span><span class="rsep" aria-hidden="true">·</span><span class="rname">${nameHtml}</span></div>`;
+}
+
+function relGridWrap(rowsHtml) {
+  if (!rowsHtml) return `<p class="meta">${esc(t().noRelations)}</p>`;
+  return `<div class="rel-grid">${rowsHtml}</div>`;
+}
+
 function esc(s) {
   return String(s ?? '').replace(/[&<>"']/g, (c) => ({
     '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
@@ -562,6 +572,8 @@ function buildGraph(idSet, rels, opts = {}) {
     storyLayout = false,
     storySuggested = [],
   } = opts;
+  const maxActorLabel = storyLayout ? 40 : 24;
+  const maxVirtualLabel = storyLayout ? 56 : 24;
 
   suggestedEdges = storySuggested;
 
@@ -586,7 +598,7 @@ function buildGraph(idSet, rels, opts = {}) {
     }
     const size = id === selected ? 14 : Math.min(12, 5 + (degree.get(id) || 0) * 0.65);
     addNode(id, {
-      label: a.name.length > 24 ? `${a.name.slice(0, 22)}…` : a.name,
+      label: a.name.length > maxActorLabel ? `${a.name.slice(0, maxActorLabel - 1)}…` : a.name,
       x: pos.x,
       y: pos.y,
       size,
@@ -597,7 +609,9 @@ function buildGraph(idSet, rels, opts = {}) {
   virtualNodes.forEach((vn) => {
     const pos = presetPositions?.get(vn.id)?.position
       || (vn.geo ? geoXY({ geo: vn.geo }) : { x: 0, y: 0 });
-    const lbl = vn.label?.length > 24 ? `${vn.label.slice(0, 22)}…` : (vn.label || vn.id);
+    const lbl = vn.label?.length > maxVirtualLabel
+      ? `${vn.label.slice(0, maxVirtualLabel - 1)}…`
+      : (vn.label || vn.id);
     addNode(vn.id, {
       label: lbl,
       x: pos.x,
@@ -850,15 +864,18 @@ function renderInspector(id) {
         ${row?.source_url ? `<a class="secondary" href="${esc(row.source_url)}" target="_blank" rel="noopener">${tr.website}</a>` : ''}
         ${crosslinkSection(tr.policyStartups, policyStartups, tr)}
         <div class="section"><h3>${tr.typedRelations}</h3>
-        ${linked.slice(0, 12).map((r) => {
+        ${relGridWrap(linked.slice(0, 12).map((r) => {
       const otherId = r.source === id ? r.target : r.source;
       const other = byId.get(otherId);
       const oLabel = other?.name
         || (isChallengeId(otherId) ? (storyConfig?.challenges[otherId]?.label?.[lang === 'EN' ? 'en' : 'es'] || otherId) : otherId);
-      return `<div class="rel-row"><span class="rtype">${esc(relTypeLabel(r.type))}</span>${esc(oLabel)}</div>`;
-    }).join('') || `<p class="meta">${tr.noRelations}</p>`}
+      return relRowHtml(r.type, esc(oLabel), { jumpId: otherId });
+    }).join(''))}
         </div>
       </div>`;
+    el.querySelectorAll('[data-jump]').forEach((row) => {
+      row.addEventListener('click', () => selectActor(row.dataset.jump));
+    });
     return;
   }
   if (isDatasetId(id) && storyConfig?.datasets?.[id]) {
@@ -913,20 +930,23 @@ function renderInspector(id) {
         ${crosslinkSection(tr.nexusCrossSolutions, panel.solutions, tr)}
         ${crosslinkSection(tr.nexusCrossStartups, panel.startups, tr)}
         <div class="section"><h3>${tr.typedRelations}</h3>
-        ${linked.slice(0, 12).map((r) => {
+        ${relGridWrap(linked.slice(0, 12).map((r) => {
       const o = byId.get(r.source);
       const slug = o?.nexus?.card_slug;
       const name = o?.name || r.source;
       const label = slug && o?.category === 'startup'
         ? `<a href="/s/${esc(slug)}/" target="_blank" rel="noopener">${esc(name)}</a>`
         : esc(name);
-      return `<div class="rel-row"><span class="rtype">${esc(relTypeLabel(r.type))}</span>${label}</div>`;
-    }).join('') || `<p class="meta">${tr.noRelations}</p>`}
+      return relRowHtml(r.type, label, { jumpId: r.source });
+    }).join(''))}
         </div>
         <p class="meta" style="margin-top:8px">${esc(tr.storySuggestedHint || '')}</p>
       </div>`;
     el.querySelectorAll('[data-jump-policy]').forEach((btn) => {
       btn.addEventListener('click', () => selectActor(btn.dataset.jumpPolicy));
+    });
+    el.querySelectorAll('[data-jump]').forEach((row) => {
+      row.addEventListener('click', () => selectActor(row.dataset.jump));
     });
     return;
   }
@@ -972,12 +992,12 @@ function renderInspector(id) {
       ${detailBits}
       <div class="section">
         <h3>${tr.typedRelations}</h3>
-        ${rels.slice(0, 16).map((r) => {
+        ${relGridWrap(rels.slice(0, 16).map((r) => {
     const otherId = r.source === id ? r.target : r.source;
     const other = byId.get(otherId);
     const dir = r.source === id ? '→' : '←';
-    return `<div class="rel-row" data-jump="${esc(otherId)}"><span class="rtype">${esc(relTypeLabel(r.type))}</span>${dir} ${esc(other?.name || otherId)}</div>`;
-  }).join('') || `<p class="meta">${tr.noRelations}</p>`}
+    return relRowHtml(r.type, `${dir} ${esc(other?.name || otherId)}`, { jumpId: otherId });
+  }).join(''))}
       </div>
     </div>`;
 
@@ -1314,8 +1334,11 @@ function renderStoryChapter() {
   buildGraph(storyScene.nodeIds, storyScene.realRels, {
     virtualNodes: vNodes,
     presetPositions: storyScene.presetPositions,
-    storyLayout: Boolean(storyScene.presetPositions),
+    storyLayout: true,
     storySuggested: storyScene.suggested,
+  });
+  requestAnimationFrame(() => {
+    if (sigma) sigma.refresh();
   });
 }
 

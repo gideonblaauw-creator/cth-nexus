@@ -96,14 +96,16 @@
   <section id="panel-explore" class="panel-explore" aria-label="Mapa y red">
     <aside id="story-rail" class="story-rail hidden" aria-label="Capítulos"></aside>
     <div class="workspace" id="workspace">
-      <div class="map-pane">
-        <span class="pane-label" data-i18n="map">Mapa LATAM</span>
-        <div id="eco-map" class="eco-map" role="application" aria-label="Mapa de actores"></div>
-      </div>
-      <div class="graph-pane">
-        <span class="pane-label" data-i18n="network">Red de relaciones</span>
-        <div id="eco-graph" class="eco-graph" role="application" aria-label="Grafo de relaciones"></div>
-        <canvas id="eco-suggest-overlay" class="suggest-overlay" aria-hidden="true"></canvas>
+      <div class="workspace-panes">
+        <div class="map-pane">
+          <span class="pane-label" data-i18n="map">Mapa LATAM</span>
+          <div id="eco-map" class="eco-map" role="application" aria-label="Mapa de actores"></div>
+        </div>
+        <div class="graph-pane">
+          <span class="pane-label" data-i18n="network">Red de relaciones</span>
+          <div id="eco-graph" class="eco-graph" role="application" aria-label="Grafo de relaciones"></div>
+          <canvas id="eco-suggest-overlay" class="suggest-overlay" aria-hidden="true"></canvas>
+        </div>
       </div>
       <aside class="inspector empty" id="inspector" aria-live="polite">
         <p class="inspector-empty" data-i18n="inspectorEmpty">Selecciona un actor en el mapa o la red.</p>
