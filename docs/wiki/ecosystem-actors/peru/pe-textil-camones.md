@@ -28,7 +28,14 @@ tag_country: Peru
 
 ## Rol y alcance
 
-PENDIENTE
+Empresa textil peruana con operaciones de fabricación y enfoque en productos textiles.
+
+| Campo | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | PENDIENTE |
+| Enfoque (taxonomía CT) | Industria textil, economía circular (CIR) |
+| Programas | Producción y comercialización de textiles (Textiles Camones). |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Sitio corporativo — https://www.textilescamones.com/

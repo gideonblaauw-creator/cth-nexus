@@ -19,16 +19,23 @@ tag_country: Peru
 | Categoría | corporate |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | Santa Cruz de la Sierra (HQ; invierte en Perú) |
 | Sitio web | https://babasuventures.com/ |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/babasu |
 | Rol en el ecosistema | Empresa / sector privado |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Fondo de venture capital de etapa temprana con foco en Latinoamérica, con inversiones en startups peruanas de impacto.
+
+| Campo | Valor |
+| --- | --- |
+| Año de fundación | 2024 |
+| Dirección | Santa Cruz de la Sierra, Bolivia |
+| Enfoque (taxonomía CT) | Venture capital, fintech, movilidad eléctrica, foodtech, SaaS |
+| Programas | Inversión pre-seed y seed en startups tecnológicas en Bolivia, Perú, Paraguay, Ecuador y Uruguay. |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Misión, geografía y etapa de inversión — https://babasuventures.com/
+- Perfil en LinkedIn — https://www.linkedin.com/company/babasu

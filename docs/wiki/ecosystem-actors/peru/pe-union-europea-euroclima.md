@@ -21,14 +21,21 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.euroclima.org |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/euroclima-program |
 | Rol en el ecosistema | Organización internacional o cooperación |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Programa de la Unión Europea para cooperación climática con América Latina y el Caribe (Global Gateway).
+
+| Campo | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | PENDIENTE |
+| Enfoque (taxonomía CT) | Cooperación climática, biodiversidad, transición justa |
+| Programas | Euroclima: financiamiento y asistencia técnica para políticas y proyectos climáticos en la región. |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Descripción del programa Euroclima — https://www.euroclima.org/
+- Perfil en LinkedIn — https://www.linkedin.com/company/euroclima-program

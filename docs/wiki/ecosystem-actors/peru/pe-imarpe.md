@@ -21,14 +21,21 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Callao |
 | Sitio web | https://www.gob.pe/imarpe |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/instituto-del-mar-del-per%C3%BA-imarpe |
 | Rol en el ecosistema | Actor público / regulador |
 | Desafíos (códigos) | BOS |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Instituto de investigación pesquera del Estado peruano para el manejo sostenible de recursos hidrobiológicos.
+
+| Campo | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | Av. Gamarra, Callao, Perú |
+| Enfoque (taxonomía CT) | Pesca sostenible, oceanografía, biodiversidad marina (BOS) |
+| Programas | Investigación, monitoreo y asesoría para la gestión pesquera nacional. |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Instituto en Plataforma del Estado Peruano — https://www.gob.pe/imarpe
+- Perfil en LinkedIn — https://www.linkedin.com/company/instituto-del-mar-del-per%C3%BA-imarpe

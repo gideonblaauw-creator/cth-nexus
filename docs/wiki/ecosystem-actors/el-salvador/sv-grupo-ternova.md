@@ -21,14 +21,21 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://www.ternova.group |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/ternova-group |
 | Rol en el ecosistema | Empresa / sector privado |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Grupo empresarial salvadoreño con operaciones en sectores industriales y de servicios.
+
+| Campo | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | San Salvador, El Salvador |
+| Enfoque (taxonomía CT) | Conglomerado industrial y servicios |
+| Programas | PENDIENTE |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Sitio corporativo Ternova Group — https://www.ternova.group/
+- Perfil en LinkedIn — https://www.linkedin.com/company/ternova-group

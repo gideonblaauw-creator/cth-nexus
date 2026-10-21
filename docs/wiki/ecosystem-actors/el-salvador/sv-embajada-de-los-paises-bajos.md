@@ -19,8 +19,8 @@ tag_country: El Salvador
 | Categoría | international |
 | Tipo | org |
 | País | El Salvador |
-| Ciudad | San Salvador |
-| Sitio web | https://www.netherlandsandyou.nl |
+| Ciudad | San José, Costa Rica (embajada para El Salvador) |
+| Sitio web | https://www.netherlandsandyou.nl/web/el-salvador |
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Organización internacional o cooperación |
 | Desafíos (códigos) | PENDIENTE |
@@ -28,7 +28,14 @@ tag_country: El Salvador
 
 ## Rol y alcance
 
-PENDIENTE
+Portal oficial de relación Países Bajos–El Salvador; la representación diplomática para el país se gestiona desde la embajada en San José, Costa Rica.
+
+| Campo | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | Oficentro La Sabana, Edificio 3, piso 3, San José, Costa Rica (embajada para El Salvador) |
+| Enfoque (taxonomía CT) | Cooperación bilateral, comercio, sostenibilidad |
+| Programas | Servicios consulares y cooperación bilateral vía embajada regional (Centroamérica). |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Relación bilateral Países Bajos–El Salvador — https://www.netherlandsandyou.nl/web/el-salvador
+- Embajada para El Salvador (sede en San José) — https://www.netherlandsworldwide.nl/contact/embassies-consulates-general/el-salvador/embassy-san-jose

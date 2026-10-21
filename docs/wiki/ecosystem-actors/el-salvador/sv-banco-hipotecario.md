@@ -21,14 +21,21 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://www.bancohipotecario.com.sv |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/banco-hipotecario-de-el-salvador |
 | Rol en el ecosistema | Institución financiera |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Banco comercial salvadoreño con servicios financieros para personas y empresas.
+
+| Campo | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | San Salvador, El Salvador |
+| Enfoque (taxonomía CT) | Banca, financiamiento, inclusión financiera |
+| Programas | Créditos, cuentas y servicios bancarios retail y corporativos. |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Sitio institucional — https://www.bancohipotecario.com.sv/
+- Perfil en LinkedIn — https://www.linkedin.com/company/banco-hipotecario-de-el-salvador

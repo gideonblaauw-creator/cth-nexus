@@ -21,14 +21,21 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.accion.org |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/accion-venture-lab |
 | Rol en el ecosistema | Financiador e inversionista |
 | Desafíos (códigos) | ENE, FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Brazo de capital de impacto de Accion que invierte en startups fintech inclusivas en mercados emergentes, incluido el Perú.
+
+| Campo | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | PENDIENTE |
+| Enfoque (taxonomía CT) | Fintech inclusiva, energía y finanzas (ENE, FIN) |
+| Programas | Inversión en etapas tempranas en fintech y modelos financieros inclusivos (Accion Venture Lab). |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Organización matriz Accion — https://www.accion.org
+- Perfil Accion Venture Lab en LinkedIn — https://www.linkedin.com/company/accion-venture-lab

@@ -21,14 +21,21 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://sni.org.pe |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/sociedad-nacional-de-industrias |
 | Rol en el ecosistema | Cámara o gremio |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Gremio industrial peruano que representa y apoya a las empresas manufactureras y promueve competitividad sostenible.
+
+| Campo | Valor |
+| --- | --- |
+| Año de fundación | 1896 |
+| Dirección | Los Laureles 365, San Isidro, Lima, Perú |
+| Enfoque (taxonomía CT) | Industria, competitividad, sostenibilidad y política industrial |
+| Programas | Comités sectoriales, estudios económicos, asesoría legal y programas de sostenibilidad industrial. |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Sitio institucional SNI — https://sni.org.pe/
+- Dirección en San Isidro — https://sni.org.pe/contacto/
+- Perfil en LinkedIn — https://www.linkedin.com/company/sociedad-nacional-de-industrias

@@ -28,7 +28,14 @@ tag_country: Peru
 
 ## Rol y alcance
 
-PENDIENTE
+Incubadora de negocios de la UCSP en Arequipa para ideas y empresas en etapa temprana.
+
+| Campo | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | Arequipa, Perú |
+| Enfoque (taxonomía CT) | Emprendimiento universitario, innovación |
+| Programas | Servicios de incubación y mentoría a emprendedores UCSP (Kaman). |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Presentación de la incubadora Kaman — https://ucsp.edu.pe/kaman/presentacion/

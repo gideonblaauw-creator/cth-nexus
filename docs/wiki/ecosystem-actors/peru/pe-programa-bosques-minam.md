@@ -19,16 +19,23 @@ tag_country: Peru
 | Categoría | government |
 | Tipo | org |
 | País | Peru |
-| Ciudad | PENDIENTE |
+| Ciudad | Lima |
 | Sitio web | https://www.gob.pe/bosques |
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Actor público / regulador |
-| Desafíos (códigos) | PENDIENTE |
+| Desafíos (códigos) | BOS |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Programa nacional del MINAM para conservación de bosques y mitigación del cambio climático en el Perú.
+
+| Campo | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | Magdalena del Mar, Lima, Perú |
+| Enfoque (taxonomía CT) | Conservación forestal, REDD+, mitigación climática (BOS) |
+| Programas | Conservación de bosques, incentivos a comunidades y alianzas para el PNCBMCC. |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,4 @@ PENDIENTE
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Programa Nacional de Conservación de Bosques (MINAM) — https://www.gob.pe/bosques

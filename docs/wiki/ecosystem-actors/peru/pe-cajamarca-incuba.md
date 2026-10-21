@@ -28,7 +28,14 @@ tag_country: Peru
 
 ## Rol y alcance
 
-PENDIENTE
+Programa de la Cámara de Comercio de Cajamarca para incubar ideas y acelerar empresas con enfoque regional.
+
+| Campo | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | Cajamarca, Perú |
+| Enfoque (taxonomía CT) | Emprendimiento regional, agricultura, economía circular (AGR, CIR) |
+| Programas | Convocatorias de incubación de ideas y aceleración de empresas (Cajamarca Incuba). |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Descripción del programa — https://camcajamarca.com.pe/cajamarca-incuba/

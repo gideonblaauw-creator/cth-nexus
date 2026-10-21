@@ -21,14 +21,21 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.bezosearthfund.org |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/bezos-earth-fund |
 | Rol en el ecosistema | Financiador e inversionista |
 | Desafíos (códigos) | BOS |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Fondo filantrópico de USD 10 mil millones para proteger la naturaleza y apoyar soluciones climáticas globales.
+
+| Campo | Valor |
+| --- | --- |
+| Año de fundación | 2020 |
+| Dirección | PENDIENTE |
+| Enfoque (taxonomía CT) | Conservación, restauración, transformación de sistemas alimentarios y climáticos (BOS) |
+| Programas | Subvenciones para conservación, restauración y justicia climática a escala global. |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Compromiso y enfoque del fondo — https://www.bezosearthfund.org/
+- Perfil en LinkedIn — https://www.linkedin.com/company/bezos-earth-fund

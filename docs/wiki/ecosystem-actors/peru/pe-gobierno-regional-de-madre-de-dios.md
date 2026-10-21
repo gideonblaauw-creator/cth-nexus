@@ -28,7 +28,14 @@ tag_country: Peru
 
 ## Rol y alcance
 
-PENDIENTE
+Gobierno regional que formula y ejecuta políticas de desarrollo en Madre de Dios, incluida gestión forestal y turismo.
+
+| Campo | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | Puerto Maldonado, Madre de Dios, Perú |
+| Enfoque (taxonomía CT) | Gobernanza territorial, bosques amazónicos, desarrollo regional |
+| Programas | Planes y proyectos regionales de conservación, infraestructura y competitividad territorial. |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Portal institucional del Gobierno Regional — https://www.gob.pe/regionmadrededios

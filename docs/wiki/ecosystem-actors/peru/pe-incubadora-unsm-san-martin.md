@@ -19,7 +19,7 @@ tag_country: Peru
 | Categoría | accelerator |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | Tarapoto |
 | Sitio web | https://bioinnova.unsm.edu.pe |
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
@@ -28,7 +28,14 @@ tag_country: Peru
 
 ## Rol y alcance
 
-PENDIENTE
+Incubadora BioInnova de la UNSM que apoya emprendimientos con enfoque en biodiversidad y bioeconomía amazónica.
+
+| Campo | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | Tarapoto, San Martín, Perú |
+| Enfoque (taxonomía CT) | Bioeconomía, emprendimiento universitario, innovación regional |
+| Programas | Acompañamiento y preincubación de startups (BioInnova UNSM). |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Portal BioInnova San Martín — https://bioinnova.unsm.edu.pe/

@@ -19,8 +19,8 @@ tag_country: Peru
 | Categoría | academia |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Amazonas |
-| Sitio web | https://- |
+| Ciudad | Bagua |
+| Sitio web | https://www.gob.pe/unibagua |
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Universidad o centro de investigación |
 | Desafíos (códigos) | PENDIENTE |
@@ -28,7 +28,14 @@ tag_country: Peru
 
 ## Rol y alcance
 
-PENDIENTE
+Unidad de la UNIFSLB (Bagua, Amazonas) que incuba emprendimientos sostenibles con enfoque intercultural.
+
+| Campo | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | Jr. Ancash N° 520, Bagua, Amazonas, Perú |
+| Enfoque (taxonomía CT) | Incubación de empresas, economía circular, emprendimiento amazónico |
+| Programas | Programa de incubación NAGKÁMAT y alianzas para planes de negocio en economía circular. |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Institución universitaria en gob.pe — https://www.gob.pe/unibagua
+- Programa NAGKÁMAT 2024 — https://www.unibagua.edu.pe/enlaces/noticias/319-programa-incubacion-nagkamat
+- Alianza economía circular 2025 — https://www.unibagua.edu.pe/enlaces/noticias/397-formentacion-emprendimientos-sostenibles

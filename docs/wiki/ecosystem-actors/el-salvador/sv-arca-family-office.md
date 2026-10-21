@@ -20,7 +20,7 @@ tag_country: El Salvador
 | Tipo | org |
 | País | El Salvador |
 | Ciudad | San Salvador |
-| Sitio web | https://www.arca.com.sv |
+| Sitio web | PENDIENTE |
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Financiador e inversionista |
 | Desafíos (códigos) | PENDIENTE |
@@ -29,6 +29,13 @@ tag_country: El Salvador
 ## Rol y alcance
 
 PENDIENTE
+
+| Campo | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | PENDIENTE |
+| Enfoque (taxonomía CT) | PENDIENTE |
+| Programas | PENDIENTE |
 
 ## Relaciones (ecosistema)
 

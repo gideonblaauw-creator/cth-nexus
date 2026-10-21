@@ -28,7 +28,14 @@ tag_country: Peru
 
 ## Rol y alcance
 
-PENDIENTE
+Fundación corporativa de Belcorp enfocada en empoderamiento de mujeres y sostenibilidad en América Latina.
+
+| Campo | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | Lima, Perú |
+| Enfoque (taxonomía CT) | Empoderamiento femenino, sostenibilidad, biodiversidad (AZU, BOS) |
+| Programas | Programas de liderazgo femenino, voluntariado y acciones ambientales de Belcorp. |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Misión y programas de la fundación — https://www.belcorp.com/fundacionbelcorp

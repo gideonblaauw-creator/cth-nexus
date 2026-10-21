@@ -20,15 +20,22 @@ tag_country: Peru
 | Tipo | org |
 | País | Peru |
 | Ciudad | Lima |
-| Sitio web | https://lvs.meetliquid.com/ |
-| LinkedIn | PENDIENTE |
+| Sitio web | https://meetliquid.com/ |
+| LinkedIn | https://www.linkedin.com/company/liquid-venture-studio/ |
 | Rol en el ecosistema | Empresa / sector privado |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Brazo de aceleración de LIQUID para startups digitales peruanas con modelo hands-on y participación accionaria.
+
+| Campo | Valor |
+| --- | --- |
+| Año de fundación | 2017 |
+| Dirección | Av. Los Incas 172, San Isidro, Lima, Perú |
+| Enfoque (taxonomía CT) | Aceleración, startups digitales, venture studio |
+| Programas | Programa de aceleración (~24 semanas) y portafolio LVS para startups con tracción. |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,7 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Historia y modelo LVS — https://lvs.meetliquid.com/about/
+- Dirección en San Isidro — https://lvs.meetliquid.com/contact/
+- Descripción del programa de aceleración — https://vc4a.com/liquid-venture-studio/
+- Perfil LVS en LinkedIn — https://www.linkedin.com/company/liquid-venture-studio/

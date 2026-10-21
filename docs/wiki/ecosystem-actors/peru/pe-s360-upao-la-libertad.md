@@ -19,7 +19,7 @@ tag_country: Peru
 | Categoría | accelerator |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | Trujillo |
 | Sitio web | https://upao.edu.pe/diferenciacion/incubadora-de-negocios/ |
 | LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
@@ -28,7 +28,14 @@ tag_country: Peru
 
 ## Rol y alcance
 
-PENDIENTE
+Incubadora S360 de la UPAO que acompaña emprendimientos de innovación y tecnología en La Libertad.
+
+| Campo | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | Trujillo, La Libertad, Perú |
+| Enfoque (taxonomía CT) | Innovación, emprendimiento universitario, agro y economía circular (AGR, CIR) |
+| Programas | Incubación de negocios y soporte a startups UPAO (S360). |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Incubadora de Negocios UPAO S360 — https://upao.edu.pe/diferenciacion/incubadora-de-negocios/

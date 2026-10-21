@@ -21,14 +21,21 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Jesús María |
 | Sitio web | https://www.gob.pe/senamhi |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/senamhi |
 | Rol en el ecosistema | Actor público / regulador |
 | Desafíos (códigos) | AGR, ENE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Servicio nacional de meteorología e hidrología del Perú; genera información climática y de alerta temprana.
+
+| Campo | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | Jesús María, Lima, Perú |
+| Enfoque (taxonomía CT) | Meteorología, hidrología, adaptación climática (AGR, ENE) |
+| Programas | Pronósticos, vigilancia hidrológica y servicios de información climática. |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Institución en gob.pe — https://www.gob.pe/senamhi
+- Perfil en LinkedIn — https://www.linkedin.com/company/senamhi

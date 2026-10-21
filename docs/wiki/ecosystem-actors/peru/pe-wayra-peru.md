@@ -21,14 +21,21 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.wayra.com |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/wayra |
 | Rol en el ecosistema | Financiador e inversionista |
 | Desafíos (códigos) | AGR, BOS |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Corporate venture capital de Telefónica que invierte en startups tecnológicas, con operaciones en Perú.
+
+| Campo | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | Lima, Perú |
+| Enfoque (taxonomía CT) | Venture capital, startups, agrotech y soluciones climáticas (AGR, BOS) |
+| Programas | Inversión y aceleración de startups en etapas tempranas (Wayra). |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Corporate VC de Telefónica — https://www.wayra.com/
+- Perfil Wayra en LinkedIn — https://www.linkedin.com/company/wayra

@@ -21,14 +21,21 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.ciudadsaludable.org |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/ciudad-saludable |
 | Rol en el ecosistema | ONG o fundación |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+ONG peruana que promueve reciclaje inclusivo y economía circular con recicladores y municipios.
+
+| Campo | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | Lima, Perú |
+| Enfoque (taxonomía CT) | Residuos sólidos, reciclaje inclusivo, ciudades sostenibles |
+| Programas | Modelos de reciclaje con recicladores, asistencia técnica municipal y educación ambiental. |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Misión y programas — https://www.ciudadsaludable.org/
+- Perfil en LinkedIn — https://www.linkedin.com/company/ciudad-saludable

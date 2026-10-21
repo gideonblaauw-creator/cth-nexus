@@ -28,7 +28,14 @@ tag_country: El Salvador
 
 ## Rol y alcance
 
-PENDIENTE
+Ministerio del Gobierno de El Salvador que formula política agrícola, pecuaria, forestal y pesquera.
+
+| Campo | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | San Salvador, El Salvador |
+| Enfoque (taxonomía CT) | Agricultura sostenible, seguridad alimentaria, recursos naturales |
+| Programas | Políticas y programas de desarrollo agropecuario y forestal nacional. |
 
 ## Relaciones (ecosistema)
 
@@ -43,3 +50,4 @@ PENDIENTE
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Ministerio de Agricultura y Ganadería — https://www.mag.gob.sv/

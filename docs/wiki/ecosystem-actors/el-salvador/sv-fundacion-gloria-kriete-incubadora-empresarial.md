@@ -21,14 +21,21 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://fundaciongloriakriete.org |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/fundaci%C3%B3n-gloria-kriete |
 | Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Fundación salvadoreña con incubadora empresarial para fortalecer emprendimiento y desarrollo integral.
+
+| Campo | Valor |
+| --- | --- |
+| Año de fundación | PENDIENTE |
+| Dirección | San Salvador, El Salvador |
+| Enfoque (taxonomía CT) | Emprendimiento, incubación, desarrollo social |
+| Programas | Incubadora empresarial y programas de formación emprendedora (FGK). |
 
 ## Relaciones (ecosistema)
 
@@ -42,3 +49,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- Misión de la Fundación Gloria Kriete — https://fundaciongloriakriete.org/
+- Perfil en LinkedIn — https://www.linkedin.com/company/fundaci%C3%B3n-gloria-kriete
