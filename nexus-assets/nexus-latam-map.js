@@ -101,10 +101,13 @@
   }
 
   function actorLatLng(actor) {
-    const base = COUNTRY_CENTROID[actor.country];
-    if (!base) return [-15, -70];
-    const [dy, dx] = hashJitter(actor.id || actor.name, 2.4);
-    return [base[0] + dy, base[1] + dx];
+    const g = actor.geo;
+    if (g && typeof g.lat === 'number' && typeof g.lng === 'number') {
+      if (g.precision === 'address' || g.precision === 'city') {
+        return [g.lat, g.lng];
+      }
+    }
+    return null;
   }
 
   function mountEcosystemMap(containerId, actors, onCountry) {
@@ -129,6 +132,7 @@
     el._nexusEcoLayer.clearLayers();
     actors.forEach((a) => {
       const latlng = actorLatLng(a);
+      if (!latlng) return;
       const m = L.circleMarker(latlng, {
         radius: 5,
         color: '#0C498A',

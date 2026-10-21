@@ -1,0 +1,26 @@
+{
+  "pe-bid-bid-lab-bid-invest": {
+    "geocode_query": "Banco Interamericano de Desarrollo, Av. José Pardo 630, Miraflores, Lima, Peru",
+    "precision": "address",
+    "source_url": "https://www.iadb.org/en/who-we-are/country-office/peru",
+    "office_note": "IDB Peru country office (LATAM)"
+  },
+  "pe-ifc": {
+    "geocode_query": "IFC Peru Lima World Bank Group",
+    "precision": "address",
+    "source_url": "https://www.ifc.org/en/countries/peru",
+    "office_note": "IFC Peru (LATAM)"
+  },
+  "co-gcf-green-climate-fund": {
+    "geocode_query": "Green Climate Fund headquarters Songdo Incheon",
+    "precision": "address",
+    "source_url": "https://www.greenclimate.fund/contact",
+    "office_note": "GCF HQ (global fund; Colombia map actor)"
+  },
+  "co-cif-climate-investment-funds": {
+    "geocode_query": "Climate Investment Funds World Bank Washington DC",
+    "precision": "address",
+    "source_url": "https://www.climateinvestmentfunds.org/contact",
+    "office_note": "CIF HQ at World Bank"
+  }
+}
