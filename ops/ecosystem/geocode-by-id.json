@@ -1,0 +1,2655 @@
+{
+  "pe-amazonia-impact-ventures": {
+    "lat": -5.058604,
+    "lng": -78.33194,
+    "address": "Avenida Imaza None, Imaza, Perú",
+    "city": "Imaza",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://photon.komoot.io/api/?q=Amazonia+Impact+Ventures%2C+Peru&limit=5 (q=Amazonia Impact Ventures, Peru) (name-country)"
+  },
+  "pe-profonanpe": {
+    "lat": -12.045981,
+    "lng": -77.030591,
+    "address": "Lima, Perú",
+    "city": "Lima",
+    "country": "Peru",
+    "precision": "city",
+    "source_url": "https://photon.komoot.io/api/?q=Profonanpe%2C+Lima%2C+Peru&limit=5 (q=Profonanpe, Lima, Peru) (name-capital)"
+  },
+  "pe-andes-amazon-fund": {
+    "lat": -6.056373,
+    "lng": -77.895141,
+    "address": "Puente La Golondrina None, San Carlos, Perú",
+    "city": "San Carlos",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://photon.komoot.io/api/?q=Andes+Amazon+Fund%2C+Peru&limit=5 (q=Andes Amazon Fund, Peru) (name-country)"
+  },
+  "pe-pecap-asociacion-peruana-de-capital-semilla-y-empr": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-angel-ventures-peru": {
+    "lat": -12.045558,
+    "lng": -77.006318,
+    "address": "Lima, Perú",
+    "city": "Lima",
+    "country": "Peru",
+    "precision": "city",
+    "source_url": "https://photon.komoot.io/api/?q=Angel+Ventures+Per%C3%BA%2C+Lima%2C+Peru&limit=5 (q=Angel Ventures Perú, Lima, Peru) (name-capital)"
+  },
+  "pe-utec-ventures": {
+    "lat": -12.135135,
+    "lng": -77.02213,
+    "address": "Jirón Medrano Silva 165, Lima, Perú",
+    "city": "Lima",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://utecventures.com"
+  },
+  "pe-krealo-credicorp": {
+    "lat": -12.083404,
+    "lng": -77.043909,
+    "address": "Jirón Brigadier Mateo Pumacahua None, Lince, Perú",
+    "city": "Lince",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://photon.komoot.io/api/?q=Krealo+%28Credicorp%29%2C+Lima%2C+Peru&limit=5 (q=Krealo (Credicorp), Lima, Peru) (name-capital)"
+  },
+  "pe-grio-grupo-romero": {
+    "lat": -12.166407,
+    "lng": -76.950625,
+    "address": "Avenida Villa María None, Villa María del Triunfo, Perú",
+    "city": "Villa María del Triunfo",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://photon.komoot.io/api/?q=GRIO+%28Grupo+Romero%29%2C+Lima%2C+Peru&limit=5 (q=GRIO (Grupo Romero), Lima, Peru) (name-capital)"
+  },
+  "pe-wayra-peru": {
+    "lat": -12.062021,
+    "lng": -77.019603,
+    "address": "Avenida 28 de Julio None, Lima, Perú",
+    "city": "Lima",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://photon.komoot.io/api/?q=Wayra+Per%C3%BA%2C+Lima%2C+Peru&limit=5 (q=Wayra Perú, Lima, Peru) (name-capital)"
+  },
+  "pe-mirova-natural-capital": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-ecoenterprises-fund": {
+    "lat": -12.085529,
+    "lng": -76.970701,
+    "address": "Javier Prado Este 4600, Lima, Perú",
+    "city": "Lima",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://photon.komoot.io/api/?q=EcoEnterprises+Fund%2C+Lima%2C+Peru&limit=5 (q=EcoEnterprises Fund, Lima, Peru) (name-capital)"
+  },
+  "pe-oikocredit": {
+    "lat": -12.045981,
+    "lng": -77.030591,
+    "address": "Lima, Perú",
+    "city": "Lima",
+    "country": "Peru",
+    "precision": "city",
+    "source_url": "https://photon.komoot.io/api/?q=Oikocredit%2C+Lima%2C+Peru&limit=5 (q=Oikocredit, Lima, Peru) (name-capital)"
+  },
+  "pe-incofin": {
+    "lat": -12.069166,
+    "lng": -77.079935,
+    "address": "Avenida Universitaria 1801, Lima, Perú",
+    "city": "Lima",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://photon.komoot.io/api/?q=Incofin%2C+Lima%2C+Peru&limit=5 (q=Incofin, Lima, Peru) (name-capital)"
+  },
+  "pe-triple-jump": {
+    "lat": -12.085564,
+    "lng": -76.975323,
+    "address": "Javier Prado Este 4200, Santiago de Surco, Perú",
+    "city": "Santiago de Surco",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://photon.komoot.io/api/?q=Triple+Jump%2C+Lima%2C+Peru&limit=5 (q=Triple Jump, Lima, Peru) (name-capital)"
+  },
+  "pe-responsability": {
+    "lat": -12.045981,
+    "lng": -77.030591,
+    "address": "Lima, Perú",
+    "city": "Lima",
+    "country": "Peru",
+    "precision": "city",
+    "source_url": "https://photon.komoot.io/api/?q=responsAbility%2C+Lima%2C+Peru&limit=5 (q=responsAbility, Lima, Peru) (name-capital)"
+  },
+  "pe-blueorchard": {
+    "lat": -12.045981,
+    "lng": -77.030591,
+    "address": "Lima, Perú",
+    "city": "Lima",
+    "country": "Peru",
+    "precision": "city",
+    "source_url": "https://photon.komoot.io/api/?q=BlueOrchard%2C+Lima%2C+Peru&limit=5 (q=BlueOrchard, Lima, Peru) (name-capital)"
+  },
+  "pe-alterfin": {
+    "lat": -12.069166,
+    "lng": -77.079935,
+    "address": "Avenida Universitaria 1801, Lima, Perú",
+    "city": "Lima",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://photon.komoot.io/api/?q=Alterfin%2C+Lima%2C+Peru&limit=5 (q=Alterfin, Lima, Peru) (name-capital)"
+  },
+  "pe-acumen": {
+    "lat": -12.069166,
+    "lng": -77.079935,
+    "address": "Avenida Universitaria 1801, Lima, Perú",
+    "city": "Lima",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://photon.komoot.io/api/?q=Acumen%2C+Lima%2C+Peru&limit=5 (q=Acumen, Lima, Peru) (name-capital)"
+  },
+  "pe-mercy-corps-ventures": {
+    "lat": -12.034178,
+    "lng": -76.928844,
+    "address": "Víctor Raúl Haya de la Torre None, Ate, Perú",
+    "city": "Ate",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://photon.komoot.io/api/?q=Mercy+Corps+Ventures%2C+Lima%2C+Peru&limit=5 (q=Mercy Corps Ventures, Lima, Peru) (name-capital)"
+  },
+  "pe-accion-venture-lab": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-alive-ventures": {
+    "lat": -12.224534,
+    "lng": -76.879045,
+    "address": "Pachacámac, Perú",
+    "city": "Pachacámac",
+    "country": "Peru",
+    "precision": "city",
+    "source_url": "https://photon.komoot.io/api/?q=ALIVE+Ventures%2C+Lima%2C+Peru&limit=5 (q=ALIVE Ventures, Lima, Peru) (name-capital)"
+  },
+  "pe-bezos-earth-fund": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-allied-climate-partners": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-finance-in-motion": {
+    "lat": -11.987993,
+    "lng": -77.008529,
+    "address": "Avenida Próceres de la Independencia None, San Juan de Lurigancho, Perú",
+    "city": "San Juan de Lurigancho",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://photon.komoot.io/api/?q=Finance+in+Motion%2C+Lima%2C+Peru&limit=5 (q=Finance in Motion, Lima, Peru) (name-capital)"
+  },
+  "pe-root-capital": {
+    "lat": -12.127048,
+    "lng": -77.027393,
+    "address": "Calle San Martín 660, Lima, Perú",
+    "city": "Lima",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://photon.komoot.io/api/?q=Root+Capital%2C+Lima%2C+Peru&limit=5 (q=Root Capital, Lima, Peru) (name-capital)"
+  },
+  "pe-bbva-peru": {
+    "lat": -12.126911,
+    "lng": -76.987653,
+    "address": "Jiron Trigal 101, Lima, Perú",
+    "city": "Lima",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://photon.komoot.io/api/?q=BBVA+Per%C3%BA%2C+Lima%2C+Peru&limit=5 (q=BBVA Perú, Lima, Peru) (name-capital)"
+  },
+  "pe-interbank": {
+    "lat": -12.056731,
+    "lng": -77.03688,
+    "address": "Puerta 10 None, Lima, Perú",
+    "city": "Lima",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://photon.komoot.io/api/?q=Interbank%2C+Lima%2C+Peru&limit=5 (q=Interbank, Lima, Peru) (name-capital)"
+  },
+  "pe-scotiabank-peru": {
+    "lat": -12.051314,
+    "lng": -77.025318,
+    "address": "Calle Capón None, Lima, Perú",
+    "city": "Lima",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://photon.komoot.io/api/?q=Scotiabank+Per%C3%BA%2C+Lima%2C+Peru&limit=5 (q=Scotiabank Perú, Lima, Peru) (name-capital)"
+  },
+  "pe-pacifico-seguros": {
+    "lat": -12.096584,
+    "lng": -77.027244,
+    "address": "Ciclovía Juan de Arona None, San Isidro, Perú",
+    "city": "San Isidro",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://photon.komoot.io/api/?q=Pac%C3%ADfico+Seguros%2C+Lima%2C+Peru&limit=5 (q=Pacífico Seguros, Lima, Peru) (name-capital)"
+  },
+  "pe-bcp-banco-de-credito-del-peru": {
+    "lat": -12.076561,
+    "lng": -76.917147,
+    "address": "Calle Las Virgenes Lote 1 y 2, La Molina, Perú",
+    "city": "La Molina",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://photon.komoot.io/api/?q=BCP+%E2%80%93+Banco+de+Cr%C3%A9dito+del+Per%C3%BA%2C+Lima%2C+Peru&limit=5 (q=BCP – Banco de Crédito del Perú, Lima, Peru) (name-capital)"
+  },
+  "pe-bolsa-de-valores-de-lima": {
+    "lat": -12.094821,
+    "lng": -77.03603,
+    "address": "Avenida Jorge Basadre 347, San Isidro, Perú",
+    "city": "San Isidro",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://photon.komoot.io/api/?q=Bolsa+de+Valores+de+Lima%2C+Lima%2C+Peru&limit=5 (q=Bolsa de Valores de Lima, Lima, Peru) (name-capital)"
+  },
+  "pe-financiera-confianza": {
+    "lat": -12.016111,
+    "lng": -76.899165,
+    "address": "Avenida Cajamarquilla None, Ate, Perú",
+    "city": "Ate",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://photon.komoot.io/api/?q=Financiera+Confianza%2C+Lima%2C+Peru&limit=5 (q=Financiera Confianza, Lima, Peru) (name-capital)"
+  },
+  "pe-fepcmac-federacion-de-cajas-municipales": {
+    "lat": -6.392693,
+    "lng": -78.611425,
+    "address": "Jirón Lima None, Tacabamba, Perú",
+    "city": "Tacabamba",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://photon.komoot.io/api/?q=FEPCMAC+%E2%80%93+Federaci%C3%B3n+de+Cajas+Municipales%2C+Lima%2C+Peru&limit=5 (q=FEPCMAC – Federación de Cajas Municipales, Lima, Peru) (name-capital)"
+  },
+  "pe-compartamos-financiera": {
+    "lat": -11.994068,
+    "lng": -77.068541,
+    "address": "Manuel Gonzales Prada None, Los Olivos, Perú",
+    "city": "Los Olivos",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://photon.komoot.io/api/?q=Compartamos+Financiera%2C+Lima%2C+Peru&limit=5 (q=Compartamos Financiera, Lima, Peru) (name-capital)"
+  },
+  "pe-caja-arequipa": {
+    "lat": -12.092832,
+    "lng": -77.027027,
+    "address": "Avenida Ricardo Rivera Navarrete 548, Lima, Perú",
+    "city": "Lima",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://photon.komoot.io/api/?q=Caja+Arequipa%2C+Lima%2C+Peru&limit=5 (q=Caja Arequipa, Lima, Peru) (name-capital)"
+  },
+  "pe-caja-huancayo": {
+    "lat": -12.056016,
+    "lng": -77.030136,
+    "address": "Avenida Abancay None, Lima, Perú",
+    "city": "Lima",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://photon.komoot.io/api/?q=Caja+Huancayo%2C+Lima%2C+Peru&limit=5 (q=Caja Huancayo, Lima, Peru) (name-capital)"
+  },
+  "pe-caja-piura": {
+    "lat": -12.049362,
+    "lng": -77.037904,
+    "address": "Avenida Nicolas de Pierola 607, Lima, Perú",
+    "city": "Lima",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://photon.komoot.io/api/?q=Caja+Piura%2C+Lima%2C+Peru&limit=5 (q=Caja Piura, Lima, Peru) (name-capital)"
+  },
+  "pe-caja-ica": {
+    "lat": -12.204065,
+    "lng": -76.933389,
+    "address": "Avenida Juan Velazco Alvarado None, Villa El Salvador, Perú",
+    "city": "Villa El Salvador",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://photon.komoot.io/api/?q=Caja+Ica%2C+Lima%2C+Peru&limit=5 (q=Caja Ica, Lima, Peru) (name-capital)"
+  },
+  "pe-caja-maynas": {
+    "lat": -9.930496,
+    "lng": -76.239251,
+    "address": "Jirón General Prado None, Huánuco, Perú",
+    "city": "Huánuco",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://photon.komoot.io/api/?q=Caja+Maynas%2C+Lima%2C+Peru&limit=5 (q=Caja Maynas, Lima, Peru) (name-capital)"
+  },
+  "pe-san-miguel-industrias-pet": {
+    "lat": -12.039785,
+    "lng": -77.072596,
+    "address": "Lima, Perú",
+    "city": "Lima",
+    "country": "Peru",
+    "precision": "city",
+    "source_url": "https://photon.komoot.io/api/?q=San+Miguel+Industrias+PET%2C+Peru&limit=5 (q=San Miguel Industrias PET, Peru) (name-country)"
+  },
+  "pe-aje-group": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-backus-ab-inbev": {
+    "lat": -12.049098,
+    "lng": -76.941372,
+    "address": "Backus Lima, Ate, Lima, Lima Metropolitana, Lima, Perú",
+    "city": "Ate",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Backus+Lima+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
+  },
+  "pe-alicorp": {
+    "lat": -12.130579,
+    "lng": -77.021011,
+    "address": "Alicorp, Calle Francisco del Castillo, San Antonio, Miraflores, Lima, Lima Metropolitana, Lima, 15048, Perú",
+    "city": "Miraflores",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Alicorp%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  },
+  "pe-engie-energia-peru": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-enel-peru-pluz": {
+    "lat": -12.074922,
+    "lng": -77.090077,
+    "address": "Enel, Jirón Teniente César Lopez Rojas, Virgen de Fatima, San Miguel, Lima, Lima Metropolitana, Lima, 15087, Perú",
+    "city": "San Miguel",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Enel+Per%C3%BA&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
+  },
+  "pe-danper": {
+    "lat": -6.026112,
+    "lng": -80.022621,
+    "address": "Fundo Danper Olmos, Olmos, Lambayeque, Perú",
+    "city": "Olmos",
+    "country": "Peru",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Danper%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
+  },
+  "pe-cerro-verde": {
+    "lat": -11.683477,
+    "lng": -77.175795,
+    "address": "Cerro Verde, Ancón, Lima, Lima Metropolitana, Lima, Perú",
+    "city": "Ancón",
+    "country": "Peru",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Cerro+Verde%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  },
+  "pe-hudbay": {
+    "lat": -14.46259,
+    "lng": -71.793238,
+    "address": "HudBay Constancia, CU-1819, Velille, Chumbivilcas, Cusco, Perú",
+    "city": "Velille",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Hudbay%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
+  },
+  "pe-gold-fields": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-anglo-american": {
+    "lat": -17.770594,
+    "lng": -71.190796,
+    "address": "Puerto Anglo American Quellaveco, Central Termoelectrica, Ilo, Moquegua, Perú",
+    "city": "Ilo",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Anglo+American%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
+  },
+  "pe-textil-camones": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-sociedad-nacional-de-industrias-sni": {
+    "lat": -12.095612,
+    "lng": -77.045432,
+    "address": "Sociedad Nacional de Industrias, 365, Calle Los Laureles, Orrantia, San Isidro, Lima, Lima Metropolitana, Lima, 15027, Perú",
+    "city": "San Isidro",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Sociedad+Nacional+de+Industrias+Lima+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
+  },
+  "pe-camara-de-comercio-de-lima-ccl": {
+    "lat": -12.083858,
+    "lng": -77.051577,
+    "address": "Cámara de Comercio de Lima, 396, Jirón Huiracocha, Jesús María, Lima, Lima Metropolitana, Lima, 15072, Perú",
+    "city": "Jesús María",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=C%C3%A1mara+de+Comercio+de+Lima+Lima+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
+  },
+  "pe-adex-asociacion-de-exportadores": {
+    "lat": -12.086383,
+    "lng": -76.995378,
+    "address": "ADEX Asociación de exportadores, 2875, Avenida Javier Prado Este, Jacaranda Etapa Dos, San Borja, Lima, Lima Metropolitana, Lima, 15041, Perú",
+    "city": "San Borja",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=ADEX+%E2%80%93+Asociaci%C3%B3n+de+Exportadores%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  },
+  "pe-sociedad-nacional-de-acuicultura": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-asociacion-peruana-de-energias-renovables-spr": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-libelula": {
+    "lat": -16.398867,
+    "lng": -71.536961,
+    "address": "Arequipa, 04001, Perú",
+    "city": "Arequipa",
+    "country": "Peru",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=AREQUIPA%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
+  },
+  "pe-minam-ministerio-del-ambiente": {
+    "lat": -12.095225,
+    "lng": -77.059868,
+    "address": "Ministerio del Ambiente, 425, Avenida Juan de Aliaga, Magdalena, Magdalena del Mar, Lima, Lima Metropolitana, Lima, 15076, Perú",
+    "city": "Magdalena del Mar",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=minam+Lima+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
+  },
+  "pe-produce-ministerio-de-la-produccion": {
+    "lat": -12.098319,
+    "lng": -77.014881,
+    "address": "Ministerio de la Producción, Calle Uno Oeste, Corpac, San Isidro, Lima, Lima Metropolitana, Lima, 15000, Perú",
+    "city": "San Isidro",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=produce+Lima+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
+  },
+  "pe-midagri-ministerio-de-desarrollo-agrario-y-riego": {
+    "lat": -12.077903,
+    "lng": -76.953752,
+    "address": "Ministerio de Agricultura y Riego, 155, Alameda del Corregidor, La Molina, Lima, Lima Metropolitana, Lima, 14024, Perú",
+    "city": "La Molina",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=midagri+Lima+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
+  },
+  "pe-minem-ministerio-de-energia-y-minas": {
+    "lat": -12.097252,
+    "lng": -77.006356,
+    "address": "Ministerio de Energía y Minas, 260, Avenida de las Artes Sur, San Borja, Lima, Lima Metropolitana, Lima, 15041, Perú",
+    "city": "San Borja",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Ministerio+de+Energia+y+Minas+Lima&format=json&limit=1&addressdetails=1&countrycodes=pe (ascii-sweep)"
+  },
+  "pe-mef-ministerio-de-economia-y-finanzas": {
+    "lat": -12.046234,
+    "lng": -77.028282,
+    "address": "Ministerio de Economía y Finanzas, Jirón Lampa, Urbanización Cercado de Lima, Lima, Lima Metropolitana, Lima, 15001, Perú",
+    "city": "Lima",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=mef+Lima+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
+  },
+  "pe-sbs-superintendencia-de-banca-seguros-y-afp": {
+    "lat": -12.092695,
+    "lng": -77.046521,
+    "address": "Superintendencia de Banca, Seguros y AFP, 214, Calle Los Laureles, Orrantia, San Isidro, Lima, Lima Metropolitana, Lima, 15073, Perú",
+    "city": "San Isidro",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=SBS+Lima+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
+  },
+  "pe-smv-superintendencia-del-mercado-de-valores": {
+    "lat": -9.862821,
+    "lng": -76.169949,
+    "address": "Santa María del Valle, Huánuco, Perú",
+    "city": "Santa María del Valle",
+    "country": "Peru",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=SMV+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
+  },
+  "pe-osinergmin": {
+    "lat": -12.096739,
+    "lng": -77.058827,
+    "address": "Osinergmin, 222, Calle Bernardo Monteagudo, Magdalena, Magdalena del Mar, Lima, Lima Metropolitana, Lima, 15076, Perú",
+    "city": "Magdalena del Mar",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Osinergmin%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  },
+  "pe-sunass": {
+    "lat": -12.09697,
+    "lng": -77.058976,
+    "address": "SUNASS, 216, Calle Bernardo Monteagudo, Magdalena, Magdalena del Mar, Lima, Lima Metropolitana, Lima, 15076, Perú",
+    "city": "Magdalena del Mar",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=SUNASS%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  },
+  "pe-proinnovate-startup-peru": {
+    "lat": -13.517089,
+    "lng": -71.978536,
+    "address": "Cuzco, Distrito de Cusco, Cusco, 08001, Perú",
+    "city": "Cuzco",
+    "country": "Peru",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=cusco%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
+  },
+  "pe-programa-para-bionegocios-minam": {
+    "lat": -12.095225,
+    "lng": -77.059868,
+    "address": "Ministerio del Ambiente, 425, Avenida Juan de Aliaga, Magdalena, Magdalena del Mar, Lima, Lima Metropolitana, Lima, 15076, Perú",
+    "city": "Magdalena del Mar",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=minam+Lima+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
+  },
+  "pe-cofide-fcei": {
+    "lat": -12.097524,
+    "lng": -77.0272,
+    "address": "Corporación Financiera de Desarrollo - COFIDE, 160, Calle Augusto Tamayo, Chacarilla, San Isidro, Lima, Lima Metropolitana, Lima, 15073, Perú",
+    "city": "San Isidro",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Calle+Augusto+Tamayo+160%2C+San+Isidro%09%09%09%09%09%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
+  },
+  "pe-concytec-prociencia": {
+    "lat": -12.085532,
+    "lng": -77.008382,
+    "address": "CONCYTEC, Avenida Guardia Civil, San Borja, Lima, Lima Metropolitana, Lima, 15021, Perú",
+    "city": "San Borja",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=CONCYTEC+Lima+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
+  },
+  "pe-agroideas": {
+    "lat": -12.097748,
+    "lng": -77.031815,
+    "address": "agroideas, Calle Coronel Ernesto Odriozola, Chacarilla, San Isidro, Lima, Lima Metropolitana, Lima, 15073, Perú",
+    "city": "San Isidro",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=AGROIDEAS%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  },
+  "pe-agrobanco": {
+    "lat": -10.753654,
+    "lng": -77.759098,
+    "address": "Agrobanco, Avenida José Gálvez, Barranca, Lima, Perú",
+    "city": "Barranca",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Agrobanco%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  },
+  "pe-inaigem": {
+    "lat": -9.499746,
+    "lng": -77.535385,
+    "address": "INAIGEM, Carretera Longitudinal de la Sierra Norte, Urbanización Sierra Hermosa, Santa Casa, Monterrey, Independencia, Huaraz, Ancash, 02690, Perú",
+    "city": "Independencia",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=INAIGEM%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
+  },
+  "pe-ana-autoridad-nacional-del-agua": {
+    "lat": -12.09422,
+    "lng": -77.015852,
+    "address": "Autoridad Nacional del Agua, 355, Calle 17, El Palomar, San Isidro, Lima, Lima Metropolitana, Lima, 15036, Perú",
+    "city": "San Isidro",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=ANA+%E2%80%93+Autoridad+Nacional+del+Agua%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  },
+  "pe-senamhi": {
+    "lat": -12.079199,
+    "lng": -77.042864,
+    "address": "SENAMHI, 321, Jirón Cahuide, Jesús María, Lima, Lima Metropolitana, Lima, 15072, Perú",
+    "city": "Jesús María",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=SENAMHI%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  },
+  "pe-serfor": {
+    "lat": -12.079536,
+    "lng": -77.054119,
+    "address": "Serfor, Avenida Arnaldo Márquez, Los Patricios, Jesús María, Lima, Lima Metropolitana, Lima, 15072, Perú",
+    "city": "Jesús María",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=SERFOR%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  },
+  "pe-sernanp": {
+    "lat": -12.093963,
+    "lng": -77.015617,
+    "address": "Servicio Nacional de Áreas Natruales Protegidas por el Estado, 355, Calle 17, El Palomar, San Isidro, Lima, Lima Metropolitana, Lima, 15036, Perú",
+    "city": "San Isidro",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=SERNANP%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  },
+  "pe-programa-bosques-minam": {
+    "lat": -12.35143,
+    "lng": -76.800728,
+    "address": "Condominio Punta Nueva Mar y Bosques, Punta Negra, Lima, Lima Metropolitana, Lima, Perú",
+    "city": "Punta Negra",
+    "country": "Peru",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=bosques+Lima+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
+  },
+  "pe-proinversion": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-promperu": {
+    "lat": -12.098212,
+    "lng": -77.0147,
+    "address": "PROMPERÚ, 050, Calle Uno Oeste, Corpac, San Isidro, Lima, Lima Metropolitana, Lima, 15000, Perú",
+    "city": "San Isidro",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=PromPer%C3%BA%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  },
+  "pe-apci-agencia-peruana-de-cooperacion-internacional": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-imarpe": {
+    "lat": -12.066669,
+    "lng": -77.158031,
+    "address": "Instituto del Mar del Peru, Avenida Agustín Gamarra, Chucuito, Callao, La Punta, Callao, Lima Metropolitana, Callao, 07021, Perú",
+    "city": "Callao",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=IMARPE%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  },
+  "pe-sanipes": {
+    "lat": -12.048599,
+    "lng": -75.195008,
+    "address": "Sanipes, Calle Las Orquideas, Jardines, Chorrillos, San Carlos, Huancayo, Junín, 12009, Perú",
+    "city": "Huancayo",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=SANIPES%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
+  },
+  "pe-gobierno-regional-de-loreto": {
+    "lat": -4.504728,
+    "lng": -73.585108,
+    "address": "Gobierno Regional de Loreto, Calle Tarapaca, Nauta, Loreto, 16301, Perú",
+    "city": "Nauta",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Gobierno+Regional+de+Loreto%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
+  },
+  "pe-gobierno-regional-de-san-martin": {
+    "lat": -6.022045,
+    "lng": -76.988591,
+    "address": "Gobierno Regional de San Martín, Jirón 2 de Mayo, Lluyllucucha, Moyobamba, San Martín, 22001, Perú",
+    "city": "Moyobamba",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Gobierno+Regional+de+San+Mart%C3%ADn%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
+  },
+  "pe-gobierno-regional-de-ucayali": {
+    "lat": -8.382729,
+    "lng": -74.528931,
+    "address": "Gobierno Regional de Ucayali, Atahualpa, Área Metropolitana de Pucallpa, Centro Urbano de Pucallpa, Pucallpa, Callería, Coronel Portillo, Ucayali, 25001, Perú",
+    "city": "Pucallpa",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Gobierno+Regional+de+Ucayali%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
+  },
+  "pe-gobierno-regional-de-madre-de-dios": {
+    "lat": -12.583197,
+    "lng": -69.198998,
+    "address": "Gobierno Regional de Madre de Dios, Jirón Tupac Amaru, Puerto Maldonado, Tambopata, Madre de Dios, Perú",
+    "city": "Puerto Maldonado",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Gobierno+Regional+de+Madre+de+Dios%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
+  },
+  "pe-gobierno-regional-de-amazonas": {
+    "lat": -6.235301,
+    "lng": -77.873109,
+    "address": "Gobierno Regional de Amazonas, 1250, Ortiz Arrieta, Señor de los Milagros, Chachapoyas, Amazonas, 01001, Perú",
+    "city": "Chachapoyas",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Gobierno+Regional+de+Amazonas%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
+  },
+  "pe-surco-emprende": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-coworking-municipal-de-jesus-maria": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-gobierno-regional-y-municipalidad-de-cusco": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-municipalidad-de-miraflores-emprende-miraflores": {
+    "lat": -12.12176,
+    "lng": -77.029211,
+    "address": "Municipalidad de Miraflores, 400, Avenida José Larco, Cocharcas, Miraflores, Lima, Lima Metropolitana, Lima, 15074, Perú",
+    "city": "Miraflores",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Municipalidad+de+Miraflores+Lima+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
+  },
+  "pe-unalm-universidad-nacional-agraria-la-molina": {
+    "lat": -12.088069,
+    "lng": -76.946613,
+    "address": "Universidad Nacional Agraria La Molina, Avenida La Molina, La Molina, Lima, Lima Metropolitana, Lima, 14024, Perú",
+    "city": "La Molina",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=UNALM+Lima+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
+  },
+  "pe-pucp-pontificia-universidad-catolica-del-peru": {
+    "lat": -12.069645,
+    "lng": 77.07941,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://www.pucp.edu.pe",
+    "flags": [
+      "country_mismatch"
+    ]
+  },
+  "pe-universidad-del-pacifico": {
+    "lat": -12.083883,
+    "lng": -77.048319,
+    "address": "Universidad del Pacífico, 2020, Avenida General Felipe Salaverry, Risso, Lince, Jesús María, Lima, Lima Metropolitana, Lima, 15072, Perú",
+    "city": "Jesús María",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Universidad+del+Pac%C3%ADfico%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  },
+  "pe-utec-universidad-de-ingenieria-y-tecnologia": {
+    "lat": -14.660267,
+    "lng": -74.202247,
+    "address": "San Juan de Utec, San Juan, Lucanas, Ayacucho, Perú",
+    "city": "San Juan",
+    "country": "Peru",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=UTEC+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
+  },
+  "pe-universidad-peruana-cayetano-heredia": {
+    "lat": -12.091244,
+    "lng": -77.051867,
+    "address": "Universidad Peruana Cayetano Heredia, Avenida General Felipe Salaverry, Campo de Polo, Orrantia del Mar, San Isidro, Lima, Lima Metropolitana, Lima, 15076, Perú",
+    "city": "San Isidro",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Universidad+Peruana+Cayetano+Heredia%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  },
+  "pe-unap-universidad-nacional-de-la-amazonia-peruana": {
+    "lat": -12.074055,
+    "lng": -77.075012,
+    "address": "Calle Unap, Pueblo Libre, Lima, Lima Metropolitana, Lima, 15084, Perú",
+    "city": "Pueblo Libre",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=UNAP+Lima+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
+  },
+  "pe-unsm-universidad-nacional-de-san-martin": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-unu-universidad-nacional-de-ucayali": {
+    "lat": -13.325509,
+    "lng": -71.974977,
+    "address": "Unu Urqu, San José, Chimpacalca, Calca, Cusco, 08120, Perú",
+    "city": "Calca",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=UNU+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
+  },
+  "pe-unia-universidad-nacional-intercultural-de-la-amaz": {
+    "lat": -8.346962,
+    "lng": -74.590139,
+    "address": "Universidad Nacional Intercultural de la Amazonía, Jirón San Alejandro, Las Lomas de la Molina, La Nueva Era, Yarinacocha, Coronel Portillo, Ucayali, 25003, Perú",
+    "city": "Yarinacocha",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=UNIA+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
+  },
+  "pe-untrm-universidad-nacional-toribio-rodriguez-de-me": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-unamad-universidad-nacional-amazonica-de-madre-de-": {
+    "lat": -12.588351,
+    "lng": 69.209658,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://portal.unamad.edu.pe",
+    "flags": [
+      "country_mismatch"
+    ]
+  },
+  "pe-grade-grupo-de-analisis-para-el-desarrollo": {
+    "lat": -12.136618,
+    "lng": -77.022617,
+    "address": "Avenida Almirante Miguel Grau, Barranco, Lima, Lima Metropolitana, Lima, 15063, Perú",
+    "city": "Barranco",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Av.+Almirante+Grau+915%2C+Barranco%29%2C+Barranco%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
+  },
+  "pe-metared-x-peru-universia-banco-santander": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-unmsm-universidad-nacional-mayor-de-san-marcos": {
+    "lat": -12.055172,
+    "lng": -77.083574,
+    "address": "UNMSM, tunel, Lima, Lima Metropolitana, Lima, 15081, Perú",
+    "city": "Lima",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=UNMSM+Lima+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
+  },
+  "pe-incubagraria-unalm": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-emprende-up-climatech-rein-hub-peru": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-bioincuba-upch": {
+    "lat": -12.097902,
+    "lng": -77.035367,
+    "address": "San Isidro, Lima, Lima Metropolitana, Lima, Perú",
+    "city": "San Isidro",
+    "country": "Peru",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Isidro%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
+  },
+  "pe-usil-ventures": {
+    "lat": -12.072791,
+    "lng": -76.95378,
+    "address": "Campus Arq. Fernando Belaunde Terry - USIL, 550, Avenida La Fontana, Santa Patricia 2da Etapa, La Molina, Lima, Lima Metropolitana, Lima, 14024, Perú",
+    "city": "La Molina",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Universidad+usil+Lima+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (heuristic)"
+  },
+  "pe-1551-unmsm": {
+    "lat": -12.108536,
+    "lng": -77.053543,
+    "address": "Centro de Atención Primaria San Isidro, 1551, Avenida Del Ejército, Santa Cruz, Miraflores, San Isidro, Lima, Lima Metropolitana, Lima, 15074, Perú",
+    "city": "San Isidro",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=1551+Lima+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
+  },
+  "pe-nexum-pucp": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-startup-uni": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-startupc": {
+    "lat": -6.976827,
+    "lng": -78.940949,
+    "address": "San Miguel, Cajamarca, Perú",
+    "city": "Cajamarca",
+    "country": "Peru",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Miguel%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
+  },
+  "pe-innovaul-universidad-de-lima": {
+    "lat": -12.085529,
+    "lng": -76.970701,
+    "address": "Universidad de Lima, 4600, Javier Prado Este, Jacaranda Etapa Dos, San Borja, Lima, Lima Metropolitana, Lima, 15023, Perú",
+    "city": "San Borja",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Universidad+ulima+Lima+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (heuristic)"
+  },
+  "pe-innova-esan": {
+    "lat": -12.142088,
+    "lng": -77.012194,
+    "address": "Innova School - Surco Ambrosio, Batalla de Miraflores, Surco, Surco Viejo, Santiago de Surco, Lima, Lima Metropolitana, Lima, 15049, Perú",
+    "city": "Santiago de Surco",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Universidad+innova+Lima+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (heuristic)"
+  },
+  "pe-hub-udep-universidad-de-piura": {
+    "lat": -12.120509,
+    "lng": -77.031282,
+    "address": "Universidad de Piura, 162, Calle Mártìr José Olaya, Miraflores, Lima, Lima Metropolitana, Lima, 15074, Perú",
+    "city": "Miraflores",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Universidad+udep+Lima+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (heuristic)"
+  },
+  "pe-kunan": {
+    "lat": -13.516998,
+    "lng": -71.974721,
+    "address": "Kunan, Avenida Tullumayo, San Blas, Cuzco, Distrito de Cusco, Cusco, 00800, Perú",
+    "city": "Cuzco",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Kunan%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
+  },
+  "pe-nesst": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-endeavor-peru": {
+    "lat": -12.100151,
+    "lng": -76.970429,
+    "address": "Endeavor, 148-152, Calle Boulevard, El Derby de Monterrico, Monterrico, Santiago de Surco, Lima, Lima Metropolitana, Lima, 15023, Perú",
+    "city": "Santiago de Surco",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Endeavor+Per%C3%BA&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
+  },
+  "pe-acm-ventures-agtech": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-incubadora-unsm-san-martin": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-incuba-amazonia-unu": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-incubadora-unia-ucayali": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-incubadoras-untrm-y-unifslb-amazonas": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-incubadoras-unap-y-unaaa-loreto": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-incubaunt-la-libertad": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-s360-upao-la-libertad": {
+    "lat": -8.127049,
+    "lng": 79.033664,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://upao.edu.pe/diferenciacion/incubadora-de-negocios",
+    "flags": [
+      "country_mismatch"
+    ]
+  },
+  "pe-jaku-emprende-unsa-arequipa": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-kaman-ucsp-arequipa": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-innicia-ucsm-arequipa": {
+    "lat": -12.082842,
+    "lng": -77.049099,
+    "address": "Universidad del Pacífico, Calle Luis M. Sánchez Cerro, Jesús María, Lima, Lima Metropolitana, Lima, 15072, Perú",
+    "city": "Jesús María",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Universidad+investigacion+Lima+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (heuristic)"
+  },
+  "pe-incubaunach-cajamarca": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-cajamarca-incuba": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-universidad-nacional-de-jaen-cajamarca": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-incuval-ventures-unheval": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-emprende-udh-huanuco": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-universidad-nacional-de-moquegua-upt-incuba-arunta": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-wichay-universidad-continental-junin": {
+    "lat": -15.360995,
+    "lng": -72.297308,
+    "address": "Wichay Panahua, Panahua, Orcopampa, Castilla, Arequipa, Perú",
+    "city": "Orcopampa",
+    "country": "Peru",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Wichay+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
+  },
+  "pe-nature-services-peru": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-arbio": {
+    "lat": -12.171629,
+    "lng": -69.390923,
+    "address": "Arbio, Las Piedras, Tambopata, Madre de Dios, Perú",
+    "city": "Las Piedras",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Arbio%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
+  },
+  "pe-reforestadora-amazonica": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-bosques-amazonicos-bam": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-red-amazonia-que-late": {
+    "lat": -16.398867,
+    "lng": -71.536961,
+    "address": "Arequipa, 04001, Perú",
+    "city": "Arequipa",
+    "country": "Peru",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=AREQUIPA%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
+  },
+  "pe-conservacion-amazonica-acca": {
+    "lat": -13.517089,
+    "lng": -71.978536,
+    "address": "Cuzco, Distrito de Cusco, Cusco, 08001, Perú",
+    "city": "Cuzco",
+    "country": "Peru",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=cusco%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
+  },
+  "pe-spda-sociedad-peruana-de-derecho-ambiental": {
+    "lat": -16.398867,
+    "lng": -71.536961,
+    "address": "Arequipa, 04001, Perú",
+    "city": "Arequipa",
+    "country": "Peru",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=AREQUIPA%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
+  },
+  "pe-ciudad-saludable": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-accion-andina": {
+    "lat": -13.517089,
+    "lng": -71.978536,
+    "address": "Cuzco, Distrito de Cusco, Cusco, 08001, Perú",
+    "city": "Cuzco",
+    "country": "Peru",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=cusco%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
+  },
+  "pe-ccpip-camara-de-comercio-de-los-pueblos-indigenas": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-fundacion-wiese": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-fundacion-bbva-microfinanzas": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-fundacion-belcorp": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-asociacion-unacem": {
+    "lat": -12.197225,
+    "lng": -76.909723,
+    "address": "Asociación UNACEM, 3020, Avenida Atocongo, Campamento UNACEM, José Gálvez Barrenechea, Villa María del Triunfo, Lima, Lima Metropolitana, Lima, 15822, Perú",
+    "city": "Villa María del Triunfo",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Asociaci%C3%B3n+UNACEM%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  },
+  "pe-fundacion-anglo-american": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-care-peru": {
+    "lat": -12.092388,
+    "lng": -77.026353,
+    "address": "Calle Amador Merino Reyna, Centro financiero de San Isidro, San Isidro, Lima, Lima Metropolitana, Lima, 15046, Perú",
+    "city": "San Isidro",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Calle+Amador+Merino+Reyna+267%2C%2C+lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
+  },
+  "pe-solidaridad": {
+    "lat": -11.979527,
+    "lng": -77.0736,
+    "address": "Solidaridad, Los Olivos, Lima, Lima Metropolitana, Lima, Perú",
+    "city": "Los Olivos",
+    "country": "Peru",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Solidaridad%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  },
+  "pe-helvetas": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-swisscontact": {
+    "lat": -12.107001,
+    "lng": 77.032145,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://www.swisscontact.org/es/donde-trabajamos/peru",
+    "flags": [
+      "country_mismatch"
+    ]
+  },
+  "pe-peru-sostenible": {
+    "lat": -13.123109,
+    "lng": -70.497403,
+    "address": "Concesión para Conservación Económica Sostenible de la Amazonia, Manu, Madre de Dios, Perú",
+    "city": "Madre de Dios",
+    "country": "Peru",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Per%C3%BA+Sostenible&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
+  },
+  "pe-sistema-b": {
+    "lat": -12.042555,
+    "lng": -77.04275,
+    "address": "Sistema Metropolitano de la Solidaridad / Solidaridad Salud \"LAS Violetas\", Avenida Alfonso Ugarte, Barrio Monserrate, Lima, Lima Metropolitana, Lima, 15079, Perú",
+    "city": "Lima",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Sistema+B%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  },
+  "pe-l-1": {
+    "lat": -12.045981,
+    "lng": -77.030591,
+    "address": "Lima, Lima Metropolitana, Lima, 15001, Perú",
+    "city": "Lima",
+    "country": "Peru",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=L%2B1%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  },
+  "pe-conservamos-por-naturaleza": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-mongabay-latam": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-actualidad-ambiental": {
+    "lat": -12.045981,
+    "lng": -77.030591,
+    "address": "Lima, Lima Metropolitana, Lima, 15001, Perú",
+    "city": "Lima",
+    "country": "Peru",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
+  },
+  "pe-gestion": {
+    "lat": -12.09091,
+    "lng": -77.016473,
+    "address": "Icj Gestion Publica Y Empresarial, Pasaje Treinta, El Palomar, San Isidro, Lima, Lima Metropolitana, Lima, 15036, Perú",
+    "city": "San Isidro",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Gesti%C3%B3n%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  },
+  "pe-agraria-pe": {
+    "lat": -12.079393,
+    "lng": -76.950281,
+    "address": "Agraria, Avenida La Molina, Haras de la Molina, La Molina, Lima, Lima Metropolitana, Lima, 14024, Perú",
+    "city": "La Molina",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Agraria.pe%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  },
+  "pe-bid-bid-lab-bid-invest": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-ifc": {
+    "lat": 23.120251,
+    "lng": 113.317864,
+    "address": "广州国际金融中心(广州西塔), 珠江西路, 猎德街道, 天河区, 广州市, 广东省, 510623, 中国",
+    "city": "天河区",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=IFC&format=json&limit=1&addressdetails=1 (HQ-fallback)",
+    "flags": [
+      "country_mismatch"
+    ],
+    "office_note": "HQ (no in-country office found)"
+  },
+  "pe-caf-banco-de-desarrollo-de-america-latina": {
+    "lat": -9.281159,
+    "lng": -77.646106,
+    "address": "Caf'los Antojitos, Progreso, Tambo, Carhuaz, Ancash, 02127, Perú",
+    "city": "Carhuaz",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=CAF+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
+  },
+  "pe-banco-mundial": {
+    "lat": 38.898837,
+    "lng": -77.042567,
+    "address": "World Bank (MC Building), 1818, H Street Northwest, Golden Triangle, Ward 2, Washington, District of Columbia, 20037, United States",
+    "city": "Washington",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Banco+Mundial&format=json&limit=1&addressdetails=1 (HQ-fallback)",
+    "flags": [
+      "country_mismatch"
+    ],
+    "office_note": "HQ (no in-country office found)"
+  },
+  "pe-kfw": {
+    "lat": 52.507176,
+    "lng": 13.358246,
+    "address": "Kreditanstalt für Wiederaufbau, 86-90, Reichpietschufer, Lützowviertel, Tiergarten, Mitte, Berlin, 10785, Deutschland",
+    "city": "Berlin",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=KfW&format=json&limit=1&addressdetails=1 (HQ-fallback)",
+    "flags": [
+      "country_mismatch"
+    ],
+    "office_note": "HQ (no in-country office found)"
+  },
+  "pe-bei-banco-europeo-de-inversiones": {
+    "lat": 47.858433,
+    "lng": -3.605622,
+    "address": "Baye, Quimper, Finistère, Bretagne, France métropolitaine, 29300, France",
+    "city": "Baye",
+    "country": "Peru",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=BEI&format=json&limit=1&addressdetails=1 (final-pass-HQ)",
+    "flags": [
+      "country_mismatch"
+    ],
+    "office_note": "HQ (no in-country office found)"
+  },
+  "pe-pnud-accelerator-lab-biofin": {
+    "lat": -12.086463,
+    "lng": -77.223446,
+    "address": "Callao, Perú",
+    "city": "Callao",
+    "country": "Peru",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=callao%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
+  },
+  "pe-fao": {
+    "lat": -12.122311,
+    "lng": -77.017342,
+    "address": "Food and Agriculture Organization of the United Nations, 328, Calle Manuel Almenara, Miraflores, Lima, Lima Metropolitana, Lima, 15048, Perú",
+    "city": "Miraflores",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=FAO%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  },
+  "pe-onudi": {
+    "lat": 3.904508,
+    "lng": 11.501748,
+    "address": "Organisation des Nations unies pour le développement industriel, Rue 6.114, Fébé, Yaoundé II, Communauté urbaine de Yaoundé, Mfoundi, Centre, Cameroun",
+    "city": "Communauté urbaine de Yaoundé",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=ONUDI&format=json&limit=1&addressdetails=1 (HQ-fallback)",
+    "flags": [
+      "country_mismatch"
+    ],
+    "office_note": "HQ (no in-country office found)"
+  },
+  "pe-gggi": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-onu-habitat": {
+    "lat": -16.512916,
+    "lng": -68.120639,
+    "address": "ONU HABITAT BOLIVIA, Avenida Aniceto Arce, Centro, Municipio Nuestra Señora de La Paz, Provincia Pedro Domingo Murillo, La Paz, Bolivia",
+    "city": "Municipio Nuestra Señora de La Paz",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=ONU-H%C3%A1bitat&format=json&limit=1&addressdetails=1 (HQ-fallback)",
+    "flags": [
+      "country_mismatch"
+    ],
+    "office_note": "HQ (no in-country office found)"
+  },
+  "pe-iica": {
+    "lat": -12.077702,
+    "lng": -76.951525,
+    "address": "Instituto Interamericano de Cooperación para la Agricultura, Avenida La Molina, La Molina, Lima, Lima Metropolitana, Lima, 14024, Perú",
+    "city": "La Molina",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=IICA%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  },
+  "pe-giz": {
+    "lat": 47.953426,
+    "lng": 11.284272,
+    "address": "GIZ, 52, Wielinger Straße, Feldafing, Landkreis Starnberg, Bayern, 82340, Deutschland",
+    "city": "Feldafing",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=GIZ&format=json&limit=1&addressdetails=1 (HQ-fallback)",
+    "flags": [
+      "country_mismatch"
+    ],
+    "office_note": "HQ (no in-country office found)"
+  },
+  "pe-cooperacion-suiza-seco-cosude": {
+    "lat": -16.527542,
+    "lng": -68.104531,
+    "address": "Agencia de Cooperación Suiza, Avenida 14 de Septiembre, Obrajes, Sur, Municipio Nuestra Señora de La Paz, Provincia Pedro Domingo Murillo, La Paz, Bolivia",
+    "city": "Municipio Nuestra Señora de La Paz",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Cooperaci%C3%B3n+Suiza&format=json&limit=1&addressdetails=1 (final-pass-HQ)",
+    "flags": [
+      "country_mismatch"
+    ],
+    "office_note": "HQ (no in-country office found)"
+  },
+  "pe-union-europea-euroclima": {
+    "lat": -12.09549,
+    "lng": -77.038455,
+    "address": "Delegación de la Union Europea, 332, Avenida Víctor Andrés Belaúnde, El Rosario, San Isidro, Lima, Lima Metropolitana, Lima, 15027, Perú",
+    "city": "San Isidro",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Uni%C3%B3n+Europea+Lima+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
+  },
+  "pe-aecid": {
+    "lat": 14.66279,
+    "lng": -17.435362,
+    "address": "Agence Espagnole de Coopération Internationale pour le Développement, Rue Joseph Gomis, Commune de Dakar-Plateau, Arrondissement de Dakar-Plateau, Dakar, Région de Dakar, 99341, Sénégal",
+    "city": "Dakar",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=AECID&format=json&limit=1&addressdetails=1 (HQ-fallback)",
+    "flags": [
+      "country_mismatch"
+    ],
+    "office_note": "HQ (no in-country office found)"
+  },
+  "pe-afd": {
+    "lat": 0.455242,
+    "lng": 9.409025,
+    "address": "Banque Africaine de Developpement, 2455, Boulevard Hassan II, Tahiti, 1er Arrondissement de Libreville, Libreville, Estuaire, Gabon",
+    "city": "Libreville",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=AFD&format=json&limit=1&addressdetails=1 (HQ-fallback)",
+    "flags": [
+      "country_mismatch"
+    ],
+    "office_note": "HQ (no in-country office found)"
+  },
+  "pe-jica": {
+    "lat": 11.028429,
+    "lng": 124.551537,
+    "address": "Jica, Lilo-an, Ormoc, Leyte, Eastern Visayas, 6541, Philippines",
+    "city": "Ormoc",
+    "country": "Peru",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=JICA&format=json&limit=1&addressdetails=1 (HQ-fallback)",
+    "flags": [
+      "country_mismatch"
+    ],
+    "office_note": "HQ (no in-country office found)"
+  },
+  "pe-koica": {
+    "lat": 37.415691,
+    "lng": 127.098692,
+    "address": "한국국제협력단, 대왕판교로851번길, 시흥동, 수정구, 성남시, 경기도, 13449, 대한민국",
+    "city": "성남시",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=KOICA&format=json&limit=1&addressdetails=1 (HQ-fallback)",
+    "flags": [
+      "country_mismatch"
+    ],
+    "office_note": "HQ (no in-country office found)"
+  },
+  "pe-camara-peruano-alemana-ahk": {
+    "lat": -12.045981,
+    "lng": -77.030591,
+    "address": "Lima, Lima Metropolitana, Lima, 15001, Perú",
+    "city": "Lima",
+    "country": "Peru",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
+  },
+  "pe-amcham-peru": {
+    "lat": -12.095957,
+    "lng": -77.037571,
+    "address": "Avenida Víctor Andrés Belaúnde, El Rosario, San Isidro, Lima, Lima Metropolitana, Lima, 15073, Perú",
+    "city": "San Isidro",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Avenida+V%C3%ADctor+Andr%C3%A9s+Bela%C3%BAnde+177%2C+San+Isidro%2C+San+Isidro%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
+  },
+  "pe-camara-de-comercio-canada-peru": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-conservacion-internacional": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-wwf-peru": {
+    "lat": -12.090261,
+    "lng": -77.040447,
+    "address": "World Wildlife Fund, 653, Avenida General Trinidad Morán, Risso, Lince, Lima, Lima Metropolitana, Lima, 51015, Perú",
+    "city": "Lince",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=WWF+Per%C3%BA%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  },
+  "pe-the-nature-conservancy": {
+    "lat": 41.251924,
+    "lng": -95.929733,
+    "address": "The Nature Conservancy, Omaha, Douglas County, Nebraska, 68012, United States",
+    "city": "Omaha",
+    "country": "Peru",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=The+Nature+Conservancy&format=json&limit=1&addressdetails=1 (HQ-fallback)",
+    "flags": [
+      "country_mismatch"
+    ],
+    "office_note": "HQ (no in-country office found)"
+  },
+  "pe-forest-trends": {
+    "lat": 32.353265,
+    "lng": -89.483221,
+    "address": "Citi Trends, Deer Field Drive, Forest, Scott County, Mississippi, United States",
+    "city": "Forest",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Forest+Trends&format=json&limit=1&addressdetails=1 (HQ-fallback)",
+    "flags": [
+      "country_mismatch"
+    ],
+    "office_note": "HQ (no in-country office found)"
+  },
+  "pe-rainforest-alliance": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-fundacion-avina": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-pvblic-foundation": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-cleantechhub": {
+    "lat": -16.404597,
+    "lng": -71.531549,
+    "address": "Bogotá, Nicolás de Piérola, Arequipa, 04001, Perú",
+    "city": "Arequipa",
+    "country": "Peru",
+    "precision": "address",
+    "source_url": "https://cleantechhub.net"
+  },
+  "pe-black-soldier-fly-logistics": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-yakusmart": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-vigia": {
+    "lat": -12.195476,
+    "lng": -76.995997,
+    "address": "Parque Cerro Vigía, Delicias de Villa, Chorrillos, Lima, Lima Metropolitana, Lima, Perú",
+    "city": "Chorrillos",
+    "country": "Peru",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=VIGIA%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  },
+  "pe-uqhu": {
+    "lat": -11.8961,
+    "lng": -76.241485,
+    "address": "Uqhu, San Mateo, Huarochirí, Lima, Perú",
+    "city": "San Mateo",
+    "country": "Peru",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=UQHU%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
+  },
+  "pe-yakufil": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "pe-rebike-up": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Peru",
+    "precision": "country",
+    "source_url": null
+  },
+  "sv-pomona-impact": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-viwala": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-fiaes-fondo-de-inversion-ambiental-de-el-salvador": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-atlantida-capital": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-banco-azul": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-banco-hipotecario": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-banco-atlantida": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-banco-agricola": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-bandesal-banco-de-desarrollo-de-el-salvador": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-sisa-seguros": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-ases-seguros": {
+    "lat": 13.687341,
+    "lng": 89.2247,
+    "address": null,
+    "city": "San Salvador",
+    "country": "El Salvador",
+    "precision": "address",
+    "source_url": "https://ases.org.sv",
+    "flags": [
+      "country_mismatch"
+    ]
+  },
+  "sv-arca-family-office": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-polaris-family-office": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-davivienda-seguros": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-bcie-programa-regional-de-capital-semilla": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-fideagro": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-bac-credomatic": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-cafi-central-america-angel-fund-initiative": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-iagros": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-recicla503": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-industrias-plasticas-ipsa": {
+    "lat": 13.483455,
+    "lng": -88.167355,
+    "address": "4a Calle Oriente, Colonia 15 de Septiembre, San Miguel, San Miguel Centro, San Miguel, 3321, El Salvador",
+    "city": "San Miguel",
+    "country": "El Salvador",
+    "precision": "address",
+    "source_url": "https://ipsalatinoamerica.com"
+  },
+  "sv-grupo-ternova": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-grupo-agrisal": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-industrias-la-constancia": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-grupo-ferromax": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-grupo-calleja-super-selectos": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-aes-el-salvador": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-camarasal-camara-de-comercio-e-industria-de-el-sal": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-casalco": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-camtex": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-camagro": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-asi-asociacion-salvadorena-de-industriales": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-marn-ministerio-de-medio-ambiente-y-recursos-natur": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-minec-ministerio-de-economia": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-mag-ministerio-de-agricultura-y-ganaderia": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-conamype": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-centa": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-invest-agencia-de-promocion-de-inversiones-y-expor": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-esco-agencia-de-el-salvador-para-la-cooperacion-in": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-impact-hub-san-salvador": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-rein-hub-san-salvador": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-crea-centro-de-emprendimiento-utec": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-snbx-sandbox": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-fundacion-gloria-kriete-incubadora-empresarial": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-startupbootcamp-el-salvador": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-utec-universidad-tecnologica-de-el-salvador": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-ues-universidad-de-el-salvador": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-key-institute-instituto-kriete-de-ingenieria-y-cie": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-uca": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-esen": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-telecorporacion-salvadorena-tcs": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-canal-12": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-canal-21": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-canal-10-television-nacional": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-la-prensa-grafica": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-el-diario-de-hoy": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-diario-el-mundo": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-gatoencerrado": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-fundacion-gloria-kriete-fgk": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-fundemas": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-fundacion-colabora": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-fao-el-salvador": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-pnud-el-salvador": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-unep": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-banco-mundial": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-bid": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-gggi": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-cepal": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-oim": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-giz": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-aecid-el-salvador": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-usaid": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-crs-catholic-relief-services": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-embajada-de-alemania": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-embajada-de-los-paises-bajos": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-embajada-de-espana": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "sv-embajada-de-japon": {
+    "lat": 13.697629,
+    "lng": -89.191156,
+    "address": "San Salvador, San Salvador Centro, San Salvador, El Salvador",
+    "city": "San Salvador Centro",
+    "country": "El Salvador",
+    "precision": "city",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Salvador%2C+El+Salvador&format=json&limit=1&addressdetails=1&countrycodes=sv (actor-city)"
+  },
+  "co-fenoge": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Colombia",
+    "precision": "country",
+    "source_url": null
+  },
+  "co-bancoldex": {
+    "lat": 11.00374,
+    "lng": -74.808963,
+    "address": "Bancoldex, 76, Carrera 52, Alto Prado, Localidad Norte - Centro Histórico, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, 080001, Colombia",
+    "city": "Perímetro Urbano Barranquilla",
+    "country": "Colombia",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Banc%C3%B3ldex%2C+Colombia&format=json&limit=1&addressdetails=1&countrycodes=co (name-country)"
+  },
+  "co-gcf-green-climate-fund": {
+    "lat": 46.521356,
+    "lng": 6.566736,
+    "address": "GC F, EPFL, Lausanne, Ecublens, District de l'Ouest lausannois, Vaud, 1015, Schweiz/Suisse/Svizzera/Svizra",
+    "city": "Lausanne",
+    "country": "Colombia",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=GCF&format=json&limit=1&addressdetails=1 (final-pass-HQ)",
+    "flags": [
+      "country_mismatch"
+    ],
+    "office_note": "HQ (no in-country office found)"
+  },
+  "co-cif-climate-investment-funds": {
+    "lat": 42.158109,
+    "lng": 118.84142,
+    "address": "赤峰玉龙机场, 应昌街, 北台子, 牛家营子镇, 喀喇沁旗 ᠬᠠᠷᠠᠴᠢᠨ ᠬᠣᠰᠢᠭᠤ, 赤峰市 ᠤᠯᠠᠭᠠᠨᠬᠠᠳᠠ ᠬᠣᠲᠠ, 内蒙古自治区 ᠦᠪᠦᠷ ᠮᠣᠩᠭᠤᠯ ᠤᠨ ᠥᠪᠡᠷᠲᠡᠭᠡᠨ ᠵᠠᠰᠠᠬᠣ ᠣᠷᠣᠨ, 中国",
+    "city": "喀喇沁旗 ᠬᠠᠷᠠᠴᠢᠨ ᠬᠣᠰᠢᠭᠤ",
+    "country": "Colombia",
+    "precision": "address",
+    "source_url": "https://nominatim.openstreetmap.org/search?q=CIF&format=json&limit=1&addressdetails=1 (final-pass-HQ)",
+    "flags": [
+      "country_mismatch"
+    ],
+    "office_note": "HQ (no in-country office found)"
+  },
+  "co-minenergia": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Colombia",
+    "precision": "country",
+    "source_url": null
+  },
+  "co-creg": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Colombia",
+    "precision": "country",
+    "source_url": null
+  },
+  "co-upme": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Colombia",
+    "precision": "country",
+    "source_url": null
+  },
+  "co-ipse": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Colombia",
+    "precision": "country",
+    "source_url": null
+  }
+}
