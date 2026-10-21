@@ -271,16 +271,6 @@ RELATIONS: list[dict[str, str]] = [
         ),
     },
     {
-        "source": "pe-profonanpe",
-        "target": "challenge:PE-1-bosques",
-        "type": "works_on_challenge",
-        "source_url": "https://profonanpe.org.pe/",
-        "source_title": "Profonanpe",
-        "evidence": (
-            "Profonanpe es un aliado estratégico para apoyar a la conservación y protección de nuestra biodiversidad"
-        ),
-    },
-    {
         "source": "pe-amazonia-impact-ventures",
         "target": "challenge:PE-1-bosques",
         "type": "works_on_challenge",

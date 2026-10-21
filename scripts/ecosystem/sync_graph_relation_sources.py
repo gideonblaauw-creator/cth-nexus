@@ -26,6 +26,14 @@ HIDDEN_REASONS: dict[tuple[str, str, str], str] = {
         "Live check 2026-10-21: the catalog quote is not on "
         "https://www.forest-trends.org and the actor-name check failed."
     ),
+    (
+        "pe-profonanpe",
+        "challenge:PE-1-bosques",
+        "works_on_challenge",
+    ): (
+        "Source https://profonanpe.org.pe/ is unreachable from this host "
+        "(connection times out). Hidden until the quote can be re-verified."
+    ),
 }
 
 

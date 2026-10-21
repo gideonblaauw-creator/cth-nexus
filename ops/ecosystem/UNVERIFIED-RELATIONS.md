@@ -7,11 +7,11 @@ Public graph edges must appear in `ops/ecosystem/graph_relation_evidence.json` w
 | Metric | Count |
 |--------|------:|
 | Total edges in bundle | 85 |
-| Public (verified + source_url + catalog quote) | 41 |
-| Hidden pending source | 44 |
+| Public (verified + source_url + catalog quote) | 40 |
+| Hidden pending source | 45 |
 | Self-loops removed (this sync) | 0 |
 
-Evidence catalog: `ops/ecosystem/graph_relation_evidence.json` (41 public rows).
+Evidence catalog: `ops/ecosystem/graph_relation_evidence.json` (40 public rows).
 
 Policy bundle (`static/ecosystem/data/policy_relations.json`): separate story chapter; not modified by this sync.
 
@@ -57,6 +57,7 @@ Policy bundle (`static/ecosystem/data/policy_relations.json`): separate story ch
 | `pe-kfw` | `challenge:PE-1-bosques` | `works_on_challenge` |
 | `pe-mirova-natural-capital` | `challenge:PE-1-bosques` | `works_on_challenge` |
 | `pe-pnud-accelerator-lab-biofin` | `challenge:PE-1-bosques` | `works_on_challenge` |
+| `pe-profonanpe` | `challenge:PE-1-bosques` | `works_on_challenge` |
 | `pe-reforestadora-amazonica` | `challenge:PE-1-bosques` | `works_on_challenge` |
 | `pe-root-capital` | `challenge:PE-1-bosques` | `works_on_challenge` |
 | `pe-serfor` | `challenge:PE-1-bosques` | `works_on_challenge` |
@@ -67,4 +68,5 @@ Policy bundle (`static/ecosystem/data/policy_relations.json`): separate story ch
 ## Why these edges are hidden
 
 - `pe-forest-trends` → `challenge:PE-1-bosques` (`works_on_challenge`): Live check 2026-10-21: the catalog quote is not on https://www.forest-trends.org and the actor-name check failed.
+- `pe-profonanpe` → `challenge:PE-1-bosques` (`works_on_challenge`): Source https://profonanpe.org.pe/ is unreachable from this host (connection times out). Hidden until the quote can be re-verified.
 
