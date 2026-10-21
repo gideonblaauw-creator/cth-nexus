@@ -37,6 +37,7 @@ CATEGORY_KEYS = {
     "hub",
     "mentor",
     "program",
+    "policy",
 }
 
 
