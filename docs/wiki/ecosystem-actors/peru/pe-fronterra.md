@@ -20,15 +20,19 @@ tag_country: Peru
 | Tipo | org |
 | País | Peru |
 | Ciudad | Lima |
-| Sitio web | https://fronterra.eco/about-us |
+| Dirección | PENDIENTE |
+| Sitio web | https://fronterra.eco |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| Rol en el ecosistema | Empresa o iniciativa de economía circular y sostenibilidad en el ecosistema peruano. |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Fronterra opera en el espacio de soluciones ambientales y economía circular con presencia en el ecosistema de actores climáticos del Perú.
+
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://fronterra.eco — sitio web oficial

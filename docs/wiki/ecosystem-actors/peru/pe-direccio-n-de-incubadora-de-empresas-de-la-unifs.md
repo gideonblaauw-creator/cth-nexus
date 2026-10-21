@@ -19,16 +19,20 @@ tag_country: Peru
 | Categoría | academia |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Amazonas |
-| Sitio web | https://- |
+| Ciudad | Chachapoyas, Amazonas |
+| Dirección | PENDIENTE |
+| Sitio web | https://www.gob.pe/unifslb |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Universidad o centro de investigación |
+| Rol en el ecosistema | Incubadora de empresas de la Universidad Nacional Intercultural Fabiola Salazar Leguía de Bagua (UNIFSLB). |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+La Dirección de Incubadora de Empresas de la UNIFSLB apoya el emprendimiento y la innovación en la región Amazonas desde la universidad intercultural.
+
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.gob.pe/unifslb — ficha institucional UNIFSLB en gob.pe

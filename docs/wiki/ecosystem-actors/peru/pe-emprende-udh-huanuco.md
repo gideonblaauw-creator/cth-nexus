@@ -19,16 +19,20 @@ tag_country: Peru
 | Categoría | accelerator |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
-| Sitio web | http://www.udh.edu.pe |
+| Ciudad | Huánuco |
+| Dirección | PENDIENTE |
+| Sitio web | https://www.udh.edu.pe |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
+| Rol en el ecosistema | Programa o unidad de emprendimiento de la Universidad de Huánuco (UDH). |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AGR, AGU |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Emprende UDH es la iniciativa de emprendimiento vinculada a la Universidad de Huánuco, institución licenciada por SUNEDU.
+
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.udh.edu.pe — portal universitario UDH

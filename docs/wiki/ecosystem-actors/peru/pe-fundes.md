@@ -20,15 +20,19 @@ tag_country: Peru
 | Tipo | org |
 | País | Peru |
 | Ciudad | Lima |
-| Sitio web | https://fundes.org/#contact-form |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | ONG o fundación |
+| Dirección | PENDIENTE |
+| Sitio web | https://fundes.org |
+| LinkedIn | https://www.linkedin.com/company/fundes |
+| Rol en el ecosistema | Consultoría de impacto y desarrollo de negocios inclusivos en América Latina. |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+FUNDES es una consultoría de impacto que acompaña a empresas y emprendedores en modelos de negocio inclusivos y sostenibles.
+
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +44,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://fundes.org — sitio FUNDES
+- https://www.linkedin.com/company/fundes — perfil LinkedIn

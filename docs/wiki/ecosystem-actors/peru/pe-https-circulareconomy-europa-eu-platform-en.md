@@ -8,7 +8,7 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
-# https://circulareconomy.europa.eu/platform/en
+# European Circular Economy Stakeholder Platform
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
 
@@ -19,16 +19,20 @@ tag_country: Peru
 | Categoría | corporate |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | Bruselas, Bélgica (iniciativa UE) |
+| Dirección | PENDIENTE |
 | Sitio web | https://circulareconomy.europa.eu/platform/en |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| Rol en el ecosistema | Plataforma de la Comisión Europea y CESE para economía circular. |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+La European Circular Economy Stakeholder Platform es una iniciativa conjunta de la Comisión Europea y el Comité Económico y Social Europeo.
+
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://circulareconomy.europa.eu/platform/en — plataforma oficial

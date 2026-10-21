@@ -8,7 +8,7 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
-# https://aspem.org/en/
+# ASPEm (Associazione Solidarietà Paesi Emergenti)
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
 
@@ -19,16 +19,20 @@ tag_country: Peru
 | Categoría | corporate |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | Milán, Italia (sede) |
+| Dirección | PENDIENTE |
 | Sitio web | https://aspem.org/en/ |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| Rol en el ecosistema | ONG italiana de cooperación internacional y solidaridad con países emergentes. |
+| Año de fundación | 1979 |
 | Desafíos (códigos) | FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+ASPEm promueve cooperación internacional, movilidad juvenil, voluntariado y educación para la ciudadanía global desde 1979.
+
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://aspem.org/en/ — sitio ASPEm

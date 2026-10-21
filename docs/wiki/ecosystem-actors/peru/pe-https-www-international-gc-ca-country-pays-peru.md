@@ -8,7 +8,7 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
-# https://www.international.gc.ca/country-pays/peru-perou/lima.aspx?lang=eng
+# Embajada de Canadá en el Perú
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
 
@@ -20,15 +20,19 @@ tag_country: Peru
 | Tipo | org |
 | País | Peru |
 | Ciudad | Lima |
-| Sitio web | https://www.international.gc.ca/country-pays/peru-perou/lima.aspx?lang=eng |
+| Dirección | PENDIENTE |
+| Sitio web | https://www.international.gc.ca/country-pays/peru-perou/lima.aspx?lang=esp |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| Rol en el ecosistema | Representación diplomática de Canadá y cooperación bilateral con el Perú. |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+La Embajada de Canadá en Lima representa al gobierno de Canadá y gestiona relaciones bilaterales y programas de cooperación.
+
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.international.gc.ca/country-pays/peru-perou/lima.aspx?lang=esp — Embajada de Canadá en Lima

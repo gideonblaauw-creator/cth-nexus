@@ -19,16 +19,20 @@ tag_country: Peru
 | Categoría | government |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
-| Sitio web | https://www.instagram.com/p/Ddw80GLAbfr/ |
+| Ciudad | Jesús María, Lima |
+| Dirección | PENDIENTE |
+| Sitio web | https://www.munijesusmaria.gob.pe |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Actor público / regulador |
+| Rol en el ecosistema | Espacio municipal de coworking y emprendimiento de la Municipalidad de Jesús María. |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+El coworking municipal de Jesús María es un espacio promovido por la municipalidad para emprendedores y actividades de formación empresarial (referenciado en redes oficiales del municipio).
+
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.munijesusmaria.gob.pe — portal municipal Jesús María

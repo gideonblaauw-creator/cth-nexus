@@ -20,15 +20,19 @@ tag_country: Peru
 | Tipo | org |
 | País | Peru |
 | Ciudad | Lima |
+| Dirección | PENDIENTE |
 | Sitio web | https://pe.fsc.org/pe-es |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | ONG o fundación |
+| Rol en el ecosistema | Certificación y estándares de manejo forestal responsable (FSC) en Perú. |
+| Año de fundación | 1993 |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+FSC Perú promueve el manejo forestal responsable mediante certificación y estándares reconocidos internacionalmente.
+
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +44,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://pe.fsc.org/pe-es — FSC Perú
+- https://fsc.org/en — Forest Stewardship Council (sede global, fundación 1993)

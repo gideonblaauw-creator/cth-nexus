@@ -20,15 +20,19 @@ tag_country: Peru
 | Tipo | org |
 | País | Peru |
 | Ciudad | Lima |
+| Dirección | PENDIENTE |
 | Sitio web | https://emprendeup.pe/climatech/ |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
+| Rol en el ecosistema | Centro ClimaTech de Emprende UP (Universidad del Pacífico); sede del REIN Hub Perú con CleantechHUB. |
+| Año de fundación | 2025 |
 | Desafíos (códigos) | AGR, AGU, AZU, BOS, CIR, CIU, ENE, FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+ClimaTech es la plataforma de emprendimiento climático de Emprende UP que articula actores del ecosistema y alberga el REIN Hub Perú.
+
+
 
 ## Relaciones (ecosistema)
 
@@ -46,5 +50,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://emprendeup.pe/climatech/ — portal ClimaTech Emprende UP

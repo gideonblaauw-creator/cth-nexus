@@ -8,7 +8,7 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
-# https://www.expertisefrance.fr/es/areas-de-trabajo/emprendimiento-social-sostenible
+# Expertise France / cooperación francesa
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
 
@@ -19,16 +19,20 @@ tag_country: Peru
 | Categoría | corporate |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
-| Sitio web | https://www.gov.uk/government/organisations/foreign-commonwealth-development-office |
+| Ciudad | París, Francia (sede) |
+| Dirección | PENDIENTE |
+| Sitio web | https://www.expertisefrance.fr |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| Rol en el ecosistema | Agencia francesa de cooperación técnica internacional. |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Expertise France implementa la cooperación técnica de Francia en desarrollo, clima y gobernanza en múltiples países.
+
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.expertisefrance.fr — portal Expertise France

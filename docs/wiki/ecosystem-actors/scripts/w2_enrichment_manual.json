@@ -1,0 +1,1030 @@
+{
+  "pe-ciudad-saludable": {
+    "display_name": null,
+    "city": "Lima",
+    "address": "PENDIENTE",
+    "website": "https://www.ciudadsaludable.org",
+    "linkedin": "PENDIENTE",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "ONG de gestión de residuos sólidos y reciclaje inclusivo con recicladores en ciudades peruanas.",
+    "descripcion": "Organización sin fines de lucro que promueve modelos de reciclaje inclusivo y gestión comunitaria de residuos en el Perú urbano.",
+    "fuentes": [
+      "https://www.ciudadsaludable.org — misión y alcance de la organización"
+    ]
+  },
+  "pe-cleantechhub": {
+    "city": "Arequipa (sede); operaciones en 8 países de LATAM",
+    "address": "PENDIENTE",
+    "website": "https://cleantechhub.net",
+    "linkedin": "https://www.linkedin.com/company/cleantechhub",
+    "founded": "2019",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Aceleradora de innovación climática: diagnóstico verde, aceleración, financiamiento e inversión de impacto en LATAM.",
+    "descripcion": "CleantechHUB impulsa startups de tecnología climática en América Latina con programas de aceleración, financiamiento sostenible e inversión de impacto.",
+    "fuentes": [
+      "https://cleantechhub.net — descripción institucional y año de inicio (desde 2019)",
+      "https://www.linkedin.com/company/cleantechhub — perfil LinkedIn de la organización"
+    ]
+  },
+  "pe-climate-policy-initiative-lavca-mit-reap": {
+    "city": "Lima (actores referenciados en ecosistema peruano)",
+    "address": "PENDIENTE",
+    "website": "https://www.lavca.org/research/",
+    "linkedin": "https://www.linkedin.com/company/lavca",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Conjunto de actores de investigación y aceleración (LAVCA, CPI, MIT REAP) vinculados al ecosistema emprendedor y climático en Perú.",
+    "descripcion": "Entrada compuesta en el mapa de actores que agrupa referencias a LAVCA (investigación de capital de riesgo en LATAM), Climate Policy Initiative y MIT REAP como recursos del ecosistema.",
+    "fuentes": [
+      "https://www.lavca.org/research/ — portal de investigación LAVCA",
+      "https://www.climatepolicyinitiative.org — Climate Policy Initiative",
+      "https://reap.mit.edu — MIT Regional Entrepreneurship Acceleration Program"
+    ]
+  },
+  "pe-cofide-fcei": {
+    "city": "San Isidro, Lima",
+    "address": "Av. Rivera Navarrete 501, San Isidro, Lima",
+    "website": "https://www.cofide.com.pe",
+    "linkedin": "https://www.linkedin.com/company/cofide",
+    "founded": "1977",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Banco de desarrollo y fondo de fondos que articula financiamiento, capital de riesgo y programas como el FCEI en el ecosistema de innovación.",
+    "descripcion": "Corporación Financiera de Desarrollo (COFIDE) es el banco de desarrollo del Perú; el FCEI (Fondo Cerrado de Empresas Emergentes e Innovadoras) invierte en fondos de venture capital.",
+    "fuentes": [
+      "https://www.cofide.com.pe — información institucional COFIDE",
+      "https://www.linkedin.com/company/cofide — perfil LinkedIn COFIDE"
+    ]
+  },
+  "pe-colaborativo-vc": {
+    "city": "Lima",
+    "address": "PENDIENTE",
+    "website": "https://colaborativo.vc/",
+    "linkedin": "PENDIENTE",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Fondo o plataforma de capital de riesgo con foco en emprendimiento de impacto en Perú.",
+    "descripcion": "Colaborativo VC aparece en el mapa de actores del ecosistema peruano como actor de inversión; sitio oficial en colaborativo.vc.",
+    "fuentes": [
+      "https://colaborativo.vc/ — sitio web oficial"
+    ]
+  },
+  "pe-compartamos-financiera": {
+    "city": "Los Olivos, Lima",
+    "address": "PENDIENTE",
+    "website": "https://www.compartamos.com.pe",
+    "linkedin": "https://www.linkedin.com/company/compartamosbancoperu",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Entidad de microfinanzas que otorga crédito a MYPE y emprendedores, incluido segmento rural.",
+    "descripcion": "Compartamos Financiera (Compartamos Banco Perú) ofrece productos de microcrédito y servicios financieros a microempresarios y emprendedores en el Perú.",
+    "fuentes": [
+      "https://www.compartamos.com.pe — sitio institucional",
+      "https://www.linkedin.com/company/compartamosbancoperu — perfil LinkedIn"
+    ]
+  },
+  "pe-concytec-prociencia": {
+    "city": "San Borja, Lima",
+    "address": "Av. Benavides 298, San Borja, Lima",
+    "website": "https://prociencia.gob.pe",
+    "linkedin": "PENDIENTE",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Programa nacional de ciencia y tecnología (ProCiencia) bajo el ecosistema CONCYTEC para fondos de I+D e innovación.",
+    "descripcion": "ProCiencia es el programa de financiamiento de la ciencia, tecnología e innovación del Perú, administrado en el marco del CONCYTEC.",
+    "fuentes": [
+      "https://prociencia.gob.pe — portal oficial ProCiencia",
+      "https://www.gob.pe/concytec — CONCYTEC en plataforma del Estado"
+    ]
+  },
+  "pe-conservacion-amazonica-acca": {
+    "city": "Cusco",
+    "address": "PENDIENTE",
+    "website": "https://acca.org.pe",
+    "linkedin": "PENDIENTE",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "ONG de conservación amazónica: ciencia, monitoreo y alternativas económicas sostenibles al bosque.",
+    "descripcion": "La Asociación para la Conservación de la Cuenca Amazónica (ACCA) conserva y protege millones de hectáreas de los Andes amazónicos del sur del Perú mediante ciencia, tecnología y trabajo con comunidades y gobiernos.",
+    "fuentes": [
+      "https://acca.org.pe — descripción de misión y alcance territorial"
+    ]
+  },
+  "pe-conservacion-internacional": {
+    "city": "Lima (oficina país); sede global Arlington, Virginia",
+    "address": "PENDIENTE",
+    "website": "https://www.conservation.org",
+    "linkedin": "https://www.linkedin.com/company/conservation-international",
+    "founded": "1987",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Organización internacional de conservación de ecosistemas y biodiversidad con programas en Perú.",
+    "descripcion": "Conservation International trabaja desde 1987 para proteger océanos, bosques y otros ecosistemas y mejorar el bienestar humano mediante la conservación de la naturaleza.",
+    "fuentes": [
+      "https://www.conservation.org — información institucional y año de fundación",
+      "https://www.linkedin.com/company/conservation-international — perfil LinkedIn"
+    ]
+  },
+  "pe-conservamos-por-naturaleza": {
+    "city": "Lima",
+    "address": "PENDIENTE",
+    "website": "https://www.conservamospornaturaleza.org",
+    "linkedin": "https://www.linkedin.com/company/5043453",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Plataforma de comunicación y movilización ciudadana a favor de la conservación del patrimonio natural peruano.",
+    "descripcion": "Conservamos por Naturaleza inspira a vivir en armonía con la naturaleza y fortalece iniciativas ciudadanas que valoran el patrimonio natural del Perú.",
+    "fuentes": [
+      "https://www.conservamospornaturaleza.org — misión en sitio oficial",
+      "https://www.linkedin.com/company/conservamos-por-naturaleza — perfil LinkedIn"
+    ]
+  },
+  "pe-convergence-design-funding-grant": {
+    "city": "PENDIENTE (programa global)",
+    "address": "PENDIENTE",
+    "website": "https://www.convergence.finance/design-funding",
+    "linkedin": "https://www.linkedin.com/company/convergenceblendedfinance",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Mecanismo de financiamiento blended para diseñar estructuras que movilicen inversión comercial en mercados emergentes.",
+    "descripcion": "El programa Design Funding de Convergence ofrece subvenciones y apoyo de aceleración para diseñar soluciones de financiamiento blended que desbloqueen inversión comercial hacia el desarrollo sostenible.",
+    "fuentes": [
+      "https://www.convergence.finance/design-funding — descripción del programa",
+      "https://www.linkedin.com/company/convergenceblendedfinance — perfil LinkedIn Convergence"
+    ]
+  },
+  "pe-cooperacio-n-espan-ola-francesa-y-europea": {
+    "city": "Lima (cooperación en Perú)",
+    "address": "PENDIENTE",
+    "website": "https://www.cooperacionespanola.es",
+    "linkedin": "PENDIENTE",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Cooperación oficial española, francesa y europea con programas de desarrollo sostenible en Perú.",
+    "descripcion": "Entrada agregada del mapa que referencia la Cooperación Española y otros actores de cooperación europea con presencia y programas en el Perú.",
+    "fuentes": [
+      "https://www.cooperacionespanola.es — Cooperación Española",
+      "https://www.eeas.europa.eu/delegations/peru_es — Delegación de la UE en Perú"
+    ]
+  },
+  "pe-cooperacion-suiza-seco-cosude": {
+    "city": "Lima",
+    "address": "PENDIENTE",
+    "website": "https://www.eda.admin.ch/peru",
+    "linkedin": "PENDIENTE",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Cooperación suiza (SECO/COSUDE) en desarrollo económico, gobernanza y sostenibilidad en Perú.",
+    "descripcion": "La cooperación suiza al desarrollo en el Perú es coordinada por la Dirección de Cooperación al Desarrollo y Consular (DDC) de la Embajada de Suiza.",
+    "fuentes": [
+      "https://www.eda.admin.ch/peru — Cooperación suiza en Perú (portal federal)"
+    ]
+  },
+  "pe-corresponsables-proactivo": {
+    "city": "Lima",
+    "address": "PENDIENTE",
+    "website": "https://proactivo.com.pe",
+    "linkedin": "https://www.linkedin.com/company/revista-proactivo",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Medio especializado en seguridad, salud, medio ambiente y responsabilidad social empresarial.",
+    "descripcion": "Revista ProActivo es una publicación peruana enfocada en seguridad, salud ocupacional, medio ambiente y responsabilidad social en el sector empresarial.",
+    "fuentes": [
+      "https://proactivo.com.pe — descripción editorial",
+      "https://www.linkedin.com/company/revista-proactivo — perfil LinkedIn"
+    ]
+  },
+  "pe-coworking-municipal-de-jesus-maria": {
+    "city": "Jesús María, Lima",
+    "address": "PENDIENTE",
+    "website": "https://www.munijesusmaria.gob.pe",
+    "linkedin": "PENDIENTE",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Espacio municipal de coworking y emprendimiento de la Municipalidad de Jesús María.",
+    "descripcion": "El coworking municipal de Jesús María es un espacio promovido por la municipalidad para emprendedores y actividades de formación empresarial (referenciado en redes oficiales del municipio).",
+    "fuentes": [
+      "https://www.munijesusmaria.gob.pe — portal municipal Jesús María"
+    ]
+  },
+  "pe-danper": {
+    "city": "Olmos, Lambayeque",
+    "address": "PENDIENTE",
+    "website": "https://danper.com",
+    "linkedin": "https://www.linkedin.com/company/danperperu",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Agroexportadora peruana; demanda de innovación en agua, adaptación climática y cadena agrícola.",
+    "descripcion": "Danper es una empresa agroindustrial y exportadora peruana con operaciones en el norte del país, activa en cultivos y procesamiento para mercados internacionales.",
+    "fuentes": [
+      "https://danper.com — sitio corporativo",
+      "https://www.linkedin.com/company/danperperu — perfil LinkedIn"
+    ]
+  },
+  "pe-direccio-n-de-incubadora-de-empresas-de-la-unifs": {
+    "city": "Chachapoyas, Amazonas",
+    "address": "PENDIENTE",
+    "website": "https://www.gob.pe/unifslb",
+    "linkedin": "PENDIENTE",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Incubadora de empresas de la Universidad Nacional Intercultural Fabiola Salazar Leguía de Bagua (UNIFSLB).",
+    "descripcion": "La Dirección de Incubadora de Empresas de la UNIFSLB apoya el emprendimiento y la innovación en la región Amazonas desde la universidad intercultural.",
+    "fuentes": [
+      "https://www.gob.pe/unifslb — ficha institucional UNIFSLB en gob.pe"
+    ]
+  },
+  "pe-earth-innovation-institute": {
+    "city": "San Francisco, California (sede); programas en Perú/Amazonía",
+    "address": "PENDIENTE",
+    "website": "https://earthinnovation.org",
+    "linkedin": "https://www.linkedin.com/company/earth-innovation-institute",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Instituto de investigación aplicada para desarrollo sostenible y gobernanza forestal en regiones tropicales.",
+    "descripcion": "Earth Innovation Institute impulsa el desarrollo sostenible mediante ciencia y colaboración en regiones de bosques tropicales, incluidos programas en la Amazonía.",
+    "fuentes": [
+      "https://earthinnovation.org — misión institucional",
+      "https://www.linkedin.com/company/earth-innovation-institute — perfil LinkedIn"
+    ]
+  },
+  "pe-earthshot-ventures": {
+    "city": "PENDIENTE (fondo global)",
+    "address": "PENDIENTE",
+    "website": "https://www.earthshot.vc",
+    "linkedin": "https://www.linkedin.com/company/earthshot-ventures",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Fondo de venture capital orientado a fundadores y soluciones climáticas de alto impacto.",
+    "descripcion": "Earthshot Ventures invierte en fundadores excepcionales y empresas con potencial de impacto ambiental y climático.",
+    "fuentes": [
+      "https://www.earthshot.vc — sitio del fondo",
+      "https://www.linkedin.com/company/earthshot-ventures — perfil LinkedIn"
+    ]
+  },
+  "pe-ecoevol": {
+    "city": "Lima",
+    "address": "PENDIENTE",
+    "website": "https://ecoevol.com/",
+    "linkedin": "PENDIENTE",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Empresa de tecnología para eficiencia de combustible y reducción de emisiones en transporte.",
+    "descripcion": "EcoEvol ofrece soluciones que pueden reducir el consumo de combustible y las emisiones de gases contaminantes en vehículos.",
+    "fuentes": [
+      "https://ecoevol.com/ — descripción de producto en sitio oficial"
+    ]
+  },
+  "pe-ecoproa": {
+    "city": "Lima",
+    "address": "PENDIENTE",
+    "website": "https://ecoproa.com/",
+    "linkedin": "PENDIENTE",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Empresa de soluciones postcosecha (Ecowax) para frutas de exportación.",
+    "descripcion": "EcoProa comercializa soluciones postcosecha Ecowax que extienden la vida útil y mejoran la apariencia de frutas frescas para exportación.",
+    "fuentes": [
+      "https://ecoproa.com/ — sitio corporativo"
+    ]
+  },
+  "pe-elea": {
+    "city": "Zurich, Suiza (sede)",
+    "address": "PENDIENTE",
+    "website": "https://www.elea.org",
+    "linkedin": "https://www.linkedin.com/company/eleafoundation",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Inversor de impacto filantrópico que combate la pobreza extrema con enfoque empresarial.",
+    "descripcion": "elea es una fundación e inversora de impacto filantrópico que combate la pobreza absoluta mediante inversiones y apoyo empresarial en mercados emergentes.",
+    "fuentes": [
+      "https://www.elea.org — descripción institucional",
+      "https://www.linkedin.com/company/eleafoundation — perfil LinkedIn"
+    ]
+  },
+  "pe-embajada-de-suiza": {
+    "city": "San Isidro, Lima",
+    "address": "Av. Salaverry 3240, San Isidro, Lima",
+    "website": "https://www.eda.admin.ch/lima",
+    "linkedin": "PENDIENTE",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Representación diplomática y de cooperación al desarrollo de Suiza en el Perú.",
+    "descripcion": "La Embajada de Suiza en Lima representa los intereses de Suiza y coordina la cooperación al desarrollo bilateral con el Perú.",
+    "fuentes": [
+      "https://www.eda.admin.ch/lima — Embajada de Suiza en Lima"
+    ]
+  },
+  "pe-emprende-udh-huanuco": {
+    "city": "Huánuco",
+    "address": "PENDIENTE",
+    "website": "https://www.udh.edu.pe",
+    "linkedin": "PENDIENTE",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Programa o unidad de emprendimiento de la Universidad de Huánuco (UDH).",
+    "descripcion": "Emprende UDH es la iniciativa de emprendimiento vinculada a la Universidad de Huánuco, institución licenciada por SUNEDU.",
+    "fuentes": [
+      "https://www.udh.edu.pe — portal universitario UDH"
+    ]
+  },
+  "pe-emprende-up-climatech-rein-hub-peru": {
+    "city": "Lima",
+    "address": "PENDIENTE",
+    "website": "https://emprendeup.pe/climatech/",
+    "linkedin": "PENDIENTE",
+    "founded": "2025",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Centro ClimaTech de Emprende UP (Universidad del Pacífico); sede del REIN Hub Perú con CleantechHUB.",
+    "descripcion": "ClimaTech es la plataforma de emprendimiento climático de Emprende UP que articula actores del ecosistema y alberga el REIN Hub Perú.",
+    "fuentes": [
+      "https://emprendeup.pe/climatech/ — portal ClimaTech Emprende UP"
+    ]
+  },
+  "pe-emprendimientos-dina-micos-cambio-clima-tico-1g": {
+    "city": "Lima",
+    "address": "PENDIENTE",
+    "website": "https://cambioclimatico.proinnovate.gob.pe",
+    "linkedin": "PENDIENTE",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Convocatoria o programa de emprendimientos dinámicos en cambio climático (ProInnóvate / MINAM).",
+    "descripcion": "Programa público de emprendimientos dinámicos en cambio climático documentado en el portal de cambio climático de ProInnóvate.",
+    "fuentes": [
+      "https://cambioclimatico.proinnovate.gob.pe — portal ProInnóvate cambio climático"
+    ]
+  },
+  "pe-endeavor-peru": {
+    "city": "Lima",
+    "address": "PENDIENTE",
+    "website": "https://endeavor.org.pe",
+    "linkedin": "https://www.linkedin.com/company/endeavor-per",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Aceleradora global de emprendedores de alto impacto con oficina en Perú.",
+    "descripcion": "Endeavor Perú selecciona y acompaña emprendedores de alto impacto para escalar empresas; forma parte de la red global Endeavor.",
+    "fuentes": [
+      "https://endeavor.org.pe — información de Endeavor en Perú",
+      "https://www.linkedin.com/company/endeavor-per — perfil LinkedIn Endeavor Perú"
+    ]
+  },
+  "pe-enel-peru-pluz": {
+    "city": "Lima",
+    "address": "PENDIENTE",
+    "website": "https://www.pluz.pe",
+    "linkedin": "https://www.linkedin.com/company/pluz-peru",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Marca de soluciones energéticas residenciales de Enel Perú (Pluz).",
+    "descripcion": "Pluz es la propuesta de Enel Perú orientada a soluciones energéticas para hogares y clientes residenciales en el mercado peruano.",
+    "fuentes": [
+      "https://www.pluz.pe — sitio Pluz Perú",
+      "https://www.linkedin.com/company/pluz-peru — perfil LinkedIn"
+    ]
+  },
+  "pe-engie-energia-peru": {
+    "city": "Lima",
+    "address": "PENDIENTE",
+    "website": "https://engie-energia.pe",
+    "linkedin": "https://www.linkedin.com/company/engieperu",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Generación y comercialización de energía; desarrollo de proyectos renovables en Perú.",
+    "descripcion": "ENGIE Energía Perú es la filial del grupo ENGIE dedicada a generación y suministro de energía eléctrica en el Perú.",
+    "fuentes": [
+      "https://engie-energia.pe — sitio corporativo",
+      "https://www.linkedin.com/company/engieperu — perfil LinkedIn"
+    ]
+  },
+  "pe-estados-miembros-de-la-ue": {
+    "city": "Lima (Delegación de la UE)",
+    "address": "PENDIENTE",
+    "website": "https://www.eeas.europa.eu/delegations/peru_es",
+    "linkedin": "PENDIENTE",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Cooperación y relación institucional de la Unión Europea y sus Estados miembros con el Perú.",
+    "descripcion": "La Delegación de la Unión Europea en el Perú representa a la UE y coordina la cooperación con el país y los Estados miembros.",
+    "fuentes": [
+      "https://www.eeas.europa.eu/delegations/peru_es — Delegación de la UE en Perú"
+    ]
+  },
+  "pe-fao": {
+    "city": "Miraflores, Lima (oficina país)",
+    "address": "PENDIENTE",
+    "website": "https://www.fao.org/americas/paises/peru/es/",
+    "linkedin": "PENDIENTE",
+    "founded": "1945",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Agencia especializada de la ONU para alimentación, agricultura y seguridad alimentaria en Perú.",
+    "descripcion": "La FAO apoya al Perú en políticas y proyectos de agricultura sostenible, seguridad alimentaria y desarrollo rural.",
+    "fuentes": [
+      "https://www.fao.org — Organización de las Naciones Unidas para la Alimentación y la Agricultura",
+      "https://www.fao.org/americas/paises/peru/es/ — FAO en Perú"
+    ]
+  },
+  "pe-fenix-consulting": {
+    "city": "Lima",
+    "address": "PENDIENTE",
+    "website": "https://www.fenixconsulting.com.pe",
+    "linkedin": "PENDIENTE",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Consultora peruana de negocios y sostenibilidad en el ecosistema empresarial.",
+    "descripcion": "Fenix Consulting aparece en el mapa de actores como consultora aliada del ecosistema de innovación y sostenibilidad en Perú.",
+    "fuentes": [
+      "Mapa de actores CTH — `static/ecosystem/data/actors.json` (dominio www.fenixconsulting.com.pe)"
+    ]
+  },
+  "pe-fepcmac-federacion-de-cajas-municipales": {
+    "city": "Tacabamba, Cajamarca (sede FEPCMAC)",
+    "address": "PENDIENTE",
+    "website": "https://www.fpcmac.org.pe",
+    "linkedin": "PENDIENTE",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Federación de cajas municipales de ahorro y crédito; articulación para finanzas verdes.",
+    "descripcion": "FEPCMAC (Federación Peruana de Cajas Municipales de Ahorro y Crédito) agrupa a las cajas municipales del Perú.",
+    "fuentes": [
+      "https://www.fpcmac.org.pe — portal FEPCMAC"
+    ]
+  },
+  "pe-financiera-confianza": {
+    "city": "Ate, Lima",
+    "address": "PENDIENTE",
+    "website": "https://confianza.pe",
+    "linkedin": "https://www.linkedin.com/company/financiera-confianza-fmbbva",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Entidad de microfinanzas (Finanzas Productivas) vinculada al ecosistema de inclusión financiera.",
+    "descripcion": "Financiera Confianza es una entidad líder del sector microfinanciero peruano que impulsa el desarrollo económico y social mediante crédito productivo.",
+    "fuentes": [
+      "https://confianza.pe — sitio institucional",
+      "https://www.linkedin.com/company/financiera-confianza-fmbbva — perfil LinkedIn"
+    ]
+  },
+  "pe-forest-stewardship-council": {
+    "city": "Lima",
+    "address": "PENDIENTE",
+    "website": "https://pe.fsc.org/pe-es",
+    "linkedin": "PENDIENTE",
+    "founded": "1993",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Certificación y estándares de manejo forestal responsable (FSC) en Perú.",
+    "descripcion": "FSC Perú promueve el manejo forestal responsable mediante certificación y estándares reconocidos internacionalmente.",
+    "fuentes": [
+      "https://pe.fsc.org/pe-es — FSC Perú",
+      "https://fsc.org/en — Forest Stewardship Council (sede global, fundación 1993)"
+    ]
+  },
+  "pe-forest-trends": {
+    "city": "Washington, D.C. (sede global)",
+    "address": "PENDIENTE",
+    "website": "https://www.forest-trends.org",
+    "linkedin": "https://www.linkedin.com/company/forest-trends-association",
+    "founded": "1998",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Organización internacional que impulsa finanzas e instrumentos de mercado para la conservación.",
+    "descripcion": "Forest Trends trabaja en finanzas innovadoras y políticas de mercado para conservar ecosistemas forestales y de agua.",
+    "fuentes": [
+      "https://www.forest-trends.org — misión institucional",
+      "https://www.linkedin.com/company/forest-trends-association — perfil LinkedIn"
+    ]
+  },
+  "pe-fronterra": {
+    "city": "Lima",
+    "address": "PENDIENTE",
+    "website": "https://fronterra.eco",
+    "linkedin": "PENDIENTE",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Empresa o iniciativa de economía circular y sostenibilidad en el ecosistema peruano.",
+    "descripcion": "Fronterra opera en el espacio de soluciones ambientales y economía circular con presencia en el ecosistema de actores climáticos del Perú.",
+    "fuentes": [
+      "https://fronterra.eco — sitio web oficial"
+    ]
+  },
+  "pe-fundacion-anglo-american": {
+    "city": "Lima (programas en Perú vía filiales mineras)",
+    "address": "PENDIENTE",
+    "website": "https://peru.angloamerican.com/es/sustainability/community",
+    "linkedin": "PENDIENTE",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Filantropía corporativa de Anglo American con programas comunitarios y de desarrollo en Perú.",
+    "descripcion": "La fundación y programas sociales de Anglo American en Perú apoyan desarrollo comunitario vinculado a operaciones mineras de la compañía.",
+    "fuentes": [
+      "https://peru.angloamerican.com/es/sustainability/community — sostenibilidad y comunidad Anglo American Perú"
+    ]
+  },
+  "pe-fundacion-avina": {
+    "city": "Montevideo, Uruguay (sede regional); programas en Perú",
+    "address": "PENDIENTE",
+    "website": "https://www.avina.net",
+    "linkedin": "PENDIENTE",
+    "founded": "1994",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Fundación internacional que moviliza alianzas para sostenibilidad y cambio sistémico en América Latina.",
+    "descripcion": "Fundación Avina impulsa iniciativas colaborativas de impacto social y ambiental en América Latina desde su fundación en 1994.",
+    "fuentes": [
+      "https://www.avina.net — sitio institucional Avina"
+    ]
+  },
+  "pe-fundacion-bbva-microfinanzas": {
+    "city": "Madrid, España (sede fundación)",
+    "address": "PENDIENTE",
+    "website": "https://www.fundacionmicrofinanzasbbva.org",
+    "linkedin": "https://www.linkedin.com/company/fundacion-microfinanzas-bbva",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Iniciativa filantrópica del Grupo BBVA para microfinanzas e inclusión financiera en América Latina.",
+    "descripcion": "La Fundación Microfinanzas BBVA promueve el acceso a servicios financieros para poblaciones vulnerables en América Latina.",
+    "fuentes": [
+      "https://www.fundacionmicrofinanzasbbva.org — portal oficial",
+      "https://www.linkedin.com/company/fundaci%C3%B3n-microfinanzas-bbva — perfil LinkedIn"
+    ]
+  },
+  "pe-fundacion-belcorp": {
+    "city": "Lima",
+    "address": "PENDIENTE",
+    "website": "https://www.belcorp.com/fundacionbelcorp",
+    "linkedin": "PENDIENTE",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Filantropía corporativa de Belcorp enfocada en empoderamiento femenino y sostenibilidad.",
+    "descripcion": "Fundación Belcorp desarrolla programas de empoderamiento femenino, sostenibilidad e impacto social en América Latina.",
+    "fuentes": [
+      "https://www.belcorp.com/fundacionbelcorp — portal Fundación Belcorp"
+    ]
+  },
+  "pe-fundacion-wiese": {
+    "city": "Lima",
+    "address": "PENDIENTE",
+    "website": "https://www.fundacionwiese.org",
+    "linkedin": "https://www.linkedin.com/company/fundacionwiese",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Fundación peruana de educación, patrimonio y emprendimiento con impacto comunitario.",
+    "descripcion": "Fundación Wiese impulsa proyectos de educación, emprendimiento y desarrollo sostenible que generan oportunidades en comunidades del Perú.",
+    "fuentes": [
+      "https://www.fundacionwiese.org — sitio institucional",
+      "https://www.linkedin.com/company/fundacionwiese — perfil LinkedIn"
+    ]
+  },
+  "pe-fundes": {
+    "city": "Lima",
+    "address": "PENDIENTE",
+    "website": "https://fundes.org",
+    "linkedin": "https://www.linkedin.com/company/fundes",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Consultoría de impacto y desarrollo de negocios inclusivos en América Latina.",
+    "descripcion": "FUNDES es una consultoría de impacto que acompaña a empresas y emprendedores en modelos de negocio inclusivos y sostenibles.",
+    "fuentes": [
+      "https://fundes.org — sitio FUNDES",
+      "https://www.linkedin.com/company/fundes — perfil LinkedIn"
+    ]
+  },
+  "pe-gestion": {
+    "city": "San Isidro, Lima",
+    "address": "PENDIENTE",
+    "website": "https://gestion.pe",
+    "linkedin": "PENDIENTE",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Medio de comunicación económico y empresarial de referencia en Perú.",
+    "descripcion": "Gestión es un diario peruano especializado en economía, finanzas y negocios.",
+    "fuentes": [
+      "https://gestion.pe — portal Gestión"
+    ]
+  },
+  "pe-gggi": {
+    "city": "Seúl, República de Corea (sede); programas en Perú",
+    "address": "PENDIENTE",
+    "website": "https://gggi.org",
+    "linkedin": "https://www.linkedin.com/company/global-green-growth-institute",
+    "founded": "2012",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Instituto intergubernamental de crecimiento verde y transición climática.",
+    "descripcion": "El Global Green Growth Institute (GGGI) apoya a gobiernos en planificación de crecimiento verde y resiliencia climática.",
+    "fuentes": [
+      "https://gggi.org — sitio GGGI",
+      "https://www.linkedin.com/company/global-green-growth-institute — perfil LinkedIn"
+    ]
+  },
+  "pe-giz": {
+    "city": "Eschborn / Bonn, Alemania (sede); Lima (oficina país)",
+    "address": "PENDIENTE",
+    "website": "https://www.giz.de",
+    "linkedin": "https://www.linkedin.com/company/gizgmbh",
+    "founded": "2011",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Cooperación técnica alemana para desarrollo sostenible en Perú.",
+    "descripcion": "La Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH implementa proyectos de cooperación al desarrollo en el Perú y a nivel global.",
+    "fuentes": [
+      "https://www.giz.de — portal GIZ",
+      "https://www.linkedin.com/company/gizgmbh — perfil LinkedIn"
+    ]
+  },
+  "pe-gobierno-regional-de-amazonas": {
+    "city": "Chachapoyas, Amazonas",
+    "address": "PENDIENTE",
+    "website": "https://www.gob.pe/regionamazonas",
+    "linkedin": "PENDIENTE",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Gobierno subnacional amazónico: políticas territoriales, bosques y bionegocios.",
+    "descripcion": "El Gobierno Regional de Amazonas administra políticas de desarrollo regional, gestión forestal y promoción de bionegocios en su jurisdicción.",
+    "fuentes": [
+      "https://www.gob.pe/regionamazonas — portal oficial Gobierno Regional Amazonas"
+    ]
+  },
+  "pe-gobierno-regional-de-loreto": {
+    "city": "Iquitos, Loreto",
+    "address": "PENDIENTE",
+    "website": "https://www.gob.pe/regionloreto",
+    "linkedin": "PENDIENTE",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Gobierno regional de la Amazonía peruana (Loreto): ordenamiento y desarrollo sostenible.",
+    "descripcion": "El Gobierno Regional de Loreto es la autoridad subnacional de la región con mayor extensión amazónica del Perú.",
+    "fuentes": [
+      "https://www.gob.pe/regionloreto — portal oficial Gobierno Regional Loreto"
+    ]
+  },
+  "pe-gobierno-regional-de-madre-de-dios": {
+    "city": "Puerto Maldonado, Madre de Dios",
+    "address": "PENDIENTE",
+    "website": "https://www.gob.pe/regionmadrededios",
+    "linkedin": "PENDIENTE",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Gobierno regional amazónico con foco en conservación y economía de bosque.",
+    "descripcion": "El Gobierno Regional de Madre de Dios gestiona políticas de desarrollo y conservación en la región de mayor biodiversidad del Perú.",
+    "fuentes": [
+      "https://www.gob.pe/regionmadrededios — portal oficial"
+    ]
+  },
+  "pe-gobierno-regional-de-san-martin": {
+    "city": "Moyobamba, San Martín",
+    "address": "PENDIENTE",
+    "website": "https://www.gob.pe/regionsanmartin",
+    "linkedin": "PENDIENTE",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Gobierno regional amazónico y de selva alta con programas de zonificación y bionegocios.",
+    "descripcion": "El Gobierno Regional de San Martín impulsa el desarrollo regional y la gestión sostenible del territorio amazónico andino.",
+    "fuentes": [
+      "https://www.gob.pe/regionsanmartin — portal oficial"
+    ]
+  },
+  "pe-gobierno-regional-de-ucayali": {
+    "city": "Pucallpa, Ucayali",
+    "address": "PENDIENTE",
+    "website": "https://www.gob.pe/regionucayali",
+    "linkedin": "PENDIENTE",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Gobierno regional amazónico con competencias en ordenamiento territorial y economía forestal.",
+    "descripcion": "El Gobierno Regional de Ucayali administra el desarrollo económico y ambiental de la región amazónica de Ucayali.",
+    "fuentes": [
+      "https://www.gob.pe/regionucayali — portal oficial"
+    ]
+  },
+  "pe-gobierno-regional-y-municipalidad-de-cusco": {
+    "city": "Cusco",
+    "address": "PENDIENTE",
+    "website": "https://www.gob.pe/regioncusco",
+    "linkedin": "PENDIENTE",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Gobierno regional de Cusco y articulación con municipalidades en desarrollo territorial.",
+    "descripcion": "El Gobierno Regional de Cusco es la autoridad subnacional de la región Cusco en la plataforma del Estado peruano.",
+    "fuentes": [
+      "https://www.gob.pe/regioncusco — portal Gobierno Regional Cusco"
+    ]
+  },
+  "pe-gold-fields": {
+    "city": "Johannesburg, Sudáfrica (sede); operaciones en Perú",
+    "address": "PENDIENTE",
+    "website": "https://www.goldfields.com",
+    "linkedin": "PENDIENTE",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Compañía minera internacional con operaciones auríferas en el Perú.",
+    "descripcion": "Gold Fields Limited es una productora internacional de oro con activos mineros en varios países, incluido el Perú.",
+    "fuentes": [
+      "https://www.goldfields.com — sitio corporativo Gold Fields"
+    ]
+  },
+  "pe-grade-grupo-de-analisis-para-el-desarrollo": {
+    "city": "Barranco, Lima",
+    "address": "Calle González Prada 184, Barranco, Lima",
+    "website": "https://grade.org.pe",
+    "linkedin": "https://www.linkedin.com/company/grade-peru",
+    "founded": "1987",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Centro de investigación aplicada en economía, políticas públicas y desarrollo.",
+    "descripcion": "GRADE (Grupo de Análisis para el Desarrollo) produce investigación y análisis de políticas para el desarrollo en el Perú y la región.",
+    "fuentes": [
+      "https://grade.org.pe — sitio GRADE",
+      "https://www.linkedin.com/company/grade-peru — perfil LinkedIn GRADE"
+    ]
+  },
+  "pe-green-gold-forestry": {
+    "city": "Lima",
+    "address": "PENDIENTE",
+    "website": "https://www.ggfgroup.pe",
+    "linkedin": "PENDIENTE",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Empresa forestal y de restauración con operaciones en el Perú.",
+    "descripcion": "Green Gold Forestry Group desarrolla proyectos forestales y de restauración en el Perú (sitio corporativo ggfgroup.pe).",
+    "fuentes": [
+      "https://www.ggfgroup.pe — sitio corporativo"
+    ]
+  },
+  "pe-grio-grupo-romero": {
+    "city": "Lima",
+    "address": "PENDIENTE",
+    "website": "https://www.gruporomero.com.pe",
+    "linkedin": "PENDIENTE",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Holding empresarial peruano (Grupo Romero) con diversas líneas de negocio.",
+    "descripcion": "Grupo Romero es un conglomerado empresarial peruano con presencia en múltiples sectores de la economía nacional.",
+    "fuentes": [
+      "https://www.gruporomero.com.pe — portal corporativo"
+    ]
+  },
+  "pe-haskoningshv": {
+    "city": "Nieuwegein, Países Bajos (sede); proyectos en Perú",
+    "address": "PENDIENTE",
+    "website": "https://www.haskoning.com",
+    "linkedin": "https://www.linkedin.com/company/haskoning",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Consultora de ingeniería y medio ambiente para infraestructura sostenible.",
+    "descripcion": "Haskoning es una consultora internacional de ingeniería para el entorno natural y construido, con enfoque en sostenibilidad.",
+    "fuentes": [
+      "https://www.haskoning.com — sitio corporativo",
+      "https://www.linkedin.com/company/haskoning — perfil LinkedIn"
+    ]
+  },
+  "pe-helvetas": {
+    "city": "Lima",
+    "address": "PENDIENTE",
+    "website": "https://www.helvetas.org/es/peru",
+    "linkedin": "PENDIENTE",
+    "founded": "1955",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "ONG suiza de desarrollo con programas de agua, clima y economía rural en Perú.",
+    "descripcion": "Helvetas Perú implementa proyectos de desarrollo en agua, agricultura, clima y gobernanza como parte de la red Helvetas.",
+    "fuentes": [
+      "https://www.helvetas.org/es/peru — Helvetas Perú",
+      "https://www.helvetas.org — Helvetas (fundada 1955)"
+    ]
+  },
+  "pe-https-aspem-org-en": {
+    "display_name": "ASPEm (Associazione Solidarietà Paesi Emergenti)",
+    "city": "Milán, Italia (sede)",
+    "address": "PENDIENTE",
+    "website": "https://aspem.org/en/",
+    "linkedin": "PENDIENTE",
+    "founded": "1979",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "ONG italiana de cooperación internacional y solidaridad con países emergentes.",
+    "descripcion": "ASPEm promueve cooperación internacional, movilidad juvenil, voluntariado y educación para la ciudadanía global desde 1979.",
+    "fuentes": [
+      "https://aspem.org/en/ — sitio ASPEm"
+    ]
+  },
+  "pe-https-circulareconomy-europa-eu-platform-en": {
+    "display_name": "European Circular Economy Stakeholder Platform",
+    "city": "Bruselas, Bélgica (iniciativa UE)",
+    "address": "PENDIENTE",
+    "website": "https://circulareconomy.europa.eu/platform/en",
+    "linkedin": "PENDIENTE",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Plataforma de la Comisión Europea y CESE para economía circular.",
+    "descripcion": "La European Circular Economy Stakeholder Platform es una iniciativa conjunta de la Comisión Europea y el Comité Económico y Social Europeo.",
+    "fuentes": [
+      "https://circulareconomy.europa.eu/platform/en — plataforma oficial"
+    ]
+  },
+  "pe-https-elcomercio-pe": {
+    "display_name": "El Comercio",
+    "city": "Lima",
+    "address": "PENDIENTE",
+    "website": "https://elcomercio.pe",
+    "linkedin": "PENDIENTE",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Medio de comunicación peruano de alcance nacional.",
+    "descripcion": "El Comercio es uno de los principales diarios y portales de noticias del Perú.",
+    "fuentes": [
+      "https://elcomercio.pe — portal de noticias"
+    ]
+  },
+  "pe-https-elperuano-pe": {
+    "display_name": "El Peruano (Diario Oficial)",
+    "city": "Lima",
+    "address": "PENDIENTE",
+    "website": "https://elperuano.pe",
+    "linkedin": "PENDIENTE",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Diario Oficial de la República y medio estatal de publicación normativa.",
+    "descripcion": "El Peruano publica normas legales, avisos oficiales y noticias de interés público como diario oficial del Estado peruano.",
+    "fuentes": [
+      "https://elperuano.pe — portal El Peruano"
+    ]
+  },
+  "pe-https-fsc-org-en": {
+    "display_name": "Forest Stewardship Council (FSC)",
+    "city": "Bonn, Alemania (sede global)",
+    "address": "PENDIENTE",
+    "website": "https://fsc.org/en",
+    "linkedin": "PENDIENTE",
+    "founded": "1993",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Organización internacional de certificación forestal responsable.",
+    "descripcion": "FSC une a actores de la cadena forestal bajo estándares de manejo forestal responsable a nivel mundial.",
+    "fuentes": [
+      "https://fsc.org/en — Forest Stewardship Council"
+    ]
+  },
+  "pe-https-latinamerica-hss-de": {
+    "display_name": "HSS Latin America (Heinrich Schmid Stiftung)",
+    "city": "Fráncfort del Meno, Alemania (sede fundación)",
+    "address": "PENDIENTE",
+    "website": "https://latinamerica.hss.de",
+    "linkedin": "PENDIENTE",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Fundación alemana con programas en América Latina.",
+    "descripcion": "El sitio latinamerica.hss.de documenta el trabajo de la fundación Heinrich Schmid en la región latinoamericana.",
+    "fuentes": [
+      "https://latinamerica.hss.de — portal regional HSS"
+    ]
+  },
+  "pe-https-reap-mit-edu": {
+    "display_name": "MIT REAP",
+    "city": "Cambridge, Massachusetts (MIT)",
+    "address": "PENDIENTE",
+    "website": "https://reap.mit.edu",
+    "linkedin": "https://www.linkedin.com/company/mit-regional-entrepreneurship-acceleration-program",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Programa global del MIT para fortalecer ecosistemas regionales de emprendimiento innovador.",
+    "descripcion": "MIT REAP trabaja con regiones del mundo para acelerar ecosistemas emprendedores basados en innovación.",
+    "fuentes": [
+      "https://reap.mit.edu — MIT REAP",
+      "https://www.linkedin.com/company/mit-regional-entrepreneurship-acceleration-program — LinkedIn"
+    ]
+  },
+  "pe-https-www-ccipf-com-es-html": {
+    "display_name": "Cámara de Comercio Italiana del Perú",
+    "city": "Lima",
+    "address": "PENDIENTE",
+    "website": "https://www.cciperu.it",
+    "linkedin": "https://www.linkedin.com/company/camara-de-comercio-italiana-del-peru",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Cámara binacional que promueve comercio e inversión Italia–Perú.",
+    "descripcion": "La Cámara de Comercio Italiana del Perú facilita relaciones comerciales y networking entre empresas italianas y peruanas.",
+    "fuentes": [
+      "https://www.cciperu.it — sitio oficial",
+      "https://www.linkedin.com/company/camara-de-comercio-italiana-del-peru — perfil LinkedIn"
+    ]
+  },
+  "pe-https-www-climatepolicyinitiative-org": {
+    "display_name": "Climate Policy Initiative",
+    "city": "San Francisco, California (sede)",
+    "address": "PENDIENTE",
+    "website": "https://www.climatepolicyinitiative.org",
+    "linkedin": "https://www.linkedin.com/company/climate-policy-initiative",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Think tank global en finanzas climáticas y análisis de políticas.",
+    "descripcion": "Climate Policy Initiative asesora a gobiernos, empresas e instituciones financieras para alinear crecimiento económico y acción climática.",
+    "fuentes": [
+      "https://www.climatepolicyinitiative.org — sitio CPI",
+      "https://www.linkedin.com/company/climate-policy-initiative — perfil LinkedIn"
+    ]
+  },
+  "pe-https-www-coeeci-org-pe": {
+    "display_name": "COEECI",
+    "city": "Lima",
+    "address": "PENDIENTE",
+    "website": "https://www.coeeci.org.pe",
+    "linkedin": "https://www.linkedin.com/company/coeeci",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Organización empresarial o gremial del ecosistema peruano (COEECI).",
+    "descripcion": "COEECI es una institución referenciada en el mapa de actores con presencia institucional en coeeci.org.pe.",
+    "fuentes": [
+      "https://www.coeeci.org.pe — portal COEECI",
+      "https://www.linkedin.com/company/coeeci — perfil LinkedIn"
+    ]
+  },
+  "pe-https-www-deginvest-de": {
+    "display_name": "DEG (KfW Group)",
+    "city": "Colonia, Alemania",
+    "address": "PENDIENTE",
+    "website": "https://www.deginvest.de",
+    "linkedin": "https://www.linkedin.com/company/deg",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Institución de financiamiento del desarrollo para inversión privada en economías emergentes.",
+    "descripcion": "DEG financia y acompaña empresas que invierten en países en desarrollo y emergentes, con foco en impacto y clima.",
+    "fuentes": [
+      "https://www.deginvest.de — sitio DEG",
+      "https://www.linkedin.com/company/deg — perfil LinkedIn"
+    ]
+  },
+  "pe-https-www-expertisefrance-fr-es-areas-de-trabajo": {
+    "display_name": "Expertise France / cooperación francesa",
+    "city": "París, Francia (sede)",
+    "address": "PENDIENTE",
+    "website": "https://www.expertisefrance.fr",
+    "linkedin": "PENDIENTE",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Agencia francesa de cooperación técnica internacional.",
+    "descripcion": "Expertise France implementa la cooperación técnica de Francia en desarrollo, clima y gobernanza en múltiples países.",
+    "fuentes": [
+      "https://www.expertisefrance.fr — portal Expertise France"
+    ]
+  },
+  "pe-https-www-fundacionbbva-mx": {
+    "display_name": "Fundación BBVA México",
+    "city": "Ciudad de México",
+    "address": "PENDIENTE",
+    "website": "https://www.fundacionbbva.mx",
+    "linkedin": "PENDIENTE",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Filantropía del Grupo BBVA en México con programas de educación e inclusión.",
+    "descripcion": "Fundación BBVA México desarrolla programas filantrópicos en educación, inclusión y desarrollo social.",
+    "fuentes": [
+      "https://www.fundacionbbva.mx — sitio oficial"
+    ]
+  },
+  "pe-https-www-iadb-org-en": {
+    "display_name": "IDB Invest",
+    "city": "Washington, D.C.",
+    "address": "PENDIENTE",
+    "website": "https://www.idbinvest.org",
+    "linkedin": "PENDIENTE",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Brazo del Grupo BID para financiamiento al sector privado en América Latina y el Caribe.",
+    "descripcion": "IDB Invest financia empresas y proyectos sostenibles para maximizar desarrollo económico, social y ambiental en la región.",
+    "fuentes": [
+      "https://www.idbinvest.org — sitio IDB Invest"
+    ]
+  },
+  "pe-https-www-international-gc-ca-country-pays-peru": {
+    "display_name": "Embajada de Canadá en el Perú",
+    "city": "Lima",
+    "address": "PENDIENTE",
+    "website": "https://www.international.gc.ca/country-pays/peru-perou/lima.aspx?lang=esp",
+    "linkedin": "PENDIENTE",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Representación diplomática de Canadá y cooperación bilateral con el Perú.",
+    "descripcion": "La Embajada de Canadá en Lima representa al gobierno de Canadá y gestiona relaciones bilaterales y programas de cooperación.",
+    "fuentes": [
+      "https://www.international.gc.ca/country-pays/peru-perou/lima.aspx?lang=esp — Embajada de Canadá en Lima"
+    ]
+  },
+  "pe-https-www-intracen-org": {
+    "display_name": "ITC (International Trade Centre)",
+    "city": "Ginebra, Suiza",
+    "address": "PENDIENTE",
+    "website": "https://www.intracen.org",
+    "linkedin": "PENDIENTE",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Agencia conjunta ONU/OMC para el comercio internacional y apoyo a PYME exportadoras.",
+    "descripcion": "El Centro de Comercio Internacional (ITC) acompaña a pequeñas y medianas empresas en comercio sostenible e inclusivo.",
+    "fuentes": [
+      "https://www.intracen.org — sitio ITC"
+    ]
+  },
+  "pe-https-www-norway-no-es-peru": {
+    "display_name": "Embajada de Noruega en el Perú",
+    "city": "Lima",
+    "address": "PENDIENTE",
+    "website": "https://www.norway.no/es/peru/",
+    "linkedin": "PENDIENTE",
+    "founded": "PENDIENTE",
+    "nexus": "PENDIENTE",
+    "rol_ecosistema": "Representación diplomática y cooperación de Noruega en el Perú.",
+    "descripcion": "La sección «Noruega en Perú» del portal oficial describe la embajada y la cooperación bilateral.",
+    "fuentes": [
+      "https://www.norway.no/es/peru/ — Noruega en Perú"
+    ]
+  }
+}

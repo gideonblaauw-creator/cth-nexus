@@ -8,7 +8,7 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
-# https://fsc.org/en
+# Forest Stewardship Council (FSC)
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
 
@@ -19,16 +19,20 @@ tag_country: Peru
 | Categoría | corporate |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | Bonn, Alemania (sede global) |
+| Dirección | PENDIENTE |
 | Sitio web | https://fsc.org/en |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| Rol en el ecosistema | Organización internacional de certificación forestal responsable. |
+| Año de fundación | 1993 |
 | Desafíos (códigos) | AZU, BOS |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+FSC une a actores de la cadena forestal bajo estándares de manejo forestal responsable a nivel mundial.
+
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://fsc.org/en — Forest Stewardship Council

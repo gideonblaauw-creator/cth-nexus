@@ -20,15 +20,19 @@ tag_country: Peru
 | Tipo | org |
 | País | Peru |
 | Ciudad | Lima |
+| Dirección | PENDIENTE |
 | Sitio web | https://www.pluz.pe |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| LinkedIn | https://www.linkedin.com/company/pluz-peru |
+| Rol en el ecosistema | Marca de soluciones energéticas residenciales de Enel Perú (Pluz). |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AGR, AGU |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Pluz es la propuesta de Enel Perú orientada a soluciones energéticas para hogares y clientes residenciales en el mercado peruano.
+
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +44,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.pluz.pe — sitio Pluz Perú
+- https://www.linkedin.com/company/pluz-peru — perfil LinkedIn

@@ -1,0 +1,24 @@
+{
+  "batch": "W2",
+  "actors": 75,
+  "filled": {
+    "website": 75,
+    "city": 75,
+    "address": 4,
+    "description": 75,
+    "rol_ecosistema": 75,
+    "founded": 14,
+    "linkedin": 29,
+    "nexus": 0
+  },
+  "pendiente": {
+    "website": 0,
+    "city": 0,
+    "address": 71,
+    "description": 0,
+    "rol_ecosistema": 0,
+    "founded": 61,
+    "linkedin": 46,
+    "nexus": 75
+  }
+}

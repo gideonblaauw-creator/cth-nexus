@@ -19,16 +19,20 @@ tag_country: Peru
 | Categoría | corporate |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
-| Sitio web | https://www.elea.org/en/home-en |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| Ciudad | Zurich, Suiza (sede) |
+| Dirección | PENDIENTE |
+| Sitio web | https://www.elea.org |
+| LinkedIn | https://www.linkedin.com/company/eleafoundation |
+| Rol en el ecosistema | Inversor de impacto filantrópico que combate la pobreza extrema con enfoque empresarial. |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+elea es una fundación e inversora de impacto filantrópico que combate la pobreza absoluta mediante inversiones y apoyo empresarial en mercados emergentes.
+
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +44,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.elea.org — descripción institucional
+- https://www.linkedin.com/company/eleafoundation — perfil LinkedIn

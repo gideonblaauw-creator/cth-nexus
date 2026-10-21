@@ -8,7 +8,7 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
-# https://www.deginvest.de
+# DEG (KfW Group)
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
 
@@ -19,16 +19,20 @@ tag_country: Peru
 | Categoría | corporate |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | Colonia, Alemania |
+| Dirección | PENDIENTE |
 | Sitio web | https://www.deginvest.de |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| LinkedIn | https://www.linkedin.com/company/deg |
+| Rol en el ecosistema | Institución de financiamiento del desarrollo para inversión privada en economías emergentes. |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | BOS, FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+DEG financia y acompaña empresas que invierten en países en desarrollo y emergentes, con foco en impacto y clima.
+
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +44,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.deginvest.de — sitio DEG
+- https://www.linkedin.com/company/deg — perfil LinkedIn

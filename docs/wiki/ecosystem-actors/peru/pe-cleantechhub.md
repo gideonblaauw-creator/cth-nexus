@@ -19,16 +19,23 @@ tag_country: Peru
 | Categoría | accelerator |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Arequipa |
+| Ciudad | Arequipa (sede); operaciones en 8 países de LATAM |
+| Dirección | PENDIENTE |
 | Sitio web | https://cleantechhub.net |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
+| LinkedIn | https://www.linkedin.com/company/cleantechhub |
+| Rol en el ecosistema | Aceleradora de innovación climática: diagnóstico verde, aceleración, financiamiento e inversión de impacto en LATAM. |
+| Año de fundación | 2019 |
+P19 |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+CleantechHUB impulsa startups de tecnología climática en América Latina con programas de aceleración, financiamiento sostenible e inversión de impacto.
+
+
+
+
 
 ## Relaciones (ecosistema)
 
@@ -41,5 +48,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://cleantechhub.net — descripción institucional y año de inicio (desde 2019)
+- https://www.linkedin.com/company/cleantechhub — perfil LinkedIn de la organización

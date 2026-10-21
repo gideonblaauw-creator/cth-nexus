@@ -19,16 +19,20 @@ tag_country: Peru
 | Categoría | ngo_foundation |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Cuzco |
+| Ciudad | Cusco |
+| Dirección | PENDIENTE |
 | Sitio web | https://acca.org.pe |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | ONG o fundación |
+| Rol en el ecosistema | ONG de conservación amazónica: ciencia, monitoreo y alternativas económicas sostenibles al bosque. |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+La Asociación para la Conservación de la Cuenca Amazónica (ACCA) conserva y protege millones de hectáreas de los Andes amazónicos del sur del Perú mediante ciencia, tecnología y trabajo con comunidades y gobiernos.
+
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://acca.org.pe — descripción de misión y alcance territorial

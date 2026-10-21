@@ -19,16 +19,20 @@ tag_country: Peru
 | Categoría | government |
 | Tipo | org |
 | País | Peru |
-| Ciudad | San Isidro |
+| Ciudad | San Isidro, Lima |
+| Dirección | Av. Rivera Navarrete 501, San Isidro, Lima |
 | Sitio web | https://www.cofide.com.pe |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Actor público / regulador |
+| LinkedIn | https://www.linkedin.com/company/cofide |
+| Rol en el ecosistema | Banco de desarrollo y fondo de fondos que articula financiamiento, capital de riesgo y programas como el FCEI en el ecosistema de innovación. |
+| Año de fundación | 1977 |
 | Desafíos (códigos) | BOS, FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Corporación Financiera de Desarrollo (COFIDE) es el banco de desarrollo del Perú; el FCEI (Fondo Cerrado de Empresas Emergentes e Innovadoras) invierte en fondos de venture capital.
+
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +44,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.cofide.com.pe — información institucional COFIDE
+- https://www.linkedin.com/company/cofide — perfil LinkedIn COFIDE

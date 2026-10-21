@@ -19,16 +19,20 @@ tag_country: Peru
 | Categoría | corporate |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | Nieuwegein, Países Bajos (sede); proyectos en Perú |
+| Dirección | PENDIENTE |
 | Sitio web | https://www.haskoning.com |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| LinkedIn | https://www.linkedin.com/company/haskoning |
+| Rol en el ecosistema | Consultora de ingeniería y medio ambiente para infraestructura sostenible. |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Haskoning es una consultora internacional de ingeniería para el entorno natural y construido, con enfoque en sostenibilidad.
+
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +44,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.haskoning.com — sitio corporativo
+- https://www.linkedin.com/company/haskoning — perfil LinkedIn

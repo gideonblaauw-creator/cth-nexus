@@ -8,7 +8,7 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
-# https://reap.mit.edu
+# MIT REAP
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
 
@@ -19,16 +19,20 @@ tag_country: Peru
 | Categoría | corporate |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | Cambridge, Massachusetts (MIT) |
+| Dirección | PENDIENTE |
 | Sitio web | https://reap.mit.edu |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| LinkedIn | https://www.linkedin.com/company/mit-regional-entrepreneurship-acceleration-program |
+| Rol en el ecosistema | Programa global del MIT para fortalecer ecosistemas regionales de emprendimiento innovador. |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+MIT REAP trabaja con regiones del mundo para acelerar ecosistemas emprendedores basados en innovación.
+
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +44,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://reap.mit.edu — MIT REAP
+- https://www.linkedin.com/company/mit-regional-entrepreneurship-acceleration-program — LinkedIn

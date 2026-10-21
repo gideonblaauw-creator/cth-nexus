@@ -19,16 +19,20 @@ tag_country: Peru
 | Categoría | corporate |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
-| Sitio web | https://www.schweiz-peru.eda.admin.ch/es/embajada-de-suiza |
+| Ciudad | San Isidro, Lima |
+| Dirección | Av. Salaverry 3240, San Isidro, Lima |
+| Sitio web | https://www.eda.admin.ch/lima |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| Rol en el ecosistema | Representación diplomática y de cooperación al desarrollo de Suiza en el Perú. |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+La Embajada de Suiza en Lima representa los intereses de Suiza y coordina la cooperación al desarrollo bilateral con el Perú.
+
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.eda.admin.ch/lima — Embajada de Suiza en Lima

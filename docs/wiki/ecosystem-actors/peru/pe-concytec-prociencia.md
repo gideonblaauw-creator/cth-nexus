@@ -19,16 +19,20 @@ tag_country: Peru
 | Categoría | government |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | San Borja, Lima |
+| Dirección | Av. Benavides 298, San Borja, Lima |
 | Sitio web | https://prociencia.gob.pe |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Actor público / regulador |
+| Rol en el ecosistema | Programa nacional de ciencia y tecnología (ProCiencia) bajo el ecosistema CONCYTEC para fondos de I+D e innovación. |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | ARG |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+ProCiencia es el programa de financiamiento de la ciencia, tecnología e innovación del Perú, administrado en el marco del CONCYTEC.
+
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +44,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://prociencia.gob.pe — portal oficial ProCiencia
+- https://www.gob.pe/concytec — CONCYTEC en plataforma del Estado

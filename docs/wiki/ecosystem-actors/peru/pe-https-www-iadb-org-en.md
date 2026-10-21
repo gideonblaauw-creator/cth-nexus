@@ -8,7 +8,7 @@ tag_type: ecosystem-org
 tag_country: Peru
 ---
 
-# https://www.iadb.org/en
+# IDB Invest
 
 > Borrador para revisión (libro 3042 `nexus-agent-review`). No publicar sin aprobación.
 
@@ -19,16 +19,20 @@ tag_country: Peru
 | Categoría | corporate |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
-| Sitio web | https://idbinvest.org/en |
+| Ciudad | Washington, D.C. |
+| Dirección | PENDIENTE |
+| Sitio web | https://www.idbinvest.org |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| Rol en el ecosistema | Brazo del Grupo BID para financiamiento al sector privado en América Latina y el Caribe. |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AGR, CIR, CIU, ENE, FIN |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+IDB Invest financia empresas y proyectos sostenibles para maximizar desarrollo económico, social y ambiental en la región.
+
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.idbinvest.org — sitio IDB Invest

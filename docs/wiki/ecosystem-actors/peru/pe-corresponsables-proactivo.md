@@ -20,15 +20,19 @@ tag_country: Peru
 | Tipo | org |
 | País | Peru |
 | Ciudad | Lima |
+| Dirección | PENDIENTE |
 | Sitio web | https://proactivo.com.pe |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Empresa / sector privado |
+| LinkedIn | https://www.linkedin.com/company/revista-proactivo |
+| Rol en el ecosistema | Medio especializado en seguridad, salud, medio ambiente y responsabilidad social empresarial. |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Revista ProActivo es una publicación peruana enfocada en seguridad, salud ocupacional, medio ambiente y responsabilidad social en el sector empresarial.
+
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +44,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://proactivo.com.pe — descripción editorial
+- https://www.linkedin.com/company/revista-proactivo — perfil LinkedIn

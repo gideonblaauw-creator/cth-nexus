@@ -19,16 +19,20 @@ tag_country: Peru
 | Categoría | international |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Forest |
+| Ciudad | Washington, D.C. (sede global) |
+| Dirección | PENDIENTE |
 | Sitio web | https://www.forest-trends.org |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Organización internacional o cooperación |
+| LinkedIn | https://www.linkedin.com/company/forest-trends-association |
+| Rol en el ecosistema | Organización internacional que impulsa finanzas e instrumentos de mercado para la conservación. |
+| Año de fundación | 1998 |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Forest Trends trabaja en finanzas innovadoras y políticas de mercado para conservar ecosistemas forestales y de agua.
+
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +44,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.forest-trends.org — misión institucional
+- https://www.linkedin.com/company/forest-trends-association — perfil LinkedIn

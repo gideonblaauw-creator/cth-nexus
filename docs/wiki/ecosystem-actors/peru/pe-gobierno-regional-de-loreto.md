@@ -19,16 +19,20 @@ tag_country: Peru
 | Categoría | government |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Nauta |
+| Ciudad | Iquitos, Loreto |
+| Dirección | PENDIENTE |
 | Sitio web | https://www.gob.pe/regionloreto |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Actor público / regulador |
+| Rol en el ecosistema | Gobierno regional de la Amazonía peruana (Loreto): ordenamiento y desarrollo sostenible. |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+El Gobierno Regional de Loreto es la autoridad subnacional de la región con mayor extensión amazónica del Perú.
+
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.gob.pe/regionloreto — portal oficial Gobierno Regional Loreto

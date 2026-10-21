@@ -19,16 +19,20 @@ tag_country: Peru
 | Categoría | ngo_foundation |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
-| Sitio web | https://chile.angloamerican.com/es-es/fundacion |
+| Ciudad | Lima (programas en Perú vía filiales mineras) |
+| Dirección | PENDIENTE |
+| Sitio web | https://peru.angloamerican.com/es/sustainability/community |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | ONG o fundación |
+| Rol en el ecosistema | Filantropía corporativa de Anglo American con programas comunitarios y de desarrollo en Perú. |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+La fundación y programas sociales de Anglo American en Perú apoyan desarrollo comunitario vinculado a operaciones mineras de la compañía.
+
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://peru.angloamerican.com/es/sustainability/community — sostenibilidad y comunidad Anglo American Perú

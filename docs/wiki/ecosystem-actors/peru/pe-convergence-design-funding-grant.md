@@ -19,16 +19,20 @@ tag_country: Peru
 | Categoría | international |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima |
+| Ciudad | PENDIENTE (programa global) |
+| Dirección | PENDIENTE |
 | Sitio web | https://www.convergence.finance/design-funding |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Organización internacional o cooperación |
+| LinkedIn | https://www.linkedin.com/company/convergenceblendedfinance |
+| Rol en el ecosistema | Mecanismo de financiamiento blended para diseñar estructuras que movilicen inversión comercial en mercados emergentes. |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+El programa Design Funding de Convergence ofrece subvenciones y apoyo de aceleración para diseñar soluciones de financiamiento blended que desbloqueen inversión comercial hacia el desarrollo sostenible.
+
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +44,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.convergence.finance/design-funding — descripción del programa
+- https://www.linkedin.com/company/convergenceblendedfinance — perfil LinkedIn Convergence

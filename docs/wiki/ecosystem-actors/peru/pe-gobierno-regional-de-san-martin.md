@@ -19,16 +19,20 @@ tag_country: Peru
 | Categoría | government |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Moyobamba |
+| Ciudad | Moyobamba, San Martín |
+| Dirección | PENDIENTE |
 | Sitio web | https://www.gob.pe/regionsanmartin |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Actor público / regulador |
+| Rol en el ecosistema | Gobierno regional amazónico y de selva alta con programas de zonificación y bionegocios. |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+El Gobierno Regional de San Martín impulsa el desarrollo regional y la gestión sostenible del territorio amazónico andino.
+
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.gob.pe/regionsanmartin — portal oficial

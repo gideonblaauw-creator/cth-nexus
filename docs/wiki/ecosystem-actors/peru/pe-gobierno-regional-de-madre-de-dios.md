@@ -19,16 +19,20 @@ tag_country: Peru
 | Categoría | government |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Puerto Maldonado |
+| Ciudad | Puerto Maldonado, Madre de Dios |
+| Dirección | PENDIENTE |
 | Sitio web | https://www.gob.pe/regionmadrededios |
 | LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Actor público / regulador |
+| Rol en el ecosistema | Gobierno regional amazónico con foco en conservación y economía de bosque. |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+El Gobierno Regional de Madre de Dios gestiona políticas de desarrollo y conservación en la región de mayor biodiversidad del Perú.
+
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +44,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.gob.pe/regionmadrededios — portal oficial

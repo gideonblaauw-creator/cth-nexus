@@ -19,16 +19,20 @@ tag_country: Peru
 | Categoría | international |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Feldafing |
+| Ciudad | Eschborn / Bonn, Alemania (sede); Lima (oficina país) |
+| Dirección | PENDIENTE |
 | Sitio web | https://www.giz.de |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Organización internacional o cooperación |
+| LinkedIn | https://www.linkedin.com/company/gizgmbh |
+| Rol en el ecosistema | Cooperación técnica alemana para desarrollo sostenible en Perú. |
+| Año de fundación | 2011 |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+La Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH implementa proyectos de cooperación al desarrollo en el Perú y a nivel global.
+
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +44,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://www.giz.de — portal GIZ
+- https://www.linkedin.com/company/gizgmbh — perfil LinkedIn

@@ -19,16 +19,20 @@ tag_country: Peru
 | Categoría | accelerator |
 | Tipo | org |
 | País | Peru |
-| Ciudad | Lima / global |
+| Ciudad | Lima |
+| Dirección | PENDIENTE |
 | Sitio web | https://endeavor.org.pe |
-| LinkedIn | PENDIENTE |
-| Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
+| LinkedIn | https://www.linkedin.com/company/endeavor-per |
+| Rol en el ecosistema | Aceleradora global de emprendedores de alto impacto con oficina en Perú. |
+| Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AGU, BOS |
 | Tarjeta Nexus | PENDIENTE |
 
 ## Rol y alcance
 
-PENDIENTE
+Endeavor Perú selecciona y acompaña emprendedores de alto impacto para escalar empresas; forma parte de la red global Endeavor.
+
+
 
 ## Relaciones (ecosistema)
 
@@ -40,5 +44,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 
 ## Fuentes
 
-- Mapa de Actores Perú 2026
-- Mapa de actores CTH — `static/ecosystem/data/actors.json`
+- https://endeavor.org.pe — información de Endeavor en Perú
+- https://www.linkedin.com/company/endeavor-per — perfil LinkedIn Endeavor Perú
