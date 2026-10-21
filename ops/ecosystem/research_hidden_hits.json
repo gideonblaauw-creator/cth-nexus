@@ -1,0 +1,157 @@
+{
+ "hits": [
+  {
+   "source": "pe-utec-universidad-de-ingenieria-y-tecnologia",
+   "target": "pe-utec-ventures",
+   "type": "hosts",
+   "source_url": "https://utecventures.com/",
+   "source_title": "UTEC Ventures",
+   "evidence": "Inicio | UTEC Ventures Estudiantes Corporativos Emprendimiento Social Aceleradora Español | English Programas StartUp Femlab La Mezcladora Challenge Aceleración de Cimientos Aceleradora - UTEC Ventures Estudiantes Experimenta el poder de nuestros tres programas que te ayudaran desde el día 0 hasta el éxito de tu startup: - Future Founders - Pre-incUVa - IncUVa Corporativos Experimenta soluciones disruptivas diseñadas para ti, que impulsan la innovación y aseguran el crecimiento en tu organización."
+  },
+  {
+   "source": "pe-unmsm-universidad-nacional-mayor-de-san-marcos",
+   "target": "pe-1551-unmsm",
+   "type": "hosts",
+   "source_url": "https://1551.unmsm.edu.pe/",
+   "source_title": "1551 UNMSM",
+   "evidence": "1551 || Incubadora de Empresas Innovadoras [1551@unmsm.edu.pe] +(511) 619 7000 Anexo: 1841 English Version UNMSM Inicio Servicios Emprendedores Corporativo Portafolios Startups Actividades Redes Ecosistemas 1551 1551 HUB Empresarial Cambio Climático 1551 Digital Nodos 1551 Bionegocios - FCB CIE - FII FAQ Nosotros Nosotros Mentores ."
+  },
+  {
+   "source": "pe-unsm-universidad-nacional-de-san-martin",
+   "target": "pe-incubadora-unsm-san-martin",
+   "type": "hosts",
+   "source_url": "https://bioinnova.unsm.edu.pe/",
+   "source_title": "Bioinnova UNSM",
+   "evidence": "BioInnova San Martín Inicio Nosotros Quienes somos Directorio Videoteca Impacto Noticias Aliados Programas Semillero Pre-Incubación Incubación Convocatorias Eventos Emprendimientos Mentoria Contáctenos Transformamos la Biodiversidad en Negocios de Alto Impacto La incubadora líder en la región San Martín."
+  },
+  {
+   "source": "pe-emprende-up-climatech-rein-hub-peru",
+   "target": "pe-pvblic-foundation",
+   "type": "partner",
+   "source_url": "https://pvblic.org/rein-hubs/",
+   "source_title": "PVBLIC Foundation — REIN Hubs",
+   "evidence": "Department of State pilot to expand the pipeline of clean technology and green startups in a few target locations has evolved into REIN, a permanent, multilateral platform managed by PVBLIC Foundation in partnership with CleantechHUB, expanding the model into new countries and regions."
+  },
+  {
+   "source": "pe-emprende-up-climatech-rein-hub-peru",
+   "target": "pe-cleantechhub",
+   "type": "partner",
+   "source_url": "https://emprendeup.pe/climatech-impulsando-soluciones-para-un-mundo-sostenible/",
+   "source_title": "Emprende UP — lanzamiento ClimaTech",
+   "evidence": "en el Perú. La iniciativa, desarrollada en alianza con ProInnóvate y CleantechHUBs"
+  },
+  {
+   "source": "pe-proinnovate-startup-peru",
+   "target": "pe-incubagraria-unalm",
+   "type": "cofunds",
+   "source_url": "https://cambioclimatico.proinnovate.gob.pe/wp-content/uploads/2024/11/Directorio-Web-Incubadoras-y-Aceleradoras-Red-ProInnovate-2024_-1.pdf",
+   "source_title": "Directorio Red ProInnóvate 2024",
+   "evidence": "incubagraria@lamolina.edu.pe 9 IncubaUNT - Universidad Nacional de Trujillo Incubadora Trujillo www.facebook.com/incubaunt.peru incubaunt@unitru.edu.pe 10 JAKU Emprende - Universidad Nacional San Agustín Incubadora Arequipa www.facebook.com/jakuemprendeunsa emprende@unsa.edu.pe 11 Kaman - Universidad Católica de San Pablo Incubadora Arequipa ucsp.edu.pe/kaman incubadora@ucsp.edu.pe 12 LIQUID Venture Studio Aceleradora Lima lvs.meetliquid.com/ info.lvs@meetliquid.com 13 Nexum - Pontificia Universidad Católica del Perú Incubadora Lima cide.pucp.edu.pe/incubacion-empresas/ incubadora@pucp.edu.pe 14 DNT Startups"
+  },
+  {
+   "source": "pe-proinnovate-startup-peru",
+   "target": "pe-nexum-pucp",
+   "type": "cofunds",
+   "source_url": "https://cambioclimatico.proinnovate.gob.pe/wp-content/uploads/2024/11/Directorio-Web-Incubadoras-y-Aceleradoras-Red-ProInnovate-2024_-1.pdf",
+   "source_title": "Directorio Red ProInnóvate 2024",
+   "evidence": "Pontificia Universidad Católica del Perú Incubadora Lima cide.pucp.edu.pe/incubacion-empresas/ incubadora@pucp.edu.pe 14 DNT Startups"
+  },
+  {
+   "source": "pe-emprende-up-climatech-rein-hub-peru",
+   "target": "pe-yakusmart",
+   "type": "incubated",
+   "source_url": "https://es.linkedin.com/posts/emprende%2Eup_emprendeup-yakusmart-climatelaunchpad-activity-7511118125346656257-IIct",
+   "source_title": "Emprende UP — YakuSmart ClimateLaunchpad",
+   "evidence": "#emprendeup #yakusmart #climatelaunchpad #proinnóvate #climatetech #innovación #emprendimiento | Emprende UP Aceptar y unirse a LinkedIn Al hacer clic en «Continuar» para unirte o iniciar sesión, aceptas las Condiciones de uso , la Política de privacidad y la Política de cookies de LinkedIn."
+  },
+  {
+   "source": "pe-minam-ministerio-del-ambiente",
+   "target": "pe-programa-bosques-minam",
+   "type": "runs_program",
+   "source_url": "https://www.gob.pe/bosques",
+   "source_title": "MINAM — Programa Bosques",
+   "evidence": "MINAM invierte más de S/ 16,5 millones para impulsar la castaña y conservar los bosques de ..."
+  },
+  {
+   "source": "co-minenergia",
+   "target": "co-ipse",
+   "type": "regulates_layer",
+   "source_url": "https://ipse.gov.co/documento_prensa/documento/documentos_de_%20investigacion/Art%C3%ADculo%20Mundoel%C3%A9ctrico.pdf",
+   "source_title": "Artículo Mundoeléctrico — marco regulatorio (IPSE)",
+   "evidence": "Se toman como referente de consulta los sitios web del Ministerio de Minas y Energía (MINENERGÍA), el Instituto de Planificación y Promoción de Soluciones Energéticas para Zonas No Interconectadas (IPSE), la Unidad de Planeación Minero-Energética (UPME), la Comisión de Regulación de Energía y Gas (CREG), y el Fondo de Energías No Convencionales y Gestión Eficiente de la Energía (FENOGE)."
+  },
+  {
+   "source": "pe-profonanpe",
+   "target": "challenge:PE-1-bosques",
+   "type": "works_on_challenge",
+   "source_url": "https://profonanpe.org.pe/",
+   "source_title": "https://profonanpe.org.pe/",
+   "evidence": "Profonanpe es un aliado estratégico para apoyar a la conservación y protección de nuestra biodiversidad, así como un importante apoyo para las diferentes contrapartes peruanas e internacionales, que buscan poner un granito de arena en el cambio de paradigmas respecto a la visión que tenemos de la naturaleza y de los servicios ecosistémicos que recibimos de ella."
+  },
+  {
+   "source": "pe-minam-ministerio-del-ambiente",
+   "target": "challenge:PE-1-bosques",
+   "type": "works_on_challenge",
+   "source_url": "https://www.gob.pe/bosques",
+   "source_title": "https://www.gob.pe/bosques",
+   "evidence": "MINAM invierte más de S/ 16,5 millones para impulsar la castaña y conservar los bosques de ..."
+  },
+  {
+   "source": "pe-serfor",
+   "target": "challenge:PE-1-bosques",
+   "type": "works_on_challenge",
+   "source_url": "https://www.gob.pe/serfor",
+   "source_title": "https://www.gob.pe/serfor",
+   "evidence": "Autorizaciones Licencias Inscripciones Denuncias por infracciones en materia forestal y de fauna silvestre Contacto con Serfor Reportes y registros Ver todas las categorías Trámites y servicios Accede a todos los trámites y servicios de la entidad."
+  },
+  {
+   "source": "pe-sernanp",
+   "target": "challenge:PE-1-bosques",
+   "type": "works_on_challenge",
+   "source_url": "https://www.gob.pe/sernanp",
+   "source_title": "https://www.gob.pe/sernanp",
+   "evidence": "Enlaces de interés Nuestras Áreas Naturales Protegidas Datos abiertos Sernanp Tarifario de ingreso ANP Consulta Previa en ANP Infractores ANP Certificación de ubicación de punto, línea o polígono Ciudadano Módulo de compra de boletos en línea Aliado por la Conservación Mecanismo de Atención de Quejas, Consultas y Sugerencias Herramientas digitales Portal de Biodiversidad de las ANP (BIOANP) Geoportal Map of Life Portal de datos abiertos (Mapa interactivo) Portal de investigaciones ANP (InvANP) Información adicional Sistema de Control Interno Enlaces para el servidor público Correo Intranet Sistema Integrado de Información ¿Quieres ayuda?"
+  },
+  {
+   "source": "pe-policy-startup-peru-proinnovate",
+   "target": "pe-proinnovate-startup-peru",
+   "type": "administered_by",
+   "source_url": "https://www.gob.pe/proinnovate",
+   "source_title": "https://www.gob.pe/proinnovate",
+   "evidence": "Programa Nacional de Innovación y Desarrollo Productivo - ProInnóvate Conocer más sobre la entidad Portal de Transparencia Portal de transparencia Categorías Conoce todos los trámites, servicios y contenido de orientación sobre un tema en específico."
+  },
+  {
+   "source": "pe-policy-startup-peru-proinnovate",
+   "target": "pe-produce-ministerio-de-la-produccion",
+   "type": "administered_by",
+   "source_url": "https://www.gob.pe/proinnovate",
+   "source_title": "https://www.gob.pe/proinnovate",
+   "evidence": "Leer más Ir al servicio Ver todos los trámites y servicios Enlaces Directos Denuncia actos de corrupción de funcionarios de esta entidad Mesa de partes Libro de reclamaciones Acceso a la información pública Trabaja con nosotros Normativa Ver todas las normativas Resolución de Dirección Ejecutiva N.° 388-2026-PRODUCE/PROINNÓVATE 19 de octubre de 2026 Se resuelve:Designar al comité de evaluación para la contratación de la consultoría para el serviciode..."
+  },
+  {
+   "source": "pe-policy-programa-bionegocios-minam",
+   "target": "pe-minam-ministerio-del-ambiente",
+   "type": "administered_by",
+   "source_url": "https://www.gob.pe/minam",
+   "source_title": "https://www.gob.pe/minam",
+   "evidence": "Educación ambiental Impacto ambiental Residuos sólidos Transparencia e Integridad Contacto con Minam Participación ciudadana Conservación del medio ambiente Declaratoria de Emergencia Ambiental Ver todas las categorías Trámites y servicios Accede a todos los trámites y servicios de la entidad."
+  },
+  {
+   "source": "pe-policy-programa-bosques-minam",
+   "target": "pe-minam-ministerio-del-ambiente",
+   "type": "administered_by",
+   "source_url": "https://www.gob.pe/bosques",
+   "source_title": "https://www.gob.pe/bosques",
+   "evidence": "MINAM invierte más de S/ 16,5 millones para impulsar la castaña y conservar los bosques de ..."
+  },
+  {
+   "source": "pe-policy-ley-gestion-residuos-solidos",
+   "target": "pe-minam-ministerio-del-ambiente",
+   "type": "administered_by",
+   "source_url": "https://www.gob.pe/minam",
+   "source_title": "https://www.gob.pe/minam",
+   "evidence": "Educación ambiental Impacto ambiental Residuos sólidos Transparencia e Integridad Contacto con Minam Participación ciudadana Conservación del medio ambiente Declaratoria de Emergencia Ambiental Ver todas las categorías Trámites y servicios Accede a todos los trámites y servicios de la entidad."
+  }
+ ],
+ "fail_count": 42
+}
