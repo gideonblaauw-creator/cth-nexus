@@ -43,7 +43,7 @@ portfolio_startup,natoure,NATOURE,country,,,Colombia,,,https://nexus.cleantechhu
 portfolio_startup,natupin,NATUPIN,country,,,Colombia,,,https://natupin.bio,Country only; no city or street on public site
 portfolio_startup,neo-fibers-sac,NEO FIBERS SAC,country,,,Peru,,,https://neofibers.pe,Country only; no city or street on public site
 startup_onepager_s,nextgen-nutrition,NextGen Nutrition,country,"Country"":""A"",""specs.ecom.DisplayCheckoutErrorModalsForExpressButtons"":""true"",""ecomSkipDemoUpdateInEditorPreview"":""B"",""sp",Barranquilla,Colombia,,,https://petfly.co,No verifiable HQ street; country from program context
-startup_onepager_s,nina-energy,Nina Energy,city,,Quito,Ecuador,-0.2201641,-78.5123274,https://nina.energy/,Quito HQ on one-pager; no verified street published
+startup_onepager_s,nina-energy,Nina Energy,city,,Quito,Ecuador,,,https://nina.energy/,Quito HQ on one-pager; no verified street published
 startup_onepager_s,novatio,Novatio,address,"Cl. 48 Nte. #4AN-56, Cali",Cali,Colombia,3.4765493,-76.5094764,https://novatio.com.co/contacto/,Street office on contact page
 startup_onepager_s,nuevas-tecnologias-fisicoquimicas,Nuevas Tecnologías Fisicoquímicas,city,es © 2022 &#8211; Software Ecommerce NTF Call Now Button Contacto | NTF  CONTÁCTENOS (Buscar: Seguir S,Bogotá,Colombia,,,https://nuevastecnologias.com.co/,Bogotá metro on site; no street published
 portfolio_startup,nuevas-tecnologías-fisicoquímicas,NUEVAS TECNOLOGÍAS FISICOQUÍMICAS,city,es © 2022 &#8211; Software Ecommerce NTF Call Now Button Contacto | NTF  CONTÁCTENOS (Buscar: Seguir S,Bogotá,Colombia,,,https://nuevastecnologias.com.co,Portfolio legal name; same public site
