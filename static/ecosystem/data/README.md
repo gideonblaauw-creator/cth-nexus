@@ -7,7 +7,7 @@ Extracted from Canva actor maps. **`actors.raw.json`** is the ingest snapshot (s
 - `actors.raw.json` — source snapshot for `scripts/ecosystem/build_public_data.py`
 - `actor_cards.json` — wiki-enriched card fields (source for merge into `actors.raw.json`)
 - `actors.json` — sanitized actors with optional `card` block (role, description, founding year) and `geo`
-- `relations.json` — 75 typed edges
+- `relations.json` — typed edges; **public** only when listed in `ops/ecosystem/graph_relation_evidence.json` with a verbatim on-page quote (`scripts/ecosystem/verify_relation_quotes.py`). Self-loops are omitted. See `ops/ecosystem/UNVERIFIED-RELATIONS.md`.
 - `designs.json` — source design metadata
 
 ## Build
@@ -17,6 +17,9 @@ python3 ops/ecosystem/apply_sv_geocodes.py   # optional refresh (overrides / pol
 python3 scripts/ecosystem/merge_geo_from_live.py
 python3 scripts/build_ecosystem_actor_cards.py
 python3 scripts/ecosystem/build_public_data.py
+python3 scripts/ecosystem/build_graph_relation_evidence.py
+python3 scripts/ecosystem/sync_graph_relation_sources.py
+python3 scripts/ecosystem/verify_relation_quotes.py
 ```
 
 `merge_geo_from_live` (also invoked by the card + public build scripts) applies SV geo policy and ignores live cache city guesses for `sv-*` actors.

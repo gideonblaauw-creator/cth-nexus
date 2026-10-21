@@ -2,9 +2,14 @@ import { test, expect } from '@playwright/test';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { readFile } from 'fs/promises';
+import { execFile } from 'child_process';
+import { promisify } from 'util';
+
+const execFileAsync = promisify(execFile);
 import {
   countCrossCountryGraphEdges,
   countCrossCountryPolicyEdges,
+  isPublicGraphRelation,
   storyContext,
 } from '../story.mjs';
 
@@ -46,6 +51,27 @@ test('D5 chapter order matches system-map wire (Ch→Po→Hubs→Data→Part→C
   ]);
 });
 
+test('relations.json public edges match Gideon rule', async () => {
+  const graphRels = JSON.parse(await readFile(path.join(DATA, 'relations.json'), 'utf8'));
+  expect(graphRels.every((r) => r.source !== r.target)).toBe(true);
+  const publicRels = graphRels.filter((r) => isPublicGraphRelation(r));
+  expect(publicRels.length).toBeGreaterThan(0);
+  expect(publicRels.every((r) => r.verified === true && r.source_url && r.evidence)).toBe(true);
+  const hidden = graphRels.filter((r) => !isPublicGraphRelation(r));
+  expect(hidden.every((r) => r.verified === false)).toBe(true);
+});
+
+test('graph relation evidence quotes verify on source URLs', async () => {
+  const repoRoot = path.join(__dirname, '..', '..', '..');
+  const { stdout } = await execFileAsync('python3', ['scripts/ecosystem/verify_relation_quotes.py'], {
+    cwd: repoRoot,
+    timeout: 300000,
+  });
+  const result = JSON.parse(stdout.trim());
+  expect(result.ok).toBe(true);
+  expect(result.public).toBeGreaterThan(0);
+});
+
 test('nexus-crosslinks.json present with link counts', async () => {
   const cross = JSON.parse(await readFile(path.join(DATA, 'nexus-crosslinks.json'), 'utf8'));
   expect(cross.counts.s_pages).toBeGreaterThan(0);
@@ -64,12 +90,15 @@ test('actors.json exposes nexus card_slug and hub_slug where mapped', async () =
 
 test.describe('ecosystem public reconcile', () => {
   test('loads signed-out without auth redirect', async ({ page }) => {
+    const graphRels = JSON.parse(await readFile(path.join(DATA, 'relations.json'), 'utf8'));
+    const publicCount = graphRels.filter((r) => isPublicGraphRelation(r)).length;
     await page.goto(BASE, { waitUntil: 'domcontentloaded', timeout: 60000 });
     await page.waitForSelector('body[data-eco-ready="1"]', { timeout: 45000 });
     expect(page.url()).toMatch(/\/ecosystem\//);
     await expect(page.locator('#stat-actors')).not.toHaveText('—');
     const n = parseInt(await page.locator('#stat-actors').innerText(), 10);
     expect(n).toBeGreaterThan(0);
+    await expect(page.locator('#stat-relations')).toHaveText(String(publicCount));
   });
 
   test('actor cards tab shows cards', async ({ page }) => {

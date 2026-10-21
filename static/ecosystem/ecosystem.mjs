@@ -7,6 +7,7 @@ import {
   isChallengeId,
   isDatasetId,
   isPolicyId,
+  isPublicGraphRelation,
   datasetGeo,
   policyGeo,
 } from './story.mjs';
@@ -272,10 +273,14 @@ function actorCountryCode(actor) {
   return ID_PREFIX_COUNTRY[prefix] || null;
 }
 
+function publicGraphRelations() {
+  return relations.filter((r) => isPublicGraphRelation(r));
+}
+
 function computeDegrees() {
   degree = new Map();
   actors.forEach((a) => degree.set(a.id, 0));
-  relations.forEach((r) => {
+  publicGraphRelations().forEach((r) => {
     if (degree.has(r.source)) degree.set(r.source, (degree.get(r.source) || 0) + 1);
     if (degree.has(r.target)) degree.set(r.target, (degree.get(r.target) || 0) + 1);
   });
@@ -284,7 +289,7 @@ function computeDegrees() {
 function egoNodeSet(centerId, depth) {
   const keep = new Set([centerId]);
   for (let d = 0; d < depth; d += 1) {
-    relations.forEach((r) => {
+    publicGraphRelations().forEach((r) => {
       if (keep.has(r.source)) keep.add(r.target);
       if (keep.has(r.target)) keep.add(r.source);
     });
@@ -313,7 +318,7 @@ function visibleActorIds() {
 }
 
 function visibleRelations(ids) {
-  return relations.filter((r) => {
+  return publicGraphRelations().filter((r) => {
     if (!activeRelTypes.has(r.type)) return false;
     return ids.has(r.source) && ids.has(r.target);
   });
@@ -395,7 +400,7 @@ function buildFilterChips() {
     });
   });
 
-  const relTypes = [...new Set(relations.map((r) => r.type))].sort();
+  const relTypes = [...new Set(publicGraphRelations().map((r) => r.type))].sort();
   if (!activeRelTypes.size) activeRelTypes = new Set(relTypes);
   const rRow = $('#rel-chips');
   rRow.innerHTML = relTypes.map((rt) =>
@@ -781,7 +786,7 @@ function renderInspector(id) {
   const tr = t();
   if (isPolicyId(id)) {
     const row = policiesById.get(id);
-    const linked = [...relations, ...policyRelations].filter((r) => r.source === id || r.target === id);
+    const linked = [...publicGraphRelations(), ...policyRelations].filter((r) => r.source === id || r.target === id);
     const policyStartups = nexusCrosslinks?.byPolicy?.[id] || [];
     el.classList.remove('empty');
     el.innerHTML = `
@@ -816,7 +821,7 @@ function renderInspector(id) {
   }
   if (isChallengeId(id) && storyConfig) {
     const meta = storyConfig.challenges[id];
-    const linked = relations.filter((r) => r.target === id || r.source === id);
+    const linked = publicGraphRelations().filter((r) => r.target === id || r.source === id);
     const title = lang === 'EN' ? meta?.label?.en : meta?.label?.es;
     const panel = nexusCrosslinks?.byChallenge?.[id] || {};
     const relatedPolicies = policyRelations
@@ -876,7 +881,7 @@ function renderInspector(id) {
   el.classList.remove('empty');
   const cc = actorCountryCode(a);
   const flag = cc ? COUNTRY_META[cc].flag : '🌎';
-  const rels = relations.filter((r) => r.source === id || r.target === id);
+  const rels = publicGraphRelations().filter((r) => r.source === id || r.target === id);
   const slug = a.nexus?.card_slug;
 
   const websiteRow = a.website
@@ -1062,7 +1067,7 @@ function renderGeoUnknownPanel(ids) {
 
 function updateStats(ids) {
   $('#stat-actors').textContent = String(actors.length);
-  $('#stat-relations').textContent = String(relations.length);
+  $('#stat-relations').textContent = String(publicGraphRelations().length);
   $('#stat-visible').textContent = String(ids.size);
   $('#result-meta').textContent = `${ids.size} / ${actors.length}`;
 }
@@ -1328,7 +1333,7 @@ async function loadData() {
   relations = r;
   byId = new Map(actors.map((x) => [x.id, x]));
   computeDegrees();
-  activeRelTypes = new Set(relations.map((x) => x.type));
+  activeRelTypes = new Set(publicGraphRelations().map((x) => x.type));
   buildFilterChips();
   renderAll();
   applyDemoState();
