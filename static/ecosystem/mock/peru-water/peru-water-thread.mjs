@@ -142,8 +142,8 @@ const CAPTIONS = {
     en: 'Yakufil has verified incubation via JAKU Emprende UNSA (`actor_relations.json`); UQHU still has no hub edge in the graph. Dashed lines toward ClimaTech REIN/UP remain only where no verified evidence exists.',
   },
   data: {
-    es: 'No hay `published_dataset` / `uses_dataset` en el grafo ni filas en `data_relations.json` para actores del hilo. El dataset MINAM datosabiertos permanece marcado como pendiente de curación.',
-    en: 'There are no `published_dataset` / `uses_dataset` graph edges and `data_relations.json` is empty for thread actors. The MINAM open-data dataset stays marked pending curation.',
+    es: 'SUNASS y ANA publican conjuntos verificados en datosabiertos (`published_dataset` en `data_relations.json`): indicadores de conexiones activas y fajas marginales en CSV. SENAMHI, SNIRH/GeoSNIRH e INEI quedaron fuera (portal/visor o sin actor INEI en el grafo).',
+    en: 'SUNASS and ANA publish verified datosabiertos sets (`published_dataset` in `data_relations.json`): active connections and riparian belts as CSV. SENAMHI, SNIRH/GeoSNIRH, and INEI were excluded (portal/viewer or no INEI actor in the graph).',
   },
   partnerships: {
     es: 'Constelación reto-centrada (UQHU y Yakufil): aristas sólidas desde `relations.json` y `actor_relations.json` verificadas; líneas punteadas etiquetadas Suggested con su motivo cuando falta evidencia.',
@@ -233,7 +233,12 @@ function applyChapterToCumulative(chapterId, cumulative, ctx) {
     return;
   }
   if (chapterId === 'data') {
-    cumulative.add('dataset:pe-minam-datosabiertos-pending');
+    (dataRelations || []).forEach((r) => {
+      if (r.type !== 'published_dataset') return;
+      if (!cumulative.has(r.source) && !cumulative.has(r.target)) return;
+      cumulative.add(r.source);
+      cumulative.add(r.target);
+    });
     return;
   }
   if (chapterId === 'partnerships') {
@@ -441,19 +446,21 @@ export function buildPeruWaterScene(chapterIndex, data) {
     if (!verified.length) {
       gaps.push('No published_dataset / uses_dataset edges for thread actors in relations.json');
     }
-    const pendingId = 'dataset:pe-minam-datosabiertos-pending';
-    if (storyConfig.datasets?.[pendingId]) {
-      cumulative.add(pendingId);
+    [...cumulative].filter(isDatasetId).forEach((id) => {
+      const meta = storyConfig.datasets?.[id];
+      if (!meta) return;
       virtualNodes.push({
-        id: pendingId,
-        label: storyConfig.datasets[pendingId].label?.es || pendingId,
+        id,
+        label: meta.label?.es || id,
         kind: 'dataset',
         size: 11,
         color: '#457b9d',
-        geo: storyConfig.datasets[pendingId].geo,
-        pending: true,
+        geo: meta.geo,
+        pending: meta.status === 'pending',
       });
-      gaps.push('MINAM datosabiertos dataset node is pending curation');
+    });
+    if (!verified.some((e) => e.type === 'published_dataset')) {
+      gaps.push('No published_dataset edges loaded from data_relations.json');
     }
     return finalizeScene({
       chapter,

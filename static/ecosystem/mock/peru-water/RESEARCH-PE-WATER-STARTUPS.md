@@ -22,7 +22,7 @@ Corroboration (not duplicated in CSV): Startup Perú 9G preliminary results list
 | Gacelas Perú 2026 | [Cewas — Gacelas programme](https://www.cewas.org/articles/gacelas-programme) lists **UQHU** among nine bootcamp participants | **Cewas** not in `actors.json` — proposed actor |
 | ClimaTech / Emprende UP REIN | Public Climatech 2025 page lists cohort size, not startup names including UQHU | No verified incubation edge to `pe-emprende-up-climatech-rein-hub-peru` |
 | ProInnóvate water portfolio | [Innovación hídrica PRODUCE/ProInnóvate](https://www.gob.pe/institucion/proinnovate/noticias/1095741-innovacion-hidrica-produce-impulsa-tecnologias-sostenibles-para-combatir-la-escasez-de-agua) — no UQHU mention | — |
-| Datasets | No public dataset publication/use links tied to UQHU in repo sources | `data_relations.json` still empty |
+| Datasets | SUNASS + ANA `published_dataset` rows in `data_relations.json` (see `RESEARCH-PE-WATER-DATASETS.md`) | No `uses_dataset` edges for UQHU/Yakufil yet |
 
 ## Yakufil — additional context (covered by new rows)
 

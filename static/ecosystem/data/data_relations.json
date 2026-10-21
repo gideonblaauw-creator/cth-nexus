@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "source": "pe-sunass",
+    "target": "dataset:pe-sunass-conexiones-activas-agua-potable",
+    "type": "published_dataset",
+    "source_url": "https://www.datosabiertos.gob.pe/dataset/n%C3%BAmero-de-conexiones-activas-de-agua-potable-sunass",
+    "source_title": "CKAN package_show — Número de conexiones activas de agua potable [SUNASS]",
+    "date_accessed": "2026-10-21",
+    "confidence": "high"
+  },
+  {
+    "source": "pe-ana-autoridad-nacional-del-agua",
+    "target": "dataset:pe-ana-fajas-marginales-csv",
+    "type": "published_dataset",
+    "source_url": "https://www.datosabiertos.gob.pe/dataset/resource/33ba82b5-68b2-4fb8-92ec-fd51771b9a63",
+    "source_title": "CKAN resource_show — Fajas Marginales (ANA)",
+    "date_accessed": "2026-10-21",
+    "confidence": "high"
+  }
+]
