@@ -22,7 +22,7 @@ Adds `nexus.card_slug` from one-pager website/name matches.
 | Country | Actors in bundle |
 |---------|-------------------|
 | Peru | 201 |
-| El Salvador | 77 |
+| El Salvador | 77 (72 deck profiles + 5 flagged extras; see `ops/ecosystem/SV_DECK_AUDIT.md`) |
 | Colombia | 8 |
 | Guatemala | 0 (UI empty state) |
 | Costa Rica | 0 (UI empty state) |
