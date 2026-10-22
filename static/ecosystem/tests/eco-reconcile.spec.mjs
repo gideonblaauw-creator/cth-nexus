@@ -55,7 +55,9 @@ test('relations.json public edges match Gideon rule', async () => {
   const graphRels = JSON.parse(await readFile(path.join(DATA, 'relations.json'), 'utf8'));
   expect(graphRels.every((r) => r.source !== r.target)).toBe(true);
   const publicRels = graphRels.filter((r) => isPublicGraphRelation(r));
-  expect(publicRels.length).toBeGreaterThan(0);
+  expect(publicRels.length).toBe(46);
+  expect(graphRels.filter((r) => !isPublicGraphRelation(r)).length).toBe(44);
+  expect(graphRels.every((r) => r.type !== 'theme_match' && !('theme_match' in r))).toBe(true);
   expect(publicRels.every((r) => r.verified === true && r.source_url && r.evidence)).toBe(true);
   const hidden = graphRels.filter((r) => !isPublicGraphRelation(r));
   expect(hidden.every((r) => r.verified === false)).toBe(true);

@@ -8,6 +8,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 from prepare_geo import geocode_actor
+from relation_fields import strip_theme_match
 
 REPO = Path(__file__).resolve().parents[2]
 DATA = REPO / "static" / "ecosystem" / "data"
@@ -302,8 +303,8 @@ def sanitize_policy_relations(relations: list) -> list:
 
 def sanitize_relations(relations: list) -> list:
     out = []
-    for r in relations:
-        clean = {k: v for k, v in r.items() if k not in ("evidence", "notes")}
+    for r in strip_theme_match(relations):
+        clean = {k: v for k, v in r.items() if k not in ("evidence", "notes", "theme_match")}
         if "evidence" in r and isinstance(r["evidence"], dict):
             ev = {k: v for k, v in r["evidence"].items() if k != "notes"}
             if ev:

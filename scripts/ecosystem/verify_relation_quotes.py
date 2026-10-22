@@ -32,6 +32,19 @@ def main() -> int:
     if any(r["source"] == r["target"] for r in rels):
         errors.append("self-loop edges must be removed from relations.json")
 
+    for r in rels:
+        if r.get("type") == "theme_match" or "theme_match" in r:
+            errors.append(
+                "theme_match is not a graph relation "
+                f"({r.get('source')}, {r.get('target')}, {r.get('type')})"
+            )
+    for row in catalog.get("relations", []):
+        if row.get("type") == "theme_match" or "theme_match" in row:
+            errors.append(
+                "theme_match is not an evidence-catalog relation "
+                f"({row.get('source')}, {row.get('target')}, {row.get('type')})"
+            )
+
     for key in by_key:
         if key not in graph_keys:
             errors.append(f"catalog entry not present in relations.json: {key}")
