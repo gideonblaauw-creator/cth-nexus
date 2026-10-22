@@ -1,0 +1,225 @@
+{
+  "contract_status": "to agree with the Datalab desk",
+  "gtm_status": "GTM hypothesis",
+  "company": {
+    "name": "Juan Valdez",
+    "country": "Colombia",
+    "persona": "cso",
+    "profile_source_url": "https://juanvaldez.com/wp-content/uploads/2025/03/Informe-de-Sostenibilidad-2024.pdf#page=3",
+    "profile_quote": "El presente informe de sostenibilidad recoge las principales acciones y resultados en materia ambiental, social y de gobernanza (ASG), realizados por Procafecol S.A.",
+    "bvc_listed": null,
+    "gri_report_url": "https://juanvaldez.com/wp-content/uploads/2025/03/Informe-de-Sostenibilidad-2024.pdf"
+  },
+  "gaps": [
+    {
+      "gap_id": "jv-scope1-refrigerants",
+      "rank": 1,
+      "title": "Scope 1 rose 95% on refrigerant fugitive emissions",
+      "theme_id": "food_consumer",
+      "journey_step": "data",
+      "startup_stage": "Pre-Seed",
+      "statement": "Procafecol reports that 2024 Scope 1 emissions rose 95% versus 2023, mainly from fugitive emissions in refrigeration equipment, linked to more maintenance events on stores and production assets.",
+      "evidence_url": "https://juanvaldez.com/wp-content/uploads/2025/03/Informe-de-Sostenibilidad-2024.pdf#page=31",
+      "evidence_quote": "Para el año 2024 en comparación al año 2023, se tuvo un aumento del alcance 1 del 95%, principalmente por emisiones fugitivas en los equipos de refrigeración.",
+      "shortfall": false,
+      "matches": [
+        {
+          "match_id": "jv-g1-carbonbox",
+          "actor_kind": "startup",
+          "name": "CarbonBox",
+          "claim_type": "theme_match",
+          "public_source_url": "https://carbonbox.app",
+          "public_quote": "CarbonBox mide los alcances 1, 2 y 3 con trazabilidad completa y metodología auditable, para que la cadena de valor deje de ser una caja negra.",
+          "why": "Public site names scopes 1–3 inventory work; quote does not name Procafecol.",
+          "actor_ref": "portfolio:CARBONBOX"
+        },
+        {
+          "match_id": "jv-g1-cneutral",
+          "actor_kind": "startup",
+          "name": "C-neutral",
+          "claim_type": "theme_match",
+          "public_source_url": "https://c-neutral.co",
+          "public_quote": "En C-neutral brindamos consultoría integral hacia la ruta de descarbonización, apoyando a las empresas a identificar y cuantificar los aspectos e impactos ambientales potenciales a partir de la utilización de recursos y las emisiones producidas asociadas a su actividad económica.",
+          "why": "Consulting page targets quantification of emissions from operations; quote does not name Procafecol.",
+          "actor_ref": "portfolio:C-NEUTRAL SAS"
+        },
+        {
+          "match_id": "jv-g1-zhana",
+          "actor_kind": "startup",
+          "name": "Zhana Solutions",
+          "claim_type": "theme_match",
+          "public_source_url": "https://zhanasolutions.com",
+          "public_quote": "A partir de la operación de nuestra tecnología socializaremos con tu equipo los indicadores y métricas de impacto ambiental (litros de agua salvados y reducción de emisiones de co2)",
+          "why": "Service page commits to CO2 reduction metrics reporting; quote does not name Procafecol.",
+          "actor_ref": "portfolio:ZHANA SOLUTIONS"
+        }
+      ]
+    },
+    {
+      "gap_id": "jv-scope3-concentration",
+      "rank": 2,
+      "title": "Scope 3 inventory still needs higher-quality data",
+      "theme_id": "food_consumer",
+      "journey_step": "data",
+      "startup_stage": "Pre-Series A",
+      "statement": "Climate action plan lists improving Scope 3 information quality in the carbon footprint as a 2024 priority under Race to Zero.",
+      "evidence_url": "https://juanvaldez.com/wp-content/uploads/2025/03/Informe-de-Sostenibilidad-2024.pdf#page=8",
+      "evidence_quote": "3. Mejora en la calidad de la información del Alcance 3 en la Huella de Carbono.",
+      "shortfall": false,
+      "matches": [
+        {
+          "match_id": "jv-g2-carbonbox",
+          "actor_kind": "startup",
+          "name": "CarbonBox",
+          "claim_type": "theme_match",
+          "public_source_url": "https://carbonbox.app",
+          "public_quote": "La plataforma SaaS de huellas de carbono diseñada para empresas latinoamericanas que necesitan datos confiables, expertos certificados y resultados medibles.",
+          "why": "SaaS positioning matches Scope 3 data-quality gap; quote does not name Procafecol.",
+          "actor_ref": "portfolio:CARBONBOX"
+        },
+        {
+          "match_id": "jv-g2-cneutral",
+          "actor_kind": "startup",
+          "name": "C-neutral",
+          "claim_type": "theme_match",
+          "public_source_url": "https://c-neutral.co",
+          "public_quote": "Comienza a medir y reportar tus emisiones de CO2 e con nuestra calculadora de huella de carbono y nuestros servicios habilitados para certificación externa.",
+          "why": "Public page offers measurement and reporting; quote does not name Procafecol.",
+          "actor_ref": "portfolio:C-NEUTRAL SAS"
+        },
+        {
+          "match_id": "jv-g2-compostpack",
+          "actor_kind": "startup",
+          "name": "Compostpack",
+          "claim_type": "theme_match",
+          "public_source_url": "https://compostpack.com",
+          "public_quote": "Desde 2016, Compostpack (una filial de Carpios Investment Group) ha estado desarrollando e industrializando bioplásticos compostables y biodegradables (materiales extraídos usando fuentes biológicas).",
+          "why": "Packaging materials shift supports upstream Scope 3 categories; quote does not name Procafecol.",
+          "actor_ref": "portfolio:COMPOSTPACK"
+        }
+      ]
+    },
+    {
+      "gap_id": "jv-packaging-transition",
+      "rank": 3,
+      "title": "Five packaging SKUs still transitioning to 2025 results",
+      "theme_id": "food_consumer",
+      "journey_step": "partnerships",
+      "startup_stage": "Seed",
+      "statement": "Circular economy work moved five packaging references in 2024, but the report expects measurable results in 2025.",
+      "evidence_url": "https://juanvaldez.com/wp-content/uploads/2025/03/Informe-de-Sostenibilidad-2024.pdf#page=35",
+      "evidence_quote": "En 2024, se avanzó en la transición de cinco referencias de envases y empaques, con resultados esperados para 2025.",
+      "shortfall": false,
+      "matches": [
+        {
+          "match_id": "jv-g3-compostpack",
+          "actor_kind": "startup",
+          "name": "Compostpack",
+          "claim_type": "theme_match",
+          "public_source_url": "https://compostpack.com",
+          "public_quote": "Somos especialistas en el desarrollo y comercialización de bioplásticos compostables.",
+          "why": "Compostable packaging R&D aligns with packaging transition; quote does not name Procafecol.",
+          "actor_ref": "portfolio:COMPOSTPACK"
+        },
+        {
+          "match_id": "jv-g3-proplanet",
+          "actor_kind": "startup",
+          "name": "Proplanet",
+          "claim_type": "theme_match",
+          "public_source_url": "https://proplanet.com.co",
+          "public_quote": "Nuestros productos son fabricados a partir de la transformación de materiales Tetrapak.",
+          "why": "Recycled-material products fit circular packaging goals; quote does not name Procafecol.",
+          "actor_ref": "portfolio:PROPLANET SAS"
+        },
+        {
+          "match_id": "jv-g3-reemade",
+          "actor_kind": "startup",
+          "name": "Reemade",
+          "claim_type": "theme_match",
+          "public_source_url": "https://reemade.com.co",
+          "public_quote": "Convertimos residuos industriales de difícil reciclabilidad y residuos agrícolas en productos personalizados, merchandising corporativo sostenible, espacios y biomateriales para empresas que quieren transformar sus estrategias de sostenibilidad en soluciones reales, funcionales y deseables.",
+          "why": "Upcycling studio addresses hard-to-recycle streams; quote does not name Procafecol.",
+          "actor_ref": "portfolio:REEMADE"
+        }
+      ]
+    },
+    {
+      "gap_id": "jv-hazardous-waste",
+      "rank": 4,
+      "title": "Hazardous waste from stores and plant still rising",
+      "theme_id": "food_consumer",
+      "journey_step": "challenge",
+      "startup_stage": "Pre-Seed",
+      "statement": "Solid-waste programs are mature, but hazardous waste from the production plant and Juan Valdez stores still requires dedicated management.",
+      "evidence_url": "https://juanvaldez.com/wp-content/uploads/2025/03/Informe-de-Sostenibilidad-2024.pdf#page=37",
+      "evidence_quote": "En 2024, se gestionaron 9,2 toneladas de residuos peligrosos de la planta de producción y de las tiendas Juan Valdez.",
+      "shortfall": true,
+      "matches": [
+        {
+          "match_id": "jv-g4-zhana",
+          "actor_kind": "startup",
+          "name": "Zhana Solutions",
+          "claim_type": "theme_match",
+          "public_source_url": "https://zhanasolutions.com",
+          "public_quote": "Tratamiento de aguas y gestión de residuos grasos",
+          "why": "Waste-treatment service line addresses operational waste streams; quote does not name Procafecol.",
+          "actor_ref": "portfolio:ZHANA SOLUTIONS"
+        },
+        {
+          "match_id": "jv-g4-reemade",
+          "actor_kind": "startup",
+          "name": "Reemade",
+          "claim_type": "theme_match",
+          "public_source_url": "https://reemade.com.co",
+          "public_quote": "Al suprareciclar, reducimos la huella de carbono asociada a la extracción y transformación de materias primas, disminuyendo así la contaminación del aire, el agua y el suelo desde su origen.",
+          "why": "Circular design reduces waste impacts; quote does not name Procafecol.",
+          "actor_ref": "portfolio:REEMADE"
+        }
+      ]
+    },
+    {
+      "gap_id": "jv-biodiversity-coffee",
+      "rank": 5,
+      "title": "Coffee biodiversity relies on long-horizon reforestation targets",
+      "theme_id": "food_consumer",
+      "journey_step": "challenge",
+      "startup_stage": "Pre-Seed",
+      "statement": "Biodiversity strategy for coffee landscapes includes reforestation commitments that extend beyond a single reporting year.",
+      "evidence_url": "https://juanvaldez.com/wp-content/uploads/2025/03/Informe-de-Sostenibilidad-2024.pdf#page=40",
+      "evidence_quote": "El trabajo conjunto con estas instituciones ha fortalecido el componente ambiental de la estrategia de sostenibilidad de la compañía, a partir del desarrollo de una caficultura que incluye procesos de adaptación climática como siembra de árboles, cercas vivas, áreas de conectividad ecológica, gestión hídrica, gestión de residuos orgánicos en beneficio, entre otros.",
+      "shortfall": false,
+      "matches": [
+        {
+          "match_id": "jv-g5-natupin",
+          "actor_kind": "startup",
+          "name": "Natupin",
+          "claim_type": "theme_match",
+          "public_source_url": "https://natupin.bio",
+          "public_quote": "En NatuPin nos enorgullecemos de ofrecer pines que representan las especies colombianas de una manera auténtica y significativa.",
+          "why": "Public biodiversity storytelling aligns with coffee ecosystem awareness; quote does not name Procafecol.",
+          "actor_ref": "portfolio:NATUPIN"
+        },
+        {
+          "match_id": "jv-g5-monte",
+          "actor_kind": "startup",
+          "name": "Monte Jazmín",
+          "claim_type": "theme_match",
+          "public_source_url": "https://montejazmin.com/nosotros/",
+          "public_quote": "Enclavado en la montaña y rodeado por cafetales que guardan nacimientos de agua, guaduales y bosque, se encuentra nuestro proyecto agroturístico, producción de café especial, experiencia que compartimos con todos nuestros visitantes amantes del café y la naturaleza.",
+          "why": "Agrotourism coffee farm narrative matches biodiversity in coffee zones; quote does not name Procafecol.",
+          "actor_ref": "portfolio:MONTE JAZMÍN"
+        },
+        {
+          "match_id": "jv-g5-pleia",
+          "actor_kind": "startup",
+          "name": "PLEIA",
+          "claim_type": "theme_match",
+          "public_source_url": "https://pleia.co",
+          "public_quote": "Nuestro proceso de Biotransformación es 100% Natural, sin contaminación atmosférica y lleno de mucho amor.",
+          "why": "Natural cycle process avoids atmospheric contamination; weak tie to coffee biodiversity but addresses ecosystem impact; quote does not name Procafecol.",
+          "actor_ref": "portfolio:PLEIA"
+        }
+      ]
+    }
+  ]
+}
