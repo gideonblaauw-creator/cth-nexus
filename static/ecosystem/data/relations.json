@@ -307,7 +307,11 @@
   "source": "pe-profonanpe",
   "target": "challenge:PE-1-bosques",
   "type": "works_on_challenge",
-  "verified": false
+  "verified": true,
+  "source_url": "https://profonanpe.org.pe/proyectos/manejo-sostenible-y-restauracion-del-bosque-seco-de-la-costa-norte-del-peru-bosque-seco/",
+  "source_title": "Profonanpe — Bosque Seco",
+  "evidence": "bosques secos de la Costa Norte del Perú, facilitando la conservación de la biodiversidad y los servicios de los ecosistemas, aumentando la resiliencia de las comunidades y sus medios de subsistencia, y apoyando al logro de la meta de neutralidad en la degradación de la tierra (LDN). Inicio: 23 de diciembre de 2022 Culminación: 19 de octubre de 2027 Financiamiento $7.493.291,00 Rol de Profonanpe",
+  "date_accessed": "2026-10-22"
  },
  {
   "source": "pe-amazonia-impact-ventures",
