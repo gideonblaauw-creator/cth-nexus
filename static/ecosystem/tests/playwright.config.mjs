@@ -7,5 +7,7 @@ export default defineConfig({
   use: {
     headless: true,
     viewport: { width: 1280, height: 900 },
+    // Test-only: Playwright waitForFunction needs eval; production CSP stays strict in index.html.
+    bypassCSP: true,
   },
 });
