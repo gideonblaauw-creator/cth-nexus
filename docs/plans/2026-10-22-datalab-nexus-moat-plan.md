@@ -37,7 +37,7 @@ The counts below are from `main` in this repo.
 | Actors with `geo.precision` `city` | 32 |
 | Actors with `geo.precision` `country` | 233 |
 
-A public relation has `verified: true`, a `source_url`, and a verbatim quote. `scripts/ecosystem/verify_relation_quotes.py` checks the quote. The source must name both actors and the relation.
+A public relation on `main` today has `verified: true`, a `source_url`, and a verbatim quote. `scripts/ecosystem/verify_relation_quotes.py` checks the quote. The source must name both actors and the relation. Section 15 item 25 exempts CTH cohort data. That exemption is not in the script yet.
 
 `ops/ecosystem/UNVERIFIED-RELATIONS.md` records 40 public relations and 45 hidden relations. The file date is 2026-10-21.
 
@@ -116,12 +116,12 @@ Keep the 2-page limit. Print the gap rank, the gap title, the match name, and th
 
 The walkthrough lasts 20 minutes. Use the teaser and the ecosystem map. Do not open `/p/home` in the walkthrough.
 
-The map slice shows the 21 Wave 1 companies. It shows the gaps their sustainability reports name. It shows the startups and funders that can close those gaps. It hides the 13 Wave 2 names. Show a pin only for a verified street address. Show location unknown for every other actor. Show a public relation only when the quote check passes.
+The map slice shows the 21 Wave 1 companies. It shows the gaps their sustainability reports name. It shows the startups and funders that can close those gaps. It hides the 13 Wave 2 names. Show a pin only for a verified street address. Show location unknown for every other actor. Show a `public_quote` relation only when the quote check passes. Show a `cth_cohort` relation when the CTH page publishes the fact. No quote is needed for that row.
 
 The milestone is complete when all of these tests pass.
 
 1. The teaser JSON validates against the contract in section 8.
-2. Every match has a public quote on the cited page.
+2. Every `public_quote` match has a public quote on the cited page. A `cth_cohort` match uses the CTH page. It does not need a quote.
 3. The teaser uses one Wave 1 company, and Gideon has picked that name.
 4. The map shows no Colombia pin without `precision` `address`.
 5. `/p/home` has no `Actividad reciente` block.
@@ -233,7 +233,7 @@ Two match kinds exist.
 - `theme_match`: the quote names the startup or the funder and the theme. The quote does not name the corporate.
 - `actor_relation`: the quote names the corporate and the startup or funder, and it names the link.
 
-A `theme_match` may appear in the teaser. A `theme_match` must not enter `relations.json`. An `actor_relation` may enter the graph only after `verify_relation_quotes.py` passes.
+A `theme_match` may appear in the teaser. A `theme_match` must not enter `relations.json`. An `actor_relation` with `evidence_type` `public_quote` may enter the graph only after `verify_relation_quotes.py` passes. A `cth_cohort` relation may enter the graph from the CTH page. No quote is needed.
 
 The gap taxonomy in section 8 is a draft. The status line is **to agree with the Datalab desk**.
 
@@ -261,8 +261,8 @@ Size: medium for the schema, the fixtures, and one Wave 1 teaser. That teaser ne
 
 ### Acceptance tests
 
-1. `teaser.schema.json` rejects a match with no `public_source_url`.
-2. `teaser.schema.json` rejects a match with no `public_quote`.
+1. `teaser.schema.json` rejects a `public_quote` match with no `public_source_url`.
+2. `teaser.schema.json` rejects a `public_quote` match with no `public_quote`. A `cth_cohort` match may omit the quote.
 3. `teaser.schema.json` rejects a gap with more than 5 matches.
 4. The valid fixture cites a page that contains the quote.
 5. `relations.json` is unchanged by the pair.
@@ -428,7 +428,7 @@ A blank company name is allowed in a fixture. A CSO-ready file must use one Wave
 
 Build the Colombia map with the same rules as the Peru map.
 
-Use a public page or an official directory as the source. Strip email, phone, Drive links, and Canva links. Pin the actor only when the page gives a street address. Set location unknown when the page gives no street address. Add a public relation only through the quote catalog and `verify_relation_quotes.py`.
+Use a public page or an official directory as the source. Strip email, phone, Drive links, and Canva links. Pin the actor only when the page gives a street address. Set location unknown when the page gives no street address. Add a `public_quote` relation only through the quote catalog and `verify_relation_quotes.py`. A `cth_cohort` relation uses the CTH page. The script skips its quote check.
 
 The first wave is the 21 Wave 1 companies in section 5.4. Add each company. Take the gaps from that company's public sustainability report. Add the startups and funders that can close those gaps. Each match needs a public source.
 
@@ -448,7 +448,7 @@ Run the maker and the checker as a pair. Use model `composer-2.5` for both jobs.
 
 **Maker.** Add the Wave 1 companies in sector batches. Use the batches in the effort line below. Copy the field shape from the Peru ingest. Set `geo.precision` to `address` only with a street address and a source URL. Set every other new actor to location unknown. Quote each gap from the company sustainability report. Add match quotes only in `ops/ecosystem/graph_relation_evidence.json` when the quote names both actors and the relation. Run the sync script.
 
-**Checker.** Run `ops/geo/location_audit.py` logic against the new rows. Run `scripts/ecosystem/verify_relation_quotes.py`. Fail any new pin whose precision is not `address`. Fail any new public relation that lacks a verbatim quote. Fail the job if a Wave 2 name appears on the wave-1 layer. Fail the job if a person name is in the new rows.
+**Checker.** Run `ops/geo/location_audit.py` logic against the new rows. Run `scripts/ecosystem/verify_relation_quotes.py`. Fail any new pin whose precision is not `address`. Fail any new `public_quote` relation that lacks a verbatim quote. Pass a `cth_cohort` relation that cites the CTH page and has no quote. Fail the job if a Wave 2 name appears on the wave-1 layer. Fail the job if a person name is in the new rows.
 
 ### Data sources
 
@@ -479,7 +479,7 @@ Each batch reads the public sustainability reports and quotes the gaps those rep
 
 1. Every new Colombia pin has `precision` `address`, a street string, and a `source_url`.
 2. An actor with no street address has no lat-lng pin.
-3. `verify_relation_quotes.py` exits 0.
+3. `verify_relation_quotes.py` exits 0. The script skips `evidence_type` `cth_cohort`.
 4. The public bundle has no new email, phone, Drive link, or Canva link.
 5. The wave-1 view lists the 21 Wave 1 companies and their sourced matches. It does not list a Wave 2 name.
 6. `co-ipse` no longer cites the Peru map as its source.
@@ -590,11 +590,13 @@ Stop until the founder consents. Stop if the founder limits the wording. Use tha
 
 Each CLP touchpoint, Academy touchpoint, and investor-matching touchpoint can add one verified relation. Log the outcome in the private tier. The outcome is `meeting`, `pilot`, `money`, or `none`.
 
-The public count today is 40. The aim is more than 200 public relations. The aim does not override the quote rule.
+The public count today is 40. The aim is more than 200 public relations. The aim does not override the quote rule for a third-party claim.
 
-A public relation still needs a public source. The source must name both actors and the relation. The quote must be verbatim on that page. An attendance list is not a public source. An intro email is not a public source. A staff note is not a public source.
+A `public_quote` relation still needs a public source. The source must name both actors and the relation. The quote must be verbatim on that page. An attendance list is not a public source. An intro email is not a public source. A staff note is not a public source.
 
-Put those internal records in Odoo. Section 12 is the field map. Do not add a new private file in git. Promote a private row only when a public page carries the quote.
+CTH cohort data is exempt. Decided (Gideon 22 Oct 10:02 COT). The cohorts are CLP, the Academy, and other CTH programmes. CTH may publish that data on its own website. No quote is needed. No outside source is needed. No outside location is needed beyond CTH's own publication.
+
+Put third-party records in Odoo until a public page carries the quote. Put cohort facts on the CTH page. Section 12 is the field map. Do not add a new private file in git. Promote a third-party row only when a public page carries the quote. Publish a `cth_cohort` row from the CTH page with no quote.
 
 Keep batches small. A batch of 10 new quotes is easier to check than a batch of 50.
 
@@ -618,7 +620,7 @@ Later batches use the same pair shape. The maker adds quotes. The checker runs t
 
 ### Data sources
 
-Use a public page for a public relation. Use Odoo for the private outcome. CLP, Academy, and investor-matching staff supply the private outcome. They do not supply the public quote.
+Use an outside page for a `public_quote` relation. Use the CTH page for a `cth_cohort` relation. Use Odoo for the private outcome. CLP, Academy, and investor-matching staff supply the private outcome. They do not supply a third-party quote.
 
 ### Dependencies
 
@@ -631,15 +633,15 @@ Size: large for the prerequisite pair. That pair covers the ecosystem actor file
 ### Acceptance tests
 
 1. The sample outcome is absent from `static/ecosystem/data/`.
-2. `verify_relation_quotes.py` exits 0.
-3. Every new public relation has a quote on the live page.
+2. `verify_relation_quotes.py` exits 0. The script skips `evidence_type` `cth_cohort`.
+3. Every new `public_quote` relation has a quote on the live page. A `cth_cohort` relation has no quote check. Its source is the CTH page.
 4. The public count rises only by rows that pass the script.
 5. Hidden rows stay `verified: false`.
 6. The sync script deletes a self-loop row. The script does not keep a self-loop as a hidden row.
 
 ### HITL
 
-Stop when the quote is almost right but not verbatim. Leave the row hidden. Stop when the page names one actor only. A human accepts a borderline name variant. The script result wins over a model opinion.
+Stop when a `public_quote` is almost right but not verbatim. Leave that row hidden. Do not hide a `cth_cohort` row for a missing quote. Stop when the page names one actor only. A human accepts a borderline name variant. The script result wins over a model opinion for a `public_quote` row.
 
 ## 12. Private evidence tier
 
@@ -658,7 +660,7 @@ Odoo `res.partner` is the source of truth for CLP26 startups, founders, and ment
 - `app/nexus-ideas/scripts/epic_odoo_wiki_sync.py` copies Odoo to the wiki.
 - `app/nexus-ideas/scripts/epic_founders_pipeline.py` copies Odoo to the wiki and then to Nexus.
 
-The public site does not read Odoo. A public relation still needs `public_source_url` and `public_quote`.
+The public site does not read Odoo. A `public_quote` relation still needs `public_source_url` and `public_quote`. A `cth_cohort` relation does not need a quote. Its source is the CTH page that publishes the fact.
 
 ### What the repo does not confirm
 
@@ -714,7 +716,9 @@ Voice, 22 Oct 09:56 COT. Decided. A public actor card may show only these fields
 - A match score that is a staff opinion.
 - An outcome that exists only in a CTH record.
 
-`consent_to_publish` does not replace the quote rule. A public relation still needs `public_source_url` and `public_quote`.
+`consent_to_publish` does not replace the quote rule for a third-party claim. A `public_quote` relation still needs `public_source_url` and `public_quote`. A `cth_cohort` relation does not need a quote. Its source is the CTH page. Section 13 states the open guardrails. An outcome of money or a pilot is one of those open points.
+
+**Proposal.** Add a relation field `evidence_type`. The values are `public_quote` and `cth_cohort`. For `cth_cohort`, the source is the CTH page that publishes the fact. `verify_relation_quotes.py` skips the quote check. This implementation is a proposal.
 
 ### Open question for Gideon
 
@@ -724,7 +728,15 @@ Do not decide this in the plan. The ecosystem card in `static/ecosystem/ecosyste
 
 These points disagree with a straight reading of the targets.
 
-The target of 200 public relations can force weak relations. Keep the quote rule as the floor. Count only rows that pass `verify_relation_quotes.py`. Leave a weak row hidden. A batch stops when the quotes run out.
+The target of 200 public relations can force weak relations. Keep the quote rule as the floor for a third-party claim. Count a `public_quote` row only when it passes `verify_relation_quotes.py`. Leave a weak third-party row hidden. A batch stops when the outside quotes run out.
+
+The cohort exemption in section 15 stands. These guardrails stay open.
+
+The privacy ban still applies. Do not publish a personal email, a phone number, a home address, an attendance list, a Drive link, or a Canva link.
+
+An outcome such as money or a pilot needs the startup's consent before CTH publishes it.
+
+Only cohort facts that CTH itself ran qualify. Those facts are participation, the cohort, and the programme. A third-party claim still needs a verbatim quote.
 
 Move 3A is the cheapest pair. It must land before a CSO sees the product. It is a parallel gate. It is not the milestone. The milestone stays the CSO demo path.
 
@@ -811,7 +823,8 @@ Record one yes or no for each line.
     - That extra data also needs a separate GO.
     - Use company pages only.
     - Do not use a person profile.
-25. Confirm that secrets stay in Infisical.
+25. Data from CTH's own cohorts (CLP, the Academy, and other CTH programmes) is proprietary CTH data. CTH may publish it on its own website. The public-source rule does not apply to it. The verbatim-quote rule does not apply to it. No quote is needed. No outside source or location is needed beyond CTH's own publication. Decided (Gideon 22 Oct 10:02 COT).
+26. Confirm that secrets stay in Infisical.
 
 Open question. Do not decide it here. The ecosystem card also shows a two-letter mark, a role, and a LinkedIn link. Gideon says which of those stay.
 
@@ -825,5 +838,5 @@ Open question. Do not decide it here. The ecosystem card also shows a two-letter
 6. Patch the live Caddy file the same way. Run `caddy validate` before reload.
 7. When a company's own public website links to its LinkedIn company page, record that link. Use that link. Do not scrape LinkedIn directly. Do not scrape LinkedIn broadly. Follow only a LinkedIn link that appears on the company's public site. Decided (Gideon 22 Oct), see constraint. Voice, 22 Oct 09:59 COT. Never log in to LinkedIn. Never use LinkedIn in the box browser. Never use LinkedIn in a headless crawler. The allowed data is the LinkedIn URL as found on the site, the date, and the citing page. Any extra LinkedIn data needs a sanctioned route and a separate GO. Use company pages only. Do not use a person profile.
 8. Keep secrets in Infisical. The host name `secrets.cleantechhub.net` is the secrets endpoint. Do not copy a secret into git, into the Caddy file, or into this plan.
-9. A public relation needs a source that names both actors and the relation, plus a verbatim quote.
+9. A `public_quote` relation needs a source that names both actors and the relation, plus a verbatim quote. A `cth_cohort` relation is exempt. Decided (Gideon 22 Oct 10:02 COT). The source is the CTH page that publishes the fact. No quote is needed. No outside source is needed. Proposal: `evidence_type` is `public_quote` or `cth_cohort`. `verify_relation_quotes.py` skips the quote check for `cth_cohort`.
 10. A CSO-facing page must not show demo activity or an unsourced capital figure.
