@@ -21,6 +21,70 @@ export function hasPlottableGeo(actor) {
   return g.precision === 'address';
 }
 
+const NAME_TO_CC = {
+  peru: 'PE',
+  'el salvador': 'SV',
+  colombia: 'CO',
+  guatemala: 'GT',
+  'costa rica': 'CR',
+};
+
+const PREFIX_CC = {
+  pe: 'PE',
+  sv: 'SV',
+  co: 'CO',
+  gt: 'GT',
+  cr: 'CR',
+};
+
+function foldCountry(value) {
+  return String(value || '').normalize('NFD').replace(/\p{M}/gu, '').trim().toLowerCase();
+}
+
+/** Catalogue country: name first, then id prefix (co-… is CO). */
+export function actorCountryCode(actor) {
+  const folded = foldCountry(actor?.country);
+  if (NAME_TO_CC[folded]) return NAME_TO_CC[folded];
+  if (folded.length === 2 && PREFIX_CC[folded]) return folded.toUpperCase();
+  const prefix = String(actor?.id || '').split('-')[0]?.toLowerCase();
+  return PREFIX_CC[prefix] || null;
+}
+
+/**
+ * Street line for popups, cards, and tooltips.
+ * Colombia keeps the pin coordinates and omits the street text.
+ */
+export function visibleStreetAddress(actor) {
+  if (actorCountryCode(actor) === 'CO') return '';
+  return String(actor?.geo?.address || '').trim();
+}
+
+/** City / country labels. Colombia city text loses an embedded street line. */
+export function visiblePlaceParts(actor) {
+  let city = String(actor?.city || '').trim();
+  const country = String(actor?.country || '').trim();
+  if (actorCountryCode(actor) === 'CO') {
+    const street = String(actor?.geo?.address || '').trim();
+    if (street && city.includes(street)) {
+      city = city.replace(street, '').replace(/^[\s,;·-]+|[\s,;·-]+$/g, '').trim();
+    }
+  }
+  return { city, country };
+}
+
+const STREET_FIELD = /^\s*(?:\|?\s*|[-*]\s*)?(?:\*\*)?(?:direcci[oó]n|address|street(?:\s+address)?)(?:\*\*)?\s*[:|]/i;
+
+/** Drop street-address text from rendered copy when the actor is CO. */
+export function redactPublicStreetText(actor, text) {
+  const raw = text == null ? '' : String(text);
+  if (actorCountryCode(actor) !== 'CO') return raw;
+  const street = String(actor?.geo?.address || '').trim();
+  const lines = raw.split('\n').filter((line) => !STREET_FIELD.test(line.replace(/\*/g, '')));
+  let out = lines.join('\n');
+  if (street) out = out.split(street).join('');
+  return out.replace(/[ \t]{2,}/g, ' ').replace(/\n{3,}/g, '\n\n').trim();
+}
+
 export function isLocationUnknown(actor) {
   return !hasPlottableGeo(actor);
 }
