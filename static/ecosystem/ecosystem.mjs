@@ -12,11 +12,15 @@ import {
   policyGeo,
 } from './story.mjs';
 import {
+  actorCountryCode,
   countryBadgeCounts,
   countryBadgeGeoJson,
   geoXY,
   hasPlottableGeo,
   isLocationUnknown,
+  redactPublicStreetText,
+  visiblePlaceParts,
+  visibleStreetAddress,
 } from './geo-utils.mjs';
 import { mountJourney } from './journey-view.mjs';
 import { sourcedJourneyStartups } from './journey.mjs';
@@ -265,6 +269,8 @@ let egoDepth = 2;
 
 let map = null;
 let mapReady = false;
+let pinPopup = null;
+let pinTooltip = null;
 let graph = null;
 let sigma = null;
 let layoutPositions = new Map();
@@ -314,13 +320,6 @@ function normalizeCountryParam(raw) {
   const prefix = trimmed.toLowerCase().slice(0, 2);
   if (ID_PREFIX_COUNTRY[prefix]) return ID_PREFIX_COUNTRY[prefix];
   return upper.length === 2 ? upper : null;
-}
-
-function actorCountryCode(actor) {
-  const fromField = countryCode(actor?.country);
-  if (fromField) return fromField;
-  const prefix = String(actor?.id || '').split('-')[0]?.toLowerCase();
-  return ID_PREFIX_COUNTRY[prefix] || null;
 }
 
 function publicGraphRelations() {
@@ -513,6 +512,7 @@ function initTabs() {
         renderAll();
       }
       if (tab === 'explore' && sigma) sigma.refresh();
+      syncPinPopup();
     });
   });
 }
@@ -799,10 +799,21 @@ function updateMapLayers(scene = null) {
       });
       map.on('click', 'pins', (e) => {
         const id = e.features[0].properties.id;
+        hidePinTooltip();
         selectActor(id);
       });
-      map.on('mouseenter', 'pins', () => { map.getCanvas().style.cursor = 'pointer'; });
-      map.on('mouseleave', 'pins', () => { map.getCanvas().style.cursor = ''; });
+      map.on('mouseenter', 'pins', (e) => {
+        map.getCanvas().style.cursor = 'pointer';
+        const id = e.features?.[0]?.properties?.id;
+        const actor = byId.get(id);
+        if (!actor) return;
+        const lngLat = e.features[0].geometry.coordinates;
+        showPinTooltip(actor, lngLat);
+      });
+      map.on('mouseleave', 'pins', () => {
+        map.getCanvas().style.cursor = '';
+        hidePinTooltip();
+      });
       map.addLayer({
         id: 'country-badges',
         type: 'symbol',
@@ -826,6 +837,62 @@ function updateMapLayers(scene = null) {
   };
   apply();
   renderGeoUnknownPanel(ids);
+  syncPinPopup();
+}
+
+function pinPopupHtml(actor) {
+  const street = visibleStreetAddress(actor);
+  const place = visiblePlaceParts(actor);
+  const placeText = [place.city, place.country].filter(Boolean).join(', ');
+  const streetHtml = street
+    ? `<div class="eco-pin-address">${esc(street)}</div>`
+    : '';
+  const placeHtml = placeText
+    ? `<div class="eco-pin-place">${esc(placeText)}</div>`
+    : '';
+  return `<div class="eco-pin-popup-body"><strong>${esc(actor.name)}</strong>${placeHtml}${streetHtml}</div>`;
+}
+
+function hidePinTooltip() {
+  if (pinTooltip) pinTooltip.remove();
+}
+
+function showPinTooltip(actor, lngLat) {
+  if (!map || !lngLat) return;
+  const html = pinPopupHtml(actor);
+  if (!pinTooltip) {
+    pinTooltip = new maplibregl.Popup({
+      closeButton: false,
+      closeOnClick: false,
+      className: 'eco-pin-tooltip',
+      offset: 10,
+      maxWidth: '240px',
+    });
+  }
+  pinTooltip.setLngLat(lngLat).setHTML(html).addTo(map);
+}
+
+function syncPinPopup() {
+  if (!map || !mapReady || viewMode !== 'explore') {
+    if (pinPopup) pinPopup.remove();
+    return;
+  }
+  const actor = selected ? byId.get(selected) : null;
+  if (!actor || !hasPlottableGeo(actor)) {
+    if (pinPopup) pinPopup.remove();
+    return;
+  }
+  if (!pinPopup) {
+    pinPopup = new maplibregl.Popup({
+      closeButton: true,
+      closeOnClick: false,
+      className: 'eco-pin-popup',
+      offset: 14,
+      maxWidth: '260px',
+      anchor: 'bottom',
+    });
+  }
+  pinPopup.setLngLat([actor.geo.lng, actor.geo.lat]).setHTML(pinPopupHtml(actor)).addTo(map);
 }
 
 function crosslinkSection(title, items, tr) {
@@ -966,8 +1033,8 @@ function renderInspector(id) {
   const hubRow = hubSlug
     ? `<a href="/hubs/${esc(hubSlug)}/" target="_blank" rel="noopener">${tr.hubPage}${esc(hubSlug)}</a>`
     : '';
-  const roleText = cardField(a, 'ecosystem_role');
-  const descText = cardField(a, 'description');
+  const roleText = redactPublicStreetText(a, cardField(a, 'ecosystem_role'));
+  const descText = redactPublicStreetText(a, cardField(a, 'description'));
   const yearText = cardField(a, 'founding_year');
   const detailBits = [
     roleText ? `<p class="meta"><strong>${esc(tr.cardRole)}:</strong> ${esc(roleText)}</p>` : '',
@@ -1029,6 +1096,8 @@ function clearSelection(fullRender = true) {
   $('#workspace').classList.add('no-inspector');
   $('#inspector').classList.add('empty');
   $('#inspector').innerHTML = `<p class="inspector-empty">${esc(t().inspectorEmpty)}</p>`;
+  hidePinTooltip();
+  syncPinPopup();
   if (fullRender) renderAll(false);
 }
 
@@ -1050,10 +1119,11 @@ function renderCards(list) {
     const catLabel = tr.cats[a.category] || a.category;
     const catColor = CAT_COLOR[a.category] || CAT_COLOR.default;
     const slug = a.nexus?.card_slug;
-    const role = cardField(a, 'ecosystem_role');
-    const desc = cardField(a, 'description');
+    const role = redactPublicStreetText(a, cardField(a, 'ecosystem_role'));
+    const desc = redactPublicStreetText(a, cardField(a, 'description'));
     const year = cardField(a, 'founding_year');
-    const locParts = [a.city, a.country].filter(Boolean);
+    const place = visiblePlaceParts(a);
+    const locParts = [place.city, place.country].filter(Boolean);
     let locLine = locParts.length ? locParts.map((x) => esc(x)).join(', ') : esc(a.country || '');
     if (a.geo?.hq_abroad) {
       locLine += ` <span class="hq-abroad-chip" title="${esc(tr.hqAbroadHint)}">${esc(tr.hqAbroad)}</span>`;

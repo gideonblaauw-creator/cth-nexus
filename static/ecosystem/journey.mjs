@@ -4,7 +4,7 @@
  */
 
 import { isChallengeId, isDatasetId, isPublicGraphRelation } from './story.mjs';
-import { hasPlottableGeo } from './geo-utils.mjs';
+import { hasPlottableGeo, visiblePlaceParts, visibleStreetAddress } from './geo-utils.mjs';
 
 const BLOCKED_URL = /drive\.google|docs\.google|canva\.com|^mailto:|^tel:/i;
 
@@ -409,11 +409,15 @@ export function startupVerifiedFacts(actor, { stat } = {}) {
   const pin = streetPinFor(actor);
   const website = isPublicHttpUrl(actor?.website) ? actor.website.trim() : null;
   const cited = stat && isPublicHttpUrl(stat.source_url) ? stat : null;
+  const street = visibleStreetAddress(actor);
+  const place = visiblePlaceParts(actor);
+  const placeText = [place.city, place.country].filter(Boolean).join(', ');
+  const locationText = street || (pin ? placeText : '');
   return {
     name: actor?.name || '',
     website,
-    location: pin
-      ? { status: 'address', text: String(actor?.geo?.address || '').trim() }
+    location: pin && locationText
+      ? { status: 'address', text: locationText }
       : { status: 'unknown', text: '' },
     stat: cited,
   };

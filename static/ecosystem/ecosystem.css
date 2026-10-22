@@ -262,6 +262,21 @@ body[data-brand="rein"] .toggle-pill button.active {
 }
 .eco-map .maplibregl-canvas { outline: none; }
 
+.eco-pin-popup .maplibregl-popup-content,
+.eco-pin-tooltip .maplibregl-popup-content {
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 1.35;
+  color: var(--deep-blue, #0c498a);
+  padding: 8px 10px;
+}
+.eco-pin-popup-body strong { display: block; }
+.eco-pin-place,
+.eco-pin-address {
+  margin-top: 3px;
+  color: var(--color-muted, #4a6274);
+}
+
 .inspector {
   background: #fafcfe;
   border-left: 1px solid var(--color-border);
