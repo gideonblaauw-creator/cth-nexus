@@ -48,4 +48,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.rainforest-alliance.org
 - Misión y certificación — https://www.rainforest-alliance.org/
-- Perfil en LinkedIn — https://www.linkedin.com/company/rainforest-alliance

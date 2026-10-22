@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.iadb.org |
-| LinkedIn | https://www.linkedin.com/company/inter-american-development-bank |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Banco de desarrollo multilateral y brazos de innovación/inversión. |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
@@ -47,4 +47,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.iadb.org
 - https://www.iadb.org/
-- https://www.linkedin.com/company/inter-american-development-bank

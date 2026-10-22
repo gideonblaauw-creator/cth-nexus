@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.ciudadsaludable.org |
-| LinkedIn | https://www.linkedin.com/company/ciudad-saludable |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | ONG de gestión de residuos sólidos y reciclaje inclusivo con recicladores en ciudades peruanas. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
@@ -55,4 +55,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.ciudadsaludable.org — misión y alcance de la organización
 - Misión y programas — https://www.ciudadsaludable.org/
-- Perfil en LinkedIn — https://www.linkedin.com/company/ciudad-saludable

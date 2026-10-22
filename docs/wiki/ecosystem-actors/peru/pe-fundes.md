@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://fundes.org |
-| LinkedIn | https://www.linkedin.com/company/fundes |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Consultoría de impacto y desarrollo de negocios inclusivos en América Latina. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
@@ -47,4 +47,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://fundes.org — sitio FUNDES
-- https://www.linkedin.com/company/fundes — perfil LinkedIn

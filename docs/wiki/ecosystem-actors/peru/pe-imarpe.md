@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Callao |
 | Sitio web | https://www.gob.pe/imarpe |
-| LinkedIn | https://www.linkedin.com/company/instituto-del-mar-del-per%C3%BA-imarpe |
+| LinkedIn | https://www.linkedin.com/company/imarpe |
 | Rol en el ecosistema | Instituto de investigación pesquera del Estado peruano |
 | Desafíos (códigos) | BOS |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-imarpe](https://nexus.cleantechhub.net/ecosystem/?actor=pe-imarpe) |
@@ -53,4 +53,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.gob.pe/imarpe
 - Instituto en Plataforma del Estado Peruano — https://www.gob.pe/imarpe
-- Perfil en LinkedIn — https://www.linkedin.com/company/instituto-del-mar-del-per%C3%BA-imarpe

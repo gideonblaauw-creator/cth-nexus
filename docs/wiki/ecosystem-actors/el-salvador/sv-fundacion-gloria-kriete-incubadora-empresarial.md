@@ -23,7 +23,7 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://fundaciongloriakriete.org |
-| LinkedIn | https://www.linkedin.com/company/fundaci%C3%B3n-gloria-kriete |
+| LinkedIn | https://www.linkedin.com/company/fundacion-gloria-kriete |
 | Rol en el ecosistema | Programa de incubación empresarial de la Fundación Gloria Kriete. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
@@ -50,4 +50,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Rol en el ecosistema — https://fundaciongloriakriete.org
 - Descripción — https://fundaciongloriakriete.org
 - Misión de la Fundación Gloria Kriete — https://fundaciongloriakriete.org/
-- Perfil en LinkedIn — https://www.linkedin.com/company/fundaci%C3%B3n-gloria-kriete

@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Barranco, Lima |
 | Sitio web | https://grade.org.pe |
-| LinkedIn | https://www.linkedin.com/company/grade-peru |
+| LinkedIn | https://www.linkedin.com/company/leer-no-basta |
 | Rol en el ecosistema | Centro de investigación aplicada en economía, políticas públicas y desarrollo. |
 | Dirección | Calle González Prada 184, Barranco, Lima |
 | Año de fundación | 1987 |
@@ -47,6 +47,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://grade.org.pe — sitio GRADE
-- https://www.linkedin.com/company/grade-peru — perfil LinkedIn GRADE
 - GRADE — https://grade.org.pe/quienes-somos/
-- LinkedIn — https://www.linkedin.com/company/gradeperu

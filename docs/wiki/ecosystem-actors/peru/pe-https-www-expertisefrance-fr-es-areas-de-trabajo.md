@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.expertisefrance.fr |
-| LinkedIn | https://www.linkedin.com/company/expertise-france |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Agencia francesa de cooperación técnica internacional. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
@@ -53,4 +53,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.expertisefrance.fr — portal Expertise France
 - Expertise France — https://www.expertisefrance.fr/es/areas-de-trabajo
-- LinkedIn — https://www.linkedin.com/company/expertise-france

@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Arequipa |
 | Sitio web | https://libelula.com.pe |
-| LinkedIn | https://www.linkedin.com/company/lib%C3%A9lula |
+| LinkedIn | https://www.linkedin.com/company/libelula |
 | Rol en el ecosistema | Consultoría y acción climática empresarial |
 | Desafíos (códigos) | ENE, CIU |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-libelula](https://nexus.cleantechhub.net/ecosystem/?actor=pe-libelula) |
@@ -53,4 +53,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://libelula.com.pe
 - https://libelula.com.pe/
-- https://www.linkedin.com/company/lib%C3%A9lula

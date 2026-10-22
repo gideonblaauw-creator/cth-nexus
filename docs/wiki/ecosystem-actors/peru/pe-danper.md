@@ -47,6 +47,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://danper.com — sitio corporativo
-- https://www.linkedin.com/company/danperperu — perfil LinkedIn
 - https://danper.com/
-- https://www.linkedin.com/company/danper

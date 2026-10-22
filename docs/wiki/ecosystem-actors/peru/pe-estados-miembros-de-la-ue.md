@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.eeas.europa.eu/delegations/perú_es?s=162 |
-| LinkedIn | https://www.linkedin.com/company/ueenperu |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Cooperación y relación institucional de la Unión Europea y sus Estados miembros con el Perú. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
@@ -53,4 +53,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.eeas.europa.eu/delegations/peru_es — Delegación de la UE en Perú
 - Delegación UE en Perú — https://www.eeas.europa.eu/delegations/per%C3%BA_es
-- LinkedIn Delegación UE Perú — https://www.linkedin.com/company/delegation-of-the-european-union-to-peru

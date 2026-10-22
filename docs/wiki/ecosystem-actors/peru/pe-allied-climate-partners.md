@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.alliedclimate.org |
-| LinkedIn | https://www.linkedin.com/company/allied-climate-partners |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Inversión filantrópica en clima. |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | ENE, FIN |
@@ -47,5 +47,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.alliedclimate.org
 - https://www.alliedclimate.org/
-- https://www.linkedin.com/company/allied-climate-partners
-- https://www.linkedin.com/company/allied-climate-partners/

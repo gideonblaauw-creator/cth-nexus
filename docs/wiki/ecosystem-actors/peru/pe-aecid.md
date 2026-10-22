@@ -46,5 +46,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.aecid.es
-- https://www.linkedin.com/company/agencia-espa-ola-de-cooperacion-internacional---aecid
 - https://www.aecid.es/

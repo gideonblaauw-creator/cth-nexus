@@ -23,7 +23,7 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://www.conamype.gob.sv |
-| LinkedIn | https://www.linkedin.com/company/conamype |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Entidad gubernamental de apoyo a la micro, pequeña y mediana empresa. |
 | Dirección | PENDIENTE |
 | Año de fundación | 2006 |
@@ -52,4 +52,3 @@ Comisión Nacional de la Micro y Pequeña Empresa
 - Año de fundación — https://www.conamype.gob.sv
 - https://www.conamype.gob.sv/
 - https://www.conamype.gob.sv/marco-institucional/
-- https://www.linkedin.com/company/conamype

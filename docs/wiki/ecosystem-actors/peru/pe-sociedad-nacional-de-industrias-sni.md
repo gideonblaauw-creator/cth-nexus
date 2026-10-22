@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://sni.org.pe |
-| LinkedIn | https://www.linkedin.com/company/sociedad-nacional-de-industrias |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Cámara o gremio |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-sociedad-nacional-de-industrias-sni](https://nexus.cleantechhub.net/ecosystem/?actor=pe-sociedad-nacional-de-industrias-sni) |
@@ -51,4 +51,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - https://sni.org.pe
 - Sitio institucional SNI — https://sni.org.pe/
 - Dirección en San Isidro — https://sni.org.pe/contacto/
-- Perfil en LinkedIn — https://www.linkedin.com/company/sociedad-nacional-de-industrias

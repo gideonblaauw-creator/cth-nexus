@@ -23,7 +23,7 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://www.bancoazul.com |
-| LinkedIn | https://www.linkedin.com/company/banco-azul |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Institución financiera |
 | Desafíos (códigos) | FIN |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=sv-banco-azul](https://nexus.cleantechhub.net/ecosystem/?actor=sv-banco-azul) |
@@ -53,4 +53,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.bancoazul.com
 - https://www.bancoazul.com/
-- https://www.linkedin.com/company/banco-azul

@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Nairobi (sede); programa Perú |
 | Sitio web | https://unhabitat.org |
-| LinkedIn | https://www.linkedin.com/company/unhabitat/ |
+| LinkedIn | https://www.linkedin.com/company/un-habitat-united-nation-human-settlements-programme- |
 | Rol en el ecosistema | Programa de las Naciones Unidas para asentamientos humanos |
 | Desafíos (códigos) | AGR |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-onu-habitat](https://nexus.cleantechhub.net/ecosystem/?actor=pe-onu-habitat) |
@@ -52,4 +52,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://unhabitat.org
-- https://www.linkedin.com/company/unhabitat/

@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.fundacionwiese.org |
-| LinkedIn | https://www.linkedin.com/company/fundacionwiese |
+| LinkedIn | https://www.linkedin.com/company/fundacionwiesepe |
 | Rol en el ecosistema | Fundación peruana de educación, patrimonio y emprendimiento con impacto comunitario. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
@@ -47,4 +47,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.fundacionwiese.org — sitio institucional
-- https://www.linkedin.com/company/fundacionwiese — perfil LinkedIn

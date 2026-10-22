@@ -23,7 +23,7 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://agrisal.com |
-| LinkedIn | https://www.linkedin.com/company/grupo-agrisal |
+| LinkedIn | https://www.linkedin.com/company/agrisal |
 | Rol en el ecosistema | Grupo empresarial diversificado (inmobiliario, hotelero, agroindustrial). |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |

@@ -23,7 +23,7 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://camtex.com.sv |
-| LinkedIn | https://www.linkedin.com/company/camtex-el-salvador |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Cámara textil y de confecciones de El Salvador; vincula empresas del sector exportador. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
@@ -49,4 +49,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Sitio web — https://camtex.com.sv
 - Rol en el ecosistema — https://camtex.com.sv
 - Quiénes somos CAMTEX — https://camtex.com.sv/quienes-somos/
-- Perfil en LinkedIn — https://www.linkedin.com/company/camtex-el-salvador

@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.ulima.edu.pe |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/camaraperuanobritanica |
 | Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-innovaul-universidad-de-lima](https://nexus.cleantechhub.net/ecosystem/?actor=pe-innovaul-universidad-de-lima) |

@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | San Isidro |
 | Sitio web | https://www.gob.pe/agroideas |
-| LinkedIn | https://linkedin.com/company/agroideas-del-minagri |
+| LinkedIn | https://www.linkedin.com/company/agroideas-del-minagri |
 | Rol en el ecosistema | Programa público de competitividad agraria. |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | BOS |
@@ -46,5 +46,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.gob.pe/agroideas
-- https://linkedin.com/company/agroideas-del-minagri
 - Identidad y sede del programa — https://www.gob.pe/agroideas

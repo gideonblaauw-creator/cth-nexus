@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Iquitos |
 | Sitio web | https://portal.unapiquitos.edu.pe |
-| LinkedIn | https://www.linkedin.com/school/universidad-nacional-de-la-amazonia-peruana/ |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Universidad o centro de investigación |
 | Desafíos (códigos) | AGR, BOS, CIU |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-unap-universidad-nacional-de-la-amazonia-peruana](https://nexus.cleantechhub.net/ecosystem/?actor=pe-unap-universidad-nacional-de-la-amazonia-peruana) |

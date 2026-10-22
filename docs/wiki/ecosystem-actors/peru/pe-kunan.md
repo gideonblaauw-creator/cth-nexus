@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://kunan.org/ |
-| LinkedIn | https://www.linkedin.com/company/kunanesahora |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-kunan](https://nexus.cleantechhub.net/ecosystem/?actor=pe-kunan) |
@@ -51,4 +51,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.kunan.com.pe
 - Kunan — https://kunan.org/desafio-kunan/
-- LinkedIn — https://www.linkedin.com/company/kunanesahora

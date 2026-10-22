@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Madrid, España (sede fundación) |
 | Sitio web | https://www.fundacionmicrofinanzasbbva.org |
-| LinkedIn | https://www.linkedin.com/company/fundacion-microfinanzas-bbva |
+| LinkedIn | https://www.linkedin.com/company/11015767 |
 | Rol en el ecosistema | Iniciativa filantrópica del Grupo BBVA para microfinanzas e inclusión financiera en América Latina. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
@@ -47,6 +47,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.fundacionmicrofinanzasbbva.org — portal oficial
-- https://www.linkedin.com/company/fundaci%C3%B3n-microfinanzas-bbva — perfil LinkedIn
 - https://www.fundacionmicrofinanzasbbva.org
-- https://www.linkedin.com/company/fundaci%C3%B3n-microfinanzas-bbva

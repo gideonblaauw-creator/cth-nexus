@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Santiago de Surco |
 | Sitio web | https://triplejump.eu |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/2601512 |
 | Rol en el ecosistema | Financiador e inversionista |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-triple-jump](https://nexus.cleantechhub.net/ecosystem/?actor=pe-triple-jump) |

@@ -47,4 +47,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://earthinnovation.org — misión institucional
-- https://www.linkedin.com/company/earth-innovation-institute — perfil LinkedIn

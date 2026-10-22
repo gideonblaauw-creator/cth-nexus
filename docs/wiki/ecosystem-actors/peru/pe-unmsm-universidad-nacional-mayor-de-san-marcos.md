@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.unmsm.edu.pe |
-| LinkedIn | https://www.linkedin.com/company/universidad-nacional-mayor-de-san-marcos |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Universidad o centro de investigación |
 | Desafíos (códigos) | CIU, ENE |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-unmsm-universidad-nacional-mayor-de-san-marcos](https://nexus.cleantechhub.net/ecosystem/?actor=pe-unmsm-universidad-nacional-mayor-de-san-marcos) |
@@ -51,4 +51,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - https://www.unmsm.edu.pe
 - UNMSM — https://www.unmsm.edu.pe/
 - 1551 — https://1551.unmsm.edu.pe/
-- LinkedIn UNMSM — https://www.linkedin.com/company/universidad-nacional-mayor-de-san-marcos

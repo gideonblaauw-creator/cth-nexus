@@ -22,7 +22,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://rebikeup.com/ |
-| LinkedIn | https://www.linkedin.com/company/rebike-up |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Startup del ecosistema |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-rebike-up](https://nexus.cleantechhub.net/ecosystem/?actor=pe-rebike-up) |
 

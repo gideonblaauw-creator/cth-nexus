@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://babasuventures.com/ |
-| LinkedIn | https://www.linkedin.com/company/babas%C3%BA-ventures/ |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Capital de riesgo de impacto. |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
@@ -46,6 +46,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://babasuventures.com/
-- https://www.linkedin.com/company/babas%C3%BA-ventures/
 - Misión, geografía y etapa de inversión — https://babasuventures.com/
-- Perfil en LinkedIn — https://www.linkedin.com/company/babasu

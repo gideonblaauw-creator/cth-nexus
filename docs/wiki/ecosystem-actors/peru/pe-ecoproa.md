@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://ecoproa.com/ |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/ecoproa |
 | Rol en el ecosistema | Empresa de soluciones postcosecha (Ecowax) para frutas de exportación. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |

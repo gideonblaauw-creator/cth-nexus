@@ -23,7 +23,7 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://gggi.org |
-| LinkedIn | https://www.linkedin.com/company/global-green-growth-institute |
+| LinkedIn | https://www.linkedin.com/company/gggi-asia |
 | Rol en el ecosistema | Instituto intergubernamental que apoya crecimiento verde e inclusivo. |
 | Dirección | PENDIENTE |
 | Año de fundación | 2012 |
@@ -48,5 +48,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - Sitio web — https://gggi.org
 - Rol en el ecosistema — https://gggi.org
-- LinkedIn (enlace público) — https://www.linkedin.com/company/global-green-growth-institute
 - Año de fundación — https://gggi.org/about/

@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.ccl.org.pe/ |
-| LinkedIn | https://www.linkedin.com/company/camaradelima |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Gremio / sistema de cámaras de comercio (CCL). |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
@@ -46,4 +46,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.ccl.org.pe/
-- https://www.linkedin.com/company/camaradelima

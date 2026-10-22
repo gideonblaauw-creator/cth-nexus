@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.gob.pe/midagri |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/midagri |
 | Rol en el ecosistema | Ministerio de agricultura, desarrollo rural y riego |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-midagri-ministerio-de-desarrollo-agrario-y-riego](https://nexus.cleantechhub.net/ecosystem/?actor=pe-midagri-ministerio-de-desarrollo-agrario-y-riego) |

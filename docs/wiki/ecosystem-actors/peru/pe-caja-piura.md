@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.cajapiura.pe |
-| LinkedIn | https://www.linkedin.com/company/caja-piura |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Institución financiera |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | CIR, ENE |
@@ -46,5 +46,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.cajapiura.pe
-- https://www.linkedin.com/company/caja-piura
-- https://pe.linkedin.com/company/caja-piura

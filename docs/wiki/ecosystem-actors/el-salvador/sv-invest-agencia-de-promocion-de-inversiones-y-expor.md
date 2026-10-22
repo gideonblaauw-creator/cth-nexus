@@ -49,6 +49,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Sitio web — https://investinelsalvador.gob.sv
 - Rol en el ecosistema — https://investinelsalvador.gob.sv
 - Descripción — https://investinelsalvador.gob.sv
-- LinkedIn (enlace público) — https://www.linkedin.com/company/investinelsalvador
 - Dirección — https://investinelsalvador.gob.sv/contact/
 - INVEST — https://investinelsalvador.gob.sv/
+- https://investinelsalvador.gob.sv/es

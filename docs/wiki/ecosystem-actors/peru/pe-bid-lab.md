@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Washington, D.C. |
 | Sitio web | https://bidlab.org/ |
-| LinkedIn | https://www.linkedin.com/company/idb-lab |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Innovación y venture del Banco Interamericano de Desarrollo. |
 | Año de fundación | 1993 |
 | Desafíos (códigos) | PENDIENTE |
@@ -47,4 +47,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://bidlab.org/
 - https://www.iadb.org/en/idb-lab
-- https://www.linkedin.com/company/idb-lab

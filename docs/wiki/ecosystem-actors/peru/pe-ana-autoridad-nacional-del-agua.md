@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima (San Isidro) |
 | Sitio web | https://www.gob.pe/ana |
-| LinkedIn | https://linkedin.com/company/autoridad-nacional-del-agua |
+| LinkedIn | https://www.linkedin.com/company/autoridad-nacional-del-agua |
 | Rol en el ecosistema | Autoridad nacional del agua. |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
@@ -46,4 +46,3 @@ La Autoridad Nacional del Agua (ANA) es el ente rector del recurso hídrico en e
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.gob.pe/ana
-- https://linkedin.com/company/autoridad-nacional-del-agua

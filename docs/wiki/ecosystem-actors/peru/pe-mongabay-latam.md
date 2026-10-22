@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://es.mongabay.com |
-| LinkedIn | https://www.linkedin.com/company/mongabay |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Medios y difusión |
 | Desafíos (códigos) | AZU, BOS |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-mongabay-latam](https://nexus.cleantechhub.net/ecosystem/?actor=pe-mongabay-latam) |
@@ -53,4 +53,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://es.mongabay.com
 - Cobertura ambiental en español — https://es.mongabay.com/
-- Perfil Mongabay en LinkedIn — https://www.linkedin.com/company/mongabay

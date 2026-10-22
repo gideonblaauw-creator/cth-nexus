@@ -22,7 +22,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.yakusmart.io/ |
-| LinkedIn | https://www.linkedin.com/company/yakusmart |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Startup del ecosistema |
 | Tarjeta Nexus | [nexus.cleantechhub.net/s/yakusmart](https://nexus.cleantechhub.net/s/yakusmart) |
 
@@ -50,5 +50,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - https://yakusmart.io/
 - https://yakusmart.io/es (descripción del producto)
 - YakuSmart — https://www.yakusmart.io/
-- LinkedIn — https://www.linkedin.com/company/yakusmart
 - ProInnóvate — https://www.gob.pe/institucion/proinnovate/noticias/1451423-startup-impulsada-por-proinnovate-optimiza-el-riego-agricola-para-incrementar-el-valor-exportable-de-las-frutas

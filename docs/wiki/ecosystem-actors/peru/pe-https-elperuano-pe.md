@@ -54,4 +54,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - https://elperuano.pe — portal El Peruano
 - El Peruano — https://elperuano.pe/
 - Normas legales — https://diariooficial.elperuano.pe/Normas
-- LinkedIn — https://www.linkedin.com/company/elperuano

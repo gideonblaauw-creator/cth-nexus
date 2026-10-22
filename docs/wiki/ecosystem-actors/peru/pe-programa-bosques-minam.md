@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.gob.pe/bosques |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/programa-nacional-de-conservaci-n-de-bosques |
 | Rol en el ecosistema | Programa nacional de conservación de bosques (MINAM) |
 | Desafíos (códigos) | BOS |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-programa-bosques-minam](https://nexus.cleantechhub.net/ecosystem/?actor=pe-programa-bosques-minam) |

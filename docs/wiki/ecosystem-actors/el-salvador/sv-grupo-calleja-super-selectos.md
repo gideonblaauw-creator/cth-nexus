@@ -23,7 +23,7 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://www.superselectos.com |
-| LinkedIn | https://www.linkedin.com/company/super-selectos/ |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Cadena de supermercados Super Selectos y operaciones del Grupo Calleja. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
@@ -56,4 +56,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Sitio web — https://www.superselectos.com
 - Rol en el ecosistema — https://www.superselectos.com
 - https://www.superselectos.com
-- https://www.linkedin.com/company/super-selectos/

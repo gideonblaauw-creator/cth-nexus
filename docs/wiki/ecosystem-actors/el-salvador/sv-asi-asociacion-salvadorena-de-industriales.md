@@ -23,7 +23,7 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://industriaelsalvador.com |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/asociacion-salvadore-a-de-industriales |
 | Rol en el ecosistema | Cámara o gremio |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=sv-asi-asociacion-salvadorena-de-industriales](https://nexus.cleantechhub.net/ecosystem/?actor=sv-asi-asociacion-salvadorena-de-industriales) |
@@ -45,3 +45,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://industriaelsalvador.com
+- https://industriaelsalvador.com/contacto/

@@ -23,7 +23,7 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://www.unep.org |
-| LinkedIn | https://www.linkedin.com/company/unep |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Programa de las Naciones Unidas para el Medio Ambiente. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
@@ -48,6 +48,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - Sitio web — https://www.unep.org
 - Rol en el ecosistema — https://www.unep.org
-- LinkedIn (enlace público) — https://www.linkedin.com/company/unep
 - https://www.unep.org/
-- https://www.linkedin.com/company/unep

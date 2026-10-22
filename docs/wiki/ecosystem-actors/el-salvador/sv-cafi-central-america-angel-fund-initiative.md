@@ -23,7 +23,7 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://cafi.vc |
-| LinkedIn | https://www.linkedin.com/company/cafivc |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Red de inversionistas ángeles e institucionales que respalda startups en Centroamérica. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
@@ -49,6 +49,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Sitio web — https://cafi.vc
 - Rol en el ecosistema — https://cafi.vc
 - Descripción — https://cafi.vc
-- LinkedIn (enlace público) — https://www.linkedin.com/company/cafivc
 - CAFI — https://cafi.vc/
-- LinkedIn — https://www.linkedin.com/company/cafivc

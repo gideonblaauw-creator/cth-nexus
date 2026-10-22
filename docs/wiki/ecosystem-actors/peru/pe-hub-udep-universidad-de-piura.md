@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Piura |
 | Sitio web | https://www.udep.edu.pe |
-| LinkedIn | https://www.linkedin.com/school/udepiura/ |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Universidad privada — hub de emprendimiento (HUB UDEP) |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-hub-udep-universidad-de-piura](https://nexus.cleantechhub.net/ecosystem/?actor=pe-hub-udep-universidad-de-piura) |

@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | París (global) |
 | Sitio web | https://alts.axa-im.com/responsible-investing/impact-investing |
-| LinkedIn | https://www.linkedin.com/company/axa-investment-managers |
+| LinkedIn | https://www.linkedin.com/company/bnp-paribas-asset-management |
 | Rol en el ecosistema | Gestión de inversiones de impacto (AXA IM). |
 | Año de fundación | 2013 |
 | Desafíos (códigos) | FIN |
@@ -46,5 +46,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://alts.axa-im.com/responsible-investing/impact-investing
-- https://www.linkedin.com/company/axa-investment-managers
-- https://www.linkedin.com/company/axa-im-alts

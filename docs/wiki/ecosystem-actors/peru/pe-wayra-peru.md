@@ -53,4 +53,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.wayra.com
 - Corporate VC de Telefónica — https://www.wayra.com/
-- Perfil Wayra en LinkedIn — https://www.linkedin.com/company/wayra
+- https://wayra.com/

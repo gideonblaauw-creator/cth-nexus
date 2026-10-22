@@ -23,7 +23,7 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://www.iom.int |
-| LinkedIn | https://www.linkedin.com/company/iom |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Organización Internacional para las Migraciones; cooperación en migración y desarrollo. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
@@ -48,4 +48,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - Sitio web — https://www.iom.int
 - Rol en el ecosistema — https://www.iom.int
-- LinkedIn (enlace público) — https://www.linkedin.com/company/iom

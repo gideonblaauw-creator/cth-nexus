@@ -48,4 +48,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - Sitio web — https://sansalvador.impacthub.net
 - Rol en el ecosistema — https://sansalvador.impacthub.net
-- LinkedIn (enlace público) — https://www.linkedin.com/company/ihsansalvador

@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.gob.pe/institucion/minam/colecciones/1479-programa-nacional-de-bionegocios-y-economia-circular |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/mtc-peru |
 | Rol en el ecosistema | Programa de bionegocios y economía circular (MINAM) |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-programa-para-bionegocios-minam](https://nexus.cleantechhub.net/ecosystem/?actor=pe-programa-para-bionegocios-minam) |
@@ -49,3 +49,4 @@ El Programa Nacional de Bionegocios y Economía Circular del MINAM promueve nego
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.gob.pe/institucion/minam/colecciones/1479-programa-nacional-de-bionegocios-y-economia-circular
+- https://www.gob.pe/institucion/mtc/contacto-y-numeros-de-emergencias

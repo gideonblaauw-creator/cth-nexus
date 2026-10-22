@@ -47,4 +47,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.coeeci.org.pe — portal COEECI
-- https://www.linkedin.com/company/coeeci — perfil LinkedIn

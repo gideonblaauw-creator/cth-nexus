@@ -46,5 +46,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.canadaperu.org
-- https://www.linkedin.com/company/c%C3%A1mara-de-comercio-canad%C3%A1-per%C3%BA
 - https://www.canadaperu.org/
+- https://canadaperu.org/

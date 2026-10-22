@@ -49,5 +49,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Sitio web — https://www.giz.de
 - Rol en el ecosistema — https://www.giz.de
 - Descripción — https://www.giz.de
-- LinkedIn (enlace público) — https://www.linkedin.com/company/gizgmbh
 - Año de fundación — https://www.giz.de/en/about-giz
+- https://www.giz.de/de

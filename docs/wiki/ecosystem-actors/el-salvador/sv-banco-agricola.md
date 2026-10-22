@@ -48,4 +48,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.bancoagricola.com
 - Banco Agrícola — https://www.bancoagricola.com/
-- LinkedIn — https://www.linkedin.com/company/bancoagricola

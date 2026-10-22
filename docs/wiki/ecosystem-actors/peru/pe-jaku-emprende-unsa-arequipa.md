@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Arequipa |
 | Sitio web | https://www.unsa.edu.pe/jaku/ |
-| LinkedIn | https://www.linkedin.com/company/jaku-emprende/ |
+| LinkedIn | https://www.linkedin.com/company/jaku-emprende-unsa |
 | Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
 | Desafíos (códigos) | AGR, AGU, ENE |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-jaku-emprende-unsa-arequipa](https://nexus.cleantechhub.net/ecosystem/?actor=pe-jaku-emprende-unsa-arequipa) |

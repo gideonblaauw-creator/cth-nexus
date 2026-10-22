@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | San Isidro |
 | Sitio web | https://www.gob.pe/sernanp |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/servicio-nacional-de-%C3%A1reas-naturales-protegidas-por-el-estado-sernanp |
 | Rol en el ecosistema | Actor público / regulador |
 | Desafíos (códigos) | AGU, ARG |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-sernanp](https://nexus.cleantechhub.net/ecosystem/?actor=pe-sernanp) |

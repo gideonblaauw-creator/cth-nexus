@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Pucallpa, Ucayali |
 | Sitio web | https://www.unia.edu.pe/ |
-| LinkedIn | https://www.facebook.com/unia.edu.pe/ |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-incubadora-unia-ucayali](https://nexus.cleantechhub.net/ecosystem/?actor=pe-incubadora-unia-ucayali) |

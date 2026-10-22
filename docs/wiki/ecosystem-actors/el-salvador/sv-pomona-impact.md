@@ -48,6 +48,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - Sitio web — https://pomonaimpact.com
 - Rol en el ecosistema — https://pomonaimpact.com
-- LinkedIn (enlace público) — https://www.linkedin.com/company/pomona-impact
 - https://pomonaimpact.com
-- https://www.linkedin.com/company/pomona-impact/

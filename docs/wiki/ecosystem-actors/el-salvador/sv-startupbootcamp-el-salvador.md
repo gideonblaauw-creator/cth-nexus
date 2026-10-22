@@ -23,7 +23,7 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://www.startupbootcamp.org/accelerator/central-america |
-| LinkedIn | https://www.linkedin.com/company/startupbootcamp |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Programa regional de aceleración Startupbootcamp con foco en El Salvador. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
@@ -49,4 +49,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Sitio web — https://www.startupbootcamp.org/accelerator/central-america
 - Rol en el ecosistema — https://www.startupbootcamp.org/accelerator/central-america
 - Descripción — https://www.startupbootcamp.org/accelerator/central-america
-- LinkedIn (enlace público) — https://www.linkedin.com/company/startupbootcamp

@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Bonn, Alemania (sede FSC International) |
 | Sitio web | https://fsc.org/en |
-| LinkedIn | https://www.linkedin.com/company/forest-stewardship-council-fsc-/ |
+| LinkedIn | https://www.linkedin.com/company/fsc-international-bonn |
 | Rol en el ecosistema | Organización internacional de certificación forestal responsable. |
 | Dirección | PENDIENTE |
 | Año de fundación | 1993 |
@@ -55,4 +55,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://fsc.org/en — Forest Stewardship Council
 - https://fsc.org/en
-- https://www.linkedin.com/company/forest-stewardship-council-fsc-/

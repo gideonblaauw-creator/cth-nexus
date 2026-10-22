@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.afd.fr |
-| LinkedIn | https://www.linkedin.com/company/agence-francaise-de-developpement |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Organización internacional o cooperación |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
@@ -51,7 +51,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.afd.fr
-- https://www.linkedin.com/company/agence-francaise-de-developpement
 - Cooperación económica Francia en Perú — https://pe.diplomatie.gouv.fr/es/node/6/la-cooperacion-economica
 - Red AFD Latam — https://www.afd.fr/fr/notre-reseau-en-amerique-latine
-- LinkedIn — https://www.linkedin.com/company/agence-francaise-de-developpement

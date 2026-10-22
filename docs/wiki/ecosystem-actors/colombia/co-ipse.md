@@ -52,4 +52,3 @@ El Instituto de Planificación y Promoción de Soluciones Energéticas para las 
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://ipse.gov.co/
-- https://www.linkedin.com/company/ipse-zni

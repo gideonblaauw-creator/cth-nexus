@@ -47,6 +47,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.haskoning.com — sitio corporativo
-- https://www.linkedin.com/company/haskoning — perfil LinkedIn
 - Descripción corporativa — https://www.haskoning.com/
-- Perfil en LinkedIn — https://www.linkedin.com/company/haskoning

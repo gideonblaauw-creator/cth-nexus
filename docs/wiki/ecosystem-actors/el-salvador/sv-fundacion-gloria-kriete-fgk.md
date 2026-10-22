@@ -23,7 +23,7 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://fundaciongloriakriete.org |
-| LinkedIn | https://www.linkedin.com/company/fundaci%C3%B3n-gloria-kriete |
+| LinkedIn | https://www.linkedin.com/company/fundacion-gloria-kriete |
 | Rol en el ecosistema | Fundación sin fines de lucro para desarrollo integral en El Salvador. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
@@ -50,4 +50,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Rol en el ecosistema — https://fundaciongloriakriete.org
 - Descripción — https://fundaciongloriakriete.org
 - https://fundaciongloriakriete.org/
-- https://www.linkedin.com/company/fundaci%C3%B3n-gloria-kriete

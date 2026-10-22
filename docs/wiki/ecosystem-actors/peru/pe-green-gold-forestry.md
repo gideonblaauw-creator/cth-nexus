@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.ggfgroup.pe/ |
-| LinkedIn | https://www.linkedin.com/company/green-gold-forestry/ |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Empresa forestal y de restauración con operaciones en el Perú. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
@@ -54,4 +54,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.ggfgroup.pe — sitio corporativo
-- https://www.linkedin.com/company/green-gold-forestry/

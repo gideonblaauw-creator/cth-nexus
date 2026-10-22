@@ -48,4 +48,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://cleantechhub.net — descripción institucional y año de inicio (desde 2019)
-- https://www.linkedin.com/company/cleantechhub — perfil LinkedIn de la organización

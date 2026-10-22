@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima (actores referenciados en ecosistema peruano) |
 | Sitio web | https://www.lavca.org/research/ |
-| LinkedIn | https://www.linkedin.com/company/lavca |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Conjunto de actores de investigación y aceleración (LAVCA, CPI, MIT REAP) vinculados al ecosistema emprendedor y climático en Perú. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |

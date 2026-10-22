@@ -23,7 +23,7 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://www.utec.edu.sv |
-| LinkedIn | https://www.linkedin.com/school/universidadtecnologicadeelsalvador |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Universidad privada tecnológica con programas de ingeniería y negocios. |
 | Dirección | PENDIENTE |
 | Año de fundación | 1997 |

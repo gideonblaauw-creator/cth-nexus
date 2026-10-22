@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | New York |
 | Sitio web | https://pvblic.org |
-| LinkedIn | https://www.linkedin.com/company/pvblic-foundation/ |
+| LinkedIn | https://www.linkedin.com/company/pvblicfoundation |
 | Rol en el ecosistema | Organización internacional o cooperación |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-pvblic-foundation](https://nexus.cleantechhub.net/ecosystem/?actor=pe-pvblic-foundation) |
@@ -50,4 +50,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://pvblic.org
-- https://www.linkedin.com/company/pvblic-foundation/
+- https://www.pvblic.org/

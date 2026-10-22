@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Jesús María |
 | Sitio web | https://www.gob.pe/senamhi |
-| LinkedIn | https://www.linkedin.com/company/senamhi |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Actor público / regulador |
 | Desafíos (códigos) | AGR, ENE |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-senamhi](https://nexus.cleantechhub.net/ecosystem/?actor=pe-senamhi) |
@@ -53,4 +53,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.gob.pe/senamhi
 - Institución en gob.pe — https://www.gob.pe/senamhi
-- Perfil en LinkedIn — https://www.linkedin.com/company/senamhi

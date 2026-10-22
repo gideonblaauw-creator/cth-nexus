@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.euroclima.org |
-| LinkedIn | https://www.linkedin.com/company/euroclima-program |
+| LinkedIn | https://www.linkedin.com/company/european-commission |
 | Rol en el ecosistema | Organización internacional o cooperación |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-union-europea-euroclima](https://nexus.cleantechhub.net/ecosystem/?actor=pe-union-europea-euroclima) |
@@ -53,4 +53,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.euroclima.org
 - Descripción del programa Euroclima — https://www.euroclima.org/
-- Perfil en LinkedIn — https://www.linkedin.com/company/euroclima-program
+- https://international-partnerships.ec.europa.eu/policies/global-gateway/euroclima_en

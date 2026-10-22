@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Huánuco |
 | Sitio web | https://www.udh.edu.pe |
-| LinkedIn | https://www.linkedin.com/school/universidad-de-hu%C3%A1nuco |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Programa o unidad de emprendimiento de la Universidad de Huánuco (UDH). |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |

@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Cusco |
 | Sitio web | https://acca.org.pe |
-| LinkedIn | https://www.linkedin.com/company/asociaci%C3%B3n-para-la-conservaci%C3%B3n-de-la-cuenca-amaz%C3%B3nica |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | ONG de conservación amazónica: ciencia, monitoreo y alternativas económicas sostenibles al bosque. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
@@ -55,4 +55,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://acca.org.pe — descripción de misión y alcance territorial
 - https://acca.org.pe/
-- https://www.linkedin.com/company/asociaci%C3%B3n-para-la-conservaci%C3%B3n-de-la-cuenca-amaz%C3%B3nica

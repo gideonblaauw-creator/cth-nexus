@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://perusostenible.org |
-| LinkedIn | https://www.linkedin.com/company/perusostenible/ |
+| LinkedIn | https://www.linkedin.com/company/perusostenible |
 | Rol en el ecosistema | Red empresarial por el desarrollo sostenible |
 | Desafíos (códigos) | AGR, AGU, BOS, CIR |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-peru-sostenible](https://nexus.cleantechhub.net/ecosystem/?actor=pe-peru-sostenible) |

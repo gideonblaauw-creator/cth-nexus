@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.qairadrones.com/ |
-| LinkedIn | https://www.linkedin.com/company/qaira |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Empresa / sector privado |
 | Desafíos (códigos) | CIU, ENE |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-qaira](https://nexus.cleantechhub.net/ecosystem/?actor=pe-qaira) |

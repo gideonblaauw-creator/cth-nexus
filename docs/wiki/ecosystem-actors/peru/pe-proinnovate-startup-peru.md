@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.gob.pe/proinnovate |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/proinnovateperu |
 | Rol en el ecosistema | Programa ejecutor StartUp Perú (ProInnóvate) |
 | Desafíos (códigos) | BOS, FIN |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-proinnovate-startup-peru](https://nexus.cleantechhub.net/ecosystem/?actor=pe-proinnovate-startup-peru) |
