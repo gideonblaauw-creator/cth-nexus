@@ -43,6 +43,15 @@ HIDDEN_REASONS: dict[tuple[str, str, str], str] = {
         "(\"Superintendencia Nacional de Servicios de Saneamiento - SUNASS\") "
         "and does not source the Agua & cuencas challenge."
     ),
+    (
+        "pe-utec-universidad-de-ingenieria-y-tecnologia",
+        "pe-utec-ventures",
+        "hosts",
+    ): (
+        "Source https://utecventures.com/ accepts TLS but the HTTP response "
+        "hangs from this host. Hidden until the site responds reliably for "
+        "verbatim quote verification."
+    ),
 }
 
 
