@@ -16,6 +16,9 @@
     "csoReady": { "type": "boolean" },
     "accessed_on": { "type": "string" },
     "scope": { "type": "string" },
+    "status": {
+      "enum": ["ready", "no_report"]
+    },
     "company": {
       "type": "object",
       "additionalProperties": false,
@@ -49,11 +52,36 @@
     },
     "gaps": {
       "type": "array",
-      "minItems": 1,
       "maxItems": 5,
       "items": { "$ref": "#/$defs/gap" }
     }
   },
+  "allOf": [
+    {
+      "if": {
+        "properties": { "status": { "const": "no_report" } },
+        "required": ["status"]
+      },
+      "then": {
+        "properties": {
+          "gaps": { "maxItems": 0 }
+        }
+      }
+    },
+    {
+      "if": {
+        "not": {
+          "properties": { "status": { "const": "no_report" } },
+          "required": ["status"]
+        }
+      },
+      "then": {
+        "properties": {
+          "gaps": { "minItems": 1 }
+        }
+      }
+    }
+  ],
   "$defs": {
     "gap": {
       "type": "object",

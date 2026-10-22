@@ -27,6 +27,15 @@ WAVE1_ROUND1_TEASERS = [
     ROOT / "docs" / "teasers" / "argos" / "argos-teaser.json",
     ROOT / "docs" / "teasers" / "pavimentos-colombia" / "pavimentos-colombia-teaser.json",
     ROOT / "docs" / "teasers" / "interaseo" / "interaseo-teaser.json",
+    ROOT / "docs" / "teasers" / "ecopetrol" / "ecopetrol-teaser.json",
+    ROOT / "docs" / "teasers" / "parex" / "parex-teaser.json",
+    ROOT / "docs" / "teasers" / "terpel" / "terpel-teaser.json",
+    ROOT / "docs" / "teasers" / "bancolombia" / "bancolombia-teaser.json",
+    ROOT / "docs" / "teasers" / "davivienda" / "davivienda-teaser.json",
+    ROOT / "docs" / "teasers" / "sura" / "sura-teaser.json",
+    ROOT / "docs" / "teasers" / "bbva" / "bbva-teaser.json",
+    ROOT / "docs" / "teasers" / "banco-popular" / "banco-popular-teaser.json",
+    ROOT / "docs" / "teasers" / "promigas" / "promigas-teaser.json",
 ]
 
 FENOGE_FAQ = "https://fenoge.gov.co/preguntas-frecuentes/"
