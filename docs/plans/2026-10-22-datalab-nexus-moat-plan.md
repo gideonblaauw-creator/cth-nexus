@@ -249,7 +249,7 @@ Run the maker and the checker as a pair. The checker starts after the maker deli
 
 Use the public page cited on each match. Use `ops/ecosystem/graph_relation_evidence.json` for an existing public relation. Use the portfolio file for startup name, theme code, and startup stage. Use a GRI report or a BVC filing for the company profile after Gideon names the company.
 
-Do not use LinkedIn. Do not use an internal attendance list. Do not use a Drive file. Do not use a Canva file.
+Use a LinkedIn company link only when the company website shows it. Section 16 states the limit. Do not use an internal attendance list. Do not use a Drive file. Do not use a Canva file.
 
 ### Dependencies
 
@@ -456,7 +456,7 @@ Use the company sustainability report for each gap. Use the organization website
 
 The Peru pattern lives in `scripts/ecosystem/merge_peru_mapa_2026.py`, `ops/geo/LOCATION-AUDIT.md`, and `static/ecosystem/geo-utils.mjs`.
 
-Do not scrape LinkedIn. Do not geocode from a name plus a city.
+Follow the LinkedIn rule in section 16. Do not geocode from a name plus a city.
 
 ### Dependencies
 
@@ -800,7 +800,17 @@ Record one yes or no for each line.
 21. Confirm that deploy happens from `main` only, with backup and rollback.
 22. Confirm that PR 101 stays out of the demo until it is on `main`.
 23. Confirm that Colombia pins use a street address or location unknown.
-24. Confirm that LinkedIn scraping is out of scope.
+24. When a company's own public website links to its LinkedIn company page, record that link. Use that link. Do not scrape LinkedIn directly. Do not scrape LinkedIn broadly. Follow only a LinkedIn link that appears on the company's public site. Decided (Gideon 22 Oct), see constraint. Voice, 22 Oct 09:59 COT.
+    - Never log in to LinkedIn.
+    - Never use LinkedIn in the box browser.
+    - Never use LinkedIn in a headless crawler.
+    - The allowed data is the LinkedIn URL as found on the site.
+    - Store the date with that URL.
+    - Store the citing page with that URL.
+    - Any extra LinkedIn data needs a sanctioned route.
+    - That extra data also needs a separate GO.
+    - Use company pages only.
+    - Do not use a person profile.
 25. Confirm that secrets stay in Infisical.
 
 Open question. Do not decide it here. The ecosystem card also shows a two-letter mark, a role, and a LinkedIn link. Gideon says which of those stay.
@@ -813,7 +823,7 @@ Open question. Do not decide it here. The ecosystem card also shows a two-letter
 4. Keep the backup and the rollback script from those tools.
 5. Patch `ops/Caddyfile`. Do not replace the file.
 6. Patch the live Caddy file the same way. Run `caddy validate` before reload.
-7. Do not scrape LinkedIn.
+7. When a company's own public website links to its LinkedIn company page, record that link. Use that link. Do not scrape LinkedIn directly. Do not scrape LinkedIn broadly. Follow only a LinkedIn link that appears on the company's public site. Decided (Gideon 22 Oct), see constraint. Voice, 22 Oct 09:59 COT. Never log in to LinkedIn. Never use LinkedIn in the box browser. Never use LinkedIn in a headless crawler. The allowed data is the LinkedIn URL as found on the site, the date, and the citing page. Any extra LinkedIn data needs a sanctioned route and a separate GO. Use company pages only. Do not use a person profile.
 8. Keep secrets in Infisical. The host name `secrets.cleantechhub.net` is the secrets endpoint. Do not copy a secret into git, into the Caddy file, or into this plan.
 9. A public relation needs a source that names both actors and the relation, plus a verbatim quote.
 10. A CSO-facing page must not show demo activity or an unsourced capital figure.
