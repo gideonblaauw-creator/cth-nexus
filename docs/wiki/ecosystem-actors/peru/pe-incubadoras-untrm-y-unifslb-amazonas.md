@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Rodríguez de Mendoza / Chachapoyas, Amazonas |
 | Sitio web | https://incubadora.untrm.edu.pe |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/amazonas-start-up |
 | Rol en el ecosistema | Incubadoras universitarias en Amazonas (UNTRM, UNIFSLB) |
 | Desafíos (códigos) | AGR, BOS |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-incubadoras-untrm-y-unifslb-amazonas](https://nexus.cleantechhub.net/ecosystem/?actor=pe-incubadoras-untrm-y-unifslb-amazonas) |

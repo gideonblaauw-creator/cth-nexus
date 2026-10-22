@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Puerto Maldonado |
 | Sitio web | https://portal.unamad.edu.pe |
-| LinkedIn | https://www.linkedin.com/company/universidad-nacional-amaz%C3%B3nica-de-madre-de-dios |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Universidad o centro de investigación |
 | Desafíos (códigos) | AGR, BOS, CIU |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-unamad-universidad-nacional-amazonica-de-madre-de-](https://nexus.cleantechhub.net/ecosystem/?actor=pe-unamad-universidad-nacional-amazonica-de-madre-de-) |

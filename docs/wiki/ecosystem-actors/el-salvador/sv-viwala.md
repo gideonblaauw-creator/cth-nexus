@@ -23,7 +23,7 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://viwala.com |
-| LinkedIn | https://www.linkedin.com/company/viwala |
+| LinkedIn | https://www.linkedin.com/company/55046457 |
 | Rol en el ecosistema | Plataforma fintech de financiamiento para PYMEs en Latinoamérica. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
@@ -48,4 +48,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - Sitio web — https://viwala.com
 - Rol en el ecosistema — https://viwala.com
-- LinkedIn (enlace público) — https://www.linkedin.com/company/viwala
+- https://www.viwala.com/

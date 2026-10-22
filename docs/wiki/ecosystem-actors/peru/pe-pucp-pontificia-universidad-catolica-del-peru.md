@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | San Miguel |
 | Sitio web | https://www.pucp.edu.pe |
-| LinkedIn | https://www.linkedin.com/company/pontificia-universidad-cat-lica-del-per- |
+| LinkedIn | https://www.linkedin.com/company/pucp |
 | Rol en el ecosistema | Universidad de investigación y emprendimiento (Nexum/CIDE) |
 | Desafíos (códigos) | AGU, BOS |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-pucp-pontificia-universidad-catolica-del-peru](https://nexus.cleantechhub.net/ecosystem/?actor=pe-pucp-pontificia-universidad-catolica-del-peru) |
@@ -51,4 +51,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.pucp.edu.pe
 - PUCP — https://www.pucp.edu.pe/
-- LinkedIn — https://www.linkedin.com/company/pontificia-universidad-cat-lica-del-per-

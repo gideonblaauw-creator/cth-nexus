@@ -46,4 +46,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.greenclimate.fund/
-- https://www.linkedin.com/company/green-climate-fund

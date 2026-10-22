@@ -23,7 +23,7 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://aecid.sv |
-| LinkedIn | https://www.linkedin.com/company/aecid/ |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Organización internacional o cooperación |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=sv-aecid-el-salvador](https://nexus.cleantechhub.net/ecosystem/?actor=sv-aecid-el-salvador) |
@@ -52,4 +52,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://aecid.sv
-- https://www.linkedin.com/company/aecid/

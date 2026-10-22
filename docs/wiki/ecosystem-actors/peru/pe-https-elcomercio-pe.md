@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://elcomercio.pe |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/el-comercio |
 | Rol en el ecosistema | Medio de comunicación peruano de alcance nacional. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |

@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima (Barranco) |
 | Sitio web | https://utec.edu.pe/centro-investigacion-cita |
-| LinkedIn | https://www.linkedin.com/company/cita-utec |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Centro de I+D en agua y medio ambiente (UTEC). |
 | Dirección | Jr. Medrano Silva 165, Barranco, Lima (campus UTEC) |
 | Año de fundación | 2017 |
@@ -47,6 +47,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://utec.edu.pe/centro-investigacion-cita
-- https://www.linkedin.com/company/cita-utec
 - https://unhabitat.org/
-- https://www.linkedin.com/company/un-habitat

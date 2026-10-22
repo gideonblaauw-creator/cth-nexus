@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Huánuco |
 | Sitio web | https://www.cajamaynas.pe |
-| LinkedIn | https://www.linkedin.com/company/caja-maynas |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Caja municipal de ahorro y crédito. |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | CIR, ENE |
@@ -47,5 +47,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.cajamaynas.pe
 - https://www.cajamaynas.pe/
-- https://www.linkedin.com/company/caja-maynas
-- https://www.linkedin.com/company/caja-maynas/

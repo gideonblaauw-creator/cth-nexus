@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima (oficina Perú); sede global en EE.UU. |
 | Sitio web | https://www.nesst.org |
-| LinkedIn | https://www.linkedin.com/company/nesst/ |
+| LinkedIn | https://www.linkedin.com/company/nesst |
 | Rol en el ecosistema | Fondo e incubadora de empresas de impacto |
 | Desafíos (códigos) | AGU, BOS, FIN |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-nesst](https://nexus.cleantechhub.net/ecosystem/?actor=pe-nesst) |

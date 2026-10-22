@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima (San Isidro) |
 | Sitio web | https://www.gob.pe/proinversion |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/proinversionpe |
 | Rol en el ecosistema | Agencia de promoción de la inversión privada |
 | Desafíos (códigos) | AGR, AGU, AZU, BOS, CIR, CIU, ENE, FIN |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-proinversion](https://nexus.cleantechhub.net/ecosystem/?actor=pe-proinversion) |

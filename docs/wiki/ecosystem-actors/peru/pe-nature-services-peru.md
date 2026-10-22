@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.natureservices.net |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/1873842 |
 | Rol en el ecosistema | Consultoría en servicios ecosistémicos y capital natural |
 | Desafíos (códigos) | BOS |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-nature-services-peru](https://nexus.cleantechhub.net/ecosystem/?actor=pe-nature-services-peru) |

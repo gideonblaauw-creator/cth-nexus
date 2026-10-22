@@ -23,7 +23,7 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://www.ues.edu.sv |
-| LinkedIn | https://www.linkedin.com/school/universidad-de-el-salvador/ |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Universidad pública nacional de El Salvador. |
 | Dirección | PENDIENTE |
 | Año de fundación | 1841 |

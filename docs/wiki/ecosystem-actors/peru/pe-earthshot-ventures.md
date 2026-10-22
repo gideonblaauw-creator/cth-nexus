@@ -47,4 +47,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.earthshot.vc — sitio del fondo
-- https://www.linkedin.com/company/earthshot-ventures — perfil LinkedIn

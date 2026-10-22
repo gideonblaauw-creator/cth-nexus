@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Villa María del Triunfo |
 | Sitio web | https://asociacionunacem.org |
-| LinkedIn | https://www.linkedin.com/company/asociacion-unacem/about |
+| LinkedIn | https://www.linkedin.com/company/asociaci%C3%B3nunacem |
 | Rol en el ecosistema | ONG o fundación |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AZU, BOS |
@@ -46,6 +46,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://asociacionunacem.org
-- https://www.linkedin.com/company/asociacion-unacem/about
 - Asociación UNACEM — https://asociacionunacem.org/
-- LinkedIn — https://www.linkedin.com/company/asociaci%C3%B3n-unacem

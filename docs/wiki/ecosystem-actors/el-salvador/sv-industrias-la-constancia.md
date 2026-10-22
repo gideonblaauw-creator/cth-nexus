@@ -23,7 +23,7 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://laconstancia.com |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/la-constancia-sv |
 | Rol en el ecosistema | Cervecería y bebidas (La Constancia) con operaciones industriales en El Salvador. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
@@ -48,3 +48,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - Sitio web — https://laconstancia.com
 - Rol en el ecosistema — https://laconstancia.com
+- https://www.laconstancia.com/

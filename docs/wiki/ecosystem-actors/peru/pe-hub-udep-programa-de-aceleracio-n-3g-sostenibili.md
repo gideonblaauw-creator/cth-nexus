@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Piura |
 | Sitio web | https://www.hub.udep.pe/ |
-| LinkedIn | https://www.linkedin.com/company/92463372 |
+| LinkedIn | https://www.linkedin.com/company/hubudep |
 | Rol en el ecosistema | Hub universitario de emprendimiento e innovación sostenible |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-hub-udep-programa-de-aceleracio-n-3g-sostenibili](https://nexus.cleantechhub.net/ecosystem/?actor=pe-hub-udep-programa-de-aceleracio-n-3g-sostenibili) |

@@ -46,4 +46,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.worldbank.org
-- https://www.linkedin.com/company/the-world-bank
+- https://www.worldbank.org/en/about/annual-report

@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima (San Isidro) |
 | Sitio web | https://www.bvl.com.pe |
-| LinkedIn | https://www.linkedin.com/company/bolsa-de-valores-de-lima |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Mercado de valores regulado. |
 | Año de fundación | 1860 |
 | Desafíos (códigos) | FIN |
@@ -47,5 +47,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.bvl.com.pe
 - https://www.bvl.com.pe/
-- https://www.linkedin.com/company/bolsa-de-valores-de-lima
-- https://www.linkedin.com/company/bolsa-de-valores-de-lima/

@@ -49,6 +49,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Sitio web — https://www.ternova.group
 - Rol en el ecosistema — https://www.ternova.group
 - Descripción — https://www.ternova.group
-- LinkedIn (enlace público) — https://www.linkedin.com/company/ternovagroup
 - Sitio corporativo Ternova Group — https://www.ternova.group/
-- Perfil en LinkedIn — https://www.linkedin.com/company/ternova-group

@@ -23,7 +23,7 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://www.crs.org |
-| LinkedIn | https://www.linkedin.com/company/catholic-relief-services |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | ONG internacional de desarrollo humanitario con programas en El Salvador. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
@@ -48,4 +48,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - Sitio web — https://www.crs.org
 - Rol en el ecosistema — https://www.crs.org
-- LinkedIn (enlace público) — https://www.linkedin.com/company/catholic-relief-services

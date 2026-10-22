@@ -46,5 +46,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.amcham.org.pe
-- https://www.linkedin.com/company/amchamperu
 - https://www.amcham.org.pe/
+- https://amcham.org.pe/

@@ -47,6 +47,4 @@ Bancóldex es el banco de desarrollo empresarial de Colombia; ofrece crédito, g
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.bancoldex.com/
-- https://www.linkedin.com/company/bancoldex
 - Institucional Bancóldex — https://www.bancoldex.com/
-- LinkedIn — https://www.linkedin.com/company/bancoldex

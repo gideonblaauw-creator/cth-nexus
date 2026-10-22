@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.gob.pe/mef |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/ministerio-de-economia-y-finanzas-del-peru |
 | Rol en el ecosistema | Ministerio rector de política económica y finanzas públicas |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-mef-ministerio-de-economia-y-finanzas](https://nexus.cleantechhub.net/ecosystem/?actor=pe-mef-ministerio-de-economia-y-finanzas) |

@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Cusco |
 | Sitio web | https://hudbayminerals.com |
-| LinkedIn | https://www.linkedin.com/company/hudbay-minerals-inc- |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Empresa minera con operaciones en el Perú |
 | Desafíos (códigos) | FIN |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-hudbay](https://nexus.cleantechhub.net/ecosystem/?actor=pe-hudbay) |
@@ -51,4 +51,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://hudbayminerals.com
 - Hudbay Minerals — https://hudbayminerals.com/
-- LinkedIn — https://www.linkedin.com/company/hudbay-minerals-inc-

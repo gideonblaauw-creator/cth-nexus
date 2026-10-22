@@ -22,7 +22,7 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://www.ternova.group/circular-solutions |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/ternovagroup |
 | Rol en el ecosistema | Iniciativa de economía circular para recolección y reciclaje de plásticos en El Salvador. |
 | Año de fundación | 2019 |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=sv-recicla503](https://nexus.cleantechhub.net/ecosystem/?actor=sv-recicla503) |

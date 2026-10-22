@@ -48,6 +48,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - Sitio web — https://keyinstitute.com
 - Rol en el ecosistema — https://keyinstitute.com
-- LinkedIn (enlace público) — https://www.linkedin.com/company/keyinstitutesv
 - https://keyinstitute.com
-- https://www.linkedin.com/company/key-institute/
+- https://www.keyinstitute.com/

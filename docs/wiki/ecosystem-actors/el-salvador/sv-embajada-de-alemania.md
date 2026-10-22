@@ -23,7 +23,7 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador; Calle La Reforma 159, Colonia San Benito, San Salvador |
 | Sitio web | https://san-salvador.diplo.de |
-| LinkedIn | https://www.linkedin.com/company/alemaniaenelsalvador |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Representación diplomática de Alemania; relaciones bilaterales y cooperación. |
 | Dirección | Calle La Reforma 159, Colonia San Benito, San Salvador |
 | Año de fundación | PENDIENTE |

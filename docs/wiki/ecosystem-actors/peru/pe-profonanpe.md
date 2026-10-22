@@ -53,4 +53,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://profonanpe.org.pe
 - https://profonanpe.org.pe/quienes-somos/
-- https://www.linkedin.com/company/profonanpe

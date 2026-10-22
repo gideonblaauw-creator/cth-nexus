@@ -22,7 +22,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Arequipa |
 | Sitio web | PENDIENTE |
-| LinkedIn | https://www.linkedin.com/company/yakufil |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Startup del ecosistema |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-yakufil](https://nexus.cleantechhub.net/ecosystem/?actor=pe-yakufil) |
 

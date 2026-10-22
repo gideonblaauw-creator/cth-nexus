@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://1551.unmsm.edu.pe |
-| LinkedIn | https://www.linkedin.com/company/1551in |
+| LinkedIn | https://www.linkedin.com/company/11111803 |
 | Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AGR, AGU |
@@ -51,7 +51,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://1551.unmsm.edu.pe/
-- https://www.linkedin.com/company/11111803
 - 1551 UNMSM — https://1551.unmsm.edu.pe/
 - Observatorio Blockchain — https://1551.unmsm.edu.pe/observatorio-bch.html
-- LinkedIn — https://www.linkedin.com/company/1551in

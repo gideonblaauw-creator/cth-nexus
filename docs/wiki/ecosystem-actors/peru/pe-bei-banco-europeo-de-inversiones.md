@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Luxemburgo (sede); operaciones en Perú |
 | Sitio web | https://www.eib.org |
-| LinkedIn | https://www.linkedin.com/company/european-investment-bank/ |
+| LinkedIn | https://www.linkedin.com/company/9360 |
 | Rol en el ecosistema | Organización internacional o cooperación |
 | Año de fundación | 1959 |
 | Desafíos (códigos) | BOS, ENE, FIN |
@@ -53,5 +53,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.eib.org
-- https://www.linkedin.com/company/european-investment-bank
-- https://www.linkedin.com/company/european-investment-bank/
+- https://www.eib.org/en/index

@@ -23,7 +23,7 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://www.usaid.gov/el-salvador |
-| LinkedIn | https://www.linkedin.com/company/usaid |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Agencia de cooperación al desarrollo de los Estados Unidos en El Salvador. |
 | Dirección | PENDIENTE |
 | Año de fundación | 1961 |
@@ -49,6 +49,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Sitio web — https://www.usaid.gov/el-salvador
 - Rol en el ecosistema — https://www.usaid.gov/el-salvador
 - Descripción — https://www.usaid.gov/el-salvador
-- LinkedIn (enlace público) — https://www.linkedin.com/company/usaid
 - Año de fundación — https://www.usaid.gov/about-us
-- Perfil institucional USAID en LinkedIn — https://www.linkedin.com/company/usaid

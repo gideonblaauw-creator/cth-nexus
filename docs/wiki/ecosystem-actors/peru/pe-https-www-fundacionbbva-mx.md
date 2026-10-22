@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.fundacionbbva.pe/ |
-| LinkedIn | https://www.linkedin.com/company/fundaci%C3%B3n-bbva-per%C3%BA/ |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Filantropía del Grupo BBVA en México con programas de educación e inclusión. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
@@ -55,4 +55,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.fundacionbbva.mx — sitio oficial
 - https://www.fundacionbbva.pe/
-- https://www.linkedin.com/company/fundaci%C3%B3n-bbva-per%C3%BA/

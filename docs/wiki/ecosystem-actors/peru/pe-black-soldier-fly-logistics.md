@@ -22,7 +22,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://bsf-logistics.org/ |
-| LinkedIn | https://www.linkedin.com/company/black-soldier-fly-logistics |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Startup de economía circular y bioconversión. |
 | Año de fundación | 2023 |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-black-soldier-fly-logistics](https://nexus.cleantechhub.net/ecosystem/?actor=pe-black-soldier-fly-logistics) |
@@ -44,4 +44,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://bsf-logistics.org/
-- https://www.linkedin.com/company/black-soldier-fly-logistics

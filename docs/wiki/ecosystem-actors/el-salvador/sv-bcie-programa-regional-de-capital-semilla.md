@@ -48,5 +48,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - Sitio web — https://www.bcie.org
 - Rol en el ecosistema — https://www.bcie.org
-- LinkedIn (enlace público) — https://www.linkedin.com/company/bcie
 - Año de fundación — https://www.bcie.org/quienes-somos

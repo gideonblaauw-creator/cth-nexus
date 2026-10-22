@@ -46,6 +46,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.bezosearthfund.org
-- https://www.linkedin.com/company/bezos-earth-fund
 - Compromiso y enfoque del fondo — https://www.bezosearthfund.org/
-- Perfil en LinkedIn — https://www.linkedin.com/company/bezos-earth-fund

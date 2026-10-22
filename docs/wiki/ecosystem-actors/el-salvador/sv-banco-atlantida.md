@@ -23,7 +23,7 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://www.bancoatlantida.com.sv |
-| LinkedIn | https://www.linkedin.com/company/banco-atlantida-el-salvador/ |
+| LinkedIn | https://www.linkedin.com/company/bancatlan-sv |
 | Rol en el ecosistema | Institución financiera |
 | Desafíos (códigos) | FIN |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=sv-banco-atlantida](https://nexus.cleantechhub.net/ecosystem/?actor=sv-banco-atlantida) |
@@ -52,4 +52,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.bancoatlantida.com.sv
-- https://www.linkedin.com/company/banco-atlantida-el-salvador/

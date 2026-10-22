@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Huánuco |
 | Sitio web | https://incuvalventures.unheval.edu.pe |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/incuval-ventures |
 | Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
 | Desafíos (códigos) | AGR, AGU |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-incuval-ventures-unheval](https://nexus.cleantechhub.net/ecosystem/?actor=pe-incuval-ventures-unheval) |

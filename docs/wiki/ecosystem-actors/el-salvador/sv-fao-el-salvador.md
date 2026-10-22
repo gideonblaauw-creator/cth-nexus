@@ -23,7 +23,7 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://www.fao.org/elsalvador |
-| LinkedIn | https://www.linkedin.com/company/food-and-agriculture-organization-of-the-united-nations |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Oficina país de la FAO: seguridad alimentaria y desarrollo agrícola sostenible. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
@@ -49,4 +49,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Sitio web — https://www.fao.org/elsalvador
 - Rol en el ecosistema — https://www.fao.org/elsalvador
 - Descripción — https://www.fao.org/elsalvador
-- LinkedIn (enlace público) — https://www.linkedin.com/company/food-and-agriculture-organization-of-the-united-nations

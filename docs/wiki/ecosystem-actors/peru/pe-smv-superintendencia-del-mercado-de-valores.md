@@ -50,4 +50,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.smv.gob.pe
 - SMV — https://www.gob.pe/smv
-- LinkedIn — https://www.linkedin.com/company/smvperu

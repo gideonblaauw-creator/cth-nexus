@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://endeavor.org.pe |
-| LinkedIn | https://www.linkedin.com/company/endeavor-per |
+| LinkedIn | https://www.linkedin.com/company/endeavor-per%C3%BA |
 | Rol en el ecosistema | Aceleradora global de emprendedores de alto impacto con oficina en Perú. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
@@ -47,4 +47,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://endeavor.org.pe — información de Endeavor en Perú
-- https://www.linkedin.com/company/endeavor-per — perfil LinkedIn Endeavor Perú

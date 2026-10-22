@@ -23,7 +23,7 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://ipsalatinoamerica.com |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/ipsa-latinoamerica2018 |
 | Rol en el ecosistema | Fabricante regional de envases y productos plásticos. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |

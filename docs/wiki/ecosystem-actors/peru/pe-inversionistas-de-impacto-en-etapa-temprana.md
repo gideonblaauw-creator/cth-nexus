@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.mercycorps.org.co/ |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/mercycorpscolombia |
 | Rol en el ecosistema | Segmento de inversionistas de impacto (etapa temprana) |
 | Desafíos (códigos) | ENE, FIN |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-inversionistas-de-impacto-en-etapa-temprana](https://nexus.cleantechhub.net/ecosystem/?actor=pe-inversionistas-de-impacto-en-etapa-temprana) |

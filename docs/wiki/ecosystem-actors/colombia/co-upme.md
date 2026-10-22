@@ -23,7 +23,7 @@ tag_country: Colombia
 | País | Colombia |
 | Ciudad | Bogotá |
 | Sitio web | https://www.upme.gov.co/ |
-| LinkedIn | https://www.linkedin.com/company/unidad-de-planeaci%C3%B3n-minero-energ%C3%A9tica-upme |
+| LinkedIn | https://www.linkedin.com/company/unidad-de-planeaci-n-minero-energ-tica |
 | Rol en el ecosistema | Planeación y estudios del sector minero-energético en Colombia. |
 | Dirección | Calle 73 No. 14-07, Bogotá, Colombia |
 | Año de fundación | PENDIENTE |
@@ -48,4 +48,3 @@ La Unidad de Planeación Minero Energética (UPME) es una entidad adscrita al Mi
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.upme.gov.co/
 - https://www.minenergia.gov.co/
-- https://www.linkedin.com/company/unidad-de-planeaci%C3%B3n-minero-energ%C3%A9tica-upme

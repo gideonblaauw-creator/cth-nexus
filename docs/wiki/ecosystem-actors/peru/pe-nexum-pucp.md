@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima (San Miguel) |
 | Sitio web | https://cide.pucp.edu.pe/ |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/cide-pucp |
 | Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
 | Desafíos (códigos) | AGR, AGU |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-nexum-pucp](https://nexus.cleantechhub.net/ecosystem/?actor=pe-nexum-pucp) |

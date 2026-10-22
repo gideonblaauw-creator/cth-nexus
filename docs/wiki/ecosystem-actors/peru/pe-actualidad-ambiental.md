@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.actualidadambiental.pe |
-| LinkedIn | https://www.linkedin.com/company/actualidad-ambiental |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Medio de comunicación ambiental. |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
@@ -47,4 +47,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.actualidadambiental.pe
 - https://www.actualidadambiental.pe/
-- https://www.linkedin.com/company/actualidad-ambiental

@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.viabcp.com/ |
-| LinkedIn | https://www.linkedin.com/company/bcp |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Banco universal líder en el Perú. |
 | Año de fundación | 1889 |
 | Desafíos (códigos) | ENE, FIN |
@@ -47,6 +47,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.viabcp.com/
-- https://www.linkedin.com/company/bcp
 - BCP — https://www.viabcp.com/
-- LinkedIn — https://www.linkedin.com/company/banco-de-credito-bcp

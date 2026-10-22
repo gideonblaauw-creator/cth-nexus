@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://finlandabroad.fi/web/per/embajada |
-| LinkedIn | https://www.linkedin.com/company/finnish-embassy-in-peru |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Empresa / sector privado (verificar identidad en mapa CTH). |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AZU, BOS, ENE |

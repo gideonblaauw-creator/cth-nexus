@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.helvetas.org/es/peru |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/helvetas-peru |
 | Rol en el ecosistema | ONG suiza de desarrollo con programas de agua, clima y economía rural en Perú. |
 | Dirección | PENDIENTE |
 | Año de fundación | 1955 |

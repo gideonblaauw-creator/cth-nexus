@@ -23,7 +23,7 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://www.undp.org/es/el-salvador |
-| LinkedIn | https://www.linkedin.com/company/united-nations-development-programme |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Programa de las Naciones Unidas para el Desarrollo en El Salvador. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
@@ -48,4 +48,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - Sitio web — https://www.undp.org/es/el-salvador
 - Rol en el ecosistema — https://www.undp.org/es/el-salvador
-- LinkedIn (enlace público) — https://www.linkedin.com/company/united-nations-development-programme

@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.gruporomero.com.pe |
-| LinkedIn | https://www.linkedin.com/company/grupo-romero |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Holding empresarial peruano (Grupo Romero) con diversas líneas de negocio. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
@@ -55,4 +55,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.gruporomero.com.pe — portal corporativo
 - https://www.gruporomero.com.pe/
-- https://www.linkedin.com/company/grupo-romero

@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://emprendeup.pe/climatech/ |
-| LinkedIn | https://www.linkedin.com/company/emprende-up |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
 | Dirección | PENDIENTE |
 | Año de fundación | 2025 |
@@ -63,4 +63,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Descripción de ClimaTech y convocatorias — https://emprendeup.pe/climatech/
 - Lanzamiento ClimaTech 2025 — https://emprendeup.pe/climatech-impulsando-soluciones-para-un-mundo-sostenible/
 - REIN Perú y universidad asociada — https://www.pvblic.org/rein-hubs
-- Perfil Emprende UP en LinkedIn — https://www.linkedin.com/company/emprende-up

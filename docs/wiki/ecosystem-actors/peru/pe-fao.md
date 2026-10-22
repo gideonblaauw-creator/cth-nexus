@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.fao.org/americas/paises/peru/es |
-| LinkedIn | https://www.linkedin.com/company/fao/ |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Agencia especializada de la ONU para alimentación, agricultura y seguridad alimentaria en Perú. |
 | Dirección | PENDIENTE |
 | Año de fundación | 1945 |
@@ -56,4 +56,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - https://www.fao.org — Organización de las Naciones Unidas para la Alimentación y la Agricultura
 - https://www.fao.org/americas/paises/peru/es/ — FAO en Perú
 - https://www.fao.org/americas/paises/peru/es
-- https://www.linkedin.com/company/fao/

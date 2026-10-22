@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | La Victoria |
 | Sitio web | https://revistaganamas.com.pe/ |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/-finanz-s |
 | Rol en el ecosistema | Empresa / sector privado |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-revista-ganama-s](https://nexus.cleantechhub.net/ecosystem/?actor=pe-revista-ganama-s) |

@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://meetliquid.com/ |
-| LinkedIn | https://www.linkedin.com/company/liquid-venture-studio/ |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Venture studio y aceleradora de startups digitales y foodtech |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-liquid-venture-studio](https://nexus.cleantechhub.net/ecosystem/?actor=pe-liquid-venture-studio) |
@@ -56,4 +56,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Historia y modelo LVS — https://lvs.meetliquid.com/about/
 - Dirección en San Isidro — https://lvs.meetliquid.com/contact/
 - Descripción del programa de aceleración — https://vc4a.com/liquid-venture-studio/
-- Perfil LVS en LinkedIn — https://www.linkedin.com/company/liquid-venture-studio/

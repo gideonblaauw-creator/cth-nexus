@@ -51,4 +51,3 @@ SUNASS regula y supervisa los servicios de agua potable y saneamiento en el Per�
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.gob.pe/sunass
 - SUNASS — https://www.gob.pe/sunass
-- LinkedIn — https://www.linkedin.com/company/sunass-oficial

@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.spr.pe |
-| LinkedIn | https://www.linkedin.com/company/asociaci%C3%B3n-peruana-de-energ%C3%ADas-renovables |
+| LinkedIn | https://www.linkedin.com/company/spr-peru |
 | Rol en el ecosistema | Gremio de energías renovables. |
 | Año de fundación | 2017 |
 | Desafíos (códigos) | PENDIENTE |
@@ -46,4 +46,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.spr.pe/
-- https://www.linkedin.com/company/asociaci%C3%B3n-peruana-de-energ%C3%ADas-renovables

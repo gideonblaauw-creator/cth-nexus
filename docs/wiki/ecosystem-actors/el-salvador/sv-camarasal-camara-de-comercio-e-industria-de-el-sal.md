@@ -48,6 +48,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - Sitio web — https://camarasal.com
 - Rol en el ecosistema — https://camarasal.com
-- LinkedIn (enlace público) — https://www.linkedin.com/company/27249850
 - https://camarasal.com/
-- https://www.linkedin.com/company/camarasal

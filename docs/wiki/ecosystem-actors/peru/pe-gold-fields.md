@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Johannesburg, Sudáfrica (sede); operaciones en Perú |
 | Sitio web | https://www.goldfields.com |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/gold-fields |
 | Rol en el ecosistema | Compañía minera internacional con operaciones auríferas en el Perú. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |

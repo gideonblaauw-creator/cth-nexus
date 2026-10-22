@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Washington, D.C. (sede IDB Group) |
 | Sitio web | https://idbinvest.org/en |
-| LinkedIn | https://www.linkedin.com/company/idb-invest |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Brazo del Grupo BID para financiamiento al sector privado en América Latina y el Caribe. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
@@ -56,4 +56,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - https://www.idbinvest.org — sitio IDB Invest
 - https://idbinvest.org/en
 - https://www.iadb.org/en
-- https://www.linkedin.com/company/idb-invest

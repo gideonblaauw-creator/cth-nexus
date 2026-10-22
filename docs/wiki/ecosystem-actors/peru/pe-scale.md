@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://scaleup4.com/ |
-| LinkedIn | https://www.linkedin.com/company/scale-up-latam/ |
+| LinkedIn | https://www.linkedin.com/company/incubadorascale |
 | Rol en el ecosistema | Universidad o centro de investigación |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-scale](https://nexus.cleantechhub.net/ecosystem/?actor=pe-scale) |

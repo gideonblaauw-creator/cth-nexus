@@ -54,5 +54,4 @@ Comisión de Regulación de Energía y Gas de Colombia; regula los mercados de e
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.creg.gov.co/
-- https://www.linkedin.com/company/comisi%C3%B3n-de-regulaci%C3%B3n-de-energ%C3%ADa-y-gas-creg
 - https://creg.gov.co/publicaciones/8441/our-history/

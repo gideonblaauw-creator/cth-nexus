@@ -47,6 +47,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.compartamos.com.pe — sitio institucional
-- https://www.linkedin.com/company/compartamosbancoperu — perfil LinkedIn
 - Compartamos Financiera — https://www.compartamos.com.pe/
-- LinkedIn — https://www.linkedin.com/company/compartamos-financiera

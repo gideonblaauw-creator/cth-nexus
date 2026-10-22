@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.cciperu.it |
-| LinkedIn | https://www.linkedin.com/company/camara-de-comercio-italiana-del-peru |
+| LinkedIn | https://www.linkedin.com/company/c%C3%A1mara-de-comercio-italiana-del-per%C3%BA |
 | Rol en el ecosistema | Cámara binacional que promueve comercio e inversión Italia–Perú. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
@@ -47,4 +47,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.cciperu.it — sitio oficial
-- https://www.linkedin.com/company/camara-de-comercio-italiana-del-peru — perfil LinkedIn

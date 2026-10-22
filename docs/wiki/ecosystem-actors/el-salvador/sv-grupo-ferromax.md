@@ -23,7 +23,7 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://grupoferromax.com |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/grupo-ferromax |
 | Rol en el ecosistema | Grupo industrial de manufactura y distribución en El Salvador. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
