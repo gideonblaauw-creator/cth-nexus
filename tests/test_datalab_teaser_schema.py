@@ -14,6 +14,21 @@ VALID_FIXTURE = ROOT / "ops" / "datalab" / "fixtures" / "teaser-fenoge-ipse.vali
 INVALID_FIXTURE = ROOT / "ops" / "datalab" / "fixtures" / "teaser-too-many-matches.invalid.json"
 CELSIA_TEASER = ROOT / "docs" / "teasers" / "celsia" / "celsia-teaser.json"
 
+WAVE1_ROUND1_TEASERS = [
+    ROOT / "docs" / "teasers" / "celsia" / "celsia-teaser.json",
+    ROOT / "docs" / "teasers" / "isa" / "isa-teaser.json",
+    ROOT / "docs" / "teasers" / "geb" / "geb-teaser.json",
+    ROOT / "docs" / "teasers" / "enel" / "enel-teaser.json",
+    ROOT / "docs" / "teasers" / "epm" / "epm-teaser.json",
+    ROOT / "docs" / "teasers" / "alqueria" / "alqueria-teaser.json",
+    ROOT / "docs" / "teasers" / "nutresa" / "nutresa-teaser.json",
+    ROOT / "docs" / "teasers" / "juan-valdez" / "juan-valdez-teaser.json",
+    ROOT / "docs" / "teasers" / "alpina" / "alpina-teaser.json",
+    ROOT / "docs" / "teasers" / "argos" / "argos-teaser.json",
+    ROOT / "docs" / "teasers" / "pavimentos-colombia" / "pavimentos-colombia-teaser.json",
+    ROOT / "docs" / "teasers" / "interaseo" / "interaseo-teaser.json",
+]
+
 FENOGE_FAQ = "https://fenoge.gov.co/preguntas-frecuentes/"
 FENOGE_IPSE_QUOTE = (
     "¿Cuáles son los mecanismos para presentar las propuestas al FENOGE? "
@@ -77,13 +92,12 @@ def test_schema_rejects_gap_with_more_than_five_matches(teaser_schema: dict):
         _validate(doc, teaser_schema)
 
 
-@pytest.mark.skipif(
-    not CELSIA_TEASER.is_file(),
-    reason=(
-        "docs/teasers/celsia/celsia-teaser.json not on main yet "
-        "(expected from PR #109 when merged)"
-    ),
+@pytest.mark.parametrize(
+    "teaser_path",
+    WAVE1_ROUND1_TEASERS,
+    ids=[p.parent.name for p in WAVE1_ROUND1_TEASERS],
 )
-def test_celsia_wave1_teaser_passes_schema(teaser_schema: dict):
-    doc = json.loads(CELSIA_TEASER.read_text(encoding="utf-8"))
+def test_wave1_round1_teaser_passes_schema(teaser_path: Path, teaser_schema: dict):
+    assert teaser_path.is_file(), f"missing teaser JSON: {teaser_path}"
+    doc = json.loads(teaser_path.read_text(encoding="utf-8"))
     _validate(doc, teaser_schema)

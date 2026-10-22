@@ -1,0 +1,225 @@
+{
+  "contract_status": "to agree with the Datalab desk",
+  "gtm_status": "GTM hypothesis",
+  "company": {
+    "name": "Alpina",
+    "country": "Colombia",
+    "persona": "cso",
+    "profile_source_url": "https://azstachubdigitalprd01.blob.core.windows.net/hubdigitalcontainer01/2026/Informes/Informe_Sostenibilidad_Alpina_2025.pdf#page=2",
+    "profile_quote": "Este informe presenta los asuntos materiales y la gestión de la sostenibilidad de Alpina Productos Alimenticios S.A.S. BIC en Colombia durante el año 2025.",
+    "bvc_listed": true,
+    "gri_report_url": "https://azstachubdigitalprd01.blob.core.windows.net/hubdigitalcontainer01/2026/Informes/Informe_Sostenibilidad_Alpina_2025.pdf"
+  },
+  "gaps": [
+    {
+      "gap_id": "alp-recyclability-index",
+      "rank": 1,
+      "title": "Recyclability index reached 57% but portfolio gaps remain",
+      "theme_id": "food_consumer",
+      "journey_step": "data",
+      "startup_stage": "Seed",
+      "statement": "Alpina reports a 57% recyclability index after reviewing 54 product families, up 6.48 points year on year, showing progress but room to lift packaging circularity.",
+      "evidence_url": "https://azstachubdigitalprd01.blob.core.windows.net/hubdigitalcontainer01/2026/Informes/Informe_Sostenibilidad_Alpina_2025.pdf#page=47",
+      "evidence_quote": "Se llevó a cabo la evaluación del Índice de Reciclabilidad (IR), analizando 54 familias de producto. Como resultado de este ejercicio, el índice alcanzó un 57%, lo que representa un incremento de 6,48% frente al resultado del año anterior.",
+      "shortfall": false,
+      "matches": [
+        {
+          "match_id": "alp-g1-compostpack",
+          "actor_kind": "startup",
+          "name": "Compostpack",
+          "claim_type": "theme_match",
+          "public_source_url": "https://compostpack.com",
+          "public_quote": "Nuestros materiales son genuinos compostables, están disponibles para una variedad de productos, cumplen con las normas internacionales y nacionales para ser reconocidos como verdaderamente compostables y libres de microplásticos.",
+          "why": "Compostable materials raise recyclability; quote does not name Alpina.",
+          "actor_ref": "portfolio:COMPOSTPACK"
+        },
+        {
+          "match_id": "alp-g1-proplanet",
+          "actor_kind": "startup",
+          "name": "Proplanet",
+          "claim_type": "theme_match",
+          "public_source_url": "https://proplanet.com.co",
+          "public_quote": "Ayudamos con la disminución de residuos en vías, aguas, parques y rellenos sanitarios.",
+          "why": "Recycled furniture line reduces waste to landfill; quote does not name Alpina.",
+          "actor_ref": "portfolio:PROPLANET SAS"
+        },
+        {
+          "match_id": "alp-g1-reemade",
+          "actor_kind": "startup",
+          "name": "Reemade",
+          "claim_type": "theme_match",
+          "public_source_url": "https://reemade.com.co",
+          "public_quote": "Los materiales, al igual que en la naturaleza, deben circular.",
+          "why": "Circular materials thesis matches packaging index work; quote does not name Alpina.",
+          "actor_ref": "portfolio:REEMADE"
+        }
+      ]
+    },
+    {
+      "gap_id": "alp-carbon-neutral-residual",
+      "rank": 2,
+      "title": "Carbon neutrality still relies on compensating residual emissions",
+      "theme_id": "food_consumer",
+      "journey_step": "data",
+      "startup_stage": "Pre-Series A",
+      "statement": "Alpina kept carbon-neutral status in 2025 by compensating emissions that operations could not eliminate yet.",
+      "evidence_url": "https://azstachubdigitalprd01.blob.core.windows.net/hubdigitalcontainer01/2026/Informes/Informe_Sostenibilidad_Alpina_2025.pdf#page=29",
+      "evidence_quote": "En 2025, Alpina mantuvo su condición de compañía carbono neutro, compensando las emisiones residuales de su operación",
+      "shortfall": false,
+      "matches": [
+        {
+          "match_id": "alp-g2-cneutral",
+          "actor_kind": "startup",
+          "name": "C-neutral",
+          "claim_type": "theme_match",
+          "public_source_url": "https://c-neutral.co",
+          "public_quote": "Guiando el camino hacia la carbono neutralidad",
+          "why": "Neutralization consulting aligns with residual-emissions gap; quote does not name Alpina.",
+          "actor_ref": "portfolio:C-NEUTRAL SAS"
+        },
+        {
+          "match_id": "alp-g2-carbonbox",
+          "actor_kind": "startup",
+          "name": "CarbonBox",
+          "claim_type": "theme_match",
+          "public_source_url": "https://carbonbox.app",
+          "public_quote": "Mide, reduce y reporta tu huella de carbono con rigor científico.",
+          "why": "Measurement platform supports reduction before offsets; quote does not name Alpina.",
+          "actor_ref": "portfolio:CARBONBOX"
+        },
+        {
+          "match_id": "alp-g2-zhana",
+          "actor_kind": "startup",
+          "name": "Zhana Solutions",
+          "claim_type": "theme_match",
+          "public_source_url": "https://zhanasolutions.com",
+          "public_quote": "A partir de la operación de nuestra tecnología socializaremos con tu equipo los indicadores y métricas de impacto ambiental (litros de agua salvados y reducción de emisiones de co2)",
+          "why": "Operational CO2 metrics reporting; quote does not name Alpina.",
+          "actor_ref": "portfolio:ZHANA SOLUTIONS"
+        }
+      ]
+    },
+    {
+      "gap_id": "alp-plastic-neutral-market",
+      "rank": 3,
+      "title": "Plastic-neutral status still chases 100% of market plastic",
+      "theme_id": "food_consumer",
+      "journey_step": "partnerships",
+      "startup_stage": "Seed",
+      "statement": "Alpina commits to recover and transform plastic equivalent to 100% of plastic placed on the market while expanding recycler wellbeing programs.",
+      "evidence_url": "https://azstachubdigitalprd01.blob.core.windows.net/hubdigitalcontainer01/2026/Informes/Informe_Sostenibilidad_Alpina_2025.pdf#page=48",
+      "evidence_quote": "Por eso, asumimos el compromiso de recuperar y transformar el equivalente al 100% del plástico que ponemos en el mercado, avanzando hacia una cadena de valor cada vez más circular.",
+      "shortfall": false,
+      "matches": [
+        {
+          "match_id": "alp-g3-compostpack",
+          "actor_kind": "startup",
+          "name": "Compostpack",
+          "claim_type": "theme_match",
+          "public_source_url": "https://compostpack.com",
+          "public_quote": "Hoy se ha convertido en una empresa colombiana líder especializada en bioplásticos compostables, con un dominio completo de las tecnologías clave para la polimerización, modificación y aplicaciones finales.",
+          "why": "Bioplastics reduce virgin plastic placement; quote does not name Alpina.",
+          "actor_ref": "portfolio:COMPOSTPACK"
+        },
+        {
+          "match_id": "alp-g3-proplanet",
+          "actor_kind": "startup",
+          "name": "Proplanet",
+          "claim_type": "theme_match",
+          "public_source_url": "https://proplanet.com.co",
+          "public_quote": "Fortalecemos las redes cooperativas de recicladores.",
+          "why": "Recycler-network support aligns with plastic recovery; quote does not name Alpina.",
+          "actor_ref": "portfolio:PROPLANET SAS"
+        },
+        {
+          "match_id": "alp-g3-reemade",
+          "actor_kind": "startup",
+          "name": "Reemade",
+          "claim_type": "theme_match",
+          "public_source_url": "https://reemade.com.co",
+          "public_quote": "Transformamos residuos en diseño de alto valor",
+          "why": "Upcycling captures hard-to-recycle plastics; quote does not name Alpina.",
+          "actor_ref": "portfolio:REEMADE"
+        }
+      ]
+    },
+    {
+      "gap_id": "alp-water-basin-work",
+      "rank": 4,
+      "title": "Shared water stewardship extends into 2026 basin work",
+      "theme_id": "food_consumer",
+      "journey_step": "challenge",
+      "startup_stage": "Seed",
+      "statement": "Water stewardship goes beyond plants; 2025 basin care initiatives continue into 2026 with local partners.",
+      "evidence_url": "https://azstachubdigitalprd01.blob.core.windows.net/hubdigitalcontainer01/2026/Informes/Informe_Sostenibilidad_Alpina_2025.pdf#page=33",
+      "evidence_quote": "Reconociendo que la gestión del recurso hídrico va más allá de nuestras operaciones y que el cuidado del agua es una responsabilidad compartida, Alpina también trabaja de manera articulada con actores locales en sus zonas de influencia.",
+      "shortfall": true,
+      "matches": [
+        {
+          "match_id": "alp-g4-zhana",
+          "actor_kind": "startup",
+          "name": "Zhana Solutions",
+          "claim_type": "theme_match",
+          "public_source_url": "https://zhanasolutions.com",
+          "public_quote": "Tratamiento de aguas y gestión de residuos grasos",
+          "why": "Water treatment offering; quote does not name Alpina.",
+          "actor_ref": "portfolio:ZHANA SOLUTIONS"
+        },
+        {
+          "match_id": "alp-g4-natupin",
+          "actor_kind": "startup",
+          "name": "Natupin",
+          "claim_type": "theme_match",
+          "public_source_url": "https://natupin.bio",
+          "public_quote": "Conoce de todos nuestros nuevos lanzamientos, productos y formas en las que puedes preservar la biodiversidad.",
+          "why": "Biodiversity preservation complements basin work; quote does not name Alpina.",
+          "actor_ref": "portfolio:NATUPIN"
+        }
+      ]
+    },
+    {
+      "gap_id": "alp-renewable-energy-scale",
+      "rank": 5,
+      "title": "Large-scale emission cuts depend on new solar and TMS projects",
+      "theme_id": "food_consumer",
+      "journey_step": "capital",
+      "startup_stage": "Pre-Series A",
+      "statement": "2025 advanced two photovoltaic projects and a transport-management system expected to cut distribution emissions.",
+      "evidence_url": "https://azstachubdigitalprd01.blob.core.windows.net/hubdigitalcontainer01/2026/Informes/Informe_Sostenibilidad_Alpina_2025.pdf#page=28",
+      "evidence_quote": "Durante 2025, Alpina avanzó en la definición y puesta en marcha de proyectos de mayor escala orientados a la reducción de emisiones, que serán desarrollados y profundizados como parte de nuestro camino hacia una operación cada vez más responsable con los recursos naturales.",
+      "shortfall": false,
+      "matches": [
+        {
+          "match_id": "alp-g5-cneutral",
+          "actor_kind": "startup",
+          "name": "C-neutral",
+          "claim_type": "theme_match",
+          "public_source_url": "https://c-neutral.co",
+          "public_quote": "Descubre los planes de reducción de CO2 e minuciosamente escogidos por profesionales, para tu producto o empresa.",
+          "why": "Reduction planning; quote does not name Alpina.",
+          "actor_ref": "portfolio:C-NEUTRAL SAS"
+        },
+        {
+          "match_id": "alp-g5-carbonbox",
+          "actor_kind": "startup",
+          "name": "CarbonBox",
+          "claim_type": "theme_match",
+          "public_source_url": "https://carbonbox.app",
+          "public_quote": "Empresas de distintos sectores ya gestionan sus emisiones con CarbonBox.",
+          "why": "Emissions management SaaS; quote does not name Alpina.",
+          "actor_ref": "portfolio:CARBONBOX"
+        },
+        {
+          "match_id": "alp-g5-compostpack",
+          "actor_kind": "startup",
+          "name": "Compostpack",
+          "claim_type": "theme_match",
+          "public_source_url": "https://compostpack.com",
+          "public_quote": "Por un planeta más limpio",
+          "why": "Brand commitment to cleaner planet; weak operational tie; quote does not name Alpina.",
+          "actor_ref": "portfolio:COMPOSTPACK"
+        }
+      ]
+    }
+  ]
+}

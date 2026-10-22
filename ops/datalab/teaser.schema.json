@@ -12,17 +12,38 @@
     "gtm_status": {
       "const": "GTM hypothesis"
     },
+    "draft": { "type": "boolean" },
+    "csoReady": { "type": "boolean" },
+    "accessed_on": { "type": "string" },
+    "scope": { "type": "string" },
     "company": {
       "type": "object",
       "additionalProperties": false,
       "required": ["name", "country", "persona", "profile_source_url", "profile_quote"],
       "properties": {
         "name": { "type": "string" },
+        "legal_name": { "type": "string" },
         "country": { "const": "Colombia" },
         "persona": { "enum": ["cso", "esg_reporting", "procurement"] },
+        "working_sector": { "type": "string" },
+        "theme_id": {
+          "enum": [
+            "banking_insurance",
+            "energy_utilities",
+            "oil_gas",
+            "food_consumer",
+            "construction"
+          ]
+        },
+        "wave": { "type": "integer" },
+        "wave_list_rank": { "type": "integer", "minimum": 1, "maximum": 20 },
         "profile_source_url": { "type": "string", "minLength": 1 },
+        "profile_page_pdf": { "type": "integer" },
         "profile_quote": { "type": "string", "minLength": 1 },
+        "report_listing_url": { "type": "string" },
         "bvc_listed": { "type": ["boolean", "null"] },
+        "bvc_evidence_quote": { "type": "string" },
+        "bvc_evidence_page_pdf": { "type": "integer" },
         "gri_report_url": { "type": ["string", "null"] }
       }
     },
@@ -71,13 +92,19 @@
         "statement": { "type": "string", "minLength": 1 },
         "evidence_url": { "type": "string", "minLength": 1 },
         "evidence_quote": { "type": "string", "minLength": 1 },
+        "report_page_pdf": { "type": "integer" },
+        "report_page_printed": { "type": "string" },
+        "gri_topic_standard": { "type": "string" },
+        "gri_disclosure_in_report": { "type": "string" },
+        "supporting_quote": { "type": "string" },
+        "supporting_quote_page_pdf": { "type": "integer" },
+        "shortfall": { "type": "boolean" },
         "matches": {
           "type": "array",
           "minItems": 1,
           "maxItems": 5,
           "items": { "$ref": "#/$defs/match" }
-        },
-        "shortfall": { "type": "boolean" }
+        }
       }
     },
     "match": {
@@ -96,11 +123,18 @@
         "actor_ref": { "type": "string" },
         "actor_kind": { "enum": ["startup", "funder"] },
         "name": { "type": "string", "minLength": 1 },
+        "description": { "type": "string" },
+        "location": { "type": "string" },
+        "website": { "type": "string" },
+        "startup_stage": {
+          "enum": ["Pre-Seed", "Seed", "Pre-Series A", "Series B+"]
+        },
         "claim_type": { "enum": ["theme_match", "actor_relation"] },
+        "relation_type": { "type": "string" },
         "why": { "type": "string" },
         "public_source_url": { "type": "string", "minLength": 1 },
         "public_quote": { "type": "string", "minLength": 1 },
-        "relation_type": { "type": "string" }
+        "accessed_on": { "type": "string" }
       }
     }
   }
