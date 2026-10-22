@@ -103,7 +103,7 @@
       "report_page_pdf": 60,
       "gri_topic_standard": "GRI 304: Biodiversity 2016",
       "gri_disclosure_in_report": "GRI 304-2",
-      "shortfall": false,
+      "shortfall": true,
       "matches": [
         {
           "match_id": "celsia-g2-apicultores",
@@ -119,38 +119,6 @@
           "why": "Celsia reports relocating 63 bee and wasp colonies on its electrical operations. This page names the firm and bee rescue. The quote does not name Celsia.",
           "public_source_url": "https://apicultoresyrescatistas.com",
           "public_quote": "Apicultores y Rescatistas SAS BIC cuenta con el Centro Experimental Apícola LaLuz ( https://maps.app.goo.gl/dmqvJXVUWGDYpPpy6 ) en el Departamento del Valle del Cauca para alojar las abejas rescatadas.",
-          "accessed_on": "2026-10-22"
-        },
-        {
-          "match_id": "celsia-g2-natupin",
-          "actor_ref": "portfolio:NATUPIN",
-          "actor_kind": "startup",
-          "name": "NatuPin",
-          "description": "Products and a public message about conserving Colombia's biodiversity.",
-          "location": "Colombia",
-          "website": "https://natupin.bio",
-          "startup_stage": "Pre-Seed",
-          "claim_type": "theme_match",
-          "relation_type": "theme_match",
-          "why": "The public page names NatuPin and the conservation of the country's biodiversity. The quote does not name Celsia.",
-          "public_source_url": "https://natupin.bio",
-          "public_quote": "Nos unimos tres personas para llevar a que NatuPin sea el símbolo de las personas y las empresas que sienten un profundo deseo de conservar la biodiversidad del país.",
-          "accessed_on": "2026-10-22"
-        },
-        {
-          "match_id": "celsia-g2-kimsa",
-          "actor_ref": "portfolio:CARBON BOX",
-          "actor_kind": "startup",
-          "name": "KIMSA",
-          "description": "Designs sustainability solutions that regenerate nature.",
-          "location": "Bogotá D.C., Colombia",
-          "website": "https://kimsa.co",
-          "startup_stage": "Seed",
-          "claim_type": "theme_match",
-          "relation_type": "theme_match",
-          "why": "The public page names KIMSA and regenerating nature. The quote does not name Celsia.",
-          "public_source_url": "https://kimsa.co",
-          "public_quote": "En KIMSA diseñamos soluciones sostenibles que transforman organizaciones, regeneran la naturaleza y potencializan el cambio social.",
           "accessed_on": "2026-10-22"
         }
       ]
@@ -169,7 +137,7 @@
       "report_page_pdf": 22,
       "gri_topic_standard": "GRI 303: Water and Effluents 2018",
       "gri_disclosure_in_report": "GRI 303-1",
-      "shortfall": false,
+      "shortfall": true,
       "matches": [
         {
           "match_id": "celsia-g3-fluvia",
@@ -186,39 +154,6 @@
           "public_source_url": "https://fluvia.co",
           "public_quote": "En ríos, quebradas, embalses, plantas de tratamiento, sistemas industriales y redes hidráulicas, gran parte de la información importante no se puede ver a simple vista. En Fluvia utilizamos trazadores para seguir el recorrido del agua y entender cómo se mueve, dónde se pierde, cuánto tarda en llegar a un punto y cómo transporta sustancias dentro de un sistema, entre otras aplicaciones.",
           "accessed_on": "2026-10-22"
-        },
-        {
-          "match_id": "celsia-g3-o3-agua",
-          "actor_ref": "portfolio:O3 SMART CITIES",
-          "actor_kind": "startup",
-          "name": "O3 Smart Cities",
-          "description": "Produces drinking water from air humidity, powered by solar energy.",
-          "location": "Bogotá, Colombia",
-          "website": "https://o3smartcities.com.co",
-          "startup_stage": "Seed",
-          "claim_type": "theme_match",
-          "relation_type": "theme_match",
-          "why": "The public page names O3 Agua and solar-powered drinking water where the grid is absent. The quote does not name Celsia.",
-          "public_source_url": "https://o3smartcities.com.co",
-          "public_quote": "O3 Agua captura la humedad del aire, la condensa y la purifica para producir agua potable. Al operar con energía solar, puede llevar agua a comunidades sin depender de la red eléctrica.",
-          "accessed_on": "2026-10-22"
-        },
-        {
-          "match_id": "celsia-g3-tobo",
-          "actor_ref": "portfolio:TOBO Y COMPAÑÍA SAS BIC",
-          "actor_kind": "startup",
-          "name": "TOBO",
-          "description": "Wind and solar water systems, including wells for irrigation.",
-          "location": "Yopal, Colombia",
-          "public_office_address": "Cra. 20 #35-70, Yopal",
-          "website": "https://tobo.com.co",
-          "startup_stage": "Seed",
-          "claim_type": "theme_match",
-          "relation_type": "theme_match",
-          "why": "The public page names TOBO and reliable access to groundwater. The quote does not name Celsia.",
-          "public_source_url": "https://tobo.com.co",
-          "public_quote": "TOBO ha sido un socio invaluable para nuestro proyecto agrícola. Su sistema de perforación de pozos nos brinda acceso confiable a agua subterránea para el riego.",
-          "accessed_on": "2026-10-22"
         }
       ]
     },
@@ -234,7 +169,7 @@
       "evidence_quote": "Para 2025 el 25% de nuestra capacidad instalada provendrá de fuentes renovables no convencionales.",
       "report_page_printed": "120",
       "report_page_pdf": 61,
-      "supporting_quote": "Avance 2024: el 19% de nuestra capacidad instalada proviene de fuentes renovables no convencionales.",
+      "supporting_quote": "el 19% de nuestra capacidad instalada proviene de fuentes renovables no convencionales",
       "gri_topic_standard": "GRI 302: Energy 2016",
       "gri_disclosure_in_report": "GRI 302-1",
       "shortfall": false,
@@ -284,7 +219,7 @@
           "relation_type": "theme_match",
           "why": "The public page names SEOS and solar energy. The quote does not name Celsia.",
           "public_source_url": "https://seosenergy.co",
-          "public_quote": "Tu energía solar, con el respaldo de SEOS.",
+          "public_quote": "SEOS diseña el sistema y lo instala con sus SOLvers, instaladores evaluados y certificados por SEOS.",
           "accessed_on": "2026-10-22"
         },
         {
@@ -351,7 +286,7 @@
           "relation_type": "theme_match",
           "why": "The public page names Xiclo and reusable items. The quote does not name Celsia.",
           "public_source_url": "https://xiclo.app",
-          "public_quote": "Xiclo es un software plug-&-play para gestionar y rastrear ítems reutilizables de manera amigable – sin desarrollo ni consultorías – y mejorar el impacto ambiental y la reputación de tu marca.",
+          "public_quote": "Activa la reutilización en tu organización con resultados e impacto medibles, sin desarrollos ni consultorías.",
           "accessed_on": "2026-10-22"
         },
         {

@@ -10,7 +10,7 @@
 
 BVC: the report records the Sello IR of the Bolsa de Valores de Colombia since 2013 (PDF page 62). Scope of this sheet: environment, climate and nature. Social and governance topics are out of scope. Full quotes for every match are in `celsia-teaser.json`. Every match below is a theme match. None names Celsia. None is a graph relation.
 
-**Shortfall.** All five gaps have at least three matches. Every `shortfall` flag is false. **csoReady: true** on the shortfall gate only. The taxonomy is still a draft.
+**Shortfall.** Gaps 2 and 3 fall below three strong gap-specific matches after checker review (NatuPin, KIMSA, O3 Agua and TOBO removed as theme-only). **`shortfall: true`** on gaps 2 and 3; false on gaps 1, 4 and 5. **csoReady: true** on the shortfall gate only. The taxonomy is still a draft.
 
 ## 1. Scope 3 inventory and a science-based target
 
@@ -35,10 +35,8 @@ Material topic 7, biodiversity and ecosystem services. PDF page 60 (printed 119)
 | Match | Stage | Link |
 | --- | --- | --- |
 | Apicultores y Rescatistas SAS BIC | Pre-Seed | [apicultoresyrescatistas.com](https://apicultoresyrescatistas.com) |
-| NatuPin | Pre-Seed | [natupin.bio](https://natupin.bio) |
-| KIMSA (portfolio row CARBON BOX) | Seed | [kimsa.co](https://kimsa.co) |
 
-Journey step: challenge. Matches: 3. Shortfall: false.
+Journey step: challenge. Matches: 1 (NatuPin and KIMSA dropped as theme-only). Shortfall: true.
 
 ## 3. Drought, floods and water stress on assets
 
@@ -49,10 +47,8 @@ Material topic 9, climate adaptation. PDF page 22 (printed 42–43). **GRI 303: 
 | Match | Stage | Link |
 | --- | --- | --- |
 | Fluvia | Pre-Seed | [fluvia.co](https://fluvia.co) |
-| O3 Smart Cities | Seed | [o3smartcities.com.co](https://o3smartcities.com.co) |
-| TOBO | Seed | [tobo.com.co](https://tobo.com.co) |
 
-Journey step: data. Matches: 3. Shortfall: false.
+Journey step: data. Matches: 1 (O3 Agua and TOBO dropped as theme-only). Shortfall: true.
 
 ## 4. Non-conventional renewable capacity
 
@@ -84,4 +80,4 @@ PDF page 61 (printed 121). **GRI 306: Waste 2020** (the indicator index cites GR
 
 Journey step: partnerships. Matches: 4. Shortfall: false.
 
-Match count: 17. The waste-hierarchy target (90 percent by 2025, already 99 percent) is not used as a gap. Contact details and file-share links are left out.
+Match count: 13. The waste-hierarchy target (90 percent by 2025, already 99 percent) is not used as a gap. Contact details and file-share links are left out.
