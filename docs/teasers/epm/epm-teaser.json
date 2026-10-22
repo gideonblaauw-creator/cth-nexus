@@ -1,0 +1,235 @@
+{
+  "contract_status": "to agree with the Datalab desk",
+  "gtm_status": "GTM hypothesis",
+  "company": {
+    "name": "EPM",
+    "country": "Colombia",
+    "persona": "cso",
+    "profile_source_url": "https://www.epm.com.co/content/dam/epm/institucional/informes-de-sostenibilidad-historicos-/english/sustainability-report-2024.pdf#page=307",
+    "profile_quote": "This is the nineteenth EPM Sustainability Report based on the GRI methodology.",
+    "bvc_listed": true,
+    "gri_report_url": "https://www.epm.com.co/content/dam/epm/institucional/informes-de-sostenibilidad-historicos-/english/sustainability-report-2024.pdf"
+  },
+  "gaps": [
+    {
+      "gap_id": "epm-scope3-spike",
+      "rank": 1,
+      "title": "Scope 3 rose as grid emission factor jumped up to 23%",
+      "theme_id": "energy_utilities",
+      "journey_step": "data",
+      "startup_stage": "Pre-Series A",
+      "statement": "Scope 3 rose as grid emission factor jumped up to 23%",
+      "evidence_url": "https://www.epm.com.co/content/dam/epm/institucional/informes-de-sostenibilidad-historicos-/english/sustainability-report-2024.pdf#page=493",
+      "evidence_quote": "This factor increased by up to 23% compared to the previous year, becoming the main cause of the increase in Scope 3 emissions.",
+      "matches": [
+        {
+          "match_id": "epm-g1-cb",
+          "actor_kind": "startup",
+          "name": "CarbonBox",
+          "claim_type": "theme_match",
+          "public_source_url": "https://carbonbox.app",
+          "public_quote": "CarbonBox mide los alcances 1, 2 y 3 con trazabilidad completa y metodología auditable, para que la cadena de valor deje de ser una caja negra.",
+          "why": "Scope 3 inventory; quote does not name EPM.",
+          "actor_ref": "portfolio:CARBONBOX"
+        },
+        {
+          "match_id": "epm-g1-sc",
+          "actor_kind": "startup",
+          "name": "sinCarbono",
+          "claim_type": "theme_match",
+          "public_source_url": "https://sincarbono.io",
+          "public_quote": "Cumple con la medición de huella de carbono con base al Protocolo de GEI y reporta con base a NIS, CSRD y CBAM en semanas, no meses.",
+          "why": "Value-chain reporting; quote does not name EPM.",
+          "actor_ref": "portfolio:SINCARBONO"
+        },
+        {
+          "match_id": "epm-g1-cn",
+          "actor_kind": "startup",
+          "name": "C-neutral",
+          "claim_type": "theme_match",
+          "public_source_url": "https://c-neutral.co",
+          "public_quote": "En C-neutral brindamos consultoría integral hacia la ruta de descarbonización, apoyando a las empresas a identificar y cuantificar los aspectos e impactos ambientales potenciales a partir de la utilización de recursos y las emisiones producidas asociadas a su actividad económica.",
+          "why": "Decarbonization; quote does not name EPM.",
+          "actor_ref": "portfolio:C-NEUTRAL SAS"
+        }
+      ],
+      "shortfall": false
+    },
+    {
+      "gap_id": "epm-solar-selfgen-partial",
+      "rank": 2,
+      "title": "Large-customer solar self-generation target only partially met",
+      "theme_id": "energy_utilities",
+      "journey_step": "capital",
+      "startup_stage": "Seed",
+      "statement": "Large-customer solar self-generation target only partially met",
+      "evidence_url": "https://www.epm.com.co/content/dam/epm/institucional/informes-de-sostenibilidad-historicos-/english/sustainability-report-2024.pdf#page=517",
+      "evidence_quote": "Installed and put into operation 14 solar self-generation solutions with a capacity of 4.85 MWp, contributing to the diversification of the energy matrix.",
+      "matches": [
+        {
+          "match_id": "epm-g2-se",
+          "actor_kind": "startup",
+          "name": "SEOS Energy",
+          "claim_type": "theme_match",
+          "public_source_url": "https://seosenergy.co",
+          "public_quote": "Tu plataforma de energía solar: diseñamos tu sistema, lo instalamos, hacemos los trámites y lo monitoreamos.",
+          "why": "Solar installs; quote does not name EPM.",
+          "actor_ref": "portfolio:SEOS ENERGY SAS BIC"
+        },
+        {
+          "match_id": "epm-g2-o3",
+          "actor_kind": "startup",
+          "name": "O3 Smart Cities",
+          "claim_type": "theme_match",
+          "public_source_url": "https://o3smartcities.com.co",
+          "public_quote": "Diseñamos, financiamos y operamos plantas solares para la industria colombiana.",
+          "why": "Industrial solar; quote does not name EPM.",
+          "actor_ref": "portfolio:O3 SMART CITIES"
+        },
+        {
+          "match_id": "epm-g2-gr",
+          "actor_kind": "startup",
+          "name": "Griin",
+          "claim_type": "theme_match",
+          "public_source_url": "https://griin.com.co",
+          "public_quote": "Financiamiento solar para empresas en América Latina.",
+          "why": "Solar finance; quote does not name EPM.",
+          "actor_ref": "portfolio:GRIIN ENERGY SAS"
+        }
+      ],
+      "shortfall": false
+    },
+    {
+      "gap_id": "epm-ncre-2030-target",
+      "rank": 3,
+      "title": "NCRE growth deadline extended to 2030 with 1,150 MW target",
+      "theme_id": "energy_utilities",
+      "journey_step": "capital",
+      "startup_stage": "Pre-Seed",
+      "statement": "NCRE growth deadline extended to 2030 with 1,150 MW target",
+      "evidence_url": "https://www.epm.com.co/content/dam/epm/institucional/informes-de-sostenibilidad-historicos-/english/sustainability-report-2024.pdf#page=517",
+      "evidence_quote": "The deadline for NCRE growth was extended to 2030 and a target of 1,150 MW in Colombia and 300 MW in Central America was set.",
+      "matches": [
+        {
+          "match_id": "epm-g3-fe",
+          "actor_kind": "funder",
+          "name": "FENOGE",
+          "claim_type": "theme_match",
+          "public_source_url": "https://fenoge.gov.co/preguntas-frecuentes/",
+          "public_quote": "¿Cuáles son los mecanismos para presentar las propuestas al FENOGE? 1. De forma directa: Ante el IPSE o la UPME, según corresponda para planes, programas o proyectos de personas jurídicas.",
+          "why": "ERNC finance; quote does not name EPM.",
+          "actor_ref": "co-fenoge"
+        },
+        {
+          "match_id": "epm-g3-gr",
+          "actor_kind": "startup",
+          "name": "Griin",
+          "claim_type": "theme_match",
+          "public_source_url": "https://griin.com.co",
+          "public_quote": "Financiamiento solar para empresas en América Latina.",
+          "why": "Project finance; quote does not name EPM.",
+          "actor_ref": "portfolio:GRIIN ENERGY SAS"
+        },
+        {
+          "match_id": "epm-g3-se",
+          "actor_kind": "startup",
+          "name": "SEOS Energy",
+          "claim_type": "theme_match",
+          "public_source_url": "https://seosenergy.co",
+          "public_quote": "Tu plataforma de energía solar: diseñamos tu sistema, lo instalamos, hacemos los trámites y lo monitoreamos.",
+          "why": "Deployment; quote does not name EPM.",
+          "actor_ref": "portfolio:SEOS ENERGY SAS BIC"
+        }
+      ],
+      "shortfall": false
+    },
+    {
+      "gap_id": "epm-climate-material",
+      "rank": 4,
+      "title": "ENSO climate forecasts guide supply planning",
+      "theme_id": "energy_utilities",
+      "journey_step": "policy",
+      "startup_stage": "Series B+",
+      "statement": "ENSO climate forecasts guide supply planning",
+      "evidence_url": "https://www.epm.com.co/content/dam/epm/institucional/informes-de-sostenibilidad-historicos-/english/sustainability-report-2024.pdf#page=498",
+      "evidence_quote": "At EPM, climate forecasts were developed for the El Niño-Southern Oscillation (ENSO) phenomenon. its impact and risks for the businesses of Water and Sanitation and Power Generation, and the information wastaken to the Sustainability, Strategy and Investment Committee of the Board of Directors.",
+      "matches": [
+        {
+          "match_id": "epm-g4-cn",
+          "actor_kind": "startup",
+          "name": "C-neutral",
+          "claim_type": "theme_match",
+          "public_source_url": "https://c-neutral.co",
+          "public_quote": "En C-neutral brindamos consultoría integral hacia la ruta de descarbonización, apoyando a las empresas a identificar y cuantificar los aspectos e impactos ambientales potenciales a partir de la utilización de recursos y las emisiones producidas asociadas a su actividad económica.",
+          "why": "Climate consulting; quote does not name EPM.",
+          "actor_ref": "portfolio:C-NEUTRAL SAS"
+        },
+        {
+          "match_id": "epm-g4-cb",
+          "actor_kind": "startup",
+          "name": "CarbonBox",
+          "claim_type": "theme_match",
+          "public_source_url": "https://carbonbox.app",
+          "public_quote": "Mide, reduce y reporta tu huella de carbono con rigor científico.",
+          "why": "Measurement; quote does not name EPM.",
+          "actor_ref": "portfolio:CARBONBOX"
+        },
+        {
+          "match_id": "epm-g4-re",
+          "actor_kind": "startup",
+          "name": "Reemade",
+          "claim_type": "theme_match",
+          "public_source_url": "https://reemade.com.co",
+          "public_quote": "Al suprareciclar, reducimos la huella de carbono asociada a la extracción y transformación de materias primas, disminuyendo así la contaminación del aire, el agua y el suelo desde su origen.",
+          "why": "Circularity; quote does not name EPM.",
+          "actor_ref": "portfolio:REEMADE"
+        }
+      ],
+      "shortfall": false
+    },
+    {
+      "gap_id": "epm-customer-solar-offer",
+      "rank": 5,
+      "title": "Customer low-carbon solutions still scaling",
+      "theme_id": "energy_utilities",
+      "journey_step": "partnerships",
+      "startup_stage": "Seed",
+      "statement": "Customer low-carbon solutions still scaling",
+      "evidence_url": "https://www.epm.com.co/content/dam/epm/institucional/informes-de-sostenibilidad-historicos-/english/sustainability-report-2024.pdf#page=492",
+      "evidence_quote": "The EPM Group offers low-carbon solutions so that its customers and users can contribute to GHG mitigation from their companies, institutions and homes, as well as contribute to diversifying the energy matrix:",
+      "matches": [
+        {
+          "match_id": "epm-g5-o3",
+          "actor_kind": "startup",
+          "name": "O3 Smart Cities",
+          "claim_type": "theme_match",
+          "public_source_url": "https://o3smartcities.com.co",
+          "public_quote": "Diseñamos, financiamos y operamos plantas solares para la industria colombiana.",
+          "why": "Customer solar; quote does not name EPM.",
+          "actor_ref": "portfolio:O3 SMART CITIES"
+        },
+        {
+          "match_id": "epm-g5-se",
+          "actor_kind": "startup",
+          "name": "SEOS Energy",
+          "claim_type": "theme_match",
+          "public_source_url": "https://seosenergy.co",
+          "public_quote": "Tu plataforma de energía solar: diseñamos tu sistema, lo instalamos, hacemos los trámites y lo monitoreamos.",
+          "why": "Residential/commercial solar; quote does not name EPM.",
+          "actor_ref": "portfolio:SEOS ENERGY SAS BIC"
+        },
+        {
+          "match_id": "epm-g5-fe",
+          "actor_kind": "funder",
+          "name": "FENOGE",
+          "claim_type": "theme_match",
+          "public_source_url": "https://fenoge.gov.co/preguntas-frecuentes/",
+          "public_quote": "¿Cuáles son los mecanismos para presentar las propuestas al FENOGE? 1. De forma directa: Ante el IPSE o la UPME, según corresponda para planes, programas o proyectos de personas jurídicas.",
+          "why": "Public clean energy finance; quote does not name EPM.",
+          "actor_ref": "co-fenoge"
+        }
+      ],
+      "shortfall": false
+    }
+  ]
+}

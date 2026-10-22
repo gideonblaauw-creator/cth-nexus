@@ -1,0 +1,235 @@
+{
+  "contract_status": "to agree with the Datalab desk",
+  "gtm_status": "GTM hypothesis",
+  "company": {
+    "name": "ISA",
+    "country": "Colombia",
+    "persona": "cso",
+    "profile_source_url": "https://isaasprods-d87a26cb809c1f43d1f1-endpoint.azureedge.net/blobisaasprods27f2ae9b77/wp-content/uploads/2026/02/reporte-integrado-isa-2024.pdf#page=8",
+    "profile_quote": "El reporte aborda los resultados de la gestión de ISA y sus unidades de negocio bajo el estándar del Global Reporting Initiative (GRI) de conformidad esencial.",
+    "bvc_listed": true,
+    "gri_report_url": "https://isaasprods-d87a26cb809c1f43d1f1-endpoint.azureedge.net/blobisaasprods27f2ae9b77/wp-content/uploads/2026/02/reporte-integrado-isa-2024.pdf"
+  },
+  "gaps": [
+    {
+      "gap_id": "isa-sf6-scope1",
+      "rank": 1,
+      "title": "Scope 1 remains dominated by SF6 with no commercial substitute",
+      "theme_id": "energy_utilities",
+      "journey_step": "challenge",
+      "startup_stage": "Pre-Seed",
+      "statement": "Scope 1 remains dominated by SF6 with no commercial substitute",
+      "evidence_url": "https://isaasprods-d87a26cb809c1f43d1f1-endpoint.azureedge.net/blobisaasprods27f2ae9b77/wp-content/uploads/2026/02/reporte-integrado-isa-2024.pdf#page=100",
+      "evidence_quote": "Aproximadamente el 85 % de las emisiones del alcance 1 de ISA se generan por las fugas del gas hexafluoruro de azufre o SF6, aislante eléctrico utilizado en subestaciones encapsuladas y en interruptores.",
+      "matches": [
+        {
+          "match_id": "isa-g1-cb",
+          "actor_kind": "startup",
+          "name": "CarbonBox",
+          "claim_type": "theme_match",
+          "public_source_url": "https://carbonbox.app",
+          "public_quote": "CarbonBox mide los alcances 1, 2 y 3 con trazabilidad completa y metodología auditable, para que la cadena de valor deje de ser una caja negra.",
+          "why": "GEI inventory; quote does not name ISA.",
+          "actor_ref": "portfolio:CARBONBOX"
+        },
+        {
+          "match_id": "isa-g1-cn",
+          "actor_kind": "startup",
+          "name": "C-neutral",
+          "claim_type": "theme_match",
+          "public_source_url": "https://c-neutral.co",
+          "public_quote": "En C-neutral brindamos consultoría integral hacia la ruta de descarbonización, apoyando a las empresas a identificar y cuantificar los aspectos e impactos ambientales potenciales a partir de la utilización de recursos y las emisiones producidas asociadas a su actividad económica.",
+          "why": "Decarbonization consulting; quote does not name ISA.",
+          "actor_ref": "portfolio:C-NEUTRAL SAS"
+        },
+        {
+          "match_id": "isa-g1-sc",
+          "actor_kind": "startup",
+          "name": "sinCarbono",
+          "claim_type": "theme_match",
+          "public_source_url": "https://sincarbono.io",
+          "public_quote": "Cumple con la medición de huella de carbono con base al Protocolo de GEI y reporta con base a NIS, CSRD y CBAM en semanas, no meses.",
+          "why": "GHG Protocol tooling; quote does not name ISA.",
+          "actor_ref": "portfolio:SINCARBONO"
+        }
+      ],
+      "shortfall": false
+    },
+    {
+      "gap_id": "isa-transmission-climate",
+      "rank": 2,
+      "title": "Colombia transmission capacity at risk under high warming",
+      "theme_id": "energy_utilities",
+      "journey_step": "data",
+      "startup_stage": "Seed",
+      "statement": "Colombia transmission capacity at risk under high warming",
+      "evidence_url": "https://isaasprods-d87a26cb809c1f43d1f1-endpoint.azureedge.net/blobisaasprods27f2ae9b77/wp-content/uploads/2026/02/reporte-integrado-isa-2024.pdf#page=102",
+      "evidence_quote": "Uno de los riesgos relevantes en Colombia, según el análisis de ISA, es la reducción de la capacidad de transmisión de la red debido al aumento de temperaturas por el cambio climático medido en un escenario desfavorable (SSP3 -7.0).",
+      "matches": [
+        {
+          "match_id": "isa-g2-fl",
+          "actor_kind": "startup",
+          "name": "Fluvia",
+          "claim_type": "theme_match",
+          "public_source_url": "https://fluvia.co",
+          "public_quote": "Climatech & Deeptech para comprender mejor el comportamiento de los flujos.",
+          "why": "Hydrology analytics; quote does not name ISA.",
+          "actor_ref": "portfolio:FLUVIA"
+        },
+        {
+          "match_id": "isa-g2-o3",
+          "actor_kind": "startup",
+          "name": "O3 Smart Cities",
+          "claim_type": "theme_match",
+          "public_source_url": "https://o3smartcities.com.co",
+          "public_quote": "Diseñamos, financiamos y operamos plantas solares para la industria colombiana. Bajas tu factura, proteges tu operación y cumples tus metas ESG con un solo aliado.",
+          "why": "Industrial solar; quote does not name ISA.",
+          "actor_ref": "portfolio:O3 SMART CITIES"
+        },
+        {
+          "match_id": "isa-g2-zh",
+          "actor_kind": "startup",
+          "name": "Zhana Solutions",
+          "claim_type": "theme_match",
+          "public_source_url": "https://zhanasolutions.com",
+          "public_quote": "A partir de la operación de nuestra tecnología socializaremos con tu equipo los indicadores y métricas de impacto ambiental (litros de agua salvados y reducción de emisiones de co2)",
+          "why": "Environmental KPIs; quote does not name ISA.",
+          "actor_ref": "portfolio:ZHANA SOLUTIONS"
+        }
+      ],
+      "shortfall": false
+    },
+    {
+      "gap_id": "isa-scope3-offset",
+      "rank": 3,
+      "title": "Voluntary Scope 3 offset remains 2% of inventory",
+      "theme_id": "energy_utilities",
+      "journey_step": "partnerships",
+      "startup_stage": "Pre-Series A",
+      "statement": "Voluntary Scope 3 offset remains 2% of inventory",
+      "evidence_url": "https://isaasprods-d87a26cb809c1f43d1f1-endpoint.azureedge.net/blobisaasprods27f2ae9b77/wp-content/uploads/2026/02/reporte-integrado-isa-2024.pdf#page=102",
+      "evidence_quote": "El total de emisiones compensadas para los alcances I y II con bonos de carbono fueron 35.564 tCO2e; además, por la compra de I-REC se evitaron aproximadamente 2.183 tCO2e y la compensación voluntaria del 2 % de emisiones en alcance III.",
+      "matches": [
+        {
+          "match_id": "isa-g3-cn2",
+          "actor_kind": "startup",
+          "name": "C-neutral",
+          "claim_type": "theme_match",
+          "public_source_url": "https://c-neutral.co",
+          "public_quote": "Invierte en una amplia gama de proyectos sustentables. Desde recuperación de bosques, selvas, corales y manglares hasta energías renovables.",
+          "why": "Offset projects; quote does not name ISA.",
+          "actor_ref": "portfolio:C-NEUTRAL SAS"
+        },
+        {
+          "match_id": "isa-g3-nu",
+          "actor_kind": "startup",
+          "name": "Natupin",
+          "claim_type": "theme_match",
+          "public_source_url": "https://natupin.bio",
+          "public_quote": "formas en las que puedes preservar la biodiversidad.",
+          "why": "Nature-based solutions; quote does not name ISA.",
+          "actor_ref": "portfolio:NATUPIN"
+        },
+        {
+          "match_id": "isa-g3-re",
+          "actor_kind": "startup",
+          "name": "Reemade",
+          "claim_type": "theme_match",
+          "public_source_url": "https://reemade.com.co",
+          "public_quote": "Al suprareciclar, reducimos la huella de carbono asociada a la extracción y transformación de materias primas, disminuyendo así la contaminación del aire, el agua y el suelo desde su origen.",
+          "why": "Verified impact; quote does not name ISA.",
+          "actor_ref": "portfolio:REEMADE"
+        }
+      ],
+      "shortfall": false
+    },
+    {
+      "gap_id": "isa-biodiversity",
+      "rank": 4,
+      "title": "Infrastructure impacts require avoid-minimize-compensate hierarchy",
+      "theme_id": "energy_utilities",
+      "journey_step": "challenge",
+      "startup_stage": "Pre-Seed",
+      "statement": "Infrastructure impacts require avoid-minimize-compensate hierarchy",
+      "evidence_url": "https://isaasprods-d87a26cb809c1f43d1f1-endpoint.azureedge.net/blobisaasprods27f2ae9b77/wp-content/uploads/2026/02/reporte-integrado-isa-2024.pdf#page=88",
+      "evidence_quote": "Para gestionar estos impactos, ISA y sus empresas, por medio de la Política Corporativa Ambiental, se comprometen a crear mecanismos, como la jerarquía de la mitigación, para proteger los recursos naturales, evitar, minimizar y compensar los impactos generados sobre los ecosistemas naturales, contribuir a la conservación de la biodiversidad y transformar positivamente el entorno donde opera.",
+      "matches": [
+        {
+          "match_id": "isa-g4-api",
+          "actor_kind": "startup",
+          "name": "Apicultores y Rescatistas SAS BIC",
+          "claim_type": "theme_match",
+          "public_source_url": "https://apicultoresyrescatistas.com",
+          "public_quote": "Rescatamos colmenas y enjambres de abejas de forma segura y profesional, garantizando la conservación de estos importantes polinizadores.",
+          "why": "Pollinator rescue on energy assets; quote does not name ISA.",
+          "actor_ref": "portfolio:APICULTORES Y RESCATISTAS"
+        },
+        {
+          "match_id": "isa-g4-nu2",
+          "actor_kind": "startup",
+          "name": "Natupin",
+          "claim_type": "theme_match",
+          "public_source_url": "https://natupin.bio",
+          "public_quote": "formas en las que puedes preservar la biodiversidad.",
+          "why": "Biodiversity; quote does not name ISA.",
+          "actor_ref": "portfolio:NATUPIN"
+        },
+        {
+          "match_id": "isa-g4-kim",
+          "actor_kind": "startup",
+          "name": "KIMSA",
+          "claim_type": "theme_match",
+          "public_source_url": "https://kimsa.co",
+          "public_quote": "Somos KIMSA una empresa de consultoría en gestión e implementación de acciones en cambio climático.",
+          "why": "Climate/biodiversity consulting; quote does not name ISA.",
+          "actor_ref": "portfolio:CARBON BOX"
+        }
+      ],
+      "shortfall": false
+    },
+    {
+      "gap_id": "isa-2030-own-reductions",
+      "rank": 5,
+      "title": "2030 target needs 102,500 tCO2e from own operations",
+      "theme_id": "energy_utilities",
+      "journey_step": "capital",
+      "startup_stage": "Seed",
+      "statement": "2030 target needs 102,500 tCO2e from own operations",
+      "evidence_url": "https://isaasprods-d87a26cb809c1f43d1f1-endpoint.azureedge.net/blobisaasprods27f2ae9b77/wp-content/uploads/2026/02/reporte-integrado-isa-2024.pdf#page=99",
+      "evidence_quote": "102.500 toneladas de CO2e por reducción de impactos propios, con acciones voluntarias para evitar y reducir los gases de efecto invernadero (GEI) emitidos por los negocios, por medio de la disminución del consumo de agua, energía, fugas de gas SF6, disposición final de residuos y movilidad sostenible.",
+      "matches": [
+        {
+          "match_id": "isa-g5-gr",
+          "actor_kind": "startup",
+          "name": "Griin",
+          "claim_type": "theme_match",
+          "public_source_url": "https://griin.com.co",
+          "public_quote": "Financiamiento solar para empresas en América Latina.",
+          "why": "Solar finance; quote does not name ISA.",
+          "actor_ref": "portfolio:GRIIN ENERGY SAS"
+        },
+        {
+          "match_id": "isa-g5-se",
+          "actor_kind": "startup",
+          "name": "SEOS Energy",
+          "claim_type": "theme_match",
+          "public_source_url": "https://seosenergy.co",
+          "public_quote": "Tu plataforma de energía solar: diseñamos tu sistema, lo instalamos, hacemos los trámites y lo monitoreamos.",
+          "why": "Solar deployment; quote does not name ISA.",
+          "actor_ref": "portfolio:SEOS ENERGY SAS BIC"
+        },
+        {
+          "match_id": "isa-g5-fe",
+          "actor_kind": "funder",
+          "name": "FENOGE",
+          "claim_type": "theme_match",
+          "public_source_url": "https://fenoge.gov.co/preguntas-frecuentes/",
+          "public_quote": "¿Cuáles son los mecanismos para presentar las propuestas al FENOGE? 1. De forma directa: Ante el IPSE o la UPME, según corresponda para planes, programas o proyectos de personas jurídicas.",
+          "why": "Public ERNC funder; quote does not name ISA.",
+          "actor_ref": "co-fenoge"
+        }
+      ],
+      "shortfall": false
+    }
+  ]
+}

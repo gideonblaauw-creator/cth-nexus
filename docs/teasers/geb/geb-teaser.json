@@ -1,0 +1,235 @@
+{
+  "contract_status": "to agree with the Datalab desk",
+  "gtm_status": "GTM hypothesis",
+  "company": {
+    "name": "Grupo Energía Bogotá (GEB)",
+    "country": "Colombia",
+    "persona": "cso",
+    "profile_source_url": "https://plataforma.valoraanalitik.com/informacion-relevante/4.-reporte-integrado-de-sostenibilidad-2024-aga.pdf#page=3",
+    "profile_quote": "Este Reporte integrado cubre el periodo comprendido entre el 1 de enero y el 31 de diciembre de 2024, y presenta la gestión del GEB y sus sociedades controladas en Colombia, Perú y Guatemala.",
+    "bvc_listed": true,
+    "gri_report_url": "https://plataforma.valoraanalitik.com/informacion-relevante/4.-reporte-integrado-de-sostenibilidad-2024-aga.pdf"
+  },
+  "gaps": [
+    {
+      "gap_id": "geb-climate-strategic-risk",
+      "rank": 1,
+      "title": "Climate mismanagement is a board-level strategic risk",
+      "theme_id": "energy_utilities",
+      "journey_step": "policy",
+      "startup_stage": "Series B+",
+      "statement": "Climate mismanagement is a board-level strategic risk",
+      "evidence_url": "https://plataforma.valoraanalitik.com/informacion-relevante/4.-reporte-integrado-de-sostenibilidad-2024-aga.pdf#page=38",
+      "evidence_quote": "El GEB definió la “Pérdida de la rentabilidad, viabilidad y continuidad del negocio por inadecuada gestión del cambio climático” como un riesgo estratégico.",
+      "matches": [
+        {
+          "match_id": "geb-g1-cn",
+          "actor_kind": "startup",
+          "name": "C-neutral",
+          "claim_type": "theme_match",
+          "public_source_url": "https://c-neutral.co",
+          "public_quote": "En C-neutral brindamos consultoría integral hacia la ruta de descarbonización, apoyando a las empresas a identificar y cuantificar los aspectos e impactos ambientales potenciales a partir de la utilización de recursos y las emisiones producidas asociadas a su actividad económica.",
+          "why": "Climate strategy support; quote does not name GEB.",
+          "actor_ref": "portfolio:C-NEUTRAL SAS"
+        },
+        {
+          "match_id": "geb-g1-cb",
+          "actor_kind": "startup",
+          "name": "CarbonBox",
+          "claim_type": "theme_match",
+          "public_source_url": "https://carbonbox.app",
+          "public_quote": "CarbonBox mide los alcances 1, 2 y 3 con trazabilidad completa y metodología auditable, para que la cadena de valor deje de ser una caja negra.",
+          "why": "Emissions data; quote does not name GEB.",
+          "actor_ref": "portfolio:CARBONBOX"
+        },
+        {
+          "match_id": "geb-g1-o3",
+          "actor_kind": "startup",
+          "name": "O3 Smart Cities",
+          "claim_type": "theme_match",
+          "public_source_url": "https://o3smartcities.com.co",
+          "public_quote": "Diseñamos, financiamos y operamos plantas solares para la industria colombiana.",
+          "why": "Industrial decarbonization; quote does not name GEB.",
+          "actor_ref": "portfolio:O3 SMART CITIES"
+        }
+      ],
+      "shortfall": false
+    },
+    {
+      "gap_id": "geb-net-zero-2050",
+      "rank": 2,
+      "title": "Carbon neutrality target is set for 2050",
+      "theme_id": "energy_utilities",
+      "journey_step": "policy",
+      "startup_stage": "Pre-Series A",
+      "statement": "Carbon neutrality target is set for 2050",
+      "evidence_url": "https://plataforma.valoraanalitik.com/informacion-relevante/4.-reporte-integrado-de-sostenibilidad-2024-aga.pdf#page=38",
+      "evidence_quote": "GEB se ha comprometido con la meta de ser carbono neutral en el año 2050.",
+      "matches": [
+        {
+          "match_id": "geb-g2-cn",
+          "actor_kind": "startup",
+          "name": "C-neutral",
+          "claim_type": "theme_match",
+          "public_source_url": "https://c-neutral.co",
+          "public_quote": "En C-neutral brindamos consultoría integral hacia la ruta de descarbonización, apoyando a las empresas a identificar y cuantificar los aspectos e impactos ambientales potenciales a partir de la utilización de recursos y las emisiones producidas asociadas a su actividad económica.",
+          "why": "Net-zero pathway consulting; quote does not name GEB.",
+          "actor_ref": "portfolio:C-NEUTRAL SAS"
+        },
+        {
+          "match_id": "geb-g2-sc",
+          "actor_kind": "startup",
+          "name": "sinCarbono",
+          "claim_type": "theme_match",
+          "public_source_url": "https://sincarbono.io",
+          "public_quote": "Cumple con la medición de huella de carbono con base al Protocolo de GEI y reporta con base a NIS, CSRD y CBAM en semanas, no meses.",
+          "why": "Reporting; quote does not name GEB.",
+          "actor_ref": "portfolio:SINCARBONO"
+        },
+        {
+          "match_id": "geb-g2-re",
+          "actor_kind": "startup",
+          "name": "Reemade",
+          "claim_type": "theme_match",
+          "public_source_url": "https://reemade.com.co",
+          "public_quote": "Al elegir productos suprareciclados de Reemade recibirás, junto con tu pedido, un Certificado de Suprareciclaje que documenta el CO₂ evitado y transfiere a tu empresa el cumplimiento práctico de políticas y estándares (CONPES, ODS relevantes y puntos GRI) para uso en reportes de RSE y sostenibilidad.",
+          "why": "Impact certificates; quote does not name GEB.",
+          "actor_ref": "portfolio:REEMADE"
+        }
+      ],
+      "shortfall": false
+    },
+    {
+      "gap_id": "geb-tgi-adaptation",
+      "rank": 3,
+      "title": "TGI and Enlaza adaptation plans started in 2024",
+      "theme_id": "energy_utilities",
+      "journey_step": "data",
+      "startup_stage": "Seed",
+      "statement": "TGI and Enlaza adaptation plans started in 2024",
+      "evidence_url": "https://plataforma.valoraanalitik.com/informacion-relevante/4.-reporte-integrado-de-sostenibilidad-2024-aga.pdf#page=46",
+      "evidence_quote": "Para responder a las necesidades de adaptación de la infraestructura del GEB a condiciones de incertidumbre y volatilidad climática, en 2024 se inició el diseño de planes de adaptación para la infraestructura de Enlaza y TGI, siguiendo la metodología presentada a continuación.",
+      "matches": [
+        {
+          "match_id": "geb-g3-fl",
+          "actor_kind": "startup",
+          "name": "Fluvia",
+          "claim_type": "theme_match",
+          "public_source_url": "https://fluvia.co",
+          "public_quote": "Climatech & Deeptech para comprender mejor el comportamiento de los flujos.",
+          "why": "Climate/hydrology data; quote does not name GEB.",
+          "actor_ref": "portfolio:FLUVIA"
+        },
+        {
+          "match_id": "geb-g3-zh",
+          "actor_kind": "startup",
+          "name": "Zhana Solutions",
+          "claim_type": "theme_match",
+          "public_source_url": "https://zhanasolutions.com",
+          "public_quote": "Tratamiento de aguas y gestión de residuos grasos",
+          "why": "Water stress adaptation; quote does not name GEB.",
+          "actor_ref": "portfolio:ZHANA SOLUTIONS"
+        },
+        {
+          "match_id": "geb-g3-o3",
+          "actor_kind": "startup",
+          "name": "O3 Smart Cities",
+          "claim_type": "theme_match",
+          "public_source_url": "https://o3smartcities.com.co",
+          "public_quote": "ENERGÍA SOLAR · AGUA · CARBONO",
+          "why": "Solar/water/carbon stack; quote does not name GEB.",
+          "actor_ref": "portfolio:O3 SMART CITIES"
+        }
+      ],
+      "shortfall": false
+    },
+    {
+      "gap_id": "geb-iso14064-filias",
+      "rank": 4,
+      "title": "Group requires ISO 14064 GEI reports for all subsidiaries",
+      "theme_id": "energy_utilities",
+      "journey_step": "data",
+      "startup_stage": "Pre-Series A",
+      "statement": "Group requires ISO 14064 GEI reports for all subsidiaries",
+      "evidence_url": "https://plataforma.valoraanalitik.com/informacion-relevante/4.-reporte-integrado-de-sostenibilidad-2024-aga.pdf#page=40",
+      "evidence_quote": "Reporte bajo la ISO 14064 del inventario de emisiones GEI para todas las filiales",
+      "matches": [
+        {
+          "match_id": "geb-g4-cb",
+          "actor_kind": "startup",
+          "name": "CarbonBox",
+          "claim_type": "theme_match",
+          "public_source_url": "https://carbonbox.app",
+          "public_quote": "La plataforma SaaS de huellas de carbono diseñada para empresas latinoamericanas que necesitan datos confiables, expertos certificados y resultados medibles.",
+          "why": "Scope inventory; quote does not name GEB.",
+          "actor_ref": "portfolio:CARBONBOX"
+        },
+        {
+          "match_id": "geb-g4-sc",
+          "actor_kind": "startup",
+          "name": "sinCarbono",
+          "claim_type": "theme_match",
+          "public_source_url": "https://sincarbono.io",
+          "public_quote": "Cumple con la medición de huella de carbono con base al Protocolo de GEI y reporta con base a NIS, CSRD y CBAM en semanas, no meses.",
+          "why": "GHG Protocol; quote does not name GEB.",
+          "actor_ref": "portfolio:SINCARBONO"
+        },
+        {
+          "match_id": "geb-g4-cn",
+          "actor_kind": "startup",
+          "name": "C-neutral",
+          "claim_type": "theme_match",
+          "public_source_url": "https://c-neutral.co",
+          "public_quote": "Comienza a medir y reportar tus emisiones de CO2 e con nuestra calculadora de huella de carbono y nuestros servicios habilitados para certificación externa.",
+          "why": "External certification; quote does not name GEB.",
+          "actor_ref": "portfolio:C-NEUTRAL SAS"
+        }
+      ],
+      "shortfall": false
+    },
+    {
+      "gap_id": "geb-tgi-circular",
+      "rank": 5,
+      "title": "TGI published a circular economy strategy in 2024",
+      "theme_id": "energy_utilities",
+      "journey_step": "partnerships",
+      "startup_stage": "Seed",
+      "statement": "TGI published a circular economy strategy in 2024",
+      "evidence_url": "https://plataforma.valoraanalitik.com/informacion-relevante/4.-reporte-integrado-de-sostenibilidad-2024-aga.pdf#page=35",
+      "evidence_quote": "Diseño y publicación de la Estrategia de Economía Circular de TGI.",
+      "matches": [
+        {
+          "match_id": "geb-g5-cp",
+          "actor_kind": "startup",
+          "name": "Compostpack",
+          "claim_type": "theme_match",
+          "public_source_url": "https://compostpack.com",
+          "public_quote": "Bolsas compostables para desechos orgánicos",
+          "why": "Circular materials; quote does not name GEB.",
+          "actor_ref": "portfolio:COMPOSTPACK"
+        },
+        {
+          "match_id": "geb-g5-re",
+          "actor_kind": "startup",
+          "name": "Reemade",
+          "claim_type": "theme_match",
+          "public_source_url": "https://reemade.com.co",
+          "public_quote": "Convertimos residuos industriales de difícil reciclabilidad y residuos agrícolas en productos personalizados",
+          "why": "Suprarecycling; quote does not name GEB.",
+          "actor_ref": "portfolio:REEMADE"
+        },
+        {
+          "match_id": "geb-g5-pp",
+          "actor_kind": "startup",
+          "name": "Proplanet",
+          "claim_type": "theme_match",
+          "public_source_url": "https://proplanet.com.co",
+          "public_quote": "Ayudamos con la disminución de residuos en vías, aguas, parques y rellenos sanitarios.",
+          "why": "Waste diversion; quote does not name GEB.",
+          "actor_ref": "portfolio:PROPLANET SAS"
+        }
+      ],
+      "shortfall": false
+    }
+  ]
+}
