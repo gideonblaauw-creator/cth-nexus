@@ -591,7 +591,12 @@ def main() -> int:
         for e in errors:
             print(f"  - {e}")
         return 1
-    payload = {"version": 2, "relations": rows}
+    relations = []
+    for entry in rows:
+        row = dict(entry)
+        row.setdefault("evidence_type", "public_quote")
+        relations.append(row)
+    payload = {"version": 2, "relations": relations}
     OUT_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(json.dumps({"ok": True, "relations": len(RELATIONS), "path": str(OUT_PATH)}, indent=2))
     return 0
