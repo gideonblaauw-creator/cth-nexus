@@ -203,6 +203,10 @@ def ct_match(codes: set[str], challenge_ct: set[str]) -> bool:
 
 
 def theme_match(policy_sectors: list, themes: list[str]) -> bool:
+    """Sector-to-policy-theme overlap for nexus-crosslinks only.
+
+    Do not persist this result on relations.json (Gideon, 22 Oct 2026).
+    """
     if not policy_sectors or not themes:
         return False
     joined = " ".join(str(s).lower() for s in policy_sectors)

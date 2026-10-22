@@ -14,6 +14,8 @@ from pathlib import Path
 
 import openpyxl
 
+from relation_fields import strip_theme_match
+
 ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / "static" / "ecosystem" / "data"
 OPS = ROOT / "ops" / "ecosystem"
@@ -687,7 +689,7 @@ def main() -> int:
 
     save_geocode_cache(geocode_cache)
 
-    relations = [dict(r) for r in live_relations]
+    relations = strip_theme_match([dict(r) for r in live_relations])
     rel_keys = {(r["source"], r["target"], r.get("type")) for r in relations}
     new_rel = 0
 

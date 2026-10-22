@@ -3,12 +3,16 @@
 
 Public edges require a row in ops/ecosystem/graph_relation_evidence.json whose quote
 was validated against source_url. Self-loop edges are removed from the bundle.
+theme_match is not a graph field or edge type (Gideon, 22 Oct 2026) and is
+stripped on write so a later sync cannot put it back.
 """
 from __future__ import annotations
 
 import json
 from datetime import date
 from pathlib import Path
+
+from relation_fields import strip_theme_match
 
 ROOT = Path(__file__).resolve().parents[2]
 REL_PATH = ROOT / "static" / "ecosystem" / "data" / "relations.json"
@@ -52,7 +56,7 @@ def load_catalog() -> dict[tuple[str, str, str], dict[str, str]]:
         raise SystemExit(f"missing {EVIDENCE_PATH}; run scripts/ecosystem/build_graph_relation_evidence.py")
     data = json.loads(EVIDENCE_PATH.read_text(encoding="utf-8"))
     out: dict[tuple[str, str, str], dict[str, str]] = {}
-    for row in data.get("relations", []):
+    for row in strip_theme_match(data.get("relations", [])):
         key = (row["source"], row["target"], row["type"])
         out[key] = row
     return out
@@ -60,7 +64,7 @@ def load_catalog() -> dict[tuple[str, str, str], dict[str, str]]:
 
 def apply_verification() -> dict[str, int]:
     catalog = load_catalog()
-    relations = json.loads(REL_PATH.read_text(encoding="utf-8"))
+    relations = strip_theme_match(json.loads(REL_PATH.read_text(encoding="utf-8")))
     before = len(relations)
     relations = [r for r in relations if r["source"] != r["target"]]
     removed_loops = before - len(relations)
@@ -73,6 +77,7 @@ def apply_verification() -> dict[str, int]:
         key = (rel["source"], rel["target"], rel["type"])
         meta = catalog.get(key)
         if meta:
+            rel.pop("theme_match", None)
             rel["verified"] = True
             rel["source_url"] = meta["source_url"]
             rel["source_title"] = meta.get("source_title") or ""
@@ -81,7 +86,7 @@ def apply_verification() -> dict[str, int]:
             verified += 1
         else:
             rel["verified"] = False
-            for k in ("source_url", "source_title", "evidence", "date_accessed", "source_note"):
+            for k in ("source_url", "source_title", "evidence", "date_accessed", "source_note", "theme_match"):
                 rel.pop(k, None)
             hidden.append(rel)
 

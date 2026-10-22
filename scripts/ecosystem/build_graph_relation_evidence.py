@@ -6,6 +6,7 @@ import json
 import sys
 from pathlib import Path
 
+from relation_fields import strip_theme_match
 from relation_source_fetch import (
     challenge_topic_in_evidence,
     fetch_body,
@@ -579,8 +580,9 @@ def validate_entry(entry: dict, actors: dict) -> str | None:
 
 def main() -> int:
     actors = {a["id"]: a for a in json.loads(ACTORS_PATH.read_text(encoding="utf-8"))}
+    rows = strip_theme_match(RELATIONS)
     errors: list[str] = []
-    for entry in RELATIONS:
+    for entry in rows:
         err = validate_entry(entry, actors)
         if err:
             errors.append(f"{entry['source']} -> {entry['target']} ({entry['type']}): {err}")
@@ -589,7 +591,7 @@ def main() -> int:
         for e in errors:
             print(f"  - {e}")
         return 1
-    payload = {"version": 2, "relations": RELATIONS}
+    payload = {"version": 2, "relations": rows}
     OUT_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(json.dumps({"ok": True, "relations": len(RELATIONS), "path": str(OUT_PATH)}, indent=2))
     return 0

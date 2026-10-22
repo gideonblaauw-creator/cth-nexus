@@ -7,6 +7,7 @@ import json
 import re
 from pathlib import Path
 
+from relation_fields import strip_theme_match
 from relation_source_fetch import (
     challenge_topic,
     fetch_body,
@@ -103,7 +104,7 @@ def names_ok(sentence: str, label: str) -> bool:
 
 
 def main() -> None:
-    rels = json.loads(REL.read_text(encoding="utf-8"))
+    rels = strip_theme_match(json.loads(REL.read_text(encoding="utf-8")))
     by_id = {a["id"]: a for a in json.loads(ACTORS.read_text(encoding="utf-8"))}
     story = json.loads(STORY.read_text(encoding="utf-8"))
     cidx = csv_index()
