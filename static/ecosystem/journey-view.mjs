@@ -13,6 +13,8 @@ import {
   labelBox,
   labelPositionForIndex,
   sanitizePublicText,
+  sourcedJourneyStartups,
+  startupVerifiedFacts,
 } from './journey.mjs';
 
 const PATH_COLOR = '#e87722';
@@ -145,13 +147,39 @@ export function mountJourney(deps) {
     els.stat.innerHTML = `<p><strong>${esc(model.stat.stat)}</strong> ${esc(model.stat.label[l])} — <a href="${esc(model.stat.source_url)}" target="_blank" rel="noopener">${esc(model.stat.source_title[l])}</a></p>`;
   }
 
+  function currentStartup() {
+    return deps.getActors().find((actor) => actor.id === startupId) || null;
+  }
+
+  function factsForStartup() {
+    return startupVerifiedFacts(currentStartup(), { stat: model?.stat });
+  }
+
+  function factsSummary(facts, copy) {
+    let host = '';
+    if (facts.website) {
+      try {
+        host = new URL(facts.website).host.replace(/^www\./, '');
+      } catch {
+        host = facts.website;
+      }
+    }
+    const bits = [
+      host || copy.websitePending,
+      facts.location.status === 'address' ? facts.location.text : copy.journeyUnknown,
+    ];
+    if (facts.stat?.stat) bits.push(facts.stat.stat);
+    return bits.join(' · ');
+  }
+
   function renderRail() {
     if (!els.rail || !model) return;
-    const gapLabel = tr().journeyNoPublic;
+    const copy = tr();
+    const summary = factsSummary(factsForStartup(), copy);
     els.rail.innerHTML = model.steps.map((step, i) => `
       <button type="button" class="journey-step${i === activeStep ? ' on' : ''}${step.gap ? ' gap' : ''}" data-idx="${i}">
         <span class="journey-step-k">${esc(step.title)}</span>
-        <span class="journey-step-n">${esc(step.actorName || gapLabel)}</span>
+        <span class="journey-step-n">${esc(step.actorName || summary)}</span>
       </button>`).join('');
     els.rail.querySelectorAll('.journey-step').forEach((btn) => {
       btn.addEventListener('click', () => selectStep(Number(btn.dataset.idx)));
@@ -162,6 +190,48 @@ export function mountJourney(deps) {
     if (!edge || !isPublicHttpUrl(edge.source_url)) return '';
     const label = edge.source_title || tr().journeySource;
     return `<p class="journey-source"><a href="${esc(edge.source_url)}" target="_blank" rel="noopener">${esc(label)}</a></p>`;
+  }
+
+  function renderFactsList(facts, copy) {
+    const l = lang() === 'EN' ? 'en' : 'es';
+    const web = facts.website
+      ? `<li><span class="meta">${esc(copy.website)}</span> <a href="${esc(facts.website)}" target="_blank" rel="noopener">${esc(facts.website)}</a></li>`
+      : `<li><span class="meta">${esc(copy.website)}</span> ${esc(copy.websitePending)}</li>`;
+    const loc = facts.location.status === 'address'
+      ? `<li><span class="meta">${esc(copy.journeyFactLocation)}</span> ${esc(facts.location.text)}</li>`
+      : `<li><span class="meta">${esc(copy.journeyFactLocation)}</span> ${esc(copy.journeyUnknown)}</li>`;
+    const stat = facts.stat
+      ? `<li><span class="meta">${esc(copy.journeyFactStat)}</span> <strong>${esc(facts.stat.stat)}</strong> ${esc(facts.stat.label[l])} — <a href="${esc(facts.stat.source_url)}" target="_blank" rel="noopener">${esc(facts.stat.source_title[l])}</a></li>`
+      : '';
+    return `<h3>${esc(copy.journeyFactsTitle)}</h3><ul class="journey-facts">${web}${loc}${stat}</ul>`;
+  }
+
+  function renderSuggestions(copy) {
+    const rows = sourcedJourneyStartups({
+      actors: deps.getActors(),
+      relations: deps.getRelations(),
+      storyConfig: story(),
+    }).filter((row) => row.challengeId === challengeId && row.id !== startupId);
+    if (!rows.length) return '';
+    const l = lang() === 'EN' ? 'en' : 'es';
+    const items = rows.map((row) => {
+      const label = story()?.challenges?.[row.challengeId]?.label?.[l] || row.challengeId;
+      return `<li><button type="button" class="journey-suggest-btn" data-startup="${esc(row.id)}" data-challenge="${esc(row.challengeId)}">${esc(row.name)}</button> <span class="meta">${esc(label)} · ${row.edgeCount}</span></li>`;
+    }).join('');
+    return `<h3>${esc(copy.journeySourcedTitle)}</h3><ul class="journey-suggest">${items}</ul>`;
+  }
+
+  function bindSuggestions() {
+    els.inspector?.querySelectorAll('.journey-suggest-btn').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        challengeId = btn.dataset.challenge;
+        startupId = btn.dataset.startup;
+        activeStep = 0;
+        render();
+        syncQuery();
+        show();
+      });
+    });
   }
 
   function renderInspector() {
@@ -185,17 +255,21 @@ export function mountJourney(deps) {
     const edgeLine = step.edge
       ? `<p class="meta">${esc(copy.journeyEdge)} <code>${esc(step.edge.type)}</code> · ${esc(entityName(step.edge.source, byId, story(), lang()))} → ${esc(entityName(step.edge.target, byId, story(), lang()))}</p>`
       : '';
+    const gapBlock = step.gap
+      ? `<p class="journey-gap">${esc(step.gap)}</p>${renderFactsList(factsForStartup(), copy)}${renderSuggestions(copy)}`
+      : '';
     els.inspector.innerHTML = `
       <h2>${esc(step.title)}</h2>
-      <h3>${esc(step.actorName || copy.journeyNoPublic)}</h3>
+      <h3>${esc(step.actorName || factsForStartup().name || copy.journeyFactsTitle)}</h3>
       ${step.role ? `<p class="meta">${esc(step.role)}</p>` : ''}
       ${desc ? `<p>${esc(desc)}</p>` : ''}
-      ${step.gap ? `<p class="journey-gap">${esc(step.gap)}</p>` : ''}
+      ${gapBlock}
       ${mapNote}
       ${edgeLine}
       ${quote}
       ${sourceLink(step.edge)}
       ${extras}`;
+    bindSuggestions();
   }
 
   function renderUnknown() {

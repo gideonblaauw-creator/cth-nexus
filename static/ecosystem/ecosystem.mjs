@@ -19,6 +19,7 @@ import {
   isLocationUnknown,
 } from './geo-utils.mjs';
 import { mountJourney } from './journey-view.mjs';
+import { sourcedJourneyStartups } from './journey.mjs';
 
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 const MAP_FONT_STACK = ['Noto Sans Regular'];
@@ -68,6 +69,7 @@ const EDGE_COLOR = {
   hosts: '#669348',
   runs_program: '#6b4c9a',
   cofunds: '#264653',
+  funding: '#264653',
   funds_layer: '#0c498a',
   regulates_layer: '#6b4c9a',
   partner: '#e87722',
@@ -107,6 +109,13 @@ const I18N = {
     journeyUnknown: 'Ubicación desconocida',
     journeyUnknownNone: 'Nada que listar en este recorrido.',
     journeyNoPublic: 'Sin fuente pública',
+    journeyFactsTitle: 'Datos verificados de la startup',
+    journeyFactLocation: 'Ubicación',
+    journeyFactStat: 'Dato citado',
+    journeySourcedTitle: 'Recorridos con fuente pública',
+    storySourcedTitle: 'Startups con recorrido y fuente',
+    storySourcedHint: 'Tienen al menos una relación pública con cita textual. Abre su camino.',
+    storySourcedEmpty: 'Ninguna startup del catálogo tiene aún una relación pública.',
     journeyNoPin: 'Mapa: sin pin — ubicación desconocida (hace falta dirección a nivel de calle).',
     journeyEdge: 'Relación',
     journeySource: 'Fuente pública',
@@ -178,6 +187,13 @@ const I18N = {
     journeyUnknown: 'Location unknown',
     journeyUnknownNone: 'Nothing to list on this journey.',
     journeyNoPublic: 'No public source',
+    journeyFactsTitle: 'Verified facts for this startup',
+    journeyFactLocation: 'Location',
+    journeyFactStat: 'Cited figure',
+    journeySourcedTitle: 'Journeys with a public source',
+    storySourcedTitle: 'Startups with a sourced journey',
+    storySourcedHint: 'At least one public relation with a verbatim quote. Open their path.',
+    storySourcedEmpty: 'No catalog startup has a public relation yet.',
     journeyNoPin: 'Map: no pin — location unknown (a street-level address is required).',
     journeyEdge: 'Relation',
     journeySource: 'Public source',
@@ -1278,6 +1294,26 @@ function renderStoryRail() {
     `${esc(c.title)}: ${c.real} real${c.suggested ? `, ${c.suggested} suggested` : ''}`,
   ).join('<br/>')}`;
   rail.appendChild(gaps);
+  rail.appendChild(renderSourcedJourneyList());
+}
+
+function renderSourcedJourneyList() {
+  const tr = t();
+  const box = document.createElement('div');
+  box.className = 'story-sourced';
+  const rows = sourcedJourneyStartups({ actors, relations, storyConfig });
+  if (!rows.length) {
+    box.innerHTML = `<strong>${esc(tr.storySourcedTitle)}</strong><p class="meta">${esc(tr.storySourcedEmpty)}</p>`;
+    return box;
+  }
+  const l = lang === 'EN' ? 'en' : 'es';
+  box.innerHTML = `<strong>${esc(tr.storySourcedTitle)}</strong><p class="meta">${esc(tr.storySourcedHint)}</p><ul>${rows.map((row) => {
+    const ch = String(row.challengeId).replace(/^challenge:/, '');
+    const href = `?view=journey&challenge=${encodeURIComponent(ch)}&startup=${encodeURIComponent(row.id)}`;
+    const clabel = storyConfig.challenges[row.challengeId]?.label?.[l] || '';
+    return `<li><a href="${esc(href)}">${esc(row.name)}</a> <span class="meta">${esc(clabel)} · ${row.edgeCount}</span></li>`;
+  }).join('')}</ul>`;
+  return box;
 }
 
 function renderStoryChapter() {

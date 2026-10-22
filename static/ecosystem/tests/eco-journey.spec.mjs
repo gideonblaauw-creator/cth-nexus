@@ -7,7 +7,9 @@ import {
   boxesOverlap,
   buildJourneyModel,
   fittedLabelBoxes,
+  incidentPublicEdges,
   isJourneyEdge,
+  pickDefaultStartupId,
   streetPinFor,
 } from '../journey.mjs';
 import { isPublicGraphRelation } from '../story.mjs';
@@ -90,9 +92,30 @@ test('journey graph uses only public verbatim relations', async () => {
     startupId: 'pe-yakusmart',
     lang: 'ES',
   });
-  expect(yakusmart.edges).toEqual([]);
+  expect(yakusmart.edges.some((e) => e.type === 'works_on_challenge')).toBe(true);
+  expect(yakusmart.edges.some((e) => e.type === 'funding' && e.source === 'pe-proinnovate-startup-peru')).toBe(true);
+  expect(yakusmart.edges.some((e) => e.source === 'pe-produce-ministerio-de-la-produccion')).toBe(true);
+  expect(yakusmart.edges.every((e) => e.evidence && /^https?:\/\//.test(e.source_url))).toBe(true);
   expect(yakusmart.stat?.stat).toBe('12.000 m³');
   expect(yakusmart.nodes).not.toContain('pe-emprende-up-climatech-rein-hub-peru');
+
+  const opened = buildJourneyModel({
+    actors,
+    relations,
+    dataRelations: dataRels,
+    storyConfig: story,
+    challengeId: 'challenge:PE-2-agua',
+    startupId: null,
+    lang: 'ES',
+  });
+  const picked = pickDefaultStartupId(opened.startupIds, {
+    relations,
+    challengeId: 'challenge:PE-2-agua',
+    storyConfig: story,
+  });
+  expect(opened.startupId).toBe(picked);
+  const counts = opened.startupIds.map((id) => incidentPublicEdges(id, relations).length);
+  expect(incidentPublicEdges(opened.startupId, relations).length).toBe(Math.max(...counts));
 });
 
 test('alternating labels do not overlap on desktop or mobile widths', () => {
@@ -156,8 +179,9 @@ test('live journey view desktop and mobile', async ({ page }) => {
   await expect(page.locator('#journey-graph canvas').first()).toBeVisible();
   await expect(page.locator('.journey-step')).toHaveCount(6);
 
-  const pins = await page.evaluate(() => window.__journey.listMapPins());
-  expect(pins).toEqual([]);
+  const pins = await page.evaluate(() => window.__journey.listMapPins().map((p) => p.id));
+  expect(pins).toContain('pe-proinnovate-startup-peru');
+  expect(pins).not.toContain('pe-yakufil');
   const unknown = await page.evaluate(() => window.__journey.listUnknown().map((u) => u.label).join(' '));
   expect(unknown).toMatch(/Yakufil/);
   await expect(page.locator('#journey-unknown')).toContainText('Ubicación desconocida');
@@ -191,7 +215,16 @@ test('live journey view desktop and mobile', async ({ page }) => {
   await expect(page.locator('#journey-stat')).toContainText('12.000 m³');
   await expect(page.locator('#journey-stat a[href*="gob.pe"]')).toBeVisible();
   const smartEdges = await page.evaluate(() => window.__journey.listEdges());
-  expect(smartEdges).toEqual([]);
+  expect(smartEdges.length).toBeGreaterThan(0);
+  expect(smartEdges.every((e) => e.evidence && /^https?:\/\//.test(e.source_url))).toBe(true);
+  await page.locator('.journey-step.gap').first().click();
+  await expect(page.locator('#journey-inspector')).toContainText('https://www.yakusmart.io/');
+  await expect(page.locator('#journey-inspector')).toContainText('Ubicación desconocida');
+  await expect(page.locator('#journey-inspector')).toContainText('12.000 m³');
+  await expect(page.locator('#journey-inspector .journey-suggest')).toContainText('Yakufil');
+  const gapRail = await page.locator('.journey-step.gap').first().innerText();
+  expect(gapRail).not.toMatch(/Sin fuente pública/);
+  expect(gapRail.toLowerCase()).toContain('yakusmart.io');
 
   await page.selectOption('#journey-challenge', 'challenge:PE-1-bosques');
   await page.waitForFunction(() => window.__journey.challengeId() === 'challenge:PE-1-bosques');
@@ -202,6 +235,12 @@ test('live journey view desktop and mobile', async ({ page }) => {
   await expect(page.locator('[data-view-tab="journey"]')).toHaveText('Startup journey');
   await expect(page.locator('#journey-unknown')).toContainText('Location unknown');
   await expect(page.locator('#journey-data .journey-kicker')).toHaveText('Data map');
+
+  await page.locator('[data-view-tab="story"]').click();
+  await expect(page.locator('#story-rail .story-sourced')).toContainText('Yakufil');
+  await expect(page.locator('#story-rail .story-sourced a[href*="startup=pe-yakusmart"]')).toBeVisible();
+  const sourcedLinks = page.locator('#story-rail .story-sourced a[href*="view=journey"]');
+  expect(await sourcedLinks.count()).toBeGreaterThan(0);
 
   await page.locator('[data-view-tab="cards"]').click();
   await expect(page.locator('#actor-grid .actor-card').first()).toBeVisible();

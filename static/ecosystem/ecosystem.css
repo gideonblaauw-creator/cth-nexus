@@ -406,6 +406,13 @@ body.story-on .panel-explore {
   line-height: 1.5;
 }
 .story-gaps strong { color: var(--deep-blue); }
+.story-sourced {
+  margin-top: 10px;
+  font-size: 11px;
+  line-height: 1.45;
+}
+.story-sourced ul { margin: 4px 0 0; padding-left: 16px; }
+.story-sourced a { font-weight: 700; color: var(--deep-blue); }
 
 .suggest-overlay {
   position: absolute;
@@ -676,6 +683,11 @@ body.journey-on #story-banner {
   box-shadow: 0 0 0 2px rgba(12, 73, 138, 0.15);
 }
 .journey-step.gap { border-left: 3px solid #ea580c; }
+.journey-step.gap .journey-step-n {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.35;
+}
 .journey-step-k {
   display: block;
   font-size: 9px;
@@ -747,6 +759,19 @@ body.journey-on #story-banner {
   margin: 0 0 6px;
 }
 .journey-gap { color: #ea580c; font-size: 12px; margin-top: 8px; }
+.journey-facts,
+.journey-suggest { margin: 6px 0 0; padding-left: 16px; }
+.journey-facts li,
+.journey-suggest li { margin: 4px 0; }
+.journey-suggest-btn {
+  background: none;
+  border: 0;
+  padding: 0;
+  color: var(--deep-blue);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
 .journey-source a { font-weight: 700; color: var(--forest, #669348); }
 .journey-quote {
   margin: 8px 0;
