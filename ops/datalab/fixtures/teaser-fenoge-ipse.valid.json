@@ -1,0 +1,38 @@
+{
+  "contract_status": "to agree with the Datalab desk",
+  "gtm_status": "GTM hypothesis",
+  "company": {
+    "name": "",
+    "country": "Colombia",
+    "persona": "cso",
+    "profile_source_url": "https://fenoge.gov.co/preguntas-frecuentes/",
+    "profile_quote": "¿Cuáles son los mecanismos para presentar las propuestas al FENOGE?"
+  },
+  "gaps": [
+    {
+      "gap_id": "fenoge-proposal-channel",
+      "rank": 1,
+      "title": "Legal entities need a clear FENOGE submission channel",
+      "theme_id": "energy_utilities",
+      "journey_step": "capital",
+      "startup_stage": "Seed",
+      "statement": "FENOGE publishes that legal entities may submit plans, programs, or projects directly to IPSE or UPME depending on the instrument.",
+      "evidence_url": "https://fenoge.gov.co/preguntas-frecuentes/",
+      "evidence_quote": "¿Cuáles son los mecanismos para presentar las propuestas al FENOGE? 1. De forma directa: Ante el IPSE o la UPME, según corresponda para planes, programas o proyectos de personas jurídicas.",
+      "shortfall": true,
+      "matches": [
+        {
+          "match_id": "fenoge-ipse-submission",
+          "actor_ref": "co-ipse",
+          "actor_kind": "funder",
+          "name": "IPSE",
+          "claim_type": "actor_relation",
+          "relation_type": "funds_layer",
+          "why": "FENOGE names IPSE as a direct channel for legal-entity proposals.",
+          "public_source_url": "https://fenoge.gov.co/preguntas-frecuentes/",
+          "public_quote": "¿Cuáles son los mecanismos para presentar las propuestas al FENOGE? 1. De forma directa: Ante el IPSE o la UPME, según corresponda para planes, programas o proyectos de personas jurídicas."
+        }
+      ]
+    }
+  ]
+}

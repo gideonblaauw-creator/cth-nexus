@@ -1,0 +1,235 @@
+{
+  "contract_status": "to agree with the Datalab desk",
+  "gtm_status": "GTM hypothesis",
+  "company": {
+    "name": "Interaseo",
+    "country": "Colombia",
+    "persona": "cso",
+    "profile_source_url": "https://interaseo.com.co/wp-content/uploads/2026/05/Informe-Sostenibilidad-InterAseo-2024-Baja.pdf#page=23",
+    "profile_quote": "Hemos decidido establecer el año 2024 como nuestra línea base para las futuras mediciones, consolidando así un hito clave en nuestro compromiso con una gestión ambiental más responsable y orientada a la mejora continua.",
+    "bvc_listed": null,
+    "gri_report_url": "https://interaseo.com.co/wp-content/uploads/2026/05/Informe-Sostenibilidad-InterAseo-2024-Baja.pdf"
+  },
+  "gaps": [
+    {
+      "gap_id": "int-ghg-baseline-2024",
+      "rank": 1,
+      "title": "2024 is the first GHG baseline year",
+      "theme_id": "construction",
+      "journey_step": "data",
+      "startup_stage": "Pre-Series A",
+      "statement": "Interaseo set 2024 as the GHG baseline after building internal capacity to estimate footprint under GHG Protocol.",
+      "evidence_url": "https://interaseo.com.co/wp-content/uploads/2026/05/Informe-Sostenibilidad-InterAseo-2024-Baja.pdf#page=23",
+      "evidence_quote": "Hemos decidido establecer el año 2024 como nuestra línea base para las futuras mediciones, consolidando así un hito clave en nuestro compromiso con una gestión ambiental más responsable y orientada a la mejora continua.",
+      "shortfall": false,
+      "matches": [
+        {
+          "match_id": "int-g1-carbonbox",
+          "actor_kind": "startup",
+          "name": "CarbonBox",
+          "claim_type": "theme_match",
+          "public_source_url": "https://carbonbox.app",
+          "public_quote": "Mide, reduce y reporta tu huella de carbono con rigor científico.",
+          "why": "Baseline-to-action tooling; quote does not name Interaseo.",
+          "actor_ref": "portfolio:CARBONBOX"
+        },
+        {
+          "match_id": "int-g1-cneutral",
+          "actor_kind": "startup",
+          "name": "C-neutral",
+          "claim_type": "theme_match",
+          "public_source_url": "https://c-neutral.co",
+          "public_quote": "Comienza a medir y reportar tus emisiones de CO2 e con nuestra calculadora de huella de carbono y nuestros servicios habilitados para certificación externa.",
+          "why": "Measurement services; quote does not name Interaseo.",
+          "actor_ref": "portfolio:C-NEUTRAL SAS"
+        },
+        {
+          "match_id": "int-g1-zhana",
+          "actor_kind": "startup",
+          "name": "Zhana Solutions",
+          "claim_type": "theme_match",
+          "public_source_url": "https://zhanasolutions.com",
+          "public_quote": "A partir de la operación de nuestra tecnología socializaremos con tu equipo los indicadores y métricas de impacto ambiental (litros de agua salvados y reducción de emisiones de co2)",
+          "why": "Environmental KPI reporting; quote does not name Interaseo.",
+          "actor_ref": "portfolio:ZHANA SOLUTIONS"
+        }
+      ]
+    },
+    {
+      "gap_id": "int-landfill-biogas-gap",
+      "rank": 2,
+      "title": "Eight landfills still lack biogas burners",
+      "theme_id": "construction",
+      "journey_step": "capital",
+      "startup_stage": "Series B+",
+      "statement": "Biogas burners operate in five of thirteen landfills, with a three-to-five-year plan to address the rest and cut methane.",
+      "evidence_url": "https://interaseo.com.co/wp-content/uploads/2026/05/Informe-Sostenibilidad-InterAseo-2024-Baja.pdf#page=24",
+      "evidence_quote": "Instalamos quemadores de biogás en 5 de los 13 rellenos sanitarios operados, con plan de intervención de los restantes en 3 a 5 años, evitando emisiones directas de CO2 y metano",
+      "shortfall": false,
+      "matches": [
+        {
+          "match_id": "int-g2-cneutral",
+          "actor_kind": "startup",
+          "name": "C-neutral",
+          "claim_type": "theme_match",
+          "public_source_url": "https://c-neutral.co",
+          "public_quote": "Invierte en una amplia gama de proyectos sustentables. Desde recuperación de bosques, selvas, corales y manglares hasta energías renovables.",
+          "why": "Methane-reduction projects portfolio; quote does not name Interaseo.",
+          "actor_ref": "portfolio:C-NEUTRAL SAS"
+        },
+        {
+          "match_id": "int-g2-reemade",
+          "actor_kind": "startup",
+          "name": "Reemade",
+          "claim_type": "theme_match",
+          "public_source_url": "https://reemade.com.co",
+          "public_quote": "Al suprareciclar, reducimos la huella de carbono asociada a la extracción y transformación de materias primas, disminuyendo así la contaminación del aire, el agua y el suelo desde su origen.",
+          "why": "Air-quality co-benefits; quote does not name Interaseo.",
+          "actor_ref": "portfolio:REEMADE"
+        },
+        {
+          "match_id": "int-g2-proplanet",
+          "actor_kind": "startup",
+          "name": "Proplanet",
+          "claim_type": "theme_match",
+          "public_source_url": "https://proplanet.com.co",
+          "public_quote": "Ayudamos con la disminución de residuos en vías, aguas, parques y rellenos sanitarios.",
+          "why": "Landfill diversion via recycled products; quote does not name Interaseo.",
+          "actor_ref": "portfolio:PROPLANET SAS"
+        }
+      ]
+    },
+    {
+      "gap_id": "int-water-leachate-risk",
+      "rank": 3,
+      "title": "Surface water contamination from leachate remains a top risk",
+      "theme_id": "construction",
+      "journey_step": "challenge",
+      "startup_stage": "Pre-Series A",
+      "statement": "Water risk assessment highlights surface-water contamination from wastewater and leachate discharges alongside resource depletion.",
+      "evidence_url": "https://interaseo.com.co/wp-content/uploads/2026/05/Informe-Sostenibilidad-InterAseo-2024-Baja.pdf#page=24",
+      "evidence_quote": "Entre los principales riesgos ambientales identificados se encuentran la contaminación de fuentes hídricas superficiales por vertimientos de aguas residuales y lixiviados, así como el agotamiento del recurso.",
+      "shortfall": false,
+      "matches": [
+        {
+          "match_id": "int-g3-zhana",
+          "actor_kind": "startup",
+          "name": "Zhana Solutions",
+          "claim_type": "theme_match",
+          "public_source_url": "https://zhanasolutions.com",
+          "public_quote": "Tratamiento de aguas y gestión de residuos grasos",
+          "why": "Wastewater treatment offering; quote does not name Interaseo.",
+          "actor_ref": "portfolio:ZHANA SOLUTIONS"
+        },
+        {
+          "match_id": "int-g3-cneutral",
+          "actor_kind": "startup",
+          "name": "C-neutral",
+          "claim_type": "theme_match",
+          "public_source_url": "https://c-neutral.co",
+          "public_quote": "Encuentra productos y proyectos específicos, que te van a ayudar a compensar tu huella de carbono.",
+          "why": "Environmental project pipeline; weak tie; quote does not name Interaseo.",
+          "actor_ref": "portfolio:C-NEUTRAL SAS"
+        },
+        {
+          "match_id": "int-g3-natupin",
+          "actor_kind": "startup",
+          "name": "Natupin",
+          "claim_type": "theme_match",
+          "public_source_url": "https://natupin.bio",
+          "public_quote": "formas en las que puedes preservar la biodiversidad.",
+          "why": "Watershed biodiversity; quote does not name Interaseo.",
+          "actor_ref": "portfolio:NATUPIN"
+        }
+      ]
+    },
+    {
+      "gap_id": "int-waste-diversion",
+      "rank": 4,
+      "title": "Non-recovered waste still 15% of generated tonnage",
+      "theme_id": "construction",
+      "journey_step": "partnerships",
+      "startup_stage": "Seed",
+      "statement": "Waste matrix shows most material recovered but thousands of tonnes still go to ordinary or special disposal streams.",
+      "evidence_url": "https://interaseo.com.co/wp-content/uploads/2026/05/Informe-Sostenibilidad-InterAseo-2024-Baja.pdf#page=26",
+      "evidence_quote": "Entendemos que la gestión de residuos trasciende la simple disposición final, por lo que asumimos un compromiso integral en cada etapa de nuestras operaciones.",
+      "shortfall": false,
+      "matches": [
+        {
+          "match_id": "int-g4-reemade",
+          "actor_kind": "startup",
+          "name": "Reemade",
+          "claim_type": "theme_match",
+          "public_source_url": "https://reemade.com.co",
+          "public_quote": "Convertimos residuos industriales de difícil reciclabilidad y residuos agrícolas en productos personalizados",
+          "why": "Hard-to-recycle diversion; quote does not name Interaseo.",
+          "actor_ref": "portfolio:REEMADE"
+        },
+        {
+          "match_id": "int-g4-proplanet",
+          "actor_kind": "startup",
+          "name": "Proplanet",
+          "claim_type": "theme_match",
+          "public_source_url": "https://proplanet.com.co",
+          "public_quote": "Fortalecemos las redes cooperativas de recicladores.",
+          "why": "Recycler networks; quote does not name Interaseo.",
+          "actor_ref": "portfolio:PROPLANET SAS"
+        },
+        {
+          "match_id": "int-g4-compostpack",
+          "actor_kind": "startup",
+          "name": "Compostpack",
+          "claim_type": "theme_match",
+          "public_source_url": "https://compostpack.com",
+          "public_quote": "Bolsas compostables para desechos orgánicos",
+          "why": "Organic waste bags; quote does not name Interaseo.",
+          "actor_ref": "portfolio:COMPOSTPACK"
+        }
+      ]
+    },
+    {
+      "gap_id": "int-scope1-dominance",
+      "rank": 5,
+      "title": "Scope 1 still dominates total GHG footprint",
+      "theme_id": "construction",
+      "journey_step": "challenge",
+      "startup_stage": "Pre-Series A",
+      "statement": "Despite a 19.5% total GHG drop since 2022, Scope 1 remains the largest share and needs fuel and fleet efficiency.",
+      "evidence_url": "https://interaseo.com.co/wp-content/uploads/2026/05/Informe-Sostenibilidad-InterAseo-2024-Baja.pdf#page=23",
+      "evidence_quote": "Entre 2022 y 2024, las emisiones totales de gases de efecto invernadero (GEI) de Interaseo presentan una tendencia decreciente, ya que pasó de 54.802 ton CO₂e en 2022 a 44.138 ton CO₂e en 2024, lo que representa una reducción del 19,5%.",
+      "shortfall": false,
+      "matches": [
+        {
+          "match_id": "int-g5-carbonbox",
+          "actor_kind": "startup",
+          "name": "CarbonBox",
+          "claim_type": "theme_match",
+          "public_source_url": "https://carbonbox.app",
+          "public_quote": "Empresas de distintos sectores ya gestionan sus emisiones con CarbonBox.",
+          "why": "Fleet/operations emissions tracking; quote does not name Interaseo.",
+          "actor_ref": "portfolio:CARBONBOX"
+        },
+        {
+          "match_id": "int-g5-zhana",
+          "actor_kind": "startup",
+          "name": "Zhana Solutions",
+          "claim_type": "theme_match",
+          "public_source_url": "https://zhanasolutions.com",
+          "public_quote": "A partir de la operación de nuestra tecnología socializaremos con tu equipo los indicadores y métricas de impacto ambiental (litros de agua salvados y reducción de emisiones de co2)",
+          "why": "CO2 reduction KPIs; quote does not name Interaseo.",
+          "actor_ref": "portfolio:ZHANA SOLUTIONS"
+        },
+        {
+          "match_id": "int-g5-glasst",
+          "actor_kind": "startup",
+          "name": "Glasst",
+          "claim_type": "theme_match",
+          "public_source_url": "https://glasst.co/es/sostenibilidad/",
+          "public_quote": "Medir nos permite entender dónde aportamos valor y cómo seguir mejorando.",
+          "why": "Measurement culture; quote does not name Interaseo.",
+          "actor_ref": "portfolio:GLASST INNOVATION COMPANY"
+        }
+      ]
+    }
+  ]
+}

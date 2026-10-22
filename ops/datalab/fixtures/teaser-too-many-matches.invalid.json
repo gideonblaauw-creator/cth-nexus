@@ -1,0 +1,75 @@
+{
+  "contract_status": "to agree with the Datalab desk",
+  "gtm_status": "GTM hypothesis",
+  "company": {
+    "name": "",
+    "country": "Colombia",
+    "persona": "cso",
+    "profile_source_url": "https://fenoge.gov.co/preguntas-frecuentes/",
+    "profile_quote": "¿Cuáles son los mecanismos para presentar las propuestas al FENOGE?"
+  },
+  "gaps": [
+    {
+      "gap_id": "too-many-matches",
+      "rank": 1,
+      "title": "Fixture with six matches (schema max is five)",
+      "theme_id": "energy_utilities",
+      "journey_step": "capital",
+      "startup_stage": "Seed",
+      "statement": "Invalid fixture for schema maxItems on matches.",
+      "evidence_url": "https://fenoge.gov.co/preguntas-frecuentes/",
+      "evidence_quote": "De forma directa: Ante el IPSE o la UPME, según corresponda para planes, programas o proyectos de personas jurídicas.",
+      "shortfall": true,
+      "matches": [
+        {
+          "match_id": "m1",
+          "actor_kind": "funder",
+          "name": "IPSE",
+          "claim_type": "actor_relation",
+          "public_source_url": "https://fenoge.gov.co/preguntas-frecuentes/",
+          "public_quote": "Ante el IPSE o la UPME, según corresponda para planes, programas o proyectos de personas jurídicas."
+        },
+        {
+          "match_id": "m2",
+          "actor_kind": "funder",
+          "name": "IPSE",
+          "claim_type": "actor_relation",
+          "public_source_url": "https://fenoge.gov.co/preguntas-frecuentes/",
+          "public_quote": "Ante el IPSE o la UPME, según corresponda para planes, programas o proyectos de personas jurídicas."
+        },
+        {
+          "match_id": "m3",
+          "actor_kind": "funder",
+          "name": "IPSE",
+          "claim_type": "actor_relation",
+          "public_source_url": "https://fenoge.gov.co/preguntas-frecuentes/",
+          "public_quote": "Ante el IPSE o la UPME, según corresponda para planes, programas o proyectos de personas jurídicas."
+        },
+        {
+          "match_id": "m4",
+          "actor_kind": "funder",
+          "name": "IPSE",
+          "claim_type": "actor_relation",
+          "public_source_url": "https://fenoge.gov.co/preguntas-frecuentes/",
+          "public_quote": "Ante el IPSE o la UPME, según corresponda para planes, programas o proyectos de personas jurídicas."
+        },
+        {
+          "match_id": "m5",
+          "actor_kind": "funder",
+          "name": "IPSE",
+          "claim_type": "actor_relation",
+          "public_source_url": "https://fenoge.gov.co/preguntas-frecuentes/",
+          "public_quote": "Ante el IPSE o la UPME, según corresponda para planes, programas o proyectos de personas jurídicas."
+        },
+        {
+          "match_id": "m6",
+          "actor_kind": "funder",
+          "name": "IPSE",
+          "claim_type": "actor_relation",
+          "public_source_url": "https://fenoge.gov.co/preguntas-frecuentes/",
+          "public_quote": "Ante el IPSE o la UPME, según corresponda para planes, programas o proyectos de personas jurídicas."
+        }
+      ]
+    }
+  ]
+}
