@@ -81,7 +81,7 @@ def test_card_grid_country_counts_partition_eligible_actors():
     assert set(by_country) <= set(COUNTRY_META)
     assert sum(by_country.values()) == len(eligible)
     # Snapshot counts — update if data intentionally changes
-    assert by_country["CO"] == 8
+    assert by_country["CO"] == 18
     assert by_country["SV"] == 77
     assert by_country["PE"] == 296
 

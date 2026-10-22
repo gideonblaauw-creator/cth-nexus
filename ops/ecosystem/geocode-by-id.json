@@ -2663,5 +2663,96 @@
     "country": "Colombia",
     "precision": "country",
     "source_url": null
+  },
+  "co-isa": {
+    "precision": "address",
+    "address": "Calle 12 sur No. 18-168",
+    "city": "Medellín",
+    "country": "Colombia",
+    "source_url": "https://www.isa.co/es/",
+    "lat": 6.197606,
+    "lng": -75.589768
+  },
+  "co-geb-grupo-energia-bogota": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Colombia",
+    "precision": "country",
+    "source_url": null
+  },
+  "co-enel-colombia": {
+    "precision": "address",
+    "address": "Carrera 13A No. 93-66, piso 4",
+    "city": "Bogotá",
+    "country": "Colombia",
+    "source_url": "https://www.enel.com.co/es/contactanos.html",
+    "lat": 4.676629,
+    "lng": -74.05002
+  },
+  "co-celsia": {
+    "precision": "address",
+    "address": "Carrera 48 No. 26-85, piso 1",
+    "city": "Medellín",
+    "country": "Colombia",
+    "source_url": "https://www.celsia.com/es/contactenos/",
+    "lat": 6.227969,
+    "lng": -75.574729
+  },
+  "co-epm": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Colombia",
+    "precision": "country",
+    "source_url": null
+  },
+  "co-promigas": {
+    "precision": "address",
+    "address": "Calle 66 No. 67-123",
+    "city": "Barranquilla",
+    "country": "Colombia",
+    "source_url": "https://www.promigas.com/es/contacto/",
+    "lat": 10.989981,
+    "lng": -74.800332
+  },
+  "co-alqueria": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Colombia",
+    "precision": "country",
+    "source_url": null
+  },
+  "co-grupo-nutresa": {
+    "precision": "address",
+    "address": "Carrera 43A No. 1A sur-143",
+    "city": "Medellín",
+    "country": "Colombia",
+    "source_url": "https://gruponutresa.com/es/contacto/",
+    "lat": 6.201766,
+    "lng": -75.571832
+  },
+  "co-juan-valdez": {
+    "precision": "address",
+    "address": "Calle 73 No. 8-13",
+    "city": "Bogotá",
+    "country": "Colombia",
+    "source_url": "https://www.juanvaldez.com/contacto",
+    "lat": 4.675833,
+    "lng": -74.082236
+  },
+  "co-alpina": {
+    "lat": null,
+    "lng": null,
+    "address": null,
+    "city": null,
+    "country": "Colombia",
+    "precision": "country",
+    "source_url": null,
+    "location_note": "Street on source page; geocode pending."
   }
 }
