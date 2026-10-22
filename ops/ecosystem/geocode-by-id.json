@@ -594,13 +594,13 @@
     "source_url": "https://nominatim.openstreetmap.org/search?q=SUNASS%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "pe-proinnovate-startup-peru": {
-    "lat": -13.517089,
-    "lng": -71.978536,
-    "address": "Cuzco, Distrito de Cusco, Cusco, 08001, Perú",
-    "city": "Cuzco",
+    "lat": -12.09823,
+    "lng": -77.014407,
+    "address": "Calle Uno Oeste 50, Urb. Corpac, San Isidro, Lima, Lima Metropolitana, Lima, Perú",
+    "city": "San Isidro",
     "country": "Peru",
-    "precision": "city",
-    "source_url": "https://nominatim.openstreetmap.org/search?q=cusco%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
+    "precision": "address",
+    "source_url": "https://www.gob.pe/proinnovate"
   },
   "pe-programa-para-bionegocios-minam": {
     "lat": -12.095225,

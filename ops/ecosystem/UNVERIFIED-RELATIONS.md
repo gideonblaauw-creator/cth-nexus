@@ -7,11 +7,11 @@ Public graph edges must appear in `ops/ecosystem/graph_relation_evidence.json` w
 | Metric | Count |
 |--------|------:|
 | Total edges in bundle | 90 |
-| Public (verified + source_url + catalog quote) | 46 |
-| Hidden pending source | 44 |
+| Public (verified + source_url + catalog quote) | 45 |
+| Hidden pending source | 45 |
 | Self-loops removed (this sync) | 0 |
 
-Evidence catalog: `ops/ecosystem/graph_relation_evidence.json` (46 public rows).
+Evidence catalog: `ops/ecosystem/graph_relation_evidence.json` (45 public rows).
 
 Policy bundle (`static/ecosystem/data/policy_relations.json`): separate story chapter; not modified by this sync.
 
@@ -35,6 +35,7 @@ Policy bundle (`static/ecosystem/data/policy_relations.json`): separate story ch
 | `pe-unia-universidad-nacional-intercultural-de-la-amaz` | `pe-incubadora-unia-ucayali` | `hosts` |
 | `pe-universidad-nacional-de-moquegua-upt-incuba-arunta` | `pe-incubadora-de-la-universidad-nacional-de-moquegu` | `hosts` |
 | `pe-unu-universidad-nacional-de-ucayali` | `pe-incuba-amazonia-unu` | `hosts` |
+| `pe-utec-universidad-de-ingenieria-y-tecnologia` | `pe-utec-ventures` | `hosts` |
 | `pe-emprende-up-climatech-rein-hub-peru` | `pe-black-soldier-fly-logistics` | `incubated` |
 | `pe-emprende-up-climatech-rein-hub-peru` | `pe-vigia` | `incubated` |
 | `pe-emprende-up-climatech-rein-hub-peru` | `pe-yakusmart` | `incubated` |
@@ -66,6 +67,7 @@ Policy bundle (`static/ecosystem/data/policy_relations.json`): separate story ch
 
 ## Why these edges are hidden
 
+- `pe-utec-universidad-de-ingenieria-y-tecnologia` → `pe-utec-ventures` (`hosts`): Source https://utecventures.com/ accepts TLS but the HTTP response hangs from this host. Hidden until the site responds reliably for verbatim quote verification.
 - `pe-forest-trends` → `challenge:PE-1-bosques` (`works_on_challenge`): Live check 2026-10-21: the catalog quote is not on https://www.forest-trends.org and the actor-name check failed.
 - `pe-profonanpe` → `challenge:PE-1-bosques` (`works_on_challenge`): Source https://profonanpe.org.pe/ is unreachable from this host (connection times out). Hidden until the quote can be re-verified.
 - `pe-sunass` → `challenge:PE-2-agua` (`works_on_challenge`): Live check 2026-10-22: the catalog quote is only the SUNASS name ("Superintendencia Nacional de Servicios de Saneamiento - SUNASS") and does not source the Agua & cuencas challenge.

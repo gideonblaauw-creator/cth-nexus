@@ -187,16 +187,6 @@ RELATIONS: list[dict[str, str]] = [
         ),
     },
     {
-        "source": "pe-utec-universidad-de-ingenieria-y-tecnologia",
-        "target": "pe-utec-ventures",
-        "type": "hosts",
-        "source_url": "https://utecventures.com/",
-        "source_title": "https://utecventures.com/",
-        "evidence": (
-            "Inicio | UTEC Ventures Estudiantes Corporativos Emprendimiento Social Aceleradora Español | English Programas StartUp Femlab"
-        ),
-    },
-    {
         "source": "pe-unmsm-universidad-nacional-mayor-de-san-marcos",
         "target": "pe-1551-unmsm",
         "type": "hosts",
@@ -364,10 +354,10 @@ RELATIONS: list[dict[str, str]] = [
         "source": "pe-spda-sociedad-peruana-de-derecho-ambiental",
         "target": "challenge:PE-1-bosques",
         "type": "works_on_challenge",
-        "source_url": "https://spda.org.pe",
-        "source_title": "https://spda.org.pe",
+        "source_url": "https://spda.org.pe/bosques/",
+        "source_title": "SPDA — Bosques",
         "evidence": (
-            "Incendios forestales: SPDA advierte que la prevención sigue siendo insuficiente y pide fortalecer el manejo integral del"
+            "Bosques - SPDA | SPDA - Sociedad Peruana de Derecho Ambiental ES EN Nosotros Línea de tiempo Nuestro Trabajo Cambio Climático Equidad y justicia ambiental Naturaleza y vida silvestre Desarrollo sostenible Impacto Noticias Historias Campañas Eventos Recursos Publicaciones Audiovisuales Podcasts Formación Transparencia Memorias SÚMATE Nosotros Línea de tiempo Nuestro Trabajo Cambio Climático Equidad y justicia ambiental Naturaleza y vida silvestre Desarrollo sostenible Impacto Noticias Historias Campañas Eventos Recursos Publicaciones Audiovisuales Podcasts Formación Transparencia Memorias SÚMATE Nosotros Línea de tiempo Nuestro Trabajo Cambio Climático Equidad y justicia ambiental Naturaleza y vida silvestre Desarrollo sostenible Impacto Noticias Historias Campañas Eventos Recursos Publicaciones Audiovisuales Podcasts Formación Transparencia Memorias ES EN SÚMATE Nuestro Trabajo Naturaleza y vida silvestre Bosques Con nuestra labor apoyamos a reducir la deforestación y degradación de los bosques del Perú peruanos con herramientas basadas en evidencia"
         ),
     },
     {
@@ -416,7 +406,11 @@ RELATIONS: list[dict[str, str]] = [
         "type": "works_on_challenge",
         "source_url": "https://www.gob.pe/senamhi",
         "source_title": "https://www.gob.pe/senamhi",
-        "evidence": "cuenca alta del río Apurímac 18 de octubre de 2026 - 11:30 a. m. Senamhi",
+        "evidence": (
+            "Senamhi acerca la información meteorológica a la ciudadanía en la Expo Agro Arequipa 2026 "
+            "19 de octubre de 2026 - 2:20 p. m. Cambio climático podría afectar la disponibilidad de "
+            "agua en la cuenca alta del río Apurímac"
+        ),
     },
     {
         "source": "pe-policy-startup-peru-proinnovate",
