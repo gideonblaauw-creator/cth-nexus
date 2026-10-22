@@ -5,7 +5,7 @@
   "programmes": [
     {"id": "pe-cleantechhub", "name": "CleantechHUB"},
     {"id": "cth-academy", "name": "CTH Academy"},
-    {"id": "cth-climate-launchpad", "name": "Climate Launchpad"},
+    {"id": "cth-climate-launchpad", "name": "ClimateLaunchpad Colombia"},
     {"id": "cth-climaccelerator", "name": "ClimAccelerator"}
   ]
 }
