@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://rootcapital.org |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/root-capital/ |
 | Rol en el ecosistema | Financiador e inversionista |
 | Desafíos (códigos) | BOS |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-root-capital](https://nexus.cleantechhub.net/ecosystem/?actor=pe-root-capital) |
@@ -52,3 +52,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://rootcapital.org
+- https://www.linkedin.com/company/root-capital/

@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Villa El Salvador |
 | Sitio web | https://cajaica.pe |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/caja-ica |
 | Rol en el ecosistema | Institución financiera |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | CIR, ENE |
@@ -46,4 +46,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://cajaica.pe
+- https://www.linkedin.com/company/caja-ica
 - Caja Ica — https://cajaica.pe/
+- LinkedIn — https://www.linkedin.com/company/caja-ica

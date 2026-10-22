@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | San Francisco, California (sede) |
 | Sitio web | https://www.climatepolicyinitiative.org |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/climate-policy-initiative |
 | Rol en el ecosistema | Think tank global en finanzas climáticas y análisis de políticas. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
@@ -47,3 +47,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.climatepolicyinitiative.org — sitio CPI
+- https://www.linkedin.com/company/climate-policy-initiative — perfil LinkedIn

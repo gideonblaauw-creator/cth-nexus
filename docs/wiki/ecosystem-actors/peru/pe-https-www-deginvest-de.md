@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Colonia, Alemania |
 | Sitio web | https://www.deginvest.de |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/deg |
 | Rol en el ecosistema | Institución de financiamiento del desarrollo para inversión privada en economías emergentes. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
@@ -47,3 +47,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.deginvest.de — sitio DEG
+- https://www.linkedin.com/company/deg — perfil LinkedIn

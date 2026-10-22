@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Trujillo |
 | Sitio web | https://ditt.unitru.edu.pe/ |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/incubauntperu/ |
 | Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
 | Desafíos (códigos) | AGR, ENE |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-incubaunt-la-libertad](https://nexus.cleantechhub.net/ecosystem/?actor=pe-incubaunt-la-libertad) |
@@ -54,3 +54,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - https://ditt.unitru.edu.pe/procesos-incubadora
 - https://www.gob.pe/45612-incubaunt-incubadora-de-empresas-de-la-universidad-nacional-de-trujillo
 - https://ditt.unitru.edu.pe/contacto
+- https://www.linkedin.com/company/incubauntperu/

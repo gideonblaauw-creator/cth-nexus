@@ -23,7 +23,7 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://www.elsalvador.com |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/am-rica-interactiva-el-diario-de-hoy |
 | Rol en el ecosistema | Grupo de medios digitales e impresos líder en noticias de El Salvador. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
@@ -49,3 +49,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Sitio web — https://www.elsalvador.com
 - Rol en el ecosistema — https://www.elsalvador.com
 - Descripción — https://www.elsalvador.com
+- LinkedIn (enlace público) — https://www.linkedin.com/company/am-rica-interactiva-el-diario-de-hoy

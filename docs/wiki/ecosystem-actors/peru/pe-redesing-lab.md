@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.redesignlab.org/ |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/redesignlab |
 | Rol en el ecosistema | Universidad o centro de investigación |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-redesing-lab](https://nexus.cleantechhub.net/ecosystem/?actor=pe-redesing-lab) |

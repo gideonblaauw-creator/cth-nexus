@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.alicorp.com.pe |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/alicorp |
 | Rol en el ecosistema | Corporación de alimentos y consumo masivo. |
 | Año de fundación | 1956 |
 | Desafíos (códigos) | AGR, CIR |
@@ -46,3 +46,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.alicorp.com.pe/
+- https://www.linkedin.com/company/alicorp
