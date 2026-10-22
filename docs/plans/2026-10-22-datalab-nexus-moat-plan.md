@@ -559,7 +559,7 @@ Run the maker and the checker as a pair after consent exists. Use model `compose
 
 **Maker.** Write two short case files under `docs/cases/`. Each file has the claim, the source URL, the quote, and a consent id. Add no personal email or phone.
 
-**Checker.** Open each source URL. Confirm the quote. Confirm the consent id exists in the private store. Fail a case that cites PR 101.
+**Checker.** Open each source URL. Confirm the quote. Confirm the consent id exists in Odoo. Fail a case that cites PR 101.
 
 #### Data sources
 
@@ -594,35 +594,43 @@ The public count today is 40. The aim is more than 200 public relations. The aim
 
 A public relation still needs a public source. The source must name both actors and the relation. The quote must be verbatim on that page. An attendance list is not a public source. An intro email is not a public source. A staff note is not a public source.
 
-Put those internal records in the private tier in section 12. Promote a private row only when a public page carries the quote.
+Put those internal records in Odoo. Section 12 is the field map. Do not add a new private file in git. Promote a private row only when a public page carries the quote.
 
 Keep batches small. A batch of 10 new quotes is easier to check than a batch of 50.
 
+### Prerequisite pair
+
+This pair runs before outcome logs for ecosystem actors and investors. It needs Gideon's GO. Use model `composer-2.5` for the maker and the checker.
+
+**Maker.** Import ecosystem actors and investors into Odoo `res.partner` as companies only. Add `odoo_id` on the actor records in `static/ecosystem/data/actors.json`. Write no personal data in the repo.
+
+**Checker.** Confirm each new partner is a company. Confirm the repo diff has no email, no phone, and no home address. Confirm each imported actor has an `odoo_id`. Fail the job if the public site reads Odoo.
+
 ### Hands jobs
 
-Run the maker and the checker as a pair. Use model `composer-2.5` for both jobs. Start the pair after the CSO demo milestone. The schema draft may land earlier. Do not grow the public count before the demo gate.
+Run the maker and the checker as a pair. Use model `composer-2.5` for both jobs. Start the pair after the CSO demo milestone. Start it after the prerequisite pair for ecosystem actors and investors. Do not grow the public count before the demo gate.
 
-**Maker.** Add `ops/ecosystem/private_evidence.schema.json` from section 12. Add one sample row in a private path that `build_public_data.py` does not read. Add no public relation in the sample.
+**Maker.** Log one sample outcome in Odoo. Use the field map in section 12. Add no file under `ops/ecosystem/` for that sample. Add no public relation in the sample.
 
-**Checker.** Confirm `actors.json` and `relations.json` have no private field. Run `verify_relation_quotes.py`. Fail the job if the sample row is in the public bundle.
+**Checker.** Confirm `actors.json` and `relations.json` have no private comms field. Run `verify_relation_quotes.py`. Fail the job if the sample outcome appears in `static/ecosystem/data/`.
 
 Later batches use the same pair shape. The maker adds quotes. The checker runs the script.
 
 ### Data sources
 
-Use a public page for a public relation. Use the CTH record only inside the private tier. CLP, Academy, and investor-matching staff supply the private outcome. They do not supply the public quote.
+Use a public page for a public relation. Use Odoo for the private outcome. CLP, Academy, and investor-matching staff supply the private outcome. They do not supply the public quote.
 
 ### Dependencies
 
-The private tier needs Gideon's GO before any staff record is stored. The public rule is already in force. Move 2 does not block the CSO demo.
+Gideon has named Odoo as the private store. The import pair still needs his GO. The public rule is already in force. Move 2 does not block the CSO demo.
 
 ### Effort
 
-Size: medium for the schema and the first sample. The path from 40 to 200 is a repeated batch. Each batch is small. Do not schedule one job that adds 160 relations.
+Size: large for the prerequisite pair. That pair covers the ecosystem actor file and the investor file. Size: medium for the later quote batches. Each batch is small. Do not schedule one job that adds 160 relations.
 
 ### Acceptance tests
 
-1. The private sample is absent from `static/ecosystem/data/`.
+1. The sample outcome is absent from `static/ecosystem/data/`.
 2. `verify_relation_quotes.py` exits 0.
 3. Every new public relation has a quote on the live page.
 4. The public count rises only by rows that pass the script.
@@ -635,46 +643,63 @@ Stop when the quote is almost right but not verbatim. Leave the row hidden. Stop
 
 ## 12. Private evidence tier
 
-**Status:** Proposal. Gideon must accept it before use.
+**Status:** Odoo is the system of record. Do not create a new private file.
 
-The tier stores CTH records. The public site does not read this tier.
+**Note (voice, 22 Oct 09:55 COT):** Gideon: every actor that has a Nexus actor card also exists in Odoo, the CTH ERP. Odoo keeps the private comms data.
 
-```json
-{
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Private evidence",
-  "type": "object",
-  "additionalProperties": false,
-  "required": ["tier", "touchpoint", "actors", "outcome", "consent_to_publish"],
-  "properties": {
-    "tier": { "const": "private" },
-    "touchpoint": { "enum": ["clp", "academy", "investor_matching"] },
-    "actors": {
-      "type": "array",
-      "minItems": 2,
-      "maxItems": 2,
-      "items": { "type": "string" }
-    },
-    "outcome": { "enum": ["meeting", "pilot", "money", "none"] },
-    "internal_record_id": { "type": "string" },
-    "consent_to_publish": { "type": "boolean" },
-    "public_source_url": { "type": ["string", "null"] },
-    "public_quote": { "type": ["string", "null"] }
-  }
-}
-```
+**Claim mark:** Gideon statement; repo confirms the CLP26 partner sync; gap on ecosystem actors and investors.
 
-Store the file outside `static/ecosystem/data/`. Keep secrets and personal data in Infisical or in the private store. Do not commit them.
+### What the repo confirms
 
-### Public pages may show
+Odoo `res.partner` is the source of truth for CLP26 startups, founders, and mentors.
 
-- An organization name.
-- A relation type.
-- A public URL.
+- `scripts/build_portfolio_s_profiles.py` line 169 says the profile is synced from BookStack Startup Portfolio plus Odoo (SoT).
+- `app/cth-nexus/api/handlers/odoo.py` function `upsert_mentor` writes mentors on `res.partner`.
+- `app/nexus-ideas/scripts/epic_odoo_wiki_sync.py` copies Odoo to the wiki.
+- `app/nexus-ideas/scripts/epic_founders_pipeline.py` copies Odoo to the wiki and then to Nexus.
+
+The public site does not read Odoo. A public relation still needs `public_source_url` and `public_quote`.
+
+### What the repo does not confirm
+
+`static/ecosystem/data/actors.json` has no `odoo_id` and no Odoo sync. Many of those rows use the source `Mapa de Actores Perú 2026`. `site/investors/data/investors.json` has no `odoo_id` and no Odoo sync.
+
+The repo does not show a model for the outcomes `meeting`, `pilot`, and `money`. `upsert_mentor` does write a `mail.message` on `res.partner`. That message is an onboarding note. It is not the outcome log.
+
+### Field map
+
+Keep this map in this plan. Do not add a schema file.
+
+| Plan field | Odoo record |
+| --- | --- |
+| `actors` | `res.partner`, company only |
+| `touchpoint` | A note, an activity, or a custom model on that partner |
+| `outcome` | The same note, activity, or custom model |
+| `internal_record_id` | The Odoo id |
+| `consent_to_publish` | A field on the Odoo record |
+| `public_source_url` | Public relation only. Odoo does not feed the public site. |
+| `public_quote` | Public relation only. Odoo does not feed the public site. |
+
+`touchpoint` uses `clp`, `academy`, or `investor_matching`. `outcome` uses `meeting`, `pilot`, `money`, or `none`. Gideon names the Odoo model for that pair before staff log outcomes.
+
+The Move 2 prerequisite pair imports ecosystem actors and investors as companies. It adds `odoo_id` on the actor records. It writes no personal data in the repo. That pair needs Gideon's GO.
+
+Secrets for the Odoo connection stay in Infisical. Do not commit them.
+
+### Public card field set (approved by Gideon 22 Oct)
+
+Voice, 22 Oct 09:56 COT. Decided. A public actor card may show only these fields.
+
+- Name.
+- Description.
+- Location.
+- Website.
+- Relation type.
+- Public URL.
 - A verbatim quote from that URL.
-- The date of access.
-- A public office address.
-- An outcome when the public source states that outcome.
+- Date of access.
+- Public office address.
+- An outcome only when the public source states that outcome.
 
 ### Public pages must not show
 
@@ -690,6 +715,10 @@ Store the file outside `static/ecosystem/data/`. Keep secrets and personal data 
 - An outcome that exists only in a CTH record.
 
 `consent_to_publish` does not replace the quote rule. A public relation still needs `public_source_url` and `public_quote`.
+
+### Open question for Gideon
+
+Do not decide this in the plan. The ecosystem card in `static/ecosystem/ecosystem.mjs` also shows a two-letter mark, a role (`card.ecosystem_role`), and a LinkedIn link. The same card shows a founding year, a category badge, and a relation count. Those fields are outside the approved set. Gideon says which of them stay.
 
 ## 13. Push back
 
@@ -734,7 +763,8 @@ The Peru city-center table is the wrong pattern for Colombia pins. Use a street 
 | C | Move 4 Colombia wave, 21 Wave 1 companies | Yes | `composer-2.5` maker and checker |
 | D | Presentations desk builds the HTML teaser | Yes | That desk |
 | D | 20-minute walkthrough | Demo event | Human |
-| E | Move 2 private tier, then quote batches | No | `composer-2.5` maker and checker |
+| E | Move 2 prerequisite: import actors and investors to Odoo | No | `composer-2.5` maker and checker. Needs GO. |
+| F | Move 2 outcome logs in Odoo, then quote batches | No | `composer-2.5` maker and checker |
 | E | Move 3B cases after consent | No | `composer-2.5` maker and checker |
 | E | Wave 2 companies, 13 names | No | Later pair |
 | E | Paid workshop | No | GTM desk |
@@ -761,15 +791,19 @@ Record one yes or no for each line.
 12. Remove `+10 Millons Capital Raised` when no source is on the page.
 13. Leave the other five apex headings unchanged in this job.
 14. Remove the `/p/home` activity feed.
-15. Accept the private-evidence tier in section 12.
-16. Confirm the privacy ban on personal email, phone, home address, Drive links, and Canva links.
-17. Name the WordPress source for the apex banner.
-18. Confirm that the Presentations desk owns the HTML teaser.
-19. Confirm that deploy happens from `main` only, with backup and rollback.
-20. Confirm that PR 101 stays out of the demo until it is on `main`.
-21. Confirm that Colombia pins use a street address or location unknown.
-22. Confirm that LinkedIn scraping is out of scope.
-23. Confirm that secrets stay in Infisical.
+15. Use Odoo as the private evidence tier. Decided. Voice, 22 Oct 09:55 COT.
+16. Public card field set in section 12. Decided. Voice, 22 Oct 09:56 COT.
+17. Import ecosystem actors and investors to Odoo `res.partner` as companies only. Add `odoo_id` on the actor records. Not decided.
+18. Confirm the privacy ban on personal email, phone, home address, Drive links, and Canva links.
+19. Name the WordPress source for the apex banner.
+20. Confirm that the Presentations desk owns the HTML teaser.
+21. Confirm that deploy happens from `main` only, with backup and rollback.
+22. Confirm that PR 101 stays out of the demo until it is on `main`.
+23. Confirm that Colombia pins use a street address or location unknown.
+24. Confirm that LinkedIn scraping is out of scope.
+25. Confirm that secrets stay in Infisical.
+
+Open question. Do not decide it here. The ecosystem card also shows a two-letter mark, a role, and a LinkedIn link. Gideon says which of those stay.
 
 ## 16. Hard rules
 
