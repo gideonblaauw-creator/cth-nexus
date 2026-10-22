@@ -4,7 +4,7 @@
 
 **Status:** Plan only.
 
-**Mark on GTM inputs:** GTM hypothesis. The CTH GTM Strategy desk will confirm them. The source note is plan `bc-f31a71df`.
+**Mark on GTM inputs:** The company list and the sector order came from the GTM Strategy desk. The demo format and the personas stay a GTM hypothesis. The source note is plan `bc-f31a71df`. This file stores company names only.
 
 This file does not change the app. This file does not change the data. This file does not deploy a site.
 
@@ -96,7 +96,11 @@ Deploy from main uses `scripts/deploy_nexus_live.sh`. The script writes a backup
 
 **Owner of the HTML teaser:** the Presentations desk. This milestone hands that desk a JSON file. This milestone does not build the HTML.
 
-**Later work:** Move 2, Move 3B, GTM sectors 4 to 6, and the paid workshop.
+**Company bound:** The first map wave is the 21 Wave 1 companies in section 5.4. The gaps come from their public sustainability reports. The supply side is the startups and funders that can close those gaps.
+
+**Walkthrough company:** One Wave 1 name. Gideon picks that name.
+
+**Later work:** The 13 Wave 2 companies, Move 2, Move 3B, and the paid workshop.
 
 ## 4. Minimum scope of the demo
 
@@ -104,7 +108,7 @@ The demo has three parts. The parts are the teaser, the 20-minute walkthrough, a
 
 The teaser is free. The teaser is 1 to 2 pages. The teaser contains a company profile, the top 5 gaps, and 3 to 5 matches for each gap.
 
-Build the company profile from public data. Use a BVC filing or a published GRI report. The company list is PENDIENTE. Leave the company name blank until Gideon names the company.
+Build the company profile from public data. Use the company sustainability report. A BVC filing may support the profile. The company must be one Wave 1 name from section 5.4.
 
 Rank exactly five gaps for a full teaser. Give each gap 3 to 5 matches. Give each match a public URL and a verbatim quote. Drop a match that has no quote. Record a shortfall when a gap has fewer than 3 matches. Do not add a filler match.
 
@@ -112,36 +116,37 @@ Keep the 2-page limit. Print the gap rank, the gap title, the match name, and th
 
 The walkthrough lasts 20 minutes. Use the teaser and the ecosystem map. Do not open `/p/home` in the walkthrough.
 
-The map slice covers GTM sectors 1 to 3 only. Show a pin only for a verified street address. Show location unknown for every other actor. Show a public relation only when the quote check passes.
+The map slice shows the 21 Wave 1 companies. It shows the gaps their sustainability reports name. It shows the startups and funders that can close those gaps. It hides the 13 Wave 2 names. Show a pin only for a verified street address. Show location unknown for every other actor. Show a public relation only when the quote check passes.
 
 The milestone is complete when all of these tests pass.
 
 1. The teaser JSON validates against the contract in section 8.
 2. Every match has a public quote on the cited page.
-3. The teaser names no company, or Gideon has named the company.
+3. The teaser uses one Wave 1 company, and Gideon has picked that name.
 4. The map shows no Colombia pin without `precision` `address`.
 5. `/p/home` has no `Actividad reciente` block.
 6. `https://cleantechhub.net/` has no `+10 Millons Capital Raised` heading, or the heading has a public source on the page.
 7. The demo files contain no personal email, no phone number, no home address, no Drive link, and no Canva link.
 
-## 5. GTM hypotheses
+## 5. GTM desk inputs
 
-Mark every row in this section **GTM hypothesis**. The GTM Strategy desk has not confirmed the rows. Plan id: `bc-f31a71df`.
+Plan id: `bc-f31a71df`.
+
+The company list and the sector order are from the GTM Strategy desk. Mark the demo format and the personas **GTM hypothesis**.
 
 ### 5.1 Sectors
 
-Use this priority order.
+Use this priority order. The desk replaced the earlier order.
 
-| Order | Sector | First map wave |
+| Order | Sector | Role |
 | ---: | --- | --- |
-| 1 | Energy and utilities | Yes |
-| 2 | Oil, gas, and mining | Yes |
-| 3 | Agribusiness and food and beverage | Yes |
-| 4 | Cement and construction materials | No |
-| 5 | Banking and insurance, financed emissions | No |
-| 6 | Retail and consumer goods | No |
+| 1 | Banking and insurance | Top sector |
+| 2 | Energy and utilities | Top sector |
+| 3 | Oil and gas | Top sector |
+| 4 | Food and consumer | Next |
+| 5 | Construction | After food and consumer |
 
-The first Colombia map wave covers sectors 1 to 3.
+The first Colombia map wave is the Wave 1 company list. Wave 1 also includes food, construction, and one waste company. Section 5.4 lists the names. A sustainability report names the gaps. The report wins when it disagrees with the working sector label.
 
 ### 5.2 Demo format
 
@@ -163,22 +168,57 @@ The primary persona is the CSO or the head of sustainability. The employer is a 
 
 The secondary persona is the head of ESG reporting or the head of procurement.
 
-The list of 20 to 30 companies is PENDIENTE.
+### 5.4 Company list
+
+The desk sent these company names. Store company names only. Store no contact names.
+
+Wave 1 has a warm contact. A Datalab profile already exists. The first map wave uses Wave 1 only.
+
+| Company | Working sector |
+| --- | --- |
+| Bancolombia | Banking and insurance |
+| Davivienda | Banking and insurance |
+| SURA | Banking and insurance |
+| BBVA | Banking and insurance |
+| Banco Popular | Banking and insurance |
+| ISA | Energy and utilities |
+| GEB (via TGI) | Energy and utilities |
+| Enel | Energy and utilities |
+| Celsia | Energy and utilities |
+| EPM | Energy and utilities |
+| Promigas | Energy and utilities |
+| Ecopetrol | Oil and gas |
+| Parex | Oil and gas |
+| Terpel | Oil and gas |
+| Alqueria | Food and consumer |
+| Nutresa | Food and consumer |
+| Juan Valdez | Food and consumer |
+| Alpina | Food and consumer |
+| Argos | Construction |
+| Pavimentos Colombia | Construction |
+| Interaseo | Waste services |
+
+Interaseo is on Wave 1. The five sector names do not include waste. Keep Interaseo on the first map. Read its sustainability report for the gaps.
+
+`GEB (via TGI)` is the desk string. Cite the public report that names GEB, TGI, or both. Use the name the report uses.
+
+Wave 2 is the next set of Datalab profiles. Keep every Wave 2 name off the first map wave.
+
+Wave 2 names: Banco de Bogota, Amarilo, Colsubsidio, Fedepalma, Sodimac, Avianca, Aris Mining, Bavaria, Banco de Occidente, Comfama, Cafam, Claro, GeoPark.
 
 ## 6. Questions for the GTM Strategy desk
 
-Send these questions with the hypotheses. Wait for the desk before you treat a hypothesis as final.
+The desk has sent the company list and the sector order. These questions remain. Mark an answer **GTM hypothesis** until the desk replies.
 
-1. Confirm the six sectors, or send a new order.
-2. Confirm that the first map wave is sectors 1 to 3.
-3. Name the first corporate, or confirm that the teaser stays unnamed.
-4. Confirm the primary persona and the secondary persona.
-5. Confirm that the teaser stays at 1 to 2 pages when the quote text stays in the JSON.
-6. Confirm the 20-minute walkthrough and the later paid workshop.
-7. State which figures on `cleantechhub.net` may remain.
-8. Give the public source for each figure that remains.
-9. State whether a startup name in the teaser needs founder consent.
-10. State the handoff format that the Presentations desk needs.
+1. Which Wave 1 company is the first 20-minute walkthrough?
+2. Confirm the working sector label for each Wave 1 name, including Interaseo.
+3. Confirm the primary persona and the secondary persona.
+4. Confirm that the teaser stays at 1 to 2 pages when the quote text stays in the JSON.
+5. Confirm the 20-minute walkthrough and the later paid workshop.
+6. State which figures on `cleantechhub.net` may remain.
+7. Give the public source for each figure that remains.
+8. State whether a startup name in the teaser needs founder consent.
+9. State the handoff format that the Presentations desk needs.
 
 ## 7. Move 1 — Gap-to-match shortlist
 
@@ -217,7 +257,7 @@ The Datalab desk must accept the taxonomy draft before a named teaser goes to a 
 
 ### Effort
 
-Size: medium. The schema and the two fixtures are one pair. The full teaser needs 15 to 25 quotes. Collect those quotes in later batches of one gap each. Do not put the full teaser in the first pair.
+Size: medium for the schema, the fixtures, and one Wave 1 teaser. That teaser needs 15 to 25 quotes. Collect those quotes in batches of one gap. Do not build teasers for all 21 Wave 1 companies in the first pair.
 
 ### Acceptance tests
 
@@ -230,7 +270,7 @@ Size: medium. The schema and the two fixtures are one pair. The full teaser need
 
 ### HITL
 
-Stop before a named company enters the file. Stop before the JSON goes to the Presentations desk. Stop if the Datalab desk rejects a theme id. Stop if a gap cannot reach 3 sourced matches. Record the shortfall. Do not fill the gap with an unsourced name.
+Stop if the teaser uses a name that is not on Wave 1. Stop before the JSON goes to the Presentations desk. Gideon picks the first Wave 1 name. Stop if the Datalab desk rejects a theme id. Stop if a gap cannot reach 3 sourced matches. Record the shortfall. Do not fill the gap with an unsourced name.
 
 ## 8. Data contract draft
 
@@ -244,14 +284,15 @@ The contract is a draft. Do not treat it as accepted.
 
 These ids follow the GTM sector order. They are a draft.
 
-| Theme id | GTM sector | Portfolio code today | Map wave |
+| Theme id | GTM sector | Portfolio code today | First map wave |
 | --- | --- | --- | --- |
-| `energy_utilities` | 1 Energy and utilities | `EN` is close. It is not the same id. | 1 |
-| `oil_gas_mining` | 2 Oil, gas, and mining | No code confirmed in this plan. | 1 |
-| `agri_food` | 3 Agribusiness and food and beverage | `BIO` is not this id. `CT-AF-*` may overlap. | 1 |
-| `cement_materials` | 4 Cement and construction materials | `CT-BU-*` may overlap. | Later |
-| `financed_emissions` | 5 Banking and insurance | No financed-emissions field exists. | Later |
-| `retail_consumer` | 6 Retail and consumer goods | `CE` is not this id. | Later |
+| `banking_insurance` | 1 Banking and insurance | No financed-emissions field exists. | Wave 1 companies in this sector |
+| `energy_utilities` | 2 Energy and utilities | `EN` is close. It is not the same id. | Wave 1 companies in this sector |
+| `oil_gas` | 3 Oil and gas | No code confirmed in this plan. | Wave 1 companies in this sector |
+| `food_consumer` | 4 Food and consumer | `BIO` and `CE` are not this id. | Wave 1 companies in this sector |
+| `construction` | 5 Construction | `CT-BU-*` may overlap. | Wave 1 companies in this sector |
+
+The first map wave covers the Wave 1 companies in section 5.4. It covers the gaps in their sustainability reports. It covers the startups and funders that can close those gaps. `waste_services` is not a theme id yet. Interaseo still stays on the map. The Datalab desk must give Interaseo a theme id.
 
 The Datalab desk must accept each theme id. The desk must say whether a CT code may sit on a gap.
 
@@ -325,12 +366,11 @@ Save the schema as `ops/datalab/teaser.schema.json` in the Move 1 job. The text 
         "title": { "type": "string", "minLength": 1 },
         "theme_id": {
           "enum": [
+            "banking_insurance",
             "energy_utilities",
-            "oil_gas_mining",
-            "agri_food",
-            "cement_materials",
-            "financed_emissions",
-            "retail_consumer"
+            "oil_gas",
+            "food_consumer",
+            "construction"
           ]
         },
         "journey_step": {
@@ -380,9 +420,9 @@ Save the schema as `ops/datalab/teaser.schema.json` in the Move 1 job. The text 
 
 A full teaser sets `shortfall` to `false` only when the gap has at least 3 matches. A gap with fewer than 3 matches sets `shortfall` to `true`. The schema allows one match so a shortfall file still validates. The checker fails a CSO-ready file when any gap has `shortfall` `true`.
 
-A blank company name is allowed in a fixture. A CSO-ready file must contain the name Gideon approved. The profile quote must appear on `profile_source_url`.
+A blank company name is allowed in a fixture. A CSO-ready file must use one Wave 1 name. Gideon picks that name. The profile quote must appear on `profile_source_url`.
 
-## 9. Move 4 — Colombia map for CSO sectors
+## 9. Move 4 — Colombia map for the Wave 1 companies
 
 ### Scope
 
@@ -390,33 +430,29 @@ Build the Colombia map with the same rules as the Peru map.
 
 Use a public page or an official directory as the source. Strip email, phone, Drive links, and Canva links. Pin the actor only when the page gives a street address. Set location unknown when the page gives no street address. Add a public relation only through the quote catalog and `verify_relation_quotes.py`.
 
-The first wave covers GTM sectors 1 to 3. Mark that limit **GTM hypothesis**.
+The first wave is the 21 Wave 1 companies in section 5.4. Add each company. Take the gaps from that company's public sustainability report. Add the startups and funders that can close those gaps. Each match needs a public source.
 
-The minimum map for the demo contains three groups.
+Do not add the 13 Wave 2 names in this wave. Do not crawl a whole sector past the Wave 1 companies and their matches. Do not import all 145 Colombia portfolio rows. Add a portfolio startup only when a report gap matches it.
 
-1. The current energy actors that fit sector 1: `co-fenoge`, `co-minenergia`, `co-creg`, `co-upme`, `co-ipse`.
-2. The startups and funders named in the teaser, when they fit sectors 1 to 3.
-3. New organizations in sectors 1 to 3 that have a public page.
-
-Leave `co-bancoldex` in the bundle. Sector 5 is outside the first wave. Do not feature `co-bancoldex` on the wave-1 layer.
-
-Do not import all 145 Colombia portfolio rows in this wave. Add a portfolio startup when the teaser names it.
+The current bundle actors stay in the file. Feature one of those actors on the wave-1 layer only when a Wave 1 report cites it. The actors are `co-fenoge`, `co-minenergia`, `co-creg`, `co-upme`, `co-ipse`, and `co-bancoldex`. `co-bancoldex` is a funder. Bancolombia is a separate Wave 1 company.
 
 A city name is not an address. Do not use the city-center table in `merge_peru_mapa_2026.py`. Do not use a country capital as a pin.
 
 Correct the `co-ipse` source string in the same job that edits the actor.
 
+Store company names only. Do not add a person name.
+
 ### Hands jobs
 
 Run the maker and the checker as a pair. Use model `composer-2.5` for both jobs.
 
-**Maker.** Add Colombia actors for sectors 1 to 3. Copy the field shape from the Peru ingest. Set `geo.precision` to `address` only with a street address and a source URL. Set every other new actor to location unknown. Add quotes only in `ops/ecosystem/graph_relation_evidence.json`. Run the sync script.
+**Maker.** Add the Wave 1 companies in sector batches. Use the batches in the effort line below. Copy the field shape from the Peru ingest. Set `geo.precision` to `address` only with a street address and a source URL. Set every other new actor to location unknown. Quote each gap from the company sustainability report. Add match quotes only in `ops/ecosystem/graph_relation_evidence.json` when the quote names both actors and the relation. Run the sync script.
 
-**Checker.** Run `ops/geo/location_audit.py` logic against the new rows. Run `scripts/ecosystem/verify_relation_quotes.py`. Fail any new pin whose precision is not `address`. Fail any new public relation that lacks a verbatim quote. Confirm the wave-1 filter hides sector 5.
+**Checker.** Run `ops/geo/location_audit.py` logic against the new rows. Run `scripts/ecosystem/verify_relation_quotes.py`. Fail any new pin whose precision is not `address`. Fail any new public relation that lacks a verbatim quote. Fail the job if a Wave 2 name appears on the wave-1 layer. Fail the job if a person name is in the new rows.
 
 ### Data sources
 
-Use the organization website. Use an official directory. Use a GRI report or a BVC filing for a corporate office address. Use the portfolio row only as a pointer to the startup website.
+Use the company sustainability report for each gap. Use the organization website or an official directory for the address. Use the portfolio row only as a pointer to the startup website.
 
 The Peru pattern lives in `scripts/ecosystem/merge_peru_mapa_2026.py`, `ops/geo/LOCATION-AUDIT.md`, and `static/ecosystem/geo-utils.mjs`.
 
@@ -424,11 +460,20 @@ Do not scrape LinkedIn. Do not geocode from a name plus a city.
 
 ### Dependencies
 
-Move 1 names the teaser actors. The map job can audit the current six actors before those names exist. Add teaser actors after the Move 1 checker passes. Gideon must accept the GTM sector list as a working hypothesis before the wave-1 filter is public.
+Section 5.4 names the companies. Move 1 supplies the match rule. The map job can add company records before every match quote exists. A company with no quoted gap stays on the map as location known or location unknown. It does not gain a fake match. Gideon picks the first walkthrough company from Wave 1 before that teaser is public.
 
 ### Effort
 
-Size: medium. The audit of six actors is the small slice. The actor add is one batch per sector. Sector 2 has no confirmed theme code. Expect a short list and many location-unknown rows.
+Size: large. The wave has 21 companies. Split the work into six batches.
+
+1. Banking and insurance: Bancolombia, Davivienda, SURA, BBVA, Banco Popular.
+2. Energy and utilities: ISA, GEB (via TGI), Enel, Celsia, EPM, Promigas.
+3. Oil and gas: Ecopetrol, Parex, Terpel.
+4. Food and consumer: Alqueria, Nutresa, Juan Valdez, Alpina.
+5. Construction: Argos, Pavimentos Colombia.
+6. Waste services: Interaseo.
+
+Each batch reads the public sustainability reports and quotes the gaps those reports name. Then it attaches startups and funders that have a public source. Expect many location-unknown rows. The report quotes are the large part. One walkthrough teaser is still one company, not all 21.
 
 ### Acceptance tests
 
@@ -436,9 +481,10 @@ Size: medium. The audit of six actors is the small slice. The actor add is one b
 2. An actor with no street address has no lat-lng pin.
 3. `verify_relation_quotes.py` exits 0.
 4. The public bundle has no new email, phone, Drive link, or Canva link.
-5. The wave-1 view lists sectors 1 to 3 only.
+5. The wave-1 view lists the 21 Wave 1 companies and their sourced matches. It does not list a Wave 2 name.
 6. `co-ipse` no longer cites the Peru map as its source.
 7. Actor counts in the README match `actors.json` after the job, or the README points at `actors.json`.
+8. Each wave-1 gap cites a sustainability report and a verbatim quote. A company with no quote has no invented gap.
 
 ### HITL
 
@@ -655,7 +701,7 @@ Move 3A is the cheapest pair. It must land before a CSO sees the product. It is 
 
 Move 1 needs a Datalab gap taxonomy. That taxonomy is not in the repo. Section 8 is a draft. The status is **to agree with the Datalab desk**. A CT code is not a Datalab gap id.
 
-The GTM sector list is a hypothesis. The map filter must show the mark **GTM hypothesis** until the desk confirms it. Portfolio codes `CE`, `BIO`, and `EN` are not those sectors.
+The desk sent the sector order and the company list. Use them. The working sector label on each name is a group. The sustainability report wins when the report names a different gap. Portfolio codes `CE`, `BIO`, and `EN` are still not these sectors.
 
 The teaser asks for 3 to 5 matches on each of 5 gaps. That is 15 to 25 public quotes. The Colombia graph has 6 actors and 2 public relations. It cannot fill the teaser. Use portfolio sites and other public pages. Drop the match when the quote is missing. A 2-page sheet cannot print every quote. Print the link. Keep the quote in the JSON.
 
@@ -667,7 +713,7 @@ The bad banner is on the public apex site. A PR in this repo cannot edit Element
 
 `/p/home` is a public URL and an internal greeting. Do not use it as the CSO screen. The walkthrough uses the teaser and `/ecosystem/`.
 
-The company list is PENDIENTE. This plan names no corporate. A named sample would be a guess.
+Do not build 21 full teasers before the first walkthrough. The walkthrough uses one Wave 1 company. The map lists all 21 Wave 1 names. Add a match only when the quote exists. A missing quote stays a shortfall. Wave 2 stays off this map. Do not force Avianca, Claro, or a compensation fund into the five sector names. They are Wave 2.
 
 PR 101 is a draft. The live public count is 40. The demo uses `main`.
 
@@ -685,12 +731,12 @@ The Peru city-center table is the wrong pattern for Colombia pins. Use a street 
 | B | Gideon GO list in section 15 | Yes | Human |
 | B | Datalab desk reply on section 8 | Yes, for a named teaser | Human |
 | C | Move 1 full teaser, one gap per batch | Yes | `composer-2.5` maker and checker |
-| C | Move 4 Colombia wave, sectors 1 to 3 | Yes | `composer-2.5` maker and checker |
+| C | Move 4 Colombia wave, 21 Wave 1 companies | Yes | `composer-2.5` maker and checker |
 | D | Presentations desk builds the HTML teaser | Yes | That desk |
 | D | 20-minute walkthrough | Demo event | Human |
 | E | Move 2 private tier, then quote batches | No | `composer-2.5` maker and checker |
 | E | Move 3B cases after consent | No | `composer-2.5` maker and checker |
-| E | Map sectors 4 to 6 | No | Later pair |
+| E | Wave 2 companies, 13 names | No | Later pair |
 | E | Paid workshop | No | GTM desk |
 
 Rows with the same order letter may run in parallel. A later letter waits for the earlier letter.
@@ -701,24 +747,29 @@ The demo gate is the end of order D. Move 2 does not sit on that gate.
 
 Record one yes or no for each line.
 
-1. Use the GTM hypotheses for the first wave before the GTM desk confirms them.
-2. Send section 8 to the Datalab desk as the draft contract.
-3. Allow a blank company name until the 20 to 30 list exists.
-4. Accept a teaser gap with `shortfall` `true` in an internal file.
-5. Forbid a CSO-ready file while any gap has `shortfall` `true`.
-6. Keep `theme_match` out of `relations.json`.
-7. Remove `+10 Millons Capital Raised` when no source is on the page.
-8. Leave the other five apex headings unchanged in this job.
-9. Remove the `/p/home` activity feed.
-10. Accept the private-evidence tier in section 12.
-11. Confirm the privacy ban on personal email, phone, home address, Drive links, and Canva links.
-12. Name the WordPress source for the apex banner.
-13. Confirm that the Presentations desk owns the HTML teaser.
-14. Confirm that deploy happens from `main` only, with backup and rollback.
-15. Confirm that PR 101 stays out of the demo until it is on `main`.
-16. Confirm that Colombia pins use a street address or location unknown.
-17. Confirm that LinkedIn scraping is out of scope.
-18. Confirm that secrets stay in Infisical.
+1. Use the 21 Wave 1 companies as the first Colombia map wave.
+2. Keep the 13 Wave 2 names off that wave.
+3. Use this sector order: banking and insurance, energy and utilities, oil and gas, food and consumer, construction.
+4. Take each gap from that company's public sustainability report.
+5. Include Interaseo on Wave 1. Give it a theme id after the Datalab desk replies.
+6. Pick the first walkthrough company from Wave 1.
+7. Store company names only. Do not add a person name.
+8. Send section 8 to the Datalab desk as the draft contract.
+9. Accept a teaser gap with `shortfall` `true` in an internal file.
+10. Forbid a CSO-ready file while any gap has `shortfall` `true`.
+11. Keep `theme_match` out of `relations.json`.
+12. Remove `+10 Millons Capital Raised` when no source is on the page.
+13. Leave the other five apex headings unchanged in this job.
+14. Remove the `/p/home` activity feed.
+15. Accept the private-evidence tier in section 12.
+16. Confirm the privacy ban on personal email, phone, home address, Drive links, and Canva links.
+17. Name the WordPress source for the apex banner.
+18. Confirm that the Presentations desk owns the HTML teaser.
+19. Confirm that deploy happens from `main` only, with backup and rollback.
+20. Confirm that PR 101 stays out of the demo until it is on `main`.
+21. Confirm that Colombia pins use a street address or location unknown.
+22. Confirm that LinkedIn scraping is out of scope.
+23. Confirm that secrets stay in Infisical.
 
 ## 16. Hard rules
 
