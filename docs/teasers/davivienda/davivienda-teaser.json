@@ -1,0 +1,22 @@
+{
+  "contract_status": "to agree with the Datalab desk",
+  "gtm_status": "GTM hypothesis",
+  "draft": true,
+  "accessed_on": "2026-10-22",
+  "scope": "Environment, climate and nature only. Social and governance topics in the same report are out of scope.",
+  "status": "no_report",
+  "company": {
+    "name": "Davivienda",
+    "legal_name": "Banco Davivienda S.A.",
+    "country": "Colombia",
+    "persona": "cso",
+    "working_sector": "Banking and insurance",
+    "theme_id": "banking_insurance",
+    "wave": 1,
+    "profile_source_url": "https://sostenibilidad.davivienda.com/",
+    "profile_quote": "Informe 2024 listed on the Davivienda sustainability site (PDF fetch returned HTTP 403 in the agent environment; gap extraction deferred).",
+    "report_listing_url": "https://sostenibilidad.davivienda.com/",
+    "gri_report_url": "https://ir.davivienda.com/wp-content/uploads/2025/03/Davivienda-Informe-Anual-2024.pdf"
+  },
+  "gaps": []
+}

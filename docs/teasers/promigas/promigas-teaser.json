@@ -1,0 +1,225 @@
+{
+  "contract_status": "to agree with the Datalab desk",
+  "gtm_status": "GTM hypothesis",
+  "company": {
+    "name": "Promigas",
+    "country": "Colombia",
+    "persona": "cso",
+    "profile_source_url": "https://gestion2024.promigas.com/recursos/docs/informe-integrado-gestion-2024.pdf#page=134",
+    "profile_quote": "Nuestro Informe Integrado de Gestión Promigas 2024, brinda a nuestros grupos de interés información clara y verídica sobre la gestión y los hechos relevantes en los capitales financiero, humano, social y reputacional, natural, industrial e intelectual.",
+    "bvc_listed": true,
+    "gri_report_url": "https://gestion2024.promigas.com/recursos/docs/informe-integrado-gestion-2024.pdf"
+  },
+  "gaps": [
+    {
+      "gap_id": "pro-carbon-neutral-2040",
+      "rank": 1,
+      "title": "Carbon neutrality commitment set for 2040",
+      "theme_id": "energy_utilities",
+      "journey_step": "policy",
+      "startup_stage": "Pre-Series A",
+      "statement": "Carbon neutrality commitment set for 2040",
+      "evidence_url": "https://gestion2024.promigas.com/recursos/docs/informe-integrado-gestion-2024.pdf#page=118",
+      "evidence_quote": "hemos asumido el compromiso de alcanzar la carbono neutralidad en 2040, integrando prácticas responsables que reduzcan las emisiones, protejan los recursos naturales y promuevan una transición energética justa.",
+      "matches": [
+        {
+          "match_id": "pro-g1-cn",
+          "actor_kind": "startup",
+          "name": "C-neutral",
+          "claim_type": "theme_match",
+          "public_source_url": "https://c-neutral.co",
+          "public_quote": "En C-neutral brindamos consultoría integral hacia la ruta de descarbonización, apoyando a las empresas a identificar y cuantificar los aspectos e impactos ambientales potenciales a partir de la utilización de recursos y las emisiones producidas asociadas a su actividad económica.",
+          "why": "Decarbonization; quote does not name Promigas.",
+          "actor_ref": "portfolio:C-NEUTRAL SAS"
+        },
+        {
+          "match_id": "pro-g1-cb",
+          "actor_kind": "startup",
+          "name": "CarbonBox",
+          "claim_type": "theme_match",
+          "public_source_url": "https://carbonbox.app",
+          "public_quote": "CarbonBox mide los alcances 1, 2 y 3 con trazabilidad completa y metodología auditable, para que la cadena de valor deje de ser una caja negra.",
+          "why": "GEI inventory; quote does not name Promigas.",
+          "actor_ref": "portfolio:CARBONBOX"
+        },
+        {
+          "match_id": "pro-g1-sc",
+          "actor_kind": "startup",
+          "name": "sinCarbono",
+          "claim_type": "theme_match",
+          "public_source_url": "https://sincarbono.io",
+          "public_quote": "Cumple con la medición de huella de carbono con base al Protocolo de GEI y reporta con base a NIS, CSRD y CBAM en semanas, no meses.",
+          "why": "Reporting; quote does not name Promigas.",
+          "actor_ref": "portfolio:SINCARBONO"
+        }
+      ],
+      "shortfall": false
+    },
+    {
+      "gap_id": "pro-decarb-roadmap",
+      "rank": 2,
+      "title": "Decarbonization roadmap rests on four pillars",
+      "theme_id": "energy_utilities",
+      "journey_step": "data",
+      "startup_stage": "Seed",
+      "statement": "Decarbonization roadmap rests on four pillars",
+      "evidence_url": "https://gestion2024.promigas.com/recursos/docs/informe-integrado-gestion-2024.pdf#page=120",
+      "evidence_quote": "Nuestra estrategia climática es un compromiso integral con la reducción de las emisiones de Gases de Efecto Invernadero (GEI) y la preparación de nuestras infraestructuras frente a los desafíos del cambio climático.",
+      "matches": [
+        {
+          "match_id": "pro-g2-fe",
+          "actor_kind": "funder",
+          "name": "FENOGE",
+          "claim_type": "theme_match",
+          "public_source_url": "https://fenoge.gov.co/preguntas-frecuentes/",
+          "public_quote": "¿Cuáles son los mecanismos para presentar las propuestas al FENOGE? 1. De forma directa: Ante el IPSE o la UPME, según corresponda para planes, programas o proyectos de personas jurídicas.",
+          "why": "Clean energy finance; quote does not name Promigas.",
+          "actor_ref": "co-fenoge"
+        },
+        {
+          "match_id": "pro-g2-gr",
+          "actor_kind": "startup",
+          "name": "Griin",
+          "claim_type": "theme_match",
+          "public_source_url": "https://griin.com.co",
+          "public_quote": "Financiamiento solar para empresas en América Latina.",
+          "why": "Solar finance; quote does not name Promigas.",
+          "actor_ref": "portfolio:GRIIN ENERGY SAS"
+        }
+      ],
+      "shortfall": false
+    },
+    {
+      "gap_id": "pro-baseline-2021",
+      "rank": 3,
+      "title": "2021 baseline review still anchors mitigation actions",
+      "theme_id": "energy_utilities",
+      "journey_step": "data",
+      "startup_stage": "Pre-Seed",
+      "statement": "2021 baseline review still anchors mitigation actions",
+      "evidence_url": "https://gestion2024.promigas.com/recursos/docs/informe-integrado-gestion-2024.pdf#page=119",
+      "evidence_quote": "En 2022, realizamos una revisión de la línea base de emisiones de carbono de 2021 para identificar las principales fuentes de emisión en nuestros negocios y definir acciones concretas de mitigación.",
+      "matches": [
+        {
+          "match_id": "pro-g3-cb",
+          "actor_kind": "startup",
+          "name": "CarbonBox",
+          "claim_type": "theme_match",
+          "public_source_url": "https://carbonbox.app",
+          "public_quote": "CarbonBox mide los alcances 1, 2 y 3 con trazabilidad completa y metodología auditable, para que la cadena de valor deje de ser una caja negra.",
+          "why": "Baseline-to-action; quote does not name Promigas.",
+          "actor_ref": "portfolio:CARBONBOX"
+        },
+        {
+          "match_id": "pro-g3-cn",
+          "actor_kind": "startup",
+          "name": "C-neutral",
+          "claim_type": "theme_match",
+          "public_source_url": "https://c-neutral.co",
+          "public_quote": "Comienza a medir y reportar tus emisiones de CO2 e con nuestra calculadora de huella de carbono y nuestros servicios habilitados para certificación externa.",
+          "why": "Measurement; quote does not name Promigas.",
+          "actor_ref": "portfolio:C-NEUTRAL SAS"
+        },
+        {
+          "match_id": "pro-g3-sc",
+          "actor_kind": "startup",
+          "name": "sinCarbono",
+          "claim_type": "theme_match",
+          "public_source_url": "https://sincarbono.io",
+          "public_quote": "Cumple con la medición de huella de carbono con base al Protocolo de GEI y reporta con base a NIS, CSRD y CBAM en semanas, no meses.",
+          "why": "GEI inventory; quote does not name Promigas.",
+          "actor_ref": "portfolio:SINCARBONO"
+        }
+      ],
+      "shortfall": false
+    },
+    {
+      "gap_id": "pro-biodiversity-corridors",
+      "rank": 4,
+      "title": "No net loss biodiversity policy drives dry-forest corridors",
+      "theme_id": "energy_utilities",
+      "journey_step": "challenge",
+      "startup_stage": "Pre-Seed",
+      "statement": "No net loss biodiversity policy drives dry-forest corridors",
+      "evidence_url": "https://gestion2024.promigas.com/recursos/docs/informe-integrado-gestion-2024.pdf#page=124",
+      "evidence_quote": "cumplir con nuestro compromiso de “no pérdida neta de biodiversidad” según nuestra política ambiental.",
+      "matches": [
+        {
+          "match_id": "pro-g4-nu",
+          "actor_kind": "startup",
+          "name": "Natupin",
+          "claim_type": "theme_match",
+          "public_source_url": "https://natupin.bio",
+          "public_quote": "formas en las que puedes preservar la biodiversidad.",
+          "why": "Biodiversity; quote does not name Promigas.",
+          "actor_ref": "portfolio:NATUPIN"
+        },
+        {
+          "match_id": "pro-g4-api",
+          "actor_kind": "startup",
+          "name": "Apicultores y Rescatistas SAS BIC",
+          "claim_type": "theme_match",
+          "public_source_url": "https://apicultoresyrescatistas.com",
+          "public_quote": "Rescatamos colmenas y enjambres de abejas de forma segura y profesional, garantizando la conservación de estos importantes polinizadores.",
+          "why": "Pollinators; quote does not name Promigas.",
+          "actor_ref": "portfolio:APICULTORES Y RESCATISTAS"
+        },
+        {
+          "match_id": "pro-g4-re",
+          "actor_kind": "startup",
+          "name": "Reemade",
+          "claim_type": "theme_match",
+          "public_source_url": "https://reemade.com.co",
+          "public_quote": "Al suprareciclar, reducimos la huella de carbono asociada a la extracción y transformación de materias primas, disminuyendo así la contaminación del aire, el agua y el suelo desde su origen.",
+          "why": "Land/water co-benefits; quote does not name Promigas.",
+          "actor_ref": "portfolio:REEMADE"
+        }
+      ],
+      "shortfall": false
+    },
+    {
+      "gap_id": "pro-sustainability-maturity",
+      "rank": 5,
+      "title": "2024 ASG maturity roadmap still maturing data systems",
+      "theme_id": "energy_utilities",
+      "journey_step": "data",
+      "startup_stage": "Pre-Series A",
+      "statement": "2024 ASG maturity roadmap still maturing data systems",
+      "evidence_url": "https://gestion2024.promigas.com/recursos/docs/informe-integrado-gestion-2024.pdf#page=33",
+      "evidence_quote": "Realizamos un diagnóstico a partir de las calificaciones ASG externas y una autoevaluación que nos ayudó a consolidar una hoja de ruta a través de la cual nos hemos propuesto madurar los procesos y sistemas de información que soportan la gestión, y las capacidades en la organización.",
+      "matches": [
+        {
+          "match_id": "pro-g5-cb",
+          "actor_kind": "startup",
+          "name": "CarbonBox",
+          "claim_type": "theme_match",
+          "public_source_url": "https://carbonbox.app",
+          "public_quote": "La plataforma SaaS de huellas de carbono diseñada para empresas latinoamericanas que necesitan datos confiables, expertos certificados y resultados medibles.",
+          "why": "Data platform; quote does not name Promigas.",
+          "actor_ref": "portfolio:CARBONBOX"
+        },
+        {
+          "match_id": "pro-g5-sc",
+          "actor_kind": "startup",
+          "name": "sinCarbono",
+          "claim_type": "theme_match",
+          "public_source_url": "https://sincarbono.io",
+          "public_quote": "Cumple con la medición de huella de carbono con base al Protocolo de GEI y reporta con base a NIS, CSRD y CBAM en semanas, no meses.",
+          "why": "Reporting systems; quote does not name Promigas.",
+          "actor_ref": "portfolio:SINCARBONO"
+        },
+        {
+          "match_id": "pro-g5-zh",
+          "actor_kind": "startup",
+          "name": "Zhana Solutions",
+          "claim_type": "theme_match",
+          "public_source_url": "https://zhanasolutions.com",
+          "public_quote": "A partir de la operación de nuestra tecnología socializaremos con tu equipo los indicadores y métricas de impacto ambiental (litros de agua salvados y reducción de emisiones de co2)",
+          "why": "KPI dashboards; quote does not name Promigas.",
+          "actor_ref": "portfolio:ZHANA SOLUTIONS"
+        }
+      ],
+      "shortfall": false
+    }
+  ]
+}
