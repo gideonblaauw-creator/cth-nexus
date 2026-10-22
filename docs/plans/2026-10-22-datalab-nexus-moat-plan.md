@@ -2,9 +2,9 @@
 
 **Date:** 2026-10-22
 
-**Status:** Plan only.
+**Status:** Plan only. Section 15 is decided. Do not implement until Gideon gives GO.
 
-**Mark on GTM inputs:** The company list and the sector order came from the GTM Strategy desk. The demo format and the personas stay a GTM hypothesis. The source note is plan `bc-f31a71df`. This file stores company names only.
+**Mark on GTM inputs:** The company list came from the GTM Strategy desk. Round 1 verticals are decided in section 15. The demo format and the personas stay a GTM hypothesis. The source note is plan `bc-f31a71df`. This file stores company names only.
 
 This file does not change the app. This file does not change the data. This file does not deploy a site.
 
@@ -22,7 +22,7 @@ The first milestone is the CSO demo path. The path is Move 1 plus Move 4. Move 3
 
 ## 2. Facts on 2026-10-22
 
-The counts below are from `main` in this repo.
+The counts below are from `main` before PR 101 merged. This plan does not restate the count after that merge.
 
 | Item | Count |
 | --- | ---: |
@@ -37,11 +37,11 @@ The counts below are from `main` in this repo.
 | Actors with `geo.precision` `city` | 32 |
 | Actors with `geo.precision` `country` | 233 |
 
-A public relation on `main` today has `verified: true`, a `source_url`, and a verbatim quote. `scripts/ecosystem/verify_relation_quotes.py` checks the quote. The source must name both actors and the relation. Section 15 item 25 exempts CTH cohort data. That exemption is not in the script yet.
+A public relation in that count has `verified: true`, a `source_url`, and a verbatim quote. `scripts/ecosystem/verify_relation_quotes.py` checks the quote. The source must name both actors and the relation. Section 15 item 25 exempts CTH cohort data. That exemption is not in the script yet.
 
 `ops/ecosystem/UNVERIFIED-RELATIONS.md` records 40 public relations and 45 hidden relations. The file date is 2026-10-21.
 
-Draft PR 101 is open. The PR body reports 47 public relations and 43 hidden relations. The PR is not merged. The live count stays 40. Do not use a PR 101 relation in the demo.
+PR 101 is merged. The merge time is 22 Oct 2026, 14:03 UTC. DECIDED. It is live. The demo may use a relation from that merge when the relation is on `main`.
 
 The map page is `static/ecosystem/index.html`. The public URL is `https://nexus.cleantechhub.net/ecosystem/`. On 2026-10-22 the page and the JSON return HTTP 200.
 
@@ -96,7 +96,7 @@ Deploy from main uses `scripts/deploy_nexus_live.sh`. The script writes a backup
 
 **Owner of the HTML teaser:** the Presentations desk. This milestone hands that desk a JSON file. This milestone does not build the HTML.
 
-**Company bound:** The first map wave is the 21 Wave 1 companies in section 5.4. The gaps come from their public sustainability reports. The supply side is the startups and funders that can close those gaps.
+**Company bound:** The name list is the 21 Wave 1 companies in section 5.4. Round 1 uses the four verticals in section 5.1. Oil and gas names stay on the list. They are out of round 1. Each gap comes only from that company's own published sustainability report. The supply side is the startups and funders that can close those gaps.
 
 **Walkthrough company:** One Wave 1 name. Gideon picks that name.
 
@@ -108,7 +108,7 @@ The demo has three parts. The parts are the teaser, the 20-minute walkthrough, a
 
 The teaser is free. The teaser is 1 to 2 pages. The teaser contains a company profile, the top 5 gaps, and 3 to 5 matches for each gap.
 
-Build the company profile from public data. Use the company sustainability report. A BVC filing may support the profile. The company must be one Wave 1 name from section 5.4.
+Build the company profile from public data. A BVC filing may support the profile. A gap comes only from that company's own published sustainability report. The company must be one Round 1 name from Wave 1.
 
 Rank exactly five gaps for a full teaser. Give each gap 3 to 5 matches. Give each match a public URL and a verbatim quote. Drop a match that has no quote. Record a shortfall when a gap has fewer than 3 matches. Do not add a filler match.
 
@@ -116,37 +116,40 @@ Keep the 2-page limit. Print the gap rank, the gap title, the match name, and th
 
 The walkthrough lasts 20 minutes. Use the teaser and the ecosystem map. Do not open `/p/home` in the walkthrough.
 
-The map slice shows the 21 Wave 1 companies. It shows the gaps their sustainability reports name. It shows the startups and funders that can close those gaps. It hides the 13 Wave 2 names. Show a pin only for a verified street address. Show location unknown for every other actor. Show a `public_quote` relation only when the quote check passes. Show a `cth_cohort` relation when the CTH page publishes the fact. No quote is needed for that row.
+The map name list shows the 21 Wave 1 companies. Round 1 work uses the four verticals in section 5.1. It hides the 13 Wave 2 names. Show a pin only for a verified street address. Show the pin only. Show no address text. Show location unknown for every other actor. Show a `public_quote` relation only when the quote check passes. Show a `cth_cohort` relation when the CTH page publishes the fact. No quote is needed for that row.
 
 The milestone is complete when all of these tests pass.
 
 1. The teaser JSON validates against the contract in section 8.
 2. Every `public_quote` match has a public quote on the cited page. A `cth_cohort` match uses the CTH page. It does not need a quote.
 3. The teaser uses one Wave 1 company, and Gideon has picked that name.
-4. The map shows no Colombia pin without `precision` `address`.
+4. The map shows no Colombia pin without `precision` `address`. A Colombia pin shows the pin only. It shows no address text.
 5. `/p/home` has no `Actividad reciente` block.
-6. `https://cleantechhub.net/` has no `+10 Millons Capital Raised` heading, or the heading has a public source on the page.
+6. `https://cleantechhub.net/` has no `+10 Millons Capital Raised` heading. The removal has a backup and a rollback. The other five headings stay.
 7. The demo files contain no personal email, no phone number, no home address, no Drive link, and no Canva link.
 
 ## 5. GTM desk inputs
 
 Plan id: `bc-f31a71df`.
 
-The company list and the sector order are from the GTM Strategy desk. Mark the demo format and the personas **GTM hypothesis**.
+The company list is from the GTM Strategy desk. Round 1 verticals are decided in section 15. Mark the demo format and the personas **GTM hypothesis**.
 
 ### 5.1 Sectors
 
-Use this priority order. The desk replaced the earlier order.
+DECIDED. Voice, 22 Oct 10:03 COT. Round 1 verticals are the sectors below. Oil and gas are out.
 
-| Order | Sector | Role |
+| Order | Vertical | Round 1 |
 | ---: | --- | --- |
-| 1 | Banking and insurance | Top sector |
-| 2 | Energy and utilities | Top sector |
-| 3 | Oil and gas | Top sector |
-| 4 | Food and consumer | Next |
-| 5 | Construction | After food and consumer |
+| 1 | Energy and utilities | Yes |
+| 2 | Mining | Yes |
+| 3 | Agribusiness and food | Yes |
+| 4 | Logistics | Yes |
 
-The first Colombia map wave is the Wave 1 company list. Wave 1 also includes food, construction, and one waste company. Section 5.4 lists the names. A sustainability report names the gaps. The report wins when it disagrees with the working sector label.
+Verticals are sectors. A sector connects to a theme. Logistics connects to clean air. Themes are Nature Challenges. Section 15 states that rule.
+
+Nature Challenges cover environment, climate, and nature only. Social and governance are out of scope. The names align with the GRI Topic Standards vocabulary. The list stays curated. Bosque Seco is a project. Bosque Seco is not a theme.
+
+The Colombia CSO demo is first. Round 1 uses Wave 1 companies in these four verticals. Banking and insurance, construction, waste services, and oil and gas stay on the Wave 1 name list. They are out of round 1. Wave 1 has no mining name. Wave 1 has no logistics name. Do not add a Wave 2 name to fill that gap.
 
 ### 5.2 Demo format
 
@@ -198,7 +201,7 @@ Wave 1 has a warm contact. A Datalab profile already exists. The first map wave 
 | Pavimentos Colombia | Construction |
 | Interaseo | Waste services |
 
-Interaseo is on Wave 1. The five sector names do not include waste. Keep Interaseo on the first map. Read its sustainability report for the gaps.
+The desk label `Food and consumer` is the round 1 vertical agribusiness and food. Interaseo stays on the Wave 1 name list. Waste services is not a round 1 vertical. Read gaps only from each company's own published sustainability report.
 
 `GEB (via TGI)` is the desk string. Cite the public report that names GEB, TGI, or both. Use the name the report uses.
 
@@ -208,23 +211,22 @@ Wave 2 names: Banco de Bogota, Amarilo, Colsubsidio, Fedepalma, Sodimac, Avianca
 
 ## 6. Questions for the GTM Strategy desk
 
-The desk has sent the company list and the sector order. These questions remain. Mark an answer **GTM hypothesis** until the desk replies.
+Section 15 closes the round 1 verticals, the banner, and the gap source. These questions remain. Mark an answer **GTM hypothesis** until the desk replies.
 
-1. Which Wave 1 company is the first 20-minute walkthrough?
+1. Which Round 1 company is the first 20-minute walkthrough?
 2. Confirm the working sector label for each Wave 1 name, including Interaseo.
 3. Confirm the primary persona and the secondary persona.
 4. Confirm that the teaser stays at 1 to 2 pages when the quote text stays in the JSON.
 5. Confirm the 20-minute walkthrough and the later paid workshop.
-6. State which figures on `cleantechhub.net` may remain.
-7. Give the public source for each figure that remains.
-8. State whether a startup name in the teaser needs founder consent.
-9. State the handoff format that the Presentations desk needs.
+6. Give the public source for each of the five apex headings that stay.
+7. State whether a startup name in the teaser needs founder consent.
+8. State the handoff format that the Presentations desk needs.
 
 ## 7. Move 1 — Gap-to-match shortlist
 
 ### Scope
 
-Link one Datalab gap to one Nexus theme, one journey step, and one startup stage. Attach 3 to 5 matches. A match is a startup or a funder. Each match has a public source.
+Link one gap to one Nature Challenge, one journey step, and one startup stage. Attach 3 to 5 matches. A match is a startup or a funder. Each match has a public source. The theme is a Nature Challenge. Section 15 states that rule.
 
 The output size is the teaser. A full teaser has 5 gaps. A full teaser has 15 to 25 matches.
 
@@ -235,7 +237,7 @@ Two match kinds exist.
 
 A `theme_match` may appear in the teaser. A `theme_match` must not enter `relations.json`. An `actor_relation` with `evidence_type` `public_quote` may enter the graph only after `verify_relation_quotes.py` passes. A `cth_cohort` relation may enter the graph from the CTH page. No quote is needed.
 
-The gap taxonomy in section 8 is a draft. The status line is **to agree with the Datalab desk**.
+Section 8 is on hold. DECIDED. Do not send section 8.
 
 ### Hands jobs
 
@@ -247,13 +249,13 @@ Run the maker and the checker as a pair. The checker starts after the maker deli
 
 ### Data sources
 
-Use the public page cited on each match. Use `ops/ecosystem/graph_relation_evidence.json` for an existing public relation. Use the portfolio file for startup name, theme code, and startup stage. Use a GRI report or a BVC filing for the company profile after Gideon names the company.
+Use the public page cited on each match. Use `ops/ecosystem/graph_relation_evidence.json` for an existing public relation. Use the portfolio file for startup name, theme code, and startup stage. Use the company's own published sustainability report for each gap. A BVC filing may support the profile only.
 
 Use a LinkedIn company link only when the company website shows it. Section 16 states the limit. Do not use an internal attendance list. Do not use a Drive file. Do not use a Canva file.
 
 ### Dependencies
 
-The Datalab desk must accept the taxonomy draft before a named teaser goes to a CSO. Gideon must name the company or accept a blank name. Move 3A must be done before the walkthrough. The Presentations desk builds HTML from the JSON after the checker passes.
+Do not send section 8. The demo uses Round 1 verticals and Nature Challenges from section 15. Move 3A must be done before the walkthrough. The Presentations desk builds HTML from the JSON after the checker passes. This plan stays plan-only until Gideon gives GO.
 
 ### Effort
 
@@ -266,15 +268,15 @@ Size: medium for the schema, the fixtures, and one Wave 1 teaser. That teaser ne
 3. `teaser.schema.json` rejects a gap with more than 5 matches.
 4. The valid fixture cites a page that contains the quote.
 5. `relations.json` is unchanged by the pair.
-6. The status field on the schema is `to agree with the Datalab desk`.
+6. The schema file stays in the repo as a draft. Do not send it.
 
 ### HITL
 
-Stop if the teaser uses a name that is not on Wave 1. Stop before the JSON goes to the Presentations desk. Gideon picks the first Wave 1 name. Stop if the Datalab desk rejects a theme id. Stop if a gap cannot reach 3 sourced matches. Record the shortfall. Do not fill the gap with an unsourced name.
+Stop if the teaser uses an oil and gas name in round 1. Stop before the JSON goes to the Presentations desk. Stop if a gap cannot reach 3 sourced matches. Record the shortfall. A CSO-ready file is blocked while any gap has `shortfall` `true`. Do not fill the gap with an unsourced name. Do not send section 8.
 
 ## 8. Data contract draft
 
-**Status: to agree with the Datalab desk.**
+**Status: on hold. DECIDED. Do not send section 8.**
 
 **GTM size rule:** GTM hypothesis. Each gap has 3 to 5 matches. Each match has a public source.
 
@@ -282,7 +284,7 @@ The contract is a draft. Do not treat it as accepted.
 
 ### 8.1 Theme ids
 
-These ids follow the GTM sector order. They are a draft.
+This table is the old sector draft. It is not the theme list. Do not send it. Themes are Nature Challenges. Section 15 states that rule. `oil_gas` is not a round 1 vertical. Social and governance are out of scope. Bosque Seco is a project. Bosque Seco is not a theme.
 
 | Theme id | GTM sector | Portfolio code today | First map wave |
 | --- | --- | --- | --- |
@@ -292,9 +294,9 @@ These ids follow the GTM sector order. They are a draft.
 | `food_consumer` | 4 Food and consumer | `BIO` and `CE` are not this id. | Wave 1 companies in this sector |
 | `construction` | 5 Construction | `CT-BU-*` may overlap. | Wave 1 companies in this sector |
 
-The first map wave covers the Wave 1 companies in section 5.4. It covers the gaps in their sustainability reports. It covers the startups and funders that can close those gaps. `waste_services` is not a theme id yet. Interaseo still stays on the map. The Datalab desk must give Interaseo a theme id.
+The name list covers the Wave 1 companies in section 5.4. Round 1 uses section 5.1. A gap comes only from that company's own published sustainability report. `waste_services` is not a theme id. Interaseo stays on the name list. Do not ask the Datalab desk for a theme id. Do not send section 8.
 
-The Datalab desk must accept each theme id. The desk must say whether a CT code may sit on a gap.
+A Nature Challenge uses curated GRI Topic Standards words. A CT code is not that theme id. Do not treat this draft as accepted.
 
 ### 8.2 Stage fields
 
@@ -302,11 +304,11 @@ The Datalab desk must accept each theme id. The desk must say whether a CT code 
 
 `startup_stage` uses the portfolio stages: `Pre-Seed`, `Seed`, `Pre-Series A`, `Series B+`.
 
-The Datalab desk must say which field ranks the gap. Store both fields.
+Store both fields. Do not send section 8 to ask which field ranks the gap.
 
 ### 8.3 Schema
 
-Save the schema as `ops/datalab/teaser.schema.json` in the Move 1 job. The text below is the draft.
+Save the schema as `ops/datalab/teaser.schema.json` only after Gideon gives GO. The text below is the old draft. Do not send it. The `oil_gas` enum value is not a round 1 theme.
 
 ```json
 {
@@ -420,7 +422,7 @@ Save the schema as `ops/datalab/teaser.schema.json` in the Move 1 job. The text 
 
 A full teaser sets `shortfall` to `false` only when the gap has at least 3 matches. A gap with fewer than 3 matches sets `shortfall` to `true`. The schema allows one match so a shortfall file still validates. The checker fails a CSO-ready file when any gap has `shortfall` `true`.
 
-A blank company name is allowed in a fixture. A CSO-ready file must use one Wave 1 name. Gideon picks that name. The profile quote must appear on `profile_source_url`.
+A blank company name is allowed in a fixture. A CSO-ready file must use one Round 1 name. Gideon picks that name. The profile quote must appear on `profile_source_url`.
 
 ## 9. Move 4 — Colombia map for the Wave 1 companies
 
@@ -428,9 +430,9 @@ A blank company name is allowed in a fixture. A CSO-ready file must use one Wave
 
 Build the Colombia map with the same rules as the Peru map.
 
-Use a public page or an official directory as the source. Strip email, phone, Drive links, and Canva links. Pin the actor only when the page gives a street address. Set location unknown when the page gives no street address. Add a `public_quote` relation only through the quote catalog and `verify_relation_quotes.py`. A `cth_cohort` relation uses the CTH page. The script skips its quote check.
+Use a public page or an official directory as the source. Strip email, phone, Drive links, and Canva links. Pin the actor only when the page gives a street address. Show the pin only. Show no address text. Set location unknown when the page gives no street address. Add a `public_quote` relation only through the quote catalog and `verify_relation_quotes.py`. A `cth_cohort` relation uses the CTH page. The script skips its quote check.
 
-The first wave is the 21 Wave 1 companies in section 5.4. Add each company. Take the gaps from that company's public sustainability report. Add the startups and funders that can close those gaps. Each match needs a public source.
+The name list is the 21 Wave 1 companies in section 5.4. Round 1 uses the four verticals in section 5.1. Oil and gas are out of round 1. Take each gap only from that company's own published sustainability report. Add the startups and funders that can close those gaps. Each match needs a public source.
 
 Do not add the 13 Wave 2 names in this wave. Do not crawl a whole sector past the Wave 1 companies and their matches. Do not import all 145 Colombia portfolio rows. Add a portfolio startup only when a report gap matches it.
 
@@ -448,7 +450,7 @@ Run the maker and the checker as a pair. Use model `composer-2.5` for both jobs.
 
 **Maker.** Add the Wave 1 companies in sector batches. Use the batches in the effort line below. Copy the field shape from the Peru ingest. Set `geo.precision` to `address` only with a street address and a source URL. Set every other new actor to location unknown. Quote each gap from the company sustainability report. Add match quotes only in `ops/ecosystem/graph_relation_evidence.json` when the quote names both actors and the relation. Run the sync script.
 
-**Checker.** Run `ops/geo/location_audit.py` logic against the new rows. Run `scripts/ecosystem/verify_relation_quotes.py`. Fail any new pin whose precision is not `address`. Fail any new `public_quote` relation that lacks a verbatim quote. Pass a `cth_cohort` relation that cites the CTH page and has no quote. Fail the job if a Wave 2 name appears on the wave-1 layer. Fail the job if a person name is in the new rows.
+**Checker.** Run `ops/geo/location_audit.py` logic against the new rows. Run `scripts/ecosystem/verify_relation_quotes.py`. Fail any new pin whose precision is not `address`. Fail a Colombia pin that shows address text. Fail any new `public_quote` relation that lacks a verbatim quote. Pass a `cth_cohort` relation that cites the CTH page and has no quote. Fail the job if a Wave 2 name appears on the wave-1 layer. Fail the job if a round 1 match uses an oil and gas name. Fail the job if a person name is in the new rows.
 
 ### Data sources
 
@@ -464,27 +466,35 @@ Section 5.4 names the companies. Move 1 supplies the match rule. The map job can
 
 ### Effort
 
-Size: large. The wave has 21 companies. Split the work into six batches.
+Size: large. The name list has 21 companies. Round 1 is four verticals. Oil and gas are out of round 1.
 
-1. Banking and insurance: Bancolombia, Davivienda, SURA, BBVA, Banco Popular.
-2. Energy and utilities: ISA, GEB (via TGI), Enel, Celsia, EPM, Promigas.
-3. Oil and gas: Ecopetrol, Parex, Terpel.
-4. Food and consumer: Alqueria, Nutresa, Juan Valdez, Alpina.
-5. Construction: Argos, Pavimentos Colombia.
-6. Waste services: Interaseo.
+Round 1 batches:
 
-Each batch reads the public sustainability reports and quotes the gaps those reports name. Then it attaches startups and funders that have a public source. Expect many location-unknown rows. The report quotes are the large part. One walkthrough teaser is still one company, not all 21.
+1. Energy and utilities: ISA, GEB (via TGI), Enel, Celsia, EPM, Promigas.
+2. Agribusiness and food: Alqueria, Nutresa, Juan Valdez, Alpina.
+3. Mining: Wave 1 has no mining name. Do not add a Wave 2 name.
+4. Logistics: Wave 1 has no logistics name. Do not add a Wave 2 name.
+
+These names stay on the Wave 1 list. They are out of round 1.
+
+- Banking and insurance: Bancolombia, Davivienda, SURA, BBVA, Banco Popular.
+- Oil and gas: Ecopetrol, Parex, Terpel.
+- Construction: Argos, Pavimentos Colombia.
+- Waste services: Interaseo.
+
+Each round 1 batch reads that company's own published sustainability report. It quotes only the gaps that report names. Then it attaches startups and funders that have a public source. Expect many location-unknown rows. The report quotes are the large part. One walkthrough teaser is still one company, not all 21.
 
 ### Acceptance tests
 
-1. Every new Colombia pin has `precision` `address`, a street string, and a `source_url`.
+1. Every new Colombia pin has `precision` `address`, a street string in the data, and a `source_url`. The public pin shows no address text.
 2. An actor with no street address has no lat-lng pin.
 3. `verify_relation_quotes.py` exits 0. The script skips `evidence_type` `cth_cohort`.
 4. The public bundle has no new email, phone, Drive link, or Canva link.
 5. The wave-1 view lists the 21 Wave 1 companies and their sourced matches. It does not list a Wave 2 name.
 6. `co-ipse` no longer cites the Peru map as its source.
 7. Actor counts in the README match `actors.json` after the job, or the README points at `actors.json`.
-8. Each wave-1 gap cites a sustainability report and a verbatim quote. A company with no quote has no invented gap.
+8. Each round 1 gap cites that company's own published sustainability report and a verbatim quote. A company with no quote has no invented gap.
+9. Round 1 adds no oil and gas match. Ecopetrol, Parex, and Terpel may stay on the name list.
 
 ### HITL
 
@@ -500,15 +510,15 @@ Split the move. 3A blocks the demo. 3B waits for consent.
 
 Remove the demo activity feed from `site/nexus-www/nexus-homepage.html`. Remove the four demo lines with the block. Remove the unused activity CSS when no other block uses it.
 
-Fix the banner `+10 Millons Capital Raised` on `https://cleantechhub.net/`. The word `Millons` is a typo. The figure has no source on the page. Remove the figure. Put a figure back only when the same page shows the source.
+Remove the banner `+10 Millons Capital Raised` from `https://cleantechhub.net/`. DECIDED. Take a backup before the edit. Keep a rollback. Do not invent a new number.
 
-The banner is not in this Git repo. Find the WordPress or Elementor source before the edit. Record the replacement text in a tracked change. Do not invent a new number.
+The banner is not in this Git repo. Find the WordPress or Elementor source in the implementation job. Record the removal in a tracked change. This plan does not name that path.
 
-The same row has five more unsourced headings. Section 2 lists the headings. Touch those headings only after Gideon adds them to the job. The default job changes the named banner only.
+The same row has five more headings. Section 2 lists them. DECIDED. Those five headings stay. Do not edit them in this job.
 
 #### Hands jobs
 
-Run the maker and the checker as a pair. Use model `composer-2.5` for both jobs. Start this pair now. It does not wait for the Datalab desk.
+Run the maker and the checker as a pair. Use model `composer-2.5` for both jobs. Do not start this pair in PR 102. Start it after Gideon gives GO. It does not wait for section 8.
 
 **Maker.** Delete the `Actividad reciente` block from the Nexus home file. Prepare the banner change as text. Do not deploy it. Do not edit the live WordPress site inside this pair.
 
@@ -520,7 +530,7 @@ Use `site/nexus-www/nexus-homepage.html`. Use the live page `https://nexus.clean
 
 #### Dependencies
 
-The banner edit needs the WordPress source. Gideon must point to that source. The Nexus HTML edit needs a GitHub PR before deploy. Deploy from `main` with `scripts/deploy_nexus_live.sh`.
+The banner edit needs the WordPress source. Find that source in the implementation job. Take a backup. Keep a rollback. The Nexus HTML edit needs a GitHub PR before deploy. Deploy from `main` only. Use `scripts/deploy_nexus_live.sh`.
 
 #### Effort
 
@@ -532,12 +542,14 @@ Size: small. One HTML block is in this repo. The banner is one heading outside t
 2. The file contains no `EcoPack Colombia` string.
 3. The file contains no `Adriana Morales` string.
 4. The live `/p/home` page matches `main` after deploy.
-5. The live apex page does not show `+10 Millons Capital Raised`, or the visible figure has a source on that page.
-6. No new capital number appears without a source.
+5. The live apex page does not show `+10 Millons Capital Raised`.
+6. The other five headings in section 2 still show.
+7. The banner edit has a backup and a rollback.
+8. No new capital number appears without a source.
 
 #### HITL
 
-Stop before the WordPress edit. Gideon confirms the removal of the figure. Gideon says whether the other five headings are in scope. Stop before deploy. The PR must be on `main`.
+Stop before the WordPress edit. The removal is decided. The other five headings stay. Stop before deploy. Deploy from `main` only. Use a backup and a rollback.
 
 ### 10.2 Move 3B — Short cases
 
@@ -549,7 +561,7 @@ Each case needs a public source and the founder's consent. Store the consent out
 
 Air4U has a public one-pager at `onepagers/sites/air4u/index.html`. The page names Miguel Ángel Rozo and `https://air4u.co/`. That page is not consent for a new case.
 
-A CLP funder match must already be a public relation on `main`. PR 101 is not on `main`. Do not use a PR 101 edge as the case source. Prefer a Colombia match when one exists on `main`. No Colombia startup-to-funder relation is public on `main` today. Wait until one passes the quote check.
+A CLP funder match must already be a public relation on `main`. PR 101 is live. DECIDED. Use a relation from that merge only when the relation is on `main`. Prefer a Colombia match when one exists on `main`. Wait for the quote check on a third-party claim.
 
 The cases are not part of the minimum demo. Ship the demo without the cases when consent is missing.
 
@@ -559,7 +571,7 @@ Run the maker and the checker as a pair after consent exists. Use model `compose
 
 **Maker.** Write two short case files under `docs/cases/`. Each file has the claim, the source URL, the quote, and a consent id. Add no personal email or phone.
 
-**Checker.** Open each source URL. Confirm the quote. Confirm the consent id exists in Odoo. Fail a case that cites PR 101.
+**Checker.** Open each source URL. Confirm the quote. Confirm the consent id exists in Odoo. Fail a case that cites a relation that is not on `main`.
 
 #### Data sources
 
@@ -684,7 +696,7 @@ Keep this map in this plan. Do not add a schema file.
 
 `touchpoint` uses `clp`, `academy`, or `investor_matching`. `outcome` uses `meeting`, `pilot`, `money`, or `none`. Gideon names the Odoo model for that pair before staff log outcomes.
 
-The Move 2 prerequisite pair imports ecosystem actors and investors as companies. It adds `odoo_id` on the actor records. It writes no personal data in the repo. That pair needs Gideon's GO.
+The Move 2 prerequisite pair imports ecosystem actors and investors as companies. It adds `odoo_id` on the actor records. It writes no personal data in the repo. Section 15 item 17 decides that import. Run it only after the implementation GO. This plan does not run it.
 
 Secrets for the Odoo connection stay in Infisical. Do not commit them.
 
@@ -716,7 +728,7 @@ Voice, 22 Oct 09:56 COT. Decided. A public actor card may show only these fields
 - A match score that is a staff opinion.
 - An outcome that exists only in a CTH record.
 
-`consent_to_publish` does not replace the quote rule for a third-party claim. A `public_quote` relation still needs `public_source_url` and `public_quote`. A `cth_cohort` relation does not need a quote. Its source is the CTH page. Section 13 states the open guardrails. An outcome of money or a pilot is one of those open points.
+`consent_to_publish` does not replace the quote rule for a third-party claim. A `public_quote` relation still needs `public_source_url` and `public_quote`. A `cth_cohort` relation does not need a quote. Its source is the CTH page. The cohort guardrails are decided. The privacy ban still applies. Money or a pilot needs the startup's consent. Only facts from CTH-run programmes count.
 
 **Proposal.** Add a relation field `evidence_type`. The values are `public_quote` and `cth_cohort`. For `cth_cohort`, the source is the CTH page that publishes the fact. `verify_relation_quotes.py` skips the quote check. This implementation is a proposal.
 
@@ -730,19 +742,19 @@ These points disagree with a straight reading of the targets.
 
 The target of 200 public relations can force weak relations. Keep the quote rule as the floor for a third-party claim. Count a `public_quote` row only when it passes `verify_relation_quotes.py`. Leave a weak third-party row hidden. A batch stops when the outside quotes run out.
 
-The cohort exemption in section 15 stands. These guardrails stay open.
+The cohort exemption in section 15 stands. The guardrails are decided.
 
 The privacy ban still applies. Do not publish a personal email, a phone number, a home address, an attendance list, a Drive link, or a Canva link.
 
 An outcome such as money or a pilot needs the startup's consent before CTH publishes it.
 
-Only cohort facts that CTH itself ran qualify. Those facts are participation, the cohort, and the programme. A third-party claim still needs a verbatim quote.
+Only facts from CTH-run programmes count. Those facts are participation, the cohort, and the programme. A third-party claim still needs a verbatim quote.
 
 Move 3A is the cheapest pair. It must land before a CSO sees the product. It is a parallel gate. It is not the milestone. The milestone stays the CSO demo path.
 
-Move 1 needs a Datalab gap taxonomy. That taxonomy is not in the repo. Section 8 is a draft. The status is **to agree with the Datalab desk**. A CT code is not a Datalab gap id.
+Section 8 is on hold. DECIDED. Do not send section 8. Themes are Nature Challenges. A CT code is not a Nature Challenge. Bosque Seco is a project. Bosque Seco is not a theme.
 
-The desk sent the sector order and the company list. Use them. The working sector label on each name is a group. The sustainability report wins when the report names a different gap. Portfolio codes `CE`, `BIO`, and `EN` are still not these sectors.
+The desk sent the company list. Round 1 verticals are decided. The working sector label on each name is a group. The company's own published sustainability report wins on the gap text. Portfolio codes `CE`, `BIO`, and `EN` are still not these sectors.
 
 The teaser asks for 3 to 5 matches on each of 5 gaps. That is 15 to 25 public quotes. The Colombia graph has 6 actors and 2 public relations. It cannot fill the teaser. Use portfolio sites and other public pages. Drop the match when the quote is missing. A 2-page sheet cannot print every quote. Print the link. Keep the quote in the JSON.
 
@@ -750,17 +762,17 @@ A theme match is not a graph relation. Write it in the teaser only. Do not write
 
 Two stage fields exist. Do not merge the journey step with the startup stage.
 
-The bad banner is on the public apex site. A PR in this repo cannot edit Elementor. Wait for the WordPress source. Remove the figure when no source exists. Do not type a replacement number. The other five headings on that row have the same defect. They stay out of scope until Gideon adds them.
+The bad banner is on the public apex site. A PR in this repo cannot edit Elementor. Remove the figure. Take a backup. Keep a rollback. Do not type a replacement number. The other five headings stay. DECIDED.
 
 `/p/home` is a public URL and an internal greeting. Do not use it as the CSO screen. The walkthrough uses the teaser and `/ecosystem/`.
 
-Do not build 21 full teasers before the first walkthrough. The walkthrough uses one Wave 1 company. The map lists all 21 Wave 1 names. Add a match only when the quote exists. A missing quote stays a shortfall. Wave 2 stays off this map. Do not force Avianca, Claro, or a compensation fund into the five sector names. They are Wave 2.
+Do not build 21 full teasers before the first walkthrough. The walkthrough uses one Round 1 company. The map lists all 21 Wave 1 names. Oil and gas stay on that list and stay out of round 1. Add a match only when the quote exists. A missing quote stays a shortfall. A CSO-ready file is blocked while any gap has `shortfall` `true`. Wave 2 stays off this map. Do not add Aris Mining or Avianca to fill mining or logistics.
 
-PR 101 is a draft. The live public count is 40. The demo uses `main`.
+PR 101 is live. DECIDED. The count in section 2 is the count before that merge. The demo uses `main`.
 
 Privacy holds for every move. Do not publish a personal email, a phone number, a home address, a Drive link, or a Canva link.
 
-The Peru city-center table is the wrong pattern for Colombia pins. Use a street address or location unknown.
+The Peru city-center table is the wrong pattern for Colombia pins. Plot a pin only for a street address. Show the pin only. Show no address text. Use location unknown when the page gives no street address.
 
 ## 14. Sequence
 
@@ -769,8 +781,8 @@ The Peru city-center table is the wrong pattern for Colombia pins. Use a street 
 | A | Move 3A trust cleanup | Yes | `composer-2.5` maker and checker |
 | A | Send section 6 to the GTM Strategy desk | No | Human |
 | A | Move 1 schema and fixtures | No | `composer-2.5` maker and checker |
-| B | Gideon GO list in section 15 | Yes | Human |
-| B | Datalab desk reply on section 8 | Yes, for a named teaser | Human |
+| B | Section 15 is decided. Implementation waits for GO. | Yes, until that GO | Human |
+| B | Section 8 stays on hold. Do not send it. | No | Human |
 | C | Move 1 full teaser, one gap per batch | Yes | `composer-2.5` maker and checker |
 | C | Move 4 Colombia wave, 21 Wave 1 companies | Yes | `composer-2.5` maker and checker |
 | D | Presentations desk builds the HTML teaser | Yes | That desk |
@@ -785,46 +797,48 @@ Rows with the same order letter may run in parallel. A later letter waits for th
 
 The demo gate is the end of order D. Move 2 does not sit on that gate.
 
-## 15. Decisions that need Gideon's GO
+## 15. Decisions
 
-Record one yes or no for each line.
+Gideon settled every item below. The voice note is 22 Oct 10:03 COT. Each item is DECIDED. This plan stays plan-only until Gideon gives GO.
 
-1. Use the 21 Wave 1 companies as the first Colombia map wave.
-2. Keep the 13 Wave 2 names off that wave.
-3. Use this sector order: banking and insurance, energy and utilities, oil and gas, food and consumer, construction.
-4. Take each gap from that company's public sustainability report.
-5. Include Interaseo on Wave 1. Give it a theme id after the Datalab desk replies.
-6. Pick the first walkthrough company from Wave 1.
-7. Store company names only. Do not add a person name.
-8. Send section 8 to the Datalab desk as the draft contract.
-9. Accept a teaser gap with `shortfall` `true` in an internal file.
-10. Forbid a CSO-ready file while any gap has `shortfall` `true`.
-11. Keep `theme_match` out of `relations.json`.
-12. Remove `+10 Millons Capital Raised` when no source is on the page.
-13. Leave the other five apex headings unchanged in this job.
-14. Remove the `/p/home` activity feed.
-15. Use Odoo as the private evidence tier. Decided. Voice, 22 Oct 09:55 COT.
-16. Public card field set in section 12. Decided. Voice, 22 Oct 09:56 COT.
-17. Import ecosystem actors and investors to Odoo `res.partner` as companies only. Add `odoo_id` on the actor records. Not decided.
-18. Confirm the privacy ban on personal email, phone, home address, Drive links, and Canva links.
-19. Name the WordPress source for the apex banner.
-20. Confirm that the Presentations desk owns the HTML teaser.
-21. Confirm that deploy happens from `main` only, with backup and rollback.
-22. Confirm that PR 101 stays out of the demo until it is on `main`.
-23. Confirm that Colombia pins use a street address or location unknown.
-24. When a company's own public website links to its LinkedIn company page, record that link. Use that link. Do not scrape LinkedIn directly. Do not scrape LinkedIn broadly. Follow only a LinkedIn link that appears on the company's public site. Decided (Gideon 22 Oct), see constraint. Voice, 22 Oct 09:59 COT.
+1. DECIDED. The Colombia CSO demo is first. The first map list is the 21 Wave 1 companies. Round 1 uses the four verticals in item 3.
+2. DECIDED. Keep the 13 Wave 2 names off that wave.
+3. DECIDED. Round 1 verticals are energy and utilities, mining, agribusiness and food, and logistics. Oil and gas are out.
+4. DECIDED. Gaps come only from each company's own published sustainability report.
+5. DECIDED. Interaseo stays on the Wave 1 name list. Waste services is not a round 1 vertical. Do not send section 8 for a theme id.
+6. DECIDED. The first walkthrough company is one Round 1 name from Wave 1. This note does not name that company.
+7. DECIDED. Store company names only. Do not add a person name.
+8. DECIDED. The Datalab contract is on hold. Do not send section 8.
+9. DECIDED. An internal file may set `shortfall` to `true`. That file is not CSO-ready.
+10. DECIDED. A CSO-ready file is blocked while any gap has `shortfall` `true`.
+11. DECIDED. `theme_match` is out of `relations.json`.
+12. DECIDED. Remove the `+10 Millons` banner from the apex site. Take a backup. Keep a rollback.
+13. DECIDED. The other five apex headings stay.
+14. DECIDED. Remove the synthetic demo activity feed.
+15. DECIDED. The private evidence tier is Odoo. Every actor with a Nexus card is in Odoo.
+16. DECIDED. Public card fields stay as section 12 lists them.
+17. DECIDED. Import ecosystem actors and investors to Odoo `res.partner` as companies only. Add `odoo_id` on the actor records. Do not run that import in this plan.
+18. DECIDED. The privacy ban still applies. Do not publish a personal email, a phone, a home address, an attendance list, a Drive link, or a Canva link.
+19. DECIDED. Remove the apex banner with a backup and a rollback. This plan does not name a WordPress path.
+20. DECIDED. The Presentations desk owns the HTML teaser.
+21. DECIDED. Deploy from `main` only. Use a backup and a rollback.
+22. DECIDED. PR 101 is live. The demo may use a relation from that merge when the relation is on `main`.
+23. DECIDED. Colombia pins show the pin only. They show no address text. A pin still needs `precision` `address`. An actor with no street address stays location unknown.
+24. DECIDED. Use a LinkedIn company page link only when the company's own site links to it. Do not scrape LinkedIn. Do not log in. Do not use the box browser. Do not use a crawler. Anything more needs its own GO. Voice, 22 Oct 09:59 COT. Confirmed 22 Oct 10:03 COT.
     - Never log in to LinkedIn.
     - Never use LinkedIn in the box browser.
     - Never use LinkedIn in a headless crawler.
-    - The allowed data is the LinkedIn URL as found on the site.
-    - Store the date with that URL.
-    - Store the citing page with that URL.
-    - Any extra LinkedIn data needs a sanctioned route.
-    - That extra data also needs a separate GO.
+    - Store the URL, the date, and the citing page.
     - Use company pages only.
     - Do not use a person profile.
-25. Data from CTH's own cohorts (CLP, the Academy, and other CTH programmes) is proprietary CTH data. CTH may publish it on its own website. The public-source rule does not apply to it. The verbatim-quote rule does not apply to it. No quote is needed. No outside source or location is needed beyond CTH's own publication. Decided (Gideon 22 Oct 10:02 COT).
-26. Confirm that secrets stay in Infisical.
+25. DECIDED. CTH cohort data is exempt from the verbatim-quote rule. The cohorts are CLP, the Academy, and other CTH programmes. The privacy ban still applies. Money or a pilot needs the startup's consent. Only facts from CTH-run programmes count. Voice, 22 Oct 10:02 COT. Confirmed 22 Oct 10:03 COT.
+26. DECIDED. Secrets live in Infisical.
+27. DECIDED. Make the Drive copy after these decisions settle. Do not make that copy in this plan.
+28. DECIDED. Themes are Nature Challenges. They cover environment, climate, and nature only. Social and governance are out of scope.
+29. DECIDED. Verticals are sectors. A sector connects to a theme. Logistics connects to clean air.
+30. DECIDED. Nature Challenges align with the GRI Topic Standards vocabulary. They stay curated.
+31. DECIDED. Bosque Seco is a project. Bosque Seco is not a theme.
+32. DECIDED. PR 102 stays plan-only until Gideon gives GO.
 
 Open question. Do not decide it here. The ecosystem card also shows a two-letter mark, a role, and a LinkedIn link. Gideon says which of those stay.
 
@@ -839,4 +853,9 @@ Open question. Do not decide it here. The ecosystem card also shows a two-letter
 7. When a company's own public website links to its LinkedIn company page, record that link. Use that link. Do not scrape LinkedIn directly. Do not scrape LinkedIn broadly. Follow only a LinkedIn link that appears on the company's public site. Decided (Gideon 22 Oct), see constraint. Voice, 22 Oct 09:59 COT. Never log in to LinkedIn. Never use LinkedIn in the box browser. Never use LinkedIn in a headless crawler. The allowed data is the LinkedIn URL as found on the site, the date, and the citing page. Any extra LinkedIn data needs a sanctioned route and a separate GO. Use company pages only. Do not use a person profile.
 8. Keep secrets in Infisical. The host name `secrets.cleantechhub.net` is the secrets endpoint. Do not copy a secret into git, into the Caddy file, or into this plan.
 9. A `public_quote` relation needs a source that names both actors and the relation, plus a verbatim quote. A `cth_cohort` relation is exempt. Decided (Gideon 22 Oct 10:02 COT). The source is the CTH page that publishes the fact. No quote is needed. No outside source is needed. Proposal: `evidence_type` is `public_quote` or `cth_cohort`. `verify_relation_quotes.py` skips the quote check for `cth_cohort`.
-10. A CSO-facing page must not show demo activity or an unsourced capital figure.
+10. A CSO-facing page must not show the synthetic demo activity feed. Remove the `+10 Millons` banner from the apex site. Take a backup. Keep a rollback. The other five headings stay.
+11. Do not send section 8. The Datalab contract is on hold.
+12. PR 102 stays plan-only until Gideon gives GO.
+13. A Colombia pin shows the pin only. It shows no address text.
+14. Themes are Nature Challenges. Social and governance are out of scope. Bosque Seco is a project, not a theme.
+15. Make the Drive copy after section 15 settles. Do not make that copy in this plan.
