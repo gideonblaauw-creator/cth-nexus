@@ -2,7 +2,7 @@
 
 **Date:** 2026-10-22
 
-**Status:** Plan only. Section 15 is decided. Do not implement until Gideon gives GO.
+**Status:** Plan only. Section 15 is decided. Do not implement map, app, or deploy work until Gideon gives a broader GO. **Shortlist GO (voice, 22 Oct 16:47 COT):** add round 1 mining and logistics names from the sustainability report mapping only. No map changes in this edit.
 
 **Mark on GTM inputs:** The company list came from the GTM Strategy desk. Round 1 verticals are decided in section 15. The demo format and the personas stay a GTM hypothesis. The source note is plan `bc-f31a71df`. This file stores company names only.
 
@@ -208,6 +208,25 @@ The desk label `Food and consumer` is the round 1 vertical agribusiness and food
 Wave 2 is the next set of Datalab profiles. Keep every Wave 2 name off the first map wave.
 
 Wave 2 names: Banco de Bogota, Amarilo, Colsubsidio, Fedepalma, Sodimac, Avianca, Aris Mining, Bavaria, Banco de Occidente, Comfama, Cafam, Claro, GeoPark.
+
+### 5.4.1 Round 1 mining and logistics shortlist (mapping picks)
+
+**Scope:** Shortlist only. Do not add these rows to the ecosystem map in this edit.
+
+**Sustainability report mapping inventory:** On 22 Oct 2026 this inventory is **not** in `ops/`, `docs/`, or `data/` in the `cth-nexus` repo. The picks below come from the Datalab Colombia corporate sustainability report mapping (October 2026 harvest: one profile per company with a published report URL). Per-company mapping row: `https://datalab.cleantechhub.net/app/js/co-profile-<slug>.js`. A git copy under `ops/datalab/` is still pending. Section 15 item 27 covers the Drive copy. Do not use Wave 2 names to fill these sectors.
+
+**Selection rules applied:** Section 5.3 (large Colombian corporate with a published GRI-style sustainability report). Section 15 item 4 (gaps come only from that company's own published sustainability report). Section 5.4 (Wave 1 uses warm contacts and existing Datalab profiles where the desk already named the company). Promigas and TGI stay on the desk Wave 1 list as energy and utilities. They are not duplicated here.
+
+| Company | Round 1 vertical | Report year | Published sustainability report URL | Mapping |
+| --- | --- | ---: | --- | --- |
+| Cerrejón | Mining | 2024 | https://www.cerrejon.com/.rest/api/v1/documents/496364a49081ce531e85660822110e0a/informe-sostenibilidad-2024.pdf | Picked from mapping (`co-profile-cerrejon.js`) |
+| Cerro Matoso S.A. | Mining | 2024 | https://cerromatoso.com.co/wp-content/uploads/2025/07/REPORTE-DE-SOSTENIBILIDAD-2024-COMPLETO.pdf | Picked from mapping (`co-profile-cerro-matoso-s-a.js`) |
+| Mineros S.A. | Mining | 2023 | https://files.tryflowdrive.com/348/file-5c22ab22-c842-49aa-bd65-e9caace9cd3a_2023_Memoria_de_Sostenibilidad_Mineros-VF.pdf | Picked from mapping (`co-profile-mineros-s-a.js`) |
+| Acerías Paz del Río S.A. | Mining | 2023 | https://www.pazdelrio.com.co/wp-content/uploads/2024/05/informe_sostenibilidad_2023.pdf | Picked from mapping (`co-profile-acerias-paz-del-rio-s-a.js`) |
+| Cenit Transporte y Logística de Hidrocarburos S.A.S. | Logistics | 2024 | https://cenit-transporte.com/wp-content/uploads/2025/10/INFORME%20SOSTENIBILIDAD%20CENIT%202024.pdf | Picked from mapping (`co-profile-cenit-transporte-y-logistica-de-hidrocarburos-s-a-s.js`) |
+| Oleoducto de Colombia S.A. | Logistics | 2024 | https://www.oleoductodecolombia.com/wp-content/uploads/2025/04/NS_Informe_Integrado_2024_26_marzo_compressed-1.pdf | Picked from mapping (`co-profile-oleoducto-de-colombia-s-a.js`) |
+| Oleoducto de los Llanos Orientales S.A. | Logistics | 2024 | https://www.odl.com.co/wp-content/uploads/2025/05/RIGS_ODL_2024_2504.pdf | Picked from mapping (`co-profile-oleoducto-de-los-llanos-orientales-s-a.js`) |
+| Palermo Sociedad Portuaria | Logistics | 2024 | https://palermosociedadportuaria.com/wp-content/uploads/2026/01/Informe-de-sostenibilidad-V6.pdf | Picked from mapping (`co-profile-palermo-sociedad-portuaria.js`) |
 
 ## 6. Questions for the GTM Strategy desk
 
@@ -472,8 +491,8 @@ Round 1 batches:
 
 1. Energy and utilities: ISA, GEB (via TGI), Enel, Celsia, EPM, Promigas.
 2. Agribusiness and food: Alqueria, Nutresa, Juan Valdez, Alpina.
-3. Mining: Wave 1 has no mining name. Do not add a Wave 2 name.
-4. Logistics: Wave 1 has no logistics name. Do not add a Wave 2 name.
+3. Mining: desk Wave 1 has no mining name. Round 1 shortlist names are in section 5.4.1 (mapping picks). Do not add a Wave 2 name.
+4. Logistics: desk Wave 1 has no logistics name. Round 1 shortlist names are in section 5.4.1 (mapping picks). Do not add a Wave 2 name.
 
 These names stay on the Wave 1 list. They are out of round 1.
 
@@ -839,6 +858,7 @@ Gideon settled every item below. The voice note is 22 Oct 10:03 COT. Each item i
 30. DECIDED. Nature Challenges align with the GRI Topic Standards vocabulary. They stay curated.
 31. DECIDED. Bosque Seco is a project. Bosque Seco is not a theme.
 32. DECIDED. PR 102 stays plan-only until Gideon gives GO.
+33. DECIDED. Shortlist GO (voice, 22 Oct 16:47 COT). Add section 5.4.1 mining and logistics names from the sustainability report mapping only. No map changes in that edit.
 
 Open question. Do not decide it here. The ecosystem card also shows a two-letter mark, a role, and a LinkedIn link. Gideon says which of those stay.
 
