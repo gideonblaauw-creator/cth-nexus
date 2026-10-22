@@ -13,6 +13,16 @@ SCHEMA_PATH = ROOT / "ops" / "datalab" / "teaser.schema.json"
 VALID_FIXTURE = ROOT / "ops" / "datalab" / "fixtures" / "teaser-fenoge-ipse.valid.json"
 INVALID_FIXTURE = ROOT / "ops" / "datalab" / "fixtures" / "teaser-too-many-matches.invalid.json"
 CELSIA_TEASER = ROOT / "docs" / "teasers" / "celsia" / "celsia-teaser.json"
+WAVE1_BANKING_SLUGS = (
+    "bancolombia",
+    "davivienda",
+    "sura",
+    "bbva",
+    "banco-popular",
+)
+WAVE1_BANKING_TEASERS = tuple(
+    ROOT / "docs" / "teasers" / slug / f"{slug}-teaser.json" for slug in WAVE1_BANKING_SLUGS
+)
 
 FENOGE_FAQ = "https://fenoge.gov.co/preguntas-frecuentes/"
 FENOGE_IPSE_QUOTE = (
@@ -86,4 +96,14 @@ def test_schema_rejects_gap_with_more_than_five_matches(teaser_schema: dict):
 )
 def test_celsia_wave1_teaser_passes_schema(teaser_schema: dict):
     doc = json.loads(CELSIA_TEASER.read_text(encoding="utf-8"))
+    _validate(doc, teaser_schema)
+
+
+@pytest.mark.parametrize(
+    "teaser_path",
+    WAVE1_BANKING_TEASERS,
+    ids=lambda p: p.parent.name,
+)
+def test_wave1_banking_teaser_passes_schema(teaser_path: Path, teaser_schema: dict):
+    doc = json.loads(teaser_path.read_text(encoding="utf-8"))
     _validate(doc, teaser_schema)

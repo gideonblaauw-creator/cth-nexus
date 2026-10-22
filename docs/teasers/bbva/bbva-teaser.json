@@ -1,0 +1,22 @@
+{
+  "contract_status": "to agree with the Datalab desk",
+  "gtm_status": "GTM hypothesis",
+  "draft": true,
+  "accessed_on": "2026-10-22",
+  "scope": "Environment, climate and nature only. Social and governance topics in the same report are out of scope.",
+  "status": "no_report",
+  "company": {
+    "name": "BBVA",
+    "legal_name": "Banco Bilbao Vizcaya Argentaria Colombia S.A.",
+    "country": "Colombia",
+    "persona": "cso",
+    "working_sector": "Banking and insurance",
+    "theme_id": "banking_insurance",
+    "wave": 1,
+    "profile_source_url": "https://www.bbva.com.co/personas/atencion-al-inversionista/responsabilidad-corporativa.html",
+    "profile_quote": "Informe anual 2024 listed on BBVA Colombia corporate responsibility page (PDF fetch returned HTTP 403 in the agent environment; gap extraction deferred).",
+    "report_listing_url": "https://www.bbva.com.co/personas/atencion-al-inversionista/responsabilidad-corporativa.html",
+    "gri_report_url": "https://www.bbva.com.co/content/dam/public-web/colombia/documents/home/body/inversionista/espanol/gobierno-corporativo/asamblea-accionista/2025/BBVA-Informe-no-financiero-2024.pdf"
+  },
+  "gaps": []
+}

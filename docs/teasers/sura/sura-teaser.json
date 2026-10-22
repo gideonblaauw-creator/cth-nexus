@@ -1,0 +1,256 @@
+{
+  "contract_status": "to agree with the Datalab desk",
+  "gtm_status": "GTM hypothesis",
+  "draft": true,
+  "accessed_on": "2026-10-22",
+  "scope": "Environment, climate and nature only. Social and governance topics in the same report are out of scope.",
+  "csoReady": true,
+  "company": {
+    "name": "SURA",
+    "legal_name": "Grupo de Inversiones Suramericana S.A. (Grupo SURA)",
+    "country": "Colombia",
+    "persona": "cso",
+    "working_sector": "Banking and insurance",
+    "theme_id": "banking_insurance",
+    "wave": 1,
+    "profile_source_url": "https://www.gruposura.com/wp-content/uploads/2025/03/sura-grupo-informe-anual-web-2024.pdf#page=2",
+    "report_listing_url": "https://www.gruposura.com/relacion-con-inversionistas/informes/informe-anual-2024/",
+    "profile_quote": "Como en anteriores reportes anuales de la Compañía, este documento toma como referencia los indicadores definidos por Global Reporting Initiative (GRI) para la elaboración de informes, los indicadores SASB para los sectores asegurador y gestión de inversiones, y el marco TCFD.",
+    "profile_page_pdf": 2,
+    "bvc_listed": true,
+    "gri_report_url": "https://www.gruposura.com/wp-content/uploads/2025/03/sura-grupo-informe-anual-web-2024.pdf"
+  },
+  "gaps": [
+    {
+      "gap_id": "sura-financed-targets-planned",
+      "rank": 1,
+      "title": "Financed-emissions reduction targets are still to be defined internally",
+      "theme_id": "banking_insurance",
+      "journey_step": "policy",
+      "startup_stage": "Pre-Seed",
+      "statement": "The 2025 sustainable-finance plan says Grupo SURA will define internal targets and strategies to reduce financed emissions, with a horizon to set them for each local company across eight countries.",
+      "evidence_url": "https://www.gruposura.com/wp-content/uploads/2025/03/sura-grupo-informe-anual-web-2024.pdf#page=38",
+      "evidence_quote": "Definir internamente metas de reducción de emisiones financiadas y estrategias para su cumplimiento, con el horizonte de que puedan tenerse para cada Compañía local en los 8 países donde tiene presencia el Grupo Empresarial SURA.",
+      "report_page_pdf": 38,
+      "shortfall": false,
+      "matches": [
+        {
+          "match_id": "sura-g1-carbonbox",
+          "actor_kind": "startup",
+          "name": "CarbonBox",
+          "claim_type": "theme_match",
+          "relation_type": "theme_match",
+          "public_source_url": "https://carbonbox.app",
+          "public_quote": "CarbonBox mide los alcances 1, 2 y 3 con trazabilidad completa y metodología auditable, para que la cadena de valor deje de ser una caja negra.",
+          "accessed_on": "2026-10-22",
+          "actor_ref": "portfolio:CARBONBOX",
+          "startup_stage": "Pre-Seed",
+          "why": "The page names scopes 1–3 inventory work that banks need for PCAF financed emissions."
+        },
+        {
+          "match_id": "sura-g1-cneutral",
+          "actor_kind": "startup",
+          "name": "C-neutral",
+          "claim_type": "theme_match",
+          "relation_type": "theme_match",
+          "public_source_url": "https://c-neutral.co",
+          "public_quote": "En C-neutral brindamos consultoría integral hacia la ruta de descarbonización, apoyando a las empresas a identificar y cuantificar los aspectos e impactos ambientales potenciales a partir de la utilización de recursos y las emisiones producidas asociadas a su actividad económica.",
+          "accessed_on": "2026-10-22",
+          "actor_ref": "portfolio:C-NEUTRAL SAS",
+          "startup_stage": "Pre-Series A",
+          "why": "The page names emission quantification on a decarbonization path for corporate clients."
+        },
+        {
+          "match_id": "sura-g1-sincarbono",
+          "actor_kind": "startup",
+          "name": "Sincarbono",
+          "claim_type": "theme_match",
+          "relation_type": "theme_match",
+          "public_source_url": "https://sincarbono.io",
+          "public_quote": "Plataforma SaaS B2B que permite a empresas latinoamericanas medir, gestionar y reducir sus huellas de carbono corporativas bajo la metodología del Protocolo GHG en los alcances 1, 2 y 3.",
+          "accessed_on": "2026-10-22",
+          "actor_ref": "portfolio:SINCARBONO",
+          "startup_stage": "Seed",
+          "why": "The page names GHG Protocol scopes 1–3 measurement for Latin American companies."
+        }
+      ]
+    },
+    {
+      "gap_id": "sura-waci-intensity-rise",
+      "rank": 2,
+      "title": "Weighted carbon intensity (WACI) rose between 2023 and 2024",
+      "theme_id": "banking_insurance",
+      "journey_step": "data",
+      "startup_stage": "Seed",
+      "statement": "Assurance annex reports consolidated financed emissions of 2,437,855 tCO2e in 2024 with WACI 941.9, up from 1,987,604 tCO2e and WACI 803 in 2023 for the corporate group.",
+      "evidence_url": "https://www.gruposura.com/wp-content/uploads/2025/03/sura-grupo-informe-anual-web-2024.pdf#page=96",
+      "evidence_quote": "Emisiones Financiadas Consolidado Grupo Empresarial 2024: 2,437,855 TonCo2Eq WACI 2024 (intensidad de carbono media ponderadaAlcance 1 y 2): 941.9 Emisiones Financiadas Consolidado Grupo Empresarial 2023: 1,987,604 TonCo2Eq WACI 2023 (intensidad de carbono media ponderada – Alcance 1 y 2): 803",
+      "report_page_pdf": 96,
+      "shortfall": false,
+      "matches": [
+        {
+          "match_id": "sura-g2-carbonbox",
+          "actor_kind": "startup",
+          "name": "CarbonBox",
+          "claim_type": "theme_match",
+          "relation_type": "theme_match",
+          "public_source_url": "https://carbonbox.app",
+          "public_quote": "CarbonBox mide los alcances 1, 2 y 3 con trazabilidad completa y metodología auditable, para que la cadena de valor deje de ser una caja negra.",
+          "accessed_on": "2026-10-22",
+          "actor_ref": "portfolio:CARBONBOX",
+          "startup_stage": "Pre-Seed",
+          "why": "The page names scopes 1–3 inventory work that banks need for PCAF financed emissions."
+        },
+        {
+          "match_id": "sura-g2-cneutral",
+          "actor_kind": "startup",
+          "name": "C-neutral",
+          "claim_type": "theme_match",
+          "relation_type": "theme_match",
+          "public_source_url": "https://c-neutral.co",
+          "public_quote": "En C-neutral brindamos consultoría integral hacia la ruta de descarbonización, apoyando a las empresas a identificar y cuantificar los aspectos e impactos ambientales potenciales a partir de la utilización de recursos y las emisiones producidas asociadas a su actividad económica.",
+          "accessed_on": "2026-10-22",
+          "actor_ref": "portfolio:C-NEUTRAL SAS",
+          "startup_stage": "Pre-Series A",
+          "why": "The page names emission quantification on a decarbonization path for corporate clients."
+        },
+        {
+          "match_id": "sura-g2-sincarbono",
+          "actor_kind": "startup",
+          "name": "Sincarbono",
+          "claim_type": "theme_match",
+          "relation_type": "theme_match",
+          "public_source_url": "https://sincarbono.io",
+          "public_quote": "Plataforma SaaS B2B que permite a empresas latinoamericanas medir, gestionar y reducir sus huellas de carbono corporativas bajo la metodología del Protocolo GHG en los alcances 1, 2 y 3.",
+          "accessed_on": "2026-10-22",
+          "actor_ref": "portfolio:SINCARBONO",
+          "startup_stage": "Seed",
+          "why": "The page names GHG Protocol scopes 1–3 measurement for Latin American companies."
+        }
+      ]
+    },
+    {
+      "gap_id": "sura-sovereign-exclusion",
+      "rank": 3,
+      "title": "Financed-emissions totals exclude sovereign bonds",
+      "theme_id": "banking_insurance",
+      "journey_step": "data",
+      "startup_stage": "Pre-Seed",
+      "statement": "The assured financed-emissions indicator for 2023 and 2024 explicitly excludes emissions from sovereign bonds, leaving part of the fixed-income portfolio outside the disclosed footprint.",
+      "evidence_url": "https://www.gruposura.com/wp-content/uploads/2025/03/sura-grupo-informe-anual-web-2024.pdf#page=96",
+      "evidence_quote": "Las emisiones financiadas para ambos años no incluye emisiones sobre Bonos soberanos.",
+      "report_page_pdf": 96,
+      "shortfall": true,
+      "matches": [
+        {
+          "match_id": "sura-g3-cneutral",
+          "actor_kind": "startup",
+          "name": "C-neutral",
+          "claim_type": "theme_match",
+          "relation_type": "theme_match",
+          "public_source_url": "https://c-neutral.co",
+          "public_quote": "En C-neutral brindamos consultoría integral hacia la ruta de descarbonización, apoyando a las empresas a identificar y cuantificar los aspectos e impactos ambientales potenciales a partir de la utilización de recursos y las emisiones producidas asociadas a su actividad económica.",
+          "accessed_on": "2026-10-22",
+          "actor_ref": "portfolio:C-NEUTRAL SAS",
+          "startup_stage": "Pre-Series A",
+          "why": "Consulting on corporate inventories supports issuers excluded from sovereign lines."
+        },
+        {
+          "match_id": "sura-g3-kimsa",
+          "actor_kind": "startup",
+          "name": "KIMSA",
+          "claim_type": "theme_match",
+          "relation_type": "theme_match",
+          "public_source_url": "https://kimsa.co",
+          "public_quote": "Somos KIMSA una empresa de consultoría en gestión e implementación de acciones en cambio climático.",
+          "accessed_on": "2026-10-22",
+          "actor_ref": "portfolio:CARBON BOX",
+          "startup_stage": "Seed",
+          "why": "Climate implementation consulting helps corporate issuers in the investment book."
+        }
+      ]
+    },
+    {
+      "gap_id": "sura-transition-risk-quant",
+      "rank": 4,
+      "title": "Transition-risk quantification at portfolio level remains a 2025 focus",
+      "theme_id": "banking_insurance",
+      "journey_step": "data",
+      "startup_stage": "Seed",
+      "statement": "Climate plans for 2025 call for strengthening transition-risk analysis and quantifications, noting methodological challenges when aggregating the Grupo SURA investment portfolio.",
+      "evidence_url": "https://www.gruposura.com/wp-content/uploads/2025/03/sura-grupo-informe-anual-web-2024.pdf#page=77",
+      "evidence_quote": "Fortalecer el análisis de los riesgos de transición, especialmente, las cuantificaciones, dado que existen retos metodológicos al considerarlos desde una visión agregada del portafolio de Grupo SURA.",
+      "report_page_pdf": 77,
+      "shortfall": false,
+      "matches": [
+        {
+          "match_id": "sura-g4-carbonbox",
+          "actor_kind": "startup",
+          "name": "CarbonBox",
+          "claim_type": "theme_match",
+          "relation_type": "theme_match",
+          "public_source_url": "https://carbonbox.app",
+          "public_quote": "CarbonBox mide los alcances 1, 2 y 3 con trazabilidad completa y metodología auditable, para que la cadena de valor deje de ser una caja negra.",
+          "accessed_on": "2026-10-22",
+          "actor_ref": "portfolio:CARBONBOX",
+          "startup_stage": "Pre-Seed",
+          "why": "The page names scopes 1–3 inventory work that banks need for PCAF financed emissions."
+        },
+        {
+          "match_id": "sura-g4-cneutral",
+          "actor_kind": "startup",
+          "name": "C-neutral",
+          "claim_type": "theme_match",
+          "relation_type": "theme_match",
+          "public_source_url": "https://c-neutral.co",
+          "public_quote": "En C-neutral brindamos consultoría integral hacia la ruta de descarbonización, apoyando a las empresas a identificar y cuantificar los aspectos e impactos ambientales potenciales a partir de la utilización de recursos y las emisiones producidas asociadas a su actividad económica.",
+          "accessed_on": "2026-10-22",
+          "actor_ref": "portfolio:C-NEUTRAL SAS",
+          "startup_stage": "Pre-Series A",
+          "why": "The page names emission quantification on a decarbonization path for corporate clients."
+        },
+        {
+          "match_id": "sura-g4-sincarbono",
+          "actor_kind": "startup",
+          "name": "Sincarbono",
+          "claim_type": "theme_match",
+          "relation_type": "theme_match",
+          "public_source_url": "https://sincarbono.io",
+          "public_quote": "Plataforma SaaS B2B que permite a empresas latinoamericanas medir, gestionar y reducir sus huellas de carbono corporativas bajo la metodología del Protocolo GHG en los alcances 1, 2 y 3.",
+          "accessed_on": "2026-10-22",
+          "actor_ref": "portfolio:SINCARBONO",
+          "startup_stage": "Seed",
+          "why": "The page names GHG Protocol scopes 1–3 measurement for Latin American companies."
+        }
+      ]
+    },
+    {
+      "gap_id": "sura-hurricane-cat-loss",
+      "rank": 5,
+      "title": "Low-probability hurricane scenario still shows material insured loss",
+      "theme_id": "banking_insurance",
+      "journey_step": "challenge",
+      "startup_stage": "Pre-Seed",
+      "statement": "Physical climate modelling for Suramericana shows a 250-year hurricane could cause COP 173,663 million in net insured losses after reinsurance, highlighting residual catastrophe risk in the insurance book.",
+      "evidence_url": "https://www.gruposura.com/wp-content/uploads/2025/03/sura-grupo-informe-anual-web-2024.pdf#page=74",
+      "evidence_quote": "Se tiene identificado que la ocurrencia de un huracán con periodo de retorno de 250 años podría representar pérdidas para esta filial del orden de COP 173,663 millones.",
+      "report_page_pdf": 74,
+      "shortfall": true,
+      "matches": [
+        {
+          "match_id": "sura-g5-fluvia",
+          "actor_kind": "startup",
+          "name": "Fluvia",
+          "claim_type": "theme_match",
+          "relation_type": "theme_match",
+          "public_source_url": "https://fluvia.co",
+          "public_quote": "En Fluvia utilizamos trazadores para seguir el recorrido del agua y entender cómo se mueve, dónde se pierde, cuánto tarda en llegar a un punto y cómo transporta sustancias dentro de un sistema, entre otras aplicaciones.",
+          "accessed_on": "2026-10-22",
+          "actor_ref": "portfolio:FLUVIA",
+          "startup_stage": "Pre-Seed",
+          "why": "Flood and water-movement tracing supports physical-risk assessment for insured assets."
+        }
+      ]
+    }
+  ]
+}
