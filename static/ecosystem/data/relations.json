@@ -557,11 +557,7 @@
   "source": "pe-sunass",
   "target": "challenge:PE-2-agua",
   "type": "works_on_challenge",
-  "verified": true,
-  "source_url": "https://www.gob.pe/sunass",
-  "source_title": "SUNASS — Gob.pe",
-  "evidence": "Superintendencia Nacional de Servicios de Saneamiento - SUNASS",
-  "date_accessed": "2026-10-21"
+  "verified": false
  },
  {
   "source": "pe-senamhi",

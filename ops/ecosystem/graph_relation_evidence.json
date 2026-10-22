@@ -368,14 +368,6 @@
    "source_url": "https://www.unasam.edu.pe/noticia/y0zRtTQ1BgA=",
    "source_title": "UNASAM — startup Uqhu",
    "evidence": "La startup que presentaron, llamada \"Uqhu\", surgió de la investigación en el tratamiento de aguas residuales domesticas (ARD) mediante humedales construidos de tipo francés"
-  },
-  {
-   "source": "pe-sunass",
-   "target": "challenge:PE-2-agua",
-   "type": "works_on_challenge",
-   "source_url": "https://www.gob.pe/sunass",
-   "source_title": "SUNASS — Gob.pe",
-   "evidence": "Superintendencia Nacional de Servicios de Saneamiento - SUNASS"
   }
  ]
 }

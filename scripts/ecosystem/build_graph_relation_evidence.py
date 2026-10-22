@@ -543,15 +543,6 @@ RELATIONS: list[dict[str, str]] = [
             "tratamiento de aguas residuales domesticas (ARD) mediante humedales construidos de tipo francés"
         ),
     },
-    {
-        "source": "pe-sunass",
-        "target": "challenge:PE-2-agua",
-        "type": "works_on_challenge",
-        "source_url": "https://www.gob.pe/sunass",
-        "source_title": "SUNASS — Gob.pe",
-        "evidence": "Superintendencia Nacional de Servicios de Saneamiento - SUNASS",
-    },
-
 ]
 
 

@@ -34,6 +34,15 @@ HIDDEN_REASONS: dict[tuple[str, str, str], str] = {
         "Source https://profonanpe.org.pe/ is unreachable from this host "
         "(connection times out). Hidden until the quote can be re-verified."
     ),
+    (
+        "pe-sunass",
+        "challenge:PE-2-agua",
+        "works_on_challenge",
+    ): (
+        "Live check 2026-10-22: the catalog quote is only the SUNASS name "
+        "(\"Superintendencia Nacional de Servicios de Saneamiento - SUNASS\") "
+        "and does not source the Agua & cuencas challenge."
+    ),
 }
 
 
