@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cleantechhub.net/ops/ecosystem/graph_relation_evidence.schema.json",
+  "title": "Graph relation evidence",
+  "description": "Catalog row for a public ecosystem graph edge. Gideon decision 25 (22 Oct 2026): CTH cohort records are proprietary and may use evidence_type cth_cohort to skip the live verbatim-quote fetch, only when the programme is CTH-run, the row has no personal email, phone, or home address, and any money or pilot outcome has consent_ref.",
+  "type": "object",
+  "required": ["source", "target", "type", "source_url", "evidence"],
+  "properties": {
+    "source": { "type": "string", "minLength": 1 },
+    "target": { "type": "string", "minLength": 1 },
+    "type": { "type": "string", "minLength": 1 },
+    "source_url": { "type": "string", "minLength": 1 },
+    "source_title": { "type": "string" },
+    "evidence": { "type": "string" },
+    "evidence_type": {
+      "type": "string",
+      "enum": ["public_quote", "cth_cohort"],
+      "default": "public_quote",
+      "description": "public_quote (default): evidence must be a verbatim quote on source_url. cth_cohort: proprietary CleantechHUB cohort record, exempt from that live fetch when the guardrails in verify_relation_quotes.py pass."
+    },
+    "programme": {
+      "type": "string",
+      "description": "Programme id. For cth_cohort, required unless source or target is itself a CTH-run programme listed in cth_run_programmes.json."
+    },
+    "consent_ref": {
+      "type": "string",
+      "description": "Consent reference. Required on a cth_cohort row when it records money or a pilot outcome."
+    },
+    "amount": {},
+    "money": {},
+    "pilot": {},
+    "pilot_outcome": {},
+    "outcome": { "type": "string" }
+  },
+  "additionalProperties": true
+}

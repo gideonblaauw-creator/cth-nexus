@@ -2,7 +2,7 @@
 
 Generated: 2026-10-22
 
-Public graph edges must appear in `ops/ecosystem/graph_relation_evidence.json` with a **verbatim** quote present on `source_url` (checked by `scripts/ecosystem/verify_relation_quotes.py`). Self-loop edges are removed from the bundle rather than hidden.
+Public graph edges must appear in `ops/ecosystem/graph_relation_evidence.json`. `evidence_type` defaults to `public_quote`: a **verbatim** quote on `source_url` (checked by `scripts/ecosystem/verify_relation_quotes.py`). `cth_cohort` rows skip that live fetch only for a CTH-run programme, with no personal email, phone, or home address, and with `consent_ref` when the row records money or a pilot outcome. Self-loop edges are removed from the bundle rather than hidden.
 
 | Metric | Count |
 |--------|------:|

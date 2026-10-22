@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "decision": "Gideon decision 25 (22 Oct 2026)",
+  "note": "Programmes CleantechHUB runs. A cth_cohort evidence row may skip the live verbatim-quote fetch only when its programme id is in this list (matched case-insensitively). Add an id here before using it on a cohort row.",
+  "programmes": [
+    {"id": "pe-cleantechhub", "name": "CleantechHUB"},
+    {"id": "cth-academy", "name": "CTH Academy"},
+    {"id": "cth-climate-launchpad", "name": "ClimateLaunchpad Colombia"},
+    {"id": "cth-climaccelerator", "name": "ClimAccelerator"}
+  ]
+}

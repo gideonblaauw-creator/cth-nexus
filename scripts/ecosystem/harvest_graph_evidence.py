@@ -146,6 +146,7 @@ def main() -> None:
                 "source_url": url,
                 "source_title": (csv_row or {}).get("source_title") or url,
                 "evidence": quote,
+                "evidence_type": "public_quote",
             }
         )
     OUT.write_text(
