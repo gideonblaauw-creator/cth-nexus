@@ -44,7 +44,13 @@ WAVE1 = [
             "description": "Grupo Energía Bogotá (GEB) agrupa negocios de transmisión, gas natural y telecomunicaciones en Colombia y Latinoamérica.",
         },
         "linkedin": "https://www.linkedin.com/company/grupo-energia-bogota",
-        "geo_seed": {"precision": "country", "country": "Colombia"},
+        "geo_seed": {
+            "precision": "address",
+            "address": "Carrera 9 No. 73-44, piso 6",
+            "city": "Bogotá",
+            "country": "Colombia",
+            "source_url": "https://www.grupoenergiabogota.com",
+        },
     },
     {
         "id": "co-enel-colombia",
@@ -93,7 +99,13 @@ WAVE1 = [
             "ecosystem_role": "Empresa de servicios públicos multiutilities.",
             "description": "Empresas Públicas de Medellín (EPM) presta energía, agua, gas y telecomunicaciones en Colombia.",
         },
-        "geo_seed": {"precision": "country", "country": "Colombia"},
+        "geo_seed": {
+            "precision": "address",
+            "address": "Carrera 58 No. 42-125",
+            "city": "Medellín",
+            "country": "Colombia",
+            "source_url": "https://www.epm.com.co",
+        },
     },
     {
         "id": "co-promigas",

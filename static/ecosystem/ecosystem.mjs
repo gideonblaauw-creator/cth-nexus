@@ -806,14 +806,45 @@ function updateMapLayers(scene = null) {
         map.getCanvas().style.cursor = 'pointer';
         const id = e.features?.[0]?.properties?.id;
         const actor = byId.get(id);
-        if (!actor) return;
-        const lngLat = e.features[0].geometry.coordinates;
-        showPinTooltip(actor, lngLat);
+        if (actor) {
+          showPinTooltip(actor, e.features[0].geometry.coordinates);
+        }
       });
       map.on('mouseleave', 'pins', () => {
         map.getCanvas().style.cursor = '';
         hidePinTooltip();
       });
+      map.on('mousemove', (e) => {
+        if (viewMode !== 'explore') return;
+        const features = map.queryRenderedFeatures(e.point, { layers: ['pins'] });
+        if (!features.length) return;
+        const id = features[0].properties?.id;
+        const actor = byId.get(id);
+        if (actor) {
+          showPinTooltip(actor, features[0].geometry.coordinates);
+        }
+      });
+      if (!map.__ecoCanvasPinHover) {
+        map.__ecoCanvasPinHover = true;
+        const onCanvasMove = (evt) => {
+          if (viewMode !== 'explore') return;
+          const rect = map.getCanvas().getBoundingClientRect();
+          const x = evt.clientX - rect.left;
+          const y = evt.clientY - rect.top;
+          const features = map.queryRenderedFeatures([x, y], { layers: ['pins'] });
+          if (!features.length) {
+            hidePinTooltip();
+            return;
+          }
+          const id = features[0].properties?.id;
+          const actor = byId.get(id);
+          if (actor) {
+            showPinTooltip(actor, features[0].geometry.coordinates);
+          }
+        };
+        map.getCanvas().addEventListener('mousemove', onCanvasMove);
+        map.getCanvas().addEventListener('mouseleave', hidePinTooltip);
+      }
       map.addLayer({
         id: 'country-badges',
         type: 'symbol',
@@ -908,7 +939,8 @@ function crosslinkSection(title, items, tr) {
 
 function flyToActor(a) {
   if (!map || !hasPlottableGeo(a)) return;
-  const opts = { center: [a.geo.lng, a.geo.lat], zoom: Math.max(map.getZoom(), 5.4) };
+  // Past clusterMaxZoom (11) so selected pins are hoverable and unclustered.
+  const opts = { center: [a.geo.lng, a.geo.lat], zoom: Math.max(map.getZoom(), 12) };
   if (reducedMotion) map.jumpTo(opts);
   else map.flyTo({ ...opts, speed: 0.85, essential: true });
 }

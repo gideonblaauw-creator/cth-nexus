@@ -2670,17 +2670,17 @@
     "city": "Medellín",
     "country": "Colombia",
     "source_url": "https://www.isa.co/es/",
-    "lat": 6.197606,
-    "lng": -75.589768
+    "lat": 6.194528,
+    "lng": -75.577958
   },
   "co-geb-grupo-energia-bogota": {
-    "lat": null,
-    "lng": null,
-    "address": null,
-    "city": null,
+    "precision": "address",
+    "address": "Carrera 9 No. 73-44, piso 6",
+    "city": "Bogotá",
     "country": "Colombia",
-    "precision": "country",
-    "source_url": null
+    "source_url": "https://www.grupoenergiabogota.com",
+    "lat": 4.657366,
+    "lng": -74.055568
   },
   "co-enel-colombia": {
     "precision": "address",
@@ -2701,13 +2701,13 @@
     "lng": -75.574729
   },
   "co-epm": {
-    "lat": null,
-    "lng": null,
-    "address": null,
-    "city": null,
+    "precision": "address",
+    "address": "Carrera 58 No. 42-125",
+    "city": "Medellín",
     "country": "Colombia",
-    "precision": "country",
-    "source_url": null
+    "source_url": "https://www.epm.com.co",
+    "lat": 6.280276,
+    "lng": -75.567061
   },
   "co-promigas": {
     "precision": "address",
@@ -2742,8 +2742,8 @@
     "city": "Bogotá",
     "country": "Colombia",
     "source_url": "https://www.juanvaldez.com/contacto",
-    "lat": 4.675833,
-    "lng": -74.082236
+    "lat": 4.690382,
+    "lng": -74.097
   },
   "co-alpina": {
     "lat": null,
