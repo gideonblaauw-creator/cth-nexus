@@ -13,6 +13,13 @@ SCHEMA_PATH = ROOT / "ops" / "datalab" / "teaser.schema.json"
 VALID_FIXTURE = ROOT / "ops" / "datalab" / "fixtures" / "teaser-fenoge-ipse.valid.json"
 INVALID_FIXTURE = ROOT / "ops" / "datalab" / "fixtures" / "teaser-too-many-matches.invalid.json"
 CELSIA_TEASER = ROOT / "docs" / "teasers" / "celsia" / "celsia-teaser.json"
+WAVE1_MAKER_C_TEASERS = [
+    ROOT / "docs" / "teasers" / "ecopetrol" / "ecopetrol-teaser.json",
+    ROOT / "docs" / "teasers" / "parex" / "parex-teaser.json",
+    ROOT / "docs" / "teasers" / "terpel" / "terpel-teaser.json",
+    ROOT / "docs" / "teasers" / "alqueria" / "alqueria-teaser.json",
+    ROOT / "docs" / "teasers" / "nutresa" / "nutresa-teaser.json",
+]
 
 FENOGE_FAQ = "https://fenoge.gov.co/preguntas-frecuentes/"
 FENOGE_IPSE_QUOTE = (
@@ -86,4 +93,15 @@ def test_schema_rejects_gap_with_more_than_five_matches(teaser_schema: dict):
 )
 def test_celsia_wave1_teaser_passes_schema(teaser_schema: dict):
     doc = json.loads(CELSIA_TEASER.read_text(encoding="utf-8"))
+    _validate(doc, teaser_schema)
+
+
+@pytest.mark.parametrize(
+    "teaser_path",
+    WAVE1_MAKER_C_TEASERS,
+    ids=[p.parent.name for p in WAVE1_MAKER_C_TEASERS],
+)
+def test_wave1_maker_c_teaser_passes_schema(teaser_path: Path, teaser_schema: dict):
+    assert teaser_path.is_file(), f"missing teaser file: {teaser_path}"
+    doc = json.loads(teaser_path.read_text(encoding="utf-8"))
     _validate(doc, teaser_schema)
