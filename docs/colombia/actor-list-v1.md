@@ -13,18 +13,17 @@ Existing map actors (`co-*` ids) are included; **no** changes to `static/` data 
 | `international` | Internacional / International | 26 | 10 | — |
 | `ngo_foundation` | ONG / NGO | 23 | 10 | — |
 | `academia` | Academia / Academia | 23 | 10 | — |
-| `funder` | Fondo / Funder | 23 | 10 | — |
+| `funder` | Fondo / Funder | 23 | 9 | — |
 | `finance` | Finanzas / Finance | 14 | 10 | — |
 | `chamber` | Cámara / Chamber | 9 | 10 | — |
 | `policy` | Policy (instrument) / Policy | 8 | 10 | — |
-| `startup` | Startup / Startup | 6 | 10 | — |
 | `media` | Medios / Media | 4 | 10 | — |
 
-**Total actors:** 120 across 12 categories.
+**Total actors:** 109 across 11 categories (`startup` omitted — covered elsewhere in the map).
 
 ### Shortfalls
 
-None — every category has at least 10 verified entries.
+None for included categories. `startup` excluded by review; `funder` held at 9 rows (ANI entry removed — not a Colombian science-funding agency).
 
 ## UI label map (from `static/ecosystem/ecosystem.mjs`)
 
@@ -39,7 +38,6 @@ None — every category has at least 10 verified entries.
 | corporate | Corporativo | Corporate |
 | finance | Finanzas | Finance |
 | chamber | Cámara | Chamber |
-| startup | Startup | Startup |
 | media | Medios | Media |
 
 (Policy nodes in Peru use category `policy`; UI falls back to raw key.)
@@ -148,7 +146,7 @@ None — every category has at least 10 verified entries.
 
 ## funder — Fondo / Funder
 
-**Count:** 10 actors
+**Count:** 9 actors
 
 | Name | City | Website | Role (one line) | Source | Map id |
 | --- | --- | --- | --- | --- | --- |
@@ -161,7 +159,6 @@ None — every category has at least 10 verified entries.
 | Global Environment Facility (Colombia) | Washington | https://www.thegef.org/ | GEF grants for Amazon and climate projects in Colombia. | https://www.worldbank.org/en/programs/amazon-sustainable-landscapes-program/partners | — |
 | Green Climate Fund (Colombia portfolio) | Incheon | https://www.greenclimate.fund/ | GCF finance for Colombian landscape and resilience programs. | https://www.worldwildlife.org/our-work/funds/wwf-and-gcf/projects/heritage-colombia-heco/ | `co-gcf-green-climate-fund` |
 | Climate Investment Funds (Colombia) | Washington | https://www.climateinvestmentfunds.org/ | CIF programs supporting clean energy and climate resilience. | https://www.climateinvestmentfunds.org/ | `co-cif-climate-investment-funds` |
-| ANI – Agencia Nacional de Ciencia y Tecnología | Bogotá | https://minciencias.gov.co/convocatorias | Public R&D and innovation funding agency (under MinCiencias). | https://minciencias.gov.co/ | — |
 
 ## finance — Finanzas / Finance
 
@@ -213,23 +210,6 @@ None — every category has at least 10 verified entries.
 | Resolución UPME 203/2020 (autogeneración) | Bogotá | https://www1.upme.gov.co/ | Technical regulation for small-scale renewable self-generation. | https://www1.upme.gov.co/ | — |
 | Política Nacional de Gestión del Riesgo de Desastres | Bogotá | https://www.gestiondelriesgo.gov.co/ | Disaster risk policy linked to climate adaptation. | https://www.gestiondelriesgo.gov.co/ | — |
 | Plan Nacional de Adaptación al Cambio Climático (PNACC) | Bogotá | https://www.minambiente.gov.co/ | National adaptation planning instrument under MinAmbiente. | https://www.minambiente.gov.co/cambio-climatico-y-gestion-del-riesgo/sistema-nacional-de-cambio-climatico-sisclima/ | — |
-
-## startup — Startup / Startup
-
-**Count:** 10 actors
-
-| Name | City | Website | Role (one line) | Source | Map id |
-| --- | --- | --- | --- | --- | --- |
-| Ecoclic | Medellín | https://www.ecoclic.com.co/ | Climate-tech platforms for renewable energy, carbon and biodiversity assets. | https://www.ecoclic.com.co/ | — |
-| NanoFreeze | Bogotá | https://www.nanofreeze.com.co/ | Bio-nano cooling tech cutting refrigeration energy and emissions. | https://www.nanofreeze.com.co/ | — |
-| Eko Group H2O+ | Bogotá | https://www.ekogrouph2o.com/ | Rainwater harvesting and safe water systems for vulnerable communities. | https://www.ekogrouph2o.com/ | — |
-| ECOL-AIR | Medellín | https://ecolair.com.co/ | Air-capture and industrial emissions treatment as a service. | https://ecolair.com.co/ | — |
-| Eolo Motors | Bogotá | https://eolomotors.com/ | Electric urban mobility vehicles and conversions. | https://eolomotors.com/ | — |
-| BioEarth | Barranquilla | https://bioearth.com.co/ | R&D center for environmental, climate and agroindustrial technology. | https://bioearth.com.co/ | — |
-| Unergy | Medellín | https://unergy.io/ | Platform financing solar mini-farms and selling clean power. | https://www.unergy.io/nosotros | — |
-| Sunnergy | Bogotá | https://sunnergy.com.co/ | Solar PV design, permitting and installation services. | https://sunnergy.com.co/ | — |
-| GreenYellow Colombia | Bogotá | https://www.greenyellow.com/co/ | Decentralized solar and energy-efficiency as-a-service for C&I. | https://www.greenyellow.com/co/ | — |
-| Swap Colombia (Terpel Voltex) | Bogotá | https://swapcolombia.com/ | Battery-swap network for electric motorcycles (Terpel Voltex). | https://swapcolombia.com/ | — |
 
 ## media — Medios / Media
 

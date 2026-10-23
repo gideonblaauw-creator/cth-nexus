@@ -68,7 +68,6 @@ funder,Fondo / Funder,Adaptation Fund (Colombia projects),Washington,https://www
 funder,Fondo / Funder,Global Environment Facility (Colombia),Washington,https://www.thegef.org/,GEF grants for Amazon and climate projects in Colombia.,https://www.worldbank.org/en/programs/amazon-sustainable-landscapes-program/partners,,no
 funder,Fondo / Funder,Green Climate Fund (Colombia portfolio),Incheon,https://www.greenclimate.fund/,GCF finance for Colombian landscape and resilience programs.,https://www.worldwildlife.org/our-work/funds/wwf-and-gcf/projects/heritage-colombia-heco/,co-gcf-green-climate-fund,yes
 funder,Fondo / Funder,Climate Investment Funds (Colombia),Washington,https://www.climateinvestmentfunds.org/,CIF programs supporting clean energy and climate resilience.,https://www.climateinvestmentfunds.org/,co-cif-climate-investment-funds,yes
-funder,Fondo / Funder,ANI – Agencia Nacional de Ciencia y Tecnología,Bogotá,https://minciencias.gov.co/convocatorias,Public R&D and innovation funding agency (under MinCiencias).,https://minciencias.gov.co/,,no
 finance,Finanzas / Finance,Bancóldex,Bogotá,https://www.bancoldex.com/,Export and development bank; green and MSME credit lines.,https://www.bancoldex.com/,co-bancoldex,yes
 finance,Finanzas / Finance,Bancolombia,Medellín,https://www.bancolombia.com/,Commercial bank with sustainable finance and green bond programs.,https://www.bancolombia.com/,,no
 finance,Finanzas / Finance,Banco Agrario de Colombia,Bogotá,https://www.bancoagrario.gov.co/,Public agricultural development bank.,https://www.bancoagrario.gov.co/,,no
@@ -99,16 +98,6 @@ policy,Policy (instrument) / Policy,Resolución CREG 174/2021 (autogeneración s
 policy,Policy (instrument) / Policy,Resolución UPME 203/2020 (autogeneración),Bogotá,https://www1.upme.gov.co/,Technical regulation for small-scale renewable self-generation.,https://www1.upme.gov.co/,,no
 policy,Policy (instrument) / Policy,Política Nacional de Gestión del Riesgo de Desastres,Bogotá,https://www.gestiondelriesgo.gov.co/,Disaster risk policy linked to climate adaptation.,https://www.gestiondelriesgo.gov.co/,,no
 policy,Policy (instrument) / Policy,Plan Nacional de Adaptación al Cambio Climático (PNACC),Bogotá,https://www.minambiente.gov.co/,National adaptation planning instrument under MinAmbiente.,https://www.minambiente.gov.co/cambio-climatico-y-gestion-del-riesgo/sistema-nacional-de-cambio-climatico-sisclima/,,no
-startup,Startup / Startup,Ecoclic,Medellín,https://www.ecoclic.com.co/,"Climate-tech platforms for renewable energy, carbon and biodiversity assets.",https://www.ecoclic.com.co/,,no
-startup,Startup / Startup,NanoFreeze,Bogotá,https://www.nanofreeze.com.co/,Bio-nano cooling tech cutting refrigeration energy and emissions.,https://www.nanofreeze.com.co/,,no
-startup,Startup / Startup,Eko Group H2O+,Bogotá,https://www.ekogrouph2o.com/,Rainwater harvesting and safe water systems for vulnerable communities.,https://www.ekogrouph2o.com/,,no
-startup,Startup / Startup,ECOL-AIR,Medellín,https://ecolair.com.co/,Air-capture and industrial emissions treatment as a service.,https://ecolair.com.co/,,no
-startup,Startup / Startup,Eolo Motors,Bogotá,https://eolomotors.com/,Electric urban mobility vehicles and conversions.,https://eolomotors.com/,,no
-startup,Startup / Startup,BioEarth,Barranquilla,https://bioearth.com.co/,"R&D center for environmental, climate and agroindustrial technology.",https://bioearth.com.co/,,no
-startup,Startup / Startup,Unergy,Medellín,https://unergy.io/,Platform financing solar mini-farms and selling clean power.,https://www.unergy.io/nosotros,,no
-startup,Startup / Startup,Sunnergy,Bogotá,https://sunnergy.com.co/,"Solar PV design, permitting and installation services.",https://sunnergy.com.co/,,no
-startup,Startup / Startup,GreenYellow Colombia,Bogotá,https://www.greenyellow.com/co/,Decentralized solar and energy-efficiency as-a-service for C&I.,https://www.greenyellow.com/co/,,no
-startup,Startup / Startup,Swap Colombia (Terpel Voltex),Bogotá,https://swapcolombia.com/,Battery-swap network for electric motorcycles (Terpel Voltex).,https://swapcolombia.com/,,no
 media,Medios / Media,Semana Sostenible,Bogotá,https://www.semana.com/sostenible/,Digital sustainability and climate coverage (Grupo Semana).,https://www.semana.com/sostenible/,,no
 media,Medios / Media,Portafolio,Bogotá,https://www.portafolio.co/,Business and economy news including energy transition.,https://www.portafolio.co/,,no
 media,Medios / Media,La República,Bogotá,https://www.larepublica.co/,Business newspaper covering green finance and policy.,https://www.larepublica.co/,,no
