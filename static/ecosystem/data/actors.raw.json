@@ -9247,39 +9247,364 @@
    "description": "La Unidad de Planeación Minero Energética (UPME) es una entidad adscrita al Ministerio de Minas y Energía de Colombia que realiza planeación del sector minero-energético, estudios de oferta y demanda, y soporte a políticas públicas."
   }
  },
- {
-  "id": "co-ipse",
-  "name": "IPSE",
-  "type": "org",
-  "category": "government",
+  {
+ "id": "co-ipse",
+ "name": "IPSE",
+ "type": "org",
+ "category": "government",
+ "country": "Colombia",
+ "city": "Bogotá",
+ "website": "https://ipse.gov.co",
+ "page": null,
+ "notes": "Colombia energy-access layer map (template deck \"The Complete Ecosystem Map\")",
+ "sector": "private",
+ "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
+ "geo": {
+  "lat": null,
+  "lng": null,
+  "address": null,
+  "city": null,
   "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://ipse.gov.co",
-  "page": null,
-  "notes": "Colombia energy-access layer map (template deck \"The Complete Ecosystem Map\")",
-  "sector": "private",
-  "source": "Mapa de Actores Perú 2026",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "linkedin": "https://www.linkedin.com/company/ipse-zni",
-  "linkedin_url": "https://www.linkedin.com/company/ipse-zni",
-  "linkedin_cited_from": "https://ipse.gov.co",
-  "linkedin_accessed": "2026-10-22",
-  "nexus": {
-   "card_slug": null
-  },
-  "card": {
-   "ecosystem_role": "Entidad pública de soluciones energéticas en ZNI.",
-   "description": "El Instituto de Planificación y Promoción de Soluciones Energéticas para las Zonas No Interconectadas (IPSE) atiende la provisión de energía en zonas no interconectadas de Colombia."
-  }
+  "precision": "country",
+  "source_url": null
  },
+ "linkedin": "https://www.linkedin.com/company/ipse-zni",
+ "linkedin_url": "https://www.linkedin.com/company/ipse-zni",
+ "linkedin_cited_from": "https://ipse.gov.co",
+ "linkedin_accessed": "2026-10-22",
+ "nexus": {
+  "card_slug": null
+ },
+ "card": {
+  "ecosystem_role": "Entidad pública de soluciones energéticas en ZNI.",
+  "description": "El Instituto de Planificación y Promoción de Soluciones Energéticas para las Zonas No Interconectadas (IPSE) atiende la provisión de energía en zonas no interconectadas de Colombia."
+ }
+ },
+ {
+ "id": "co-isa",
+ "name": "ISA",
+ "type": "org",
+ "category": "corporate",
+ "country": "Colombia",
+ "city": "Medellín",
+ "website": "https://www.isa.co",
+ "page": null,
+ "notes": "Wave 1 round 1 — Datalab Nexus Colombia map (Move 4)",
+ "challenges": [
+  "ENE"
+ ],
+ "sector": "private",
+ "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
+ "geo": {
+  "lat": null,
+  "lng": null,
+  "address": null,
+  "city": null,
+  "country": "Colombia",
+  "precision": "country",
+  "source_url": null
+ },
+ "nexus": {
+  "card_slug": null
+ },
+ "card": {
+  "ecosystem_role": "Transmisión eléctrica y conexión de mercados energéticos.",
+  "description": "Interconexión Eléctrica S.A. (ISA) opera infraestructura de transmisión y conexión eléctrica en Colombia y la región."
+ },
+ "linkedin": "https://www.linkedin.com/company/isaconexiones/"
+ },
+ {
+ "id": "co-geb-grupo-energia-bogota",
+ "name": "GEB (Grupo Energía Bogotá)",
+ "type": "org",
+ "category": "corporate",
+ "country": "Colombia",
+ "city": "Bogotá",
+ "website": "https://www.grupoenergiabogota.com",
+ "page": null,
+ "notes": "Wave 1 round 1 — Datalab Nexus Colombia map (Move 4)",
+ "challenges": [
+  "ENE"
+ ],
+ "sector": "private",
+ "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
+ "geo": {
+  "lat": null,
+  "lng": null,
+  "address": null,
+  "city": null,
+  "country": "Colombia",
+  "precision": "country",
+  "source_url": null
+ },
+ "nexus": {
+  "card_slug": null
+ },
+ "card": {
+  "ecosystem_role": "Grupo integrado de energía, gas y conectividad.",
+  "description": "Grupo Energía Bogotá (GEB) agrupa negocios de transmisión, gas natural y telecomunicaciones en Colombia y Latinoamérica."
+ },
+ "linkedin": "https://www.linkedin.com/company/grupo-energia-bogota"
+ },
+ {
+ "id": "co-enel-colombia",
+ "name": "Enel Colombia",
+ "type": "org",
+ "category": "corporate",
+ "country": "Colombia",
+ "city": "Bogotá",
+ "website": "https://www.enel.com.co",
+ "page": null,
+ "notes": "Wave 1 round 1 — Datalab Nexus Colombia map (Move 4)",
+ "challenges": [
+  "ENE"
+ ],
+ "sector": "private",
+ "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
+ "geo": {
+  "lat": null,
+  "lng": null,
+  "address": null,
+  "city": null,
+  "country": "Colombia",
+  "precision": "country",
+  "source_url": null
+ },
+ "nexus": {
+  "card_slug": null
+ },
+ "card": {
+  "ecosystem_role": "Generación, distribución y soluciones energéticas.",
+  "description": "Enel Colombia participa en generación y comercialización de energía y servicios eléctricos para clientes residenciales y empresariales."
+ }
+ },
+ {
+ "id": "co-celsia",
+ "name": "Celsia",
+ "type": "org",
+ "category": "corporate",
+ "country": "Colombia",
+ "city": "Medellín",
+ "website": "https://www.celsia.com",
+ "page": null,
+ "notes": "Wave 1 round 1 — Datalab Nexus Colombia map (Move 4)",
+ "challenges": [
+  "ENE"
+ ],
+ "sector": "private",
+ "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
+ "geo": {
+  "lat": null,
+  "lng": null,
+  "address": null,
+  "city": null,
+  "country": "Colombia",
+  "precision": "country",
+  "source_url": null
+ },
+ "nexus": {
+  "card_slug": null
+ },
+ "card": {
+  "ecosystem_role": "Generación y comercialización de energía eléctrica.",
+  "description": "Celsia S.A. genera y comercializa energía eléctrica en Colombia, Panamá y Costa Rica."
+ },
+ "linkedin": "https://www.linkedin.com/company/celsiaenergia"
+ },
+ {
+ "id": "co-epm",
+ "name": "EPM",
+ "type": "org",
+ "category": "corporate",
+ "country": "Colombia",
+ "city": "Medellín",
+ "website": "https://www.epm.com.co",
+ "page": null,
+ "notes": "Wave 1 round 1 — Datalab Nexus Colombia map (Move 4)",
+ "challenges": [
+  "ENE"
+ ],
+ "sector": "private",
+ "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
+ "geo": {
+  "lat": null,
+  "lng": null,
+  "address": null,
+  "city": null,
+  "country": "Colombia",
+  "precision": "country",
+  "source_url": null
+ },
+ "nexus": {
+  "card_slug": null
+ },
+ "card": {
+  "ecosystem_role": "Empresa de servicios públicos multiutilities.",
+  "description": "Empresas Públicas de Medellín (EPM) presta energía, agua, gas y telecomunicaciones en Colombia."
+ }
+ },
+ {
+ "id": "co-promigas",
+ "name": "Promigas",
+ "type": "org",
+ "category": "corporate",
+ "country": "Colombia",
+ "city": "Barranquilla",
+ "website": "https://www.promigas.com",
+ "page": null,
+ "notes": "Wave 1 round 1 — Datalab Nexus Colombia map (Move 4)",
+ "challenges": [
+  "ENE"
+ ],
+ "sector": "private",
+ "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
+ "geo": {
+  "lat": null,
+  "lng": null,
+  "address": null,
+  "city": null,
+  "country": "Colombia",
+  "precision": "country",
+  "source_url": null
+ },
+ "nexus": {
+  "card_slug": null
+ },
+ "card": {
+  "ecosystem_role": "Transporte y distribución de gas natural.",
+  "description": "Promigas S.A. E.S.P. opera infraestructura de gas natural en la costa Caribe colombiana."
+ }
+ },
+ {
+ "id": "co-alqueria",
+ "name": "Alquería",
+ "type": "org",
+ "category": "corporate",
+ "country": "Colombia",
+ "city": "Bogotá",
+ "website": "https://www.alqueria.com.co",
+ "page": null,
+ "notes": "Wave 1 round 1 — Datalab Nexus Colombia map (Move 4)",
+ "challenges": [
+  "AGR"
+ ],
+ "sector": "private",
+ "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
+ "geo": {
+  "lat": null,
+  "lng": null,
+  "address": null,
+  "city": null,
+  "country": "Colombia",
+  "precision": "country",
+  "source_url": null
+ },
+ "nexus": {
+  "card_slug": null
+ },
+ "card": {
+  "ecosystem_role": "Empresa de alimentos y lácteos.",
+  "description": "Alquería produce y comercializa lácteos y alimentos para el mercado colombiano."
+ },
+ "linkedin": "https://www.linkedin.com/company/alquer-a-colombia/"
+ },
+ {
+ "id": "co-grupo-nutresa",
+ "name": "Grupo Nutresa",
+ "type": "org",
+ "category": "corporate",
+ "country": "Colombia",
+ "city": "Medellín",
+ "website": "https://www.gruponutresa.com",
+ "page": null,
+ "notes": "Wave 1 round 1 — Datalab Nexus Colombia map (Move 4)",
+ "challenges": [
+  "AGR"
+ ],
+ "sector": "private",
+ "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
+ "geo": {
+  "lat": null,
+  "lng": null,
+  "address": null,
+  "city": null,
+  "country": "Colombia",
+  "precision": "country",
+  "source_url": null
+ },
+ "nexus": {
+  "card_slug": null
+ },
+ "card": {
+  "ecosystem_role": "Conglomerado de alimentos procesados.",
+  "description": "Grupo Nutresa agrupa marcas de alimentos procesados con operación en Colombia y exportación regional."
+ }
+ },
+ {
+ "id": "co-juan-valdez",
+ "name": "Juan Valdez",
+ "type": "org",
+ "category": "corporate",
+ "country": "Colombia",
+ "city": "Bogotá",
+ "website": "https://www.juanvaldez.com",
+ "page": null,
+ "notes": "Wave 1 round 1 — Datalab Nexus Colombia map (Move 4)",
+ "challenges": [
+  "AGR"
+ ],
+ "sector": "private",
+ "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
+ "geo": {
+  "lat": null,
+  "lng": null,
+  "address": null,
+  "city": null,
+  "country": "Colombia",
+  "precision": "country",
+  "source_url": null
+ },
+ "nexus": {
+  "card_slug": null
+ },
+ "card": {
+  "ecosystem_role": "Marca de café colombiano y retail especializado.",
+  "description": "Juan Valdez comercializa café colombiano y opera tiendas de la marca en Colombia y el exterior."
+ },
+ "linkedin": "https://www.linkedin.com/company/juan-valdez-cafe/"
+ },
+ {
+ "id": "co-alpina",
+ "name": "Alpina",
+ "type": "org",
+ "category": "corporate",
+ "country": "Colombia",
+ "city": "Sopó",
+ "website": "https://www.alpina.com",
+ "page": null,
+ "notes": "Wave 1 round 1 — Datalab Nexus Colombia map (Move 4)",
+ "challenges": [
+  "AGR"
+ ],
+ "sector": "private",
+ "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
+ "geo": {
+  "lat": null,
+  "lng": null,
+  "address": null,
+  "city": null,
+  "country": "Colombia",
+  "precision": "country",
+  "source_url": null
+ },
+ "nexus": {
+  "card_slug": null
+ },
+ "card": {
+  "ecosystem_role": "Empresa de alimentos y bebidas.",
+  "description": "Alpina Productos Alimenticios produce lácteos y alimentos con operación en Colombia."
+ },
+ "linkedin": "https://www.linkedin.com/company/alpina/" },
  {
   "name": "ASEP",
   "type": "org",
