@@ -182,6 +182,7 @@ def sanitize_actor(raw: dict, idx: dict, valid_s: set[str] | None = None) -> dic
     a["geo"] = normalize_geo(raw, raw.get("geo") or a.get("geo"))
     slug = resolve_card_slug(raw, idx, valid_s)
     nexus = dict(raw.get("nexus") or a.get("nexus") or {})
+    nexus.pop("internal", None)
     if slug:
         nexus["card_slug"] = slug
     else:
