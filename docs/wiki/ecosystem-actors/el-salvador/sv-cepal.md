@@ -23,7 +23,7 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://www.cepal.org |
-| LinkedIn | https://www.linkedin.com/company/cepal |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Comisión Económica para América Latina y el Caribe; cooperación técnica y análisis de políticas. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
@@ -48,6 +48,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - Sitio web — https://www.cepal.org
 - Rol en el ecosistema — https://www.cepal.org
-- LinkedIn (enlace público) — https://www.linkedin.com/company/cepal
 - https://www.cepal.org
-- https://www.linkedin.com/company/cepal/

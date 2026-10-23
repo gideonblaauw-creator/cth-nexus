@@ -22,7 +22,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Huaraz |
 | Sitio web | https://uqhuinnova.com |
-| LinkedIn | https://www.linkedin.com/company/uqhu |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Startup del ecosistema |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-uqhu](https://nexus.cleantechhub.net/ecosystem/?actor=pe-uqhu) |
 

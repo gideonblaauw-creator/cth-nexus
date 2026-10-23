@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.gob.pe/minam |
-| LinkedIn | https://www.linkedin.com/company/minamperu |
+| LinkedIn | https://www.linkedin.com/company/1134092 |
 | Rol en el ecosistema | Actor público / regulador |
 | Desafíos (códigos) | BOS |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-minam-ministerio-del-ambiente](https://nexus.cleantechhub.net/ecosystem/?actor=pe-minam-ministerio-del-ambiente) |
@@ -60,4 +60,3 @@ El MINAM es el ministerio rector de la política ambiental peruana: biodiversida
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.gob.pe/minam
 - MINAM — https://www.gob.pe/minam
-- LinkedIn — https://www.linkedin.com/company/minamperu

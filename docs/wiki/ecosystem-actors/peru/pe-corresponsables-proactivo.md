@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://proactivo.com.pe |
-| LinkedIn | https://www.linkedin.com/company/revista-proactivo |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Medio especializado en seguridad, salud, medio ambiente y responsabilidad social empresarial. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
@@ -52,8 +52,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://proactivo.com.pe — descripción editorial
-- https://www.linkedin.com/company/revista-proactivo — perfil LinkedIn
 - ProActivo — https://proactivo.com.pe/
-- LinkedIn ProActivo — https://www.linkedin.com/company/revista-proactivo
 - Corresponsables — https://www.corresponsables.com/quienes-somos/
-- LinkedIn Corresponsables — https://www.linkedin.com/company/corresponsables/

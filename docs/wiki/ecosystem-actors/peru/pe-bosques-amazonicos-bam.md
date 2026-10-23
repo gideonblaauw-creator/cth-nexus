@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://bosques-amazonicos.com |
-| LinkedIn | https://www.linkedin.com/company/bosques-amaz%C3%B3nicos-bam |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Empresa de proyectos forestales y carbono. |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | PENDIENTE |
@@ -47,7 +47,6 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://bosques-amazonicos.com
 - https://bosques-amazonicos.com/
-- https://www.linkedin.com/company/bosques-amaz%C3%B3nicos-bam
 - Contacto y propósito — https://www.bosques-amazonicos.com/
 - Historia y escala de conservación — https://bosques-amazonicos.com/en/nosotros/
 - Constitución y domicilio legal — https://www.bosques-amazonicos.com/uploads/nosotros/bam-memoria-anual-2025-final.pdf

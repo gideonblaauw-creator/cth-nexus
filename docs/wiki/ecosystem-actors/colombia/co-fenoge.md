@@ -54,8 +54,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://fenoge.gov.co/
 - https://www.minenergia.gov.co/
-- https://www.linkedin.com/company/fenoge
 - Nombre, misión y contacto institucional — https://fenoge.gov.co/
 - Dirección en Bogotá — https://fenoge.gov.co/canales-de-atencion/
-- Perfil institucional en LinkedIn — https://www.linkedin.com/company/fenoge
-- Año de fundación (2018) — https://www.linkedin.com/company/fenoge

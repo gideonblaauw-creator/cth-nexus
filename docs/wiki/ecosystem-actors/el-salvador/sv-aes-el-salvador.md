@@ -23,7 +23,7 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://www.aes-elsalvador.com |
-| LinkedIn | https://www.linkedin.com/company/aes-el-salvador |
+| LinkedIn | https://www.linkedin.com/company/aeselsalvador |
 | Rol en el ecosistema | Empresa / sector privado |
 | Desafíos (códigos) | ENE |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=sv-aes-el-salvador](https://nexus.cleantechhub.net/ecosystem/?actor=sv-aes-el-salvador) |
@@ -53,4 +53,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.aes-elsalvador.com
 - https://www.aes-elsalvador.com/
-- https://www.linkedin.com/company/aes-el-salvador
+- https://www.aes-elsalvador.com/es

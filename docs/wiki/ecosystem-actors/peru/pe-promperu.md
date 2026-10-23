@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima (San Isidro) |
 | Sitio web | https://www.gob.pe/promperu |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/392025 |
 | Rol en el ecosistema | Promoción de exportaciones, turismo e imagen país |
 | Desafíos (códigos) | AGR, AGU, AZU, BOS, CIR, CIU, ENE, FIN |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-promperu](https://nexus.cleantechhub.net/ecosystem/?actor=pe-promperu) |

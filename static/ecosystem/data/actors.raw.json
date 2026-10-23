@@ -24,6 +24,9 @@
    "source_url": "https://photon.komoot.io/api/?q=Amazonia+Impact+Ventures%2C+Peru&limit=5 (q=Amazonia Impact Ventures, Peru) (name-country)"
   },
   "linkedin": "https://www.linkedin.com/company/amazonia-impact-ventures",
+  "linkedin_url": "https://www.linkedin.com/company/amazonia-impact-ventures",
+  "linkedin_cited_from": "https://www.amazoniaimpactventures.com",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -59,6 +62,9 @@
    "source_url": "https://photon.komoot.io/api/?q=Profonanpe%2C+Lima%2C+Peru&limit=5 (q=Profonanpe, Lima, Peru) (name-capital)"
   },
   "linkedin": "https://www.linkedin.com/company/profonanpe",
+  "linkedin_url": "https://www.linkedin.com/company/profonanpe",
+  "linkedin_cited_from": "https://profonanpe.org.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -89,6 +95,9 @@
    "source_url": "https://photon.komoot.io/api/?q=Andes+Amazon+Fund%2C+Peru&limit=5 (q=Andes Amazon Fund, Peru) (name-country)"
   },
   "linkedin": "https://www.linkedin.com/company/andes-amazon-fund",
+  "linkedin_url": "https://www.linkedin.com/company/andes-amazon-fund",
+  "linkedin_cited_from": "https://www.andesamazonfund.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -118,7 +127,10 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/pecap-peru/",
+  "linkedin": "https://www.linkedin.com/company/pecap-peru",
+  "linkedin_url": "https://www.linkedin.com/company/pecap-peru",
+  "linkedin_cited_from": "https://www.pecap.pe/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -148,7 +160,10 @@
    "precision": "city",
    "source_url": "https://photon.komoot.io/api/?q=Angel+Ventures+Per%C3%BA%2C+Lima%2C+Peru&limit=5 (q=Angel Ventures Perú, Lima, Peru) (name-capital)"
   },
-  "linkedin": "https://www.linkedin.com/company/avpventures/",
+  "linkedin": "https://www.linkedin.com/company/angel-ventures-mexico",
+  "linkedin_url": "https://www.linkedin.com/company/angel-ventures-mexico",
+  "linkedin_cited_from": "https://www.angelventures.vc",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -185,7 +200,6 @@
    "precision": "address",
    "source_url": "https://utecventures.com"
   },
-  "linkedin": "https://www.linkedin.com/company/utecventures",
   "nexus": {
    "card_slug": null
   },
@@ -248,7 +262,6 @@
    "precision": "address",
    "source_url": "https://photon.komoot.io/api/?q=GRIO+%28Grupo+Romero%29%2C+Lima%2C+Peru&limit=5 (q=GRIO (Grupo Romero), Lima, Peru) (name-capital)"
   },
-  "linkedin": "https://www.linkedin.com/company/grupo-romero",
   "nexus": {
    "card_slug": null
   },
@@ -283,6 +296,9 @@
    "source_url": "https://photon.komoot.io/api/?q=Wayra+Per%C3%BA%2C+Lima%2C+Peru&limit=5 (q=Wayra Perú, Lima, Peru) (name-capital)"
   },
   "linkedin": "https://www.linkedin.com/company/wayra",
+  "linkedin_url": "https://www.linkedin.com/company/wayra",
+  "linkedin_cited_from": "https://wayra.com/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -312,7 +328,6 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/mirova",
   "nexus": {
    "card_slug": null
   },
@@ -329,6 +344,10 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://ecoenterprisesfund.com",
+  "linkedin": "https://www.linkedin.com/company/ecoenterprises-fund",
+  "linkedin_url": "https://www.linkedin.com/company/ecoenterprises-fund",
+  "linkedin_cited_from": "https://ecoenterprisesfund.com",
+  "linkedin_accessed": "2026-10-22",
   "page": null,
   "notes": "EcoEnterprises Fund Fondo de capital para negocios sostenibles en LatinoaméricaInvierte en empresas de agro y bosques con impacto ambiental",
   "challenges": [
@@ -401,6 +420,9 @@
    "source_url": "https://photon.komoot.io/api/?q=Incofin%2C+Lima%2C+Peru&limit=5 (q=Incofin, Lima, Peru) (name-capital)"
   },
   "linkedin": "https://www.linkedin.com/company/incofin-investment-management",
+  "linkedin_url": "https://www.linkedin.com/company/incofin-investment-management",
+  "linkedin_cited_from": "https://incofin.com",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -417,6 +439,10 @@
   "country": "Peru",
   "city": "Santiago de Surco",
   "website": "https://triplejump.eu",
+  "linkedin": "https://www.linkedin.com/company/2601512",
+  "linkedin_url": "https://www.linkedin.com/company/2601512",
+  "linkedin_cited_from": "https://triplejump.eu",
+  "linkedin_accessed": "2026-10-22",
   "page": null,
   "notes": null,
   "sector": "private",
@@ -446,6 +472,10 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://www.responsability.com",
+  "linkedin": "https://www.linkedin.com/company/1522762",
+  "linkedin_url": "https://www.linkedin.com/company/1522762",
+  "linkedin_cited_from": "https://www.responsability.com",
+  "linkedin_accessed": "2026-10-22",
   "page": null,
   "notes": null,
   "challenges": [
@@ -490,6 +520,9 @@
    "source_url": "https://photon.komoot.io/api/?q=BlueOrchard%2C+Lima%2C+Peru&limit=5 (q=BlueOrchard, Lima, Peru) (name-capital)"
   },
   "linkedin": "https://www.linkedin.com/company/blueorchard-finance-ltd",
+  "linkedin_url": "https://www.linkedin.com/company/blueorchard-finance-ltd",
+  "linkedin_cited_from": "https://www.blueorchard.com",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -524,6 +557,9 @@
    "source_url": "https://photon.komoot.io/api/?q=Alterfin%2C+Lima%2C+Peru&limit=5 (q=Alterfin, Lima, Peru) (name-capital)"
   },
   "linkedin": "https://www.linkedin.com/company/alterfin-cv",
+  "linkedin_url": "https://www.linkedin.com/company/alterfin-cv",
+  "linkedin_cited_from": "https://www.alterfin.be",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -567,6 +603,10 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://www.mercycorpsventures.com",
+  "linkedin": "https://www.linkedin.com/company/mercy-corps-ventures",
+  "linkedin_url": "https://www.linkedin.com/company/mercy-corps-ventures",
+  "linkedin_cited_from": "https://www.prosperglobalventures.com/",
+  "linkedin_accessed": "2026-10-22",
   "page": null,
   "notes": null,
   "sector": "private",
@@ -607,6 +647,9 @@
    "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/accion",
+  "linkedin_url": "https://www.linkedin.com/company/accion",
+  "linkedin_cited_from": "https://www.accion.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -641,7 +684,6 @@
    "precision": "city",
    "source_url": "https://photon.komoot.io/api/?q=ALIVE+Ventures%2C+Lima%2C+Peru&limit=5 (q=ALIVE Ventures, Lima, Peru) (name-capital)"
   },
-  "linkedin": "https://www.linkedin.com/company/alive-ventures",
   "nexus": {
    "card_slug": null
   },
@@ -676,6 +718,9 @@
    "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/bezos-earth-fund",
+  "linkedin_url": "https://www.linkedin.com/company/bezos-earth-fund",
+  "linkedin_cited_from": "https://www.bezosearthfund.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -709,7 +754,6 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/allied-climate-partners",
   "nexus": {
    "card_slug": null
   },
@@ -764,7 +808,6 @@
    "precision": "address",
    "source_url": "https://photon.komoot.io/api/?q=Root+Capital%2C+Lima%2C+Peru&limit=5 (q=Root Capital, Lima, Peru) (name-capital)"
   },
-  "linkedin": "https://www.linkedin.com/company/root-capital/",
   "nexus": {
    "card_slug": null
   },
@@ -798,7 +841,6 @@
    "precision": "address",
    "source_url": "https://photon.komoot.io/api/?q=BBVA+Per%C3%BA%2C+Lima%2C+Peru&limit=5 (q=BBVA Perú, Lima, Peru) (name-capital)"
   },
-  "linkedin": "https://www.linkedin.com/company/bbva-peru",
   "nexus": {
    "card_slug": null
   },
@@ -857,7 +899,10 @@
    "precision": "address",
    "source_url": "https://photon.komoot.io/api/?q=Scotiabank+Per%C3%BA%2C+Lima%2C+Peru&limit=5 (q=Scotiabank Perú, Lima, Peru) (name-capital)"
   },
-  "linkedin": "https://pe.linkedin.com/company/scotiabank-per%C3%BA",
+  "linkedin": "https://www.linkedin.com/company/scotiabank",
+  "linkedin_url": "https://www.linkedin.com/company/scotiabank",
+  "linkedin_cited_from": "https://www.scotiabank.com.pe/Personas/Default",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -920,7 +965,6 @@
    "precision": "address",
    "source_url": "https://photon.komoot.io/api/?q=BCP+%E2%80%93+Banco+de+Cr%C3%A9dito+del+Per%C3%BA%2C+Lima%2C+Peru&limit=5 (q=BCP – Banco de Crédito del Perú, Lima, Peru) (name-capital)"
   },
-  "linkedin": "https://www.linkedin.com/company/bcp",
   "nexus": {
    "card_slug": null
   },
@@ -951,7 +995,6 @@
    "precision": "address",
    "source_url": "https://photon.komoot.io/api/?q=Bolsa+de+Valores+de+Lima%2C+Lima%2C+Peru&limit=5 (q=Bolsa de Valores de Lima, Lima, Peru) (name-capital)"
   },
-  "linkedin": "https://www.linkedin.com/company/bolsa-de-valores-de-lima",
   "nexus": {
    "card_slug": null
   },
@@ -987,6 +1030,9 @@
    "source_url": "https://photon.komoot.io/api/?q=Financiera+Confianza%2C+Lima%2C+Peru&limit=5 (q=Financiera Confianza, Lima, Peru) (name-capital)"
   },
   "linkedin": "https://www.linkedin.com/company/financiera-confianza-fmbbva",
+  "linkedin_url": "https://www.linkedin.com/company/financiera-confianza-fmbbva",
+  "linkedin_cited_from": "https://confianza.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -1019,7 +1065,10 @@
    "precision": "address",
    "source_url": "https://photon.komoot.io/api/?q=FEPCMAC+%E2%80%93+Federaci%C3%B3n+de+Cajas+Municipales%2C+Lima%2C+Peru&limit=5 (q=FEPCMAC – Federación de Cajas Municipales, Lima, Peru) (name-capital)"
   },
-  "linkedin": "https://www.linkedin.com/company/fepcmac",
+  "linkedin": "https://www.linkedin.com/company/10279236",
+  "linkedin_url": "https://www.linkedin.com/company/10279236",
+  "linkedin_cited_from": "https://www.fpcmac.org.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -1054,6 +1103,9 @@
    "source_url": "https://photon.komoot.io/api/?q=Compartamos+Financiera%2C+Lima%2C+Peru&limit=5 (q=Compartamos Financiera, Lima, Peru) (name-capital)"
   },
   "linkedin": "https://www.linkedin.com/company/compartamosbancoperu",
+  "linkedin_url": "https://www.linkedin.com/company/compartamosbancoperu",
+  "linkedin_cited_from": "https://www.compartamos.com.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -1089,6 +1141,9 @@
    "source_url": "https://photon.komoot.io/api/?q=Caja+Arequipa%2C+Lima%2C+Peru&limit=5 (q=Caja Arequipa, Lima, Peru) (name-capital)"
   },
   "linkedin": "https://www.linkedin.com/company/caja-arequipa",
+  "linkedin_url": "https://www.linkedin.com/company/caja-arequipa",
+  "linkedin_cited_from": "https://www.cajaarequipa.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -1122,7 +1177,6 @@
    "precision": "address",
    "source_url": "https://photon.komoot.io/api/?q=Caja+Huancayo%2C+Lima%2C+Peru&limit=5 (q=Caja Huancayo, Lima, Peru) (name-capital)"
   },
-  "linkedin": "https://www.linkedin.com/company/caja-huancayo",
   "nexus": {
    "card_slug": null
   },
@@ -1156,7 +1210,6 @@
    "precision": "address",
    "source_url": "https://photon.komoot.io/api/?q=Caja+Piura%2C+Lima%2C+Peru&limit=5 (q=Caja Piura, Lima, Peru) (name-capital)"
   },
-  "linkedin": "https://www.linkedin.com/company/caja-piura",
   "nexus": {
    "card_slug": null
   },
@@ -1190,7 +1243,6 @@
    "precision": "address",
    "source_url": "https://photon.komoot.io/api/?q=Caja+Ica%2C+Lima%2C+Peru&limit=5 (q=Caja Ica, Lima, Peru) (name-capital)"
   },
-  "linkedin": "https://www.linkedin.com/company/caja-ica",
   "nexus": {
    "card_slug": null
   },
@@ -1224,7 +1276,6 @@
    "precision": "address",
    "source_url": "https://photon.komoot.io/api/?q=Caja+Maynas%2C+Lima%2C+Peru&limit=5 (q=Caja Maynas, Lima, Peru) (name-capital)"
   },
-  "linkedin": "https://www.linkedin.com/company/caja-maynas",
   "nexus": {
    "card_slug": null
   },
@@ -1258,6 +1309,9 @@
    "source_url": "https://photon.komoot.io/api/?q=San+Miguel+Industrias+PET%2C+Peru&limit=5 (q=San Miguel Industrias PET, Peru) (name-country)"
   },
   "linkedin": "https://www.linkedin.com/company/smipackaging",
+  "linkedin_url": "https://www.linkedin.com/company/smipackaging",
+  "linkedin_cited_from": "https://smisolutions.com",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -1288,6 +1342,9 @@
    "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/grupoaje",
+  "linkedin_url": "https://www.linkedin.com/company/grupoaje",
+  "linkedin_cited_from": "https://www.ajegroup.com",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -1324,6 +1381,9 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Backus+Lima+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
   },
   "linkedin": "https://www.linkedin.com/company/backus",
+  "linkedin_url": "https://www.linkedin.com/company/backus",
+  "linkedin_cited_from": "https://www.backus.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -1357,7 +1417,6 @@
    "precision": "address",
    "source_url": "https://nominatim.openstreetmap.org/search?q=Alicorp%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
-  "linkedin": "https://www.linkedin.com/company/alicorp",
   "nexus": {
    "card_slug": null
   },
@@ -1394,7 +1453,6 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/engieperu",
   "nexus": {
    "card_slug": null
   },
@@ -1429,6 +1487,9 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Enel+Per%C3%BA&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
   },
   "linkedin": "https://www.linkedin.com/company/pluz-peru",
+  "linkedin_url": "https://www.linkedin.com/company/pluz-peru",
+  "linkedin_cited_from": "https://www.pluz.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -1463,6 +1524,9 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Danper%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
   },
   "linkedin": "https://www.linkedin.com/company/danperperu",
+  "linkedin_url": "https://www.linkedin.com/company/danperperu",
+  "linkedin_cited_from": "https://danper.com",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -1497,7 +1561,6 @@
    "precision": "city",
    "source_url": "https://nominatim.openstreetmap.org/search?q=Cerro+Verde%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
-  "linkedin": "https://www.linkedin.com/company/cerro-verde/",
   "nexus": {
    "card_slug": null
   },
@@ -1530,7 +1593,6 @@
    "precision": "address",
    "source_url": "https://nominatim.openstreetmap.org/search?q=Hudbay%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
   },
-  "linkedin": "https://www.linkedin.com/company/hudbay-minerals-inc-",
   "nexus": {
    "card_slug": null
   },
@@ -1547,6 +1609,10 @@
   "country": "Peru",
   "city": "Johannesburg, Sudáfrica (sede); operaciones en Perú",
   "website": "https://www.goldfields.com",
+  "linkedin": "https://www.linkedin.com/company/gold-fields",
+  "linkedin_url": "https://www.linkedin.com/company/gold-fields",
+  "linkedin_cited_from": "https://www.goldfields.com",
+  "linkedin_accessed": "2026-10-22",
   "page": null,
   "notes": null,
   "geo": {
@@ -1592,6 +1658,9 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Anglo+American%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
   },
   "linkedin": "https://www.linkedin.com/company/anglo-american",
+  "linkedin_url": "https://www.linkedin.com/company/anglo-american",
+  "linkedin_cited_from": "https://www.angloamerican.com",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -1653,7 +1722,6 @@
    "precision": "address",
    "source_url": "https://nominatim.openstreetmap.org/search?q=Sociedad+Nacional+de+Industrias+Lima+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
   },
-  "linkedin": "https://www.linkedin.com/company/sociedad-nacional-de-industrias",
   "nexus": {
    "card_slug": null
   },
@@ -1688,6 +1756,9 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=C%C3%A1mara+de+Comercio+de+Lima+Lima+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
   },
   "linkedin": "https://www.linkedin.com/company/camaradelima",
+  "linkedin_url": "https://www.linkedin.com/company/camaradelima",
+  "linkedin_cited_from": "https://www.camaralima.org.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -1718,6 +1789,9 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=ADEX+%E2%80%93+Asociaci%C3%B3n+de+Exportadores%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "linkedin": "https://www.linkedin.com/company/asociaci-n-de-exportadores-adex",
+  "linkedin_url": "https://www.linkedin.com/company/asociaci-n-de-exportadores-adex",
+  "linkedin_cited_from": "https://www.adexperu.org.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -1779,7 +1853,10 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/asociaci%C3%B3n-peruana-de-energ%C3%ADas-renovables",
+  "linkedin": "https://www.linkedin.com/company/spr-peru",
+  "linkedin_url": "https://www.linkedin.com/company/spr-peru",
+  "linkedin_cited_from": "https://www.spr.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -1813,7 +1890,10 @@
    "precision": "city",
    "source_url": "https://nominatim.openstreetmap.org/search?q=AREQUIPA%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
-  "linkedin": "https://www.linkedin.com/company/lib%C3%A9lula",
+  "linkedin": "https://www.linkedin.com/company/libelula",
+  "linkedin_url": "https://www.linkedin.com/company/libelula",
+  "linkedin_cited_from": "https://libelula.com.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -1846,7 +1926,10 @@
    "precision": "address",
    "source_url": "https://nominatim.openstreetmap.org/search?q=minam+Lima+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
   },
-  "linkedin": "https://www.linkedin.com/company/minamperu",
+  "linkedin": "https://www.linkedin.com/company/1134092",
+  "linkedin_url": "https://www.linkedin.com/company/1134092",
+  "linkedin_cited_from": "https://www.gob.pe/minam",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -1881,7 +1964,10 @@
    "precision": "address",
    "source_url": "https://nominatim.openstreetmap.org/search?q=produce+Lima+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
   },
-  "linkedin": "https://www.linkedin.com/company/ministerio-de-la-produccion/",
+  "linkedin": "https://www.linkedin.com/company/ministerio-de-la-producci%C3%B3n-del-per%C3%BA",
+  "linkedin_url": "https://www.linkedin.com/company/ministerio-de-la-producci%C3%B3n-del-per%C3%BA",
+  "linkedin_cited_from": "https://www.gob.pe/produce",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -1898,6 +1984,10 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://www.gob.pe/midagri",
+  "linkedin": "https://www.linkedin.com/company/midagri",
+  "linkedin_url": "https://www.linkedin.com/company/midagri",
+  "linkedin_cited_from": "https://www.gob.pe/midagri",
+  "linkedin_accessed": "2026-10-22",
   "page": null,
   "notes": "MIDAGRI Ministerio de Desarrollo Agrario y RiegoPolíticas agrarias, riego y zonificación forestal",
   "sector": "private",
@@ -1940,7 +2030,10 @@
    "precision": "address",
    "source_url": "https://nominatim.openstreetmap.org/search?q=Ministerio+de+Energia+y+Minas+Lima&format=json&limit=1&addressdetails=1&countrycodes=pe (ascii-sweep)"
   },
-  "linkedin": "https://www.linkedin.com/company/minem-per%C3%BA/",
+  "linkedin": "https://www.linkedin.com/company/ministerio-de-energ-a-y-minas",
+  "linkedin_url": "https://www.linkedin.com/company/ministerio-de-energ-a-y-minas",
+  "linkedin_cited_from": "https://www.gob.pe/minem",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -1957,6 +2050,10 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://www.gob.pe/mef",
+  "linkedin": "https://www.linkedin.com/company/ministerio-de-economia-y-finanzas-del-peru",
+  "linkedin_url": "https://www.linkedin.com/company/ministerio-de-economia-y-finanzas-del-peru",
+  "linkedin_cited_from": "https://www.gob.pe/mef",
+  "linkedin_accessed": "2026-10-22",
   "page": null,
   "notes": "MEF Ministerio de Economía y FinanzasInversión pública y finanzas climáticas junto al MINAM",
   "sector": "private",
@@ -2003,7 +2100,6 @@
    "precision": "address",
    "source_url": "https://nominatim.openstreetmap.org/search?q=SBS+Lima+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
   },
-  "linkedin": "https://www.linkedin.com/company/sbsperu",
   "nexus": {
    "card_slug": null
   },
@@ -2034,6 +2130,9 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=SMV+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
   },
   "linkedin": "https://www.linkedin.com/company/smvperu",
+  "linkedin_url": "https://www.linkedin.com/company/smvperu",
+  "linkedin_cited_from": "https://www.gob.pe/smv",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -2066,7 +2165,10 @@
    "precision": "address",
    "source_url": "https://nominatim.openstreetmap.org/search?q=Osinergmin%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
-  "linkedin": "https://www.linkedin.com/company/osinergmin",
+  "linkedin": "https://www.linkedin.com/company/445002",
+  "linkedin_url": "https://www.linkedin.com/company/445002",
+  "linkedin_cited_from": "https://www.gob.pe/osinergmin",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -2100,6 +2202,9 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=SUNASS%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "linkedin": "https://www.linkedin.com/company/sunass-oficial",
+  "linkedin_url": "https://www.linkedin.com/company/sunass-oficial",
+  "linkedin_cited_from": "https://www.gob.pe/sunass",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -2116,6 +2221,10 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://www.gob.pe/proinnovate",
+  "linkedin": "https://www.linkedin.com/company/proinnovateperu",
+  "linkedin_url": "https://www.linkedin.com/company/proinnovateperu",
+  "linkedin_cited_from": "https://www.gob.pe/proinnovate",
+  "linkedin_accessed": "2026-10-22",
   "page": null,
   "notes": "ProInnóvate – StartUp Perú. Programa de PRODUCE para innovación y emprendimientoCapital semilla de hasta S/ 150 mil; convocatorias para emprendimientos de cambio climático Jefa Unidad de Comunicaciones y Relaciones Institucionales Jefa Unidad de Comunicaciones y Relaciones Institucionales",
   "challenges": [
@@ -2149,6 +2258,10 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://www.gob.pe/institucion/minam/colecciones/1479-programa-nacional-de-bionegocios-y-economia-circular",
+  "linkedin": "https://www.linkedin.com/company/mtc-peru",
+  "linkedin_url": "https://www.linkedin.com/company/mtc-peru",
+  "linkedin_cited_from": "https://www.gob.pe/institucion/mtc/contacto-y-numeros-de-emergencias",
+  "linkedin_accessed": "2026-10-22",
   "page": null,
   "notes": "Programa para Bionegocios (MINAM)Programa de crédito para la AmazoníaMás de S/ 22 M en créditos a más de 3.900 bionegocios",
   "geo": {
@@ -2194,6 +2307,9 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Calle+Augusto+Tamayo+160%2C+San+Isidro%09%09%09%09%09%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
   "linkedin": "https://www.linkedin.com/company/cofide",
+  "linkedin_url": "https://www.linkedin.com/company/cofide",
+  "linkedin_cited_from": "https://www.cofide.com.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -2227,7 +2343,6 @@
    "precision": "address",
    "source_url": "https://nominatim.openstreetmap.org/search?q=CONCYTEC+Lima+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
   },
-  "linkedin": "https://www.linkedin.com/company/prociencia/",
   "nexus": {
    "card_slug": null
   },
@@ -2260,7 +2375,10 @@
    "precision": "address",
    "source_url": "https://nominatim.openstreetmap.org/search?q=AGROIDEAS%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
-  "linkedin": "https://linkedin.com/company/agroideas-del-minagri",
+  "linkedin": "https://www.linkedin.com/company/agroideas-del-minagri",
+  "linkedin_url": "https://www.linkedin.com/company/agroideas-del-minagri",
+  "linkedin_cited_from": "https://www.gob.pe/agroideas",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -2293,7 +2411,6 @@
    "precision": "address",
    "source_url": "https://nominatim.openstreetmap.org/search?q=Agrobanco%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
-  "linkedin": "https://www.linkedin.com/company/agrobanco",
   "nexus": {
    "card_slug": null
   },
@@ -2310,6 +2427,10 @@
   "country": "Peru",
   "city": "Lima (Independencia)",
   "website": "https://www.gob.pe/inaigem",
+  "linkedin": "https://www.linkedin.com/company/inaigem",
+  "linkedin_url": "https://www.linkedin.com/company/inaigem",
+  "linkedin_cited_from": "https://www.gob.pe/inaigem",
+  "linkedin_accessed": "2026-10-22",
   "page": null,
   "notes": "INAIGEM, ANA, SENAMHIGlaciares, agua y climaDatos y alertas para soluciones de agua y agro",
   "sector": "private",
@@ -2354,7 +2475,10 @@
    "precision": "address",
    "source_url": "https://nominatim.openstreetmap.org/search?q=ANA+%E2%80%93+Autoridad+Nacional+del+Agua%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
-  "linkedin": "https://linkedin.com/company/autoridad-nacional-del-agua",
+  "linkedin": "https://www.linkedin.com/company/autoridad-nacional-del-agua",
+  "linkedin_url": "https://www.linkedin.com/company/autoridad-nacional-del-agua",
+  "linkedin_cited_from": "https://www.gob.pe/ana",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -2388,7 +2512,6 @@
    "precision": "address",
    "source_url": "https://nominatim.openstreetmap.org/search?q=SENAMHI%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
-  "linkedin": "https://www.linkedin.com/company/senamhi",
   "nexus": {
    "card_slug": null
   },
@@ -2423,6 +2546,9 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=SERFOR%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "linkedin": "https://www.linkedin.com/company/servicio-nacional-forestal-y-de-fauna-silvestre",
+  "linkedin_url": "https://www.linkedin.com/company/servicio-nacional-forestal-y-de-fauna-silvestre",
+  "linkedin_cited_from": "https://www.gob.pe/serfor",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -2439,6 +2565,10 @@
   "country": "Peru",
   "city": "San Isidro",
   "website": "https://www.gob.pe/sernanp",
+  "linkedin": "https://www.linkedin.com/company/servicio-nacional-de-%C3%A1reas-naturales-protegidas-por-el-estado-sernanp",
+  "linkedin_url": "https://www.linkedin.com/company/servicio-nacional-de-%C3%A1reas-naturales-protegidas-por-el-estado-sernanp",
+  "linkedin_cited_from": "https://www.gob.pe/sernanp",
+  "linkedin_accessed": "2026-10-22",
   "page": null,
   "notes": null,
   "challenges": [
@@ -2472,6 +2602,10 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://www.gob.pe/bosques",
+  "linkedin": "https://www.linkedin.com/company/programa-nacional-de-conservaci-n-de-bosques",
+  "linkedin_url": "https://www.linkedin.com/company/programa-nacional-de-conservaci-n-de-bosques",
+  "linkedin_cited_from": "https://www.gob.pe/bosques",
+  "linkedin_accessed": "2026-10-22",
   "page": null,
   "notes": "Programa para Bionegocios (MINAM)Programa de crédito para la AmazoníaMás de S/ 22 M en créditos a más de 3.900 bionegocios",
   "geo": {
@@ -2499,6 +2633,10 @@
   "country": "Peru",
   "city": "Lima (San Isidro)",
   "website": "https://www.gob.pe/proinversion",
+  "linkedin": "https://www.linkedin.com/company/proinversionpe",
+  "linkedin_url": "https://www.linkedin.com/company/proinversionpe",
+  "linkedin_cited_from": "https://www.gob.pe/proinversion",
+  "linkedin_accessed": "2026-10-22",
   "page": null,
   "notes": "ProInversión, PromPerúPromoción de inversión y exportacionesAtraen inversión en energía y abren mercados a bioproductos",
   "sector": "private",
@@ -2538,6 +2676,10 @@
   "country": "Peru",
   "city": "Lima (San Isidro)",
   "website": "https://www.gob.pe/promperu",
+  "linkedin": "https://www.linkedin.com/company/392025",
+  "linkedin_url": "https://www.linkedin.com/company/392025",
+  "linkedin_cited_from": "https://www.gob.pe/promperu",
+  "linkedin_accessed": "2026-10-22",
   "page": null,
   "notes": null,
   "challenges": [
@@ -2590,7 +2732,10 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://linkedin.com/company/agencia-peruana-de-cooperaci%C3%B3n-internacional-apci",
+  "linkedin": "https://www.linkedin.com/company/agencia-peruana-de-cooperaci%C3%B3n-internacional-apci",
+  "linkedin_url": "https://www.linkedin.com/company/agencia-peruana-de-cooperaci%C3%B3n-internacional-apci",
+  "linkedin_cited_from": "https://www.gob.pe/apci",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -2624,7 +2769,10 @@
    "precision": "address",
    "source_url": "https://nominatim.openstreetmap.org/search?q=IMARPE%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
-  "linkedin": "https://www.linkedin.com/company/instituto-del-mar-del-per%C3%BA-imarpe",
+  "linkedin": "https://www.linkedin.com/company/imarpe",
+  "linkedin_url": "https://www.linkedin.com/company/imarpe",
+  "linkedin_cited_from": "https://www.gob.pe/imarpe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -2658,6 +2806,9 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=SANIPES%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
   },
   "linkedin": "https://www.linkedin.com/company/11388890",
+  "linkedin_url": "https://www.linkedin.com/company/11388890",
+  "linkedin_cited_from": "https://www.gob.pe/sanipes",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -2982,7 +3133,10 @@
     "country_mismatch"
    ]
   },
-  "linkedin": "https://www.linkedin.com/company/pontificia-universidad-cat-lica-del-per-",
+  "linkedin": "https://www.linkedin.com/company/pucp",
+  "linkedin_url": "https://www.linkedin.com/company/pucp",
+  "linkedin_cited_from": "https://www.pucp.edu.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -3116,7 +3270,6 @@
    "precision": "address",
    "source_url": "https://nominatim.openstreetmap.org/search?q=UNAP+Lima+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
   },
-  "linkedin": "https://www.linkedin.com/school/universidad-nacional-de-la-amazonia-peruana/",
   "nexus": {
    "card_slug": null
   },
@@ -3151,7 +3304,6 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/school/universidad-nacional-de-san-mart%C3%ADn/",
   "nexus": {
    "card_slug": null
   },
@@ -3291,7 +3443,6 @@
     "country_mismatch"
    ]
   },
-  "linkedin": "https://www.linkedin.com/company/universidad-nacional-amaz%C3%B3nica-de-madre-de-dios",
   "nexus": {
    "card_slug": null
   },
@@ -3326,7 +3477,10 @@
    "precision": "address",
    "source_url": "https://nominatim.openstreetmap.org/search?q=Av.+Almirante+Grau+915%2C+Barranco%29%2C+Barranco%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
-  "linkedin": "https://www.linkedin.com/company/grade-peru",
+  "linkedin": "https://www.linkedin.com/company/leer-no-basta",
+  "linkedin_url": "https://www.linkedin.com/company/leer-no-basta",
+  "linkedin_cited_from": "https://grade.org.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -3364,7 +3518,10 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/metaredx-by-universia/",
+  "linkedin": "https://www.linkedin.com/company/metaredx-by-universia",
+  "linkedin_url": "https://www.linkedin.com/company/metaredx-by-universia",
+  "linkedin_cited_from": "https://www.metaredx.org/pe/index.html",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -3398,7 +3555,6 @@
    "precision": "address",
    "source_url": "https://nominatim.openstreetmap.org/search?q=UNMSM+Lima+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
   },
-  "linkedin": "https://www.linkedin.com/company/universidad-nacional-mayor-de-san-marcos",
   "nexus": {
    "card_slug": null
   },
@@ -3434,7 +3590,6 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/incubagraria",
   "nexus": {
    "card_slug": null
   },
@@ -3474,7 +3629,6 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/emprende-up",
   "nexus": {
    "card_slug": null
   },
@@ -3511,6 +3665,9 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=San+Isidro%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
   "linkedin": "https://www.linkedin.com/company/bioincubaperu",
+  "linkedin_url": "https://www.linkedin.com/company/bioincubaperu",
+  "linkedin_cited_from": "https://bioincuba.cayetano.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -3577,7 +3734,10 @@
    "precision": "address",
    "source_url": "https://nominatim.openstreetmap.org/search?q=1551+Lima+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
   },
-  "linkedin": "https://www.linkedin.com/company/1551in",
+  "linkedin": "https://www.linkedin.com/company/11111803",
+  "linkedin_url": "https://www.linkedin.com/company/11111803",
+  "linkedin_cited_from": "https://1551.unmsm.edu.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -3594,6 +3754,10 @@
   "country": "Peru",
   "city": "Lima (San Miguel)",
   "website": "https://cide.pucp.edu.pe/",
+  "linkedin": "https://www.linkedin.com/company/cide-pucp",
+  "linkedin_url": "https://www.linkedin.com/company/cide-pucp",
+  "linkedin_cited_from": "https://cide.pucp.edu.pe/",
+  "linkedin_accessed": "2026-10-22",
   "page": null,
   "notes": "Head of Startup incubation Head of Startup incubation Incubadora Incubadora",
   "sector": "private",
@@ -3645,6 +3809,9 @@
    "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/startup-uni",
+  "linkedin_url": "https://www.linkedin.com/company/startup-uni",
+  "linkedin_cited_from": "https://startup.uni.edu.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -3694,6 +3861,10 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://www.ulima.edu.pe",
+  "linkedin": "https://www.linkedin.com/company/camaraperuanobritanica",
+  "linkedin_url": "https://www.linkedin.com/company/camaraperuanobritanica",
+  "linkedin_cited_from": "https://www.ulima.edu.pe",
+  "linkedin_accessed": "2026-10-22",
   "page": null,
   "notes": "Incubadora y Aceleradora Incubadora y Aceleradora",
   "sector": "civil",
@@ -3769,7 +3940,6 @@
    "precision": "address",
    "source_url": "https://nominatim.openstreetmap.org/search?q=Universidad+udep+Lima+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (heuristic)"
   },
-  "linkedin": "https://www.linkedin.com/school/udepiura/",
   "nexus": {
    "card_slug": null
   },
@@ -3799,7 +3969,6 @@
    "precision": "address",
    "source_url": "https://nominatim.openstreetmap.org/search?q=Kunan%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
   },
-  "linkedin": "https://www.linkedin.com/company/kunanesahora",
   "nexus": {
    "card_slug": null
   },
@@ -3834,7 +4003,10 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/nesst/",
+  "linkedin": "https://www.linkedin.com/company/nesst",
+  "linkedin_url": "https://www.linkedin.com/company/nesst",
+  "linkedin_cited_from": "https://www.nesst.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -3868,7 +4040,10 @@
    "precision": "address",
    "source_url": "https://nominatim.openstreetmap.org/search?q=Endeavor+Per%C3%BA&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
   },
-  "linkedin": "https://www.linkedin.com/company/endeavor-per",
+  "linkedin": "https://www.linkedin.com/company/endeavor-per%C3%BA",
+  "linkedin_url": "https://www.linkedin.com/company/endeavor-per%C3%BA",
+  "linkedin_cited_from": "https://endeavor.org.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -3983,7 +4158,6 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.facebook.com/unia.edu.pe/",
   "nexus": {
    "card_slug": null
   },
@@ -4000,6 +4174,10 @@
   "country": "Peru",
   "city": "Rodríguez de Mendoza / Chachapoyas, Amazonas",
   "website": "https://incubadora.untrm.edu.pe",
+  "linkedin": "https://www.linkedin.com/company/amazonas-start-up",
+  "linkedin_url": "https://www.linkedin.com/company/amazonas-start-up",
+  "linkedin_cited_from": "https://incubadora.untrm.edu.pe",
+  "linkedin_accessed": "2026-10-22",
   "page": null,
   "notes": "Incubadoras UNTRM y UNIFSLB (Amazonas)Incubadoras universitariasAgro y bosques del nororiente",
   "challenges": [
@@ -4071,7 +4249,6 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/incubauntperu/",
   "nexus": {
    "card_slug": null
   },
@@ -4142,7 +4319,10 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/jaku-emprende/",
+  "linkedin": "https://www.linkedin.com/company/jaku-emprende-unsa",
+  "linkedin_url": "https://www.linkedin.com/company/jaku-emprende-unsa",
+  "linkedin_cited_from": "https://www.unsa.edu.pe/jaku/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -4263,7 +4443,6 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/c%C3%A1mara-de-comercio-y-producci%C3%B3n-de-cajamarca",
   "nexus": {
    "card_slug": null
   },
@@ -4307,6 +4486,10 @@
   "country": "Peru",
   "city": "Huánuco",
   "website": "https://incuvalventures.unheval.edu.pe",
+  "linkedin": "https://www.linkedin.com/company/incuval-ventures",
+  "linkedin_url": "https://www.linkedin.com/company/incuval-ventures",
+  "linkedin_cited_from": "https://incuvalventures.unheval.edu.pe",
+  "linkedin_accessed": "2026-10-22",
   "page": null,
   "notes": "Incuval Ventures (UNHEVAL), Emprende UDH (Huánuco)Incubadoras universitariasAgro andino-amazónico",
   "sector": "private",
@@ -4357,7 +4540,6 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/school/universidad-de-hu%C3%A1nuco",
   "nexus": {
    "card_slug": null
   },
@@ -4447,6 +4629,10 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://www.natureservices.net",
+  "linkedin": "https://www.linkedin.com/company/1873842",
+  "linkedin_url": "https://www.linkedin.com/company/1873842",
+  "linkedin_cited_from": "https://www.natureservices.net",
+  "linkedin_accessed": "2026-10-22",
   "page": null,
   "notes": "Nature Services Perú, Arbio, Reforestadora Amazónica, Bosques Amazónicos (BAM)Organizaciones de carbono forestal y restauraciónProyectos de carbono y reforestación que demandan soluciones de monitoreo",
   "sector": "private",
@@ -4496,6 +4682,9 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Arbio%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-country)"
   },
   "linkedin": "https://www.linkedin.com/company/asociaci%C3%B3n-arbio-amazonia",
+  "linkedin_url": "https://www.linkedin.com/company/asociaci%C3%B3n-arbio-amazonia",
+  "linkedin_cited_from": "https://www.arbioperu.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -4523,7 +4712,6 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/bam-bosques-amazonicos",
   "nexus": {
    "card_slug": null
   },
@@ -4551,7 +4739,6 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/bosques-amaz%C3%B3nicos-bam",
   "nexus": {
    "card_slug": null
   },
@@ -4613,7 +4800,6 @@
    "precision": "city",
    "source_url": "https://nominatim.openstreetmap.org/search?q=cusco%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
-  "linkedin": "https://www.linkedin.com/company/asociaci%C3%B3n-para-la-conservaci%C3%B3n-de-la-cuenca-amaz%C3%B3nica",
   "nexus": {
    "card_slug": null
   },
@@ -4648,6 +4834,9 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=AREQUIPA%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
   "linkedin": "https://www.linkedin.com/company/spdaorg",
+  "linkedin_url": "https://www.linkedin.com/company/spdaorg",
+  "linkedin_cited_from": "https://spda.org.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -4677,7 +4866,6 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/ciudad-saludable",
   "nexus": {
    "card_slug": null
   },
@@ -4711,6 +4899,9 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=cusco%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
   "linkedin": "https://www.linkedin.com/company/81309540",
+  "linkedin_url": "https://www.linkedin.com/company/81309540",
+  "linkedin_cited_from": "https://accion-andina.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -4770,7 +4961,10 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/fundacionwiese",
+  "linkedin": "https://www.linkedin.com/company/fundacionwiesepe",
+  "linkedin_url": "https://www.linkedin.com/company/fundacionwiesepe",
+  "linkedin_cited_from": "https://www.fundacionwiese.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -4798,7 +4992,10 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/fundacion-microfinanzas-bbva",
+  "linkedin": "https://www.linkedin.com/company/11015767",
+  "linkedin_url": "https://www.linkedin.com/company/11015767",
+  "linkedin_cited_from": "https://www.fundacionmicrofinanzasbbva.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -4815,6 +5012,10 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://www.belcorp.com/fundacionbelcorp",
+  "linkedin": "https://www.linkedin.com/company/fundacion-belcorp",
+  "linkedin_url": "https://www.linkedin.com/company/fundacion-belcorp",
+  "linkedin_cited_from": "https://www.belcorp.com/fundacionbelcorp",
+  "linkedin_accessed": "2026-10-22",
   "page": null,
   "notes": "Fundación Wiese, Fundación BBVA, Fundación Belcorp, Fundación UNACEM, Fundación Anglo AmericanFilantropía corporativaFondos y programas para emprendedores",
   "challenges": [
@@ -4865,7 +5066,10 @@
    "precision": "address",
    "source_url": "https://nominatim.openstreetmap.org/search?q=Asociaci%C3%B3n+UNACEM%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
-  "linkedin": "https://www.linkedin.com/company/asociacion-unacem/about",
+  "linkedin": "https://www.linkedin.com/company/asociaci%C3%B3nunacem",
+  "linkedin_url": "https://www.linkedin.com/company/asociaci%C3%B3nunacem",
+  "linkedin_cited_from": "https://asociacionunacem.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -4925,6 +5129,9 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Calle+Amador+Merino+Reyna+267%2C%2C+lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
   "linkedin": "https://www.linkedin.com/company/care-peru",
+  "linkedin_url": "https://www.linkedin.com/company/care-peru",
+  "linkedin_cited_from": "https://care.org.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -4970,6 +5177,10 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://www.helvetas.org/es/peru",
+  "linkedin": "https://www.linkedin.com/company/helvetas-peru",
+  "linkedin_url": "https://www.linkedin.com/company/helvetas-peru",
+  "linkedin_cited_from": "https://www.helvetas.org/es/peru",
+  "linkedin_accessed": "2026-10-22",
   "page": null,
   "notes": null,
   "sector": "private",
@@ -5019,7 +5230,6 @@
     "country_mismatch"
    ]
   },
-  "linkedin": "https://www.linkedin.com/company/swisscontact",
   "nexus": {
    "card_slug": null
   },
@@ -5055,7 +5265,10 @@
    "precision": "city",
    "source_url": "https://nominatim.openstreetmap.org/search?q=Per%C3%BA+Sostenible&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
   },
-  "linkedin": "https://www.linkedin.com/company/perusostenible/",
+  "linkedin": "https://www.linkedin.com/company/perusostenible",
+  "linkedin_url": "https://www.linkedin.com/company/perusostenible",
+  "linkedin_cited_from": "https://perusostenible.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -5088,7 +5301,10 @@
    "precision": "address",
    "source_url": "https://nominatim.openstreetmap.org/search?q=Sistema+B%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
-  "linkedin": "https://www.linkedin.com/company/sistema-b-m",
+  "linkedin": "https://www.linkedin.com/company/sistemabarg",
+  "linkedin_url": "https://www.linkedin.com/company/sistemabarg",
+  "linkedin_cited_from": "https://www.sistemab.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -5121,7 +5337,10 @@
    "precision": "city",
    "source_url": "https://nominatim.openstreetmap.org/search?q=L%2B1%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
-  "linkedin": "https://www.linkedin.com/company/l-1-lideres-impulsando-un-desarrollo-sostenible/",
+  "linkedin": "https://www.linkedin.com/company/25071544",
+  "linkedin_url": "https://www.linkedin.com/company/25071544",
+  "linkedin_cited_from": "https://www.lmas1.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -5155,6 +5374,9 @@
    "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/5043453",
+  "linkedin_url": "https://www.linkedin.com/company/5043453",
+  "linkedin_cited_from": "https://www.conservamospornaturaleza.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -5188,7 +5410,6 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/mongabay",
   "nexus": {
    "card_slug": null
   },
@@ -5218,7 +5439,6 @@
    "precision": "city",
    "source_url": "https://nominatim.openstreetmap.org/search?q=Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
-  "linkedin": "https://www.linkedin.com/company/actualidad-ambiental",
   "nexus": {
    "card_slug": null
   },
@@ -5235,6 +5455,10 @@
   "country": "Peru",
   "city": "San Isidro, Lima",
   "website": "https://gestion.pe",
+  "linkedin": "https://www.linkedin.com/company/diario-gesti%C3%B3n",
+  "linkedin_url": "https://www.linkedin.com/company/diario-gesti%C3%B3n",
+  "linkedin_cited_from": "https://gestion.pe",
+  "linkedin_accessed": "2026-10-22",
   "page": null,
   "notes": null,
   "sector": "private",
@@ -5284,6 +5508,9 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Agraria.pe%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "linkedin": "https://www.linkedin.com/company/76100786",
+  "linkedin_url": "https://www.linkedin.com/company/76100786",
+  "linkedin_cited_from": "https://agraria.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -5313,7 +5540,6 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/inter-american-development-bank",
   "nexus": {
    "card_slug": null
   },
@@ -5352,7 +5578,10 @@
    ],
    "office_note": "HQ (no in-country office found)"
   },
-  "linkedin": "https://www.linkedin.com/company/ifc/",
+  "linkedin": "https://www.linkedin.com/company/ifclinkedin",
+  "linkedin_url": "https://www.linkedin.com/company/ifclinkedin",
+  "linkedin_cited_from": "https://www.ifc.org/en/home",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -5387,7 +5616,10 @@
    "precision": "address",
    "source_url": "https://nominatim.openstreetmap.org/search?q=CAF+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
   },
-  "linkedin": "https://www.linkedin.com/company/caf-banco-de-desarrollo-de-america-latina",
+  "linkedin": "https://www.linkedin.com/company/caf",
+  "linkedin_url": "https://www.linkedin.com/company/caf",
+  "linkedin_cited_from": "https://www.caf.com/es/quienes-somos/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -5421,6 +5653,9 @@
    "office_note": "HQ (no in-country office found)"
   },
   "linkedin": "https://www.linkedin.com/company/the-world-bank",
+  "linkedin_url": "https://www.linkedin.com/company/the-world-bank",
+  "linkedin_cited_from": "https://www.worldbank.org/en/about/annual-report",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -5497,7 +5732,10 @@
    ],
    "office_note": "HQ (no in-country office found)"
   },
-  "linkedin": "https://www.linkedin.com/company/european-investment-bank/",
+  "linkedin": "https://www.linkedin.com/company/9360",
+  "linkedin_url": "https://www.linkedin.com/company/9360",
+  "linkedin_cited_from": "https://www.eib.org/en/index",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -5555,7 +5793,6 @@
    "precision": "address",
    "source_url": "https://nominatim.openstreetmap.org/search?q=FAO%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
-  "linkedin": "https://www.linkedin.com/company/fao/",
   "nexus": {
    "card_slug": null
   },
@@ -5590,7 +5827,6 @@
    ],
    "office_note": "HQ (no in-country office found)"
   },
-  "linkedin": "https://www.linkedin.com/company/unido",
   "nexus": {
    "card_slug": null
   },
@@ -5618,7 +5854,10 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/global-green-growth-institute",
+  "linkedin": "https://www.linkedin.com/company/gggi-asia",
+  "linkedin_url": "https://www.linkedin.com/company/gggi-asia",
+  "linkedin_cited_from": "https://gggi.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -5656,7 +5895,10 @@
    ],
    "office_note": "HQ (no in-country office found)"
   },
-  "linkedin": "https://www.linkedin.com/company/unhabitat/",
+  "linkedin": "https://www.linkedin.com/company/un-habitat-united-nation-human-settlements-programme-",
+  "linkedin_url": "https://www.linkedin.com/company/un-habitat-united-nation-human-settlements-programme-",
+  "linkedin_cited_from": "https://unhabitat.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -5686,7 +5928,6 @@
    "precision": "address",
    "source_url": "https://nominatim.openstreetmap.org/search?q=IICA%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
-  "linkedin": "https://www.linkedin.com/company/iica",
   "nexus": {
    "card_slug": null
   },
@@ -5719,6 +5960,9 @@
    "office_note": "HQ (no in-country office found)"
   },
   "linkedin": "https://www.linkedin.com/company/gizgmbh",
+  "linkedin_url": "https://www.linkedin.com/company/gizgmbh",
+  "linkedin_cited_from": "https://www.giz.de/de",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -5780,7 +6024,10 @@
    "precision": "address",
    "source_url": "https://nominatim.openstreetmap.org/search?q=Uni%C3%B3n+Europea+Lima+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (retry)"
   },
-  "linkedin": "https://www.linkedin.com/company/euroclima-program",
+  "linkedin": "https://www.linkedin.com/company/european-commission",
+  "linkedin_url": "https://www.linkedin.com/company/european-commission",
+  "linkedin_cited_from": "https://international-partnerships.ec.europa.eu/policies/global-gateway/euroclima_en",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -5818,6 +6065,9 @@
    "office_note": "HQ (no in-country office found)"
   },
   "linkedin": "https://www.linkedin.com/company/agencia-espa-ola-de-cooperacion-internacional---aecid",
+  "linkedin_url": "https://www.linkedin.com/company/agencia-espa-ola-de-cooperacion-internacional---aecid",
+  "linkedin_cited_from": "https://www.aecid.es",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -5850,7 +6100,6 @@
    ],
    "office_note": "HQ (no in-country office found)"
   },
-  "linkedin": "https://www.linkedin.com/company/agence-francaise-de-developpement",
   "nexus": {
    "card_slug": null
   },
@@ -5889,7 +6138,10 @@
    ],
    "office_note": "HQ (no in-country office found)"
   },
-  "linkedin": "https://www.linkedin.com/company/jica",
+  "linkedin": "https://www.linkedin.com/company/japan-international-cooperation-agency-jica-",
+  "linkedin_url": "https://www.linkedin.com/company/japan-international-cooperation-agency-jica-",
+  "linkedin_cited_from": "https://www.jica.go.jp",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -5961,6 +6213,9 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
   "linkedin": "https://www.linkedin.com/company/ahk-peru-camara-peruano-alemana",
+  "linkedin_url": "https://www.linkedin.com/company/ahk-peru-camara-peruano-alemana",
+  "linkedin_cited_from": "https://peru.ahk.de/de",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -5995,6 +6250,9 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Avenida+V%C3%ADctor+Andr%C3%A9s+Bela%C3%BAnde+177%2C+San+Isidro%2C+San+Isidro%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
   "linkedin": "https://www.linkedin.com/company/amchamperu",
+  "linkedin_url": "https://www.linkedin.com/company/amchamperu",
+  "linkedin_cited_from": "https://amcham.org.pe/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -6024,6 +6282,9 @@
    "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/c%C3%A1mara-de-comercio-canad%C3%A1-per%C3%BA",
+  "linkedin_url": "https://www.linkedin.com/company/c%C3%A1mara-de-comercio-canad%C3%A1-per%C3%BA",
+  "linkedin_cited_from": "https://canadaperu.org/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -6059,6 +6320,9 @@
    "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/conservation-international",
+  "linkedin_url": "https://www.linkedin.com/company/conservation-international",
+  "linkedin_cited_from": "https://www.conservation.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -6090,6 +6354,9 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=WWF+Per%C3%BA%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
   "linkedin": "https://www.linkedin.com/company/wwfperu",
+  "linkedin_url": "https://www.linkedin.com/company/wwfperu",
+  "linkedin_cited_from": "https://www.wwf.org.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -6124,6 +6391,9 @@
    "office_note": "HQ (no in-country office found)"
   },
   "linkedin": "https://www.linkedin.com/company/the-nature-conservancy",
+  "linkedin_url": "https://www.linkedin.com/company/the-nature-conservancy",
+  "linkedin_cited_from": "https://www.nature.org/en-us/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -6158,6 +6428,9 @@
    "office_note": "HQ (no in-country office found)"
   },
   "linkedin": "https://www.linkedin.com/company/forest-trends-association",
+  "linkedin_url": "https://www.linkedin.com/company/forest-trends-association",
+  "linkedin_cited_from": "https://www.forest-trends.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -6193,6 +6466,9 @@
    "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/rainforest-alliance",
+  "linkedin_url": "https://www.linkedin.com/company/rainforest-alliance",
+  "linkedin_cited_from": "https://www.rainforest-alliance.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -6226,7 +6502,6 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/avina/",
   "nexus": {
    "card_slug": null
   },
@@ -6255,7 +6530,10 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/pvblic-foundation/",
+  "linkedin": "https://www.linkedin.com/company/pvblicfoundation",
+  "linkedin_url": "https://www.linkedin.com/company/pvblicfoundation",
+  "linkedin_cited_from": "https://www.pvblic.org/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -6286,6 +6564,9 @@
    "source_url": "https://cleantechhub.net"
   },
   "linkedin": "https://www.linkedin.com/company/cleantechhub",
+  "linkedin_url": "https://www.linkedin.com/company/cleantechhub",
+  "linkedin_cited_from": "https://cleantechhub.net",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -6317,7 +6598,6 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/black-soldier-fly-logistics",
   "nexus": {
    "card_slug": null
   },
@@ -6348,7 +6628,6 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/yakusmart",
   "nexus": {
    "card_slug": "yakusmart"
   },
@@ -6409,7 +6688,6 @@
    "precision": "city",
    "source_url": "https://nominatim.openstreetmap.org/search?q=UQHU%2C+Lima%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe (name-capital)"
   },
-  "linkedin": "https://www.linkedin.com/company/uqhu",
   "nexus": {
    "card_slug": null
   },
@@ -6440,7 +6718,6 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/yakufil",
   "nexus": {
    "card_slug": null
   },
@@ -6471,7 +6748,6 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/rebike-up",
   "nexus": {
    "card_slug": null
   },
@@ -6500,6 +6776,9 @@
    "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/pomona-impact",
+  "linkedin_url": "https://www.linkedin.com/company/pomona-impact",
+  "linkedin_cited_from": "https://pomonaimpact.com",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -6527,7 +6806,10 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/viwala",
+  "linkedin": "https://www.linkedin.com/company/55046457",
+  "linkedin_url": "https://www.linkedin.com/company/55046457",
+  "linkedin_cited_from": "https://www.viwala.com/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -6611,7 +6893,6 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/banco-azul",
   "nexus": {
    "card_slug": null
   },
@@ -6639,7 +6920,6 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/banco-hipotecario-de-el-salvador",
   "nexus": {
    "card_slug": null
   },
@@ -6667,7 +6947,10 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/banco-atlantida-el-salvador/",
+  "linkedin": "https://www.linkedin.com/company/bancatlan-sv",
+  "linkedin_url": "https://www.linkedin.com/company/bancatlan-sv",
+  "linkedin_cited_from": "https://www.bancoatlantida.com.sv",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -6696,6 +6979,9 @@
    "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/bancoagricola",
+  "linkedin_url": "https://www.linkedin.com/company/bancoagricola",
+  "linkedin_cited_from": "https://www.bancoagricola.com",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -6888,6 +7174,9 @@
    "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/bcie",
+  "linkedin_url": "https://www.linkedin.com/company/bcie",
+  "linkedin_cited_from": "https://www.bcie.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -6970,7 +7259,6 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/cafivc",
   "nexus": {
    "card_slug": null
   },
@@ -7017,6 +7305,10 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://www.ternova.group/circular-solutions",
+  "linkedin": "https://www.linkedin.com/company/ternovagroup",
+  "linkedin_url": "https://www.linkedin.com/company/ternovagroup",
+  "linkedin_cited_from": "https://www.ternova.group/circular-solutions",
+  "linkedin_accessed": "2026-10-22",
   "page": null,
   "notes": null,
   "nexus_slug": null,
@@ -7048,6 +7340,10 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://ipsalatinoamerica.com",
+  "linkedin": "https://www.linkedin.com/company/ipsa-latinoamerica2018",
+  "linkedin_url": "https://www.linkedin.com/company/ipsa-latinoamerica2018",
+  "linkedin_cited_from": "https://ipsalatinoamerica.com",
+  "linkedin_accessed": "2026-10-22",
   "page": null,
   "notes": "Industrias Plásticas, S.A. de C.V. es la empresa líder en la fabricación de productos plásticos en El Salvador.Junto a otras del grupo: Unitape y Capri Recycling, están impulsando un modelo de economía circular integral. Procesa aproximadamente 250 toneladas de plástico al mes, p",
   "geo": {
@@ -7087,6 +7383,9 @@
    "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/ternovagroup",
+  "linkedin_url": "https://www.linkedin.com/company/ternovagroup",
+  "linkedin_cited_from": "https://www.ternova.group",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -7114,7 +7413,10 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/grupo-agrisal",
+  "linkedin": "https://www.linkedin.com/company/agrisal",
+  "linkedin_url": "https://www.linkedin.com/company/agrisal",
+  "linkedin_cited_from": "https://agrisal.com",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -7131,6 +7433,10 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://laconstancia.com",
+  "linkedin": "https://www.linkedin.com/company/la-constancia-sv",
+  "linkedin_url": "https://www.linkedin.com/company/la-constancia-sv",
+  "linkedin_cited_from": "https://www.laconstancia.com/",
+  "linkedin_accessed": "2026-10-22",
   "page": null,
   "notes": "Industrias Plásticas, S.A. de C.V. es la empresa líder en la fabricación de productos plásticos en El Salvador.Junto a otras del grupo: Unitape y Capri Recycling, están impulsando un modelo de economía circular integral. Procesa aproximadamente 250 toneladas de plástico al mes, p",
   "geo": {
@@ -7159,6 +7465,10 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://grupoferromax.com",
+  "linkedin": "https://www.linkedin.com/company/grupo-ferromax",
+  "linkedin_url": "https://www.linkedin.com/company/grupo-ferromax",
+  "linkedin_cited_from": "https://grupoferromax.com",
+  "linkedin_accessed": "2026-10-22",
   "page": null,
   "notes": "Grupo Ternova es una corporación líder en la producción de soluciones sostenibles e innovadoras para dos sectores clave: empaques flexibles y centros logísticos de alta eficiencia con operaciones en las Américas y el Sudeste Asiático. Implementación del modelo \"Business to Human\"",
   "geo": {
@@ -7197,7 +7507,6 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/super-selectos/",
   "nexus": {
    "card_slug": null
   },
@@ -7225,7 +7534,10 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/aes-el-salvador",
+  "linkedin": "https://www.linkedin.com/company/aeselsalvador",
+  "linkedin_url": "https://www.linkedin.com/company/aeselsalvador",
+  "linkedin_cited_from": "https://www.aes-elsalvador.com/es",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -7255,6 +7567,9 @@
    "office_note": "CAMARASAL contact directory"
   },
   "linkedin": "https://www.linkedin.com/company/27249850",
+  "linkedin_url": "https://www.linkedin.com/company/27249850",
+  "linkedin_cited_from": "https://camarasal.com",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -7309,7 +7624,6 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/camtex-el-salvador",
   "nexus": {
    "card_slug": null
   },
@@ -7362,6 +7676,10 @@
   "country": "El Salvador",
   "city": "San Salvador",
   "website": "https://industriaelsalvador.com",
+  "linkedin": "https://www.linkedin.com/company/asociacion-salvadore-a-de-industriales",
+  "linkedin_url": "https://www.linkedin.com/company/asociacion-salvadore-a-de-industriales",
+  "linkedin_cited_from": "https://industriaelsalvador.com/contacto/",
+  "linkedin_accessed": "2026-10-22",
   "page": null,
   "notes": null,
   "geo": {
@@ -7483,7 +7801,6 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/conamype",
   "nexus": {
    "card_slug": null
   },
@@ -7541,6 +7858,9 @@
    "office_note": "INVEST promotion agency"
   },
   "linkedin": "https://www.linkedin.com/company/investinelsalvador",
+  "linkedin_url": "https://www.linkedin.com/company/investinelsalvador",
+  "linkedin_cited_from": "https://investinelsalvador.gob.sv/es",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -7597,6 +7917,9 @@
    "office_note": "Impact Hub San Salvador public site"
   },
   "linkedin": "https://www.linkedin.com/company/ihsansalvador",
+  "linkedin_url": "https://www.linkedin.com/company/ihsansalvador",
+  "linkedin_cited_from": "https://sansalvador.impacthub.net",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -7625,7 +7948,10 @@
    "source_url": "https://pvblic.org/rein-hubs",
    "office_note": "REIN Hub El Salvador anchored at UTEC"
   },
-  "linkedin": "https://www.linkedin.com/company/pvblic-foundation",
+  "linkedin": "https://www.linkedin.com/company/pvblicfoundation",
+  "linkedin_url": "https://www.linkedin.com/company/pvblicfoundation",
+  "linkedin_cited_from": "https://www.pvblic.org/rein-hubs",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -7654,7 +7980,6 @@
    "source_url": "https://www.utec.edu.sv/",
    "office_note": "CREA at UTEC (same campus as anchor hub)"
   },
-  "linkedin": "https://www.linkedin.com/school/universidad-tecnol%C3%B3gica-de-el-salvador/",
   "nexus": {
    "card_slug": null
   },
@@ -7683,6 +8008,9 @@
    "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/snbxsv",
+  "linkedin_url": "https://www.linkedin.com/company/snbxsv",
+  "linkedin_cited_from": "https://snbx.sv",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -7710,7 +8038,10 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/fundaci%C3%B3n-gloria-kriete",
+  "linkedin": "https://www.linkedin.com/company/fundacion-gloria-kriete",
+  "linkedin_url": "https://www.linkedin.com/company/fundacion-gloria-kriete",
+  "linkedin_cited_from": "https://fundaciongloriakriete.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -7738,7 +8069,6 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/startupbootcamp",
   "nexus": {
    "card_slug": null
   },
@@ -7767,7 +8097,6 @@
    "source_url": "https://www.utec.edu.sv/",
    "office_note": "Campus Dr. José Mauricio Loucel (Escalón) — public contact page"
   },
-  "linkedin": "https://www.linkedin.com/school/universidadtecnologicadeelsalvador",
   "nexus": {
    "card_slug": null
   },
@@ -7797,7 +8126,6 @@
    "source_url": "https://www.ues.edu.sv/",
    "office_note": "UES Ciudad Universitaria"
   },
-  "linkedin": "https://www.linkedin.com/school/universidad-de-el-salvador/",
   "nexus": {
    "card_slug": null
   },
@@ -7827,6 +8155,9 @@
    "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/keyinstitutesv",
+  "linkedin_url": "https://www.linkedin.com/company/keyinstitutesv",
+  "linkedin_cited_from": "https://www.keyinstitute.com/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -7861,7 +8192,6 @@
    "source_url": "https://www.uca.edu.sv/",
    "office_note": "UCA main campus (narrative mention in deck §3)"
   },
-  "linkedin": "https://www.linkedin.com/school/universidad-centroamericana-jos--sime-n-ca-as",
   "nexus": {
    "card_slug": null
   },
@@ -8033,7 +8363,6 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/la-prensa-gr%C3%A1fica",
   "nexus": {
    "card_slug": null
   },
@@ -8061,7 +8390,6 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/am-rica-interactiva-el-diario-de-hoy",
   "nexus": {
    "card_slug": null
   },
@@ -8143,7 +8471,10 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/fundaci%C3%B3n-gloria-kriete",
+  "linkedin": "https://www.linkedin.com/company/fundacion-gloria-kriete",
+  "linkedin_url": "https://www.linkedin.com/company/fundacion-gloria-kriete",
+  "linkedin_cited_from": "https://fundaciongloriakriete.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -8198,7 +8529,6 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/fundaci%C3%B3n-colabora/",
   "nexus": {
    "card_slug": null
   },
@@ -8233,7 +8563,6 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/food-and-agriculture-organization-of-the-united-nations",
   "nexus": {
    "card_slug": null
   },
@@ -8267,7 +8596,6 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/united-nations-development-programme",
   "nexus": {
    "card_slug": null
   },
@@ -8295,7 +8623,6 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/unep",
   "nexus": {
    "card_slug": null
   },
@@ -8326,6 +8653,9 @@
    "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/grupo-banco-mundial",
+  "linkedin_url": "https://www.linkedin.com/company/grupo-banco-mundial",
+  "linkedin_cited_from": "https://www.bancomundial.org/ext/es/country/elsalvador",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -8360,7 +8690,6 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/inter-american-development-bank",
   "nexus": {
    "card_slug": null
   },
@@ -8391,7 +8720,10 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/global-green-growth-institute",
+  "linkedin": "https://www.linkedin.com/company/gggi-asia",
+  "linkedin_url": "https://www.linkedin.com/company/gggi-asia",
+  "linkedin_cited_from": "https://gggi.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -8420,7 +8752,6 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/cepal",
   "nexus": {
    "card_slug": null
   },
@@ -8448,7 +8779,6 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/iom",
   "nexus": {
    "card_slug": null
   },
@@ -8479,6 +8809,9 @@
    "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/gizgmbh",
+  "linkedin_url": "https://www.linkedin.com/company/gizgmbh",
+  "linkedin_cited_from": "https://www.giz.de/de",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -8507,7 +8840,6 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/aecid/",
   "nexus": {
    "card_slug": null
   },
@@ -8535,7 +8867,6 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/usaid",
   "nexus": {
    "card_slug": null
   },
@@ -8564,7 +8895,6 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/catholic-relief-services",
   "nexus": {
    "card_slug": null
   },
@@ -8595,7 +8925,6 @@
    "source_url": "https://san-salvador.diplo.de/sv-es",
    "office_note": "German Embassy San Salvador"
   },
-  "linkedin": "https://www.linkedin.com/company/alemaniaenelsalvador",
   "nexus": {
    "card_slug": null
   },
@@ -8641,6 +8970,10 @@
   "country": "El Salvador",
   "city": "San Salvador; Calle La Reforma y 9ª Calle Poniente, Colonia San Benito, San Salvador",
   "website": "https://www.exteriores.gob.es/Embajadas/sansalvador/es/Paginas/index.aspx",
+  "linkedin": "https://www.linkedin.com/company/ministerio-de-asuntos-exteriores-union-europea-y-cooperacion",
+  "linkedin_url": "https://www.linkedin.com/company/ministerio-de-asuntos-exteriores-union-europea-y-cooperacion",
+  "linkedin_cited_from": "https://www.exteriores.gob.es/Embajadas/sansalvador/es/Paginas/index.aspx",
+  "linkedin_accessed": "2026-10-22",
   "page": null,
   "notes": "Embajada de Alemania Impulso a la sostenibilidad energética y apoyo a comunidades locales.Inauguración de una planta solar en la embajada, avanzando hacia la sostenibilidad energética.Financiamiento de más de 20 proyectos comunitarios en áreas como agua potable, salud y emprendim",
   "geo": {
@@ -8708,6 +9041,9 @@
    "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/fenoge",
+  "linkedin_url": "https://www.linkedin.com/company/fenoge",
+  "linkedin_cited_from": "https://fenoge.gov.co",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -8737,6 +9073,9 @@
    "source_url": "https://nominatim.openstreetmap.org/search?q=Banc%C3%B3ldex%2C+Colombia&format=json&limit=1&addressdetails=1&countrycodes=co (name-country)"
   },
   "linkedin": "https://www.linkedin.com/company/bancoldex",
+  "linkedin_url": "https://www.linkedin.com/company/bancoldex",
+  "linkedin_cited_from": "https://www.bancoldex.com",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -8770,6 +9109,9 @@
    "office_note": "HQ (no in-country office found)"
   },
   "linkedin": "https://www.linkedin.com/company/green-climate-fund",
+  "linkedin_url": "https://www.linkedin.com/company/green-climate-fund",
+  "linkedin_cited_from": "https://www.greenclimate.fund",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -8802,7 +9144,6 @@
    ],
    "office_note": "HQ (no in-country office found)"
   },
-  "linkedin": "https://www.linkedin.com/company/cifaction/",
   "nexus": {
    "card_slug": null
   },
@@ -8832,6 +9173,9 @@
    "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/minenergia",
+  "linkedin_url": "https://www.linkedin.com/company/minenergia",
+  "linkedin_cited_from": "https://www.minenergia.gov.co/es/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -8860,6 +9204,9 @@
    "source_url": null
   },
   "linkedin": "https://www.linkedin.com/company/comisi%C3%B3n-de-regulaci%C3%B3n-de-energ%C3%ADa-y-gas-creg",
+  "linkedin_url": "https://www.linkedin.com/company/comisi%C3%B3n-de-regulaci%C3%B3n-de-energ%C3%ADa-y-gas-creg",
+  "linkedin_cited_from": "https://creg.gov.co/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -8888,7 +9235,10 @@
    "precision": "country",
    "source_url": null
   },
-  "linkedin": "https://www.linkedin.com/company/unidad-de-planeaci%C3%B3n-minero-energ%C3%A9tica-upme",
+  "linkedin": "https://www.linkedin.com/company/unidad-de-planeaci-n-minero-energ-tica",
+  "linkedin_url": "https://www.linkedin.com/company/unidad-de-planeaci-n-minero-energ-tica",
+  "linkedin_cited_from": "https://www.upme.gov.co/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -8919,6 +9269,9 @@
   "source_url": null
  },
  "linkedin": "https://www.linkedin.com/company/ipse-zni",
+ "linkedin_url": "https://www.linkedin.com/company/ipse-zni",
+ "linkedin_cited_from": "https://ipse.gov.co",
+ "linkedin_accessed": "2026-10-22",
  "nexus": {
   "card_slug": null
  },
@@ -9251,8 +9604,7 @@
   "ecosystem_role": "Empresa de alimentos y bebidas.",
   "description": "Alpina Productos Alimenticios produce lácteos y alimentos con operación en Colombia."
  },
- "linkedin": "https://www.linkedin.com/company/alpina/"
- },
+ "linkedin": "https://www.linkedin.com/company/alpina/" },
  {
   "name": "ASEP",
   "type": "org",
@@ -9285,6 +9637,10 @@
   "country": "Peru",
   "city": "La Victoria",
   "website": "https://revistaganamas.com.pe/",
+  "linkedin": "https://www.linkedin.com/company/-finanz-s",
+  "linkedin_url": "https://www.linkedin.com/company/-finanz-s",
+  "linkedin_cited_from": "https://revistaganamas.com.pe/",
+  "linkedin_accessed": "2026-10-22",
   "challenges": [],
   "notes": "Medio especializado en economía, negocios y emprendimiento Medio especializado en economía, negocios y emprendimiento",
   "source": "Mapa de Actores Perú 2026",
@@ -9342,7 +9698,10 @@
    "precision": "country",
    "country": "Peru"
   },
-  "linkedin": "https://www.linkedin.com/company/92463372",
+  "linkedin": "https://www.linkedin.com/company/hubudep",
+  "linkedin_url": "https://www.linkedin.com/company/hubudep",
+  "linkedin_cited_from": "https://www.hub.udep.pe/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -9367,7 +9726,6 @@
    "precision": "country",
    "country": "Peru"
   },
-  "linkedin": "https://www.linkedin.com/company/incubagraria",
   "nexus": {
    "card_slug": null
   },
@@ -9392,7 +9750,6 @@
    "precision": "country",
    "country": "Peru"
   },
-  "linkedin": "https://www.linkedin.com/company/redesignlab",
   "nexus": {
    "card_slug": null
   },
@@ -9418,6 +9775,9 @@
    "country": "Peru"
   },
   "linkedin": "https://www.linkedin.com/company/alaya-business-accelerator-s-a-",
+  "linkedin_url": "https://www.linkedin.com/company/alaya-business-accelerator-s-a-",
+  "linkedin_cited_from": "https://alaya-capital.com/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -9460,6 +9820,9 @@
    "country": "Peru"
   },
   "linkedin": "https://www.linkedin.com/company/arpegio-vc",
+  "linkedin_url": "https://www.linkedin.com/company/arpegio-vc",
+  "linkedin_cited_from": "https://arpegio.vc/about/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -9484,7 +9847,10 @@
    "precision": "country",
    "country": "Peru"
   },
-  "linkedin": "https://www.linkedin.com/company/axa-investment-managers",
+  "linkedin": "https://www.linkedin.com/company/bnp-paribas-asset-management",
+  "linkedin_url": "https://www.linkedin.com/company/bnp-paribas-asset-management",
+  "linkedin_cited_from": "https://alts.axa-im.com/responsible-investing/impact-investing",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -9510,7 +9876,6 @@
    "precision": "country",
    "country": "Peru"
   },
-  "linkedin": "https://www.linkedin.com/company/babas%C3%BA-ventures/",
   "nexus": {
    "card_slug": null
   },
@@ -9536,6 +9901,9 @@
    "country": "Peru"
   },
   "linkedin": "https://www.linkedin.com/company/bancasostenible",
+  "linkedin_url": "https://www.linkedin.com/company/bancasostenible",
+  "linkedin_cited_from": "https://bancasostenible.la/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -9560,7 +9928,6 @@
    "precision": "country",
    "country": "Peru"
   },
-  "linkedin": "https://www.linkedin.com/company/beneficial-returns",
   "nexus": {
    "card_slug": null
   },
@@ -9610,6 +9977,9 @@
    "country": "Peru"
   },
   "linkedin": "https://www.linkedin.com/company/earthshot-ventures",
+  "linkedin_url": "https://www.linkedin.com/company/earthshot-ventures",
+  "linkedin_cited_from": "https://www.earthshot.vc",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -9635,6 +10005,9 @@
    "country": "Peru"
   },
   "linkedin": "https://www.linkedin.com/company/eleafoundation",
+  "linkedin_url": "https://www.linkedin.com/company/eleafoundation",
+  "linkedin_cited_from": "https://www.elea.org/en/home-en",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -9660,6 +10033,9 @@
    "country": "Peru"
   },
   "linkedin": "https://www.linkedin.com/company/impacta-vc",
+  "linkedin_url": "https://www.linkedin.com/company/impacta-vc",
+  "linkedin_cited_from": "https://www.impacta.vc/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -9687,6 +10063,9 @@
    "country": "Peru"
   },
   "linkedin": "https://www.linkedin.com/company/salkantay-ventures",
+  "linkedin_url": "https://www.linkedin.com/company/salkantay-ventures",
+  "linkedin_cited_from": "https://www.salkantay.vc/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -9760,6 +10139,9 @@
    "country": "Peru"
   },
   "linkedin": "https://www.linkedin.com/company/convergenceblendedfinance",
+  "linkedin_url": "https://www.linkedin.com/company/convergenceblendedfinance",
+  "linkedin_cited_from": "https://www.convergence.finance/accelerator",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -9784,7 +10166,10 @@
    "precision": "country",
    "country": "Peru"
   },
-  "linkedin": "https://www.linkedin.com/company/scale-up-latam/",
+  "linkedin": "https://www.linkedin.com/company/incubadorascale",
+  "linkedin_url": "https://www.linkedin.com/company/incubadorascale",
+  "linkedin_cited_from": "https://scaleup4.com/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -9810,6 +10195,9 @@
    "country": "Peru"
   },
   "linkedin": "https://www.linkedin.com/company/theganeshalab",
+  "linkedin_url": "https://www.linkedin.com/company/theganeshalab",
+  "linkedin_cited_from": "https://theganeshalab.com/contact/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -9835,6 +10223,9 @@
    "country": "Peru"
   },
   "linkedin": "https://www.linkedin.com/company/a2g-sostenibilidad-y-cambio-clim%C3%A1tico",
+  "linkedin_url": "https://www.linkedin.com/company/a2g-sostenibilidad-y-cambio-clim%C3%A1tico",
+  "linkedin_cited_from": "https://a2g.pe/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -9883,7 +10274,6 @@
    "precision": "country",
    "country": "Peru"
   },
-  "linkedin": "https://www.linkedin.com/company/green-gold-forestry/",
   "nexus": {
    "card_slug": null
   },
@@ -9923,6 +10313,10 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://ecoproa.com/",
+  "linkedin": "https://www.linkedin.com/company/ecoproa",
+  "linkedin_url": "https://www.linkedin.com/company/ecoproa",
+  "linkedin_cited_from": "https://ecoproa.com/",
+  "linkedin_accessed": "2026-10-22",
   "challenges": [],
   "notes": null,
   "source": "Mapa de Actores Perú 2026",
@@ -10004,7 +10398,6 @@
    "precision": "country",
    "country": "Peru"
   },
-  "linkedin": "https://www.linkedin.com/company/qaira",
   "nexus": {
    "card_slug": null
   },
@@ -10030,6 +10423,9 @@
    "country": "Peru"
   },
   "linkedin": "https://www.linkedin.com/company/saphixyz",
+  "linkedin_url": "https://www.linkedin.com/company/saphixyz",
+  "linkedin_cited_from": "https://saphi.xyz/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -10103,7 +10499,6 @@
    "precision": "country",
    "country": "Peru"
   },
-  "linkedin": "https://www.linkedin.com/company/fundes",
   "nexus": {
    "card_slug": null
   },
@@ -10153,6 +10548,9 @@
    "country": "Peru"
   },
   "linkedin": "https://www.linkedin.com/company/nexosmasuno",
+  "linkedin_url": "https://www.linkedin.com/company/nexosmasuno",
+  "linkedin_cited_from": "https://nexosmasuno.com/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -10178,6 +10576,9 @@
    "country": "Peru"
   },
   "linkedin": "https://www.linkedin.com/company/amanatari",
+  "linkedin_url": "https://www.linkedin.com/company/amanatari",
+  "linkedin_cited_from": "https://www.amanatari.org/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -10203,6 +10604,9 @@
    "country": "Peru"
   },
   "linkedin": "https://www.linkedin.com/company/haskoning",
+  "linkedin_url": "https://www.linkedin.com/company/haskoning",
+  "linkedin_cited_from": "https://www.haskoning.com",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -10227,7 +10631,6 @@
    "precision": "country",
    "country": "Peru"
   },
-  "linkedin": "https://www.linkedin.com/company/idb-lab",
   "nexus": {
    "card_slug": null
   },
@@ -10301,7 +10704,6 @@
    "precision": "country",
    "country": "Peru"
   },
-  "linkedin": "https://www.linkedin.com/company/liquid-venture-studio/",
   "nexus": {
    "card_slug": null
   },
@@ -10353,6 +10755,9 @@
    "country": "Peru"
   },
   "linkedin": "https://www.linkedin.com/company/upt-incuba",
+  "linkedin_url": "https://www.linkedin.com/company/upt-incuba",
+  "linkedin_cited_from": "https://www.uptincuba.pe/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -10402,6 +10807,9 @@
    "country": "Peru"
   },
   "linkedin": "https://www.linkedin.com/company/earth-innovation-institute",
+  "linkedin_url": "https://www.linkedin.com/company/earth-innovation-institute",
+  "linkedin_cited_from": "https://earthinnovation.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -10427,6 +10835,9 @@
    "country": "Peru"
   },
   "linkedin": "https://www.linkedin.com/company/hi-ventures",
+  "linkedin_url": "https://www.linkedin.com/company/hi-ventures",
+  "linkedin_cited_from": "https://www.hi.vc/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -10455,7 +10866,10 @@
    "precision": "country",
    "country": "Peru"
   },
-  "linkedin": "https://www.linkedin.com/company/credicorp/",
+  "linkedin": "https://www.linkedin.com/company/grupocredicorp",
+  "linkedin_url": "https://www.linkedin.com/company/grupocredicorp",
+  "linkedin_cited_from": "https://grupocredicorp.com",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -10471,6 +10885,10 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://www.mercycorps.org.co/",
+  "linkedin": "https://www.linkedin.com/company/mercycorpscolombia",
+  "linkedin_url": "https://www.linkedin.com/company/mercycorpscolombia",
+  "linkedin_cited_from": "https://www.mercycorps.org.co/",
+  "linkedin_accessed": "2026-10-22",
   "challenges": [
    "ENE",
    "FIN"
@@ -10510,7 +10928,6 @@
    "precision": "country",
    "country": "Peru"
   },
-  "linkedin": "https://www.linkedin.com/company/fundaci%C3%B3n-bbva-per%C3%BA/",
   "nexus": {
    "card_slug": null
   },
@@ -10526,6 +10943,10 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://elcomercio.pe",
+  "linkedin": "https://www.linkedin.com/company/el-comercio",
+  "linkedin_url": "https://www.linkedin.com/company/el-comercio",
+  "linkedin_cited_from": "https://elcomercio.pe",
+  "linkedin_accessed": "2026-10-22",
   "challenges": [],
   "notes": null,
   "source": "Mapa de Actores Perú 2026",
@@ -10560,6 +10981,9 @@
    "country": "Peru"
   },
   "linkedin": "https://www.linkedin.com/company/elperuano",
+  "linkedin_url": "https://www.linkedin.com/company/elperuano",
+  "linkedin_cited_from": "https://elperuano.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -10584,7 +11008,6 @@
    "precision": "country",
    "country": "Peru"
   },
-  "linkedin": "https://www.linkedin.com/company/revista-proactivo",
   "nexus": {
    "card_slug": null
   },
@@ -10639,7 +11062,6 @@
    "precision": "country",
    "country": "Peru"
   },
-  "linkedin": "https://www.linkedin.com/company/idb-invest",
   "nexus": {
    "card_slug": null
   },
@@ -10667,7 +11089,6 @@
    "precision": "country",
    "country": "Peru"
   },
-  "linkedin": "https://www.linkedin.com/company/deg",
   "nexus": {
    "card_slug": null
   },
@@ -10695,7 +11116,6 @@
    "precision": "country",
    "country": "Peru"
   },
-  "linkedin": "https://www.linkedin.com/company/cita-utec",
   "nexus": {
    "card_slug": null
   },
@@ -10750,6 +11170,9 @@
    "country": "Peru"
   },
   "linkedin": "https://www.linkedin.com/company/unops",
+  "linkedin_url": "https://www.linkedin.com/company/unops",
+  "linkedin_cited_from": "https://www.unops.org/es",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -10777,6 +11200,9 @@
    "country": "Peru"
   },
   "linkedin": "https://www.linkedin.com/company/pan-american-health-organization",
+  "linkedin_url": "https://www.linkedin.com/company/pan-american-health-organization",
+  "linkedin_cited_from": "https://www.paho.org/es",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -10866,6 +11292,10 @@
   "country": "Peru",
   "city": "Bruselas, Bélgica (iniciativa UE)",
   "website": "https://circulareconomy.europa.eu/platform/en",
+  "linkedin": "https://www.linkedin.com/company/ekofom",
+  "linkedin_url": "https://www.linkedin.com/company/ekofom",
+  "linkedin_cited_from": "https://circulareconomy.europa.eu/platform/en",
+  "linkedin_accessed": "2026-10-22",
   "challenges": [],
   "notes": null,
   "source": "Mapa de Actores Perú 2026",
@@ -10927,7 +11357,6 @@
    "precision": "country",
    "country": "Peru"
   },
-  "linkedin": "https://www.linkedin.com/company/expertise-france",
   "nexus": {
    "card_slug": null
   },
@@ -11028,7 +11457,6 @@
    "precision": "country",
    "country": "Peru"
   },
-  "linkedin": "https://www.linkedin.com/company/finnish-embassy-in-peru",
   "nexus": {
    "card_slug": null
   },
@@ -11101,7 +11529,6 @@
    "precision": "country",
    "country": "Peru"
   },
-  "linkedin": "https://www.linkedin.com/company/ueenperu",
   "nexus": {
    "card_slug": null
   },
@@ -11126,7 +11553,6 @@
    "precision": "country",
    "country": "Peru"
   },
-  "linkedin": "https://www.linkedin.com/company/embassy-of-canada-to-peru",
   "nexus": {
    "card_slug": null
   },
@@ -11151,7 +11577,6 @@
    "precision": "country",
    "country": "Peru"
   },
-  "linkedin": "https://www.linkedin.com/company/camaradelima",
   "nexus": {
    "card_slug": null
   },
@@ -11178,7 +11603,10 @@
    "precision": "country",
    "country": "Peru"
   },
-  "linkedin": "https://www.linkedin.com/company/camara-de-comercio-italiana-del-peru",
+  "linkedin": "https://www.linkedin.com/company/c%C3%A1mara-de-comercio-italiana-del-per%C3%BA",
+  "linkedin_url": "https://www.linkedin.com/company/c%C3%A1mara-de-comercio-italiana-del-per%C3%BA",
+  "linkedin_cited_from": "https://www.cciperu.it",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -11206,7 +11634,10 @@
    "precision": "country",
    "country": "Peru"
   },
-  "linkedin": "https://www.linkedin.com/company/tropical-forest-alliance",
+  "linkedin": "https://www.linkedin.com/company/tropicalforestalliance",
+  "linkedin_url": "https://www.linkedin.com/company/tropicalforestalliance",
+  "linkedin_cited_from": "https://www.tropicalforestalliance.org/home",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -11234,7 +11665,10 @@
    "precision": "country",
    "country": "Peru"
   },
-  "linkedin": "https://www.linkedin.com/company/forest-stewardship-council-fsc-/",
+  "linkedin": "https://www.linkedin.com/company/fsc-international-bonn",
+  "linkedin_url": "https://www.linkedin.com/company/fsc-international-bonn",
+  "linkedin_cited_from": "https://fsc.org/en",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -11287,7 +11721,10 @@
    "precision": "country",
    "country": "Peru"
   },
-  "linkedin": "https://www.linkedin.com/company/vsf-cicda-agronomes-et-v-t-rinaires-sans-fronti-res",
+  "linkedin": "https://www.linkedin.com/company/avsflatam",
+  "linkedin_url": "https://www.linkedin.com/company/avsflatam",
+  "linkedin_cited_from": "https://www.avsf.org/es/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -11314,7 +11751,6 @@
    "precision": "country",
    "country": "Peru"
   },
-  "linkedin": "https://www.linkedin.com/company/terranuova-onlus",
   "nexus": {
    "card_slug": null
   },
@@ -11330,6 +11766,10 @@
   "country": "Peru",
   "city": "Milán, Italia (sede)",
   "website": "https://aspem.org/en/",
+  "linkedin": "https://www.linkedin.com/company/aspem-associazione-solidariet-paesi-emergenti",
+  "linkedin_url": "https://www.linkedin.com/company/aspem-associazione-solidariet-paesi-emergenti",
+  "linkedin_cited_from": "https://aspem.org/en/",
+  "linkedin_accessed": "2026-10-22",
   "challenges": [
    "FIN"
   ],
@@ -11369,6 +11809,9 @@
    "country": "Peru"
   },
   "linkedin": "https://www.linkedin.com/company/coeeci",
+  "linkedin_url": "https://www.linkedin.com/company/coeeci",
+  "linkedin_cited_from": "https://www.coeeci.org.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -11393,7 +11836,6 @@
    "precision": "country",
    "country": "Peru"
   },
-  "linkedin": "https://www.linkedin.com/company/lavca",
   "nexus": {
    "card_slug": null
   },
@@ -11419,6 +11861,9 @@
    "country": "Peru"
   },
   "linkedin": "https://www.linkedin.com/company/mit-regional-entrepreneurship-acceleration-program",
+  "linkedin_url": "https://www.linkedin.com/company/mit-regional-entrepreneurship-acceleration-program",
+  "linkedin_cited_from": "https://reap.mit.edu",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -11443,7 +11888,6 @@
    "precision": "country",
    "country": "Peru"
   },
-  "linkedin": "https://www.linkedin.com/company/climate-policy-initiative",
   "nexus": {
    "card_slug": null
   },
@@ -11460,6 +11904,10 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://www.gob.pe/minam",
+  "linkedin": "https://www.linkedin.com/company/1134092",
+  "linkedin_url": "https://www.linkedin.com/company/1134092",
+  "linkedin_cited_from": "https://www.gob.pe/minam",
+  "linkedin_accessed": "2026-10-22",
   "challenges": [
    "BOS",
    "AGU",
@@ -11486,6 +11934,10 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://www.gob.pe/minam",
+  "linkedin": "https://www.linkedin.com/company/1134092",
+  "linkedin_url": "https://www.linkedin.com/company/1134092",
+  "linkedin_cited_from": "https://www.gob.pe/minam",
+  "linkedin_accessed": "2026-10-22",
   "challenges": [
    "BOS",
    "AGU",
@@ -11509,6 +11961,10 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://www.gob.pe/minam",
+  "linkedin": "https://www.linkedin.com/company/1134092",
+  "linkedin_url": "https://www.linkedin.com/company/1134092",
+  "linkedin_cited_from": "https://www.gob.pe/minam",
+  "linkedin_accessed": "2026-10-22",
   "challenges": [
    "FIN"
   ],
@@ -11542,6 +11998,9 @@
    "country": "Peru"
   },
   "linkedin": "https://www.linkedin.com/company/startupperu",
+  "linkedin_url": "https://www.linkedin.com/company/startupperu",
+  "linkedin_cited_from": "https://startup.proinnovate.gob.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "card_slug": null
   },
@@ -11558,6 +12017,10 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://www.gob.pe/minam",
+  "linkedin": "https://www.linkedin.com/company/1134092",
+  "linkedin_url": "https://www.linkedin.com/company/1134092",
+  "linkedin_cited_from": "https://www.gob.pe/minam",
+  "linkedin_accessed": "2026-10-22",
   "challenges": [
    "BOS"
   ],
@@ -11577,6 +12040,10 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://www.gob.pe/bosques",
+  "linkedin": "https://www.linkedin.com/company/programa-nacional-de-conservaci-n-de-bosques",
+  "linkedin_url": "https://www.linkedin.com/company/programa-nacional-de-conservaci-n-de-bosques",
+  "linkedin_cited_from": "https://www.gob.pe/bosques",
+  "linkedin_accessed": "2026-10-22",
   "challenges": [
    "BOS"
   ],
@@ -11596,6 +12063,10 @@
   "country": "Peru",
   "city": "Lima",
   "website": "https://www.gob.pe/minam",
+  "linkedin": "https://www.linkedin.com/company/1134092",
+  "linkedin_url": "https://www.linkedin.com/company/1134092",
+  "linkedin_cited_from": "https://www.gob.pe/minam",
+  "linkedin_accessed": "2026-10-22",
   "challenges": [
    "CIR"
   ],

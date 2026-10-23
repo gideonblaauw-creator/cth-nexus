@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Seúl, República de Corea (sede); programas en Perú |
 | Sitio web | https://gggi.org |
-| LinkedIn | https://www.linkedin.com/company/global-green-growth-institute |
+| LinkedIn | https://www.linkedin.com/company/gggi-asia |
 | Rol en el ecosistema | Instituto intergubernamental de crecimiento verde y transición climática. |
 | Dirección | PENDIENTE |
 | Año de fundación | 2012 |
@@ -47,4 +47,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://gggi.org — sitio GGGI
-- https://www.linkedin.com/company/global-green-growth-institute — perfil LinkedIn

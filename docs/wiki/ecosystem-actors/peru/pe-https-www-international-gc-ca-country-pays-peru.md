@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.international.gc.ca/country-pays/peru-perou/lima.aspx?lang=eng |
-| LinkedIn | https://www.linkedin.com/company/embassy-of-canada-to-peru |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Representación diplomática de Canadá y cooperación bilateral con el Perú. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
@@ -55,4 +55,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.international.gc.ca/country-pays/peru-perou/lima.aspx?lang=esp — Embajada de Canadá en Lima
 - Embajada de Canadá en Lima — https://www.international.gc.ca/country-pays/peru-perou/lima.aspx?lang=eng
-- Perfil en LinkedIn — https://www.linkedin.com/company/embassy-of-canada-to-peru

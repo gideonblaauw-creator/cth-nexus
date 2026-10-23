@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.sistemab.org |
-| LinkedIn | https://www.linkedin.com/company/sistema-b-m |
+| LinkedIn | https://www.linkedin.com/company/sistemabarg |
 | Rol en el ecosistema | ONG o fundación |
 | Desafíos (códigos) | AGR |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-sistema-b](https://nexus.cleantechhub.net/ecosystem/?actor=pe-sistema-b) |

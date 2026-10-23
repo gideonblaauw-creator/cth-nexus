@@ -47,4 +47,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.cofide.com.pe — información institucional COFIDE
-- https://www.linkedin.com/company/cofide — perfil LinkedIn COFIDE

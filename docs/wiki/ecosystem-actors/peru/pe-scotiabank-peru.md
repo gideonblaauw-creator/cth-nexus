@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.scotiabank.com.pe |
-| LinkedIn | https://pe.linkedin.com/company/scotiabank-per%C3%BA |
+| LinkedIn | https://www.linkedin.com/company/scotiabank |
 | Rol en el ecosistema | Institución financiera |
 | Desafíos (códigos) | FIN |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-scotiabank-peru](https://nexus.cleantechhub.net/ecosystem/?actor=pe-scotiabank-peru) |
@@ -53,4 +53,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.scotiabank.com.pe
 - https://www.scotiabank.com.pe/
-- https://pe.linkedin.com/company/scotiabank-per%C3%BA
+- https://www.scotiabank.com.pe/Personas/Default

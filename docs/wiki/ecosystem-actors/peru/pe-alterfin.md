@@ -46,7 +46,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.alterfin.be
-- https://www.linkedin.com/company/alterfin-cv
 - https://www.alterfin.be/
 - Misión de inversión con impacto — https://www.alterfin.be/
-- Perfil en LinkedIn — https://www.linkedin.com/company/alterfin

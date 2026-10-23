@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.jica.go.jp |
-| LinkedIn | https://www.linkedin.com/company/jica |
+| LinkedIn | https://www.linkedin.com/company/japan-international-cooperation-agency-jica- |
 | Rol en el ecosistema | Agencia de cooperación internacional de Japón |
 | Desafíos (códigos) | AGR, AGU, CIR |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-jica](https://nexus.cleantechhub.net/ecosystem/?actor=pe-jica) |
@@ -53,4 +53,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.jica.go.jp/english/
 - https://www.jica.go.jp/english/country/peru/
-- https://www.linkedin.com/company/jica

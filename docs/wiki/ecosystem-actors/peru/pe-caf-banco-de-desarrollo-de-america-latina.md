@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Caracas / regional |
 | Sitio web | https://www.caf.com/es |
-| LinkedIn | https://www.linkedin.com/company/caf-banco-de-desarrollo-de-america-latina |
+| LinkedIn | https://www.linkedin.com/company/caf |
 | Rol en el ecosistema | Banco de desarrollo multilateral regional. |
 | Año de fundación | 1970 |
 | Desafíos (códigos) | CIR, CIU, FIN |
@@ -46,4 +46,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.caf.com/es
-- https://www.linkedin.com/company/caf-banco-de-desarrollo-de-america-latina
+- https://www.caf.com/es/quienes-somos/

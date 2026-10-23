@@ -23,7 +23,7 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://pvblic.org/rein-hubs |
-| LinkedIn | https://www.linkedin.com/company/pvblic-foundation |
+| LinkedIn | https://www.linkedin.com/company/pvblicfoundation |
 | Rol en el ecosistema | Hub de emprendimiento social REIN en San Salvador (red PVBLIC). |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
@@ -49,4 +49,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Sitio web — https://pvblic.org/rein-hubs
 - Rol en el ecosistema — https://pvblic.org/rein-hubs
 - Red REIN Hubs y socio universitario UTEC — https://www.pvblic.org/rein-hubs
-- PVBLIC Foundation en LinkedIn — https://www.linkedin.com/company/pvblic-foundation

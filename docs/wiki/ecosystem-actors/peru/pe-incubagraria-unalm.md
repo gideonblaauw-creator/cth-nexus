@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | La Molina, Lima |
 | Sitio web | https://incubagraria.lamolina.edu.pe/ |
-| LinkedIn | https://www.linkedin.com/company/incubagraria |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
 | Desafíos (códigos) | AGR, AGU, AZU, BOS |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-incubagraria-unalm](https://nexus.cleantechhub.net/ecosystem/?actor=pe-incubagraria-unalm) |

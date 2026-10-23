@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Washington, DC (sede IFC) |
 | Sitio web | https://www.ifc.org |
-| LinkedIn | https://www.linkedin.com/company/ifc/ |
+| LinkedIn | https://www.linkedin.com/company/ifclinkedin |
 | Rol en el ecosistema | Brazo privado del Grupo Banco Mundial — inversión y asesoría |
 | Desafíos (códigos) | CIR, CIU, FIN |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-ifc](https://nexus.cleantechhub.net/ecosystem/?actor=pe-ifc) |
@@ -52,4 +52,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.ifc.org
-- https://www.linkedin.com/company/ifc/
+- https://www.ifc.org/en/home

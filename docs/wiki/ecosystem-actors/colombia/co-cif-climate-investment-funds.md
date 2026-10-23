@@ -23,7 +23,7 @@ tag_country: Colombia
 | País | Colombia |
 | Ciudad | Washington, DC (sede global) |
 | Sitio web | https://www.cif.org |
-| LinkedIn | https://www.linkedin.com/company/cifaction/ |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Fondo multilateral de inversión climática. |
 | Año de fundación | 2008 |
 | Desafíos (códigos) | ENE, FIN, BOS |
@@ -53,5 +53,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.cif.org/
-- https://www.linkedin.com/company/climate-investment-funds
-- https://www.linkedin.com/company/cifaction/

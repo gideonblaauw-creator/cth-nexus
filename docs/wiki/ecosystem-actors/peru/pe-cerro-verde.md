@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Arequipa |
 | Sitio web | https://www.cerroverde.pe |
-| LinkedIn | https://www.linkedin.com/company/cerro-verde/ |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Empresa / sector privado |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | AGU, ENE, FIN |
@@ -53,5 +53,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.cerroverde.pe
-- https://www.linkedin.com/company/sociedad-minera-cerro-verde
-- https://www.linkedin.com/company/cerro-verde/

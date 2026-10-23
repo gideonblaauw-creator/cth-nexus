@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://grupocredicorp.com |
-| LinkedIn | https://www.linkedin.com/company/credicorp/ |
+| LinkedIn | https://www.linkedin.com/company/grupocredicorp |
 | Rol en el ecosistema | Empresa / sector privado |
 | Desafíos (códigos) | AGR, BOS |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-venture-capital-corporativo](https://nexus.cleantechhub.net/ecosystem/?actor=pe-venture-capital-corporativo) |

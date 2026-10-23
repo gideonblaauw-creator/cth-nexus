@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Magdalena del Mar |
 | Sitio web | https://www.gob.pe/osinergmin |
-| LinkedIn | https://www.linkedin.com/company/osinergmin |
+| LinkedIn | https://www.linkedin.com/company/445002 |
 | Rol en el ecosistema | Actor público / regulador |
 | Desafíos (códigos) | FIN |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-osinergmin](https://nexus.cleantechhub.net/ecosystem/?actor=pe-osinergmin) |
@@ -53,4 +53,3 @@ PENDIENTE
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.gob.pe/osinergmin
 - Institución en gob.pe — https://www.gob.pe/osinergmin
-- Perfil en LinkedIn — https://www.linkedin.com/company/osinergmin

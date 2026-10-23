@@ -46,6 +46,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.andesamazonfund.org
-- https://www.linkedin.com/company/andes-amazon-fund
 - Andes Amazon Fund — https://www.andesamazonfund.org/
-- LinkedIn — https://www.linkedin.com/company/andes-amazon-fund

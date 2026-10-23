@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Bruselas, Bélgica (iniciativa UE) |
 | Sitio web | https://circulareconomy.europa.eu/platform/en |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/ekofom |
 | Rol en el ecosistema | Plataforma de la Comisión Europea y CESE para economía circular. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |

@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Pachacámac |
 | Sitio web | https://www.alive-ventures.com |
-| LinkedIn | https://www.linkedin.com/company/alive-ventures |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Gestora de fondos de impacto. |
 | Año de fundación | 2018 |
 | Desafíos (códigos) | ENE, FIN |
@@ -47,6 +47,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.alive-ventures.com
 - https://www.alive-ventures.com/
-- https://www.linkedin.com/company/alive-ventures
 - ALIVE Ventures — https://www.alive-ventures.com/about
-- LinkedIn — https://www.linkedin.com/company/alive-ventures

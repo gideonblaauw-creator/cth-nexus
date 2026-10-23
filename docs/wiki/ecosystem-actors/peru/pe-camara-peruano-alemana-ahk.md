@@ -46,4 +46,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://peru.ahk.de
-- https://www.linkedin.com/company/ahk-peru-camara-peruano-alemana
+- https://peru.ahk.de/de

@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.belcorp.com/fundacionbelcorp |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/fundacion-belcorp |
 | Rol en el ecosistema | Filantropía corporativa de Belcorp enfocada en empoderamiento femenino y sostenibilidad. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |

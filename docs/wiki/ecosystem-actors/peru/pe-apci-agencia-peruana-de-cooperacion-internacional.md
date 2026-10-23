@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.gob.pe/apci |
-| LinkedIn | https://linkedin.com/company/agencia-peruana-de-cooperaci%C3%B3n-internacional-apci |
+| LinkedIn | https://www.linkedin.com/company/agencia-peruana-de-cooperaci%C3%B3n-internacional-apci |
 | Rol en el ecosistema | Cooperación internacional del Estado peruano. |
 | Año de fundación | 2019 |
 | Desafíos (códigos) | PENDIENTE |
@@ -46,6 +46,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.gob.pe/apci
-- https://linkedin.com/company/agencia-peruana-de-cooperaci%C3%B3n-internacional-apci
 - Institución en Plataforma del Estado Peruano — https://www.gob.pe/apci
-- Perfil en LinkedIn — https://www.linkedin.com/company/agencia-peruana-de-cooperaci%C3%B3n-internacional-apci

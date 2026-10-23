@@ -23,7 +23,7 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://www.iadb.org/es |
-| LinkedIn | https://www.linkedin.com/company/inter-american-development-bank |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Cooperación financiera y técnica del BID para desarrollo sostenible en El Salvador. |
 | Dirección | PENDIENTE |
 | Año de fundación | 1959 |
@@ -48,5 +48,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - Sitio web — https://www.iadb.org/es
 - Rol en el ecosistema — https://www.iadb.org/es
-- LinkedIn (enlace público) — https://www.linkedin.com/company/inter-american-development-bank
 - Año de fundación — https://www.iadb.org/es/quienes-somos

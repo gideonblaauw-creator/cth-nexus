@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima (La Molina) |
 | Sitio web | https://iica.int |
-| LinkedIn | https://www.linkedin.com/company/iica |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Organismo interamericano de agricultura y desarrollo rural |
 | Desafíos (códigos) | AGR |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-iica](https://nexus.cleantechhub.net/ecosystem/?actor=pe-iica) |
@@ -53,4 +53,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://iica.int
 - https://iica.int/
-- https://www.linkedin.com/company/iica

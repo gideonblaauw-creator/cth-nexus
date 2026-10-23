@@ -47,6 +47,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.elea.org — descripción institucional
-- https://www.linkedin.com/company/eleafoundation — perfil LinkedIn
 - elea — https://www.elea.org/en/home-en
-- LinkedIn — https://www.linkedin.com/company/elea-foundation-for-impact-investments

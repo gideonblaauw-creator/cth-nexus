@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://utecventures.com |
-| LinkedIn | https://www.linkedin.com/company/utecventures |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Aceleradora, incubadora o programa de apoyo |
 | Desafíos (códigos) | CIR, CIU, ENE, FIN |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-utec-ventures](https://nexus.cleantechhub.net/ecosystem/?actor=pe-utec-ventures) |
@@ -48,4 +48,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://utecventures.com
 - UTEC Ventures — https://utecventures.com/
-- LinkedIn — https://www.linkedin.com/company/utecventures

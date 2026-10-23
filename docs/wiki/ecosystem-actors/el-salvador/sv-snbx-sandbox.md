@@ -49,4 +49,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Sitio web — https://snbx.sv
 - Rol en el ecosistema — https://snbx.sv
 - Descripción — https://snbx.sv
-- LinkedIn (enlace público) — https://www.linkedin.com/company/snbxsv

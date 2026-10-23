@@ -47,4 +47,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.hi.vc/
 - https://www.allvp.com/
-- https://www.linkedin.com/company/hi-ventures

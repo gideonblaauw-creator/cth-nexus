@@ -23,7 +23,7 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador; Calle La Reforma y 9ª Calle Poniente, Colonia San Benito, San Salvador |
 | Sitio web | https://www.exteriores.gob.es/Embajadas/sansalvador/es/Paginas/index.aspx |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/ministerio-de-asuntos-exteriores-union-europea-y-cooperacion |
 | Rol en el ecosistema | Representación diplomática de España en El Salvador. |
 | Dirección | Calle La Reforma y 9ª Calle Poniente, Colonia San Benito, San Salvador |
 | Año de fundación | PENDIENTE |

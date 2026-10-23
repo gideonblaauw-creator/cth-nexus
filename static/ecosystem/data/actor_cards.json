@@ -11,6 +11,9 @@
    "city": "Barranquilla",
    "website": "https://www.bancoldex.com",
    "linkedin": "https://www.linkedin.com/company/bancoldex",
+   "linkedin_url": "https://www.linkedin.com/company/bancoldex",
+   "linkedin_cited_from": "https://www.bancoldex.com",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Banco de desarrollo empresarial y financiamiento productivo.",
    "description": "Bancóldex es el banco de desarrollo empresarial de Colombia; ofrece crédito, garantías, fondos de inversión y programas de fortalecimiento para MIPYMES y proyectos productivos.",
    "founding_year": "1992"
@@ -22,7 +25,6 @@
    "category": "international",
    "city": "Washington, DC (sede global)",
    "website": "https://www.cif.org",
-   "linkedin": "https://www.linkedin.com/company/cifaction/",
    "ecosystem_role": "Fondo multilateral de inversión climática.",
    "description": "Fondo multilateral que moviliza financiamiento climático de donantes y el sector privado hacia proyectos de mitigación, resiliencia, tecnología limpia y bosques en países en desarrollo, incluida Colombia.\n\n| Campo | Valor |\n| --- | --- |\n| Dirección | 1777 Pennsylvania Avenue NW, Washington, DC 20006, Estados Unidos…",
    "founding_year": "2008"
@@ -35,6 +37,9 @@
    "city": "Bogotá, D.C.",
    "website": "https://www.creg.gov.co",
    "linkedin": "https://www.linkedin.com/company/comisi%C3%B3n-de-regulaci%C3%B3n-de-energ%C3%ADa-y-gas-creg",
+   "linkedin_url": "https://www.linkedin.com/company/comisi%C3%B3n-de-regulaci%C3%B3n-de-energ%C3%ADa-y-gas-creg",
+   "linkedin_cited_from": "https://creg.gov.co/",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Actor público / regulador",
    "description": "Comisión de Regulación de Energía y Gas de Colombia; regula los mercados de energía eléctrica, gas natural, GLP y combustibles líquidos derivados.\n\n| Detalle | Valor |\n| --- | --- |\n| Año de fundación | 1994 |\n| Dirección | Av. Calle 116 No. 7-15, Edificio Cusezar, Int. 2, Of. 901, Bogotá |\n| Áreas de enfoque (CT) |…",
    "founding_year": "1994"
@@ -47,6 +52,9 @@
    "city": "Bogotá",
    "website": "https://fenoge.gov.co",
    "linkedin": "https://www.linkedin.com/company/fenoge",
+   "linkedin_url": "https://www.linkedin.com/company/fenoge",
+   "linkedin_cited_from": "https://fenoge.gov.co",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Fondo público de financiamiento en ERNC y eficiencia energética.",
    "description": "Fondo colombiano de energías no convencionales y gestión eficiente de la energía que financia proyectos de transición energética.\n\n| Campo | Valor |\n| --- | --- |\n| Año de fundación | 2018 |\n| Dirección | Carrera 12 No. 84A-12, Of. 801, Bogotá, Colombia |\n| Enfoque (taxonomía CT) | Energías renovables no convenciona…",
    "founding_year": "2017"
@@ -59,6 +67,9 @@
    "city": "Songdo, República de Corea (sede)",
    "website": "https://www.greenclimate.fund",
    "linkedin": "https://www.linkedin.com/company/green-climate-fund",
+   "linkedin_url": "https://www.linkedin.com/company/green-climate-fund",
+   "linkedin_cited_from": "https://www.greenclimate.fund",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Fondo climático internacional del marco de la CMNUCC.",
    "description": "El Green Climate Fund (GCF) es el fondo climático de la ONU para países en desarrollo, orientado a trayectorias bajas en emisiones y resilientes al clima.",
    "founding_year": "2010"
@@ -71,6 +82,9 @@
    "city": "Bogotá",
    "website": "https://ipse.gov.co",
    "linkedin": "https://www.linkedin.com/company/ipse-zni",
+   "linkedin_url": "https://www.linkedin.com/company/ipse-zni",
+   "linkedin_cited_from": "https://ipse.gov.co",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Entidad pública de soluciones energéticas en ZNI.",
    "description": "El Instituto de Planificación y Promoción de Soluciones Energéticas para las Zonas No Interconectadas (IPSE) atiende la provisión de energía en zonas no interconectadas de Colombia."
   },
@@ -82,6 +96,9 @@
    "city": "Bogotá",
    "website": "https://www.minenergia.gov.co",
    "linkedin": "https://www.linkedin.com/company/minenergia",
+   "linkedin_url": "https://www.linkedin.com/company/minenergia",
+   "linkedin_cited_from": "https://www.minenergia.gov.co/es/",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Ministerio rector del sector minero-energético y políticas de transición en Colombia.",
    "description": "El Ministerio de Minas y Energía de Colombia formula y adopta políticas para el sector minero-energético, incluyendo transición energética, electricidad y hidrocarburos."
   },
@@ -92,7 +109,10 @@
    "category": "government",
    "city": "Bogotá",
    "website": "https://www.upme.gov.co/",
-   "linkedin": "https://www.linkedin.com/company/unidad-de-planeaci%C3%B3n-minero-energ%C3%A9tica-upme",
+   "linkedin": "https://www.linkedin.com/company/unidad-de-planeaci-n-minero-energ-tica",
+   "linkedin_url": "https://www.linkedin.com/company/unidad-de-planeaci-n-minero-energ-tica",
+   "linkedin_cited_from": "https://www.upme.gov.co/",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Planeación y estudios del sector minero-energético en Colombia.",
    "description": "La Unidad de Planeación Minero Energética (UPME) es una entidad adscrita al Ministerio de Minas y Energía de Colombia que realiza planeación del sector minero-energético, estudios de oferta y demanda, y soporte a políticas públicas."
   },
@@ -103,7 +123,10 @@
    "category": "accelerator",
    "city": "Lima",
    "website": "https://1551.unmsm.edu.pe",
-   "linkedin": "https://www.linkedin.com/company/1551in",
+   "linkedin": "https://www.linkedin.com/company/11111803",
+   "linkedin_url": "https://www.linkedin.com/company/11111803",
+   "linkedin_cited_from": "https://1551.unmsm.edu.pe",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Aceleradora, incubadora o programa de apoyo",
    "description": "1551 es la incubadora de empresas innovadoras de la UNMSM; conecta investigación, emprendimiento y empresas mediante innovación abierta y programas de aceleración.\n\n- **Año de fundación:** 2015\n- **Dirección:** Ciudad Universitaria, Lima, Perú (UNMSM)\n- **Áreas de enfoque (taxonomía CT):** AGR, AGU\n- **Programas:**…"
   },
@@ -115,6 +138,9 @@
    "city": "Lima",
    "website": "https://a2g.pe/",
    "linkedin": "https://www.linkedin.com/company/a2g-sostenibilidad-y-cambio-clim%C3%A1tico",
+   "linkedin_url": "https://www.linkedin.com/company/a2g-sostenibilidad-y-cambio-clim%C3%A1tico",
+   "linkedin_cited_from": "https://a2g.pe/",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Consultoría en sostenibilidad y cambio climático.",
    "description": "A2G es una consultora peruana especializada en sostenibilidad, cambio climático y servicios ambientales para empresas y proyectos."
   },
@@ -126,6 +152,9 @@
    "city": "Cuzco",
    "website": "https://accion-andina.org",
    "linkedin": "https://www.linkedin.com/company/81309540",
+   "linkedin_url": "https://www.linkedin.com/company/81309540",
+   "linkedin_cited_from": "https://accion-andina.org",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "ONG o fundación",
    "description": "Acción Andina es una iniciativa de restauración y protección de bosques nativos en los Andes, impulsando acción comunitaria y conservación en la región.",
    "founding_year": "2018"
@@ -138,6 +167,9 @@
    "city": "Lima",
    "website": "https://www.accion.org",
    "linkedin": "https://www.linkedin.com/company/accion",
+   "linkedin_url": "https://www.linkedin.com/company/accion",
+   "linkedin_cited_from": "https://www.accion.org",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Financiador e inversionista",
    "description": "Accion is on a mission is to improve the lives of underserved people by building innovative and responsible financial solutions.",
    "founding_year": "1961"
@@ -159,7 +191,6 @@
    "category": "media",
    "city": "Lima",
    "website": "https://www.actualidadambiental.pe",
-   "linkedin": "https://www.linkedin.com/company/actualidad-ambiental",
    "ecosystem_role": "Medio de comunicación ambiental.",
    "description": "Actualidad Ambiental es un medio digital peruano de noticias y análisis sobre medio ambiente, conservación y políticas ambientales."
   },
@@ -171,6 +202,9 @@
    "city": "Lima (San Borja)",
    "website": "https://www.adexperu.org.pe",
    "linkedin": "https://www.linkedin.com/company/asociaci-n-de-exportadores-adex",
+   "linkedin_url": "https://www.linkedin.com/company/asociaci-n-de-exportadores-adex",
+   "linkedin_cited_from": "https://www.adexperu.org.pe",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Gremio exportador nacional.",
    "description": "La Asociación de Exportadores (ADEX) es el gremio exportador del Perú; promueve comercio exterior, capacitación y servicios para exportadores."
   },
@@ -182,6 +216,9 @@
    "city": "Madrid (sede); cooperación en Perú",
    "website": "https://www.aecid.es",
    "linkedin": "https://www.linkedin.com/company/agencia-espa-ola-de-cooperacion-internacional---aecid",
+   "linkedin_url": "https://www.linkedin.com/company/agencia-espa-ola-de-cooperacion-internacional---aecid",
+   "linkedin_cited_from": "https://www.aecid.es",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Cooperación internacional (España).",
    "description": "La Agencia Española de Cooperación Internacional para el Desarrollo (AECID) es el organismo principal de cooperación del Gobierno de España, con programas en Perú en desarrollo sostenible y clima.",
    "founding_year": "1948"
@@ -193,7 +230,6 @@
    "category": "international",
    "city": "Lima",
    "website": "https://www.afd.fr",
-   "linkedin": "https://www.linkedin.com/company/agence-francaise-de-developpement",
    "ecosystem_role": "Organización internacional o cooperación",
    "description": "La AFD es el banco público de desarrollo de Francia; en el Perú financia y acompaña proyectos de cooperación en clima, biodiversidad y desarrollo sostenible.\n\n- **Año de fundación:** 1941\n- **Dirección:** Calle Río de la Plata 167, Of. 502, San Isidro, Lima 27, Perú\n- **Áreas de enfoque (taxonomía CT):** PENDIENTE\n-…"
   },
@@ -205,6 +241,9 @@
    "city": "La Molina",
    "website": "https://agraria.pe",
    "linkedin": "https://www.linkedin.com/company/76100786",
+   "linkedin_url": "https://www.linkedin.com/company/76100786",
+   "linkedin_cited_from": "https://agraria.pe",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Medio especializado en agro y ruralidad.",
    "description": "Agraria.pe es una agencia de noticias y contenidos especializada en sector agrario y agroindustria en el Perú."
   },
@@ -215,7 +254,6 @@
    "category": "government",
    "city": "Lima",
    "website": "https://www.agrobanco.com.pe",
-   "linkedin": "https://www.linkedin.com/company/agrobanco",
    "ecosystem_role": "Banco público de desarrollo agropecuario.",
    "description": "Agrobanco es el banco de desarrollo agropecuario del Estado peruano; financia y promueve la producción y competitividad del sector agro."
   },
@@ -226,7 +264,10 @@
    "category": "government",
    "city": "San Isidro",
    "website": "https://www.gob.pe/agroideas",
-   "linkedin": "https://linkedin.com/company/agroideas-del-minagri",
+   "linkedin": "https://www.linkedin.com/company/agroideas-del-minagri",
+   "linkedin_url": "https://www.linkedin.com/company/agroideas-del-minagri",
+   "linkedin_cited_from": "https://www.gob.pe/agroideas",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Programa público de competitividad agraria.",
    "description": "AGROIDEAS (Programa de Compensaciones para la Competitividad) es un programa del Ministerio de Desarrollo Agrario y Riego que apoya competitividad agraria mediante compensaciones y proyectos."
   },
@@ -238,6 +279,9 @@
    "city": "Lima",
    "website": "https://www.ajegroup.com",
    "linkedin": "https://www.linkedin.com/company/grupoaje",
+   "linkedin_url": "https://www.linkedin.com/company/grupoaje",
+   "linkedin_cited_from": "https://www.ajegroup.com",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Empresa / sector privado",
    "description": "AJE es una de las empresas multinacionales más grandes del mundo, con presencia en 28 países de Latinoamérica, Asia y África."
   },
@@ -249,6 +293,9 @@
    "city": "Lima",
    "website": "https://alaya-capital.com/",
    "linkedin": "https://www.linkedin.com/company/alaya-business-accelerator-s-a-",
+   "linkedin_url": "https://www.linkedin.com/company/alaya-business-accelerator-s-a-",
+   "linkedin_cited_from": "https://alaya-capital.com/",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Fondo de venture capital e inversión en startups LATAM.",
    "description": "Alaya Capital invierte en emprendedores digitales de Latinoamérica con enfoque en talento, tecnología e impacto positivo."
   },
@@ -269,7 +316,6 @@
    "category": "corporate",
    "city": "Lima",
    "website": "https://www.alicorp.com.pe",
-   "linkedin": "https://www.linkedin.com/company/alicorp",
    "ecosystem_role": "Corporación de alimentos y consumo masivo.",
    "description": "Alicorp es una empresa multilatina peruana de consumo masivo y alimentos, con operaciones en varios países de la región.",
    "founding_year": "1956"
@@ -281,7 +327,6 @@
    "category": "funder",
    "city": "Pachacámac",
    "website": "https://www.alive-ventures.com",
-   "linkedin": "https://www.linkedin.com/company/alive-ventures",
    "ecosystem_role": "Gestora de fondos de impacto.",
    "description": "ALIVE Ventures es gestora de fondos de impacto que invierte en empresas de alto crecimiento que reducen desigualdad en comunidades de bajos ingresos en Latinoamérica.",
    "founding_year": "2018"
@@ -293,7 +338,6 @@
    "category": "funder",
    "city": "Lima",
    "website": "https://www.alliedclimate.org",
-   "linkedin": "https://www.linkedin.com/company/allied-climate-partners",
    "ecosystem_role": "Inversión filantrópica en clima.",
    "description": "Allied Climate Partners (ACP) es una organización filantrópica de inversión que busca aumentar proyectos climáticos bancables en el Sur global."
   },
@@ -305,6 +349,9 @@
    "city": "Ciudad de México / regional LATAM",
    "website": "https://www.hi.vc/",
    "linkedin": "https://www.linkedin.com/company/hi-ventures",
+   "linkedin_url": "https://www.linkedin.com/company/hi-ventures",
+   "linkedin_cited_from": "https://www.hi.vc/",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Venture capital en innovación en salud (ALLVP).",
    "description": "Hi Ventures es la vertical de health innovation de ALLVP, fondo de venture capital en Latinoamérica.",
    "founding_year": "2015"
@@ -317,6 +364,9 @@
    "city": "Lima",
    "website": "https://www.alterfin.be",
    "linkedin": "https://www.linkedin.com/company/alterfin-cv",
+   "linkedin_url": "https://www.linkedin.com/company/alterfin-cv",
+   "linkedin_cited_from": "https://www.alterfin.be",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Financiador de impacto en agricultura y microfinanzas.",
    "description": "Alterfin es una cooperativa de inversión belga que financia organizaciones de agricultura sostenible y microfinanzas en el Sur global, con operaciones en Perú.",
    "founding_year": "1994"
@@ -329,6 +379,9 @@
    "city": "Lima",
    "website": "https://www.amanatari.org/",
    "linkedin": "https://www.linkedin.com/company/amanatari",
+   "linkedin_url": "https://www.linkedin.com/company/amanatari",
+   "linkedin_cited_from": "https://www.amanatari.org/",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Impulsor de emprendimiento amazónico.",
    "description": "Amanatari impulsa emprendimientos y negocios sostenibles en la Amazonía peruana, articulando comunidades, inversionistas y mercados."
   },
@@ -340,6 +393,9 @@
    "city": "Imaza",
    "website": "https://www.amazoniaimpactventures.com",
    "linkedin": "https://www.linkedin.com/company/amazonia-impact-ventures",
+   "linkedin_url": "https://www.linkedin.com/company/amazonia-impact-ventures",
+   "linkedin_cited_from": "https://www.amazoniaimpactventures.com",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Financiador e inversionista",
    "description": "Amazonia Impact Ventures is an impact-first investment company dedicated to providing finance directly to sustainable enterprises in the Amazon rainforest. We empower Indigenous peoples and local communities in South America to protect and regenerate their forests and biodiversity and improve their livelihoods while…"
   },
@@ -351,6 +407,9 @@
    "city": "Lima (San Isidro)",
    "website": "https://www.amcham.org.pe",
    "linkedin": "https://www.linkedin.com/company/amchamperu",
+   "linkedin_url": "https://www.linkedin.com/company/amchamperu",
+   "linkedin_cited_from": "https://amcham.org.pe/",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Cámara bilateral Perú–Estados Unidos.",
    "description": "La Cámara de Comercio Americana del Perú (AmCham) promueve inversiones, comercio y vínculos empresariales entre Perú y Estados Unidos.",
    "founding_year": "1960"
@@ -362,7 +421,10 @@
    "category": "government",
    "city": "Lima (San Isidro)",
    "website": "https://www.gob.pe/ana",
-   "linkedin": "https://linkedin.com/company/autoridad-nacional-del-agua",
+   "linkedin": "https://www.linkedin.com/company/autoridad-nacional-del-agua",
+   "linkedin_url": "https://www.linkedin.com/company/autoridad-nacional-del-agua",
+   "linkedin_cited_from": "https://www.gob.pe/ana",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Autoridad nacional del agua.",
    "description": "La Autoridad Nacional del Agua (ANA) es el ente rector del recurso hídrico en el Perú; regula, gestiona y fiscaliza el uso sostenible del agua."
   },
@@ -374,6 +436,9 @@
    "city": "San Carlos",
    "website": "https://www.andesamazonfund.org",
    "linkedin": "https://www.linkedin.com/company/andes-amazon-fund",
+   "linkedin_url": "https://www.linkedin.com/company/andes-amazon-fund",
+   "linkedin_cited_from": "https://www.andesamazonfund.org",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Financiador e inversionista",
    "description": "Safeguarding the most diverse landscapes on earth. Our Impact Our Achievements So Far 212 conserved areas established 54,285,599 acres conserved 54 Indigenous lands titled See Our Impact A Thriving Amazon&hellip;"
   },
@@ -384,7 +449,10 @@
    "category": "funder",
    "city": "Lima",
    "website": "https://www.angelventures.vc",
-   "linkedin": "https://www.linkedin.com/company/avpventures/",
+   "linkedin": "https://www.linkedin.com/company/angel-ventures-mexico",
+   "linkedin_url": "https://www.linkedin.com/company/angel-ventures-mexico",
+   "linkedin_cited_from": "https://www.angelventures.vc",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Financiador e inversionista",
    "description": "Firma de capital de riesgo y red de inversionistas ángeles que invierte y acompaña startups en etapa temprana en Latinoamérica (operación en Perú como Angel Ventures / AVP Ventures).\n\n| Campo | Valor |\n| --- | --- |\n| Dirección | Lima, Perú |\n| Año de fundación | 2014 |\n| Áreas de enfoque (taxonomía CT) | FIN |\n| Pr…",
    "founding_year": "2008"
@@ -397,6 +465,9 @@
    "city": "Ilo",
    "website": "https://www.angloamerican.com",
    "linkedin": "https://www.linkedin.com/company/anglo-american",
+   "linkedin_url": "https://www.linkedin.com/company/anglo-american",
+   "linkedin_cited_from": "https://www.angloamerican.com",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Empresa / sector privado",
    "description": "Anglo American is a leading global mining company focused on the responsible production of copper, premium iron ore and crop nutrients."
   },
@@ -407,7 +478,10 @@
    "category": "government",
    "city": "Lima",
    "website": "https://www.gob.pe/apci",
-   "linkedin": "https://linkedin.com/company/agencia-peruana-de-cooperaci%C3%B3n-internacional-apci",
+   "linkedin": "https://www.linkedin.com/company/agencia-peruana-de-cooperaci%C3%B3n-internacional-apci",
+   "linkedin_url": "https://www.linkedin.com/company/agencia-peruana-de-cooperaci%C3%B3n-internacional-apci",
+   "linkedin_cited_from": "https://www.gob.pe/apci",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Cooperación internacional del Estado peruano.",
    "description": "La Agencia Peruana de Cooperación Internacional (APCI) coordina la cooperación técnica internacional no reembolsable del Perú como país receptor y donante.",
    "founding_year": "2019"
@@ -420,6 +494,9 @@
    "city": "Las Piedras",
    "website": "https://www.arbioperu.org",
    "linkedin": "https://www.linkedin.com/company/asociaci%C3%B3n-arbio-amazonia",
+   "linkedin_url": "https://www.linkedin.com/company/asociaci%C3%B3n-arbio-amazonia",
+   "linkedin_cited_from": "https://www.arbioperu.org",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "ONG o fundación",
    "description": "Nos enfocamos en la conservación del bosque amazónico de Madre de Dios y ofrecemos servicios para los que deseen sumarse a la conservación."
   },
@@ -431,6 +508,9 @@
    "city": "Lima",
    "website": "https://arpegio.vc/about/",
    "linkedin": "https://www.linkedin.com/company/arpegio-vc",
+   "linkedin_url": "https://www.linkedin.com/company/arpegio-vc",
+   "linkedin_cited_from": "https://arpegio.vc/about/",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Capital de riesgo en startups.",
    "description": "Arpegio VC es un fondo de venture capital peruano que invierte en startups tecnológicas de etapa temprana."
   },
@@ -452,7 +532,10 @@
    "category": "chamber",
    "city": "Lima",
    "website": "https://www.spr.pe",
-   "linkedin": "https://www.linkedin.com/company/asociaci%C3%B3n-peruana-de-energ%C3%ADas-renovables",
+   "linkedin": "https://www.linkedin.com/company/spr-peru",
+   "linkedin_url": "https://www.linkedin.com/company/spr-peru",
+   "linkedin_cited_from": "https://www.spr.pe",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Gremio de energías renovables.",
    "description": "La Asociación Peruana de Energías Renovables (SPR) agrupa empresas y organizaciones que promueven el desarrollo de energías renovables en el Perú.",
    "founding_year": "2017"
@@ -464,7 +547,10 @@
    "category": "ngo_foundation",
    "city": "Villa María del Triunfo",
    "website": "https://asociacionunacem.org",
-   "linkedin": "https://www.linkedin.com/company/asociacion-unacem/about",
+   "linkedin": "https://www.linkedin.com/company/asociaci%C3%B3nunacem",
+   "linkedin_url": "https://www.linkedin.com/company/asociaci%C3%B3nunacem",
+   "linkedin_cited_from": "https://asociacionunacem.org",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "ONG o fundación",
    "description": "Somos una organización sin fines de lucro responsable de la estrategia de sostenibilidad corporativa de UNACEM. Desde el año 2003, desarrollamos proyectos de responsabilidad social e inversión social privada de alto impacto, en los que hemos tenido diferentes aprendizajes y logros mediante el trabajo en estrecha col…"
   },
@@ -475,7 +561,10 @@
    "category": "corporate",
    "city": "Lima",
    "website": "https://www.avsf.org/es/",
-   "linkedin": "https://www.linkedin.com/company/vsf-cicda-agronomes-et-v-t-rinaires-sans-fronti-res",
+   "linkedin": "https://www.linkedin.com/company/avsflatam",
+   "linkedin_url": "https://www.linkedin.com/company/avsflatam",
+   "linkedin_cited_from": "https://www.avsf.org/es/",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Empresa / sector privado",
    "description": "Agronomes &#038; vétérinaires sans frontières 45 años de apoyo a las comunidades campesinas Somos agrónomos, veterinarios, mujeres y hombres implicados en el futuro del planeta y de la humanidad. Trabajamos con los campesinos y campesinas para defender su autonomía alimentaria y económica, limitar nuestro impacto en…"
   },
@@ -486,7 +575,10 @@
    "category": "corporate",
    "city": "París (global)",
    "website": "https://alts.axa-im.com/responsible-investing/impact-investing",
-   "linkedin": "https://www.linkedin.com/company/axa-investment-managers",
+   "linkedin": "https://www.linkedin.com/company/bnp-paribas-asset-management",
+   "linkedin_url": "https://www.linkedin.com/company/bnp-paribas-asset-management",
+   "linkedin_cited_from": "https://alts.axa-im.com/responsible-investing/impact-investing",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Gestión de inversiones de impacto (AXA IM).",
    "description": "La estrategia de Impact Investing de AXA IM Alts busca resultados ambientales y sociales positivos junto con retornos financieros competitivos.",
    "founding_year": "2013"
@@ -498,7 +590,6 @@
    "category": "corporate",
    "city": "Lima",
    "website": "https://babasuventures.com/",
-   "linkedin": "https://www.linkedin.com/company/babas%C3%BA-ventures/",
    "ecosystem_role": "Capital de riesgo de impacto.",
    "description": "Babasu Ventures es un fondo de venture capital peruano enfocado en startups de impacto y tecnología en Latinoamérica."
   },
@@ -510,6 +601,9 @@
    "city": "Lima",
    "website": "https://www.backus.pe",
    "linkedin": "https://www.linkedin.com/company/backus",
+   "linkedin_url": "https://www.linkedin.com/company/backus",
+   "linkedin_cited_from": "https://www.backus.pe",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Empresa de bebidas y manufactura.",
    "description": "Backus es la cervecera líder del Perú, filial de AB InBev, con operaciones industriales y programas de sostenibilidad en su cadena de valor."
   },
@@ -521,6 +615,9 @@
    "city": "Lima",
    "website": "https://www.bancasostenible.la/",
    "linkedin": "https://www.linkedin.com/company/bancasostenible",
+   "linkedin_url": "https://www.linkedin.com/company/bancasostenible",
+   "linkedin_cited_from": "https://bancasostenible.la/",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Asesoría y banca de inversión sostenible.",
    "description": "Banca Sostenible es una firma regional de banca de inversión y asesoría financiera con enfoque en sostenibilidad y mercados de capitales."
   },
@@ -532,6 +629,9 @@
    "city": "Washington",
    "website": "https://www.worldbank.org",
    "linkedin": "https://www.linkedin.com/company/the-world-bank",
+   "linkedin_url": "https://www.linkedin.com/company/the-world-bank",
+   "linkedin_cited_from": "https://www.worldbank.org/en/about/annual-report",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Organización internacional o cooperación",
    "description": "With 189 member countries, the World Bank Group is a unique global partnership fighting poverty worldwide through sustainable solutions.",
    "founding_year": "1946"
@@ -543,7 +643,6 @@
    "category": "finance",
    "city": "Lima",
    "website": "https://www.bbva.pe",
-   "linkedin": "https://www.linkedin.com/company/bbva-peru",
    "ecosystem_role": "Banco comercial y servicios financieros.",
    "description": "BBVA Perú es la filial peruana del grupo BBVA; ofrece banca retail, empresas y servicios financieros digitales."
   },
@@ -554,7 +653,6 @@
    "category": "finance",
    "city": "Lima",
    "website": "https://www.viabcp.com/",
-   "linkedin": "https://www.linkedin.com/company/bcp",
    "ecosystem_role": "Banco universal líder en el Perú.",
    "description": "El Banco de Crédito del Perú (BCP) es uno de los principales bancos del sistema financiero peruano, con banca personas, empresas y digital.",
    "founding_year": "1889"
@@ -566,7 +664,10 @@
    "category": "international",
    "city": "Luxemburgo (sede); operaciones en Perú",
    "website": "https://www.eib.org",
-   "linkedin": "https://www.linkedin.com/company/european-investment-bank/",
+   "linkedin": "https://www.linkedin.com/company/9360",
+   "linkedin_url": "https://www.linkedin.com/company/9360",
+   "linkedin_cited_from": "https://www.eib.org/en/index",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Organización internacional o cooperación",
    "description": "Brazo financiero de la Unión Europea; financia inversión en clima, energía, movilidad sostenible y desarrollo en Perú y la región.\n\n| Campo | Valor |\n| --- | --- |\n| Dirección | 98–100 boulevard Konrad Adenauer, L-2950 Luxemburgo |\n| Año de fundación | 1958 |\n| Áreas de enfoque (taxonomía CT) | BOS, ENE, FIN |\n| Pro…",
    "founding_year": "1959"
@@ -578,7 +679,6 @@
    "category": "corporate",
    "city": "Lima",
    "website": "https://beneficialreturns.org/",
-   "linkedin": "https://www.linkedin.com/company/beneficial-returns",
    "ecosystem_role": "Financiamiento de impacto para emprendedores.",
    "description": "Beneficial Returns canaliza préstamos y apoyo técnico a emprendedores de impacto en mercados emergentes."
   },
@@ -590,6 +690,9 @@
    "city": "Lima",
    "website": "https://www.bezosearthfund.org",
    "linkedin": "https://www.linkedin.com/company/bezos-earth-fund",
+   "linkedin_url": "https://www.linkedin.com/company/bezos-earth-fund",
+   "linkedin_cited_from": "https://www.bezosearthfund.org",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Financiador e inversionista",
    "description": "The Bezos Earth Fund is a $10bn commitment to protect and restore the natural world through innovative projects across the planet."
   },
@@ -600,7 +703,6 @@
    "category": "international",
    "city": "Lima",
    "website": "https://www.iadb.org",
-   "linkedin": "https://www.linkedin.com/company/inter-american-development-bank",
    "ecosystem_role": "Banco de desarrollo multilateral y brazos de innovación/inversión.",
    "description": "El Banco Interamericano de Desarrollo (BID) y sus brazos BID Lab y BID Invest movilizan financiamiento y conocimiento para desarrollo sostenible, clima e innovación en LAC."
   },
@@ -611,7 +713,6 @@
    "category": "international",
    "city": "Washington, D.C.",
    "website": "https://bidlab.org/",
-   "linkedin": "https://www.linkedin.com/company/idb-lab",
    "ecosystem_role": "Innovación y venture del Banco Interamericano de Desarrollo.",
    "description": "IDB Lab es el brazo de innovación del Grupo BID; financia y acompaña soluciones innovadoras para inclusión, sostenibilidad y productividad en América Latina y el Caribe.",
    "founding_year": "1993"
@@ -624,6 +725,9 @@
    "city": "San Isidro",
    "website": "https://bioincuba.cayetano.pe",
    "linkedin": "https://www.linkedin.com/company/bioincubaperu",
+   "linkedin_url": "https://www.linkedin.com/company/bioincubaperu",
+   "linkedin_cited_from": "https://bioincuba.cayetano.pe",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Incubadora universitaria en biotecnología.",
    "description": "Bioincuba es la incubadora de biotecnología de la Universidad Peruana Cayetano Heredia (UPCH), que acompaña emprendimientos de base científica."
   },
@@ -634,7 +738,6 @@
    "category": "startup",
    "city": "Lima",
    "website": "https://bsf-logistics.org/",
-   "linkedin": "https://www.linkedin.com/company/black-soldier-fly-logistics",
    "ecosystem_role": "Startup de economía circular y bioconversión.",
    "founding_year": "2023"
   },
@@ -646,6 +749,9 @@
    "city": "Lima",
    "website": "https://www.blueorchard.com",
    "linkedin": "https://www.linkedin.com/company/blueorchard-finance-ltd",
+   "linkedin_url": "https://www.linkedin.com/company/blueorchard-finance-ltd",
+   "linkedin_cited_from": "https://www.blueorchard.com",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Financiador e inversionista",
    "description": "BlueOrchard leads in Global Impact Investing, empowering people and protecting the planet through innovative, purpose-driven solutions."
   },
@@ -656,7 +762,6 @@
    "category": "finance",
    "city": "Lima (San Isidro)",
    "website": "https://www.bvl.com.pe",
-   "linkedin": "https://www.linkedin.com/company/bolsa-de-valores-de-lima",
    "ecosystem_role": "Mercado de valores regulado.",
    "description": "La Bolsa de Valores de Lima (BVL) es el mercado de valores oficial del Perú; facilita financiamiento bursátil y negociación de instrumentos.",
    "founding_year": "1860"
@@ -668,7 +773,6 @@
    "category": "corporate",
    "city": "Lima",
    "website": "https://finlandabroad.fi/web/per/embajada",
-   "linkedin": "https://www.linkedin.com/company/finnish-embassy-in-peru",
    "ecosystem_role": "Empresa / sector privado (verificar identidad en mapa CTH).",
    "description": "Entrada del mapa que agrupa cooperación finlandesa en Perú (sitio de la Embajada de Finlandia) vinculada a desafíos de bosques (BOS), agua (AZU) y energía (ENE) en el taxón CTH.\n\n| Detalle | Valor |\n| --- | --- |\n| Año de fundación | PENDIENTE |\n| Dirección | PENDIENTE |\n| Áreas de enfoque (CT) | BOS, AZU, ENE |\n| P…"
   },
@@ -679,7 +783,6 @@
    "category": "corporate",
    "city": "Lima",
    "website": "https://bosques-amazonicos.com",
-   "linkedin": "https://www.linkedin.com/company/bosques-amaz%C3%B3nicos-bam",
    "ecosystem_role": "Empresa de proyectos forestales y carbono.",
    "description": "Bosques Amazónicos (BAM) desarrolla proyectos de conservación y restauración forestal con enfoque de carbono y biodiversidad en la Amazonía."
   },
@@ -690,7 +793,6 @@
    "category": "corporate",
    "city": "Lima",
    "website": "https://www.ccl.org.pe/",
-   "linkedin": "https://www.linkedin.com/company/camaradelima",
    "ecosystem_role": "Gremio / sistema de cámaras de comercio (CCL).",
    "description": "El sistema cameral peruano se articula en torno a la Cámara de Comercio de Lima (CCL), principal gremio empresarial del país, que representa y apoya a las cámaras regionales."
   },
@@ -701,7 +803,10 @@
    "category": "international",
    "city": "Caracas / regional",
    "website": "https://www.caf.com/es",
-   "linkedin": "https://www.linkedin.com/company/caf-banco-de-desarrollo-de-america-latina",
+   "linkedin": "https://www.linkedin.com/company/caf",
+   "linkedin_url": "https://www.linkedin.com/company/caf",
+   "linkedin_cited_from": "https://www.caf.com/es/quienes-somos/",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Banco de desarrollo multilateral regional.",
    "description": "CAF es el banco de desarrollo de América Latina y el Caribe; financia proyectos de infraestructura, sostenibilidad e inclusión en la región.",
    "founding_year": "1970"
@@ -714,6 +819,9 @@
    "city": "Lima",
    "website": "https://www.cajaarequipa.pe",
    "linkedin": "https://www.linkedin.com/company/caja-arequipa",
+   "linkedin_url": "https://www.linkedin.com/company/caja-arequipa",
+   "linkedin_cited_from": "https://www.cajaarequipa.pe",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Institución financiera",
    "description": "En Caja Arequipa puedes obtener Créditos, Ahorros, Seguros y Simulaciones de Préstamos. Somos la Caja Financiera del Perú preferida. ¡Conoce más!"
   },
@@ -724,7 +832,6 @@
    "category": "finance",
    "city": "Huancayo",
    "website": "https://www.cajahuancayo.com.pe",
-   "linkedin": "https://www.linkedin.com/company/caja-huancayo",
    "ecosystem_role": "Caja municipal de ahorro y crédito.",
    "description": "Caja Huancayo es una caja municipal de ahorro y crédito que ofrece servicios financieros en la región Junín y a nivel nacional."
   },
@@ -735,7 +842,6 @@
    "category": "finance",
    "city": "Villa El Salvador",
    "website": "https://cajaica.pe",
-   "linkedin": "https://www.linkedin.com/company/caja-ica",
    "ecosystem_role": "Institución financiera",
    "description": "Convertimos sueños en realidad, mejorando la calidad de vida de las personas"
   },
@@ -746,7 +852,6 @@
    "category": "finance",
    "city": "Huánuco",
    "website": "https://www.cajamaynas.pe",
-   "linkedin": "https://www.linkedin.com/company/caja-maynas",
    "ecosystem_role": "Caja municipal de ahorro y crédito.",
    "description": "Caja Maynas es una caja municipal de ahorro y crédito con sede en Huánuco que brinda créditos, ahorros y seguros."
   },
@@ -757,7 +862,6 @@
    "category": "finance",
    "city": "Lima",
    "website": "https://www.cajapiura.pe",
-   "linkedin": "https://www.linkedin.com/company/caja-piura",
    "ecosystem_role": "Institución financiera",
    "description": "Caja Piura - Créditos, ahorros y servicios"
   },
@@ -768,7 +872,6 @@
    "category": "accelerator",
    "city": "Cajamarca",
    "website": "https://camcajamarca.com.pe/cajamarca-incuba/",
-   "linkedin": "https://www.linkedin.com/company/c%C3%A1mara-de-comercio-y-producci%C3%B3n-de-cajamarca",
    "ecosystem_role": "Aceleradora, incubadora o programa de apoyo",
    "description": "Cajamarca Incuba es el programa de incubación y aceleración de la Cámara de Comercio y Producción de Cajamarca para ideas de negocio y empresas locales."
   },
@@ -780,6 +883,9 @@
    "city": "Lima",
    "website": "https://www.canadaperu.org",
    "linkedin": "https://www.linkedin.com/company/c%C3%A1mara-de-comercio-canad%C3%A1-per%C3%BA",
+   "linkedin_url": "https://www.linkedin.com/company/c%C3%A1mara-de-comercio-canad%C3%A1-per%C3%BA",
+   "linkedin_cited_from": "https://canadaperu.org/",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Cámara bilateral Canadá–Perú.",
    "description": "La Cámara de Comercio Canadá–Perú promueve relaciones comerciales, educativas y culturales entre Canadá y el Perú."
   },
@@ -791,6 +897,9 @@
    "city": "Lima",
    "website": "https://www.camaralima.org.pe",
    "linkedin": "https://www.linkedin.com/company/camaradelima",
+   "linkedin_url": "https://www.linkedin.com/company/camaradelima",
+   "linkedin_cited_from": "https://www.camaralima.org.pe",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Cámara o gremio",
    "description": "Cámara de Comercio de Lima: el gremio privado más representativo del Perú. Servicios, eventos, capacitaciones y beneficios para empresas."
   },
@@ -802,6 +911,9 @@
    "city": "Lima",
    "website": "https://peru.ahk.de",
    "linkedin": "https://www.linkedin.com/company/ahk-peru-camara-peruano-alemana",
+   "linkedin_url": "https://www.linkedin.com/company/ahk-peru-camara-peruano-alemana",
+   "linkedin_cited_from": "https://peru.ahk.de/de",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Cámara o gremio",
    "description": "Die AHK Peru fördert bilaterale Wirtschaftsbeziehungen, unterstützt deutsche und peruanische Unternehmen beim Markteintritt und -erschliessung und bietet vielfältige Dienstleistungen in den Bereichen Außenwirtschaft, Veranstaltungen, Weiterbildung und Nachhaltigkeit. Entdecken Sie unser Netzwerk, aktuelle Projekte u…"
   },
@@ -813,6 +925,9 @@
    "city": "San Isidro",
    "website": "https://care.org.pe",
    "linkedin": "https://www.linkedin.com/company/care-peru",
+   "linkedin_url": "https://www.linkedin.com/company/care-peru",
+   "linkedin_cited_from": "https://care.org.pe",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "ONG o fundación",
    "description": "CARE Perú es una ONG peruana que trabaja para luchar contra la pobreza y la injusticia social, con un enfoque específico en el empoderamiento de mujeres y niñas."
   },
@@ -833,7 +948,6 @@
    "category": "corporate",
    "city": "Arequipa",
    "website": "https://www.cerroverde.pe",
-   "linkedin": "https://www.linkedin.com/company/cerro-verde/",
    "ecosystem_role": "Empresa / sector privado",
    "description": "Operación minera de cobre y molibdeno en Arequipa, con programas de gestión de agua, energía y relación con comunidades.\n\n| Campo | Valor |\n| --- | --- |\n| Dirección | Arequipa, Perú (operaciones mineras Cerro Verde) |\n| Año de fundación | PENDIENTE |\n| Áreas de enfoque (taxonomía CT) | AGU, ENE, FIN |\n| Programas |…"
   },
@@ -844,7 +958,6 @@
    "category": "corporate",
    "city": "Lima (Barranco)",
    "website": "https://utec.edu.pe/centro-investigacion-cita",
-   "linkedin": "https://www.linkedin.com/company/cita-utec",
    "ecosystem_role": "Centro de I+D en agua y medio ambiente (UTEC).",
    "description": "El Centro de Investigación y Tecnología del Agua (CITA) de la UTEC desarrolla investigación aplicada en seguridad hídrica, monitoreo ambiental y gestión de recursos hídricos.",
    "founding_year": "2017"
@@ -856,7 +969,6 @@
    "category": "ngo_foundation",
    "city": "Lima",
    "website": "https://www.ciudadsaludable.org",
-   "linkedin": "https://www.linkedin.com/company/ciudad-saludable",
    "ecosystem_role": "ONG de gestión de residuos sólidos y reciclaje inclusivo con recicladores en ciudades peruanas.",
    "description": "ONG peruana que promueve reciclaje inclusivo y economía circular con recicladores y municipios.\n\n| Campo | Valor |\n| --- | --- |\n| Año de fundación | PENDIENTE |\n| Dirección | Lima, Perú |\n| Enfoque (taxonomía CT) | Residuos sólidos, reciclaje inclusivo, ciudades sostenibles |\n| Programas | Modelos de reciclaje con…"
   },
@@ -868,6 +980,9 @@
    "city": "Arequipa (sede); operaciones en 8 países de LATAM",
    "website": "https://cleantechhub.net",
    "linkedin": "https://www.linkedin.com/company/cleantechhub",
+   "linkedin_url": "https://www.linkedin.com/company/cleantechhub",
+   "linkedin_cited_from": "https://cleantechhub.net",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Aceleradora de innovación climática: diagnóstico verde, aceleración, financiamiento e inversión de impacto en LATAM.",
    "description": "CleantechHUB impulsa startups de tecnología climática en América Latina con programas de aceleración, financiamiento sostenible e inversión de impacto.",
    "founding_year": "2019"
@@ -879,7 +994,6 @@
    "category": "corporate",
    "city": "Lima (actores referenciados en ecosistema peruano)",
    "website": "https://www.lavca.org/research/",
-   "linkedin": "https://www.linkedin.com/company/lavca",
    "ecosystem_role": "Conjunto de actores de investigación y aceleración (LAVCA, CPI, MIT REAP) vinculados al ecosistema emprendedor y climático en Perú.",
    "description": "Entrada compuesta en el mapa de actores que agrupa referencias a LAVCA (investigación de capital de riesgo en LATAM), Climate Policy Initiative y MIT REAP como recursos del ecosistema."
   },
@@ -891,6 +1005,9 @@
    "city": "San Isidro, Lima",
    "website": "https://www.cofide.com.pe",
    "linkedin": "https://www.linkedin.com/company/cofide",
+   "linkedin_url": "https://www.linkedin.com/company/cofide",
+   "linkedin_cited_from": "https://www.cofide.com.pe",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Banco de desarrollo y fondo de fondos que articula financiamiento, capital de riesgo y programas como el FCEI en el ecosistema de innovación.",
    "description": "Corporación Financiera de Desarrollo (COFIDE) es el banco de desarrollo del Perú; el FCEI (Fondo Cerrado de Empresas Emergentes e Innovadoras) invierte en fondos de venture capital.",
    "founding_year": "1977"
@@ -913,6 +1030,9 @@
    "city": "Los Olivos, Lima",
    "website": "https://www.compartamos.com.pe",
    "linkedin": "https://www.linkedin.com/company/compartamosbancoperu",
+   "linkedin_url": "https://www.linkedin.com/company/compartamosbancoperu",
+   "linkedin_cited_from": "https://www.compartamos.com.pe",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Entidad de microfinanzas que otorga crédito a MYPE y emprendedores, incluido segmento rural.",
    "description": "Compartamos Financiera (Compartamos Banco Perú) ofrece productos de microcrédito y servicios financieros a microempresarios y emprendedores en el Perú."
   },
@@ -923,7 +1043,6 @@
    "category": "government",
    "city": "San Borja, Lima",
    "website": "https://prociencia.gob.pe",
-   "linkedin": "https://www.linkedin.com/company/prociencia/",
    "ecosystem_role": "Programa nacional de ciencia y tecnología (ProCiencia) bajo el ecosistema CONCYTEC para fondos de I+D e innovación.",
    "description": "Entidad ejecutora del programa ProCiencia del CONCYTEC; financia proyectos de ciencia, tecnología e innovación en el Perú.\n\n| Campo | Valor |\n| --- | --- |\n| Dirección | Av. Javier Prado Este 730, San Borja, Lima |\n| Año de fundación | PENDIENTE |\n| Áreas de enfoque (taxonomía CT) | ARG, BOS |\n| Programas | Concurso…"
   },
@@ -934,7 +1053,6 @@
    "category": "ngo_foundation",
    "city": "Cusco",
    "website": "https://acca.org.pe",
-   "linkedin": "https://www.linkedin.com/company/asociaci%C3%B3n-para-la-conservaci%C3%B3n-de-la-cuenca-amaz%C3%B3nica",
    "ecosystem_role": "ONG de conservación amazónica: ciencia, monitoreo y alternativas económicas sostenibles al bosque.",
    "description": "ACCA (Conservación Amazónica) protege ecosistemas amazónicos y andinos en el sur del Perú mediante áreas de conservación, ciencia y trabajo con comunidades.\n\n| Detalle | Valor |\n| --- | --- |\n| Año de fundación | PENDIENTE |\n| Dirección | PENDIENTE |\n| Áreas de enfoque (CT) | BOS |\n| Programas | Conservación de más…"
   },
@@ -946,6 +1064,9 @@
    "city": "Lima (oficina país); sede global Arlington, Virginia",
    "website": "https://www.conservation.org",
    "linkedin": "https://www.linkedin.com/company/conservation-international",
+   "linkedin_url": "https://www.linkedin.com/company/conservation-international",
+   "linkedin_cited_from": "https://www.conservation.org",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Organización internacional de conservación de ecosistemas y biodiversidad con programas en Perú.",
    "description": "Conservation International trabaja desde 1987 para proteger océanos, bosques y otros ecosistemas y mejorar el bienestar humano mediante la conservación de la naturaleza.",
    "founding_year": "1987"
@@ -958,6 +1079,9 @@
    "city": "Lima",
    "website": "https://www.conservamospornaturaleza.org",
    "linkedin": "https://www.linkedin.com/company/5043453",
+   "linkedin_url": "https://www.linkedin.com/company/5043453",
+   "linkedin_cited_from": "https://www.conservamospornaturaleza.org",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Plataforma de comunicación y movilización ciudadana a favor de la conservación del patrimonio natural peruano.",
    "description": "Conservamos por Naturaleza inspira a vivir en armonía con la naturaleza y fortalece iniciativas ciudadanas que valoran el patrimonio natural del Perú."
   },
@@ -969,6 +1093,9 @@
    "city": "Lima",
    "website": "https://www.convergence.finance/design-funding",
    "linkedin": "https://www.linkedin.com/company/convergenceblendedfinance",
+   "linkedin_url": "https://www.linkedin.com/company/convergenceblendedfinance",
+   "linkedin_cited_from": "https://www.convergence.finance/accelerator",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Mecanismo de financiamiento blended para diseñar estructuras que movilicen inversión comercial en mercados emergentes.",
    "description": "El programa Design Funding de Convergence ofrece subvenciones y apoyo de aceleración para diseñar soluciones de financiamiento blended que desbloqueen inversión comercial hacia el desarrollo sostenible."
   },
@@ -999,7 +1126,6 @@
    "category": "corporate",
    "city": "Lima",
    "website": "https://proactivo.com.pe",
-   "linkedin": "https://www.linkedin.com/company/revista-proactivo",
    "ecosystem_role": "Medio especializado en seguridad, salud, medio ambiente y responsabilidad social empresarial.",
    "description": "Actor dual en comunicación sostenible: ProActivo (revista peruana de minería, energía y medio ambiente) y Corresponsables (medio iberoamericano de RSE y comunicación responsable).\n\n- **Año de fundación:** PENDIENTE\n- **Dirección:** Lima, Perú (ProActivo); Barcelona, España (sede Corresponsables)\n- **Áreas de enfoque…"
   },
@@ -1021,6 +1147,9 @@
    "city": "Olmos, Lambayeque",
    "website": "https://danper.com",
    "linkedin": "https://www.linkedin.com/company/danperperu",
+   "linkedin_url": "https://www.linkedin.com/company/danperperu",
+   "linkedin_cited_from": "https://danper.com",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Agroexportadora peruana; demanda de innovación en agua, adaptación climática y cadena agrícola.",
    "description": "Danper es una empresa agroindustrial y exportadora peruana con operaciones en el norte del país, activa en cultivos y procesamiento para mercados internacionales."
   },
@@ -1042,6 +1171,9 @@
    "city": "San Francisco, California (sede); programas en Perú/Amazonía",
    "website": "https://earthinnovation.org",
    "linkedin": "https://www.linkedin.com/company/earth-innovation-institute",
+   "linkedin_url": "https://www.linkedin.com/company/earth-innovation-institute",
+   "linkedin_cited_from": "https://earthinnovation.org",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Instituto de investigación aplicada para desarrollo sostenible y gobernanza forestal en regiones tropicales.",
    "description": "Earth Innovation Institute impulsa el desarrollo sostenible mediante ciencia y colaboración en regiones de bosques tropicales, incluidos programas en la Amazonía."
   },
@@ -1053,6 +1185,9 @@
    "city": "Lima",
    "website": "https://www.earthshot.vc",
    "linkedin": "https://www.linkedin.com/company/earthshot-ventures",
+   "linkedin_url": "https://www.linkedin.com/company/earthshot-ventures",
+   "linkedin_cited_from": "https://www.earthshot.vc",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Fondo de venture capital orientado a fundadores y soluciones climáticas de alto impacto.",
    "description": "Earthshot Ventures invierte en fundadores excepcionales y empresas con potencial de impacto ambiental y climático."
   },
@@ -1073,6 +1208,10 @@
    "category": "corporate",
    "city": "Lima",
    "website": "https://ecoproa.com/",
+   "linkedin": "https://www.linkedin.com/company/ecoproa",
+   "linkedin_url": "https://www.linkedin.com/company/ecoproa",
+   "linkedin_cited_from": "https://ecoproa.com/",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Empresa de soluciones postcosecha (Ecowax) para frutas de exportación.",
    "description": "EcoProa comercializa soluciones postcosecha Ecowax que extienden la vida útil y mejoran la apariencia de frutas frescas para exportación."
   },
@@ -1084,6 +1223,9 @@
    "city": "Zurich, Suiza (sede)",
    "website": "https://www.elea.org",
    "linkedin": "https://www.linkedin.com/company/eleafoundation",
+   "linkedin_url": "https://www.linkedin.com/company/eleafoundation",
+   "linkedin_cited_from": "https://www.elea.org/en/home-en",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Inversor de impacto filantrópico que combate la pobreza extrema con enfoque empresarial.",
    "description": "elea es una fundación e inversora de impacto filantrópico que combate la pobreza absoluta mediante inversiones y apoyo empresarial en mercados emergentes."
   },
@@ -1104,7 +1246,6 @@
    "category": "accelerator",
    "city": "Huánuco",
    "website": "https://www.udh.edu.pe",
-   "linkedin": "https://www.linkedin.com/school/universidad-de-hu%C3%A1nuco",
    "ecosystem_role": "Programa o unidad de emprendimiento de la Universidad de Huánuco (UDH).",
    "description": "Emprende UDH es la iniciativa de emprendimiento vinculada a la Universidad de Huánuco, institución licenciada por SUNEDU."
   },
@@ -1115,7 +1256,6 @@
    "category": "accelerator",
    "city": "Lima",
    "website": "https://emprendeup.pe/climatech/",
-   "linkedin": "https://www.linkedin.com/company/emprende-up",
    "ecosystem_role": "Aceleradora, incubadora o programa de apoyo",
    "description": "Iniciativa ClimaTech de Emprende UP (Universidad del Pacífico) para incubar startups climáticas; nodo REIN Perú.\n\n| Campo | Valor |\n| --- | --- |\n| Año de fundación | 2025 |\n| Dirección | Universidad del Pacífico, Lima, Perú |\n| Enfoque (taxonomía CT) | Emprendimiento climático, incubación, bioeconomía (códigos CT d…",
    "founding_year": "2025"
@@ -1137,7 +1277,10 @@
    "category": "accelerator",
    "city": "Lima",
    "website": "https://endeavor.org.pe",
-   "linkedin": "https://www.linkedin.com/company/endeavor-per",
+   "linkedin": "https://www.linkedin.com/company/endeavor-per%C3%BA",
+   "linkedin_url": "https://www.linkedin.com/company/endeavor-per%C3%BA",
+   "linkedin_cited_from": "https://endeavor.org.pe",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Aceleradora global de emprendedores de alto impacto con oficina en Perú.",
    "description": "Endeavor Perú selecciona y acompaña emprendedores de alto impacto para escalar empresas; forma parte de la red global Endeavor."
   },
@@ -1149,6 +1292,9 @@
    "city": "Lima",
    "website": "https://www.pluz.pe",
    "linkedin": "https://www.linkedin.com/company/pluz-peru",
+   "linkedin_url": "https://www.linkedin.com/company/pluz-peru",
+   "linkedin_cited_from": "https://www.pluz.pe",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Marca de soluciones energéticas residenciales de Enel Perú (Pluz).",
    "description": "Pluz es la propuesta de Enel Perú orientada a soluciones energéticas para hogares y clientes residenciales en el mercado peruano."
   },
@@ -1159,7 +1305,6 @@
    "category": "corporate",
    "city": "Lima",
    "website": "https://engie-energia.pe",
-   "linkedin": "https://www.linkedin.com/company/engieperu",
    "ecosystem_role": "Generación y comercialización de energía; desarrollo de proyectos renovables en Perú.",
    "description": "ENGIE Energía Perú es la filial del grupo ENGIE dedicada a generación y suministro de energía eléctrica en el Perú."
   },
@@ -1170,7 +1315,6 @@
    "category": "corporate",
    "city": "Lima",
    "website": "https://www.eeas.europa.eu/delegations/perú_es?s=162",
-   "linkedin": "https://www.linkedin.com/company/ueenperu",
    "ecosystem_role": "Cooperación y relación institucional de la Unión Europea y sus Estados miembros con el Perú.",
    "description": "Los Estados miembros de la Unión Europea, a través de la Delegación de la UE en el Perú, coordinan cooperación y políticas compartidas en desarrollo sostenible y clima.\n\n- **Año de fundación:** PENDIENTE\n- **Dirección:** Av. Javier Prado Oeste 790, San Isidro, Lima, Perú (Delegación UE)\n- **Áreas de enfoque (taxonom…"
   },
@@ -1181,7 +1325,6 @@
    "category": "international",
    "city": "Lima",
    "website": "https://www.fao.org/americas/paises/peru/es",
-   "linkedin": "https://www.linkedin.com/company/fao/",
    "ecosystem_role": "Agencia especializada de la ONU para alimentación, agricultura y seguridad alimentaria en Perú.",
    "description": "Oficina de la Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO) en el Perú.\n\n| Campo | Valor |\n| --- | --- |\n| Dirección | Av. Javier Prado Oeste 790, San Isidro, Lima |\n| Año de fundación | 1945 (FAO) |\n| Áreas de enfoque (taxonomía CT) | AGR |\n| Programas | Seguridad alimentaria; agri…",
    "founding_year": "1945"
@@ -1203,7 +1346,10 @@
    "category": "finance",
    "city": "Tacabamba",
    "website": "https://www.fpcmac.org.pe",
-   "linkedin": "https://www.linkedin.com/company/fepcmac",
+   "linkedin": "https://www.linkedin.com/company/10279236",
+   "linkedin_url": "https://www.linkedin.com/company/10279236",
+   "linkedin_cited_from": "https://www.fpcmac.org.pe",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Federación de cajas municipales de ahorro y crédito; articulación para finanzas verdes.",
    "description": "Federación que agrupa cajas municipales de ahorro y crédito del Perú con servicios financieros en zonas rurales.\n\n| Campo | Valor |\n| --- | --- |\n| Año de fundación | PENDIENTE |\n| Dirección | Tacabamba, Cajamarca, Perú |\n| Enfoque (taxonomía CT) | Finanzas rurales, inclusión financiera, desarrollo territorial (BOS)…"
   },
@@ -1215,6 +1361,9 @@
    "city": "Ate, Lima",
    "website": "https://confianza.pe",
    "linkedin": "https://www.linkedin.com/company/financiera-confianza-fmbbva",
+   "linkedin_url": "https://www.linkedin.com/company/financiera-confianza-fmbbva",
+   "linkedin_cited_from": "https://confianza.pe",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Entidad de microfinanzas (Finanzas Productivas) vinculada al ecosistema de inclusión financiera.",
    "description": "Financiera Confianza es una entidad líder del sector microfinanciero peruano que impulsa el desarrollo económico y social mediante crédito productivo."
   },
@@ -1237,6 +1386,9 @@
    "city": "Washington, D.C. (sede global)",
    "website": "https://www.forest-trends.org",
    "linkedin": "https://www.linkedin.com/company/forest-trends-association",
+   "linkedin_url": "https://www.linkedin.com/company/forest-trends-association",
+   "linkedin_cited_from": "https://www.forest-trends.org",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Organización internacional que impulsa finanzas e instrumentos de mercado para la conservación.",
    "description": "Forest Trends trabaja en finanzas innovadoras y políticas de mercado para conservar ecosistemas forestales y de agua.",
    "founding_year": "1998"
@@ -1268,7 +1420,6 @@
    "category": "international",
    "city": "Lima",
    "website": "https://www.avina.net",
-   "linkedin": "https://www.linkedin.com/company/avina/",
    "ecosystem_role": "Fundación internacional que moviliza alianzas para sostenibilidad y cambio sistémico en América Latina.",
    "description": "Fundación internacional que articula alianzas multiactor para transiciones sostenibles en América Latina, con presencia en Perú.\n\n| Campo | Valor |\n| --- | --- |\n| Dirección | Lima, Perú (oficina regional) |\n| Año de fundación | 1994 |\n| Áreas de enfoque (taxonomía CT) | AGU, BOS |\n| Programas | Alianzas para agua,…",
    "founding_year": "1994"
@@ -1280,7 +1431,10 @@
    "category": "ngo_foundation",
    "city": "Madrid, España (sede fundación)",
    "website": "https://www.fundacionmicrofinanzasbbva.org",
-   "linkedin": "https://www.linkedin.com/company/fundacion-microfinanzas-bbva",
+   "linkedin": "https://www.linkedin.com/company/11015767",
+   "linkedin_url": "https://www.linkedin.com/company/11015767",
+   "linkedin_cited_from": "https://www.fundacionmicrofinanzasbbva.org",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Iniciativa filantrópica del Grupo BBVA para microfinanzas e inclusión financiera en América Latina.",
    "description": "La Fundación Microfinanzas BBVA promueve el acceso a servicios financieros para poblaciones vulnerables en América Latina."
   },
@@ -1291,6 +1445,10 @@
    "category": "ngo_foundation",
    "city": "Lima",
    "website": "https://www.belcorp.com/fundacionbelcorp",
+   "linkedin": "https://www.linkedin.com/company/fundacion-belcorp",
+   "linkedin_url": "https://www.linkedin.com/company/fundacion-belcorp",
+   "linkedin_cited_from": "https://www.belcorp.com/fundacionbelcorp",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Filantropía corporativa de Belcorp enfocada en empoderamiento femenino y sostenibilidad.",
    "description": "Fundación Belcorp desarrolla programas de empoderamiento femenino, sostenibilidad e impacto social en América Latina."
   },
@@ -1301,7 +1459,10 @@
    "category": "ngo_foundation",
    "city": "Lima",
    "website": "https://www.fundacionwiese.org",
-   "linkedin": "https://www.linkedin.com/company/fundacionwiese",
+   "linkedin": "https://www.linkedin.com/company/fundacionwiesepe",
+   "linkedin_url": "https://www.linkedin.com/company/fundacionwiesepe",
+   "linkedin_cited_from": "https://www.fundacionwiese.org",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Fundación peruana de educación, patrimonio y emprendimiento con impacto comunitario.",
    "description": "Fundación Wiese impulsa proyectos de educación, emprendimiento y desarrollo sostenible que generan oportunidades en comunidades del Perú."
   },
@@ -1312,7 +1473,6 @@
    "category": "ngo_foundation",
    "city": "Lima",
    "website": "https://fundes.org",
-   "linkedin": "https://www.linkedin.com/company/fundes",
    "ecosystem_role": "Consultoría de impacto y desarrollo de negocios inclusivos en América Latina.",
    "description": "FUNDES es una consultoría de impacto que acompaña a empresas y emprendedores en modelos de negocio inclusivos y sostenibles."
   },
@@ -1323,6 +1483,10 @@
    "category": "media",
    "city": "San Isidro, Lima",
    "website": "https://gestion.pe",
+   "linkedin": "https://www.linkedin.com/company/diario-gesti%C3%B3n",
+   "linkedin_url": "https://www.linkedin.com/company/diario-gesti%C3%B3n",
+   "linkedin_cited_from": "https://gestion.pe",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Medio de comunicación económico y empresarial de referencia en Perú.",
    "description": "Gestión es un diario peruano especializado en economía, finanzas y negocios."
   },
@@ -1333,7 +1497,10 @@
    "category": "international",
    "city": "Seúl, República de Corea (sede); programas en Perú",
    "website": "https://gggi.org",
-   "linkedin": "https://www.linkedin.com/company/global-green-growth-institute",
+   "linkedin": "https://www.linkedin.com/company/gggi-asia",
+   "linkedin_url": "https://www.linkedin.com/company/gggi-asia",
+   "linkedin_cited_from": "https://gggi.org",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Instituto intergubernamental de crecimiento verde y transición climática.",
    "description": "El Global Green Growth Institute (GGGI) apoya a gobiernos en planificación de crecimiento verde y resiliencia climática.",
    "founding_year": "2012"
@@ -1346,6 +1513,9 @@
    "city": "Eschborn / Bonn, Alemania (sede); Lima (oficina país)",
    "website": "https://www.giz.de",
    "linkedin": "https://www.linkedin.com/company/gizgmbh",
+   "linkedin_url": "https://www.linkedin.com/company/gizgmbh",
+   "linkedin_cited_from": "https://www.giz.de/de",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Cooperación técnica alemana para desarrollo sostenible en Perú.",
    "description": "La Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH implementa proyectos de cooperación al desarrollo en el Perú y a nivel global.",
    "founding_year": "2011"
@@ -1417,6 +1587,10 @@
    "category": "corporate",
    "city": "Johannesburg, Sudáfrica (sede); operaciones en Perú",
    "website": "https://www.goldfields.com",
+   "linkedin": "https://www.linkedin.com/company/gold-fields",
+   "linkedin_url": "https://www.linkedin.com/company/gold-fields",
+   "linkedin_cited_from": "https://www.goldfields.com",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Compañía minera internacional con operaciones auríferas en el Perú.",
    "description": "Gold Fields Limited es una productora internacional de oro con activos mineros en varios países, incluido el Perú."
   },
@@ -1427,7 +1601,10 @@
    "category": "academia",
    "city": "Barranco, Lima",
    "website": "https://grade.org.pe",
-   "linkedin": "https://www.linkedin.com/company/grade-peru",
+   "linkedin": "https://www.linkedin.com/company/leer-no-basta",
+   "linkedin_url": "https://www.linkedin.com/company/leer-no-basta",
+   "linkedin_cited_from": "https://grade.org.pe",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Centro de investigación aplicada en economía, políticas públicas y desarrollo.",
    "description": "GRADE (Grupo de Análisis para el Desarrollo) produce investigación y análisis de políticas para el desarrollo en el Perú y la región.",
    "founding_year": "1987"
@@ -1439,7 +1616,6 @@
    "category": "corporate",
    "city": "Lima",
    "website": "https://www.ggfgroup.pe/",
-   "linkedin": "https://www.linkedin.com/company/green-gold-forestry/",
    "ecosystem_role": "Empresa forestal y de restauración con operaciones en el Perú.",
    "description": "Empresa forestal peruana enfocada en manejo sostenible de bosques y cadena de valor maderera con certificación.\n\n| Campo | Valor |\n| --- | --- |\n| Dirección | Lima, Perú |\n| Año de fundación | PENDIENTE |\n| Áreas de enfoque (taxonomía CT) | BOS |\n| Programas | Plantaciones y manejo forestal sostenible |"
   },
@@ -1450,7 +1626,6 @@
    "category": "funder",
    "city": "Lima",
    "website": "https://www.gruporomero.com.pe",
-   "linkedin": "https://www.linkedin.com/company/grupo-romero",
    "ecosystem_role": "Holding empresarial peruano (Grupo Romero) con diversas líneas de negocio.",
    "description": "GRIO es el brazo de inversiones del Grupo Romero en Perú, con participaciones en sectores financieros, logísticos y de consumo.\n\n| Detalle | Valor |\n| --- | --- |\n| Año de fundación | PENDIENTE |\n| Dirección | PENDIENTE |\n| Áreas de enfoque (CT) | FIN |\n| Programas | Inversiones estratégicas y gestión de participaci…"
   },
@@ -1462,6 +1637,9 @@
    "city": "Nieuwegein, Países Bajos (sede); proyectos en Perú",
    "website": "https://www.haskoning.com",
    "linkedin": "https://www.linkedin.com/company/haskoning",
+   "linkedin_url": "https://www.linkedin.com/company/haskoning",
+   "linkedin_cited_from": "https://www.haskoning.com",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Consultora de ingeniería y medio ambiente para infraestructura sostenible.",
    "description": "Haskoning es una consultora internacional de ingeniería para el entorno natural y construido, con enfoque en sostenibilidad."
   },
@@ -1472,6 +1650,10 @@
    "category": "ngo_foundation",
    "city": "Lima",
    "website": "https://www.helvetas.org/es/peru",
+   "linkedin": "https://www.linkedin.com/company/helvetas-peru",
+   "linkedin_url": "https://www.linkedin.com/company/helvetas-peru",
+   "linkedin_cited_from": "https://www.helvetas.org/es/peru",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "ONG suiza de desarrollo con programas de agua, clima y economía rural en Perú.",
    "description": "Helvetas Perú implementa proyectos de desarrollo en agua, agricultura, clima y gobernanza como parte de la red Helvetas.",
    "founding_year": "1955"
@@ -1483,6 +1665,10 @@
    "category": "corporate",
    "city": "Milán, Italia (sede)",
    "website": "https://aspem.org/en/",
+   "linkedin": "https://www.linkedin.com/company/aspem-associazione-solidariet-paesi-emergenti",
+   "linkedin_url": "https://www.linkedin.com/company/aspem-associazione-solidariet-paesi-emergenti",
+   "linkedin_cited_from": "https://aspem.org/en/",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "ONG italiana de cooperación internacional y solidaridad con países emergentes.",
    "description": "ASPEm promueve cooperación internacional, movilidad juvenil, voluntariado y educación para la ciudadanía global desde 1979.",
    "founding_year": "1979"
@@ -1494,6 +1680,10 @@
    "category": "corporate",
    "city": "Bruselas, Bélgica (iniciativa UE)",
    "website": "https://circulareconomy.europa.eu/platform/en",
+   "linkedin": "https://www.linkedin.com/company/ekofom",
+   "linkedin_url": "https://www.linkedin.com/company/ekofom",
+   "linkedin_cited_from": "https://circulareconomy.europa.eu/platform/en",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Plataforma de la Comisión Europea y CESE para economía circular.",
    "description": "La European Circular Economy Stakeholder Platform es una iniciativa conjunta de la Comisión Europea y el Comité Económico y Social Europeo."
   },
@@ -1504,6 +1694,10 @@
    "category": "corporate",
    "city": "Lima",
    "website": "https://elcomercio.pe",
+   "linkedin": "https://www.linkedin.com/company/el-comercio",
+   "linkedin_url": "https://www.linkedin.com/company/el-comercio",
+   "linkedin_cited_from": "https://elcomercio.pe",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Medio de comunicación peruano de alcance nacional.",
    "description": "El Comercio es uno de los principales diarios y portales de noticias del Perú."
   },
@@ -1515,6 +1709,9 @@
    "city": "Lima",
    "website": "https://elperuano.pe",
    "linkedin": "https://www.linkedin.com/company/elperuano",
+   "linkedin_url": "https://www.linkedin.com/company/elperuano",
+   "linkedin_cited_from": "https://elperuano.pe",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Diario Oficial de la República y medio estatal de publicación normativa.",
    "description": "El Peruano es el diario oficial del Estado peruano; publica normas legales, disposiciones de gobierno y suplementos especializados en versión impresa y digital.\n\n- **Año de fundación:** 1825\n- **Dirección:** PENDIENTE (Editora Perú, Lima)\n- **Áreas de enfoque (taxonomía CT):** PENDIENTE\n- **Programas:** Publicación…"
   },
@@ -1525,7 +1722,10 @@
    "category": "corporate",
    "city": "Bonn, Alemania (sede FSC International)",
    "website": "https://fsc.org/en",
-   "linkedin": "https://www.linkedin.com/company/forest-stewardship-council-fsc-/",
+   "linkedin": "https://www.linkedin.com/company/fsc-international-bonn",
+   "linkedin_url": "https://www.linkedin.com/company/fsc-international-bonn",
+   "linkedin_cited_from": "https://fsc.org/en",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Organización internacional de certificación forestal responsable.",
    "description": "Forest Stewardship Council (FSC): sistema global de certificación forestal que promueve manejo responsable de bosques.\n\n| Campo | Valor |\n| --- | --- |\n| Dirección | Sede internacional: Bonn, Alemania |\n| Año de fundación | 1993 |\n| Áreas de enfoque (taxonomía CT) | AZU, BOS |\n| Programas | Certificación FSC para bo…",
    "founding_year": "1993"
@@ -1548,6 +1748,9 @@
    "city": "Cambridge, Massachusetts (MIT)",
    "website": "https://reap.mit.edu",
    "linkedin": "https://www.linkedin.com/company/mit-regional-entrepreneurship-acceleration-program",
+   "linkedin_url": "https://www.linkedin.com/company/mit-regional-entrepreneurship-acceleration-program",
+   "linkedin_cited_from": "https://reap.mit.edu",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Programa global del MIT para fortalecer ecosistemas regionales de emprendimiento innovador.",
    "description": "MIT REAP trabaja con regiones del mundo para acelerar ecosistemas emprendedores basados en innovación."
   },
@@ -1558,7 +1761,10 @@
    "category": "corporate",
    "city": "Lima",
    "website": "https://www.cciperu.it",
-   "linkedin": "https://www.linkedin.com/company/camara-de-comercio-italiana-del-peru",
+   "linkedin": "https://www.linkedin.com/company/c%C3%A1mara-de-comercio-italiana-del-per%C3%BA",
+   "linkedin_url": "https://www.linkedin.com/company/c%C3%A1mara-de-comercio-italiana-del-per%C3%BA",
+   "linkedin_cited_from": "https://www.cciperu.it",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Cámara binacional que promueve comercio e inversión Italia–Perú.",
    "description": "La Cámara de Comercio Italiana del Perú facilita relaciones comerciales y networking entre empresas italianas y peruanas."
   },
@@ -1569,7 +1775,6 @@
    "category": "corporate",
    "city": "San Francisco, California (sede)",
    "website": "https://www.climatepolicyinitiative.org",
-   "linkedin": "https://www.linkedin.com/company/climate-policy-initiative",
    "ecosystem_role": "Think tank global en finanzas climáticas y análisis de políticas.",
    "description": "Climate Policy Initiative asesora a gobiernos, empresas e instituciones financieras para alinear crecimiento económico y acción climática."
   },
@@ -1581,6 +1786,9 @@
    "city": "Lima",
    "website": "https://www.coeeci.org.pe",
    "linkedin": "https://www.linkedin.com/company/coeeci",
+   "linkedin_url": "https://www.linkedin.com/company/coeeci",
+   "linkedin_cited_from": "https://www.coeeci.org.pe",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Organización empresarial o gremial del ecosistema peruano (COEECI).",
    "description": "COEECI es una institución referenciada en el mapa de actores con presencia institucional en coeeci.org.pe."
   },
@@ -1591,7 +1799,6 @@
    "category": "corporate",
    "city": "Colonia, Alemania",
    "website": "https://www.deginvest.de",
-   "linkedin": "https://www.linkedin.com/company/deg",
    "ecosystem_role": "Institución de financiamiento del desarrollo para inversión privada en economías emergentes.",
    "description": "DEG financia y acompaña empresas que invierten en países en desarrollo y emergentes, con foco en impacto y clima."
   },
@@ -1602,7 +1809,6 @@
    "category": "corporate",
    "city": "Lima",
    "website": "https://www.expertisefrance.fr",
-   "linkedin": "https://www.linkedin.com/company/expertise-france",
    "ecosystem_role": "Agencia francesa de cooperación técnica internacional.",
    "description": "Expertise France es la agencia francesa de cooperación técnica del grupo AFD; diseña e implementa proyectos de fortalecimiento de políticas públicas en desarrollo sostenible.\n\n- **Año de fundación:** 2015\n- **Dirección:** PENDIENTE (oficina país; sede París, Francia)\n- **Áreas de enfoque (taxonomía CT):** FIN\n- **Pr…"
   },
@@ -1613,7 +1819,6 @@
    "category": "corporate",
    "city": "Lima",
    "website": "https://www.fundacionbbva.pe/",
-   "linkedin": "https://www.linkedin.com/company/fundaci%C3%B3n-bbva-per%C3%BA/",
    "ecosystem_role": "Filantropía del Grupo BBVA en México con programas de educación e inclusión.",
    "description": "Fundación BBVA Perú: filantropía corporativa que financia educación, innovación social y proyectos ambientales en el país.\n\n| Campo | Valor |\n| --- | --- |\n| Dirección | Lima, Perú |\n| Año de fundación | PENDIENTE |\n| Áreas de enfoque (taxonomía CT) | AZU, BOS |\n| Programas | Convocatorias y alianzas de impacto soci…"
   },
@@ -1624,7 +1829,6 @@
    "category": "corporate",
    "city": "Washington, D.C. (sede IDB Group)",
    "website": "https://idbinvest.org/en",
-   "linkedin": "https://www.linkedin.com/company/idb-invest",
    "ecosystem_role": "Brazo del Grupo BID para financiamiento al sector privado en América Latina y el Caribe.",
    "description": "Entrada del mapa vinculada al Grupo BID; el sitio listado corresponde a IDB Invest, brazo de financiamiento del sector privado para proyectos sostenibles en LAC.\n\n| Detalle | Valor |\n| --- | --- |\n| Año de fundación | 1959 (Banco Interamericano de Desarrollo) |\n| Dirección | PENDIENTE |\n| Áreas de enfoque (CT) | FIN…"
   },
@@ -1635,7 +1839,6 @@
    "category": "corporate",
    "city": "Lima",
    "website": "https://www.international.gc.ca/country-pays/peru-perou/lima.aspx?lang=eng",
-   "linkedin": "https://www.linkedin.com/company/embassy-of-canada-to-peru",
    "ecosystem_role": "Representación diplomática de Canadá y cooperación bilateral con el Perú.",
    "description": "Representación diplomática de Canadá en el Perú; promueve cooperación bilateral, comercio y desarrollo sostenible.\n\n| Campo | Valor |\n| --- | --- |\n| Año de fundación | PENDIENTE |\n| Dirección | Lima, Perú |\n| Enfoque (taxonomía CT) | Cooperación internacional, comercio, clima y gobernanza |\n| Programas | Servicios…"
   },
@@ -1677,6 +1880,9 @@
    "city": "Washington, D.C. (sede); representación en Lima",
    "website": "https://www.paho.org/es",
    "linkedin": "https://www.linkedin.com/company/pan-american-health-organization",
+   "linkedin_url": "https://www.linkedin.com/company/pan-american-health-organization",
+   "linkedin_cited_from": "https://www.paho.org/es",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Organización internacional de salud pública (sistema ONU/OEA)",
    "description": "La OPS/PAHO es el organismo especializado en salud de la OEA y la oficina regional de la OMS para las Américas; apoya políticas, vigilancia y cooperación técnica en salud pública, incluidos programas con gobiernos y socios en el Perú.\n\n**Año de fundación:** 1902"
   },
@@ -1707,7 +1913,6 @@
    "category": "corporate",
    "city": "Lima",
    "website": "https://www.terranuova.org",
-   "linkedin": "https://www.linkedin.com/company/terranuova-onlus",
    "ecosystem_role": "Empresa / sector privado",
    "description": "Terranuova: organización italiana de cooperación al desarrollo y comercio equo vinculada a cadenas agroalimentarias sostenibles.\n\n| Detalle | Valor |\n| --- | --- |\n| Año de fundación | PENDIENTE |\n| Dirección | PENDIENTE |\n| Áreas de enfoque (CT) | AGR |\n| Programas | Cooperación rural y comercio justo (según terran…"
   },
@@ -1718,7 +1923,10 @@
    "category": "corporate",
    "city": "Lima",
    "website": "https://www.tropicalforestalliance.org/home",
-   "linkedin": "https://www.linkedin.com/company/tropical-forest-alliance",
+   "linkedin": "https://www.linkedin.com/company/tropicalforestalliance",
+   "linkedin_url": "https://www.linkedin.com/company/tropicalforestalliance",
+   "linkedin_cited_from": "https://www.tropicalforestalliance.org/home",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Alianza multistakeholder por bosques tropicales",
    "description": "Alianza multilateral para eliminar la deforestación impulsada por commodities en bosques tropicales.\n\n| Campo | Valor |\n| --- | --- |\n| Año de fundación | 2012 |\n| Dirección | PENDIENTE |\n| Enfoque (taxonomía CT) | Bosques tropicales, cadenas de suministro, cero deforestación (AZU, BOS) |\n| Programas | Iniciativas s…"
   },
@@ -1740,6 +1948,9 @@
    "city": "Copenhague (sede); proyectos en Perú",
    "website": "https://www.unops.org/es",
    "linkedin": "https://www.linkedin.com/company/unops",
+   "linkedin_url": "https://www.linkedin.com/company/unops",
+   "linkedin_cited_from": "https://www.unops.org/es",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Organismo de la ONU para implementación de proyectos",
    "description": "UNOPS brinda servicios de implementación de proyectos de infraestructura, adquisiciones y gestión para socios del sistema de las Naciones Unidas y gobiernos, incluyendo iniciativas de desarrollo y resiliencia en el Perú.\n\n**Año de fundación:** 1973"
   },
@@ -1750,7 +1961,10 @@
    "category": "academia",
    "city": "Piura",
    "website": "https://www.hub.udep.pe/",
-   "linkedin": "https://www.linkedin.com/company/92463372",
+   "linkedin": "https://www.linkedin.com/company/hubudep",
+   "linkedin_url": "https://www.linkedin.com/company/hubudep",
+   "linkedin_cited_from": "https://www.hub.udep.pe/",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Hub universitario de emprendimiento e innovación sostenible",
    "description": "El HUB UDEP de la Universidad de Piura articula emprendimiento, innovación y sostenibilidad mediante programas de aceleración (incluido 3G Sostenibilidad), mentoría y vinculación con el ecosistema regional.\n\n**Año de fundación:** PENDIENTE"
   },
@@ -1761,7 +1975,6 @@
    "category": "accelerator",
    "city": "Piura",
    "website": "https://www.udep.edu.pe",
-   "linkedin": "https://www.linkedin.com/school/udepiura/",
    "ecosystem_role": "Universidad privada — hub de emprendimiento (HUB UDEP)",
    "description": "La Universidad de Piura (UDEP) es una universidad privada con campus en Piura y Lima; a través del HUB UDEP impulsa emprendimiento, innovación y programas de aceleración vinculados al ecosistema de impacto y sostenibilidad.\n\n**Año de fundación:** 1969"
   },
@@ -1772,7 +1985,6 @@
    "category": "corporate",
    "city": "Cusco",
    "website": "https://hudbayminerals.com",
-   "linkedin": "https://www.linkedin.com/company/hudbay-minerals-inc-",
    "ecosystem_role": "Empresa minera con operaciones en el Perú",
    "description": "Hudbay Minerals es empresa minera canadiense con operación de cobre en Perú (mina Constancia, Cusco); desarrolla proyectos de sostenibilidad y relación comunitaria.\n\n- **Año de fundación:** PENDIENTE\n- **Dirección:** Operación Constancia, provincia de Chumbivilcas, Cusco, Perú\n- **Áreas de enfoque (taxonomía CT):**…"
   },
@@ -1783,7 +1995,10 @@
    "category": "international",
    "city": "Washington, DC (sede IFC)",
    "website": "https://www.ifc.org",
-   "linkedin": "https://www.linkedin.com/company/ifc/",
+   "linkedin": "https://www.linkedin.com/company/ifclinkedin",
+   "linkedin_url": "https://www.linkedin.com/company/ifclinkedin",
+   "linkedin_cited_from": "https://www.ifc.org/en/home",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Brazo privado del Grupo Banco Mundial — inversión y asesoría",
    "description": "Corporación financiera del Grupo Banco Mundial que moviliza inversión privada en mercados emergentes, incluidos proyectos climáticos en Perú.\n\n| Campo | Valor |\n| --- | --- |\n| Dirección | 2121 Pennsylvania Avenue NW, Washington, DC, Estados Unidos |\n| Año de fundación | 1956 |\n| Áreas de enfoque (taxonomía CT) | CI…"
   },
@@ -1794,7 +2009,6 @@
    "category": "international",
    "city": "Lima (La Molina)",
    "website": "https://iica.int",
-   "linkedin": "https://www.linkedin.com/company/iica",
    "ecosystem_role": "Organismo interamericano de agricultura y desarrollo rural",
    "description": "Instituto Interamericano de Cooperación para la Agricultura (IICA): organismo intergubernamental que apoya políticas y capacidades agropecuarias en las Américas; oficina en Perú.\n\n| Detalle | Valor |\n| --- | --- |\n| Año de fundación | 1942 |\n| Dirección | PENDIENTE (oficina país Perú) |\n| Áreas de enfoque (CT) | AGR…"
   },
@@ -1805,7 +2019,10 @@
    "category": "government",
    "city": "Callao",
    "website": "https://www.gob.pe/imarpe",
-   "linkedin": "https://www.linkedin.com/company/instituto-del-mar-del-per%C3%BA-imarpe",
+   "linkedin": "https://www.linkedin.com/company/imarpe",
+   "linkedin_url": "https://www.linkedin.com/company/imarpe",
+   "linkedin_cited_from": "https://www.gob.pe/imarpe",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Instituto de investigación pesquera del Estado peruano",
    "description": "Instituto de investigación pesquera del Estado peruano para el manejo sostenible de recursos hidrobiológicos.\n\n| Campo | Valor |\n| --- | --- |\n| Año de fundación | PENDIENTE |\n| Dirección | Av. Gamarra, Callao, Perú |\n| Enfoque (taxonomía CT) | Pesca sostenible, oceanografía, biodiversidad marina (BOS) |\n| Programas…"
   },
@@ -1827,6 +2044,9 @@
    "city": "Santiago de Chile (sede regional); inversiones en Latinoamérica incl. Perú",
    "website": "https://www.impacta.vc/",
    "linkedin": "https://www.linkedin.com/company/impacta-vc",
+   "linkedin_url": "https://www.linkedin.com/company/impacta-vc",
+   "linkedin_cited_from": "https://www.impacta.vc/",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Fondo de capital de riesgo de impacto",
    "description": "Impacta VC es un fondo de inversión que financia startups con impacto social y ambiental en Latinoamérica, acompañando a emprendimientos en etapas tempranas con mentoría y red de inversionistas.\n\n**Año de fundación:** PENDIENTE"
   },
@@ -1837,6 +2057,10 @@
    "category": "government",
    "city": "Lima (Independencia)",
    "website": "https://www.gob.pe/inaigem",
+   "linkedin": "https://www.linkedin.com/company/inaigem",
+   "linkedin_url": "https://www.linkedin.com/company/inaigem",
+   "linkedin_cited_from": "https://www.gob.pe/inaigem",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Instituto público de investigación en glaciares y ecosistemas de montaña",
    "description": "El Instituto Nacional de Investigación en Glaciares y Ecosistemas de Montaña (INAIGEM) genera conocimiento científico y políticas para la conservación de glaciares y ecosistemas de montaña frente al cambio climático en el Perú.\n\n**Año de fundación:** 2014"
   },
@@ -1848,6 +2072,9 @@
    "city": "Amberes, Bélgica (sede); operaciones en Perú y Latinoamérica",
    "website": "https://incofin.com",
    "linkedin": "https://www.linkedin.com/company/incofin-investment-management",
+   "linkedin_url": "https://www.linkedin.com/company/incofin-investment-management",
+   "linkedin_cited_from": "https://incofin.com",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Gestor de inversiones de impacto en inclusión financiera",
    "description": "Incofin Investment Management gestiona fondos que invierten en instituciones de microfinanzas y negocios inclusivos en mercados emergentes, incluyendo operaciones y socios en el Perú.\n\n**Año de fundación:** 2001"
   },
@@ -1878,7 +2105,6 @@
    "category": "accelerator",
    "city": "Pucallpa, Ucayali",
    "website": "https://www.unia.edu.pe/",
-   "linkedin": "https://www.facebook.com/unia.edu.pe/",
    "ecosystem_role": "Aceleradora, incubadora o programa de apoyo",
    "description": "La incubadora de la Universidad Nacional Intercultural de la Amazonía (UNIA) promueve emprendimientos con pertinencia intercultural en la Amazonía peruana, articulada con la universidad sede en Pucallpa.\n\n**Año de fundación:** PENDIENTE"
   },
@@ -1909,6 +2135,10 @@
    "category": "accelerator",
    "city": "Rodríguez de Mendoza / Chachapoyas, Amazonas",
    "website": "https://incubadora.untrm.edu.pe",
+   "linkedin": "https://www.linkedin.com/company/amazonas-start-up",
+   "linkedin_url": "https://www.linkedin.com/company/amazonas-start-up",
+   "linkedin_cited_from": "https://incubadora.untrm.edu.pe",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Incubadoras universitarias en Amazonas (UNTRM, UNIFSLB)",
    "description": "Las incubadoras de la Universidad Nacional Toribio Rodríguez de Mendoza (UNTRM) y la Universidad Nacional Intercultural Fabiola Salazar Leguía de Bagua (UNIFSLB) fortalecen emprendimientos en la región Amazonas.\n\n**Año de fundación:** PENDIENTE"
   },
@@ -1919,7 +2149,6 @@
    "category": "academia",
    "city": "La Molina, Lima",
    "website": "https://incubagraria.lamolina.edu.pe/",
-   "linkedin": "https://www.linkedin.com/company/incubagraria",
    "ecosystem_role": "Portafolio de emprendimientos de Incubagraria (UNALM)",
    "description": "El portafolio de Incubagraria reúne emprendimientos y empresas incubadas por la Universidad Nacional Agraria La Molina en agrotech, bionegocios y soluciones con impacto ambiental y social.\n\n**Año de fundación:** PENDIENTE"
   },
@@ -1930,7 +2159,6 @@
    "category": "accelerator",
    "city": "La Molina, Lima",
    "website": "https://incubagraria.lamolina.edu.pe/",
-   "linkedin": "https://www.linkedin.com/company/incubagraria",
    "ecosystem_role": "Aceleradora, incubadora o programa de apoyo",
    "description": "Incubagraria es la incubadora de empresas de la Universidad Nacional Agraria La Molina; ofrece preincubación, incubación, mentorías y laboratorio para emprendimientos de base científica, tecnológica o con impacto ambiental positivo.\n\n**Año de fundación:** 2016"
   },
@@ -1951,7 +2179,6 @@
    "category": "accelerator",
    "city": "Trujillo",
    "website": "https://ditt.unitru.edu.pe/",
-   "linkedin": "https://www.linkedin.com/company/incubauntperu/",
    "ecosystem_role": "Aceleradora, incubadora o programa de apoyo",
    "description": "Incubadora de empresas de la Universidad Nacional de Trujillo (región La Libertad) vinculada a la Dirección de Innovación y Transferencia Tecnológica.\n\n| Campo | Valor |\n| --- | --- |\n| Dirección | Jr. Independencia 186, Trujillo, La Libertad |\n| Año de fundación | 2017 |\n| Áreas de enfoque (taxonomía CT) | AGR, ENE…"
   },
@@ -1962,6 +2189,10 @@
    "category": "accelerator",
    "city": "Huánuco",
    "website": "https://incuvalventures.unheval.edu.pe",
+   "linkedin": "https://www.linkedin.com/company/incuval-ventures",
+   "linkedin_url": "https://www.linkedin.com/company/incuval-ventures",
+   "linkedin_cited_from": "https://incuvalventures.unheval.edu.pe",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Aceleradora, incubadora o programa de apoyo",
    "description": "Incuval Ventures es el programa de emprendimiento e innovación de la Universidad Nacional Hermilio Valdizán (UNHEVAL) en la región Huánuco.\n\n**Año de fundación:** PENDIENTE"
   },
@@ -2002,6 +2233,10 @@
    "category": "accelerator",
    "city": "Lima",
    "website": "https://www.ulima.edu.pe",
+   "linkedin": "https://www.linkedin.com/company/camaraperuanobritanica",
+   "linkedin_url": "https://www.linkedin.com/company/camaraperuanobritanica",
+   "linkedin_cited_from": "https://www.ulima.edu.pe",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Aceleradora, incubadora o programa de apoyo",
    "description": "InnovaUL es el ecosistema de emprendimiento e innovación de la Universidad de Lima, que conecta estudiantes, docentes y emprendedores con programas de incubación y desarrollo de negocios.\n\n**Año de fundación:** PENDIENTE"
   },
@@ -2022,6 +2257,10 @@
    "category": "corporate",
    "city": "Lima",
    "website": "https://www.mercycorps.org.co/",
+   "linkedin": "https://www.linkedin.com/company/mercycorpscolombia",
+   "linkedin_url": "https://www.linkedin.com/company/mercycorpscolombia",
+   "linkedin_cited_from": "https://www.mercycorps.org.co/",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Segmento de inversionistas de impacto (etapa temprana)",
    "description": "Categoría del mapa de actores que agrupa inversionistas de capital de impacto en etapa temprana que operan o invierten en el Perú (redes, fondos y ángeles).\n\n- **Año de fundación:** PENDIENTE\n- **Dirección:** PENDIENTE\n- **Áreas de enfoque (taxonomía CT):** ENE, FIN\n- **Programas:** PENDIENTE (segmento del ecosistem…"
   },
@@ -2032,7 +2271,10 @@
    "category": "accelerator",
    "city": "Arequipa",
    "website": "https://www.unsa.edu.pe/jaku/",
-   "linkedin": "https://www.linkedin.com/company/jaku-emprende/",
+   "linkedin": "https://www.linkedin.com/company/jaku-emprende-unsa",
+   "linkedin_url": "https://www.linkedin.com/company/jaku-emprende-unsa",
+   "linkedin_cited_from": "https://www.unsa.edu.pe/jaku/",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Aceleradora, incubadora o programa de apoyo",
    "description": "Programa incubador de la Universidad Nacional de San Agustín (UNSA) en Arequipa para emprendimientos con foco regional.\n\n| Campo | Valor |\n| --- | --- |\n| Dirección | Arequipa, Perú |\n| Año de fundación | PENDIENTE |\n| Áreas de enfoque (taxonomía CT) | AGR, AGU, ENE |\n| Programas | Incubación JAKU Emprende UNSA |"
   },
@@ -2043,7 +2285,10 @@
    "category": "international",
    "city": "Lima",
    "website": "https://www.jica.go.jp",
-   "linkedin": "https://www.linkedin.com/company/jica",
+   "linkedin": "https://www.linkedin.com/company/japan-international-cooperation-agency-jica-",
+   "linkedin_url": "https://www.linkedin.com/company/japan-international-cooperation-agency-jica-",
+   "linkedin_cited_from": "https://www.jica.go.jp",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Agencia de cooperación internacional de Japón",
    "description": "Agencia Japonesa de Cooperación Internacional (JICA): cooperación técnica y financiera para desarrollo; oficina de cooperación en Perú.\n\n| Detalle | Valor |\n| --- | --- |\n| Año de fundación | 2003 (JICA como agencia; predecesores desde 1974) |\n| Dirección | PENDIENTE |\n| Áreas de enfoque (CT) | PENDIENTE |\n| Program…"
   },
@@ -2104,7 +2349,6 @@
    "category": "accelerator",
    "city": "Lima",
    "website": "https://kunan.org/",
-   "linkedin": "https://www.linkedin.com/company/kunanesahora",
    "ecosystem_role": "Aceleradora, incubadora o programa de apoyo",
    "description": "Kunan es la plataforma peruana de emprendimiento social y ambiental; articula convocatorias, formación y visibilidad para emprendimientos de impacto.\n\n- **Año de fundación:** 2014\n- **Dirección:** Av. Tullumayo, Cusco / operaciones en Lima\n- **Áreas de enfoque (taxonomía CT):** PENDIENTE\n- **Programas:** Desafío Kun…"
   },
@@ -2115,7 +2359,10 @@
    "category": "ngo_foundation",
    "city": "Lima",
    "website": "https://www.lmas1.org",
-   "linkedin": "https://www.linkedin.com/company/l-1-lideres-impulsando-un-desarrollo-sostenible/",
+   "linkedin": "https://www.linkedin.com/company/25071544",
+   "linkedin_url": "https://www.linkedin.com/company/25071544",
+   "linkedin_cited_from": "https://www.lmas1.org",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Iniciativa global de agricultura sostenible (L+1)",
    "description": "Comunidad de líderes de impacto en Perú que impulsa desarrollo sostenible, innovación y liderazgo con propósito.\n\n| Campo | Valor |\n| --- | --- |\n| Dirección | Lima, Perú |\n| Año de fundación | PENDIENTE |\n| Áreas de enfoque (taxonomía CT) | AGR |\n| Programas | Red L+1; eventos y articulación de líderes |"
   },
@@ -2126,7 +2373,10 @@
    "category": "corporate",
    "city": "Arequipa",
    "website": "https://libelula.com.pe",
-   "linkedin": "https://www.linkedin.com/company/lib%C3%A9lula",
+   "linkedin": "https://www.linkedin.com/company/libelula",
+   "linkedin_url": "https://www.linkedin.com/company/libelula",
+   "linkedin_cited_from": "https://libelula.com.pe",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Consultoría y acción climática empresarial",
    "description": "Consultora peruana de sostenibilidad, cambio climático y estrategias ESG con más de 19 años de trayectoria.\n\n| Detalle | Valor |\n| --- | --- |\n| Año de fundación | PENDIENTE |\n| Dirección | PENDIENTE |\n| Áreas de enfoque (CT) | ENE, CIU |\n| Programas | Asesoría en descarbonización, reportes ESG y políticas climáticas |"
   },
@@ -2137,7 +2387,6 @@
    "category": "corporate",
    "city": "Lima",
    "website": "https://meetliquid.com/",
-   "linkedin": "https://www.linkedin.com/company/liquid-venture-studio/",
    "ecosystem_role": "Venture studio y aceleradora de startups digitales y foodtech",
    "description": "Brazo de aceleración de LIQUID para startups digitales peruanas con modelo hands-on y participación accionaria.\n\n| Campo | Valor |\n| --- | --- |\n| Año de fundación | 2017 |\n| Dirección | Av. Los Incas 172, San Isidro, Lima, Perú |\n| Enfoque (taxonomía CT) | Aceleración, startups digitales, venture studio |\n| Program…"
   },
@@ -2158,6 +2407,10 @@
    "category": "government",
    "city": "Lima",
    "website": "https://www.gob.pe/mef",
+   "linkedin": "https://www.linkedin.com/company/ministerio-de-economia-y-finanzas-del-peru",
+   "linkedin_url": "https://www.linkedin.com/company/ministerio-de-economia-y-finanzas-del-peru",
+   "linkedin_cited_from": "https://www.gob.pe/mef",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Ministerio rector de política económica y finanzas públicas",
    "description": "El Ministerio de Economía y Finanzas (MEF) formula y ejecuta la política económica, fiscal y de finanzas públicas del Perú, incluyendo marco para inversión privada, presupuesto y deuda.\n\n**Año de fundación:** PENDIENTE"
   },
@@ -2168,7 +2421,10 @@
    "category": "academia",
    "city": "Lima",
    "website": "https://metaredx.org/pe",
-   "linkedin": "https://www.linkedin.com/company/metaredx-by-universia/",
+   "linkedin": "https://www.linkedin.com/company/metaredx-by-universia",
+   "linkedin_url": "https://www.linkedin.com/company/metaredx-by-universia",
+   "linkedin_cited_from": "https://www.metaredx.org/pe/index.html",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Red universitaria de emprendimiento (Universia / Santander)",
    "description": "MetaRed X Perú es la red de emprendimiento universitario impulsada por Universia y Banco Santander, que conecta incubadoras, competencias y programas de innovación en campus peruanos.\n\n**Año de fundación:** PENDIENTE"
   },
@@ -2179,6 +2435,10 @@
    "category": "government",
    "city": "Lima",
    "website": "https://www.gob.pe/midagri",
+   "linkedin": "https://www.linkedin.com/company/midagri",
+   "linkedin_url": "https://www.linkedin.com/company/midagri",
+   "linkedin_cited_from": "https://www.gob.pe/midagri",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Ministerio de agricultura, desarrollo rural y riego",
    "description": "El Ministerio de Desarrollo Agrario y Riego (MIDAGRI) diseña políticas para el sector agropecuario, seguridad alimentaria, riego y desarrollo rural sostenible en el Perú.\n\n**Año de fundación:** PENDIENTE"
   },
@@ -2189,7 +2449,10 @@
    "category": "government",
    "city": "Lima",
    "website": "https://www.gob.pe/minam",
-   "linkedin": "https://www.linkedin.com/company/minamperu",
+   "linkedin": "https://www.linkedin.com/company/1134092",
+   "linkedin_url": "https://www.linkedin.com/company/1134092",
+   "linkedin_cited_from": "https://www.gob.pe/minam",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Actor público / regulador",
    "description": "El MINAM es el ministerio rector de la política ambiental peruana: biodiversidad, residuos, cambio climático, negocios verdes y educación ambiental.\n\n- **Año de fundación:** 2008\n- **Dirección:** Av. Antonio Miró Quesada 425, Magdalena del Mar, Lima, Perú\n- **Áreas de enfoque (taxonomía CT):** BOS\n- **Programas:** P…"
   },
@@ -2200,7 +2463,10 @@
    "category": "government",
    "city": "San Isidro, Lima",
    "website": "https://www.gob.pe/minem",
-   "linkedin": "https://www.linkedin.com/company/minem-per%C3%BA/",
+   "linkedin": "https://www.linkedin.com/company/ministerio-de-energ-a-y-minas",
+   "linkedin_url": "https://www.linkedin.com/company/ministerio-de-energ-a-y-minas",
+   "linkedin_cited_from": "https://www.gob.pe/minem",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Ministerio de energía, minería e hidrocarburos",
    "description": "Ministerio de Energía y Minas del Perú: define política energética, promueve renovables y regula el sector minero-energético.\n\n| Campo | Valor |\n| --- | --- |\n| Dirección | Av. Las Artes Sur 260, San Borja / sede institucional Lima |\n| Año de fundación | PENDIENTE |\n| Áreas de enfoque (taxonomía CT) | ENE |\n| Progra…"
   },
@@ -2211,7 +2477,6 @@
    "category": "funder",
    "city": "París (sede Natixis Investment Managers); inversiones globales",
    "website": "https://www.mirova.com",
-   "linkedin": "https://www.linkedin.com/company/mirova",
    "ecosystem_role": "Gestor de inversiones de capital natural y sostenible",
    "description": "Mirova Natural Capital (grupo Mirova) invierte en soluciones de capital natural y sostenibilidad a escala global.\n\n| Detalle | Valor |\n| --- | --- |\n| Año de fundación | PENDIENTE |\n| Dirección | PENDIENTE |\n| Áreas de enfoque (CT) | BOS, FIN |\n| Programas | Fondos de capital natural y transición climática |"
   },
@@ -2222,7 +2487,6 @@
    "category": "media",
    "city": "Lima",
    "website": "https://es.mongabay.com",
-   "linkedin": "https://www.linkedin.com/company/mongabay",
    "ecosystem_role": "Medios y difusión",
    "description": "Plataforma de periodismo ambiental en español que cubre conservación y biodiversidad en Latinoamérica.\n\n| Campo | Valor |\n| --- | --- |\n| Año de fundación | PENDIENTE |\n| Dirección | PENDIENTE |\n| Enfoque (taxonomía CT) | Medios ambientales, bosques, biodiversidad (AZU, BOS) |\n| Programas | Reportajes y noticias de…"
   },
@@ -2243,6 +2507,10 @@
    "category": "ngo_foundation",
    "city": "Lima",
    "website": "https://www.natureservices.net",
+   "linkedin": "https://www.linkedin.com/company/1873842",
+   "linkedin_url": "https://www.linkedin.com/company/1873842",
+   "linkedin_cited_from": "https://www.natureservices.net",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Consultoría en servicios ecosistémicos y capital natural",
    "description": "Nature Services Perú ofrece servicios de consultoría y proyectos vinculados a servicios ecosistémicos, biodiversidad y valoración de capital natural.\n\n**Año de fundación:** PENDIENTE"
   },
@@ -2253,7 +2521,10 @@
    "category": "funder",
    "city": "Lima (oficina Perú); sede global en EE.UU.",
    "website": "https://www.nesst.org",
-   "linkedin": "https://www.linkedin.com/company/nesst/",
+   "linkedin": "https://www.linkedin.com/company/nesst",
+   "linkedin_url": "https://www.linkedin.com/company/nesst",
+   "linkedin_cited_from": "https://www.nesst.org",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Fondo e incubadora de empresas de impacto",
    "description": "NESsT invierte y acompaña empresas sociales que generan empleo digno para poblaciones vulnerables; en el Perú financia y acelera negocios de impacto con enfoque en inclusión y sostenibilidad.\n\n**Año de fundación:** 1997"
   },
@@ -2265,6 +2536,9 @@
    "city": "Lima",
    "website": "https://nexosmasuno.com/",
    "linkedin": "https://www.linkedin.com/company/nexosmasuno",
+   "linkedin_url": "https://www.linkedin.com/company/nexosmasuno",
+   "linkedin_cited_from": "https://nexosmasuno.com/",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Plataforma de acción climática empresarial (Libélula)",
    "description": "nexos+1 es una plataforma latinoamericana de acción climática empresarial creada por Libélula; conecta empresas, emprendedores, gobierno y cooperación mediante membresía corporativa, eventos y contenidos de descarbonización.\n\n**Año de fundación:** 2015"
   },
@@ -2275,6 +2549,10 @@
    "category": "accelerator",
    "city": "Lima (San Miguel)",
    "website": "https://cide.pucp.edu.pe/",
+   "linkedin": "https://www.linkedin.com/company/cide-pucp",
+   "linkedin_url": "https://www.linkedin.com/company/cide-pucp",
+   "linkedin_cited_from": "https://cide.pucp.edu.pe/",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Aceleradora, incubadora o programa de apoyo",
    "description": "Nexum es el ecosistema de emprendimiento e innovación de la Pontificia Universidad Católica del Perú (PUCP), articulado con el Centro de Innovación y Desarrollo Empresarial (CIDE).\n\n**Año de fundación:** PENDIENTE"
   },
@@ -2285,7 +2563,10 @@
    "category": "international",
    "city": "Nairobi (sede); programa Perú",
    "website": "https://unhabitat.org",
-   "linkedin": "https://www.linkedin.com/company/unhabitat/",
+   "linkedin": "https://www.linkedin.com/company/un-habitat-united-nation-human-settlements-programme-",
+   "linkedin_url": "https://www.linkedin.com/company/un-habitat-united-nation-human-settlements-programme-",
+   "linkedin_cited_from": "https://unhabitat.org",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Programa de las Naciones Unidas para asentamientos humanos",
    "description": "Programa de las Naciones Unidas para asentamientos humanos; apoya ciudades sostenibles y resiliencia urbana.\n\n| Campo | Valor |\n| --- | --- |\n| Dirección | Sede: Nairobi, Kenia; actividades en Perú vía oficinas regionales |\n| Año de fundación | 1978 |\n| Áreas de enfoque (taxonomía CT) | CIU |\n| Programas | Urbanizac…"
   },
@@ -2296,7 +2577,6 @@
    "category": "international",
    "city": "Lima",
    "website": "https://www.unido.org",
-   "linkedin": "https://www.linkedin.com/company/unido",
    "ecosystem_role": "Organismo de la ONU para desarrollo industrial sostenible",
    "description": "Organización de las Naciones Unidas para el Desarrollo Industrial (ONUDI/UNIDO): promueve industrialización inclusiva y sostenible; programa país en Perú.\n\n| Detalle | Valor |\n| --- | --- |\n| Año de fundación | 1966 |\n| Dirección | PENDIENTE |\n| Áreas de enfoque (CT) | CIR, ENE |\n| Programas | Eficiencia energética,…"
   },
@@ -2307,7 +2587,10 @@
    "category": "government",
    "city": "Magdalena del Mar",
    "website": "https://www.gob.pe/osinergmin",
-   "linkedin": "https://www.linkedin.com/company/osinergmin",
+   "linkedin": "https://www.linkedin.com/company/445002",
+   "linkedin_url": "https://www.linkedin.com/company/445002",
+   "linkedin_cited_from": "https://www.gob.pe/osinergmin",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Actor público / regulador",
    "description": "Organismo regulador que supervisa inversión y operación en sectores de energía y minería en el Perú.\n\n| Campo | Valor |\n| --- | --- |\n| Año de fundación | PENDIENTE |\n| Dirección | Calle Bernardo Monteagudo N° 222, Magdalena del Mar, Lima, Perú |\n| Enfoque (taxonomía CT) | Regulación energética y minera, mercados, f…"
   },
@@ -2328,7 +2611,10 @@
    "category": "funder",
    "city": "Lima",
    "website": "https://pecap.pe",
-   "linkedin": "https://www.linkedin.com/company/pecap-peru/",
+   "linkedin": "https://www.linkedin.com/company/pecap-peru",
+   "linkedin_url": "https://www.linkedin.com/company/pecap-peru",
+   "linkedin_cited_from": "https://www.pecap.pe/",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Asociación gremial de capital semilla y emprendimiento",
    "description": "PECAP agrupa fondos de capital semilla, inversionistas ángeles y actores del emprendimiento temprano en el Perú, promoviendo estándares, datos y políticas públicas favorables al venture capital.\n\n**Año de fundación:** PENDIENTE"
   },
@@ -2339,7 +2625,10 @@
    "category": "ngo_foundation",
    "city": "Lima",
    "website": "https://perusostenible.org",
-   "linkedin": "https://www.linkedin.com/company/perusostenible/",
+   "linkedin": "https://www.linkedin.com/company/perusostenible",
+   "linkedin_url": "https://www.linkedin.com/company/perusostenible",
+   "linkedin_cited_from": "https://perusostenible.org",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Red empresarial por el desarrollo sostenible",
    "description": "Perú Sostenible es una red de empresas que promueve prácticas de sostenibilidad, reporte y acción climática en el sector privado peruano.\n\n**Año de fundación:** PENDIENTE"
   },
@@ -2361,6 +2650,9 @@
    "city": "Lima",
    "website": "https://startup.proinnovate.gob.pe",
    "linkedin": "https://www.linkedin.com/company/startupperu",
+   "linkedin_url": "https://www.linkedin.com/company/startupperu",
+   "linkedin_cited_from": "https://startup.proinnovate.gob.pe",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Instrumento de política pública",
    "description": "StartUp Perú es el programa emblemático de ProInnóvate (PRODUCE) que financia y acompaña startups innovadoras con líneas sectoriales incluyendo cambio climático.\n\n- **Año de fundación:** PENDIENTE\n- **Dirección:** Lima, Perú (PRODUCE / ProInnóvate)\n- **Áreas de enfoque (taxonomía CT):** FIN, AGR, ENE, CIR\n- **Progra…"
   },
@@ -2371,7 +2663,10 @@
    "category": "government",
    "city": "Breña, Lima",
    "website": "https://www.gob.pe/produce",
-   "linkedin": "https://www.linkedin.com/company/ministerio-de-la-produccion/",
+   "linkedin": "https://www.linkedin.com/company/ministerio-de-la-producci%C3%B3n-del-per%C3%BA",
+   "linkedin_url": "https://www.linkedin.com/company/ministerio-de-la-producci%C3%B3n-del-per%C3%BA",
+   "linkedin_cited_from": "https://www.gob.pe/produce",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Ministerio de pesca, acuicultura e industrias",
    "description": "Ministerio de la Producción: rector de mipymes, industria, pesca y acuicultura; canaliza programas de innovación como ProInnóvate.\n\n| Campo | Valor |\n| --- | --- |\n| Dirección | Calle Uno Oeste N° 50, Urb. Córpac, Lima |\n| Año de fundación | PENDIENTE |\n| Áreas de enfoque (taxonomía CT) | AZU, CIR, FIN |\n| Programas…"
   },
@@ -2383,6 +2678,9 @@
    "city": "Lima",
    "website": "https://profonanpe.org.pe",
    "linkedin": "https://www.linkedin.com/company/profonanpe",
+   "linkedin_url": "https://www.linkedin.com/company/profonanpe",
+   "linkedin_cited_from": "https://profonanpe.org.pe",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Fondo trust de financiamiento para áreas naturales protegidas",
    "description": "Profonanpe: entidad privada sin fines de lucro que moviliza y administra fondos para conservación de biodiversidad y acción climática en el Perú.\n\n| Detalle | Valor |\n| --- | --- |\n| Año de fundación | PENDIENTE (más de 30 años de operación institucional) |\n| Dirección | Av. Parque Gonzales Prada N°396, Magdalena de…"
   },
@@ -2393,6 +2691,10 @@
    "category": "government",
    "city": "Lima",
    "website": "https://www.gob.pe/bosques",
+   "linkedin": "https://www.linkedin.com/company/programa-nacional-de-conservaci-n-de-bosques",
+   "linkedin_url": "https://www.linkedin.com/company/programa-nacional-de-conservaci-n-de-bosques",
+   "linkedin_cited_from": "https://www.gob.pe/bosques",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Programa nacional de conservación de bosques (MINAM)",
    "description": "El Programa Bosques del MINAM impulsa la conservación, restauración y uso sostenible de bosques en el Perú, incluyendo incentivos y gestión de recursos forestales.\n\n**Año de fundación:** PENDIENTE"
   },
@@ -2403,6 +2705,10 @@
    "category": "government",
    "city": "Lima",
    "website": "https://www.gob.pe/institucion/minam/colecciones/1479-programa-nacional-de-bionegocios-y-economia-circular",
+   "linkedin": "https://www.linkedin.com/company/mtc-peru",
+   "linkedin_url": "https://www.linkedin.com/company/mtc-peru",
+   "linkedin_cited_from": "https://www.gob.pe/institucion/mtc/contacto-y-numeros-de-emergencias",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Programa de bionegocios y economía circular (MINAM)",
    "description": "El Programa Nacional de Bionegocios y Economía Circular del MINAM promueve negocios basados en biodiversidad y modelos circulares que reduzcan impacto ambiental y generen valor en comunidades.\n\n**Año de fundación:** PENDIENTE"
   },
@@ -2413,6 +2719,10 @@
    "category": "government",
    "city": "Lima",
    "website": "https://www.gob.pe/proinnovate",
+   "linkedin": "https://www.linkedin.com/company/proinnovateperu",
+   "linkedin_url": "https://www.linkedin.com/company/proinnovateperu",
+   "linkedin_cited_from": "https://www.gob.pe/proinnovate",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Programa ejecutor StartUp Perú (ProInnóvate)",
    "description": "ProInnóvate, adscrito al PRODUCE, ejecuta StartUp Perú y la Red de Incubadoras y Aceleradoras, canalizando fondos públicos para innovación y emprendimiento de alto impacto.\n\n**Año de fundación:** PENDIENTE"
   },
@@ -2423,6 +2733,10 @@
    "category": "government",
    "city": "Lima (San Isidro)",
    "website": "https://www.gob.pe/proinversion",
+   "linkedin": "https://www.linkedin.com/company/proinversionpe",
+   "linkedin_url": "https://www.linkedin.com/company/proinversionpe",
+   "linkedin_cited_from": "https://www.gob.pe/proinversion",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Agencia de promoción de la inversión privada",
    "description": "ProInversión promueve y facilita la inversión privada en el Perú mediante proyectos en APP, privatizaciones y asistencia a inversionistas nacionales y extranjeros.\n\n**Año de fundación:** 2002"
   },
@@ -2433,6 +2747,10 @@
    "category": "government",
    "city": "Lima (San Isidro)",
    "website": "https://www.gob.pe/promperu",
+   "linkedin": "https://www.linkedin.com/company/392025",
+   "linkedin_url": "https://www.linkedin.com/company/392025",
+   "linkedin_cited_from": "https://www.gob.pe/promperu",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Promoción de exportaciones, turismo e imagen país",
    "description": "PROMPERÚ es la Comisión de Promoción del Perú para la Exportación y el Turismo; contribuye al crecimiento sostenido mediante promoción de exportaciones, turismo, inversiones empresariales y Marca Perú.\n\n**Año de fundación:** 1993"
   },
@@ -2443,7 +2761,10 @@
    "category": "academia",
    "city": "San Miguel",
    "website": "https://www.pucp.edu.pe",
-   "linkedin": "https://www.linkedin.com/company/pontificia-universidad-cat-lica-del-per-",
+   "linkedin": "https://www.linkedin.com/company/pucp",
+   "linkedin_url": "https://www.linkedin.com/company/pucp",
+   "linkedin_cited_from": "https://www.pucp.edu.pe",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Universidad de investigación y emprendimiento (Nexum/CIDE)",
    "description": "La PUCP es universidad privada de investigación en Lima; articula docencia, investigación y emprendimiento a través de centros como el CIDE.\n\n- **Año de fundación:** 1917\n- **Dirección:** Av. Universitaria 1801, San Miguel, Lima, Perú\n- **Áreas de enfoque (taxonomía CT):** AGU, BOS\n- **Programas:** CIDE y programas…"
   },
@@ -2454,7 +2775,10 @@
    "category": "international",
    "city": "New York",
    "website": "https://pvblic.org",
-   "linkedin": "https://www.linkedin.com/company/pvblic-foundation/",
+   "linkedin": "https://www.linkedin.com/company/pvblicfoundation",
+   "linkedin_url": "https://www.linkedin.com/company/pvblicfoundation",
+   "linkedin_cited_from": "https://www.pvblic.org/",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Organización internacional o cooperación",
    "description": "Fundación sin fines de lucro que moviliza alianzas público-privadas y medios para avanzar los ODS, conectando gobiernos, agencias de la ONU y actores del sector privado.\n\n- **Año de fundación:** 2012 — https://pvblic.org\n\n- **Ciudad / sede:** New York — https://pvblic.org"
   },
@@ -2465,7 +2789,6 @@
    "category": "corporate",
    "city": "Lima",
    "website": "https://www.qairadrones.com/",
-   "linkedin": "https://www.linkedin.com/company/qaira",
    "ecosystem_role": "Empresa / sector privado",
    "description": "Empresa peruana de monitoreo ambiental con drones y sensores que provee datos de calidad del aire y variables ambientales para ciudades y organizaciones."
   },
@@ -2477,6 +2800,9 @@
    "city": "Lima",
    "website": "https://www.rainforest-alliance.org",
    "linkedin": "https://www.linkedin.com/company/rainforest-alliance",
+   "linkedin_url": "https://www.linkedin.com/company/rainforest-alliance",
+   "linkedin_cited_from": "https://www.rainforest-alliance.org",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Organización internacional o cooperación",
    "description": "Organización internacional que promueve agricultura sostenible, conservación de bosques y certificación del sello Rainforest Alliance en cadenas de suministro.\n\n- **Ciudad / sede:** Lima — https://www.rainforest-alliance.org"
   },
@@ -2487,7 +2813,6 @@
    "category": "startup",
    "city": "Lima",
    "website": "https://rebikeup.com/",
-   "linkedin": "https://www.linkedin.com/company/rebike-up",
    "ecosystem_role": "Startup del ecosistema",
    "description": "Marketplace peruano de micromovilidad de segunda mano que certifica bicicletas y motos con inspección mecánica, asesoría legal y trazabilidad para promover economía circular y movilidad sostenible.\n\n- **Año de fundación:** 2023 — https://rebikeup.com/\n\n- **Ciudad / sede:** Lima — https://rebikeup.com/"
   },
@@ -2508,7 +2833,6 @@
    "category": "academia",
    "city": "Lima",
    "website": "https://www.redesignlab.org/",
-   "linkedin": "https://www.linkedin.com/company/redesignlab",
    "ecosystem_role": "Universidad o centro de investigación",
    "description": "Venture studio de impacto en Latinoamérica enfocado en bioeconomía: diseña, escala e invierte en negocios sostenibles."
   },
@@ -2519,7 +2843,6 @@
    "category": "corporate",
    "city": "Lima",
    "website": "https://bosques-amazonicos.com",
-   "linkedin": "https://www.linkedin.com/company/bam-bosques-amazonicos",
    "ecosystem_role": "Empresa / sector privado",
    "description": "Bosques Amazónicos (BAM) protege y restaura ecosistemas amazónicos mediante proyectos REDD+ y créditos de carbono que contribuyen a la conservación y al desarrollo sostenible en el Perú.\n\n- **Ciudad / sede:** Lima — https://bosques-amazonicos.com"
   },
@@ -2530,6 +2853,10 @@
    "category": "corporate",
    "city": "La Victoria",
    "website": "https://revistaganamas.com.pe/",
+   "linkedin": "https://www.linkedin.com/company/-finanz-s",
+   "linkedin_url": "https://www.linkedin.com/company/-finanz-s",
+   "linkedin_cited_from": "https://revistaganamas.com.pe/",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Empresa / sector privado",
    "description": "Portal y revista digital peruana orientada a emprendedores, PYMES y startups, con cobertura de economía, innovación, agro y finanzas.\n\n- **Año de fundación:** 2012 — https://revistaganamas.com.pe/quienes-somos/\n\n- **Ciudad / sede:** La Victoria — https://revistaganamas.com.pe/quienes-somos/"
   },
@@ -2540,7 +2867,6 @@
    "category": "funder",
    "city": "Lima",
    "website": "https://rootcapital.org",
-   "linkedin": "https://www.linkedin.com/company/root-capital/",
    "ecosystem_role": "Financiador e inversionista",
    "description": "Inversionista de impacto que presta capital y capacitación a cooperativas agrícolas (café, cacao) con prácticas resilientes.\n\n| Campo | Valor |\n| --- | --- |\n| Dirección | Cambridge, Massachusetts (sede); operaciones en Perú/LatAm |\n| Año de fundación | 1999 |\n| Áreas de enfoque (taxonomía CT) | BOS, AGR |\n| Program…"
   },
@@ -2572,6 +2898,9 @@
    "city": "Lima",
    "website": "https://www.salkantay.vc/",
    "linkedin": "https://www.linkedin.com/company/salkantay-ventures",
+   "linkedin_url": "https://www.linkedin.com/company/salkantay-ventures",
+   "linkedin_cited_from": "https://www.salkantay.vc/",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Empresa / sector privado",
    "description": "Fondo de venture capital peruano que invierte en startups de etapa temprana en la región andina."
   },
@@ -2583,6 +2912,9 @@
    "city": "Lima",
    "website": "https://smisolutions.com",
    "linkedin": "https://www.linkedin.com/company/smipackaging",
+   "linkedin_url": "https://www.linkedin.com/company/smipackaging",
+   "linkedin_cited_from": "https://smisolutions.com",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Empresa / sector privado",
    "description": "Empresa industrial del grupo San Miguel que fabrica envases y soluciones en PET para alimentos y bebidas."
   },
@@ -2594,6 +2926,9 @@
    "city": "Huancayo",
    "website": "https://www.gob.pe/sanipes",
    "linkedin": "https://www.linkedin.com/company/11388890",
+   "linkedin_url": "https://www.linkedin.com/company/11388890",
+   "linkedin_cited_from": "https://www.gob.pe/sanipes",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Actor público / regulador",
    "description": "Organismo técnico especializado del sector Pesquero y Acuícola que regula sanidad, inocuidad y calidad de productos hidrobiológicos en el Perú."
   },
@@ -2605,6 +2940,9 @@
    "city": "Lima",
    "website": "https://www.saphi.xyz/",
    "linkedin": "https://www.linkedin.com/company/saphixyz",
+   "linkedin_url": "https://www.linkedin.com/company/saphixyz",
+   "linkedin_cited_from": "https://saphi.xyz/",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Empresa / sector privado",
    "description": "Plataforma de infraestructura digital para la economía de la naturaleza: conservación verificada, cadenas de valor sostenibles y financiamiento territorial en Amazonía y Andes."
   },
@@ -2615,7 +2953,6 @@
    "category": "government",
    "city": "Lima",
    "website": "https://www.sbs.gob.pe",
-   "linkedin": "https://www.linkedin.com/company/sbsperu",
    "ecosystem_role": "Actor público / regulador",
    "description": "Superintendencia que regula y supervisa el sistema financiero peruano: bancos, seguros, AFP y otras entidades supervisadas.\n\n- **Año de fundación:** 1924 — https://www.sbs.gob.pe\n\n- **Ciudad / sede:** Lima — https://www.sbs.gob.pe"
   },
@@ -2626,7 +2963,10 @@
    "category": "academia",
    "city": "Lima",
    "website": "https://scaleup4.com/",
-   "linkedin": "https://www.linkedin.com/company/scale-up-latam/",
+   "linkedin": "https://www.linkedin.com/company/incubadorascale",
+   "linkedin_url": "https://www.linkedin.com/company/incubadorascale",
+   "linkedin_cited_from": "https://scaleup4.com/",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Universidad o centro de investigación",
    "description": "Programa SCALE (Scale Up) de preincubación e incubación para emprendimientos en Perú.\n\n| Campo | Valor |\n| --- | --- |\n| Dirección | Lima, Perú |\n| Año de fundación | PENDIENTE |\n| Áreas de enfoque (taxonomía CT) | PENDIENTE |\n| Programas | Preincubación e incubación (directorio ProInnovate) |"
   },
@@ -2637,7 +2977,10 @@
    "category": "finance",
    "city": "Lima",
    "website": "https://www.scotiabank.com.pe",
-   "linkedin": "https://pe.linkedin.com/company/scotiabank-per%C3%BA",
+   "linkedin": "https://www.linkedin.com/company/scotiabank",
+   "linkedin_url": "https://www.linkedin.com/company/scotiabank",
+   "linkedin_cited_from": "https://www.scotiabank.com.pe/Personas/Default",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Institución financiera",
    "description": "Scotiabank Perú: banco comercial con operaciones de crédito, banca de personas y empresas en el país.\n\n| Detalle | Valor |\n| --- | --- |\n| Año de fundación | PENDIENTE |\n| Dirección | PENDIENTE |\n| Áreas de enfoque (CT) | FIN |\n| Programas | Crédito, banca corporativa y soluciones de sostenibilidad financiera |"
   },
@@ -2648,7 +2991,6 @@
    "category": "government",
    "city": "Jesús María",
    "website": "https://www.gob.pe/senamhi",
-   "linkedin": "https://www.linkedin.com/company/senamhi",
    "ecosystem_role": "Actor público / regulador",
    "description": "Servicio nacional de meteorología e hidrología del Perú; genera información climática y de alerta temprana.\n\n| Campo | Valor |\n| --- | --- |\n| Año de fundación | PENDIENTE |\n| Dirección | Jesús María, Lima, Perú |\n| Enfoque (taxonomía CT) | Meteorología, hidrología, adaptación climática (AGR, ENE) |\n| Programas | Pr…"
   },
@@ -2660,6 +3002,9 @@
    "city": "Jesús María",
    "website": "https://www.gob.pe/serfor",
    "linkedin": "https://www.linkedin.com/company/servicio-nacional-forestal-y-de-fauna-silvestre",
+   "linkedin_url": "https://www.linkedin.com/company/servicio-nacional-forestal-y-de-fauna-silvestre",
+   "linkedin_cited_from": "https://www.gob.pe/serfor",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Actor público / regulador",
    "description": "Servicio Nacional Forestal y de Fauna Silvestre; formula política forestal, otorga títulos y supervisa el manejo forestal y de fauna."
   },
@@ -2670,6 +3015,10 @@
    "category": "government",
    "city": "San Isidro",
    "website": "https://www.gob.pe/sernanp",
+   "linkedin": "https://www.linkedin.com/company/servicio-nacional-de-%C3%A1reas-naturales-protegidas-por-el-estado-sernanp",
+   "linkedin_url": "https://www.linkedin.com/company/servicio-nacional-de-%C3%A1reas-naturales-protegidas-por-el-estado-sernanp",
+   "linkedin_cited_from": "https://www.gob.pe/sernanp",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Actor público / regulador",
    "description": "Servicio Nacional de Áreas Naturales Protegidas por el Estado; administra el SINANPE y la conservación del patrimonio natural del Perú."
   },
@@ -2690,7 +3039,10 @@
    "category": "ngo_foundation",
    "city": "Lima",
    "website": "https://www.sistemab.org",
-   "linkedin": "https://www.linkedin.com/company/sistema-b-m",
+   "linkedin": "https://www.linkedin.com/company/sistemabarg",
+   "linkedin_url": "https://www.linkedin.com/company/sistemabarg",
+   "linkedin_cited_from": "https://www.sistemab.org",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "ONG o fundación",
    "description": "Red latinoamericana que impulsa empresas certificadas como Empresa B y el uso del capitalismo de stakeholders."
   },
@@ -2702,6 +3054,9 @@
    "city": "Lima",
    "website": "https://www.smv.gob.pe",
    "linkedin": "https://www.linkedin.com/company/smvperu",
+   "linkedin_url": "https://www.linkedin.com/company/smvperu",
+   "linkedin_cited_from": "https://www.gob.pe/smv",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Actor público / regulador",
    "description": "Superintendencia que regula y supervisa el mercado de valores peruano, emisores, intermediarios y fondos de inversión.\n\n- **Año de fundación:** 1971 — https://www.smv.gob.pe\n\n- **Ciudad / sede:** Lima — https://www.smv.gob.pe"
   },
@@ -2732,7 +3087,6 @@
    "category": "chamber",
    "city": "Lima",
    "website": "https://sni.org.pe",
-   "linkedin": "https://www.linkedin.com/company/sociedad-nacional-de-industrias",
    "ecosystem_role": "Cámara o gremio",
    "description": "Principal gremio industrial del Perú; representa y defiende los intereses del sector manufacturero nacional.\n\n- **Año de fundación:** 1896 — https://sni.org.pe\n\n- **Ciudad / sede:** Lima — https://sni.org.pe"
   },
@@ -2754,6 +3108,9 @@
    "city": "Arequipa",
    "website": "https://spda.org.pe",
    "linkedin": "https://www.linkedin.com/company/spdaorg",
+   "linkedin_url": "https://www.linkedin.com/company/spdaorg",
+   "linkedin_cited_from": "https://spda.org.pe",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "ONG o fundación",
    "description": "ONG referente en derecho ambiental en el Perú; litigio estratégico, incidencia política y formación para la defensa del ambiente.\n\n- **Año de fundación:** 1986 — https://spda.org.pe"
   },
@@ -2765,6 +3122,9 @@
    "city": "Lima",
    "website": "https://startup.uni.edu.pe",
    "linkedin": "https://www.linkedin.com/company/startup-uni",
+   "linkedin_url": "https://www.linkedin.com/company/startup-uni",
+   "linkedin_cited_from": "https://startup.uni.edu.pe",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Aceleradora, incubadora o programa de apoyo",
    "description": "Programa de la Universidad Nacional de Ingeniería que acelera y conecta startups del ecosistema emprendedor peruano.\n\n- **Ciudad / sede:** Lima — https://startup.uni.edu.pe"
   },
@@ -2786,6 +3146,9 @@
    "city": "Magdalena del Mar",
    "website": "https://www.gob.pe/sunass",
    "linkedin": "https://www.linkedin.com/company/sunass-oficial",
+   "linkedin_url": "https://www.linkedin.com/company/sunass-oficial",
+   "linkedin_cited_from": "https://www.gob.pe/sunass",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Actor público / regulador",
    "description": "SUNASS regula y supervisa los servicios de agua potable y saneamiento en el Perú para garantizar calidad y sostenibilidad tarifaria.\n\n- **Año de fundación:** 1992\n- **Dirección:** Calle Bernardo Monteagudo 216, Magdalena del Mar, Lima, Perú\n- **Áreas de enfoque (taxonomía CT):** FIN\n- **Programas:** Regulación tarif…"
   },
@@ -2806,7 +3169,6 @@
    "category": "ngo_foundation",
    "city": "Lima",
    "website": "https://www.swisscontact.org/es/donde-trabajamos/peru",
-   "linkedin": "https://www.linkedin.com/company/swisscontact",
    "ecosystem_role": "ONG o fundación",
    "description": "Organización suiza de cooperación al desarrollo con programas en Perú en empleo, economía verde y mercados inclusivos.\n\n- **Ciudad / sede:** Lima — https://www.swisscontact.org/es/donde-trabajamos/peru"
   },
@@ -2828,6 +3190,9 @@
    "city": "Santiago",
    "website": "https://theganeshalab.com/contact/",
    "linkedin": "https://www.linkedin.com/company/theganeshalab",
+   "linkedin_url": "https://www.linkedin.com/company/theganeshalab",
+   "linkedin_cited_from": "https://theganeshalab.com/contact/",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Empresa / sector privado",
    "description": "Aceleradora global de biotecnología que escala startups científicas de Latinoamérica hacia mercados internacionales.\n\n- **Año de fundación:** 2019 — https://theganeshalab.com/contact/\n\n- **Ciudad / sede:** Santiago — https://theganeshalab.com/contact/"
   },
@@ -2839,6 +3204,9 @@
    "city": "Omaha",
    "website": "https://www.nature.org",
    "linkedin": "https://www.linkedin.com/company/the-nature-conservancy",
+   "linkedin_url": "https://www.linkedin.com/company/the-nature-conservancy",
+   "linkedin_cited_from": "https://www.nature.org/en-us/",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Organización internacional o cooperación",
    "description": "ONG global de conservación con programas en Perú en bosques, agua y soluciones basadas en la naturaleza."
   },
@@ -2849,6 +3217,10 @@
    "category": "funder",
    "city": "Santiago de Surco",
    "website": "https://triplejump.eu",
+   "linkedin": "https://www.linkedin.com/company/2601512",
+   "linkedin_url": "https://www.linkedin.com/company/2601512",
+   "linkedin_cited_from": "https://triplejump.eu",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Financiador e inversionista",
    "description": "Gestor de inversiones de impacto con operaciones en mercados emergentes, incluido financiamiento a MYPE y cooperativas."
   },
@@ -2869,7 +3241,6 @@
    "category": "academia",
    "city": "Puerto Maldonado",
    "website": "https://portal.unamad.edu.pe",
-   "linkedin": "https://www.linkedin.com/company/universidad-nacional-amaz%C3%B3nica-de-madre-de-dios",
    "ecosystem_role": "Universidad o centro de investigación",
    "description": "Universidad pública amazónica con sede en Madre de Dios; formación e investigación para el desarrollo sostenible de la Amazonía.\n\n- **Ciudad / sede:** Puerto Maldonado — https://portal.unamad.edu.pe"
   },
@@ -2880,7 +3251,6 @@
    "category": "academia",
    "city": "Iquitos",
    "website": "https://portal.unapiquitos.edu.pe",
-   "linkedin": "https://www.linkedin.com/school/universidad-nacional-de-la-amazonia-peruana/",
    "ecosystem_role": "Universidad o centro de investigación",
    "description": "Universidad pública en Loreto dedicada a la formación profesional e investigación en la Amazonía peruana.\n\n- **Ciudad / sede:** Iquitos — https://portal.unapiquitos.edu.pe"
   },
@@ -2901,7 +3271,10 @@
    "category": "international",
    "city": "Lima",
    "website": "https://www.euroclima.org",
-   "linkedin": "https://www.linkedin.com/company/euroclima-program",
+   "linkedin": "https://www.linkedin.com/company/european-commission",
+   "linkedin_url": "https://www.linkedin.com/company/european-commission",
+   "linkedin_cited_from": "https://international-partnerships.ec.europa.eu/policies/global-gateway/euroclima_en",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Organización internacional o cooperación",
    "description": "Programa de la Unión Europea para cooperación climática con América Latina y el Caribe (Global Gateway).\n\n| Campo | Valor |\n| --- | --- |\n| Año de fundación | PENDIENTE |\n| Dirección | PENDIENTE |\n| Enfoque (taxonomía CT) | Cooperación climática, biodiversidad, transición justa |\n| Programas | Euroclima: financiamie…"
   },
@@ -2952,7 +3325,6 @@
    "category": "academia",
    "city": "Lima",
    "website": "https://www.unmsm.edu.pe",
-   "linkedin": "https://www.linkedin.com/company/universidad-nacional-mayor-de-san-marcos",
    "ecosystem_role": "Universidad o centro de investigación",
    "description": "Universidad pública más antigua del Perú y de América; formación, investigación y extensión en múltiples disciplinas.\n\n- **Año de fundación:** 1551 — https://www.unmsm.edu.pe\n\n- **Ciudad / sede:** Lima — https://www.unmsm.edu.pe"
   },
@@ -2963,7 +3335,6 @@
    "category": "academia",
    "city": "Tarapoto",
    "website": "https://unsm.edu.pe",
-   "linkedin": "https://www.linkedin.com/school/universidad-nacional-de-san-mart%C3%ADn/",
    "ecosystem_role": "Universidad o centro de investigación",
    "description": "Universidad pública en la región San Martín con énfasis en desarrollo amazónico y agroindustria regional.\n\n- **Ciudad / sede:** Tarapoto — https://unsm.edu.pe"
   },
@@ -2995,6 +3366,9 @@
    "city": "Tacna",
    "website": "https://www.uptincuba.pe/",
    "linkedin": "https://www.linkedin.com/company/upt-incuba",
+   "linkedin_url": "https://www.linkedin.com/company/upt-incuba",
+   "linkedin_cited_from": "https://www.uptincuba.pe/",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Universidad o centro de investigación",
    "description": "Incubadora de empresas Aruntakana de la Universidad Privada de Tacna (UPT) para startups regionales.\n\n- **Ciudad / sede:** Tacna — https://www.uptincuba.pe/"
   },
@@ -3005,7 +3379,6 @@
    "category": "startup",
    "city": "Huaraz",
    "website": "https://uqhuinnova.com",
-   "linkedin": "https://www.linkedin.com/company/uqhu",
    "ecosystem_role": "Startup del ecosistema",
    "description": "Startup de saneamiento que diseña e implementa sistemas de tratamiento de aguas residuales domésticas con humedales construidos para zonas rurales y altoandinas.\n\n- **Ciudad / sede:** Huaraz — https://uqhuinnova.com"
   },
@@ -3036,7 +3409,6 @@
    "category": "accelerator",
    "city": "Lima",
    "website": "https://utecventures.com",
-   "linkedin": "https://www.linkedin.com/company/utecventures",
    "ecosystem_role": "Aceleradora, incubadora o programa de apoyo",
    "description": "Centro de innovación y emprendimiento de UTEC que incubó y aceleró startups de base tecnológica en Latinoamérica.\n\n- **Año de fundación:** 2014 — https://utecventures.com"
   },
@@ -3047,7 +3419,10 @@
    "category": "corporate",
    "city": "Lima",
    "website": "https://grupocredicorp.com",
-   "linkedin": "https://www.linkedin.com/company/credicorp/",
+   "linkedin": "https://www.linkedin.com/company/grupocredicorp",
+   "linkedin_url": "https://www.linkedin.com/company/grupocredicorp",
+   "linkedin_cited_from": "https://grupocredicorp.com",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Empresa / sector privado",
    "description": "Categoría del mapa que agrupa vehículos de venture capital corporativo en Perú (referencia: Grupo Credicorp y filiales de innovación).\n\n| Campo | Valor |\n| --- | --- |\n| Dirección | Lima, Perú |\n| Año de fundación | PENDIENTE |\n| Áreas de enfoque (taxonomía CT) | AGR, BOS |\n| Programas | Inversión corporativa en sta…"
   },
@@ -3069,6 +3444,9 @@
    "city": "Lima",
    "website": "https://www.wayra.com",
    "linkedin": "https://www.linkedin.com/company/wayra",
+   "linkedin_url": "https://www.linkedin.com/company/wayra",
+   "linkedin_cited_from": "https://wayra.com/",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Financiador e inversionista",
    "description": "Corporate venture capital de Telefónica que invierte en startups tecnológicas, con operaciones en Perú.\n\n| Campo | Valor |\n| --- | --- |\n| Año de fundación | PENDIENTE |\n| Dirección | Lima, Perú |\n| Enfoque (taxonomía CT) | Venture capital, startups, agrotech y soluciones climáticas (AGR, BOS) |\n| Programas | Invers…"
   },
@@ -3100,6 +3478,9 @@
    "city": "Lince",
    "website": "https://www.wwf.org.pe",
    "linkedin": "https://www.linkedin.com/company/wwfperu",
+   "linkedin_url": "https://www.linkedin.com/company/wwfperu",
+   "linkedin_cited_from": "https://www.wwf.org.pe",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Organización internacional o cooperación",
    "description": "Oficina peruana de WWF que trabaja conservación de biodiversidad, bosques, agua y economía circular en el país.\n\n- **Año de fundación:** 1969 — https://www.wwf.org.pe"
   },
@@ -3109,7 +3490,6 @@
    "country": "Peru",
    "category": "startup",
    "city": "Arequipa",
-   "linkedin": "https://www.linkedin.com/company/yakufil",
    "ecosystem_role": "Startup del ecosistema",
    "description": "Startup de ecoingeniería que trata aguas grises con jardines verticales depuradores y plantas fitorremediadoras para reúso no potable.\n\n- **Año de fundación:** 2021 — https://www.gob.pe/institucion/proinnovate/noticias/924305-dia-del-agua-innovaciones-para-gestionar-el-cuidado-y-aprovechamiento-del-agua-en-el-peru…"
   },
@@ -3120,7 +3500,6 @@
    "category": "startup",
    "city": "Lima",
    "website": "https://www.yakusmart.io/",
-   "linkedin": "https://www.linkedin.com/company/yakusmart",
    "ecosystem_role": "Startup del ecosistema",
    "description": "YakuSmart es startup agritech que optimiza riego de cultivos de alto valor con sensores, satélite e IA, incluyendo reportes de campo por WhatsApp.\n\n- **Año de fundación:** PENDIENTE\n- **Dirección:** PENDIENTE\n- **Áreas de enfoque (taxonomía CT):** AGR, AGU\n- **Programas:** Plataforma de monitoreo y recomendaciones d…",
    "nexus_startup_slug": "yakusmart"
@@ -3132,7 +3511,6 @@
    "category": "international",
    "city": "San Salvador",
    "website": "https://aecid.sv",
-   "linkedin": "https://www.linkedin.com/company/aecid/",
    "ecosystem_role": "Organización internacional o cooperación",
    "description": "Oficina de la Agencia Española de Cooperación Internacional para el Desarrollo (AECID) en El Salvador.\n\n| Campo | Valor |\n| --- | --- |\n| Dirección | San Salvador, El Salvador |\n| Año de fundación | PENDIENTE |\n| Áreas de enfoque (taxonomía CT) | PENDIENTE |\n| Programas | Cooperación española en desarrollo sostenibl…"
   },
@@ -3143,7 +3521,10 @@
    "category": "corporate",
    "city": "San Salvador",
    "website": "https://www.aes-elsalvador.com",
-   "linkedin": "https://www.linkedin.com/company/aes-el-salvador",
+   "linkedin": "https://www.linkedin.com/company/aeselsalvador",
+   "linkedin_url": "https://www.linkedin.com/company/aeselsalvador",
+   "linkedin_cited_from": "https://www.aes-elsalvador.com/es",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Empresa / sector privado",
    "description": "AES El Salvador: compañía de generación y distribución eléctrica en el país.\n\n| Detalle | Valor |\n| --- | --- |\n| Año de fundación | PENDIENTE |\n| Dirección | PENDIENTE |\n| Áreas de enfoque (CT) | ENE |\n| Programas | Generación eléctrica y proyectos de transición energética |"
   },
@@ -3174,6 +3555,10 @@
    "category": "chamber",
    "city": "San Salvador",
    "website": "https://industriaelsalvador.com",
+   "linkedin": "https://www.linkedin.com/company/asociacion-salvadore-a-de-industriales",
+   "linkedin_url": "https://www.linkedin.com/company/asociacion-salvadore-a-de-industriales",
+   "linkedin_cited_from": "https://industriaelsalvador.com/contacto/",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Cámara o gremio",
    "description": "Gremio que representa al sector industrial salvadoreño y promueve competitividad y desarrollo productivo."
   },
@@ -3205,6 +3590,9 @@
    "city": "San Salvador",
    "website": "https://www.bancoagricola.com",
    "linkedin": "https://www.linkedin.com/company/bancoagricola",
+   "linkedin_url": "https://www.linkedin.com/company/bancoagricola",
+   "linkedin_cited_from": "https://www.bancoagricola.com",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Institución financiera",
    "description": "Banco universal líder en El Salvador con amplia red de agencias y servicios para personas y empresas.\n\n- **Año de fundación:** 1955 — https://www.bancoagricola.com"
   },
@@ -3215,7 +3603,10 @@
    "category": "finance",
    "city": "San Salvador",
    "website": "https://www.bancoatlantida.com.sv",
-   "linkedin": "https://www.linkedin.com/company/banco-atlantida-el-salvador/",
+   "linkedin": "https://www.linkedin.com/company/bancatlan-sv",
+   "linkedin_url": "https://www.linkedin.com/company/bancatlan-sv",
+   "linkedin_cited_from": "https://www.bancoatlantida.com.sv",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Institución financiera",
    "description": "Banco comercial con operación en El Salvador que ofrece banca de personas, empresas y PYMES.\n\n| Campo | Valor |\n| --- | --- |\n| Dirección | San Salvador, El Salvador |\n| Año de fundación | PENDIENTE |\n| Áreas de enfoque (taxonomía CT) | FIN |\n| Programas | Productos financieros y banca corporativa |"
   },
@@ -3226,7 +3617,6 @@
    "category": "finance",
    "city": "San Salvador",
    "website": "https://www.bancoazul.com",
-   "linkedin": "https://www.linkedin.com/company/banco-azul",
    "ecosystem_role": "Institución financiera",
    "description": "Banco Azul de El Salvador: institución financiera enfocada en banca personal y soluciones para salvadoreños.\n\n| Detalle | Valor |\n| --- | --- |\n| Año de fundación | PENDIENTE |\n| Dirección | PENDIENTE |\n| Áreas de enfoque (CT) | FIN |\n| Programas | Créditos, cuentas y servicios bancarios digitales |"
   },
@@ -3237,7 +3627,6 @@
    "category": "finance",
    "city": "San Salvador",
    "website": "https://www.bancohipotecario.com.sv",
-   "linkedin": "https://www.linkedin.com/company/banco-hipotecario-de-el-salvador",
    "ecosystem_role": "Institución financiera",
    "description": "Banco especializado en créditos hipotecarios y servicios financieros para familias y empresas en El Salvador.\n\n- **Año de fundación:** 1935 — https://www.bancohipotecario.com.sv"
   },
@@ -3249,6 +3638,9 @@
    "city": "San Salvador",
    "website": "https://www.bancomundial.org/es/country/elsalvador",
    "linkedin": "https://www.linkedin.com/company/grupo-banco-mundial",
+   "linkedin_url": "https://www.linkedin.com/company/grupo-banco-mundial",
+   "linkedin_cited_from": "https://www.bancomundial.org/ext/es/country/elsalvador",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Cooperación internacional para reducción de pobreza, empleo y resiliencia climática en El Salvador.",
    "description": "El Banco Mundial y El Salvador colaboran para reducir la pobreza extrema, generar más empleos, mejorar el desarrollo humano y fomentar la resiliencia climática.",
    "founding_year": "1944"
@@ -3271,6 +3663,9 @@
    "city": "San Salvador",
    "website": "https://www.bcie.org",
    "linkedin": "https://www.linkedin.com/company/bcie",
+   "linkedin_url": "https://www.linkedin.com/company/bcie",
+   "linkedin_cited_from": "https://www.bcie.org",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "BCIE financia desarrollo regional; el programa de capital semilla apoya emprendimiento e innovación en la región.",
    "description": "BCIE financia desarrollo regional; el programa de capital semilla apoya emprendimiento e innovación en la región.",
    "founding_year": "1960"
@@ -3282,7 +3677,6 @@
    "category": "international",
    "city": "San Salvador",
    "website": "https://www.iadb.org/es",
-   "linkedin": "https://www.linkedin.com/company/inter-american-development-bank",
    "ecosystem_role": "Cooperación financiera y técnica del BID para desarrollo sostenible en El Salvador.",
    "description": "Cooperación financiera y técnica del BID para desarrollo sostenible en El Salvador.",
    "founding_year": "1959"
@@ -3294,7 +3688,6 @@
    "category": "funder",
    "city": "San Salvador",
    "website": "https://cafi.vc",
-   "linkedin": "https://www.linkedin.com/company/cafivc",
    "ecosystem_role": "Red de inversionistas ángeles e institucionales que respalda startups en Centroamérica.",
    "description": "CAFI es la red de inversores institucionales y ángeles de Centroamérica que respalda a founders que usan la tecnología para resolver los mayores desafíos de Latinoamérica."
   },
@@ -3316,6 +3709,9 @@
    "city": "San Salvador",
    "website": "https://camarasal.com",
    "linkedin": "https://www.linkedin.com/company/27249850",
+   "linkedin_url": "https://www.linkedin.com/company/27249850",
+   "linkedin_cited_from": "https://camarasal.com",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Cámara de comercio e industria: servicios empresariales, representación y promoción del comercio.",
    "description": "Cámara de comercio e industria: servicios empresariales, representación y promoción del comercio."
   },
@@ -3326,7 +3722,6 @@
    "category": "chamber",
    "city": "San Salvador",
    "website": "https://camtex.com.sv",
-   "linkedin": "https://www.linkedin.com/company/camtex-el-salvador",
    "ecosystem_role": "Cámara textil y de confecciones de El Salvador; vincula empresas del sector exportador.",
    "description": "Cámara textil y de confecciones de El Salvador; vincula empresas del sector exportador."
   },
@@ -3387,7 +3782,6 @@
    "category": "international",
    "city": "San Salvador",
    "website": "https://www.cepal.org",
-   "linkedin": "https://www.linkedin.com/company/cepal",
    "ecosystem_role": "Comisión Económica para América Latina y el Caribe; cooperación técnica y análisis de políticas.",
    "description": "Comisión Económica para América Latina y el Caribe; cooperación técnica y análisis de políticas."
   },
@@ -3398,7 +3792,6 @@
    "category": "government",
    "city": "San Salvador",
    "website": "https://www.conamype.gob.sv",
-   "linkedin": "https://www.linkedin.com/company/conamype",
    "ecosystem_role": "Entidad gubernamental de apoyo a la micro, pequeña y mediana empresa.",
    "description": "Comisión Nacional de la Micro y Pequeña Empresa",
    "founding_year": "2006"
@@ -3410,7 +3803,6 @@
    "category": "accelerator",
    "city": "San Salvador",
    "website": "https://www.utec.edu.sv/crea",
-   "linkedin": "https://www.linkedin.com/school/universidad-tecnol%C3%B3gica-de-el-salvador/",
    "ecosystem_role": "Centro de emprendimiento de UTEC: incubación, mentoría y vinculación con el ecosistema.",
    "description": "Centro de emprendimiento de UTEC: incubación, mentoría y vinculación con el ecosistema."
   },
@@ -3421,7 +3813,6 @@
    "category": "international",
    "city": "San Salvador",
    "website": "https://www.crs.org",
-   "linkedin": "https://www.linkedin.com/company/catholic-relief-services",
    "ecosystem_role": "ONG internacional de desarrollo humanitario con programas en El Salvador.",
    "description": "ONG internacional de desarrollo humanitario con programas en El Salvador."
   },
@@ -3452,7 +3843,6 @@
    "category": "media",
    "city": "San Salvador",
    "website": "https://www.elsalvador.com",
-   "linkedin": "https://www.linkedin.com/company/am-rica-interactiva-el-diario-de-hoy",
    "ecosystem_role": "Grupo de medios digitales e impresos líder en noticias de El Salvador.",
    "description": "Noticias de El Salvador, noticias internacionales, salvadoreños por el mundo, economia, negocios, politica, deportes, entretenimiento, tecnologia, turismo, tendencias, fotos, videos, redes sociales"
   },
@@ -3463,7 +3853,6 @@
    "category": "international",
    "city": "San Salvador; Calle La Reforma 159, Colonia San Benito, San Salvador",
    "website": "https://san-salvador.diplo.de",
-   "linkedin": "https://www.linkedin.com/company/alemaniaenelsalvador",
    "ecosystem_role": "Representación diplomática de Alemania; relaciones bilaterales y cooperación.",
    "description": "Sitio web del Ministerio Federal de Relaciones Exteriores"
   },
@@ -3474,6 +3863,10 @@
    "category": "international",
    "city": "San Salvador; Calle La Reforma y 9ª Calle Poniente, Colonia San Benito, San Salvador",
    "website": "https://www.exteriores.gob.es/Embajadas/sansalvador/es/Paginas/index.aspx",
+   "linkedin": "https://www.linkedin.com/company/ministerio-de-asuntos-exteriores-union-europea-y-cooperacion",
+   "linkedin_url": "https://www.linkedin.com/company/ministerio-de-asuntos-exteriores-union-europea-y-cooperacion",
+   "linkedin_cited_from": "https://www.exteriores.gob.es/Embajadas/sansalvador/es/Paginas/index.aspx",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Representación diplomática de España en El Salvador.",
    "description": "La Embajada de España en San Salvador es la misión diplomática del Reino de España ante la República de El Salvador."
   },
@@ -3525,7 +3918,6 @@
    "category": "international",
    "city": "San Salvador",
    "website": "https://www.fao.org/elsalvador",
-   "linkedin": "https://www.linkedin.com/company/food-and-agriculture-organization-of-the-united-nations",
    "ecosystem_role": "Oficina país de la FAO: seguridad alimentaria y desarrollo agrícola sostenible.",
    "description": "Hogar | FAO in El Salvador| Food and Agriculture Organization of the United Nations"
   },
@@ -3557,7 +3949,6 @@
    "category": "ngo_foundation",
    "city": "San Salvador",
    "website": "https://fundacioncolabora.com",
-   "linkedin": "https://www.linkedin.com/company/fundaci%C3%B3n-colabora/",
    "ecosystem_role": "Fundación que impulsa emprendimiento social y desarrollo comunitario.",
    "description": "Fundación que impulsa emprendimiento de impacto y alianzas para desarrollo sostenible en El Salvador.\n\n| Campo | Valor |\n| --- | --- |\n| Dirección | San Salvador, El Salvador |\n| Año de fundación | PENDIENTE |\n| Áreas de enfoque (taxonomía CT) | PENDIENTE |\n| Programas | Incubación y articulación de emprendimientos…"
   },
@@ -3568,7 +3959,10 @@
    "category": "ngo_foundation",
    "city": "San Salvador",
    "website": "https://fundaciongloriakriete.org",
-   "linkedin": "https://www.linkedin.com/company/fundaci%C3%B3n-gloria-kriete",
+   "linkedin": "https://www.linkedin.com/company/fundacion-gloria-kriete",
+   "linkedin_url": "https://www.linkedin.com/company/fundacion-gloria-kriete",
+   "linkedin_cited_from": "https://fundaciongloriakriete.org",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Fundación sin fines de lucro para desarrollo integral en El Salvador.",
    "description": "Fundación Gloria Kriete FGK. Somos una fundación sin fines de lucro comprometida con el desarrollo integral de los salvadoreños"
   },
@@ -3579,7 +3973,10 @@
    "category": "accelerator",
    "city": "San Salvador",
    "website": "https://fundaciongloriakriete.org",
-   "linkedin": "https://www.linkedin.com/company/fundaci%C3%B3n-gloria-kriete",
+   "linkedin": "https://www.linkedin.com/company/fundacion-gloria-kriete",
+   "linkedin_url": "https://www.linkedin.com/company/fundacion-gloria-kriete",
+   "linkedin_cited_from": "https://fundaciongloriakriete.org",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Programa de incubación empresarial de la Fundación Gloria Kriete.",
    "description": "Fundación Gloria Kriete FGK. Somos una fundación sin fines de lucro comprometida con el desarrollo integral de los salvadoreños"
   },
@@ -3610,7 +4007,10 @@
    "category": "international",
    "city": "San Salvador",
    "website": "https://gggi.org",
-   "linkedin": "https://www.linkedin.com/company/global-green-growth-institute",
+   "linkedin": "https://www.linkedin.com/company/gggi-asia",
+   "linkedin_url": "https://www.linkedin.com/company/gggi-asia",
+   "linkedin_cited_from": "https://gggi.org",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Instituto intergubernamental que apoya crecimiento verde e inclusivo.",
    "description": "Instituto intergubernamental que apoya crecimiento verde e inclusivo.",
    "founding_year": "2012"
@@ -3623,6 +4023,9 @@
    "city": "San Salvador",
    "website": "https://www.giz.de",
    "linkedin": "https://www.linkedin.com/company/gizgmbh",
+   "linkedin_url": "https://www.linkedin.com/company/gizgmbh",
+   "linkedin_cited_from": "https://www.giz.de/de",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Cooperación técnica alemana para desarrollo sostenible en El Salvador.",
    "description": "Die GIZ arbeitet weltweit für nachhaltige Entwicklung. Erfahren Sie, wie wir Lösungen gestalten und Partnerländer unterstützen.",
    "founding_year": "2011"
@@ -3634,7 +4037,10 @@
    "category": "corporate",
    "city": "San Salvador",
    "website": "https://agrisal.com",
-   "linkedin": "https://www.linkedin.com/company/grupo-agrisal",
+   "linkedin": "https://www.linkedin.com/company/agrisal",
+   "linkedin_url": "https://www.linkedin.com/company/agrisal",
+   "linkedin_cited_from": "https://agrisal.com",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Grupo empresarial diversificado (inmobiliario, hotelero, agroindustrial).",
    "description": "Agrisal celebra 120 años de historia, impulsando comunidades prósperas y sostenibles a través de proyectos innovadores en los sectores inmobiliario, hotele"
   },
@@ -3645,7 +4051,6 @@
    "category": "corporate",
    "city": "San Salvador",
    "website": "https://www.superselectos.com",
-   "linkedin": "https://www.linkedin.com/company/super-selectos/",
    "ecosystem_role": "Cadena de supermercados Super Selectos y operaciones del Grupo Calleja.",
    "description": "Cadena de supermercados Super Selectos (Grupo Calleja) con operaciones de retail en El Salvador.\n\n| Campo | Valor |\n| --- | --- |\n| Dirección | San Salvador, El Salvador |\n| Año de fundación | PENDIENTE |\n| Áreas de enfoque (taxonomía CT) | CIR |\n| Programas | Operación retail; iniciativas de sostenibilidad corporat…"
   },
@@ -3656,6 +4061,10 @@
    "category": "corporate",
    "city": "San Salvador",
    "website": "https://grupoferromax.com",
+   "linkedin": "https://www.linkedin.com/company/grupo-ferromax",
+   "linkedin_url": "https://www.linkedin.com/company/grupo-ferromax",
+   "linkedin_cited_from": "https://grupoferromax.com",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Grupo industrial de manufactura y distribución en El Salvador.",
    "description": "Grupo industrial de manufactura y distribución en El Salvador."
   },
@@ -3667,6 +4076,9 @@
    "city": "San Salvador",
    "website": "https://www.ternova.group",
    "linkedin": "https://www.linkedin.com/company/ternovagroup",
+   "linkedin_url": "https://www.linkedin.com/company/ternovagroup",
+   "linkedin_cited_from": "https://www.ternova.group",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Grupo corporativo de empaques, reciclaje y capital con operaciones en Centroamérica.",
    "description": "Ternova es un grupo corporativo con presencia en 39 países y 5 continentes, posee operaciones en la región Centroamericana y el Sureste asiático."
   },
@@ -3688,6 +4100,9 @@
    "city": "San Salvador",
    "website": "https://sansalvador.impacthub.net",
    "linkedin": "https://www.linkedin.com/company/ihsansalvador",
+   "linkedin_url": "https://www.linkedin.com/company/ihsansalvador",
+   "linkedin_cited_from": "https://sansalvador.impacthub.net",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Red global de espacios de coworking y aceleración para emprendimiento de impacto.",
    "description": "Red global de espacios de coworking y aceleración para emprendimiento de impacto."
   },
@@ -3698,6 +4113,10 @@
    "category": "corporate",
    "city": "San Salvador",
    "website": "https://laconstancia.com",
+   "linkedin": "https://www.linkedin.com/company/la-constancia-sv",
+   "linkedin_url": "https://www.linkedin.com/company/la-constancia-sv",
+   "linkedin_cited_from": "https://www.laconstancia.com/",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Cervecería y bebidas (La Constancia) con operaciones industriales en El Salvador.",
    "description": "Cervecería y bebidas (La Constancia) con operaciones industriales en El Salvador."
   },
@@ -3708,6 +4127,10 @@
    "category": "corporate",
    "city": "San Salvador",
    "website": "https://ipsalatinoamerica.com",
+   "linkedin": "https://www.linkedin.com/company/ipsa-latinoamerica2018",
+   "linkedin_url": "https://www.linkedin.com/company/ipsa-latinoamerica2018",
+   "linkedin_cited_from": "https://ipsalatinoamerica.com",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Fabricante regional de envases y productos plásticos.",
    "description": "IPSA Plástico Flexible Bobina Plastica Bolsas Biodegradables"
   },
@@ -3719,6 +4142,9 @@
    "city": "San Salvador; Calle La Reforma y 9ª Calle Poniente, Edificio Torre Futura, Nivel 16, San Salvador",
    "website": "https://investinelsalvador.gob.sv",
    "linkedin": "https://www.linkedin.com/company/investinelsalvador",
+   "linkedin_url": "https://www.linkedin.com/company/investinelsalvador",
+   "linkedin_cited_from": "https://investinelsalvador.gob.sv/es",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Agencia gubernamental de promoción de inversiones y exportaciones.",
    "description": "Investment promotion site scaffolding"
   },
@@ -3730,6 +4156,9 @@
    "city": "San Salvador",
    "website": "https://keyinstitute.com",
    "linkedin": "https://www.linkedin.com/company/keyinstitutesv",
+   "linkedin_url": "https://www.linkedin.com/company/keyinstitutesv",
+   "linkedin_cited_from": "https://www.keyinstitute.com/",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Instituto de educación superior en ingeniería y ciencias.",
    "description": "Instituto de educación superior en ingeniería y ciencias."
   },
@@ -3740,7 +4169,6 @@
    "category": "media",
    "city": "San Salvador",
    "website": "https://www.laprensagrafica.com",
-   "linkedin": "https://www.linkedin.com/company/la-prensa-gr%C3%A1fica",
    "ecosystem_role": "Diario y plataforma multimedia de referencia en El Salvador.",
    "description": "Diario y plataforma multimedia de referencia en El Salvador."
   },
@@ -3781,7 +4209,6 @@
    "category": "international",
    "city": "San Salvador",
    "website": "https://www.iom.int",
-   "linkedin": "https://www.linkedin.com/company/iom",
    "ecosystem_role": "Organización Internacional para las Migraciones; cooperación en migración y desarrollo.",
    "description": "Organización Internacional para las Migraciones; cooperación en migración y desarrollo."
   },
@@ -3792,7 +4219,6 @@
    "category": "international",
    "city": "San Salvador",
    "website": "https://www.undp.org/es/el-salvador",
-   "linkedin": "https://www.linkedin.com/company/united-nations-development-programme",
    "ecosystem_role": "Programa de las Naciones Unidas para el Desarrollo en El Salvador.",
    "description": "Programa de las Naciones Unidas para el Desarrollo en El Salvador."
   },
@@ -3814,6 +4240,9 @@
    "city": "San Salvador",
    "website": "https://pomonaimpact.com",
    "linkedin": "https://www.linkedin.com/company/pomona-impact",
+   "linkedin_url": "https://www.linkedin.com/company/pomona-impact",
+   "linkedin_cited_from": "https://pomonaimpact.com",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Fondo de impacto que invierte en empresas con retorno social y ambiental en Centroamérica.",
    "description": "Fondo de impacto que invierte en empresas con retorno social y ambiental en Centroamérica."
   },
@@ -3824,6 +4253,10 @@
    "category": "startup",
    "city": "San Salvador",
    "website": "https://www.ternova.group/circular-solutions",
+   "linkedin": "https://www.linkedin.com/company/ternovagroup",
+   "linkedin_url": "https://www.linkedin.com/company/ternovagroup",
+   "linkedin_cited_from": "https://www.ternova.group/circular-solutions",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Iniciativa de economía circular para recolección y reciclaje de plásticos en El Salvador.",
    "description": "Iniciativa de economía circular para recolección y reciclaje de plásticos en El Salvador.",
    "founding_year": "2019"
@@ -3835,7 +4268,10 @@
    "category": "accelerator",
    "city": "San Salvador",
    "website": "https://pvblic.org/rein-hubs",
-   "linkedin": "https://www.linkedin.com/company/pvblic-foundation",
+   "linkedin": "https://www.linkedin.com/company/pvblicfoundation",
+   "linkedin_url": "https://www.linkedin.com/company/pvblicfoundation",
+   "linkedin_cited_from": "https://www.pvblic.org/rein-hubs",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Hub de emprendimiento social REIN en San Salvador (red PVBLIC).",
    "description": "Hub de emprendimiento social REIN en San Salvador (red PVBLIC)."
   },
@@ -3857,6 +4293,9 @@
    "city": "San Salvador",
    "website": "https://snbx.sv",
    "linkedin": "https://www.linkedin.com/company/snbxsv",
+   "linkedin_url": "https://www.linkedin.com/company/snbxsv",
+   "linkedin_cited_from": "https://snbx.sv",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Aceleradora y espacio de innovación para startups en El Salvador.",
    "description": "Únete a la innovación ¡Hola Innovator! Somos el primer hub de innovación deEl Salvador Apoyamos el ecosistema de emprendimiento e innovación, inspiramos el desarrollo de una cultura de trabajo que transforme personas y organizaciones, facilitando el acceso a las mejores metodologías y tecnologías de clase mundial. S…"
   },
@@ -3867,7 +4306,6 @@
    "category": "accelerator",
    "city": "San Salvador",
    "website": "https://www.startupbootcamp.org/accelerator/central-america",
-   "linkedin": "https://www.linkedin.com/company/startupbootcamp",
    "ecosystem_role": "Programa regional de aceleración Startupbootcamp con foco en El Salvador.",
    "description": "We support early-stage tech-founders and rapidly scale their companies by providing direct access to an international network of the most relevant mentors, partners, and investors in their industry."
   },
@@ -3888,7 +4326,6 @@
    "category": "academia",
    "city": "San Salvador",
    "website": "https://www.uca.edu.sv",
-   "linkedin": "https://www.linkedin.com/school/universidad-centroamericana-jos--sime-n-ca-as",
    "ecosystem_role": "Universidad centroamericana privada (investigación, formación y extensión).",
    "description": "Universidad para el cambio social, educación superior, calidad educativa, universidad jesuita",
    "founding_year": "1965"
@@ -3900,7 +4337,6 @@
    "category": "academia",
    "city": "San Salvador",
    "website": "https://www.ues.edu.sv",
-   "linkedin": "https://www.linkedin.com/school/universidad-de-el-salvador/",
    "ecosystem_role": "Universidad pública nacional de El Salvador.",
    "description": "Universidad pública nacional de El Salvador.",
    "founding_year": "1841"
@@ -3912,7 +4348,6 @@
    "category": "international",
    "city": "San Salvador",
    "website": "https://www.unep.org",
-   "linkedin": "https://www.linkedin.com/company/unep",
    "ecosystem_role": "Programa de las Naciones Unidas para el Medio Ambiente.",
    "description": "Programa de las Naciones Unidas para el Medio Ambiente."
   },
@@ -3923,7 +4358,6 @@
    "category": "international",
    "city": "San Salvador",
    "website": "https://www.usaid.gov/el-salvador",
-   "linkedin": "https://www.linkedin.com/company/usaid",
    "ecosystem_role": "Agencia de cooperación al desarrollo de los Estados Unidos en El Salvador.",
    "description": "USAID El Salvador implementa cooperación para el desarrollo en temas como gobernanza, empleo y medio ambiente.",
    "founding_year": "1961"
@@ -3935,7 +4369,6 @@
    "category": "academia",
    "city": "San Salvador",
    "website": "https://www.utec.edu.sv",
-   "linkedin": "https://www.linkedin.com/school/universidadtecnologicadeelsalvador",
    "ecosystem_role": "Universidad privada tecnológica con programas de ingeniería y negocios.",
    "description": "Universidad privada tecnológica con programas de ingeniería y negocios.",
    "founding_year": "1997"
@@ -3947,7 +4380,10 @@
    "category": "funder",
    "city": "San Salvador",
    "website": "https://viwala.com",
-   "linkedin": "https://www.linkedin.com/company/viwala",
+   "linkedin": "https://www.linkedin.com/company/55046457",
+   "linkedin_url": "https://www.linkedin.com/company/55046457",
+   "linkedin_cited_from": "https://www.viwala.com/",
+   "linkedin_accessed": "2026-10-22",
    "ecosystem_role": "Plataforma fintech de financiamiento para PYMEs en Latinoamérica.",
    "description": "Plataforma fintech de financiamiento para PYMEs en Latinoamérica."
   }

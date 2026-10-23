@@ -49,5 +49,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Sitio web — https://www.bancomundial.org/es/country/elsalvador
 - Rol en el ecosistema — https://www.bancomundial.org/es/country/elsalvador
 - Descripción — https://www.bancomundial.org/es/country/elsalvador
-- LinkedIn (enlace público) — https://www.linkedin.com/company/grupo-banco-mundial
 - Año de fundación — https://www.bancomundial.org/es/quienes-somos
+- https://www.bancomundial.org/ext/es/country/elsalvador

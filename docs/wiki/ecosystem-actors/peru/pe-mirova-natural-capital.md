@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | París (sede Natixis Investment Managers); inversiones globales |
 | Sitio web | https://www.mirova.com |
-| LinkedIn | https://www.linkedin.com/company/mirova |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Gestor de inversiones de capital natural y sostenible |
 | Desafíos (códigos) | BOS, FIN |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-mirova-natural-capital](https://nexus.cleantechhub.net/ecosystem/?actor=pe-mirova-natural-capital) |
@@ -53,4 +53,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.mirova.com
 - https://www.mirova.com/
-- https://www.linkedin.com/company/mirova

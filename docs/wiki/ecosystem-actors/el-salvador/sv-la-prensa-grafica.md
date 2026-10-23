@@ -23,7 +23,7 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://www.laprensagrafica.com |
-| LinkedIn | https://www.linkedin.com/company/la-prensa-gr%C3%A1fica |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Diario y plataforma multimedia de referencia en El Salvador. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
@@ -49,4 +49,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Sitio web — https://www.laprensagrafica.com
 - Rol en el ecosistema — https://www.laprensagrafica.com
 - https://www.laprensagrafica.com/
-- https://www.linkedin.com/company/la-prensa-gr%C3%A1fica

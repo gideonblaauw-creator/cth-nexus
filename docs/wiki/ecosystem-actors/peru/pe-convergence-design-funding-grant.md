@@ -47,4 +47,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.convergence.finance/design-funding — descripción del programa
-- https://www.linkedin.com/company/convergenceblendedfinance — perfil LinkedIn Convergence
+- https://www.convergence.finance/accelerator

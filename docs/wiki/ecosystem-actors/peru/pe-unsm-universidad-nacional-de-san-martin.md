@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Tarapoto |
 | Sitio web | https://unsm.edu.pe |
-| LinkedIn | https://www.linkedin.com/school/universidad-nacional-de-san-mart%C3%ADn/ |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Universidad o centro de investigación |
 | Desafíos (códigos) | AGR, BOS, CIU |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-unsm-universidad-nacional-de-san-martin](https://nexus.cleantechhub.net/ecosystem/?actor=pe-unsm-universidad-nacional-de-san-martin) |

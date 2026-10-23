@@ -23,7 +23,7 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://www.bancohipotecario.com.sv |
-| LinkedIn | https://www.linkedin.com/company/banco-hipotecario-de-el-salvador |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Institución financiera |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=sv-banco-hipotecario](https://nexus.cleantechhub.net/ecosystem/?actor=sv-banco-hipotecario) |
@@ -48,4 +48,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.bancohipotecario.com.sv
 - Sitio institucional — https://www.bancohipotecario.com.sv/
-- Perfil en LinkedIn — https://www.linkedin.com/company/banco-hipotecario-de-el-salvador

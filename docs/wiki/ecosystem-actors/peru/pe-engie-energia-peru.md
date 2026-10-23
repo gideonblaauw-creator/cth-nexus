@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://engie-energia.pe |
-| LinkedIn | https://www.linkedin.com/company/engieperu |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Generación y comercialización de energía; desarrollo de proyectos renovables en Perú. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
@@ -47,4 +47,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://engie-energia.pe — sitio corporativo
-- https://www.linkedin.com/company/engieperu — perfil LinkedIn

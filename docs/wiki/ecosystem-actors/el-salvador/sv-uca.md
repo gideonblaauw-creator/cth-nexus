@@ -23,7 +23,7 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://www.uca.edu.sv |
-| LinkedIn | https://www.linkedin.com/school/universidad-centroamericana-jos--sime-n-ca-as |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Universidad centroamericana privada (investigación, formación y extensión). |
 | Dirección | PENDIENTE |
 | Año de fundación | 1965 |
@@ -52,4 +52,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - LinkedIn (enlace público) — https://www.linkedin.com/school/universidad-centroamericana-jos--sime-n-ca-as
 - Año de fundación — https://www.uca.edu.sv/nosotros/
 - UCA — https://www.uca.edu.sv/
-- LinkedIn — https://www.linkedin.com/company/universidad-centroamericana-jos%C3%A9-sime%C3%B3n-ca%C3%B1as

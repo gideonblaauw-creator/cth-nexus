@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Milán, Italia (sede) |
 | Sitio web | https://aspem.org/en/ |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/aspem-associazione-solidariet-paesi-emergenti |
 | Rol en el ecosistema | ONG italiana de cooperación internacional y solidaridad con países emergentes. |
 | Dirección | PENDIENTE |
 | Año de fundación | 1979 |

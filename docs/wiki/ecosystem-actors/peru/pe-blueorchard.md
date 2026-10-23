@@ -46,6 +46,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.blueorchard.com
-- https://www.linkedin.com/company/blueorchard-finance-ltd
 - BlueOrchard — https://www.blueorchard.com/
-- LinkedIn — https://www.linkedin.com/company/blueorchard

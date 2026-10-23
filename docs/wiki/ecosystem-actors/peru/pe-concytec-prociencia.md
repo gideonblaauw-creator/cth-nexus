@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | San Borja, Lima |
 | Sitio web | https://prociencia.gob.pe |
-| LinkedIn | https://www.linkedin.com/company/prociencia/ |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Programa nacional de ciencia y tecnología (ProCiencia) bajo el ecosistema CONCYTEC para fondos de I+D e innovación. |
 | Dirección | Av. Benavides 298, San Borja, Lima |
 | Año de fundación | PENDIENTE |

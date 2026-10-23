@@ -46,5 +46,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.backus.pe
-- https://www.linkedin.com/company/backus
 - https://www.backus.pe/

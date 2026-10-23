@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.angelventures.vc |
-| LinkedIn | https://www.linkedin.com/company/avpventures/ |
+| LinkedIn | https://www.linkedin.com/company/angel-ventures-mexico |
 | Rol en el ecosistema | Financiador e inversionista |
 | Año de fundación | 2008 |
 | Desafíos (códigos) | PENDIENTE |
@@ -53,6 +53,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.angelventures.vc/
-- https://www.linkedin.com/company/angel-ventures-mexico
 - https://www.angelventures.vc
-- https://www.linkedin.com/company/avpventures/

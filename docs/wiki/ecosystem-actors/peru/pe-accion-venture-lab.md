@@ -46,6 +46,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.accion.org
-- https://www.linkedin.com/company/accion
 - Organización matriz Accion — https://www.accion.org
-- Perfil Accion Venture Lab en LinkedIn — https://www.linkedin.com/company/accion-venture-lab

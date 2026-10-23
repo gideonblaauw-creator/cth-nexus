@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.sbs.gob.pe |
-| LinkedIn | https://www.linkedin.com/company/sbsperu |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Actor público / regulador |
 | Desafíos (códigos) | ENE, FIN |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-sbs-superintendencia-de-banca-seguros-y-afp](https://nexus.cleantechhub.net/ecosystem/?actor=pe-sbs-superintendencia-de-banca-seguros-y-afp) |
@@ -50,4 +50,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.sbs.gob.pe
 - SBS — https://www.gob.pe/sbs
-- LinkedIn — https://www.linkedin.com/company/sbsperu

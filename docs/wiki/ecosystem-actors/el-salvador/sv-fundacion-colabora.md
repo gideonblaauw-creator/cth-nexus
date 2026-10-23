@@ -23,7 +23,7 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://fundacioncolabora.com |
-| LinkedIn | https://www.linkedin.com/company/fundaci%C3%B3n-colabora/ |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Fundación que impulsa emprendimiento social y desarrollo comunitario. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
@@ -56,4 +56,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Sitio web — https://fundacioncolabora.com
 - Rol en el ecosistema — https://fundacioncolabora.com
 - https://fundacioncolabora.com
-- https://www.linkedin.com/company/fundaci%C3%B3n-colabora/

@@ -52,4 +52,3 @@ El Ministerio de Minas y Energía de Colombia formula y adopta políticas para e
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.minenergia.gov.co/
-- https://www.linkedin.com/company/minenergia

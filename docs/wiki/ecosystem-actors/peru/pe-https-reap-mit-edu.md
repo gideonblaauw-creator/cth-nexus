@@ -47,6 +47,5 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://reap.mit.edu — MIT REAP
-- https://www.linkedin.com/company/mit-regional-entrepreneurship-acceleration-program — LinkedIn
 - Descripción del programa MIT REAP — https://reap.mit.edu/
 - Perfil MIT REAP en LinkedIn — https://www.linkedin.com/school/mit-reap/

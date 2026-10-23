@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | San Isidro, Lima |
 | Sitio web | https://gestion.pe |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/diario-gesti%C3%B3n |
 | Rol en el ecosistema | Medio de comunicación económico y empresarial de referencia en Perú. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |

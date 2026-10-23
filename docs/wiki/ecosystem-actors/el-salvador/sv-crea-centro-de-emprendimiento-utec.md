@@ -23,7 +23,7 @@ tag_country: El Salvador
 | País | El Salvador |
 | Ciudad | San Salvador |
 | Sitio web | https://www.utec.edu.sv/crea |
-| LinkedIn | https://www.linkedin.com/school/universidad-tecnol%C3%B3gica-de-el-salvador/ |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Centro de emprendimiento de UTEC: incubación, mentoría y vinculación con el ecosistema. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |

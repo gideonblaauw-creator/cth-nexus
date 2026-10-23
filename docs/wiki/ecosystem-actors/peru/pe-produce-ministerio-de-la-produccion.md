@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Breña, Lima |
 | Sitio web | https://www.gob.pe/produce |
-| LinkedIn | https://www.linkedin.com/company/ministerio-de-la-produccion/ |
+| LinkedIn | https://www.linkedin.com/company/ministerio-de-la-producci%C3%B3n-del-per%C3%BA |
 | Rol en el ecosistema | Ministerio de pesca, acuicultura e industrias |
 | Desafíos (códigos) | AZU, CIR, FIN |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-produce-ministerio-de-la-produccion](https://nexus.cleantechhub.net/ecosystem/?actor=pe-produce-ministerio-de-la-produccion) |

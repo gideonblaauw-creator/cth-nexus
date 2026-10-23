@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.agrobanco.com.pe |
-| LinkedIn | https://www.linkedin.com/company/agrobanco |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Banco público de desarrollo agropecuario. |
 | Año de fundación | PENDIENTE |
 | Desafíos (códigos) | BOS |
@@ -47,6 +47,4 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.agrobanco.com.pe
 - https://www.agrobanco.com.pe/
-- https://www.linkedin.com/company/agrobanco
 - https://www.gob.pe/agrobanco
-- https://pe.linkedin.com/company/agrobanco-oficial

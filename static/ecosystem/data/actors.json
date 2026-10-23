@@ -23,6 +23,9 @@
    "location_note": "Oficina Lima (pie de página sitio oficial)."
   }, 
   "linkedin": "https://www.linkedin.com/company/amazonia-impact-ventures", 
+  "linkedin_url": "https://www.linkedin.com/company/amazonia-impact-ventures", 
+  "linkedin_cited_from": "https://www.amazoniaimpactventures.com", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Financiador e inversionista", 
@@ -55,6 +58,9 @@
    "location_note": "Profonanpe headquarters (wiki card + org site)."
   }, 
   "linkedin": "https://www.linkedin.com/company/profonanpe", 
+  "linkedin_url": "https://www.linkedin.com/company/profonanpe", 
+  "linkedin_cited_from": "https://profonanpe.org.pe", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Fondo trust de financiamiento para áreas naturales protegidas", 
@@ -83,6 +89,9 @@
    "location_note": "Sede Andes Amazon Fund (sin oficina Perú publicada)."
   }, 
   "linkedin": "https://www.linkedin.com/company/andes-amazon-fund", 
+  "linkedin_url": "https://www.linkedin.com/company/andes-amazon-fund", 
+  "linkedin_cited_from": "https://www.andesamazonfund.org", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Financiador e inversionista", 
@@ -108,7 +117,10 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/pecap-peru/", 
+  "linkedin": "https://www.linkedin.com/company/pecap-peru", 
+  "linkedin_url": "https://www.linkedin.com/company/pecap-peru", 
+  "linkedin_cited_from": "https://www.pecap.pe/", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Asociación gremial de capital semilla y emprendimiento", 
@@ -135,7 +147,10 @@
    "lng": -77.038476, 
    "location_note": "Oficina Angel Ventures Perú (contacto web)."
   }, 
-  "linkedin": "https://www.linkedin.com/company/avpventures/", 
+  "linkedin": "https://www.linkedin.com/company/angel-ventures-mexico", 
+  "linkedin_url": "https://www.linkedin.com/company/angel-ventures-mexico", 
+  "linkedin_cited_from": "https://www.angelventures.vc", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Financiador e inversionista", 
@@ -168,7 +183,6 @@
    "precision": "address", 
    "source_url": "https://utecventures.com"
   }, 
-  "linkedin": "https://www.linkedin.com/company/utecventures", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Aceleradora, incubadora o programa de apoyo", 
@@ -225,7 +239,6 @@
    "lng": -77.014067, 
    "location_note": "Oficinas corporativas Grupo Romero (Alicorp campus)."
   }, 
-  "linkedin": "https://www.linkedin.com/company/grupo-romero", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Holding empresarial peruano (Grupo Romero) con diversas líneas de negocio.", 
@@ -255,6 +268,9 @@
    "location_note": "hq_abroad (Spain/global); no Lima hub on official site after 2020."
   }, 
   "linkedin": "https://www.linkedin.com/company/wayra", 
+  "linkedin_url": "https://www.linkedin.com/company/wayra", 
+  "linkedin_cited_from": "https://wayra.com/", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Financiador e inversionista", 
@@ -280,7 +296,6 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/mirova", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Gestor de inversiones de capital natural y sostenible", 
@@ -295,6 +310,10 @@
   "country": "United States", 
   "city": "Washington", 
   "website": "https://ecoenterprisesfund.com", 
+  "linkedin": "https://www.linkedin.com/company/ecoenterprises-fund", 
+  "linkedin_url": "https://www.linkedin.com/company/ecoenterprises-fund", 
+  "linkedin_cited_from": "https://ecoenterprisesfund.com", 
+  "linkedin_accessed": "2026-10-22", 
   "challenges": [
    "AGR", 
    "BOS", 
@@ -361,6 +380,9 @@
    "location_note": "hq_abroad (Belgium); no Peru street on official site."
   }, 
   "linkedin": "https://www.linkedin.com/company/incofin-investment-management", 
+  "linkedin_url": "https://www.linkedin.com/company/incofin-investment-management", 
+  "linkedin_cited_from": "https://incofin.com", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Gestor de inversiones de impacto en inclusión financiera", 
@@ -375,6 +397,10 @@
   "country": "Peru", 
   "city": "Miraflores", 
   "website": "https://triplejump.eu", 
+  "linkedin": "https://www.linkedin.com/company/2601512", 
+  "linkedin_url": "https://www.linkedin.com/company/2601512", 
+  "linkedin_cited_from": "https://triplejump.eu", 
+  "linkedin_accessed": "2026-10-22", 
   "sector": "private", 
   "source": "Mapa de Actores Perú 2026", 
   "geo": {
@@ -401,6 +427,10 @@
   "country": "Peru", 
   "city": "Lima", 
   "website": "https://www.responsability.com", 
+  "linkedin": "https://www.linkedin.com/company/1522762", 
+  "linkedin_url": "https://www.linkedin.com/company/1522762", 
+  "linkedin_cited_from": "https://www.responsability.com", 
+  "linkedin_accessed": "2026-10-22", 
   "challenges": [
    "ENE", 
    "FIN"
@@ -437,6 +467,9 @@
    "location_note": "Sede en Zúrich; sin oficina verificada en Perú."
   }, 
   "linkedin": "https://www.linkedin.com/company/blueorchard-finance-ltd", 
+  "linkedin_url": "https://www.linkedin.com/company/blueorchard-finance-ltd", 
+  "linkedin_cited_from": "https://www.blueorchard.com", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Financiador e inversionista", 
@@ -464,6 +497,9 @@
    "location_note": "Sede en Bruselas; sin oficina verificada en Perú."
   }, 
   "linkedin": "https://www.linkedin.com/company/alterfin-cv", 
+  "linkedin_url": "https://www.linkedin.com/company/alterfin-cv", 
+  "linkedin_cited_from": "https://www.alterfin.be", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Financiador de impacto en agricultura y microfinanzas.", 
@@ -501,6 +537,10 @@
   "country": "Peru", 
   "city": "Lima", 
   "website": "https://www.mercycorpsventures.com", 
+  "linkedin": "https://www.linkedin.com/company/mercy-corps-ventures", 
+  "linkedin_url": "https://www.linkedin.com/company/mercy-corps-ventures", 
+  "linkedin_cited_from": "https://www.prosperglobalventures.com/", 
+  "linkedin_accessed": "2026-10-22", 
   "sector": "private", 
   "source": "Mapa de Actores Perú 2026", 
   "geo": {
@@ -536,6 +576,9 @@
    "source_url": null
   }, 
   "linkedin": "https://www.linkedin.com/company/accion", 
+  "linkedin_url": "https://www.linkedin.com/company/accion", 
+  "linkedin_cited_from": "https://www.accion.org", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Financiador e inversionista", 
@@ -564,7 +607,6 @@
    "source_url": "https://www.alive-ventures.com/", 
    "location_note": "VC peruano; sin calle publicada en sitio (solo formulario)."
   }, 
-  "linkedin": "https://www.linkedin.com/company/alive-ventures", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Gestora de fondos de impacto.", 
@@ -595,6 +637,9 @@
    "source_url": null
   }, 
   "linkedin": "https://www.linkedin.com/company/bezos-earth-fund", 
+  "linkedin_url": "https://www.linkedin.com/company/bezos-earth-fund", 
+  "linkedin_cited_from": "https://www.bezosearthfund.org", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Financiador e inversionista", 
@@ -624,7 +669,6 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/allied-climate-partners", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Inversión filantrópica en clima.", 
@@ -670,7 +714,6 @@
    "hq_abroad": true, 
    "location_note": "hq_abroad (USA); Peru/LatAm ops without public street."
   }, 
-  "linkedin": "https://www.linkedin.com/company/root-capital/", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Financiador e inversionista", 
@@ -701,7 +744,6 @@
    "lng": -77.021143, 
    "location_note": "Torre BBVA Perú (oficina principal)."
   }, 
-  "linkedin": "https://www.linkedin.com/company/bbva-peru", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Banco comercial y servicios financieros.", 
@@ -754,7 +796,10 @@
    "lng": -77.021606, 
    "location_note": "Scotiabank Perú corporate office (official portal / SMV filings)."
   }, 
-  "linkedin": "https://pe.linkedin.com/company/scotiabank-per%C3%BA", 
+  "linkedin": "https://www.linkedin.com/company/scotiabank", 
+  "linkedin_url": "https://www.linkedin.com/company/scotiabank", 
+  "linkedin_cited_from": "https://www.scotiabank.com.pe/Personas/Default", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Institución financiera", 
@@ -811,7 +856,6 @@
    "lng": -76.936622, 
    "location_note": "Sede central BCP (pie de página viabcp.com)."
   }, 
-  "linkedin": "https://www.linkedin.com/company/bcp", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Banco universal líder en el Perú.", 
@@ -839,7 +883,6 @@
    "lng": -77.058335, 
    "location_note": "Sede Bolsa de Valores de Lima."
   }, 
-  "linkedin": "https://www.linkedin.com/company/bolsa-de-valores-de-lima", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Mercado de valores regulado.", 
@@ -872,6 +915,9 @@
    "location_note": "Oficina principal (red de agencias oficial)."
   }, 
   "linkedin": "https://www.linkedin.com/company/financiera-confianza-fmbbva", 
+  "linkedin_url": "https://www.linkedin.com/company/financiera-confianza-fmbbva", 
+  "linkedin_cited_from": "https://confianza.pe", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Entidad de microfinanzas (Finanzas Productivas) vinculada al ecosistema de inclusión financiera.", 
@@ -899,7 +945,10 @@
    "source_url": "https://www.fpcmac.org.pe/", 
    "location_note": "Sede FEPCMAC (pie de página oficial)."
   }, 
-  "linkedin": "https://www.linkedin.com/company/fepcmac", 
+  "linkedin": "https://www.linkedin.com/company/10279236", 
+  "linkedin_url": "https://www.linkedin.com/company/10279236", 
+  "linkedin_cited_from": "https://www.fpcmac.org.pe", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Federación de cajas municipales de ahorro y crédito; articulación para finanzas verdes.", 
@@ -931,6 +980,9 @@
    "location_note": "Oficina principal (pie de página sitio oficial Compartamos Banco)."
   }, 
   "linkedin": "https://www.linkedin.com/company/compartamosbancoperu", 
+  "linkedin_url": "https://www.linkedin.com/company/compartamosbancoperu", 
+  "linkedin_cited_from": "https://www.compartamos.com.pe", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Entidad de microfinanzas que otorga crédito a MYPE y emprendedores, incluido segmento rural.", 
@@ -963,6 +1015,9 @@
    "location_note": "Casa matriz Caja Arequipa."
   }, 
   "linkedin": "https://www.linkedin.com/company/caja-arequipa", 
+  "linkedin_url": "https://www.linkedin.com/company/caja-arequipa", 
+  "linkedin_cited_from": "https://www.cajaarequipa.pe", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Institución financiera", 
@@ -993,7 +1048,6 @@
    "lng": -75.21924, 
    "location_note": "Oficina principal Caja Huancayo."
   }, 
-  "linkedin": "https://www.linkedin.com/company/caja-huancayo", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Caja municipal de ahorro y crédito.", 
@@ -1024,7 +1078,6 @@
    "lng": -80.626777, 
    "location_note": "Sede principal Caja Piura."
   }, 
-  "linkedin": "https://www.linkedin.com/company/caja-piura", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Institución financiera", 
@@ -1055,7 +1108,6 @@
    "lng": -75.727181, 
    "location_note": "Sede Caja Ica."
   }, 
-  "linkedin": "https://www.linkedin.com/company/caja-ica", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Institución financiera", 
@@ -1084,7 +1136,6 @@
    "source_url": "https://www.cajamaynas.pe/", 
    "location_note": "Casa matriz Caja Maynas."
   }, 
-  "linkedin": "https://www.linkedin.com/company/caja-maynas", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Caja municipal de ahorro y crédito.", 
@@ -1112,6 +1163,9 @@
    "location_note": "San Miguel Industrias PET; no Peru HQ street on public site."
   }, 
   "linkedin": "https://www.linkedin.com/company/smipackaging", 
+  "linkedin_url": "https://www.linkedin.com/company/smipackaging", 
+  "linkedin_cited_from": "https://smisolutions.com", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Empresa / sector privado", 
@@ -1138,6 +1192,9 @@
    "source_url": null
   }, 
   "linkedin": "https://www.linkedin.com/company/grupoaje", 
+  "linkedin_url": "https://www.linkedin.com/company/grupoaje", 
+  "linkedin_cited_from": "https://www.ajegroup.com", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Empresa / sector privado", 
@@ -1171,6 +1228,9 @@
    "location_note": "Centro corporativo Backus."
   }, 
   "linkedin": "https://www.linkedin.com/company/backus", 
+  "linkedin_url": "https://www.linkedin.com/company/backus", 
+  "linkedin_cited_from": "https://www.backus.pe", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Empresa de bebidas y manufactura.", 
@@ -1201,7 +1261,6 @@
    "lng": -77.014067, 
    "location_note": "Oficinas corporativas Alicorp."
   }, 
-  "linkedin": "https://www.linkedin.com/company/alicorp", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Corporación de alimentos y consumo masivo.", 
@@ -1234,7 +1293,6 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/engieperu", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Generación y comercialización de energía; desarrollo de proyectos renovables en Perú.", 
@@ -1266,6 +1324,9 @@
    "location_note": "Enel Perú / Pluz — oficina corporativa Lima."
   }, 
   "linkedin": "https://www.linkedin.com/company/pluz-peru", 
+  "linkedin_url": "https://www.linkedin.com/company/pluz-peru", 
+  "linkedin_cited_from": "https://www.pluz.pe", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Marca de soluciones energéticas residenciales de Enel Perú (Pluz).", 
@@ -1297,6 +1358,9 @@
    "location_note": "Planta / sede corporativa Danper (La Libertad)."
   }, 
   "linkedin": "https://www.linkedin.com/company/danperperu", 
+  "linkedin_url": "https://www.linkedin.com/company/danperperu", 
+  "linkedin_cited_from": "https://danper.com", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Agroexportadora peruana; demanda de innovación en agua, adaptación climática y cadena agrícola.", 
@@ -1325,7 +1389,6 @@
    "source_url": "https://www.cerroverde.pe/", 
    "location_note": "Operación minera; sin dirección urbana única publicada (campamento mina)."
   }, 
-  "linkedin": "https://www.linkedin.com/company/cerro-verde/", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Empresa / sector privado", 
@@ -1352,7 +1415,6 @@
    "source_url": "https://hudbayminerals.com/operations/south-america/peru/", 
    "location_note": "Operación Constancia (provincia); sin dirección urbana verificable."
   }, 
-  "linkedin": "https://www.linkedin.com/company/hudbay-minerals-inc-", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Empresa minera con operaciones en el Perú", 
@@ -1367,6 +1429,10 @@
   "country": "Peru", 
   "city": "Johannesburg, Sudáfrica (sede); operaciones en Perú", 
   "website": "https://www.goldfields.com", 
+  "linkedin": "https://www.linkedin.com/company/gold-fields", 
+  "linkedin_url": "https://www.linkedin.com/company/gold-fields", 
+  "linkedin_cited_from": "https://www.goldfields.com", 
+  "linkedin_accessed": "2026-10-22", 
   "geo": {
    "lat": null, 
    "lng": null, 
@@ -1407,6 +1473,9 @@
    "location_note": "Oficina corporativa Anglo American Perú."
   }, 
   "linkedin": "https://www.linkedin.com/company/anglo-american", 
+  "linkedin_url": "https://www.linkedin.com/company/anglo-american", 
+  "linkedin_cited_from": "https://www.angloamerican.com", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Empresa / sector privado", 
@@ -1461,7 +1530,6 @@
    "lng": -77.045432, 
    "location_note": "SNI headquarters (official site contact)."
   }, 
-  "linkedin": "https://www.linkedin.com/company/sociedad-nacional-de-industrias", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Cámara o gremio", 
@@ -1493,6 +1561,9 @@
    "location_note": "Sede Cámara de Comercio de Lima."
   }, 
   "linkedin": "https://www.linkedin.com/company/camaradelima", 
+  "linkedin_url": "https://www.linkedin.com/company/camaradelima", 
+  "linkedin_cited_from": "https://www.camaralima.org.pe", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Cámara o gremio", 
@@ -1520,6 +1591,9 @@
    "location_note": "Sede ADEX (pie de página / contacto sitio oficial)."
   }, 
   "linkedin": "https://www.linkedin.com/company/asociaci-n-de-exportadores-adex", 
+  "linkedin_url": "https://www.linkedin.com/company/asociaci-n-de-exportadores-adex", 
+  "linkedin_cited_from": "https://www.adexperu.org.pe", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Gremio exportador nacional.", 
@@ -1573,7 +1647,10 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/asociaci%C3%B3n-peruana-de-energ%C3%ADas-renovables", 
+  "linkedin": "https://www.linkedin.com/company/spr-peru", 
+  "linkedin_url": "https://www.linkedin.com/company/spr-peru", 
+  "linkedin_cited_from": "https://www.spr.pe", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Gremio de energías renovables.", 
@@ -1601,7 +1678,10 @@
    "source_url": "https://libelula.com.pe/", 
    "location_note": "Libélula; public site has no verifiable street address."
   }, 
-  "linkedin": "https://www.linkedin.com/company/lib%C3%A9lula", 
+  "linkedin": "https://www.linkedin.com/company/libelula", 
+  "linkedin_url": "https://www.linkedin.com/company/libelula", 
+  "linkedin_cited_from": "https://libelula.com.pe", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Consultoría y acción climática empresarial", 
@@ -1631,7 +1711,10 @@
    "lng": -77.059868, 
    "location_note": "MINAM sede (gob.pe sedes)."
   }, 
-  "linkedin": "https://www.linkedin.com/company/minamperu", 
+  "linkedin": "https://www.linkedin.com/company/1134092", 
+  "linkedin_url": "https://www.linkedin.com/company/1134092", 
+  "linkedin_cited_from": "https://www.gob.pe/minam", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Actor público / regulador", 
@@ -1663,7 +1746,10 @@
    "lng": -77.014407, 
    "location_note": "PRODUCE sede (gob.pe sedes)."
   }, 
-  "linkedin": "https://www.linkedin.com/company/ministerio-de-la-produccion/", 
+  "linkedin": "https://www.linkedin.com/company/ministerio-de-la-producci%C3%B3n-del-per%C3%BA", 
+  "linkedin_url": "https://www.linkedin.com/company/ministerio-de-la-producci%C3%B3n-del-per%C3%BA", 
+  "linkedin_cited_from": "https://www.gob.pe/produce", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Ministerio de pesca, acuicultura e industrias", 
@@ -1678,6 +1764,10 @@
   "country": "Peru", 
   "city": "Jesús María", 
   "website": "https://www.gob.pe/midagri", 
+  "linkedin": "https://www.linkedin.com/company/midagri", 
+  "linkedin_url": "https://www.linkedin.com/company/midagri", 
+  "linkedin_cited_from": "https://www.gob.pe/midagri", 
+  "linkedin_accessed": "2026-10-22", 
   "sector": "private", 
   "source": "Mapa de Actores Perú 2026", 
   "geo": {
@@ -1716,7 +1806,10 @@
    "lng": -77.006356, 
    "location_note": "MINEM sede (gob.pe sedes)."
   }, 
-  "linkedin": "https://www.linkedin.com/company/minem-per%C3%BA/", 
+  "linkedin": "https://www.linkedin.com/company/ministerio-de-energ-a-y-minas", 
+  "linkedin_url": "https://www.linkedin.com/company/ministerio-de-energ-a-y-minas", 
+  "linkedin_cited_from": "https://www.gob.pe/minem", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Ministerio de energía, minería e hidrocarburos", 
@@ -1731,6 +1824,10 @@
   "country": "Peru", 
   "city": "Lima", 
   "website": "https://www.gob.pe/mef", 
+  "linkedin": "https://www.linkedin.com/company/ministerio-de-economia-y-finanzas-del-peru", 
+  "linkedin_url": "https://www.linkedin.com/company/ministerio-de-economia-y-finanzas-del-peru", 
+  "linkedin_cited_from": "https://www.gob.pe/mef", 
+  "linkedin_accessed": "2026-10-22", 
   "sector": "private", 
   "source": "Mapa de Actores Perú 2026", 
   "geo": {
@@ -1773,7 +1870,6 @@
    "lng": -77.046521, 
    "location_note": "SBS Sede Central (gob.pe sedes)."
   }, 
-  "linkedin": "https://www.linkedin.com/company/sbsperu", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Actor público / regulador", 
@@ -1801,6 +1897,9 @@
    "location_note": "SMV sede (gob.pe sedes)."
   }, 
   "linkedin": "https://www.linkedin.com/company/smvperu", 
+  "linkedin_url": "https://www.linkedin.com/company/smvperu", 
+  "linkedin_cited_from": "https://www.gob.pe/smv", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Actor público / regulador", 
@@ -1830,7 +1929,10 @@
    "lng": -77.058827, 
    "location_note": "OSINERGMIN sede (gob.pe sedes)."
   }, 
-  "linkedin": "https://www.linkedin.com/company/osinergmin", 
+  "linkedin": "https://www.linkedin.com/company/445002", 
+  "linkedin_url": "https://www.linkedin.com/company/445002", 
+  "linkedin_cited_from": "https://www.gob.pe/osinergmin", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Actor público / regulador", 
@@ -1861,6 +1963,9 @@
    "location_note": "SUNASS sede (gob.pe sedes)."
   }, 
   "linkedin": "https://www.linkedin.com/company/sunass-oficial", 
+  "linkedin_url": "https://www.linkedin.com/company/sunass-oficial", 
+  "linkedin_cited_from": "https://www.gob.pe/sunass", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Actor público / regulador", 
@@ -1875,6 +1980,10 @@
   "country": "Peru", 
   "city": "San Isidro", 
   "website": "https://www.gob.pe/proinnovate", 
+  "linkedin": "https://www.linkedin.com/company/proinnovateperu", 
+  "linkedin_url": "https://www.linkedin.com/company/proinnovateperu", 
+  "linkedin_cited_from": "https://www.gob.pe/proinnovate", 
+  "linkedin_accessed": "2026-10-22", 
   "challenges": [
    "BOS", 
    "FIN"
@@ -1905,6 +2014,10 @@
   "country": "Peru", 
   "city": "Magdalena del Mar", 
   "website": "https://www.gob.pe/institucion/minam/colecciones/1479-programa-nacional-de-bionegocios-y-economia-circular", 
+  "linkedin": "https://www.linkedin.com/company/mtc-peru", 
+  "linkedin_url": "https://www.linkedin.com/company/mtc-peru", 
+  "linkedin_cited_from": "https://www.gob.pe/institucion/mtc/contacto-y-numeros-de-emergencias", 
+  "linkedin_accessed": "2026-10-22", 
   "geo": {
    "precision": "address", 
    "address": "Av. Antonio Miró Quesada 425", 
@@ -1946,6 +2059,9 @@
    "location_note": "Sede COFIDE."
   }, 
   "linkedin": "https://www.linkedin.com/company/cofide", 
+  "linkedin_url": "https://www.linkedin.com/company/cofide", 
+  "linkedin_cited_from": "https://www.cofide.com.pe", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Banco de desarrollo y fondo de fondos que articula financiamiento, capital de riesgo y programas como el FCEI en el ecosistema de innovación.", 
@@ -1976,7 +2092,6 @@
    "lng": -77.002166, 
    "location_note": "Sede PROCIENCIA / CONCYTEC."
   }, 
-  "linkedin": "https://www.linkedin.com/company/prociencia/", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Programa nacional de ciencia y tecnología (ProCiencia) bajo el ecosistema CONCYTEC para fondos de I+D e innovación.", 
@@ -2006,7 +2121,10 @@
    "lng": -77.045684, 
    "location_note": "Programa Agroideas — sede PRODUCE (gob.pe)."
   }, 
-  "linkedin": "https://linkedin.com/company/agroideas-del-minagri", 
+  "linkedin": "https://www.linkedin.com/company/agroideas-del-minagri", 
+  "linkedin_url": "https://www.linkedin.com/company/agroideas-del-minagri", 
+  "linkedin_cited_from": "https://www.gob.pe/agroideas", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Programa público de competitividad agraria.", 
@@ -2036,7 +2154,6 @@
    "lng": -77.018638, 
    "location_note": "Sede central Agrobanco."
   }, 
-  "linkedin": "https://www.linkedin.com/company/agrobanco", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Banco público de desarrollo agropecuario.", 
@@ -2051,6 +2168,10 @@
   "country": "Peru", 
   "city": "Huaraz", 
   "website": "https://www.gob.pe/inaigem", 
+  "linkedin": "https://www.linkedin.com/company/inaigem", 
+  "linkedin_url": "https://www.linkedin.com/company/inaigem", 
+  "linkedin_cited_from": "https://www.gob.pe/inaigem", 
+  "linkedin_accessed": "2026-10-22", 
   "sector": "private", 
   "source": "Mapa de Actores Perú 2026", 
   "challenges": [
@@ -2091,7 +2212,10 @@
    "lng": -77.019456, 
    "location_note": "Sede ANA (gob.pe)."
   }, 
-  "linkedin": "https://linkedin.com/company/autoridad-nacional-del-agua", 
+  "linkedin": "https://www.linkedin.com/company/autoridad-nacional-del-agua", 
+  "linkedin_url": "https://www.linkedin.com/company/autoridad-nacional-del-agua", 
+  "linkedin_cited_from": "https://www.gob.pe/ana", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Autoridad nacional del agua.", 
@@ -2122,7 +2246,6 @@
    "lng": -77.04385, 
    "location_note": "SENAMHI sede (gob.pe sedes)."
   }, 
-  "linkedin": "https://www.linkedin.com/company/senamhi", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Actor público / regulador", 
@@ -2154,6 +2277,9 @@
    "location_note": "SERFOR sede (gob.pe sedes)."
   }, 
   "linkedin": "https://www.linkedin.com/company/servicio-nacional-forestal-y-de-fauna-silvestre", 
+  "linkedin_url": "https://www.linkedin.com/company/servicio-nacional-forestal-y-de-fauna-silvestre", 
+  "linkedin_cited_from": "https://www.gob.pe/serfor", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Actor público / regulador", 
@@ -2168,6 +2294,10 @@
   "country": "Peru", 
   "city": "San Isidro", 
   "website": "https://www.gob.pe/sernanp", 
+  "linkedin": "https://www.linkedin.com/company/servicio-nacional-de-%C3%A1reas-naturales-protegidas-por-el-estado-sernanp", 
+  "linkedin_url": "https://www.linkedin.com/company/servicio-nacional-de-%C3%A1reas-naturales-protegidas-por-el-estado-sernanp", 
+  "linkedin_cited_from": "https://www.gob.pe/sernanp", 
+  "linkedin_accessed": "2026-10-22", 
   "challenges": [
    "AGU", 
    "ARG"
@@ -2198,6 +2328,10 @@
   "country": "Peru", 
   "city": "Magdalena del Mar", 
   "website": "https://www.gob.pe/bosques", 
+  "linkedin": "https://www.linkedin.com/company/programa-nacional-de-conservaci-n-de-bosques", 
+  "linkedin_url": "https://www.linkedin.com/company/programa-nacional-de-conservaci-n-de-bosques", 
+  "linkedin_cited_from": "https://www.gob.pe/bosques", 
+  "linkedin_accessed": "2026-10-22", 
   "geo": {
    "precision": "address", 
    "address": "Av. Antonio Miró Quesada 425", 
@@ -2222,6 +2356,10 @@
   "country": "Peru", 
   "city": "Lima (San Isidro)", 
   "website": "https://www.gob.pe/proinversion", 
+  "linkedin": "https://www.linkedin.com/company/proinversionpe", 
+  "linkedin_url": "https://www.linkedin.com/company/proinversionpe", 
+  "linkedin_cited_from": "https://www.gob.pe/proinversion", 
+  "linkedin_accessed": "2026-10-22", 
   "sector": "private", 
   "source": "Mapa de Actores Perú 2026", 
   "challenges": [
@@ -2257,6 +2395,10 @@
   "country": "Peru", 
   "city": "San Isidro", 
   "website": "https://www.gob.pe/promperu", 
+  "linkedin": "https://www.linkedin.com/company/392025", 
+  "linkedin_url": "https://www.linkedin.com/company/392025", 
+  "linkedin_cited_from": "https://www.gob.pe/promperu", 
+  "linkedin_accessed": "2026-10-22", 
   "challenges": [
    "AGR", 
    "AGU", 
@@ -2304,7 +2446,10 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://linkedin.com/company/agencia-peruana-de-cooperaci%C3%B3n-internacional-apci", 
+  "linkedin": "https://www.linkedin.com/company/agencia-peruana-de-cooperaci%C3%B3n-internacional-apci", 
+  "linkedin_url": "https://www.linkedin.com/company/agencia-peruana-de-cooperaci%C3%B3n-internacional-apci", 
+  "linkedin_cited_from": "https://www.gob.pe/apci", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Cooperación internacional del Estado peruano.", 
@@ -2335,7 +2480,10 @@
    "lng": -77.158031, 
    "location_note": "Sede Central IMARPE (gob.pe sedes)."
   }, 
-  "linkedin": "https://www.linkedin.com/company/instituto-del-mar-del-per%C3%BA-imarpe", 
+  "linkedin": "https://www.linkedin.com/company/imarpe", 
+  "linkedin_url": "https://www.linkedin.com/company/imarpe", 
+  "linkedin_cited_from": "https://www.gob.pe/imarpe", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Instituto de investigación pesquera del Estado peruano", 
@@ -2366,6 +2514,9 @@
    "location_note": "SANIPES sede Lima (gob.pe sedes)."
   }, 
   "linkedin": "https://www.linkedin.com/company/11388890", 
+  "linkedin_url": "https://www.linkedin.com/company/11388890", 
+  "linkedin_cited_from": "https://www.gob.pe/sanipes", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Actor público / regulador", 
@@ -2636,7 +2787,10 @@
    "precision": "address", 
    "source_url": "https://www.pucp.edu.pe"
   }, 
-  "linkedin": "https://www.linkedin.com/company/pontificia-universidad-cat-lica-del-per-", 
+  "linkedin": "https://www.linkedin.com/company/pucp", 
+  "linkedin_url": "https://www.linkedin.com/company/pucp", 
+  "linkedin_cited_from": "https://www.pucp.edu.pe", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Universidad de investigación y emprendimiento (Nexum/CIDE)", 
@@ -2758,7 +2912,6 @@
    "lng": -73.259211, 
    "location_note": "UNAP main campus (official portal)."
   }, 
-  "linkedin": "https://www.linkedin.com/school/universidad-nacional-de-la-amazonia-peruana/", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Universidad o centro de investigación", 
@@ -2789,7 +2942,6 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/school/universidad-nacional-de-san-mart%C3%ADn/", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Universidad o centro de investigación", 
@@ -2910,7 +3062,6 @@
    "precision": "address", 
    "source_url": "https://portal.unamad.edu.pe"
   }, 
-  "linkedin": "https://www.linkedin.com/company/universidad-nacional-amaz%C3%B3nica-de-madre-de-dios", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Universidad o centro de investigación", 
@@ -2940,7 +3091,10 @@
    "source_url": "https://grade.org.pe/", 
    "location_note": "Sede GRADE."
   }, 
-  "linkedin": "https://www.linkedin.com/company/grade-peru", 
+  "linkedin": "https://www.linkedin.com/company/leer-no-basta", 
+  "linkedin_url": "https://www.linkedin.com/company/leer-no-basta", 
+  "linkedin_cited_from": "https://grade.org.pe", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Centro de investigación aplicada en economía, políticas públicas y desarrollo.", 
@@ -2974,7 +3128,10 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/metaredx-by-universia/", 
+  "linkedin": "https://www.linkedin.com/company/metaredx-by-universia", 
+  "linkedin_url": "https://www.linkedin.com/company/metaredx-by-universia", 
+  "linkedin_cited_from": "https://www.metaredx.org/pe/index.html", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Red universitaria de emprendimiento (Universia / Santander)", 
@@ -3003,7 +3160,6 @@
    "source_url": "https://www.unmsm.edu.pe/", 
    "location_note": "UNMSM Ciudad Universitaria (official site)."
   }, 
-  "linkedin": "https://www.linkedin.com/company/universidad-nacional-mayor-de-san-marcos", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Universidad o centro de investigación", 
@@ -3035,7 +3191,6 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/incubagraria", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Aceleradora, incubadora o programa de apoyo", 
@@ -3071,7 +3226,6 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/emprende-up", 
   "nexus": {
    "hub_slug": "emprende-up"
   }, 
@@ -3107,6 +3261,9 @@
    "location_note": "Bioincuba UPCH — campus Cayetano Heredia."
   }, 
   "linkedin": "https://www.linkedin.com/company/bioincubaperu", 
+  "linkedin_url": "https://www.linkedin.com/company/bioincubaperu", 
+  "linkedin_cited_from": "https://bioincuba.cayetano.pe", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Incubadora universitaria en biotecnología.", 
@@ -3167,7 +3324,10 @@
    "lng": -77.032058, 
    "location_note": "Oficina 1551 UNMSM (centro de Lima)."
   }, 
-  "linkedin": "https://www.linkedin.com/company/1551in", 
+  "linkedin": "https://www.linkedin.com/company/11111803", 
+  "linkedin_url": "https://www.linkedin.com/company/11111803", 
+  "linkedin_cited_from": "https://1551.unmsm.edu.pe", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Aceleradora, incubadora o programa de apoyo", 
@@ -3182,6 +3342,10 @@
   "country": "Peru", 
   "city": "Lima (San Miguel)", 
   "website": "https://cide.pucp.edu.pe/", 
+  "linkedin": "https://www.linkedin.com/company/cide-pucp", 
+  "linkedin_url": "https://www.linkedin.com/company/cide-pucp", 
+  "linkedin_cited_from": "https://cide.pucp.edu.pe/", 
+  "linkedin_accessed": "2026-10-22", 
   "sector": "private", 
   "source": "Mapa de Actores Perú 2026", 
   "challenges": [
@@ -3227,6 +3391,9 @@
    "source_url": null
   }, 
   "linkedin": "https://www.linkedin.com/company/startup-uni", 
+  "linkedin_url": "https://www.linkedin.com/company/startup-uni", 
+  "linkedin_cited_from": "https://startup.uni.edu.pe", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Aceleradora, incubadora o programa de apoyo", 
@@ -3271,6 +3438,10 @@
   "country": "Peru", 
   "city": "San Borja", 
   "website": "https://www.ulima.edu.pe", 
+  "linkedin": "https://www.linkedin.com/company/camaraperuanobritanica", 
+  "linkedin_url": "https://www.linkedin.com/company/camaraperuanobritanica", 
+  "linkedin_cited_from": "https://www.ulima.edu.pe", 
+  "linkedin_accessed": "2026-10-22", 
   "sector": "civil", 
   "source": "Mapa de Actores Perú 2026", 
   "geo": {
@@ -3339,7 +3510,6 @@
    "lng": -76.966243, 
    "location_note": "Campus Lima UDEP / hub emprendimiento."
   }, 
-  "linkedin": "https://www.linkedin.com/school/udepiura/", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Universidad privada — hub de emprendimiento (HUB UDEP)", 
@@ -3366,7 +3536,6 @@
    "lng": -71.972705, 
    "location_note": "Kunan listed Cusco address (actor card + official site)."
   }, 
-  "linkedin": "https://www.linkedin.com/company/kunanesahora", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Aceleradora, incubadora o programa de apoyo", 
@@ -3397,7 +3566,10 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/nesst/", 
+  "linkedin": "https://www.linkedin.com/company/nesst", 
+  "linkedin_url": "https://www.linkedin.com/company/nesst", 
+  "linkedin_cited_from": "https://www.nesst.org", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Fondo e incubadora de empresas de impacto", 
@@ -3426,7 +3598,10 @@
    "source_url": "https://endeavor.org.pe/", 
    "location_note": "Oficina Endeavor Perú (contacto en sitio)."
   }, 
-  "linkedin": "https://www.linkedin.com/company/endeavor-per", 
+  "linkedin": "https://www.linkedin.com/company/endeavor-per%C3%BA", 
+  "linkedin_url": "https://www.linkedin.com/company/endeavor-per%C3%BA", 
+  "linkedin_cited_from": "https://endeavor.org.pe", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Aceleradora global de emprendedores de alto impacto con oficina en Perú.", 
@@ -3525,7 +3700,6 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.facebook.com/unia.edu.pe/", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Aceleradora, incubadora o programa de apoyo", 
@@ -3540,6 +3714,10 @@
   "country": "Peru", 
   "city": "Rodríguez de Mendoza / Chachapoyas, Amazonas", 
   "website": "https://incubadora.untrm.edu.pe", 
+  "linkedin": "https://www.linkedin.com/company/amazonas-start-up", 
+  "linkedin_url": "https://www.linkedin.com/company/amazonas-start-up", 
+  "linkedin_cited_from": "https://incubadora.untrm.edu.pe", 
+  "linkedin_accessed": "2026-10-22", 
   "challenges": [
    "AGR", 
    "BOS"
@@ -3601,7 +3779,6 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/incubauntperu/", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Aceleradora, incubadora o programa de apoyo", 
@@ -3659,7 +3836,10 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/jaku-emprende/", 
+  "linkedin": "https://www.linkedin.com/company/jaku-emprende-unsa", 
+  "linkedin_url": "https://www.linkedin.com/company/jaku-emprende-unsa", 
+  "linkedin_cited_from": "https://www.unsa.edu.pe/jaku/", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Aceleradora, incubadora o programa de apoyo", 
@@ -3765,7 +3945,6 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/c%C3%A1mara-de-comercio-y-producci%C3%B3n-de-cajamarca", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Aceleradora, incubadora o programa de apoyo", 
@@ -3803,6 +3982,10 @@
   "country": "Peru", 
   "city": "Huánuco", 
   "website": "https://incuvalventures.unheval.edu.pe", 
+  "linkedin": "https://www.linkedin.com/company/incuval-ventures", 
+  "linkedin_url": "https://www.linkedin.com/company/incuval-ventures", 
+  "linkedin_cited_from": "https://incuvalventures.unheval.edu.pe", 
+  "linkedin_accessed": "2026-10-22", 
   "sector": "private", 
   "source": "Mapa de Actores Perú 2026", 
   "challenges": [
@@ -3847,7 +4030,6 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/school/universidad-de-hu%C3%A1nuco", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Programa o unidad de emprendimiento de la Universidad de Huánuco (UDH).", 
@@ -3928,6 +4110,10 @@
   "country": "Peru", 
   "city": "Lima", 
   "website": "https://www.natureservices.net", 
+  "linkedin": "https://www.linkedin.com/company/1873842", 
+  "linkedin_url": "https://www.linkedin.com/company/1873842", 
+  "linkedin_cited_from": "https://www.natureservices.net", 
+  "linkedin_accessed": "2026-10-22", 
   "sector": "private", 
   "source": "Mapa de Actores Perú 2026", 
   "challenges": [
@@ -3972,6 +4158,9 @@
    "location_note": "Sede ARBIO Perú."
   }, 
   "linkedin": "https://www.linkedin.com/company/asociaci%C3%B3n-arbio-amazonia", 
+  "linkedin_url": "https://www.linkedin.com/company/asociaci%C3%B3n-arbio-amazonia", 
+  "linkedin_cited_from": "https://www.arbioperu.org", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "ONG o fundación", 
@@ -3995,7 +4184,6 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/bam-bosques-amazonicos", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Empresa / sector privado", 
@@ -4019,7 +4207,6 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/bosques-amaz%C3%B3nicos-bam", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Empresa de proyectos forestales y carbono.", 
@@ -4072,7 +4259,6 @@
    "lng": -76.879355, 
    "location_note": "Oficina ACCA Lima."
   }, 
-  "linkedin": "https://www.linkedin.com/company/asociaci%C3%B3n-para-la-conservaci%C3%B3n-de-la-cuenca-amaz%C3%B3nica", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "ONG de conservación amazónica: ciencia, monitoreo y alternativas económicas sostenibles al bosque.", 
@@ -4104,6 +4290,9 @@
    "location_note": "SPDA Lima office (official site)."
   }, 
   "linkedin": "https://www.linkedin.com/company/spdaorg", 
+  "linkedin_url": "https://www.linkedin.com/company/spdaorg", 
+  "linkedin_cited_from": "https://spda.org.pe", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "ONG o fundación", 
@@ -4129,7 +4318,6 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/ciudad-saludable", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "ONG de gestión de residuos sólidos y reciclaje inclusivo con recicladores en ciudades peruanas.", 
@@ -4157,6 +4345,9 @@
    "location_note": "Sin dirección postal publicada; alcance regional Andes (sede operativa Cusco)."
   }, 
   "linkedin": "https://www.linkedin.com/company/81309540", 
+  "linkedin_url": "https://www.linkedin.com/company/81309540", 
+  "linkedin_cited_from": "https://accion-andina.org", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "ONG o fundación", 
@@ -4208,7 +4399,10 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/fundacionwiese", 
+  "linkedin": "https://www.linkedin.com/company/fundacionwiesepe", 
+  "linkedin_url": "https://www.linkedin.com/company/fundacionwiesepe", 
+  "linkedin_cited_from": "https://www.fundacionwiese.org", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Fundación peruana de educación, patrimonio y emprendimiento con impacto comunitario.", 
@@ -4232,7 +4426,10 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/fundacion-microfinanzas-bbva", 
+  "linkedin": "https://www.linkedin.com/company/11015767", 
+  "linkedin_url": "https://www.linkedin.com/company/11015767", 
+  "linkedin_cited_from": "https://www.fundacionmicrofinanzasbbva.org", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Iniciativa filantrópica del Grupo BBVA para microfinanzas e inclusión financiera en América Latina.", 
@@ -4247,6 +4444,10 @@
   "country": "Peru", 
   "city": "Lima", 
   "website": "https://www.belcorp.com/fundacionbelcorp", 
+  "linkedin": "https://www.linkedin.com/company/fundacion-belcorp", 
+  "linkedin_url": "https://www.linkedin.com/company/fundacion-belcorp", 
+  "linkedin_cited_from": "https://www.belcorp.com/fundacionbelcorp", 
+  "linkedin_accessed": "2026-10-22", 
   "challenges": [
    "AZU", 
    "BOS"
@@ -4290,7 +4491,10 @@
    "source_url": "https://asociacionunacem.org/contacto/", 
    "location_note": "Oficina UNACEM."
   }, 
-  "linkedin": "https://www.linkedin.com/company/asociacion-unacem/about", 
+  "linkedin": "https://www.linkedin.com/company/asociaci%C3%B3nunacem", 
+  "linkedin_url": "https://www.linkedin.com/company/asociaci%C3%B3nunacem", 
+  "linkedin_cited_from": "https://asociacionunacem.org", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "ONG o fundación", 
@@ -4343,6 +4547,9 @@
    "location_note": "Oficina nacional CARE Perú."
   }, 
   "linkedin": "https://www.linkedin.com/company/care-peru", 
+  "linkedin_url": "https://www.linkedin.com/company/care-peru", 
+  "linkedin_cited_from": "https://care.org.pe", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "ONG o fundación", 
@@ -4383,6 +4590,10 @@
   "country": "Peru", 
   "city": "Lima", 
   "website": "https://www.helvetas.org/es/peru", 
+  "linkedin": "https://www.linkedin.com/company/helvetas-peru", 
+  "linkedin_url": "https://www.linkedin.com/company/helvetas-peru", 
+  "linkedin_cited_from": "https://www.helvetas.org/es/peru", 
+  "linkedin_accessed": "2026-10-22", 
   "sector": "private", 
   "source": "Mapa de Actores Perú 2026", 
   "geo": {
@@ -4421,7 +4632,6 @@
    "precision": "address", 
    "source_url": "https://www.swisscontact.org/es/donde-trabajamos/peru"
   }, 
-  "linkedin": "https://www.linkedin.com/company/swisscontact", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "ONG o fundación", 
@@ -4451,7 +4661,10 @@
    "source_url": "https://perusostenible.org/", 
    "location_note": "Perú Sostenible; no street address on official site."
   }, 
-  "linkedin": "https://www.linkedin.com/company/perusostenible/", 
+  "linkedin": "https://www.linkedin.com/company/perusostenible", 
+  "linkedin_url": "https://www.linkedin.com/company/perusostenible", 
+  "linkedin_cited_from": "https://perusostenible.org", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Red empresarial por el desarrollo sostenible", 
@@ -4479,7 +4692,10 @@
    "source_url": "https://www.sistemab.org/peru/", 
    "location_note": "Verified street on Sistema B Perú site; Nominatim no match"
   }, 
-  "linkedin": "https://www.linkedin.com/company/sistema-b-m", 
+  "linkedin": "https://www.linkedin.com/company/sistemabarg", 
+  "linkedin_url": "https://www.linkedin.com/company/sistemabarg", 
+  "linkedin_cited_from": "https://www.sistemab.org", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "ONG o fundación", 
@@ -4506,7 +4722,10 @@
    "source_url": "https://www.lmas1.org/", 
    "location_note": "L+1 Americas; site gives region only, no street address."
   }, 
-  "linkedin": "https://www.linkedin.com/company/l-1-lideres-impulsando-un-desarrollo-sostenible/", 
+  "linkedin": "https://www.linkedin.com/company/25071544", 
+  "linkedin_url": "https://www.linkedin.com/company/25071544", 
+  "linkedin_cited_from": "https://www.lmas1.org", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Iniciativa global de agricultura sostenible (L+1)", 
@@ -4536,6 +4755,9 @@
    "source_url": null
   }, 
   "linkedin": "https://www.linkedin.com/company/5043453", 
+  "linkedin_url": "https://www.linkedin.com/company/5043453", 
+  "linkedin_cited_from": "https://www.conservamospornaturaleza.org", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Plataforma de comunicación y movilización ciudadana a favor de la conservación del patrimonio natural peruano.", 
@@ -4565,7 +4787,6 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/mongabay", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Medios y difusión", 
@@ -4589,7 +4810,6 @@
    "source_url": "https://www.actualidadambiental.pe/", 
    "location_note": "Medio digital; sin dirección física publicada en sitio."
   }, 
-  "linkedin": "https://www.linkedin.com/company/actualidad-ambiental", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Medio de comunicación ambiental.", 
@@ -4604,6 +4824,10 @@
   "country": "Peru", 
   "city": "Lima", 
   "website": "https://gestion.pe", 
+  "linkedin": "https://www.linkedin.com/company/diario-gesti%C3%B3n", 
+  "linkedin_url": "https://www.linkedin.com/company/diario-gesti%C3%B3n", 
+  "linkedin_cited_from": "https://gestion.pe", 
+  "linkedin_accessed": "2026-10-22", 
   "sector": "private", 
   "source": "Mapa de Actores Perú 2026", 
   "challenges": [
@@ -4646,6 +4870,9 @@
    "location_note": "Universidad Agraria La Molina — contacto oficial."
   }, 
   "linkedin": "https://www.linkedin.com/company/76100786", 
+  "linkedin_url": "https://www.linkedin.com/company/76100786", 
+  "linkedin_cited_from": "https://agraria.pe", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Medio especializado en agro y ruralidad.", 
@@ -4671,7 +4898,6 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/inter-american-development-bank", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Banco de desarrollo multilateral y brazos de innovación/inversión.", 
@@ -4703,7 +4929,10 @@
    "lng": -77.038476, 
    "location_note": "Oficina IFC en Perú (misma torre que Banco Mundial)."
   }, 
-  "linkedin": "https://www.linkedin.com/company/ifc/", 
+  "linkedin": "https://www.linkedin.com/company/ifclinkedin", 
+  "linkedin_url": "https://www.linkedin.com/company/ifclinkedin", 
+  "linkedin_cited_from": "https://www.ifc.org/en/home", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Brazo privado del Grupo Banco Mundial — inversión y asesoría", 
@@ -4735,7 +4964,10 @@
    "lng": -77.038476, 
    "location_note": "Oficina CAF en Perú."
   }, 
-  "linkedin": "https://www.linkedin.com/company/caf-banco-de-desarrollo-de-america-latina", 
+  "linkedin": "https://www.linkedin.com/company/caf", 
+  "linkedin_url": "https://www.linkedin.com/company/caf", 
+  "linkedin_cited_from": "https://www.caf.com/es/quienes-somos/", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Banco de desarrollo multilateral regional.", 
@@ -4762,6 +4994,9 @@
    "location_note": "Oficina Grupo Banco Mundial en Perú."
   }, 
   "linkedin": "https://www.linkedin.com/company/the-world-bank", 
+  "linkedin_url": "https://www.linkedin.com/company/the-world-bank", 
+  "linkedin_cited_from": "https://www.worldbank.org/en/about/annual-report", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Organización internacional o cooperación", 
@@ -4820,7 +5055,10 @@
    "source_url": "https://www.eib.org/en/about/headquarters/index.htm", 
    "location_note": "Sede en Luxemburgo; sin oficina local en Perú."
   }, 
-  "linkedin": "https://www.linkedin.com/company/european-investment-bank/", 
+  "linkedin": "https://www.linkedin.com/company/9360", 
+  "linkedin_url": "https://www.linkedin.com/company/9360", 
+  "linkedin_cited_from": "https://www.eib.org/en/index", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Organización internacional o cooperación", 
@@ -4872,7 +5110,6 @@
    "lng": -77.039343, 
    "location_note": "Representación FAO en Perú."
   }, 
-  "linkedin": "https://www.linkedin.com/company/fao/", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Agencia especializada de la ONU para alimentación, agricultura y seguridad alimentaria en Perú.", 
@@ -4900,7 +5137,6 @@
    "lng": -77.036945, 
    "location_note": "UNIDO Peru contact at Casa ONU Lima (UN Peru directory)."
   }, 
-  "linkedin": "https://www.linkedin.com/company/unido", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Organismo de la ONU para desarrollo industrial sostenible", 
@@ -4924,7 +5160,10 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/global-green-growth-institute", 
+  "linkedin": "https://www.linkedin.com/company/gggi-asia", 
+  "linkedin_url": "https://www.linkedin.com/company/gggi-asia", 
+  "linkedin_cited_from": "https://gggi.org", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Instituto intergubernamental de crecimiento verde y transición climática.", 
@@ -4952,7 +5191,10 @@
    "hq_abroad": true, 
    "location_note": "hq_abroad (Kenya/Colombia regional); no Peru street in UN directory."
   }, 
-  "linkedin": "https://www.linkedin.com/company/unhabitat/", 
+  "linkedin": "https://www.linkedin.com/company/un-habitat-united-nation-human-settlements-programme-", 
+  "linkedin_url": "https://www.linkedin.com/company/un-habitat-united-nation-human-settlements-programme-", 
+  "linkedin_cited_from": "https://unhabitat.org", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Programa de las Naciones Unidas para asentamientos humanos", 
@@ -4977,7 +5219,6 @@
    "source_url": "https://iica.int/en/countries/peru-en/", 
    "location_note": "IICA country office (official contact page)."
   }, 
-  "linkedin": "https://www.linkedin.com/company/iica", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Organismo interamericano de agricultura y desarrollo rural", 
@@ -5003,6 +5244,9 @@
    "location_note": "Oficina GIZ en Perú (página país oficial)."
   }, 
   "linkedin": "https://www.linkedin.com/company/gizgmbh", 
+  "linkedin_url": "https://www.linkedin.com/company/gizgmbh", 
+  "linkedin_cited_from": "https://www.giz.de/de", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Cooperación técnica alemana para desarrollo sostenible en Perú.", 
@@ -5054,7 +5298,10 @@
    "lng": -77.038455, 
    "location_note": "EU Delegation Peru (Euroclima program coordination)."
   }, 
-  "linkedin": "https://www.linkedin.com/company/euroclima-program", 
+  "linkedin": "https://www.linkedin.com/company/european-commission", 
+  "linkedin_url": "https://www.linkedin.com/company/european-commission", 
+  "linkedin_cited_from": "https://international-partnerships.ec.europa.eu/policies/global-gateway/euroclima_en", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Organización internacional o cooperación", 
@@ -5085,6 +5332,9 @@
    "location_note": "Oficina AECID en Perú (directorio institucional)."
   }, 
   "linkedin": "https://www.linkedin.com/company/agencia-espa-ola-de-cooperacion-internacional---aecid", 
+  "linkedin_url": "https://www.linkedin.com/company/agencia-espa-ola-de-cooperacion-internacional---aecid", 
+  "linkedin_cited_from": "https://www.aecid.es", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Cooperación internacional (España).", 
@@ -5108,7 +5358,6 @@
    "source_url": "https://www.afd.fr/es/annuaire/agence-de-lima", 
    "location_note": "Agencia AFD Lima (anuario oficial AFD)."
   }, 
-  "linkedin": "https://www.linkedin.com/company/agence-francaise-de-developpement", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Organización internacional o cooperación", 
@@ -5140,7 +5389,10 @@
    "lng": -77.028279, 
    "location_note": "JICA Peru Office (official JICA page)."
   }, 
-  "linkedin": "https://www.linkedin.com/company/jica", 
+  "linkedin": "https://www.linkedin.com/company/japan-international-cooperation-agency-jica-", 
+  "linkedin_url": "https://www.linkedin.com/company/japan-international-cooperation-agency-jica-", 
+  "linkedin_cited_from": "https://www.jica.go.jp", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Agencia de cooperación internacional de Japón", 
@@ -5200,6 +5452,9 @@
    "location_note": "Delegación AHK Perú."
   }, 
   "linkedin": "https://www.linkedin.com/company/ahk-peru-camara-peruano-alemana", 
+  "linkedin_url": "https://www.linkedin.com/company/ahk-peru-camara-peruano-alemana", 
+  "linkedin_cited_from": "https://peru.ahk.de/de", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Cámara o gremio", 
@@ -5231,6 +5486,9 @@
    "location_note": "Sede AmCham Perú (contacto oficial)."
   }, 
   "linkedin": "https://www.linkedin.com/company/amchamperu", 
+  "linkedin_url": "https://www.linkedin.com/company/amchamperu", 
+  "linkedin_cited_from": "https://amcham.org.pe/", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Cámara bilateral Perú–Estados Unidos.", 
@@ -5256,6 +5514,9 @@
    "source_url": null
   }, 
   "linkedin": "https://www.linkedin.com/company/c%C3%A1mara-de-comercio-canad%C3%A1-per%C3%BA", 
+  "linkedin_url": "https://www.linkedin.com/company/c%C3%A1mara-de-comercio-canad%C3%A1-per%C3%BA", 
+  "linkedin_cited_from": "https://canadaperu.org/", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Cámara bilateral Canadá–Perú.", 
@@ -5287,6 +5548,9 @@
    "source_url": null
   }, 
   "linkedin": "https://www.linkedin.com/company/conservation-international", 
+  "linkedin_url": "https://www.linkedin.com/company/conservation-international", 
+  "linkedin_cited_from": "https://www.conservation.org", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Organización internacional de conservación de ecosistemas y biodiversidad con programas en Perú.", 
@@ -5315,6 +5579,9 @@
    "location_note": "WWF Perú Lima office (official contact page)."
   }, 
   "linkedin": "https://www.linkedin.com/company/wwfperu", 
+  "linkedin_url": "https://www.linkedin.com/company/wwfperu", 
+  "linkedin_cited_from": "https://www.wwf.org.pe", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Organización internacional o cooperación", 
@@ -5342,6 +5609,9 @@
    "location_note": "TNC Peru office (official TNC LatAm contact page)."
   }, 
   "linkedin": "https://www.linkedin.com/company/the-nature-conservancy", 
+  "linkedin_url": "https://www.linkedin.com/company/the-nature-conservancy", 
+  "linkedin_cited_from": "https://www.nature.org/en-us/", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Organización internacional o cooperación", 
@@ -5368,6 +5638,9 @@
    "location_note": "Sede Forest Trends."
   }, 
   "linkedin": "https://www.linkedin.com/company/forest-trends-association", 
+  "linkedin_url": "https://www.linkedin.com/company/forest-trends-association", 
+  "linkedin_cited_from": "https://www.forest-trends.org", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Organización internacional que impulsa finanzas e instrumentos de mercado para la conservación.", 
@@ -5399,6 +5672,9 @@
    "source_url": null
   }, 
   "linkedin": "https://www.linkedin.com/company/rainforest-alliance", 
+  "linkedin_url": "https://www.linkedin.com/company/rainforest-alliance", 
+  "linkedin_cited_from": "https://www.rainforest-alliance.org", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Organización internacional o cooperación", 
@@ -5428,7 +5704,6 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/avina/", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Fundación internacional que moviliza alianzas para sostenibilidad y cambio sistémico en América Latina.", 
@@ -5453,7 +5728,10 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/pvblic-foundation/", 
+  "linkedin": "https://www.linkedin.com/company/pvblicfoundation", 
+  "linkedin_url": "https://www.linkedin.com/company/pvblicfoundation", 
+  "linkedin_cited_from": "https://www.pvblic.org/", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Organización internacional o cooperación", 
@@ -5480,6 +5758,9 @@
    "source_url": "https://cleantechhub.net"
   }, 
   "linkedin": "https://www.linkedin.com/company/cleantechhub", 
+  "linkedin_url": "https://www.linkedin.com/company/cleantechhub", 
+  "linkedin_cited_from": "https://cleantechhub.net", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Aceleradora de innovación climática: diagnóstico verde, aceleración, financiamiento e inversión de impacto en LATAM.", 
@@ -5504,7 +5785,6 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/black-soldier-fly-logistics", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Startup de economía circular y bioconversión.", 
@@ -5529,7 +5809,6 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/yakusmart", 
   "nexus": {
    "card_slug": "yakusmart"
   }, 
@@ -5576,7 +5855,6 @@
    "source_url": "https://uqhuinnova.com/", 
    "location_note": "UQHU; no verifiable street on official site."
   }, 
-  "linkedin": "https://www.linkedin.com/company/uqhu", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Startup del ecosistema", 
@@ -5599,7 +5877,6 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/yakufil", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Startup del ecosistema", 
@@ -5623,7 +5900,6 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/rebike-up", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Startup del ecosistema", 
@@ -5648,6 +5924,9 @@
    "source_url": null
   }, 
   "linkedin": "https://www.linkedin.com/company/pomona-impact", 
+  "linkedin_url": "https://www.linkedin.com/company/pomona-impact", 
+  "linkedin_cited_from": "https://pomonaimpact.com", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Fondo de impacto que invierte en empresas con retorno social y ambiental en Centroamérica.", 
@@ -5671,7 +5950,10 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/viwala", 
+  "linkedin": "https://www.linkedin.com/company/55046457", 
+  "linkedin_url": "https://www.linkedin.com/company/55046457", 
+  "linkedin_cited_from": "https://www.viwala.com/", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Plataforma fintech de financiamiento para PYMEs en Latinoamérica.", 
@@ -5742,7 +6024,6 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/banco-azul", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Institución financiera", 
@@ -5766,7 +6047,6 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/banco-hipotecario-de-el-salvador", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Institución financiera", 
@@ -5790,7 +6070,10 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/banco-atlantida-el-salvador/", 
+  "linkedin": "https://www.linkedin.com/company/bancatlan-sv", 
+  "linkedin_url": "https://www.linkedin.com/company/bancatlan-sv", 
+  "linkedin_cited_from": "https://www.bancoatlantida.com.sv", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Institución financiera", 
@@ -5815,6 +6098,9 @@
    "source_url": null
   }, 
   "linkedin": "https://www.linkedin.com/company/bancoagricola", 
+  "linkedin_url": "https://www.linkedin.com/company/bancoagricola", 
+  "linkedin_cited_from": "https://www.bancoagricola.com", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Institución financiera", 
@@ -5979,6 +6265,9 @@
    "source_url": null
   }, 
   "linkedin": "https://www.linkedin.com/company/bcie", 
+  "linkedin_url": "https://www.linkedin.com/company/bcie", 
+  "linkedin_cited_from": "https://www.bcie.org", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "BCIE financia desarrollo regional; el programa de capital semilla apoya emprendimiento e innovación en la región.", 
@@ -6049,7 +6338,6 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/cafivc", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Red de inversionistas ángeles e institucionales que respalda startups en Centroamérica.", 
@@ -6087,6 +6375,10 @@
   "country": "El Salvador", 
   "city": "San Salvador", 
   "website": "https://www.ternova.group/circular-solutions", 
+  "linkedin": "https://www.linkedin.com/company/ternovagroup", 
+  "linkedin_url": "https://www.linkedin.com/company/ternovagroup", 
+  "linkedin_cited_from": "https://www.ternova.group/circular-solutions", 
+  "linkedin_accessed": "2026-10-22", 
   "geo": {
    "lat": null, 
    "lng": null, 
@@ -6111,6 +6403,10 @@
   "country": "El Salvador", 
   "city": "San Salvador", 
   "website": "https://ipsalatinoamerica.com", 
+  "linkedin": "https://www.linkedin.com/company/ipsa-latinoamerica2018", 
+  "linkedin_url": "https://www.linkedin.com/company/ipsa-latinoamerica2018", 
+  "linkedin_cited_from": "https://ipsalatinoamerica.com", 
+  "linkedin_accessed": "2026-10-22", 
   "geo": {
    "lat": 13.483455, 
    "lng": -88.167355, 
@@ -6144,6 +6440,9 @@
    "source_url": null
   }, 
   "linkedin": "https://www.linkedin.com/company/ternovagroup", 
+  "linkedin_url": "https://www.linkedin.com/company/ternovagroup", 
+  "linkedin_cited_from": "https://www.ternova.group", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Grupo corporativo de empaques, reciclaje y capital con operaciones en Centroamérica.", 
@@ -6167,7 +6466,10 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/grupo-agrisal", 
+  "linkedin": "https://www.linkedin.com/company/agrisal", 
+  "linkedin_url": "https://www.linkedin.com/company/agrisal", 
+  "linkedin_cited_from": "https://agrisal.com", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Grupo empresarial diversificado (inmobiliario, hotelero, agroindustrial).", 
@@ -6182,6 +6484,10 @@
   "country": "El Salvador", 
   "city": "San Salvador", 
   "website": "https://laconstancia.com", 
+  "linkedin": "https://www.linkedin.com/company/la-constancia-sv", 
+  "linkedin_url": "https://www.linkedin.com/company/la-constancia-sv", 
+  "linkedin_cited_from": "https://www.laconstancia.com/", 
+  "linkedin_accessed": "2026-10-22", 
   "geo": {
    "lat": 13.695344, 
    "lng": -89.241578, 
@@ -6205,6 +6511,10 @@
   "country": "El Salvador", 
   "city": "San Salvador", 
   "website": "https://grupoferromax.com", 
+  "linkedin": "https://www.linkedin.com/company/grupo-ferromax", 
+  "linkedin_url": "https://www.linkedin.com/company/grupo-ferromax", 
+  "linkedin_cited_from": "https://grupoferromax.com", 
+  "linkedin_accessed": "2026-10-22", 
   "geo": {
    "lat": null, 
    "lng": null, 
@@ -6237,7 +6547,6 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/super-selectos/", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Cadena de supermercados Super Selectos y operaciones del Grupo Calleja.", 
@@ -6261,7 +6570,10 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/aes-el-salvador", 
+  "linkedin": "https://www.linkedin.com/company/aeselsalvador", 
+  "linkedin_url": "https://www.linkedin.com/company/aeselsalvador", 
+  "linkedin_cited_from": "https://www.aes-elsalvador.com/es", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Empresa / sector privado", 
@@ -6286,6 +6598,9 @@
    "source_url": "https://camarasal.com/"
   }, 
   "linkedin": "https://www.linkedin.com/company/27249850", 
+  "linkedin_url": "https://www.linkedin.com/company/27249850", 
+  "linkedin_cited_from": "https://camarasal.com", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Cámara de comercio e industria: servicios empresariales, representación y promoción del comercio.", 
@@ -6332,7 +6647,6 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/camtex-el-salvador", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Cámara textil y de confecciones de El Salvador; vincula empresas del sector exportador.", 
@@ -6379,6 +6693,10 @@
   "country": "El Salvador", 
   "city": "San Salvador", 
   "website": "https://industriaelsalvador.com", 
+  "linkedin": "https://www.linkedin.com/company/asociacion-salvadore-a-de-industriales", 
+  "linkedin_url": "https://www.linkedin.com/company/asociacion-salvadore-a-de-industriales", 
+  "linkedin_cited_from": "https://industriaelsalvador.com/contacto/", 
+  "linkedin_accessed": "2026-10-22", 
   "geo": {
    "lat": null, 
    "lng": null, 
@@ -6480,7 +6798,6 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/conamype", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Entidad gubernamental de apoyo a la micro, pequeña y mediana empresa.", 
@@ -6529,6 +6846,9 @@
    "source_url": "https://investinelsalvador.gob.sv/"
   }, 
   "linkedin": "https://www.linkedin.com/company/investinelsalvador", 
+  "linkedin_url": "https://www.linkedin.com/company/investinelsalvador", 
+  "linkedin_cited_from": "https://investinelsalvador.gob.sv/es", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Agencia gubernamental de promoción de inversiones y exportaciones.", 
@@ -6576,6 +6896,9 @@
    "source_url": "https://sansalvador.impacthub.net/"
   }, 
   "linkedin": "https://www.linkedin.com/company/ihsansalvador", 
+  "linkedin_url": "https://www.linkedin.com/company/ihsansalvador", 
+  "linkedin_cited_from": "https://sansalvador.impacthub.net", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Red global de espacios de coworking y aceleración para emprendimiento de impacto.", 
@@ -6599,7 +6922,10 @@
    "precision": "address", 
    "source_url": "https://pvblic.org/rein-hubs"
   }, 
-  "linkedin": "https://www.linkedin.com/company/pvblic-foundation", 
+  "linkedin": "https://www.linkedin.com/company/pvblicfoundation", 
+  "linkedin_url": "https://www.linkedin.com/company/pvblicfoundation", 
+  "linkedin_cited_from": "https://www.pvblic.org/rein-hubs", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {
    "hub_slug": "el-salvador"
   }, 
@@ -6625,7 +6951,6 @@
    "precision": "address", 
    "source_url": "https://www.utec.edu.sv/"
   }, 
-  "linkedin": "https://www.linkedin.com/school/universidad-tecnol%C3%B3gica-de-el-salvador/", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Centro de emprendimiento de UTEC: incubación, mentoría y vinculación con el ecosistema.", 
@@ -6650,6 +6975,9 @@
    "source_url": null
   }, 
   "linkedin": "https://www.linkedin.com/company/snbxsv", 
+  "linkedin_url": "https://www.linkedin.com/company/snbxsv", 
+  "linkedin_cited_from": "https://snbx.sv", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Aceleradora y espacio de innovación para startups en El Salvador.", 
@@ -6673,7 +7001,10 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/fundaci%C3%B3n-gloria-kriete", 
+  "linkedin": "https://www.linkedin.com/company/fundacion-gloria-kriete", 
+  "linkedin_url": "https://www.linkedin.com/company/fundacion-gloria-kriete", 
+  "linkedin_cited_from": "https://fundaciongloriakriete.org", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Programa de incubación empresarial de la Fundación Gloria Kriete.", 
@@ -6697,7 +7028,6 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/startupbootcamp", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Programa regional de aceleración Startupbootcamp con foco en El Salvador.", 
@@ -6721,7 +7051,6 @@
    "precision": "address", 
    "source_url": "https://www.utec.edu.sv/"
   }, 
-  "linkedin": "https://www.linkedin.com/school/universidadtecnologicadeelsalvador", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Universidad privada tecnológica con programas de ingeniería y negocios.", 
@@ -6746,7 +7075,6 @@
    "precision": "address", 
    "source_url": "https://www.ues.edu.sv/"
   }, 
-  "linkedin": "https://www.linkedin.com/school/universidad-de-el-salvador/", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Universidad pública nacional de El Salvador.", 
@@ -6772,6 +7100,9 @@
    "source_url": null
   }, 
   "linkedin": "https://www.linkedin.com/company/keyinstitutesv", 
+  "linkedin_url": "https://www.linkedin.com/company/keyinstitutesv", 
+  "linkedin_cited_from": "https://www.keyinstitute.com/", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Instituto de educación superior en ingeniería y ciencias.", 
@@ -6801,7 +7132,6 @@
    "precision": "address", 
    "source_url": "https://www.uca.edu.sv/"
   }, 
-  "linkedin": "https://www.linkedin.com/school/universidad-centroamericana-jos--sime-n-ca-as", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Universidad centroamericana privada (investigación, formación y extensión).", 
@@ -6948,7 +7278,6 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/la-prensa-gr%C3%A1fica", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Diario y plataforma multimedia de referencia en El Salvador.", 
@@ -6972,7 +7301,6 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/am-rica-interactiva-el-diario-de-hoy", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Grupo de medios digitales e impresos líder en noticias de El Salvador.", 
@@ -7042,7 +7370,10 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/fundaci%C3%B3n-gloria-kriete", 
+  "linkedin": "https://www.linkedin.com/company/fundacion-gloria-kriete", 
+  "linkedin_url": "https://www.linkedin.com/company/fundacion-gloria-kriete", 
+  "linkedin_cited_from": "https://fundaciongloriakriete.org", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Fundación sin fines de lucro para desarrollo integral en El Salvador.", 
@@ -7089,7 +7420,6 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/fundaci%C3%B3n-colabora/", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Fundación que impulsa emprendimiento social y desarrollo comunitario.", 
@@ -7120,7 +7450,6 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/food-and-agriculture-organization-of-the-united-nations", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Oficina país de la FAO: seguridad alimentaria y desarrollo agrícola sostenible.", 
@@ -7150,7 +7479,6 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/united-nations-development-programme", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Programa de las Naciones Unidas para el Desarrollo en El Salvador.", 
@@ -7174,7 +7502,6 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/unep", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Programa de las Naciones Unidas para el Medio Ambiente.", 
@@ -7201,6 +7528,9 @@
    "source_url": null
   }, 
   "linkedin": "https://www.linkedin.com/company/grupo-banco-mundial", 
+  "linkedin_url": "https://www.linkedin.com/company/grupo-banco-mundial", 
+  "linkedin_cited_from": "https://www.bancomundial.org/ext/es/country/elsalvador", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Cooperación internacional para reducción de pobreza, empleo y resiliencia climática en El Salvador.", 
@@ -7231,7 +7561,6 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/inter-american-development-bank", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Cooperación financiera y técnica del BID para desarrollo sostenible en El Salvador.", 
@@ -7258,7 +7587,10 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/global-green-growth-institute", 
+  "linkedin": "https://www.linkedin.com/company/gggi-asia", 
+  "linkedin_url": "https://www.linkedin.com/company/gggi-asia", 
+  "linkedin_cited_from": "https://gggi.org", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Instituto intergubernamental que apoya crecimiento verde e inclusivo.", 
@@ -7283,7 +7615,6 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/cepal", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Comisión Económica para América Latina y el Caribe; cooperación técnica y análisis de políticas.", 
@@ -7307,7 +7638,6 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/iom", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Organización Internacional para las Migraciones; cooperación en migración y desarrollo.", 
@@ -7334,6 +7664,9 @@
    "source_url": null
   }, 
   "linkedin": "https://www.linkedin.com/company/gizgmbh", 
+  "linkedin_url": "https://www.linkedin.com/company/gizgmbh", 
+  "linkedin_cited_from": "https://www.giz.de/de", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Cooperación técnica alemana para desarrollo sostenible en El Salvador.", 
@@ -7358,7 +7691,6 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/aecid/", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Organización internacional o cooperación", 
@@ -7382,7 +7714,6 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/usaid", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Agencia de cooperación al desarrollo de los Estados Unidos en El Salvador.", 
@@ -7407,7 +7738,6 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/catholic-relief-services", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "ONG internacional de desarrollo humanitario con programas en El Salvador.", 
@@ -7433,7 +7763,6 @@
    "precision": "address", 
    "source_url": "https://san-salvador.diplo.de/sv-es"
   }, 
-  "linkedin": "https://www.linkedin.com/company/alemaniaenelsalvador", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Representación diplomática de Alemania; relaciones bilaterales y cooperación.", 
@@ -7473,6 +7802,10 @@
   "country": "El Salvador", 
   "city": "San Salvador; Calle La Reforma y 9ª Calle Poniente, Colonia San Benito, San Salvador", 
   "website": "https://www.exteriores.gob.es/Embajadas/sansalvador/es/Paginas/index.aspx", 
+  "linkedin": "https://www.linkedin.com/company/ministerio-de-asuntos-exteriores-union-europea-y-cooperacion", 
+  "linkedin_url": "https://www.linkedin.com/company/ministerio-de-asuntos-exteriores-union-europea-y-cooperacion", 
+  "linkedin_cited_from": "https://www.exteriores.gob.es/Embajadas/sansalvador/es/Paginas/index.aspx", 
+  "linkedin_accessed": "2026-10-22", 
   "geo": {
    "lat": null, 
    "lng": null, 
@@ -7529,6 +7862,9 @@
    "source_url": null
   }, 
   "linkedin": "https://www.linkedin.com/company/fenoge", 
+  "linkedin_url": "https://www.linkedin.com/company/fenoge", 
+  "linkedin_cited_from": "https://fenoge.gov.co", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Fondo público de financiamiento en ERNC y eficiencia energética.", 
@@ -7555,6 +7891,9 @@
    "location_note": "Oficina principal Bogotá (contacto oficial Bancóldex)."
   }, 
   "linkedin": "https://www.linkedin.com/company/bancoldex", 
+  "linkedin_url": "https://www.linkedin.com/company/bancoldex", 
+  "linkedin_cited_from": "https://www.bancoldex.com", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Banco de desarrollo empresarial y financiamiento productivo.", 
@@ -7582,6 +7921,9 @@
    "location_note": "Sede GCF Songdo; actor catalogado Colombia."
   }, 
   "linkedin": "https://www.linkedin.com/company/green-climate-fund", 
+  "linkedin_url": "https://www.linkedin.com/company/green-climate-fund", 
+  "linkedin_cited_from": "https://www.greenclimate.fund", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Fondo climático internacional del marco de la CMNUCC.", 
@@ -7608,7 +7950,6 @@
    "hq_abroad": true, 
    "location_note": "Sede CIF; actor catalogado Colombia (sin oficina local verificada)."
   }, 
-  "linkedin": "https://www.linkedin.com/company/cifaction/", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Fondo multilateral de inversión climática.", 
@@ -7634,6 +7975,9 @@
    "source_url": null
   }, 
   "linkedin": "https://www.linkedin.com/company/minenergia", 
+  "linkedin_url": "https://www.linkedin.com/company/minenergia", 
+  "linkedin_cited_from": "https://www.minenergia.gov.co/es/", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Ministerio rector del sector minero-energético y políticas de transición en Colombia.", 
@@ -7658,6 +8002,9 @@
    "source_url": null
   }, 
   "linkedin": "https://www.linkedin.com/company/comisi%C3%B3n-de-regulaci%C3%B3n-de-energ%C3%ADa-y-gas-creg", 
+  "linkedin_url": "https://www.linkedin.com/company/comisi%C3%B3n-de-regulaci%C3%B3n-de-energ%C3%ADa-y-gas-creg", 
+  "linkedin_cited_from": "https://creg.gov.co/", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Actor público / regulador", 
@@ -7682,7 +8029,10 @@
    "precision": "country", 
    "source_url": null
   }, 
-  "linkedin": "https://www.linkedin.com/company/unidad-de-planeaci%C3%B3n-minero-energ%C3%A9tica-upme", 
+  "linkedin": "https://www.linkedin.com/company/unidad-de-planeaci-n-minero-energ-tica", 
+  "linkedin_url": "https://www.linkedin.com/company/unidad-de-planeaci-n-minero-energ-tica", 
+  "linkedin_cited_from": "https://www.upme.gov.co/", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Planeación y estudios del sector minero-energético en Colombia.", 
@@ -7709,6 +8059,9 @@
    "source_url": null
   }, 
   "linkedin": "https://www.linkedin.com/company/ipse-zni", 
+  "linkedin_url": "https://www.linkedin.com/company/ipse-zni", 
+  "linkedin_cited_from": "https://ipse.gov.co", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Entidad pública de soluciones energéticas en ZNI.", 
@@ -8031,6 +8384,10 @@
   "country": "Peru", 
   "city": "La Victoria", 
   "website": "https://revistaganamas.com.pe/", 
+  "linkedin": "https://www.linkedin.com/company/-finanz-s", 
+  "linkedin_url": "https://www.linkedin.com/company/-finanz-s", 
+  "linkedin_cited_from": "https://revistaganamas.com.pe/", 
+  "linkedin_accessed": "2026-10-22", 
   "challenges": [], 
   "source": "Mapa de Actores Perú 2026", 
   "sector": "private", 
@@ -8081,7 +8438,10 @@
    "precision": "country", 
    "country": "Peru"
   }, 
-  "linkedin": "https://www.linkedin.com/company/92463372", 
+  "linkedin": "https://www.linkedin.com/company/hubudep", 
+  "linkedin_url": "https://www.linkedin.com/company/hubudep", 
+  "linkedin_cited_from": "https://www.hub.udep.pe/", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Hub universitario de emprendimiento e innovación sostenible", 
@@ -8103,7 +8463,6 @@
    "precision": "country", 
    "country": "Peru"
   }, 
-  "linkedin": "https://www.linkedin.com/company/incubagraria", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Portafolio de emprendimientos de Incubagraria (UNALM)", 
@@ -8125,7 +8484,6 @@
    "precision": "country", 
    "country": "Peru"
   }, 
-  "linkedin": "https://www.linkedin.com/company/redesignlab", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Universidad o centro de investigación", 
@@ -8148,6 +8506,9 @@
    "country": "Peru"
   }, 
   "linkedin": "https://www.linkedin.com/company/alaya-business-accelerator-s-a-", 
+  "linkedin_url": "https://www.linkedin.com/company/alaya-business-accelerator-s-a-", 
+  "linkedin_cited_from": "https://alaya-capital.com/", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Fondo de venture capital e inversión en startups LATAM.", 
@@ -8187,6 +8548,9 @@
    "country": "Peru"
   }, 
   "linkedin": "https://www.linkedin.com/company/arpegio-vc", 
+  "linkedin_url": "https://www.linkedin.com/company/arpegio-vc", 
+  "linkedin_cited_from": "https://arpegio.vc/about/", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Capital de riesgo en startups.", 
@@ -8208,7 +8572,10 @@
    "precision": "country", 
    "country": "Peru"
   }, 
-  "linkedin": "https://www.linkedin.com/company/axa-investment-managers", 
+  "linkedin": "https://www.linkedin.com/company/bnp-paribas-asset-management", 
+  "linkedin_url": "https://www.linkedin.com/company/bnp-paribas-asset-management", 
+  "linkedin_cited_from": "https://alts.axa-im.com/responsible-investing/impact-investing", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Gestión de inversiones de impacto (AXA IM).", 
@@ -8231,7 +8598,6 @@
    "precision": "country", 
    "country": "Peru"
   }, 
-  "linkedin": "https://www.linkedin.com/company/babas%C3%BA-ventures/", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Capital de riesgo de impacto.", 
@@ -8254,6 +8620,9 @@
    "country": "Peru"
   }, 
   "linkedin": "https://www.linkedin.com/company/bancasostenible", 
+  "linkedin_url": "https://www.linkedin.com/company/bancasostenible", 
+  "linkedin_cited_from": "https://bancasostenible.la/", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Asesoría y banca de inversión sostenible.", 
@@ -8275,7 +8644,6 @@
    "precision": "country", 
    "country": "Peru"
   }, 
-  "linkedin": "https://www.linkedin.com/company/beneficial-returns", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Financiamiento de impacto para emprendedores.", 
@@ -8319,6 +8687,9 @@
    "country": "Peru"
   }, 
   "linkedin": "https://www.linkedin.com/company/earthshot-ventures", 
+  "linkedin_url": "https://www.linkedin.com/company/earthshot-ventures", 
+  "linkedin_cited_from": "https://www.earthshot.vc", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Fondo de venture capital orientado a fundadores y soluciones climáticas de alto impacto.", 
@@ -8341,6 +8712,9 @@
    "country": "Peru"
   }, 
   "linkedin": "https://www.linkedin.com/company/eleafoundation", 
+  "linkedin_url": "https://www.linkedin.com/company/eleafoundation", 
+  "linkedin_cited_from": "https://www.elea.org/en/home-en", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Inversor de impacto filantrópico que combate la pobreza extrema con enfoque empresarial.", 
@@ -8363,6 +8737,9 @@
    "country": "Peru"
   }, 
   "linkedin": "https://www.linkedin.com/company/impacta-vc", 
+  "linkedin_url": "https://www.linkedin.com/company/impacta-vc", 
+  "linkedin_cited_from": "https://www.impacta.vc/", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Fondo de capital de riesgo de impacto", 
@@ -8387,6 +8764,9 @@
    "country": "Peru"
   }, 
   "linkedin": "https://www.linkedin.com/company/salkantay-ventures", 
+  "linkedin_url": "https://www.linkedin.com/company/salkantay-ventures", 
+  "linkedin_cited_from": "https://www.salkantay.vc/", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Empresa / sector privado", 
@@ -8451,6 +8831,9 @@
    "country": "Peru"
   }, 
   "linkedin": "https://www.linkedin.com/company/convergenceblendedfinance", 
+  "linkedin_url": "https://www.linkedin.com/company/convergenceblendedfinance", 
+  "linkedin_cited_from": "https://www.convergence.finance/accelerator", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Mecanismo de financiamiento blended para diseñar estructuras que movilicen inversión comercial en mercados emergentes.", 
@@ -8472,7 +8855,10 @@
    "precision": "country", 
    "country": "Peru"
   }, 
-  "linkedin": "https://www.linkedin.com/company/scale-up-latam/", 
+  "linkedin": "https://www.linkedin.com/company/incubadorascale", 
+  "linkedin_url": "https://www.linkedin.com/company/incubadorascale", 
+  "linkedin_cited_from": "https://scaleup4.com/", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Universidad o centro de investigación", 
@@ -8495,6 +8881,9 @@
    "country": "Peru"
   }, 
   "linkedin": "https://www.linkedin.com/company/theganeshalab", 
+  "linkedin_url": "https://www.linkedin.com/company/theganeshalab", 
+  "linkedin_cited_from": "https://theganeshalab.com/contact/", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Empresa / sector privado", 
@@ -8517,6 +8906,9 @@
    "country": "Peru"
   }, 
   "linkedin": "https://www.linkedin.com/company/a2g-sostenibilidad-y-cambio-clim%C3%A1tico", 
+  "linkedin_url": "https://www.linkedin.com/company/a2g-sostenibilidad-y-cambio-clim%C3%A1tico", 
+  "linkedin_cited_from": "https://a2g.pe/", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Consultoría en sostenibilidad y cambio climático.", 
@@ -8559,7 +8951,6 @@
    "precision": "country", 
    "country": "Peru"
   }, 
-  "linkedin": "https://www.linkedin.com/company/green-gold-forestry/", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Empresa forestal y de restauración con operaciones en el Perú.", 
@@ -8594,6 +8985,10 @@
   "country": "Peru", 
   "city": "Lima", 
   "website": "https://ecoproa.com/", 
+  "linkedin": "https://www.linkedin.com/company/ecoproa", 
+  "linkedin_url": "https://www.linkedin.com/company/ecoproa", 
+  "linkedin_cited_from": "https://ecoproa.com/", 
+  "linkedin_accessed": "2026-10-22", 
   "challenges": [], 
   "source": "Mapa de Actores Perú 2026", 
   "sector": "private", 
@@ -8665,7 +9060,6 @@
    "precision": "country", 
    "country": "Peru"
   }, 
-  "linkedin": "https://www.linkedin.com/company/qaira", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Empresa / sector privado", 
@@ -8688,6 +9082,9 @@
    "country": "Peru"
   }, 
   "linkedin": "https://www.linkedin.com/company/saphixyz", 
+  "linkedin_url": "https://www.linkedin.com/company/saphixyz", 
+  "linkedin_cited_from": "https://saphi.xyz/", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Empresa / sector privado", 
@@ -8752,7 +9149,6 @@
    "precision": "country", 
    "country": "Peru"
   }, 
-  "linkedin": "https://www.linkedin.com/company/fundes", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Consultoría de impacto y desarrollo de negocios inclusivos en América Latina.", 
@@ -8796,6 +9192,9 @@
    "country": "Peru"
   }, 
   "linkedin": "https://www.linkedin.com/company/nexosmasuno", 
+  "linkedin_url": "https://www.linkedin.com/company/nexosmasuno", 
+  "linkedin_cited_from": "https://nexosmasuno.com/", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Plataforma de acción climática empresarial (Libélula)", 
@@ -8818,6 +9217,9 @@
    "country": "Peru"
   }, 
   "linkedin": "https://www.linkedin.com/company/amanatari", 
+  "linkedin_url": "https://www.linkedin.com/company/amanatari", 
+  "linkedin_cited_from": "https://www.amanatari.org/", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Impulsor de emprendimiento amazónico.", 
@@ -8840,6 +9242,9 @@
    "country": "Peru"
   }, 
   "linkedin": "https://www.linkedin.com/company/haskoning", 
+  "linkedin_url": "https://www.linkedin.com/company/haskoning", 
+  "linkedin_cited_from": "https://www.haskoning.com", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Consultora de ingeniería y medio ambiente para infraestructura sostenible.", 
@@ -8861,7 +9266,6 @@
    "precision": "country", 
    "country": "Peru"
   }, 
-  "linkedin": "https://www.linkedin.com/company/idb-lab", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Innovación y venture del Banco Interamericano de Desarrollo.", 
@@ -8926,7 +9330,6 @@
    "precision": "country", 
    "country": "Peru"
   }, 
-  "linkedin": "https://www.linkedin.com/company/liquid-venture-studio/", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Venture studio y aceleradora de startups digitales y foodtech", 
@@ -8972,6 +9375,9 @@
    "country": "Peru"
   }, 
   "linkedin": "https://www.linkedin.com/company/upt-incuba", 
+  "linkedin_url": "https://www.linkedin.com/company/upt-incuba", 
+  "linkedin_cited_from": "https://www.uptincuba.pe/", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Universidad o centro de investigación", 
@@ -9015,6 +9421,9 @@
    "country": "Peru"
   }, 
   "linkedin": "https://www.linkedin.com/company/earth-innovation-institute", 
+  "linkedin_url": "https://www.linkedin.com/company/earth-innovation-institute", 
+  "linkedin_cited_from": "https://earthinnovation.org", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Instituto de investigación aplicada para desarrollo sostenible y gobernanza forestal en regiones tropicales.", 
@@ -9037,6 +9446,9 @@
    "country": "Peru"
   }, 
   "linkedin": "https://www.linkedin.com/company/hi-ventures", 
+  "linkedin_url": "https://www.linkedin.com/company/hi-ventures", 
+  "linkedin_cited_from": "https://www.hi.vc/", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Venture capital en innovación en salud (ALLVP).", 
@@ -9062,7 +9474,10 @@
    "precision": "country", 
    "country": "Peru"
   }, 
-  "linkedin": "https://www.linkedin.com/company/credicorp/", 
+  "linkedin": "https://www.linkedin.com/company/grupocredicorp", 
+  "linkedin_url": "https://www.linkedin.com/company/grupocredicorp", 
+  "linkedin_cited_from": "https://grupocredicorp.com", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Empresa / sector privado", 
@@ -9076,6 +9491,10 @@
   "country": "Peru", 
   "city": "Lima", 
   "website": "https://www.mercycorps.org.co/", 
+  "linkedin": "https://www.linkedin.com/company/mercycorpscolombia", 
+  "linkedin_url": "https://www.linkedin.com/company/mercycorpscolombia", 
+  "linkedin_cited_from": "https://www.mercycorps.org.co/", 
+  "linkedin_accessed": "2026-10-22", 
   "challenges": [
    "ENE", 
    "FIN"
@@ -9111,7 +9530,6 @@
    "precision": "country", 
    "country": "Peru"
   }, 
-  "linkedin": "https://www.linkedin.com/company/fundaci%C3%B3n-bbva-per%C3%BA/", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Filantropía del Grupo BBVA en México con programas de educación e inclusión.", 
@@ -9125,6 +9543,10 @@
   "country": "Peru", 
   "city": "Lima", 
   "website": "https://elcomercio.pe", 
+  "linkedin": "https://www.linkedin.com/company/el-comercio", 
+  "linkedin_url": "https://www.linkedin.com/company/el-comercio", 
+  "linkedin_cited_from": "https://elcomercio.pe", 
+  "linkedin_accessed": "2026-10-22", 
   "challenges": [], 
   "source": "Mapa de Actores Perú 2026", 
   "sector": "private", 
@@ -9155,6 +9577,9 @@
    "country": "Peru"
   }, 
   "linkedin": "https://www.linkedin.com/company/elperuano", 
+  "linkedin_url": "https://www.linkedin.com/company/elperuano", 
+  "linkedin_cited_from": "https://elperuano.pe", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Diario Oficial de la República y medio estatal de publicación normativa.", 
@@ -9176,7 +9601,6 @@
    "precision": "country", 
    "country": "Peru"
   }, 
-  "linkedin": "https://www.linkedin.com/company/revista-proactivo", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Medio especializado en seguridad, salud, medio ambiente y responsabilidad social empresarial.", 
@@ -9225,7 +9649,6 @@
    "precision": "country", 
    "country": "Peru"
   }, 
-  "linkedin": "https://www.linkedin.com/company/idb-invest", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Brazo del Grupo BID para financiamiento al sector privado en América Latina y el Caribe.", 
@@ -9250,7 +9673,6 @@
    "precision": "country", 
    "country": "Peru"
   }, 
-  "linkedin": "https://www.linkedin.com/company/deg", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Institución de financiamiento del desarrollo para inversión privada en economías emergentes.", 
@@ -9275,7 +9697,6 @@
    "precision": "country", 
    "country": "Peru"
   }, 
-  "linkedin": "https://www.linkedin.com/company/cita-utec", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Centro de I+D en agua y medio ambiente (UTEC).", 
@@ -9324,6 +9745,9 @@
    "country": "Peru"
   }, 
   "linkedin": "https://www.linkedin.com/company/unops", 
+  "linkedin_url": "https://www.linkedin.com/company/unops", 
+  "linkedin_cited_from": "https://www.unops.org/es", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Organismo de la ONU para implementación de proyectos", 
@@ -9348,6 +9772,9 @@
    "country": "Peru"
   }, 
   "linkedin": "https://www.linkedin.com/company/pan-american-health-organization", 
+  "linkedin_url": "https://www.linkedin.com/company/pan-american-health-organization", 
+  "linkedin_cited_from": "https://www.paho.org/es", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Organización internacional de salud pública (sistema ONU/OEA)", 
@@ -9426,6 +9853,10 @@
   "country": "Peru", 
   "city": "Bruselas, Bélgica (iniciativa UE)", 
   "website": "https://circulareconomy.europa.eu/platform/en", 
+  "linkedin": "https://www.linkedin.com/company/ekofom", 
+  "linkedin_url": "https://www.linkedin.com/company/ekofom", 
+  "linkedin_cited_from": "https://circulareconomy.europa.eu/platform/en", 
+  "linkedin_accessed": "2026-10-22", 
   "challenges": [], 
   "source": "Mapa de Actores Perú 2026", 
   "sector": "private", 
@@ -9480,7 +9911,6 @@
    "precision": "country", 
    "country": "Peru"
   }, 
-  "linkedin": "https://www.linkedin.com/company/expertise-france", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Agencia francesa de cooperación técnica internacional.", 
@@ -9572,7 +10002,6 @@
    "precision": "country", 
    "country": "Peru"
   }, 
-  "linkedin": "https://www.linkedin.com/company/finnish-embassy-in-peru", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Empresa / sector privado (verificar identidad en mapa CTH).", 
@@ -9636,7 +10065,6 @@
    "precision": "country", 
    "country": "Peru"
   }, 
-  "linkedin": "https://www.linkedin.com/company/ueenperu", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Cooperación y relación institucional de la Unión Europea y sus Estados miembros con el Perú.", 
@@ -9658,7 +10086,6 @@
    "precision": "country", 
    "country": "Peru"
   }, 
-  "linkedin": "https://www.linkedin.com/company/embassy-of-canada-to-peru", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Representación diplomática de Canadá y cooperación bilateral con el Perú.", 
@@ -9680,7 +10107,6 @@
    "precision": "country", 
    "country": "Peru"
   }, 
-  "linkedin": "https://www.linkedin.com/company/camaradelima", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Gremio / sistema de cámaras de comercio (CCL).", 
@@ -9704,7 +10130,10 @@
    "precision": "country", 
    "country": "Peru"
   }, 
-  "linkedin": "https://www.linkedin.com/company/camara-de-comercio-italiana-del-peru", 
+  "linkedin": "https://www.linkedin.com/company/c%C3%A1mara-de-comercio-italiana-del-per%C3%BA", 
+  "linkedin_url": "https://www.linkedin.com/company/c%C3%A1mara-de-comercio-italiana-del-per%C3%BA", 
+  "linkedin_cited_from": "https://www.cciperu.it", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Cámara binacional que promueve comercio e inversión Italia–Perú.", 
@@ -9729,7 +10158,10 @@
    "precision": "country", 
    "country": "Peru"
   }, 
-  "linkedin": "https://www.linkedin.com/company/tropical-forest-alliance", 
+  "linkedin": "https://www.linkedin.com/company/tropicalforestalliance", 
+  "linkedin_url": "https://www.linkedin.com/company/tropicalforestalliance", 
+  "linkedin_cited_from": "https://www.tropicalforestalliance.org/home", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Alianza multistakeholder por bosques tropicales", 
@@ -9754,7 +10186,10 @@
    "precision": "country", 
    "country": "Peru"
   }, 
-  "linkedin": "https://www.linkedin.com/company/forest-stewardship-council-fsc-/", 
+  "linkedin": "https://www.linkedin.com/company/fsc-international-bonn", 
+  "linkedin_url": "https://www.linkedin.com/company/fsc-international-bonn", 
+  "linkedin_cited_from": "https://fsc.org/en", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Organización internacional de certificación forestal responsable.", 
@@ -9801,7 +10236,10 @@
    "precision": "country", 
    "country": "Peru"
   }, 
-  "linkedin": "https://www.linkedin.com/company/vsf-cicda-agronomes-et-v-t-rinaires-sans-fronti-res", 
+  "linkedin": "https://www.linkedin.com/company/avsflatam", 
+  "linkedin_url": "https://www.linkedin.com/company/avsflatam", 
+  "linkedin_cited_from": "https://www.avsf.org/es/", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Empresa / sector privado", 
@@ -9825,7 +10263,6 @@
    "precision": "country", 
    "country": "Peru"
   }, 
-  "linkedin": "https://www.linkedin.com/company/terranuova-onlus", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Empresa / sector privado", 
@@ -9839,6 +10276,10 @@
   "country": "Peru", 
   "city": "Milán, Italia (sede)", 
   "website": "https://aspem.org/en/", 
+  "linkedin": "https://www.linkedin.com/company/aspem-associazione-solidariet-paesi-emergenti", 
+  "linkedin_url": "https://www.linkedin.com/company/aspem-associazione-solidariet-paesi-emergenti", 
+  "linkedin_cited_from": "https://aspem.org/en/", 
+  "linkedin_accessed": "2026-10-22", 
   "challenges": [
    "FIN"
   ], 
@@ -9874,6 +10315,9 @@
    "country": "Peru"
   }, 
   "linkedin": "https://www.linkedin.com/company/coeeci", 
+  "linkedin_url": "https://www.linkedin.com/company/coeeci", 
+  "linkedin_cited_from": "https://www.coeeci.org.pe", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Organización empresarial o gremial del ecosistema peruano (COEECI).", 
@@ -9895,7 +10339,6 @@
    "precision": "country", 
    "country": "Peru"
   }, 
-  "linkedin": "https://www.linkedin.com/company/lavca", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Conjunto de actores de investigación y aceleración (LAVCA, CPI, MIT REAP) vinculados al ecosistema emprendedor y climático en Perú.", 
@@ -9918,6 +10361,9 @@
    "country": "Peru"
   }, 
   "linkedin": "https://www.linkedin.com/company/mit-regional-entrepreneurship-acceleration-program", 
+  "linkedin_url": "https://www.linkedin.com/company/mit-regional-entrepreneurship-acceleration-program", 
+  "linkedin_cited_from": "https://reap.mit.edu", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Programa global del MIT para fortalecer ecosistemas regionales de emprendimiento innovador.", 
@@ -9939,7 +10385,6 @@
    "precision": "country", 
    "country": "Peru"
   }, 
-  "linkedin": "https://www.linkedin.com/company/climate-policy-initiative", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Think tank global en finanzas climáticas y análisis de políticas.", 
@@ -9954,6 +10399,10 @@
   "country": "Peru", 
   "city": "Lima", 
   "website": "https://www.gob.pe/minam", 
+  "linkedin": "https://www.linkedin.com/company/1134092", 
+  "linkedin_url": "https://www.linkedin.com/company/1134092", 
+  "linkedin_cited_from": "https://www.gob.pe/minam", 
+  "linkedin_accessed": "2026-10-22", 
   "challenges": [
    "BOS", 
    "AGU", 
@@ -9980,6 +10429,10 @@
   "country": "Peru", 
   "city": "Lima", 
   "website": "https://www.gob.pe/minam", 
+  "linkedin": "https://www.linkedin.com/company/1134092", 
+  "linkedin_url": "https://www.linkedin.com/company/1134092", 
+  "linkedin_cited_from": "https://www.gob.pe/minam", 
+  "linkedin_accessed": "2026-10-22", 
   "challenges": [
    "BOS", 
    "AGU", 
@@ -10003,6 +10456,10 @@
   "country": "Peru", 
   "city": "Lima", 
   "website": "https://www.gob.pe/minam", 
+  "linkedin": "https://www.linkedin.com/company/1134092", 
+  "linkedin_url": "https://www.linkedin.com/company/1134092", 
+  "linkedin_cited_from": "https://www.gob.pe/minam", 
+  "linkedin_accessed": "2026-10-22", 
   "challenges": [
    "FIN"
   ], 
@@ -10035,6 +10492,9 @@
    "country": "Peru"
   }, 
   "linkedin": "https://www.linkedin.com/company/startupperu", 
+  "linkedin_url": "https://www.linkedin.com/company/startupperu", 
+  "linkedin_cited_from": "https://startup.proinnovate.gob.pe", 
+  "linkedin_accessed": "2026-10-22", 
   "nexus": {}, 
   "card": {
    "ecosystem_role": "Instrumento de política pública", 
@@ -10049,6 +10509,10 @@
   "country": "Peru", 
   "city": "Lima", 
   "website": "https://www.gob.pe/minam", 
+  "linkedin": "https://www.linkedin.com/company/1134092", 
+  "linkedin_url": "https://www.linkedin.com/company/1134092", 
+  "linkedin_cited_from": "https://www.gob.pe/minam", 
+  "linkedin_accessed": "2026-10-22", 
   "challenges": [
    "BOS"
   ], 
@@ -10068,6 +10532,10 @@
   "country": "Peru", 
   "city": "Lima", 
   "website": "https://www.gob.pe/bosques", 
+  "linkedin": "https://www.linkedin.com/company/programa-nacional-de-conservaci-n-de-bosques", 
+  "linkedin_url": "https://www.linkedin.com/company/programa-nacional-de-conservaci-n-de-bosques", 
+  "linkedin_cited_from": "https://www.gob.pe/bosques", 
+  "linkedin_accessed": "2026-10-22", 
   "challenges": [
    "BOS"
   ], 
@@ -10087,6 +10555,10 @@
   "country": "Peru", 
   "city": "Lima", 
   "website": "https://www.gob.pe/minam", 
+  "linkedin": "https://www.linkedin.com/company/1134092", 
+  "linkedin_url": "https://www.linkedin.com/company/1134092", 
+  "linkedin_cited_from": "https://www.gob.pe/minam", 
+  "linkedin_accessed": "2026-10-22", 
   "challenges": [
    "CIR"
   ], 

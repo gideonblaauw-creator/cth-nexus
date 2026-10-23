@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.swisscontact.org/es/donde-trabajamos/peru |
-| LinkedIn | https://www.linkedin.com/company/swisscontact |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | ONG o fundación |
 | Desafíos (códigos) | CIR |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-swisscontact](https://nexus.cleantechhub.net/ecosystem/?actor=pe-swisscontact) |
@@ -47,4 +47,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de Actores Perú 2026
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.swisscontact.org/es/donde-trabajamos/peru
-- https://www.linkedin.com/company/swisscontact

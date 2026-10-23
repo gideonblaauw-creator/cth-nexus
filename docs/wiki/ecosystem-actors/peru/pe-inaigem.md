@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima (Independencia) |
 | Sitio web | https://www.gob.pe/inaigem |
-| LinkedIn | PENDIENTE |
+| LinkedIn | https://www.linkedin.com/company/inaigem |
 | Rol en el ecosistema | Instituto público de investigación en glaciares y ecosistemas de montaña |
 | Desafíos (códigos) | AGR, ENE |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-inaigem](https://nexus.cleantechhub.net/ecosystem/?actor=pe-inaigem) |

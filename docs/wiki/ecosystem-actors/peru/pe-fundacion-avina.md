@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.avina.net |
-| LinkedIn | https://www.linkedin.com/company/avina/ |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Fundación internacional que moviliza alianzas para sostenibilidad y cambio sistémico en América Latina. |
 | Dirección | PENDIENTE |
 | Año de fundación | 1994 |
@@ -55,4 +55,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.avina.net — sitio institucional Avina
 - https://www.avina.net
-- https://www.linkedin.com/company/avina/

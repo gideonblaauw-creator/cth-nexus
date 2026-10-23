@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.lmas1.org |
-| LinkedIn | https://www.linkedin.com/company/l-1-lideres-impulsando-un-desarrollo-sostenible/ |
+| LinkedIn | https://www.linkedin.com/company/25071544 |
 | Rol en el ecosistema | Iniciativa global de agricultura sostenible (L+1) |
 | Desafíos (códigos) | AGR |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-l-1](https://nexus.cleantechhub.net/ecosystem/?actor=pe-l-1) |

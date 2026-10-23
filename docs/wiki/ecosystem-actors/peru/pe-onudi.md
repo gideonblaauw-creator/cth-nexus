@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://www.unido.org |
-| LinkedIn | https://www.linkedin.com/company/unido |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Organismo de la ONU para desarrollo industrial sostenible |
 | Desafíos (códigos) | CIR, ENE |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-onudi](https://nexus.cleantechhub.net/ecosystem/?actor=pe-onudi) |
@@ -53,4 +53,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.unido.org
 - https://www.unido.org/
-- https://www.linkedin.com/company/unido

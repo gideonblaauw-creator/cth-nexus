@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Lima |
 | Sitio web | https://bosques-amazonicos.com |
-| LinkedIn | https://www.linkedin.com/company/bam-bosques-amazonicos |
+| LinkedIn | PENDIENTE |
 | Rol en el ecosistema | Empresa / sector privado |
 | Desafíos (códigos) | PENDIENTE |
 | Tarjeta Nexus | [Ecosystem card — nexus.cleantechhub.net/ecosystem/?actor=pe-reforestadora-amazonica](https://nexus.cleantechhub.net/ecosystem/?actor=pe-reforestadora-amazonica) |
@@ -47,4 +47,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - static/ecosystem/data/actors.json (+ Peru PR #58 enrichment)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://bosques-amazonicos.com
-- https://www.linkedin.com/company/bam-bosques-amazonicos

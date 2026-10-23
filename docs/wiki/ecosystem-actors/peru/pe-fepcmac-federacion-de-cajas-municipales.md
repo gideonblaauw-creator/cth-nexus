@@ -23,7 +23,7 @@ tag_country: Peru
 | País | Peru |
 | Ciudad | Tacabamba |
 | Sitio web | https://www.fpcmac.org.pe |
-| LinkedIn | https://www.linkedin.com/company/fepcmac |
+| LinkedIn | https://www.linkedin.com/company/10279236 |
 | Rol en el ecosistema | Federación de cajas municipales de ahorro y crédito; articulación para finanzas verdes. |
 | Dirección | PENDIENTE |
 | Año de fundación | PENDIENTE |
@@ -55,4 +55,3 @@ PENDIENTE (sin vínculos en policy_relations.json para este actor)
 - Mapa de actores CTH — `static/ecosystem/data/actors.json`
 - https://www.fpcmac.org.pe — portal FEPCMAC
 - Sitio institucional FEPCMAC — https://www.fpcmac.org.pe/
-- Perfil en LinkedIn — https://www.linkedin.com/company/fepcmac
