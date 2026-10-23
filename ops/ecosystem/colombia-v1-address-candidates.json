@@ -1,0 +1,1039 @@
+{
+  "co-ruta-n": {
+    "hits": [
+      {
+        "url": "https://rutanmedellin.org",
+        "addresses": [
+          "Calle 67 Nº 52-20 Piso 2 Torre A. Medellín - Colombia"
+        ]
+      }
+    ],
+    "id": "co-ruta-n",
+    "name": "Ruta N",
+    "city": "Medellín",
+    "website": "https://rutanmedellin.org/",
+    "category": "accelerator"
+  },
+  "co-apps-co": {
+    "hits": [],
+    "id": "co-apps-co",
+    "name": "APPS.CO",
+    "city": "Bogotá",
+    "website": "https://www.apps.co/portal/",
+    "category": "accelerator"
+  },
+  "co-nido-distrito-de-innovacion-valle": {
+    "hits": [],
+    "id": "co-nido-distrito-de-innovacion-valle",
+    "name": "NIDO (Distrito de Innovación Valle)",
+    "city": "Cali",
+    "website": "https://distritovalle.com/",
+    "category": "accelerator"
+  },
+  "co-parques-nacionales-naturales-de-colombia": {
+    "hits": [
+      {
+        "url": "https://www.parquesnacionales.gov.co",
+        "addresses": [
+          "Calle 74 # 11 - 81 Bogotá"
+        ]
+      }
+    ],
+    "id": "co-parques-nacionales-naturales-de-colombia",
+    "name": "Parques Nacionales Naturales de Colombia",
+    "city": "Bogotá",
+    "website": "https://www.parquesnacionales.gov.co/",
+    "category": "government"
+  },
+  "co-minambiente": {
+    "hits": [
+      {
+        "url": "https://www.minambiente.gov.co",
+        "addresses": [
+          "Calle 37 Nº 8-40"
+        ]
+      }
+    ],
+    "id": "co-minambiente",
+    "name": "MinAmbiente",
+    "city": "Bogotá",
+    "website": "https://www.minambiente.gov.co/",
+    "category": "government"
+  },
+  "co-minciencias": {
+    "hits": [
+      {
+        "url": "https://minciencias.gov.co",
+        "addresses": [
+          "Avenida Calle 26 No. 57 - 83 Torre 8 - Pisos del 2 al 6 Bogotá"
+        ]
+      }
+    ],
+    "id": "co-minciencias",
+    "name": "MinCiencias",
+    "city": "Bogotá",
+    "website": "https://minciencias.gov.co/",
+    "category": "government"
+  },
+  "co-hubbog": {
+    "hits": [],
+    "id": "co-hubbog",
+    "name": "HubBOG",
+    "city": "Bogotá",
+    "website": "https://www.hubbog.com/",
+    "category": "accelerator"
+  },
+  "co-ideam": {
+    "hits": [
+      {
+        "url": "https://www.ideam.gov.co",
+        "addresses": [
+          "Calle 25 D No. 96 B - 70 Bogotá D.C. Código Postal"
+        ]
+      }
+    ],
+    "id": "co-ideam",
+    "name": "IDEAM",
+    "city": "Bogotá",
+    "website": "https://www.ideam.gov.co/",
+    "category": "government"
+  },
+  "co-pnud-colombia": {
+    "hits": [],
+    "id": "co-pnud-colombia",
+    "name": "PNUD Colombia",
+    "city": "Bogotá",
+    "website": "https://www.undp.org/es/colombia",
+    "category": "international"
+  },
+  "co-fondo-emprender-sena": {
+    "hits": [],
+    "id": "co-fondo-emprender-sena",
+    "name": "Fondo Emprender (SENA)",
+    "city": "Bogotá",
+    "website": "https://www.innovamos.gov.co/",
+    "category": "accelerator"
+  },
+  "co-banco-mundial-colombia": {
+    "hits": [],
+    "id": "co-banco-mundial-colombia",
+    "name": "Banco Mundial – Colombia",
+    "city": "Bogotá",
+    "website": "https://www.worldbank.org/ext/en/country/colombia",
+    "category": "international"
+  },
+  "co-anla": {
+    "hits": [
+      {
+        "url": "https://www.anla.gov.co",
+        "addresses": [
+          "Carrera 13A # 34 - 72 Bogotá D.C"
+        ]
+      }
+    ],
+    "id": "co-anla",
+    "name": "ANLA",
+    "city": "Bogotá",
+    "website": "https://www.anla.gov.co/",
+    "category": "government"
+  },
+  "co-caf-banco-de-desarrollo-de-america-latina": {
+    "hits": [],
+    "id": "co-caf-banco-de-desarrollo-de-america-latina",
+    "name": "CAF – Banco de Desarrollo de América Latina",
+    "city": "Bogotá",
+    "website": "https://www.caf.com/",
+    "category": "international"
+  },
+  "co-innpulsa-colombia": {
+    "hits": [
+      {
+        "url": "https://www.innpulsacolombia.com",
+        "addresses": [
+          "Calle 28 N° 13A"
+        ]
+      }
+    ],
+    "id": "co-innpulsa-colombia",
+    "name": "iNNpulsa Colombia",
+    "city": "Bogotá",
+    "website": "https://www.innpulsacolombia.com/",
+    "category": "accelerator"
+  },
+  "co-onu-colombia": {
+    "hits": [
+      {
+        "url": "https://colombia.un.org",
+        "addresses": [
+          "carrera no es una ley de la naturaleza. Es el producto de decisiones tomadas por las propias",
+          "Calle 84A # 10"
+        ]
+      }
+    ],
+    "id": "co-onu-colombia",
+    "name": "ONU Colombia",
+    "city": "Bogotá",
+    "website": "https://colombia.un.org/",
+    "category": "international"
+  },
+  "co-wayra-hispam-colombia-hub": {
+    "hits": [],
+    "id": "co-wayra-hispam-colombia-hub",
+    "name": "Wayra Hispam (Colombia hub)",
+    "city": "Bogotá",
+    "website": "https://hispam.wayra.com/",
+    "category": "accelerator"
+  },
+  "co-ifc-colombia": {
+    "hits": [],
+    "id": "co-ifc-colombia",
+    "name": "IFC Colombia",
+    "city": "Bogotá",
+    "website": "https://www.ifc.org/",
+    "category": "international"
+  },
+  "co-conservation-international-colombia": {
+    "hits": [
+      {
+        "url": "https://www.conservation.org.co",
+        "addresses": [
+          "Carrera 13 # 71 - 41 Bogotá - Colombia Correo"
+        ]
+      }
+    ],
+    "id": "co-conservation-international-colombia",
+    "name": "Conservation International Colombia",
+    "city": "Bogotá",
+    "website": "https://www.conservation.org.co/",
+    "category": "ngo_foundation"
+  },
+  "co-fundacion-humedales": {
+    "hits": [
+      {
+        "url": "https://fundacionhumedales.org",
+        "addresses": [
+          "Calle 81#19a -18"
+        ]
+      }
+    ],
+    "id": "co-fundacion-humedales",
+    "name": "Fundación Humedales",
+    "city": "Bogotá",
+    "website": "https://fundacionhumedales.org/",
+    "category": "ngo_foundation"
+  },
+  "co-fundacion-natura-colombia": {
+    "hits": [
+      {
+        "url": "https://natura.org.co",
+        "addresses": [
+          "Carrera 21 No. 39"
+        ]
+      }
+    ],
+    "id": "co-fundacion-natura-colombia",
+    "name": "Fundación Natura Colombia",
+    "city": "Bogotá",
+    "website": "https://natura.org.co/",
+    "category": "ngo_foundation"
+  },
+  "co-bid-colombia": {
+    "hits": [],
+    "id": "co-bid-colombia",
+    "name": "BID – Colombia",
+    "city": "Bogotá",
+    "website": "https://www.iadb.org/es/colombia",
+    "category": "international"
+  },
+  "co-gef-global-environment-facility": {
+    "hits": [],
+    "id": "co-gef-global-environment-facility",
+    "name": "GEF – Global Environment Facility",
+    "city": "Washington",
+    "website": "https://www.thegef.org/",
+    "category": "international"
+  },
+  "co-fundacion-mario-santo-domingo": {
+    "hits": [],
+    "id": "co-fundacion-mario-santo-domingo",
+    "name": "Fundación Mario Santo Domingo",
+    "city": "Barranquilla",
+    "website": "https://www.fundacionmariosantodomingo.org/",
+    "category": "ngo_foundation"
+  },
+  "co-fundacion-grupo-argos": {
+    "hits": [],
+    "id": "co-fundacion-grupo-argos",
+    "name": "Fundación Grupo Argos",
+    "city": "Medellín",
+    "website": "https://www.fundaciongrupoargos.org/",
+    "category": "ngo_foundation"
+  },
+  "co-fundacion-gaia-amazonas": {
+    "hits": [
+      {
+        "url": "https://gaiaamazonas.org",
+        "addresses": [
+          "Calle 70A # 11"
+        ]
+      }
+    ],
+    "id": "co-fundacion-gaia-amazonas",
+    "name": "Fundación Gaia Amazonas",
+    "city": "Bogotá",
+    "website": "https://gaiaamazonas.org/",
+    "category": "ngo_foundation"
+  },
+  "co-fundacion-bolivar-davivienda": {
+    "hits": [
+      {
+        "url": "https://www.fundacionbolivardavivienda.org",
+        "addresses": [
+          "Av. Calle 26 # 69-63. Piso 11. Bogotá"
+        ]
+      }
+    ],
+    "id": "co-fundacion-bolivar-davivienda",
+    "name": "Fundación Bolívar Davivienda",
+    "city": "Bogotá",
+    "website": "https://www.fundacionbolivardavivienda.org/",
+    "category": "ngo_foundation"
+  },
+  "co-proaves": {
+    "hits": [],
+    "id": "co-proaves",
+    "name": "ProAves",
+    "city": "Bogotá",
+    "website": "https://www.proaves.org/",
+    "category": "ngo_foundation"
+  },
+  "co-dnp": {
+    "hits": [
+      {
+        "url": "https://www.dnp.gov.co",
+        "addresses": [
+          "Calle 26 # 13-19"
+        ]
+      }
+    ],
+    "id": "co-dnp",
+    "name": "DNP",
+    "city": "Bogotá",
+    "website": "https://www.dnp.gov.co/",
+    "category": "government"
+  },
+  "co-universidad-de-los-andes": {
+    "hits": [],
+    "id": "co-universidad-de-los-andes",
+    "name": "Universidad de los Andes",
+    "city": "Bogotá",
+    "website": "https://uniandes.edu.co/",
+    "category": "academia"
+  },
+  "co-universidad-del-valle": {
+    "hits": [
+      {
+        "url": "https://www.univalle.edu.co",
+        "addresses": [
+          "Calle 13 # 100-00 Santiago de Cali",
+          "Calle 4B # 36-00 Santiago de Cali"
+        ]
+      }
+    ],
+    "id": "co-universidad-del-valle",
+    "name": "Universidad del Valle",
+    "city": "Cali",
+    "website": "https://www.univalle.edu.co/",
+    "category": "academia"
+  },
+  "co-universidad-eafit": {
+    "hits": [
+      {
+        "url": "https://www.eafit.edu.co",
+        "addresses": [
+          "Carrera 49 N° 7 Sur-50 Línea nacional",
+          "Carrera 19 #12-70 Megacentro Pinares Línea de atención",
+          "Carrera 15 #88-64 oficina 401 Línea de atención"
+        ]
+      }
+    ],
+    "id": "co-universidad-eafit",
+    "name": "Universidad EAFIT",
+    "city": "Medellín",
+    "website": "https://www.eafit.edu.co/",
+    "category": "academia"
+  },
+  "co-pontificia-universidad-javeriana": {
+    "hits": [
+      {
+        "url": "https://www.javeriana.edu.co",
+        "addresses": [
+          "Cra 7 No 40 - 62 --",
+          "Cra 7 No 40 - 62"
+        ]
+      }
+    ],
+    "id": "co-pontificia-universidad-javeriana",
+    "name": "Pontificia Universidad Javeriana",
+    "city": "Bogotá",
+    "website": "https://www.javeriana.edu.co/",
+    "category": "academia"
+  },
+  "co-instituto-de-investigacion-de-recursos-biologicos-alexander-von-humboldt": {
+    "hits": [
+      {
+        "url": "https://www.humboldt.org.co",
+        "addresses": [
+          "Calle 72 # 12 - 65 Piso 7 Bogotá D.C"
+        ]
+      }
+    ],
+    "id": "co-instituto-de-investigacion-de-recursos-biologicos-alexander-von-humboldt",
+    "name": "Instituto de Investigación de Recursos Biológicos Alexander von Humboldt",
+    "city": "Bogotá",
+    "website": "https://www.humboldt.org.co/",
+    "category": "academia"
+  },
+  "co-universidad-del-rosario": {
+    "hits": [
+      {
+        "url": "https://www.urosario.edu.co",
+        "addresses": [
+          "Calle 200 entre Autopista Norte y Cra 7ma",
+          "Calle 12C # 6-25",
+          "Carrera 24 No. 63C-69"
+        ]
+      }
+    ],
+    "id": "co-universidad-del-rosario",
+    "name": "Universidad del Rosario",
+    "city": "Bogotá",
+    "website": "https://www.urosario.edu.co/",
+    "category": "academia"
+  },
+  "co-bancoldex-capital-lp-investments": {
+    "hits": [
+      {
+        "url": "https://www.bancoldex.com",
+        "addresses": [
+          "Calle 28 No. 13 A-15 piso 39 al 42 C.P.110311 Horario de atenci"
+        ]
+      }
+    ],
+    "id": "co-bancoldex-capital-lp-investments",
+    "name": "Bancóldex Capital (LP investments)",
+    "city": "Bogotá",
+    "website": "https://www.bancoldex.com/inversion-en-fondos",
+    "category": "funder"
+  },
+  "co-fcp-bancoldex-capital-fondo-de-fondos": {
+    "hits": [
+      {
+        "url": "https://fiducoldex.com.co",
+        "addresses": [
+          "Calle 28 # 13 A 24 Edificio Museo Parque Central Piso 6 Torre B Bogotá D.C. Correo electrón",
+          "Calle 28 # 13 A 24 Edificio Museo Parque Central Piso 6 Torre B Bogotá D.C. PBX"
+        ]
+      }
+    ],
+    "id": "co-fcp-bancoldex-capital-fondo-de-fondos",
+    "name": "FCP Bancóldex Capital Fondo de Fondos",
+    "city": "Bogotá",
+    "website": "https://fiducoldex.com.co/fondo-de-fondos",
+    "category": "funder"
+  },
+  "co-universidad-industrial-de-santander": {
+    "hits": [],
+    "id": "co-universidad-industrial-de-santander",
+    "name": "Universidad Industrial de Santander",
+    "city": "Bucaramanga",
+    "website": "https://www.uis.edu.co/",
+    "category": "academia"
+  },
+  "co-connect-bogota-region": {
+    "hits": [
+      {
+        "url": "https://www.connectbogota.org",
+        "addresses": [
+          "Carrera 18 # 93 - 90"
+        ]
+      }
+    ],
+    "id": "co-connect-bogota-region",
+    "name": "Connect Bogotá Región",
+    "city": "Bogotá",
+    "website": "https://www.connectbogota.org/",
+    "category": "accelerator"
+  },
+  "co-universidad-de-antioquia": {
+    "hits": [],
+    "id": "co-universidad-de-antioquia",
+    "name": "Universidad de Antioquia",
+    "city": "Medellín",
+    "website": "https://www.udea.edu.co/",
+    "category": "academia"
+  },
+  "co-global-environment-facility-colombia": {
+    "hits": [],
+    "id": "co-global-environment-facility-colombia",
+    "name": "Global Environment Facility (Colombia)",
+    "city": "Washington",
+    "website": "https://www.thegef.org/",
+    "category": "funder"
+  },
+  "co-bancolombia": {
+    "hits": [
+      {
+        "url": "https://www.bancolombia.com",
+        "addresses": [
+          "Carrera 48 # 26 - 85 Medellín"
+        ]
+      }
+    ],
+    "id": "co-bancolombia",
+    "name": "Bancolombia",
+    "city": "Medellín",
+    "website": "https://www.bancolombia.com/",
+    "category": "finance"
+  },
+  "co-banco-agrario-de-colombia": {
+    "hits": [
+      {
+        "url": "https://www.bancoagrario.gov.co",
+        "addresses": [
+          "Carrera 8 No. 15 - 43 Bogotá D.C"
+        ]
+      }
+    ],
+    "id": "co-banco-agrario-de-colombia",
+    "name": "Banco Agrario de Colombia",
+    "city": "Bogotá",
+    "website": "https://www.bancoagrario.gov.co/",
+    "category": "finance"
+  },
+  "co-fondo-patrimonio-natural": {
+    "hits": [
+      {
+        "url": "https://www.patrimonionatural.org.co/contacto",
+        "addresses": [
+          "Calle 72 No. 12-65 Piso Sexto"
+        ]
+      }
+    ],
+    "id": "co-fondo-patrimonio-natural",
+    "name": "Fondo Patrimonio Natural",
+    "city": "Bogotá",
+    "website": "https://www.patrimonionatural.org.co/",
+    "category": "funder"
+  },
+  "co-universidad-eia": {
+    "hits": [],
+    "id": "co-universidad-eia",
+    "name": "Universidad EIA",
+    "city": "Envigado",
+    "website": "https://www.eia.edu.co/",
+    "category": "academia"
+  },
+  "co-finagro": {
+    "hits": [
+      {
+        "url": "https://www.finagro.com.co",
+        "addresses": [
+          "Cra. 13 No. 28-17 pisos 2"
+        ]
+      }
+    ],
+    "id": "co-finagro",
+    "name": "Finagro",
+    "city": "Bogotá",
+    "website": "https://www.finagro.com.co/",
+    "category": "finance"
+  },
+  "co-wwf-colombia-gcf-accredited-entity-role": {
+    "hits": [],
+    "id": "co-wwf-colombia-gcf-accredited-entity-role",
+    "name": "WWF Colombia (GCF accredited entity role)",
+    "city": "Bogotá",
+    "website": "https://www.wwf.org.co/",
+    "category": "international"
+  },
+  "co-banca-de-las-oportunidades": {
+    "hits": [
+      {
+        "url": "https://www.bancadelasoportunidades.gov.co",
+        "addresses": [
+          "Calle 28 13A-15"
+        ]
+      }
+    ],
+    "id": "co-banca-de-las-oportunidades",
+    "name": "Banca de las Oportunidades",
+    "city": "Bogotá",
+    "website": "https://www.bancadelasoportunidades.gov.co/",
+    "category": "finance"
+  },
+  "co-bolsa-de-valores-de-colombia-bvc": {
+    "hits": [],
+    "id": "co-bolsa-de-valores-de-colombia-bvc",
+    "name": "Bolsa de Valores de Colombia (BVC)",
+    "city": "Bogotá",
+    "website": "https://www.bvc.com.co/",
+    "category": "finance"
+  },
+  "co-wwf-colombia": {
+    "hits": [],
+    "id": "co-wwf-colombia",
+    "name": "WWF Colombia",
+    "city": "Bogotá",
+    "website": "https://www.wwf.org.co/",
+    "category": "ngo_foundation"
+  },
+  "co-davivienda": {
+    "hits": [],
+    "id": "co-davivienda",
+    "name": "Davivienda",
+    "city": "Bogotá",
+    "website": "https://www.davivienda.com/",
+    "category": "finance"
+  },
+  "co-camara-de-comercio-de-bogota": {
+    "hits": [],
+    "id": "co-camara-de-comercio-de-bogota",
+    "name": "Cámara de Comercio de Bogotá",
+    "city": "Bogotá",
+    "website": "https://www.ccb.org.co/",
+    "category": "chamber"
+  },
+  "co-adaptation-fund-colombia-projects": {
+    "hits": [],
+    "id": "co-adaptation-fund-colombia-projects",
+    "name": "Adaptation Fund (Colombia projects)",
+    "city": "Washington",
+    "website": "https://www.adaptation-fund.org/",
+    "category": "funder"
+  },
+  "co-camara-de-comercio-de-barranquilla": {
+    "hits": [
+      {
+        "url": "https://www.camarabaq.org.co",
+        "addresses": [
+          "Carrera 53 No. 106-280",
+          "Calle 40 No. 44-39",
+          "Cra. 19# 25a -77 local # 10 Lunes a Jueves 8"
+        ]
+      }
+    ],
+    "id": "co-camara-de-comercio-de-barranquilla",
+    "name": "Cámara de Comercio de Barranquilla",
+    "city": "Barranquilla",
+    "website": "https://www.camarabaq.org.co/",
+    "category": "chamber"
+  },
+  "co-camara-de-comercio-de-medellin-para-antioquia": {
+    "hits": [
+      {
+        "url": "https://www.camaramedellin.com.co",
+        "addresses": [
+          "Calle 53 No. 45-77 Medellín"
+        ]
+      }
+    ],
+    "id": "co-camara-de-comercio-de-medellin-para-antioquia",
+    "name": "Cámara de Comercio de Medellín para Antioquia",
+    "city": "Medellín",
+    "website": "https://www.camaramedellin.com.co/",
+    "category": "chamber"
+  },
+  "co-fiducoldex": {
+    "hits": [
+      {
+        "url": "https://fiducoldex.com.co",
+        "addresses": [
+          "Calle 28 # 13 A 24 Edificio Museo Parque Central Piso 6 Torre B Bogotá D.C. Correo electrón",
+          "Calle 28 # 13 A 24 Edificio Museo Parque Central Piso 6 Torre B Bogotá D.C. PBX"
+        ]
+      }
+    ],
+    "id": "co-fiducoldex",
+    "name": "Fiducoldex",
+    "city": "Bogotá",
+    "website": "https://fiducoldex.com.co/",
+    "category": "finance"
+  },
+  "co-camara-de-comercio-de-cartagena": {
+    "hits": [],
+    "id": "co-camara-de-comercio-de-cartagena",
+    "name": "Cámara de Comercio de Cartagena",
+    "city": "Cartagena",
+    "website": "https://www.camaracartagena.org.co/",
+    "category": "chamber"
+  },
+  "co-camara-de-comercio-de-pereira": {
+    "hits": [],
+    "id": "co-camara-de-comercio-de-pereira",
+    "name": "Cámara de Comercio de Pereira",
+    "city": "Pereira",
+    "website": "https://www.camaradecomerciopereira.org.co/",
+    "category": "chamber"
+  },
+  "co-camara-de-comercio-de-cucuta": {
+    "hits": [],
+    "id": "co-camara-de-comercio-de-cucuta",
+    "name": "Cámara de Comercio de Cúcuta",
+    "city": "Cúcuta",
+    "website": "https://www.camaracucuta.org.co/",
+    "category": "chamber"
+  },
+  "co-confecamaras": {
+    "hits": [
+      {
+        "url": "https://confecamaras.org.co",
+        "addresses": [
+          "Av. Calle 26 No 57"
+        ]
+      }
+    ],
+    "id": "co-confecamaras",
+    "name": "Confecámaras",
+    "city": "Bogotá",
+    "website": "https://confecamaras.org.co/",
+    "category": "chamber"
+  },
+  "co-banco-de-bogota-grupo-aval": {
+    "hits": [],
+    "id": "co-banco-de-bogota-grupo-aval",
+    "name": "Banco de Bogotá (Grupo Aval)",
+    "city": "Bogotá",
+    "website": "https://www.bancodebogota.com/",
+    "category": "finance"
+  },
+  "co-programa-nacional-de-carbono-neutralidad-y-resiliencia-climatica": {
+    "hits": [
+      {
+        "url": "https://carbononeutral.minambiente.gov.co",
+        "addresses": [
+          "Calle 37 No. 8-40 Bogotá D.C. Horario de atención"
+        ]
+      }
+    ],
+    "id": "co-programa-nacional-de-carbono-neutralidad-y-resiliencia-climatica",
+    "name": "Programa Nacional de Carbono Neutralidad y Resiliencia Climática",
+    "city": "Bogotá",
+    "website": "https://carbononeutral.minambiente.gov.co/",
+    "category": "policy"
+  },
+  "co-ley-2169-de-2021-carbono-neutralidad-y-resiliencia": {
+    "hits": [
+      {
+        "url": "https://www.minambiente.gov.co",
+        "addresses": [
+          "Calle 37 Nº 8-40"
+        ]
+      }
+    ],
+    "id": "co-ley-2169-de-2021-carbono-neutralidad-y-resiliencia",
+    "name": "Ley 2169 de 2021 (carbono neutralidad y resiliencia)",
+    "city": "Bogotá",
+    "website": "https://www.minambiente.gov.co/",
+    "category": "policy"
+  },
+  "co-ndc-colombia-actualizacion-2020": {
+    "hits": [
+      {
+        "url": "https://www.minambiente.gov.co",
+        "addresses": [
+          "Calle 37 Nº 8-40"
+        ]
+      }
+    ],
+    "id": "co-ndc-colombia-actualizacion-2020",
+    "name": "NDC Colombia (actualización 2020)",
+    "city": "Bogotá",
+    "website": "https://www.minambiente.gov.co/cambio-climatico-y-gestion-del-riesgo/documentos-oficiales-contribuciones-nacionalmente-determinadas/",
+    "category": "policy"
+  },
+  "co-sisclima-sistema-nacional-de-cambio-climatico": {
+    "hits": [
+      {
+        "url": "https://www.minambiente.gov.co",
+        "addresses": [
+          "Calle 37 Nº 8-40"
+        ]
+      }
+    ],
+    "id": "co-sisclima-sistema-nacional-de-cambio-climatico",
+    "name": "SISCLIMA – Sistema Nacional de Cambio Climático",
+    "city": "Bogotá",
+    "website": "https://www.minambiente.gov.co/cambio-climatico-y-gestion-del-riesgo/sistema-nacional-de-cambio-climatico-sisclima/",
+    "category": "policy"
+  },
+  "co-fundacion-selva": {
+    "hits": [],
+    "id": "co-fundacion-selva",
+    "name": "Fundación Selva",
+    "city": "Bogotá",
+    "website": "https://selva.org.co/",
+    "category": "ngo_foundation"
+  },
+  "co-resolucion-upme-203-2020-autogeneracion": {
+    "hits": [],
+    "id": "co-resolucion-upme-203-2020-autogeneracion",
+    "name": "Resolución UPME 203/2020 (autogeneración)",
+    "city": "Bogotá",
+    "website": "https://www1.upme.gov.co/",
+    "category": "policy"
+  },
+  "co-estrategia-colombia-carbono-neutral-2050-e2050": {
+    "hits": [
+      {
+        "url": "https://www.minambiente.gov.co",
+        "addresses": [
+          "Calle 37 Nº 8-40"
+        ]
+      }
+    ],
+    "id": "co-estrategia-colombia-carbono-neutral-2050-e2050",
+    "name": "Estrategia Colombia Carbono Neutral 2050 (E2050)",
+    "city": "Bogotá",
+    "website": "https://www.minambiente.gov.co/",
+    "category": "policy"
+  },
+  "co-findeter": {
+    "hits": [
+      {
+        "url": "https://findeter.gov.co",
+        "addresses": [
+          "Carrera 52 # 76 167 Edificio Atlantic Center Oficina",
+          "Calle 103 # 19 - 20 Piso 5 Tel",
+          "Carrera 7 # 7 - 06 Edificio Séptima Avenida Tel"
+        ]
+      }
+    ],
+    "id": "co-findeter",
+    "name": "Findeter",
+    "city": "Bogotá",
+    "website": "https://findeter.gov.co/",
+    "category": "funder"
+  },
+  "co-plan-nacional-de-adaptacion-al-cambio-climatico-pnacc": {
+    "hits": [
+      {
+        "url": "https://www.minambiente.gov.co",
+        "addresses": [
+          "Calle 37 Nº 8-40"
+        ]
+      }
+    ],
+    "id": "co-plan-nacional-de-adaptacion-al-cambio-climatico-pnacc",
+    "name": "Plan Nacional de Adaptación al Cambio Climático (PNACC)",
+    "city": "Bogotá",
+    "website": "https://www.minambiente.gov.co/",
+    "category": "policy"
+  },
+  "co-portafolio": {
+    "hits": [],
+    "id": "co-portafolio",
+    "name": "Portafolio",
+    "city": "Bogotá",
+    "website": "https://www.portafolio.co/",
+    "category": "media"
+  },
+  "co-taxonomia-verde-colombia-minhacienda-uvt": {
+    "hits": [],
+    "id": "co-taxonomia-verde-colombia-minhacienda-uvt",
+    "name": "Taxonomía verde Colombia (MinHacienda / UVT)",
+    "city": "Bogotá",
+    "website": "https://www.minhacienda.gov.co/",
+    "category": "policy"
+  },
+  "co-camara-de-comercio-de-bucaramanga": {
+    "hits": [
+      {
+        "url": "https://www.camaradirecta.com",
+        "addresses": [
+          "Carrera 19 No. 36 - 20 Centro",
+          "Carrera 34 No. 44- 79 Cabecera Bucaramanga"
+        ]
+      }
+    ],
+    "id": "co-camara-de-comercio-de-bucaramanga",
+    "name": "Cámara de Comercio de Bucaramanga",
+    "city": "Bucaramanga",
+    "website": "https://www.camaradirecta.com/",
+    "category": "chamber"
+  },
+  "co-camara-de-comercio-de-manizales-por-caldas": {
+    "hits": [
+      {
+        "url": "https://www.ccmpc.org.co",
+        "addresses": [
+          "Cra 23 No. 26 - 60"
+        ]
+      }
+    ],
+    "id": "co-camara-de-comercio-de-manizales-por-caldas",
+    "name": "Cámara de Comercio de Manizales por Caldas",
+    "city": "Manizales",
+    "website": "https://www.ccmpc.org.co/",
+    "category": "chamber"
+  },
+  "co-universidad-nacional-de-colombia": {
+    "hits": [],
+    "id": "co-universidad-nacional-de-colombia",
+    "name": "Universidad Nacional de Colombia",
+    "city": "Bogotá",
+    "website": "https://unal.edu.co/",
+    "category": "academia"
+  },
+  "co-forbes-colombia": {
+    "hits": [],
+    "id": "co-forbes-colombia",
+    "name": "Forbes Colombia",
+    "city": "Bogotá",
+    "website": "https://forbes.co/",
+    "category": "media"
+  },
+  "co-politica-nacional-de-gestion-del-riesgo-de-desastres": {
+    "hits": [
+      {
+        "url": "https://www.gestiondelriesgo.gov.co",
+        "addresses": [
+          "Avenida Calle 26 No. 92-32 Edificio Gold 4 - piso 2"
+        ]
+      }
+    ],
+    "id": "co-politica-nacional-de-gestion-del-riesgo-de-desastres",
+    "name": "Política Nacional de Gestión del Riesgo de Desastres",
+    "city": "Bogotá",
+    "website": "https://www.gestiondelriesgo.gov.co/",
+    "category": "policy"
+  },
+  "co-rcn-radio-noticias": {
+    "hits": [
+      {
+        "url": "https://www.noticiasrcn.com",
+        "addresses": [
+          "Avenida 68 comenzar",
+          "Avenida 68 entrar",
+          "calle y gener"
+        ]
+      }
+    ],
+    "id": "co-rcn-radio-noticias",
+    "name": "RCN Radio Noticias",
+    "city": "Bogotá",
+    "website": "https://www.noticiasrcn.com/",
+    "category": "media"
+  },
+  "co-el-espectador": {
+    "hits": [],
+    "id": "co-el-espectador",
+    "name": "El Espectador",
+    "city": "Bogotá",
+    "website": "https://www.elespectador.com/",
+    "category": "media"
+  },
+  "co-semana-sostenible": {
+    "hits": [],
+    "id": "co-semana-sostenible",
+    "name": "Semana Sostenible",
+    "city": "Bogotá",
+    "website": "https://www.semana.com/sostenible/",
+    "category": "media"
+  },
+  "co-la-republica": {
+    "hits": [
+      {
+        "url": "https://www.larepublica.co/contactenos",
+        "addresses": [
+          "Carrera 13A # 37 - 32 Tel",
+          "Calle 52 # 47 - 42 Piso 3 Edificio Coltejer Tel",
+          "Calle 30 # 8 - 24 Tel"
+        ]
+      }
+    ],
+    "id": "co-la-republica",
+    "name": "La República",
+    "city": "Bogotá",
+    "website": "https://www.larepublica.co/",
+    "category": "media"
+  },
+  "co-resolucion-creg-174-2021-autogeneracion-solar": {
+    "hits": [],
+    "id": "co-resolucion-creg-174-2021-autogeneracion-solar",
+    "name": "Resolución CREG 174/2021 (autogeneración solar)",
+    "city": "Bogotá",
+    "website": "https://www.creg.gov.co/",
+    "category": "policy"
+  },
+  "co-energia-estrategica": {
+    "hits": [],
+    "id": "co-energia-estrategica",
+    "name": "Energía Estratégica",
+    "city": "Bogotá",
+    "website": "https://www.energiaestrategica.com/",
+    "category": "media"
+  },
+  "co-dinero": {
+    "hits": [
+      {
+        "url": "https://www.dinero.com",
+        "addresses": [
+          "carrera con consejos de liderazgo"
+        ]
+      }
+    ],
+    "id": "co-dinero",
+    "name": "Dinero",
+    "city": "Bogotá",
+    "website": "https://www.dinero.com/",
+    "category": "media"
+  },
+  "co-blu-radio": {
+    "hits": [],
+    "id": "co-blu-radio",
+    "name": "Blu Radio",
+    "city": "Bogotá",
+    "website": "https://www.bluradio.com/",
+    "category": "media"
+  },
+  "co-camara-de-comercio-de-cali": {
+    "hits": [
+      {
+        "url": "https://www.ccc.org.co",
+        "addresses": [
+          "Calle 8 No. 3 - 14 Línea de servicio al cliente"
+        ]
+      }
+    ],
+    "id": "co-camara-de-comercio-de-cali",
+    "name": "Cámara de Comercio de Cali",
+    "city": "Cali",
+    "website": "https://www.ccc.org.co/",
+    "category": "chamber"
+  },
+  "co-valora-analitik": {
+    "hits": [],
+    "id": "co-valora-analitik",
+    "name": "Valora Analitik",
+    "city": "Bogotá",
+    "website": "https://www.valoraanalitik.com/",
+    "category": "media"
+  },
+  "co-socialab-colombia": {
+    "hits": [],
+    "id": "co-socialab-colombia",
+    "name": "Socialab Colombia",
+    "city": "Bogotá",
+    "website": "https://colombia.socialab.com/",
+    "category": "accelerator"
+  },
+  "co-colombia-potencia-digital-emprendimiento-digital": {
+    "hits": [],
+    "id": "co-colombia-potencia-digital-emprendimiento-digital",
+    "name": "Colombia Potencia Digital – Emprendimiento Digital",
+    "city": "Bogotá",
+    "website": "https://www.mintic.gov.co/",
+    "category": "accelerator"
+  }
+}

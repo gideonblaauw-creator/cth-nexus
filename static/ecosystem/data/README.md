@@ -32,7 +32,7 @@ python3 scripts/ecosystem/verify_relation_quotes.py
 |---------|-------------------|
 | Peru | 201 |
 | El Salvador | 77 (72 deck profiles + 5 flagged extras; see `ops/ecosystem/SV_DECK_AUDIT.md`) |
-| Colombia | 8 |
+| Colombia | 105 (actor list v1; 11 Peru-aligned categories, no startups) |
 | Guatemala | 0 (UI empty state) |
 | Costa Rica | 0 (UI empty state) |
 
