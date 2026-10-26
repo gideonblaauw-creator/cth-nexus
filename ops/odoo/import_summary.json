@@ -1,0 +1,9 @@
+{
+  "status": "blocked",
+  "reason": "Odoo credentials were not available via Infisical in this Cloud Agent run (no INFISICAL_TOKEN / INFISICAL_PROJECT_ID for cth-agents; infisical run requires project binding). Dry run against live Odoo was not executed.",
+  "create": null,
+  "update": null,
+  "skip": null,
+  "ambiguous_count": null,
+  "next_step": "On a host with Infisical access: export INFISICAL_PROJECT_ID for cth-agents, then run ops/odoo/run_dry_import.sh and commit the generated import_plan.csv + updated import_summary.json."
+}
