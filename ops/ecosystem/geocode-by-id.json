@@ -2594,13 +2594,14 @@
     "source_url": null
   },
   "co-bancoldex": {
-    "lat": 11.00374,
-    "lng": -74.808963,
-    "address": "Bancoldex, 76, Carrera 52, Alto Prado, Localidad Norte - Centro Histórico, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, 080001, Colombia",
-    "city": "Perímetro Urbano Barranquilla",
+    "lat": 4.615712,
+    "lng": -74.071314,
+    "address": "Calle 28 No. 13 A-15",
+    "city": "Bogotá",
     "country": "Colombia",
     "precision": "address",
-    "source_url": "https://nominatim.openstreetmap.org/search?q=Banc%C3%B3ldex%2C+Colombia&format=json&limit=1&addressdetails=1&countrycodes=co (name-country)"
+    "source_url": "https://www.bancoldex.com/contactenos",
+    "location_note": "Oficina principal Bogotá (contacto oficial Bancóldex)."
   },
   "co-gcf-green-climate-fund": {
     "lat": 46.521356,
