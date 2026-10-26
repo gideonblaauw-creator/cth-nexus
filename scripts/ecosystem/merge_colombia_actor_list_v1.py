@@ -136,10 +136,22 @@ def main() -> None:
     if CANDIDATES.is_file():
         candidates = json.loads(CANDIDATES.read_text(encoding="utf-8"))
 
-    actors = json.loads(RAW.read_text(encoding="utf-8"))
+    import subprocess
+
+    actors = json.loads(
+        subprocess.check_output(
+            ["git", "show", "origin/main:static/ecosystem/data/actors.raw.json"],
+            cwd=ROOT,
+        )
+    )
     by_id = {a["id"]: a for a in actors}
     existing_names = {a["name"].lower().strip() for a in actors}
-    geo_blob = json.loads(GEO_BY_ID.read_text(encoding="utf-8"))
+    geo_blob = json.loads(
+        subprocess.check_output(
+            ["git", "show", "origin/main:ops/ecosystem/geocode-by-id.json"],
+            cwd=ROOT,
+        )
+    )
 
     skipped: list[str] = []
     added: list[str] = []
@@ -161,7 +173,10 @@ def main() -> None:
             continue
         actor, geo = actor_from_row(row, candidates)
         actor["geo"] = geo
-        geo_blob[aid] = geo
+        if aid in geo_blob:
+            raise SystemExit(f"Refusing to overwrite geocode-by-id entry for {aid}")
+        if geo.get("precision") == "address" and geo.get("lat") is not None:
+            geo_blob[aid] = geo
         new_rows.append(actor)
         by_id[aid] = actor
         added.append(aid)

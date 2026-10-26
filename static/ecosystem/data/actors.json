@@ -25,6 +25,7 @@
   "linkedin": "https://www.linkedin.com/company/amazonia-impact-ventures",
   "linkedin_url": "https://www.linkedin.com/company/amazonia-impact-ventures",
   "linkedin_cited_from": "https://www.amazoniaimpactventures.com",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Financiador e inversionista",
@@ -59,6 +60,7 @@
   "linkedin": "https://www.linkedin.com/company/profonanpe",
   "linkedin_url": "https://www.linkedin.com/company/profonanpe",
   "linkedin_cited_from": "https://profonanpe.org.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Fondo trust de financiamiento para áreas naturales protegidas",
@@ -70,7 +72,7 @@
   "name": "Andes Amazon Fund",
   "type": "org",
   "category": "funder",
-  "country": "Peru",
+  "country": "United States",
   "city": "Washington",
   "website": "https://www.andesamazonfund.org",
   "sector": "private",
@@ -89,6 +91,7 @@
   "linkedin": "https://www.linkedin.com/company/andes-amazon-fund",
   "linkedin_url": "https://www.linkedin.com/company/andes-amazon-fund",
   "linkedin_cited_from": "https://www.andesamazonfund.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Financiador e inversionista",
@@ -117,6 +120,7 @@
   "linkedin": "https://www.linkedin.com/company/pecap-peru",
   "linkedin_url": "https://www.linkedin.com/company/pecap-peru",
   "linkedin_cited_from": "https://www.pecap.pe/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Asociación gremial de capital semilla y emprendimiento",
@@ -146,6 +150,7 @@
   "linkedin": "https://www.linkedin.com/company/angel-ventures-mexico",
   "linkedin_url": "https://www.linkedin.com/company/angel-ventures-mexico",
   "linkedin_cited_from": "https://www.angelventures.vc",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Financiador e inversionista",
@@ -265,6 +270,7 @@
   "linkedin": "https://www.linkedin.com/company/wayra",
   "linkedin_url": "https://www.linkedin.com/company/wayra",
   "linkedin_cited_from": "https://wayra.com/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Financiador e inversionista",
@@ -301,12 +307,13 @@
   "name": "EcoEnterprises Fund",
   "type": "org",
   "category": "funder",
-  "country": "Peru",
+  "country": "United States",
   "city": "Washington",
   "website": "https://ecoenterprisesfund.com",
   "linkedin": "https://www.linkedin.com/company/ecoenterprises-fund",
   "linkedin_url": "https://www.linkedin.com/company/ecoenterprises-fund",
   "linkedin_cited_from": "https://ecoenterprisesfund.com",
+  "linkedin_accessed": "2026-10-22",
   "challenges": [
    "AGR",
    "BOS",
@@ -375,6 +382,7 @@
   "linkedin": "https://www.linkedin.com/company/incofin-investment-management",
   "linkedin_url": "https://www.linkedin.com/company/incofin-investment-management",
   "linkedin_cited_from": "https://incofin.com",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Gestor de inversiones de impacto en inclusión financiera",
@@ -392,6 +400,7 @@
   "linkedin": "https://www.linkedin.com/company/2601512",
   "linkedin_url": "https://www.linkedin.com/company/2601512",
   "linkedin_cited_from": "https://triplejump.eu",
+  "linkedin_accessed": "2026-10-22",
   "sector": "private",
   "source": "Mapa de Actores Perú 2026",
   "geo": {
@@ -421,6 +430,7 @@
   "linkedin": "https://www.linkedin.com/company/1522762",
   "linkedin_url": "https://www.linkedin.com/company/1522762",
   "linkedin_cited_from": "https://www.responsability.com",
+  "linkedin_accessed": "2026-10-22",
   "challenges": [
    "ENE",
    "FIN"
@@ -459,6 +469,7 @@
   "linkedin": "https://www.linkedin.com/company/blueorchard-finance-ltd",
   "linkedin_url": "https://www.linkedin.com/company/blueorchard-finance-ltd",
   "linkedin_cited_from": "https://www.blueorchard.com",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Financiador e inversionista",
@@ -488,6 +499,7 @@
   "linkedin": "https://www.linkedin.com/company/alterfin-cv",
   "linkedin_url": "https://www.linkedin.com/company/alterfin-cv",
   "linkedin_cited_from": "https://www.alterfin.be",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Financiador de impacto en agricultura y microfinanzas.",
@@ -528,6 +540,7 @@
   "linkedin": "https://www.linkedin.com/company/mercy-corps-ventures",
   "linkedin_url": "https://www.linkedin.com/company/mercy-corps-ventures",
   "linkedin_cited_from": "https://www.prosperglobalventures.com/",
+  "linkedin_accessed": "2026-10-22",
   "sector": "private",
   "source": "Mapa de Actores Perú 2026",
   "geo": {
@@ -565,6 +578,7 @@
   "linkedin": "https://www.linkedin.com/company/accion",
   "linkedin_url": "https://www.linkedin.com/company/accion",
   "linkedin_cited_from": "https://www.accion.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Financiador e inversionista",
@@ -625,6 +639,7 @@
   "linkedin": "https://www.linkedin.com/company/bezos-earth-fund",
   "linkedin_url": "https://www.linkedin.com/company/bezos-earth-fund",
   "linkedin_cited_from": "https://www.bezosearthfund.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Financiador e inversionista",
@@ -784,6 +799,7 @@
   "linkedin": "https://www.linkedin.com/company/scotiabank",
   "linkedin_url": "https://www.linkedin.com/company/scotiabank",
   "linkedin_cited_from": "https://www.scotiabank.com.pe/Personas/Default",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Institución financiera",
@@ -901,6 +917,7 @@
   "linkedin": "https://www.linkedin.com/company/financiera-confianza-fmbbva",
   "linkedin_url": "https://www.linkedin.com/company/financiera-confianza-fmbbva",
   "linkedin_cited_from": "https://confianza.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Entidad de microfinanzas (Finanzas Productivas) vinculada al ecosistema de inclusión financiera.",
@@ -931,6 +948,7 @@
   "linkedin": "https://www.linkedin.com/company/10279236",
   "linkedin_url": "https://www.linkedin.com/company/10279236",
   "linkedin_cited_from": "https://www.fpcmac.org.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Federación de cajas municipales de ahorro y crédito; articulación para finanzas verdes.",
@@ -964,6 +982,7 @@
   "linkedin": "https://www.linkedin.com/company/compartamosbancoperu",
   "linkedin_url": "https://www.linkedin.com/company/compartamosbancoperu",
   "linkedin_cited_from": "https://www.compartamos.com.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Entidad de microfinanzas que otorga crédito a MYPE y emprendedores, incluido segmento rural.",
@@ -998,6 +1017,7 @@
   "linkedin": "https://www.linkedin.com/company/caja-arequipa",
   "linkedin_url": "https://www.linkedin.com/company/caja-arequipa",
   "linkedin_cited_from": "https://www.cajaarequipa.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Institución financiera",
@@ -1145,6 +1165,7 @@
   "linkedin": "https://www.linkedin.com/company/smipackaging",
   "linkedin_url": "https://www.linkedin.com/company/smipackaging",
   "linkedin_cited_from": "https://smisolutions.com",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Empresa / sector privado",
@@ -1173,6 +1194,7 @@
   "linkedin": "https://www.linkedin.com/company/grupoaje",
   "linkedin_url": "https://www.linkedin.com/company/grupoaje",
   "linkedin_cited_from": "https://www.ajegroup.com",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Empresa / sector privado",
@@ -1208,6 +1230,7 @@
   "linkedin": "https://www.linkedin.com/company/backus",
   "linkedin_url": "https://www.linkedin.com/company/backus",
   "linkedin_cited_from": "https://www.backus.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Empresa de bebidas y manufactura.",
@@ -1303,6 +1326,7 @@
   "linkedin": "https://www.linkedin.com/company/pluz-peru",
   "linkedin_url": "https://www.linkedin.com/company/pluz-peru",
   "linkedin_cited_from": "https://www.pluz.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Marca de soluciones energéticas residenciales de Enel Perú (Pluz).",
@@ -1336,6 +1360,7 @@
   "linkedin": "https://www.linkedin.com/company/danperperu",
   "linkedin_url": "https://www.linkedin.com/company/danperperu",
   "linkedin_cited_from": "https://danper.com",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Agroexportadora peruana; demanda de innovación en agua, adaptación climática y cadena agrícola.",
@@ -1407,6 +1432,7 @@
   "linkedin": "https://www.linkedin.com/company/gold-fields",
   "linkedin_url": "https://www.linkedin.com/company/gold-fields",
   "linkedin_cited_from": "https://www.goldfields.com",
+  "linkedin_accessed": "2026-10-22",
   "geo": {
    "lat": null,
    "lng": null,
@@ -1449,6 +1475,7 @@
   "linkedin": "https://www.linkedin.com/company/anglo-american",
   "linkedin_url": "https://www.linkedin.com/company/anglo-american",
   "linkedin_cited_from": "https://www.angloamerican.com",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Empresa / sector privado",
@@ -1536,6 +1563,7 @@
   "linkedin": "https://www.linkedin.com/company/camaradelima",
   "linkedin_url": "https://www.linkedin.com/company/camaradelima",
   "linkedin_cited_from": "https://www.camaralima.org.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Cámara o gremio",
@@ -1565,6 +1593,7 @@
   "linkedin": "https://www.linkedin.com/company/asociaci-n-de-exportadores-adex",
   "linkedin_url": "https://www.linkedin.com/company/asociaci-n-de-exportadores-adex",
   "linkedin_cited_from": "https://www.adexperu.org.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Gremio exportador nacional.",
@@ -1621,6 +1650,7 @@
   "linkedin": "https://www.linkedin.com/company/spr-peru",
   "linkedin_url": "https://www.linkedin.com/company/spr-peru",
   "linkedin_cited_from": "https://www.spr.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Gremio de energías renovables.",
@@ -1651,6 +1681,7 @@
   "linkedin": "https://www.linkedin.com/company/libelula",
   "linkedin_url": "https://www.linkedin.com/company/libelula",
   "linkedin_cited_from": "https://libelula.com.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Consultoría y acción climática empresarial",
@@ -1683,6 +1714,7 @@
   "linkedin": "https://www.linkedin.com/company/1134092",
   "linkedin_url": "https://www.linkedin.com/company/1134092",
   "linkedin_cited_from": "https://www.gob.pe/minam",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Actor público / regulador",
@@ -1717,6 +1749,7 @@
   "linkedin": "https://www.linkedin.com/company/ministerio-de-la-producci%C3%B3n-del-per%C3%BA",
   "linkedin_url": "https://www.linkedin.com/company/ministerio-de-la-producci%C3%B3n-del-per%C3%BA",
   "linkedin_cited_from": "https://www.gob.pe/produce",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Ministerio de pesca, acuicultura e industrias",
@@ -1734,6 +1767,7 @@
   "linkedin": "https://www.linkedin.com/company/midagri",
   "linkedin_url": "https://www.linkedin.com/company/midagri",
   "linkedin_cited_from": "https://www.gob.pe/midagri",
+  "linkedin_accessed": "2026-10-22",
   "sector": "private",
   "source": "Mapa de Actores Perú 2026",
   "geo": {
@@ -1775,6 +1809,7 @@
   "linkedin": "https://www.linkedin.com/company/ministerio-de-energ-a-y-minas",
   "linkedin_url": "https://www.linkedin.com/company/ministerio-de-energ-a-y-minas",
   "linkedin_cited_from": "https://www.gob.pe/minem",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Ministerio de energía, minería e hidrocarburos",
@@ -1792,6 +1827,7 @@
   "linkedin": "https://www.linkedin.com/company/ministerio-de-economia-y-finanzas-del-peru",
   "linkedin_url": "https://www.linkedin.com/company/ministerio-de-economia-y-finanzas-del-peru",
   "linkedin_cited_from": "https://www.gob.pe/mef",
+  "linkedin_accessed": "2026-10-22",
   "sector": "private",
   "source": "Mapa de Actores Perú 2026",
   "geo": {
@@ -1863,6 +1899,7 @@
   "linkedin": "https://www.linkedin.com/company/smvperu",
   "linkedin_url": "https://www.linkedin.com/company/smvperu",
   "linkedin_cited_from": "https://www.gob.pe/smv",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Actor público / regulador",
@@ -1895,6 +1932,7 @@
   "linkedin": "https://www.linkedin.com/company/445002",
   "linkedin_url": "https://www.linkedin.com/company/445002",
   "linkedin_cited_from": "https://www.gob.pe/osinergmin",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Actor público / regulador",
@@ -1927,6 +1965,7 @@
   "linkedin": "https://www.linkedin.com/company/sunass-oficial",
   "linkedin_url": "https://www.linkedin.com/company/sunass-oficial",
   "linkedin_cited_from": "https://www.gob.pe/sunass",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Actor público / regulador",
@@ -1944,6 +1983,7 @@
   "linkedin": "https://www.linkedin.com/company/proinnovateperu",
   "linkedin_url": "https://www.linkedin.com/company/proinnovateperu",
   "linkedin_cited_from": "https://www.gob.pe/proinnovate",
+  "linkedin_accessed": "2026-10-22",
   "challenges": [
    "BOS",
    "FIN"
@@ -1977,6 +2017,7 @@
   "linkedin": "https://www.linkedin.com/company/mtc-peru",
   "linkedin_url": "https://www.linkedin.com/company/mtc-peru",
   "linkedin_cited_from": "https://www.gob.pe/institucion/mtc/contacto-y-numeros-de-emergencias",
+  "linkedin_accessed": "2026-10-22",
   "geo": {
    "precision": "address",
    "address": "Av. Antonio Miró Quesada 425",
@@ -2020,6 +2061,7 @@
   "linkedin": "https://www.linkedin.com/company/cofide",
   "linkedin_url": "https://www.linkedin.com/company/cofide",
   "linkedin_cited_from": "https://www.cofide.com.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Banco de desarrollo y fondo de fondos que articula financiamiento, capital de riesgo y programas como el FCEI en el ecosistema de innovación.",
@@ -2082,6 +2124,7 @@
   "linkedin": "https://www.linkedin.com/company/agroideas-del-minagri",
   "linkedin_url": "https://www.linkedin.com/company/agroideas-del-minagri",
   "linkedin_cited_from": "https://www.gob.pe/agroideas",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Programa público de competitividad agraria.",
@@ -2128,6 +2171,7 @@
   "linkedin": "https://www.linkedin.com/company/inaigem",
   "linkedin_url": "https://www.linkedin.com/company/inaigem",
   "linkedin_cited_from": "https://www.gob.pe/inaigem",
+  "linkedin_accessed": "2026-10-22",
   "sector": "private",
   "source": "Mapa de Actores Perú 2026",
   "challenges": [
@@ -2171,6 +2215,7 @@
   "linkedin": "https://www.linkedin.com/company/autoridad-nacional-del-agua",
   "linkedin_url": "https://www.linkedin.com/company/autoridad-nacional-del-agua",
   "linkedin_cited_from": "https://www.gob.pe/ana",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Autoridad nacional del agua.",
@@ -2234,6 +2279,7 @@
   "linkedin": "https://www.linkedin.com/company/servicio-nacional-forestal-y-de-fauna-silvestre",
   "linkedin_url": "https://www.linkedin.com/company/servicio-nacional-forestal-y-de-fauna-silvestre",
   "linkedin_cited_from": "https://www.gob.pe/serfor",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Actor público / regulador",
@@ -2251,6 +2297,7 @@
   "linkedin": "https://www.linkedin.com/company/servicio-nacional-de-%C3%A1reas-naturales-protegidas-por-el-estado-sernanp",
   "linkedin_url": "https://www.linkedin.com/company/servicio-nacional-de-%C3%A1reas-naturales-protegidas-por-el-estado-sernanp",
   "linkedin_cited_from": "https://www.gob.pe/sernanp",
+  "linkedin_accessed": "2026-10-22",
   "challenges": [
    "AGU",
    "ARG"
@@ -2284,6 +2331,7 @@
   "linkedin": "https://www.linkedin.com/company/programa-nacional-de-conservaci-n-de-bosques",
   "linkedin_url": "https://www.linkedin.com/company/programa-nacional-de-conservaci-n-de-bosques",
   "linkedin_cited_from": "https://www.gob.pe/bosques",
+  "linkedin_accessed": "2026-10-22",
   "geo": {
    "precision": "address",
    "address": "Av. Antonio Miró Quesada 425",
@@ -2311,6 +2359,7 @@
   "linkedin": "https://www.linkedin.com/company/proinversionpe",
   "linkedin_url": "https://www.linkedin.com/company/proinversionpe",
   "linkedin_cited_from": "https://www.gob.pe/proinversion",
+  "linkedin_accessed": "2026-10-22",
   "sector": "private",
   "source": "Mapa de Actores Perú 2026",
   "challenges": [
@@ -2349,6 +2398,7 @@
   "linkedin": "https://www.linkedin.com/company/392025",
   "linkedin_url": "https://www.linkedin.com/company/392025",
   "linkedin_cited_from": "https://www.gob.pe/promperu",
+  "linkedin_accessed": "2026-10-22",
   "challenges": [
    "AGR",
    "AGU",
@@ -2399,6 +2449,7 @@
   "linkedin": "https://www.linkedin.com/company/agencia-peruana-de-cooperaci%C3%B3n-internacional-apci",
   "linkedin_url": "https://www.linkedin.com/company/agencia-peruana-de-cooperaci%C3%B3n-internacional-apci",
   "linkedin_cited_from": "https://www.gob.pe/apci",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Cooperación internacional del Estado peruano.",
@@ -2432,6 +2483,7 @@
   "linkedin": "https://www.linkedin.com/company/imarpe",
   "linkedin_url": "https://www.linkedin.com/company/imarpe",
   "linkedin_cited_from": "https://www.gob.pe/imarpe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Instituto de investigación pesquera del Estado peruano",
@@ -2464,6 +2516,7 @@
   "linkedin": "https://www.linkedin.com/company/11388890",
   "linkedin_url": "https://www.linkedin.com/company/11388890",
   "linkedin_cited_from": "https://www.gob.pe/sanipes",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Actor público / regulador",
@@ -2737,6 +2790,7 @@
   "linkedin": "https://www.linkedin.com/company/pucp",
   "linkedin_url": "https://www.linkedin.com/company/pucp",
   "linkedin_cited_from": "https://www.pucp.edu.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Universidad de investigación y emprendimiento (Nexum/CIDE)",
@@ -3040,6 +3094,7 @@
   "linkedin": "https://www.linkedin.com/company/leer-no-basta",
   "linkedin_url": "https://www.linkedin.com/company/leer-no-basta",
   "linkedin_cited_from": "https://grade.org.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Centro de investigación aplicada en economía, políticas públicas y desarrollo.",
@@ -3076,6 +3131,7 @@
   "linkedin": "https://www.linkedin.com/company/metaredx-by-universia",
   "linkedin_url": "https://www.linkedin.com/company/metaredx-by-universia",
   "linkedin_cited_from": "https://www.metaredx.org/pe/index.html",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Red universitaria de emprendimiento (Universia / Santander)",
@@ -3207,6 +3263,7 @@
   "linkedin": "https://www.linkedin.com/company/bioincubaperu",
   "linkedin_url": "https://www.linkedin.com/company/bioincubaperu",
   "linkedin_cited_from": "https://bioincuba.cayetano.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Incubadora universitaria en biotecnología.",
@@ -3270,6 +3327,7 @@
   "linkedin": "https://www.linkedin.com/company/11111803",
   "linkedin_url": "https://www.linkedin.com/company/11111803",
   "linkedin_cited_from": "https://1551.unmsm.edu.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Aceleradora, incubadora o programa de apoyo",
@@ -3287,6 +3345,7 @@
   "linkedin": "https://www.linkedin.com/company/cide-pucp",
   "linkedin_url": "https://www.linkedin.com/company/cide-pucp",
   "linkedin_cited_from": "https://cide.pucp.edu.pe/",
+  "linkedin_accessed": "2026-10-22",
   "sector": "private",
   "source": "Mapa de Actores Perú 2026",
   "challenges": [
@@ -3334,6 +3393,7 @@
   "linkedin": "https://www.linkedin.com/company/startup-uni",
   "linkedin_url": "https://www.linkedin.com/company/startup-uni",
   "linkedin_cited_from": "https://startup.uni.edu.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Aceleradora, incubadora o programa de apoyo",
@@ -3381,6 +3441,7 @@
   "linkedin": "https://www.linkedin.com/company/camaraperuanobritanica",
   "linkedin_url": "https://www.linkedin.com/company/camaraperuanobritanica",
   "linkedin_cited_from": "https://www.ulima.edu.pe",
+  "linkedin_accessed": "2026-10-22",
   "sector": "civil",
   "source": "Mapa de Actores Perú 2026",
   "geo": {
@@ -3508,6 +3569,7 @@
   "linkedin": "https://www.linkedin.com/company/nesst",
   "linkedin_url": "https://www.linkedin.com/company/nesst",
   "linkedin_cited_from": "https://www.nesst.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Fondo e incubadora de empresas de impacto",
@@ -3539,6 +3601,7 @@
   "linkedin": "https://www.linkedin.com/company/endeavor-per%C3%BA",
   "linkedin_url": "https://www.linkedin.com/company/endeavor-per%C3%BA",
   "linkedin_cited_from": "https://endeavor.org.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Aceleradora global de emprendedores de alto impacto con oficina en Perú.",
@@ -3654,6 +3717,7 @@
   "linkedin": "https://www.linkedin.com/company/amazonas-start-up",
   "linkedin_url": "https://www.linkedin.com/company/amazonas-start-up",
   "linkedin_cited_from": "https://incubadora.untrm.edu.pe",
+  "linkedin_accessed": "2026-10-22",
   "challenges": [
    "AGR",
    "BOS"
@@ -3775,6 +3839,7 @@
   "linkedin": "https://www.linkedin.com/company/jaku-emprende-unsa",
   "linkedin_url": "https://www.linkedin.com/company/jaku-emprende-unsa",
   "linkedin_cited_from": "https://www.unsa.edu.pe/jaku/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Aceleradora, incubadora o programa de apoyo",
@@ -3920,6 +3985,7 @@
   "linkedin": "https://www.linkedin.com/company/incuval-ventures",
   "linkedin_url": "https://www.linkedin.com/company/incuval-ventures",
   "linkedin_cited_from": "https://incuvalventures.unheval.edu.pe",
+  "linkedin_accessed": "2026-10-22",
   "sector": "private",
   "source": "Mapa de Actores Perú 2026",
   "challenges": [
@@ -4047,6 +4113,7 @@
   "linkedin": "https://www.linkedin.com/company/1873842",
   "linkedin_url": "https://www.linkedin.com/company/1873842",
   "linkedin_cited_from": "https://www.natureservices.net",
+  "linkedin_accessed": "2026-10-22",
   "sector": "private",
   "source": "Mapa de Actores Perú 2026",
   "challenges": [
@@ -4093,6 +4160,7 @@
   "linkedin": "https://www.linkedin.com/company/asociaci%C3%B3n-arbio-amazonia",
   "linkedin_url": "https://www.linkedin.com/company/asociaci%C3%B3n-arbio-amazonia",
   "linkedin_cited_from": "https://www.arbioperu.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "ONG o fundación",
@@ -4224,6 +4292,7 @@
   "linkedin": "https://www.linkedin.com/company/spdaorg",
   "linkedin_url": "https://www.linkedin.com/company/spdaorg",
   "linkedin_cited_from": "https://spda.org.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "ONG o fundación",
@@ -4278,6 +4347,7 @@
   "linkedin": "https://www.linkedin.com/company/81309540",
   "linkedin_url": "https://www.linkedin.com/company/81309540",
   "linkedin_cited_from": "https://accion-andina.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "ONG o fundación",
@@ -4332,6 +4402,7 @@
   "linkedin": "https://www.linkedin.com/company/fundacionwiesepe",
   "linkedin_url": "https://www.linkedin.com/company/fundacionwiesepe",
   "linkedin_cited_from": "https://www.fundacionwiese.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Fundación peruana de educación, patrimonio y emprendimiento con impacto comunitario.",
@@ -4358,6 +4429,7 @@
   "linkedin": "https://www.linkedin.com/company/11015767",
   "linkedin_url": "https://www.linkedin.com/company/11015767",
   "linkedin_cited_from": "https://www.fundacionmicrofinanzasbbva.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Iniciativa filantrópica del Grupo BBVA para microfinanzas e inclusión financiera en América Latina.",
@@ -4375,6 +4447,7 @@
   "linkedin": "https://www.linkedin.com/company/fundacion-belcorp",
   "linkedin_url": "https://www.linkedin.com/company/fundacion-belcorp",
   "linkedin_cited_from": "https://www.belcorp.com/fundacionbelcorp",
+  "linkedin_accessed": "2026-10-22",
   "challenges": [
    "AZU",
    "BOS"
@@ -4421,6 +4494,7 @@
   "linkedin": "https://www.linkedin.com/company/asociaci%C3%B3nunacem",
   "linkedin_url": "https://www.linkedin.com/company/asociaci%C3%B3nunacem",
   "linkedin_cited_from": "https://asociacionunacem.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "ONG o fundación",
@@ -4475,6 +4549,7 @@
   "linkedin": "https://www.linkedin.com/company/care-peru",
   "linkedin_url": "https://www.linkedin.com/company/care-peru",
   "linkedin_cited_from": "https://care.org.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "ONG o fundación",
@@ -4518,6 +4593,7 @@
   "linkedin": "https://www.linkedin.com/company/helvetas-peru",
   "linkedin_url": "https://www.linkedin.com/company/helvetas-peru",
   "linkedin_cited_from": "https://www.helvetas.org/es/peru",
+  "linkedin_accessed": "2026-10-22",
   "sector": "private",
   "source": "Mapa de Actores Perú 2026",
   "geo": {
@@ -4588,6 +4664,7 @@
   "linkedin": "https://www.linkedin.com/company/perusostenible",
   "linkedin_url": "https://www.linkedin.com/company/perusostenible",
   "linkedin_cited_from": "https://perusostenible.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Red empresarial por el desarrollo sostenible",
@@ -4618,6 +4695,7 @@
   "linkedin": "https://www.linkedin.com/company/sistemabarg",
   "linkedin_url": "https://www.linkedin.com/company/sistemabarg",
   "linkedin_cited_from": "https://www.sistemab.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "ONG o fundación",
@@ -4647,6 +4725,7 @@
   "linkedin": "https://www.linkedin.com/company/25071544",
   "linkedin_url": "https://www.linkedin.com/company/25071544",
   "linkedin_cited_from": "https://www.lmas1.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Iniciativa global de agricultura sostenible (L+1)",
@@ -4678,6 +4757,7 @@
   "linkedin": "https://www.linkedin.com/company/5043453",
   "linkedin_url": "https://www.linkedin.com/company/5043453",
   "linkedin_cited_from": "https://www.conservamospornaturaleza.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Plataforma de comunicación y movilización ciudadana a favor de la conservación del patrimonio natural peruano.",
@@ -4747,6 +4827,7 @@
   "linkedin": "https://www.linkedin.com/company/diario-gesti%C3%B3n",
   "linkedin_url": "https://www.linkedin.com/company/diario-gesti%C3%B3n",
   "linkedin_cited_from": "https://gestion.pe",
+  "linkedin_accessed": "2026-10-22",
   "sector": "private",
   "source": "Mapa de Actores Perú 2026",
   "challenges": [
@@ -4791,6 +4872,7 @@
   "linkedin": "https://www.linkedin.com/company/76100786",
   "linkedin_url": "https://www.linkedin.com/company/76100786",
   "linkedin_cited_from": "https://agraria.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Medio especializado en agro y ruralidad.",
@@ -4850,6 +4932,7 @@
   "linkedin": "https://www.linkedin.com/company/ifclinkedin",
   "linkedin_url": "https://www.linkedin.com/company/ifclinkedin",
   "linkedin_cited_from": "https://www.ifc.org/en/home",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Brazo privado del Grupo Banco Mundial — inversión y asesoría",
@@ -4884,6 +4967,7 @@
   "linkedin": "https://www.linkedin.com/company/caf",
   "linkedin_url": "https://www.linkedin.com/company/caf",
   "linkedin_cited_from": "https://www.caf.com/es/quienes-somos/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Banco de desarrollo multilateral regional.",
@@ -4912,6 +4996,7 @@
   "linkedin": "https://www.linkedin.com/company/the-world-bank",
   "linkedin_url": "https://www.linkedin.com/company/the-world-bank",
   "linkedin_cited_from": "https://www.worldbank.org/en/about/annual-report",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Organización internacional o cooperación",
@@ -4973,6 +5058,7 @@
   "linkedin": "https://www.linkedin.com/company/9360",
   "linkedin_url": "https://www.linkedin.com/company/9360",
   "linkedin_cited_from": "https://www.eib.org/en/index",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Organización internacional o cooperación",
@@ -5077,6 +5163,7 @@
   "linkedin": "https://www.linkedin.com/company/gggi-asia",
   "linkedin_url": "https://www.linkedin.com/company/gggi-asia",
   "linkedin_cited_from": "https://gggi.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Instituto intergubernamental de crecimiento verde y transición climática.",
@@ -5107,6 +5194,7 @@
   "linkedin": "https://www.linkedin.com/company/un-habitat-united-nation-human-settlements-programme-",
   "linkedin_url": "https://www.linkedin.com/company/un-habitat-united-nation-human-settlements-programme-",
   "linkedin_cited_from": "https://unhabitat.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Programa de las Naciones Unidas para asentamientos humanos",
@@ -5158,6 +5246,7 @@
   "linkedin": "https://www.linkedin.com/company/gizgmbh",
   "linkedin_url": "https://www.linkedin.com/company/gizgmbh",
   "linkedin_cited_from": "https://www.giz.de/de",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Cooperación técnica alemana para desarrollo sostenible en Perú.",
@@ -5212,6 +5301,7 @@
   "linkedin": "https://www.linkedin.com/company/european-commission",
   "linkedin_url": "https://www.linkedin.com/company/european-commission",
   "linkedin_cited_from": "https://international-partnerships.ec.europa.eu/policies/global-gateway/euroclima_en",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Organización internacional o cooperación",
@@ -5244,6 +5334,7 @@
   "linkedin": "https://www.linkedin.com/company/agencia-espa-ola-de-cooperacion-internacional---aecid",
   "linkedin_url": "https://www.linkedin.com/company/agencia-espa-ola-de-cooperacion-internacional---aecid",
   "linkedin_cited_from": "https://www.aecid.es",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Cooperación internacional (España).",
@@ -5301,6 +5392,7 @@
   "linkedin": "https://www.linkedin.com/company/japan-international-cooperation-agency-jica-",
   "linkedin_url": "https://www.linkedin.com/company/japan-international-cooperation-agency-jica-",
   "linkedin_cited_from": "https://www.jica.go.jp",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Agencia de cooperación internacional de Japón",
@@ -5362,6 +5454,7 @@
   "linkedin": "https://www.linkedin.com/company/ahk-peru-camara-peruano-alemana",
   "linkedin_url": "https://www.linkedin.com/company/ahk-peru-camara-peruano-alemana",
   "linkedin_cited_from": "https://peru.ahk.de/de",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Cámara o gremio",
@@ -5395,6 +5488,7 @@
   "linkedin": "https://www.linkedin.com/company/amchamperu",
   "linkedin_url": "https://www.linkedin.com/company/amchamperu",
   "linkedin_cited_from": "https://amcham.org.pe/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Cámara bilateral Perú–Estados Unidos.",
@@ -5422,6 +5516,7 @@
   "linkedin": "https://www.linkedin.com/company/c%C3%A1mara-de-comercio-canad%C3%A1-per%C3%BA",
   "linkedin_url": "https://www.linkedin.com/company/c%C3%A1mara-de-comercio-canad%C3%A1-per%C3%BA",
   "linkedin_cited_from": "https://canadaperu.org/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Cámara bilateral Canadá–Perú.",
@@ -5455,6 +5550,7 @@
   "linkedin": "https://www.linkedin.com/company/conservation-international",
   "linkedin_url": "https://www.linkedin.com/company/conservation-international",
   "linkedin_cited_from": "https://www.conservation.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Organización internacional de conservación de ecosistemas y biodiversidad con programas en Perú.",
@@ -5485,6 +5581,7 @@
   "linkedin": "https://www.linkedin.com/company/wwfperu",
   "linkedin_url": "https://www.linkedin.com/company/wwfperu",
   "linkedin_cited_from": "https://www.wwf.org.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Organización internacional o cooperación",
@@ -5514,6 +5611,7 @@
   "linkedin": "https://www.linkedin.com/company/the-nature-conservancy",
   "linkedin_url": "https://www.linkedin.com/company/the-nature-conservancy",
   "linkedin_cited_from": "https://www.nature.org/en-us/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Organización internacional o cooperación",
@@ -5525,7 +5623,7 @@
   "name": "Forest Trends",
   "type": "org",
   "category": "international",
-  "country": "Peru",
+  "country": "United States",
   "city": "Washington",
   "website": "https://www.forest-trends.org",
   "sector": "private",
@@ -5542,6 +5640,7 @@
   "linkedin": "https://www.linkedin.com/company/forest-trends-association",
   "linkedin_url": "https://www.linkedin.com/company/forest-trends-association",
   "linkedin_cited_from": "https://www.forest-trends.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Organización internacional que impulsa finanzas e instrumentos de mercado para la conservación.",
@@ -5575,6 +5674,7 @@
   "linkedin": "https://www.linkedin.com/company/rainforest-alliance",
   "linkedin_url": "https://www.linkedin.com/company/rainforest-alliance",
   "linkedin_cited_from": "https://www.rainforest-alliance.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Organización internacional o cooperación",
@@ -5631,6 +5731,7 @@
   "linkedin": "https://www.linkedin.com/company/pvblicfoundation",
   "linkedin_url": "https://www.linkedin.com/company/pvblicfoundation",
   "linkedin_cited_from": "https://www.pvblic.org/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Organización internacional o cooperación",
@@ -5659,6 +5760,7 @@
   "linkedin": "https://www.linkedin.com/company/cleantechhub",
   "linkedin_url": "https://www.linkedin.com/company/cleantechhub",
   "linkedin_cited_from": "https://cleantechhub.net",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Aceleradora de innovación climática: diagnóstico verde, aceleración, financiamiento e inversión de impacto en LATAM.",
@@ -5824,6 +5926,7 @@
   "linkedin": "https://www.linkedin.com/company/pomona-impact",
   "linkedin_url": "https://www.linkedin.com/company/pomona-impact",
   "linkedin_cited_from": "https://pomonaimpact.com",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Fondo de impacto que invierte en empresas con retorno social y ambiental en Centroamérica.",
@@ -5850,6 +5953,7 @@
   "linkedin": "https://www.linkedin.com/company/55046457",
   "linkedin_url": "https://www.linkedin.com/company/55046457",
   "linkedin_cited_from": "https://www.viwala.com/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Plataforma fintech de financiamiento para PYMEs en Latinoamérica.",
@@ -5969,6 +6073,7 @@
   "linkedin": "https://www.linkedin.com/company/bancatlan-sv",
   "linkedin_url": "https://www.linkedin.com/company/bancatlan-sv",
   "linkedin_cited_from": "https://www.bancoatlantida.com.sv",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Institución financiera",
@@ -5995,6 +6100,7 @@
   "linkedin": "https://www.linkedin.com/company/bancoagricola",
   "linkedin_url": "https://www.linkedin.com/company/bancoagricola",
   "linkedin_cited_from": "https://www.bancoagricola.com",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Institución financiera",
@@ -6161,6 +6267,7 @@
   "linkedin": "https://www.linkedin.com/company/bcie",
   "linkedin_url": "https://www.linkedin.com/company/bcie",
   "linkedin_cited_from": "https://www.bcie.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "BCIE financia desarrollo regional; el programa de capital semilla apoya emprendimiento e innovación en la región.",
@@ -6271,6 +6378,7 @@
   "linkedin": "https://www.linkedin.com/company/ternovagroup",
   "linkedin_url": "https://www.linkedin.com/company/ternovagroup",
   "linkedin_cited_from": "https://www.ternova.group/circular-solutions",
+  "linkedin_accessed": "2026-10-22",
   "geo": {
    "lat": null,
    "lng": null,
@@ -6298,6 +6406,7 @@
   "linkedin": "https://www.linkedin.com/company/ipsa-latinoamerica2018",
   "linkedin_url": "https://www.linkedin.com/company/ipsa-latinoamerica2018",
   "linkedin_cited_from": "https://ipsalatinoamerica.com",
+  "linkedin_accessed": "2026-10-22",
   "geo": {
    "lat": 13.483455,
    "lng": -88.167355,
@@ -6333,6 +6442,7 @@
   "linkedin": "https://www.linkedin.com/company/ternovagroup",
   "linkedin_url": "https://www.linkedin.com/company/ternovagroup",
   "linkedin_cited_from": "https://www.ternova.group",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Grupo corporativo de empaques, reciclaje y capital con operaciones en Centroamérica.",
@@ -6359,6 +6469,7 @@
   "linkedin": "https://www.linkedin.com/company/agrisal",
   "linkedin_url": "https://www.linkedin.com/company/agrisal",
   "linkedin_cited_from": "https://agrisal.com",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Grupo empresarial diversificado (inmobiliario, hotelero, agroindustrial).",
@@ -6376,6 +6487,7 @@
   "linkedin": "https://www.linkedin.com/company/la-constancia-sv",
   "linkedin_url": "https://www.linkedin.com/company/la-constancia-sv",
   "linkedin_cited_from": "https://www.laconstancia.com/",
+  "linkedin_accessed": "2026-10-22",
   "geo": {
    "lat": 13.695344,
    "lng": -89.241578,
@@ -6402,6 +6514,7 @@
   "linkedin": "https://www.linkedin.com/company/grupo-ferromax",
   "linkedin_url": "https://www.linkedin.com/company/grupo-ferromax",
   "linkedin_cited_from": "https://grupoferromax.com",
+  "linkedin_accessed": "2026-10-22",
   "geo": {
    "lat": null,
    "lng": null,
@@ -6460,6 +6573,7 @@
   "linkedin": "https://www.linkedin.com/company/aeselsalvador",
   "linkedin_url": "https://www.linkedin.com/company/aeselsalvador",
   "linkedin_cited_from": "https://www.aes-elsalvador.com/es",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Empresa / sector privado",
@@ -6486,6 +6600,7 @@
   "linkedin": "https://www.linkedin.com/company/27249850",
   "linkedin_url": "https://www.linkedin.com/company/27249850",
   "linkedin_cited_from": "https://camarasal.com",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Cámara de comercio e industria: servicios empresariales, representación y promoción del comercio.",
@@ -6581,6 +6696,7 @@
   "linkedin": "https://www.linkedin.com/company/asociacion-salvadore-a-de-industriales",
   "linkedin_url": "https://www.linkedin.com/company/asociacion-salvadore-a-de-industriales",
   "linkedin_cited_from": "https://industriaelsalvador.com/contacto/",
+  "linkedin_accessed": "2026-10-22",
   "geo": {
    "lat": null,
    "lng": null,
@@ -6732,6 +6848,7 @@
   "linkedin": "https://www.linkedin.com/company/investinelsalvador",
   "linkedin_url": "https://www.linkedin.com/company/investinelsalvador",
   "linkedin_cited_from": "https://investinelsalvador.gob.sv/es",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Agencia gubernamental de promoción de inversiones y exportaciones.",
@@ -6781,6 +6898,7 @@
   "linkedin": "https://www.linkedin.com/company/ihsansalvador",
   "linkedin_url": "https://www.linkedin.com/company/ihsansalvador",
   "linkedin_cited_from": "https://sansalvador.impacthub.net",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Red global de espacios de coworking y aceleración para emprendimiento de impacto.",
@@ -6807,6 +6925,7 @@
   "linkedin": "https://www.linkedin.com/company/pvblicfoundation",
   "linkedin_url": "https://www.linkedin.com/company/pvblicfoundation",
   "linkedin_cited_from": "https://www.pvblic.org/rein-hubs",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {
    "hub_slug": "el-salvador"
   },
@@ -6858,6 +6977,7 @@
   "linkedin": "https://www.linkedin.com/company/snbxsv",
   "linkedin_url": "https://www.linkedin.com/company/snbxsv",
   "linkedin_cited_from": "https://snbx.sv",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Aceleradora y espacio de innovación para startups en El Salvador.",
@@ -6884,6 +7004,7 @@
   "linkedin": "https://www.linkedin.com/company/fundacion-gloria-kriete",
   "linkedin_url": "https://www.linkedin.com/company/fundacion-gloria-kriete",
   "linkedin_cited_from": "https://fundaciongloriakriete.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Programa de incubación empresarial de la Fundación Gloria Kriete.",
@@ -6981,6 +7102,7 @@
   "linkedin": "https://www.linkedin.com/company/keyinstitutesv",
   "linkedin_url": "https://www.linkedin.com/company/keyinstitutesv",
   "linkedin_cited_from": "https://www.keyinstitute.com/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Instituto de educación superior en ingeniería y ciencias.",
@@ -7251,6 +7373,7 @@
   "linkedin": "https://www.linkedin.com/company/fundacion-gloria-kriete",
   "linkedin_url": "https://www.linkedin.com/company/fundacion-gloria-kriete",
   "linkedin_cited_from": "https://fundaciongloriakriete.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Fundación sin fines de lucro para desarrollo integral en El Salvador.",
@@ -7407,6 +7530,7 @@
   "linkedin": "https://www.linkedin.com/company/grupo-banco-mundial",
   "linkedin_url": "https://www.linkedin.com/company/grupo-banco-mundial",
   "linkedin_cited_from": "https://www.bancomundial.org/ext/es/country/elsalvador",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Cooperación internacional para reducción de pobreza, empleo y resiliencia climática en El Salvador.",
@@ -7466,6 +7590,7 @@
   "linkedin": "https://www.linkedin.com/company/gggi-asia",
   "linkedin_url": "https://www.linkedin.com/company/gggi-asia",
   "linkedin_cited_from": "https://gggi.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Instituto intergubernamental que apoya crecimiento verde e inclusivo.",
@@ -7541,6 +7666,7 @@
   "linkedin": "https://www.linkedin.com/company/gizgmbh",
   "linkedin_url": "https://www.linkedin.com/company/gizgmbh",
   "linkedin_cited_from": "https://www.giz.de/de",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Cooperación técnica alemana para desarrollo sostenible en El Salvador.",
@@ -7679,6 +7805,7 @@
   "linkedin": "https://www.linkedin.com/company/ministerio-de-asuntos-exteriores-union-europea-y-cooperacion",
   "linkedin_url": "https://www.linkedin.com/company/ministerio-de-asuntos-exteriores-union-europea-y-cooperacion",
   "linkedin_cited_from": "https://www.exteriores.gob.es/Embajadas/sansalvador/es/Paginas/index.aspx",
+  "linkedin_accessed": "2026-10-22",
   "geo": {
    "lat": null,
    "lng": null,
@@ -7737,6 +7864,7 @@
   "linkedin": "https://www.linkedin.com/company/fenoge",
   "linkedin_url": "https://www.linkedin.com/company/fenoge",
   "linkedin_cited_from": "https://fenoge.gov.co",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Fondo público de financiamiento en ERNC y eficiencia energética.",
@@ -7765,6 +7893,7 @@
   "linkedin": "https://www.linkedin.com/company/bancoldex",
   "linkedin_url": "https://www.linkedin.com/company/bancoldex",
   "linkedin_cited_from": "https://www.bancoldex.com",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Banco de desarrollo empresarial y financiamiento productivo.",
@@ -7777,7 +7906,7 @@
   "name": "GCF – Green Climate Fund",
   "type": "org",
   "category": "international",
-  "country": "Colombia",
+  "country": "South Korea",
   "city": "Incheon",
   "website": "https://www.greenclimate.fund",
   "geo": {
@@ -7794,6 +7923,7 @@
   "linkedin": "https://www.linkedin.com/company/green-climate-fund",
   "linkedin_url": "https://www.linkedin.com/company/green-climate-fund",
   "linkedin_cited_from": "https://www.greenclimate.fund",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Fondo climático internacional del marco de la CMNUCC.",
@@ -7806,7 +7936,7 @@
   "name": "CIF – Climate Investment Funds",
   "type": "org",
   "category": "international",
-  "country": "Colombia",
+  "country": "United States",
   "city": "Washington",
   "website": "https://www.cif.org",
   "geo": {
@@ -7847,6 +7977,7 @@
   "linkedin": "https://www.linkedin.com/company/minenergia",
   "linkedin_url": "https://www.linkedin.com/company/minenergia",
   "linkedin_cited_from": "https://www.minenergia.gov.co/es/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Ministerio rector del sector minero-energético y políticas de transición en Colombia.",
@@ -7873,6 +8004,7 @@
   "linkedin": "https://www.linkedin.com/company/comisi%C3%B3n-de-regulaci%C3%B3n-de-energ%C3%ADa-y-gas-creg",
   "linkedin_url": "https://www.linkedin.com/company/comisi%C3%B3n-de-regulaci%C3%B3n-de-energ%C3%ADa-y-gas-creg",
   "linkedin_cited_from": "https://creg.gov.co/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Actor público / regulador",
@@ -7900,6 +8032,7 @@
   "linkedin": "https://www.linkedin.com/company/unidad-de-planeaci-n-minero-energ-tica",
   "linkedin_url": "https://www.linkedin.com/company/unidad-de-planeaci-n-minero-energ-tica",
   "linkedin_cited_from": "https://www.upme.gov.co/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Planeación y estudios del sector minero-energético en Colombia.",
@@ -7915,7 +8048,7 @@
   "city": "Bogotá",
   "website": "https://ipse.gov.co",
   "sector": "private",
-  "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
+  "source": "Mapa de Actores Perú 2026",
   "geo": {
    "lat": null,
    "lng": null,
@@ -7928,6 +8061,7 @@
   "linkedin": "https://www.linkedin.com/company/ipse-zni",
   "linkedin_url": "https://www.linkedin.com/company/ipse-zni",
   "linkedin_cited_from": "https://ipse.gov.co",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Entidad pública de soluciones energéticas en ZNI.",
@@ -7977,13 +8111,13 @@
   "sector": "private",
   "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
   "geo": {
-   "lat": 4.657366,
-   "lng": -74.055568,
+   "precision": "address",
    "address": "Carrera 9 No. 73-44, piso 6",
    "city": "Bogotá",
    "country": "Colombia",
-   "precision": "address",
-   "source_url": "https://www.grupoenergiabogota.com"
+   "source_url": "https://www.grupoenergiabogota.com",
+   "lat": 4.657366,
+   "lng": -74.055568
   },
   "nexus": {},
   "card": {
@@ -8063,13 +8197,13 @@
   "sector": "private",
   "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
   "geo": {
-   "lat": 6.280276,
-   "lng": -75.567061,
+   "precision": "address",
    "address": "Carrera 58 No. 42-125",
    "city": "Medellín",
    "country": "Colombia",
-   "precision": "address",
-   "source_url": "https://www.epm.com.co"
+   "source_url": "https://www.epm.com.co",
+   "lat": 6.280276,
+   "lng": -75.567061
   },
   "nexus": {},
   "card": {
@@ -8222,2007 +8356,6 @@
   "linkedin": "https://www.linkedin.com/company/alpina/"
  },
  {
-  "id": "co-minambiente",
-  "name": "MinAmbiente",
-  "type": "org",
-  "category": "government",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.minambiente.gov.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "National environment ministry; leads climate policy and SISCLIMA.",
-   "description": "National environment ministry; leads climate policy and SISCLIMA."
-  }
- },
- {
-  "id": "co-anla",
-  "name": "ANLA",
-  "type": "org",
-  "category": "government",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.anla.gov.co/",
-  "geo": {
-   "lat": 4.612874,
-   "lng": -74.072666,
-   "address": "Carrera 13A # 34 - 72 Bogotá D.C",
-   "city": "Bogotá",
-   "country": "Colombia",
-   "precision": "address",
-   "source_url": "https://www.anla.gov.co"
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "National environmental licensing authority.",
-   "description": "National environmental licensing authority."
-  }
- },
- {
-  "id": "co-ideam",
-  "name": "IDEAM",
-  "type": "org",
-  "category": "government",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.ideam.gov.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Hydrology, meteorology and environmental studies institute.",
-   "description": "Hydrology, meteorology and environmental studies institute."
-  }
- },
- {
-  "id": "co-parques-nacionales-naturales-de-colombia",
-  "name": "Parques Nacionales Naturales de Colombia",
-  "type": "org",
-  "category": "government",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.parquesnacionales.gov.co/",
-  "geo": {
-   "lat": 4.698047,
-   "lng": -74.105384,
-   "address": "Calle 74 # 11 - 81 Bogotá",
-   "city": "Bogotá",
-   "country": "Colombia",
-   "precision": "address",
-   "source_url": "https://www.parquesnacionales.gov.co"
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Public agency managing Colombia's protected areas system (SINAP).",
-   "description": "Public agency managing Colombia's protected areas system (SINAP)."
-  }
- },
- {
-  "id": "co-dnp",
-  "name": "DNP",
-  "type": "org",
-  "category": "government",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.dnp.gov.co/",
-  "geo": {
-   "lat": 7.879712,
-   "lng": -72.48645,
-   "address": "Calle 26 # 13-19",
-   "city": "Bogotá",
-   "country": "Colombia",
-   "precision": "address",
-   "source_url": "https://www.dnp.gov.co"
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "National Planning Department; coordinates long-term development and climate planning.",
-   "description": "National Planning Department; coordinates long-term development and climate planning."
-  }
- },
- {
-  "id": "co-minciencias",
-  "name": "MinCiencias",
-  "type": "org",
-  "category": "government",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://minciencias.gov.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Science ministry funding R&D and innovation for sustainable development.",
-   "description": "Science ministry funding R&D and innovation for sustainable development."
-  }
- },
- {
-  "id": "co-innpulsa-colombia",
-  "name": "iNNpulsa Colombia",
-  "type": "org",
-  "category": "accelerator",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.innpulsacolombia.com/",
-  "geo": {
-   "lat": 4.616162,
-   "lng": -74.07107,
-   "address": "Calle 28 N° 13A",
-   "city": "Bogotá",
-   "country": "Colombia",
-   "precision": "address",
-   "source_url": "https://www.innpulsacolombia.com"
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "National entrepreneurship and innovation agency (ALDEA, productivity programs).",
-   "description": "National entrepreneurship and innovation agency (ALDEA, productivity programs)."
-  }
- },
- {
-  "id": "co-hubbog",
-  "name": "HubBOG",
-  "type": "org",
-  "category": "accelerator",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.hubbog.com/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Bogotá innovation campus and accelerator for digital startups.",
-   "description": "Bogotá innovation campus and accelerator for digital startups."
-  }
- },
- {
-  "id": "co-ruta-n",
-  "name": "Ruta N",
-  "type": "org",
-  "category": "accelerator",
-  "country": "Colombia",
-  "city": "Medellín",
-  "website": "https://rutanmedellin.org/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Medellín STI corporation: startup acceleration and open innovation.",
-   "description": "Medellín STI corporation: startup acceleration and open innovation."
-  }
- },
- {
-  "id": "co-connect-bogota-region",
-  "name": "Connect Bogotá Región",
-  "type": "org",
-  "category": "accelerator",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.connectbogota.org/",
-  "geo": {
-   "lat": 4.599312,
-   "lng": -74.088089,
-   "address": "Carrera 18 # 93 - 90",
-   "city": "Bogotá",
-   "country": "Colombia",
-   "precision": "address",
-   "source_url": "https://www.connectbogota.org"
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Regional innovation network; Springboard and open-innovation programs.",
-   "description": "Regional innovation network; Springboard and open-innovation programs."
-  }
- },
- {
-  "id": "co-apps-co",
-  "name": "APPS.CO",
-  "type": "org",
-  "category": "accelerator",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.apps.co/portal/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "MinTIC digital entrepreneurship program operated with iNNpulsa.",
-   "description": "MinTIC digital entrepreneurship program operated with iNNpulsa."
-  }
- },
- {
-  "id": "co-nido-distrito-de-innovacion-valle",
-  "name": "NIDO (Distrito de Innovación Valle)",
-  "type": "org",
-  "category": "accelerator",
-  "country": "Colombia",
-  "city": "Cali",
-  "website": "https://distritovalle.com/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Valle del Cauca incubation, acceleration and expansion platform.",
-   "description": "Valle del Cauca incubation, acceleration and expansion platform."
-  }
- },
- {
-  "id": "co-wayra-hispam-colombia-hub",
-  "name": "Wayra Hispam (Colombia hub)",
-  "type": "org",
-  "category": "accelerator",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://hispam.wayra.com/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Telefónica open innovation and corporate venture platform active in Colombia.",
-   "description": "Telefónica open innovation and corporate venture platform active in Colombia."
-  }
- },
- {
-  "id": "co-socialab-colombia",
-  "name": "Socialab Colombia",
-  "type": "org",
-  "category": "accelerator",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://colombia.socialab.com/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Open innovation and impact entrepreneurship programs with corporates and territories.",
-   "description": "Open innovation and impact entrepreneurship programs with corporates and territories."
-  }
- },
- {
-  "id": "co-fondo-emprender-sena",
-  "name": "Fondo Emprender (SENA)",
-  "type": "org",
-  "category": "accelerator",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.innovamos.gov.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "National entrepreneurship fund with innovation and digital-industry calls.",
-   "description": "National entrepreneurship fund with innovation and digital-industry calls."
-  }
- },
- {
-  "id": "co-colombia-potencia-digital-emprendimiento-digital",
-  "name": "Colombia Potencia Digital – Emprendimiento Digital",
-  "type": "org",
-  "category": "accelerator",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.mintic.gov.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "MinTIC–iNNpulsa program accelerating digital ventures nationwide.",
-   "description": "MinTIC–iNNpulsa program accelerating digital ventures nationwide."
-  }
- },
- {
-  "id": "co-pnud-colombia",
-  "name": "PNUD Colombia",
-  "type": "org",
-  "category": "international",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.undp.org/es/colombia",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "UNDP country office on climate adaptation, low-emissions capacity and territorial resilience.",
-   "description": "UNDP country office on climate adaptation, low-emissions capacity and territorial resilience."
-  }
- },
- {
-  "id": "co-onu-colombia",
-  "name": "ONU Colombia",
-  "type": "org",
-  "category": "international",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://colombia.un.org/",
-  "geo": {
-   "lat": 4.666431,
-   "lng": -74.051471,
-   "address": "Calle 84A # 10",
-   "city": "Bogotá",
-   "country": "Colombia",
-   "precision": "address",
-   "source_url": "https://colombia.un.org"
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "United Nations country team coordinating SDG and climate cooperation.",
-   "description": "United Nations country team coordinating SDG and climate cooperation."
-  }
- },
- {
-  "id": "co-banco-mundial-colombia",
-  "name": "Banco Mundial – Colombia",
-  "type": "org",
-  "category": "international",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.worldbank.org/ext/en/country/colombia",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "World Bank Group country program (climate, Amazon, disaster risk).",
-   "description": "World Bank Group country program (climate, Amazon, disaster risk)."
-  }
- },
- {
-  "id": "co-bid-colombia",
-  "name": "BID – Colombia",
-  "type": "org",
-  "category": "international",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.iadb.org/es/colombia",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Inter-American Development Bank country office.",
-   "description": "Inter-American Development Bank country office."
-  }
- },
- {
-  "id": "co-ifc-colombia",
-  "name": "IFC Colombia",
-  "type": "org",
-  "category": "international",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.ifc.org/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "IFC private-sector climate and infrastructure finance in Colombia.",
-   "description": "IFC private-sector climate and infrastructure finance in Colombia."
-  }
- },
- {
-  "id": "co-gef-global-environment-facility",
-  "name": "GEF – Global Environment Facility",
-  "type": "org",
-  "category": "international",
-  "country": "Colombia",
-  "city": "Washington",
-  "website": "https://www.thegef.org/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Global environment fund channelled via agencies for Colombia Amazon and adaptation projects.",
-   "description": "Global environment fund channelled via agencies for Colombia Amazon and adaptation projects."
-  }
- },
- {
-  "id": "co-wwf-colombia-gcf-accredited-entity-role",
-  "name": "WWF Colombia (GCF accredited entity role)",
-  "type": "org",
-  "category": "international",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.wwf.org.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Conservation NGO serving as executing partner on GCF landscape programs.",
-   "description": "Conservation NGO serving as executing partner on GCF landscape programs."
-  }
- },
- {
-  "id": "co-wwf-colombia",
-  "name": "WWF Colombia",
-  "type": "org",
-  "category": "ngo_foundation",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.wwf.org.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Conservation NGO working on climate, Amazon and freshwater.",
-   "description": "Conservation NGO working on climate, Amazon and freshwater."
-  }
- },
- {
-  "id": "co-fundacion-natura-colombia",
-  "name": "Fundación Natura Colombia",
-  "type": "org",
-  "category": "ngo_foundation",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://natura.org.co/",
-  "geo": {
-   "lat": 4.57576,
-   "lng": -74.124782,
-   "address": "Carrera 21 No. 39",
-   "city": "Bogotá",
-   "country": "Colombia",
-   "precision": "address",
-   "source_url": "https://natura.org.co"
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Foundation on biodiversity, climate and CarbonoCero compensation program.",
-   "description": "Foundation on biodiversity, climate and CarbonoCero compensation program."
-  }
- },
- {
-  "id": "co-conservation-international-colombia",
-  "name": "Conservation International Colombia",
-  "type": "org",
-  "category": "ngo_foundation",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.conservation.org.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "NGO on nature-based solutions and territorial conservation.",
-   "description": "NGO on nature-based solutions and territorial conservation."
-  }
- },
- {
-  "id": "co-fundacion-gaia-amazonas",
-  "name": "Fundación Gaia Amazonas",
-  "type": "org",
-  "category": "ngo_foundation",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://gaiaamazonas.org/",
-  "geo": {
-   "lat": 4.655827,
-   "lng": -74.05989,
-   "address": "Calle 70A # 11",
-   "city": "Bogotá",
-   "country": "Colombia",
-   "precision": "address",
-   "source_url": "https://gaiaamazonas.org"
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "NGO supporting indigenous governance and Amazon conservation.",
-   "description": "NGO supporting indigenous governance and Amazon conservation."
-  }
- },
- {
-  "id": "co-fundacion-humedales",
-  "name": "Fundación Humedales",
-  "type": "org",
-  "category": "ngo_foundation",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://fundacionhumedales.org/",
-  "geo": {
-   "lat": 4.702336,
-   "lng": -74.098606,
-   "address": "Calle 81#19a -18",
-   "city": "Bogotá",
-   "country": "Colombia",
-   "precision": "address",
-   "source_url": "https://fundacionhumedales.org"
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Participatory wetlands and biodiversity conservation NGO.",
-   "description": "Participatory wetlands and biodiversity conservation NGO."
-  }
- },
- {
-  "id": "co-proaves",
-  "name": "ProAves",
-  "type": "org",
-  "category": "ngo_foundation",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.proaves.org/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Bird conservation NGO protecting key ecosystems and climate-relevant forests.",
-   "description": "Bird conservation NGO protecting key ecosystems and climate-relevant forests."
-  }
- },
- {
-  "id": "co-fundacion-mario-santo-domingo",
-  "name": "Fundación Mario Santo Domingo",
-  "type": "org",
-  "category": "ngo_foundation",
-  "country": "Colombia",
-  "city": "Barranquilla",
-  "website": "https://www.fundacionmariosantodomingo.org/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Foundation on social and environmental development in Caribbean region.",
-   "description": "Foundation on social and environmental development in Caribbean region."
-  }
- },
- {
-  "id": "co-fundacion-bolivar-davivienda",
-  "name": "Fundación Bolívar Davivienda",
-  "type": "org",
-  "category": "ngo_foundation",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.fundacionbolivardavivienda.org/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Corporate foundation on education, entrepreneurship and environment.",
-   "description": "Corporate foundation on education, entrepreneurship and environment."
-  }
- },
- {
-  "id": "co-fundacion-grupo-argos",
-  "name": "Fundación Grupo Argos",
-  "type": "org",
-  "category": "ngo_foundation",
-  "country": "Colombia",
-  "city": "Medellín",
-  "website": "https://www.fundaciongrupoargos.org/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Foundation on habitat, water and climate adaptation in territories.",
-   "description": "Foundation on habitat, water and climate adaptation in territories."
-  }
- },
- {
-  "id": "co-fundacion-selva",
-  "name": "Fundación Selva",
-  "type": "org",
-  "category": "ngo_foundation",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://selva.org.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "NGO supporting Amazon conservation and indigenous territorial governance.",
-   "description": "NGO supporting Amazon conservation and indigenous territorial governance."
-  }
- },
- {
-  "id": "co-universidad-de-los-andes",
-  "name": "Universidad de los Andes",
-  "type": "org",
-  "category": "academia",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://uniandes.edu.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "University sustainability program and carbon-neutrality roadmap.",
-   "description": "University sustainability program and carbon-neutrality roadmap."
-  }
- },
- {
-  "id": "co-universidad-nacional-de-colombia",
-  "name": "Universidad Nacional de Colombia",
-  "type": "org",
-  "category": "academia",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://unal.edu.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Public research university with environmental and climate research institutes.",
-   "description": "Public research university with environmental and climate research institutes."
-  }
- },
- {
-  "id": "co-universidad-eia",
-  "name": "Universidad EIA",
-  "type": "org",
-  "category": "academia",
-  "country": "Colombia",
-  "city": "Envigado",
-  "website": "https://www.eia.edu.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Engineering university with institutional sustainability and GreenMetric participation.",
-   "description": "Engineering university with institutional sustainability and GreenMetric participation."
-  }
- },
- {
-  "id": "co-universidad-de-antioquia",
-  "name": "Universidad de Antioquia",
-  "type": "org",
-  "category": "academia",
-  "country": "Colombia",
-  "city": "Medellín",
-  "website": "https://www.udea.edu.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Public university with research on environment, energy and territory.",
-   "description": "Public university with research on environment, energy and territory."
-  }
- },
- {
-  "id": "co-universidad-del-valle",
-  "name": "Universidad del Valle",
-  "type": "org",
-  "category": "academia",
-  "country": "Colombia",
-  "city": "Cali",
-  "website": "https://www.univalle.edu.co/",
-  "geo": {
-   "lat": 3.343992,
-   "lng": -76.539416,
-   "address": "Calle 13 # 100-00 Santiago de Cali",
-   "city": "Cali",
-   "country": "Colombia",
-   "precision": "address",
-   "source_url": "https://www.univalle.edu.co"
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Public university with climate and sustainability research centers.",
-   "description": "Public university with climate and sustainability research centers."
-  }
- },
- {
-  "id": "co-pontificia-universidad-javeriana",
-  "name": "Pontificia Universidad Javeriana",
-  "type": "org",
-  "category": "academia",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.javeriana.edu.co/",
-  "geo": {
-   "lat": 4.653382,
-   "lng": -74.083633,
-   "address": "Cra 7 No 40 - 62 --",
-   "city": "Bogotá",
-   "country": "Colombia",
-   "precision": "address",
-   "source_url": "https://www.javeriana.edu.co"
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "University with environmental engineering and climate policy research.",
-   "description": "University with environmental engineering and climate policy research."
-  }
- },
- {
-  "id": "co-universidad-eafit",
-  "name": "Universidad EAFIT",
-  "type": "org",
-  "category": "academia",
-  "country": "Colombia",
-  "city": "Medellín",
-  "website": "https://www.eafit.edu.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "University with energy, sustainability and innovation programs.",
-   "description": "University with energy, sustainability and innovation programs."
-  }
- },
- {
-  "id": "co-universidad-industrial-de-santander",
-  "name": "Universidad Industrial de Santander",
-  "type": "org",
-  "category": "academia",
-  "country": "Colombia",
-  "city": "Bucaramanga",
-  "website": "https://www.uis.edu.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Public university with engineering and environmental research.",
-   "description": "Public university with engineering and environmental research."
-  }
- },
- {
-  "id": "co-universidad-del-rosario",
-  "name": "Universidad del Rosario",
-  "type": "org",
-  "category": "academia",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.urosario.edu.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "University with environmental law and climate governance research.",
-   "description": "University with environmental law and climate governance research."
-  }
- },
- {
-  "id": "co-instituto-de-investigacion-de-recursos-biologicos-alexander-von-humboldt",
-  "name": "Instituto de Investigación de Recursos Biológicos Alexander von Humboldt",
-  "type": "org",
-  "category": "academia",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.humboldt.org.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Public research institute on biodiversity and ecosystem services for climate policy.",
-   "description": "Public research institute on biodiversity and ecosystem services for climate policy."
-  }
- },
- {
-  "id": "co-fondo-patrimonio-natural",
-  "name": "Fondo Patrimonio Natural",
-  "type": "org",
-  "category": "funder",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.patrimonionatural.org.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Endowment fund for protected areas and biodiversity finance.",
-   "description": "Endowment fund for protected areas and biodiversity finance."
-  }
- },
- {
-  "id": "co-bancoldex-capital-lp-investments",
-  "name": "Bancóldex Capital (LP investments)",
-  "type": "org",
-  "category": "funder",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.bancoldex.com/inversion-en-fondos",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Bancóldex program investing as LP in PE/VC funds including cleantech.",
-   "description": "Bancóldex program investing as LP in PE/VC funds including cleantech."
-  }
- },
- {
-  "id": "co-fcp-bancoldex-capital-fondo-de-fondos",
-  "name": "FCP Bancóldex Capital Fondo de Fondos",
-  "type": "org",
-  "category": "funder",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://fiducoldex.com.co/fondo-de-fondos",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Fund-of-funds vehicle managed by Bancóldex for venture and PE.",
-   "description": "Fund-of-funds vehicle managed by Bancóldex for venture and PE."
-  }
- },
- {
-  "id": "co-findeter",
-  "name": "Findeter",
-  "type": "org",
-  "category": "funder",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://findeter.gov.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Territorial development bank financing sustainable infrastructure.",
-   "description": "Territorial development bank financing sustainable infrastructure."
-  }
- },
- {
-  "id": "co-adaptation-fund-colombia-projects",
-  "name": "Adaptation Fund (Colombia projects)",
-  "type": "org",
-  "category": "funder",
-  "country": "Colombia",
-  "city": "Washington",
-  "website": "https://www.adaptation-fund.org/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Multilateral fund supporting Colombia adaptation (e.g. La Mojana).",
-   "description": "Multilateral fund supporting Colombia adaptation (e.g. La Mojana)."
-  }
- },
- {
-  "id": "co-global-environment-facility-colombia",
-  "name": "Global Environment Facility (Colombia)",
-  "type": "org",
-  "category": "funder",
-  "country": "Colombia",
-  "city": "Washington",
-  "website": "https://www.thegef.org/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "GEF grants for Amazon and climate projects in Colombia.",
-   "description": "GEF grants for Amazon and climate projects in Colombia."
-  }
- },
- {
-  "id": "co-bancolombia",
-  "name": "Bancolombia",
-  "type": "org",
-  "category": "finance",
-  "country": "Colombia",
-  "city": "Medellín",
-  "website": "https://www.bancolombia.com/",
-  "geo": {
-   "lat": 6.214315,
-   "lng": -75.576076,
-   "address": "Carrera 48 # 26 - 85 Medellín",
-   "city": "Medellín",
-   "country": "Colombia",
-   "precision": "address",
-   "source_url": "https://www.bancolombia.com"
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Commercial bank with sustainable finance and green bond programs.",
-   "description": "Commercial bank with sustainable finance and green bond programs."
-  }
- },
- {
-  "id": "co-banco-agrario-de-colombia",
-  "name": "Banco Agrario de Colombia",
-  "type": "org",
-  "category": "finance",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.bancoagrario.gov.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Public agricultural development bank.",
-   "description": "Public agricultural development bank."
-  }
- },
- {
-  "id": "co-finagro",
-  "name": "Finagro",
-  "type": "org",
-  "category": "finance",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.finagro.com.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Agricultural credit guarantee fund.",
-   "description": "Agricultural credit guarantee fund."
-  }
- },
- {
-  "id": "co-bolsa-de-valores-de-colombia-bvc",
-  "name": "Bolsa de Valores de Colombia (BVC)",
-  "type": "org",
-  "category": "finance",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.bvc.com.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Stock exchange listing green bonds and sustainable issuers.",
-   "description": "Stock exchange listing green bonds and sustainable issuers."
-  }
- },
- {
-  "id": "co-davivienda",
-  "name": "Davivienda",
-  "type": "org",
-  "category": "finance",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.davivienda.com/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Bank with sustainability-linked lending and green products.",
-   "description": "Bank with sustainability-linked lending and green products."
-  }
- },
- {
-  "id": "co-banca-de-las-oportunidades",
-  "name": "Banca de las Oportunidades",
-  "type": "org",
-  "category": "finance",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.bancadelasoportunidades.gov.co/",
-  "geo": {
-   "lat": 4.615712,
-   "lng": -74.071314,
-   "address": "Calle 28 13A-15",
-   "city": "Bogotá",
-   "country": "Colombia",
-   "precision": "address",
-   "source_url": "https://www.bancadelasoportunidades.gov.co"
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Public program expanding access to finance for vulnerable populations.",
-   "description": "Public program expanding access to finance for vulnerable populations."
-  }
- },
- {
-  "id": "co-banco-de-bogota-grupo-aval",
-  "name": "Banco de Bogotá (Grupo Aval)",
-  "type": "org",
-  "category": "finance",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.bancodebogota.com/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Commercial bank financing corporates and sustainability projects.",
-   "description": "Commercial bank financing corporates and sustainability projects."
-  }
- },
- {
-  "id": "co-fiducoldex",
-  "name": "Fiducoldex",
-  "type": "org",
-  "category": "finance",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://fiducoldex.com.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Trust company administering Bancóldex fund vehicles.",
-   "description": "Trust company administering Bancóldex fund vehicles."
-  }
- },
- {
-  "id": "co-camara-de-comercio-de-bogota",
-  "name": "Cámara de Comercio de Bogotá",
-  "type": "org",
-  "category": "chamber",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.ccb.org.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Bogotá chamber: business registry, productivity and sustainability services.",
-   "description": "Bogotá chamber: business registry, productivity and sustainability services."
-  }
- },
- {
-  "id": "co-camara-de-comercio-de-medellin-para-antioquia",
-  "name": "Cámara de Comercio de Medellín para Antioquia",
-  "type": "org",
-  "category": "chamber",
-  "country": "Colombia",
-  "city": "Medellín",
-  "website": "https://www.camaramedellin.com.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Antioquia chamber supporting innovation and competitiveness.",
-   "description": "Antioquia chamber supporting innovation and competitiveness."
-  }
- },
- {
-  "id": "co-camara-de-comercio-de-cali",
-  "name": "Cámara de Comercio de Cali",
-  "type": "org",
-  "category": "chamber",
-  "country": "Colombia",
-  "city": "Cali",
-  "website": "https://www.ccc.org.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Valle chamber with innovation and market-access services.",
-   "description": "Valle chamber with innovation and market-access services."
-  }
- },
- {
-  "id": "co-confecamaras",
-  "name": "Confecámaras",
-  "type": "org",
-  "category": "chamber",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://confecamaras.org.co/",
-  "geo": {
-   "lat": 4.622777,
-   "lng": -74.078181,
-   "address": "Av. Calle 26 No 57",
-   "city": "Bogotá",
-   "country": "Colombia",
-   "precision": "address",
-   "source_url": "https://confecamaras.org.co"
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "National federation of Colombia's 58 chambers of commerce.",
-   "description": "National federation of Colombia's 58 chambers of commerce."
-  }
- },
- {
-  "id": "co-camara-de-comercio-de-barranquilla",
-  "name": "Cámara de Comercio de Barranquilla",
-  "type": "org",
-  "category": "chamber",
-  "country": "Colombia",
-  "city": "Barranquilla",
-  "website": "https://www.camarabaq.org.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Caribbean regional chamber.",
-   "description": "Caribbean regional chamber."
-  }
- },
- {
-  "id": "co-camara-de-comercio-de-bucaramanga",
-  "name": "Cámara de Comercio de Bucaramanga",
-  "type": "org",
-  "category": "chamber",
-  "country": "Colombia",
-  "city": "Bucaramanga",
-  "website": "https://www.camaradirecta.com/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Santander chamber.",
-   "description": "Santander chamber."
-  }
- },
- {
-  "id": "co-camara-de-comercio-de-cartagena",
-  "name": "Cámara de Comercio de Cartagena",
-  "type": "org",
-  "category": "chamber",
-  "country": "Colombia",
-  "city": "Cartagena",
-  "website": "https://www.camaracartagena.org.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Bolívar coastal chamber.",
-   "description": "Bolívar coastal chamber."
-  }
- },
- {
-  "id": "co-camara-de-comercio-de-pereira",
-  "name": "Cámara de Comercio de Pereira",
-  "type": "org",
-  "category": "chamber",
-  "country": "Colombia",
-  "city": "Pereira",
-  "website": "https://www.camaradecomerciopereira.org.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Risaralda coffee-region chamber.",
-   "description": "Risaralda coffee-region chamber."
-  }
- },
- {
-  "id": "co-camara-de-comercio-de-manizales-por-caldas",
-  "name": "Cámara de Comercio de Manizales por Caldas",
-  "type": "org",
-  "category": "chamber",
-  "country": "Colombia",
-  "city": "Manizales",
-  "website": "https://www.ccmpc.org.co/",
-  "geo": {
-   "lat": 5.066891,
-   "lng": -75.506666,
-   "address": "Cra 23 No. 26 - 60",
-   "city": "Manizales",
-   "country": "Colombia",
-   "precision": "address",
-   "source_url": "https://www.ccmpc.org.co"
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Caldas chamber.",
-   "description": "Caldas chamber."
-  }
- },
- {
-  "id": "co-camara-de-comercio-de-cucuta",
-  "name": "Cámara de Comercio de Cúcuta",
-  "type": "org",
-  "category": "chamber",
-  "country": "Colombia",
-  "city": "Cúcuta",
-  "website": "https://www.camaracucuta.org.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Norte de Santander border chamber.",
-   "description": "Norte de Santander border chamber."
-  }
- },
- {
-  "id": "co-ley-2169-de-2021-carbono-neutralidad-y-resiliencia",
-  "name": "Ley 2169 de 2021 (carbono neutralidad y resiliencia)",
-  "type": "policy",
-  "category": "policy",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.minambiente.gov.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Framework law for carbon neutrality, climate resilience and low-carbon development.",
-   "description": "Framework law for carbon neutrality, climate resilience and low-carbon development."
-  }
- },
- {
-  "id": "co-ndc-colombia-actualizacion-2020",
-  "name": "NDC Colombia (actualización 2020)",
-  "type": "policy",
-  "category": "policy",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.minambiente.gov.co/cambio-climatico-y-gestion-del-riesgo/documentos-oficiales-contribuciones-nacionalmente-determinadas/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Nationally determined contribution: mitigation, adaptation and means of implementation.",
-   "description": "Nationally determined contribution: mitigation, adaptation and means of implementation."
-  }
- },
- {
-  "id": "co-programa-nacional-de-carbono-neutralidad-y-resiliencia-climatica",
-  "name": "Programa Nacional de Carbono Neutralidad y Resiliencia Climática",
-  "type": "policy",
-  "category": "policy",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://carbononeutral.minambiente.gov.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "National program for GHG reduction and adaptive capacity (NDC/Ley 2169).",
-   "description": "National program for GHG reduction and adaptive capacity (NDC/Ley 2169)."
-  }
- },
- {
-  "id": "co-sisclima-sistema-nacional-de-cambio-climatico",
-  "name": "SISCLIMA – Sistema Nacional de Cambio Climático",
-  "type": "policy",
-  "category": "policy",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.minambiente.gov.co/cambio-climatico-y-gestion-del-riesgo/sistema-nacional-de-cambio-climatico-sisclima/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "National climate governance system coordinating public and private actors.",
-   "description": "National climate governance system coordinating public and private actors."
-  }
- },
- {
-  "id": "co-estrategia-colombia-carbono-neutral-2050-e2050",
-  "name": "Estrategia Colombia Carbono Neutral 2050 (E2050)",
-  "type": "policy",
-  "category": "policy",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.minambiente.gov.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Long-term low-emissions development strategy aligned with Paris Agreement.",
-   "description": "Long-term low-emissions development strategy aligned with Paris Agreement."
-  }
- },
- {
-  "id": "co-taxonomia-verde-colombia-minhacienda-uvt",
-  "name": "Taxonomía verde Colombia (MinHacienda / UVT)",
-  "type": "policy",
-  "category": "policy",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.minhacienda.gov.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Green taxonomy defining eligible sustainable economic activities.",
-   "description": "Green taxonomy defining eligible sustainable economic activities."
-  }
- },
- {
-  "id": "co-resolucion-creg-174-2021-autogeneracion-solar",
-  "name": "Resolución CREG 174/2021 (autogeneración solar)",
-  "type": "policy",
-  "category": "policy",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.creg.gov.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Grid rules enabling distributed solar self-generation and connection.",
-   "description": "Grid rules enabling distributed solar self-generation and connection."
-  }
- },
- {
-  "id": "co-resolucion-upme-203-2020-autogeneracion",
-  "name": "Resolución UPME 203/2020 (autogeneración)",
-  "type": "policy",
-  "category": "policy",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www1.upme.gov.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Technical regulation for small-scale renewable self-generation.",
-   "description": "Technical regulation for small-scale renewable self-generation."
-  }
- },
- {
-  "id": "co-politica-nacional-de-gestion-del-riesgo-de-desastres",
-  "name": "Política Nacional de Gestión del Riesgo de Desastres",
-  "type": "policy",
-  "category": "policy",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.gestiondelriesgo.gov.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Disaster risk policy linked to climate adaptation.",
-   "description": "Disaster risk policy linked to climate adaptation."
-  }
- },
- {
-  "id": "co-plan-nacional-de-adaptacion-al-cambio-climatico-pnacc",
-  "name": "Plan Nacional de Adaptación al Cambio Climático (PNACC)",
-  "type": "policy",
-  "category": "policy",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.minambiente.gov.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "National adaptation planning instrument under MinAmbiente.",
-   "description": "National adaptation planning instrument under MinAmbiente."
-  }
- },
- {
-  "id": "co-semana-sostenible",
-  "name": "Semana Sostenible",
-  "type": "org",
-  "category": "media",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.semana.com/sostenible/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Digital sustainability and climate coverage (Grupo Semana).",
-   "description": "Digital sustainability and climate coverage (Grupo Semana)."
-  }
- },
- {
-  "id": "co-portafolio",
-  "name": "Portafolio",
-  "type": "org",
-  "category": "media",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.portafolio.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Business and economy news including energy transition.",
-   "description": "Business and economy news including energy transition."
-  }
- },
- {
-  "id": "co-la-republica",
-  "name": "La República",
-  "type": "org",
-  "category": "media",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.larepublica.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Business newspaper covering green finance and policy.",
-   "description": "Business newspaper covering green finance and policy."
-  }
- },
- {
-  "id": "co-forbes-colombia",
-  "name": "Forbes Colombia",
-  "type": "org",
-  "category": "media",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://forbes.co/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Business media featuring innovation and sustainability leaders.",
-   "description": "Business media featuring innovation and sustainability leaders."
-  }
- },
- {
-  "id": "co-el-espectador",
-  "name": "El Espectador",
-  "type": "org",
-  "category": "media",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.elespectador.com/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "National newspaper with environment and climate desk.",
-   "description": "National newspaper with environment and climate desk."
-  }
- },
- {
-  "id": "co-valora-analitik",
-  "name": "Valora Analitik",
-  "type": "org",
-  "category": "media",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.valoraanalitik.com/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Financial and economic analysis including energy markets.",
-   "description": "Financial and economic analysis including energy markets."
-  }
- },
- {
-  "id": "co-dinero",
-  "name": "Dinero",
-  "type": "org",
-  "category": "media",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.dinero.com/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Business magazine on companies, markets and policy.",
-   "description": "Business magazine on companies, markets and policy."
-  }
- },
- {
-  "id": "co-blu-radio",
-  "name": "Blu Radio",
-  "type": "org",
-  "category": "media",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.bluradio.com/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "News radio with national economy and environment coverage.",
-   "description": "News radio with national economy and environment coverage."
-  }
- },
- {
-  "id": "co-rcn-radio-noticias",
-  "name": "RCN Radio Noticias",
-  "type": "org",
-  "category": "media",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.noticiasrcn.com/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "National news network covering climate and infrastructure.",
-   "description": "National news network covering climate and infrastructure."
-  }
- },
- {
-  "id": "co-energia-estrategica",
-  "name": "Energía Estratégica",
-  "type": "org",
-  "category": "media",
-  "country": "Colombia",
-  "city": "Bogotá",
-  "website": "https://www.energiaestrategica.com/",
-  "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
-   "precision": "country",
-   "source_url": null
-  },
-  "nexus": {},
-  "card": {
-   "ecosystem_role": "Specialized media on renewables and energy transition in LATAM.",
-   "description": "Specialized media on renewables and energy transition in LATAM."
-  }
- },
- {
   "name": "ASEP",
   "type": "org",
   "category": "corporate",
@@ -10254,6 +8387,7 @@
   "linkedin": "https://www.linkedin.com/company/-finanz-s",
   "linkedin_url": "https://www.linkedin.com/company/-finanz-s",
   "linkedin_cited_from": "https://revistaganamas.com.pe/",
+  "linkedin_accessed": "2026-10-22",
   "challenges": [],
   "source": "Mapa de Actores Perú 2026",
   "sector": "private",
@@ -10307,6 +8441,7 @@
   "linkedin": "https://www.linkedin.com/company/hubudep",
   "linkedin_url": "https://www.linkedin.com/company/hubudep",
   "linkedin_cited_from": "https://www.hub.udep.pe/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Hub universitario de emprendimiento e innovación sostenible",
@@ -10373,6 +8508,7 @@
   "linkedin": "https://www.linkedin.com/company/alaya-business-accelerator-s-a-",
   "linkedin_url": "https://www.linkedin.com/company/alaya-business-accelerator-s-a-",
   "linkedin_cited_from": "https://alaya-capital.com/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Fondo de venture capital e inversión en startups LATAM.",
@@ -10414,6 +8550,7 @@
   "linkedin": "https://www.linkedin.com/company/arpegio-vc",
   "linkedin_url": "https://www.linkedin.com/company/arpegio-vc",
   "linkedin_cited_from": "https://arpegio.vc/about/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Capital de riesgo en startups.",
@@ -10438,6 +8575,7 @@
   "linkedin": "https://www.linkedin.com/company/bnp-paribas-asset-management",
   "linkedin_url": "https://www.linkedin.com/company/bnp-paribas-asset-management",
   "linkedin_cited_from": "https://alts.axa-im.com/responsible-investing/impact-investing",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Gestión de inversiones de impacto (AXA IM).",
@@ -10484,6 +8622,7 @@
   "linkedin": "https://www.linkedin.com/company/bancasostenible",
   "linkedin_url": "https://www.linkedin.com/company/bancasostenible",
   "linkedin_cited_from": "https://bancasostenible.la/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Asesoría y banca de inversión sostenible.",
@@ -10550,6 +8689,7 @@
   "linkedin": "https://www.linkedin.com/company/earthshot-ventures",
   "linkedin_url": "https://www.linkedin.com/company/earthshot-ventures",
   "linkedin_cited_from": "https://www.earthshot.vc",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Fondo de venture capital orientado a fundadores y soluciones climáticas de alto impacto.",
@@ -10574,6 +8714,7 @@
   "linkedin": "https://www.linkedin.com/company/eleafoundation",
   "linkedin_url": "https://www.linkedin.com/company/eleafoundation",
   "linkedin_cited_from": "https://www.elea.org/en/home-en",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Inversor de impacto filantrópico que combate la pobreza extrema con enfoque empresarial.",
@@ -10598,6 +8739,7 @@
   "linkedin": "https://www.linkedin.com/company/impacta-vc",
   "linkedin_url": "https://www.linkedin.com/company/impacta-vc",
   "linkedin_cited_from": "https://www.impacta.vc/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Fondo de capital de riesgo de impacto",
@@ -10624,6 +8766,7 @@
   "linkedin": "https://www.linkedin.com/company/salkantay-ventures",
   "linkedin_url": "https://www.linkedin.com/company/salkantay-ventures",
   "linkedin_cited_from": "https://www.salkantay.vc/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Empresa / sector privado",
@@ -10690,6 +8833,7 @@
   "linkedin": "https://www.linkedin.com/company/convergenceblendedfinance",
   "linkedin_url": "https://www.linkedin.com/company/convergenceblendedfinance",
   "linkedin_cited_from": "https://www.convergence.finance/accelerator",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Mecanismo de financiamiento blended para diseñar estructuras que movilicen inversión comercial en mercados emergentes.",
@@ -10714,6 +8858,7 @@
   "linkedin": "https://www.linkedin.com/company/incubadorascale",
   "linkedin_url": "https://www.linkedin.com/company/incubadorascale",
   "linkedin_cited_from": "https://scaleup4.com/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Universidad o centro de investigación",
@@ -10738,6 +8883,7 @@
   "linkedin": "https://www.linkedin.com/company/theganeshalab",
   "linkedin_url": "https://www.linkedin.com/company/theganeshalab",
   "linkedin_cited_from": "https://theganeshalab.com/contact/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Empresa / sector privado",
@@ -10762,6 +8908,7 @@
   "linkedin": "https://www.linkedin.com/company/a2g-sostenibilidad-y-cambio-clim%C3%A1tico",
   "linkedin_url": "https://www.linkedin.com/company/a2g-sostenibilidad-y-cambio-clim%C3%A1tico",
   "linkedin_cited_from": "https://a2g.pe/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Consultoría en sostenibilidad y cambio climático.",
@@ -10841,6 +8988,7 @@
   "linkedin": "https://www.linkedin.com/company/ecoproa",
   "linkedin_url": "https://www.linkedin.com/company/ecoproa",
   "linkedin_cited_from": "https://ecoproa.com/",
+  "linkedin_accessed": "2026-10-22",
   "challenges": [],
   "source": "Mapa de Actores Perú 2026",
   "sector": "private",
@@ -10936,6 +9084,7 @@
   "linkedin": "https://www.linkedin.com/company/saphixyz",
   "linkedin_url": "https://www.linkedin.com/company/saphixyz",
   "linkedin_cited_from": "https://saphi.xyz/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Empresa / sector privado",
@@ -11045,6 +9194,7 @@
   "linkedin": "https://www.linkedin.com/company/nexosmasuno",
   "linkedin_url": "https://www.linkedin.com/company/nexosmasuno",
   "linkedin_cited_from": "https://nexosmasuno.com/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Plataforma de acción climática empresarial (Libélula)",
@@ -11069,6 +9219,7 @@
   "linkedin": "https://www.linkedin.com/company/amanatari",
   "linkedin_url": "https://www.linkedin.com/company/amanatari",
   "linkedin_cited_from": "https://www.amanatari.org/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Impulsor de emprendimiento amazónico.",
@@ -11093,6 +9244,7 @@
   "linkedin": "https://www.linkedin.com/company/haskoning",
   "linkedin_url": "https://www.linkedin.com/company/haskoning",
   "linkedin_cited_from": "https://www.haskoning.com",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Consultora de ingeniería y medio ambiente para infraestructura sostenible.",
@@ -11225,6 +9377,7 @@
   "linkedin": "https://www.linkedin.com/company/upt-incuba",
   "linkedin_url": "https://www.linkedin.com/company/upt-incuba",
   "linkedin_cited_from": "https://www.uptincuba.pe/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Universidad o centro de investigación",
@@ -11270,6 +9423,7 @@
   "linkedin": "https://www.linkedin.com/company/earth-innovation-institute",
   "linkedin_url": "https://www.linkedin.com/company/earth-innovation-institute",
   "linkedin_cited_from": "https://earthinnovation.org",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Instituto de investigación aplicada para desarrollo sostenible y gobernanza forestal en regiones tropicales.",
@@ -11294,6 +9448,7 @@
   "linkedin": "https://www.linkedin.com/company/hi-ventures",
   "linkedin_url": "https://www.linkedin.com/company/hi-ventures",
   "linkedin_cited_from": "https://www.hi.vc/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Venture capital en innovación en salud (ALLVP).",
@@ -11322,6 +9477,7 @@
   "linkedin": "https://www.linkedin.com/company/grupocredicorp",
   "linkedin_url": "https://www.linkedin.com/company/grupocredicorp",
   "linkedin_cited_from": "https://grupocredicorp.com",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Empresa / sector privado",
@@ -11338,6 +9494,7 @@
   "linkedin": "https://www.linkedin.com/company/mercycorpscolombia",
   "linkedin_url": "https://www.linkedin.com/company/mercycorpscolombia",
   "linkedin_cited_from": "https://www.mercycorps.org.co/",
+  "linkedin_accessed": "2026-10-22",
   "challenges": [
    "ENE",
    "FIN"
@@ -11389,6 +9546,7 @@
   "linkedin": "https://www.linkedin.com/company/el-comercio",
   "linkedin_url": "https://www.linkedin.com/company/el-comercio",
   "linkedin_cited_from": "https://elcomercio.pe",
+  "linkedin_accessed": "2026-10-22",
   "challenges": [],
   "source": "Mapa de Actores Perú 2026",
   "sector": "private",
@@ -11421,6 +9579,7 @@
   "linkedin": "https://www.linkedin.com/company/elperuano",
   "linkedin_url": "https://www.linkedin.com/company/elperuano",
   "linkedin_cited_from": "https://elperuano.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Diario Oficial de la República y medio estatal de publicación normativa.",
@@ -11588,6 +9747,7 @@
   "linkedin": "https://www.linkedin.com/company/unops",
   "linkedin_url": "https://www.linkedin.com/company/unops",
   "linkedin_cited_from": "https://www.unops.org/es",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Organismo de la ONU para implementación de proyectos",
@@ -11614,6 +9774,7 @@
   "linkedin": "https://www.linkedin.com/company/pan-american-health-organization",
   "linkedin_url": "https://www.linkedin.com/company/pan-american-health-organization",
   "linkedin_cited_from": "https://www.paho.org/es",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Organización internacional de salud pública (sistema ONU/OEA)",
@@ -11695,6 +9856,7 @@
   "linkedin": "https://www.linkedin.com/company/ekofom",
   "linkedin_url": "https://www.linkedin.com/company/ekofom",
   "linkedin_cited_from": "https://circulareconomy.europa.eu/platform/en",
+  "linkedin_accessed": "2026-10-22",
   "challenges": [],
   "source": "Mapa de Actores Perú 2026",
   "sector": "private",
@@ -11971,6 +10133,7 @@
   "linkedin": "https://www.linkedin.com/company/c%C3%A1mara-de-comercio-italiana-del-per%C3%BA",
   "linkedin_url": "https://www.linkedin.com/company/c%C3%A1mara-de-comercio-italiana-del-per%C3%BA",
   "linkedin_cited_from": "https://www.cciperu.it",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Cámara binacional que promueve comercio e inversión Italia–Perú.",
@@ -11998,6 +10161,7 @@
   "linkedin": "https://www.linkedin.com/company/tropicalforestalliance",
   "linkedin_url": "https://www.linkedin.com/company/tropicalforestalliance",
   "linkedin_cited_from": "https://www.tropicalforestalliance.org/home",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Alianza multistakeholder por bosques tropicales",
@@ -12025,6 +10189,7 @@
   "linkedin": "https://www.linkedin.com/company/fsc-international-bonn",
   "linkedin_url": "https://www.linkedin.com/company/fsc-international-bonn",
   "linkedin_cited_from": "https://fsc.org/en",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Organización internacional de certificación forestal responsable.",
@@ -12074,6 +10239,7 @@
   "linkedin": "https://www.linkedin.com/company/avsflatam",
   "linkedin_url": "https://www.linkedin.com/company/avsflatam",
   "linkedin_cited_from": "https://www.avsf.org/es/",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Empresa / sector privado",
@@ -12113,6 +10279,7 @@
   "linkedin": "https://www.linkedin.com/company/aspem-associazione-solidariet-paesi-emergenti",
   "linkedin_url": "https://www.linkedin.com/company/aspem-associazione-solidariet-paesi-emergenti",
   "linkedin_cited_from": "https://aspem.org/en/",
+  "linkedin_accessed": "2026-10-22",
   "challenges": [
    "FIN"
   ],
@@ -12150,6 +10317,7 @@
   "linkedin": "https://www.linkedin.com/company/coeeci",
   "linkedin_url": "https://www.linkedin.com/company/coeeci",
   "linkedin_cited_from": "https://www.coeeci.org.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Organización empresarial o gremial del ecosistema peruano (COEECI).",
@@ -12195,6 +10363,7 @@
   "linkedin": "https://www.linkedin.com/company/mit-regional-entrepreneurship-acceleration-program",
   "linkedin_url": "https://www.linkedin.com/company/mit-regional-entrepreneurship-acceleration-program",
   "linkedin_cited_from": "https://reap.mit.edu",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Programa global del MIT para fortalecer ecosistemas regionales de emprendimiento innovador.",
@@ -12233,6 +10402,7 @@
   "linkedin": "https://www.linkedin.com/company/1134092",
   "linkedin_url": "https://www.linkedin.com/company/1134092",
   "linkedin_cited_from": "https://www.gob.pe/minam",
+  "linkedin_accessed": "2026-10-22",
   "challenges": [
    "BOS",
    "AGU",
@@ -12262,6 +10432,7 @@
   "linkedin": "https://www.linkedin.com/company/1134092",
   "linkedin_url": "https://www.linkedin.com/company/1134092",
   "linkedin_cited_from": "https://www.gob.pe/minam",
+  "linkedin_accessed": "2026-10-22",
   "challenges": [
    "BOS",
    "AGU",
@@ -12288,6 +10459,7 @@
   "linkedin": "https://www.linkedin.com/company/1134092",
   "linkedin_url": "https://www.linkedin.com/company/1134092",
   "linkedin_cited_from": "https://www.gob.pe/minam",
+  "linkedin_accessed": "2026-10-22",
   "challenges": [
    "FIN"
   ],
@@ -12322,6 +10494,7 @@
   "linkedin": "https://www.linkedin.com/company/startupperu",
   "linkedin_url": "https://www.linkedin.com/company/startupperu",
   "linkedin_cited_from": "https://startup.proinnovate.gob.pe",
+  "linkedin_accessed": "2026-10-22",
   "nexus": {},
   "card": {
    "ecosystem_role": "Instrumento de política pública",
@@ -12339,6 +10512,7 @@
   "linkedin": "https://www.linkedin.com/company/1134092",
   "linkedin_url": "https://www.linkedin.com/company/1134092",
   "linkedin_cited_from": "https://www.gob.pe/minam",
+  "linkedin_accessed": "2026-10-22",
   "challenges": [
    "BOS"
   ],
@@ -12361,6 +10535,7 @@
   "linkedin": "https://www.linkedin.com/company/programa-nacional-de-conservaci-n-de-bosques",
   "linkedin_url": "https://www.linkedin.com/company/programa-nacional-de-conservaci-n-de-bosques",
   "linkedin_cited_from": "https://www.gob.pe/bosques",
+  "linkedin_accessed": "2026-10-22",
   "challenges": [
    "BOS"
   ],
@@ -12383,6 +10558,7 @@
   "linkedin": "https://www.linkedin.com/company/1134092",
   "linkedin_url": "https://www.linkedin.com/company/1134092",
   "linkedin_cited_from": "https://www.gob.pe/minam",
+  "linkedin_accessed": "2026-10-22",
   "challenges": [
    "CIR"
   ],
@@ -12412,5 +10588,1631 @@
    "country": "Peru"
   },
   "nexus": {}
+ },
+ {
+  "id": "co-minambiente",
+  "name": "MinAmbiente",
+  "type": "org",
+  "category": "government",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.minambiente.gov.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "National environment ministry; leads climate policy and SISCLIMA.",
+   "description": "National environment ministry; leads climate policy and SISCLIMA."
+  }
+ },
+ {
+  "id": "co-anla",
+  "name": "ANLA",
+  "type": "org",
+  "category": "government",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.anla.gov.co/",
+  "geo": {
+   "lat": 4.612874,
+   "lng": -74.072666,
+   "city": "Bogotá",
+   "country": "Colombia",
+   "precision": "address",
+   "source_url": "https://www.anla.gov.co"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "National environmental licensing authority.",
+   "description": "National environmental licensing authority."
+  }
+ },
+ {
+  "id": "co-ideam",
+  "name": "IDEAM",
+  "type": "org",
+  "category": "government",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.ideam.gov.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Hydrology, meteorology and environmental studies institute.",
+   "description": "Hydrology, meteorology and environmental studies institute."
+  }
+ },
+ {
+  "id": "co-parques-nacionales-naturales-de-colombia",
+  "name": "Parques Nacionales Naturales de Colombia",
+  "type": "org",
+  "category": "government",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.parquesnacionales.gov.co/",
+  "geo": {
+   "lat": 4.698047,
+   "lng": -74.105384,
+   "city": "Bogotá",
+   "country": "Colombia",
+   "precision": "address",
+   "source_url": "https://www.parquesnacionales.gov.co"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Public agency managing Colombia's protected areas system (SINAP).",
+   "description": "Public agency managing Colombia's protected areas system (SINAP)."
+  }
+ },
+ {
+  "id": "co-dnp",
+  "name": "DNP",
+  "type": "org",
+  "category": "government",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.dnp.gov.co/",
+  "geo": {
+   "lat": 7.879712,
+   "lng": -72.48645,
+   "city": "Bogotá",
+   "country": "Colombia",
+   "precision": "address",
+   "source_url": "https://www.dnp.gov.co"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "National Planning Department; coordinates long-term development and climate planning.",
+   "description": "National Planning Department; coordinates long-term development and climate planning."
+  }
+ },
+ {
+  "id": "co-minciencias",
+  "name": "MinCiencias",
+  "type": "org",
+  "category": "government",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://minciencias.gov.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Science ministry funding R&D and innovation for sustainable development.",
+   "description": "Science ministry funding R&D and innovation for sustainable development."
+  }
+ },
+ {
+  "id": "co-innpulsa-colombia",
+  "name": "iNNpulsa Colombia",
+  "type": "org",
+  "category": "accelerator",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.innpulsacolombia.com/",
+  "geo": {
+   "lat": 4.616162,
+   "lng": -74.07107,
+   "city": "Bogotá",
+   "country": "Colombia",
+   "precision": "address",
+   "source_url": "https://www.innpulsacolombia.com"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "National entrepreneurship and innovation agency (ALDEA, productivity programs).",
+   "description": "National entrepreneurship and innovation agency (ALDEA, productivity programs)."
+  }
+ },
+ {
+  "id": "co-hubbog",
+  "name": "HubBOG",
+  "type": "org",
+  "category": "accelerator",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.hubbog.com/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Bogotá innovation campus and accelerator for digital startups.",
+   "description": "Bogotá innovation campus and accelerator for digital startups."
+  }
+ },
+ {
+  "id": "co-ruta-n",
+  "name": "Ruta N",
+  "type": "org",
+  "category": "accelerator",
+  "country": "Colombia",
+  "city": "Medellín",
+  "website": "https://rutanmedellin.org/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Medellín STI corporation: startup acceleration and open innovation.",
+   "description": "Medellín STI corporation: startup acceleration and open innovation."
+  }
+ },
+ {
+  "id": "co-connect-bogota-region",
+  "name": "Connect Bogotá Región",
+  "type": "org",
+  "category": "accelerator",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.connectbogota.org/",
+  "geo": {
+   "lat": 4.599312,
+   "lng": -74.088089,
+   "city": "Bogotá",
+   "country": "Colombia",
+   "precision": "address",
+   "source_url": "https://www.connectbogota.org"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Regional innovation network; Springboard and open-innovation programs.",
+   "description": "Regional innovation network; Springboard and open-innovation programs."
+  }
+ },
+ {
+  "id": "co-apps-co",
+  "name": "APPS.CO",
+  "type": "org",
+  "category": "accelerator",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.apps.co/portal/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "MinTIC digital entrepreneurship program operated with iNNpulsa.",
+   "description": "MinTIC digital entrepreneurship program operated with iNNpulsa."
+  }
+ },
+ {
+  "id": "co-nido-distrito-de-innovacion-valle",
+  "name": "NIDO (Distrito de Innovación Valle)",
+  "type": "org",
+  "category": "accelerator",
+  "country": "Colombia",
+  "city": "Cali",
+  "website": "https://distritovalle.com/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Valle del Cauca incubation, acceleration and expansion platform.",
+   "description": "Valle del Cauca incubation, acceleration and expansion platform."
+  }
+ },
+ {
+  "id": "co-wayra-hispam-colombia-hub",
+  "name": "Wayra Hispam (Colombia hub)",
+  "type": "org",
+  "category": "accelerator",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://hispam.wayra.com/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Telefónica open innovation and corporate venture platform active in Colombia.",
+   "description": "Telefónica open innovation and corporate venture platform active in Colombia."
+  }
+ },
+ {
+  "id": "co-socialab-colombia",
+  "name": "Socialab Colombia",
+  "type": "org",
+  "category": "accelerator",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://colombia.socialab.com/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Open innovation and impact entrepreneurship programs with corporates and territories.",
+   "description": "Open innovation and impact entrepreneurship programs with corporates and territories."
+  }
+ },
+ {
+  "id": "co-fondo-emprender-sena",
+  "name": "Fondo Emprender (SENA)",
+  "type": "org",
+  "category": "accelerator",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.innovamos.gov.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "National entrepreneurship fund with innovation and digital-industry calls.",
+   "description": "National entrepreneurship fund with innovation and digital-industry calls."
+  }
+ },
+ {
+  "id": "co-colombia-potencia-digital-emprendimiento-digital",
+  "name": "Colombia Potencia Digital – Emprendimiento Digital",
+  "type": "org",
+  "category": "accelerator",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.mintic.gov.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "MinTIC–iNNpulsa program accelerating digital ventures nationwide.",
+   "description": "MinTIC–iNNpulsa program accelerating digital ventures nationwide."
+  }
+ },
+ {
+  "id": "co-pnud-colombia",
+  "name": "PNUD Colombia",
+  "type": "org",
+  "category": "international",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.undp.org/es/colombia",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "UNDP country office on climate adaptation, low-emissions capacity and territorial resilience.",
+   "description": "UNDP country office on climate adaptation, low-emissions capacity and territorial resilience."
+  }
+ },
+ {
+  "id": "co-onu-colombia",
+  "name": "ONU Colombia",
+  "type": "org",
+  "category": "international",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://colombia.un.org/",
+  "geo": {
+   "lat": 4.666431,
+   "lng": -74.051471,
+   "city": "Bogotá",
+   "country": "Colombia",
+   "precision": "address",
+   "source_url": "https://colombia.un.org"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "United Nations country team coordinating SDG and climate cooperation.",
+   "description": "United Nations country team coordinating SDG and climate cooperation."
+  }
+ },
+ {
+  "id": "co-banco-mundial-colombia",
+  "name": "Banco Mundial – Colombia",
+  "type": "org",
+  "category": "international",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.worldbank.org/ext/en/country/colombia",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "World Bank Group country program (climate, Amazon, disaster risk).",
+   "description": "World Bank Group country program (climate, Amazon, disaster risk)."
+  }
+ },
+ {
+  "id": "co-bid-colombia",
+  "name": "BID – Colombia",
+  "type": "org",
+  "category": "international",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.iadb.org/es/colombia",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Inter-American Development Bank country office.",
+   "description": "Inter-American Development Bank country office."
+  }
+ },
+ {
+  "id": "co-ifc-colombia",
+  "name": "IFC Colombia",
+  "type": "org",
+  "category": "international",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.ifc.org/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "IFC private-sector climate and infrastructure finance in Colombia.",
+   "description": "IFC private-sector climate and infrastructure finance in Colombia."
+  }
+ },
+ {
+  "id": "co-gef-global-environment-facility",
+  "name": "GEF – Global Environment Facility",
+  "type": "org",
+  "category": "international",
+  "country": "Colombia",
+  "city": "Washington",
+  "website": "https://www.thegef.org/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Global environment fund channelled via agencies for Colombia Amazon and adaptation projects.",
+   "description": "Global environment fund channelled via agencies for Colombia Amazon and adaptation projects."
+  }
+ },
+ {
+  "id": "co-wwf-colombia-gcf-accredited-entity-role",
+  "name": "WWF Colombia (GCF accredited entity role)",
+  "type": "org",
+  "category": "international",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.wwf.org.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Conservation NGO serving as executing partner on GCF landscape programs.",
+   "description": "Conservation NGO serving as executing partner on GCF landscape programs."
+  }
+ },
+ {
+  "id": "co-wwf-colombia",
+  "name": "WWF Colombia",
+  "type": "org",
+  "category": "ngo_foundation",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.wwf.org.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Conservation NGO working on climate, Amazon and freshwater.",
+   "description": "Conservation NGO working on climate, Amazon and freshwater."
+  }
+ },
+ {
+  "id": "co-fundacion-natura-colombia",
+  "name": "Fundación Natura Colombia",
+  "type": "org",
+  "category": "ngo_foundation",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://natura.org.co/",
+  "geo": {
+   "lat": 4.57576,
+   "lng": -74.124782,
+   "city": "Bogotá",
+   "country": "Colombia",
+   "precision": "address",
+   "source_url": "https://natura.org.co"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Foundation on biodiversity, climate and CarbonoCero compensation program.",
+   "description": "Foundation on biodiversity, climate and CarbonoCero compensation program."
+  }
+ },
+ {
+  "id": "co-conservation-international-colombia",
+  "name": "Conservation International Colombia",
+  "type": "org",
+  "category": "ngo_foundation",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.conservation.org.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "NGO on nature-based solutions and territorial conservation.",
+   "description": "NGO on nature-based solutions and territorial conservation."
+  }
+ },
+ {
+  "id": "co-fundacion-gaia-amazonas",
+  "name": "Fundación Gaia Amazonas",
+  "type": "org",
+  "category": "ngo_foundation",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://gaiaamazonas.org/",
+  "geo": {
+   "lat": 4.655827,
+   "lng": -74.05989,
+   "city": "Bogotá",
+   "country": "Colombia",
+   "precision": "address",
+   "source_url": "https://gaiaamazonas.org"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "NGO supporting indigenous governance and Amazon conservation.",
+   "description": "NGO supporting indigenous governance and Amazon conservation."
+  }
+ },
+ {
+  "id": "co-fundacion-humedales",
+  "name": "Fundación Humedales",
+  "type": "org",
+  "category": "ngo_foundation",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://fundacionhumedales.org/",
+  "geo": {
+   "lat": 4.702336,
+   "lng": -74.098606,
+   "city": "Bogotá",
+   "country": "Colombia",
+   "precision": "address",
+   "source_url": "https://fundacionhumedales.org"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Participatory wetlands and biodiversity conservation NGO.",
+   "description": "Participatory wetlands and biodiversity conservation NGO."
+  }
+ },
+ {
+  "id": "co-proaves",
+  "name": "ProAves",
+  "type": "org",
+  "category": "ngo_foundation",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.proaves.org/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Bird conservation NGO protecting key ecosystems and climate-relevant forests.",
+   "description": "Bird conservation NGO protecting key ecosystems and climate-relevant forests."
+  }
+ },
+ {
+  "id": "co-fundacion-mario-santo-domingo",
+  "name": "Fundación Mario Santo Domingo",
+  "type": "org",
+  "category": "ngo_foundation",
+  "country": "Colombia",
+  "city": "Barranquilla",
+  "website": "https://www.fundacionmariosantodomingo.org/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Foundation on social and environmental development in Caribbean region.",
+   "description": "Foundation on social and environmental development in Caribbean region."
+  }
+ },
+ {
+  "id": "co-fundacion-bolivar-davivienda",
+  "name": "Fundación Bolívar Davivienda",
+  "type": "org",
+  "category": "ngo_foundation",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.fundacionbolivardavivienda.org/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Corporate foundation on education, entrepreneurship and environment.",
+   "description": "Corporate foundation on education, entrepreneurship and environment."
+  }
+ },
+ {
+  "id": "co-fundacion-grupo-argos",
+  "name": "Fundación Grupo Argos",
+  "type": "org",
+  "category": "ngo_foundation",
+  "country": "Colombia",
+  "city": "Medellín",
+  "website": "https://www.fundaciongrupoargos.org/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Foundation on habitat, water and climate adaptation in territories.",
+   "description": "Foundation on habitat, water and climate adaptation in territories."
+  }
+ },
+ {
+  "id": "co-fundacion-selva",
+  "name": "Fundación Selva",
+  "type": "org",
+  "category": "ngo_foundation",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://selva.org.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "NGO supporting Amazon conservation and indigenous territorial governance.",
+   "description": "NGO supporting Amazon conservation and indigenous territorial governance."
+  }
+ },
+ {
+  "id": "co-universidad-de-los-andes",
+  "name": "Universidad de los Andes",
+  "type": "org",
+  "category": "academia",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://uniandes.edu.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "University sustainability program and carbon-neutrality roadmap.",
+   "description": "University sustainability program and carbon-neutrality roadmap."
+  }
+ },
+ {
+  "id": "co-universidad-nacional-de-colombia",
+  "name": "Universidad Nacional de Colombia",
+  "type": "org",
+  "category": "academia",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://unal.edu.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Public research university with environmental and climate research institutes.",
+   "description": "Public research university with environmental and climate research institutes."
+  }
+ },
+ {
+  "id": "co-universidad-eia",
+  "name": "Universidad EIA",
+  "type": "org",
+  "category": "academia",
+  "country": "Colombia",
+  "city": "Envigado",
+  "website": "https://www.eia.edu.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Engineering university with institutional sustainability and GreenMetric participation.",
+   "description": "Engineering university with institutional sustainability and GreenMetric participation."
+  }
+ },
+ {
+  "id": "co-universidad-de-antioquia",
+  "name": "Universidad de Antioquia",
+  "type": "org",
+  "category": "academia",
+  "country": "Colombia",
+  "city": "Medellín",
+  "website": "https://www.udea.edu.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Public university with research on environment, energy and territory.",
+   "description": "Public university with research on environment, energy and territory."
+  }
+ },
+ {
+  "id": "co-universidad-del-valle",
+  "name": "Universidad del Valle",
+  "type": "org",
+  "category": "academia",
+  "country": "Colombia",
+  "city": "Cali",
+  "website": "https://www.univalle.edu.co/",
+  "geo": {
+   "lat": 3.343992,
+   "lng": -76.539416,
+   "city": "Cali",
+   "country": "Colombia",
+   "precision": "address",
+   "source_url": "https://www.univalle.edu.co"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Public university with climate and sustainability research centers.",
+   "description": "Public university with climate and sustainability research centers."
+  }
+ },
+ {
+  "id": "co-pontificia-universidad-javeriana",
+  "name": "Pontificia Universidad Javeriana",
+  "type": "org",
+  "category": "academia",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.javeriana.edu.co/",
+  "geo": {
+   "lat": 4.653382,
+   "lng": -74.083633,
+   "city": "Bogotá",
+   "country": "Colombia",
+   "precision": "address",
+   "source_url": "https://www.javeriana.edu.co"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "University with environmental engineering and climate policy research.",
+   "description": "University with environmental engineering and climate policy research."
+  }
+ },
+ {
+  "id": "co-universidad-eafit",
+  "name": "Universidad EAFIT",
+  "type": "org",
+  "category": "academia",
+  "country": "Colombia",
+  "city": "Medellín",
+  "website": "https://www.eafit.edu.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "University with energy, sustainability and innovation programs.",
+   "description": "University with energy, sustainability and innovation programs."
+  }
+ },
+ {
+  "id": "co-universidad-industrial-de-santander",
+  "name": "Universidad Industrial de Santander",
+  "type": "org",
+  "category": "academia",
+  "country": "Colombia",
+  "city": "Bucaramanga",
+  "website": "https://www.uis.edu.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Public university with engineering and environmental research.",
+   "description": "Public university with engineering and environmental research."
+  }
+ },
+ {
+  "id": "co-universidad-del-rosario",
+  "name": "Universidad del Rosario",
+  "type": "org",
+  "category": "academia",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.urosario.edu.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "University with environmental law and climate governance research.",
+   "description": "University with environmental law and climate governance research."
+  }
+ },
+ {
+  "id": "co-instituto-de-investigacion-de-recursos-biologicos-alexander-von-humboldt",
+  "name": "Instituto de Investigación de Recursos Biológicos Alexander von Humboldt",
+  "type": "org",
+  "category": "academia",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.humboldt.org.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Public research institute on biodiversity and ecosystem services for climate policy.",
+   "description": "Public research institute on biodiversity and ecosystem services for climate policy."
+  }
+ },
+ {
+  "id": "co-fondo-patrimonio-natural",
+  "name": "Fondo Patrimonio Natural",
+  "type": "org",
+  "category": "funder",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.patrimonionatural.org.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Endowment fund for protected areas and biodiversity finance.",
+   "description": "Endowment fund for protected areas and biodiversity finance."
+  }
+ },
+ {
+  "id": "co-bancoldex-capital-lp-investments",
+  "name": "Bancóldex Capital (LP investments)",
+  "type": "org",
+  "category": "funder",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.bancoldex.com/inversion-en-fondos",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Bancóldex program investing as LP in PE/VC funds including cleantech.",
+   "description": "Bancóldex program investing as LP in PE/VC funds including cleantech."
+  }
+ },
+ {
+  "id": "co-fcp-bancoldex-capital-fondo-de-fondos",
+  "name": "FCP Bancóldex Capital Fondo de Fondos",
+  "type": "org",
+  "category": "funder",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://fiducoldex.com.co/fondo-de-fondos",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Fund-of-funds vehicle managed by Bancóldex for venture and PE.",
+   "description": "Fund-of-funds vehicle managed by Bancóldex for venture and PE."
+  }
+ },
+ {
+  "id": "co-findeter",
+  "name": "Findeter",
+  "type": "org",
+  "category": "funder",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://findeter.gov.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Territorial development bank financing sustainable infrastructure.",
+   "description": "Territorial development bank financing sustainable infrastructure."
+  }
+ },
+ {
+  "id": "co-adaptation-fund-colombia-projects",
+  "name": "Adaptation Fund (Colombia projects)",
+  "type": "org",
+  "category": "funder",
+  "country": "Colombia",
+  "city": "Washington",
+  "website": "https://www.adaptation-fund.org/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Multilateral fund supporting Colombia adaptation (e.g. La Mojana).",
+   "description": "Multilateral fund supporting Colombia adaptation (e.g. La Mojana)."
+  }
+ },
+ {
+  "id": "co-global-environment-facility-colombia",
+  "name": "Global Environment Facility (Colombia)",
+  "type": "org",
+  "category": "funder",
+  "country": "Colombia",
+  "city": "Washington",
+  "website": "https://www.thegef.org/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "GEF grants for Amazon and climate projects in Colombia.",
+   "description": "GEF grants for Amazon and climate projects in Colombia."
+  }
+ },
+ {
+  "id": "co-bancolombia",
+  "name": "Bancolombia",
+  "type": "org",
+  "category": "finance",
+  "country": "Colombia",
+  "city": "Medellín",
+  "website": "https://www.bancolombia.com/",
+  "geo": {
+   "lat": 6.214315,
+   "lng": -75.576076,
+   "city": "Medellín",
+   "country": "Colombia",
+   "precision": "address",
+   "source_url": "https://www.bancolombia.com"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Commercial bank with sustainable finance and green bond programs.",
+   "description": "Commercial bank with sustainable finance and green bond programs."
+  }
+ },
+ {
+  "id": "co-banco-agrario-de-colombia",
+  "name": "Banco Agrario de Colombia",
+  "type": "org",
+  "category": "finance",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.bancoagrario.gov.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Public agricultural development bank.",
+   "description": "Public agricultural development bank."
+  }
+ },
+ {
+  "id": "co-finagro",
+  "name": "Finagro",
+  "type": "org",
+  "category": "finance",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.finagro.com.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Agricultural credit guarantee fund.",
+   "description": "Agricultural credit guarantee fund."
+  }
+ },
+ {
+  "id": "co-bolsa-de-valores-de-colombia-bvc",
+  "name": "Bolsa de Valores de Colombia (BVC)",
+  "type": "org",
+  "category": "finance",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.bvc.com.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Stock exchange listing green bonds and sustainable issuers.",
+   "description": "Stock exchange listing green bonds and sustainable issuers."
+  }
+ },
+ {
+  "id": "co-davivienda",
+  "name": "Davivienda",
+  "type": "org",
+  "category": "finance",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.davivienda.com/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Bank with sustainability-linked lending and green products.",
+   "description": "Bank with sustainability-linked lending and green products."
+  }
+ },
+ {
+  "id": "co-banca-de-las-oportunidades",
+  "name": "Banca de las Oportunidades",
+  "type": "org",
+  "category": "finance",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.bancadelasoportunidades.gov.co/",
+  "geo": {
+   "lat": 4.615712,
+   "lng": -74.071314,
+   "city": "Bogotá",
+   "country": "Colombia",
+   "precision": "address",
+   "source_url": "https://www.bancadelasoportunidades.gov.co"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Public program expanding access to finance for vulnerable populations.",
+   "description": "Public program expanding access to finance for vulnerable populations."
+  }
+ },
+ {
+  "id": "co-banco-de-bogota-grupo-aval",
+  "name": "Banco de Bogotá (Grupo Aval)",
+  "type": "org",
+  "category": "finance",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.bancodebogota.com/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Commercial bank financing corporates and sustainability projects.",
+   "description": "Commercial bank financing corporates and sustainability projects."
+  }
+ },
+ {
+  "id": "co-fiducoldex",
+  "name": "Fiducoldex",
+  "type": "org",
+  "category": "finance",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://fiducoldex.com.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Trust company administering Bancóldex fund vehicles.",
+   "description": "Trust company administering Bancóldex fund vehicles."
+  }
+ },
+ {
+  "id": "co-camara-de-comercio-de-bogota",
+  "name": "Cámara de Comercio de Bogotá",
+  "type": "org",
+  "category": "chamber",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.ccb.org.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Bogotá chamber: business registry, productivity and sustainability services.",
+   "description": "Bogotá chamber: business registry, productivity and sustainability services."
+  }
+ },
+ {
+  "id": "co-camara-de-comercio-de-medellin-para-antioquia",
+  "name": "Cámara de Comercio de Medellín para Antioquia",
+  "type": "org",
+  "category": "chamber",
+  "country": "Colombia",
+  "city": "Medellín",
+  "website": "https://www.camaramedellin.com.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Antioquia chamber supporting innovation and competitiveness.",
+   "description": "Antioquia chamber supporting innovation and competitiveness."
+  }
+ },
+ {
+  "id": "co-camara-de-comercio-de-cali",
+  "name": "Cámara de Comercio de Cali",
+  "type": "org",
+  "category": "chamber",
+  "country": "Colombia",
+  "city": "Cali",
+  "website": "https://www.ccc.org.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Valle chamber with innovation and market-access services.",
+   "description": "Valle chamber with innovation and market-access services."
+  }
+ },
+ {
+  "id": "co-confecamaras",
+  "name": "Confecámaras",
+  "type": "org",
+  "category": "chamber",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://confecamaras.org.co/",
+  "geo": {
+   "lat": 4.622777,
+   "lng": -74.078181,
+   "city": "Bogotá",
+   "country": "Colombia",
+   "precision": "address",
+   "source_url": "https://confecamaras.org.co"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "National federation of Colombia's 58 chambers of commerce.",
+   "description": "National federation of Colombia's 58 chambers of commerce."
+  }
+ },
+ {
+  "id": "co-camara-de-comercio-de-barranquilla",
+  "name": "Cámara de Comercio de Barranquilla",
+  "type": "org",
+  "category": "chamber",
+  "country": "Colombia",
+  "city": "Barranquilla",
+  "website": "https://www.camarabaq.org.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Caribbean regional chamber.",
+   "description": "Caribbean regional chamber."
+  }
+ },
+ {
+  "id": "co-camara-de-comercio-de-bucaramanga",
+  "name": "Cámara de Comercio de Bucaramanga",
+  "type": "org",
+  "category": "chamber",
+  "country": "Colombia",
+  "city": "Bucaramanga",
+  "website": "https://www.camaradirecta.com/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Santander chamber.",
+   "description": "Santander chamber."
+  }
+ },
+ {
+  "id": "co-camara-de-comercio-de-cartagena",
+  "name": "Cámara de Comercio de Cartagena",
+  "type": "org",
+  "category": "chamber",
+  "country": "Colombia",
+  "city": "Cartagena",
+  "website": "https://www.camaracartagena.org.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Bolívar coastal chamber.",
+   "description": "Bolívar coastal chamber."
+  }
+ },
+ {
+  "id": "co-camara-de-comercio-de-pereira",
+  "name": "Cámara de Comercio de Pereira",
+  "type": "org",
+  "category": "chamber",
+  "country": "Colombia",
+  "city": "Pereira",
+  "website": "https://www.camaradecomerciopereira.org.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Risaralda coffee-region chamber.",
+   "description": "Risaralda coffee-region chamber."
+  }
+ },
+ {
+  "id": "co-camara-de-comercio-de-manizales-por-caldas",
+  "name": "Cámara de Comercio de Manizales por Caldas",
+  "type": "org",
+  "category": "chamber",
+  "country": "Colombia",
+  "city": "Manizales",
+  "website": "https://www.ccmpc.org.co/",
+  "geo": {
+   "lat": 5.066891,
+   "lng": -75.506666,
+   "city": "Manizales",
+   "country": "Colombia",
+   "precision": "address",
+   "source_url": "https://www.ccmpc.org.co"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Caldas chamber.",
+   "description": "Caldas chamber."
+  }
+ },
+ {
+  "id": "co-camara-de-comercio-de-cucuta",
+  "name": "Cámara de Comercio de Cúcuta",
+  "type": "org",
+  "category": "chamber",
+  "country": "Colombia",
+  "city": "Cúcuta",
+  "website": "https://www.camaracucuta.org.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Norte de Santander border chamber.",
+   "description": "Norte de Santander border chamber."
+  }
+ },
+ {
+  "id": "co-ley-2169-de-2021-carbono-neutralidad-y-resiliencia",
+  "name": "Ley 2169 de 2021 (carbono neutralidad y resiliencia)",
+  "type": "policy",
+  "category": "policy",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.minambiente.gov.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Framework law for carbon neutrality, climate resilience and low-carbon development.",
+   "description": "Framework law for carbon neutrality, climate resilience and low-carbon development."
+  }
+ },
+ {
+  "id": "co-ndc-colombia-actualizacion-2020",
+  "name": "NDC Colombia (actualización 2020)",
+  "type": "policy",
+  "category": "policy",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.minambiente.gov.co/cambio-climatico-y-gestion-del-riesgo/documentos-oficiales-contribuciones-nacionalmente-determinadas/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Nationally determined contribution: mitigation, adaptation and means of implementation.",
+   "description": "Nationally determined contribution: mitigation, adaptation and means of implementation."
+  }
+ },
+ {
+  "id": "co-programa-nacional-de-carbono-neutralidad-y-resiliencia-climatica",
+  "name": "Programa Nacional de Carbono Neutralidad y Resiliencia Climática",
+  "type": "policy",
+  "category": "policy",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://carbononeutral.minambiente.gov.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "National program for GHG reduction and adaptive capacity (NDC/Ley 2169).",
+   "description": "National program for GHG reduction and adaptive capacity (NDC/Ley 2169)."
+  }
+ },
+ {
+  "id": "co-sisclima-sistema-nacional-de-cambio-climatico",
+  "name": "SISCLIMA – Sistema Nacional de Cambio Climático",
+  "type": "policy",
+  "category": "policy",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.minambiente.gov.co/cambio-climatico-y-gestion-del-riesgo/sistema-nacional-de-cambio-climatico-sisclima/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "National climate governance system coordinating public and private actors.",
+   "description": "National climate governance system coordinating public and private actors."
+  }
+ },
+ {
+  "id": "co-estrategia-colombia-carbono-neutral-2050-e2050",
+  "name": "Estrategia Colombia Carbono Neutral 2050 (E2050)",
+  "type": "policy",
+  "category": "policy",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.minambiente.gov.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Long-term low-emissions development strategy aligned with Paris Agreement.",
+   "description": "Long-term low-emissions development strategy aligned with Paris Agreement."
+  }
+ },
+ {
+  "id": "co-taxonomia-verde-colombia-minhacienda-uvt",
+  "name": "Taxonomía verde Colombia (MinHacienda / UVT)",
+  "type": "policy",
+  "category": "policy",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.minhacienda.gov.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Green taxonomy defining eligible sustainable economic activities.",
+   "description": "Green taxonomy defining eligible sustainable economic activities."
+  }
+ },
+ {
+  "id": "co-resolucion-creg-174-2021-autogeneracion-solar",
+  "name": "Resolución CREG 174/2021 (autogeneración solar)",
+  "type": "policy",
+  "category": "policy",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.creg.gov.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Grid rules enabling distributed solar self-generation and connection.",
+   "description": "Grid rules enabling distributed solar self-generation and connection."
+  }
+ },
+ {
+  "id": "co-resolucion-upme-203-2020-autogeneracion",
+  "name": "Resolución UPME 203/2020 (autogeneración)",
+  "type": "policy",
+  "category": "policy",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www1.upme.gov.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Technical regulation for small-scale renewable self-generation.",
+   "description": "Technical regulation for small-scale renewable self-generation."
+  }
+ },
+ {
+  "id": "co-politica-nacional-de-gestion-del-riesgo-de-desastres",
+  "name": "Política Nacional de Gestión del Riesgo de Desastres",
+  "type": "policy",
+  "category": "policy",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.gestiondelriesgo.gov.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Disaster risk policy linked to climate adaptation.",
+   "description": "Disaster risk policy linked to climate adaptation."
+  }
+ },
+ {
+  "id": "co-plan-nacional-de-adaptacion-al-cambio-climatico-pnacc",
+  "name": "Plan Nacional de Adaptación al Cambio Climático (PNACC)",
+  "type": "policy",
+  "category": "policy",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.minambiente.gov.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "National adaptation planning instrument under MinAmbiente.",
+   "description": "National adaptation planning instrument under MinAmbiente."
+  }
+ },
+ {
+  "id": "co-semana-sostenible",
+  "name": "Semana Sostenible",
+  "type": "org",
+  "category": "media",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.semana.com/sostenible/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Digital sustainability and climate coverage (Grupo Semana).",
+   "description": "Digital sustainability and climate coverage (Grupo Semana)."
+  }
+ },
+ {
+  "id": "co-portafolio",
+  "name": "Portafolio",
+  "type": "org",
+  "category": "media",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.portafolio.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Business and economy news including energy transition.",
+   "description": "Business and economy news including energy transition."
+  }
+ },
+ {
+  "id": "co-la-republica",
+  "name": "La República",
+  "type": "org",
+  "category": "media",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.larepublica.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Business newspaper covering green finance and policy.",
+   "description": "Business newspaper covering green finance and policy."
+  }
+ },
+ {
+  "id": "co-forbes-colombia",
+  "name": "Forbes Colombia",
+  "type": "org",
+  "category": "media",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://forbes.co/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Business media featuring innovation and sustainability leaders.",
+   "description": "Business media featuring innovation and sustainability leaders."
+  }
+ },
+ {
+  "id": "co-el-espectador",
+  "name": "El Espectador",
+  "type": "org",
+  "category": "media",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.elespectador.com/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "National newspaper with environment and climate desk.",
+   "description": "National newspaper with environment and climate desk."
+  }
+ },
+ {
+  "id": "co-valora-analitik",
+  "name": "Valora Analitik",
+  "type": "org",
+  "category": "media",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.valoraanalitik.com/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Financial and economic analysis including energy markets.",
+   "description": "Financial and economic analysis including energy markets."
+  }
+ },
+ {
+  "id": "co-dinero",
+  "name": "Dinero",
+  "type": "org",
+  "category": "media",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.dinero.com/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Business magazine on companies, markets and policy.",
+   "description": "Business magazine on companies, markets and policy."
+  }
+ },
+ {
+  "id": "co-blu-radio",
+  "name": "Blu Radio",
+  "type": "org",
+  "category": "media",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.bluradio.com/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "News radio with national economy and environment coverage.",
+   "description": "News radio with national economy and environment coverage."
+  }
+ },
+ {
+  "id": "co-rcn-radio-noticias",
+  "name": "RCN Radio Noticias",
+  "type": "org",
+  "category": "media",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.noticiasrcn.com/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "National news network covering climate and infrastructure.",
+   "description": "National news network covering climate and infrastructure."
+  }
+ },
+ {
+  "id": "co-energia-estrategica",
+  "name": "Energía Estratégica",
+  "type": "org",
+  "category": "media",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.energiaestrategica.com/",
+  "geo": {
+   "precision": "country",
+   "country": "Colombia"
+  },
+  "nexus": {},
+  "card": {
+   "ecosystem_role": "Specialized media on renewables and energy transition in LATAM.",
+   "description": "Specialized media on renewables and energy transition in LATAM."
+  }
  }
 ]

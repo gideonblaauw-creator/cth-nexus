@@ -2234,13 +2234,13 @@
   "sector": "gov",
   "source": "Mapa de Actores Perú 2026",
   "geo": {
-   "lat": -12.09823,
-   "lng": -77.014407,
-   "address": "Calle Uno Oeste 50, Urb. Corpac, San Isidro, Lima, Lima Metropolitana, Lima, Perú",
-   "city": "San Isidro",
+   "lat": -13.517089,
+   "lng": -71.978536,
+   "address": "Cuzco, Distrito de Cusco, Cusco, 08001, Perú",
+   "city": "Cuzco",
    "country": "Peru",
-   "precision": "address",
-   "source_url": "https://www.gob.pe/proinnovate"
+   "precision": "city",
+   "source_url": "https://nominatim.openstreetmap.org/search?q=cusco%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
   },
   "nexus": {
    "card_slug": null
@@ -9059,19 +9059,18 @@
   "type": "org",
   "category": "finance",
   "country": "Colombia",
-  "city": "Bogotá",
+  "city": "Barranquilla",
   "website": "https://www.bancoldex.com",
   "page": null,
   "notes": "Colombia energy-access layer map (template deck \"The Complete Ecosystem Map\")",
   "geo": {
-   "lat": 4.615712,
-   "lng": -74.071314,
-   "address": "Calle 28 No. 13 A-15",
-   "city": "Bogotá",
+   "lat": 11.00374,
+   "lng": -74.808963,
+   "address": "Bancoldex, 76, Carrera 52, Alto Prado, Localidad Norte - Centro Histórico, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, 080001, Colombia",
+   "city": "Perímetro Urbano Barranquilla",
    "country": "Colombia",
    "precision": "address",
-   "source_url": "https://www.bancoldex.com/contactenos",
-   "location_note": "Oficina principal Bogotá (contacto oficial Bancóldex)."
+   "source_url": "https://nominatim.openstreetmap.org/search?q=Banc%C3%B3ldex%2C+Colombia&format=json&limit=1&addressdetails=1&countrycodes=co (name-country)"
   },
   "linkedin": "https://www.linkedin.com/company/bancoldex",
   "linkedin_url": "https://www.linkedin.com/company/bancoldex",
@@ -9297,13 +9296,13 @@
   "sector": "private",
   "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
   "geo": {
-   "precision": "address",
-   "address": "Calle 12 sur No. 18-168",
-   "city": "Medellín",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "Colombia",
-   "source_url": "https://www.isa.co/es/",
-   "lat": 6.194528,
-   "lng": -75.577958
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -9330,13 +9329,13 @@
   "sector": "private",
   "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
   "geo": {
-   "precision": "address",
-   "address": "Carrera 9 No. 73-44, piso 6",
-   "city": "Bogotá",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "Colombia",
-   "source_url": "https://www.grupoenergiabogota.com",
-   "lat": 4.657366,
-   "lng": -74.055568
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -9363,13 +9362,13 @@
   "sector": "private",
   "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
   "geo": {
-   "precision": "address",
-   "address": "Carrera 13A No. 93-66, piso 4",
-   "city": "Bogotá",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "Colombia",
-   "source_url": "https://www.enel.com.co/es/contactanos.html",
-   "lat": 4.676629,
-   "lng": -74.05002
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -9395,13 +9394,13 @@
   "sector": "private",
   "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
   "geo": {
-   "precision": "address",
-   "address": "Carrera 48 No. 26-85, piso 1",
-   "city": "Medellín",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "Colombia",
-   "source_url": "https://www.celsia.com/es/contactenos/",
-   "lat": 6.227969,
-   "lng": -75.574729
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -9428,13 +9427,13 @@
   "sector": "private",
   "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
   "geo": {
-   "precision": "address",
-   "address": "Carrera 58 No. 42-125",
-   "city": "Medellín",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "Colombia",
-   "source_url": "https://www.epm.com.co",
-   "lat": 6.280276,
-   "lng": -75.567061
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -9460,13 +9459,13 @@
   "sector": "private",
   "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
   "geo": {
-   "precision": "address",
-   "address": "Calle 66 No. 67-123",
-   "city": "Barranquilla",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "Colombia",
-   "source_url": "https://www.promigas.com/es/contacto/",
-   "lat": 10.989981,
-   "lng": -74.800332
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -9525,13 +9524,13 @@
   "sector": "private",
   "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
   "geo": {
-   "precision": "address",
-   "address": "Carrera 43A No. 1A sur-143",
-   "city": "Medellín",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "Colombia",
-   "source_url": "https://gruponutresa.com/es/contacto/",
-   "lat": 6.201766,
-   "lng": -75.571832
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -9557,13 +9556,13 @@
   "sector": "private",
   "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
   "geo": {
-   "precision": "address",
-   "address": "Calle 73 No. 8-13",
-   "city": "Bogotá",
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
    "country": "Colombia",
-   "source_url": "https://www.juanvaldez.com/contacto",
-   "lat": 4.690382,
-   "lng": -74.097
+   "precision": "country",
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -9596,8 +9595,7 @@
    "city": null,
    "country": "Colombia",
    "precision": "country",
-   "source_url": null,
-   "location_note": "Street on source page; geocode pending."
+   "source_url": null
   },
   "nexus": {
    "card_slug": null
@@ -9619,13 +9617,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — government",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -9673,13 +9666,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — government",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -9754,13 +9742,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — government",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -9808,13 +9791,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — accelerator",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -9835,13 +9813,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — accelerator",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -9889,13 +9862,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — accelerator",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -9916,13 +9884,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — accelerator",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -9943,13 +9906,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — accelerator",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -9970,13 +9928,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — accelerator",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -9997,13 +9950,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — accelerator",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -10024,13 +9972,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — accelerator",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -10051,13 +9994,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — international",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -10105,13 +10043,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — international",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -10132,13 +10065,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — international",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -10159,13 +10087,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — international",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -10186,13 +10109,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — international",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -10213,13 +10131,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — international",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -10240,13 +10153,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — ngo_foundation",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -10294,13 +10202,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — ngo_foundation",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -10375,13 +10278,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — ngo_foundation",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -10402,13 +10300,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — ngo_foundation",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -10429,13 +10322,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — ngo_foundation",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -10456,13 +10344,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — ngo_foundation",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -10483,13 +10366,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — ngo_foundation",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -10510,13 +10388,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — academia",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -10537,13 +10410,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — academia",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -10564,13 +10432,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — academia",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -10591,13 +10454,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — academia",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -10672,13 +10530,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — academia",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -10699,13 +10552,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — academia",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -10726,13 +10574,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — academia",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -10753,13 +10596,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — academia",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -10780,13 +10618,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — funder",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -10807,13 +10640,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — funder",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -10834,13 +10662,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — funder",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -10861,13 +10684,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — funder",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -10888,13 +10706,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — funder",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -10915,13 +10728,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — funder",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -10969,13 +10777,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — finance",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -10996,13 +10799,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — finance",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -11023,13 +10821,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — finance",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -11050,13 +10843,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — finance",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -11104,13 +10892,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — finance",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -11131,13 +10914,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — finance",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -11158,13 +10936,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — chamber",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -11185,13 +10958,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — chamber",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -11212,13 +10980,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — chamber",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -11266,13 +11029,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — chamber",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -11293,13 +11051,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — chamber",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -11320,13 +11073,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — chamber",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -11347,13 +11095,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — chamber",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -11401,13 +11144,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — chamber",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -11428,13 +11166,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — policy",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -11455,13 +11188,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — policy",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -11482,13 +11210,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — policy",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -11509,13 +11232,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — policy",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -11536,13 +11254,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — policy",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -11563,13 +11276,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — policy",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -11590,13 +11298,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — policy",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -11617,13 +11320,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — policy",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -11644,13 +11342,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — policy",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -11671,13 +11364,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — policy",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -11698,13 +11386,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — media",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -11725,13 +11408,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — media",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -11752,13 +11430,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — media",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -11779,13 +11452,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — media",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -11806,13 +11474,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — media",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -11833,13 +11496,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — media",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -11860,13 +11518,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — media",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -11887,13 +11540,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — media",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -11914,13 +11562,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — media",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
@@ -11941,13 +11584,8 @@
   "page": null,
   "notes": "Colombia actor list v1 — media",
   "geo": {
-   "lat": null,
-   "lng": null,
-   "address": null,
-   "city": null,
-   "country": "Colombia",
    "precision": "country",
-   "source_url": null
+   "country": "Colombia"
   },
   "nexus": {
    "card_slug": null
