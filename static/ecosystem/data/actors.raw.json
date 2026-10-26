@@ -2234,13 +2234,13 @@
   "sector": "gov",
   "source": "Mapa de Actores Perú 2026",
   "geo": {
-   "lat": -13.517089,
-   "lng": -71.978536,
-   "address": "Cuzco, Distrito de Cusco, Cusco, 08001, Perú",
-   "city": "Cuzco",
+   "lat": -12.09823,
+   "lng": -77.014407,
+   "address": "Calle Uno Oeste 50, Urb. Corpac, San Isidro, Lima, Lima Metropolitana, Lima, Perú",
+   "city": "San Isidro",
    "country": "Peru",
-   "precision": "city",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=cusco%2C+Peru&format=json&limit=1&addressdetails=1&countrycodes=pe"
+   "precision": "address",
+   "source_url": "https://www.gob.pe/proinnovate"
   },
   "nexus": {
    "card_slug": null
@@ -9059,18 +9059,19 @@
   "type": "org",
   "category": "finance",
   "country": "Colombia",
-  "city": "Barranquilla",
+  "city": "Bogotá",
   "website": "https://www.bancoldex.com",
   "page": null,
   "notes": "Colombia energy-access layer map (template deck \"The Complete Ecosystem Map\")",
   "geo": {
-   "lat": 11.00374,
-   "lng": -74.808963,
-   "address": "Bancoldex, 76, Carrera 52, Alto Prado, Localidad Norte - Centro Histórico, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, 080001, Colombia",
-   "city": "Perímetro Urbano Barranquilla",
+   "lat": 4.615712,
+   "lng": -74.071314,
+   "address": "Calle 28 No. 13 A-15",
+   "city": "Bogotá",
    "country": "Colombia",
    "precision": "address",
-   "source_url": "https://nominatim.openstreetmap.org/search?q=Banc%C3%B3ldex%2C+Colombia&format=json&limit=1&addressdetails=1&countrycodes=co (name-country)"
+   "source_url": "https://www.bancoldex.com/contactenos",
+   "location_note": "Oficina principal Bogotá (contacto oficial Bancóldex)."
   },
   "linkedin": "https://www.linkedin.com/company/bancoldex",
   "linkedin_url": "https://www.linkedin.com/company/bancoldex",
@@ -9247,364 +9248,366 @@
    "description": "La Unidad de Planeación Minero Energética (UPME) es una entidad adscrita al Ministerio de Minas y Energía de Colombia que realiza planeación del sector minero-energético, estudios de oferta y demanda, y soporte a políticas públicas."
   }
  },
-  {
- "id": "co-ipse",
- "name": "IPSE",
- "type": "org",
- "category": "government",
- "country": "Colombia",
- "city": "Bogotá",
- "website": "https://ipse.gov.co",
- "page": null,
- "notes": "Colombia energy-access layer map (template deck \"The Complete Ecosystem Map\")",
- "sector": "private",
- "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
- "geo": {
-  "lat": null,
-  "lng": null,
-  "address": null,
-  "city": null,
+ {
+  "id": "co-ipse",
+  "name": "IPSE",
+  "type": "org",
+  "category": "government",
   "country": "Colombia",
-  "precision": "country",
-  "source_url": null
- },
- "linkedin": "https://www.linkedin.com/company/ipse-zni",
- "linkedin_url": "https://www.linkedin.com/company/ipse-zni",
- "linkedin_cited_from": "https://ipse.gov.co",
- "linkedin_accessed": "2026-10-22",
- "nexus": {
-  "card_slug": null
- },
- "card": {
-  "ecosystem_role": "Entidad pública de soluciones energéticas en ZNI.",
-  "description": "El Instituto de Planificación y Promoción de Soluciones Energéticas para las Zonas No Interconectadas (IPSE) atiende la provisión de energía en zonas no interconectadas de Colombia."
- }
+  "city": "Bogotá",
+  "website": "https://ipse.gov.co",
+  "page": null,
+  "notes": "Colombia energy-access layer map (template deck \"The Complete Ecosystem Map\")",
+  "sector": "private",
+  "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "linkedin": "https://www.linkedin.com/company/ipse-zni",
+  "linkedin_url": "https://www.linkedin.com/company/ipse-zni",
+  "linkedin_cited_from": "https://ipse.gov.co",
+  "linkedin_accessed": "2026-10-22",
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Entidad pública de soluciones energéticas en ZNI.",
+   "description": "El Instituto de Planificación y Promoción de Soluciones Energéticas para las Zonas No Interconectadas (IPSE) atiende la provisión de energía en zonas no interconectadas de Colombia."
+  }
  },
  {
- "id": "co-isa",
- "name": "ISA",
- "type": "org",
- "category": "corporate",
- "country": "Colombia",
- "city": "Medellín",
- "website": "https://www.isa.co",
- "page": null,
- "notes": "Wave 1 round 1 — Datalab Nexus Colombia map (Move 4)",
- "challenges": [
-  "ENE"
- ],
- "sector": "private",
- "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
- "geo": {
-  "lat": null,
-  "lng": null,
-  "address": null,
-  "city": null,
+  "id": "co-isa",
+  "name": "ISA",
+  "type": "org",
+  "category": "corporate",
   "country": "Colombia",
-  "precision": "country",
-  "source_url": null
- },
- "nexus": {
-  "card_slug": null
- },
- "card": {
-  "ecosystem_role": "Transmisión eléctrica y conexión de mercados energéticos.",
-  "description": "Interconexión Eléctrica S.A. (ISA) opera infraestructura de transmisión y conexión eléctrica en Colombia y la región."
- },
- "linkedin": "https://www.linkedin.com/company/isaconexiones/"
+  "city": "Medellín",
+  "website": "https://www.isa.co",
+  "page": null,
+  "notes": "Wave 1 round 1 — Datalab Nexus Colombia map (Move 4)",
+  "challenges": [
+   "ENE"
+  ],
+  "sector": "private",
+  "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
+  "geo": {
+   "precision": "address",
+   "address": "Calle 12 sur No. 18-168",
+   "city": "Medellín",
+   "country": "Colombia",
+   "source_url": "https://www.isa.co/es/",
+   "lat": 6.194528,
+   "lng": -75.577958
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Transmisión eléctrica y conexión de mercados energéticos.",
+   "description": "Interconexión Eléctrica S.A. (ISA) opera infraestructura de transmisión y conexión eléctrica en Colombia y la región."
+  },
+  "linkedin": "https://www.linkedin.com/company/isaconexiones/"
  },
  {
- "id": "co-geb-grupo-energia-bogota",
- "name": "GEB (Grupo Energía Bogotá)",
- "type": "org",
- "category": "corporate",
- "country": "Colombia",
- "city": "Bogotá",
- "website": "https://www.grupoenergiabogota.com",
- "page": null,
- "notes": "Wave 1 round 1 — Datalab Nexus Colombia map (Move 4)",
- "challenges": [
-  "ENE"
- ],
- "sector": "private",
- "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
- "geo": {
-  "lat": null,
-  "lng": null,
-  "address": null,
-  "city": null,
+  "id": "co-geb-grupo-energia-bogota",
+  "name": "GEB (Grupo Energía Bogotá)",
+  "type": "org",
+  "category": "corporate",
   "country": "Colombia",
-  "precision": "country",
-  "source_url": null
- },
- "nexus": {
-  "card_slug": null
- },
- "card": {
-  "ecosystem_role": "Grupo integrado de energía, gas y conectividad.",
-  "description": "Grupo Energía Bogotá (GEB) agrupa negocios de transmisión, gas natural y telecomunicaciones en Colombia y Latinoamérica."
- },
- "linkedin": "https://www.linkedin.com/company/grupo-energia-bogota"
+  "city": "Bogotá",
+  "website": "https://www.grupoenergiabogota.com",
+  "page": null,
+  "notes": "Wave 1 round 1 — Datalab Nexus Colombia map (Move 4)",
+  "challenges": [
+   "ENE"
+  ],
+  "sector": "private",
+  "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
+  "geo": {
+   "precision": "address",
+   "address": "Carrera 9 No. 73-44, piso 6",
+   "city": "Bogotá",
+   "country": "Colombia",
+   "source_url": "https://www.grupoenergiabogota.com",
+   "lat": 4.657366,
+   "lng": -74.055568
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Grupo integrado de energía, gas y conectividad.",
+   "description": "Grupo Energía Bogotá (GEB) agrupa negocios de transmisión, gas natural y telecomunicaciones en Colombia y Latinoamérica."
+  },
+  "linkedin": "https://www.linkedin.com/company/grupo-energia-bogota"
  },
  {
- "id": "co-enel-colombia",
- "name": "Enel Colombia",
- "type": "org",
- "category": "corporate",
- "country": "Colombia",
- "city": "Bogotá",
- "website": "https://www.enel.com.co",
- "page": null,
- "notes": "Wave 1 round 1 — Datalab Nexus Colombia map (Move 4)",
- "challenges": [
-  "ENE"
- ],
- "sector": "private",
- "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
- "geo": {
-  "lat": null,
-  "lng": null,
-  "address": null,
-  "city": null,
+  "id": "co-enel-colombia",
+  "name": "Enel Colombia",
+  "type": "org",
+  "category": "corporate",
   "country": "Colombia",
-  "precision": "country",
-  "source_url": null
- },
- "nexus": {
-  "card_slug": null
- },
- "card": {
-  "ecosystem_role": "Generación, distribución y soluciones energéticas.",
-  "description": "Enel Colombia participa en generación y comercialización de energía y servicios eléctricos para clientes residenciales y empresariales."
- }
+  "city": "Bogotá",
+  "website": "https://www.enel.com.co",
+  "page": null,
+  "notes": "Wave 1 round 1 — Datalab Nexus Colombia map (Move 4)",
+  "challenges": [
+   "ENE"
+  ],
+  "sector": "private",
+  "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
+  "geo": {
+   "precision": "address",
+   "address": "Carrera 13A No. 93-66, piso 4",
+   "city": "Bogotá",
+   "country": "Colombia",
+   "source_url": "https://www.enel.com.co/es/contactanos.html",
+   "lat": 4.676629,
+   "lng": -74.05002
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Generación, distribución y soluciones energéticas.",
+   "description": "Enel Colombia participa en generación y comercialización de energía y servicios eléctricos para clientes residenciales y empresariales."
+  }
  },
  {
- "id": "co-celsia",
- "name": "Celsia",
- "type": "org",
- "category": "corporate",
- "country": "Colombia",
- "city": "Medellín",
- "website": "https://www.celsia.com",
- "page": null,
- "notes": "Wave 1 round 1 — Datalab Nexus Colombia map (Move 4)",
- "challenges": [
-  "ENE"
- ],
- "sector": "private",
- "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
- "geo": {
-  "lat": null,
-  "lng": null,
-  "address": null,
-  "city": null,
+  "id": "co-celsia",
+  "name": "Celsia",
+  "type": "org",
+  "category": "corporate",
   "country": "Colombia",
-  "precision": "country",
-  "source_url": null
- },
- "nexus": {
-  "card_slug": null
- },
- "card": {
-  "ecosystem_role": "Generación y comercialización de energía eléctrica.",
-  "description": "Celsia S.A. genera y comercializa energía eléctrica en Colombia, Panamá y Costa Rica."
- },
- "linkedin": "https://www.linkedin.com/company/celsiaenergia"
+  "city": "Medellín",
+  "website": "https://www.celsia.com",
+  "page": null,
+  "notes": "Wave 1 round 1 — Datalab Nexus Colombia map (Move 4)",
+  "challenges": [
+   "ENE"
+  ],
+  "sector": "private",
+  "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
+  "geo": {
+   "precision": "address",
+   "address": "Carrera 48 No. 26-85, piso 1",
+   "city": "Medellín",
+   "country": "Colombia",
+   "source_url": "https://www.celsia.com/es/contactenos/",
+   "lat": 6.227969,
+   "lng": -75.574729
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Generación y comercialización de energía eléctrica.",
+   "description": "Celsia S.A. genera y comercializa energía eléctrica en Colombia, Panamá y Costa Rica."
+  },
+  "linkedin": "https://www.linkedin.com/company/celsiaenergia"
  },
  {
- "id": "co-epm",
- "name": "EPM",
- "type": "org",
- "category": "corporate",
- "country": "Colombia",
- "city": "Medellín",
- "website": "https://www.epm.com.co",
- "page": null,
- "notes": "Wave 1 round 1 — Datalab Nexus Colombia map (Move 4)",
- "challenges": [
-  "ENE"
- ],
- "sector": "private",
- "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
- "geo": {
-  "lat": null,
-  "lng": null,
-  "address": null,
-  "city": null,
+  "id": "co-epm",
+  "name": "EPM",
+  "type": "org",
+  "category": "corporate",
   "country": "Colombia",
-  "precision": "country",
-  "source_url": null
- },
- "nexus": {
-  "card_slug": null
- },
- "card": {
-  "ecosystem_role": "Empresa de servicios públicos multiutilities.",
-  "description": "Empresas Públicas de Medellín (EPM) presta energía, agua, gas y telecomunicaciones en Colombia."
- }
+  "city": "Medellín",
+  "website": "https://www.epm.com.co",
+  "page": null,
+  "notes": "Wave 1 round 1 — Datalab Nexus Colombia map (Move 4)",
+  "challenges": [
+   "ENE"
+  ],
+  "sector": "private",
+  "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
+  "geo": {
+   "precision": "address",
+   "address": "Carrera 58 No. 42-125",
+   "city": "Medellín",
+   "country": "Colombia",
+   "source_url": "https://www.epm.com.co",
+   "lat": 6.280276,
+   "lng": -75.567061
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Empresa de servicios públicos multiutilities.",
+   "description": "Empresas Públicas de Medellín (EPM) presta energía, agua, gas y telecomunicaciones en Colombia."
+  }
  },
  {
- "id": "co-promigas",
- "name": "Promigas",
- "type": "org",
- "category": "corporate",
- "country": "Colombia",
- "city": "Barranquilla",
- "website": "https://www.promigas.com",
- "page": null,
- "notes": "Wave 1 round 1 — Datalab Nexus Colombia map (Move 4)",
- "challenges": [
-  "ENE"
- ],
- "sector": "private",
- "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
- "geo": {
-  "lat": null,
-  "lng": null,
-  "address": null,
-  "city": null,
+  "id": "co-promigas",
+  "name": "Promigas",
+  "type": "org",
+  "category": "corporate",
   "country": "Colombia",
-  "precision": "country",
-  "source_url": null
- },
- "nexus": {
-  "card_slug": null
- },
- "card": {
-  "ecosystem_role": "Transporte y distribución de gas natural.",
-  "description": "Promigas S.A. E.S.P. opera infraestructura de gas natural en la costa Caribe colombiana."
- }
+  "city": "Barranquilla",
+  "website": "https://www.promigas.com",
+  "page": null,
+  "notes": "Wave 1 round 1 — Datalab Nexus Colombia map (Move 4)",
+  "challenges": [
+   "ENE"
+  ],
+  "sector": "private",
+  "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
+  "geo": {
+   "precision": "address",
+   "address": "Calle 66 No. 67-123",
+   "city": "Barranquilla",
+   "country": "Colombia",
+   "source_url": "https://www.promigas.com/es/contacto/",
+   "lat": 10.989981,
+   "lng": -74.800332
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Transporte y distribución de gas natural.",
+   "description": "Promigas S.A. E.S.P. opera infraestructura de gas natural en la costa Caribe colombiana."
+  }
  },
  {
- "id": "co-alqueria",
- "name": "Alquería",
- "type": "org",
- "category": "corporate",
- "country": "Colombia",
- "city": "Bogotá",
- "website": "https://www.alqueria.com.co",
- "page": null,
- "notes": "Wave 1 round 1 — Datalab Nexus Colombia map (Move 4)",
- "challenges": [
-  "AGR"
- ],
- "sector": "private",
- "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
- "geo": {
-  "lat": null,
-  "lng": null,
-  "address": null,
-  "city": null,
+  "id": "co-alqueria",
+  "name": "Alquería",
+  "type": "org",
+  "category": "corporate",
   "country": "Colombia",
-  "precision": "country",
-  "source_url": null
- },
- "nexus": {
-  "card_slug": null
- },
- "card": {
-  "ecosystem_role": "Empresa de alimentos y lácteos.",
-  "description": "Alquería produce y comercializa lácteos y alimentos para el mercado colombiano."
- },
- "linkedin": "https://www.linkedin.com/company/alquer-a-colombia/"
+  "city": "Bogotá",
+  "website": "https://www.alqueria.com.co",
+  "page": null,
+  "notes": "Wave 1 round 1 — Datalab Nexus Colombia map (Move 4)",
+  "challenges": [
+   "AGR"
+  ],
+  "sector": "private",
+  "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Empresa de alimentos y lácteos.",
+   "description": "Alquería produce y comercializa lácteos y alimentos para el mercado colombiano."
+  },
+  "linkedin": "https://www.linkedin.com/company/alquer-a-colombia/"
  },
  {
- "id": "co-grupo-nutresa",
- "name": "Grupo Nutresa",
- "type": "org",
- "category": "corporate",
- "country": "Colombia",
- "city": "Medellín",
- "website": "https://www.gruponutresa.com",
- "page": null,
- "notes": "Wave 1 round 1 — Datalab Nexus Colombia map (Move 4)",
- "challenges": [
-  "AGR"
- ],
- "sector": "private",
- "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
- "geo": {
-  "lat": null,
-  "lng": null,
-  "address": null,
-  "city": null,
+  "id": "co-grupo-nutresa",
+  "name": "Grupo Nutresa",
+  "type": "org",
+  "category": "corporate",
   "country": "Colombia",
-  "precision": "country",
-  "source_url": null
- },
- "nexus": {
-  "card_slug": null
- },
- "card": {
-  "ecosystem_role": "Conglomerado de alimentos procesados.",
-  "description": "Grupo Nutresa agrupa marcas de alimentos procesados con operación en Colombia y exportación regional."
- }
+  "city": "Medellín",
+  "website": "https://www.gruponutresa.com",
+  "page": null,
+  "notes": "Wave 1 round 1 — Datalab Nexus Colombia map (Move 4)",
+  "challenges": [
+   "AGR"
+  ],
+  "sector": "private",
+  "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
+  "geo": {
+   "precision": "address",
+   "address": "Carrera 43A No. 1A sur-143",
+   "city": "Medellín",
+   "country": "Colombia",
+   "source_url": "https://gruponutresa.com/es/contacto/",
+   "lat": 6.201766,
+   "lng": -75.571832
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Conglomerado de alimentos procesados.",
+   "description": "Grupo Nutresa agrupa marcas de alimentos procesados con operación en Colombia y exportación regional."
+  }
  },
  {
- "id": "co-juan-valdez",
- "name": "Juan Valdez",
- "type": "org",
- "category": "corporate",
- "country": "Colombia",
- "city": "Bogotá",
- "website": "https://www.juanvaldez.com",
- "page": null,
- "notes": "Wave 1 round 1 — Datalab Nexus Colombia map (Move 4)",
- "challenges": [
-  "AGR"
- ],
- "sector": "private",
- "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
- "geo": {
-  "lat": null,
-  "lng": null,
-  "address": null,
-  "city": null,
+  "id": "co-juan-valdez",
+  "name": "Juan Valdez",
+  "type": "org",
+  "category": "corporate",
   "country": "Colombia",
-  "precision": "country",
-  "source_url": null
- },
- "nexus": {
-  "card_slug": null
- },
- "card": {
-  "ecosystem_role": "Marca de café colombiano y retail especializado.",
-  "description": "Juan Valdez comercializa café colombiano y opera tiendas de la marca en Colombia y el exterior."
- },
- "linkedin": "https://www.linkedin.com/company/juan-valdez-cafe/"
+  "city": "Bogotá",
+  "website": "https://www.juanvaldez.com",
+  "page": null,
+  "notes": "Wave 1 round 1 — Datalab Nexus Colombia map (Move 4)",
+  "challenges": [
+   "AGR"
+  ],
+  "sector": "private",
+  "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
+  "geo": {
+   "precision": "address",
+   "address": "Calle 73 No. 8-13",
+   "city": "Bogotá",
+   "country": "Colombia",
+   "source_url": "https://www.juanvaldez.com/contacto",
+   "lat": 4.690382,
+   "lng": -74.097
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Marca de café colombiano y retail especializado.",
+   "description": "Juan Valdez comercializa café colombiano y opera tiendas de la marca en Colombia y el exterior."
+  },
+  "linkedin": "https://www.linkedin.com/company/juan-valdez-cafe/"
  },
  {
- "id": "co-alpina",
- "name": "Alpina",
- "type": "org",
- "category": "corporate",
- "country": "Colombia",
- "city": "Sopó",
- "website": "https://www.alpina.com",
- "page": null,
- "notes": "Wave 1 round 1 — Datalab Nexus Colombia map (Move 4)",
- "challenges": [
-  "AGR"
- ],
- "sector": "private",
- "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
- "geo": {
-  "lat": null,
-  "lng": null,
-  "address": null,
-  "city": null,
+  "id": "co-alpina",
+  "name": "Alpina",
+  "type": "org",
+  "category": "corporate",
   "country": "Colombia",
-  "precision": "country",
-  "source_url": null
+  "city": "Sopó",
+  "website": "https://www.alpina.com",
+  "page": null,
+  "notes": "Wave 1 round 1 — Datalab Nexus Colombia map (Move 4)",
+  "challenges": [
+   "AGR"
+  ],
+  "sector": "private",
+  "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null,
+   "location_note": "Street on source page; geocode pending."
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Empresa de alimentos y bebidas.",
+   "description": "Alpina Productos Alimenticios produce lácteos y alimentos con operación en Colombia."
+  },
+  "linkedin": "https://www.linkedin.com/company/alpina/"
  },
- "nexus": {
-  "card_slug": null
- },
- "card": {
-  "ecosystem_role": "Empresa de alimentos y bebidas.",
-  "description": "Alpina Productos Alimenticios produce lácteos y alimentos con operación en Colombia."
- },
- "linkedin": "https://www.linkedin.com/company/alpina/" },
  {
   "name": "ASEP",
   "type": "org",

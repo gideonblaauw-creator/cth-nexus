@@ -1,0 +1,452 @@
+{
+  "co-bancoldex": {
+    "actors.raw.json": {
+      "city": "Bogotá",
+      "notes": "Colombia energy-access layer map (template deck \"The Complete Ecosystem Map\")",
+      "geo": {
+        "lat": 4.615712,
+        "lng": -74.071314,
+        "address": "Calle 28 No. 13 A-15",
+        "city": "Bogotá",
+        "country": "Colombia",
+        "precision": "address",
+        "source_url": "https://www.bancoldex.com/contactenos",
+        "location_note": "Oficina principal Bogotá (contacto oficial Bancóldex)."
+      }
+    },
+    "actors.json": {
+      "city": "Bogotá",
+      "geo": {
+        "precision": "address",
+        "address": "Calle 28 No. 13 A-15",
+        "city": "Bogotá",
+        "country": "Colombia",
+        "source_url": "https://www.bancoldex.com/contactenos",
+        "lat": 4.615712,
+        "lng": -74.071314,
+        "location_note": "Oficina principal Bogotá (contacto oficial Bancóldex)."
+      }
+    },
+    "geocode-by-id.json": {
+      "lat": 4.615712,
+      "lng": -74.071314,
+      "address": "Calle 28 No. 13 A-15",
+      "city": "Bogotá",
+      "country": "Colombia",
+      "precision": "address",
+      "source_url": "https://www.bancoldex.com/contactenos",
+      "location_note": "Oficina principal Bogotá (contacto oficial Bancóldex)."
+    }
+  },
+  "co-isa": {
+    "actors.raw.json": {
+      "city": "Medellín",
+      "notes": "Wave 1 round 1 — Datalab Nexus Colombia map (Move 4)",
+      "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
+      "geo": {
+        "precision": "address",
+        "address": "Calle 12 sur No. 18-168",
+        "city": "Medellín",
+        "country": "Colombia",
+        "source_url": "https://www.isa.co/es/",
+        "lat": 6.194528,
+        "lng": -75.577958
+      }
+    },
+    "actors.json": {
+      "city": "Medellín",
+      "geo": {
+        "lat": 6.197606,
+        "lng": -75.589768,
+        "address": "Calle 12 sur No. 18-168",
+        "city": "Medellín",
+        "country": "Colombia",
+        "precision": "address",
+        "source_url": "https://www.isa.co/es/"
+      }
+    },
+    "geocode-by-id.json": {
+      "precision": "address",
+      "address": "Calle 12 sur No. 18-168",
+      "city": "Medellín",
+      "country": "Colombia",
+      "source_url": "https://www.isa.co/es/",
+      "lat": 6.194528,
+      "lng": -75.577958
+    }
+  },
+  "co-geb-grupo-energia-bogota": {
+    "actors.raw.json": {
+      "city": "Bogotá",
+      "notes": "Wave 1 round 1 — Datalab Nexus Colombia map (Move 4)",
+      "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
+      "geo": {
+        "precision": "address",
+        "address": "Carrera 9 No. 73-44, piso 6",
+        "city": "Bogotá",
+        "country": "Colombia",
+        "source_url": "https://www.grupoenergiabogota.com",
+        "lat": 4.657366,
+        "lng": -74.055568
+      }
+    },
+    "actors.json": {
+      "city": "Bogotá",
+      "geo": {
+        "lat": 4.657366,
+        "lng": -74.055568,
+        "address": "Carrera 9 No. 73-44, piso 6",
+        "city": "Bogotá",
+        "country": "Colombia",
+        "precision": "address",
+        "source_url": "https://www.grupoenergiabogota.com"
+      }
+    },
+    "geocode-by-id.json": {
+      "precision": "address",
+      "address": "Carrera 9 No. 73-44, piso 6",
+      "city": "Bogotá",
+      "country": "Colombia",
+      "source_url": "https://www.grupoenergiabogota.com",
+      "lat": 4.657366,
+      "lng": -74.055568
+    }
+  },
+  "co-enel-colombia": {
+    "actors.raw.json": {
+      "city": "Bogotá",
+      "notes": "Wave 1 round 1 — Datalab Nexus Colombia map (Move 4)",
+      "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
+      "geo": {
+        "precision": "address",
+        "address": "Carrera 13A No. 93-66, piso 4",
+        "city": "Bogotá",
+        "country": "Colombia",
+        "source_url": "https://www.enel.com.co/es/contactanos.html",
+        "lat": 4.676629,
+        "lng": -74.05002
+      }
+    },
+    "actors.json": {
+      "city": "Bogotá",
+      "geo": {
+        "lat": 4.676629,
+        "lng": -74.05002,
+        "address": "Carrera 13A No. 93-66, piso 4",
+        "city": "Bogotá",
+        "country": "Colombia",
+        "precision": "address",
+        "source_url": "https://www.enel.com.co/es/contactanos.html"
+      }
+    },
+    "geocode-by-id.json": {
+      "precision": "address",
+      "address": "Carrera 13A No. 93-66, piso 4",
+      "city": "Bogotá",
+      "country": "Colombia",
+      "source_url": "https://www.enel.com.co/es/contactanos.html",
+      "lat": 4.676629,
+      "lng": -74.05002
+    }
+  },
+  "co-celsia": {
+    "actors.raw.json": {
+      "city": "Medellín",
+      "notes": "Wave 1 round 1 — Datalab Nexus Colombia map (Move 4)",
+      "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
+      "geo": {
+        "precision": "address",
+        "address": "Carrera 48 No. 26-85, piso 1",
+        "city": "Medellín",
+        "country": "Colombia",
+        "source_url": "https://www.celsia.com/es/contactenos/",
+        "lat": 6.227969,
+        "lng": -75.574729
+      }
+    },
+    "actors.json": {
+      "city": "Medellín",
+      "geo": {
+        "lat": 6.227969,
+        "lng": -75.574729,
+        "address": "Carrera 48 No. 26-85, piso 1",
+        "city": "Medellín",
+        "country": "Colombia",
+        "precision": "address",
+        "source_url": "https://www.celsia.com/es/contactenos/"
+      }
+    },
+    "geocode-by-id.json": {
+      "precision": "address",
+      "address": "Carrera 48 No. 26-85, piso 1",
+      "city": "Medellín",
+      "country": "Colombia",
+      "source_url": "https://www.celsia.com/es/contactenos/",
+      "lat": 6.227969,
+      "lng": -75.574729
+    }
+  },
+  "co-epm": {
+    "actors.raw.json": {
+      "city": "Medellín",
+      "notes": "Wave 1 round 1 — Datalab Nexus Colombia map (Move 4)",
+      "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
+      "geo": {
+        "precision": "address",
+        "address": "Carrera 58 No. 42-125",
+        "city": "Medellín",
+        "country": "Colombia",
+        "source_url": "https://www.epm.com.co",
+        "lat": 6.280276,
+        "lng": -75.567061
+      }
+    },
+    "actors.json": {
+      "city": "Medellín",
+      "geo": {
+        "lat": 6.280276,
+        "lng": -75.567061,
+        "address": "Carrera 58 No. 42-125",
+        "city": "Medellín",
+        "country": "Colombia",
+        "precision": "address",
+        "source_url": "https://www.epm.com.co"
+      }
+    },
+    "geocode-by-id.json": {
+      "precision": "address",
+      "address": "Carrera 58 No. 42-125",
+      "city": "Medellín",
+      "country": "Colombia",
+      "source_url": "https://www.epm.com.co",
+      "lat": 6.280276,
+      "lng": -75.567061
+    }
+  },
+  "co-promigas": {
+    "actors.raw.json": {
+      "city": "Barranquilla",
+      "notes": "Wave 1 round 1 — Datalab Nexus Colombia map (Move 4)",
+      "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
+      "geo": {
+        "precision": "address",
+        "address": "Calle 66 No. 67-123",
+        "city": "Barranquilla",
+        "country": "Colombia",
+        "source_url": "https://www.promigas.com/es/contacto/",
+        "lat": 10.989981,
+        "lng": -74.800332
+      }
+    },
+    "actors.json": {
+      "city": "Barranquilla",
+      "geo": {
+        "lat": 10.989981,
+        "lng": -74.800332,
+        "address": "Calle 66 No. 67-123",
+        "city": "Barranquilla",
+        "country": "Colombia",
+        "precision": "address",
+        "source_url": "https://www.promigas.com/es/contacto/"
+      }
+    },
+    "geocode-by-id.json": {
+      "precision": "address",
+      "address": "Calle 66 No. 67-123",
+      "city": "Barranquilla",
+      "country": "Colombia",
+      "source_url": "https://www.promigas.com/es/contacto/",
+      "lat": 10.989981,
+      "lng": -74.800332
+    }
+  },
+  "co-grupo-nutresa": {
+    "actors.raw.json": {
+      "city": "Medellín",
+      "notes": "Wave 1 round 1 — Datalab Nexus Colombia map (Move 4)",
+      "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
+      "geo": {
+        "precision": "address",
+        "address": "Carrera 43A No. 1A sur-143",
+        "city": "Medellín",
+        "country": "Colombia",
+        "source_url": "https://gruponutresa.com/es/contacto/",
+        "lat": 6.201766,
+        "lng": -75.571832
+      }
+    },
+    "actors.json": {
+      "city": "Medellín",
+      "geo": {
+        "lat": 6.201766,
+        "lng": -75.571832,
+        "address": "Carrera 43A No. 1A sur-143",
+        "city": "Medellín",
+        "country": "Colombia",
+        "precision": "address",
+        "source_url": "https://gruponutresa.com/es/contacto/"
+      }
+    },
+    "geocode-by-id.json": {
+      "precision": "address",
+      "address": "Carrera 43A No. 1A sur-143",
+      "city": "Medellín",
+      "country": "Colombia",
+      "source_url": "https://gruponutresa.com/es/contacto/",
+      "lat": 6.201766,
+      "lng": -75.571832
+    }
+  },
+  "co-juan-valdez": {
+    "actors.raw.json": {
+      "city": "Bogotá",
+      "notes": "Wave 1 round 1 — Datalab Nexus Colombia map (Move 4)",
+      "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
+      "geo": {
+        "precision": "address",
+        "address": "Calle 73 No. 8-13",
+        "city": "Bogotá",
+        "country": "Colombia",
+        "source_url": "https://www.juanvaldez.com/contacto",
+        "lat": 4.690382,
+        "lng": -74.097
+      }
+    },
+    "actors.json": {
+      "city": "Bogotá",
+      "geo": {
+        "lat": 4.675833,
+        "lng": -74.082236,
+        "address": "Calle 73 No. 8-13",
+        "city": "Bogotá",
+        "country": "Colombia",
+        "precision": "address",
+        "source_url": "https://www.juanvaldez.com/contacto"
+      }
+    },
+    "geocode-by-id.json": {
+      "precision": "address",
+      "address": "Calle 73 No. 8-13",
+      "city": "Bogotá",
+      "country": "Colombia",
+      "source_url": "https://www.juanvaldez.com/contacto",
+      "lat": 4.690382,
+      "lng": -74.097
+    }
+  },
+  "co-alpina": {
+    "actors.raw.json": {
+      "city": "Sopó",
+      "notes": "Wave 1 round 1 — Datalab Nexus Colombia map (Move 4)",
+      "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
+      "geo": {
+        "lat": null,
+        "lng": null,
+        "address": null,
+        "city": null,
+        "country": "Colombia",
+        "precision": "country",
+        "source_url": null,
+        "location_note": "Street on source page; geocode pending."
+      }
+    },
+    "actors.json": {
+      "city": "Sopó",
+      "geo": {
+        "lat": null,
+        "lng": null,
+        "address": null,
+        "city": null,
+        "country": "Colombia",
+        "precision": "country",
+        "source_url": null,
+        "location_note": "Street on source page; geocode pending."
+      }
+    },
+    "geocode-by-id.json": {
+      "lat": null,
+      "lng": null,
+      "address": null,
+      "city": null,
+      "country": "Colombia",
+      "precision": "country",
+      "source_url": null,
+      "location_note": "Street on source page; geocode pending."
+    }
+  },
+  "co-ipse": {
+    "actors.raw.json": {
+      "city": "Bogotá",
+      "notes": "Colombia energy-access layer map (template deck \"The Complete Ecosystem Map\")",
+      "source": "Datalab Nexus Wave 1 Colombia (Move 4)",
+      "geo": {
+        "lat": null,
+        "lng": null,
+        "address": null,
+        "city": null,
+        "country": "Colombia",
+        "precision": "country",
+        "source_url": null
+      }
+    },
+    "actors.json": {
+      "city": "Bogotá",
+      "geo": {
+        "lat": null,
+        "lng": null,
+        "address": null,
+        "city": null,
+        "country": "Colombia",
+        "precision": "country",
+        "source_url": null
+      }
+    },
+    "geocode-by-id.json": {
+      "lat": null,
+      "lng": null,
+      "address": null,
+      "city": null,
+      "country": "Colombia",
+      "precision": "country",
+      "source_url": null
+    }
+  },
+  "pe-proinnovate-startup-peru": {
+    "actors.raw.json": {
+      "city": "Lima",
+      "notes": "ProInnóvate – StartUp Perú. Programa de PRODUCE para innovación y emprendimientoCapital semilla de hasta S/ 150 mil; convocatorias para emprendimientos de cambio climático Jefa Unidad de Comunicaciones y Relaciones Institucionales Jefa Unidad de Comunicaciones y Relaciones Institucionales",
+      "source": "Mapa de Actores Perú 2026",
+      "geo": {
+        "lat": -12.09823,
+        "lng": -77.014407,
+        "address": "Calle Uno Oeste 50, Urb. Corpac, San Isidro, Lima, Lima Metropolitana, Lima, Perú",
+        "city": "San Isidro",
+        "country": "Peru",
+        "precision": "address",
+        "source_url": "https://www.gob.pe/proinnovate"
+      }
+    },
+    "actors.json": {
+      "city": "San Isidro",
+      "geo": {
+        "precision": "address",
+        "address": "Calle Uno Oeste 50, Urb. Corpac",
+        "city": "San Isidro",
+        "country": "Peru",
+        "source_url": "https://www.gob.pe/proinnovate",
+        "lat": -12.09823,
+        "lng": -77.014407,
+        "location_note": "ProInnóvate / StartUp Perú under PRODUCE (gob.pe)."
+      }
+    },
+    "geocode-by-id.json": {
+      "lat": -12.09823,
+      "lng": -77.014407,
+      "address": "Calle Uno Oeste 50, Urb. Corpac, San Isidro, Lima, Lima Metropolitana, Lima, Perú",
+      "city": "San Isidro",
+      "country": "Peru",
+      "precision": "address",
+      "source_url": "https://www.gob.pe/proinnovate"
+    }
+  }
+}
