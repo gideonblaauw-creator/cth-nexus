@@ -2754,5 +2754,140 @@
     "precision": "country",
     "source_url": null,
     "location_note": "Street on source page; geocode pending."
+  },
+  "co-anla": {
+    "precision": "address",
+    "address": "Carrera 13A # 34 - 72 Bogotá D.C",
+    "city": "Bogotá",
+    "country": "Colombia",
+    "source_url": "https://www.anla.gov.co",
+    "lat": 4.612874,
+    "lng": -74.072666
+  },
+  "co-parques-nacionales-naturales-de-colombia": {
+    "precision": "address",
+    "address": "Calle 74 # 11 - 81 Bogotá",
+    "city": "Bogotá",
+    "country": "Colombia",
+    "source_url": "https://www.parquesnacionales.gov.co",
+    "lat": 4.698047,
+    "lng": -74.105384
+  },
+  "co-dnp": {
+    "precision": "address",
+    "address": "Calle 26 # 13-19",
+    "city": "Bogotá",
+    "country": "Colombia",
+    "source_url": "https://www.dnp.gov.co",
+    "lat": 7.879712,
+    "lng": -72.48645
+  },
+  "co-innpulsa-colombia": {
+    "precision": "address",
+    "address": "Calle 28 N° 13A",
+    "city": "Bogotá",
+    "country": "Colombia",
+    "source_url": "https://www.innpulsacolombia.com",
+    "lat": 4.616162,
+    "lng": -74.07107
+  },
+  "co-connect-bogota-region": {
+    "precision": "address",
+    "address": "Carrera 18 # 93 - 90",
+    "city": "Bogotá",
+    "country": "Colombia",
+    "source_url": "https://www.connectbogota.org",
+    "lat": 4.599312,
+    "lng": -74.088089
+  },
+  "co-onu-colombia": {
+    "precision": "address",
+    "address": "Calle 84A # 10",
+    "city": "Bogotá",
+    "country": "Colombia",
+    "source_url": "https://colombia.un.org",
+    "lat": 4.666431,
+    "lng": -74.051471
+  },
+  "co-fundacion-natura-colombia": {
+    "precision": "address",
+    "address": "Carrera 21 No. 39",
+    "city": "Bogotá",
+    "country": "Colombia",
+    "source_url": "https://natura.org.co",
+    "lat": 4.57576,
+    "lng": -74.124782
+  },
+  "co-fundacion-gaia-amazonas": {
+    "precision": "address",
+    "address": "Calle 70A # 11",
+    "city": "Bogotá",
+    "country": "Colombia",
+    "source_url": "https://gaiaamazonas.org",
+    "lat": 4.655827,
+    "lng": -74.05989
+  },
+  "co-fundacion-humedales": {
+    "precision": "address",
+    "address": "Calle 81#19a -18",
+    "city": "Bogotá",
+    "country": "Colombia",
+    "source_url": "https://fundacionhumedales.org",
+    "lat": 4.702336,
+    "lng": -74.098606
+  },
+  "co-universidad-del-valle": {
+    "precision": "address",
+    "address": "Calle 13 # 100-00 Santiago de Cali",
+    "city": "Cali",
+    "country": "Colombia",
+    "source_url": "https://www.univalle.edu.co",
+    "lat": 3.343992,
+    "lng": -76.539416
+  },
+  "co-pontificia-universidad-javeriana": {
+    "precision": "address",
+    "address": "Cra 7 No 40 - 62 --",
+    "city": "Bogotá",
+    "country": "Colombia",
+    "source_url": "https://www.javeriana.edu.co",
+    "lat": 4.653382,
+    "lng": -74.083633
+  },
+  "co-bancolombia": {
+    "precision": "address",
+    "address": "Carrera 48 # 26 - 85 Medellín",
+    "city": "Medellín",
+    "country": "Colombia",
+    "source_url": "https://www.bancolombia.com",
+    "lat": 6.214315,
+    "lng": -75.576076
+  },
+  "co-banca-de-las-oportunidades": {
+    "precision": "address",
+    "address": "Calle 28 13A-15",
+    "city": "Bogotá",
+    "country": "Colombia",
+    "source_url": "https://www.bancadelasoportunidades.gov.co",
+    "lat": 4.615712,
+    "lng": -74.071314
+  },
+  "co-confecamaras": {
+    "precision": "address",
+    "address": "Av. Calle 26 No 57",
+    "city": "Bogotá",
+    "country": "Colombia",
+    "source_url": "https://confecamaras.org.co",
+    "lat": 4.622777,
+    "lng": -74.078181
+  },
+  "co-camara-de-comercio-de-manizales-por-caldas": {
+    "precision": "address",
+    "address": "Cra 23 No. 26 - 60",
+    "city": "Manizales",
+    "country": "Colombia",
+    "source_url": "https://www.ccmpc.org.co",
+    "lat": 5.066891,
+    "lng": -75.506666
   }
 }

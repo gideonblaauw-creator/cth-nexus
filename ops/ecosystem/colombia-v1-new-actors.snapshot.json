@@ -1,0 +1,2351 @@
+[
+ {
+  "id": "co-minambiente",
+  "name": "MinAmbiente",
+  "type": "org",
+  "category": "government",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.minambiente.gov.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — government",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "National environment ministry; leads climate policy and SISCLIMA.",
+   "description": "National environment ministry; leads climate policy and SISCLIMA."
+  }
+ },
+ {
+  "id": "co-anla",
+  "name": "ANLA",
+  "type": "org",
+  "category": "government",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.anla.gov.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — government",
+  "geo": {
+   "precision": "address",
+   "address": "Carrera 13A # 34 - 72 Bogotá D.C",
+   "city": "Bogotá",
+   "country": "Colombia",
+   "source_url": "https://www.anla.gov.co",
+   "lat": 4.612874,
+   "lng": -74.072666
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "National environmental licensing authority.",
+   "description": "National environmental licensing authority."
+  }
+ },
+ {
+  "id": "co-ideam",
+  "name": "IDEAM",
+  "type": "org",
+  "category": "government",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.ideam.gov.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — government",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Hydrology, meteorology and environmental studies institute.",
+   "description": "Hydrology, meteorology and environmental studies institute."
+  }
+ },
+ {
+  "id": "co-parques-nacionales-naturales-de-colombia",
+  "name": "Parques Nacionales Naturales de Colombia",
+  "type": "org",
+  "category": "government",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.parquesnacionales.gov.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — government",
+  "geo": {
+   "precision": "address",
+   "address": "Calle 74 # 11 - 81 Bogotá",
+   "city": "Bogotá",
+   "country": "Colombia",
+   "source_url": "https://www.parquesnacionales.gov.co",
+   "lat": 4.698047,
+   "lng": -74.105384
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Public agency managing Colombia's protected areas system (SINAP).",
+   "description": "Public agency managing Colombia's protected areas system (SINAP)."
+  }
+ },
+ {
+  "id": "co-dnp",
+  "name": "DNP",
+  "type": "org",
+  "category": "government",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.dnp.gov.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — government",
+  "geo": {
+   "precision": "address",
+   "address": "Calle 26 # 13-19",
+   "city": "Bogotá",
+   "country": "Colombia",
+   "source_url": "https://www.dnp.gov.co",
+   "lat": 7.879712,
+   "lng": -72.48645
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "National Planning Department; coordinates long-term development and climate planning.",
+   "description": "National Planning Department; coordinates long-term development and climate planning."
+  }
+ },
+ {
+  "id": "co-minciencias",
+  "name": "MinCiencias",
+  "type": "org",
+  "category": "government",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://minciencias.gov.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — government",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Science ministry funding R&D and innovation for sustainable development.",
+   "description": "Science ministry funding R&D and innovation for sustainable development."
+  }
+ },
+ {
+  "id": "co-innpulsa-colombia",
+  "name": "iNNpulsa Colombia",
+  "type": "org",
+  "category": "accelerator",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.innpulsacolombia.com/",
+  "page": null,
+  "notes": "Colombia actor list v1 — accelerator",
+  "geo": {
+   "precision": "address",
+   "address": "Calle 28 N° 13A",
+   "city": "Bogotá",
+   "country": "Colombia",
+   "source_url": "https://www.innpulsacolombia.com",
+   "lat": 4.616162,
+   "lng": -74.07107
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "National entrepreneurship and innovation agency (ALDEA, productivity programs).",
+   "description": "National entrepreneurship and innovation agency (ALDEA, productivity programs)."
+  }
+ },
+ {
+  "id": "co-hubbog",
+  "name": "HubBOG",
+  "type": "org",
+  "category": "accelerator",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.hubbog.com/",
+  "page": null,
+  "notes": "Colombia actor list v1 — accelerator",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Bogotá innovation campus and accelerator for digital startups.",
+   "description": "Bogotá innovation campus and accelerator for digital startups."
+  }
+ },
+ {
+  "id": "co-ruta-n",
+  "name": "Ruta N",
+  "type": "org",
+  "category": "accelerator",
+  "country": "Colombia",
+  "city": "Medellín",
+  "website": "https://rutanmedellin.org/",
+  "page": null,
+  "notes": "Colombia actor list v1 — accelerator",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Medellín STI corporation: startup acceleration and open innovation.",
+   "description": "Medellín STI corporation: startup acceleration and open innovation."
+  }
+ },
+ {
+  "id": "co-connect-bogota-region",
+  "name": "Connect Bogotá Región",
+  "type": "org",
+  "category": "accelerator",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.connectbogota.org/",
+  "page": null,
+  "notes": "Colombia actor list v1 — accelerator",
+  "geo": {
+   "precision": "address",
+   "address": "Carrera 18 # 93 - 90",
+   "city": "Bogotá",
+   "country": "Colombia",
+   "source_url": "https://www.connectbogota.org",
+   "lat": 4.599312,
+   "lng": -74.088089
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Regional innovation network; Springboard and open-innovation programs.",
+   "description": "Regional innovation network; Springboard and open-innovation programs."
+  }
+ },
+ {
+  "id": "co-apps-co",
+  "name": "APPS.CO",
+  "type": "org",
+  "category": "accelerator",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.apps.co/portal/",
+  "page": null,
+  "notes": "Colombia actor list v1 — accelerator",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "MinTIC digital entrepreneurship program operated with iNNpulsa.",
+   "description": "MinTIC digital entrepreneurship program operated with iNNpulsa."
+  }
+ },
+ {
+  "id": "co-nido-distrito-de-innovacion-valle",
+  "name": "NIDO (Distrito de Innovación Valle)",
+  "type": "org",
+  "category": "accelerator",
+  "country": "Colombia",
+  "city": "Cali",
+  "website": "https://distritovalle.com/",
+  "page": null,
+  "notes": "Colombia actor list v1 — accelerator",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Valle del Cauca incubation, acceleration and expansion platform.",
+   "description": "Valle del Cauca incubation, acceleration and expansion platform."
+  }
+ },
+ {
+  "id": "co-wayra-hispam-colombia-hub",
+  "name": "Wayra Hispam (Colombia hub)",
+  "type": "org",
+  "category": "accelerator",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://hispam.wayra.com/",
+  "page": null,
+  "notes": "Colombia actor list v1 — accelerator",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Telefónica open innovation and corporate venture platform active in Colombia.",
+   "description": "Telefónica open innovation and corporate venture platform active in Colombia."
+  }
+ },
+ {
+  "id": "co-socialab-colombia",
+  "name": "Socialab Colombia",
+  "type": "org",
+  "category": "accelerator",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://colombia.socialab.com/",
+  "page": null,
+  "notes": "Colombia actor list v1 — accelerator",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Open innovation and impact entrepreneurship programs with corporates and territories.",
+   "description": "Open innovation and impact entrepreneurship programs with corporates and territories."
+  }
+ },
+ {
+  "id": "co-fondo-emprender-sena",
+  "name": "Fondo Emprender (SENA)",
+  "type": "org",
+  "category": "accelerator",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.innovamos.gov.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — accelerator",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "National entrepreneurship fund with innovation and digital-industry calls.",
+   "description": "National entrepreneurship fund with innovation and digital-industry calls."
+  }
+ },
+ {
+  "id": "co-colombia-potencia-digital-emprendimiento-digital",
+  "name": "Colombia Potencia Digital – Emprendimiento Digital",
+  "type": "org",
+  "category": "accelerator",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.mintic.gov.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — accelerator",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "MinTIC–iNNpulsa program accelerating digital ventures nationwide.",
+   "description": "MinTIC–iNNpulsa program accelerating digital ventures nationwide."
+  }
+ },
+ {
+  "id": "co-pnud-colombia",
+  "name": "PNUD Colombia",
+  "type": "org",
+  "category": "international",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.undp.org/es/colombia",
+  "page": null,
+  "notes": "Colombia actor list v1 — international",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "UNDP country office on climate adaptation, low-emissions capacity and territorial resilience.",
+   "description": "UNDP country office on climate adaptation, low-emissions capacity and territorial resilience."
+  }
+ },
+ {
+  "id": "co-onu-colombia",
+  "name": "ONU Colombia",
+  "type": "org",
+  "category": "international",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://colombia.un.org/",
+  "page": null,
+  "notes": "Colombia actor list v1 — international",
+  "geo": {
+   "precision": "address",
+   "address": "Calle 84A # 10",
+   "city": "Bogotá",
+   "country": "Colombia",
+   "source_url": "https://colombia.un.org",
+   "lat": 4.666431,
+   "lng": -74.051471
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "United Nations country team coordinating SDG and climate cooperation.",
+   "description": "United Nations country team coordinating SDG and climate cooperation."
+  }
+ },
+ {
+  "id": "co-banco-mundial-colombia",
+  "name": "Banco Mundial – Colombia",
+  "type": "org",
+  "category": "international",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.worldbank.org/ext/en/country/colombia",
+  "page": null,
+  "notes": "Colombia actor list v1 — international",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "World Bank Group country program (climate, Amazon, disaster risk).",
+   "description": "World Bank Group country program (climate, Amazon, disaster risk)."
+  }
+ },
+ {
+  "id": "co-bid-colombia",
+  "name": "BID – Colombia",
+  "type": "org",
+  "category": "international",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.iadb.org/es/colombia",
+  "page": null,
+  "notes": "Colombia actor list v1 — international",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Inter-American Development Bank country office.",
+   "description": "Inter-American Development Bank country office."
+  }
+ },
+ {
+  "id": "co-ifc-colombia",
+  "name": "IFC Colombia",
+  "type": "org",
+  "category": "international",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.ifc.org/",
+  "page": null,
+  "notes": "Colombia actor list v1 — international",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "IFC private-sector climate and infrastructure finance in Colombia.",
+   "description": "IFC private-sector climate and infrastructure finance in Colombia."
+  }
+ },
+ {
+  "id": "co-gef-global-environment-facility",
+  "name": "GEF – Global Environment Facility",
+  "type": "org",
+  "category": "international",
+  "country": "Colombia",
+  "city": "Washington",
+  "website": "https://www.thegef.org/",
+  "page": null,
+  "notes": "Colombia actor list v1 — international",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Global environment fund channelled via agencies for Colombia Amazon and adaptation projects.",
+   "description": "Global environment fund channelled via agencies for Colombia Amazon and adaptation projects."
+  }
+ },
+ {
+  "id": "co-wwf-colombia-gcf-accredited-entity-role",
+  "name": "WWF Colombia (GCF accredited entity role)",
+  "type": "org",
+  "category": "international",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.wwf.org.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — international",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Conservation NGO serving as executing partner on GCF landscape programs.",
+   "description": "Conservation NGO serving as executing partner on GCF landscape programs."
+  }
+ },
+ {
+  "id": "co-wwf-colombia",
+  "name": "WWF Colombia",
+  "type": "org",
+  "category": "ngo_foundation",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.wwf.org.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — ngo_foundation",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Conservation NGO working on climate, Amazon and freshwater.",
+   "description": "Conservation NGO working on climate, Amazon and freshwater."
+  }
+ },
+ {
+  "id": "co-fundacion-natura-colombia",
+  "name": "Fundación Natura Colombia",
+  "type": "org",
+  "category": "ngo_foundation",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://natura.org.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — ngo_foundation",
+  "geo": {
+   "precision": "address",
+   "address": "Carrera 21 No. 39",
+   "city": "Bogotá",
+   "country": "Colombia",
+   "source_url": "https://natura.org.co",
+   "lat": 4.57576,
+   "lng": -74.124782
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Foundation on biodiversity, climate and CarbonoCero compensation program.",
+   "description": "Foundation on biodiversity, climate and CarbonoCero compensation program."
+  }
+ },
+ {
+  "id": "co-conservation-international-colombia",
+  "name": "Conservation International Colombia",
+  "type": "org",
+  "category": "ngo_foundation",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.conservation.org.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — ngo_foundation",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "NGO on nature-based solutions and territorial conservation.",
+   "description": "NGO on nature-based solutions and territorial conservation."
+  }
+ },
+ {
+  "id": "co-fundacion-gaia-amazonas",
+  "name": "Fundación Gaia Amazonas",
+  "type": "org",
+  "category": "ngo_foundation",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://gaiaamazonas.org/",
+  "page": null,
+  "notes": "Colombia actor list v1 — ngo_foundation",
+  "geo": {
+   "precision": "address",
+   "address": "Calle 70A # 11",
+   "city": "Bogotá",
+   "country": "Colombia",
+   "source_url": "https://gaiaamazonas.org",
+   "lat": 4.655827,
+   "lng": -74.05989
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "NGO supporting indigenous governance and Amazon conservation.",
+   "description": "NGO supporting indigenous governance and Amazon conservation."
+  }
+ },
+ {
+  "id": "co-fundacion-humedales",
+  "name": "Fundación Humedales",
+  "type": "org",
+  "category": "ngo_foundation",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://fundacionhumedales.org/",
+  "page": null,
+  "notes": "Colombia actor list v1 — ngo_foundation",
+  "geo": {
+   "precision": "address",
+   "address": "Calle 81#19a -18",
+   "city": "Bogotá",
+   "country": "Colombia",
+   "source_url": "https://fundacionhumedales.org",
+   "lat": 4.702336,
+   "lng": -74.098606
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Participatory wetlands and biodiversity conservation NGO.",
+   "description": "Participatory wetlands and biodiversity conservation NGO."
+  }
+ },
+ {
+  "id": "co-proaves",
+  "name": "ProAves",
+  "type": "org",
+  "category": "ngo_foundation",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.proaves.org/",
+  "page": null,
+  "notes": "Colombia actor list v1 — ngo_foundation",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Bird conservation NGO protecting key ecosystems and climate-relevant forests.",
+   "description": "Bird conservation NGO protecting key ecosystems and climate-relevant forests."
+  }
+ },
+ {
+  "id": "co-fundacion-mario-santo-domingo",
+  "name": "Fundación Mario Santo Domingo",
+  "type": "org",
+  "category": "ngo_foundation",
+  "country": "Colombia",
+  "city": "Barranquilla",
+  "website": "https://www.fundacionmariosantodomingo.org/",
+  "page": null,
+  "notes": "Colombia actor list v1 — ngo_foundation",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Foundation on social and environmental development in Caribbean region.",
+   "description": "Foundation on social and environmental development in Caribbean region."
+  }
+ },
+ {
+  "id": "co-fundacion-bolivar-davivienda",
+  "name": "Fundación Bolívar Davivienda",
+  "type": "org",
+  "category": "ngo_foundation",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.fundacionbolivardavivienda.org/",
+  "page": null,
+  "notes": "Colombia actor list v1 — ngo_foundation",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Corporate foundation on education, entrepreneurship and environment.",
+   "description": "Corporate foundation on education, entrepreneurship and environment."
+  }
+ },
+ {
+  "id": "co-fundacion-grupo-argos",
+  "name": "Fundación Grupo Argos",
+  "type": "org",
+  "category": "ngo_foundation",
+  "country": "Colombia",
+  "city": "Medellín",
+  "website": "https://www.fundaciongrupoargos.org/",
+  "page": null,
+  "notes": "Colombia actor list v1 — ngo_foundation",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Foundation on habitat, water and climate adaptation in territories.",
+   "description": "Foundation on habitat, water and climate adaptation in territories."
+  }
+ },
+ {
+  "id": "co-fundacion-selva",
+  "name": "Fundación Selva",
+  "type": "org",
+  "category": "ngo_foundation",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://selva.org.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — ngo_foundation",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "NGO supporting Amazon conservation and indigenous territorial governance.",
+   "description": "NGO supporting Amazon conservation and indigenous territorial governance."
+  }
+ },
+ {
+  "id": "co-universidad-de-los-andes",
+  "name": "Universidad de los Andes",
+  "type": "org",
+  "category": "academia",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://uniandes.edu.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — academia",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "University sustainability program and carbon-neutrality roadmap.",
+   "description": "University sustainability program and carbon-neutrality roadmap."
+  }
+ },
+ {
+  "id": "co-universidad-nacional-de-colombia",
+  "name": "Universidad Nacional de Colombia",
+  "type": "org",
+  "category": "academia",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://unal.edu.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — academia",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Public research university with environmental and climate research institutes.",
+   "description": "Public research university with environmental and climate research institutes."
+  }
+ },
+ {
+  "id": "co-universidad-eia",
+  "name": "Universidad EIA",
+  "type": "org",
+  "category": "academia",
+  "country": "Colombia",
+  "city": "Envigado",
+  "website": "https://www.eia.edu.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — academia",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Engineering university with institutional sustainability and GreenMetric participation.",
+   "description": "Engineering university with institutional sustainability and GreenMetric participation."
+  }
+ },
+ {
+  "id": "co-universidad-de-antioquia",
+  "name": "Universidad de Antioquia",
+  "type": "org",
+  "category": "academia",
+  "country": "Colombia",
+  "city": "Medellín",
+  "website": "https://www.udea.edu.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — academia",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Public university with research on environment, energy and territory.",
+   "description": "Public university with research on environment, energy and territory."
+  }
+ },
+ {
+  "id": "co-universidad-del-valle",
+  "name": "Universidad del Valle",
+  "type": "org",
+  "category": "academia",
+  "country": "Colombia",
+  "city": "Cali",
+  "website": "https://www.univalle.edu.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — academia",
+  "geo": {
+   "precision": "address",
+   "address": "Calle 13 # 100-00 Santiago de Cali",
+   "city": "Cali",
+   "country": "Colombia",
+   "source_url": "https://www.univalle.edu.co",
+   "lat": 3.343992,
+   "lng": -76.539416
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Public university with climate and sustainability research centers.",
+   "description": "Public university with climate and sustainability research centers."
+  }
+ },
+ {
+  "id": "co-pontificia-universidad-javeriana",
+  "name": "Pontificia Universidad Javeriana",
+  "type": "org",
+  "category": "academia",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.javeriana.edu.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — academia",
+  "geo": {
+   "precision": "address",
+   "address": "Cra 7 No 40 - 62 --",
+   "city": "Bogotá",
+   "country": "Colombia",
+   "source_url": "https://www.javeriana.edu.co",
+   "lat": 4.653382,
+   "lng": -74.083633
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "University with environmental engineering and climate policy research.",
+   "description": "University with environmental engineering and climate policy research."
+  }
+ },
+ {
+  "id": "co-universidad-eafit",
+  "name": "Universidad EAFIT",
+  "type": "org",
+  "category": "academia",
+  "country": "Colombia",
+  "city": "Medellín",
+  "website": "https://www.eafit.edu.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — academia",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "University with energy, sustainability and innovation programs.",
+   "description": "University with energy, sustainability and innovation programs."
+  }
+ },
+ {
+  "id": "co-universidad-industrial-de-santander",
+  "name": "Universidad Industrial de Santander",
+  "type": "org",
+  "category": "academia",
+  "country": "Colombia",
+  "city": "Bucaramanga",
+  "website": "https://www.uis.edu.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — academia",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Public university with engineering and environmental research.",
+   "description": "Public university with engineering and environmental research."
+  }
+ },
+ {
+  "id": "co-universidad-del-rosario",
+  "name": "Universidad del Rosario",
+  "type": "org",
+  "category": "academia",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.urosario.edu.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — academia",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "University with environmental law and climate governance research.",
+   "description": "University with environmental law and climate governance research."
+  }
+ },
+ {
+  "id": "co-instituto-de-investigacion-de-recursos-biologicos-alexander-von-humboldt",
+  "name": "Instituto de Investigación de Recursos Biológicos Alexander von Humboldt",
+  "type": "org",
+  "category": "academia",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.humboldt.org.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — academia",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Public research institute on biodiversity and ecosystem services for climate policy.",
+   "description": "Public research institute on biodiversity and ecosystem services for climate policy."
+  }
+ },
+ {
+  "id": "co-fondo-patrimonio-natural",
+  "name": "Fondo Patrimonio Natural",
+  "type": "org",
+  "category": "funder",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.patrimonionatural.org.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — funder",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Endowment fund for protected areas and biodiversity finance.",
+   "description": "Endowment fund for protected areas and biodiversity finance."
+  }
+ },
+ {
+  "id": "co-bancoldex-capital-lp-investments",
+  "name": "Bancóldex Capital (LP investments)",
+  "type": "org",
+  "category": "funder",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.bancoldex.com/inversion-en-fondos",
+  "page": null,
+  "notes": "Colombia actor list v1 — funder",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Bancóldex program investing as LP in PE/VC funds including cleantech.",
+   "description": "Bancóldex program investing as LP in PE/VC funds including cleantech."
+  }
+ },
+ {
+  "id": "co-fcp-bancoldex-capital-fondo-de-fondos",
+  "name": "FCP Bancóldex Capital Fondo de Fondos",
+  "type": "org",
+  "category": "funder",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://fiducoldex.com.co/fondo-de-fondos",
+  "page": null,
+  "notes": "Colombia actor list v1 — funder",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Fund-of-funds vehicle managed by Bancóldex for venture and PE.",
+   "description": "Fund-of-funds vehicle managed by Bancóldex for venture and PE."
+  }
+ },
+ {
+  "id": "co-findeter",
+  "name": "Findeter",
+  "type": "org",
+  "category": "funder",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://findeter.gov.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — funder",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Territorial development bank financing sustainable infrastructure.",
+   "description": "Territorial development bank financing sustainable infrastructure."
+  }
+ },
+ {
+  "id": "co-adaptation-fund-colombia-projects",
+  "name": "Adaptation Fund (Colombia projects)",
+  "type": "org",
+  "category": "funder",
+  "country": "Colombia",
+  "city": "Washington",
+  "website": "https://www.adaptation-fund.org/",
+  "page": null,
+  "notes": "Colombia actor list v1 — funder",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Multilateral fund supporting Colombia adaptation (e.g. La Mojana).",
+   "description": "Multilateral fund supporting Colombia adaptation (e.g. La Mojana)."
+  }
+ },
+ {
+  "id": "co-global-environment-facility-colombia",
+  "name": "Global Environment Facility (Colombia)",
+  "type": "org",
+  "category": "funder",
+  "country": "Colombia",
+  "city": "Washington",
+  "website": "https://www.thegef.org/",
+  "page": null,
+  "notes": "Colombia actor list v1 — funder",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "GEF grants for Amazon and climate projects in Colombia.",
+   "description": "GEF grants for Amazon and climate projects in Colombia."
+  }
+ },
+ {
+  "id": "co-bancolombia",
+  "name": "Bancolombia",
+  "type": "org",
+  "category": "finance",
+  "country": "Colombia",
+  "city": "Medellín",
+  "website": "https://www.bancolombia.com/",
+  "page": null,
+  "notes": "Colombia actor list v1 — finance",
+  "geo": {
+   "precision": "address",
+   "address": "Carrera 48 # 26 - 85 Medellín",
+   "city": "Medellín",
+   "country": "Colombia",
+   "source_url": "https://www.bancolombia.com",
+   "lat": 6.214315,
+   "lng": -75.576076
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Commercial bank with sustainable finance and green bond programs.",
+   "description": "Commercial bank with sustainable finance and green bond programs."
+  }
+ },
+ {
+  "id": "co-banco-agrario-de-colombia",
+  "name": "Banco Agrario de Colombia",
+  "type": "org",
+  "category": "finance",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.bancoagrario.gov.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — finance",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Public agricultural development bank.",
+   "description": "Public agricultural development bank."
+  }
+ },
+ {
+  "id": "co-finagro",
+  "name": "Finagro",
+  "type": "org",
+  "category": "finance",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.finagro.com.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — finance",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Agricultural credit guarantee fund.",
+   "description": "Agricultural credit guarantee fund."
+  }
+ },
+ {
+  "id": "co-bolsa-de-valores-de-colombia-bvc",
+  "name": "Bolsa de Valores de Colombia (BVC)",
+  "type": "org",
+  "category": "finance",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.bvc.com.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — finance",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Stock exchange listing green bonds and sustainable issuers.",
+   "description": "Stock exchange listing green bonds and sustainable issuers."
+  }
+ },
+ {
+  "id": "co-davivienda",
+  "name": "Davivienda",
+  "type": "org",
+  "category": "finance",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.davivienda.com/",
+  "page": null,
+  "notes": "Colombia actor list v1 — finance",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Bank with sustainability-linked lending and green products.",
+   "description": "Bank with sustainability-linked lending and green products."
+  }
+ },
+ {
+  "id": "co-banca-de-las-oportunidades",
+  "name": "Banca de las Oportunidades",
+  "type": "org",
+  "category": "finance",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.bancadelasoportunidades.gov.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — finance",
+  "geo": {
+   "precision": "address",
+   "address": "Calle 28 13A-15",
+   "city": "Bogotá",
+   "country": "Colombia",
+   "source_url": "https://www.bancadelasoportunidades.gov.co",
+   "lat": 4.615712,
+   "lng": -74.071314
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Public program expanding access to finance for vulnerable populations.",
+   "description": "Public program expanding access to finance for vulnerable populations."
+  }
+ },
+ {
+  "id": "co-banco-de-bogota-grupo-aval",
+  "name": "Banco de Bogotá (Grupo Aval)",
+  "type": "org",
+  "category": "finance",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.bancodebogota.com/",
+  "page": null,
+  "notes": "Colombia actor list v1 — finance",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Commercial bank financing corporates and sustainability projects.",
+   "description": "Commercial bank financing corporates and sustainability projects."
+  }
+ },
+ {
+  "id": "co-fiducoldex",
+  "name": "Fiducoldex",
+  "type": "org",
+  "category": "finance",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://fiducoldex.com.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — finance",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Trust company administering Bancóldex fund vehicles.",
+   "description": "Trust company administering Bancóldex fund vehicles."
+  }
+ },
+ {
+  "id": "co-camara-de-comercio-de-bogota",
+  "name": "Cámara de Comercio de Bogotá",
+  "type": "org",
+  "category": "chamber",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.ccb.org.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — chamber",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Bogotá chamber: business registry, productivity and sustainability services.",
+   "description": "Bogotá chamber: business registry, productivity and sustainability services."
+  }
+ },
+ {
+  "id": "co-camara-de-comercio-de-medellin-para-antioquia",
+  "name": "Cámara de Comercio de Medellín para Antioquia",
+  "type": "org",
+  "category": "chamber",
+  "country": "Colombia",
+  "city": "Medellín",
+  "website": "https://www.camaramedellin.com.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — chamber",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Antioquia chamber supporting innovation and competitiveness.",
+   "description": "Antioquia chamber supporting innovation and competitiveness."
+  }
+ },
+ {
+  "id": "co-camara-de-comercio-de-cali",
+  "name": "Cámara de Comercio de Cali",
+  "type": "org",
+  "category": "chamber",
+  "country": "Colombia",
+  "city": "Cali",
+  "website": "https://www.ccc.org.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — chamber",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Valle chamber with innovation and market-access services.",
+   "description": "Valle chamber with innovation and market-access services."
+  }
+ },
+ {
+  "id": "co-confecamaras",
+  "name": "Confecámaras",
+  "type": "org",
+  "category": "chamber",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://confecamaras.org.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — chamber",
+  "geo": {
+   "precision": "address",
+   "address": "Av. Calle 26 No 57",
+   "city": "Bogotá",
+   "country": "Colombia",
+   "source_url": "https://confecamaras.org.co",
+   "lat": 4.622777,
+   "lng": -74.078181
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "National federation of Colombia's 58 chambers of commerce.",
+   "description": "National federation of Colombia's 58 chambers of commerce."
+  }
+ },
+ {
+  "id": "co-camara-de-comercio-de-barranquilla",
+  "name": "Cámara de Comercio de Barranquilla",
+  "type": "org",
+  "category": "chamber",
+  "country": "Colombia",
+  "city": "Barranquilla",
+  "website": "https://www.camarabaq.org.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — chamber",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Caribbean regional chamber.",
+   "description": "Caribbean regional chamber."
+  }
+ },
+ {
+  "id": "co-camara-de-comercio-de-bucaramanga",
+  "name": "Cámara de Comercio de Bucaramanga",
+  "type": "org",
+  "category": "chamber",
+  "country": "Colombia",
+  "city": "Bucaramanga",
+  "website": "https://www.camaradirecta.com/",
+  "page": null,
+  "notes": "Colombia actor list v1 — chamber",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Santander chamber.",
+   "description": "Santander chamber."
+  }
+ },
+ {
+  "id": "co-camara-de-comercio-de-cartagena",
+  "name": "Cámara de Comercio de Cartagena",
+  "type": "org",
+  "category": "chamber",
+  "country": "Colombia",
+  "city": "Cartagena",
+  "website": "https://www.camaracartagena.org.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — chamber",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Bolívar coastal chamber.",
+   "description": "Bolívar coastal chamber."
+  }
+ },
+ {
+  "id": "co-camara-de-comercio-de-pereira",
+  "name": "Cámara de Comercio de Pereira",
+  "type": "org",
+  "category": "chamber",
+  "country": "Colombia",
+  "city": "Pereira",
+  "website": "https://www.camaradecomerciopereira.org.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — chamber",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Risaralda coffee-region chamber.",
+   "description": "Risaralda coffee-region chamber."
+  }
+ },
+ {
+  "id": "co-camara-de-comercio-de-manizales-por-caldas",
+  "name": "Cámara de Comercio de Manizales por Caldas",
+  "type": "org",
+  "category": "chamber",
+  "country": "Colombia",
+  "city": "Manizales",
+  "website": "https://www.ccmpc.org.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — chamber",
+  "geo": {
+   "precision": "address",
+   "address": "Cra 23 No. 26 - 60",
+   "city": "Manizales",
+   "country": "Colombia",
+   "source_url": "https://www.ccmpc.org.co",
+   "lat": 5.066891,
+   "lng": -75.506666
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Caldas chamber.",
+   "description": "Caldas chamber."
+  }
+ },
+ {
+  "id": "co-camara-de-comercio-de-cucuta",
+  "name": "Cámara de Comercio de Cúcuta",
+  "type": "org",
+  "category": "chamber",
+  "country": "Colombia",
+  "city": "Cúcuta",
+  "website": "https://www.camaracucuta.org.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — chamber",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Norte de Santander border chamber.",
+   "description": "Norte de Santander border chamber."
+  }
+ },
+ {
+  "id": "co-ley-2169-de-2021-carbono-neutralidad-y-resiliencia",
+  "name": "Ley 2169 de 2021 (carbono neutralidad y resiliencia)",
+  "type": "policy",
+  "category": "policy",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.minambiente.gov.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — policy",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Framework law for carbon neutrality, climate resilience and low-carbon development.",
+   "description": "Framework law for carbon neutrality, climate resilience and low-carbon development."
+  }
+ },
+ {
+  "id": "co-ndc-colombia-actualizacion-2020",
+  "name": "NDC Colombia (actualización 2020)",
+  "type": "policy",
+  "category": "policy",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.minambiente.gov.co/cambio-climatico-y-gestion-del-riesgo/documentos-oficiales-contribuciones-nacionalmente-determinadas/",
+  "page": null,
+  "notes": "Colombia actor list v1 — policy",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Nationally determined contribution: mitigation, adaptation and means of implementation.",
+   "description": "Nationally determined contribution: mitigation, adaptation and means of implementation."
+  }
+ },
+ {
+  "id": "co-programa-nacional-de-carbono-neutralidad-y-resiliencia-climatica",
+  "name": "Programa Nacional de Carbono Neutralidad y Resiliencia Climática",
+  "type": "policy",
+  "category": "policy",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://carbononeutral.minambiente.gov.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — policy",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "National program for GHG reduction and adaptive capacity (NDC/Ley 2169).",
+   "description": "National program for GHG reduction and adaptive capacity (NDC/Ley 2169)."
+  }
+ },
+ {
+  "id": "co-sisclima-sistema-nacional-de-cambio-climatico",
+  "name": "SISCLIMA – Sistema Nacional de Cambio Climático",
+  "type": "policy",
+  "category": "policy",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.minambiente.gov.co/cambio-climatico-y-gestion-del-riesgo/sistema-nacional-de-cambio-climatico-sisclima/",
+  "page": null,
+  "notes": "Colombia actor list v1 — policy",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "National climate governance system coordinating public and private actors.",
+   "description": "National climate governance system coordinating public and private actors."
+  }
+ },
+ {
+  "id": "co-estrategia-colombia-carbono-neutral-2050-e2050",
+  "name": "Estrategia Colombia Carbono Neutral 2050 (E2050)",
+  "type": "policy",
+  "category": "policy",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.minambiente.gov.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — policy",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Long-term low-emissions development strategy aligned with Paris Agreement.",
+   "description": "Long-term low-emissions development strategy aligned with Paris Agreement."
+  }
+ },
+ {
+  "id": "co-taxonomia-verde-colombia-minhacienda-uvt",
+  "name": "Taxonomía verde Colombia (MinHacienda / UVT)",
+  "type": "policy",
+  "category": "policy",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.minhacienda.gov.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — policy",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Green taxonomy defining eligible sustainable economic activities.",
+   "description": "Green taxonomy defining eligible sustainable economic activities."
+  }
+ },
+ {
+  "id": "co-resolucion-creg-174-2021-autogeneracion-solar",
+  "name": "Resolución CREG 174/2021 (autogeneración solar)",
+  "type": "policy",
+  "category": "policy",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.creg.gov.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — policy",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Grid rules enabling distributed solar self-generation and connection.",
+   "description": "Grid rules enabling distributed solar self-generation and connection."
+  }
+ },
+ {
+  "id": "co-resolucion-upme-203-2020-autogeneracion",
+  "name": "Resolución UPME 203/2020 (autogeneración)",
+  "type": "policy",
+  "category": "policy",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www1.upme.gov.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — policy",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Technical regulation for small-scale renewable self-generation.",
+   "description": "Technical regulation for small-scale renewable self-generation."
+  }
+ },
+ {
+  "id": "co-politica-nacional-de-gestion-del-riesgo-de-desastres",
+  "name": "Política Nacional de Gestión del Riesgo de Desastres",
+  "type": "policy",
+  "category": "policy",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.gestiondelriesgo.gov.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — policy",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Disaster risk policy linked to climate adaptation.",
+   "description": "Disaster risk policy linked to climate adaptation."
+  }
+ },
+ {
+  "id": "co-plan-nacional-de-adaptacion-al-cambio-climatico-pnacc",
+  "name": "Plan Nacional de Adaptación al Cambio Climático (PNACC)",
+  "type": "policy",
+  "category": "policy",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.minambiente.gov.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — policy",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "National adaptation planning instrument under MinAmbiente.",
+   "description": "National adaptation planning instrument under MinAmbiente."
+  }
+ },
+ {
+  "id": "co-semana-sostenible",
+  "name": "Semana Sostenible",
+  "type": "org",
+  "category": "media",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.semana.com/sostenible/",
+  "page": null,
+  "notes": "Colombia actor list v1 — media",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Digital sustainability and climate coverage (Grupo Semana).",
+   "description": "Digital sustainability and climate coverage (Grupo Semana)."
+  }
+ },
+ {
+  "id": "co-portafolio",
+  "name": "Portafolio",
+  "type": "org",
+  "category": "media",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.portafolio.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — media",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Business and economy news including energy transition.",
+   "description": "Business and economy news including energy transition."
+  }
+ },
+ {
+  "id": "co-la-republica",
+  "name": "La República",
+  "type": "org",
+  "category": "media",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.larepublica.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — media",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Business newspaper covering green finance and policy.",
+   "description": "Business newspaper covering green finance and policy."
+  }
+ },
+ {
+  "id": "co-forbes-colombia",
+  "name": "Forbes Colombia",
+  "type": "org",
+  "category": "media",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://forbes.co/",
+  "page": null,
+  "notes": "Colombia actor list v1 — media",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Business media featuring innovation and sustainability leaders.",
+   "description": "Business media featuring innovation and sustainability leaders."
+  }
+ },
+ {
+  "id": "co-el-espectador",
+  "name": "El Espectador",
+  "type": "org",
+  "category": "media",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.elespectador.com/",
+  "page": null,
+  "notes": "Colombia actor list v1 — media",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "National newspaper with environment and climate desk.",
+   "description": "National newspaper with environment and climate desk."
+  }
+ },
+ {
+  "id": "co-valora-analitik",
+  "name": "Valora Analitik",
+  "type": "org",
+  "category": "media",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.valoraanalitik.com/",
+  "page": null,
+  "notes": "Colombia actor list v1 — media",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Financial and economic analysis including energy markets.",
+   "description": "Financial and economic analysis including energy markets."
+  }
+ },
+ {
+  "id": "co-dinero",
+  "name": "Dinero",
+  "type": "org",
+  "category": "media",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.dinero.com/",
+  "page": null,
+  "notes": "Colombia actor list v1 — media",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Business magazine on companies, markets and policy.",
+   "description": "Business magazine on companies, markets and policy."
+  }
+ },
+ {
+  "id": "co-blu-radio",
+  "name": "Blu Radio",
+  "type": "org",
+  "category": "media",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.bluradio.com/",
+  "page": null,
+  "notes": "Colombia actor list v1 — media",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "News radio with national economy and environment coverage.",
+   "description": "News radio with national economy and environment coverage."
+  }
+ },
+ {
+  "id": "co-rcn-radio-noticias",
+  "name": "RCN Radio Noticias",
+  "type": "org",
+  "category": "media",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.noticiasrcn.com/",
+  "page": null,
+  "notes": "Colombia actor list v1 — media",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "National news network covering climate and infrastructure.",
+   "description": "National news network covering climate and infrastructure."
+  }
+ },
+ {
+  "id": "co-energia-estrategica",
+  "name": "Energía Estratégica",
+  "type": "org",
+  "category": "media",
+  "country": "Colombia",
+  "city": "Bogotá",
+  "website": "https://www.energiaestrategica.com/",
+  "page": null,
+  "notes": "Colombia actor list v1 — media",
+  "geo": {
+   "lat": null,
+   "lng": null,
+   "address": null,
+   "city": null,
+   "country": "Colombia",
+   "precision": "country",
+   "source_url": null
+  },
+  "nexus": {
+   "card_slug": null
+  },
+  "card": {
+   "ecosystem_role": "Specialized media on renewables and energy transition in LATAM.",
+   "description": "Specialized media on renewables and energy transition in LATAM."
+  }
+ }
+]
